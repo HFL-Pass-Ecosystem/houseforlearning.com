@@ -11,7 +11,7 @@ services:
   - type: web
     runtime: static
     name: hfl-learning-site
-    branch: own-site
+    branch: main
     buildCommand: echo "Static site, no build step"
     staticPublishPath: ./site
     headers:
