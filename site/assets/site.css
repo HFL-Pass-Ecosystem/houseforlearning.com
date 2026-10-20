@@ -207,6 +207,11 @@ form.quiz fieldset.wrong{border-color:#b5592a;border-width:2px}
 .lang-nat[dir="rtl"]{text-align:right}
 .lang-en{display:block;font-size:13px;color:var(--muted)}
 .lang-none{margin:0;font-size:14px}
+.lang-opt{position:relative;padding-inline-end:36px}.lang-opt[aria-current="true"]::after{content:'\2713';position:absolute;inset-inline-end:12px;top:50%;transform:translateY(-50%);font-weight:700;font-size:18px;color:var(--acc)}
+.lang-panel{overflow-y:auto;overscroll-behavior:contain}.lang-more{flex:none;display:grid;gap:8px;border-top:1px solid var(--line);padding-top:10px}.lang-more[hidden],.lang-req[hidden]{display:none}
+.lang-sub{margin:4px 0 0;font-weight:700;font-size:15px}.lang-more-p{margin:0;font-size:14px;color:var(--muted);max-width:none}
+.lang-req{display:grid;gap:8px}.lang-field{display:grid;gap:3px}.lang-field label{font-size:14px;font-weight:600}
+.lang-field input,.lang-field select{font:inherit;font-size:15px;padding:8px 10px;min-height:42px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--ink);max-width:100%}
 .lang-note{margin:0 0 12px;font-weight:600;max-width:none}
 .lang-acts{display:flex;flex-wrap:wrap;gap:8px}
 @media (max-width:640px){.lang-panel{left:16px;right:16px;width:auto;top:64px;max-height:calc(100vh - 80px)}}

@@ -25,6 +25,8 @@
       var open = t.getAttribute('aria-expanded') !== 'true';
       t.setAttribute('aria-expanded', String(open));
       if (nav) nav.classList.toggle('open', open);
+      // keep the whole open menu on screen, whatever the header height (the menu scrolls inside)
+      if (nav && open) nav.style.maxHeight = Math.max(200, window.innerHeight - nav.getBoundingClientRect().top) + 'px';
       return;
     }
     var c = e.target.closest ? e.target.closest('[data-cookie]') : null;
