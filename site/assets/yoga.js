@@ -1130,7 +1130,7 @@ const COURSE_WELCOME=`<div class="panel cwel"><canvas data-k="crescent" role="im
  <p>Come as you are. Some days your body will feel light and some days stiff; both are part of practice. Go slowly, breathe, and be kind to yourself. Six weeks from now, I hope yoga will feel like an old friend you meet each morning.</p>
  <p class="hint">Crescent lunge, our own drawing. You will meet the low lunge (Rider pose, B-9) in Week 4; raise the arms only when the legs feel steady.</p></div></div>
 <div class="panel"><h3>About the author</h3>
- <p>This chapter is written by <strong>[Your name]</strong>, from Karnataka, India. My grandfather, Sri V. S. Ramacharya, was an ardent student of physical culture and taught it to me himself. My father, <strong>[Father's name]</strong>, made sure our family always respected good physical culture.</p>
+ <p>The author of this chapter is from Karnataka, India. My grandfather, Sri V. S. Ramacharya, was an ardent student of physical culture and taught it to me himself.</p>
  <p>What I share here comes from that lineage and from my family's teachings. It is my personal view of practice, one path among many, offered with respect for every teacher and tradition.</p></div>`;
 const COURSE_BASICS=[
  ["Why practise","Many people find that regular, gentle yoga helps them feel more flexible, steadier on their feet, calmer in the mind and more aware of their breath. Results differ from person to person; enjoy the practice for its own sake."],
