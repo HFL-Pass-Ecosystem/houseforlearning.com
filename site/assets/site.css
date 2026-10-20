@@ -25,6 +25,11 @@ strong{font-weight:600}
 .btn-sm{min-height:40px;padding:8px 14px;font-size:14px;white-space:nowrap}
 .ctas{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
 .site-head{position:sticky;top:0;z-index:50;background:var(--head-bg);border-bottom:1px solid var(--line)}
+.trail{border-top:1px solid var(--line)}.trail-row{display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;padding-top:6px;padding-bottom:6px;font-size:14px}
+.trail-btn{display:inline-flex;align-items:center;gap:4px;min-height:36px;padding:4px 10px;border:1px solid var(--line);border-radius:999px;background:transparent;color:inherit;font:inherit;text-decoration:none;cursor:pointer}
+.trail-btn:hover{border-color:currentColor}.trail nav{min-width:0;flex:1 1 200px}
+.crumbs{display:flex;flex-wrap:wrap;gap:2px 6px;margin:0;padding:0;list-style:none}.crumbs li+li::before{content:'\203A';margin-right:6px;opacity:.6}
+.crumbs a{color:inherit;text-underline-offset:3px}.crumbs [aria-current]{font-weight:600}
 .site-head .wrap{max-width:1440px}
 .head-row{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:66px;position:relative}
 .brand{display:inline-flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;min-width:0}

@@ -10,6 +10,14 @@
     if (nav) nav.classList.remove('open');
     return t;
   }
+  // Back / Forward in the trail bar: history when the visitor came from this site (or moved inside the preview), else Home.
+  document.addEventListener('click', function (e) {
+    var h = e.target.closest ? e.target.closest('[data-hist]') : null;
+    if (!h) return;
+    if (h.getAttribute('data-hist') === 'forward') { e.preventDefault(); history.forward(); return; }
+    var inside = (document.referrer && document.referrer.indexOf(location.origin) === 0) || location.hash.indexOf('#/') === 0;
+    if (inside && history.length > 1) { e.preventDefault(); history.back(); }
+  });
   document.addEventListener('click', function (e) {
     var t = e.target.closest ? e.target.closest('[data-menu-toggle]') : null;
     if (t) {
