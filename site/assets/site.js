@@ -31,12 +31,29 @@
     var t = closeMenu();
     if (t) t.focus();
   });
+  /* Contact forms (owner 20 Oct 2026): Send opens the visitor's own email app with the message filled in,
+     addressed to the site's contact. Nothing is sent from the page itself. */
+  function mailForm(f) {
+    var to = f.getAttribute('data-mailto');
+    if (!to) return false;
+    var lines = [];
+    Array.prototype.forEach.call(f.elements, function (el) {
+      if (!el.name || !el.value || el.type === 'checkbox' || el.type === 'radio' || el.type === 'submit' || el.type === 'reset' || el.type === 'button') return;
+      var lab = el.id ? f.querySelector('label[for="' + el.id + '"]') : null;
+      var n = lab ? lab.textContent.replace(/\s*\(optional\)\s*/i, '').trim() : el.name;
+      lines.push(n + ': ' + el.value);
+    });
+    var t = f.querySelector('[name=topic],[name=route]');
+    var subj = (f.getAttribute('data-subject') || 'Website message') + (t && t.value ? ': ' + t.value : '');
+    window.location.href = 'mailto:' + to + '?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(lines.join('\n'));
+    return true;
+  }
   document.addEventListener('submit', function (e) {
     var f = e.target;
     if (!f || !f.hasAttribute) return;
     if (f.hasAttribute('data-offline')) {
-      /* Contact forms do not send anything yet. */
       e.preventDefault();
+      mailForm(f);
       var s = f.querySelector('.form-status');
       if (s) { s.textContent = f.getAttribute('data-thanks'); s.hidden = false; s.focus(); }
       return;
