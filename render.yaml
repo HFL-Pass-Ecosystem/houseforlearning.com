@@ -1,0 +1,37 @@
+# Render Blueprint: the House for Learning (houseforlearning.com) static site (AHFL side only; publishes only the site/ folder; nothing else is published).
+# Each site publishes one folder as-is; there is nothing to build, so buildCommand only echoes.
+# Plan: free. Render static sites always run on the free tier, so the Blueprint spec has no plan field for them.
+# Nothing here is applied until someone creates the Blueprint in the Render dashboard.
+#
+# Content-Security-Policy: pages load their own CSS/JS plus Google Fonts only. The pages have no inline
+# scripts, inline styles or event handlers (check.py enforces this), so 'unsafe-inline' is not needed.
+# JSON-LD blocks are data, not script, and are not affected. data: images cover the inline SVG favicon.
+
+services:
+  - type: web
+    runtime: static
+    name: hfl-learning-site
+    branch: own-site
+    buildCommand: echo "Static site, no build step"
+    staticPublishPath: ./site
+    headers:
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
+      - path: /*
+        name: X-Frame-Options
+        value: SAMEORIGIN
+      - path: /*
+        name: Content-Security-Policy
+        value: "default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; form-action 'self'; frame-ancestors 'self'; base-uri 'self'; object-src 'none'"
+    routes:
+      # the yoga chapter's old address
+      - type: redirect
+        source: /learning/yoga/
+        destination: /yoga.html
+      - type: redirect
+        source: /learning/yoga
+        destination: /yoga.html
