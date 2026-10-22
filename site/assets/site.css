@@ -25,6 +25,7 @@ strong{font-weight:600}
 .btn-sm{min-height:40px;padding:8px 14px;font-size:14px;white-space:nowrap}
 .ctas{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
 .site-head{position:sticky;top:0;z-index:50;background:var(--head-bg);border-bottom:1px solid var(--line)}
+.pager{border-top:1px solid var(--line);margin-top:8px}.pager-row{display:flex;justify-content:space-between;gap:12px;padding-top:18px;padding-bottom:18px}.pager-link{display:flex;flex-direction:column;gap:2px;text-decoration:none;color:inherit;padding:10px 14px;border:1px solid var(--line);min-width:0;max-width:48%}.pager-link:hover,.pager-link:focus-visible{border-color:currentColor}.pager-next{text-align:right;margin-left:auto}.pager-k{font-size:13px;opacity:.75}.pager-n{font-weight:600}
 .trail{border-top:1px solid var(--line)}.trail-row{display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;padding-top:6px;padding-bottom:6px;font-size:14px}
 .trail-btn{display:inline-flex;align-items:center;gap:4px;min-height:36px;padding:4px 10px;border:1px solid var(--line);border-radius:999px;background:transparent;color:inherit;font:inherit;text-decoration:none;cursor:pointer}
 .trail-btn:hover{border-color:currentColor}.trail nav{min-width:0;flex:1 1 200px}
