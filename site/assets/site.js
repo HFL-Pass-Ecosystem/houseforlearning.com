@@ -217,7 +217,7 @@
     D.documentElement.classList.add('enh-rv');
     if (!io) io = new IntersectionObserver(function (es) {
       es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
-    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.06 });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0 });
     var sel = 'main .sec .sec-head, main .sec .split > *, main .sec .sec-body > *, main .sec .cards > li, main .cta .wrap > *, main .hero .hero-grid > *';
     D.querySelectorAll(sel).forEach(function (n) {
       if (n.classList.contains('rv')) return;
