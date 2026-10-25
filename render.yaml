@@ -10,8 +10,9 @@
 services:
   - type: web
     runtime: static
-    name: hfl-learning-site
-    branch: main
+    name: hflpass-hfl-site
+    repo: https://github.com/HFL-Pass-Ecosystem/houseforlearning.com
+    branch: hfl-pass-blueprint
     buildCommand: echo "Static site, no build step"
     staticPublishPath: ./site
     headers:
@@ -26,7 +27,7 @@ services:
         value: SAMEORIGIN
       - path: /*
         name: Content-Security-Policy
-        value: "default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://ahfl-members-test.onrender.com; form-action 'self'; frame-ancestors 'self'; base-uri 'self'; object-src 'none'"
+        value: "default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://hflpass-desk.onrender.com; form-action 'self'; frame-ancestors 'self'; base-uri 'self'; object-src 'none'"
     routes:
       # old Wix addresses keep working
       - {type: redirect, source: /about, destination: /about.html}
