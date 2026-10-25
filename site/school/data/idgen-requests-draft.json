@@ -1,0 +1,2373 @@
+{
+ "note": "Draft only. Nothing has been sent. A person with the Author role submits; a Checker approves.",
+ "requests": [
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-ESL-E1-ESL",
+   "fields": {
+    "title": "ESL level 1 (Pre-A1 to A1), English as a Second Language bridge",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-ESL-E2-ESL",
+   "fields": {
+    "title": "ESL level 2 (A1 to A2), English as a Second Language bridge",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-ESL-E3-ESL",
+   "fields": {
+    "title": "ESL level 3 (A2), English as a Second Language bridge",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-ESL-E4-ESL",
+   "fields": {
+    "title": "ESL level 4 (A2 to B1, bridge to main class), English as a Second Language bridge",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-01-ENG",
+   "fields": {
+    "title": "Grade 1, English",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-01-MAT",
+   "fields": {
+    "title": "Grade 1, Mathematics",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-01-SCI",
+   "fields": {
+    "title": "Grade 1, Science",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-01-SST",
+   "fields": {
+    "title": "Grade 1, Social Studies",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-01-COM",
+   "fields": {
+    "title": "Grade 1, Computing and Digital Skills",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-01-VAL",
+   "fields": {
+    "title": "Grade 1, Moral and Value Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-01-ARA",
+   "fields": {
+    "title": "Grade 1, Arabic",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "AR",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-01-HIN",
+   "fields": {
+    "title": "Grade 1, Hindi",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "HI",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-01-FRE",
+   "fields": {
+    "title": "Grade 1, French",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "FR",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-01-ISL",
+   "fields": {
+    "title": "Grade 1, Islamic Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-02-ENG",
+   "fields": {
+    "title": "Grade 2, English",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-02-MAT",
+   "fields": {
+    "title": "Grade 2, Mathematics",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-02-SCI",
+   "fields": {
+    "title": "Grade 2, Science",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-02-SST",
+   "fields": {
+    "title": "Grade 2, Social Studies",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-02-COM",
+   "fields": {
+    "title": "Grade 2, Computing and Digital Skills",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-02-VAL",
+   "fields": {
+    "title": "Grade 2, Moral and Value Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-02-ARA",
+   "fields": {
+    "title": "Grade 2, Arabic",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "AR",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-02-HIN",
+   "fields": {
+    "title": "Grade 2, Hindi",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "HI",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-02-FRE",
+   "fields": {
+    "title": "Grade 2, French",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "FR",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-02-ISL",
+   "fields": {
+    "title": "Grade 2, Islamic Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-03-ENG",
+   "fields": {
+    "title": "Grade 3, English",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-03-MAT",
+   "fields": {
+    "title": "Grade 3, Mathematics",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-03-SCI",
+   "fields": {
+    "title": "Grade 3, Science",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-03-SST",
+   "fields": {
+    "title": "Grade 3, Social Studies",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-03-COM",
+   "fields": {
+    "title": "Grade 3, Computing and Digital Skills",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-03-VAL",
+   "fields": {
+    "title": "Grade 3, Moral and Value Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-03-ARA",
+   "fields": {
+    "title": "Grade 3, Arabic",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "AR",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-03-HIN",
+   "fields": {
+    "title": "Grade 3, Hindi",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "HI",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-03-FRE",
+   "fields": {
+    "title": "Grade 3, French",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "FR",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-03-ISL",
+   "fields": {
+    "title": "Grade 3, Islamic Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-04-ENG",
+   "fields": {
+    "title": "Grade 4, English",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-04-MAT",
+   "fields": {
+    "title": "Grade 4, Mathematics",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-04-SCI",
+   "fields": {
+    "title": "Grade 4, Science",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-04-SST",
+   "fields": {
+    "title": "Grade 4, Social Studies",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-04-COM",
+   "fields": {
+    "title": "Grade 4, Computing and Digital Skills",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-04-VAL",
+   "fields": {
+    "title": "Grade 4, Moral and Value Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-04-ARA",
+   "fields": {
+    "title": "Grade 4, Arabic",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "AR",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-04-HIN",
+   "fields": {
+    "title": "Grade 4, Hindi",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "HI",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-04-FRE",
+   "fields": {
+    "title": "Grade 4, French",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "FR",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-04-ISL",
+   "fields": {
+    "title": "Grade 4, Islamic Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-05-ENG",
+   "fields": {
+    "title": "Grade 5, English",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-05-MAT",
+   "fields": {
+    "title": "Grade 5, Mathematics",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-05-SCI",
+   "fields": {
+    "title": "Grade 5, Science",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-05-SST",
+   "fields": {
+    "title": "Grade 5, Social Studies",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-05-COM",
+   "fields": {
+    "title": "Grade 5, Computing and Digital Skills",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-05-VAL",
+   "fields": {
+    "title": "Grade 5, Moral and Value Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-05-ARA",
+   "fields": {
+    "title": "Grade 5, Arabic",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "AR",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-05-HIN",
+   "fields": {
+    "title": "Grade 5, Hindi",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "HI",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-05-FRE",
+   "fields": {
+    "title": "Grade 5, French",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "FR",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-05-ISL",
+   "fields": {
+    "title": "Grade 5, Islamic Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-06-ENG",
+   "fields": {
+    "title": "Grade 6, English",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-06-MAT",
+   "fields": {
+    "title": "Grade 6, Mathematics",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-06-SCI",
+   "fields": {
+    "title": "Grade 6, Science",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-06-SST",
+   "fields": {
+    "title": "Grade 6, Social Studies",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-06-COM",
+   "fields": {
+    "title": "Grade 6, Computing and Digital Skills",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-06-VAL",
+   "fields": {
+    "title": "Grade 6, Moral and Value Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-06-ARA",
+   "fields": {
+    "title": "Grade 6, Arabic",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "AR",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-06-HIN",
+   "fields": {
+    "title": "Grade 6, Hindi",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "HI",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-06-FRE",
+   "fields": {
+    "title": "Grade 6, French",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "FR",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-06-ISL",
+   "fields": {
+    "title": "Grade 6, Islamic Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-07-ENG",
+   "fields": {
+    "title": "Grade 7, English",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-07-MAT",
+   "fields": {
+    "title": "Grade 7, Mathematics",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-07-SCI",
+   "fields": {
+    "title": "Grade 7, Science",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-07-SST",
+   "fields": {
+    "title": "Grade 7, Social Studies",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-07-COM",
+   "fields": {
+    "title": "Grade 7, Computing and Digital Skills",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-07-VAL",
+   "fields": {
+    "title": "Grade 7, Moral and Value Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-07-ARA",
+   "fields": {
+    "title": "Grade 7, Arabic",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "AR",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-07-HIN",
+   "fields": {
+    "title": "Grade 7, Hindi",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "HI",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-07-FRE",
+   "fields": {
+    "title": "Grade 7, French",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "FR",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-07-ISL",
+   "fields": {
+    "title": "Grade 7, Islamic Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-08-ENG",
+   "fields": {
+    "title": "Grade 8, English",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-08-MAT",
+   "fields": {
+    "title": "Grade 8, Mathematics",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-08-SCI",
+   "fields": {
+    "title": "Grade 8, Science",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-08-SST",
+   "fields": {
+    "title": "Grade 8, Social Studies",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-08-COM",
+   "fields": {
+    "title": "Grade 8, Computing and Digital Skills",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-08-VAL",
+   "fields": {
+    "title": "Grade 8, Moral and Value Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-08-ARA",
+   "fields": {
+    "title": "Grade 8, Arabic",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "AR",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-08-HIN",
+   "fields": {
+    "title": "Grade 8, Hindi",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "HI",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-08-FRE",
+   "fields": {
+    "title": "Grade 8, French",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "FR",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-08-ISL",
+   "fields": {
+    "title": "Grade 8, Islamic Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-09-ENG",
+   "fields": {
+    "title": "Grade 9, English",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-09-MAT",
+   "fields": {
+    "title": "Grade 9, Mathematics",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-09-SCI",
+   "fields": {
+    "title": "Grade 9, Science",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-09-SST",
+   "fields": {
+    "title": "Grade 9, Social Studies",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-09-CSC",
+   "fields": {
+    "title": "Grade 9, Computer Science and Artificial Intelligence",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-09-VAL",
+   "fields": {
+    "title": "Grade 9, Moral and Value Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-09-ARA",
+   "fields": {
+    "title": "Grade 9, Arabic",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "AR",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-09-HIN",
+   "fields": {
+    "title": "Grade 9, Hindi",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "HI",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-09-FRE",
+   "fields": {
+    "title": "Grade 9, French",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "FR",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-09-ISL",
+   "fields": {
+    "title": "Grade 9, Islamic Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-10-ENG",
+   "fields": {
+    "title": "Grade 10, English",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-10-MAT",
+   "fields": {
+    "title": "Grade 10, Mathematics",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-10-SCI",
+   "fields": {
+    "title": "Grade 10, Science",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-10-SST",
+   "fields": {
+    "title": "Grade 10, Social Studies",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-10-CSC",
+   "fields": {
+    "title": "Grade 10, Computer Science and Artificial Intelligence",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-10-VAL",
+   "fields": {
+    "title": "Grade 10, Moral and Value Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-10-ARA",
+   "fields": {
+    "title": "Grade 10, Arabic",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "AR",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-10-HIN",
+   "fields": {
+    "title": "Grade 10, Hindi",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "HI",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-10-FRE",
+   "fields": {
+    "title": "Grade 10, French",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "FR",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-10-ISL",
+   "fields": {
+    "title": "Grade 10, Islamic Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-11-COMMERCE-ENG",
+   "fields": {
+    "title": "Grade 11 Commerce stream, English",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-11-COMMERCE-PED",
+   "fields": {
+    "title": "Grade 11 Commerce stream, Physical Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-11-COMMERCE-VAL",
+   "fields": {
+    "title": "Grade 11 Commerce stream, Moral and Value Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-11-COMMERCE-MAT",
+   "fields": {
+    "title": "Grade 11 Commerce stream, Mathematics",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-11-COMMERCE-ACC",
+   "fields": {
+    "title": "Grade 11 Commerce stream, Accountancy",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-11-COMMERCE-BST",
+   "fields": {
+    "title": "Grade 11 Commerce stream, Business Studies",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-11-COMMERCE-ECO",
+   "fields": {
+    "title": "Grade 11 Commerce stream, Economics",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-11-HUMANITIES-ENG",
+   "fields": {
+    "title": "Grade 11 Humanities stream, English",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-11-HUMANITIES-PED",
+   "fields": {
+    "title": "Grade 11 Humanities stream, Physical Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-11-HUMANITIES-VAL",
+   "fields": {
+    "title": "Grade 11 Humanities stream, Moral and Value Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-11-HUMANITIES-HIS",
+   "fields": {
+    "title": "Grade 11 Humanities stream, History",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-11-HUMANITIES-GEO",
+   "fields": {
+    "title": "Grade 11 Humanities stream, Geography",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-11-HUMANITIES-POL",
+   "fields": {
+    "title": "Grade 11 Humanities stream, Political Science",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-11-HUMANITIES-PSY",
+   "fields": {
+    "title": "Grade 11 Humanities stream, Psychology",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-11-SCIENCE-ENG",
+   "fields": {
+    "title": "Grade 11 Science stream, English",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-11-SCIENCE-PED",
+   "fields": {
+    "title": "Grade 11 Science stream, Physical Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-11-SCIENCE-VAL",
+   "fields": {
+    "title": "Grade 11 Science stream, Moral and Value Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-11-SCIENCE-MAT",
+   "fields": {
+    "title": "Grade 11 Science stream, Mathematics",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-11-SCIENCE-PHY",
+   "fields": {
+    "title": "Grade 11 Science stream, Physics",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-11-SCIENCE-CHE",
+   "fields": {
+    "title": "Grade 11 Science stream, Chemistry",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-11-SCIENCE-BIO",
+   "fields": {
+    "title": "Grade 11 Science stream, Biology",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-11-SCIENCE-CSC",
+   "fields": {
+    "title": "Grade 11 Science stream, Computer Science and Artificial Intelligence",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-12-COMMERCE-ENG",
+   "fields": {
+    "title": "Grade 12 Commerce stream, English",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-12-COMMERCE-PED",
+   "fields": {
+    "title": "Grade 12 Commerce stream, Physical Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-12-COMMERCE-VAL",
+   "fields": {
+    "title": "Grade 12 Commerce stream, Moral and Value Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-12-COMMERCE-MAT",
+   "fields": {
+    "title": "Grade 12 Commerce stream, Mathematics",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-12-COMMERCE-ACC",
+   "fields": {
+    "title": "Grade 12 Commerce stream, Accountancy",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-12-COMMERCE-BST",
+   "fields": {
+    "title": "Grade 12 Commerce stream, Business Studies",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-12-COMMERCE-ECO",
+   "fields": {
+    "title": "Grade 12 Commerce stream, Economics",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-12-HUMANITIES-ENG",
+   "fields": {
+    "title": "Grade 12 Humanities stream, English",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-12-HUMANITIES-PED",
+   "fields": {
+    "title": "Grade 12 Humanities stream, Physical Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-12-HUMANITIES-VAL",
+   "fields": {
+    "title": "Grade 12 Humanities stream, Moral and Value Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-12-HUMANITIES-HIS",
+   "fields": {
+    "title": "Grade 12 Humanities stream, History",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-12-HUMANITIES-GEO",
+   "fields": {
+    "title": "Grade 12 Humanities stream, Geography",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-12-HUMANITIES-POL",
+   "fields": {
+    "title": "Grade 12 Humanities stream, Political Science",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-12-HUMANITIES-PSY",
+   "fields": {
+    "title": "Grade 12 Humanities stream, Psychology",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-12-SCIENCE-ENG",
+   "fields": {
+    "title": "Grade 12 Science stream, English",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-12-SCIENCE-PED",
+   "fields": {
+    "title": "Grade 12 Science stream, Physical Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-12-SCIENCE-VAL",
+   "fields": {
+    "title": "Grade 12 Science stream, Moral and Value Education",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-12-SCIENCE-MAT",
+   "fields": {
+    "title": "Grade 12 Science stream, Mathematics",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-12-SCIENCE-PHY",
+   "fields": {
+    "title": "Grade 12 Science stream, Physics",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-12-SCIENCE-CHE",
+   "fields": {
+    "title": "Grade 12 Science stream, Chemistry",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-12-SCIENCE-BIO",
+   "fields": {
+    "title": "Grade 12 Science stream, Biology",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  },
+  {
+   "kind": "NEW",
+   "class": "CRS",
+   "provisional_code": "PCR-GRADE-12-SCIENCE-CSC",
+   "fields": {
+    "title": "Grade 12 Science stream, Computer Science and Artificial Intelligence",
+    "site": "HFL",
+    "ecosystem": "LMS",
+    "sector": "OPEN: a school-education sector must be added by a Registrar and approved by a Checker",
+    "level": "OPEN: grade-to-level mapping to be confirmed (proposal in OPEN-QUESTIONS.md)",
+    "ctype": "OPEN",
+    "country": "AE",
+    "language": "EN",
+    "date": "OPEN"
+   }
+  }
+ ]
+}
