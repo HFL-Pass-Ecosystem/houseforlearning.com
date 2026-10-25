@@ -162,3 +162,64 @@
   });
   document.addEventListener('keydown',function(e){if(e.key==='Escape')closeAll(null);});
 })();
+
+  (function () {
+    var el = document.getElementById('mk-data'); if (!el) return;
+    var D = JSON.parse(el.textContent), sel = {}, cart = {}, out = document.getElementById('mk-out'), msg = document.getElementById('mk-sel'), N = {}, GS = {};
+    D.groups.forEach(function (g) { GS[g.id] = g.sectors.map(function (x) { return x.id; }); g.sectors.forEach(function (x) { N[x.id] = x; x.g = g.name; }); });
+    function ids() { return Object.keys(sel).filter(function (k) { return sel[k]; }); }
+    function mk(t, c, x) { var e = document.createElement(t); if (c) e.className = c; if (x) e.textContent = x; return e; }
+    function item(id) {
+      var i = D.items[id], li = mk('li', 'mk-it'), d = mk('div'); d.appendChild(document.createTextNode(i.n)); d.appendChild(mk('small', '', i.s)); if (i.b) d.appendChild(mk('small', 'mk-bm', 'Benchmark, to be confirmed'));
+      var b = mk('button', '', cart[id] ? 'Added' : 'Add'); b.type = 'button'; b.setAttribute('aria-pressed', cart[id] ? 'true' : 'false');
+      b.addEventListener('click', function () { if (cart[id]) delete cart[id]; else cart[id] = { n: i.n, g: ids().map(function (s) { return N[s].name; }).join(', ') }; draw(); drawCart(); });
+      li.appendChild(d); li.appendChild(b); return li;
+    }
+    function list(box, title, arr, empty) {
+      box.appendChild(mk('h4', '', title + ' (' + arr.length + ')'));
+      if (arr.length) { var u = mk('ul'); arr.forEach(function (id) { u.appendChild(item(id)); }); box.appendChild(u); } else box.appendChild(mk('p', 'mk-empty', empty));
+    }
+    function draw() {
+      var s = ids(); out.textContent = '';
+      D.cats.forEach(function (c) {
+        var core = D.core[c.id] || [], seen = {}, cons = [], vars = [];
+        core.forEach(function (id) { seen[id] = 1; });
+        s.forEach(function (sid) { (N[sid].cat[c.id] || []).forEach(function (id) { if (seen[id]) return; seen[id] = 1; (D.items[id].r ? cons : vars).push(id); }); });
+        var box = mk('section', 'mk-cat'); box.appendChild(mk('h3', '', c.name));
+        list(box, 'Shared core, the same in every sector', core.concat(cons), 'Coming soon.');
+        if (s.length) list(box, 'Shaped to your choice', vars, 'Coming soon for this choice.');
+        out.appendChild(box);
+      });
+      msg.textContent = s.length ? 'Chosen: ' + s.map(function (x) { return N[x].name; }).join(', ') + '.' : 'Nothing chosen yet. Showing the shared core, the same in every sector.';
+      Array.prototype.forEach.call(document.querySelectorAll('.mk-p'), function (g) { g.setAttribute('aria-pressed', sel[g.getAttribute('data-s')] ? 'true' : 'false'); });
+      Array.prototype.forEach.call(document.querySelectorAll('.mk-c'), function (g) { var h = GS[g.getAttribute('data-c')]; g.setAttribute('aria-pressed', h.every(function (x) { return sel[x]; }) ? 'true' : 'false'); });
+    }
+    function drawCart() {
+      var l = document.getElementById('mk-list'), k = Object.keys(cart); l.textContent = ''; document.getElementById('mk-n').textContent = '(' + k.length + ')';
+      k.forEach(function (n) { var li = mk('li'); li.appendChild(mk('span', '', cart[n].n)); var b = mk('button', '', 'Remove'); b.type = 'button'; b.addEventListener('click', function () { delete cart[n]; draw(); drawCart(); }); li.appendChild(b); l.appendChild(li); });
+      if (!k.length) l.appendChild(mk('li', '', 'Nothing added yet. Use Add beside any offer.'));
+    }
+    function tog(t) { var e = t.closest('[data-s],[data-c]'); if (!e) return;
+      if (e.classList.contains('mk-c')) { var h = GS[e.getAttribute('data-c')], all = h.every(function (x) { return sel[x]; }); h.forEach(function (x) { sel[x] = !all; }); }
+      else { var s = e.getAttribute('data-s'); sel[s] = !sel[s]; }
+      draw(); }
+    document.querySelector('.mk-row').addEventListener('click', function (e) { tog(e.target); });
+    document.querySelector('.mk-row').addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); tog(e.target); } });
+    document.getElementById('mk-clear').addEventListener('click', function () { sel = {}; draw(); });
+    document.getElementById('mk-all').addEventListener('click', function () { Object.keys(N).forEach(function (x) { sel[x] = true; }); draw(); });
+    var f = document.getElementById('mk-form'), st = document.getElementById('mk-st'), topic = '';
+    fetch(f.getAttribute('data-mk-desk') + '/api/help/topics?brand=' + encodeURIComponent(f.getAttribute('data-brand'))).then(function (r) { return r.json(); }).then(function (j) { var t = j.topics || []; topic = (t.filter(function (x) { return x.id === 'general'; })[0] || t[0] || {}).id || ''; }).catch(function () { });
+    function say(t) { st.textContent = t; st.hidden = false; st.focus(); }
+    f.addEventListener('submit', function (e) {
+      e.preventDefault(); var k = Object.keys(cart);
+      if (!k.length) { say('Please add at least one offer first.'); return; }
+      var lines = k.map(function (n) { return '- ' + cart[n].n + (cart[n].g ? ' [' + cart[n].g + ']' : ''); }).join('\n');
+      var body = { brand: f.getAttribute('data-brand'), topic: topic, email: document.getElementById('mk-e').value.trim(), mobile: document.getElementById('mk-m').value.trim(), message: 'Marketplace enquiry:\n' + lines, consent: document.getElementById('mk-k').checked, name: 'Marketplace enquiry' };
+      say('Sending your enquiry...');
+      fetch(f.getAttribute('data-mk-desk') + '/api/help/contact', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) })
+        .then(function (r) { return r.json().then(function (j) { return { ok: r.ok, j: j }; }); })
+        .then(function (o) { if (o.ok && o.j.reference) { say('Thank you. Your enquiry is saved. Reference number: ' + o.j.reference + '. ' + (o.j.promise || '')); cart = {}; draw(); drawCart(); } else say((o.j && (o.j.error || o.j.message)) || 'We could not save your enquiry. Please check the fields.'); })
+        .catch(function () { say('We could not reach our message desk just now. Please try again in a minute.'); });
+    });
+    draw(); drawCart();
+  })();
