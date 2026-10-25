@@ -336,7 +336,7 @@ body:has(.site-nav.open) .cookie{display:none}
 .hfl .status-pill{display:inline-block;font:600 12px/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--kick);border:1px solid var(--hl);padding:7px 10px;margin:0 0 14px}
 .hfl .btn[aria-disabled=true]{opacity:.55;cursor:not-allowed}
 .hfl .band-quote{font:500 clamp(24px,3.2vw,38px)/1.2 var(--f-display);margin:0 0 14px}
-.mk{--mk-a:#17324d}
+.mk{--mk-a:#0B66A8}
 .mk-btn{border:1px solid var(--mk-a,#1B6CA8);background:#fff;color:var(--mk-a,#1B6CA8);border-radius:999px;padding:9px 18px;font:inherit;font-weight:700;cursor:pointer}.mk-btn-p{background:var(--mk-a,#1B6CA8);color:#fff}
 .mk-field{display:grid;gap:6px;min-width:0}.mk-check{display:flex;gap:8px;align-items:flex-start;margin:0 0 12px;font-size:14px}
 .mk{max-width:1180px;margin:0 auto 40px}.mk-lead{max-width:780px;margin:0 0 18px;color:var(--lx-mute,#55606B)}
@@ -353,3 +353,76 @@ body:has(.site-nav.open) .cookie{display:none}
 .mk-cat details{margin-top:8px}.mk-cat summary{cursor:pointer;font-weight:600}.mk-bm{font-style:italic}.mk-st{font-weight:600}.mk-lens{font-style:italic}.mk-empty{color:#55606B;font-size:14px;margin:6px 0 0}
 .mk-cart{margin-top:28px;border:1px solid var(--lx-line,#D9D2BF);border-radius:16px;padding:18px;background:#FBF9F3;max-width:640px}.mk-cart ul{list-style:none;margin:0 0 10px;padding:0;display:grid;gap:6px}.mk-cart li{display:flex;justify-content:space-between;gap:8px;font-size:14px}
 .mk-cart li button{border:0;background:none;color:#124F7E;cursor:pointer;font-weight:700}.mk-note{font-size:13px;color:#55606B}.mk-cart .field{margin:0 0 10px}.mk-cart input[type=email],.mk-cart input[type=tel]{width:100%}
+
+.pj{max-width:1000px;margin:0 auto 40px}.pj-lead{max-width:760px;color:#55606B}.pj-svg{display:block;width:100%;max-width:560px;height:auto;margin:10px auto 18px}
+.pj-ring{stroke:var(--mk-a,#17324d);stroke-width:2;stroke-dasharray:3 6}.pj-node circle{fill:#fff;stroke:var(--mk-a,#17324d);stroke-width:2.5}.pj-node.pj-lead circle{fill:var(--mk-a,#17324d)}
+.pj-node.pj-lead .pj-n{fill:#fff}.pj-n{font:700 15px/1 system-ui,sans-serif;fill:var(--mk-a,#17324d)}.pj-l{font:600 12px/1 system-ui,sans-serif;fill:#17222E}
+.pj-node:focus-visible circle,.pj-node:hover circle{stroke-width:4}.pj-c{font:700 17px/1 system-ui,sans-serif;fill:#17222E}.pj-cs{font:13px/1 system-ui,sans-serif;fill:#55606B}
+.pj-list{list-style:none;margin:0 0 22px;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:14px}
+.pj-st{display:flex;gap:14px;border:1px solid #D9D2BF;border-radius:16px;padding:16px;background:linear-gradient(180deg,#FBF9F3,#F6F2E6);min-width:0}
+.pj-no{flex:none;width:34px;height:34px;border-radius:50%;background:var(--mk-a,#17324d);color:#fff;display:grid;place-items:center;font-weight:700}
+.pj-st h3{margin:0 0 4px;font-size:18px}.pj-st h4{margin:10px 0 4px;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:#55606B}
+.pj-st ul{margin:0;padding-left:18px}.pj-say{font-style:italic;margin:0 0 6px}.pj-x{font-weight:600}.pj-eng{margin:10px 0 0}.pj-pr{max-width:760px}.pj-loop{max-width:760px;font-weight:600}
+/* BRAND-2026: "HFL Brand Fonts & Colors" deck (owner, 25 Oct 2026), one palette and one typeface for all four sites.
+   Headers Montserrat Bold, subtitles Montserrat SemiBold, paragraphs Montserrat Regular, notes Montserrat Italic.
+   Three colours: Blue 2172 C (#0F85DB), Green 2270 C (#3CC261), Black. Background white. L156 Almost Ivory (#F2EEE2) stays as the quiet panel tone.
+   Blue and green are the brand marks. Where a colour carries small text or a button fill, the darker blue #0B66A8 is used so it stays readable (white on #0F85DB is 4.0:1, the minimum is 4.5:1). Green is never used for small text on white; where AHFL pages set green text, the darker green #1F7A3A is used. */
+.ams,.yst,.hfl,.ahfl{
+  --bg:#FFFFFF; --surface:#FFFFFF; --panel:#F2EEE2; --ink:#111111; --muted:#444444; --line:#D8D2C0;
+  --acc:#0B66A8; --acc-strong:#0B66A8; --on-acc:#FFFFFF; --blue:#0F85DB; --green:#3CC261; --teal:#0B66A8; --hl:#0B66A8; --kick:#0B66A8; --focus:#0F85DB;
+  --head-bg:rgba(255,255,255,.96);
+  --dark-bg:#111111; --dark-ink:#FFFFFF; --dark-muted:#D6D6D6; --dark-line:rgba(255,255,255,.22); --dark-kicker:#3CC261;
+  --foot-bg:#111111; --foot-ink:#FFFFFF; --foot-muted:#C8C8C8; --foot-acc:#3CC261;
+  --f-display:"Montserrat",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  --f-body:"Montserrat",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  --f-ui:"Montserrat",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  --f-mono:"Montserrat",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  --lx-bg:#FFFFFF; --lx-bg2:#F2EEE2; --lx-card:#FFFFFF; --lx-card2:#FFFFFF; --lx-line:#D8D2C0; --lx-ink:#111111; --lx-mute:#444444; --lx-mute2:#555555;
+  --lx-blue:#0B66A8; --lx-green:#1F7A3A; --lx-navy:#111111; --lx-brass:#0F85DB; --lx-f:"Montserrat",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+}
+body,body.lx-home{background:#FFFFFF;font-family:"Montserrat",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;font-weight:400;color:#111111}
+h1,h2{font-family:"Montserrat",system-ui,sans-serif;font-weight:700}
+h3,h4,.kicker,.lead,.sub-btn,.site-nav a,summary,label{font-family:"Montserrat",system-ui,sans-serif}
+h3,h4{font-weight:600}
+em,i,.note,.card-note,.form-note,small.mk-bm,.mk-lens,.op-note{font-style:italic;font-weight:400}
+.btn,.btn-ghost,.lx-btn{font-family:"Montserrat",system-ui,sans-serif;font-weight:600}
+.btn{background:#0B66A8;border-color:#0B66A8;color:#FFFFFF}.btn-ghost{background:transparent;color:#111111;border-color:#111111}
+.btn:hover{filter:none;background:#0F85DB;border-color:#0F85DB}
+a{color:#0B66A8}
+.mk{--mk-a:#0B66A8}
+.mk-cat,.mk-cart,.pj-st{background:#FFFFFF;border-color:#D8D2C0}
+.mk-cat h4,.mk-note,.mk-it small,.mk-empty{color:#444444}
+.mk-p polygon{fill:#FFFFFF}.mk-p:hover polygon,.mk-p:focus-visible polygon{fill:#F2EEE2}
+/* AMS and Yantra had their own dark / copper booklet themes; white ground and ivory panels now apply to them too. */
+.ams .site-head,.yst .site-head{background:rgba(255,255,255,.96);color:#111111;border-bottom:1px solid #D8D2C0;-webkit-backdrop-filter:none;backdrop-filter:none}
+.ams .site-head a,.ams .site-head .brand,.ams .site-head .brand-name,.ams .site-nav a,.ams .site-nav a[aria-current="page"],.ams .menu-btn,.ams .sub-btn,.ams .site-head button,.yst .site-head a,.yst .site-nav a{color:#111111}
+.ams .site-nav a[aria-current="page"],.yst .site-nav a[aria-current="page"]{border-bottom-color:#0F85DB}
+.ams .site-nav.open,.yst .site-nav.open{background:#FFFFFF;border-bottom:1px solid #D8D2C0}
+.ams .head-actions .btn,.ams .head-actions .btn:hover{background:transparent;color:#111111;border:1.5px solid #111111}
+.ams .hero,.yst .hero{background:#F2EEE2;color:#111111;border-bottom:1px solid #D8D2C0}
+.ams .hero h1,.ams .hero p,.ams .hero .lead,.yst .hero h1,.yst .hero p{color:#111111}
+.ams .hero .kicker,.yst .hero .kicker,.ams .kicker,.yst .kicker{color:#0B66A8}
+.ams .sec.alt,.yst .sec.alt{background:#F2EEE2}
+.ams .cta,.yst .cta{background:#111111;color:#FFFFFF;border-color:#111111;border-radius:0;margin:0}
+.ams .cta p a:not(.btn),.yst .cta p a:not(.btn){color:#FFFFFF;background:transparent}
+.ams .cta .btn,.yst .cta .btn{background:#3CC261;color:#111111;border-color:#3CC261}
+.ams .btn,.yst .btn{background:#0B66A8;color:#FFFFFF;border:1.5px solid #0B66A8;border-radius:0;font-family:"Montserrat",system-ui,sans-serif;font-weight:600;letter-spacing:0;text-transform:none;font-size:14px}
+.ams .btn:hover,.yst .btn:hover{background:#0F85DB;border-color:#0F85DB;transform:none}
+.ams .btn-ghost,.yst .btn-ghost{background:transparent;color:#111111;border:1.5px solid #111111;box-shadow:none}
+.ams .btn-ghost:hover,.yst .btn-ghost:hover{background:#F2EEE2;color:#111111;border-color:#111111}
+.ams .card,.yst .card,.yst .sec.alt .card{background:#FFFFFF;border:1px solid #D8D2C0;border-radius:0;box-shadow:none;border-top:1px solid #D8D2C0}
+.ams table.data thead th,.yst table.data thead th{background:#111111;color:#FFFFFF}
+.ams .chain li span,.yst .chain li span{background:#FFFFFF;border:1px solid #D8D2C0}
+.ams .ticks li::before,.yst .ticks li::before{background:#3CC261;border-color:#3CC261;border-radius:0}
+.yst .steps li::before,.yst .chain li:last-child span{background:#111111;color:#FFFFFF}
+.ams .site-foot,.yst .site-foot{background:#111111;color:#FFFFFF;border-top:0}
+.ams .cookie,.yst .cookie{background:#FFFFFF;color:#111111;border:1.5px solid #111111;border-radius:0}
+.ams .cookie a,.yst .cookie a{color:#0B66A8}
+.ams .op-pills ul,.yst .op-pills ul{background:#FFFFFF}
+.ams .hero::before,.ams .hero::after,.yst .hero::before,.yst .hero::after{display:none}
+.ams,.yst{--field-bg:#FFFFFF;--field-line:#8A94A3;--err:#B3261E;--amber:#3CC261;--amber-ink:#111111;--emerald:#3CC261;--violet:#0B66A8}
+.ams .pager-link,.yst .pager-link,.ams .pager-n,.yst .pager-n{color:#0B66A8}.ams .pager-k,.yst .pager-k{color:#444444}
+.ams .cookie .btn-ghost,.yst .cookie .btn-ghost{background:#FFFFFF;color:#111111;border:1.5px solid #111111}
+.ams input,.ams select,.ams textarea,.yst input,.yst select,.yst textarea{background:#FFFFFF;color:#111111}
+.ams .tag.open{color:#0B66A8;border-color:#0B66A8}
+@media (max-width:1320px){.yst .menu-btn{display:inline-flex}.yst .site-nav{display:none}.yst .site-nav.open{display:flex;background:#FFFFFF;border-bottom:1px solid #D8D2C0}.ams .site-nav.open a,.yst .site-nav.open a{border-bottom-color:#D8D2C0}}
