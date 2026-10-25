@@ -363,6 +363,16 @@ body:has(.site-nav.open) .cookie{display:none}
 .pj-no{flex:none;width:34px;height:34px;border-radius:50%;background:var(--mk-a,#17324d);color:#fff;display:grid;place-items:center;font-weight:700}
 .pj-st h3{margin:0 0 4px;font-size:18px}.pj-st h4{margin:10px 0 4px;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:#55606B}
 .pj-st ul{margin:0;padding-left:18px}.pj-say{font-style:italic;margin:0 0 6px}.pj-x{font-weight:600}.pj-eng{margin:10px 0 0}.pj-pr{max-width:760px}.pj-loop{max-width:760px;font-weight:600}
+
+.lc{max-width:1000px;margin:0 auto 40px}.lc-lead{max-width:760px}.lc-lens{font-style:italic;color:#444}
+.lc-list{list-style:none;margin:0 0 22px;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:14px}
+.lc-part{display:flex;gap:14px;border:1px solid #D8D2C0;border-radius:0;padding:16px;background:#fff;min-width:0}
+.lc-no{flex:none;width:34px;height:34px;background:#0B66A8;color:#fff;display:grid;place-items:center;font-weight:700}
+.lc-part h3{margin:0 0 6px;font-size:18px}.lc-it{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.lc-it li{display:grid;gap:2px;font-size:14px;border-top:1px solid #D8D2C0;padding-top:8px}.lc-it li:first-child{border-top:0;padding-top:0}
+.lc-it span{color:#444}.lc-c{font-style:italic}.lc-s{font-weight:600;color:#111}
+.lc-tiers{list-style:none;margin:0 0 14px;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:12px}
+.lc-tiers li{border:1px solid #D8D2C0;padding:14px;background:#F2EEE2}.lc-tiers h4{margin:0 0 4px}.lc-note{max-width:760px;font-style:italic}
 /* BRAND-2026: "HFL Brand Fonts & Colors" deck (owner, 25 Oct 2026), one palette and one typeface for all four sites.
    Headers Montserrat Bold, subtitles Montserrat SemiBold, paragraphs Montserrat Regular, notes Montserrat Italic.
    Three colours: Blue 2172 C (#0F85DB), Green 2270 C (#3CC261), Black. Background white. L156 Almost Ivory (#F2EEE2) stays as the quiet panel tone.
