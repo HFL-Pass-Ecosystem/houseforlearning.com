@@ -31,3 +31,5 @@ a{color:var(--btn)} a:hover{color:var(--blue)}
 nav.crumbs{font-size:13px;margin:6px 0 10px}
 @media print{@page{size:A4;margin:14mm}.noprint{display:none}body{font-size:12.5px}h2{page-break-after:avoid}tr{page-break-inside:avoid}.wrap{padding:0}}
 @media (max-width:640px){table{font-size:12.5px} .wrap{padding:16px 14px}}
+
+table{display:block;max-width:100%;overflow-x:auto}img,svg{max-width:100%;height:auto}pre{overflow-x:auto}
