@@ -1,7 +1,7 @@
 /* Mobile menu, cookie banner, offline contact form and the in-page quiz.
    No trackers, no outside calls. The cookie choice is the only thing stored, in this browser. */
 (function () {
-  var KEY = 'learn-cookie-choice';
+  var KEY = 'hfl-cookie-choice';
   function closeMenu() {
     var t = document.querySelector('[data-menu-toggle][aria-expanded="true"]');
     if (!t) return null;
@@ -10,6 +10,14 @@
     if (nav) nav.classList.remove('open');
     return t;
   }
+  // Back / Forward in the trail bar: history when the visitor came from this site (or moved inside the preview), else Home.
+  document.addEventListener('click', function (e) {
+    var h = e.target.closest ? e.target.closest('[data-hist]') : null;
+    if (!h) return;
+    if (h.getAttribute('data-hist') === 'forward') { e.preventDefault(); history.forward(); return; }
+    var inside = (document.referrer && document.referrer.indexOf(location.origin) === 0) || location.hash.indexOf('#/') === 0;
+    if (inside && history.length > 1) { e.preventDefault(); history.back(); }
+  });
   document.addEventListener('click', function (e) {
     var t = e.target.closest ? e.target.closest('[data-menu-toggle]') : null;
     if (t) {
@@ -17,6 +25,8 @@
       var open = t.getAttribute('aria-expanded') !== 'true';
       t.setAttribute('aria-expanded', String(open));
       if (nav) nav.classList.toggle('open', open);
+      // keep the whole open menu on screen, whatever the header height (the menu scrolls inside)
+      if (nav && open) nav.style.maxHeight = Math.max(200, window.innerHeight - nav.getBoundingClientRect().top) + 'px';
       return;
     }
     var c = e.target.closest ? e.target.closest('[data-cookie]') : null;
@@ -31,12 +41,79 @@
     var t = closeMenu();
     if (t) t.focus();
   });
+  (function () {
+    var idx = document.getElementById('sidx'), out = document.getElementById('sr'), inp = document.getElementById('sq');
+    if (!idx || !out || !inp) return;
+    var data = JSON.parse(idx.textContent), q0 = (new URLSearchParams(location.search).get('q') || '');
+    function run(q) {
+      var w = q.toLowerCase().split(/\s+/).filter(Boolean), h = '';
+      if (!w.length) { out.innerHTML = ''; return; }
+      data.map(function (p) { var t = (p.t + ' ' + p.d).toLowerCase(), n = 0; w.forEach(function (x) { if (t.indexOf(x) > -1) n += (p.t.toLowerCase().indexOf(x) > -1 ? 3 : 1); }); return { p: p, n: n }; })
+        .filter(function (r) { return r.n; }).sort(function (a, b) { return b.n - a.n; })
+        .forEach(function (r) { var a = document.createElement('li'), l = document.createElement('a'); l.href = r.p.u; l.textContent = r.p.t; a.appendChild(l); var d = document.createElement('p'); d.textContent = r.p.d; a.appendChild(d); out.appendChild(a); });
+      out.innerHTML = ''; data.forEach(function () {});
+      var res = data.map(function (p) { var t = (p.t + ' ' + p.d).toLowerCase(), n = 0; w.forEach(function (x) { if (t.indexOf(x) > -1) n += (p.t.toLowerCase().indexOf(x) > -1 ? 3 : 1); }); return { p: p, n: n }; }).filter(function (r) { return r.n; }).sort(function (a, b) { return b.n - a.n; });
+      if (!res.length) { var e = document.createElement('li'); e.textContent = 'No page found for \u201c' + q + '\u201d. Try another word, or ask the platform team.'; out.appendChild(e); }
+      res.forEach(function (r) { var a = document.createElement('li'), l = document.createElement('a'); l.href = r.p.u; l.textContent = r.p.t; a.appendChild(l); var d = document.createElement('p'); d.textContent = r.p.d; a.appendChild(d); out.appendChild(a); });
+    }
+    inp.value = q0; run(q0);
+    inp.form.addEventListener('submit', function (e) { e.preventDefault(); run(inp.value); });
+  })();
+  /* Contact forms (owner 20 Oct 2026): Send opens the visitor's own email app with the message filled in,
+     addressed to the site's contact. Nothing is sent from the page itself. */
+  function mailForm(f) {
+    var to = f.getAttribute('data-mailto');
+    if (!to) return false;
+    var lines = [];
+    Array.prototype.forEach.call(f.elements, function (el) {
+      if (!el.name || !el.value || el.type === 'checkbox' || el.type === 'radio' || el.type === 'submit' || el.type === 'reset' || el.type === 'button') return;
+      var lab = el.id ? f.querySelector('label[for="' + el.id + '"]') : null;
+      var n = lab ? lab.textContent.replace(/\s*\(optional\)\s*/i, '').trim() : el.name;
+      lines.push(n + ': ' + el.value);
+    });
+    var t = f.querySelector('[name=topic],[name=route]');
+    var subj = (f.getAttribute('data-subject') || 'Website message') + (t && t.value ? ': ' + t.value : '');
+    var cc = '';
+    var rt = f.getAttribute('data-routes');
+    if (rt && t && t.value) {
+      try { var m = JSON.parse(rt)[t.value]; if (m && m.length) { to = m[0]; cc = m.slice(1).join(','); } } catch (x) { /* keep the default address */ }
+    }
+    window.location.href = 'mailto:' + to + '?subject=' + encodeURIComponent(subj) + (cc ? '&cc=' + encodeURIComponent(cc) : '') + '&body=' + encodeURIComponent(lines.join('\n'));
+    return true;
+  }
+  Array.prototype.forEach.call(document.querySelectorAll('form[data-api]'), function (f) {
+    var sel = f.querySelector('select[name=topic]');
+    if (!sel) return;
+    fetch(f.getAttribute('data-api') + '/api/help/topics?brand=' + encodeURIComponent(f.getAttribute('data-brand')))
+      .then(function (r) { return r.json(); })
+      .then(function (j) { (j.topics || []).forEach(function (t) { var o = document.createElement('option'); o.value = t.id; o.textContent = t.label; sel.appendChild(o); }); })
+      .catch(function () { var st = f.querySelector('.form-status'); if (st) { st.textContent = 'Our message desk is starting up. Please reload this page in a minute.'; st.hidden = false; } });
+  });
   document.addEventListener('submit', function (e) {
     var f = e.target;
     if (!f || !f.hasAttribute) return;
-    if (f.hasAttribute('data-offline')) {
-      /* Contact forms do not send anything yet. */
+    if (f.hasAttribute('data-api')) {
       e.preventDefault();
+      var st0 = f.querySelector('.form-status'), btn = f.querySelector('button[type=submit]');
+      var say = function (t) { if (st0) { st0.textContent = t; st0.hidden = false; st0.focus(); } };
+      var v = function (n) { var el = f.elements[n]; return el ? el.value.trim() : ''; };
+      var body = { brand: f.getAttribute('data-brand'), topic: v('topic'), email: v('email'), mobile: v('mobile'), message: v('details'),
+                   consent: !!(f.elements.consent && f.elements.consent.checked), name: v('name'), organisation: v('organisation'), role: v('role'), country: v('country') };
+      if (btn) btn.disabled = true;
+      say('Sending your message...');
+      fetch(f.getAttribute('data-api') + '/api/help/contact', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) })
+        .then(function (r) { return r.json().then(function (j) { return { ok: r.ok, j: j }; }); })
+        .then(function (o) {
+          if (btn) btn.disabled = false;
+          if (o.ok && o.j.reference) { say('Thank you. Your message is saved. Your reference number is ' + o.j.reference + '. ' + (o.j.promise || '')); f.reset(); }
+          else say((o.j && (o.j.error || o.j.message)) || 'We could not save your message. Please check the fields and try again.');
+        })
+        .catch(function () { if (btn) btn.disabled = false; say('We could not reach our message desk just now. Please try again in a minute.'); });
+      return;
+    }
+    if (f.hasAttribute('data-offline')) {
+      e.preventDefault();
+      mailForm(f);
       var s = f.querySelector('.form-status');
       if (s) { s.textContent = f.getAttribute('data-thanks'); s.hidden = false; s.focus(); }
       return;
@@ -76,58 +153,12 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
 })();
 
-/* Our products page: pause for the moving icons, carousel arrows and dots, and the list filter.
-   Without this script the page still shows every section and the whole list. */
-(function () {
-  function init() {
-    Array.prototype.forEach.call(document.querySelectorAll('[data-op-marquee]'), function (m) {
-      var b = m.querySelector('.op-pause');
-      if (!b || b.dataset.ready) return; b.dataset.ready = '1';
-      b.addEventListener('click', function () {
-        var on = b.getAttribute('aria-pressed') !== 'true';
-        b.setAttribute('aria-pressed', String(on)); m.classList.toggle('op-paused', on);
-        b.setAttribute('aria-label', on ? 'Play the moving icons' : 'Pause the moving icons');
-      });
-    });
-    Array.prototype.forEach.call(document.querySelectorAll('[data-op-car]'), function (c) {
-      if (c.dataset.ready) return; c.dataset.ready = '1';
-      var list = c.querySelector('.op-slides'), slides = list.children, dots = c.querySelectorAll('.op-dot');
-      function at() { return Math.round(list.scrollLeft / Math.max(1, slides[0].offsetWidth + 16)); }
-      function go(i) { i = Math.max(0, Math.min(slides.length - 1, i)); list.scrollTo({ left: slides[i].offsetLeft - list.offsetLeft, behavior: 'smooth' }); }
-      function mark() { var i = at(); Array.prototype.forEach.call(dots, function (d, k) { if (k === i) d.setAttribute('aria-current', 'true'); else d.removeAttribute('aria-current'); }); }
-      c.querySelector('.op-prev').addEventListener('click', function () { go(at() - 1); });
-      c.querySelector('.op-next').addEventListener('click', function () { go(at() + 1); });
-      Array.prototype.forEach.call(dots, function (d, k) { d.addEventListener('click', function () { go(k); }); });
-      list.addEventListener('scroll', function () { clearTimeout(list._t); list._t = setTimeout(mark, 80); });
-      list.addEventListener('keydown', function (e) { if (e.key === 'ArrowRight') { e.preventDefault(); go(at() + 1); } if (e.key === 'ArrowLeft') { e.preventDefault(); go(at() - 1); } });
-    });
-    var f = document.querySelector('[data-op-form]');
-    if (f && !f.dataset.ready) {
-      f.dataset.ready = '1';
-      var Q = f.querySelector('[name=q]'), K = f.querySelector('[name=kind]'), SE = f.querySelector('[name=sector]');
-      var items = document.querySelectorAll('.op-item'), groups = document.querySelectorAll('.op-group'), count = f.querySelector('[data-op-count]');
-      var apply = function () {
-        var q = Q.value.trim().toLowerCase(), k = K.value, s = SE.value, n = 0;
-        Array.prototype.forEach.call(items, function (it) {
-          var ok = (!q || it.textContent.toLowerCase().indexOf(q) !== -1) && (!k || k.split(',').indexOf(it.getAttribute('data-kind')) !== -1) &&
-            (!s || (' ' + it.getAttribute('data-sect') + ' ').indexOf(' ' + s + ' ') !== -1);
-          it.hidden = !ok; if (ok) n++;
-        });
-        Array.prototype.forEach.call(groups, function (g) { var any = g.querySelector('.op-item:not([hidden])'); g.hidden = !any; if (any && (q || k || s)) g.open = true; });
-        count.textContent = n + (n === 1 ? ' offer' : ' offers') + (q || k || s ? ' match' + (n === 1 ? 'es' : '') : '');
-      };
-      f.addEventListener('input', apply); f.addEventListener('change', apply);
-      document.addEventListener('click', function (e) {
-        var a = e.target.closest && e.target.closest('[data-op-filter]');
-        if (!a) return;
-        var p = a.getAttribute('data-op-filter').split(':');
-        Q.value = ''; if (p[0] === 'kind' && p[1].indexOf(',') !== -1) { var o = K.querySelector('option[data-multi]') || K.appendChild(document.createElement('option')); o.setAttribute('data-multi', ''); o.value = p[1]; o.textContent = a.textContent.replace(/^See /, ''); }
-        K.value = p[0] === 'kind' ? p[1] : ''; SE.value = p[0] === 'sector' ? p[1] : '';
-        apply();
-      });
-    }
-  }
-  var base = window.SiteUI && window.SiteUI.init;
-  if (window.SiteUI) window.SiteUI.init = function () { if (base) base.apply(this, arguments); init(); };
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
+(function(){
+  function closeAll(except){Array.prototype.forEach.call(document.querySelectorAll('.has-sub'),function(li){if(li!==except){li.classList.remove('open');var b=li.querySelector('.sub-btn');if(b)b.setAttribute('aria-expanded','false');}});}
+  document.addEventListener('click',function(e){
+    var b=e.target.closest&&e.target.closest('[data-sub-toggle]');
+    if(b){var li=b.parentNode,o=!li.classList.contains('open');closeAll(li);li.classList.toggle('open',o);b.setAttribute('aria-expanded',String(o));return;}
+    if(!(e.target.closest&&e.target.closest('.has-sub')))closeAll(null);
+  });
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')closeAll(null);});
 })();

@@ -10,7 +10,7 @@
   /* [code used by the service, name in its own language, English name, 1 = right-to-left] */
   var LANGS = [["ab","Аԥсшәа","Abkhaz"],["ace","Bahsa Acèh","Acehnese"],["ach","Lwo","Acholi"],["aa","Qafaraf","Afar"],["af","Afrikaans","Afrikaans"],["sq","Shqip","Albanian"],["alz","Alur","Alur"],["am","አማርኛ","Amharic"],["ar","العربية","Arabic",1],["hy","Հայերեն","Armenian"],["as","অসমীয়া","Assamese"],["av","Авар мацӀ","Avar"],["awa","अवधी","Awadhi"],["ay","Aymar aru","Aymara"],["az","Azərbaycan","Azerbaijani"],["ban","Basa Bali","Balinese"],["bal","بلوچی","Baluchi",1],["bm","Bamanankan","Bambara"],["bci","Wawle","Baoulé"],["ba","Башҡорт теле","Bashkir"],["eu","Euskara","Basque"],["btx","Batak Karo","Batak Karo"],["bts","Batak Simalungun","Batak Simalungun"],["bbc","Batak Toba","Batak Toba"],["be","Беларуская","Belarusian"],["bem","Ichibemba","Bemba"],["bn","বাংলা","Bengali"],["bew","Betawi","Betawi"],["bho","भोजपुरी","Bhojpuri"],["bik","Bikol","Bikol"],["bs","Bosanski","Bosnian"],["br","Brezhoneg","Breton"],["bg","Български","Bulgarian"],["bua","Буряад хэлэн","Buryat"],["yue","粵語","Cantonese"],["ca","Català","Catalan"],["ceb","Sinugbuanong Binisayâ","Cebuano"],["ch","Chamoru","Chamorro"],["ce","Нохчийн","Chechen"],["ny","Chichewa","Chichewa"],["zh-CN","中文（简体）","Chinese (Simplified)"],["zh-TW","中文（繁體）","Chinese (Traditional)"],["chk","Chuuk","Chuukese"],["cv","Чӑваш","Chuvash"],["co","Corsu","Corsican"],["crh","Къырымтатар тили","Crimean Tatar (Cyrillic)"],["crh-Latn","Qırımtatar tili","Crimean Tatar (Latin)"],["hr","Hrvatski","Croatian"],["cs","Čeština","Czech"],["da","Dansk","Danish"],["fa-AF","دری","Dari",1],["dv","ދިވެހި","Dhivehi",1],["din","Thuɔŋjäŋ","Dinka"],["doi","डोगरी","Dogri"],["dov","Dombe","Dombe"],["nl","Nederlands","Dutch"],["dyu","Julakan","Dyula"],["dz","རྫོང་ཁ","Dzongkha"],["eo","Esperanto","Esperanto"],["et","Eesti","Estonian"],["ee","Eʋegbe","Ewe"],["fo","Føroyskt","Faroese"],["fj","Vosa Vakaviti","Fijian"],["tl","Filipino","Filipino"],["fi","Suomi","Finnish"],["fon","Fɔngbè","Fon"],["fr","Français","French"],["fr-CA","Français (Canada)","French (Canada)"],["fy","Frysk","Frisian"],["fur","Furlan","Friulian"],["ff","Fulfulde","Fulani"],["gaa","Gã","Ga"],["gl","Galego","Galician"],["ka","Ქართული","Georgian"],["de","Deutsch","German"],["el","Ελληνικά","Greek"],["gn","Avañeʼẽ","Guarani"],["gu","ગુજરાતી","Gujarati"],["ht","Kreyòl ayisyen","Haitian Creole"],["cnh","Hakha Lai","Hakha Chin"],["ha","Hausa","Hausa"],["haw","ʻŌlelo Hawaiʻi","Hawaiian"],["iw","עברית","Hebrew",1],["hil","Hiligaynon","Hiligaynon"],["hi","हिन्दी","Hindi"],["hmn","Hmoob","Hmong"],["hu","Magyar","Hungarian"],["hrx","Hunsrik","Hunsrik"],["iba","Jaku Iban","Iban"],["is","Íslenska","Icelandic"],["ig","Igbo","Igbo"],["ilo","Ilokano","Ilocano"],["id","Bahasa Indonesia","Indonesian"],["iu-Latn","Inuktut","Inuktut (Latin)"],["iu","ᐃᓄᒃᑎᑐᑦ","Inuktut (Syllabics)"],["ga","Gaeilge","Irish"],["it","Italiano","Italian"],["jam","Patwa","Jamaican Patois"],["ja","日本語","Japanese"],["jw","Basa Jawa","Javanese"],["kac","Jinghpaw","Jingpo"],["kl","Kalaallisut","Kalaallisut"],["kn","ಕನ್ನಡ","Kannada"],["kr","Kanuri","Kanuri"],["pam","Kapampangan","Kapampangan"],["kk","Қазақ тілі","Kazakh"],["kha","Ka Ktien Khasi","Khasi"],["km","ខ្មែរ","Khmer"],["cgg","Rukiga","Kiga"],["kg","Kikongo","Kikongo"],["rw","Ikinyarwanda","Kinyarwanda"],["ktu","Kituba","Kituba"],["trp","Kokborok","Kokborok"],["kv","Коми кыв","Komi"],["gom","कोंकणी","Konkani"],["ko","한국어","Korean"],["kri","Krio","Krio"],["ku","Kurdî (Kurmancî)","Kurdish (Kurmanji)"],["ckb","کوردی (سۆرانی)","Kurdish (Sorani)",1],["ky","Кыргызча","Kyrgyz"],["lo","ລາວ","Lao"],["ltg","Latgaļu","Latgalian"],["la","Latina","Latin"],["lv","Latviešu","Latvian"],["lij","Ligure","Ligurian"],["li","Limburgs","Limburgish"],["ln","Lingála","Lingala"],["lt","Lietuvių","Lithuanian"],["lmo","Lombard","Lombard"],["lg","Luganda","Luganda"],["luo","Dholuo","Luo"],["lb","Lëtzebuergesch","Luxembourgish"],["mk","Македонски","Macedonian"],["mad","Madhura","Madurese"],["mai","मैथिली","Maithili"],["mak","Mangkasara","Makassar"],["mg","Malagasy","Malagasy"],["ms","Bahasa Melayu","Malay"],["ms-Arab","بهاس ملايو (جاوي)","Malay (Jawi)",1],["ml","മലയാളം","Malayalam"],["mt","Malti","Maltese"],["mam","Mam","Mam"],["gv","Gaelg","Manx"],["mi","Māori","Maori"],["mr","मराठी","Marathi"],["mh","Kajin M̧ajeļ","Marshallese"],["mwr","मारवाड़ी","Marwadi"],["mfe","Kreol morisien","Mauritian Creole"],["chm","Олык марий","Meadow Mari"],["mni-Mtei","ꯃꯤꯇꯩꯂꯣꯟ","Meiteilon (Manipuri)"],["min","Baso Minang","Minang"],["lus","Mizo ṭawng","Mizo"],["mn","Монгол","Mongolian"],["my","မြန်မာ","Myanmar (Burmese)"],["nhe","Nāhuatl (Huasteca)","Nahuatl (Eastern Huasteca)"],["ndc-ZW","Cindau","Ndau"],["nr","IsiNdebele","Ndebele (South)"],["new","नेपाल भाषा","Nepalbhasa (Newari)"],["ne","नेपाली","Nepali"],["bm-Nkoo","ߒߞߏ","NKo",1],["no","Norsk","Norwegian"],["nus","Thok Naath","Nuer"],["oc","Occitan","Occitan"],["or","ଓଡ଼ିଆ","Odia (Oriya)"],["om","Oromoo","Oromo"],["os","Ирон","Ossetian"],["pag","Pangasinan","Pangasinan"],["pap","Papiamentu","Papiamento"],["ps","پښتو","Pashto",1],["fa","فارسی","Persian",1],["pl","Polski","Polish"],["pt","Português (Brasil)","Portuguese"],["pt-PT","Português (Portugal)","Portuguese (Portugal)"],["pa","ਪੰਜਾਬੀ","Punjabi"],["pa-Arab","پنجابی (شاہ مکھی)","Punjabi (Shahmukhi)",1],["qu","Runasimi","Quechua"],["kek","Qʼeqchiʼ","Qʼeqchiʼ"],["rom","Romani čhib","Romani"],["ro","Română","Romanian"],["rn","Ikirundi","Rundi"],["ru","Русский","Russian"],["se","Davvisámegiella","Sami (North)"],["sm","Gagana Sāmoa","Samoan"],["sg","Sängö","Sango"],["sa","संस्कृतम्","Sanskrit"],["sat-Latn","Santali (Latin)","Santali (Latin)"],["sat","ᱥᱟᱱᱛᱟᱲᱤ","Santali (Ol Chiki)"],["gd","Gàidhlig","Scots Gaelic"],["nso","Sesotho sa Leboa","Sepedi"],["sr","Српски","Serbian"],["st","Sesotho","Sesotho"],["crs","Kreol Seselwa","Seychellois Creole"],["shn","လိၵ်ႈတႆး","Shan"],["sn","ChiShona","Shona"],["scn","Sicilianu","Sicilian"],["szl","Ślōnski","Silesian"],["sd","سنڌي","Sindhi",1],["si","සිංහල","Sinhala"],["sk","Slovenčina","Slovak"],["sl","Slovenščina","Slovenian"],["so","Soomaali","Somali"],["es","Español","Spanish"],["su","Basa Sunda","Sundanese"],["sus","Sosoxui","Susu"],["sw","Kiswahili","Swahili"],["ss","SiSwati","Swati"],["sv","Svenska","Swedish"],["ty","Reo Tahiti","Tahitian"],["tg","Тоҷикӣ","Tajik"],["ber-Latn","Tamaziɣt","Tamazight"],["ber","ⵜⴰⵎⴰⵣⵉⵖⵜ","Tamazight (Tifinagh)"],["ta","தமிழ்","Tamil"],["tt","Татар","Tatar"],["te","తెలుగు","Telugu"],["tet","Tetun","Tetum"],["th","ไทย","Thai"],["bo","བོད་སྐད།","Tibetan"],["ti","ትግርኛ","Tigrinya"],["tiv","Tiv","Tiv"],["tpi","Tok Pisin","Tok Pisin"],["to","Lea faka-Tonga","Tongan"],["lua","Tshiluba","Tshiluba"],["ts","Xitsonga","Tsonga"],["tn","Setswana","Tswana"],["tcy","ತುಳು","Tulu"],["tum","Chitumbuka","Tumbuka"],["tr","Türkçe","Turkish"],["tk","Türkmen dili","Turkmen"],["tyv","Тыва дыл","Tuvan"],["ak","Twi","Twi"],["udm","Удмурт кыл","Udmurt"],["uk","Українська","Ukrainian"],["ur","اردو","Urdu",1],["ug","ئۇيغۇرچە","Uyghur",1],["uz","O‘zbek","Uzbek"],["ve","Tshivenḓa","Venda"],["vec","Vèneto","Venetian"],["vi","Tiếng Việt","Vietnamese"],["war","Winaray","Waray"],["cy","Cymraeg","Welsh"],["wo","Wolof","Wolof"],["xh","IsiXhosa","Xhosa"],["sah","Саха тыла","Yakut"],["yi","ייִדיש","Yiddish",1],["yo","Èdè Yorùbá","Yoruba"],["yua","Maaya tʼaan","Yucatec Maya"],["zap","Diidxazá","Zapotec"],["zu","IsiZulu","Zulu"]];
   var TAG = {"iw":"he","jw":"jv","zh-CN":"zh-Hans","zh-TW":"zh-Hant","bm-Nkoo":"nqo","ber":"zgh","fa-AF":"prs","tl":"fil","ndc-ZW":"ndc"};
-  var panel, q, list, none, confirmBox, go, opener, pick = null;
+  var panel, q, list, none, confirmBox, go, opener, more, req, pick = null;
 
   function get() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
   function put(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
@@ -86,7 +86,7 @@
     TOP.forEach(function (c) { var L = byCode[c]; if (L) list.appendChild(option(L[0], L[1], L[2], L[3])); });
     list.appendChild(section('All languages'));
     for (i = 0; i < LANGS.length; i++) if (TOP.indexOf(LANGS[i][0]) === -1) list.appendChild(option(LANGS[i][0], LANGS[i][1], LANGS[i][2], LANGS[i][3]));
-    none = el('p', 'lang-none', 'No language matches that search.');
+    none = el('p', 'lang-none', 'No language matches that search. Use “My language is not here” below and we will add it.');
     none.hidden = true;
     var count = el('p', 'lang-count', (LANGS.length + 1) + ' languages');
     confirmBox = el('div', 'lang-confirm');
@@ -101,8 +101,47 @@
     back.type = 'button';
     acts.appendChild(go); acts.appendChild(back);
     confirmBox.appendChild(note); confirmBox.appendChild(acts);
+    /* Owner 20 Oct 2026: no one is left out. The list above is what automatic translation covers; every other
+       language, dialect and sign language is added by people. A visitor can ask for theirs: the request opens the
+       visitor's own email app addressed to this site's contact address (nothing is sent or stored by this page). */
+    more = el('div', 'lang-more');
+    more.appendChild(el('p', 'lang-sub', 'Your language is not in the list?'));
+    more.appendChild(el('p', 'lang-more-p', 'The ' + (LANGS.length + 1) + ' languages above come from automatic translation. Every other language, dialect and sign language is added by people: community translators and recorded voices, one at a time. Tell us which one you need. The most-asked go first.'));
+    var ask = el('button', 'btn btn-sm lang-ask', 'My language is not here');
+    ask.type = 'button'; ask.setAttribute('aria-expanded', 'false'); ask.setAttribute('aria-controls', 'lang-req');
+    more.appendChild(ask);
+    req = el('form', 'lang-req'); req.id = 'lang-req'; req.hidden = true; req.noValidate = false;
+    function field(id, label, input) { var w = el('div', 'lang-field'), l = el('label', null, label); l.setAttribute('for', id); input.id = id; w.appendChild(l); w.appendChild(input); req.appendChild(w); return input; }
+    var rn = el('input'); rn.type = 'text'; rn.required = true; rn.autocomplete = 'off'; rn.maxLength = 80;
+    field('lang-r-name', 'Language or dialect', rn);
+    var rw = el('input'); rw.type = 'text'; rw.autocomplete = 'off'; rw.maxLength = 120;
+    field('lang-r-where', 'Where it is spoken (optional)', rw);
+    var rk = el('select');
+    ['Written text', 'Spoken, read aloud', 'Sign language video', 'Easy read, simple words'].forEach(function (t) { var o = el('option', null, t); o.value = t; rk.appendChild(o); });
+    field('lang-r-kind', 'How you want it', rk);
+    var send = el('button', 'btn btn-sm', 'Send request'); send.type = 'submit';
+    var rst = el('p', 'lang-more-p lang-r-status'); rst.setAttribute('role', 'status');
+    req.appendChild(send); req.appendChild(rst);
+    more.appendChild(req);
+    ask.addEventListener('click', function () {
+      var on = req.hidden; req.hidden = !on; ask.setAttribute('aria-expanded', String(on));
+      if (on) { if (!rn.value && q.value.trim()) rn.value = q.value.trim(); req.scrollIntoView({ block: 'nearest' }); rn.focus({ preventScroll: true }); }
+    });
+    req.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (!rn.value.trim()) { rn.focus(); return; }
+      var cu = document.querySelector('meta[name=contact-url]'), dest = (cu && cu.getAttribute('content')) || 'contact.html';
+      rst.textContent = 'Opening our contact form. Please mention the language or dialect: ' + rn.value.trim() + '.';
+      window.location.href = dest + '#message-form';
+    });
+    more.appendChild(el('p', 'lang-sub', 'Other ways to read'));
+    more.appendChild(el('p', 'lang-more-p', 'Read aloud, easy read with simple words, larger text, and sign language (Indian, American, British and International Sign) where a signed version exists.'));
+    var acc = el('button', 'btn btn-sm btn-ghost', 'Open reading and sign language choices'); acc.type = 'button';
+    acc.addEventListener('click', function () { close(false); if (window.SiteAccess) window.SiteAccess.open(); });
+    more.appendChild(acc);
     panel.appendChild(top); panel.appendChild(lab); panel.appendChild(q); panel.appendChild(hint);
     panel.appendChild(list); panel.appendChild(none); panel.appendChild(count); panel.appendChild(confirmBox);
+    panel.appendChild(more);
     document.body.appendChild(panel);
 
     q.addEventListener('input', filter);
@@ -129,6 +168,7 @@
       if (hit) n++;
     }
     none.hidden = n > 0;
+    list.style.display = n > 0 ? '' : 'none';   /* no empty box when nothing matches */
   }
   function showList() {
     confirmBox.hidden = true;
@@ -136,6 +176,7 @@
     panel.querySelector('.lang-lab').hidden = false;
     panel.querySelector('.lang-hint').hidden = false;
     panel.querySelector('.lang-count').hidden = false;
+    more.hidden = false;
     filter();
   }
   function choose(code) {
@@ -152,6 +193,7 @@
     panel.querySelector('.lang-lab').hidden = true;
     panel.querySelector('.lang-hint').hidden = true;
     panel.querySelector('.lang-count').hidden = true;
+    more.hidden = true;
     confirmBox.hidden = false;
     go.focus();
   }
@@ -1183,7 +1225,7 @@
     var a = document.querySelector('.site-foot a[href*="cookies"]');
     if (!a || document.querySelector('[data-consent-manage].foot-choice')) return;
     var li = a.closest('li');
-    [['Privacy choices', false], ['Tell us what you think', true]].forEach(function (it) {
+    [['Privacy choices', false]].forEach(function (it) {
       var b = el('button', 'foot-choice', it[0]); b.type = 'button'; b.setAttribute('data-consent-manage', it[1] ? 'opinion' : '');
       if (li) { var n = el('li'); n.appendChild(b); li.parentNode.appendChild(n); } else a.parentNode.appendChild(b);
     });
@@ -1248,7 +1290,7 @@
    kept as a tooltip. For a language not yet in the table, the English meaning is left for the translation to carry. */
 (function () {
   /* TERMS:BEGIN generated by websites/own-build/i18n/make.py from terms.tsv; edit terms.tsv, not this block */
-  var L = ["en", "hi", "sa", "kn", "ta", "te", "mr", "bn", "gu", "ml", "pa", "or", "ur", "ar", "fr", "es", "de", "pt", "zh-CN", "ja", "ms", "tl"];
+  var L = ["en", "hi", "sa", "kn", "ta", "te", "mr", "bn", "gu", "ml", "pa", "or", "ur", "ar", "fr", "es", "de", "pt", "zh-CN", "ja", "ms", "tl", "as", "mai", "sat", "ks", "ne", "sd", "doi", "kok", "mni", "brx"];
   var T = {};
   /* TERMS:END */
   function current() {

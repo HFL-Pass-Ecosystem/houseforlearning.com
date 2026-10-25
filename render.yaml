@@ -26,12 +26,12 @@ services:
         value: SAMEORIGIN
       - path: /*
         name: Content-Security-Policy
-        value: "default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; form-action 'self'; frame-ancestors 'self'; base-uri 'self'; object-src 'none'"
+        value: "default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://ahfl-members-test.onrender.com; form-action 'self'; frame-ancestors 'self'; base-uri 'self'; object-src 'none'"
     routes:
-      # the yoga chapter's old address
-      - type: redirect
-        source: /learning/yoga/
-        destination: /yoga.html
-      - type: redirect
-        source: /learning/yoga
-        destination: /yoga.html
+      # old Wix addresses keep working
+      - {type: redirect, source: /about, destination: /about.html}
+      - {type: redirect, source: /products-and-services, destination: /products-and-services.html}
+      - {type: redirect, source: /book-a-lesson, destination: /partner-with-us.html}
+      - {type: redirect, source: /contact-3, destination: /contact.html}
+      - {type: redirect, source: /privacy, destination: /privacy.html}
+      - {type: redirect, source: /terms-and-conditions, destination: /terms.html}
