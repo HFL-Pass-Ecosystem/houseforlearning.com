@@ -33,3 +33,5 @@ nav.crumbs{font-size:13px;margin:6px 0 10px}
 @media (max-width:640px){table{font-size:12.5px} .wrap{padding:16px 14px}}
 
 table{display:block;max-width:100%;overflow-x:auto}img,svg{max-width:100%;height:auto}pre{overflow-x:auto}
+
+.tales{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:16px 0}.tales figure{margin:0;background:#F2EEE2;border:1px solid #d9d4c4}.tales img{display:block;width:100%;height:auto}.tales figcaption{padding:6px 8px;font-size:14px;font-weight:600}
