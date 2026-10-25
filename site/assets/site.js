@@ -285,6 +285,19 @@
     lb.parentNode.insertBefore(b, lb.nextSibling);
   });
   setBtns();
+  function applyConsent() {
+    var c = find(get()); if (!c) return; var txt = FAM[c[3]].consent;
+    document.querySelectorAll('form input[type="checkbox"]').forEach(function (cb) {
+      if (cb.id === 'dp-k') return;
+      var lab = cb.closest('label'); if (!lab) return;
+      var sp = lab.querySelector('span'); if (!sp || !/agree|consent/i.test(sp.textContent)) return;
+      if (sp.getAttribute('data-dp-law') === c[0]) return;
+      var a = sp.querySelector('a'); var keep = a ? a.cloneNode(true) : null;
+      sp.textContent = txt + ' '; if (keep) sp.appendChild(keep);
+      sp.setAttribute('data-dp-law', c[0]);
+    });
+  }
+  applyConsent();
   if (!onPage) return;
   document.getElementById('dp-tbl').addEventListener('click', function (e) { var t = e.target.closest('[data-dp-pick]'); if (t) { choose(t.getAttribute('data-dp-pick')); window.scrollTo(0, 0); } });
   document.getElementById('dp-q').addEventListener('input', function (e) { var v = e.target.value.toLowerCase(); document.querySelectorAll('[data-dp-row]').forEach(function (tr) { tr.hidden = tr.textContent.toLowerCase().indexOf(v) < 0; }); });
