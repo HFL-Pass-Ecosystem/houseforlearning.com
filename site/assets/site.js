@@ -170,7 +170,7 @@
     function ids() { return Object.keys(sel).filter(function (k) { return sel[k]; }); }
     function mk(t, c, x) { var e = document.createElement(t); if (c) e.className = c; if (x) e.textContent = x; return e; }
     function item(id) {
-      var i = D.items[id], li = mk('li', 'mk-it'), d = mk('div'); d.appendChild(document.createTextNode(i.n)); d.appendChild(mk('small', '', i.s)); if (i.b) d.appendChild(mk('small', 'mk-bm', 'Benchmark, to be confirmed'));
+      var i = D.items[id], li = mk('li', 'mk-it'), d = mk('div'); d.appendChild(document.createTextNode(i.n)); d.appendChild(mk('small', '', i.s)); if (D.lens) d.appendChild(mk('small', 'mk-lens', D.lens)); if (i.c) d.appendChild(mk('small', 'mk-course', 'Course: ' + i.c)); if (i.st) d.appendChild(mk('small', i.b ? 'mk-bm' : 'mk-st', i.st));
       var b = mk('button', '', cart[id] ? 'Added' : 'Add'); b.type = 'button'; b.setAttribute('aria-pressed', cart[id] ? 'true' : 'false');
       b.addEventListener('click', function () { if (cart[id]) delete cart[id]; else cart[id] = { n: i.n, g: ids().map(function (s) { return N[s].name; }).join(', ') }; draw(); drawCart(); });
       li.appendChild(d); li.appendChild(b); return li;
