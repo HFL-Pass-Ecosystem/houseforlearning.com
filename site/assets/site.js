@@ -223,3 +223,14 @@
     });
     draw(); drawCart();
   })();
+
+(function () {
+  var bar = document.getElementById('tc-filter'); if (!bar) return;
+  bar.querySelectorAll('[data-tc]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var k = b.getAttribute('data-tc');
+      bar.querySelectorAll('[data-tc]').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+      document.querySelectorAll('[data-tc-kind]').forEach(function (li) { li.hidden = !(k === 'all' || li.getAttribute('data-tc-kind') === k); });
+    });
+  });
+})();
