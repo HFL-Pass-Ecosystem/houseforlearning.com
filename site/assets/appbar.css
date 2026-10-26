@@ -1,0 +1,10 @@
+.appbar{background:#F2EEE2;color:#111111;border-bottom:1px solid #D8D2C0;font:600 14px/1.4 Montserrat,system-ui,sans-serif}
+.appbar-in{max-width:1180px;margin:0 auto;padding:8px 16px;display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;justify-content:center;text-align:center}
+.appbar a.appbar-go{background:#0B66A8;color:#fff;border:1px solid #0B66A8;padding:6px 14px;border-radius:3px;text-decoration:none;font-weight:700}
+.appbar a.appbar-go:hover,.appbar a.appbar-go:focus-visible{background:#0F85DB;border-color:#0F85DB}
+.appbar .appbar-sub{font-weight:400;color:#444}
+.getapp{max-width:880px;margin:0 auto;padding:24px 16px}.getapp h2{margin:0 0 8px}
+.getapp .gp{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:12px;margin:16px 0}
+.getapp .gc{background:#F2EEE2;border:1px solid #D8D2C0;padding:14px 16px;min-width:0}.getapp .gc h3{margin:0 0 6px;font-size:16px}
+.getapp .gc a.appbar-go{display:inline-block;background:#0B66A8;color:#fff;padding:7px 14px;border-radius:3px;text-decoration:none;font-weight:700}
+.getapp .gs{color:#444;font-style:italic}

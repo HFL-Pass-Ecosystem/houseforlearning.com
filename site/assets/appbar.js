@@ -1,0 +1,3 @@
+(function(){if(document.querySelector('.appbar'))return;var d=document.createElement('div');d.className='appbar';d.setAttribute('role','region');d.setAttribute('aria-label','Get our app');
+d.innerHTML='<div class="appbar-in"><span>Download our app on your phone or computer.</span><a class="appbar-go" href="get-app.html">Get the app</a></div>';
+var h=document.querySelector('header.site-head,header,nav');if(h&&h.parentNode===document.body)document.body.insertBefore(d,h);else document.body.insertBefore(d,document.body.firstChild)})();
