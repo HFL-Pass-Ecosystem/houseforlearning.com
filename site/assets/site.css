@@ -288,9 +288,9 @@ html[data-ls=kin] .steps li,html[data-ls=kin] main .btn{outline:2px solid var(--
 .cookie-actions .btn{flex:1 1 auto;justify-content:center}
 @media (max-width:600px){.cookie{font-size:13.5px;padding:12px;gap:10px;bottom:10px;left:10px;right:10px}.cookie p{flex-basis:100%}}
 body:has(.site-nav.open) .cookie{display:none}
-.mail-box{width:min(560px,calc(100vw - 32px));max-height:calc(100vh - 48px);padding:0;border:1.5px solid var(--ink);border-radius:var(--r-lg);background:var(--surface);color:var(--ink);box-shadow:0 24px 60px -20px rgba(0,0,0,.5);font:15px/1.5 var(--f-body)}.mail-box::backdrop{background:rgba(10,16,24,.55)}.mb-form{display:grid;gap:12px;padding:18px 20px 20px}.mb-top{display:flex;align-items:center;justify-content:space-between;gap:12px}.mb-top h2{margin:0;font-size:1.25rem}.mb-to{margin:0;font-weight:600;overflow-wrap:anywhere}.mb-field{display:grid;gap:4px}.mb-field label{font-weight:600}.mb-opt{font-weight:400;opacity:.75}.mb-field input,.mb-field textarea{font:inherit;padding:9px 11px;border:1px solid currentColor;border-radius:6px;background:transparent;color:inherit;width:100%;box-sizing:border-box}.mb-field input:focus-visible,.mb-field textarea:focus-visible{outline:2px solid currentColor;outline-offset:2px}.mb-note{margin:0;font-size:.875rem;opacity:.8}.mb-status{margin:0;font-weight:600}.mb-status:empty{display:none}.mb-actions{display:flex;flex-wrap:wrap;gap:10px}.wm{position:fixed;left:12px;bottom:10px;z-index:5;pointer-events:none;user-select:none;font:500 11px/1.2 var(--f-mono,ui-monospace,monospace);letter-spacing:.04em;color:currentColor;opacity:.28;max-width:calc(100vw - 24px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mail-box{width:min(560px,calc(100vw - 32px));max-height:calc(100vh - 48px);padding:0;border:1.5px solid var(--ink);border-radius:var(--r-lg);background:var(--surface);color:var(--ink);box-shadow:0 24px 60px -20px rgba(0,0,0,.5);font:15px/1.5 var(--f-body)}.mail-box::backdrop{background:rgba(10,16,24,.55)}.mb-form{display:grid;gap:12px;padding:18px 20px 20px}.mb-top{display:flex;align-items:center;justify-content:space-between;gap:12px}.mb-top h2{margin:0;font-size:1.25rem}.mb-to{margin:0;font-weight:600;overflow-wrap:anywhere}.mb-field{display:grid;gap:4px}.mb-field label{font-weight:600}.mb-opt{font-weight:400;opacity:.75}.mb-field input,.mb-field textarea{font:inherit;padding:9px 11px;border:1px solid currentColor;border-radius:6px;background:transparent;color:inherit;width:100%;box-sizing:border-box}.mb-field input:focus-visible,.mb-field textarea:focus-visible{outline:2px solid currentColor;outline-offset:2px}.mb-note{margin:0;font-size:.875rem;opacity:.8}.mb-status{margin:0;font-weight:600}.mb-status:empty{display:none}.mb-actions{display:flex;flex-wrap:wrap;gap:10px}.wm{position:fixed;left:12px;bottom:10px;z-index:5;pointer-events:none;user-select:none;font:500 11px/1.2 var(--f-mono,"Montserrat",system-ui,-apple-system,"Segoe UI",Arial,sans-serif);letter-spacing:.04em;color:currentColor;opacity:.28;max-width:calc(100vw - 24px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .wm-print{display:none}
-@media print{.wm{display:none}.wm-print{display:block;position:fixed;inset:0;pointer-events:none}.wm-big{position:fixed;top:45%;left:50%;transform:translate(-50%,-50%) rotate(-30deg);font:600 64px/1 var(--f-display,serif);color:#000;background:#fff;opacity:.06;white-space:nowrap}.wm-line{position:fixed;left:0;right:0;bottom:0;font:10px/1.3 var(--f-mono,monospace);color:#444;background:#fff;text-align:center}}
+@media print{.wm{display:none}.wm-print{display:block;position:fixed;inset:0;pointer-events:none}.wm-big{position:fixed;top:45%;left:50%;transform:translate(-50%,-50%) rotate(-30deg);font:600 64px/1 var(--f-display,serif);color:#000;background:#fff;opacity:.06;white-space:nowrap}.wm-line{position:fixed;left:0;right:0;bottom:0;font:10px/1.3 var(--f-mono,"Montserrat",system-ui,-apple-system,"Segoe UI",Arial,sans-serif);color:#444;background:#fff;text-align:center}}
 .lang-x{display:inline-flex;align-items:center;justify-content:center;padding:0}.lang-x svg{width:18px;height:18px;display:block}
 .lang-sec{list-style:none;padding:12px 10px 6px;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line)}
 
@@ -300,10 +300,10 @@ body:has(.site-nav.open) .cookie{display:none}
   --head-bg:rgba(242,238,226,.96);
   --dark-bg:#111111; --dark-ink:#f1ede4; --dark-muted:#c3ccd8; --dark-kicker:#3CC261;
   --foot-bg:#111111; --foot-ink:#e9e4d8; --foot-muted:#a9b3c4; --foot-acc:#3CC261;
-  --f-display:"Newsreader",Georgia,"Times New Roman",serif;
-  --f-body:"Public Sans",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --f-display:"Montserrat",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  --f-body:"Montserrat",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
   --f-ui:var(--f-body);
-  --f-mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --f-mono:"Montserrat",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
   --r:0; --r-lg:0; --rb:0; --focus:#8a6a2a;
 }
 .hfl .site-head{border-bottom:1px solid var(--line)}
@@ -372,8 +372,8 @@ body:has(.site-nav.open) .cookie{display:none}
 
 .pj{max-width:1000px;margin:0 auto 40px}.pj-lead{max-width:760px;color:#444444}.pj-svg{display:block;width:100%;max-width:560px;height:auto;margin:10px auto 18px}
 .pj-ring{stroke:var(--mk-a,#111111);stroke-width:2;stroke-dasharray:3 6}.pj-node circle{fill:#fff;stroke:var(--mk-a,#111111);stroke-width:2.5}.pj-node.pj-lead circle{fill:var(--mk-a,#111111)}
-.pj-node.pj-lead .pj-n{fill:#fff}.pj-n{font:700 15px/1 system-ui,sans-serif;fill:var(--mk-a,#111111)}.pj-l{font:600 12px/1 system-ui,sans-serif;fill:#111111}
-.pj-node:focus-visible circle,.pj-node:hover circle{stroke-width:4}.pj-c{font:700 17px/1 system-ui,sans-serif;fill:#111111}.pj-cs{font:13px/1 system-ui,sans-serif;fill:#444444}
+.pj-node.pj-lead .pj-n{fill:#fff}.pj-n{font:700 15px/1 "Montserrat",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;fill:var(--mk-a,#111111)}.pj-l{font:600 12px/1 "Montserrat",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;fill:#111111}
+.pj-node:focus-visible circle,.pj-node:hover circle{stroke-width:4}.pj-c{font:700 17px/1 "Montserrat",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;fill:#111111}.pj-cs{font:13px/1 "Montserrat",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;fill:#444444}
 .pj-list{list-style:none;margin:0 0 22px;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:14px}
 .pj-st{display:flex;gap:14px;border:1px solid #D9D2BF;border-radius:16px;padding:16px;background:linear-gradient(180deg,#FBF9F3,#F6F2E6);min-width:0}
 .pj-no{flex:none;width:34px;height:34px;border-radius:50%;background:var(--mk-a,#111111);color:#fff;display:grid;place-items:center;font-weight:700}
@@ -479,3 +479,7 @@ a{color:#0B66A8}
 .pj-lead{color:#444444}.pj-no,.photo-play,.lx-av,.lx-hub-i{background:#111111}.pj-no{background:#0B66A8}
 button,input,select,textarea{font-family:inherit}
 svg text,svg tspan{font-family:"Montserrat",system-ui,sans-serif}
+
+/* BRAND-FONTS: pre/code and svg text follow the brand face */
+pre,code,kbd,samp,tt,.mono{font-family:"Montserrat",system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+svg text,svg tspan{font-family:"Montserrat",system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
