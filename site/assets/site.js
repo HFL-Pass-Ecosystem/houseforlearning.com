@@ -196,6 +196,7 @@
     }
     function draw() {
       var s = ids(); out.textContent = '';
+      var five = mk('div', 'mk-five'), rest = mk('div', 'mk-rest'), FIVE = { hardware: 1, software: 1, cloud: 1, data: 1, analytics: 1 };
       D.cats.forEach(function (c) {
         var core = D.core[c.id] || [], seen = {}, cons = [], vars = [];
         core.forEach(function (id) { seen[id] = 1; });
@@ -203,8 +204,9 @@
         var box = mk('section', 'mk-cat'); box.appendChild(mk('h3', '', c.name));
         list(box, 'Shared core, the same in every sector', core.concat(cons), 'Coming soon.');
         if (s.length) list(box, 'Shaped to your choice', vars, 'Coming soon for this choice.');
-        out.appendChild(box);
+        (FIVE[c.id] ? five : rest).appendChild(box);
       });
+      out.appendChild(five); out.appendChild(rest);
       msg.textContent = s.length ? 'Chosen: ' + s.map(function (x) { return N[x].name; }).join(', ') + '.' : 'Nothing chosen yet. Showing the shared core, the same in every sector.';
       Array.prototype.forEach.call(document.querySelectorAll('.mk-p'), function (g) { g.setAttribute('aria-pressed', sel[g.getAttribute('data-s')] ? 'true' : 'false'); });
       Array.prototype.forEach.call(document.querySelectorAll('.mk-c'), function (g) { var h = GS[g.getAttribute('data-c')]; g.setAttribute('aria-pressed', h.every(function (x) { return sel[x]; }) ? 'true' : 'false'); });
