@@ -119,7 +119,7 @@
           })
           .catch(function () {
             // The free service may be waking from sleep (up to about 3 minutes). Wait calmly and retry; never show a failure at once.
-            if (Date.now() - started < 240000) { tries++; say('Connecting to our secure service. This can take up to 2-3 minutes. Please keep this page open.'); setTimeout(attempt, 15000); }
+            if (Date.now() - started < 360000) { tries++; say('Connecting to our secure service. This can take up to 4 minutes. Please keep this page open.'); setTimeout(attempt, 15000); }
             else { if (btn) btn.disabled = false; say('Our secure service is taking longer than usual. Your words are still in the form. Please press Send once more.'); }
           });
       };
