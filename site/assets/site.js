@@ -195,7 +195,7 @@
       Array.prototype.forEach.call(document.querySelectorAll('.mk-c'), function (g) { var h = GS[g.getAttribute('data-c')]; g.setAttribute('aria-pressed', h.every(function (x) { return sel[x]; }) ? 'true' : 'false'); });
     }
     function drawCart() {
-      var l = document.getElementById('mk-list'), k = Object.keys(cart); l.textContent = ''; document.getElementById('mk-n').textContent = '(' + k.length + ')';
+      var l = document.getElementById('mk-list'), k = Object.keys(cart); if (!l || !document.getElementById('mk-n')) return; l.textContent = ''; document.getElementById('mk-n').textContent = '(' + k.length + ')';
       k.forEach(function (n) { var li = mk('li'); li.appendChild(mk('span', '', cart[n].n)); var b = mk('button', '', 'Remove'); b.type = 'button'; b.addEventListener('click', function () { delete cart[n]; draw(); drawCart(); }); li.appendChild(b); l.appendChild(li); });
       if (!k.length) l.appendChild(mk('li', '', 'Nothing added yet. Use Add beside any offer.'));
     }
