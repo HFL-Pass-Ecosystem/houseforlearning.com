@@ -483,3 +483,5 @@ svg text,svg tspan{font-family:"Montserrat",system-ui,sans-serif}
 /* BRAND-FONTS: pre/code and svg text follow the brand face */
 pre,code,kbd,samp,tt,.mono{font-family:"Montserrat",system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
 svg text,svg tspan{font-family:"Montserrat",system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+
+.pw-chips{list-style:none;margin:8px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px}.pw-chips a{display:inline-block;border:1px solid #D8D2C0;border-radius:999px;padding:5px 11px;font-size:13px;color:#0F85DB;text-decoration:none;background:#fff}.pw-chips a:hover{border-color:#0F85DB}.pw-layers{list-style:none;margin:18px 0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}.pw-layers li{border-top:4px solid #3CC261;background:#fff;padding:10px;font-size:13px}.pw-layers b{display:block;font-size:15px}.pw-steps{padding-left:20px;display:grid;gap:8px}@media(max-width:700px){.pw-layers{grid-template-columns:minmax(0,1fr)}}
