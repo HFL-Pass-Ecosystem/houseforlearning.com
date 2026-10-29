@@ -81,6 +81,13 @@
     window.location.href = 'mailto:' + to + '?subject=' + encodeURIComponent(subj) + (cc ? '&cc=' + encodeURIComponent(cc) : '') + '&body=' + encodeURIComponent(lines.join('\n'));
     return true;
   }
+  // Wake the free back end while the visitor reads, so forms and sign-in answer sooner. Silent; no data sent.
+  try {
+    var GW = 'https://ahfl-gateway-test.onrender.com';
+    fetch(GW + '/health', { mode: 'no-cors', cache: 'no-store' }).catch(function () {});
+    var seen = {};
+    Array.prototype.forEach.call(document.querySelectorAll('form[data-api]'), function (f) { var h = f.getAttribute('data-api'); if (!seen[h]) { seen[h] = 1; fetch(h + '/', { mode: 'no-cors', cache: 'no-store' }).catch(function () {}); } });
+  } catch (e) { /* the wake-up is optional */ }
   Array.prototype.forEach.call(document.querySelectorAll('form[data-api]'), function (f) {
     var sel = f.querySelector('select[name=topic]');
     if (!sel) return;
@@ -101,14 +108,22 @@
                    consent: !!(f.elements.consent && f.elements.consent.checked), name: v('name'), organisation: v('organisation'), role: v('role'), country: v('country') };
       if (btn) btn.disabled = true;
       say('Sending your message...');
-      fetch(f.getAttribute('data-api') + '/api/help/contact', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) })
-        .then(function (r) { return r.json().then(function (j) { return { ok: r.ok, j: j }; }); })
-        .then(function (o) {
-          if (btn) btn.disabled = false;
-          if (o.ok && o.j.reference) { say('Thank you. Your message is saved. Your reference number is ' + o.j.reference + '. ' + (o.j.promise || '')); f.reset(); }
-          else say((o.j && (o.j.error || o.j.message)) || 'We could not save your message. Please check the fields and try again.');
-        })
-        .catch(function () { if (btn) btn.disabled = false; say('We could not reach our message desk just now. Please try again in a minute.'); });
+      var tries = 0, started = Date.now();
+      var attempt = function () {
+        fetch(f.getAttribute('data-api') + '/api/help/contact', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) })
+          .then(function (r) { return r.json().then(function (j) { return { ok: r.ok, j: j }; }); })
+          .then(function (o) {
+            if (btn) btn.disabled = false;
+            if (o.ok && o.j.reference) { say('Thank you. Your message is saved. Your reference number is ' + o.j.reference + '. ' + (o.j.promise || '')); f.reset(); }
+            else say((o.j && (o.j.error || o.j.message)) || 'We could not save your message. Please check the fields and try again.');
+          })
+          .catch(function () {
+            // The free service may be waking from sleep (up to about 3 minutes). Wait calmly and retry; never show a failure at once.
+            if (Date.now() - started < 240000) { tries++; say('Connecting to our secure service. This can take up to 2-3 minutes. Please keep this page open.'); setTimeout(attempt, 15000); }
+            else { if (btn) btn.disabled = false; say('Our secure service is taking longer than usual. Your words are still in the form. Please press Send once more.'); }
+          });
+      };
+      attempt();
       return;
     }
     if (f.hasAttribute('data-offline')) {
