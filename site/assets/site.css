@@ -904,3 +904,32 @@ a.ws-box:hover{filter:brightness(1.08);transform:translateY(-2px);text-decoratio
 .ws-fnrow h3{margin:0 0 6px;font-size:16px}
 .ws-fnboxes{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));gap:8px}
 @media (max-width:760px){.ws-home{grid-template-columns:minmax(0,1fr)}}
+
+/* Rules for the course pages brought over from the 18 Oct build */
+.lang-btn .btn-label,.a11y-btn .btn-label{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.kit-intro{max-width:70ch;color:var(--muted,#4a5568)}
+.kit-courses{margin:6px 0 0;padding-left:18px}
+.kit-courses small{color:var(--muted,#4a5568)}
+.kit-grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));margin:12px 0}
+.kit-grid-posters{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.kit-fig{margin:0}
+.kit-fig img{display:block;width:100%;height:auto;background:#F2EEE2;border:1px solid var(--line,#d9d2c3)}
+.kit-fig figcaption{font-size:.9rem;margin-top:6px}
+.kit-wide{margin:12px 0}
+.kit-steps{margin:4px 0 0;padding-left:20px}
+.kit-table{width:100%;border-collapse:collapse;background:var(--surface,#fffdf8);margin:12px 0;font-size:.92rem}
+.kit-table caption{text-align:left;font-weight:600;padding:6px 0}
+.kit-table th,.kit-table td{border:1px solid var(--line,#d9d2c3);padding:6px 8px;text-align:left;vertical-align:top}
+.kit-note{font-size:.88rem;color:var(--muted,#4a5568)}
+/* SIGNUP:BEGIN */
+.signup-wrap{display:grid;gap:18px;max-width:760px}
+form.signup{display:grid;gap:18px}
+.signup fieldset.signup-step{border:1px solid var(--line);border-radius:var(--r,6px);padding:14px 18px;margin:0;min-width:0;display:grid;gap:12px}
+.signup fieldset.signup-step legend{font-weight:600;padding:0 8px}
+.signup .opt-group{display:grid;gap:10px}
+.signup .opt-row{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--line);border-radius:var(--r,6px);padding:10px 12px}
+.signup .opt-row input{margin-top:4px;flex:none}
+.signup fieldset:disabled,.signup input:disabled,.signup select:disabled{opacity:.7}
+.signup-notify{border:1px solid var(--line);border-radius:var(--r,6px);padding:14px 18px;display:grid;gap:10px}
+.signup .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+@media (max-width:700px){.kit-table{display:block;overflow-x:auto;max-width:100%}}
