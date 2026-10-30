@@ -69,6 +69,40 @@ export default async (req) => {
     return ok({ message: 'Thank you. If this address can be used, we have sent a message to confirm it. Open it, then log in.' });
   }
 
+  // Which one-tap options are switched on (Netlify variable AUTH_PROVIDERS, for example "google,azure,email").
+  const enabled = (process.env.AUTH_PROVIDERS || 'email').split(',').map((v) => v.trim()).filter(Boolean);
+  const origin = req.headers.get('origin') || process.env.SITE_ORIGIN || '';
+  const back = `${origin}/auth-callback.html`;
+
+  if (action === 'config') return ok({ providers: enabled });
+
+  if (action === 'oauth') {
+    const p = text(body.provider, 20);
+    if (!['google', 'azure'].includes(p) || !enabled.includes(p) || !origin) return fail(400, 'Not available');
+    return ok({ url: `${c.url}/auth/v1/authorize?provider=${p}&redirect_to=${encodeURIComponent(back)}` });
+  }
+
+  if (action === 'magic') {
+    if (!enabled.includes('email')) return fail(400, 'Not available');
+    if (isEmail(email) && origin) {
+      await fetch(`${c.url}/auth/v1/otp?redirect_to=${encodeURIComponent(back)}`, {
+        method: 'POST',
+        headers: { apikey: c.key, 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, create_user: true, data: { full_name: text(body.name, 120) } }),
+      }).catch(() => {});
+    }
+    return ok({ message: 'If this address can be used, we have sent you a link. Open it on this device to come in.' });
+  }
+
+  // The page hands over the tokens that came back from Google, Microsoft or an email link.
+  if (action === 'session') {
+    const a = typeof body.access_token === 'string' ? body.access_token.slice(0, 4000) : '';
+    const r = typeof body.refresh_token === 'string' ? body.refresh_token.slice(0, 500) : '';
+    const u = a ? await gotrue(c, 'user', null, a) : { status: 0 };
+    if (u.status !== 200) return fail(401, 'That link has expired. Please try again.');
+    return withCookie(ok({ ok: true }), pack({ access_token: a, refresh_token: r }), MAX_AGE);
+  }
+
   if (action === 'login') {
     if (!isEmail(email) || !password) return fail(400, 'Please enter your email and password');
     const r = await gotrue(c, 'token?grant_type=password', { email, password });

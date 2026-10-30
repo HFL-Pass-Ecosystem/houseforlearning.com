@@ -23,7 +23,7 @@
     call(body).then(function (d) {
       if (btn) btn.disabled = false;
       if (kind === 'login' && d.ok) { location.href = 'members.html'; return; }
-      if (d.message) { show(f, d.message, false); if (kind === 'signup') f.reset(); return; }
+      if (d.message) { show(f, d.message, false); if (kind === 'signup' || kind === 'magic') f.reset(); return; }
       offline(f, d);
     }).catch(function () { if (btn) btn.disabled = false; offline(f, {}); });
   });
@@ -33,6 +33,34 @@
     if (!em) { show(f, 'Type your email above first, then press Forgot password.', true); return; }
     call({ action: 'reset', email: em }).then(function (d) { d.message ? show(f, d.message, false) : offline(f, d); });
   });
+  /* One-tap options: show only the ones that are switched on. */
+  var ot = document.getElementById('onetap');
+  if (ot) {
+    call({ action: 'config' }).then(function (d) {
+      var on = d.providers || [], any = false;
+      [].forEach.call(ot.querySelectorAll('[data-oauth]'), function (b) { if (on.indexOf(b.getAttribute('data-oauth')) > -1) { b.hidden = false; any = true; } });
+      var f = ot.querySelector('[data-email-only]'); if (f && on.indexOf('email') > -1) { f.hidden = false; any = true; }
+      if (!any || d.status === 503 || !d.status) ot.hidden = true;
+    }).catch(function () { ot.hidden = true; });
+    ot.addEventListener('click', function (e) {
+      var b = e.target.closest && e.target.closest('[data-oauth]'); if (!b) return;
+      call({ action: 'oauth', provider: b.getAttribute('data-oauth') }).then(function (d) {
+        if (d.url) location.href = d.url;
+        else { var s = document.getElementById('onetap-status'); s.textContent = 'That option is not available yet.'; s.hidden = false; }
+      });
+    });
+  }
+  /* Landing page after Google, Microsoft or an email link. */
+  var cb = document.getElementById('auth-callback');
+  if (cb) {
+    var h = new URLSearchParams(location.hash.replace(/^#/, ''));
+    var tok = h.get('access_token');
+    history.replaceState(null, '', location.pathname);
+    if (!tok) { cb.textContent = 'This link did not work. Please go back and try again.'; }
+    else call({ action: 'session', access_token: tok, refresh_token: h.get('refresh_token') || '' }).then(function (d) {
+      if (d.ok) location.replace('members.html'); else cb.textContent = d.error || 'Please try again.';
+    });
+  }
   var box = document.getElementById('my-page');
   if (box) {
     call({ action: 'me' }).then(function (d) {
