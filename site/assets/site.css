@@ -935,3 +935,4 @@ form.signup{display:grid;gap:18px}
 @media (max-width:700px){.kit-table{display:block;overflow-x:auto;max-width:100%}}
 .ws-pad{margin:0 16px;font-size:14px}
 .ws-plist{columns:2 280px;column-gap:28px;margin:0;padding-left:26px}.ws-plist li{margin:4px 0;break-inside:avoid}
+.ws-plist.cl{list-style:none;padding-left:0}.ws-plist.cl small{color:var(--muted)}
