@@ -149,7 +149,7 @@ form.contact,form.quiz{background:var(--surface);border:1px solid var(--line);bo
 .field-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:16px}
 label{font-weight:600;font-size:14.5px}
 .opt{font-weight:400;color:var(--muted)}
-input[type=text],input[type=email],input[type=tel],select,textarea{width:100%;min-width:0;font:16px/1.4 var(--f-ui);color:var(--ink);background:#fff;border:1.5px solid #8a94a3;border-radius:var(--r);padding:11px 12px}
+input[type=text],input[type=email],input[type=password],input[type=tel],select,textarea{width:100%;min-width:0;font:16px/1.4 var(--f-ui);color:var(--ink);background:#fff;border:1.5px solid #8a94a3;border-radius:var(--r);padding:11px 12px}
 textarea{min-height:150px;resize:vertical}
 .check{display:flex;gap:10px;align-items:flex-start;font-weight:400}
 .check input{width:20px;height:20px;margin:2px 0 0;flex:none;accent-color:var(--acc)}
