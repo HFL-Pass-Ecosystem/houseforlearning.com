@@ -460,3 +460,23 @@
   if (W.SiteUI) W.SiteUI.init = function () { if (base) base.apply(this, arguments); init(); };
   if (D.readyState === 'loading') D.addEventListener('DOMContentLoaded', init); else init();
 })();
+
+/* Header fit: if the full menu would not fit on one line (a wider font, a translation, a zoom level), use the Menu button instead of letting items overlap. */
+(function () {
+  var root = document.documentElement, row = document.querySelector('.head-row'), brand = document.querySelector('.brand'), nav = document.getElementById('site-nav');
+  if (!row || !brand || !nav) return;
+  function fit() {
+    root.classList.remove('nav-collapsed');
+    var menu = document.querySelector('.menu-btn');
+    if (menu && getComputedStyle(menu).display !== 'none') return; // the media query already collapsed it
+    var cs = getComputedStyle(row), inner = row.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
+    if (brand.offsetWidth + nav.offsetWidth + 32 > inner) root.classList.add('nav-collapsed');
+  }
+  var t;
+  function later() { clearTimeout(t); t = setTimeout(fit, 80); }
+  fit();
+  window.addEventListener('resize', later);
+  window.addEventListener('load', fit);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
+  if (window.MutationObserver) new MutationObserver(later).observe(nav, { childList: true, subtree: true, characterData: true });
+})();
