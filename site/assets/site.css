@@ -47,7 +47,7 @@ strong{font-weight:600}
 .site-nav a[aria-current="page"]{border-bottom-color:var(--hl)}
 .head-actions{display:flex;gap:8px;flex-wrap:nowrap}
 .site-nav .head-actions a.btn{display:inline-flex;padding:8px 14px;color:var(--on-acc);border-bottom-width:1.5px}
-@media (max-width:1320px){
+@media (max-width:1500px){
   .menu-btn{display:inline-flex}
   .site-nav{display:none}
   .site-head .wrap{position:static}
@@ -189,7 +189,7 @@ form.quiz fieldset.wrong{border-color:#b5592a;border-width:2px}
 .cookie .cookie-actions{display:flex;gap:8px;flex-wrap:wrap}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 @media print{.site-head,.cookie,.site-foot{display:none}}
-@media (max-width:1320px){.site-nav.open .head-actions{flex-wrap:wrap}}
+@media (max-width:1500px){.site-nav.open .head-actions{flex-wrap:wrap}}
 /* ---------- Language menu (assets/lang.js), platform notice ---------- */
 .lang-btn{display:inline-flex;align-items:center;gap:6px}
 .lang-btn svg{width:16px;height:16px;flex:none;display:block}
@@ -223,7 +223,7 @@ form.quiz fieldset.wrong{border-color:#b5592a;border-width:2px}
 /* ---------- Accessibility and learning style panel (assets/lang.js, same on all group sites) ---------- */
 .a11y-btn{display:inline-flex;align-items:center;gap:6px}
 .a11y-btn svg{width:16px;height:16px;flex:none;display:block}
-@media (min-width:1321px){.lang-btn .btn-label,.a11y-btn .btn-label{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}.site-nav .head-actions .lang-btn,.site-nav .head-actions .a11y-btn{padding-left:11px;padding-right:11px}}
+@media (min-width:1501px){.lang-btn .btn-label,.a11y-btn .btn-label{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}.site-nav .head-actions .lang-btn,.site-nav .head-actions .a11y-btn{padding-left:11px;padding-right:11px}}
 .a11y-panel{overflow:auto}
 .a11y-body{display:flex;flex-direction:column;gap:8px;overflow:auto}
 .a11y-group{border:1.5px solid var(--line);border-radius:var(--r);padding:0}
