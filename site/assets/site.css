@@ -32,7 +32,7 @@ strong{font-weight:600}
 .trail-btn:hover{border-color:currentColor}.trail nav{min-width:0;flex:1 1 200px}
 .crumbs{display:flex;flex-wrap:wrap;gap:2px 6px;margin:0;padding:0;list-style:none}.crumbs li+li::before{content:'\203A';margin-right:6px;opacity:.6}
 .crumbs a{color:inherit;text-underline-offset:3px}.crumbs [aria-current]{font-weight:600}
-.site-head .wrap{max-width:1440px}
+.site-head .wrap{max-width:1800px}
 .head-row{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:66px;position:relative}
 .brand{display:inline-flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;min-width:0}
 .brand svg{flex:none;display:block}
@@ -48,7 +48,7 @@ strong{font-weight:600}
 .site-nav a[aria-current="page"]{border-bottom-color:var(--hl)}
 .head-actions{display:flex;gap:8px;flex-wrap:nowrap}
 .site-nav .head-actions a.btn{display:inline-flex;padding:8px 14px;color:var(--on-acc);border-bottom-width:1.5px}
-@media (max-width:1650px){
+@media (max-width:1850px){
   .menu-btn{display:inline-flex}
   .site-nav{display:none}
   .site-head .wrap{position:static}
@@ -190,7 +190,7 @@ form.quiz fieldset.wrong{border-color:#b5592a;border-width:2px}
 .cookie .cookie-actions{display:flex;gap:8px;flex-wrap:wrap}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 @media print{.site-head,.cookie,.site-foot{display:none}}
-@media (max-width:1650px){.site-nav.open .head-actions{flex-wrap:wrap}}
+@media (max-width:1850px){.site-nav.open .head-actions{flex-wrap:wrap}}
 /* ---------- Language menu (assets/lang.js), platform notice ---------- */
 .lang-btn{display:inline-flex;align-items:center;gap:6px}
 .lang-btn svg{width:16px;height:16px;flex:none;display:block}
