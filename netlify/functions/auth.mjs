@@ -33,8 +33,10 @@ async function gotrue(c, path, body, token) {
   return { status: r.status, data };
 }
 
+// hfl_in is only a yes/no flag so pages can show "My page" and "Log out"; it holds no token and cannot sign anyone in.
 const withCookie = (res, value, age) => {
   res.headers.append('Set-Cookie', cookie(value, age));
+  res.headers.append('Set-Cookie', `hfl_in=${age > 0 ? '1' : ''}; Path=/; Max-Age=${age}; Secure; SameSite=Lax`);
   return res;
 };
 

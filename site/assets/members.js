@@ -69,7 +69,7 @@
   if (box) {
     call({ action: 'me' }).then(function (d) {
       var out = box.querySelector('[data-out]');
-      if (d.status === 401 || d.status === 503 || !d.status) { location.href = 'login.html'; return; }
+      if (d.status === 401 || d.status === 503 || !d.status) { document.cookie = 'hfl_in=; Max-Age=0; Path=/'; location.href = 'login.html'; return; }
       out.querySelector('[data-name]').textContent = d.name || d.email;
       out.querySelector('[data-email]').textContent = d.email;
       out.querySelector('[data-plan]').textContent = d.plan;

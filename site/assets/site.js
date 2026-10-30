@@ -480,3 +480,21 @@
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
   if (window.MutationObserver) new MutationObserver(later).observe(nav, { childList: true, subtree: true, characterData: true });
 })();
+
+/* When signed in, the header says "My page" and offers Log out, instead of Members login. */
+(function () {
+  if (!/(?:^|; )hfl_in=1/.test(document.cookie)) return;
+  [].forEach.call(document.querySelectorAll('a[href="login.html"]'), function (a) {
+    if (!/members login/i.test(a.textContent)) return;
+    a.textContent = 'My page'; a.setAttribute('href', 'members.html');
+    if (a.closest('.head-actions')) {
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'btn btn-sm btn-ghost'; b.textContent = 'Log out';
+      b.addEventListener('click', function () {
+        fetch('/api/auth', { method: 'POST', headers: { 'Content-Type': 'application/json' }, credentials: 'same-origin', body: JSON.stringify({ action: 'logout' }) })
+          .then(function () { location.href = 'index.html'; }, function () { location.href = 'index.html'; });
+      });
+      a.parentNode.insertBefore(b, a.nextSibling);
+    }
+  });
+})();
