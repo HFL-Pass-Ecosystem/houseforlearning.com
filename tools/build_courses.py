@@ -9,6 +9,16 @@ e = html.escape
 # Wording the owner has not yet confirmed: change here only.
 L70, L20, L10 = 'Practice (70%)', 'Share and mentoring (20%)', 'Study (10%)'
 DRAFT = 'Draft course list. Chapters, wording and lengths may change before opening.'
+def outlines():
+    out = {}
+    src = (R / 'data' / 'lesson-outlines.md').read_text()
+    for blk in re.split(r'\n## ', src)[1:]:
+        cid = blk.split(' ', 1)[0]
+        rows = [[x.strip() for x in l.strip().strip('|').split('|')] for l in blk.splitlines() if re.match(r'\|\s*\d+\s*\|', l)]
+        info = {k: v.strip() for k, v in (m.groups() for m in (re.match(r'(Length|Evidence kept in My page|Pass rule \(draft\)|Safety and limits): ?(.*)', l) for l in blk.splitlines()) if m)}
+        out[cid] = {'rows': rows, 'info': info}
+    return out
+OUT = outlines()
 tpl = (S / 'catalogue.html').read_text()
 tpl = tpl.replace('<meta name="robots" content="index,follow">', '')
 if 'name="robots"' not in tpl:
@@ -38,7 +48,16 @@ def detail(c, kind):
     parts.append('<h3 class="ws-h3">The journey</h3><ol class="ws-chips">' + ''.join(f'<li>{e(j)}</li>' for j in c['journey']) + '</ol>')
     parts.append(f'<p><strong>Length:</strong> {e(c["length"])}.' + (f' <strong>Where:</strong> {e(c["region"])}.' if c.get('region') else '') + '</p>')
     if c.get('contributions_open'): parts.append('<p>Experts and training partners are welcome to contribute to this course. <a href="partner.html">Partner with us</a></p>')
-    return sec('', 'c-h', 'how it is taught', 'Practice, sharing and study', ''.join(parts)) + sec('alt', 'n-h', 'next', 'Back to the list', '<p><a class="btn" href="courses.html">All courses</a> <a class="btn btn-ghost" href="join.html">Join</a></p>' + note)
+    o = OUT.get(c['id'])
+    extra = ''
+    if o and o['rows']:
+        extra = sec('alt', 'l-h', 'lesson by lesson', 'The nine steps',
+            ('<p>' + e(o['info'].get('Length', '')) + '</p>' if o['info'].get('Length') else '')
+            + '<div class="scroll-x"><table class="ws-table"><caption>Lesson outline</caption><thead><tr><th scope="col">Step</th><th scope="col">Stage</th><th scope="col">Kind</th><th scope="col">Hours</th><th scope="col">What you do</th></tr></thead><tbody>'
+            + ''.join('<tr><th scope="row">' + ''.join(e(x) if i == 0 else '</th><td>' + e(x) if False else '' for i, x in enumerate(r[:1])) + '</th>' + ''.join(f'<td>{e(x)}</td>' for x in r[1:]) + '</tr>' for r in o['rows'])
+            + '</tbody></table></div>'
+            + ''.join(f'<p><strong>{e(lbl)}:</strong> {e(o["info"][k])}</p>' for k, lbl in [('Evidence kept in My page', 'Kept in My page'), ('Pass rule (draft)', 'To pass (draft)'), ('Safety and limits', 'Limits')] if o['info'].get(k)))
+    return sec('', 'c-h', 'how it is taught', 'Practice, sharing and study', ''.join(parts)) + extra + sec('alt', 'n-h', 'next', 'Back to the list', '<p><a class="btn" href="courses.html">All courses</a> <a class="btn btn-ghost" href="join.html">Join</a></p>' + note)
 
 for c in D['chapters']:
     page(slug(c), c['title'], c.get('outcome', c['title'])[:150], c['title'], c.get('region', ''), detail(c, 'chapter'),
