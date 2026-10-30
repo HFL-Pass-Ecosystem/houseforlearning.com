@@ -933,3 +933,5 @@ form.signup{display:grid;gap:18px}
 .signup-notify{border:1px solid var(--line);border-radius:var(--r,6px);padding:14px 18px;display:grid;gap:10px}
 .signup .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
 @media (max-width:700px){.kit-table{display:block;overflow-x:auto;max-width:100%}}
+.ws-pad{margin:0 16px;font-size:14px}
+.ws-plist{columns:2 280px;column-gap:28px;margin:0;padding-left:26px}.ws-plist li{margin:4px 0;break-inside:avoid}
