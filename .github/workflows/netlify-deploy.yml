@@ -1,0 +1,48 @@
+# Sends the site to the existing Netlify project "houseforlearning" (free plan).
+# Netlify's free plan cannot pull private organisation repositories itself, so GitHub pushes instead.
+# main -> the production deploy. Any other branch -> a preview link named after the branch.
+# Needs one repository secret: NETLIFY_AUTH_TOKEN (Netlify > User settings > Applications > Personal access tokens).
+name: Deploy to Netlify
+
+on:
+  push:
+    branches: ['**']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: netlify-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+      NETLIFY_SITE_ID: 98966fb0-5e90-4d4b-8316-93f5b3a09217
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Check the token is set
+        run: |
+          if [ -z "$NETLIFY_AUTH_TOKEN" ]; then
+            echo "::error::Add the NETLIFY_AUTH_TOKEN secret in GitHub: Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+      - name: Deploy
+        id: deploy
+        run: |
+          if [ "${{ github.ref }}" = "refs/heads/main" ]; then
+            PROD="--prod"
+          else
+            PROD="--alias=$(echo '${{ github.ref_name }}' | tr -c 'a-zA-Z0-9-' '-' | cut -c1-37 | sed 's/-*$//')"
+          fi
+          npx --yes netlify-cli@17 deploy --dir=site --functions=netlify/functions $PROD \
+            --message="${{ github.event_name }} ${{ github.sha }}" --json > deploy.json
+          URL=$(node -e "const d=require('./deploy.json');console.log(d.url||d.deploy_url)")
+          echo "url=$URL" >> "$GITHUB_OUTPUT"
+          echo "### Netlify: $URL" >> "$GITHUB_STEP_SUMMARY"

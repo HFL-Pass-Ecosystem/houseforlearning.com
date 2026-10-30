@@ -11,11 +11,14 @@ All of these are free.
 
 Until steps 2 and 3 are done, the site still works: forms open the visitor's own email app instead.
 
-## Step 1: put the site on Netlify (one time)
-1. Go to https://app.netlify.com and sign in with GitHub.
-2. Click **Add new site**, then **Import an existing project**, then **GitHub**.
-3. Pick **HFL-Pass-Ecosystem/houseforlearning.com**. Leave the settings as they are (they come from `netlify.toml`). Click **Deploy**.
-4. Netlify gives you a test address like `something.netlify.app`. Open it and check the site.
+## Step 1: let GitHub send the site to Netlify (one time, free)
+Netlify's free plan cannot read a private organisation repository by itself (it asks for Pro at $20/month).
+So GitHub sends the site to the existing Netlify project **houseforlearning** instead. That is free.
+1. In Netlify, click your round profile picture (bottom left), then **User settings**, then **Applications**.
+2. Under **Personal access tokens**, click **New access token**. Name it `github-deploy`, set expiry to the longest option, click **Generate token**, and copy it. (Netlify shows it only once.)
+3. In GitHub, open https://github.com/HFL-Pass-Ecosystem/houseforlearning.com/settings/secrets/actions
+4. Click **New repository secret**. Name: `NETLIFY_AUTH_TOKEN`. Secret: paste the token. Click **Add secret**.
+5. From now on, every change is sent to Netlify by itself. The `main` branch is the production version; any other branch gets its own preview link (shown in GitHub under **Actions**).
 
 ## Step 2: create the database (one time)
 1. Go to https://supabase.com, sign in, click **New project**. Name it `house-for-learning`. Pick the region nearest to you. Save the database password somewhere safe.
@@ -26,15 +29,15 @@ Until steps 2 and 3 are done, the site still works: forms open the visitor's own
    - **service_role** key (secret: never put it in a page or send it by chat or email)
 
 ## Step 3: connect Netlify to the database (one time)
-1. In Netlify, open your site, then **Site configuration**, then **Environment variables**.
+1. In Netlify, open the **houseforlearning** project, then **Project configuration**, then **Environment variables**.
 2. Add `SUPABASE_URL` = the Project URL.
 3. Add `SUPABASE_SERVICE_KEY` = the service_role key.
 4. Add `SITE_ORIGIN` = `https://houseforlearning.com` (only after the domain points to Netlify; leave it out while testing).
 5. Optional email alerts: make a free account at https://resend.com, create an API key, then add `RESEND_API_KEY` and `NOTIFY_TO` = the address that should get alerts.
-6. Click **Deploys**, then **Trigger deploy**.
+6. In GitHub, open **Actions**, click **Deploy to Netlify**, then **Run workflow** to send the site again with the new settings.
 
 ## Step 4: test
-1. Open the Contact page on the Netlify address, fill in the form, press Send.
+1. Open the Contact page on the preview link, fill in the form, press Send.
 2. You should see "Thank you. Your message has been sent (reference MSG-...)".
 3. In Supabase, open **Table Editor**, then **messages**. Your message is there.
 
