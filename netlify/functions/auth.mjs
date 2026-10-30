@@ -40,6 +40,21 @@ const withCookie = (res, value, age) => {
   return res;
 };
 
+const WAIT = /^[a-f0-9]{32}$/;
+// Pending sign-ins wait in the signin_handoff table (supabase/handoff.sql). Without the table these calls just say "not available".
+async function handoffTable(method, query, body) {
+  const url = process.env.SUPABASE_URL, key = process.env.SUPABASE_SERVICE_KEY;
+  if (!url || !key) return { status: 503, data: null };
+  const r = await fetch(`${url.replace(/\/$/, '')}/rest/v1/signin_handoff${query}`, {
+    method,
+    headers: { apikey: key, Authorization: `Bearer ${key}`, 'Content-Type': 'application/json', Prefer: method === 'POST' ? 'resolution=merge-duplicates,return=minimal' : 'return=representation' },
+    body: body ? JSON.stringify(body) : undefined,
+  });
+  let data = null;
+  try { data = await r.json(); } catch { /* empty body */ }
+  return { status: r.status, data };
+}
+
 async function profile(c, token) {
   const u = await gotrue(c, 'user', null, token);
   if (u.status !== 200) return null;
@@ -74,7 +89,8 @@ export default async (req) => {
   // Which one-tap options are switched on (Netlify variable AUTH_PROVIDERS, for example "google,azure,email").
   const enabled = (process.env.AUTH_PROVIDERS || 'email').split(',').map((v) => v.trim()).filter(Boolean);
   const origin = req.headers.get('origin') || process.env.SITE_ORIGIN || '';
-  const back = `${origin}/auth-callback.html`;
+  const wait = typeof body.wait === 'string' && WAIT.test(body.wait) ? body.wait : '';
+  const back = `${origin}/auth-callback.html${wait ? `?w=${wait}` : ''}`;
 
   if (action === 'config') return ok({ providers: enabled });
 
@@ -113,6 +129,30 @@ export default async (req) => {
     const u = a ? await gotrue(c, 'user', null, a) : { status: 0 };
     if (u.status !== 200) return fail(401, 'That link has expired. Please try again.');
     return withCookie(ok({ ok: true }), pack({ access_token: a, refresh_token: r }), MAX_AGE);
+  }
+
+  // The device that opened the email link leaves the sign-in here for the screen that is waiting.
+  if (action === 'handoff') {
+    const w = typeof body.wait === 'string' ? body.wait : '';
+    const a = typeof body.access_token === 'string' ? body.access_token.slice(0, 4000) : '';
+    const rt = typeof body.refresh_token === 'string' ? body.refresh_token.slice(0, 500) : '';
+    if (!WAIT.test(w) || !a) return fail(400, 'Bad request');
+    const u = await gotrue(c, 'user', null, a);
+    if (u.status !== 200) return fail(401, 'That link has expired. Please try again.');
+    const r = await handoffTable('POST', '', { wait_id: w, access_token: a, refresh_token: rt });
+    return r.status < 300 ? ok({ ok: true }) : fail(503, 'Not available');
+  }
+
+  // The waiting screen asks again every few seconds. A pending sign-in is handed over once, then deleted.
+  if (action === 'poll') {
+    const w = typeof body.wait === 'string' ? body.wait : '';
+    if (!WAIT.test(w)) return fail(400, 'Bad request');
+    const since = new Date(Date.now() - 10 * 60 * 1000).toISOString();
+    const r = await handoffTable('DELETE', `?wait_id=eq.${w}&created_at=gte.${encodeURIComponent(since)}`);
+    if (r.status >= 300) return fail(503, 'Not available');
+    const row = Array.isArray(r.data) ? r.data[0] : null;
+    if (!row) return ok({ pending: true });
+    return withCookie(ok({ ok: true }), pack({ access_token: row.access_token, refresh_token: row.refresh_token }), MAX_AGE);
   }
 
   if (action === 'login') {

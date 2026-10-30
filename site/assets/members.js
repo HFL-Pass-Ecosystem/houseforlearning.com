@@ -13,17 +13,37 @@
   function offline(f, d) {
     show(f, d.status === 503 || !d.status ? 'The members area is not switched on yet. Please write to us on the Contact page.' : (d.error || 'Something went wrong. Please try again.'), true);
   }
+  /* Sign in on one device, finish on the other: this screen waits and signs in as soon as the email link is opened anywhere. */
+  function newWait() {
+    var a = new Uint8Array(16); crypto.getRandomValues(a);
+    return Array.prototype.map.call(a, function (b) { return ('0' + b.toString(16)).slice(-2); }).join('');
+  }
+  var polling = null;
+  function startWaiting(f, wait) {
+    if (!wait) return;
+    clearInterval(polling);
+    var n = 0;
+    polling = setInterval(function () {
+      if (++n > 240) { clearInterval(polling); return; }
+      call({ action: 'poll', wait: wait }).then(function (d) {
+        if (d.ok) { clearInterval(polling); location.href = 'members.html'; }
+        else if (d.status === 503 || d.status === 400) clearInterval(polling);
+      }).catch(function () {});
+    }, 2500);
+  }
   document.addEventListener('submit', function (e) {
     var f = e.target, kind = f && f.getAttribute && f.getAttribute('data-member');
     if (!kind) return;
     e.preventDefault();
     var btn = f.querySelector('button[type=submit]'); if (btn) btn.disabled = true;
-    var body = { action: kind, code: val(f, 'code'), email: val(f, 'email'), password: val(f, 'password'), name: val(f, 'name'), website: val(f, 'website') };
+    var wait = '';
+    if (kind === 'magic') { wait = newWait(); }
+    var body = { wait: wait, action: kind, code: val(f, 'code'), email: val(f, 'email'), password: val(f, 'password'), name: val(f, 'name'), website: val(f, 'website') };
     show(f, 'One moment...', false);
     call(body).then(function (d) {
       if (btn) btn.disabled = false;
       if ((kind === 'login' || kind === 'verify') && d.ok) { location.href = 'members.html'; return; }
-      if (d.message) { show(f, d.message, false); if (kind === 'magic') {
+      if (d.message) { show(f, d.message, false); if (kind === 'magic') { startWaiting(f, wait);
           var cf = document.querySelector('[data-code-form]');
           if (cf) { cf.elements.email.value = body.email; cf.hidden = false; }
         }
@@ -59,10 +79,14 @@
   if (cb) {
     var h = new URLSearchParams(location.hash.replace(/^#/, ''));
     var tok = h.get('access_token');
+    var wq = new URLSearchParams(location.search).get('w');
     history.replaceState(null, '', location.pathname);
     if (!tok) { cb.textContent = 'This link did not work. Please go back and try again.'; }
     else call({ action: 'session', access_token: tok, refresh_token: h.get('refresh_token') || '' }).then(function (d) {
-      if (d.ok) location.replace('members.html'); else cb.textContent = d.error || 'Please try again.';
+      if (!d.ok) { cb.textContent = d.error || 'Please try again.'; return; }
+      var w = wq;
+      var go = function () { location.replace('members.html'); };
+      if (w) call({ action: 'handoff', wait: w, access_token: tok, refresh_token: h.get('refresh_token') || '' }).then(go, go); else go();
     });
   }
   var box = document.getElementById('my-page');
