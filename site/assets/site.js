@@ -55,15 +55,26 @@
     });
     var t = f.querySelector('[name=topic],[name=route]');
     var subj = (f.getAttribute('data-subject') || 'Website message') + (t && t.value ? ': ' + t.value : '');
-    window.location.href = 'mailto:' + to + '?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(lines.join('\n'));
-    return true;
+    function byMail() { window.location.href = 'mailto:' + to + '?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(lines.join('\n')); }
+    /* When the site's message service is online, send from the page and show a reference; otherwise, or if it fails, use email. */
+    var m = document.querySelector('meta[name="messages-api"]'), api = m && m.getAttribute('content');
+    if (!api || !window.fetch) { byMail(); return true; }
+    var v = function (n) { var el = f.elements[n]; return el && el.value ? el.value.trim() : ''; };
+    var out = f.querySelector('.form-status') || f.appendChild(document.createElement('p'));
+    out.hidden = false; out.textContent = 'Sending...';
+    fetch(api, { method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name: v('name'), email: v('email'), topic: t && t.value ? t.value : '', message: lines.join('\n'), page: location.pathname, site: location.hostname, website: v('website') }) })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (d) { f.reset(); out.textContent = 'Thank you. Your message has been sent' + (d && d.ref ? ' (reference ' + d.ref + ')' : '') + '. We reply by email.'; })
+      .catch(function () { out.textContent = ''; byMail(); });
+    return 'async';
   }
   document.addEventListener('submit', function (e) {
     var f = e.target;
     if (!f || !f.hasAttribute) return;
     if (f.hasAttribute('data-offline')) {
       e.preventDefault();
-      mailForm(f);
+      if (mailForm(f) === 'async') return;
       var s = f.querySelector('.form-status');
       if (s) { s.textContent = f.getAttribute('data-thanks'); s.hidden = false; s.focus(); }
       return;

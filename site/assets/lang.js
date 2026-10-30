@@ -1413,9 +1413,11 @@
       status.className = 'mb-status mb-ok';
       status.textContent = 'Thank you. Your message has been sent' + (d && d.ref ? ' (reference ' + d.ref + ')' : '') + '. We reply by email.';
     }).catch(function () {
+      /* The online service is not reachable (or not set up yet): hand the message to the visitor's own email app. */
       sendBtn.disabled = false;
       status.className = 'mb-status mb-wait';
-      status.textContent = 'The message could not be sent just now. Please try again in a few minutes.';
+      status.textContent = 'Online sending is not available just now, so your email app will open with your message. Please press Send there.';
+      if (to) location.href = 'mailto:' + to + '?subject=' + encodeURIComponent(body.subject || 'Website message') + '&body=' + encodeURIComponent((body.name ? 'From: ' + body.name + ' <' + body.email + '>\n\n' : '') + body.message);
     });
   }
   /* Other scripts (an enquiry list) open the box with a ready message. */
