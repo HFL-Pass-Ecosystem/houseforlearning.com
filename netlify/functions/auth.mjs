@@ -94,6 +94,16 @@ export default async (req) => {
     return ok({ message: 'If this address can be used, we have sent you a link. Open it on this device to come in.' });
   }
 
+  // The 6-digit code from the same email: lets a member finish on any device.
+  if (action === 'verify') {
+    const code = text(body.code, 12).replace(/\s/g, '');
+    if (!isEmail(email) || !/^\d{6,10}$/.test(code)) return fail(400, 'Please check the email and the code');
+    let r = await gotrue(c, 'verify', { type: 'email', email, token: code });
+    if (r.status !== 200 || !r.data.access_token) r = await gotrue(c, 'verify', { type: 'signup', email, token: code });
+    if (r.status !== 200 || !r.data.access_token) return fail(401, 'That code did not work or has expired. Please ask for a new one.');
+    return withCookie(ok({ ok: true }), pack(r.data), MAX_AGE);
+  }
+
   // The page hands over the tokens that came back from Google, Microsoft or an email link.
   if (action === 'session') {
     const a = typeof body.access_token === 'string' ? body.access_token.slice(0, 4000) : '';

@@ -18,12 +18,16 @@
     if (!kind) return;
     e.preventDefault();
     var btn = f.querySelector('button[type=submit]'); if (btn) btn.disabled = true;
-    var body = { action: kind, email: val(f, 'email'), password: val(f, 'password'), name: val(f, 'name'), website: val(f, 'website') };
+    var body = { action: kind, code: val(f, 'code'), email: val(f, 'email'), password: val(f, 'password'), name: val(f, 'name'), website: val(f, 'website') };
     show(f, 'One moment...', false);
     call(body).then(function (d) {
       if (btn) btn.disabled = false;
-      if (kind === 'login' && d.ok) { location.href = 'members.html'; return; }
-      if (d.message) { show(f, d.message, false); if (kind === 'signup' || kind === 'magic') f.reset(); return; }
+      if ((kind === 'login' || kind === 'verify') && d.ok) { location.href = 'members.html'; return; }
+      if (d.message) { show(f, d.message, false); if (kind === 'magic') {
+          var cf = document.querySelector('[data-code-form]');
+          if (cf) { cf.elements.email.value = body.email; cf.hidden = false; }
+        }
+        if (kind === 'signup' || kind === 'magic') f.reset(); return; }
       offline(f, d);
     }).catch(function () { if (btn) btn.disabled = false; offline(f, {}); });
   });
