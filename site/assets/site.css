@@ -827,7 +827,7 @@ h2:hover .enh-anchor,.enh-anchor:focus-visible{opacity:1}
 .flip{perspective:1200px;min-height:250px;cursor:pointer;border-radius:var(--r-lg)}
 .flip:focus-visible{outline:3px solid var(--acc);outline-offset:3px}
 .flip-in{position:relative;height:100%;min-height:250px;transition:transform 1.05s cubic-bezier(.45,.05,.25,1);transform-style:preserve-3d}
-.flip:hover .flip-in,.flip:focus .flip-in,.flip:focus-within .flip-in{transform:rotateY(180deg)}
+.flip.is-flipped .flip-in{transform:rotateY(180deg)}
 .flip-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:20px;display:flex;flex-direction:column;gap:8px;overflow:auto}
 .flip-front{justify-content:center;align-items:flex-start}
 .flip-front h3{margin:0;font-size:19px}
@@ -838,7 +838,7 @@ h2:hover .enh-anchor,.enh-anchor:focus-visible{opacity:1}
 .learn .flip[data-hue=blue] .flip-face{border-top:4px solid #2b5d8a}
 .learn .flip[data-hue=ochre] .flip-face{border-top:4px solid #d0732f}
 .learn .flip[data-hue=green] .flip-face{border-top:4px solid #4f7a4a}
-@media (prefers-reduced-motion:reduce){.flip-in{transition:none}.flip:hover .flip-in,.flip:focus .flip-in,.flip:focus-within .flip-in{transform:none}.flip-back{transform:none;opacity:0}.flip:hover .flip-back,.flip:focus .flip-back{opacity:1}}
+@media (prefers-reduced-motion:reduce){.flip-in{transition:none}.flip.is-flipped .flip-in{transform:none}.flip-back{transform:none;opacity:0}.flip.is-flipped .flip-back{opacity:1}.flip.is-flipped .flip-front{opacity:0}}
 
 /* Same menu-button layout, switched on by site.js whenever the header would not fit on one line (any font, any zoom). */
 html.nav-collapsed .menu-btn{display:inline-flex}

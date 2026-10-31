@@ -498,3 +498,53 @@
     }
   });
 })();
+
+/* Flip cards: a card turns over only when tapped or clicked, when Enter or Space is pressed, when the pointer rests on it
+   for about 0.6 seconds, or when it moves in a small circle on it. Passing over a card does nothing. */
+(function () {
+  var cards = document.querySelectorAll('.flip');
+  if (!cards.length) return;
+  var DWELL = 600, STILL = 14;
+  cards.forEach(function (c) {
+    var timer = null, rest = null, pts = [], byHover = false;
+    c.setAttribute('role', 'button');
+    c.setAttribute('aria-expanded', 'false');
+    function set(on, hover) {
+      c.classList.toggle('is-flipped', on);
+      c.setAttribute('aria-expanded', on ? 'true' : 'false');
+      byHover = on && !!hover;
+    }
+    function stop() { clearTimeout(timer); timer = null; }
+    function arm(x, y) {
+      stop(); rest = { x: x, y: y };
+      timer = setTimeout(function () { set(true, true); }, DWELL);
+    }
+    c.addEventListener('pointerenter', function (e) {
+      if (e.pointerType !== 'mouse') return;
+      pts = []; if (!c.classList.contains('is-flipped')) arm(e.clientX, e.clientY);
+    });
+    c.addEventListener('pointermove', function (e) {
+      if (e.pointerType !== 'mouse' || c.classList.contains('is-flipped')) return;
+      if (rest && Math.hypot(e.clientX - rest.x, e.clientY - rest.y) > STILL) arm(e.clientX, e.clientY);
+      pts.push({ x: e.clientX, y: e.clientY }); if (pts.length > 40) pts.shift();
+      var turn = 0;
+      for (var i = 2; i < pts.length; i++) {
+        var a = Math.atan2(pts[i - 1].y - pts[i - 2].y, pts[i - 1].x - pts[i - 2].x), b = Math.atan2(pts[i].y - pts[i - 1].y, pts[i].x - pts[i - 1].x), d = b - a;
+        while (d > Math.PI) d -= 2 * Math.PI; while (d < -Math.PI) d += 2 * Math.PI;
+        turn += d;
+      }
+      if (Math.abs(turn) > 5) { stop(); pts = []; set(true, true); }
+    });
+    c.addEventListener('pointerleave', function (e) {
+      if (e.pointerType !== 'mouse') return;
+      stop(); pts = [];
+      if (byHover) set(false);
+    });
+    c.addEventListener('click', function () { stop(); set(!c.classList.contains('is-flipped'), false); });
+    c.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); set(!c.classList.contains('is-flipped'), false); }
+      else if (e.key === 'Escape') set(false);
+    });
+    c.addEventListener('blur', function () { if (!byHover) set(false); });
+  });
+})();
