@@ -1146,16 +1146,14 @@ K.crescent={h:[-2,-18],t:-86,n:-96,ua:-100,fa:-102,tn:-8,sn:90,tf:148,sf:172};
 K.sukha={h:[0,-6],t:-90,n:-90,ua:72,fa:12,tn:-12,sn:165,tf:-12,sf:165};
 const COURSE_WELCOME=`<div class="panel cwel"><canvas data-k="crescent" role="img" aria-label="Our own drawing of a crescent lunge with arms raised"></canvas><div>
  <h3>Welcome</h3>
- <p>Namaste, and welcome. I learned physical culture as a child at home, not from a book, and yoga has walked beside me ever since. I offer this course in the same spirit: not as a test to pass, but as a companion for your own journey.</p>
+ <p>Namaste, and welcome. This course is offered not as a test to pass, but as a companion for your own journey.</p>
  <p>Come as you are. Some days your body will feel light and some days stiff; both are part of practice. Go slowly, breathe, and be kind to yourself. Six weeks from now, I hope yoga will feel like an old friend you meet each morning.</p>
  <p class="hint">Crescent lunge, our own drawing. You will meet the low lunge (Rider pose, B-9) in Week 4; raise the arms only when the legs feel steady.</p></div></div>
-<div class="panel"><h3>About the author</h3>
- <p>The author of this chapter is from Karnataka, India. My grandfather, Sri V. S. Ramacharya, was an ardent student of physical culture and taught it to me himself.</p>
- <p>What I share here comes from that lineage and from my family's teachings. It is my personal view of practice, one path among many, offered with respect for every teacher and tradition.</p></div>`;
+`;
 const COURSE_BASICS=[
  ["Why practise","Many people find that regular, gentle yoga helps them feel more flexible, steadier on their feet, calmer in the mind and more aware of their breath. Results differ from person to person; enjoy the practice for its own sake."],
  ["Choosing a style","Pick what fits your goal. Want calm? Favour slow holds and breathing. Want strength? Add standing poses and Sun salutations. Recovering or older? Start with the Chair level and lying poses. Use the goal buttons in the pose library to see what suits you."],
- ["Best time to practise","In our family, early morning and early evening are the times for practice, around sunrise or sunset. Any steady time works. Leave 2 to 3 hours after a full meal, or about an hour after a light snack."],
+ ["Best time to practise","Traditionally, early morning and early evening are the times for practice, around sunrise or sunset. Any steady time works. Leave 2 to 3 hours after a full meal, or about an hour after a light snack."],
  ["Food and water","Practise on an empty stomach, or wait 2 to 3 hours after a full meal. Keep water nearby and take small sips between poses rather than large gulps during them."],
  ["Your body is your teacher","No book, video or teacher feels what you feel. A mild stretch is good; sharp, burning or shooting pain means come out at once. Every day the body is a little different; follow it."],
  ["Little and often","Fifteen minutes most days does more than one long session a week. Keep a regular time, keep it short at first, and let the habit grow."],
