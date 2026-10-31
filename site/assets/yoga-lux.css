@@ -109,3 +109,41 @@
 .ylux-roots .ylux-kick{font-family:var(--mono,monospace)}
 .ylux-roots p.ylux-src{font-size:15px;color:rgba(244,236,220,.7)}
 .ylux-roots a{color:var(--lx-gold)}
+/* Round 4: photo fills its half, text centred; dark teachers panel; calmer cards; slim cookie strip */
+.ylux{background-image:none}
+.ylux-feature{background:var(--lx-ink)}
+.ylux-fin{max-width:1700px;padding:0;gap:0;grid-template-columns:minmax(0,1fr) minmax(0,1fr);min-height:clamp(440px,72vh,760px);align-items:stretch}
+.ylux-feature.port .ylux-fin{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.ylux-ftxt{display:flex;flex-direction:column;justify-content:center;padding:clamp(36px,6vw,110px)}
+.ylux-fpic{position:relative;min-height:420px;background:#05090d}
+.ylux-fpic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.ylux-fpic::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(to right,var(--lx-ink) 0,transparent 14%)}
+.ylux-feature.rev .ylux-fpic::after{background:linear-gradient(to left,var(--lx-ink) 0,transparent 14%)}
+.ylux-feature.port .ylux-fpic img{object-position:50% 22%}
+.ylux-feature.port .ylux-ftxt{order:0}
+@media (max-width:900px){
+.ylux-fin,.ylux-feature.port .ylux-fin{grid-template-columns:minmax(0,1fr);min-height:0}
+.ylux-fpic,.ylux-feature.port .ylux-fpic{order:-1;max-width:none;min-height:0;aspect-ratio:4/3}
+.ylux-feature.port .ylux-fpic{aspect-ratio:4/5}
+.ylux-fpic::after,.ylux-feature.rev .ylux-fpic::after{background:linear-gradient(to top,var(--lx-ink) 0,transparent 16%)}
+}
+@media (min-width:1700px){
+.ylux-hero .ylux-media{-webkit-mask-image:linear-gradient(to right,transparent 0,#000 22%,#000 78%,transparent 100%);mask-image:linear-gradient(to right,transparent 0,#000 22%,#000 78%,transparent 100%)}
+}
+/* teachers on dark */
+.yoga-app .teachers{background:var(--lx-ink,#0c1a24);color:#f4ecdc;padding:clamp(28px,5vw,64px);margin-inline:calc(-1 * max(16px,env(safe-area-inset-left,0px)))}
+.yoga-app .teachers h2{font-family:"Cormorant Garamond","Literata",Georgia,serif;font-weight:500;font-size:clamp(34px,5vw,60px);color:#f4ecdc;margin:0 0 10px}
+.yoga-app .teachers .lede{color:rgba(244,236,220,.85);font-family:"Cormorant Garamond","Literata",Georgia,serif;font-size:clamp(18px,1.8vw,23px);max-width:52ch}
+.yoga-app .tcards{grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(12px,2vw,24px);margin-top:26px}
+.yoga-app .tcards img{aspect-ratio:4/5;object-position:50% 25%}
+@media (max-width:640px){.yoga-app .tcards{grid-template-columns:minmax(0,1fr)}}
+/* practice cards */
+.yoga-app .stats strong{font-family:"Cormorant Garamond","Literata",Georgia,serif;font-weight:500;font-size:44px;line-height:1}
+.yoga-app .panel h2{margin-top:0}
+.yoga-app .cols>.panel,.yoga-app .cols>div{align-content:start}
+/* slim cookie strip on this page */
+.yoga-lux-page .cookie{max-width:none;left:0;right:0;bottom:0;border-radius:0;padding:8px 14px;font-size:13px;gap:8px 14px}
+.yoga-lux-page .cookie p{flex:1 1 260px}
+.yoga-lux-page .cookie .btn{padding:6px 12px;font-size:13px}
+@media (max-width:600px){.yoga-lux-page .cookie{left:0;right:0;bottom:0;padding:8px 10px;font-size:12.5px}.yoga-lux-page .cookie p{flex-basis:100%}.yoga-lux-page .cookie .cookie-actions{width:100%}}
+.ylux-fin{max-width:none}
