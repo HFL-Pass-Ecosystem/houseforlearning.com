@@ -2,7 +2,7 @@
 Run from the repo root: python3 tools/build_nav.py"""
 import glob, re, html
 GROUPS = [
- ("Learn", [("catalogue.html","Course catalogue"),("courses.html","All courses"),("learning-tracks.html","Learning tracks"),("pathways.html","Pathways"),("career-pathways.html","Career pathways"),("executive-programme.html","Executive programme"),("mba/index.html","Online MBA"),("how-learning-works.html","How learning works"),("webinars.html","Webinars"),("onboarding.html","Onboarding"),("yoga.html","Yoga for life")]),
+ ("Learn", [("catalogue.html","Course catalogue"),("courses.html","All courses"),("learning-tracks.html","Learning tracks"),("pathways.html","Pathways"),("career-pathways.html","Career pathways"),("canada-pathways.html","Study and work in Canada"),("executive-programme.html","Executive programme"),("mba/index.html","Online MBA"),("how-learning-works.html","How learning works"),("webinars.html","Webinars"),("onboarding.html","Onboarding"),("yoga.html","Yoga for life")]),
  ("Products", [("products.html","All products"),("studio/index.html","Studio"),("platform.html","Platform"),("marketplace.html","Marketplace"),("business-systems.html","Business systems"),("insights.html","Insights")]),
  ("Organisations", [("organisations.html","All organisations"),("workplace.html","Workplace"),("academies.html","Technical academies"),("sectors.html","Sectors we serve"),("services.html","Services"),("how-we-help.html","How we help"),("partner.html","Partner with us")]),
  ("Membership", [("membership.html","About membership"),("join.html","Join"),("credits.html","How credits stack"),("credentials.html","Credentials and assessment"),("payments.html","Payments")]),
