@@ -48,7 +48,7 @@ strong{font-weight:600}
 .site-nav a[aria-current="page"]{border-bottom-color:var(--hl)}
 .head-actions{display:flex;gap:8px;flex-wrap:nowrap}
 .site-nav .head-actions a.btn{display:inline-flex;padding:8px 14px;color:var(--on-acc);border-bottom-width:1.5px}
-@media (max-width:2000px){
+@media (max-width:1180px){
   .menu-btn{display:inline-flex}
   .site-nav{display:none}
   .site-head .wrap{position:static}
@@ -190,7 +190,7 @@ form.quiz fieldset.wrong{border-color:#b5592a;border-width:2px}
 .cookie .cookie-actions{display:flex;gap:8px;flex-wrap:wrap}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 @media print{.site-head,.cookie,.site-foot{display:none}}
-@media (max-width:2000px){.site-nav.open .head-actions{flex-wrap:wrap}}
+@media (max-width:1180px){.site-nav.open .head-actions{flex-wrap:wrap}}
 /* ---------- Language menu (assets/lang.js), platform notice ---------- */
 .lang-btn{display:inline-flex;align-items:center;gap:6px}
 .lang-btn svg{width:16px;height:16px;flex:none;display:block}
@@ -974,3 +974,35 @@ figure figcaption a{font-weight:600}
 .yoga-app .pphoto img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;object-position:50% 50%}
 .yoga-app .mitems{margin-bottom:10px}
 .yoga-app #msvg text.ys8{display:none}
+
+/* Drawn artwork is hidden until real photographs arrive: hero type stands alone. */
+.hero figure:has(svg.art),.hero .art-wrap:has(svg.art){display:none}
+.hero-grid:has(svg.art){grid-template-columns:minmax(0,1fr)}
+.hero-grid:has(svg.art)>div{max-width:760px}
+.op-ico{display:none}
+figure:has(>svg.art){display:none}
+/* No history chips and no viewing stamp on screen (the stamp still prints). */
+.trail-btn{display:none}
+.wm{display:none!important}
+
+/* Main menu: five dropdown groups, opened by tap, click or Enter, never by passing over */
+.nav-groups{gap:2px 6px}
+.nav-groups>li{position:relative}
+.sub-btn{display:inline-flex;align-items:center;gap:7px;min-height:40px;padding:6px 12px;border:0;border-bottom:2px solid transparent;background:transparent;color:var(--ink);font:500 15px/1.2 var(--f-ui);letter-spacing:.01em;cursor:pointer}
+.sub-btn::after{content:"";width:6px;height:6px;border:solid currentColor;border-width:0 1.5px 1.5px 0;transform:rotate(45deg) translateY(-2px);transition:transform .25s ease}
+.sub-btn[aria-expanded="true"]::after{transform:rotate(225deg) translate(-2px,0)}
+.sub-btn:hover,.is-current>.sub-btn{border-bottom-color:var(--hl)}
+.sub-btn:focus-visible,.sub a:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.sub{display:none;list-style:none;margin:0;padding:10px 0;position:absolute;left:0;top:100%;min-width:260px;background:var(--surface);border:1px solid var(--line);box-shadow:0 18px 40px rgba(0,0,0,.18);z-index:60}
+.has-sub.open>.sub{display:block}
+.site-nav .sub a{display:block;padding:10px 20px;font-size:15px;border-bottom:0;white-space:nowrap}
+.site-nav .sub a:hover{background:var(--panel)}
+.site-nav .sub a[aria-current="page"]{font-weight:600;box-shadow:inset 3px 0 0 var(--hl)}
+@media (max-width:1180px){
+  .site-nav.open .nav-groups>li{border-bottom:1px solid var(--line)}
+  .site-nav.open .sub-btn{width:100%;justify-content:space-between;padding:14px 4px;font-size:17px;border-bottom:0}
+  .site-nav.open .sub{position:static;box-shadow:none;border:0;min-width:0;padding:0 0 8px 14px;background:transparent}
+  .site-nav.open .sub a{padding:10px 4px;font-size:16px;border-bottom:0;width:100%}
+}
+.site-nav ul.sub{display:none;flex-direction:column;align-items:stretch;gap:0;flex-wrap:nowrap}
+.site-nav .has-sub.open>ul.sub{display:block}

@@ -129,3 +129,11 @@ body.yoga-lux-page{--head-bg:rgba(12,26,36,.94);--ink:#f4ecdc;--muted:#bdb29b;--
 .yoga-app .gate h2{font-size:22px;margin:0}
 .yoga-app .gate>p,.yoga-app .gate .hint{display:none}
 @media (max-width:820px){.yoga-app .map{grid-template-columns:minmax(0,1fr)}}
+.yoga-lux-page .site-head .btn:not(.btn-ghost){background:#d9b979;color:#0c1a24;border-color:#d9b979}
+.yoga-lux-page .site-head .btn.btn-ghost{background:transparent;color:#f4ecdc}
+.yoga-app .masonry .panel.warn{max-width:none}
+.yoga-app .masonry .panel.warn ul{display:block;columns:2 340px;column-gap:clamp(24px,4vw,56px);padding-left:20px}
+.yoga-app .masonry .panel.warn li{break-inside:avoid;margin:0 0 10px}
+.yoga-app .teachers figure{position:relative;overflow:hidden;border-radius:2px}
+.yoga-app .teachers figcaption{position:absolute;left:0;right:0;bottom:0;padding:48px 20px 18px;background:linear-gradient(to top,rgba(5,12,17,.85),rgba(5,12,17,0))}
+@media (min-width:801px){.ylux-hero .ylux-media img{-webkit-mask-image:linear-gradient(to right,transparent 0,#000 38%,#000 88%,transparent 100%);mask-image:linear-gradient(to right,transparent 0,#000 38%,#000 88%,transparent 100%)}}

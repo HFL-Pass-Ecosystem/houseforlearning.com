@@ -548,3 +548,17 @@
     c.addEventListener('blur', function () { if (!byHover) set(false); });
   });
 })();
+
+/* Dropdown menu groups: open on tap or click, close on Escape, outside click or when another group opens. */
+(function () {
+  var groups = [].slice.call(document.querySelectorAll('.nav-groups .has-sub'));
+  if (!groups.length) return;
+  function closeAll(except) { groups.forEach(function (g) { if (g === except) return; g.classList.remove('open'); g.querySelector('.sub-btn').setAttribute('aria-expanded', 'false'); }); }
+  groups.forEach(function (g) {
+    var b = g.querySelector('.sub-btn');
+    b.addEventListener('click', function (e) { e.stopPropagation(); var o = !g.classList.contains('open'); closeAll(g); g.classList.toggle('open', o); b.setAttribute('aria-expanded', o ? 'true' : 'false'); });
+  });
+  document.addEventListener('click', function (e) { if (!e.target.closest('.nav-groups')) closeAll(); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') { var o = document.querySelector('.has-sub.open .sub-btn'); closeAll(); if (o) o.focus(); } });
+  groups.forEach(function (g) { if (g.classList.contains('is-current') && window.matchMedia('(max-width:1180px)').matches) { /* keep collapsed until tapped */ } });
+})();
