@@ -48,3 +48,27 @@
 .ylux-hero::after{background:linear-gradient(to top,rgba(8,16,22,.95) 0%,rgba(8,16,22,.7) 36%,rgba(8,16,22,.05) 62%,rgba(8,16,22,.3) 100%)}
 .ylux-hero{min-height:min(88vh,760px)}
 }
+/* Review fixes: calmer chrome, clear first view, subject clear of the headline */
+.yoga-lux-page [data-hist]{display:none}
+.yoga-lux-page .wm{display:none}
+.ylux-media img{filter:saturate(.92) brightness(.94)}
+.ylux-hero::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(120% 90% at 70% 45%,transparent 45%,rgba(6,12,17,.55) 100%)}
+.ylux-hero .ylux-in{padding-bottom:clamp(130px,19vh,200px)}
+.ylux h1{max-width:11ch}
+.ylux-pic img{object-position:50% 6%}
+@media (min-width:801px){.ylux-hero .ylux-media img{right:-16%;width:74%}}
+@media (max-width:800px){
+.ylux-hero .ylux-media img{height:64%;bottom:auto;-webkit-mask-image:linear-gradient(to bottom,#000 55%,transparent 100%);mask-image:linear-gradient(to bottom,#000 55%,transparent 100%)}
+.ylux-hero{min-height:min(92vh,800px)}
+.ylux-hero .ylux-in{padding-bottom:150px}
+}
+.ylux-gallery{background:var(--lx-ink)}
+.ylux-gallery::after{display:none}
+.ylux-gallery .ylux-in{padding-block:clamp(56px,9vw,120px)}
+.ylux-gallery h2{font-family:var(--lx-serif);font-weight:500;font-size:clamp(32px,5vw,64px);line-height:1.05;margin:0 0 36px}
+.ylux-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.ylux-grid figure{margin:0;position:relative;overflow:hidden;background:#05090d}
+.ylux-grid img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;transition:transform 1.4s cubic-bezier(.2,.6,.2,1)}
+.ylux-grid figure:focus-within img,.ylux-grid figure:active img{transform:scale(1.04)}
+.ylux-grid figcaption{position:absolute;left:0;right:0;bottom:0;padding:34px 16px 12px;font:500 12px/1 var(--mono,monospace);letter-spacing:.22em;text-transform:uppercase;color:var(--lx-cream);background:linear-gradient(to top,rgba(5,9,13,.85),transparent)}
+@media (max-width:800px){.ylux-grid{grid-template-columns:minmax(0,1fr)}}
