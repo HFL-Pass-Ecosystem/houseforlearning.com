@@ -1,0 +1,29 @@
+/* Calm motion and flip cards: shared by all six sites.
+   One ease, no bounce, no lift-on-hover, no continuous motion. Flip cards turn slowly (about 1.4 s, long ease-in-out) and only on tap/click,
+   Enter/Space, or a deliberate pointer rest (calm.js). Reduced motion shows the back by fade. */
+:root{--calm-ease:cubic-bezier(.65,0,.35,1);--calm-flip:1.4s;--calm-fade:.8s}
+
+/* Flip card: <div class="flip"><button class="flip-in"><span class="flip-f">..</span><span class="flip-b">..</span></button></div> */
+.flip{perspective:1200px;min-height:220px}
+.flip-in{position:relative;display:block;width:100%;height:100%;min-height:inherit;padding:0;border:0;background:none;font:inherit;color:inherit;text-align:left;cursor:pointer;transform-style:preserve-3d;transition:transform var(--calm-flip) var(--calm-ease);will-change:transform}
+.flip.open .flip-in{transform:rotateY(180deg)}
+.flip-f,.flip-b{position:absolute;inset:0;box-sizing:border-box;padding:20px;overflow:auto;border:1px solid var(--line,#d9d2c3);border-radius:var(--calm-r,12px);background:var(--card,#fff);-webkit-backface-visibility:hidden;backface-visibility:hidden}
+.flip-b{transform:rotateY(180deg);background:var(--sand,var(--card,#f6f4ef))}
+.flip-f h3,.flip-b h3{margin-top:0}
+.flip-hint{display:block;margin-top:10px;font-size:.8rem;opacity:.7}
+.flip-in:focus-visible{outline:3px solid var(--blue,#0F85DB);outline-offset:3px;border-radius:var(--calm-r,12px)}
+
+/* Calm everywhere else: colour/shadow fade only; no lift, tilt or scale on pointer pass */
+@media (hover:hover){
+  .card:hover,a.card:hover,.tile:hover,.btn:hover,.lx-btn:hover,.lx-demo:hover{transform:none!important}
+}
+.card,.tile,.btn,.lx-btn,.lx-demo{transition:background-color var(--calm-fade) ease-in-out,border-color var(--calm-fade) ease-in-out,box-shadow var(--calm-fade) ease-in-out,color var(--calm-fade) ease-in-out,filter var(--calm-fade) ease-in-out}
+.lx-hcard,[data-tilt]{transform:none!important;transition:none}
+.lx-badge i,.hero-rack .led{animation:none}
+@media (prefers-reduced-motion:reduce){
+  .flip-in{transition:none;transform:none!important}
+  .flip-f,.flip-b{transform:none;transition:opacity .3s}
+  .flip-b{opacity:0;pointer-events:none}
+  .flip.open .flip-b{opacity:1;pointer-events:auto}
+  .flip.open .flip-f{opacity:0}
+}

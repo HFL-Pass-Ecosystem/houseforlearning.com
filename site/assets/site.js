@@ -502,7 +502,7 @@
 /* Flip cards: a card turns over only when tapped or clicked, when Enter or Space is pressed, when the pointer rests on it
    for about 0.6 seconds, or when it moves in a small circle on it. Passing over a card does nothing. */
 (function () {
-  var cards = document.querySelectorAll('.flip');
+  var cards = document.querySelectorAll('.flip:not(.calm-flip)');
   if (!cards.length) return;
   var DWELL = 600, STILL = 14;
   cards.forEach(function (c) {
