@@ -20,28 +20,25 @@ body = (
  + sec('', 't3', 'add to your calendar', 'Calendar file',
   '<div class="tt-grid">' + f('tt-title', 'Name of the class', '<input id="tt-title" type="text" maxlength="80" value="HFL live class">') + f('tt-mins', 'Length in minutes', '<input id="tt-mins" type="number" min="15" max="600" value="60">')
   + '</div><p><button class="btn" type="button" id="tt-ics">Download calendar file (.ics)</button></p><p id="tt-ics-note" role="status" aria-live="polite"></p><p>The file opens in the calendar on your phone or computer and keeps the class at the right moment in your own time zone.</p>')
- + sec('alt', 't4', 'many places at once', 'World clock', '<ul class="tt-clocks" id="tt-clocks" aria-label="World clock"></ul><div class="tt-grid">' + f('tt-add', 'Add a place', '<select id="tt-add"></select>') + '</div><p><button class="btn btn-sm" type="button" id="tt-addbtn">Add to the clock</button></p>')
- + sec('', 't5', 'find a time that suits everyone', 'Meeting planner', '<div class="tt-grid">' + f('tt-pdate', 'Day', '<input id="tt-pdate" type="date">') + f('tt-p1', 'Place 1', '<select id="tt-p1"></select>') + f('tt-p2', 'Place 2', '<select id="tt-p2"></select>') + f('tt-p3', 'Place 3 (optional)', '<select id="tt-p3"></select>') + '</div><div id="tt-plan"></div>')
- + sec('alt', 't6', 'days between and days later', 'Date maths',
-  '<h3 class="ws-h3">Days between two dates</h3><div class="tt-grid">' + f('tt-a', 'First date', '<input id="tt-a" type="date">') + f('tt-b', 'Second date', '<input id="tt-b" type="date">') + '</div><p class="tt-big" id="tt-diff" role="status" aria-live="polite"></p>'
-  '<h3 class="ws-h3">Add or take away days</h3><div class="tt-grid">' + f('tt-base', 'Start date', '<input id="tt-base" type="date">') + f('tt-n', 'Days (use a minus sign to go back)', '<input id="tt-n" type="number" step="1">') + '</div><p class="tt-big" id="tt-res" role="status" aria-live="polite"></p>'
-  '<p class="ws-note">Everything runs in your own browser. Nothing you type is sent to us or stored.</p>'))
-main = ('<main id="main" tabindex="-1"><section class="hero" aria-labelledby="h1"><div class="wrap hero-grid solo"><div><p class="kicker">live classes</p><h1 id="h1">Time and date tool</h1>'
-        '<p>See any class in your own time zone, count down to it, add it to your calendar, compare clocks around the world and plan a meeting.</p></div></div></section>' + body + '</main>')
+)
+main = ('<main id="main" tabindex="-1"><section class="hero th-hero" aria-labelledby="h1"><div class="wrap hero-grid solo"><div><p class="kicker">live classes and learning across zones</p><h1 id="h1">Time and date hub</h1>'
+        '<p>World clocks, time zones, calendars, timers, calculators, sun, moon and weather in one place. Free to use, no adverts, and everything is worked out in your own browser.</p></div></div></section>'
+        '<section class="th-wrap" aria-label="Time and date hub"><div class="wrap"><div id="th-app"><p>Loading the hub…</p></div><noscript><p>The hub needs JavaScript. Please turn it on in your browser.</p></noscript></div></section>'
+        '<div id="classes-wrap">' + body + '</div></main>')
 t = tpl
-t = re.sub(r'<title>.*?</title>', lambda m: '<title>Time and date tool | House for Learning</title>', t, 1, re.S)
-t = re.sub(r'<meta name="description" content=".*?">', lambda m: '<meta name="description" content="Class time in your own time zone, countdown, calendar file, world clock, meeting planner and date maths.">', t, 1)
+t = re.sub(r'<title>.*?</title>', lambda m: '<title>Time and Date Hub | House for Learning</title>', t, 1, re.S)
+t = re.sub(r'<meta name="description" content=".*?">', lambda m: '<meta name="description" content="Free time and date hub: world clock, time zones, meeting planner, calendars and holidays, timers and countdowns, calculators, sun, moon and weather. No adverts.">', t, 1)
 t = re.sub(r'(<link rel="canonical" href="https://houseforlearning.com/)[^"]*', lambda m: m.group(1) + 'time-tool.html', t, 1)
-t = re.sub(r'<ol class="crumbs">.*?</ol>', lambda m: '<ol class="crumbs"><li><a href="index.html">Home</a></li><li><a href="webinars.html">Webinars</a></li><li aria-current="page">Time and date tool</li></ol>', t, 1, re.S)
+t = re.sub(r'<ol class="crumbs">.*?</ol>', lambda m: '<ol class="crumbs"><li><a href="index.html">Home</a></li><li><a href="webinars.html">Webinars</a></li><li aria-current="page">Time and date hub</li></ol>', t, 1, re.S)
 t = re.sub(r'<main id="main".*?</main>', lambda m: main, t, 1, re.S)
-t = t.replace('<script src="assets/lang.js" defer></script>', '<script src="assets/lang.js" defer></script>\n<script src="assets/timetool.js" defer></script>', 1)
+t = t.replace('<script src="assets/lang.js" defer></script>', '<script src="assets/lang.js" defer></script>\n<link rel="stylesheet" href="assets/timehub.css">\n<script src="assets/th-widget.js" defer></script>\n<script src="assets/th-core.js" defer></script>\n<script src="assets/th-time.js" defer></script>\n<script src="assets/th-cal.js" defer></script>\n<script src="assets/timetool.js" defer></script>\n<script src="assets/th-sky.js" defer></script>', 1)
 t = t.replace('<meta name="robots" content="noindex">', '')
 (S / 'time-tool.html').write_text(t)
 # Webinars picture links to the tool
 w = (S / 'webinars.html').read_text()
 if 'time-tool.html' not in w:
     m = re.search(r'<figure>(<svg class="art".*?</svg>)</figure>', w, re.S)
-    w = w.replace(m.group(0), '<figure><a class="tt-pic" href="time-tool.html" aria-label="Open the time and date tool">' + m.group(1) + '</a><figcaption><a href="time-tool.html">Open the time and date tool</a></figcaption></figure>', 1)
+    w = w.replace(m.group(0), '<figure><a class="tt-pic" href="time-tool.html" aria-label="Open the time and date hub">' + m.group(1) + '</a><figcaption><a href="time-tool.html">Open the time and date hub</a></figcaption></figure>', 1)
     w = w.replace('Your own time zone', 'Your own time zone', 1)
     (S / 'webinars.html').write_text(w)
 print('ok')
