@@ -1,0 +1,8 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Media trimmer | House for Learning Studio</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Literata:opsz,wght@7..72,400;7..72,600&display=swap"><link rel="stylesheet" href="studio.css"></head><body>
+<main><h1>Media trimmer</h1><p class="lead">Open a video or audio file, choose the start and end, and save only that part. The clip is recorded at normal speed, so a 30 second cut takes 30 seconds.</p>
+<div class="drop" id="drop"><label class="btn">Choose video or audio<input type="file" id="f" accept="video/*,audio/*" hidden></label><div class="sx1">or drop it here</div></div>
+<div class="stage sx10"><video id="v" controls playsinline class="sx11"></video></div>
+<div class="bar"><button class="alt" id="ss">Set start here</button><button class="alt" id="se">Set end here</button>
+<span id="rng" class="sx12">Start 0.0 s, end 0.0 s</span><button id="go" disabled>Save trimmed clip</button><span id="st" class="sx5"></span></div>
+<p class="note">Everything runs inside your browser. Uses the browser's built-in media recorder. Output is WebM. Browsers without recorder support will show a message.</p></main>
+<script src="studio.js"></script><script src="media-app.js"></script></body></html>
