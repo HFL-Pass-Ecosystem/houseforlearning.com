@@ -66,6 +66,9 @@ def write(f, main, title=None, desc=None, crumb=None):
     if 'assets/org-lux.css' not in s:
         s = s.replace('<link rel="stylesheet" href="assets/site-lux.css">',
                       '<link rel="stylesheet" href="assets/site-lux.css">\n<link rel="stylesheet" href="assets/org-lux.css">')
+    if 'class="o-flips"' in main and 'assets/calm.css' not in s:
+        s = s.replace('<link rel="stylesheet" href="assets/org-lux.css">', '<link rel="stylesheet" href="assets/org-lux.css">\n<link rel="stylesheet" href="assets/calm.css">')
+        s = s.replace('</body>', '<script src="assets/calm.js" defer></script>\n</body>', 1)
     if title:
         s = re.sub(r'<title>.*?</title>', f'<title>{title}</title>', s, 1)
         s = re.sub(r'(<meta property="og:title" content=")[^"]*', lambda m: m.group(1) + title, s)
@@ -227,11 +230,30 @@ def load_courses():
         out.append((c['id'], c['title'], 'course-' + c['id'].lower() + '.html'))
     return out
 
+SECTOR_TEXT = json.load(open('data/sector-text.json', encoding='utf-8'))  # the Wix sector text, kept as data
+
+def sector_text(f):
+    return SECTOR_TEXT[f]
+
+def flips(items):
+    out = ['<div class="o-flips">']
+    for f, t, p in items:
+        back = ' '.join(sector_text(f)).strip()
+        if len(back) <= len(p) + 20:  # no real back text: plain card
+            out.append(f'<div class="flip-plain"><h3><a href="{f}.html">{E(t)}</a></h3><p>{E(p)}</p></div>')
+            continue
+        h = '<span class="flip-hint">Tap, or rest the pointer here, to turn</span>'
+        out.append(f'<div class="flip"><button type="button" class="flip-in" aria-expanded="false"><span class="flip-f"><h3>{E(t)}</h3><p>{E(p)}</p>{h}</span>'
+                   f'<span class="flip-b"><h3>{E(t)}</h3><p>{E(back)}</p></span></button></div>')
+    out.append('</div>')
+    return ''.join(out)
+
 def sectors():
     m = hero('sectors we serve', 'Twelve sectors, one learning platform',
              'Skills, careers and enterprise support for each.',
              btn('join.html', 'Join') + btn('partner.html', 'Partner with us', True))
-    m += split('the twelve', 'Pick a sector', grid([(t, p, f + '.html') for f, t, p in SECTORS]),
+    m += split('the twelve', 'Pick a sector', flips(SECTORS) + '<p class="o-note">Turn a card to read what the sector covers, then open its page below.</p>'
+               + '<ul class="o-mini" style="margin-top:26px">' + ''.join(f'<li><a href="{f}.html">{t}</a></li>' for f, t, p in SECTORS) + '</ul>',
                lead='Twelve sectors, one learning platform.', full=True)
     m += cta('not sure where you fit?', 'Tell us what you do', 'We will point you to the right pathway.',
              btn('join.html', 'Join') + btn('partner.html', 'Partner with us', True) + btn('contact.html', 'Contact', True))
@@ -239,15 +261,9 @@ def sectors():
 
     courses = load_courses()
     for f, title, short in SECTORS:
-        s = read(f + '.html')
-        body = re.search(r'id="s-h">.*?</h2></div><div class="sec-body">(.*?)</div></div></section>', s, re.S)
-        if not body:  # already rebuilt: keep the stored text
-            body = re.search(r'<div class="o-body">(.*?)</div></div></section>', s, re.S)
-        text = body.group(1)
-        text = re.sub(r'<p class="ws-note">.*?</p>', '', text)
-        ps = re.findall(r'<p>.*?</p>', text, re.S)
-        lead = re.sub(r'</?p>', '', ps[0]) if ps else short
-        rest = ''.join(ps[1:])
+        ps = sector_text(f)
+        lead = ps[0]
+        rest = ''.join(f'<p>{E(x)}</p>' for x in ps[1:])
         rel = []
         for cid, ct, href in courses:
             if any(k in ct.lower() for k in KEYS[f]):
