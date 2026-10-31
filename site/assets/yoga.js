@@ -197,13 +197,15 @@ function say(text,lang){
 function hush(){ try{speechSynthesis.cancel()}catch(e){} if(ac){ const t=ac.currentTime; A.vGain.gain.cancelScheduledValues(t); A.vGain.gain.setTargetAtTime(0,t,.1); A.master.gain.cancelScheduledValues(t); A.master.gain.setTargetAtTime(0,t,.3);} }
 
 /* Practice state */
+const STAGEPH0={pray:1,up:1,fold:1,plank:1,cobra:1};
+const VIS=()=>STEPS.map((x,i)=>i).filter(i=>STAGEPH0[STEPS[i].s]);
 let practice="surya", sched=[], elapsed=0, running=false, last=0, segIdx=-1, previewIdx=0, done=false;
 const level=()=>$("#level").value;
 function breathSec(){ return level()==="steady"?4:6; }
 function build(){
   const n=+$("#rounds").value; sched=[];
   if(practice==="surya"){
-    for(let r=0;r<n;r++){ STEPS.forEach((st,i)=>sched.push({i,r,dur:breathSec()*(i===5?.8:1)})); if(r<n-1) sched.push({rest:1,r,dur:6}); }
+    for(let r=0;r<n;r++){ VIS().forEach(i=>sched.push({i,r,dur:breathSec()*(i===5?.8:1)})); if(r<n-1) sched.push({rest:1,r,dur:6}); }
   } else if(practice==="aum"){
     const k=Math.max(3,Math.min(9,n+1));
     for(let r=0;r<k;r++){ sched.push({ph:"in",r,dur:4},{ph:"A",r,dur:3},{ph:"U",r,dur:3},{ph:"M",r,dur:5}); }
@@ -360,7 +362,11 @@ function drawNadi(){
     ctx.fillText("YOUR LEFT",24,-30); ctx.fillText("YOUR RIGHT",-24,-30);
   },{sky:false});
 }
-function draw(){ if(practice==="surya") drawSurya(); else if(practice==="aum") drawAum(); else drawNadi(); }
+let stageKey="";
+function draw(){ let i=previewIdx, k="pose:lotus";
+  if(practice==="surya"){ if(sched.length&&(running||elapsed>0)&&!done){ const a=at(elapsed), q=sched[a.k]; if(q&&!q.rest) i=q.i; else i=-1; }
+    k=(i>=0&&STAGEPH[STEPS[i].s])||"pose:lotus"; }
+  if(k===stageKey) return; stageKey=k; const ph=phSrc(k), im=$("#stagePhoto"); im.src=ph[0]; im.srcset=ph[0]+" 800w, "+ph[1]+" 1600w"; }
 
 /* Cue panel */
 function cueFor(){
@@ -372,7 +378,7 @@ function cueFor(){
     if(s&&s.rest){ $("#cNum").textContent="Round "+(s.r+1)+" done"; $("#cName").textContent="Rest"; $("#cSa").textContent="Stand easy";
       $("#cBreath").textContent="Breathe naturally"; $("#cText").textContent="Next round leads with the other leg."; $("#cMantra").textContent=""; return; }
     const i=s?s.i:previewIdx, r=s?s.r:0, st=STEPS[i], [L,Rr]=side(r);
-    $("#cNum").textContent="Step "+(i+1)+" of 12"+(s?" · Round "+(r+1)+" of "+rounds():"");
+    $("#cNum").textContent="Step "+(VIS().indexOf(i)+1)+" of "+VIS().length+(s?" · Round "+(r+1)+" of "+rounds():"");
     $("#cName").textContent=st.en; $("#cSa").textContent=st.sa;
     $("#cBreath").textContent=st.b;
     $("#cText").textContent=(level()==="chair"?st.chair:st.cue).replace("{L}",L).replace("{R}",Rr);
@@ -402,6 +408,15 @@ const body=()=>`<g><circle class="soft" cx="120" cy="38" r="17"/><rect class="so
  <path class="soft" d="M88 64 H152 L146 150 H94 Z"/><path class="soft" d="M94 148 H146 L144 168 H96 Z"/>
  <line class="lineS" x1="90" y1="70" x2="74" y2="150" stroke-width="11"/><line class="lineS" x1="150" y1="70" x2="166" y2="150" stroke-width="11"/>
  <line class="lineS" x1="107" y1="166" x2="104" y2="262" stroke-width="15"/><line class="lineS" x1="133" y1="166" x2="136" y2="262" stroke-width="15"/></g>`;
+/* Real studio photographs replace every drawing: pose library, course, stage and lessons. */
+const POSEPH={shava:"corpse",setu:"bridge",nava:"boat",hala:"plough",matsya:"fish",padma:"lotus",danda:"staff",ushtra:"camel",twist:"twist",pasch:"pasch",cobra:"cobra",shalabha:"locust",plank:"plank",updog:"updog",child:"child",wheel:"wheel"};
+const poseImg=(k,cls)=>`<picture class="pphoto ${cls||""}"><img src="assets/yoga/pose-${k}-800.webp" srcset="assets/yoga/pose-${k}-800.webp 800w, assets/yoga/pose-${k}-1600.webp 1600w" sizes="(max-width:700px) 92vw, 380px" alt="${(POSEALT[k]||k)} pose in the studio" ></picture>`;
+const POSEALT={corpse:"Corpse",bridge:"Bridge",boat:"Boat",plough:"Plough",fish:"Fish",lotus:"Lotus",staff:"Staff",camel:"Camel",twist:"Seated twist",pasch:"Seated forward bend",cobra:"Cobra",locust:"Locust",plank:"Plank",updog:"Upward dog",child:"Child's",wheel:"Wheel",crow:"Crow",birddog:"Bird-dog"};
+const STAGEPH={pray:"ph:namaskar",up:"ph:raisedarm",fold:"ph:g-forward-fold",plank:"pose:plank",cobra:"pose:cobra"};
+const MAPPH={tree:"ph:raisedarm",limbs:"pose:lotus",mudra:"pose:lotus",eyes:"ph:namaskar",inward:"ph:seated",kundalini:"pose:staff",skeleton:"pose:bridge",kosha:"pose:lotus",vayu:"pose:fish",lungs:"pose:camel",nerves:"pose:corpse",senses:"pose:lotus",food:"pose:pasch",muscle:"pose:plank",bandha:"pose:boat",repro:"pose:child",kriya:"pose:cobra",organs:"pose:wheel",heart:"pose:camel",stomach:"pose:pasch",pituitary:"pose:lotus",chakra:"pose:lotus",aumsea:"pose:lotus"};
+function phSrc(v){ const [t,n]=v.split(":"); return t==="pose"?[`assets/yoga/pose-${n}-800.webp`,`assets/yoga/pose-${n}-1600.webp`]:(["namaskar","conch","raisedarm"].includes(n)?[`assets/yoga/${n}-800.webp`,`assets/yoga/${n}-1600.webp`]:n==="seated"?[`assets/yoga/seated-800.webp`,`assets/yoga/seated-1600.webp`]:[`assets/yoga/${n}-800.webp`,`assets/yoga/${n}-1600.webp`]); }
+/* Lessons shown only while they have a real studio photograph; anatomy units return with licensed plates. */
+const LESSON_PHOTO={tree:1,limbs:1,mudra:1,eyes:1,inward:1,kundalini:1};
 let mapTopic="tree", mapAnim=null, mapSel=null;
 const TOPICS={
  kosha:{name:"Five layers",gated:1,members:1},
@@ -573,13 +588,15 @@ function drawPoseCanvas(c,key){
 }
 function chipGroup(title,list){ return `<div class="cg"><div class="label">${title}</div><div class="chips">${list.map(([k,l,t,path])=>`<button class="cap" data-t="${encodeURIComponent(t)}" data-path="${path||""}">${l}</button>`).join("")}</div></div>`; }
 function renderLib(){
-  $("#groupBar").innerHTML=Object.entries(GROUPS).map(([k,v])=>`<button class="cap" aria-pressed="${k===libGroup}" data-g="${k}"><b>${k}</b> ${v}</button>`).join("");
+  const hasPh=g=>PL.some(p=>p[0][0]===g&&POSEPH[p[3]]);
+  if(!hasPh(libGroup)) libGroup=Object.keys(GROUPS).find(hasPh)||libGroup;
+  $("#groupBar").innerHTML=Object.entries(GROUPS).filter(([k])=>hasPh(k)).map(([k,v])=>`<button class="cap" aria-pressed="${k===libGroup}" data-g="${k}"><b>${k}</b> ${v}</button>`).join("");
   $("#goalBar").innerHTML=`<button class="cap" aria-pressed="${!libGoal}" data-goal="">All goals</button>`+Object.entries(GOALS).map(([k,[l]])=>`<button class="cap" aria-pressed="${k===libGoal}" data-goal="${k}">${l}</button>`).join("");
-  $("#goalNote").innerHTML=libGoal?`<strong>${GOALS[libGoal][0]}.</strong> ${GOALS[libGoal][1]}`:"Pick a goal to see the poses that suit it. Choose a group to browse the course in order.";
+  $("#goalNote").innerHTML=libGoal?`<strong>${GOALS[libGoal][0]}.</strong> ${GOALS[libGoal][1]}`:"";
   const list=PL.filter(p=>libGoal? p[7].includes(libGoal) : p[0][0]===libGroup);
   const kidsOnly=GUIDES[guide].k<.8;
-  let html=list.filter(p=>!(kidsOnly&&/Advanced/.test(p[5]))).map(p=>{ const [code,en,sa,key,short,lvl,hold,goals,steps,care,story]=p;
-    return `<article class="pcard"><h3><span class="code">${code}</span> ${en}<span class="sa">${sa}</span></h3><canvas data-k="${key}" aria-label="Drawing of ${en}" role="img"></canvas>
+  let html=list.filter(p=>POSEPH[p[3]]&&!(kidsOnly&&/Advanced/.test(p[5]))).map(p=>{ const [code,en,sa,key,short,lvl,hold,goals,steps,care,story]=p;
+    return `<article class="pcard"><h3><span class="code">${code}</span> ${en}<span class="sa">${sa}</span></h3>${poseImg(POSEPH[key])}
     <p>${short}</p><div class="badges"><span class="badge ${/Advanced/.test(lvl)?"adv":""}">${lvl}</span><span class="badge">Hold ${hold} s</span></div>
     <button class="btn more" aria-expanded="false">Read more</button>
     <div class="moreBody" hidden><ol>${steps.map(s=>`<li>${s}</li>`).join("")}</ol>
@@ -595,7 +612,6 @@ function renderLib(){
   $("#advList").innerHTML=ADVANCED.map(n=>`<li><strong>${n}</strong><span class="badge adv">Teacher-guided</span></li>`).join("");
   $("#advWrap").hidden=kidsOnly||(BUILD==="public"&&!gate.ok);
   $("#idxNote").textContent=libGroup==="B"&&!libGoal?"Numbering follows your Group B overview page. The detail pages swap two numbers: they call the Bow B-7 and Shashankasana B-10, while the overview has Shashankasana as B-7 and the Bow as B-10. The overview numbers are used here.":"";
-  document.querySelectorAll("#poses canvas").forEach(c=>drawPoseCanvas(c,c.dataset.k));
   document.querySelectorAll("#groupBar .cap").forEach(b=>b.onclick=()=>{ libGroup=b.dataset.g; libGoal=null; renderLib(); });
   document.querySelectorAll("#goalBar .cap").forEach(b=>b.onclick=()=>{ libGoal=b.dataset.goal||null; renderLib(); });
   document.querySelectorAll(".pcard").forEach(card=>{
@@ -662,12 +678,14 @@ Object.assign(TOPICS,{
          bhakti:["Bhakti yoga","The trunk: devotion","Love and gratitude toward what you hold highest. It carries strength from the roots to the branches.","Gratitude, kindness, prayer or quiet thanks in your own way."],
          jnana:["Jnana yoga","The canopy: knowledge","Study and clear thinking about who we are.","Read, reflect, ask questions."],
          raja:["Raja yoga","The crown: the mind","Training the mind through posture, breath and meditation. The eight limbs belong here.","Daily practice on this site."]},
-  draw(){ const g=css("--acc"), h=css("--hl"); let s=`<line x1="10" y1="200" x2="230" y2="200" stroke="${css("--line")}" stroke-width="2"/>`;
-    s+=`<g class="hot" data-k="karma" tabindex="0" role="button" aria-label="Karma yoga"><path class="zone" d="M60 200 h120 v60 h-120z"/>${[-50,-25,0,25,50].map(d=>`<path d="M120 200 Q${120+d} 225 ${120+d*1.6} 255" stroke="${g}" fill="none" stroke-width="3"/>`).join("")}<text x="120" y="272" text-anchor="middle">Karma (roots)</text></g>`;
-    s+=`<g class="hot" data-k="bhakti" tabindex="0" role="button" aria-label="Bhakti yoga"><path class="zone" d="M100 110 h40 v90 h-40z"/><path d="M110 200 L114 112 L126 112 L130 200 Z" fill="${css("--soft")}" stroke="${g}"/><text x="148" y="160">Bhakti (trunk)</text></g>`;
-    s+=`<g class="hot" data-k="jnana" tabindex="0" role="button" aria-label="Jnana yoga"><circle class="zone" cx="80" cy="80" r="44"/><circle cx="82" cy="84" r="40" fill="${css("--soft")}" stroke="${g}"/><text x="82" y="88" text-anchor="middle">Jnana</text></g>`;
-    s+=`<g class="hot" data-k="raja" tabindex="0" role="button" aria-label="Raja yoga"><circle class="zone" cx="160" cy="80" r="44"/><circle cx="158" cy="84" r="40" fill="${css("--soft")}" stroke="${g}"/><text x="158" y="88" text-anchor="middle">Raja</text></g>`;
-    s+=`<circle id="treeSun" cx="120" cy="30" r="10" fill="${h}" opacity=".7"/>`;
+  draw(){ const g=css("--acc"), h=css("--hl");
+    let s=`<defs><linearGradient id="trk" x1="0" x2="1"><stop offset="0" stop-color="#6b4a2e"/><stop offset=".5" stop-color="#9a7048"/><stop offset="1" stop-color="#5a3d26"/></linearGradient><radialGradient id="cn1" cx=".4" cy=".35" r=".8"><stop offset="0" stop-color="#7fb58a"/><stop offset="1" stop-color="#2f6b4a"/></radialGradient><radialGradient id="cn2" cx=".4" cy=".35" r=".8"><stop offset="0" stop-color="#9cc9a0"/><stop offset="1" stop-color="#3f8460"/></radialGradient><radialGradient id="sun" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#f4c77a"/><stop offset="1" stop-color="#f4c77a" stop-opacity="0"/></radialGradient><linearGradient id="soil" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9c7a4"/><stop offset="1" stop-color="#efe6d2"/></linearGradient></defs>`;
+    s+=`<circle id="treeSun" cx="120" cy="22" r="22" fill="url(#sun)"/><circle cx="120" cy="22" r="6" fill="#e9a85c"/>`;
+    s+=`<rect x="0" y="200" width="240" height="80" fill="url(#soil)"/><path d="M0 200 Q60 196 120 200 T240 200" fill="none" stroke="#a88f64" stroke-width=".8"/>`;
+    s+=`<g class="hot" data-k="karma" tabindex="0" role="button" aria-label="Karma yoga"><path class="zone" d="M40 200 h160 v76 h-160z"/>${[[-64,246],[-40,258],[-16,264],[16,264],[40,258],[64,246]].map(([d,y])=>`<path d="M118 200 C118 222 ${120+d*.4} 236 ${120+d} ${y} M122 200 C122 222 ${120+d*.4} 236 ${120+d} ${y}" stroke="#7a5634" fill="none" stroke-width="1.4" stroke-linecap="round"/><path d="M${120+d} ${y} q${d>0?5:-5} 7 ${d>0?10:-10} 9" stroke="#7a5634" fill="none" stroke-width=".7"/>`).join("")}<text x="120" y="277" text-anchor="middle">Karma · the roots</text></g>`;
+    s+=`<g class="hot" data-k="bhakti" tabindex="0" role="button" aria-label="Bhakti yoga"><path class="zone" d="M96 112 h48 v88 h-48z"/><path d="M106 202 C112 170 110 140 112 110 L128 110 C130 140 128 170 134 202 C126 198 114 198 106 202Z" fill="url(#trk)" stroke="#4a3220" stroke-width=".6"/><path d="M116 190 C118 160 117 140 118 116" stroke="#c9a47a" stroke-width=".6" fill="none" opacity=".5"/><text x="150" y="162">Bhakti · the trunk</text></g>`;
+    s+=`<g class="hot" data-k="jnana" tabindex="0" role="button" aria-label="Jnana yoga"><circle class="zone" cx="78" cy="82" r="50"/><path d="M118 112 C96 124 52 120 40 92 C32 66 52 44 80 46 C104 48 122 70 118 112Z" fill="url(#cn1)" stroke="#2a5a3e" stroke-width=".6"/><text x="80" y="86" text-anchor="middle" class="onleaf">Jnana</text><text x="80" y="97" text-anchor="middle" class="onleaf sm2">knowledge</text></g>`;
+    s+=`<g class="hot" data-k="raja" tabindex="0" role="button" aria-label="Raja yoga"><circle class="zone" cx="162" cy="82" r="50"/><path d="M122 112 C144 124 188 120 200 92 C208 66 188 44 160 46 C136 48 118 70 122 112Z" fill="url(#cn2)" stroke="#2a5a3e" stroke-width=".6"/><text x="160" y="86" text-anchor="middle" class="onleaf">Raja</text><text x="160" y="97" text-anchor="middle" class="onleaf sm2">the mind</text></g>`;
     return s; }},
  limbs:{name:"Meditation and the eight limbs",open:1,
   intro:["Meditation and the eight limbs","The classical path of Raja yoga has eight limbs, shown as a ring. Meditation grows from the inner limbs. Tap a limb, or press Start for a short guided sit."],
@@ -686,7 +704,7 @@ Object.assign(TOPICS,{
     return s; },
   extra:`<div class="ys6"><button class="btn solid" id="medGo">Start a 6-step sit</button><button class="btn" id="medStop">Stop</button></div>`},
  mudra:{name:"Mudras (hand gestures)",open:1,
-  intro:["Mudras: hand gestures","Sixteen traditional hand gestures used with breathing and meditation. Pick one to see how to hold it."],
+  intro:["Mudras: hand gestures","In the traditional view each finger stands for one of five elements: thumb fire, index finger air, middle finger space, ring finger earth, little finger water. Keep the hands raised, do not press, and hold the other fingers straight. Mornings suit best; wait 30 to 60 minutes after a meal. Hold for 15 to 20 minutes two or three times a day, or once for 30 to 45 minutes, and begin with a few deep breaths. A traditional view, not medical advice. Pick a gesture to see how to hold it."],
   items:Object.fromEntries(MUDRAS.map(m=>[m[0],[m[1]+" mudra",m[3],m[2],"Hold for a few minutes while breathing slowly."]])),
   draw(){ const m=MUDRAS.find(x=>x[0]===(mapSel||"jnana")); return mudraSVG(m)+`<text x="120" y="22" text-anchor="middle">${m[1]} mudra</text>`; },
   extra:`<div class="chips" id="mudraChips">${MUDRAS.map(m=>`<button class="cap" data-m="${m[0]}">${m[1]}</button>`).join("")}</div>`},
@@ -738,16 +756,18 @@ function renderMap(){
   stopMapAnim();
   if(!topicVisible(mapTopic)) mapTopic="tree";
   const T=TOPICS[mapTopic];
-  $("#topics").innerHTML=Object.entries(TOPICS).filter(([k])=>topicVisible(k)).sort((a,b)=>(!!a[1].gated)-(!!b[1].gated)).map(([k,t])=>`<button data-t="${k}" aria-current="${k===mapTopic}">${t.name}${t.gated?' <span class="lock">Members</span>':""}</button>`).join("");
+  $("#topics").innerHTML=Object.entries(TOPICS).filter(([k])=>topicVisible(k)&&LESSON_PHOTO[k]).sort((a,b)=>(!!a[1].gated)-(!!b[1].gated)).map(([k,t])=>`<button data-t="${k}" aria-current="${k===mapTopic}">${t.name}${t.gated?' <span class="lock">Members</span>':""}</button>`).join("");
   document.querySelectorAll("#topics button").forEach(b=>b.onclick=()=>{ mapTopic=b.dataset.t; mapSel=null; renderMap(); });
   const locked=T.gated&&!gate.ok;
   $("#gate").hidden=!locked; $("#mapBody").hidden=locked;
   if(locked) return;
-  $("#msvg").innerHTML=T.draw()+wmSVG();
+  const ph=phSrc(MAPPH[mapTopic]||"pose:lotus"), im=$("#mphoto"); im.src=ph[0]; im.srcset=ph[0]+" 800w, "+ph[1]+" 1600w"; im.alt="Studio photograph for "+T.name; $("#mwm").textContent=vid+" · "+new Date().toISOString().slice(0,10); $("#msvg").innerHTML="";
   const sel=mapSel&&T.items[mapSel]?T.items[mapSel]:null;
-  $("#mtext").innerHTML=`<div class="card"><h3>${T.intro[0]}</h3><p>${T.intro[1]}</p>${T.extra||""}${mapTopic==="limbs"?'<p id="medCue" class="breath ys7"></p>':""}</div>`+
+  $("#mtext").innerHTML=`<div class="card"><h3>${T.intro[0]}</h3><p>${T.intro[1]}</p>${mapTopic==="mudra"?(T.extra||""):""}${mapTopic==="limbs"?'<p id="medCue" class="breath ys7"></p>':""}</div>`+
     (sel?`<div class="card"><div class="label">${sel[1]}</div><h3>${sel[0]}</h3><p>${sel[2]}</p><p><strong>In practice:</strong> ${sel[3]}</p></div>`:"")+
     `<p class="hint">General education in our own words, not medical advice.</p>`;
+  const itemKeys=mapTopic==="mudra"?[]:Object.keys(T.items||{}); if(itemKeys.length){ $("#mtext").insertAdjacentHTML("afterbegin",`<div class="chips mitems">${itemKeys.map(k=>`<button class="cap" data-k="${k}" aria-pressed="${k===mapSel}">${T.items[k][0]}</button>`).join("")}</div>`); document.querySelectorAll("#mtext .mitems .cap").forEach(b=>b.onclick=()=>{ mapSel=b.dataset.k; renderMap(); }); }
+  if(mapTopic!=="mudra") return;
   document.querySelectorAll("#msvg .hot").forEach(g=>{ if(g.dataset.k===mapSel) g.classList.add("on");
     const pick=()=>{ mapSel=g.dataset.k; renderMap(); }; g.onclick=pick; g.onkeydown=e=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); pick(); } }; });
   if(mapTopic==="nerves") document.querySelectorAll(".seg button").forEach(b=>{ b.setAttribute("aria-pressed",b.dataset.v===(mapSel||"calm")); b.onclick=()=>{ mapSel=b.dataset.v; renderMap(); }; });
@@ -765,7 +785,7 @@ function renderMap(){
   if(mapTopic==="food" && !reduce){ const path=$("#gut"), L=path.getTotalLength(), dot=$("#bolus"); const t0=performance.now();
     const step=ts=>{ const q=((ts-t0)/14000)%1, p=path.getPointAtLength(q*L); dot.setAttribute("cx",p.x); dot.setAttribute("cy",p.y); mapAnim=requestAnimationFrame(step); }; mapAnim=requestAnimationFrame(step); }
 }
-function wmSVG(){ let s=""; for(let i=0;i<5;i++) s+=`<text class="ys8" x="${-20+i*30}" y="${60+i*55}" transform="rotate(-24 120 140)">HFL member ${vid} · ${new Date().toISOString().slice(0,10)}</text>`; return s; }
+function wmSVG(){ return `<text class="ys8" x="236" y="283" text-anchor="end">${vid} · ${new Date().toISOString().slice(0,10)}</text>`; }
 if($("#gateForm")) $("#gateForm").addEventListener("submit",e=>{ e.preventDefault();
   const id=$("#gId").value.trim(), pw=$("#gPw").value, age=document.querySelector('input[name="gAge"]:checked'), ok=$("#gAgree").checked;
   $("#gPw").value="";
@@ -777,8 +797,8 @@ if($("#gateForm")) $("#gateForm").addEventListener("submit",e=>{ e.preventDefaul
 $("#reportBtn").onclick=()=>{ $("#reportBox").hidden=!$("#reportBox").hidden; };
 $("#reportSend").onclick=()=>{ const v=$("#reportTxt").value.trim(); if(!v){ $("#reportMsg").textContent="Please describe the problem first."; return; }
   const who=MEM&&MEM.id?"Member ID: "+MEM.id+"\n":"";
-  if(window.siteMessage){ window.siteMessage.open({to:"engage@hfl-pass.com",team:"Learning safety",subject:"Report a concern: Yoga chapter",message:who+"Page: "+location.href.split("#")[0]+"\n\n"+v}); $("#reportMsg").textContent="Your message is ready to send. Our moderators read every report."; $("#reportTxt").value=""; }
-  else { location.href="mailto:engage@hfl-pass.com?subject="+encodeURIComponent("Report a concern: Yoga chapter")+"&body="+encodeURIComponent(v); } };
+  if(window.siteMessage){ window.siteMessage.open({team:"Learning safety",subject:"Report a concern: Yoga chapter",message:who+"Page: "+location.href.split("#")[0]+"\n\n"+v}); $("#reportMsg").textContent="Your message is ready to send. Our moderators read every report."; $("#reportTxt").value=""; }
+  else { location.href="contact.html#message-form"; } };
 
 /* Practice track: universal by default; traditions and chants are opt-in. */
 const TRAD=[
@@ -1126,16 +1146,14 @@ K.crescent={h:[-2,-18],t:-86,n:-96,ua:-100,fa:-102,tn:-8,sn:90,tf:148,sf:172};
 K.sukha={h:[0,-6],t:-90,n:-90,ua:72,fa:12,tn:-12,sn:165,tf:-12,sf:165};
 const COURSE_WELCOME=`<div class="panel cwel"><canvas data-k="crescent" role="img" aria-label="Our own drawing of a crescent lunge with arms raised"></canvas><div>
  <h3>Welcome</h3>
- <p>Namaste, and welcome. I learned physical culture as a child at home, not from a book, and yoga has walked beside me ever since. I offer this course in the same spirit: not as a test to pass, but as a companion for your own journey.</p>
+ <p>Namaste, and welcome. This course is offered not as a test to pass, but as a companion for your own journey.</p>
  <p>Come as you are. Some days your body will feel light and some days stiff; both are part of practice. Go slowly, breathe, and be kind to yourself. Six weeks from now, I hope yoga will feel like an old friend you meet each morning.</p>
  <p class="hint">Crescent lunge, our own drawing. You will meet the low lunge (Rider pose, B-9) in Week 4; raise the arms only when the legs feel steady.</p></div></div>
-<div class="panel"><h3>About the author</h3>
- <p>The author of this chapter is from Karnataka, India. My grandfather, Sri V. S. Ramacharya, was an ardent student of physical culture and taught it to me himself.</p>
- <p>What I share here comes from that lineage and from my family's teachings. It is my personal view of practice, one path among many, offered with respect for every teacher and tradition.</p></div>`;
+`;
 const COURSE_BASICS=[
  ["Why practise","Many people find that regular, gentle yoga helps them feel more flexible, steadier on their feet, calmer in the mind and more aware of their breath. Results differ from person to person; enjoy the practice for its own sake."],
  ["Choosing a style","Pick what fits your goal. Want calm? Favour slow holds and breathing. Want strength? Add standing poses and Sun salutations. Recovering or older? Start with the Chair level and lying poses. Use the goal buttons in the pose library to see what suits you."],
- ["Best time to practise","In our family, early morning and early evening are the times for practice, around sunrise or sunset. Any steady time works. Leave 2 to 3 hours after a full meal, or about an hour after a light snack."],
+ ["Best time to practise","Traditionally, early morning and early evening are the times for practice, around sunrise or sunset. Any steady time works. Leave 2 to 3 hours after a full meal, or about an hour after a light snack."],
  ["Food and water","Practise on an empty stomach, or wait 2 to 3 hours after a full meal. Keep water nearby and take small sips between poses rather than large gulps during them."],
  ["Your body is your teacher","No book, video or teacher feels what you feel. A mild stretch is good; sharp, burning or shooting pain means come out at once. Every day the body is a little different; follow it."],
  ["Little and often","Fifteen minutes most days does more than one long session a week. Keep a regular time, keep it short at first, and let the habit grow."],
@@ -1252,7 +1270,7 @@ function renderCourse(){
   const total=COURSE.reduce((a,w)=>a+w.s,0), got=COURSE.reduce((a,w,i)=>a+Array.from({length:w.s},(_,k)=>done("w"+(i+1)+"s"+(k+1))?1:0).reduce((x,y)=>x+y,0),0);
   const next=`<div class="panel"><h3>How to spot a good teacher</h3><ul><li>They ask about your health, injuries and experience before the first class.</li><li>They offer easier options and props, and never push you into pain.</li><li>They can explain why a pose is done and how to come out of it safely.</li><li>They have recognised training and keep learning, and are happy to tell you where they trained.</li><li>They respect your body, your beliefs and your boundaries, and ask before any hands-on help.</li><li>Your classes leave you calmer and steadier, not hurt or exhausted.</li></ul></div><div class="panel"><h3>What next</h3><ul><li>Keep three to five sessions a week; repeat Week 6 or mix your favourite poses with the goal buttons in the pose library.</li><li>Try the Steady level and more Sun salutation rounds when the Gentle level feels easy.</li><li>Explore the Lessons tab to learn how the body and breath work.</li><li>Advanced and upside-down poses only with a qualified teacher present.</li></ul></div>`;
   $("#courseBody").innerHTML=`${modeBar()}${dailyHTML()}${coverHTML()}${intro}${worldHTML()}${before}<h3 class="csec">The poses and sequences</h3><p class="hint" id="cProg">Progress: ${got} of ${total} sessions ticked on this device.</p>${weeks}${next}`;
-  document.querySelectorAll("#courseBody canvas").forEach(c=>drawPoseCanvas(c,c.dataset.k));
+  document.querySelectorAll("#courseBody canvas").forEach(c=>{ const k=POSEPH[c.dataset.k]; if(k) c.outerHTML=poseImg(k); else c.remove(); });
   document.querySelectorAll("#styleChips .cap").forEach(b=>b.onclick=()=>{ document.querySelectorAll("#styleChips .cap").forEach(x=>x.removeAttribute("aria-pressed")); b.setAttribute("aria-pressed","true"); const [l,t]=STYLE_FOR[b.dataset.s]; $("#styleOut").innerHTML=`<strong>${l}:</strong> ${t}`; });
   document.querySelectorAll(".jn").forEach(t=>t.oninput=()=>store.set("ss-journal-w"+t.dataset.k,t.value));
   bindModes($("#courseBody"));
@@ -1360,7 +1378,7 @@ document.querySelectorAll("#tabs button").forEach(b=>b.onclick=()=>{
   $("#stepsWrap").hidden=practice!=="surya"; $("#studio").hidden=!st; $("#memberWrap").hidden=practice!=="map"; $("#posesWrap").hidden=practice!=="poses"; $("#pyrWrap").hidden=practice!=="pyramid"; $("#courseWrap").hidden=practice!=="course"; $("#bselL").hidden=practice!=="nadi"; holdsVis();
   stopMapAnim(); clearInterval(holdTimer); restart(); if(practice==="map") renderMap(); if(practice==="poses") renderLib(); if(practice==="pyramid") renderPyr(); if(practice==="course") renderCourse(); fit();
 });
-$("#steps").innerHTML=STEPS.map((s,k)=>`<button class="chip" data-k="${k}"><b>${k+1} · ${s.b}</b>${s.en}<em>${s.sa}</em></button>`).join("");
+$("#steps").innerHTML=VIS().map((k,n)=>{ const s=STEPS[k]; return `<button class="chip" data-k="${k}"><b>${n+1}</b>${s.en}<em>${s.sa}</em></button>`; }).join("");
 document.querySelectorAll(".chip").forEach(c=>c.onclick=()=>{ if(running) return; restart(); previewIdx=+c.dataset.k; });
 
 /* Boot */

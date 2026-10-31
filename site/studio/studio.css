@@ -1,0 +1,78 @@
+:root{--blue:#0F85DB;--green:#3CC261;--paper:#F2EEE2;--ink:#14202b;--mute:#5b6773;--line:#d9d3c2;--card:#fff;--dark:#0c1620}
+@media(prefers-color-scheme:dark){:root{--paper:#0c1620;--ink:#eef2f5;--mute:#9fb0bf;--line:#243645;--card:#13212d}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 Montserrat,"Segoe UI",system-ui,sans-serif}
+header.top{position:sticky;top:0;z-index:50;background:var(--dark);color:#fff;display:flex;align-items:center;gap:20px;padding:0 20px;height:58px;overflow-x:auto;white-space:nowrap}
+header.top .brand{font-weight:700;letter-spacing:.08em;font-size:14px;color:#fff;text-decoration:none;text-transform:uppercase}
+header.top a.m{color:#c9d6e0;text-decoration:none;font-size:14px;padding:6px 2px;border-bottom:2px solid transparent}
+header.top a.m:hover,header.top a.m.on{color:#fff;border-color:var(--green)}
+main{max-width:1180px;margin:0 auto;padding:32px 20px 80px}
+h1{font-family:Newsreader,Georgia,serif;font-weight:500;font-size:clamp(30px,5vw,48px);line-height:1.1;margin:.2em 0}
+h2{font-size:18px;margin:1.6em 0 .5em}
+p.lead{color:var(--mute);max-width:720px;font-size:17px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:24px}
+.card{background:var(--card);border:1px solid var(--line);padding:22px;text-decoration:none;color:inherit;display:block}
+.card:hover{border-color:var(--blue)}
+.card svg{width:30px;height:30px;stroke:var(--blue);fill:none;stroke-width:1.5}
+.card h3{margin:.6em 0 .2em;font-size:17px}.card p{margin:0;color:var(--mute);font-size:14px}
+.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:16px 0}
+button,.btn,select,input[type=text],input[type=number],textarea{font:inherit;font-size:14px}
+button,.btn{background:var(--blue);color:#fff;border:0;padding:9px 16px;cursor:pointer;display:inline-block}
+button.alt{background:transparent;color:var(--ink);border:1px solid var(--line)}
+button:disabled{opacity:.45;cursor:default}
+select,input[type=text],input[type=number],textarea{background:var(--card);color:var(--ink);border:1px solid var(--line);padding:8px 10px}
+textarea{width:100%;min-height:240px;font-family:inherit}
+.drop{border:1.5px dashed var(--line);padding:34px;text-align:center;color:var(--mute);background:var(--card)}
+.drop.over{border-color:var(--blue);color:var(--ink)}
+.stage{background:var(--card);border:1px solid var(--line);padding:12px;overflow:auto;text-align:center}
+.stage canvas,.stage video,.stage svg{max-width:100%}
+.two{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:18px}
+@media(max-width:860px){.two{grid-template-columns:1fr}}
+.side{background:var(--card);border:1px solid var(--line);padding:16px}
+.side label{display:block;font-size:12px;color:var(--mute);margin:12px 0 3px;text-transform:uppercase;letter-spacing:.06em}
+.side input[type=range]{width:100%}
+.thumbs{display:flex;flex-wrap:wrap;gap:10px}.thumbs canvas{height:120px;border:1px solid var(--line);background:#fff}
+.log{background:var(--card);border:1px solid var(--line);padding:12px 16px;font-size:14px;max-height:260px;overflow:auto}
+table.t{border-collapse:collapse;width:100%;font-size:14px;background:var(--card)}
+table.t th,table.t td{border:1px solid var(--line);padding:6px 10px;text-align:left}
+.note{font-size:13px;color:var(--mute);margin-top:30px;border-top:1px solid var(--line);padding-top:14px}
+
+#mo svg{width:100%!important;height:auto}
+.sl{aspect-ratio:16/9;background:#0c1620;color:#fff;padding:5% 6%;margin:0 0 14px;overflow:hidden;border-left:6px solid #3CC261}.sl h3{font-family:Newsreader,Georgia,serif;font-weight:500;font-size:clamp(18px,3vw,30px);margin:0 0 .6em}.sl li{font-size:clamp(12px,1.7vw,18px);margin:.3em 0}.sl.t{display:flex;align-items:center}.sl.t h3{font-size:clamp(22px,4vw,42px)}
+.sx1{margin-top:8px}
+.sx2{margin-top:12px}
+.sx3{color:var(--mute);font-size:14px}
+.sx4{min-height:90px}
+.sx5{color:var(--mute);font-size:13px}
+.sx6{overflow:auto;max-height:420px}
+.sx7{width:100%}
+.sx8{font-size:13px}
+.sx9{margin-top:16px}
+.sx10{margin-top:14px}
+.sx11{width:100%;max-height:60vh}
+.sx12{font-size:14px}
+.sx13{min-width:260px}
+
+/* House for Learning look: ivory base, ink bands, Cormorant headings, square controls */
+:root{--blue:#14222e;--green:#b8934a;--paper:#F2EEE2;--ink:#14222e;--mute:#4c5a66;--line:#d9d0b8;--card:#FBF8EF;--dark:#0c1a24}
+body{background:#F2EEE2;color:#14222e;font:17px/1.6 "Literata",Georgia,serif}
+@media(prefers-color-scheme:dark){:root{--paper:#F2EEE2;--ink:#14222e;--mute:#4c5a66;--line:#d9d0b8;--card:#FBF8EF}}
+header.top{background:#0c1a24;gap:26px;padding:0 max(20px,3vw);height:64px}
+header.top .brand{font:500 22px "Cormorant Garamond",Georgia,serif;letter-spacing:.04em;text-transform:none}
+header.top a.m{font:500 14px "Literata",Georgia,serif;color:#e8dfc9;letter-spacing:.06em}
+header.top a.m:hover,header.top a.m.on{color:#fff;border-color:#d9b979}
+h1,h2,h3{font-family:"Cormorant Garamond","Literata",Georgia,serif;font-weight:500}
+h1{font-size:clamp(40px,5.6vw,76px);line-height:1}
+h2{font-size:clamp(24px,2.4vw,32px)}
+.card{border-radius:0;background:#FBF8EF;padding:28px}
+.card:hover{border-color:#b8934a}
+.card svg{stroke:#8a6a2c;width:34px;height:34px}
+.card h3{font-size:28px;line-height:1.1}
+.card p{font-size:16px}
+button,.btn{background:#14222e;color:#F2EEE2;border-radius:0;font:600 12px "Literata",Georgia,serif;letter-spacing:.16em;text-transform:uppercase;padding:13px 22px}
+button:hover,.btn:hover{background:#b8934a;color:#0c1a24}
+button.alt{background:transparent;color:#14222e;border:1px solid #14222e}
+button.alt:hover{background:#14222e;color:#F2EEE2}
+select,input[type=text],input[type=number],textarea{border-radius:0;background:#FBF8EF;color:#14222e}
+.drop,.stage{background:#FBF8EF}
+.back-site{margin-left:auto;color:#d9b979;text-decoration:none;font:500 13px "Literata",Georgia,serif;letter-spacing:.14em;text-transform:uppercase}

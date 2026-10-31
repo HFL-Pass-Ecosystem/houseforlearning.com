@@ -1,0 +1,20 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Engines | House for Learning Studio</title><link rel="stylesheet" href="../assets/fonts/fonts.css"><link rel="stylesheet" href="studio.css"><link rel="stylesheet" href="../assets/wayfind.css"><script src="../assets/wayfind.js" defer></script></head><body>
+<main><h1>Engines</h1><p class="lead">Two working engines. The ingest engine reads many kinds of file into one table. The collate engine pulls data from several web addresses (APIs) and joins it into one table. Both export CSV or JSON.</p>
+<h2>1. Ingest engine</h2>
+<div class="drop" id="drop"><label class="btn">Choose files<input type="file" id="f" multiple hidden></label><div class="sx1">CSV, Excel, JSON, PDF, text. Drop several at once.</div></div>
+<div class="log sx2" id="log">No files yet.</div>
+<h2>2. API collate engine</h2>
+<p class="sx3">One web address per line. Each must return JSON (a list, or an object holding a list). Rows from all addresses are stacked, with a column showing the source.</p>
+<textarea id="urls" class="sx4">https://restcountries.com/v3.1/region/asia?fields=name,capital,population
+https://restcountries.com/v3.1/region/europe?fields=name,capital,population</textarea>
+<div class="bar"><button id="run">Collate</button><span id="st" class="sx5"></span></div>
+<h2>Result table</h2>
+<div class="bar"><button class="alt" id="csv" disabled>Export CSV</button><button class="alt" id="json" disabled>Export JSON</button><span id="cnt"></span></div>
+<div class="sx6"><table class="t" id="tb"></table></div>
+<h2>Libraries used</h2>
+<table class="t"><tr><th>Purpose</th><th>Library</th><th>Licence</th></tr>
+<tr><td>Image editing</td><td>Fabric.js</td><td>MIT</td></tr><tr><td>PDF viewing</td><td>pdf.js</td><td>Apache-2.0</td></tr><tr><td>PDF editing</td><td>pdf-lib</td><td>MIT</td></tr>
+<tr><td>Slides</td><td>PptxGenJS</td><td>MIT</td></tr><tr><td>Diagrams</td><td>Mermaid</td><td>MIT</td></tr><tr><td>Charts</td><td>Chart.js</td><td>MIT</td></tr><tr><td>Spreadsheets</td><td>SheetJS Community</td><td>Apache-2.0</td></tr><tr><td>CSV</td><td>Papa Parse</td><td>MIT</td></tr></table>
+<p class="note">Everything except the collate engine's web requests runs inside your browser. A web address must allow browser access (CORS) to be read.</p></main>
+<script src="vendor/papaparse.min.js"></script><script src="vendor/xlsx.mini.min.js"></script><script src="studio.js"></script>
+<script type="module" src="engines-app.js"></script></body></html>

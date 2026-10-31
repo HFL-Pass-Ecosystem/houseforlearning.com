@@ -1,0 +1,10 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PDF workshop | House for Learning Studio</title><link rel="stylesheet" href="../assets/fonts/fonts.css"><link rel="stylesheet" href="studio.css"><link rel="stylesheet" href="../assets/wayfind.css"><script src="../assets/wayfind.js" defer></script></head><body>
+<main><h1>PDF workshop</h1><p class="lead">Add one or many PDFs. See every page, drag to reorder, rotate, delete, stamp text, then save one new PDF.</p>
+<div class="drop" id="drop"><label class="btn">Choose PDF files<input type="file" id="f" accept="application/pdf" multiple hidden></label><div class="sx1">or drop them here</div></div>
+<div class="bar"><button class="alt" id="rot">Rotate selected</button><button class="alt" id="del">Delete selected</button><button class="alt" id="left">Move left</button><button class="alt" id="right">Move right</button>
+<input type="text" id="stamp" placeholder="Text to stamp on selected pages" class="sx13"><button class="alt" id="stampb">Stamp</button><button id="save">Save new PDF</button><span id="st" class="sx5"></span></div>
+<div class="thumbs" id="th"></div>
+<h2>Full-page view</h2><div class="stage"><canvas id="big"></canvas></div>
+<p class="note">Everything runs inside your browser. Engines: pdf.js (Apache-2.0) to view, pdf-lib (MIT) to edit.</p></main>
+<script src="vendor/pdf-lib.min.js"></script><script src="studio.js"></script>
+<script type="module" src="pdf-app.js"></script></body></html>
