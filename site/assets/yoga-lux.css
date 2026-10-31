@@ -101,3 +101,11 @@
 .ylux-hero .ylux-media{left:calc(50% - 750px);width:1500px;overflow:hidden;-webkit-mask-image:linear-gradient(to right,transparent 0,#000 8%,#000 92%,transparent 100%);mask-image:linear-gradient(to right,transparent 0,#000 8%,#000 92%,transparent 100%)}
 .ylux-hero .ylux-media img{right:0;width:76%}
 }
+.ylux-roots{background:#0a141c}
+.ylux-roots::after{display:none}
+.ylux-roots .ylux-in{padding-block:clamp(56px,9vw,110px);max-width:860px}
+.ylux-roots h2{font-family:var(--lx-serif);font-weight:500;font-size:clamp(30px,4.4vw,56px);line-height:1.08;margin:0 0 20px;text-wrap:balance}
+.ylux-roots p{font-family:var(--lx-serif);font-size:clamp(18px,1.8vw,22px);line-height:1.6;margin:0 0 16px}
+.ylux-roots .ylux-kick{font-family:var(--mono,monospace)}
+.ylux-roots p.ylux-src{font-size:15px;color:rgba(244,236,220,.7)}
+.ylux-roots a{color:var(--lx-gold)}
