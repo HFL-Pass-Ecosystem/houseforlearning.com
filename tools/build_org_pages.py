@@ -236,13 +236,13 @@ def sector_text(f):
     return SECTOR_TEXT[f]
 
 def flips(items):
-    out = ['<div class="o-flips">']
+    out = ['<p class="o-tip">Tap to turn</p><div class="o-flips">']
     for f, t, p in items:
         back = ' '.join(sector_text(f)).strip()
         if len(back) <= len(p) + 20:  # no real back text: plain card
             out.append(f'<div class="flip-plain"><h3><a href="{f}.html">{E(t)}</a></h3><p>{E(p)}</p></div>')
             continue
-        h = '<span class="flip-hint">Tap, or rest the pointer here, to turn</span>'
+        h = ''
         out.append(f'<div class="flip"><button type="button" class="flip-in" aria-expanded="false"><span class="flip-f"><h3>{E(t)}</h3><p>{E(p)}</p>{h}</span>'
                    f'<span class="flip-b"><h3>{E(t)}</h3><p>{E(back)}</p></span></button></div>')
     out.append('</div>')
@@ -252,7 +252,7 @@ def sectors():
     m = hero('sectors we serve', 'Twelve sectors, one learning platform',
              'Skills, careers and enterprise support for each.',
              btn('join.html', 'Join') + btn('partner.html', 'Partner with us', True))
-    m += split('the twelve', 'Pick a sector', flips(SECTORS) + '<p class="o-note">Turn a card to read what the sector covers, then open its page below.</p>'
+    m += split('the twelve', 'Pick a sector', flips(SECTORS)
                + '<ul class="o-mini" style="margin-top:26px">' + ''.join(f'<li><a href="{f}.html">{t}</a></li>' for f, t, p in SECTORS) + '</ul>',
                lead='Twelve sectors, one learning platform.', full=True)
     m += cta('not sure where you fit?', 'Tell us what you do', 'We will point you to the right pathway.',
