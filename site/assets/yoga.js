@@ -197,13 +197,15 @@ function say(text,lang){
 function hush(){ try{speechSynthesis.cancel()}catch(e){} if(ac){ const t=ac.currentTime; A.vGain.gain.cancelScheduledValues(t); A.vGain.gain.setTargetAtTime(0,t,.1); A.master.gain.cancelScheduledValues(t); A.master.gain.setTargetAtTime(0,t,.3);} }
 
 /* Practice state */
+const STAGEPH0={pray:1,up:1,fold:1,plank:1,cobra:1};
+const VIS=()=>STEPS.map((x,i)=>i).filter(i=>STAGEPH0[STEPS[i].s]);
 let practice="surya", sched=[], elapsed=0, running=false, last=0, segIdx=-1, previewIdx=0, done=false;
 const level=()=>$("#level").value;
 function breathSec(){ return level()==="steady"?4:6; }
 function build(){
   const n=+$("#rounds").value; sched=[];
   if(practice==="surya"){
-    for(let r=0;r<n;r++){ STEPS.forEach((st,i)=>sched.push({i,r,dur:breathSec()*(i===5?.8:1)})); if(r<n-1) sched.push({rest:1,r,dur:6}); }
+    for(let r=0;r<n;r++){ VIS().forEach(i=>sched.push({i,r,dur:breathSec()*(i===5?.8:1)})); if(r<n-1) sched.push({rest:1,r,dur:6}); }
   } else if(practice==="aum"){
     const k=Math.max(3,Math.min(9,n+1));
     for(let r=0;r<k;r++){ sched.push({ph:"in",r,dur:4},{ph:"A",r,dur:3},{ph:"U",r,dur:3},{ph:"M",r,dur:5}); }
@@ -360,7 +362,11 @@ function drawNadi(){
     ctx.fillText("YOUR LEFT",24,-30); ctx.fillText("YOUR RIGHT",-24,-30);
   },{sky:false});
 }
-function draw(){ if(practice==="surya") drawSurya(); else if(practice==="aum") drawAum(); else drawNadi(); }
+let stageKey="";
+function draw(){ let i=previewIdx, k="pose:lotus";
+  if(practice==="surya"){ if(sched.length&&(running||elapsed>0)&&!done){ const a=at(elapsed), q=sched[a.k]; if(q&&!q.rest) i=q.i; else i=-1; }
+    k=(i>=0&&STAGEPH[STEPS[i].s])||"pose:lotus"; }
+  if(k===stageKey) return; stageKey=k; const ph=phSrc(k), im=$("#stagePhoto"); im.src=ph[0]; im.srcset=ph[0]+" 800w, "+ph[1]+" 1600w"; }
 
 /* Cue panel */
 function cueFor(){
@@ -372,7 +378,7 @@ function cueFor(){
     if(s&&s.rest){ $("#cNum").textContent="Round "+(s.r+1)+" done"; $("#cName").textContent="Rest"; $("#cSa").textContent="Stand easy";
       $("#cBreath").textContent="Breathe naturally"; $("#cText").textContent="Next round leads with the other leg."; $("#cMantra").textContent=""; return; }
     const i=s?s.i:previewIdx, r=s?s.r:0, st=STEPS[i], [L,Rr]=side(r);
-    $("#cNum").textContent="Step "+(i+1)+" of 12"+(s?" · Round "+(r+1)+" of "+rounds():"");
+    $("#cNum").textContent="Step "+(VIS().indexOf(i)+1)+" of "+VIS().length+(s?" · Round "+(r+1)+" of "+rounds():"");
     $("#cName").textContent=st.en; $("#cSa").textContent=st.sa;
     $("#cBreath").textContent=st.b;
     $("#cText").textContent=(level()==="chair"?st.chair:st.cue).replace("{L}",L).replace("{R}",Rr);
@@ -402,6 +408,15 @@ const body=()=>`<g><circle class="soft" cx="120" cy="38" r="17"/><rect class="so
  <path class="soft" d="M88 64 H152 L146 150 H94 Z"/><path class="soft" d="M94 148 H146 L144 168 H96 Z"/>
  <line class="lineS" x1="90" y1="70" x2="74" y2="150" stroke-width="11"/><line class="lineS" x1="150" y1="70" x2="166" y2="150" stroke-width="11"/>
  <line class="lineS" x1="107" y1="166" x2="104" y2="262" stroke-width="15"/><line class="lineS" x1="133" y1="166" x2="136" y2="262" stroke-width="15"/></g>`;
+/* Real studio photographs replace every drawing: pose library, course, stage and lessons. */
+const POSEPH={shava:"corpse",setu:"bridge",nava:"boat",hala:"plough",matsya:"fish",padma:"lotus",danda:"staff",ushtra:"camel",twist:"twist",pasch:"pasch",cobra:"cobra",shalabha:"locust",plank:"plank",updog:"updog",child:"child",wheel:"wheel"};
+const poseImg=(k,cls)=>`<picture class="pphoto ${cls||""}"><img src="assets/yoga/pose-${k}-800.webp" srcset="assets/yoga/pose-${k}-800.webp 800w, assets/yoga/pose-${k}-1600.webp 1600w" sizes="(max-width:700px) 92vw, 380px" alt="${(POSEALT[k]||k)} pose in the studio" loading="lazy" decoding="async"></picture>`;
+const POSEALT={corpse:"Corpse",bridge:"Bridge",boat:"Boat",plough:"Plough",fish:"Fish",lotus:"Lotus",staff:"Staff",camel:"Camel",twist:"Seated twist",pasch:"Seated forward bend",cobra:"Cobra",locust:"Locust",plank:"Plank",updog:"Upward dog",child:"Child's",wheel:"Wheel",crow:"Crow",birddog:"Bird-dog"};
+const STAGEPH={pray:"ph:namaskar",up:"ph:raisedarm",fold:"ph:g-forward-fold",plank:"pose:plank",cobra:"pose:cobra"};
+const MAPPH={tree:"ph:raisedarm",limbs:"pose:lotus",mudra:"pose:lotus",eyes:"ph:conch",inward:"ph:seated",kundalini:"pose:staff",skeleton:"pose:bridge",kosha:"pose:lotus",vayu:"pose:fish",lungs:"pose:camel",nerves:"pose:corpse",senses:"pose:lotus",food:"pose:pasch",muscle:"pose:plank",bandha:"pose:boat",repro:"pose:child",kriya:"pose:cobra",organs:"pose:wheel",heart:"pose:camel",stomach:"pose:pasch",pituitary:"pose:lotus",chakra:"pose:lotus",aumsea:"pose:lotus"};
+function phSrc(v){ const [t,n]=v.split(":"); return t==="pose"?[`assets/yoga/pose-${n}-800.webp`,`assets/yoga/pose-${n}-1600.webp`]:(["namaskar","conch","raisedarm"].includes(n)?[`assets/yoga/${n}-800.webp`,`assets/yoga/${n}-1600.webp`]:n==="seated"?[`assets/yoga/seated-800.webp`,`assets/yoga/seated-1600.webp`]:[`assets/yoga/${n}-800.webp`,`assets/yoga/${n}-1600.webp`]); }
+/* Lessons shown only while they have a real studio photograph; anatomy units return with licensed plates. */
+const LESSON_PHOTO={tree:1,limbs:1,mudra:1,eyes:1,inward:1,kundalini:1};
 let mapTopic="tree", mapAnim=null, mapSel=null;
 const TOPICS={
  kosha:{name:"Five layers",gated:1,members:1},
@@ -573,13 +588,15 @@ function drawPoseCanvas(c,key){
 }
 function chipGroup(title,list){ return `<div class="cg"><div class="label">${title}</div><div class="chips">${list.map(([k,l,t,path])=>`<button class="cap" data-t="${encodeURIComponent(t)}" data-path="${path||""}">${l}</button>`).join("")}</div></div>`; }
 function renderLib(){
-  $("#groupBar").innerHTML=Object.entries(GROUPS).map(([k,v])=>`<button class="cap" aria-pressed="${k===libGroup}" data-g="${k}"><b>${k}</b> ${v}</button>`).join("");
+  const hasPh=g=>PL.some(p=>p[0][0]===g&&POSEPH[p[3]]);
+  if(!hasPh(libGroup)) libGroup=Object.keys(GROUPS).find(hasPh)||libGroup;
+  $("#groupBar").innerHTML=Object.entries(GROUPS).filter(([k])=>hasPh(k)).map(([k,v])=>`<button class="cap" aria-pressed="${k===libGroup}" data-g="${k}"><b>${k}</b> ${v}</button>`).join("");
   $("#goalBar").innerHTML=`<button class="cap" aria-pressed="${!libGoal}" data-goal="">All goals</button>`+Object.entries(GOALS).map(([k,[l]])=>`<button class="cap" aria-pressed="${k===libGoal}" data-goal="${k}">${l}</button>`).join("");
-  $("#goalNote").innerHTML=libGoal?`<strong>${GOALS[libGoal][0]}.</strong> ${GOALS[libGoal][1]}`:"Pick a goal to see the poses that suit it. Choose a group to browse the course in order.";
+  $("#goalNote").innerHTML=libGoal?`<strong>${GOALS[libGoal][0]}.</strong> ${GOALS[libGoal][1]}`:"";
   const list=PL.filter(p=>libGoal? p[7].includes(libGoal) : p[0][0]===libGroup);
   const kidsOnly=GUIDES[guide].k<.8;
-  let html=list.filter(p=>!(kidsOnly&&/Advanced/.test(p[5]))).map(p=>{ const [code,en,sa,key,short,lvl,hold,goals,steps,care,story]=p;
-    return `<article class="pcard"><h3><span class="code">${code}</span> ${en}<span class="sa">${sa}</span></h3><canvas data-k="${key}" aria-label="Drawing of ${en}" role="img"></canvas>
+  let html=list.filter(p=>POSEPH[p[3]]&&!(kidsOnly&&/Advanced/.test(p[5]))).map(p=>{ const [code,en,sa,key,short,lvl,hold,goals,steps,care,story]=p;
+    return `<article class="pcard"><h3><span class="code">${code}</span> ${en}<span class="sa">${sa}</span></h3>${poseImg(POSEPH[key])}
     <p>${short}</p><div class="badges"><span class="badge ${/Advanced/.test(lvl)?"adv":""}">${lvl}</span><span class="badge">Hold ${hold} s</span></div>
     <button class="btn more" aria-expanded="false">Read more</button>
     <div class="moreBody" hidden><ol>${steps.map(s=>`<li>${s}</li>`).join("")}</ol>
@@ -595,7 +612,6 @@ function renderLib(){
   $("#advList").innerHTML=ADVANCED.map(n=>`<li><strong>${n}</strong><span class="badge adv">Teacher-guided</span></li>`).join("");
   $("#advWrap").hidden=kidsOnly||(BUILD==="public"&&!gate.ok);
   $("#idxNote").textContent=libGroup==="B"&&!libGoal?"Numbering follows your Group B overview page. The detail pages swap two numbers: they call the Bow B-7 and Shashankasana B-10, while the overview has Shashankasana as B-7 and the Bow as B-10. The overview numbers are used here.":"";
-  document.querySelectorAll("#poses canvas").forEach(c=>drawPoseCanvas(c,c.dataset.k));
   document.querySelectorAll("#groupBar .cap").forEach(b=>b.onclick=()=>{ libGroup=b.dataset.g; libGoal=null; renderLib(); });
   document.querySelectorAll("#goalBar .cap").forEach(b=>b.onclick=()=>{ libGoal=b.dataset.goal||null; renderLib(); });
   document.querySelectorAll(".pcard").forEach(card=>{
@@ -740,16 +756,18 @@ function renderMap(){
   stopMapAnim();
   if(!topicVisible(mapTopic)) mapTopic="tree";
   const T=TOPICS[mapTopic];
-  $("#topics").innerHTML=Object.entries(TOPICS).filter(([k])=>topicVisible(k)).sort((a,b)=>(!!a[1].gated)-(!!b[1].gated)).map(([k,t])=>`<button data-t="${k}" aria-current="${k===mapTopic}">${t.name}${t.gated?' <span class="lock">Members</span>':""}</button>`).join("");
+  $("#topics").innerHTML=Object.entries(TOPICS).filter(([k])=>topicVisible(k)&&LESSON_PHOTO[k]).sort((a,b)=>(!!a[1].gated)-(!!b[1].gated)).map(([k,t])=>`<button data-t="${k}" aria-current="${k===mapTopic}">${t.name}${t.gated?' <span class="lock">Members</span>':""}</button>`).join("");
   document.querySelectorAll("#topics button").forEach(b=>b.onclick=()=>{ mapTopic=b.dataset.t; mapSel=null; renderMap(); });
   const locked=T.gated&&!gate.ok;
   $("#gate").hidden=!locked; $("#mapBody").hidden=locked;
   if(locked) return;
-  $("#msvg").innerHTML=T.draw()+wmSVG();
+  const ph=phSrc(MAPPH[mapTopic]||"pose:lotus"), im=$("#mphoto"); im.src=ph[0]; im.srcset=ph[0]+" 800w, "+ph[1]+" 1600w"; im.alt="Studio photograph for "+T.name; $("#mwm").textContent=vid+" · "+new Date().toISOString().slice(0,10); $("#msvg").innerHTML="";
   const sel=mapSel&&T.items[mapSel]?T.items[mapSel]:null;
-  $("#mtext").innerHTML=`<div class="card"><h3>${T.intro[0]}</h3><p>${T.intro[1]}</p>${T.extra||""}${mapTopic==="limbs"?'<p id="medCue" class="breath ys7"></p>':""}</div>`+
+  $("#mtext").innerHTML=`<div class="card"><h3>${T.intro[0]}</h3><p>${T.intro[1]}</p>${mapTopic==="mudra"?(T.extra||""):""}${mapTopic==="limbs"?'<p id="medCue" class="breath ys7"></p>':""}</div>`+
     (sel?`<div class="card"><div class="label">${sel[1]}</div><h3>${sel[0]}</h3><p>${sel[2]}</p><p><strong>In practice:</strong> ${sel[3]}</p></div>`:"")+
     `<p class="hint">General education in our own words, not medical advice.</p>`;
+  const itemKeys=mapTopic==="mudra"?[]:Object.keys(T.items||{}); if(itemKeys.length){ $("#mtext").insertAdjacentHTML("afterbegin",`<div class="chips mitems">${itemKeys.map(k=>`<button class="cap" data-k="${k}" aria-pressed="${k===mapSel}">${T.items[k][0]}</button>`).join("")}</div>`); document.querySelectorAll("#mtext .mitems .cap").forEach(b=>b.onclick=()=>{ mapSel=b.dataset.k; renderMap(); }); }
+  if(mapTopic!=="mudra") return;
   document.querySelectorAll("#msvg .hot").forEach(g=>{ if(g.dataset.k===mapSel) g.classList.add("on");
     const pick=()=>{ mapSel=g.dataset.k; renderMap(); }; g.onclick=pick; g.onkeydown=e=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); pick(); } }; });
   if(mapTopic==="nerves") document.querySelectorAll(".seg button").forEach(b=>{ b.setAttribute("aria-pressed",b.dataset.v===(mapSel||"calm")); b.onclick=()=>{ mapSel=b.dataset.v; renderMap(); }; });
@@ -1254,7 +1272,7 @@ function renderCourse(){
   const total=COURSE.reduce((a,w)=>a+w.s,0), got=COURSE.reduce((a,w,i)=>a+Array.from({length:w.s},(_,k)=>done("w"+(i+1)+"s"+(k+1))?1:0).reduce((x,y)=>x+y,0),0);
   const next=`<div class="panel"><h3>How to spot a good teacher</h3><ul><li>They ask about your health, injuries and experience before the first class.</li><li>They offer easier options and props, and never push you into pain.</li><li>They can explain why a pose is done and how to come out of it safely.</li><li>They have recognised training and keep learning, and are happy to tell you where they trained.</li><li>They respect your body, your beliefs and your boundaries, and ask before any hands-on help.</li><li>Your classes leave you calmer and steadier, not hurt or exhausted.</li></ul></div><div class="panel"><h3>What next</h3><ul><li>Keep three to five sessions a week; repeat Week 6 or mix your favourite poses with the goal buttons in the pose library.</li><li>Try the Steady level and more Sun salutation rounds when the Gentle level feels easy.</li><li>Explore the Lessons tab to learn how the body and breath work.</li><li>Advanced and upside-down poses only with a qualified teacher present.</li></ul></div>`;
   $("#courseBody").innerHTML=`${modeBar()}${dailyHTML()}${coverHTML()}${intro}${worldHTML()}${before}<h3 class="csec">The poses and sequences</h3><p class="hint" id="cProg">Progress: ${got} of ${total} sessions ticked on this device.</p>${weeks}${next}`;
-  document.querySelectorAll("#courseBody canvas").forEach(c=>drawPoseCanvas(c,c.dataset.k));
+  document.querySelectorAll("#courseBody canvas").forEach(c=>{ const k=POSEPH[c.dataset.k]; if(k) c.outerHTML=poseImg(k); else c.remove(); });
   document.querySelectorAll("#styleChips .cap").forEach(b=>b.onclick=()=>{ document.querySelectorAll("#styleChips .cap").forEach(x=>x.removeAttribute("aria-pressed")); b.setAttribute("aria-pressed","true"); const [l,t]=STYLE_FOR[b.dataset.s]; $("#styleOut").innerHTML=`<strong>${l}:</strong> ${t}`; });
   document.querySelectorAll(".jn").forEach(t=>t.oninput=()=>store.set("ss-journal-w"+t.dataset.k,t.value));
   bindModes($("#courseBody"));
@@ -1362,7 +1380,7 @@ document.querySelectorAll("#tabs button").forEach(b=>b.onclick=()=>{
   $("#stepsWrap").hidden=practice!=="surya"; $("#studio").hidden=!st; $("#memberWrap").hidden=practice!=="map"; $("#posesWrap").hidden=practice!=="poses"; $("#pyrWrap").hidden=practice!=="pyramid"; $("#courseWrap").hidden=practice!=="course"; $("#bselL").hidden=practice!=="nadi"; holdsVis();
   stopMapAnim(); clearInterval(holdTimer); restart(); if(practice==="map") renderMap(); if(practice==="poses") renderLib(); if(practice==="pyramid") renderPyr(); if(practice==="course") renderCourse(); fit();
 });
-$("#steps").innerHTML=STEPS.map((s,k)=>`<button class="chip" data-k="${k}"><b>${k+1} · ${s.b}</b>${s.en}<em>${s.sa}</em></button>`).join("");
+$("#steps").innerHTML=VIS().map((k,n)=>{ const s=STEPS[k]; return `<button class="chip" data-k="${k}"><b>${n+1}</b>${s.en}<em>${s.sa}</em></button>`; }).join("");
 document.querySelectorAll(".chip").forEach(c=>c.onclick=()=>{ if(running) return; restart(); previewIdx=+c.dataset.k; });
 
 /* Boot */

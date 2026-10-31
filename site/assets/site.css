@@ -951,3 +951,26 @@ tr.tt-ok td{background:rgba(60,194,97,.14)}
 .tt-pic{display:block;border-radius:var(--r-lg)}
 .tt-pic:focus-visible{outline:3px solid var(--acc);outline-offset:3px}
 figure figcaption a{font-weight:600}
+/* Yoga lessons: refined night-ink stage with gold line work (replaces the pale school-diagram look) */
+.yoga-app .mapstage{background:radial-gradient(120% 90% at 50% 0%,#1c3446 0%,#0f202c 60%,#0a141c 100%);border-color:#2c4658;box-shadow:inset 0 0 0 1px rgba(217,185,121,.18)}
+.yoga-app #msvg text{fill:#f4ecdc;font-size:10px}
+.yoga-app #msvg .sm{fill:#cdbf9f;font-size:8px}
+.yoga-app #msvg :is(circle,ellipse,rect,path,polygon):not([fill^="url"]):not([fill="none"]):not(.dot):not(.zone):not(#treeSun):not(#eyeDot){fill:rgba(217,185,121,.12);stroke:#d9b979;stroke-width:.9}
+.yoga-app #msvg :is(line,path)[stroke]:not([fill]):not(.zone){stroke:#d9b979}
+.yoga-app #msvg .soft{fill:rgba(217,185,121,.16);stroke:#d9b979;stroke-width:.8}
+.yoga-app #msvg .lineS{stroke:rgba(217,185,121,.28)}
+.yoga-app #msvg .ring{stroke:#d9b979;stroke-width:1}
+.yoga-app .hot .zone{fill:rgba(217,185,121,.22)}
+.yoga-app #msvg .hot.on .ring{stroke:#f4c77a;stroke-width:2.2}
+.yoga-app #msvg .ys8,.yoga-app #msvg text.ys8{fill:#cdbf9f}
+/* Yoga guide: photographs only, no drawings */
+.yoga-app #cv,.yoga-app #msvg,.yoga-app .bodymap,.yoga-app .kitsvg{display:none!important}
+.yoga-app .stage{position:relative;overflow:hidden;background:#0c1a24}
+.yoga-app #stagePhoto{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;object-position:50% 45%}
+.yoga-app .mapstage{position:relative;background:#0c1a24;overflow:hidden;min-height:260px}
+.yoga-app #mphoto{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 40%}
+.yoga-app .mwm{position:absolute;right:8px;bottom:6px;font:500 9px/1 "Cormorant Garamond","Literata",Georgia,serif;letter-spacing:.06em;color:rgba(244,236,220,.35);pointer-events:none}
+.yoga-app .pphoto{display:block;margin:0 0 10px;overflow:hidden;background:#0c1a24}
+.yoga-app .pphoto img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;object-position:50% 50%}
+.yoga-app .mitems{margin-bottom:10px}
+.yoga-app #msvg text.ys8{display:none}

@@ -22,6 +22,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Literata:opsz,wght@7..72,400;7..72,500;7..72,600&family=IBM+Plex+Mono:wght@500;600&display=swap">
 <link rel="stylesheet" href="assets/yoga-lux.css">
 <link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/yoga-premium.css">
 <script src="assets/site.js" defer></script>
 <script src="assets/lang.js" defer></script>
 </head>
@@ -47,7 +48,7 @@
     </div>
   </section>
 
-  <section class="teachers" aria-labelledby="gH"><h2 id="gH">Your teachers</h2><p class="lede">Learn from people, not drawings. Every pose on this page is taught by our own teacher and student, photographed in the studio.</p><div class="tcards"><figure><img src="assets/yoga/conch-1600.webp" srcset="assets/yoga/conch-800.webp 640w, assets/yoga/conch-1600.webp 1280w, assets/yoga/conch-2560.webp 1920w" sizes="(max-width:700px) 100vw, 33vw" alt="Our yoga teacher seated cross-legged, blowing a conch shell" width="2561" height="3840" loading="lazy" decoding="async"><figcaption><strong>Teacher</strong><span>Opens each practice with sound and breath</span></figcaption></figure><figure><img src="assets/yoga/raisedarm-1600.webp" srcset="assets/yoga/raisedarm-800.webp 640w, assets/yoga/raisedarm-1600.webp 1280w, assets/yoga/raisedarm-2560.webp 1920w" sizes="(max-width:700px) 100vw, 33vw" alt="Our yoga student seated in a twist with one arm raised" width="2561" height="3840" loading="lazy" decoding="async"><figcaption><strong>Student</strong><span>Shows the easier and fuller version of each pose</span></figcaption></figure></div><div class="guides-legacy" hidden><div class="guides" id="guides"></div><select id="skinSel"></select><p id="gHint"></p></div></section>
+  <section class="teachers" aria-labelledby="gH"><h2 id="gH">Your teachers</h2><div class="tcards"><figure><img src="assets/yoga/conch-1600.webp" srcset="assets/yoga/conch-800.webp 640w, assets/yoga/conch-1600.webp 1280w, assets/yoga/conch-2560.webp 1920w" sizes="(max-width:700px) 100vw, 33vw" alt="Our yoga teacher seated cross-legged, blowing a conch shell" width="2561" height="3840" loading="lazy" decoding="async"><figcaption><strong>Teacher</strong><span>Opens each practice with sound and breath</span></figcaption></figure><figure><img src="assets/yoga/raisedarm-1600.webp" srcset="assets/yoga/raisedarm-800.webp 640w, assets/yoga/raisedarm-1600.webp 1280w, assets/yoga/raisedarm-2560.webp 1920w" sizes="(max-width:700px) 100vw, 33vw" alt="Our yoga student seated in a twist with one arm raised" width="2561" height="3840" loading="lazy" decoding="async"><figcaption><strong>Student</strong><span>Shows the easier and fuller version of each pose</span></figcaption></figure></div><div class="guides-legacy" hidden><div class="guides" id="guides"></div><select id="skinSel"></select><p id="gHint"></p></div></section>
 
   <section>
     <details class="dailyTop"><summary><strong>Daily basics, for everyone:</strong> breathe, water, rest, stress, lifestyle</summary><div id="dailyTop"></div></details>
@@ -64,28 +65,28 @@
 
   <section class="studio" id="studio">
     <div class="playcol">
-    <div class="stage"><canvas id="cv" aria-label="Animated guide" role="img"></canvas><div class="capt" id="capt" aria-live="off" hidden></div></div>
+    <div class="stage"><canvas id="cv" aria-hidden="true"></canvas><img id="stagePhoto" alt="Studio photograph of the current step" sizes="(max-width:900px) 100vw, 640px" decoding="async"><div class="capt" id="capt" aria-live="off" hidden></div></div>
     <div class="player" role="group" aria-label="Player controls">
       <div class="prow">
         <button class="pbtn" id="prevStep" aria-label="Previous step" title="Previous step (left arrow)">⏮</button>
         <button class="pbtn solidp" id="pPlay" aria-label="Play or pause" title="Play or pause (Space)">▶ Play</button>
-        <button class="pbtn" id="back10" aria-label="Back 10 seconds" title="Back 10 s (J)">−10s</button>
-        <button class="pbtn" id="fwd10" aria-label="Forward 10 seconds" title="Forward 10 s (L)">+10s</button>
         <button class="pbtn" id="nextStep" aria-label="Next step" title="Next step (right arrow)">⏭</button>
         <span class="tcode" id="tcode">0:00 / 0:00</span>
-        <button class="pbtn" id="capBtn" aria-pressed="true" title="Captions (C)">CC</button>
-        <button class="pbtn" id="stillBtn" aria-pressed="false" title="Still images (S)">Still images</button>
-        <button class="pbtn" id="fsBtn" title="Full screen (F)">Full screen</button>
       </div>
-      <div class="prow">
+      <div class="legacy-ctl" hidden>
+        <button class="pbtn" id="back10" type="button">−10s</button><button class="pbtn" id="fwd10" type="button">+10s</button>
+        <button class="pbtn" id="capBtn" aria-pressed="true" type="button">CC</button>
+        <button class="pbtn" id="stillBtn" aria-pressed="false" type="button">Still images</button>
+        <button class="pbtn" id="fsBtn" type="button">Full screen</button>
         <label class="sel" for="paceSel"><span class="label">Pace</span><select id="paceSel"><option value="0.5">Much slower (0.5×)</option><option value="0.75">Slower (0.75×)</option><option value="1">Gentle, our default (1×)</option><option value="1.25">A little faster (1.25×)</option><option value="1.5">Faster (1.5×)</option></select></label>
         <label class="sel" for="langSel"><span class="label">Captions and voice</span><select id="langSel"></select></label>
       </div>
+      <div class="legacy-ctl" hidden>
       <div class="dialWrap" id="dialWrap" hidden>
         <div class="dial" id="dial" role="slider" aria-label="Turn to step through the poses" tabindex="0"><div class="knob" id="dialKnob"><i></i></div></div>
         <p class="hint">Still images: turn the dial clockwise for the next step, anticlockwise to go back, or use the arrow keys, a mouse wheel or a remote. Go at your own pace with the picture on screen. Smartwatch crown control is planned for our own app.</p>
       </div>
-      <p class="hint keys">Keys: Space play or pause · ← → step · J L 10 seconds · [ ] pace · C captions · S still images · F full screen. On a TV, use your browser's cast or screen-share option, or open this page on a smart TV browser.</p>
+      </div>
     </div>
     </div>
     <div class="side">
@@ -119,12 +120,12 @@
   </section>
 
   <section id="stepsWrap">
-    <div class="label ys3">The 12 steps · tap one to see it when paused</div>
+    <div class="label ys3">The steps</div>
     <div class="steps" id="steps"></div>
   </section>
 
 
-  <section class="track" id="trackWrap" aria-label="Your practice track">
+  <section class="track" id="trackWrap" aria-label="Your practice track" hidden>
     <div class="panel">
       <h2>Your practice track</h2>
       <label class="sel" for="lookSel"><span class="label">Look and feel</span><select id="lookSel"><option value="">Traditional (default)</option><option value="family">Family lineage</option><option value="studio">Studio style (modern, English first)</option></select></label>
@@ -146,7 +147,7 @@
   </section>
 
   <section id="posesWrap" class="lib" hidden>
-    <div><h2>Pose library</h2><p class="hint">Course groups A to F, numbered as in your booklet. Each card shows the name above the drawing and a short note below. Read more opens the steps, goals, belief, level and cautions.</p></div>
+    <div><h2>Pose library</h2></div>
     <div class="capbar" id="groupBar" role="group" aria-label="Course groups"></div>
     <div class="capbar" id="goalBar" role="group" aria-label="Goals"></div>
     <p id="goalNote" class="hint"></p>
@@ -165,7 +166,7 @@
         <div id="gateForm"><p><!-- APP: /members/login?next=/yoga.html (points to Membership until the member zone is online) --><a class="btn solid" href="membership.html" data-member-login="/members/login?next=/yoga.html">Sign in on the member zone</a></p><p class="hint">Not a member yet? Membership is open to everyone, from $5 a year for eligible people.</p></div>
       </div>
       <div id="mapBody">
-        <div class="mapstage"><svg id="msvg" viewBox="0 0 240 280" role="group" aria-label="Lesson drawing"></svg></div>
+        <div class="mapstage"><img id="mphoto" alt="" sizes="(max-width:900px) 100vw, 520px" decoding="async"><span id="mwm" class="mwm"></span><svg id="msvg" viewBox="0 0 240 280" aria-hidden="true"></svg></div>
         <div class="maptext" id="mtext" aria-live="polite"></div>
       </div>
     </div>
@@ -174,7 +175,6 @@
         <h2>Before you use these lessons</h2>
         <ul>
           <li>Health-science education for well-being and self-care. Not medical advice, diagnosis or treatment. See a qualified doctor about any personal concern.</li>
-          <li>Drawings are simple outline diagrams, in the style of school health textbooks.</li>
           <li>Lessons follow the laws and customs of the member's country, including the UAE and India. Some lessons may not show in some regions or for younger learners.</li>
           <li>Code of conduct: respectful, educational use only. No copying, sharing or reposting. Accounts that misuse lessons are closed.</li>
           <li>Every view carries your member ID and the time as a watermark.</li>
@@ -191,7 +191,7 @@
   </section>
 
   <section id="courseWrap" class="lib" hidden>
-    <div><h2>Six-week beginner course</h2><p class="lede">A step-by-step plan from your first rest pose to one complete session, built from the poses in our library and drawn as our own figures.</p></div>
+    <div><h2>Six-week beginner course</h2></div>
     <div id="courseBody"></div>
   </section>
 
@@ -250,7 +250,8 @@
         <li>Practise on an empty stomach, on a non-slip mat, ideally at sunrise or sunset.</li>
       </ul>
     </div>
-    <div class="panel">
+  </section>
+  <div hidden><div class="panel">
       <h2>Your practice</h2>
       <div class="stats">
         <div><strong id="sStreak">0</strong><span class="label">Day streak</span></div>
@@ -288,8 +289,7 @@
         <li>The price shows before you pay. No hidden auto-renew. Cancel in one click.</li>
       </ul>
       <p class="hint">Payments are made only in the member area, by UPI or bank transfer, with the full price shown before you pay.</p>
-    </div>
-  </section>
+    </div></div>
 
   <aside class="family" aria-labelledby="famH">
     <div class="label" id="famH">Family background</div>
@@ -297,9 +297,8 @@
     <p>The author comes from the state of Karnataka in India, where family titles were traditionally given for a person's trade or calling, not handed down by family line or taken from a place. In the family's understanding, this practice is unique to Karnataka among India's states.</p>
     </aside>
 
-  <p class="foot">The 12-step sequence and the twelve sun names are traditional public knowledge. The figures, music and words on this page are our own. The owner's wall charts were used for ideas only. Your own photos and videos will be added beside each step.</p>
-</div>
-<button class="helpbtn" id="helpBtn" aria-haspopup="dialog"><span aria-hidden="true">?</span> How to use this</button>
+  </div>
+<button class="helpbtn" id="helpBtn" hidden aria-haspopup="dialog"><span aria-hidden="true">?</span> How to use this</button>
 <dialog id="helpDlg" aria-label="How to use this page"><div id="helpBody"></div><div class="dlg-actions"><button class="btn solid" type="button" data-dlg-close>Close</button></div></dialog></div><script src="assets/yoga-boot.js" defer></script></div></section>
 <nav class="pager" aria-label="Previous and next page"><div class="wrap pager-row"><a class="pager-link pager-prev" href="products.html"><span class="pager-k">&larr; Previous page</span><span class="pager-n">Products</span></a><a class="pager-link pager-next" href="membership.html"><span class="pager-k">Next page &rarr;</span><span class="pager-n">Membership</span></a></div></nav>
 </main>

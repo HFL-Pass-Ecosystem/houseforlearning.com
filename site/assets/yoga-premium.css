@@ -1,0 +1,98 @@
+/* Yoga page: one dark, cinematic look. Serif type only, photographs only, nothing empty. */
+.yoga-app{--bg:#0c1a24;--surface:#112331;--ink:#f4ecdc;--muted:#bdb29b;--line:rgba(217,185,121,.22);
+  --acc:#d9b979;--on-acc:#0c1a24;--hl:#d9b979;--kick:#d9b979;--soft:#1c3446;--glow:rgba(217,185,121,.25);
+  --serif:"Literata",Georgia,"Times New Roman",serif;--mono:"Literata",Georgia,serif;--disp:"Cormorant Garamond","Literata",Georgia,serif}
+.yoga-app{background:var(--bg)!important;background-image:none!important;color:var(--ink)}
+.yoga-app .yoga-wrap{max-width:1240px;gap:clamp(28px,5vw,64px);padding-block:clamp(36px,6vw,90px)}
+.yoga-app h1,.yoga-app h2,.yoga-app h3{font-family:var(--disp);font-weight:500;letter-spacing:.005em}
+.yoga-app h2{font-size:clamp(28px,3.6vw,44px);line-height:1.08}
+.yoga-app .label,.yoga-app .kicker{font-family:var(--serif);font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--kick)}
+.yoga-app .hint{color:var(--muted)}
+.ylux-kick,.ylux-btn{font-family:"Literata",Georgia,serif!important}
+/* panels: calm, borderless, hairline only */
+.yoga-app .panel,.yoga-app .cue,.yoga-app .player,.yoga-app .pcard,.yoga-app .chip,.yoga-app .maptext .card,.yoga-app .gate,.yoga-app .chantGrid .card{background:var(--surface);border:1px solid var(--line);border-radius:2px;box-shadow:none}
+.yoga-app .warn{border-left:1px solid var(--line);border-top:2px solid var(--hl)}
+.yoga-app .cols{grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr));gap:clamp(16px,3vw,32px)}
+.yoga-app .panel{padding:clamp(18px,3vw,32px)}
+/* tabs */
+.yoga-app .tabs{border-bottom:1px solid var(--line);gap:4px 10px}
+.yoga-app .tabs button{font:500 17px var(--disp);letter-spacing:.04em;color:var(--muted);padding:12px 12px}
+.yoga-app .tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--hl)}
+.yoga-app .dailyTop{display:none}
+/* buttons and fields */
+.yoga-app .btn{font:500 13px var(--serif);letter-spacing:.18em;text-transform:uppercase;padding:13px 26px;border-radius:0;border:1px solid var(--acc);color:var(--ink);background:transparent;transition:background .5s ease,color .5s ease}
+.yoga-app .btn:hover{background:var(--acc);color:var(--on-acc)}
+.yoga-app .btn.solid{background:var(--acc);color:var(--on-acc)}
+.yoga-app select,.yoga-app .jn,.yoga-app textarea{background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:0;font-family:var(--serif)}
+.yoga-app .cap{background:transparent;border-color:var(--line);color:var(--muted);font-family:var(--serif);letter-spacing:.04em}
+.yoga-app .cap b{font-family:var(--serif)}
+.yoga-app .cap[aria-pressed="true"]{background:transparent;color:var(--ink);border-color:var(--acc)}
+.yoga-app .cap[aria-pressed="true"] b{background:transparent;color:var(--acc)}
+.yoga-app .bar{height:2px;background:var(--line)}
+.yoga-app .bar i{background:var(--acc)}
+/* studio: cinematic stage */
+.yoga-app .studio{grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:clamp(18px,3vw,40px);align-items:start}
+.yoga-app .stage{border:0;border-radius:2px;background:#050c11}
+.yoga-app #stagePhoto{aspect-ratio:3/2;object-position:50% 40%;filter:saturate(.92) brightness(.96);transition:opacity .6s ease}
+.yoga-app .stage::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(to top,rgba(5,12,17,.55),transparent 40%)}
+.yoga-app .player{background:transparent;border:0;border-top:1px solid var(--line);padding:14px 0 0}
+.yoga-app .player .prow{align-items:center;gap:10px}
+.yoga-app .pbtn{background:transparent;border:1px solid var(--line);color:var(--ink);border-radius:50%;width:46px;height:46px;min-width:46px;padding:0;font-size:15px;letter-spacing:0}
+.yoga-app .pbtn.solidp{border-radius:999px;width:auto;min-width:112px;padding:0 24px;background:var(--acc);color:var(--on-acc);border-color:var(--acc);font:500 13px var(--serif);letter-spacing:.2em;text-transform:uppercase}
+.yoga-app .tcode{font:400 14px var(--serif);color:var(--muted);margin-left:auto;letter-spacing:.08em}
+.yoga-app .cue{background:transparent;border:0;padding:0;gap:8px}
+.yoga-app .cue .num{font:500 12px var(--serif);letter-spacing:.24em;text-transform:uppercase;color:var(--kick)}
+.yoga-app .cue h3{font-size:clamp(34px,4vw,54px);line-height:1.02}
+.yoga-app .cue .sa{font:italic 500 20px var(--disp);color:var(--muted)}
+.yoga-app .breath{font:italic 500 clamp(24px,3vw,34px) var(--disp);color:var(--acc);letter-spacing:.01em}
+.yoga-app .cue p{max-width:40ch}
+.yoga-app .mantra{font-family:var(--disp)}
+.yoga-app .toggles label{color:var(--muted);font-size:14px}
+.yoga-app .toggles input{accent-color:var(--acc)}
+.yoga-app .steps{grid-auto-columns:minmax(150px,170px);gap:10px}
+.yoga-app .chip{background:transparent;padding:14px;font:500 17px var(--disp)}
+.yoga-app .chip b{font:500 12px var(--serif);letter-spacing:.2em;color:var(--kick)}
+.yoga-app .chip em{font:italic 500 15px var(--disp);color:var(--muted)}
+.yoga-app .chip[aria-current="step"]{border-color:var(--acc);box-shadow:none}
+#stepsWrap .label{margin-bottom:10px}
+/* pose library */
+.yoga-app .poses{grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:clamp(16px,2.4vw,28px)}
+.yoga-app .pcard{padding:0 0 18px;gap:10px;overflow:hidden}
+.yoga-app .pcard>*:not(.pphoto){margin-inline:18px}
+.yoga-app .pcard .pphoto{margin:0}
+.yoga-app .pcard h3{font-size:26px;margin-top:6px}
+.yoga-app .pcard h3 .code{font:500 11px var(--serif);letter-spacing:.2em;color:var(--kick)}
+.yoga-app .pcard h3 .sa{font:italic 500 16px var(--disp);color:var(--muted)}
+.yoga-app .badge{font-family:var(--serif);font-size:11px;letter-spacing:.08em;border-radius:0}
+.yoga-app .pphoto img{aspect-ratio:4/3}
+/* lessons */
+.yoga-app .map{grid-template-columns:210px minmax(0,1.2fr) minmax(0,1fr)}
+.yoga-app .topics button{background:transparent;border:0;border-bottom:1px solid var(--line);border-radius:0;font:500 17px var(--disp);color:var(--muted);padding:11px 4px}
+.yoga-app .topics button[aria-current="true"]{color:var(--ink);box-shadow:none;border-bottom-color:var(--acc)}
+.yoga-app .mapstage{border:0;border-radius:2px}
+.yoga-app .maptext .card{background:transparent;border:0;border-top:1px solid var(--line);padding:16px 0}
+.yoga-app .maptext h3{font-size:30px}
+/* safety, family */
+.yoga-app .family,.yoga-app aside.family{border:0;border-top:1px solid var(--line);background:transparent;color:var(--muted)}
+.yoga-app .masonry .panel.warn{max-width:760px}
+.yoga-app .masonry{grid-template-columns:minmax(0,1fr)}
+.yoga-app .pyrs svg text{fill:var(--ink)}
+.yoga-app #pyrWrap,.yoga-app #pyrInfo{color:var(--ink)}
+.yoga-app #helpDlg{background:var(--surface);color:var(--ink)}
+/* teachers */
+.yoga-app .teachers .tcards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),420px));gap:clamp(16px,3vw,32px);justify-content:start}
+.yoga-app .teachers figure{margin:0}
+.yoga-app .teachers img{display:block;width:100%;height:auto;border-radius:2px}
+.yoga-app .teachers figcaption{display:grid;gap:2px;padding-top:10px;color:var(--muted)}
+.yoga-app .teachers figcaption strong{font:500 24px var(--disp);color:var(--ink)}
+@media (max-width:820px){.yoga-app .studio{grid-template-columns:minmax(0,1fr)}.yoga-app .map{grid-template-columns:minmax(0,1fr)}}
+body.yoga-lux-page{background:#0c1a24}
+.yoga-lux-page .sec.op-host{background:#0c1a24;padding:0}
+.yoga-lux-page .sec.op-host>.wrap{max-width:none;padding:0}
+.yoga-app .cwel,.yoga-app .cover{grid-template-columns:minmax(0,1fr)}
+.yoga-app .cwel canvas,.yoga-app .cover canvas{display:none}
+.yoga-app .cpose canvas,.yoga-app .hsteps canvas{display:none}
+.yoga-app .cweek,.yoga-app .cintro>*{background:var(--surface);border:1px solid var(--line);padding:clamp(16px,2.6vw,28px)}
+.yoga-app .cweek h3{font-size:28px}
+.yoga-app .pphoto{border-radius:2px}
+.yoga-app .panel.cover,.yoga-app .capt{display:none!important}
