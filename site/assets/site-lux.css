@@ -65,6 +65,6 @@ a{text-underline-offset:3px}
 .flip.calm-flip{min-height:340px}.flip.calm-flip .flip-f p,.flip.calm-flip .flip-b p{font-size:1rem}
 .flip.calm-flip{min-height:380px}.flip.calm-flip .flip-f,.flip.calm-flip .flip-b{padding:24px 24px 36px}
 .brand-logo{display:block;height:52px;width:auto;flex:none}
-.yoga-lux-page .brand-logo{height:46px}
+.yoga-lux-page .brand-logo{height:52px}
 .foot-logo{display:block;height:110px;width:auto;margin:0 0 12px}
-@media (max-width:760px){.brand-logo{height:38px}}
+@media (max-width:760px){.brand-logo{height:40px}}
