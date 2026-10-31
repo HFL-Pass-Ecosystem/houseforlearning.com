@@ -137,3 +137,4 @@ body.yoga-lux-page{--head-bg:rgba(12,26,36,.94);--ink:#f4ecdc;--muted:#bdb29b;--
 .yoga-app .teachers figure{position:relative;overflow:hidden;border-radius:2px}
 .yoga-app .teachers figcaption{position:absolute;left:0;right:0;bottom:0;padding:48px 20px 18px;background:linear-gradient(to top,rgba(5,12,17,.85),rgba(5,12,17,0))}
 @media (min-width:801px){.ylux-hero .ylux-media img{-webkit-mask-image:linear-gradient(to right,transparent 0,#000 38%,#000 88%,transparent 100%);mask-image:linear-gradient(to right,transparent 0,#000 38%,#000 88%,transparent 100%)}}
+.yoga-app #mphoto{object-position:50% 70%}

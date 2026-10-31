@@ -704,7 +704,7 @@ Object.assign(TOPICS,{
     return s; },
   extra:`<div class="ys6"><button class="btn solid" id="medGo">Start a 6-step sit</button><button class="btn" id="medStop">Stop</button></div>`},
  mudra:{name:"Mudras (hand gestures)",open:1,
-  intro:["Mudras: hand gestures","Sixteen traditional hand gestures used with breathing and meditation. Pick one to see how to hold it."],
+  intro:["Mudras: hand gestures","In the traditional view each finger stands for one of five elements: thumb fire, index finger air, middle finger space, ring finger earth, little finger water. Keep the hands raised, do not press, and hold the other fingers straight. Mornings suit best; wait 30 to 60 minutes after a meal. Hold for 15 to 20 minutes two or three times a day, or once for 30 to 45 minutes, and begin with a few deep breaths. A traditional view, not medical advice. Pick a gesture to see how to hold it."],
   items:Object.fromEntries(MUDRAS.map(m=>[m[0],[m[1]+" mudra",m[3],m[2],"Hold for a few minutes while breathing slowly."]])),
   draw(){ const m=MUDRAS.find(x=>x[0]===(mapSel||"jnana")); return mudraSVG(m)+`<text x="120" y="22" text-anchor="middle">${m[1]} mudra</text>`; },
   extra:`<div class="chips" id="mudraChips">${MUDRAS.map(m=>`<button class="cap" data-m="${m[0]}">${m[1]}</button>`).join("")}</div>`},
