@@ -58,8 +58,10 @@ def cta(kicker, h2, p, btns):
 def btn(href, text, ghost=False):
     return f'<a class="btn{" btn-ghost" if ghost else ""}" href="{href}">{text}</a>'
 
-def write(f, main, title=None, desc=None, crumb=None):
+def write(f, main, title=None, desc=None, crumb=None, noindex=False):
     s = read(f)
+    if noindex and 'name="robots"' not in s:
+        s = s.replace('<meta name="viewport"', '<meta name="robots" content="noindex">\n<meta name="viewport"', 1)
     pager = re.search(r'<nav class="pager".*?</nav>', s, re.S)
     pager = pager.group(0) if pager else ''
     s = re.sub(r'<main.*?</main>', lambda m: '<main id="main" tabindex="-1">' + main + pager + '</main>', s, flags=re.S)
@@ -232,6 +234,8 @@ def load_courses():
 
 SECTOR_TEXT = json.load(open('data/sector-text.json', encoding='utf-8'))  # the Wix sector text, kept as data
 
+SECTOR_FOCUS = json.load(open('data/sector-focus.json', encoding='utf-8'))  # from knowledge-base/content-packs/raw-notes
+
 def sector_text(f):
     return SECTOR_TEXT[f]
 
@@ -243,8 +247,10 @@ def flips(items):
             out.append(f'<div class="flip-plain"><h3><a href="{f}.html">{E(t)}</a></h3><p>{E(p)}</p></div>')
             continue
         h = ''
-        out.append(f'<div class="flip"><button type="button" class="flip-in" aria-expanded="false"><span class="flip-f"><h3>{E(t)}</h3><p>{E(p)}</p>{h}</span>'
-                   f'<span class="flip-b"><h3>{E(t)}</h3><p>{E(back)}</p></span></button></div>')
+        lines = -(-len(back) // 38)
+        mh = max(190, 60 + lines * 24)
+        out.append(f'<div class="flip" style="min-height:{mh}px"><button type="button" class="flip-in" aria-expanded="false"><span class="flip-f"><h3>{E(t)}</h3><p>{E(p)}</p>{h}</span>'
+                   f'<span class="flip-b" aria-label="{E(t)}"><p>{E(back)}</p></span></button></div>')
     out.append('</div>')
     return ''.join(out)
 
@@ -278,12 +284,21 @@ def sectors():
             m += split('learn in this sector', 'Related courses',
                        '<ul class="o-mini">' + ''.join(f'<li><a href="{h}">{E(t)}</a></li>' for h, t in rel) + '</ul>'
                        '<p class="o-note">Course outlines are drafts and are not yet open for enrolment.</p>', alt=True)
+        fo = SECTOR_FOCUS.get(f, {})
+        fb = ''
+        if fo.get('focus'):
+            fb += f'<p class="o-lead">{E(fo["focus"])}</p>'
+        if fo.get('goals'):
+            fb += f'<p>This touches UN Sustainable Development Goals {fo["goals"]}.</p>'
+        fb += ('<p>Every sector has its own learning workstream. Each one joins chartered certification, continuing professional development, authoring, training, learning, accreditation, deployment, earning, blended learning and small-business development.</p>'
+               '<p>A learner’s journey runs from free awareness content to practitioner credentials, in line with national and global skills and sustainability aims.</p>')
+        m += split('how learning works here', 'Learning in this sector', fb)
         svc = SERVICE_LINKS.get(f)
         if svc:
             m += split('services', 'Where to start', '<ul class="o-mini">' + ''.join(f'<li><a href="{h}">{t}</a></li>' for h, t in svc) + '</ul>')
         m += cta('next', 'Work with us', 'Join as a learner, partner with us, or write to us about your sector.',
                  btn('join.html', 'Join') + btn('partner.html', 'Partner with us', True) + btn('contact.html', 'Contact', True))
-        write(f + '.html', m)
+        write(f + '.html', m, noindex=True)
 
 # ---------------------------------------------------------------- services, partner, how we help
 SERVICES = [

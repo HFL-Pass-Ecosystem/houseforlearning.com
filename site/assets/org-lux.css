@@ -56,8 +56,8 @@
  .o-rows h3{font-size:25px}
 }
 /* sector flip cards (calm module, assets/calm.css) */
-.o-flips{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px}
-.o-flips .flip{min-height:310px}
+.o-flips{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px}
+.o-flips .flip{min-height:200px}
 .o-flips .flip-f,.o-flips .flip-b{--calm-r:0;padding:26px;border-radius:0;border-color:var(--line);background:var(--surface);color:var(--ink)}
 .o-flips .flip-b{background:#0c1a24;color:#f4ecdc;border-color:#0c1a24}
 .o-flips .flip-f h3,.o-flips .flip-b h3{font-family:var(--lx-display);font-size:28px;line-height:1.1;font-weight:500;margin:0 0 10px}
@@ -65,7 +65,9 @@
 .o-flips .flip-f p,.o-flips .flip-b p{font-size:16.5px;line-height:1.6;margin:0 0 .7em}
 .o-flips .flip-hint{font:600 11px/1.3 var(--f-ui);letter-spacing:.16em;text-transform:uppercase;color:var(--kick);opacity:1;margin-top:14px}
 .o-flips .flip-in:focus-visible{outline-color:var(--hl)}
-.o-flips .flip-plain{min-height:310px;padding:26px;border:1px solid var(--line);background:var(--surface)}
+.o-flips .flip-plain{min-height:200px;padding:26px;border:1px solid var(--line);background:var(--surface)}
 .o-flips .flip-plain h3{font-size:28px;line-height:1.1;margin:0 0 10px}.o-flips .flip-plain h3 a{color:inherit;text-decoration:none}.o-flips .flip-plain h3 a:hover{color:var(--kick)}
 .o-flips .flip-plain p{font-size:16.5px;margin:0}
 .o-tip{font:600 12px/1.3 var(--f-ui);letter-spacing:.2em;text-transform:uppercase;color:var(--kick);margin:0 0 16px}
+.o-flips .flip-f,.o-flips .flip-b{padding:22px}.o-flips .flip-f h3,.o-flips .flip-b h3{font-size:26px;margin-bottom:8px}.o-flips .flip-f p,.o-flips .flip-b p{font-size:15.5px;line-height:1.5}
+.sec p.o-lead{font-size:clamp(21px,2vw,28px);line-height:1.42}
