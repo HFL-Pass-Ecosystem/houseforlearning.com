@@ -57,7 +57,7 @@ def detail(c, kind):
             + ''.join('<tr><th scope="row">' + ''.join(e(x) if i == 0 else '</th><td>' + e(x) if False else '' for i, x in enumerate(r[:1])) + '</th>' + ''.join(f'<td>{e(x)}</td>' for x in r[1:]) + '</tr>' for r in o['rows'])
             + '</tbody></table></div>'
             + ''.join(f'<p><strong>{e(lbl)}:</strong> {e(o["info"][k])}</p>' for k, lbl in [('Evidence kept in My page', 'Kept in My page'), ('Pass rule (draft)', 'To pass (draft)'), ('Safety and limits', 'Limits')] if o['info'].get(k)))
-    return sec('', 'c-h', 'how it is taught', 'Practice, sharing and study', ''.join(parts)) + extra + sec('alt', 'n-h', 'next', 'Back to the list', '<p><a class="btn" href="courses.html">All courses</a> <a class="btn btn-ghost" href="join.html">Join</a></p>' + note)
+    return sec('', 'c-h', 'how it is taught', 'Practice, sharing and study', ''.join(parts)) + extra + '<section class="sec alt" aria-labelledby="lg-h"><div class="wrap"><div class="sec-head"><p class="kicker">language</p><h2 id="lg-h">Choose your language</h2></div><div class="sec-body"><p>This unit is in English first. Choose any language in the world and the page is translated for you by machine, with the English kept as the official text.</p><p><button class="btn" type="button" data-lang-toggle aria-haspopup="dialog" aria-controls="lang-panel" aria-expanded="false">Choose language</button></p></div></div></section>' + sec('alt', 'n-h', 'next', 'Back to the list', '<p><a class="btn" href="courses.html">All courses</a> <a class="btn btn-ghost" href="join.html">Join</a></p>' + note)
 
 for c in D['chapters']:
     page(slug(c), c['title'], c.get('outcome', c['title'])[:150], c['title'], c.get('region', ''), detail(c, 'chapter'),

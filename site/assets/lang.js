@@ -1438,3 +1438,17 @@
     e.preventDefault(); open(a);
   });
 })();
+
+/* Remembered language: once a visitor has chosen a language (the menu said it opens an automatic translation),
+   the next pages open in it without another click. English stays the default: nothing is applied until a choice is made,
+   and choosing English clears it. Skipped on translated copies, on local and preview addresses (the translation
+   service cannot reach them), and once per page visit so there is never a loop. */
+(function () {
+  var KEY = 'site-lang', FLAG = 'site-lang-tried';
+  var code; try { code = localStorage.getItem(KEY); } catch (e) { return; }
+  if (!code || code === 'en') return;
+  var h = location.hostname;
+  if (/\.translate\.goog$/.test(h) || h === 'localhost' || h === '127.0.0.1' || /\.netlify\.app$/.test(h) || /^\d+\.\d+\.\d+\.\d+$/.test(h)) return;
+  try { if (sessionStorage.getItem(FLAG + ':' + location.pathname)) return; sessionStorage.setItem(FLAG + ':' + location.pathname, '1'); } catch (e) { return; }
+  location.replace('https://translate.google.com/translate?sl=en&tl=' + encodeURIComponent(code) + '&u=' + encodeURIComponent(location.href));
+})();
