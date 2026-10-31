@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Builds sectors.html, sector-<slug>.html, services.html, service-<slug>.html, how-we-help.html and team.html
+"""Builds sectors.html, sector-<slug>.html, how-we-help.html and team.html
 from the text of the old site, rewritten in our own words (brand-neutral: no person names, no street address,
 no old prices, no quotes). Run: python3 tools/build_wix_content.py
 Draft: pages are noindex until the owner approves the wording."""
@@ -71,36 +71,8 @@ page('sectors.html', 'Sectors we serve', 'The twelve sectors House for Learning 
      sec('', 'all-h', f'{len(SECT)} sectors', 'Pick a sector', cards(SECT, 'sector-')) + sec('alt', 'n-h', 'next', 'Not sure where you fit?', '<p>Tell us what you do and we will point you to the right pathway.</p>' + CTA + note),
      '<li aria-current="page">Sectors</li>', 'sectors we serve')
 
-# Services (old service pages), prices left out on purpose
-SERV = [
- ('smetech', 'Skills for small and medium businesses', 'Fast-growing skills in business, sales, IT, creative learning, learning design and engineering.', [
-  'Our work for small and medium businesses focuses on fast-growing skills: business, sales, information technology, creative learning, learning design and engineering.',
-  'The aim is to give these businesses a head start towards their upskilling and reskilling goals, through close collaboration with everyone involved.']),
- ('edtech', 'Digital learning for people and institutions', 'Learn it to earn it: school years and beyond, live or in your own time.', [
-  'Digital learning has grown quickly across the world, and the pandemic pushed it into formal schooling. It suits people who cannot afford the best of face-to-face teaching, so we see real promise in it.',
-  'We work in two broad markets: school years (kindergarten to grade 12) and after school (undergraduate, postgraduate and professional courses).',
-  'In both, we deliver live and in-your-own-time learning on computers, tablets, smartphones and other portable devices.']),
- ('emtech', 'Emerging technology skills', 'Basic to advanced skills in artificial intelligence, machine learning, connected devices and big data.', [
-  'We help businesses build skills across new technology products and services. We believe in adopting new technology early, to tackle problems in healthcare, climate change and sustainability.',
-  'We look for the places where industries meet and value can be made together: artificial intelligence, quantum computing, blockchain, digital currency, connected devices, augmented reality, nanotechnology and 3D printing.']),
- ('msmetech', 'Sustainable upskilling for small enterprises', 'Core skills, certificates and job readiness for micro, small and medium enterprises.', [
-  'Governments everywhere support micro, small and medium enterprises because of their part in growth. About 90% of businesses worldwide are of this kind, and they sustain over half of the global workforce.',
-  'The World Bank estimates that about 600 million jobs will be needed by 2030. We help by linking education providers, skills, workers and employers.']),
- ('life-long-learning', 'Life long learning and creative skills', 'Digital skills for creators, users and lovers of the creative arts and design.', [
-  'UNESCO estimates that the global creative economy earns about USD 2,250 billion a year and employs more people aged 15 to 29 than any other sector. We are building products and services for creators, users and lovers of modern creative arts and design.']),
-]
-LLL_LIST = ['Photography', 'Film and videography', 'Editing', 'Sound design', 'Music and sound engineering', 'Performing arts', 'Visual arts', 'Multimedia design', 'Interior design', 'Fashion design']
-MSME_LIST = ['Upskilling platforms', 'Upskilling and reskilling programmes that build core skills', 'Certificates in trending skills and jobs', 'Job-readiness courses and bridge programmes for university students', 'Employability skill programmes for small enterprises']
-for s, t, d, ps in SERV:
-    inner = paras(ps)
-    if s == 'life-long-learning': inner += '<h3 class="ws-h3">Fields we look at</h3>' + bullets(LLL_LIST)
-    if s == 'msmetech': inner += '<h3 class="ws-h3">What we offer</h3>' + bullets(MSME_LIST)
-    body = sec('', 's-h', 'what it is', t, inner) + sec('alt', 'p-h', 'price and dates', 'Price and start dates', '<p>Prices and dates are shown on the <a href="membership.html">Membership</a> page, so there is one place to look. The old site showed prices in other currencies that no longer apply.</p>' + CTA + note)
-    page(f'service-{s}.html', t, d, t, d, body, '<li><a href="services.html">Services</a></li><li aria-current="page">' + e(t) + '</li>', 'services')
-page('services.html', 'Services', 'Five learning services from the old site, brought into our own pages.', 'Services',
-     'Five services that link learning, skills and work.',
-     sec('', 'all-h', f'{len(SERV)} services', 'Pick a service', cards([(s, t, d, p) for s, t, d, p in SERV], 'service-')) + sec('alt', 'n-h', 'next', 'Join or partner', CTA + note),
-     '<li aria-current="page">Services</li>', 'services')
+# Services: built by tools/build_services.py from the owner's real Wix text (not rewritten here).
+SERV = []
 
 # How we help: platform wording and suite
 THINK = [('Reading', 'Understands what a text means.'), ('Understanding', 'Takes whole steps such as decisions and actions.'),
@@ -137,4 +109,4 @@ body = (sec('', 'r-h', f'{len(ROLES)} roles', 'The people behind the work',
             '<p>Eight leaders started this initiative. We show roles here, not names, so the page stays about the work.</p><ul class="cards">' + ''.join(f'<li class="card"><h3>{e(a)}</h3><p>{e(b)}</p></li>' for a, b in ROLES) + '</ul>')
         + sec('alt', 'n-h', 'next', 'Talk to us', CTA + note))
 page('team.html', 'Team roles', 'The roles of the leaders who started House for Learning.', 'Team roles', 'Who leads which part of the work.', body, '<li aria-current="page">Team roles</li>', 'about us')
-print('pages:', len(SECT) + len(SERV) + 4)
+print('pages:', len(SECT) + 3)
