@@ -11,3 +11,5 @@
 .wf-trail [aria-current]{font-weight:700}
 @media(max-width:600px){.wayfind{font-size:13px;padding-top:6px;padding-bottom:6px}.wayfind .wf-b{padding:4px 11px;min-height:32px}.wf-trail{flex-basis:100%}}
 @media print{.wayfind{display:none}}
+.wayfind .wf-b[disabled]{opacity:.55;cursor:default}.wayfind .wf-b[hidden]{display:none}
+@media(max-width:600px){.wayfind .wf-b{min-height:44px;padding:4px 16px}}

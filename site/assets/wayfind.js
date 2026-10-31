@@ -18,6 +18,7 @@
   var last=crumbs[crumbs.length-1][0];
   var leaf=(inStudio&&/index\.html$/.test(rel))?null:page;
   if(!isHome&&leaf&&leaf!==last&&leaf!=='Studio'&&!(inMba&&leaf==='Online MBA'&&false)) crumbs.push([leaf,null]);
+  document.querySelectorAll('.site-head nav[aria-label="You are here"]').forEach(function(n){n.remove();});
   var bar=document.createElement('div');bar.className='wayfind';bar.setAttribute('role','navigation');bar.setAttribute('aria-label','Where you are');
   var h='';
   if(!hasHead){h+='<a class="wf-logo" href="'+root.href+'index.html" aria-label="House for Learning, home"><img src="'+root.href+'assets/brand/hfl-sbs-300w.png" alt="" width="56" height="44"></a>';}
@@ -29,6 +30,10 @@
   var head=document.querySelector('.site-head')||document.querySelector('header');
   if(hasHead&&head.parentNode){head.parentNode.insertBefore(bar,head.nextSibling);}
   else{var sk=document.querySelector('.skip');(sk&&sk.parentNode?sk.parentNode:document.body).insertBefore(bar,sk?sk.nextSibling:document.body.firstChild);}
+  var bk=bar.querySelector('[data-wf=back]');if(bk&&history.length<=1)bk.hidden=true;
+  var fw=bar.querySelector('[data-wf=fwd]');
+  function syncFw(){if(fw&&window.navigation&&typeof navigation.canGoForward==='boolean'){fw.disabled=!navigation.canGoForward;}}
+  syncFw();window.addEventListener('pageshow',syncFw);
   bar.addEventListener('click',function(e){var b=e.target.closest('[data-wf]');if(!b)return;
     if(b.dataset.wf==='back'){if(history.length>1)history.back();else location.href=root.href+'index.html';}
     else history.forward();});
