@@ -13,7 +13,7 @@ Static, browser-only creative tools. Open `index.html` through any web server (f
 
 Libraries are copied into `vendor/` so pages work with no outside requests.
 
-## Adding to a site menu
-Add links to `/studio/index.html` (and the six pages) in the sticky menu of HFL and HFL-Pass. Those sites live in other repositories, so this repo only supplies the folder: copy `creative-tools/` to `/studio/` on each site. Brand: tokens in `studio.css`.
+## Menu
+Link to `/studio/index.html` from the site menu. Brand: tokens in `studio.css`.
 
 Rules kept: no third-party brand names or logos, no hand-drawn art, no uploads (files stay in the browser).
