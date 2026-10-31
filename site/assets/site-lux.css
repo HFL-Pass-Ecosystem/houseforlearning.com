@@ -69,3 +69,4 @@ a{text-underline-offset:3px}
 .foot-logo{display:block;height:110px;width:auto;margin:0 0 12px}
 @media (max-width:760px){.brand-logo{height:40px}}
 .lux-panel h3{font-size:clamp(1.25rem,2vw,1.6rem)}.sec-body>.hint{margin-top:18px}
+.sec-body .lux-panel{padding:clamp(20px,2.4vw,32px)}.sec-body .split2{align-items:start}
