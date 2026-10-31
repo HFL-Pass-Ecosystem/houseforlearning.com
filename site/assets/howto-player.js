@@ -129,6 +129,7 @@
     vid.addEventListener('enterpictureinpicture', function () { el.classList.add('htp-pip'); });
     vid.addEventListener('leavepictureinpicture', function () { el.classList.remove('htp-pip'); });
     vid.addEventListener('webkitpresentationmodechanged', function () { el.classList.toggle('htp-pip', vid.webkitPresentationMode === 'picture-in-picture'); });
+    if ('ResizeObserver' in window) new ResizeObserver(function () { if (!drag) fit(); }).observe(el);
     vid.addEventListener('timeupdate', onTime);
     ['play', 'pause'].forEach(function (n) { vid.addEventListener(n, syncPP); });
     vid.addEventListener('ended', function () { save(); });
@@ -145,7 +146,7 @@
   function endDrag(e) { if (drag) { try { e.target.releasePointerCapture(drag.id); } catch (_) { } } drag = null; save(); }
   function place(x, y) {
     var r = el.getBoundingClientRect(), w = r.width, h = r.height;
-    x = w <= innerWidth - 2 * EDGE ? clamp(x, EDGE, innerWidth - EDGE - w) : clamp(x, EDGE - w + 90, innerWidth - 90); y = clamp(y, 0, innerHeight - 48);
+    x = w <= innerWidth - 2 * EDGE ? clamp(x, EDGE, innerWidth - EDGE - w) : clamp(x, EDGE - w + 90, innerWidth - 90); y = h <= innerHeight - 2 * EDGE ? clamp(y, EDGE, innerHeight - EDGE - h) : clamp(y, 0, innerHeight - 48);
     el.style.left = x + 'px'; el.style.top = y + 'px'; el.style.right = 'auto'; el.style.bottom = 'auto'; state.x = x; state.y = y;
   }
   function setW(w, keepLeft) {
@@ -158,8 +159,8 @@
     var max = innerWidth - 2 * EDGE;
     if (state.w) { var w = clamp(state.w, Math.min(240, max), Math.min(1000, max)); el.style.width = w + 'px'; el.classList.toggle('htp-wide', w >= 600); }
     var r = el.getBoundingClientRect();
-    var x = r.width <= innerWidth - 2 * EDGE ? clamp(r.left, EDGE, innerWidth - EDGE - r.width) : clamp(r.left, EDGE - r.width + 90, innerWidth - 90), y = clamp(r.top, 0, Math.max(0, innerHeight - Math.min(r.height, 120)));
-    if (r.bottom > innerHeight && r.height < innerHeight) y = Math.max(0, innerHeight - r.height - EDGE);
+    var x = r.width <= innerWidth - 2 * EDGE ? clamp(r.left, EDGE, innerWidth - EDGE - r.width) : clamp(r.left, EDGE - r.width + 90, innerWidth - 90);
+    var y = r.height <= innerHeight - 2 * EDGE ? clamp(r.top, EDGE, innerHeight - EDGE - r.height) : 0;
     el.style.left = x + 'px'; el.style.top = y + 'px';
   }
   function toggleMin() {
