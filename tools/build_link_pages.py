@@ -2,7 +2,8 @@
 Run from repo root: python3 tools/build_link_pages.py"""
 import re, sys, os
 sys.path.insert(0, os.path.dirname(__file__))
-from link_pages_data import FN, Q, INSIDE
+from link_pages_data import FN, Q, INSIDE, EXTRA
+import layout
 tpl = open("site/credits.html", encoding="utf-8").read()
 head, rest = tpl.split('<main id="main" tabindex="-1">', 1)
 tail = rest[rest.index("</main>"):]
@@ -18,20 +19,21 @@ def mkhead(title, desc, slug):
     h = h.replace('<li aria-current="page">How credits stack</li>', '<li aria-current="page">%s</li>' % title)
     return h
 
-def sec(i, k, h, body):
+def sec(i, k, h, body, two=False):
     alt = " alt" if i % 2 == 0 else ""
-    return ('<section class="sec%s" aria-labelledby="s%d-h"><div class="wrap"><div class="sec-head"><p class="kicker">%s</p><h2 id="s%d-h">%s</h2></div><div class="sec-body">%s</div></div></section>\n'
-            % (alt, i, k, i, h, body))
+    head = '<div class="sec-head"><p class="kicker">%s</p><h2 id="s%d-h">%s</h2></div>' % (k, i, h)
+    inner = ('<div class="lp-two">%s<div class="sec-body">%s</div></div>' if two else '%s<div class="sec-body">%s</div>') % (head, body)
+    return '<section class="sec%s" aria-labelledby="s%d-h"><div class="wrap">%s</div></section>\n' % (alt, i, inner)
 
 def page(slug, title, kicker, lead, sections, cta_h, cta_p, btns, note=""):
     out = mkhead(title, lead, slug)
     out += '<main id="main" tabindex="-1">\n'
     out += '<section class="hero" aria-labelledby="h1"><div class="wrap hero-grid solo"><div><p class="kicker">%s</p><h1 id="h1">%s</h1><p>%s</p></div></div></section>\n' % (kicker, title, lead)
-    for i, (k, h, b) in enumerate(sections):
-        out += sec(i, k, h, b)
+    out += layout.render(slug, sections, sec)
     if note:
         out += '<section class="sec" aria-label="Note"><div class="wrap"><p class="note">%s</p></div></section>\n' % note
     out += '<section class="cta" aria-labelledby="cta-h"><div class="wrap cta-inner"><div><p class="kicker">your next step</p><h2 id="cta-h">%s</h2><p>%s</p><div class="ctas">%s</div></div></div></section>\n' % (cta_h, cta_p, btns)
+    out = out.replace("</head>", layout.CSS + "</head>", 1).replace('<body class="learn">', '<body class="learn lp">', 1)
     return out + tail
 
 def p_(t): return "<p>%s</p>" % t
@@ -51,6 +53,7 @@ for f in FN:
     open("site/workspace-fn-%s.html" % f["slug"], "w", encoding="utf-8").write(html)
 
 for q in Q:
+    q = dict(q); q["sections"] = list(q["sections"][:-1]) + EXTRA.get(q["slug"], []) + list(q["sections"][-1:]) if EXTRA.get(q["slug"]) else q["sections"]
     mail = "mailto:engage@hfl-pass.com?subject=" + q["mail"].replace(" ", "%20")
     rel = "".join('<a class="btn btn-ghost" href="%s">%s</a>' % r for r in q["related"])
     html = page(q["slug"], q["title"], q["kicker"], q["lead"], q["sections"],
