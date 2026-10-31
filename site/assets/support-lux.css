@@ -1,5 +1,5 @@
 /* Support, FAQ, safety, legal and contact pages. Sits on site-lux.css: ivory L156 base, ink bands, Cormorant, hairlines. */
-.sx{--sx-gold:#b8934a}
+.sx{--sx-gold:#b8934a;--sx-pad:clamp(20px,2.4vw,30px)}
 .sx .sx-hero{padding:clamp(88px,12vw,168px) 0 clamp(56px,8vw,112px)}
 .sx .sx-hero h1{max-width:15ch;font-size:clamp(46px,7vw,108px);line-height:.98}
 .sx .sx-hero p.sx-lead{font-family:"Cormorant Garamond","Literata",Georgia,serif;font-size:clamp(21px,2.2vw,30px);line-height:1.4;max-width:42ch;margin:0 0 32px}
@@ -54,7 +54,7 @@
 .sx-none{padding:48px 0;text-align:center}
 /* safety */
 .sx-posters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(16px,3vw,32px)}
-.sx-poster{border:1px solid var(--line);background:var(--surface);padding:clamp(22px,3vw,36px)}
+.sx-poster{border:1px solid var(--line);background:var(--surface);padding:var(--sx-pad)}
 .sx-poster h3{font-size:clamp(30px,3vw,42px);margin:0 0 14px}
 .sx-poster ol{list-style:none;counter-reset:p;margin:0 0 18px;padding:0}
 .sx-poster li{counter-increment:p;border-top:1px solid var(--line);padding:12px 0 12px 44px;position:relative;font-size:18px}
@@ -92,7 +92,7 @@
 /* contact */
 .sx-contact-grid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,4fr);gap:clamp(28px,6vw,80px);align-items:start}
 .sx-formcol h2{font-size:clamp(34px,4vw,56px);margin:10px 0 24px}
-.sx-contact form.contact{background:var(--surface);border:1px solid var(--line);border-radius:0;padding:clamp(20px,3.4vw,40px);max-width:none}
+.sx-contact form.contact{background:var(--surface);border:1px solid var(--line);border-radius:0;padding:var(--sx-pad);max-width:none}
 .sx-contact label{font:600 12px/1.3 var(--f-ui);letter-spacing:.14em;text-transform:uppercase;color:var(--ink)}
 .sx-contact .opt{text-transform:none;letter-spacing:0;font-weight:400}
 .sx-contact .check{text-transform:none;letter-spacing:0;font-weight:400}
@@ -100,7 +100,7 @@
 .sx-contact input[type=text],.sx-contact input[type=email],.sx-contact select,.sx-contact textarea{background:transparent;border:0;border-bottom:1px solid var(--ink);border-radius:0;padding:10px 0;font-size:18px}
 .sx-contact input:focus,.sx-contact select:focus,.sx-contact textarea:focus{outline:none;border-bottom:2px solid var(--sx-gold)}
 .sx-contact textarea{border:1px solid var(--line);padding:12px;min-height:170px}
-.sx-aside{background:#0c1a24;color:#f4ecdc;padding:clamp(24px,3.4vw,44px);position:sticky;top:84px}
+.sx-aside{background:#0c1a24;color:#f4ecdc;padding:var(--sx-pad);position:sticky;top:84px}
 .sx-aside h3{font-family:"Cormorant Garamond",serif;font-weight:500;font-size:clamp(28px,2.8vw,38px);margin:0 0 14px;color:#f4ecdc}
 .sx-aside h3:not(:first-child){margin-top:32px}
 .sx-aside a{color:#d9b979}
