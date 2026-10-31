@@ -95,3 +95,9 @@ a{text-underline-offset:3px}
   .site-foot .foot-col ul,.site-foot .row.legal{gap:0 14px}
   .site-foot .foot-notice{font-size:12px}
 }
+
+/* Photo bands (owner photos, test preview) */
+.hero-lux .hero-photo img.hp-lobby{object-position:50% 48%}
+.photo-band{padding:clamp(24px,4vw,48px) 0;background:#f2eee2}
+.photo-band figure{margin:0 auto;max-width:min(720px,calc(100% - 32px));border-radius:10px;overflow:hidden;box-shadow:0 10px 30px rgba(12,26,36,.18)}
+.photo-band img{display:block;width:100%;height:auto}
