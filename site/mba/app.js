@@ -123,10 +123,10 @@
   }
   function pAssignment(c, aid) {
     var a = c.assess.filter(function (x) { return x.id === aid; })[0]; if (!a) return notFound();
-    var s = S.subs[a.id];
+    var s = S.subs[a.id], br = ((window.MBA_ASSIGN || {})[c.id] || [])[c.assess.indexOf(a)];
     layout(sideFor(c, "/assignments"), crumb(c, a.name) + "<h1>" + esc(a.name) + "</h1><p><span class='pill'>" + a.w + "%</span><span class='pill'>Due " + fmt(dueMs(c, a)) + ", 23:59 Dubai time</span></p>" +
-      '<div class="card"><h2 class="mt0">What to hand in</h2><p>' + esc(a.kind) + ". Use your own words and credit every source. State clearly where you used an AI tool.</p>" +
-      "<h2>Marking guide</h2>" + rubric() + "</div>" +
+      '<div class="card"><h2 class="mt0">What to do</h2>' + (br ? "<p>" + esc(br.b) + "</p><h2>What to hand in</h2><ul>" + br.h.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>" : "<p>" + esc(a.kind) + "</p>") + "<p>Use your own words and credit every source. State clearly where you used an AI tool.</p>" +
+      "<h2>Marking guide</h2>" + rubric(br) + "</div>" +
       '<div class="card"><label for="sub">Your submission (test: kept only in this browser)</label><textarea id="sub">' + esc(s ? s.text : "") + '</textarea><p><button id="subBtn">' + (s ? "Resubmit" : "Submit") + "</button></p>" +
       (s ? "<p class='note'>Submitted " + esc(s.at) + "</p>" : "") +
       (s && typeof s.score !== "number" ? '<p><button class="alt" id="markBtn">Test only: simulate reviewer marking</button></p>' : "") +
@@ -138,8 +138,8 @@
     var mb = document.getElementById("markBtn");
     if (mb) mb.onclick = function () { var len = S.subs[a.id].text.length; S.subs[a.id].score = Math.min(4, 2.7 + len / 600); save(); pAssignment(c, aid); };
   }
-  function rubric() {
-    var rows = [["Depth of diagnosis", "Names causes, not only symptoms, with evidence"], ["Decisions in practice tasks", "Choices are sound and explained"], ["Use of the course tools", "Tools are applied correctly and fit the case"], ["Executive delivery", "Clear, answer-first, calm under questions"]];
+  function rubric(br) {
+    var rows = br ? br.r : [["Depth of diagnosis", "Names causes, not only symptoms, with evidence"], ["Decisions in practice tasks", "Choices are sound and explained"], ["Use of the course tools", "Tools are applied correctly and fit the case"], ["Executive delivery", "Clear, answer-first, calm under questions"]];
     return '<div class="tw"><table><tr><th>Row</th><th>Top band looks like</th></tr>' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table></div>";
   }
   function pDiscussions(c) {
