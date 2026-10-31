@@ -936,3 +936,17 @@ form.signup{display:grid;gap:18px}
 .ws-pad{margin:0 16px;font-size:14px}
 .ws-plist{columns:2 280px;column-gap:28px;margin:0;padding-left:26px}.ws-plist li{margin:4px 0;break-inside:avoid}
 .ws-plist.cl{list-style:none;padding-left:0}.ws-plist.cl small{color:var(--muted)}
+
+/* Time and date tool */
+.tt-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr));gap:16px;margin:0 0 16px}
+.tt-grid select,.tt-grid input{width:100%;min-width:0}
+.tt-big{font-size:1.15rem;font-weight:600;margin:12px 0}
+.tt-clocks{list-style:none;margin:0 0 16px;padding:0;display:grid;gap:10px}
+.tt-clock{display:grid;grid-template-columns:minmax(0,1.2fr) auto minmax(0,2fr) auto;gap:12px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:10px 14px}
+.tt-clock .tt-time{font:600 1.1rem var(--f-mono);font-variant-numeric:tabular-nums}
+.tt-clock .tt-day{color:var(--muted);font-size:14px}
+@media (max-width:640px){.tt-clock{grid-template-columns:minmax(0,1fr) auto}.tt-clock .tt-day{grid-column:1/-1}}
+tr.tt-ok td{background:rgba(60,194,97,.14)}
+.tt-pic{display:block;border-radius:var(--r-lg)}
+.tt-pic:focus-visible{outline:3px solid var(--acc);outline-offset:3px}
+figure figcaption a{font-weight:600}
