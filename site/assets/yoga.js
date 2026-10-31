@@ -797,8 +797,8 @@ if($("#gateForm")) $("#gateForm").addEventListener("submit",e=>{ e.preventDefaul
 $("#reportBtn").onclick=()=>{ $("#reportBox").hidden=!$("#reportBox").hidden; };
 $("#reportSend").onclick=()=>{ const v=$("#reportTxt").value.trim(); if(!v){ $("#reportMsg").textContent="Please describe the problem first."; return; }
   const who=MEM&&MEM.id?"Member ID: "+MEM.id+"\n":"";
-  if(window.siteMessage){ window.siteMessage.open({to:"engage@hfl-pass.com",team:"Learning safety",subject:"Report a concern: Yoga chapter",message:who+"Page: "+location.href.split("#")[0]+"\n\n"+v}); $("#reportMsg").textContent="Your message is ready to send. Our moderators read every report."; $("#reportTxt").value=""; }
-  else { location.href="mailto:engage@hfl-pass.com?subject="+encodeURIComponent("Report a concern: Yoga chapter")+"&body="+encodeURIComponent(v); } };
+  if(window.siteMessage){ window.siteMessage.open({team:"Learning safety",subject:"Report a concern: Yoga chapter",message:who+"Page: "+location.href.split("#")[0]+"\n\n"+v}); $("#reportMsg").textContent="Your message is ready to send. Our moderators read every report."; $("#reportTxt").value=""; }
+  else { location.href="contact.html#message-form"; } };
 
 /* Practice track: universal by default; traditions and chants are opt-in. */
 const TRAD=[

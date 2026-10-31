@@ -130,11 +130,13 @@
     req.addEventListener('submit', function (e) {
       e.preventDefault();
       if (!rn.value.trim()) { rn.focus(); return; }
-      var c = document.querySelector('[data-email]'), to = c ? c.getAttribute('data-email') : '';
-      if (!to) { rst.textContent = 'Please use the Contact page to tell us.'; return; }
+      var mm = document.querySelector('meta[name="messages-api"]'), api = mm && mm.getAttribute('content');
+      if (!api || !window.fetch) { rst.textContent = 'Please use the Contact page to tell us.'; return; }
       var body = 'Language or dialect: ' + rn.value.trim() + '\nWhere it is spoken: ' + (rw.value.trim() || '-') + '\nHow I want it: ' + rk.value + '\nPage: ' + location.href;
-      window.location.href = 'mailto:' + to + '?subject=' + encodeURIComponent('Language request: ' + rn.value.trim()) + '&body=' + encodeURIComponent(body);
-      rst.textContent = 'Your email app has opened with your request to ' + to + '. Please press Send there. Thank you.';
+      rst.textContent = 'Sending...';
+      fetch(api, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ name: '', email: '', topic: 'Language request', message: body, page: location.pathname, site: location.hostname, website: '' }) })
+        .then(function (r) { if (!r.ok) throw new Error(r.status); rst.textContent = 'Thank you. Your request has been sent.'; })
+        .catch(function () { rst.textContent = 'We could not send it just now. Please use the Contact page.'; });
     });
     more.appendChild(el('p', 'lang-sub', 'Other ways to read'));
     more.appendChild(el('p', 'lang-more-p', 'Read aloud, easy read with simple words, larger text, and sign language (Indian, American, British and International Sign) where a signed version exists.'));

@@ -44,8 +44,8 @@
   /* Contact forms (owner 20 Oct 2026): Send opens the visitor's own email app with the message filled in,
      addressed to the site's contact. Nothing is sent from the page itself. */
   function mailForm(f) {
-    var to = f.getAttribute('data-mailto');
-    if (!to) return false;
+    var to = f.getAttribute('data-mailto') || '';
+    if (!f.hasAttribute('data-mailto') && !f.hasAttribute('data-offline')) return false;
     var lines = [];
     Array.prototype.forEach.call(f.elements, function (el) {
       if (!el.name || !el.value || el.type === 'checkbox' || el.type === 'radio' || el.type === 'submit' || el.type === 'reset' || el.type === 'button') return;
@@ -55,7 +55,7 @@
     });
     var t = f.querySelector('[name=topic],[name=route]');
     var subj = (f.getAttribute('data-subject') || 'Website message') + (t && t.value ? ': ' + t.value : '');
-    function byMail() { window.location.href = 'mailto:' + to + '?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(lines.join('\n')); }
+    function byMail() { if (!to) { var o2 = f.querySelector('.form-status') || f.appendChild(document.createElement('p')); o2.hidden = false; o2.textContent = 'We could not send your message just now. Please try again in a little while.'; return; } window.location.href = 'mailto:' + to + '?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(lines.join('\n')); }
     /* When the site's message service is online, send from the page and show a reference; otherwise, or if it fails, use email. */
     var m = document.querySelector('meta[name="messages-api"]'), api = m && m.getAttribute('content');
     if (!api || !window.fetch) { byMail(); return true; }
