@@ -1272,14 +1272,15 @@
     var b = document.querySelector('.cookie');
     var site = (b && b.getAttribute('data-site')) || document.title.split('|').pop().trim();
     /* Signed in, the member zone sets window.SITE_MEMBER (or HFL_MEMBER) = {id, ...}: the mark shows the member ID. */
-    function who() { var m = window.SITE_MEMBER || window.HFL_MEMBER; return m && m.id ? 'member ' + m.id : 'public copy'; }
-    var text = site + ' \u00b7 ' + who() + ' \u00b7 viewed ' + stamp();
+    function who() { var m = window.SITE_MEMBER || window.HFL_MEMBER; return m && m.id ? 'member ' + m.id : ''; }
+    function wmText() { var x = who(); return site + (x ? ' \u00b7 ' + x : '') + ' \u00b7 viewed ' + stamp(); }
+    var text = wmText();
     var w = document.createElement('div'); w.className = 'wm'; w.setAttribute('aria-hidden', 'true'); w.textContent = text;
     var p = document.createElement('div'); p.className = 'wm-print'; p.setAttribute('aria-hidden', 'true');
     var big = document.createElement('span'); big.className = 'wm-big'; big.textContent = site; p.appendChild(big);
     var line = document.createElement('span'); line.className = 'wm-line'; line.textContent = 'Printed from ' + location.href.split('#')[0] + ' on ' + stamp() + '. The English page online is the official version.'; p.appendChild(line);
     document.body.appendChild(w); document.body.appendChild(p);
-    ['site-member', 'hfl-member'].forEach(function (ev) { document.addEventListener(ev, function () { w.textContent = site + ' \u00b7 ' + who() + ' \u00b7 viewed ' + stamp(); }); });
+    ['site-member', 'hfl-member'].forEach(function (ev) { document.addEventListener(ev, function () { w.textContent = wmText(); }); });
     window.addEventListener('beforeprint', function () { line.textContent = 'Printed from ' + location.href.split('#')[0] + ' on ' + stamp() + '. The English page online is the official version.'; });
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();

@@ -96,3 +96,36 @@ body.yoga-lux-page{background:#0c1a24}
 .yoga-app .cweek h3{font-size:28px}
 .yoga-app .pphoto{border-radius:2px}
 .yoga-app .panel.cover,.yoga-app .capt{display:none!important}
+
+/* Review round: legible hero buttons, dark header, one left edge, styled controls, lesson layout */
+body.yoga-lux-page{--head-bg:rgba(12,26,36,.94);--ink:#f4ecdc;--muted:#bdb29b;--line:rgba(217,185,121,.22);--bg:#0c1a24;--surface:#112331;--acc:#d9b979;--acc-strong:#d9b979;--on-acc:#0c1a24}
+.yoga-lux-page .site-head,.yoga-lux-page .trail{color:#f4ecdc}
+.yoga-lux-page .site-head a,.yoga-lux-page .site-nav a,.yoga-lux-page .brand,.yoga-lux-page .brand-name{color:#f4ecdc}
+.yoga-lux-page .site-head .btn,.yoga-lux-page .menu-btn,.yoga-lux-page .enh-sbtn{color:#f4ecdc;border-color:rgba(217,185,121,.5);background:transparent}
+.yoga-lux-page .brand svg circle{fill:#0c1a24}
+.ylux-btn{color:#f4ecdc!important;border-color:var(--lx-gold)!important;background:rgba(12,26,36,.35)}
+.ylux-btn:hover,.ylux-btn:focus-visible{background:var(--lx-gold)!important;color:#0c1a24!important}
+.ylux-in>*{animation-duration:.9s}.ylux-in>*:nth-child(n){animation-delay:.05s}
+.yoga-app .mwm{display:none}
+.yoga-app #go{display:none}
+.yoga-app select{appearance:none;-webkit-appearance:none;padding:11px 38px 11px 14px;min-height:44px;background-color:var(--bg);background-image:linear-gradient(45deg,transparent 50%,var(--acc) 50%),linear-gradient(135deg,var(--acc) 50%,transparent 50%);background-position:calc(100% - 19px) 52%,calc(100% - 14px) 52%;background-size:5px 5px;background-repeat:no-repeat;font-size:15px}
+.yoga-app input[type=checkbox]{appearance:none;-webkit-appearance:none;width:20px;height:20px;border:1px solid var(--acc);background:transparent;display:inline-grid;place-content:center;margin:0;border-radius:0;cursor:pointer}
+.yoga-app input[type=checkbox]:checked{background:var(--acc)}
+.yoga-app input[type=checkbox]:checked::after{content:"";width:5px;height:10px;border:solid var(--on-acc);border-width:0 2px 2px 0;transform:rotate(45deg) translate(-1px,-1px)}
+.yoga-app .controls{gap:14px 16px}
+.yoga-app .teachers .tcards{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (max-width:700px){.yoga-app .teachers .tcards{grid-template-columns:minmax(0,1fr)}}
+.yoga-app .teachers h2{margin-bottom:18px}
+/* lessons: pills on top, photo and text side by side, no dead space */
+.yoga-app .map{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:clamp(18px,3vw,44px);align-items:center}
+.yoga-app .map .topics{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:6px 22px;overflow:visible}
+.yoga-app .topics button{width:auto;padding:8px 2px;font-size:19px}
+.yoga-app #mphoto{aspect-ratio:4/3;object-position:50% 30%}
+.yoga-app .mapstage{min-height:0}
+.yoga-app .maptext{align-content:center}
+.yoga-app .maptext h3{font-size:clamp(34px,4vw,52px)}
+.yoga-app .maptext p,.yoga-app .maptext .card p{font-size:18px;line-height:1.6;max-width:44ch}
+.yoga-app .gate{grid-column:1/-1;padding:14px 18px;display:flex;flex-wrap:wrap;align-items:center;gap:8px 18px}
+.yoga-app .gate h2{font-size:22px;margin:0}
+.yoga-app .gate>p,.yoga-app .gate .hint{display:none}
+@media (max-width:820px){.yoga-app .map{grid-template-columns:minmax(0,1fr)}}

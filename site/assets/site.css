@@ -303,8 +303,8 @@ body:has(.site-nav.open) .cookie{display:none}
   --dark-bg:#1d3550; --dark-ink:#f3f0e6; --dark-muted:#c9d4df; --dark-kicker:#f0a56b;
   --foot-bg:#1d3550; --foot-ink:#f3f0e6; --foot-muted:#9fb2c6; --foot-acc:#f0a56b;
   --f-display:"Literata",Georgia,serif; --f-body:"Literata",Georgia,serif; --f-ui:"Literata",Georgia,serif;
-  --f-hand:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
-  --f-mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --f-hand:"Literata",Georgia,serif;
+  --f-mono:"Literata",Georgia,serif;
   --r:12px; --r-lg:16px; --rb:999px; --focus:#cc6f2b;
 }
 body.learn{background-color:#f3f0e6}
