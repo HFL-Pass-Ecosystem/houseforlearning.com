@@ -1,0 +1,35 @@
+/* Membership pages (membership, join, credits, credentials, payments, login, members, onboarding). Loads after site-lux.css; ivory L156 base, ink bands, Cormorant numerals, no monospace. */
+body.mem{--f-mono:var(--f-ui)}
+.mem .tag,.mem .kicker,.mem .ladder .when,.mem table.data caption,.mem table.data thead th,.mem table.data td::before,.mem table.data tbody th::before,.mem .foot-col h2{font-family:var(--f-ui)}
+.mem table.data thead th{background:#14222e;color:#F2EEE2;letter-spacing:.12em;font-weight:600}
+.mem table.data{border:1px solid var(--line);background:var(--surface)}
+.mem table.data tbody tr{border-top:1px solid var(--line)}
+.mem .steps li::before{font:500 30px/1 var(--lx-display);color:var(--kick)}
+.mem .hero figure{display:none}
+/* plans: price list in serif numerals */
+.plans{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border:1px solid var(--line);background:var(--surface);list-style:none;margin:0;padding:0}
+.plan{padding:clamp(24px,3vw,44px);border-left:1px solid var(--line);display:flex;flex-direction:column}
+.plan:first-child{border-left:0}
+.plan .who{font:600 12px/1.3 var(--f-ui);letter-spacing:.24em;text-transform:uppercase;color:var(--kick);margin:0 0 18px}
+.plan .price{font:500 clamp(48px,5vw,76px)/1 var(--lx-display);color:var(--ink);margin:0}
+.plan .price small{font:500 16px/1.3 var(--f-ui);letter-spacing:.02em;color:var(--muted);margin-left:6px}
+.plan h3{font-size:28px;margin:18px 0 8px}
+.plan p{margin:0 0 12px}
+.plan ul{margin:auto 0 0;padding:16px 0 0;border-top:1px solid var(--line);list-style:none}
+.plan li{font-size:16px;line-height:1.55;padding:4px 0}
+.plan.is-dark{background:#0c1a24;color:#f4ecdc}
+.plan.is-dark .who{color:#d9b979}.plan.is-dark .price,.plan.is-dark h3{color:#f4ecdc}.plan.is-dark .price small,.plan.is-dark p,.plan.is-dark li{color:rgba(244,236,220,.86)}.plan.is-dark ul{border-color:rgba(244,236,220,.25)}
+/* promise band */
+.promises{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;margin:clamp(32px,4vw,56px) 0 0;padding:0;list-style:none;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.promises li{padding:22px 24px 22px 0;margin-right:24px;border-right:1px solid var(--line)}
+.promises li:last-child{border-right:0;margin-right:0}
+.promises strong{display:block;font:500 28px/1.1 var(--lx-display);color:var(--ink);margin-bottom:6px}
+.promises span{font-size:15px;line-height:1.5;color:var(--muted)}
+/* delivery split bar on the credits page */
+.split3{display:grid;grid-template-columns:7fr 2fr 1fr;gap:2px;margin:28px 0 8px;min-height:92px}
+.split3 div{padding:16px 18px;color:#f4ecdc}
+.split3 div:nth-child(1){background:#14222e}.split3 div:nth-child(2){background:#3a4d5c}.split3 div:nth-child(3){background:#8a6a2c}
+.split3 b{display:block;font:500 34px/1 var(--lx-display)}.split3 span{font-size:13px;letter-spacing:.06em}
+.mem .card[data-hue]{border-top:1px solid var(--line)}
+@media (max-width:860px){.plans{grid-template-columns:1fr}.plan{border-left:0;border-top:1px solid var(--line)}.plan:first-child{border-top:0}.promises{grid-template-columns:1fr 1fr}.promises li{border-right:0;margin-right:0;border-bottom:1px solid var(--line)}.split3{grid-template-columns:1fr;min-height:0}}
+.plan.is-dark .price{font-size:clamp(38px,3.6vw,54px)}
