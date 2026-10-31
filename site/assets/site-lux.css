@@ -50,3 +50,15 @@ h1,h2,h3,.hero h1,.sec h2,.cta h2,.card h3,.learn h1,.learn h2,.learn h3{font-fa
 .card p,.sec p{font-size:17px;line-height:1.65}
 .pager-link{border-radius:0}
 a{text-underline-offset:3px}
+.split2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(16px,3vw,40px)}
+.lux-panel{border:1px solid var(--line);background:var(--surface);padding:clamp(24px,4vw,56px)}
+.lux-panel h3{font-size:clamp(30px,3.4vw,46px);margin:0 0 12px}
+.lux-steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(16px,3vw,40px);counter-reset:s}
+.lux-steps li{border-top:1px solid var(--hl);padding-top:16px;display:grid;gap:8px;align-content:start;counter-increment:s}
+.lux-steps li::before{content:counter(s,decimal-leading-zero);font:500 14px var(--f-ui);letter-spacing:.2em;color:var(--kick)}
+.lux-steps b{font:500 clamp(24px,2.4vw,32px)/1.1 "Cormorant Garamond","Literata",serif}
+.lux-steps span,.lux-note{color:var(--muted);font-size:17px;line-height:1.65}
+.lux-note{max-width:78ch;margin:clamp(24px,4vw,48px) 0 0}
+.lux-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 clamp(24px,5vw,72px)}
+.lux-list li{padding:16px 0;border-top:1px solid var(--line);font-size:18px;line-height:1.5}
+@media (max-width:820px){.split2,.lux-steps,.lux-list{grid-template-columns:minmax(0,1fr)}}
