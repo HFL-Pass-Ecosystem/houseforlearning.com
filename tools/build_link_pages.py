@@ -54,7 +54,7 @@ for q in Q:
     mail = "mailto:engage@hfl-pass.com?subject=" + q["mail"].replace(" ", "%20")
     rel = "".join('<a class="btn btn-ghost" href="%s">%s</a>' % r for r in q["related"])
     html = page(q["slug"], q["title"], q["kicker"], q["lead"], q["sections"],
-        "Still want to write?", "A person reads every message. Nothing here is automatic.",
+        q["cta"][0], q["cta"][1] + " A person reads every message.",
         '<a class="btn" href="%s">Email us about this</a>%s' % (mail, rel))
     open("site/%s.html" % q["slug"], "w", encoding="utf-8").write(html)
 print(len(FN), len(Q))
