@@ -6,7 +6,7 @@ GROUPS = [
  ("Products", [("products.html","All products"),("studio/index.html","Studio"),("platform.html","Platform"),("marketplace.html","Marketplace"),("business-systems.html","Business systems"),("insights.html","Insights")]),
  ("Organisations", [("organisations.html","All organisations"),("workplace.html","Workplace"),("academies.html","Technical academies"),("sectors.html","Sectors we serve"),("services.html","Services"),("how-we-help.html","How we help"),("partner.html","Partner with us")]),
  ("Membership", [("membership.html","About membership"),("join.html","Join"),("credits.html","How credits stack"),("credentials.html","Credentials and assessment"),("payments.html","Payments")]),
- ("Help", [("about.html","About"),("team.html","Team roles"),("support.html","Support and access"),("faq.html","Questions (FAQ)"),("safety.html","Safety"),("contact.html","Contact")]),
+ ("Help", [("about.html","About"),("team.html","Team roles"),("support.html","Support and access"),("faq.html","Questions (FAQ)"),("safety.html","Safety"),("cookies.html","Cookies"),("contact.html","Contact")]),
 ]
 def build(cur, actions):
     out = ['<nav class="site-nav" id="site-nav" aria-label="Main"><ul class="nav-groups">']
