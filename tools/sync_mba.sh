@@ -3,8 +3,8 @@
 # and makes it fit our no-inline-style rule. Usage: tools/sync_mba.sh /path/to/ahfl-workspace <git-ref>
 set -e
 SRC="$1"; REF="${2:-HEAD}"; OUT="$(cd "$(dirname "$0")/.." && pwd)/site/mba"
-mkdir -p "$OUT/deep"
-for f in index.html app.js data.js assign.js style.css $(git -C "$SRC" ls-tree -r --name-only "$REF" learning/mba/deep | sed 's#learning/mba/##'); do
+mkdir -p "$OUT/deep" "$OUT/img"
+for f in index.html app.js data.js assign.js style.css $(git -C "$SRC" ls-tree -r --name-only "$REF" learning/mba/deep learning/mba/img | sed 's#learning/mba/##'); do
   git -C "$SRC" show "$REF:learning/mba/$f" > "$OUT/$f"
 done
 cd "$OUT"
