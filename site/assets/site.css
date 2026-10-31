@@ -1006,3 +1006,24 @@ figure:has(>svg.art){display:none}
 }
 .site-nav ul.sub{display:none;flex-direction:column;align-items:stretch;gap:0;flex-wrap:nowrap}
 .site-nav .has-sub.open>ul.sub{display:block}
+
+/* Home hero: dark, cinematic, one real photograph */
+.hero-lux{background:#0c1a24;color:#f4ecdc;position:relative;overflow:hidden;min-height:min(86vh,780px);display:grid;align-items:center}
+.hero-lux .hero-grid{position:relative;z-index:1;width:100%}
+.hero-lux .kicker{color:#d9b979;letter-spacing:.26em}
+.hero-lux h1{font-family:"Cormorant Garamond","Literata",Georgia,serif;font-weight:500;font-size:clamp(44px,6.4vw,92px);line-height:1;color:#f4ecdc;max-width:12ch;text-wrap:balance}
+.hero-lux p{color:rgba(244,236,220,.88);font-size:clamp(17px,1.5vw,20px)}
+.hero-lux .buddy{background:transparent;border:0;border-left:1px solid rgba(217,185,121,.5);border-radius:0;padding:4px 0 4px 16px;box-shadow:none;color:#f4ecdc}
+.hero-lux .btn{background:#d9b979;color:#0c1a24;border-color:#d9b979}
+.hero-lux .btn.btn-ghost{background:transparent;color:#f4ecdc;border-color:rgba(244,236,220,.5)}
+.hero-lux .hero-photo{position:absolute;inset:0 0 0 38%;margin:0;max-width:none;z-index:0}
+.hero-lux .hero-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 30%;-webkit-mask-image:linear-gradient(to right,transparent 0,#000 40%,#000 90%,transparent 100%);mask-image:linear-gradient(to right,transparent 0,#000 40%,#000 90%,transparent 100%)}
+@media (max-width:860px){.hero-lux{align-items:end;min-height:min(92vh,760px)}.hero-lux .hero-photo{inset:0 0 38% 0}.hero-lux .hero-photo img{-webkit-mask-image:linear-gradient(to bottom,#000 55%,transparent 100%);mask-image:linear-gradient(to bottom,#000 55%,transparent 100%)}.hero-lux .hero-grid{padding-top:46vh}}
+/* Menu panel when collapsed: one column, sign-in and language first, one group open at a time */
+.site-nav.open>ul.nav-groups{display:block}
+.site-nav.open .head-actions{order:-1;margin:0 0 6px}
+html.nav-collapsed .site-nav.open>ul.nav-groups{display:block}
+html.nav-collapsed .site-nav.open .head-actions{order:-1}
+/* Yoga hero on phones: the face stays above the title */
+@media (max-width:800px){.ylux-hero .ylux-media{bottom:auto;height:62%}.ylux-hero{min-height:min(96vh,820px)}.f-hero{--focus:50% 22%}.ylux-hero .ylux-in{padding-top:58vh}}
+.learn .hero-lux .kicker,.learn .hero.hero-lux p.kicker{color:#d9b979}
