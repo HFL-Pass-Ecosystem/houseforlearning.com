@@ -295,7 +295,7 @@ body:has(.site-nav.open) .cookie{display:none}
 .lang-x{display:inline-flex;align-items:center;justify-content:center;padding:0}.lang-x svg{width:18px;height:18px;display:block}
 .lang-sec{list-style:none;padding:12px 10px 6px;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line)}
 
-/* ---------- House for Learning tokens (design-system/own-build/tokens-ahfl-learn.css) ---------- */
+/* ---------- House for Learning tokens (own design tokens) ---------- */
 .learn{
   --bg:#f3f0e6; --surface:#fffdf7; --panel:rgba(233,227,210,.55); --ink:#1d3550; --muted:#4f6276; --line:#ddd5c2;
   --acc:#2b5d8a; --acc-strong:#23507a; --on-acc:#ffffff; --hl:#d0732f; --kick:#a64e10;

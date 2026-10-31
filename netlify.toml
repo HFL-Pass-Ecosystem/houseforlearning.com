@@ -1,4 +1,4 @@
-# Netlify: the House for Learning (houseforlearning.com) site. AHFL side only.
+# Netlify: the House for Learning (houseforlearning.com) site.
 # Frontend = the site/ folder (static pages). Middleware = netlify/functions (small server code at /api/...).
 # Backend = a Supabase Postgres database (see supabase/schema.sql). Secrets live in Netlify environment
 # variables, never in this repository. Free tiers of Netlify and Supabase cover this site.
