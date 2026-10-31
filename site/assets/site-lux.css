@@ -63,3 +63,4 @@ a{text-underline-offset:3px}
 .lux-list li{padding:16px 0;border-top:1px solid var(--line);font-size:18px;line-height:1.5}
 @media (max-width:820px){.split2,.lux-steps,.lux-list{grid-template-columns:minmax(0,1fr)}}
 .flip.calm-flip{min-height:340px}.flip.calm-flip .flip-f p,.flip.calm-flip .flip-b p{font-size:1rem}
+.flip.calm-flip{min-height:380px}.flip.calm-flip .flip-f,.flip.calm-flip .flip-b{padding:24px 24px 36px}
