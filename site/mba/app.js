@@ -26,7 +26,10 @@
   }
   function band(g) { for (var i = 0; i < M.bands.length; i++) if (g >= M.bands[i][1]) return M.bands[i][0]; return ""; }
 
-  function layout(sideHtml, html) { side.innerHTML = sideHtml; main.innerHTML = html; document.querySelectorAll("[data-w]").forEach(function (b) { b.style.width = b.getAttribute("data-w") + "%"; }); }
+  function layout(sideHtml, html) {
+    side.innerHTML = sideHtml; main.innerHTML = html;
+    Array.prototype.forEach.call(main.querySelectorAll("[data-w]"), function (e) { e.style.width = e.getAttribute("data-w") + "%"; });
+  }
   function sideFor(c, cur) {
     var items = [["", "Home"], ["/announcements", "Announcements"], ["/modules", "Modules"], ["/assignments", "Assignments"], ["/discussions", "Discussions"], ["/grades", "Grades"], ["/syllabus", "Syllabus"], ["/people", "People"]];
     return "<h3>" + esc(c.id) + "</h3>" + items.map(function (i) {
@@ -54,7 +57,7 @@
     ev.sort(function (a, b) { return a.t - b.t; });
     var list = ev.filter(function (e) { return e.t >= now; }).slice(0, n);
     if (!list.length) list = ev.slice(0, n);
-    return '<div class="card">' + list.map(function (e) { return '<div class="item flat"><a href="' + e.href + '">' + esc(e.txt) + "</a><span class='note'>" + fmt(e.t) + "</span></div>"; }).join("") + "</div>";
+    return '<div class="card">' + list.map(function (e) { return '<div class="item slim"><a href="' + e.href + '">' + esc(e.txt) + "</a><span class='note'>" + fmt(e.t) + "</span></div>"; }).join("") + "</div>";
   }
   function pCourses() {
     layout("", "<h1>Courses</h1><p>Twelve courses over six terms.</p>" + M.terms.map(function (t) {

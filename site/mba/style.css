@@ -64,5 +64,4 @@ label{display:block;font-weight:600;margin:10px 0 4px}
  .side h3{display:none}.side a{border:1px solid var(--line);flex:none}.side a.on{border-left:1px solid var(--line)}
  .cal div{min-height:60px;font-size:.62rem}.ev{white-space:normal}
 }
-
-.mt6{margin-top:.6em}.mt0{margin-top:0}.flat{padding:6px 0;border:0}
+.mt0{margin-top:0}.mt6{margin-top:.6em}.item.slim{padding:6px 0;border:0}
