@@ -68,7 +68,7 @@
     return '<div class="card"><div class="banner"></div><strong>' + c.id + "</strong><a href=\"#/c/" + c.id + '">' + esc(c.title) + "</a><span class='note'>" + esc(c.blurb) + '</span><div class="bar"><i data-w="' + pct(c) + '"></i></div><span class="note">' + pct(c) + "% complete</span></div>";
   }
   function pCourse(c) {
-    layout(sideFor(c, ""), crumb(c) + "<h1>" + esc(c.title) + "</h1><p>" + esc(c.blurb) + "</p>" +
+    layout(sideFor(c, ""), crumb(c) + "<h1>" + esc(c.title) + "</h1><p>" + esc(c.blurb) + "</p>" + '<p><button type="button" class="alt" data-lang-toggle aria-controls="lang-panel" aria-expanded="false">Choose language</button> <span class="note">English is the official text; other languages are machine translation.</span></p>' +
       '<div class="card"><div class="banner"></div><h2 class="mt6">You will be able to</h2><ul>' + c.outcomes.map(function (o) { return "<li>" + esc(o) + "</li>"; }).join("") + "</ul>" +
       "<p><strong>Tools:</strong> " + c.tools.map(function (t) { return '<span class="pill">' + esc(t) + "</span>"; }).join("") + "</p>" +
       "<p><strong>Runs:</strong> " + fmt(weekStart(c, 1)) + " to " + fmt(weekStart(c, 8) + 6 * DAY) + "</p>" +
@@ -109,7 +109,7 @@
     var w = c.weeks[n - 1]; if (!w) return notFound();
     var done = S.done[wkey(c, n)];
     layout(sideFor(c, "/modules"), crumb(c, "Week " + n) + "<h1>Week " + n + ": " + esc(w[0]) + "</h1><p class='note'>" + fmt(weekStart(c, n)) + " to " + fmt(weekStart(c, n) + 6 * DAY) + "</p>" +
-      deepHtml(c, n, w) +
+      '<p><button type="button" class="alt" data-lang-toggle aria-controls="lang-panel" aria-expanded="false">Choose language</button> <span class="note">English is the official text; other languages are machine translation.</span></p>' + deepHtml(c, n, w) +
       '<p><button id="doneBtn">' + (done ? "Mark as not done" : "Mark week as done") + '</button> <a class="btn alt" href="#/c/' + c.id + "/d/" + n + '">Go to discussion</a> ' +
       (n > 1 ? '<a class="btn alt" href="#/c/' + c.id + "/w/" + (n - 1) + '">Previous</a> ' : "") + (n < 8 ? '<a class="btn alt" href="#/c/' + c.id + "/w/" + (n + 1) + '">Next</a>' : "") + "</p>");
     document.getElementById("doneBtn").onclick = function () { S.done[wkey(c, n)] = !done; save(); pWeek(c, n); };
