@@ -256,7 +256,7 @@ def legal(kind):
                '<tr><th scope="row" data-label="Name">learn-cookie-choice</th><td data-label="Purpose">Remembers whether you pressed Accept or Reject on the notice</td><td data-label="How long">Until you clear your browser storage</td></tr></tbody></table></div>')
         sec = [
             ("none", "What we set", "<p>This site sets no analytics, advertising or tracking cookies, and shares nothing with outside partners. Your browser keeps only your own choices.</p>" + tbl),
-            ("fonts", "Typefaces", "<p>Our pages load typefaces from a public font service, which receives your browser’s address in order to send the fonts. It sets no cookies on this site.</p>"),
+            ("fonts", "Typefaces", "<p>Our typefaces are served from this site itself. Nothing is fetched from an outside font service, so no one else learns that you visited.</p>"),
             ("optional", "If optional cookies are ever added", "<p>They stay off unless you accept, and this page will list them first.</p>"),
             ("choose", "Change your choice", '<p>Use <strong>Manage preferences</strong> in the notice at the foot of the page, or clear this site’s data in your browser to be asked again.</p>'),
             ("more", "More", '<p>Read the <a href="privacy.html">privacy notice</a> for what we collect and your rights, or write to <a href="mailto:' + MAIL + '">' + MAIL + "</a>.</p>"),

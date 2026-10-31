@@ -26,7 +26,7 @@ services:
         value: SAMEORIGIN
       - path: /*
         name: Content-Security-Policy
-        value: "default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://api.open-meteo.com https://geocoding-api.open-meteo.com https://archive-api.open-meteo.com https://date.nager.at https://api.wikimedia.org; form-action 'self'; frame-ancestors 'self'; base-uri 'self'; object-src 'none'"
+        value: "default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self' https://api.open-meteo.com https://geocoding-api.open-meteo.com https://archive-api.open-meteo.com https://date.nager.at https://api.wikimedia.org; form-action 'self'; frame-ancestors 'self'; base-uri 'self'; object-src 'none'"
     routes:
       # the yoga chapter's old address
       - type: redirect
