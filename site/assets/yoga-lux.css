@@ -1,0 +1,29 @@
+/* Yoga page: cinematic hero and photo bands. Media drops into .ylux-media */
+.ylux{--lx-ink:#0c1a24;--lx-gold:#d9b979;--lx-cream:#f4ecdc;--lx-serif:"Cormorant Garamond","Literata",Georgia,serif;position:relative;color:var(--lx-cream);background:var(--lx-ink);overflow:hidden;isolation:isolate}
+.ylux-hero{min-height:min(92vh,880px);display:grid;align-items:end}
+.ylux-media{position:absolute;inset:0;z-index:-2;background:radial-gradient(120% 90% at 72% 18%,#e9a85c 0%,#b8683a 18%,#4a3a46 42%,#12232f 72%,#0a141c 100%)}
+.ylux-media img,.ylux-media video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:var(--focus,50% 40%)}
+.ylux-media video{opacity:0;transition:opacity 1.6s ease}
+.ylux-media video.is-playing{opacity:1}
+.ylux-media img{transform:scale(1.04);animation:ylux-drift 28s ease-in-out infinite alternate}
+@keyframes ylux-drift{to{transform:scale(1.12) translate3d(-1.2%,-1%,0)}}
+.ylux::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(to top,rgba(8,16,22,.88) 0%,rgba(8,16,22,.45) 38%,rgba(8,16,22,.12) 70%,rgba(8,16,22,.35) 100%)}
+.ylux-in{max-width:1180px;margin:0 auto;width:100%;box-sizing:border-box;padding:0 max(20px,env(safe-area-inset-left,0px)) clamp(48px,9vh,110px) max(20px,env(safe-area-inset-left,0px))}
+.ylux-kick{font:500 12px/1 var(--mono,monospace);letter-spacing:.32em;text-transform:uppercase;color:var(--lx-gold);margin:0 0 22px}
+.ylux h1{font-family:var(--lx-serif);font-weight:500;font-size:clamp(46px,9vw,124px);line-height:.98;letter-spacing:-.01em;margin:0 0 20px;text-wrap:balance;max-width:14ch}
+.ylux h1 em{font-style:italic;color:var(--lx-gold)}
+.ylux-lead{font-family:var(--lx-serif);font-size:clamp(19px,2.2vw,26px);line-height:1.45;max-width:46ch;margin:0 0 30px;color:rgba(244,236,220,.92)}
+.ylux-cta{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+.ylux-btn{display:inline-block;padding:15px 34px;border:1px solid var(--lx-gold);color:var(--lx-cream);text-decoration:none;letter-spacing:.18em;text-transform:uppercase;font:500 12px/1 var(--mono,monospace);transition:background .6s ease,color .6s ease}
+.ylux-btn:hover,.ylux-btn:focus-visible{background:var(--lx-gold);color:var(--lx-ink)}
+.ylux-btn.ghost{border-color:rgba(244,236,220,.4)}
+.ylux-sa{font-family:var(--lx-serif);font-style:italic;color:var(--lx-gold);margin:26px 0 0;font-size:18px}
+.ylux-in>*{opacity:0;transform:translateY(14px);animation:ylux-in 1.4s cubic-bezier(.2,.6,.2,1) forwards}
+.ylux-in>*:nth-child(2){animation-delay:.25s}.ylux-in>*:nth-child(3){animation-delay:.5s}.ylux-in>*:nth-child(4){animation-delay:.75s}.ylux-in>*:nth-child(5){animation-delay:1s}
+@keyframes ylux-in{to{opacity:1;transform:none}}
+.ylux-band{min-height:clamp(320px,56vh,640px);display:grid;align-items:center}
+.ylux-band .ylux-in{padding-block:70px}
+.ylux-band h2{font-family:var(--lx-serif);font-weight:500;font-size:clamp(32px,5vw,64px);line-height:1.05;margin:0 0 14px;max-width:18ch;text-wrap:balance}
+.ylux-band p{font-family:var(--lx-serif);font-size:clamp(18px,2vw,24px);max-width:44ch;line-height:1.5;margin:0}
+.ylux-band .ylux-in>*{animation:none;opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.ylux-media img{animation:none;transform:none}.ylux-in>*{animation:none;opacity:1;transform:none}.ylux-media video{display:none}}
