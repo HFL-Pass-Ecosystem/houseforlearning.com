@@ -1,0 +1,52 @@
+/* Whole-site luxury layer. Base surface is L156 (Almost Ivory, #F2EEE2); ink and gold come from the yoga page. */
+:root,html body,html body.learn{--bg:#F2EEE2;--surface:#FBF8EF;--panel:rgba(228,219,196,.45);--line:#d9d0b8;--ink:#14222e;--muted:#4c5a66;--acc:#14222e;--acc-strong:#0c1a24;--on-acc:#F2EEE2;--hl:#b8934a;--kick:#8a6a2c;--head-bg:rgba(242,238,226,.94);
+  --dark-bg:#0c1a24;--dark-ink:#f4ecdc;--dark-muted:#bdb29b;--dark-kicker:#d9b979;--foot-bg:#0c1a24;--foot-ink:#f4ecdc;--foot-muted:#a79d87;--foot-acc:#d9b979;
+  --lx-display:"Cormorant Garamond","Literata",Georgia,serif;--r:2px;--r-lg:2px;--rb:0}
+body,body.learn{background:#F2EEE2!important;background-image:none!important;color:var(--ink)}
+h1,h2,h3,.learn h1,.learn h2{font-family:var(--lx-display);font-weight:500;letter-spacing:.005em;text-wrap:balance}
+h1{font-size:clamp(40px,6vw,84px);line-height:1}
+.sec h2,.cta h2{font-size:clamp(30px,3.8vw,54px);line-height:1.06}
+.card h3{font-size:26px;line-height:1.1}
+.kicker,.learn .kicker,.learn .hero p.kicker{font:600 12px/1.3 var(--f-ui);letter-spacing:.26em;text-transform:uppercase;color:var(--kick)}
+.btn{border-radius:0;font:600 13px/1.2 var(--f-ui);letter-spacing:.16em;text-transform:uppercase;padding:14px 26px;background:var(--acc);color:var(--on-acc);border-color:var(--acc)}
+.btn:hover{background:var(--hl);border-color:var(--hl);color:#0c1a24}
+.btn.btn-ghost,.btn-ghost{background:transparent;color:var(--ink);border-color:var(--ink)}
+.btn.btn-ghost:hover{background:var(--ink);color:#F2EEE2}
+.btn-sm{padding:9px 16px;font-size:12px}
+.card,.panel-card,.op-card{background:var(--surface);border:1px solid var(--line);border-radius:0;box-shadow:none}
+.card:hover{transform:none;box-shadow:none;border-color:var(--hl)}
+.card .tag,.tag{font:600 11px/1.3 var(--f-ui);letter-spacing:.2em;color:var(--kick)}
+.sec{padding:clamp(56px,8vw,112px) 0;border-top:0}
+.sec.alt{background:#EAE4D3}
+.wrap{max-width:1240px}
+/* page heroes: dark ink band with a soft amber glow, type only (a real photo goes in only when approved) */
+.hero:not(.hero-lux){background:radial-gradient(110% 120% at 78% 0%,rgba(217,185,121,.28) 0%,rgba(122,74,58,.2) 24%,transparent 58%),#0c1a24;color:#f4ecdc;padding:clamp(64px,9vw,128px) 0 clamp(48px,7vw,96px)}
+.hero:not(.hero-lux) h1{color:#f4ecdc;max-width:16ch;font-size:clamp(44px,6.4vw,96px)}
+.hero:not(.hero-lux) p{color:rgba(244,236,220,.86);font-size:clamp(17px,1.5vw,21px);max-width:58ch}
+.hero:not(.hero-lux) .kicker,.learn .hero:not(.hero-lux) p.kicker{color:#d9b979}
+.hero:not(.hero-lux) .btn{background:#d9b979;color:#0c1a24;border-color:#d9b979}
+.hero:not(.hero-lux) .btn.btn-ghost{background:transparent;color:#f4ecdc;border-color:rgba(244,236,220,.5)}
+.hero:not(.hero-lux) a:not(.btn){color:#d9b979}
+.hero:not(.hero-lux) .buddy{background:transparent;border:0;border-left:1px solid rgba(217,185,121,.5);border-radius:0;padding:4px 0 4px 16px;box-shadow:none;color:#f4ecdc}
+.hero:not(.hero-lux) .hero-grid{grid-template-columns:minmax(0,1fr)}
+/* stat strip and on-this-page bar */
+.stats-strip,.statbar{background:#FBF8EF}
+.site-head{border-bottom:1px solid var(--line)}
+/* forms and tables */
+input,select,textarea{border-radius:0}
+.cta{background:#0c1a24}
+.cta .btn{background:#d9b979;color:#0c1a24;border-color:#d9b979}
+.cta .btn.btn-ghost{background:transparent;color:#f4ecdc;border-color:rgba(244,236,220,.5)}
+.site-foot{background:#0c1a24}
+h1,h2,h3,.hero h1,.sec h2,.cta h2,.card h3,.learn h1,.learn h2,.learn h3{font-family:"Cormorant Garamond","Literata",Georgia,serif!important}
+.learn .card[data-hue],.learn .flip[data-hue] .flip-face{border-top:1px solid var(--line)}
+.learn .card[data-hue]:hover{border-color:var(--hl)}
+.site-nav .head-actions a.btn{background:#14222e;color:#F2EEE2;border-color:#14222e;padding:9px 16px}
+.enh-toc a[aria-current="true"]{background:#14222e;border-color:#14222e;color:#F2EEE2}
+.enh-toc a{border-radius:0}
+.sec .kicker::before{background:var(--hl)}
+.sec .kicker{color:var(--kick)}
+.sec h2{margin-bottom:.4em}
+.card p,.sec p{font-size:17px;line-height:1.65}
+.pager-link{border-radius:0}
+a{text-underline-offset:3px}
