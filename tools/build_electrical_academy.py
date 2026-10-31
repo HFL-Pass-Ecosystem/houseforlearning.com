@@ -110,15 +110,15 @@ def lesson_body(L):
     b = f'<section class="hero" aria-labelledby="h1"><div class="wrap hero-grid"><div><p class="kicker">electrical academy · lesson {L["n"]} · about {L["mins"]} minutes</p><h1 id="h1">{L["title"]}</h1><p>{L["lede"]}</p>{SAFE}</div></div></section>\n'
     for k, (h, paras) in enumerate(L['secs']):
         items = paras if len(paras) < 3 else None
-        inner = ''.join(f'<p>{p}</p>' for p in paras) if items else '<ul class="lux-list">' + ''.join(f'<li>{p}</li>' for p in paras) + '</ul>'
+        inner = ''.join(f'<p>{p}</p>' for p in paras) if items else '<ul class="lux-list one">' + ''.join(f'<li>{p}</li>' for p in paras) + '</ul>'
         b += f'<section class="sec{" alt" if k % 2 else ""}" aria-labelledby="s{k}"><div class="wrap"><div class="sec-head"><h2 id="s{k}">{h}</h2></div><div class="sec-body">{inner}</div></div></section>\n'
     qs = ''.join(f'<details class="lux-panel"><summary>{q}</summary><p>{a}</p></details>' for q, a in L['check'])
-    b += f'<section class="sec" aria-labelledby="chk"><div class="wrap"><div class="sec-head"><p class="kicker">check yourself</p><h2 id="chk">Three quick questions</h2></div><div class="sec-body"><p>Think of your answer first, then open the question.</p>{qs}{BTNS}</div></div></section>\n'
+    b += f'<section class="sec" aria-labelledby="chk"><div class="wrap"><div class="sec-head"><p class="kicker">check yourself</p><h2 id="chk">Three quick questions</h2></div><div class="sec-body"><p>Think of your answer first, then open the question.</p>{qs}{SAFE}{BTNS}</div></div></section>\n'
     return b
 
 SEGMENTS = [
  ('Power', [('Generation', ['Electric utility power generation']), ('Transmission and distribution', ['Electric distribution up to 60 kV']), ('Other utilities', ['Gas utilities', 'Other utilities'])]),
- ('Industry', [('Oil and gas', ['Oil and gas', 'Petrochemicals', 'Chemicals']), ('Process industry', ['Water and wastewater', 'Mining and minerals', 'Cement and glass', 'Metals', 'Pulp and paper']), ('Discrete and hybrid industry', ['Food and beverage', 'Pharmaceuticals and cosmetics', 'Electronics and semiconductors', 'Automotive', 'Rubber and plastics', 'Printing', 'Textile', 'Agriculture and forestry', 'Machinery and electrical equipment', 'Waste and recycling', 'Other industries'])]),
+ ('Industry', [('Oil and gas', ['Oil and gas production', 'Petrochemicals', 'Chemicals']), ('Process industry', ['Water and wastewater', 'Mining and minerals', 'Cement and glass', 'Metals', 'Pulp and paper']), ('Discrete and hybrid industry', ['Food and beverage', 'Pharmaceuticals and cosmetics', 'Electronics and semiconductors', 'Automotive', 'Rubber and plastics', 'Printing', 'Textile', 'Agriculture and forestry', 'Machinery and electrical equipment', 'Waste and recycling', 'Other industries'])]),
  ('Transport and infrastructure', [('Transport', ['Land transport', 'Logistics', 'Air transport', 'Electric vehicle charging', 'Cranes', 'Marine', 'Railway']), ('Buildings', ['Residential buildings', 'Commercial and institutional buildings', 'Industrial buildings', 'Building infrastructure', 'Real estate', 'Hospitals', 'Education and science', 'Data centres'])]),
 ]
 BA_SOLUTIONS = ['Smart home systems', 'Guest-room management', 'Lighting management', 'Energy management', 'Door entry', 'Wiring accessories']
