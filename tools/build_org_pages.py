@@ -254,7 +254,10 @@ def sectors():
                 rel.append((href, f'{ct}'))
         rel = rel[:12]
         m = hero('sectors we serve', title, short, btn('join.html', 'Join') + btn('partner.html', 'Partner with us', True))
-        m += split('what it covers', 'In this sector', rest, lead=lead)
+        if rest:
+            m += split('what it covers', 'In this sector', rest, lead=lead)
+        else:
+            m += split('what it covers', 'In this sector', f'<p class="o-lead">{lead}</p>')
         if rel:
             m += split('learn in this sector', 'Related courses',
                        '<ul class="o-mini">' + ''.join(f'<li><a href="{h}">{E(t)}</a></li>' for h, t in rel) + '</ul>'
