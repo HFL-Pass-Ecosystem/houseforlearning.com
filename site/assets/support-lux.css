@@ -1,0 +1,120 @@
+/* Support, FAQ, safety, legal and contact pages. Sits on site-lux.css: ivory L156 base, ink bands, Cormorant, hairlines. */
+.sx{--sx-gold:#b8934a}
+.sx .sx-hero{padding:clamp(88px,12vw,168px) 0 clamp(56px,8vw,112px)}
+.sx .sx-hero h1{max-width:15ch;font-size:clamp(46px,7vw,108px);line-height:.98}
+.sx .sx-hero p.sx-lead{font-family:"Cormorant Garamond","Literata",Georgia,serif;font-size:clamp(21px,2.2vw,30px);line-height:1.4;max-width:42ch;margin:0 0 32px}
+.sx .sx-hero p.meta{color:#d9b979;font:600 12px/1 var(--f-ui);letter-spacing:.22em;text-transform:uppercase;margin:-12px 0 28px}
+.sx .sx-hero .ctas{display:flex;flex-wrap:wrap;gap:14px}
+/* page index strip */
+.sx-index{background:#FBF8EF;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.sx-index ol{list-style:none;margin:0;padding:0;display:flex;gap:0;overflow-x:auto;scrollbar-width:none}
+.sx-index ol::-webkit-scrollbar{display:none}
+.sx-index a{display:block;padding:18px 22px 16px;font:600 12px/1 var(--f-ui);letter-spacing:.18em;text-transform:uppercase;color:var(--ink);text-decoration:none;white-space:nowrap;border-bottom:2px solid transparent}
+.sx-index a:hover,.sx-index a:focus-visible{border-bottom-color:var(--sx-gold)}
+.sx-index li:first-child a{padding-left:0}
+/* editorial rows: title left, content right */
+.sx-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(28px,6vw,96px);align-items:start}
+.sx-side{position:sticky;top:84px}
+.sx-side h2{font-size:clamp(34px,4.2vw,60px);line-height:1.02;margin:10px 0 0}
+.sx-body>*:first-child{margin-top:0}
+.sx-more{margin-top:28px;font:600 12px/1 var(--f-ui);letter-spacing:.18em;text-transform:uppercase}
+.sx-more a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--sx-gold);padding-bottom:4px}
+/* ruled lists */
+.sx-list{list-style:none;margin:0;padding:0}
+.sx-list li{border-top:1px solid var(--line);padding:26px 0 24px;display:grid;gap:6px}
+.sx-list li:last-child{border-bottom:1px solid var(--line)}
+.sx-list h3{font-size:clamp(28px,2.8vw,38px);line-height:1.05;margin:0}
+.sx-list p{margin:0;color:var(--muted);max-width:56ch}
+.sx-tag{font:600 11px/1 var(--f-ui);letter-spacing:.22em;text-transform:uppercase;color:var(--kick)}
+.sx-plain{list-style:none;margin:0 0 20px;padding:0}
+.sx-plain li{border-top:1px solid var(--line);padding:16px 0;font-size:18px;line-height:1.55;max-width:62ch}
+.sx-plain li:last-child{border-bottom:1px solid var(--line)}
+.sx-cols{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 clamp(20px,4vw,48px)}
+.sx-cols li{border-top:1px solid var(--line);padding:16px 0;font-size:18px;line-height:1.5}
+.sx-cols em{color:var(--muted)}
+.sx-steps{list-style:none;margin:0;padding:0;counter-reset:sx}
+.sx-steps li{counter-increment:sx;border-top:1px solid var(--line);padding:22px 0 22px 64px;position:relative}
+.sx-steps li:last-child{border-bottom:1px solid var(--line)}
+.sx-steps li::before{content:counter(sx,decimal-leading-zero);position:absolute;left:0;top:26px;font:500 clamp(28px,3vw,40px)/1 "Cormorant Garamond",serif;color:var(--sx-gold)}
+.sx-steps h3{font-size:clamp(26px,2.6vw,34px);margin:0 0 4px}
+.sx-steps p{margin:0;color:var(--muted);max-width:56ch}
+/* FAQ */
+.sx-find{background:#FBF8EF;border-bottom:1px solid var(--line);padding:clamp(24px,4vw,40px) 0}
+.sx-find label{display:block;font:600 12px/1 var(--f-ui);letter-spacing:.2em;text-transform:uppercase;color:var(--kick);margin-bottom:12px}
+.sx-find input{width:100%;max-width:640px;font:400 22px/1.3 "Cormorant Garamond",serif;background:transparent;border:0;border-bottom:1px solid var(--ink);padding:10px 0;color:var(--ink);border-radius:0}
+.sx-find input:focus{outline:none;border-bottom:2px solid var(--sx-gold)}
+.sx-count{margin:10px 0 0;font-size:14px;color:var(--muted);min-height:1.4em}
+.sx-faq details{border-top:1px solid var(--line);background:transparent;border-radius:0}
+.sx-faq details:last-child{border-bottom:1px solid var(--line)}
+.sx-faq summary{cursor:pointer;list-style:none;padding:22px 44px 22px 0;position:relative;font:500 clamp(23px,2.3vw,30px)/1.15 "Cormorant Garamond",serif;color:var(--ink)}
+.sx-faq summary::-webkit-details-marker{display:none}
+.sx-faq summary::after{content:"+";position:absolute;right:4px;top:18px;font:400 32px/1 "Cormorant Garamond",serif;color:var(--sx-gold);transition:transform .5s ease}
+.sx-faq details[open] summary::after{transform:rotate(45deg)}
+.sx-faq details p{padding:0 44px 26px 0;margin:0;font-size:18px;line-height:1.65;color:var(--muted);max-width:60ch}
+.sx-none{padding:48px 0;text-align:center}
+/* safety */
+.sx-posters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(16px,3vw,32px)}
+.sx-poster{border:1px solid var(--line);background:var(--surface);padding:clamp(22px,3vw,36px)}
+.sx-poster h3{font-size:clamp(30px,3vw,42px);margin:0 0 14px}
+.sx-poster ol{list-style:none;counter-reset:p;margin:0 0 18px;padding:0}
+.sx-poster li{counter-increment:p;border-top:1px solid var(--line);padding:12px 0 12px 44px;position:relative;font-size:18px}
+.sx-poster li::before{content:counter(p);position:absolute;left:0;top:10px;font:500 26px/1 "Cormorant Garamond",serif;color:var(--sx-gold)}
+.sx-learn{margin:0;font-size:15px;line-height:1.5;color:var(--muted);max-width:none}
+.sx-learn span{display:block;font:600 11px/1 var(--f-ui);letter-spacing:.2em;text-transform:uppercase;color:var(--kick);margin-bottom:6px}
+.sx-seven{list-style:none;counter-reset:s7;margin:0 0 24px;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 clamp(20px,4vw,48px)}
+.sx-seven li{counter-increment:s7;border-top:1px solid var(--line);padding:16px 0 16px 52px;position:relative;font-size:19px}
+.sx-seven li::before{content:counter(s7);position:absolute;left:0;top:12px;font:500 32px/1 "Cormorant Garamond",serif;color:var(--sx-gold)}
+.sx-signs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(16px,3vw,40px)}
+.sx-sign h3{display:flex;justify-content:space-between;align-items:baseline;font-size:clamp(28px,2.6vw,36px);margin:0 0 8px;border-bottom:1px solid var(--ink);padding-bottom:8px}
+.sx-sign h3 small{font:600 12px/1 var(--f-ui);letter-spacing:.2em;color:var(--kick)}
+.sx-sign ul{list-style:none;margin:0;padding:0}
+.sx-sign li{padding:9px 0;border-bottom:1px solid var(--line);font-size:17px}
+.sx-note{margin-top:28px;color:var(--muted);max-width:60ch}
+/* legal */
+.sx-legal{padding-top:clamp(40px,6vw,88px)}
+.sx-legal-grid{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,8fr);gap:clamp(28px,6vw,96px);align-items:start}
+.sx-toc{position:sticky;top:84px}
+.sx-toc ol{list-style:none;margin:12px 0 0;padding:0;counter-reset:t}
+.sx-toc li{counter-increment:t;border-top:1px solid var(--line)}
+.sx-toc li:last-child{border-bottom:1px solid var(--line)}
+.sx-toc a{display:block;padding:10px 0 10px 34px;position:relative;font-size:15px;line-height:1.35;color:var(--ink);text-decoration:none}
+.sx-toc a::before{content:counter(t,decimal-leading-zero);position:absolute;left:0;top:11px;font:600 11px/1.6 var(--f-ui);letter-spacing:.1em;color:var(--kick)}
+.sx-toc a:hover{color:var(--kick)}
+.sx-clause{padding:0 0 clamp(28px,4vw,48px);margin:0 0 clamp(28px,4vw,48px);border-bottom:1px solid var(--line);scroll-margin-top:84px}
+.sx-clause:last-child{border-bottom:0}
+.sx-clause h2{font-size:clamp(30px,3.4vw,46px);line-height:1.05;margin:0 0 14px}
+.sx-clause p,.sx-clause li{max-width:64ch}
+.sx-clause .table-wrap{overflow-x:auto;margin:18px 0}
+.sx-clause table{border-collapse:collapse;width:100%;font-size:16px}
+.sx-clause caption{text-align:left;font:600 11px/1 var(--f-ui);letter-spacing:.2em;text-transform:uppercase;color:var(--kick);padding-bottom:12px}
+.sx-clause th,.sx-clause td{text-align:left;padding:12px 14px 12px 0;border-top:1px solid var(--line);vertical-align:top}
+.sx-clause thead th{border-top:1px solid var(--ink);font:600 11px/1 var(--f-ui);letter-spacing:.16em;text-transform:uppercase}
+/* contact */
+.sx-contact-grid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,4fr);gap:clamp(28px,6vw,80px);align-items:start}
+.sx-formcol h2{font-size:clamp(34px,4vw,56px);margin:10px 0 24px}
+.sx-contact form.contact{background:var(--surface);border:1px solid var(--line);border-radius:0;padding:clamp(20px,3.4vw,40px);max-width:none}
+.sx-contact label{font:600 12px/1.3 var(--f-ui);letter-spacing:.14em;text-transform:uppercase;color:var(--ink)}
+.sx-contact .opt{text-transform:none;letter-spacing:0;font-weight:400}
+.sx-contact .check{text-transform:none;letter-spacing:0;font-weight:400}
+.sx-contact .check span{font:400 16px/1.5 var(--f-body)}
+.sx-contact input[type=text],.sx-contact input[type=email],.sx-contact select,.sx-contact textarea{background:transparent;border:0;border-bottom:1px solid var(--ink);border-radius:0;padding:10px 0;font-size:18px}
+.sx-contact input:focus,.sx-contact select:focus,.sx-contact textarea:focus{outline:none;border-bottom:2px solid var(--sx-gold)}
+.sx-contact textarea{border:1px solid var(--line);padding:12px;min-height:170px}
+.sx-aside{background:#0c1a24;color:#f4ecdc;padding:clamp(24px,3.4vw,44px);position:sticky;top:84px}
+.sx-aside h3{font-family:"Cormorant Garamond",serif;font-weight:500;font-size:clamp(28px,2.8vw,38px);margin:0 0 14px;color:#f4ecdc}
+.sx-aside h3:not(:first-child){margin-top:32px}
+.sx-aside a{color:#d9b979}
+.sx-aside dt{font:600 11px/1 var(--f-ui);letter-spacing:.2em;text-transform:uppercase;color:#d9b979;margin-top:16px}
+.sx-aside dd{margin:6px 0 0}
+.sx-aside .sx-plain li{border-color:rgba(244,236,220,.22);font-size:16px;padding:12px 0}
+.sx-aside .sx-more a{color:#f4ecdc;border-color:#d9b979}
+@media (max-width:900px){
+.sx-grid,.sx-legal-grid,.sx-contact-grid{grid-template-columns:minmax(0,1fr)}
+.sx-side,.sx-toc,.sx-aside{position:static}
+.sx-toc ol{display:none}
+.sx-cols,.sx-posters,.sx-seven,.sx-signs{grid-template-columns:minmax(0,1fr)}
+.sx-index{position:static}
+.sx .sx-hero{padding:72px 0 48px}
+}
+@media (prefers-reduced-motion:reduce){.sx-faq summary::after{transition:none}}
+.sx-aside dl.details{display:block;margin:0}.sx-aside dl.details dt,.sx-aside dl.details dd{display:block;width:auto}
