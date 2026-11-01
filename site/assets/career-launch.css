@@ -1,0 +1,43 @@
+.cl{--paper:#F6F1E7;--page:#FFFDF8;--ink:#1B1A17;--muted:#6A645A;--line:#DED6C6;--gold:#9A7424;--gold-soft:#F1E6C8;--deep:#14231F;--deep-ink:#EFE8D6;--good:#2E6B4F;
+ ;--serif:"Literata",Georgia,serif;--sans:system-ui,"Segoe UI",Roboto,sans-serif;background:var(--paper);color:var(--ink);font:17px/1.7 var(--serif);padding:8px 0 40px}.cl *{box-sizing:border-box}
+.cl a{color:var(--gold)}
+.cl .wrap{max-width:920px;margin:0 auto}
+.cl .hero{background:var(--deep);color:var(--deep-ink);border-radius:14px;padding:clamp(28px,6vw,64px);margin:8px 0 28px}
+.cl .eyebrow{font:600 .72rem/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.cl h1{font:400 clamp(2.1rem,6vw,3.8rem)/1.08 var(--serif);margin:12px 0 10px;text-wrap:balance;letter-spacing:-.01em}
+.cl h2{font:400 clamp(1.4rem,3.5vw,1.9rem)/1.2 var(--serif);margin:36px 0 10px}
+.cl .lede{max-width:56ch;opacity:.9;margin:0}
+.cl .credit{font:400 .85rem var(--sans);color:var(--muted);margin:14px 0 0}
+.cl .hero .credit{color:var(--deep-ink);opacity:.75}
+.cl .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.cl a.lesson{display:grid;gap:6px;text-decoration:none;color:inherit;background:var(--page);border:1px solid var(--line);border-top:3px solid var(--gold);border-radius:8px;padding:20px 22px}
+.cl a.lesson:hover,.cl a.lesson:focus-visible{border-color:var(--gold);outline:none}
+.cl a.lesson .n{font:600 .72rem var(--sans);letter-spacing:.14em;color:var(--gold)}
+.cl a.lesson h3{font:400 1.3rem/1.25 var(--serif);margin:0}
+.cl a.lesson p{margin:0;color:var(--muted);font:400 .85rem/1.5 var(--sans)}
+.cl .card{background:var(--page);border:1px solid var(--line);border-radius:10px;padding:clamp(18px,4vw,32px)}
+.cl ul.ideas{padding-left:1.2em;display:grid;gap:10px}
+.cl .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px;perspective:1200px}
+.cl .flip{position:relative;min-height:170px;cursor:pointer;border:0;background:none;padding:0;text-align:left;color:inherit}
+.cl .flip .in{position:absolute;inset:0;transition:transform 1s cubic-bezier(.45,.05,.35,1);transform-style:preserve-3d}
+.cl .flip.open .in{transform:rotateY(180deg)}
+.cl .face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:10px;padding:20px;display:flex;flex-direction:column;justify-content:center;border:1px solid var(--line)}
+.cl .face.f{background:var(--deep);color:var(--deep-ink);font:400 1.35rem/1.25 var(--serif)}
+.cl .face.f small{font:500 .68rem var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-top:10px}
+.cl .face.b{background:var(--gold-soft);transform:rotateY(180deg);font:400 1rem/1.5 var(--serif)}
+.cl .flip:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:10px}
+.cl .do{border-left:4px solid var(--gold);padding:6px 0 6px 18px;margin:8px 0}
+.cl .btn{display:inline-block;background:var(--ink);color:var(--page);border:0;border-radius:6px;padding:11px 18px;text-decoration:none;cursor:pointer;font:600 .85rem var(--sans)}
+.cl .btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.cl .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:space-between;margin-top:28px}
+.cl .note{font:400 .8rem/1.5 var(--sans);color:var(--muted)}
+.cl table{width:100%;border-collapse:collapse;font:400 .9rem var(--sans)}
+.cl th,.cl td{border-bottom:1px solid var(--line);padding:9px 8px;text-align:left}
+.cl th{font-weight:600}
+.cl .cert{border:2px solid var(--gold);border-radius:6px;padding:clamp(24px,6vw,64px);text-align:center;background:var(--page)}
+.cl .cert h1{font-size:clamp(1.8rem,5vw,3rem)}
+.cl .cert .name{font:italic 400 2rem var(--serif);border-bottom:1px solid var(--line);display:inline-block;padding:0 24px;margin:12px 0}
+.cl label{font:500 .8rem var(--sans)}
+.cl input[type=number]{width:110px;padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:var(--page);color:var(--ink);font:500 .9rem var(--sans)}
+@media (prefers-reduced-motion:reduce){.cl .flip .in{transition:none}}
+.cl .mt0{margin-top:0}.cl .xs{overflow-x:auto}.cl .m6{margin:6px 0}.cl .m16{margin:0 0 16px}.cl .wrap{max-width:920px;margin:0 auto;padding-inline:16px}.cl a.btn,.cl a.btn:visited{color:var(--page)}.cl .btn.ghost,.cl a.btn.ghost{color:var(--ink)}
