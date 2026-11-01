@@ -142,3 +142,5 @@ body.yoga-lux-page{--head-bg:rgba(12,26,36,.94);--ink:#f4ecdc;--muted:#bdb29b;--
 .yoga-lux-page .brand-logo{height:52px;width:auto;display:block}.yoga-lux-page .foot-logo{height:110px;width:auto;display:block;margin:0 0 12px}
 @media (max-width:760px){.yoga-lux-page .brand-logo{height:40px}}
 .sec.op-host{overflow-x:clip}.yoga-app{overflow-x:clip}#mphoto:not([src]){display:none}
+
+.ylux-vids{margin-top:1.4rem}.ylux-vids h3{font-size:1.1rem;margin:0 0 .7rem}.ylux-vids ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:.7rem}.ylux-vid{display:flex;flex-direction:column;gap:.2rem;min-height:44px;padding:.9rem 1rem;border:1px solid currentColor;border-radius:12px;text-decoration:none;font-weight:600}.ylux-vid span{font-weight:400;font-size:.85rem;opacity:.75}
