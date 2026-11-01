@@ -10,7 +10,9 @@ main{max-width:1180px;margin:0 auto;padding:32px 20px 80px}
 h1{font-family:Newsreader,Georgia,serif;font-weight:500;font-size:clamp(30px,5vw,48px);line-height:1.1;margin:.2em 0}
 h2{font-size:18px;margin:1.6em 0 .5em}
 p.lead{color:var(--mute);max-width:720px;font-size:17px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:24px}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:24px}
+@media(max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.grid{grid-template-columns:1fr}}
 .card{background:var(--card);border:1px solid var(--line);padding:22px;text-decoration:none;color:inherit;display:block}
 .card:hover{border-color:var(--blue)}
 .card svg{width:30px;height:30px;stroke:var(--blue);fill:none;stroke-width:1.5}
