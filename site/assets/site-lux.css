@@ -103,3 +103,9 @@ a{text-underline-offset:3px}
 .photo-band img{display:block;width:100%;height:auto}
 #how-partners .lux-steps{grid-template-columns:repeat(3,minmax(0,1fr))}
 @media(max-width:900px){#how-partners .lux-steps{grid-template-columns:minmax(0,1fr)}}
+
+/* go-live fixes */
+.yoga-app{overflow-x:clip}
+#mphoto:not([src]){display:none}
+.th-more{max-width:100%;white-space:normal}
+.sec.op-host{overflow-x:clip}

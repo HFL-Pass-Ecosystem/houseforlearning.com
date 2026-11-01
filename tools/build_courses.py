@@ -8,7 +8,7 @@ D = json.load(open(R / 'data' / 'catalogue.json'))
 e = html.escape
 # Wording the owner has not yet confirmed: change here only.
 L70, L20, L10 = 'Practice (70%)', 'Share and mentoring (20%)', 'Study (10%)'
-DRAFT = 'Draft course list. Chapters, wording and lengths may change before opening.'
+DRAFT = 'Planned course list. Chapters, wording and lengths may change before opening.'
 def outlines():
     out = {}
     src = (R / 'data' / 'lesson-outlines.md').read_text()

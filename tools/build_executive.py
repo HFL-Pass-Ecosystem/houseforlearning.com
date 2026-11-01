@@ -7,7 +7,7 @@ e = html.escape
 tpl = (S / 'catalogue.html').read_text()
 if 'name="robots"' not in tpl:
     tpl = tpl.replace('<meta name="theme-color"', '<meta name="robots" content="noindex">\n<meta name="theme-color"', 1)
-DRAFT = 'Draft. Names, lengths and credit values may change before opening. Credit values are being checked and are shown for orientation only.'
+DRAFT = 'Planned. Names, lengths and credit values may change before opening. Credit values are being checked and are shown for orientation only.'
 
 def page(fn, title, desc, h1, lead, body, crumbs):
     t = tpl
