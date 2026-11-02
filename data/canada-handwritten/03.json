@@ -13,7 +13,8 @@
     "Good fits: custom brackets, jigs and fixtures, spare parts no longer made, lightweight lattices, medical and dental models.",
     "Poor fits: thousands of identical simple parts.",
     "Compare three routes for one part: machining, moulding, printing; write cost per part at 10, 100 and 10,000 units.",
-    "Find customers: machine shops, repair depots, clinics, product designers, makers of low-volume equipment."
+    "Find customers: machine shops, repair depots, clinics, product designers, makers of low-volume equipment.",
+    "Check the build file with a slicer preview before printing, and keep the preview image with the job record."
    ],
    "ex": "A bracket costs 260 to machine, 12 to mould (tooling 18,000) and 150 to print. At 10 units printing wins; at 5,000 moulding wins.",
    "act": "Compare the three routes for two real parts and recommend one.",
@@ -26,7 +27,8 @@
     "Metal powders can burn or explode; follow storage, grounding and fire rules and keep safety data sheets.",
     "Resins and fumes need ventilation, gloves and eye protection; dispose of waste as hazardous if rules say so.",
     "Parts for aircraft, medical and pressure uses need certified material and process records; check the customer's standard before you quote.",
-    "Workplace safety boards require training records for machine operators."
+    "Workplace safety boards require training records for machine operators.",
+    "Name one test per load direction (pull, bend, impact) and run it on a printed coupon before you quote a safety-related part."
    ],
    "ex": "Row: 'Store titanium powder | provincial fire code and safety board | sealed containers, grounded, signage | before first delivery | inspection note'.",
    "act": "Build a rules table for a print shop of three people.",
@@ -39,7 +41,8 @@
     "Check the model: closed surface, wall thickness above the machine's minimum, overhangs supported.",
     "Orient the part to put strength along the load and minimise supports.",
     "Record layer height, material lot, temperature, speed and build time for each job.",
-    "Finish: remove supports, heat-treat or cure if needed, smooth, measure against the drawing."
+    "Finish: remove supports, heat-treat or cure if needed, smooth, measure against the drawing.",
+    "Ask each customer what happens if the part fails; use the answer to set inspection depth."
    ],
    "ex": "A bracket is printed flat and fails along layers at 600 N; printed upright it holds 1,100 N. Orientation doubled strength.",
    "act": "Print one part two ways, test and record results.",
@@ -52,7 +55,8 @@
     "Machine rate = machine cost / expected hours of use, plus power and maintenance.",
     "Add material used including supports and waste, post-processing labour and inspection.",
     "Add a failure allowance: if 1 in 10 builds fails, add about 11% to cost.",
-    "Quote price from cost plus target margin; show the customer a breakdown."
+    "Quote price from cost plus target margin; show the customer a breakdown.",
+    "Keep a monthly list of the three parts you could not print well and why; it guides your next training topic."
    ],
    "ex": "Cost per part: machine time 70, material 45, post-processing 25, inspection 10 = 150; failure allowance 1 in 10 builds adds about 17 = 167. Price 420 gives margin 253 (60%). Fixed cost 25,000 a month breaks even at about 99 parts. Teaching figures in CAD.",
    "act": "Build the quote sheet and test a 20% rise in failures.",
@@ -65,7 +69,8 @@
     "Give every part a job number tied to material lot and build file.",
     "Measure critical dimensions with calibrated tools and keep certificates.",
     "Schedule maintenance: laser or nozzle checks, filter changes, calibration prints.",
-    "Track first-pass yield: good parts divided by started parts."
+    "Track first-pass yield: good parts divided by started parts.",
+    "Time every job from file received to part shipped; the median is your honest lead time."
    ],
    "ex": "Weekly page: 38 jobs, first-pass yield 89%, top failure warping; action: add a heated enclosure.",
    "act": "Keep a 4-week shop log with yield.",
@@ -78,7 +83,8 @@
     "Offer a sample print of the customer's own part at low cost.",
     "Quote with lead time in days; fast turnaround is your edge.",
     "Partner with designers who can redesign parts for printing.",
-    "Join local manufacturing clusters and trade days."
+    "Join local manufacturing clusters and trade days.",
+    "Calibrate scales and callipers at fixed dates and log them."
    ],
    "ex": "Funnel: 25 shops visited, 9 samples, 4 repeat jobs.",
    "act": "Run a 4-week funnel and book 5 conversations.",
@@ -91,7 +97,8 @@
     "Print only designs you own or have a licence for.",
     "Refuse parts that can be misused to harm, such as weapons components.",
     "Keep customer files secure and delete on agreement.",
-    "Risk register: machine breakdown, powder incident, customer file leak, one big customer lost."
+    "Risk register: machine breakdown, powder incident, customer file leak, one big customer lost.",
+    "Offer one-page design tips so customers send better files."
    ],
    "ex": "Risk: 'Single machine breaks for 2 weeks | 3 x 4 | service contract and partner shop agreement | owner | quarterly'.",
    "act": "Write an eight-row risk register.",
@@ -104,7 +111,8 @@
     "Pilot 60 days with 3 customers and measures: yield, turnaround, margin.",
     "Stop rule: margin below 30% after 40 jobs means re-quote or stop.",
     "Add a second machine only when the first runs above 60% use.",
-    "Plan funding: manufacturing grants and equipment lease."
+    "Plan funding: manufacturing grants and equipment lease.",
+    "Send a feedback message three days after delivery and file the answer."
    ],
    "ex": "Result: 41 jobs, margin 44%, use 58%; decision: hold until use passes 60%.",
    "act": "Run the pilot and present review.",

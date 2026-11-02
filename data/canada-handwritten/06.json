@@ -13,7 +13,8 @@
     "Segments: personal, delivery vans, buses, trucks, small special vehicles.",
     "Customers: fleets, cities, households. Fleets care about total cost of ownership.",
     "Incentives and rules change; check federal and provincial programmes.",
-    "Pick one niche, such as delivery vans in cold climates."
+    "Pick one niche, such as delivery vans in cold climates.",
+    "Ride in or drive one electric vehicle for a week and note range loss in cold weather."
    ],
    "ex": "A delivery fleet compares 10-year cost: fuel and servicing saved offset a higher price.",
    "act": "Write a niche statement and customer profile.",
@@ -26,7 +27,8 @@
     "Federal motor-vehicle safety standards apply before a vehicle can be sold.",
     "Battery transport and storage have dangerous-goods rules.",
     "Provinces register and insure vehicles.",
-    "Warranty and recall rules protect buyers."
+    "Warranty and recall rules protect buyers.",
+    "Check charging time on a home plug, a public charger and a fast charger, and compare with spec."
    ],
    "ex": "Row: 'Sell a new vehicle | federal safety standards | certify and label | before first sale | certificate on file'.",
    "act": "Build a rules table for a small manufacturer.",
@@ -39,7 +41,8 @@
     "Define use: range, payload, charging time, cold performance.",
     "Size battery from energy per kilometre.",
     "Plan safety: crash structure, thermal management, battery protection.",
-    "Document specifications in one table."
+    "Document specifications in one table.",
+    "List the five parts that fail most often in fleet use and plan spares."
    ],
    "ex": "Need 250 km at 0.35 kWh per km → 87.5 kWh usable; add 20% for cold and ageing → 105 kWh pack.",
    "act": "Calculate pack size for a chosen use.",
@@ -52,7 +55,8 @@
     "Bill of materials: battery, motor, body, electronics.",
     "Assembly labour and facility cost per vehicle.",
     "Warranty provision.",
-    "Margin and break-even."
+    "Margin and break-even.",
+    "Study one crash test report and note what the structure does."
    ],
    "ex": "Price 48,000; cost 36,000; margin 12,000 (25%); fixed cost 3.1M per year → break-even 260 vehicles.",
    "act": "Build a bill of materials and break-even.",
@@ -65,7 +69,8 @@
     "Incoming inspection of parts.",
     "End-of-line tests: brakes, battery, software, leaks.",
     "Traceability by vehicle number.",
-    "Corrective action when tests fail."
+    "Corrective action when tests fail.",
+    "Interview a fleet mechanic about what is hard to repair."
    ],
    "ex": "End-of-line fail rate 4% mostly connectors; fix with a torque check.",
    "act": "Design an end-of-line test sheet.",
@@ -78,7 +83,8 @@
     "Sales through fleets and dealers.",
     "Service network and parts.",
     "Training for technicians.",
-    "Remote monitoring."
+    "Remote monitoring.",
+    "Write down the software update promise and who delivers it."
    ],
    "ex": "Fleet pilot: 3 vans for 90 days; uptime 97%.",
    "act": "Plan a fleet pilot offer.",
@@ -91,7 +97,8 @@
     "Battery fire plan and training.",
     "Supplier diversification.",
     "Material sourcing and recycling.",
-    "Cyber security for connected vehicles."
+    "Cyber security for connected vehicles.",
+    "Compare the weight of your design with two similar vehicles."
    ],
    "ex": "Risk: 'Cell supplier delay | 4 x 4 | second source | purchasing | monthly'.",
    "act": "Write a risk register.",
@@ -104,7 +111,8 @@
     "Build 5 pilot vehicles.",
     "Measure range, faults and customer feedback.",
     "Stop rule: range under 85% of spec means redesign.",
-    "Plan funding and plant."
+    "Plan funding and plant.",
+    "Record every test in one table: date, condition, result, action."
    ],
    "ex": "Range 92% of spec; proceed.",
    "act": "Run the pilot review.",
