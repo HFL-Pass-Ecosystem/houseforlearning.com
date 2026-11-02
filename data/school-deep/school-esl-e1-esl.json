@@ -15,7 +15,7 @@
   {
    "n": 1,
    "title": "Hello and me",
-   "bloom": "Apply",
+   "bloom": "Remember",
    "weeks": [
     1,
     4
@@ -377,7 +377,7 @@
  "checks": [
   [
    "Unit 1 (Hello and me): Write a four-line dialogue between you and a new classmate: greeting, name, age, spelling.",
-   "\"Good afternoon. I'm Omar.\" / \"Hi, Omar. My name is Jo. J, O.\" / \"How old are you?\" / \"I am seven. And you?\" (Covered in unit 1: Hello and me.)"
+   "\"Good afternoon. I'm [name A].\" / \"Hi, [name A]. My name is [name B]. Spell it letter by letter.\" / \"How old are you?\" / \"I am seven. And you?\" (Covered in unit 1: Hello and me.)"
   ],
   [
    "Unit 2 (Numbers, colours and shapes): Draw two green triangles and four orange squares. Write two sentences about the picture.",
@@ -404,7 +404,7 @@
    "s-i-t, \"sit\"; p-a-n, \"pan\"; t-i-n, \"tin\". Then write one more word using m, a and p: \"map\". (Covered in unit 8: Letters, sounds and first words.)"
   ],
   [
-   "Unit 9 (Listening and speaking practice): Listen to this and answer: \"This is my friend Sara. She is ten. She likes books.\" What does Sara like?.",
+   "Unit 9 (Listening and speaking practice): Listen to this and answer: \"This is my friend. She is ten. She likes books.\" What does she like?.",
    "\"She likes books.\" (Covered in unit 9: Listening and speaking practice.)"
   ],
   [

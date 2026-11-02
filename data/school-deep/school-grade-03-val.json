@@ -104,7 +104,7 @@
   {
    "n": 4,
    "title": "Caring for the Earth",
-   "bloom": "Apply",
+   "bloom": "Evaluate",
    "weeks": [
     28,
     36
@@ -218,6 +218,7 @@
  "blooms": [
   "Understand",
   "Apply",
+  "Evaluate",
   "Create"
  ]
 }

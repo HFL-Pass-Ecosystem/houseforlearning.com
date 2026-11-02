@@ -73,7 +73,7 @@
   {
    "n": 3,
    "title": "Separation of substances",
-   "bloom": "Apply",
+   "bloom": "Evaluate",
    "weeks": [
     9,
     12
@@ -360,6 +360,7 @@
  "jobs": [],
  "blooms": [
   "Understand",
-  "Apply"
+  "Apply",
+  "Evaluate"
  ]
 }

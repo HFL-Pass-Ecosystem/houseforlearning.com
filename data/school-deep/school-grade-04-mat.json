@@ -15,7 +15,7 @@
   {
    "n": 1,
    "title": "Large numbers",
-   "bloom": "Apply",
+   "bloom": "Remember",
    "weeks": [
     1,
     3
@@ -160,7 +160,7 @@
   {
    "n": 6,
    "title": "Fractions and decimals",
-   "bloom": "Apply",
+   "bloom": "Analyse",
    "weeks": [
     20,
     23
@@ -419,6 +419,7 @@
  "blooms": [
   "Remember",
   "Understand",
-  "Apply"
+  "Apply",
+  "Analyse"
  ]
 }

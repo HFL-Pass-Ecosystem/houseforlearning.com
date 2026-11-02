@@ -45,7 +45,7 @@
   {
    "n": 2,
    "title": "Computational thinking and algorithms",
-   "bloom": "Apply",
+   "bloom": "Analyse",
    "weeks": [
     11,
     20
@@ -204,7 +204,7 @@
   ],
   [
    "Unit 2 (Computational thinking and algorithms): Abstract. Show how you do it and say what the result is.",
-   "Huda ignores detail like the colour of the tablecloth and keeps what matters: item name and number brought. A table with two columns, Item and Count, represents the real situation in a simple model. (Covered in unit 2: Computational thinking and algorithms.)"
+   "The learner ignores detail like the colour of the tablecloth and keeps what matters: item name and number brought. A table with two columns, Item and Count, represents the real situation in a simple model. (Covered in unit 2: Computational thinking and algorithms.)"
   ]
  ],
  "ladder": [
@@ -219,6 +219,7 @@
  "jobs": [],
  "blooms": [
   "Understand",
-  "Apply"
+  "Apply",
+  "Analyse"
  ]
 }

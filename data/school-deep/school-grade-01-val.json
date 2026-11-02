@@ -103,7 +103,7 @@
   {
    "n": 4,
    "title": "Caring for the environment",
-   "bloom": "Apply",
+   "bloom": "Evaluate",
    "weeks": [
     28,
     36
@@ -216,6 +216,7 @@
  "jobs": [],
  "blooms": [
   "Understand",
-  "Apply"
+  "Apply",
+  "Evaluate"
  ]
 }

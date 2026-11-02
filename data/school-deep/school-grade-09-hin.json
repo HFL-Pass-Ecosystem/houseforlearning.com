@@ -102,7 +102,7 @@
   {
    "n": 4,
    "title": "Unseen passage and comprehension",
-   "bloom": "Apply",
+   "bloom": "Understand",
    "weeks": [
     28,
     36
@@ -215,6 +215,7 @@
  "jobs": [],
  "blooms": [
   "Remember",
+  "Understand",
   "Apply"
  ]
 }
