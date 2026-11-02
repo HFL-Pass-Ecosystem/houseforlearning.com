@@ -30,7 +30,7 @@ def audit(f):
 rows={}
 for f in sorted(glob.glob('learn-*.html')):
     if re.search(r'russia|-ru[-.]',f): continue
-    if f.endswith('-hub.html') or f=='learn-shelves.html' or 'id="fc">Full course here' in open(f,encoding='utf-8').read(): continue  # hub and pointer pages are skipped
+    if f.endswith('-hub.html') or f in ('learn-shelves.html','learn-flagship-in.html') or 'id="fc">Full course here' in open(f,encoding='utf-8').read(): continue  # hub and pointer pages are skipped
     rows[f]=audit(f)
 fam=collections.defaultdict(list)
 for f,r in rows.items():
