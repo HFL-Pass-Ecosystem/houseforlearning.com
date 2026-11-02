@@ -50,6 +50,21 @@ for f,r in rows.items():
     if r['ladder']!='slides': miss.append('ladder:'+r['ladder'])
     if miss: bad.append((f,miss))
 
+# Bloom action verbs a module standard may start with (Remember, Understand, Apply, Analyse, Evaluate, Create). "Pass the check" and vague verbs are not on it.
+BLOOM=set("""remember define identify list name recall recognise recognize state select match label find choose cite read spot
+understand describe explain interpret summarise summarize classify compare contrast distinguish clarify show discuss report paraphrase translate
+apply use calculate complete demonstrate record enter prepare practise practice solve execute implement carry adjust configure update respond triage escalate protect
+add mark plot draw divide reconcile test check verify rewrite edit correct modify adapt arrange reorder measure collect build construct facilitate introduce present
+analyse analyze examine break differentiate organise organize attribute
+evaluate reflect judge justify review rank rate decide critique assess defend support
+create design write plan produce draft propose compose develop formulate generate make""".split())
+def bad_std_verbs(t):
+    out=[]
+    for m in re.finditer(r'Standard to meet\.\s+([A-Za-z-]+)',t):
+        w=m.group(1).lower().rstrip(',')
+        if w not in BLOOM: out.append(m.group(1))
+    return out
+
 # CPD pages: every check answer must say "Covered in module N" (never "not taught"); no fees on CPD pages.
 cpd_bad=[]
 for f in sorted(glob.glob('cpd-*.html')):
@@ -58,6 +73,8 @@ for f in sorted(glob.glob('cpd-*.html')):
     if 'not taught' in t or 'background fact' in t: miss.append('cpd:not-taught tag')
     if t.count('Covered in module')<na: miss.append('cpd:answer without module tag (%d of %d)'%(t.count('Covered in module'),na))
     if re.search(r'(USD|AED|GBP|EUR|INR|Rs\.?|\$|₹|£|€)\s?\d',t): miss.append('cpd:fee-like amount')
+    bv=bad_std_verbs(t)
+    if bv: miss.append('cpd:standard not starting with a Bloom verb (%s)'%', '.join(sorted(set(bv))))
     if miss: cpd_bad.append((f,miss))
 bad+=cpd_bad
 rows.update({f:{} for f in glob.glob('cpd-*.html')})
