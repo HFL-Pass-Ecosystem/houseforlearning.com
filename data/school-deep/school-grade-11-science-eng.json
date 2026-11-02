@@ -98,7 +98,15 @@
    "example": "Solved: cat, hat and mat rhyme. Make a couplet: 'The sun is high, a bird can fly.' High and fly rhyme. Method: Model run for 'Reading: unseen passages and poems'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Answer inference and evaluation questions: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": []
+   "steps": [
+    "Step 1, Read my own passage. \"The experiment's results were consistent, yet the researcher hesitated to publish; a single instrument error, she knew, could undo months of work.\" Gist: she values accuracy over speed.",
+    "Step 2, Find evidence for her attitude. \"Hesitated\" and \"could undo months of work\" suggest caution and awareness of risk. Reason: the verb and the consequence together reveal attitude.",
+    "Step 3, Answer an inference question. \"Why does she hesitate?\" Model: \"She hesitates because she fears an instrument error might invalidate the results; 'could undo months of work' shows the risk is serious.\"",
+    "Step 4, Answer an evaluation question. \"How effective is the sentence structure?\" Model: \"The contrast introduced by 'yet' creates tension between success and doubt, and the long final clause makes the risk feel heavy.\"",
+    "Step 5, Fix an error. Weak: \"She is nervous because she is a scientist.\" (no evidence) Right: \"She is cautious, since she thinks about one instrument error undoing her work.\" Always anchor an inference in words from the text.",
+    "Step 6, Read a poem, my own: \"The telescope counts what the night will give: / a cold white scatter, patient, slow.\" Inference: observation requires patience. Evidence: \"patient, slow\". Tone: calm, respectful of nature.",
+    "Step 7, Your turn. Passage: \"The data fit the theory so neatly that the team grew suspicious.\" What does this suggest? Model answer: \"Perfect fit seems unlikely; 'suspicious' shows they suspect error or bias, so they will check their method.\""
+   ]
   },
   {
    "n": 5,
@@ -120,7 +128,15 @@
    "example": "Solved: Retell in order with first, next, then, last. Ask: 'What happened next?' Reply politely: 'Thank you, I agree because...' Method: Model run for 'Speaking and listening'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Deliver a structured speech and respond to questions: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": []
+   "steps": [
+    "Step 1, Plan a structured speech. Topic: \"Why scientific literacy matters.\" Thesis: \"Citizens need scientific literacy to judge evidence and make informed decisions.\" Structure: hook, thesis, three points, counter-view, conclusion.",
+    "Step 2, Write the hook and thesis. \"During the last flu season, a false claim about a cure spread faster than the virus. Scientific literacy is the best protection against such claims.\" Reason: a real-world hook shows relevance.",
+    "Step 3, Develop a point with evidence. \"First, literacy helps people judge sources. A claim from a controlled trial deserves more trust than a single story.\" Reason: contrast shows how to test reliability.",
+    "Step 4, Handle the counter-view. \"Some argue that experts should decide. Experts matter, but citizens vote and choose; they need to understand evidence to hold decisions accountable.\" Reason: a rebuttal strengthens the speech.",
+    "Step 5, Fix an error. Weak: \"Science is cool and everyone should like it.\" Better: \"Science teaches a method of testing claims, and that method improves everyday decisions.\" Replace opinion words with precise benefits.",
+    "Step 6, Respond to a question. Q: \"Does everyone need to know the details?\" A: \"No, but everyone should understand how evidence is gathered and tested; that is the core skill.\" Reason: concede, then clarify.",
+    "Step 7, Your turn. Write a thesis and one rebuttal for a speech on \"Renewable energy investment\". Model answer: \"Thesis: Investing in renewables secures long-term energy and cleaner air.\" \"Rebuttal: Initial costs are high, but lower running costs repay them over time.\""
+   ]
   }
  ],
  "rubric": [
