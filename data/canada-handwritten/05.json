@@ -1,0 +1,163 @@
+{
+ "price": [
+  520000,
+  430000,
+  40,
+  "unit"
+ ],
+ "mods": {
+  "1": {
+   "title": "Read the market for smart homes",
+   "intro": "Smart condos add sensors, controls and data to ordinary flats.",
+   "pts": [
+    "Buyers care about energy bills, security, comfort and resale value.",
+    "List features by cost and value: smart thermostat, leak sensors, access control, EV charging, shared-space booking.",
+    "Interview ten buyers or tenants: which features they would pay for.",
+    "Check local condo prices and absorption (units sold per month)."
+   ],
+   "ex": "Leak sensors cost 80 per unit and cut insurance claims; buyers rank them above voice assistants.",
+   "act": "Interview ten people and rank features by willingness to pay.",
+   "std": "Ranking backed by interviews."
+  },
+  "2": {
+   "title": "Know development rules",
+   "intro": "Developers follow zoning, building and condo law.",
+   "pts": [
+    "Zoning and official plans decide what you may build.",
+    "Building code and permits come before work; inspections follow.",
+    "Condo law (provincial) governs sale, deposits, disclosure and cooling-off.",
+    "Smart systems that collect resident data fall under privacy law."
+   ],
+   "ex": "Row: 'Take buyer deposits | provincial condo law | hold in trust and give disclosure | before any sale | lawyer's trust account record'.",
+   "act": "Build a rules table for a 40-unit building.",
+   "std": "Rules cited with source and date."
+  },
+  "3": {
+   "title": "Plan the building and the smart layer",
+   "intro": "Design the shared network and standards first.",
+   "pts": [
+    "Choose open standards so devices from different makers work together.",
+    "Plan cabling, power and network closets at design time.",
+    "Decide who owns data from sensors and who can see it.",
+    "Plan updates and support for ten years."
+   ],
+   "ex": "Open standard chosen so that a failed hub vendor can be replaced without rewiring.",
+   "act": "Draw a one-page system plan for a floor.",
+   "std": "Every device has a power, network and owner."
+  },
+  "4": {
+   "title": "Cost the development",
+   "intro": "Land, construction, soft costs and financing.",
+   "pts": [
+    "Hard costs: construction. Soft costs: design, permits, fees, marketing.",
+    "Financing cost grows each month of delay.",
+    "Contingency of 10 to 15%.",
+    "Compute profit = sales - all costs."
+   ],
+   "ex": "40 units x 520,000 = 20.8M; cost per unit 430,000 = 17.2M; profit 3.6M (17%). Teaching figures.",
+   "act": "Build a development pro forma with a 10% cost rise case.",
+   "std": "Margin shown under stress."
+  },
+  "5": {
+   "title": "Manage construction and quality",
+   "intro": "Quality is checked at each stage.",
+   "pts": [
+    "Stage gates: foundation, frame, services, finishes.",
+    "Walk the site weekly with a checklist.",
+    "Test smart systems before handover.",
+    "Keep a defects list and close it with dates."
+   ],
+   "ex": "Defect list: 62 items at handover walk; 55 closed in 14 days; 7 reopened.",
+   "act": "Write a stage-gate checklist.",
+   "std": "Each gate has pass criteria."
+  },
+  "6": {
+   "title": "Sell, hand over and support",
+   "intro": "Buyers need clear information.",
+   "pts": [
+    "Give plain disclosure and a demonstration unit.",
+    "Train residents to use systems.",
+    "Set a help desk and response times.",
+    "Collect satisfaction after 90 days."
+   ],
+   "ex": "Demo-unit visits: 120; offers 30; sales 22.",
+   "act": "Run a mock sales funnel.",
+   "std": "Funnel numbers recorded."
+  },
+  "7": {
+   "title": "Manage data, safety and sustainability",
+   "intro": "Building smart means building trusted.",
+   "pts": [
+    "Collect only needed data; tell residents; allow deletion.",
+    "Secure networks and update devices.",
+    "Plan fire, flood and power-cut responses.",
+    "Aim for energy performance targets."
+   ],
+   "ex": "Policy line: 'Camera data kept 30 days, viewed only after an incident.'",
+   "act": "Write a resident data note and risk register.",
+   "std": "Notes in plain words."
+  },
+  "8": {
+   "title": "Pilot a floor and plan scale",
+   "intro": "Prove on one floor.",
+   "pts": [
+    "Pilot with 8 units for 90 days.",
+    "Measure energy savings, faults and satisfaction.",
+    "Stop rule: more than 3 faults per unit per month means redesign.",
+    "Plan the next phase."
+   ],
+   "ex": "Energy savings 14%; faults 1.5 per unit per month; proceed.",
+   "act": "Run the pilot review.",
+   "std": "Review has measures and decision."
+  }
+ },
+ "quiz": [
+  [
+   "Why plan cabling at design time?",
+   "Retrofits cost far more."
+  ],
+  [
+   "What is contingency?",
+   "Extra budget for cost rises."
+  ],
+  [
+   "Why use open standards?",
+   "Devices from different makers work together and can be replaced."
+  ],
+  [
+   "What does condo law govern?",
+   "Sale, deposits and disclosure."
+  ],
+  [
+   "Why keep deposits in trust?",
+   "The law requires it to protect buyers."
+  ],
+  [
+   "What is a stage gate?",
+   "A check before the next stage starts."
+  ],
+  [
+   "What should residents be told about data?",
+   "What is collected, why and how to delete it."
+  ],
+  [
+   "Why train residents?",
+   "So systems are used correctly."
+  ],
+  [
+   "What triggers a redesign in the pilot?",
+   "More than 3 faults per unit per month."
+  ],
+  [
+   "What is profit in a pro forma?",
+   "Sales minus all costs."
+  ]
+ ],
+ "jobs": [
+  "Development coordinator",
+  "Property technology specialist",
+  "Building commissioning technician",
+  "Sales coordinator",
+  "Developer"
+ ]
+}

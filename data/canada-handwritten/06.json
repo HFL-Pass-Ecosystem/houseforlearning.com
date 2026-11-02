@@ -1,0 +1,163 @@
+{
+ "price": [
+  48000,
+  36000,
+  260,
+  "vehicle"
+ ],
+ "mods": {
+  "1": {
+   "title": "Understand electric vehicle markets",
+   "intro": "Electric vehicles are sold as cars, vans, buses and special vehicles.",
+   "pts": [
+    "Segments: personal, delivery vans, buses, trucks, small special vehicles.",
+    "Customers: fleets, cities, households. Fleets care about total cost of ownership.",
+    "Incentives and rules change; check federal and provincial programmes.",
+    "Pick one niche, such as delivery vans in cold climates."
+   ],
+   "ex": "A delivery fleet compares 10-year cost: fuel and servicing saved offset a higher price.",
+   "act": "Write a niche statement and customer profile.",
+   "std": "Niche is narrow and testable."
+  },
+  "2": {
+   "title": "Know vehicle rules",
+   "intro": "Vehicles must meet safety and environmental standards.",
+   "pts": [
+    "Federal motor-vehicle safety standards apply before a vehicle can be sold.",
+    "Battery transport and storage have dangerous-goods rules.",
+    "Provinces register and insure vehicles.",
+    "Warranty and recall rules protect buyers."
+   ],
+   "ex": "Row: 'Sell a new vehicle | federal safety standards | certify and label | before first sale | certificate on file'.",
+   "act": "Build a rules table for a small manufacturer.",
+   "std": "Each row has source and date."
+  },
+  "3": {
+   "title": "Design the vehicle systems",
+   "intro": "Work from needs.",
+   "pts": [
+    "Define use: range, payload, charging time, cold performance.",
+    "Size battery from energy per kilometre.",
+    "Plan safety: crash structure, thermal management, battery protection.",
+    "Document specifications in one table."
+   ],
+   "ex": "Need 250 km at 0.35 kWh per km → 87.5 kWh usable; add 20% for cold and ageing → 105 kWh pack.",
+   "act": "Calculate pack size for a chosen use.",
+   "std": "Calculation shown with margin."
+  },
+  "4": {
+   "title": "Cost the product",
+   "intro": "Cost per vehicle drives the business.",
+   "pts": [
+    "Bill of materials: battery, motor, body, electronics.",
+    "Assembly labour and facility cost per vehicle.",
+    "Warranty provision.",
+    "Margin and break-even."
+   ],
+   "ex": "Price 48,000; cost 36,000; margin 12,000 (25%); fixed cost 3.1M per year → break-even 260 vehicles.",
+   "act": "Build a bill of materials and break-even.",
+   "std": "Units and currency shown."
+  },
+  "5": {
+   "title": "Build to quality",
+   "intro": "Quality means testing.",
+   "pts": [
+    "Incoming inspection of parts.",
+    "End-of-line tests: brakes, battery, software, leaks.",
+    "Traceability by vehicle number.",
+    "Corrective action when tests fail."
+   ],
+   "ex": "End-of-line fail rate 4% mostly connectors; fix with a torque check.",
+   "act": "Design an end-of-line test sheet.",
+   "std": "Sheet has limits and sign-off."
+  },
+  "6": {
+   "title": "Sell and service",
+   "intro": "Service builds trust.",
+   "pts": [
+    "Sales through fleets and dealers.",
+    "Service network and parts.",
+    "Training for technicians.",
+    "Remote monitoring."
+   ],
+   "ex": "Fleet pilot: 3 vans for 90 days; uptime 97%.",
+   "act": "Plan a fleet pilot offer.",
+   "std": "Offer has measures."
+  },
+  "7": {
+   "title": "Manage safety and supply risk",
+   "intro": "Batteries and supply chains carry risk.",
+   "pts": [
+    "Battery fire plan and training.",
+    "Supplier diversification.",
+    "Material sourcing and recycling.",
+    "Cyber security for connected vehicles."
+   ],
+   "ex": "Risk: 'Cell supplier delay | 4 x 4 | second source | purchasing | monthly'.",
+   "act": "Write a risk register.",
+   "std": "Rows have owners."
+  },
+  "8": {
+   "title": "Pilot and plan scale",
+   "intro": "Prove with a small series.",
+   "pts": [
+    "Build 5 pilot vehicles.",
+    "Measure range, faults and customer feedback.",
+    "Stop rule: range under 85% of spec means redesign.",
+    "Plan funding and plant."
+   ],
+   "ex": "Range 92% of spec; proceed.",
+   "act": "Run the pilot review.",
+   "std": "Review has decision."
+  }
+ },
+ "quiz": [
+  [
+   "What decides battery size?",
+   "Energy per kilometre times range with a margin."
+  ],
+  [
+   "Why add a margin to battery size?",
+   "Cold weather and ageing reduce capacity."
+  ],
+  [
+   "What is total cost of ownership?",
+   "Purchase plus running costs over time."
+  ],
+  [
+   "Who sets vehicle safety standards?",
+   "The federal government."
+  ],
+  [
+   "Why trace by vehicle number?",
+   "To find and fix faults."
+  ],
+  [
+   "What is an end-of-line test?",
+   "A final check before delivery."
+  ],
+  [
+   "Why diversify suppliers?",
+   "To avoid a single point of failure."
+  ],
+  [
+   "What is break-even?",
+   "Fixed cost divided by margin."
+  ],
+  [
+   "What triggers redesign in the pilot?",
+   "Range under 85% of spec."
+  ],
+  [
+   "Why train technicians?",
+   "Battery work is hazardous."
+  ]
+ ],
+ "jobs": [
+  "Vehicle technician",
+  "Battery systems technician",
+  "Quality engineer",
+  "Fleet sales specialist",
+  "Vehicle start-up founder"
+ ]
+}
