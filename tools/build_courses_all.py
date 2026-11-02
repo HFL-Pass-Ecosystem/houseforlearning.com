@@ -12,7 +12,7 @@ G = [
  ('Enterprise software, levels L1 to L7', ['learn-ent-']),
  ('Europe: ten chapters', ['learn-flagship-eu-']),
  ('Global: 75 courses for every market', ['learn-flagship-gl-']),
- ('India', []),
+ ('India', ['learn-flagship-in-']),
  ('UAE (Dubai and Abu Dhabi)', ['learn-flagship-ae-']),
  ('Brazil', ['learn-brazil-']),
  ('Canada and North America', ['learn-ca-']),
