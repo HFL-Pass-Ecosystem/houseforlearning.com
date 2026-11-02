@@ -8,6 +8,8 @@ import flagship_loc_four as F
 import build_full_courses as B
 import loc_ladder as LL
 e = html.escape
+def _bz(t): return t if t.lower().endswith(('business', 'businesses')) else t + ' business'
+
 def slug(i): return f'{i:02d}'
 def cluster_of(t):
     for k, n, ts in F.CL:
