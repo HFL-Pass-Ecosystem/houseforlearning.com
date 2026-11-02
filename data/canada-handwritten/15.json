@@ -13,9 +13,12 @@
     "Know the types: LCD, LED, e-paper, transparent and flexible panels.",
     "Match to use: bright for outdoors, low power for shelf labels, transparent for windows.",
     "Ask buyers about brightness, size, viewing distance, power and life.",
-    "Pick a first product and customer, such as shelf labels for grocers."
+    "Pick a first product and customer, such as shelf labels for grocers.",
+    "Compare panel types on four numbers: brightness in nits, power in watts, thickness in millimetres and cost per square metre.",
+    "Check each panel's stated operating temperature range; an outdoor sign in a Canadian winter needs a panel and heater rated for the cold, not just for the sun.",
+    "Interview buyers in three settings, such as grocery, transit and shop windows, and write down each one's viewing distance and hours of use per day."
    ],
-   "ex": "A grocery chain changes 4,000 shelf prices a week by hand at 15 seconds each = 16.7 hours; e-paper labels update them in minutes.",
+   "ex": "A grocery chain changes 4,000 shelf prices a week by hand at 15 seconds each, which is 60,000 seconds or 16.7 hours. If staff time costs 25 per hour, that is about 417 a week, and e-paper labels update the same prices in minutes. Compare that saving with the label cost before you pitch.",
    "act": "Write a requirement sheet from three buyer interviews.",
    "std": "Requirements have units."
   },
@@ -26,9 +29,12 @@
     "Electrical and radio approvals are required.",
     "Hazardous substance limits and recycling duties apply.",
     "Import duties and origin rules affect costs.",
-    "Warranty and consumer law apply."
+    "Warranty and consumer law apply.",
+    "If a sign has wireless links, check the federal radio rule and keep the test report with the product file.",
+    "Mark every unit with model, rating and serial number so that a buyer, installer or regulator can trace it.",
+    "Write a one-page import note: tariff class, proof of origin and who pays the duty; confirm the current rule with a licensed customs broker."
    ],
-   "ex": "Row: 'Sell a powered sign | electrical safety approval | lab certificate | before sale | certificate'.",
+   "ex": "Row: 'Sell a powered sign | electrical safety approval | lab certificate | before sale | certificate'. A second row: 'Ship panels from abroad | border agency | customs entry and origin proof | each shipment | entry copy'. Re-read each source every six months and update the date.",
    "act": "Build a rules table.",
    "std": "Rows sourced and dated."
   },
@@ -39,9 +45,12 @@
     "Block diagram: panel, driver, power, controller, link.",
     "Heat and brightness testing.",
     "Content management: how a user changes the image.",
-    "Document assembly steps."
+    "Document assembly steps.",
+    "Write a power budget: a panel drawing 120 W for 16 hours a day uses 1.92 kWh a day (120 x 16 = 1,920 Wh).",
+    "Choose cables and connectors with strain relief, because field faults often start at a cable rather than at the panel.",
+    "Write a test script that shows all-white, all-black and colour bars, and record what you see at each step."
    ],
-   "ex": "Brightness spec 700 nits; measured 640 at 40 C; add a better heat path.",
+   "ex": "Brightness spec 700 nits; measured 640 at 40 C. The shortfall is 60 nits, which is 8.6% of the spec. Add a better heat path, retest at the same temperature and record the new reading.",
    "act": "Assemble a prototype and measure brightness at two temperatures.",
    "std": "Measurements recorded."
   },
@@ -52,9 +61,12 @@
     "Bill of materials: panel is the largest part.",
     "Assembly, test, scrap.",
     "Warranty provision.",
-    "Margin and break-even."
+    "Margin and break-even.",
+    "Split the bill of materials into panel, driver board, enclosure, power supply, labour, test and packaging, and show each as a share of the total.",
+    "Allow for scrap: if 780 is the build cost per unit attempted and 8% fail, each good unit costs 780 / 0.92 = about 848.",
+    "Set a warranty provision, such as 2% of price (25 on a 1,250 unit), and review it against real returns."
    ],
-   "ex": "Price 1,250; cost 780; margin 470 (38%); fixed cost 564,000 a year → break-even 1,200 units. Teaching figures in CAD.",
+   "ex": "Price 1,250; cost 780; margin 470 (38%); fixed cost 564,000 a year, so break-even is 564,000 / 470 = 1,200 units. With the 8% scrap case the cost is 848, margin 402, and break-even rises to 564,000 / 402 = about 1,403 units. Teaching figures in CAD.",
    "act": "Build cost sheet with 8% scrap case.",
    "std": "Cases shown."
   },
@@ -65,9 +77,12 @@
     "Incoming panel test.",
     "Burn-in test.",
     "Grade units by defects.",
-    "Track yield."
+    "Track yield.",
+    "Set an incoming sample, such as 20 panels from each lot of 200, and agree in writing how many defects reject the lot.",
+    "Photograph each defect type and keep a reference board so that every tester grades the same way.",
+    "Run burn-in at raised temperature for a set number of hours and record failures per hundred units."
    ],
-   "ex": "Yield 91%; top defect: bonding bubbles.",
+   "ex": "Yield 91%: of 200 units built, 182 pass and 18 fail (200 x 0.91 = 182). If 9 of the 18 failures are bonding bubbles, that single defect costs 4.5% of output, so it is the first process to fix.",
    "act": "Design test sheet with grades.",
    "std": "Limits stated."
   },
@@ -78,9 +93,12 @@
     "Train installers.",
     "Offer pilots.",
     "Remote update service.",
-    "Spare stock."
+    "Spare stock.",
+    "Write a one-page install guide with photos, fixing steps and a power checklist, and test it on someone who has not seen the product.",
+    "Offer a service plan that states the remote update schedule, the replacement time and a spare stock of about 5% of installed units.",
+    "Quote five-year cost of ownership: unit price, power, content service and repairs, so the buyer compares like with like."
    ],
-   "ex": "Funnel: 18 retailers, 5 pilots, 2 orders.",
+   "ex": "Funnel: 18 retailers, 5 pilots, 2 orders. That is 5 / 18 = 28% of retailers to pilot, 2 / 5 = 40% of pilots to order, and 2 / 18 = 11% overall. Use these rates to plan how many retailers to contact for ten orders.",
    "act": "Pitch three buyers.",
    "std": "Pitch has numbers."
   },
@@ -91,9 +109,12 @@
     "Second sources.",
     "Power use targets.",
     "Recycling plan.",
-    "Cyber security for networked signs."
+    "Cyber security for networked signs.",
+    "Hold several weeks of panel stock or name a second supplier, and record each supplier's lead time in writing.",
+    "Measure power per sign in watts, set a target, and compare it with the paper sign or light box it replaces.",
+    "Write a take-back plan: who collects old units, where they are sorted, and which provincial electronics recycling rule applies; check the provincial rule. Change default passwords and set a firmware update schedule for networked signs."
    ],
-   "ex": "Risk: 'Panel shortage | 4 x 4 | second source | purchasing | monthly'.",
+   "ex": "Risk: 'Panel shortage | 4 x 4 | second source | purchasing | monthly'. The score is likelihood 4 times impact 4 = 16 out of 25, which is high. Action: qualify a second panel source within 90 days and review it monthly.",
    "act": "Write a risk register.",
    "std": "Owners named."
   },
@@ -104,9 +125,12 @@
     "60 days in 3 stores.",
     "Measure failures and update time.",
     "Stop rule: failure over 3% means fix.",
-    "Plan production."
+    "Plan production.",
+    "Choose three stores with different conditions: a bright window, a shaded aisle and a cold-room.",
+    "Log every fault with date, unit, cause and time to fix, and time how long a price change takes to appear on a label.",
+    "At the end, ask store staff what annoyed them and write three product changes."
    ],
-   "ex": "Failure 1.5%; proceed.",
+   "ex": "Failure 1.5%: with 200 units installed, 3 failed (3 / 200 = 1.5%). The stop line at 3% is 6 failures (200 x 0.03), so the pilot passes and you proceed to plan production.",
    "act": "Run pilot review.",
    "std": "Review has decision."
   }

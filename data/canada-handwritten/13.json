@@ -13,9 +13,12 @@
     "Good candidates: repeat decisions with data, such as triage, forecasting, document checks, quality inspection.",
     "Poor candidates: rare events, no data, high harm if wrong without a person checking.",
     "Score ideas on value, data readiness and risk; pick the top one.",
-    "Write the success measure before building."
+    "Write the success measure before building.",
+    "List the decisions the team makes each week, how often, how long each takes, and what data is already stored for it.",
+    "Check that data exists in usable form: count the records, the share with missing fields, and the past examples with a known right answer.",
+    "Ask who will use the output and what they will do with it; an accurate model nobody acts on has no value."
    ],
-   "ex": "Invoice checking: 4,000 invoices a month, 6 minutes each by hand; target 70% auto-checked with human review of the rest.",
+   "ex": "Invoice checking: 4,000 invoices a month, 6 minutes each by hand; target 70% auto-checked with human review of the rest. Hand time now is 4,000 x 6 = 24,000 minutes, or 400 hours a month. At 70% auto-checked, 2,800 invoices are automated and 1,200 stay with people.",
    "act": "Score three processes and choose one.",
    "std": "Scores have reasons."
   },
@@ -26,9 +29,12 @@
     "Privacy law covers personal data used for training and decisions; get consent or another lawful basis.",
     "Automated decisions about people need explanation and human review where the law or policy says so.",
     "Contracts: data ownership, model ownership, performance claims, liability.",
-    "Sector rules such as health or finance add duties."
+    "Sector rules such as health or finance add duties.",
+    "Write a data map: what personal data you hold, where it came from, where it is stored, who sees it and when you delete it.",
+    "Ask whether the data can be reduced or de-identified before training, and use less personal data when the task allows.",
+    "Check whether data will leave Canada, and read the provincial rule and the client contract before it does."
    ],
-   "ex": "Row: 'Use client customer data to train | privacy law | consent and purpose limit | before training | written data agreement'.",
+   "ex": "Row: 'Use client customer data to train | privacy law | consent and purpose limit | before training | written data agreement'. Second row: 'Use a model to screen applicants | privacy law and provincial rules | human review and explanation | before launch | written process'. Check the provincial rule before you automate any decision about a person.",
    "act": "Build a rules table for one client.",
    "std": "Rows sourced and dated."
   },
@@ -39,9 +45,12 @@
     "Collect, clean and label data; record where each field comes from.",
     "Set a baseline: how well does the current process or a simple rule do?",
     "Split data: train, validate, test; never test on training data.",
-    "Report accuracy, false alarms and misses."
+    "Report accuracy, false alarms and misses.",
+    "Write a data dictionary listing each field, its meaning, unit, allowed range and how many values are missing.",
+    "When the process changes over time, split by time: train on older months and test on the latest month.",
+    "Try the simplest model first, and keep a complex one only if it beats it on the test set by a margin you set beforehand."
    ],
-   "ex": "Rule-only baseline catches 61%; model catches 83% with 9% false alarms on held-out test data.",
+   "ex": "Rule-only baseline catches 61%; model catches 83% with 9% false alarms on held-out test data. Suppose the test set has 1,000 cases with 200 real problems. The rule catches 0.61 x 200 = 122 and the model catches 0.83 x 200 = 166, which is 44 more; 9% false alarms on the 800 other cases is 72.",
    "act": "Build a baseline and a simple model on a public data set.",
    "std": "Test results on held-out data."
   },
@@ -52,7 +61,10 @@
     "Price: discovery, build, integration, training, support.",
     "Customer saving: hours saved x cost per hour, error cost avoided.",
     "Payback in months.",
-    "Offer a staged price with a decision point."
+    "Offer a staged price with a decision point.",
+    "List the monthly cost of running the model: hosting, monitoring time, retraining and support hours.",
+    "Quote three tiers, discovery only, discovery plus pilot, and full build, with a go or no-go point between them.",
+    "Ask the client to confirm the hourly cost and minutes per task using a sample of real tasks, not guesses."
    ],
    "ex": "Project price 22,000. Saving: 4,000 invoices x 70% auto-checked x 6 minutes = 16,800 minutes = 280 hours a month; at 30 an hour = 8,400 a month. Payback = 22,000 / 8,400 = about 2.6 months. If only half the saving is real, payback is about 5 months. Teaching figures in CAD.",
    "act": "Build a payback model with a 50% savings case.",
@@ -65,9 +77,12 @@
     "Pilot with humans in the loop.",
     "Monitor accuracy and inputs weekly.",
     "Retrain when accuracy falls.",
-    "Document for support."
+    "Document for support.",
+    "Log each prediction with its inputs, output, confidence and the person's final decision, so accuracy can be measured later.",
+    "Set two alert levels, a warning and a stop level, and name the person who acts at each.",
+    "Store each model version with its training data date and test result, and keep a rollback step."
    ],
-   "ex": "Accuracy fell from 83% to 74% after a form change; retrained on new data.",
+   "ex": "Accuracy fell from 83% to 74% after a form change; retrained on new data. A drop of 83 - 74 = 9 points was caught because the warning level was set at 78%. After retraining on new examples, accuracy returned to 82%.",
    "act": "Design a monitoring sheet.",
    "std": "Alert levels set."
   },
@@ -78,9 +93,12 @@
     "Start with a small win.",
     "Train staff and listen.",
     "Report results simply.",
-    "Ask for referrals."
+    "Ask for referrals.",
+    "Run a one-hour workshop: show the process map, run the model on 10 real cases, and ask staff to mark where they disagree.",
+    "Name a champion on the client team who owns adoption and reports use every week.",
+    "Update the checklist or job description so staff know what changed in their work."
    ],
-   "ex": "Funnel: 20 talks, 6 workshops, 3 pilots.",
+   "ex": "Funnel: 20 talks, 6 workshops, 3 pilots. Talk to workshop is 6 / 20 = 30%, workshop to pilot is 3 / 6 = 50%, and overall 3 / 20 = 15%. At 15%, 40 talks are needed for 6 pilots.",
    "act": "Run a workshop for a real team.",
    "std": "Feedback recorded."
   },
@@ -91,9 +109,12 @@
     "Test for unequal error across groups.",
     "Provide appeal routes.",
     "Keep logs.",
-    "Be honest about limits."
+    "Be honest about limits.",
+    "Agree with the client which groups to check, using fields it holds lawfully, and what gap triggers action.",
+    "Write an appeal route: how a person asks for human review, who answers, and the time limit.",
+    "Publish a one-page plain note on what the model does, what data it uses and its known limits."
    ],
-   "ex": "Error gap between two groups was 11%; fixed by rebalancing data.",
+   "ex": "Error gap between two groups was 11%; fixed by rebalancing data. An error rate of 20% in group A and 9% in group B is a gap of 11 points. After rebalancing the data, errors were 13% and 11%, a gap of 2 points.",
    "act": "Write a fairness check.",
    "std": "Check has numbers."
   },
@@ -104,9 +125,12 @@
     "90 days.",
     "Measure saving, accuracy, satisfaction.",
     "Stop rule: accuracy under baseline → stop.",
-    "Plan roll-out."
+    "Plan roll-out.",
+    "Run the pilot with a control: compare time and error against a matched group not using the model.",
+    "Record weekly saving, accuracy, staff overrides and complaints.",
+    "Plan the roll-out in stages, one team, then two, then all, with a checklist for each stage."
    ],
-   "ex": "Saving 6,100 a month; proceed.",
+   "ex": "Saving 6,100 a month; proceed. Planned saving was 8,400, so 6,100 / 8,400 = about 73% was reached. Payback at 6,100 is 22,000 / 6,100 = about 3.6 months, so continue to roll-out.",
    "act": "Run pilot review.",
    "std": "Review has decision."
   }

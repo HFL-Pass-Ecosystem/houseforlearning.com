@@ -13,9 +13,12 @@
     "Types: home, workplace, destination (1-4 hours), fast (20-40 minutes).",
     "Site scores: dwell time, traffic, nearby amenities, grid power, safety, cost to connect.",
     "Visit three sites; count cars parked per hour.",
-    "Write a one-page site pitch to an owner."
+    "Write a one-page site pitch to an owner.",
+    "Ask the local utility early for the power available at the site and the cost to connect.",
+    "Count cars at three times of day to see the peak and the quiet periods.",
+    "Ask the owner what they gain: footfall, rent or a share of revenue."
    ],
-   "ex": "Shopping centre: average stay 90 minutes, 60 EV cars a day, grid connection 150 kW available; score 4.2/5.",
+   "ex": "Shopping centre: average stay 90 minutes, 60 EV cars a day, grid connection 150 kW available; score 4.2/5. If 25% of the cars would charge, 60 x 0.25 = 15 sessions a day is the ceiling to test. At 50 kW a 28 kWh session takes 28 / 50 = 0.56 hour, about 34 minutes, which fits inside the 90-minute stay.",
    "act": "Score three sites and choose one.",
    "std": "Counts recorded."
   },
@@ -26,9 +29,12 @@
     "Electrical work follows the provincial code and licensed electricians; permits and inspections are required.",
     "Utility connection agreements set capacity and timing.",
     "Accessibility and signage rules apply.",
-    "Selling electricity by the kWh is regulated by province; check how to charge."
+    "Selling electricity by the kWh is regulated by province; check how to charge.",
+    "Ask the provincial electrical authority which permit and inspection steps apply and who must hold the licence.",
+    "Ask the utility for the connection timeline and write it into your plan.",
+    "Check the provincial rule on whether you may charge by kWh, by time or by session."
    ],
-   "ex": "Row: 'Install a fast charger | provincial electrical authority | permit and inspection | before energising | inspection certificate'.",
+   "ex": "Row: 'Install a fast charger | provincial electrical authority | permit and inspection | before energising | inspection certificate'. Row: 'Charge by the kWh | provincial measurement and energy rules | check allowed method | before opening | written answer filed'. If the utility needs 12 weeks and the permit 4 weeks and they run in parallel, plan 12 weeks, not 16.",
    "act": "Build a rules table for one site.",
    "std": "Rows sourced and dated."
   },
@@ -39,9 +45,12 @@
     "Compute power: number of chargers x kW, with load management to share capacity.",
     "Plan cables, trenching, lighting and drainage.",
     "Choose connectors and payment methods that suit local cars.",
-    "Plan remote monitoring."
+    "Plan remote monitoring.",
+    "Have a licensed electrician size the cable and breaker; do not guess.",
+    "Lay out the bays so every cable reaches and none crosses a walkway.",
+    "Choose the load-management setting (fair share or first come) and write it down."
    ],
-   "ex": "4 chargers of 50 kW on a 150 kW supply with load sharing: no more than 3 run at full power at once.",
+   "ex": "4 chargers of 50 kW on a 150 kW supply with load sharing: no more than 3 run at full power at once (3 x 50 = 150). If all 4 are in use, each gets 150 / 4 = 37.5 kW, so a 28 kWh session takes 28 / 37.5 = 0.75 hour, or 45 minutes.",
    "act": "Draw a site layout and load plan.",
    "std": "Power sums checked."
   },
@@ -52,9 +61,12 @@
     "Energy margin = selling price - energy price - network fees.",
     "Add idle fees to free the bay.",
     "Include maintenance, software and site lease.",
-    "Compute payback."
+    "Compute payback.",
+    "List the cost lines (hardware, install, connection, signs, software) and sum them.",
+    "Set the price per kWh from the margin you need, then compare with nearby prices.",
+    "Run three cases: low, medium and high sessions per day."
    ],
-   "ex": "Installed cost 18,000. At 12 sessions a day x 28 kWh x 0.18 margin = about 60 a day, 1,800 a month; less 400 for site, software and upkeep = 1,400 net; payback = 18,000 / 1,400 = about 13 months. Low case, 5 sessions a day: 756 - 400 = 356 net; payback about 51 months. Teaching figures in CAD.",
+   "ex": "Installed cost 18,000. High case: 12 sessions a day x 28 kWh x 0.18 margin = 60.48 a day, about 1,800 a month; less 400 for site, software and upkeep leaves 1,400, so payback = 18,000 / 1,400 = about 13 months. Low case: 5 sessions a day gives 25.20 a day, about 756 a month; less 400 leaves 356, so payback = 18,000 / 356 = about 51 months. Teaching figures in CAD.",
    "act": "Build a payback model with a low-use case.",
    "std": "Three cases shown."
   },
@@ -65,9 +77,12 @@
     "Monitor remotely; alert on faults.",
     "Respond within a set time.",
     "Clean and inspect monthly.",
-    "Track uptime and sessions."
+    "Track uptime and sessions.",
+    "Write a fault response plan: who is called, in what order and within what time.",
+    "Keep spare parts for common faults (connector, cable) on a shelf.",
+    "Check payment terminals and screens weekly and record the result."
    ],
-   "ex": "Uptime 97% target; fault repaired within 24 hours.",
+   "ex": "Uptime 97% target; fault repaired within 24 hours. In a 30-day month (720 hours), 3% downtime allows only 720 x 0.03 = 21.6 hours, so one 24-hour fault alone breaks the target; spare parts on the shelf prevent this.",
    "act": "Keep a 4-week uptime log.",
    "std": "Faults and fixes recorded."
   },
@@ -78,9 +93,12 @@
     "Offer revenue share to site owners.",
     "List on charging maps.",
     "Offer fleet plans.",
-    "Collect feedback."
+    "Collect feedback.",
+    "Prepare a one-page revenue-share offer showing the owner's income at low, medium and high use.",
+    "List the site on charging maps and check that its details are right.",
+    "Ask five drivers what would make them return and record the answers."
    ],
-   "ex": "Funnel: 20 sites, 6 meetings, 2 agreements.",
+   "ex": "Funnel: 20 sites, 6 meetings, 2 agreements; that is 6 / 20 = 30% to a meeting and 2 / 6 = 33% to an agreement. If the owner gets 10% of a 1,800 monthly margin, the owner earns 180 and you keep 1,620.",
    "act": "Pitch three site owners.",
    "std": "Pitch has numbers."
   },
@@ -91,9 +109,12 @@
     "Cable and trip hazards, vandalism, weather.",
     "Peak demand charges.",
     "Cyber security for chargers.",
-    "Insurance."
+    "Insurance.",
+    "Walk the site at night and list hazards (lighting, trip points, vehicle impact) with a fix for each.",
+    "Ask the utility how demand charges are set and compute the worst month.",
+    "Change default passwords, apply updates and limit who can control the chargers."
    ],
-   "ex": "Risk: 'Peak demand charge | 3 x 4 | load management | ops | monthly'.",
+   "ex": "Risk: 'Peak demand charge | 3 x 4 | load management | ops | monthly'. Suppose the utility charged 12 per kW of monthly peak (an assumed rate; check the real tariff): a 150 kW peak costs 150 x 12 = 1,800, while limiting load to 100 kW costs 100 x 12 = 1,200, a saving of 600 a month.",
    "act": "Write risk register.",
    "std": "Owners named."
   },
@@ -104,9 +125,12 @@
     "90 days.",
     "Measure sessions, kWh, uptime.",
     "Stop rule: under 3 sessions a day after 60 days means move or adjust price.",
-    "Plan roll-out."
+    "Plan roll-out.",
+    "Set up counters for sessions, kWh, uptime and revenue before day one.",
+    "Review at day 30, 60 and 90 and adjust price or signs using the data.",
+    "Write the roll-out plan with site criteria, budget and order."
    ],
-   "ex": "5.2 sessions per day; proceed.",
+   "ex": "5.2 sessions per day; proceed. Over 90 days that is 5.2 x 90 = 468 sessions, and at 28 kWh each, 468 x 28 = 13,104 kWh. The stop rule of 3 sessions a day would be 3 x 90 = 270 sessions, so the site clears it easily.",
    "act": "Run pilot review.",
    "std": "Review has decision."
   }
