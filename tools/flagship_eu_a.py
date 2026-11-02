@@ -5,6 +5,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import build_full_courses as B
 from flagship_data_eu_ladder import LADDER
 from flagship_eu_a_rubric import RUBRIC
+from ladder_common import deep_slide, LADDER_MODULE_IDX, quiz_for_module, pick_module
 LV = {1: 'L1 Basic', 2: 'L2 Awareness', 3: 'L3 Foundation', 4: 'L4 Practitioner', 5: 'L5 Specialist', 6: 'L6 Advanced', 7: 'L7 Super expert'}
 e = html.escape
 
@@ -241,6 +242,16 @@ C.append(dict(id='EU-05', title='IT Business and Managed Services', lvl='L4 Prac
  quiz=[('Difference between break-fix and managed?', 'Break-fix reacts and bills by the hour; managed prevents and bills a fixed fee.', 1), ('Why exclusions in a catalogue?', 'To protect both sides from unclear scope.', 2), ('Break-even clients for fixed costs 900, margin 260?', '4 (3.5 rounded up).', 3), ('Why written permission?', "It is the legal basis to touch the client's systems.", 4), ('What do you do in onboarding?', 'Inventory, fix basics, set up tickets, kick-off and guide.', 5), ('Why test a restore?', 'A backup you have not restored is unproven.', 6), ('What belongs in a monthly report?', 'Tickets, response times, outages, updates, backup tests, risks, next actions.', 7), ('Name two response targets.', 'Urgent within 1 hour, normal within 1 working day.', 2), ('Why get an adviser to check the agreement?', 'Laws differ and mistakes are costly.', 4), ('What limits growth?', 'Hours per client and your capacity to keep promises.', 8)],
  jobs=["IT support technician","Managed services coordinator","Small IT business owner","Help desk analyst","Systems administrator assistant"], prereq="None"))
 
+def ladder_html(c):
+    out = ''
+    used = []
+    texts = [' || '.join([m[0], m[3], ' '.join(m[4]), m[5], m[6]]) for m in c['mods']]
+    for i, (tt, n) in enumerate(LADDER[c['id']], 1):
+        k = pick_module(texts, tt, n, LADDER_MODULE_IDX[i-1], used); used.append(k)
+        on, nt = deep_slide(i, tt, n, c['mods'][k], quiz_for_module(c['quiz'], k + 1))
+        out += f'<details class="mod"><summary>Slide {i}. {LV[i]}: {e(tt)}</summary><p><strong>On the slide:</strong> {LV[i]} · {e(on)}</p><p><strong>Notes:</strong> {e(nt)}</p></details>'
+    return out
+
 def build(c):
     total = sum(m[2] for m in c['mods'])
     mods = ''
@@ -262,7 +273,7 @@ def build(c):
         f'<p class="ws-note">{e(c["safety"])}</p><p><strong>Requirements:</strong> {e(c["prereq"])}. Currency is shown on every number.</p>')
     body = (about + B.sec('alt', 'md', 'lesson by lesson', f'{len(c["mods"])} modules with worked examples ({total} h guided)', mods)
             + B.sec('', 'as', 'assessment', 'How you are checked', f'<p>Evidence: your record, numbers and reflections. Two peers and one mentor mark it with this rubric. Pass: no criterion at "Not yet" and at least 70% on the check.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{quiz}')
-            + B.sec('alt', 'ld', 'ladder L1 to L7', 'Slide by slide, with notes', '<p>Seven slides, one for each level. Step in at your level and move up; credits stack.</p>' + ''.join(f'<details class="mod"><summary>Slide {i}. {LV[i]}: {e(t)}</summary><p><strong>On the slide:</strong> {LV[i]} · {e(t)}</p><p><strong>Notes:</strong> {e(n)}</p></details>' for i, (t, n) in enumerate(LADDER[c['id']], 1)))
+            + B.sec('alt', 'ld', 'ladder L1 to L7', 'Slide by slide, with notes', '<p>Seven slides, one for each level. Step in at your level and move up; credits stack.</p>' + ladder_html(c))
             + B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', '<ul>' + ''.join(f'<li>{e(j)}</li>' for j in c['jobs']) + '</ul>')
             + B.sec('alt', 'lc', 'ten locations and global', 'Your place', '<p>Use your own currency, language and local rules. Check each rule with your local authority.</p>' + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Currency {L["cur"]}; language {e(L["lang"])}; set up legally: {e(L["reg"])}; personal data: {e(L["data"])}; where to practise: {e(L["partner"])}.</p></details>' for L in B.LOC) + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
             + B.sec('', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship-depth course. Own wording. Not live.</p>'))
