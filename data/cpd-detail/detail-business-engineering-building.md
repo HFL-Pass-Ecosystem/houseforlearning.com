@@ -23,9 +23,9 @@ Method and recording only. Figures invented. Engineering and safety rules vary b
 **Checks:** 1 Formula for three-phase current? *P / (sqrt3 x V x pf).* 2 Why correct the rating? *Heat, grouping and method change what the cable can carry.* 3 What else after current? *Voltage drop and short-circuit withstand.* 4 Where is the rule? *Your national standard; cite clause and table.*
 
 ## ENG-002 Check a protection setting
-**Worked example:** One-line: supply, main breaker, feeder breaker, motor. Rule of thumb for order: devices nearer the load must trip faster than devices nearer the supply for the same fault (selectivity). Compare given settings with the coordination curve; if the feeder curve crosses above the main's, report the mismatch and ask the responsible engineer.
+**Worked example:** One-line: supply, main breaker, feeder breaker, motor. Rule of thumb for order: devices nearer the load must trip faster than devices nearer the supply for the same fault (selectivity). Compare the given settings with the coordination curve; if the feeder curve crosses above the main's, report the mismatch and ask the responsible engineer.
 **Case card:** two curves and a one-line diagram.
-**Checks:** 1 What is selectivity? *Only the device nearest the fault trips.* 2 Who changes a setting? *Only the authorised person.* 3 What do you report? *The device, the setting, the mismatch, the evidence.* 4 Is a pass on paper enough? *No; tests on site confirm.*
+**Checks:** 1 What is selectivity? *Only the device nearest the fault trips.* 2 Who changes a setting? *Only the authorised person.* 3 What do you report? *The device, the setting, the mismatch, the evidence.* 4 Is a pass on paper enough? *No; say what could not be verified and ask a qualified person to confirm on site.*
 
 ## ENG-003 Prepare a site test record
 **Worked example fields:** circuit, device, test type, reading, limit, pass/fail, tester, date, instrument serial and calibration date.
@@ -33,7 +33,7 @@ Method and recording only. Figures invented. Engineering and safety rules vary b
 **Checks:** 1 Why record calibration? *Readings are only valid with a calibrated instrument.* 2 Blank fields allowed? *No; write "N/A" with a reason.* 3 What if a reading fails? *Mark fail, tell the responsible person, retest after fixing.* 4 Who signs? *The tester and, where needed, the reviewer.*
 
 ## BLD-001 Inspect a site for safety
-**Worked example (hazard, risk, action):** Unprotected edge on first floor: risk High; action edge protection today; owner site manager; due same day. Trailing cable across walkway: Medium; reroute; electrician; tomorrow.
+**Worked example (hazard, risk, action):** Unprotected edge on first floor: risk High; action edge protection today; owner site manager; due same day. Trailing cable across walkway: Medium; reroute; electrician; within 2 days.
 **Case card:** a set of 10 invented site photos described in text.
 **Checks:** 1 Order of control (highest first)? *Eliminate, substitute, engineer controls, admin, PPE.* 2 What does a good action list have? *Owner and date.* 3 Who stops work for imminent danger? *Anyone; follow stop-work rule.* 4 Record where? *The inspection log.*
 
