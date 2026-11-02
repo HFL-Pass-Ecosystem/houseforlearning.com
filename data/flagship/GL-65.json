@@ -245,39 +245,39 @@
  "local": "Reporting rules and emission factors differ by place and year.",
  "ladder": [
   [
-   "Know the basics",
-   "L1: learner can say what CO2e means.",
-   "Concept."
+   "Why measure",
+   "L1: learner can say what CO2e means. Focus module: Why measure (Understand, 3 h). You cannot cut what you do not count. Key points: Greenhouse gases trap heat; CO2 is the main one. CO2e converts other gases to CO2 equivalent. Reporting supports cost savings and customers.",
+   "Teach: open with the worked example. Methane has a larger warming effect than CO2 per tonne. Then set the activity: Explain CO2e. Mark against the standard: Peer understands. Check at this level: What are scope 1, 2 and 3? Model answer: Direct, purchased energy, other chain emissions. Concept."
   ],
   [
-   "Know the rules and risks",
-   "L2: learner knows scopes.",
-   "Scopes."
+   "Boundaries and scopes",
+   "L2: learner knows scopes. Focus module: Boundaries and scopes (Understand, 4 h). Decide what is in. Key points: Organisational boundary: control or ownership. Scope 1 direct; scope 2 purchased energy; scope 3 other chain. Write what is excluded.",
+   "Teach: open with the worked example. Company vehicles are scope 1; electricity is scope 2. Then set the activity: Set a boundary. Mark against the standard: Written. Check at this level: What is CO2e? Model answer: CO2 equivalent of other gases. Scopes."
   ],
   [
-   "Prepare and set up",
-   "L3: learner can collect data.",
-   "Data."
+   "Activity data",
+   "L3: learner can collect data. Focus module: Activity data (Apply, 5 h). Collect clean data. Key points: Bills, meters, fuel logs, travel records. Units must match: litres, kWh, km. Record source and date.",
+   "Teach: open with the worked example. Fuel invoices give 1,200 litres. Then set the activity: Collect data for a case. Mark against the standard: Sources noted. Check at this level: Emissions formula? Model answer: Activity data x emission factor. Data."
   ],
   [
-   "Run it",
-   "L4: learner can calculate.",
-   "Maths."
+   "Emission factors",
+   "L4: learner can calculate. Focus module: Emission factors (Apply, 5 h). Convert data. Key points: Emissions = activity data x factor. Use recent, local factors. Record version.",
+   "Teach: open with the worked example. 1,200 L x 2.68 kg CO2 per litre = 3,216 kg. Then set the activity: Calculate five lines. Mark against the standard: Maths correct. Check at this level: Why record sources? Model answer: To audit. Maths."
   ],
   [
-   "Specialise and measure",
-   "L5: learner can find hotspots.",
-   "Hotspots."
+   "Scope 3",
+   "L5: learner can find hotspots. Focus module: Scope 3 (Analyse, 5 h). The big chain. Key points: Purchased goods, travel, commuting, waste. Start with the largest categories. Use estimates and say so.",
+   "Teach: open with the worked example. Travel is 22% of the total. Then set the activity: Estimate two categories. Mark against the standard: Method stated. Check at this level: Name a scope 3 category. Model answer: Purchased goods, travel, commuting or waste. Hotspots."
   ],
   [
-   "Lead a small team",
-   "L6: learner can lead an inventory.",
-   "Lead."
+   "Hotspots and targets",
+   "L6: learner can lead an inventory. Focus module: Hotspots and targets (Analyse, 4 h). Where to act. Key points: Rank sources. Set reduction targets and dates. Cost the actions.",
+   "Teach: open with the worked example. Efficient lighting cuts 8% for a payback of 2 years. Then set the activity: Draw a hotspot chart. Mark against the standard: Ranked. Check at this level: Double counting? Model answer: Counting the same emission twice. Lead."
   ],
   [
-   "Advise and audit others",
-   "L7: learner can audit.",
-   "Peer audit."
+   "Report and verify",
+   "L7: learner can audit. Focus module: Report and verify (Create, 4 h). Share honestly. Key points: Summary, method, limits. Independent review. Update yearly.",
+   "Teach: open with the worked example. The report states excluded sources. Then set the activity: Write the report. Mark against the standard: Reproducible. Check at this level: Why local factors? Model answer: Grids and fuels differ. Peer audit."
   ]
  ]
 }

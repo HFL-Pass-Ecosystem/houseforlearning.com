@@ -245,39 +245,39 @@
  "local": "Standards, subsidies and tax differ by place.",
  "ladder": [
   [
-   "Know the basics",
-   "L1: learner can name EV parts.",
-   "Diagram."
+   "How an EV works",
+   "L1: learner can name EV parts. Focus module: How an EV works (Understand, 3 h). Battery to motor to wheels. Key points: Parts: battery pack, inverter, motor, charger, controller. Regenerative braking returns some energy. Energy use in kWh per 100 km.",
+   "Teach: open with the worked example. A car using 15 kWh per 100 km travels 400 km on 60 kWh. Then set the activity: Draw a block diagram. Mark against the standard: Parts labelled. Check at this level: What does regen braking do? Model answer: Returns some energy to the battery. Diagram."
   ],
   [
-   "Know the rules and risks",
-   "L2: learner knows safety basics.",
-   "Safety."
+   "Batteries",
+   "L2: learner knows safety basics. Focus module: Batteries (Understand, 3 h). Range and life depend on the pack. Key points: Capacity in kWh; usable capacity is less. Heat, fast charging and deep discharge age batteries. Warranty usually covers years and distance.",
+   "Teach: open with the worked example. Keeping charge between 20% and 80% daily can slow ageing. Then set the activity: Summarise battery care. Mark against the standard: Five tips. Check at this level: Charging time formula? Model answer: Energy / power plus losses. Safety."
   ],
   [
-   "Prepare and set up",
-   "L3: learner can calculate charge times.",
-   "Maths."
+   "Charging levels",
+   "L3: learner can calculate charge times. Focus module: Charging levels (Apply, 4 h). Speed depends on power. Key points: Slow home charging, faster wallbox, fast public chargers. Time = energy / power, plus losses. Plug types and compatibility.",
+   "Teach: open with the worked example. To add 30 kWh at 7 kW takes about 4.5 hours. Then set the activity: Calculate three charge times. Mark against the standard: Maths correct. Check at this level: Name a battery ageing factor. Model answer: Heat or frequent fast charging. Maths."
   ],
   [
-   "Run it",
-   "L4: learner can compare costs.",
-   "Costs."
+   "Running cost",
+   "L4: learner can compare costs. Focus module: Running cost (Analyse, 4 h). Compare fairly. Key points: EV: kWh per 100 km times price per kWh. Petrol: litres per 100 km times price per litre. Add service, insurance, tax, depreciation.",
+   "Teach: open with the worked example. EV: 15 kWh x 8 INR = 120 INR per 100 km; petrol: 7 L x 100 INR = 700 INR. Then set the activity: Compare for your place. Mark against the standard: Currency shown. Check at this level: Who works on orange cables? Model answer: Trained technicians. Costs."
   ],
   [
-   "Specialise and measure",
-   "L5: learner can plan trips.",
-   "Trips."
+   "Range reality",
+   "L5: learner can plan trips. Focus module: Range reality (Evaluate, 3 h). Real range is not the label range. Key points: Speed, temperature, load and hills change range. Plan trips with charger stops. Keep a reserve.",
+   "Teach: open with the worked example. Cold and highway driving cut range by 25%. Then set the activity: Plan a 300 km trip. Mark against the standard: Charging stops listed. Check at this level: What affects range? Model answer: Speed, temperature, load, hills. Trips."
   ],
   [
-   "Lead a small team",
-   "L6: learner can coordinate a fleet.",
-   "Fleet."
+   "Battery end of life",
+   "L6: learner can coordinate a fleet. Focus module: Battery end of life (Evaluate, 3 h). Reuse and recycle. Key points: Second-life storage use. Recycling recovers metals. Check collection programmes.",
+   "Teach: open with the worked example. An old pack powers a shop's backup. Then set the activity: Describe three end-of-life options. Mark against the standard: Options listed. Check at this level: EV running cost steps? Model answer: kWh per 100 km x price per kWh. Fleet."
   ],
   [
-   "Advise and audit others",
-   "L7: learner can audit advice.",
-   "Peer audit."
+   "Advice sheet",
+   "L7: learner can audit advice. Focus module: Advice sheet (Create, 3 h). Honest advice. Key points: State fit: daily distance, home charging, budget. List cons as well as pros. Show assumptions.",
+   "Teach: open with the worked example. Advice says an EV suits a commuter with home charging but not a user with no parking. Then set the activity: Write the sheet. Mark against the standard: Reader can decide. Check at this level: Name an end-of-life option. Model answer: Second life or recycling. Peer audit."
   ]
  ]
 }

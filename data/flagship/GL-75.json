@@ -245,39 +245,39 @@
  "local": "Product-safety, textile labelling and health-data rules differ by place.",
  "ladder": [
   [
-   "Know the basics",
-   "L1: learner can name uses.",
-   "Uses."
+   "What smart apparel is",
+   "L1: learner can name uses. Focus module: What smart apparel is (Understand, 3 h). Clothing that senses. Key points: Heart rate, motion, temperature, posture. Conductive threads, printed ink, small modules. Use cases: sport, care, safety.",
+   "Teach: open with the worked example. A shirt tracks breathing for athletes. Then set the activity: List five use cases. Mark against the standard: Table. Check at this level: Name a use. Model answer: Sport, care or safety. Uses."
   ],
   [
-   "Know the rules and risks",
-   "L2: learner knows materials.",
-   "Materials."
+   "Materials",
+   "L2: learner knows materials. Focus module: Materials (Understand, 3 h). Comfort first. Key points: Stretch, breathable fabrics; skin-safe materials. Conductive yarn and flexible circuits. Allergy awareness.",
+   "Teach: open with the worked example. Silver yarn stays conductive after washing better than plain thread. Then set the activity: Compare materials. Mark against the standard: Table. Check at this level: Why removable module? Model answer: For washing. Materials."
   ],
   [
-   "Prepare and set up",
-   "L3: learner can design a block.",
-   "Design."
+   "Sensors and power",
+   "L3: learner can design a block. Focus module: Sensors and power (Apply, 4 h). Make it work. Key points: Choose sensor for the need; keep wires short. Small battery with protection; low voltage. Waterproof modules.",
+   "Teach: open with the worked example. A 3.7 V cell with a protection board. Then set the activity: Design a block diagram. Mark against the standard: Parts labelled. Check at this level: Safe voltage? Model answer: Low voltage. Design."
   ],
   [
-   "Run it",
-   "L4: learner can build.",
-   "Build."
+   "Prototype",
+   "L4: learner can build. Focus module: Prototype (Apply, 4 h). Build small. Key points: Sew or attach; strain relief. Test continuity and signal. Keep modules removable for washing.",
+   "Teach: open with the worked example. A removable module cuts failures. Then set the activity: Build or plan a prototype. Mark against the standard: Test passes. Check at this level: Accuracy measure? Model answer: Percent error. Build."
   ],
   [
-   "Specialise and measure",
-   "L5: learner can test.",
-   "Test."
+   "Wash and wear tests",
+   "L5: learner can test. Focus module: Wash and wear tests (Analyse, 4 h). Real use. Key points: Wash cycles; sweat; stretch. Count cycles until failure. Comfort rating by users.",
+   "Teach: open with the worked example. Signals fail after 8 washes; sealing improves it. Then set the activity: Run tests. Mark against the standard: Log complete. Check at this level: Material concern? Model answer: Skin allergy. Test."
   ],
   [
-   "Lead a small team",
-   "L6: learner can lead a pilot.",
-   "Lead."
+   "Privacy, safety and rules",
+   "L6: learner can lead a pilot. Focus module: Privacy, safety and rules (Evaluate, 4 h). Health data matters. Key points: Consent; secure storage; clear purpose. Battery and skin safety. Claims must be modest.",
+   "Teach: open with the worked example. The app stores data only on the phone. Then set the activity: Write a plan. Mark against the standard: Items listed. Check at this level: Privacy rule? Model answer: Consent and secure storage. Lead."
   ],
   [
-   "Advise and audit others",
-   "L7: learner can audit.",
-   "Peer audit."
+   "Cost and pilot",
+   "L7: learner can audit. Focus module: Cost and pilot (Create, 3 h). Small first run. Key points: Cost per garment; price. Pilot with 10 users. Feedback and repair plan.",
+   "Teach: open with the worked example. Cost 780 INR; price 1,600 INR. Then set the activity: Cost and plan. Mark against the standard: Currency shown. Check at this level: Wash test? Model answer: Count cycles to failure. Peer audit."
   ]
  ]
 }

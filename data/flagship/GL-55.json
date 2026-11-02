@@ -245,39 +245,39 @@
  "local": "Permits, grid rules and safety law differ by place.",
  "ladder": [
   [
-   "Know the basics",
-   "L1: learner can name turbine parts.",
-   "Diagram."
+   "How a turbine works",
+   "L1: learner can name turbine parts. Focus module: How a turbine works (Understand, 3 h). Blades turn a shaft that drives a generator. Key points: Parts: rotor, hub, gearbox or direct drive, generator, tower, controller. Cut-in, rated and cut-out wind speeds. Power grows with the cube of wind speed.",
+   "Teach: open with the worked example. Doubling wind speed gives about eight times more power. Then set the activity: Label a turbine diagram. Mark against the standard: All main parts named. Check at this level: What does the generator do? Model answer: Turns rotation into electricity. Diagram."
   ],
   [
-   "Know the rules and risks",
-   "L2: learner knows wind and safety basics.",
-   "Safety first."
+   "Wind and sites",
+   "L2: learner knows wind and safety basics. Focus module: Wind and sites (Analyse, 4 h). Good wind makes or breaks a project. Key points: Wind speed rises with height; obstacles cause turbulence. Use at least a year of data; hourly averages. Choose open land away from buildings and trees.",
+   "Teach: open with the worked example. A hilltop averages 6.5 m/s at 30 m; a valley 4.2 m/s. Then set the activity: Tabulate monthly wind for a site. Mark against the standard: Table has twelve months with source. Check at this level: What happens to power when wind doubles? Model answer: About eight times more. Safety first."
   ],
   [
-   "Prepare and set up",
-   "L3: learner can estimate energy.",
-   "Do the sum."
+   "Energy estimate",
+   "L3: learner can estimate energy. Focus module: Energy estimate (Apply, 5 h). Estimate in simple steps. Key points: Swept area = pi x r squared. Power = 0.5 x air density x area x speed cubed x efficiency. Annual energy = average power x hours x capacity factor. Capacity factor of small turbines is often 15 to 30 percent.",
+   "Teach: open with the worked example. A 5 kW turbine at 22% factor makes about 9,600 kWh a year. Then set the activity: Calculate annual energy for your case. Mark against the standard: Units and steps shown. Check at this level: Swept area formula? Model answer: Pi x radius squared. Do the sum."
   ],
   [
-   "Run it",
-   "L4: learner can run a site wind log.",
-   "Log."
+   "Types and sizes",
+   "L4: learner can run a site wind log. Focus module: Types and sizes (Analyse, 3 h). Small, community and large. Key points: Horizontal vs vertical axis. Small turbines suit remote sites; large ones suit farms and grids. Grid-tied vs off-grid with batteries.",
+   "Teach: open with the worked example. A village chooses a grid-tied turbine to cut diesel use. Then set the activity: Compare 3 turbines. Mark against the standard: Table includes cost per kW. Check at this level: Typical small capacity factor? Model answer: 15 to 30 percent. Log."
   ],
   [
-   "Specialise and measure",
-   "L5: learner can compare types and costs.",
-   "Compare."
+   "Cost and payback",
+   "L5: learner can compare types and costs. Focus module: Cost and payback (Evaluate, 4 h). Count the full cost. Key points: Turbine, tower, foundation, wiring, permits, installation, maintenance. Value electricity by units saved or sold. Payback = cost / yearly benefit.",
+   "Teach: open with the worked example. Cost 650,000 INR; yearly benefit 85,000 INR; payback 7.6 years. Then set the activity: Build a payback sheet. Mark against the standard: Maths correct; currency shown. Check at this level: Name a cost item. Model answer: Turbine, tower, foundation, wiring, permits, maintenance. Compare."
   ],
   [
-   "Lead a small team",
-   "L6: learner can coordinate a small project.",
-   "Rota."
+   "Environment and community",
+   "L6: learner can coordinate a small project. Focus module: Environment and community (Evaluate, 3 h). Share benefits and manage impacts. Key points: Noise, shadow flicker, birds and bats, land use. Consult neighbours early; follow permit rules. Plan decommissioning and recycling.",
+   "Teach: open with the worked example. Radar checks and seasonal shutdowns protect migrating birds. Then set the activity: List impacts and controls. Mark against the standard: Each has a control. Check at this level: Payback formula? Model answer: Cost divided by yearly benefit. Rota."
   ],
   [
-   "Advise and audit others",
-   "L7: learner can audit a feasibility note.",
-   "Peer audit."
+   "Feasibility note",
+   "L7: learner can audit a feasibility note. Focus module: Feasibility note (Create, 4 h). Pull it together. Key points: One-page summary, assumptions, risks and next steps. State what you do not know. Review by a mentor.",
+   "Teach: open with the worked example. The note advises a wind monitoring mast for one year before buying. Then set the activity: Write and present it. Mark against the standard: Peer can follow the numbers. Check at this level: Who may work at height? Model answer: Trained, certified people. Peer audit."
   ]
  ]
 }

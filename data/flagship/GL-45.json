@@ -245,39 +245,39 @@
  "local": "Health-data and telehealth rules differ by place; check licensing and data rules with an adviser.",
  "ladder": [
   [
-   "Know the basics",
-   "L1: learner can name the steps of a patient visit.",
-   "Use a drawing."
+   "The patient journey",
+   "L1: learner can name the steps of a patient visit. Focus module: The patient journey (Understand, 3 h). Map every step so none is forgotten. Key points: Request, book, remind, join, identify, consent, consult, record, follow up. Mark who does each step: patient, front desk, clinician, system. Add a way for patients with no smartphone.",
+   "Teach: open with the worked example. A clinic adds phone-in booking for older patients, so 20% more elderly patients attend. Then set the activity: Draw your journey map. Mark against the standard: All nine steps have an owner. Check at this level: Name four steps in the journey. Model answer: Booking, reminder, ID check, consent, consult, record, follow-up. Use a drawing."
   ],
   [
-   "Know the rules and risks",
-   "L2: learner knows why consent and privacy come first.",
-   "Explain consent."
+   "Booking and reminders",
+   "L2: learner knows why consent and privacy come first. Focus module: Booking and reminders (Apply, 4 h). Good booking reduces no-shows. Key points: Slots by clinician, length and type; buffer time between visits. Reminders by message the day before and one hour before. Cancel and reschedule in two taps.",
+   "Teach: open with the worked example. A clinic cuts no-shows from 18% to 9% with two reminders. Then set the activity: Configure slots and reminders in a practice tool. Mark against the standard: Test booking works with 5 mock patients. Check at this level: Why two reminders? Model answer: They cut no-shows. Explain consent."
   ],
   [
-   "Prepare and set up",
-   "L3: learner can set up booking and reminders.",
-   "Practise on a free tool."
+   "Identity and consent",
+   "L3: learner can set up booking and reminders. Focus module: Identity and consent (Apply, 4 h). Know who is on the call and that they agree. Key points: Check name and date of birth; for minors, a guardian. Ask consent for the video, notes and any recording. Record consent in the visit file.",
+   "Teach: open with the worked example. The clinician says: \"Please confirm your name and birth date. Are you happy to have this visit by video?\" Then set the activity: Write a consent script. Mark against the standard: Script covers identity, visit by video, notes and privacy. Check at this level: What do you check before video visits? Model answer: Identity and consent. Practise on a free tool."
   ],
   [
-   "Run it",
-   "L4: learner can run a mock virtual visit.",
-   "Role-play a failed call."
+   "Technology and connection",
+   "L4: learner can run a mock virtual visit. Focus module: Technology and connection (Analyse, 4 h). Failures are normal; plan for them. Key points: Test link, camera, mic and speed before the visit. If video fails, switch to voice, then phone, then rebook. Keep a technical help number.",
+   "Teach: open with the worked example. A test call finds the patient's microphone is muted; a 2-minute fix. Then set the activity: Write a three-step fall-back and run it twice. Mark against the standard: Fall-back restores contact within 10 minutes. Check at this level: What is the fall-back order? Model answer: Voice, phone, then rebook. Role-play a failed call."
   ],
   [
-   "Specialise and measure",
-   "L5: learner can review tools and measure a pilot.",
-   "Share numbers."
+   "Privacy, security and records",
+   "L5: learner can review tools and measure a pilot. Focus module: Privacy, security and records (Evaluate, 4 h). Health records are the most sensitive data. Key points: Strong passwords, two-step sign-in, encrypted storage and access logs. Share only with those who need it; follow local health-data rules. Never use public chat tools without approval.",
+   "Teach: open with the worked example. A receptionist loses access because she shared a password; policy now bans sharing. Then set the activity: Complete a privacy and security checklist for your tool. Mark against the standard: No item fails without a fix plan. Check at this level: Name two security measures. Model answer: Two-step sign-in and encrypted storage. Share numbers."
   ],
   [
-   "Lead a small team",
-   "L6: learner can coordinate a small clinic desk.",
-   "Cover rota and training."
+   "Access and fairness",
+   "L6: learner can coordinate a small clinic desk. Focus module: Access and fairness (Analyse, 3 h). Not everyone has the same tools. Key points: Offer phone, large-text and language options. Support low-bandwidth modes and shared community points. Track who does not attend and ask why.",
+   "Teach: open with the worked example. A rural clinic uses a village centre with a tablet and a helper. Then set the activity: List three barriers and fixes. Mark against the standard: Each barrier has a fix and an owner. Check at this level: Name a case not for video. Model answer: Emergency such as chest pain. Cover rota and training."
   ],
   [
-   "Advise and audit others",
-   "L7: learner can audit a clinic for privacy and access.",
-   "Peer audit."
+   "Pilot and improve",
+   "L7: learner can audit a clinic for privacy and access. Focus module: Pilot and improve (Create, 3 h). Test with real steps before scaling. Key points: Run 10 mock visits; measure wait, success, satisfaction. Fix top problems; set a target such as 90% of calls start on time. Plan monthly reviews.",
+   "Teach: open with the worked example. First pilot: 7 of 10 on time; after fixing the link emails, 9 of 10. Then set the activity: Present your pilot review. Mark against the standard: Numbers are real and a next step is dated. Check at this level: Why keep access logs? Model answer: To show who saw a record. Peer audit."
   ]
  ]
 }

@@ -245,39 +245,39 @@
  "local": "Electrical and net-metering rules differ by place.",
  "ladder": [
   [
-   "Know the basics",
-   "L1: learner can name solar parts.",
-   "Diagram."
+   "System parts",
+   "L1: learner can name solar parts. Focus module: System parts (Understand, 3 h). Panels make direct current; the inverter converts it. Key points: Types: grid-tied, off-grid, hybrid. Parts: panels, mounting, inverter, wiring, breakers, meter, optional battery. Energy: kWh = kW x hours.",
+   "Teach: open with the worked example. A grid-tied system sends extra power to the network. Then set the activity: Draw a block diagram. Mark against the standard: All parts named. Check at this level: What converts DC to AC? Model answer: Inverter. Diagram."
   ],
   [
-   "Know the rules and risks",
-   "L2: learner knows safety basics.",
-   "Safety."
+   "Load list",
+   "L2: learner knows safety basics. Focus module: Load list (Apply, 4 h). Know what you use. Key points: List each appliance: watts, hours a day. Add daily watt-hours; check bills. Cut waste first, with efficient lamps and fans.",
+   "Teach: open with the worked example. A shop uses 12 kWh a day; efficient lights save 1.5 kWh. Then set the activity: Make a load list. Mark against the standard: Totals correct. Check at this level: kWh equals? Model answer: kW times hours. Safety."
   ],
   [
-   "Prepare and set up",
-   "L3: learner can make a load list.",
-   "Load list."
+   "Site survey",
+   "L3: learner can make a load list. Focus module: Site survey (Analyse, 4 h). Roof and shade decide output. Key points: Orientation, tilt, shade, roof strength, space. Sun hours per day in your place. Safe roof access and fall protection.",
+   "Teach: open with the worked example. A shade from a tank costs 8% in the afternoon; panels are moved. Then set the activity: Do a mock survey from a photo. Mark against the standard: Findings listed with fixes. Check at this level: Name a shading effect. Model answer: Output drops. Load list."
   ],
   [
-   "Run it",
-   "L4: learner can size a small system.",
-   "Size."
+   "Sizing",
+   "L4: learner can size a small system. Focus module: Sizing (Apply, 5 h). Match supply to load. Key points: Panel kW = daily kWh / (sun hours x system efficiency). Choose inverter slightly below panel kW. Battery size from backup hours and depth of discharge.",
+   "Teach: open with the worked example. 12 kWh a day, 5 sun hours, 0.75 efficiency: about 3.2 kW of panels. Then set the activity: Size your system. Mark against the standard: Steps shown. Check at this level: Panel sizing formula? Model answer: Daily kWh / (sun hours x efficiency). Size."
   ],
   [
-   "Specialise and measure",
-   "L5: learner can design protection and cost.",
-   "Protection."
+   "Electrical protection and earthing",
+   "L5: learner can design protection and cost. Focus module: Electrical protection and earthing (Apply, 5 h). Safety is not optional. Key points: Fuses, breakers, surge protection, isolators and earthing. Correct cable size and colours. Label everything.",
+   "Teach: open with the worked example. A DC isolator is added near the inverter. Then set the activity: List protective devices. Mark against the standard: Licensed mentor approves. Check at this level: Name two protective devices. Model answer: Breaker and surge protector. Protection."
   ],
   [
-   "Lead a small team",
-   "L6: learner can lead a small crew.",
-   "Crew."
+   "Cost and payback",
+   "L6: learner can lead a small crew. Focus module: Cost and payback (Evaluate, 4 h). Know the real numbers. Key points: Panels, inverter, mounting, cable, labour, permits. Savings per year from bills; maintenance. Payback and lifetime cost per kWh.",
+   "Teach: open with the worked example. Cost 210,000 INR; saving 32,000 INR a year; payback 6.6 years. Then set the activity: Build a cost sheet. Mark against the standard: Maths correct; currency shown. Check at this level: Who may wire live circuits? Model answer: Licensed electricians. Crew."
   ],
   [
-   "Advise and audit others",
-   "L7: learner can audit a design.",
-   "Peer audit."
+   "Design pack and handover",
+   "L7: learner can audit a design. Focus module: Design pack and handover (Create, 4 h). Hand over a clear pack. Key points: Single-line diagram, layout, specs, warranty. Teach the owner cleaning and safety. Plan checks every six months.",
+   "Teach: open with the worked example. The owner receives a one-page guide with shut-down steps. Then set the activity: Produce a design pack and handover sheet. Mark against the standard: Pack signed by a licensed person. Check at this level: Why label everything? Model answer: Safe maintenance and emergency. Peer audit."
   ]
  ]
 }

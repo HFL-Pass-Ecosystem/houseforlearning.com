@@ -245,39 +245,39 @@
  "local": "Product-safety and IP rules differ by place; do not copy protected designs.",
  "ladder": [
   [
-   "Know the basics",
-   "L1: learner can name printer types.",
-   "Types."
+   "Printers and materials",
+   "L1: learner can name printer types. Focus module: Printers and materials (Understand, 3 h). Know the options. Key points: Filament (fused) and resin printers. Plastics: PLA, PETG, ABS; resins need care. Match material to use.",
+   "Teach: open with the worked example. PLA is easy; PETG tougher. Then set the activity: Compare materials. Mark against the standard: Table. Check at this level: Easy filament? Model answer: PLA. Types."
   ],
   [
-   "Know the rules and risks",
-   "L2: learner knows safety.",
-   "Safety."
+   "Design for printing",
+   "L2: learner knows safety. Focus module: Design for printing (Apply, 4 h). Print-friendly shapes. Key points: Wall thickness, overhangs, tolerances. Orientation matters for strength. Add chamfers.",
+   "Teach: open with the worked example. A bracket printed on its side is stronger. Then set the activity: Design a part. Mark against the standard: Dimensions listed. Check at this level: Overhang fix? Model answer: Supports. Safety."
   ],
   [
-   "Prepare and set up",
-   "L3: learner can slice.",
-   "Slice."
+   "Slicing",
+   "L3: learner can slice. Focus module: Slicing (Apply, 4 h). Settings. Key points: Layer height, infill, speed, supports. Preview the path. Save settings.",
+   "Teach: open with the worked example. 0.2 mm layers with 20% infill. Then set the activity: Slice your part. Mark against the standard: Preview checked. Check at this level: Resin safety? Model answer: Gloves and eye protection. Slice."
   ],
   [
-   "Run it",
-   "L4: learner can print.",
-   "Print."
+   "Printing and safety",
+   "L4: learner can print. Focus module: Printing and safety (Apply, 4 h). Hot, moving, fumes. Key points: Ventilation; do not touch hot parts. Never leave long prints unattended without safeguards. Resin: gloves and eye protection.",
+   "Teach: open with the worked example. A smoke alarm and a fire blanket nearby. Then set the activity: Print and log. Mark against the standard: Log complete. Check at this level: Why ventilate? Model answer: Fumes. Print."
   ],
   [
-   "Specialise and measure",
-   "L5: learner can fix and cost.",
-   "Fix."
+   "Troubleshooting",
+   "L5: learner can fix and cost. Focus module: Troubleshooting (Analyse, 3 h). Fix failures. Key points: Warping, stringing, poor adhesion, clogs. Change one setting at a time. Keep notes.",
+   "Teach: open with the worked example. A heated bed fixes warping. Then set the activity: Fix two issues. Mark against the standard: Notes recorded. Check at this level: Warping fix? Model answer: Heated bed. Fix."
   ],
   [
-   "Lead a small team",
-   "L6: learner can lead a lab.",
-   "Lead."
+   "Testing",
+   "L6: learner can lead a lab. Focus module: Testing (Evaluate, 3 h). Does it work? Key points: Dimension check with calipers. Load test within safe limits. Document.",
+   "Teach: open with the worked example. The bracket holds 5 kg. Then set the activity: Test. Mark against the standard: Record. Check at this level: Measuring tool? Model answer: Calipers. Lead."
   ],
   [
-   "Advise and audit others",
-   "L7: learner can audit.",
-   "Peer audit."
+   "Cost and sale",
+   "L7: learner can audit. Focus module: Cost and sale (Create, 3 h). Price honestly. Key points: Material, power, machine time, labour, failures. Quote per part. Disclose limits.",
+   "Teach: open with the worked example. Cost 62 INR; price 150 INR. Then set the activity: Cost it. Mark against the standard: Currency shown. Check at this level: Costs? Model answer: Material, power, time, labour, failures. Peer audit."
   ]
  ]
 }
