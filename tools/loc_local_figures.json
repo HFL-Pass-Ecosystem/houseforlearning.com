@@ -1,0 +1,1361 @@
+{
+"status": "model estimates, no source, not proofread by a person",
+"figures": {
+"ge": {
+"3d-home-building": [
+650,
+520,
+9000,
+"square metre of shell built"
+],
+"affiliate-marketing": [
+25,
+8,
+1200,
+"confirmed sale commission earned"
+],
+"ai": [
+150,
+50,
+2500,
+"small AI task project delivered"
+],
+"alternative-protein-food-products": [
+9,
+6,
+9000,
+"250 g pack"
+],
+"biofuel-production": [
+3,
+2,
+4500,
+"litre of biofuel"
+],
+"biometric-sensor-security-company": [
+900,
+600,
+4500,
+"door set installed"
+],
+"blockchain-health-record": [
+15,
+5,
+3500,
+"record kept per month"
+],
+"boat-helicopter-tourism": [
+100,
+70,
+6000,
+"passenger per boat trip"
+],
+"box-subscription-services": [
+70,
+45,
+2500,
+"box shipped"
+],
+"bpo": [
+130,
+100,
+6000,
+"agent working day"
+],
+"business-coach": [
+120,
+25,
+1200,
+"coaching session hour"
+],
+"car-charging-stations": [
+12,
+8,
+2000,
+"charging session"
+],
+"car-sharing": [
+150,
+100,
+12000,
+"rental day"
+],
+"chatbots": [
+150,
+55,
+2500,
+"monthly bot plan"
+],
+"cloud-migration-as-a-service": [
+1400,
+800,
+5500,
+"server migrated"
+],
+"control-the-water": [
+90,
+50,
+2000,
+"metered water point installed"
+],
+"coworking": [
+250,
+70,
+4500,
+"desk per month"
+],
+"crowdfunding": [
+600,
+250,
+6000,
+"campaign fee"
+],
+"cryobank": [
+40,
+18,
+6000,
+"sample stored per month"
+],
+"ddos-prevention-security": [
+450,
+300,
+5000,
+"protected site per month"
+],
+"digital-marketing": [
+700,
+250,
+1500,
+"client per month"
+],
+"dna-analysis": [
+250,
+140,
+5000,
+"test processed"
+],
+"drones": [
+450,
+250,
+3500,
+"survey job"
+],
+"e-commerce-inventory-management": [
+600,
+200,
+4000,
+"client per month"
+],
+"ecommerce": [
+60,
+40,
+1800,
+"order shipped"
+],
+"electric-car": [
+120,
+70,
+3500,
+"service visit"
+],
+"esports": [
+20,
+13,
+1800,
+"player entry per tournament"
+],
+"fitness-tech": [
+12,
+7,
+2500,
+"user per month"
+],
+"ghost-kitchen": [
+28,
+17,
+5000,
+"order delivered"
+],
+"greenhouse-gas-auditor": [
+5000,
+3500,
+3500,
+"audit completed"
+],
+"grow-meat-in-a-lab": [
+400,
+280,
+8000,
+"kg pilot output"
+],
+"holographic-theater": [
+25,
+5,
+6000,
+"ticket sold"
+],
+"home-sharing": [
+130,
+40,
+2500,
+"night booked"
+],
+"influencer-marketing": [
+3000,
+1900,
+3000,
+"campaign run"
+],
+"internet-infrastructure": [
+35,
+12,
+5000,
+"subscriber per month"
+],
+"iot": [
+160,
+95,
+3000,
+"device sold"
+],
+"it-support": [
+40,
+15,
+1800,
+"device per month"
+],
+"lead-generation-small-business": [
+18,
+7,
+1200,
+"lead delivered"
+],
+"micro-mobility-services": [
+450,
+180,
+6000,
+"scooter per month"
+],
+"minority-businesses": [
+300,
+180,
+1500,
+"service package sold"
+],
+"mobile-app-testing": [
+400,
+300,
+3500,
+"tester day"
+],
+"nanosatellites": [
+1800,
+1200,
+15000,
+"image order delivered"
+],
+"nanotechnology-in-medicine": [
+1500,
+900,
+14000,
+"lab run"
+],
+"online-car-dealership": [
+22000,
+20500,
+7000,
+"car sold"
+],
+"online-currency-exchange": [
+15,
+8,
+1500,
+"1,000 GEL exchanged"
+],
+"online-fulfilment": [
+5,
+3,
+4500,
+"order packed and shipped"
+],
+"online-library": [
+8,
+3,
+1200,
+"member per month"
+],
+"online-medical-supply": [
+90,
+66,
+3500,
+"order delivered"
+],
+"online-therapy": [
+90,
+60,
+1200,
+"therapy session"
+],
+"online-tutoring": [
+35,
+10,
+800,
+"tutoring hour"
+],
+"p2p-lending-platform": [
+60,
+20,
+8000,
+"loan arranged fee"
+],
+"plastic-alternatives": [
+90,
+65,
+6000,
+"100 pieces made"
+],
+"podcasting": [
+250,
+60,
+1200,
+"sponsored episode"
+],
+"portable-charging-station": [
+80,
+55,
+2500,
+"unit sold"
+],
+"privacy-protection-firm": [
+2200,
+1500,
+3500,
+"project delivered"
+],
+"robotics": [
+1800,
+1100,
+6000,
+"robot kit sold"
+],
+"selling-ppe": [
+28,
+20,
+1800,
+"pack of 50 masks"
+],
+"senior-at-home-care": [
+14,
+9,
+1500,
+"care hour"
+],
+"skincare-spa-clinic": [
+90,
+40,
+5500,
+"treatment"
+],
+"smart-apparel": [
+140,
+75,
+5500,
+"garment sold"
+],
+"social-media-network": [
+30,
+8,
+2500,
+"100 active members per month"
+],
+"solar": [
+3300,
+2400,
+5000,
+"kW installed"
+],
+"space-tourism": [
+600,
+450,
+6000,
+"participant experience"
+],
+"stem-cell-therapy": [
+400,
+40,
+5000,
+"referral consultation"
+],
+"tele-video-conferencing": [
+120,
+40,
+2800,
+"room licence per month"
+],
+"three-d-printing": [
+12,
+4,
+1800,
+"machine hour"
+],
+"three-sixty-degree-photography": [
+350,
+220,
+2500,
+"scene or tour"
+],
+"vertical-farming": [
+18,
+12,
+4500,
+"kg of greens"
+],
+"veterinarian-business": [
+50,
+30,
+5500,
+"vet visit"
+],
+"virtual-event-planning-platform": [
+1500,
+800,
+4000,
+"event hosted"
+],
+"virtual-interior-design": [
+600,
+350,
+2500,
+"room design package"
+],
+"virtual-medical-appointment-system": [
+250,
+90,
+2500,
+"clinic per month"
+],
+"vr-live-events": [
+15,
+3,
+4500,
+"ticket sold"
+],
+"wallet-payment-solution": [
+12,
+5,
+4000,
+"1,000 GEL processed"
+],
+"wind-energy": [
+180,
+60,
+6000,
+"MWh sold"
+]
+},
+"hk": {
+"3d-home-building": [
+4500,
+3400,
+60000,
+"m2 of 3D-printed structure built"
+],
+"affiliate-marketing": [
+120,
+45,
+9000,
+"one referred sale commission"
+],
+"ai": [
+700,
+300,
+25000,
+"one AI consulting hour"
+],
+"alternative-protein-food-products": [
+180,
+110,
+60000,
+"kg of plant-based product"
+],
+"biofuel-production": [
+14,
+10,
+45000,
+"litre of biodiesel sold"
+],
+"biometric-sensor-security-company": [
+3800,
+2500,
+35000,
+"one access device installed"
+],
+"blockchain-health-record": [
+80,
+25,
+40000,
+"one patient record onboarded"
+],
+"boat-helicopter-tourism": [
+480,
+340,
+70000,
+"one passenger trip"
+],
+"box-subscription-services": [
+280,
+170,
+12000,
+"one monthly box shipped"
+],
+"bpo": [
+24000,
+19500,
+40000,
+"one agent-month of service"
+],
+"business-coach": [
+800,
+150,
+8000,
+"one coaching hour"
+],
+"car-charging-stations": [
+55,
+32,
+25000,
+"one 20 kWh charging session"
+],
+"car-sharing": [
+9000,
+7200,
+30000,
+"one car for one month"
+],
+"chatbots": [
+1500,
+500,
+18000,
+"one client chatbot per month"
+],
+"cloud-migration-as-a-service": [
+12000,
+7500,
+30000,
+"one small server migration"
+],
+"control-the-water": [
+450,
+250,
+12000,
+"one water-saving device installed"
+],
+"coworking": [
+2800,
+900,
+45000,
+"one desk per month"
+],
+"crowdfunding": [
+3000,
+1500,
+35000,
+"one campaign hosted"
+],
+"cryobank": [
+250,
+90,
+45000,
+"one sample stored per month"
+],
+"ddos-prevention-security": [
+3500,
+2200,
+40000,
+"one protected client per month"
+],
+"digital-marketing": [
+500,
+200,
+8000,
+"one hour of campaign work"
+],
+"dna-analysis": [
+1800,
+1000,
+60000,
+"one sample analysed"
+],
+"drones": [
+1500,
+900,
+25000,
+"one paid drone job"
+],
+"e-commerce-inventory-management": [
+3500,
+1500,
+25000,
+"one client per month"
+],
+"ecommerce": [
+280,
+190,
+10000,
+"one online order shipped"
+],
+"electric-car": [
+80,
+45,
+22000,
+"one hour of e-car rental"
+],
+"esports": [
+150,
+95,
+20000,
+"one tournament entry"
+],
+"fitness-tech": [
+68,
+35,
+15000,
+"one monthly app subscription"
+],
+"ghost-kitchen": [
+78,
+50,
+40000,
+"one delivery meal"
+],
+"greenhouse-gas-auditor": [
+16000,
+9500,
+25000,
+"one small-site audit"
+],
+"grow-meat-in-a-lab": [
+1000,
+700,
+90000,
+"kg of cultivated meat"
+],
+"holographic-theater": [
+150,
+30,
+60000,
+"one show ticket"
+],
+"home-sharing": [
+650,
+200,
+25000,
+"one guest night"
+],
+"influencer-marketing": [
+18000,
+11500,
+30000,
+"one campaign delivered"
+],
+"internet-infrastructure": [
+220,
+100,
+30000,
+"one broadband customer per month"
+],
+"iot": [
+900,
+550,
+22000,
+"one connected device installed"
+],
+"it-support": [
+450,
+220,
+15000,
+"one support hour"
+],
+"lead-generation-small-business": [
+120,
+45,
+8000,
+"one qualified lead"
+],
+"micro-mobility-services": [
+1400,
+600,
+35000,
+"one e-scooter per month"
+],
+"minority-businesses": [
+450,
+220,
+12000,
+"one advisory hour"
+],
+"mobile-app-testing": [
+9000,
+5500,
+30000,
+"one test cycle"
+],
+"nanosatellites": [
+45000,
+30000,
+90000,
+"one subsystem module built"
+],
+"nanotechnology-in-medicine": [
+28000,
+18000,
+90000,
+"one test batch"
+],
+"online-car-dealership": [
+120000,
+108000,
+45000,
+"one used car sold"
+],
+"online-currency-exchange": [
+45,
+28,
+25000,
+"one transfer completed"
+],
+"online-fulfilment": [
+2000,
+1500,
+40000,
+"100 orders packed and sent"
+],
+"online-library": [
+48,
+14,
+10000,
+"one subscriber per month"
+],
+"online-medical-supply": [
+650,
+460,
+30000,
+"one order shipped"
+],
+"online-therapy": [
+1000,
+650,
+15000,
+"one therapy session"
+],
+"online-tutoring": [
+350,
+230,
+12000,
+"one tutoring hour"
+],
+"p2p-lending-platform": [
+600,
+200,
+50000,
+"one loan arranged"
+],
+"plastic-alternatives": [
+260,
+180,
+40000,
+"100 compostable containers"
+],
+"podcasting": [
+2500,
+700,
+14000,
+"one episode produced"
+],
+"portable-charging-station": [
+320,
+190,
+20000,
+"one charger unit sold"
+],
+"privacy-protection-firm": [
+15000,
+9000,
+35000,
+"one compliance review"
+],
+"robotics": [
+12000,
+8000,
+60000,
+"one small robot built"
+],
+"selling-ppe": [
+60,
+38,
+12000,
+"one box of 50 masks"
+],
+"senior-at-home-care": [
+160,
+115,
+14000,
+"one care hour"
+],
+"skincare-spa-clinic": [
+680,
+280,
+50000,
+"one treatment"
+],
+"smart-apparel": [
+650,
+350,
+40000,
+"one smart garment sold"
+],
+"social-media-network": [
+40,
+8,
+25000,
+"1,000 ad views served"
+],
+"solar": [
+6500,
+4200,
+30000,
+"one 400 W panel installed"
+],
+"space-tourism": [
+15000,
+11000,
+80000,
+"one balloon flight seat"
+],
+"stem-cell-therapy": [
+5000,
+1200,
+80000,
+"one clinic treatment session"
+],
+"tele-video-conferencing": [
+2500,
+800,
+30000,
+"one meeting room per month"
+],
+"three-d-printing": [
+380,
+160,
+16000,
+"one printed part job"
+],
+"three-sixty-degree-photography": [
+4500,
+2200,
+18000,
+"one 360 photo shoot"
+],
+"vertical-farming": [
+90,
+60,
+55000,
+"kg of salad greens"
+],
+"veterinarian-business": [
+450,
+220,
+90000,
+"one consultation"
+],
+"virtual-event-planning-platform": [
+12000,
+6500,
+30000,
+"one virtual event hosted"
+],
+"virtual-interior-design": [
+4500,
+2400,
+15000,
+"one room design"
+],
+"virtual-medical-appointment-system": [
+150,
+70,
+30000,
+"one booked consultation"
+],
+"vr-live-events": [
+90,
+20,
+35000,
+"one VR event ticket"
+],
+"wallet-payment-solution": [
+100,
+55,
+30000,
+"100 payments processed"
+],
+"wind-energy": [
+3000,
+1100,
+60000,
+"1 MWh generated and sold"
+]
+},
+"ky": {
+"3d-home-building": [
+1500,
+1200,
+9000,
+"square metre built"
+],
+"affiliate-marketing": [
+25,
+8,
+900,
+"paid sale commission"
+],
+"ai": [
+90,
+35,
+2500,
+"AI project hour"
+],
+"alternative-protein-food-products": [
+18,
+11,
+7000,
+"kg of product"
+],
+"biofuel-production": [
+30,
+22,
+3500,
+"10 litres biodiesel"
+],
+"biometric-sensor-security-company": [
+900,
+600,
+4500,
+"installed access point"
+],
+"blockchain-health-record": [
+12,
+4,
+2500,
+"patient record digitised"
+],
+"boat-helicopter-tourism": [
+110,
+75,
+6000,
+"passenger trip"
+],
+"box-subscription-services": [
+45,
+28,
+2000,
+"monthly box"
+],
+"bpo": [
+4500,
+3600,
+9000,
+"agent-month of service"
+],
+"business-coach": [
+150,
+20,
+1200,
+"coaching session hour"
+],
+"car-charging-stations": [
+14,
+9,
+3000,
+"charging session"
+],
+"car-sharing": [
+70,
+40,
+9000,
+"car rental day"
+],
+"chatbots": [
+900,
+350,
+2200,
+"bot built and set up"
+],
+"cloud-migration-as-a-service": [
+2500,
+1500,
+8000,
+"server migrated"
+],
+"control-the-water": [
+90,
+45,
+1800,
+"household visit or test"
+],
+"coworking": [
+400,
+90,
+8000,
+"desk per month"
+],
+"crowdfunding": [
+800,
+400,
+6500,
+"campaign funded"
+],
+"cryobank": [
+450,
+180,
+5000,
+"sample stored per year"
+],
+"ddos-prevention-security": [
+1200,
+700,
+6500,
+"protected client per month"
+],
+"digital-marketing": [
+70,
+28,
+1500,
+"campaign hour"
+],
+"dna-analysis": [
+250,
+130,
+4500,
+"DNA test"
+],
+"drones": [
+300,
+160,
+3000,
+"drone flight job"
+],
+"e-commerce-inventory-management": [
+700,
+250,
+5000,
+"client per month"
+],
+"ecommerce": [
+60,
+42,
+2000,
+"order shipped"
+],
+"electric-car": [
+85,
+45,
+4000,
+"EV rental day"
+],
+"esports": [
+20,
+12,
+2500,
+"player tournament entry"
+],
+"fitness-tech": [
+25,
+14,
+2000,
+"app membership month"
+],
+"ghost-kitchen": [
+22,
+13,
+6500,
+"meal order"
+],
+"greenhouse-gas-auditor": [
+4500,
+3200,
+5500,
+"audit completed"
+],
+"grow-meat-in-a-lab": [
+120,
+80,
+9000,
+"kg cultured meat"
+],
+"holographic-theater": [
+25,
+6,
+9000,
+"ticket sold"
+],
+"home-sharing": [
+220,
+60,
+6500,
+"guest night"
+],
+"influencer-marketing": [
+3000,
+1900,
+5000,
+"campaign delivered"
+],
+"internet-infrastructure": [
+70,
+25,
+5000,
+"subscriber per month"
+],
+"iot": [
+180,
+110,
+3500,
+"device installed"
+],
+"it-support": [
+90,
+40,
+2500,
+"support hour"
+],
+"lead-generation-small-business": [
+30,
+12,
+1500,
+"qualified lead"
+],
+"micro-mobility-services": [
+40,
+14,
+5000,
+"scooter rental day"
+],
+"minority-businesses": [
+80,
+45,
+1500,
+"advisory session hour"
+],
+"mobile-app-testing": [
+1800,
+1300,
+5500,
+"test cycle"
+],
+"nanosatellites": [
+18000,
+12500,
+15000,
+"satellite data package"
+],
+"nanotechnology-in-medicine": [
+1500,
+900,
+12000,
+"lab test batch"
+],
+"online-car-dealership": [
+28000,
+25500,
+7500,
+"car sold"
+],
+"online-currency-exchange": [
+25,
+15,
+3500,
+"transfer completed"
+],
+"online-fulfilment": [
+900,
+650,
+8000,
+"100 orders fulfilled"
+],
+"online-library": [
+8,
+3,
+1200,
+"member per month"
+],
+"online-medical-supply": [
+160,
+115,
+4500,
+"order shipped"
+],
+"online-therapy": [
+140,
+95,
+2500,
+"therapy session"
+],
+"online-tutoring": [
+55,
+28,
+1800,
+"tutoring hour"
+],
+"p2p-lending-platform": [
+150,
+60,
+6000,
+"loan funded"
+],
+"plastic-alternatives": [
+350,
+250,
+7000,
+"100 packaging units"
+],
+"podcasting": [
+400,
+120,
+2200,
+"episode produced"
+],
+"portable-charging-station": [
+150,
+100,
+3000,
+"power bank unit sold"
+],
+"privacy-protection-firm": [
+4500,
+3000,
+7000,
+"client project"
+],
+"robotics": [
+4500,
+3000,
+9000,
+"robot unit built"
+],
+"selling-ppe": [
+28,
+20,
+2000,
+"box of PPE"
+],
+"senior-at-home-care": [
+32,
+22,
+2500,
+"care hour"
+],
+"skincare-spa-clinic": [
+130,
+55,
+6000,
+"treatment given"
+],
+"smart-apparel": [
+150,
+80,
+4500,
+"garment sold"
+],
+"social-media-network": [
+6,
+2,
+3000,
+"monthly active user"
+],
+"solar": [
+2500,
+1800,
+5500,
+"kW installed"
+],
+"space-tourism": [
+3500,
+2600,
+12000,
+"passenger seat"
+],
+"stem-cell-therapy": [
+2800,
+700,
+12000,
+"treatment given"
+],
+"tele-video-conferencing": [
+2000,
+800,
+4500,
+"meeting room set up"
+],
+"three-d-printing": [
+60,
+25,
+2500,
+"printed part job"
+],
+"three-sixty-degree-photography": [
+450,
+220,
+2500,
+"property shoot"
+],
+"vertical-farming": [
+14,
+8,
+5000,
+"kg of greens"
+],
+"veterinarian-business": [
+75,
+40,
+9000,
+"consultation"
+],
+"virtual-event-planning-platform": [
+2500,
+1300,
+4500,
+"event hosted"
+],
+"virtual-interior-design": [
+600,
+300,
+2500,
+"room design project"
+],
+"virtual-medical-appointment-system": [
+45,
+25,
+3500,
+"appointment booked"
+],
+"vr-live-events": [
+20,
+4,
+5000,
+"ticket sold"
+],
+"wallet-payment-solution": [
+12,
+6,
+6000,
+"100 payments processed"
+],
+"wind-energy": [
+3200,
+2200,
+7000,
+"kW installed"
+]
+}
+}
+}

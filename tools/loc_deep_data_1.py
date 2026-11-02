@@ -1,7 +1,7 @@
 S_1 = [
 ('lead-generation-small-business', 'Lead Generation for Small Businesses', [
 ('Pick one trade and one town first; a narrow list shows what works.', 'Start with 30 plumbers in one town; after 3 weeks drop the source that gave no calls.'),
-('Compare three models: pay per lead, monthly retainer, pay per sale. Choose by risk and cost per lead.', 'Per lead {c} 8, retainer {c} 400 for 50 leads (8 each), per sale {c} 60: choose by what the client can bear.'),
+('Compare three models: pay per lead, monthly retainer, pay per sale. Choose by risk and cost per lead.', 'Per lead {c} 8, retainer {c} 400 for 50 leads ({c} 8 each), per sale {c} 60: choose by what the client can bear.'),
 ('Check the rules for calls, texts, email consent and ad claims before the first campaign.', 'Rules table: consent wording, opt-out line, call hours, claims allowed; each has a date checked.'),
 ('Collect only what a lead needs: name, phone, need, consent; store it safely.', 'A form with 4 fields; access list shows who can open the lead sheet.'),
 ('Show a proof case: leads before and after, with the cost per lead.', 'Case: 9 leads per month rose to 27 in 6 weeks at {c} 11 per lead.'),
