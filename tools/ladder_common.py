@@ -50,6 +50,6 @@ def pick_module(mods_text, title, notes, default_idx, used):
 
 # Hand-checked module picks (0-based) where the automatic word match chose a weaker module.
 MODULE_OVERRIDE = {
-    ('EU-01', 6): 1, ('EU-02', 6): 2, ('EU-07', 7): 6,
+    ('EU-01', 6): 1, ('EU-01', 7): 7, ('EU-02', 6): 2, ('EU-07', 7): 6,
     ('EU-08', 6): 5, ('EU-08', 7): 6, ('EU-09', 6): 5, ('EU-09', 7): 6,
 }
