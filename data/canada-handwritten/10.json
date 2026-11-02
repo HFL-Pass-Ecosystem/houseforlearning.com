@@ -28,7 +28,7 @@
    "pts": [
     "Electrical work follows the provincial code and licensed electricians; permits and inspections are required.",
     "Utility connection agreements set capacity and timing.",
-    "Accessibility and signage rules apply.",
+    "Accessibility and signage rules may apply; check the provincial and municipal rule.",
     "Selling electricity by the kWh is regulated by province; check how to charge.",
     "Ask the provincial electrical authority which permit and inspection steps apply and who must hold the licence.",
     "Ask the utility for the connection timeline and write it into your plan.",
@@ -50,7 +50,7 @@
     "Lay out the bays so every cable reaches and none crosses a walkway.",
     "Choose the load-management setting (fair share or first come) and write it down."
    ],
-   "ex": "4 chargers of 50 kW on a 150 kW supply with load sharing: no more than 3 run at full power at once (3 x 50 = 150). If all 4 are in use, each gets 150 / 4 = 37.5 kW, so a 28 kWh session takes 28 / 37.5 = 0.75 hour, or 45 minutes.",
+   "ex": "4 chargers of 50 kW on a 150 kW supply with load sharing: no more than 3 run at full power at once (3 x 50 = 150). If all 4 are in use, each gets 150 / 4 = 37.5 kW, so a 28 kWh session takes 28 / 37.5 = about 0.75 hour, or about 45 minutes.",
    "act": "Draw a site layout and load plan.",
    "std": "Power sums checked."
   },
@@ -157,8 +157,8 @@
    "To free the bay for others."
   ],
   [
-   "What should uptime target be?",
-   "About 97% or better, with repair inside 24 hours."
+   "What uptime target does the plan set?",
+   "About 97% or better, with faults repaired inside 24 hours."
   ],
   [
    "Why monitor remotely?",

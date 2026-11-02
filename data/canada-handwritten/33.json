@@ -7,9 +7,12 @@
     "Learn the terms: platform, post, story, reach, engagement, follower, hashtag, call to action, content calendar.",
     "Reach is how many people saw a post; engagement is how many acted.",
     "Each platform has its own style and audience.",
-    "Follow five local business accounts and note what they post and how people respond."
+    "Follow five local business accounts and note what they post and how people respond.",
+    "Calculate an engagement rate as actions divided by reach.",
+    "Compare two platforms by who uses them and what they like.",
+    "Describe the tone of each of five accounts in three words."
    ],
-   "ex": "A café posts a photo of a new pastry with the line 'Fresh at 8 a.m. tomorrow.' Likes and comments show engagement.",
+   "ex": "A café posts a photo of a new pastry with the line 'Fresh at 8 a.m. tomorrow.' If 500 people saw it (reach) and 40 liked or commented, engagement is 40 / 500 = 8%. Likes and comments show engagement.",
    "act": "Define ten terms and review five accounts.",
    "std": "Task: review five accounts. Condition: from public pages. Standard: each has audience, post types and one idea to improve."
   },
@@ -20,9 +23,12 @@
     "The steps: goals, audience, content plan, create, schedule, post, reply, measure, report.",
     "Set one goal at a time: more enquiries, more visits or more followers.",
     "A content calendar lists date, platform, topic, text, image and status.",
-    "Agree who approves posts and how fast."
+    "Agree who approves posts and how fast.",
+    "Write each goal as a number, a measure and a date.",
+    "List who approves posts and how fast they reply.",
+    "Plan to create a week of posts in one sitting."
    ],
-   "ex": "Goal: 20 enquiries in a month. Plan: three posts a week with one clear action each.",
+   "ex": "Goal: 20 enquiries in a month. Plan: three posts a week with one clear action each, so 3 x 4 = 12 posts. If each post brought 2 enquiries that would be 24, but check the real numbers at the end of the month.",
    "act": "Build a four-week content calendar for a pretend shop.",
    "std": "Task: build a calendar. Condition: from a brief. Standard: every row has date, platform, topic, text, image and approver."
   },
@@ -33,9 +39,12 @@
     "Put the main point first. Use short words.",
     "One post, one message, one action.",
     "Add descriptive text for images so people using screen readers understand them.",
-    "Check spelling, links and facts before scheduling."
+    "Check spelling, links and facts before scheduling.",
+    "Write the first line so it stands alone.",
+    "Check image sizes for each platform.",
+    "Test two posting times and compare the results."
    ],
-   "ex": "Before: 'Big news!!!' After: 'New winter hours: open 8 to 4, Tuesday to Saturday. Visit us.'",
+   "ex": "Before: 'Big news!!!' After: 'New winter hours: open 8 to 4, Tuesday to Saturday. Visit us.' The new post gives the hours, days and action. A week of 3 posts checked for 10 minutes each takes 30 minutes.",
    "act": "Create and schedule a week of posts and ask a friend to find mistakes.",
    "std": "Task: create one week of posts. Condition: from a brief in three hours. Standard: each post has one message and action, image text is provided and no errors remain."
   },
@@ -46,9 +55,12 @@
     "Advertising must be truthful. Do not post fake reviews or false claims.",
     "Paid or gifted endorsements must be clearly disclosed.",
     "Commercial messages by email or text need consent and an unsubscribe; check the current rule with the local authority.",
-    "Contests have rules; in some provinces they need extra steps. Check before you run one. Respect copyright and ask before using a person's photo."
+    "Contests have rules; in some provinces they need extra steps. Check before you run one. Respect copyright and ask before using a person's photo.",
+    "Keep a record of consent for every email address.",
+    "Draft disclosure wording such as 'Sponsored' or 'Gifted'.",
+    "Check the platform's own contest rules as well as the provincial rules."
    ],
-   "ex": "A client wants to repost a customer photo. You ask the customer for permission first and credit them.",
+   "ex": "A client wants to repost a customer photo. You ask the customer for permission first and credit them. Save the reply with the date.",
    "act": "Make a table of rule, who sets it, what you must do and where you checked, for ten post types.",
    "std": "Task: build a rules table. Condition: using official public pages. Standard: each row has a dated source; unclear items say 'check the current rule with the local authority'."
   },
@@ -59,9 +71,12 @@
     "Time includes planning, creating, posting, replying and reporting.",
     "Compare hourly, monthly package and per-post pricing.",
     "A monthly package needs a clear list: posts, platforms, replies and report.",
-    "Track hours per client to see if the price is fair."
+    "Track hours per client to see if the price is fair.",
+    "Time each task: plan, create, reply and report.",
+    "Compare a monthly package with per-post pricing.",
+    "Review the price after the first month using your time log."
    ],
-   "ex": "A package of 12 posts and a report takes 14 hours at 45 USD: 630 USD a month. Teaching figures only.",
+   "ex": "A package of 12 posts and a report takes 14 hours at $45: 14 x 45 = $630 a month, or $630 / 12 = $52.50 per post. If replies add 3 hours, the true cost is 17 x 45 = $765, so raise the price or limit replies.",
    "act": "Time a week of work and set a monthly package.",
    "std": "Task: price a monthly package. Condition: from your time log. Standard: hours, rate and package list are shown and a mentor can follow the numbers."
   },
@@ -72,9 +87,12 @@
     "Choose a few measures tied to the goal: reach, clicks, enquiries.",
     "Compare this month with last month.",
     "Report in plain words: what happened, why, what we do next.",
-    "Do not claim the number of followers equals sales."
+    "Do not claim the number of followers equals sales.",
+    "Write the one number tied to the goal.",
+    "Make a table with this month, last month and the change.",
+    "Describe two possible causes and test one next month."
    ],
-   "ex": "Posts with a photo of the product got 3 times more clicks than text-only posts. Next month: more product photos.",
+   "ex": "Posts with a photo of the product got 3 times more clicks than text-only posts. If text-only posts got 20 clicks and photo posts got 60, then 60 / 20 = 3. Next month: more product photos.",
    "act": "Collect a month of data and write a one-page report.",
    "std": "Task: write a monthly report. Condition: from real or practice data. Standard: three measures, a cause for each change and two next steps."
   },
@@ -85,9 +103,12 @@
     "Use strong passwords and two-step sign-in; give access by role and remove it when people leave.",
     "Reply to comments politely. For complaints, move to a private channel and fix the problem.",
     "Do not share customer information. Privacy law applies.",
-    "Write a short agreement: scope, fees, approvals, who owns the accounts and content, and how to end it."
+    "Write a short agreement: scope, fees, approvals, who owns the accounts and content, and how to end it.",
+    "List who has access to each account and what role they hold.",
+    "Prepare reply templates for five common comments.",
+    "Write a rule to pause scheduled posts when bad news breaks."
    ],
-   "ex": "A customer complains in a comment. You reply: 'Sorry about that. Please message us your order number so we can fix it.'",
+   "ex": "A customer complains in a comment. You reply: 'Sorry about that. Please message us your order number so we can fix it.' You agree a reply target with the client, such as one business day.",
    "act": "Write an agreement and a response guide for ten comments.",
    "std": "Task: produce an agreement and a guide. Condition: reviewed by a mentor. Standard: scope, fees, approvals and ownership are in plain words."
   },
@@ -98,9 +119,12 @@
     "Set a goal for one real or practice account.",
     "Record posts, hours, results and feedback each week.",
     "Ask the client what changed.",
-    "Choose: stop, change or grow, and write a 12-month plan."
+    "Choose: stop, change or grow, and write a 12-month plan.",
+    "Calculate cost per post.",
+    "Compare the first 30 days with the last 30 days.",
+    "Ask the client how many enquiries came from social media."
    ],
-   "ex": "After 60 days: 24 posts, 30 hours, enquiries up from 6 to 14 a month. You add a second client.",
+   "ex": "After 60 days: 24 posts, 30 hours, enquiries up from 6 to 14 a month. At $45 an hour, 30 hours is $1,350, or 1,350 / 24 = $56.25 per post. Enquiries rose by 14 - 6 = 8.",
    "act": "Run the pilot and present a 12-month plan to a panel of three.",
    "std": "Task: run a 60-day account pilot. Condition: real client and agreement. Standard: calendar kept, report written and the decision uses numbers."
   }

@@ -34,7 +34,7 @@
     "Learn the difference between a conflict you must disclose and one you must avoid, and write an example of each.",
     "Keep a client-identification file: what you check, when, and where it is stored; check the provincial and federal rule."
    ],
-   "ex": "Row: 'Accept a buyer deposit | provincial real-estate regulator | trust account and receipt | same day | trust ledger'. A second row: 'Disclose a known defect | seller and agent | written disclosure | before offer | signed form'. Date each source.",
+   "ex": "Row: 'Accept a buyer deposit | provincial real-estate regulator | trust account and receipt | by the deadline in the provincial rule | trust ledger'. A second row: 'Disclose a known defect | seller and agent | written disclosure | before offer | signed form'. Date each source.",
    "act": "Build a rules table for your province.",
    "std": "Rows sourced and dated."
   },
@@ -130,7 +130,7 @@
     "Keep a 60-day diary of price changes, new listings and days on market for the neighbourhood.",
     "Compare your prediction with what happened and write one lesson."
    ],
-   "ex": "Mock deal margin 6%: on a total cost of 384,000 that is a profit of about 23,040 (384,000 x 0.06), so the sale price would be 407,040. The margin is above zero, so the decision is go.",
+   "ex": "Mock deal margin 6%: on a total cost of 384,000 that is a profit of about 23,040 (384,000 x 0.06), so net proceeds after fees would need to be 407,040. The margin is above zero, so the decision is go.",
    "act": "Run the mock and present review.",
    "std": "Review has decision."
   }

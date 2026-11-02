@@ -24,9 +24,9 @@
   },
   "2": {
    "title": "Know food, data and finance rules",
-   "intro": "Food and software rules both apply.",
+   "intro": "Food rules, privacy rules and software rules all apply to a shared traceability record.",
    "pts": [
-    "Food safety law requires traceability one step back and one step forward for many foods; check the current federal rule for your products.",
+    "Many food rules expect traceability one step back and one step forward; check the current federal and provincial rule for your products.",
     "Labels and claims such as organic, local or fair-trade need certification and proof.",
     "Privacy law applies to any personal data on staff or customers stored in records; do not place personal data on a ledger that cannot be erased.",
     "If a token or coin is involved, securities and money-services rules may apply; get advice before you issue anything.",
@@ -114,7 +114,7 @@
     "Run a recovery drill: a supplier loses a phone with the app; show that access is removed in under one hour and past entries stay intact.",
     "Write the public wording of what the system proves and does not prove, and ask a buyer to read it back to you."
    ],
-   "ex": "Risk: 'False origin entry | 3 x 5 | spot audits and sensor data | quality lead | monthly'. Likelihood 3 x impact 5 = 15 of 25, so it ranks near the top. If a spot audit of 10 lots finds 1 mismatch, the error rate is 1 / 10 = 10%; with a 5% limit, double the audit to 20 lots.",
+   "ex": "Risk: 'False origin entry | 3 x 5 | spot audits and sensor data | quality lead | monthly'. Likelihood 3 x impact 5 = 15 of 25, so it ranks near the top. If a spot audit of 10 lots finds 1 mismatch, the error rate is 1 / 10 = 10%, above a 5% limit, so widen the audit to 20 lots and find the cause.",
    "act": "Write an eight-row risk register.",
    "std": "Each row has owner and review date."
   },
@@ -150,7 +150,7 @@
   ],
   [
    "Why keep personal data off the ledger?",
-   "It cannot easily be erased and privacy law applies."
+   "It cannot easily be erased, and privacy law may apply; check the rule."
   ],
   [
    "Does a ledger prove food is safe?",
@@ -166,7 +166,7 @@
   ],
   [
    "Why offer a paper fallback?",
-   "Small suppliers can still join."
+   "Small suppliers with weak signal or no smartphone can still join and enter records later."
   ],
   [
    "What does the pilot measure?",

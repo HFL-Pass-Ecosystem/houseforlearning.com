@@ -50,7 +50,7 @@
     "Select equipment rated for local winter cold and summer heat, and keep one spare of each key part.",
     "Size a battery: add up the watts the equipment draws, multiply by the hours of outage you want to cover, and add 20% margin."
    ],
-   "ex": "100 households x 1.5 Mbps peak each = 150 Mbps backhaul; with 3:1 sharing → 50 Mbps. Check: 150 / 3 = 50 Mbps. A site drawing 120 W that must run 6 hours needs 120 x 6 = 720 Wh; with 20% margin that is 720 x 1.2 = 864 Wh.",
+   "ex": "100 households x 1.5 Mbps peak each = 150 Mbps if every home used its peak at once; with 3:1 sharing the backhaul needed is 150 / 3 = 50 Mbps. A site drawing 120 W that must run 6 hours needs 120 x 6 = 720 Wh; with 20% margin that is 720 x 1.2 = 864 Wh.",
    "act": "Draw a network plan and compute backhaul.",
    "std": "Calculation shown."
   },
@@ -66,7 +66,7 @@
     "Offer a low-income tier or a shared-hotspot option and show who pays the difference, such as a community fund.",
     "Run three take-up cases (40%, 60%, 80%) and find the case where monthly margin no longer covers monthly cost."
    ],
-   "ex": "Build cost 4,200 per site; monthly cost per household 25; price 35; margin 10 × 150 homes = 1,500/month. Teaching figures in CAD. At 60% take-up, 150 homes become 90 paying homes, so margin is 90 x 10 = 900 a month. Payback on 4,200 is 4,200 / 900 = about 4.7 months.",
+   "ex": "Teaching figures in CAD. Build cost 4,200 for a site of 150 homes; monthly cost per household 25; price 35; margin 10 per home. If all 150 homes pay, margin is 10 x 150 = 1,500 a month. At 60% take-up, 150 homes become 90 paying homes, so margin is 90 x 10 = 900 a month. Payback on 4,200 is 4,200 / 900 = about 4.7 months.",
    "act": "Build the model with 60% take-up.",
    "std": "Cases shown."
   },
@@ -124,7 +124,7 @@
    "pts": [
     "90 days.",
     "Measure take-up, uptime, satisfaction.",
-    "Stop rule: under 30% take-up in 90 days → redesign.",
+    "Stop rule: under 30% take-up after 90 days means redesign.",
     "Plan sustainability.",
     "Hold a review at day 30, 60 and 90 using the same four numbers: take-up, uptime, complaints, and money in versus money out.",
     "Ask 10 subscribers and 10 non-subscribers why, and record the reasons in a table.",
@@ -174,7 +174,7 @@
   ],
   [
    "Name one funding source type.",
-   "Public connectivity programmes or community funds."
+   "Public connectivity programmes or a community fund; read each funder's conditions first."
   ]
  ],
  "jobs": [

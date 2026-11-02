@@ -18,7 +18,7 @@
     "Write the buyer's questions as a list (Is it real? Where was it made? Who owned it? Was it repaired?) and match each to a field in the record.",
     "Choose the first line by picking an item with a high price, frequent copying or a resale market, and count how many units exist."
    ],
-   "ex": "A resale buyer pays 15% more for a bag with a verified history and a repair record; fakes cost the brand about 2% of sales. Teaching example: if the bag normally resells for 400, 15% more is 400 x 0.15 = 60, so 460. If the brand sells 500,000 a year, 2% lost to fakes is 10,000.",
+   "ex": "Assume (teaching figures, not market facts) that a resale buyer pays 15% more for a bag with a verified history and a repair record, and that fakes cost the brand 2% of sales. If the bag normally resells for 400, 15% more is 400 x 0.15 = 60, so 460. If the brand sells 500,000 a year, 2% lost to fakes is 10,000.",
    "act": "Survey ten shoppers and one brand and write the problem in one page.",
    "std": "Survey shows a real willingness to pay."
   },
@@ -50,7 +50,7 @@
     "Choose where the tag sits: hidden, protected and easy to scan, and photograph the spot for the guide.",
     "Build a scan page that shows only business facts and a plain message if the tag is unknown or already used."
    ],
-   "ex": "After 20 washes, 18 of 20 QR labels still scanned; 2 failed; switch to a woven label. Survival is 18 / 20 = 90%. That passes the 50% stop rule, but a 10% failure rate is too high for a lasting record, so test a woven label.",
+   "ex": "After 20 washes, 18 of 20 QR labels still scanned and 2 failed. Survival is 18 / 20 = 90%. That passes the 50% stop rule, but a 10% failure rate is too high for a lasting record, so test a woven label next.",
    "act": "Prototype a passport for one garment and test the tag.",
    "std": "Test results recorded."
   },
@@ -153,8 +153,8 @@
    "Tags must survive real use."
   ],
   [
-   "What law governs 'sustainable' claims?",
-   "Competition and labelling rules require provable claims."
+   "Which rules require \"sustainable\" claims to be provable?",
+   "Competition and labelling rules; check the current federal and provincial rule."
   ],
   [
    "What is break-even?",
@@ -174,7 +174,7 @@
   ],
   [
    "Why use English and French labels?",
-   "Canadian labelling rules often need both."
+   "Federal labelling rules for textiles generally need both languages; check the rule for your product."
   ]
  ],
  "jobs": [

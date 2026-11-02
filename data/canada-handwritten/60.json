@@ -1,12 +1,188 @@
-{"mods":{
-"1":{"title":"Know what investment banking and dealing are","intro":"This course explains how the work is done. It is education only and not advice. Consult a licensed professional about your own money.","pts":["Explain that a bank can help a company or government raise money by selling shares or bonds.","Explain that a securities dealer buys and sells securities for clients or for itself.","Explain a market in plain words: buyers and sellers who meet at a price.","Name the main players: issuers, investors, dealers, regulators and exchanges.","Explain primary market (new sales) and secondary market (resale)."],"ex":"A company needs money to build a plant. It sells new shares to investors. This first sale is the primary market. Later, investors trade those shares with each other in the secondary market.","act":"Draw a map of the players in one example share sale and explain each role in one sentence.","std":"Task: map the players. Condition: one worked example. Standard: every role named correctly with its job and who pays whom."},
-"2":{"title":"Know the rules and who must be registered","intro":"Dealing in securities is closely regulated in Canada. Know the rules before you do any work.","pts":["Explain that dealers and advisers need registration with the provincial securities regulators; check the current rule with your regulator.","Explain that a self-regulatory body also sets conduct rules for dealers; look up the current one with the regulator.","Explain insider trading: using or sharing private facts that could move a price is illegal.","Explain a prospectus: the legal document a company gives investors; there are exemptions, so check the rule before you rely on one.","Explain anti-money-laundering duties: know your client, keep records and report suspicious activity."],"ex":"An analyst learns of a coming takeover before it is public. The correct step is to not trade, not tell anyone and tell the compliance team.","act":"Make a rules table with rule, who enforces it, what you must do and a dated official source.","std":"Task: build a rules table. Condition: official regulator pages only. Standard: each row has an enforcer, action and dated source and no rule is guessed."},
-"3":{"title":"Read company numbers and judge value","intro":"Bankers and dealers read financial statements to judge what a company is worth.","pts":["Name the three statements: income statement, balance sheet and cash-flow statement.","Compute profit margin = profit / sales.","Compute debt ratio = total debt / total assets.","Explain that value comes from future cash, and that estimates vary.","Compare a company to a few similar ones, not to a single one."],"ex":"Sales 2,000,000; profit 160,000. Profit margin = 160,000 / 2,000,000 = 8%. Three similar firms show 6%, 7% and 10%, so 8% is in the middle.","act":"Read a made-up set of statements and write a half-page summary with five ratios.","std":"Task: summarise a company. Condition: made-up statements. Standard: ratios are correct, similar firms are compared and limits of the estimate are stated."},
-"4":{"title":"Follow how a deal is prepared","intro":"A deal runs in steps with many checks. Know the steps and who does each.","pts":["List the steps: goal, advisers, due diligence, documents, regulator filing, marketing, pricing, closing.","Explain due diligence: checking the facts about a company before a deal.","Explain how a price range is set from comparisons and demand.","Explain confidentiality: deal facts are private until announced.","Keep a deal checklist with owners and dates."],"ex":"A deal timeline shows 12 weeks: 4 for checks, 3 for documents, 2 for regulator review, 2 for marketing and 1 for closing.","act":"Write a deal timeline and checklist for a made-up share sale.","std":"Task: plan a deal. Condition: made-up company. Standard: every step has an owner and a date, and the confidential steps are marked."},
-"5":{"title":"Handle client orders and trading fairly","intro":"Dealing means handling orders. Fairness and records matter most.","pts":["Explain order types in plain words: market order and limit order.","Explain best execution: trying to get the client a fair result on price, cost and speed.","Explain that client orders come before your own trades.","Record the time, price and client for every order.","Explain settlement: the later day when cash and securities change hands."],"ex":"A client places a limit order to buy at 20 or less. The price stays at 20.40, so the order waits. It does not fill at a higher price.","act":"Walk through five made-up orders and record the details and outcomes.","std":"Task: handle practice orders. Condition: made-up market data. Standard: each record has time, type, price, outcome and reason."},
-"6":{"title":"Manage risk and keep records","intro":"Firms limit losses with rules and checks. Records prove you followed them.","pts":["Explain market risk, credit risk and operational risk.","Explain limits: a cap on how much risk one person or desk can take.","Explain separation of duties: one person trades, another checks.","Keep records of calls, messages and orders for the time the regulator requires.","Report errors and breaches quickly to compliance."],"ex":"A trader enters 10,000 shares instead of 1,000. A system limit blocks the order and the check person confirms the error. The incident is logged.","act":"Write a one-page risk register with eight risks, a control for each and an owner.","std":"Task: write a risk register. Condition: one page. Standard: each risk has likelihood, harm, control, owner and review date."},
-"7":{"title":"Communicate honestly and manage conflicts","intro":"Trust is the core asset. Honest words and open conflicts keep it.","pts":["Never promise or guarantee results.","Tell clients about conflicts in writing; examples include a firm that advises a company and also sells its shares.","Explain information barriers between teams that hold private facts and teams that trade.","Write research and notes in plain words, with sources.","Treat clients fairly whatever their size."],"ex":"A firm advises a company on a sale and its trading team wants to trade that company's shares. An information barrier blocks the sharing and the trading team is told to stay out.","act":"Write a half-page note on a made-up conflict with the steps you would take.","std":"Task: handle a conflict. Condition: one made-up case. Standard: the conflict is named, disclosed and handled by steps that protect the client."},
-"8":{"title":"Run a supervised practice deal for real","intro":"Run the full cycle in a safe setting: made-up or supervised work with a registered professional.","pts":["Work with a registered supervisor on any real matter.","Run the cycle: prepare, check, price, execute, settle, record.","Review the results and lessons within a week.","Keep all records dated and complete.","Plan your next training step and check the current exam and registration route with the regulator."],"ex":"A learner runs a practice share sale on paper. She finds the timeline slipped two weeks because the due diligence list was late, and adds an earlier start to the next plan.","act":"Run a practice deal end to end and present the review to a panel of three.","std":"Task: run a practice deal. Condition: made-up data or a registered supervisor. Standard: the cycle is complete, records are dated and the review reasons from evidence."}},
-"price":[150,35,20,"hour"],
-"quiz":[["What is the primary market?","The market where new securities are sold for the first time."],["What is insider trading?","Trading on or sharing private facts that could move a price; it is illegal."],["Who must be registered to deal in securities?","Dealers and advisers need registration; check the current rule with the provincial regulator."],["What is due diligence?","Checking the facts about a company before a deal."],["How do you compute profit margin?","Profit divided by sales."],["What is best execution?","Trying to get the client a fair result on price, cost and speed."],["What does an information barrier do?","It keeps private facts from reaching people who trade."],["Why separate duties?","One person acts and another checks, so errors and fraud are caught."],["Can you guarantee results to a client?","No."],["Where should you go for decisions about your own money?","A licensed professional."]],
-"jobs":["Operations analyst","Compliance assistant","Research assistant","Settlement clerk","Junior analyst","Registered dealing representative trainee"]}
+{
+ "mods": {
+  "1": {
+   "title": "Know what investment banking and dealing are",
+   "intro": "This course explains how the work is done. It is education only and not advice. Consult a licensed professional about your own money.",
+   "pts": [
+    "Explain that a bank can help a company or government raise money by selling shares or bonds.",
+    "Explain that a securities dealer buys and sells securities for clients or for itself.",
+    "Explain a market in plain words: buyers and sellers who meet at a price.",
+    "Name the main players: issuers, investors, dealers, regulators and exchanges.",
+    "Explain primary market (new sales) and secondary market (resale).",
+    "Describe one way a Canadian company can raise money, such as a first share sale or a bond, in your own words.",
+    "Sort five example businesses into issuer, investor or dealer by what each one does."
+   ],
+   "ex": "A company sells 2,000,000 new shares at 15 dollars each in the primary market. It raises 2,000,000 x 15 = 30,000,000 dollars before costs. Later, investors resell those shares among themselves in the secondary market, and the company receives none of that money.",
+   "act": "Draw a map of the players in one example share sale and explain each role in one sentence.",
+   "std": "Task: map the players. Condition: one worked example. Standard: every role named correctly with its job and who pays whom."
+  },
+  "2": {
+   "title": "Know the rules and who must be registered",
+   "intro": "Dealing in securities is closely regulated in Canada. Know the rules before you do any work.",
+   "pts": [
+    "Explain that dealers and advisers need registration with the provincial securities regulators; check the current rule with your regulator.",
+    "Explain that a self-regulatory body also sets conduct rules for dealers; look up the current one with the regulator.",
+    "Explain insider trading: using or sharing private facts that could move a price is illegal.",
+    "Explain a prospectus: the legal document a company gives investors; there are exemptions, so check the rule before you rely on one.",
+    "Explain anti-money-laundering duties: know your client, keep records and report suspicious activity.",
+    "Write a one-page do and do-not list for a new trainee: what to share, what to keep private and who to ask.",
+    "Name the compliance contact in a made-up firm and write when you would go to that person."
+   ],
+   "ex": "An analyst learns of a coming takeover before it is public. The correct steps are to not trade, not tell anyone and tell the compliance team. She also writes down the time she reported it, so the record shows she acted at once.",
+   "act": "Make a rules table with rule, who enforces it, what you must do and a dated official source.",
+   "std": "Task: build a rules table. Condition: official regulator pages only. Standard: each row has an enforcer, action and dated source and no rule is guessed."
+  },
+  "3": {
+   "title": "Read company numbers and judge value",
+   "intro": "Bankers and dealers read financial statements to judge what a company is worth.",
+   "pts": [
+    "Name the three statements: income statement, balance sheet and cash-flow statement.",
+    "Compute profit margin = profit / sales.",
+    "Compute debt ratio = total debt / total assets.",
+    "Explain that value comes from future cash, and that estimates vary.",
+    "Compare a company to a few similar ones, not to a single one.",
+    "Compute return on equity = profit / owners' equity from a made-up balance sheet.",
+    "Compute price-to-earnings ratio = share price / earnings per share and compare it with similar firms."
+   ],
+   "ex": "Sales 2,000,000; profit 160,000. Profit margin = 160,000 / 2,000,000 = 8%. Three similar firms show 6%, 7% and 10%, so 8% is in the middle. If total debt is 300,000 and total assets are 1,000,000, the debt ratio = 300,000 / 1,000,000 = 30%.",
+   "act": "Read a made-up set of statements and write a half-page summary with five ratios.",
+   "std": "Task: summarise a company. Condition: made-up statements. Standard: ratios are correct, similar firms are compared and limits of the estimate are stated."
+  },
+  "4": {
+   "title": "Follow how a deal is prepared",
+   "intro": "A deal runs in steps with many checks. Know the steps and who does each.",
+   "pts": [
+    "List the steps: goal, advisers, due diligence, documents, regulator filing, marketing, pricing, closing.",
+    "Explain due diligence: checking the facts about a company before a deal.",
+    "Explain how a price range is set from comparisons and demand.",
+    "Explain confidentiality: deal facts are private until announced.",
+    "Keep a deal checklist with owners and dates.",
+    "Write a due diligence question list that covers sales, debts, contracts, lawsuits and owners.",
+    "Explain a demand book: investors say how many shares they would buy at each price, and the price is set where demand meets the shares on offer."
+   ],
+   "ex": "A deal timeline shows 12 weeks: 4 for checks, 3 for documents, 2 for regulator review, 2 for marketing and 1 for closing, and 4 + 3 + 2 + 2 + 1 = 12. If the sale raises 30,000,000 dollars and the made-up bank charge is 5%, the charge is 30,000,000 x 0.05 = 1,500,000 dollars.",
+   "act": "Write a deal timeline and checklist for a made-up share sale.",
+   "std": "Task: plan a deal. Condition: made-up company. Standard: every step has an owner and a date, and the confidential steps are marked."
+  },
+  "5": {
+   "title": "Handle client orders and trading fairly",
+   "intro": "Dealing means handling orders. Fairness and records matter most.",
+   "pts": [
+    "Explain order types in plain words: market order and limit order.",
+    "Explain best execution: trying to get the client a fair result on price, cost and speed.",
+    "Explain that client orders come before your own trades.",
+    "Record the time, price and client for every order.",
+    "Explain settlement: the later day when cash and securities change hands.",
+    "Explain the bid and the ask: the best price a buyer will pay and the best price a seller will accept at a moment.",
+    "Explain that settlement timing is set by market rules; check the current settlement cycle with the regulator."
+   ],
+   "ex": "A client places a limit order to buy 500 shares at 20 or less. The price stays at 20.40, so the order waits and does not fill at a higher price. If the price later falls to 20.00 and the order fills, the cost is 500 x 20 = 10,000 dollars.",
+   "act": "Walk through five made-up orders and record the details and outcomes.",
+   "std": "Task: handle practice orders. Condition: made-up market data. Standard: each record has time, type, price, outcome and reason."
+  },
+  "6": {
+   "title": "Manage risk and keep records",
+   "intro": "Firms limit losses with rules and checks. Records prove you followed them.",
+   "pts": [
+    "Explain market risk, credit risk and operational risk.",
+    "Explain limits: a cap on how much risk one person or desk can take.",
+    "Explain separation of duties: one person trades, another checks.",
+    "Keep records of calls, messages and orders for the time the regulator requires.",
+    "Report errors and breaches quickly to compliance.",
+    "Explain liquidity risk: not being able to sell a holding quickly without a large drop in price.",
+    "Explain a stress test: asking how much a desk would lose if prices fell sharply."
+   ],
+   "ex": "A trader enters 10,000 shares instead of 1,000. A system limit blocks the order and the check person confirms the error. The incident is logged with the time and the cause, and the extra 9,000 shares are never bought.",
+   "act": "Write a one-page risk register with eight risks, a control for each and an owner.",
+   "std": "Task: write a risk register. Condition: one page. Standard: each risk has likelihood, harm, control, owner and review date."
+  },
+  "7": {
+   "title": "Communicate honestly and manage conflicts",
+   "intro": "Trust is the core asset. Honest words and open conflicts keep it.",
+   "pts": [
+    "Never promise or guarantee results.",
+    "Tell clients about conflicts in writing; examples include a firm that advises a company and also sells its shares.",
+    "Explain information barriers between teams that hold private facts and teams that trade.",
+    "Write research and notes in plain words, with sources.",
+    "Treat clients fairly whatever their size.",
+    "Explain that gifts and perks from clients or issuers must be disclosed and approved; check the firm's policy and the provincial rule.",
+    "Rewrite a promise such as 'this will double' into an honest sentence that states the risk."
+   ],
+   "ex": "A firm advises a company on a sale and its trading team wants to trade that company's shares. An information barrier blocks the sharing and the trading team is told to stay out. A research note that says 'this stock will double' is changed to 'growth is expected, and the price could also fall', with sources added.",
+   "act": "Write a half-page note on a made-up conflict with the steps you would take.",
+   "std": "Task: handle a conflict. Condition: one made-up case. Standard: the conflict is named, disclosed and handled by steps that protect the client."
+  },
+  "8": {
+   "title": "Run a supervised practice deal for real",
+   "intro": "Run the full cycle in a safe setting: made-up or supervised work with a registered professional.",
+   "pts": [
+    "Work with a registered supervisor on any real matter.",
+    "Run the cycle: prepare, check, price, execute, settle, record.",
+    "Review the results and lessons within a week.",
+    "Keep all records dated and complete.",
+    "Plan your next training step and check the current exam and registration route with the regulator.",
+    "Hold a short review meeting where each person names one thing that went well and one thing to change.",
+    "Compare the planned timeline with the real one in weeks and explain each gap."
+   ],
+   "ex": "A learner runs a practice share sale on paper. The plan was 12 weeks, but the due diligence list was 2 weeks late, so the real time is 12 + 2 = 14 weeks. She adds an earlier start to the next plan.",
+   "act": "Run a practice deal end to end and present the review to a panel of three.",
+   "std": "Task: run a practice deal. Condition: made-up data or a registered supervisor. Standard: the cycle is complete, records are dated and the review reasons from evidence."
+  }
+ },
+ "price": [
+  150,
+  35,
+  20,
+  "hour"
+ ],
+ "quiz": [
+  [
+   "What is the primary market?",
+   "The market where new securities are sold for the first time."
+  ],
+  [
+   "What is insider trading?",
+   "Trading on or sharing private facts that could move a price; it is illegal."
+  ],
+  [
+   "Who must be registered to deal in securities?",
+   "Dealers and advisers need registration; check the current rule with the provincial regulator."
+  ],
+  [
+   "What is due diligence?",
+   "Checking the facts about a company before a deal."
+  ],
+  [
+   "How do you compute profit margin?",
+   "Profit divided by sales."
+  ],
+  [
+   "What is best execution?",
+   "Trying to get the client a fair result on price, cost and speed."
+  ],
+  [
+   "What does an information barrier do?",
+   "It keeps private facts from reaching people who trade."
+  ],
+  [
+   "Why separate duties?",
+   "One person acts and another checks, so errors and fraud are caught."
+  ],
+  [
+   "Can you guarantee results to a client?",
+   "No; markets can fall, so never promise or guarantee results."
+  ],
+  [
+   "Where should you go for decisions about your own money?",
+   "A licensed professional."
+  ]
+ ],
+ "jobs": [
+  "Operations analyst",
+  "Compliance assistant",
+  "Research assistant",
+  "Settlement clerk",
+  "Junior analyst",
+  "Registered dealing representative trainee"
+ ]
+}

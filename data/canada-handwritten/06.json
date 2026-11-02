@@ -14,9 +14,11 @@
     "Customers: fleets, cities, households. Fleets care about total cost of ownership.",
     "Incentives and rules change; check federal and provincial programmes.",
     "Pick one niche, such as delivery vans in cold climates.",
-    "Ride in or drive one electric vehicle for a week and note range loss in cold weather."
+    "Ride in or drive one electric vehicle for a week and note range loss in cold weather.",
+    "Interview five fleet managers: daily distance, depot parking, power at the depot and what they pay now per kilometre.",
+    "Total cost of ownership = purchase price + running costs over the years - resale value. Write it for one vehicle you would replace."
    ],
-   "ex": "A delivery fleet compares 10-year cost: fuel and servicing saved offset a higher price.",
+   "ex": "A delivery fleet compares 10-year cost: if an electric van costs 15,000 more to buy but saves 3,000 a year in fuel and servicing, the saving over 10 years is 30,000, so the van is ahead by 15,000 and pays back in 15,000 / 3,000 = 5 years. Teaching figures in CAD; use the fleet's real numbers.",
    "act": "Write a niche statement and customer profile.",
    "std": "Niche is narrow and testable."
   },
@@ -28,9 +30,11 @@
     "Battery transport and storage have dangerous-goods rules.",
     "Provinces register and insure vehicles.",
     "Warranty and recall rules protect buyers.",
-    "Check charging time on a home plug, a public charger and a fast charger, and compare with spec."
+    "Check charging time on a home plug, a public charger and a fast charger, and compare with spec.",
+    "A vehicle built in small numbers may have different import or approval steps; check the federal and provincial rule for your case.",
+    "Keep a certificate file with the standard, the test result, the date and the person who signed."
    ],
-   "ex": "Row: 'Sell a new vehicle | federal safety standards | certify and label | before first sale | certificate on file'.",
+   "ex": "Row: 'Sell a new vehicle | federal safety standards | certify and label | before first sale | certificate on file'. For a 60 kWh battery on a 7 kW home charger, a full charge takes about 60 / 7 = 8.6 hours, which you compare with the stated spec.",
    "act": "Build a rules table for a small manufacturer.",
    "std": "Each row has source and date."
   },
@@ -42,9 +46,11 @@
     "Size battery from energy per kilometre.",
     "Plan safety: crash structure, thermal management, battery protection.",
     "Document specifications in one table.",
-    "List the five parts that fail most often in fleet use and plan spares."
+    "List the five parts that fail most often in fleet use and plan spares.",
+    "Add a margin for ageing and cold weather to the pack size, and state the margin you used.",
+    "Check payload: weight of the battery, body, driver and cargo against the vehicle's rated limit."
    ],
-   "ex": "Need 250 km at 0.35 kWh per km → 87.5 kWh usable; add 20% for cold and ageing → 105 kWh pack.",
+   "ex": "Need 250 km at 0.35 kWh per km: 250 x 0.35 = 87.5 kWh usable. Add 20% for cold and ageing: 87.5 x 1.2 = 105 kWh pack. If the cells give 0.15 kWh per kg, the cells alone weigh 105 / 0.15 = 700 kg, which must fit the payload plan.",
    "act": "Calculate pack size for a chosen use.",
    "std": "Calculation shown with margin."
   },
@@ -56,9 +62,11 @@
     "Assembly labour and facility cost per vehicle.",
     "Warranty provision.",
     "Margin and break-even.",
-    "Study one crash test report and note what the structure does."
+    "Study one crash test report and note what the structure does.",
+    "Ask three suppliers for a quote at 100, 500 and 1,000 units and note how the price falls with volume.",
+    "Test a 10% rise in battery cost and show the new margin."
    ],
-   "ex": "Price 48,000; cost 36,000; margin 12,000 (25%); fixed cost 3.1M per year → break-even 260 vehicles.",
+   "ex": "Price 48,000; cost 36,000; margin 12,000 (25%); fixed cost 3.1M per year gives 3,100,000 / 12,000 = 258.3, so break-even is 259 vehicles, shown as about 260. If battery cost is 14,000 of the 36,000, a 10% rise adds 1,400, so cost is 37,400, margin 10,600 and break-even rises to about 293. Teaching figures in CAD.",
    "act": "Build a bill of materials and break-even.",
    "std": "Units and currency shown."
   },
@@ -70,9 +78,11 @@
     "End-of-line tests: brakes, battery, software, leaks.",
     "Traceability by vehicle number.",
     "Corrective action when tests fail.",
-    "Interview a fleet mechanic about what is hard to repair."
+    "Interview a fleet mechanic about what is hard to repair.",
+    "Set a pass limit for each test and a sign-off line, so no vehicle leaves without a signed sheet.",
+    "Count first-pass rate (vehicles that pass the first time divided by vehicles tested) and chart it weekly."
    ],
-   "ex": "End-of-line fail rate 4% mostly connectors; fix with a torque check.",
+   "ex": "End-of-line fail rate 4% mostly connectors; fix with a torque check. At 260 vehicles a year, 4% is about 10 vehicles needing rework; if the torque check halves the fails to 2%, rework drops to about 5.",
    "act": "Design an end-of-line test sheet.",
    "std": "Sheet has limits and sign-off."
   },
@@ -84,9 +94,11 @@
     "Service network and parts.",
     "Training for technicians.",
     "Remote monitoring.",
-    "Write down the software update promise and who delivers it."
+    "Write down the software update promise and who delivers it.",
+    "Plan service in cold regions: where a customer can get help in winter and how long the repair takes.",
+    "Agree a response time for a stopped vehicle and measure it."
    ],
-   "ex": "Fleet pilot: 3 vans for 90 days; uptime 97%.",
+   "ex": "Fleet pilot: 3 vans for 90 days; uptime 97%. The 3 vans have 3 x 90 = 270 van-days, and 3% down is about 8 van-days lost, which you compare with the offer's target.",
    "act": "Plan a fleet pilot offer.",
    "std": "Offer has measures."
   },
@@ -98,9 +110,11 @@
     "Supplier diversification.",
     "Material sourcing and recycling.",
     "Cyber security for connected vehicles.",
-    "Compare the weight of your design with two similar vehicles."
+    "Compare the weight of your design with two similar vehicles.",
+    "Ask each supplier where its materials come from and how they are recycled; note anything you cannot verify.",
+    "Write who you call, and what staff do, in the first ten minutes of a battery incident, and practise it."
    ],
-   "ex": "Risk: 'Cell supplier delay | 4 x 4 | second source | purchasing | monthly'.",
+   "ex": "Risk: 'Cell supplier delay | 4 x 4 = 16 | second source | purchasing | monthly'. A score of 16 out of 25 is high, so the second supplier should be qualified before volume production.",
    "act": "Write a risk register.",
    "std": "Rows have owners."
   },
@@ -112,9 +126,11 @@
     "Measure range, faults and customer feedback.",
     "Stop rule: range under 85% of spec means redesign.",
     "Plan funding and plant.",
-    "Record every test in one table: date, condition, result, action."
+    "Record every test in one table: date, condition, result, action.",
+    "Measure range in cold weather, in warm weather and loaded, not only on a good day.",
+    "Check programme rules and dates for funding yourself, and compare leasing a plant with building one."
    ],
-   "ex": "Range 92% of spec; proceed.",
+   "ex": "Range 92% of spec: if the spec is 250 km, 0.92 x 250 = 230 km, above the stop line of 0.85 x 250 = 212.5 km, so proceed. A cold-weather test that gave 200 km would be 80% and trigger a redesign.",
    "act": "Run the pilot review.",
    "std": "Review has decision."
   }

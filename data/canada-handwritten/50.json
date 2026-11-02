@@ -1,12 +1,188 @@
-{"mods":{
-"1":{"title":"Know mobile services","intro":"Mobile services use phones and tablets to reach people and do work. This can mean repair, set-up, apps for small firms, or services that travel to the customer.","pts":["Name the parts of a phone: screen, battery, storage, camera, SIM or eSIM, operating system.","Describe two kinds of mobile service: fixing and setting up devices, and offering a service through a phone.","Explain what an app, an update and a data plan are.","List words: backup, sync, permission, signal, handset."],"ex":"A customer's phone has a cracked screen and a full storage. The tech writes both on the job sheet and fixes the cheaper problem first.","act":"Interview one person about their three biggest phone problems and write them in a table.","std":"Task: name phone parts and service types. Condition: after one interview. Standard: six parts and two service types correctly named."},
-"2":{"title":"Find and fix common phone problems","intro":"Most phone problems are simple. Use a clear method and protect the owner's data.","pts":["Apply a fault method: ask, restart, check update and storage, test one fix at a time.","Check battery health, charger and cable before blaming the phone.","Explain why you back up data and ask for consent before any repair.","Compare repair and replace using cost and age of the device."],"ex":"Phone drains fast. A check shows one app uses most of the battery in the background. Closing its permission fixes it; no parts needed.","act":"Fix three practice problems on test phones and write a job sheet for each.","std":"Task: fix a phone problem. Condition: test phone, owner consent. Standard: one change at a time and a signed job sheet."},
-"3":{"title":"Follow the rules in Canada","intro":"Mobile work touches privacy, telecom rules, e-waste and consumer law. Check with the local authority.","pts":["Explain that personal data on a phone is private; get consent and use it only for the job.","Describe that telecom and radio equipment are federally regulated; check the federal rule before selling or modifying equipment.","Check provincial consumer rules for repairs, estimates and warranties.","Apply local e-waste rules for batteries and broken devices."],"ex":"Rules table row: Estimate | provincial consumer rules | give a written estimate before work | before every repair | copy kept in job file.","act":"Make a rules table covering privacy, equipment, repair estimates and e-waste for your province.","std":"Task: map the rules. Condition: official pages only. Standard: each row has an enforcer, an action and a checked date."},
-"4":{"title":"Set up devices and accounts","intro":"Many customers need help with set-up more than repair. A clear checklist saves time.","pts":["Build a set-up checklist: update, screen lock, accounts, backup, key apps, find-my-device.","Apply a data transfer method and verify that contacts and photos arrived.","Explain two-step sign-in and help the customer turn it on.","Teach one skill the customer asked for, in short steps."],"ex":"Older customer moves to a new phone. Tech transfers contacts and photos, sets a larger text size, turns on backup, and writes three simple steps on a card.","act":"Set up a test phone from the checklist and write a one-page guide for a beginner.","std":"Task: set up a phone. Condition: written checklist. Standard: transfer verified and customer can repeat three tasks."},
-"5":{"title":"Make a mobile service for others","intro":"Many small firms need simple mobile tools such as a booking page or a message list. Start small and test.","pts":["Describe the customer's task in one sentence before you build.","Build a simple mobile-friendly page or message flow with no-code tools.","Check it on two different phones and with slow data.","Evaluate what happens if the tool fails: a plain back-up such as a phone number."],"ex":"A cleaner wants bookings by phone. A simple page shows hours, price and a call button. A test on two phones finds the button too small; it is made bigger.","act":"Build and test one simple mobile page for a practice client.","std":"Task: build a mobile page. Condition: no-code tool. Standard: works on two phones and one tester completes a booking in under two minutes."},
-"6":{"title":"Price and plan a mobile business","intro":"Mobile work saves the customer a trip, so travel and time must be priced.","pts":["Compute cost per job: parts, travel, tools, insurance, time.","Compare prices of five local repair or set-up services.","Build a route plan to group jobs by area.","Check parts suppliers for quality and return terms."],"ex":"Set-up visit 70, travel and tools 8. Margin 62 per visit. Fixed cost 900 a month gives break-even near 15 visits. Teaching numbers only.","act":"Build a cost sheet and a price list for five services.","std":"Task: price a mobile service. Condition: all costs counted. Standard: break-even correct and shown with units."},
-"7":{"title":"Safety, trust and good service","intro":"You may hold a person's whole life on one phone. Handle it with care.","pts":["Apply a privacy rule: never open personal photos or messages unless the job needs it.","Check parts and chargers for safety; do not use damaged batteries.","Explain scams: fake support calls and fake links; teach customers to spot them.","Handle a complaint with a written fix or refund as agreed."],"ex":"A customer receives a call from a fake bank asking for a code. The tech teaches the rule: no one real ever asks for a one-time code.","act":"Write a privacy note, a safety checklist and a customer scam-awareness card.","std":"Task: protect a customer. Condition: practice job. Standard: privacy note signed and safety checklist completed."},
-"8":{"title":"Run the service for real","intro":"Now run your mobile service with real customers and a growth plan.","pts":["Run a 60-day pilot with a stop rule agreed in advance.","Review weekly: jobs, income, time, complaints, repeats.","Create a 12-month plan with training and equipment budget.","Lead others: write the checklist so a helper can do the same job."],"ex":"Stop rule: if fewer than 25 visits in 60 days, stop and write lessons. Result: 41 visits; add a small group class for older users.","act":"Run the pilot, write the review and present your plan to three people.","std":"Task: run a mobile service pilot. Condition: 60 days, real customers. Standard: results compared with the stop rule and rules re-checked."}},
-"price":[70,8,40,"visit"],
-"quiz":[["Name two kinds of mobile service.","Fixing or setting up devices, and offering a service through a phone."],["Why get consent before a repair?","The phone holds private data and the owner must agree to the work."],["What do you check before blaming a phone for fast battery drain?","Background apps, battery health, charger and cable."],["Why give a written estimate?","Consumer rules and trust; the customer knows the cost before work."],["Which level regulates telecom and radio equipment?","Federal; check the rule before selling or changing equipment."],["What is two-step sign-in?","A second proof, such as a code, in addition to the password."],["What should you never ask a customer to share?","Their one-time codes or passwords."],["How do you test a mobile page?","On two phones and with slow data."],["How do you find break-even visits?","Fixed cost divided by margin per visit."],["What do you do with a damaged battery?","Do not use it; dispose of it by local e-waste rules."]],
-"jobs":["Phone repair technician","Mobile set-up specialist","Retail device adviser","Digital skills tutor","Field service technician","Mobile service owner"]}
+{
+ "mods": {
+  "1": {
+   "title": "Know mobile services",
+   "intro": "Mobile services use phones and tablets to reach people and do work. This can mean repair, set-up, apps for small firms, or services that travel to the customer.",
+   "pts": [
+    "Name the parts of a phone: screen, battery, storage, camera, SIM or eSIM, operating system.",
+    "Describe two kinds of mobile service: fixing and setting up devices, and offering a service through a phone.",
+    "Explain what an app, an update and a data plan are.",
+    "List words: backup, sync, permission, signal, handset.",
+    "Explain the difference between storage and memory on a phone.",
+    "Describe what a SIM and an eSIM do to connect a phone to a network.",
+    "Identify which uses of a phone take the most data."
+   ],
+   "ex": "A customer's phone has a cracked screen and a full storage. The tech writes both on the job sheet and fixes the cheaper problem first. Two problems are listed, so the job sheet has two lines with a cost beside each.",
+   "act": "Interview one person about their three biggest phone problems and write them in a table.",
+   "std": "Task: name phone parts and service types. Condition: after one interview. Standard: six parts and two service types correctly named."
+  },
+  "2": {
+   "title": "Find and fix common phone problems",
+   "intro": "Most phone problems are simple. Use a clear method and protect the owner's data.",
+   "pts": [
+    "Apply a fault method: ask, restart, check update and storage, test one fix at a time.",
+    "Check battery health, charger and cable before blaming the phone.",
+    "Explain why you back up data and ask for consent before any repair.",
+    "Compare repair and replace using cost and age of the device.",
+    "Test the charger and cable on a second phone to find which part is faulty.",
+    "Check for signs of water damage and tell the owner before opening the phone.",
+    "Calculate the repair quote as a share of the price of a similar used phone."
+   ],
+   "ex": "Phone drains fast. A check shows one app uses most of the battery in the background. Closing its permission fixes it; no parts needed. If a repair costs 120 and a similar used phone costs 300, the repair is 120 / 300 = 40% of replacing it.",
+   "act": "Fix three practice problems on test phones and write a job sheet for each.",
+   "std": "Task: fix a phone problem. Condition: test phone, owner consent. Standard: one change at a time and a signed job sheet."
+  },
+  "3": {
+   "title": "Follow the rules in Canada",
+   "intro": "Mobile work touches privacy, telecom rules, e-waste and consumer law. Check with the local authority.",
+   "pts": [
+    "Explain that personal data on a phone is private; get consent and use it only for the job.",
+    "Describe that telecom and radio equipment are federally regulated; check the federal rule before selling or modifying equipment.",
+    "Check provincial consumer rules for repairs, estimates and warranties.",
+    "Apply local e-waste rules for batteries and broken devices.",
+    "Ask the provincial consumer office what an estimate must state before a repair and write the answer.",
+    "Tell the customer that a repair may change warranty status; check the maker's terms.",
+    "Find the drop-off for lithium batteries in your area."
+   ],
+   "ex": "Rules table row: Estimate | provincial consumer rules | give a written estimate before work | before every repair | copy kept in job file. If the estimate was 90 and the bill would be 140, the 50 extra needs the customer's approval before work continues.",
+   "act": "Make a rules table covering privacy, equipment, repair estimates and e-waste for your province.",
+   "std": "Task: map the rules. Condition: official pages only. Standard: each row has an enforcer, an action and a checked date."
+  },
+  "4": {
+   "title": "Set up devices and accounts",
+   "intro": "Many customers need help with set-up more than repair. A clear checklist saves time.",
+   "pts": [
+    "Build a set-up checklist: update, screen lock, accounts, backup, key apps, find-my-device.",
+    "Apply a data transfer method and verify that contacts and photos arrived.",
+    "Explain two-step sign-in and help the customer turn it on.",
+    "Teach one skill the customer asked for, in short steps.",
+    "Compare backup options by cost, space and ease and recommend one.",
+    "Write a list of the accounts the customer must remember, without writing passwords.",
+    "Wipe the old phone only after the customer confirms the new one has everything."
+   ],
+   "ex": "Older customer moves to a new phone. Tech transfers contacts and photos, sets a larger text size, turns on backup, and writes three simple steps on a card. Planned time: 25 + 10 + 15 + 10 = 60 minutes for transfer, backup, accounts and a short lesson.",
+   "act": "Set up a test phone from the checklist and write a one-page guide for a beginner.",
+   "std": "Task: set up a phone. Condition: written checklist. Standard: transfer verified and customer can repeat three tasks."
+  },
+  "5": {
+   "title": "Make a mobile service for others",
+   "intro": "Many small firms need simple mobile tools such as a booking page or a message list. Start small and test.",
+   "pts": [
+    "Describe the customer's task in one sentence before you build.",
+    "Build a simple mobile-friendly page or message flow with no-code tools.",
+    "Check it on two different phones and with slow data.",
+    "Evaluate what happens if the tool fails: a plain back-up such as a phone number.",
+    "Define who uses the page, on what phone and where.",
+    "Write the page text in plain words at a size readable without zoom.",
+    "Check the page with large text so people with weak sight can use it."
+   ],
+   "ex": "A cleaner wants bookings by phone. A simple page shows hours, price and a call button. A test on two phones finds the button too small; it is made bigger. On slow data the page took 9 seconds to load; after shrinking pictures it takes 3, saving 6 seconds.",
+   "act": "Build and test one simple mobile page for a practice client.",
+   "std": "Task: build a mobile page. Condition: no-code tool. Standard: works on two phones and one tester completes a booking in under two minutes."
+  },
+  "6": {
+   "title": "Price and plan a mobile business",
+   "intro": "Mobile work saves the customer a trip, so travel and time must be priced.",
+   "pts": [
+    "Compute cost per job: parts, travel, tools, insurance, time.",
+    "Compare prices of five local repair or set-up services.",
+    "Build a route plan to group jobs by area.",
+    "Check parts suppliers for quality and return terms.",
+    "Calculate break-even visits as fixed cost divided by margin per visit.",
+    "Compare pay per hour for a long drive and a short one.",
+    "Calculate the cost of a spare-parts stock and the repairs needed to cover it."
+   ],
+   "ex": "Set-up visit 70, travel and tools 8. Margin 62 per visit. Fixed cost 900 a month gives break-even at 900 / 62 = 14.5, so 15 visits. At 25 visits a month, margin is 25 x 62 = 1,550, minus 900 leaves 650. Teaching numbers only.",
+   "act": "Build a cost sheet and a price list for five services.",
+   "std": "Task: price a mobile service. Condition: all costs counted. Standard: break-even correct and shown with units."
+  },
+  "7": {
+   "title": "Safety, trust and good service",
+   "intro": "You may hold a person's whole life on one phone. Handle it with care.",
+   "pts": [
+    "Apply a privacy rule: never open personal photos or messages unless the job needs it.",
+    "Check parts and chargers for safety; do not use damaged batteries.",
+    "Explain scams: fake support calls and fake links; teach customers to spot them.",
+    "Handle a complaint with a written fix or refund as agreed.",
+    "Hand back or wipe the old device only as the customer decides in writing.",
+    "Store customer contact details in a locked place and delete them when not needed.",
+    "Practice a calm script for a customer upset about a delayed repair."
+   ],
+   "ex": "A customer receives a call from a fake bank asking for a code. The tech teaches the rule: no one real ever asks for a one-time code. The customer practices hanging up and calling the number on the bank card.",
+   "act": "Write a privacy note, a safety checklist and a customer scam-awareness card.",
+   "std": "Task: protect a customer. Condition: practice job. Standard: privacy note signed and safety checklist completed."
+  },
+  "8": {
+   "title": "Run the service for real",
+   "intro": "Now run your mobile service with real customers and a growth plan.",
+   "pts": [
+    "Run a 60-day pilot with a stop rule agreed in advance.",
+    "Review weekly: jobs, income, time, complaints, repeats.",
+    "Create a 12-month plan with training and equipment budget.",
+    "Lead others: write the checklist so a helper can do the same job.",
+    "Calculate visits per week and income per hour at the end of the pilot.",
+    "Compare results with the stop rule on the planned date.",
+    "Identify the service customers asked for most and decide to add, change or skip it."
+   ],
+   "ex": "Stop rule: if fewer than 25 visits in 60 days, stop and write lessons. Result: 41 visits x 62 = 2,542 in margin, minus 1,800 fixed costs for two months = 742; add a small group class for older users.",
+   "act": "Run the pilot, write the review and present your plan to three people.",
+   "std": "Task: run a mobile service pilot. Condition: 60 days, real customers. Standard: results compared with the stop rule and rules re-checked."
+  }
+ },
+ "price": [
+  70,
+  8,
+  40,
+  "visit"
+ ],
+ "quiz": [
+  [
+   "Name two kinds of mobile service.",
+   "Fixing or setting up devices, and offering a service through a phone."
+  ],
+  [
+   "Why get consent before a repair?",
+   "The phone holds private data and the owner must agree to the work."
+  ],
+  [
+   "What do you check before blaming a phone for fast battery drain?",
+   "Background apps, battery health, charger and cable."
+  ],
+  [
+   "Why give a written estimate?",
+   "Consumer rules and trust; the customer knows the cost before work."
+  ],
+  [
+   "Which level regulates telecom and radio equipment?",
+   "Federal; check the rule before selling or changing equipment."
+  ],
+  [
+   "What is two-step sign-in?",
+   "A second proof, such as a code, in addition to the password."
+  ],
+  [
+   "What should you never ask a customer to share?",
+   "Their one-time codes or passwords."
+  ],
+  [
+   "How do you test a mobile page?",
+   "On two phones and with slow data."
+  ],
+  [
+   "How do you find break-even visits?",
+   "Fixed cost divided by margin per visit."
+  ],
+  [
+   "What do you do with a damaged battery?",
+   "Do not use it; dispose of it by local e-waste rules."
+  ]
+ ],
+ "jobs": [
+  "Phone repair technician",
+  "Mobile set-up specialist",
+  "Retail device adviser",
+  "Digital skills tutor",
+  "Field service technician",
+  "Mobile service owner"
+ ]
+}

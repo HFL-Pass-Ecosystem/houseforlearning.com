@@ -1,12 +1,188 @@
-{"mods":{
-"1":{"title":"Know what e-commerce is","intro":"E-commerce means selling goods or services over the internet. Start by learning the parts: a product, a page, a way to pay, and a way to deliver.","pts":["Name the four parts of a sale online: product, listing, payment, delivery.","Describe three ways to sell: your own web shop, a shared marketplace, and social media orders.","Explain what a customer sees from first click to parcel at the door.","List the words you will use: SKU, stock, order, refund, shipping rate."],"ex":"A person sells hand-made soap. Product: soap bar. Listing: photo, price in CAD, size. Payment: card. Delivery: letter-mail parcel. Each part is written on one page.","act":"Buy one small item online. Write down every step you saw, from search to delivery.","std":"Task: list the parts of an online sale. Condition: using one real purchase. Standard: all four parts named with one example each."},
-"2":{"title":"Choose a product and a customer","intro":"A good shop starts with one clear customer and one need. Do not start with a long list of products.","pts":["Describe your customer in three lines: who, where, what problem.","Compare ten similar listings: price, photos, reviews, delivery time.","Explain why a small niche can be easier to win than a big one.","Check that the product is legal to sell and safe to ship."],"ex":"Customer: new parents in small towns who cannot find cloth wipes nearby. Ten listings showed poor photos and slow delivery, so the gap is clear photos and fast shipping.","act":"Fill a comparison table of ten listings and write one sentence on the gap you can fill.","std":"Task: choose a first product. Condition: with a ten-listing comparison. Standard: customer, gap and legal check written on one page."},
-"3":{"title":"Follow the rules in Canada","intro":"Online sellers must follow tax, consumer and privacy rules. These differ by province, so always check the official source.","pts":["Explain that sales tax is charged on most sales; check the current small-supplier rule with the federal tax agency.","Describe that return, refund and price-display rules are set by each province; check your province.","Apply the privacy rule: collect only the customer data you need and keep it safe.","Check labelling rules, including French and English on many packaged goods, and import duty for goods from abroad."],"ex":"A rules table row: Sales tax | federal tax agency | register when sales pass the limit | check each quarter | registration number saved.","act":"Make a rules table for your product and province. Add the official page and the date you checked.","std":"Task: list the rules for an online shop. Condition: using official pages only. Standard: every row has who enforces it, what to do, and a date."},
-"4":{"title":"Build a simple shop page","intro":"Your listing is your shop window. Plain words, true photos and clear prices build trust.","pts":["Build a listing with a plain title, three true photos, size, material and price in CAD.","Show the delivery cost and time before checkout.","Write a short return policy in simple words.","Check the page on a phone, because many buyers use one."],"ex":"Title: Cotton wipes, set of 12, white. Photos: front, size next to a hand, in use. Price 24 CAD. Ships in 2 days. Returns accepted for 30 days if unused.","act":"Build one full listing and ask three people to find the price, the delivery cost and the return rule in under one minute.","std":"Task: build a product listing. Condition: for a phone screen. Standard: three testers find price, delivery cost and returns in 60 seconds."},
-"5":{"title":"Stock, price and shipping","intro":"Many online sellers fail on money, not on sales. Count every cost before you set the price.","pts":["Compute margin = price minus product cost, payment fee, packing and shipping.","Use reorder point = daily sales x supplier lead time + safety stock.","Compare shipping options by price, speed and tracking.","Analyse which products tie up cash without selling."],"ex":"Price 24, product 9, packing 1.50, payment fee 1, shipping paid by seller 5. Margin = 24 - 9 - 1.50 - 1 - 5 = 7.50 per order (31%). Teaching numbers only.","act":"Build a cost sheet for three products and find the one with the best margin per order.","std":"Task: price three products. Condition: all costs counted. Standard: margin per order and margin percent are correct and shown with units."},
-"6":{"title":"Get found and get the first orders","intro":"Nobody visits a shop they cannot find. Pick two or three routes and run them every week.","pts":["Apply simple search words: write titles the way buyers type.","Use direct contact: friends, local groups, small businesses that share your customer.","Build a short email or message list, only with consent.","Track the funnel: visits, carts, orders, and improve the weakest step."],"ex":"Four weeks: 600 visits, 30 carts, 12 orders. Visit-to-cart is 5%. The weakest step is cart to order (40%); test a clearer delivery price on the cart page.","act":"Run a four-week test of two routes and record visits and orders each week.","std":"Task: win first orders. Condition: two routes, four weeks. Standard: weekly numbers recorded and one change tested."},
-"7":{"title":"Serve customers and protect them","intro":"Good service brings repeat orders. Safe handling of data and payments keeps trust.","pts":["Answer messages within one working day and keep a written script for common questions.","Handle a late or damaged parcel: apologise, fix, record the cause.","Check security basics: strong sign-in, two-step verification, software updates.","Explain how you spot and refuse a fake order or chargeback attempt."],"ex":"Parcel arrives damaged. Reply within a day, send a replacement, record 'thin box' as the cause, and change the box. Repeat complaints drop.","act":"Write a reply script for five common problems and a one-page privacy note.","std":"Task: handle a customer problem. Condition: using your scripts. Standard: reply in one working day with a fix and a recorded cause."},
-"8":{"title":"Run the shop for real","intro":"Now run the shop with real stock, real orders and a plan. Decide with numbers.","pts":["Run a 60-day pilot with a stop rule agreed in advance.","Review weekly: orders, margin, returns, complaints, cash.","Create a 12-month plan with three milestones and a budget.","Lead others: write the steps so a helper can pack and ship the same way."],"ex":"Stop rule: if fewer than 30 orders in 60 days, stop and write lessons. Result: 54 orders and a 28% margin; decide to add one product.","act":"Run the pilot, write the review and present your 12-month plan to three people.","std":"Task: run an online shop pilot. Condition: 60 days, real orders. Standard: results compared with the stop rule and a dated plan written."}},
-"price":[48,26,200,"order"],
-"quiz":[["What are the four parts of an online sale?","Product, listing, payment and delivery."],["Why start with one clear customer?","A clear customer shows what to sell and how to describe it."],["Who sets return and refund rules for most online sales in Canada?","Each province; check your own province."],["What should you do about sales tax numbers?","Check the current rule with the federal tax agency."],["What must a listing show before checkout?","Price, delivery cost and delivery time."],["How do you find margin per order?","Price minus product cost, fees, packing and shipping."],["What is the reorder point formula?","Daily sales x lead time + safety stock."],["Which funnel step do you fix first?","The weakest step."],["What do you do when a parcel arrives damaged?","Fix it for the customer and record the cause so you can change it."],["What must be agreed before a pilot?","Length, measures and a stop rule."]],
-"jobs":["Online seller","Buyer or merchandiser","Marketplace account manager","Inventory planner","Customer service lead","Shop owner"]}
+{
+ "mods": {
+  "1": {
+   "title": "Know what e-commerce is",
+   "intro": "E-commerce means selling goods or services over the internet. Start by learning the parts: a product, a page, a way to pay, and a way to deliver.",
+   "pts": [
+    "Name the four parts of a sale online: product, listing, payment, delivery.",
+    "Describe three ways to sell: your own web shop, a shared marketplace, and social media orders.",
+    "Explain what a customer sees from first click to parcel at the door.",
+    "List the words you will use: SKU, stock, order, refund, shipping rate.",
+    "Compare a web shop and a marketplace by who sets the price, who pays the fees and who keeps the customer list.",
+    "Trace the money in one order: what the buyer pays and where each part goes.",
+    "Identify what a shop must show to be trusted: business name, contact details and return policy."
+   ],
+   "ex": "A person sells hand-made soap. Product: soap bar. Listing: photo, price in CAD, size. Payment: card. Delivery: letter-mail parcel. A web shop lets the seller set the price and keep the customer list; a marketplace brings visitors but takes a fee.",
+   "act": "Buy one small item online. Write down every step you saw, from search to delivery.",
+   "std": "Task: list the parts of an online sale. Condition: using one real purchase. Standard: all four parts named with one example each."
+  },
+  "2": {
+   "title": "Choose a product and a customer",
+   "intro": "A good shop starts with one clear customer and one need. Do not start with a long list of products.",
+   "pts": [
+    "Describe your customer in three lines: who, where, what problem.",
+    "Compare ten similar listings: price, photos, reviews, delivery time.",
+    "Explain why a small niche can be easier to win than a big one.",
+    "Check that the product is legal to sell and safe to ship.",
+    "Calculate how many orders a month you need to cover your costs at a rough margin.",
+    "Identify one reason a customer would pick you over ten other listings: speed, size, price or story.",
+    "Test demand before buying stock: show a photo and price to ten people and count how many say they would buy."
+   ],
+   "ex": "Customer: new parents in small towns who cannot find cloth wipes nearby. Ten listings range from 18 to 35 CAD with a median of 26 (the middle two prices are 25 and 27). Many have poor photos and slow delivery, so a price of 24 with clear photos and fast shipping fills the gap.",
+   "act": "Fill a comparison table of ten listings and write one sentence on the gap you can fill.",
+   "std": "Task: choose a first product. Condition: with a ten-listing comparison. Standard: customer, gap and legal check written on one page."
+  },
+  "3": {
+   "title": "Follow the rules in Canada",
+   "intro": "Online sellers must follow tax, consumer and privacy rules. These differ by province, so always check the official source.",
+   "pts": [
+    "Explain that sales tax is charged on most sales; check the current small-supplier rule with the federal tax agency.",
+    "Describe that return, refund and price-display rules are set by each province; check your province.",
+    "Apply the privacy rule: collect only the customer data you need and keep it safe.",
+    "Check labelling rules, including French and English on many packaged goods, and import duty for goods from abroad.",
+    "Check the rules for your product type, such as food, children's goods or cosmetics, with the federal and provincial authority.",
+    "Show prices in CAD with taxes stated clearly; check the price-display rule in your province.",
+    "Keep records of sales, tax collected and costs for as long as the tax agency requires."
+   ],
+   "ex": "A rules table row: Sales tax | federal tax agency | register when sales pass the limit | check each quarter | registration number saved. If registration takes 2 weeks and the label check takes 1 week, run both together and both are done in week 2.",
+   "act": "Make a rules table for your product and province. Add the official page and the date you checked.",
+   "std": "Task: list the rules for an online shop. Condition: using official pages only. Standard: every row has who enforces it, what to do, and a date."
+  },
+  "4": {
+   "title": "Build a simple shop page",
+   "intro": "Your listing is your shop window. Plain words, true photos and clear prices build trust.",
+   "pts": [
+    "Build a listing with a plain title, three true photos, size, material and price in CAD.",
+    "Show the delivery cost and time before checkout.",
+    "Write a short return policy in simple words.",
+    "Check the page on a phone, because many buyers use one.",
+    "Describe the product the way a buyer asks questions: size, colour, use and care.",
+    "Test the checkout from cart to payment confirmation with a small real order.",
+    "Write a plain-word description for each photo so a screen reader can read it."
+   ],
+   "ex": "Title: Cotton wipes, set of 12, white. Photos: front, size next to a hand, in use. Price 24 CAD. Ships in 2 days. Returns accepted for 30 days if unused. Three testers found the price, delivery cost and return rule in 45, 38 and 52 seconds, an average of 45, so the page passes.",
+   "act": "Build one full listing and ask three people to find the price, the delivery cost and the return rule in under one minute.",
+   "std": "Task: build a product listing. Condition: for a phone screen. Standard: three testers find price, delivery cost and returns in 60 seconds."
+  },
+  "5": {
+   "title": "Stock, price and shipping",
+   "intro": "Many online sellers fail on money, not on sales. Count every cost before you set the price.",
+   "pts": [
+    "Compute margin = price minus product cost, payment fee, packing and shipping.",
+    "Use reorder point = daily sales x supplier lead time + safety stock.",
+    "Compare shipping options by price, speed and tracking.",
+    "Analyse which products tie up cash without selling.",
+    "Calculate break-even orders: fixed costs per month divided by margin per order.",
+    "Compare three packing options by cost per parcel and damage rate.",
+    "Set a safety stock level from the longest supplier delay you have seen."
+   ],
+   "ex": "Price 24, product 9, packing 1.50, payment fee 1, shipping paid by seller 5. Margin = 24 - 9 - 1.50 - 1 - 5 = 7.50 per order (31%). With 150 of fixed cost a month, break-even is 150 / 7.50 = 20 orders. Reorder point: 3 sales a day x 10 days of supplier delay + 12 safety stock = 42 units. Teaching numbers only.",
+   "act": "Build a cost sheet for three products and find the one with the best margin per order.",
+   "std": "Task: price three products. Condition: all costs counted. Standard: margin per order and margin percent are correct and shown with units."
+  },
+  "6": {
+   "title": "Get found and get the first orders",
+   "intro": "Nobody visits a shop they cannot find. Pick two or three routes and run them every week.",
+   "pts": [
+    "Apply simple search words: write titles the way buyers type.",
+    "Use direct contact: friends, local groups, small businesses that share your customer.",
+    "Build a short email or message list, only with consent.",
+    "Track the funnel: visits, carts, orders, and improve the weakest step.",
+    "Write a product title and first line using words from three real buyer searches.",
+    "Calculate cost per order from any paid promotion and compare it with margin.",
+    "Review which route brought the most orders and move time toward it."
+   ],
+   "ex": "Four weeks: 600 visits, 30 carts, 12 orders. Visit-to-cart is 5%. The weakest step is cart to order (40%); test a clearer delivery price on the cart page. If that lifts cart-to-order to 50%, the same 30 carts give 15 orders, 3 more.",
+   "act": "Run a four-week test of two routes and record visits and orders each week.",
+   "std": "Task: win first orders. Condition: two routes, four weeks. Standard: weekly numbers recorded and one change tested."
+  },
+  "7": {
+   "title": "Serve customers and protect them",
+   "intro": "Good service brings repeat orders. Safe handling of data and payments keeps trust.",
+   "pts": [
+    "Answer messages within one working day and keep a written script for common questions.",
+    "Handle a late or damaged parcel: apologise, fix, record the cause.",
+    "Check security basics: strong sign-in, two-step verification, software updates.",
+    "Explain how you spot and refuse a fake order or chargeback attempt.",
+    "Write the return steps in order: customer asks, you reply, parcel comes back, refund is sent, with a number of days for each.",
+    "Review messages and reviews each week and list the top two complaints.",
+    "Store customer data in one protected place and delete what you no longer need; check the privacy rule."
+   ],
+   "ex": "Parcel arrives damaged. Reply within a day, send a replacement, record 'thin box' as the cause, and change the box. If 4 of 40 parcels were damaged (10%) and after the change 1 of 40 is (2.5%), the fix worked.",
+   "act": "Write a reply script for five common problems and a one-page privacy note.",
+   "std": "Task: handle a customer problem. Condition: using your scripts. Standard: reply in one working day with a fix and a recorded cause."
+  },
+  "8": {
+   "title": "Run the shop for real",
+   "intro": "Now run the shop with real stock, real orders and a plan. Decide with numbers.",
+   "pts": [
+    "Run a 60-day pilot with a stop rule agreed in advance.",
+    "Review weekly: orders, margin, returns, complaints, cash.",
+    "Create a 12-month plan with three milestones and a budget.",
+    "Lead others: write the steps so a helper can pack and ship the same way.",
+    "Calculate pilot profit: orders x margin minus fixed costs.",
+    "Compare results with the stop rule on the planned date and write the decision.",
+    "Identify the next product from what customers asked for."
+   ],
+   "ex": "Stop rule: if fewer than 30 orders in 60 days, stop and write lessons. Result: 54 orders at an average of 24 is 1,296 in sales; a 28% margin is about 363. With 150 of fixed cost, profit is about 213, so the decision is to add one product.",
+   "act": "Run the pilot, write the review and present your 12-month plan to three people.",
+   "std": "Task: run an online shop pilot. Condition: 60 days, real orders. Standard: results compared with the stop rule and a dated plan written."
+  }
+ },
+ "price": [
+  48,
+  26,
+  200,
+  "order"
+ ],
+ "quiz": [
+  [
+   "What are the four parts of an online sale?",
+   "Product, listing, payment and delivery."
+  ],
+  [
+   "Why start with one clear customer?",
+   "A clear customer shows what to sell and how to describe it."
+  ],
+  [
+   "Who sets return and refund rules for most online sales in Canada?",
+   "Each province; check your own province."
+  ],
+  [
+   "What should you do about sales tax numbers?",
+   "Check the current rule with the federal tax agency."
+  ],
+  [
+   "What must a listing show before checkout?",
+   "Price, delivery cost and delivery time."
+  ],
+  [
+   "How do you find margin per order?",
+   "Price minus product cost, fees, packing and shipping."
+  ],
+  [
+   "What is the reorder point formula?",
+   "Daily sales x lead time + safety stock."
+  ],
+  [
+   "Which funnel step do you fix first?",
+   "The weakest step."
+  ],
+  [
+   "What do you do when a parcel arrives damaged?",
+   "Fix it for the customer and record the cause so you can change it."
+  ],
+  [
+   "What must be agreed before a pilot?",
+   "Length, measures and a stop rule."
+  ]
+ ],
+ "jobs": [
+  "Online seller",
+  "Buyer or merchandiser",
+  "Marketplace account manager",
+  "Inventory planner",
+  "Customer service lead",
+  "Shop owner"
+ ]
+}
