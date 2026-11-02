@@ -123,6 +123,8 @@ except Exception as _ex: print('skip price fixes', _ex)
 try:
     LOCAL_FIG = _json.load(open(pathlib.Path(__file__).parent / 'loc_local_figures.json'))['figures']
 except Exception as _ex: LOCAL_FIG = {}; print('skip local figures', _ex)
+def _art(t): return 'an' if t[:1] in 'AEIOU' else 'a'
+def _bz(t): return t if t.lower().endswith(('business', 'businesses')) else t + ' business'
 PRICE_LEVEL = {'ky': 2, 'mx': 20, 'hk': 8, 'ge': 3}
 _AMT = _re.compile(r'\{c\} ?(\d[\d,]*)(\.\d+)?')
 def _scale(txt, c, k):
@@ -153,8 +155,6 @@ def _deep(sl, out, tq):
         k = max(range(8), key=lambda x: (sc[x], x == d)); used.append(k)
         res.append((out[k], quiz_for_module(quiz, k + 1)))
     return res
-def _art(t): return 'an' if t[:1] in 'AEIOU' else 'a'
-def _bz(t): return t if t.lower().endswith(('business', 'businesses')) else t + ' business'
 def build(L, idx, sl, topic, rows):
     L = copy.deepcopy(L)
     if L['k'] == 'ge': L['cur'] = 'GEL'  # Georgia pages show GEL only; the overview page covers both countries
