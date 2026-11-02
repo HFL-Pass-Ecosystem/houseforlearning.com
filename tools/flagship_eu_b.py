@@ -5,7 +5,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import build_full_courses as B
 from flagship_data_eu_ladder import LADDER
 from flagship_eu_b_topic import T
-from ladder_common import deep_slide, LADDER_MODULE_IDX, quiz_for_module, pick_module
+from ladder_common import deep_slide, LADDER_MODULE_IDX, quiz_for_module, pick_module, MODULE_OVERRIDE
 LV = {1: 'L1 Basic', 2: 'L2 Awareness', 3: 'L3 Foundation', 4: 'L4 Practitioner', 5: 'L5 Specialist', 6: 'L6 Advanced', 7: 'L7 Super expert'}
 e = html.escape
 H = [6, 6, 35, 10, 35, 14, 28, 8]  # hours per module
@@ -83,7 +83,7 @@ def ladder_html(cid, c, H, BL):
     used = []
     texts = [' || '.join([m[0], m[1], ' '.join(m[2]), m[3], m[4]]) for m in c['mods']]
     for i, (tt, n) in enumerate(LADDER[cid], 1):
-        k = pick_module(texts, tt, n, LADDER_MODULE_IDX[i-1], used); used.append(k)
+        k = pick_module(texts, tt, n, LADDER_MODULE_IDX[i-1], used); k = MODULE_OVERRIDE.get((cid, i), k); used.append(k)
         m = c['mods'][k]
         mod = (m[0], BL[k], H[k], m[1], m[2], m[3], m[4], m[5])
         on, nt = deep_slide(i, tt, n, mod, quiz_for_module(c['quiz'], k + 1))

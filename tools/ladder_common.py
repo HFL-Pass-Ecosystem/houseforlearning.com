@@ -46,3 +46,10 @@ def pick_module(mods_text, title, notes, default_idx, used):
         sc = 3 * len(tw & mt) + len(tw & mw) + len(nw & mw) * 0.5 + (0.75 if i == default_idx else 0) - 4 * list(used).count(i)
         if sc > best: best, bi = sc, i
     return bi
+
+
+# Hand-checked module picks (0-based) where the automatic word match chose a weaker module.
+MODULE_OVERRIDE = {
+    ('EU-01', 6): 1, ('EU-02', 6): 2, ('EU-07', 7): 6,
+    ('EU-08', 6): 5, ('EU-08', 7): 6, ('EU-09', 6): 5, ('EU-09', 7): 6,
+}
