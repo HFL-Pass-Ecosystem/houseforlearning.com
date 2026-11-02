@@ -1,0 +1,283 @@
+{
+ "id": "GL-46",
+ "title": "DNA Analysis (Awareness Level)",
+ "level": 2,
+ "desc": "Understand what DNA tests can and cannot tell you, how samples are handled, and how to protect privacy and dignity. Awareness only.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain DNA, genes and the main kinds of tests in plain words."
+  ],
+  [
+   "Apply",
+   "Read a sample report and say what it does and does not mean."
+  ],
+  [
+   "Analyse",
+   "Spot overclaims in test marketing."
+  ],
+  [
+   "Evaluate",
+   "Weigh benefits and risks of sharing genetic data."
+  ],
+  [
+   "Create",
+   "Draft a plain-language consent explainer."
+  ]
+ ],
+ "task": "Produce a two-page plain-language explainer on DNA testing with a risk list and a consent checklist.",
+ "condition": "A computer, public information, two peers and a mentor. You will not handle real samples or interpret anyone's results.",
+ "standard": "Facts are correct and sourced; limits are stated; no diagnosis is offered; privacy risks are named; peers rate Meets or better.",
+ "who": "Lab assistants, health communicators, teachers, curious adults.",
+ "req": "none",
+ "evidence": "explainer, risk list, consent checklist",
+ "modules": [
+  [
+   "DNA in simple words",
+   "Understand",
+   2,
+   "DNA is the instruction code in cells.",
+   [
+    "Genes are sections of DNA; we inherit them from parents.",
+    "Most traits come from many genes and the environment.",
+    "A test reads some parts, not everything."
+   ],
+   "Height depends on many genes and on food and health in childhood.",
+   "Draw a simple DNA to trait picture.",
+   "Picture has no false claims."
+  ],
+  [
+   "Kinds of tests",
+   "Understand",
+   2,
+   "Tests differ in purpose.",
+   [
+    "Ancestry, health risk, carrier, paternity, forensic.",
+    "A test result is a probability, not destiny.",
+    "Medical tests belong with a clinician."
+   ],
+   "A carrier test shows chance of passing on a condition, not that a child will have it.",
+   "Compare three test types in a table.",
+   "Table states purpose and limit."
+  ],
+  [
+   "From sample to result",
+   "Analyse",
+   2,
+   "Many steps can go wrong.",
+   [
+    "Collect, label, store, extract, read, report.",
+    "Chain of custody records who held the sample.",
+    "Contamination and labelling errors cause false results."
+   ],
+   "A mislabelled tube swaps two results; a barcode check prevents it.",
+   "Map the steps and risks.",
+   "Every step has a quality check."
+  ],
+  [
+   "Reading a result",
+   "Analyse",
+   2,
+   "Results need context.",
+   [
+    "Percent and risk numbers explain chance, not certainty.",
+    "Variants of uncertain meaning are common.",
+    "Only a genetic counsellor or clinician explains health results."
+   ],
+   "A report says a 1.5 times higher chance; absolute risk goes from 2 to 3 in 100.",
+   "Explain a sample number to a peer.",
+   "Peer repeats it correctly."
+  ],
+  [
+   "Marketing and overclaims",
+   "Evaluate",
+   2,
+   "Be careful with big promises.",
+   [
+    "Beware \"find your perfect diet by DNA\" or \"know your talent\".",
+    "Look for evidence, regulation and independent reviews.",
+    "Price does not prove quality."
+   ],
+   "An ad claims a diet plan from DNA; no study is shown. The learner marks it as unproven.",
+   "Review two adverts.",
+   "Overclaims named with reasons."
+  ],
+  [
+   "Privacy and family impact",
+   "Evaluate",
+   2,
+   "Your DNA reveals things about relatives.",
+   [
+    "Data may be sold, hacked or used by insurers in some places.",
+    "Findings can surprise families, such as unknown relatives.",
+    "Consent must be informed and free."
+   ],
+   "A family agrees before testing that no one will be told surprises without a counsellor.",
+   "Write a consent checklist.",
+   "Eight clear questions."
+  ],
+  [
+   "Ethics and fairness",
+   "Evaluate",
+   2,
+   "Genetic data must not be used to discriminate.",
+   [
+    "No test should be forced by employers or schools.",
+    "Respect culture and faith views.",
+    "Data from some groups is underrepresented, so results can be less accurate."
+   ],
+   "A study notes fewer data from certain populations and urges wider sampling.",
+   "Discuss two cases with peers.",
+   "Peers reach a reasoned view."
+  ],
+  [
+   "Write the explainer",
+   "Create",
+   2,
+   "Combine all parts.",
+   [
+    "Use short sentences.",
+    "Add a glossary and a where-to-get-help box.",
+    "Test with a non-expert."
+   ],
+   "A reader says, \"Now I know to ask a counsellor, not a website.\"",
+   "Finish and test.",
+   "Reader can state three limits of DNA tests."
+  ]
+ ],
+ "quiz": [
+  [
+   "What is DNA?",
+   "The instruction code in cells."
+  ],
+  [
+   "Is a result destiny?",
+   "No; it is a chance."
+  ],
+  [
+   "Name two test kinds.",
+   "Ancestry and carrier (or health risk, paternity)."
+  ],
+  [
+   "Why chain of custody?",
+   "To show who held the sample."
+  ],
+  [
+   "Who explains health results?",
+   "A genetic counsellor or clinician."
+  ],
+  [
+   "Name one marketing red flag.",
+   "A big promise with no evidence."
+  ],
+  [
+   "Why does DNA affect relatives?",
+   "Relatives share genes."
+  ],
+  [
+   "Name a data risk.",
+   "Sale, hacking or misuse by insurers."
+  ],
+  [
+   "Can employers force tests?",
+   "They should not."
+  ],
+  [
+   "Why is diverse data needed?",
+   "Results are less accurate for under-represented groups."
+  ]
+ ],
+ "rubric": [
+  [
+   "Accuracy",
+   "Errors",
+   "Correct",
+   "Correct with sources"
+  ],
+  [
+   "Plain language",
+   "Jargon",
+   "Clear",
+   "Clear and tested with a reader"
+  ],
+  [
+   "Limits stated",
+   "None",
+   "Some",
+   "All main limits stated"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Lab assistant trainee",
+   "Handles labelled samples"
+  ],
+  [
+   "Health communicator",
+   "Explains science plainly"
+  ],
+  [
+   "Genetic counselling assistant",
+   "Supports consent steps"
+  ],
+  [
+   "Teacher of life sciences",
+   "Teaches DNA basics"
+  ],
+  [
+   "Research administrator",
+   "Tracks consent records"
+  ]
+ ],
+ "next": "nanotechnology in medicine, stem cells awareness, privacy protection practice.",
+ "local": "Genetic testing and data laws differ by place; some tests need a clinician.",
+ "ladder": [
+  [
+   "Know the basics",
+   "L1: learner can say what DNA is.",
+   "Use pictures."
+  ],
+  [
+   "Know the rules and risks",
+   "L2: learner can name the test kinds.",
+   "Table of tests."
+  ],
+  [
+   "Prepare and set up",
+   "L3: learner can read a simple report with limits.",
+   "Read a sample result."
+  ],
+  [
+   "Run it",
+   "L4: learner can check a sample chain.",
+   "Trace a sample."
+  ],
+  [
+   "Specialise and measure",
+   "L5: learner can review ads and consent.",
+   "Look at adverts."
+  ],
+  [
+   "Lead a small team",
+   "L6: learner can coordinate consent records.",
+   "Show a consent form."
+  ],
+  [
+   "Advise and audit others",
+   "L7: learner can audit an explainer.",
+   "Peer audit."
+  ]
+ ]
+}

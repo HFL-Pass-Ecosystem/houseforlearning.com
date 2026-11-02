@@ -1,0 +1,283 @@
+{
+ "id": "GL-45",
+ "title": "Virtual Medical Appointment Systems",
+ "level": 4,
+ "desc": "Set up and run an online appointment system for a clinic: booking, identity, consent, records, reminders and fall-back plans.",
+ "outcomes": [
+  [
+   "Understand",
+   "Describe the full patient journey from booking to follow-up."
+  ],
+  [
+   "Apply",
+   "Configure booking slots, reminders and consent steps."
+  ],
+  [
+   "Analyse",
+   "Find failure points such as no-shows and poor connections."
+  ],
+  [
+   "Evaluate",
+   "Judge privacy and security of a tool."
+  ],
+  [
+   "Create",
+   "Launch a pilot with a service level and review."
+  ]
+ ],
+ "task": "Design and pilot a virtual appointment flow for one small clinic, with booking, identity check, consent, reminders, records and a fall-back for failed calls.",
+ "condition": "A practice clinic or case, a free booking tool, a spreadsheet, two peers and a clinic mentor. Real patient data is not used.",
+ "standard": "Flow works end to end in 10 mock appointments; ID and consent are recorded; failed-call fall-back works within 10 minutes; privacy checklist passes; peers rate Meets or better.",
+ "who": "Clinic managers, receptionists, nurses, health-IT beginners.",
+ "req": "none",
+ "evidence": "flow diagram, tool settings, 10 mock appointment log, privacy checklist, pilot review",
+ "modules": [
+  [
+   "The patient journey",
+   "Understand",
+   3,
+   "Map every step so none is forgotten.",
+   [
+    "Request, book, remind, join, identify, consent, consult, record, follow up.",
+    "Mark who does each step: patient, front desk, clinician, system.",
+    "Add a way for patients with no smartphone."
+   ],
+   "A clinic adds phone-in booking for older patients, so 20% more elderly patients attend.",
+   "Draw your journey map.",
+   "All nine steps have an owner."
+  ],
+  [
+   "Booking and reminders",
+   "Apply",
+   4,
+   "Good booking reduces no-shows.",
+   [
+    "Slots by clinician, length and type; buffer time between visits.",
+    "Reminders by message the day before and one hour before.",
+    "Cancel and reschedule in two taps."
+   ],
+   "A clinic cuts no-shows from 18% to 9% with two reminders.",
+   "Configure slots and reminders in a practice tool.",
+   "Test booking works with 5 mock patients."
+  ],
+  [
+   "Identity and consent",
+   "Apply",
+   4,
+   "Know who is on the call and that they agree.",
+   [
+    "Check name and date of birth; for minors, a guardian.",
+    "Ask consent for the video, notes and any recording.",
+    "Record consent in the visit file."
+   ],
+   "The clinician says: \"Please confirm your name and birth date. Are you happy to have this visit by video?\"",
+   "Write a consent script.",
+   "Script covers identity, visit by video, notes and privacy."
+  ],
+  [
+   "Technology and connection",
+   "Analyse",
+   4,
+   "Failures are normal; plan for them.",
+   [
+    "Test link, camera, mic and speed before the visit.",
+    "If video fails, switch to voice, then phone, then rebook.",
+    "Keep a technical help number."
+   ],
+   "A test call finds the patient's microphone is muted; a 2-minute fix.",
+   "Write a three-step fall-back and run it twice.",
+   "Fall-back restores contact within 10 minutes."
+  ],
+  [
+   "Privacy, security and records",
+   "Evaluate",
+   4,
+   "Health records are the most sensitive data.",
+   [
+    "Strong passwords, two-step sign-in, encrypted storage and access logs.",
+    "Share only with those who need it; follow local health-data rules.",
+    "Never use public chat tools without approval."
+   ],
+   "A receptionist loses access because she shared a password; policy now bans sharing.",
+   "Complete a privacy and security checklist for your tool.",
+   "No item fails without a fix plan."
+  ],
+  [
+   "What virtual care cannot do",
+   "Evaluate",
+   3,
+   "Some problems need an in-person visit.",
+   [
+    "Emergencies, physical exams, tests and procedures.",
+    "Clear rules for when to refer in person.",
+    "Teach patients what to do if worse."
+   ],
+   "Chest pain is sent to emergency care, never handled by video.",
+   "Write five red-flag rules agreed with a clinician.",
+   "Clinician mentor approves the rules."
+  ],
+  [
+   "Access and fairness",
+   "Analyse",
+   3,
+   "Not everyone has the same tools.",
+   [
+    "Offer phone, large-text and language options.",
+    "Support low-bandwidth modes and shared community points.",
+    "Track who does not attend and ask why."
+   ],
+   "A rural clinic uses a village centre with a tablet and a helper.",
+   "List three barriers and fixes.",
+   "Each barrier has a fix and an owner."
+  ],
+  [
+   "Pilot and improve",
+   "Create",
+   3,
+   "Test with real steps before scaling.",
+   [
+    "Run 10 mock visits; measure wait, success, satisfaction.",
+    "Fix top problems; set a target such as 90% of calls start on time.",
+    "Plan monthly reviews."
+   ],
+   "First pilot: 7 of 10 on time; after fixing the link emails, 9 of 10.",
+   "Present your pilot review.",
+   "Numbers are real and a next step is dated."
+  ]
+ ],
+ "quiz": [
+  [
+   "Name four steps in the journey.",
+   "Booking, reminder, ID check, consent, consult, record, follow-up."
+  ],
+  [
+   "Why two reminders?",
+   "They cut no-shows."
+  ],
+  [
+   "What do you check before video visits?",
+   "Identity and consent."
+  ],
+  [
+   "What is the fall-back order?",
+   "Voice, phone, then rebook."
+  ],
+  [
+   "Name two security measures.",
+   "Two-step sign-in and encrypted storage."
+  ],
+  [
+   "Name a case not for video.",
+   "Emergency such as chest pain."
+  ],
+  [
+   "Why keep access logs?",
+   "To show who saw a record."
+  ],
+  [
+   "Name one access fix.",
+   "Phone option or community point."
+  ],
+  [
+   "What is a pilot target example?",
+   "90% of calls start on time."
+  ],
+  [
+   "Who approves red-flag rules?",
+   "A clinician."
+  ]
+ ],
+ "rubric": [
+  [
+   "Journey design",
+   "Missing steps",
+   "All steps owned",
+   "Steps owned with access options"
+  ],
+  [
+   "Consent and ID",
+   "None",
+   "Scripted",
+   "Scripted and logged in tests"
+  ],
+  [
+   "Fall-back",
+   "None",
+   "Written",
+   "Tested twice within 10 minutes"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Virtual clinic coordinator",
+   "Runs booking and calls"
+  ],
+  [
+   "Health receptionist",
+   "Handles ID and consent"
+  ],
+  [
+   "Telehealth technician",
+   "Fixes connection issues"
+  ],
+  [
+   "Clinic digital lead",
+   "Selects and reviews tools"
+  ],
+  [
+   "Privacy assistant",
+   "Checks access logs"
+  ]
+ ],
+ "next": "privacy protection practice, IT service and support, tele-video conferencing operations.",
+ "local": "Health-data and telehealth rules differ by place; check licensing and data rules with an adviser.",
+ "ladder": [
+  [
+   "Know the basics",
+   "L1: learner can name the steps of a patient visit.",
+   "Use a drawing."
+  ],
+  [
+   "Know the rules and risks",
+   "L2: learner knows why consent and privacy come first.",
+   "Explain consent."
+  ],
+  [
+   "Prepare and set up",
+   "L3: learner can set up booking and reminders.",
+   "Practise on a free tool."
+  ],
+  [
+   "Run it",
+   "L4: learner can run a mock virtual visit.",
+   "Role-play a failed call."
+  ],
+  [
+   "Specialise and measure",
+   "L5: learner can review tools and measure a pilot.",
+   "Share numbers."
+  ],
+  [
+   "Lead a small team",
+   "L6: learner can coordinate a small clinic desk.",
+   "Cover rota and training."
+  ],
+  [
+   "Advise and audit others",
+   "L7: learner can audit a clinic for privacy and access.",
+   "Peer audit."
+  ]
+ ]
+}

@@ -1,0 +1,283 @@
+{
+ "id": "GL-44",
+ "title": "Online Therapy Support (Awareness Level)",
+ "level": 2,
+ "desc": "Understand how online emotional-support services work, what they can and cannot do, and how to stay safe and kind. Awareness only; this is not clinical training.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain the difference between peer support, coaching and licensed therapy."
+  ],
+  [
+   "Apply",
+   "Use a safe-contact checklist before joining or recommending a service."
+  ],
+  [
+   "Analyse",
+   "Spot warning signs that need urgent help."
+  ],
+  [
+   "Evaluate",
+   "Judge a service for privacy, qualifications and fairness."
+  ],
+  [
+   "Create",
+   "Draft a short, kind guide for your community."
+  ]
+ ],
+ "task": "Produce a one-page safe-use guide for online emotional-support services, with a checklist and an urgent-help card for your place.",
+ "condition": "A computer or phone, public information, two peers and a mentor. You do not give therapy or advice on treatment in this course.",
+ "standard": "Guide uses plain words; roles are not mixed up; urgent-help numbers are checked for your place and dated; no diagnosis or treatment advice appears; peers rate Meets or better.",
+ "who": "Teachers, community leaders, HR staff, volunteers and curious learners.",
+ "req": "none",
+ "evidence": "guide, checklist, urgent-help card, privacy review",
+ "modules": [
+  [
+   "Three kinds of help",
+   "Understand",
+   2,
+   "People mix up support types.",
+   [
+    "Peer support: shared experience, no training required.",
+    "Coaching: goals and habits, not treatment.",
+    "Licensed therapy: assessment and treatment by a registered professional."
+   ],
+   "A friend group chat is peer support. A career coach helps plan a job change. A registered therapist treats an anxiety disorder.",
+   "Sort 10 examples into the three kinds.",
+   "At least 9 sorted correctly."
+  ],
+  [
+   "How online sessions work",
+   "Understand",
+   2,
+   "Sessions run by text, voice or video, live or later.",
+   [
+    "Booking, payment, consent and session rules.",
+    "Good set-up: quiet room, headphones, stable internet.",
+    "What to do if the line fails."
+   ],
+   "A learner books a video session, checks the link 10 minutes early and keeps a phone number for backup.",
+   "Write a pre-session checklist.",
+   "Checklist has 6 items."
+  ],
+  [
+   "Qualifications and honesty",
+   "Analyse",
+   2,
+   "Anyone can claim to be a helper.",
+   [
+    "Look for registration with a recognised body and a public number.",
+    "Check the service explains limits and emergency steps.",
+    "Be wary of promises to cure fast."
+   ],
+   "A site shows a registration number which the learner checks on the public register.",
+   "Check one real or practice service.",
+   "Findings written with the source and date."
+  ],
+  [
+   "Privacy and consent",
+   "Evaluate",
+   2,
+   "Feelings are private data.",
+   [
+    "Ask what is recorded, who sees it and how long it is kept.",
+    "Never share another person's story without consent.",
+    "Use strong passwords and do not use shared computers."
+   ],
+   "A service keeps notes for 7 years; the learner decides whether that suits them.",
+   "Complete a privacy review of one service.",
+   "Five privacy questions answered."
+  ],
+  [
+   "Warning signs and urgent help",
+   "Analyse",
+   2,
+   "Some situations cannot wait.",
+   [
+    "Thoughts of self-harm, harm to others, abuse or severe distress need urgent human help now.",
+    "Know your local emergency number and a trusted person.",
+    "Stay with the person and call; do not leave them alone."
+   ],
+   "A volunteer keeps a card with the local emergency number and a crisis line, checked each month.",
+   "Make an urgent-help card.",
+   "Numbers are verified for your place and dated."
+  ],
+  [
+   "Being a kind helper",
+   "Apply",
+   2,
+   "Listening comes before advice.",
+   [
+    "Listen, name feelings, ask what would help, do not judge.",
+    "Do not diagnose or promise outcomes.",
+    "Know when to hand over to a professional."
+   ],
+   "A helper says \"That sounds hard. Would you like to talk about it or find someone to help?\"",
+   "Role-play two listening chats with a peer.",
+   "Peer says they felt heard and no advice was forced."
+  ],
+  [
+   "Fairness and access",
+   "Evaluate",
+   2,
+   "Cost, language and disability can block help.",
+   [
+    "Check language options, accessibility and low-cost routes.",
+    "Respect cultural and faith differences.",
+    "Do not push anyone to join."
+   ],
+   "A community lists a free helpline in three languages.",
+   "List three accessible options.",
+   "Each option is checked."
+  ],
+  [
+   "Write your community guide",
+   "Create",
+   2,
+   "Pull it together in one page.",
+   [
+    "Title, three kinds of help, safe-use checklist, urgent-help card.",
+    "Test with two readers.",
+    "Update every 6 months."
+   ],
+   "The one-page guide goes on a school notice board with a monthly review date.",
+   "Finish and present the guide.",
+   "Readers can explain it back in their own words."
+  ]
+ ],
+ "quiz": [
+  [
+   "Name three kinds of help.",
+   "Peer support, coaching, licensed therapy."
+  ],
+  [
+   "Does this course teach therapy?",
+   "No; awareness only."
+  ],
+  [
+   "How do you check qualifications?",
+   "Registration with a recognised body and a public number."
+  ],
+  [
+   "Name one privacy question.",
+   "What is recorded, who sees it, how long it is kept."
+  ],
+  [
+   "What needs urgent help?",
+   "Self-harm, harm to others, abuse, severe distress."
+  ],
+  [
+   "What do you not do as a helper?",
+   "Diagnose or promise outcomes."
+  ],
+  [
+   "Why check numbers by date?",
+   "Services change."
+  ],
+  [
+   "What is a kind first sentence?",
+   "\"That sounds hard. What would help?\""
+  ],
+  [
+   "Why consider access?",
+   "Cost, language or disability can block help."
+  ],
+  [
+   "How often should the guide be updated?",
+   "About every 6 months."
+  ]
+ ],
+ "rubric": [
+  [
+   "Role clarity",
+   "Roles mixed",
+   "Roles correct",
+   "Roles correct with examples"
+  ],
+  [
+   "Urgent-help card",
+   "Missing",
+   "Present",
+   "Verified, dated and tested"
+  ],
+  [
+   "Respect and kindness",
+   "Judging tone",
+   "Neutral",
+   "Warm, plain, no advice overreach"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Community helper or volunteer",
+   "Points people to safe help"
+  ],
+  [
+   "HR wellbeing assistant",
+   "Shares safe options at work"
+  ],
+  [
+   "School pastoral support assistant",
+   "Keeps urgent-help cards"
+  ],
+  [
+   "Helpline volunteer (with training)",
+   "Listens and refers"
+  ],
+  [
+   "Programme coordinator",
+   "Reviews service quality"
+  ]
+ ],
+ "next": "wellbeing, first aid awareness, privacy protection practice.",
+ "local": "Mental-health rules and emergency numbers differ widely. Always confirm local numbers.",
+ "ladder": [
+  [
+   "Know the basics",
+   "L1: learner can name three kinds of help.",
+   "Use everyday examples; stay gentle."
+  ],
+  [
+   "Know the rules and risks",
+   "L2: learner can say why privacy and consent matter.",
+   "Stress consent."
+  ],
+  [
+   "Prepare and set up",
+   "L3: learner can use the safe-use checklist.",
+   "Walk through the checklist."
+  ],
+  [
+   "Run it",
+   "L4: learner can run a kind listening chat and hand over.",
+   "Keep role-plays short and safe."
+  ],
+  [
+   "Specialise and measure",
+   "L5: learner can review a service for fairness and privacy.",
+   "Show a review of one service."
+  ],
+  [
+   "Lead a small team",
+   "L6: learner can coordinate a small volunteer rota.",
+   "Discuss rota and hand-over."
+  ],
+  [
+   "Advise and audit others",
+   "L7: learner can audit a community guide.",
+   "Peer audit."
+  ]
+ ]
+}
