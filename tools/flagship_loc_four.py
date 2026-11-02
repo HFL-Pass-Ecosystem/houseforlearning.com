@@ -125,7 +125,7 @@ def modules(L):
     M.append((THEMES[5][0], THEMES[5][1], THEMES[5][2],
       f'Know your numbers in {cur}. Tax rule in one line: {L["tax"]}.',
       [f'Write {cur} next to every number.', 'Contribution per unit = price minus the cost of each unit.', 'Break-even units = fixed monthly cost divided by contribution per unit; round up.', 'Add tax and duty explicitly; never bury them in a price.', 'Check against a worse case: if sales are 25% lower, do you still cover costs?'],
-      f'For {L["item"]}: price {L.get("curx",cur)} {p} per unit, cost {L.get("curx",cur)} {v} per unit, fixed cost {L.get("curx",cur)} {f:,} per month. Contribution = {p} - {v} = {cm}. Break-even = {f:,} / {cm} = {f/cm:.1f}, so {bu} {unit} per month. If sales fall 25% from {bu*2}, you sell {int(bu*2*0.75)} and the margin is {int(bu*2*0.75)*cm - f:,}.',
+      f'For {L["item"]}: price {L.get("curx",cur)} {p:,} per unit, cost {L.get("curx",cur)} {v:,} per unit, fixed cost {L.get("curx",cur)} {f:,} per month. Contribution = {p:,} - {v:,} = {cm:,}. Break-even = {f:,} / {cm:,} = {f/cm:.1f}, so {bu} {unit} per month. If sales fall 25% from {bu*2}, you sell {int(bu*2*0.75)} and the margin is {int(bu*2*0.75)*cm - f:,}.',
       f'Build your own sheet in {cur}: price, unit cost, fixed cost, contribution, break-even and a 25% worse case. Put the tax and duty rules in a separate line with a source.',
       f'Sheet has all six lines in {cur}; arithmetic is checked by a peer; the worse case is shown.'))
     M.append((THEMES[6][0], THEMES[6][1], THEMES[6][2],

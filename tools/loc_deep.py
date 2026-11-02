@@ -108,6 +108,11 @@ try:
     from loc_deep_units import UNITS
 except ImportError:
     UNITS = {}
+# per-sector price, cost and fixed monthly cost in the sample base unit (from each sector's own worked example), scaled by PRICE_LEVEL
+ECON = {}
+for _n in 'ABC':
+    try: ECON.update(__import__(f'loc_deep_econ_{_n}').__dict__[f'ECON_{_n}'])
+    except Exception as _ex: print('skip econ', _n, _ex)
 PRICE_LEVEL = {'ky': 2, 'mx': 20, 'hk': 8, 'ge': 3}
 _AMT = _re.compile(r'\{c\} ?(\d[\d,]*)(\.\d+)?')
 def _scale(txt, c, k):
@@ -118,8 +123,11 @@ def _scale(txt, c, k):
 def build(L, idx, sl, topic, rows):
     L = copy.deepcopy(L); c = L['cur'].split(' or ')[0]; k = PRICE_LEVEL.get(L['k'], 1)
     L['price'], L['var'], L['fixed'] = LE.scaled(L, idx)
-    _f = FIXED_LEVEL.get(L['k'], 1); L['price'], L['var'], L['fixed'] = L['price'] * _f, L['var'] * _f, L['fixed'] * _f
-    L['unit'] = UNITS.get(sl, L['unit'])
+    if sl in ECON:
+        _p, _v, _fx, _u = ECON[sl]; L['price'], L['var'], L['fixed'], L['unit'] = _p * k, _v * k, _fx * k, _u
+    else:
+        _f = FIXED_LEVEL.get(L['k'], 1); L['price'], L['var'], L['fixed'] = L['price'] * _f, L['var'] * _f, L['fixed'] * _f
+        L['unit'] = UNITS.get(sl, L['unit'])
     L['item'] = f'a small {topic} business'
     mods = F.modules(L)
     mods[1] = LE.build.__globals__['F'].modules(L)[1]
