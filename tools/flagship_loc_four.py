@@ -122,10 +122,11 @@ def modules(L):
       'Run a two-channel test with 20 people. Record results in a table and write the next change.',
       'Test has a start and end date; results are counted, not guessed; one change is chosen and justified.'))
     unit = L['unit']
+    utxt = f'{bu} units per month (one unit = {unit})' if L.get('unit_one') else f'{bu} {unit} per month'
     M.append((THEMES[5][0], THEMES[5][1], THEMES[5][2],
       f'Know your numbers in {cur}. Tax rule in one line: {L["tax"]}.',
       [f'Write {cur} next to every number.', 'Contribution per unit = price minus the cost of each unit.', 'Break-even units = fixed monthly cost divided by contribution per unit; round up.', 'Add tax and duty explicitly; never bury them in a price.', 'Check against a worse case: if sales are 25% lower, do you still cover costs?'],
-      f'For {L["item"]}: price {L.get("curx",cur)} {p:,} per unit, cost {L.get("curx",cur)} {v:,} per unit, fixed cost {L.get("curx",cur)} {f:,} per month. Contribution = {p:,} - {v:,} = {cm:,}. Break-even = {f:,} / {cm:,} = {f/cm:.1f}, so {bu} {unit} per month. If sales fall 25% from {bu*2}, you sell {int(bu*2*0.75)} and the margin is {int(bu*2*0.75)*cm - f:,}.',
+      f'For {L["item"]} (all amounts are estimates): price {L.get("curx",cur)} {p:,} per unit, cost {L.get("curx",cur)} {v:,} per unit, fixed cost {L.get("curx",cur)} {f:,} per month. Contribution = {p:,} - {v:,} = {cm:,}. Break-even = {f:,} / {cm:,} = {f/cm:.1f}, so {utxt}. If sales fall 25% from {bu*2}, you sell {int(bu*2*0.75)} and the margin is {int(bu*2*0.75)*cm - f:,}.' + risk_note(p, v, f),
       f'Build your own sheet in {cur}: price, unit cost, fixed cost, contribution, break-even and a 25% worse case. Put the tax and duty rules in a separate line with a source.',
       f'Sheet has all six lines in {cur}; arithmetic is checked by a peer; the worse case is shown.'))
     M.append((THEMES[6][0], THEMES[6][1], THEMES[6][2],
@@ -157,6 +158,12 @@ def quiz(L):
 
 # which module each of the ten checks belongs to (1-based), from the question content
 QMOD = [1, 2, 3, 3, 3, 4, 5, 6, 6, 7]
+def risk_note(p, v, f):
+    """If the price falls 25 per cent, say plainly when it drops to or below the unit cost (no break-even)."""
+    lo = p * 3 / 4
+    if lo > v: return ''
+    return f' Risk: if the price falls 25% to {lo:,.0f}, it is not above the unit cost of {v:,}, so every sale loses money and there is no break-even; plan a price floor or a lower cost before you launch.'
+
 def tag_quiz(q, mods, qmap=None):
     """Append '(Covered in module N: title. To pass that module: standard.)' to each model answer."""
     qm = list(QMOD)
