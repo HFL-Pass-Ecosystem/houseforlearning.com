@@ -31,9 +31,19 @@ def load():
         for k, v in sections(p).items():
             if k in res: res[k]['flag'] = blocks(v)
     return res
-def checks_html(text):
+def checks_html(text, tags=None):
+    """tags: optional list (one per question) of ready-made 'Covered in...' strings."""
     items = re.findall(r'(?:^|\s)\d+\.?\s+(.+?)\s+\*(.+?)\*(?=\s+\d+\.?\s|\s*$)', ' '.join(text) if isinstance(text, list) else text)
-    return ''.join(f'<details class="loc"><summary>{inline(q)}</summary><p><strong>Model answer:</strong> {inline(a)}</p></details>' for q, a in items), len(items)
+    if tags is not None: assert len(tags) == len(items), (len(tags), len(items))
+    return ''.join(f'<details class="loc"><summary>{inline(q)}</summary><p><strong>Model answer:</strong> {inline(a)}' + (f' {e(tags[i])}' if tags else '') + '</p></details>' for i, (q, a) in enumerate(items)), len(items)
+def load_modmap():
+    import json
+    m = {}
+    for p in sorted(D.glob('modmap-*.json')): m.update(json.loads(p.read_text()))
+    return m
+def covered_tag(n, mods, stds):
+    if n is None: return '(Covered in: background fact, not taught in one module.)'
+    return f'(Covered in module {n}: {mods[n-1][0]}. To pass that module: {stds[n-1].rstrip().rstrip(".")}.)'
 def modules(text):
     t = ' '.join(text)
     return re.findall(r'\d+\s+(.+?)\s+\((\d+)\)', t)
