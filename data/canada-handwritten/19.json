@@ -13,9 +13,12 @@
     "Know the service lines and who can offer each.",
     "Interview five clients on their goals and worries.",
     "Choose a niche such as newcomers, students or small businesses.",
-    "Write a service sheet."
+    "Write a service sheet.",
+    "Separate education from advice: explaining a savings account differs from recommending a product; check the provincial rule on what needs registration.",
+    "Ask what worries each client most and record it in their own words.",
+    "List what you will not do and where you refer those clients."
    ],
-   "ex": "Newcomers need credit history, tax filing and savings plans in their first year.",
+   "ex": "Newcomers need credit history, tax filing and savings plans in their first year. A newcomer who earns 3,000 a month and saves 300 has a savings rate of 300 / 3,000 = 10%, a starting point for a plan.",
    "act": "Interview five people and write a service sheet.",
    "std": "Needs recorded."
   },
@@ -26,9 +29,12 @@
     "Provincial securities, insurance and mortgage regulators license advisers.",
     "Know-your-client and suitability duties require documented advice.",
     "Anti-money-laundering reporting.",
-    "Privacy law covers client records."
+    "Privacy law covers client records.",
+    "Write a one-page conduct code covering honesty, disclosure and putting the client first.",
+    "Know when to refer: complex tax, legal questions, or products outside your registration.",
+    "Store client records securely and keep them for the period the regulator requires; check the provincial rule."
    ],
-   "ex": "Row: 'Recommend a fund | provincial securities regulator | registration and suitability record | each advice | file note'.",
+   "ex": "Row: 'Recommend a fund | provincial securities regulator | registration and suitability record | each advice | file note'. A second row: 'Share client data | privacy law | written consent | before sharing | consent form'. Date each source.",
    "act": "Build a rules table.",
    "std": "Rows sourced and dated."
   },
@@ -39,9 +45,12 @@
     "Collect goals, income, costs, debts, assets.",
     "Compute net worth and savings rate.",
     "Set steps with dates.",
-    "Explain risks and fees."
+    "Explain risks and fees.",
+    "Compute net worth as assets minus debts for the fictional client.",
+    "Build a monthly budget with income, fixed costs, flexible costs and savings.",
+    "Set an emergency fund target of three months of costs."
    ],
-   "ex": "Income 4,000, costs 3,200; savings rate 20%.",
+   "ex": "Income 4,000, costs 3,200; savings are 800 and the savings rate is 800 / 4,000 = 20%. Three months of costs is 3 x 3,200 = 9,600, which takes 9,600 / 800 = 12 months to save.",
    "act": "Build a plan for a fictional client.",
    "std": "Numbers check."
   },
@@ -52,9 +61,12 @@
     "Hourly, fixed or percentage fees.",
     "Disclose all costs.",
     "Time tracking.",
-    "Break-even."
+    "Break-even.",
+    "Compare fee models: 20 hours at 150 is 3,000, against a fixed fee of 2,800.",
+    "Write a fee schedule that lists what is included.",
+    "Track time in 15-minute blocks and review the price each quarter."
    ],
-   "ex": "Fee 150 per hour; cost 25; margin 125; fixed cost 3,000 a month → 24 hours. Teaching figures in CAD.",
+   "ex": "Fee 150 per hour; cost 25; margin 125; fixed cost 3,000 a month gives 3,000 / 125 = 24 hours. At 20 billable hours the margin is 20 x 125 = 2,500, which is 500 short. Teaching figures in CAD.",
    "act": "Build a fee sheet.",
    "std": "Disclosure written."
   },
@@ -65,9 +77,12 @@
     "Client file checklist.",
     "Annual review.",
     "Complaints process.",
-    "Supervision."
+    "Supervision.",
+    "Make a client-file checklist and tick each item.",
+    "Put the annual review date in the file and the calendar.",
+    "Write complaint steps: acknowledge, investigate, answer in writing."
    ],
-   "ex": "100% of files had suitability notes after a checklist.",
+   "ex": "Audit of five mock files: 4 had suitability notes, 1 did not, so 80% were complete. After the checklist was introduced, 5 of 5 (100%) had notes.",
    "act": "Audit five mock files.",
    "std": "Gaps listed."
   },
@@ -78,9 +93,12 @@
     "Referrals and talks.",
     "Free guides.",
     "Clear next step.",
-    "Track funnel."
+    "Track funnel.",
+    "Give a talk to a community group on one topic, such as a first tax filing, without selling a product.",
+    "Offer a free first meeting of 30 minutes with a written agenda.",
+    "Send a written summary within two days."
    ],
-   "ex": "Funnel: 30 talks, 8 meetings, 3 clients.",
+   "ex": "Funnel: 30 talks, 8 meetings, 3 clients. Meeting rate is 8 / 30 = 27%, client rate is 3 / 8 = 37.5%, and overall 3 / 30 = 10%.",
    "act": "Give a short talk.",
    "std": "Feedback recorded."
   },
@@ -91,9 +109,12 @@
     "Disclose conflicts.",
     "Fraud signs.",
     "Never promise returns.",
-    "Business continuity."
+    "Business continuity.",
+    "Teach clients common scams: urgent payment demands, gift-card requests and promised returns; tell them to verify by calling a known number.",
+    "Write a conflict disclosure statement in plain words.",
+    "Plan continuity: back up files and name a person to call if you are away."
    ],
-   "ex": "Risk: 'Client scam loss | 3 x 5 | warnings and verification | adviser | quarterly'.",
+   "ex": "Risk: 'Client scam loss | 3 x 5 | warnings and verification | adviser | quarterly'. The score is 3 x 5 = 15, so it is high priority and reviewed every quarter.",
    "act": "Write a risk register.",
    "std": "Owners named."
   },
@@ -104,9 +125,12 @@
     "Three mock plans.",
     "Peer review.",
     "Stop rule: missing disclosure fails.",
-    "Reflect."
+    "Reflect.",
+    "Prepare three fictional clients with different incomes, such as 2,500, 4,000 and 6,000 a month.",
+    "Ask a peer to play the client and raise a hard question about fees.",
+    "Score each plan against a ten-item checklist."
    ],
-   "ex": "All three plans passed disclosure check.",
+   "ex": "All three plans passed the disclosure check, which is 3 of 3 (100%). Had one failed, the stop rule says to fix it before any real client.",
    "act": "Run mock pilot.",
    "std": "Review has decision."
   }

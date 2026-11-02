@@ -13,9 +13,12 @@
     "Measure before you build: speed test at different times at 10 spots, noting device, place and time.",
     "Causes of gaps: distance from fibre, cost per household, cost of devices, language and skills, power cuts.",
     "Choose a first community and list who already serves it.",
-    "Write a need statement with numbers: households, current speed, target speed, monthly price they can pay."
+    "Write a need statement with numbers: households, current speed, target speed, monthly price they can pay.",
+    "Ask household heads what they pay now for mobile data and what they would pay for a home line; record the answers in a table.",
+    "Map the village on paper: mark homes, school, clinic and hall, find the nearest fibre or tower, and measure each distance in km.",
+    "Identify households with no device or no one who can set it up, and estimate how many need a loan device or training."
    ],
-   "ex": "A village of 300 households has 2 Mbps shared at peak. Target 25 Mbps at under 40 a month per home.",
+   "ex": "A village of 300 households has 2 Mbps shared at peak. Target 25 Mbps at under 40 a month per home. Ten tests give 1.8, 2.1, 2.0, 1.9, 2.2, 2.0, 1.7, 2.3, 2.0 and 2.0 Mbps; the sum is 20.0, so the average is 2.0 Mbps. If all 300 homes shared that equally at peak, each would get under 0.01 Mbps.",
    "act": "Run speed tests at 10 spots and write a need statement.",
    "std": "Tests have times and devices recorded."
   },
@@ -26,9 +29,12 @@
     "The federal telecom regulator licenses radio spectrum and sets rules for carriers; unlicensed bands have power limits.",
     "Tower and mast siting needs municipal and sometimes federal approval.",
     "Customer privacy and emergency-call duties apply to service providers.",
-    "Rural and Indigenous community connectivity programmes have funding conditions; read them early."
+    "Rural and Indigenous community connectivity programmes have funding conditions; read them early.",
+    "Decide whether your service counts as a carrier or reseller under federal rules, and ask the regulator or a telecom adviser before you charge customers.",
+    "Keep a list of each funder's conditions: who can apply, matching funds, reporting dates, and what happens if you miss a target.",
+    "Check the provincial rule on pole access and rights of way before you hang cable on utility poles or dig along roads."
    ],
-   "ex": "Row: 'Use a radio link | federal spectrum rules | stay within licence-exempt limits | before install | equipment certificate'.",
+   "ex": "Row: 'Use a radio link | federal spectrum rules | stay within licence-exempt limits | before install | equipment certificate'. Second row: 'Mount an antenna on a mast | municipal approval, possibly federal rules | check the provincial and municipal rule | before building | written approval on file'. Write the date you read each source.",
    "act": "Build a rules table for a small community network.",
    "std": "Rows sourced and dated."
   },
@@ -39,9 +45,12 @@
     "Choose last-mile type: fibre, fixed wireless, satellite backhaul with local Wi-Fi.",
     "Plan backhaul capacity: households x peak use per household.",
     "Plan power with batteries or solar for outages.",
-    "Document so local people can fix common faults."
+    "Document so local people can fix common faults.",
+    "Draw a map of the link route with each hop's length in km and a line-of-sight check for wireless hops, noting trees and hills.",
+    "Select equipment rated for local winter cold and summer heat, and keep one spare of each key part.",
+    "Size a battery: add up the watts the equipment draws, multiply by the hours of outage you want to cover, and add 20% margin."
    ],
-   "ex": "100 households x 1.5 Mbps peak each = 150 Mbps backhaul; with 3:1 sharing → 50 Mbps.",
+   "ex": "100 households x 1.5 Mbps peak each = 150 Mbps backhaul; with 3:1 sharing → 50 Mbps. Check: 150 / 3 = 50 Mbps. A site drawing 120 W that must run 6 hours needs 120 x 6 = 720 Wh; with 20% margin that is 720 x 1.2 = 864 Wh.",
    "act": "Draw a network plan and compute backhaul.",
    "std": "Calculation shown."
   },
@@ -52,9 +61,12 @@
     "Capital per household passed vs connected.",
     "Monthly cost: backhaul, power, support, replacement fund.",
     "Price tiers and community subsidy.",
-    "Payback and funding sources."
+    "Payback and funding sources.",
+    "Separate the cost to pass a home (cable or signal reaches it) from the cost to connect it (drop line, router, labour), and budget both.",
+    "Offer a low-income tier or a shared-hotspot option and show who pays the difference, such as a community fund.",
+    "Run three take-up cases (40%, 60%, 80%) and find the case where monthly margin no longer covers monthly cost."
    ],
-   "ex": "Build cost 4,200 per site; monthly cost per household 25; price 35; margin 10 × 150 homes = 1,500/month. Teaching figures in CAD.",
+   "ex": "Build cost 4,200 per site; monthly cost per household 25; price 35; margin 10 × 150 homes = 1,500/month. Teaching figures in CAD. At 60% take-up, 150 homes become 90 paying homes, so margin is 90 x 10 = 900 a month. Payback on 4,200 is 4,200 / 900 = about 4.7 months.",
    "act": "Build the model with 60% take-up.",
    "std": "Cases shown."
   },
@@ -65,9 +77,12 @@
     "Monitor uptime and speed.",
     "Local support person with a spare kit.",
     "Response times published.",
-    "Track complaints."
+    "Track complaints.",
+    "Set up a monitor that checks each radio every 5 minutes and texts the support person when two checks in a row fail.",
+    "Keep a labelled spares box with a count, and reorder when any item falls to one.",
+    "Write a one-page fault guide: symptom, first check, fix, and when to call for help."
    ],
-   "ex": "Uptime 98%; fixed within 1 day in 90% of cases.",
+   "ex": "Uptime 98%; fixed within 1 day in 90% of cases. A 30-day month has 720 hours, so 98% uptime allows 720 x 0.02 = 14.4 hours down. If there were 20 faults, 90% fixed within a day means 18 fixed in a day and 2 slower.",
    "act": "Keep a 4-week ops log.",
    "std": "Faults and fixes logged."
   },
@@ -78,9 +93,12 @@
     "Offer short classes in local languages.",
     "Teach safe use, banking and learning platforms.",
     "Partner with schools and libraries.",
-    "Measure use."
+    "Measure use.",
+    "Build a short lesson plan for each skill, such as sending a message, joining a video call with a clinic or applying online, with a hands-on task and a 5-question check.",
+    "Train two local helpers and give them a printed guide, so help stays in the community.",
+    "Run classes at times suited to shift workers, elders and parents, and record attendance by group to see who is missing."
    ],
-   "ex": "After 8 classes, weekly users rose from 90 to 210.",
+   "ex": "After 8 classes, weekly users rose from 90 to 210. Weekly users rose by 210 - 90 = 120, or 120 / 90 = about 133%. Eight classes of 15 learners reached 8 x 15 = 120 people, which matches the gain.",
    "act": "Run one class and survey.",
    "std": "Survey results recorded."
   },
@@ -91,9 +109,12 @@
     "Protect user data; do not read traffic.",
     "Child-safety tools.",
     "Fair access and pricing.",
-    "Climate and tower safety."
+    "Climate and tower safety.",
+    "Write a privacy notice in plain words and local languages and give it to each new subscriber.",
+    "Offer a content filter for homes with children and explain that parents choose whether to use it.",
+    "Check the provincial rule on what you must hand over if police ask, and keep a record of any request."
    ],
-   "ex": "Policy: 'We log connection times for 30 days only.'",
+   "ex": "Policy: 'We log connection times for 30 days only.' With 150 homes making 20 connections a day, the log holds at most 150 x 20 x 30 = 90,000 entries before the oldest are deleted.",
    "act": "Write privacy and fair-use notes.",
    "std": "Plain words."
   },
@@ -104,9 +125,12 @@
     "90 days.",
     "Measure take-up, uptime, satisfaction.",
     "Stop rule: under 30% take-up in 90 days → redesign.",
-    "Plan sustainability."
+    "Plan sustainability.",
+    "Hold a review at day 30, 60 and 90 using the same four numbers: take-up, uptime, complaints, and money in versus money out.",
+    "Ask 10 subscribers and 10 non-subscribers why, and record the reasons in a table.",
+    "Write a handover plan: who owns the equipment, who collects fees, who keeps spares, and how the community votes on price changes."
    ],
-   "ex": "Take-up 46%.",
+   "ex": "Take-up 46%. Of 150 homes, 46% take-up is 150 x 0.46 = 69 homes. The stop rule of 30% is 45 homes, so the pilot passes with 24 homes to spare.",
    "act": "Run pilot review.",
    "std": "Review has decision."
   }

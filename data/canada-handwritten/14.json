@@ -13,9 +13,12 @@
     "List buyer worries: fake goods, unknown origin, resale value, repair history.",
     "Choose one product: a bag, a jacket or a pair of shoes, and a first brand partner.",
     "Decide the record: material source, maker, date, size, care and each change of owner.",
-    "Test the need with ten shoppers: would proof of origin change what you pay?"
+    "Test the need with ten shoppers: would proof of origin change what you pay?",
+    "Interview one repair shop and one resale seller to learn what proof of origin they need most and what they check today.",
+    "Write the buyer's questions as a list (Is it real? Where was it made? Who owned it? Was it repaired?) and match each to a field in the record.",
+    "Choose the first line by picking an item with a high price, frequent copying or a resale market, and count how many units exist."
    ],
-   "ex": "A resale buyer pays 15% more for a bag with a verified history and a repair record; fakes cost the brand about 2% of sales.",
+   "ex": "A resale buyer pays 15% more for a bag with a verified history and a repair record; fakes cost the brand about 2% of sales. Teaching example: if the bag normally resells for 400, 15% more is 400 x 0.15 = 60, so 460. If the brand sells 500,000 a year, 2% lost to fakes is 10,000.",
    "act": "Survey ten shoppers and one brand and write the problem in one page.",
    "std": "Survey shows a real willingness to pay."
   },
@@ -26,9 +29,12 @@
     "Textile labelling rules set fibre content and care labels, in English and French.",
     "Claims such as 'sustainable' or 'ethical' must be provable under competition law.",
     "Customer personal data is protected by privacy law and should not sit on a record that cannot be erased.",
-    "Cross-border sales add customs, duty and product-safety rules."
+    "Cross-border sales add customs, duty and product-safety rules.",
+    "Check which country-of-origin wording you may use on a label, and keep supplier records that back it up.",
+    "Ask a privacy adviser whether a tag linked to an owner needs consent and how a person can delete their data; collect only what is needed.",
+    "List which claims go on the tag, the website and ads, and who approves each claim before it is published."
    ],
-   "ex": "Row: 'Claim recycled content | competition law and labelling rules | hold supplier certificate | before launch | certificate on file'.",
+   "ex": "Row: 'Claim recycled content | competition law and labelling rules | hold supplier certificate | before launch | certificate on file'. Second row: 'Label a jacket for sale in Canada | federal textile labelling rules | check fibre content and care label in both languages | before launch | label proof approved'. Check the provincial rule for any extra requirements.",
    "act": "Build a rules table for one product line.",
    "std": "Rows sourced and dated."
   },
@@ -39,9 +45,12 @@
     "Attach a tag: QR code, NFC chip or hidden label that cannot be copied easily.",
     "Record business facts only: lot, maker, date, material, certificate numbers.",
     "Let owners add care and repair entries; a transfer is a new entry.",
-    "Test the tag after washing, rubbing and sunlight."
+    "Test the tag after washing, rubbing and sunlight.",
+    "Test ten tags each for rubbing, folding, rain and sunlight, and tabulate scan success for each test.",
+    "Choose where the tag sits: hidden, protected and easy to scan, and photograph the spot for the guide.",
+    "Build a scan page that shows only business facts and a plain message if the tag is unknown or already used."
    ],
-   "ex": "After 20 washes, 18 of 20 QR labels still scanned; 2 failed; switch to a woven label.",
+   "ex": "After 20 washes, 18 of 20 QR labels still scanned; 2 failed; switch to a woven label. Survival is 18 / 20 = 90%. That passes the 50% stop rule, but a 10% failure rate is too high for a lasting record, so test a woven label.",
    "act": "Prototype a passport for one garment and test the tag.",
    "std": "Test results recorded."
   },
@@ -52,9 +61,12 @@
     "Fee per item for the passport plus platform fee.",
     "Brand gains: price premium, resale royalty, fewer fakes, better returns data.",
     "Cost: tags, hosting, support, onboarding.",
-    "Break-even by volume."
+    "Break-even by volume.",
+    "Estimate the price premium the brand can charge, and the share of it the passport must earn to be worth the fee.",
+    "Compare tag types (QR label, woven label, NFC chip) and check that your choice fits within the 0.60 variable cost.",
+    "Quote a pilot package: setup fee, per-item fee and a review at day 90."
    ],
-   "ex": "Fee 1.80 per item; variable cost 0.60; margin 1.20; fixed cost 8,000 a month needs about 6,700 items a month. Teaching figures in CAD.",
+   "ex": "Fee 1.80 per item; variable cost 0.60; margin 1.20; fixed cost 8,000 a month needs about 6,700 items a month. Teaching figures in CAD. Check: 6,700 x 1.20 = 8,040, just above 8,000. At 50% volume, 3,350 items give 3,350 x 1.20 = 4,020, leaving a monthly gap of 8,000 - 4,020 = 3,980.",
    "act": "Build the model with a 50% volume case.",
    "std": "Cases shown."
   },
@@ -65,9 +77,12 @@
     "Train suppliers to scan at each step.",
     "Verify with audits and photos.",
     "Fix errors with new entries.",
-    "Track completion."
+    "Track completion.",
+    "Give each supplier a one-page checklist: what to scan, when, and whom to call if the tag does not work.",
+    "Audit a sample of 20 records a week against photos and paper documents, and record the error rate.",
+    "Never delete an entry; add a correction with date, reason and who made it."
    ],
-   "ex": "Pilot: 85% of items had a complete record after 6 weeks.",
+   "ex": "Pilot: 85% of items had a complete record after 6 weeks. Of 2,000 items tagged, 85% complete means 1,700 full records and 300 incomplete. A target of 95% is 1,900, so 200 more records must be completed.",
    "act": "Run a 4-week capture test.",
    "std": "Completion tracked."
   },
@@ -78,9 +93,12 @@
     "Offer a 90-day pilot on one line.",
     "Show live scan demo.",
     "Partner with repair shops and resale sites.",
-    "Track funnel."
+    "Track funnel.",
+    "Prepare a three-minute live demo: scan a tag, show the history, and add a repair entry.",
+    "Meet a repair shop and a resale seller, agree how they will add entries, and record their needs.",
+    "Write a one-page pilot offer: line, units, fee, dates, measures and exit terms."
    ],
-   "ex": "Funnel: 20 brands, 6 demos, 2 pilots.",
+   "ex": "Funnel: 20 brands, 6 demos, 2 pilots. Brand to demo is 6 / 20 = 30%, demo to pilot is 2 / 6 = 33%, and overall 2 / 20 = 10%. At 10%, winning 5 pilots needs about 50 brands.",
    "act": "Pitch three brands.",
    "std": "Pitch has numbers."
   },
@@ -91,9 +109,12 @@
     "Claim only what you can prove.",
     "Keep personal data off the shared record.",
     "Plan for tag failure and re-tagging.",
-    "Prepare for brand exit."
+    "Prepare for brand exit.",
+    "Keep a claims log: each public claim, its evidence, the date checked and the person who signed it off.",
+    "Design the tag to carry only an item number, with all other data held in a record you can correct and delete.",
+    "Write a brand-exit plan: how owners keep access to history if the brand stops using the service, and how data is exported."
    ],
-   "ex": "Risk: 'Wrong origin entered | 3 x 5 | audit and photo proof | quality lead | monthly'.",
+   "ex": "Risk: 'Wrong origin entered | 3 x 5 | audit and photo proof | quality lead | monthly'. The score is 3 x 5 = 15 out of 25, so it is high priority. After audits with photo proof, likelihood falls to 2 and the score is 2 x 5 = 10.",
    "act": "Write a risk register.",
    "std": "Owners named."
   },
@@ -104,9 +125,12 @@
     "90 days.",
     "Measure scan rate, resale uplift, fakes found.",
     "Stop rule: under 50% tag survival means change tag.",
-    "Plan expansion."
+    "Plan expansion.",
+    "Record three numbers each week: scan rate, tags lost and fakes found, and plot each.",
+    "Collect resale prices for tagged and untagged items of the same type and compare the averages.",
+    "Plan a second line only after the review, and list what must be fixed first."
    ],
-   "ex": "Tag survival 94%; resale uplift 12%.",
+   "ex": "Tag survival 94%; resale uplift 12%. Of 500 tagged items, 94% is 470 tags still scanning at day 90, far above the 50% stop rule. A 12% resale uplift on a 400 bag is 400 x 0.12 = 48; decision: proceed.",
    "act": "Run pilot review.",
    "std": "Review has decision."
   }
