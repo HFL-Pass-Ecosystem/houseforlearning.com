@@ -7,6 +7,21 @@ import build_full_courses as B
 e = html.escape
 LN = ['L1 Basic','L2 Awareness','L3 Foundation','L4 Practitioner','L5 Specialist','L6 Advanced','L7 Super expert']
 def M(title, bloom, h, pts, ex, act, std, q, a): return (title, bloom, h, pts, ex, act, std, q, a)
+def booklet(c):
+    try:
+        import india_booklet as IB
+    except Exception:
+        return ''
+    b = IB.BK.get(c['slug'])
+    if not b: return ''
+    h = '<p>These routes come from the India pathway tables. They show where this course leads, in my own words.</p>'
+    h += '<h3 class="ws-h3">Career role families</h3><ul>' + ''.join(f'<li>{e(r)}</li>' for r in b['roles']) + '</ul>'
+    h += f'<p><strong>Ways to work:</strong> {e(b["emp"])} <strong>Who buys:</strong> {e(b["chan"])}'
+    if b['journey']: h += f' <strong>Learner journey:</strong> {e(b["journey"])}'
+    h += '</p>'
+    if b['ax']:
+        h += '<div class="scroll-x"><table class="ws-table"><caption>Three subject axes</caption><thead><tr><th>Axis</th><th>Subjects</th><th>What it gives you</th></tr></thead><tbody>' + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(x)}</td><td>{e(w)}</td></tr>' for a, x, w in b['ax']) + '</tbody></table></div>'
+    return B.sec('', 'bk', 'career routes', 'Roles, routes and subjects', h)
 def load():
     out = []
     for f in sorted(glob.glob(str(pathlib.Path(__file__).parent / 'india_data_*.py'))):
@@ -31,7 +46,7 @@ def build(c, n):
     body = (about + B.sec('alt', 'md', 'lesson by lesson', '8 modules with worked examples', mods)
         + B.sec('', 'as', 'assessment', 'How you are checked', f'<p>Evidence: the work product from each module, kept in one folder with dates. A mentor and two peers mark it with this rubric. Pass: no criterion at \'Not yet\'.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{quiz}')
         + B.sec('alt', 'lv', 'seven levels', 'Your ladder, L1 to L7', f'<p>This course sits at {e(c["level"])}. Each level adds to the one below.</p>{lad}')
-        + B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', '<ul>' + ''.join(f'<li>{e(j)}</li>' for j in c['jobs']) + '</ul>')
+        + booklet(c) + B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', '<ul>' + ''.join(f'<li>{e(j)}</li>' for j in c['jobs']) + '</ul>')
         + B.sec('alt', 'lc', 'ten locations and global', 'Your place', '<p>Local rules change licences, data handling, pricing words and names of bodies. Check them for your place before you act.</p>'
                 + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Currency: {L["cur"]}. Data rule for what you publish: {e(L["data"])}. Skills frame to cite: {e(L["frame"])}.</p></details>' for L in B.LOC)
                 + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
