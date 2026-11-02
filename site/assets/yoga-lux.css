@@ -1,0 +1,173 @@
+/* Yoga page: cinematic hero and photo bands. Media drops into .ylux-media */
+.ylux{--lx-ink:#0c1a24;--lx-gold:#d9b979;--lx-cream:#f4ecdc;--lx-serif:"Cormorant Garamond","Literata",Georgia,serif;position:relative;color:var(--lx-cream);background:var(--lx-ink);overflow:hidden;isolation:isolate}
+.ylux-hero{min-height:min(92vh,880px);display:grid;align-items:end}
+.ylux-media{position:absolute;inset:0;z-index:-2;background:radial-gradient(120% 90% at 72% 18%,#e9a85c 0%,#b8683a 18%,#4a3a46 42%,#12232f 72%,#0a141c 100%)}
+.ylux-media img,.ylux-media video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:var(--focus,50% 40%)}
+.ylux-media video{opacity:0;transition:opacity 1.6s ease}
+.ylux-media video.is-playing{opacity:1}
+.ylux-media img{transform:scale(1.04)}
+@keyframes ylux-drift{to{transform:scale(1.12) translate3d(-1.2%,-1%,0)}}
+.ylux::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(to top,rgba(8,16,22,.88) 0%,rgba(8,16,22,.45) 38%,rgba(8,16,22,.12) 70%,rgba(8,16,22,.35) 100%)}
+.ylux-in{max-width:1180px;margin:0 auto;width:100%;box-sizing:border-box;padding:0 max(20px,env(safe-area-inset-left,0px)) clamp(48px,9vh,110px) max(20px,env(safe-area-inset-left,0px))}
+.ylux-kick{font:500 12px/1 var(--mono,monospace);letter-spacing:.32em;text-transform:uppercase;color:var(--lx-gold);margin:0 0 22px}
+.ylux h1{font-family:var(--lx-serif);font-weight:500;font-size:clamp(46px,9vw,124px);line-height:.98;letter-spacing:-.01em;margin:0 0 20px;text-wrap:balance;max-width:14ch}
+.ylux h1 em{font-style:italic;color:var(--lx-gold)}
+.ylux-lead{font-family:var(--lx-serif);font-size:clamp(19px,2.2vw,26px);line-height:1.45;max-width:46ch;margin:0 0 30px;color:rgba(244,236,220,.92)}
+.ylux-cta{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+.ylux-btn{display:inline-block;padding:15px 34px;border:1px solid var(--lx-gold);color:var(--lx-cream);text-decoration:none;letter-spacing:.18em;text-transform:uppercase;font:500 12px/1 var(--mono,monospace);transition:background .6s ease,color .6s ease}
+.ylux-btn:hover,.ylux-btn:focus-visible{background:var(--lx-gold);color:var(--lx-ink)}
+.ylux-btn.ghost{border-color:rgba(244,236,220,.4)}
+.ylux-sa{font-family:var(--lx-serif);font-style:italic;color:var(--lx-gold);margin:26px 0 0;font-size:18px}
+.ylux-in>*{opacity:0;transform:translateY(14px);animation:ylux-in 1.4s cubic-bezier(.2,.6,.2,1) forwards}
+.ylux-in>*:nth-child(2){animation-delay:.25s}.ylux-in>*:nth-child(3){animation-delay:.5s}.ylux-in>*:nth-child(4){animation-delay:.75s}.ylux-in>*:nth-child(5){animation-delay:1s}
+@keyframes ylux-in{to{opacity:1;transform:none}}
+.ylux-band{min-height:clamp(320px,56vh,640px);display:grid;align-items:center}
+.ylux-band .ylux-in{padding-block:70px}
+.ylux-band h2{font-family:var(--lx-serif);font-weight:500;font-size:clamp(32px,5vw,64px);line-height:1.05;margin:0 0 14px;max-width:18ch;text-wrap:balance}
+.ylux-band p{font-family:var(--lx-serif);font-size:clamp(18px,2vw,24px);max-width:44ch;line-height:1.5;margin:0}
+.ylux-band .ylux-in>*{animation:none;opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.ylux-media img{animation:none;transform:none}.ylux-in>*{animation:none;opacity:1;transform:none}.ylux-media video{display:none}}
+.ylux-hero .ylux-media img{object-position:var(--focus)}
+.ylux-band .ylux-media img{animation:none;transform:none}
+.ylux h2 em{font-style:italic;color:var(--lx-gold)}
+.ylux-split{display:grid;grid-template-columns:1fr 1fr;min-height:clamp(420px,80vh,780px);isolation:isolate}
+.ylux-split::after{display:none}
+.ylux-pic{position:relative;overflow:hidden;min-height:340px}
+.ylux-pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 30%}
+.ylux-txt{display:flex;flex-direction:column;justify-content:center;padding:clamp(32px,6vw,96px);background:var(--lx-ink)}
+.ylux-txt h2{font-family:var(--lx-serif);font-weight:500;font-size:clamp(32px,4.4vw,60px);line-height:1.05;margin:0 0 16px;text-wrap:balance}
+.ylux-txt p:last-child{font-family:var(--lx-serif);font-size:clamp(18px,1.8vw,23px);line-height:1.55;max-width:38ch;margin:0;color:rgba(244,236,220,.9)}
+.ylux-split.rev .ylux-pic{order:2}
+@media (max-width:800px){.ylux-split{grid-template-columns:1fr}.ylux-split.rev .ylux-pic{order:0}.ylux-pic{min-height:62vh}}
+.f-hero{--focus:80% 45%}.f-a{--focus:50% 40%}.f-b{--focus:50% 55%}
+@media (min-width:801px){
+.ylux-hero .ylux-media img{left:auto;right:-10%;width:72%;-webkit-mask-image:linear-gradient(to right,transparent 0,#000 38%);mask-image:linear-gradient(to right,transparent 0,#000 38%)}
+}
+@media (max-width:800px){
+.f-hero{--focus:47% 28%}
+.ylux-hero::after{background:linear-gradient(to top,rgba(8,16,22,.95) 0%,rgba(8,16,22,.7) 36%,rgba(8,16,22,.05) 62%,rgba(8,16,22,.3) 100%)}
+.ylux-hero{min-height:min(88vh,760px)}
+}
+/* Review fixes: calmer chrome, clear first view, subject clear of the headline */
+.yoga-lux-page [data-hist]{display:none}
+.yoga-lux-page .wm{display:none}
+.ylux-media img{filter:saturate(.92) brightness(.94)}
+.ylux-hero::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(120% 90% at 70% 45%,transparent 45%,rgba(6,12,17,.55) 100%)}
+.ylux-hero .ylux-in{padding-bottom:clamp(130px,19vh,200px)}
+.ylux h1{max-width:11ch}
+.ylux-pic img{object-position:50% 6%}
+@media (min-width:801px){.ylux-hero .ylux-media img{right:-16%;width:74%}}
+@media (max-width:800px){
+.ylux-hero .ylux-media img{height:64%;bottom:auto;-webkit-mask-image:linear-gradient(to bottom,#000 55%,transparent 100%);mask-image:linear-gradient(to bottom,#000 55%,transparent 100%)}
+.ylux-hero{min-height:min(92vh,800px)}
+.ylux-hero .ylux-in{padding-bottom:150px}
+}
+.ylux-gallery{background:var(--lx-ink)}
+.ylux-gallery::after{display:none}
+.ylux-gallery .ylux-in{padding-block:clamp(56px,9vw,120px)}
+.ylux-gallery h2{font-family:var(--lx-serif);font-weight:500;font-size:clamp(32px,5vw,64px);line-height:1.05;margin:0 0 36px}
+.ylux-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.ylux-grid figure{margin:0;position:relative;overflow:hidden;background:#05090d}
+.ylux-grid img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;transition:transform 1.4s cubic-bezier(.2,.6,.2,1)}
+.ylux-grid figure:focus-within img,.ylux-grid figure:active img{transform:scale(1.04)}
+.ylux-grid figcaption{position:absolute;left:0;right:0;bottom:0;padding:34px 16px 12px;font:500 12px/1 var(--mono,monospace);letter-spacing:.22em;text-transform:uppercase;color:var(--lx-cream);background:linear-gradient(to top,rgba(5,9,13,.85),transparent)}
+@media (max-width:800px){.ylux-grid{grid-template-columns:minmax(0,1fr)}}
+.yoga-app .teachers h2{font-family:var(--lx-serif);font-weight:500;font-size:clamp(30px,4vw,48px);margin:0 0 8px}
+.yoga-app .tcards{display:grid;grid-template-columns:repeat(2,minmax(0,360px));gap:18px;margin-top:18px}
+.yoga-app .tcards figure{margin:0;position:relative;overflow:hidden;background:#0c1a24}
+.yoga-app .tcards img{display:block;width:100%;height:auto;aspect-ratio:2/3;object-fit:cover}
+.yoga-app .tcards figcaption{position:absolute;inset:auto 0 0 0;padding:44px 16px 14px;color:#f4ecdc;background:linear-gradient(to top,rgba(5,9,13,.9),transparent);display:grid;gap:4px}
+.yoga-app .tcards figcaption strong{font-family:var(--lx-serif);font-size:24px;font-weight:500}
+.yoga-app .tcards figcaption span{font-size:14px;opacity:.9}
+@media (max-width:640px){.yoga-app .tcards{grid-template-columns:minmax(0,1fr)}}
+/* Feature rows: text beside an uncropped photograph, centred and capped so wide screens stay composed */
+.ylux-feature{background:var(--lx-ink)}
+.ylux-feature::after{display:none}
+.ylux-fin{max-width:1500px;margin:0 auto;display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(24px,5vw,80px);align-items:center;padding:clamp(48px,8vw,110px) max(20px,env(safe-area-inset-left,0px))}
+.ylux-feature.rev .ylux-ftxt{order:2}
+.ylux-feature.port .ylux-fin{grid-template-columns:minmax(0,1fr) minmax(0,420px)}
+.ylux-feature.port .ylux-ftxt{order:0}
+.ylux-ftxt h2{font-family:var(--lx-serif);font-weight:500;font-size:clamp(32px,4.4vw,60px);line-height:1.05;margin:0 0 16px;text-wrap:balance}
+.ylux-ftxt p:last-child{font-family:var(--lx-serif);font-size:clamp(18px,1.8vw,23px);line-height:1.55;max-width:38ch;margin:0;color:rgba(244,236,220,.9)}
+.ylux-fpic{margin:0;overflow:hidden;background:#05090d}
+.ylux-fpic img{display:block;width:100%;height:auto}
+@media (max-width:900px){.ylux-fin,.ylux-feature.port .ylux-fin{grid-template-columns:minmax(0,1fr)}.ylux-fpic{order:-1}.ylux-feature.port .ylux-fpic{max-width:420px}}
+/* very wide screens: keep the hero picture whole */
+@media (min-width:1700px){.ylux-hero .ylux-media{left:auto;width:1900px;max-width:100%;background:#0a141c}.ylux-hero{background:#0a141c}.ylux-hero .ylux-in{max-width:1500px}}
+.ylux-media{background-color:#0a141c}
+.yoga-app section[id],.yoga-app [id=posesWrap]{scroll-margin-top:130px}
+.yoga-app .teachers{scroll-margin-top:130px}
+@media (min-width:1700px){
+.ylux-hero .ylux-media{left:calc(50% - 750px);width:1500px;overflow:hidden;-webkit-mask-image:linear-gradient(to right,transparent 0,#000 8%,#000 92%,transparent 100%);mask-image:linear-gradient(to right,transparent 0,#000 8%,#000 92%,transparent 100%)}
+.ylux-hero .ylux-media img{right:0;width:76%}
+}
+.ylux-roots{background:#0a141c}
+.ylux-roots::after{display:none}
+.ylux-roots .ylux-in{padding-block:clamp(56px,9vw,110px);max-width:860px}
+.ylux-roots h2{font-family:var(--lx-serif);font-weight:500;font-size:clamp(30px,4.4vw,56px);line-height:1.08;margin:0 0 20px;text-wrap:balance}
+.ylux-roots p{font-family:var(--lx-serif);font-size:clamp(18px,1.8vw,22px);line-height:1.6;margin:0 0 16px}
+.ylux-roots .ylux-kick{font-family:var(--mono,monospace)}
+.ylux-roots p.ylux-src{font-size:15px;color:rgba(244,236,220,.7)}
+.ylux-roots a{color:var(--lx-gold)}
+/* Round 4: photo fills its half, text centred; dark teachers panel; calmer cards; slim cookie strip */
+.ylux{background-image:none}
+.ylux-feature{background:var(--lx-ink)}
+.ylux-fin{max-width:1700px;padding:0;gap:0;grid-template-columns:minmax(0,1fr) minmax(0,1fr);min-height:clamp(440px,72vh,760px);align-items:stretch}
+.ylux-feature.port .ylux-fin{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.ylux-ftxt{display:flex;flex-direction:column;justify-content:center;padding:clamp(36px,6vw,110px)}
+.ylux-fpic{position:relative;min-height:420px;background:#05090d}
+.ylux-fpic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.ylux-fpic::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(to right,var(--lx-ink) 0,transparent 14%)}
+.ylux-feature.rev .ylux-fpic::after{background:linear-gradient(to left,var(--lx-ink) 0,transparent 14%)}
+.ylux-feature.port .ylux-fpic img{object-position:50% 22%}
+.ylux-feature.port .ylux-ftxt{order:0}
+@media (max-width:900px){
+.ylux-fin,.ylux-feature.port .ylux-fin{grid-template-columns:minmax(0,1fr);min-height:0}
+.ylux-fpic,.ylux-feature.port .ylux-fpic{order:-1;max-width:none;min-height:0;aspect-ratio:4/3}
+.ylux-feature.port .ylux-fpic{aspect-ratio:4/5}
+.ylux-fpic::after,.ylux-feature.rev .ylux-fpic::after{background:linear-gradient(to top,var(--lx-ink) 0,transparent 16%)}
+}
+@media (min-width:1700px){
+.ylux-hero .ylux-media{-webkit-mask-image:linear-gradient(to right,transparent 0,#000 22%,#000 78%,transparent 100%);mask-image:linear-gradient(to right,transparent 0,#000 22%,#000 78%,transparent 100%)}
+}
+/* teachers on dark */
+.yoga-app .teachers{background:var(--lx-ink,#0c1a24);color:#f4ecdc;padding:clamp(28px,5vw,64px);margin-inline:calc(-1 * max(16px,env(safe-area-inset-left,0px)))}
+.yoga-app .teachers h2{font-family:"Cormorant Garamond","Literata",Georgia,serif;font-weight:500;font-size:clamp(34px,5vw,60px);color:#f4ecdc;margin:0 0 10px}
+.yoga-app .teachers .lede{color:rgba(244,236,220,.85);font-family:"Cormorant Garamond","Literata",Georgia,serif;font-size:clamp(18px,1.8vw,23px);max-width:52ch}
+.yoga-app .tcards{grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(12px,2vw,24px);margin-top:26px}
+.yoga-app .tcards img{aspect-ratio:4/5;object-position:50% 25%}
+@media (max-width:640px){.yoga-app .tcards{grid-template-columns:minmax(0,1fr)}}
+/* practice cards */
+.yoga-app .stats strong{font-family:"Cormorant Garamond","Literata",Georgia,serif;font-weight:500;font-size:44px;line-height:1}
+.yoga-app .panel h2{margin-top:0}
+.yoga-app .cols>.panel,.yoga-app .cols>div{align-content:start}
+/* slim cookie strip on this page */
+.yoga-lux-page .cookie{max-width:none;left:0;right:0;bottom:0;border-radius:0;padding:8px 14px;font-size:13px;gap:8px 14px}
+.yoga-lux-page .cookie p{flex:1 1 260px}
+.yoga-lux-page .cookie .btn{padding:6px 12px;font-size:13px}
+@media (max-width:600px){.yoga-lux-page .cookie{left:0;right:0;bottom:0;padding:8px 10px;font-size:12.5px}.yoga-lux-page .cookie p{flex-basis:100%}.yoga-lux-page .cookie .cookie-actions{width:100%}}
+.ylux-fin{max-width:none}
+/* Round 5 */
+.ylux-fpic::after{background:linear-gradient(to right,var(--lx-ink) 0,transparent 14%),linear-gradient(to bottom,var(--lx-ink) 0,transparent 9%,transparent 91%,var(--lx-ink) 100%)}
+.ylux-feature.rev .ylux-fpic::after{background:linear-gradient(to left,var(--lx-ink) 0,transparent 14%),linear-gradient(to bottom,var(--lx-ink) 0,transparent 9%,transparent 91%,var(--lx-ink) 100%)}
+.ylux-feature,.ylux-fin{background:var(--lx-ink)}
+.ylux-feature:not(.rev) .ylux-ftxt{padding-left:max(clamp(36px,6vw,110px),calc((100vw - 1500px)/2 + 20px))}
+.ylux-feature.rev .ylux-ftxt{padding-right:max(clamp(36px,6vw,110px),calc((100vw - 1500px)/2 + 20px))}
+@media (max-width:900px){.ylux-feature:not(.rev) .ylux-ftxt,.ylux-feature.rev .ylux-ftxt{padding:clamp(24px,6vw,40px) max(20px,env(safe-area-inset-left,0px))}.ylux-fpic::after,.ylux-feature.rev .ylux-fpic::after{background:linear-gradient(to top,var(--lx-ink) 0,transparent 16%)}}
+.yoga-app .cols{align-items:start}
+.yoga-app .panel h2,.yoga-app .cols h2,.yoga-app .lib h2,.yoga-app .track h2{font-family:"Cormorant Garamond","Literata",Georgia,serif;font-weight:500;font-size:clamp(26px,2.6vw,34px);line-height:1.1}
+.yoga-app .panel p,.yoga-app .cols p{margin:0 0 .8em}
+.yoga-app .panel p:last-child{margin-bottom:0}
+@media (max-width:600px){.yoga-lux-page .cookie{padding:6px 10px;gap:6px;font-size:12px;line-height:1.3}.yoga-lux-page .cookie .btn{padding:5px 10px;font-size:12px}}
+.yoga-app .cols.masonry{display:block;column-count:3;column-gap:18px}
+.yoga-app .cols.masonry>*{break-inside:avoid;margin:0 0 18px;display:block;width:auto}
+@media (max-width:1000px){.yoga-app .cols.masonry{column-count:2}}
+@media (max-width:640px){.yoga-app .cols.masonry{column-count:1}}
+/* Round 6 */
+.ylux-roots{background:linear-gradient(#0b151c,#0d1a22)}
+.ylux-roots .ylux-in{max-width:none;padding-left:max(clamp(36px,6vw,110px),calc((100vw - 1500px)/2 + 20px));padding-right:max(24px,6vw)}
+.ylux-roots .ylux-in>*{max-width:62ch}
+.ylux-roots .ylux-kick{font-size:12px;letter-spacing:.32em}
+.ylux-roots h2{max-width:20ch}
+.yoga-app .family{margin-top:8px}
+.ylux{--mono:"Literata",Georgia,serif}

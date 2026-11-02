@@ -1,0 +1,66 @@
+/* How-to video player: floating, draggable, resizable. Brand tokens can be overridden per site on :root. */
+:root{
+  --htp-bg:#0F1E33;--htp-bg2:#14315A;--htp-ink:#F2EEE2;--htp-mute:#B9C3D1;
+  --htp-accent:#0F85DB;--htp-ok:#3CC261;--htp-card:#F2EEE2;--htp-card-ink:#0F1E33;
+  --htp-font:"Montserrat","Public Sans",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+}
+.htp,.htp *{box-sizing:border-box}
+.htp{position:fixed;z-index:2147483000;left:12px;top:12px;width:420px;max-width:calc(100vw - 16px);max-height:calc(100vh - 16px);max-height:calc(100dvh - 16px);
+  display:flex;flex-direction:column;background:var(--htp-bg);color:var(--htp-ink);font-family:var(--htp-font);font-size:14px;line-height:1.4;
+  border-radius:16px;border:1px solid rgba(242,238,226,.22);box-shadow:0 18px 50px rgba(5,12,24,.45),0 2px 6px rgba(5,12,24,.3);overflow:hidden;
+  touch-action:none;-webkit-user-select:none;user-select:none}
+.htp[hidden]{display:none}
+.htp-bar{display:flex;align-items:center;gap:6px;padding:6px 6px 6px 14px;background:linear-gradient(180deg,var(--htp-bg2),var(--htp-bg));cursor:grab;touch-action:none;flex:none;min-height:44px}
+.htp-bar:active{cursor:grabbing}
+.htp-bar:focus-visible{outline:3px solid var(--htp-accent);outline-offset:-3px}
+.htp-grab{width:14px;height:14px;flex:none;opacity:.7}
+.htp-title{flex:1;min-width:0;font-weight:600;font-size:13px;letter-spacing:.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.htp-btn{appearance:none;border:0;background:rgba(242,238,226,.1);color:var(--htp-ink);font:600 12px/1 var(--htp-font);min-width:36px;height:36px;padding:0 10px;border-radius:10px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:6px;touch-action:manipulation}
+.htp-btn:hover{background:rgba(242,238,226,.2)}
+.htp-btn:focus-visible{outline:3px solid var(--htp-accent);outline-offset:1px}
+.htp-btn[aria-pressed="true"]{background:var(--htp-accent);color:#fff}
+.htp-btn svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.htp-body{display:flex;flex-direction:column;min-height:0;flex:1;overflow:hidden}
+.htp-main{flex:none;min-width:0}
+.htp-stage{position:relative;background:#000;aspect-ratio:16/9;width:100%}
+.htp-stage video{width:100%;height:100%;display:block;background:#000;object-fit:contain;-webkit-user-select:none;user-select:none}
+.htp-stage video::cue{font-family:var(--htp-font);font-size:1.05em;background:rgba(5,12,24,.78);color:#fff}
+.htp-pipmsg{display:none;position:absolute;inset:0;align-items:center;justify-content:center;text-align:center;padding:16px;background:var(--htp-bg2);color:var(--htp-ink);font-weight:600}
+.htp-pip .htp-pipmsg{display:flex}.htp-pip .htp-stage video{visibility:hidden}
+.htp-tools{display:flex;flex-wrap:wrap;gap:6px;padding:8px 10px;background:var(--htp-bg)}
+.htp-steps{list-style:none;margin:0;padding:8px;overflow:auto;background:var(--htp-card);color:var(--htp-card-ink);flex:1;min-height:64px;max-height:240px;-webkit-overflow-scrolling:touch;touch-action:pan-y;-webkit-user-select:text;user-select:text}
+.htp-steps[hidden]{display:none}
+.htp-steps li{margin:0}
+.htp-step{display:flex;gap:10px;width:100%;text-align:left;appearance:none;border:0;border-left:4px solid transparent;background:transparent;color:inherit;font:inherit;padding:10px 10px;border-radius:8px;cursor:pointer;min-height:44px;touch-action:manipulation}
+.htp-step:hover{background:rgba(15,133,219,.08)}
+.htp-step:focus-visible{outline:3px solid var(--htp-accent);outline-offset:-3px}
+.htp-step[aria-current="step"]{border-left-color:var(--htp-ok);background:rgba(60,194,97,.14)}
+.htp-n{flex:none;width:26px;height:26px;border-radius:50%;background:var(--htp-bg2);color:var(--htp-ink);display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:12px}
+.htp-step[aria-current="step"] .htp-n{background:var(--htp-ok);color:#06210f}
+.htp-st{display:block;font-weight:700;font-size:14px}
+.htp-sx{display:block;font-size:13px;opacity:.85;margin-top:2px}
+.htp-tm{margin-left:auto;flex:none;font-size:11px;opacity:.65;font-variant-numeric:tabular-nums;padding-left:6px}
+.htp-grip{position:absolute;right:0;bottom:0;width:30px;height:30px;cursor:nwse-resize;touch-action:none;z-index:2;display:flex;align-items:flex-end;justify-content:flex-end;padding:5px;color:var(--htp-ink);opacity:.85}
+.htp-grip svg{width:14px;height:14px;stroke:currentColor;stroke-width:2;fill:none;stroke-linecap:round;filter:drop-shadow(0 0 2px #000)}
+.htp-grip:focus-visible{outline:3px solid var(--htp-accent)}
+.htp-msg{position:absolute;left:8px;right:8px;bottom:8px;padding:8px 10px;border-radius:8px;background:rgba(5,12,24,.85);color:#fff;font-size:12px;pointer-events:none;opacity:0;transition:opacity .2s}
+.htp-msg.on{opacity:1}
+/* wide window: steps beside the video */
+.htp-wide .htp-body{flex-direction:row}
+.htp-wide .htp-main{flex:1 1 58%}
+.htp-wide .htp-steps{flex:1 1 42%;max-height:none;min-height:0;border-left:1px solid rgba(15,30,51,.15)}
+/* minimised: small pill, audio keeps playing */
+.htp-min{width:auto!important;height:auto!important;min-width:220px;max-width:calc(100vw - 16px);border-radius:999px}
+.htp-min .htp-body,.htp-min .htp-grip{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);visibility:hidden}
+.htp-min .htp-bar{border-radius:999px;padding-left:16px}
+.htp-min .htp-tools-min{display:inline-flex}
+.htp-tools-min{display:none;gap:6px}
+/* in-page buttons */
+.htp-wrap{position:relative;display:block}
+.htp-float{position:absolute;right:10px;top:10px;z-index:3;background:rgba(15,30,51,.85);color:#F2EEE2;border:1px solid rgba(242,238,226,.35);border-radius:10px;font:600 12px/1 var(--htp-font);padding:10px 12px;min-height:40px;cursor:pointer}
+.htp-float:hover{background:#14315A}.htp-float:focus-visible{outline:3px solid var(--htp-accent);outline-offset:2px}
+.htp-vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media (pointer:coarse){.htp-btn{min-width:44px;height:44px}.htp-grip{width:44px;height:44px;padding:8px}}
+@media (max-width:480px){.htp{border-radius:14px}.htp-title{font-size:12px}}
+@media (prefers-reduced-motion:reduce){.htp-msg{transition:none}}
+@media print{.htp,.htp-float{display:none!important}}

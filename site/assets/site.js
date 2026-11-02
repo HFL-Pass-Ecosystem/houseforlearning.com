@@ -44,8 +44,8 @@
   /* Contact forms (owner 20 Oct 2026): Send opens the visitor's own email app with the message filled in,
      addressed to the site's contact. Nothing is sent from the page itself. */
   function mailForm(f) {
-    var to = f.getAttribute('data-mailto');
-    if (!to) return false;
+    var to = f.getAttribute('data-mailto') || '';
+    if (!f.hasAttribute('data-mailto') && !f.hasAttribute('data-offline')) return false;
     var lines = [];
     Array.prototype.forEach.call(f.elements, function (el) {
       if (!el.name || !el.value || el.type === 'checkbox' || el.type === 'radio' || el.type === 'submit' || el.type === 'reset' || el.type === 'button') return;
@@ -55,15 +55,26 @@
     });
     var t = f.querySelector('[name=topic],[name=route]');
     var subj = (f.getAttribute('data-subject') || 'Website message') + (t && t.value ? ': ' + t.value : '');
-    window.location.href = 'mailto:' + to + '?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(lines.join('\n'));
-    return true;
+    function byMail() { if (!to) { var o2 = f.querySelector('.form-status') || f.appendChild(document.createElement('p')); o2.hidden = false; o2.textContent = 'We could not send your message just now. Please try again in a little while.'; return; } window.location.href = 'mailto:' + to + '?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(lines.join('\n')); }
+    /* When the site's message service is online, send from the page and show a reference; otherwise, or if it fails, use email. */
+    var m = document.querySelector('meta[name="messages-api"]'), api = m && m.getAttribute('content');
+    if (!api || !window.fetch) { byMail(); return true; }
+    var v = function (n) { var el = f.elements[n]; return el && el.value ? el.value.trim() : ''; };
+    var out = f.querySelector('.form-status') || f.appendChild(document.createElement('p'));
+    out.hidden = false; out.textContent = 'Sending...';
+    fetch(api, { method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name: v('name'), email: v('email'), topic: t && t.value ? t.value : '', message: lines.join('\n'), page: location.pathname, site: location.hostname, website: v('website') }) })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (d) { f.reset(); out.textContent = 'Thank you. Your message has been sent' + (d && d.ref ? ' (reference ' + d.ref + ')' : '') + '. We reply by email.'; })
+      .catch(function () { out.textContent = ''; byMail(); });
+    return 'async';
   }
   document.addEventListener('submit', function (e) {
     var f = e.target;
     if (!f || !f.hasAttribute) return;
     if (f.hasAttribute('data-offline')) {
       e.preventDefault();
-      mailForm(f);
+      if (mailForm(f) === 'async') return;
       var s = f.querySelector('.form-status');
       if (s) { s.textContent = f.getAttribute('data-thanks'); s.hidden = false; s.focus(); }
       return;
@@ -448,4 +459,106 @@
   var base = W.SiteUI && W.SiteUI.init;
   if (W.SiteUI) W.SiteUI.init = function () { if (base) base.apply(this, arguments); init(); };
   if (D.readyState === 'loading') D.addEventListener('DOMContentLoaded', init); else init();
+})();
+
+/* Header fit: if the full menu would not fit on one line (a wider font, a translation, a zoom level), use the Menu button instead of letting items overlap. */
+(function () {
+  var root = document.documentElement, row = document.querySelector('.head-row'), brand = document.querySelector('.brand'), nav = document.getElementById('site-nav');
+  if (!row || !brand || !nav) return;
+  function fit() {
+    root.classList.remove('nav-collapsed');
+    var menu = document.querySelector('.menu-btn');
+    if (menu && getComputedStyle(menu).display !== 'none') return; // the media query already collapsed it
+    var cs = getComputedStyle(row), inner = row.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
+    if (brand.offsetWidth + nav.offsetWidth + 32 > inner) root.classList.add('nav-collapsed');
+  }
+  var t;
+  function later() { clearTimeout(t); t = setTimeout(fit, 80); }
+  fit();
+  window.addEventListener('resize', later);
+  window.addEventListener('load', fit);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
+  if (window.MutationObserver) new MutationObserver(later).observe(nav, { childList: true, subtree: true, characterData: true });
+})();
+
+/* When signed in, the header says "My page" and offers Log out, instead of Members login. */
+(function () {
+  if (!/(?:^|; )hfl_in=1/.test(document.cookie)) return;
+  [].forEach.call(document.querySelectorAll('a[href="login.html"]'), function (a) {
+    if (!/members login/i.test(a.textContent)) return;
+    a.textContent = 'My page'; a.setAttribute('href', 'members.html');
+    if (a.closest('.head-actions')) {
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'btn btn-sm btn-ghost'; b.textContent = 'Log out';
+      b.addEventListener('click', function () {
+        fetch('/api/auth', { method: 'POST', headers: { 'Content-Type': 'application/json' }, credentials: 'same-origin', body: JSON.stringify({ action: 'logout' }) })
+          .then(function () { location.href = 'index.html'; }, function () { location.href = 'index.html'; });
+      });
+      a.parentNode.insertBefore(b, a.nextSibling);
+    }
+  });
+})();
+
+/* Flip cards: a card turns over only when tapped or clicked, when Enter or Space is pressed, when the pointer rests on it
+   for about 0.6 seconds, or when it moves in a small circle on it. Passing over a card does nothing. */
+(function () {
+  var cards = document.querySelectorAll('.flip:not(.calm-flip)');
+  if (!cards.length) return;
+  var DWELL = 600, STILL = 14;
+  cards.forEach(function (c) {
+    var timer = null, rest = null, pts = [], byHover = false;
+    c.setAttribute('role', 'button');
+    c.setAttribute('aria-expanded', 'false');
+    function set(on, hover) {
+      c.classList.toggle('is-flipped', on);
+      c.setAttribute('aria-expanded', on ? 'true' : 'false');
+      byHover = on && !!hover;
+    }
+    function stop() { clearTimeout(timer); timer = null; }
+    function arm(x, y) {
+      stop(); rest = { x: x, y: y };
+      timer = setTimeout(function () { set(true, true); }, DWELL);
+    }
+    c.addEventListener('pointerenter', function (e) {
+      if (e.pointerType !== 'mouse') return;
+      pts = []; if (!c.classList.contains('is-flipped')) arm(e.clientX, e.clientY);
+    });
+    c.addEventListener('pointermove', function (e) {
+      if (e.pointerType !== 'mouse' || c.classList.contains('is-flipped')) return;
+      if (rest && Math.hypot(e.clientX - rest.x, e.clientY - rest.y) > STILL) arm(e.clientX, e.clientY);
+      pts.push({ x: e.clientX, y: e.clientY }); if (pts.length > 40) pts.shift();
+      var turn = 0;
+      for (var i = 2; i < pts.length; i++) {
+        var a = Math.atan2(pts[i - 1].y - pts[i - 2].y, pts[i - 1].x - pts[i - 2].x), b = Math.atan2(pts[i].y - pts[i - 1].y, pts[i].x - pts[i - 1].x), d = b - a;
+        while (d > Math.PI) d -= 2 * Math.PI; while (d < -Math.PI) d += 2 * Math.PI;
+        turn += d;
+      }
+      if (Math.abs(turn) > 5) { stop(); pts = []; set(true, true); }
+    });
+    c.addEventListener('pointerleave', function (e) {
+      if (e.pointerType !== 'mouse') return;
+      stop(); pts = [];
+      if (byHover) set(false);
+    });
+    c.addEventListener('click', function () { stop(); set(!c.classList.contains('is-flipped'), false); });
+    c.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); set(!c.classList.contains('is-flipped'), false); }
+      else if (e.key === 'Escape') set(false);
+    });
+    c.addEventListener('blur', function () { if (!byHover) set(false); });
+  });
+})();
+
+/* Dropdown menu groups: open on tap or click, close on Escape, outside click or when another group opens. */
+(function () {
+  var groups = [].slice.call(document.querySelectorAll('.nav-groups .has-sub'));
+  if (!groups.length) return;
+  function closeAll(except) { groups.forEach(function (g) { if (g === except) return; g.classList.remove('open'); g.querySelector('.sub-btn').setAttribute('aria-expanded', 'false'); }); }
+  groups.forEach(function (g) {
+    var b = g.querySelector('.sub-btn');
+    b.addEventListener('click', function (e) { e.stopPropagation(); var o = !g.classList.contains('open'); closeAll(g); g.classList.toggle('open', o); b.setAttribute('aria-expanded', o ? 'true' : 'false'); });
+  });
+  document.addEventListener('click', function (e) { if (!e.target.closest('.nav-groups')) closeAll(); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') { var o = document.querySelector('.has-sub.open .sub-btn'); closeAll(); if (o) o.focus(); } });
+  groups.forEach(function (g) { if (g.classList.contains('is-current') && window.matchMedia('(max-width:1180px)').matches) { /* keep collapsed until tapped */ } });
 })();

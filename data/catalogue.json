@@ -1,0 +1,1469 @@
+{
+ "generated": "2026-10-30",
+ "model": "70-20-10",
+ "note": "Brand-neutral. Status DRAFT. Nothing is live until the owner says yes.",
+ "split": {
+  "practice_on_the_job": 70,
+  "social_and_mentoring": 20,
+  "formal_learning": 10
+ },
+ "chapters": [
+  {
+   "id": "EU-01",
+   "title": "Food Industry and Food Technology",
+   "region": "Europe (first-phase priority, hub: Eindhoven area)",
+   "outcome": "Plan a small food product line from idea to shelf: recipe scaling, hygiene (HACCP-aligned), labelling, costing.",
+   "practice_70": "Run a 30-day pilot batch with a local anchor partner; log yield, cost per unit and complaints.",
+   "social_20": "Weekly peer tasting-and-costing circle; a mentor from the trade reviews your cost sheet.",
+   "formal_10": "Short modules: food safety basics, shelf life, packaging and labelling rules.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Learning Course, 3-6 months",
+   "contributions_open": true
+  },
+  {
+   "id": "EU-02",
+   "title": "Handmade Goods and Craft Enterprise",
+   "region": "Europe (first-phase priority, hub: Eindhoven area)",
+   "outcome": "Turn a craft into a repeatable small business: pricing, batch making, photography, storytelling.",
+   "practice_70": "Make and sell 20 units through a pilot channel; record time, material cost and margin per unit.",
+   "social_20": "Maker circle: swap product photos and pricing; one repeat-buyer interview.",
+   "formal_10": "Short modules: unit economics, product photography, consumer-goods rules.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Learning Course, 3-6 months",
+   "contributions_open": true
+  },
+  {
+   "id": "EU-03",
+   "title": "Online Sales and E-Commerce Operations",
+   "region": "Europe (first-phase priority, hub: Eindhoven area)",
+   "outcome": "Open and run an online shop: catalogue, checkout, delivery, returns, simple analytics.",
+   "practice_70": "Launch a 10-product test shop; ship five real orders; track conversion and return rate.",
+   "social_20": "Join a seller review room; give and get three shop critiques.",
+   "formal_10": "Short modules: online consumer-protection basics, payments, shipping options.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Learning Course, 3-6 months",
+   "contributions_open": true
+  },
+  {
+   "id": "EU-04",
+   "title": "Mobile Application Building",
+   "region": "Europe (first-phase priority, hub: Eindhoven area)",
+   "outcome": "Design, build and test a simple mobile app from user need to store-ready build.",
+   "practice_70": "Build one working app with 3 screens for a real user; run a 5-person usability test.",
+   "social_20": "Code-review pairs; demo day to a learner panel.",
+   "formal_10": "Short modules: UX basics, free cross-platform frameworks, privacy by design.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Learning Course, 3-6 months",
+   "contributions_open": true
+  },
+  {
+   "id": "EU-05",
+   "title": "IT Business and Managed Services",
+   "region": "Europe (first-phase priority, hub: Eindhoven area)",
+   "outcome": "Start and run a small IT service business: support desk, contracts, pricing, security hygiene.",
+   "practice_70": "Support 3 pilot clients (or a lab network); log tickets, response time and fixes.",
+   "social_20": "Peer incident-review circle; mentor-led pricing session.",
+   "formal_10": "Short modules: service levels, backup and security basics, contracts.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Learning Course, 3-6 months",
+   "contributions_open": true
+  },
+  {
+   "id": "EU-06",
+   "title": "Childcare Products and Services",
+   "region": "Europe (first-phase priority, hub: Eindhoven area)",
+   "outcome": "Plan safe, high-quality childcare products or services: safety, play-based learning, parent communication.",
+   "practice_70": "Run a supervised pilot session or product trial with a partner centre; record safety checklist and parent feedback.",
+   "social_20": "Parent-and-carer circle; mentor from an experienced childcare professional.",
+   "formal_10": "Short modules: child-safety standards, safeguarding awareness, age-appropriate design.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Learning Course, 3-6 months",
+   "contributions_open": true
+  },
+  {
+   "id": "EU-07",
+   "title": "Trading and Distribution",
+   "region": "Europe (first-phase priority, hub: Eindhoven area)",
+   "outcome": "Learn import-export and trading basics: sourcing, documents, incoterms, margins, risk.",
+   "practice_70": "Build a mock trade file (quote, invoice, packing list, shipping plan) for a real product; cost it end to end.",
+   "social_20": "Trader panel Q&A; pair-review of each other's trade files.",
+   "formal_10": "Short modules: trade documents, incoterms, customs basics, payment terms.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Learning Course, 3-6 months",
+   "contributions_open": true
+  },
+  {
+   "id": "EU-08",
+   "title": "Industrial Activity: Machinery, High-Tech and Process",
+   "region": "Europe (first-phase priority, hub: Eindhoven area)",
+   "outcome": "Understand how factories run: process flow, quality, maintenance, safety, lean basics.",
+   "practice_70": "Map one real or simulated process; find three waste points and propose fixes with numbers.",
+   "social_20": "Plant-visit debrief circle; mentor from an operations engineer.",
+   "formal_10": "Short modules: industrial safety, quality tools, preventive maintenance.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Learning Course, 3-6 months",
+   "contributions_open": true
+  },
+  {
+   "id": "EU-09",
+   "title": "Construction and Built Environment",
+   "region": "Europe (first-phase priority, hub: Eindhoven area)",
+   "outcome": "Plan and supervise small construction work: drawings, quantities, safety, quality, cost control.",
+   "practice_70": "Prepare a bill of quantities and a safety plan for a small real or model project.",
+   "social_20": "Site-diary circle; mentor review of your plan.",
+   "formal_10": "Short modules: site safety, reading drawings, cost estimating.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Learning Course, 3-6 months",
+   "contributions_open": true
+  },
+  {
+   "id": "EU-10",
+   "title": "Agriculture and Fisheries",
+   "region": "Europe (first-phase priority, hub: Eindhoven area)",
+   "outcome": "Run a small farm or fishery as a business: planning, yield, sustainability, market access.",
+   "practice_70": "Plan a season on a small plot or a model farm; track inputs, yield and selling price.",
+   "social_20": "Farmer-and-fisher exchange circle; mentor from an advisor.",
+   "formal_10": "Short modules: sustainable practice, post-harvest handling, cold chain, market linkages.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Learning Course, 3-6 months",
+   "contributions_open": true
+  }
+ ],
+ "courses": [
+  {
+   "id": "GL-01",
+   "title": "Lead Generation for Small Businesses",
+   "group": "Digital and Technology",
+   "practice_70": "Build a lead funnel for one real small business; measure cost per lead over 14 days.",
+   "social_20": "Weekly funnel-review circle.",
+   "formal_10": "Short modules: consent rules, landing pages, email basics.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-02",
+   "title": "Robotics Fundamentals",
+   "group": "Digital and Technology",
+   "practice_70": "Build and program a simple robot or simulator task.",
+   "social_20": "Team challenge: improve a classmate's design.",
+   "formal_10": "Short modules: sensors, motors, safe operation.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-03",
+   "title": "Artificial Intelligence in Practice",
+   "group": "Digital and Technology",
+   "practice_70": "Apply an AI tool to a real work task; document gains, errors and checks.",
+   "social_20": "Prompt-and-review circle; mentor on responsible use.",
+   "formal_10": "Short modules: AI basics, bias and privacy, human review.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-04",
+   "title": "Internet Infrastructure Basics",
+   "group": "Digital and Technology",
+   "practice_70": "Set up a small home or lab network and document it.",
+   "social_20": "Peer troubleshooting circle.",
+   "formal_10": "Short modules: addressing, routing, security basics.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-05",
+   "title": "Internet of Things (IoT)",
+   "group": "Digital and Technology",
+   "practice_70": "Build a sensor-to-dashboard project using free tools.",
+   "social_20": "Show-and-tell build review.",
+   "formal_10": "Short modules: sensors, protocols, device security.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-06",
+   "title": "Chatbots for Business",
+   "group": "Digital and Technology",
+   "practice_70": "Design and test a rule-based or AI chatbot for one customer question set.",
+   "social_20": "Test each other's bots with real questions.",
+   "formal_10": "Short modules: conversation design, privacy, escalation.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-07",
+   "title": "360-Degree Photography and Virtual Tours",
+   "group": "Digital and Technology",
+   "practice_70": "Capture and publish a virtual tour of a real space.",
+   "social_20": "Peer critique of tours.",
+   "formal_10": "Short modules: capture technique, stitching, publishing.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-08",
+   "title": "Drones: Operations and Applications",
+   "group": "Digital and Technology",
+   "practice_70": "Plan a compliant simulated or supervised flight and data capture.",
+   "social_20": "Safety-briefing circle.",
+   "formal_10": "Short modules: local aviation rules, safety, mission planning.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-09",
+   "title": "Nanosatellites and Space Data",
+   "group": "Digital and Technology",
+   "practice_70": "Use free satellite data to answer one local question.",
+   "social_20": "Data-story circle.",
+   "formal_10": "Short modules: orbits, data sources, mission basics.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-10",
+   "title": "Cloud Migration as a Service",
+   "group": "Digital and Technology",
+   "practice_70": "Plan a migration of a sample workload with cost and risk table.",
+   "social_20": "Architecture-review circle.",
+   "formal_10": "Short modules: cloud models, security, cost control.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-11",
+   "title": "Biometric Sensor and Security Solutions",
+   "group": "Digital and Technology",
+   "practice_70": "Evaluate a biometric option for a use case, with privacy impact notes.",
+   "social_20": "Debate-and-review circle.",
+   "formal_10": "Short modules: accuracy, consent, data protection.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-12",
+   "title": "DDoS and Cyber-Attack Prevention",
+   "group": "Digital and Technology",
+   "practice_70": "Harden a lab service and test it with permitted traffic simulation.",
+   "social_20": "Incident-drill debrief.",
+   "formal_10": "Short modules: attack types, mitigations, legal limits.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-13",
+   "title": "Privacy Protection Practice",
+   "group": "Digital and Technology",
+   "practice_70": "Run a mini privacy review of a real or sample service; list gaps and fixes.",
+   "social_20": "Peer review of findings.",
+   "formal_10": "Short modules: privacy principles, consent, breach response.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-14",
+   "title": "IT Service and Support",
+   "group": "Digital and Technology",
+   "practice_70": "Run a help-desk simulation: triage, fix, document.",
+   "social_20": "Shadow-and-swap support shifts.",
+   "formal_10": "Short modules: ticketing, communication, escalation.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-15",
+   "title": "Tele and Video Conferencing Operations",
+   "group": "Digital and Technology",
+   "practice_70": "Host and moderate three accessible online sessions.",
+   "social_20": "Feedback circle on hosting.",
+   "formal_10": "Short modules: audio-video setup, accessibility, recording consent.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-16",
+   "title": "Mobile Application Testing Services",
+   "group": "Digital and Technology",
+   "practice_70": "Write a test plan and find real defects in a sample app.",
+   "social_20": "Bug-triage circle.",
+   "formal_10": "Short modules: test design, device coverage, reporting.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-17",
+   "title": "Blockchain Health-Record Concepts",
+   "group": "Digital and Technology",
+   "practice_70": "Map how a shared record could work, with consent and privacy controls.",
+   "social_20": "Design-critique circle.",
+   "formal_10": "Short modules: ledger basics, health-data rules, consent.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-18",
+   "title": "Online Currency Exchange Concepts",
+   "group": "Digital and Technology",
+   "practice_70": "Compare live exchange rates and fees across channels for one transfer.",
+   "social_20": "Rate-watch circle.",
+   "formal_10": "Short modules: spreads, fees, licensing awareness.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-19",
+   "title": "Wallet Payment Solutions",
+   "group": "Digital and Technology",
+   "practice_70": "Map a payment flow with fees, failure cases and refunds.",
+   "social_20": "Peer review of flows.",
+   "formal_10": "Short modules: payment methods, security, reconciliation.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-20",
+   "title": "Social Media Network Building",
+   "group": "Digital and Technology",
+   "practice_70": "Grow a small topic community; track engagement ethically.",
+   "social_20": "Community-managers circle.",
+   "formal_10": "Short modules: moderation, safety, content policy.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-21",
+   "title": "E-Commerce Growth Marketing",
+   "group": "Business and Commerce",
+   "practice_70": "Grow a small shop with two channels; compare cost per order.",
+   "social_20": "Seller review room.",
+   "formal_10": "Short modules: channels, conversion, consumer rules.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-22",
+   "title": "Marketplace Fulfilment Selling",
+   "group": "Business and Commerce",
+   "practice_70": "Source and list a product on a major online marketplace; track margin after all fees.",
+   "social_20": "Seller review room.",
+   "formal_10": "Short modules: marketplace rules, inventory, fees.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-23",
+   "title": "E-Commerce Inventory Management",
+   "group": "Business and Commerce",
+   "practice_70": "Build a stock-control sheet with reorder points for a sample shop.",
+   "social_20": "Stock-take circle.",
+   "formal_10": "Short modules: demand forecasting, reorder logic.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-24",
+   "title": "Selling Personal Protective Equipment",
+   "group": "Business and Commerce",
+   "practice_70": "Map standards, buyers and supply for one PPE product category.",
+   "social_20": "Buyer-seller role play.",
+   "formal_10": "Short modules: standards awareness, labelling, supply checks.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-25",
+   "title": "Inclusive and Minority-Owned Business Growth",
+   "group": "Business and Commerce",
+   "practice_70": "Prepare a growth plan with access-to-finance steps.",
+   "social_20": "Mentor-pair planning.",
+   "formal_10": "Short modules: funding options, certification awareness, networks.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-26",
+   "title": "Box Subscription Services",
+   "group": "Business and Commerce",
+   "practice_70": "Design and test a one-box subscription with unit economics.",
+   "social_20": "Customer-interview circle.",
+   "formal_10": "Short modules: churn, packaging, logistics.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-27",
+   "title": "Ghost Kitchens",
+   "group": "Business and Commerce",
+   "practice_70": "Cost a delivery-only menu with a partner kitchen.",
+   "social_20": "Kitchen-economics circle.",
+   "formal_10": "Short modules: food-safety licensing, delivery platforms, costing.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-28",
+   "title": "Business Coaching Practice",
+   "group": "Business and Commerce",
+   "practice_70": "Coach two peers through a goal using a structured method.",
+   "social_20": "Reflective practice circle.",
+   "formal_10": "Short modules: coaching models, ethics, contracting.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-29",
+   "title": "Business Process Outsourcing Services",
+   "group": "Business and Commerce",
+   "practice_70": "Document and price one outsourced process with service levels.",
+   "social_20": "Process-review circle.",
+   "formal_10": "Short modules: SLAs, quality control, data security.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-30",
+   "title": "Coworking Space Operations",
+   "group": "Business and Commerce",
+   "practice_70": "Model occupancy and pricing for a small space.",
+   "social_20": "Operator panel Q&A.",
+   "formal_10": "Short modules: membership models, safety, community.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-31",
+   "title": "Affiliate Marketing",
+   "group": "Business and Commerce",
+   "practice_70": "Run a small compliant affiliate test and report earnings and costs.",
+   "social_20": "Results-sharing circle.",
+   "formal_10": "Short modules: disclosure rules, tracking, payouts.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-32",
+   "title": "Influencer Marketing",
+   "group": "Business and Commerce",
+   "practice_70": "Plan and measure one small campaign with disclosure.",
+   "social_20": "Campaign critique circle.",
+   "formal_10": "Short modules: disclosure, brand safety, measurement.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-33",
+   "title": "Digital Marketing",
+   "group": "Business and Commerce",
+   "practice_70": "Run a small paid and organic campaign with a budget cap.",
+   "social_20": "Weekly metrics review.",
+   "formal_10": "Short modules: channels, analytics, privacy consent.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-34",
+   "title": "Online Tutoring Platform",
+   "group": "Business and Commerce",
+   "practice_70": "Deliver and review five tutoring sessions.",
+   "social_20": "Tutor peer-observation circle.",
+   "formal_10": "Short modules: lesson design, safeguarding, assessment.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-35",
+   "title": "Online Library Building",
+   "group": "Business and Commerce",
+   "practice_70": "Curate and catalogue a small open-licence library.",
+   "social_20": "Curators' circle.",
+   "formal_10": "Short modules: licensing, metadata, accessibility.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-36",
+   "title": "Virtual Event Planning",
+   "group": "Business and Commerce",
+   "practice_70": "Plan and run a small virtual event with registration and follow-up.",
+   "social_20": "Event debrief circle.",
+   "formal_10": "Short modules: platforms, accessibility, sponsorship.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-37",
+   "title": "Crowdfunding Platform Practice",
+   "group": "Business and Commerce",
+   "practice_70": "Prepare a campaign plan with rules and risk disclosures.",
+   "social_20": "Backer-feedback circle.",
+   "formal_10": "Short modules: platform rules, rewards, investor-protection awareness.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-38",
+   "title": "P2P Lending Platform Concepts",
+   "group": "Business and Commerce",
+   "practice_70": "Map borrower screening and risk disclosure for a sample platform.",
+   "social_20": "Risk-review circle.",
+   "formal_10": "Short modules: credit basics, licensing awareness, disclosure.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-39",
+   "title": "Virtual Interior Design Consulting",
+   "group": "Business and Commerce",
+   "practice_70": "Deliver a remote design brief with mood board and budget.",
+   "social_20": "Portfolio critique.",
+   "formal_10": "Short modules: space planning, tools, client briefs.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-40",
+   "title": "Online Car Dealership Operations",
+   "group": "Business and Commerce",
+   "practice_70": "Plan listings, inspection and handover steps for a sample dealership.",
+   "social_20": "Customer-journey circle.",
+   "formal_10": "Short modules: consumer rules, documentation, financing awareness.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-41",
+   "title": "Home Sharing and Short-Stay Hosting",
+   "group": "Business and Commerce",
+   "practice_70": "Prepare a compliant listing and guest-experience plan.",
+   "social_20": "Host exchange circle.",
+   "formal_10": "Short modules: local rules, safety, pricing.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-42",
+   "title": "Fitness Technology",
+   "group": "Health, Wellbeing and Care",
+   "practice_70": "Design a wearable-data fitness plan for one person with consent.",
+   "social_20": "Coach-and-client role play.",
+   "formal_10": "Short modules: data accuracy, safety, privacy.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-43",
+   "title": "Online Medical Supply and Equipment",
+   "group": "Health, Wellbeing and Care",
+   "practice_70": "Map regulations and supply for one equipment category.",
+   "social_20": "Supplier panel.",
+   "formal_10": "Short modules: device rules awareness, storage, traceability.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-44",
+   "title": "Online Therapy Support (Awareness Level)",
+   "group": "Health, Wellbeing and Care",
+   "practice_70": "Study ethical, licensed delivery models; no clinical practice is taught.",
+   "social_20": "Reflective ethics circle.",
+   "formal_10": "Short modules: licensing, consent, privacy, referral.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-45",
+   "title": "Virtual Medical Appointment Systems",
+   "group": "Health, Wellbeing and Care",
+   "practice_70": "Map a booking-to-follow-up flow with privacy controls.",
+   "social_20": "Patient-journey circle.",
+   "formal_10": "Short modules: scheduling, consent, data protection.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-46",
+   "title": "DNA Analysis (Awareness Level)",
+   "group": "Health, Wellbeing and Care",
+   "practice_70": "Understand lab flow, ethics and data protection; no clinical interpretation is taught.",
+   "social_20": "Ethics circle.",
+   "formal_10": "Short modules: genetics basics, consent, data rules.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-47",
+   "title": "Stem Cell Therapy (Awareness Level)",
+   "group": "Health, Wellbeing and Care",
+   "practice_70": "Understand the science, regulation and ethics at overview level.",
+   "social_20": "Journal-club circle.",
+   "formal_10": "Short modules: regulation, evidence quality, ethics.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-48",
+   "title": "Nanotechnology in Medicine (Awareness Level)",
+   "group": "Health, Wellbeing and Care",
+   "practice_70": "Review three public case studies on benefits and risks.",
+   "social_20": "Journal-club circle.",
+   "formal_10": "Short modules: materials, safety, regulation.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-49",
+   "title": "Cryobank Operations (Awareness Level)",
+   "group": "Health, Wellbeing and Care",
+   "practice_70": "Study storage, traceability and ethics at overview level.",
+   "social_20": "Ethics circle.",
+   "formal_10": "Short modules: cold chain, records, consent.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-50",
+   "title": "Skincare Spa and Clinic Management",
+   "group": "Health, Wellbeing and Care",
+   "practice_70": "Plan a service menu, hygiene routine and scheduling.",
+   "social_20": "Peer audit circle.",
+   "formal_10": "Short modules: hygiene standards, licensing, client care.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-51",
+   "title": "Senior At-Home Care",
+   "group": "Health, Wellbeing and Care",
+   "practice_70": "Plan a safe daily-care routine with a carer checklist.",
+   "social_20": "Carers' circle.",
+   "formal_10": "Short modules: safeguarding, mobility, dignity.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-52",
+   "title": "Veterinary and Pet Care Business",
+   "group": "Health, Wellbeing and Care",
+   "practice_70": "Plan clinic or service operations with welfare standards.",
+   "social_20": "Practice-manager panel.",
+   "formal_10": "Short modules: animal welfare, records, licensing.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-53",
+   "title": "Alternative Protein Food Products",
+   "group": "Health, Wellbeing and Care",
+   "practice_70": "Compare three plant-based or fermented protein products by cost, nutrition and rules.",
+   "social_20": "Tasting-and-debate circle.",
+   "formal_10": "Short modules: food science, labelling, regulation.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-54",
+   "title": "Lab-Grown Meat (Awareness Level)",
+   "group": "Health, Wellbeing and Care",
+   "practice_70": "Review the science, cost curve and approvals status from public sources.",
+   "social_20": "Journal-club circle.",
+   "formal_10": "Short modules: cell culture basics, regulation, ethics.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-55",
+   "title": "Wind Energy Fundamentals",
+   "group": "Energy, Environment and Mobility",
+   "practice_70": "Size a small wind option for a site with free wind data.",
+   "social_20": "Site-review circle.",
+   "formal_10": "Short modules: resource assessment, safety, grid basics.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-56",
+   "title": "Solar Power Design and Installation Basics",
+   "group": "Energy, Environment and Mobility",
+   "practice_70": "Size a rooftop system, cost it and estimate payback.",
+   "social_20": "Installer Q&A circle.",
+   "formal_10": "Short modules: sizing, electrical safety, standards awareness.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-57",
+   "title": "Biofuel Production Overview",
+   "group": "Energy, Environment and Mobility",
+   "practice_70": "Compare feedstocks by yield, cost and emissions.",
+   "social_20": "Case-debate circle.",
+   "formal_10": "Short modules: processes, sustainability, safety.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-58",
+   "title": "Electric Car and EV Basics",
+   "group": "Energy, Environment and Mobility",
+   "practice_70": "Map EV components and a maintenance checklist.",
+   "social_20": "Workshop circle.",
+   "formal_10": "Short modules: batteries, charging, high-voltage safety.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-59",
+   "title": "Car Charging Stations",
+   "group": "Energy, Environment and Mobility",
+   "practice_70": "Plan a charging site: power, layout, pricing.",
+   "social_20": "Site-plan critique.",
+   "formal_10": "Short modules: connectors, load, permits.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-60",
+   "title": "Portable and Wireless Charging Solutions",
+   "group": "Energy, Environment and Mobility",
+   "practice_70": "Test and compare chargers for efficiency and safety.",
+   "social_20": "Test-results circle.",
+   "formal_10": "Short modules: standards, heat safety, efficiency.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-61",
+   "title": "Micro-Mobility Services",
+   "group": "Energy, Environment and Mobility",
+   "practice_70": "Plan a small fleet with safety and parking rules.",
+   "social_20": "Operator panel.",
+   "formal_10": "Short modules: safety, maintenance, local regulation.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-62",
+   "title": "Car Sharing Business",
+   "group": "Energy, Environment and Mobility",
+   "practice_70": "Model utilisation and pricing for a small shared fleet.",
+   "social_20": "Pricing circle.",
+   "formal_10": "Short modules: insurance, telematics, fleet care.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-63",
+   "title": "Plastic Alternatives",
+   "group": "Energy, Environment and Mobility",
+   "practice_70": "Evaluate three alternatives by cost, performance and end-of-life.",
+   "social_20": "Materials circle.",
+   "formal_10": "Short modules: lifecycle thinking, standards, sourcing.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-64",
+   "title": "Water Management and Conservation",
+   "group": "Energy, Environment and Mobility",
+   "practice_70": "Audit water use for a home or small site; propose savings.",
+   "social_20": "Audit-sharing circle.",
+   "formal_10": "Short modules: measurement, reuse, quality.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-65",
+   "title": "Greenhouse Gas Auditing",
+   "group": "Energy, Environment and Mobility",
+   "practice_70": "Calculate a simple carbon footprint for a small organisation.",
+   "social_20": "Peer review of footprints.",
+   "formal_10": "Short modules: scopes, emission factors, reporting.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-66",
+   "title": "Vertical Farming",
+   "group": "Energy, Environment and Mobility",
+   "practice_70": "Plan a small indoor grow system with energy and yield numbers.",
+   "social_20": "Grower circle.",
+   "formal_10": "Short modules: lighting, nutrients, economics.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-67",
+   "title": "3D Home Building",
+   "group": "Energy, Environment and Mobility",
+   "practice_70": "Review printed-construction methods and cost per square metre.",
+   "social_20": "Case review circle.",
+   "formal_10": "Short modules: materials, codes, safety.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-68",
+   "title": "Space Tourism Awareness",
+   "group": "Creative, Travel and Lifestyle",
+   "practice_70": "Study the market, safety and regulation; build a sample product brief.",
+   "social_20": "Debate circle.",
+   "formal_10": "Short modules: safety, regulation, market.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-69",
+   "title": "Boat and Helicopter Tourism",
+   "group": "Creative, Travel and Lifestyle",
+   "practice_70": "Plan a compliant experience with safety and pricing.",
+   "social_20": "Operator panel.",
+   "formal_10": "Short modules: safety, licensing, guest care.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-70",
+   "title": "Podcasting",
+   "group": "Creative, Travel and Lifestyle",
+   "practice_70": "Plan, record and publish three episodes.",
+   "social_20": "Listener-feedback circle.",
+   "formal_10": "Short modules: audio, rights, distribution.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-71",
+   "title": "Holographic and Immersive Theatre",
+   "group": "Creative, Travel and Lifestyle",
+   "practice_70": "Prototype a short immersive show with free tools.",
+   "social_20": "Show critique.",
+   "formal_10": "Short modules: staging, content rights, safety.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-72",
+   "title": "VR Live Events",
+   "group": "Creative, Travel and Lifestyle",
+   "practice_70": "Run a small VR event with accessibility options.",
+   "social_20": "Attendee-feedback circle.",
+   "formal_10": "Short modules: platforms, comfort and safety, moderation.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-73",
+   "title": "3D Printing",
+   "group": "Creative, Travel and Lifestyle",
+   "practice_70": "Design, print and test three useful parts.",
+   "social_20": "Print-clinic circle.",
+   "formal_10": "Short modules: modelling, materials, safe operation.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-74",
+   "title": "eSports Management",
+   "group": "Creative, Travel and Lifestyle",
+   "practice_70": "Organise a small tournament with rules and safeguarding.",
+   "social_20": "Organisers' circle.",
+   "formal_10": "Short modules: event rules, player welfare, sponsorship.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  },
+  {
+   "id": "GL-75",
+   "title": "Smart Apparel",
+   "group": "Creative, Travel and Lifestyle",
+   "practice_70": "Prototype a simple sensor garment concept.",
+   "social_20": "Design-critique circle.",
+   "formal_10": "Short modules: textiles, sensors, washability.",
+   "journey": [
+    "Idea",
+    "Action",
+    "Value",
+    "Empowerment",
+    "Regeneration"
+   ],
+   "length": "Long Module, 1-3 months",
+   "contributions_open": true
+  }
+ ]
+}
