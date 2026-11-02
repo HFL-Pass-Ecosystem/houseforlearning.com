@@ -22,7 +22,7 @@
    ],
    "hours": 27,
    "outcome": "write and test functions and handle files",
-   "intro": "In this unit you work on 'Python functions, files and exceptions', taught in a way that is with exam-style questions and written reasoning. The target is clear: write and test functions and handle files. You move from seeing it, to saying it, to doing it alone.",
+   "intro": "In this unit, 'Python functions, files and exceptions', you learn to write and test functions and handle files. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
    "points": [
     "See it: watch or try the skill in 'Python functions, files and exceptions' on a teacher screen or a safe device.",
     "Name the parts: write the key words and what each part does.",
@@ -52,7 +52,7 @@
    ],
    "hours": 27,
    "outcome": "implement stacks and queues",
-   "intro": "In this unit you work on 'Data structures: stacks and queues', taught in a way that is with exam-style questions and written reasoning. The target is clear: implement stacks and queues. You move from seeing it, to saying it, to doing it alone.",
+   "intro": "In this unit, 'Data structures: stacks and queues', you learn to implement stacks and queues. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
    "points": [
     "See it: watch or try the skill in 'Data structures: stacks and queues' on a teacher screen or a safe device.",
     "Name the parts: write the key words and what each part does.",
@@ -82,7 +82,7 @@
    ],
    "hours": 27,
    "outcome": "describe network layers and security",
-   "intro": "In this unit you work on 'Computer networks and security', taught in a way that is with exam-style questions and written reasoning. The target is clear: describe network layers and security. You move from seeing it, to saying it, to doing it alone.",
+   "intro": "In this unit, 'Computer networks and security', you learn to describe network layers and security. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
    "points": [
     "See it: watch or try the skill in 'Computer networks and security' on a teacher screen or a safe device.",
     "Name the parts: write the key words and what each part does.",
@@ -112,7 +112,7 @@
    ],
    "hours": 27,
    "outcome": "connect Python with a database and query it",
-   "intro": "In this unit you work on 'Databases and SQL with Python', taught in a way that is with exam-style questions and written reasoning. The target is clear: connect Python with a database and query it. You move from seeing it, to saying it, to doing it alone.",
+   "intro": "In this unit, 'Databases and SQL with Python', you learn to connect Python with a database and query it. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
    "points": [
     "See it: watch or try the skill in 'Databases and SQL with Python' on a teacher screen or a safe device.",
     "Name the parts: write the key words and what each part does.",
@@ -175,12 +175,12 @@
    "push a, b, c to make [a, b, c]; pop gives c, then b, then a; joining them gives 'cba'. The last character comes out first. (Covered in unit 2: Data structures: stacks and queues.)"
   ],
   [
-   "Unit 3 (Computer networks and security): How many usable hosts in a /28 subnet?.",
+   "Unit 3 (Computer networks and security): How many usable hosts in a /28 subnet?",
    "32 minus 28 is 4 host bits; 2 to the power 4 is 16 addresses; minus the network and broadcast addresses gives 14 usable hosts. (Covered in unit 3: Computer networks and security.)"
   ],
   [
-   "Unit 4 (Databases and SQL with Python): Create pets(name, age) with ('Mimi', 3), ('Rex', 7), ('Kiwi', 1) and print pets older than 2.",
-   "executemany inserts, commit, SELECT name FROM pets WHERE age > 2 ORDER BY age gives [('Mimi',), ('Rex',)]. (Covered in unit 4: Databases and SQL with Python.)"
+   "Unit 4 (Databases and SQL with Python): Create pets(name, age) with ('Cat', 3), ('Dog', 7), ('Bird', 1) and print pets older than 2.",
+   "executemany inserts, commit, SELECT name FROM pets WHERE age > 2 ORDER BY age gives [('Cat',), ('Dog',)]. (Covered in unit 4: Databases and SQL with Python.)"
   ],
   [
    "Unit 1 (Python functions, files and exceptions): Test with assert. Show how you do it and say what the result is.",
@@ -196,7 +196,7 @@
   ],
   [
    "Unit 4 (Databases and SQL with Python): Insert safely. Show how you do it and say what the result is.",
-   "cur.executemany('INSERT INTO marks VALUES (?, ?)', [('Ali', 72), ('Bana', 91), ('Cyrus', 65), ('Dina', 88)]) then con.commit(). Without commit the rows are not saved. Running this twice would add 8 rows, so run it once. (Covered in unit 4: Databases and SQL with Python.)"
+   "cur.executemany('INSERT INTO marks VALUES (?, ?)', [('Learner 1', 72), ('Learner 2', 91), ('Learner 3', 65), ('Learner 4', 88)]) then con.commit(). Without commit the rows are not saved. Running this twice would add 8 rows, so run it once. (Covered in unit 4: Databases and SQL with Python.)"
   ],
   [
    "Unit 1 (Python functions, files and exceptions): Prepare a file. Show how you do it and say what the result is.",

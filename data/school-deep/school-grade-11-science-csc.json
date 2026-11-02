@@ -22,7 +22,7 @@
    ],
    "hours": 27,
    "outcome": "write programs with decisions and loops",
-   "intro": "In this unit you work on 'Python programming: control flow and strings', taught in a way that is with exam-style questions and written reasoning. The target is clear: write programs with decisions and loops. You move from seeing it, to saying it, to doing it alone.",
+   "intro": "In this unit, 'Python programming: control flow and strings', you learn to write programs with decisions and loops. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
    "points": [
     "See it: watch or try the skill in 'Python programming: control flow and strings' on a teacher screen or a safe device.",
     "Name the parts: write the key words and what each part does.",
@@ -52,7 +52,7 @@
    ],
    "hours": 27,
    "outcome": "store and process data with Python structures",
-   "intro": "In this unit you work on 'Lists, tuples and dictionaries', taught in a way that is with exam-style questions and written reasoning. The target is clear: store and process data with Python structures. You move from seeing it, to saying it, to doing it alone.",
+   "intro": "In this unit, 'Lists, tuples and dictionaries', you learn to store and process data with Python structures. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
    "points": [
     "See it: watch or try the skill in 'Lists, tuples and dictionaries' on a teacher screen or a safe device.",
     "Name the parts: write the key words and what each part does.",
@@ -82,7 +82,7 @@
    ],
    "hours": 27,
    "outcome": "convert numbers and describe hardware",
-   "intro": "In this unit you work on 'Computer systems and number systems', taught in a way that is with exam-style questions and written reasoning. The target is clear: convert numbers and describe hardware. You move from seeing it, to saying it, to doing it alone.",
+   "intro": "In this unit, 'Computer systems and number systems', you learn to convert numbers and describe hardware. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
    "points": [
     "See it: watch or try the skill in 'Computer systems and number systems' on a teacher screen or a safe device.",
     "Name the parts: write the key words and what each part does.",
@@ -112,7 +112,7 @@
    ],
    "hours": 27,
    "outcome": "create and query a table",
-   "intro": "In this unit you work on 'Introduction to databases and SQL', taught in a way that is with exam-style questions and written reasoning. The target is clear: create and query a table. You move from seeing it, to saying it, to doing it alone.",
+   "intro": "In this unit, 'Introduction to databases and SQL', you learn to create and query a table. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
    "points": [
     "See it: watch or try the skill in 'Introduction to databases and SQL' on a teacher screen or a safe device.",
     "Name the parts: write the key words and what each part does.",
@@ -179,8 +179,8 @@
    "37 is 32 plus 4 plus 1, so binary is 100101; in hex 37 divided by 16 is 2 remainder 5, so 25; check 2 times 16 plus 5 is 37. (Covered in unit 3: Computer systems and number systems.)"
   ],
   [
-   "Unit 4 (Introduction to databases and SQL): Create table pets(id, name, age) with (1,'Mimi',3),(2,'Rex',7),(3,'Kiwi',1). List pets older than 2, oldest first.",
-   "SELECT name, age FROM pets WHERE age > 2 ORDER BY age DESC; gives Rex 7, Mimi 3. (Covered in unit 4: Introduction to databases and SQL.)"
+   "Unit 4 (Introduction to databases and SQL): Create table pets(id, name, age) with (1,'Cat',3),(2,'Dog',7),(3,'Bird',1). List pets older than 2, oldest first.",
+   "SELECT name, age FROM pets WHERE age > 2 ORDER BY age DESC; gives Dog 7, Cat 3. (Covered in unit 4: Introduction to databases and SQL.)"
   ],
   [
    "Unit 1 (Python programming: control flow and strings): Count vowels with a loop. Show how you do it and say what the result is.",
