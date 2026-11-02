@@ -4,6 +4,7 @@ import sys, pathlib, html
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import build_full_courses as B
 from flagship_data_eu_ladder import LADDER
+from flagship_eu_b_topic import T
 LV = {1: 'L1 Basic', 2: 'L2 Awareness', 3: 'L3 Foundation', 4: 'L4 Practitioner', 5: 'L5 Specialist', 6: 'L6 Advanced', 7: 'L7 Super expert'}
 e = html.escape
 H = [6, 6, 35, 10, 35, 14, 28, 8]  # hours per module
@@ -78,6 +79,9 @@ C['EU-10'] = dict(title='Agriculture and Fisheries', jobs=['Farm or fishery assi
 
 def build(cid, c):
     mods = ''
+    mm = list(c['mods'])
+    mm[-1] = mm[-1][:3] + T[cid]['m8']
+    c['mods'] = mm
     for i, (t, intro, pts, ex, act, std) in enumerate(c['mods']):
         mods += (f'<details class="mod" {"open" if i==0 else ""}><summary><span class="mn">Module {i+1}</span> {e(t)} <span class="pill">{H[i]} h</span><span class="pill bz">{BL[i]}</span></summary><p>{e(intro)}</p><ul>' + ''.join(f'<li>{e(p)}</li>' for p in pts) + '</ul>'
                  f'<div class="evi"><strong>Worked example.</strong> {e(ex)}</div><p><strong>Activity.</strong> {e(act)}</p><p><strong>Standard to meet.</strong> {e(std)}</p></details>')
@@ -89,10 +93,10 @@ def build(cid, c):
     quiz = ''.join(f'<details class="mod"><summary>Q{i+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a)}</p></details>' for i, (q, a) in enumerate(quiz_t))
     rub = ('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>' + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(d)}</td><td>{e(f)}</td></tr>' for a, b, d, f in c['rubric']) + '</tbody></table></div>')
     total = sum(H)
-    outs = [('Understand', 'Explain the need and the process for this field.'), ('Analyse', 'Break the work into steps, risks and costs.'), ('Apply', 'Carry out the practice task with measured data.'), ('Evaluate', 'Judge results against the standard.'), ('Create', 'Produce a final pack and a 90-day plan.')]
+    outs = T[cid]['outs']
     about = B.sec('', 'ab', 'about this course', 'What you will be able to do',
         f'<div class="cb-facts"><span class="pill lv">L4 Practitioner</span><span class="pill">About {total} h</span><span class="pill">Learning Course, 3-6 months</span><span class="pill pr">USD 39 per learner per month, or USD 79 with mentor review</span></div><ul class="blm">' + ''.join(f'<li><span class="bz">{b}</span> {e(t)}</li>' for b, t in outs) + '</ul>'
-        f'<h3 class="ws-h3">Task, condition and standard</h3><div class="tcs"><div><h4>Task</h4><p>{e(c["task"])}</p></div><div><h4>Condition</h4><p>Real or model setting, partner or mentor, free tools, currency written on every number. This course teaches process and safety awareness only; local authorities set rules.</p></div><div><h4>Standard</h4><p>Evidence reviewed by a mentor; at least 70% on the check; rubric at Meets or better; two peer reviews given.</p></div></div>')
+        f'<h3 class="ws-h3">Task, condition and standard</h3><div class="tcs"><div><h4>Task</h4><p>{e(c["task"])}</p></div><div><h4>Condition</h4><p>{e(T[cid]["cond"])}</p></div><div><h4>Standard</h4><p>{e(T[cid]["std"])}</p></div></div>')
     body = (about + B.sec('alt', 'md', 'lesson by lesson', '8 modules with worked examples', mods)
             + B.sec('', 'as', 'assessment', 'How you are checked', f'<p>Evidence: your practice file, data and decision. A mentor and a peer mark it.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{quiz}')
             + B.sec('alt', 'ld', 'ladder L1 to L7', 'Slide by slide, with notes', '<p>Seven slides, one for each level. Step in at your level and move up; credits stack.</p>' + ''.join(f'<details class="mod"><summary>Slide {i}. {LV[i]}: {e(t)}</summary><p><strong>On the slide:</strong> {LV[i]} · {e(t)}</p><p><strong>Notes:</strong> {e(n)}</p></details>' for i, (t, n) in enumerate(LADDER[cid], 1)))
