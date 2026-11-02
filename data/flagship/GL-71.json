@@ -1,0 +1,283 @@
+{
+ "id": "GL-71",
+ "title": "Holographic and Immersive Theatre",
+ "level": 4,
+ "desc": "Plan an immersive or holographic show: concept, stage tech, safety, rights, budget and audience care.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain holographic effects and immersive formats."
+  ],
+  [
+   "Apply",
+   "Plan staging, lighting and projection."
+  ],
+  [
+   "Analyse",
+   "Compute budget and capacity."
+  ],
+  [
+   "Evaluate",
+   "Judge safety and access."
+  ],
+  [
+   "Create",
+   "Write a production plan."
+  ]
+ ],
+ "task": "Produce a production plan for a short immersive or hologram-style show, with concept, tech list, safety plan, access plan, budget and run sheet.",
+ "condition": "A computer, a spreadsheet, a venue plan, two peers and a mentor. No live public show is run by learners.",
+ "standard": "Effects are described accurately (illusion methods named); safety and fire plans approved; access plan included; budget totals correct; peers rate Meets or better.",
+ "who": "Stage managers, event planners, students, museum staff.",
+ "req": "none",
+ "evidence": "concept, tech list, safety plan, budget, run sheet",
+ "modules": [
+  [
+   "Formats",
+   "Understand",
+   3,
+   "Many ways to immerse.",
+   [
+    "Walk-through rooms, projection mapping, reflected-image effects, VR add-ons.",
+    "Most holograms on stage are illusions using angled screens.",
+    "Choose by story and budget."
+   ],
+   "A reflected image creates a floating figure.",
+   "Compare 3 formats.",
+   "Table complete."
+  ],
+  [
+   "Story and audience",
+   "Create",
+   4,
+   "Start with the story.",
+   [
+    "One idea, one audience, one feeling.",
+    "Map the journey in scenes.",
+    "Tech serves the story."
+   ],
+   "A six-scene museum walk.",
+   "Write a concept.",
+   "One page."
+  ],
+  [
+   "Stage tech",
+   "Apply",
+   5,
+   "Lighting, projection, sound.",
+   [
+    "Throw distance, brightness (lumens), screen size.",
+    "Dark rooms improve visibility.",
+    "Sound sync with cues."
+   ],
+   "A 5,000-lumen projector suits a small dark room.",
+   "List equipment.",
+   "Specs listed."
+  ],
+  [
+   "Safety",
+   "Evaluate",
+   5,
+   "People in the dark.",
+   [
+    "Fire exits lit, crowd limits, trip hazards.",
+    "Flashing lights warnings.",
+    "Trained staff."
+   ],
+   "Capacity set from exit width.",
+   "Write a safety plan.",
+   "Plan approved by venue."
+  ],
+  [
+   "Access and inclusion",
+   "Evaluate",
+   4,
+   "Everyone should enjoy it.",
+   [
+    "Step-free route, seats, captions, audio description.",
+    "Low-sensory sessions.",
+    "Clear signs."
+   ],
+   "Quiet hour with lower sound.",
+   "Write an access plan.",
+   "Measures listed."
+  ],
+  [
+   "Rights and content",
+   "Apply",
+   3,
+   "Clear everything.",
+   [
+    "Music, images, scripts, performers.",
+    "Written agreements.",
+    "Credit creators."
+   ],
+   "A performer consent form covers filming.",
+   "Complete a rights sheet.",
+   "Items sourced."
+  ],
+  [
+   "Budget",
+   "Analyse",
+   4,
+   "Money plan.",
+   [
+    "Equipment hire, crew, venue, marketing, contingency.",
+    "Ticket price x seats x shows.",
+    "Break-even audience."
+   ],
+   "Break-even 140 seats at 400 INR.",
+   "Build a budget.",
+   "Currency shown."
+  ],
+  [
+   "Run sheet and rehearsal",
+   "Create",
+   3,
+   "Run smoothly.",
+   [
+    "Cue sheet and roles.",
+    "Technical and dress rehearsals.",
+    "Debrief."
+   ],
+   "A rehearsal finds a cue 3 seconds late.",
+   "Write a run sheet.",
+   "Complete."
+  ]
+ ],
+ "quiz": [
+  [
+   "How are many stage holograms made?",
+   "Illusions using angled screens."
+  ],
+  [
+   "Why dark rooms?",
+   "Better visibility."
+  ],
+  [
+   "Capacity from?",
+   "Exit width."
+  ],
+  [
+   "Access measure?",
+   "Step-free route or captions."
+  ],
+  [
+   "Rights needed for?",
+   "Music, images, performers."
+  ],
+  [
+   "Budget contingency?",
+   "Spare funds."
+  ],
+  [
+   "Break-even?",
+   "Audience to cover cost."
+  ],
+  [
+   "Why rehearse?",
+   "Find faults."
+  ],
+  [
+   "Flash warning?",
+   "Protect photosensitive guests."
+  ],
+  [
+   "Tech serves?",
+   "The story."
+  ]
+ ],
+ "rubric": [
+  [
+   "Concept",
+   "Vague",
+   "Clear",
+   "Clear and tested"
+  ],
+  [
+   "Safety and access",
+   "Gaps",
+   "Plans",
+   "Plans approved"
+  ],
+  [
+   "Budget",
+   "No totals",
+   "Totals",
+   "Break-even"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Stage tech assistant",
+   "Sets equipment"
+  ],
+  [
+   "Stage manager trainee",
+   "Calls cues"
+  ],
+  [
+   "Event producer assistant",
+   "Manages budget"
+  ],
+  [
+   "Museum experience coordinator",
+   "Plans exhibits"
+  ],
+  [
+   "Access officer",
+   "Leads inclusion"
+  ]
+ ],
+ "next": "VR live events, podcasting, event management.",
+ "local": "Public safety and licensing rules differ by place.",
+ "ladder": [
+  [
+   "Know the basics",
+   "L1: learner can name formats.",
+   "Formats."
+  ],
+  [
+   "Know the rules and risks",
+   "L2: learner knows safety.",
+   "Safety."
+  ],
+  [
+   "Prepare and set up",
+   "L3: learner can list tech.",
+   "Tech."
+  ],
+  [
+   "Run it",
+   "L4: learner can run a rehearsal.",
+   "Rehearse."
+  ],
+  [
+   "Specialise and measure",
+   "L5: learner can budget.",
+   "Budget."
+  ],
+  [
+   "Lead a small team",
+   "L6: learner can lead.",
+   "Lead."
+  ],
+  [
+   "Advise and audit others",
+   "L7: learner can audit.",
+   "Peer audit."
+  ]
+ ]
+}

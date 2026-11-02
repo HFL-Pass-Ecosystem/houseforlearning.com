@@ -1,0 +1,283 @@
+{
+ "id": "GL-73",
+ "title": "3D Printing",
+ "level": 3,
+ "desc": "Learn to design, slice, print, finish and cost 3D-printed parts safely and sell them honestly.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain printer types and materials."
+  ],
+  [
+   "Apply",
+   "Prepare a model and slice it."
+  ],
+  [
+   "Analyse",
+   "Fix common failures."
+  ],
+  [
+   "Evaluate",
+   "Judge strength, safety and cost."
+  ],
+  [
+   "Create",
+   "Print and finish a useful part."
+  ]
+ ],
+ "task": "Design or select a part, print it, finish it, test it against a requirement and cost it for sale.",
+ "condition": "Access to a printer (own, makerspace or partner), a computer, free software, two peers and a mentor.",
+ "standard": "Part meets the dimensions within 0.3 mm; print log shows settings; failure analysis written; safety rules followed; cost per part shown; peers rate Meets or better.",
+ "who": "Makers, students, product designers, small manufacturers.",
+ "req": "none",
+ "evidence": "model, slicer settings, print log, test record, cost sheet",
+ "modules": [
+  [
+   "Printers and materials",
+   "Understand",
+   3,
+   "Know the options.",
+   [
+    "Filament (fused) and resin printers.",
+    "Plastics: PLA, PETG, ABS; resins need care.",
+    "Match material to use."
+   ],
+   "PLA is easy; PETG tougher.",
+   "Compare materials.",
+   "Table."
+  ],
+  [
+   "Design for printing",
+   "Apply",
+   4,
+   "Print-friendly shapes.",
+   [
+    "Wall thickness, overhangs, tolerances.",
+    "Orientation matters for strength.",
+    "Add chamfers."
+   ],
+   "A bracket printed on its side is stronger.",
+   "Design a part.",
+   "Dimensions listed."
+  ],
+  [
+   "Slicing",
+   "Apply",
+   4,
+   "Settings.",
+   [
+    "Layer height, infill, speed, supports.",
+    "Preview the path.",
+    "Save settings."
+   ],
+   "0.2 mm layers with 20% infill.",
+   "Slice your part.",
+   "Preview checked."
+  ],
+  [
+   "Printing and safety",
+   "Apply",
+   4,
+   "Hot, moving, fumes.",
+   [
+    "Ventilation; do not touch hot parts.",
+    "Never leave long prints unattended without safeguards.",
+    "Resin: gloves and eye protection."
+   ],
+   "A smoke alarm and a fire blanket nearby.",
+   "Print and log.",
+   "Log complete."
+  ],
+  [
+   "Troubleshooting",
+   "Analyse",
+   3,
+   "Fix failures.",
+   [
+    "Warping, stringing, poor adhesion, clogs.",
+    "Change one setting at a time.",
+    "Keep notes."
+   ],
+   "A heated bed fixes warping.",
+   "Fix two issues.",
+   "Notes recorded."
+  ],
+  [
+   "Finishing",
+   "Apply",
+   3,
+   "Look professional.",
+   [
+    "Remove supports, sand, prime, paint.",
+    "Resin: wash and cure.",
+    "Check fit."
+   ],
+   "Sanding to 400 grit.",
+   "Finish the part.",
+   "Smooth."
+  ],
+  [
+   "Testing",
+   "Evaluate",
+   3,
+   "Does it work?",
+   [
+    "Dimension check with calipers.",
+    "Load test within safe limits.",
+    "Document."
+   ],
+   "The bracket holds 5 kg.",
+   "Test.",
+   "Record."
+  ],
+  [
+   "Cost and sale",
+   "Create",
+   3,
+   "Price honestly.",
+   [
+    "Material, power, machine time, labour, failures.",
+    "Quote per part.",
+    "Disclose limits."
+   ],
+   "Cost 62 INR; price 150 INR.",
+   "Cost it.",
+   "Currency shown."
+  ]
+ ],
+ "quiz": [
+  [
+   "Easy filament?",
+   "PLA."
+  ],
+  [
+   "Overhang fix?",
+   "Supports."
+  ],
+  [
+   "Resin safety?",
+   "Gloves and eye protection."
+  ],
+  [
+   "Why ventilate?",
+   "Fumes."
+  ],
+  [
+   "Warping fix?",
+   "Heated bed."
+  ],
+  [
+   "Measuring tool?",
+   "Calipers."
+  ],
+  [
+   "Costs?",
+   "Material, power, time, labour, failures."
+  ],
+  [
+   "Orientation effect?",
+   "Strength."
+  ],
+  [
+   "Why log?",
+   "Repeat results."
+  ],
+  [
+   "Disclose?",
+   "Limits."
+  ]
+ ],
+ "rubric": [
+  [
+   "Print quality",
+   "Poor",
+   "Good",
+   "Excellent and repeatable"
+  ],
+  [
+   "Safety",
+   "Gaps",
+   "Followed",
+   "Followed and logged"
+  ],
+  [
+   "Cost",
+   "No costs",
+   "Costs",
+   "Costs with failure margin"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "3D print technician",
+   "Runs printers"
+  ],
+  [
+   "Product prototyper",
+   "Builds models"
+  ],
+  [
+   "Makerspace assistant",
+   "Supports users"
+  ],
+  [
+   "Small-batch manufacturer",
+   "Sells parts"
+  ],
+  [
+   "Design assistant",
+   "Prepares models"
+  ]
+ ],
+ "next": "3D home building, smart apparel, product design.",
+ "local": "Product-safety and IP rules differ by place; do not copy protected designs.",
+ "ladder": [
+  [
+   "Know the basics",
+   "L1: learner can name printer types.",
+   "Types."
+  ],
+  [
+   "Know the rules and risks",
+   "L2: learner knows safety.",
+   "Safety."
+  ],
+  [
+   "Prepare and set up",
+   "L3: learner can slice.",
+   "Slice."
+  ],
+  [
+   "Run it",
+   "L4: learner can print.",
+   "Print."
+  ],
+  [
+   "Specialise and measure",
+   "L5: learner can fix and cost.",
+   "Fix."
+  ],
+  [
+   "Lead a small team",
+   "L6: learner can lead a lab.",
+   "Lead."
+  ],
+  [
+   "Advise and audit others",
+   "L7: learner can audit.",
+   "Peer audit."
+  ]
+ ]
+}

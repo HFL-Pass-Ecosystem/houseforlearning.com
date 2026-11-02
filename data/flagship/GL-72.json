@@ -1,0 +1,283 @@
+{
+ "id": "GL-72",
+ "title": "VR Live Events",
+ "level": 4,
+ "desc": "Plan and run a live virtual-reality or virtual event: platforms, access, moderation, safety and measures of success.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain event formats and platforms."
+  ],
+  [
+   "Apply",
+   "Prepare tech checks and run sheets."
+  ],
+  [
+   "Analyse",
+   "Read attendance data."
+  ],
+  [
+   "Evaluate",
+   "Judge safety, privacy and access."
+  ],
+  [
+   "Create",
+   "Run a small pilot event."
+  ]
+ ],
+ "task": "Plan and run a 30-minute virtual event for 10 to 20 people, with rehearsal, moderation, accessibility, feedback and report.",
+ "condition": "Computers or VR headsets as available, a free event platform, two peers and a mentor.",
+ "standard": "Rehearsal passes; moderation rules enforced; accessibility options present; feedback from 80% of attendees; report with data; peers rate Meets or better.",
+ "who": "Event planners, teachers, community groups, trainers.",
+ "req": "none",
+ "evidence": "plan, run sheet, tech checklist, feedback report",
+ "modules": [
+  [
+   "Formats",
+   "Understand",
+   3,
+   "Choose the right space.",
+   [
+    "Desktop 3D, headset VR, hybrid streams.",
+    "Social, training, concert, expo.",
+    "Capacity and comfort."
+   ],
+   "A training uses desktop for easy access.",
+   "Compare formats.",
+   "Table."
+  ],
+  [
+   "Goals and audience",
+   "Create",
+   3,
+   "Set outcomes.",
+   [
+    "One goal with a number.",
+    "Know devices people have.",
+    "Plan for low bandwidth."
+   ],
+   "80 attendees, 70% stay to the end.",
+   "Write goals.",
+   "Measurable."
+  ],
+  [
+   "Tech check",
+   "Apply",
+   4,
+   "Avoid surprises.",
+   [
+    "Accounts, links, audio, avatars, backups.",
+    "Test on each device.",
+    "Helper desk."
+   ],
+   "A fallback video link saves a failed session.",
+   "Make a checklist.",
+   "Ten items."
+  ],
+  [
+   "Moderation and safety",
+   "Evaluate",
+   4,
+   "Safe space.",
+   [
+    "Code of conduct; block, mute, report.",
+    "Age rules; no personal data sharing.",
+    "Moderators trained."
+   ],
+   "A harasser is muted and removed.",
+   "Write rules.",
+   "Clear."
+  ],
+  [
+   "Access",
+   "Evaluate",
+   4,
+   "Everyone in.",
+   [
+    "Captions, transcripts, keyboard options.",
+    "Motion-sickness settings.",
+    "Time zones and breaks."
+   ],
+   "Teleport movement reduces sickness.",
+   "Write an access plan.",
+   "Measures listed."
+  ],
+  [
+   "Run sheet and rehearsal",
+   "Apply",
+   4,
+   "Smooth delivery.",
+   [
+    "Minute-by-minute plan.",
+    "Roles: host, tech, moderator.",
+    "Rehearse twice."
+   ],
+   "A rehearsal finds audio echo.",
+   "Run rehearsal.",
+   "Fixes logged."
+  ],
+  [
+   "Live run",
+   "Create",
+   4,
+   "Run it.",
+   [
+    "Welcome, rules, content, Q&A, close.",
+    "Handle problems calmly.",
+    "Collect feedback."
+   ],
+   "Pilot finishes on time.",
+   "Run the pilot.",
+   "Mentor observes."
+  ],
+  [
+   "Measure and report",
+   "Analyse",
+   3,
+   "Learn.",
+   [
+    "Attendance, time in event, feedback scores.",
+    "Fix top issues.",
+    "Share results."
+   ],
+   "Average rating 4.3.",
+   "Write a report.",
+   "Numbers real."
+  ]
+ ],
+ "quiz": [
+  [
+   "Name a format.",
+   "Desktop 3D, headset VR or hybrid."
+  ],
+  [
+   "Why a fallback?",
+   "Protect the session."
+  ],
+  [
+   "Code of conduct use?",
+   "Set behaviour rules."
+  ],
+  [
+   "Motion sickness fix?",
+   "Teleport movement or breaks."
+  ],
+  [
+   "Time zone issue?",
+   "Choose fair times."
+  ],
+  [
+   "Metric?",
+   "Attendance or rating."
+  ],
+  [
+   "Roles?",
+   "Host, tech, moderator."
+  ],
+  [
+   "Rehearsals?",
+   "At least two."
+  ],
+  [
+   "Privacy?",
+   "No personal data sharing."
+  ],
+  [
+   "Access feature?",
+   "Captions."
+  ]
+ ],
+ "rubric": [
+  [
+   "Tech readiness",
+   "Gaps",
+   "Checked",
+   "Tested twice"
+  ],
+  [
+   "Safety and access",
+   "Gaps",
+   "Plans",
+   "Plans applied"
+  ],
+  [
+   "Reporting",
+   "No data",
+   "Data",
+   "Data and actions"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Virtual event coordinator",
+   "Plans sessions"
+  ],
+  [
+   "Event moderator",
+   "Keeps safe space"
+  ],
+  [
+   "Tech support host",
+   "Helps attendees"
+  ],
+  [
+   "Learning facilitator",
+   "Runs training"
+  ],
+  [
+   "Community manager",
+   "Builds groups"
+  ]
+ ],
+ "next": "holographic theatre, podcasting, social network building.",
+ "local": "Privacy and child-protection rules differ by place.",
+ "ladder": [
+  [
+   "Know the basics",
+   "L1: learner can name formats.",
+   "Formats."
+  ],
+  [
+   "Know the rules and risks",
+   "L2: learner knows safety.",
+   "Safety."
+  ],
+  [
+   "Prepare and set up",
+   "L3: learner can check tech.",
+   "Check."
+  ],
+  [
+   "Run it",
+   "L4: learner can run a session.",
+   "Run."
+  ],
+  [
+   "Specialise and measure",
+   "L5: learner can analyse.",
+   "Data."
+  ],
+  [
+   "Lead a small team",
+   "L6: learner can lead.",
+   "Lead."
+  ],
+  [
+   "Advise and audit others",
+   "L7: learner can audit.",
+   "Peer audit."
+  ]
+ ]
+}

@@ -1,0 +1,283 @@
+{
+ "id": "GL-70",
+ "title": "Podcasting",
+ "level": 3,
+ "desc": "Plan, record, edit, publish and grow a podcast with good audio, honest rights, and a simple way to earn.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain formats, audiences and the production chain."
+  ],
+  [
+   "Apply",
+   "Record clean audio and edit with free tools."
+  ],
+  [
+   "Analyse",
+   "Read listener data."
+  ],
+  [
+   "Evaluate",
+   "Judge rights, ethics and sponsors."
+  ],
+  [
+   "Create",
+   "Publish a three-episode season."
+  ]
+ ],
+ "task": "Plan and publish a three-episode podcast season with show plan, scripts, clean audio, show notes, rights check and listener review.",
+ "condition": "A phone or mic, free editing software, a quiet room, two peers and a mentor.",
+ "standard": "Audio is clear with steady levels; every episode has notes and a rights check; episodes publish on a free host; listener data reviewed; peers rate Meets or better.",
+ "who": "Creators, teachers, small businesses, community groups.",
+ "req": "none",
+ "evidence": "show plan, 3 episodes, show notes, rights sheet, review",
+ "modules": [
+  [
+   "Concept and audience",
+   "Understand",
+   3,
+   "Know who and why.",
+   [
+    "One listener, one promise, one format.",
+    "Interview, solo, story or panel.",
+    "Episode length and schedule."
+   ],
+   "A 15-minute weekly farm tips show.",
+   "Write a show plan.",
+   "One page."
+  ],
+  [
+   "Script and structure",
+   "Create",
+   4,
+   "Plan before you press record.",
+   [
+    "Hook, body, close.",
+    "Write the first 30 seconds fully.",
+    "Time every part."
+   ],
+   "Cold open with one surprising fact.",
+   "Script episode one.",
+   "Timed."
+  ],
+  [
+   "Recording",
+   "Apply",
+   5,
+   "Clean sound.",
+   [
+    "Quiet room, soft surfaces, mic distance of a hand width.",
+    "Test levels; avoid clipping.",
+    "Record a room tone."
+   ],
+   "Recording inside a wardrobe of clothes reduces echo.",
+   "Record a test.",
+   "No clipping."
+  ],
+  [
+   "Editing",
+   "Apply",
+   5,
+   "Free tools suffice.",
+   [
+    "Cut mistakes, balance levels, remove noise.",
+    "Add intro and outro; export in standard format.",
+    "Keep a backup."
+   ],
+   "Loudness is set so episodes sound equal.",
+   "Edit episode one.",
+   "Levels steady."
+  ],
+  [
+   "Rights and ethics",
+   "Evaluate",
+   3,
+   "Respect others.",
+   [
+    "Use only music and clips you have the right to use.",
+    "Get consent from guests.",
+    "No harm or false claims."
+   ],
+   "Royalty-free music is credited as required.",
+   "Complete a rights sheet.",
+   "Every item sourced."
+  ],
+  [
+   "Publish and promote",
+   "Apply",
+   3,
+   "Be found.",
+   [
+    "Title, description, cover, categories.",
+    "Free host and feed to apps.",
+    "Share clips."
+   ],
+   "A cover image is square and clear.",
+   "Publish.",
+   "Live in at least one app."
+  ],
+  [
+   "Listener data",
+   "Analyse",
+   3,
+   "Learn from numbers.",
+   [
+    "Downloads, drop-off points, replies.",
+    "Ask for feedback.",
+    "Change one thing at a time."
+   ],
+   "Drop-off at minute 8 leads to shorter segments.",
+   "Review data.",
+   "Three findings."
+  ],
+  [
+   "Earn and sustain",
+   "Evaluate",
+   3,
+   "Honest money.",
+   [
+    "Sponsors, donations, courses, services.",
+    "Disclose sponsors clearly.",
+    "Keep a calendar."
+   ],
+   "Sponsor tag is read at start.",
+   "Plan income.",
+   "Disclosure included."
+  ]
+ ],
+ "quiz": [
+  [
+   "Hook purpose?",
+   "Capture attention."
+  ],
+  [
+   "Clipping?",
+   "Distorted loud peaks."
+  ],
+  [
+   "Mic distance?",
+   "About a hand width."
+  ],
+  [
+   "Rights rule?",
+   "Use only what you may."
+  ],
+  [
+   "Guest consent?",
+   "Required."
+  ],
+  [
+   "Drop-off?",
+   "Where listeners leave."
+  ],
+  [
+   "Sponsor rule?",
+   "Disclose."
+  ],
+  [
+   "Why room tone?",
+   "Fix gaps."
+  ],
+  [
+   "Show notes use?",
+   "Search and clarity."
+  ],
+  [
+   "Free host?",
+   "Distributes feed."
+  ]
+ ],
+ "rubric": [
+  [
+   "Audio",
+   "Noisy",
+   "Clear",
+   "Clear and balanced"
+  ],
+  [
+   "Rights",
+   "Missing",
+   "Checked",
+   "Checked and credited"
+  ],
+  [
+   "Growth",
+   "No review",
+   "Review",
+   "Review with changes"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Podcast producer",
+   "Plans and edits"
+  ],
+  [
+   "Audio editor",
+   "Cleans sound"
+  ],
+  [
+   "Host",
+   "Presents shows"
+  ],
+  [
+   "Community media coordinator",
+   "Supports creators"
+  ],
+  [
+   "Content marketer",
+   "Promotes shows"
+  ]
+ ],
+ "next": "social media network building, VR live events, holographic theatre.",
+ "local": "Music and privacy laws differ by place.",
+ "ladder": [
+  [
+   "Know the basics",
+   "L1: learner can name formats.",
+   "Formats."
+  ],
+  [
+   "Know the rules and risks",
+   "L2: learner knows audio basics.",
+   "Audio."
+  ],
+  [
+   "Prepare and set up",
+   "L3: learner can record.",
+   "Record."
+  ],
+  [
+   "Run it",
+   "L4: learner can edit.",
+   "Edit."
+  ],
+  [
+   "Specialise and measure",
+   "L5: learner can analyse data.",
+   "Data."
+  ],
+  [
+   "Lead a small team",
+   "L6: learner can lead a team.",
+   "Team."
+  ],
+  [
+   "Advise and audit others",
+   "L7: learner can audit.",
+   "Peer audit."
+  ]
+ ]
+}

@@ -1,0 +1,283 @@
+{
+ "id": "GL-75",
+ "title": "Smart Apparel",
+ "level": 4,
+ "desc": "Understand and plan wearable-sensor clothing: materials, sensors, washing, data privacy and a small product pilot.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain how sensors are built into fabric."
+  ],
+  [
+   "Apply",
+   "Plan a prototype for one use."
+  ],
+  [
+   "Analyse",
+   "Test comfort, washing and accuracy."
+  ],
+  [
+   "Evaluate",
+   "Judge privacy, safety and cost."
+  ],
+  [
+   "Create",
+   "Write a pilot plan."
+  ]
+ ],
+ "task": "Plan and test a small smart-garment prototype (or a bought kit), with use case, materials list, washing test, data privacy plan and cost.",
+ "condition": "Basic electronics kit or a purchased kit, fabric, a computer, two peers and a mentor. Safe low voltage only.",
+ "standard": "Use case defined; washing test repeated and logged; accuracy compared to a reference; privacy plan written; low-voltage safety rules followed; peers rate Meets or better.",
+ "who": "Fashion students, makers, sports teams, textile staff.",
+ "req": "none",
+ "evidence": "plan, test log, privacy plan, cost sheet",
+ "modules": [
+  [
+   "What smart apparel is",
+   "Understand",
+   3,
+   "Clothing that senses.",
+   [
+    "Heart rate, motion, temperature, posture.",
+    "Conductive threads, printed ink, small modules.",
+    "Use cases: sport, care, safety."
+   ],
+   "A shirt tracks breathing for athletes.",
+   "List five use cases.",
+   "Table."
+  ],
+  [
+   "Materials",
+   "Understand",
+   3,
+   "Comfort first.",
+   [
+    "Stretch, breathable fabrics; skin-safe materials.",
+    "Conductive yarn and flexible circuits.",
+    "Allergy awareness."
+   ],
+   "Silver yarn stays conductive after washing better than plain thread.",
+   "Compare materials.",
+   "Table."
+  ],
+  [
+   "Sensors and power",
+   "Apply",
+   4,
+   "Make it work.",
+   [
+    "Choose sensor for the need; keep wires short.",
+    "Small battery with protection; low voltage.",
+    "Waterproof modules."
+   ],
+   "A 3.7 V cell with a protection board.",
+   "Design a block diagram.",
+   "Parts labelled."
+  ],
+  [
+   "Prototype",
+   "Apply",
+   4,
+   "Build small.",
+   [
+    "Sew or attach; strain relief.",
+    "Test continuity and signal.",
+    "Keep modules removable for washing."
+   ],
+   "A removable module cuts failures.",
+   "Build or plan a prototype.",
+   "Test passes."
+  ],
+  [
+   "Wash and wear tests",
+   "Analyse",
+   4,
+   "Real use.",
+   [
+    "Wash cycles; sweat; stretch.",
+    "Count cycles until failure.",
+    "Comfort rating by users."
+   ],
+   "Signals fail after 8 washes; sealing improves it.",
+   "Run tests.",
+   "Log complete."
+  ],
+  [
+   "Accuracy",
+   "Analyse",
+   3,
+   "Compare with a reference.",
+   [
+    "Reference device or manual count.",
+    "Percent error.",
+    "Report limits."
+   ],
+   "Error 6% in rest, 12% in motion.",
+   "Compare.",
+   "Percent error shown."
+  ],
+  [
+   "Privacy, safety and rules",
+   "Evaluate",
+   4,
+   "Health data matters.",
+   [
+    "Consent; secure storage; clear purpose.",
+    "Battery and skin safety.",
+    "Claims must be modest."
+   ],
+   "The app stores data only on the phone.",
+   "Write a plan.",
+   "Items listed."
+  ],
+  [
+   "Cost and pilot",
+   "Create",
+   3,
+   "Small first run.",
+   [
+    "Cost per garment; price.",
+    "Pilot with 10 users.",
+    "Feedback and repair plan."
+   ],
+   "Cost 780 INR; price 1,600 INR.",
+   "Cost and plan.",
+   "Currency shown."
+  ]
+ ],
+ "quiz": [
+  [
+   "Name a use.",
+   "Sport, care or safety."
+  ],
+  [
+   "Why removable module?",
+   "For washing."
+  ],
+  [
+   "Safe voltage?",
+   "Low voltage."
+  ],
+  [
+   "Accuracy measure?",
+   "Percent error."
+  ],
+  [
+   "Material concern?",
+   "Skin allergy."
+  ],
+  [
+   "Privacy rule?",
+   "Consent and secure storage."
+  ],
+  [
+   "Wash test?",
+   "Count cycles to failure."
+  ],
+  [
+   "Strain relief?",
+   "Prevents wire breaks."
+  ],
+  [
+   "Pilot size?",
+   "About 10 users."
+  ],
+  [
+   "Claim style?",
+   "Modest."
+  ]
+ ],
+ "rubric": [
+  [
+   "Prototype",
+   "Does not work",
+   "Works",
+   "Works after washing"
+  ],
+  [
+   "Testing",
+   "None",
+   "Done",
+   "Done with percent error"
+  ],
+  [
+   "Privacy and safety",
+   "Missing",
+   "Plan",
+   "Plan applied"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Wearables prototyper",
+   "Builds samples"
+  ],
+  [
+   "Textile technologist trainee",
+   "Tests fabrics"
+  ],
+  [
+   "Sports tech assistant",
+   "Supports teams"
+  ],
+  [
+   "Product tester",
+   "Runs wear trials"
+  ],
+  [
+   "Data privacy assistant",
+   "Checks consent"
+  ]
+ ],
+ "next": "3D printing, fitness technology, IoT.",
+ "local": "Product-safety, textile labelling and health-data rules differ by place.",
+ "ladder": [
+  [
+   "Know the basics",
+   "L1: learner can name uses.",
+   "Uses."
+  ],
+  [
+   "Know the rules and risks",
+   "L2: learner knows materials.",
+   "Materials."
+  ],
+  [
+   "Prepare and set up",
+   "L3: learner can design a block.",
+   "Design."
+  ],
+  [
+   "Run it",
+   "L4: learner can build.",
+   "Build."
+  ],
+  [
+   "Specialise and measure",
+   "L5: learner can test.",
+   "Test."
+  ],
+  [
+   "Lead a small team",
+   "L6: learner can lead a pilot.",
+   "Lead."
+  ],
+  [
+   "Advise and audit others",
+   "L7: learner can audit.",
+   "Peer audit."
+  ]
+ ]
+}
