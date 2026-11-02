@@ -33,116 +33,124 @@
  "evidence": "explainer, risk list, consent checklist",
  "modules": [
   [
-   "DNA in simple words",
+   "DNA in plain words",
    "Understand",
    2,
-   "DNA is the instruction code in cells.",
+   "DNA is the code inside almost every cell that carries instructions for how a body is built and runs. You do not need chemistry to understand the main idea.",
    [
-    "Genes are sections of DNA; we inherit them from parents.",
-    "Most traits come from many genes and the environment.",
-    "A test reads some parts, not everything."
+    "DNA is made of four letters arranged in a very long order. Genes are sections that carry instructions.",
+    "You inherit about half your DNA from each parent, with small changes.",
+    "Most traits depend on many genes and on life, such as food, health and environment.",
+    "A test reads some parts of DNA, never the whole story of a person."
    ],
-   "Height depends on many genes and on food and health in childhood.",
-   "Draw a simple DNA to trait picture.",
-   "Picture has no false claims."
+   "Height is influenced by hundreds of genes and also by food and health in childhood. Two brothers with the same parents can differ by several centimetres.",
+   "Draw a one-page picture: DNA to genes to traits to environment, with plain labels.",
+   "Picture is accurate and a non-expert can explain it back."
   ],
   [
-   "Kinds of tests",
+   "Kinds of DNA tests",
    "Understand",
    2,
-   "Tests differ in purpose.",
+   "\"A DNA test\" can mean very different things, with different uses and limits.",
    [
-    "Ancestry, health risk, carrier, paternity, forensic.",
-    "A test result is a probability, not destiny.",
-    "Medical tests belong with a clinician."
+    "Ancestry tests estimate where your ancestors may have lived, using comparison groups.",
+    "Health-risk tests report chances of some conditions; carrier tests show if you could pass a condition on.",
+    "Paternity and relationship tests compare DNA between people; forensic tests compare crime-scene samples.",
+    "Medical diagnosis belongs with a clinician and an accredited lab."
    ],
-   "A carrier test shows chance of passing on a condition, not that a child will have it.",
-   "Compare three test types in a table.",
-   "Table states purpose and limit."
+   "A carrier test reports that a couple each carry a change linked to a blood condition. This does not mean any child will be affected; it means the chance is one in four per pregnancy, and a genetic counsellor explains the options.",
+   "Make a table of five test kinds with purpose, what it cannot tell you, and who should explain results.",
+   "Each row states a limit and a right person to explain."
   ],
   [
    "From sample to result",
    "Analyse",
    2,
-   "Many steps can go wrong.",
+   "Mistakes can enter at every step. Quality systems exist to catch them.",
    [
-    "Collect, label, store, extract, read, report.",
-    "Chain of custody records who held the sample.",
-    "Contamination and labelling errors cause false results."
+    "Steps: consent, collect, label, store, extract, read, check, report.",
+    "Chain of custody records who held the sample and when.",
+    "Errors: mislabelling, contamination, poor storage, misreading.",
+    "Good labs use barcodes, two-person checks and repeat tests."
    ],
-   "A mislabelled tube swaps two results; a barcode check prevents it.",
-   "Map the steps and risks.",
-   "Every step has a quality check."
+   "Two tubes are swapped at the front desk. A barcode scan at the lab finds a mismatch with the form and stops the run, avoiding a wrong report.",
+   "Map the sample steps and write one quality check for each step.",
+   "Every step has a check and an owner."
   ],
   [
-   "Reading a result",
+   "Reading a result safely",
    "Analyse",
    2,
-   "Results need context.",
+   "Numbers like \"twice the risk\" sound alarming but need context.",
    [
-    "Percent and risk numbers explain chance, not certainty.",
-    "Variants of uncertain meaning are common.",
+    "Relative risk compares groups; absolute risk is the real chance for a person.",
+    "Variants of uncertain meaning are common and are not proof of disease.",
+    "Results can be wrong or incomplete; confirm important findings in an accredited lab.",
     "Only a genetic counsellor or clinician explains health results."
    ],
-   "A report says a 1.5 times higher chance; absolute risk goes from 2 to 3 in 100.",
-   "Explain a sample number to a peer.",
-   "Peer repeats it correctly."
+   "A report says a 50% higher chance of a condition. The absolute chance changes from 2 in 100 to 3 in 100. A counsellor explains that lifestyle and screening matter more than fear.",
+   "Explain a sample result (given by your mentor) to a peer in under two minutes using absolute numbers.",
+   "Peer repeats the meaning correctly and does not panic."
   ],
   [
    "Marketing and overclaims",
    "Evaluate",
    2,
-   "Be careful with big promises.",
+   "Some adverts promise a perfect diet, talent or career from your DNA. Most go beyond evidence.",
    [
-    "Beware \"find your perfect diet by DNA\" or \"know your talent\".",
-    "Look for evidence, regulation and independent reviews.",
-    "Price does not prove quality."
+    "Look for independent studies, regulator approval and clear limits.",
+    "Be wary of \"personalised diet\" or \"talent\" claims and of high prices.",
+    "Check whether samples are analysed in an accredited lab.",
+    "Read the privacy terms before sending a sample."
    ],
-   "An ad claims a diet plan from DNA; no study is shown. The learner marks it as unproven.",
-   "Review two adverts.",
-   "Overclaims named with reasons."
+   "An advert promises a diet plan from a saliva test with no study cited. The learner marks it \"unproven\" and notes the missing evidence.",
+   "Review two real adverts with a five-point checklist.",
+   "Each advert has a scored list with reasons."
   ],
   [
    "Privacy and family impact",
    "Evaluate",
    2,
-   "Your DNA reveals things about relatives.",
+   "Your DNA also describes your relatives. Sharing it can affect them.",
    [
-    "Data may be sold, hacked or used by insurers in some places.",
-    "Findings can surprise families, such as unknown relatives.",
-    "Consent must be informed and free."
+    "Data may be sold, hacked, or requested by authorities or insurers in some places.",
+    "Findings can reveal unexpected relatives or risks for the family.",
+    "Consent must be informed and free, with the right to withdraw.",
+    "Never test a child or another adult without proper consent and guidance."
    ],
-   "A family agrees before testing that no one will be told surprises without a counsellor.",
-   "Write a consent checklist.",
-   "Eight clear questions."
+   "A family agrees before testing that surprises will be shared only with a counsellor present. Two siblings opt out of learning some results.",
+   "Write a consent checklist with at least eight questions.",
+   "Each question is clear and answerable yes or no."
   ],
   [
-   "Ethics and fairness",
+   "Ethics, fairness and access",
    "Evaluate",
    2,
-   "Genetic data must not be used to discriminate.",
+   "Genetic science can help or harm depending on how it is used.",
    [
-    "No test should be forced by employers or schools.",
-    "Respect culture and faith views.",
-    "Data from some groups is underrepresented, so results can be less accurate."
+    "No test should be forced on employees, students or insurance applicants.",
+    "Some groups have less data in reference sets, so results can be less accurate for them.",
+    "Respect cultural and faith views.",
+    "Ask who benefits, who pays and who is left out."
    ],
-   "A study notes fewer data from certain populations and urges wider sampling.",
-   "Discuss two cases with peers.",
-   "Peers reach a reasoned view."
+   "A research project adds samples from under-represented communities with community agreement, improving accuracy for them.",
+   "Discuss two cases with peers and write a reasoned view on each.",
+   "Peers reach a view with at least two reasons and one risk."
   ],
   [
-   "Write the explainer",
+   "Write a plain-language explainer",
    "Create",
    2,
-   "Combine all parts.",
+   "Bring everything into a two-page guide that a curious non-expert can use.",
    [
-    "Use short sentences.",
-    "Add a glossary and a where-to-get-help box.",
-    "Test with a non-expert."
+    "Use short sentences and a glossary.",
+    "Include the limits, privacy risks and who to ask for help.",
+    "Test with one person aged under 25 and one over 55.",
+    "Date the guide and plan a yearly review."
    ],
-   "A reader says, \"Now I know to ask a counsellor, not a website.\"",
-   "Finish and test.",
-   "Reader can state three limits of DNA tests."
+   "A reader says, \"Now I know to ask a counsellor, not a website, about my result.\"",
+   "Finish and test the explainer.",
+   "Both readers can list three limits of DNA tests."
   ]
  ],
  "quiz": [
