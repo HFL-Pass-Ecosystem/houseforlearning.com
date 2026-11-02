@@ -15,6 +15,12 @@ for idx, (sec_, title, lv, hrs, desc, rest) in enumerate(rows):
     outs, agenda = rest.rsplit('|', 1)
     outcomes = [o.split('|') for o in outs.split('##')]
     CS.append(dict(code=CD.CODES[idx], sector=sec_, title=title, lv=int(lv), hrs=hrs, desc=desc, outs=outcomes, agenda=agenda.split(';')))
+def fmt_time(mins):
+    h, m = divmod(int(mins), 60)
+    return f'{h} h {m} min' if h and m else (f'{h} h' if h else f'{m} min')
+for _c in CS:
+    _f = FULL.get(_c['code'])
+    if _f: _c['hrs'] = fmt_time(sum(int(m['min']) for m in _f['modules']))
 LV = {3: 'L3 Foundation', 4: 'L4 Practitioner', 5: 'L5 Specialist'}
 SAFE = 'These courses teach process, communication and recording. They give no clinical, legal, tax, financial or engineering sign-off. A named subject expert must review every line, and you must check your own professional body\'s current CPD rules, before you rely on a certificate.'
 
@@ -87,7 +93,7 @@ def build(c):
     gloss = B.sec('', 'gl', 'glossary', 'Words used in this course', CD.render_lines(gl)) if gl else ''
     rub = B.sec('alt', 'rb', 'marking', 'How the practice and assessment are marked', '<table class="rubric"><tr><th>Level</th><th>Meaning</th><th>Marks of 4</th></tr><tr><td>Secure</td><td>Meets the standard in the outcome every time, no prompts</td><td>4</td></tr><tr><td>Meeting</td><td>Meets the standard with one small slip, corrected when prompted</td><td>3</td></tr><tr><td>Developing</td><td>Meets part of the standard; needs a re-attempt</td><td>2</td></tr><tr><td>Not yet</td><td>Standard not met</td><td>1</td></tr></table><p>Pass = average 3 or more, and no outcome at 1. You may re-attempt after feedback. The subject expert sets any stricter pass mark.</p>')
     body = (B.sec('', 'ab', 'about this course', 'What you will be able to do',
-                  f'<div class="cb-facts"><span class="pill lv">{LV[c["lv"]]}</span><span class="pill">About {e(c["hrs"])} hours of CPD</span><span class="pill">Self-study plus role-play</span><span class="pill">{e(c["sector"])}</span></div>'
+                  f'<div class="cb-facts"><span class="pill lv">{LV[c["lv"]]}</span><span class="pill">About {e(c["hrs"] if "h" in c["hrs"] or "min" in c["hrs"] else c["hrs"] + " hours")} of CPD</span><span class="pill">Self-study plus role-play</span><span class="pill">{e(c["sector"])}</span></div>'
                   f'<p class="kit-intro">{e(c["desc"])}</p><ul class="blm">{outs}</ul>'
                   + (f'<h3 class="ws-h3">Task, condition and standard</h3><div class="tcs"><div><h4>Task</h4><p>{e(F["task"])}</p></div><div><h4>Condition</h4><p>{e(F["cond"])}</p></div><div><h4>Standard</h4><p>{e(F["std"])}</p></div></div>' if F else '')
                   + f'<p class="ws-note">{e(SAFE)}</p>')
@@ -105,7 +111,7 @@ def build(c):
 for c in CS: build(c)
 by = collections.OrderedDict()
 for c in CS: by.setdefault(c['sector'], []).append(c)
-hub = ''.join(B.sec('alt' if i % 2 else '', f'x{i}', 'sector', s, '<ul class="cgrid">' + ''.join(f'<li class="cc"><a href="{slug(c["title"])}"><span class="pill lv">{LV[c["lv"]]}</span><h3>{e(c["title"])}</h3><p>{e(c["desc"])}</p><p class="cm">About {e(c["hrs"])} h</p></a></li>' for c in l) + '</ul>') for i, (s, l) in enumerate(by.items()))
+hub = ''.join(B.sec('alt' if i % 2 else '', f'x{i}', 'sector', s, '<ul class="cgrid">' + ''.join(f'<li class="cc"><a href="{slug(c["title"])}"><span class="pill lv">{LV[c["lv"]]}</span><h3>{e(c["title"])}</h3><p>{e(c["desc"])}</p><p class="cm">About {e(c["hrs"] if "min" in c["hrs"] or " h" in c["hrs"] else c["hrs"] + " h")}</p></a></li>' for c in l) + '</ul>') for i, (s, l) in enumerate(by.items()))
 B.page('cpd.html', 'CPD courses by profession', '36 CPD courses across 12 professions', 'CPD: courses for 12 professions', e('Continuing professional development, built to task, condition and standard. 36 courses.'),
        hub + B.sec('', 'sf', 'safety', 'Read this first', f'<p>{e(SAFE)}</p>'), B.crumb(('Courses', 'courses-hub.html'), ('CPD', None)), kicker='CPD')
 print('cpd courses', len(CS))
