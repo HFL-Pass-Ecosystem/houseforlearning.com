@@ -45,7 +45,7 @@
     "Keep records of sales, tax collected and costs for as long as the tax agency requires."
    ],
    "ex": "A rules table row: Sales tax | federal tax agency | register when sales pass the limit | check each quarter | registration number saved. If registration takes 2 weeks and the label check takes 1 week, run both together and both are done in week 2.",
-   "act": "Make a rules table for your product and province. Add the official page and the date you checked.",
+   "act": "Build a rules table for your product and province. Add the official page and the date you checked.",
    "std": "Task: list the rules for an online shop. Condition: using official pages only. Standard: every row has who enforces it, what to do, and a date."
   },
   "4": {

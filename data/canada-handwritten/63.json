@@ -29,7 +29,7 @@
     "Write the phone number of the provincial child care authority in your file."
    ],
    "ex": "A person wants to care for six children at home. Before starting she asks the provincial authority whether that needs a licence, and waits for the answer in writing. She does not start until she has it.",
-   "act": "Make a rules table with rule, who enforces it, what you must do and a dated official source.",
+   "act": "Build a rules table with rule, who enforces it, what you must do and a dated official source.",
    "std": "Task: build a rules table. Condition: official pages only. Standard: each row has an enforcer, an action and a dated source; no rule is guessed."
   },
   "3": {

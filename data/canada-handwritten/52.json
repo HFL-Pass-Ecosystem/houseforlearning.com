@@ -45,7 +45,7 @@
     "Check whether you are an employee or self-employed, since protections and duties differ; check the provincial rule."
    ],
    "ex": "Rules table row: Hazard training | provincial workplace safety body | complete before using strong products | before first shift | certificate kept. A new worker with a 2-hour course and a 4-hour first shift plans 6 hours in all, with the course first. The row also gets the date it was last checked.",
-   "act": "Make a rules table covering safety training, labels, pay rules and privacy, with official pages.",
+   "act": "Build a rules table covering safety training, labels, pay rules and privacy, with official pages.",
    "std": "Task: map the rules. Condition: official pages only. Standard: each row has an enforcer, an action and a checked date."
   },
   "4": {

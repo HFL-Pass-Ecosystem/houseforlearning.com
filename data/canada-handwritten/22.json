@@ -61,7 +61,7 @@
     "Keep sales records and receipts for the period the tax agency requires."
    ],
    "ex": "A buyer asks for a refund on a faulty item. You check your stated return rule and your province's rule, then respond in writing within a day. You keep the reply and the order number in one folder.",
-   "act": "Make a table of rule, who sets it, what you must do and where you checked, for ten items.",
+   "act": "Build a table of rule, who sets it, what you must do and where you checked, for ten items.",
    "std": "Task: build a rules table. Condition: from official public pages. Standard: each row has a dated source; unknowns say 'check the current rule with the local authority'."
   },
   "5": {

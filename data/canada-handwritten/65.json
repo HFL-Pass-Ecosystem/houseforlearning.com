@@ -29,7 +29,7 @@
     "Write the contact for the nurse or supervisor you report to."
    ],
    "ex": "A carer is asked to give an injection. It is outside her scope. She says no politely, calls the nurse in charge and writes the request in her note.",
-   "act": "Make a rules table: rule, who enforces it, what you must do and a dated official source.",
+   "act": "Build a rules table: rule, who enforces it, what you must do and a dated official source.",
    "std": "Task: build a rules table. Condition: official pages only. Standard: each row has an enforcer, an action and a dated source; no rule is guessed."
   },
   "3": {

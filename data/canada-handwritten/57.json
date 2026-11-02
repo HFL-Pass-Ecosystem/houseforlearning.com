@@ -61,7 +61,7 @@
     "Store and carry fuel only in approved containers."
    ],
    "ex": "A crew plans to plant a tree. Before digging they request a locate of buried lines. The marked lines show a cable two metres from the planned spot, so they keep the hole clear and record the locate request number.",
-   "act": "Make a rules table for your town: rule, who enforces it, what you do, source and date checked.",
+   "act": "Build a rules table for your town: rule, who enforces it, what you do, source and date checked.",
    "std": "Task: build a rules table. Condition: official local pages only. Standard: each row has an enforcer, an action and a dated source; nothing is guessed."
   },
   "5": {

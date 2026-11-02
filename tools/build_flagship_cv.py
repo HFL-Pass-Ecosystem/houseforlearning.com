@@ -79,7 +79,7 @@ LESSONS = [
    "After every interview or conversation: write down what went well, what you would change and one thing to follow up. Send a short thank-you note within a day.",
    "Keep a living file in My page: CV versions, stories, gap table, tracker. Update it every 3 months."],
   "Question: 'Tell me about a mistake.' Answer in SMART: Situation (a late shipment), Mission (fix it for the customer), Action (called the customer, found a faster route, made a checklist), Result (delivered 1 day late, customer stayed, checklist used by team), Takeaway (confirm dates in writing).",
-  "Do a 10-minute mock interview with a peer using your five stories. Record yourself if you can. Score yourself on the rubric and write two improvements.",
+  "Complete a 10-minute mock interview with a peer using your five stories. Record yourself if you can. Score yourself on the rubric and write two improvements.",
   "Five stories ready; mock interview done; rubric scored; two improvements dated."),
 ]
 QUIZ = [

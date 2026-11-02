@@ -45,7 +45,7 @@
     "Keep a compliance file for each model with test reports, dates and label proofs."
    ],
    "ex": "A maker plans to sell a mini computer with built-in Wi-Fi. The checklist shows radio approval and electrical safety approval are needed first. If the two tests run one after the other and take 3 weeks and 4 weeks, sales wait 3 + 4 = 7 weeks.",
-   "act": "Make a rules table with rule, who enforces it, your product's status and the dated source.",
+   "act": "Build a rules table with rule, who enforces it, your product's status and the dated source.",
    "std": "Task: build a rules table. Condition: official pages only. Standard: each row has an enforcer, an action and a dated source; nothing is guessed."
   },
   "4": {

@@ -45,7 +45,7 @@
     "Compare two options on cost, effort and risk and recommend one."
    ],
    "ex": "Fact: 30% of orders ship late. Cause: the packing bench is shared. Option: add a second bench, cost $400. If the shop ships 200 orders a month, 30% is 60 late orders; cutting it to 10% leaves 20, which is 40 fewer.",
-   "act": "Do a mini review of a small business with consent and write a two-page findings note.",
+   "act": "Complete a mini review of a small business with consent and write a two-page findings note.",
    "std": "Task: write a two-page findings note. Condition: from at least three sources of facts. Standard: each finding has evidence, a cause and an option with cost."
   },
   "4": {
@@ -61,7 +61,7 @@
     "Check whether you must collect sales tax and ask the tax agency."
    ],
    "ex": "A client asks for legal advice about a contract. You say that is for a lawyer and offer to prepare the business questions to bring. You write down five questions so the meeting with the lawyer is short.",
-   "act": "Make a table of rule, who sets it, what you must do and where you checked, for ten situations.",
+   "act": "Build a table of rule, who sets it, what you must do and where you checked, for ten situations.",
    "std": "Task: build a rules table. Condition: using official public pages. Standard: each row has a dated source; unclear items say 'check the current rule with the local authority'."
   },
   "5": {
@@ -93,7 +93,7 @@
     "Track contacts, replies and calls and work out your reply rate."
    ],
    "ex": "You email a café: 'Your online menu is hard to read on a phone. Here are three fixes. May I send a one-page review?' If 10 messages bring 3 replies and 1 call, the reply rate is 3 / 10 = 30%.",
-   "act": "Make one case note and send ten tailored messages.",
+   "act": "Write one case note and send ten tailored messages.",
    "std": "Task: run a two-week outreach. Condition: with consent rules followed. Standard: ten messages sent, replies logged and one lesson written."
   },
   "7": {

@@ -217,7 +217,7 @@ dict(id='GL-03', title='Artificial Intelligence in Practice', group='Digital and
    'Weaknesses: made-up facts and sources (hallucination), uneven maths, old information, unseen bias, no accountability.', 'The same instruction can give different answers; results need checking every time.',
    'AI is a tool inside a process. The person using it is responsible for the result.'],
   'Ask a tool to list five government rules with numbers. Two numbers are wrong and one source does not exist. The lesson: use AI to draft questions to ask, then confirm facts from the original source.',
-  'Try one task three times, compare answers and write what changed and what was wrong.',
+  'Test one task three times, compare answers and write what changed and what was wrong.',
   'Comparison table with at least three differences and the errors you found.'),
  ('Choosing the right task', 'Analyse', 6,
   'Good first tasks are frequent, low risk and easy to check. Poor first tasks are rare, high risk or hard to check.',

@@ -29,7 +29,7 @@
     "Explain which stream stops earning when you stop working and which keeps earning for a while."
    ],
    "ex": "Stream A: 20 repair jobs x 80 = 1,600 a month, minus 20 x 20 = 400 in costs, leaves 1,200 for 40 hours of work. Stream B: 10 sales x 25 = 250, minus 10 x 3 = 30 in costs, leaves 220 for 3 hours. A pays more in total; B pays more per hour and can grow without extra time.",
-   "act": "Make a comparison table for three streams with income, costs, time and risk.",
+   "act": "Build a comparison table for three streams with income, costs, time and risk.",
    "std": "Task: compare three streams. Condition: using real local prices. Standard: table complete with units; assumptions listed."
   },
   "3": {

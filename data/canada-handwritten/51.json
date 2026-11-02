@@ -45,7 +45,7 @@
     "Keep a copy of your insurance letter and permit documents on your phone or in the vehicle."
    ],
    "ex": "Rules table row: Vehicle insurance | provincial insurer | tell the insurer you use the vehicle for deliveries | before the first paid job | letter kept. If the insurer takes 5 days to reply, ask at least 5 days before the first job.",
-   "act": "Make a rules table for your province covering licence, insurance, goods and tax, with official pages.",
+   "act": "Build a rules table for your province covering licence, insurance, goods and tax, with official pages.",
    "std": "Task: map the rules. Condition: official pages only. Standard: each row has an enforcer, an action and a checked date."
   },
   "4": {
@@ -77,7 +77,7 @@
     "Report any near miss in the log with date and place."
    ],
    "ex": "Daily check: tyres good, lights work, brakes fine, straps tight. Ten minutes a day is 50 minutes over a five-day week, and prevents a breakdown at noon.",
-   "act": "Make a daily vehicle checklist and use it for one five-day week.",
+   "act": "Build a daily vehicle checklist and use it for one five-day week.",
    "std": "Task: complete safety checks. Condition: one five-day week. Standard: five dated checklists with no skipped items."
   },
   "6": {

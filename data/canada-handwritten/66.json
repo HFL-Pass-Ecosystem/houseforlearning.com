@@ -45,7 +45,7 @@
     "Explain that if data is kept on servers in another country, check the rule and say so in the privacy notice."
    ],
    "ex": "A weather app asks for contacts. That is not needed for weather, so the permission is removed. The privacy notice lists only location and why it is used.",
-   "act": "Make a rules table and a one-page privacy notice for your app idea.",
+   "act": "Build a rules table and a one-page privacy notice for your app idea.",
    "std": "Task: draft rules and notice. Condition: official pages. Standard: each rule has an enforcer, action and dated source and the notice names every data item and reason."
   },
   "4": {
@@ -61,7 +61,7 @@
     "Test the screen in bright light and on a small phone to see whether text and buttons can still be read."
    ],
    "ex": "A tester cannot find 'Save'. The designer makes the button larger, puts it at the bottom and uses the word 'Save' not an icon. The next three testers find it at once.",
-   "act": "Make a clickable mock-up of your app and test it with three users.",
+   "act": "Build a clickable mock-up of your app and test it with three users.",
    "std": "Task: test a design. Condition: three users. Standard: hesitation points are recorded and at least one change is made from them."
   },
   "5": {
