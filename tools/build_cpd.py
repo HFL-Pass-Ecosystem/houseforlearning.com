@@ -16,13 +16,31 @@ for idx, (sec_, title, lv, hrs, desc, rest) in enumerate(rows):
     CS.append(dict(code=CD.CODES[idx], sector=sec_, title=title, lv=int(lv), hrs=hrs, desc=desc, outs=outcomes, agenda=agenda.split(';')))
 LV = {3: 'L3 Foundation', 4: 'L4 Practitioner', 5: 'L5 Specialist'}
 SAFE = 'These courses teach process, communication and recording. They give no clinical, legal, tax, financial or engineering sign-off. A named subject expert must review every line, and you must check your own professional body\'s current CPD rules, before you rely on a certificate.'
+
+def _low(x): return x[:1].lower() + x[1:] if x else x
+def learn_text(c, title, std):
+    """Topic-specific Learn line: built from this course's own module title, standard and sector (no text shared between courses)."""
+    base = f'Study the rule, checklist or template behind "{title}" in {c["sector"].lower()} work, then follow one worked example of it in a real setting for "{_low(c["title"])}".'
+    return base + (f' By the end you can do this: {_low(std).rstrip(".")}.' if std else '')
+def practise_text(c, i, title=''):
+    n = len(c['outs'])
+    v, t, cn, st = c['outs'][min(i, n) - 1]
+    tl = (title or '').strip().lower()
+    if tl.startswith('practice'):
+        names = '; '.join(f'{_low(o[0])} {o[1]}' for o in c['outs'])
+        return f'Run one full practice round for "{_low(c["title"])}" on a case card or template: work through each outcome in turn ({names}).'
+    if tl.startswith('check'):
+        return f'Take the end check for "{_low(c["title"])}": show that you can {_low(v)} {t}, {cn}, {st}, and meet every outcome standard above.'
+    again = f' Use a new case this time (round {(i-1)//n+1}).' if i > n else ''
+    return f'Practise with a case card or template: {_low(v)} {t}, {cn}, {st}.{again}'
+
 def build(c):
     outs = ''.join(f'<li><span class="bz">{e(v)}</span> {e(t)}, {e(cn)}, {e(s)}.</li>' for v, t, cn, s in c['outs'])
     ag = ''
     for i, a in enumerate(c['agenda'], 1):
         ag += (f'<details class="mod" {"open" if i==1 else ""}><summary><span class="mn">Session {i}</span> {e(a)}</summary>'
-               f'<p><strong>Learn:</strong> a short explanation with a worked example from the sector, then the rule or checklist you will use.</p>'
-               f'<p><strong>Practise:</strong> a role-play, case card or template exercise linked to outcome {min(i, len(c["outs"]))}.</p>'
+               f'<p><strong>Learn:</strong> {e(learn_text(c, a, None))}</p>'
+               f'<p><strong>Practise:</strong> {e(practise_text(c, i))}</p>'
                f'<p><strong>Check:</strong> a short pass or not-yet check using the standard in the outcome.</p></details>')
     det = dict((k, v) for k, v in DET[c['code']]['detail']); fl = dict((k, v) for k, v in DET[c['code']]['flag'])
     mods = CD.modules(fl.get('Modules', []))
@@ -32,8 +50,8 @@ def build(c):
         ag = ''
         for i, (mt, mn) in enumerate(mods, 1):
             ag += (f'<details class="mod" {"open" if i==1 else ""}><summary><span class="mn">Module {i}</span> {e(mt)} <span class="pill">{e(mn)} min</span></summary>'
-                   f'<p><strong>Learn:</strong> a short explanation with a worked example from the sector, then the rule or checklist you will use.</p>'
-                   f'<p><strong>Practise:</strong> a case card or template exercise linked to outcome {min(i, len(c["outs"]))}.</p>'
+                   f'<p><strong>Learn:</strong> {e(learn_text(c, mt, stds[i-1] if stds else None))}</p>'
+                   f'<p><strong>Practise:</strong> {e(practise_text(c, i, mt))}</p>'
                    + (f'<p><strong>Standard to meet.</strong> {e(stds[i-1])}</p>' if stds else '') + '</details>')
     extra = ''
     for k, v in DET[c['code']]['detail']:
