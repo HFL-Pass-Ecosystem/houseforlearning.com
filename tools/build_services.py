@@ -44,7 +44,7 @@ def swap(t, fn, title, desc, crumbs, main):
 
 def enquiry(slug, name):
     return (f'<section class="svc-form" id="enquiry" aria-labelledby="enq-h"><div class="svc-in"><p class="svc-kick">enquire</p><h2 id="enq-h">Ask about {e(name)}</h2>'
-      f'<form class="contact svc-enq" action="#" method="post" data-offline data-mailto="engage@hfl-pass.com" data-subject="Service enquiry" data-thanks="Your email app has opened with your enquiry to engage@hfl-pass.com. Please press Send there." aria-labelledby="enq-h">'
+      f'<form class="contact svc-enq" action="#" method="post" data-offline data-subject="Service enquiry" data-thanks="Your email app has opened with your enquiry. Please press Send there." aria-labelledby="enq-h">'
       f'<div class="vh" aria-hidden="true"><label for="e-website">Leave this empty</label><input id="e-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>'
       f'<div class="field"><label for="e-service">Service</label><input type="text" id="e-service" name="topic" value="{e(name)}" readonly></div>'
       f'<div class="field-row"><div class="field"><label for="e-name">Full name</label><input type="text" id="e-name" name="name" autocomplete="name" required></div><div class="field"><label for="e-email">Email</label><input type="email" id="e-email" name="email" autocomplete="email" required></div></div>'

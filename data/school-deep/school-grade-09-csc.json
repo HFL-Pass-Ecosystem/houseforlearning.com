@@ -94,7 +94,7 @@
    "standard": "Clean, sort and summarise data: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
    "steps": [
     "Step 1, The raw data: Raed's sheet has 7 rows: Ali 72; bana 91; Cyrus blank; Dina 88; Dina 88; Eman 65; Fadi 150. The maximum score is 100, so some entries look wrong. Before analysis the data must be cleaned.",
-    "Step 2, Fix format: He makes names consistent by changing bana to Bana and trimming extra spaces. Consistent text means sorting and searching work properly. Visible spaces or capitals can make the same name look different to a computer.",
+    "Step 2, Fix format: He makes names consistent by changing bana to Bana and trimming extra spaces. Consistent text means sorting and searching work properly. Hidden extra spaces or odd capitals can make the same name look different to a computer.",
     "Step 3, Remove duplicates: Dina 88 appears twice, so he deletes one copy. The sheet now has 6 rows. Duplicates would count one student twice and distort totals and averages.",
     "Step 4, Handle missing and impossible values: Cyrus has no score, so he marks it as missing and leaves it out. Fadi 150 is above 100, so he flags it as an error to check with the teacher. Valid rows left: Ali, Bana, Dina, Eman.",
     "Step 5, Sort and summarise: Sorting scores highest first gives Bana 91, Dina 88, Ali 72, Eman 65. The maximum is 91 and the minimum is 65. The sum is 72 plus 91 plus 88 plus 65, which is 316.",

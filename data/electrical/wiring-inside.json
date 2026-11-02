@@ -5,7 +5,7 @@
 "modules": [
 {"title": "Size for the hottest place","bloom": "Apply: Calculate","minutes": 15,
 "intro": "Air inside a closed panel is warmer than the room, and wiring often sits in the warmest zone. Cable ratings must be reduced for heat.",
-"points": ["Planning rules often assume about 35 °C for the panel air and as much as 55 °C where wiring runs.","Choose cable size for the hotter figure, not the room.","If the room is warmer than the rule assumes, lower the allowed heat loss to stay inside the limit."],
+"points": ["Planning rules often assume values such as about 35 °C for the panel air and as much as 55 °C where wiring runs (example values; use the current local wiring rules and the maker's data).","Choose cable size for the hotter figure, not the room.","If the room is warmer than the rule assumes, lower the allowed heat loss to stay inside the limit."],
 "example": "A cable is rated 30 A at 30 °C. At 55 °C a teaching factor of 0.8 applies, so the usable rating is 30 × 0.8 = 24 A. The load is 26 A. Since 26 is more than 24, the cable fails. Step up to a cable rated 40 A at 30 °C: 40 × 0.8 = 32 A, which is above 26, so it passes with a margin of 6 A. The factor 0.8 is for teaching, and real factors come from the maker's tables.",
 "activity": "A load is 18 A. Cable options are rated 20 A, 25 A and 32 A at 30 °C. Use a factor of 0.8 and say which is the smallest that passes.",
 "standard": "Learner derates the rating for heat and picks the smallest passing cable."},
@@ -17,7 +17,7 @@
 "standard": "Learner matches thin wires to ducts and heavy cables to open air, and names insulation needs."},
 {"title": "Two different problems","bloom": "Analyse: Distinguish","minutes": 15,
 "intro": "Overload and short circuit are different faults needing different checks. Wiring must survive both until protection acts.",
-"points": ["Overload is a slow rise in current, so protection must match the cable's current rating.","Short circuit is a sudden, very large current, so the cable must survive until the device clears it.","Where a device limits fault current, the section between busbar and device can be sized for the smaller load."],
+"points": ["Overload is a slow rise in current, so protection must match the cable's current rating.","Short circuit is a sudden, very large current, so the cable must survive until the device clears it.","Where a device limits fault current, the section between busbar and device may sometimes be sized for the smaller load, but only a qualified designer can decide this from the maker's data."],
 "example": "A cable has a derated rating of 24 A and a protective device rated 20 A. Because 20 is below 24, the device protects the cable from overload. A device rated 32 A would not, since 32 is above 24. For a short circuit, the maker's table says this cable can carry a fault for 0.1 s at the available fault level. The device clears in 0.01 s, which is 10 times faster than the limit, so the cable passes. If the device took 0.5 s instead, it would fail. Figures are examples only.",
 "activity": "A cable derates to 36 A. Devices of 32 A and 40 A are offered. Say which protects against overload. Then say what extra check short circuit needs.",
 "standard": "Learner picks the device that protects against overload and states the clearing time check."},

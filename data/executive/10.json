@@ -14,7 +14,7 @@
     "Duty: which rule or promise applies",
     "Fairness and care: who is left out"
    ],
-   "example": "A plant manager must decide whether to keep a line running with a known fault. Results: running earns 40,000 a week, but 3 workers face a risk of injury. Duty: safety law says stop. Fairness: the workers did not choose the risk. Care: the 3 workers have families. Three of four lenses say stop, so the line is stopped, and the loss of 40,000 a week is treated as a cost of doing the job properly.",
+   "example": "A plant manager must decide whether to keep a line running with a known fault. Results: running earns 40,000 a week, but 3 workers face a risk of injury. Duty: the safety rules say stop. Fairness: the workers did not choose the risk. Care: the 3 workers have families. Three of four lenses say stop, so the line is stopped, and the loss of 40,000 a week is treated as a cost of doing the job properly.",
    "activity": "Take a real or case dilemma and write one sentence under each of the four lenses, then state the decision.",
    "standard": "All four lenses are used and the final choice follows the majority of lenses with a reason for any lens that is overruled."
   },
@@ -56,7 +56,7 @@
     "Audit a sample of sites",
     "Fix first, end the contract last"
    ],
-   "example": "A firm has 40 suppliers and audits 25% each year, which is 10 sites. At the 10 audited sites, 3 show hours above 60 a week. That is 30%. If the same rate applies to all 40, about 12 suppliers may break the rule. The firm gives each of the 3 a 90-day fix plan and re-audits. Any site that fails again is dropped.",
+   "example": "A firm has 40 suppliers and audits 25% each year, which is 10 sites. At the 10 audited sites, 3 show hours above the firm's limit of 60 a week. That is 30%. If the same rate applies to all 40, about 12 suppliers may break the rule. The firm gives each of the 3 a 90-day fix plan and re-audits. Any site that fails again is dropped.",
    "activity": "Take 30 suppliers and a 20% audit sample. Work out the sample size, the failure rate and the likely total number failing.",
    "standard": "Sample size is 6, the failure rate is calculated from the findings and the projection to 30 is shown."
   },
@@ -84,7 +84,7 @@
     "Local detail that cannot lower the floor",
     "Plain words in each language"
    ],
-   "example": "A firm writes a code with 8 rules. 5 are fixed globally (bribes, safety, child labour, fair pay, records). 3 can be set locally (gift limit, working hours above the legal minimum, holiday gifts). A site sets a gift limit of 30, which is below the global ceiling of 50, so it is accepted. Another site sets 80, which is above the ceiling, so it is rejected.",
+   "example": "A firm writes a code with 8 rules. 5 are fixed globally (bribes, safety, child labour, fair pay, records). 3 can be set locally (gift limit, working hours within the local legal limit, holiday gifts). A site sets a gift limit of 30, which is below the global ceiling of 50, so it is accepted. Another site sets 80, which is above the ceiling, so it is rejected.",
    "activity": "Write a code with five fixed rules and three local rules and test it with two local proposals.",
    "standard": "The code separates fixed and local rules and the two proposals are checked against the ceiling."
   },

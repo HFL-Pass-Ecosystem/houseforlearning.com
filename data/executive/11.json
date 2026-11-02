@@ -28,7 +28,7 @@
     "Look for a waiver or a lawful middle path",
     "Escalate before acting, not after"
    ],
-   "example": "The home law demands a report of a data loss within 72 hours, with a fine of 2% of revenue. Revenue is 50 million, so the fine is 1 million. The host law bars sending data abroad without a court order, which takes about 10 days, and carries a fine of 100,000. The manager reports the fact of the loss, not the data itself, within 72 hours and applies for the court order in parallel. This meets both laws, and legal counsel signs off in writing.",
+   "example": "Suppose a home law demands a report of a data loss within 72 hours, with an example fine of 2% of revenue. Revenue is 50 million, so the fine is 1 million. A host law bars sending data abroad without a court order, which may take about 10 days, and carries an example fine of 100,000. The manager reports the fact of the loss, not the data itself, within 72 hours and applies for the court order in parallel. This meets both laws, and legal counsel signs off in writing.",
    "activity": "Take two conflicting rules with fines and deadlines. Compute the cost of each breach and propose a lawful path.",
    "standard": "Both fines are worked out, the path avoids breaching either law and a sign-off step is named."
   },
@@ -43,7 +43,7 @@
     "Track speed and results"
    ],
    "example": "In a year the line receives 40 reports. 12 are found to be true, which is 30%. The firm aims to close each in 30 days and 6 of 40 took longer, which is 15%. 9 reports (22.5%) came in anonymously. When a staff survey shows only 55% believe they would be safe, the firm adds an outside hotline, with a goal of 75% in the next survey.",
-   "activity": "Using 50 reports, 15 found true and 5 late, calculate the three rates and set one target.",
+   "activity": "Using 50 reports, 15 found true and 5 late, calculate the true and late rates and set one target.",
    "standard": "The rates are 30%, 10% and the target is a number tied to the weakest rate."
   },
   {
