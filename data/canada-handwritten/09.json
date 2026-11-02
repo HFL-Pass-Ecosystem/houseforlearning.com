@@ -1,0 +1,163 @@
+{
+ "price": [
+  640000,
+  420000,
+  5,
+  "machine"
+ ],
+ "mods": {
+  "1": {
+   "title": "Understand greenhouse gas conversion",
+   "intro": "These machines capture or convert gases such as carbon dioxide or methane into fuels, chemicals or solids.",
+   "pts": [
+    "Know the main routes: capture and store, convert to fuel, convert to materials, burn-off of methane.",
+    "Learn the numbers: tonnes captured per year, energy used per tonne, cost per tonne.",
+    "Buyers: industrial plants, landfills, farms, energy firms, municipalities.",
+    "Pick one source gas and one buyer type."
+   ],
+   "ex": "Landfill gas contains about half methane; capturing and converting 1,000 t of methane avoids about 25,000 t carbon-dioxide equivalent over 100 years.",
+   "act": "Write a one-page problem statement with source, gas, volume and buyer.",
+   "std": "Volumes have units and sources."
+  },
+  "2": {
+   "title": "Know environmental and safety rules",
+   "intro": "Emissions equipment is regulated.",
+   "pts": [
+    "Federal and provincial environmental law set emission limits and reporting.",
+    "Pressure vessels and gas systems follow technical safety codes and need certified welders and inspectors.",
+    "Carbon credits and offsets need approved methods and verifiers.",
+    "Permits for installation and operation come before building."
+   ],
+   "ex": "Row: 'Operate a gas conversion unit | provincial environment ministry | permit and monitoring plan | before start-up | permit on file'.",
+   "act": "Build a rules table for a landfill pilot.",
+   "std": "Rows dated and sourced."
+  },
+  "3": {
+   "title": "Design a small conversion unit",
+   "intro": "Start with mass and energy balance.",
+   "pts": [
+    "Draw block diagram: inlet gas, clean-up, reactor, product, vent.",
+    "Calculate mass in = mass out for one hour.",
+    "Choose sensors for flow, temperature, pressure and gas composition.",
+    "Plan safety: shut-offs, leak detection, venting."
+   ],
+   "ex": "Inlet 100 kg per hour gas; product 62 kg; vent 4 kg; unaccounted 34 kg → investigate leak or measurement.",
+   "act": "Complete a balance for a chosen design.",
+   "std": "Balance within 5%."
+  },
+  "4": {
+   "title": "Cost the machine and the tonne",
+   "intro": "Customers buy cost per tonne avoided.",
+   "pts": [
+    "Capital cost spread over years of life.",
+    "Operating cost: power, catalysts, labour, maintenance.",
+    "Revenue: product sales and credits.",
+    "Break-even and payback."
+   ],
+   "ex": "Machine 640,000 over 10 years = 64,000 a year; operating 150,000; capacity 5,000 t... teaching cost 43 per tonne. Compare with the credit price. Teaching figures in CAD.",
+   "act": "Compute cost per tonne and payback.",
+   "std": "Assumptions listed."
+  },
+  "5": {
+   "title": "Operate, measure and verify",
+   "intro": "Claims need data.",
+   "pts": [
+    "Install calibrated meters.",
+    "Log inputs and outputs daily.",
+    "Arrange third-party verification.",
+    "Maintenance schedule and spares."
+   ],
+   "ex": "Monthly report: captured 410 t; uptime 92%; verified by auditor.",
+   "act": "Keep a 4-week data log with calibration dates.",
+   "std": "Log complete."
+  },
+  "6": {
+   "title": "Win a pilot site",
+   "intro": "Offer a risk-free test.",
+   "pts": [
+    "Approach site managers with data.",
+    "Offer pilot with shared cost.",
+    "Show permits and safety plan.",
+    "Align with their climate targets."
+   ],
+   "ex": "Funnel: 12 sites, 4 visits, 2 pilots.",
+   "act": "Pitch a pilot to three sites.",
+   "std": "Pitch has numbers."
+  },
+  "7": {
+   "title": "Manage safety, claims and community",
+   "intro": "Be accurate and safe.",
+   "pts": [
+    "Hazard review before start-up.",
+    "Claims backed by verified data.",
+    "Consult neighbours and communities.",
+    "Emergency plan."
+   ],
+   "ex": "Risk: 'Gas leak | 2 x 5 | detectors and shutoff | site lead | weekly test'.",
+   "act": "Write risk register.",
+   "std": "Owners named."
+  },
+  "8": {
+   "title": "Pilot and scale",
+   "intro": "Prove one unit.",
+   "pts": [
+    "Run 90 days.",
+    "Compare cost per tonne with plan.",
+    "Stop rule: uptime under 70% means fix.",
+    "Plan manufacturing."
+   ],
+   "ex": "Uptime 88%; proceed.",
+   "act": "Run pilot review.",
+   "std": "Review has decision."
+  }
+ },
+ "quiz": [
+  [
+   "What is a mass balance?",
+   "Mass in equals mass out; gaps show leaks or errors."
+  ],
+  [
+   "Why use calibrated meters?",
+   "Claims need trusted data."
+  ],
+  [
+   "Who verifies reductions?",
+   "An approved third-party verifier."
+  ],
+  [
+   "What comes before building?",
+   "Permits."
+  ],
+  [
+   "How compute cost per tonne?",
+   "Annual cost divided by tonnes avoided."
+  ],
+  [
+   "Name two sensors.",
+   "Flow and gas composition (or temperature, pressure)."
+  ],
+  [
+   "Why consult neighbours?",
+   "Trust and permits depend on it."
+  ],
+  [
+   "What triggers a fix?",
+   "Uptime under 70%."
+  ],
+  [
+   "Who builds pressure systems?",
+   "Certified welders and inspectors."
+  ],
+  [
+   "What is payback?",
+   "Capital divided by yearly net gain."
+  ]
+ ],
+ "jobs": [
+  "Process technician",
+  "Environmental technician",
+  "Verification assistant",
+  "Project engineer",
+  "Climate technology founder"
+ ]
+}
