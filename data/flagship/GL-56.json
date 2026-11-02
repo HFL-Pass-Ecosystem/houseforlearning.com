@@ -88,7 +88,7 @@
     "Check voltage and current limits of the inverter.",
     "Check the roof can carry the number of panels."
    ],
-   "A shop using 3.06 kWh a day with 5 sun hours needs 3.06 / (5 x 0.75) = 0.82 kW, so two panels of 450 W is enough; the owner adds margin and chooses 1.35 kW.",
+   "A shop using 3.06 kWh a day with 5 sun hours needs 3.06 / (5 x 0.75) = 0.82 kW, so two panels of 450 W (0.9 kW) cover it on paper. The owner adds margin for dust and ageing and chooses three panels, 1.35 kW.",
    "Size the array and inverter for your load list.",
    "Formula, numbers and margin are shown and limits are checked."
   ],
@@ -270,7 +270,7 @@
   [
    "Sizing the system",
    "L4: learner can size a small system. Focus module: Sizing the system (Apply, 5 h). Match energy need, sunshine and losses to a panel count. Key points: Array kW = daily kWh / (sun hours x 0.75 efficiency). Choose an inverter close to array size. Check voltage and current limits of the inverter. Check the roof can carry the number of panels.",
-   "Teach: open with the worked example. A shop using 3.06 kWh a day with 5 sun hours needs 3.06 / (5 x 0.75) = 0.82 kW, so two panels of 450 W is enough; the owner adds margin and chooses 1.35 kW. Then set the activity: Size the array and inverter for your load list. Mark against the standard: Formula, numbers and margin are shown and limits are checked. Check at this level: Panel sizing formula? Model answer: Daily kWh / (sun hours x efficiency)."
+   "Teach: open with the worked example. A shop using 3.06 kWh a day with 5 sun hours needs 3.06 / (5 x 0.75) = 0.82 kW, so two panels of 450 W (0.9 kW) cover it on paper. The owner adds margin for dust and ageing and chooses three panels, 1.35 kW. Then set the activity: Size the array and inverter for your load list. Mark against the standard: Formula, numbers and margin are shown and limits are checked. Check at this level: Panel sizing formula? Model answer: Daily kWh / (sun hours x efficiency)."
   ],
   [
    "Electrical protection and earthing",
