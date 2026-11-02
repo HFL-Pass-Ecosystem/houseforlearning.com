@@ -17,6 +17,7 @@ def build(c):
     D = c.get('deep') or {}
     for i, (t, intro, pts, ex, act, std) in enumerate(c['mods'], 1):
         dx = ''
+        if D.get('extra'): pts = list(pts) + list(D['extra'][i-1])
         if D:
             mi, e2, sc = D['mods'][i-1]
             dx = (f'<p><strong>Common mistake.</strong> {e(mi)}</p><div class="evi"><strong>Second worked example.</strong> {e(e2)}</div>'

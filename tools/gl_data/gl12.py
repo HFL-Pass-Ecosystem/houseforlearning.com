@@ -35,3 +35,12 @@ C['deep'] = dict(mods=[
  gloss=[('DDoS', 'Distributed denial of service: many sources flood a service.'), ('Rate limit', 'A cap on requests per visitor.'), ('Cache', 'Saved copies that avoid hitting the main server.'), ('Second step', 'Extra sign-in proof beyond a password.'), ('Hardening', 'Removing weaknesses.'), ('Table-top drill', 'Rehearsing a plan on paper.')],
  cases=[('The evening spike', 'Traffic jumps tenfold at 8 pm; the site is slow.', 'First three actions?', 'Confirm with logs, enable stricter filtering with the front service, tell your host, and post a notice.'),
         ('The reused password', 'An admin password leaks from another site.', 'What do you do?', 'Reset it, force a second step, check logs for use, and review other accounts.')])
+C['deep']['extra'] = [
+ ['Read your host\'s abuse policy and know how to report an attack to them.', 'Learn how to tell a real surge in customers from an attack, using referrer and geography.'],
+ ['List external services you rely on, such as payment or email, because their outage is yours too.', 'Record the owner of each domain and certificate expiry dates.'],
+ ['Turn on automatic updates where safe and schedule a monthly check.', 'Use a password manager to avoid reuse.'],
+ ['Know the limits of your hosting plan, such as requests per second.', 'Prepare a light "static" page to serve during an attack.'],
+ ['Create a status page for customers on a different provider from your site.', 'Review the alert list monthly and remove noisy ones.'],
+ ['Encrypt backups and keep keys away from the backup location.', 'Test a restore of one file and of the full system.'],
+ ['Print the plan and keep a copy off the network.', 'Agree who may speak to the press and customers.'],
+ ['Run a second drill with a different scenario, such as stolen credentials.', 'Record every fix and check it six weeks later.']]

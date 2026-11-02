@@ -35,3 +35,12 @@ C['deep'] = dict(mods=[
  gloss=[('Template', 'Stored numbers made from a trait.'), ('Threshold', 'The score that decides pass or fail.'), ('False accept', 'Wrong person let in.'), ('False reject', 'Right person refused.'), ('Liveness check', 'A test that the trait comes from a live person.'), ('Enrolment', 'First recording of a person\'s trait.')],
  cases=[('The reluctant employee', 'An employee does not want a fingerprint reader.', 'What must you do?', 'Offer an equal alternative at once, with no penalty, and record the choice.'),
         ('The photo trick', 'A tester opens the face reader using a photo.', 'What does this show?', 'The system lacks a liveness check; add it or choose another method and record the weakness.')])
+C['deep']['extra'] = [
+ ['Learn the difference between identification (who are you?) and verification (are you who you say?).', 'Compare how often each trait changes: faces and voices change more than fingerprints.'],
+ ['Ask users what would make them comfortable; their answer shapes the privacy notice.', 'Check whether a mobile phone unlock or a smart card already meets the need.'],
+ ['Keep consent forms apart from the templates so one leak does not link name to data.', 'Name a person responsible for deletion requests.'],
+ ['Take photos of the installation for the log, avoiding any faces.', 'Test with gloves, dust and bright sunlight, which are the usual failures.'],
+ ['Make sure at least 100 attempts include different people, not one person many times.', 'Record the threshold used for each test run.'],
+ ['Keep the network for the readers separate from the guest Wi-Fi.', 'Test the door release on power loss with the safety officer present.'],
+ ['Review complaints and add each to the fairness log.', 'Measure the time to enter through each route; the alternative should be about as quick.'],
+ ['Plan a re-test every six months, because hardware ages.', 'Write down what would make you stop using biometrics.']]

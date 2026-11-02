@@ -35,3 +35,12 @@ C['deep'] = dict(mods=[
  gloss=[('Pixel', 'The smallest square in an image.'), ('Band', 'A slice of light the sensor records, such as red.'), ('Revisit time', 'Time until the satellite sees the same place again.'), ('Index', 'A number made from bands to describe something like plant health.'), ('Ground truth', 'A check on the ground.'), ('Open data', 'Data anyone may use under a stated licence.')],
  cases=[('The cloudy month', 'Your chosen month has 60% cloud.', 'What do you do?', 'Choose clearer dates, use radar if available, or say the question cannot be answered with that month.'),
         ('The small plot', 'A farmer asks about a 400 m2 plot with 10 m pixels.', 'What is the problem?', 'The plot is about 4 pixels, too few to judge; advise a different data source or ground survey.')])
+C['deep']['extra'] = [
+ ['Compare a nanosatellite with a large one on mass, cost and lifetime; small ones often last one to five years.', 'Learn why antennas and batteries are the usual limits.'],
+ ['Use a free sky-tracking tool to see real passes of small satellites over your town.', 'Note that cloud over the ground station does not stop radio, but weather can affect some links.'],
+ ['Check the width of the area each image covers (the swath); wider means fewer passes.', 'Compare spectral bands on a sample image and write what each shows.'],
+ ['Keep a data log: file name, date, cloud percent, size and licence.', 'Use small test crops before downloading a whole scene.'],
+ ['Plot your index values on a simple chart; a picture of change is more persuasive than a table.', 'Repeat the calculation for a control area that should not have changed.'],
+ ['Write one sentence per limit saying how it could mislead a decision.', 'Ask a local expert whether the pattern matches what they see on the ground.'],
+ ['Write the headline last, after you have seen all results.', 'Use colour scales that are readable for colour-blind viewers.'],
+ ['Offer the reader a follow-up in 30 days with a new image date.', 'Add your method as a short recipe so someone else can repeat it.']]
