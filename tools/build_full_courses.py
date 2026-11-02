@@ -248,8 +248,9 @@ def school_page(p, s, rs):
     page(school_slug(p, s), f'{plan_label(p)} {s}', f'{plan_label(p)} {s}: {len(rs)} units with outcomes and assessment plan', f'{plan_label(p)}: {s}',
          e(f'{len(rs)} units across the school year, each with an outcome, a practice task and a check.'), body,
          crumb(('Learners', 'learners.html'), (b[0], b[2]), (f'{plan_label(p)} {s}', None)), kicker='school course')
+SUBJ_NAME = {'ENG': 'English', 'ESL': 'English as a second language', 'ARA': 'Arabic', 'HIN': 'Hindi', 'FRE': 'French', 'MAT': 'Mathematics', 'SCI': 'Science', 'PHY': 'Physics', 'CHE': 'Chemistry', 'BIO': 'Biology', 'SST': 'Social science', 'HIS': 'History', 'GEO': 'Geography', 'POL': 'Political science', 'ECO': 'Economics', 'PSY': 'Psychology', 'PED': 'Physical education', 'VAL': 'Values and life skills', 'ISL': 'Islamic studies', 'COM': 'Computing', 'CSC': 'Computer science', 'ACC': 'Accountancy', 'BST': 'Business studies'}
 def school_card(p, s, rs):
-    return (f'<li class="cc"><a href="{school_slug(p, s)}"><span class="pill lv">{e(plan_label(p))}</span><h3>{e(s)}</h3>'
+    return (f'<li class="cc"><a href="{school_slug(p, s)}"><span class="pill lv">{e(plan_label(p))}</span><h3>{e(SUBJ_NAME.get(s, s))}</h3>'
             f'<p>{len(rs)} units · {sum(int(r["weeks"]) for r in rs)} weeks</p><p class="cm">{e(rs[0]["outcome"][:110])}</p></a></li>')
 
 # ---------- main ----------
@@ -289,19 +290,19 @@ def main():
         '<ul class="ticks"><li><strong>Teams of 5 to 500.</strong> Seat plans, cohort dates and a manager view of progress and evidence.</li><li><strong>Task, condition and standard</strong> for every practical unit, so you know what good looks like.</li><li><strong>Ten locations plus global.</strong> Each course opens with local currency, law pointers and practice partners.</li><li><strong>Price:</strong> USD 39 per learner per month, USD 79 with mentor review. No auto-renew; 14-day refund.</li><li>Training partners can <a href="partner.html">contribute courses</a> and trainers.</li></ul>', adult, crumb(('Courses', 'courses-hub.html'), ('B2B', None)), kicker='for organisations')
     hub('b2c.html', 'B2C: courses for learners on our marketplace',
         'Pick a course, learn at your own pace, keep your evidence in My page. Real tasks, real feedback.',
-        '<ul class="ticks"><li><strong>Learn on the marketplace.</strong> Browse by subject and level, then join.</li><li><strong>Stack credits:</strong> foundation, practitioner, expert. Step in and out.</li><li><strong>Earn while you learn:</strong> contribute a template or worked example and earn credits (rates to be confirmed).</li><li><strong>Price:</strong> USD 39 per learner per month, USD 79 with mentor review; USD 5 a year membership.</li></ul>', adult, crumb(('Courses', 'courses-hub.html'), ('B2C', None)), kicker='for individual learners')
+        '<ul class="ticks"><li><strong>Learn on the marketplace.</strong> Browse by subject and level, then join.</li><li><strong>Stack credits:</strong> foundation, practitioner, expert. Step in and out.</li><li><strong>Earn while you learn:</strong> contribute a template or worked example and earn credits (rates to be confirmed).</li><li><strong>Price:</strong> USD 39 per learner per month, USD 79 with mentor review; USD 5 a year membership. No auto-renew; 14-day refund.</li></ul>', adult, crumb(('Courses', 'courses-hub.html'), ('B2C', None)), kicker='for individual learners')
     hub('d2c.html', 'D2C: learn direct from House for Learning',
-        'Straight from us to you: no middle step. Start on your phone, pay by bank or UPI, and keep going with a mentor and a circle.',
-        '<ul class="ticks"><li><strong>Direct enrolment</strong> with House for Learning; one account, one My page.</li><li><strong>Phone first, offline friendly,</strong> many languages.</li><li><strong>Family and senior friendly:</strong> short steps, large text, calm pace.</li><li><strong>Payment:</strong> bank and UPI only; 14-day refund; no auto-renew.</li></ul>', adult, crumb(('Courses', 'courses-hub.html'), ('D2C', None)), kicker='direct to learner')
+        'Straight from us to you: no middle step. Start on your phone, pay by bank transfer or UPI, and keep going with a mentor and a circle.',
+        '<ul class="ticks"><li><strong>Direct enrolment</strong> with House for Learning; one account, one My page.</li><li><strong>Phone first, offline friendly,</strong> many languages.</li><li><strong>Family and senior friendly:</strong> short steps, large text, calm pace.</li><li><strong>Price:</strong> USD 39 per learner per month, USD 79 with mentor review; USD 5 a year membership.</li><li><strong>Payment:</strong> bank transfer or UPI (an instant bank-to-bank payment method) only. No auto-renew; 14-day refund.</li></ul>', adult, crumb(('Courses', 'courses-hub.html'), ('D2C', None)), kicker='direct to learner')
     # learner groups
     gl = {}
     for k, (name, ages, fn) in BANDS.items():
         lst = [(p, s, rs) for (p, s), rs in plans.items() if band(p) == k]
-        body = sec('', 'in', 'ages and levels', 'Who this is for', f'<p><strong>{e(ages)}.</strong> This age range is our default and can be changed.</p><p>Every course has weekly units, outcomes that start with an action verb, practice tasks, and assessments at set weeks.</p>') \
+        body = sec('', 'in', 'ages and levels', 'Who this is for', f'<p><strong>{e(ages)}.</strong> You can change the age range.</p><p>Every course has weekly units, outcomes that start with an action verb, practice tasks, and assessments at set weeks.</p>') \
             + sec('alt', 'ls', 'courses', f'{len(lst)} courses', '<ul class="cgrid">' + ''.join(school_card(p, s, rs) for p, s, rs in lst) + '</ul>')
         page(fn, name, f'{name} courses: {len(lst)} full courses', name, e(f'{ages}. {len(lst)} full courses with units and outcomes.'), body, crumb(('Learners', 'learners.html'), (name, None)), 'learner group')
     def adult_group(fn, name, ages, lst, why):
-        hub(fn, name, f'{ages}. {why}', '<p>' + e(why) + '</p><p>Age range is our default and can be changed.</p>', lst, crumb(('Learners', 'learners.html'), (name, None)), kicker='learner group')
+        hub(fn, name, f'{ages}. {why}', '<p>' + e(why) + '</p><p>The age range is a default and can be changed.</p>', lst, crumb(('Learners', 'learners.html'), (name, None)), kicker='learner group')
     adult_group('learners-ug.html', 'UG: undergraduate learners', 'Ages 18 to 22 (default)', ug, 'Foundation and practitioner courses (L2 to L4) that build skills, credits and a portfolio alongside a degree.')
     adult_group('learners-pg.html', 'PG: postgraduate and working learners', 'Age 21 and over (default)', pg, 'Practitioner and specialist courses (L4 to L5) for graduates and working people moving up.')
     adult_group('learners-phd.html', 'PhD and systemic learners (seniors)', 'Age 25 and over; seniors are called systemic learners', phd + [c for c in sysl if c not in phd], 'Specialist courses (L5) for research-minded learners, plus courses chosen for seniors: calm pace, large text, hands-on, experience-led.')

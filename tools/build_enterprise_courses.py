@@ -59,5 +59,5 @@ if __name__ == '__main__':
     fns = [build(c) for c in D.COURSES]
     idx = ''.join(f'<li><a href="{fn}">{e(c["title"])}</a>: {e(c["short"])}</li>' for fn, c in zip(fns, D.COURSES))
     body = B.sec('', 'ix', 'enterprise software', 'Full courses', f'<ul>{idx}</ul><p class="ws-note">Draft. Not live.</p>')
-    B.page('enterprise-software.html', 'Enterprise Software Courses', 'Full courses on business software, from L1 to L7.', 'Enterprise Software Courses', 'Full courses on business software, from L1 to L7.', body, B.crumb(('Courses', 'courses-hub.html'), ('Enterprise software', None)))
+    B.page('enterprise-software.html', 'Enterprise Software Courses', 'Full courses on business software, from level 1 to level 7.', 'Enterprise Software Courses', 'Full courses on business software, from level 1 to level 7.', body, B.crumb(('Courses', 'courses-hub.html'), ('Enterprise software', None)))
     print(len(fns), 'built')
