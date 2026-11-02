@@ -164,15 +164,15 @@
   ],
   [
    "Why does size matter in the body?",
-   "It decides where particles go and how they clear. (Covered in module 3: Drug delivery. To pass that module: Diagram labels all four and has no false claims.)"
+   "It decides where particles go and how they clear. (Covered in module 4: Particles in the body. To pass that module: Entries agree with the sources you cite.)"
   ],
   [
    "What do regulators check?",
-   "Size distribution, stability and safety. (Covered in module 4: Particles in the body. To pass that module: Entries agree with the sources you cite.)"
+   "Size distribution, stability and safety. (Covered in module 5: Testing and regulation. To pass that module: All stages present; checks are specific.)"
   ],
   [
    "Name a risk.",
-   "Inflammation, accumulation or allergy. (Covered in module 5: Testing and regulation. To pass that module: All stages present; checks are specific.)"
+   "Inflammation, accumulation or allergy. (Covered in module 6: Risks and unknowns. To pass that module: Each risk has a control and the unknown is stated honestly.)"
   ],
   [
    "Name a worker control.",
@@ -188,11 +188,11 @@
   ],
   [
    "Is lab result a cure?",
-   "No. (Covered in module 8: Write the balanced briefing. To pass that module: Reader repeats three limits correctly.)"
+   "No. (Covered in module 7: Hype, claims and headlines. To pass that module: Each stage is justified with a quote.)"
   ],
   [
    "Why monitor after approval?",
-   "Long-term effects can appear. (Covered in module 8: Write the balanced briefing. To pass that module: Reader repeats three limits correctly.)"
+   "Long-term effects can appear. (Covered in module 5: Testing and regulation. To pass that module: All stages present; checks are specific.)"
   ]
  ],
  "rubric": [
@@ -265,27 +265,27 @@
   [
    "Drug delivery",
    "L3: learner can read size charts. Focus module: Drug delivery (Understand, 3 h). Carriers can protect a drug and help it reach where it is needed. Key points: Lipid (fat-based) particles protect fragile genetic medicines during delivery. Targeting aims to put drug where it is needed and reduce side effects elsewhere. Particles can be cleared by the liver and kidneys or trigger immune reactions. Each carrier is tested for size, stability, safety and release.",
-   "Teach: open with the worked example. Some vaccines use fat-based particles around genetic instructions so that they survive until they reach cells, then release their cargo. Then set the activity: Draw a delivery diagram labelling carrier, drug, target and clearance route. Mark against the standard: Diagram labels all four and has no false claims. Check at this level: Why does size matter in the body? Model answer: It decides where particles go and how they clear."
+   "Teach: open with the worked example. Some vaccines use fat-based particles around genetic instructions so that they survive until they reach cells, then release their cargo. Then set the activity: Draw a delivery diagram labelling carrier, drug, target and clearance route. Mark against the standard: Diagram labels all four and has no false claims. Check at this level: What does a drug carrier do? Model answer: It protects the drug and helps it reach where it is needed."
   ],
   [
    "Particles in the body",
    "L4: learner can explain delivery and clearance. Focus module: Particles in the body (Analyse, 3 h). Size, shape and surface decide where particles go and how long they stay. Key points: Very small particles may pass through kidneys; larger ones are caught by the liver and spleen. Surface coatings change how the immune system sees them. Long-term build-up is a concern for some materials. Animal-free and human-cell methods help early safety testing where possible.",
-   "Teach: open with the worked example. Studies often report particles around 100 nm circulating longer than particles of 500 nm, which are filtered quickly. Then set the activity: Make a table of size, likely route and a concern for three particle types. Mark against the standard: Entries agree with the sources you cite. Check at this level: What do regulators check? Model answer: Size distribution, stability and safety."
+   "Teach: open with the worked example. Studies often report particles around 100 nm circulating longer than particles of 500 nm, which are filtered quickly. Then set the activity: Make a table of size, likely route and a concern for three particle types. Mark against the standard: Entries agree with the sources you cite. Check at this level: Why does size matter in the body? Model answer: It decides where particles go and how they clear."
   ],
   [
    "Testing and regulation",
    "L5: learner can review claims and regulation. Focus module: Testing and regulation (Evaluate, 3 h). Nanomedicines go through extra checks because size and surface strongly affect behaviour. Key points: Path: lab studies, safety testing, human trials, regulator review, approval, monitoring after sale. Regulators ask for particle size distribution, stability, purity and batch consistency. Manufacturing changes can change behaviour, so they are controlled. Report side effects to the national system.",
-   "Teach: open with the worked example. A batch is rejected because particle size varied beyond the allowed range. The factory fixes mixing time and re-tests before release. Then set the activity: Map the path from lab to patient with at least six stages and one check at each. Mark against the standard: All stages present; checks are specific. Check at this level: Name a risk. Model answer: Inflammation, accumulation or allergy."
+   "Teach: open with the worked example. A batch is rejected because particle size varied beyond the allowed range. The factory fixes mixing time and re-tests before release. Then set the activity: Map the path from lab to patient with at least six stages and one check at each. Mark against the standard: All stages present; checks are specific. Check at this level: What do regulators check? Model answer: Size distribution, stability and safety."
   ],
   [
    "Hype, claims and headlines",
    "L6: learner can coordinate a lab file. Focus module: Hype, claims and headlines (Analyse, 2 h). News often reports lab results as if they were cures. Key points: Stage check: idea, lab, animal-free or animal study, human trial, approved. Be wary of \"miracle\" words and of results in a single small study. Look for independent reviews and trial registry entries. Ask who funded the work.",
-   "Teach: open with the worked example. A headline says tiny particles \"destroy cancer\". The study is in cells in a dish. The learner labels it \"lab stage, not a treatment\". Then set the activity: Review three real headlines and assign each an evidence stage. Mark against the standard: Each stage is justified with a quote. Check at this level: Name a worker control. Model answer: Closed systems or masks."
+   "Teach: open with the worked example. A headline says tiny particles \"destroy cancer\". The study is in cells in a dish. The learner labels it \"lab stage, not a treatment\". Then set the activity: Review three real headlines and assign each an evidence stage. Mark against the standard: Each stage is justified with a quote. Check at this level: How judge a headline? Model answer: Find the evidence stage."
   ],
   [
    "Write the balanced briefing",
    "L7: learner can audit a briefing. Focus module: Write the balanced briefing (Create, 3 h). Combine facts, benefits, risks and fairness. Key points: Cover three uses with benefits, risks and stage. Add access and cost questions. State what is unknown. Test with a non-expert.",
-   "Teach: open with the worked example. The reader can explain why approval takes years and why one lab result is not enough. Then set the activity: Write and present a two-page briefing. Mark against the standard: Reader repeats three limits correctly. Check at this level: How judge a headline? Model answer: Find the evidence stage."
+   "Teach: open with the worked example. The reader can explain why approval takes years and why one lab result is not enough. Then set the activity: Write and present a two-page briefing. Mark against the standard: Reader repeats three limits correctly. Check at this level: Who gets access? Model answer: A fairness question to state."
   ]
  ]
 }

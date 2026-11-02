@@ -102,11 +102,11 @@
    "pts": [
     "Explain faults in plain words, without blame or jargon.",
     "Write a job report: problem, work done, parts, cost, advice.",
-    "Apply a follow-up check after three days.",
+    "Apply a follow-up check three days after each job to confirm the fix still works.",
     "Handle a complaint: listen, restate, fix or refund as agreed.",
     "Write next-step advice in three lines the client can follow.",
     "Keep a log of repeat faults per client to find a deeper cause.",
-    "Ask the client to confirm the problem is solved before closing the ticket."
+    "Identify the repeat faults from the pilot jobs and write one lasting fix for each."
    ],
    "ex": "Job report: Printer would not connect. Cause: new Wi-Fi password. Work: re-connected, tested a print. Advice: write the new password in the office safe. Cost: one hour. A follow-up call on day 3 confirms it still works.",
    "act": "Write five job reports from practice jobs and call a practice client for a follow-up.",

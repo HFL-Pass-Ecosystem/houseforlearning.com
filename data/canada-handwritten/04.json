@@ -10,8 +10,8 @@
    "title": "Understand how investment in AI works",
    "intro": "An investment firm puts money into companies; an AI focus means judging data, models and teams.",
    "pts": [
-    "Stages: seed, early, growth. Each has different risk and information.",
-    "Money comes from limited partners; managers owe them honest reports.",
+    "The main stages are seed, early and growth, and each has a different level of risk and information.",
+    "Money comes from limited partners, and managers owe them honest, regular reports.",
     "AI companies differ: tools, applications, data, services. Judge whether the data or the model is the real asset.",
     "Write a one-page thesis: what we back, why now, what we avoid.",
     "Read one real company's public filings or website and list five claims you can check and five you cannot.",
@@ -50,7 +50,7 @@
     "Compare accuracy on a fair test: examples the model has never seen, drawn the way real customers' data is drawn.",
     "Ask for cost to serve one customer per month and the price they pay, and compute the gross margin."
    ],
-   "ex": "Claim '95% accuracy' tested on the company's own test set; independent sample shows 84%, a gap of 11 points. Memo rating drops from strong to watch. If a customer pays 1,000 a month and serving them costs 300, gross margin is 700 (70%).",
+   "ex": "Claim '95% accuracy' tested on the company's own test set; independent sample shows 84%, a gap of 11 points. Memo rating drops from strong to watch. If a customer pays 1,500 a month and serving them costs 400, gross margin is 1,100 (about 73%).",
    "act": "Review one public AI company and write a two-page memo.",
    "std": "Each claim has evidence or is marked unverified."
   },
@@ -58,10 +58,10 @@
    "title": "Model returns and fees",
    "intro": "Understand how money flows.",
    "pts": [
-    "A fund of 10,000,000 with 2% yearly fee costs 200,000 a year.",
-    "Returns come from a few big winners; most investments return little.",
-    "Model three cases: poor, expected, strong.",
-    "Be clear about fees and carried interest.",
+    "A fund of 10,000,000 with a 2% yearly fee pays its managers 200,000 a year.",
+    "Returns come from a few big winners while most investments return little, so model that spread.",
+    "Model three cases for the fund: poor, expected and strong.",
+    "Be clear about fees and carried interest, and show investors how each is calculated.",
     "Compare fund costs over ten years with a fee table, not a feeling.",
     "Multiple of money = money back divided by money invested. A result of 1.0 means investors only got their money back.",
     "Note that a multiple before fees is higher than what investors keep; show both before and after fees."
@@ -74,15 +74,15 @@
    "title": "Manage the portfolio",
    "intro": "After investing, help and monitor.",
    "pts": [
-    "Quarterly review: revenue, cash, hires, risks.",
-    "Reserve money for follow-on rounds.",
-    "Set triggers for support or exit.",
-    "Report to investors in a fixed format.",
+    "Hold a quarterly review of each company's revenue, cash, hires and risks.",
+    "Reserve money for follow-on rounds in the companies that are working.",
+    "Set clear triggers for extra support or for exit.",
+    "Report to investors in a fixed format every quarter.",
     "Record why you made each decision on the day, so you can learn later.",
     "Give each company a status: on plan, behind or needs help, with a reason and a date to look again.",
     "Count months of cash left (cash divided by monthly spending) and flag any company under 9 months."
    ],
-   "ex": "Quarter page: 10 companies, 2 behind plan (20%), 1 needing a bridge; action: reserve 200,000. A company with 270,000 cash spending 30,000 a month has 9 months left, so it is on the watch list.",
+   "ex": "Quarter page: 10 companies, 2 behind plan (20%), 1 needing a bridge; action: reserve 200,000. A company with 240,000 in cash spending 30,000 a month has 8 months left, under the 9-month line, so it is on the watch list.",
    "act": "Build a quarterly dashboard for a fictional portfolio.",
    "std": "Every company has a status and next step."
   },
@@ -93,7 +93,7 @@
     "Network with universities, accelerators and founders.",
     "Give founders fast, clear answers.",
     "Offer help beyond money: introductions and advice.",
-    "Track deal flow: seen, met, diligence, offer, closed.",
+    "Track deal flow through five stages: seen, met, diligence, offer and closed.",
     "Keep a list of founders you met and notes for follow-up, with their consent.",
     "Say no kindly and quickly, with one honest reason. Founders remember how you treated them.",
     "Ask each founder how they found you and track which source brings the best deals."
@@ -106,10 +106,10 @@
    "title": "Handle AI ethics and conflicts",
    "intro": "Invest responsibly.",
    "pts": [
-    "Screen for harmful uses and biased data.",
-    "Declare conflicts of interest.",
+    "Screen each company for harmful uses and biased data.",
+    "Declare every conflict of interest in writing.",
     "Respect federal and provincial private-sector privacy rules in portfolio companies; check the rule that applies in the province.",
-    "Publish an investment policy.",
+    "Publish an investment policy that investors and founders can read.",
     "Write the policy for what you do if a founder behaves badly.",
     "Ask each company how it tests for unfair results across groups of people, and ask to see the test.",
     "Keep a conflicts register: who owns or advises what, and who left the room when a decision was made."
@@ -122,10 +122,10 @@
    "title": "Pilot a mock fund",
    "intro": "Practise with a paper portfolio.",
    "pts": [
-    "Pick 5 public companies and a thesis.",
-    "Track for 60 days with notes.",
-    "Compare with a simple benchmark.",
-    "Write a review: what the thesis got right and wrong.",
+    "Pick five public companies and write a thesis for the group.",
+    "Track them for 60 days with dated notes.",
+    "Compare the result with a simple benchmark.",
+    "Write a review of what the thesis got right and wrong.",
     "Keep your paper fund simple: no more than five names.",
     "Write the entry reason and the price for each name on day one, before the results arrive.",
     "State clearly that a paper fund is practice; it is not advice and nothing is bought."

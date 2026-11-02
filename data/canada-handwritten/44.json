@@ -73,7 +73,7 @@
     "Compute income per hour for each stream. Drop the weakest one when you can.",
     "Keep one account for the business and keep records.",
     "Calculate the break-even number of jobs for any tool or course you must buy first.",
-    "Set a reserve for tax and slow months as a share of margin; state it as an assumption and check it with the tax agency.",
+    "Set aside a share of each margin for tax and slow months; state the share as an assumption and check it with the tax agency.",
     "Compare income per hour with what you could earn elsewhere in the same hours."
    ],
    "ex": "Stream A earns 80 per job with 20 in costs and 2 hours: 60 / 2 = 30 per hour. Stream B earns 25 per sale with 3 in costs and 0.3 hours: 22 / 0.3 = about 73 per hour. A 300 tool for stream A pays back after 300 / 60 = 5 jobs. Teaching figures only.",
@@ -108,7 +108,7 @@
     "Calculate the funnel: contacts, replies, conversations, jobs, and name the weakest step.",
     "Reply to each message within one working day and write down the answer you gave."
    ],
-   "ex": "Offer: 'Home repairs under 3 hours, same week, fixed price, photo of finished work.' Twenty contacts gave 8 replies (40%), 5 conversations (5/8 = 62.5% of replies) and 2 jobs (40% of conversations). The weakest step is contact to reply, so test a shorter first message.",
+   "ex": "Offer: 'Home repairs under 3 hours, same week, fixed price, photo of finished work.' Twenty contacts gave 6 replies (30%), 5 conversations (5/6, about 83% of replies) and 2 jobs (40% of conversations). The weakest step is contact to reply, so test a shorter first message.",
    "act": "Contact twenty possible customers with consent and book five conversations.",
    "std": "Task: run a two-week outreach. Condition: consent-based. Standard: funnel numbers recorded; one test and its result written."
   },
@@ -117,7 +117,7 @@
    "intro": "Test your plan before you commit more time and money.",
    "pts": [
     "Risk register: income gap, illness, one big customer, rule change, burnout, tax debt.",
-    "Build a cash buffer and check insurance options.",
+    "Build a cash buffer for slow months and ask a licensed adviser which insurance options fit your work.",
     "Run a 60 to 90 day pilot with a stop rule.",
     "Write the review and a 12-month plan; decide which stream to grow, keep or stop.",
     "Calculate a cash buffer equal to three months of personal and business costs.",

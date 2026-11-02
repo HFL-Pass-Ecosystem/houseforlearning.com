@@ -1,0 +1,72 @@
+{
+ "G01-MAT-02": {
+  "steps": [
+   "Step 1, Count in tens: touch ten-sticks one at a time and say 10, 20, 30, 40, 50. Five sticks of ten make 50. Each jump adds one whole ten, so the ones digit stays 0 every time.",
+   "Step 2, Tens and ones: show 3 ten-sticks and 7 loose cubes. Three tens are 30, and 7 more makes 37. Write 3 in the tens place and 7 in the ones place, and say thirty-seven.",
+   "Step 3, Read a number: 64 has a 6 in the tens place and a 4 in the ones place. So it is 6 tens and 4 ones, which is 60 and 4. Draw 6 sticks and 4 cubes to prove it.",
+   "Step 4, Count on from a number: start at 47 and count on ones: 48, 49, 50. After 49 the ones run out, so we make a new ten and the number becomes 50. Then 51, 52 follow.",
+   "Step 5, Check on a hundred square: find 58 in the row that runs from 51 to 60. One step right gives 59, and one step down gives 68, which is ten more. This confirms that moving down a row adds a ten.",
+   "Step 6, Your turn: show 52 with sticks and cubes, then say how many tens and ones. Count on from 96 to 100. Answer: 52 is 5 tens and 2 ones, and the count is 97, 98, 99, 100."
+  ]
+ },
+ "G02-MAT-08": {
+  "steps": [
+   "Step 1, Read the clock to 5 minutes: the minute hand on 3 means 15 minutes past, because each number is 5 minutes. With the hour hand just past 4, the time is quarter past 4, or 4:15.",
+   "Step 2, Count in fives: minute hand on 7 means 7 x 5 = 35 minutes. Count 5, 10, 15, 20, 25, 30, 35. With the hour hand between 6 and 7 the time is 6:35, which is 25 minutes to 7.",
+   "Step 3, Add money: a pen costs 15 dirhams and a notebook costs 28 dirhams. Add: 5 + 8 = 13, write 3 carry 1; 1 + 2 + 1 = 4. Total is 43 dirhams.",
+   "Step 4, Change: pay 50 dirhams for the 43 dirham items. Count up from 43 to 45 is 2, then to 50 is 5, so 7 dirhams change. Check: 43 + 7 = 50.",
+   "Step 5, Time later: it is 3:25 and a film starts in 10 minutes. Count on 10 minutes from 25 to get 35. The film starts at 3:35. Check on a clock face: minute hand moves from 5 to 7.",
+   "Step 6, Your turn: say the time when the minute hand is on 9 and the hour hand is between 8 and 9, and add 24 + 19 dirhams. Answer: 8:45, quarter to 9; and 24 + 19 = 43 dirhams."
+  ]
+ },
+ "G11C-MAT-06": {
+  "steps": [
+   "Step 1, Mean and deviations: data 4, 8, 6, 10, 12 has mean 40/5 = 8. Deviations are -4, 0, -2, 2, 4. Their squares are 16, 0, 4, 4, 16, which add up to 40.",
+   "Step 2, Variance = 40/5 = 8 and standard deviation = root 8 = about 2.83. Check: the sizes of the deviations are 4, 0, 2, 2, 4, and a typical size near 2.83 is believable for this spread.",
+   "Step 3, Addition rule: P(A) = 0.5, P(B) = 0.4 and P(A and B) = 0.2. Then P(A or B) = 0.5 + 0.4 - 0.2 = 0.7. Subtracting the overlap avoids double counting.",
+   "Step 4, Two dice: a sum of 7 happens in 6 ways, (1,6), (2,5), (3,4), (4,3), (5,2), (6,1), out of 36. So P = 6/36 = 1/6.",
+   "Step 5, Independent events: if P(A) = 0.6 and P(B) = 0.3 are independent, then P(A and B) = 0.6 x 0.3 = 0.18, and P(A or B) = 0.6 + 0.3 - 0.18 = 0.72.",
+   "Step 6, Your turn: find the variance of 2, 4, 6, 8. Answer: mean 5, squared deviations 9, 1, 1, 9 sum to 20, so variance 20/4 = 5."
+  ]
+ },
+ "G11S-MAT-06": {
+  "steps": [
+   "Step 1, Expand (1 + x)^4 using Pascal's row 1, 4, 6, 4, 1: 1 + 4x + 6x^2 + 4x^3 + x^4. Check x = 1: 16 and 1 + 4 + 6 + 4 + 1 = 16.",
+   "Step 2, General term: T(r+1) = C(n, r) a^(n-r) b^r. In (2 + x)^5 the coefficient of x^3 is C(5, 3) x 2^2 = 10 x 4 = 40. The third term overall has C(5, 2) = 10 as its binomial coefficient.",
+   "Step 3, AP sum: a = 2, d = 3, n = 15. S = 15/2 x (2 x 2 + 14 x 3) = 15/2 x 46 = 345. The 15th term is 2 + 42 = 44 and 15/2 x (2 + 44) = 345 agrees.",
+   "Step 4, GP sum: first term 3, ratio 2, 8 terms. S = 3(2^8 - 1)/(2 - 1) = 3 x 255 = 765. Check the 8th term: 3 x 128 = 384, and 765 is almost double 384, as expected for ratio 2.",
+   "Step 5, Infinite GP: 1 + 1/2 + 1/4 + ... has ratio 1/2, with |r| < 1, so the sum is a/(1 - r) = 1/(1/2) = 2. When |r| is 1 or more, no such sum exists.",
+   "Step 6, Your turn: find the x^2 coefficient in (1 + 2x)^3 and the sum of 6, 2, 2/3, ... to infinity. Answer: 3 x 4 = 12; and 6/(1 - 1/3) = 9."
+  ]
+ },
+ "G12C-MAT-02": {
+  "steps": [
+   "Step 1, Differentiate: d/dx of 3x^4 - 5x^2 + 2 = 12x^3 - 10x. A constant differentiates to zero and each power drops by one.",
+   "Step 2, Marginal cost: C(x) = 0.5x^2 + 20x + 100 has C'(x) = x + 20. At x = 10 units the marginal cost is 30, the extra cost of making the 11th unit, roughly.",
+   "Step 3, Maximise revenue: R(x) = 50x - x^2. R'(x) = 50 - 2x = 0 gives x = 25. R(25) = 1,250 - 625 = 625. Second derivative -2 is negative, so it is a maximum.",
+   "Step 4, Integrate: the integral of 3x^2 + 4x dx = x^3 + 2x^2 + C. Check by differentiating: 3x^2 + 4x, which returns the original expression.",
+   "Step 5, Definite integral: from 1 to 3 of 2x dx = [x^2] from 1 to 3 = 9 - 1 = 8. This is the area under y = 2x from x = 1 to x = 3, a trapezoid with parallel sides 2 and 6 and width 2: (2 + 6)/2 x 2 = 8.",
+   "Step 6, Your turn: differentiate 4x^3 - 2x + 7 and integrate 6x^2 - 2. Answer: 12x^2 - 2; and 2x^3 - 2x + C."
+  ]
+ },
+ "G12C-MAT-04": {
+  "steps": [
+   "Step 1, Price relative: an item costs 40 in the base year and 50 now. Index = 50/40 x 100 = 125. So prices are 25 percent higher than the base year.",
+   "Step 2, Laspeyres index: base prices 10 and 20, base quantities 5 and 3, current prices 12 and 25. Sum of p1q0 = 12 x 5 + 25 x 3 = 60 + 75 = 135. Sum of p0q0 = 50 + 60 = 110.",
+   "Step 3, Index = 135/110 x 100 = 122.73. The basket that cost 110 would now cost 135, a rise of about 22.7 percent. It uses base-year quantities as weights.",
+   "Step 4, Moving average: yearly sales 20, 24, 28, 26, 30. Three-year averages are (20 + 24 + 28)/3 = 24, (24 + 28 + 26)/3 = 26 and (28 + 26 + 30)/3 = 28. They rise steadily, showing the trend.",
+   "Step 5, Check: the averages 24, 26, 28 rise by 2 each time, while the raw sales 20, 24, 28, 26, 30 dip at 26. So the moving average has smoothed out the short-term dip and shows the upward trend.",
+   "Step 6, Your turn: base prices 8 and 5, base quantities 2 and 4, current prices 10 and 6. Find the Laspeyres index. Answer: (20 + 24)/(16 + 20) x 100 = 44/36 x 100 = 122.22."
+  ]
+ },
+ "G04-MAT-04": {
+  "steps": [
+   "Step 1, Divide 756 by 3 using short division. 7 hundreds / 3 = 2 with 1 left. That 1 hundred joins 5 tens to make 15 tens; 15 / 3 = 5. Then 6 / 3 = 2. Answer 252.",
+   "Step 2, Check by multiplying: 252 x 3 = 756 (2 x 3 = 6, 5 x 3 = 15 write 5 carry 1, 2 x 3 + 1 = 7). The product equals the dividend, so 252 is right.",
+   "Step 3, Division with remainder: 1,475 / 6. 14 / 6 = 2 rem 2; 27 / 6 = 4 rem 3; 35 / 6 = 5 rem 5. So 245 remainder 5. Check: 245 x 6 = 1,470, plus 5 gives 1,475.",
+   "Step 4, Four digits: 3,648 / 4. The 3 thousands cannot be shared among 4, so join them with the hundreds: 36 hundreds / 4 = 9 hundreds. Then 4 tens / 4 = 1 ten and 8 ones / 4 = 2 ones. Result 912. Check: 912 x 4 = 3,648.",
+   "Step 5, Word problem: 1,284 oranges are packed in boxes of 6. 12 / 6 = 2; 8 / 6 = 1 rem 2; 24 / 6 = 4. So 214 boxes with nothing left. Check: 214 x 6 = 1,284.",
+   "Step 6, Your turn: divide 2,596 by 4 and 905 by 5. Answer: 2,596 / 4 = 649 since 649 x 4 = 2,596; and 905 / 5 = 181 since 181 x 5 = 905."
+  ]
+ }
+}

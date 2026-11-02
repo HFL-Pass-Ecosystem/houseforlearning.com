@@ -56,7 +56,7 @@
     "Check the address, phone and name before leaving.",
     "Build a proof routine: photo, signature or code, time, note.",
     "Handle a failed delivery: try the contact, leave a notice, return or hold as agreed.",
-    "Leave parcels only where the sender agreed.",
+    "Leave parcels only in a place the sender has agreed to in writing.",
     "Photograph the parcel at the door with the address visible, showing no more private information than needed.",
     "Refuse items you cannot carry safely, such as fragile or heavy loads without help."
    ],
@@ -77,8 +77,8 @@
     "Report any near miss in the log with date and place."
    ],
    "ex": "Daily check: tyres good, lights work, brakes fine, straps tight. Ten minutes a day is 50 minutes over a five-day week, and prevents a breakdown at noon.",
-   "act": "Make a daily vehicle checklist and use it for one week.",
-   "std": "Task: complete safety checks. Condition: one week. Standard: seven dated checklists with no skipped items."
+   "act": "Make a daily vehicle checklist and use it for one five-day week.",
+   "std": "Task: complete safety checks. Condition: one five-day week. Standard: five dated checklists with no skipped items."
   },
   "6": {
    "title": "Price, costs and cash",

@@ -92,7 +92,7 @@
     "Calculate your real hourly rate by dividing income by all hours, paid and unpaid.",
     "Compare a four-session package with single sessions and say when a discount makes sense."
    ],
-   "ex": "You want 1,600 CAD a month and have 100 CAD costs. You can teach 30 hours a month. Price = (1,600 + 100) / 30 = about 57 CAD per hour before tax. If planning and travel add 10 hours, your real rate is 1,600 / 40 = 40 CAD per hour.",
+   "ex": "You want 1,500 CAD a month and have 150 CAD costs. You can teach 30 hours a month. Price = (1,500 + 150) / 30 = 55 CAD per hour before tax. If planning and travel add 10 hours, your real rate is 1,500 / 40 = 37.50 CAD per hour.",
    "act": "Build a one-month cost and price sheet and test the price with five parents.",
    "std": "Task: set a price. Condition: a spreadsheet and five real reactions. Standard: formulas are visible, the unpaid time is counted and you wrote what you would change if you lost a third of your hours."
   },

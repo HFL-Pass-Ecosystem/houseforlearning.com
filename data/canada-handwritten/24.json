@@ -57,7 +57,7 @@
     "Cities can set rules for taxis and ride services; check the current rule with the local authority.",
     "App drivers are usually self-employed; income is taxable and sales tax rules may apply. Check with the tax agency.",
     "Ask whether your vehicle must pass an inspection for this work; check the provincial rule.",
-    "Find out which licence class your vehicle needs; check the provincial rule.",
+    "Ask the provincial transport office whether your vehicle needs any special plates or permits for paid driving.",
     "Keep your licence, registration and insurance papers current and in the vehicle."
    ],
    "ex": "You ask your insurer in writing: 'Am I covered when I drive for a ride app?' and keep the reply. If the reply says you need extra cover, you buy it before your next shift. You file the reply with your insurance papers.",
@@ -71,12 +71,12 @@
     "Costs: fuel or charging, insurance, repairs, tyres, depreciation, phone, parking and fees.",
     "Cost per kilometre = yearly vehicle costs / yearly kilometres.",
     "Real hourly pay = (earnings - costs) / total hours, including waiting.",
-    "Set aside money for tax and slow weeks.",
+    "Plan for slow weeks by keeping a small cash buffer.",
     "Count unpaid time: waiting, driving to a pickup and charging.",
     "Spread large costs, such as tyres, over the kilometres they last.",
     "Set aside an amount for tax from every payout."
    ],
-   "ex": "Earnings 160, fuel and wear 45, hours 7: net = 160 - 45 = 115, and real pay = 115 / 7 = about 16.4 per hour. If yearly vehicle costs are 6,000 and you drive 20,000 km, cost = 6,000 / 20,000 = 0.30 per km. Teaching figures only.",
+   "ex": "Earnings 154, fuel and wear 42, hours 7: net = 154 - 42 = 112, and real pay = 112 / 7 = 16 per hour. If yearly vehicle costs are 6,000 and you drive 20,000 km, cost = 6,000 / 20,000 = 0.30 per km. Teaching figures only.",
    "act": "Log five shifts and compute real pay per hour for each.",
    "std": "Task: compute real pay. Condition: from your own log. Standard: all costs shown and a mentor can follow."
   },
@@ -124,15 +124,15 @@
     "List the hours you will stop working.",
     "Check your vehicle's condition and costs after 60 days."
    ],
-   "ex": "After 60 days: 62 hours, real pay 15.80 per hour, no incidents. Total real pay = 62 x 15.80 = 979.60. You decide to drive only the best 20 hours a week.",
+   "ex": "After 60 days: 62 hours, real pay 16 per hour, no incidents. Total real pay = 62 x 16 = 992. You decide to drive only the best 20 hours a week.",
    "act": "Run the pilot, keep the weekly log and present a plan to a panel of three.",
    "std": "Task: run a 60-day pilot. Condition: legal, insured driving. Standard: log complete, decision uses numbers, a panel can repeat the plan."
   }
  },
  "price": [
-  20,
+  22,
   6,
-  300,
+  62,
   "hour"
  ],
  "quiz": [

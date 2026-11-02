@@ -45,7 +45,7 @@
     "Group stops by area and time window.",
     "Load in reverse stop order.",
     "Warehouse flow: receive, check, put-away, pick, pack, ship.",
-    "Use simple software.",
+    "Use simple routing software or a spreadsheet to compare route options.",
     "Order stops by time window first, then by distance.",
     "Design the dock with separate receiving and shipping areas where possible and keep aisles clear.",
     "Count touches: every extra handling adds cost and damage risk, so cut one."
@@ -58,10 +58,10 @@
    "title": "Cost per load and per pallet position",
    "intro": "Know your cost.",
    "pts": [
-    "Vehicle cost per km, driver cost per hour, fuel, insurance.",
+    "List the cost items: vehicle, driver, fuel, insurance and warehouse rent.",
     "Warehouse cost per pallet per month.",
     "Utilisation: loaded share of capacity.",
-    "Margin and break-even.",
+    "Work out the margin per load and the number of loads needed to cover fixed costs.",
     "Work out vehicle cost per km: fuel, tires, repairs, depreciation and insurance divided by km driven.",
     "For the warehouse, divide rent, utilities and labour by pallet positions to get cost per position per month.",
     "Test a utilisation case: if loads run 70% full, revenue per trip falls."
@@ -75,9 +75,9 @@
    "intro": "Reliability sells.",
    "pts": [
     "Track on-time and damage rates.",
-    "Inspect and photograph loads.",
-    "Preventive maintenance.",
-    "Handle claims fast.",
+    "Inspect each load at pickup for damage and secure it before departure.",
+    "Do preventive maintenance on a schedule.",
+    "Handle damage claims fast and keep the customer informed.",
     "Record arrival time at each stop against the promised window.",
     "Photograph the load at pickup and at delivery and get a signed receipt.",
     "Schedule maintenance by kilometres and log it; a missed service goes in the risk register."
@@ -90,10 +90,10 @@
    "title": "Win shippers and partners",
    "intro": "Prove reliability.",
    "pts": [
-    "Offer trial loads.",
+    "Prove reliability with trial loads before asking for a long contract.",
     "Quote in writing with terms.",
     "Partner with brokers and warehouses.",
-    "Track funnel.",
+    "Track the funnel from shippers contacted to quotes to customers.",
     "Write a one-page rate card with minimum charge, waiting time and cancellation terms.",
     "Offer a trial of five loads at the normal price, judged against an agreed on-time target.",
     "Ask partner brokers for one thing to improve and record the answer."
@@ -106,10 +106,10 @@
    "title": "Manage safety, weather and cargo risk",
    "intro": "Plan for hazards.",
    "pts": [
-    "Fatigue and speed controls.",
-    "Winter driving plans.",
-    "Cargo insurance.",
-    "Theft prevention.",
+    "Set fatigue and speed controls and follow the hours-of-service rules.",
+    "Plan for winter driving with route alternatives and buffer days.",
+    "Carry cargo insurance that matches the value you move.",
+    "Prevent theft with locked yards, sealed loads and checked drivers.",
     "Set a rule for when a driver must stop for rest or bad weather, and state that no one is penalised for stopping.",
     "Prepare a winter kit and check the provincial rule on tires and chains.",
     "Compare cargo insurance limits with the value of a pallet."
@@ -122,10 +122,10 @@
    "title": "Pilot a lane",
    "intro": "Prove one route.",
    "pts": [
-    "60 days.",
-    "Measure on-time, cost per pallet.",
+    "Run the pilot for 60 days.",
+    "Measure on-time rate and cost per pallet.",
     "Stop rule: margin under 10% means re-price.",
-    "Plan growth.",
+    "Plan growth to more lanes only if the margin holds.",
     "Choose a lane with a willing shipper and repeat loads, such as two a week.",
     "Record cost per pallet and on-time rate every week.",
     "Decide in writing on day 60 whether to continue, re-price or stop."

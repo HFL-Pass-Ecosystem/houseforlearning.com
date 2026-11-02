@@ -89,7 +89,7 @@
     "Set a reorder point = daily use x lead time + safety stock.",
     "Keep spares for the parts with long lead times.",
     "Record batch numbers so a bad lot can be traced.",
-    "Check a sample such as 5 of every 100 parts on arrival and record any bad ones.",
+    "Take a sample such as 5 of every 100 parts on arrival, test them and record any bad ones with the batch number.",
     "Explain that a part can go out of production; plan a last-time buy or a replacement."
    ],
    "ex": "Daily use of a part is 6 and lead time is 14 days, with safety stock of 20. Reorder point = 6 x 14 + 20 = 104 units. When stock falls to 104 an order is placed, and the safety stock of 20 covers a late delivery.",

@@ -1,7 +1,7 @@
 {
  "price": [
   420,
-  150,
+  167,
   160,
   "part"
  ],
@@ -10,10 +10,10 @@
    "title": "Choose parts that suit printing",
    "intro": "Industrial printing pays when parts are complex, low-volume or need fast change. It loses to moulding at high volume.",
    "pts": [
-    "Good fits: custom brackets, jigs and fixtures, spare parts no longer made, lightweight lattices, medical and dental models.",
-    "Poor fits: thousands of identical simple parts.",
+    "Good fits include custom brackets, jigs and fixtures, spare parts that are no longer made, lightweight lattices, and medical and dental models.",
+    "Poor fits are thousands of identical simple parts, where moulding or bulk machining costs less per part.",
     "Compare three routes for one part: machining, moulding, printing; write cost per part at 10, 100 and 10,000 units.",
-    "Find customers: machine shops, repair depots, clinics, product designers, makers of low-volume equipment.",
+    "Find customers among machine shops, repair depots, clinics, product designers and makers of low-volume equipment.",
     "Check the build file with a slicer preview before printing, and keep the preview image with the job record.",
     "Ask the customer for the part's size, load, working temperature, finish and number needed, and write the answers on the quote request.",
     "Count total cost, not only the unit price: moulding adds a tool cost up front, so divide it by the number of parts."
@@ -29,12 +29,12 @@
     "Metal powders can burn or explode; follow storage, grounding and fire rules and keep safety data sheets.",
     "Resins and fumes need ventilation, gloves and eye protection; dispose of waste as hazardous if rules say so.",
     "Parts for aircraft, medical and pressure uses need certified material and process records; check the customer's standard before you quote.",
-    "Workplace safety boards require training records for machine operators.",
+    "Provincial workplace health and safety rules require trained machine operators; keep training records and check the provincial rule for your trade.",
     "Name one test per load direction (pull, bend, impact) and run it on a printed coupon before you quote a safety-related part.",
     "Put the safety data sheet for each material in a binder at the machine, and teach staff to find the first-aid and spill steps.",
     "Check the provincial rule for noise, air quality and waste handling in your building, and ask the landlord and insurer what they require."
    ],
-   "ex": "Row: 'Store titanium powder | provincial fire code and safety board | sealed containers, grounded, signage | before first delivery | inspection note'. For a 3-person shop with 4 materials, that is 4 safety data sheets and 3 training records, 7 documents to file before the first job.",
+   "ex": "Row: 'Store titanium powder | fire code and provincial workplace safety rules | sealed containers, grounded, signage | before first delivery | inspection note'. For a 3-person shop with 4 materials, that is 4 safety data sheets and 3 training records, 7 documents to file before the first job.",
    "act": "Build a rules table for a print shop of three people.",
    "std": "Every hazard row has a control and a training record."
   },
@@ -58,10 +58,10 @@
    "title": "Price a job and prove margin",
    "intro": "Machine hours, material, labour and failure rate set the price.",
    "pts": [
-    "Machine rate = machine cost / expected hours of use, plus power and maintenance.",
-    "Add material used including supports and waste, post-processing labour and inspection.",
+    "Machine rate = machine cost divided by expected hours of use, plus power and maintenance per hour.",
+    "Add the material used including supports and waste, post-processing labour and inspection.",
     "Add a failure allowance: if 1 in 10 builds fails, add about 11% to cost.",
-    "Quote price from cost plus target margin; show the customer a breakdown.",
+    "Set the quote price as cost plus target margin, and show the customer a breakdown.",
     "Margin = price minus cost. Break-even parts = monthly fixed cost divided by margin per part, rounded up.",
     "Test your quote with a 20% rise in failures and with a 10% rise in material price. Write what happens to margin.",
     "Keep a monthly list of the three parts you could not print well and why; it guides your next training topic."
@@ -109,7 +109,7 @@
     "Print only designs you own or have a licence for.",
     "Refuse parts that can be misused to harm, such as weapons components.",
     "Keep customer files secure and delete on agreement.",
-    "Risk register: machine breakdown, powder incident, customer file leak, one big customer lost.",
+    "Keep a risk register that covers machine breakdown, a powder incident, a customer file leak and the loss of one big customer.",
     "Offer one-page design tips so customers send better files.",
     "Put ownership of designs in the quote: who owns the file, the part and any improvements. Ask a lawyer to review your terms.",
     "Write down what you will say to a customer asking for a part you must refuse, and keep a log of refusals."
@@ -125,9 +125,9 @@
     "Pilot 60 days with 3 customers and measures: yield, turnaround, margin.",
     "Stop rule: margin below 30% after 40 jobs means re-quote or stop.",
     "Add a second machine only when the first runs above 60% use.",
-    "Plan funding: manufacturing grants and equipment lease.",
+    "Plan funding from manufacturing grants and an equipment lease.",
     "Send a feedback message three days after delivery and file the answer.",
-    "Use = hours printing / hours available. Track it weekly from the machine log.",
+    "Machine use = hours printing divided by hours available; track it weekly from the machine log.",
     "Check the funding programmes' rules and dates yourself, and compare lease cost with buying."
    ],
    "ex": "Result: 41 jobs, margin 44%, use 58%. Margin is above the 30% stop line, but use is below 60%; decision: hold until use passes 60%. At 160 machine hours available a week, 58% means about 93 hours printing and 60% means 96 hours.",

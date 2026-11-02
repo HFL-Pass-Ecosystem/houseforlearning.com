@@ -116,7 +116,7 @@
     "Step 1, Divide 756 by 3 using short division. 7 hundreds / 3 = 2 with 1 left. That 1 hundred joins 5 tens to make 15 tens; 15 / 3 = 5. Then 6 / 3 = 2. Answer 252.",
     "Step 2, Check by multiplying: 252 x 3 = 756 (2 x 3 = 6, 5 x 3 = 15 write 5 carry 1, 2 x 3 + 1 = 7). The product equals the dividend, so 252 is right.",
     "Step 3, Division with remainder: 1,475 / 6. 14 / 6 = 2 rem 2; 27 / 6 = 4 rem 3; 35 / 6 = 5 rem 5. So 245 remainder 5. Check: 245 x 6 = 1,470, plus 5 gives 1,475.",
-    "Step 4, Four digits: 3,648 / 4. 36 / 4 = 9; 4 / 4 = 1; 8 / 4 = 2. But 3 / 4 gives 0 first, so the quotient starts at 36: result 912. Check: 912 x 4 = 3,648.",
+    "Step 4, Four digits: 3,648 / 4. The 3 thousands cannot be shared among 4, so join them with the hundreds: 36 hundreds / 4 = 9 hundreds. Then 4 tens / 4 = 1 ten and 8 ones / 4 = 2 ones. Result 912. Check: 912 x 4 = 3,648.",
     "Step 5, Word problem: 1,284 oranges are packed in boxes of 6. 12 / 6 = 2; 8 / 6 = 1 rem 2; 24 / 6 = 4. So 214 boxes with nothing left. Check: 214 x 6 = 1,284.",
     "Step 6, Your turn: divide 2,596 by 4 and 905 by 5. Answer: 2,596 / 4 = 649 since 649 x 4 = 2,596; and 905 / 5 = 181 since 181 x 5 = 905."
    ]

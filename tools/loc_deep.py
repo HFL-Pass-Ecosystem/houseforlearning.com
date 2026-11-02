@@ -102,7 +102,13 @@ def _expert(pt):
     return pt if (not _RULE.search(pt) or 'local expert' in pt) else pt.rstrip() + (' ' if pt.rstrip().endswith('.') else '. ') + 'Check with a local expert.'
 # Price level per place: sample amounts in the sector data are written once as '{c} N' in a base unit (about one US dollar)
 # and scaled here by a whole-number factor so sums stay exact. ky 1 (Cayman prices are high), mx 20, hk 8, ge 3.
-PRICE_LEVEL = {'ky': 1, 'mx': 20, 'hk': 8, 'ge': 3}
+# ky and hk are high-cost places: sample sums are scaled up and local fixed costs are lifted (checked with a local expert)
+FIXED_LEVEL = {'ky': 2, 'hk': 3}
+try:
+    from loc_deep_units import UNITS
+except ImportError:
+    UNITS = {}
+PRICE_LEVEL = {'ky': 2, 'mx': 20, 'hk': 8, 'ge': 3}
 _AMT = _re.compile(r'\{c\} ?(\d[\d,]*)(\.\d+)?')
 def _scale(txt, c, k):
     def f(m):
@@ -112,6 +118,8 @@ def _scale(txt, c, k):
 def build(L, idx, sl, topic, rows):
     L = copy.deepcopy(L); c = L['cur'].split(' or ')[0]; k = PRICE_LEVEL.get(L['k'], 1)
     L['price'], L['var'], L['fixed'] = LE.scaled(L, idx)
+    _f = FIXED_LEVEL.get(L['k'], 1); L['price'], L['var'], L['fixed'] = L['price'] * _f, L['var'] * _f, L['fixed'] * _f
+    L['unit'] = UNITS.get(sl, L['unit'])
     L['item'] = f'a small {topic} business'
     mods = F.modules(L)
     mods[1] = LE.build.__globals__['F'].modules(L)[1]

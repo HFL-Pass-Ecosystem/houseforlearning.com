@@ -1,0 +1,35 @@
+{
+ "G11C-ACC-06": {
+  "steps": [
+   "Step 1, Set up accounts: In a spreadsheet Hana creates a sheet called Ledger with columns Account, Debit, Credit. She enters Cash 15,000 Dr, Debtors 8,000 Dr, Purchases 8,000 Dr, Rent 3,000 Dr, Capital 10,000 Cr, Sales 20,000 Cr, Creditors 4,000 Cr.",
+   "Step 2, Total with formulas: In B9 she types =SUM(B2:B5), which adds Cash, Debtors, Purchases and Rent to 34,000. In C9 she types =SUM(C6:C8) for Capital, Sales and Creditors, giving 34,000. The two totals agree, so the trial balance balances.",
+   "Step 3, Record a transaction: To enter the rent line through software, the journal is Rent Dr 3,000, Cash Cr 3,000. Click path: Transactions, New journal, choose date, select accounts, enter 3,000 on each side and Post. This is the entry behind the existing Rent line, not a second payment.",
+   "Step 4, Check the effect: After posting rent, debits and credits still match because every journal has equal debit and credit lines. If she typed 3,000 against Rent but 300 against Cash, the software would refuse to post or show a difference of 2,700.",
+   "Step 5, Profit report: In a Profit and Loss sheet she types =C7-B4-B5 using Sales, Purchases and Rent cells, which is 20,000 minus 8,000 minus 3,000 and equals 9,000. The software report Reports, Profit and Loss would show the same 9,000.",
+   "Step 6, Protect and back up: She locks the formula cells, saves a copy named ledger-term1, and keeps an audit note of who entered what. Computers speed up arithmetic, but checking the trial balance remains the accountant's job.",
+   "Your turn: Cash 6,000 Dr, Sales 9,000 Cr, Capital 5,000 Cr, Purchases 4,000 Dr, Rent 2,000 Dr, Debtors 2,000 Dr. Does it balance? Model answer: Dr is 6,000 plus 4,000 plus 2,000 plus 2,000, which is 14,000; Cr is 9,000 plus 5,000, which is 14,000; yes, and profit is 9,000 minus 4,000 minus 2,000, or 3,000."
+  ]
+ },
+ "G12C-ACC-01": {
+  "steps": [
+   "Step 1, The facts: A and B are partners with fixed capitals of 300,000 and 200,000 and a profit sharing ratio of 3:2. Net profit is 100,000. Terms: interest on capital 10 percent, salary to B of 12,000, interest on drawings 450 for A and 300 for B.",
+   "Step 2, Interest on capital: A gets 10 percent of 300,000, which is 30,000. B gets 10 percent of 200,000, which is 20,000. Total 50,000 is an appropriation of profit, not an expense, and is credited to the partners' current accounts because capitals are fixed.",
+   "Step 3, Appropriation account: Net profit 100,000, less interest on capital 50,000, less B's salary 12,000, plus interest on drawings 750 (450 plus 300), leaves 38,750 to share. That is 100,000 minus 50,000 minus 12,000 plus 750.",
+   "Step 4, Share the balance: A gets 3 over 5 of 38,750, which is 23,250. B gets 2 over 5, which is 15,500. Check: 23,250 plus 15,500 equals 38,750, so the whole balance is shared.",
+   "Step 5, A's current account: Opening 5,000 Cr, plus interest on capital 30,000 and profit share 23,250 gives 58,250 on the credit side. Debits are drawings 15,000 and interest on drawings 450, totalling 15,450. Closing balance is 42,800 Cr.",
+   "Step 6, B's current account and proof: Credits are 3,000 opening plus 20,000 plus salary 12,000 plus 15,500, which is 50,500. Debits are 10,000 plus 300, which is 10,300. Closing balance is 40,200 Cr. Proof of profit shared: A 30,000 plus 23,250 minus 450 is 52,800; B 20,000 plus 12,000 plus 15,500 minus 300 is 47,200; together 100,000.",
+   "Your turn: C and D, fixed capitals 100,000 and 50,000, interest 8 percent, profit 30,000, ratio 2:1, no salary. Model answer: interest 8,000 and 4,000; balance 18,000 shared 12,000 and 6,000; C gets 20,000 and D 10,000, total 30,000."
+  ]
+ },
+ "G12C-ACC-05": {
+  "steps": [
+   "Step 1, The data: Current assets 180,000 including inventory 64,000; current liabilities 90,000; revenue 800,000; cost of goods sold 560,000; net profit 80,000; long-term debt 200,000; equity 400,000; opening inventory 48,000.",
+   "Step 2, Liquidity: Current ratio is 180,000 divided by 90,000, which is 2:1. Quick ratio is (180,000 minus 64,000) divided by 90,000, which is 116,000 over 90,000, about 1.29:1. Both show enough short-term resources to pay current liabilities.",
+   "Step 3, Solvency: Debt-equity ratio is 200,000 divided by 400,000, which is 0.5:1. Debt is half of equity, so the firm is not heavily borrowed. A lower ratio means lower financial risk, though industries differ.",
+   "Step 4, Profitability: Gross profit is 800,000 minus 560,000, which is 240,000, so the gross profit ratio is 240,000 over 800,000, which is 30 percent. The net profit ratio is 80,000 over 800,000, which is 10 percent.",
+   "Step 5, Activity: Average inventory is (48,000 plus 64,000) divided by 2, which is 56,000. Inventory turnover is 560,000 divided by 56,000, which is 10 times. Receivables turnover is 12 times if credit sales are 600,000 and average receivables 50,000, so collection takes about 30 days.",
+   "Step 6, Interpret: Compare each ratio with last year's and with similar firms. A 10 percent net margin, 2:1 current ratio and 10 times turnover suggest healthy performance, but one year is not a trend, so a comparison is needed before judging.",
+   "Your turn: Current assets 120,000, current liabilities 80,000, inventory 40,000. Find the current and quick ratios. Model answer: current ratio 120,000 over 80,000, which is 1.5:1; quick ratio 80,000 over 80,000, which is 1:1."
+  ]
+ }
+}

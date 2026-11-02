@@ -23,7 +23,7 @@
     "Explain that each province runs its own public health insurance and that rules, wait times and covered services differ; check the current rule locally.",
     "Explain common paths: family doctor or clinic, specialist referral, hospital, home care.",
     "Explain that patients have the right to information and to consent or refuse; check the current rights statement for your province.",
-    "Explain complaint paths: the hospital patient office, the provincial health ombudsman or the college that regulates the professional.",
+    "Explain complaint paths: the hospital patient relations office, a provincial patient ombudsman or advocate office where one exists, or the college that regulates the professional.",
     "Explain that coverage for newcomers and for drugs varies; check the current rule locally.",
     "Explain that patients may ask for a second opinion; check the rule in your province.",
     "Find the name and phone number of the patient relations office at your local hospital."
@@ -76,7 +76,7 @@
     "Plan transport, timing and who can come with the patient.",
     "Ask the care team how to reach them with questions after the visit."
    ],
-   "ex": "The visit page lists three questions. The doctor answers two. The advocate notes the third was not answered and asks it before they leave. Two of three are answered, so one goes on the follow-up list unless it is answered on the spot.",
+   "ex": "The visit page lists three questions. The doctor answers two. The advocate notes the third was not answered and asks it before they leave. If it is still unanswered, it goes on the follow-up list with a date to ask again.",
    "act": "Prepare a visit page, attend or role-play a visit and write a follow-up list.",
    "std": "Task: support a visit. Condition: a real or role-play visit. Standard: questions were asked, decisions were written and a follow-up list was made."
   },
@@ -124,7 +124,7 @@
     "Sort case outcomes into solved, partly solved and referred.",
     "Share lessons with your supervisor with identifying details removed."
    ],
-   "ex": "After 60 days an advocate sees that 6 of 10 cases stall on lost referrals. She builds a referral tracker and shares it with the patients she helps.",
+   "ex": "After 60 days an advocate sees that 6 of 10 cases stall on lost referrals. She builds a referral tracker and shares it with her supervisor. Pricing note: if a paid advocacy hour were priced at 60 CAD with 5 CAD of direct cost for printing and transport, the margin would be 55 CAD an hour, or 1,650 CAD over 30 hours; check the local rules on charging fees before you charge anyone..",
    "act": "Run a 60-day supervised pilot and present the review to a panel of three.",
    "std": "Task: run an advocacy pilot. Condition: 60 days with supervision and consent. Standard: records are complete, privacy is kept and the review reasons from evidence."
   }
@@ -146,7 +146,7 @@
   ],
   [
    "Name two complaint routes.",
-   "The hospital patient office and the provincial health ombudsman or professional college."
+   "The hospital patient relations office, and a provincial patient ombudsman or the professional's college."
   ],
   [
    "Should an advocate give medical advice?",

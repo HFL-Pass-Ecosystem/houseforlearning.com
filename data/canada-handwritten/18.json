@@ -12,7 +12,7 @@
    "pts": [
     "Know the hierarchy: reduce, reuse, recycle, recover, dispose.",
     "Measure a stream: tonnes, composition, sources.",
-    "Identify buyers for recovered materials.",
+    "Choose materials that have a market where you are; a material nobody buys is a cost, not a product.",
     "Pick a niche: construction waste, organics, e-waste, site clean-up.",
     "Sort a sample into wood, metal, drywall, plastics and organics, and weigh each.",
     "Find who buys each recovered material and what contamination limit they set.",
@@ -44,8 +44,8 @@
    "pts": [
     "Route collection; sort at source if possible.",
     "Design the sorting line and storage.",
-    "Test contamination levels.",
-    "Record every load.",
+    "Test contamination levels by customer to see who needs help sorting.",
+    "Record every load with date, source, weight and condition.",
     "Place labelled bins where waste is made, using pictures as well as words.",
     "Size storage for a week of peak flow and keep fire separation between piles.",
     "Weigh the contaminants in ten sample loads."
@@ -58,12 +58,12 @@
    "title": "Cost per tonne and revenue",
    "intro": "Gate fees plus material sales.",
    "pts": [
-    "Costs: collection, labour, equipment, disposal.",
-    "Revenue: collection fee, gate fee, material sales.",
-    "Margin per tonne.",
-    "Break-even.",
+    "List costs: collection, labour, equipment and disposal.",
+    "Add revenue per tonne from collection fees, gate fees and material sales.",
+    "Work out margin per tonne as price minus cost.",
+    "Work out break-even tonnes as fixed cost divided by margin per tonne.",
     "Work out cost per tonne from trucks, fuel, labour and tipping fees divided by tonnes handled.",
-    "List revenue lines: collection fees, gate fees and material sales.",
+    "Check how much revenue depends on recovered-material prices, since those can fall.",
     "Test a price fall, since recovered-material prices change."
    ],
    "ex": "Price 180 per tonne; cost 120; margin 60; fixed cost 540,000 a year gives 540,000 / 60 = 9,000 t. If the price falls 10% to 162, margin is 42 and break-even rises to 540,000 / 42 = about 12,857 t. Teaching figures in CAD.",
@@ -74,10 +74,10 @@
    "title": "Operate safely and measure",
    "intro": "Keep records.",
    "pts": [
-    "Weigh in and out.",
-    "Daily safety briefing.",
-    "Spill kits and drills.",
-    "Report diversion rate.",
+    "Weigh loads in and recovered material out so the tonnes balance.",
+    "Keep protective gear checked and in good condition for every worker.",
+    "Keep spill kits stocked and run spill and fire drills.",
+    "Report the diversion rate to management each month.",
     "Weigh every load and keep a scale ticket with date, vehicle and weight.",
     "Hold a daily briefing on hazards, protective gear, who is on site and exits.",
     "Compute diversion rate as diverted tonnes divided by total tonnes."
@@ -90,10 +90,10 @@
    "title": "Win contracts and partners",
    "intro": "Win with compliance and price.",
    "pts": [
-    "Municipal and commercial tenders.",
-    "References.",
-    "Certified reporting.",
-    "Track funnel.",
+    "Look for municipal and commercial tenders that match your permits.",
+    "Collect references from past clients.",
+    "Offer certified reporting of tonnes diverted.",
+    "Track bids, shortlists and wins.",
     "Read each tender for scoring weights, mandatory forms and reporting duties.",
     "Prepare references that show outcomes such as tonnes diverted.",
     "Price with a margin and a fuel-escalation clause."
@@ -106,10 +106,10 @@
    "title": "Manage contamination, community and liability risk",
    "intro": "Harm lasts.",
    "pts": [
-    "Odour, noise and traffic complaints.",
-    "Fire at storage.",
-    "Financial assurance.",
-    "Insurance.",
+    "Expect odour, noise and traffic complaints and plan controls for each.",
+    "Plan for fire at storage areas.",
+    "Understand financial assurance: security a regulator may require to cover clean-up if you fail.",
+    "Keep insurance current for pollution, property and liability.",
     "Keep a complaint log with date, type, response and closing date.",
     "Reduce fire risk with separate piles, temperature checks, extinguishers and fire-truck access.",
     "Check that insurance covers pollution and check the provincial financial-assurance rule."
@@ -122,10 +122,10 @@
    "title": "Pilot a stream",
    "intro": "Prove one stream.",
    "pts": [
-    "60 days.",
-    "Measure diversion, cost per tonne.",
+    "Run the pilot for 60 days.",
+    "Measure diversion rate and cost per tonne.",
     "Stop rule: contamination over 15% means fix.",
-    "Plan scale.",
+    "Plan to scale only if the stream passes the stop rule.",
     "Choose one stream, such as clean wood from three sites.",
     "Weigh in, sort and weigh out, and keep the tickets.",
     "Report results to the buyer and ask what they want improved."

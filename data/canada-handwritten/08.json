@@ -27,7 +27,7 @@
    "intro": "Electronics have many rules.",
    "pts": [
     "Radio and electrical safety approvals are required before sale in Canada; test with an accredited lab.",
-    "Hazardous substances and battery transport have rules.",
+    "Hazardous substances and battery transport are regulated, so check the federal and provincial rules for each.",
     "Import and customs rules and duties apply to parts and finished goods.",
     "Supply-chain laws on forced labour or child labour may require reporting or supplier checks; check whether a federal or provincial rule applies to your firm, and keep your supplier records either way.",
     "Ask the accredited lab for a written list of tests and how long they take; plan the launch after the certificate date, not before.",
@@ -42,9 +42,9 @@
    "title": "Design for repair and long life",
    "intro": "Design decisions fix cost, weight and repair.",
    "pts": [
-    "Use screws and connectors, not glue, for battery and screen.",
+    "Use screws and connectors, not glue, for the battery and screen.",
     "Choose standard ports and modular parts.",
-    "Plan software updates for the promised years and who pays.",
+    "Plan software updates for the promised years and decide who pays.",
     "Write the repair guide before the first sale.",
     "Do a teardown of a phone you own: count screws, glued parts and cable connectors, and time a battery replacement.",
     "Set a repair target in minutes and tools for each common fault: screen, battery and charging port.",
@@ -58,8 +58,8 @@
    "title": "Source ethically and check suppliers",
    "intro": "Know your suppliers.",
    "pts": [
-    "Map tiers: assembler, component makers, mineral sources.",
-    "Ask for audit reports and visit where possible.",
+    "Map the tiers: assembler, component makers and mineral sources.",
+    "Ask for audit reports and visit suppliers where possible.",
     "Use third-party mineral tracing schemes where they exist.",
     "Write corrective actions with dates when you find problems.",
     "Ask your assembler for a list of every supplier and sub-supplier, and mark the ones nobody has checked.",
@@ -74,10 +74,10 @@
    "title": "Cost the phone and set the price",
    "intro": "Costs are bill of materials, assembly, certification, software and support.",
    "pts": [
-    "Bill of materials per phone, plus assembly and freight.",
-    "Fixed costs: tooling, certification, software team.",
-    "Warranty provision.",
-    "Margin and break-even.",
+    "Build a bill of materials per phone, plus assembly and freight.",
+    "List fixed costs: tooling, certification and the software team.",
+    "Add a warranty provision to the cost.",
+    "Work out margin and break-even from price, cost and fixed cost.",
     "List the bill of materials with part, supplier, unit price and quantity; total it and check the sum twice.",
     "Add the warranty provision as a percentage of sales and test its effect on margin.",
     "Compute break-even at three prices to see how sensitive it is."
@@ -91,7 +91,7 @@
    "intro": "The relationship continues after sale.",
    "pts": [
     "Sell direct and through carriers or retailers.",
-    "Support by chat and repair partners.",
+    "Provide support by chat and through repair partners.",
     "Offer trade-in and take-back.",
     "Publish a yearly supply-chain report.",
     "Write a support promise: reply within one working day, with repair partners in named cities.",
@@ -106,10 +106,10 @@
    "title": "Handle data, security and greenwashing risk",
    "intro": "Trust can be lost fast.",
    "pts": [
-    "Secure boot, updates and privacy by default.",
-    "Avoid vague green words; use measured claims.",
-    "Plan for component shortages.",
-    "Prepare a recall plan.",
+    "Build in secure boot, signed updates and privacy by default.",
+    "Avoid vague green words and use measured claims.",
+    "Plan for component shortages with a second source and buffer stock.",
+    "Prepare a recall plan before the first sale.",
     "Test the phone for security basics: encrypted storage, signed updates and no hidden tracking.",
     "Check each green claim against a measurement (grams of recycled plastic, share of minerals traced) before it goes in an advert.",
     "Prepare a recall notice template with steps, contact point and timeline."
@@ -122,10 +122,10 @@
    "title": "Pilot a small run",
    "intro": "Build 200 units.",
    "pts": [
-    "Pilot run with early buyers.",
-    "Track failure rate and support tickets.",
-    "Stop rule: return rate over 8% means fix before the next batch.",
-    "Plan the second batch.",
+    "Run the pilot with early buyers.",
+    "Track the failure rate and support tickets.",
+    "Set a stop rule: if the return rate is over 8%, fix the cause before the next batch.",
+    "Plan the second batch after the review.",
     "Choose 200 early buyers who agree to give feedback and record each serial number.",
     "Log every return and support ticket with its cause and group the causes weekly.",
     "Hold a go/no-go meeting with the stop rule and the figures printed on the table."

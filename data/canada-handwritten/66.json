@@ -36,7 +36,7 @@
    "title": "Know the rules: privacy, children, money and accessibility",
    "intro": "Apps handle personal data and money. Canadian rules apply.",
    "pts": [
-    "Explain that federal private-sector privacy law and provincial laws set how you collect, use and keep personal data; Quebec has its own law; check the current rules.",
+    "Explain that federal and provincial privacy laws set how you collect, use and keep personal data, that Quebec has its own law, and that you should check the current rules.",
     "Explain that an app needs a clear privacy notice that says what you collect and why.",
     "Explain that anti-spam law needs consent before you send commercial messages.",
     "Explain that apps for children need extra care and may need parental consent; check the current rules.",
@@ -58,7 +58,7 @@
     "Plan for poor connections: the app should handle no internet.",
     "Test paper screens with three real users and note where they hesitate.",
     "Use the same pattern for the same action on every screen.",
-    "Check colour contrast with a free checker and test the screen in bright light."
+    "Test the screen in bright light and on a small phone to see whether text and buttons can still be read."
    ],
    "ex": "A tester cannot find 'Save'. The designer makes the button larger, puts it at the bottom and uses the word 'Save' not an icon. The next three testers find it at once.",
    "act": "Make a clickable mock-up of your app and test it with three users.",

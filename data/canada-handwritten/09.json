@@ -10,15 +10,15 @@
    "title": "Understand greenhouse gas conversion",
    "intro": "These machines capture or convert gases such as carbon dioxide or methane into fuels, chemicals or solids.",
    "pts": [
-    "Know the main routes: capture and store, convert to fuel, convert to materials, burn-off of methane.",
-    "Learn the numbers: tonnes captured per year, energy used per tonne, cost per tonne.",
-    "Buyers: industrial plants, landfills, farms, energy firms, municipalities.",
-    "Pick one source gas and one buyer type.",
+    "Know the main routes: capture and store, convert to fuel, convert to materials, and burn off methane.",
+    "Learn the key numbers: tonnes captured per year, energy used per tonne and cost per tonne.",
+    "Buyers include industrial plants, landfills, farms, energy firms and municipalities.",
+    "Pick one source gas and one buyer type to start.",
     "Find a real gas source near you (landfill, manure digester, industrial stack) and write its flow in tonnes per year, with where the figure came from.",
     "Compare routes by cost per tonne, energy needed and product value; pick the simplest one that meets the buyer's need.",
     "Write what a buyer must believe to buy: the gas flow is steady, the product sells and the permit can be obtained."
    ],
-   "ex": "Landfill gas contains roughly half methane. Using a 100-year factor of 25 (use the factor your reporting rule requires), converting 1,000 t of methane avoids about 1,000 x 25 = 25,000 t carbon-dioxide equivalent. If the unit converts only 80% of the 1,000 t, then 800 t x 25 = 20,000 t carbon-dioxide equivalent is avoided.",
+   "ex": "Landfill gas contains roughly half methane. Using a 100-year factor of 25 (use the factor your reporting rule requires), converting 1,000 t of methane avoids about 1,000 x 25 = 25,000 t carbon-dioxide equivalent, before you subtract any carbon dioxide the process itself releases. If the unit converts only 80% of the 1,000 t, then 800 t x 25 = 20,000 t carbon-dioxide equivalent is avoided.",
    "act": "Write a one-page problem statement with source, gas, volume and buyer.",
    "std": "Volumes have units and sources."
   },
@@ -42,15 +42,15 @@
    "title": "Design a small conversion unit",
    "intro": "Start with mass and energy balance.",
    "pts": [
-    "Draw block diagram: inlet gas, clean-up, reactor, product, vent.",
+    "Draw a block diagram: inlet gas, clean-up, reactor, product and vent.",
     "Calculate mass in = mass out for one hour.",
     "Choose sensors for flow, temperature, pressure and gas composition.",
-    "Plan safety: shut-offs, leak detection, venting.",
+    "Plan safety with shut-offs, leak detection and venting.",
     "Choose units (kg per hour) and use them everywhere on the diagram.",
     "Size the reactor by residence time: volume = flow x time. Check one example by hand.",
     "List the three worst failures (leak, over-pressure, loss of power) and the safe state for each."
    ],
-   "ex": "Inlet 100 kg per hour gas; product 62 kg; vent 4 kg; unaccounted 34 kg (100 - 62 - 4) = 34%, so investigate leak or measurement. After fixing a valve: product 90, vent 6, unaccounted 4 = 4%, within the 5% limit. A flow of 20 m3 per hour with 3 minutes of residence needs 20 x 3 / 60 = 1 m3 of reactor.",
+   "ex": "Inlet 100 kg per hour gas; product 62 kg; vent 4 kg; unaccounted 100 - 62 - 4 = 34 kg, or 34%, so investigate leaks or measurement error. After fixing a valve: product 90, vent 6, unaccounted 4 = 4%, within the 5% limit. A flow of 20 m3 per hour with 3 minutes of residence needs 20 x 3 / 60 = 1 m3 of reactor.",
    "act": "Complete a balance for a chosen design.",
    "std": "Balance within 5%."
   },
@@ -58,15 +58,15 @@
    "title": "Cost the machine and the tonne",
    "intro": "Customers buy cost per tonne avoided.",
    "pts": [
-    "Capital cost spread over years of life.",
-    "Operating cost: power, catalysts, labour, maintenance.",
-    "Revenue: product sales and credits.",
-    "Break-even and payback.",
+    "Spread the capital cost over the years of life.",
+    "List operating cost: power, catalysts, labour and maintenance.",
+    "List revenue from product sales and credits.",
+    "Work out break-even and payback.",
     "Separate capital and operating cost lines, and give each a source: quote, price list or stated assumption.",
     "Test three scenarios: 50%, 75% and 100% of design capacity, and compute cost per tonne for each.",
     "Compare with the buyer's current cost per tonne (for example flaring or a carbon price) to see the gap."
    ],
-   "ex": "Machine 640,000 over a 10-year life = 64,000 a year; operating cost 150,000 a year; total 214,000. At 5,000 tonnes a year the cost is 214,000 / 5,000 = about 43 per tonne; at 75% use (3,750 tonnes) it is 214,000 / 3,750 = about 57. Compare with the credit or product price per tonne. Teaching figures in CAD.",
+   "ex": "Machine 640,000 over a 10-year life = 64,000 a year; operating cost 150,000 a year; total 214,000. At 5,000 tonnes a year the cost is 214,000 / 5,000 = about 43 per tonne; at 75% use (3,750 tonnes) it is 214,000 / 3,750 = about 57. Compare with the credit or product price per tonne. At a sale price of 640,000 and a build cost of 420,000, the maker earns 220,000 per machine (about 34%). Teaching figures in CAD.",
    "act": "Compute cost per tonne and payback.",
    "std": "Assumptions listed."
   },
@@ -74,10 +74,10 @@
    "title": "Operate, measure and verify",
    "intro": "Claims need data.",
    "pts": [
-    "Install calibrated meters.",
+    "Install calibrated meters on every input and output.",
     "Log inputs and outputs daily.",
-    "Arrange third-party verification.",
-    "Maintenance schedule and spares.",
+    "Arrange third-party verification of your results.",
+    "Keep a maintenance schedule and a stock of spares.",
     "Write a daily check list: read meters, check alarms, walk the unit for leaks, sign and date.",
     "Calibrate each meter on a schedule and keep the certificate; never adjust figures after the fact.",
     "Compute uptime = hours running / hours planned and report it monthly."
@@ -90,10 +90,10 @@
    "title": "Win a pilot site",
    "intro": "Offer a risk-free test.",
    "pts": [
-    "Approach site managers with data.",
-    "Offer pilot with shared cost.",
-    "Show permits and safety plan.",
-    "Align with their climate targets.",
+    "Approach site managers with data on their own gas.",
+    "Offer a pilot with shared cost.",
+    "Show your permits and safety plan.",
+    "Align the pilot with the site's climate targets.",
     "Prepare a one-page site brief: gas flow, space, power, permit path and who pays what.",
     "Offer a shared-cost pilot: the site gives space and gas, you give the unit and staff, and the data belongs to both.",
     "Ask the site for its emissions target and show how the pilot contributes in tonnes."
@@ -106,10 +106,10 @@
    "title": "Manage safety, claims and community",
    "intro": "Be accurate and safe.",
    "pts": [
-    "Hazard review before start-up.",
-    "Claims backed by verified data.",
-    "Consult neighbours and communities.",
-    "Emergency plan.",
+    "Run a hazard review before start-up.",
+    "Back every claim with verified data.",
+    "Consult neighbours and communities early.",
+    "Write an emergency plan and practise it.",
     "Run a hazard review with someone outside the design team; log each hazard with a control and an owner.",
     "Check each public claim against verified data; if it is not verified, say 'estimated' and give the method.",
     "Hold an open meeting with neighbours and record their questions and your answers."
@@ -122,10 +122,10 @@
    "title": "Pilot and scale",
    "intro": "Prove one unit.",
    "pts": [
-    "Run 90 days.",
-    "Compare cost per tonne with plan.",
-    "Stop rule: uptime under 70% means fix.",
-    "Plan manufacturing.",
+    "Run the pilot for 90 days.",
+    "Compare cost per tonne with the plan.",
+    "Set a stop rule: if uptime is under 70%, stop and fix.",
+    "Plan manufacturing of the next unit after the review.",
     "Write the run plan: 90 days, daily logs and a weekly review.",
     "Compare measured cost per tonne with the plan each month and explain each difference.",
     "Outline the manufacturing plan: parts list, suppliers and build time for the next unit."

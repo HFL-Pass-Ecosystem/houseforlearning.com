@@ -193,6 +193,9 @@
     }
     pick = code;
     go.href = target(code);
+    // The translated copy lives on another web address: sign-in and unlocked modules stay on the English page.
+    var nt = document.getElementById('lang-note');
+    if (nt) nt.textContent = NOTE + (document.querySelector('.acc-bar') ? ' Your sign-in and unlocked modules stay on the English page, so come back to it to keep learning.' : '');
     list.hidden = true; q.hidden = true; none.hidden = true;
     panel.querySelector('.lang-lab').hidden = true;
     panel.querySelector('.lang-hint').hidden = true;

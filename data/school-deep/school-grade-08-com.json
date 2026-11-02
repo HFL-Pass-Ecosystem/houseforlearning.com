@@ -39,7 +39,7 @@
     "Step 4, Filter and order: SELECT name, score FROM students WHERE score >= 80 ORDER BY score DESC; returns two rows: Bana 91 first, then Dina 88. Ali at 72 and Cyrus at 65 fail the WHERE test.",
     "Step 5, Aggregate: SELECT COUNT(*) FROM students; returns 4. SELECT AVG(score) FROM students; returns 79.0 because 72 plus 91 plus 65 plus 88 is 316, and 316 divided by 4 is 79.",
     "Step 6, Update and check: UPDATE students SET score = 70 WHERE id = 3; changes Cyrus from 65 to 70. Running AVG again gives 80.25, since the total is now 321 and 321 divided by 4 is 80.25.",
-    "Your turn: Table books(id, title, pages) with (1,'Sea',120),(2,'Sky',200),(3,'Sand',80). List books over 100 pages shortest first, and give the count. Model answer: SELECT title, pages FROM books WHERE pages > 100 ORDER BY pages ASC; gives Sea 120, Sky 200; COUNT(*) is 3."
+    "Your turn: Table books(id, title, pages) with (1,'Sea',120),(2,'Sky',200),(3,'Sand',80). List books over 100 pages shortest first, and count them. Model answer: SELECT title, pages FROM books WHERE pages > 100 ORDER BY pages ASC; gives Sea 120, Sky 200; adding WHERE pages > 100 to COUNT(*) gives 2."
    ]
   },
   {
