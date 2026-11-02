@@ -66,6 +66,11 @@ D = {
 "Outsourcing Services": ("a handled back-office or support process", "a client firm", "service month", "errors that reach the client's customer", "a trained team and service levels", 16000, 9500, 22000, 5),
 "Electronics Sales & Repair Services": ("sold and repaired electronic goods", "a household or small firm", "repair", "an electric shock or a lost customer device", "an anti-static bench and a job tag", 180, 70, 8000, 200),
 }
+from brazil_deep_1 import DEEP as _D1
+from brazil_deep_2 import DEEP as _D2
+from brazil_cases import CASES
+DEEP = {**_D1, **_D2}
+assert set(DEEP) == set(D), set(D) ^ set(DEEP)
 assert set(D) == set(TOPICS), (set(TOPICS) - set(D), set(D) - set(TOPICS))
 PHASE1 = set(TOPICS[:8])
 
@@ -156,7 +161,25 @@ def mods(n):
       f"90-day plan: 'Lever: repeat customers. Action: follow-up call after every {un}. Target: repeat rate from 20% to 30%. Check: weekly count. Review date: day 45 and day 90.'",
       "Write a 90-day plan with one target, three actions and a review date. Present it in five minutes and take questions.",
       "Target is measurable and dated; actions are small enough to start this week; review date is in the calendar."))
+    for k, mod in enumerate(m):
+        mod[4].insert(0, 'In ' + n.lower() + ': ' + DEEP[n][k])
+    m = [tuple(x) for x in m]
     return m
+
+def scen(n):
+    th, cu, un, rk, kit, pr, vc, fx, vol = D[n]
+    cm = pr - vc; v2 = max(1, int(vol * 0.75)); p2 = cm * v2 - fx; be = -(-fx // cm)
+    p10 = round(pr * 1.1); c20 = max(1, round(vol * 0.2)); d = max(1, round(vol * 0.06))
+    low = pr - round(pr * 0.1)
+    return [
+     f"Scenario: ten customers are interviewed for {n.lower()}. Seven say price, two say speed, one says trust. Question: which first message do you write, and which interview record backs it? Model answer: lead with the {un} price and speed promise, keep trust proof as the second line, and cite the seven price answers by date.",
+     f"Scenario: a neighbour says registration can wait until the first {money(pr * 5)} of sales. Question: what do you do? Model answer: do not delay; write the compliance table first, confirm the register, tax and sector licence with the official office, and start only where the table shows no open blocker.",
+     f"Scenario: a customer asks for a discount from {money(pr)} to {money(low)} per {un}. Question: decide with numbers. Model answer: contribution falls from {money(cm)} to {money(low - vc)} per {un}; offer an extra of value (for example faster service) before cutting price, and accept only if the lower contribution still clears break-even.",
+     f"Scenario: of {vol} {un}s last month, {d} had a defect traced to {kit}. Question: what is the defect rate and what is your first action? Model answer: about {100 * d / vol:.0f} defects per 100; stop the cause (add a check at the start), correct affected customers, log the cause, and re-measure next week.",
+     f"Scenario: a near-miss occurs: {rk} nearly happened but no one was hurt. Question: what do you do in the next 24 hours? Model answer: make safe, record the event, ask the five whys, add or tighten one control, brief the team, and set a review date; near-misses count as lessons, not blame.",
+     f"Scenario: a new hire completes training but a customer complaint shows a skipped step. Question: whose gap is it? Model answer: first the system: check the role card, the training sign-off and the checklist; then coach the person and fix the document so the step cannot be skipped.",
+     f"Scenario: sales fall to {v2} {un}s a month. Question: what is the monthly result? Model answer: {money(cm)} x {v2} - {money(fx)} = {money(p2)}; compare with break-even of {be} {un}s and decide whether to cut fixed cost or raise volume first. Teaching figures only.",
+     f"Scenario: you can add {c20} {un}s a month by one of two levers: a follow-up call to past customers or a {p10 - pr}-reais price rise to {money(p10)}. Question: how do you choose? Model answer: test the cheaper reversible lever first (the call), measure for 30 days, and only then try the price change, so you can tell which one worked."]
 
 def quiz(n):
     th, cu, un, rk, kit, pr, vc, fx, vol = D[n]
@@ -189,10 +212,11 @@ LADDER = [("L1 Basic", "Name the main parts of {n} and the words used. Notes: fo
 def build(n, i):
     th, cu, un, rk, kit = D[n][:5]
     ms = mods(n)
+    SC = scen(n)
     mh = ''
     for k, (t, bl, h, intro, pts, ex, act, std) in enumerate(ms, 1):
         mh += (f'<details class="mod" {"open" if k==1 else ""}><summary><span class="mn">Module {k}</span> {e(t)} <span class="pill">{h} h</span><span class="pill bz">{bl}</span></summary><p>{e(intro)}</p><ul>' + ''.join(f'<li>{e(p)}</li>' for p in pts) + '</ul>'
-               f'<div class="evi"><strong>Worked example.</strong> {e(ex)}</div><p><strong>Activity.</strong> {e(act)}</p><p><strong>Standard to meet.</strong> {e(std)}</p></details>')
+               f'<div class="evi"><strong>Worked example.</strong> {e(ex)}</div><div class="evi"><strong>Second worked scenario.</strong> {e(SC[k-1])}</div><p><strong>Activity.</strong> {e(act)}</p><p><strong>Standard to meet.</strong> {e(std)}</p></details>')
     qz = ''.join(f'<details class="mod"><summary>Q{j+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a)}</p></details>' for j, (q, a) in enumerate(quiz(n)))
     rub = ('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>' + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(c)}</td><td>{e(d)}</td></tr>' for a, b, c, d in RUBRIC) + '</tbody></table></div>')
     lad = '<ol class="ladder">' + ''.join(f'<li><strong>{e(a)}.</strong> {e(b.format(n=n.lower()))}</li>' for a, b in LADDER) + '</ol>'
@@ -207,6 +231,7 @@ def build(n, i):
         '<div><h4>Standard</h4><p>Every module standard is met; all claims are true and backed by records; peers and a mentor mark the evidence \'Meets\' or better.</p></div></div>'
         '<p><strong>Who it is for:</strong> students, graduates, career changers, owners, workers and returners. <strong>Requirements:</strong> none. <strong>Materials:</strong> lesson text, templates, tracker, rubric, check with answers.</p>')
     body = (about + B.sec('alt', 'md', 'lesson by lesson', '8 modules with worked examples', mh)
+        + B.sec('', 'cs', 'case study', 'A case to work through', f'<div class="evi"><p><strong>Situation.</strong> {e(CASES[n][0])}</p><p><strong>Task.</strong> Say what you would do first, next and last, and what record you would keep.</p><p><strong>Model answer.</strong> {e(CASES[n][1])}</p></div>')
         + B.sec('', 'as', 'assessment', 'How you are checked', f'<p>Evidence: customer file, compliance table, offer card, procedures, risk register, role cards, money table, 90-day plan. Mentor and peers mark it with this rubric. Pass: no criterion at \'Not yet\'.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{qz}')
         + B.sec('alt', 'ld', 'levels L1 to L7', 'Where this sits on the ladder', lad)
         + B.sec('', 'lc', 'ten locations and global', 'Your place', '<p>Local rules change licences, taxes, data duties and customer rights. This course is written for Sao Paulo. Check the current official text for your own place.</p>'
