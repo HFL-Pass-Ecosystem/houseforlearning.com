@@ -153,6 +153,8 @@ def _deep(sl, out, tq):
         k = max(range(8), key=lambda x: (sc[x], x == d)); used.append(k)
         res.append((out[k], quiz_for_module(quiz, k + 1)))
     return res
+def _art(t): return 'an' if t[:1] in 'AEIOU' else 'a'
+def _bz(t): return t if t.lower().endswith(('business', 'businesses')) else t + ' business'
 def build(L, idx, sl, topic, rows):
     L = copy.deepcopy(L)
     if L['k'] == 'ge': L['cur'] = 'GEL'  # Georgia pages show GEL only; the overview page covers both countries
@@ -168,7 +170,7 @@ def build(L, idx, sl, topic, rows):
     elif (L['k'], sl) in OVERRIDE:  # place-specific figures from the price review: whole amounts in the local currency, not scaled
         L['price'], L['var'], L['fixed'], _ou = OVERRIDE[(L['k'], sl)]
         if _ou: L['unit'] = _ou
-    L['item'] = f'a small {topic} business'
+    L['item'] = f'a small {_bz(topic)}'
     mods = F.modules(L)
     mods[1] = LE.build.__globals__['F'].modules(L)[1]
     out = []
@@ -176,12 +178,12 @@ def build(L, idx, sl, topic, rows):
         pt, ex = rows[j]
         out.append((m[0], m[1], m[2], m[3], [_expert(_scale(pt, c, k).replace('{c}', c))] + [_expert(x) for x in m[4]], _scale(ex, c, k).replace('{c}', c) + ' | Local example: ' + m[5], m[6], m[7]))
     mh = ''.join(f'<details class="mod" {"open" if j==0 else ""}><summary><span class="mn">Module {j+1}</span> {e(m[0])} <span class="pill">{m[2]} h</span><span class="pill bz">{m[1]}</span></summary><p>{e(m[3])}</p><ul>' + ''.join(f'<li>{e(x)}</li>' for x in m[4]) + f'</ul><div class="evi"><strong>Worked example.</strong> {e(m[5])}</div><p><strong>Activity.</strong> {e(m[6])}</p><p><strong>Standard to meet.</strong> {e(m[7])}</p></details>' for j, m in enumerate(out))
-    q = F.quiz(L); q[0] = (f'What is the first move for a {topic} business in {L["name"]}?', _scale(rows[0][0], c, k).replace('{c}', c))
+    q = F.quiz(L); q[0] = (f'What is the first move for {_art(topic)} {_bz(topic)} in {L["name"]}?', _scale(rows[0][0], c, k).replace('{c}', c))
     q[1] = ('Which model comparison belongs to this sector?', _scale(rows[1][0], c, k).replace('{c}', c))
     tq = F.tag_quiz(q, out, {0: 1, 1: 2})
     qz = ''.join(f'<details class="mod"><summary>Q{j+1}. {e(a)}</summary><p><strong>Model answer:</strong> {e(b)}</p></details>' for j, (a, b) in enumerate(tq))
     rub = '<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>' + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(x)}</td><td>{e(d)}</td></tr>' for a, b, x, d in F.rubric(L)) + '</tbody></table></div>'
-    jobs = '<ul>' + ''.join(f'<li><strong>{e(a)}.</strong> {e(b)}.</li>' for a, b in [(f'{topic} assistant', f'supports a small {topic} business in {L["name"]}')] + L['jobs'][:5]) + '</ul>' + LL.roles_html(topic, e)
+    jobs = '<ul>' + ''.join(f'<li><strong>{e(a)}.</strong> {e(b)}.</li>' for a, b in [(f'{topic} assistant', f'supports a small {_bz(topic)} in {L["name"]}')] + L['jobs'][:5]) + '</ul>' + LL.roles_html(topic, e)
     body = (B.sec('', 'ab', 'about', f'{topic}: {L["name"]} deep edition', f'<p>{e(topic)} planned in detail for {e(L["name"])}: sector lessons plus local rules, jobs and {e(L["cur"])} examples. {e(F.CHECK)} All amounts are estimates for planning, not quotes. The module lines use rounded sample numbers; the Local example in module 6 uses separate local estimates.</p>' + ('' if 'Risk:' in mh else RK.note(L['k'], sl, e)) + LL.tcs_html(sl, L, e))
             + B.sec('alt', 'md', 'lesson by lesson', '8 modules with worked examples', mh) + B.sec('', 'as', 'assessment', 'How you are checked', f'<p>Pass: no criterion at Not yet and 8 of 10 right.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{qz}')
             + B.sec('alt', 'jb', 'jobs', 'Where this takes you', jobs) + B.sec('', 'ld', 'ladder', 'Ladder L1 to L7', F.ladder(L, LL.slides_html(sl, L, e, deep=_deep(sl, out, tq)))))

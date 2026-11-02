@@ -56,7 +56,7 @@ _ROLES = [('L2', 'Entry', '{t} assistant', 'helps with set tasks, keeps records 
 def roles_html(t, esc):
     """Six generic roles from entry to senior, linked to the pathways pages."""
     return ('<h3 class="ws-h3">Six steps from entry to senior</h3><ol class="blm">'
-            + ''.join(f'<li><strong>{esc(n.format(t=t)[0].upper() + n.format(t=t)[1:])} ({lv}, {lab}).</strong> {esc(d)}</li>' for lv, lab, n, d in _ROLES)
+            + ''.join(f'<li><strong>{esc((lambda x: x[0].upper() + x[1:])(n.format(t=t)).replace('Senior Senior ', 'Senior '))} ({lv}, {lab}).</strong> {esc(d)}</li>' for lv, lab, n, d in _ROLES)
             + '</ol><p>See how these steps connect to study and work in <a href="career-pathways.html">Career pathways</a> and <a href="pathways.html">Pathways</a>.</p>')
 
 _PNOTES = ['Show a one-page glossary with ten local terms; the learner reads each aloud and gives the meaning in {place}.',
