@@ -1,6 +1,6 @@
 {
  "task": "Lead a mixed-culture team: measure its health, set decision rules, plan meetings across time zones and arbitrate a conflict.",
- "condition": "Given a team profile, survey scores, work hours for three sites and a conflict case.",
+ "condition": "Given a team profile, survey scores, work hours for three sites and a conflict case. All money figures are in one currency of your choice. Figures in worked examples are invented for teaching (worked-example figures).",
  "standard": "Measures are calculated correctly, a decision rule fits the risk, the meeting plan has real overlap and the arbitration ends in a written agreement.",
  "who": "Team leaders and managers who work with people in several countries.",
  "modules": [
@@ -56,7 +56,7 @@
     "Rotate the early and late slots",
     "Record decisions in writing"
    ],
-   "example": "Three sites work 9:00 to 17:00. Site A is at UTC+1, site B at UTC+5:30 and site C at UTC-5. In UTC, A works 8:00 to 16:00, B works 3:30 to 11:30, C works 14:00 to 22:00. A and B overlap 8:00 to 11:30, which is 3.5 hours. All three never overlap. With three sites, a call at 14:00 UTC forces B to join at 19:30 local, so the slot rotates every month.",
+   "example": "Three sites work 9:00 to 17:00. Site A is at UTC+1, site B at UTC+5:30 and site C at UTC-5. In UTC, A works 8:00 to 16:00, B works 3:30 to 11:30, C works 14:00 to 22:00. A and B overlap 8:00 to 11:30, which is 3.5 hours. A and C overlap 14:00 to 16:00, which is 2 hours. B and C do not overlap, so all three never meet in working hours. A call for A and C at 14:00 UTC puts B at 19:30 local, so the slot rotates every month.",
    "activity": "Take three cities and work out the daily overlap for each pair and name a rotation plan.",
    "standard": "UTC conversion is shown, overlap hours are correct for each pair and a rotation plan is stated."
   },
@@ -70,7 +70,7 @@
     "Match the rule to the risk",
     "Record dissent"
    ],
-   "example": "A team of 7 must choose a supplier. Under majority rule, 4 votes are enough. Under a two-thirds rule, 7 x 2 / 3 = 4.67, so 5 votes are needed. Votes come in at 4 for supplier X and 3 for supplier Y. X wins under majority but fails the two-thirds rule. Because the contract is worth 2 million, the team chose two-thirds and held a second round.",
+   "example": "A team of 7 must choose a supplier. Under majority rule, 4 votes are enough. Under a two-thirds rule, 7 x 2 / 3 = 4.67, so 5 votes are needed. Votes come in at 4 for supplier X and 3 for supplier Y. X wins under majority but fails the two-thirds rule. Because the contract is worth 2 million (worked-example figure, in your currency), the team chose two-thirds and held a second round.",
    "activity": "Pick a decision rule for a team of 9 and state how many votes are needed for a majority and for two-thirds.",
    "standard": "Majority is 5, two-thirds is 6, and the rule is matched to the size of the risk in writing."
   },

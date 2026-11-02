@@ -7,7 +7,8 @@
    "Select a cable size and type, given tables and an installation method, meeting current rating and voltage-drop limits, and cite the clause and table number that support the choice.",
    "Record the calculation on the template, with inputs, units, results and clause, so another competent person can verify it without asking questions.",
    "Calculate and select the cable for three practice loads, each with its own length and installation method, with correct units and no errors.",
-   "Complete a full cable selection for a new load, from current to voltage drop to clause, with no calculation errors and a sheet ready for checking."
+   "Complete a full cable selection for a new load, from current to voltage drop to clause, with no calculation errors and a sheet ready for checking.",
+   "Evaluate a partner's calculation sheet by recalculating the current, find any wrong input or missing factor, and state the correct value with a one-sentence explanation."
   ],
   "checks": [
    1,
@@ -18,7 +19,7 @@
    2,
    5,
    5,
-   5
+   7
   ]
  },
  "ENG-002": {
@@ -28,28 +29,32 @@
    "Interpret two coordination curves, given a sample, identifying pick-up and time for a fault and showing where the downstream device does or does not trip first.",
    "Check a given setting against the coordination curve, given a fault level and load, and state whether it trips for faults but not for normal load.",
    "Report a mismatch, given two curves that cross, naming the setting, expected value, difference and location, and state the next check for the responsible engineer.",
-   "Check a sample case, given curves and a one-line diagram, with a clear pass or fail and evidence, and say plainly when something cannot be verified."
+   "Check a sample case, given curves and a one-line diagram, with a clear pass or fail and evidence, and say plainly when something cannot be verified.",
+   "Mark two crossing curves at a given fault current, state the time difference, and report the mismatch with the next step for the responsible engineer.",
+   "Evaluate a partner's curve reading and mismatch report against a checklist, give one strength and one improvement, and confirm the device order and trip times are correct."
   ],
   "checks": [
    2,
-   4,
    5,
-   4,
+   5,
+   6,
    3,
-   4,
+   5,
    5,
    2,
-   5
+   6
   ]
  },
  "ENG-003": {
   "standards": [
    "List the tests required for a given scope, in the order of work, and state the reason for each test.",
-   "Fill in the test sheet, given sample readings, completing every field with unit, instrument serial and calibration date, and writing not applicable with a reason where a field does not apply.",
+   "Complete the test sheet, given sample readings, entering every field with unit, instrument serial and calibration date, and writing not applicable with a reason where a field does not apply.",
    "Compare each reading with the given limit and mark pass or fail correctly, including a reading just under the limit, and record any failure without hiding it.",
-   "Sign off the sheet only when every line is complete, with the tester and checker named, and file the record as the project and rules require.",
+   "Evaluate whether the sheet can be signed off: sign only when every line is complete, with the tester and checker named, and file the record as the project and rules require.",
    "Complete a sheet for six circuits, given readings and limits, with every field filled and every pass or fail judged correctly.",
-   "Show that a finished sheet is complete, correct and ready for sign-off, finding any blank field, missing instrument detail or wrong judgement."
+   "Show that a finished sheet is complete, correct and ready for sign-off, finding any blank field, missing instrument detail or wrong judgement.",
+   "Judge a reading just under its limit as a fail, record and flag it, and add a dated retest line without deleting the first reading.",
+   "Evaluate a partner's six-line test sheet line by line, name each blank or wrong judgement, and decide whether the sheet is ready for sign-off."
   ],
   "checks": [
    2,
@@ -69,19 +74,21 @@
    "Identify hazards in a set of site photos, given as text, listing at least eight and naming a control for each one.",
    "Rank the identified hazards, given a risk matrix, by likelihood and severity, and give a clear reason for each rank such as an unprotected edge being High.",
    "Write an action list, given the ranked hazards, with a named owner and a due date for every action, and state when each item is re-inspected.",
-   "Walk through a described site, record each finding in the inspection log with photo evidence, and stop work and tell the lead at once for any imminent danger.",
-   "Complete a short inspection of a new scenario, with hazards found, risks ranked, and actions owned and dated, using the template correctly."
+   "Apply the inspection method to a described site: record each finding in the inspection log with photo evidence, and stop work and tell the lead at once for any imminent danger.",
+   "Complete a short inspection of a new scenario, with hazards found, risks ranked, and actions owned and dated, using the template correctly.",
+   "Rank three hazards from a case card on the matrix, give a reason for each rank, and order the actions by risk with an owner and date.",
+   "Evaluate a partner's inspection log against the key, find any missed hazard or missing owner or date, and give one strength and one improvement."
   ],
   "checks": [
    1,
    4,
    5,
-   4,
+   5,
    1,
    4,
    4,
    5,
-   2
+   5
   ]
  },
  "BLD-002": {
@@ -91,7 +98,9 @@
    "Add a waste allowance, given a percentage, to a measured quantity and explain that it covers cutting, breakage and mistakes.",
    "Calculate quantities from the measurements, such as the number of tiles for a floor with eight percent waste, with units shown, and round up to full units that can be bought.",
    "Enter the results in a bill of quantities, given a template, with every item numbered and each line showing unit, description and quantity.",
-   "Complete a bill of quantities for a simple room, with correct areas, waste and units, and query any disagreement between drawing and note instead of assuming."
+   "Complete a bill of quantities for a simple room, with correct areas, waste and units, and query any disagreement between drawing and note instead of assuming.",
+   "Calculate the paint needed for a set of walls, given openings, waste, coats and coverage, show units on every step, and round up to whole tins.",
+   "Check a partner's bill of quantities by recalculating each line, find at least one error or confirm none, and explain any correction in plain words."
   ],
   "checks": [
    3,
@@ -101,7 +110,7 @@
    2,
    3,
    5,
-   1,
+   6,
    4
   ]
  },
@@ -112,7 +121,9 @@
    "Build an index of the pack, given the documents, with each item named, dated and filed, so the client can find any item quickly.",
    "Present the pack to a client in a role-play, explaining where to find each item, and obtain the signed acceptance and a client copy alongside the project archive copy.",
    "Prepare a pack for a sample project, with every document named, dated, filed and indexed, and with no item missing from the checklist.",
-   "Verify a finished pack with three planted gaps, finding every gap and confirming that every item on the contract list is present."
+   "Verify a finished pack with three planted gaps, finding every gap and confirming that every item on the contract list is present.",
+   "Find two missing items in a pack, list each as outstanding with an owner and a chase date, and state that the pack is not complete until both arrive.",
+   "Evaluate a partner's pack against the contract list, find every missing item, and state clearly whether the pack is ready for client acceptance."
   ],
   "checks": [
    3,
@@ -131,9 +142,11 @@
    "Divide a small network into staff, guest and device zones, given user groups, so a guest device cannot reach staff systems.",
    "Draw a small network plan, given a lab diagram such as an office with public Wi-Fi, showing each zone, its traffic and the firewall rules between zones.",
    "Configure standard settings in the lab, replacing default passwords, applying a strong passphrase and current encryption, updating firmware, and keeping the admin page out of guest reach.",
-   "Pass the check list for the lab build, recording every result, and show that guests can reach the internet but not internal devices.",
+   "Apply the check list to the lab build, recording every result, and show that guests can reach the internet but not internal devices.",
    "Write a one-page repeat-it guide, given the configuration, with date and author, so another person could rebuild or audit the network.",
-   "Design and document a small network for a new scenario, with zones, settings, a log of changes and failed sign-ins, and a clear approver for rule changes."
+   "Design and document a small network for a new scenario, with zones, settings, a log of changes and failed sign-ins, and a clear approver for rule changes.",
+   "Design four zones for a cafe so guest Wi-Fi cannot reach the till, list the firewall rules, and test the result from a guest device.",
+   "Evaluate a partner's repeat-it guide by following it, note every unclear step, and suggest a clearer wording for each one."
   ],
   "checks": [
    1,
@@ -142,7 +155,7 @@
    3,
    1,
    3,
-   3,
+   6,
    3,
    5
   ]
@@ -151,21 +164,23 @@
   "standards": [
    "Describe what an alert is and what evidence it gives, given sample alerts, and say how an alert differs from a confirmed incident.",
    "Triage five sample alerts by severity, based on the data affected and its spread, such as High for a ransomware note, Medium for repeated failed logins and Low for a blocked spam.",
-   "Follow the playbook steps in order, given a written playbook, identify, contain, preserve evidence, escalate, recover and report, telling the incident lead at the right step.",
-   "Contain an incident in a lab scenario, such as a laptop sending data at night, by isolating the device before recovery and without deleting evidence.",
+   "Apply the playbook steps in order, given a written playbook, identify, contain, preserve evidence, escalate, recover and report, telling the incident lead at the right step.",
+   "Apply containment to an incident in a lab scenario, such as a laptop sending data at night, by isolating the device before recovery and without deleting evidence.",
    "Write a one-page report, given a log template, with time, what happened, impact, actions taken and next step, and close the incident after recovery and review.",
-   "Complete a full response to a new scenario, with alerts triaged, steps followed in order, containment done and a clear report written."
+   "Complete a full response to a new scenario, with alerts triaged, steps followed in order, containment done and a clear report written.",
+   "Triage and contain a laptop that sends data to an unknown address, isolate it before recovery, keep the evidence, and report the times and impact.",
+   "Evaluate a partner's playbook order against the written steps, find any step out of place, and explain why containment comes before recovery."
   ],
   "checks": [
    3,
    3,
-   3,
+   4,
    5,
    4,
    3,
    2,
    5,
-   3
+   5
   ]
  },
  "ITC-003": {
@@ -175,7 +190,9 @@
    "Test a change with a checklist, confirming that the service works and nothing else broke, and stop and record the result if a test fails.",
    "Record approval and the result, given a template, with the named approver, date, time and decision, and the outcome noted for later review.",
    "Complete a change record for a firewall rule change, given a scenario, with reason, risk, rollback, test plan and approver all filled in.",
-   "Review a risky change, such as a mail server upgrade on a Friday evening, and choose a safer time, with the record complete and consistent."
+   "Review a risky change, such as a mail server upgrade on a Friday evening, and choose a safer time, with the record complete and consistent.",
+   "Review a risky upgrade planned for a busy time, calculate the time needed including rollback, and choose a safer window with the record rewritten.",
+   "Evaluate a partner's change record against the six required fields, find any blank or unclear field, and decide whether to approve or return it."
   ],
   "checks": [
    2,
@@ -185,7 +202,7 @@
    2,
    4,
    3,
-   1,
+   4,
    1
   ]
  }

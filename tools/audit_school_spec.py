@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Audit every school page against the full spec: Bloom verbs, task/condition/standard, rubric, worked example and steps per unit,
 L1-L7 slides with notes, where it fits, next steps. Prints gaps. Usage: python3 tools/audit_school_spec.py"""
-import json, glob, re, os, collections
+import json, glob, re, os, collections, tempfile
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 V = json.load(open(f'{root}/data/verbs.json')) if os.path.exists(f'{root}/data/verbs.json') else {}
 verbs = set()
@@ -39,4 +39,6 @@ for f in sorted(glob.glob(f'{root}/data/school-deep/*.json')):
         if not isl and 'Covered in unit' not in h: gaps['no unit tags'].append(s); break
 print({k: len(v) for k, v in gaps.items()} or 'no gaps')
 for k, v in gaps.items(): print(k, v[:6])
-json.dump(gaps, open(os.environ.get('OUT', '/tmp/claude-0/spec-gaps.json'), 'w'))
+out = os.environ.get('OUT') or os.path.join(tempfile.gettempdir(), 'spec-gaps.json')
+os.makedirs(os.path.dirname(out) or '.', exist_ok=True)
+json.dump(gaps, open(out, 'w'))

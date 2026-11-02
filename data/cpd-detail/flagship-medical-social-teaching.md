@@ -1,6 +1,6 @@
 # Flagship detail: Medical and healthcare, Social care, Teaching (DRAFT)
 
-Read with `00-STANDARD.md`. Minutes add up to the course length. Module lists below follow the course data.
+All cases and figures are invented worked-example figures. Read with `00-STANDARD.md`. Minutes add up to the course length. Module lists below follow the course data.
 
 ## CPD-MED-001 Plain English for ward handovers (180 min)
 **Modules:** 1 Why handovers fail, with two invented near-miss stories (25). 2 The SBAR order, speaking it in 60 seconds (35). 3 Repeat-back and clarifying questions (25). 4 Plain words and approved abbreviations (30). 5 Practice role-plays with feedback (30). 6 Assessment and reflection (15). 7 Second worked case (10). 8 Teach-back and peer check (10).

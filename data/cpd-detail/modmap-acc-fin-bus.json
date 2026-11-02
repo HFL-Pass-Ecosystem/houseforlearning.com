@@ -7,7 +7,8 @@
    "Complete the reconciliation statement in the set layout, adjusting both balances with timing and ledger items until the difference after reconciling is zero.",
    "Spot unusual items such as unexplained small amounts, round sums or duplicates, then explain each one, record it against the set limit and escalate when required.",
    "Reconcile a full practice file of twelve bank lines and twelve ledger lines, finding all three planted differences and finishing with a correct signed statement.",
-   "Complete a timed assessment reconciliation by matching items, writing the statement and explaining every difference, meeting the checklist with no unexplained balance left."
+   "Complete a timed assessment reconciliation by matching items, writing the statement and explaining every difference, meeting the checklist with no unexplained balance left.",
+   "Complete the second case card, find the remaining gap of 840, and explain each step to a partner so that they can confirm the statement ends on zero."
   ],
   "checks": [
    1,
@@ -28,7 +29,9 @@
    "Compare each ratio with last year's figure and state the direction and pace of change, because a single number means little without a reference.",
    "Explain a change in a ratio in plain words, giving a likely cause and a suggested action, as in the liquidity worked example.",
    "Build a one-page summary from two years of statements, showing six ratios, a plain-words note on each change and the source of the numbers.",
-   "Complete a timed assessment by computing the ratios from invented statements and writing a one-page summary that meets every checklist point."
+   "Complete a timed assessment by computing the ratios from invented statements and writing a one-page summary that meets every checklist point.",
+   "Explain two possible reasons for a falling current ratio when sales rise, and name the first question to ask the finance lead, using the figures on the second case card.",
+   "Present one ratio aloud in three sentences and answer a board question about what the ratio does not show, so that a peer can confirm formula, direction, cause and action."
   ],
   "checks": [
    2,
@@ -37,7 +40,7 @@
    2,
    2,
    3,
-   4,
+   2,
    1,
    5
   ]
@@ -46,16 +49,18 @@
   "standards": [
    "Find the official source of a rule change, check its date and confirm what it says, and state plainly when you are unsure and must refer on.",
    "Write a summary of a rule change in about one hundred words that states what changes, from when, and what the client should do.",
-   "Work out the effect of a rule change on a sample client using last year's figures, and show it as a short worked example in the client's terms.",
+   "Calculate the effect of a rule change on a sample client using last year's figures, and show it as a short worked example in the client's terms.",
    "Cite the official source and its date in every client note, and file the note with the source in the client file.",
    "Practise writing a client note from a short invented rule change, then use the feedback to correct gaps in source, date and example.",
-   "Check your finished note against the list: source cited, date stated, worked example included, and any doubt referred to a senior."
+   "Check your finished note against the list: source cited, date stated, worked example included, and any doubt referred to a senior.",
+   "Write a client note for a rule that moves a filing date by 30 days, stating what you verified first and citing the official source and its date.",
+   "Explain your finished client note aloud in one minute so that a peer can confirm it has the source, the date, a worked example and a referral."
   ],
   "checks": [
    4,
    3,
    1,
-   1,
+   6,
    4,
    1,
    3,
@@ -70,7 +75,9 @@
    "Use the firm's approved disclosure wording to tell a client about a conflict before giving any advice, in writing.",
    "Record each conflict, the action taken and the named approver in the register, so the decision can be traced later.",
    "Practise deciding, disclosing and recording on a new case, such as a fund run by a relative, and correct any step you missed.",
-   "Show in a short check that you can define a conflict, take the first step of declaring it and record it with the approver."
+   "Show in a short check that you can define a conflict, take the first step of declaring it and record it with the approver.",
+   "Decide, disclose and record the decision for the cousin case and a gift case, then check each register line for the conflict, action and named approver.",
+   "Explain the define, declare and record steps aloud in one minute so that a peer can confirm all three are present and in the right order."
   ],
   "checks": [
    1,
@@ -92,7 +99,8 @@
    "Write the reason for the match in plain words so that another person can see why the product fitted the client.",
    "Complete the advice record to the checklist, including alternatives considered, client confirmation, and the signatures required of the adviser and client.",
    "Complete a practice file for an invented client, recording facts, matching a product type and writing the reason, then correct gaps after feedback.",
-   "Complete a timed assessment record for a new client card that meets every checklist item and shows a clear written reason for the match."
+   "Complete a timed assessment record for a new client card that meets every checklist item and shows a clear written reason for the match.",
+   "Complete the advice record for the 62-year-old client card, recording facts, matching a type, explaining the reason and noting the conflict between growth wish and short horizon."
   ],
   "checks": [
    4,
@@ -103,7 +111,7 @@
    2,
    4,
    5,
-   5
+   1
   ]
  },
  "FIN-003": {
@@ -113,7 +121,9 @@
    "Use the local route card to name who receives a report and how quickly it must be made, and send a report by that route.",
    "Explain why the customer must not be told about a report and avoid any words or actions that would warn them.",
    "Practise writing a four-line report covering who, what, when and why it worries you, using facts only, with date and time.",
-   "Show in a short check that you know the reporting route, the ban on telling the customer and the content of a report."
+   "Show in a short check that you know the reporting route, the ban on telling the customer and the content of a report.",
+   "Report the many-small-deposits case by the route card, adding up the total and writing who, what, when and why in four factual lines.",
+   "Explain the reporting route, the ban on telling the customer and the report content in your own words so that a peer can confirm all are correct."
   ],
   "checks": [
    3,
@@ -130,12 +140,13 @@
  "BUS-001": {
   "standards": [
    "Explain why change often fails, including people not knowing the reason, and show why the reason should be given first.",
-   "Map the groups affected by a change, such as staff, customers and suppliers, and say how each group is touched.",
+   "Identify the groups affected by a change, such as staff, customers and suppliers, and say how each group is touched.",
    "Plan three messages for a change, each with a set time and a named sender, so the most affected group hears first from their own manager.",
    "Respond to worry and resistance by listening, finding the cause and adjusting the support offered, rather than repeating the message.",
    "Choose three simple measures for a change, such as errors per 100 items or briefing attendance, and say how each will be read.",
    "Apply the whole method to a case such as moving from paper forms to an online form, mapping groups, planning messages and picking measures.",
-   "Complete a timed assessment on a new change case by mapping groups, writing a first message and choosing measures that meet the checklist."
+   "Complete a timed assessment on a new change case by mapping groups, writing a first message and choosing measures that meet the checklist.",
+   "List the groups affected by the shift change, write the first message with reason, date and sender, and choose three measures with a target."
   ],
   "checks": [
    1,
@@ -151,13 +162,14 @@
  },
  "BUS-002": {
   "standards": [
-   "Set a target, a limit and a walk-away point before a negotiation, writing each number down and stating that the limit is the worst deal you will accept.",
+   "Plan a target, a limit and a walk-away point before a negotiation, writing each number down and stating that the limit is the worst deal you will accept.",
    "Choose three trades you can offer, such as a longer term for a lower price, and say what each trade is worth to you.",
-   "Ask open questions and listen closely to find what the other side really needs, so that trades can be matched to those needs.",
+   "Apply open questions and close listening to find what the other side really needs, so that trades can be matched to those needs.",
    "Carry out a role-play negotiation against a supplier asking for a higher price, staying inside your limit and using at least one trade.",
    "Carry out a second role-play that includes a twist, such as a new demand, and adjust your trades while keeping to your limit.",
    "Write a one-page summary of the agreed price, term, delivery, payment, review date and signatory, ready for sign-off by the person with authority.",
-   "Complete a timed assessment by preparing numbers, negotiating a role-play and producing a summary that meets every checklist point."
+   "Complete a timed assessment by preparing numbers, negotiating a role-play and producing a summary that meets every checklist point.",
+   "Calculate the cash cost of the early-payment offer from the second case card and decide whether to accept it, stating the figures used."
   ],
   "checks": [
    1,
@@ -178,7 +190,9 @@
    "List costs and benefits for each option and cite where each number came from, marking any guess as an estimate.",
    "Make a clear recommendation with the reason for it, and state the main risk with a plan to reduce it, plus a dated next step.",
    "Write a practice page on a case such as a second delivery van, then use the feedback to correct any missing part.",
-   "Check a finished page against the list of parts, sources, risk and length, then correct any gap before it is passed on."
+   "Check a finished page against the list of parts, sources, risk and length, then correct any gap before it is passed on.",
+   "Write the one-page case for the 12 laptops, comparing replacing now, replacing in a year and doing nothing, with sources, a recommendation and the main risk.",
+   "Present your finished page in two minutes and answer one challenge question so that a peer can confirm all six parts, the sources and the risk plan."
   ],
   "checks": [
    2,

@@ -12,7 +12,7 @@
      "Done = zero unexplained difference, signed and dated",
      "A second person reviews it"
     ],
-    "ex": "Bank shows 10,000 and the ledger shows 9,700, a gap of 300. An uncleared cheque of 400 and a deposit of 100 not yet shown by the bank explain it. Done means the difference after reconciling is 0 and the statement is signed and dated.",
+    "ex": "Worked-example figures: bank shows 10,000 and the ledger shows 9,700, a gap of 300. An uncleared cheque of 400 and a deposit of 100 not yet shown by the bank explain it. Done means the difference after reconciling is 0 and the statement is signed and dated.",
     "std": "Explain why a bank reconciliation is done every month and describe what a finished, fully explained reconciliation looks like, naming how it helps catch errors and fraud early."
    },
    {
@@ -23,7 +23,7 @@
      "Ledger list shows what you have recorded",
      "Read date, reference and amount on each line"
     ],
-    "ex": "Bank line: 03 May, cheque 1042, debit 400.00 (not yet shown). Ledger line: 02 May, payment to supplier, 400.00. Same amount, different dates, so read the dates and references before matching.",
+    "ex": "Bank line: 03 May, cheque 1042, debit 400.00. Ledger line: 02 May, payment to supplier, 400.00. Same amount, different dates, so read the dates and references before matching.",
     "std": "Read a bank list and a ledger list side by side and identify each line, so that every entry on both lists is correctly understood before matching begins."
    },
    {
@@ -42,7 +42,7 @@
     "min": 35,
     "pts": [
      "Use the set layout every month",
-     "Adjust the bank side for timing items",
+     "Adjust the bank side for timing items and the ledger side for ledger items",
      "End on zero or explain the rest"
     ],
     "ex": "Statement: bank balance 10,000, less uncleared cheque 400 = 9,600, plus deposit not yet cleared 100 = 9,700. Ledger balance 9,700. Difference after reconciling = 9,700 - 9,700 = 0. Sign and date it.",
@@ -54,7 +54,7 @@
     "pts": [
      "Look for round sums, duplicates and odd dates",
      "Compare each item with the set limit",
-     "Never write off without the named approver"
+     "Never write off an amount (remove it from the books) without the named approver"
     ],
     "ex": "Unusual items: an unexplained 50 against a set limit of 25 is above the limit, so record it and escalate. A round payment of 2,000.00 on a Sunday and two identical debits of 400.00 on the same day are also flagged and explained.",
     "std": "Spot unusual items such as unexplained small amounts, round sums or duplicates, then explain each one, record it against the set limit and escalate when required."
@@ -89,7 +89,7 @@
      "Explain your result to a partner",
      "Partner checks against the checklist"
     ],
-    "ex": "Case card 2: bank 14,820.00, ledger 15,240.00. Cheque 600.00 unpresented: 14,820 - 600 = 14,220. Bank charge 180.00 unrecorded: 15,240 - 180 = 15,060. Gap left = 840. A deposit of 840 not yet at the bank would close it (14,220 + 840 = 15,060); if none is found, escalate.",
+    "ex": "Case card 2: bank 14,820.00, ledger 15,240.00. Cheque 600.00 unpresented (issued, not yet paid by the bank): 14,820 - 600 = 14,220. Bank charge 180.00 unrecorded: 15,240 - 180 = 15,060. Gap left = 840. A deposit of 840 not yet at the bank would close it (14,220 + 840 = 15,060); if none is found, escalate.",
     "std": "Complete the second case card, find the remaining gap of 840, and explain each step to a partner so that they can confirm the statement ends on zero."
    }
   ],
@@ -125,7 +125,7 @@
    },
    {
     "t": "L7 Super expert: Designing the reconciliation system",
-    "note": "The super expert designs how reconciliations run across the whole organisation: tools, limits, segregation of duties, audit evidence and training. They decide what good looks like and prove it with measures such as days to close."
+    "note": "The super expert designs how reconciliations run across the whole organisation: tools, limits, segregation of duties (the person who prepares is not the person who approves), audit evidence and training. They decide what good looks like and prove it with measures such as days to close."
    }
   ],
   "jobs": [
@@ -159,9 +159,9 @@
      "Write each formula before using it",
      "Show units: ratio, percent, days",
      "Check arithmetic twice",
-     "A limit of ratios: they depend on accounting choices and one-off items."
+     "Ratios depend on accounting choices and one-off items"
     ],
-    "ex": "This year: revenue 1,200, cost of sales 780, net profit 96, current assets 600, current liabilities 400, inventory 150, receivables 200, payables 130. Current 600 / 400 = 1.5. Quick (600 - 150) / 400 = 1.13. Gross margin 420 / 1,200 = 35.0%. Net margin 96 / 1,200 = 8.0%. Debtor days 200 / 1,200 x 365 = 61. Creditor days 130 / 780 x 365 = 61.",
+    "ex": "Worked-example figures, this year: revenue 1,200, cost of sales 780, net profit 96, current assets 600, current liabilities 400, inventory 150, receivables 200, payables 130. Current 600 / 400 = 1.5. Quick (current assets without inventory) (600 - 150) / 400 = 1.13. Gross margin 420 / 1,200 = 35.0%. Net margin 96 / 1,200 = 8.0%. Debtor days (how long customers take to pay) 200 / 1,200 x 365 = 61. Creditor days (how long we take to pay suppliers) 130 / 780 x 365 = 61.",
     "std": "Calculate the six ratios, current, quick, gross margin, net margin, debtor days and creditor days, from a set of statements using the correct formulas."
    },
    {
@@ -263,7 +263,7 @@
    },
    {
     "t": "L7 Super expert: Designing the board pack",
-    "note": "The super expert designs the whole reporting pack and its rules: which measures, how often, who challenges, how sources are shown. They teach analysts to keep reports honest, short and decision-ready."
+    "note": "The super expert designs the whole reporting pack and its rules: which measures, how often, who challenges, how sources are shown. Reports stay short, true and ready for a decision."
    }
   ],
   "jobs": [
@@ -310,7 +310,7 @@
      "Keep it in the client's terms"
     ],
     "ex": "Invented rule: the limit on item X rises from 1,000 to 1,200. Client spent 1,500 last year. Counted amount was 1,000; it would be 1,200, so 200 more (20 percent). Example is a pattern, not advice.",
-    "std": "Work out the effect of a rule change on a sample client using last year's figures, and show it as a short worked example in the client's terms."
+    "std": "Calculate the effect of a rule change on a sample client using last year's figures, and show it as a short worked example in the client's terms."
    },
    {
     "t": "Citing and dating the note",
@@ -421,10 +421,10 @@
     "min": 20,
     "pts": [
      "A conflict is a clash between your interest and the client's",
-     "Spot it first",
+     "Spot it, then declare it",
      "A conflict is not always a breach"
     ],
-    "ex": "An adviser earns a bonus of 150 if a client picks product P. Personal gain could affect the duty to the client, so it is a conflict. Everyday match: choosing a supplier owned by your cousin.",
+    "ex": "Worked-example figures: an adviser earns a bonus of 150 if a client picks product P. Personal gain could affect the duty to the client, so it is a conflict. Everyday match: choosing a supplier owned by your cousin.",
     "std": "Define a conflict of interest in plain words and recognise it in everyday examples where personal or firm gain could affect your duty to the client."
    },
    {
@@ -687,9 +687,9 @@
   ]
  },
  "FIN-003": {
-  "task": "Identify warning signs of suspicious activity in sample transactions, report a concern by the local route within the time stated, record the facts and avoid tipping off.",
-  "cond": "Given ten sample transactions, a local route card naming the reporting officer, and a four-line report template, working in a two-hour supervised session.",
-  "std": "Identify at least 8 of 10 warning-sign transactions, send the report within the card's time, record who, what, when and how much, and never warn the customer.",
+  "task": "Identify warning signs of suspicious activity in sample transactions, report a concern by the local route within the time stated, record the facts and avoid tipping off (warning the customer).",
+  "cond": "Given six sample transactions, a local route card naming the reporting officer, and a four-line report template, working in a two-hour supervised session.",
+  "std": "Identify at least 5 of 6 transactions correctly marked, send the report within the card's time, record who, what, when and why, and never warn the customer.",
   "modules": [
    {
     "t": "What warning signs look like",
@@ -766,7 +766,7 @@
      "Add up the deposits",
      "Write the four-line report"
     ],
-    "ex": "Case card 2: 12 deposits of 900 over 5 days, example limit 1,000. Total 12 x 900 = 10,800. Then the customer asks to send 10,500 abroad. Each deposit is under the limit, but together they are a pattern. Report by the route card.",
+    "ex": "Case card 2 (invented figures): 12 deposits of 900 over 5 days, example limit 1,000. Total 12 x 900 = 10,800. Then the customer asks to send 10,500 abroad. Each deposit is under the limit, but together they are a pattern. Report by the route card.",
     "std": "Report the many-small-deposits case by the route card, adding up the total and writing who, what, when and why in four factual lines."
    },
    {
@@ -801,7 +801,7 @@
    },
    {
     "t": "L4 Practitioner: Report by the route",
-    "note": "This course sits here. The learner identifies warning signs in ten transactions, reports a concern by the local route within the stated time, records the facts and never tips off the customer."
+    "note": "This course sits here. The learner identifies warning signs in six transactions, reports a concern by the local route within the stated time, records the facts and never tips off the customer."
    },
    {
     "t": "L5 Specialist: Patterns over time",
@@ -827,7 +827,7 @@
  "BUS-001": {
   "task": "Describe a change on one page, map who is affected, plan three timed messages with named senders, respond to resistance and choose three simple measures of adoption.",
   "cond": "Given a change scenario, a calendar and a short survey, working in a four-hour supervised session with role-play and case cards.",
-  "std": "Produce a one-page description with reason, date and impact, a message plan naming who hears what and when, the top three concerns, and two or three measures with a target.",
+  "std": "Produce a one-page description with reason, date and impact, a message plan naming who hears what and when, the top three concerns, and three measures with a target.",
   "modules": [
    {
     "t": "Why change fails",
@@ -849,7 +849,7 @@
      "Put the most affected first"
     ],
     "ex": "Affected: order team (12 people) enters orders in the new system; finance (5) sees new reports; customers (many) get a new order form. Each group is touched differently, so each needs its own message.",
-    "std": "Map the groups affected by a change, such as staff, customers and suppliers, and say how each group is touched."
+    "std": "Identify the groups affected by a change, such as staff, customers and suppliers, and say how each group is touched."
    },
    {
     "t": "Three messages: time and sender",
@@ -965,7 +965,7 @@
  "BUS-002": {
   "task": "Prepare a supplier negotiation with a target, limit and three trades, conduct role-plays inside the limit, and record the agreed terms on a one-page summary for sign-off.",
   "cond": "Given a brief, a quote template and a role-play partner playing the supplier, working in a four-hour supervised session.",
-  "std": "Reach an agreement inside your limit using at least one trade, compare two offers on total cost and risk, and record terms, owner and date on a one-page summary.",
+  "std": "Reach an agreement inside your limit using at least one trade, work out the cash cost of an early-payment offer, and record terms, signatory and date on a one-page summary.",
   "modules": [
    {
     "t": "Target, limit, walk-away",
@@ -975,8 +975,8 @@
      "Limit is the worst deal you accept",
      "Never cross the limit"
     ],
-    "ex": "Target 100 per unit, walk-away limit 115. The supplier asks 120. That is 5 above the limit, so you cannot accept it. Write the three numbers down before you start.",
-    "std": "Set a target, a limit and a walk-away point before a negotiation, writing each number down and stating that the limit is the worst deal you will accept."
+    "ex": "Worked-example figures: target 100 per unit, limit 115 (above that you walk away). The supplier asks 120. That is 5 above the limit, so you cannot accept it. Write the target and the limit down before you start.",
+    "std": "Plan a target, a limit and a walk-away point before a negotiation, writing each number down and stating that the limit is the worst deal you will accept."
    },
    {
     "t": "Three trades you can offer",
@@ -998,7 +998,7 @@
      "Match trades to needs"
     ],
     "ex": "Open question: \"What matters most to you in this contract?\" Supplier: \"Steady orders so we can plan stock.\" That points to the trade of a 12-month term. Listen more than you speak.",
-    "std": "Ask open questions and listen closely to find what the other side really needs, so that trades can be matched to those needs."
+    "std": "Apply open questions and close listening to find what the other side really needs, so that trades can be matched to those needs."
    },
    {
     "t": "Role-play 1",
@@ -1052,7 +1052,7 @@
      "Work out the cash cost",
      "Decide with the numbers"
     ],
-    "ex": "Case card 2: the supplier offers 5 percent off if you pay in 10 days instead of 45. On a bill of 2,000 you pay 1,900 instead of 2,000: 100 saved for paying 35 days sooner. 5 / 95 x 365 / 35 = about 55 percent a year. Take it if your cost of funds is lower than that and cash allows.",
+    "ex": "Case card 2: the supplier offers 5 percent off if you pay in 10 days instead of 45. On a bill of 2,000 you pay 1,900 instead of 2,000: 100 saved for paying 35 days sooner. 5 / 95 x 365 / 35 = about 55 percent a year. Take it if what it costs you to borrow cash is lower than that and cash allows.",
     "std": "Calculate the cash cost of the early-payment offer from the second case card and decide whether to accept it, stating the figures used."
    }
   ],
@@ -1068,7 +1068,7 @@
    },
    {
     "t": "L2 Awareness: Target and limit",
-    "note": "Show target, limit and walk-away on a simple line: 100, 115, and the point where you leave. Learners know why writing the numbers down before the meeting protects them."
+    "note": "Show target, limit and walk-away on a simple line: target 100 and limit 115, where 115 is the point where you leave. Learners know why writing the numbers down before the meeting protects them."
    },
    {
     "t": "L3 Foundation: Trade, do not just give",
@@ -1076,7 +1076,7 @@
    },
    {
     "t": "L4 Practitioner: Run a fair supplier negotiation",
-    "note": "This course sits here. The learner prepares numbers, conducts two role-plays inside the limit, handles a twist, compares offers and writes a one-page summary ready for sign-off."
+    "note": "This course sits here. The learner prepares numbers, conducts two role-plays inside the limit, handles a twist, works out an early-payment offer and writes a one-page summary ready for sign-off."
    },
    {
     "t": "L5 Specialist: Complex supplier deals",
@@ -1134,7 +1134,7 @@
      "Cite the source of each number",
      "Mark guesses as estimates"
     ],
-    "ex": "Option A (amounts in the local currency): buy 24,000 (Quote Q1); running 6,000 a year (estimate from current van); extra income 10 orders x 30 x 50 weeks = 15,000 (estimate). Net 9,000 a year. Payback 24,000 / 9,000 = 2.7 years.",
+    "ex": "Option A (amounts in the local currency): buy 24,000 (Quote Q1); running 6,000 a year (estimate from current van); extra income 10 orders a week x 30 each x 50 weeks = 15,000 (estimate). Net 9,000 a year. Payback 24,000 / 9,000 = 2.7 years.",
     "std": "List costs and benefits for each option and cite where each number came from, marking any guess as an estimate."
    },
    {
@@ -1225,7 +1225,7 @@
    },
    {
     "t": "L7 Super expert: A decision system",
-    "note": "The super expert designs how the organisation makes decisions: case templates, review levels, evidence rules and follow-up. They teach writers to keep every page honest, short and checkable."
+    "note": "The super expert designs how the organisation makes decisions: case templates, review levels, evidence rules and follow-up. They teach writers to make every page easy to check."
    }
   ],
   "jobs": [

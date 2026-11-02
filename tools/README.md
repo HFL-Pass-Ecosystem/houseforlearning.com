@@ -28,3 +28,17 @@ npm i --no-save playwright && npx playwright install chromium
 node tools/check_payflow.js
 ```
 Opens a sample of pages from each course family (school, CPD, GL flagship, four-place editions, executive, Electrical academy and Career Launch lessons) at 1280 px and 390 px. It checks signed out, signed in, the test payment and Members > My courses, and exits with 1 if any page fails. Options: `--per-family N`, `--widths 1280,390`, `--family school,cpd`, `--pages a.html,b.html`. The GitHub check "Check pay flow" runs it by hand (Run workflow) and on pull requests that change `access.js` or `courses.css`. It is not part of "Check pages", which stays Python-only. Test only: no real money, no secrets.
+
+Same as the GitHub check "Check pages" on pull requests into `claude/hfl-courses`. It fails if the rebuild changes any file, if the audit shows a gap not already listed in `audits/course-page-audit.md`, if `tools/check_links.py` finds a broken link, if `tools/check_secrecy.py` finds a banned word, or if `tools/audit_school_spec.py` fails (skipped while that file does not exist). It prints a short list of what to fix. It does not deploy and needs no secrets.
+
+## Link check
+```
+python3 tools/check_links.py
+```
+Every local `href`/`src` must point to an existing file, every `#anchor` must exist in its target page, and no page may link to a Russia page or to another domain (allowed hosts are listed at the top of the script). Fix a broken link in the builder, then rebuild.
+
+## Secrecy check
+```
+python3 tools/check_secrecy.py
+```
+Scans everything the browser receives (`site/`: pages, scripts, styles, data; comments included) for the words and patterns in `data/secrecy-words.json`: private names, other brand names, internal owner remarks, group wording, Russia "HELD" lines, the shared mailbox, fee amounts on CPD pages, Career Launch percentages, and USD 39/79 outside the six membership pages. To change what is banned, edit the JSON, not the script. Fix a hit in the builder, then rebuild.

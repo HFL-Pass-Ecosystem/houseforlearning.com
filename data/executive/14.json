@@ -1,6 +1,6 @@
 {
  "task": "Prepare three linked statements that balance, read them with ratios and test them with reconciliations and sample checks.",
- "condition": "Given a small set of transactions for one year.",
+ "condition": "Given a small set of transactions for one year. All money figures are in one currency of your choice.",
  "standard": "The equation balances at each step, closing cash matches in two statements, ratios are correct and the bank reconciles to the books.",
  "who": "Managers and analysts who need to read, check or sign off accounts.",
  "modules": [
@@ -14,7 +14,7 @@
     "Each event changes at least two items",
     "The two sides always stay equal"
    ],
-   "example": "A new firm starts with 100,000 of owner money in the bank. Assets are 100,000 cash, liabilities are 0 and equity is 100,000, so the equation holds. It then borrows 20,000. Cash rises to 120,000 and a loan of 20,000 is added. Assets are 120,000, and liabilities plus equity are 20,000 + 100,000 = 120,000. The equation still balances.",
+   "example": "Worked-example figures, in your currency. A new firm starts with 100,000 of owner money in the bank. Assets are 100,000 cash, liabilities are 0 and equity is 100,000, so the equation holds. It then borrows 20,000. Cash rises to 120,000 and a loan of 20,000 is added. Assets are 120,000, and liabilities plus equity are 20,000 + 100,000 = 120,000. The equation still balances.",
    "activity": "Start a firm with 80,000 owner money, then borrow 15,000 and buy a machine for 30,000 cash. Show the equation after each step.",
    "standard": "Three equations are shown and each balances: 80,000; 95,000; 95,000 (65,000 cash + 30,000 machine)."
   },
@@ -28,7 +28,7 @@
     "Each entry has equal debits and credits",
     "Trial balance checks the whole ledger"
    ],
-   "example": "A sale on credit of 10,000 is recorded as debit Receivables 10,000 and credit Revenue 10,000. A cash expense of 4,000 is debit Expenses 4,000 and credit Cash 4,000. The owner puts in 50,000: debit Cash 50,000 and credit Equity 50,000. Trial balance: debits are 10,000 + 4,000 + 50,000 = 64,000 and credits are 10,000 + 4,000 + 50,000 = 64,000. They match.",
+   "example": "Worked-example figures, in your currency. A sale on credit of 10,000 is recorded as debit Receivables 10,000 and credit Revenue 10,000. A cash expense of 4,000 is debit Expenses 4,000 and credit Cash 4,000. The owner puts in 50,000: debit Cash 50,000 and credit Equity 50,000. Trial balance: debits are 10,000 + 4,000 + 50,000 = 64,000 and credits are 10,000 + 4,000 + 50,000 = 64,000. They match.",
    "activity": "Record three events of your own (one sale on credit, one cash expense, one loan) and total debits and credits.",
    "standard": "Each entry has equal debit and credit and the totals match."
   },
@@ -42,7 +42,7 @@
     "Expenses matched to that revenue",
     "Depreciation spreads the cost of equipment"
    ],
-   "example": "Revenue is 80,000 (70,000 paid in cash and 10,000 not yet paid). Cash expenses are 50,000. Equipment cost 30,000 and lasts 6 years, so depreciation is 30,000 / 6 = 5,000. Profit = 80,000 - 50,000 - 5,000 = 25,000. The unpaid 10,000 still counts as revenue because the work is done.",
+   "example": "Worked-example figures, in your currency. Revenue is 80,000 (70,000 paid in cash and 10,000 not yet paid). Cash expenses are 50,000. Equipment cost 30,000 and lasts 6 years, so depreciation is 30,000 / 6 = 5,000. Profit = 80,000 - 50,000 - 5,000 = 25,000. The unpaid 10,000 still counts as revenue because the work is done.",
    "activity": "Revenue is 120,000 with 15,000 unpaid, cash expenses are 85,000 and equipment of 24,000 lasts 8 years. Find profit.",
    "standard": "Depreciation is 3,000 and profit is 32,000."
   },
@@ -56,7 +56,7 @@
     "Equity includes the profit kept in the firm",
     "Check that both sides equal"
    ],
-   "example": "At year end: cash 110,000, receivables 10,000, equipment net of depreciation 25,000 (30,000 - 5,000). Total assets are 145,000. The loan is 20,000. Equity is share capital 100,000 plus profit 25,000 = 125,000. Liabilities plus equity are 20,000 + 125,000 = 145,000, so the sheet balances.",
+   "example": "Worked-example figures, in your currency. At year end: cash 110,000, receivables 10,000, equipment net of depreciation 25,000 (30,000 - 5,000). Total assets are 145,000. The loan is 20,000. Equity is share capital 100,000 plus profit 25,000 = 125,000. Liabilities plus equity are 20,000 + 125,000 = 145,000, so the sheet balances.",
    "activity": "Prepare a balance sheet from cash 60,000, receivables 8,000, equipment net 22,000, a loan of 12,000 and share capital 50,000, and find the profit kept.",
    "standard": "Assets are 90,000, equity is 78,000 and profit kept is 28,000."
   },
@@ -70,7 +70,7 @@
     "Investing: equipment bought",
     "Financing: loans and owner money"
    ],
-   "example": "Profit is 25,000. Add back depreciation of 5,000 and subtract the rise in receivables of 10,000. Operating cash is 25,000 + 5,000 - 10,000 = 20,000. Investing is -30,000 for the equipment. Financing is +20,000 from the loan. Net change is 20,000 - 30,000 + 20,000 = 10,000. Opening cash 100,000 plus 10,000 gives closing cash of 110,000.",
+   "example": "Worked-example figures, in your currency. Profit is 25,000. Add back depreciation of 5,000 and subtract the rise in receivables of 10,000. Operating cash is 25,000 + 5,000 - 10,000 = 20,000. Investing is -30,000 for the equipment. Financing is +20,000 from the loan. Net change is 20,000 - 30,000 + 20,000 = 10,000. Opening cash 100,000 plus 10,000 gives closing cash of 110,000.",
    "activity": "Profit 18,000, depreciation 3,000, receivables up by 6,000, equipment bought 15,000, loan taken 10,000. Find the net change in cash.",
    "standard": "Operating is 15,000, net change is 10,000 and the working is shown."
   },
@@ -84,7 +84,7 @@
     "Depreciation lowers assets and profit together",
     "Closing cash must match"
    ],
-   "example": "Profit of 25,000 from the income statement raises equity from 100,000 to 125,000. Depreciation of 5,000 lowers equipment from 30,000 to 25,000. The cash flow closing balance is 110,000 and the balance sheet cash is also 110,000. Suppose a clerk forgot to lower equipment, so assets show 150,000 against 145,000 on the other side. The 5,000 gap equals the depreciation, which points straight to the missing step.",
+   "example": "Worked-example figures, in your currency. Profit of 25,000 from the income statement raises equity from 100,000 to 125,000. Depreciation of 5,000 lowers equipment from 30,000 to 25,000. The cash flow closing balance is 110,000 and the balance sheet cash is also 110,000. Suppose a clerk forgot to lower equipment, so assets show 150,000 against 145,000 on the other side. The 5,000 gap equals the depreciation, which points straight to the missing step.",
    "activity": "Take a balance sheet that is out by 3,000 and find which link has failed using profit, depreciation and cash.",
    "standard": "The gap is matched to a named link and a fix entry is written."
   },
@@ -98,7 +98,7 @@
     "Net margin for profit",
     "Debt to equity for risk"
    ],
-   "example": "Current assets are 120,000 (cash 110,000 and receivables 10,000) and current liabilities are 20,000 (the loan falls due within a year), so the current ratio is 120,000 / 20,000 = 6.0. Net margin is 25,000 / 80,000 = 31.25%. Debt to equity is 20,000 / 125,000 = 0.16. If the target current ratio is at least 1.5, the firm passes with room. A debt to equity of 0.16 shows low borrowing risk.",
+   "example": "Worked-example figures, in your currency. Current assets are 120,000 (cash 110,000 and receivables 10,000) and current liabilities are 20,000 (the loan falls due within a year), so the current ratio is 120,000 / 20,000 = 6.0. Net margin is 25,000 / 80,000 = 31.25%. Debt to equity is 20,000 / 125,000 = 0.16. If the target current ratio is at least 1.5, the firm passes with room. A debt to equity of 0.16 shows low borrowing risk.",
    "activity": "Current assets 90,000, current liabilities 60,000, profit 12,000, revenue 96,000, debt 30,000 and equity 60,000. Find the three ratios.",
    "standard": "Ratios are 1.5, 12.5% and 0.5 with a one-line reading for each."
   },
@@ -112,7 +112,7 @@
     "Test a sample of entries",
     "Report errors and fixes"
    ],
-   "example": "The bank statement shows 112,500. Deposits in transit are 3,000 and unpaid cheques are 5,500. Adjusted bank = 112,500 + 3,000 - 5,500 = 110,000, which equals the book cash of 110,000. An audit samples 60 of 2,000 invoices and finds 3 errors, a 5% rate. Projected, that is about 100 invoices with errors, so the audit extends the sample.",
+   "example": "Worked-example figures, in your currency. The bank statement shows 112,500. Deposits in transit are 3,000 and unpaid cheques are 5,500. Adjusted bank = 112,500 + 3,000 - 5,500 = 110,000, which equals the book cash of 110,000. An audit samples 60 of 2,000 invoices and finds 3 errors, a 5% rate. Projected, that is about 100 invoices with errors, so the audit extends the sample.",
    "activity": "Bank balance 48,200, deposits in transit 1,800, unpaid cheques 2,600. Find the adjusted bank balance and compare with a book balance of 47,400.",
    "standard": "Adjusted bank is 47,400, it matches the books and the difference is zero."
   }
@@ -144,8 +144,8 @@
    "module": 5
   },
   {
-   "q": "A balance sheet is out by 4,000. Depreciation of 4,000 was forgotten on equipment. What is the fix?",
-   "a": "Lower equipment by 4,000 and record 4,000 expense so profit and equity fall.",
+   "q": "A balance sheet is out by 4,000. Depreciation of 4,000 was taken in profit but not taken off equipment. What is the fix?",
+   "a": "Lower equipment by 4,000. Profit already includes the expense, so profit and equity do not change.",
    "module": 6
   },
   {

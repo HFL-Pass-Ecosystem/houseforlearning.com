@@ -1,10 +1,10 @@
 # Flagship detail: Accountancy, Finance and insurance (DRAFT)
 
-Read with `00-STANDARD.md`. Minutes add up to the course length. Practice files are invented. No fee is set.
+Read with `00-STANDARD.md`. Minutes add up to the course length. Practice files and all figures are invented worked-example figures. No fee is set.
 
 ## CPD-ACC-001 Reconcile accounts to a month-end standard (about 240 min)
 **Modules:** 1 Why reconcile and what "done" means (20). 2 Reading a bank list and a ledger list (30). 3 Matching and timing differences (45). 4 The reconciliation statement layout (35). 5 Unusual items: spotting and explaining (30). 6 Full practice file (40). 7 Assessment (10). 8 Second worked case and teach-back (30).
-**Case card 2:** Bank shows 14,820.00; ledger shows 15,240.00. A cheque of 600.00 is unpresented and a fee of 180.00 is unrecorded. Learners find the remaining gap and write the statement.
+**Case card 2:** Bank shows 14,820.00; ledger shows 15,240.00. A cheque of 600.00 is unpresented (issued, not yet paid by the bank) and a fee of 180.00 is unrecorded. Learners find the remaining gap (840.00) and write the statement.
 **More checks:** 1 What is a timing difference? *An item in one record this month and the other next month.* 2 What do you do with an unexplained 50 against a set limit of 25? *It is above the limit: record it and escalate.* 3 Why keep the statement signed and dated? *It proves who checked and when.* 4 Name one unusual item. *A round-sum payment, a duplicate, a payment on a weekend.* 5 Who approves a write-off? *The person named in the approval card, never the preparer.*
 **Glossary:** reconciliation, unpresented cheque, timing difference, write-off, approval card.
 
@@ -29,7 +29,7 @@ Read with `00-STANDARD.md`. Minutes add up to the course length. Practice files 
 ## CPD-FIN-002 Record a suitability review (about 240 min)
 **Modules:** 1 Why a review exists (20). 2 Facts to collect from the client card (40). 3 Matching needs to a product type (45). 4 Writing the reason in plain words (30). 5 The advice record checklist (30). 6 Practice file (25). 7 Assessment (10). 8 Second client card: a 3-year horizon (40).
 **Case card 2:** A client aged 62 wants growth but needs the money in 3 years. Learners record facts, match, and explain the reason.
-**More checks:** 1 Name three facts always needed. *Goal, time horizon, ability to bear loss.* 2 What if the client declines to answer? *Record it and limit the advice.* 3 Why write a reason? *So another person can see why this fit.* 4 How long are records kept? *As long as your local rule and firm policy require; check them.* 5 Who reviews the record? *A second checker as per policy.*
+**More checks:** 1 Name the four facts always needed. *Goal, time horizon, comfort with loss, financial position.* 2 What if the client declines to answer? *Record it, do not guess the answer, and ask the checker before going further.* 3 Why write a reason? *So another person can see why this fit.* 4 How long are records kept? *As long as your local rule and firm policy require; check them.* 5 Who reviews the record? *A second checker as per policy.*
 **Glossary:** suitability, horizon, risk tolerance, advice record, checker.
 
 ## CPD-FIN-003 Report suspicious activity (about 120 min)

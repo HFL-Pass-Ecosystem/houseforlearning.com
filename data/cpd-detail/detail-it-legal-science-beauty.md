@@ -10,15 +10,15 @@ Method and recording only. No legal, medical or security advice. Invented cases.
 ## ITC-002 Respond to a security alert
 **Worked example triage:** High: ransomware note on a server; Medium: failed logins from one address; Low: one blocked spam. Playbook order: identify, contain (isolate the device), preserve evidence, escalate, recover, report.
 **Case card:** five alerts.
-**Checks:** 1 Contain before what? *Before recovery, to stop spread.* 2 Who do you tell? *Your incident lead per the playbook.* 3 Should you wipe a device at once? *No; preserve evidence first.* 4 What goes in the report? *What, when, impact, actions, lessons.*
+**Checks:** 1 Contain before what? *Before recovery, to stop spread.* 2 Who do you tell? *Your incident lead per the playbook.* 3 Should you wipe a device at once? *No; preserve evidence first.* 4 What goes in the report? *Time, what happened, impact, actions, next step.*
 
 ## ITC-003 Document a change
 **Worked example:** Change: update mail server. Reason: security fix. Risk: 30-minute outage. Rollback: restore snapshot. Test: send/receive test. Approver and time recorded.
 **Case card:** a firewall rule change.
-**Checks:** 1 Why a rollback plan? *To recover if it fails.* 2 Who approves? *The change owner per policy.* 3 What is tested? *That the service works and nothing else broke.* 4 Record the result? *Yes, with time.*
+**Checks:** 1 Why a rollback plan? *To recover if it fails.* 2 Who approves? *The named approver, per policy.* 3 What is tested? *That the service works and nothing else broke.* 4 Record the result? *Yes, with time.*
 
 ## LEG-001 Draft a clear client letter
-**Worked example:** "Dear client, You asked what happens next. In short: we will file the form by 10 Nov and you will need to sign by 8 Nov. If anything changes we will tell you the same day. Please call if you have questions." Under one page, next step and date included.
+**Worked example:** "Dear client, You asked what happens next. We will file the form by 10 Nov, and we will tell you the same day if anything changes. Please call us if you have questions. Next step: please sign the form by 8 Nov." Under one page, ending with the next step and date.
 **Case card:** explain a filing step.
 **Checks:** 1 Replace "heretofore". *"until now" or remove.* 2 What must a letter include? *Next step and date.* 3 Check readability how? *A simple readability test and a colleague read.* 4 Advice limits? *Say what you cannot advise on.*
 
@@ -53,11 +53,11 @@ Method and recording only. No legal, medical or security advice. Invented cases.
 **Checks:** 1 Why ask about allergies? *To avoid harm.* 2 When refer on? *When it is beyond your scope or unsafe to proceed.* 3 Privacy? *Keep the record secure; share only with consent.* 4 Date and sign? *Yes, every record.*
 
 ## BEA-002 Apply infection control
-**Worked example order:** wash hands; clean tools with approved cleaner; disinfect or sterilise per tool type; dry; store covered; log date and who. Single-use items are used once and discarded.
+**Worked example order:** wash hands; clean tools with approved cleaner; disinfect or sterilise per tool type; dry; store covered; log date, item, method and initials. Single-use items are used once and discarded.
 **Case card:** six items: towel, tweezers, nail file, couch cover, brush, gloves.
 **Checks:** 1 When wash hands? *Before and after each client and after glove removal.* 2 Single-use means? *Use once, then discard.* 3 Why a log? *Proof of routine for audits.* 4 Follow whose rule? *Your local regulator and product instructions.*
 
 ## BEA-003 Record consent
 **Worked example:** Explain treatment, benefits, risks, aftercare in plain words; client reads and signs and dates; you countersign; review at each visit if anything changes.
 **Case card:** a client hesitates about a patch test.
-**Checks:** 1 Can consent be withdrawn? *Yes, at any time.* 2 Plain words for "contraindication"? *A reason not to do the treatment.* 3 Where is the form kept? *Securely, per your retention rule.* 4 Minors? *Follow local rules on guardian consent.*
+**Checks:** 1 Can consent be withdrawn? *Yes, at any time.* 2 Plain words for "contraindication"? *A reason not to do the treatment.* 3 Where is the form kept? *Securely, per your retention rule.* 4 Minors? *Follow the local rule on who must give consent.*

@@ -41,7 +41,7 @@
     var t = closeMenu();
     if (t) t.focus();
   });
-  /* Contact forms (owner 20 Oct 2026): Send opens the visitor's own email app with the message filled in,
+  /* Contact forms: Send opens the visitor's own email app with the message filled in,
      addressed to the site's contact. Nothing is sent from the page itself. */
   function mailForm(f) {
     var to = f.getAttribute('data-mailto') || '';
@@ -170,7 +170,7 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
 })();
 
-/* Site enhancements shared by all four sites (owner 22 Oct 2026: "much better than premium site builders").
+/* Site enhancements.
    Page search, an "On this page" guide, a reading bar, a gentle reveal on scroll, back to top and section links.
    No outside calls and nothing stored: search reads this site's own pages (same folder), or the page templates
    in the preview. Runs again after each preview page change through SiteUI.init. */
@@ -321,7 +321,7 @@
     var out = [];
     [].forEach.call(sel.options, function (o) {
       var v = o.value, parts = v.slice(2).split('/');
-      if (parts.length > 1 && cur && parts[0] !== cur) return;  // the AMS preview holds two sites: search only the one in view
+      if (parts.length > 1 && cur && parts[0] !== cur) return;  // search only the section in view
       var t = D.getElementById('r-' + parts.join('-')); if (!t) return;
       var m = t.content.querySelector('main'); if (!m) return;
       out.push(entry(m, o.textContent.replace(/^[^·]*·\s*/, ''), v, true));

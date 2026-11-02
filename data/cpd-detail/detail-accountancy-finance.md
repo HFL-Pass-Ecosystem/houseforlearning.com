@@ -3,7 +3,7 @@
 Method and recording only. No tax, legal or investment advice. Figures invented. Rules differ by country and body; always check your own. Expert review before publish. No fees.
 
 ## ACC-001 Reconcile accounts to a month-end standard
-**Worked example:** Bank balance 10,000; ledger cash balance 9,700. Items: cheque issued, not yet cleared (400); deposit made, not yet shown by the bank (100). Check: 10,000 - 400 + 100 = 9,700; ledger 9,700. Difference after reconciling: 0.
+**Worked example (figures invented):** Bank balance 10,000; ledger cash balance 9,700. Items: cheque issued, not yet cleared (400); deposit made, not yet shown by the bank (100). Check: 10,000 - 400 + 100 = 9,700; ledger 9,700. Difference after reconciling: 0.
 **Layout:** balance per bank; add/less timing items; adjusted balance; balance per ledger; add/less ledger items; adjusted balance; difference.
 **Case card:** a practice file of 12 bank lines and 12 ledger lines with 3 planted differences.
 **Checks:** 1 Why reconcile monthly? *To catch errors and fraud early.* 2 A cheque issued but not cleared affects which balance? *Bank balance side (deduct it).* 3 What do you do with an unexplained 50? *Investigate, record it and escalate if above the limit.* 4 Who reviews? *A second person, per your policy.*
@@ -27,7 +27,7 @@ Method and recording only. No tax, legal or investment advice. Figures invented.
 ## FIN-002 Record a suitability review
 **Worked example record:** client goals; risk comfort in the client's words; facts (income band, time horizon); need matched to a product type with a written reason; alternatives considered; client confirmation.
 **Case card:** an invented client card; learners complete the record to the checklist.
-**Checks:** 1 Why record the reason? *To show the match was thought through.* 2 What facts are essential? *Goals, time horizon, comfort with loss, financial position.* 3 What if facts are missing? *Do not proceed until gathered.* 4 Who signs? *The adviser and, where required, the client.*
+**Checks:** 1 Why record the reason? *To show the match was thought through.* 2 What facts are essential? *Goals, time horizon, comfort with loss, financial position.* 3 What if facts are missing? *Do not proceed until gathered.* 4 Who signs? *The adviser and the client, as the checklist requires.*
 
 ## FIN-003 Report suspicious activity
 **Worked example warning signs:** cash deposits just under a reporting limit; sudden unexplained wealth; reluctance to give identity details.

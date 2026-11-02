@@ -1,6 +1,6 @@
 {
  "task": "Build the expatriate balance sheet and cost case for one posting and plan the person's return.",
- "condition": "Given a home salary, host price index, rent figures and tax estimates for one posting.",
+ "condition": "Given a home salary, host price index, rent figures and tax estimates for one posting. All money figures are in one currency of your choice.",
  "standard": "The four-part split adds up, each adjustment is correct, the total cost compares with a local hire, and a return role is named.",
  "who": "Managers and HR staff who move people between countries.",
  "modules": [
@@ -14,7 +14,7 @@
     "Match each foreign post to a skill gap",
     "Plan the return role before the move"
    ],
-   "example": "A regional sales manager wants to become head of a three-country business in ten years. The target role needs four skills: P&L ownership, local-law knowledge, team leadership in two languages, and supplier negotiation. Post X gives three of the four, so it covers 3 / 4 = 75%. Post Y gives only two, so it covers 50%. The manager picks post X, then adds a short course for the missing skill, which lifts cover to 100% by year four.",
+   "example": "A regional sales manager wants to become head of a three-country business in ten years. The target role needs four skills: profit-and-loss ownership, local-law knowledge, team leadership in two languages, and supplier negotiation. Post X gives three of the four, so it covers 3 / 4 = 75%. Post Y gives only two, so it covers 50%. The manager picks post X, then adds a short course for the missing skill, which lifts cover to 100% by year four.",
    "activity": "Choose a target role. List its skills, score two possible foreign posts, and pick one with a written reason.",
    "standard": "The plan scores at least two posts against four or more skills and shows the percentage cover for each."
   },
@@ -28,7 +28,7 @@
     "Longer stays raise the cost per month",
     "Match the type to the business need"
    ],
-   "example": "A firm needs a technical lead in another country. The base pay is 80,000 a year. Using example multipliers, a 6-month short assignment costs about 1.3 times pay, so 80,000 x 0.5 x 1.3 = 52,000. A 3-year long-term post costs about 2.0 times pay each year, so 80,000 x 2.0 x 3 = 480,000. The need is only a 6-month project, so the short assignment saves 428,000.",
+   "example": "Worked-example figures, in your currency. A firm needs a technical lead in another country. The base pay is 80,000 a year. Using example multipliers, a 6-month short assignment costs about 1.3 times pay, so 80,000 x 0.5 x 1.3 = 52,000. A 3-year long-term post costs about 2.0 times pay each year, so 80,000 x 2.0 x 3 = 480,000. The need is only a 6-month project, so the short assignment saves 428,000.",
    "activity": "Take a business need that lasts 9 months. Cost three assignment types with a cost multiplier for each and recommend one.",
    "standard": "Three costs are worked out with the multiplier shown and the cheapest type that meets the need is named."
   },
@@ -42,7 +42,7 @@
     "The company pays the extra cost, not the person",
     "Reserve (savings) is not adjusted"
    ],
-   "example": "An employee earns 60,000 at home. The home split is tax 12,000, housing 14,400, goods and services 16,800, reserve 16,800. Check: 12,000 + 14,400 + 16,800 + 16,800 = 60,000. The first three parts are the ones the company will compare with host costs. The reserve of 16,800 stays as it is, so the person still saves the same amount.",
+   "example": "Worked-example figures, in your currency. An employee earns 60,000 at home. The home split is tax 12,000, housing 14,400, goods and services 16,800, reserve 16,800. Check: 12,000 + 14,400 + 16,800 + 16,800 = 60,000. The first three parts are the ones the company will compare with host costs. The reserve of 16,800 stays as it is, so the person still saves the same amount.",
    "activity": "Take a home salary of 54,000. Split it into the four parts using shares of 20%, 25%, 30% and 25% and check that the total matches.",
    "standard": "The four parts are 10,800, 13,500, 16,200 and 13,500, and they add up to 54,000."
   },
@@ -56,7 +56,7 @@
     "Apply the index only to goods and services",
     "Review the index at least once a year"
    ],
-   "example": "Home goods and services spend is 16,800. The host index is 125 against a home index of 100. The same basket abroad costs 16,800 x 125 / 100 = 21,000. The adjustment is 21,000 - 16,800 = 4,200 a year, or 350 a month. If the index falls to 115 next year, the new cost is 19,320 and the adjustment drops to 2,520.",
+   "example": "Worked-example figures, in your currency. Home goods and services spend is 16,800. The host index is 125 against a home index of 100. The same basket abroad costs 16,800 x 125 / 100 = 21,000. The adjustment is 21,000 - 16,800 = 4,200 a year, or 350 a month. If the index falls to 115 next year, the new cost is 19,320 and the adjustment drops to 2,520.",
    "activity": "Take a goods spend of 18,000 and a host index of 112. Work out the yearly and monthly adjustment.",
    "standard": "The yearly adjustment is 2,160 and the monthly adjustment is 180, with the working shown."
   },
@@ -70,7 +70,7 @@
     "The company pays the actual host tax",
     "The cost to the company is the difference"
    ],
-   "example": "Hypothetical home tax on 60,000 pay is 12,000. The person is held to 12,000 through payroll deduction. The actual host tax bill turns out to be 19,000, and the company pays it. The cost to the company is 19,000 - 12,000 = 7,000. If the host tax had been 10,000, the company would have gained 2,000 instead.",
+   "example": "Worked-example figures, in your currency. Hypothetical home tax on 60,000 pay is 12,000. The person is held to 12,000 through payroll deduction. The actual host tax bill turns out to be 19,000, and the company pays it. The cost to the company is 19,000 - 12,000 = 7,000. If the host tax had been 10,000, the company would have gained 2,000 instead.",
    "activity": "Hypothetical tax is 9,500. Actual host tax is 14,200. State who pays what and the net cost to the company.",
    "standard": "The company pays 14,200, the person bears 9,500, and the net company cost is 4,700."
   },
@@ -84,7 +84,7 @@
     "Hardship pay is a percentage of base pay",
     "Schooling is paid on proof of cost"
    ],
-   "example": "Host rent is 22,000 a year and the home housing part is 14,400. The housing allowance is 22,000 - 14,400 = 7,600. The post is rated as 15% hardship on a base of 60,000, so hardship pay is 9,000. Together the two allowances add 16,600 a year. Schooling of 12,000 is paid separately on receipts.",
+   "example": "Worked-example figures, in your currency. Host rent is 22,000 a year and the home housing part is 14,400. The housing allowance is 22,000 - 14,400 = 7,600. The post is rated as 15% hardship on a base of 60,000, so hardship pay is 9,000. Together the two allowances add 16,600 a year. Schooling of 12,000 is paid separately on receipts.",
    "activity": "Host rent is 18,500, home housing part is 12,000, base pay is 50,000 and hardship is 10%. Find the two allowances and the total.",
    "standard": "Housing allowance is 6,500, hardship pay is 5,000 and the total is 11,500."
   },
@@ -98,7 +98,7 @@
     "Multiply by years and add one-off costs",
     "Compare with a local hire and name the gap"
    ],
-   "example": "One year costs: base 60,000, cost of living 4,200, housing 7,600, hardship 9,000, tax difference 7,000, schooling 12,000. The sum is 99,800 a year. Over three years that is 299,400, plus 10,000 one-off relocation, giving 309,400. A local hire at 85,000 for three years costs 255,000. The gap is 54,400, so the firm must name a benefit worth at least that much, such as skill transfer.",
+   "example": "Worked-example figures, in your currency. One year costs: base 60,000, cost of living 4,200, housing 7,600, hardship 9,000, tax difference 7,000, schooling 12,000. The sum is 99,800 a year. Over three years that is 299,400, plus 10,000 one-off relocation, giving 309,400. A local hire at 85,000 for three years costs 255,000. The gap is 54,400, so the firm must name a benefit worth at least that much, such as skill transfer.",
    "activity": "Build a three-year cost for one post using at least five cost lines and compare it with a local hire.",
    "standard": "The total, the local-hire cost and the gap are all correct and a benefit worth the gap is named or the move is rejected."
   },
@@ -112,7 +112,7 @@
     "Hold a debrief within 60 days",
     "Track how many returners stay"
    ],
-   "example": "A firm brings back 20 people a year. Past data shows 25% leave within two years, which is 20 x 0.25 = 5 people. Replacing one person costs about half of a 60,000 salary, or 30,000. The yearly loss is 5 x 30,000 = 150,000. A return plan that cuts leavers to 10% saves 3 people, worth 90,000 a year.",
+   "example": "Worked-example figures, in your currency. A firm brings back 20 people a year. Suppose 25% leave within two years, which is 20 x 0.25 = 5 people. Replacing one person costs about half of a 60,000 salary, or 30,000. The yearly loss is 5 x 30,000 = 150,000. A return plan that cuts leavers to 10% saves 3 people, worth 90,000 a year.",
    "activity": "Write a return plan for one person with a role, a date for the debrief and one measure of success.",
    "standard": "The plan names a role, a debrief within 60 days and a stay-rate measure with a target number."
   }

@@ -1,0 +1,89 @@
+{
+ "_note": "Words and patterns that must never appear in served files (site/: pages, scripts, styles, data, text). Edit here, not in the script. 'pattern' is a case-insensitive regex unless 'case' is true. 'only' limits a rule to files matching a glob list; 'except' skips files; 'skip_dirs' are third-party bundles that are not ours.",
+ "skip_dirs": [
+  "studio/vendor/",
+  "assets/fonts/",
+  "mba/vendor/"
+ ],
+ "rules": [
+  {
+   "id": "person-names",
+   "why": "private names never go on pages",
+   "pattern": "\\b(Agnes|Pandey|Bobbi|Sonia|Gaj|Ravichandra)\\b"
+  },
+  {
+   "id": "peter-hill",
+   "why": "private name (Peter Hill)",
+   "pattern": "\\bPeter\\s+Hill\\b|\\bHill,\\s+Peter\\b"
+  },
+  {
+   "id": "peter-alone",
+   "why": "first name Peter next to Career Launch",
+   "pattern": "Career Launch[^<]{0,80}\\bPeter\\b|\\bPeter\\b[^<]{0,80}Career Launch"
+  },
+  {
+   "id": "brand-names",
+   "why": "other brands must not show the group link (names from project notes; add more here)",
+   "pattern": "\\b(Avyra|Yantra|Semitech|Energytech|Avyra Microsystems|AHFL)\\b|\\bAMS\\b\\s+(site|brand|preview)|yantra-global|avyramicrosystems"
+  },
+  {
+   "id": "internal-owner",
+   "why": "internal 'owner' remarks (the word alone is fine in course text)",
+   "pattern": "\\bowner['’]?s?\\s+(yes|rule|rules|note)\\b|\\bowner (said|says) (yes|ok)\\b|\\bfor the owner to\\b|\\bowner to (confirm|decide|say|choose)\\b|\\bthe owner['’]s\\b|\\bowner[- ]only\\b"
+  },
+  {
+   "id": "group-wording",
+   "why": "group link wording",
+   "pattern": "\\bgroup sites\\b|\\ball (three|four|five|six) sites\\b|\\bshared by all (three|four|five|six)\\b"
+  },
+  {
+   "id": "russia-held",
+   "why": "Russia lines are held and never shown",
+   "pattern": "Russian Federation: HELD|\\bRussia\\b[^<]{0,40}\\bHELD\\b",
+   "case": true
+  },
+  {
+   "id": "held-word",
+   "why": "internal status word HELD",
+   "pattern": "\\bHELD\\b",
+   "case": true
+  },
+  {
+   "id": "shared-mailbox",
+   "why": "no mailbox on public pages; use the contact form",
+   "pattern": "engage@hfl-pass\\.com"
+  },
+  {
+   "id": "cpd-fee",
+   "why": "no fee amounts on CPD pages",
+   "pattern": "(?<![A-Za-z])(USD|AED|GBP|EUR|INR|CAD|AUD|SGD|Rs)\\.?\\s?\\d|(?<![A-Za-z])[\\$₹£€]\\s?\\d",
+   "only": [
+    "cpd*.html"
+   ],
+   "html_text_only": true,
+   "case": true
+  },
+  {
+   "id": "career-launch-percent",
+   "why": "Career Launch revenue splits stay private",
+   "pattern": "\\b(60\\s*/\\s*40|50\\s*/\\s*50|60\\s*%\\s*/\\s*40\\s*%|50\\s*%\\s*/\\s*50\\s*%)\\b",
+   "only": [
+    "career-launch*.html",
+    "*career-launch*"
+   ]
+  },
+  {
+   "id": "membership-price",
+   "why": "USD 39/79 only on the six membership pages",
+   "pattern": "USD\\s?(39|79)(?![.,\\d])|(?<![A-Za-z])\\$\\s?(39|79)(?![.,\\d])|\\b39\\s*/\\s*79\\b",
+   "except": [
+    "b2b.html",
+    "b2c.html",
+    "d2c.html",
+    "learners-pg.html",
+    "learners-phd.html",
+    "learners-ug.html"
+   ]
+  }
+ ]
+}
