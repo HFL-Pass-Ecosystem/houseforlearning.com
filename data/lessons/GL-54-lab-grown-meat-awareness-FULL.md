@@ -74,7 +74,7 @@ Goal: close the module and plan what comes next.
 Evidence: check result and the 90-day plan.
 
 ## Worked examples
-1. Source log: 12 sources read; 7 reports, 3 journal reviews, 2 official notes. Share of official/regulatory sources = 2/12 = 16%.
+1. Source log: 12 sources read; 7 reports, 3 journal reviews, 2 official notes. Share of official/regulatory sources = 2/12 = 16.7%.
 2. Cost claim: one report says cost per kg fell from 100 to 20 (same currency, same basis). Fall = (100-20)/100 = 80%. Label: 'reported'. A fossil-free price comparison needs the same basis, so mark it 'not comparable' until checked.
 3. Scale: a vessel grows 1 unit of cells to 10 units each cycle; after 3 cycles = 10^3 = 1,000 units (idealised; real growth is lower).
 4. Approvals map: 5 countries checked; 2 allow limited sale, 1 is reviewing, 2 not yet. Approved or limited share = 40%.
