@@ -1,45 +1,300 @@
-LONG = {
-'Construction and Technical Services': (
-"Marcos runs a two-person electrical and repair service in the east zone of Sao Paulo. A client asked him to rewire a 60 square meter apartment. He estimated R$ 4,800 for materials and R$ 3,200 for labor over eight days, and sent the client R$ 8,000 by message. On day four the client asked for six extra outlets and a moved wall light. The extra cable and breakers cost R$ 650 and added two working days. Marcos had no written scope, so the client says the extras were already included and refuses to pay the last R$ 3,000 installment. Marcos also covered a R$ 300 cable shortage from his own pocket. He now suspects the job loses money, but he cannot show what was agreed, what changed, or what each change cost.",
-"First, write a one-page scope for every job: rooms, points, materials, days, price, and payment dates. Next, list each extra request as a change order with its own cost and days, and ask the client to confirm it in writing before you start. Then log materials and hours. Last, close the job with a signed delivery note.\n\nRe-compute this job: income R$ 8,000; materials R$ 4,800 + R$ 650 + R$ 300 = R$ 5,750; labor planned R$ 3,200 for 8 days, which is R$ 400 per day, so two extra days add R$ 800. Labor actually spent is R$ 3,200 + R$ 800 = R$ 4,000, so total cost is R$ 5,750 + R$ 4,000 = R$ 9,750, a loss of R$ 1,750 against the R$ 8,000 price (and he has so far received only R$ 5,000). With the extras billed, the price should have been at least R$ 8,000 + R$ 650 + R$ 800 + R$ 300 = R$ 9,750 just to break even, before any profit.\n\nRecords to keep: quote, scope page, change orders, receipts, hours, photos, payment proofs. Check the current official text for any rule that applies to your trade.\n\nStandard to meet: no work starts on a change until the client has confirmed its price in writing."),
-
-'Winery': (
-"Helena and her brother run a small winery that buys grapes from a partner farm and bottles in a rented space near Sao Paulo. This season they paid R$ 18,000 for grapes, R$ 6,500 for bottles, corks and labels, and R$ 4,000 for storage and transport. They filled 3,000 bottles and plan to sell each for R$ 15 to restaurants and a wine club. In October a restaurant took 400 bottles on a handshake and promised to pay in 45 days. Then 120 bottles were returned with cork problems, and storage space was short. Helena has R$ 2,000 in the bank and the next grape payment of R$ 5,000 is due in three weeks. She does not know her cost per bottle, how many bottles are unsold, or how much she can afford to wait for payment.",
-"First, compute cost per bottle: R$ 18,000 + R$ 6,500 + R$ 4,000 = R$ 28,500, divided by 3,000 bottles is R$ 9.50. At R$ 15 each, gross margin is R$ 5.50 per bottle, or about 37 percent. Next, adjust for the 120 returned bottles: if they are lost, good bottles are 2,880, so cost per good bottle rises to about R$ 9.90 and margin falls to R$ 5.10.\n\nThen build a simple stock sheet by batch: bottles filled, sold, delivered on credit, returned, and on hand. Write a short supply note for each customer with quantity, price, and due date. The restaurant owes 400 x R$ 15 = R$ 6,000 in 45 days, which is after your R$ 5,000 payment, so ask for a deposit or split delivery.\n\nLast, make a four-week cash table of money in and money out. Check the current official text for labeling, registration and tax rules that apply to wine.\n\nStandard to meet: every batch has a cost per bottle, a stock count, and a written payment date before it leaves the building."),
-
-'Export and Import Business': (
-"Carlos runs a small trading firm in Sao Paulo that imports 500 stainless steel kitchen tools from a foreign supplier and resells them to local shops. The supplier invoice is US$ 4,000. When he planned the order, the dollar was R$ 5.00, so he expected R$ 20,000. By payment day the rate was R$ 5.40. Freight cost R$ 2,200, the customs agent asked R$ 900, and import taxes plus port charges came to R$ 6,100 on his estimate. He had priced the goods to shops at R$ 75 per unit, based on the first number. The container also waited nine days at the port, and he paid for storage of R$ 1,300. Carlos now doubts whether the order earns anything, and he cannot say which cost he missed first.",
-"First, list every cost in reais at the actual rate: product US$ 4,000 x 5.40 = R$ 21,600; freight R$ 2,200; agent R$ 900; taxes and port R$ 6,100; storage R$ 1,300. Next, add them: R$ 32,100. Divide by 500 units to get R$ 64.20 landed cost per unit. At R$ 75, margin is R$ 10.80 per unit, or R$ 5,400 in total, before your own overhead.\n\nThen compare with the plan: at 5.00 the product cost R$ 20,000, so the currency move added R$ 1,600 and storage added R$ 1,300. Last, set a rule for the next order: price using a rate with a safety cushion, and ask the agent for a written estimate of all charges before the goods ship.\n\nRecords to keep: supplier invoice, packing list, transport document, agent statement, tax receipts, bank exchange proof, and a landed-cost sheet per shipment. Check the current official text for customs and tax rules that apply to your product.\n\nStandard to meet: no price is quoted to a buyer until the landed cost per unit is computed."),
-
-'Financing Start-ups': (
-"Juliana is starting a small cafe-bakery in Sao Paulo and needs money for ovens, a counter and the first stock. Her list shows R$ 38,000 for equipment, R$ 7,000 for renovation, and R$ 9,000 for the first three months of rent and supplies, so R$ 54,000 in total. She has R$ 14,000 saved and her uncle offered R$ 10,000 with no paper. A bank offered a business loan for the rest, with monthly payments of R$ 1,650 for 30 months. She expects monthly sales of R$ 18,000 and costs of R$ 14,500 before the loan payment. Juliana wants to sign quickly because the shop lease is available only for two weeks, but she has not tested whether the business can carry the payment in a slow month.",
-"First, compute the gap: R$ 54,000 minus R$ 14,000 savings minus R$ 10,000 from her uncle leaves R$ 30,000 to borrow. Next, test the loan: R$ 1,650 x 30 = R$ 49,500 in total payments, which is R$ 19,500 more than the R$ 30,000 borrowed. Ask the lender for the full written cost, including all charges, and compare it with one other offer.\n\nThen test the monthly result: R$ 18,000 sales minus R$ 14,500 costs leaves R$ 3,500; after R$ 1,650 the monthly balance is R$ 1,850. Run a slow month at 20 percent lower sales: R$ 14,400 minus R$ 14,500 is minus R$ 100, so the loan payment makes it minus R$ 1,750. Hold a cash reserve for at least two such months, about R$ 3,500.\n\nLast, put the uncle's loan in a short signed note with amount and repayment dates.\n\nRecords to keep: budget, offers, contract copy, repayment table, and monthly cash sheet.\n\nStandard to meet: sign only when the slow-month test is covered by a reserve."),
-
-'Food Trucking': (
-"Rafael runs a food truck serving grilled sandwiches at lunchtime near office buildings in Sao Paulo. He sells about 90 sandwiches a day at R$ 22 each, five days a week. Ingredients cost R$ 9 per sandwich, and gas, packaging and card machine charges add R$ 3 more. He pays R$ 2,400 a month for the parking spot arrangement and R$ 1,800 for a helper. Last month it rained on seven working days and sales fell to 40 sandwiches on those days. He also threw away about R$ 600 of unused meat and bread. Rafael feels busy and tired but cannot say if he earned money last month, because he mixes truck money with personal money in one account and keeps no daily sales record.",
-"First, open a separate account and a daily sheet: sandwiches sold, sales, food bought, waste, and cash counted at close. Next, compute last month using 21 working days: 14 dry days x 90 = 1,260 sandwiches; 7 rainy days x 40 = 280; total 1,540 sandwiches. Sales are 1,540 x R$ 22 = R$ 33,880.\n\nThen compute costs per sandwich: R$ 9 + R$ 3 = R$ 12, so variable cost is R$ 18,480. Add waste R$ 600, parking R$ 2,400 and helper R$ 1,800, total R$ 23,280. Profit before your own pay and other duties is R$ 33,880 minus R$ 23,280, or R$ 10,600. Contribution per sandwich is R$ 10, so break-even is 480 sandwiches for fixed costs of R$ 4,200 plus R$ 600 waste (R$ 4,800 / R$ 10).\n\nLast, make a rainy-day plan: prepare 50 percent less stock, and sell by delivery app.\n\nRecords to keep: daily sheet, supplier receipts, waste log, and permit papers; check the current official text for street-food and health rules.\n\nStandard to meet: a weekly profit figure from your own records, every Monday."),
-
-'Bed and Breakfast Business': (
-"Dona Marta rents three rooms in her family house in a quiet neighborhood of Sao Paulo as a bed and breakfast. Each room is R$ 220 per night, and breakfast costs her R$ 18 per guest. Cleaning and laundry take R$ 35 per room per stay. Last month she filled the rooms for 38 room-nights in total out of a possible 90. A booking site brought 20 of those nights, and a guest left a bad review about a slow breakfast and noise from the street. She also pays R$ 1,100 a month for utilities and R$ 900 for a part-time helper. Marta says she is almost full on weekends, but she has no clear record of her real monthly result or what drives the empty weekdays.",
-"First, track every night in a booking sheet: date, room, guests, source, price, and review. Next, compute last month. Income is 38 x R$ 220 = R$ 8,360. Breakfast for one guest per night is 38 x R$ 18 = R$ 684. Cleaning is 38 x R$ 35 = R$ 1,330. Add utilities R$ 1,100 and helper R$ 900. Total costs are R$ 4,014, leaving R$ 4,346 before booking site charges and your own time. Occupancy is 38 divided by 90, or about 42 percent.\n\nThen act on weekdays: offer a lower weekday price such as R$ 180, and test it for one month. A night at R$ 180 still gives R$ 127 after breakfast and cleaning. Last, answer the review in writing, fix the breakfast timing, and add noise notes to the room description.\n\nRecords to keep: booking sheet, guest registration, receipts, and reviews. Check the current official text for lodging registration and guest-data rules.\n\nStandard to meet: monthly occupancy, income per room, and review score are written down on the same day each month."),
-
-'Hostel or Hotel Business': (
-"Bruno manages a 24-bed hostel near a metro station in Sao Paulo. A bed costs R$ 85 per night, and last month average occupancy was 60 percent over 30 days. Staff costs were R$ 9,500, rent R$ 12,000, utilities R$ 2,800, and cleaning supplies and laundry R$ 3,100. The owner wants to raise the price to R$ 100, but Bruno fears losing guests to nearby places that charge R$ 80. He also notices that group bookings of eight beds ask for a discount and often cancel on the last day. The front desk keeps bookings in a paper notebook, and twice two guests were given the same bed. Bruno must show the owner a clear number before the next meeting on Friday.",
-"First, move bookings into one shared calendar with bed number, dates, source, and deposit, so double booking cannot happen. Next, compute last month. Bed-nights available are 24 x 30 = 720. At 60 percent, sold nights are 432. Revenue is 432 x R$ 85 = R$ 36,720. Costs are R$ 9,500 + R$ 12,000 + R$ 2,800 + R$ 3,100 = R$ 27,400, leaving R$ 9,320.\n\nThen test the owner's idea. At R$ 100, you need only 432 x 85 / 100 = about 367 nights, or 51 percent occupancy, to earn the same revenue. A loss of up to 15 percent of nights is therefore not worse than today. Run the new price for one month on weekends only, and compare.\n\nLast, ask groups for a 30 percent deposit with a written cancel date.\n\nRecords to keep: booking calendar, deposits, guest registration, cost sheet, and complaints. Check the current official text for lodging registration and safety rules.\n\nStandard to meet: every price decision is compared with occupancy and revenue before and after."),
-
-'Carpentry': (
-"Seu Antonio has a small carpentry shop in a Sao Paulo neighborhood and makes custom kitchen cabinets. A client ordered a cabinet set and he quoted R$ 6,500. He bought wood panels, hinges and rails for R$ 2,900 and worked 10 days with one helper paid R$ 150 per day. Antonio values his own day at R$ 200. The client then asked to change the door finish after the panels were already cut, which added R$ 380 in material and two days of work. Antonio also lost R$ 350 of panels in cutting mistakes. He accepted the change without telling the price, and the client now says R$ 6,500 was the final amount. Antonio feels he worked hard for almost nothing and wants a method he can repeat.",
-"First, price every job from a cost sheet: materials, waste allowance, helper days, your own days, shop costs, and profit. Next, recompute this job. Materials were R$ 2,900 + R$ 380 + R$ 350 loss = R$ 3,630. Helper: 12 days x R$ 150 = R$ 1,800. Your own time: 12 days x R$ 200 = R$ 2,400. The full cost is R$ 7,830, so the job lost R$ 1,330 against the R$ 6,500 price.\n\nThen fix the method. Add 10 percent waste to the material list, which is about R$ 290 on R$ 2,900. Write a drawing and a finish list for the client to sign before cutting. Any change after cutting is a new line with price and days, confirmed in writing. A fair price for the original set would be R$ 2,900 + R$ 290 + R$ 1,500 helper + R$ 2,000 own time = R$ 6,690 before profit.\n\nRecords to keep: signed drawing, receipts, hours, photos, and delivery note.\n\nStandard to meet: no cut is made until the client has signed the drawing and finish."),
-
-'Event Organization and Management': (
-"Camila organizes small events in Sao Paulo and was hired for a company's year-end party for 80 guests, for a fee and costs of R$ 24,000. The budget has R$ 11,200 for food and drinks, R$ 5,600 for the venue, R$ 3,000 for sound and lights, and R$ 1,500 for decoration, leaving R$ 2,700 for her service. Two weeks before the date the client said 100 guests would come. Food cost per guest rises, and the venue allows only 90 people. The sound supplier asks for a 50 percent deposit now, but the client pays only after the event. Camila has R$ 1,200 in her account and no written change record. She must decide what to say to the client this week.",
-"First, write down the cost per guest: food and drinks R$ 11,200 divided by 80 is R$ 140. Next, price the change. At 90 guests, the maximum for the venue, food rises to R$ 12,600, which is R$ 1,400 more. At 100 guests it would be R$ 14,000, but that is not allowed by the venue, so tell the client the limit now.\n\nThen fix cash timing: the sound deposit is R$ 1,500, which is more than your R$ 1,200. Ask the client for a first payment before booking suppliers, such as 40 percent, which is R$ 9,600. Add the extra R$ 1,400 as a signed change request, making the new total R$ 25,400. Keep a 10 percent contingency line, about R$ 2,500.\n\nLast, build a run sheet with times, people, and phone contacts for each supplier.\n\nRecords to keep: contract, change request, supplier quotes, deposit receipts, guest list, and run sheet. Check the current official text for venue and event permit rules.\n\nStandard to meet: no supplier is booked before the client's first payment arrives."),
-
-'Franchise Business': (
-"Patricia is considering buying a franchise unit of a small snack shop brand in Sao Paulo. The seller shows an initial cost of R$ 120,000 for the entry right, equipment and fit-out, plus a monthly royalty of 6 percent of sales and a marketing contribution of 2 percent. A sample unit shows monthly sales of R$ 60,000, product costs of 35 percent, rent R$ 9,000, and staff R$ 14,000. Patricia has R$ 80,000 and would borrow the rest. The seller says units usually pay back in two years, but gave only a summary page. She has not spoken with current owners, and she does not know whether the sample unit sits in a busy location like her proposed one.",
-"First, compute the sample unit monthly result. Sales R$ 60,000. Product cost 35 percent is R$ 21,000. Royalty 6 percent is R$ 3,600 and marketing 2 percent is R$ 1,200. Rent R$ 9,000 and staff R$ 14,000. Total costs R$ 48,800, leaving R$ 11,200 per month before utilities, taxes and your own pay. Next, test payback: R$ 120,000 divided by R$ 11,200 is about 10.7 months, but this ignores the missing costs, so the real figure is longer. Ask for the real list.\n\nThen run a weaker case at sales of R$ 45,000: product R$ 15,750, royalty and marketing R$ 3,600, rent and staff R$ 23,000, total R$ 42,350, leaving R$ 2,650.\n\nLast, speak with at least three current owners and request the full disclosure document.\n\nRecords to keep: the document, contract draft, owner notes, and your spreadsheet. Check the current official text on franchise disclosure, and ask a qualified professional to review the contract.\n\nStandard to meet: decide only after the weak case still pays your loan."),
-
-'Manufacturing Business': (
-"Tereza runs a small factory in greater Sao Paulo with six workers, making cotton tote bags for stores. A large order came for 5,000 bags at R$ 14 each. Material costs R$ 6.20 per bag, direct labor R$ 3.10 per bag, and monthly fixed costs for rent, energy and machines are R$ 18,000. The machines can make 6,000 bags a month. She will pay R$ 1,500 for a new cutting tool, and the buyer wants the goods in 25 days and pays in 60 days. Tereza knows the order fills most of her capacity, but she has no record of defect rates. Last month 8 percent of bags failed inspection, and she does not know if the order is truly profitable.",
-"First, compute the unit margin: R$ 14 minus R$ 6.20 minus R$ 3.10 is R$ 4.70 per bag. Next, plan for defects. At 8 percent defects, you must make about 5,435 bags to deliver 5,000, so material and labor rise to 5,435 x R$ 9.30 = R$ 50,546. Revenue is R$ 70,000. Add the tool R$ 1,500. After fixed costs of R$ 18,000 for the month, result is R$ 70,000 minus R$ 50,546 minus R$ 1,500 minus R$ 18,000, which is minus R$ 46, a break-even only.\n\nThen act: cut defects to 3 percent, which needs about 5,155 bags and saves 280 bags, or R$ 2,600 in cost. Ask for a deposit of 30 percent, R$ 21,000, because material is paid before the 60 days. Check capacity: 5,435 bags uses 91 percent of 6,000.\n\nLast, keep a batch sheet with quantity, defects, hours, and material used.\n\nRecords to keep: order contract, inspection log, supplier receipts, and delivery proof. Check the current official text on product labeling and tax rules.\n\nStandard to meet: price every order with the defect rate included."),
-}
+LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast in Sao Paulo that can '
+                                'offer 150 room-nights a month. She charges R$ 280 per room-night '
+                                'with breakfast, and laundry, cleaning, breakfast food and energy '
+                                'cost about R$ 90. Her fixed costs are R$ 6.000 a month for rent, '
+                                'insurance, internet and a part-time cleaner. Last month she sold '
+                                '90 room-nights. A travel agent proposes a group of 20 room-nights '
+                                'next month at R$ 240 each, and a guest left a poor review about a '
+                                'dirty bathroom. Rita does not know her break-even occupancy or '
+                                'whether the group price is worth taking. She keeps bookings in a '
+                                'calendar on the wall and has no record of how guests found her or '
+                                'what each night really earned.',
+                                'First, margin per room-night is R$ 280 - R$ 90 = R$ 190, or 67,9 '
+                                'percent. Break-even is 6.000 / 190 = 31,58, so 32 room-nights, '
+                                'which is 21,3 percent of capacity. At 90, profit is 90 x R$ 190 - '
+                                'R$ 6.000 = R$ 11.100, with occupancy of 60 percent.\n'
+                                '\n'
+                                'Next, the group price gives R$ 240 - R$ 90 = R$ 150 per night. If '
+                                'the nights would otherwise be empty, 20 x R$ 150 = R$ 3.000 is '
+                                'extra profit. If they displace guests at R$ 280, each swap loses '
+                                'R$ 40.\n'
+                                '\n'
+                                'Fix the bathroom checklist first. Also, move the wall calendar '
+                                'into a sheet with source, nights, price and review score, and '
+                                'read it monthly. Add a housekeeping checklist signed by the '
+                                'cleaner, so a bathroom complaint can be traced to a date and a '
+                                'room.\n'
+                                '\n'
+                                'Standard to meet: every room has a cleaning log and every booking '
+                                'has a source and a price.'),
+ 'Carpentry': ('Valdir runs a small carpentry workshop in Sao Paulo and builds made-to-measure '
+               'pieces such as tables and wardrobe door sets. He charges R$ 1.800 per piece, and '
+               'boards, hardware, finish, helper hours and delivery cost about R$ 900. His fixed '
+               'costs are R$ 6.000 a month for the rented bay, power, tools and insurance. Last '
+               'month he delivered 12 pieces. One client asked for a change after the boards were '
+               'cut, so he remade a piece, wasting R$ 520 of boards and R$ 150 of helper time. '
+               'Valdir does not know how many pieces he needs to cover costs, or how much the '
+               'remake cost him. He keeps prices in his head and works from sketches on scrap '
+               'wood, so clients sometimes remember the agreement differently.',
+               'First, margin per piece is R$ 1.800 - R$ 900 = R$ 900, or 50 percent. Break-even '
+               'is 6.000 / 900 = 6,67, so he needs 7 pieces. At 12 pieces, profit is 12 x R$ 900 - '
+               'R$ 6.000 = R$ 4.800.\n'
+               '\n'
+               'Next, the remake wasted R$ 520 + R$ 150 = R$ 670, which is 74,4 percent of one '
+               "piece's margin, and cut profit to R$ 4.130. Ask for a deposit of 40 percent, R$ "
+               '720, when the drawing is signed, and price any change in writing before cutting. '
+               'Also, keep a one-page quote with the drawing, wood type, finish, deposit and '
+               'delivery date, and photograph the piece before it leaves. Track hours per piece '
+               'for a month to learn whether the price still covers the work.\n'
+               '\n'
+               'Standard to meet: every piece has a signed drawing, a cut list, a cost sheet and a '
+               'delivery date.'),
+ 'Construction and Technical Services': ('Tiago runs a small renovation firm in Sao Paulo with two '
+                                         'crews. He sells each finished job for R$ 7.500, and '
+                                         'materials, crew days and transport cost him about R$ '
+                                         '5.000 per job. Each month he pays R$ 14.000 for the '
+                                         'yard, van, insurance and office. Last month he closed 10 '
+                                         'jobs and felt busy, but his account stayed thin. One '
+                                         'client paid 30 days late, and a tiling job needed R$ 900 '
+                                         'of extra materials that he never charged. Tiago does not '
+                                         'know how many jobs he must finish just to cover his '
+                                         'fixed cost, or how much one overrun really costs. He '
+                                         'keeps his notes in a notebook and on his phone, and his '
+                                         'two crew leaders sometimes order materials without '
+                                         'telling him.',
+                                         'First, margin per job is R$ 7.500 - R$ 5.000 = R$ 2.500, '
+                                         'or 33,3 percent. Break-even is 14.000 / 2.500 = 5,60, so '
+                                         'he needs 6 jobs before earning anything. At 10 jobs, '
+                                         'profit is 10 x R$ 2.500 - R$ 14.000 = R$ 11.000.\n'
+                                         '\n'
+                                         "Next, the overrun cut that job's margin to R$ 2.500 - R$ "
+                                         '900 = R$ 1.600, or 21,3 percent, which is 36 percent of '
+                                         "one job's margin. The late payment held R$ 7.500 out of "
+                                         'his bank for a month. Ask for a deposit of 30 percent, '
+                                         'which is R$ 2.250, and write extras on a change sheet '
+                                         'signed before work. Also, review the notebook every '
+                                         'Friday: list jobs, materials ordered, days used and what '
+                                         'was paid, so a leaking cost shows up the same week. '
+                                         'Agree that crew leaders order materials only against a '
+                                         'signed cost sheet.\n'
+                                         '\n'
+                                         'Standard to meet: every job has a written price, a cost '
+                                         'sheet, a payment date and an extras log.'),
+ 'Event Organization and Management': ('Camila runs a small events company in Sao Paulo that '
+                                       'organises corporate lunches and private parties. She sells '
+                                       'each event for R$ 14.000, and venue, catering, sound, '
+                                       'decor, staff and transport cost about R$ 8.500. Her fixed '
+                                       'costs are R$ 8.000 a month for the office, software and a '
+                                       'coordinator. Last month she delivered 5 events. For one of '
+                                       'them the client added 20 guests two days before, and the '
+                                       'caterer billed R$ 1.500 extra. The client has not yet paid '
+                                       'the final balance of R$ 4.200. Camila does not know how '
+                                       'many events she must run to cover her costs or how much '
+                                       'the late change cost her. Her quotes are built from memory '
+                                       'of past events, and supplier prices are noted on messages '
+                                       'rather than in one file.',
+                                       'First, margin per event is R$ 14.000 - R$ 8.500 = R$ '
+                                       '5.500, or 39,3 percent. Break-even is 8.000 / 5.500 = '
+                                       '1,45, so 2 events. At 5 events, profit is 5 x R$ 5.500 - '
+                                       'R$ 8.000 = R$ 19.500.\n'
+                                       '\n'
+                                       "Next, the extra caterer bill cut that event's margin to R$ "
+                                       '5.500 - R$ 1.500 = R$ 4.000, or 28,6 percent. Profit for '
+                                       'the month falls to R$ 18.000. The unpaid R$ 4.200 is 30 '
+                                       'percent of the event price.\n'
+                                       '\n'
+                                       'Add a clause that changes in the last week are priced and '
+                                       'paid in advance. Also, keep one budget sheet per event '
+                                       'with quoted and real cost for each line, and compare them '
+                                       'after the debrief. Over a few events you will see which '
+                                       'lines overrun and can price the contingency with '
+                                       'evidence.\n'
+                                       '\n'
+                                       'Standard to meet: every event has a signed brief, a '
+                                       'budget, a payment schedule and a debrief.'),
+ 'Export and Import Business': ('Marcos runs a small trading firm in Sao Paulo that imports food '
+                                'equipment and sells to restaurant groups. Each shipment is sold '
+                                'for R$ 40.000 and costs R$ 34.000 for goods, freight, insurance, '
+                                'port and broker charges and haulage. His office, broker retainer '
+                                'and salaries are R$ 12.000 a month, and he handles 3 shipments a '
+                                'month. A buyer now asks for a R$ 2.000 discount on the next '
+                                'shipment and 60 days to pay. At the same time the freight quote '
+                                'for the next container has risen by R$ 1.000. Marcos does not '
+                                'know whether he can accept both changes and still cover his fixed '
+                                "costs. His records sit in email folders, and the broker's "
+                                'invoices arrive weeks after the container is cleared, which hides '
+                                'the real cost of each order.',
+                                'First, margin per shipment is R$ 40.000 - R$ 34.000 = R$ 6.000, '
+                                'or 15 percent. Break-even is 12.000 / 6.000 = 2 shipments. At 3, '
+                                'profit is 3 x R$ 6.000 - R$ 12.000 = R$ 6.000.\n'
+                                '\n'
+                                'Next, the discount and the freight rise together cut margin to R$ '
+                                '6.000 - R$ 2.000 - R$ 1.000 = R$ 3.000, so that shipment adds '
+                                'only 7,5 percent of its price. If all 3 shipments carried it, '
+                                'profit would be 3 x R$ 3.000 - R$ 12.000 = R$ -3.000. The 60 days '
+                                'of credit also hold R$ 40.000 outside the bank.\n'
+                                '\n'
+                                'Offer a smaller discount for a shorter payment date. Also, build '
+                                'one sheet per shipment with every invoice the day it arrives, and '
+                                'close it only when the buyer has paid. Review margin by buyer '
+                                'each month, and accept credit terms only for buyers who pay on '
+                                'time.\n'
+                                '\n'
+                                'Standard to meet: every shipment has a landed cost sheet, a '
+                                'margin and a payment date.'),
+ 'Financing Start-ups': ('Beatriz advises early-stage founders in Sao Paulo. She sells an advisory '
+                         'package for R$ 3.000, which includes a cash forecast, a break-even sheet '
+                         'and two meetings. Each package costs her about R$ 600 in analyst time, '
+                         'data and travel. Her fixed costs are R$ 12.000 a month for a small '
+                         'office, software and one employee. This month she sold 8 packages. One '
+                         'founder asked to pay in two instalments and then changed the brief '
+                         'twice, adding 10 extra hours at R$ 30 per hour. Beatriz does not know '
+                         'how many packages she needs to cover her costs, or how much the extra '
+                         'work took from her margin. She tracks time loosely, keeps proposals in '
+                         'different folders and has not yet set a scope sheet for clients.',
+                         'First, margin per package is R$ 3.000 - R$ 600 = R$ 2.400, or 80 '
+                         'percent. Break-even is 12.000 / 2.400 = 5 packages. At 8 packages, '
+                         'profit is 8 x R$ 2.400 - R$ 12.000 = R$ 7.200.\n'
+                         '\n'
+                         'Next, the extra 10 hours cost 10 x R$ 30 = R$ 300, which cuts that '
+                         "package's margin to R$ 2.100, or 70 percent. Over the month, profit "
+                         'drops to R$ 6.900. The instalment plan delays half of R$ 3.000, which is '
+                         'R$ 1.500.\n'
+                         '\n'
+                         'Write a scope sheet with a change price per extra hour, and ask for half '
+                         'up front. Also, record hours per package in a simple timesheet for a '
+                         'month, compare them with the 12 hours assumed in the cost, and adjust '
+                         'the price or the scope where the hours run over. Review the pipeline '
+                         'weekly.\n'
+                         '\n'
+                         'Standard to meet: every package has a signed scope, a cost record and a '
+                         'payment schedule.'),
+ 'Food Trucking': ('Luana runs a food truck near office towers in Sao Paulo and sells about 2.400 '
+                   'meals a month at R$ 32 each. Ingredients, packaging and waste cost her R$ 13 '
+                   'per meal. Her fixed costs are R$ 9.000 a month for the truck instalment, gas, '
+                   'permits, insurance and a monthly helper. In the rainy week she sold only 380 '
+                   'meals instead of her usual 560. She is thinking of adding a third dish that '
+                   'costs R$ 16 to make and sells for R$ 32. Luana does not know how many meals '
+                   'she must sell to break even, how much the rainy week cost, or whether the new '
+                   'dish helps. She counts takings at night but does not record meals by day, '
+                   'weather or place, so patterns stay hidden.',
+                   'First, margin per meal is R$ 32 - R$ 13 = R$ 19, or 59,4 percent. Break-even '
+                   'is 9.000 / 19 = 473,68, so about 474 meals a month. At 2.400 meals, profit is '
+                   '2.400 x R$ 19 - R$ 9.000 = R$ 36.600.\n'
+                   '\n'
+                   'Next, the rainy week lost 560 - 380 = 180 meals, or 180 x R$ 19 = R$ 3.420 of '
+                   'margin. The new dish earns only R$ 16 per meal, which is R$ 3 less than the '
+                   'standard one, so it helps only if it brings new customers.\n'
+                   '\n'
+                   'Track meals by day and weather, and plan prep for rainy days. Also, write down '
+                   'meals sold, rain, location and leftover food after every service for four '
+                   'weeks, then keep the places that clear break-even each day and move away from '
+                   'the rest. Check prices against ingredient costs monthly.\n'
+                   '\n'
+                   'Standard to meet: each service day has a prep list, a meal count and a '
+                   'cash-up.'),
+ 'Franchise Business': ('Paulo owns a small snack brand in Sao Paulo and sells opening packages to '
+                        'franchisees. Each outlet package sells for R$ 52.000 and costs him R$ '
+                        '38.000 for fit-out materials, equipment, training and opening support. '
+                        'His head office costs R$ 15.000 a month. Last month he opened 4 outlets. '
+                        'One franchisee asked for a R$ 3.000 price cut and a second opening visit '
+                        'that costs R$ 1.200. The brand owner also hears that one outlet is not '
+                        'following the manual. Paulo does not know his break-even number of '
+                        'outlets or what the concessions cost. Support visits are scheduled when '
+                        'someone calls, and there is no common sheet for comparing outlets.',
+                        'First, margin per outlet is R$ 52.000 - R$ 38.000 = R$ 14.000, or 26,9 '
+                        'percent. Break-even is 15.000 / 14.000 = 1,07, so 2 outlets. At 4 '
+                        'outlets, profit is 4 x R$ 14.000 - R$ 15.000 = R$ 41.000.\n'
+                        '\n'
+                        'Next, the price cut and the extra visit cost R$ 3.000 + R$ 1.200 = R$ '
+                        '4.200, leaving that outlet a margin of R$ 9.800, or 18,8 percent. Monthly '
+                        'profit falls to R$ 36.800.\n'
+                        '\n'
+                        'Score the outlet with the manual audit sheet and agree a dated plan '
+                        'before any further concession. Also, visit each outlet on a calendar, '
+                        'score it with the same audit sheet, and record sales, labour share and '
+                        'waste. Compare outlets quarterly, and offer concessions only in exchange '
+                        'for a dated improvement plan.\n'
+                        '\n'
+                        'Standard to meet: every outlet has a signed package, an audit score and a '
+                        'written support plan.'),
+ 'Hostel or Hotel Business': ('Joana manages a small hotel with 30 rooms in Sao Paulo, which '
+                              'offers 900 room-nights in a month. The average price is R$ 340 per '
+                              'room-night, and housekeeping, breakfast, utilities and amenities '
+                              'cost about R$ 130. Fixed costs are R$ 45.000 a month for staff, '
+                              'rent, maintenance and booking software. Last month the hotel sold '
+                              '600 room-nights, but weekdays were quiet. A company offers 60 extra '
+                              'room-nights a month on weekdays if the price falls to R$ 300. Joana '
+                              'does not know the break-even occupancy or whether the company deal '
+                              'is worth accepting. Weekend rooms sell out early, but the booking '
+                              'system shows no report by weekday, and the team makes price changes '
+                              'by feel.',
+                              'First, margin per room-night is R$ 340 - R$ 130 = R$ 210, or 61,8 '
+                              'percent. Break-even is 45.000 / 210 = 214,29, so 215 room-nights, '
+                              'or 23,9 percent occupancy. At 600, profit is 600 x R$ 210 - R$ '
+                              '45.000 = R$ 81.000, with 66,7 percent occupancy.\n'
+                              '\n'
+                              'Next, the company deal gives R$ 300 - R$ 130 = R$ 170 per night. '
+                              'For 60 nights that is R$ 10.200, so profit becomes R$ 91.200, '
+                              'provided the nights would otherwise be empty and regular guests do '
+                              'not ask for the lower price.\n'
+                              '\n'
+                              'Sign it only with a written weekday-only clause. Also, export '
+                              'occupancy by weekday every month, mark the quiet nights, and set '
+                              'one rate for each type of night. Review the housekeeping and '
+                              'maintenance logs weekly so rooms out of order do not silently '
+                              'reduce sellable nights.\n'
+                              '\n'
+                              'Standard to meet: every month has an occupancy report by weekday '
+                              'and a rate sheet.'),
+ 'Manufacturing Business': ('Roberto owns a small plant in Sao Paulo that makes packaged sauces in '
+                            'batches. A batch sells for R$ 9.000, and raw materials, packaging, '
+                            'labour, energy and water cost about R$ 6.200. His fixed costs are R$ '
+                            '45.000 a month for rent, machines, maintenance and supervisors. Last '
+                            'month he made 30 batches for three buyers. One buyer, taking 5 '
+                            'batches, asks for a R$ 500 price cut per batch, and a machine stopped '
+                            'for two days. Scrap also reached 4 percent of the variable cost per '
+                            'batch. Roberto does not know his break-even, how much the discount '
+                            'costs or what the scrap is worth. He reads output at the end of the '
+                            'month, and machine stoppages are not written down, so causes are '
+                            'guessed.',
+                            'First, margin per batch is R$ 9.000 - R$ 6.200 = R$ 2.800, or 31,1 '
+                            'percent. Break-even is 45.000 / 2.800 = 16,07, so 17 batches. At 30 '
+                            'batches, profit is 30 x R$ 2.800 - R$ 45.000 = R$ 39.000.\n'
+                            '\n'
+                            'Next, the discount costs 5 x R$ 500 = R$ 2.500 a month. Scrap at 4 '
+                            'percent is R$ 248 per batch, so 30 batches lose R$ 7.440. Profit '
+                            'after both is R$ 29.060.\n'
+                            '\n'
+                            'Track downtime and scrap per batch and agree the price with the buyer '
+                            'only against a longer contract. Also, log every stoppage with start, '
+                            'end and cause, and weigh scrap per batch for a month. Fix the cause '
+                            'that costs the most hours first, and review prices with each buyer '
+                            'once the batch cost record is reliable.\n'
+                            '\n'
+                            'Standard to meet: every batch has a cost record, a quality sheet and '
+                            'a stock count.'),
+ 'Winery': ('Helena and her brother run a small winery near Sao Paulo that sells wine in cases of '
+            '6. A case sells for R$ 520 and costs R$ 300 in grapes, glass, corks, labels, cellar '
+            'labour and breakage. Their fixed costs are R$ 22.000 a month for rent, tanks, '
+            'insurance and a part-time host. This month they plan to sell 120 cases. A restaurant '
+            'took 30 cases on a handshake and promised to pay in 45 days, and 8 cases came back '
+            'from a shop with cork problems. Helena has little cash and the next grape payment is '
+            'due soon. She does not know her break-even or what the returns cost. The cellar notes '
+            'are scattered across a notebook and several messages, and stock counts differ between '
+            'the two of them.',
+            'First, margin per case is R$ 520 - R$ 300 = R$ 220, or 42,3 percent. Break-even is '
+            '22.000 / 220 = 100 cases. At 120 cases, profit is 120 x R$ 220 - R$ 22.000 = R$ '
+            '4.400.\n'
+            '\n'
+            'Next, the 8 returned cases mean 112 good sales, so profit falls to 112 x R$ 220 - R$ '
+            '22.000 = R$ 2.640, and replacing them costs 8 x R$ 300 = R$ 2.400. The restaurant '
+            'owes 30 x R$ 520 = R$ 15.600 in 45 days, so ask for half up front.\n'
+            '\n'
+            'Last, keep a stock sheet by lot with cases filled, sold, on credit and returned. '
+            'Also, hold one meeting a week with the stock sheet, the payment list and the grape '
+            'schedule, and decide what to fill next only after the numbers agree. Keep one '
+            'sample from each lot for any complaint.\n'
+            '\n'
+            'Standard to meet: every lot has a cost per case, a stock count and a written payment '
+            'date before it leaves the cellar.')}

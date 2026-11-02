@@ -1,46 +1,273 @@
-LONG = {
-'Apparels and Accessories': (
-"Marlene runs a small stall that sells blouses and belts in a shopping gallery in Bom Retiro, in Sao Paulo. This month she bought 40 blouses at R$ 38 each and 30 belts at R$ 12 each. She priced blouses at R$ 60 and belts at R$ 25 because the stall next door uses the same prices. By the end of the month she had sold 28 blouses and 10 belts. She paid R$ 900 for the stall rent and R$ 250 for transport and bags. Her cash box looks thinner than she expected, but she never wrote down sales, purchases or leftover stock, so she cannot say whether the month gave profit or loss. Her sister tells her to raise every price, yet Marlene fears losing customers. She needs a clear way to find the real result and then choose prices with facts.",
-"First, add up the sales from your notebook: 28 blouses at R$ 60 give R$ 1.680, and 10 belts at R$ 25 give R$ 250, so sales are R$ 1.930. Next, compute the cost of what you sold, not of what you bought: 28 x R$ 38 is R$ 1.064, and 10 x R$ 12 is R$ 120, so the cost is R$ 1.184. Gross margin is R$ 746. Then subtract fixed expenses of R$ 1.150. The month result is a loss of R$ 404. Stock left is 12 blouses (R$ 456) and 20 belts (R$ 240), so R$ 696 of goods, not lost money. Last, test a new blouse price of R$ 72 on the same 28 sales: sales rise by R$ 336, and the loss falls to R$ 68. Keep a sales notebook, purchase receipts, an expense list and a monthly stock count. For tax and registration rules, check the current official text. Standard to meet: every month ends with a written result, and every price covers cost plus a share of the fixed expenses.",
-),
-'Beauty': (
-"Daniela rents one chair in a small hair salon in Mooca, Sao Paulo, and pays R$ 1.200 per month for it. She charges R$ 70 for a haircut and blow dry, and each service uses about R$ 9 of products. In March she had 80 appointments booked in her phone, but 18 clients did not come and did not warn her. Each empty slot meant an hour with no income, and she often turned away other people who asked for the same time. She writes the bookings on paper and on messages, so some are lost or doubled. At the end of the month she felt tired and still short of money. She wants to know what the empty slots really cost and how to cut them without upsetting regular clients.",
-"First, count what happened: 80 booked minus 18 empty leaves 62 services. Next, compute the money. Sales are 62 x R$ 70, which is R$ 4.340. Products are 62 x R$ 9, which is R$ 558. After the chair rent of R$ 1.200, what remains is R$ 2.582 before her own time and transport. The 18 empty slots cost about R$ 1.260 in lost sales, minus R$ 162 of products not used, so about R$ 1.098. Then build a routine. Create one single agenda, paper or app, and write every booking there. Send a reminder message one day before and ask for a yes or no. Keep a short waiting list so a freed slot can be offered to another person. Tell clients the cancellation rule in plain words when they book. Last, review each month: if no-shows fall from 18 to 6, services rise to 74, and sales become R$ 5.180, which is R$ 840 more. Records to keep: agenda, confirmations, a no-show count and a product list. Standard to meet: no slot stays empty without a recorded reason.",
-),
-'Dental': (
-"Dr. Helena works in a small private dental office in Tatuape, Sao Paulo, with one assistant. Her fixed monthly costs are R$ 14.000, covering rent, staff, energy, sterilization and software. She works 22 days with 6 chair hours per day. She charges R$ 150 for a cleaning that takes 45 minutes and R$ 220 for a filling that takes 1 hour. A health plan now offers her R$ 120 for fillings and says it will send many patients. Materials cost R$ 18 for a cleaning and R$ 35 for a filling. She accepts everything on instinct and never compares the price of a procedure with the real cost of the chair time. Some patients also want to pay in three installments, and she is unsure how to record that. She wants to decide whether the plan offer is worth taking.",
-"First, compute the cost of one chair hour: 22 days x 6 hours is 132 hours, and R$ 14.000 divided by 132 is about R$ 106 per hour. Next, cost each procedure. A 45-minute cleaning uses R$ 80 of chair time plus R$ 18 of material, so R$ 98; at R$ 150, the margin is R$ 52. A filling uses R$ 106 plus R$ 35, so R$ 141; at R$ 220, the margin is R$ 79. At the plan price of R$ 120, the filling loses R$ 21 each time. Then decide with a rule: accept a price only if it covers materials and chair time, or if the chair would otherwise stay empty and the fixed cost is paid anyway. Test this by counting how many chair hours are truly empty each week. Last, record every procedure with date, time, material and amount received, each installment on its due date. Keep patient files private; check the current official text on health data. Standard to meet: no procedure is priced below its full cost without a written reason.",
-),
-'Cleaning Services': (
-"Rosana started a home cleaning service in Itaquera, Sao Paulo, with two helpers. She charges R$ 180 per apartment visit and says yes to every request. For each visit she pays R$ 28 in transport and R$ 22 in cleaning products, and she pays each helper R$ 70, so R$ 140 for both. She counted 20 visits last month and believed she earned well. Then she noticed that two apartments were larger and needed five hours instead of three, while the price stayed the same. A client also asked her to come back and redo a bathroom, and she did it without charge. Her phone has messages about prices, dates and complaints mixed together, so she cannot see which jobs paid and which did not. She wants a fair way to price jobs by size and time.",
-"First, compute a normal visit: R$ 180 minus R$ 28, R$ 22 and R$ 140 leaves R$ -10 before her own work, so the standard price is too low for two helpers. Next, find the cost per team hour. For a three-hour visit the helpers cost R$ 140, so about R$ 47 per hour. Add R$ 50 for transport and products, then add your own pay. Last, set prices by size: for example, a three-hour visit at R$ 240 leaves R$ 50 for you, and a five-hour visit would need helper pay near R$ 233 plus R$ 50, so about R$ 380. Follow these steps in order. Ask the client for the number of rooms and bathrooms before quoting. Write the quote and the expected hours. Record the real hours after the visit. Review jobs monthly and mark any that lost money. Keep a list of visits, a payment note, a complaint log and a receipt for products. For registration and tax rules, check the current official text. Standard to meet: every quote shows hours, cost and your own pay.",
-),
-'Warehousing and Storage Services': (
-"Edson rents a 200 square meter shed in the north zone of Sao Paulo for R$ 9.000 per month and sublets space to small online sellers. He charges R$ 60 per square meter per month. Right now three clients use 140 square meters in total. His other monthly costs are R$ 1.200 for cleaning, a night watch contract and energy. He thought the business was fine because money comes in every month, but his account is always low. One client also claims that three boxes disappeared, and Edson cannot prove whether they ever arrived because he has no entry and exit record. Another seller asks for a discount in return for bringing more goods next year. Edson wants to know his break-even point and how to protect himself from stock disputes.",
-"First, compute income: 140 square meters x R$ 60 is R$ 8.400. Costs are R$ 9.000 plus R$ 1.200, which is R$ 10.200. The result is a loss of R$ 1.800 per month. Next, find break-even: R$ 10.200 divided by R$ 60 is 170 square meters, or 85 percent of the shed. Today it is 70 percent full. Then test the discount: at R$ 54 per square meter, break-even rises to about 189 square meters, so a discount needs a signed volume that fills that space. Last, build the control routine. Number each client area. Write a receipt for every box that enters, with date, quantity and condition, signed by both sides. Do the same for every exit. Count stock monthly and compare it with the log. Keep photos, receipts, a count sheet and the signed storage terms. Ask a professional to check the contract and the insurance, and check the current official text. Standard to meet: every box has a written arrival and exit.",
-),
-'Transportation and Courier Services': (
-"Anderson works as an independent motorcycle courier in Sao Paulo. He receives R$ 14 per delivery and makes about 20 deliveries per day over 22 working days, riding around 110 km per day. His fuel costs R$ 2.100 per month, maintenance costs R$ 450 per month, and his phone plan costs R$ 80. Last week he paid R$ 360 for two new tires, and this month he felt the money was not enough, but he cannot show why. He does not know his cost per kilometer, so he accepts far deliveries at the same R$ 14 as short ones. Platforms and customers send many different offers, and he accepts quickly without calculating. He also wants to put aside money for repairs and days when he cannot ride. He wants a simple method to judge each offer.",
-"First, compute income: 20 deliveries x 22 days x R$ 14 is R$ 6.160. Next, compute costs: R$ 2.100 plus R$ 450 plus R$ 80 is R$ 2.630. The remainder is R$ 3.530 before taxes and any insurance. Distance is 110 km x 22 days, or 2.420 km. Fuel costs about R$ 0,87 per km, and maintenance about R$ 0,19 per km. If tires cost R$ 360 for each 12.000 km, add R$ 0,03 per km, giving about R$ 1,09 per km. Then judge an offer: a 4 km delivery costs about R$ 4,36 in running cost, which leaves R$ 9,64, but a 12 km delivery costs about R$ 13,08 and leaves only R$ 0,92. Last, keep a daily sheet of deliveries, kilometers, fuel and repairs, and move a fixed part of each day to a separate repair reserve. Check the current official text for rider registration, insurance and tax rules. Standard to meet: accept an offer only after comparing it with your cost per kilometer and per hour.",
-),
-'3D Printing Business': (
-"Camila runs a small 3D printing studio from a rented room in Pinheiros, Sao Paulo. A customer asks for 20 custom phone stands and offers R$ 25 for each one. Camila's printer cost R$ 3.600 and she expects it to last about 3.000 hours. A 1 kg roll of filament costs R$ 120, and each stand uses 85 grams and takes 6 hours to print. The printer uses 0,15 kW, and energy costs R$ 0,90 per kWh. About one print in eight fails and has to be thrown away. She also spends 15 minutes per piece on removing supports and packing, and she values her time at R$ 24 per hour. She said yes quickly because the order is large, but she is not sure the work will pay. She wants to price this job from real costs.",
-"First, compute the material: 85 g is 0,085 kg, and 0,085 x R$ 120 is R$ 10,20. Next, compute energy: 6 hours x 0,15 kW x R$ 0,90 is R$ 0,81. Then compute machine wear: R$ 3.600 divided by 3.000 hours is R$ 1,20 per hour, so 6 hours cost R$ 7,20. These add up to R$ 18,21. Failed prints raise it: one in eight means producing 8 for every 7 good pieces, so R$ 18,21 x 8 / 7 is about R$ 20,81. Finishing time costs 0,25 x R$ 24, which is R$ 6. The total is about R$ 26,81 per stand, more than the R$ 25 offered, so the order loses R$ 1,81 per piece, or about R$ 36 over 20 pieces. Last, quote again: at R$ 34 the margin is about R$ 7 per piece. Keep a print log with grams used, hours, failures and finishing time, and a record of quotes. Standard to meet: never accept a price before the full cost per piece is written down.",
-),
-'App Development': (
-"Thiago is a freelance developer in Sao Paulo who agreed to build a booking app for a small physiotherapy clinic for a fixed price of R$ 12.000. He estimated 120 hours, which is R$ 100 per hour. Halfway through, the owner asked for three extras: online payment, a patient reminder message and a simple report screen. Thiago said yes to each by message and did not write down any new price. The extras took 30 hours, and testing took 10 more than planned, so the project now has 160 hours. The owner now says the app was supposed to include everything from the start and refuses to pay extra. Thiago has no list of what was agreed, no dated approvals, and two payments still due. He wants to resolve this and avoid it next time.",
-"First, compute the damage: R$ 12.000 divided by 160 hours is R$ 75 per hour, so he earned R$ 25 less than planned for each of the 160 hours, or R$ 4.000 in total. Next, rebuild the facts. Collect the original message, the first estimate and each request for extras, with dates. List the 30 extra hours at R$ 100 each, which is R$ 3.000, and present them politely as a change request. Then decide: ask for the R$ 3.000, or offer a middle value such as half, and write the answer. Last, change the method for future work. Write a scope list with what is included and excluded. Add a buffer of 20 percent to every estimate, so 120 hours becomes 144. Require every change to have hours, price and a written yes before work starts. Split payments into milestones. Record hours daily in a time log. For contracts and personal data handling, check the current official text and ask a qualified professional. Standard to meet: no extra work starts without a written price and approval.",
-),
-'Small and Medium Entrepreneur Business': (
-"Paulo owns a small metal workshop in Guarulhos, near Sao Paulo, with four employees. Monthly sales are R$ 48.000 and all costs, including payroll of R$ 16.000, materials of R$ 20.000 and other expenses of R$ 5.000, add up to R$ 41.000, so he believes he earns R$ 7.000 per month. His customers pay 45 days after delivery, but he must pay his material supplier in 30 days and payroll every month. He starts with R$ 6.000 in the bank. Last month he used an expensive overdraft to cover payroll even though the accountant said the business was profitable. Paulo does not understand why a profitable business is running out of cash, and he is considering raising prices or borrowing more. He needs to see the timing of money in and money out.",
-"First, separate profit from cash. Profit is sales minus costs: R$ 48.000 minus R$ 41.000 is R$ 7.000. Cash depends on dates. Next, list the gap: materials of R$ 20.000 are paid after 30 days, but the sale is received after 45 days, so there are 15 days when he has paid and not yet collected. Half a month of materials is about R$ 10.000. Payroll and other expenses of R$ 21.000 are paid before the customer money arrives. Then build a weekly forecast for 13 weeks. Write opening cash, expected receipts by due date, and payments by due date. Mark any week where cash goes below zero. Last, test actions one at a time: ask for a shorter payment term on larger customers, ask the supplier for 45 days, or hold part of the profit as a reserve. Keep a receivables list, a payables list, bank statements and the weekly forecast. Check the current official text for tax dates. Standard to meet: no week in the forecast ends with negative cash without a written plan.",
-),
-'Outsourcing Services': (
-"Fernanda runs a small company in Sao Paulo that provides outsourced customer service and simple bookkeeping support to three local shops. Her team costs her about R$ 32 per hour when salary, benefits and equipment are included. She charges monthly fixed fees without a limit on hours. Client A pays R$ 4.000 and used 90 hours. Client B pays R$ 2.500 and used 40 hours. Client C pays R$ 3.000 and used 110 hours, because the owner keeps sending urgent requests late in the day. She feels busy and tired but the company's account stays low. She never recorded the time by client and she signed the contracts with a short list of services. She wants to know which client helps the company and which one hurts, and how to talk to the third client.",
-"First, compute the cost of each client: Client A is 90 x R$ 32, or R$ 2.880, leaving R$ 1.120 margin. Client B is 40 x R$ 32, or R$ 1.280, leaving R$ 1.220. Client C is 110 x R$ 32, or R$ 3.520, leaving a loss of R$ 520. Together, the three produce R$ 1.820 of margin. Next, look at the pattern: Client B is the most profitable per hour, at about R$ 30,50 of margin per hour, while Client C loses about R$ 4,73 per hour. Then prepare the talk with Client C. Bring the time log and offer two options: a clear monthly hour limit, or a price near R$ 3.520 plus a margin. Last, set a routine. Log time by client every day. Define the list of services, hours included and response times in writing. Review each client every month. Check the current official text on labor and tax rules. Standard to meet: every client has a signed scope and a monthly margin that is positive.",
-),
-'Electronics Sales & Repair Services': (
-"Ricardo runs a small phone repair counter in a market area of central Sao Paulo. He replaces phone screens for R$ 260 each, using a part that costs R$ 140, and the repair takes about one hour. He values his hour at R$ 40. Last month he did 40 screen replacements, and 6 customers came back within the warranty period with the new screen showing lines or dead touch. He redid each of those at his own cost, with another part and another hour. He buys the parts from two suppliers and does not note which part came from which supplier. He also sometimes forgets to test the speaker and camera before returning the phone, and one customer said the camera was already broken before the repair. He has no written record of the phone's condition on arrival. He wants to reduce returns and settle disputes fairly.",
-"First, compute the normal margin: R$ 260 minus R$ 140 is R$ 120 per repair, and after R$ 40 of labor, R$ 80. For 40 repairs, that is R$ 3.200 of margin after labor. Next, compute the cost of returns: each redo costs R$ 140 plus R$ 40, or R$ 180, so 6 redos cost R$ 1.080 and the margin falls to R$ 2.120. The return rate is 6 divided by 40, or 15 percent. Then act. Fill a form when the phone arrives, with the model, the visible damage, a photo and a checklist of screen, camera, speaker and charging, signed by the customer. Test the same list before delivery. Mark each part with supplier and purchase date, and count returns by supplier. State the warranty terms in plain words on the receipt; check the current official text of the consumer rules. Last, review the numbers monthly. Standard to meet: every phone has an arrival record, a final test and a traceable part, and returns stay below 5 percent.",
-),
-}
+LONG = {'Apparels and Accessories': ('Marlene runs a small clothing shop in Bom Retiro, in Sao Paulo. She '
+                              'sells dresses and tops at about R$ 130 a piece, and each piece '
+                              'costs her about R$ 60 from the supplier, including labels and '
+                              'freight. Her fixed costs are R$ 12.000 a month for rent, a '
+                              'seamstress for adjustments, energy and the card machine. Last month '
+                              'she sold about 500 pieces in a busy month, but she never wrote down '
+                              'sales, purchases or leftover stock. Her cash box looks thinner than '
+                              'expected, and she cannot say whether the month gave profit or loss. '
+                              'Her sister tells her to raise every price, yet Marlene fears losing '
+                              'customers. She also does not know how many pieces she must sell '
+                              'just to cover the fixed costs. She needs a clear method to find the '
+                              'real result and choose prices with facts.',
+                              'First, find the margin per piece: R$ 130 minus R$ 60 leaves R$ 70, '
+                              'or 53,8 percent of the price. Next, find break-even: R$ 12.000 '
+                              'divided by R$ 70 is 171,4, so she needs 172 pieces a month to cover '
+                              'fixed costs. At 500 pieces, sales are R$ 65.000, variable costs are '
+                              'R$ 30.000, contribution is R$ 35.000 and profit is R$ 23.000. That '
+                              'is 328 pieces above break-even. Then test a price of R$ 140: '
+                              'contribution per piece becomes R$ 80, and the same 500 pieces give '
+                              'R$ 28.000, a rise of R$ 5.000, assuming volume holds. Keep a sales '
+                              'notebook, purchase receipts, an expense list and a monthly stock '
+                              'count. For tax and registration rules, check the current official '
+                              'text. Standard to meet: every month ends with a written result, and '
+                              'every price covers cost plus a share of the fixed expenses.'),
+ 'Beauty': ('Daniela runs a small beauty studio in Mooca, Sao Paulo, with one room and one helper. '
+            'She charges R$ 150 per treatment, such as a facial or a nail and foot package, and '
+            'each treatment uses about R$ 45 of products, gloves and laundry. Her fixed costs are '
+            'R$ 7.000 a month for rent, her helper, energy and software. In March she did about '
+            '220 treatments, but 25 clients booked and did not come, and she often turned away '
+            'others who asked for the same time. She writes bookings on paper and in messages, so '
+            'some are lost or doubled. At the end of the month she felt tired and still short of '
+            'money. She wants to know her break-even number and what the empty slots really cost.',
+            'First, find the margin: R$ 150 minus R$ 45 leaves R$ 105 per treatment. Next, '
+            'break-even: R$ 7.000 divided by R$ 105 is 66,7, so she needs 67 treatments a month. '
+            'At 220, sales are R$ 33.000, contribution is R$ 23.100 and profit is R$ 16.100. The '
+            '25 no-shows were empty slots: each lost R$ 105, so about R$ 2.625 of contribution '
+            'never arrived. Then build a routine. Create one agenda, paper or app, and write every '
+            'booking there. Send a reminder one day before and ask for a yes or no. Keep a waiting '
+            'list to offer freed slots. State the cancellation rule when booking. If no-shows fall '
+            'from 25 to 10, she gains R$ 1.575 a month. Review the result each month against the '
+            'break-even number, and keep the agenda, confirmations and a product list. Standard to '
+            'meet: no slot stays empty without a recorded reason.'),
+ 'Dental': ('Dr. Helena works in a small private dental office in Tatuape, Sao Paulo, with one '
+            'assistant. She charges about R$ 260 per visit on average, and materials, laboratory '
+            'work and assistant time cost about R$ 110 per visit. Her fixed monthly costs are R$ '
+            '30.000, covering rent, staff, energy, sterilization and software. She does about 300 '
+            'visits a month. A health plan now offers her R$ 200 per visit and says it will send '
+            'many patients. She accepts everything on instinct and has never compared a price with '
+            'the real cost of the visit. Some patients also want to pay in three installments, and '
+            'she is unsure how to record that. She wants to know her break-even point and decide '
+            'whether the plan offer is worth taking.',
+            'First, find the margin: R$ 260 minus R$ 110 leaves R$ 150 per visit. Next, '
+            'break-even: R$ 30.000 divided by R$ 150 is 200, so she needs 200 visits a month. At '
+            '300, sales are R$ 78.000, contribution is R$ 45.000 and profit is R$ 15.000. Then '
+            'test the plan: at R$ 200 the margin is R$ 90 per visit, which is R$ 60 less than a '
+            'private visit. If 100 visits move to the plan at the same volume, contribution falls '
+            'by R$ 6.000 a month. The offer is worth taking only for visits that fill chairs that '
+            'would otherwise stay empty. Record every visit with date, material and amount, and '
+            'each installment on its due date. Keep patient files private; check the current '
+            'official text on health data. Standard to meet: no visit is priced below its full '
+            'variable cost without a written reason.'),
+ 'Cleaning Services': ('Rosana runs a home and office cleaning company in Itaquera, Sao Paulo, '
+                       'with two helpers. She charges R$ 160 per visit and says yes to every '
+                       'request. For each visit she pays about R$ 85 in helper pay, transport and '
+                       'cleaning products. Her fixed costs are R$ 6.000 a month for the van, '
+                       'insurance, phone and a part-time scheduler. Last month she did about 220 '
+                       'visits and believed she earned well. Then she noticed that some apartments '
+                       'were larger and needed five hours instead of three, while the price stayed '
+                       'the same. A client also asked her to redo a bathroom, and she did it '
+                       'without charge. Her phone has messages about prices, dates and complaints '
+                       'mixed together, so she cannot see which jobs paid and which did not. She '
+                       'wants a fair way to price jobs and to know her break-even point.',
+                       'First, find the margin: R$ 160 minus R$ 85 leaves R$ 75 per visit. Next, '
+                       'break-even: R$ 6.000 divided by R$ 75 is 80, so she needs 80 visits a '
+                       'month. At 220, sales are R$ 35.200, contribution is R$ 16.500 and profit '
+                       'is R$ 10.500. A five-hour visit at the same R$ 160 costs about 5/3 of the '
+                       'helper time, which lifts variable cost toward R$ 142 and leaves only about '
+                       'R$ 18. Follow these steps. Ask for rooms and bathrooms before quoting. '
+                       'Write the quote and the expected hours. Record the real hours after the '
+                       'visit. Review jobs monthly and mark any that lost money. Price large jobs '
+                       'by the hour, for example at R$ 236 for five hours. Keep a visit list, '
+                       'payment notes and a complaint log. For registration and tax rules, check '
+                       'the current official text. Standard to meet: every quote shows hours, cost '
+                       'and your own pay.'),
+ 'Warehousing and Storage Services': ('Edson runs a rented shed in the north zone of Sao Paulo and '
+                                      'stores pallets for small online sellers. He charges R$ 55 '
+                                      'per pallet a month. Handling labor, wrap and energy cost '
+                                      'about R$ 22 per pallet. His fixed costs are R$ 28.000 a '
+                                      'month for the lease, a night watch contract, insurance and '
+                                      'software. Right now he holds about 1.500 pallets. He '
+                                      'thought the business was fine because money comes in every '
+                                      'month, but his account is always low. One client also '
+                                      'claims that three pallets disappeared, and Edson cannot '
+                                      'prove whether they ever arrived because he has no entry and '
+                                      'exit record. Another seller asks for a discount in return '
+                                      'for bringing more goods next year. Edson wants to know his '
+                                      'break-even point and how to protect himself from stock '
+                                      'disputes.',
+                                      'First, find the margin: R$ 55 minus R$ 22 leaves R$ 33 per '
+                                      'pallet. Next, break-even: R$ 28.000 divided by R$ 33 is '
+                                      '848,5, so he needs 849 pallets, which means 1.500 pallets '
+                                      'sit only 651 above it. At 1.500, sales are R$ 82.500, '
+                                      'contribution is R$ 49.500 and profit is R$ 21.500. Then '
+                                      'test the discount: at R$ 50 the margin is R$ 28, break-even '
+                                      'rises to 1.000 pallets, so a discount needs a signed volume '
+                                      'that fills that space. Last, build the control routine. '
+                                      'Number each client area. Write a receipt for every pallet '
+                                      'that enters, with date, quantity and condition, signed by '
+                                      'both sides. Do the same for every exit. Count stock monthly '
+                                      'and compare it with the log. Ask a professional to check '
+                                      'the contract and insurance, and check the current official '
+                                      'text. Standard to meet: every pallet has a written arrival '
+                                      'and exit.'),
+ 'Transportation and Courier Services': ('Anderson runs a small courier company in Sao Paulo with '
+                                         'two vans and three drivers. He charges about R$ 380 per '
+                                         'trip. Fuel, driver pay, tolls and tyre wear cost him '
+                                         'about R$ 250 per trip. His fixed costs are R$ 20.000 a '
+                                         'month for van installments, insurance, tracking and a '
+                                         'part-time dispatcher. Last month he made about 180 '
+                                         'trips, but he felt the money was not enough and cannot '
+                                         'show why. He does not know his break-even number, so he '
+                                         'accepts far trips at the same price as short ones. '
+                                         'Customers send many different offers and he accepts '
+                                         'quickly without calculating. Last week he also paid for '
+                                         'two new tyres. He wants to put aside money for repairs '
+                                         'and days when a van cannot run. He wants a simple method '
+                                         'to judge each offer.',
+                                         'First, find the margin: R$ 380 minus R$ 250 leaves R$ '
+                                         '130 per trip. Next, break-even: R$ 20.000 divided by R$ '
+                                         '130 is 153,8, so he needs 154 trips a month. At 180, '
+                                         'sales are R$ 68.400, contribution is R$ 23.400 and '
+                                         'profit is just R$ 3.400, only 26 trips above break-even. '
+                                         'A far trip that costs R$ 300 to run at the same R$ 380 '
+                                         'leaves just R$ 80, so it needs a higher price. Then '
+                                         'judge each offer: accept it only if its price minus its '
+                                         'own running cost is at least R$ 130, or if the van would '
+                                         'otherwise stand idle. Last, keep a daily sheet of trips, '
+                                         'kilometers, fuel and repairs, and move a fixed part of '
+                                         'each trip into a repair reserve. Check the current '
+                                         'official text for driver registration, insurance and tax '
+                                         'rules. Standard to meet: accept an offer only after '
+                                         'comparing it with your cost per trip and per hour.'),
+ '3D Printing Business': ('Camila runs a small 3D printing studio from a rented room in Pinheiros, '
+                          'Sao Paulo. Her usual price is R$ 95 per printed part. Filament, power, '
+                          'machine wear and finishing cost about R$ 40 per part. Her fixed costs '
+                          'are R$ 9.000 a month for rent, printer installments, software and a '
+                          'part-time helper. She prints about 220 parts a month. A customer now '
+                          'asks for a large batch and offers only R$ 60 for each part, saying '
+                          'other studios do the same. She said yes quickly because the order is '
+                          'large, but she is not sure the work will pay. About one print in eight '
+                          'fails and has to be thrown away, and she has never counted the failures '
+                          'against price. She wants to know her break-even point and decide '
+                          'whether the large order is worth taking.',
+                          'First, find the margin: R$ 95 minus R$ 40 leaves R$ 55 per part. Next, '
+                          'break-even: R$ 9.000 divided by R$ 55 is 163,6, so she needs 164 parts '
+                          'a month. At 220, sales are R$ 20.900, contribution is R$ 12.100 and '
+                          'profit is R$ 3.100. Then test the large order: at R$ 60 the margin is '
+                          'R$ 20 per part, which is R$ 35 less than her usual margin. If the '
+                          'failure rate adds R$ 5 of waste per part, it falls to R$ 15. If 100 of '
+                          'the 220 parts moved to this price, contribution would fall by R$ 3.500 '
+                          'a month. Quote again near R$ 80, which keeps R$ 40 per part. Keep a '
+                          'print log with grams used, hours, failures and finishing time, and a '
+                          'record of quotes. Standard to meet: never accept a price before the '
+                          'full cost per part is written down.'),
+ 'App Development': ('Thiago runs a small app studio in Sao Paulo with two developers. He sells '
+                     'each release, a finished and tested version of a client app, for R$ 8.200. '
+                     'Developer hours, test devices and store fees cost about R$ 4.200 per '
+                     'release. His fixed costs are R$ 14.000 a month for the office, cloud tools '
+                     'and a part-time project manager. He normally ships about 6 releases a month. '
+                     'A physiotherapy clinic now asks for a booking app, and halfway through asked '
+                     'for three extras: online payment, reminders and a report screen. Thiago said '
+                     'yes to each by message and did not write down any new price. The extras took '
+                     'the equivalent of a full extra release, and the owner refuses to pay extra. '
+                     'He has no dated approvals. He wants to resolve this and avoid it next time.',
+                     'First, find the margin: R$ 8.200 minus R$ 4.200 leaves R$ 4.000 per release. '
+                     'Next, break-even: R$ 14.000 divided by R$ 4.000 is 3,5, so he needs 4 '
+                     'releases a month. At 6, sales are R$ 49.200, contribution is R$ 24.000 and '
+                     'profit is R$ 10.000. The unpriced extras cost about R$ 4.200 of effort, so '
+                     "the client's release gave only R$ -200 margin instead of R$ 4.000, a loss of "
+                     'R$ 4.200. Rebuild the facts: collect the original message, the first '
+                     'estimate and each request, with dates. Present the extras politely as a '
+                     'change request, priced at about R$ 4.200 plus margin. Then change the '
+                     'method. Write a scope list with what is included and excluded. Require every '
+                     'change to have hours, price and a written yes before work starts. Split '
+                     'payments into milestones and record hours daily. Check the current official '
+                     'text on contracts and personal data. Standard to meet: no extra work starts '
+                     'without a written price and approval.'),
+ 'Small and Medium Entrepreneur Business': ('Paulo owns a small metal workshop in Guarulhos, near '
+                                            'Sao Paulo, with four employees. He sells each sales '
+                                            'order for about R$ 190, and materials, packing and '
+                                            'delivery cost about R$ 120 per order. His fixed costs '
+                                            'are R$ 9.000 a month for rent, payroll and software. '
+                                            'He fills about 160 orders a month and believes he '
+                                            'earns well. His customers pay 45 days after delivery, '
+                                            'but he must pay his material supplier in 30 days and '
+                                            'payroll every month. He starts with only R$ 6.000 in '
+                                            'the bank. Last month he used an expensive overdraft '
+                                            'to cover payroll even though the accountant said the '
+                                            'business was profitable. Paulo does not understand '
+                                            'why a profitable business runs out of cash, and he is '
+                                            'thinking of raising prices or borrowing more. He '
+                                            'needs to see the timing of money.',
+                                            'First, find the margin: R$ 190 minus R$ 120 leaves R$ '
+                                            '70 per order. Next, break-even: R$ 9.000 divided by '
+                                            'R$ 70 is 128,6, so he needs 129 orders a month. At '
+                                            '160, sales are R$ 30.400, contribution is R$ 11.200 '
+                                            'and profit is R$ 2.200. Profit is not cash. Materials '
+                                            'of R$ 12.800 are paid after 30 days, but customers '
+                                            'pay after 45 days, so about 15 days of sales, roughly '
+                                            'R$ 15.200, are tied up in unpaid invoices. That is '
+                                            'more than the R$ 6.000 in the bank. Build a weekly '
+                                            'forecast for 13 weeks with opening cash, receipts by '
+                                            'due date and payments by due date. Mark any week '
+                                            'where cash goes below zero. Then test actions one at '
+                                            'a time: shorter payment terms, a 45-day supplier '
+                                            'term, or a reserve. Keep receivables, payables and '
+                                            'bank statements. Check the current official text for '
+                                            'tax dates. Standard to meet: no week ends with '
+                                            'negative cash without a written plan.'),
+ 'Outsourcing Services': ('Fernanda runs a small company in Sao Paulo that provides outsourced '
+                          'customer service and simple bookkeeping support to local shops. She '
+                          'sells each monthly service contract for about R$ 16.000. Staff time, '
+                          'tools and licences cost her about R$ 9.500 per contract. Her fixed '
+                          'costs are R$ 22.000 a month for the office, a manager and security. She '
+                          "has five contracts. She feels busy and tired but the company's account "
+                          'stays low. One client sends urgent requests late in the day, and the '
+                          'team works far beyond the hours in the agreement. She never recorded '
+                          'time by client and she signed the contracts with a short list of '
+                          'services. She wants to know which contract helps the company, whether '
+                          'she is above break-even, and how to talk to the demanding client.',
+                          'First, find the margin: R$ 16.000 minus R$ 9.500 leaves R$ 6.500 per '
+                          'contract. Next, break-even: R$ 22.000 divided by R$ 6.500 is 3,4, so '
+                          'she needs 4 contracts. With 5, sales are R$ 80.000, contribution is R$ '
+                          '32.500 and profit is R$ 10.500. If the demanding client adds R$ 3.000 '
+                          "of overtime, that contract's margin falls from R$ 6.500 to R$ 3.500 and "
+                          'company profit to R$ 7.500. Prepare the talk with that client: bring '
+                          'the time log and offer two options, a clear monthly hour limit or a '
+                          'price near R$ 19.000. Last, set a routine. Log time by client every '
+                          'day. Define the services, hours included and response times in writing. '
+                          'Review each client every month. Check the current official text on '
+                          'labor and tax rules. Standard to meet: every client has a signed scope '
+                          'and a positive monthly margin.'),
+ 'Electronics Sales & Repair Services': ('Ricardo runs a small phone repair counter in a market '
+                                         'area of central Sao Paulo. His average repair is R$ 180, '
+                                         'and parts, labor time and packaging cost him about R$ '
+                                         '70. His fixed costs are R$ 8.000 a month for the '
+                                         'counter, bench tools, a clerk and software. He does '
+                                         'about 200 repairs a month. Last month 16 customers came '
+                                         'back within the warranty period with the new screen '
+                                         'showing lines or dead touch. He redid each of them at '
+                                         'his own cost, with another part and more time. He buys '
+                                         'the parts from two suppliers and does not note which '
+                                         'part came from which supplier. He also sometimes forgets '
+                                         'to test the speaker and camera before returning the '
+                                         'phone, and one customer said the camera was already '
+                                         'broken before the repair. He wants to reduce returns and '
+                                         'settle disputes fairly.',
+                                         'First, find the margin: R$ 180 minus R$ 70 leaves R$ 110 '
+                                         'per repair. Next, break-even: R$ 8.000 divided by R$ 110 '
+                                         'is 72,7, so he needs 73 repairs a month. At 200, sales '
+                                         'are R$ 36.000, contribution is R$ 22.000 and profit is '
+                                         'R$ 14.000. Each redo costs another R$ 70, so 16 redos '
+                                         'cost R$ 1.120 and profit falls to R$ 12.880. The return '
+                                         'rate is 8 percent. Then act. Fill a form when the phone '
+                                         'arrives, with model, visible damage, a photo and a '
+                                         'checklist of screen, camera, speaker and charging, '
+                                         'signed by the customer. Test the same list before '
+                                         'delivery. Mark each part with supplier and purchase '
+                                         'date, and count returns by supplier. State the warranty '
+                                         'terms in plain words on the receipt; check the current '
+                                         'official text of the consumer rules. Standard to meet: '
+                                         'every phone has an arrival record, a final test and a '
+                                         'traceable part, and returns stay below 5 percent.')}

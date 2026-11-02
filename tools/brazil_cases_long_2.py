@@ -1,45 +1,279 @@
-LONG = {
-'Package Delivery Services': (
-"A small courier office in Mooca, Sao Paulo, runs three motorcycle riders. Each rider makes 28 deliveries a day, 26 days a month, and the office earns R$ 9 per delivery. Each rider is paid R$ 2.400 a month, fuel costs R$ 38 a day per rider, and each motorcycle needs R$ 450 a month in repairs. The owner feels busy but cash is always short. Last month 300 of the 2.184 deliveries arrived late, and the office gave clients a R$ 9 credit for each late one. The owner has never added these credits to the monthly costs, so the real profit is unknown. Rain days and traffic on the Marginal make late deliveries worse. The owner must find the true monthly result and decide which fix to try first.",
-"First, list the monthly income: 2.184 deliveries at R$ 9 is R$ 19.656. Next, list every cost: pay 3 x R$ 2.400 is R$ 7.200, fuel 3 x R$ 38 x 26 is R$ 2.964, repairs 3 x R$ 450 is R$ 1.350. Costs so far are R$ 11.514, leaving R$ 8.142. Then subtract the late credits, 300 x R$ 9 is R$ 2.700, which leaves R$ 5.442. Late deliveries are 300 divided by 2.184, about 13,7 percent. Next, compare the late deliveries by route and by hour, and choose the worst route. Plan a test for two weeks, such as grouping stops by neighbourhood. Last, count the late deliveries again and recompute the result. Records to keep: a daily delivery log with time promised and time delivered, fuel receipts, repair invoices, and a credit list. Standard to meet: late deliveries below 5 percent, which would cut credits to about R$ 983, and every cost written down before the month closes. For tax or labor rules, check the current official text."),
-
-'Renewable Energy for Homes, Offices, Malls, Multiplexes': (
-"A family in Campinas who work in Sao Paulo wants to cut the electricity bill of a small office floor that the family rents out. The office uses 1.200 kWh a month and pays R$ 0,95 per kWh, so the bill is R$ 1.140. An installer proposes a rooftop solar system that produces 1.000 kWh a month and costs R$ 24.000 to buy and install. The family also reads that a nearby mall and a multiplex use the same idea at a much larger scale. The family has R$ 30.000 saved and worries that the roof may be shaded by a taller building. Nobody has measured the shade, the real output, or what the bill would still contain after the system starts. The family must decide using numbers, not slogans.",
-"First, check the bill: 1.200 x R$ 0,95 is R$ 1.140 a month. Next, ask the installer for the output estimate in writing, and visit the roof at three hours of the day to note shade. Then compute the saving if the estimate holds: 1.000 kWh x R$ 0,95 is R$ 950 a month, so the bill falls to about R$ 190 plus any fixed charges the distributor still adds. Payback is R$ 24.000 divided by R$ 950, about 25 months, but cut the output by 20 percent for shade and the saving becomes R$ 760, so payback is about 32 months. Next, compare two more quotes using the same assumptions. Last, check the current official text on distributed generation and connection rules before signing. Records to keep: twelve months of bills, the quotes, a roof photo log, and monthly meter readings after installation. Standard to meet: a decision table with best and worst cases, signed only when payback stays under 36 months in the worst case."),
-
-'Sports': (
-"A man in Vila Maria runs a weekend youth football school for 40 children in a rented public-style court. Each family pays R$ 80 a month. Monthly costs are court rental R$ 900, two coaches at R$ 700 each, balls and cones R$ 150, and first aid supplies R$ 60. In the last three months only 31 families paid on time, and two parents asked whether the school keeps attendance. A child twisted an ankle, and the coach could not find the parent phone number quickly. The organiser says the school makes money, but he has never compared what came in with what went out. He wants to know whether the school truly covers its costs and how to run it more safely and clearly.",
-"First, compute expected income: 40 x R$ 80 is R$ 3.200. Next, add the costs: R$ 900 + 2 x R$ 700 + R$ 150 + R$ 60 is R$ 2.510, so the planned surplus is R$ 690. Then compute the real month: 31 x R$ 80 is R$ 2.480, which is R$ 30 below the costs, a small deficit. The nine late families explain a R$ 720 gap. Next, create a one-page register with child name, guardian phone, health notes, monthly payment date and attendance. Set a payment day and send a polite reminder two days before. Then write a short injury routine: who calls the guardian, where the first aid box is, and how to note the event. Last, review the register each month. Records to keep: payment list, attendance sheet, receipts for equipment, and an injury notes page. Standard to meet: at least 38 of 40 families paid by the due date, a surplus of R$ 500 or more, and every guardian phone number reachable in under one minute."),
-
-'Brand Management': (
-"A woman in Pinheiros makes handmade soaps and sells them online and at a weekend fair. Her soap bar sells at R$ 18, and she makes 400 bars a month. Her social media posts use three different logos, two shades of green, and a name spelled in two ways. A reseller said customers cannot tell whether a photo is her product or a copy. She spent R$ 600 last month on paid posts and got 12 new buyers, while 9 earlier buyers left a complaint about inconsistent packaging. She wants to know if the money is working and what she should fix about her brand before she spends more. She has no designer and a small budget, so she needs a simple method she can run alone.",
-"First, compute the cost of each new buyer: R$ 600 divided by 12 is R$ 50. Next, compare it with the value of one buyer: if a buyer buys four bars a year, that is 4 x R$ 18, R$ 72 a year, so R$ 50 is high for a first purchase. Then write a one-page brand sheet: one name spelling, one logo, two colours, one sentence about what the soap promises, and a photo style. Next, apply it to the label, the fair table and the profile page in the same week. Then ask ten buyers in what words they describe the soap and compare their words with the sheet. Last, repeat the paid post test for one month with the new look and recompute the cost per buyer. Records to keep: the brand sheet, dated photos of old and new labels, a log of posts and results, and the complaint list. Standard to meet: every touchpoint matches the sheet, and the cost per new buyer drops below R$ 35."),
-
-'Travel Agencies': (
-"A small travel agency near Liberdade in Sao Paulo sells weekend bus tours to the coast. A coach for 44 seats costs the agency R$ 3.300 per trip, the guide costs R$ 400, and insurance and tolls cost R$ 500. The agency sells each seat at R$ 120. Last month it ran four trips, and the average load was 31 seats. Two clients asked for refunds after a trip was moved because of weather, and the agency did not have a written rule to answer them. The owner also did not record which seats were paid in cash and which by transfer. She wants to know the break-even point of one trip and how to handle changes clearly for clients. She prefers plain written rules to long arguments.",
-"First, compute the cost of one trip: R$ 3.300 + R$ 400 + R$ 500 is R$ 4.200. Next, compute break-even seats: R$ 4.200 divided by R$ 120 is 35 seats. The average load of 31 seats earns 31 x R$ 120, R$ 3.720, so each trip loses R$ 480, or R$ 1.920 across four trips. Then decide what to test: a lower-cost coach, a smaller coach, or a minimum number of sold seats before confirming a date. Next, write a change and cancel rule in plain words, for example the client may choose a new date or a refund when the agency moves a trip, and share it before any payment. Last, check the current official text on consumer and tourism rules. Records to keep: seat list with payment method, the written rule signed or acknowledged, trip cost sheet, and refund notes. Standard to meet: no trip confirmed under 35 sold seats, and every client has the written rule before paying."),
-
-'Microgreens Farming': (
-"A couple in a flat in Itaquera in Sao Paulo grows microgreens on shelves in a spare room and sells small boxes to three restaurants and a market stall. They sell 60 boxes a week at R$ 14 each. Each box costs R$ 5 in seeds, trays, and substrate, and water and light add about R$ 180 a month. Last month 9 trays out of 52 grew mould because the room was too humid, and one restaurant cancelled a delivery because the box looked dull. The couple does not write down temperature, humidity, or sowing dates, so they cannot find the cause. They want to protect their margin and deliver the same quality every week, without buying any expensive machine.",
-"First, compute the weekly sales: 60 x R$ 14 is R$ 840, about R$ 3.360 across four weeks. Next, compute the costs: 60 x R$ 5 x 4 is R$ 1.200, plus R$ 180, making R$ 1.380, so the profit before pay is R$ 1.980. Then count the loss: 9 of 52 trays is 17 percent, so about 17 percent of boxes are lost, which reduces the box output from 240 to about 199 for the same cost, and the profit falls to about R$ 1.406. Next, buy a cheap thermometer and humidity reader, and write sowing date, temperature, humidity and tray result in a daily sheet. Then test one change at a time, such as a small fan or fewer seeds per tray, for two weeks. Last, recompute the mould rate. Records to keep: the growing sheet, seed purchase invoices, delivery notes and complaints. Standard to meet: mould under 5 percent and every delivered box checked against a written quality list."),
-
-'Care for Disabled and Elderly People': (
-"A woman in Penha works as a home caregiver for an 82-year-old man who uses a walker and has memory problems. His daughter pays her R$ 2.200 a month for 5 days of 8 hours. Twice last month the man stood up alone during the night and nearly fell, and the caregiver forgot to note a change in his medicine time. The daughter lives far away and asks for news only by message. The caregiver spends R$ 160 a month on gloves, wipes, and bus fares that nobody has reimbursed. She wants to organise her work so that the man is safe, the daughter is informed, and her own costs are visible. She has no formal training in nursing and wants to act within a caregiver role.",
-"First, calculate the hourly value: 5 days x 8 hours x 4 weeks is 160 hours, and R$ 2.200 divided by 160 is R$ 13,75 an hour. After her R$ 160 costs, she keeps R$ 2.040, or R$ 12,75 an hour. Next, write a daily care sheet with time of meals, medicine time as written by the doctor, toilet visits, mood, and any near fall. Then ask the daughter and the doctor, in writing, which tasks the caregiver may do and which she must not do. Next, review the home for fall risks, such as a loose rug, a dark corridor, and the bed height, and agree on small fixes. Last, send the daughter a short weekly summary every Friday. Records to keep: the daily sheet, the medicine list from the doctor, the receipts for supplies and a list of emergency numbers. Standard to meet: no unreported near falls, every medicine time noted, and costs shown each month. For labor rules, check the current official text."),
-
-'Private Medicare': (
-"A self-employed designer in Tatuape, 41 years old, pays R$ 780 a month for a private health plan. She earns about R$ 6.500 a month, with R$ 4.200 of fixed home costs. This year the plan raised the price by 12 percent, and she also paid R$ 540 out of pocket for a consultation and an exam that she thought were covered. She does not know which services require a co-payment, what the waiting periods are, or whether the nearby hospital belongs to her network. She wonders if she should change plans, keep it, or rely on the public system, but she has no side-by-side comparison. She wants a clear method to decide, using her own numbers, without buying anything in a rush.",
-"First, compute the new price: R$ 780 x 1,12 is R$ 873,60 a month, about R$ 10.483 a year. Next, compute its share of her income: R$ 873,60 divided by R$ 6.500 is about 13,4 percent. Add the R$ 540 spent outside the plan and the yearly cost is about R$ 11.023. Then read the contract and ask the plan, in writing, for the list of covered services, co-payments, waiting periods and network. Next, collect two other offers and put all three in a table with price, network, co-payments and limits. Then check the current official text on health plan rules and the regulator guidance, and call the regulator channel if an answer is unclear. Last, choose by total yearly cost and by access to the doctors she uses. Records to keep: the contract, price letters, claim and refusal messages, receipts for out-of-pocket costs. Standard to meet: a decision table with total yearly cost for each option, reviewed before the next price change."),
-
-'Home Security and Monitoring Services': (
-"A small business in Santana installs cameras and door alarms for homes and charges R$ 1.800 per installation with monitoring at R$ 90 a month per client. It has 40 monitoring clients. Last month 11 clients complained about false alarms at night, and one client said the camera video was not available when she needed it. The owner pays R$ 2.800 a month for two monitoring operators and R$ 600 for software and internet. He has no written steps for what an operator does when an alarm sounds, and the team keeps no record of calls. He wants to reduce false alarms and prove what the team did during each event, while also protecting the clients' private images from careless access.",
-"First, compute the monthly income from monitoring: 40 x R$ 90 is R$ 3.600. Next, compute the costs: R$ 2.800 + R$ 600 is R$ 3.400, leaving only R$ 200 before installation work. Then compute the complaints: 11 of 40 is 27,5 percent. Next, write an alarm procedure in numbered steps: verify the signal, call the client, call the second contact, record time and result, and escalate if no one answers. Then review the 11 false alarms by cause, such as pets, weak sensors or wrong settings, and fix the most common cause first. Next, set access rules so only named operators can open client video, and keep a log of who watched what. Last, check the current official text on personal data protection before keeping any recordings. Records to keep: the event log, the client contact list, maintenance visits, and the access log. Standard to meet: false alarms below 10 percent of clients and a complete log for every event."),
-
-'Language Schools': (
-"A small English school in Vila Mariana has 6 groups of 8 students each. Each student pays R$ 280 a month. Monthly costs are rent R$ 3.200, three teachers at R$ 1.800 each, materials R$ 400, and internet and cleaning R$ 350. This semester 11 students left in the second month, and many said they could not tell what they had learned. The teachers use different books and give no common test. The owner wants to keep students longer and prove progress with simple evidence. She has not yet checked whether the school's income covers its costs, and she doubts she can afford a new coordinator. She needs a plan that fits a small team and a small budget.",
-"First, compute the income: 6 x 8 x R$ 280 is R$ 13.440. Next, compute the costs: R$ 3.200 + 3 x R$ 1.800 + R$ 400 + R$ 350 is R$ 9.350, so the surplus is R$ 4.090. Then compute the loss from leaving students: 11 x R$ 280 is R$ 3.080 a month, which would reduce the surplus to R$ 1.010 if they are not replaced. Next, agree on one level scale and write three can-do goals per level, such as order food or write a short email. Then give a short oral and written check at weeks 1, 4 and 8, and record the results for each student. Next, call each student who misses two classes in a row. Last, compare the leaving rate before and after for one semester. Records to keep: class registers, test scores, goal checklists and exit reasons. Standard to meet: fewer than 3 students leaving per semester, and each student able to see progress against written goals."),
-
-'Courses for Foreigners': (
-"A language and culture course in Bom Retiro teaches Portuguese to adult newcomers. It has 20 students in a class and charges R$ 350 per student for a ten-week course. Costs are one teacher at R$ 2.500, room rental R$ 1.400, and printed material R$ 300. Many students are workers who need simple Portuguese for the job, the bank and the health post, and they miss classes when their shifts change. Last course, 7 students dropped out before week five and three told the teacher that the lessons felt too far from daily life. The organiser also struggles to explain, in plain words, what documents students should bring to enrol. She wants a course that stays useful, is fair, and is clear to people who are still learning the language.",
-"First, compute the income: 20 x R$ 350 is R$ 7.000. Next, compute the costs: R$ 2.500 + R$ 1.400 + R$ 300 is R$ 4.200, so the surplus is R$ 2.800. Then compute the dropout: 7 of 20 is 35 percent, and if the 7 had paid only half the course, the lost income is about R$ 1.225. Next, ask students in week one what situations they need most, such as a bank visit, a doctor visit or a job talk, and build each lesson around one situation. Then write the enrolment instructions with short sentences, pictures and one example of each document, and check the current official text on identity documents. Next, offer two time slots to fit shifts. Last, count attendance weekly and call anyone who misses twice. Records to keep: needs survey, attendance sheet, lesson plans and student feedback. Standard to meet: dropout under 15 percent and every student able to complete one real task in Portuguese by week ten."),
-}
+LONG = {'Package Delivery Services': ('A small courier office in Mooca delivers about 6000 parcels a '
+                               'month and charges R$ 14 per parcel. Rider pay, fuel, repairs and '
+                               'packaging cost R$ 9 per parcel, and the hub, office and insurance '
+                               'cost R$ 22.000 a month. The owner feels busy but cash is always '
+                               'short. Last month 800 of the 6.000 parcels arrived late, and the '
+                               'office gave clients a credit of R$ 7 for each late one. The owner '
+                               'never added these credits to the monthly costs, so the real result '
+                               'is unknown. Rain days and traffic on the Marginal make late '
+                               'deliveries worse. The owner must find the true monthly result and '
+                               'decide which fix to try first.',
+                               'First, list the income: 6.000 parcels at R$ 14 is R$ 84.000. Next, '
+                               'list the costs: variable 6.000 x R$ 9 = R$ 54.000 and fixed R$ '
+                               '22.000, which leaves R$ 8.000. Then subtract the late credits, 800 '
+                               'x R$ 7 = R$ 5.600, which leaves R$ 2.400. Late parcels are 800 / '
+                               '6.000, about 13,3%. Each parcel leaves R$ 5, so break-even is '
+                               '4.400 parcels. Next, compare late parcels by route and by hour, '
+                               'choose the worst route, and test one fix for two weeks, such as '
+                               'grouping stops by neighbourhood. Last, count late parcels again '
+                               'and recompute the result. Records: a daily log with time promised '
+                               'and time delivered, fuel receipts, repair invoices and a credit '
+                               'list. Standard: late parcels below 5%, which is 300 and cuts '
+                               'credits to R$ 2.100, so the result becomes R$ 5.900. For tax or '
+                               'labor rules, check the current official text.'),
+ 'Renewable Energy for Homes, Offices, Malls, Multiplexes': ('A family in Campinas who work in Sao '
+                                                             'Paulo wants to cut the electricity '
+                                                             'bill of a small office floor they '
+                                                             'rent out. The office uses 1.200 kWh '
+                                                             'a month and pays R$ 0,95 per kWh, so '
+                                                             'the bill is R$ 1.140. An installer '
+                                                             'proposes a rooftop system of 5 '
+                                                             'kilowatt-peak at R$ 4.800 per '
+                                                             'kilowatt-peak, so R$ 24.000 '
+                                                             "installed. Of that, the installer's "
+                                                             'own variable cost is R$ 3.400 per '
+                                                             'kilowatt-peak, and the firm needs R$ '
+                                                             '25.000 a month in fixed cost. The '
+                                                             'family has R$ 30.000 saved and '
+                                                             'worries that a taller building may '
+                                                             'shade the roof. Nobody has measured '
+                                                             'the shade, the real output, or what '
+                                                             'the bill would still contain after '
+                                                             'installation. The family must decide '
+                                                             'using numbers, not slogans.',
+                                                             'First, check the bill: 1.200 x R$ '
+                                                             '0,95 is R$ 1.140 a month. Next, '
+                                                             'estimate the output: 5 kilowatt-peak '
+                                                             'x 5 sun hours x 30 days x 0,8 is 600 '
+                                                             'kWh. The saving is 600 x R$ 0,95 = '
+                                                             'R$ 570 a month, and payback is R$ '
+                                                             '24.000 / R$ 570, about 42 months. '
+                                                             'With 20% less output for shade, the '
+                                                             'saving is 480 x R$ 0,95 = R$ 456, '
+                                                             'and payback is about 53 months. The '
+                                                             "installer's margin on the sale is 5 "
+                                                             'x R$ 1.400 = R$ 7.000, so ask for '
+                                                             'the output estimate in writing. '
+                                                             'Next, visit the roof at three hours '
+                                                             'of the day to note shade, and '
+                                                             'compare two more quotes using the '
+                                                             'same assumptions. Last, check the '
+                                                             'current official text on distributed '
+                                                             'generation and connection rules '
+                                                             'before signing. Records: twelve '
+                                                             'months of bills, quotes, roof '
+                                                             'photos, monthly meter readings. '
+                                                             'Standard: sign only if payback stays '
+                                                             'under 60 months in the worst case.'),
+ 'Sports': ('A man in Vila Maria runs a weekend youth football school with about 300 paid sessions '
+            'a month, since each child attends four sessions. Each session costs the family R$ 90. '
+            'Coach time, balls, cones and first aid supplies cost R$ 35 per session, and court '
+            'rental and insurance cost R$ 8.000 a month. In the last three months only 255 of the '
+            '300 sessions were paid on time, and two parents asked whether the school keeps '
+            "attendance. A child twisted an ankle, and the coach could not find the parent's phone "
+            'number quickly. The organiser says the school makes money, but he has never compared '
+            'what came in with what went out. He wants to know whether the school truly covers its '
+            'costs and how to run it more safely and clearly.',
+            'First, compute expected income: 300 x R$ 90 = R$ 27.000. Next, variable cost: 300 x '
+            'R$ 35 = R$ 10.500, so the margin is R$ 16.500. After the fixed cost of R$ 8.000, the '
+            'planned profit is R$ 8.500. Break-even is R$ 8.000 / R$ 55, about 146 sessions. Then '
+            'compute the real cash: 255 x R$ 90 = R$ 22.950, so the month leaves R$ 4.450, because '
+            'costs are paid whether or not families pay. The 45 late sessions explain a gap of R$ '
+            '4.050. Next, create a one-page register with child name, guardian phone, health '
+            'notes, payment date and attendance. Set a payment day and send a reminder two days '
+            'before. Then write a short injury routine: who calls the guardian, where the first '
+            'aid box is, and how to note the event. Records: payment list, attendance, receipts, '
+            'injury notes. Standard: at least 285 sessions paid by the due date, profit of R$ '
+            '7.000 or more, and every guardian number reachable in under a minute.'),
+ 'Brand Management': ('A freelance brand designer in Pinheiros runs a small studio. She sells '
+                      'brand projects at R$ 12.000 each and closes about 4 a month. Each project '
+                      'costs her R$ 4.000 in printing, photos and freelance help, and the studio '
+                      'costs R$ 9.000 a month, including R$ 3.000 of paid posts. Her own profile '
+                      'uses three different logos, two shades of green and a studio name spelled '
+                      'in two ways. A prospect said he could not tell which photos were her work. '
+                      'Last month the paid posts brought 2 of her 4 clients, while 9 earlier '
+                      'prospects wrote that her proposals looked inconsistent. She wants to know '
+                      'if the money is working and what to fix before she spends more. She has no '
+                      'assistant and a small budget, so she needs a method she can run alone.',
+                      'First, compute the month: income 4 x R$ 12.000 = R$ 48.000; variable cost 4 '
+                      'x R$ 4.000 = R$ 16.000; fixed cost R$ 9.000; profit R$ 23.000. Each project '
+                      'leaves R$ 8.000, so break-even is R$ 9.000 / R$ 8.000, 1,125, or 2 '
+                      'projects. Next, compute the cost of a new client: R$ 3.000 divided by 2 is '
+                      "R$ 1.500, or 18,8% of one project's margin, so the posts do pay if the "
+                      'clients are real. Then write a one-page brand sheet: one spelling, one '
+                      'logo, two colours, one promise and a photo style, and apply it to the '
+                      'profile, proposals and invoices in one week. Ask ten past clients to '
+                      'describe the studio in three words and compare. Last, repeat the test for a '
+                      'month and recompute. Records: the sheet, dated screenshots, a post log and '
+                      'the prospect list. Standard: every touchpoint matches the sheet and cost '
+                      'per new client falls below R$ 1.000.'),
+ 'Travel Agencies': ('A small travel agency near Liberdade in Sao Paulo sells weekend coast trips '
+                     'and sells about 25 trips a month at R$ 3.200 each. Lodging, coach seats, '
+                     'guide share and insurance cost R$ 2.500 per trip, and the office, website '
+                     'and staff cost R$ 10.000 a month. Last month two clients asked for refunds '
+                     'after a trip was moved because of weather, and the agency had no written '
+                     'rule to answer them. The owner also did not record which trips were paid in '
+                     'cash and which by transfer. She wants to know the break-even point of the '
+                     'month and how to handle changes clearly for clients. She prefers plain '
+                     'written rules to long arguments.',
+                     'First, compute the month: income 25 x R$ 3.200 = R$ 80.000; variable cost 25 '
+                     'x R$ 2.500 = R$ 62.500; margin R$ 17.500; fixed cost R$ 10.000; profit R$ '
+                     '7.500. Each trip leaves R$ 700, so break-even is R$ 10.000 / R$ 700 = 14,3, '
+                     'or 15 trips. Next, count the refunds: two full refunds of R$ 3.200 cost R$ '
+                     '6.400, and since the suppliers were already paid, profit falls to R$ 1.100. '
+                     'Then decide what to test: a minimum of 15 sold trips before confirming a '
+                     'date, or a smaller coach. Write a change and cancel rule in plain words, for '
+                     'example the client may choose a new date or a refund when the agency moves a '
+                     'trip, and share it before any payment. Check the current official text on '
+                     'consumer and tourism rules. Records: trip list with payment method, the '
+                     'signed rule, cost sheet, refund notes. Standard: no date confirmed under 15 '
+                     'sold trips and every client has the rule before paying.'),
+ 'Microgreens Farming': ('A couple in a flat in Itaquera grows microgreens on shelves in a spare '
+                         'room and sells whole trays to three restaurants and a market stall. They '
+                         'sell about 700 trays a month at R$ 18 each. Seed, mix and packaging cost '
+                         'R$ 7 per tray sown, and room share, light, water and electricity cost R$ '
+                         '3.500 a month. Last month they sowed 790 trays: 90 grew mould because '
+                         'the room was too humid, and one restaurant cancelled its 40 trays a '
+                         'month because the product looked dull. The couple does not write down '
+                         'temperature, humidity or sowing dates, so they cannot find the cause. '
+                         'They want to protect their margin and deliver the same quality every '
+                         'week without buying an expensive machine.',
+                         'First, compute the sales: 700 x R$ 18 = R$ 12.600. Next, the variable '
+                         'cost on 790 sown trays is 790 x R$ 7 = R$ 5.530, and with fixed cost R$ '
+                         '3.500 the profit is R$ 3.570. Without the mould, 700 sown trays would '
+                         'cost R$ 4.900 and profit would be R$ 4.200, so mould cost R$ 630. Mould '
+                         'was 11,4% of trays sown. The lost restaurant order cost 40 x R$ 11 = R$ '
+                         '440 of margin a month. Each tray leaves R$ 11, so break-even is 319 '
+                         'trays. Then buy a cheap thermometer and humidity reader, and write '
+                         'sowing date, temperature, humidity and tray result in a daily sheet. '
+                         'Test one change at a time, such as a small fan, for two weeks, then '
+                         'recompute the mould rate. Records: growing sheet, seed invoices, '
+                         'delivery notes, complaints. Standard: mould under 5% of trays sown and '
+                         'every tray checked against a written quality list.'),
+ 'Care for Disabled and Elderly People': ('A small home-care service in Penha provides about 400 '
+                                          'care days a month to older adults and people with '
+                                          'disabilities. It charges R$ 220 per care day. Wages, '
+                                          'bus fares, gloves and wipes come to R$ 150 per care '
+                                          'day, and office, insurance and supervision cost R$ '
+                                          '12.000 a month. Twice last month a man who uses a '
+                                          'walker stood up alone at night and nearly fell, and a '
+                                          'carer forgot to note a change in his medicine time. His '
+                                          'daughter lives far away and asks for news only by '
+                                          'message. Three other families said they hear nothing '
+                                          'between visits. The owner wants to know if the service '
+                                          'really earns, and to organise records so clients are '
+                                          'safe and informed. She has no nursing training and '
+                                          'wants to act within a carer role.',
+                                          'First, compute the month: income 400 x R$ 220 = R$ '
+                                          '88.000; variable cost 400 x R$ 150 = R$ 60.000; margin '
+                                          'R$ 28.000; fixed cost R$ 12.000; profit R$ 16.000. Each '
+                                          'care day leaves R$ 70, so break-even is R$ 12.000 / R$ '
+                                          '70 = 171,4, or 172 care days. Losing one client of 30 '
+                                          'care days cuts profit by 30 x R$ 70 = R$ 2.100, to R$ '
+                                          '13.900. Next, write a daily care sheet with meals, the '
+                                          'medicine time as written by the doctor, toilet visits, '
+                                          'mood and any near fall. Then ask the doctor and the '
+                                          'daughter, in writing, which tasks carers may do. Review '
+                                          'the home for loose rugs, dark corridors and bed height. '
+                                          'Last, send each family a short Friday summary. Records: '
+                                          'the daily sheet, medicine list, receipts and emergency '
+                                          'numbers. Standard: no unreported near falls and every '
+                                          'medicine time noted. For labor rules, check the current '
+                                          'official text.'),
+ 'Private Medicare': ('A private clinic in Tatuape sees about 500 consultations a month and '
+                      'charges R$ 350 per consultation. Doctor fees, supplies and lab work cost R$ '
+                      '190 per consultation, and rent, staff and equipment cost R$ 60.000 a month. '
+                      'Patients are confused about which services their health plan covers. Last '
+                      'month 45 patients disputed a bill, and one paid R$ 540 for a consultation '
+                      'and an exam that she thought were covered. The clinic does not give a '
+                      'written price and coverage sheet, and staff answer differently. The owner '
+                      'wonders if the clinic truly covers its costs, and whether unclear prices '
+                      'are driving patients away. She wants a clear method to fix this using her '
+                      'own numbers, without rushing into new equipment.',
+                      'First, compute the month: income 500 x R$ 350 = R$ 175.000; variable cost '
+                      '500 x R$ 190 = R$ 95.000; margin R$ 80.000; fixed cost R$ 60.000; profit R$ '
+                      '20.000. Each consultation leaves R$ 160, so break-even is R$ 60.000 / R$ '
+                      '160 = 375 consultations. Next, compute the disputes: 45 of 500 is 9%. If 50 '
+                      'patients left because of unclear prices, margin lost is 50 x R$ 160 = R$ '
+                      '8.000, and profit falls to R$ 12.000. Then write a one-page sheet listing '
+                      'each service, its price and what a plan usually does or does not cover, and '
+                      'ask each plan, in writing, to confirm co-payments and waiting periods. '
+                      "Check the current official text on health plan rules and the regulator's "
+                      'guidance. Train staff to give the same answer. Records: the sheet, bill '
+                      'disputes, refusal messages and receipts. Standard: disputes under 3% of '
+                      'consultations.'),
+ 'Home Security and Monitoring Services': ('A small business in Santana installs cameras and door '
+                                           'alarms and monitors 400 homes. Each monitored home '
+                                           'pays R$ 120 a month. Monitoring minutes, mobile data '
+                                           'and call-outs cost R$ 55 per home, and the team of '
+                                           'operators, software and office cost R$ 18.000 a month. '
+                                           'Last month 44 homes complained about false alarms at '
+                                           'night, and one client said the camera video was not '
+                                           'available when she needed it. The owner has no written '
+                                           'steps for what an operator does when an alarm sounds, '
+                                           'and the team keeps no record of calls. He wants to '
+                                           'reduce false alarms and prove what the team did during '
+                                           "each event, while also protecting clients' private "
+                                           'images from careless access.',
+                                           'First, compute the month: income 400 x R$ 120 = R$ '
+                                           '48.000; variable cost 400 x R$ 55 = R$ 22.000; fixed '
+                                           'cost R$ 18.000; profit R$ 8.000. Each home leaves R$ '
+                                           '65, so break-even is R$ 18.000 / R$ 65, or 277 homes. '
+                                           'Next, compute the complaints: 44 of 400 is 11%. If '
+                                           'those 44 homes cancelled, profit would fall to 356 x '
+                                           'R$ 65 - R$ 18.000 = R$ 5.140. Then write an alarm '
+                                           'procedure in numbered steps: verify the signal, call '
+                                           'the client, call the second contact, record time and '
+                                           'result, and escalate if no one answers. Review the 44 '
+                                           'cases by cause, such as pets, weak sensors or wrong '
+                                           'settings, and fix the most common first. Set access '
+                                           'rules so only named operators open video, with a log. '
+                                           'Check the current official text on personal data '
+                                           'protection. Records: event log, contacts, visits, '
+                                           'access log. Standard: complaints under 5% of homes and '
+                                           'a complete log for every event.'),
+ 'Language Schools': ('A small English school in Vila Mariana has 120 learners in groups of 10 to '
+                      '12. Each learner pays R$ 380 a month. Teacher hours and materials cost R$ '
+                      '180 per learner, and rent, coordination, internet and cleaning cost R$ '
+                      '15.000 a month. This semester 24 learners left in the second month, and '
+                      'many said they could not tell what they had learned. The teachers use '
+                      'different books and give no common test. The owner wants to keep learners '
+                      'longer and prove progress with simple evidence. She has not yet checked '
+                      'whether the income covers the costs, and she doubts she can afford a new '
+                      'coordinator. She needs a plan that fits a small team and a small budget.',
+                      'First, compute the month: income 120 x R$ 380 = R$ 45.600; variable cost '
+                      '120 x R$ 180 = R$ 21.600; fixed cost R$ 15.000; profit R$ 9.000. Each '
+                      'learner leaves R$ 200, so break-even is R$ 15.000 / R$ 200 = 75 learners. '
+                      'Next, compute the loss from leavers: 24 x R$ 200 = R$ 4.800 of margin a '
+                      'month, which would reduce profit to R$ 4.200 if they are not replaced. Then '
+                      'agree on one level scale and write three can-do goals per level, such as '
+                      'order food or write a short email. Give a short oral and written check at '
+                      'weeks 1, 4 and 8 and record each result. Call every learner who misses two '
+                      'classes in a row. Last, compare the leaving rate for one semester. Records: '
+                      'registers, test scores, goal checklists, exit reasons. Standard: fewer than '
+                      '12 learners leaving, which is 10%, and each learner able to see progress '
+                      'against written goals.'),
+ 'Courses for Foreigners': ('A language and culture course in Bom Retiro teaches Portuguese to '
+                            'adult newcomers. It averages 80 paying learners a month at R$ 420 '
+                            'each. Teachers and printed material cost R$ 200 per learner, and room '
+                            'rental and administration cost R$ 12.000 a month. Many learners are '
+                            'workers who need simple Portuguese for the job, the bank and the '
+                            'health post, and they miss classes when their shifts change. In the '
+                            'last course, 28 of the 80 learners left before week five, and several '
+                            'told the teacher the lessons felt too far from daily life. The '
+                            'organiser also struggles to explain, in plain words, which documents '
+                            'learners should bring to enrol. She wants a course that stays useful, '
+                            'is fair and is clear to people who are still learning the language.',
+                            'First, compute the month: income 80 x R$ 420 = R$ 33.600; variable '
+                            'cost 80 x R$ 200 = R$ 16.000; fixed cost R$ 12.000; profit R$ 5.600. '
+                            'Each learner leaves R$ 220, so break-even is R$ 12.000 / R$ 220, or '
+                            '55 learners. Next, compute the dropout: 28 of 80 is 35%. If those 28 '
+                            'are not replaced, 52 learners remain and profit becomes 52 x R$ 220 - '
+                            'R$ 12.000 = R$ -560, a loss. Then ask learners in week one which '
+                            'situations they need most, such as a bank visit or a job talk, and '
+                            'build each lesson around one. Write the enrolment instructions in '
+                            'short sentences with pictures, and check the current official text on '
+                            'identity documents. Offer two time slots for shifts and call anyone '
+                            'who misses twice. Records: needs survey, attendance, lesson plans, '
+                            'feedback. Standard: dropout under 15%, so at least 68 learners stay, '
+                            'giving 68 x R$ 220 - R$ 12.000 = R$ 2.960.')}
