@@ -13,7 +13,7 @@ G = [
  ('Europe: ten chapters', ['learn-flagship-eu-']),
  ('Global: 75 courses for every market', ['learn-flagship-gl-']),
  ('India', ['learn-flagship-in-']),
- ('UAE (Dubai and Abu Dhabi)', ['learn-flagship-ae-']),
+ ('UAE (Dubai and Abu Dhabi)', ['learn-uae-hub', 'learn-flagship-ae-']),
  ('Brazil', ['learn-brazil-']),
  ('Canada and North America', ['learn-ca-']),
  ('Netherlands', ['learn-flagship-nl-']),

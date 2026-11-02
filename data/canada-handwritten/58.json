@@ -1,12 +1,188 @@
-{"mods":{
-"1":{"title":"Know the parts of a computer and a network","intro":"IT support starts with knowing what is inside a computer and how devices join a network.","pts":["Name the main parts: processor, memory, storage, screen, battery and ports.","Explain what the operating system does and how it differs from an app.","Explain what a router, Wi-Fi and an internet provider each do.","Name common devices: laptop, phone, printer and tablet.","Say the difference between hardware, software and settings."],"ex":"A user says 'the internet is down'. You ask: is it one device or all? If only one device fails, the problem is likely in that device, not the router.","act":"Draw a home network with five devices and label each part's job.","std":"Task: draw and label a network. Condition: one real or practice network. Standard: every device and link is named and its job is stated in one sentence."},
-"2":{"title":"Listen, ask and write the problem down","intro":"Most fixes start with a clear description. Good support asks short questions and writes the answers.","pts":["Ask: what did you try to do, what happened, what did you expect, when did it start?","Ask if anything changed recently, such as an update or a new device.","Write a ticket with date, user, device, problem and steps tried.","Use plain words and avoid blaming the user.","Tell the user what you will do next and how long it may take."],"ex":"Ticket: 'Printer not printing. Started this morning after an update. Other computers print fine. Tried restarting the printer.' The note already points to a computer setting.","act":"Role-play three support calls and write a ticket for each.","std":"Task: write three tickets. Condition: practice calls with a partner. Standard: each ticket has the five facts, plain words and a next step."},
-"3":{"title":"Fix common problems step by step","intro":"Use a fixed order: check the simple things, change one thing at a time, and test.","pts":["Check power, cables, Wi-Fi and storage space before deeper steps.","Restart the device and the app; many faults clear.","Change one thing at a time and write it down.","Check for pending updates and free disk space.","Know when to stop and escalate to a person with more skill."],"ex":"A laptop is slow. Disk is 98% full. You clear downloads with the user's consent and remove unused programs. Speed returns, and you note the cause.","act":"Fix five practice faults on a spare device and record each step.","std":"Task: fix five faults. Condition: a spare or practice device. Standard: each fix has the steps, the test that proves it and the cause."},
-"4":{"title":"Keep data and accounts safe","intro":"Support staff see private data. Keep accounts safe and handle data with care.","pts":["Explain strong passwords, a password manager and two-step sign-in.","Spot a phishing message: odd sender, urgent tone, strange link, request for a password.","Never ask users to tell you their password; reset it with them instead.","Explain Canada's privacy rules: federal and provincial laws apply to personal information; Quebec has its own law.","Report a suspected data leak to the responsible person quickly; check the current rule on breach reporting with the privacy regulator."],"ex":"A user gets an email saying 'your account will close in one hour'. You check the link without opening it and see the address is not the real one. You advise deleting it and reporting it.","act":"Make a one-page safe-use guide for non-experts and a five-line phishing checklist.","std":"Task: write a safety guide. Condition: plain words, one page. Standard: covers passwords, two-step sign-in, phishing and who to tell when something goes wrong."},
-"5":{"title":"Back up, update and set up devices","intro":"Setup and care prevent most problems. Teach users the habits too.","pts":["Set up a backup that runs on a schedule, and test a restore at least once.","Turn on automatic updates where safe and plan restarts at quiet times.","Set up a new user: account, access level, email, printer and Wi-Fi.","Remove access when a person leaves.","Keep a list of devices, who uses them and when they were bought."],"ex":"A small office has no backup. You set a nightly backup to external storage and a copy to a second place. You then restore one file to prove it works.","act":"Set up a backup and restore one file on a practice device.","std":"Task: back up and restore. Condition: a practice device. Standard: the backup runs on schedule, one restore works and a written note says where copies are."},
-"6":{"title":"Price support and write simple terms","intro":"A support business sells time and trust. Price covers your time, travel and tools.","pts":["Choose a price model: per hour, per visit or a monthly plan.","Count unpaid time: travel, tickets, learning and admin.","Write terms: what is covered, response time, payment date and what is out of scope.","Ask a licensed adviser about insurance and sales tax.","Offer a plan for a small group with a fixed monthly fee."],"ex":"A monthly plan for a five-person office is 250 CAD. You expect 3 hours a month at 40 CAD cost per hour = 120. Margin 130 CAD, about 52%, before overhead.","act":"Build a price sheet and a one-page terms document.","std":"Task: price and write terms. Condition: a spreadsheet. Standard: formulas show cost and margin and the terms list scope, response time and exclusions."},
-"7":{"title":"Work with small businesses and community","intro":"Many clients are households, seniors and small shops. Help them stay safe and keep things simple.","pts":["Explain things in short steps and let users try it themselves.","Write a one-page how-to with screenshots for common jobs.","Respect accessibility needs such as larger text or a screen reader.","Offer help in English, French or another language you can use well.","Keep a log of all visits for later review."],"ex":"A senior wants video calls. You set up one icon on the screen, write a three-step card and practise twice with her until she can start the call alone.","act":"Create a one-page how-to for a common task and test it with a real user.","std":"Task: write a how-to. Condition: one real user. Standard: the user completes the task alone using only the page."},
-"8":{"title":"Run an IT support service for real","intro":"Now run it: track tickets, measure quality and improve.","pts":["Track tickets: opened, closed, time to first reply and time to fix.","Spot repeat problems and fix the cause once.","Keep a runbook for the three most likely faults.","Set a review each month with the client.","Write a 12-month plan with milestones and a budget."],"ex":"Over 30 days a service closes 40 tickets. Eleven are 'password reset'. A short self-help page cuts these to four the next month.","act":"Run a 60-day pilot with real or practice clients and write the review.","std":"Task: run a support pilot. Condition: 60 days. Standard: tickets are logged, repeat causes are found and the review gives decisions with evidence."}},
-"price":[40,5,60,"hour"],
-"quiz":[["What are the five facts for a good ticket?","Date, user, device, problem and steps tried."],["Why change only one thing at a time?","So you know which change fixed or broke it."],["Why test a restore?","A backup you have never restored may not work when needed."],["Name two signs of a phishing message.","An odd sender and an urgent request, a strange link or a request for a password."],["Should you ask users to tell you their password?","No; reset it with them instead."],["What does the operating system do?","It runs the device and lets apps use its parts."],["What first checks come before deeper fixes?","Power, cables, Wi-Fi and storage space."],["What should happen when a person leaves a business?","Their access is removed."],["When should you escalate a problem?","When it is beyond your skill or risk is high."],["What do you do if you are unsure of a privacy rule?","Check the current rule with the privacy regulator or a licensed adviser."]],
-"jobs":["Help desk assistant","IT support technician","Desktop support specialist","Field service technician","Small business IT provider","Support team lead"]}
+{
+ "mods": {
+  "1": {
+   "title": "Know the parts of a computer and a network",
+   "intro": "IT support starts with knowing what is inside a computer and how devices join a network.",
+   "pts": [
+    "Name the main parts: processor, memory, storage, screen, battery and ports.",
+    "Explain what the operating system does and how it differs from an app.",
+    "Explain what a router, Wi-Fi and an internet provider each do.",
+    "Name common devices: laptop, phone, printer and tablet.",
+    "Say the difference between hardware, software and settings.",
+    "Compare Wi-Fi and a cable connection for speed and reliability.",
+    "Find the model, serial number and operating system version of a device."
+   ],
+   "ex": "A user says 'the internet is down'. You ask: is it one device or all? If only one device fails, the problem is likely in that device, not the router. If all 5 devices fail, the router or the internet provider is the more likely cause.",
+   "act": "Draw a home network with five devices and label each part's job.",
+   "std": "Task: draw and label a network. Condition: one real or practice network. Standard: every device and link is named and its job is stated in one sentence."
+  },
+  "2": {
+   "title": "Listen, ask and write the problem down",
+   "intro": "Most fixes start with a clear description. Good support asks short questions and writes the answers.",
+   "pts": [
+    "Ask: what did you try to do, what happened, what did you expect, when did it start?",
+    "Ask if anything changed recently, such as an update or a new device.",
+    "Write a ticket with date, user, device, problem and steps tried.",
+    "Use plain words and avoid blaming the user.",
+    "Tell the user what you will do next and how long it may take.",
+    "Paraphrase the problem back to the user to confirm you understood.",
+    "Rank tickets by urgency and impact: one user blocked, or a whole office blocked."
+   ],
+   "ex": "Ticket: 'Printer not printing. Started this morning after an update. Other computers print fine. Tried restarting the printer.' The note already points to a computer setting. If three tickets arrive, the office-wide outage is handled first, then the single-user printer, then the how-to question.",
+   "act": "Role-play three support calls and write a ticket for each.",
+   "std": "Task: write three tickets. Condition: practice calls with a partner. Standard: each ticket has the five facts, plain words and a next step."
+  },
+  "3": {
+   "title": "Fix common problems step by step",
+   "intro": "Use a fixed order: check the simple things, change one thing at a time, and test.",
+   "pts": [
+    "Check power, cables, Wi-Fi and storage space before deeper steps.",
+    "Restart the device and the app; many faults clear.",
+    "Change one thing at a time and write it down.",
+    "Check for pending updates and free disk space.",
+    "Decide when to stop and escalate to a person with more skill.",
+    "Recreate the fault to confirm it, then confirm the fix afterwards.",
+    "Write the cause and fix so the next person can repeat it."
+   ],
+   "ex": "A laptop is slow. The disk is 98% full: 490 GB used of 500 GB. You clear 60 GB of old downloads with the user's consent, leaving 430 GB used, or 86%. Speed returns, and you note the cause.",
+   "act": "Fix five practice faults on a spare device and record each step.",
+   "std": "Task: fix five faults. Condition: a spare or practice device. Standard: each fix has the steps, the test that proves it and the cause."
+  },
+  "4": {
+   "title": "Keep data and accounts safe",
+   "intro": "Support staff see private data. Keep accounts safe and handle data with care.",
+   "pts": [
+    "Explain strong passwords, a password manager and two-step sign-in.",
+    "Spot a phishing message: odd sender, urgent tone, strange link, request for a password.",
+    "Never ask users to tell you their password; reset it with them instead.",
+    "Explain Canada's privacy rules: federal and provincial laws apply to personal information; Quebec has its own law.",
+    "Report a suspected data leak to the responsible person quickly; check the current rule on breach reporting with the privacy regulator.",
+    "Explain why shared passwords are risky and how to give each person their own login.",
+    "Apply the least-access rule: give each person only the access the job needs."
+   ],
+   "ex": "A user gets an email saying 'your account will close in one hour'. You check the link without opening it and see the address is not the real one. You advise deleting it and reporting it, and you help the user turn on two-step sign-in.",
+   "act": "Make a one-page safe-use guide for non-experts and a five-line phishing checklist.",
+   "std": "Task: write a safety guide. Condition: plain words, one page. Standard: covers passwords, two-step sign-in, phishing and who to tell when something goes wrong."
+  },
+  "5": {
+   "title": "Back up, update and set up devices",
+   "intro": "Setup and care prevent most problems. Teach users the habits too.",
+   "pts": [
+    "Set up a backup that runs on a schedule, and test a restore at least once.",
+    "Turn on automatic updates where safe and plan restarts at quiet times.",
+    "Set up a new user: account, access level, email, printer and Wi-Fi.",
+    "Remove access when a person leaves.",
+    "Keep a list of devices, who uses them and when they were bought.",
+    "Apply the 3-2-1 idea: three copies, two kinds of storage, one copy kept away from the building.",
+    "Label cables, chargers and devices so setup is quick."
+   ],
+   "ex": "A small office has no backup. You set a nightly backup to external storage and a copy to a second place. You then restore one file to prove it works. That makes 3 copies: the working file, the external copy and the off-site copy.",
+   "act": "Set up a backup and restore one file on a practice device.",
+   "std": "Task: back up and restore. Condition: a practice device. Standard: the backup runs on schedule, one restore works and a written note says where copies are."
+  },
+  "6": {
+   "title": "Price support and write simple terms",
+   "intro": "A support business sells time and trust. Price covers your time, travel and tools.",
+   "pts": [
+    "Choose a price model: per hour, per visit or a monthly plan.",
+    "Count unpaid time: travel, tickets, learning and admin.",
+    "Write terms: what is covered, response time, payment date and what is out of scope.",
+    "Ask a licensed adviser about insurance and sales tax.",
+    "Offer a plan for a small group with a fixed monthly fee.",
+    "Calculate the margin percentage: margin divided by price.",
+    "Explain why a fixed fee needs a limit on hours or a clear scope."
+   ],
+   "ex": "A monthly plan for a five-person office is 250 CAD. You expect 3 hours a month at 40 CAD cost per hour = 120. Margin is 130 CAD, about 52%, before overhead. At 5 hours the cost is 200 and the margin falls to 50 CAD, or 20%, so the terms must say what happens above 3 hours.",
+   "act": "Build a price sheet and a one-page terms document.",
+   "std": "Task: price and write terms. Condition: a spreadsheet. Standard: formulas show cost and margin and the terms list scope, response time and exclusions."
+  },
+  "7": {
+   "title": "Work with small businesses and community",
+   "intro": "Many clients are households, seniors and small shops. Help them stay safe and keep things simple.",
+   "pts": [
+    "Explain things in short steps and let users try it themselves.",
+    "Write a one-page how-to with screenshots for common jobs.",
+    "Respect accessibility needs such as larger text or a screen reader.",
+    "Offer help in English, French or another language you can use well.",
+    "Keep a log of all visits for later review.",
+    "Draw up a large-print version of a how-to page.",
+    "Slow down, leave pauses and let the user type and click on their own."
+   ],
+   "ex": "A senior wants video calls. You set up one icon on the screen, write a three-step card and practise twice with her until she can start the call alone. The log notes that she needed two tries, and the card now has a bigger picture.",
+   "act": "Create a one-page how-to for a common task and test it with a real user.",
+   "std": "Task: write a how-to. Condition: one real user. Standard: the user completes the task alone using only the page."
+  },
+  "8": {
+   "title": "Run an IT support service for real",
+   "intro": "Now run it: track tickets, measure quality and improve.",
+   "pts": [
+    "Track tickets: opened, closed, time to first reply and time to fix.",
+    "Spot repeat problems and fix the cause once.",
+    "Keep a runbook for the three most likely faults.",
+    "Set a review each month with the client.",
+    "Write a 12-month plan with milestones and a budget.",
+    "Calculate the share of tickets by cause to find the biggest one.",
+    "Check the time to first reply against a target, such as one working day."
+   ],
+   "ex": "Over 30 days a service closes 40 tickets. Eleven are 'password reset', which is 11 / 40 = 27.5%. A short self-help page cuts these to four the next month, a drop of 7 tickets.",
+   "act": "Run a 60-day pilot with real or practice clients and write the review.",
+   "std": "Task: run a support pilot. Condition: 60 days. Standard: tickets are logged, repeat causes are found and the review gives decisions with evidence."
+  }
+ },
+ "price": [
+  40,
+  5,
+  60,
+  "hour"
+ ],
+ "quiz": [
+  [
+   "What are the five facts for a good ticket?",
+   "Date, user, device, problem and steps tried."
+  ],
+  [
+   "Why change only one thing at a time?",
+   "So you know which change fixed or broke it."
+  ],
+  [
+   "Why test a restore?",
+   "A backup you have never restored may not work when needed."
+  ],
+  [
+   "Name two signs of a phishing message.",
+   "An odd sender and an urgent request, a strange link or a request for a password."
+  ],
+  [
+   "Should you ask users to tell you their password?",
+   "No; reset it with them instead."
+  ],
+  [
+   "What does the operating system do?",
+   "It runs the device and lets apps use its parts."
+  ],
+  [
+   "What first checks come before deeper fixes?",
+   "Power, cables, Wi-Fi and storage space."
+  ],
+  [
+   "What should happen when a person leaves a business?",
+   "Their access is removed."
+  ],
+  [
+   "When should you escalate a problem?",
+   "When it is beyond your skill or risk is high."
+  ],
+  [
+   "What do you do if you are unsure of a privacy rule?",
+   "Check the current rule with the privacy regulator or a licensed adviser."
+  ]
+ ],
+ "jobs": [
+  "Help desk assistant",
+  "IT support technician",
+  "Desktop support specialist",
+  "Field service technician",
+  "Small business IT provider",
+  "Support team lead"
+ ]
+}

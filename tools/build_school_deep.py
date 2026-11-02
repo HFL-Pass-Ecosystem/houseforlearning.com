@@ -358,6 +358,56 @@ def solved3(title, subj):
         if subj in subs and re.search(pat, title.lower()): return txt
     return None
 
+# Fourth bank: language-specific examples (Arabic, Hindi, French, English). Checked by hand. Evaluated before the shared frames in WE3.
+WE4 = [
+ (('HIN',), r'letter|application', "अनौपचारिक पत्र: दिनांक, संबोधन (प्रिय मित्र रवि), कुशल-क्षेम, मुख्य बात, समापन (तुम्हारा मित्र, अमन)। औपचारिक: सेवा में, प्रधानाचार्य महोदय; विषय: अवकाश हेतु प्रार्थना-पत्र; मुख्य भाग दो छोटे अनुच्छेदों में; आपका आज्ञाकारी शिष्य, नाम, कक्षा।"),
+ (('HIN',), r'advertisement|notice', "सूचना: विद्यालय का नाम, दिनांक, शीर्षक 'वार्षिक खेल दिवस', 40 शब्दों में समय और स्थान, नीचे नाम और पद। विज्ञापन: 'बिकाऊ साइकिल, लगभग नई, मूल्य 2,000 रुपये, संपर्क: ...'"),
+ (('HIN',), r'essay|paragraph|article', "निबंध 'पर्यावरण की रक्षा': भूमिका (पेड़ और स्वच्छ हवा जीवन के लिए ज़रूरी हैं), मुख्य भाग (पेड़ लगाना, प्लास्टिक कम करना, पानी बचाना), उपसंहार (यह हम सबकी ज़िम्मेदारी है)।"),
+ (('HIN',), r'debate|speech|oral|speaking', "भाषण: 'आदरणीय अध्यापकगण और मेरे साथियो, आज मैं पुस्तकें पढ़ने के लाभ पर बोलूँगा।' फिर तीन बिंदु, एक उदाहरण और अंत में धन्यवाद। एक मिनट में बोलने का अभ्यास करें।"),
+ (('HIN',), r'sandhi', "संधि: विद्या + आलय = विद्यालय; सूर्य + उदय = सूर्योदय। कारक: 'राम ने फल खाया' में 'ने' कर्ता कारक का चिह्न है।"),
+ (('HIN',), r'sentence types', "साधारण वाक्य: मैं स्कूल जाता हूँ। प्रश्नवाचक: तुम कहाँ जाते हो? आज्ञार्थक: दरवाज़ा बंद करो। विलोम शब्द: दिन-रात, गरम-ठंडा।"),
+ (('HIN',), r'idiom|proverb', "मुहावरा 'आँखों का तारा' का अर्थ है बहुत प्यारा। कहावत 'जैसा बोओगे वैसा काटोगे' का अर्थ है जैसे कर्म वैसा फल। हर एक से अपना वाक्य बनाएँ।"),
+ (('HIN',), r'prefix|suffix', "उपसर्ग: अ + सत्य = असत्य; सु + पुत्र = सुपुत्र। प्रत्यय: मानव + ता = मानवता; सज + आवट = सजावट।"),
+ (('HIN',), r'poem|poetry|rhyme', "कविता की पंक्तियों में तुक खोजें (जैसे आम और शाम), कवि का भाव बताएँ और भावार्थ अपने शब्दों में लिखें।"),
+ (('HIN',), r'prose|reading|unseen|stories', "गद्यांश पढ़ें; मुख्य भाव एक वाक्य में लिखें; प्रश्नों के उत्तर गद्यांश के शब्दों में दें; एक उचित शीर्षक सुझाएँ।"),
+ (('HIN',), r'short sentences|writing sentences|simple words', "मेरा नाम अमन है। मैं स्कूल जाता हूँ। यह मेरी किताब है। शब्द: कलम, किताब, गेंद।"),
+ (('ARA',), r'short words|short sentences', "هذا كتاب. هذه قطة. أنا أحب مدرستي. (This is a book. This is a cat. I love my school.)"),
+ (('ARA',), r'songs and short stories|reading|short stories|comprehension', "الولد يلعب في الحديقة. أين يلعب الولد؟ في الحديقة. (The boy plays in the garden. Where does the boy play? In the garden.)"),
+ (('ARA',), r'seasons and comparison', "الصيف أحرّ من الشتاء. الشتاء أبرد من الصيف. (Summer is hotter than winter. Winter is colder than summer.)"),
+ (('ARA',), r'seasons|beach', "في الصيف الجو حار وفي الشتاء الجو بارد. أذهب إلى الشاطئ في الصيف. (In summer it is hot, in winter cold. I go to the beach in summer.)"),
+ (('ARA',), r'garden|birds', "في الحديقة زهور وشجرة وعصفور. العصفور يطير. (In the garden are flowers, a tree and a bird. The bird flies.)"),
+ (('ARA',), r'sports', "أمارس الرياضة كل يوم وأشرب الماء. الرياضة مفيدة للصحة. (I exercise daily and drink water. Sport is good for health.)"),
+ (('ARA',), r'neighbours', "للجار حق على جاره. أساعد جارتي وأسلّم عليها. (A neighbour has a right over a neighbour. I help my neighbour and greet her.)"),
+ (('ARA',), r'tenses', "أكتب الدرس (present) ثم كتبتُ الدرس (past). يذهب تصبح ذهب. (writes becomes wrote; goes becomes went.)"),
+ (('ARA',), r'sentence types', "جملة اسمية: الطالب مجتهد. جملة فعلية: ذهب الطالب إلى المدرسة."),
+ (('ARA',), r'letter', "الرسالة: التاريخ، المرسل إليه، التحية (السلام عليكم ورحمة الله)، الموضوع، المتن، الخاتمة مع الشكر، التوقيع."),
+ (('ARA',), r'telephone|conversation practice|daily conversation', "— السلام عليكم، هل أستطيع التحدث إلى أحمد؟ — وعليكم السلام، لحظة من فضلك. (Hello, may I speak to Ahmed? One moment please.)"),
+ (('ARA',), r'oral|debate|presentation|listening|conversation', "أبدأ بالتحية، ثم أعرض ثلاث أفكار مع مثال، وأختم بالشكر. للتلخيص: أكتب الفكرة الرئيسية في جملتين."),
+ (('ARA',), r'essay|descriptive|paragraph', "فقرة: القراءة مفيدة. فهي تزيد معلوماتنا. وتنمّي لغتنا. لذلك أقرأ كل يوم. (topic sentence, two details, closing)"),
+ (('ARA',), r'fables', "الأسد والفأر: ساعد الفأر الصغير الأسد. العبرة: لا تحتقر أحدًا فقد ينفعك الصغير. (The lion and the mouse; moral: do not look down on anyone.)"),
+ (('ARA',), r'poem|poetry|literature|sayings', "حكمة: العلم نور والجهل ظلام. الكلمتان المتضادتان: نور وظلام. (Knowledge is light, ignorance is darkness; opposites: light and darkness.)"),
+ (('FRE',), r'songs and rhymes', "Au clair de la lune, mon ami Pierrot, prete-moi ta plume. Les mots qui riment: lune et plume."),
+ (('FRE',), r'reading|writing', "Texte: 'Lea habite a Lyon. Elle a douze ans. Elle aime lire.' Ou habite Lea? A Lyon. A toi d'ecrire: 'Je m'appelle... J'habite a... J'aime...'"),
+ (('FRE',), r'listening|speaking|oral', "Ecoute: 'Le train part a huit heures quinze du quai trois.' Note: 8 h 15, quai 3. A dire: 'Bonjour, je m'appelle Omar. Je vais parler de ma ville.'"),
+ (('FRE',), r'education systems', "En France l'ecole elementaire commence a six ans, puis le college, puis le lycee. Fais un tableau: age, annees, examens, une ressemblance et une difference avec ton systeme."),
+ (('FRE',), r'culture and civilisation', "La Francophonie: le francais est parle sur plusieurs continents (France, Canada, Senegal). Choisis un pays francophone et presente trois faits."),
+ (('ENG',), r'paragraph|descriptive and narrative|narrative writing', "Topic sentence: 'My school library is my favourite place.' Details: quiet, shelves of picture books, a reading corner. Closing: 'I visit it every Friday.' For narrative use first, then, suddenly, finally."),
+ (('ENG',), r'letter|report|notice|email', "Formal letter: 12 November 2026; The Principal; Subject: request for a library card; 'Respected Sir, I am a student of Class 8...'; Yours faithfully, Aman. Informal: Dear Ria, ... Your friend, Aman. Report: title, date, place, what happened, result, writer's name."),
+ (('ENG',), r'speech|diary|article', "Speech: hook, three points, a call to action, thank you. Diary: Monday 2 November. Dear Diary, today I ... Article: headline, by-line, opening, two paragraphs, closing."),
+ (('ENG',), r'data interpretation', "A table shows 40 students: 20 prefer cricket, 10 football, 10 badminton. 'Half of the students (50 percent) prefer cricket; football and badminton each have 25 percent.'"),
+ (('ENG',), r'nonsense', "Invent words but keep the rhythm: 'The wobbly wug went jig-a-jog, and hopped across the sleepy bog.' Jog and bog rhyme; four beats a line."),
+ (('ENG',), r'poetry|imagery|figurative', "Simile: 'The moon is like a silver coin.' Metaphor: 'The classroom was a zoo.' Imagery: 'the dew-wet grass' appeals to sight and touch. Say what feeling each creates."),
+ (('ENG',), r'prose|drama|fiction|short stories|world writers', "Main idea in one sentence. Character: what they say and do shows what they are like (she gave away her lunch: generous). Drama: names on the left, stage directions in brackets."),
+ (('ENG',), r'comprehension|unseen|reading', "Passage: 'The old banyan tree gave shade to the whole village.' Q: what does 'shade' suggest? Protection from the sun. Inference: the tree matters to the villagers. Answer with a quote as evidence."),
+ (('ENG',), r'discussion|debate|speaking', "Motion: 'Homework should be optional.' For: choice and rest. Against: practice and habits. Rebuttal: 'I understand that..., however...'"),
+ (('ENG',), r'grammar|tense|voice|modal|reported|editing|agreement', "Passive: 'The cat chased the mouse' becomes 'The mouse was chased by the cat.' Reported: 'I will come,' she said becomes She said that she would come. Modals: 'should' for advice, 'must' for rules. Agreement: 'The list of items is long.' Edit: 'He go to school' becomes 'He goes to school.'"),
+ (('ENG',), r'prefix|vocabulary|word origins', "Prefix: dis + appear = disappear. Origins: telephone = Greek tele (far) + phone (sound); biology = bios (life) + logos (study)."),
+]
+def solved4(title, subj):
+    for subs, pat, txt in WE4:
+        if subj in subs and re.search(pat, title.lower()): return txt
+    return None
+
 def solved(title):
     for pat, txt in WE:
         if re.search(pat, title.lower()): return txt
@@ -370,7 +420,7 @@ def modules(rows, kind, bd):
         o = r['outcome'].split(' (grade')[0].strip(); t = r['unit']; b = bloom(o)
         out.append(dict(n=i + 1, title=t, bloom=b, weeks=[int(r['first_week']), int(r['last_week'])], hours=int(r['weeks']) * 3, outcome=o,
                         intro=f"In this unit you work on '{t}', taught in a way that is {bd['w']}. The target is clear: {o}. You move from seeing it, to saying it, to doing it alone.",
-                        points=[s.format(t=t, o=o) for s in f['steps']], example=(((lambda sv: ('Solved: ' + sv + ' Method: ') if sv else '')((solved(t) if kind in ('maths', 'sci', 'lang') else None) or solved2(t, sj) or solved3(t, sj))) + f['ex'].format(t=t, o=o)),
+                        points=[s.format(t=t, o=o) for s in f['steps']], example=(((lambda sv: ('Solved: ' + sv + ' Method: ') if sv else '')((solved(t) if kind in ('maths', 'sci', 'lang') else None) or solved2(t, sj) or solved4(t, sj) or solved3(t, sj))) + f['ex'].format(t=t, o=o)),
                         activity=f"About {bd['t']} of class work, then one short practice task for home. Keep evidence: {bd['ev']}.",
                         standard=f"{o[:1].upper() + o[1:]}: {bd['std']}."))
     return out
@@ -408,7 +458,7 @@ def render(d):
     quiz = ''.join(f'<details class="mod"><summary>Q{i + 1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a)}</p></details>' for i, (q, a) in enumerate(d['checks']))
     names = ['L1 Foundation', 'L2', 'L3', 'L4', 'L5', 'L6 Degree', 'L7 Postgraduate']
     lad = ('<div class="scroll-x"><table class="ws-table"><caption>Levels L1 to L7 for ' + e(d['subject_name']) + '</caption><thead><tr><th>Level</th><th>What you can do</th><th>This course</th></tr></thead><tbody>'
-           + ''.join(f'<tr><th scope="row">{names[i]}</th><td>{e(t.split(": ", 1)[1] if ": " in t else t)}</td><td>{"You are here" if i + 1 == d["level"] else ""}</td></tr>' for i, t in enumerate(d['ladder'])) + '</tbody></table></div>')
+           + ''.join(f'<tr><th scope="row">{names[i]}</th><td>{e(t.split(": ", 1)[1] if ": " in t else t)}</td><td>{"You are here" if i + 1 == d["level"] else "Next step up" if i + 1 == d["level"] + 1 else "Earlier step, already covered" if i + 1 < d["level"] else "Later step"}</td></tr>' for i, t in enumerate(d['ladder'])) + '</tbody></table></div>')
     verbs = ', '.join(d['blooms'])
     outcomes = '<ul class="blm">' + ''.join(f'<li><span class="bz">{m["bloom"]}</span> {e(m["outcome"][:1].upper() + m["outcome"][1:])}.</li>' for m in d['modules']) + '</ul>'
     b = B.BANDS[d['band']]

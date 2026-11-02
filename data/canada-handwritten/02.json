@@ -13,9 +13,12 @@
     "Compare crops by days to harvest, price per kilogram and light needed: leafy greens and herbs turn fastest; fruit crops need more space and light.",
     "Find a first customer within an hour's drive: restaurants, grocers, food programmes, office tenants who want green walls.",
     "Ask each for weekly volume, price they pay now and the freshness gap you can close.",
-    "Write the offer: 'fresh [crop], harvested the day before, delivered twice a week at [price] per kilogram'."
+    "Write the offer: 'fresh [crop], harvested the day before, delivered twice a week at [price] per kilogram'.",
+    "Build a crop table with one row per crop: days to harvest, kilograms per tray, price per kilogram, and revenue per tray (kilograms x price).",
+    "Measure your space: write length, width, ceiling height, floor load and where the power and water points are, before you choose a rack layout.",
+    "Pick one crop to start. Write why it beats the second choice on speed, price and the risk of loss."
    ],
-   "ex": "Basil sells at 28 per kilogram to restaurants who now pay 36 for imported. Demand: 12 kg per week across three kitchens.",
+   "ex": "Basil sells at 28 per kilogram to restaurants who now pay 36 for imported, so each kitchen saves 8 per kilogram. Demand is 12 kg per week across three kitchens: 12 x 28 = 336 a week in sales, and the buyers save 12 x 8 = 96 a week. This is a small start, which is right for a first customer test.",
    "act": "Interview five buyers and fill a crop table with price, volume and delivery frequency.",
    "std": "Five buyers recorded; one crop chosen with reasons."
   },
@@ -26,9 +29,12 @@
     "Food grown for sale follows federal food-safety and labelling rules; the local public health unit may inspect washing and packing areas.",
     "Building and fire rules apply to racks, wiring and water; get electrical work done by licensed trades and inspected.",
     "Water use, nutrient discharge and waste are regulated by the municipality and province.",
-    "Insurance for crop loss, equipment and liability should be arranged before the first harvest."
+    "Insurance for crop loss, equipment and liability should be arranged before the first harvest.",
+    "Zoning decides whether you may grow and sell food from a warehouse or shop unit. Ask the municipality in writing and keep the reply.",
+    "A lease should allow the changes you need, such as extra power and drains. Read it for who pays for repairs and what happens at renewal.",
+    "Check the provincial rule for any licence or registration needed to sell food directly to restaurants or shops."
    ],
-   "ex": "Row: 'Pack leafy greens for sale | food inspection agency and local health unit | register and follow wash and pack rules | before first sale | inspection report'.",
+   "ex": "Row: 'Pack leafy greens for sale | food inspection agency and local health unit | register and follow wash and pack rules | before first sale | inspection report'. A table of 10 rows with 3 rows needing a permit means 3 of 10 (30%) have a waiting time to plan around, so list those first.",
    "act": "Make the rules table for a rented warehouse unit in your province.",
    "std": "Each row cites an official source and date."
   },
@@ -39,9 +45,12 @@
     "Choose a system: hydroponic (roots in water), aeroponic (roots misted) or soil-based wall.",
     "Set targets: light hours per day, nutrient strength (conductivity), water pH, temperature and humidity.",
     "Log these daily; change one setting at a time.",
-    "Track yield per tray per cycle and days to harvest."
+    "Track yield per tray per cycle and days to harvest.",
+    "Calibrate the pH and conductivity meters before the first crop with the test liquids the maker supplies, and write the date.",
+    "Test the water you use. Hard or chlorinated water changes nutrient needs, so record what the local supply report or your own test shows.",
+    "Keep a seed lot number for each tray, and compare yield between lots."
    ],
-   "ex": "Lettuce: 28 days to harvest, 0.45 kg per tray, 12 trays per rack, 10 racks: 54 kg per cycle.",
+   "ex": "Lettuce: 28 days to harvest, 0.45 kg per tray, 12 trays per rack, 10 racks. One rack gives 0.45 x 12 = 5.4 kg and ten racks give 54 kg per cycle. If one rack fails, the cycle gives 48.6 kg, a loss of 10%.",
    "act": "Grow one tray cycle; log daily readings and final yield.",
    "std": "Daily log complete; yield per tray calculated."
   },
@@ -52,9 +61,12 @@
     "Power cost per cycle = lamp kilowatts x hours per day x days x price per kWh.",
     "Add labour for seeding, moving, harvesting and cleaning.",
     "Compute cost per tray and per kilogram; compare with selling price.",
-    "Test a 10% power price rise and a 15% yield drop."
+    "Test a 10% power price rise and a 15% yield drop.",
+    "Use your own electricity bill for the price per kWh, with the delivery and rate-class charges included. Check the provincial rate rules for farms or businesses.",
+    "Add fixed costs each month: rent, insurance, water, software and a share of your own pay.",
+    "Break-even trays per month = fixed cost divided by margin per tray, rounded up."
    ],
-   "ex": "Per tray: power 14, seeds and nutrients 6, packaging 4, labour 14 = 38 variable; price 95 per tray-equivalent; margin 57 (60%). Break-even about 380 trays a month with fixed cost 21,700. Teaching figures in CAD.",
+   "ex": "Power per tray: 0.2 kW x 16 h x 28 days = 89.6 kWh; at 0.16 per kWh that is about 14. Add seeds and nutrients 6, packaging 4, labour 14 for 38 variable; price 95 per tray-equivalent gives margin 57 (60%). Break-even is 21,700 / 57 = about 381 trays a month. Stress test: a 15% yield drop cuts revenue to 80.75 and margin to 42.75, so break-even rises to about 508 trays. Teaching figures in CAD.",
    "act": "Build the cost sheet for your system and compute break-even.",
    "std": "Both stress tests shown."
   },
@@ -65,9 +77,12 @@
     "Clean trays and tanks between cycles; sanitise tools; wash hands at entry.",
     "Stagger seeding weekly so harvests are steady.",
     "Scout for pests and mould twice a week; remove problem trays at once.",
-    "Keep a harvest and delivery log with batch numbers for traceability."
+    "Keep a harvest and delivery log with batch numbers for traceability.",
+    "Write a daily checklist by the door: lights on, pumps running, water level, alarms tested, doors closed.",
+    "Keep tools and cleaning supplies separate for growing and packing areas.",
+    "Train every helper in the hand-washing and illness rules before they touch a crop, and record the date."
    ],
-   "ex": "Batch code 'B-0417-T3' links a delivered bag to the tray, seed lot and cleaning record.",
+   "ex": "Batch code 'B-0417-T3' links a delivered bag to the tray, seed lot and cleaning record. If a 28-day crop is seeded weekly across 4 groups of trays, one group is harvested each week, so a customer receives 4 deliveries in a 28-day period.",
    "act": "Keep a 4-week operations log with batch numbers.",
    "std": "Every delivery traces back to a tray."
   },
@@ -77,10 +92,13 @@
    "pts": [
     "Offer a standing weekly order with a trial week.",
     "Deliver on a fixed day and time; confirm by message the day before.",
-    "Tell the story: seed to harvest dates, no spray, local.",
-    "Ask for feedback after four weeks and adjust crop mix."
+    "Tell the story: seed to harvest dates, no spray, local. Say 'no spray' only if it is true and recorded.",
+    "Ask for feedback after four weeks and adjust crop mix.",
+    "Price by weight, and show what the buyer saves compared with what they pay now, in dollars per week.",
+    "Agree what happens when a delivery is late or short: a credit or a replacement on the next day.",
+    "Keep a customer sheet: contact, order, delivery day, price, complaints and next review date."
    ],
-   "ex": "Funnel: 15 visits, 6 samples, 3 trial orders, 2 standing orders.",
+   "ex": "Funnel: 15 visits, 6 samples, 3 trial orders, 2 standing orders. Rates: samples 6/15 = 40%, trials 3/6 = 50%, standing 2/3 = 67%. Overall 2/15 = 13% of visits became standing orders, so 10 more visits would bring about 1 or 2 more.",
    "act": "Visit ten buyers with samples and record outcomes.",
    "std": "Funnel recorded; one change made."
   },
@@ -91,9 +109,12 @@
     "List risks: power failure, pump failure, contamination, pest, buyer loss.",
     "Controls: backup power for pumps, alarms, spare parts, test water.",
     "Recall plan: know which batches went where and how to tell buyers.",
-    "Energy plan: efficient lamps, off-peak hours, rooftop or contract renewable power."
+    "Energy plan: efficient lamps, off-peak hours, rooftop or contract renewable power.",
+    "Score each risk as chance (1 to 5) times harm (1 to 5) and handle the highest scores first.",
+    "Plan for a hot summer or cold winter day: how the room keeps its temperature if cooling or heating fails.",
+    "Run a test once a month: switch off the main power and check the alarm and the backup. Write the result."
    ],
-   "ex": "Risk: 'Pump fails overnight | 2 x 5 | float alarm and spare pump | owner | monthly test'.",
+   "ex": "Risk: 'Pump fails overnight | 2 x 5 = 10 | float alarm and spare pump | owner | monthly test'. A contamination risk scored 3 x 5 = 15 ranks higher, so its controls come first.",
    "act": "Write an eight-row risk register.",
    "std": "Each row has owner and test date."
   },
@@ -104,9 +125,12 @@
     "Pilot 60 days with measures: yield, cost per kilogram, orders kept.",
     "Stop rule: below 60% of planned yield after two cycles, pause and fix.",
     "Scale in steps: second room only after margin holds.",
-    "Plan funding: grants for local food and clean technology, and customer pre-orders."
+    "Plan funding: grants for local food and clean technology, and customer pre-orders.",
+    "Write the plan numbers before the pilot: planned yield per cycle, planned cost per kilogram and planned margin.",
+    "Hold a review at day 30 and day 60. Record what changed and why.",
+    "Check the funding programmes' rules and dates yourself; do not assume a grant will arrive."
    ],
-   "ex": "Result at day 60: 48 kg per cycle against 54 plan (89%); proceed.",
+   "ex": "Result at day 60: 48 kg per cycle against 54 plan (48/54 = 89%), above the 60% stop line, so proceed. If the yield had been 30 kg (56%), the stop rule would pause the pilot to fix the cause.",
    "act": "Run the pilot and present review.",
    "std": "Review has measures and decision."
   }

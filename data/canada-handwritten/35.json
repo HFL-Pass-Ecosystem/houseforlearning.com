@@ -1,12 +1,188 @@
-{"mods":{
-"1":{"title":"Know what a virtual assistant does","intro":"A virtual assistant helps a client with tasks from a distance. Learn the common tasks and the words used.","pts":["Common tasks: email and calendar help, booking, data entry, simple bookkeeping entries, document edits, research and customer messages.","Learn the terms: scope, retainer, deliverable, turnaround, handover.","A VA is usually self-employed, not an employee.","List ten tasks you already do well and the tools you use."],"ex":"A therapist needs appointments booked and reminders sent. Task list: manage calendar, send reminders, file receipts weekly.","act":"Interview one busy small-business owner and write down the five tasks they most want off their plate.","std":"Task: record a client task list. Condition: one 20-minute interview. Standard: five tasks written in plain words with how often each repeats."},
-"2":{"title":"Explain how work flows from request to done","intro":"Good assistants follow a simple loop so nothing is lost.","pts":["Loop: receive request, confirm, do, check, report.","Confirm in writing what, by when, and in what format.","Keep a task list with owner, due date and status.","Tell the client early if a deadline will be missed."],"ex":"Request: 'Book a meeting room for Tuesday.' Confirm: 'Tuesday, 10 a.m., six people, projector. Is that right?' Report: 'Booked, confirmation in your email.'","act":"Write a one-page process for how you take and track requests. Test it for one week with a friend as the pretend client.","std":"Task: run the request loop for five tasks. Condition: using a free spreadsheet or list. Standard: each task has a confirmed scope, due date, result and a short report."},
-"3":{"title":"Do routine tasks accurately and on time","intro":"Apply your skills. Small errors cost trust, so work to a checked standard.","pts":["Use a checklist for every repeating task.","Check names, dates, times and time zones twice before sending.","Write emails in short clear sentences and keep the client's tone.","Save files with clear names and in the folder the client expects."],"ex":"Calendar task checklist: right person, right time zone, link added, reminder set, client told. Error rate target: none sent without a check.","act":"Complete twenty practice tasks (emails, bookings, data entry) and log errors found before sending.","std":"Task: complete twenty tasks. Condition: from written instructions in set time. Standard: no errors reach the client; every task is logged with time taken."},
-"4":{"title":"Know the Canadian rules for self-employed work","intro":"In Canada, whether you are a contractor or an employee depends on the real working relationship, not only the contract title.","pts":["Signs of a contractor: you choose how and when to work, use your own tools, and can have other clients.","Contractors usually register for tax, track income and expenses, and pay their own tax and pension contributions. Check the current rules with the federal tax agency.","Sales tax registration is required once taxable sales pass the small-supplier limit. Check the current limit.","Your province may require a business name registration or local licence. Check the local authority."],"ex":"A client wants you to work set hours with their equipment and no other clients. That looks like employment; talk to an adviser before you accept.","act":"Make a rules table: rule, who enforces it, what you do, date checked.","std":"Task: build a rules table for your province. Condition: using official public pages. Standard: every row has a dated source and an action; unclear points say to check with the authority."},
-"5":{"title":"Price services and check you earn enough","intro":"Pricing must cover your time, tools, tax and unpaid hours.","pts":["Not all hours are billable; admin and finding clients take time too.","Choose a model: hourly, monthly retainer of agreed hours, or fixed price for a clear task.","Retainer example: 10 hours a month at a set rate, unused hours do not carry over unless agreed.","Send invoices on a fixed day and state payment terms."],"ex":"At 25 USD an hour with 30 billable hours a month you bill 750 USD. Tools cost 40 USD. Before tax you keep 710 USD. Teaching figures only.","act":"Build a price sheet with three packages and a monthly cost sheet.","std":"Task: build a price and cost sheet. Condition: spreadsheet with visible formulas. Standard: break-even hours per month shown, three what-if cases, and a mentor checks the arithmetic."},
-"6":{"title":"Find and keep clients","intro":"Clients come from trust. Show them you are careful and easy to work with.","pts":["Choose one kind of client first, such as clinics, real estate agents or trades.","Write a one-page offer: who you help, what you do, result, price basis, how to start.","Run a short trial of one to two weeks with clear scope.","Ask for referrals after a good month."],"ex":"Offer: 'For solo trades owners: I answer email, book jobs and send invoices. Five hours a week. First week is a trial.'","act":"Contact fifteen possible clients with consent-based messages and book three calls.","std":"Task: run a client search for two weeks. Condition: only people who may be contacted under the anti-spam rules. Standard: messages logged, calls booked, one lesson written."},
-"7":{"title":"Protect client data and set limits","intro":"You will see private information. Treat it with great care.","pts":["Use a password manager and two-step sign-in. Never share passwords in plain email.","Ask for the least access needed and remove it when the job ends.","Sign a confidentiality agreement and say what you will not do, such as legal or medical advice.","If you make a mistake or lose data, tell the client at once and follow your breach steps."],"ex":"A client sends a password in a text message. You reply asking them to use a shared vault with limited access, then delete the message.","act":"Write a one-page privacy note and a risk list of eight items with controls.","std":"Task: write privacy note and risk list. Condition: reviewed by a mentor. Standard: each risk has a control, an owner and a review date, in plain words."},
-"8":{"title":"Run your VA business and grow","intro":"Run it for real and decide from numbers.","pts":["Pilot for 60 days with at least two paying clients.","Track hours, income, errors, late payments and client feedback each week.","Write a handover guide so a client could carry on without you.","Decide: raise price, add a service, hire a helper or stop; write a 12-month plan."],"ex":"At day 60: two clients, 38 hours a month, errors 2 (both caught), one referral. Decision: raise price by 10 percent for new clients.","act":"Run the pilot, keep the log and present the plan to a panel of three.","std":"Task: operate a 60-day pilot. Condition: real clients with written scope. Standard: log complete, privacy rules followed, decision backed by numbers."}},
-"price":[28,3,60,"hour"],
-"quiz":[["Name three common tasks of a virtual assistant.","Email and calendar help, booking, data entry, document edits or research."],["What are the five steps of the request loop?","Receive, confirm, do, check, report."],["Why confirm a task in writing?","It fixes what, when and in what format, so nothing is missed."],["What shows someone is a contractor, not an employee?","They control how and when they work, use own tools and can have other clients."],["When must you register for sales tax?","Once taxable sales pass the small-supplier limit; check the current limit."],["What is a retainer?","An agreed set of hours or work for a fixed monthly fee."],["How should passwords be shared?","Through a password manager or shared vault with limited access, never in plain email."],["What should you do when you make a data mistake?","Tell the client at once and follow your breach steps."],["Why write a handover guide?","So the client can carry on without you and trust you more."],["What do you do if you cannot find a rule?","Ask the local authority or an adviser and keep the answer in writing."]],
-"jobs":["Virtual assistant","Administrative assistant","Executive assistant","Customer support agent","Office coordinator","Freelance operations helper"]}
+{
+ "mods": {
+  "1": {
+   "title": "Know what a virtual assistant does",
+   "intro": "A virtual assistant helps a client with tasks from a distance. Learn the common tasks and the words used.",
+   "pts": [
+    "Common tasks: email and calendar help, booking, data entry, simple bookkeeping entries, document edits, research and customer messages.",
+    "Learn the terms: scope, retainer, deliverable, turnaround, handover.",
+    "A VA is usually self-employed, not an employee.",
+    "List ten tasks you already do well and the tools you use.",
+    "Sort ten tasks into those you can do now and those you need to learn.",
+    "Describe what turnaround means for one task you offer.",
+    "Compare working as a VA with working as an employee."
+   ],
+   "ex": "A therapist needs appointments booked and reminders sent. Task list: manage calendar, send reminders, file receipts weekly. If these take 2 + 1 + 1 = 4 hours a week, the client needs about 4 x 4 = 16 hours a month.",
+   "act": "Interview one busy small-business owner and write down the five tasks they most want off their plate.",
+   "std": "Task: record a client task list. Condition: one 20-minute interview. Standard: five tasks written in plain words with how often each repeats."
+  },
+  "2": {
+   "title": "Explain how work flows from request to done",
+   "intro": "Good assistants follow a simple loop so nothing is lost.",
+   "pts": [
+    "Loop: receive request, confirm, do, check, report.",
+    "Confirm in writing what, by when, and in what format.",
+    "Keep a task list with owner, due date and status.",
+    "Tell the client early if a deadline will be missed.",
+    "Create a task list with owner, due date and status columns.",
+    "Write a short status update template.",
+    "Agree with the client how and when updates are sent."
+   ],
+   "ex": "Request: 'Book a meeting room for Tuesday.' Confirm: 'Tuesday, 10 a.m., six people, projector. Is that right?' Report: 'Booked, confirmation in your email.' If you finish 18 of 20 tasks on time, that is 18 / 20 = 90%.",
+   "act": "Write a one-page process for how you take and track requests. Test it for one week with a friend as the pretend client.",
+   "std": "Task: run the request loop for five tasks. Condition: using a free spreadsheet or list. Standard: each task has a confirmed scope, due date, result and a short report."
+  },
+  "3": {
+   "title": "Do routine tasks accurately and on time",
+   "intro": "Apply your skills. Small errors cost trust, so work to a checked standard.",
+   "pts": [
+    "Use a checklist for every repeating task.",
+    "Check names, dates, times and time zones twice before sending.",
+    "Write emails in short clear sentences and keep the client's tone.",
+    "Save files with clear names and in the folder the client expects.",
+    "Use templates for repeated emails.",
+    "Check the time zone of every meeting before you send.",
+    "Log each error you catch and the step that caused it."
+   ],
+   "ex": "Calendar task checklist: right person, right time zone, link added, reminder set, client told. If you check 20 tasks and catch 3 errors before sending, that is 3 / 20 = 15% caught; the target is zero errors sent.",
+   "act": "Complete twenty practice tasks (emails, bookings, data entry) and log errors found before sending.",
+   "std": "Task: complete twenty tasks. Condition: from written instructions in set time. Standard: no errors reach the client; every task is logged with time taken."
+  },
+  "4": {
+   "title": "Know the Canadian rules for self-employed work",
+   "intro": "In Canada, whether you are a contractor or an employee depends on the real working relationship, not only the contract title.",
+   "pts": [
+    "Signs of a contractor: you choose how and when to work, use your own tools, and can have other clients.",
+    "Contractors usually register for tax, track income and expenses, and pay their own tax and pension contributions. Check the current rules with the federal tax agency.",
+    "Sales tax registration is required once taxable sales pass the small-supplier limit. Check the current limit.",
+    "Your province may require a business name registration or local licence. Check the local authority.",
+    "List the records you must keep: invoices, receipts and payments.",
+    "List what an invoice must show: your name, date, amount, tax and payment terms.",
+    "Check the rule before you hire a helper."
+   ],
+   "ex": "A client wants you to work set hours with their equipment and no other clients. That is three signs of employment, so talk to an adviser before you accept.",
+   "act": "Make a rules table: rule, who enforces it, what you do, date checked.",
+   "std": "Task: build a rules table for your province. Condition: using official public pages. Standard: every row has a dated source and an action; unclear points say to check with the authority."
+  },
+  "5": {
+   "title": "Price services and check you earn enough",
+   "intro": "Pricing must cover your time, tools, tax and unpaid hours.",
+   "pts": [
+    "Not all hours are billable; admin and finding clients take time too.",
+    "Choose a model: hourly, monthly retainer of agreed hours, or fixed price for a clear task.",
+    "Retainer example: 10 hours a month at a set rate, unused hours do not carry over unless agreed.",
+    "Send invoices on a fixed day and state payment terms.",
+    "Calculate billable hours: if you work 40 hours and bill 30, one quarter is unpaid.",
+    "Compare a 10-hour retainer with hourly billing.",
+    "Add a late payment rule to your terms."
+   ],
+   "ex": "At $28 an hour with 30 billable hours a month you bill 30 x 28 = $840. Tools cost $40, so before tax you keep 840 - 40 = $800. If you worked 40 hours to bill those 30, $800 / 40 = $20 per hour worked.",
+   "act": "Build a price sheet with three packages and a monthly cost sheet.",
+   "std": "Task: build a price and cost sheet. Condition: spreadsheet with visible formulas. Standard: break-even hours per month shown, three what-if cases, and a mentor checks the arithmetic."
+  },
+  "6": {
+   "title": "Find and keep clients",
+   "intro": "Clients come from trust. Show them you are careful and easy to work with.",
+   "pts": [
+    "Choose one kind of client first, such as clinics, real estate agents or trades.",
+    "Write a one-page offer: who you help, what you do, result, price basis, how to start.",
+    "Run a short trial of one to two weeks with clear scope.",
+    "Ask for referrals after a good month.",
+    "Write a four-sentence message to a possible client.",
+    "List fifteen possible clients with where you found each.",
+    "Define what a successful trial looks like before it starts."
+   ],
+   "ex": "Offer: 'For solo trades owners: I answer email, book jobs and send invoices. Five hours a week. First week is a trial.' Five hours a week for four weeks is 5 x 4 = 20 hours, which at $28 an hour is $560 a month.",
+   "act": "Contact fifteen possible clients with consent-based messages and book three calls.",
+   "std": "Task: run a client search for two weeks. Condition: only people who may be contacted under the anti-spam rules. Standard: messages logged, calls booked, one lesson written."
+  },
+  "7": {
+   "title": "Protect client data and set limits",
+   "intro": "You will see private information. Treat it with great care.",
+   "pts": [
+    "Use a password manager and two-step sign-in. Never share passwords in plain email.",
+    "Ask for the least access needed and remove it when the job ends.",
+    "Sign a confidentiality agreement and say what you will not do, such as legal or medical advice.",
+    "If you make a mistake or lose data, tell the client at once and follow your breach steps.",
+    "Set up a password vault and list who can open it.",
+    "Write the steps you take after a data mistake.",
+    "List each client account you can open and the date you will remove access."
+   ],
+   "ex": "A client sends a password in a text message. You reply asking them to use a shared vault with limited access, then delete the message. You note the date you will remove your access when the job ends.",
+   "act": "Write a one-page privacy note and a risk list of eight items with controls.",
+   "std": "Task: write privacy note and risk list. Condition: reviewed by a mentor. Standard: each risk has a control, an owner and a review date, in plain words."
+  },
+  "8": {
+   "title": "Run your VA business and grow",
+   "intro": "Run it for real and decide from numbers.",
+   "pts": [
+    "Pilot for 60 days with at least two paying clients.",
+    "Track hours, income, errors, late payments and client feedback each week.",
+    "Write a handover guide so a client could carry on without you.",
+    "Decide: raise price, add a service, hire a helper or stop; write a 12-month plan.",
+    "Calculate your monthly income from hours and rate.",
+    "Document your five most common tasks in a handover guide.",
+    "Plan a price rise for new clients."
+   ],
+   "ex": "At day 60: two clients, 38 hours a month, errors 2 (both caught), one referral. At $28 an hour, 38 hours bills 38 x 28 = $1,064 a month. A 10 percent rise gives 28 x 1.10 = $30.80 an hour for new clients.",
+   "act": "Run the pilot, keep the log and present the plan to a panel of three.",
+   "std": "Task: operate a 60-day pilot. Condition: real clients with written scope. Standard: log complete, privacy rules followed, decision backed by numbers."
+  }
+ },
+ "price": [
+  28,
+  3,
+  60,
+  "hour"
+ ],
+ "quiz": [
+  [
+   "Name three common tasks of a virtual assistant.",
+   "Email and calendar help, booking, data entry, document edits or research."
+  ],
+  [
+   "What are the five steps of the request loop?",
+   "Receive, confirm, do, check, report."
+  ],
+  [
+   "Why confirm a task in writing?",
+   "It fixes what, when and in what format, so nothing is missed."
+  ],
+  [
+   "What shows someone is a contractor, not an employee?",
+   "They control how and when they work, use own tools and can have other clients."
+  ],
+  [
+   "When must you register for sales tax?",
+   "Once taxable sales pass the small-supplier limit; check the current limit."
+  ],
+  [
+   "What is a retainer?",
+   "An agreed set of hours or work for a fixed monthly fee."
+  ],
+  [
+   "How should passwords be shared?",
+   "Through a password manager or shared vault with limited access, never in plain email."
+  ],
+  [
+   "What should you do when you make a data mistake?",
+   "Tell the client at once and follow your breach steps."
+  ],
+  [
+   "Why write a handover guide?",
+   "So the client can carry on without you and trust you more."
+  ],
+  [
+   "What do you do if you cannot find a rule?",
+   "Ask the local authority or an adviser and keep the answer in writing."
+  ]
+ ],
+ "jobs": [
+  "Virtual assistant",
+  "Administrative assistant",
+  "Executive assistant",
+  "Customer support agent",
+  "Office coordinator",
+  "Freelance operations helper"
+ ]
+}

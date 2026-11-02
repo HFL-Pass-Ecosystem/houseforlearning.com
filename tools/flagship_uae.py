@@ -6,6 +6,15 @@ import build_full_courses as B
 from uae_data import T
 from uae_pathways import P
 from uae_deep import D
+import importlib
+for _n in ('1','2','3'):
+    try:
+        for _k,_v in importlib.import_module('uae_fix_'+_n).FIX.items(): D[_k]=list(_v)
+    except ModuleNotFoundError: pass
+for _n in ('a','b','c','d'):
+    try:
+        for _k,_v in importlib.import_module('uae_deep_'+_n).D2.items(): D.setdefault(_k,[]); D[_k]=D[_k]+list(_v)
+    except ModuleNotFoundError: pass
 e = html.escape
 RUB = [("Evidence quality","Claims without records","Records for most claims","Every claim linked to a dated record"),
  ("Numbers and units","Missing units or currency","Correct, units shown (AED)","Correct, with a check calculation"),
@@ -117,7 +126,7 @@ def build(c):
     rub=('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>'+''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(x)}</td><td>{e(d)}</td></tr>' for a,b,x,d in RUB)+'</tbody></table></div>')
     lad=('<div class="scroll-x"><table class="ws-table"><caption>Seven-level ladder</caption><thead><tr><th>Level</th><th>You can</th><th>Evidence</th></tr></thead><tbody>'+''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b.format(k=c["title"].lower()))}</td><td>{e(d)}</td></tr>' for a,b,d in LADDER)+'</tbody></table></div>')
     about=B.sec('','ab','about this course','What you will be able to do',
-      f'<div class="cb-facts"><span class="pill lv">L4 Practitioner</span><span class="pill">About {c["hours"]} h</span><span class="pill">Practice 70% · Share 20% · Study 10%</span><span class="pill">UAE (Dubai and Abu Dhabi)</span></div>'
+      f'<div class="cb-facts"><span class="pill lv">L4 Practitioner</span><span class="pill">About {sum(x[2] for x in c["M"])} h</span><span class="pill">Practice 70% · Share 20% · Study 10%</span><span class="pill">UAE (Dubai and Abu Dhabi)</span></div>'
       '<ul class="blm">'+''.join(f'<li><span class="bz">{b}</span> {e(t)}</li>' for b,t in c['outcomes'])+'</ul>'
       f'<h3 class="ws-h3">Task, condition and standard</h3><div class="tcs"><div><h4>Task</h4><p>{e(c["task"])}</p></div><div><h4>Condition</h4><p>{e(c["cond"])}</p></div><div><h4>Standard</h4><p>{e(c["std"])}</p></div></div>'
       f'<p class="ws-note">{e(c["safety"])}</p><p><strong>Requirements:</strong> none. Currency: AED on every number.</p>')
@@ -127,8 +136,29 @@ def build(c):
       +B.sec('','jb','jobs this leads to','Where this takes you','<ul>'+''.join(f'<li>{e(j)}</li>' for j in c['jobs'])+'</ul>')
       +B.sec('alt','lc','ten locations and global','Your place','<p>Use your own currency, language and local rules. Check each rule with your local authority.</p>'+''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Currency {L["cur"]}; language {e(L["lang"])}; set up legally: {e(L["reg"])}; personal data: {e(L["data"])}; where to practise: {e(L["partner"])}.</p></details>' for L in B.LOC)+f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
       +B.sec('','nx','next','Draft','<p class="ws-note">Draft flagship-depth course. Own wording. Not live.</p>'))
-    B.page(f'learn-flagship-ae-{c["slug"]}.html',c['title']+' in the UAE (full course)',f'Full course: {c["title"]}, UAE.',c['title'],e(f'Learn {c["title"].lower()} for the UAE: rules, workflow, costing in AED and a recorded 30-day practice.'),body,B.crumb(('Courses','courses-hub.html'),('UAE courses',None)),kicker='UAE · full course')
+    B.page(f'learn-flagship-ae-{c["slug"]}.html',c['title']+' in the UAE (full course)',f'Full course: {c["title"]}, UAE.',c['title'],e(f'Learn {c["title"].lower()} for the UAE: rules, workflow, costing in AED and a recorded 30-day practice.'),body,B.crumb(('Courses','courses-hub.html'),('UAE','learn-uae-hub.html'),(c['title'],None)),kicker='UAE · full course')
 n=0
 for t in T+P:
     build(course(t)); n+=1
 print(n,'UAE courses built (39 + 10 pathways)')
+
+# ---- UAE hub page + link from the courses hub (idempotent) ----
+def hub():
+    import re
+    cards=''
+    for t in T+P:
+        c=course(t)
+        n=len(c['M'])+len(D.get(t[0],[]))*0
+        cards+=(f'<li class="cc" data-t="{e((c["title"]+" uae").lower())}"><a href="learn-flagship-ae-{c["slug"]}.html"><span class="pill lv">L4 Practitioner</span><h3>{e(c["title"])}</h3>'
+                f'<p>{e(c["task"][:140])}</p><p class="cm">{sum(x[2] for x in c["M"])} h</p></a></li>')
+    body=B.sec('','ls','courses',f'{len(T)+len(P)} full courses for the UAE',f'<p>{len(T)} location topics and {len(P)} pathway courses for Dubai and Abu Dhabi. Each has modules with worked examples, a rubric, a ten-question check and a seven-level ladder.</p><ul class="cgrid">{cards}</ul>')
+    B.page('learn-uae-hub.html','UAE location courses','Full courses for Dubai and Abu Dhabi.','UAE location courses','Full courses for Dubai and Abu Dhabi: 39 location topics and 10 pathways.',body,B.crumb(('Courses','courses-hub.html'),('UAE',None)),kicker='flagship courses · UAE')
+    p=B.S/'courses-hub.html'
+    s=p.read_text()
+    if 'learn-uae-hub.html' not in s:
+        card='<li class="cc"><a href="learn-uae-hub.html"><h3>UAE location courses</h3><p>49 full courses for Dubai and Abu Dhabi</p></a></li>'
+        i=s.find('class="cgrid"')
+        j=s.find('</ul>',i)
+        if i>-1 and j>-1: p.write_text(s[:j]+card+s[j:])
+hub()
+print('hub built')

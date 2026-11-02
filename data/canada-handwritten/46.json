@@ -1,12 +1,188 @@
-{"mods":{
-"1":{"title":"Know the real estate world","intro":"Real estate means land and what is built on it. Learn the main types and the people who work with them.","pts":["Name the types: house, condo, rental, land, shop and office.","Describe the roles: owner, buyer, tenant, agent, lawyer or notary, lender, inspector.","Explain the difference between buying, renting and managing a property.","List the words: deed or title, mortgage, deposit, closing, lease."],"ex":"A family buys a condo. The buyer, the seller, two agents, a lender and a lawyer or notary all have a job. Each job is written next to the person.","act":"Walk one street. Note five properties, their type and who might own or rent each.","std":"Task: name types and roles. Condition: from one real street. Standard: five properties and six roles correctly matched."},
-"2":{"title":"Read the local market","intro":"Prices and rents change by town and street. Learn to look at real listings before you decide anything.","pts":["Compare ten listings: price, size, age, price per square metre.","Describe what moves a local market: jobs, schools, transport, interest rates.","Explain days on market and what a long time may mean.","Check public sources for sold prices and rents; do not guess."],"ex":"Ten condos listed: price per square metre ranges from low to high. The median is written. A unit far above the median needs a reason such as a new building or a view.","act":"Build a table of ten listings and mark the median price per square metre.","std":"Task: read a local market. Condition: ten real listings. Standard: median and range computed correctly with units."},
-"3":{"title":"Follow the rules in Canada","intro":"Property law is mostly provincial. Licence, tax and contract rules differ, so check with the local authority each time.","pts":["Explain that agents and brokers need a provincial licence; check the regulator in your province.","Describe land transfer tax and title registration; check the current rule with the province or city.","Apply the rules on disclosure: sellers must not hide known serious faults.","Check tenant law: notice, deposits and rent increases are set by the province."],"ex":"Rules table row: Land transfer tax | province or city | pay at closing | before keys are handed over | receipt kept in the deal file.","act":"Make a rules table for buying, selling and renting in your province, with an official page for each row.","std":"Task: list property rules. Condition: official pages only. Standard: every row has the enforcer, the action and the date checked."},
-"4":{"title":"Value a property","intro":"Value is what a careful buyer would pay. Use facts, not hopes.","pts":["Apply the comparison method: find three recent sales of similar homes and adjust for size and condition.","Compute income value for a rental: yearly rent minus yearly costs.","Check the building: roof, water, wiring, heating, structure; write what an inspector should check.","Explain why only licensed appraisers give an official value."],"ex":"Three similar homes sold for 400, 410 and 425 thousand CAD. Yours has one fewer bedroom, so you adjust down. Teaching numbers only.","act":"Value one real listing using three sold comparisons and write each adjustment with a reason.","std":"Task: estimate a value range. Condition: three recent sales. Standard: adjustments explained and a range, not one number, is given."},
-"5":{"title":"Money, loans and costs","intro":"Most property deals depend on money. Count every cost before you promise anything.","pts":["Compute monthly mortgage cost with a free calculator and test two interest rates.","List buying costs: deposit, transfer tax, legal fees, inspection, moving, repairs.","List owning costs: property tax, insurance, upkeep, utilities, condo fees.","Evaluate a rental: rent minus all costs and a gap for empty months."],"ex":"Rent 2,000 a month. Costs: tax, insurance, upkeep, fees total 900. One empty month a year. Net per year = 12 x 1,100 - 2,000 = about 11,200 before loan payments. Teaching numbers.","act":"Build a one-property cash sheet with a normal case and a bad case where rent drops 15%.","std":"Task: check if a property pays. Condition: all costs counted. Standard: normal and bad case shown and the decision explained."},
-"6":{"title":"Find clients and manage a deal","intro":"A deal moves in steps. Keep a file and keep every promise in writing.","pts":["Build a deal checklist: listing, viewing, offer, conditions, inspection, financing, closing.","Explain what a condition in an offer is and why it has a date.","Apply honest marketing: true photos, true size, no hidden faults.","Track leads: contacts, viewings, offers, closings."],"ex":"Offer has a condition: financing approved by day 10. If the lender says no on day 8, the buyer can step away under the contract. The lawyer or notary checks the wording.","act":"Create a deal file template and run a pretend deal from first call to closing with a partner.","std":"Task: manage a deal file. Condition: a practice deal. Standard: every step is dated and every promise is written."},
-"7":{"title":"Manage a property well","intro":"Good management keeps tenants, protects the building and keeps records clean.","pts":["Write a lease in plain words: rent, date, deposit, rules, repairs; check your provincial form.","Apply a repair process: report, urgent or not, fix, record the cost.","Check fire and safety items: smoke alarms, exits, heating; follow local rules.","Handle a late rent case: call, write, follow the provincial steps, never lock out a tenant."],"ex":"Water leak at night is urgent: tenant calls, owner sends a plumber, photos taken, cost and date recorded, tenant told when it will be finished.","act":"Build a monthly checklist for one rental and a repair log with five practice entries.","std":"Task: manage a rental month. Condition: practice file. Standard: rent, repairs and safety checks recorded and dated."},
-"8":{"title":"Run a real estate practice","intro":"Now plan and run the work for real, under the rules and with supervision where the law needs it.","pts":["Evaluate your path: licensed agent, property manager, investor, or builder helper.","Run a 90-day pilot such as managing one unit or helping with five viewings under a licensed person.","Create a 12-month plan with money, licences and learning goals.","Lead with ethics: tell the truth, avoid conflict of interest, keep client money separate."],"ex":"Stop rule: if after 90 days the practice cost is more than the fees earned, change the plan. Result and decision are written with the numbers.","act":"Run the pilot, write the review and present a 12-month plan to three people.","std":"Task: run a supervised practice pilot. Condition: 90 days. Standard: results compared with the stop rule and licence needs checked with the regulator."}},
-"price":[2420,1750,9,"job"],
-"quiz":[["Name three roles in a property sale.","Buyer, seller, agent, lender, lawyer or notary, inspector (any three)."],["Who makes most property laws in Canada?","The provinces; check your own province."],["What is price per square metre used for?","To compare properties of different sizes."],["Why use three sold comparisons?","They show what buyers really paid for similar homes."],["Who gives an official appraisal?","A licensed appraiser."],["Name two costs of owning a rental.","Property tax, insurance, upkeep, fees (any two)."],["What does a condition in an offer do?","It lets a party step away if a stated thing is not met by a stated date."],["What do you do with a known serious fault?","Disclose it; do not hide it."],["Why test a bad case?","To see if the property still works when rent drops or costs rise."],["What should you do if you are unsure of a rule?","Ask the regulator or a licensed adviser and keep the answer in writing."]],
-"jobs":["Property manager","Leasing coordinator","Real estate agent trainee","Appraisal assistant","Building technician","Property investor"]}
+{
+ "mods": {
+  "1": {
+   "title": "Know the real estate world",
+   "intro": "Real estate means land and what is built on it. Learn the main types and the people who work with them.",
+   "pts": [
+    "Name the types: house, condo, rental, land, shop and office.",
+    "Describe the roles: owner, buyer, tenant, agent, lawyer or notary, lender, inspector.",
+    "Explain the difference between buying, renting and managing a property.",
+    "List the words: deed or title, mortgage, deposit, closing, lease.",
+    "Explain freehold, condo and rental in one sentence each.",
+    "Identify who is paid for what in a sale: agent, lawyer or notary, inspector, lender.",
+    "Compare buying and renting for one family using monthly cost and freedom to move."
+   ],
+   "ex": "A family buys a condo. The buyer, the seller, two agents, a lender and a lawyer or notary all have a job. Each job is written next to the person, with a note on who pays whom.",
+   "act": "Walk one street. Note five properties, their type and who might own or rent each.",
+   "std": "Task: name types and roles. Condition: from one real street. Standard: five properties and six roles correctly matched."
+  },
+  "2": {
+   "title": "Read the local market",
+   "intro": "Prices and rents change by town and street. Learn to look at real listings before you decide anything.",
+   "pts": [
+    "Compare ten listings: price, size, age, price per square metre.",
+    "Describe what moves a local market: jobs, schools, transport, interest rates.",
+    "Explain days on market and what a long time may mean.",
+    "Check public sources for sold prices and rents; do not guess.",
+    "Calculate price per square metre as price divided by area for each listing.",
+    "Find the median of ten values by sorting them and averaging the middle two.",
+    "Compare asking price with sold price for five sales from public sources and write the gap in percent."
+   ],
+   "ex": "Ten condos list at these prices per square metre: 4,200, 4,500, 4,600, 4,800, 4,900, 5,000, 5,100, 5,300, 5,600 and 6,900. The median is (4,900 + 5,000) / 2 = 4,950. The 6,900 unit is about 39% above the median (6,900 / 4,950 = 1.39), so it needs a reason such as a new building or a view.",
+   "act": "Build a table of ten listings and mark the median price per square metre.",
+   "std": "Task: read a local market. Condition: ten real listings. Standard: median and range computed correctly with units."
+  },
+  "3": {
+   "title": "Follow the rules in Canada",
+   "intro": "Property law is mostly provincial. Licence, tax and contract rules differ, so check with the local authority each time.",
+   "pts": [
+    "Explain that agents and brokers need a provincial licence; check the regulator in your province.",
+    "Describe land transfer tax and title registration; check the current rule with the province or city.",
+    "Apply the rules on disclosure: sellers must not hide known serious faults.",
+    "Check tenant law: notice, deposits and rent increases are set by the province.",
+    "Ask the provincial regulator what training and supervision a new agent needs and write the steps.",
+    "Identify whether your province uses a lawyer or a notary to close a sale.",
+    "Ask the regulator how deposit money must be held and who may hold it."
+   ],
+   "ex": "Rules table row: Land transfer tax | province or city | pay at closing | before keys are handed over | receipt kept in the deal file. If closing is on day 60 and the receipt takes 3 days to arrive, plan to pay by day 57.",
+   "act": "Make a rules table for buying, selling and renting in your province, with an official page for each row.",
+   "std": "Task: list property rules. Condition: official pages only. Standard: every row has the enforcer, the action and the date checked."
+  },
+  "4": {
+   "title": "Value a property",
+   "intro": "Value is what a careful buyer would pay. Use facts, not hopes.",
+   "pts": [
+    "Apply the comparison method: find three recent sales of similar homes and adjust for size and condition.",
+    "Compute income value for a rental: yearly rent minus yearly costs.",
+    "Explain that an official appraisal comes from a qualified appraiser; check how your province regulates the title.",
+    "Explain why only licensed appraisers give an official value.",
+    "Calculate each adjustment with a stated reason, such as a bedroom or a newer roof.",
+    "Compare income value with the asking price by dividing net yearly rent by the price.",
+    "List repair items from an inspection report and estimate each from a local quote."
+   ],
+   "ex": "Three similar homes sold for 400, 410 and 425 thousand CAD, an average of 411.7 thousand. Yours has one fewer bedroom, so adjust down by 15 thousand to about 397 thousand, and write the reason beside the number. Teaching numbers only.",
+   "act": "Value one real listing using three sold comparisons and write each adjustment with a reason.",
+   "std": "Task: estimate a value range. Condition: three recent sales. Standard: adjustments explained and a range, not one number, is given."
+  },
+  "5": {
+   "title": "Money, loans and costs",
+   "intro": "Most property deals depend on money. Count every cost before you promise anything.",
+   "pts": [
+    "Compute monthly mortgage cost with a free calculator and test two interest rates.",
+    "List buying costs: deposit, transfer tax, legal fees, inspection, moving, repairs.",
+    "List owning costs: property tax, insurance, upkeep, utilities, condo fees.",
+    "Evaluate a rental: rent minus all costs and a gap for empty months.",
+    "Calculate the loan size as price minus deposit.",
+    "Test how a one-point rise in the interest rate changes the monthly payment with a free calculator.",
+    "Ask a lender how they test whether a buyer can still pay if rates rise, and write the answer."
+   ],
+   "ex": "Rent 2,000 a month; costs for tax, insurance, upkeep and fees are 900 a month; one empty month a year. Net = 11 x 2,000 - 12 x 900 = 22,000 - 10,800 = 11,200 before loan payments. If rent drops 15% to 1,700: 11 x 1,700 - 10,800 = 7,900. Teaching numbers.",
+   "act": "Build a one-property cash sheet with a normal case and a bad case where rent drops 15%.",
+   "std": "Task: check if a property pays. Condition: all costs counted. Standard: normal and bad case shown and the decision explained."
+  },
+  "6": {
+   "title": "Find clients and manage a deal",
+   "intro": "A deal moves in steps. Keep a file and keep every promise in writing.",
+   "pts": [
+    "Build a deal checklist: listing, viewing, offer, conditions, inspection, financing, closing.",
+    "Explain what a condition in an offer is and why it has a date.",
+    "Apply honest marketing: true photos, true size, no hidden faults.",
+    "Track leads: contacts, viewings, offers, closings.",
+    "Write a plain-word reply for a buyer who asks about a fault.",
+    "Calculate the days from first call to closing for three practice deals.",
+    "Keep a written record of every offer, counter-offer and date in the deal file."
+   ],
+   "ex": "An offer has an inspection condition on day 7, a financing condition on day 10 and closing on day 45. If the lender says no on day 8, the buyer can step away under the financing condition; the inspection date has already passed. The lawyer or notary checks the wording.",
+   "act": "Create a deal file template and run a pretend deal from first call to closing with a partner.",
+   "std": "Task: manage a deal file. Condition: a practice deal. Standard: every step is dated and every promise is written."
+  },
+  "7": {
+   "title": "Manage a property well",
+   "intro": "Good management keeps tenants, protects the building and keeps records clean.",
+   "pts": [
+    "Write a lease in plain words: rent, date, deposit, rules, repairs; check your provincial form.",
+    "Apply a repair process: report, urgent or not, fix, record the cost.",
+    "Check fire and safety items: smoke alarms, exits, heating; follow local rules.",
+    "Handle a late rent case: call, write, follow the provincial steps, never lock out a tenant.",
+    "Calculate yearly repair cost by setting aside a share of rent; state the share as an assumption.",
+    "Inspect a unit at move-in and move-out with photos and a signed list.",
+    "Ask the province where tenant and owner disputes are filed and write the steps."
+   ],
+   "ex": "A water leak at night is urgent: the tenant calls, the owner sends a plumber, photos are taken, and the cost and date are recorded. A month of five repair-log entries costs 120 + 85 + 380 + 60 + 45 = 690.",
+   "act": "Build a monthly checklist for one rental and a repair log with five practice entries.",
+   "std": "Task: manage a rental month. Condition: practice file. Standard: rent, repairs and safety checks recorded and dated."
+  },
+  "8": {
+   "title": "Run a real estate practice",
+   "intro": "Now plan and run the work for real, under the rules and with supervision where the law needs it.",
+   "pts": [
+    "Evaluate your path: licensed agent, property manager, investor, or builder helper.",
+    "Run a 90-day pilot such as managing one unit or helping with five viewings under a licensed person.",
+    "Create a 12-month plan with money, licences and learning goals.",
+    "Lead with ethics: tell the truth, avoid conflict of interest, keep client money separate.",
+    "Compare fees earned with practice costs after the pilot.",
+    "Identify the licence or training steps for your chosen path from the official source.",
+    "Write a conflict-of-interest rule: tell all parties in writing when you or a relative has an interest."
+   ],
+   "ex": "Stop rule: if after 90 days the practice cost is more than the fees earned, change the plan. Fees earned 3,600 minus costs 2,900 is 700, so the plan continues. Result and decision are written with the numbers.",
+   "act": "Run the pilot, write the review and present a 12-month plan to three people.",
+   "std": "Task: run a supervised practice pilot. Condition: 90 days. Standard: results compared with the stop rule and licence needs checked with the regulator."
+  }
+ },
+ "price": [
+  2420,
+  1750,
+  9,
+  "job"
+ ],
+ "quiz": [
+  [
+   "Name three roles in a property sale.",
+   "Buyer, seller, agent, lender, lawyer or notary, inspector (any three)."
+  ],
+  [
+   "Who makes most property laws in Canada?",
+   "The provinces; check your own province."
+  ],
+  [
+   "What is price per square metre used for?",
+   "To compare properties of different sizes."
+  ],
+  [
+   "Who gives an official appraisal?",
+   "A qualified, regulated appraiser; check your province."
+  ],
+  [
+   "Who gives an official appraisal?",
+   "A licensed appraiser."
+  ],
+  [
+   "Name two costs of owning a rental.",
+   "Property tax, insurance, upkeep, fees (any two)."
+  ],
+  [
+   "What does a condition in an offer do?",
+   "It lets a party step away if a stated thing is not met by a stated date."
+  ],
+  [
+   "What do you do with a known serious fault?",
+   "Disclose it; do not hide it."
+  ],
+  [
+   "Why test a bad case?",
+   "To see if the property still works when rent drops or costs rise."
+  ],
+  [
+   "What should you do if you are unsure of a rule?",
+   "Ask the regulator or a licensed adviser and keep the answer in writing."
+  ]
+ ],
+ "jobs": [
+  "Property manager",
+  "Leasing coordinator",
+  "Real estate agent trainee",
+  "Appraisal assistant",
+  "Building technician",
+  "Property investor"
+ ]
+}

@@ -69,6 +69,10 @@ D = {
 from brazil_deep_1 import DEEP as _D1
 from brazil_deep_2 import DEEP as _D2
 from brazil_cases import CASES
+import importlib
+for _i in range(5):
+    try: CASES.update(importlib.import_module(f'brazil_cases_long_{_i}').LONG)
+    except ImportError: pass
 DEEP = {**_D1, **_D2}
 assert set(DEEP) == set(D), set(D) ^ set(DEEP)
 assert set(D) == set(TOPICS), (set(TOPICS) - set(D), set(D) - set(TOPICS))

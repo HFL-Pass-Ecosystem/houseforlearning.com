@@ -1,12 +1,188 @@
-{"mods":{
-"1":{"title":"Know the site, the trades and the words","intro":"Construction builds and repairs homes and other structures. Start with the roles, the stages and the basic words.","pts":["Terms: permit, drawing, scope, estimate, tender, subcontractor, inspection, deficiency.","Stages: design, permit, site prep, foundation, frame, services, finish, inspection, handover.","Trades include carpenters, electricians, plumbers and labourers; some trades need a licence or certificate.","Visit a site from outside or with permission and name each trade you see."],"ex":"A deficiency is a small fault found at the end, such as a missing cover plate, that must be fixed before final payment.","act":"Write a one-page stage list for a small project, such as a deck, with the trade for each stage.","std":"Task: list project stages and trades. Condition: for one small project. Standard: all stages in order, terms used correctly, and trades matched to tasks."},
-"2":{"title":"Explain how a job moves from idea to handover","intro":"Every job needs a clear scope, a plan and a way to handle changes.","pts":["Scope says what is included and what is not. Write it before you price.","A schedule shows which tasks come first and which can run together.","A change order is a written, priced and agreed change to the scope.","Keep a daily log: weather, who was on site, work done, problems."],"ex":"The owner asks for an extra window. You write: 'Add one window, 1,200 CAD, two extra days.' Both sign before work starts.","act":"Write a scope, a task list with days, and a change order form for a small job.","std":"Task: write scope, schedule and change form. Condition: for one real or pretend small job. Standard: scope names inclusions and exclusions; schedule has start, end and order of tasks."},
-"3":{"title":"Do basic site tasks safely and to a standard","intro":"Safety comes first. Then do the task to a measured standard.","pts":["Complete the required safety training before you work on site. Wear the right protective gear.","Know the main hazards: falls, cuts, electrical contact, trench collapse and lifting injuries.","Measure twice and check level, square and plumb before you fix.","Before you dig, request a locate of buried lines through the local call-before-you-dig service."],"ex":"Check square by measuring both diagonals of a frame. If the two diagonals match, the frame is square.","act":"Build a small practice item, such as a frame or a wall section, under supervision. Check and record measurements.","std":"Task: build and check a practice item. Condition: supervised, with safety gear. Standard: measurements within the stated tolerance and no safety breaches."},
-"4":{"title":"Know permits, codes, licences and liens","intro":"Building rules are mostly provincial and municipal. Find what applies before you start.","pts":["Most building work needs a municipal permit and inspections. The building code is set by the province and is based on national model codes. Check with your municipality.","Some trades, such as electrical and gas work, require a licensed person. Check with your provincial trades authority.","Workplace safety is enforced by a provincial board or ministry. Check the current rules.","Construction lien laws let unpaid workers and suppliers claim against a property. Rules and holdback amounts differ by province; check the current law."],"ex":"Rules table row: 'Basement suite | municipal building office | permit and inspections before closing walls | before work | permit number on site'.","act":"Build a rules table for a small project in your city with the enforcer, action and date checked.","std":"Task: build a rules table. Condition: from official pages. Standard: each row has a dated source; no rule is guessed."},
-"5":{"title":"Estimate, price and track job costs","intro":"A job must cover its real cost and your risk.","pts":["List materials, labour, equipment, permits, waste and travel. Add a margin for risk and profit.","Get written quotes from suppliers and subcontractors.","Track actual cost against estimate each week.","Do not forget insurance, tools and unpaid time for quoting."],"ex":"Price 2,420, cost 1,750: margin 670 per job, about 28 percent. Teaching figures only.","act":"Estimate a small job with a cost sheet, a price and a plan to track actual cost.","std":"Task: build an estimate. Condition: current local prices. Standard: units and quantities shown, allowances stated, margin computed, and a mentor checks the arithmetic."},
-"6":{"title":"Run the site: schedule, people and quality","intro":"Good running keeps jobs on time and safe.","pts":["Hold a short safety talk at the start of each day.","Order materials by lead time so work does not stop.","Inspect each stage before the next one covers it.","Close out with a list of deficiencies and sign-off."],"ex":"Plumbing is inspected before walls are closed. A failed test is fixed the same day, not hidden.","act":"Run a small project for four weeks with a daily log, stage checks and a close-out list.","std":"Task: run a small build or repair. Condition: real or training project. Standard: log complete, each stage checked, deficiencies fixed and signed."},
-"7":{"title":"Win work, write contracts and manage clients","intro":"Clear agreements prevent most disputes.","pts":["A contract states scope, price, payment schedule, start and end dates, change process and warranty.","Ask for references and show photos of past work.","Keep records of emails, photos and signed changes.","Ask a legal adviser to review your contract template."],"ex":"Payment schedule: 20 percent at start, 40 percent at framing, 30 percent at finish, 10 percent after inspection.","act":"Write a one-page contract template and a quote letter for a small job.","std":"Task: draft a contract template and quote. Condition: reviewed by a mentor. Standard: all key terms in plain words; payment steps tied to finished work."},
-"8":{"title":"Manage risk, pilot a job and grow","intro":"Risk is part of building. Plan for it and prove your system on a real job.","pts":["Risk register: injury, weather, price rises, late delivery, defects, unpaid invoices.","Keep insurance current and cash for slow weeks.","Pilot a real small job with a stop rule for cost and time overruns.","Write a review and a 12-month plan, including training and hiring."],"ex":"Stop rule: 'If cost passes the estimate by 10 percent, stop and agree a change in writing.'","act":"Run the job, write the review and the plan, and present to a panel of three.","std":"Task: run a pilot job. Condition: licensed or supervised, safe and legal. Standard: costs tracked, no safety breaches, decision supported by numbers."}},
-"price":[2420,1750,9,"job"],
-"quiz":[["What is a deficiency?","A small fault found at the end that must be fixed."],["What does a scope say?","What work is included and what is not."],["What is a change order?","A written, priced and agreed change to the work."],["How can you check a frame is square?","Measure both diagonals; they should match."],["Why call before you dig?","To locate buried lines and avoid injury and damage."],["Who sets building codes in Canada?","The provinces, based on national model codes; the city applies them."],["What does a lien law do?","Lets unpaid workers or suppliers claim against a property; rules differ by province."],["What goes into an estimate?","Materials, labour, equipment, permits, waste, travel and margin."],["Why inspect before covering work?","Hidden faults are costly to fix later."],["What do you do if you do not know a rule?","Ask the municipality or provincial authority and keep the answer in writing."]],
-"jobs":["Labourer","Carpenter apprentice","Site coordinator","Estimator","Project coordinator","Small contractor"]}
+{
+ "mods": {
+  "1": {
+   "title": "Know the site, the trades and the words",
+   "intro": "Construction builds and repairs homes and other structures. Start with the roles, the stages and the basic words.",
+   "pts": [
+    "Terms: permit, drawing, scope, estimate, tender, subcontractor, inspection, deficiency.",
+    "Stages: design, permit, site prep, foundation, frame, services, finish, inspection, handover.",
+    "Trades include carpenters, electricians, plumbers and labourers; some trades need a licence or certificate.",
+    "Visit a site from outside or with permission and name each trade you see.",
+    "Read a simple drawing and find the scale, the dimensions and the notes.",
+    "Learn the common tools by name and by use: tape, level, square, saw, drill, chalk line.",
+    "Learn the common materials: lumber, concrete, drywall, insulation, roofing, and what each is used for."
+   ],
+   "ex": "A deficiency is a small fault found at the end, such as a missing cover plate, that must be fixed before final payment. If a list shows 12 deficiencies and 9 are fixed, 12 - 9 = 3 remain. Final payment waits until all 12 are signed off.",
+   "act": "Write a one-page stage list for a small project, such as a deck, with the trade for each stage.",
+   "std": "Task: list project stages and trades. Condition: for one small project. Standard: all stages in order, terms used correctly, and trades matched to tasks."
+  },
+  "2": {
+   "title": "Explain how a job moves from idea to handover",
+   "intro": "Every job needs a clear scope, a plan and a way to handle changes.",
+   "pts": [
+    "Scope says what is included and what is not. Write it before you price.",
+    "A schedule shows which tasks come first and which can run together.",
+    "A change order is a written, priced and agreed change to the scope.",
+    "Keep a daily log: weather, who was on site, work done, problems.",
+    "Break a job into tasks and give each a duration in days.",
+    "Mark tasks that must wait for another, such as framing before wiring.",
+    "Write who orders materials, who is on site and who signs off each stage."
+   ],
+   "ex": "The owner asks for an extra window. You write: 'Add one window, 1,200 CAD, two extra days.' Both sign before work starts. If the job was 2,420 CAD and 10 days, it becomes 2,420 + 1,200 = 3,620 CAD and 12 days.",
+   "act": "Write a scope, a task list with days, and a change order form for a small job.",
+   "std": "Task: write scope, schedule and change form. Condition: for one real or pretend small job. Standard: scope names inclusions and exclusions; schedule has start, end and order of tasks."
+  },
+  "3": {
+   "title": "Do basic site tasks safely and to a standard",
+   "intro": "Safety comes first. Then do the task to a measured standard.",
+   "pts": [
+    "Complete the required safety training before you work on site. Wear the right protective gear.",
+    "Know the main hazards: falls, cuts, electrical contact, trench collapse and lifting injuries.",
+    "Measure twice and check level, square and plumb before you fix.",
+    "Before you dig, request a locate of buried lines through the local call-before-you-dig service.",
+    "Check that ladders, scaffolds and tools are in good condition before each use.",
+    "Mark and cut with a pencil line and a square, and check the first cut against the plan.",
+    "Keep the work area tidy and put offcuts and waste in the right bin at the end of the day."
+   ],
+   "ex": "Check square by measuring both diagonals of a frame. A frame 2.4 m by 1.2 m should have both diagonals about 2.68 m. If one reads 2.68 and the other 2.72, the frame is out of square by 4 cm and must be adjusted.",
+   "act": "Build a small practice item, such as a frame or a wall section, under supervision. Check and record measurements.",
+   "std": "Task: build and check a practice item. Condition: supervised, with safety gear. Standard: measurements within the stated tolerance and no safety breaches."
+  },
+  "4": {
+   "title": "Know permits, codes, licences and liens",
+   "intro": "Building rules are mostly provincial and municipal. Find what applies before you start.",
+   "pts": [
+    "Most building work needs a municipal permit and inspections. The building code is set by the province and is based on national model codes. Check with your municipality.",
+    "Some trades, such as electrical and gas work, require a licensed person. Check with your provincial trades authority.",
+    "Workplace safety is enforced by a provincial board or ministry. Check the current rules.",
+    "Construction lien laws let unpaid workers and suppliers claim against a property. Rules and holdback amounts differ by province; check the current law.",
+    "Ask the municipality which permit your project needs and how long approval takes.",
+    "List the inspections you must request and the stage at which each one happens.",
+    "Keep copies of permits, inspection reports and licences on site."
+   ],
+   "ex": "Rules table row: 'Basement suite | municipal building office | permit and inspections before closing walls | before work | permit number on site'. If the permit takes 6 weeks and the build takes 8 weeks, the earliest finish is week 14, not week 8.",
+   "act": "Build a rules table for a small project in your city with the enforcer, action and date checked.",
+   "std": "Task: build a rules table. Condition: from official pages. Standard: each row has a dated source; no rule is guessed."
+  },
+  "5": {
+   "title": "Estimate, price and track job costs",
+   "intro": "A job must cover its real cost and your risk.",
+   "pts": [
+    "List materials, labour, equipment, permits, waste and travel. Add a margin for risk and profit.",
+    "Get written quotes from suppliers and subcontractors.",
+    "Track actual cost against estimate each week.",
+    "Do not forget insurance, tools and unpaid time for quoting.",
+    "Add a contingency for unknowns, such as 10 percent of cost, and say so in the estimate.",
+    "Include the cost of waste and rework in material quantities.",
+    "Compare the quote you give with the cost you track, and note the difference on every job."
+   ],
+   "ex": "Price 2,420, cost 1,750: margin 670 per job, about 28 percent (670 / 2420). With 9 jobs, margin is 9 x 670 = 6,030 CAD. If a job runs 10 percent over cost (1,925), margin falls to 495. Teaching figures only.",
+   "act": "Estimate a small job with a cost sheet, a price and a plan to track actual cost.",
+   "std": "Task: build an estimate. Condition: current local prices. Standard: units and quantities shown, allowances stated, margin computed, and a mentor checks the arithmetic."
+  },
+  "6": {
+   "title": "Run the site: schedule, people and quality",
+   "intro": "Good running keeps jobs on time and safe.",
+   "pts": [
+    "Hold a short safety talk at the start of each day.",
+    "Order materials by lead time so work does not stop.",
+    "Inspect each stage before the next one covers it.",
+    "Close out with a list of deficiencies and sign-off.",
+    "Walk the site at the end of each day for hazards and for materials left out.",
+    "Check deliveries against the order before you sign.",
+    "Take dated photos of work before it is covered up."
+   ],
+   "ex": "Plumbing is inspected before walls are closed. A failed test is fixed the same day, not hidden. If the fix takes 4 hours and a closed wall would have taken 2 days to reopen, the early check saves 1.5 days or more.",
+   "act": "Run a small project for four weeks with a daily log, stage checks and a close-out list.",
+   "std": "Task: run a small build or repair. Condition: real or training project. Standard: log complete, each stage checked, deficiencies fixed and signed."
+  },
+  "7": {
+   "title": "Win work, write contracts and manage clients",
+   "intro": "Clear agreements prevent most disputes.",
+   "pts": [
+    "A contract states scope, price, payment schedule, start and end dates, change process and warranty.",
+    "Ask for references and show photos of past work.",
+    "Keep records of emails, photos and signed changes.",
+    "Ask a legal adviser to review your contract template.",
+    "Put the warranty length and what it covers in writing.",
+    "Send a written summary after each client meeting and ask for a reply.",
+    "Agree how and when you will be paid before you buy materials."
+   ],
+   "ex": "Payment schedule: 20 percent at start, 40 percent at framing, 30 percent at finish, 10 percent after inspection. On a 2,420 CAD job that is 484, 968, 726 and 242, which add to 2,420.",
+   "act": "Write a one-page contract template and a quote letter for a small job.",
+   "std": "Task: draft a contract template and quote. Condition: reviewed by a mentor. Standard: all key terms in plain words; payment steps tied to finished work."
+  },
+  "8": {
+   "title": "Manage risk, pilot a job and grow",
+   "intro": "Risk is part of building. Plan for it and prove your system on a real job.",
+   "pts": [
+    "Risk register: injury, weather, price rises, late delivery, defects, unpaid invoices.",
+    "Keep insurance current and cash for slow weeks.",
+    "Pilot a real small job with a stop rule for cost and time overruns.",
+    "Write a review and a 12-month plan, including training and hiring.",
+    "Rank the risks by cost and likelihood, and list a control for each.",
+    "Write who you call first in an injury, a damage claim or a stop-work order.",
+    "Plan how you will find and train a helper before you need one."
+   ],
+   "ex": "Stop rule: 'If cost passes the estimate by 10 percent, stop and agree a change in writing.' On a 1,750 CAD estimate, the limit is 1,750 x 1.10 = 1,925 CAD. At 1,950, the rule has been passed by 25 CAD and work stops.",
+   "act": "Run the job, write the review and the plan, and present to a panel of three.",
+   "std": "Task: run a pilot job. Condition: licensed or supervised, safe and legal. Standard: costs tracked, no safety breaches, decision supported by numbers."
+  }
+ },
+ "price": [
+  2420,
+  1750,
+  9,
+  "job"
+ ],
+ "quiz": [
+  [
+   "What is a deficiency?",
+   "A small fault found at the end that must be fixed."
+  ],
+  [
+   "What does a scope say?",
+   "What work is included and what is not."
+  ],
+  [
+   "What is a change order?",
+   "A written, priced and agreed change to the work."
+  ],
+  [
+   "How can you check a frame is square?",
+   "Measure both diagonals; they should match."
+  ],
+  [
+   "Why call before you dig?",
+   "To locate buried lines and avoid injury and damage."
+  ],
+  [
+   "Who sets building codes in Canada?",
+   "The provinces, based on national model codes; the city applies them."
+  ],
+  [
+   "What does a lien law do?",
+   "Lets unpaid workers or suppliers claim against a property; rules differ by province."
+  ],
+  [
+   "What goes into an estimate?",
+   "Materials, labour, equipment, permits, waste, travel and margin."
+  ],
+  [
+   "Why inspect before covering work?",
+   "Hidden faults are costly to fix later."
+  ],
+  [
+   "What do you do if you do not know a rule?",
+   "Ask the municipality or provincial authority and keep the answer in writing."
+  ]
+ ],
+ "jobs": [
+  "Labourer",
+  "Carpenter apprentice",
+  "Site coordinator",
+  "Estimator",
+  "Project coordinator",
+  "Small contractor"
+ ]
+}

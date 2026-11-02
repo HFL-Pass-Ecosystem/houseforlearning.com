@@ -1,12 +1,188 @@
-{"mods":{
-"1":{"title":"Know the retail and wholesale words and roles","intro":"Retail sells to people. Wholesale sells in larger amounts to businesses that resell. Learn the words first.","pts":["Terms: SKU, stock, margin, markup, supplier, lead time, minimum order, reorder point.","A SKU is one exact item, such as a blue shirt in size M.","Retail roles: sales, buyer, stock clerk, manager. Wholesale roles: sales rep, buyer, warehouse, driver.","Visit a shop and list what sells fast and what sits."],"ex":"Markup of 100 percent on a 10 cost gives a price of 20. The margin is 50 percent of the price.","act":"Visit a shop and list ten items with price, shelf place and whether stock looks low.","std":"Task: write a shop observation note. Condition: one visit with permission. Standard: ten items listed, terms used correctly, one gap identified."},
-"2":{"title":"Explain how goods flow from supplier to customer","intro":"Goods move through a chain. Delays and errors at any step cost money.","pts":["Steps: choose product, order from supplier, receive, check, store, sell, deliver, handle returns.","Check delivery against the order: item, quantity, damage, price.","Lead time is the days between ordering and getting stock.","Record each step so you can find mistakes."],"ex":"Order 100 units on day 1; they arrive on day 15; lead time is 14 days.","act":"Draw a goods flow for one product and note where it could be late or damaged.","std":"Task: draw a goods flow chart. Condition: for one real product. Standard: all steps shown, lead times estimated and three risks marked."},
-"3":{"title":"Receive, count and shelve stock to a standard","intro":"Stock records must match what is on the shelf.","pts":["Count stock on arrival and sign for exceptions.","Label shelves and keep like with like. Put older stock first.","Count a small sample every week and a full count each month.","Fix the cause of each difference, such as wrong picks or theft."],"ex":"Records say 40 units but the shelf holds 37. Check the last receipts and sales. Found: three units returned but not added back.","act":"Do a count of twenty SKUs, compare with records and explain each difference.","std":"Task: stock count and match. Condition: twenty SKUs. Standard: accuracy at or above 95 percent, and each difference explained in writing."},
-"4":{"title":"Follow Canadian sales, labelling and consumer rules","intro":"Selling in Canada means following tax, labelling and consumer rules that vary by province.","pts":["Collect and pay sales tax once your taxable sales pass the small-supplier limit. Rates and rules differ by province. Check the current rules with the tax agency.","Many packaged goods need bilingual labels, and some products have extra safety rules, such as goods for children. Check the current rules.","Consumer protection laws on returns, refunds, warranties and price display are provincial.","Imported goods can face duties and border rules; check with the border agency before you order."],"ex":"A shopper wants a refund on an item bought online. You check your posted policy and the provincial consumer rule, and write the answer the same day.","act":"Build a rules table for your product and province with enforcer, action and date checked.","std":"Task: build a rules table. Condition: official pages only. Standard: each row has a dated source and action; unclear cases say to check with the authority."},
-"5":{"title":"Set price, margin and reorder levels","intro":"Make sure each sale earns more than it costs and that you do not run out or overstock.","pts":["Margin per unit = price minus cost. Margin percent = margin divided by price.","Include fees, shipping, packaging and returns in cost.","Reorder point = daily sales times lead time plus a safety amount.","Break-even = fixed cost divided by margin per unit."],"ex":"Sell 5 a day, lead time 10 days, safety stock 10: reorder at 5 times 10 plus 10 equals 60 units. Teaching figures only.","act":"Build a spreadsheet for five SKUs with cost, price, margin, reorder point and break-even.","std":"Task: build a pricing and reorder sheet. Condition: real supplier quotes. Standard: formulas visible, units shown, three what-if cases including a 15 percent cost rise."},
-"6":{"title":"Run the shop or warehouse every day","intro":"Steady routines keep customers happy and money safe.","pts":["Open and close with checklists for cash, locks and stock.","Answer customer messages within one working day.","Track returns by reason and fix the most common cause.","Record every sale with date, price, tax, fees and shipping."],"ex":"Returns log: 12 returns this month, 7 'wrong size'. Fix: add a size guide on the page and next to the shelf.","act":"Keep a four-week log of sales, stock counts and returns and choose one improvement.","std":"Task: keep a four-week operation log. Condition: real or practice shop. Standard: weekly pages complete; improvement dated and result noted."},
-"7":{"title":"Sell through shops, online and to other businesses","intro":"Customers find you in many ways. Choose two or three routes and do them well.","pts":["Routes: own store, marketplace, own website, wholesale to other shops.","Write honest titles, clear photos, size, condition and delivery cost.","For wholesale, give a price list with minimum order and payment terms.","Keep a customer list only with consent and follow the privacy rules."],"ex":"Wholesale terms: minimum order 200, payment within 30 days, free delivery over 1,000. The buyer can plan from this.","act":"Write one listing and one wholesale sheet, share both and log responses for two weeks.","std":"Task: publish offers and track results. Condition: two weeks. Standard: listing is honest, price list is clear, results recorded with one change."},
-"8":{"title":"Manage risk, pilot and grow","intro":"Prove the model small, then grow in steps.","pts":["Risk register: supplier failure, price swings, theft, damaged goods, bad reviews, cash shortage.","Keep a cash buffer for slow months and insure stock where it makes sense.","Pilot for 60 days with a stop rule, for example a minimum number of orders.","Write the review and a 12-month plan."],"ex":"Result at day 60: 180 orders, 6 percent returns. Decision: drop two slow SKUs and add two best-selling variants.","act":"Run the pilot, write the register, review and plan, and present to a panel of three.","std":"Task: pilot a small selling operation. Condition: real orders. Standard: measures tracked, rules followed, decision backed by numbers."}},
-"price":[48,26,200,"order"],
-"quiz":[["What is a SKU?","One exact item, such as a size and colour of a product."],["What is lead time?","Days between placing an order and getting the stock."],["What is margin percent?","Margin per unit divided by price."],["What is a reorder point?","Daily sales times lead time plus a safety amount."],["Why count stock on arrival?","To catch missing or damaged items before you pay or sell."],["Who sets return and refund rules?","Mainly the provinces under consumer protection law; check yours."],["What can packaged goods need in Canada?","Labels in English and French, and extra rules for some products."],["Why track returns by reason?","To fix the most common cause."],["What does a wholesale price list include?","Prices, minimum order, payment terms and delivery."],["What do you do when you cannot find a rule?","Ask the official office and keep the answer in writing."]],
-"jobs":["Sales associate","Stock clerk or warehouse worker","Buyer","Store manager","Online seller","Wholesale sales representative"]}
+{
+ "mods": {
+  "1": {
+   "title": "Know the retail and wholesale words and roles",
+   "intro": "Retail sells to people. Wholesale sells in larger amounts to businesses that resell. Learn the words first.",
+   "pts": [
+    "Terms: SKU, stock, margin, markup, supplier, lead time, minimum order, reorder point.",
+    "A SKU is one exact item, such as a blue shirt in size M.",
+    "Retail roles: sales, buyer, stock clerk, manager. Wholesale roles: sales rep, buyer, warehouse, driver.",
+    "Visit a shop and list what sells fast and what sits.",
+    "Compare markup and margin: markup is on cost, margin is on price. Work one example of each.",
+    "List the difference between a retail price, a wholesale price and a cost price for one item.",
+    "Learn the shop words for the floor: shelf facing, display, aisle, till, back room."
+   ],
+   "ex": "Markup of 100 percent on a cost of 10 gives a price of 20. The margin is (20 - 10) / 20 = 50 percent of the price. A markup of 50 percent on the same cost gives 15, and a margin of 5 / 15, about 33 percent.",
+   "act": "Visit a shop and list ten items with price, shelf place and whether stock looks low.",
+   "std": "Task: write a shop observation note. Condition: one visit with permission. Standard: ten items listed, terms used correctly, one gap identified."
+  },
+  "2": {
+   "title": "Explain how goods flow from supplier to customer",
+   "intro": "Goods move through a chain. Delays and errors at any step cost money.",
+   "pts": [
+    "Steps: choose product, order from supplier, receive, check, store, sell, deliver, handle returns.",
+    "Check delivery against the order: item, quantity, damage, price.",
+    "Lead time is the days between ordering and getting stock.",
+    "Record each step so you can find mistakes.",
+    "Write the name of the person who does each step in your chain.",
+    "Note how a late delivery changes your sales: what do you tell the customer?",
+    "Plan a place and a rule for returned goods so they are checked and put back or set aside."
+   ],
+   "ex": "Order 100 units on day 1; they arrive on day 15; lead time is 14 days. If you sell 5 units a day, the 14 days of waiting uses 14 x 5 = 70 units, so you must order before stock falls below 70.",
+   "act": "Draw a goods flow for one product and note where it could be late or damaged.",
+   "std": "Task: draw a goods flow chart. Condition: for one real product. Standard: all steps shown, lead times estimated and three risks marked."
+  },
+  "3": {
+   "title": "Receive, count and shelve stock to a standard",
+   "intro": "Stock records must match what is on the shelf.",
+   "pts": [
+    "Count stock on arrival and sign for exceptions.",
+    "Label shelves and keep like with like. Put older stock first.",
+    "Count a small sample every week and a full count each month.",
+    "Fix the cause of each difference, such as wrong picks or theft.",
+    "Use a pick list for each order and tick items as they are taken from the shelf.",
+    "Store heavy items low and keep walkways clear; lift with the right method.",
+    "Keep damaged and returned goods in a marked place until they are checked."
+   ],
+   "ex": "Records say 40 units but the shelf holds 37. Check the last receipts and sales. Found: three units were returned but not added back, since 37 + 3 = 40. Fix: add a returns step to the receiving checklist.",
+   "act": "Do a count of twenty SKUs, compare with records and explain each difference.",
+   "std": "Task: stock count and match. Condition: twenty SKUs. Standard: accuracy at or above 95 percent, and each difference explained in writing."
+  },
+  "4": {
+   "title": "Follow Canadian sales, labelling and consumer rules",
+   "intro": "Selling in Canada means following tax, labelling and consumer rules that vary by province.",
+   "pts": [
+    "Collect and pay sales tax once your taxable sales pass the small-supplier limit. Rates and rules differ by province. Check the current rules with the tax agency.",
+    "Many packaged goods need bilingual labels, and some products have extra safety rules, such as goods for children. Check the current rules.",
+    "Consumer protection laws on returns, refunds, warranties and price display are provincial.",
+    "Imported goods can face duties and border rules; check with the border agency before you order.",
+    "Ask the tax agency when you must register for sales tax and how often you file.",
+    "Check which labels are needed for your goods: contents, size, origin, and language.",
+    "Write your return and refund policy in plain words and post it where customers can see it."
+   ],
+   "ex": "A shopper wants a refund on an item bought online. You check your posted policy and the provincial consumer rule, and write the answer the same day. If the item cost 48 CAD and the rule requires a refund, the refund is 48 CAD plus any tax charged. Check the provincial rule for shipping costs.",
+   "act": "Build a rules table for your product and province with enforcer, action and date checked.",
+   "std": "Task: build a rules table. Condition: official pages only. Standard: each row has a dated source and action; unclear cases say to check with the authority."
+  },
+  "5": {
+   "title": "Set price, margin and reorder levels",
+   "intro": "Make sure each sale earns more than it costs and that you do not run out or overstock.",
+   "pts": [
+    "Margin per unit = price minus cost. Margin percent = margin divided by price.",
+    "Include fees, shipping, packaging and returns in cost.",
+    "Reorder point = daily sales times lead time plus a safety amount.",
+    "Break-even = fixed cost divided by margin per unit.",
+    "Work the margin per order from price, cost, shipping and fees.",
+    "Set a minimum price below which you do not sell, based on cost plus a small margin.",
+    "Review slow items each month and cut price, bundle or stop buying them."
+   ],
+   "ex": "Sell 5 a day, lead time 10 days, safety stock 10: reorder at 5 x 10 + 10 = 60 units. For an order priced at 48 CAD with 26 CAD cost, margin is 22 CAD, so 200 orders give 200 x 22 = 4,400 CAD before other costs. Teaching figures only.",
+   "act": "Build a spreadsheet for five SKUs with cost, price, margin, reorder point and break-even.",
+   "std": "Task: build a pricing and reorder sheet. Condition: real supplier quotes. Standard: formulas visible, units shown, three what-if cases including a 15 percent cost rise."
+  },
+  "6": {
+   "title": "Run the shop or warehouse every day",
+   "intro": "Steady routines keep customers happy and money safe.",
+   "pts": [
+    "Open and close with checklists for cash, locks and stock.",
+    "Answer customer messages within one working day.",
+    "Track returns by reason and fix the most common cause.",
+    "Record every sale with date, price, tax, fees and shipping.",
+    "Check cash in the till against sales at close and write any difference.",
+    "Rotate stock and check dates on goods that expire.",
+    "Hold a weekly team check of top sellers, low stock and customer messages."
+   ],
+   "ex": "Returns log: 12 returns this month, 7 'wrong size'. That is 7 / 12, about 58 percent. Fix: add a size guide on the page and next to the shelf. If returns fall to 6 next month, you have halved the problem.",
+   "act": "Keep a four-week log of sales, stock counts and returns and choose one improvement.",
+   "std": "Task: keep a four-week operation log. Condition: real or practice shop. Standard: weekly pages complete; improvement dated and result noted."
+  },
+  "7": {
+   "title": "Sell through shops, online and to other businesses",
+   "intro": "Customers find you in many ways. Choose two or three routes and do them well.",
+   "pts": [
+    "Routes: own store, marketplace, own website, wholesale to other shops.",
+    "Write honest titles, clear photos, size, condition and delivery cost.",
+    "For wholesale, give a price list with minimum order and payment terms.",
+    "Keep a customer list only with consent and follow the privacy rules.",
+    "Write product titles with the key words a buyer would type.",
+    "Show the total price, including shipping, before the buyer pays.",
+    "Reply to each wholesale inquiry with a price list within one working day."
+   ],
+   "ex": "Wholesale terms: minimum order 200, payment within 30 days, free delivery over 1,000. A buyer who takes 200 units at 6 CAD pays 1,200 CAD, which is over 1,000, so delivery is free. Another who takes 100 units pays 600 plus delivery and misses the minimum.",
+   "act": "Write one listing and one wholesale sheet, share both and log responses for two weeks.",
+   "std": "Task: publish offers and track results. Condition: two weeks. Standard: listing is honest, price list is clear, results recorded with one change."
+  },
+  "8": {
+   "title": "Manage risk, pilot and grow",
+   "intro": "Prove the model small, then grow in steps.",
+   "pts": [
+    "Risk register: supplier failure, price swings, theft, damaged goods, bad reviews, cash shortage.",
+    "Keep a cash buffer for slow months and insure stock where it makes sense.",
+    "Pilot for 60 days with a stop rule, for example a minimum number of orders.",
+    "Write the review and a 12-month plan.",
+    "Rank the risks by cost and likelihood, and assign an owner to each.",
+    "Plan for a slow month: what spending do you cut first?",
+    "Ask three customers what almost stopped them from buying and list the answers."
+   ],
+   "ex": "Result at day 60: 180 orders, 6 percent returns. Returns are 0.06 x 180 = 10.8, about 11 orders. Decision: drop two slow SKUs and add two best-selling variants. Check the next 60 days for fewer returns and more orders.",
+   "act": "Run the pilot, write the register, review and plan, and present to a panel of three.",
+   "std": "Task: pilot a small selling operation. Condition: real orders. Standard: measures tracked, rules followed, decision backed by numbers."
+  }
+ },
+ "price": [
+  48,
+  26,
+  200,
+  "order"
+ ],
+ "quiz": [
+  [
+   "What is a SKU?",
+   "One exact item, such as a size and colour of a product."
+  ],
+  [
+   "What is lead time?",
+   "Days between placing an order and getting the stock."
+  ],
+  [
+   "What is margin percent?",
+   "Margin per unit divided by price."
+  ],
+  [
+   "What is a reorder point?",
+   "Daily sales times lead time plus a safety amount."
+  ],
+  [
+   "Why count stock on arrival?",
+   "To catch missing or damaged items before you pay or sell."
+  ],
+  [
+   "Who sets return and refund rules?",
+   "Mainly the provinces under consumer protection law; check yours."
+  ],
+  [
+   "What can packaged goods need in Canada?",
+   "Labels in English and French, and extra rules for some products."
+  ],
+  [
+   "Why track returns by reason?",
+   "To fix the most common cause."
+  ],
+  [
+   "What does a wholesale price list include?",
+   "Prices, minimum order, payment terms and delivery."
+  ],
+  [
+   "What do you do when you cannot find a rule?",
+   "Ask the official office and keep the answer in writing."
+  ]
+ ],
+ "jobs": [
+  "Sales associate",
+  "Stock clerk or warehouse worker",
+  "Buyer",
+  "Store manager",
+  "Online seller",
+  "Wholesale sales representative"
+ ]
+}

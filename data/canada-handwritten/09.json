@@ -13,9 +13,12 @@
     "Know the main routes: capture and store, convert to fuel, convert to materials, burn-off of methane.",
     "Learn the numbers: tonnes captured per year, energy used per tonne, cost per tonne.",
     "Buyers: industrial plants, landfills, farms, energy firms, municipalities.",
-    "Pick one source gas and one buyer type."
+    "Pick one source gas and one buyer type.",
+    "Find a real gas source near you (landfill, manure digester, industrial stack) and write its flow in tonnes per year, with where the figure came from.",
+    "Compare routes by cost per tonne, energy needed and product value; pick the simplest one that meets the buyer's need.",
+    "Write what a buyer must believe to buy: the gas flow is steady, the product sells and the permit can be obtained."
    ],
-   "ex": "Landfill gas contains about half methane; capturing and converting 1,000 t of methane avoids about 25,000 t carbon-dioxide equivalent over 100 years.",
+   "ex": "Landfill gas contains roughly half methane. Using a 100-year factor of 25 (use the factor your reporting rule requires), converting 1,000 t of methane avoids about 1,000 x 25 = 25,000 t carbon-dioxide equivalent. If the unit converts only 80% of the 1,000 t, then 800 t x 25 = 20,000 t carbon-dioxide equivalent is avoided.",
    "act": "Write a one-page problem statement with source, gas, volume and buyer.",
    "std": "Volumes have units and sources."
   },
@@ -26,9 +29,12 @@
     "Federal and provincial environmental law set emission limits and reporting.",
     "Pressure vessels and gas systems follow technical safety codes and need certified welders and inspectors.",
     "Carbon credits and offsets need approved methods and verifiers.",
-    "Permits for installation and operation come before building."
+    "Permits for installation and operation come before building.",
+    "Ask the provincial environment office which permit covers a pilot unit and how long approval takes; write the answer down.",
+    "Ask the provincial technical safety authority about the code for pressure vessels and list the inspections.",
+    "Ask a verifier which offset method applies to your gas and what data they need."
    ],
-   "ex": "Row: 'Operate a gas conversion unit | provincial environment ministry | permit and monitoring plan | before start-up | permit on file'.",
+   "ex": "Row: 'Operate a gas conversion unit | provincial environment ministry | permit and monitoring plan | before start-up | permit on file'. Row: 'Build a pressure vessel | provincial technical safety authority | certified design and inspection | before use | inspection record'. If the permit takes 6 months and the build 4 months, start both together: earliest start-up is month 6, not month 10.",
    "act": "Build a rules table for a landfill pilot.",
    "std": "Rows dated and sourced."
   },
@@ -39,9 +45,12 @@
     "Draw block diagram: inlet gas, clean-up, reactor, product, vent.",
     "Calculate mass in = mass out for one hour.",
     "Choose sensors for flow, temperature, pressure and gas composition.",
-    "Plan safety: shut-offs, leak detection, venting."
+    "Plan safety: shut-offs, leak detection, venting.",
+    "Choose units (kg per hour) and use them everywhere on the diagram.",
+    "Size the reactor by residence time: volume = flow x time. Check one example by hand.",
+    "List the three worst failures (leak, over-pressure, loss of power) and the safe state for each."
    ],
-   "ex": "Inlet 100 kg per hour gas; product 62 kg; vent 4 kg; unaccounted 34 kg → investigate leak or measurement.",
+   "ex": "Inlet 100 kg per hour gas; product 62 kg; vent 4 kg; unaccounted 34 kg (100 - 62 - 4) = 34%, so investigate leak or measurement. After fixing a valve: product 90, vent 6, unaccounted 4 = 4%, within the 5% limit. A flow of 20 m3 per hour with 3 minutes of residence needs 20 x 3 / 60 = 1 m3 of reactor.",
    "act": "Complete a balance for a chosen design.",
    "std": "Balance within 5%."
   },
@@ -52,9 +61,12 @@
     "Capital cost spread over years of life.",
     "Operating cost: power, catalysts, labour, maintenance.",
     "Revenue: product sales and credits.",
-    "Break-even and payback."
+    "Break-even and payback.",
+    "Separate capital and operating cost lines, and give each a source: quote, price list or stated assumption.",
+    "Test three scenarios: 50%, 75% and 100% of design capacity, and compute cost per tonne for each.",
+    "Compare with the buyer's current cost per tonne (for example flaring or a carbon price) to see the gap."
    ],
-   "ex": "Machine 640,000 over a 10-year life = 64,000 a year; operating cost 150,000 a year; total 214,000. Capacity 5,000 tonnes a year gives 214,000 / 5,000 = about 43 per tonne. Compare with the credit or product price per tonne. Teaching figures in CAD.",
+   "ex": "Machine 640,000 over a 10-year life = 64,000 a year; operating cost 150,000 a year; total 214,000. At 5,000 tonnes a year the cost is 214,000 / 5,000 = about 43 per tonne; at 75% use (3,750 tonnes) it is 214,000 / 3,750 = about 57. Compare with the credit or product price per tonne. Teaching figures in CAD.",
    "act": "Compute cost per tonne and payback.",
    "std": "Assumptions listed."
   },
@@ -65,9 +77,12 @@
     "Install calibrated meters.",
     "Log inputs and outputs daily.",
     "Arrange third-party verification.",
-    "Maintenance schedule and spares."
+    "Maintenance schedule and spares.",
+    "Write a daily check list: read meters, check alarms, walk the unit for leaks, sign and date.",
+    "Calibrate each meter on a schedule and keep the certificate; never adjust figures after the fact.",
+    "Compute uptime = hours running / hours planned and report it monthly."
    ],
-   "ex": "Monthly report: captured 410 t; uptime 92%; verified by auditor.",
+   "ex": "Monthly report: captured 410 t; uptime 92%; verified by auditor. In a 720-hour month, 92% uptime is 720 x 0.92 = about 662 running hours, so the capture rate was 410 / 662 = about 0.62 t per hour.",
    "act": "Keep a 4-week data log with calibration dates.",
    "std": "Log complete."
   },
@@ -78,9 +93,12 @@
     "Approach site managers with data.",
     "Offer pilot with shared cost.",
     "Show permits and safety plan.",
-    "Align with their climate targets."
+    "Align with their climate targets.",
+    "Prepare a one-page site brief: gas flow, space, power, permit path and who pays what.",
+    "Offer a shared-cost pilot: the site gives space and gas, you give the unit and staff, and the data belongs to both.",
+    "Ask the site for its emissions target and show how the pilot contributes in tonnes."
    ],
-   "ex": "Funnel: 12 sites, 4 visits, 2 pilots.",
+   "ex": "Funnel: 12 sites, 4 visits, 2 pilots; site-to-visit is 4 / 12 = 33% and visit-to-pilot is 2 / 4 = 50%. If a pilot costs 60,000 and the site pays 40%, the site pays 24,000 and you pay 36,000.",
    "act": "Pitch a pilot to three sites.",
    "std": "Pitch has numbers."
   },
@@ -91,9 +109,12 @@
     "Hazard review before start-up.",
     "Claims backed by verified data.",
     "Consult neighbours and communities.",
-    "Emergency plan."
+    "Emergency plan.",
+    "Run a hazard review with someone outside the design team; log each hazard with a control and an owner.",
+    "Check each public claim against verified data; if it is not verified, say 'estimated' and give the method.",
+    "Hold an open meeting with neighbours and record their questions and your answers."
    ],
-   "ex": "Risk: 'Gas leak | 2 x 5 | detectors and shutoff | site lead | weekly test'.",
+   "ex": "Risk: 'Gas leak | 2 x 5 | detectors and shutoff | site lead | weekly test'. Score 2 x 5 = 10 of 25. Testing detectors weekly means 52 tests a year; any failed test triggers a repair within 24 hours.",
    "act": "Write risk register.",
    "std": "Owners named."
   },
@@ -104,9 +125,12 @@
     "Run 90 days.",
     "Compare cost per tonne with plan.",
     "Stop rule: uptime under 70% means fix.",
-    "Plan manufacturing."
+    "Plan manufacturing.",
+    "Write the run plan: 90 days, daily logs and a weekly review.",
+    "Compare measured cost per tonne with the plan each month and explain each difference.",
+    "Outline the manufacturing plan: parts list, suppliers and build time for the next unit."
    ],
-   "ex": "Uptime 88%; proceed.",
+   "ex": "Uptime 88%; proceed. Over 90 days (2,160 hours), 88% is 2,160 x 0.88 = about 1,901 running hours, while the stop rule of 70% would be 2,160 x 0.70 = 1,512 hours.",
    "act": "Run pilot review.",
    "std": "Review has decision."
   }
@@ -133,20 +157,20 @@
    "Annual cost divided by tonnes avoided."
   ],
   [
-   "Name two sensors.",
-   "Flow and gas composition (or temperature, pressure)."
+   "What does the uptime figure measure?",
+   "Hours running divided by hours planned."
   ],
   [
    "Why consult neighbours?",
-   "Trust and permits depend on it."
+   "Trust is needed, and a permit may depend on community input; check the provincial rule."
   ],
   [
    "What triggers a fix?",
    "Uptime under 70%."
   ],
   [
-   "Who builds pressure systems?",
-   "Certified welders and inspectors."
+   "Who must build and inspect pressure systems?",
+   "Certified welders and inspectors, following the technical safety code."
   ],
   [
    "What is payback?",

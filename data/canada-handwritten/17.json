@@ -13,9 +13,12 @@
     "Map one route: origin, mode, handover, destination, with times.",
     "Know cost drivers: distance, weight, speed, handling, empty returns.",
     "Study cold chain and dangerous goods as special cases.",
-    "Choose a niche: local last-mile, cold storage, small-parcel consolidation."
+    "Choose a niche: local last-mile, cold storage, small-parcel consolidation.",
+    "Learn each mode's strength: road for flexibility, rail for heavy bulk over distance, air for speed, sea for volume; write one example for each.",
+    "Note seasonal swings such as harvest, holiday peaks and spring road limits; check the provincial weight rule.",
+    "Interview three shippers about volume, timing and damage history."
    ],
-   "ex": "A shipper sends 12 pallets weekly to three towns; empty return trips raise cost per pallet by 30%.",
+   "ex": "A shipper sends 12 pallets weekly to three towns. If a loaded trip costs 100 per pallet and empty returns add 30%, the cost is 130 per pallet. Over 12 pallets that is 1,560 instead of 1,200, a difference of 360 a week.",
    "act": "Map one route with costs.",
    "std": "Costs per mode shown."
   },
@@ -26,9 +29,12 @@
     "Commercial driver licensing, hours-of-service and vehicle inspections apply.",
     "Dangerous goods need training and documents.",
     "Food and medicine storage need temperature records.",
-    "Cross-border rules need customs paperwork."
+    "Cross-border rules need customs paperwork.",
+    "Learn that axle weights and spring road limits are set by the province; check the provincial rule before you plan a load.",
+    "Write a daily pre-trip inspection checklist and keep signed copies.",
+    "Check insurance requirements for carriers and warehouse operators; check the provincial and federal rule."
    ],
-   "ex": "Row: 'Drive commercial truck | provincial and federal transport rules | licence, logs, inspection | each day | log book'.",
+   "ex": "Row: 'Drive commercial truck | provincial and federal transport rules | licence, logs, inspection | each day | log book'. A second row: 'Store chilled food | food safety rule | temperature log against the limit in the rule | at the interval the rule sets; check it | log sheet'. Date each source.",
    "act": "Build a rules table.",
    "std": "Rows sourced and dated."
   },
@@ -39,9 +45,12 @@
     "Group stops by area and time window.",
     "Load in reverse stop order.",
     "Warehouse flow: receive, check, put-away, pick, pack, ship.",
-    "Use simple software."
+    "Use simple software.",
+    "Order stops by time window first, then by distance.",
+    "Design the dock with separate receiving and shipping areas where possible and keep aisles clear.",
+    "Count touches: every extra handling adds cost and damage risk, so cut one."
    ],
-   "ex": "Route A: 22 stops in 188 km vs 241 km unplanned, saving 22%.",
+   "ex": "Route A: 22 stops in 188 km versus 241 km unplanned. The saving is 53 km, which is 53 / 241 = 22%. At 1.20 per km for fuel and wear that is 63.60 saved per route.",
    "act": "Plan a 15-stop route two ways.",
    "std": "Distances compared."
   },
@@ -52,9 +61,12 @@
     "Vehicle cost per km, driver cost per hour, fuel, insurance.",
     "Warehouse cost per pallet per month.",
     "Utilisation: loaded share of capacity.",
-    "Margin and break-even."
+    "Margin and break-even.",
+    "Work out vehicle cost per km: fuel, tires, repairs, depreciation and insurance divided by km driven.",
+    "For the warehouse, divide rent, utilities and labour by pallet positions to get cost per position per month.",
+    "Test a utilisation case: if loads run 70% full, revenue per trip falls."
    ],
-   "ex": "Load price 2,400; cost 1,800; margin 600 (25%); fixed cost 24,000 a month → 40 loads. Teaching figures in CAD.",
+   "ex": "Load price 2,400; cost 1,800; margin 600 (25%); fixed cost 24,000 a month gives 24,000 / 600 = 40 loads. At 70% utilisation revenue is 2,400 x 0.7 = 1,680 against the same 1,800 cost, a loss of 120 per load. Teaching figures in CAD.",
    "act": "Build a cost sheet with 70% utilisation case.",
    "std": "Cases shown."
   },
@@ -65,9 +77,12 @@
     "Track on-time and damage rates.",
     "Inspect and photograph loads.",
     "Preventive maintenance.",
-    "Handle claims fast."
+    "Handle claims fast.",
+    "Record arrival time at each stop against the promised window.",
+    "Photograph the load at pickup and at delivery and get a signed receipt.",
+    "Schedule maintenance by kilometres and log it; a missed service goes in the risk register."
    ],
-   "ex": "On-time 94%; damage 0.8%.",
+   "ex": "On-time 94%: 47 of 50 deliveries arrived in the window. Damage 0.8%: 4 pallets of 500 were damaged. Track both every week and set a target for next month.",
    "act": "Keep a 4-week delivery log.",
    "std": "Rates computed."
   },
@@ -78,9 +93,12 @@
     "Offer trial loads.",
     "Quote in writing with terms.",
     "Partner with brokers and warehouses.",
-    "Track funnel."
+    "Track funnel.",
+    "Write a one-page rate card with minimum charge, waiting time and cancellation terms.",
+    "Offer a trial of five loads at the normal price, judged against an agreed on-time target.",
+    "Ask partner brokers for one thing to improve and record the answer."
    ],
-   "ex": "Funnel: 25 shippers, 8 quotes, 3 customers.",
+   "ex": "Funnel: 25 shippers, 8 quotes, 3 customers. Quote rate is 8 / 25 = 32%, win rate is 3 / 8 = 37.5%, and overall 3 / 25 = 12%. To win six customers you would contact about 50 shippers.",
    "act": "Pitch three shippers.",
    "std": "Pitch has numbers."
   },
@@ -91,9 +109,12 @@
     "Fatigue and speed controls.",
     "Winter driving plans.",
     "Cargo insurance.",
-    "Theft prevention."
+    "Theft prevention.",
+    "Set a rule for when a driver must stop for rest or bad weather, and state that no one is penalised for stopping.",
+    "Prepare a winter kit and check the provincial rule on tires and chains.",
+    "Compare cargo insurance limits with the value of a pallet."
    ],
-   "ex": "Risk: 'Winter delay | 4 x 3 | buffer days and alerts | dispatcher | each season'.",
+   "ex": "Risk: 'Winter delay | 4 x 3 | buffer days and alerts | dispatcher | each season'. The score is 4 x 3 = 12. If a lost pallet is worth 6,000 and cover is 5,000, 1,000 is uninsured.",
    "act": "Write a risk register.",
    "std": "Owners named."
   },
@@ -104,9 +125,12 @@
     "60 days.",
     "Measure on-time, cost per pallet.",
     "Stop rule: margin under 10% means re-price.",
-    "Plan growth."
+    "Plan growth.",
+    "Choose a lane with a willing shipper and repeat loads, such as two a week.",
+    "Record cost per pallet and on-time rate every week.",
+    "Decide in writing on day 60 whether to continue, re-price or stop."
    ],
-   "ex": "Margin 22%; proceed.",
+   "ex": "Margin 22%: at a price of 2,400 the cost is 2,400 x 0.78 = 1,872 and the margin is 528. That is above the 10% stop line (240), so proceed and plan growth.",
    "act": "Run pilot review.",
    "std": "Review has decision."
   }

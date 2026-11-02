@@ -1,12 +1,188 @@
-{"mods":{
-"1":{"title":"Know housekeeping work","intro":"Housekeeping keeps homes, hotels and care spaces clean, tidy and ready. Start with the areas, tasks and words.","pts":["Name areas: bedroom, bathroom, kitchen, living space, laundry.","Describe daily, weekly and deep-clean tasks.","Explain the difference between cleaning, sanitising and disinfecting.","List words: linen, turnover, checklist, supplies cart, stain."],"ex":"A guest room turnover: strip bed, empty bins, clean bathroom, dust, vacuum, make bed, restock, final check. Each step is on one list.","act":"Write a room-by-room task list for one real room and time each task.","std":"Task: list housekeeping tasks. Condition: one real room. Standard: all areas covered and times written."},
-"2":{"title":"Use tools and products safely","intro":"The right tool and product make work faster and safer. The wrong mix can harm you.","pts":["Name basic tools: cloths, mop, vacuum, scrub brush, bucket, gloves.","Read a product label and a safety data sheet for hazards and use.","Check that you never mix bleach with ammonia or acid cleaners.","Apply colour-coded cloths to avoid spreading germs."],"ex":"Red cloths for bathroom, blue for glass, green for kitchen. Bleach is used alone, diluted by the label, with gloves and fresh air.","act":"Read the label of three products at home and write the hazard, use and first aid.","std":"Task: use products safely. Condition: three real labels. Standard: hazard, use and first aid recorded correctly for each."},
-"3":{"title":"Follow the rules in Canada","intro":"Workplace safety, hazard labels and employment rules apply. Check with the local authority.","pts":["Explain that hazardous products use standard labels and safety data sheets; read them before use.","Describe workplace safety training that employers must give; check your province.","Check employment standards for pay, breaks and overtime; they differ by province.","Apply privacy and trust: never take or share anything you see in a client's home."],"ex":"Rules table row: Hazard training | provincial workplace safety body | complete before using strong products | before first shift | certificate kept.","act":"Make a rules table covering safety training, labels, pay rules and privacy, with official pages.","std":"Task: map the rules. Condition: official pages only. Standard: each row has an enforcer, an action and a checked date."},
-"4":{"title":"Clean to a standard","intro":"Standards turn good intentions into repeatable results.","pts":["Apply the order: top to bottom, back to front, dry to wet.","Build a room standard with photos of done and not done.","Check each room with a checklist before you leave.","Record time per room to improve planning."],"ex":"Bathroom standard: mirror streak-free, tap shiny, no hair in drain, floor dry, supplies stocked. Photo of the finished room is saved.","act":"Clean one room twice. The second time use your checklist and compare time and result.","std":"Task: clean a room to a standard. Condition: written checklist. Standard: every item passed and second run is faster or better."},
-"5":{"title":"Laundry, linen and special surfaces","intro":"Different materials need different care. Mistakes cost money.","pts":["Apply care labels for washing, heat and drying.","Compare surfaces: wood, stone, glass, steel, carpet; choose safe products.","Handle stains: act early, test a hidden spot, work from outside in.","Check bed linen standards: clean, dry, undamaged, folded the same way."],"ex":"A red wine stain on carpet: blot, do not rub, use cool water and a mild cleaner after a hidden-spot test.","act":"Test two stain methods on cloth scraps and write which worked and why.","std":"Task: remove a stain. Condition: scrap test. Standard: hidden-spot test done first and method recorded."},
-"6":{"title":"Price your time and plan jobs","intro":"Clients pay for results, but you must cover time, travel and supplies.","pts":["Compute cost per job: time, travel, supplies, insurance, tax set-aside.","Compare hourly and fixed prices and explain which suits each job.","Build a weekly plan with travel time and rest.","Evaluate which jobs pay well for the time and which do not."],"ex":"Fixed price 120 for a 3-hour home, supplies 8, travel 6. Margin 106. If fixed costs are 300 a month, break-even is about 3 jobs. Teaching numbers only.","act":"Build a cost sheet and a price list for three job types.","std":"Task: price a job. Condition: all costs counted. Standard: margin and break-even correct and shown with units."},
-"7":{"title":"Health, trust and clients","intro":"You work in private spaces. Safety, honesty and respect build repeat work.","pts":["Apply body safety: lift well, kneel with padding, take breaks, protect hands.","Check keys and codes: store safely and never copy without permission.","Write a service agreement: tasks, hours, access, cancellations, breakage.","Handle a damage case: stop, tell the client, photo, written note."],"ex":"A vase breaks. Housekeeper stops, tells the client at once, takes a photo, writes what happened. Honesty keeps the client.","act":"Write an agreement, a key-handling rule and a damage report form.","std":"Task: protect trust. Condition: practice case. Standard: agreement has tasks and access; damage form completed honestly."},
-"8":{"title":"Run the service for real","intro":"Now run your housekeeping service with real clients, quality checks and a plan.","pts":["Run a 60-day pilot with a stop rule agreed in advance.","Review weekly: jobs, time per job, quality score, complaints.","Create a 12-month plan with insurance, supplies and growth.","Lead others: train a helper using your standards and photos."],"ex":"Stop rule: if fewer than 15 jobs in 60 days, stop and write lessons. Result: 24 jobs and 3 repeat clients; add a part-time helper.","act":"Run the pilot, write the review and present your plan to three people.","std":"Task: run a housekeeping pilot. Condition: 60 days, real clients. Standard: results compared with the stop rule and safety training confirmed."}},
-"price":[120,92,40,"job"],
-"quiz":[["What is the cleaning order?","Top to bottom, back to front, dry to wet."],["Why use colour-coded cloths?","To avoid spreading germs between areas."],["What must you never mix?","Bleach with ammonia or acid cleaners."],["Where do you find product hazards?","The label and the safety data sheet."],["What do you do before using a stain remover?","Test it on a hidden spot."],["What should a service agreement include?","Tasks, hours, access, cancellations and breakage."],["How should you store client keys?","Safely, labelled by code, never copied without permission."],["What do you do if you break something?","Stop, tell the client, take a photo and write a note."],["How do you find break-even jobs?","Fixed cost divided by margin per job."],["Who sets pay and break rules?","The province; check employment standards."]],
-"jobs":["Housekeeper","Hotel room attendant","Laundry attendant","Care facility cleaner","Housekeeping supervisor","Housekeeping business owner"]}
+{
+ "mods": {
+  "1": {
+   "title": "Know housekeeping work",
+   "intro": "Housekeeping keeps homes, hotels and care spaces clean, tidy and ready. Start with the areas, tasks and words.",
+   "pts": [
+    "Name areas: bedroom, bathroom, kitchen, living space, laundry.",
+    "Describe daily, weekly and deep-clean tasks.",
+    "Explain the difference between cleaning, sanitising and disinfecting.",
+    "List words: linen, turnover, checklist, supplies cart, stain.",
+    "Compare a home clean, a hotel room turnover and a care-facility clean, and say what is different in each.",
+    "Identify high-touch spots such as door handles, switches, taps and remotes that need extra attention.",
+    "Classify tasks by how often they are done: every visit, weekly, monthly or seasonal."
+   ],
+   "ex": "A guest room turnover: strip bed, empty bins, clean bathroom, dust, vacuum, make bed, restock, final check. If the steps take 8, 5, 12, 6, 7, 6, 3 and 3 minutes, the room takes 50 minutes in total. Writing the times shows where the work is slow.",
+   "act": "Write a room-by-room task list for one real room and time each task.",
+   "std": "Task: list housekeeping tasks. Condition: one real room. Standard: all areas covered and times written."
+  },
+  "2": {
+   "title": "Use tools and products safely",
+   "intro": "The right tool and product make work faster and safer. The wrong mix can harm you.",
+   "pts": [
+    "Name basic tools: cloths, mop, vacuum, scrub brush, bucket, gloves.",
+    "Read a product label and a safety data sheet for hazards and use.",
+    "Apply the rule: never mix bleach with ammonia or acid cleaners.",
+    "Apply colour-coded cloths to avoid spreading germs.",
+    "Match a product to a surface and a soil: glass cleaner for glass, degreaser for kitchen grease, descaler for lime scale.",
+    "Demonstrate safe dilution by measuring with a cup or cap rather than guessing.",
+    "Store products in original labelled containers, upright, away from food and out of children's reach."
+   ],
+   "ex": "Red cloths for the bathroom, blue for glass, green for the kitchen. A label says 1 part cleaner to 10 parts water, so 100 mL of cleaner goes into 1,000 mL of water to make 1,100 mL. Bleach is used alone, diluted by the label, with gloves and fresh air.",
+   "act": "Read the label of three products at home and write the hazard, use and first aid.",
+   "std": "Task: use products safely. Condition: three real labels. Standard: hazard, use and first aid recorded correctly for each."
+  },
+  "3": {
+   "title": "Follow the rules in Canada",
+   "intro": "Workplace safety, hazard labels and employment rules apply. Check with the local authority.",
+   "pts": [
+    "Explain that hazardous products use standard labels and safety data sheets; read them before use.",
+    "Describe workplace safety training that employers must give; check your province.",
+    "Check employment standards for pay, breaks and overtime; they differ by province.",
+    "Apply privacy and trust: never take or share anything you see in a client's home.",
+    "Identify the provincial workplace safety body and find its page on cleaning and chemical hazards.",
+    "Keep a record of training and of any incident, with the date; check the provincial rule on how long to keep it.",
+    "Check whether you are an employee or self-employed, since protections and duties differ; check the provincial rule."
+   ],
+   "ex": "Rules table row: Hazard training | provincial workplace safety body | complete before using strong products | before first shift | certificate kept. A new worker with a 2-hour course and a 4-hour first shift plans 6 hours in all, with the course first. The row also gets the date it was last checked.",
+   "act": "Make a rules table covering safety training, labels, pay rules and privacy, with official pages.",
+   "std": "Task: map the rules. Condition: official pages only. Standard: each row has an enforcer, an action and a checked date."
+  },
+  "4": {
+   "title": "Clean to a standard",
+   "intro": "Standards turn good intentions into repeatable results.",
+   "pts": [
+    "Apply the order: top to bottom, back to front, dry to wet.",
+    "Build a room standard with photos of done and not done.",
+    "Check each room with a checklist before you leave.",
+    "Record time per room to improve planning.",
+    "Define pass and fail for each item in plain words, such as 'no streaks when seen from the door'.",
+    "Use a timer and compare actual time with planned time for each room.",
+    "Fix the cause of a missed item, such as a worn cloth or a wrong product, and not only the item."
+   ],
+   "ex": "Bathroom standard: mirror streak-free, tap shiny, no hair in drain, floor dry, supplies stocked. The first clean takes 40 minutes and misses two items; the second takes 34 minutes and passes all five. That saves 6 minutes, and a photo of the finished room is saved.",
+   "act": "Clean one room twice. The second time use your checklist and compare time and result.",
+   "std": "Task: clean a room to a standard. Condition: written checklist. Standard: every item passed and second run is faster or better."
+  },
+  "5": {
+   "title": "Laundry, linen and special surfaces",
+   "intro": "Different materials need different care. Mistakes cost money.",
+   "pts": [
+    "Apply care labels for washing, heat and drying.",
+    "Compare surfaces: wood, stone, glass, steel, carpet; choose safe products.",
+    "Handle stains: act early, test a hidden spot, work from outside in.",
+    "Check bed linen standards: clean, dry, undamaged, folded the same way.",
+    "Sort laundry by colour and fabric, and check pockets before washing.",
+    "Explain why high heat can shrink some fabrics and why mixing colours can stain.",
+    "Fold and stack linen the same way each time so a room can be made quickly."
+   ],
+   "ex": "A red wine stain on carpet: blot, do not rub, use cool water and a mild cleaner after a hidden-spot test. Folded linen sets also save time: if a bed takes 6 minutes to make from a folded set and 9 minutes from a messy pile, 10 beds save 30 minutes.",
+   "act": "Test two stain methods on cloth scraps and write which worked and why.",
+   "std": "Task: remove a stain. Condition: scrap test. Standard: hidden-spot test done first and method recorded."
+  },
+  "6": {
+   "title": "Price your time and plan jobs",
+   "intro": "Clients pay for results, but you must cover time, travel and supplies.",
+   "pts": [
+    "Compute cost per job: time, travel, supplies, insurance, tax set-aside.",
+    "Compare hourly and fixed prices and explain which suits each job.",
+    "Build a weekly plan with travel time and rest.",
+    "Evaluate which jobs pay well for the time and which do not.",
+    "Compute your real hourly earnings by dividing margin by all hours, including travel.",
+    "List which costs repeat each month, such as insurance, phone and supplies, and which change per job.",
+    "Decide a minimum job price below which you decline."
+   ],
+   "ex": "Fixed price 120 for a 3-hour home, supplies 8, travel 6. Margin = 120 - 8 - 6 = 106. Counting 1 hour of travel, the work is 4 hours, so the margin earns about 26.50 an hour. If fixed costs are 300 a month, break-even is 300 / 106 = about 3 jobs (teaching numbers only).",
+   "act": "Build a cost sheet and a price list for three job types.",
+   "std": "Task: price a job. Condition: all costs counted. Standard: margin and break-even correct and shown with units."
+  },
+  "7": {
+   "title": "Health, trust and clients",
+   "intro": "You work in private spaces. Safety, honesty and respect build repeat work.",
+   "pts": [
+    "Apply body safety: lift well, kneel with padding, take breaks, protect hands.",
+    "Check keys and codes: store safely and never copy without permission.",
+    "Write a service agreement: tasks, hours, access, cancellations, breakage.",
+    "Handle a damage case: stop, tell the client, photo, written note.",
+    "Explain why you must never post photos or details of a client's home.",
+    "Ask about allergies, pets and fragile items before the first visit.",
+    "Decline in clear words a task that is unsafe, such as cleaning from an unsteady high surface."
+   ],
+   "ex": "A vase breaks. The housekeeper stops, tells the client at once, takes a photo and writes what happened. The agreement already says how breakage is handled, so the next step is agreed in minutes. Honesty keeps the client.",
+   "act": "Write an agreement, a key-handling rule and a damage report form.",
+   "std": "Task: protect trust. Condition: practice case. Standard: agreement has tasks and access; damage form completed honestly."
+  },
+  "8": {
+   "title": "Run the service for real",
+   "intro": "Now run your housekeeping service with real clients, quality checks and a plan.",
+   "pts": [
+    "Run a 60-day pilot with a stop rule agreed in advance.",
+    "Review weekly: jobs, time per job, quality score, complaints.",
+    "Create a 12-month plan with insurance, supplies and growth.",
+    "Lead others: train a helper using your standards and photos.",
+    "Collect a short client rating after each visit and act on low scores.",
+    "Calculate the repeat-client rate: repeat clients divided by all clients.",
+    "Plan a safety refresher and a supplies check each month."
+   ],
+   "ex": "Stop rule: if fewer than 15 jobs in 60 days, stop and write lessons. Result: 24 jobs from 8 clients, with 3 repeat clients, so the repeat rate is 3 / 8 = 37.5%. Since 24 is above 15, the pilot passes and a part-time helper is added.",
+   "act": "Run the pilot, write the review and present your plan to three people.",
+   "std": "Task: run a housekeeping pilot. Condition: 60 days, real clients. Standard: results compared with the stop rule and safety training confirmed."
+  }
+ },
+ "price": [
+  120,
+  92,
+  40,
+  "job"
+ ],
+ "quiz": [
+  [
+   "What is the cleaning order?",
+   "Top to bottom, back to front, dry to wet."
+  ],
+  [
+   "Why use colour-coded cloths?",
+   "To avoid spreading germs between areas."
+  ],
+  [
+   "What must you never mix?",
+   "Bleach with ammonia or acid cleaners."
+  ],
+  [
+   "Where do you find product hazards?",
+   "The label and the safety data sheet."
+  ],
+  [
+   "What do you do before using a stain remover?",
+   "Test it on a hidden spot."
+  ],
+  [
+   "What should a service agreement include?",
+   "Tasks, hours, access, cancellations and breakage."
+  ],
+  [
+   "How should you store client keys?",
+   "Safely, labelled by code, never copied without permission."
+  ],
+  [
+   "What do you do if you break something?",
+   "Stop, tell the client, take a photo and write a note."
+  ],
+  [
+   "How do you find break-even jobs?",
+   "Fixed cost divided by margin per job."
+  ],
+  [
+   "Who sets pay and break rules?",
+   "Mostly the province; check employment standards."
+  ]
+ ],
+ "jobs": [
+  "Housekeeper",
+  "Hotel room attendant",
+  "Laundry attendant",
+  "Care facility cleaner",
+  "Housekeeping supervisor",
+  "Housekeeping business owner"
+ ]
+}

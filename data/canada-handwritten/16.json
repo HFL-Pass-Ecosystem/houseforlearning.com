@@ -13,9 +13,12 @@
     "Collect 20 recent sales: price, size, days on market, condition.",
     "Compute price per square foot and the spread.",
     "Note rent levels, vacancy and new supply.",
-    "Write a one-page market note."
+    "Write a one-page market note.",
+    "Record the source and date of every sale; use closed sales, not asking prices.",
+    "Use the median rather than the average, so one unusual sale does not distort the picture.",
+    "Compare with rent: annual rent divided by price gives a gross yield; work it out for three property types."
    ],
-   "ex": "20 sales: median 640 per sq ft; range 560 to 760; median 28 days on market.",
+   "ex": "20 sales: median 640 per sq ft; range 560 to 760; median 28 days on market. A 900 sq ft unit at the median is 900 x 640 = 576,000, and the range gives 504,000 to 684,000. If it rents for 2,400 a month, annual rent is 28,800 and the gross yield is 28,800 / 576,000 = 5%.",
    "act": "Build a 20-sale table and market note.",
    "std": "Numbers have sources and dates."
   },
@@ -26,9 +29,12 @@
     "Provincial regulators license agents and brokers; only licensed people may trade for others.",
     "Deposits go into trust accounts with strict records.",
     "Sellers and agents must disclose known material facts.",
-    "Anti-money-laundering rules need client identification."
+    "Anti-money-laundering rules need client identification.",
+    "Write the steps to become licensed in your province: course, exam, brokerage sponsor and insurance; check the regulator's current list.",
+    "Learn the difference between a conflict you must disclose and one you must avoid, and write an example of each.",
+    "Keep a client-identification file: what you check, when, and where it is stored; check the provincial and federal rule."
    ],
-   "ex": "Row: 'Accept a buyer deposit | provincial real-estate regulator | trust account and receipt | same day | trust ledger'.",
+   "ex": "Row: 'Accept a buyer deposit | provincial real-estate regulator | trust account and receipt | by the deadline in the provincial rule | trust ledger'. A second row: 'Disclose a known defect | seller and agent | written disclosure | before offer | signed form'. Date each source.",
    "act": "Build a rules table for your province.",
    "std": "Rows sourced and dated."
   },
@@ -39,9 +45,12 @@
     "Comparable sales method: adjust for size, condition, location.",
     "Income method: net operating income / capitalisation rate.",
     "Check hidden costs: repairs, taxes, fees.",
-    "Write a short valuation note."
+    "Write a short valuation note.",
+    "Choose three comparable sales that are recent and close by, and adjust each for size, condition and location, showing every adjustment in dollars.",
+    "For the income method list rent, vacancy allowance, taxes, insurance and repairs; net operating income is rent minus vacancy and costs.",
+    "Say which method you trust more for this property and why, in two sentences."
    ],
-   "ex": "Net income 28,000 / cap rate 5% = 560,000.",
+   "ex": "Rent 40,000 a year less 5% vacancy (2,000) = 38,000; less costs 10,000 = 28,000 net income. At a 5% cap rate the value is 28,000 / 0.05 = 560,000. At 6% it is 28,000 / 0.06 = about 466,667, so the cap rate you choose matters a great deal.",
    "act": "Value one property two ways.",
    "std": "Both methods shown."
   },
@@ -52,9 +61,12 @@
     "Purchase price plus closing costs.",
     "Repair and holding costs.",
     "Sale or rent income.",
-    "Break-even and stress tests."
+    "Break-even and stress tests.",
+    "List closing costs: legal fees, land transfer tax where it applies, inspection and title insurance; check the provincial rule for each.",
+    "Add holding costs per month (interest, taxes, insurance, utilities) and multiply by the months you expect to hold.",
+    "Run three cases: base, a 5% price fall, and a sale that takes three months longer."
    ],
-   "ex": "Buy 360,000; costs 24,000; sell 420,000; fees 21,000; profit 15,000 (3.5%). A 5% price fall turns it negative. Teaching figures in CAD.",
+   "ex": "Buy 360,000; costs 24,000, so total cost is 384,000. Sell 420,000; fees 21,000, so net is 399,000; profit 15,000, about 3.9% of cost. If the price falls 5% to 399,000, fees of 5% are 19,950, net is 379,050 and the result is a loss of 4,950. Teaching figures in CAD.",
    "act": "Build a deal sheet with a 5% fall case.",
    "std": "Stress case shown."
   },
@@ -65,9 +77,12 @@
     "Listing agreement, offer, conditions, closing.",
     "Record every step.",
     "Use lawyers and inspectors.",
-    "Handle conflicts of interest in writing."
+    "Handle conflicts of interest in writing.",
+    "Make a timeline from listing to offer, condition removal, closing and possession, and put every date in a calendar.",
+    "Keep a copy of every signed document and every message that changes terms.",
+    "Write a handover note that tells the client the next step in plain words."
    ],
-   "ex": "Closing checklist with 14 steps, each signed and dated.",
+   "ex": "Closing checklist with 14 steps, each signed and dated. If only 12 are dated, the file is 12 / 14 = 86% complete, and the two blanks are the first things to chase.",
    "act": "Build a transaction checklist.",
    "std": "All steps dated."
   },
@@ -78,9 +93,12 @@
     "Referrals and local presence.",
     "Plain-language guides.",
     "Respond within hours.",
-    "Collect reviews honestly."
+    "Collect reviews honestly.",
+    "Write a plain guide for first-time buyers that lists every cost with an example figure.",
+    "Reply to every enquiry within a time you state, and log the reply time.",
+    "Ask for a review only after the client agrees, never offer a gift for one, and check the regulator's advertising rule."
    ],
-   "ex": "Funnel: 40 contacts, 10 viewings, 3 offers, 1 sale.",
+   "ex": "Funnel: 40 contacts, 10 viewings, 3 offers, 1 sale. Rates: 10 / 40 = 25% to viewing, 3 / 10 = 30% to offer, 1 / 3 = 33% to sale, and 1 / 40 = 2.5% overall. To expect four sales you would need about 160 contacts.",
    "act": "Run a 4-week funnel.",
    "std": "Funnel recorded."
   },
@@ -91,9 +109,12 @@
     "Fair-housing and human-rights rules forbid discrimination.",
     "Market downturn plan.",
     "Keep records for the required years.",
-    "Insurance."
+    "Insurance.",
+    "Write a short fair-treatment policy: same questions, same information and same service for every client; check the provincial human-rights code.",
+    "Set a downturn plan for a 10% price fall and for sales volume halving.",
+    "Check whether errors-and-omissions insurance is required in your province and what it covers."
    ],
-   "ex": "Risk: 'Price fall | 4 x 4 | margin of safety | owner | quarterly'.",
+   "ex": "Risk: 'Price fall | 4 x 4 | margin of safety | owner | quarterly'. A 10% fall on a 420,000 property is 42,000 of value, so a deal with less than that margin of safety is skipped or re-priced.",
    "act": "Write a risk register.",
    "std": "Owners named."
   },
@@ -104,9 +125,12 @@
     "Pick a listing, value it and plan the sale.",
     "Track 60 days.",
     "Stop rule: negative margin means no deal.",
-    "Review."
+    "Review.",
+    "Pick a real listing from public records and write a value and sale plan without contacting anyone.",
+    "Keep a 60-day diary of price changes, new listings and days on market for the neighbourhood.",
+    "Compare your prediction with what happened and write one lesson."
    ],
-   "ex": "Mock deal margin 6%; go.",
+   "ex": "Mock deal margin 6%: on a total cost of 384,000 that is a profit of about 23,040 (384,000 x 0.06), so net proceeds after fees would need to be 407,040. The margin is above zero, so the decision is go.",
    "act": "Run the mock and present review.",
    "std": "Review has decision."
   }

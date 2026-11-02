@@ -13,22 +13,28 @@
     "Quantum methods are studied for three families of problem: simulating molecules and materials, searching or optimising among huge numbers of choices, and some cryptography tasks.",
     "Most office work, databases and web pages gain nothing from quantum hardware. A buyer who hears 'quantum' for these should be told so.",
     "Ask of any problem: how many choices, how costly is a wrong answer, and what does the best classical method already achieve? Write the three answers before you propose anything.",
-    "Canadian buyers include research groups, banks, logistics firms and energy companies; write one concrete problem for each."
+    "Count the choices with a simple formula and write the number down. Ten stops in a fixed order of visits give 9 x 8 x 7 x ... x 1 = 362,880 orders, which a laptop checks in moments.",
+    "Learn the term 'quantum-inspired': classical software that borrows ideas from quantum methods and runs today on ordinary computers. Test it before you recommend buying quantum time.",
+    "Canadian buyers include research groups, banks, logistics firms and energy companies; write one concrete problem for each.",
+    "End every screen with a one-line verdict: use now, watch and look again on a set date, or not suitable. Give the reason in plain words."
    ],
-   "ex": "Delivery routing for 40 stops has an astronomically large number of orders, but good classical heuristics already get within a few percent of best. Verdict: quantum is not yet worth the cost; recommend a classical solver and a watch list.",
+   "ex": "Delivery routing for 10 stops has 9 x 8 x ... x 1 = 362,880 orders, which a laptop checks at once. For 40 stops the count is a 47-digit number, but good classical heuristics already get within a few percent of the best route. Verdict: quantum is not yet worth the cost; recommend a classical solver and a watch list with a review date.",
    "act": "Write a one-page 'is it quantum?' screen for three real problems and give a verdict with the three answers for each.",
    "std": "Each verdict cites the classical baseline; at least one problem is rejected with reasons."
   },
   "2": {
    "title": "Know the rules, exports and standards in Canada",
-   "intro": "Quantum technology is a controlled field. The rules decide who you may work with and what you may send abroad.",
+   "intro": "Quantum technology is a controlled field. The rules decide who you may work with and what you may send abroad, so check them before you share anything.",
    "pts": [
     "Strategic technology can need a federal export permit; check the control list before you send code, designs or papers to another country.",
     "Research funding and public contracts often require security screening of staff and a data-handling plan.",
     "Cryptography guidance from the federal cyber agency sets timelines for moving to quantum-safe methods; track it.",
-    "Intellectual property: agree in writing who owns code and results when you work with a university or client."
+    "Intellectual property: agree in writing who owns code and results when you work with a university or client.",
+    "Cloud quantum hardware may sit in another country. Before you upload client data, read the contract to see where data is stored, and check the federal and provincial privacy rules.",
+    "Foreign students, staff or visitors may need a check before they see controlled designs; check the provincial and federal rule for your case.",
+    "Date every row of your rules table. Lists and guidance change, so set a review reminder every six months."
    ],
-   "ex": "Row: 'Send circuit design to a partner abroad | federal export control | check list, ask for permit if listed | before first send | permit or written no-permit-needed note on file'.",
+   "ex": "Row: 'Send circuit design to a partner abroad | federal export control | check list, ask for permit if listed | before first send | permit or written no-permit-needed note on file'. If the table has 12 rows and reviews run every 6 months, you recheck 12 x 2 = 24 rows a year, about 2 a month.",
    "act": "Build the rules table for a 3-person quantum start-up in your province, with a source and date per row.",
    "std": "Every row has an enforcer, action and date; no rule guessed."
   },
@@ -39,9 +45,12 @@
     "A qubit holds a blend of 0 and 1 until measured. Measure many times ('shots') and you get a pattern of counts, not one answer.",
     "Start with two circuits: a coin-flip (one gate) and an entangled pair (two gates). Predict the counts, then run them.",
     "Compare simulator and real hardware: the hardware shows errors. Record the error rate as wrong counts divided by total shots.",
-    "Use version control; save the circuit, shots, device name, date and result in one table row per run."
+    "Use version control; save the circuit, shots, device name, date and result in one table row per run.",
+    "Turn counts into shares by dividing each count by the shots. With 1,000 shots, a count of 470 is 47%.",
+    "Run the same circuit at 100 shots and at 1,000 shots and compare. Write one sentence on why more shots give a steadier result.",
+    "Change one thing at a time between runs, such as the device or the shots, so you know what caused any change."
    ],
-   "ex": "Entangled pair, 1,000 shots, ideal result: about 500 '00' and 500 '11'. Real device: 470 '00', 455 '11', 75 other. Error rate = 75 / 1,000 = 7.5%.",
+   "ex": "Entangled pair, 1,000 shots, ideal result: about 500 '00' and 500 '11'. Real device: 470 '00', 455 '11', 75 other. The three counts add to 470 + 455 + 75 = 1,000, so nothing is missing. Error rate = 75 / 1,000 = 7.5%.",
    "act": "Run both circuits on a simulator and on one real device, 1,000 shots each, and tabulate the results.",
    "std": "Predictions written before runs; error rate computed; run table complete."
   },
@@ -52,9 +61,12 @@
     "Variable cost per run: hardware time, extra staff review and reporting.",
     "Fixed cost per month: tools, insurance, workspace, training and a share of the lead's time.",
     "Offer a fixed-price study (for example 6 weeks) with a clear deliverable: a verdict, a baseline comparison and a plan.",
-    "Add 15% contingency because hardware queues and noise slow the schedule."
+    "Add 15% contingency because hardware queues and noise slow the schedule.",
+    "Margin per package = price minus variable cost. Break-even packages = fixed cost per month divided by margin, rounded up.",
+    "Write three cases: 3 packages sold, 5 packages and 8 packages a month, and show profit or loss for each.",
+    "Check what free or low-cost simulator and cloud access can do before you charge for paid hardware time."
    ],
-   "ex": "Study price 2,400 per run-package; variable cost 900; margin 1,500 (63%). Fixed cost 7,000 a month is covered by about 5 packages. Teaching figures in CAD.",
+   "ex": "Study price 2,400 per run-package; variable cost 900; margin 1,500 (63%). Fixed cost 7,000 a month needs 7,000 / 1,500 = 4.67, so 5 packages. With 15% contingency on variable cost, 900 x 1.15 = 1,035, margin 1,365, and 7,000 / 1,365 = 5.13, so 6 packages. If only 3 sell, 3 x 1,500 = 4,500 and the month loses 2,500. Teaching figures in CAD.",
    "act": "Build the cost sheet and compute break-even; show a case where only 3 packages sell.",
    "std": "Units and currency shown; three cases; arithmetic checked."
   },
@@ -65,9 +77,12 @@
     "Record device, software version, calibration date, shots and random seed for every run.",
     "Re-run any surprising result three times before you report it.",
     "Keep a model of 'expected versus observed' for each circuit and flag drift over time.",
-    "Control access to cloud accounts and rotate keys; never paste keys into notes."
+    "Control access to cloud accounts and rotate keys; never paste keys into notes.",
+    "Back up the run table and circuit files to a second place each week, and test that you can open the copy.",
+    "Name files by date and circuit so a colleague can find a run in under a minute.",
+    "At the end of each week, write one page: runs made, surprises, causes found and one change for next week."
    ],
-   "ex": "Weekly page: 12 runs, 2 surprising, both repeated, one traced to a device recalibration; action: add calibration date to the run table.",
+   "ex": "Weekly page: 12 runs, 2 surprising. Each surprise was repeated 3 times, so 2 x 3 = 6 extra runs and 18 runs in all. One surprise traced to a device recalibration; action: add calibration date to the run table.",
    "act": "Keep a 4-week run log and one weekly page.",
    "std": "Every run has all six fields; surprises are repeated."
   },
@@ -78,9 +93,12 @@
     "Use the answer-first form: result, reason, risk, next step.",
     "Never promise advantage you have not shown; show a measured comparison with the best classical method.",
     "Offer a no-regret first step: a two-week screen of the client's problems.",
-    "Partner with a university group or industry cluster for credibility and access to hardware."
+    "Partner with a university group or industry cluster for credibility and access to hardware.",
+    "Replace jargon with a picture or a number. Say 'tests many options at once' only if you can show how.",
+    "Prepare one slide that shows the classical result, the quantum result and the difference, with units.",
+    "List the three questions a doubtful buyer will ask and write a one-sentence honest answer to each."
    ],
-   "ex": "Pitch: 'We screened six scheduling problems; two may benefit from quantum-inspired methods now. We propose a six-week study with a stop point after week two.'",
+   "ex": "Pitch: 'We screened six scheduling problems; two may benefit from quantum-inspired methods now, which is 2 of 6, or 33%. We propose a six-week study with a stop point after week two.' The client can say yes to a small step, not a large bet.",
    "act": "Give a five-minute explanation to a non-expert and collect three written questions.",
    "std": "Listener can repeat the verdict and the next step."
   },
@@ -91,9 +109,12 @@
     "Data stolen today may be decrypted later; help clients inventory what must stay secret for ten years or more.",
     "Plan the move to quantum-safe encryption: list systems, rank by life of data, test, replace in stages.",
     "Be honest in marketing: do not claim speed-ups that you have not measured.",
-    "Include researchers and users from many backgrounds when you choose test problems."
+    "Include researchers and users from many backgrounds when you choose test problems.",
+    "Tell clients which of their keys, certificates and vendors would need change, and who in their team owns each.",
+    "Keep client problem data to the minimum needed, and delete it when the study ends as agreed.",
+    "Say what you do not know. A short list of open questions builds more trust than a confident guess."
    ],
-   "ex": "Inventory row: 'Customer records | secret for 25 years | high risk | pilot quantum-safe key exchange in test system by Q3'.",
+   "ex": "Inventory row: 'Customer records | secret for 25 years | high risk | pilot quantum-safe key exchange in test system by Q3'. A system whose data must last 25 years and whose migration takes 3 years should start planning now.",
    "act": "Write a one-page quantum-safe inventory for a fictional clinic.",
    "std": "Each system has a data life and a migration step."
   },
@@ -104,9 +125,12 @@
     "Agree scope, a deliverable and a stop rule in writing.",
     "Report weekly: tried, learned, next.",
     "Close with a verdict, evidence and a recommendation, even if the verdict is 'not yet'.",
-    "Plan 12 months: three milestones, funding sources and a hiring plan."
+    "Plan 12 months: three milestones, funding sources and a hiring plan.",
+    "Set the success measure before you start, such as a measured gain over the classical baseline with units.",
+    "Hold a review with the client in week 2 and week 6 and write down any change to scope.",
+    "List funding routes to check: public research grants, innovation programmes and client co-funding; check each programme's rules and dates."
    ],
-   "ex": "Stop rule: 'If after week 2 no problem passes the screen, we stop and refund the unused part.' Outcome: one problem passes; study continues.",
+   "ex": "Stop rule: 'If after week 2 no problem passes the screen, we stop and refund the unused part.' In a 6-week pilot, week 2 is one third of the time, so the client risks little. Outcome: one problem passes; study continues.",
    "act": "Run a pilot on a sample problem and present the review.",
    "std": "Review includes a verdict, baseline comparison and a 12-month plan."
   }

@@ -13,9 +13,12 @@
     "Common signals: temperature, pressure, flow, level, vibration, gas.",
     "Match accuracy, range and environment to the job: heat, wash-down, dust, explosive atmosphere.",
     "Ask users what a wrong reading costs and what accuracy they need.",
-    "Pick one sensor type for your first product."
+    "Pick one sensor type for your first product.",
+    "Walk the plant with the user and list each measurement point with its current method: gauge, manual check or none.",
+    "Write the output you need, such as a current signal, a voltage or a digital bus, and which controller will read it.",
+    "Record the highest and lowest temperature, moisture, vibration and chemicals the sensor will meet."
    ],
-   "ex": "A cold-room temperature sensor needs plus or minus 0.5 degrees C from -30 to +10; wrong readings spoil stock worth 40,000.",
+   "ex": "A cold-room temperature sensor needs plus or minus 0.5 degrees C from -30 to +10; wrong readings spoil stock worth 40,000. The range spans 10 - (-30) = 40 degrees C, so plus or minus 0.5 is 0.5 / 40 = 1.25% of span. One spoiled batch costs 40,000, which equals the price of about 276 sensors at 145 (40,000 / 145 = 275.9).",
    "act": "Interview three plant users and write a requirement sheet.",
    "std": "Requirements have units and limits."
   },
@@ -23,12 +26,15 @@
    "title": "Know product safety and approval rules",
    "intro": "Industrial products must be safe and legal.",
    "pts": [
-    "Electrical safety approvals by an accredited body are normally required.",
+    "Electrical safety approvals from an accredited body are normally required; check the current federal and provincial rule for your product.",
     "Equipment for explosive atmospheres needs special certification.",
     "Radio modules need radio approval.",
-    "Calibration claims need traceable standards."
+    "Calibration claims need traceable standards.",
+    "Find which approval marks Canadian buyers accept and which test labs are accredited; ask a lab for a quote and lead time.",
+    "Keep a technical file with drawings, parts list, test reports and approval certificates, each dated.",
+    "Check what bilingual labels and manuals your buyers require, and check the provincial rule where it applies."
    ],
-   "ex": "Row: 'Sell a sensor into a gas plant | hazardous-location certification | certify | before sale | certificate'.",
+   "ex": "Row: 'Sell a sensor into a gas plant | hazardous-location certification | certify | before sale | certificate'. Second row: 'Fit a wireless module | national radio equipment rules | use a pre-approved module or test | before sale | approval certificate'. Check the provincial rule on inspection of installed electrical equipment.",
    "act": "Build a rules table for one sensor.",
    "std": "Rows sourced and dated."
   },
@@ -39,9 +45,12 @@
     "Choose a sensing element and a stable circuit.",
     "Calibrate at several points against a reference.",
     "Test for temperature drift and noise.",
-    "Write the data sheet from measured results."
+    "Write the data sheet from measured results.",
+    "Use a reference instrument with a current calibration certificate that is more accurate than your sensor, often about four times better.",
+    "Let the sensor warm up and settle at each point before you read it, and write down the wait time.",
+    "Repeat each reading five times and record the spread, to separate random noise from fixed offset."
    ],
-   "ex": "Reference 20.00; sensor reads 20.4 at three points; offset corrected; error after calibration plus or minus 0.1.",
+   "ex": "Reference points 0, 20 and 40 degrees C; the sensor reads 0.4, 20.4 and 40.4, so the offset is 0.4 at each point. After subtracting it, the remaining error is at most 0.1 degrees C, which is 0.1 / 40 = 0.25% of span.",
    "act": "Calibrate a sensor at three points and record error.",
    "std": "Error computed."
   },
@@ -52,9 +61,12 @@
     "Parts, assembly, test and calibration time.",
     "Certification amortised over units.",
     "Warranty and returns.",
-    "Price and margin."
+    "Price and margin.",
+    "Add a returns allowance: if 2% of units come back and each costs 70 to replace, add 0.02 x 70 = 1.40 per unit.",
+    "Count test and calibration minutes per unit, divide by 60 and multiply by the hourly labour cost.",
+    "Write a volume discount table and check the margin at each step so no tier sells at a loss."
    ],
-   "ex": "Price 145; cost 70; margin 75 (52%); fixed cost 150,000 → break-even 2,000 sensors. Teaching figures in CAD.",
+   "ex": "Price 145; cost 70; margin 75 (52%); fixed cost 150,000 → break-even 2,000 sensors. Teaching figures in CAD. Check: 2,000 x 75 = 150,000. If only 800 sell in year one, margin earned is 800 x 75 = 60,000, leaving 150,000 - 60,000 = 90,000 uncovered.",
    "act": "Build cost sheet with low-volume case.",
    "std": "Both cases shown."
   },
@@ -65,9 +77,12 @@
     "Incoming parts check.",
     "End-of-line test with pass limits.",
     "Traceability by serial number.",
-    "Track first-pass yield."
+    "Track first-pass yield.",
+    "Write pass limits as numbers on the test sheet, such as 'error not above 0.3 at all three points'.",
+    "Tag failed units with a red label and a fault code, and never ship a reworked unit without a retest.",
+    "Check a sample from each supplier lot and link the lot number to the serial numbers."
    ],
-   "ex": "Yield 94%; main fail: solder joint; fix: reflow profile.",
+   "ex": "Yield 94%; main fail: solder joint; fix: reflow profile. Of 500 units built, 94% pass first time, which is 470 passes and 30 fails. If solder joints cause 18 of the 30, fixing them lifts yield to (470 + 18) / 500 = 97.6%.",
    "act": "Design a test sheet.",
    "std": "Limits and sign-off."
   },
@@ -78,9 +93,12 @@
     "Offer evaluation units.",
     "Provide integration notes for common controllers.",
     "Quick response support.",
-    "Reference customers."
+    "Reference customers.",
+    "Write a one-page integration note per controller type showing wiring, signal range and a test step.",
+    "Prepare a pitch with the buyer's own numbers: cost of a wrong reading, sensors needed, price and payback.",
+    "Set a service promise, such as a reply within one working day, and track how often you keep it."
    ],
-   "ex": "Funnel: 15 plants, 6 evaluations, 3 orders.",
+   "ex": "Funnel: 15 plants, 6 evaluations, 3 orders. Plant to evaluation is 6 / 15 = 40%, evaluation to order is 3 / 6 = 50%, and overall 3 / 15 = 20%.",
    "act": "Pitch three plants.",
    "std": "Pitch has data."
   },
@@ -91,9 +109,12 @@
     "Secure firmware updates.",
     "Unique credentials per device.",
     "Fail-safe behaviour on fault.",
-    "Document known limits."
+    "Document known limits.",
+    "Sign firmware, check the signature before installing an update, and keep the previous version for rollback.",
+    "Keep the sensor network apart from the office network where you can, and list every open port.",
+    "Define the safe state on a fault, such as an output that goes to a known value, and test it by pulling power and cable."
    ],
-   "ex": "Risk: 'Default password found | 3 x 5 | unique keys | firmware lead | each release'.",
+   "ex": "Risk: 'Default password found | 3 x 5 | unique keys | firmware lead | each release'. Likelihood 3 times impact 5 gives a score of 15 out of 25, so it is fixed first. Once each device has a unique key, likelihood falls to 1 and the score is 1 x 5 = 5.",
    "act": "Write a risk register.",
    "std": "Owners named."
   },
@@ -104,9 +125,12 @@
     "Install 20 sensors for 90 days.",
     "Compare with reference readings.",
     "Stop rule: drift above spec means redesign.",
-    "Plan production."
+    "Plan production.",
+    "Agree the pilot plan in writing with the customer: sensors, locations, dates, who reads reference values and how often.",
+    "Read reference values weekly and plot sensor minus reference on a graph over the 90 days.",
+    "Collect operator feedback on mounting, wiring and display, and list changes for the next version."
    ],
-   "ex": "Drift 0.15, within spec; proceed.",
+   "ex": "The spec allows 0.2 degrees C of drift over 90 days. The worst of the 20 sensors drifted 0.18 and the average was 0.15, so all pass, with 0.2 - 0.18 = 0.02 of margin on the worst; proceed to a first batch.",
    "act": "Run pilot review.",
    "std": "Review has decision."
   }
