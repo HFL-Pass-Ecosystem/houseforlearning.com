@@ -1,0 +1,164 @@
+{
+ "mods": {
+  "1": {
+   "title": "Know the words and where items come from",
+   "intro": "Reselling means buying used goods and selling them for more. Start with the basic words and the places.",
+   "pts": [
+    "Learn the terms: resale, sourcing, flip, condition, comparable (comp), margin, sell-through.",
+    "Sources: thrift stores, garage sales, estate sales, online classifieds, donation sales.",
+    "Sell-through is the share of items that sell.",
+    "Look at ten sold listings and note price and condition."
+   ],
+   "ex": "A used jacket costs 6 at a thrift store and similar jackets sold for 35. That is a possible flip, but check condition and fees first.",
+   "act": "Compare ten sold listings of one item type in a table.",
+   "std": "Task: study ten sold items. Condition: public pages. Standard: table of price, condition and days to sell."
+  },
+  "2": {
+   "title": "Explain the path of an item from find to sale",
+   "intro": "An item moves through steps. If you can name them, you can plan time and cash.",
+   "pts": [
+    "The steps: find, check, buy, clean, photograph, list, store, ship, record.",
+    "Check for damage, smells, missing parts and fakes before you buy.",
+    "Set a limit: buy only if you expect at least double the cost after fees.",
+    "Label and store items so you can find them."
+   ],
+   "ex": "You find a lamp for 4. You test it, clean it, photograph it and list it. You label the shelf and record cost 4.",
+   "act": "Draw the path of one item and write a find-and-buy checklist.",
+   "std": "Task: write the path and checklist. Condition: one page. Standard: every step has a record."
+  },
+  "3": {
+   "title": "Pick, clean and photograph items well",
+   "intro": "Now you apply the basics. Choose items likely to sell and present them well.",
+   "pts": [
+    "Pick items you know well, in good condition, with demand.",
+    "Clean gently and test that things work.",
+    "Take photos in good light from several sides and show flaws.",
+    "Write a plain title, size, condition and delivery cost."
+   ],
+   "ex": "Before: 'Cool old lamp.' After: 'Brass table lamp, 40 cm tall, works, small scratch on base.'",
+   "act": "List five items with photos and edit each once.",
+   "std": "Task: list five items. Condition: real items you own. Standard: all facts true, flaws shown, price and delivery stated."
+  },
+  "4": {
+   "title": "Follow Canadian safety and sales rules",
+   "intro": "Used goods can be unsafe or restricted. Learn the rules that touch resellers.",
+   "pts": [
+    "Some used goods cannot be sold, such as certain children's products. For example, used cribs are restricted. Check the federal recall and safety lists before you sell.",
+    "Do not sell stolen or fake goods; keep receipts for what you buy.",
+    "Garage sale rules and permits are set by cities; check the current rule with the local authority.",
+    "Sales are business income if you resell regularly; check tax rules with the tax agency."
+   ],
+   "ex": "You find a used baby item. You search the recall list, find it is restricted, and do not sell it.",
+   "act": "Make a table of rule, who sets it, what you must do and where you checked, for ten item types.",
+   "std": "Task: build a rules table. Condition: from official public pages. Standard: each row has a dated source; unknowns say 'check the current rule with the local authority'."
+  },
+  "5": {
+   "title": "Price items and check it pays",
+   "intro": "Profit is what is left after buying cost, fees, supplies, shipping and time. Work the numbers.",
+   "pts": [
+    "Cost: buy price, cleaning supplies, packaging, fuel, fees.",
+    "Profit = sale price - all costs.",
+    "Sell-through = items sold / items listed.",
+    "Track profit per hour, not only per item."
+   ],
+   "ex": "Buy 6, supplies 1, fees 4, sale 35: profit = 35 - 6 - 1 - 4 = 24. If it took 1 hour, that is 24 per hour. Teaching figures only.",
+   "act": "Track ten items and compute profit and profit per hour.",
+   "std": "Task: compute profit per item. Condition: from a log. Standard: all costs shown and a mentor can follow."
+  },
+  "6": {
+   "title": "Find better stock and sell faster",
+   "intro": "Better sourcing means higher margin. Use your records to decide.",
+   "pts": [
+    "Group sold items by type and compare profit per hour.",
+    "Go to sources early and often.",
+    "Re-price items that do not sell in 30 days.",
+    "Do not overbuy; stored stock ties up cash and space."
+   ],
+   "ex": "Your log shows tools sell fast and ornaments slowly. You buy more tools and fewer ornaments.",
+   "act": "Run a four-week sourcing test and log results.",
+   "std": "Task: run a four-week test. Condition: with a budget cap. Standard: log complete and one lesson written."
+  },
+  "7": {
+   "title": "Protect buyers, cash and yourself",
+   "intro": "A careful reseller protects buyers, data and money.",
+   "pts": [
+    "Describe items honestly and accept fair returns as you stated.",
+    "Use secure payment and do not share buyer details.",
+    "Meet in public for local sales and bring a friend.",
+    "Keep a budget cap so you do not spend your living money."
+   ],
+   "ex": "A buyer wants to meet at night in a quiet place. You pick a busy public place in daytime.",
+   "act": "Write a returns policy, a safety note and a budget rule.",
+   "std": "Task: write three documents. Condition: reviewed by a mentor. Standard: each is clear and dated."
+  },
+  "8": {
+   "title": "Run a real pilot and decide",
+   "intro": "Now you run it for real. Buy, sell, measure and decide how to grow.",
+   "pts": [
+    "Set a 60-day goal, such as 30 items sold and positive profit per hour.",
+    "Every week record spend, sales, time and stock left.",
+    "Ask: which item types should I stop buying?",
+    "At the end choose: stop, change or grow, and write a 12-month plan."
+   ],
+   "ex": "After 60 days: 34 sold, profit 620 USD, 48 hours, 12.90 per hour. You focus on the top three item types.",
+   "act": "Run the pilot, keep the weekly log and present a 12-month plan to a panel of three.",
+   "std": "Task: run a 60-day pilot. Condition: real items and a budget cap. Standard: log complete, decision uses numbers, a panel can repeat the plan."
+  }
+ },
+ "price": [
+  35,
+  11,
+  60,
+  "item"
+ ],
+ "quiz": [
+  [
+   "What is a flip?",
+   "Buying an item and reselling it for more."
+  ],
+  [
+   "What is sell-through?",
+   "The share of listed items that sell."
+  ],
+  [
+   "What do you check before buying?",
+   "Damage, missing parts, working order and fakes."
+  ],
+  [
+   "Why check recall lists?",
+   "Some used goods are unsafe or cannot be sold."
+  ],
+  [
+   "How do you compute profit?",
+   "Sale price minus all costs."
+  ],
+  [
+   "Why track profit per hour?",
+   "To see if your time is worth it."
+  ],
+  [
+   "What do you do with items that do not sell?",
+   "Re-price or stop buying that type."
+  ],
+  [
+   "How do you meet buyers safely?",
+   "In a busy public place in daytime."
+  ],
+  [
+   "Who sets garage sale rules?",
+   "Cities; check the current rule with the local authority."
+  ],
+  [
+   "What do you do when unsure about a rule?",
+   "Check the current rule with the local authority and keep the answer in writing."
+  ]
+ ],
+ "jobs": [
+  "Reseller",
+  "Thrift store associate",
+  "Donation centre coordinator",
+  "Online marketplace seller",
+  "Auction assistant",
+  "Inventory clerk"
+ ]
+}

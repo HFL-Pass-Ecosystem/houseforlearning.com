@@ -1,0 +1,164 @@
+{
+ "mods": {
+  "1": {
+   "title": "Know the words and the kinds of writing work",
+   "intro": "Freelance writing means writing for pay for different clients. Start with the basic words and the work.",
+   "pts": [
+    "Learn the terms: pitch, brief, draft, edit, byline, deadline, rate, kill fee, invoice.",
+    "Kinds of work: articles, web pages, newsletters, reports, product text.",
+    "Name one kind of client and one topic you know well.",
+    "Read five paid pieces and note the reader, length and style."
+   ],
+   "ex": "Topic: home energy savings. Clients: a local energy firm's blog, a community newsletter, a magazine.",
+   "act": "Read five paid pieces and fill a table of reader, length and style. Write your niche in one line.",
+   "std": "Task: study five pieces. Condition: public pages. Standard: table complete and niche fits one line."
+  },
+  "2": {
+   "title": "Explain how a writing job runs",
+   "intro": "A job has steps. If you can name them, you can plan your time and avoid surprises.",
+   "pts": [
+    "The steps: pitch, brief, research, outline, draft, edit, submit, revise, invoice.",
+    "A brief says reader, goal, length, tone, deadline and sources.",
+    "Ask questions before you write.",
+    "Agree how many rounds of changes are included."
+   ],
+   "ex": "An editor asks for 800 words on heat pumps for homeowners. You ask: reader, tone, sources, deadline, pay.",
+   "act": "Write a one-page brief form with ten questions.",
+   "std": "Task: complete a brief for a pretend client. Condition: in one 30-minute conversation. Standard: brief states reader, goal, length, tone, deadline and rounds."
+  },
+  "3": {
+   "title": "Write a clear piece to a standard",
+   "intro": "Now you apply the basics. Write a piece that is clear, true and easy to read.",
+   "pts": [
+    "Put the main point first and use short words.",
+    "Write three title options and pick the clearest.",
+    "Use facts you can check and name your sources.",
+    "Read aloud and cut every useless word."
+   ],
+   "ex": "Before: 'Heat pumps are a very interesting option.' After: 'A heat pump can cut your heating bill. Here is how it works.'",
+   "act": "Write a 600-word article and edit it twice.",
+   "std": "Task: write one article. Condition: from a brief, in two hours. Standard: one point, checkable facts, no spelling errors; second draft shorter and clearer."
+  },
+  "4": {
+   "title": "Follow Canadian rules for writers",
+   "intro": "Copyright, honest claims and privacy rules apply. Learn which ones touch your work.",
+   "pts": [
+    "You own what you write unless a contract says otherwise; do not copy others' text.",
+    "Quote briefly and name the source; do not present others' ideas as yours.",
+    "Advertising and sponsored posts must be truthful and clearly marked.",
+    "Personal information in your story falls under privacy law; ask consent. Check the current rules."
+   ],
+   "ex": "A client asks you to write 'Best in Canada'. You ask for proof; there is none, so you write a claim you can verify.",
+   "act": "Make a table of rule, what you must do and where you checked, for ten situations.",
+   "std": "Task: build a rules table. Condition: from official public pages. Standard: each row has a dated source; unclear cases say 'check the current rule with the local authority'."
+  },
+  "5": {
+   "title": "Price your work and check it pays",
+   "intro": "You are paid for results and time. Work out your cost per hour and what a project must earn.",
+   "pts": [
+    "Time includes research, calls, drafting, edits and admin.",
+    "Hourly cost = yearly costs and needed pay, divided by hours you can really bill.",
+    "Compare per-word, per-hour and per-project pricing.",
+    "Collect sales tax once registered; check the small-supplier limit with the tax agency."
+   ],
+   "ex": "An article takes 5 hours at 45 USD an hour: 225 USD. That is 0.28 per word at 800 words. Teaching figures only.",
+   "act": "Time three pieces from start to finish and set a price for each.",
+   "std": "Task: price three projects. Condition: from your time log. Standard: hours, rate and total shown; a mentor can follow."
+  },
+  "6": {
+   "title": "Find clients and show proof",
+   "intro": "Clients hire writers they trust. Build a small portfolio and a steady way to be found.",
+   "pts": [
+    "Make three samples that match the clients you want.",
+    "Get written permission before showing client work.",
+    "Send ten specific pitches, each with one idea for that client.",
+    "Keep a list of contact, date, reply and next step."
+   ],
+   "ex": "You pitch a local newsletter: 'Three ways renters can cut winter bills. 500 words.' You attach a short outline.",
+   "act": "Send ten pitches in two weeks and log replies.",
+   "std": "Task: run a two-week outreach. Condition: with consent rules met. Standard: ten pitches sent, replies logged, one lesson written."
+  },
+  "7": {
+   "title": "Protect ownership, privacy and quality",
+   "intro": "A professional writer is careful with rights, secrets and facts.",
+   "pts": [
+    "Write down who owns the text and what the client may do with it. Ask a legal adviser for large deals.",
+    "Do not copy; use your own words or licensed text.",
+    "Keep client files safe with strong passwords and backups.",
+    "Fact-check names, prices, dates and quotes."
+   ],
+   "ex": "Your contract says: 'The client owns the final text once paid in full. The writer may show it in a portfolio.'",
+   "act": "Write a one-page agreement and a delivery checklist.",
+   "std": "Task: produce both. Condition: reviewed by a mentor. Standard: scope, fees, rounds, rights and payment date are clear."
+  },
+  "8": {
+   "title": "Run a real pilot and decide",
+   "intro": "Now you run it for real. Take jobs, measure and decide how to grow.",
+   "pts": [
+    "Set a 60-day goal, such as three paid pieces and one repeat client.",
+    "Every week record hours, income, late payments and feedback.",
+    "Ask each client for a short review.",
+    "At the end choose: stop, change or grow, and write a 12-month plan."
+   ],
+   "ex": "After 60 days: 4 pieces, 24 hours, 900 USD billed, one repeat client. You raise your rate.",
+   "act": "Run the pilot, keep the log and present a 12-month plan to a panel of three.",
+   "std": "Task: run a 60-day pilot. Condition: real clients, paid or agreed work. Standard: log complete, decision uses numbers, a panel can repeat the plan."
+  }
+ },
+ "price": [
+  225,
+  5,
+  40,
+  "article"
+ ],
+ "quiz": [
+  [
+   "What is a pitch?",
+   "A short offer of an idea to a client."
+  ],
+  [
+   "What does a brief state?",
+   "Reader, goal, length, tone, deadline and sources."
+  ],
+  [
+   "Why write three titles?",
+   "To pick the clearest."
+  ],
+  [
+   "Who owns your text?",
+   "You, unless a contract says otherwise."
+  ],
+  [
+   "What must sponsored posts do?",
+   "Be truthful and clearly marked."
+  ],
+  [
+   "How do you find your hourly cost?",
+   "Yearly costs plus needed pay, divided by billable hours."
+  ],
+  [
+   "Why get permission before showing client work?",
+   "It belongs to the client unless the agreement says otherwise."
+  ],
+  [
+   "What should an agreement list?",
+   "Scope, fees, rounds, rights, payment date and privacy."
+  ],
+  [
+   "What do you check before delivering?",
+   "Facts, names, prices, spelling and links."
+  ],
+  [
+   "What do you do when unsure about a rule?",
+   "Check the current rule with the local authority and keep the answer in writing."
+  ]
+ ],
+ "jobs": [
+  "Freelance writer",
+  "Content writer",
+  "Technical writer",
+  "Newsletter writer",
+  "Editor or proofreader",
+  "Communications assistant"
+ ]
+}

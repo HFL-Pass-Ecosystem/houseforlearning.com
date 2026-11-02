@@ -1,0 +1,164 @@
+{
+ "mods": {
+  "1": {
+   "title": "Know the words of graphic design",
+   "intro": "Graphic design uses shapes, type, colour and images to send a clear message.",
+   "pts": [
+    "Learn the terms: layout, grid, typeface, hierarchy, contrast, margin, vector, raster, resolution, RGB, CMYK.",
+    "Raster images are made of pixels; vector images are made of lines and can be enlarged without blur.",
+    "RGB is for screens; CMYK is for print.",
+    "Look at five posters and name the headline, image, text and call to action."
+   ],
+   "ex": "A poster has a big headline, one image and a small date line. The eye goes headline, image, date.",
+   "act": "Mark hierarchy, contrast and alignment on five designs.",
+   "std": "Task: analyse five designs. Condition: with printed or saved samples. Standard: all parts labelled and one improvement named for each."
+  },
+  "2": {
+   "title": "Explain a design job from brief to files",
+   "intro": "A job has steps. Name them to plan your time.",
+   "pts": [
+    "The steps: brief, research, sketches, first design, feedback, changes, final files.",
+    "A brief states purpose, audience, size, where it will be used, deadline and the one action wanted.",
+    "Ask for text, logos and images before you start.",
+    "Agree how many rounds of changes are included."
+   ],
+   "ex": "A client wants a flyer. You ask: Who reads it? Where is it handed out? What size? What must it say?",
+   "act": "Write a brief form and test it on a friend.",
+   "std": "Task: complete a brief. Condition: 30-minute conversation. Standard: purpose, audience, size, use, deadline and change rounds are stated."
+  },
+  "3": {
+   "title": "Design a clear piece to a standard",
+   "intro": "Now you make. Use layout, type and colour to guide the reader.",
+   "pts": [
+    "Put the main point first and make it the biggest.",
+    "Use two typefaces at most and one clear colour scheme.",
+    "Leave white space; do not fill every corner.",
+    "Check contrast so text can be read, including by people with low vision."
+   ],
+   "ex": "Before: five fonts, crowded text. After: one headline font, one body font, 20 mm margins, strong contrast.",
+   "act": "Design a flyer and a social post from one brief, with three sketches first.",
+   "std": "Task: design a flyer and a post. Condition: from a written brief in four hours. Standard: clear hierarchy, readable contrast, correct size and no spelling errors."
+  },
+  "4": {
+   "title": "Follow Canadian rules for design work",
+   "intro": "Design touches copyright, advertising and accessibility rules.",
+   "pts": [
+    "Copyright protects images, fonts, music and logos. Use your own work or licensed work and keep the licence; check the current rule with the local authority.",
+    "Typefaces have licences. Check what your licence allows before using one in a client job.",
+    "Advertising must be truthful. Some products, such as alcohol, food and health, have extra rules; check the current rule with the local authority.",
+    "In Quebec, commercial signage and advertising generally need French; check the current rule with the local authority. Accessibility rules can apply to public documents."
+   ],
+   "ex": "A client wants a photo from a web search. You say it may be protected and offer a licensed or original image.",
+   "act": "Make a table of rule, who sets it, what you must do and where you checked, for ten design situations.",
+   "std": "Task: build a rules table. Condition: using official public pages. Standard: each row has a dated source; unclear items say 'check the current rule with the local authority'."
+  },
+  "5": {
+   "title": "Price your design work and check it pays",
+   "intro": "You are paid for results and time. Know your real cost per hour.",
+   "pts": [
+    "Time includes briefing, sketches, drafts, changes and file preparation.",
+    "Hourly cost = yearly costs plus needed pay, divided by billable hours.",
+    "Compare hourly, per-piece and per-project pricing.",
+    "Software and licences are costs; count them."
+   ],
+   "ex": "A logo takes 10 hours at 50 USD: 500 USD, plus 8 USD for fonts. Teaching figures only.",
+   "act": "Time three jobs and set a price for each.",
+   "std": "Task: price three jobs. Condition: from your own time log. Standard: hours, rate and total are shown and a mentor can follow every number."
+  },
+  "6": {
+   "title": "Prepare files, find clients and show proof",
+   "intro": "Clients buy from designers they trust, and good files save everyone time.",
+   "pts": [
+    "Export the right formats: PDF for print, PNG or JPG for screens, vector for logos.",
+    "Name files clearly, for example client_project_version_date.",
+    "Build a portfolio of five pieces with a brief and result beside each.",
+    "Contact ten local businesses with a specific idea for each; keep a log."
+   ],
+   "ex": "You tell a bakery: 'Your menu board is hard to read from the door. Here is a quick redesign.'",
+   "act": "Build a portfolio and send ten tailored messages.",
+   "std": "Task: run a two-week outreach. Condition: consent-based contact and permission to show work. Standard: ten messages sent, replies logged and a lesson written."
+  },
+  "7": {
+   "title": "Protect ownership, files and quality",
+   "intro": "A professional designer is careful with rights and checks.",
+   "pts": [
+    "Write who owns the final design and what the client may do with it. Ask a legal adviser for large deals.",
+    "Keep source files safe and backed up.",
+    "Check text, names, prices, dates and links before delivery.",
+    "Test print files with a small proof when possible."
+   ],
+   "ex": "Your agreement says: 'The client owns the final artwork once paid in full. The designer may show it in a portfolio.'",
+   "act": "Write an agreement template and a final check list.",
+   "std": "Task: produce a template and checklist. Condition: reviewed by a mentor. Standard: scope, fees, rounds, rights and payment dates are in plain words."
+  },
+  "8": {
+   "title": "Run a real design practice for 60 days",
+   "intro": "Now you run it: take jobs, measure and decide.",
+   "pts": [
+    "Set a goal such as three paid jobs and one repeat client.",
+    "Record hours, income, changes asked for and late items each week.",
+    "Ask each client for feedback.",
+    "Choose: stop, change or grow, and write a 12-month plan."
+   ],
+   "ex": "After 60 days: 3 clients, 28 hours, 1,300 USD billed. You raise your rate and limit change rounds.",
+   "act": "Run the pilot and present a 12-month plan to a panel of three.",
+   "std": "Task: run a 60-day pilot. Condition: real clients and agreements. Standard: log complete and the decision uses numbers."
+  }
+ },
+ "price": [
+  50,
+  8,
+  30,
+  "hour"
+ ],
+ "quiz": [
+  [
+   "What is the difference between raster and vector?",
+   "Raster uses pixels; vector uses lines and scales without blur."
+  ],
+  [
+   "Which colour mode is for screens and which for print?",
+   "RGB for screens, CMYK for print."
+  ],
+  [
+   "What is visual hierarchy?",
+   "The order in which the eye reads the parts."
+  ],
+  [
+   "Why check contrast?",
+   "So text is easy to read, including for low vision."
+  ],
+  [
+   "What does a brief state?",
+   "Purpose, audience, size, use, deadline and change rounds."
+  ],
+  [
+   "Why check font licences?",
+   "They limit how a typeface may be used."
+  ],
+  [
+   "Why show a flaw-free portfolio with briefs?",
+   "It shows your thinking and results."
+  ],
+  [
+   "What file formats go to print and screen?",
+   "PDF for print; PNG or JPG for screens."
+  ],
+  [
+   "What do you check before delivery?",
+   "Text, names, prices, dates, links and file formats."
+  ],
+  [
+   "What do you do when you do not know a rule?",
+   "Check the current rule with the local authority."
+  ]
+ ],
+ "jobs": [
+  "Graphic designer",
+  "Layout assistant",
+  "Production artist",
+  "Social media designer",
+  "Packaging designer assistant",
+  "Freelance designer"
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "mods": {
+  "1": {
+   "title": "Know the words of bookkeeping",
+   "intro": "Bookkeeping is recording money in and out so that a business can see where it stands.",
+   "pts": [
+    "Learn the terms: asset, liability, equity, income, expense, debit, credit, ledger, invoice, receipt.",
+    "Assets are what a business has; liabilities are what it owes; equity is what is left.",
+    "Every entry has two sides: a debit and a credit that are equal.",
+    "Bookkeepers record; accountants and tax advisers give advice. Know the difference."
+   ],
+   "ex": "The business buys a printer for 300 cash. Debit equipment 300, credit cash 300.",
+   "act": "Write ten terms with an example each and sort 15 transactions into income or expense.",
+   "std": "Task: sort and define. Condition: from a list, no help. Standard: all terms plain and correct and 15 of 15 transactions sorted."
+  },
+  "2": {
+   "title": "Explain the books from receipt to report",
+   "intro": "The books follow a path. If you can name it, you can keep it tidy.",
+   "pts": [
+    "The path: collect documents, record, categorise, reconcile, review, report.",
+    "A chart of accounts is the list of categories used for all entries.",
+    "Reconcile means compare your books to the bank statement and explain each difference.",
+    "Keep a file for every document: receipts, invoices, bank statements."
+   ],
+   "ex": "Bank balance 1,200; books 1,050. A cheque for 150 has not cleared. Books plus outstanding adjustment match.",
+   "act": "Set up a chart of accounts for a small shop and trace five transactions through it.",
+   "std": "Task: trace five transactions. Condition: using a sheet or free practice file. Standard: each entry is balanced and has a document."
+  },
+  "3": {
+   "title": "Record and reconcile to a standard",
+   "intro": "Now you do the work. Enter a month of transactions and prove the books agree with the bank.",
+   "pts": [
+    "Enter income and expenses with the date, who, what, amount and tax.",
+    "Categorise the same way each time.",
+    "Reconcile the bank each month; list every difference and fix it.",
+    "Produce a simple profit and loss and a list of who owes the business and whom it owes."
+   ],
+   "ex": "A month: income 4,200, expenses 3,100, profit 1,100. Bank reconciled with zero unexplained difference.",
+   "act": "Complete one month of practice books and a reconciliation.",
+   "std": "Task: complete one month of books. Condition: from provided documents in three hours. Standard: debits equal credits, bank reconciled, and reports show a correct profit."
+  },
+  "4": {
+   "title": "Follow Canadian tax and record rules",
+   "intro": "Canadian businesses have sales tax, payroll and record rules. Learn where they touch the books.",
+   "pts": [
+    "GST/HST and some provincial sales taxes may apply; registration depends on sales and rules. Check the current limits and rates with the tax agency.",
+    "If a business pays staff, it must withhold and send deductions to the tax agency by their due dates. Check the current rules.",
+    "Business records are generally kept for six years; check the current rule.",
+    "Keep client information private and give tax or legal advice only if you are qualified. Professional titles for accountants are protected; use only titles you hold."
+   ],
+   "ex": "A client asks if a car expense is fully deductible. You say you will note it and refer the question to a tax professional.",
+   "act": "Make a table of tax or record item, who sets it, due date and where you checked, for ten items.",
+   "std": "Task: build a tax and records table. Condition: using official public pages. Standard: each row has a dated source and unclear items say 'check the current rule with the local authority'."
+  },
+  "5": {
+   "title": "Price your bookkeeping and check it pays",
+   "intro": "You are paid for accuracy and time. Work out what each client really costs you.",
+   "pts": [
+    "Time includes collecting documents, chasing missing items, entering, reconciling and questions.",
+    "Compare hourly, monthly fixed fee and per-transaction pricing.",
+    "A fixed fee needs a clear scope: number of transactions, accounts and reports.",
+    "Track hours per client to see if the fee is fair."
+   ],
+   "ex": "A client has 80 transactions a month. It takes 3 hours at 40 USD an hour: 120 USD a month. Teaching figures only.",
+   "act": "Time three practice clients and set a monthly fee for each.",
+   "std": "Task: price three clients. Condition: from your time log. Standard: hours, rate and fee are shown and a mentor can follow every number."
+  },
+  "6": {
+   "title": "Use software and find clients",
+   "intro": "Software saves time. Clients come from trust.",
+   "pts": [
+    "Use accounting software with a bank feed and a clear audit trail; practise on a demo file.",
+    "Check each automated entry. The software suggests, you decide.",
+    "Reach local small businesses, with consent, and offer a free 20-minute review of their record keeping.",
+    "Ask permission before using any client example, and remove names."
+   ],
+   "ex": "The bank feed suggests 'office' for a grocery bill. You change it to 'meals' after checking the receipt.",
+   "act": "Practise software on a demo file and contact ten small businesses.",
+   "std": "Task: practise and reach out. Condition: demo data and consent-based contact. Standard: ten entries checked, ten contacts made and replies logged."
+  },
+  "7": {
+   "title": "Protect clients, data and accuracy",
+   "intro": "Bookkeepers hold private financial information.",
+   "pts": [
+    "Keep client files in a secure place with strong passwords and two-step sign-in.",
+    "Back up data and test that you can restore it.",
+    "Use a second check on large or unusual payments.",
+    "Write an engagement letter that lists scope, fees, deadlines, who is responsible for what and how you keep information private."
+   ],
+   "ex": "Your letter says: 'The client provides all documents by the 10th. The bookkeeper reconciles by the 20th.'",
+   "act": "Write an engagement letter and a monthly close checklist.",
+   "std": "Task: produce a letter and checklist. Condition: reviewed by a mentor. Standard: scope, fees, deadlines and privacy are stated in plain words."
+  },
+  "8": {
+   "title": "Run a real bookkeeping practice for 60 days",
+   "intro": "Now you run it, measure and decide.",
+   "pts": [
+    "Set a goal such as two clients and two monthly closes.",
+    "Each week record hours, income, errors found and late items.",
+    "Ask each client for feedback.",
+    "Choose at the end: stop, change or grow, and write a 12-month plan."
+   ],
+   "ex": "After 60 days: 2 clients, 14 hours, 560 USD, no unexplained bank differences. You plan to add a third client.",
+   "act": "Run the pilot and present a 12-month plan to a panel of three.",
+   "std": "Task: run a 60-day pilot. Condition: real or practice clients with a signed letter. Standard: log complete, reconciliations clean and the decision uses numbers."
+  }
+ },
+ "price": [
+  40,
+  5,
+  25,
+  "hour"
+ ],
+ "quiz": [
+  [
+   "What are assets, liabilities and equity?",
+   "What a business has, what it owes, and what is left."
+  ],
+  [
+   "What does every entry have?",
+   "A debit and an equal credit."
+  ],
+  [
+   "What is a reconciliation?",
+   "Comparing the books to the bank and explaining each difference."
+  ],
+  [
+   "What is a chart of accounts?",
+   "The list of categories used for entries."
+  ],
+  [
+   "How long are business records generally kept?",
+   "Generally six years; check the current rule."
+  ],
+  [
+   "Who decides when the software suggests a category?",
+   "The bookkeeper."
+  ],
+  [
+   "What does an engagement letter list?",
+   "Scope, fees, deadlines, responsibilities and privacy."
+  ],
+  [
+   "Why test a restore?",
+   "A backup you have not tested may not work."
+  ],
+  [
+   "When should you refer a tax question?",
+   "When it needs advice from a qualified tax professional."
+  ],
+  [
+   "What do you do when you do not know a rule?",
+   "Check the current rule with the local authority."
+  ]
+ ],
+ "jobs": [
+  "Bookkeeper",
+  "Accounts payable clerk",
+  "Accounts receivable clerk",
+  "Payroll assistant",
+  "Accounting assistant",
+  "Freelance bookkeeper"
+ ]
+}

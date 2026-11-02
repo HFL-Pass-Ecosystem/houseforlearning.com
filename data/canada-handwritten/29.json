@@ -1,0 +1,164 @@
+{
+ "mods": {
+  "1": {
+   "title": "Know the words of teaching a hobby",
+   "intro": "A hobby course helps adults or children learn a skill for pleasure. Start with the words.",
+   "pts": [
+    "Learn the terms: lesson plan, outcome, level, material, demo, practice, feedback, class size.",
+    "An outcome says what a learner can do at the end, such as 'knit a flat square'.",
+    "Beginners need small steps, plain words and quick wins.",
+    "Pick one hobby you know well and list five things a beginner must learn first."
+   ],
+   "ex": "Outcome: 'By the end of class, you can cast on and knit ten rows.'",
+   "act": "List five outcomes for a beginner class in your hobby, each starting with a verb.",
+   "std": "Task: write five outcomes. Condition: for one beginner class. Standard: each starts with a verb that can be seen, such as make, draw, name or play."
+  },
+  "2": {
+   "title": "Explain how a class is planned and run",
+   "intro": "A good class has a shape. Learners should do more than listen.",
+   "pts": [
+    "The shape: welcome, show, try, feedback, try again, wrap-up.",
+    "Plan time: ten minutes of showing and the rest for practice.",
+    "List materials and tools and who brings them.",
+    "Plan for slow and fast learners with an easy and a harder task."
+   ],
+   "ex": "A 90-minute pottery-style class: 10 welcome, 15 demo, 45 practice, 10 feedback, 10 clean-up and next steps.",
+   "act": "Write a 90-minute plan with times and a materials list.",
+   "std": "Task: write a lesson plan. Condition: for one class of eight learners. Standard: times add to 90, outcomes are stated, and materials and safety notes are listed."
+  },
+  "3": {
+   "title": "Teach a short lesson to a standard",
+   "intro": "Now you teach. Show clearly, let learners try, and give kind, specific feedback.",
+   "pts": [
+    "Show the skill slowly, then say what you did and why.",
+    "Break a skill into steps of one action each.",
+    "Check understanding by asking learners to show you, not just nod.",
+    "Give feedback on one thing at a time: what worked, what to try next."
+   ],
+   "ex": "Instead of 'Good job', say: 'Your stitches are even. Next, try to keep your yarn tension the same on the return row.'",
+   "act": "Teach a 20-minute mini lesson to three people and collect their feedback.",
+   "std": "Task: teach a 20-minute lesson. Condition: to three volunteers. Standard: every learner completes the outcome and gives one useful comment."
+  },
+  "4": {
+   "title": "Follow Canadian rules for classes and content",
+   "intro": "Teaching to the public has rules about safety, advertising and other people's work.",
+   "pts": [
+    "Advertising must be true. Do not promise results you cannot guarantee.",
+    "Copyright protects patterns, songs, books and images. Use your own material or material you have a licence for; check the current rule with the local authority.",
+    "Check the municipal rules for running classes at home or in a public space, including business licences and zoning.",
+    "Check whether your activity needs a certification or extra rules, such as food, fire, tools or children; check the current rule with the local authority."
+   ],
+   "ex": "You want to hand out a pattern from a book. You make your own version instead, or ask the owner for written permission.",
+   "act": "Make a table of rule, who sets it, what you must do and where you checked, for ten things in your class.",
+   "std": "Task: build a class rules table. Condition: using official public pages. Standard: each row has a source and date; unclear items say 'check the current rule with the local authority'."
+  },
+  "5": {
+   "title": "Cost and price a class",
+   "intro": "You earn what is left after materials, space and time.",
+   "pts": [
+    "Costs: materials per learner, space, tools, advertising, your prep and teaching time.",
+    "Price per learner = total costs plus your pay, divided by the number of learners, plus a small safety margin.",
+    "Know your break-even number of learners.",
+    "Sales tax may apply once you pass the small-supplier limit; check it with the tax agency."
+   ],
+   "ex": "Costs: space 60, materials 8 per learner, your time 90. With 8 learners: cost = 60 + 64 + 90 = 214; price about 27 per learner. Teaching figures only.",
+   "act": "Cost out a class and show the break-even number of learners.",
+   "std": "Task: price one class. Condition: with a simple spreadsheet. Standard: costs, price and break-even are shown and a mentor can follow every number."
+  },
+  "6": {
+   "title": "Find learners and promote honestly",
+   "intro": "People join when they trust you and see what they will make.",
+   "pts": [
+    "Describe the class in plain words: who it is for, what they will make, what to bring, how long.",
+    "Use photos of real work with permission.",
+    "Reach local groups, libraries and community boards with their permission.",
+    "Keep a list of enquiries and replies; send messages only to people who agreed to receive them."
+   ],
+   "ex": "A poster says: 'Beginner watercolour, 2 hours, all materials included, 8 spaces. Make a small card to take home.'",
+   "act": "Create a one-page class description and promote it to ten local places.",
+   "std": "Task: promote one class. Condition: with permission and honest claims. Standard: the page states audience, outcome, time, price and what is included, and enquiries are logged."
+  },
+  "7": {
+   "title": "Keep learners safe and protect your work",
+   "intro": "Safety and fairness come first.",
+   "pts": [
+    "Do a risk check: tools, heat, chemicals, allergies, floor space and first aid.",
+    "Ask learners about allergies and needs before class.",
+    "Write a short policy for cancellations, refunds and photos.",
+    "Protect learners' details and keep records of attendance."
+   ],
+   "ex": "A woodcraft class lists: safety glasses worn, tools put away after use, first aid kit at the door.",
+   "act": "Write a risk list and a one-page policy.",
+   "std": "Task: produce a risk list and policy. Condition: reviewed by a mentor. Standard: each risk has a control and the policy covers refunds, photos and privacy."
+  },
+  "8": {
+   "title": "Run a pilot course and decide",
+   "intro": "Now you run a real course, measure and decide what to do next.",
+   "pts": [
+    "Set a pilot goal: for example one four-week course with six learners.",
+    "Track attendance, cost, income and feedback each week.",
+    "Ask each learner what they made and what to improve.",
+    "Decide: stop, change or grow, and write a 12-month plan."
+   ],
+   "ex": "After four weeks: 6 learners, 5 finished, 210 USD income, cost 120. You plan a second course with a waiting list.",
+   "act": "Run the pilot and present your plan to a panel of three.",
+   "std": "Task: run a four-week pilot. Condition: real learners and consent. Standard: log complete, outcomes met by most learners, decision uses numbers."
+  }
+ },
+ "price": [
+  27,
+  10,
+  8,
+  "learner"
+ ],
+ "quiz": [
+  [
+   "What is a learning outcome?",
+   "What a learner can do at the end of the class."
+  ],
+  [
+   "What shape does a good class have?",
+   "Welcome, show, try, feedback, try again, wrap-up."
+  ],
+  [
+   "Why have learners try during class?",
+   "People learn by doing, not only listening."
+  ],
+  [
+   "What makes feedback useful?",
+   "It is specific and about one thing at a time."
+  ],
+  [
+   "Why be careful with patterns, songs and images?",
+   "They are protected by copyright."
+  ],
+  [
+   "How do you find break-even?",
+   "Total costs divided by the price per learner."
+  ],
+  [
+   "What should a class page state?",
+   "Audience, outcome, time, price and what is included."
+  ],
+  [
+   "What do you ask learners before class?",
+   "About allergies and needs."
+  ],
+  [
+   "What do you do when unsure about a rule?",
+   "Check the current rule with the local authority."
+  ],
+  [
+   "What do you measure in a pilot?",
+   "Attendance, cost, income and feedback."
+  ]
+ ],
+ "jobs": [
+  "Hobby class instructor",
+  "Community education assistant",
+  "Workshop facilitator",
+  "Craft or skills tutor",
+  "Recreation program leader",
+  "Course content creator"
+ ]
+}

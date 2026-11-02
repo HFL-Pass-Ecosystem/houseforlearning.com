@@ -1,0 +1,164 @@
+{
+ "mods": {
+  "1": {
+   "title": "Know the words and the kinds of fitness centre",
+   "intro": "A fitness centre helps people move more and stay safe. Start with the basic words and the places people train.",
+   "pts": [
+    "Learn the terms: member, class, trainer, equipment, membership, waiver, drop-in, capacity.",
+    "Kinds of place: gym, studio, community recreation centre, sports league, outdoor club.",
+    "Name one member type in one line: age, goal, budget, free hours.",
+    "Visit three places and list what they offer and when they are busy."
+   ],
+   "ex": "A parent of two wants a 45-minute class at 6 p.m. near home. Your member profile says: weekday evenings, low cost, child-friendly.",
+   "act": "Visit three places and fill a table of services, hours and price. Write one member profile.",
+   "std": "Task: compare three places. Condition: by visit or public web page. Standard: table complete, profile fits one line."
+  },
+  "2": {
+   "title": "Explain how a centre runs in one day",
+   "intro": "Days follow a pattern. If you can describe it, you can plan staff, space and safety.",
+   "pts": [
+    "A day has opening checks, front desk, classes, floor time, cleaning and closing checks.",
+    "Staff roles: front desk, trainer, instructor, cleaner, manager.",
+    "Capacity means the most people allowed in a room at once; stay under it.",
+    "Write a simple daily checklist for open and close."
+   ],
+   "ex": "At 6 a.m. staff test the lights, check floors are dry, test the first aid kit and unlock. At 10 p.m. they count members out and lock up.",
+   "act": "Draw a one-day timeline for a small studio with roles and checks.",
+   "std": "Task: make a day timeline. Condition: for a 150 m2 studio. Standard: each hour has a role and a check."
+  },
+  "3": {
+   "title": "Plan and lead a safe basic session",
+   "intro": "Now apply what you know. Plan a simple group session that is safe and clear.",
+   "pts": [
+    "Every session has a warm-up, main part, cool-down and a short talk on safety.",
+    "Ask each person about injuries or health limits before they start.",
+    "Show an easy and a harder version of each move.",
+    "Use clear short cues and watch every person, not only the loudest."
+   ],
+   "ex": "A 30-minute class: 5 minutes warm-up, 20 minutes circuit of 5 moves, 5 minutes stretch. Each move has a beginner option.",
+   "act": "Plan and lead a 30-minute session for four friends. Write what you would change.",
+   "std": "Task: lead a 30-minute session. Condition: with a written plan. Standard: all parts done, options shown, nobody left unsupervised."
+  },
+  "4": {
+   "title": "Follow Canadian safety and legal rules",
+   "intro": "Safety and law protect members and you. Learn which rules touch a centre.",
+   "pts": [
+    "Staff usually need current first aid and CPR training; ask your insurer and province what is required.",
+    "Waivers and insurance help, but they do not remove your duty to keep people safe.",
+    "Playing recorded music in public can need a licence; check the current rules.",
+    "Building, fire, health and business rules are set by the city and province; check the current rule with the local authority."
+   ],
+   "ex": "A member twists a knee. Staff stop the class, use first aid, call for help if needed and write an incident report the same day.",
+   "act": "Make a table of rule, who sets it, what you must do and where you checked, for ten items.",
+   "std": "Task: build a rules table. Condition: from official public pages. Standard: each row has a dated source; unknowns say 'check the current rule with the local authority'."
+  },
+  "5": {
+   "title": "Price memberships and check it pays",
+   "intro": "A centre needs enough members and classes to cover its costs. Work the numbers.",
+   "pts": [
+    "Fixed costs: rent, insurance, utilities, wages, software. Variable costs: cleaning supplies, extra staff.",
+    "Break-even members = monthly fixed costs divided by profit per member.",
+    "Compare monthly, class-pack and drop-in prices.",
+    "Collect sales tax once registered; check the small-supplier limit with the tax agency."
+   ],
+   "ex": "Fixed costs 9,000 USD a month. Each member pays 55 and costs 5 to serve: profit 50. Break-even = 9,000 / 50 = 180 members. Teaching figures only.",
+   "act": "Build a one-page budget and a break-even number for a small studio.",
+   "std": "Task: compute break-even. Condition: with simple spreadsheet. Standard: every cost listed, formula shown, a mentor can follow it."
+  },
+  "6": {
+   "title": "Attract members and keep them",
+   "intro": "People join for a goal and stay for community. Plan how to be found and how to keep them.",
+   "pts": [
+    "Offer a free trial class and ask how people heard about you.",
+    "Local ways to be found: community boards, schools, workplaces, a simple map listing.",
+    "Track visits per member; a member who stops visiting for three weeks needs a friendly message.",
+    "Get consent before sending marketing messages; follow Canada's anti-spam rules."
+   ],
+   "ex": "A new member misses three weeks. You send: 'We saved your spot Tuesday. Want a free guest pass for a friend?'",
+   "act": "Run a four-week trial offer for ten people and log who stays.",
+   "std": "Task: run a trial offer. Condition: with consent for every message. Standard: ten people invited, results logged, one lesson written."
+  },
+  "7": {
+   "title": "Protect people, data and equipment",
+   "intro": "Care for people, their information and your gear is part of the job.",
+   "pts": [
+    "Check equipment weekly: cables, bolts, mats, pins. Tag broken items out of use.",
+    "Keep health forms private and locked or password-protected.",
+    "Write rules for children, changing rooms and harassment. Staff must know how to report.",
+    "Clean shared equipment between uses and keep a cleaning log."
+   ],
+   "ex": "A bench has a cracked pad. Staff tag it 'Out of use', record it, and order a repair the same day.",
+   "act": "Write an equipment check list, an incident form and a code of conduct (one page each).",
+   "std": "Task: write three safety documents. Condition: reviewed by a mentor. Standard: each is clear, dated and has a named owner."
+  },
+  "8": {
+   "title": "Run a real pilot and decide",
+   "intro": "Now you run it for real. Test, measure and decide how to grow.",
+   "pts": [
+    "Set a 60-day pilot goal, such as 30 members or 4 classes a week.",
+    "Every week record visits, income, costs, complaints and injuries.",
+    "Ask members for one thing to keep and one to change.",
+    "At the end choose: stop, change or grow, and write a 12-month plan."
+   ],
+   "ex": "After 60 days: 34 members, 1,870 USD billed, 2 minor incidents with no injuries needing a doctor. You decide to add one evening class.",
+   "act": "Run the pilot, keep the weekly log and present a 12-month plan to a panel of three.",
+   "std": "Task: run a 60-day pilot. Condition: real members and agreed prices. Standard: log complete, decision uses numbers, a panel can repeat the plan."
+  }
+ },
+ "price": [
+  55,
+  5,
+  180,
+  "member"
+ ],
+ "quiz": [
+  [
+   "What is a waiver?",
+   "A signed form where a member accepts known risks; it does not remove your duty to keep people safe."
+  ],
+  [
+   "What is capacity?",
+   "The most people allowed in a room at once."
+  ],
+  [
+   "What are the three parts of a safe session?",
+   "Warm-up, main part and cool-down."
+  ],
+  [
+   "Why ask members about injuries first?",
+   "To adjust moves and keep them safe."
+  ],
+  [
+   "How do you find break-even members?",
+   "Fixed costs divided by profit per member."
+  ],
+  [
+   "What training do staff usually need?",
+   "Current first aid and CPR; check what your insurer and province require."
+  ],
+  [
+   "What do you do with a broken machine?",
+   "Tag it out of use, record it and repair it."
+  ],
+  [
+   "When can you send marketing messages?",
+   "Only with consent, and with a way to unsubscribe."
+  ],
+  [
+   "Why keep health forms private?",
+   "They hold personal information protected by privacy law."
+  ],
+  [
+   "What do you do when unsure about a rule?",
+   "Check the current rule with the local authority and keep the answer in writing."
+  ]
+ ],
+ "jobs": [
+  "Fitness instructor",
+  "Personal trainer",
+  "Recreation programmer",
+  "Front desk coordinator",
+  "Studio manager",
+  "Youth sports coach"
+ ]
+}
