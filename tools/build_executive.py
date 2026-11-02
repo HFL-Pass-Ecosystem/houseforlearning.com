@@ -42,9 +42,9 @@ practice = [('1', 'Exposure audit, self-management challenge, behaviour decoder,
  ('3', 'Drafting drills, chart-selection challenges, deck restructuring runs'), ('4', 'Saboteur audit, cross-function conflict simulations, turnaround exercises'),
  ('5', 'Pricing sandbox, low-cost hardware challenge, procurement negotiation, integration and offshoring war games, ethics compliance court'), ('6', 'Capstone simulation, 10-slide proposal, live boardroom defence')]
 body = (sec('', 'e1', 'six terms of four months', 'The 24 months, term by term', table('Terms and courses', ['Term', 'When', 'Theme', 'Courses'], terms) + '<p>Online, with live video boardroom defences. 11 courses plus a capstone.</p>')
- + sec('alt', 'e2', 'stack as you go', 'Awards along the way', table('Stackable awards, aligned with the European credit system', ['Award', 'Covers', 'Credits'], exits) + '<p>Each award stands on its own and counts towards the next. As a guide, one US-style credit is about 45 hours of study; a 3-credit course is about 150 hours.</p>')
+ + sec('alt', 'e2', 'stack as you go', 'Awards along the way', table('Stackable awards, aligned with the European credit system', ['Award', 'Covers', 'Credits'], exits) + '<p>Each award stands on its own and counts towards the next. As a guide, one US-style credit is about 45 hours of study; a 3-credit course is about 135 hours.</p>')
  + sec('', 'e3', 'learn by playing it out', 'Practice in every term', table('Hands-on practice by term', ['Term', 'What you do'], practice))
- + sec('alt', 'e4', 'first term marking', 'How term 1 is assessed', table('Term 1 assessment', ['Part', 'Weight'], [('Individual feedback-analysis audit (2,000 words)', '30%'), ('Group profiling strategy (3,000 words plus a process canvas)', '30%'), ('Live prototyping and integrity defence (10 slides and an oral defence)', '40%')]) + '<p>Grades are given in bands: A for 3.67 to 4.00, B for 2.67 to 3.33, below 2.00 is a fail.</p>')
+ + sec('alt', 'e4', 'first term marking', 'How term 1 is assessed', table('Term 1 assessment', ['Part', 'Weight'], [('Individual feedback-analysis audit (2,000 words)', '30%'), ('Group profiling strategy (3,000 words plus a process canvas)', '30%'), ('Live prototyping and integrity defence (10 slides and an oral defence)', '40%')]) + '<p>Grades are given in bands, for example A for 3.67 to 4.00 and B for 2.67 to 3.33; below 2.00 is a fail.</p>')
  + sec('', 'e5', 'shorter option', 'Prefer to take it a module at a time?', '<p>The same ideas are also offered as 14 short, stackable modules of 75 hours each.</p><p><a class="btn btn-ghost" href="mba/index.html">Try the online programme (test)</a></p><p><a class="btn" href="executive-modules.html">See the 14 modules</a> <a class="btn btn-ghost" href="executive-credits.html">Credit table</a></p>' + note))
 page('executive-programme.html', 'Executive programme, 24 months online', 'A 24-month online executive programme in six terms, with stackable awards.', '24-month online executive programme', 'Six terms, eleven courses and a capstone, taught online with live defences.', body, '<li aria-current="page">Executive programme</li>')
 
@@ -63,7 +63,7 @@ mods = [('1', 'Global exposure audit and distance diagnostics', ['Profile memo 1
  ('13', 'Quantitative decision science and the data pipeline', None),
  ('14', 'The accounting equation, linked statements and enterprise assurance', None)]
 shared = ['Written memo 30%', 'Live interactive simulation 35%', 'Boardroom presentation 35%']
-frame = ['Credit table for 16 countries', 'Applied case analysis', 'Simulation arena with a tasks, conditions and standards matrix', 'A yearly refresh of the research', 'Assessment matrix and marking bands (A, B, fail)']
+frame = ['Credit table for 15 countries', 'Applied case analysis', 'Simulation arena with a tasks, conditions and standards matrix', 'A yearly refresh of the research', 'Assessment matrix and marking bands (A, B, fail)']
 mslug = lambda n: 'executive-module-' + n.lower() + '.html'
 rows = ''.join(f'<li><a href="{mslug(n)}">Module {e(n)}: {e(t)}</a></li>' for n, t, _ in mods)
 body = (sec('', 'm1', '14 modules', 'Each is 75 hours and stacks', f'<ul class="ws-plist cl">{rows}</ul>')
@@ -92,7 +92,7 @@ def rich(n):
             + sec('', 'r5', 'how it is judged', 'Marking rubric', rub) + sec('alt', 'r6', 'jobs this leads to', 'Where this takes you', jobs))
 for n, t, wts in mods:
     ws = wts or shared
-    b = (sec('', 'a1', 'what you take', f'Module {n}', f'<ul class="cards"><li class="card"><h3>Size</h3><p>2.5 ECTS, 75 hours of study.</p></li><li class="card"><h3>Credit</h3><p>Counts in 16 countries. <a href="executive-credits.html">See the table</a>.</p></li></ul>')
+    b = (sec('', 'a1', 'what you take', f'Module {n}', f'<ul class="cards"><li class="card"><h3>Size</h3><p>2.5 ECTS, 75 hours of study.</p></li><li class="card"><h3>Credit</h3><p>Counts in 15 countries. <a href="executive-credits.html">See the table</a>.</p></li></ul>')
          + sec('alt', 'a2', 'how it is marked', 'Assessment', '<ul class="ws-chips">' + ''.join(f'<li>{e(x)}</li>' for x in ws) + '</ul><p>Marking bands: A, B or fail. Presentations use at most 10 slides, with a short live defence.</p>' + ('' if wts else '<p>Weights shown follow the shared pattern for modules 3 to 14, and will be confirmed.</p>'))
          + rich(n)
          + '<section class="sec alt" aria-labelledby="lg-h"><div class="wrap"><div class="sec-head"><p class="kicker">language</p><h2 id="lg-h">Choose your language</h2></div><div class="sec-body"><p>This module is in English first. Choose any language in the world and the page is translated for you by machine, with the English kept as the official text.</p><p><button class="btn" type="button" data-lang-toggle aria-haspopup="dialog" aria-controls="lang-panel" aria-expanded="false">Choose language</button></p></div></div></section>' 
@@ -100,11 +100,11 @@ for n, t, wts in mods:
     page(mslug(n), f'Module {n}: {t}', f'{t}, a 75-hour executive module.', f'Module {n}: {t}', 'A 2.5 ECTS executive module, 75 hours.', b,
          '<li><a href="executive-modules.html">Modules</a></li><li aria-current="page">Module ' + e(n) + '</li>')
 
-cred = [('United States', "Master's", '1.25 semester credit hours (45 hours per credit)'), ('United Kingdom', 'Level 7', '5 CATS credits'), ('India', 'Level 8 (national credit framework)', '2.5 credits'),
- ('United Arab Emirates', 'Level 9', '1.25 graduate semester credits'), ('Singapore', "Master's track", '2.5 modular credits'), ('Malaysia', 'Level 7', '2 credits (40 hours per credit)'),
+cred = [('United States', "Master's", 'about 1.7 semester credit hours (45 hours per credit)'), ('United Kingdom', 'Level 7', '5 CATS credits'), ('India', 'Level 8 (national credit framework)', '2.5 credits'),
+ ('United Arab Emirates', 'Level 9', 'about 1.7 graduate semester credits'), ('Singapore', "Master's track", '2.5 modular credits'), ('Malaysia', 'Level 7', 'about 1.9 credits (40 hours per credit)'),
  ('Philippines', 'Level 8', '1.5 graduate units'), ('Australia', 'Level 8', '6 credit points'), ('New Zealand', 'Level 8', '5 credits'), ('Germany', 'Level 7', '2.5 ECTS'),
  ('Switzerland', 'Level 7', '2.5 ECTS'), ('Italy', 'Level 7', '2.5 CFU'), ('Spain', 'Level 7 (European framework)', '2.5 ECTS'), ('Ukraine', 'Level 7', '2.5 ECTS'), ('Georgia', 'Level 7', '2.5 ECTS')]
-body = sec('', 'c1', 'for one 75-hour module', 'How one module counts in 16 countries', table('Credit equivalence, orientation only', ['Country', 'Level', 'Credit'], cred)
+body = sec('', 'c1', 'for one 75-hour module', 'How one module counts in 15 countries', table('Credit equivalence, orientation only', ['Country', 'Level', 'Credit'], cred)
     + '<p class="ws-note">These are our working translations, being checked. They are not a promise that any institution will accept them. We say "aligned with", never "accredited".</p>')
-page('executive-credits.html', 'Credit table, 16 countries', 'How one 75-hour module is expressed in 16 countries.', 'Credit table', 'One 2.5 ECTS module, in 16 countries.', body, '<li><a href="executive-programme.html">Executive programme</a></li><li aria-current="page">Credit table</li>')
+page('executive-credits.html', 'Credit table, 15 countries', 'How one 75-hour module is expressed in 15 countries.', 'Credit table', 'One 2.5 ECTS module, in 15 countries.', body, '<li><a href="executive-programme.html">Executive programme</a></li><li aria-current="page">Credit table</li>')
 print('ok', 4 + len(mods) - 1)

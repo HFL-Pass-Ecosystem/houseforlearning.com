@@ -140,7 +140,7 @@ def lesson_body(L):
     return b + rich(L)
 
 SEGMENTS = [
- ('Power', [('Generation', ['Electric utility power generation']), ('Transmission and distribution', ['Electric distribution up to 60 kV']), ('Other utilities', ['Gas utilities', 'Other utilities'])]),
+ ('Power', [('Generation', ['Electric utility power generation']), ('Transmission and distribution', ['Electric distribution up to 60 kV']), ('Other utilities', ['Gas utilities', 'Water and heat utilities'])]),
  ('Industry', [('Oil and gas', ['Oil and gas production', 'Petrochemicals', 'Chemicals']), ('Process industry', ['Water and wastewater', 'Mining and minerals', 'Cement and glass', 'Metals', 'Pulp and paper']), ('Discrete and hybrid industry', ['Food and beverage', 'Pharmaceuticals and cosmetics', 'Electronics and semiconductors', 'Automotive', 'Rubber and plastics', 'Printing', 'Textile', 'Agriculture and forestry', 'Machinery and electrical equipment', 'Waste and recycling', 'Other industries'])]),
  ('Transport and infrastructure', [('Transport', ['Land transport', 'Logistics', 'Air transport', 'Electric vehicle charging', 'Cranes', 'Marine', 'Railway']), ('Buildings', ['Residential buildings', 'Commercial and institutional buildings', 'Industrial buildings', 'Building infrastructure', 'Real estate', 'Hospitals', 'Education and science', 'Data centres'])]),
 ]

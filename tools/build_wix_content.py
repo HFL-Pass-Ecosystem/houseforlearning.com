@@ -6,7 +6,7 @@ Draft: pages are noindex until the owner approves the wording."""
 import re, html, pathlib
 R = pathlib.Path(__file__).resolve().parents[1]; S = R / 'site'
 e = html.escape
-DRAFT = 'Prices are shown on the Membership page only.'
+DRAFT = 'For prices, see the membership pages.'
 tpl = (S / 'catalogue.html').read_text()
 if 'name="robots"' not in tpl or 'index,follow' in tpl:
     tpl = tpl.replace('<meta name="robots" content="index,follow">', '')
@@ -75,7 +75,7 @@ page('sectors.html', 'Sectors we serve', 'The twelve sectors House for Learning 
 SERV = []
 
 # How we help: platform wording and suite
-THINK = [('Reading', 'Understands what a text means.'), ('Understanding', 'Takes whole steps such as decisions and actions.'),
+THINK = [('Reading', 'Understands what a text means.'), ('Understanding', 'Carries out whole steps, such as making decisions and acting on them.'),
          ('Writing', 'Turns the system data into plain human language to reply.'),
          ('Make and check', 'The system makes the output; you check and approve it, or send it round again to improve it.'),
          ('Ask me anything coach', 'Takes your questions and uses the libraries and public information you use most, so you get the best set of answers.')]

@@ -16,8 +16,9 @@ for idx, (sec_, title, lv, hrs, desc, rest) in enumerate(rows):
     outcomes = [o.split('|') for o in outs.split('##')]
     CS.append(dict(code=CD.CODES[idx], sector=sec_, title=title, lv=int(lv), hrs=hrs, desc=desc, outs=outcomes, agenda=agenda.split(';')))
 def fmt_time(mins):
-    h, m = divmod(int(mins), 60)
-    return f'{h} h {m} min' if h and m else (f'{h} h' if h else f'{m} min')
+    mins = int(mins)
+    hrs = f'{mins / 60:g}'
+    return f'{hrs} {"hour" if hrs == "1" else "hours"} ({mins} minutes)' if mins >= 60 else f'{mins} minutes'
 for _c in CS:
     _f = FULL.get(_c['code'])
     if _f: _c['hrs'] = fmt_time(sum(int(m['min']) for m in _f['modules']))
