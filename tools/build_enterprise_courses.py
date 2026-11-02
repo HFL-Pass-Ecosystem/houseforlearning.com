@@ -25,7 +25,7 @@ def build(c):
                  f'<p>{e(intro)}</p><ul>' + ''.join(f'<li>{e(p)}</li>' for p in pts) + '</ul>'
                  f'<div class="evi"><strong>Worked example.</strong> {e(ex)}</div>'
                  f'<p><strong>Activity.</strong> {e(act)}</p><p><strong>Standard to meet.</strong> {e(std)}</p>'
-                 f'<h4>Slides with notes</h4><ol class="slides">{sl}</ol></details>')
+                 f'<h3>Slides with notes</h3><ol class="slides">{sl}</ol></details>')
     assert len(x['quiz']) == 10 and len(x['ladder']) == 7 and len(x['quiz_module']) == 10 and set(x['quiz_module']) == set(range(1, 9)), c['slug']
     quiz = ''.join(f'<details class="mod"><summary>Q{i}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a)} {e(covered(n, c["mods"][n-1]))}</p></details>' for i, ((q, a), n) in enumerate(zip(x['quiz'], x['quiz_module']), 1))
     ladder = ''.join(f'<details class="mod"><summary><span class="mn">Slide {i}</span> {D.LV[i]}: {e(t)}</summary><p>{e(b)}</p><p class="ws-note"><strong>Speaker notes.</strong> {e(n)}</p></details>' for i, (t, b, n) in enumerate(x['ladder'], 1))

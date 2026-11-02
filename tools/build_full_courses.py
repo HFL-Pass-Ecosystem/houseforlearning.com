@@ -94,6 +94,8 @@ def page(fn, title, desc, h1, lead, body, crumbs, kicker='courses'):
     t = re.sub(r'<ol class="crumbs">.*?</ol>', lambda m: '<ol class="crumbs"><li><a href="index.html">Home</a></li>' + crumbs + '</ol>', t, 1, re.S)
     main = (f'<main id="main" tabindex="-1"><section class="hero" aria-labelledby="h1"><div class="wrap hero-grid solo"><div>'
             f'<p class="kicker">{e(kicker)}</p><h1 id="h1">{e(h1)}</h1><p>{lead}</p></div></div></section>{body}</main>')
+    import a11y_lang
+    main = a11y_lang.mark(main)
     t = re.sub(r'<main id="main".*?</main>', lambda m: main, t, 1, re.S)
     (S / fn).write_text(t)
 def sec(cls, i, kick, h2, inner):

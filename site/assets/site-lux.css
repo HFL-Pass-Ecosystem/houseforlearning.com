@@ -1,5 +1,5 @@
 /* Whole-site luxury layer. Base surface is L156 (Almost Ivory, #F2EEE2); ink and gold come from the yoga page. */
-:root,html body,html body.learn{--bg:#F2EEE2;--surface:#FBF8EF;--panel:rgba(228,219,196,.45);--line:#d9d0b8;--ink:#14222e;--muted:#4c5a66;--acc:#14222e;--acc-strong:#0c1a24;--on-acc:#F2EEE2;--hl:#b8934a;--kick:#8a6a2c;--head-bg:rgba(242,238,226,.94);
+:root,html body,html body.learn{--bg:#F2EEE2;--surface:#FBF8EF;--panel:rgba(228,219,196,.45);--line:#d9d0b8;--ink:#14222e;--muted:#4c5a66;--acc:#14222e;--acc-strong:#0c1a24;--on-acc:#F2EEE2;--hl:#b8934a;--kick:#765a21;--head-bg:rgba(242,238,226,.94);
   --dark-bg:#0c1a24;--dark-ink:#f4ecdc;--dark-muted:#bdb29b;--dark-kicker:#d9b979;--foot-bg:#0c1a24;--foot-ink:#f4ecdc;--foot-muted:#a79d87;--foot-acc:#d9b979;
   --lx-display:"Cormorant Garamond","Literata",Georgia,serif;--r:2px;--r-lg:2px;--rb:0}
 body,body.learn{background:#F2EEE2!important;background-image:none!important;color:var(--ink)}

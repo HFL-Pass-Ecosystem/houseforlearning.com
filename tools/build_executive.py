@@ -76,7 +76,7 @@ def rich(n):
     f = XD / (n.lower() + '.json')
     if not f.exists(): return ''
     x = json.load(open(f)); ms = x['modules']
-    tcs = ('<div class="tcs"><div><h4>Task</h4><p>' + e(x['task']) + '</p></div><div><h4>Condition</h4><p>' + e(x['condition']) + '</p></div><div><h4>Standard</h4><p>' + e(x['standard']) + '</p></div></div><p><strong>Who it is for:</strong> ' + e(x['who']) + '</p>')
+    tcs = ('<h3 class="ws-h3">Task, condition and standard</h3><div class="tcs"><div><h4>Task</h4><p>' + e(x['task']) + '</p></div><div><h4>Condition</h4><p>' + e(x['condition']) + '</p></div><div><h4>Standard</h4><p>' + e(x['standard']) + '</p></div></div><p><strong>Who it is for:</strong> ' + e(x['who']) + '</p>')
     mod = ''
     for i, m in enumerate(ms, 1):
         mod += (f'<details class="mod" {"open" if i==1 else ""}><summary><span class="mn">Part {i}</span> {e(m["title"])} <span class="pill">{e(str(m["hours"]))} h</span><span class="pill bz">{e(m["bloom"])}</span></summary>'
