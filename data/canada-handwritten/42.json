@@ -138,43 +138,53 @@
  "quiz": [
   [
    "What is a specification?",
-   "A statement of what a thing must do and how well."
+   "A statement of what a thing must do and how well.",
+   1
   ],
   [
    "What is tolerance?",
-   "The allowed difference from the target size or value."
+   "The allowed difference from the target size or value.",
+   1
   ],
   [
    "Why version documents?",
-   "So everyone uses the latest one and changes are traceable."
+   "So everyone uses the latest one and changes are traceable.",
+   2
   ],
   [
    "Why calibrate tools?",
-   "So measurements can be trusted."
+   "So measurements can be trusted.",
+   3
   ],
   [
    "Who regulates engineering work in Canada?",
-   "Provincial engineering bodies; check yours."
+   "Provincial engineering bodies; check yours.",
+   4
   ],
   [
    "What should a test report show?",
-   "Results with units, pass or fail, date, tool and initials."
+   "Results with units, pass or fail, date, tool and initials.",
+   3
   ],
   [
    "What is the best fault-finding habit?",
-   "Change one thing at a time and retest."
+   "Change one thing at a time and retest.",
+   5
   ],
   [
    "What goes in a risk register?",
-   "Risk, likelihood, harm, control, owner and review date."
+   "Risk, likelihood, harm, control, owner and review date.",
+   7
   ],
   [
    "Why report near-misses?",
-   "They show problems before someone is hurt."
+   "They show problems before someone is hurt.",
+   7
   ],
   [
    "What if you do not know a rule?",
-   "Ask the provincial body or authority and keep the answer in writing."
+   "Ask the provincial body or authority and keep the answer in writing.",
+   4
   ]
  ],
  "jobs": [

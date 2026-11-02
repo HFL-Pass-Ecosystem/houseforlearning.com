@@ -138,43 +138,53 @@
  "quiz": [
   [
    "Name three petcare services.",
-   "Walking, sitting, grooming, training, day care (any three)."
+   "Walking, sitting, grooming, training, day care (any three).",
+   1
   ],
   [
    "Name two signs of a stressed dog.",
-   "Pinned ears, tail tucked, hiding, growling, lip licking (any two)."
+   "Pinned ears, tail tucked, hiding, growling, lip licking (any two).",
+   2
   ],
   [
    "Who sets dog licence rules?",
-   "Usually the city; check with the local authority."
+   "Usually the city; check with the local authority.",
+   3
   ],
   [
    "What goes on a care card?",
-   "Feeding, medicine, habits, fears, vet and owner contacts."
+   "Feeding, medicine, habits, fears, vet and owner contacts.",
+   4
   ],
   [
    "Why do a meet-and-greet?",
-   "To meet the pet and owner and agree the plan before the first job."
+   "To meet the pet and owner and agree the plan before the first job.",
+   6
   ],
   [
    "How do you find break-even visits?",
-   "Fixed cost divided by margin per visit."
+   "Fixed cost divided by margin per visit.",
+   5
   ],
   [
    "Why label keys by code?",
-   "So a lost key does not show the client's address."
+   "So a lost key does not show the client's address.",
+   7
   ],
   [
    "What must be in a service agreement?",
-   "Cancellation, payment and emergency vet permission."
+   "Cancellation, payment and emergency vet permission.",
+   6
   ],
   [
    "What do you do first in a lost-pet case?",
-   "Stay calm, call the owner and start the search plan."
+   "Stay calm, call the owner and start the search plan.",
+   7
   ],
   [
    "What should you do if unsure about a rule?",
-   "Ask the city or a licensed adviser and keep the answer in writing."
+   "Ask the city or a licensed adviser and keep the answer in writing.",
+   null
   ]
  ],
  "jobs": [

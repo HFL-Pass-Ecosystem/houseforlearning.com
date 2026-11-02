@@ -138,43 +138,53 @@
  "quiz": [
   [
    "Why share load across chargers?",
-   "To stay within site capacity."
+   "To stay within site capacity.",
+   3
   ],
   [
    "What is dwell time?",
-   "How long a car stays parked."
+   "How long a car stays parked.",
+   1
   ],
   [
    "Who may do the electrical work?",
-   "Licensed electricians with permits and inspection."
+   "Licensed electricians with permits and inspection.",
+   2
   ],
   [
    "What is energy margin?",
-   "Selling price minus energy price and fees."
+   "Selling price minus energy price and fees.",
+   4
   ],
   [
    "Why charge idle fees?",
-   "To free the bay for others."
+   "To free the bay for others.",
+   4
   ],
   [
    "What uptime target does the plan set?",
-   "About 97% or better, with faults repaired inside 12 hours."
+   "About 97% or better, with faults repaired inside 12 hours.",
+   5
   ],
   [
    "Why monitor remotely?",
-   "To catch faults early."
+   "To catch faults early.",
+   5
   ],
   [
    "What is a demand charge?",
-   "A fee based on peak power drawn."
+   "A fee based on peak power drawn.",
+   7
   ],
   [
    "What triggers a move?",
-   "Under 3 sessions a day after 60 days."
+   "Under 3 sessions a day after 60 days.",
+   8
   ],
   [
    "Why insure?",
-   "Liability and equipment damage."
+   "Liability and equipment damage.",
+   7
   ]
  ],
  "jobs": [

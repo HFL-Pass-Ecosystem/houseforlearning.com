@@ -138,43 +138,53 @@
  "quiz": [
   [
    "List the waste hierarchy.",
-   "Reduce, reuse, recycle, recover, dispose."
+   "Reduce, reuse, recycle, recover, dispose.",
+   1
   ],
   [
    "What is a manifest?",
-   "A document tracking hazardous waste."
+   "A document tracking hazardous waste.",
+   2
   ],
   [
    "What is diversion rate?",
-   "Share kept from landfill."
+   "Share kept from landfill.",
+   5
   ],
   [
    "Why sort at source?",
-   "Lower contamination."
+   "Lower contamination.",
+   3
   ],
   [
    "Who approves waste operations?",
-   "The provincial environment authority, under the provincial rule."
+   "The provincial environment authority, under the provincial rule.",
+   2
   ],
   [
    "Why financial assurance?",
-   "Clean-up cost if the operator fails."
+   "Clean-up cost if the operator fails.",
+   7
   ],
   [
    "What is a gate fee?",
-   "Fee for accepting waste."
+   "Fee for accepting waste.",
+   4
   ],
   [
    "What triggers a fix?",
-   "Contamination over 15%."
+   "Contamination over 15%.",
+   8
   ],
   [
    "Why drills?",
-   "Spills and fires need quick response."
+   "Spills and fires need quick response.",
+   5
   ],
   [
    "Who assesses contaminated sites?",
-   "Qualified professionals following standards."
+   "Qualified professionals following standards.",
+   2
   ]
  ],
  "jobs": [

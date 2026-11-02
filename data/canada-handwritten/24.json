@@ -138,43 +138,53 @@
  "quiz": [
   [
    "What does self-employed mean for an app driver?",
-   "You pay your own costs and taxes."
+   "You pay your own costs and taxes.",
+   1
   ],
   [
    "What do you check before a shift?",
-   "Tyres, lights, brakes, fluids and cleanliness."
+   "Tyres, lights, brakes, fluids and cleanliness.",
+   2
   ],
   [
    "Is a hand-held phone allowed while driving?",
-   "No."
+   "No.",
+   3
   ],
   [
    "What should you ask your insurer?",
-   "Whether personal insurance covers paid driving."
+   "Whether personal insurance covers paid driving.",
+   4
   ],
   [
    "How do you find real hourly pay?",
-   "Earnings minus costs, divided by all hours including waiting."
+   "Earnings minus costs, divided by all hours including waiting.",
+   5
   ],
   [
    "Name three vehicle costs.",
-   "Fuel, insurance, repairs, tyres or depreciation."
+   "Fuel, insurance, repairs, tyres or depreciation.",
+   5
   ],
   [
    "Why keep a mileage log?",
-   "For tax and to measure cost per kilometre."
+   "For tax and to measure cost per kilometre.",
+   5
   ],
   [
    "What do you do if you are tired?",
-   "Stop and rest."
+   "Stop and rest.",
+   2
   ],
   [
    "Who sets taxi and ride rules?",
-   "Provinces and cities; check the current rule with the local authority."
+   "Provinces and cities; check the current rule with the local authority.",
+   4
   ],
   [
    "What do you do when unsure about a rule?",
-   "Check the current rule with the local authority and keep the answer in writing."
+   "Check the current rule with the local authority and keep the answer in writing.",
+   4
   ]
  ],
  "jobs": [

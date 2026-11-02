@@ -138,43 +138,53 @@
  "quiz": [
   [
    "Name two ethical phone claims you could prove.",
-   "Repairable design (shown by tested repair times) and long software support (shown by published update dates)."
+   "Repairable design (shown by tested repair times) and long software support (shown by published update dates).",
+   1
   ],
   [
    "What approval does a phone with a radio need?",
-   "Federal radio approval from an accredited lab test."
+   "Federal radio approval from an accredited lab test.",
+   2
   ],
   [
    "Why write a repair guide early?",
-   "Repairability is a design promise that must be tested."
+   "Repairability is a design promise that must be tested.",
+   3
   ],
   [
    "What is a supplier scorecard?",
-   "A scored record of supplier checks with evidence and dates."
+   "A scored record of supplier checks with evidence and dates.",
+   4
   ],
   [
    "Why avoid vague green words?",
-   "Claims must be measurable and provable."
+   "Claims must be measurable and provable.",
+   7
   ],
   [
    "What is the break-even rule?",
-   "Fixed cost divided by margin per phone."
+   "Fixed cost divided by margin per phone.",
+   5
   ],
   [
    "Why plan take-back?",
-   "To recover materials and keep the ethical promise."
+   "To recover materials and keep the ethical promise.",
+   6
   ],
   [
    "What triggers a fix in the pilot?",
-   "Return rate over 8%."
+   "Return rate over 8%.",
+   8
   ],
   [
    "Why keep audit records?",
-   "Buyers and any applicable supply-chain rule may ask for proof; check the rule."
+   "Buyers and any applicable supply-chain rule may ask for proof; check the rule.",
+   2
   ],
   [
    "Why diversify chip supply?",
-   "A shortage can stop production."
+   "A shortage can stop production.",
+   7
   ]
  ],
  "jobs": [

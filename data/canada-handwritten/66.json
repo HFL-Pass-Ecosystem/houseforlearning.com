@@ -138,43 +138,53 @@
  "quiz": [
   [
    "What is the difference between a native and a web app?",
-   "A native app is built for one platform's system; a web app runs in a browser."
+   "A native app is built for one platform's system; a web app runs in a browser.",
+   1
   ],
   [
    "What goes in a one-line need statement?",
-   "Who it is for, the need, the result."
+   "Who it is for, the need, the result.",
+   2
   ],
   [
    "Why keep permissions minimal?",
-   "Ask only for data you need; it protects users and trust."
+   "Ask only for data you need; it protects users and trust.",
+   3
   ],
   [
    "What is a user story?",
-   "A short statement of who wants what and why, with a test."
+   "A short statement of who wants what and why, with a test.",
+   5
   ],
   [
    "Why test with no internet?",
-   "Phones often lose signal and the app should still handle it."
+   "Phones often lose signal and the app should still handle it.",
+   4
   ],
   [
    "What does a fault log entry contain?",
-   "Steps to repeat, expected result and actual result."
+   "Steps to repeat, expected result and actual result.",
+   6
   ],
   [
    "What does the privacy notice say?",
-   "What data you collect, why, and how it is kept and deleted."
+   "What data you collect, why, and how it is kept and deleted.",
+   3
   ],
   [
    "How do you find break-even?",
-   "Fixed cost divided by margin per sale."
+   "Fixed cost divided by margin per sale.",
+   7
   ],
   [
    "Why aim for accessibility guidelines?",
-   "So people with disabilities can use the app."
+   "So people with disabilities can use the app.",
+   3
   ],
   [
    "What do you do if unsure about a privacy or store rule?",
-   "Check the current rule with the official body or a licensed adviser and keep the answer in writing."
+   "Check the current rule with the official body or a licensed adviser and keep the answer in writing.",
+   3
   ]
  ],
  "jobs": [

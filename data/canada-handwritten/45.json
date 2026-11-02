@@ -138,43 +138,53 @@
  "quiz": [
   [
    "What are the four parts of an online sale?",
-   "Product, listing, payment and delivery."
+   "Product, listing, payment and delivery.",
+   1
   ],
   [
    "Why start with one clear customer?",
-   "A clear customer shows what to sell and how to describe it."
+   "A clear customer shows what to sell and how to describe it.",
+   2
   ],
   [
    "Who sets return and refund rules for most online sales in Canada?",
-   "Each province; check your own province."
+   "Each province; check your own province.",
+   3
   ],
   [
    "What should you do about sales tax numbers?",
-   "Check the current rule with the federal tax agency."
+   "Check the current rule with the federal tax agency.",
+   3
   ],
   [
    "What must a listing show before checkout?",
-   "Price, delivery cost and delivery time."
+   "Price, delivery cost and delivery time.",
+   4
   ],
   [
    "How do you find margin per order?",
-   "Price minus product cost, fees, packing and shipping."
+   "Price minus product cost, fees, packing and shipping.",
+   5
   ],
   [
    "What is the reorder point formula?",
-   "Daily sales x lead time + safety stock."
+   "Daily sales x lead time + safety stock.",
+   5
   ],
   [
    "Which funnel step do you fix first?",
-   "The weakest step."
+   "The weakest step.",
+   6
   ],
   [
    "What do you do when a parcel arrives damaged?",
-   "Fix it for the customer and record the cause so you can change it."
+   "Fix it for the customer and record the cause so you can change it.",
+   7
   ],
   [
    "What must be agreed before a pilot?",
-   "Length, measures and a stop rule."
+   "Length, measures and a stop rule.",
+   8
   ]
  ],
  "jobs": [

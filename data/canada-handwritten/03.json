@@ -138,43 +138,53 @@
  "quiz": [
   [
    "When does printing beat moulding?",
-   "At low volume, with complex shapes or fast change."
+   "At low volume, with complex shapes or fast change.",
+   1
   ],
   [
    "Why orient a part carefully?",
-   "Strength differs along and across layers."
+   "Strength differs along and across layers.",
+   3
   ],
   [
    "Why keep powder safety rules?",
-   "Metal powder can burn or explode."
+   "Metal powder can burn or explode.",
+   2
   ],
   [
    "What is a failure allowance?",
-   "Extra cost added for builds that fail."
+   "Extra cost added for builds that fail.",
+   4
   ],
   [
    "What does first-pass yield mean?",
-   "Good parts divided by started parts."
+   "Good parts divided by started parts.",
+   5
   ],
   [
    "Why record material lot?",
-   "To trace a part back to its material."
+   "To trace a part back to its material.",
+   3
   ],
   [
    "Name two parts that fit printing.",
-   "Custom jigs, spare parts or lattices."
+   "Custom jigs, spare parts or lattices.",
+   1
   ],
   [
    "When add a second machine?",
-   "When the first runs above about 60% use."
+   "When the first runs above about 60% use.",
+   8
   ],
   [
    "Why get a customer's standard first?",
-   "Certified uses need specific material and records."
+   "Certified uses need specific material and records.",
+   2
   ],
   [
    "What can you refuse on ethics grounds?",
-   "Parts that could be used to harm people."
+   "Parts that could be used to harm people.",
+   7
   ]
  ],
  "jobs": [

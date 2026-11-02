@@ -138,43 +138,53 @@
  "quiz": [
   [
    "What is a portfolio?",
-   "A set of investments held together for a goal."
+   "A set of investments held together for a goal.",
+   1
   ],
   [
    "Why check the regulator before offering a service?",
-   "Managing or advising on money for others is regulated and may need registration."
+   "Managing or advising on money for others is regulated and may need registration.",
+   2
   ],
   [
    "What three facts set how much risk fits?",
-   "Goals, time frame and comfort with loss."
+   "Goals, time frame and comfort with loss.",
+   3
   ],
   [
    "What is diversification?",
-   "Spreading money across different holdings so one problem hurts less."
+   "Spreading money across different holdings so one problem hurts less.",
+   4
   ],
   [
    "What is rebalancing?",
-   "Moving back to the planned mix after prices change it."
+   "Moving back to the planned mix after prices change it.",
+   4
   ],
   [
    "How do you compute simple return?",
-   "End value minus start value, divided by start value."
+   "End value minus start value, divided by start value.",
+   5
   ],
   [
    "Why show fees and worst falls in a report?",
-   "So the client sees the true cost and risk."
+   "So the client sees the true cost and risk.",
+   5
   ],
   [
    "What is a conflict of interest?",
-   "A situation where your gain may pull against the client's best interest."
+   "A situation where your gain may pull against the client's best interest.",
+   2
   ],
   [
    "Can you promise returns?",
-   "No; show ranges and risks."
+   "No; show ranges and risks.",
+   6
   ],
   [
    "Where should you go for your own money decisions?",
-   "A licensed professional."
+   "A licensed professional.",
+   1
   ]
  ],
  "jobs": [
