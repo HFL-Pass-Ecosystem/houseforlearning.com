@@ -326,7 +326,7 @@ def partner():
               '<p>Partners, affiliates and value providers work together in a hub-and-spoke network in four levels. Each level has a memorandum checklist and a quarterly review.</p>'
               '<div class="o-links">' + btn('organisations.html', 'For organisations') + btn('how-we-help.html', 'How we help', True) + '</div>')
     m += split('contact us', 'Feel free to contact us about any queries',
-               '<p>Use the contact form, or write to <a href="mailto:engage@hfl-pass.com">engage@hfl-pass.com</a>.</p><div class="o-links">' + btn('contact.html', 'Contact us') + '</div>', alt=True)
+               '<p>Use the contact form.</p><div class="o-links">' + btn('contact.html', 'Contact us') + '</div>', alt=True)
     write('partner.html', m)
 
 def how_we_help():
