@@ -1,6 +1,6 @@
 S_5 = [
 ('robotics', 'Robotics', [
-('Pick one task in one workplace, such as moving boxes in a small store room, and define it in numbers.', 'Task card: carry 20 kg boxes over 30 m, 100 times per day, in a dry indoor room.'),
+('Pick one task in one workplace, such as moving boxes in a small store room, and define it in numbers.', 'Task card: carry boxes over a set distance, 100 times per day, in a dry indoor room.'),
 ('Compare three models: sell robots, rent robots by the month, or sell a service done by robots. Choose by cash needed.', 'Sell {c} 8000 once, rent {c} 400 per month, service {c} 0.25 per box: compare after 12 months of use.'),
 ('List the safety rules, electrical standards, import rules and worker rules that apply before a trial.', 'Rules table: machine safety check, emergency stop, test report, insurance note; each has a date checked.'),
 ('Log robot data, camera images and error records; keep images of people private and delete them on a set date.', 'Rule: camera images are deleted after 14 days; error logs are kept for 1 year.'),
@@ -32,7 +32,7 @@ S_5 = [
 ('bpo', 'Business Process Outsourcing Services', [
 ('Sell one process for one client type, such as invoice entry for small firms.', 'Offer: enter 500 invoices per month in 2 days with a 99% accuracy target.'),
 ('Compare models: price per task, monthly team, or shared back office. Pick by risk and steady income.', 'Per task {c} 2; team of 3 at {c} 6000 per month; compare income at 4000 tasks.'),
-('Check contract terms, data protection law, tax set-up and labour rules before taking client work.', 'Rules table: service contract, data law note, work permit rule, overtime rule; each dated.'),
+('Check contract terms, data protection law, any tax set-up and labour rules before taking client work.', 'Rules table: service contract, data law note, work permit rule, overtime rule; each dated.'),
 ('Set access rules: client data stays in client systems, staff sign confidentiality notes, logs are kept.', 'Access sheet: each worker sees only their own client folder; logins reviewed every month.'),
 ('Run a paid pilot on 100 tasks and report accuracy and time.', 'Pilot: 100 invoices, 98 right first time, 2 fixed; average 3 minutes each.'),
 ('Price per task from staff cost, tools, checks and margin.', 'Staff {c} 4000 per month for 2000 tasks, tools {c} 400, checks {c} 400: cost {c} 4800; price {c} 3 per task gives {c} 6000 and leaves {c} 1200.'),
@@ -42,7 +42,7 @@ S_5 = [
 ('stem-cell-therapy', 'Stem Cell Therapy', [
 ('Planning only: define the problem you want to help, such as patient information or clinic support, not treatment.', 'Scope note: we explain options and book visits; a licensed clinic gives all treatment.'),
 ('Compare models: referral to a licensed clinic, patient education service, or research support partner. Pick the one with no clinical duty.', 'Referral desk needs no lab; education service needs trusted content; compare risk and cost.'),
-('Check which treatments are approved, who may offer them and what claims are banned; ask the regulator and a licensed firm first.', 'Rules table: approved uses, claim limits, consent rules, advertising rules, date checked; never promise a cure.'),
+('Check which treatments are approved, who may offer them and which claims the local rule allows; ask the regulator and a licensed firm first.', 'Rules table: approved uses, claim limits, consent rules, advertising rules, date checked; never promise a cure.'),
 ('Treat all health records as highly sensitive; collect nothing you do not need and get written consent.', 'Record rule: only the clinic holds medical records; we hold name and contact with consent.'),
 ('Show proof from the partner clinic: licence, approvals and published study summaries, not patient stories as promises.', 'Proof page: licence number, approval date, 3 study summaries with plain notes on limits.'),
 ('Plan money for a service role: fees to the patient are set by the partner and shown in full.', 'Desk cost: 2 staff at {c} 1500 each plus tools {c} 500 = {c} 3500 per month; 35 booked visits at {c} 100 = {c} 3500, break even.'),
@@ -52,7 +52,7 @@ S_5 = [
 ('home-sharing', 'Home Sharing', [
 ('Start with one area and one guest type, such as visiting families or workers on short jobs.', 'Pilot: list 10 rooms near one hospital area for stays of 3 to 14 nights.'),
 ('Compare models: list homes for a fee, manage homes for owners, or run leased homes. Pick by risk.', 'List fee needs no assets; managing earns 15% of income; leasing carries rent risk.'),
-('Check short-stay rules, tax on rental income, safety checks and building rules before listing.', 'Rules table: stay permit, tax note, fire safety, neighbour or building rule; each dated.'),
+('Check short-stay rules, any tax on rental income, safety checks and building rules before listing.', 'Rules table: stay permit, tax note, fire safety, neighbour or building rule; each dated.'),
 ('Verify hosts and guests, store IDs safely, and keep message records for disputes.', 'Check: host proof of ownership; guest ID seen but not stored after checkout.'),
 ('Show real photos, house rules and guest reviews on each listing.', 'Listing with 12 photos and 5 reviews gets 4 enquiries per week against 1 for a bare one.'),
 ('Price per night and count cleaning, supplies, fees and empty nights.', 'Rent {c} 50 per night, 18 nights booked = {c} 900; cleaning {c} 120, supplies {c} 40, platform fee {c} 90: costs {c} 250; leaves {c} 650.'),
@@ -61,7 +61,7 @@ S_5 = [
 ]),
 ('crowdfunding', 'Crowdfunding Platform', [
 ('Start with one campaign type and one community, such as local creative projects.', 'Pilot: 5 projects with goals of {c} 2000 to {c} 5000 from one town.'),
-('Compare models: rewards, donations, or lending and shares through a licensed partner. Pick the lightest rule burden.', 'Rewards and donations have fewer rules; lending and shares need a licence, so partner with a licensed firm.'),
+('Compare models: rewards, donations, or lending and shares through a licensed partner. Pick the lightest rule burden.', 'Rewards and donations have fewer rules; lending and shares may need a licence, so partner with a licensed firm.'),
 ('Planning only: list which models need a financial licence and ask a licensed firm and the regulator before taking money.', 'Rules table: model, who may hold funds, backer protection, refund rule, tax note; dated.'),
 ('Verify project owners, protect backer data and use a licensed payment partner to hold funds.', 'Check: ID and plan review for each owner; payments held by the partner until the goal is met.'),
 ('Show project updates, budgets and proof of past delivery on every campaign page.', 'Page shows budget in 5 lines, 3 updates and a delivery date.'),
@@ -73,13 +73,13 @@ S_5 = [
 ('Start with one subject and one reader group, such as exam books for secondary students.', 'Pilot: 200 titles for one grade, free to read for 30 days.'),
 ('Compare models: subscription, pay per book, or school licence. Choose by steady income.', 'Subscription {c} 3 per month, per book {c} 1, school licence {c} 500 per year: compare at 300 readers.'),
 ('Check copyright rules and written permission for every title; list public domain items separately.', 'Rights table: title, owner, permission date, end date, territory; no title goes live without a row.'),
-('Protect reader accounts and reading records; collect only email and class level.', 'Rule: reading history is kept 90 days and never sold; children accounts need a parent consent.'),
+('Protect reader accounts and reading records; collect only email and class level.', 'Rule: reading history is kept 90 days and never sold; children accounts: check the local parent-consent rule.'),
 ('Show reader proof: pages read, books finished and teacher feedback.', 'Pilot: 120 readers, 60 finished at least 1 book in 4 weeks, a 50% rate.'),
 ('Price access and count content rights, hosting and support.', 'Rights {c} 400, hosting {c} 100, support {c} 200: costs {c} 700 per month; 300 readers at {c} 3 = {c} 900 leaves {c} 200.'),
 ('Partner with publishers, teachers and a hosting provider; write each duty.', 'Publisher gives files and permission; teacher picks lists; host keeps the site up 99% of the time.'),
 ('Launch with a go or no-go rule on active readers and renewals.', 'Go rule: 40% of readers active each week and 60% renew after month 1; else fix content first.'),
 ]),
-('portable-charging-station', 'Portable/Powermat Charging Station', [
+('portable-charging-station', 'Portable Wireless Charging Station', [
 ('Start with one busy place type, such as cafes, and one charger design.', 'Pilot: 10 tables in 3 cafes with wireless charging pads.'),
 ('Compare models: sell units, rent per month, or free with a shared advertising fee. Pick by cash.', 'Sell {c} 80 per unit; rent {c} 6 per month; ads {c} 3 per unit per month; compare at 100 units.'),
 ('Check electrical safety marks, radio rules, import rules and venue insurance before install.', 'Rules table: safety mark, radio test, import check, venue consent; each dated.'),
