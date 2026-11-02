@@ -17,7 +17,8 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                                 'Next, the group price gives R$ 240 - R$ 90 = R$ 150 per night. If '
                                 'the nights would otherwise be empty, 20 x R$ 150 = R$ 3.000 is '
                                 'extra profit. If they displace guests at R$ 280, each swap loses '
-                                'R$ 40.\n'
+                                'R$ 40. The 20-night group at R$ 240 is a worked-example '
+                                'scenario.\n'
                                 '\n'
                                 'Fix the bathroom checklist first. Also, move the wall calendar '
                                 'into a sheet with source, nights, price and review score, and '
@@ -25,8 +26,8 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                                 'cleaner, so a bathroom complaint can be traced to a date and a '
                                 'room.\n'
                                 '\n'
-                                'Standard to meet: every room has a cleaning log and every booking '
-                                'has a source and a price.'),
+                                "Rita's wall calendar becomes a weekly sheet, so a dirty-bathroom "
+                                'review points to a date, a room and a signed checklist.'),
  'Carpentry': ('Valdir runs a small carpentry workshop in Sao Paulo and builds made-to-measure '
                'pieces such as tables and wardrobe door sets. He charges R$ 1.800 per piece, and '
                'boards, hardware, finish, helper hours and delivery cost about R$ 900. His fixed '
@@ -45,10 +46,11 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                '720, when the drawing is signed, and price any change in writing before cutting. '
                'Also, keep a one-page quote with the drawing, wood type, finish, deposit and '
                'delivery date, and photograph the piece before it leaves. Track hours per piece '
-               'for a month to learn whether the price still covers the work.\n'
+               'for a month to learn whether the price still covers the work. The remake costs and '
+               'deposit are worked-example figures, not market data.\n'
                '\n'
-               'Standard to meet: every piece has a signed drawing, a cut list, a cost sheet and a '
-               'delivery date.'),
+               'Valdir should photograph each piece beside its signed drawing, so the client sees '
+               'the R$ 1.800 piece they approved.'),
  'Construction and Technical Services': ('Tiago runs a small renovation firm in Sao Paulo with two '
                                          'crews. He sells each finished job for R$ 7.500, and '
                                          'materials, crew days and transport cost him about R$ '
@@ -76,10 +78,12 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                                          'Friday: list jobs, materials ordered, days used and what '
                                          'was paid, so a leaking cost shows up the same week. '
                                          'Agree that crew leaders order materials only against a '
-                                         'signed cost sheet.\n'
+                                         'signed cost sheet. The R$ 900 overrun and deposit are '
+                                         'illustrative figures.\n'
                                          '\n'
-                                         'Standard to meet: every job has a written price, a cost '
-                                         'sheet, a payment date and an extras log.'),
+                                         "Tiago's first change sheet should cover the R$ 900 of "
+                                         'tile materials, so the next overrun is charged when '
+                                         'ordered.'),
  'Event Organization and Management': ('Camila runs a small events company in Sao Paulo that '
                                        'organises corporate lunches and private parties. She sells '
                                        'each event for R$ 14.000, and venue, catering, sound, '
@@ -101,7 +105,8 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                                        "Next, the extra caterer bill cut that event's margin to R$ "
                                        '5.500 - R$ 1.500 = R$ 4.000, or 28,6 percent. Profit for '
                                        'the month falls to R$ 18.000. The unpaid R$ 4.200 is 30 '
-                                       'percent of the event price.\n'
+                                       'percent of the event price. The R$ 1.500 bill and R$ 4.200 '
+                                       'balance are invented for this example.\n'
                                        '\n'
                                        'Add a clause that changes in the last week are priced and '
                                        'paid in advance. Also, keep one budget sheet per event '
@@ -110,8 +115,8 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                                        'lines overrun and can price the contingency with '
                                        'evidence.\n'
                                        '\n'
-                                       'Standard to meet: every event has a signed brief, a '
-                                       'budget, a payment schedule and a debrief.'),
+                                       "Camila's debrief should log the R$ 1.500 caterer bill, so "
+                                       'her next quote prices late headcount changes.'),
  'Export and Import Business': ('Marcos runs a small trading firm in Sao Paulo that imports food '
                                 'equipment and sells to restaurant groups. Each shipment is sold '
                                 'for R$ 40.000 and costs R$ 34.000 for goods, freight, insurance, '
@@ -132,7 +137,8 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                                 '6.000 - R$ 2.000 - R$ 1.000 = R$ 3.000, so that shipment adds '
                                 'only 7,5 percent of its price. If all 3 shipments carried it, '
                                 'profit would be 3 x R$ 3.000 - R$ 12.000 = R$ -3.000. The 60 days '
-                                'of credit also hold R$ 40.000 outside the bank.\n'
+                                'of credit also hold R$ 40.000 outside the bank. The discount, '
+                                'freight rise and credit term are worked-example figures.\n'
                                 '\n'
                                 'Offer a smaller discount for a shorter payment date. Also, build '
                                 'one sheet per shipment with every invoice the day it arrives, and '
@@ -140,8 +146,8 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                                 'each month, and accept credit terms only for buyers who pay on '
                                 'time.\n'
                                 '\n'
-                                'Standard to meet: every shipment has a landed cost sheet, a '
-                                'margin and a payment date.'),
+                                'Marcos can tell the buyer that at R$ 3.000 of margin a shipment '
+                                'covers a quarter of his R$ 12.000 fixed cost.'),
  'Financing Start-ups': ('Beatriz advises early-stage founders in Sao Paulo. She sells an advisory '
                          'package for R$ 3.000, which includes a cash forecast, a break-even sheet '
                          'and two meetings. Each package costs her about R$ 600 in analyst time, '
@@ -159,7 +165,7 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                          'Next, the extra 10 hours cost 10 x R$ 30 = R$ 300, which cuts that '
                          "package's margin to R$ 2.100, or 70 percent. Over the month, profit "
                          'drops to R$ 6.900. The instalment plan delays half of R$ 3.000, which is '
-                         'R$ 1.500.\n'
+                         'R$ 1.500. The extra hours and R$ 30 rate are worked-example numbers.\n'
                          '\n'
                          'Write a scope sheet with a change price per extra hour, and ask for half '
                          'up front. Also, record hours per package in a simple timesheet for a '
@@ -167,8 +173,8 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                          'the price or the scope where the hours run over. Review the pipeline '
                          'weekly.\n'
                          '\n'
-                         'Standard to meet: every package has a signed scope, a cost record and a '
-                         'payment schedule.'),
+                         "Beatriz's next proposal should price hours beyond the 12 in scope, so "
+                         'the 10 extra hours, R$ 300 at cost, stop being absorbed.'),
  'Food Trucking': ('Luana runs a food truck near office towers in Sao Paulo and sells about 2.400 '
                    'meals a month at R$ 32 each. Ingredients, packaging and waste cost her R$ 13 '
                    'per meal. Her fixed costs are R$ 9.000 a month for the truck instalment, gas, '
@@ -184,15 +190,16 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                    '\n'
                    'Next, the rainy week lost 560 - 380 = 180 meals, or 180 x R$ 19 = R$ 3.420 of '
                    'margin. The new dish earns only R$ 16 per meal, which is R$ 3 less than the '
-                   'standard one, so it helps only if it brings new customers.\n'
+                   'standard one, so it helps only if it brings new customers. The rainy-week '
+                   'counts and R$ 16 cost are worked-example figures.\n'
                    '\n'
                    'Track meals by day and weather, and plan prep for rainy days. Also, write down '
                    'meals sold, rain, location and leftover food after every service for four '
                    'weeks, then keep the places that clear break-even each day and move away from '
                    'the rest. Check prices against ingredient costs monthly.\n'
                    '\n'
-                   'Standard to meet: each service day has a prep list, a meal count and a '
-                   'cash-up.'),
+                   "Luana's four-week log should compare each place with the 474-meal line, about "
+                   '16 meals a day over 30 days.'),
  'Franchise Business': ('Paulo owns a small snack brand in Sao Paulo and sells opening packages to '
                         'franchisees. Each outlet package sells for R$ 52.000 and costs him R$ '
                         '38.000 for fit-out materials, equipment, training and opening support. '
@@ -207,8 +214,9 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                         'outlets, profit is 4 x R$ 14.000 - R$ 15.000 = R$ 41.000.\n'
                         '\n'
                         'Next, the price cut and the extra visit cost R$ 3.000 + R$ 1.200 = R$ '
-                        '4.200, leaving that outlet a margin of R$ 9.800, or 18,8 percent. Monthly '
-                        'profit falls to R$ 36.800.\n'
+                        '4.200, leaving that outlet a margin of R$ 9.800, or 20 percent of the R$ '
+                        '49.000 price after the cut. Monthly profit falls to R$ 36.800. The price '
+                        'cut and visit cost are worked-example numbers.\n'
                         '\n'
                         'Score the outlet with the manual audit sheet and agree a dated plan '
                         'before any further concession. Also, visit each outlet on a calendar, '
@@ -216,8 +224,8 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                         'waste. Compare outlets quarterly, and offer concessions only in exchange '
                         'for a dated improvement plan.\n'
                         '\n'
-                        'Standard to meet: every outlet has a signed package, an audit score and a '
-                        'written support plan.'),
+                        'Paulo should visit the outlet ignoring the manual first, with the audit '
+                        'sheet and its R$ 9.800 margin after concessions.'),
  'Hostel or Hotel Business': ('Joana manages a small hotel with 30 rooms in Sao Paulo, which '
                               'offers 900 room-nights in a month. The average price is R$ 340 per '
                               'room-night, and housekeeping, breakfast, utilities and amenities '
@@ -237,7 +245,8 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                               'Next, the company deal gives R$ 300 - R$ 130 = R$ 170 per night. '
                               'For 60 nights that is R$ 10.200, so profit becomes R$ 91.200, '
                               'provided the nights would otherwise be empty and regular guests do '
-                              'not ask for the lower price.\n'
+                              'not ask for the lower price. The R$ 300 rate and 60 nights are a '
+                              'worked-example scenario.\n'
                               '\n'
                               'Sign it only with a written weekday-only clause. Also, export '
                               'occupancy by weekday every month, mark the quiet nights, and set '
@@ -245,15 +254,15 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                               'maintenance logs weekly so rooms out of order do not silently '
                               'reduce sellable nights.\n'
                               '\n'
-                              'Standard to meet: every month has an occupancy report by weekday '
-                              'and a rate sheet.'),
+                              "Joana's first report should split the 600 nights by weekday, so the "
+                              '60 company nights fill quiet gaps, not sold-out Saturdays.'),
  'Manufacturing Business': ('Roberto owns a small plant in Sao Paulo that makes packaged sauces in '
                             'batches. A batch sells for R$ 9.000, and raw materials, packaging, '
                             'labour, energy and water cost about R$ 6.200. His fixed costs are R$ '
                             '45.000 a month for rent, machines, maintenance and supervisors. Last '
                             'month he made 30 batches for three buyers. One buyer, taking 5 '
                             'batches, asks for a R$ 500 price cut per batch, and a machine stopped '
-                            'for two days. Scrap also reached 4 percent of the variable cost per '
+                            'for two days. Scrap, not counted in that R$ 6.200, also cost 4 percent of it per '
                             'batch. Roberto does not know his break-even, how much the discount '
                             'costs or what the scrap is worth. He reads output at the end of the '
                             'month, and machine stoppages are not written down, so causes are '
@@ -264,7 +273,8 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                             '\n'
                             'Next, the discount costs 5 x R$ 500 = R$ 2.500 a month. Scrap at 4 '
                             'percent is R$ 248 per batch, so 30 batches lose R$ 7.440. Profit '
-                            'after both is R$ 29.060.\n'
+                            'after both is R$ 29.060. The discount, scrap rate and stoppage are '
+                            'worked-example figures.\n'
                             '\n'
                             'Track downtime and scrap per batch and agree the price with the buyer '
                             'only against a longer contract. Also, log every stoppage with start, '
@@ -272,8 +282,8 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                             'that costs the most hours first, and review prices with each buyer '
                             'once the batch cost record is reliable.\n'
                             '\n'
-                            'Standard to meet: every batch has a cost record, a quality sheet and '
-                            'a stock count.'),
+                            'Roberto should hang a stoppage sheet at the filling machine, so the '
+                            'R$ 500 discount is decided on measured numbers.'),
  'Winery': ('Helena and her brother run a small winery near Sao Paulo that sells wine in cases of '
             '6. A case sells for R$ 520 and costs R$ 300 in grapes, glass, corks, labels, cellar '
             'labour and breakage. Their fixed costs are R$ 22.000 a month for rent, tanks, '
@@ -289,12 +299,13 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
             '\n'
             'Next, the 8 returned cases mean 112 good sales, so profit falls to 112 x R$ 220 - R$ '
             '22.000 = R$ 2.640, and replacing them costs 8 x R$ 300 = R$ 2.400. The restaurant '
-            'owes 30 x R$ 520 = R$ 15.600 in 45 days, so ask for half up front.\n'
+            'owes 30 x R$ 520 = R$ 15.600 in 45 days, so ask for half up front. The order, returns '
+            'and credit term are worked-example figures.\n'
             '\n'
             'Last, keep a stock sheet by lot with cases filled, sold, on credit and returned. '
             'Also, hold one meeting a week with the stock sheet, the payment list and the grape '
-            'schedule, and decide what to fill next only after the numbers agree. Keep one '
-            'sample from each lot for any complaint.\n'
+            'schedule, and decide what to fill next only after the numbers agree. Keep one sample '
+            'from each lot for any complaint.\n'
             '\n'
-            'Standard to meet: every lot has a cost per case, a stock count and a written payment '
-            'date before it leaves the cellar.')}
+            "Helena and her brother should count the cellar together and record the restaurant's "
+            '30-case promise, R$ 15.600 due in 45 days.')}
