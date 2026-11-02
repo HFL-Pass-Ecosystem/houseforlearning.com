@@ -160,19 +160,19 @@
   ],
   [
    "Why LEDs?",
-   "Efficient, less heat. (Covered in module 2: Growing systems and fail-safes. To pass that module: Layout labels parts; plan covers power and pump failure.)"
+   "Efficient, less heat. (Covered in module 3: Light schedules and cost. To pass that module: Schedule and cost are correct and recorded.)"
   ],
   [
    "What pH range?",
-   "About 5.8 to 6.2 for many crops. (Covered in module 3: Light schedules and cost. To pass that module: Schedule and cost are correct and recorded.)"
+   "About 5.8 to 6.2 for many crops. (Covered in module 4: Water and nutrients. To pass that module: Log has daily pH, conductivity, temperature and actions.)"
   ],
   [
    "Why hygiene?",
-   "Prevent disease. (Covered in module 4: Water and nutrients. To pass that module: Log has daily pH, conductivity, temperature and actions.)"
+   "Prevent disease. (Covered in module 5: Climate, hygiene and food safety. To pass that module: Schedule has daily, weekly and between-crop tasks.)"
   ],
   [
    "Yield measure?",
-   "Per m2 per cycle. (Covered in module 5: Climate, hygiene and food safety. To pass that module: Schedule has daily, weekly and between-crop tasks.)"
+   "Per m2 per cycle. (Covered in module 6: Yield, energy and water. To pass that module: Calculations are correct with units.)"
   ],
   [
    "Energy per kg unit?",
@@ -180,19 +180,19 @@
   ],
   [
    "Biggest risk?",
-   "Pump or power failure. (Covered in module 7: Unit economics and break-even. To pass that module: Break-even is calculated and compared with output.)"
+   "Pump or power failure. (Covered in module 2: Growing systems and fail-safes. To pass that module: Layout labels parts; plan covers power and pump failure.)"
   ],
   [
    "Why compare to field?",
-   "See whether it pays. (Covered in module 8: Ninety-day pilot and decision. To pass that module: Memo uses real numbers and a clear decision.)"
+   "See whether it pays. (Covered in module 6: Yield, energy and water. To pass that module: Calculations are correct with units.)"
   ],
   [
    "What is break-even?",
-   "Volume covering costs. (Covered in module 8: Ninety-day pilot and decision. To pass that module: Memo uses real numbers and a clear decision.)"
+   "Volume covering costs. (Covered in module 7: Unit economics and break-even. To pass that module: Break-even is calculated and compared with output.)"
   ],
   [
    "Why log readings?",
-   "Spot trends. (Covered in module 8: Ninety-day pilot and decision. To pass that module: Memo uses real numbers and a clear decision.)"
+   "Spot trends. (Covered in module 4: Water and nutrients. To pass that module: Log has daily pH, conductivity, temperature and actions.)"
   ]
  ],
  "rubric": [
@@ -260,32 +260,32 @@
   [
    "Growing systems and fail-safes",
    "L2: learner knows system types. Focus module: Growing systems and fail-safes (Understand, 4 h). Choose a system you can run reliably. Key points: Deep-water culture floats plants on aerated nutrient solution; nutrient film technique sends a thin stream over roots; ebb and flow floods and drains trays. Aeroponics saves the most water but fails fastest if a pump stops. Plan for failure: a battery or generator for pumps, alarms, and a manual watering routine. Keep a spare pump and tubing.",
-   "Teach: open with the worked example. A 4-level ebb-and-flow rack uses a 40 L reservoir and a timer. When the pump fails at night, a battery alarm wakes the grower within 10 minutes and the crop survives. Then set the activity: Draw your layout and write a fail-safe plan. Mark against the standard: Layout labels parts; plan covers power and pump failure. Check at this level: Why LEDs? Model answer: Efficient, less heat."
+   "Teach: open with the worked example. A 4-level ebb-and-flow rack uses a 40 L reservoir and a timer. When the pump fails at night, a battery alarm wakes the grower within 10 minutes and the crop survives. Then set the activity: Draw your layout and write a fail-safe plan. Mark against the standard: Layout labels parts; plan covers power and pump failure. Check at this level: Biggest risk? Model answer: Pump or power failure."
   ],
   [
    "Light schedules and cost",
    "L3: learner can set schedules. Focus module: Light schedules and cost (Apply, 4 h). Light is usually the largest running cost. Key points: Intensity is measured as photosynthetic photon flux density; many leafy greens do well at 150 to 250 micromoles per square metre per second. White full-spectrum LEDs work for most beginners. Hang lights 20 to 40 cm above the canopy and raise as plants grow. Use timers; 12 to 16 hours of light a day for most leafy crops.",
-   "Teach: open with the worked example. A 4-tray rack with 100 W of LEDs for 14 hours uses 1.4 kWh a day. At 8 INR per kWh, that is 11.2 INR per day for the rack. Then set the activity: Set a light schedule and calculate daily light energy cost. Mark against the standard: Schedule and cost are correct and recorded. Check at this level: What pH range? Model answer: About 5.8 to 6.2 for many crops."
+   "Teach: open with the worked example. A 4-tray rack with 100 W of LEDs for 14 hours uses 1.4 kWh a day. At 8 INR per kWh, that is 11.2 INR per day for the rack. Then set the activity: Set a light schedule and calculate daily light energy cost. Mark against the standard: Schedule and cost are correct and recorded. Check at this level: Why LEDs? Model answer: Efficient, less heat."
   ],
   [
    "Water and nutrients",
    "L4: learner can run a tray. Focus module: Water and nutrients (Apply, 4 h). Plants take nutrients dissolved in water, so water quality is crop quality. Key points: Measure pH (about 5.8 to 6.2 for lettuce) and conductivity (about 1.2 to 1.8 mS per cm) every day. Add nutrients slowly and test again after 30 minutes. Change the solution on a schedule and keep it covered from light to prevent algae. Never mix concentrated nutrients together before dilution.",
-   "Teach: open with the worked example. A reading of pH 7.2 is corrected with a few millilitres of acid solution, then re-tested after 30 minutes and logged. Then set the activity: Keep a 14-day reading sheet. Mark against the standard: Log has daily pH, conductivity, temperature and actions. Check at this level: Why hygiene? Model answer: Prevent disease."
+   "Teach: open with the worked example. A reading of pH 7.2 is corrected with a few millilitres of acid solution, then re-tested after 30 minutes and logged. Then set the activity: Keep a 14-day reading sheet. Mark against the standard: Log has daily pH, conductivity, temperature and actions. Check at this level: What pH range? Model answer: About 5.8 to 6.2 for many crops."
   ],
   [
    "Climate, hygiene and food safety",
    "L5: learner can measure yield. Focus module: Climate, hygiene and food safety (Evaluate, 4 h). Indoor air is warm and humid, which is ideal for disease. Key points: Keep humidity near 50 to 70 per cent and airflow gentle but constant. Wash hands, clean tools, use a footbath or shoe change and quarantine new plants. Remove diseased plants at once; sanitise trays between cycles. Wash and pack produce in a clean area; keep a harvest record.",
-   "Teach: open with the worked example. Grey mould appears at 85 per cent humidity. A small fan and a dehumidifier bring humidity to 65 per cent within a day and the outbreak stops. Then set the activity: Write a hygiene and cleaning schedule. Mark against the standard: Schedule has daily, weekly and between-crop tasks. Check at this level: Yield measure? Model answer: Per m2 per cycle."
+   "Teach: open with the worked example. Grey mould appears at 85 per cent humidity. A small fan and a dehumidifier bring humidity to 65 per cent within a day and the outbreak stops. Then set the activity: Write a hygiene and cleaning schedule. Mark against the standard: Schedule has daily, weekly and between-crop tasks. Check at this level: Why hygiene? Model answer: Prevent disease."
   ],
   [
    "Unit economics and break-even",
    "L6: learner can lead a farm shift. Focus module: Unit economics and break-even (Evaluate, 4 h). A viable unit needs steady sales. Key points: Cost lines: racks, lights, pumps, space rent, power, water, seeds, nutrients, labour, packing and transport. Sell direct to restaurants and shops, and consider weekly subscription boxes. Break-even kilograms per week = weekly cost / margin per kg. Test price and yield changes.",
-   "Teach: open with the worked example. Weekly costs of 9,500 INR and a margin of 110 INR per kg give break-even of about 86 kg a week. The unit grows about 8 kg a week (40 kg every 5 weeks), so it needs either more levels, a higher price or lower costs. Then set the activity: Build a weekly break-even sheet. Mark against the standard: Break-even is calculated and compared with output. Check at this level: Energy per kg unit? Model answer: kWh per kg."
+   "Teach: open with the worked example. Weekly costs of 9,500 INR and a margin of 110 INR per kg give break-even of about 86 kg a week. The unit grows about 8 kg a week (40 kg every 5 weeks), so it needs either more levels, a higher price or lower costs. Then set the activity: Build a weekly break-even sheet. Mark against the standard: Break-even is calculated and compared with output. Check at this level: What is break-even? Model answer: Volume covering costs."
   ],
   [
    "Ninety-day pilot and decision",
    "L7: learner can audit a plan. Focus module: Ninety-day pilot and decision (Create, 3 h). Run long enough to see repeats. Key points: Set weekly targets for yield, losses and energy. Log every problem and fix. Hold a review at day 30, 60 and 90. At day 90 decide: scale, change crop or stop.",
-   "Teach: open with the worked example. By week 12 the pilot sells 62 kg of herbs, loses 6 per cent to disease and cuts energy per kg by 12 per cent after lights are moved closer. Then set the activity: Write the day-90 decision memo. Mark against the standard: Memo uses real numbers and a clear decision. Check at this level: Biggest risk? Model answer: Pump or power failure."
+   "Teach: open with the worked example. By week 12 the pilot sells 62 kg of herbs, loses 6 per cent to disease and cuts energy per kg by 12 per cent after lights are moved closer. Then set the activity: Write the day-90 decision memo. Mark against the standard: Memo uses real numbers and a clear decision. Check at this level: When to review? Model answer: Day 30, 60 and 90."
   ]
  ]
 }

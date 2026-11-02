@@ -164,11 +164,11 @@
   ],
   [
    "Resin safety?",
-   "Gloves and eye protection. (Covered in module 3: Slicing and settings. To pass that module: Settings are recorded and the preview shows no gaps.)"
+   "Gloves and eye protection. (Covered in module 4: Printing safely. To pass that module: Log is complete and safety kit is in place.)"
   ],
   [
    "Why ventilate?",
-   "Fumes. (Covered in module 4: Printing safely. To pass that module: Log is complete and safety kit is in place.)"
+   "Fumes. (Covered in module 1: Printers, materials and what suits what. To pass that module: Table is accurate and cites data sheets.)"
   ],
   [
    "Warping fix?",
@@ -176,19 +176,19 @@
   ],
   [
    "Measuring tool?",
-   "Calipers. (Covered in module 6: Post-processing and finishing. To pass that module: Surface is smooth and fits.)"
+   "Calipers. (Covered in module 7: Testing the part. To pass that module: Results are recorded with units.)"
   ],
   [
    "Costs?",
-   "Material, power, time, labour, failures. (Covered in module 7: Testing the part. To pass that module: Results are recorded with units.)"
+   "Material, power, time, labour, failures. (Covered in module 8: Costing and selling honestly. To pass that module: Cost sheet is correct and the note states intended use.)"
   ],
   [
    "Orientation effect?",
-   "Strength. (Covered in module 8: Costing and selling honestly. To pass that module: Cost sheet is correct and the note states intended use.)"
+   "Strength. (Covered in module 2: Designing parts for printing. To pass that module: Dimensions and orientation are justified in writing.)"
   ],
   [
    "Why log?",
-   "Repeat results. (Covered in module 8: Costing and selling honestly. To pass that module: Cost sheet is correct and the note states intended use.)"
+   "Repeat results. (Covered in module 4: Printing safely. To pass that module: Log is complete and safety kit is in place.)"
   ],
   [
    "Disclose?",
@@ -265,12 +265,12 @@
   [
    "Slicing and settings",
    "L3: learner can slice. Focus module: Slicing and settings (Apply, 4 h). The slicer turns the model into printer instructions. Key points: Layer height (0.1 to 0.3 mm), infill (10 to 40 per cent), walls, speed, temperature and supports. Preview the tool path layer by layer before printing. Save profiles for each material. Check the first layer closely; most failures start there.",
-   "Teach: open with the worked example. A part is sliced at 0.2 mm layers, 20 per cent infill and 3 walls. Print time is 2.5 hours and mass 38 g. Then set the activity: Slice your part and record all settings. Mark against the standard: Settings are recorded and the preview shows no gaps. Check at this level: Resin safety? Model answer: Gloves and eye protection."
+   "Teach: open with the worked example. A part is sliced at 0.2 mm layers, 20 per cent infill and 3 walls. Print time is 2.5 hours and mass 38 g. Then set the activity: Slice your part and record all settings. Mark against the standard: Settings are recorded and the preview shows no gaps. Check at this level: Layer height range? Model answer: 0.1 to 0.3 mm."
   ],
   [
    "Printing safely",
    "L4: learner can print. Focus module: Printing safely (Apply, 4 h). Printers are hot, moving and sometimes unattended. Key points: Place on a stable surface with good ventilation; keep flammable items away. Do not touch the nozzle or bed when hot; tie back hair and loose clothes. Do not leave long prints unattended without safeguards such as a smoke alarm. Resin: wear gloves and eye protection and dispose of waste properly.",
-   "Teach: open with the worked example. A smoke alarm and a fire blanket are kept near the printer; the print room has a window for airflow. Then set the activity: Print your part and keep a log of start, end, issues and temperatures. Mark against the standard: Log is complete and safety kit is in place. Check at this level: Why ventilate? Model answer: Fumes."
+   "Teach: open with the worked example. A smoke alarm and a fire blanket are kept near the printer; the print room has a window for airflow. Then set the activity: Print your part and keep a log of start, end, issues and temperatures. Mark against the standard: Log is complete and safety kit is in place. Check at this level: Unattended print safeguard? Model answer: Smoke alarm."
   ],
   [
    "Troubleshooting failures",

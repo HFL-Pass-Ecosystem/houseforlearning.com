@@ -156,19 +156,19 @@
  "quiz": [
   [
    "What are scope 1, 2 and 3?",
-   "Direct, purchased energy, other chain emissions. (Covered in module 1: Why measure emissions. To pass that module: Peer can explain both terms.)"
+   "Direct, purchased energy, other chain emissions. (Covered in module 2: Boundaries and scopes. To pass that module: Boundary is written and justified.)"
   ],
   [
    "What is CO2e?",
-   "CO2 equivalent of other gases. (Covered in module 2: Boundaries and scopes. To pass that module: Boundary is written and justified.)"
+   "CO2 equivalent of other gases. (Covered in module 1: Why measure emissions. To pass that module: Peer can explain both terms.)"
   ],
   [
    "Emissions formula?",
-   "Activity data x emission factor. (Covered in module 3: Collecting activity data. To pass that module: Every line has unit, source and date.)"
+   "Activity data x emission factor. (Covered in module 4: Emission factors and calculation. To pass that module: Maths and units are correct.)"
   ],
   [
    "Why record sources?",
-   "To audit. (Covered in module 4: Emission factors and calculation. To pass that module: Maths and units are correct.)"
+   "To audit. (Covered in module 3: Collecting activity data. To pass that module: Every line has unit, source and date.)"
   ],
   [
    "Name a scope 3 category.",
@@ -180,7 +180,7 @@
   ],
   [
    "Why local factors?",
-   "Grids and fuels differ. (Covered in module 7: Hotspots and reduction targets. To pass that module: Ranking uses tonnes and cost.)"
+   "Grids and fuels differ. (Covered in module 4: Emission factors and calculation. To pass that module: Maths and units are correct.)"
   ],
   [
    "Why state exclusions?",
@@ -188,7 +188,7 @@
   ],
   [
    "How rate data quality?",
-   "High, medium, low. (Covered in module 8: Reporting and verification. To pass that module: Report is reproducible and peer confirmed one number.)"
+   "High, medium, low. (Covered in module 6: Data quality and checks. To pass that module: At least three checks done and logged.)"
   ],
   [
    "How often update?",
@@ -255,22 +255,22 @@
   [
    "Why measure emissions",
    "L1: learner can say what CO2e means. Focus module: Why measure emissions (Understand, 3 h). You cannot reduce what you do not count. Key points: Greenhouse gases trap heat; carbon dioxide is the main one, followed by methane and nitrous oxide. CO2e converts other gases to CO2 equivalent using warming factors. Reporting supports saving money, customer requests and regulation. Use recognised methods and keep records.",
-   "Teach: open with the worked example. Methane has a larger warming effect than CO2 per tonne, so a leaking gas line is expressed as tonnes CO2e. Replacing old lights with LEDs saves 2 tonnes CO2e and 20,000 INR a year. Then set the activity: Explain CO2e and a baseline year to a peer. Mark against the standard: Peer can explain both terms. Check at this level: What are scope 1, 2 and 3? Model answer: Direct, purchased energy, other chain emissions."
+   "Teach: open with the worked example. Methane has a larger warming effect than CO2 per tonne, so a leaking gas line is expressed as tonnes CO2e. Replacing old lights with LEDs saves 2 tonnes CO2e and 20,000 INR a year. Then set the activity: Explain CO2e and a baseline year to a peer. Mark against the standard: Peer can explain both terms. Check at this level: What is CO2e? Model answer: CO2 equivalent of other gases."
   ],
   [
    "Boundaries and scopes",
    "L2: learner knows scopes. Focus module: Boundaries and scopes (Understand, 4 h). Decide what is in and what is out, and write it down. Key points: Organisational boundary by control or ownership. Scope 1: direct emissions from fuel, vehicles and leaks. Scope 2: purchased electricity, heat and cooling. Scope 3: everything else in the chain. Record exclusions and reasons. Keep the boundary the same each year.",
-   "Teach: open with the worked example. Company vehicles are scope 1; electricity is scope 2; business flights and purchased goods are scope 3. A rented warehouse is excluded and the reason is recorded. Then set the activity: Set a boundary for a practice organisation with two inclusions and two exclusions. Mark against the standard: Boundary is written and justified. Check at this level: What is CO2e? Model answer: CO2 equivalent of other gases."
+   "Teach: open with the worked example. Company vehicles are scope 1; electricity is scope 2; business flights and purchased goods are scope 3. A rented warehouse is excluded and the reason is recorded. Then set the activity: Set a boundary for a practice organisation with two inclusions and two exclusions. Mark against the standard: Boundary is written and justified. Check at this level: What are scope 1, 2 and 3? Model answer: Direct, purchased energy, other chain emissions."
   ],
   [
    "Collecting activity data",
    "L3: learner can collect data. Focus module: Collecting activity data (Apply, 5 h). Good data comes before good calculations. Key points: Sources: bills, meters, fuel logs, travel records and purchase records. Units must match: litres, kWh, km, kg. Record source and date; keep invoices. Fill gaps with clearly labelled estimates.",
-   "Teach: open with the worked example. Fuel invoices give 1,200 litres of diesel. Missing March data is estimated from February and April and flagged as an estimate. Then set the activity: Collect and list data for a practice case with sources. Mark against the standard: Every line has unit, source and date. Check at this level: Emissions formula? Model answer: Activity data x emission factor."
+   "Teach: open with the worked example. Fuel invoices give 1,200 litres of diesel. Missing March data is estimated from February and April and flagged as an estimate. Then set the activity: Collect and list data for a practice case with sources. Mark against the standard: Every line has unit, source and date. Check at this level: Why record sources? Model answer: To audit."
   ],
   [
    "Emission factors and calculation",
    "L4: learner can calculate. Focus module: Emission factors and calculation (Apply, 5 h). Emissions equal activity data multiplied by an emission factor. Key points: Use recent factors for your country and year and keep the version. Show each calculation line by line. Check units and decimal places. Separate fuels, electricity and refrigerants.",
-   "Teach: open with the worked example. 1,200 L x 2.68 kg CO2 per litre = 3,216 kg CO2. 40,000 kWh x 0.82 = 32,800 kg CO2e. Then set the activity: Calculate five lines with a factor table. Mark against the standard: Maths and units are correct. Check at this level: Why record sources? Model answer: To audit."
+   "Teach: open with the worked example. 1,200 L x 2.68 kg CO2 per litre = 3,216 kg CO2. 40,000 kWh x 0.82 = 32,800 kg CO2e. Then set the activity: Calculate five lines with a factor table. Mark against the standard: Maths and units are correct. Check at this level: Emissions formula? Model answer: Activity data x emission factor."
   ],
   [
    "Scope 3 estimates",
@@ -280,12 +280,12 @@
   [
    "Hotspots and reduction targets",
    "L6: learner can lead an inventory. Focus module: Hotspots and reduction targets (Analyse, 4 h). Decide where action pays most. Key points: Rank sources by tonnes. Estimate tonnes saved per rupee spent for each action. Set targets with dates and owners. Track progress quarterly.",
-   "Teach: open with the worked example. Fixing refrigerant leaks saves 6 tonnes CO2e for 15,000 INR; efficient lighting saves 8 per cent for a two-year payback. Then set the activity: Draw a hotspot chart and rank five actions. Mark against the standard: Ranking uses tonnes and cost. Check at this level: Double counting? Model answer: Counting the same emission twice."
+   "Teach: open with the worked example. Fixing refrigerant leaks saves 6 tonnes CO2e for 15,000 INR; efficient lighting saves 8 per cent for a two-year payback. Then set the activity: Draw a hotspot chart and rank five actions. Mark against the standard: Ranking uses tonnes and cost. Check at this level: How do you rank actions to cut emissions? Model answer: By tonnes saved per rupee spent."
   ],
   [
    "Reporting and verification",
    "L7: learner can audit. Focus module: Reporting and verification (Create, 4 h). Share results honestly. Key points: Report summary, method, boundary, exclusions and limits. Have an independent review where possible. Update yearly and compare to the baseline. Publish what you can and keep the evidence.",
-   "Teach: open with the worked example. The report states excluded sources, data quality ratings and the baseline. A peer repeats the diesel calculation and gets the same result. Then set the activity: Write the report and ask a peer to reproduce one number. Mark against the standard: Report is reproducible and peer confirmed one number. Check at this level: Why local factors? Model answer: Grids and fuels differ."
+   "Teach: open with the worked example. The report states excluded sources, data quality ratings and the baseline. A peer repeats the diesel calculation and gets the same result. Then set the activity: Write the report and ask a peer to reproduce one number. Mark against the standard: Report is reproducible and peer confirmed one number. Check at this level: Why state exclusions? Model answer: Honesty."
   ]
  ]
 }
