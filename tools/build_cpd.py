@@ -1,0 +1,41 @@
+#!/usr/bin/env python3
+"""CPD course pages (36 = 12 sectors x 3) from data/cpd-courses.txt. No fee shown (owner sets fees). Process skills only: no clinical, legal, tax or financial advice."""
+import sys, pathlib, html, re, collections
+sys.path.insert(0, str(pathlib.Path(__file__).parent))
+import build_full_courses as B
+e = html.escape; R = B.R
+rows = [l.rstrip('\n').split('|', 5) for l in (R / 'data' / 'cpd-courses.txt').read_text().splitlines() if l and not l.startswith('#')]
+slug = lambda t: 'cpd-' + re.sub(r'[^a-z0-9]+', '-', t.lower()).strip('-')[:60] + '.html'
+CS = []
+for sec_, title, lv, hrs, desc, rest in rows:
+    outs, agenda = rest.rsplit('|', 1)
+    outcomes = [o.split('|') for o in outs.split('##')]
+    CS.append(dict(sector=sec_, title=title, lv=int(lv), hrs=hrs, desc=desc, outs=outcomes, agenda=agenda.split(';')))
+LV = {3: 'L3 Foundation', 4: 'L4 Practitioner', 5: 'L5 Specialist'}
+SAFE = 'These courses teach process, communication and recording. They give no clinical, legal, tax, financial or engineering sign-off. A named subject expert must review every line, and you must check your own professional body\'s current CPD rules, before you rely on a certificate.'
+def build(c):
+    outs = ''.join(f'<li><span class="bz">{e(v)}</span> {e(t)}, {e(cn)}, {e(s)}.</li>' for v, t, cn, s in c['outs'])
+    ag = ''
+    for i, a in enumerate(c['agenda'], 1):
+        ag += (f'<details class="mod" {"open" if i==1 else ""}><summary><span class="mn">Session {i}</span> {e(a)}</summary>'
+               f'<p><strong>Learn:</strong> a short explanation with a worked example from the sector, then the rule or checklist you will use.</p>'
+               f'<p><strong>Practise:</strong> a role-play, case card or template exercise linked to outcome {min(i, len(c["outs"]))}.</p>'
+               f'<p><strong>Check:</strong> a short pass or not-yet check using the standard in the outcome.</p></details>')
+    body = (B.sec('', 'ab', 'about this course', 'What you will be able to do',
+                  f'<div class="cb-facts"><span class="pill lv">{LV[c["lv"]]}</span><span class="pill">About {e(c["hrs"])} hours of CPD</span><span class="pill">Self-study plus role-play</span><span class="pill">{e(c["sector"])}</span></div>'
+                  f'<p class="kit-intro">{e(c["desc"])}</p><ul class="blm">{outs}</ul><p class="ws-note">{e(SAFE)}</p>')
+            + B.sec('alt', 'ag', 'sessions', f'{len(c["agenda"])} sessions', ag)
+            + B.sec('', 'as', 'assessment and certificate', 'How you are checked',
+                    '<p>Each outcome is checked against its standard with a checklist or a short test. A digital CPD record shows the hours. Keep evidence in My page. Aligned with common CPD practice; not accredited. Learners check their own body\'s rules.</p>')
+            + B.sec('alt', 'lc', 'ten locations and global', 'Your place', '<p>Use your own body\'s forms, units and currency. Local professional bodies set the rules for CPD hours; check them first.</p>'
+                    + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Personal data: {e(L["data"])}. Credit and levels: {e(L["frame"])}.</p></details>' for L in B.LOC)
+                    + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
+            + B.sec('', 'nx', 'next', 'Draft', '<p class="ws-note">Draft CPD course. Published only on the owner\'s yes. No fee is shown.</p><p><a class="btn" href="cpd.html">All CPD courses</a></p>'))
+    B.page(slug(c['title']), c['title'] + ' (CPD)', c['desc'][:150], c['title'], e(c['desc']), body, B.crumb(('Courses', 'courses-hub.html'), ('CPD', 'cpd.html'), (c['sector'], None)), kicker='CPD · ' + c['sector'])
+for c in CS: build(c)
+by = collections.OrderedDict()
+for c in CS: by.setdefault(c['sector'], []).append(c)
+hub = ''.join(B.sec('alt' if i % 2 else '', f'x{i}', 'sector', s, '<ul class="cgrid">' + ''.join(f'<li class="cc"><a href="{slug(c["title"])}"><span class="pill lv">{LV[c["lv"]]}</span><h3>{e(c["title"])}</h3><p>{e(c["desc"])}</p><p class="cm">About {e(c["hrs"])} h</p></a></li>' for c in l) + '</ul>') for i, (s, l) in enumerate(by.items()))
+B.page('cpd.html', 'CPD courses by profession', '36 CPD courses across 12 professions', 'CPD: courses for 12 professions', e('Continuing professional development, built to task, condition and standard. 36 courses.'),
+       hub + B.sec('', 'sf', 'safety', 'Read this first', f'<p>{e(SAFE)}</p>'), B.crumb(('Courses', 'courses-hub.html'), ('CPD', None)), kicker='CPD')
+print('cpd courses', len(CS))
