@@ -294,7 +294,7 @@ FIX = {'petroleum': [('Read a process flow and a permit',
                  'Plan routes to avoid peak traffic.',
                  'Measure on-time percent weekly.',
                  'Share delay causes with the team.'],
-                'Fuel AED 55, driver AED 90, wear AED 25, overhead AED 30: cost AED 200 against a '
-                'price of AED 320 gives margin 37.5%.',
+                'Fuel AED 55, driver AED 90, wear AED 25, overhead AED 60: cost AED 230 against a '
+                'price of AED 320 gives margin 28.1%.',
                 'Cost three routes and choose the best.',
                 'Margins shown; punctuality plan set.')]}
