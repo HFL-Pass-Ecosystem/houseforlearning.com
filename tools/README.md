@@ -20,4 +20,10 @@ Checks every course page for the flagship standard (Bloom verbs, task/condition/
 ```
 python3 tools/ci_check.py
 ```
-Same as the GitHub check "Check pages" on pull requests into `claude/hfl-courses`. It fails if the rebuild changes any file, or if the audit shows a gap not already listed in `audits/course-page-audit.md`. It prints a short list of what to fix. It does not deploy and needs no secrets.
+Same as the GitHub check "Check pages" on pull requests into `claude/hfl-courses`. It fails if the rebuild changes any file, if the audit shows a gap not already listed in `audits/course-page-audit.md`, if `tools/check_links.py` finds a broken link, or if `tools/audit_school_spec.py` fails (skipped while that file does not exist). It prints a short list of what to fix. It does not deploy and needs no secrets.
+
+## Link check
+```
+python3 tools/check_links.py
+```
+Every local `href`/`src` must point to an existing file, every `#anchor` must exist in its target page, and no page may link to a Russia page or to another domain (allowed hosts are listed at the top of the script). Fix a broken link in the builder, then rebuild.
