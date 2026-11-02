@@ -92,7 +92,7 @@
     "Close with a checklist: stock count, cleaning, cash count, locks, fridge temperature.",
     "Thank the team and note one thing that went well and one to fix at the end of each shift."
    ],
-   "ex": "Waste log: 4 kg of prepared rice thrown out on Friday. If rice costs 2.50 per kg, that is 4 x 2.50 = 10 CAD lost in one night. Cooking smaller batches twice in the evening saves about 40 CAD over four Fridays.",
+   "ex": "Waste log: 4 kg of prepared rice thrown out on Friday. If rice costs 2.50 per kg, that is 4 x 2.50 = 10 CAD lost in one night. If smaller batches cut the waste in half, that saves about 5 CAD a night, or 20 CAD over four Fridays.",
    "act": "Run or support four shifts using a briefing, a prep list and a waste log.",
    "std": "Task: run four shifts with logs. Condition: real or training service. Standard: briefing, prep and waste logs complete; one improvement shown by numbers."
   },
