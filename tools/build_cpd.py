@@ -3,14 +3,16 @@
 import sys, pathlib, html, re, collections
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import build_full_courses as B
+import cpd_detail as CD
+DET = CD.load()
 e = html.escape; R = B.R
 rows = [l.rstrip('\n').split('|', 5) for l in (R / 'data' / 'cpd-courses.txt').read_text().splitlines() if l and not l.startswith('#')]
 slug = lambda t: 'cpd-' + re.sub(r'[^a-z0-9]+', '-', t.lower()).strip('-')[:60] + '.html'
 CS = []
-for sec_, title, lv, hrs, desc, rest in rows:
+for idx, (sec_, title, lv, hrs, desc, rest) in enumerate(rows):
     outs, agenda = rest.rsplit('|', 1)
     outcomes = [o.split('|') for o in outs.split('##')]
-    CS.append(dict(sector=sec_, title=title, lv=int(lv), hrs=hrs, desc=desc, outs=outcomes, agenda=agenda.split(';')))
+    CS.append(dict(code=CD.CODES[idx], sector=sec_, title=title, lv=int(lv), hrs=hrs, desc=desc, outs=outcomes, agenda=agenda.split(';')))
 LV = {3: 'L3 Foundation', 4: 'L4 Practitioner', 5: 'L5 Specialist'}
 SAFE = 'These courses teach process, communication and recording. They give no clinical, legal, tax, financial or engineering sign-off. A named subject expert must review every line, and you must check your own professional body\'s current CPD rules, before you rely on a certificate.'
 def build(c):
@@ -21,10 +23,34 @@ def build(c):
                f'<p><strong>Learn:</strong> a short explanation with a worked example from the sector, then the rule or checklist you will use.</p>'
                f'<p><strong>Practise:</strong> a role-play, case card or template exercise linked to outcome {min(i, len(c["outs"]))}.</p>'
                f'<p><strong>Check:</strong> a short pass or not-yet check using the standard in the outcome.</p></details>')
+    det = dict((k, v) for k, v in DET[c['code']]['detail']); fl = dict((k, v) for k, v in DET[c['code']]['flag'])
+    mods = CD.modules(fl.get('Modules', []))
+    if mods:
+        ag = ''
+        for i, (mt, mn) in enumerate(mods, 1):
+            ag += (f'<details class="mod" {"open" if i==1 else ""}><summary><span class="mn">Module {i}</span> {e(mt)} <span class="pill">{e(mn)} min</span></summary>'
+                   f'<p><strong>Learn:</strong> a short explanation with a worked example from the sector, then the rule or checklist you will use.</p>'
+                   f'<p><strong>Practise:</strong> a case card or template exercise linked to outcome {min(i, len(c["outs"]))}.</p></details>')
+    extra = ''
+    for k, v in DET[c['code']]['detail']:
+        if k.startswith('Check'): continue
+        extra += f'<div class="wk"><h3>{e(k)}</h3>{CD.render_lines(v)}</div>'
+    cc2 = fl.get('Case card 2')
+    if cc2: extra += f'<div class="wk"><h3>Case card 2</h3>{CD.render_lines(cc2)}</div>'
+    ck1 = ''; n1 = 0
+    for k, v in DET[c['code']]['detail']:
+        if k.startswith('Check'): ck1, n1 = CD.checks_html(v)
+    ck2, n2 = CD.checks_html(fl.get('More checks', []))
+    gl = fl.get('Glossary')
+    practice = B.sec('', 'pr', 'practice', 'Worked example and case cards', extra) if extra else ''
+    checks = B.sec('alt', 'ck', 'checks', f'{n1 + n2} check questions with model answers', ck1 + ck2) if (n1 + n2) else ''
+    gloss = B.sec('', 'gl', 'glossary', 'Words used in this course', CD.render_lines(gl)) if gl else ''
+    rub = B.sec('alt', 'rb', 'marking', 'How the practice and assessment are marked', '<table class="rubric"><tr><th>Level</th><th>Meaning</th><th>Marks of 4</th></tr><tr><td>Secure</td><td>Meets the standard in the outcome every time, no prompts</td><td>4</td></tr><tr><td>Meeting</td><td>Meets the standard with one small slip, corrected when prompted</td><td>3</td></tr><tr><td>Developing</td><td>Meets part of the standard; needs a re-attempt</td><td>2</td></tr><tr><td>Not yet</td><td>Standard not met</td><td>1</td></tr></table><p>Pass = average 3 or more, and no outcome at 1. You may re-attempt after feedback. The subject expert sets any stricter pass mark.</p>')
     body = (B.sec('', 'ab', 'about this course', 'What you will be able to do',
                   f'<div class="cb-facts"><span class="pill lv">{LV[c["lv"]]}</span><span class="pill">About {e(c["hrs"])} hours of CPD</span><span class="pill">Self-study plus role-play</span><span class="pill">{e(c["sector"])}</span></div>'
                   f'<p class="kit-intro">{e(c["desc"])}</p><ul class="blm">{outs}</ul><p class="ws-note">{e(SAFE)}</p>')
-            + B.sec('alt', 'ag', 'sessions', f'{len(c["agenda"])} sessions', ag)
+            + B.sec('alt', 'ag', 'sessions', f'{len(mods) or len(c["agenda"])} modules' if mods else f'{len(c["agenda"])} sessions', ag)
+            + practice + checks + gloss + rub
             + B.sec('', 'as', 'assessment and certificate', 'How you are checked',
                     '<p>Each outcome is checked against its standard with a checklist or a short test. A digital CPD record shows the hours. Keep evidence in My page. Aligned with common CPD practice; not accredited. Learners check their own body\'s rules.</p>')
             + B.sec('alt', 'lc', 'ten locations and global', 'Your place', '<p>Use your own body\'s forms, units and currency. Local professional bodies set the rules for CPD hours; check them first.</p>'
