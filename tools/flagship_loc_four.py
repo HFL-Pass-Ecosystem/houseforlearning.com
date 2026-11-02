@@ -152,7 +152,7 @@ def quiz(L):
      ('Name three items in a licence table.', 'Issuer, cost, time, and the date checked (any three).'),
      ('Name the five lines of a privacy notice.', 'Who we are, what we collect, why, who sees it, how to ask for a copy, correction or removal.'),
      ('How do you test an offer?', 'Show it to about 20 real people through two channels and count enquiries and orders.'),
-     (f'Price {L["cur"]} {p:,}, unit cost {v:,}, fixed {f:,}. What is the contribution per unit?', f'{p:,} - {v:,} = {cm:,}.'),
+     (f'Price {L.get("curx", L["cur"])} {p:,}, unit cost {v:,}, fixed {f:,}. What is the contribution per unit?', f'{p:,} - {v:,} = {cm:,}.'),
      (f'With the same numbers, what is break-even per month?', f'{f:,} / {cm:,} = {f/cm:.1f}, rounded up to {bu:,}.'),
      ('What goes on a role card?', 'Tasks, hours, pay, trial period, review date and one measure of success.')]
 
