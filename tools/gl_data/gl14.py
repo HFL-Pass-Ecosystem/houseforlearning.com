@@ -22,3 +22,30 @@ C = dict(id='GL-14', title='IT Service and Support', group='Digital and Technolo
  local='Check local consumer and data rules when you handle other people\'s devices and accounts.',
  evidence='Your evidence: ticket log of 20, five computer and five network fixes, tested guide, measures table and 90-day plan.',
  ladder=[('Basics of helping', 'Fix your own device problems. Notes: keep a fix diary.'), ('Awareness', 'Know cycle and tone. Notes: role-play calls.'), ('Foundation', 'This course. Notes: 20-ticket practice desk.'), ('Practitioner', 'Own a service area. Notes: measures and guides.'), ('Specialist', 'Advanced fixes and tools. Notes: remote tools with permission.'), ('Advanced', 'Lead a team and service promise. Notes: staffing and training.'), ('Super expert', 'Set method and teach teachers. Notes: review measures yearly.')])
+
+C['deep'] = dict(mods=[
+ ('Jumping to fixes before understanding the fault.', 'A "slow computer" is only a full disk; ten minutes of questions saves an hour of rebuilding.', 'What three questions start every call?'),
+ ('Using jargon with a worried user.', 'Say "the network is not reaching the printer" not "the print spooler is hung".', 'Rewrite one technical sentence in plain words.'),
+ ('A ticket that says only "it\'s broken".', 'Better: "Laptop A12, no Wi-Fi since 09:10, others fine, restarted once, priority medium".', 'Is any of your tickets missing a time?'),
+ ('Changing settings before backing up.', 'A reset wipes photos; a backup first saves them.', 'What do you back up before a fix?'),
+ ('Unlocking accounts without checking who asks.', 'Verify by a known contact before resetting a password.', 'How do you verify identity?'),
+ ('Writing a guide without testing it.', 'A tester gets stuck at step 3; the picture was wrong.', 'Who tested your guide?'),
+ ('Reporting only averages.', 'Average 4.3 hides one rating of 1; read the comment.', 'What did your lowest rating say?'),
+ ('Escalating without notes.', 'Escalation lists steps tried, error code and time, saving a repeat call.', 'What goes in your escalation note?')],
+ gloss=[('Ticket', 'A record of one request.'), ('Triage', 'Sorting by urgency.'), ('First-time fix', 'Solved at the first attempt.'), ('Escalation', 'Passing a case to a higher level.'), ('Root cause', 'The real reason for a fault.'), ('Service promise', 'The reply and fix times you commit to.')],
+ cases=[('The whole floor is offline', 'Twenty people lose the network at 10:00.', 'Priority and first steps?', 'High priority; check shared equipment first, tell users, escalate to the provider with notes.'),
+        ('The angry caller', 'A user shouts about a lost file.', 'How do you respond?', 'Stay calm, listen, repeat back, say what you will do and when, and check the recycle bin and backups.')])
+C['deep']['extra'] = [
+ ['Greet the user by name and confirm the best way to reach them.', 'Never blame the user; say "let us check".'],
+ ['Use the "five whys" to move from symptom to cause.', 'Ask the user to show you the screen when words fail.'],
+ ['Add a category so you can count ticket types later.', 'Record the user\'s device and location, not their passwords.'],
+ ['Check cables and power before software.', 'Keep a bootable repair tool and a spare charger in the kit.'],
+ ['Test with a second device to decide if the fault is the device or the network.', 'Teach users to restart the router safely.'],
+ ['Use short sentences and the same words as the screen.', 'Add a "still stuck?" line with the help desk contact.'],
+ ['Chart tickets per week to see peaks.', 'Compare first reply time by hour of day.'],
+ ['Thank users and close with a one-line summary of what was done.', 'Hold a monthly review of repeat tickets.']]
+
+_ex = ["A caller says 'the computer is broken'. Three questions show only the sound is muted after an update; the fix takes one minute and the ticket records the cause.", 'Priority: one user cannot print (low, 1 person, work continues) versus the whole floor offline (high, 20 people, work stopped).', "Ticket 0412: 'Laptop A12, no Wi-Fi since 09:10, other devices fine, restarted once, priority medium, owner Sam'. Another technician can continue without calling the user.", 'Storage is 98% full. You clear downloads, move photos to backup and free 20 GB; speed returns and the ticket notes the cause so the user can repeat it.', 'Only one laptop cannot connect while others work. You forget and rejoin the network, check the saved password, and solve it in 6 minutes.', "A guide titled 'Join the office Wi-Fi in 5 steps' with pictures is followed alone by three non-technical testers, all in under 4 minutes.", 'Of 20 tickets, 18 had a first reply inside 30 minutes (90%) and 14 were fixed first time (70%); the average rating was 4.3 out of 5.', 'Three tickets about the same app lead to a problem report asking for an update rather than three separate fixes.']
+_extra = ['Keep a notebook of every new fault and the fix that worked.', 'Practise explaining a fault to someone who has never used a computer.', 'Learn the shortcuts for screenshots, which help ticket notes.', 'Set a standard greeting that is warm and short.', 'Check that every ticket has an owner and a next step.', 'Record the time you first reply to each user.', "Practise saying 'I do not know yet, but I will find out by three o'clock'.", 'Learn how to reset a router safely and tell users what to expect.', 'Check that backups exist before any risky fix.', 'Create a list of the ten most common faults in your setting.', 'Write guides in the same order every time: problem, steps, check.', 'Keep a list of trusted tools and never install unknown ones.', 'Review rating comments weekly and thank those who praised.', 'Hold a short monthly review of repeat problems.', 'Keep your own skills list and add one new fix a week.', 'Share one lesson with the peer circle each month.']
+C['deep']['mods'] = [(m[0], _ex[i], m[2]) for i, m in enumerate(C['deep']['mods'])]
+C['deep']['extra'] = [_extra[2*i:2*i+2] for i in range(8)]

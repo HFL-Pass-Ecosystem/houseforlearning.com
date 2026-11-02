@@ -22,3 +22,25 @@ C = dict(id='GL-12', title='DDoS and Cyber-Attack Prevention', group='Digital an
  local='Laws on computer misuse and breach reporting differ by country: know your reporting duty and deadline.',
  evidence='Your evidence: system map, normal-traffic table, hardening checklist, alert tests, restore log, response plan and drill report.',
  ladder=[('Basics of safe use', 'Strong passwords and updates. Notes: set up a password manager.'), ('Awareness', 'Spot phishing and scams. Notes: run a spot-the-scam quiz.'), ('Foundation', 'Harden one account set. Notes: second step everywhere.'), ('Practitioner', 'Monitor one service. Notes: logs and alerts.'), ('Specialist', 'This course. Notes: layers, drill and recovery.'), ('Advanced', 'Run a team and audit. Notes: add testing with permission.'), ('Super expert', 'Set method and teach teachers. Notes: review incidents yearly.')])
+
+C['deep'] = dict(mods=[
+ ('Thinking attacks only hit big firms.', 'A small shop is flooded by a rival\'s bought attack and loses a weekend of orders.', 'Which attack worries you most and why?'),
+ ('Not knowing normal traffic, so a spike cannot be seen.', 'Normal 300 per minute; alert at 1,500. Without that baseline the first sign is a phone call.', 'What is your normal peak?'),
+ ('Leaving default passwords on routers.', 'Default admin password changed on all three devices; log kept.', 'List devices with default settings changed.'),
+ ('Relying on one tool.', 'Caching removes 80% of load, rate limits stop one visitor from taking all.', 'Which layers do you have?'),
+ ('Alerts that nobody reads.', 'Alert goes to two phones; one acknowledges within 5 minutes in the test.', 'Who gets each alert?'),
+ ('Backups on the same server.', 'A copy is stored away from the site; the restore test uses it.', 'Where is your off-site copy?'),
+ ('A plan nobody can find.', 'Plan printed and stored in a shared folder with the host\'s phone number.', 'Where is your plan?'),
+ ('Drills that skip communication.', 'The drill adds a customer notice at minute 20.', 'What is your first public message?')],
+ gloss=[('DDoS', 'Distributed denial of service: many sources flood a service.'), ('Rate limit', 'A cap on requests per visitor.'), ('Cache', 'Saved copies that avoid hitting the main server.'), ('Second step', 'Extra sign-in proof beyond a password.'), ('Hardening', 'Removing weaknesses.'), ('Table-top drill', 'Rehearsing a plan on paper.')],
+ cases=[('The evening spike', 'Traffic jumps tenfold at 8 pm; the site is slow.', 'First three actions?', 'Confirm with logs, enable stricter filtering with the front service, tell your host, and post a notice.'),
+        ('The reused password', 'An admin password leaks from another site.', 'What do you do?', 'Reset it, force a second step, check logs for use, and review other accounts.')])
+C['deep']['extra'] = [
+ ['Read your host\'s abuse policy and know how to report an attack to them.', 'Learn how to tell a real surge in customers from an attack, using referrer and geography.'],
+ ['List external services you rely on, such as payment or email, because their outage is yours too.', 'Record the owner of each domain and certificate expiry dates.'],
+ ['Turn on automatic updates where safe and schedule a monthly check.', 'Use a password manager to avoid reuse.'],
+ ['Know the limits of your hosting plan, such as requests per second.', 'Prepare a light "static" page to serve during an attack.'],
+ ['Create a status page for customers on a different provider from your site.', 'Review the alert list monthly and remove noisy ones.'],
+ ['Encrypt backups and keep keys away from the backup location.', 'Test a restore of one file and of the full system.'],
+ ['Print the plan and keep a copy off the network.', 'Agree who may speak to the press and customers.'],
+ ['Run a second drill with a different scenario, such as stolen credentials.', 'Record every fix and check it six weeks later.']]

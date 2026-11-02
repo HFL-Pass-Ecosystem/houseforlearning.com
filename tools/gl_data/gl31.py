@@ -22,3 +22,30 @@ C = dict(id='GL-31', title='Affiliate Marketing', group='Business and Commerce',
  local='Disclosure and advertising law vary: follow local rules and the programme terms.',
  evidence='Your evidence: programme comparison, niche note, ten product notes, three content pieces, disclosure check, tracking sheet and review.',
  ladder=[('Basics of recommending', 'Give a helpful tip. Notes: write a friend recommendation.'), ('Awareness', 'Know affiliate. Notes: read terms.'), ('Foundation', 'This course. Notes: first page.'), ('Practitioner', 'Run a niche channel. Notes: tracking.'), ('Specialist', 'Search and email growth. Notes: data.'), ('Advanced', 'Lead partners. Notes: contracts.'), ('Super expert', 'Set method and teach teachers. Notes: ethics review.')])
+
+C['deep'] = dict(mods=[
+ ('Joining every programme.', 'Three well-chosen programmes beat thirty weak ones.', 'Which programmes did you pick?'),
+ ('A niche too wide.', '"Kitchen gear for first-time cooks" is narrow enough to write helpfully.', 'Who is your reader?'),
+ ('Recommending by commission.', 'A cheap knife set fails tests; skip it.', 'What did you reject?'),
+ ('Thin pages.', 'A comparison with a real test result helps readers.', 'What is your test?'),
+ ('Burying disclosure.', 'The first line states the commission.', 'Where is yours?'),
+ ('Chasing quick traffic.', 'One useful guide beats ten spam posts.', 'Where do readers come from?'),
+ ('Not tracking.', 'Without clicks you cannot see what works.', 'What are your clicks?'),
+ ('Counting only money.', '20 hours for 48 earned is 2.40 an hour.', 'What is your hourly return?')],
+ gloss=[('Affiliate link', 'A link that tracks referrals.'), ('Commission', 'Payment for a referred sale.'), ('Cookie window', 'Time a click can earn commission.'), ('Niche', 'A specific topic and audience.'), ('Disclosure', 'A clear statement of the commission.'), ('Conversion', 'Visitor becoming a buyer.')],
+ cases=[('The generous offer', 'A seller offers a high commission for a doubtful product.', 'What do you do?', 'Test it; if it fails, decline and say why.'),
+        ('The missing disclosure', 'A reader notes you did not disclose a link.', 'Response?', 'Add it at once, apologise and review all pages.')])
+C['deep']['extra'] = [
+ ['Check payout thresholds.', 'Note payment schedules.'],
+ ['Search for questions in your niche.', 'Check seasonal interest.'],
+ ['Keep test notes and photos.', 'Update reviews yearly.'],
+ ['Add price and date.', 'Link only when helpful.'],
+ ['Add a policy page.', 'Check local rules.'],
+ ['Answer comments.', 'Share on a channel you own.'],
+ ['Review weekly.', 'Remove dead links.'],
+ ['Decide to grow, hold or stop.', 'Write a lessons note.']]
+
+_ex = ['A reader wants a pan for eggs. Your page compares three pans, 24 cm, with a test of 10 eggs each: pan A stuck twice, pan B once, pan C never. You link pan C and say pan A is cheaper but sticks.', "Niche test: 'budget camping gear' is too wide; 'first-time family camping, under 150 total' names the reader, the budget and the problem.", 'You tested a kettle for 4 weeks, noting boil time (3 min 10 s), noise and a cracked lid in week 3. The honest review lists the lid fault even though the commission is 8%.', 'Your page ranks four toasters in a table with price, slots, test result and who it suits; readers can pick without clicking any link.', "The first line reads: 'I earn a small commission if you buy through links on this page, at no extra cost to you.' Every link sits within three lines of a repeat notice.", "A short video answering 'which pan for eggs?' brings 120 visits in a week; a keyword-stuffed page brings 9.", '400 clicks give 12 orders (3%) and 48 in commission, so earnings per click are 0.12. Pages under 0.05 are rewritten or removed.', 'You spent 20 hours for 48 earned, 2.40 an hour. The plan: improve the two best pages before writing any new ones.']
+_extra = ['Write down what you would pay for yourself; start with products you already know.', "Read the terms for banned claims such as 'cure' or 'guaranteed'.", 'Use a spreadsheet to compare three programmes on rate, window, threshold and payment date.', 'Keep a list of products you tested and the dates, so claims can be proved.', 'Set a rule: no product is listed without at least one real use or a documented second source.', 'Keep sponsored and affiliate content labelled differently so readers can tell them apart.', 'Re-check links monthly; dead links lose trust and income.', 'Disclose changes of programme in a short note when you move links.', 'Offer a free checklist for readers who sign up with consent, instead of pushing sales.', 'Respond to every comment within two days, including criticism.', 'Use clear photos from your own testing rather than stock pictures.', 'Track clicks by page so you know which advice is read.', 'Delete pages that no one reads after three months.', 'Share one lesson from each month in your own words.', "Write the next month's plan with three pages to improve and one to build.", 'Ask two readers if the disclosure and the advice felt fair, and apply their comments.']
+C['deep']['mods'] = [(m[0], _ex[i], m[2]) for i, m in enumerate(C['deep']['mods'])]
+C['deep']['extra'] = [_extra[2*i:2*i+2] for i in range(8)]

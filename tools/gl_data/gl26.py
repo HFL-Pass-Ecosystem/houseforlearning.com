@@ -22,3 +22,25 @@ C = dict(id='GL-26', title='Box Subscription Services', group='Business and Comm
  local='Renewal and cancellation rules and import duties vary by place; check consumer law.',
  evidence='Your evidence: theme note, costing, pricing sheet, sign-up policy, packing test, delivery log, churn table and review.',
  ladder=[('Basics of subscriptions', 'Explain repeat buying. Notes: list your own subscriptions.'), ('Awareness', 'Know churn and value. Notes: compare three models.'), ('Foundation', 'Cost a box. Notes: one box.'), ('Practitioner', 'This course. Notes: two cycles.'), ('Specialist', 'Scale and partners. Notes: bulk buying.'), ('Advanced', 'Lead a portfolio. Notes: data and finance.'), ('Super expert', 'Set method and teach teachers. Notes: review rules yearly.')])
+
+C['deep'] = dict(mods=[
+ ('Choosing a theme you like instead of one that repeats.', 'A one-time gift theme has high churn; a consumable theme keeps subscribers.', 'Why will your subscriber want a second box?'),
+ ('Pricing from the supplier quote only.', 'Landed cost with inbound and packaging is 12.50, not the quoted 10.00.', 'What is your landed cost?'),
+ ('Forgetting free shipping in the margin.', 'Free shipping of 4.00 cuts margin from 10.00 to 6.00.', 'Is shipping in your margin?'),
+ ('Hiding cancel links.', 'One-click cancel from the account page; support not needed.', 'Where is cancel?'),
+ ('Over-packing.', 'A flatter box saves 1.20 postage.', 'What is your packed weight?'),
+ ('Promising a ship date you cannot meet.', 'Cut-off the 25th, ship on the 5th, communicate delays at once.', 'What is your ship date?'),
+ ('Ignoring leavers.', 'Exit survey shows "too many snacks"; change the mix.', 'Why did subscribers leave?'),
+ ('Skipping cycle-two changes.', 'Swap one item based on feedback; rating rises.', 'What changed in cycle two?')],
+ gloss=[('Churn', 'Share of subscribers who cancel.'), ('Landed cost', 'Full cost to get an item ready to ship.'), ('Break-even', 'Point where income equals costs.'), ('Lifetime value', 'Margin from one subscriber over their stay.'), ('Cut-off date', 'Last day to join for the next box.'), ('Unboxing', 'The experience of opening the box.')],
+ cases=[('The late supplier', 'A key item arrives a week late.', 'What do you do?', 'Tell subscribers early, swap in an equal item or ship in two parts, and record the supplier failure.'),
+        ('The cancellation complaint', 'A customer says they could not find cancel.', 'What now?', 'Refund the last charge if law requires, fix the cancel path and log the change.')])
+C['deep']['extra'] = [
+ ['Write the subscriber promise on a card inside the box.', 'Test a one-off box first.'],
+ ['Ask for samples before buying in bulk.', 'Keep a spare supplier for each item.'],
+ ['Add a small buffer for price rises.', 'Review price after cycle one.'],
+ ['Show next billing date in the email.', 'Offer pause or skip.'],
+ ['Drop-test a packed box.', 'Include a recycling note.'],
+ ['Share tracking links.', 'Keep a spare box for replacements.'],
+ ['Reward long-time subscribers.', 'Track reasons by month.'],
+ ['Plan seasonal boxes.', 'Check stock before promoting.']]

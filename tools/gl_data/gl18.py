@@ -22,3 +22,30 @@ C = dict(id='GL-18', title='Online Currency Exchange Concepts', group='Digital a
  local='Exchange licences, limits and tax declarations differ by country: always check the local regulator before any service idea.',
  evidence='Your evidence: conversions, true-cost table, five-route comparison, scam checklist, rules page, price-screen sketch and risk table.',
  ladder=[('Basics of money abroad', 'Convert amounts. Notes: use a calculator.'), ('Awareness', 'Know rates and fees. Notes: read a real rate card.'), ('Foundation', 'This course. Notes: true cost and design.'), ('Practitioner', 'Support a desk with supervision. Notes: practice only.'), ('Specialist', 'Treasury and risk. Notes: hedging concepts.'), ('Advanced', 'Lead compliance and operations. Notes: audits.'), ('Super expert', 'Set method and teach teachers. Notes: review rules yearly.')])
+
+C['deep'] = dict(mods=[
+ ('Confusing buy and sell rates.', 'Bank buys at 88 and sells at 92 against mid 90; know which side you are on.', 'Which rate applies to you?'),
+ ('Forgetting fixed fees on small amounts.', 'A 3.00 fee on 50.00 is 6% before spread.', 'What is the fee as a percent?'),
+ ('Comparing different days.', 'Rates moved 0.8% in an hour; compare within ten minutes.', 'When did you take each quote?'),
+ ('Trusting a too-good rate.', 'An offer 8% above market is a scam sign.', 'Which red flag did you find?'),
+ ('Ignoring identity rules.', 'A provider\'s ID request is a legal duty.', 'What limit applies where you live?'),
+ ('Showing the rate but not the total.', 'The screen shows total received first in large type.', 'What is the first number your user sees?'),
+ ('No rate-lock time.', 'The rate holds for 5 minutes, then refreshes.', 'How long is your hold?'),
+ ('Presenting concept as ready.', 'Summary says "concept only, no real money".', 'What did you state as limits?')],
+ gloss=[('Mid-market rate', 'Middle of buy and sell prices.'), ('Spread', 'Gap between mid and offered rate.'), ('True cost', 'All costs as a percent of the amount.'), ('Rate lock', 'A fixed rate for a short time.'), ('Regulator', 'The authority that licenses providers.'), ('Remittance', 'Money sent abroad.')],
+ cases=[('The cheap-looking transfer', 'A provider shows "0 fee".', 'How check?', 'Compare received amount with mid-market and compute true cost.'),
+        ('The pressure call', 'A caller says the rate expires in ten minutes and asks for a personal transfer.', 'What do you do?', 'Stop, verify the provider on the regulator\'s list, and report.')])
+C['deep']['extra'] = [
+ ['Note that rates are quoted both ways (EUR/INR or INR/EUR); always say which.', 'Use a calculator and write the currency next to every number.'],
+ ['Compare cost on small and large amounts; fixed fees hit small ones hardest.', 'Include the receiving bank\'s charges.'],
+ ['Take screenshots of quotes with the time.', 'Check how long money takes to arrive.'],
+ ['Use only the regulator\'s register to check a provider.', 'Never share one-time codes.'],
+ ['Learn thresholds for reporting large amounts in your place.', 'Keep records for the required period.'],
+ ['Use the customer\'s currency for the headline number.', 'Add a short plain note on how to complain.'],
+ ['Plan for system downtime and wrong rates.', 'Keep enough of each currency to meet daily demand.'],
+ ['Describe the next step as getting a licence or partnering with one.', 'Keep the concept free of any promise of profit.']]
+
+_ex = ['Mid-market 1 EUR = 90.00 INR. A provider offers 88.20: the spread is (90 - 88.2) / 90 = 2%.', 'Send EUR 500: mid-value INR 45,000. The receiver gets INR 43,900 after a 3 EUR fee and spread. True cost = 1,100 / 45,000 = 2.4%.', 'Bank wire: 3 days, 3.5%. Online provider: 1 day, 1.4%. Cash agent: instant, 4%. Table lets a traveller pick on cost or speed.', 'An offer promises a rate 8% above market. You check the public register, find no licence and report it.', 'A provider asks for ID above a set amount. That is a legal duty to prevent crime, not an insult.', "Screen: 'You send EUR 500. Mid-market 90.00. Our rate 89.10. Fee EUR 3. You get INR 44,247. Rate held 5 minutes.'", 'A rate falls 1.5% during a 10-minute delay. The price lock protects the customer and a limit protects the business.', "Feedback: 'Show total in rupees first.' The change is made and a second tester understands in 10 seconds."]
+_extra = ['Convert five amounts both ways and check with a second calculator.', 'Write which currency is quoted and which is the base.', 'Record the date and time of every quote.', "Find the regulator's public list of licensed providers.", 'Never share one-time codes or passwords with anyone.', 'Compare the cost for a small and a large amount.', 'Look at how long each route takes on weekends.', 'Check whether the receiver pays a fee too.', 'Keep screenshots of every quote.', 'Learn which documents are needed to send money.', 'Write what happens if a transfer fails.', 'List how to complain, step by step.', 'Draw the money flow including fees.', 'Remember this course holds no real money.', 'Write a short customer guide in plain words.', 'Ask a finance adviser to review your concept.']
+C['deep']['mods'] = [(m[0], _ex[i], m[2]) for i, m in enumerate(C['deep']['mods'])]
+C['deep']['extra'] = [_extra[2*i:2*i+2] for i in range(8)]

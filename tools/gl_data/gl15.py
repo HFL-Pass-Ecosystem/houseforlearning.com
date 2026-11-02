@@ -22,3 +22,30 @@ C = dict(id='GL-15', title='Tele and Video Conferencing Operations', group='Digi
  local='Recording and cross-border calls may need consent and notices; check your place and your attendees\' places.',
  evidence='Your evidence: space test, tool test list, run sheets, fault drill log, access checklist, three-session report.',
  ladder=[('Basics of calling', 'Join a call well. Notes: learn mute, camera and chat.'), ('Awareness', 'Know etiquette and privacy. Notes: practise as a guest.'), ('Foundation', 'This course. Notes: three sessions.'), ('Practitioner', 'Run weekly sessions for a team. Notes: templates and checklists.'), ('Specialist', 'Hybrid rooms and larger events. Notes: add room kits.'), ('Advanced', 'Lead production teams. Notes: standards and training.'), ('Super expert', 'Set method and teach teachers. Notes: review every quarter.')])
+
+C['deep'] = dict(mods=[
+ ('Relying on a laptop microphone.', 'A USB headset removes echo and clatter in one change.', 'What audio gear do you use?'),
+ ('Opening the tool for the first time as host on the day.', 'A guest login shows attendees cannot see the poll; fix before the event.', 'What did your guest test find?'),
+ ('Testing alone.', 'Testing with a partner shows echo when both speakers are open.', 'What did your partner hear?'),
+ ('Ignoring upload speed.', 'Download is fast but upload is 1 Mbit/s; the speaker\'s video freezes.', 'What are your three readings?'),
+ ('Adding captions at the end.', 'Captions on from the start help a noisy-room attendee as well.', 'Which access items did you set?'),
+ ('No run sheet, so time slips.', 'A 5-minute chat on the welcome slide cuts the questions by half.', 'What did you cut?'),
+ ('Panicking in a fault.', 'The producer says "we will be back in two minutes" and posts the backup link.', 'What is your plan B?'),
+ ('Not asking for feedback.', 'A one-question poll gives a 4.4 score and one useful comment.', 'What did attendees say?')],
+ gloss=[('Host', 'The person who controls the meeting.'), ('Co-host', 'A helper with host controls.'), ('Breakout room', 'A small group space.'), ('Latency', 'Delay between speaking and hearing.'), ('Bandwidth', 'Data speed.'), ('Run sheet', 'A timed plan.')],
+ cases=[('The echo', 'Everyone hears themselves.', 'Cause and fix?', 'Two open microphones in a room; mute one, use headphones.'),
+        ('The late guest speaker', 'The speaker has not joined at start time.', 'What do you do?', 'Start with the welcome, call the number you hold, move the slot if possible, and keep the time.')])
+C['deep']['extra'] = [
+ ['Test with the same device attendees will use if you can.', 'Sit about an arm\'s length from the camera for steady framing.'],
+ ['Learn the keyboard shortcuts for mute and chat.', 'Turn off notifications before sharing a screen.'],
+ ['Record a test and listen back with headphones.', 'Note background noise sources and remove them.'],
+ ['Close heavy programs and cloud sync during calls.', 'Use a wired link for important events.'],
+ ['Describe images aloud and name speakers before they talk.', 'Share a short joining guide in plain words.'],
+ ['Share the run sheet with co-hosts only.', 'Assign someone to watch the chat for questions.'],
+ ['Keep a phone dial-in as a backup.', 'Practise rejoining as the host from another device.'],
+ ['Compare numbers between sessions to see what improved.', 'Share recordings only with those who agreed.']]
+
+_ex = ['Window behind the speaker makes a silhouette. Turning the desk so light falls on the face fixes it in one minute, and a lamp behind the screen adds balance.', 'A webinar with 80 attendees uses a co-host for questions so the host can present; 12 questions are answered live and 9 in writing afterwards.', 'Echo appears when two laptops in one room are open. Muting one and using headphones ends it, and the test log records the cause.', 'Upload speed is 1.5 Mbit/s. Non-speakers turn off video; the speaker keeps video on; the session runs without freezing.', 'A deaf attendee needs captions. You check them before the session, send slides the day before and offer notes afterwards.', 'Run sheet: minute 0 welcome, 2 rules, 5 content, 40 questions, 50 summary, 55 close. The welcome overruns by 3 minutes, so questions are shortened.', 'The presenter freezes. The co-host reads the notes while the presenter rejoins; the lost time is 90 seconds and the fault log records it.', '38 of 40 invitees joined without help (95%), satisfaction was 4.4, and the joining guide gets a clearer link.']
+_extra = ['Test the microphone level by speaking at normal volume and watching the meter.', 'Place the camera at eye level using books if needed.', 'Remove clutter from the background or use a plain wall.', 'Close your email and chat notifications before sharing.', 'Keep water and a spare charger within reach.', 'Open the joining link on a phone to see the guest view.', "Name your screen with your role, for example 'Host, Anna'.", "Save the participants' names for the thank-you note.", 'Practise muting and unmuting others politely.', 'Know where the chat save and attendance report are.', 'Keep the backup phone number in the invitation.', 'Offer a plain text summary of the session.', 'Check accessibility settings such as caption language.', 'Time each part against the run sheet.', 'Keep a note of any fault and its fix.', 'Write the lessons after each session in three lines.']
+C['deep']['mods'] = [(m[0], _ex[i], m[2]) for i, m in enumerate(C['deep']['mods'])]
+C['deep']['extra'] = [_extra[2*i:2*i+2] for i in range(8)]

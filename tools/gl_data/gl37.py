@@ -22,3 +22,30 @@ C = dict(id='GL-37', title='Crowdfunding Platform Practice', group='Business and
  local='Public fundraising and securities rules differ strongly by place; check before anything is published.',
  evidence='Your evidence: model table, project summary, budget and goal, reward costs, draft page, rules list and update plan.',
  ladder=[('Basics of funding', 'Explain donations. Notes: examples.'), ('Awareness', 'Know models. Notes: compare.'), ('Foundation', 'Plan a small campaign. Notes: paper.'), ('Practitioner', 'This course. Notes: full preparation.'), ('Specialist', 'Platform concept. Notes: risk controls.'), ('Advanced', 'Lead funding programmes. Notes: governance.'), ('Super expert', 'Set method and teach teachers. Notes: rules review.')])
+
+C['deep'] = dict(mods=[
+ ('Treating all models as the same.', 'Equity needs extra rules that donation does not.', 'Which model fits?'),
+ ('No audience before launch.', 'A list of 100 supporters converts at 20%.', 'How big is your list?'),
+ ('Forgetting fees.', 'Costs of 8,000 need a goal of 8,696.', 'What is your goal?'),
+ ('Under-costing rewards.', 'Reward cost 11 plus postage 4 leaves 10 of 25.', 'What are reward margins?'),
+ ('Hiding risk.', 'Page states supplier delay risk.', 'What risks do you state?'),
+ ('Skipping rules.', 'The platform holds funds until the goal is met.', 'What rules apply?'),
+ ('Silence after launch.', 'Weekly updates keep trust.', 'When are updates?'),
+ ('Overpromising.', 'Say what you can deliver.', 'What can you promise?')],
+ gloss=[('Backer', 'A person who supports a campaign.'), ('All-or-nothing', 'Funds released only if the goal is met.'), ('Reward', 'Something given in return.'), ('Platform fee', 'Charge by the platform.'), ('Stretch goal', 'An extra target.'), ('Risk statement', 'A plain list of what could go wrong.')],
+ cases=[('The shortfall', 'The campaign reaches 70% of the goal.', 'What now?', 'Follow platform rules; consider a smaller relaunch with honest communication.'),
+        ('The delay', 'Production slips by two months.', 'Response?', 'Tell backers early, give a new date and offer refund options if rules require.')])
+C['deep']['extra'] = [
+ ['Study three campaigns.', 'List who bears risk.'],
+ ['Build an email list.', 'Test the story with friends.'],
+ ['Add tax and fees.', 'Keep a reserve.'],
+ ['Keep rewards simple.', 'Test shipping costs.'],
+ ['Show a prototype.', 'Introduce the team.'],
+ ['Check local fundraising rules.', 'Ask an adviser.'],
+ ['Plan thank-yous.', 'Answer comments.'],
+ ['Keep a delivery tracker.', 'Share lessons.']]
+
+_ex = ['A reward campaign gives a product; an equity campaign gives shares and needs extra legal steps. Compare four models on who is paid, who bears risk and what rules apply.', 'A list of 100 supporters converts at 20% in the first week, giving 20 backers; the plan targets 40 so reaches beyond the list are needed.', 'Costs 8,000 plus 8% fees means the goal is 8,000 divided by 0.92, which is 8,696.', 'A 25 reward costs 11 to make and 4 to post, leaving 10 towards other costs; a 15 reward with 3 postage leaves little.', "The page says: 'Prototype works; main risk is supplier delay of up to 6 weeks; if so we will tell you within 3 days.'", 'The platform holds funds until the goal is met; if not, backers are refunded. The page explains this in one sentence.', 'A delay is announced in week 2 with a new date and a thank-you, and no backer asks for a refund.', 'The final report says raised 9,100, costs 8,300, 3 delays, all rewards delivered by month 5.']
+_extra = ["Read the platform's rules on prohibited projects and fees.", 'Define who the backers are and how they will hear of you.', 'Write the story in 150 words, then cut it by a third.', 'Prepare three pictures that show progress, not ideas.', 'Calculate the break-even number of backers at each reward level.', 'Discuss tax with an adviser before you launch.', 'Plan who answers questions during the campaign.', 'Set a rule for what you will do if you pass the goal.', 'Check shipping costs to the three biggest backer places.', 'Never promise profit or returns in a reward campaign.', 'Keep a risk register with owner and date for each risk.', 'Schedule updates in a calendar from day one.', 'Keep campaign money in a clearly separate account when allowed.', 'Write a thank-you note ready to send at the end.', 'Review what you would do differently.', 'Share your page for feedback before it is public.']
+C['deep']['mods'] = [(m[0], _ex[i], m[2]) for i, m in enumerate(C['deep']['mods'])]
+C['deep']['extra'] = [_extra[2*i:2*i+2] for i in range(8)]

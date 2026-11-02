@@ -22,3 +22,30 @@ C = dict(id='GL-21', title='E-Commerce Growth Marketing', group='Business and Co
  local='Advertising, consent and consumer-return rules differ by place; check the local rule before running offers.',
  evidence='Your evidence: funnel table, buyer profile, page changes, channel plan, three test records, email sequence, numbers table and review.',
  ladder=[('Basics of selling online', 'Describe a sale step by step. Notes: buy something small.'), ('Awareness', 'Know funnel and channels. Notes: trace an ad.'), ('Foundation', 'Improve one page. Notes: simple changes.'), ('Practitioner', 'This course. Notes: 30-day plan.'), ('Specialist', 'Multi-channel and data. Notes: attribution.'), ('Advanced', 'Lead growth for a shop group. Notes: budgets and teams.'), ('Super expert', 'Set method and teach teachers. Notes: review tests yearly.')])
+
+C['deep'] = dict(mods=[
+ ('Looking at total visits only.', 'Visits rise but orders do not: the leak is at checkout.', 'Where is your biggest leak?'),
+ ('Writing for yourself, not the buyer.', 'Switch from "premium bag" to "light bag that lasts two years".', 'Which words came from buyers?'),
+ ('Too many choices on the page.', 'One main button lifts clicks.', 'What is your one button?'),
+ ('Spreading a small budget thin.', '150 on one channel teaches more than 30 on five.', 'Which channels did you choose?'),
+ ('Changing two things at once.', 'Headline and image changed together hide the cause.', 'What single change did you test?'),
+ ('Emailing without consent.', 'Opt-in only; one-click unsubscribe.', 'Where is consent recorded?'),
+ ('Counting revenue instead of margin.', '25 sales of 20.00 sound good, but margin is 11.00 and ad cost 6.00.', 'What is your profit per sale?'),
+ ('Scaling too fast.', 'Raise spend 20% a week while cost holds.', 'What is your scale rule?')],
+ gloss=[('Funnel', 'Steps from visit to purchase.'), ('Conversion rate', 'Share who take the next step.'), ('Margin', 'Money left after costs.'), ('A/B test', 'Comparing two versions.'), ('Opt-in', 'Permission given by the person.'), ('Return on spend', 'Revenue divided by spend.')],
+ cases=[('The expensive click', 'Cost per sale 9.50, margin 8.00.', 'What do you do?', 'Stop or fix the ad and page; do not scale.'),
+        ('The cart leak', '60 carts, 20 orders.', 'What do you check?', 'Shipping cost shock, payment options, forced sign-up; test one change.')])
+C['deep']['extra'] = [
+ ['Record benchmarks from the start so progress is visible.', 'Use only one analytics tool at first.'],
+ ['Read competitor reviews to learn what buyers complain about.', 'Write the buyer\'s top worry in your page headline.'],
+ ['Show delivery and returns above the fold.', 'Use real photos rather than stock.'],
+ ['Use tracking tags on every link.', 'Set a weekly check-in date.'],
+ ['Run tests for at least a full week.', 'Record the decision and why.'],
+ ['Segment new and repeat buyers.', 'Send only what the recipient asked to receive.'],
+ ['Add delivery cost and refunds into margin.', 'Separate new and repeat customer cost.'],
+ ['Write a one-page summary for the owner.', 'Plan the next test before closing the review.']]
+
+_ex = ['1,000 visits, 60 carts, 20 orders: visit-to-order 2%; cart-to-order 33%. The biggest leak is visit to cart.', "Buyer: parent buying school bags; worry: weight and strength; benefit: 'Light bag that lasts two school years.'", 'Free delivery over 40 raises the average basket from 32 to 38 across 100 orders.', 'Budget 150 for 30 days; an ad stops if 20 clicks bring no sale.', 'Headline A gets 3 sales from 150 clicks (2%); headline B gets 7 (4.7%). Choose B and record why.', 'A reminder to buyers after 30 days brings 6 reorders from 100 mails (6%).', 'Spend 150, 25 sales: 6.00 each. Margin 11.00 per sale, so profit 5.00 per sale.', 'Social ad cost per sale 9.50 is above margin: stop. Search ad 4.10: raise by 20%.']
+_extra = ["Draw the buyer's journey in five steps.", 'Collect five real buyer questions and answer them on the page.', 'Check page speed on a phone.', 'Compare your price with three similar sellers.', 'Put returns and delivery details near the button.', 'Use one clear photo that shows size.', 'Test one email subject line against another.', 'Keep a record of every test and result.', 'Ask buyers why they chose you.', 'Include a way to opt out in every message.', 'Check ad claims are true and provable.', 'Set a weekly spending limit and stick to it.', 'Record the margin before any discount.', 'Use the winners again in new ads.', 'Stop ideas that fail twice.', "Write next month's plan with three tests."]
+C['deep']['mods'] = [(m[0], _ex[i], m[2]) for i, m in enumerate(C['deep']['mods'])]
+C['deep']['extra'] = [_extra[2*i:2*i+2] for i in range(8)]

@@ -22,3 +22,30 @@ C = dict(id='GL-33', title='Digital Marketing', group='Business and Commerce', l
  local='Advertising, privacy and consent law differ by place; use the local rule on each campaign.',
  evidence='Your evidence: plan, persona, messages, page changes, calendar, email consent records, weekly table and report.',
  ladder=[('Basics of promotion', 'Describe how people find businesses. Notes: ask five people.'), ('Awareness', 'Know channels. Notes: compare ads.'), ('Foundation', 'This course. Notes: 30-day campaign.'), ('Practitioner', 'Run for several clients. Notes: templates.'), ('Specialist', 'Search or social specialist. Notes: advanced tools.'), ('Advanced', 'Lead strategy. Notes: budgets.'), ('Super expert', 'Set method and teach teachers. Notes: ethics review.')])
+
+C['deep'] = dict(mods=[
+ ('Starting with a channel instead of a goal.', 'The goal is 20 bookings; the channel follows.', 'What is your goal?'),
+ ('Imagining the customer.', 'Five interviews change the message.', 'What did you hear?'),
+ ('Clever slogans.', '"Learn to draw in 6 Saturdays" beats a pun.', 'Is your message clear?'),
+ ('Slow pages.', '2 seconds on a phone keeps people.', 'How fast is yours?'),
+ ('Posting without a calendar.', 'Four-week plan keeps rhythm.', 'What is on it?'),
+ ('Emailing without consent.', 'Opt-in forms and unsubscribe links.', 'Where is consent?'),
+ ('Ignoring cost.', '4.00 per lead and 20 per booking.', 'What is yours?'),
+ ('Not moving budget.', 'Shift to the channel that works.', 'Where did you move?')],
+ gloss=[('Funnel', 'Steps from awareness to purchase.'), ('Persona', 'A sketch of a typical customer.'), ('Call to action', 'The next step requested.'), ('SEO', 'Making pages easier to find in search.'), ('Opt-in', 'Permission to contact.'), ('Cost per lead', 'Spend divided by leads.')],
+ cases=[('The flop', 'An ad gets clicks but no bookings.', 'What to check?', 'Landing page, message mismatch, price, and form length.'),
+        ('The angry comment', 'A user complains publicly.', 'How do you respond?', 'Reply politely, move to private help and fix the cause.')])
+C['deep']['extra'] = [
+ ['Check competitors\' offers.', 'Set weekly review time.'],
+ ['Use their words in messages.', 'Share your persona.'],
+ ['Add proof such as photos.', 'Test two headlines.'],
+ ['Add a local listing.', 'Test on mobile.'],
+ ['Reuse content in formats.', 'Reply to comments.'],
+ ['Segment lists.', 'Test send times.'],
+ ['Create a simple dashboard.', 'Compare week on week.'],
+ ['Share lessons.', 'Plan the next month.']]
+
+_ex = ['Goal: 20 bookings. Audience: parents within 5 km. Channel: search and one social platform. Budget: 100 for 30 days. The plan fits on one page.', "Interview notes: three of five parents say 'weekend' and 'small class' matter; they search 'kids art class near me'.", "Message test: 'Fun art classes' gets 18 clicks; 'Learn to draw in 6 Saturdays, 12 children' gets 31 clicks on the same budget.", 'Page speed: photos compressed from 4 MB to 300 KB; load time falls from 6 s to 2 s on a phone, and form completions rise from 4% to 7%.', 'Four-week calendar: Monday tip, Wednesday question, Friday offer; reach rises from 80 to 210 per post.', 'Welcome mail opens at 55% and the offer mail at 28%; the unsubscribe rate stays under 1%.', 'Spend 100 gives 25 leads (4.00 each) and 5 bookings (20 each). The target was 25 per booking, so the plan works.', 'Search leads cost 3.20 and social 7.50, so 30% of budget moves from social to search next month.']
+_extra = ['Write one sentence that says what you sell, to whom, and why they should care.', 'Set the three measures you will watch before spending anything.', 'Create a simple sheet with columns for date, channel, spend, leads and sales.', "Pick words from buyers' own comments for your headings.", 'Check your page on a phone before sharing it anywhere.', 'Add a map and opening hours so local people can act at once.', 'Use one photo of a real person or product, not generic stock.', 'Ask three customers to review your message and say what is unclear.', 'Schedule posts in advance but check them each morning.', 'Include a clear way to unsubscribe in every email.', 'Do not collect more data than you need on forms.', 'Test one change at a time and write it down.', 'Pause any ad that spends 20 clicks with no result.', 'Summarise the month in five lines for the owner.', 'Move one lesson into your checklist for the next campaign.', 'Share a short before and after with your peer circle.']
+C['deep']['mods'] = [(m[0], _ex[i], m[2]) for i, m in enumerate(C['deep']['mods'])]
+C['deep']['extra'] = [_extra[2*i:2*i+2] for i in range(8)]

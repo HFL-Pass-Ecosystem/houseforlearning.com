@@ -22,3 +22,30 @@ C = dict(id='GL-32', title='Influencer Marketing', group='Business and Commerce'
  local='Disclosure rules and age limits for audiences differ by place: follow the local authority.',
  evidence='Your evidence: goal note, vetting checklist, brief, agreement outline, tracking sheet, results table and lessons.',
  ladder=[('Basics of sharing', 'Share safely. Notes: privacy settings.'), ('Awareness', 'Know creator rules. Notes: compare ads.'), ('Foundation', 'This course. Notes: small campaign.'), ('Practitioner', 'Manage several creators. Notes: calendar.'), ('Specialist', 'Data and contracts. Notes: attribution.'), ('Advanced', 'Lead a programme. Notes: brand safety.'), ('Super expert', 'Set method and teach teachers. Notes: ethics review.')])
+
+C['deep'] = dict(mods=[
+ ('Choosing by follower count.', 'A nano creator\'s audience may trust them more.', 'What matters more than size?'),
+ ('Vague goals.', '30 sign-ups for 300 budget.', 'What is your target?'),
+ ('Ignoring fake engagement.', 'Comments all emojis suggest bought activity.', 'How did you vet?'),
+ ('Over-controlling the creator.', 'Give a brief with room for their voice.', 'What is flexible?'),
+ ('No written terms.', 'Fees and rights in writing avoid disputes.', 'What did you agree?'),
+ ('Forgetting tracking.', 'A code per creator shows who sells.', 'What is your code?'),
+ ('Judging on views alone.', 'Cost per result tells more.', 'What is yours?'),
+ ('Accepting every offer as a creator.', 'Decline items that do not fit your values.', 'What will you decline?')],
+ gloss=[('Nano creator', 'A creator with a small, close audience.'), ('Brief', 'The instructions for a partnership.'), ('Disclosure', 'Label showing a paid link or post.'), ('Engagement rate', 'Interactions divided by reach.'), ('Usage rights', 'How you may reuse content.'), ('Promo code', 'A code tracking sales.')],
+ cases=[('The off-brief post', 'A creator posts a claim not in the brief.', 'Response?', 'Ask for a correction, use the contract and keep records.'),
+        ('The undisclosed ad', 'A creator does not label a paid post.', 'What do you do?', 'Request an immediate label, pause payment and review the process.')])
+C['deep']['extra'] = [
+ ['Study one local campaign.', 'List your own values.'],
+ ['Set a budget range.', 'Choose a start and end date.'],
+ ['Check past posts for similar ads.', 'Ask for audience details.'],
+ ['Share examples.', 'Agree approval steps.'],
+ ['Put payment dates in writing.', 'Plan for delays.'],
+ ['Reply to comments.', 'Watch for complaints.'],
+ ['Share findings with creators.', 'Plan the next campaign.'],
+ ['Create a media kit.', 'Be open about your audience.']]
+
+_ex = ['A nano creator with 4,000 followers reaches 1,600 people per post, with 120 clicks; a large account with 400,000 followers reaches 20,000 with 150 clicks. Cost per click favours the small account.', "A goal of 30 sign-ups with a 300 budget sets the ceiling at 10 per sign-up; a goal of 'more awareness' sets none.", 'Of 5 creators vetted, one has 6,000 likes but 40 emoji-only comments; you drop it and keep the two with real replies.', "A one-page brief: product shown in use, 30 to 45 seconds, label 'Ad', link in the first line, publish by the 12th, we review before posting.", 'Payment: 50% on signing, 50% on posting; if the post is more than 3 days late, the second part drops by 20%.', 'Each creator gets a code. Code A gives 14 sign-ups, code B 9, code C 3, so next time budget moves to A.', '300 spent, 38 sign-ups: cost per result 7.90. Creator A cost 5.10 and creator C 14.00.', 'As a creator you decline a 400 offer for a product that failed your test. Followers notice; the next honest review earns 6% more clicks.']
+_extra = ['Read how three real campaigns were described and note which felt honest.', 'Write three questions you will ask every creator before agreeing.', 'Ask each creator for audience age, place and top interests, not just follower totals.', 'Set a rule for what is off-limits: health claims, other brands, unsafe use.', 'Agree who owns the content and for how long it may be reused.', 'Put the agreed label wording in the brief in plain words.', 'Use calendars so posts do not land the same day.', 'Prepare answers to questions the audience is likely to ask.', 'Monitor comments for 48 hours after each post and answer politely.', 'Report complaints to the creator at once, not at month end.', 'Compare cost per result across creators in a table.', 'Thank creators publicly when the campaign works.', 'Keep contact details securely and only for the campaign.', 'Never ask creators for personal data on their followers.', 'Write down three changes for the next campaign.', 'If you are the creator, publish your own disclosure and rules page.']
+C['deep']['mods'] = [(m[0], _ex[i], m[2]) for i, m in enumerate(C['deep']['mods'])]
+C['deep']['extra'] = [_extra[2*i:2*i+2] for i in range(8)]

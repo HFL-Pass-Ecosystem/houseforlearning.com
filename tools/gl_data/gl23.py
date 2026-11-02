@@ -22,3 +22,30 @@ C = dict(id='GL-23', title='E-Commerce Inventory Management', group='Business an
  local='Storage rules, taxes on stock and import duties differ by place; check them with a local adviser.',
  evidence='Your evidence: item list, count records, forecast, reorder table, shelf photos, slow-mover list and health report.',
  ladder=[('Basics of stock', 'Count items. Notes: count a shelf.'), ('Awareness', 'Know terms. Notes: define each term with an example.'), ('Foundation', 'Maintain a stock list. Notes: spreadsheet.'), ('Practitioner', 'This course. Notes: rules and report.'), ('Specialist', 'Multi-location and forecasting. Notes: seasonal items.'), ('Advanced', 'Lead supply planning. Notes: supplier terms.'), ('Super expert', 'Set method and teach teachers. Notes: audits.')])
+
+C['deep'] = dict(mods=[
+ ('Ignoring holding cost.', '500 of stock for 90 days at 2% monthly costs 30 in tied capital.', 'What do you hold too much of?'),
+ ('Two codes for one item.', 'TB-40 and tote-40 split the count; merged.', 'Any duplicates?'),
+ ('Adjusting the record without finding the cause.', 'A mis-pick pattern is fixed by labelling.', 'What caused your count gap?'),
+ ('Using one week to forecast.', 'Four-week average 11.5 beats the single week of 14.', 'How many weeks do you average?'),
+ ('Ignoring supplier delays.', 'Lead time 6 days becomes 9 in holiday week; raise safety stock.', 'What is your lead time range?'),
+ ('Stacking heavy items high.', 'Heavy low, light high.', 'Is your shelf safe?'),
+ ('Letting slow movers sit.', 'No sales for 60 days triggers a discount.', 'Which item is slowest?'),
+ ('Reporting without actions.', 'Each measure has an owner and date.', 'What is your top action?')],
+ gloss=[('Lead time', 'Order-to-arrival days.'), ('Safety stock', 'Extra for surprises.'), ('Reorder point', 'Level that triggers an order.'), ('Turnover', 'How fast stock sells.'), ('FIFO', 'First in, first out.'), ('Shrink', 'Stock lost to damage or theft.')],
+ cases=[('The stock-out', 'A best seller runs out for 5 days.', 'Cause and fix?', 'Reorder point too low; recompute with real lead time and raise safety stock.'),
+        ('The pile of boxes', 'Boxes unsold for 6 months.', 'Options?', 'Bundle, discount, return to supplier or write off; stop reordering.')])
+C['deep']['extra'] = [
+ ['List which items sell fast and which slowly.', 'Note seasonal peaks.'],
+ ['Add a photo to each item record.', 'Mark items that expire.'],
+ ['Count high-value items more often.', 'Make counting a routine at a fixed time.'],
+ ['Account for promotions in the forecast.', 'Check forecast against actual each week.'],
+ ['Keep two suppliers for key items.', 'Review the reorder point after any lead-time change.'],
+ ['Keep aisles clear.', 'Store returned items apart until checked.'],
+ ['Review dead stock quarterly.', 'Track damage and cause.'],
+ ['Share the report with the team.', 'Plan next quarter\'s stock policy.']]
+
+_ex = ['500 of goods sits 90 days. Holding cost at 2% a month is 30 in tied capital for that stock.', 'Code TB-40-NAT for tote bag, 40 cm, natural; shelf B2. Duplicate TB-40 is merged and counts fixed.', '19 of 20 lines match: 95%. Two differences traced to a mis-pick; after fixing, the recount is 20 of 20.', "Sales 12, 9, 14, 11 over 4 weeks: average 11.5; next week's plan is 12 units.", 'Use 4 a day, lead time 6 days, safety 8: reorder point = 24 + 8 = 32.', 'Dated jars: oldest in front; one month saves 6 jars from expiry.', 'Sales cost 2,400 in 8 weeks; average stock 1,200: turnover 2.0 over 8 weeks.', 'Stock-outs 3% of lines: raise safety stock on two fast items.']
+_extra = ['Write down your top five sellers and their lead times.', 'Mark shelves with item codes and picture labels.', 'Count one shelf each day instead of everything at once.', 'Record each stock difference and its cause.', 'Plan extra stock before big sales dates.', 'Check supplier delivery times quarterly.', 'Keep damaged goods apart and logged.', 'Photograph shelf layouts before changes.', 'Set a maximum stock level for each item.', 'Review prices if stock is slow.', 'Use a simple traffic-light status for stock.', 'Train new staff on counting rules.', 'Keep a record of returns by reason.', 'Share the monthly report with the team.', "Test your reorder rule on last month's data.", 'Update the plan after each stock-out.']
+C['deep']['mods'] = [(m[0], _ex[i], m[2]) for i, m in enumerate(C['deep']['mods'])]
+C['deep']['extra'] = [_extra[2*i:2*i+2] for i in range(8)]

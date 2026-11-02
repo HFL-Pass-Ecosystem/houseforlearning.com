@@ -22,3 +22,30 @@ C = dict(id='GL-20', title='Social Media Network Building', group='Digital and T
  local='Platform choice, age rules and content laws differ by place; check what members use and what your law requires.',
  evidence='Your evidence: purpose note, rules, setup screenshots, six-week calendar, moderation log, weekly measures and health report.',
  ladder=[('Basics of sharing', 'Post safely. Notes: privacy settings.'), ('Awareness', 'Know communities and rules. Notes: observe three groups.'), ('Foundation', 'This course. Notes: 6-week community.'), ('Practitioner', 'Run several groups. Notes: shared calendar.'), ('Specialist', 'Brand and customer communities. Notes: insights and care.'), ('Advanced', 'Lead a team and policy. Notes: crisis handling.'), ('Super expert', 'Set method and teach teachers. Notes: share templates.')])
+
+C['deep'] = dict(mods=[
+ ('A purpose that is "everyone".', '"Home bakers swap tips" is clearer than "food lovers".', 'Who is your member in one sentence?'),
+ ('Rules that are long and vague.', 'Six short rules fit one screen.', 'Can a new member read your rules in 30 seconds?'),
+ ('Setting up before testing joining.', 'Friends find the join link broken; fixed in minutes.', 'How long does joining take?'),
+ ('Posting only offers.', 'Calendar mixes tip, question, story, offer.', 'What are your four types?'),
+ ('Buying followers.', 'Bought numbers hide low activity.', 'How did your 30 members join?'),
+ ('Ignoring the first message.', 'A named welcome doubles first replies.', 'What does your welcome say?'),
+ ('Measuring likes only.', 'Active rate and replies per post show real life.', 'What is your active rate?'),
+ ('Doing everything alone.', 'Two helpers share moderation.', 'Who are your helpers?')],
+ gloss=[('Moderation', 'Keeping a space safe and on topic.'), ('Active rate', 'Active members divided by all.'), ('Pinned post', 'A post kept at the top.'), ('Onboarding', 'Welcoming and guiding new members.'), ('Engagement', 'Replies and reactions.'), ('Churn', 'Members who leave.')],
+ cases=[('The argument', 'Two members insult each other.', 'First steps?', 'Message both privately, pause the thread, apply the rule and log it.'),
+        ('The quiet group', 'Only three members post.', 'What do you try?', 'Ask easier questions, feature member stories, invite quiet members to share short tips.')])
+C['deep']['extra'] = [
+ ['Study three communities and note what keeps people.', 'Pick a name that is easy to say and search.'],
+ ['Add a rule on respect for children and on reporting.', 'Tell members what moderators can and cannot see.'],
+ ['Create a pinned "start here" post.', 'Test on phone and desktop.'],
+ ['Plan a monthly event to give a reason to return.', 'Credit members whose posts you reuse.'],
+ ['Ask each member to invite one person.', 'Avoid unsolicited messages.'],
+ ['Rotate helpers to avoid burnout.', 'Keep a template for warning messages.'],
+ ['Ask members what they would miss if the group closed.', 'Chart weekly growth and posts.'],
+ ['Decide when to close or merge a quiet group.', 'Write a thank-you note to helpers.']]
+
+_ex = ["Purpose: 'Home bakers swap tips and sell locally.' Promise: 'A weekly tip and a Saturday swap.' Fits in 40 words.", "A member posts a neighbour's phone number. You remove it at once, explain the rule, log it and thank the person who reported it.", 'Pinned post lists rules, how to ask, how to report in 6 lines. Test members join in 2 minutes.', 'Calendar: Monday tip, Wednesday question, Friday member story, Saturday swap. Replies per post rise from 1.2 to 2.4.', 'Aim 30 members: 10 friends, 10 customers, 10 from partner groups; nobody is added without asking.', 'Two members argue; a helper messages both, asks them to pause, and the thread is locked for a day.', '34 members, 12 active = 35%; replies per post 2.4; 3 leavers.', 'Low replies on long posts: shorten posts and end with one question. Replies rise by half.']
+_extra = ['Write who is welcome and who is not.', 'Choose two helpers early and share the tasks.', 'Prepare a warning message template that is kind and firm.', 'Ask new members why they joined and use their words.', "Celebrate a member's win each week.", 'Track the busiest day and time.', 'Remove spam within an hour.', 'Offer help to members who are stuck.', 'Make sure children are not contacted privately.', 'Share group rules every month.', 'Back up key posts and files.', 'Keep a list of ideas members suggest.', 'Ask quiet members one easy question.', 'Review how conflicts were handled and what to change.', 'Share your health report with helpers.', 'Plan the next 90 days with one event each month.']
+C['deep']['mods'] = [(m[0], _ex[i], m[2]) for i, m in enumerate(C['deep']['mods'])]
+C['deep']['extra'] = [_extra[2*i:2*i+2] for i in range(8)]

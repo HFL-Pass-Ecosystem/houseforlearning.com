@@ -22,3 +22,30 @@ C = dict(id='GL-38', title='P2P Lending Platform Concepts', group='Business and 
  local='Lending platforms are licensed and capped in many places; check the regulator\'s rules.',
  evidence='Your evidence: money-flow chart, loan calculations, expected-loss table, return model, fairness rules, disclosure sheet, operating checklist and one-page concept.',
  ladder=[('Basics of borrowing', 'Understand interest. Notes: calculators.'), ('Awareness', 'Know platforms. Notes: compare.'), ('Foundation', 'Calculate loans. Notes: spreadsheet.'), ('Practitioner', 'This course. Notes: concept and model.'), ('Specialist', 'Risk modelling. Notes: scoring.'), ('Advanced', 'Lead risk and compliance. Notes: audits.'), ('Super expert', 'Set method and teach teachers. Notes: rules review.')])
+
+C['deep'] = dict(mods=[
+ ('Believing returns are certain.', 'Lenders can lose money; say so.', 'What risks are stated?'),
+ ('Quoting rate without fees.', '12% plus 2% fee costs more than 12%.', 'What is the total cost?'),
+ ('Not diversifying.', '50 loans of 20 each reduce impact.', 'How many loans?'),
+ ('Skipping stress tests.', 'Double the defaults and see.', 'What happens?'),
+ ('Biased scoring.', 'Check outcomes across groups.', 'What did you find?'),
+ ('Long, dense disclosures.', 'Plain sheet in short lines.', 'Does yours pass a reader test?'),
+ ('Mixing funds.', 'Keep client money separate.', 'How are funds kept?'),
+ ('Calling a concept a product.', 'State concept only.', 'What limit did you state?')],
+ gloss=[('Default', 'Failure to repay.'), ('APR', 'Annual percentage rate including fees.'), ('Expected loss', 'Chance of default times loss.'), ('Ring-fence', 'Keep funds separate.'), ('Servicing', 'Collecting and managing loan payments.'), ('Stress test', 'Testing under bad conditions.')],
+ cases=[('The surge in defaults', 'Defaults double in one month.', 'Response?', 'Stress model, inform lenders, review scoring and collections.'),
+        ('The unfair offer', 'Rates for one group are far higher.', 'Check?', 'Investigate bias in the scoring and fix.')])
+C['deep']['extra'] = [
+ ['Compare banks and platforms.', 'Name the regulator.'],
+ ['Compute payment by hand once.', 'Compare early repayment.'],
+ ['Use public default data.', 'Note limits of data.'],
+ ['Show gross and net.', 'Compare with savings.'],
+ ['Offer help for hardship.', 'Keep fees clear.'],
+ ['Add a complaint route.', 'Test with readers.'],
+ ['Check identity.', 'Plan back-up servicing.'],
+ ['Ask an adviser to review.', 'List next steps.']]
+
+_ex = ['A lender puts 1,000 into 50 loans of 20 each. One default of 20 costs 2% of capital, not 100%.', '1,000 at 12% for a year with monthly payments costs about 66 in interest; with a 2% fee (20) total cost is 86, or about 8.6% of the amount.', 'Grade A: default 2%, loss given default 60%, expected loss 1.2%. Grade C: 8% and 70% give 5.6%.', 'Gross 10% minus fees 1% minus expected loss 3% gives 6% net; with losses doubled, 3% net, no better than a savings rate.', 'A borrower spends 40% of income on debt; the rule declines or lowers the loan; a test list shows the same rule across groups.', 'The disclosure sheet states: you can lose money, returns are not guaranteed, who regulates, how to complain.', 'If the platform closes, a back-up servicer continues collections, and client money is kept apart from company money.', 'The mentor notes there is no complaint route; you add a named contact and a response time.']
+_extra = ["Look at the main regulator's page for platforms and note what it asks.", 'Describe how a loan moves from request to repayment in six steps.', 'Practise a simple loan table on a spreadsheet.', 'Check what happens in the first and last month of a loan.', 'Compare fixed and variable fees on small loans.', 'Create a plain list of what a borrower must know.', 'Keep a rule for when to refuse a loan.', 'Test the scoring list with ten made-up applicants.', 'List fraud signs such as the same device for many applicants.', 'Define when a loan counts as late.', 'Write a short script for a polite collections call.', 'Check that complaint steps are visible on every page.', 'Create a one-page lender warning in plain language.', 'Plan how to wind down safely.', 'Ask a finance adviser to review the concept in writing.', 'Never present this concept as ready for real money.']
+C['deep']['mods'] = [(m[0], _ex[i], m[2]) for i, m in enumerate(C['deep']['mods'])]
+C['deep']['extra'] = [_extra[2*i:2*i+2] for i in range(8)]

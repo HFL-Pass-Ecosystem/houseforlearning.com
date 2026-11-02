@@ -35,3 +35,12 @@ C['deep'] = dict(mods=[
  gloss=[('Rehost', 'Moving as-is.'), ('Replatform', 'Moving with small changes.'), ('Cut-over', 'The moment users switch to the new system.'), ('Rollback', 'Returning to the old system.'), ('Shared responsibility', 'Split of security duties between provider and customer.'), ('Egress', 'Charges for data leaving the cloud.')],
  cases=[('The Friday move', 'A firm plans a move on Friday afternoon with only one technician.', 'What is the risk?', 'Problems appear when staff are leaving and help is thin. Move in a quiet window with two people and a rollback plan.'),
         ('The bill shock', 'A trial bill is three times the estimate.', 'What do you check?', 'Data egress, always-on test machines and storage tiers; add budget alerts and shut down unused resources.')])
+C['deep']['extra'] = [
+ ['Write down which cloud services you already use without knowing, such as free email or file sharing.', 'Note the exit route: how you would leave a provider if prices rise.'],
+ ['Interview users about which systems they cannot work without, and rank them.', 'Note licence terms; some software cannot move without a new licence.'],
+ ['Run a pilot with a low-risk system first, such as shared files.', 'Record skills needed and who will learn them.'],
+ ['Include staff time for the move and for training.', 'Compare reserved and pay-as-you-go prices for steady loads.'],
+ ['Check the provider\'s location for data and the law that applies.', 'Set automatic alerts for odd sign-ins and large downloads.'],
+ ['Rehearse the rollback as well as the move.', 'Keep a list of who must be called if a test fails.'],
+ ['Send two user notices: one week and one day before.', 'Keep a short list of known issues ready for the help desk.'],
+ ['Review the first bill against the plan within 30 days.', 'Schedule a six-month check for unused resources and security settings.']]

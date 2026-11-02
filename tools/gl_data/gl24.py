@@ -22,3 +22,25 @@ C = dict(id='GL-24', title='Selling Personal Protective Equipment', group='Busin
  local='Standards, markings and import rules for protective equipment differ greatly by place: use the local regulator\'s list.',
  evidence='Your evidence: hazard maps, marking decodes, supplier reviews, fitting guide, batch log, advert review and buyer guide.',
  ladder=[('Basics of safety', 'Know hazards. Notes: tour a workplace.'), ('Awareness', 'Know protection types. Notes: handle samples.'), ('Foundation', 'Match item to hazard. Notes: simple cases.'), ('Practitioner', 'This course. Notes: guide and records.'), ('Specialist', 'Technical sales. Notes: sectors such as construction.'), ('Advanced', 'Lead compliance. Notes: audits and recalls.'), ('Super expert', 'Set method and teach teachers. Notes: review rules yearly.')])
+
+C['deep'] = dict(mods=[
+ ('Treating protective equipment as the first fix.', 'A noisy workshop buys earplugs but never reduces the noise at source; advise a quieter machine and guards first.', 'What hazard could be removed before any item is sold?'),
+ ('Trusting a mark because it looks official.', 'A mask has a mark with no standard number; ask for the declaration before listing.', 'Which marking on your sample can you not trace?'),
+ ('Accepting a certificate for a different model.', 'Certificate for model X-1 is attached to listing X-2; reject until corrected.', 'Which supplier document did you query?'),
+ ('Ignoring facial hair or head size when fitting.', 'A half mask leaks on a bearded worker; advise a loose-fitting hood type.', 'What fit check did you teach?'),
+ ('Saying "this will keep you safe".', 'Say "tested to the stated standard for dust; it does not protect against vapours".', 'What does your item not protect against?'),
+ ('Selling expired stock.', 'Filters expire after five years sealed; check dates at goods-in.', 'How do you rotate dated items?'),
+ ('Copying a competitor\'s claim.', 'Copied claim "medical grade" is unproven; delete it.', 'Which advert claim did you change?'),
+ ('Writing a guide that hides limits.', 'Guide has a clear "Not for" line for each item.', 'Does each guide entry state a limit?')],
+ gloss=[('Hazard', 'Something that can cause harm.'), ('Risk', 'Chance of harm times how bad it is.'), ('Conformity declaration', 'The maker\'s statement that a product meets a standard.'), ('Batch', 'Items made together and traceable.'), ('Notice of use', 'Instructions and limits supplied with the item.'), ('Recall', 'Calling back unsafe products.')],
+ cases=[('The wrong mask', 'A customer buys a dust mask for spray painting.', 'What do you do?', 'Explain the hazard is vapour, suggest the correct respirator type and send complex cases to a safety adviser.'),
+        ('The recall', 'A maker recalls a batch of gloves.', 'What steps?', 'Use the batch log to contact buyers within 24 hours, remove stock and keep records.')])
+C['deep']['extra'] = [
+ ['Walk through a workplace with a checklist and list hazards by area.', 'Ask workers what hurts or irritates.'],
+ ['Compare two similar items and explain the difference in marking.', 'Note that some marks cover one hazard only.'],
+ ['Record the date you saw each document.', 'Ask suppliers for test report numbers.'],
+ ['Teach put-on and take-off order.', 'Show how to clean and store each item.'],
+ ['Keep a list of questions to ask every customer.', 'Offer a low-cost and a better option.'],
+ ['Label shelves with batch numbers.', 'Separate damaged returns.'],
+ ['Track which adverts you changed.', 'Check platform rules for health claims.'],
+ ['Add pictures to the buyer guide.', 'Review the guide when standards change.']]

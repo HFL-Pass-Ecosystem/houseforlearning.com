@@ -22,3 +22,30 @@ C = dict(id='GL-19', title='Wallet Payment Solutions', group='Digital and Techno
  local='Payment rules, licences and which wallets people use differ greatly by place: check the regulator and local methods.',
  evidence='Your evidence: flow diagram, partner comparison, ten test payments, receipt, failure and refund tests, fraud checklist, reconciliation and guide.',
  ladder=[('Basics of paying', 'Explain card, wallet and cash. Notes: compare receipts.'), ('Awareness', 'Know fees and safety. Notes: read terms together.'), ('Foundation', 'Test a simple checkout. Notes: test mode only.'), ('Practitioner', 'This course. Notes: full journey and reconciliation.'), ('Specialist', 'Multi-currency and disputes. Notes: handle chargebacks.'), ('Advanced', 'Lead payments operations. Notes: controls and audits.'), ('Super expert', 'Set method and teach teachers. Notes: review rules yearly.')])
+
+C['deep'] = dict(mods=[
+ ('Thinking payment is done when the customer taps.', 'Authorised on Monday, settled on Wednesday, minus the fee.', 'When does money reach you?'),
+ ('Picking the lowest percent without the fixed fee.', 'On 10.00 sales the 1.6% + 0.50 partner costs more than 2.0% + 0.20.', 'Which partner is cheaper at your average sale?'),
+ ('Pasting keys into documents.', 'Keys live only in the partner\'s settings and a protected store.', 'Where are your keys?'),
+ ('A receipt without a reference.', 'The reference ties the receipt to the partner record.', 'Does every receipt carry one?'),
+ ('Refunding without a rule.', 'Refund within 14 days, fee not returned.', 'What is your refund rule?'),
+ ('Letting any helper refund.', 'Only two named roles may refund.', 'Who can refund?'),
+ ('Skipping the daily match.', 'A 3.00 gap is a missed fee; found on day 1.', 'What gaps did you find?'),
+ ('A guide that assumes knowledge.', 'Users test "Pay 55.00 now" and complete it alone.', 'How many users succeeded?')],
+ gloss=[('Authorisation', 'The wallet approving a payment.'), ('Settlement', 'Money paid to the merchant.'), ('Chargeback', 'A buyer disputes through their bank.'), ('Test mode', 'A safe mode with no real money.'), ('Reconciliation', 'Matching records.'), ('Tokenisation', 'Replacing card data with a safe code.')],
+ cases=[('Double charge', 'A customer sees two charges after a timeout.', 'What do you do?', 'Check the partner record, release or refund the duplicate, tell the customer when.'),
+        ('Large new order', 'A new account orders 40 phones.', 'Next step?', 'Hold, verify buyer and address, and use partner fraud tools.')])
+C['deep']['extra'] = [
+ ['Learn the difference between card, wallet and bank transfer flows.', 'Note which methods your customers use most.'],
+ ['Read the partner\'s terms on holds and reserves.', 'Check support hours and escalation.'],
+ ['Rotate test keys after sharing a screen.', 'Document each test in a log.'],
+ ['Show taxes separately on the receipt.', 'Store receipts for the legal period.'],
+ ['Tell the customer how long a refund takes.', 'Block repeated refunds to the same account for review.'],
+ ['Set daily limits for new accounts.', 'Review declined payments for patterns.'],
+ ['Reconcile weekly as well as daily.', 'Track fee percent over time.'],
+ ['Add the support contact on the screen.', 'Update the guide whenever the screen changes.']]
+
+_ex = ['A 100.00 sale with a 2% fee settles as 98.00 two days later; the ledger shows sale, fee and settlement as three lines.', 'Partner A 2.0% + 0.20; partner B 1.6% + 0.50. On a 10.00 sale A costs 0.40 and B 0.66, so A is cheaper for small sales.', 'Test wallet 1 always succeeds; wallet 2 declines for no funds; wallet 3 times out. Each path shows a clear message and is logged.', "Receipt 000127: 3 items, tax 5.00, total 55.00, reference ties to the partner's record.", 'A timeout charges twice. The guide explains the second charge is released in 3 days or refunded now on request.', 'Order of 40 phones from a new account: held, buyer verified by phone, and released after checks.', '100 attempts: 93 succeeded (93%), 4 refunded (4%), average time to pay 38 seconds. The target was 90%.', "Users misread 'Authorise'. The screen changes to 'Pay 55.00 now' and three users complete it alone."]
+_extra = ['Draw the journey from basket to receipt.', 'Check which wallets are common among your customers.', 'Keep test keys in a protected place only.', 'Write the exact wording for payment failure messages.', 'Check support hours and escalation of the partner.', 'Record every refund with a reason.', 'Check whether tax needs to be shown separately.', 'Keep daily and weekly reconciliation notes.', 'Limit who may refund or change prices.', 'Alert customers if a payment is pending.', 'Check how chargebacks are handled.', 'Set daily limits for new accounts.', 'Test the journey on a slow phone.', 'Update the guide when screens change.', 'Keep a list of lessons for each test cycle.', 'Plan a pilot with a licensed partner before any real money.']
+C['deep']['mods'] = [(m[0], _ex[i], m[2]) for i, m in enumerate(C['deep']['mods'])]
+C['deep']['extra'] = [_extra[2*i:2*i+2] for i in range(8)]

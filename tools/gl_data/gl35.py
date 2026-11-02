@@ -22,3 +22,30 @@ C = dict(id='GL-35', title='Online Library Building', group='Business and Commer
  local='Copyright terms and lending rules differ by place; check before you share digital copies.',
  evidence='Your evidence: user notes, policy, licence log, 50 item records, search test, access checklist and use report.',
  ladder=[('Basics of finding', 'Find a book. Notes: use a catalogue.'), ('Awareness', 'Know copyright. Notes: licence quiz.'), ('Foundation', 'This course. Notes: 50 items.'), ('Practitioner', 'Run a library hub. Notes: partners.'), ('Specialist', 'Metadata standards. Notes: data quality.'), ('Advanced', 'Lead a network. Notes: policy.'), ('Super expert', 'Set method and teach teachers. Notes: review rules yearly.')])
+
+C['deep'] = dict(mods=[
+ ('Collecting everything.', 'A village group needs farm skills in two languages; stay on topic.', 'What does your community need?'),
+ ('No policy for donations.', 'Politely decline items outside scope.', 'What is in your policy?'),
+ ('Guessing licences.', 'Record a licence for each item.', 'How many are recorded?'),
+ ('Inconsistent descriptions.', 'Use one template for all items.', 'Does yours match?'),
+ ('Unhelpful search.', 'Add synonyms such as tomato and tomatoes.', 'Which searches failed?'),
+ ('Small, grey text.', 'Larger text and strong contrast.', 'What did you fix?'),
+ ('Tracking borrowers.', 'Keep only what is needed.', 'What do you store?'),
+ ('Ignoring requests.', 'Add the three most requested topics.', 'What was requested?')],
+ gloss=[('Catalogue', 'A list of items with descriptions.'), ('Licence', 'Permission terms.'), ('Metadata', 'Data about an item.'), ('Keyword', 'A word people search for.'), ('Public domain', 'No copyright restrictions.'), ('Loan period', 'How long an item may be borrowed.')],
+ cases=[('The uncertain licence', 'You cannot find a licence for a popular guide.', 'What do you do?', 'Do not publish; ask the creator or replace it.'),
+        ('The zero results', 'A common search returns nothing.', 'Fix?', 'Add synonyms and tags, then retest.')])
+C['deep']['extra'] = [
+ ['Interview a librarian.', 'List languages needed.'],
+ ['Review the collection yearly.', 'Plan balance across topics.'],
+ ['Check creator credits.', 'Keep a permissions folder.'],
+ ['Write summaries in plain words.', 'Tag for level.'],
+ ['Test with beginners.', 'Add a "new" shelf.'],
+ ['Provide text versions.', 'Offer low-data downloads.'],
+ ['Delete records on schedule.', 'Explain privacy in plain words.'],
+ ['Share use data with supporters.', 'Plan next year\'s additions.']]
+
+_ex = ['A village learning group needs farm skills in two languages. You choose 50 items: 30 English, 20 in the local language, each rated easy or practical.', 'A 2008 health guide is retired and a 2023 guide is added; the record lists the date and the reason.', 'You check licences for 20 items: 12 public domain, 6 open licence with credit, 2 need permission. Two are held back until permission arrives.', "Description: 'Seed saving for beginners. 2019. English. Easy. 24 pages. Keywords: seeds, garden.' All 50 items follow this template.", "Search 'tomato' returns nothing but 'tomatoes' does; adding both words and a tag for 'vegetables' fixes it. 8 of 10 test searches now succeed.", 'A text-only page loads in 2 seconds on a slow phone; images have alt text and the font is large with strong contrast.', 'Loans last 7 days; reminders go on day 5; records are removed 30 days after return. No list of what each person borrowed is kept.', '120 visits, 60 loans and 14 requests in four weeks lead to three requested topics being added.']
+_extra = ['Visit a small library and ask how they choose and remove items.', 'Write one sentence about who the library is for and one about who it is not for.', 'Keep a folder with permission emails and licence notes.', 'Check that every creator is credited the way the licence asks.', 'Use plain words in descriptions; avoid jargon.', 'Group items into no more than ten simple categories.', 'Test the catalogue with someone who has never used it.', 'Offer the library in more than one language if users need it.', 'Provide a way to ask for items that are missing.', 'Keep a small budget for scanning or copying with permission.', 'Protect any user accounts with strong sign-in.', 'Do not use any item you are unsure about.', 'Review use every month and note rising topics.', 'Archive items rather than deleting when allowed.', 'Write a short guide on how to use the library in three steps.', 'Share lessons with other community libraries.']
+C['deep']['mods'] = [(m[0], _ex[i], m[2]) for i, m in enumerate(C['deep']['mods'])]
+C['deep']['extra'] = [_extra[2*i:2*i+2] for i in range(8)]

@@ -22,3 +22,30 @@ C = dict(id='GL-16', title='Mobile Application Testing Services', group='Digital
  local='App stores, accessibility and consumer rules differ by place: record which version and region you tested.',
  evidence='Your evidence: test plan, 30 cases with results, 10 bug reports, five non-functional checks, summary and retest.',
  ladder=[('Basics of apps', 'Use an app and describe how it behaves. Notes: keep a notebook.'), ('Awareness', 'Know bugs and users. Notes: spot bugs in sample apps.'), ('Foundation', 'Run given test cases. Notes: follow a script.'), ('Practitioner', 'This course. Notes: plan, run and report.'), ('Specialist', 'Automation basics and performance. Notes: add free tools.'), ('Advanced', 'Lead a test team. Notes: strategy and metrics.'), ('Super expert', 'Set method and teach teachers. Notes: review defect trends yearly.')])
+
+C['deep'] = dict(mods=[
+ ('Testing everything equally.', 'Payment gets 15 cases, colour theme 2, because failure there harms users most.', 'What are your top three risks?'),
+ ('Testing without knowing the intended behaviour.', 'You ask the owner and learn that discounts apply after tax.', 'Where did you check the requirement?'),
+ ('Cases that combine several ideas.', 'Split "sign up and pay" into two cases so a failure points to one cause.', 'Is each case one idea?'),
+ ('Testing on one phone.', 'A button hidden on a small screen is found on device two.', 'Which devices did you use?'),
+ ('Vague bug titles.', '"Doesn\'t work" becomes "Cart total ignores discount code on small screen".', 'Can a peer reproduce your bug?'),
+ ('Ignoring weak networks.', 'The app hangs after 10 seconds without a message; raise it.', 'What did you test offline?'),
+ ('Ranking by how annoying it feels.', 'A typo is annoying; a double charge is harmful. Rank by harm.', 'What is your top bug by harm?'),
+ ('Not retesting.', 'The fix to payment breaks receipts; retest found it.', 'What did retest find?')],
+ gloss=[('Test case', 'A written check with steps and expected result.'), ('Bug', 'A fault in behaviour.'), ('Severity', 'How harmful a bug is.'), ('Regression', 'A new fault after a change.'), ('Emulator', 'A software copy of a device.'), ('Edge case', 'A limit or unusual input.')],
+ cases=[('The crash on rotate', 'The app crashes when rotating on one device.', 'How do you report it?', 'Give device, version, steps, expected, actual, frequency and a recording.'),
+        ('The tight release', 'Two high bugs remain with launch tomorrow.', 'What do you advise?', 'Delay or release with the feature off, based on harm and numbers.')])
+C['deep']['extra'] = [
+ ['Learn the app\'s purpose in one sentence before writing any case.', 'Check store listing claims against the real features.'],
+ ['Interview a user to learn how they actually use the app.', 'List permissions the app asks for and whether each is needed.'],
+ ['Add a precondition and a data set to each case.', 'Mark cases that must be re-run on every release.'],
+ ['Test interruptions: calls, alarms, low battery and switching apps.', 'Test at least one old system version still in use.'],
+ ['Attach the log file if the tool offers one.', 'Mark if the bug is new or came back.'],
+ ['Time sign-in and checkout on slow data.', 'Check text size and contrast at the largest setting.'],
+ ['Group bugs by screen to spot weak areas.', 'Keep a list of known issues the owner accepted.'],
+ ['Add new cases for every fixed bug.', 'Share a short lesson for the developers.']]
+
+_ex = ['A food app: ordering and payment get 15 test cases, the colour theme 2, because failure in payment harms users most.', 'The owner confirms discounts apply after tax. That rule becomes test case 12 with the expected total of 90.00.', "Split 'sign up and pay' into two cases so a failure points to one cause. Case 7: invalid card message appears; case 8: receipt arrives within a minute.", 'Case 7 fails on the small screen because a button is hidden under the keyboard; it passes on the large screen, which tells the developer where to look.', "'Cart total ignores discount code on small screen. Steps 1-5. Expected 90.00. Actual 100.00. Happens every time. Device B, version 2.3.' A peer reproduces it first time.", 'Start-up takes 4.2 seconds against a 3-second target, so it becomes a speed bug with a screenshot of the timer.', '12 bugs: 2 block payment (high), 5 layout (medium), 5 text (low). Recommendation: delay release until payment is fixed.', 'Retest shows payment fixed but a new bug in receipts, caught before release.']
+_extra = ['Install the app fresh on one device and note how long the first run takes.', 'Write the three most important user goals before writing cases.', 'Keep a list of devices and system versions tested.', 'Use a clean test account for each run.', 'Record the screen for every failure.', 'Note whether the fault occurs offline, on Wi-Fi or on mobile data.', 'Mark cases that need to be repeated every release.', 'Check the app in a different language if offered.', 'Test rotating the screen in the middle of a task.', 'Test what happens when the phone is low on storage.', 'Check the privacy text matches what the app really collects.', 'Report one positive finding in each summary.', 'Keep bug titles under ten words.', 'Agree severity levels with developers before testing.', 'Update your case list with every new bug.', 'Share a lessons list with the team.']
+C['deep']['mods'] = [(m[0], _ex[i], m[2]) for i, m in enumerate(C['deep']['mods'])]
+C['deep']['extra'] = [_extra[2*i:2*i+2] for i in range(8)]

@@ -22,3 +22,30 @@ C = dict(id='GL-17', title='Blockchain Health-Record Concepts', group='Digital a
  local='Health and privacy law differ strongly by place and often limit what can be shared: always consult the local health-data authority.',
  evidence='Your evidence: five-person access map, toy ledger, hash comparison, consent entries, two-layer diagram, use-case scores, risk table and one-page concept.',
  ladder=[('Basics of records', 'Explain why records matter. Notes: talk about a clinic visit.'), ('Awareness', 'Know hashes and ledgers. Notes: toy ledger demo.'), ('Foundation', 'This course. Notes: concept and risks.'), ('Practitioner', 'Support a pilot with fake data. Notes: test plans.'), ('Specialist', 'Design with standards. Notes: add health data standards.'), ('Advanced', 'Lead governance. Notes: ethics board and audits.'), ('Super expert', 'Set method and teach teachers. Notes: review laws yearly.')])
+
+C['deep'] = dict(mods=[
+ ('Thinking more sharing is always better.', 'A lab shares only what the doctor needs; extra sharing raises risk.', 'Who needs what in your map?'),
+ ('Believing a ledger prevents wrong data.', 'A wrong lab value recorded on a ledger stays wrong, only tamper-evident.', 'What fixes wrong data?'),
+ ('Hashing small guessable values.', 'A hash of a phone number can be guessed by trying all numbers; add a secret salt.', 'Which value would you not hash alone?'),
+ ('Putting names in consent entries.', 'Use a pseudonym and a scope code.', 'What does your entry avoid?'),
+ ('Putting records on the chain "so they are safe".', 'A record on a chain cannot be deleted when law requires it.', 'Where does your record live?'),
+ ('Choosing a ledger by fashion.', 'A single clinic with its own database scores low.', 'Which idea did you reject?'),
+ ('Ignoring people without phones.', 'A paper route and trusted clinic recovery included.', 'How can a person without a phone take part?'),
+ ('Overstating readiness.', 'The summary says "concept only, not for live use".', 'What limits does your summary state?')],
+ gloss=[('Ledger', 'A shared list of records.'), ('Hash', 'A fixed-length code made from data.'), ('Block', 'A group of entries.'), ('Consent', 'Permission to share.'), ('Pseudonym', 'A stand-in ID.'), ('Off-chain', 'Stored outside the shared ledger.')],
+ cases=[('The deletion request', 'A patient asks for deletion of a record whose hash is on a ledger.', 'What happens?', 'Delete the record from the clinic system; the hash alone reveals nothing; document it.'),
+        ('The insurer', 'An insurer wants access to all records.', 'Your response?', 'Only with specific, limited, time-bound consent, and the patient may refuse.')])
+C['deep']['extra'] = [
+ ['Learn the difference between a record, a copy and a proof.', 'Ask a health worker which delays hurt patients most.'],
+ ['Compare a spreadsheet log with a shared ledger for the same task.', 'Learn what "consensus" means: the parties agree on the next entry.'],
+ ['Try hashing the same text twice and compare codes.', 'Note that the hash of a secret still needs a secret to be safe.'],
+ ['List who may revoke consent and how fast it takes effect.', 'Design emergency access with logging.'],
+ ['Estimate the cost of one entry in time and money.', 'Check how long entries stay readable.'],
+ ['Add at least one idea where a ledger is clearly wrong.', 'Ask what happens if the ledger operator disappears.'],
+ ['Check local rules on storing health proofs.', 'Plan for people who cannot use phones.'],
+ ['Show the toy ledger to a clinician and write their comments.', 'List questions for a legal adviser.']]
+
+_ex = ['A lab shares only the one result a doctor needs; the extra history stays with the clinic. The map shows five parties and what each may see.', 'A wrongly entered lab value stays wrong on a ledger; only the change history is tamper-evident. The fix is a correction record signed by the clinic.', "Hashing 'blood test 2025' twice gives the same code; changing one letter gives a completely different code, so the code proves the file is unchanged.", 'A patient allows a clinic to see lab results for 30 days. The entry holds a pseudonym, a scope code and an expiry date, and no medical facts.', 'The record sits in the clinic system; the ledger keeps its hash and the consent. Deleting the record leaves a harmless code.', 'A single clinic with its own database scores low on the five questions; five hospitals sharing referral proofs score high.', 'A patient loses their key. A recovery route through a trusted clinic restores access after identity checks, and the event is logged.', "The one-page summary says: 'We store proofs and consents only; records stay in clinics; main risk is key loss; concept only.'"]
+_extra = ['Draw who creates, changes and reads a health record today.', 'List the harm if one record is shown to the wrong person.', 'Practise the toy ledger with five invented rows.', 'Check that no invented record looks like a real person.', 'Explain the idea to a friend in two minutes without jargon.', 'List what must remain in a clinic system by law.', 'Ask how long records must be kept in your place.', 'Note how consent can be withdrawn in an emergency.', 'Compare cost and speed of a ledger with a normal database.', 'List who runs the ledger and who can stop it.', 'Write what you will not claim about security.', 'List three alternatives to a ledger.', 'Show the design to a health worker for comments.', 'Keep a list of legal questions for an adviser.', 'Record the limits of your toy in the summary.', 'Plan how to test with only invented data.']
+C['deep']['mods'] = [(m[0], _ex[i], m[2]) for i, m in enumerate(C['deep']['mods'])]
+C['deep']['extra'] = [_extra[2*i:2*i+2] for i in range(8)]

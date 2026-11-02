@@ -22,3 +22,25 @@ C = dict(id='GL-28', title='Business Coaching Practice', group='Business and Com
  local='Coaching is unregulated in many places but advice rules apply: do not give regulated advice.',
  evidence='Your evidence: coaching description, signed agreements, question bank, session notes (private), goals, tool outputs and feedback.',
  ladder=[('Basics of listening', 'Listen well. Notes: pair exercises.'), ('Awareness', 'Know coaching. Notes: watch a demo.'), ('Foundation', 'Practise with peers. Notes: structure.'), ('Practitioner', 'This course. Notes: four sessions each.'), ('Specialist', 'Niche coaching. Notes: family firms.'), ('Advanced', 'Supervise coaches. Notes: reflective practice.'), ('Super expert', 'Set method and teach teachers. Notes: ethics review.')])
+
+C['deep'] = dict(mods=[
+ ('Giving advice and calling it coaching.', 'Instead of "hire a manager", ask "what would a manager change for you?"', 'Where did you catch yourself advising?'),
+ ('Vague agreements.', 'Agreement lists six sessions, 60 minutes, confidential notes, and a closing review.', 'What does your agreement promise?'),
+ ('Interrupting.', 'Count to three after the client stops talking.', 'How long was your longest silence?'),
+ ('Closed questions.', 'Replace "Is it hard?" with "What is hard about it?"', 'Which questions were open?'),
+ ('No time boxes.', 'Ten minutes on the goal prevents a rambling session.', 'How long did each part take?'),
+ ('Goals without dates.', 'By Friday, call ten past customers.', 'What is the date?'),
+ ('Too many tools.', 'Use one tool per session.', 'Which tool helped most?'),
+ ('Ignoring feedback.', 'Client wants fewer questions at once; adapt.', 'What will you change?')],
+ gloss=[('Coaching', 'Helping people find their own answers.'), ('Agreement', 'Written terms.'), ('Confidentiality', 'Keeping what is said private.'), ('SMART goal', 'Specific, measurable, agreed, realistic, timed.'), ('Referral', 'Sending a client to the right specialist.'), ('Reflection', 'Looking back to learn.')],
+ cases=[('The advice trap', 'A client begs you to tell them what to do.', 'How respond?', 'Offer to explore options, ask what they would do if they were sure, and confirm their decision.'),
+        ('The sensitive disclosure', 'A client reveals severe stress and health problems.', 'What now?', 'Listen, say this is beyond coaching, and refer to a qualified professional.')])
+C['deep']['extra'] = [
+ ['Practise describing coaching to a friend.', 'Note your own values and limits.'],
+ ['Explain how you store notes.', 'Allow the client to end at any time.'],
+ ['Put your phone away.', 'Notice body language.'],
+ ['Prepare a question bank.', 'Practise silence.'],
+ ['Write a session plan card.', 'Review time use.'],
+ ['Use a 1 to 10 scale for progress.', 'Revisit goals every session.'],
+ ['Draw simple diagrams.', 'Let the client choose the tool.'],
+ ['Keep a log of learning.', 'Seek supervision from a mentor.']]

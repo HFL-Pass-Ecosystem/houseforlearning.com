@@ -22,3 +22,30 @@ C = dict(id='GL-22', title='Marketplace Fulfilment Selling', group='Business and
  local='Marketplace availability, taxes and import rules differ by place: check customs, tax and product labelling.',
  evidence='Your evidence: fee summary, product scores, ten listings, profit calculator, 20-order log, returns log and metrics report.',
  ladder=[('Basics of selling', 'Explain a sale. Notes: sell one item to a friend.'), ('Awareness', 'Know marketplaces. Notes: browse and compare.'), ('Foundation', 'List a product. Notes: one listing.'), ('Practitioner', 'This course. Notes: ten listings, 20 orders.'), ('Specialist', 'Multi-marketplace and stock. Notes: sync stock.'), ('Advanced', 'Lead a seller team. Notes: SOPs.'), ('Super expert', 'Set method and teach teachers. Notes: review policy changes.')])
+
+C['deep'] = dict(mods=[
+ ('Not reading the marketplace rules.', 'A banned item gets the account suspended.', 'Which rule matters most to you?'),
+ ('Choosing products by price alone.', 'A cheap breakable item costs more in returns.', 'What did you reject and why?'),
+ ('Copying another seller\'s text.', 'Write your own details and photos.', 'Are your photos your own?'),
+ ('Pricing before fees.', 'A 20.00 sale leaves 4.50 after all costs.', 'What is your minimum price?'),
+ ('Unlabelled shelves.', 'Mis-picks fall from 4% to 1%.', 'Is every shelf labelled?'),
+ ('Promising fast delivery you cannot keep.', 'Promise 2 days if you ship in 1.', 'What is your promise?'),
+ ('Ignoring return reasons.', 'Size complaints fixed with a size photo.', 'What is the top reason?'),
+ ('Scaling listings before service.', 'Fix late shipping before adding items.', 'Which metric is weakest?')],
+ gloss=[('Listing', 'The product page.'), ('Fulfilment', 'Picking, packing and shipping.'), ('SKU', 'A unique stock code.'), ('Seller rating', 'Buyers\' score of you.'), ('Handling time', 'Time to ship.'), ('Referral fee', 'Marketplace commission.')],
+ cases=[('Late parcel', 'A buyer says the parcel is late.', 'First steps?', 'Check tracking, apologise, update, offer remedy if lost, and log the cause.'),
+        ('Fee change', 'The marketplace raises fees by 2 points.', 'What do you do?', 'Recalculate profit, adjust price or stop low-margin items.')])
+C['deep']['extra'] = [
+ ['Compare two marketplaces on fees, reach and rules.', 'Keep a copy of your seller terms.'],
+ ['Check import and safety rules for each product.', 'Test sample products yourself.'],
+ ['Use the same size and angle in photos.', 'List the in-box contents.'],
+ ['Include packing materials in cost.', 'Review prices monthly.'],
+ ['Pack a test parcel and drop it.', 'Keep a list of pick errors and causes.'],
+ ['Use tracked services for valuable items.', 'Tell the buyer when the parcel ships.'],
+ ['Reply to reviews within a day.', 'Offer a clear exchange route.'],
+ ['Keep a weekly dashboard.', 'Grow listings only when service targets hold.']]
+
+_ex = ['A listing fee of 1.00 plus 12% on a 20.00 sale takes 3.40 away before shipping.', 'Top ten products scored on demand, margin, size, returns and rules; a 1 kg breakable item is dropped because returns cost too much.', "Title: 'Cotton tote bag, 40x35 cm, natural, strong handles'. Five photos: front, back, scale next to a coin, inside, in use.", 'Price 20.00; product 8.00; fee 3.40; shipping 3.50; packing 0.60; payment 0.60: profit 4.50.', 'Mis-picks fall from 4 in 100 to 1 in 100 after labelling shelves.', 'Handling promise 1 day. 19 of 20 shipped on time: 95%; the one late parcel waited for a courier.', "Three returns say 'smaller than expected'. Adding a size photo with a coin cuts returns from 6% to 2%.", 'Late 5%, cancel 1%, rating 4.7, returns 6%: fix late shipping first.']
+_extra = ['Read the seller rules once a month.', 'Photograph products on a plain background.', 'Check batteries or liquids for shipping rules.', 'Keep sample items for tests.', 'List what to say when a parcel is lost.', 'Plan for returns in your price.', 'Keep spare packaging in stock.', 'Use a scale for every parcel.', 'Record courier cut-off times.', 'Set a rule for answering messages within a day.', 'Review fees after each change.', 'Track top five sellers.', 'Remove products with repeated returns.', 'Compare two marketplaces on fees and reach.', 'Back up your product list.', 'Plan your next ten products with data.']
+C['deep']['mods'] = [(m[0], _ex[i], m[2]) for i, m in enumerate(C['deep']['mods'])]
+C['deep']['extra'] = [_extra[2*i:2*i+2] for i in range(8)]

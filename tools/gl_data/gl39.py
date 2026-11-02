@@ -22,3 +22,30 @@ C = dict(id='GL-39', title='Virtual Interior Design Consulting', group='Business
  local='Building, safety and tenancy rules differ by place; never advise changes that need approval without telling the client.',
  evidence='Your evidence: scope, brief, measurement check, two layouts, mood board, shopping list, feedback round and handover.',
  ladder=[('Basics of rooms', 'Measure a room. Notes: tape and sketch.'), ('Awareness', 'Know layout and colour. Notes: examples.'), ('Foundation', 'Plan one room. Notes: peer client.'), ('Practitioner', 'This course. Notes: remote package.'), ('Specialist', 'Whole home. Notes: phases.'), ('Advanced', 'Lead a design team. Notes: contracts.'), ('Super expert', 'Set method and teach teachers. Notes: safety review.')])
+
+C['deep'] = dict(mods=[
+ ('Starting with products.', 'Start with how the room is used.', 'How is it used?'),
+ ('Skipping the brief call.', 'A brief reveals a guest need.', 'What did you learn?'),
+ ('Trusting one measurement.', 'Diagonals confirm the room.', 'Do yours match?'),
+ ('Crowded layouts.', 'Keep 0.9 m paths.', 'What are your paths?'),
+ ('Colour without reasons.', '60-30-10 rule with reasons.', 'What is your palette?'),
+ ('Overspending.', 'Hold 10% contingency.', 'What is your total?'),
+ ('One option only.', 'Present two layouts.', 'What did the client choose?'),
+ ('No handover.', 'Order of work in a checklist.', 'What is the order?')],
+ gloss=[('Mood board', 'A collage of style and colour.'), ('Space plan', 'Layout of furniture.'), ('Circulation', 'Paths through a room.'), ('Palette', 'Chosen colours.'), ('Contingency', 'Reserve budget.'), ('Brief', 'The client\'s needs and limits.')],
+ cases=[('The small room', 'A 3 x 3 m room must be an office and guest room.', 'Solution?', 'Use a wall bed or sofa bed, wall desk, vertical storage, keep a path.'),
+        ('The over-budget list', 'The list exceeds budget by 20%.', 'Fix?', 'Swap items, use second-hand, phase purchases.')])
+C['deep']['extra'] = [
+ ['Agree communication tools.', 'Set response times.'],
+ ['Ask about pets and children.', 'Note accessibility.'],
+ ['Take photos in daylight.', 'Mark power points.'],
+ ['Label zones.', 'Check door swings.'],
+ ['Collect fabric samples.', 'Think about light layers.'],
+ ['Add delivery times.', 'Check returns.'],
+ ['Limit rounds of revision.', 'Get written approval.'],
+ ['Ask for feedback.', 'Plan your portfolio.']]
+
+_ex = ['Client: home office that also works for guests. Needs: desk, sofa bed, storage; budget 1,500; style words: calm, warm, light.', 'Room 4.0 by 3.2 m: the diagonal should be 5.12 m; the client measures 5.10, so the plan is trusted within 2 cm.', 'Layout A puts the desk under the window and the sofa bed on the long wall with a 1.0 m path; layout B swaps them. The client picks A for light.', 'Palette: 60% soft neutral walls, 30% sofa and rug in warm grey, 10% accent cushions in terracotta, each with a reason.', "Budget 1,500: furniture 900, lighting 250, textiles 200, contingency 150; total within 3% of the client's limit.", 'The client prefers a smaller sofa; layout and list are updated and cost drops by 120.', 'The deck has four slides: brief, plan, mood board, list. The client decides in one call.', 'The handover checklist: paint, floor, furniture, lights, textiles, with safety notes for electrics.']
+_extra = ['Ask the client to send photos from each corner in daylight.', 'Agree what the client will do and what you will do, in writing.', 'Mark sockets, radiators and windows on the plan.', 'Check door swings and clearances for every piece.', 'Collect samples of fabrics and finishes before final choice.', 'Consider noise, light and storage as well as looks.', 'Plan for people with different needs, including mobility.', 'Offer lower-cost options for each major item.', 'Keep a list of suppliers with delivery times.', 'Warn the client about any item that needs a professional.', 'Ask for feedback after the first presentation.', 'Set a limit on rounds of change, with a fair price after.', 'Ask for permission to use photos for your portfolio.', "Keep the client's address and photos private.", 'Write a short summary for the client to keep.', 'Write what you will change in your next project.']
+C['deep']['mods'] = [(m[0], _ex[i], m[2]) for i, m in enumerate(C['deep']['mods'])]
+C['deep']['extra'] = [_extra[2*i:2*i+2] for i in range(8)]

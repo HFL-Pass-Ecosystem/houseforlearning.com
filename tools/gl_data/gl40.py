@@ -22,3 +22,30 @@ C = dict(id='GL-40', title='Online Car Dealership Operations', group='Business a
  local='Trader licences, vehicle registration, warranty and consumer-return rules differ by place; check them first.',
  evidence='Your evidence: sales map, two inspection checklists, three listings, price sheet, enquiry log, test-drive procedure and paperwork checklist.',
  ladder=[('Basics of cars', 'Know the parts. Notes: walk-round.'), ('Awareness', 'Know seller duties. Notes: case studies.'), ('Foundation', 'List one car. Notes: honest.'), ('Practitioner', 'This course. Notes: five vehicles.'), ('Specialist', 'Finance and trade-ins. Notes: rules.'), ('Advanced', 'Lead a showroom. Notes: compliance.'), ('Super expert', 'Set method and teach teachers. Notes: ethics review.')])
+
+C['deep'] = dict(mods=[
+ ('Thinking online sales are different law.', 'Same duties plus distance-selling rules.', 'Which rules apply?'),
+ ('Skipping ownership checks.', 'Car still under finance; stop listing.', 'What did you verify?'),
+ ('Hiding faults.', 'Photograph the scratch and say so.', 'Which faults did you show?'),
+ ('Pricing from memory.', 'Compare five similar cars.', 'What range?'),
+ ('Slow replies.', 'Reply in two hours.', 'What is your target?'),
+ ('Unsafe test drives.', 'Check licence, insurance and route.', 'What is your procedure?'),
+ ('Cash handling.', 'Use bank transfer.', 'What payments do you accept?'),
+ ('No after-sales.', 'Call after a week.', 'What do you do?')],
+ gloss=[('Mileage', 'Distance driven.'), ('Service history', 'Record of maintenance.'), ('Finance check', 'Check for outstanding loans.'), ('Test drive', 'A trial drive by a buyer.'), ('Warranty', 'A promise to repair faults.'), ('Handover', 'Transfer of keys and papers.')],
+ cases=[('The clocked car', 'Records suggest mileage was reduced.', 'Response?', 'Stop sale, investigate, report as required.'),
+        ('The late payment', 'A buyer wants to pay later in cash.', 'What do you do?', 'Insist on traceable payment before handover.')])
+C['deep']['extra'] = [
+ ['Learn the vehicle registration steps.', 'Know local trader rules.'],
+ ['Check the vehicle identification number.', 'Look for signs of repair.'],
+ ['Take photos in daylight.', 'Describe the tyres.'],
+ ['Account for reconditioning.', 'Review price weekly.'],
+ ['Keep a template reply.', 'Offer video calls.'],
+ ['Record the odometer before and after.', 'Limit distance.'],
+ ['Issue a written receipt.', 'Send insurance guidance.'],
+ ['Gather reviews.', 'Fix faults fast.']]
+
+_ex = ['The sales map has seven steps: listing, enquiry, viewing, test drive, paperwork, payment, handover, with the seller duty named at each step.', 'The inspection finds a service record showing 78,000 km two years ago while the dash reads 62,000. The car is not listed until the history is checked.', "Listing: 'Hatchback, 2018, 62,000 km, one scratch on rear bumper (photo 14), full service history, two keys', with 24 photos.", 'Cost 7,200 plus preparation 400; five similar cars list at 8,300 to 8,900; price 8,500 leaves 900 margin.', "Enquiry reply in under 2 hours: 'Here are underbody photos and the mechanic's note. Would a video call suit you?'", 'Test drive: licence and insurance checked, route avoids busy roads, accompanied, condition recorded before and after.', 'Payment by bank transfer confirmed before keys are released; receipt and ownership transfer are given the same day.', 'A week later the buyer calls about a brake light; it is fixed free and the buyer leaves a good review.']
+_extra = ['Learn the local steps to transfer ownership and register a change of keeper.', 'Keep copies of all documents for the legal period.', 'Add a short line on the warranty you offer, in plain words.', 'Check recalls and open safety notices for the model.', 'Invite the buyer to bring their own inspector if they wish.', 'Never promise features you cannot prove.', "Avoid pressure phrases such as 'only today'.", "Describe tyre tread in millimetres, not in words like 'good'.", 'Keep keys, manuals and spare wheels listed in the sale.', 'Insure test drives with a clear policy.', 'Keep a log of enquiries and outcomes.', 'Reply to complaints within two working days.', 'Offer to take back a car if a hidden major fault is found, per the law.', 'Check that your adverts do not mislead on finance costs.', 'Review monthly the cars that take longest to sell.', 'Share lessons with your trade peers.']
+C['deep']['mods'] = [(m[0], _ex[i], m[2]) for i, m in enumerate(C['deep']['mods'])]
+C['deep']['extra'] = [_extra[2*i:2*i+2] for i in range(8)]

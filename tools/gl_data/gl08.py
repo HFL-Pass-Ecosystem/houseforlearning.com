@@ -35,3 +35,12 @@ C['deep'] = dict(mods=[
  gloss=[('Failsafe', 'What the drone does if the signal or battery is lost.'), ('Overlap', 'How much one picture repeats the next so a map can be built.'), ('Line of sight', 'Keeping the drone in view of the pilot.'), ('Ground reference point', 'A marked spot with a known position used to check accuracy.'), ('Reserve', 'Battery kept unused for safety.'), ('Spotter', 'A helper who watches the drone and the area.')],
  cases=[('The crowd', 'A client asks for a sunset shot over a street fair.', 'What is your answer?', 'Decline over the crowd. Offer a shot from a permitted position that keeps people away, after checking rules and getting permission.'),
         ('The wind', 'Forecast gusts rise from 6 to 11 m/s during your slot. Stop limit is 10 m/s.', 'What do you do?', 'Postpone or fly earlier within the limit; log the decision and the forecast.')])
+C['deep']['extra'] = [
+ ['Learn the sound and feel of each motor; unusual vibration is the earliest warning of a fault.', 'Keep spare propellers and a screwdriver in the kit.'],
+ ['Write the emergency contact and the nearest landing site on the checklist.', 'Check whether schools, hospitals or prisons nearby have their own no-fly rules.'],
+ ['Re-score the risks when weather changes; a plan is not fixed for the day.', 'Brief every helper in two minutes: what to watch, who can say stop.'],
+ ['Practise a manual landing from 10 m with the failsafe off, in a simulator or empty field.', 'Never fly with a puffed or damaged battery; store them in a fire-safe bag.'],
+ ['Fly slower for sharper images; blur is a common cause of failed maps.', 'Plan the mission so the sun is behind you where possible, to reduce glare.'],
+ ['Keep a copy of raw pictures separate from processed maps.', 'Mark any area with gaps so the client knows what is missing.'],
+ ['Use the same scale bar and north arrow on every map in the report.', 'Add a one-line cost per hectare so the client can compare with other methods.'],
+ ['Share a near-miss report even if nothing went wrong; patterns show up early.', 'Set a flight-hours target for the next 90 days and log each hour.']]
