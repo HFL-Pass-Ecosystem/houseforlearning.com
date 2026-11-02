@@ -18,7 +18,7 @@ Method and recording only. No legal, medical or security advice. Invented cases.
 **Checks:** 1 Why a rollback plan? *To recover if it fails.* 2 Who approves? *The change owner per policy.* 3 What is tested? *That the service works and nothing else broke.* 4 Record the result? *Yes, with time.*
 
 ## LEG-001 Draft a clear client letter
-**Worked example:** "Dear Ms K, You asked what happens next. In short: we will file the form by 10 Nov and you will need to sign by 8 Nov. If anything changes we will tell you the same day. Please call if you have questions." Under one page, next step and date included.
+**Worked example:** "Dear client, You asked what happens next. In short: we will file the form by 10 Nov and you will need to sign by 8 Nov. If anything changes we will tell you the same day. Please call if you have questions." Under one page, next step and date included.
 **Case card:** explain a filing step.
 **Checks:** 1 Replace "heretofore". *"until now" or remove.* 2 What must a letter include? *Next step and date.* 3 Check readability how? *A simple readability test and a colleague read.* 4 Advice limits? *Say what you cannot advise on.*
 
@@ -38,7 +38,7 @@ Method and recording only. No legal, medical or security advice. Invented cases.
 **Checks:** 1 Why a control? *To compare against no treatment.* 2 Why repeats? *To see the spread.* 3 What must the method state? *Materials, steps, measures, units.* 4 Change one thing at a time? *Yes.*
 
 ## SCI-002 Analyse results with error bars
-**Worked example:** group A heights 10, 12, 11; mean 11; spread (standard deviation, sample) = 1. Group B: 14, 15, 13; mean 14; spread 1. Plot means with error bars of one SD; difference of 3 is large compared with the spread, so likely real; a formal test confirms.
+**Worked example:** group A heights 10, 12, 11; mean 11; spread (standard deviation, sample) = 1. Group B: 14, 15, 13; mean 14; spread 1. Plot means with error bars of one SD; difference of 3 is large compared with the spread, so it looks real, but a formal test would be needed to confirm it.
 **Case card:** two small datasets.
 **Checks:** 1 Mean of 4, 6, 8? *6.* 2 What do error bars show? *Spread or uncertainty.* 3 Label axes how? *Name and unit.* 4 Does a gap prove a cause? *No; design and test matter.*
 
