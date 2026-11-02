@@ -39,4 +39,4 @@ for f in sorted(glob.glob(f'{root}/data/school-deep/*.json')):
         if not isl and 'Covered in unit' not in h: gaps['no unit tags'].append(s); break
 print({k: len(v) for k, v in gaps.items()} or 'no gaps')
 for k, v in gaps.items(): print(k, v[:6])
-json.dump(gaps, open(os.environ.get('OUT', '/tmp/claude-0/spec-gaps.json'), 'w'))
+json.dump(gaps, open(os.environ.get('OUT', os.path.join(__import__('tempfile').gettempdir(), 'spec-gaps.json')), 'w'))
