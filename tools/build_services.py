@@ -44,14 +44,7 @@ def swap(t, fn, title, desc, crumbs, main):
 
 def enquiry(slug, name):
     return (f'<section class="svc-form" id="enquiry" aria-labelledby="enq-h"><div class="svc-in"><p class="svc-kick">enquire</p><h2 id="enq-h">Ask about {e(name)}</h2>'
-      f'<form class="contact svc-enq" action="#" method="post" data-offline data-subject="Service enquiry" data-thanks="Your email app has opened with your enquiry. Please press Send there." aria-labelledby="enq-h">'
-      f'<div class="vh" aria-hidden="true"><label for="e-website">Leave this empty</label><input id="e-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>'
-      f'<div class="field"><label for="e-service">Service</label><input type="text" id="e-service" name="topic" value="{e(name)}" readonly></div>'
-      f'<div class="field-row"><div class="field"><label for="e-name">Full name</label><input type="text" id="e-name" name="name" autocomplete="name" required></div><div class="field"><label for="e-email">Email</label><input type="email" id="e-email" name="email" autocomplete="email" required></div></div>'
-      f'<div class="field-row"><div class="field"><label for="e-org">Organisation <span class="opt">(optional)</span></label><input type="text" id="e-org" name="organisation" autocomplete="organization"></div><div class="field"><label for="e-country">Country <span class="opt">(optional)</span></label><input type="text" id="e-country" name="country" autocomplete="country-name"></div></div>'
-      f'<div class="field"><label for="e-details">What would you like to ask?</label><textarea id="e-details" name="details" required></textarea></div>'
-      f'<label class="check"><input type="checkbox" name="consent" required><span>I agree that <span translate="no">House for Learning</span> may contact me about this enquiry. I have read the <a href="privacy.html">Privacy notice</a>.</span></label>'
-      f'<div><button class="btn" type="submit">Send enquiry</button></div><p class="form-status" role="status" tabindex="-1" hidden></p></form></div></section>')
+      '<p>Use our contact form and tell us what you would like to ask. We reply by email.</p><p><a class="btn" href="contact.html#message-form">Open the contact form</a></p></div></section>')
 
 def others(cur):
     return '<ul class="svc-others">' + ''.join(f'<li><a href="service-{s}.html"{" aria-current=\"page\"" if s == cur else ""}>{e(n)}</a></li>' for s, n, *_ in SERV) + '</ul>'

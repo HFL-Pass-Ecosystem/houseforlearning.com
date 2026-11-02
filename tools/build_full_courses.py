@@ -33,7 +33,6 @@ LOC = [
  dict(k='mx', name='Mexico', cur='MXN', lang='Spanish, English', reg='tax registration (RFC) and company or sole-trader registration', data='the federal law on personal data held by private parties', frame='the national competency certification system and the education ministry levels', tax='IVA (VAT) and income tax', food='the federal health-risk authority', partner='a technical college or business chamber', note='Delivered with channel partners.'),
 ]
 for _L in LOC: _L.setdefault('cons','local consumer-protection law')
-RUSSIA = 'Russian Federation: HELD. A sanctions and licensing check by our lawyer must finish before any course is offered there. No localised version is published.'
 GLOBAL = dict(cur='USD (or your own currency, written next to every number)', note='The global version uses plain English, metric units, and your own currency. Machine translation is available in every language; the English text is the official text. Before you act for real, check your local rules with an adviser.')
 
 # ---------- levels (L1 basic ... L7 super expert) ----------
@@ -174,7 +173,7 @@ def course_page(c):
     practice = sec('', 'px', 'practice material and assessment', 'Worked examples, case, check and local law pointers', ex + (f'<h3 class="ws-h3">Rules for this course</h3>{rules}' if rules else ''))
     locs = sec('alt', 'lc', 'ten locations and global', 'Your place: localised for each region',
         f'<p>Open your location. The global version is the default: {e(GLOBAL["note"])}</p>'
-        + ''.join(loc_box(c, l) for l in LOC) + f'<details class="loc"><summary>Russian Federation</summary><p>{e(RUSSIA)}</p></details>')
+        + ''.join(loc_box(c, l) for l in LOC))
     ladder = sec('', 'ld', 'where next', 'Ladder: Foundation, Practitioner, Expert',
         f'<ol class="ws-chips"><li>Foundation: short units in {e(c["grp"])}</li><li>Practitioner: this course ({LNAME[lvl]})</li><li>Expert: advanced practice and research (L{min(lvl+2,7)})</li></ol>'
         + '<p>Credits stack. You can step in and out. Aligned with the national policy approach to credits and multiple entry and exit points; not an accredited qualification.</p>'

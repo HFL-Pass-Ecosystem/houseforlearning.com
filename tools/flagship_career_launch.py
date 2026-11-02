@@ -136,8 +136,7 @@ def build():
             + ladder_sec(LADDER['career'], 'alt')
             + B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', '<ul>' + ''.join(f'<li>{e(j)}</li>' for j in JOBS) + '</ul>')
             + B.sec('alt', 'lc', 'ten locations and global', 'Your place', '<p>Local custom changes CV content, salary talk and notice periods. Check them for your place.</p>'
-                    + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Currency: {L["cur"]}. Data rule for what you publish: {e(L["data"])}. Skills frame to cite: {e(L["frame"])}.</p></details>' for L in B.LOC)
-                    + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
+                    + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Currency: {L["cur"]}. Data rule for what you publish: {e(L["data"])}. Skills frame to cite: {e(L["frame"])}.</p></details>' for L in B.LOC))
             + B.sec('', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship. Own wording from the programme outline; no third-party text. Not live.</p>'))
     B.page('learn-flagship-career-launch.html', 'Career Launch (flagship course)', 'A nine-module job search method from plan to offer.', 'Career Launch', e('Nine modules take you from a plan to an accepted offer, with stories, conversations, interviews and negotiation.'), body, B.crumb(('Courses', 'courses-hub.html'), ('Career launch', None)), kicker='flagship course')
 build()

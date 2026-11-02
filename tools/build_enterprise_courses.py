@@ -49,8 +49,7 @@ def build(c):
         + B.sec('alt', 'lad', 'levels L1 to L7', 'The ladder, slide by slide', '<p>Seven slides, one per level. Open each for the slide text and the speaker notes.</p>' + ladder)
         + B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', jobs + '<p>Next courses: data skills, process improvement, a sector course for your target employer.</p>')
         + B.sec('', 'lc', 'ten locations and global', 'Your place', '<p>Local law changes how you store customer data and issue invoices. Check it for your place first.</p>'
-                + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Use {L["cur"]} for amounts. Personal data rule: {e(L["data"])}. Skills frame to cite: {e(L["frame"])}.</p></details>' for L in B.LOC)
-                + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
+                + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Use {L["cur"]} for amounts. Personal data rule: {e(L["data"])}. Skills frame to cite: {e(L["frame"])}.</p></details>' for L in B.LOC))
         + B.sec('alt', 'nx', 'next', 'Draft', '<p class="ws-note">Draft course. Written in our own words from the owner\'s training outlines; no third-party text is used. Not live.</p><p><a class="btn" href="b2b.html">More courses</a> <a class="btn btn-ghost" href="join.html">Join</a></p>'))
     fn = f'learn-{c["slug"]}.html'
     B.page(fn, c['title'], c['short'], c['title'], e(c['short']), body, B.crumb(('Courses', 'courses-hub.html'), ('Enterprise software', None)), kicker='enterprise software course')
