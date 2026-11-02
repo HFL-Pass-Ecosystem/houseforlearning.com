@@ -47,7 +47,7 @@ S_6 = [
 ('e-commerce-inventory-management', 'E-Commerce Inventory Management', [
 ('Start with one shop type and one stock list. Count what you hold today and set one reorder rule.', 'Stock count of 60 items across 2 shelves; reorder when an item falls to 5 units.'),
 ('Compare three models: own stock, supplier ships direct, and a partner warehouse. Judge by cash tied up and delivery days.', 'Own stock {c} 5000 tied up, direct ship {c} 0 with 7 days, warehouse {c} 1 per item with 2 days: compare.'),
-('Check the rules for stock records, tax on stock, product safety and returns before you scale.', 'Rules table: stock record rule, tax on stock, labels, returns; each has a date checked.'),
+('Check the rules for stock records, any tax on stock, product safety and returns before you scale.', 'Rules table: stock record rule, any tax on stock, labels, returns; each has a date checked.'),
 ('Keep one clean stock sheet: item code, count, location, last count date. Count weekly and fix gaps.', 'Sheet of 60 items; the weekly count finds 2 gaps; fix both and note why.'),
 ('Prove the method with before and after: stock-outs and dead stock over 8 weeks.', 'Stock-outs fell from 9 to 2 per month; dead stock fell from 18% to 9%.'),
 ('Calculate the reorder point: daily sales times lead time, plus a safety buffer.', 'Sales 6 per day, lead time 5 days: 30, plus buffer 10 = reorder at 40 units.'),
@@ -56,7 +56,7 @@ S_6 = [
 ('online-car-dealership', 'Online Car Dealership', [
 ('Sell one car type to one buyer group first, for example used city cars under a set price. Narrow the stock.', 'Start with 10 used city cars, 5 to 8 years old, for first-time buyers.'),
 ('Compare three models: own stock, listing for private sellers, and a partner dealer network. Judge by cash and margin.', 'Own stock {c} 8000 per car, listing fee {c} 150, partner share {c} 400: compare by cash tied up.'),
-('Check the dealer licence, vehicle title transfer, tax, warranty and consumer rules before the first sale.', 'Rules table: dealer licence, title transfer, sales tax, warranty text, returns rule; each has a date checked.'),
+('Check the dealer licence, vehicle title transfer, tax, warranty and consumer rules before the first sale.', 'Rules table: dealer licence, title transfer, any sales tax, warranty text, returns rule; each has a date checked.'),
 ('Verify each car: history report, mileage check, ID of the seller and a signed condition sheet.', 'File per car: history report, 12-point check, 20 photos, owner ID seen and recorded.'),
 ('Build trust with full photos, a clear condition report and a short return window.', 'Listing shows 20 photos, a 12-point report and a 7-day return rule; 60 views lead to 3 test drives.'),
 ('Calculate the margin per car: buy price, repair, listing and delivery costs, and sale price.', 'Buy {c} 8000, repair {c} 400, delivery {c} 150, listing {c} 100: cost {c} 8650. Sell {c} 9500: margin {c} 850.'),

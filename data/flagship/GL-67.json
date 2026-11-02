@@ -73,7 +73,7 @@
     "Foundations and services as usual.",
     "Permits and inspections before, during and after printing."
    ],
-   "Steel bars are placed in wall cavities before they are filled, and an engineer signs the design. Vertical rebar is added every 600 mm for an earthquake zone.",
+   "Steel bars are placed in wall cavities before they are filled, and an engineer signs the design. Vertical rebar is added at the spacing the engineer specifies for an earthquake zone.",
    "List code checks and loads for a small building in your place.",
    "Sources are listed and loads are named."
   ],
@@ -83,8 +83,8 @@
    4,
    "Count the bead and the hours.",
    [
-    "Wall length x height / layer height = layers.",
-    "Volume x density = material mass; add 10 per cent for waste.",
+    "Wall height / layer height = layers; layers x wall length = bead length to print.",
+    "Volume x density = material mass; add an allowance for waste, for example 10 per cent.",
     "Print speed gives hours; add set-up and clean-up time.",
     "Include transport of the machine and mix."
    ],
@@ -265,11 +265,11 @@
   [
    "Design, engineering and building codes",
    "L3: learner can read codes. Focus module: Design, engineering and building codes (Apply, 4 h). Printed buildings follow the same safety rules as other buildings. Key points: Structural design by a qualified engineer, including reinforcement, openings and loads such as wind and earthquake. Fire, energy, accessibility and ventilation codes. Foundations and services as usual. Permits and inspections before, during and after printing.",
-   "Teach: open with the worked example. Steel bars are placed in wall cavities before they are filled, and an engineer signs the design. Vertical rebar is added every 600 mm for an earthquake zone. Then set the activity: List code checks and loads for a small building in your place. Mark against the standard: Sources are listed and loads are named. Check at this level: Who designs structure? Model answer: An engineer."
+   "Teach: open with the worked example. Steel bars are placed in wall cavities before they are filled, and an engineer signs the design. Vertical rebar is added at the spacing the engineer specifies for an earthquake zone. Then set the activity: List code checks and loads for a small building in your place. Mark against the standard: Sources are listed and loads are named. Check at this level: Who designs structure? Model answer: An engineer."
   ],
   [
    "Quantities, time and cost drivers",
-   "L4: learner can count. Focus module: Quantities, time and cost drivers (Analyse, 4 h). Count the bead and the hours. Key points: Wall length x height / layer height = layers. Volume x density = material mass; add 10 per cent for waste. Print speed gives hours; add set-up and clean-up time. Include transport of the machine and mix.",
+   "L4: learner can count. Focus module: Quantities, time and cost drivers (Analyse, 4 h). Count the bead and the hours. Key points: Wall height / layer height = layers; layers x wall length = bead length to print. Volume x density = material mass; add an allowance for waste, for example 10 per cent. Print speed gives hours; add set-up and clean-up time. Include transport of the machine and mix.",
    "Teach: open with the worked example. 60 m of wall at 3 m high with 20 mm layers needs 150 layers; at 4 minutes a layer that is 10 hours plus 1 hour set-up. Then set the activity: Calculate quantities and time for a small room. Mark against the standard: Maths is correct with waste and set-up included. Check at this level: Layers formula? Model answer: Height / layer height."
   ],
   [
