@@ -14,7 +14,13 @@ LV = {1: 'L1 Basic', 2: 'L2 Awareness', 3: 'L3 Foundation', 4: 'L4 Practitioner'
 def build(c):
     assert len(c['mods']) == 8 and len(c['quiz']) == 10 and len(c['rubric']) == 5 and len(c['ladder']) == 7 and len(c['outcomes']) == 5, c['id']
     mods = ''
+    D = c.get('deep') or {}
     for i, (t, intro, pts, ex, act, std) in enumerate(c['mods'], 1):
+        dx = ''
+        if D:
+            mi, e2, sc = D['mods'][i-1]
+            dx = (f'<p><strong>Common mistake.</strong> {e(mi)}</p><div class="evi"><strong>Second worked example.</strong> {e(e2)}</div>'
+                  f'<p><strong>Check yourself.</strong> {e(sc)}</p>')
         mods += (f'<details class="mod" {"open" if i == 1 else ""}><summary><span class="mn">Module {i}</span> {e(t)} <span class="pill">{HRS[i-1]} h</span><span class="pill bz">{BL[i-1]}</span></summary>'
                  f'<p>{e(intro)}</p><ul>' + ''.join(f'<li>{e(p)}</li>' for p in pts) + '</ul>'
                  f'<div class="evi"><strong>Worked example.</strong> {e(ex)}</div><p><strong>Activity.</strong> {e(act)}</p><p><strong>Standard to meet.</strong> {e(std)}</p></details>')
@@ -23,6 +29,11 @@ def build(c):
            + ''.join(f'<tr><th scope="row">{e(a)}</th><td>Missing, or claimed without a record</td><td>{e(m)}</td><td>{e(x)}</td></tr>' for a, m, x in c['rubric']) + '</tbody></table></div>')
     jobs = '<ul>' + ''.join(f'<li><strong>{e(a)}.</strong> {e(b)}.</li>' for a, b in c['jobs']) + '</ul>'
     slides = ''.join(f'<details class="mod"><summary>Slide {i}. {LV[i]}: {e(t)}</summary><p><strong>On the slide:</strong> {LV[i]} · {e(t)}</p><p><strong>Notes:</strong> {e(n)}</p></details>' for i, (t, n) in enumerate(c['ladder'], 1))
+    deep = ''
+    if D:
+        gl = '<dl class="gl">' + ''.join(f'<dt>{e(a)}</dt><dd>{e(b)}</dd>' for a, b in D['gloss']) + '</dl>'
+        cs = ''.join(f'<details class="mod"><summary>Case {i}. {e(t)}</summary><p>{e(tx)}</p><p><strong>Question:</strong> {e(q)}</p><p><strong>Model answer:</strong> {e(a)}</p></details>' for i, (t, tx, q, a) in enumerate(D['cases'], 1))
+        deep = B.sec('alt', 'cs', 'case cards and glossary', 'Practise on cases; learn the words', cs + '<h3 class="ws-h3">Glossary</h3>' + gl)
     total = sum(HRS)
     top = (f'<div class="cb-facts"><span class="pill lv">{LV[c["level"]]}</span><span class="pill">{total} h of lessons plus practice</span><span class="pill">About 8 to 12 weeks part-time</span>'
            '</div>')
@@ -33,7 +44,7 @@ def build(c):
         f'<p><strong>Who it is for:</strong> {e(c["who"])} <strong>Requirements:</strong> {e(c["req"])} <strong>Materials:</strong> lesson text, worked examples, templates, rubric, 10-question check.</p>'
         + (f'<p class="ws-note"><strong>Safety and limits:</strong> {e(c["safety"])}</p>' if c.get('safety') else ''))
     body = (about + B.sec('alt', 'md', 'lesson by lesson', '8 modules with worked examples', mods)
-        + B.sec('', 'as', 'assessment', 'How you are checked', f'<p>{e(c["evidence"])} A mentor and one peer mark it with this rubric. Pass: no criterion at \'Not yet\', and at least 8 of 10 check answers right.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{quiz}')
+        + deep + B.sec('', 'as', 'assessment', 'How you are checked', f'<p>{e(c["evidence"])} A mentor and one peer mark it with this rubric. Pass: no criterion at \'Not yet\', and at least 8 of 10 check answers right.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{quiz}')
         + B.sec('alt', 'jb', 'jobs this leads to', 'Where this takes you', jobs + f'<p>Next courses: {e(c["next"])}</p>')
         + B.sec('', 'lc', 'ten locations and global', 'Your place', f'<p>{e(c["local"])} {SAFE}</p>'
                 + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Currency: write {L["cur"]} next to every number. Language: {e(L["lang"])}. Personal data law to check: {e(L["data"])}. Level frame: {e(L["frame"])}. Partner to practise with: {e(L["partner"])}.</p></details>' for L in B.LOC)

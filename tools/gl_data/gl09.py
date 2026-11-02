@@ -22,3 +22,16 @@ C = dict(id='GL-09', title='Nanosatellites and Space Data', group='Digital and T
  local='Open-data licences and what you may publish differ by country and agency: read each licence.',
  evidence='Your evidence: data log with licences, two-date index table, limits table, one-page story and reader quote.',
  ladder=[('Basics of space', 'Explain satellite and orbit in plain words. Notes: use a sky-watching app.'), ('Awareness of space data', 'Know what open data exists. Notes: browse a public archive together.'), ('First data task', 'Open and read an image. Notes: practise with a small crop.'), ('Analyst basics', 'Compare two dates. Notes: spreadsheet only.'), ('Specialist', 'This course. Notes: full data story with limits.'), ('Advanced analyst', 'Time series and automation. Notes: script repeated tasks with free tools.'), ('Super expert', 'Lead method and teach teachers. Notes: review data sources yearly.')])
+
+C['deep'] = dict(mods=[
+ ('Thinking "nano" means weak; many missions only need small, cheap sensors.', 'A 3-unit cube with a camera and a magnetometer is enough to study vegetation patterns, not planes.', 'What is one thing a small satellite can do well and one thing it cannot?'),
+ ('Forgetting that revisit time limits how fast you can see change.', 'A 5-day revisit means a flood lasting two days may never be seen.', 'What revisit time does your question need?'),
+ ('Picking a sensor because it is famous, not because it fits.', 'Cloudy season: choose radar, because optical shows only cloud.', 'Which sensor did you pick and why?'),
+ ('Ignoring licence terms on open data.', 'Licence needs credit and forbids resale; add the credit line to the story.', 'What is the licence of your data?'),
+ ('Comparing a wet-season image to a dry-season one.', 'Index fell from 0.62 to 0.35, but the second date is dry season. Compare the same month across years.', 'Are your two dates in the same season?'),
+ ('Hiding the limits.', 'Limits row: "30% of the scene under cloud; effect: index too low; check: use clear dates".', 'What is your biggest limit?'),
+ ('A map without a scale or date.', 'Both maps use the same scale bar and are dated; readers can compare at a glance.', 'Do both maps share scale and legend?'),
+ ('Ending without a decision.', 'The recommended action: "Inspect the east block this week".', 'What should the reader do next?')],
+ gloss=[('Pixel', 'The smallest square in an image.'), ('Band', 'A slice of light the sensor records, such as red.'), ('Revisit time', 'Time until the satellite sees the same place again.'), ('Index', 'A number made from bands to describe something like plant health.'), ('Ground truth', 'A check on the ground.'), ('Open data', 'Data anyone may use under a stated licence.')],
+ cases=[('The cloudy month', 'Your chosen month has 60% cloud.', 'What do you do?', 'Choose clearer dates, use radar if available, or say the question cannot be answered with that month.'),
+        ('The small plot', 'A farmer asks about a 400 m2 plot with 10 m pixels.', 'What is the problem?', 'The plot is about 4 pixels, too few to judge; advise a different data source or ground survey.')])

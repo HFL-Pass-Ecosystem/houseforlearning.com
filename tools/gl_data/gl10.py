@@ -22,3 +22,16 @@ C = dict(id='GL-10', title='Cloud Migration as a Service', group='Digital and Te
  local='Data location and privacy rules differ by place: check where the provider stores data and which law applies.',
  evidence='Your evidence: inventory, option scores, cost table, security checklist, restore test, cut-over and rollback plans, results page.',
  ladder=[('Basics of cloud', 'Explain cloud in plain words. Notes: use a free file service.'), ('Awareness', 'Know models and risks. Notes: compare three real services without naming them.'), ('Foundation', 'Inventory a small setup. Notes: spreadsheet only.'), ('Practitioner', 'Run a small trial move. Notes: practice data only.'), ('Specialist', 'This course. Notes: full plan, cost and rollback.'), ('Advanced', 'Lead multi-system moves. Notes: add governance and automation.'), ('Super expert', 'Set method and teach teachers. Notes: review after each move.')])
+
+C['deep'] = dict(mods=[
+ ('Assuming the provider secures everything.', 'A shop leaves a storage area public by mistake; that is the shop\'s responsibility, not the provider\'s.', 'List three things you still secure after the move.'),
+ ('Forgetting hidden links such as a nightly job.', 'The nightly stock export fails after the move because the old server had the schedule.', 'Which hidden items did your inventory find?'),
+ ('Choosing a rebuild when a rehost would do.', 'A 12-person firm rehosts first and plans a rebuild later, saving three months.', 'Why did you choose your option?'),
+ ('Comparing prices without data-out and support.', 'A cheap plan charges for data leaving; adding 40 GB a month costs 4.00.', 'Which cost line surprised you?'),
+ ('Skipping the second sign-in step for admins.', 'Two admin accounts without a second step are fixed before the move.', 'How many accounts lack a second step now?'),
+ ('Never restoring a backup.', 'First restore fails because the key is missing; fix the key process before cut-over.', 'How long did your restore take?'),
+ ('No rollback rule.', 'Go or no-go at 2 hours; at 1h50 five users cannot sign in; roll back with a clear plan.', 'What is your no-go rule?'),
+ ('Declaring success without numbers.', 'Cost fell 7% and downtime was 1.5 hours against 4 allowed.', 'What are your three measured results?')],
+ gloss=[('Rehost', 'Moving as-is.'), ('Replatform', 'Moving with small changes.'), ('Cut-over', 'The moment users switch to the new system.'), ('Rollback', 'Returning to the old system.'), ('Shared responsibility', 'Split of security duties between provider and customer.'), ('Egress', 'Charges for data leaving the cloud.')],
+ cases=[('The Friday move', 'A firm plans a move on Friday afternoon with only one technician.', 'What is the risk?', 'Problems appear when staff are leaving and help is thin. Move in a quiet window with two people and a rollback plan.'),
+        ('The bill shock', 'A trial bill is three times the estimate.', 'What do you check?', 'Data egress, always-on test machines and storage tiers; add budget alerts and shut down unused resources.')])
