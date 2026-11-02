@@ -167,36 +167,44 @@
  ],
  "checks": [
   [
-   "Unit 1 (Python functions, files and exceptions): show that you can write and test functions and handle files. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 1: Python functions, files and exceptions.)"
+   "Unit 1 (Python functions, files and exceptions): Write average(nums) that returns 0 for an empty list, and test it.",
+   "if not nums: return 0, otherwise return sum(nums) / len(nums); assert average([2, 4, 6]) == 4 and assert average([]) == 0. (Covered in unit 1: Python functions, files and exceptions.)"
   ],
   [
-   "Unit 2 (Data structures: stacks and queues): show that you can implement stacks and queues. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 2: Data structures: stacks and queues.)"
+   "Unit 2 (Data structures: stacks and queues): Reverse 'abc' with a stack.",
+   "push a, b, c to make [a, b, c]; pop gives c, then b, then a; joining them gives 'cba'. The last character comes out first. (Covered in unit 2: Data structures: stacks and queues.)"
   ],
   [
-   "Unit 3 (Computer networks and security): show that you can describe network layers and security. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 3: Computer networks and security.)"
+   "Unit 3 (Computer networks and security): How many usable hosts in a /28 subnet?.",
+   "32 minus 28 is 4 host bits; 2 to the power 4 is 16 addresses; minus the network and broadcast addresses gives 14 usable hosts. (Covered in unit 3: Computer networks and security.)"
   ],
   [
-   "Unit 4 (Databases and SQL with Python): show that you can connect Python with a database and query it. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 4: Databases and SQL with Python.)"
+   "Unit 4 (Databases and SQL with Python): Create pets(name, age) with ('Mimi', 3), ('Rex', 7), ('Kiwi', 1) and print pets older than 2.",
+   "executemany inserts, commit, SELECT name FROM pets WHERE age > 2 ORDER BY age gives [('Mimi',), ('Rex',)]. (Covered in unit 4: Databases and SQL with Python.)"
   ],
   [
-   "Which action verb starts the outcome of Unit 1 (Python functions, files and exceptions), and at which Bloom level is it?",
-   "'write', at the Apply level. (Covered in unit 1: Python functions, files and exceptions.)"
+   "Unit 1 (Python functions, files and exceptions): Test with assert. Show how you do it and say what the result is.",
+   "assert safe_div(10, 2) == 5.0 passes silently. assert safe_div(5, 0) is None also passes. If a test fails, Python raises AssertionError with the line number, so the bug is found quickly. (Covered in unit 1: Python functions, files and exceptions.)"
   ],
   [
-   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
-   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36. (Covered in: Assessment plan, near the top of this page.)"
+   "Unit 2 (Data structures: stacks and queues): Last in, first out. Show how you do it and say what the result is.",
+   "The last item added, 2, was the first removed. Calling pop() on an empty list raises IndexError, so check if stack: before popping. A stack suits undo history and bracket checking. (Covered in unit 2: Data structures: stacks and queues.)"
   ],
   [
-   "In which weeks does Unit 4 (Databases and SQL with Python) run?",
-   "Weeks 28 to 36. (Covered in unit 4: Databases and SQL with Python.)"
+   "Unit 3 (Computer networks and security): Follow one request. Show how you do it and say what the result is.",
+   "A student opens a page. The browser makes an HTTP request, TCP adds the destination port 443, IP adds the server's address, and the link layer sends the frame to the router. The server reverses the process, so the reply climbs the layers. (Covered in unit 3: Computer networks and security.)"
   ],
   [
-   "What evidence do you keep for each unit, and why?",
-   "A timed paper and an error log. It shows what you can really do and lets a teacher check it against the standard. (Covered in: How you are checked, further down this page.)"
+   "Unit 4 (Databases and SQL with Python): Insert safely. Show how you do it and say what the result is.",
+   "cur.executemany('INSERT INTO marks VALUES (?, ?)', [('Ali', 72), ('Bana', 91), ('Cyrus', 65), ('Dina', 88)]) then con.commit(). Without commit the rows are not saved. Running this twice would add 8 rows, so run it once. (Covered in unit 4: Databases and SQL with Python.)"
+  ],
+  [
+   "Unit 1 (Python functions, files and exceptions): Prepare a file. Show how you do it and say what the result is.",
+   "nums.txt contains three lines: 4, then x, then 6. The goal is to total the valid numbers. The expected answer is 4 plus 6, which is 10, and x should be skipped and reported. (Covered in unit 1: Python functions, files and exceptions.)"
+  ],
+  [
+   "Unit 2 (Data structures: stacks and queues): Queue with deque. Show how you do it and say what the result is.",
+   "from collections import deque, then q = deque(), q.append('A'), q.append('B'), q.append('C'). print(q.popleft()) prints A, and print(list(q)) shows ['B', 'C']. First in, first out, like a print queue. (Covered in unit 2: Data structures: stacks and queues.)"
   ]
  ],
  "ladder": [

@@ -163,36 +163,44 @@
  ],
  "checks": [
   [
-   "Unit 1 (National income and related aggregates): show that you can measure national income. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 1: National income and related aggregates.)"
+   "Unit 1 (National income and related aggregates): GDP at market price 500, depreciation 30, net indirect tax 20, net factor income from abroad 5.",
+   "'NDP at market price 470, NNP at market price 475, NNP at factor cost 455 (national income).' (Covered in unit 1: National income and related aggregates.)"
   ],
   [
-   "Unit 2 (Money, banking and income determination): show that you can explain money creation and income determination. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 2: Money, banking and income determination.)"
+   "Unit 2 (Money, banking and income determination): MPC is 0.8; investment increases by 50.",
+   "'The multiplier is 1 / 0.2 = 5, so income rises by 50 x 5 = 250.' (Covered in unit 2: Money, banking and income determination.)"
   ],
   [
-   "Unit 3 (Government budget and the balance of payments): show that you can describe the budget and exchange rates. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 3: Government budget and the balance of payments.)"
+   "Unit 3 (Government budget and the balance of payments): Revenue is 650 and spending is 600. Find the budget balance. If 1 FC = 50 local units, what is a 2,000 local-unit item worth in FC?.",
+   "a surplus of 650 - 600 = 50; and 2,000 / 50 = 40 FC. (Covered in unit 3: Government budget and the balance of payments.)"
   ],
   [
-   "Unit 4 (Indian economy and development): show that you can analyse development, poverty and reforms. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 4: Indian economy and development.)"
+   "Unit 4 (Indian economy and development): Assess one effect of the 1991 reforms.",
+   "'Services and exports grew faster because of openness, but inequality between regions and sectors persisted, so growth needs jobs and skills too.' (Covered in unit 4: Indian economy and development.)"
   ],
   [
-   "Which action verb starts the outcome of Unit 1 (National income and related aggregates), and at which Bloom level is it?",
-   "'measure', at the Apply level. (Covered in unit 1: National income and related aggregates.)"
+   "Unit 1 (National income and related aggregates): Move to national income. Show how you do it and say what the result is.",
+   "Depreciation 50, so NDP at market price = 970 - 50 = 920. Net factor income from abroad is -10, so NNP at market price = 910. Indirect taxes 70 minus subsidies 20 gives net indirect tax 50. (Covered in unit 1: National income and related aggregates.)"
   ],
   [
-   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
-   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36. (Covered in: Assessment plan, near the top of this page.)"
+   "Unit 2 (Money, banking and income determination): Name central bank tools. Show how you do it and say what the result is.",
+   "To reduce credit, it raises the repo rate, cash reserve ratio or sells securities in open market operations. To raise credit, it does the opposite. A higher reserve ratio of 20 percent cuts the multiplier to 5. (Covered in unit 2: Money, banking and income determination.)"
   ],
   [
-   "In which weeks does Unit 4 (Indian economy and development) run?",
-   "Weeks 28 to 36. (Covered in unit 4: Indian economy and development.)"
+   "Unit 3 (Government budget and the balance of payments): Taxes raise revenue. Show how you do it and say what the result is.",
+   "Direct taxes, such as income tax, are paid on income. Indirect taxes, such as sales tax, are paid on goods. A progressive tax takes a larger share as income rises. If the first 10,000 is untaxed and the rest pays 20 percent, income of 30,000 pays 20 percent of 20,000, which is 4,000, an average rate of 13.3 percent. (Covered in unit 3: Government budget and the balance of payments.)"
   ],
   [
-   "What evidence do you keep for each unit, and why?",
-   "A timed paper and an error log. It shows what you can really do and lets a teacher check it against the standard. (Covered in: How you are checked, further down this page.)"
+   "Unit 4 (Indian economy and development): Explain the 1991 reforms. Show how you do it and say what the result is.",
+   "They are summarised as liberalisation (fewer licences), privatisation (smaller state role in some sectors) and globalisation (lower import duties, foreign investment). Model answer should state both gains and costs in a balanced way. (Covered in unit 4: Indian economy and development.)"
+  ],
+  [
+   "Unit 1 (National income and related aggregates): Finish the chain. Show how you do it and say what the result is.",
+   "NNP at factor cost = 910 - 50 = 860, which is national income. Check with the income method: NDP at factor cost = 500 compensation + 280 operating surplus + 90 mixed income = 870. Subtracting 10 net factor income from abroad gives 860. (Covered in unit 1: National income and related aggregates.)"
+  ],
+  [
+   "Unit 2 (Money, banking and income determination): Find equilibrium income. Show how you do it and say what the result is.",
+   "Consumption is C = 100 + 0.75Y and investment is 50. Y = (100 + 50) / (1 - 0.75) = 150 / 0.25 = 600. Check: consumption 550 and saving 50 equals investment 50, so planned saving equals investment. (Covered in unit 2: Money, banking and income determination.)"
   ]
  ],
  "ladder": [

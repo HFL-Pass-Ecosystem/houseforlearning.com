@@ -167,36 +167,44 @@
  ],
  "checks": [
   [
-   "Unit 1 (Python: functions, files and data structures): show that you can write programs using lists, dictionaries and files. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 1: Python: functions, files and data structures.)"
+   "Unit 1 (Python: functions, files and data structures): Stock = {'apple': 5, 'pear': 3, 'plum': 4}. Write code for the total and the most stocked item.",
+   "total = sum(stock.values()) gives 12; best = max(stock, key=stock.get) gives 'apple'. (Covered in unit 1: Python: functions, files and data structures.)"
   ],
   [
-   "Unit 2 (Databases and SQL): show that you can design and query a small database. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 2: Databases and SQL.)"
+   "Unit 2 (Databases and SQL): Tables books(book_id, title) and loans(book_id, days) with books (1,'Sea'),(2,'Sky') and loans (1,7),(1,5),(2,10). Average days per title?.",
+   "join on book_id, GROUP BY title; Sea is (7 plus 5) divided by 2, which is 6.0; Sky is 10.0. (Covered in unit 2: Databases and SQL.)"
   ],
   [
-   "Unit 3 (Artificial intelligence project cycle): show that you can plan a small data project from problem to evaluation. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 3: Artificial intelligence project cycle.)"
+   "Unit 3 (Artificial intelligence project cycle): A test has TP 10, TN 30, FP 5, FN 5. Find accuracy and recall.",
+   "total 50; accuracy is 40 divided by 50, or 80 percent; recall is 10 divided by 15, which is 66.7 percent. (Covered in unit 3: Artificial intelligence project cycle.)"
   ],
   [
-   "Unit 4 (Cyber law and ethics): show that you can describe privacy, copyright and responsible AI use. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 4: Cyber law and ethics.)"
+   "Unit 4 (Cyber law and ethics): Your team wants to use a song on a school video. What do you check?.",
+   "check the licence or get permission, use free-to-reuse music with credit, or compose your own; do not just copy it. (Covered in unit 4: Cyber law and ethics.)"
   ],
   [
-   "Which action verb starts the outcome of Unit 1 (Python: functions, files and data structures), and at which Bloom level is it?",
-   "'write', at the Apply level. (Covered in unit 1: Python: functions, files and data structures.)"
+   "Unit 1 (Python: functions, files and data structures): Use a dictionary. Show how you do it and say what the result is.",
+   "He stores marks = {'Ali': 72, 'Bana': 91, 'Cyrus': 65, 'Dina': 88}. marks['Bana'] gives 91. A dictionary looks up a value by its key, which is faster to read than searching a list by position. (Covered in unit 1: Python: functions, files and data structures.)"
   ],
   [
-   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
-   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36. (Covered in: Assessment plan, near the top of this page.)"
+   "Unit 2 (Databases and SQL): Create and fill. Show how you do it and say what the result is.",
+   "CREATE TABLE students (student_id INTEGER PRIMARY KEY, name TEXT); and CREATE TABLE marks (student_id INTEGER, subject TEXT, mark INTEGER); then INSERT students (1,'Ali'),(2,'Bana') and marks (1,'Maths',72),(1,'Science',80),(2,'Maths',91),(2,'Science',85). That is 2 students and 4 marks. (Covered in unit 2: Databases and SQL.)"
   ],
   [
-   "In which weeks does Unit 4 (Cyber law and ethics) run?",
-   "Weeks 34 to 36. (Covered in unit 4: Cyber law and ethics.)"
+   "Unit 3 (Artificial intelligence project cycle): Acquire data. Show how you do it and say what the result is.",
+   "They use 250 anonymous loan records with 3 columns: number of books out, days since last visit, and returned late yes or no. Names are removed to protect privacy, and the data is used only for this project. (Covered in unit 3: Artificial intelligence project cycle.)"
   ],
   [
-   "What evidence do you keep for each unit, and why?",
-   "A worked task and a corrected copy. It shows what you can really do and lets a teacher check it against the standard. (Covered in: How you are checked, further down this page.)"
+   "Unit 4 (Cyber law and ethics): Apply data minimisation. Show how you do it and say what the result is.",
+   "She keeps only what the function needs and removes location, contacts and photos. Collecting less data lowers the risk if the data leaks, and users must be told clearly what is collected and why. (Covered in unit 4: Cyber law and ethics.)"
+  ],
+  [
+   "Unit 1 (Python: functions, files and data structures): Write to a file. Show how you do it and say what the result is.",
+   "with open('scores.txt', 'w') as f: for n, m in marks.items(): f.write(n + ',' + str(m) + '\\n'). The file has 4 lines such as Ali,72. The with block closes the file safely at the end. (Covered in unit 1: Python: functions, files and data structures.)"
+  ],
+  [
+   "Unit 2 (Databases and SQL): Why two tables. Show how you do it and say what the result is.",
+   "Names are stored once, not repeated in every mark row. If Bana changed her name, only 1 row in students changes, not 2 rows in marks. This avoids repeated data and mistakes. (Covered in unit 2: Databases and SQL.)"
   ]
  ],
  "ladder": [
