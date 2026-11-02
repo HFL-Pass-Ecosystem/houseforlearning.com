@@ -106,6 +106,23 @@ def page(slug, title, desc, body, crumb_prev, crumb_next):
       f'<a class="pager-link pager-next" href="{crumb_next[0]}"><span class="pager-k">Next &rarr;</span><span class="pager-n">{crumb_next[1]}</span></a></div></nav>\n')
     open(os.path.join(SITE, slug + '.html'), 'w').write(h + '<main id="main" tabindex="-1">\n' + body + pager + TAIL)
 
+import json
+def rich(L):
+    f = os.path.join(os.path.dirname(__file__), '..', 'data', 'electrical', L['slug'].replace('electrical-', '') + '.json')
+    if not os.path.exists(f): return ''
+    x = json.load(open(f)); ms = x['modules']
+    def sec(cls, i, kick, h2, inner):
+        return f'<section class="sec {cls}" aria-labelledby="{i}"><div class="wrap"><div class="sec-head"><p class="kicker">{kick}</p><h2 id="{i}">{h2}</h2></div><div class="sec-body">{inner}</div></div></section>\n'
+    tcs = f'<ul class="lux-list one"><li><strong>Task.</strong> {x["task"]}</li><li><strong>Condition.</strong> {x["condition"]}</li><li><strong>Standard.</strong> {x["standard"]}</li></ul>'
+    mod = ''.join(f'<details class="lux-panel" {"open" if i==1 else ""}><summary>Part {i}: {m["title"]} ({m["minutes"]} min, {m["bloom"]})</summary><p>{m["intro"]}</p><ul class="lux-list one">' + ''.join(f'<li>{q}</li>' for q in m['points']) + f'</ul><p><strong>Worked example.</strong> {m["example"]}</p><p><strong>Activity.</strong> {m["activity"]}</p><p><strong>Standard.</strong> {m["standard"]}</p></details>' for i, m in enumerate(ms, 1))
+    qs = ''.join(f'<details class="lux-panel"><summary>{q["q"]}</summary><p>{q["a"]} <em>(Covered in part {q["module"]}: {ms[q["module"]-1]["title"]}. To pass that part: {ms[q["module"]-1]["standard"].rstrip().rstrip(".")}.)</em></p></details>' for q in x['quiz'])
+    lad = ''.join(f'<li><strong>Slide {j}: {l["title"]}.</strong> {l["slide"]} <em>Speaker note:</em> {l["notes"]}</li>' for j, l in enumerate(x['ladder'], 1))
+    rub = '<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>' + ''.join(f'<tr><th scope="row">{r["criterion"]}</th><td>{r["not_yet"]}</td><td>{r["meets"]}</td><td>{r["exceeds"]}</td></tr>' for r in x['rubric']) + '</tbody></table></div>'
+    jobs = '<ul class="lux-list one">' + ''.join(f'<li><strong>{j["role"]}.</strong> {j["what"]}</li>' for j in x['jobs']) + '</ul>'
+    return (sec('', 'rt', 'task, condition, standard', 'What you will be able to do', tcs) + sec('alt', 'rm', 'four parts', 'The parts, with worked examples', mod)
+            + sec('', 'rq', 'ten checks', 'Check yourself in depth', qs) + sec('alt', 'rl', 'slides L1 to L7', 'The seven-level ladder, slide by slide', '<ol>' + lad + '</ol>')
+            + sec('', 'rr', 'how it is judged', 'Marking rubric', rub) + sec('alt', 'rj', 'where it leads', 'Jobs this supports', jobs))
+
 def lesson_body(L):
     b = f'<section class="hero" aria-labelledby="h1"><div class="wrap hero-grid"><div><p class="kicker">electrical academy · lesson {L["n"]} · about {L["mins"]} minutes</p><h1 id="h1">{L["title"]}</h1><p>{L["lede"]}</p>{SAFE}</div></div></section>\n'
     for k, (h, paras) in enumerate(L['secs']):
@@ -114,7 +131,7 @@ def lesson_body(L):
         b += f'<section class="sec{" alt" if k % 2 else ""}" aria-labelledby="s{k}"><div class="wrap"><div class="sec-head"><h2 id="s{k}">{h}</h2></div><div class="sec-body">{inner}</div></div></section>\n'
     qs = ''.join(f'<details class="lux-panel"><summary>{q}</summary><p>{a}</p></details>' for q, a in L['check'])
     b += f'<section class="sec" aria-labelledby="chk"><div class="wrap"><div class="sec-head"><p class="kicker">check yourself</p><h2 id="chk">Three quick questions</h2></div><div class="sec-body"><p>Think of your answer first, then open the question.</p>{qs}{SAFE}{BTNS}</div></div></section>\n'
-    return b
+    return b + rich(L)
 
 SEGMENTS = [
  ('Power', [('Generation', ['Electric utility power generation']), ('Transmission and distribution', ['Electric distribution up to 60 kV']), ('Other utilities', ['Gas utilities', 'Other utilities'])]),
