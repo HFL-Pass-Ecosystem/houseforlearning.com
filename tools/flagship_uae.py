@@ -104,16 +104,19 @@ def course(t):
       f"Result: cost per {unit} fell from AED {m(cost)} to AED {m(cost*0.94)}; repeat users 6 of 9. Decision: scale to a second site; keep price.",
       "Present to a review room and collect one written comment from a user.","Decision backed by numbers; two peer reviews given."))
     M.extend(D.get(slug,[]))
-    Q=[(f"Name the main hazards in this work.", haz.capitalize()+"."),
-       ("Why ask your local authority about licences?", "Rules differ by emirate and activity; written answers protect you."),
-       (f"Gain per {unit} if price is AED {m(price)} and cost is AED {m(cost)}?", f"AED {m(unitgain)}."),
-       (f"Margin for the same figures?", f"{marg:.1f}%."),
-       ("Name the steps of the workflow.", '; '.join(s).capitalize()+"."),
-       (f"What is {t1[0]}?", t1[1].capitalize()+"."),
-       (f"What is {t2[0]}?", t2[1].capitalize()+"."),
-       (f"What is {t3[0]}?", t3[1].capitalize()+"."),
-       ("Which control comes first in the hierarchy?", "Remove the hazard; protective equipment comes last."),
-       ("What three options end the pilot?", "Scale, change or stop, with reasons from the numbers.")]
+    # Each question carries the TITLE of the module whose content teaches the answer (checked at build time).
+    # The tag (module number, title, standard) is derived from that module in build(); nothing is typed by hand there.
+    RH,MK,WF,CS,RV="Rules, hazards and licences","Map the market and the people","Core workflow, step by step","Costing and pricing in AED","Review, decide and plan"
+    Q=[(f"Name the main hazards in this work.", haz.capitalize()+".", RH),
+       ("Why ask your local authority about licences?", "Rules differ by emirate and activity; written answers protect you.", RH),
+       (f"Gain per {unit} if price is AED {m(price)} and cost is AED {m(cost)}?", f"AED {m(unitgain)}.", CS),
+       (f"Margin for the same figures?", f"{marg:.1f}%.", CS),
+       ("Name the steps of the workflow.", '; '.join(s).capitalize()+".", WF),
+       (f"What is {t1[0]}?", t1[1].capitalize()+".", MK),
+       (f"What is {t2[0]}?", t2[1].capitalize()+".", MK),
+       (f"What is {t3[0]}?", t3[1].capitalize()+".", MK),
+       ("Which control comes first in the hierarchy?", "Remove the hazard; protective equipment comes last.", RH),
+       ("What three options end the pilot?", "Scale, change or stop, with reasons from the numbers.", RV)]
     return dict(slug=slug,title=title,hours=hrs,prod=prod,task=task,cond=cond,std=std,safety=safety,M=M,Q=Q,jobs=jobs,kpi=kpi,
         outcomes=[("Understand",f"Explain the UAE market, rules and hazards for {title.lower()}."),("Apply",f"Run the workflow: {', '.join(s)}."),("Analyse",f"Measure {kpi} and find the biggest cause of loss."),("Evaluate","Cost and price in AED and judge scale, change or stop."),("Create","Produce a record pack a supervisor can audit.")])
 def build(c):
@@ -122,7 +125,13 @@ def build(c):
     for i,(t,bl,h,intro,pts,ex,act,std) in enumerate(c['M'],1):
         mods+=(f'<details class="mod" {"open" if i==1 else ""}><summary><span class="mn">Module {i}</span> {e(t)} <span class="pill">{h} h</span><span class="pill bz">{bl}</span></summary><p>{e(intro)}</p><ul>'+''.join(f'<li>{e(p)}</li>' for p in pts)+'</ul>'
                f'<div class="evi"><strong>Worked example.</strong> {e(ex)}</div><p><strong>Activity.</strong> {e(act)}</p><p><strong>Standard to meet.</strong> {e(std)}</p></details>')
-    quiz=''.join(f'<details class="mod"><summary>Q{i+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a)}</p></details>' for i,(q,a) in enumerate(c['Q']))
+    def tag(ref):
+        if ref is None: return ' (Covered in: Task, condition and standard, near the top of this page.)'
+        hits=[i for i,x in enumerate(c['M'],1) if x[0]==ref]
+        assert len(hits)==1, (c['slug'], ref, hits)
+        i=hits[0]; x=c['M'][i-1]
+        return f' (Covered in module {i}: {x[0]}. To pass that module: {x[7].rstrip().rstrip(".")}.)'
+    quiz=''.join(f'<details class="mod"><summary>Q{i+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a.rstrip()+tag(r))}</p></details>' for i,(q,a,r) in enumerate(c['Q']))
     rub=('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>'+''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(x)}</td><td>{e(d)}</td></tr>' for a,b,x,d in RUB)+'</tbody></table></div>')
     lad=('<div class="scroll-x"><table class="ws-table"><caption>Seven-level ladder</caption><thead><tr><th>Level</th><th>You can</th><th>Evidence</th></tr></thead><tbody>'+''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b.format(k=c["title"].lower()))}</td><td>{e(d)}</td></tr>' for a,b,d in LADDER)+'</tbody></table></div>')
     about=B.sec('','ab','about this course','What you will be able to do',
