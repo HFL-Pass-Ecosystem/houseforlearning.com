@@ -12,7 +12,7 @@
     "Trace the money in one order: what the buyer pays and where each part goes.",
     "Identify what a shop must show to be trusted: business name, contact details and return policy."
    ],
-   "ex": "A person sells hand-made soap. Product: soap bar. Listing: photo, price in CAD, size. Payment: card. Delivery: letter-mail parcel. A web shop lets the seller set the price and keep the customer list; a marketplace brings visitors but takes a fee.",
+   "ex": "A person sells hand-made soap. Product: soap bar. Listing: photo, price in CAD, size. Payment: card. Delivery: small parcel by post. A web shop lets the seller set the price and keep the customer list; a marketplace brings visitors but takes a fee.",
    "act": "Buy one small item online. Write down every step you saw, from search to delivery.",
    "std": "Task: list the parts of an online sale. Condition: using one real purchase. Standard: all four parts named with one example each."
   },
@@ -124,15 +124,15 @@
     "Compare results with the stop rule on the planned date and write the decision.",
     "Identify the next product from what customers asked for."
    ],
-   "ex": "Stop rule: if fewer than 30 orders in 60 days, stop and write lessons. Result: 54 orders at an average of 24 is 1,296 in sales; a 28% margin is about 363. With 150 of fixed cost, profit is about 213, so the decision is to add one product.",
+   "ex": "Stop rule: if fewer than 30 orders in 60 days, stop and write lessons. Result: 54 orders at an average of 24 is 1,296 in sales; at 7.50 margin per order that is 405. With 150 of fixed cost, profit is 255, so the decision is to add one product.",
    "act": "Run the pilot, write the review and present your 12-month plan to three people.",
    "std": "Task: run an online shop pilot. Condition: 60 days, real orders. Standard: results compared with the stop rule and a dated plan written."
   }
  },
  "price": [
-  48,
-  26,
-  200,
+  24,
+  16.5,
+  20,
   "order"
  ],
  "quiz": [

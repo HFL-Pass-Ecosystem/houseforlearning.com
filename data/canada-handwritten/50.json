@@ -124,7 +124,7 @@
     "Compare results with the stop rule on the planned date.",
     "Identify the service customers asked for most and decide to add, change or skip it."
    ],
-   "ex": "Stop rule: if fewer than 25 visits in 60 days, stop and write lessons. Result: 41 visits x 62 = 2,542 in margin, minus 1,800 fixed costs for two months = 742; add a small group class for older users.",
+   "ex": "Stop rule: if fewer than 30 visits in 60 days, stop and write lessons. Result: 41 visits x 62 = 2,542 in margin, minus 1,800 fixed costs for two months = 742; add a small group class for older users.",
    "act": "Run the pilot, write the review and present your plan to three people.",
    "std": "Task: run a mobile service pilot. Condition: 60 days, real customers. Standard: results compared with the stop rule and rules re-checked."
   }
@@ -132,7 +132,7 @@
  "price": [
   70,
   8,
-  40,
+  15,
   "visit"
  ],
  "quiz": [

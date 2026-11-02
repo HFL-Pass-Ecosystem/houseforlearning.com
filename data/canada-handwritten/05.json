@@ -66,7 +66,7 @@
     "Run a stress case: costs up 10% and sales down 5%. Write the new profit and margin.",
     "Check the provincial and municipal charges and taxes that apply to new buildings and add each to the soft costs."
    ],
-   "ex": "40 units x 520,000 = 20.8M; cost per unit 430,000 = 17.2M; profit 3.6M (17%). With costs up 10%, cost is 18.92M and profit falls to 1.88M (9%). A 10 to 15% contingency on 17.2M is 1.72M to 2.58M, so it should be inside the budget. Teaching figures in CAD.",
+   "ex": "40 units x 520,000 = 20.8M; cost per unit 430,000 = 17.2M; profit 3.6M (17%). With costs up 10%, cost is 18.92M and profit falls to 1.88M (9%). A 10 to 15% contingency on 17.2M is 1.72M to 2.58M, so a 10% contingency (1.72M) leaves profit of 1.88M. Teaching figures in CAD.",
    "act": "Build a development pro forma with a 10% cost rise case.",
    "std": "Margin shown under stress."
   },
@@ -110,7 +110,7 @@
     "Secure networks and update devices.",
     "Plan fire, flood and power-cut responses.",
     "Aim for energy performance targets.",
-    "Give residents a one-page guide in English and French.",
+    "Give residents a one-page guide in the languages residents use (French in Quebec).",
     "Change every default password before handover and keep an access list of who can open the system.",
     "Review sensor and camera data rules once a year and tell residents what changed."
    ],
