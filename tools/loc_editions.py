@@ -20,6 +20,7 @@ def scaled(L, i):
     return price, var, fixed
 def build(L, i, t):
     L = copy.deepcopy(L); k, cn = cluster_of(t)
+    if L['k'] == 'ge': L['cur'] = 'GEL'
     L['price'], L['var'], L['fixed'] = scaled(L, i)
     L['item'] = f'a small {t} business'
     mods = F.modules(L)
@@ -37,7 +38,7 @@ def build(L, i, t):
     about = (f'<div class="cb-facts"><span class="pill lv">L1 to L4 location edition</span><span class="pill">8 modules</span><span class="pill pr">USD 39 per learner per month, or USD 79 with mentor review</span></div>'
         f'<p>{e(t)} from the global list, applied to {e(L["name"])}: local rules, jobs and examples in {e(L["cur"])}.</p><div class="tcs"><div><h4>Task</h4><p>Plan a small {e(t)} business for {e(L["name"])} from fit check to launch plan.</p></div>'
         '<div><h4>Condition</h4><p>About six weeks part-time; public sources, two local readers and a mentor.</p></div><div><h4>Standard</h4><p>All module standards met; every claim has a public source and date; mentor and peer mark \'Meets\' or better.</p></div></div>'
-        f'<p class="ws-note">{e(F.CHECK)} Draft; not legal, tax, medical or financial advice.</p>')
+        f'<p class="ws-note">{e(F.CHECK)} Draft; not legal, tax, medical or financial advice. All amounts are estimates for planning, not quotes.</p>')
     body = (B.sec('', 'ab', 'about this course', f'{t}: {L["name"]} edition', about) + B.sec('alt', 'md', 'lesson by lesson', '8 modules with worked examples', mh)
             + B.sec('', 'as', 'assessment', 'How you are checked', f'<p>Pass: no criterion at Not yet and 8 of 10 right.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{qz}')
             + B.sec('alt', 'jb', 'jobs', 'Where this takes you', jobs) + B.sec('', 'ld', 'ladder', 'Ladder L1 to L7', F.ladder(L, LL.slides_html(LL.topic_slug(t), L, e))))
