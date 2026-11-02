@@ -73,7 +73,7 @@
     "Take the lower value if the data is poor.",
     "Compare with the yearly use of the building."
    ],
-   "A 5 kW turbine at 18 per cent capacity factor gives 5 x 8,760 x 0.18 = 7,884 kWh a year. A home using 6,000 kWh a year would cover most of its need; at 10 per cent the output falls to 4,380 kWh.",
+   "A 5 kW turbine at 18 per cent capacity factor gives 5 x 8,760 x 0.18 = 7,884 kWh a year. A home using 6,000 kWh a year would cover all of its need over a year; at 10 per cent the output falls to 4,380 kWh.",
    "Estimate yearly energy for low, medium and high capacity factors.",
    "Three results are correct and compared with the user load."
   ],
@@ -103,7 +103,7 @@
     "Annual saving = kWh produced x price per kWh.",
     "Payback = cost / annual saving; test weak-wind cases."
    ],
-   "A 5 kW system costs 600,000. It makes 7,884 kWh at 8 per kWh, saving 63,072 a year, less 15,000 maintenance. Net saving 48,072 gives a payback of 12.5 years. At 10 per cent factor payback passes 25 years and the project is not worth it.",
+   "A 5 kW system costs 600,000 (an estimate; check your market). It makes 7,884 kWh at 8 per kWh, saving 63,072 a year, less 15,000 maintenance. Net saving 48,072 gives a payback of 12.5 years. At 10 per cent factor payback passes 25 years and the project is not worth it.",
    "Build the cost and payback table for two wind cases.",
    "Costs add up, both cases are shown and a go or no-go is stated."
   ],
@@ -265,7 +265,7 @@
   [
    "Estimating energy",
    "L3: learner can estimate energy. Focus module: Estimating energy (Apply, 5 h). A simple estimate tells you if a project is worth a closer look. Key points: Annual energy = rated power x 8,760 hours x capacity factor. Small wind capacity factors are often 10 to 25 per cent. Take the lower value if the data is poor. Compare with the yearly use of the building.",
-   "Teach: open with the worked example. A 5 kW turbine at 18 per cent capacity factor gives 5 x 8,760 x 0.18 = 7,884 kWh a year. A home using 6,000 kWh a year would cover most of its need; at 10 per cent the output falls to 4,380 kWh. Then set the activity: Estimate yearly energy for low, medium and high capacity factors. Mark against the standard: Three results are correct and compared with the user load. Check at this level: Typical small capacity factor? Model answer: 10 to 25 percent."
+   "Teach: open with the worked example. A 5 kW turbine at 18 per cent capacity factor gives 5 x 8,760 x 0.18 = 7,884 kWh a year. A home using 6,000 kWh a year would cover all of its need; at 10 per cent the output falls to 4,380 kWh. Then set the activity: Estimate yearly energy for low, medium and high capacity factors. Mark against the standard: Three results are correct and compared with the user load. Check at this level: Typical small capacity factor? Model answer: 10 to 25 percent."
   ],
   [
    "Turbine types and sizes",

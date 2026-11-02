@@ -289,8 +289,8 @@ def sectors():
         if fo.get('focus'):
             fb += f'<p class="o-lead">{E(fo["focus"])}</p>'
         if fo.get('goals'):
-            fb += f'<p>This touches UN Sustainable Development Goals {fo["goals"]}.</p>'
-        fb += ('<p>Every sector has its own learning workstream. Each one joins chartered certification, continuing professional development, authoring, training, learning, accreditation, deployment, earning, blended learning and small-business development.</p>'
+            fb += f'<p>This touches sustainable development {"goals" if " " in fo["goals"] else "goal"} {fo["goals"]}.</p>'
+        fb += ('<p>Every sector has its own learning workstream. Each one joins professional certification, continuing professional development, authoring, training, learning, accreditation, deployment, earning, blended learning and small-business development.</p>'
                '<p>A learner’s journey runs from free awareness content to practitioner credentials, in line with national and global skills and sustainability aims.</p>')
         m += split('how learning works here', 'Learning in this sector', fb)
         svc = SERVICE_LINKS.get(f)
