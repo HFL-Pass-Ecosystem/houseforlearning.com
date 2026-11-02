@@ -3,6 +3,8 @@
 import sys, pathlib, html
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import build_full_courses as B
+from ladder_common import ladder_sec
+from flagship_data_misc_ladder import LADDER
 e = html.escape
 
 LESSONS = [
@@ -124,11 +126,12 @@ def build():
         '<p><strong>Who it is for:</strong> school and college leavers, graduates, career changers, returners and seniors. <strong>Requirements:</strong> none. <strong>Materials:</strong> lesson text, worked examples, templates, rubric, quiz, tracker.</p>')
     body = (about + B.sec('alt', 'md', 'lesson by lesson', '8 modules with worked examples', mods)
             + B.sec('', 'as', 'assessment', 'How you are checked', f'<p>Your evidence: CV, profile, gap table, five stories, mock interview record. Two peers and one mentor mark it with this rubric. Pass: no criterion at \'Not yet\'.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{quiz}')
-            + B.sec('alt', 'jb', 'jobs this leads to', 'Where this takes you', jobs + '<p>Next courses: communication and presentation, digital marketing, a sector course for your target role.</p>')
-            + B.sec('', 'lc', 'ten locations and global', 'Your place', '<p>Local custom changes what a CV contains (photo, age, ID details, length). Check it for your place first.</p>'
+            + ladder_sec(LADDER['cv'], 'alt')
+            + B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', jobs + '<p>Next courses: communication and presentation, digital marketing, a sector course for your target role.</p>')
+            + B.sec('alt', 'lc', 'ten locations and global', 'Your place', '<p>Local custom changes what a CV contains (photo, age, ID details, length). Check it for your place first.</p>'
                     + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Write salary or numbers in {L["cur"]}. Personal data rule for what you publish: {e(L["data"])}. Skills frame to name on your CV: {e(L["frame"])}.</p></details>' for L in B.LOC)
                     + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
-            + B.sec('alt', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship. Written in our own words from the owner\'s module outline; no third-party text is used. Not live.</p><p><a class="btn" href="b2c.html">More courses</a> <a class="btn btn-ghost" href="join.html">Join</a></p>'))
+            + B.sec('', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship. Written in our own words from the owner\'s module outline; no third-party text is used. Not live.</p><p><a class="btn" href="b2c.html">More courses</a> <a class="btn btn-ghost" href="join.html">Join</a></p>'))
     B.page('learn-flagship-cv.html', 'Resume and Professional Profile (flagship course)', 'Write a CV that proves achievements, build a safe public profile and prepare interview stories.', 'Resume and Professional Profile',
            e('Build a CV and public profile that prove what you achieved, and five stories you can tell in any interview.'), body,
            B.crumb(('Courses', 'courses-hub.html'), ('Career launch', None)), kicker='flagship course')

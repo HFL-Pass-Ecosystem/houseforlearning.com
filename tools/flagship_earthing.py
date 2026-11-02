@@ -3,6 +3,8 @@
 import sys, pathlib, html
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import build_full_courses as B
+from ladder_common import ladder_sec
+from flagship_data_misc_ladder import LADDER
 e = html.escape
 M = [
  ("Why we earth: the three jobs", "Understand", 3,
@@ -60,6 +62,28 @@ M = [
   "Write and record (or present to a peer) a 60-second explanation, a one-page checklist for reviewing earthing records, and a three-item next-step plan.",
   "Explanation understood by a non-expert peer; checklist has at least eight items; plan has dates."),
 ]
+M[5:5] = [
+ ("Touch and step voltage in practice", "Analyse", 3,
+  "When the ground around an earth system rises in voltage, a person can be exposed between a touched part and the ground, or between two feet. Learn to work out the simple difference and see who is at risk.",
+  ["Touch voltage is the voltage of the touched part minus the voltage of the ground where the person stands.",
+   "Step voltage is the difference between the ground voltage at two foot positions; it falls the further you are from the electrode.",
+   "People at greatest risk are those close to fences, poles, pump houses and substations during a fault, especially when wet.",
+   "Controls include grading conductors, insulating surfaces, keeping people away and clearing faults fast. A qualified engineer chooses and approves them."],
+  "Illustration, not for design: a fence post rises to 300 V relative to remote earth in a fault, and the ground one metre away is at 120 V. A person touching the post there sees a touch voltage of 300 - 120 = 180 V.",
+  "Given three pairs of readings (part voltage and ground voltage), work out the touch voltage for each, rank the three by risk and write one control for the worst case.",
+  "Three subtractions correct with units; the ranking follows the numbers; the control is named and the note says a qualified engineer approves it."),
+ ("Bonding and special locations", "Apply", 3,
+  "Some places need extra care because water, metal and people are close together. Learn where bonding is checked and what a record should show.",
+  ["Equipotential bonding links incoming metal pipes, structural steel and other conductive parts so they stay at the same voltage.",
+   "Bathrooms, kitchens, swimming areas, farms, workshops and fuel stores each have their own local rules.",
+   "Check for missing links, loose clamps, painted-over joints and unlabelled conductors.",
+   "Do not make or change bonding yourself unless you are competent and authorised."],
+  "A metal water pipe enters a workshop and is not linked to the main earthing terminal. A fault on a machine could raise the machine above the pipe, so a person touching both is at risk. Action: record it, tell the responsible engineer, and have a competent person correct it.",
+  "Review a sample workshop plan and list three metal parts that need bonding, then write one line on what you would record for each.",
+  "Three parts correctly named; each record line has what, where and who was told; no repair is attempted by the reviewer."),
+]
+RUBRIC = [('Diagram and terms', 'Loop incomplete or terms wrong', 'Complete fault loop with three terms used correctly', 'Also shows where touch voltage appears and why the device trips'), ('Calculations', 'Missing units or wrong arithmetic', 'Rise and touch voltage correct with units', 'Also notes limits of the illustration'), ('Record review', 'Records not judged or reasons missing', 'Each record marked complete or not and plausible or not, with next action', 'Also spots trends across records'), ('Safety and limits', 'Claims a design or repair', 'States that a qualified engineer designs and approves; no live work', 'Also names the permit and isolation steps'), ('Explanation', 'Not understood by a peer', '60-second explanation understood by a non-expert peer', 'Also uses a home example and a work example')]
+
 QUIZ = [("Name the three jobs of an earthing system.", "Protect people, protect equipment, keep the supply stable (and let protection operate)."),
  ("What is touch voltage?", "The voltage between a touched metal part and the ground under the person's feet."),
  ("Why measure soil resistivity in the driest season?", "Resistance is highest then, so the result is the worst case."),
@@ -82,10 +106,11 @@ def build():
         f'<div class="cb-facts"><span class="pill lv">L4 Practitioner</span><span class="pill">{total} h lessons plus practice</span><span class="pill pr">USD 39 per learner per month, or USD 79 with mentor review</span></div><ul class="blm">' + ''.join(f'<li><span class="bz">{b}</span> {e(t)}</li>' for b, t in outs) + '</ul>'
         '<h3 class="ws-h3">Task, condition and standard</h3><div class="tcs"><div><h4>Task</h4><p>Mark up a drawing, calculate a simple rise, judge three test records and explain the risk in 60 seconds.</p></div><div><h4>Condition</h4><p>Sample drawings and records supplied; calculator; mentor review; no live equipment. About 3 weeks part-time.</p></div><div><h4>Standard</h4><p>All calculations correct with units; every record judged with a reason; the explanation is understood by a non-expert peer.</p></div></div>'
         '<p class="ws-note">Safety: this course gives awareness and method. It does not qualify you to design, test or approve an earthing system. Work on live or fault-carrying equipment is done only by authorised, competent people under your local rules.</p>')
-    body = (about + B.sec('alt', 'md', 'lesson by lesson', '6 modules with worked examples', mods)
-            + B.sec('', 'as', 'assessment', 'How you are checked', '<p>Evidence: diagram, calculations, three record reviews, 60-second explanation. A mentor with electrical experience marks it. Pass: every standard met.</p><h3 class="ws-h3">Ten-question check, with model answers</h3>' + quiz)
-            + B.sec('alt', 'jb', 'jobs this leads to', 'Where this takes you', '<ul><li>Electrical technician trainee</li><li>Site safety assistant</li><li>Inspection and testing assistant</li><li>Utility field assistant</li></ul><p>Next: Selecting a cable, Checking a protection setting, Preparing a site test record.</p>')
-            + B.sec('', 'lc', 'ten locations and global', 'Your place', '<p>Wiring and earthing rules, colours and test limits differ by place. Always work to your own national code and your employer\'s procedure.</p>' + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Use your national wiring code and the local regulator for electrical safety. Credit frame: {e(L["frame"])}.</p></details>' for L in B.LOC) + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
-            + B.sec('alt', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship. Own wording; topic ideas only from the owner\'s reading set. A named engineer must review before publish. Not live.</p>'))
+    body = (about + B.sec('alt', 'md', 'lesson by lesson', f'{len(M)} modules with worked examples', mods)
+            + B.sec('', 'as', 'assessment', 'How you are checked', '<p>Evidence: diagram, calculations, three record reviews, 60-second explanation. A mentor with electrical experience marks it with this rubric. Pass: no criterion at Not yet.</p>' + '<div class="scroll-x"><table class="ws-table"><caption>Marking rubric (Not yet, Meets, Exceeds)</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>' + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(m)}</td><td>{e(d)}</td></tr>' for a, b, m, d in RUBRIC) + '</tbody></table></div>' + '<h3 class="ws-h3">Ten-question check, with model answers</h3>' + quiz)
+            + ladder_sec(LADDER['earthing'], 'alt')
+            + B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', '<ul><li>Electrical technician trainee</li><li>Site safety assistant</li><li>Inspection and testing assistant</li><li>Utility field assistant</li></ul><p>Next: Selecting a cable, Checking a protection setting, Preparing a site test record.</p>')
+            + B.sec('alt', 'lc', 'ten locations and global', 'Your place', '<p>Wiring and earthing rules, colours and test limits differ by place. Always work to your own national code and your employer\'s procedure.</p>' + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Use your national wiring code and the local regulator for electrical safety. Credit frame: {e(L["frame"])}.</p></details>' for L in B.LOC) + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
+            + B.sec('', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship. Own wording; topic ideas only from the owner\'s reading set. A named engineer must review before publish. Not live.</p>'))
     B.page('learn-flagship-earthing.html', 'Earthing and Ground Potential Rise (flagship course)', 'Understand earthing, bonding and ground potential rise: awareness and method.', 'Earthing and Ground Potential Rise', e('Understand how earthing keeps people safe, what ground potential rise is, and how to review test records.'), body, B.crumb(('Courses', 'courses-hub.html'), ('Electrical', None)), kicker='flagship course')
 build()

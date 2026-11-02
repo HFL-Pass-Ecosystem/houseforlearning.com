@@ -3,6 +3,8 @@
 import sys, pathlib, html
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import build_full_courses as B
+from ladder_common import ladder_sec
+from flagship_data_misc_ladder import LADDER
 import build_flagship_cv as CV   # reuses its content for module 4 (page already written by that import; harmless)
 e = html.escape
 
@@ -131,10 +133,11 @@ def build():
         '<p><strong>Who it is for:</strong> students, graduates, career changers, returners, seniors. <strong>Requirements:</strong> none. <strong>Materials:</strong> lesson text, templates, tracker, rubric, check with answers.</p>')
     body = (about + B.sec('alt', 'md', 'lesson by lesson', '9 modules with worked examples', mods)
             + B.sec('', 'as', 'assessment', 'How you are checked', f'<p>Evidence: goal and calendar, filter, target board, stories, CV and profile, tracker, mock interview record, package comparison, 90-day plan. Mentor and peers mark it with this rubric. Pass: no criterion at \'Not yet\'.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{quiz}')
-            + B.sec('alt', 'jb', 'jobs this leads to', 'Where this takes you', '<ul>' + ''.join(f'<li>{e(j)}</li>' for j in JOBS) + '</ul>')
-            + B.sec('', 'lc', 'ten locations and global', 'Your place', '<p>Local custom changes CV content, salary talk and notice periods. Check them for your place.</p>'
+            + ladder_sec(LADDER['career'], 'alt')
+            + B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', '<ul>' + ''.join(f'<li>{e(j)}</li>' for j in JOBS) + '</ul>')
+            + B.sec('alt', 'lc', 'ten locations and global', 'Your place', '<p>Local custom changes CV content, salary talk and notice periods. Check them for your place.</p>'
                     + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Currency: {L["cur"]}. Data rule for what you publish: {e(L["data"])}. Skills frame to cite: {e(L["frame"])}.</p></details>' for L in B.LOC)
                     + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
-            + B.sec('alt', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship. Own wording from the programme outline; no third-party text. Not live.</p>'))
+            + B.sec('', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship. Own wording from the programme outline; no third-party text. Not live.</p>'))
     B.page('learn-flagship-career-launch.html', 'Career Launch (flagship course)', 'A nine-module job search method from plan to offer.', 'Career Launch', e('Nine modules take you from a plan to an accepted offer, with stories, conversations, interviews and negotiation.'), body, B.crumb(('Courses', 'courses-hub.html'), ('Career launch', None)), kicker='flagship course')
 build()
