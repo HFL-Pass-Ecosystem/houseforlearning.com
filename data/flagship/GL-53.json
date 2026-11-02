@@ -1,291 +1,291 @@
 {
- "id": "GL-53",
- "title": "Alternative Protein Food Products",
- "level": 4,
- "desc": "Plan a small food product built on plant, fungal or insect protein: recipe, safety, labelling, costing and honest claims.",
- "outcomes": [
-  [
-   "Understand",
-   "Explain protein sources and the nutrition and allergy basics."
+  "id": "GL-53",
+  "title": "Alternative Protein Food Products",
+  "level": 4,
+  "desc": "Plan a small food product built on plant, fungal or insect protein: recipe, safety, labelling, costing and honest claims.",
+  "outcomes": [
+    [
+      "Understand",
+      "Explain protein sources and the nutrition and allergy basics."
+    ],
+    [
+      "Apply",
+      "Scale a recipe and plan a safe process."
+    ],
+    [
+      "Analyse",
+      "Compare taste, cost and nutrition against a normal product."
+    ],
+    [
+      "Evaluate",
+      "Judge labels and claims."
+    ],
+    [
+      "Create",
+      "Run a tasting test and write a launch plan."
+    ]
   ],
-  [
-   "Apply",
-   "Scale a recipe and plan a safe process."
+  "task": "Develop one alternative-protein product to a tested recipe with hygiene plan, label draft, cost sheet and tasting results.",
+  "condition": "A clean kitchen or partner food unit, scales, a spreadsheet, 10 tasters, two peers and a food-trade mentor. Local food rules are checked.",
+  "standard": "Recipe is repeatable within 5% weight; allergen list is complete; hygiene plan passes; label meets local rules; cost per pack is shown; 10 tasters' scores recorded; peers rate Meets or better.",
+  "who": "Food entrepreneurs, cooks, product developers, hospitality staff.",
+  "req": "none",
+  "evidence": "recipe card, hygiene plan, label draft, cost sheet, tasting record",
+  "modules": [
+    [
+      "Protein sources and what they give",
+      "Understand",
+      4,
+      "Protein can come from pulses, grains, soy, nuts, seeds, fungi, algae and insects. A maker must know what each gives and costs.",
+      [
+        "Read each pack label and write protein per 100 g, noting dry or cooked.",
+        "Combine sources that fill each other's gaps: grains are low in lysine, pulses in methionine.",
+        "Compare by cost per 10 g of protein, not price per kilo alone.",
+        "Follow the supplier's safe method for any source needing soaking or boiling."
+      ],
+      "Dry lentils show 24 g protein per 100 g at 120 INR per kg; rice shows 7 g at 60 INR. Cost per 10 g protein is 5.0 INR for lentils and 8.6 INR for rice, so lentils lead and rice balances the amino acids.",
+      "Build a table of six sources with protein per 100 g, cost per kg, cost per 10 g protein and the label date.",
+      "All six rows show values from labels or recognised tables with a date; cost per 10 g protein is calculated correctly."
+    ],
+    [
+      "Nutrition and allergens",
+      "Analyse",
+      5,
+      "A protein food must be nutritious and safe for allergic buyers. This is not health advice; ask a qualified dietitian and the food-safety office.",
+      [
+        "Compare with a normal product on protein, iron, fibre, salt and fat per 100 g.",
+        "List allergens from your local list, such as soy, nuts, gluten, milk, egg and sesame; insect protein can cross-react with shellfish.",
+        "Map cross-contact risks (scoops, fryers, benches) and write one control for each.",
+        "Give buyers no medical advice; refer special diets to a qualified adviser."
+      ],
+      "A cricket-flour cracker shares a bench with peanuts. The maker cleans the bench, uses a colour-coded scoop and writes \"Contains insect; may contain peanuts; avoid if shellfish allergic\". The table shows 14 g protein and no B12, which is noted.",
+      "Write the allergen statement and a cross-contact control table.",
+      "Every allergen named; each risk has a control."
+    ],
+    [
+      "Recipe development and scaling",
+      "Create",
+      6,
+      "A recipe is a method others can repeat. Test small, change one thing at a time and record every batch.",
+      [
+        "Weigh every ingredient in grams, not cups, and write time, temperature and equipment beside each step.",
+        "Make three test batches and compare weight, texture and taste; change only one variable between batches.",
+        "Scale by a factor (new weight = old weight x factor) and test the batch, as times change.",
+        "Write a batch number and date on each batch, and keep notes of what you changed and why."
+      ],
+      "Batch 1 is too salty. Batch 2 cuts salt from 2.0% to 1.6% and weighs 0.98 kg. Batch 3 adds 2 minutes of rest and weighs 1.01 kg. The 3% spread is inside 5%, so the recipe scales by 4.",
+      "Write a recipe card with weights, steps and limits, make three batches and record the weight of each.",
+      "Three batches weigh within 5% of each other; each has a batch number, date and tasting note."
+    ],
+    [
+      "Hygiene and food safety controls",
+      "Apply",
+      5,
+      "Safe food comes from written controls at the right steps. Local food-safety rules set exact limits; confirm them with the authority.",
+      [
+        "Draw the flow from receiving to sale and mark steps that remove hazards, such as cooking and cooling.",
+        "For each control point write a limit, a measure, a record and a fix.",
+        "Check thermometers in iced water (0 degrees) and log it.",
+        "Keep raw and cooked apart, wash hands, and keep logs of cleaning and training."
+      ],
+      "A patty plan sets core 75 degrees or more; chill 60 to 21 degrees within 2 hours, then to 5 within 4 more. The log shows 78 degrees at 14:10 and 5 at 19:40. A failed limit means the batch is discarded.",
+      "Write a control plan with four control points and a log sheet.",
+      "Each control point has a limit, a measure, a record and a corrective action; a trained person signs the log."
+    ],
+    [
+      "Labels and honest claims",
+      "Evaluate",
+      5,
+      "A label is a legal, honest statement. Check your draft against local rules and a qualified adviser.",
+      [
+        "List name, ingredients by weight, emphasised allergens, net weight, date, storage and maker details.",
+        "Judge each claim against a rule: \"high protein\" needs a minimum amount under local law.",
+        "Use \"vegan\" or \"meat-free\" only after checking every ingredient.",
+        "Ask an adviser or the local office to review the draft, and record who said what and on which date."
+      ],
+      "A draft says \"high protein\" but shows 9 g per 100 g, below the local threshold, so it becomes \"9 g protein per 100 g\". Allergens go in bold and net weight 250 g is added.",
+      "Draft a label with all required items and a claims check table for every claim on it.",
+      "Every claim has evidence and a rule reference; an adviser check is dated; no claim is untrue or unproved."
+    ],
+    [
+      "Costing and pricing",
+      "Analyse",
+      5,
+      "Know the true cost of one pack, including waste, before choosing a price. Profit is price minus all costs, not just ingredients.",
+      [
+        "List ingredients, packing, fuel, labour, loss, overhead, labels and testing, and cost each per batch.",
+        "Cost per pack = total batch cost divided by good packs sold, so count only the packs that pass.",
+        "Set a price above cost with a margin, and compare it with the nearest normal product on the shelf.",
+        "Test a 10% rise in your biggest cost and recalculate the margin."
+      ],
+      "A batch of 40 packs costs 1,800 INR, but 4 are lost, so 36 good packs give 50 INR each. At 80 INR the margin is 30 INR or 37.5%. A 10% lentil rise adds 60 INR to the batch, making cost 51.7 INR and margin 28.3 INR.",
+      "Build a cost sheet with all items, a loss rate, a price and a 10% cost-rise test.",
+      "Totals are correct; currency is shown on every number; loss is counted; margin is stated."
+    ],
+    [
+      "Taste testing and feedback",
+      "Evaluate",
+      4,
+      "Real tasters give you evidence. Their scores show what to change and what to keep.",
+      [
+        "Recruit at least 10 tasters, give each a number, and get consent and allergy answers before they eat.",
+        "Ask them to score taste, texture, appearance and value from 1 to 5, and ask one open question.",
+        "Record scores and comments without defending the product, then calculate the average for each item.",
+        "Change one thing, test again with the same method, and compare the averages."
+      ],
+      "Ten tasters score texture 3.2. The maker cuts mixing time by 1 minute and retests. Texture now averages 4.1, but taste falls from 4.3 to 4.0, so the maker keeps the new time and adds a pinch of spice.",
+      "Run a blind tasting with 10 people and record the sheet, the averages and one change.",
+      "At least 10 scores per item; consent and allergy answers kept; averages calculated; one change retested."
+    ],
+    [
+      "Launch plan and review",
+      "Create",
+      5,
+      "Start small, learn from sales and complaints, and grow only when the product is safe and repeatable.",
+      [
+        "Choose one channel, such as a market stall, a cafe or online, and list what it requires: licence, cold storage, delivery.",
+        "Plan a first run of 100 packs with a cost budget and a stock-chilling plan that matches your control limits.",
+        "Choose reusable or recyclable packaging and check it is safe for food.",
+        "Set targets for sales, complaints and waste, and set a review date."
+      ],
+      "A weekend market stall plans 60 packs, 80 INR each. It sells 52 in two days, collects 25 email sign-ups and receives 1 complaint about salt. Revenue is 4,160 INR against a batch cost of 2,700 INR. The maker reviews at day 7.",
+      "Write a one-page launch plan with channel, budget, targets and review date.",
+      "Plan has costs, rules checked, safety controls, targets and a dated review."
+    ]
   ],
-  [
-   "Analyse",
-   "Compare taste, cost and nutrition against a normal product."
+  "quiz": [
+    [
+      "Why combine protein sources?",
+      "Different sources lack different amino acids, so a grain with a pulse gives a fuller profile than either alone, as rice with lentils does."
+    ],
+    [
+      "Name three allergens a protein product may contain.",
+      "Soy, nuts and gluten are common; milk, egg, fish, shellfish and sesame are also major; insect protein can cross-react with shellfish allergy."
+    ],
+    [
+      "How do you scale a recipe safely?",
+      "Multiply every weight by the same factor, then test the larger batch, because mixing, cooking and cooling times can change."
+    ],
+    [
+      "Why weigh ingredients instead of using cups?",
+      "Weights are exact and repeatable, so three batches can be compared within 5% and a fault can be traced."
+    ],
+    [
+      "What is a control point and what must it have?",
+      "A step such as cooking or cooling where a hazard is removed; it needs a limit, a measure, a record and a corrective action."
+    ],
+    [
+      "How should cooked food be cooled?",
+      "Quickly and within the local rule, for example from 60 to 21 degrees within 2 hours, then to 5 degrees; confirm the rule with the authority."
+    ],
+    [
+      "How many tasters does this course need, and what else?",
+      "At least 10 tasters, with consent and allergy answers, scoring taste, texture, appearance and value from 1 to 5."
+    ],
+    [
+      "Name four items in a cost per pack.",
+      "Ingredients, packing, fuel, labour, loss and overhead; divide the total by good packs sold, not by packs made."
+    ],
+    [
+      "When can you call a product meat-free or vegan?",
+      "Only after you have checked every ingredient and the cross-contact controls and know the claim is true under local rules."
+    ],
+    [
+      "What records should you keep?",
+      "Batch numbers and dates, temperatures, cleaning, training, tasting scores and label checks, so every claim can be shown."
+    ]
   ],
-  [
-   "Evaluate",
-   "Judge labels and claims."
+  "rubric": [
+    [
+      "Recipe consistency",
+      "Varies",
+      "Within 5%",
+      "Within 3% and documented"
+    ],
+    [
+      "Food safety",
+      "Gaps",
+      "Plan complete",
+      "Plan with logs"
+    ],
+    [
+      "Label and claims",
+      "Errors",
+      "Meets rules",
+      "Meets rules with adviser check"
+    ],
+    [
+      "Honesty and evidence",
+      "Claims without proof",
+      "Every claim has a record",
+      "Every claim linked to a dated record and checked by a peer"
+    ],
+    [
+      "Safety, ethics and local rules",
+      "Not considered",
+      "Checked and written down",
+      "Checked, dated and explained to others"
+    ]
   ],
-  [
-   "Create",
-   "Run a tasting test and write a launch plan."
+  "jobs": [
+    [
+      "Food product developer",
+      "Tests recipes"
+    ],
+    [
+      "Food-safety assistant",
+      "Keeps logs"
+    ],
+    [
+      "Small food maker",
+      "Sells at markets"
+    ],
+    [
+      "Kitchen supervisor",
+      "Runs production"
+    ],
+    [
+      "Label and compliance clerk",
+      "Prepares labels"
+    ]
+  ],
+  "next": "food industry, handmade goods, ecommerce growth.",
+  "local": "Food laws, labelling and licences differ by place.",
+  "ladder": [
+    [
+      "Protein sources",
+      "L1: learner can name protein sources and compare them by protein per 100 g.",
+      "Show six real packs and read each label aloud. Ask learners to rank by protein and by cost per 10 g of protein."
+    ],
+    [
+      "Nutrition and allergens",
+      "L2: learner can list major allergens and the cross-contact risks in a kitchen.",
+      "Give a recipe and ask learners to circle every allergen. Remind them not to give health advice; refer to a qualified adviser."
+    ],
+    [
+      "Recipe development",
+      "L3: learner can follow and scale a recipe card within 5% weight.",
+      "Make a small batch together. Weigh it, then scale by 4 and discuss which times might change."
+    ],
+    [
+      "Hygiene and food safety",
+      "L4: learner can run a batch with limits, thermometer checks and logs.",
+      "Check a thermometer in iced water. Fill one log sheet together and practise a corrective action."
+    ],
+    [
+      "Labels and claims",
+      "L5: learner can draft a label and test each claim against local rules.",
+      "Hand out a draft label with one false claim. Ask learners to find it and point to an adviser for the final check."
+    ],
+    [
+      "Cost and taste test",
+      "L6: learner can cost a pack and run a tasting with 10 people.",
+      "Work through the cost sheet with a loss rate. Then rehearse the tasting form and consent step."
+    ],
+    [
+      "Launch plan",
+      "L7: learner can write a small launch plan and audit it for safety and honesty.",
+      "Review each plan against the standard: costs, rules, controls, targets and review date. Ask what would stop a launch."
+    ]
   ]
- ],
- "task": "Develop one alternative-protein product to a tested recipe with hygiene plan, label draft, cost sheet and tasting results.",
- "condition": "A clean kitchen or partner food unit, scales, a spreadsheet, 10 tasters, two peers and a food-trade mentor. Local food rules are checked.",
- "standard": "Recipe is repeatable within 5% weight; allergen list is complete; hygiene plan passes; label meets local rules; cost per pack is shown; 10 tasters' scores recorded; peers rate Meets or better.",
- "who": "Food entrepreneurs, cooks, product developers, hospitality staff.",
- "req": "none",
- "evidence": "recipe card, hygiene plan, label draft, cost sheet, tasting record",
- "modules": [
-  [
-   "Protein sources",
-   "Understand",
-   4,
-   "Many foods can provide protein. A good alternative-protein product uses sources well.",
-   [
-    "Pulses, grains, soy, nuts and seeds, mushroom-based protein, algae and insects are all used.",
-    "Combining sources, such as rice with lentils, supplies a more complete amino acid profile.",
-    "Protein per 100 g varies widely; read labels and use recognised data.",
-    "Some sources need special processing to remove bitter or harmful compounds."
-   ],
-   "Rice and lentils together give a more complete protein than either alone. A batch of lentil patties provides about 9 g protein per 100 g.",
-   "Make a table of six sources with protein per 100 g from labels, with the date.",
-   "Values come from labels or recognised tables."
-  ],
-  [
-   "Nutrition and allergy",
-   "Analyse",
-   5,
-   "A product must be nutritious and safe for people with allergies.",
-   [
-    "Check iron, B12, calcium, fibre, salt and fat balance.",
-    "Major allergens: soy, nuts, gluten, milk, eggs, fish and shellfish; insect protein can cross-react with shellfish allergy.",
-    "Declare allergens in bold on the label.",
-    "Prevent cross-contact in the kitchen."
-   ],
-   "An insect-flour product warns on the label that people with shellfish allergy should avoid it and that it is made in a unit that also handles nuts.",
-   "Check your recipe against an allergen list and write the allergen statement.",
-   "All allergens named and cross-contact controls listed."
-  ],
-  [
-   "Recipe development",
-   "Create",
-   6,
-   "Test small, change one thing at a time and record everything.",
-   [
-    "Weigh all ingredients and record steps with time and temperature.",
-    "Make three batches and compare.",
-    "Adjust salt, texture and moisture gradually.",
-    "Record batch numbers and dates."
-   ],
-   "Version 3 uses 18% less salt and holds shape better after a 2-minute longer rest. The three batches vary by 3% in weight.",
-   "Write a recipe card and make three batches.",
-   "Batches within 5% weight and tasting notes recorded."
-  ],
-  [
-   "Hygiene and food safety",
-   "Apply",
-   5,
-   "Prevent harm with controls at the right steps.",
-   [
-    "Identify hazards and control points such as cooking temperature and cooling time.",
-    "Keep raw and cooked separate; clean tools and surfaces.",
-    "Use thermometers and record temperatures.",
-    "Train all staff and keep logs."
-   ],
-   "Cooked patties are cooled from 60 to 21 degrees within 2 hours and then to 5 degrees within a further 4 hours, with times logged.",
-   "Write a hygiene and control plan with measurable limits.",
-   "Each control point has a limit and a record."
-  ],
-  [
-   "Labels and claims",
-   "Evaluate",
-   5,
-   "The label must tell the truth.",
-   [
-    "Name, ingredients by weight, allergens, net weight, date, storage, maker details.",
-    "Claims such as \"high protein\" must meet rules for the amount.",
-    "Use \"meat-free\" or \"vegan\" only if true.",
-    "Check local rules with an adviser."
-   ],
-   "A label lists \"Contains soy\" in bold, net weight 250 g, best-before date and storage \"keep refrigerated, use within 3 days of opening\".",
-   "Draft a label for your product and get adviser comments.",
-   "Label meets local rules per adviser check."
-  ],
-  [
-   "Costing and price",
-   "Analyse",
-   5,
-   "Know your cost per pack and your margin.",
-   [
-    "Ingredients, packing, fuel, labour, loss and overhead.",
-    "Price above cost with a margin; compare with normal products.",
-    "Account for waste and test batches.",
-    "Review costs when prices change."
-   ],
-   "A 250 g pack costs 42 INR to make. Sold at 70 INR, margin is 28 INR. A 10% price rise in lentils changes cost to 44 INR.",
-   "Build a cost sheet.",
-   "Totals are correct and currency is shown."
-  ],
-  [
-   "Taste test and feedback",
-   "Evaluate",
-   4,
-   "Use real tasters and real scores.",
-   [
-    "Ask 10 tasters to score taste, texture, appearance and value from 1 to 5.",
-    "Ask about allergies and get consent.",
-    "Record comments without defending.",
-    "Change one thing and test again."
-   ],
-   "Texture scores 3.2. Mixing time is reduced by one minute and the next test scores 4.1.",
-   "Run a tasting test and record scores.",
-   "Scores and changes logged."
-  ],
-  [
-   "Launch plan",
-   "Create",
-   5,
-   "Start small and learn.",
-   [
-    "Choose a channel: market, cafe, online.",
-    "Plan cold storage and delivery.",
-    "Plan packaging that can be reused or recycled.",
-    "Set targets for sales and complaints."
-   ],
-   "A weekend market stall with samples sells 60 packs and collects 25 email sign-ups.",
-   "Write the launch plan.",
-   "Plan includes costs, channels and a review date."
-  ]
- ],
- "quiz": [
-  [
-   "Why combine protein sources?",
-   "To get all amino acids. (Covered in module 1: Protein sources. To pass that module: Values come from labels or recognised tables.)"
-  ],
-  [
-   "Name two allergens.",
-   "Soy and nuts (also gluten, shellfish cross-reaction). (Covered in module 2: Nutrition and allergy. To pass that module: All allergens named and cross-contact controls listed.)"
-  ],
-  [
-   "What goes on a label?",
-   "Name, ingredients, allergens, weight, date, storage, maker. (Covered in module 3: Recipe development. To pass that module: Batches within 5% weight and tasting notes recorded.)"
-  ],
-  [
-   "Why weigh ingredients?",
-   "For repeatable batches. (Covered in module 4: Hygiene and food safety. To pass that module: Each control point has a limit and a record.)"
-  ],
-  [
-   "What is a control point?",
-   "A step like cooking temperature that prevents harm. (Covered in module 5: Labels and claims. To pass that module: Label meets local rules per adviser check.)"
-  ],
-  [
-   "How cool cooked food?",
-   "Quickly, within the rule. (Covered in module 6: Costing and price. To pass that module: Totals are correct and currency is shown.)"
-  ],
-  [
-   "How many tasters here?",
-   "At least 10. (Covered in module 7: Taste test and feedback. To pass that module: Scores and changes logged.)"
-  ],
-  [
-   "Name a cost item.",
-   "Ingredients, packing, fuel, labour, loss, overhead. (Covered in module 8: Launch plan. To pass that module: Plan includes costs, channels and a review date.)"
-  ],
-  [
-   "When say meat-free?",
-   "Only when true. (Covered in module 8: Launch plan. To pass that module: Plan includes costs, channels and a review date.)"
-  ],
-  [
-   "What do you log?",
-   "Batches, temperatures, cleaning. (Covered in module 8: Launch plan. To pass that module: Plan includes costs, channels and a review date.)"
-  ]
- ],
- "rubric": [
-  [
-   "Recipe consistency",
-   "Varies",
-   "Within 5%",
-   "Within 3% and documented"
-  ],
-  [
-   "Food safety",
-   "Gaps",
-   "Plan complete",
-   "Plan with logs"
-  ],
-  [
-   "Label and claims",
-   "Errors",
-   "Meets rules",
-   "Meets rules with adviser check"
-  ],
-  [
-   "Honesty and evidence",
-   "Claims without proof",
-   "Every claim has a record",
-   "Every claim linked to a dated record and checked by a peer"
-  ],
-  [
-   "Safety, ethics and local rules",
-   "Not considered",
-   "Checked and written down",
-   "Checked, dated and explained to others"
-  ]
- ],
- "jobs": [
-  [
-   "Food product developer",
-   "Tests recipes"
-  ],
-  [
-   "Food-safety assistant",
-   "Keeps logs"
-  ],
-  [
-   "Small food maker",
-   "Sells at markets"
-  ],
-  [
-   "Kitchen supervisor",
-   "Runs production"
-  ],
-  [
-   "Label and compliance clerk",
-   "Prepares labels"
-  ]
- ],
- "next": "food industry, handmade goods, ecommerce growth.",
- "local": "Food laws, labelling and licences differ by place.",
- "ladder": [
-  [
-   "Protein sources",
-   "L1: learner can name protein sources. Focus module: Protein sources (Understand, 4 h). Many foods can provide protein. A good alternative-protein product uses sources well. Key points: Pulses, grains, soy, nuts and seeds, mushroom-based protein, algae and insects are all used. Combining sources, such as rice with lentils, supplies a more complete amino acid profile. Protein per 100 g varies widely; read labels and use recognised data. Some sources need special processing to remove bitter or harmful compounds.",
-   "Teach: open with the worked example. Rice and lentils together give a more complete protein than either alone. A batch of lentil patties provides about 9 g protein per 100 g. Then set the activity: Make a table of six sources with protein per 100 g from labels, with the date. Mark against the standard: Values come from labels or recognised tables. Check at this level: Why combine protein sources? Model answer: To get all amino acids."
-  ],
-  [
-   "Nutrition and allergy",
-   "L2: learner knows allergens and hygiene. Focus module: Nutrition and allergy (Analyse, 5 h). A product must be nutritious and safe for people with allergies. Key points: Check iron, B12, calcium, fibre, salt and fat balance. Major allergens: soy, nuts, gluten, milk, eggs, fish and shellfish; insect protein can cross-react with shellfish allergy. Declare allergens in bold on the label. Prevent cross-contact in the kitchen.",
-   "Teach: open with the worked example. An insect-flour product warns on the label that people with shellfish allergy should avoid it and that it is made in a unit that also handles nuts. Then set the activity: Check your recipe against an allergen list and write the allergen statement. Mark against the standard: All allergens named and cross-contact controls listed. Check at this level: Name two allergens. Model answer: Soy and nuts (also gluten, shellfish cross-reaction)."
-  ],
-  [
-   "Recipe development",
-   "L3: learner can follow a recipe card. Focus module: Recipe development (Create, 6 h). Test small, change one thing at a time and record everything. Key points: Weigh all ingredients and record steps with time and temperature. Make three batches and compare. Adjust salt, texture and moisture gradually. Record batch numbers and dates.",
-   "Teach: open with the worked example. Version 3 uses 18% less salt and holds shape better after a 2-minute longer rest. The three batches vary by 3% in weight. Then set the activity: Write a recipe card and make three batches. Mark against the standard: Batches within 5% weight and tasting notes recorded. Check at this level: What goes on a label? Model answer: Name, ingredients, allergens, weight, date, storage, maker."
-  ],
-  [
-   "Hygiene and food safety",
-   "L4: learner can run a batch with logs. Focus module: Hygiene and food safety (Apply, 5 h). Prevent harm with controls at the right steps. Key points: Identify hazards and control points such as cooking temperature and cooling time. Keep raw and cooked separate; clean tools and surfaces. Use thermometers and record temperatures. Train all staff and keep logs.",
-   "Teach: open with the worked example. Cooked patties are cooled from 60 to 21 degrees within 2 hours and then to 5 degrees within a further 4 hours, with times logged. Then set the activity: Write a hygiene and control plan with measurable limits. Mark against the standard: Each control point has a limit and a record. Check at this level: Why weigh ingredients? Model answer: For repeatable batches."
-  ],
-  [
-   "Labels and claims",
-   "L5: learner can cost, label and test. Focus module: Labels and claims (Evaluate, 5 h). The label must tell the truth. Key points: Name, ingredients by weight, allergens, net weight, date, storage, maker details. Claims such as \"high protein\" must meet rules for the amount. Use \"meat-free\" or \"vegan\" only if true. Check local rules with an adviser.",
-   "Teach: open with the worked example. A label lists \"Contains soy\" in bold, net weight 250 g, best-before date and storage \"keep refrigerated, use within 3 days of opening\". Then set the activity: Draft a label for your product and get adviser comments. Mark against the standard: Label meets local rules per adviser check. Check at this level: What is a control point? Model answer: A step like cooking temperature that prevents harm."
-  ],
-  [
-   "Taste test and feedback",
-   "L6: learner can lead a kitchen shift. Focus module: Taste test and feedback (Evaluate, 4 h). Use real tasters and real scores. Key points: Ask 10 tasters to score taste, texture, appearance and value from 1 to 5. Ask about allergies and get consent. Record comments without defending. Change one thing and test again.",
-   "Teach: open with the worked example. Texture scores 3.2. Mixing time is reduced by one minute and the next test scores 4.1. Then set the activity: Run a tasting test and record scores. Mark against the standard: Scores and changes logged. Check at this level: How cool cooked food? Model answer: Quickly, within the rule."
-  ],
-  [
-   "Launch plan",
-   "L7: learner can audit a food plan. Focus module: Launch plan (Create, 5 h). Start small and learn. Key points: Choose a channel: market, cafe, online. Plan cold storage and delivery. Plan packaging that can be reused or recycled. Set targets for sales and complaints.",
-   "Teach: open with the worked example. A weekend market stall with samples sells 60 packs and collects 25 email sign-ups. Then set the activity: Write the launch plan. Mark against the standard: Plan includes costs, channels and a review date. Check at this level: How many tasters here? Model answer: At least 10."
-  ]
- ]
 }
