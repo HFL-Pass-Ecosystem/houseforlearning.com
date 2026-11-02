@@ -302,7 +302,7 @@
 "k": "ge",
 "slug": "wind-energy",
 "found": "payback GEL 750,000 / GEL 98,550 = 7.6 years.",
-"fix": "payback GEL 750,000 / GEL 54,750 = 13.7 years.",
+"fix": "payback GEL 750,000 / GEL 54,750 = 13.7 years, which fails the go rule of under 10 years, so the answer is no-go. To pass: cut the turbine cost to GEL 500,000 (500,000 / 54,750 = 9.1 years) or raise the yield to GEL 80,000 a year (750,000 / 80,000 = 9.4 years).",
 "issue": "price"
 }
 ]
