@@ -82,5 +82,5 @@ for i, (g, items) in enumerate(sorted(groups.items())):
     body += sec('alt' if i % 2 == 0 else '', f'g{i}', f'{len(items)} courses', g, lst(items))
 body += sec('', 'how-h', 'how every course is taught', 'Practice first, then share, then study',
             f'<p>Every course mixes {e(L70.lower())}, {e(L20.lower())} and {e(L10.lower())}, and follows the same five-step journey: Idea, Action, Value, Empowerment, Regeneration.</p>' + note)
-page('courses.html', 'Courses', 'Draft list of course chapters and courses.', 'Courses', f'{len(D["chapters"])} chapters and {len(D["courses"])} courses, each taught by practice, sharing and study.', body, '<li aria-current="page">Courses</li>')
+page('courses.html', 'Courses', 'List of planned course chapters and courses.', 'Courses', f'{len(D["chapters"])} chapters and {len(D["courses"])} courses, each taught by practice, sharing and study.', body, '<li aria-current="page">Courses</li>')
 print('pages:', len(D['chapters']) + len(D['courses']) + 1)

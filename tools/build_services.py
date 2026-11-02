@@ -44,7 +44,7 @@ def swap(t, fn, title, desc, crumbs, main):
 
 def enquiry(slug, name):
     return (f'<section class="svc-form" id="enquiry" aria-labelledby="enq-h"><div class="svc-in"><p class="svc-kick">enquire</p><h2 id="enq-h">Ask about {e(name)}</h2>'
-      f'<form class="contact svc-enq" action="#" method="post" data-offline data-subject="Service enquiry" data-thanks="Your email app has opened with your enquiry. Please press Send there." aria-labelledby="enq-h">'
+      f'<form class="contact svc-enq" action="#" method="post" data-offline data-subject="Service enquiry" data-thanks="Thank you. Your message has been sent. We reply by email." aria-labelledby="enq-h">'
       f'<div class="vh" aria-hidden="true"><label for="e-website">Leave this empty</label><input id="e-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>'
       f'<div class="field"><label for="e-service">Service</label><input type="text" id="e-service" name="topic" value="{e(name)}" readonly></div>'
       f'<div class="field-row"><div class="field"><label for="e-name">Full name</label><input type="text" id="e-name" name="name" autocomplete="name" required></div><div class="field"><label for="e-email">Email</label><input type="email" id="e-email" name="email" autocomplete="email" required></div></div>'
@@ -70,12 +70,7 @@ for slug, name, title, tag, ps, bh, bl, hue in SERV:
     (S / f'service-{slug}.html').write_text(swap(tpl, f'service-{slug}.html', title, desc,
         '<li><a href="partner.html">Partner with us</a></li><li aria-current="page">' + e(title) + '</li>', main))
 
-# services.html: one card per service, each to its own page
-cards = '<ul class="cards">' + ''.join(
-    f'<li class="card"><h3><a href="service-{s}.html">{e(n)}</a></h3><p>{e(t) if t else "Duration: 1 hour"}</p></li>' for s, n, _, t, *_ in SERV) + '</ul>'
-main = ('<main id="main" tabindex="-1"><section class="hero" aria-labelledby="h1"><div class="wrap hero-grid solo"><div><p class="kicker">services</p><h1 id="h1">Services</h1></div></div></section>'
-        f'<section class="sec" aria-labelledby="all-h"><div class="wrap"><div class="sec-head"><p class="kicker">{len(SERV)} services</p><h2 id="all-h">Pick a service</h2></div><div class="sec-body">{cards}</div></div></section></main>')
-(S / 'services.html').write_text(swap(tpl, 'services.html', 'Services', 'Introduction, SMETech, EdTech, EmTech, MSMETech and Life Long Learning.', '<li aria-current="page">Services</li>', main).replace('<body class="learn svc-page">', '<body class="learn">'))
+# services.html is written by build_org_pages.py (sole owner); not written here.
 
 # partner.html: keep "Join us / Become a leader today"; each service card goes to its own page
 pp = (S / 'partner.html').read_text()
