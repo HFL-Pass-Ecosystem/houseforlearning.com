@@ -186,7 +186,7 @@ LAD = {
   ("Quote two trips with margin",
    "Quote two trips with all supplier costs, fee, vouchers and a written change log. Notes: supplier costs AED 3,000 plus fee AED 300 give price AED 3,300, and the fee is 9.1 per cent of the price."),
   ("Compare options and decide on a disruption",
-   "Analyse a cancelled flight for a family of 4 and decide the best rebooking, transfer and hotel changes. Notes: a flight 6 hours later at no extra fare, with the hotel told to hold the room, avoids a AED 900 first-night charge; contact the traveller first."),
+   "Analyse a cancelled flight for a family of 4 and decide the best rebooking, transfer and hotel changes. Notes: a flight 6 hours later at no extra fare, with the hotel told to hold the room, avoids an AED 900 first-night charge; contact the traveller first."),
   ("Coach a team on disruption handling",
    "Lead a small team to write a disruption plan for a group of 10 with three options and a message. Notes: sample five files a week for fare rules told in writing; target trips completed without a complaint."),
   ("Design the trip support system",
