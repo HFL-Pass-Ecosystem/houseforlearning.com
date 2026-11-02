@@ -36,55 +36,59 @@
    "Types and fit",
    "Understand",
    3,
-   "Bikes, e-bikes, scooters.",
+   "Different vehicles suit different places.",
    [
+    "Bikes, e-bikes, scooters and cargo bikes have different range, speed and cost.",
     "Short trips under 5 km are the main use.",
-    "E-assist helps hills.",
-    "Match to local roads and weather."
+    "E-assist helps on hills and with longer trips.",
+    "Match to local roads, weather and rules."
    ],
-   "A hilly campus picks e-bikes.",
-   "Compare 3 types.",
-   "Table includes range and cost."
+   "A hilly campus picks e-bikes because they allow fast trips up slopes without sweat.",
+   "Compare three vehicle types in a table.",
+   "Table includes range, cost and best use."
   ],
   [
    "Zones and parking",
    "Apply",
    4,
-   "Order on the street.",
+   "Order on the street keeps the service welcome.",
    [
     "Pick start points near demand.",
-    "Marked parking, no-go zones, speed limits.",
-    "Work with the owner or authority."
+    "Marked parking, no-go zones and speed limits.",
+    "Work with the owner or authority.",
+    "Review complaints."
    ],
-   "Parking bays at gates reduce clutter.",
-   "Draw a zone map.",
-   "Zones marked."
+   "Parking bays at gates reduce clutter; a no-go zone near a hospital entrance prevents blocked access.",
+   "Draw a zone map for a campus or district.",
+   "Zones are marked and justified."
   ],
   [
-   "Fleet sizing",
+   "Fleet sizing and rebalancing",
    "Analyse",
    4,
-   "Not too many, not too few.",
+   "Not too many and not too few.",
    [
     "Fleet = peak trips / trips per vehicle per day.",
-    "Rebalancing moves bikes to demand.",
-    "Start small and measure."
+    "Rebalancing moves vehicles from places where they pile up to where they are needed.",
+    "Start small and measure.",
+    "Keep spares for repair."
    ],
-   "60 peak trips at 6 trips each need 10 bikes plus a spare.",
-   "Size your fleet.",
+   "60 peak trips at 6 trips per vehicle need 10 vehicles plus 2 spares.",
+   "Size a fleet for your case.",
    "Maths correct."
   ],
   [
-   "Safety",
+   "Rider safety",
    "Evaluate",
    5,
-   "Prevent injury.",
+   "Prevent injuries.",
    [
-    "Helmets, lights, speed limits; age limits.",
-    "Rider training and clear rules.",
-    "Incident log and insurance."
+    "Helmets, lights, speed limits and age limits.",
+    "Rider tips and clear rules in the app.",
+    "Incident log and insurance.",
+    "Safe parking and pedestrian priority."
    ],
-   "A slow-speed zone is set near pedestrians.",
+   "A slow-speed zone is set near pedestrians and the speed is limited remotely.",
    "Write safety rules.",
    "Rules measurable."
   ],
@@ -94,11 +98,12 @@
    4,
    "Safe vehicles every day.",
    [
-    "Daily check: brakes, tyres, lights, bell, lock.",
+    "Daily check: brakes, tyres, lights, bell and lock.",
     "Battery swaps and safe charging.",
-    "Spare parts."
+    "Spare parts and tools.",
+    "Log every repair."
    ],
-   "A tag shows last check date.",
+   "A tag shows last check date; vehicles failing a check are removed.",
    "Create a check card.",
    "Card has ten items."
   ],
@@ -106,14 +111,15 @@
    "Pricing and money",
    "Evaluate",
    4,
-   "Cover costs.",
+   "Cover costs and stay fair.",
    [
     "Unlock fee plus per-minute price; passes.",
-    "Costs: vehicles, staff, charging, repair, insurance.",
-    "Break-even trips per day."
+    "Costs: vehicles, staff, charging, repair, insurance and permits.",
+    "Break-even trips per day.",
+    "Discounts for students and low-income riders."
    ],
-   "Break-even is 4.2 trips per bike per day.",
-   "Build a sheet.",
+   "Break-even is 4.2 trips per vehicle per day at a 20 INR average fare.",
+   "Build a pricing sheet.",
    "Currency shown."
   ],
   [
@@ -122,11 +128,12 @@
    3,
    "Be a good neighbour.",
    [
-    "Noise, sidewalk clutter, accessibility.",
-    "Complaint line.",
-    "Recycling of batteries and parts."
+    "Noise, sidewalk clutter and accessibility.",
+    "Complaint line and response times.",
+    "Recycling of batteries and parts.",
+    "Local jobs."
    ],
-   "A fine for blocking paths is explained in rules.",
+   "A fine for blocking paths is explained in rules and enforced fairly.",
    "List community actions.",
    "Each has an owner."
   ],
@@ -134,15 +141,16 @@
    "Pilot plan",
    "Create",
    4,
-   "Run 30 days.",
+   "Test before scaling.",
    [
     "Targets for trips, safety and complaints.",
     "Review weekly.",
-    "Decide to stop, change or grow."
+    "Decide to stop, change or grow.",
+    "Share results."
    ],
-   "The pilot adds two bays after complaints.",
+   "The pilot adds two bays after complaints and raises utilisation.",
    "Present the plan.",
-   "Peers can follow it."
+   "Peers can follow."
   ]
  ],
  "quiz": [

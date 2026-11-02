@@ -33,116 +33,124 @@
  "evidence": "site survey, sizing sheet, safety plan, tariff, maintenance plan, cash view",
  "modules": [
   [
-   "Charger types",
+   "Charger types and connectors",
    "Understand",
    3,
-   "Slow, fast and ultra-fast.",
+   "Chargers differ in power, speed and cost. Choose by how long drivers will stay.",
    [
-    "AC points (3 to 22 kW) suit long stays; DC fast chargers suit quick stops.",
-    "Connectors and standards depend on region.",
-    "Smart chargers share load."
+    "AC points (3 to 22 kW) suit long stays such as homes, workplaces and hotels; the car converts AC to DC.",
+    "DC fast chargers (50 kW and above) suit quick stops on routes.",
+    "Connector types and standards depend on region; check which cars you must support.",
+    "Smart chargers can share power and report faults."
    ],
-   "A mall installs 7 kW points because shoppers stay two hours.",
-   "Compare 3 charger types.",
-   "Table includes time to add 30 kWh."
+   "A shopping mall installs 7 kW points because shoppers stay about two hours and add 14 kWh each. A highway site installs 60 kW units because drivers want 30 kWh in 30 minutes.",
+   "Compare three charger types in a table with power, time to add 30 kWh, cost range and best site.",
+   "Table values are correct and sourced."
   ],
   [
-   "Site choice",
+   "Choosing a site",
    "Apply",
    4,
-   "Right place, right grid.",
+   "The right place and the right grid connection decide success.",
    [
-    "Visible, safe, lit, accessible, near amenities.",
-    "Distance to the electricity supply; transformer capacity.",
-    "Permissions from the owner and the utility."
+    "Visible, safe, well lit, accessible, near amenities such as food and toilets.",
+    "Distance to the electricity supply and spare transformer capacity.",
+    "Permission from the land owner, the utility and the local authority.",
+    "Space for growth and for queuing."
    ],
-   "A site 20 m from the panel cuts cable cost.",
-   "Do a mock site survey.",
-   "Scores for 5 criteria."
+   "A site 20 m from the main panel saves cable cost; another 300 m away needs trenching and a new transformer, doubling cost.",
+   "Do a mock site survey for two sites and score five criteria.",
+   "Scores justified in writing."
   ],
   [
-   "Power sizing",
+   "Power sizing and load management",
    "Apply",
    5,
    "Do not overload the supply.",
    [
-    "Total kW = chargers x kW x diversity factor.",
-    "Check supply capacity; add load management if limited.",
-    "Plan growth."
+    "Total kW = number of chargers x kW x diversity factor.",
+    "Compare with supply capacity; use load management when limited.",
+    "Plan growth with spare conduit.",
+    "Include power for lights and equipment."
    ],
-   "Four 7 kW points on a 20 kW supply use load sharing.",
-   "Size your site.",
-   "Maths correct."
+   "Four 7 kW points on a 20 kW supply use load sharing so that total draw never exceeds 20 kW; with all four in use each car gets about 5 kW.",
+   "Size a site and show the calculation.",
+   "Maths correct; supply limit respected."
   ],
   [
    "Demand and revenue",
    "Analyse",
    5,
-   "Estimate real use.",
+   "Estimate real use before you invest.",
    [
-    "Count nearby EVs and traffic.",
+    "Count nearby EVs and traffic; talk to likely users.",
     "Utilisation = hours in use / hours open.",
-    "Revenue = kWh sold x price minus electricity cost."
+    "Revenue = kWh sold x price minus electricity cost and fees.",
+    "Test low, medium and high demand cases."
    ],
-   "At 15% utilisation a 7 kW point sells about 9 kWh a day.",
-   "Build a 12-month model.",
-   "Currency shown."
+   "At 15 per cent utilisation a 7 kW point sells about 25 kWh a day; at 5 per cent it sells about 8 kWh a day and may not break even.",
+   "Build a 12-month model with three demand cases.",
+   "Currency shown and assumptions listed."
   ],
   [
    "Safety and standards",
    "Evaluate",
    5,
-   "Protect users.",
+   "Protect users and property.",
    [
-    "RCD protection, earthing, surge, emergency stop, fire plan.",
-    "Weather protection and cable management.",
-    "Regular inspection."
+    "Residual current protection, earthing, surge protection, emergency stop and fire plan.",
+    "Weather protection, cable management and trip-free layout.",
+    "Regular inspection and testing by qualified staff.",
+    "Clear signs and instructions."
    ],
-   "A charger fails a test and is locked out until fixed.",
-   "List safety measures.",
-   "Approved by licensed person."
+   "A charger fails an earth test and is locked out until a licensed electrician repairs it; the fault is logged.",
+   "List the safety measures for your site.",
+   "A licensed person approves the list."
   ],
   [
    "Pricing and payment",
    "Evaluate",
    4,
-   "Clear and fair.",
+   "Make prices clear and fair.",
    [
-    "Per kWh, per minute, session fee, idle fee.",
-    "Display price before charging.",
-    "Payment through approved local methods."
+    "Per kWh, per minute, session fee and idle fee.",
+    "Display price before charging begins.",
+    "Use payment methods approved in your place.",
+    "Offer a way for users without a smartphone."
    ],
-   "An idle fee after 30 minutes frees the bay.",
-   "Design a tariff.",
-   "Examples worked."
+   "An idle fee after 30 minutes frees the bay for other drivers, and users are told by a sign and a message.",
+   "Design a tariff and test it with three examples.",
+   "Examples worked correctly."
   ],
   [
    "Operations and uptime",
    "Apply",
    4,
-   "Chargers must work.",
+   "Chargers must work when drivers arrive.",
    [
-    "Remote monitoring; a fault response time.",
-    "Maintenance schedule; spares.",
-    "Helpline number on the unit."
+    "Remote monitoring and a fault response target.",
+    "Maintenance schedule and spare parts.",
+    "A helpline number printed on the unit.",
+    "Record faults and fixes."
    ],
-   "A 24-hour fix target is met 95% of the time.",
-   "Write an operations sheet.",
-   "Targets measurable."
+   "A target to fix faults within 24 hours is met 95 per cent of the time by keeping spare connectors on site.",
+   "Write an operations sheet with targets.",
+   "Targets are measurable."
   ],
   [
-   "Inclusion and plan",
+   "Inclusion and the site plan",
    "Create",
    4,
    "Everyone should be able to charge.",
    [
-    "Step-free access, bay width, lighting.",
-    "Multi-language instructions.",
-    "Share the plan with the community."
+    "Step-free access, bay width, lighting and a call button.",
+    "Multi-language instructions and simple screens.",
+    "Share the plan with the community.",
+    "Review after six months."
    ],
-   "Wider bays and a call button suit wheelchair users.",
+   "Wider bays and a call button let wheelchair users charge independently.",
    "Finish the plan.",
-   "Peers can follow it."
+   "Peers can follow the plan and see accessibility steps."
   ]
  ],
  "quiz": [

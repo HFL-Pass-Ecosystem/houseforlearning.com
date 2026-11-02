@@ -33,18 +33,19 @@
  "evidence": "legal checklist, booking flow, cost sheet, safety plan, launch plan",
  "modules": [
   [
-   "Models",
+   "Models of sharing",
    "Understand",
    3,
-   "Three common ways.",
+   "There are several ways to share cars.",
    [
-    "Peer-to-peer lending of private cars.",
-    "A company fleet booked by the hour.",
-    "Carpool matching shared journeys."
+    "Peer-to-peer lets owners rent their cars to others.",
+    "A fleet owned by an operator is booked by the hour.",
+    "Carpooling matches people with seats to riders.",
+    "Each model has different legal, insurance and trust needs."
    ],
-   "A building runs a shared car booked by the hour.",
-   "Compare 3 models.",
-   "Pros and cons."
+   "A residential building runs a shared car booked by the hour for members.",
+   "Compare three models in a table.",
+   "Pros and cons for each."
   ],
   [
    "Legal and insurance",
@@ -54,51 +55,55 @@
    [
     "Licences, vehicle checks, tax and permits.",
     "Insurance that covers sharing, not only private use.",
-    "Written terms for damage and fines."
+    "Written terms for damage and fines.",
+    "Data and privacy rules for location data."
    ],
-   "A policy covers hire use only if declared.",
+   "A policy covers hire use only if declared; an undeclared sharing claim is refused.",
    "Make a legal checklist.",
    "Each item has a source."
   ],
   [
-   "Vetting and ID",
+   "Vetting and identity",
    "Apply",
    4,
    "Know who drives.",
    [
     "Check licence and ID; set minimum experience.",
     "Photo of vehicle before and after.",
-    "Privacy rules for data."
+    "Privacy rules for data.",
+    "Block risky drivers."
    ],
-   "A licence check fails and booking is blocked.",
+   "A licence check fails and booking is blocked until the user provides valid documents.",
    "Write the vetting steps.",
-   "Steps clear."
+   "Steps are clear."
   ],
   [
    "Booking and handover",
    "Apply",
    4,
-   "Smooth and fair.",
+   "Make the journey smooth and fair.",
    [
-    "App or form: choose car, time, deposit.",
+    "App or form: choose car, time and deposit.",
     "Digital or key handover; fuel or charge rule.",
-    "Late and cancel rules."
+    "Late and cancel rules.",
+    "Support line."
    ],
-   "A checklist records mileage and damage.",
+   "A checklist records mileage and damage at pickup and return.",
    "Design the flow.",
-   "Flow has 8 steps."
+   "Flow has eight steps."
   ],
   [
    "Costs and price",
    "Analyse",
    5,
-   "Know the real cost.",
+   "Know the real cost per hour and per km.",
    [
     "Fixed: insurance, depreciation, parking. Variable: fuel, wear.",
     "Cost per hour and per km.",
-    "Utilisation for break-even."
+    "Utilisation for break-even.",
+    "Review regularly."
    ],
-   "Cost 520 INR per day fixed plus 7 INR per km.",
+   "Fixed cost 520 INR per day plus 7 INR per km; at 80 km a day, cost per km is 13.5 INR.",
    "Build a cost sheet.",
    "Currency shown."
   ],
@@ -109,10 +114,11 @@
    "Plan for problems.",
    [
     "Breakdown, accident and fraud steps.",
-    "Emergency numbers; first aid kit.",
-    "Incident log and review."
+    "Emergency numbers and first aid kit.",
+    "Incident log and review.",
+    "Roadside help."
    ],
-   "A driver reports a flat tyre; roadside help is called.",
+   "A driver reports a flat tyre; roadside help is called and the booking extended.",
    "Write an incident plan.",
    "Steps ordered."
   ],
@@ -124,9 +130,10 @@
    [
     "No discrimination in access.",
     "Fair rates and clear fees.",
-    "Accessibility options."
+    "Accessibility options.",
+    "Feedback loop."
    ],
-   "A rule offers hand controls on request.",
+   "A rule offers hand controls on request and trains staff.",
    "List fairness rules.",
    "Rules clear."
   ],
@@ -138,11 +145,12 @@
    [
     "Pilot with one car and 20 members.",
     "Track use, damage and feedback.",
-    "Improve."
+    "Improve.",
+    "Decide to grow."
    ],
-   "Pilot: 60% utilisation, 1 minor damage.",
+   "Pilot: 60 per cent utilisation and 1 minor damage.",
    "Present the plan.",
-   "Peers follow it."
+   "Peers follow."
   ]
  ],
  "quiz": [

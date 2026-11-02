@@ -33,116 +33,124 @@
  "evidence": "test table, safety note, price sheet, plan",
  "modules": [
   [
-   "Batteries and units",
+   "Batteries, units and capacity",
    "Understand",
    3,
-   "mAh, V, Wh.",
+   "You cannot compare power banks without understanding the units.",
    [
-    "Wh = V x Ah. A 10,000 mAh at 3.7 V is 37 Wh.",
-    "Losses of 20 to 40% in conversion.",
-    "Charge and discharge cycles age cells."
+    "Energy in watt-hours: Wh = volts x amp-hours; a 10,000 mAh cell at 3.7 V holds 37 Wh.",
+    "Conversion to 5 V and charging loses 20 to 40 per cent as heat.",
+    "Cycles of charge and discharge age batteries.",
+    "Labels often give capacity at cell voltage, not usable output."
    ],
-   "A 37 Wh bank charges a 12 Wh phone about 2.5 times.",
-   "Calculate three examples.",
-   "Maths correct."
+   "A 37 Wh bank with 70 per cent efficiency delivers about 26 Wh, enough for roughly two charges of a 12 Wh phone.",
+   "Calculate usable energy for three banks from their labels.",
+   "Maths correct and assumptions stated."
   ],
   [
    "Wired charging standards",
    "Understand",
    3,
-   "Cables and speeds.",
+   "Cables and plugs affect speed and safety.",
    [
     "Connector types and power delivery levels.",
-    "Use quality cables; thin cables overheat.",
-    "Match charger and device."
+    "Thin cables overheat and limit current.",
+    "Match charger, cable and device.",
+    "Use certified products from reliable sellers."
    ],
-   "A 65 W charger with the wrong cable charges slowly.",
-   "Make a compatibility table.",
-   "Entries correct."
+   "A 65 W charger with a cheap cable charges a laptop slowly because the cable cannot carry the current.",
+   "Make a compatibility table for five devices.",
+   "Entries are correct."
   ],
   [
    "Wireless charging",
    "Understand",
    3,
-   "Coils and fields.",
+   "Coils and magnetic fields transfer energy without a plug.",
    [
-    "Pad and device must align.",
-    "Efficiency is lower; more heat.",
-    "Metal objects between can heat up."
+    "Pad and device must align; metal objects between can heat up.",
+    "Efficiency is lower than wired charging; more heat.",
+    "Standards exist for compatibility.",
+    "Good for convenience, not always for speed."
    ],
-   "A wireless pad is 70% efficient, wasting 30%.",
-   "Explain how it works.",
-   "Peer understands."
+   "A wireless pad at 70 per cent efficiency wastes 30 per cent as heat, so a 15 Wh phone charge draws about 21 Wh from the wall.",
+   "Explain how wireless charging works to a peer.",
+   "Peer can repeat the main idea and one limit."
   ],
   [
-   "Testing capacity",
+   "Testing real capacity",
    "Apply",
    4,
-   "Measure, do not trust labels.",
+   "Measure, do not trust the label.",
    [
-    "Discharge fully into a known load and measure Wh.",
+    "Discharge fully into a known load while recording watt-hours with a meter.",
     "Repeat three times and average.",
-    "Compare to the label."
+    "Compare with the label and note the percentage.",
+    "Record temperature and time."
    ],
-   "A 20,000 mAh bank delivers 55 Wh instead of 74 Wh claimed.",
-   "Test three banks.",
-   "Results recorded."
+   "A 20,000 mAh bank labelled 74 Wh delivers 55 Wh, 74 per cent of the claim.",
+   "Test three banks and record results in a table.",
+   "Results recorded with averages and percentage of label."
   ],
   [
    "Safety and quality",
    "Evaluate",
    4,
-   "Cheap packs can fail.",
+   "Poor batteries can overheat or catch fire.",
    [
     "Look for certification marks and protection circuits.",
     "Avoid swollen, hot or damaged units.",
-    "Do not carry on aircraft against airline rules; check limits."
+    "Follow airline and transport rules for carrying batteries.",
+    "Dispose of faulty batteries at a collection point."
    ],
-   "A swollen bank is isolated in a safe container and disposed of properly.",
-   "Write a safety note.",
-   "Includes disposal."
+   "A swollen bank is isolated in a safe container away from flammable items and taken to a collection point.",
+   "Write a safety note and a disposal procedure.",
+   "Includes inspection, isolation and disposal."
   ],
   [
-   "Shared charging service",
+   "A shared charging service",
    "Create",
    4,
-   "Kiosk or lending service.",
+   "Kiosks and lending services can serve events and cafes.",
    [
     "Locations: cafes, events, transport hubs.",
     "Pricing by time or deposit.",
-    "Return, cleaning and loss control."
+    "Return, cleaning and loss control.",
+    "Staff training and insurance."
    ],
-   "A cafe rents banks for 50 INR and refunds on return.",
-   "Plan a service.",
-   "Costs and prices shown."
+   "A cafe rents banks for 50 INR with a refundable deposit of 300 INR and tracks serial numbers.",
+   "Plan a small service with prices.",
+   "Costs and prices shown with currency."
   ],
   [
-   "Care and recycling",
+   "Care, reuse and recycling",
    "Apply",
    3,
-   "Extend life.",
+   "Extend the life of your devices.",
    [
-    "Avoid heat; store at half charge.",
-    "Recycle batteries at collection points.",
-    "Repair only with trained people."
+    "Avoid heat; store at about half charge.",
+    "Recycle at collection points.",
+    "Repair only with trained people.",
+    "Label and track batteries."
    ],
-   "A cafe has a labelled battery recycling box.",
+   "A cafe has a labelled battery recycling box and a monthly collection.",
    "Write care rules.",
-   "Rules specific."
+   "Rules are specific."
   ],
   [
-   "Plan and review",
+   "Pilot and review",
    "Create",
    3,
-   "Pilot the idea.",
+   "Test the idea for a week.",
    [
-    "Run a one-week trial.",
+    "Run a trial with a small number of users.",
     "Record use and complaints.",
-    "Improve."
+    "Improve based on data.",
+    "Decide whether to continue."
    ],
-   "Week one: 40 rentals, 2 losses; add deposit.",
+   "Week one: 40 rentals and 2 losses; a deposit is added and losses stop.",
    "Present your review.",
-   "Numbers real."
+   "Numbers are real."
   ]
  ],
  "quiz": [
