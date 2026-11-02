@@ -1,0 +1,283 @@
+{
+ "id": "GL-68",
+ "title": "Space Tourism Awareness",
+ "level": 2,
+ "desc": "Understand what suborbital and orbital tourism are, the risks, cost, rules and careers, and how to read claims.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain suborbital and orbital flights."
+  ],
+  [
+   "Apply",
+   "Read a flight profile."
+  ],
+  [
+   "Analyse",
+   "Compare cost, risk and environment."
+  ],
+  [
+   "Evaluate",
+   "Judge safety and fairness."
+  ],
+  [
+   "Create",
+   "Write a fact sheet."
+  ]
+ ],
+ "task": "Produce a two-page fact sheet on space tourism with flight types, risks, costs, environmental impact and careers.",
+ "condition": "A computer, public information, two peers and a mentor.",
+ "standard": "Facts sourced and dated; risks stated; claims checked; peers rate Meets or better.",
+ "who": "Students, travel staff, writers, enthusiasts.",
+ "req": "none",
+ "evidence": "fact sheet, comparison table",
+ "modules": [
+  [
+   "What counts as space",
+   "Understand",
+   2,
+   "The edge of space.",
+   [
+    "A common line is 100 km up.",
+    "Suborbital goes up and falls back.",
+    "Orbital circles Earth."
+   ],
+   "A short flight gives a few minutes of weightlessness.",
+   "Explain the difference.",
+   "Peer understands."
+  ],
+  [
+   "Flight types",
+   "Understand",
+   2,
+   "Rocket, balloon, plane.",
+   [
+    "Rocket planes, capsules, high balloons.",
+    "Time, altitude and experience vary.",
+    "Training is needed."
+   ],
+   "Balloon flights reach about 30 km.",
+   "Compare types.",
+   "Table complete."
+  ],
+  [
+   "Safety and health",
+   "Evaluate",
+   2,
+   "Risk is real.",
+   [
+    "Acceleration, vibration, radiation, emergencies.",
+    "Medical checks and training.",
+    "Incident history is public."
+   ],
+   "Passengers train for high G.",
+   "List risks.",
+   "Each risk has a control."
+  ],
+  [
+   "Cost and access",
+   "Analyse",
+   2,
+   "Very expensive today.",
+   [
+    "Costs are in the hundreds of thousands and above.",
+    "Price may fall.",
+    "Access is unequal."
+   ],
+   "A seat costs more than a lifetime of savings for most.",
+   "Discuss fairness.",
+   "Fair views."
+  ],
+  [
+   "Environment",
+   "Analyse",
+   2,
+   "Rockets emit.",
+   [
+    "Soot and gases in high air.",
+    "Launch frequency matters.",
+    "Fuel type changes impacts."
+   ],
+   "Per passenger emissions are high.",
+   "Check a claim.",
+   "Source dated."
+  ],
+  [
+   "Rules and licensing",
+   "Evaluate",
+   2,
+   "Regulated by authorities.",
+   [
+    "Launch licences, informed consent.",
+    "Passenger responsibility.",
+    "Insurance."
+   ],
+   "Operators must tell passengers risks.",
+   "List rules.",
+   "Sources named."
+  ],
+  [
+   "Careers and ground services",
+   "Understand",
+   2,
+   "Not just pilots.",
+   [
+    "Engineers, medics, trainers, guides, safety.",
+    "Hospitality and data roles.",
+    "Local spaceports."
+   ],
+   "A spaceport employs hundreds in ground roles.",
+   "List ten roles.",
+   "Roles correct."
+  ],
+  [
+   "Fact sheet",
+   "Create",
+   2,
+   "Balanced writing.",
+   [
+    "Plain language.",
+    "State limits.",
+    "Test with a reader."
+   ],
+   "Reader repeats three facts.",
+   "Finish.",
+   "Reader can repeat."
+  ]
+ ],
+ "quiz": [
+  [
+   "Space line?",
+   "About 100 km."
+  ],
+  [
+   "Suborbital?",
+   "Up and back without orbit."
+  ],
+  [
+   "Name a risk.",
+   "High G or radiation."
+  ],
+  [
+   "Cost?",
+   "Very high today."
+  ],
+  [
+   "Environmental issue?",
+   "Emissions in high air."
+  ],
+  [
+   "Rule?",
+   "Licence and informed consent."
+  ],
+  [
+   "Ground roles?",
+   "Engineers, medics, trainers."
+  ],
+  [
+   "Why check claims?",
+   "Hype."
+  ],
+  [
+   "Balloon altitude?",
+   "About 30 km."
+  ],
+  [
+   "Fairness issue?",
+   "Access."
+  ]
+ ],
+ "rubric": [
+  [
+   "Accuracy",
+   "Errors",
+   "Correct",
+   "Correct and sourced"
+  ],
+  [
+   "Balance",
+   "One-sided",
+   "Both",
+   "Both with limits"
+  ],
+  [
+   "Clarity",
+   "Hard",
+   "Clear",
+   "Tested"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Spaceport guest services",
+   "Welcomes guests"
+  ],
+  [
+   "Aerospace ground assistant",
+   "Supports crews"
+  ],
+  [
+   "Travel adviser",
+   "Explains options"
+  ],
+  [
+   "Science communicator",
+   "Writes factual guides"
+  ],
+  [
+   "Safety administration assistant",
+   "Tracks training"
+  ]
+ ],
+ "next": "drones, nanosatellites, adventure tourism.",
+ "local": "Space regulation differs by country.",
+ "ladder": [
+  [
+   "Know the basics",
+   "L1: learner can say what space is.",
+   "Define."
+  ],
+  [
+   "Know the rules and risks",
+   "L2: learner knows flight types.",
+   "Types."
+  ],
+  [
+   "Prepare and set up",
+   "L3: learner can read a profile.",
+   "Profile."
+  ],
+  [
+   "Run it",
+   "L4: learner can compare costs.",
+   "Costs."
+  ],
+  [
+   "Specialise and measure",
+   "L5: learner can review safety.",
+   "Safety."
+  ],
+  [
+   "Lead a small team",
+   "L6: learner can coordinate guest services.",
+   "Team."
+  ],
+  [
+   "Advise and audit others",
+   "L7: learner can audit a sheet.",
+   "Peer audit."
+  ]
+ ]
+}

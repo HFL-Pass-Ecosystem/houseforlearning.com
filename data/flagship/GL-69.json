@@ -1,0 +1,283 @@
+{
+ "id": "GL-69",
+ "title": "Boat and Helicopter Tourism",
+ "level": 4,
+ "desc": "Plan a small boat or helicopter tour offering with safe operations, licences, weather rules, guest care and pricing.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain operator duties and passenger safety."
+  ],
+  [
+   "Apply",
+   "Run briefings and weather checks."
+  ],
+  [
+   "Analyse",
+   "Compute cost per hour and per guest."
+  ],
+  [
+   "Evaluate",
+   "Judge risk and environment."
+  ],
+  [
+   "Create",
+   "Write an operations plan."
+  ]
+ ],
+ "task": "Plan a tour product with route, safety briefing, weather rules, licences, price and incident plan, working with licensed operators.",
+ "condition": "A computer, a map, a spreadsheet, two peers and a licensed operator mentor. Learners do not operate vessels or aircraft.",
+ "standard": "Licences and insurance are checked with sources; weather go/no-go rules are written; briefing covers equipment and emergencies; cost per guest is correct; peers rate Meets or better.",
+ "who": "Tour planners, guides, hotel desks, port staff.",
+ "req": "none",
+ "evidence": "route plan, briefing script, go/no-go rules, price sheet",
+ "modules": [
+  [
+   "Product and route",
+   "Understand",
+   3,
+   "Design the experience.",
+   [
+    "Scenic, sunset, wildlife, transfer.",
+    "Duration, capacity, ports and landing sites.",
+    "Accessibility."
+   ],
+   "A 45-minute coastal route.",
+   "Design a route.",
+   "Map and timings."
+  ],
+  [
+   "Licences and insurance",
+   "Apply",
+   5,
+   "Only licensed operators.",
+   [
+    "Vessel or aircraft certificates, crew licences, operator permits.",
+    "Insurance for passengers.",
+    "Check expiry dates."
+   ],
+   "A certificate expires next month; booking stops.",
+   "Make a checklist.",
+   "Sources and dates."
+  ],
+  [
+   "Weather and go/no-go",
+   "Apply",
+   5,
+   "Safety over schedule.",
+   [
+    "Wind, visibility, waves, ceiling.",
+    "Clear numbers and a decision maker.",
+    "Refund policy for cancellations."
+   ],
+   "Wind above a set limit cancels flights.",
+   "Write rules.",
+   "Numbers specified."
+  ],
+  [
+   "Briefing and equipment",
+   "Apply",
+   4,
+   "Guests must know what to do.",
+   [
+    "Life jackets, seat belts, exits, behaviour.",
+    "Language options; check understanding.",
+    "Equipment inspection log."
+   ],
+   "Guests repeat how to fasten a life jacket.",
+   "Write a briefing script.",
+   "Under five minutes."
+  ],
+  [
+   "Emergencies",
+   "Evaluate",
+   4,
+   "Plan and drill.",
+   [
+    "Man overboard, fire, engine failure, medical.",
+    "Contacts and roles.",
+    "Practice drills."
+   ],
+   "A drill finds the radio channel was wrong.",
+   "Write a plan.",
+   "Steps ordered."
+  ],
+  [
+   "Cost and pricing",
+   "Analyse",
+   4,
+   "Know the economics.",
+   [
+    "Hourly cost of vessel or aircraft is high.",
+    "Cost per guest = hourly cost x hours / guests.",
+    "Break-even load factor."
+   ],
+   "Hourly 40,000 INR for 8 guests: 5,000 INR each.",
+   "Build a sheet.",
+   "Currency shown."
+  ],
+  [
+   "Environment and community",
+   "Evaluate",
+   3,
+   "Be a good neighbour.",
+   [
+    "Noise, wildlife, emissions.",
+    "Flight paths and speed rules.",
+    "Local jobs."
+   ],
+   "Routes avoid nesting sites.",
+   "List controls.",
+   "Controls clear."
+  ],
+  [
+   "Operations plan",
+   "Create",
+   3,
+   "Write and present.",
+   [
+    "Roles, schedule, records.",
+    "Review each season.",
+    "Guest feedback."
+   ],
+   "The plan reaches 4.7 average score.",
+   "Present.",
+   "Complete."
+  ]
+ ],
+ "quiz": [
+  [
+   "Who may operate?",
+   "Licensed operators and crew."
+  ],
+  [
+   "Go/no-go factors?",
+   "Wind, visibility, waves or ceiling."
+  ],
+  [
+   "Briefing items?",
+   "Equipment, exits, behaviour."
+  ],
+  [
+   "Cost per guest?",
+   "Hourly cost x hours / guests."
+  ],
+  [
+   "Why drills?",
+   "Find weaknesses."
+  ],
+  [
+   "Insurance for?",
+   "Passengers."
+  ],
+  [
+   "Why check expiry?",
+   "Valid permits."
+  ],
+  [
+   "Environment control?",
+   "Avoid nesting sites."
+  ],
+  [
+   "Cancel policy?",
+   "Refund."
+  ],
+  [
+   "What are checks logged?",
+   "Equipment inspection."
+  ]
+ ],
+ "rubric": [
+  [
+   "Licensing",
+   "Gaps",
+   "Checked",
+   "Checked with dates"
+  ],
+  [
+   "Safety",
+   "Gaps",
+   "Plan",
+   "Drilled"
+  ],
+  [
+   "Pricing",
+   "No costs",
+   "Costs",
+   "Break-even"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Tour operations coordinator",
+   "Plans trips"
+  ],
+  [
+   "Guest briefing host",
+   "Gives safety talks"
+  ],
+  [
+   "Port assistant",
+   "Manages boarding"
+  ],
+  [
+   "Booking agent",
+   "Sells tours"
+  ],
+  [
+   "Safety records clerk",
+   "Tracks checks"
+  ]
+ ],
+ "next": "tourism and hospitality, drone operations, customer service.",
+ "local": "Maritime and aviation law differ by place.",
+ "ladder": [
+  [
+   "Know the basics",
+   "L1: learner can name tour types.",
+   "Types."
+  ],
+  [
+   "Know the rules and risks",
+   "L2: learner knows licence basics.",
+   "Licences."
+  ],
+  [
+   "Prepare and set up",
+   "L3: learner can read weather rules.",
+   "Weather."
+  ],
+  [
+   "Run it",
+   "L4: learner can brief guests.",
+   "Brief."
+  ],
+  [
+   "Specialise and measure",
+   "L5: learner can price.",
+   "Price."
+  ],
+  [
+   "Lead a small team",
+   "L6: learner can lead.",
+   "Lead."
+  ],
+  [
+   "Advise and audit others",
+   "L7: learner can audit.",
+   "Peer audit."
+  ]
+ ]
+}
