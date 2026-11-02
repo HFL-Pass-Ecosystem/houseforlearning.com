@@ -42,9 +42,9 @@ def build(c, region):
         mh += (f'<details class="mod" {"open" if i==1 else ""}><summary><span class="mn">Module {i}</span> {e(m["t"])} <span class="pill">{m["h"]} h</span><span class="pill bz">{m["bl"]}</span></summary><p>{e(m["intro"])}</p><ul>'
                + ''.join(f'<li>{e(p)}</li>' for p in m['pts']) + '</ul>'
                f'<div class="evi"><strong>Worked example.</strong> {e(m["ex"])}</div><p><strong>Activity.</strong> {e(m["act"])}</p><p><strong>Standard to meet.</strong> {e(m["std"])}</p></details>')
-        quiz.append((m['q'], m['a']))
-    quiz += [("What is the task of this course, in one sentence?", c['task']),
-             ("What standard must your final evidence meet?", c['std'])]
+        quiz.append((m['q'], m['a'].rstrip() + f' (Covered in module {i}: {m["t"]}. To pass that module: {m["std"].rstrip().rstrip(".")}.)'))
+    quiz += [("What is the task of this course, in one sentence?", c['task'] + ' (Covered in: Task, condition and standard, near the top of this page.)'),
+             ("What standard must your final evidence meet?", c['std'] + ' (Covered in: Task, condition and standard, near the top of this page.)')]
     qh = ''.join(f'<details class="mod"><summary>Q{i+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a)}</p></details>' for i, (q, a) in enumerate(quiz))
     rub = ('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>'
            + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(x)}</td><td>{e(d)}</td></tr>' for a, b, x, d in RUBRIC) + '</tbody></table></div>')
