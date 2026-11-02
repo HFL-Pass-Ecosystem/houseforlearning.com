@@ -1,4 +1,4 @@
-/* Calm motion and flip cards: shared by all six sites.
+/* Calm motion and flip cards: shared by all pages.
    One ease, no bounce, no lift-on-hover, no continuous motion. Flip cards turn slowly (about 1.4 s, long ease-in-out) and only on tap/click,
    Enter/Space, or a deliberate pointer rest (calm.js). Reduced motion shows the back by fade. */
 :root{--calm-ease:cubic-bezier(.65,0,.35,1);--calm-flip:1.4s;--calm-fade:.8s}
