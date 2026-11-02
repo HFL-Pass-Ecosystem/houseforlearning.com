@@ -28,9 +28,10 @@ body = ''; n = 0
 for i, (name, pre) in enumerate(G):
     fs = sorted(f for f in S.glob('learn-*.html') if any(f.stem.startswith(p) for p in pre) and 'russia' not in f.stem)
     if not fs: continue
-    n += len(fs)
+    cs = [f for f in fs if not f.stem.endswith('-hub')]  # hub pages are linked but not counted as courses
+    n += len(cs)
     cards = ''.join(f'<li class="cc"><a href="{f.name}"><h3>{e(title(f))}</h3></a></li>' for f in fs)
-    body += B.sec('alt' if i % 2 else '', f'g{i}', 'courses', f'{name} ({len(fs)})', f'<ul class="cgrid">{cards}</ul>')
+    body += B.sec('alt' if i % 2 else '', f'g{i}', 'courses', f'{name} ({len(cs)})', f'<ul class="cgrid">{cards}</ul>')
 B.page('courses-all.html', 'All full-depth courses', f'{n} full-depth courses by area', 'All full-depth courses', e(f'{n} courses with modules, worked examples, rubrics and checks. Draft; nothing is live.'),
        body, B.crumb(('Courses', 'courses-hub.html'), ('All full-depth courses', None)), kicker='Courses')
 print('indexed', n)

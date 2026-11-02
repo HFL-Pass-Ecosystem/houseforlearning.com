@@ -80,7 +80,7 @@ for c in D['courses']: groups.setdefault(c['group'], []).append(c)
 body = sec('', 'ch-h', f'{len(D["chapters"])} chapters', 'Chapters to open first', lst(D['chapters']))
 for i, (g, items) in enumerate(sorted(groups.items())):
     body += sec('alt' if i % 2 == 0 else '', f'g{i}', f'{len(items)} courses', g, lst(items))
-body += sec('', 'how-h', 'how every course is taught', 'Practice first, then share, then study',
-            f'<p>Every course mixes {e(L70.lower())}, {e(L20.lower())} and {e(L10.lower())}, and follows the same five-step journey: Idea, Action, Value, Empowerment, Regeneration.</p>' + note)
-page('courses.html', 'Courses', 'List of planned course chapters and courses.', 'Courses', f'{len(D["chapters"])} chapters and {len(D["courses"])} courses, each taught by practice, sharing and study.', body, '<li aria-current="page">Courses</li>')
+body += sec('', 'how-h', 'how every course is taught', 'Practice first, then study, with a mentor',
+            f'<p>Every course mixes practice (70%), digital study (20%) and time with a facilitator or mentor (10%), and follows the same five-step journey: Idea, Action, Value, Empowerment, Regeneration.</p>' + note)
+page('courses.html', 'Courses', 'List of planned course chapters and courses.', 'Courses', f'{len(D["chapters"])} chapters and {len(D["courses"])} courses, each taught by practice, digital study and mentoring.', body, '<li aria-current="page">Courses</li>')
 print('pages:', len(D['chapters']) + len(D['courses']) + 1)
