@@ -95,8 +95,8 @@ EXTRA = {'Construction Safety Management': {'growth': ('Prove value with three c
                                       'cost by stops to see cost per delivery, then set a minimum '
                                       'order that makes each stop pay. Write return and damage '
                                       'terms on the delivery note. Ask the tax office which '
-                                      'invoice rules apply to drinks and snacks crossing a '
-                                      'municipal line before you promise a route.',
+                                      'invoice and tax rules apply to drinks and snacks '
+                                      'before you promise a route.',
                                       'A distributor sells delivery as route days at R$ 2.200 per '
                                       'route day. A truck serves 14 shops a day, so revenue per '
                                       'stop is R$ 157,14. Driver and fuel cost R$ 1.500 per route '

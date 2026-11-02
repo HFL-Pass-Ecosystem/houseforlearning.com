@@ -92,6 +92,11 @@ def pl(u, c=2):
 
 def slug(n): return 'learn-brazil-' + re.sub(r'[^a-z0-9]+', '-', n.lower()).strip('-') + '.html'
 def money(x): return f'R$ {x:,.0f}'.replace(',', '.')
+def bex(fx, cm, be):
+    # exact quotient (comma decimal) when not whole, then the rounded-up figure
+    if fx % cm == 0: return f'{be} '
+    q = fx / cm; t = f'{q:.3f}' if round(q, 3) == q else f'{q:.2f}'
+    return f'{t.replace(".", ",")}, so {be} '
 
 def mods(n):
     th, cu, un, rk, kit, pr, vc, fx, vol = D[n]
@@ -164,7 +169,7 @@ def mods(n):
        "Make a 12-month cash plan. Cash timing matters as much as profit: customers may pay late, suppliers may want money first.",
        "Keep money for business and money for the owner apart.",
        "Test the plan: what if sales fall by a quarter, or cost rises by a tenth?"],
-      f"Worked example, all figures in reais: price {money(pr)}, variable cost {money(vc)}, contribution {money(cm)} per {un}. Fixed cost {money(fx)} a month. Break-even = {money(fx)} / {money(cm)} = {be} {pl(un, be)} a month. At {vol} {pl(un, vol)} a month, profit = {money(cm)} x {vol} - {money(fx)} = {money(prof)}. These are teaching figures that belong to this example only; later examples and the case study use their own figures. Use your own.",
+      f"Worked example, all figures in reais: price {money(pr)}, variable cost {money(vc)}, contribution {money(cm)} per {un}. Fixed cost {money(fx)} a month. Break-even = {money(fx)} / {money(cm)} = {bex(fx, cm, be)}{pl(un, be)} a month. At {vol} {pl(un, vol)} a month, profit = {money(cm)} x {vol} - {money(fx)} = {money(prof)}. These are teaching figures that belong to this example only; later examples and the case study use their own figures. Use your own.",
       "Build your own table: price, variable cost, contribution, fixed cost, break-even and a downside case at 75% of sales. Show it to a peer or mentor.",
       "Arithmetic is correct; every figure has a source or is marked as an assumption; a downside case is shown."))
     m.append(("Grow, measure and renew", "Evaluate", 4,
