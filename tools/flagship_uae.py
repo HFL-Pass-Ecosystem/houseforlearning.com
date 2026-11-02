@@ -15,6 +15,11 @@ for _n in ('a','b','c','d'):
     try:
         for _k,_v in importlib.import_module('uae_deep_'+_n).D2.items(): D.setdefault(_k,[]); D[_k]=D[_k]+list(_v)
     except ModuleNotFoundError: pass
+LAD = {}
+for _n in ('a','b','c','d'):
+    try: LAD.update(importlib.import_module('uae_ladder_'+_n).LAD)
+    except ModuleNotFoundError: pass
+LVN = ['L1 Basic','L2 Awareness','L3 Foundation','L4 Practitioner','L5 Specialist','L6 Advanced','L7 Super expert']
 e = html.escape
 RUB = [("Evidence quality","Claims without records","Records for most claims","Every claim linked to a dated record"),
  ("Numbers and units","Missing units or currency","Correct, units shown (AED)","Correct, with a check calculation"),
@@ -134,6 +139,10 @@ def build(c):
     quiz=''.join(f'<details class="mod"><summary>Q{i+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a.rstrip()+tag(r))}</p></details>' for i,(q,a,r) in enumerate(c['Q']))
     rub=('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>'+''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(x)}</td><td>{e(d)}</td></tr>' for a,b,x,d in RUB)+'</tbody></table></div>')
     lad=('<div class="scroll-x"><table class="ws-table"><caption>Seven-level ladder</caption><thead><tr><th>Level</th><th>You can</th><th>Evidence</th></tr></thead><tbody>'+''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b.format(k=c["title"].lower()))}</td><td>{e(d)}</td></tr>' for a,b,d in LADDER)+'</tbody></table></div>')
+    if c['slug'] in LAD:
+        sl=LAD[c['slug']]; assert len(sl)==7, c['slug']
+        lad=('<p>Seven slides, one for each level. Step in at your level and move up; credits stack.</p>'+''.join(
+            f'<details class="mod"><summary>Slide {k}. {e(LVN[k-1])}: {e(t)}</summary><p><strong>On the slide:</strong> {e(LVN[k-1])} · {e(t)}</p><p><strong>Notes:</strong> {e(n)}</p></details>' for k,(t,n) in enumerate(sl,1)))
     about=B.sec('','ab','about this course','What you will be able to do',
       f'<div class="cb-facts"><span class="pill lv">L4 Practitioner</span><span class="pill">About {sum(x[2] for x in c["M"])} h</span><span class="pill">Practice 70% · Share 20% · Study 10%</span><span class="pill">UAE (Dubai and Abu Dhabi)</span></div>'
       '<ul class="blm">'+''.join(f'<li><span class="bz">{b}</span> {e(t)}</li>' for b,t in c['outcomes'])+'</ul>'
@@ -141,7 +150,7 @@ def build(c):
       f'<p class="ws-note">{e(c["safety"])}</p><p><strong>Requirements:</strong> none. Currency: AED on every number.</p>')
     body=(about+B.sec('alt','md','lesson by lesson',f'{len(c["M"])} modules with worked examples ({total} h guided)',mods)
       +B.sec('','as','assessment','How you are checked',f'<p>Evidence: your records, numbers and reflections. Two peers and one mentor mark it with this rubric. Pass: no criterion at "Not yet" and at least 70% on the check.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{quiz}')
-      +B.sec('alt','ld','levels L1 to L7','Where this sits on the ladder',lad)
+      +B.sec('alt','ld','levels L1 to L7','Slide by slide, with notes' if c['slug'] in LAD else 'Where this sits on the ladder',lad)
       +B.sec('','jb','jobs this leads to','Where this takes you','<ul>'+''.join(f'<li>{e(j)}</li>' for j in c['jobs'])+'</ul>')
       +B.sec('alt','lc','ten locations and global','Your place','<p>Use your own currency, language and local rules. Check each rule with your local authority.</p>'+''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Currency {L["cur"]}; language {e(L["lang"])}; set up legally: {e(L["reg"])}; personal data: {e(L["data"])}; where to practise: {e(L["partner"])}.</p></details>' for L in B.LOC)+f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
       +B.sec('','nx','next','Draft','<p class="ws-note">Draft flagship-depth course. Own wording. Not live.</p>'))
