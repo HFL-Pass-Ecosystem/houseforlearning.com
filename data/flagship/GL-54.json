@@ -33,116 +33,124 @@
  "evidence": "fact sheet, comparison table, claim checker",
  "modules": [
   [
-   "What it is",
+   "What cultivated meat is",
    "Understand",
    2,
-   "Real animal cells grown in a vessel.",
+   "Cultivated meat is real animal muscle and fat cells grown in a vessel instead of in an animal.",
    [
-    "A small sample is taken; cells multiply in nutrients.",
-    "Scaffolds give shape; cells mature into tissue.",
-    "It is different from plant-based meat."
+    "A small sample of cells is taken from a living animal, without killing it.",
+    "The cells multiply in a nutrient liquid in a bioreactor.",
+    "Cells are shaped on a scaffold and mature into tissue.",
+    "It is different from plant-based meat, which uses plant ingredients."
    ],
-   "A bioreactor grows cells for several weeks into a patty.",
-   "Draw the steps.",
-   "Steps in order."
+   "A pilot plant grows cells for several weeks in a stainless steel bioreactor, harvests them and forms a patty.",
+   "Draw the steps from sample to patty with labels.",
+   "Steps are in correct order."
   ],
   [
    "How it is made",
    "Understand",
    2,
-   "Stages from cell to product.",
+   "Understanding the process makes it easier to judge claims.",
    [
-    "Cell line, growth medium, bioreactor, harvest, forming, cooking.",
-    "Growth medium once used animal serum; newer media avoid it.",
-    "Clean-room hygiene is key."
+    "Stages: cell line, growth medium, bioreactor, harvest, forming, cooking.",
+    "Growth medium once used animal serum; newer media aim to avoid it.",
+    "Clean-room style hygiene is essential to prevent contamination.",
+    "Scaling up to large volumes is still a major challenge."
    ],
-   "A pilot plant changes to a serum-free medium.",
-   "Make a process chart.",
-   "Contains six stages."
+   "A pilot plant changes to a serum-free medium and reports a cost per kilogram reduction over two years.",
+   "Make a process chart with six stages and one risk for each.",
+   "All six stages present and risks are specific."
   ],
   [
    "Safety and approval",
    "Evaluate",
    2,
-   "Approval differs by place.",
+   "Approval differs by place and changes quickly.",
    [
-    "Regulators review cell source, medium, process and allergens.",
-    "Only a few places have approved sales.",
-    "Labels must be clear."
+    "Regulators review the cell source, medium, process, allergens and labelling.",
+    "Only a few places have approved sales so far.",
+    "Labels must be clear about what the product is.",
+    "Check regulator websites for the current status."
    ],
-   "A regulator approves one product after reviewing safety data.",
-   "List approval status for your place.",
+   "A regulator approves one product after reviewing safety data, requiring a clear label and monitoring.",
+   "List the approval status in your place with source and date.",
    "Source and date shown."
   ],
   [
    "Nutrition and taste",
    "Analyse",
    2,
-   "Compare with other proteins.",
+   "How does it compare with other proteins?",
    [
-    "Protein, fat, iron per 100 g.",
-    "Taste depends on fat and texture.",
-    "Processing may add salt."
+    "Compare protein, fat, iron and salt per 100 g.",
+    "Taste depends on fat, texture and seasoning.",
+    "Processing can add salt or additives.",
+    "Check lab data, not marketing."
    ],
-   "A table shows similar protein but different fat.",
-   "Make a comparison table.",
-   "Numbers sourced."
+   "A table shows cultivated chicken with similar protein per 100 g but different fat content than a farmed cut.",
+   "Make a comparison table for three products.",
+   "Numbers have sources."
   ],
   [
    "Environment claims",
    "Analyse",
    2,
-   "Energy use and land use vary.",
+   "Claims about land, water and emissions vary widely.",
    [
     "Compare land, water and emissions per kg.",
-    "Energy mix of the factory changes results.",
-    "Be careful with early estimates."
+    "The factory energy mix strongly changes results.",
+    "Early estimates are uncertain.",
+    "Use ranges rather than single numbers."
    ],
-   "Results vary widely between studies; a fact sheet states a range.",
-   "Check two claims.",
-   "Sources compared."
+   "One study finds large reductions with renewable power; another finds higher emissions with fossil power. A fact sheet states a range and the condition.",
+   "Check two environmental claims and compare their sources.",
+   "Sources compared and conditions stated."
   ],
   [
-   "Ethics and culture",
+   "Ethics, culture and livelihoods",
    "Evaluate",
    2,
-   "Different views deserve respect.",
+   "People hold different views and these deserve respect.",
    [
     "Animal welfare, religion and food culture views differ.",
     "Farmers' livelihoods may be affected.",
-    "Fair access and price matter."
+    "Fair access and price matter.",
+    "Public debate and clear labelling build trust."
    ],
-   "A community panel discusses halal and vegetarian views.",
+   "A community panel discusses halal, vegetarian and farming views and lists points of agreement and disagreement.",
    "Write two paragraphs on two views.",
-   "Both fair."
+   "Both are stated fairly."
   ],
   [
    "Jobs and skills",
    "Understand",
    2,
-   "New roles may appear.",
+   "New roles may appear as the sector grows.",
    [
-    "Cell biology technicians, process operators, food safety, quality, regulatory.",
-    "Skills from food and brewing carry across.",
-    "Training pathways at college level."
+    "Roles: cell biology technician, process operator, food safety, quality, regulatory.",
+    "Skills from brewing, dairy and pharmaceutical work carry across.",
+    "Training pathways at college level.",
+    "Check job claims; the sector is early stage."
    ],
-   "A brewery technician moves to a bioprocess role.",
-   "List five roles.",
-   "Roles with skills."
+   "A brewery technician moves to a bioprocess role after a short course on sterile technique.",
+   "List five roles with skills needed.",
+   "Roles are realistic and sourced."
   ],
   [
-   "Write the fact sheet",
+   "Write the balanced fact sheet",
    "Create",
    2,
-   "Combine and test.",
+   "Combine and test your fact sheet.",
    [
-    "One page, plain words.",
+    "One page and plain words.",
     "Include limits and unknowns.",
-    "Test with two readers."
+    "Test with two readers.",
+    "Date it and plan a review."
    ],
-   "Readers state three facts and two unknowns.",
+   "Readers can state three facts and two unknowns.",
    "Finish and test.",
-   "Readers can repeat them."
+   "Readers repeat the key points."
   ]
  ],
  "quiz": [
