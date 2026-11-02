@@ -29,7 +29,7 @@
     "Use it: write programs with decisions and loops. Save your work in a named file or folder.",
     "Test and fix: run it, find one fault, correct it, and note what you changed."
    ],
-   "example": "Model run for 'Python programming: control flow and strings'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "example": "Solved: name = 'Sara'; total = 0; for n in [3, 5, 7]: total = total + n; print(name, total) prints Sara 15. Trace each line to check. Method: Model run for 'Python programming: control flow and strings'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Write programs with decisions and loops: at least 70 percent on an exam-style task, with the method shown."
   },
@@ -71,7 +71,7 @@
     "Use it: convert numbers and describe hardware. Save your work in a named file or folder.",
     "Test and fix: run it, find one fault, correct it, and note what you changed."
    ],
-   "example": "Model run for 'Computer systems and number systems'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "example": "Solved: Binary 1011 = 8 + 0 + 2 + 1 = 11. Decimal 13 = 8 + 4 + 1 = 1101. Method: Model run for 'Computer systems and number systems'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Convert numbers and describe hardware: at least 70 percent on an exam-style task, with the method shown."
   },
@@ -92,7 +92,7 @@
     "Use it: create and query a table. Save your work in a named file or folder.",
     "Test and fix: run it, find one fault, correct it, and note what you changed."
    ],
-   "example": "Model run for 'Introduction to databases and SQL'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "example": "Solved: SELECT name, marks FROM students WHERE marks > 80 ORDER BY marks DESC; returns the students above 80, highest first. Method: Model run for 'Introduction to databases and SQL'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Create and query a table: at least 70 percent on an exam-style task, with the method shown."
   }
