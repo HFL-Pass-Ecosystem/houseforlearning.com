@@ -3,6 +3,8 @@
 import sys, pathlib, html
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import build_full_courses as B
+from flagship_data_eu_ladder import LADDER
+LV = {1: 'L1 Basic', 2: 'L2 Awareness', 3: 'L3 Foundation', 4: 'L4 Practitioner', 5: 'L5 Specialist', 6: 'L6 Advanced', 7: 'L7 Super expert'}
 e = html.escape
 
 RUBRIC_STD = [("Evidence quality", "Claims without records", "Records for most claims", "Every claim linked to a dated record"),
@@ -254,9 +256,10 @@ def build(c):
         f'<p class="ws-note">{e(c["safety"])}</p><p><strong>Requirements:</strong> {e(c["prereq"])}. Currency is shown on every number.</p>')
     body = (about + B.sec('alt', 'md', 'lesson by lesson', f'{len(c["mods"])} modules with worked examples ({total} h guided)', mods)
             + B.sec('', 'as', 'assessment', 'How you are checked', f'<p>Evidence: your record, numbers and reflections. Two peers and one mentor mark it with this rubric. Pass: no criterion at "Not yet" and at least 70% on the check.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{quiz}')
-            + B.sec('alt', 'jb', 'jobs this leads to', 'Where this takes you', '<ul>' + ''.join(f'<li>{e(j)}</li>' for j in c['jobs']) + '</ul>')
-            + B.sec('', 'lc', 'ten locations and global', 'Your place', '<p>Use your own currency, language and local rules. Check each rule with your local authority.</p>' + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Currency {L["cur"]}; language {e(L["lang"])}; set up legally: {e(L["reg"])}; personal data: {e(L["data"])}; where to practise: {e(L["partner"])}.</p></details>' for L in B.LOC) + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
-            + B.sec('alt', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship-depth course. Own wording. Not live.</p>'))
+            + B.sec('alt', 'ld', 'ladder L1 to L7', 'Slide by slide, with notes', '<p>Seven slides, one for each level. Step in at your level and move up; credits stack.</p>' + ''.join(f'<details class="mod"><summary>Slide {i}. {LV[i]}: {e(t)}</summary><p><strong>On the slide:</strong> {LV[i]} · {e(t)}</p><p><strong>Notes:</strong> {e(n)}</p></details>' for i, (t, n) in enumerate(LADDER[c['id']], 1)))
+            + B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', '<ul>' + ''.join(f'<li>{e(j)}</li>' for j in c['jobs']) + '</ul>')
+            + B.sec('alt', 'lc', 'ten locations and global', 'Your place', '<p>Use your own currency, language and local rules. Check each rule with your local authority.</p>' + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Currency {L["cur"]}; language {e(L["lang"])}; set up legally: {e(L["reg"])}; personal data: {e(L["data"])}; where to practise: {e(L["partner"])}.</p></details>' for L in B.LOC) + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
+            + B.sec('', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship-depth course. Own wording. Not live.</p>'))
     fn = f'learn-flagship-{c["id"].lower()}.html'
     B.page(fn, c['title'] + ' (full course)', c['summary'][:150], c['title'], e(c['summary']), body, B.crumb(('Courses', 'courses-hub.html'), ('Europe chapters', None)), kicker=f'{c["id"]} · full course')
 

@@ -3,6 +3,8 @@
 import sys, pathlib, html
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import build_full_courses as B
+from flagship_data_eu_ladder import LADDER
+LV = {1: 'L1 Basic', 2: 'L2 Awareness', 3: 'L3 Foundation', 4: 'L4 Practitioner', 5: 'L5 Specialist', 6: 'L6 Advanced', 7: 'L7 Super expert'}
 e = html.escape
 H = [6, 6, 35, 10, 35, 14, 28, 8]  # hours per module
 BL = ['Understand', 'Analyse', 'Apply', 'Apply', 'Analyse', 'Evaluate', 'Create', 'Create']
@@ -88,9 +90,10 @@ def build(cid, c):
         f'<h3 class="ws-h3">Task, condition and standard</h3><div class="tcs"><div><h4>Task</h4><p>{e(c["task"])}</p></div><div><h4>Condition</h4><p>Real or model setting, partner or mentor, free tools, currency written on every number. This course teaches process and safety awareness only; local authorities set rules.</p></div><div><h4>Standard</h4><p>Evidence reviewed by a mentor; at least 70% on the check; rubric at Meets or better; two peer reviews given.</p></div></div>')
     body = (about + B.sec('alt', 'md', 'lesson by lesson', '8 modules with worked examples', mods)
             + B.sec('', 'as', 'assessment', 'How you are checked', f'<p>Evidence: your practice file, data and decision. A mentor and a peer mark it.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{quiz}')
-            + B.sec('alt', 'jb', 'jobs this leads to', 'Where this takes you', '<ul>' + ''.join(f'<li>{e(j)}</li>' for j in c['jobs']) + '</ul>')
-            + B.sec('', 'lc', 'ten locations and global', 'Your place', '<p>Use local units, rules and authorities.</p>' + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Currency: {L["cur"]}. Business set-up: {e(L["reg"])}. Personal data: {e(L["data"])}. Product and food rules: {e(L["food"])}.</p></details>' for L in B.LOC) + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
-            + B.sec('alt', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship. Own wording. Process and safety awareness only; no professional advice. Not live.</p>'))
+            + B.sec('alt', 'ld', 'ladder L1 to L7', 'Slide by slide, with notes', '<p>Seven slides, one for each level. Step in at your level and move up; credits stack.</p>' + ''.join(f'<details class="mod"><summary>Slide {i}. {LV[i]}: {e(t)}</summary><p><strong>On the slide:</strong> {LV[i]} · {e(t)}</p><p><strong>Notes:</strong> {e(n)}</p></details>' for i, (t, n) in enumerate(LADDER[cid], 1)))
+            + B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', '<ul>' + ''.join(f'<li>{e(j)}</li>' for j in c['jobs']) + '</ul>')
+            + B.sec('alt', 'lc', 'ten locations and global', 'Your place', '<p>Use local units, rules and authorities.</p>' + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Currency: {L["cur"]}. Business set-up: {e(L["reg"])}. Personal data: {e(L["data"])}. Product and food rules: {e(L["food"])}.</p></details>' for L in B.LOC) + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
+            + B.sec('', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship. Own wording. Process and safety awareness only; no professional advice. Not live.</p>'))
     n = cid.split('-')[1]
     B.page(f'learn-flagship-eu-{n}.html', c['title'] + ' (flagship course)', c['task'][:150], c['title'], e(c['task']), body, B.crumb(('Courses', 'courses-hub.html'), (c['title'], None)), kicker=f'{cid} · flagship course')
 for k, v in C.items(): build(k, v)
