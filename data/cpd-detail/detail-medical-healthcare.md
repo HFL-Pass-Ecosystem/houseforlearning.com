@@ -1,6 +1,6 @@
 # Medical and healthcare: course detail (DRAFT)
 
-Teaches communication and recording only. No clinical advice. All cases are invented; no real person or place. A clinical subject expert must review every line, and local rules override the examples. No fees.
+Teaches communication and recording only. No clinical advice. All cases and figures are invented worked-example figures; no real person or place. A clinical subject expert must review every line, and local rules override the examples. No fees.
 
 ---
 ## CPD-MED-001 Plain English for ward handovers

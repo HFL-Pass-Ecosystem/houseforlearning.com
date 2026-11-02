@@ -161,7 +161,7 @@
      "Sign with initials and role.",
      "Write for someone else only under a clear policy; normally each author records their own."
     ],
-    "ex": "\"14 Mar, 10:20. Patient A reported pain in the right knee, 7 out of 10. Dressing dry and intact. Told nurse in charge at 10:25. Signed: initials, role.\" That ticks 6 of 6 checklist items.",
+    "ex": "\"14 Mar, 10:20. Patient A reported pain in the right knee, 7 out of 10. Dressing dry and intact. Offered a rest and a drink; he accepted both. Told nurse in charge at 10:25. Signed: initials, role.\" That ticks 6 of 6 checklist items.",
     "std": "Record an event from a short scenario with date, time, facts only and signature, meeting every item on the checklist."
    },
    {
@@ -170,7 +170,8 @@
     "pts": [
      "Draw one line through the error so it can be read.",
      "Write error, then initials and date.",
-     "Mark a late entry with the real time of writing."
+     "Mark a late entry with the real time of writing.",
+     "If you spot a colleague's error, tell them and the lead; do not change their entry."
     ],
     "ex": "At 10:40 you find 7 should be 6. Line through 7, write \"error\", initials, 14 Mar 10:40, then add: \"Correct: 6 out of 10.\" Original still readable.",
     "std": "Correct an error in a sample note with one line, the word error, initials and date, keeping the original readable, and mark a late entry."
@@ -195,7 +196,7 @@
      "Score it on the 6-item checklist.",
      "Name any gap."
     ],
-    "ex": "Fall with no injury, 2:15 pm: \"Found sitting on the floor by bed. No injury seen. Helped to chair. Told nurse in charge 2:20.\" Score 5 of 6, gap: no signature.",
+    "ex": "Fall with no injury, 14 Mar, 2:15 pm: \"Found sitting on the floor by bed. No injury seen. Helped to chair. Told nurse in charge 2:20.\" Score 5 of 6, gap: no signature.",
     "std": "Write a note for a short scenario about a fall with no injury, then score it against the checklist and name any gaps."
    },
    {
@@ -310,7 +311,7 @@
      "Do not promise what you cannot keep.",
      "Stay calm and use their words."
     ],
-    "ex": "\"I can see this is worrying for you. I have asked the doctor to come, and I will tell you when they arrive. Would you like me to write that down? What questions do you have?\" All 4 steps in under 30 seconds.",
+    "ex": "\"I can see this is worrying for you. I have asked the doctor to come, and I will tell you when they arrive. Would you like me to write that down? What questions do you have?\" Listening comes first, before these words; the other 3 steps take under 30 seconds.",
     "std": "Respond to a worried family member with Listen, Acknowledge, Explain and Check, using calm, respectful words and making no promises you cannot keep."
    },
    {
@@ -319,7 +320,8 @@
     "pts": [
      "Use an approved interpreter when understanding is not secure.",
      "Never use a child to translate.",
-     "Speak to the patient, not the interpreter."
+     "Speak to the patient, not the interpreter.",
+     "If you cannot follow an accent, ask politely to repeat, then check back."
     ],
     "ex": "A patient answers \"yes\" to 3 different questions with the same word. Three answers in a row that do not fit signals the need for an approved interpreter.",
     "std": "Decide when an interpreter is needed and describe how to use an approved service, without relying on a family member or child to translate."
@@ -372,7 +374,7 @@
   "extra_check": {
    "q": "A patient nods but looks confused after your explanation. What do you do?",
    "a": "Do not take the nod as understanding. Rephrase more simply and ask them to say it back in their own words.",
-   "module": 4
+   "module": 2
   },
   "slides": [
    {
@@ -401,7 +403,7 @@
    },
    {
     "t": "L7 Super expert: Lead communication",
-    "note": "The super expert designs communication training for international staff, reviews patient feedback, and sets standards for interpreters, escalation and respectful language across a service. They also review patient and family feedback each quarter and use it to refine the training."
+    "note": "The super expert designs communication training for international staff, reviews patient feedback, and sets standards for interpreters, escalation and respectful language across a service."
    }
   ],
   "jobs": [
@@ -436,7 +438,7 @@
      "Note the source: seen, told or read.",
      "Look for protective factors too."
     ],
-    "ex": "Person E's visit: cooker left on (seen), no food in fridge (seen), uses a stick (seen), floor clear (seen), smoke alarm present (seen), neighbour calls daily (told). 6 factors listed, 6 sources.",
+    "ex": "Person E's visit: cooker left on (seen), no food in fridge (seen), uses a stick (seen), floor clear (seen), smoke alarm present (seen), neighbour calls daily (told). 6 factors listed (some risks, some protective), 6 sources.",
     "std": "Identify risk signs in a case summary, such as unsafe cooking, trip hazards or neglect, and list at least six factors with the source of each."
    },
    {
@@ -720,7 +722,8 @@
     "pts": [
      "The person speaks first and last.",
      "Aim for at least half the talking time.",
-     "Invite them back if someone talks over them."
+     "Invite them back if someone talks over them.",
+     "If family disagree with the person, record both views; the person's wishes lead unless local capacity rules apply."
     ],
     "ex": "In a 40-minute review the person speaks for at least 20 of the 40 minutes. Family member interrupts at minute 12: \"Let's hear what Person H thinks.\"",
     "std": "Facilitate a short review in a role-play so the person speaks first, last and for at least half the time, redirecting anyone who talks over them."
@@ -784,7 +787,7 @@
   "extra_check": {
    "q": "What do you do if family members disagree with the person's wishes?",
    "a": "Record both views, keep the person's wishes leading unless local capacity rules apply, and tell the manager.",
-   "module": 4
+   "module": 3
   },
   "slides": [
    {
@@ -813,7 +816,7 @@
    },
    {
     "t": "L7 Super expert: Shape review practice",
-    "note": "The super expert designs the review process for a service, sets standards for person-first speaking time, audits outcomes and trains teams across sites. They also track how many actions are done on time and use the results to improve training and templates."
+    "note": "The super expert designs the review process for a service, sets standards for person-first speaking time, audits outcomes and trains teams across sites."
    }
   ],
   "jobs": [
@@ -833,7 +836,7 @@
     "t": "Outcomes and Bloom verbs",
     "min": 30,
     "pts": [
-     "Start each outcome with an action verb you can observe.",
+     "Start each outcome with an action verb you can observe (a Bloom verb comes from a standard list of thinking verbs).",
      "Replace know and understand with identify, list or calculate.",
      "Add a measure such as 4 of 5."
     ],
@@ -855,7 +858,7 @@
     "t": "Designing a 5-item check",
     "min": 30,
     "pts": [
-     "Write 3 to 5 items for one outcome.",
+     "Write 5 items for one outcome (a quick in-lesson check may use 3).",
      "One correct answer per item.",
      "Decide the pass line before teaching."
     ],
@@ -951,7 +954,7 @@
    },
    {
     "t": "L7 Super expert: Lead curriculum design",
-    "note": "The super expert designs outcome frameworks for a subject or school, trains teachers in alignment, and tracks whether outcomes lead to measurable learner gains. They also review results over a year to see which outcomes learners meet and which need redesign."
+    "note": "The super expert designs outcome frameworks for a subject or school, trains teachers in alignment, and tracks whether outcomes lead to measurable learner gains."
    }
   ],
   "jobs": [
@@ -1019,7 +1022,7 @@
      "One correct answer each.",
      "No trick wording."
     ],
-    "ex": "Topic: fractions. Q1 \"What is the common denominator of 1/2 and 1/3?\" Answer: 6. Five questions, 5 single answers, 0 trick words.",
+    "ex": "Topic: fractions. Q1 \"What is the lowest common denominator of 1/2 and 1/3?\" Answer: 6. Five questions, 5 single answers, 0 trick words.",
     "std": "Construct five clear questions for a topic, each with one correct answer and no trick wording."
    },
    {
@@ -1088,7 +1091,7 @@
    },
    {
     "t": "L7 Super expert: Lead assessment practice",
-    "note": "The super expert designs a department-wide approach to formative checks, trackers and re-check timing, and measures whether re-teaching raises results. They also compare results before and after re-teaching to show which methods work best for the school."
+    "note": "The super expert designs a department-wide approach to formative checks, trackers and re-check timing, and measures whether re-teaching raises results."
    }
   ],
   "jobs": [
@@ -1199,7 +1202,7 @@
   "extra_check": {
    "q": "How do you decide which learner gets which version of a task?",
    "a": "Use recent check results and the learner's needs, offer choice where you can, and review the grouping after the next check.",
-   "module": 1
+   "module": 6
   },
   "slides": [
    {
@@ -1228,7 +1231,7 @@
    },
    {
     "t": "L7 Super expert: Lead inclusive teaching",
-    "note": "The super expert builds a department approach to adapting lessons, trains teachers, audits support notes and measures whether all learners reach the outcome. They also check results by group over time to be sure support is removed as learners grow in skill."
+    "note": "The super expert builds a department approach to adapting lessons, trains teachers, audits support notes and measures whether all learners reach the outcome."
    }
   ],
   "jobs": [
