@@ -4,7 +4,7 @@ Checks per page: Bloom verbs, task/condition/standard, 8 modules, 8 worked examp
 10 checks with answers, L1-L7 ladder (slides = 7 slides with notes, table = levels only, none), job links.
 Run from the repo root:  python3 tools/audit_course_pages.py [report.md]
 Prints a per-family summary and writes a one-line-per-page gap list (default audits/course-page-audit.md).
-Word and count checks only; hub and index pages show as missing by design. Exit code 0 always."""
+Word and count checks only. Hub pages and pointer pages ("Full course here" box) are skipped. Exit code 0 always."""
 import os, sys
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 os.chdir(os.path.join(ROOT, 'site'))
@@ -30,6 +30,7 @@ def audit(f):
 rows={}
 for f in sorted(glob.glob('learn-*.html')):
     if re.search(r'russia|-ru[-.]',f): continue
+    if f.endswith('-hub.html') or f=='learn-shelves.html' or 'id="fc">Full course here' in open(f,encoding='utf-8').read(): continue  # hub and pointer pages are skipped
     rows[f]=audit(f)
 fam=collections.defaultdict(list)
 for f,r in rows.items():
