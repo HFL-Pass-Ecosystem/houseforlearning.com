@@ -110,7 +110,7 @@
    ],
    "ex": "Parcel arrives damaged. Reply within a day, send a replacement, record 'thin box' as the cause, and change the box. If 4 of 40 parcels were damaged (10%) and after the change 1 of 40 is (2.5%), the fix worked.",
    "act": "Write a reply script for five common problems and a one-page privacy note.",
-   "std": "Task: handle a customer problem. Condition: using your scripts. Standard: reply in one working day with a fix and a recorded cause."
+   "std": "Task: process a customer problem. Condition: using your scripts. Standard: reply in one working day with a fix and a recorded cause."
   },
   "8": {
    "title": "Run the shop for real",

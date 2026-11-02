@@ -14,7 +14,7 @@
    ],
    "ex": "Question: does a new fertilizer raise plant height? Variable: fertilizer. Control: plants with none. With 10 plants in each group, the study has 10 + 10 = 20 plants, and each group is watered and lit the same way.",
    "act": "Pick a short research summary and fill a table: question, method, sample, result, limit.",
-   "std": "Task: summarize a study in a table. Condition: one short public summary. Standard: all five parts filled correctly in plain words."
+   "std": "Task: summarise a study in a table. Condition: one short public summary. Standard: all five parts filled correctly in plain words."
   },
   "2": {
    "title": "Explain how a study runs from question to report",
