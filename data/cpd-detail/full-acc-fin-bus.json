@@ -1,0 +1,1235 @@
+{
+ "ACC-001": {
+  "task": "Reconcile a bank account to a ledger at month end, classify each difference, complete and sign the statement, and escalate anything unexplained.",
+  "cond": "Given a bank statement, a ledger, a statement template, an approval card and a set limit for small differences, working in a four-hour supervised session.",
+  "std": "Finish with every difference explained, at least 9 of 10 items classified correctly, a difference after reconciling of zero, and preparer, reviewer and date complete.",
+  "modules": [
+   {
+    "t": "Why reconcile and what \"done\" means",
+    "min": 20,
+    "pts": [
+     "A reconciliation proves two records agree",
+     "Done = zero unexplained difference, signed and dated",
+     "A second person reviews it"
+    ],
+    "ex": "Bank shows 10,000 and the ledger shows 9,700, a gap of 300. An uncleared cheque of 400 and a deposit of 100 not yet shown by the bank explain it. Done means the difference after reconciling is 0 and the statement is signed and dated.",
+    "std": "Explain why a bank reconciliation is done every month and describe what a finished, fully explained reconciliation looks like, naming how it helps catch errors and fraud early."
+   },
+   {
+    "t": "Reading a bank list and a ledger list",
+    "min": 30,
+    "pts": [
+     "Bank list shows what the bank has processed",
+     "Ledger list shows what you have recorded",
+     "Read date, reference and amount on each line"
+    ],
+    "ex": "Bank line: 03 May, cheque 1042, debit 400.00 (not yet shown). Ledger line: 02 May, payment to supplier, 400.00. Same amount, different dates, so read the dates and references before matching.",
+    "std": "Read a bank list and a ledger list side by side and identify each line, so that every entry on both lists is correctly understood before matching begins."
+   },
+   {
+    "t": "Matching and timing differences",
+    "min": 45,
+    "pts": [
+     "Tick matching lines on both lists",
+     "Timing items clear on their own next month",
+     "Anything left is an error to investigate"
+    ],
+    "ex": "Bank 10,000 minus ledger 9,700 = 300. Timing items: cheque issued 400 (bank side, still to clear) and deposit made 100 (bank side, still to arrive). 400 - 100 = 300, so both are timing differences and nothing is left unexplained.",
+    "std": "Match the lines of a bank list to a ledger list and classify each difference as a timing item, such as an uncleared cheque or a deposit not yet recorded."
+   },
+   {
+    "t": "The reconciliation statement layout",
+    "min": 35,
+    "pts": [
+     "Use the set layout every month",
+     "Adjust the bank side for timing items",
+     "End on zero or explain the rest"
+    ],
+    "ex": "Statement: bank balance 10,000, less uncleared cheque 400 = 9,600, plus deposit not yet cleared 100 = 9,700. Ledger balance 9,700. Difference after reconciling = 9,700 - 9,700 = 0. Sign and date it.",
+    "std": "Complete the reconciliation statement in the set layout, adjusting both balances with timing and ledger items until the difference after reconciling is zero."
+   },
+   {
+    "t": "Unusual items: spotting and explaining",
+    "min": 30,
+    "pts": [
+     "Look for round sums, duplicates and odd dates",
+     "Compare each item with the set limit",
+     "Never write off without the named approver"
+    ],
+    "ex": "Unusual items: an unexplained 50 against a set limit of 25 is above the limit, so record it and escalate. A round payment of 2,000.00 on a Sunday and two identical debits of 400.00 on the same day are also flagged and explained.",
+    "std": "Spot unusual items such as unexplained small amounts, round sums or duplicates, then explain each one, record it against the set limit and escalate when required."
+   },
+   {
+    "t": "Full practice file",
+    "min": 40,
+    "pts": [
+     "Work line by line, ticking each match",
+     "List the three differences before adjusting",
+     "Check both sides end on the same figure"
+    ],
+    "ex": "Practice file: 12 bank lines, 12 ledger lines. Bank closing 8,420, ledger closing 8,295. Three planted differences: cheque 250 not cleared, bank charge 35 not recorded, and a receipt of 450 entered as 540. Bank 8,420 - 250 = 8,170. Ledger 8,295 - 35 - 90 = 8,170. Difference 0.",
+    "std": "Reconcile a full practice file of twelve bank lines and twelve ledger lines, finding all three planted differences and finishing with a correct signed statement."
+   },
+   {
+    "t": "Assessment",
+    "min": 10,
+    "pts": [
+     "Timed, working alone",
+     "Use the checklist as you go",
+     "Leave no unexplained balance"
+    ],
+    "ex": "Assessment sample: bank 5,200, ledger 5,050. Uncleared cheque 180 and an unrecorded bank charge 30. Bank 5,200 - 180 = 5,020. Ledger 5,050 - 30 = 5,020. Difference 0. Checklist: items matched, statement written, every difference explained.",
+    "std": "Complete a timed assessment reconciliation by matching items, writing the statement and explaining every difference, meeting the checklist with no unexplained balance left."
+   },
+   {
+    "t": "Second worked case and teach-back",
+    "min": 30,
+    "pts": [
+     "Work a second case from the case card",
+     "Explain your result to a partner",
+     "Partner checks against the checklist"
+    ],
+    "ex": "Case card 2: bank 14,820.00, ledger 15,240.00. Cheque 600.00 unpresented: 14,820 - 600 = 14,220. Bank charge 180.00 unrecorded: 15,240 - 180 = 15,060. Gap left = 840. A deposit of 840 not yet at the bank would close it (14,220 + 840 = 15,060); if none is found, escalate.",
+    "std": "Complete the second case card, find the remaining gap of 840, and explain each step to a partner so that they can confirm the statement ends on zero."
+   }
+  ],
+  "extra_check": {
+   "q": "Bank shows 4,000, ledger shows 3,700, and one cheque of 300 has not cleared. What is the difference after reconciling?",
+   "a": "Bank 4,000 - 300 = 3,700. Ledger is 3,700. The difference is 0.",
+   "module": 3
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What is a reconciliation",
+    "note": "A reconciliation checks that two lists of the same money agree: what the bank says and what we recorded. Say it in one sentence. At this level the learner only knows the word and why monthly checks matter."
+   },
+   {
+    "t": "L2 Awareness: The two lists",
+    "note": "Show a bank list and a ledger list side by side. Point out date, reference and amount. The learner at this level can name each column and say why the two closing balances often differ by small timing items."
+   },
+   {
+    "t": "L3 Foundation: Matching with a pencil",
+    "note": "Learners tick matching lines under supervision and sort leftovers into timing items and errors. They follow a prepared example such as bank 10,000 against ledger 9,700 and see how 400 and 100 explain the gap."
+   },
+   {
+    "t": "L4 Practitioner: Reconcile to the month-end standard",
+    "note": "This course sits here. The learner completes a full reconciliation alone: matches lines, classifies differences, writes the statement to zero, explains every item, signs and dates, and escalates anything above the set limit."
+   },
+   {
+    "t": "L5 Specialist: Many accounts and exceptions",
+    "note": "The specialist reconciles several accounts, spots patterns such as repeat duplicates or round sums, designs the approval card and limits, and trains others to review. Emphasise judgement on unusual items, not only matching."
+   },
+   {
+    "t": "L6 Advanced: Controls and close",
+    "note": "The advanced worker owns the month-end close timetable, sets reconciliation controls, reviews exceptions across teams and reports trends to finance leaders. Talk about root causes: why the same bank charge is unrecorded every month."
+   },
+   {
+    "t": "L7 Super expert: Designing the reconciliation system",
+    "note": "The super expert designs how reconciliations run across the whole organisation: tools, limits, segregation of duties, audit evidence and training. They decide what good looks like and prove it with measures such as days to close."
+   }
+  ],
+  "jobs": [
+   "Accounts assistant",
+   "Bookkeeper",
+   "Finance clerk",
+   "Accounts payable clerk",
+   "Ledger clerk"
+  ]
+ },
+ "ACC-002": {
+  "task": "Calculate six ratios from two years of statements, compare them, explain each change in plain words and present a one-page summary for a board.",
+  "cond": "Given two years of invented statements, a ratio formula sheet and a one-page template, working in a four-hour supervised session.",
+  "std": "Produce six ratios with no arithmetic errors and units shown, two changes each with a likely cause, one recommendation and a one-page summary that meets every checklist point.",
+  "modules": [
+   {
+    "t": "What a board wants in one page",
+    "min": 20,
+    "pts": [
+     "Boards read in two minutes",
+     "Few figures, each with a meaning",
+     "Say what to do, not only what happened"
+    ],
+    "ex": "A board page shows six figures, each with a one-line meaning. Example: Current ratio 1.5 (last year 1.8): less cover for short-term debts. It does not list every number in the accounts.",
+    "std": "Explain what a board expects on a single page, choosing a few figures that each carry a one-line meaning rather than listing every number."
+   },
+   {
+    "t": "Six ratios and their formulas",
+    "min": 45,
+    "pts": [
+     "Write each formula before using it",
+     "Show units: ratio, percent, days",
+     "Check arithmetic twice"
+    ],
+    "ex": "This year: revenue 1,200, cost of sales 780, net profit 96, current assets 600, current liabilities 400, inventory 150, receivables 200, payables 130. Current 600 / 400 = 1.5. Quick (600 - 150) / 400 = 1.13. Gross margin 420 / 1,200 = 35.0%. Net margin 96 / 1,200 = 8.0%. Debtor days 200 / 1,200 x 365 = 61. Creditor days 130 / 780 x 365 = 61.",
+    "std": "Calculate the six ratios, current, quick, gross margin, net margin, debtor days and creditor days, from a set of statements using the correct formulas."
+   },
+   {
+    "t": "Comparing with last year",
+    "min": 30,
+    "pts": [
+     "Compare like with like",
+     "State direction and pace",
+     "One number alone says little"
+    ],
+    "ex": "Last year: current 540 / 300 = 1.8; gross margin 360 / 1,000 = 36.0%; debtor days 150 / 1,000 x 365 = 55. Changes: current ratio down 0.3 (about 17 percent), gross margin down 1.0 point, debtor days up 6.",
+    "std": "Compare each ratio with last year's figure and state the direction and pace of change, because a single number means little without a reference."
+   },
+   {
+    "t": "Explaining a change in plain words",
+    "min": 30,
+    "pts": [
+     "Say what changed",
+     "Give one likely cause",
+     "Suggest one action"
+    ],
+    "ex": "Note: \"Liquidity fell from 1.8 to 1.5 because supplier balances rose faster than cash. Action: review payment timing.\" Cause given, action named, no jargon.",
+    "std": "Explain a change in a ratio in plain words, giving a likely cause and a suggested action, as in the liquidity worked example."
+   },
+   {
+    "t": "Building the one-page summary",
+    "min": 35,
+    "pts": [
+     "Table first, words second",
+     "Name the source of the numbers",
+     "End with one recommendation"
+    ],
+    "ex": "One page: six ratios in a table with this year, last year and arrow; one plain-words line each; source line: \"From the signed accounts, years 1 and 2.\" Recommendation: review payment timing and chase receivables over 60 days.",
+    "std": "Build a one-page summary from two years of statements, showing six ratios, a plain-words note on each change and the source of the numbers."
+   },
+   {
+    "t": "Assessment",
+    "min": 20,
+    "pts": [
+     "Compute from invented statements",
+     "Write the summary within time",
+     "Check against the list"
+    ],
+    "ex": "Assessment sample: current assets 450, current liabilities 300 = 1.5. Revenue 800, cost of sales 520: gross margin 280 / 800 = 35.0%. Net profit 40 / 800 = 5.0%. Write the one-page summary and tick every checklist point.",
+    "std": "Complete a timed assessment by computing the ratios from invented statements and writing a one-page summary that meets every checklist point."
+   },
+   {
+    "t": "Second case: ratio falls while sales rise",
+    "min": 35,
+    "pts": [
+     "Work case card 2",
+     "Find two possible reasons",
+     "Name the first question for the finance lead"
+    ],
+    "ex": "Case card 2: sales rose 10 percent (1,000 to 1,100) but the current ratio fell from 1.8 (540 / 300) to 1.2 (480 / 400). Possible reasons: cash spent on equipment, or supplier balances rising. First question: \"What happened to cash and supplier balances?\"",
+    "std": "Explain two possible reasons for a falling current ratio when sales rise, and name the first question to ask the finance lead, using the figures on the second case card."
+   },
+   {
+    "t": "Teach-back and board questions",
+    "min": 25,
+    "pts": [
+     "Explain one ratio aloud in three sentences",
+     "Answer a board question about its limits",
+     "Peer checks formula, direction, cause, action"
+    ],
+    "ex": "Teach-back line: \"Current ratio is current assets divided by current liabilities. It fell from 1.8 to 1.2. Likely cause: supplier balances rose; we should review payment timing.\" Board question: \"What does this ratio not show?\" Answer: it does not show when cash arrives.",
+    "std": "Present one ratio aloud in three sentences and answer a board question about what the ratio does not show, so that a peer can confirm formula, direction, cause and action."
+   }
+  ],
+  "extra_check": {
+   "q": "How do you calculate debtor days?",
+   "a": "Receivables divided by revenue, times 365. Example: 200 / 1,200 x 365 = about 61 days.",
+   "module": 2
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What is a ratio",
+    "note": "A ratio compares one number with another, such as what we own against what we owe. Learners at this level only know the idea and can say that ratios help people read accounts quickly."
+   },
+   {
+    "t": "L2 Awareness: Reading a set of accounts",
+    "note": "Show a simple income statement and balance sheet. Learners find revenue, cost of sales, current assets and current liabilities and know these are the ingredients of the six board ratios."
+   },
+   {
+    "t": "L3 Foundation: Working out one ratio",
+    "note": "Learners follow a worked example: current assets 600 divided by current liabilities 400 gives 1.5. They repeat it with a new set of figures and show the units. Guided, one ratio at a time."
+   },
+   {
+    "t": "L4 Practitioner: One page for the board",
+    "note": "This course sits here. The learner calculates all six ratios from two years of statements, compares them, explains each change in plain words with a cause and action, and produces a one-page summary."
+   },
+   {
+    "t": "L5 Specialist: Reading beneath the ratio",
+    "note": "The specialist asks what a ratio hides: one-off items, accounting choices, timing of receivables. They challenge a claim such as a good current ratio with low cash and build industry comparisons."
+   },
+   {
+    "t": "L6 Advanced: Trends and targets",
+    "note": "The advanced analyst builds multi-year trends, sets sensible targets with the board, links ratios to decisions on stock, credit terms and borrowing, and reviews whether the six chosen still fit the business."
+   },
+   {
+    "t": "L7 Super expert: Designing the board pack",
+    "note": "The super expert designs the whole reporting pack and its rules: which measures, how often, who challenges, how sources are shown. They teach analysts to keep reports honest, short and decision-ready."
+   }
+  ],
+  "jobs": [
+   "Finance assistant",
+   "Management accounts assistant",
+   "Junior financial analyst",
+   "Accounts technician",
+   "Business support analyst"
+  ]
+ },
+ "ACC-003": {
+  "task": "Find and check an official rule change, summarise it in about 100 words, show its effect on a sample client and file a dated, sourced client note, referring on when unsure.",
+  "cond": "Given a short invented official notice, a sample client profile and a client note template, working in a three-hour supervised session; process only, no advice.",
+  "std": "Produce a note under 150 words that states what changes, from when and the action, cites the official source and date, includes a worked example and refers any doubt to a senior.",
+  "modules": [
+   {
+    "t": "Find and check the rule: source and date",
+    "min": 20,
+    "pts": [
+     "Go to the official source, not a summary",
+     "Note the date of the notice",
+     "Say when you are unsure"
+    ],
+    "ex": "Notice N-12, dated 3 March, says a filing date moves from 1 April to 1 May. Check: the date on the notice matches its title and the page is on the official site. If a transitional case is unclear, write \"unsure, referred to senior\".",
+    "std": "Find the official source of a rule change, check its date and confirm what it says, and state plainly when you are unsure and must refer on."
+   },
+   {
+    "t": "The 100-word summary",
+    "min": 25,
+    "pts": [
+     "What changes, from when, what to do",
+     "About 100 words",
+     "Plain words only"
+    ],
+    "ex": "Sample line: \"From the next period the filing date moves from 1 April to 1 May. Please use the new date and keep a copy of the notice. Source: Notice N-12, dated 3 March.\" A full summary expands this to about 100 words.",
+    "std": "Write a summary of a rule change in about one hundred words that states what changes, from when, and what the client should do."
+   },
+   {
+    "t": "A worked example with a sample client",
+    "min": 25,
+    "pts": [
+     "Use last year's real figures",
+     "Show before and after",
+     "Keep it in the client's terms"
+    ],
+    "ex": "Invented rule: the limit on item X rises from 1,000 to 1,200. Client spent 1,500 last year. Counted amount was 1,000; it would be 1,200, so 200 more (20 percent). Example is a pattern, not advice.",
+    "std": "Work out the effect of a rule change on a sample client using last year's figures, and show it as a short worked example in the client's terms."
+   },
+   {
+    "t": "Citing and dating the note",
+    "min": 15,
+    "pts": [
+     "Cite the official source",
+     "State both dates",
+     "File with the source in the client file"
+    ],
+    "ex": "Footer: \"Source: Official notice N-12, dated 3 March. Note written 10 March. Filed in client file C-204.\" Three facts: source, date of notice, where filed.",
+    "std": "Cite the official source and its date in every client note, and file the note with the source in the client file."
+   },
+   {
+    "t": "Practice and feedback",
+    "min": 10,
+    "pts": [
+     "Write from a short invented rule",
+     "Read the feedback list",
+     "Correct and redraft"
+    ],
+    "ex": "Draft 1 had source, example and referral but no date: 3 of 4 points. Feedback: add the date the rule starts. Draft 2 has all 4 points: source, date, example, referral.",
+    "std": "Practise writing a client note from a short invented rule change, then use the feedback to correct gaps in source, date and example."
+   },
+   {
+    "t": "Check",
+    "min": 5,
+    "pts": [
+     "Tick each point honestly",
+     "Fix gaps before sending",
+     "Refer, do not advise"
+    ],
+    "ex": "Check list: 1 source cited, 2 date stated, 3 worked example included, 4 doubt referred. Note passes only with 4 of 4 ticked, then goes to a senior.",
+    "std": "Check your finished note against the list: source cited, date stated, worked example included, and any doubt referred to a senior."
+   },
+   {
+    "t": "Second case: a date change",
+    "min": 45,
+    "pts": [
+     "Work case card 2",
+     "Say what you verified first",
+     "Write the note and cite the source"
+    ],
+    "ex": "Case card 2: a rule moves a filing date by 30 days, from 1 April to 1 May (April has 30 days). Verified first: official notice and date, who is affected, whether any exceptions apply. Client note: \"Your date moves from 1 April to 1 May. Source: Notice N-12, dated 3 March.\"",
+    "std": "Write a client note for a rule that moves a filing date by 30 days, stating what you verified first and citing the official source and its date."
+   },
+   {
+    "t": "Teach-back and peer check",
+    "min": 35,
+    "pts": [
+     "Explain your note aloud in one minute",
+     "Peer checks the four points",
+     "Fix any gap using feedback"
+    ],
+    "ex": "Teach-back: \"The date moved from 1 April to 1 May. I checked Notice N-12, dated 3 March. For you it means one extra month. I am not giving advice; ask your adviser about special cases.\" Peer ticks source, date, example, referral: 4 of 4.",
+    "std": "Explain your finished client note aloud in one minute so that a peer can confirm it has the source, the date, a worked example and a referral."
+   }
+  ],
+  "extra_check": {
+   "q": "A filing date of 1 April moves by 30 days. What is the new date, and how do you confirm it?",
+   "a": "1 May, because April has 30 days. Confirm it against the official notice, not by counting alone.",
+   "module": 7
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What is a rule change",
+    "note": "Rules sometimes change and clients need to know. Learners at this level can say what a rule is and why the date it starts matters. They do not yet read official notices."
+   },
+   {
+    "t": "L2 Awareness: Where rules come from",
+    "note": "Show the difference between an official notice and someone's summary of it. Learners can name where official notes are published and why a date on the notice shows which version applied."
+   },
+   {
+    "t": "L3 Foundation: Summarise with help",
+    "note": "Learners read a short invented notice and fill a template: what changes, from when, what to do. They work with a mentor and keep to about 100 words, with the source written at the bottom."
+   },
+   {
+    "t": "L4 Practitioner: A client note you can file",
+    "note": "This course sits here. The learner finds and checks the source, writes a summary, adds a worked example from last year's figures, cites and dates the note, files it and refers any doubt to a senior."
+   },
+   {
+    "t": "L5 Specialist: Many clients, one change",
+    "note": "The specialist sorts clients into who is affected, adapts the worked example per profile and prepares a standard message that others can reuse, while keeping every fact tied to its source."
+   },
+   {
+    "t": "L6 Advanced: Updates across a firm",
+    "note": "The advanced worker runs a process for tracking changes: who watches sources, how notes are reviewed, how old versions are kept, and how staff are told. Stress version control and dates."
+   },
+   {
+    "t": "L7 Super expert: Designing the change service",
+    "note": "The super expert designs the whole client communication service: source rules, review levels, templates, training, and measures such as notes sent before the start date. They set clear limits on advice."
+   }
+  ],
+  "jobs": [
+   "Client services assistant",
+   "Tax support assistant",
+   "Practice administrator",
+   "Compliance assistant",
+   "Accounts support officer"
+  ]
+ },
+ "FIN-001": {
+  "task": "Recognise conflicts of interest in short cases, declare them with the firm's wording before advice, and record the decision and named approver in the register.",
+  "cond": "Given eight short cases, the firm's disclosure wording, a conflicts register template and a named approver, working in a three-hour supervised session.",
+  "std": "Classify at least 7 of 8 cases correctly, declare in writing before any advice, and record the conflict, action and approver so the decision can be traced.",
+  "modules": [
+   {
+    "t": "What a conflict is, with everyday examples",
+    "min": 20,
+    "pts": [
+     "A conflict is a clash between your interest and the client's",
+     "Spot it first",
+     "A conflict is not always a breach"
+    ],
+    "ex": "An adviser earns a bonus of 150 if a client picks product P. Personal gain could affect the duty to the client, so it is a conflict. Everyday match: choosing a supplier owned by your cousin.",
+    "std": "Define a conflict of interest in plain words and recognise it in everyday examples where personal or firm gain could affect your duty to the client."
+   },
+   {
+    "t": "Eight short cases",
+    "min": 30,
+    "pts": [
+     "Mark conflict or not conflict",
+     "Name the action: declare, avoid or ask",
+     "Give a reason in one line"
+    ],
+    "ex": "Case 3: adviser holds shares in fund F and is about to suggest fund F. Conflict: declare. Case 5: adviser has lunch with a client at the client's own cost. Not a conflict by itself. Target: 7 of 8 correct is 87.5 percent.",
+    "std": "Judge eight short cases, marking each as a conflict or not a conflict and naming the action that fits, such as declaring, avoiding or asking."
+   },
+   {
+    "t": "Disclosure wording",
+    "min": 20,
+    "pts": [
+     "Plain words",
+     "Written, before advice",
+     "Approved wording only"
+    ],
+    "ex": "Sample wording (use your firm's approved text): \"Before I advise you, I must tell you that I receive a bonus if you choose product P. You may ask about other options.\" Given in writing, before advice.",
+    "std": "Use the firm's approved disclosure wording to tell a client about a conflict before giving any advice, in writing."
+   },
+   {
+    "t": "Recording the decision and approver",
+    "min": 15,
+    "pts": [
+     "Date, conflict, action, approver",
+     "Approver is named, not the adviser",
+     "So it can be traced later"
+    ],
+    "ex": "Register line: 12 May | Conflict: bonus of 150 on product P | Action: disclosed in writing, alternatives offered | Approver: team manager | Decision: proceed with disclosure.",
+    "std": "Record each conflict, the action taken and the named approver in the register, so the decision can be traced later."
+   },
+   {
+    "t": "Practice",
+    "min": 10,
+    "pts": [
+     "Decide, disclose, record",
+     "Use a new case",
+     "Correct the missed step"
+    ],
+    "ex": "Practice case: a fund run by your relative. Step 1 decide: conflict. Step 2 declare to client and approver. Step 3 record. A learner who forgot step 3 adds the register line and ticks all 3 steps.",
+    "std": "Practise deciding, disclosing and recording on a new case, such as a fund run by a relative, and correct any step you missed."
+   },
+   {
+    "t": "Check",
+    "min": 5,
+    "pts": [
+     "Short and written",
+     "Three points",
+     "Say it in your own words"
+    ],
+    "ex": "Check: define a conflict (when personal or firm gain could affect duty to the client); first step (declare); record (conflict, action, approver). 3 of 3 required.",
+    "std": "Show in a short check that you can define a conflict, take the first step of declaring it and record it with the approver."
+   },
+   {
+    "t": "Second case: a gift and a relative",
+    "min": 45,
+    "pts": [
+     "Work case card 2 and a gift case",
+     "Apply the three steps",
+     "Check the register line"
+    ],
+    "ex": "Case card 2: you are asked to recommend a fund managed by a company your cousin runs. Decide: conflict. Disclose to client and approver before advice. Record. Gift case: a client offers a gift worth 80 and the firm limit is 50, so 30 over the limit; declare it to the approver, decline or log it.",
+    "std": "Decide, disclose and record the decision for the cousin case and a gift case, then check each register line for the conflict, action and named approver."
+   },
+   {
+    "t": "Teach-back and peer check",
+    "min": 35,
+    "pts": [
+     "Explain the three steps in one minute",
+     "Peer checks each case",
+     "Give feedback using the list"
+    ],
+    "ex": "Teach-back: \"A conflict is when personal or firm gain could affect my duty to the client. I declare it first, in writing, before advice. I record the conflict, my action and the approver.\" Peer marks 3 of 3 on the list.",
+    "std": "Explain the define, declare and record steps aloud in one minute so that a peer can confirm all three are present and in the right order."
+   }
+  ],
+  "extra_check": {
+   "q": "A client offers a gift worth 80 and your firm's limit is 50. What do you do?",
+   "a": "Treat it as a possible conflict: decline it or declare it to the named approver, and record the decision in the register.",
+   "module": 7
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What is a conflict of interest",
+    "note": "A conflict happens when what is good for you or your firm could pull against what is good for the client. Learners at this level can say this in one sentence and give one everyday example."
+   },
+   {
+    "t": "L2 Awareness: Spotting the signs",
+    "note": "Show everyday examples: a bonus on one product, a relative's company, a gift. Learners know the words declare, avoid and ask and understand that spotting a conflict is not an accusation."
+   },
+   {
+    "t": "L3 Foundation: Mark the case",
+    "note": "Learners mark simple written cases as conflict or not conflict, with a mentor beside them. They read the firm's policy and find who the named approver is."
+   },
+   {
+    "t": "L4 Practitioner: Decide, declare, record",
+    "note": "This course sits here. The learner judges eight cases, uses approved wording to disclose before advice, and records the conflict, action and approver in the register so the decision can be traced."
+   },
+   {
+    "t": "L5 Specialist: Hard cases",
+    "note": "The specialist handles layered cases: several small interests together, interests of colleagues, or gifts over time. They advise colleagues on grey areas and escalate quickly when unsure."
+   },
+   {
+    "t": "L6 Advanced: Managing the register",
+    "note": "The advanced worker reviews the register for patterns, checks that approvers decide on time, reports trends to senior managers and updates the policy when the same case keeps appearing."
+   },
+   {
+    "t": "L7 Super expert: A culture that speaks up",
+    "note": "The super expert designs the firm's conflicts framework: policy, wording, training, review and speaking-up routes. They measure success by early declaration, not by the number of breaches hidden."
+   }
+  ],
+  "jobs": [
+   "Client services assistant",
+   "Compliance assistant",
+   "Financial services administrator",
+   "Adviser support officer",
+   "Trainee compliance officer"
+  ]
+ },
+ "FIN-002": {
+  "task": "Gather the required facts from a client card, match the client's needs to a product type, write the reason in plain words and complete the advice record to the checklist.",
+  "cond": "Given an invented client card, a fact-find form, a product type list and the advice record checklist, working in a four-hour supervised session; process only, no financial advice.",
+  "std": "Complete every required field, give one written reason per match with correct arithmetic and currency shown, list alternatives, and meet every checklist item including signatures.",
+  "modules": [
+   {
+    "t": "Why a review exists",
+    "min": 20,
+    "pts": [
+     "The record shows the thought behind the match",
+     "It protects the client and the firm",
+     "A checker reads it later"
+    ],
+    "ex": "Record snippet: Goal: money back in 3 years. Match: short-term savings type. Reason: \"The client needs the money soon and has little time to recover from a fall.\" Another person can read this and see why it fits.",
+    "std": "Explain why an advice review exists and why a written record of the match between client and product must show the thought behind the advice."
+   },
+   {
+    "t": "Facts to collect from the client card",
+    "min": 40,
+    "pts": [
+     "Four essential facts",
+     "Record the client's own words on risk",
+     "Stop if facts are missing"
+    ],
+    "ex": "Client card: goal, growth; time horizon, 3 years; comfort with loss, \"no more than 2,000 of my 20,000\"; income band 30,000 to 40,000. If the horizon is blank, stop and gather it. Do not proceed with a missing fact.",
+    "std": "Collect the essential facts from a client card, goals, time horizon, comfort with loss and financial position, and refuse to proceed while facts are missing."
+   },
+   {
+    "t": "Matching needs to a product type",
+    "min": 45,
+    "pts": [
+     "List needs first",
+     "Consider alternatives",
+     "One reason per match"
+    ],
+    "ex": "Needs: access in 3 years, loss limit 10 percent (2,000 of 20,000). Options: A short-term savings type, B mixed fund type, C do nothing. A fits the horizon and loss limit; B could fall below the limit; C leaves the money idle.",
+    "std": "Match a client's needs to a suitable product type, considering alternatives, using the facts gathered and the client's own words on risk comfort."
+   },
+   {
+    "t": "Writing the reason in plain words",
+    "min": 30,
+    "pts": [
+     "Plain words",
+     "Use the client's numbers",
+     "State alternatives considered"
+    ],
+    "ex": "Reason: \"Type A because the client needs 20,000 in 3 years and said a loss over 2,000 (10 percent) is too much. Type B was considered but may fall further in 3 years.\" Plain words, with the numbers.",
+    "std": "Write the reason for the match in plain words so that another person can see why the product fitted the client."
+   },
+   {
+    "t": "The advice record checklist",
+    "min": 30,
+    "pts": [
+     "Tick every item",
+     "Adviser and client sign",
+     "Alternatives and confirmation are required"
+    ],
+    "ex": "Checklist has 8 items. A draft ticks 6: missing alternatives considered and client confirmation. Not complete. After fixing it, 8 of 8 and both signatures present.",
+    "std": "Complete the advice record to the checklist, including alternatives considered, client confirmation, and the signatures required of the adviser and client."
+   },
+   {
+    "t": "Practice file",
+    "min": 25,
+    "pts": [
+     "Do the simple affordability sum",
+     "Show currency and units",
+     "Record facts, match, reason"
+    ],
+    "ex": "Practice client: spare money 2,400 income - 1,900 costs = 500 a month. Goal 15,000 in 60 months needs 15,000 / 60 = 250 a month, which is half of the spare money. Record the figure with its currency.",
+    "std": "Complete a practice file for an invented client, recording facts, matching a product type and writing the reason, then correct gaps after feedback."
+   },
+   {
+    "t": "Assessment",
+    "min": 10,
+    "pts": [
+     "Timed",
+     "Work from the card only",
+     "Reason in plain words"
+    ],
+    "ex": "Assessment sample: new client card with facts, goal and horizon given. Pass needs every checklist item and a clear written reason. A reason such as \"it seemed good\" fails; \"needs the money in 4 years, low loss comfort\" passes.",
+    "std": "Complete a timed assessment record for a new client card that meets every checklist item and shows a clear written reason for the match."
+   },
+   {
+    "t": "Second client card: a 3-year horizon",
+    "min": 40,
+    "pts": [
+     "Work case card 2",
+     "Record facts, match and reason",
+     "Peer checks the record"
+    ],
+    "ex": "Case card 2: client aged 62 wants growth but needs the money in 3 years. Facts: 20,000 available, loss comfort 10 percent (2,000). Match: a lower-swing type, because a short horizon leaves little time to recover. Record that the growth wish and the horizon pull in different directions, and that the client confirmed it.",
+    "std": "Complete the advice record for the 62-year-old client card, recording facts, matching a type, explaining the reason and noting the conflict between growth wish and short horizon."
+   }
+  ],
+  "extra_check": {
+   "q": "A client can save 250 a month and wants 15,000 in 5 years. Does saving alone reach it?",
+   "a": "Yes on saving alone: 250 x 60 months = 15,000. Record the figure and that no growth or loss is assumed.",
+   "module": 6
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: Why we keep a record",
+    "note": "Learners at this level know that advice work is written down so someone else can see what was done and why. They can say what a client record is in one sentence."
+   },
+   {
+    "t": "L2 Awareness: A client card",
+    "note": "Show an invented client card with goal, time horizon, comfort with loss and financial position. Learners can name the four essential facts and know the card is the starting point of every record."
+   },
+   {
+    "t": "L3 Foundation: Fill the fact-find",
+    "note": "With a mentor, learners complete a fact-find form from a short client story, check every required field and say what to do when a fact is missing: stop and ask."
+   },
+   {
+    "t": "L4 Practitioner: A record another person can follow",
+    "note": "This course sits here. The learner gathers the facts, matches needs to a product type, writes the reason in plain words, lists alternatives, and completes the advice record to the checklist with signatures."
+   },
+   {
+    "t": "L5 Specialist: Complex clients",
+    "note": "The specialist handles clients with mixed goals, short horizons or limited answers. They record when a client declines to answer, limit the advice, and prepare notes for the checker."
+   },
+   {
+    "t": "L6 Advanced: Reviewing records",
+    "note": "The advanced worker checks others' records against the checklist, finds weak reasons, gives feedback and reports patterns such as missing alternatives. They keep retention rules in view."
+   },
+   {
+    "t": "L7 Super expert: Designing the review system",
+    "note": "The super expert designs the suitability process: forms, wording, checker rules, sampling and training. They decide what a good reason looks like and prove records are consistent, with no advice given in training."
+   }
+  ],
+  "jobs": [
+   "Client services assistant",
+   "Adviser support officer",
+   "Financial services administrator",
+   "Compliance assistant",
+   "Records and checking officer"
+  ]
+ },
+ "FIN-003": {
+  "task": "Identify warning signs of suspicious activity in sample transactions, report a concern by the local route within the time stated, record the facts and avoid tipping off.",
+  "cond": "Given ten sample transactions, a local route card naming the reporting officer, and a four-line report template, working in a two-hour supervised session.",
+  "std": "Identify at least 8 of 10 warning-sign transactions, send the report within the card's time, record who, what, when and how much, and never warn the customer.",
+  "modules": [
+   {
+    "t": "What warning signs look like",
+    "min": 20,
+    "pts": [
+     "Know the common signs",
+     "Look at behaviour and pattern",
+     "Reasonable suspicion is enough to report"
+    ],
+    "ex": "Three warning signs: cash deposits just under a reporting limit, such as 9,500 against a limit of 10,000; sudden unexplained wealth; reluctance to give identity details. One sign alone may be harmless; look at the picture.",
+    "std": "Recognise warning signs of suspicious activity, such as cash just under a reporting limit, unexplained wealth or reluctance to give identity details."
+   },
+   {
+    "t": "Six sample transactions",
+    "min": 30,
+    "pts": [
+     "Mark concern or no concern",
+     "Give a reason each time",
+     "Add up the pattern"
+    ],
+    "ex": "Six samples with a limit of 10,000: T1 cash 9,500, concern. T2 monthly salary 2,100, no concern. T3 three deposits of 3,300 in one day = 9,900, concern. T4 utility bill 85, no concern. T5 customer refuses identity details, concern. T6 normal rent 900, no concern. Total 3 concerns.",
+    "std": "Review six sample transactions, marking each as concern or no concern and giving a reason for each decision."
+   },
+   {
+    "t": "The local route card: who, how fast",
+    "min": 20,
+    "pts": [
+     "Name who receives it",
+     "Name how fast",
+     "Use the route on the card"
+    ],
+    "ex": "Route card: report to the reporting officer, same working day, by the internal form. You send the report by that route, not to a friend or colleague on your team.",
+    "std": "Use the local route card to name who receives a report and how quickly it must be made, and send a report by that route."
+   },
+   {
+    "t": "Not telling the customer",
+    "min": 15,
+    "pts": [
+     "Never tell the customer",
+     "Do not change your manner",
+     "Use neutral words"
+    ],
+    "ex": "Customer asks, \"Is something wrong?\" Safe line: \"I cannot complete this now. A colleague will follow our standard steps.\" Do not say a report was made or hint at it.",
+    "std": "Explain why the customer must not be told about a report and avoid any words or actions that would warn them."
+   },
+   {
+    "t": "Practice",
+    "min": 10,
+    "pts": [
+     "Facts only",
+     "Include date and time",
+     "Four lines"
+    ],
+    "ex": "Four-line report: Who: customer C-77. What: three cash deposits of 3,300 each, total 9,900. When: 14 May, 10:05 to 10:40. Why: just under the 10,000 limit, same day, customer asked how the limit works.",
+    "std": "Practise writing a four-line report covering who, what, when and why it worries you, using facts only, with date and time."
+   },
+   {
+    "t": "Check",
+    "min": 5,
+    "pts": [
+     "Short written check",
+     "Three points",
+     "Own words"
+    ],
+    "ex": "Check: route (the named officer, same day), the ban on telling the customer, content of a report (who, what, when, why). 3 of 3 correct.",
+    "std": "Show in a short check that you know the reporting route, the ban on telling the customer and the content of a report."
+   },
+   {
+    "t": "Second case: many small deposits",
+    "min": 10,
+    "pts": [
+     "Work case card 2",
+     "Add up the deposits",
+     "Write the four-line report"
+    ],
+    "ex": "Case card 2: 12 deposits of 900 over 5 days, limit 1,000. Total 12 x 900 = 10,800. Then the customer asks to send 10,500 abroad. Each deposit is under the limit, but together they are a pattern. Report by the route card.",
+    "std": "Report the many-small-deposits case by the route card, adding up the total and writing who, what, when and why in four factual lines."
+   },
+   {
+    "t": "Teach-back and peer check",
+    "min": 10,
+    "pts": [
+     "Explain route and ban on tipping off",
+     "Peer checks your report",
+     "Fix any opinion in the facts"
+    ],
+    "ex": "Teach-back: \"I report to the named officer the same day. I never tell the customer. My report says who, what, when, why. Reasonable suspicion is enough.\" Peer marks 4 of 4.",
+    "std": "Explain the reporting route, the ban on telling the customer and the report content in your own words so that a peer can confirm all are correct."
+   }
+  ],
+  "extra_check": {
+   "q": "Three cash deposits of 3,300 are made in one day and the reporting limit is 10,000. What is the total, and is it a concern?",
+   "a": "The total is 9,900, just under the limit, so it is a concern to report by the route card.",
+   "module": 2
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: Why we report",
+    "note": "Money services can be misused. Learners at this level know that staff have a duty to pass on worries and that this protects customers and the firm. They can say it in one sentence."
+   },
+   {
+    "t": "L2 Awareness: Warning signs",
+    "note": "Show cash just under a limit, unexplained wealth and refusal of identity checks. Learners recognise the signs but know that a sign is a reason to look, not proof of wrongdoing."
+   },
+   {
+    "t": "L3 Foundation: Mark the transactions",
+    "note": "With a mentor, learners mark six sample transactions as concern or no concern and give a reason for each, then practise finding the route card and the name of the reporting officer."
+   },
+   {
+    "t": "L4 Practitioner: Report by the route",
+    "note": "This course sits here. The learner identifies warning signs in ten transactions, reports a concern by the local route within the stated time, records the facts and never tips off the customer."
+   },
+   {
+    "t": "L5 Specialist: Patterns over time",
+    "note": "The specialist spots patterns across several days or accounts, such as many small deposits that add up under a limit, and writes reports that give the officer enough facts to act on."
+   },
+   {
+    "t": "L6 Advanced: Supporting the officer",
+    "note": "The advanced worker reviews quality of reports, trains colleagues, tracks time to report and helps the officer improve the route card, while keeping the confidentiality rule at the centre."
+   },
+   {
+    "t": "L7 Super expert: A reporting culture",
+    "note": "The super expert designs the firm's whole reporting framework: signs, routes, speed targets, training and feedback to staff. They make it easy and safe to report in good faith."
+   }
+  ],
+  "jobs": [
+   "Customer service assistant",
+   "Cashier",
+   "Financial services administrator",
+   "Compliance assistant",
+   "Operations support officer"
+  ]
+ },
+ "BUS-001": {
+  "task": "Describe a change on one page, map who is affected, plan three timed messages with named senders, respond to resistance and choose three simple measures of adoption.",
+  "cond": "Given a change scenario, a calendar and a short survey, working in a four-hour supervised session with role-play and case cards.",
+  "std": "Produce a one-page description with reason, date and impact, a message plan naming who hears what and when, the top three concerns, and two or three measures with a target.",
+  "modules": [
+   {
+    "t": "Why change fails",
+    "min": 25,
+    "pts": [
+     "Change fails when people do not know why",
+     "Give the reason first",
+     "Do not leave a gap for rumour"
+    ],
+    "ex": "Change: new ordering system in 6 weeks. Staff first hear in week 5 by rumour, so they distrust it. Fix: week 0 message from the manager gives the reason first, then the date.",
+    "std": "Explain why change often fails, including people not knowing the reason, and show why the reason should be given first."
+   },
+   {
+    "t": "Mapping who is affected",
+    "min": 35,
+    "pts": [
+     "List staff, customers, suppliers",
+     "Say how each is touched",
+     "Put the most affected first"
+    ],
+    "ex": "Affected: order team (12 people) enters orders in the new system; finance (5) sees new reports; customers (many) get a new order form. Each group is touched differently, so each needs its own message.",
+    "std": "Map the groups affected by a change, such as staff, customers and suppliers, and say how each group is touched."
+   },
+   {
+    "t": "Three messages: time and sender",
+    "min": 40,
+    "pts": [
+     "Set a time for each",
+     "Name a sender",
+     "Most affected hear first, from their own manager"
+    ],
+    "ex": "Week 0: \"why and when\", from the manager. Week 3: \"training dates\", from the team lead. Week 6: \"go-live help desk\", from the project lead. Three messages, three senders, set times.",
+    "std": "Plan three messages for a change, each with a set time and a named sender, so the most affected group hears first from their own manager."
+   },
+   {
+    "t": "Handling worry and resistance",
+    "min": 35,
+    "pts": [
+     "Listen first",
+     "Find the cause",
+     "Adjust the support"
+    ],
+    "ex": "Staff says: \"I don't have time to learn this.\" Listen: training clashes with month-end. Cause found. Adjust: move training to the quiet week. Do not repeat the same message louder.",
+    "std": "Respond to worry and resistance by listening, finding the cause and adjusting the support offered, rather than repeating the message."
+   },
+   {
+    "t": "Three simple measures",
+    "min": 30,
+    "pts": [
+     "Pick three simple measures",
+     "Set a target",
+     "State how each is read"
+    ],
+    "ex": "Measures: orders entered per day (80 before), errors per 100 items, confidence score 1 to 5. Week 8: 12 errors in 400 items = 3 per 100. Target 3 or lower: met.",
+    "std": "Choose three simple measures for a change, such as errors per 100 items or briefing attendance, and say how each will be read."
+   },
+   {
+    "t": "Case practice",
+    "min": 25,
+    "pts": [
+     "Map groups",
+     "Plan three messages",
+     "Pick three measures"
+    ],
+    "ex": "Case practice: paper forms move to an online form. Groups: office staff, front desk, customers. Messages: week 0 reason, week 2 training, week 4 help line. Measures: forms completed online, errors per 100, staff confidence.",
+    "std": "Apply the whole method to a case such as moving from paper forms to an online form, mapping groups, planning messages and picking measures."
+   },
+   {
+    "t": "Assessment",
+    "min": 10,
+    "pts": [
+     "Timed",
+     "Use the checklist",
+     "Reason first in the message"
+    ],
+    "ex": "Assessment sample: a new change case. Map the groups, write a first message with reason and date, choose measures. Pass needs every checklist point and the reason stated first.",
+    "std": "Complete a timed assessment on a new change case by mapping groups, writing a first message and choosing measures that meet the checklist."
+   },
+   {
+    "t": "Second case: a shift change for 40 staff",
+    "min": 40,
+    "pts": [
+     "Work case card 2",
+     "Write the first message",
+     "Choose measures"
+    ],
+    "ex": "Case card 2: a shift pattern changes for 40 staff in 3 weeks. Groups: 40 staff (4 teams of 10), team leaders, customers at peak times. First message, week 0, from the line manager: \"Your shift changes in 3 weeks. Why: cover at peak hours. I will meet each team in week 1.\" Measures: briefing attendance (40 of 40), questions answered, rota swaps per week.",
+    "std": "List the groups affected by the shift change, write the first message with reason, date and sender, and choose three measures with a target."
+   }
+  ],
+  "extra_check": {
+   "q": "A shift pattern changes for 40 staff in 3 weeks. When should the first message go out, and from whom?",
+   "a": "At once, in week 0, from the line manager, with the reason first.",
+   "module": 8
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What is a change",
+    "note": "A change is anything that alters how people work: a new system, form or shift. Learners at this level can name one change they have seen and say that people feel it differently."
+   },
+   {
+    "t": "L2 Awareness: Why people worry",
+    "note": "Show how a change feels from the staff side: lost routines, fear of mistakes, not knowing why. Learners know that worry is normal and that explaining the reason early helps."
+   },
+   {
+    "t": "L3 Foundation: Who is affected",
+    "note": "Learners list the groups touched by a simple change, such as the ordering system move, and say what each group needs to hear. They work with a mentor and a one-page template."
+   },
+   {
+    "t": "L4 Practitioner: Lead a team through the change",
+    "note": "This course sits here. The learner maps groups, plans three timed messages with named senders, handles resistance by listening, picks three measures and describes the change on one page."
+   },
+   {
+    "t": "L5 Specialist: Many teams at once",
+    "note": "The specialist coordinates changes touching several teams, handles different reactions, builds a plan with dates and champions, and adjusts the plan as survey results and early measures come in."
+   },
+   {
+    "t": "L6 Advanced: Programmes of change",
+    "note": "The advanced leader runs a programme with several linked changes, sets targets for adoption, reports to sponsors, and decides when to extend support or stop measuring because the change is routine."
+   },
+   {
+    "t": "L7 Super expert: Making change normal",
+    "note": "The super expert builds an organisation that handles change well: shared method, trained sponsors, honest measures and lessons kept from each change. They teach leaders to explain the reason first."
+   }
+  ],
+  "jobs": [
+   "Team leader",
+   "Project coordinator",
+   "Operations supervisor",
+   "Change support officer",
+   "Department administrator"
+  ]
+ },
+ "BUS-002": {
+  "task": "Prepare a supplier negotiation with a target, limit and three trades, conduct role-plays inside the limit, and record the agreed terms on a one-page summary for sign-off.",
+  "cond": "Given a brief, a quote template and a role-play partner playing the supplier, working in a four-hour supervised session.",
+  "std": "Reach an agreement inside your limit using at least one trade, compare two offers on total cost and risk, and record terms, owner and date on a one-page summary.",
+  "modules": [
+   {
+    "t": "Target, limit, walk-away",
+    "min": 30,
+    "pts": [
+     "Write numbers down first",
+     "Limit is the worst deal you accept",
+     "Never cross the limit"
+    ],
+    "ex": "Target 100 per unit, walk-away limit 115. The supplier asks 120. That is 5 above the limit, so you cannot accept it. Write the three numbers down before you start.",
+    "std": "Set a target, a limit and a walk-away point before a negotiation, writing each number down and stating that the limit is the worst deal you will accept."
+   },
+   {
+    "t": "Three trades you can offer",
+    "min": 35,
+    "pts": [
+     "Three trades ready",
+     "Give something to get something",
+     "Know what each is worth"
+    ],
+    "ex": "Trades: longer contract for a lower rate (12 months for 108), faster payment for a discount, volume for free delivery. Each trade is worth something to you and to them; know the value of each.",
+    "std": "Choose three trades you can offer, such as a longer term for a lower price, and say what each trade is worth to you."
+   },
+   {
+    "t": "Listening and questions",
+    "min": 30,
+    "pts": [
+     "Ask open questions",
+     "Listen for real needs",
+     "Match trades to needs"
+    ],
+    "ex": "Open question: \"What matters most to you in this contract?\" Supplier: \"Steady orders so we can plan stock.\" That points to the trade of a 12-month term. Listen more than you speak.",
+    "std": "Ask open questions and listen closely to find what the other side really needs, so that trades can be matched to those needs."
+   },
+   {
+    "t": "Role-play 1",
+    "min": 35,
+    "pts": [
+     "Stay inside the limit",
+     "Use at least one trade",
+     "Check where you land"
+    ],
+    "ex": "Role-play 1: supplier opens at 120, you open at 100. You offer a 12-month term. They move to 112, you reach 108. 108 is 8 above target and 7 below the limit. Inside the limit, one trade used.",
+    "std": "Carry out a role-play negotiation against a supplier asking for a higher price, staying inside your limit and using at least one trade."
+   },
+   {
+    "t": "Role-play 2 with a twist",
+    "min": 40,
+    "pts": [
+     "Expect a twist",
+     "Adjust the trade, not the limit",
+     "Re-check the total"
+    ],
+    "ex": "Role-play 2 twist: the supplier adds a delivery cost of 6, taking 108 to 114, only 1 below the limit. You trade volume for free delivery, back to 108. Keep to the limit when the situation changes.",
+    "std": "Carry out a second role-play that includes a twist, such as a new demand, and adjust your trades while keeping to your limit."
+   },
+   {
+    "t": "One-page summary for sign-off",
+    "min": 30,
+    "pts": [
+     "One page",
+     "Price, term, delivery, payment, review date, signatory",
+     "Ready for sign-off"
+    ],
+    "ex": "Summary: price 108; term 12 months; delivery free (volume trade); payment 30 days; review date after 6 months; signs: the budget holder with authority.",
+    "std": "Write a one-page summary of the agreed price, term, delivery, payment, review date and signatory, ready for sign-off by the person with authority."
+   },
+   {
+    "t": "Assessment",
+    "min": 10,
+    "pts": [
+     "Timed",
+     "Prepare, negotiate, summarise",
+     "Check every point"
+    ],
+    "ex": "Assessment sample: target 50, limit 58. Agreed 54: 4 above target, 4 below limit. Pass needs prepared numbers, a negotiation inside the limit and a complete summary.",
+    "std": "Complete a timed assessment by preparing numbers, negotiating a role-play and producing a summary that meets every checklist point."
+   },
+   {
+    "t": "Second case: an early-payment offer",
+    "min": 30,
+    "pts": [
+     "Work case card 2",
+     "Work out the cash cost",
+     "Decide with the numbers"
+    ],
+    "ex": "Case card 2: the supplier offers 5 percent off if you pay in 10 days instead of 45. On a bill of 2,000 you pay 1,900 instead of 2,000: 100 saved for paying 35 days sooner. 5 / 95 x 365 / 35 = about 55 percent a year. Take it if your cost of funds is lower than that and cash allows.",
+    "std": "Calculate the cash cost of the early-payment offer from the second case card and decide whether to accept it, stating the figures used."
+   }
+  ],
+  "extra_check": {
+   "q": "You agree 108 with a limit of 115 and a target of 100. How much room is left, and how far from target?",
+   "a": "7 below the limit and 8 above target.",
+   "module": 4
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What is a negotiation",
+    "note": "A negotiation is two sides agreeing terms that work for both. Learners at this level can say that preparation matters and that you do not have to accept the first offer."
+   },
+   {
+    "t": "L2 Awareness: Target and limit",
+    "note": "Show target, limit and walk-away on a simple line: 100, 115, and the point where you leave. Learners know why writing the numbers down before the meeting protects them."
+   },
+   {
+    "t": "L3 Foundation: Trade, do not just give",
+    "note": "Learners practise offering a trade for each request in a short role-play with a mentor, such as a longer term for a lower rate, and say what each trade is worth."
+   },
+   {
+    "t": "L4 Practitioner: Run a fair supplier negotiation",
+    "note": "This course sits here. The learner prepares numbers, conducts two role-plays inside the limit, handles a twist, compares offers and writes a one-page summary ready for sign-off."
+   },
+   {
+    "t": "L5 Specialist: Complex supplier deals",
+    "note": "The specialist negotiates multi-part deals with several suppliers, compares total cost and risk, handles pressure tactics and builds a standard approval route for exceptions that others in the team can follow."
+   },
+   {
+    "t": "L6 Advanced: Category strategy",
+    "note": "The advanced buyer plans spending across a category, sets targets and limits for the team, tracks savings honestly and reviews supplier performance before the review date."
+   },
+   {
+    "t": "L7 Super expert: Procurement leadership",
+    "note": "The super expert sets negotiation policy for the organisation: authority levels, ethics, training and measures of fairness and value. They teach staff to protect long-term supplier relationships."
+   }
+  ],
+  "jobs": [
+   "Purchasing assistant",
+   "Buyer",
+   "Procurement officer",
+   "Contracts administrator",
+   "Supplier relations coordinator"
+  ]
+ },
+ "BUS-003": {
+  "task": "Write a one-page business case that states the problem in two lines, compares three options including do nothing, cites sources, recommends one option with its main risk and gives a dated next step.",
+  "cond": "Given a scenario, a data sheet, a one-page layout and a checklist, working in a three-hour supervised session.",
+  "std": "Produce one page with every part present, each number sourced or marked as an estimate, a clear reason for the recommendation, the main risk with a plan, and no jargon.",
+  "modules": [
+   {
+    "t": "The one-page shape",
+    "min": 15,
+    "pts": [
+     "Six parts on one page",
+     "A decision-maker reads it in minutes",
+     "Cut what does not help the decision"
+    ],
+    "ex": "One-page shape: Problem (2 lines); options A, B and do nothing; costs and benefits with sources; choice and why; main risk and plan; next step with date. If it runs to two pages, cut.",
+    "std": "Describe the one-page shape of a business case, listing the parts it must contain and keeping it to a single page."
+   },
+   {
+    "t": "Problem and options",
+    "min": 25,
+    "pts": [
+     "Two lines with a number",
+     "Always include do nothing",
+     "Name each option clearly"
+    ],
+    "ex": "Problem: \"One delivery van runs full and about 10 orders a week are late or lost. This costs an estimated 15,000 a year.\" Options: A buy a second van, B hire a van by the day, C do nothing (baseline).",
+    "std": "State a problem in two lines and set out the options, including a do-nothing option as the baseline for comparison."
+   },
+   {
+    "t": "Costs and benefits with sources",
+    "min": 25,
+    "pts": [
+     "List cost and benefit per option",
+     "Cite the source of each number",
+     "Mark guesses as estimates"
+    ],
+    "ex": "Option A: buy 24,000 (Quote Q1); running 6,000 a year (estimate from current van); extra income 10 orders x 30 x 50 weeks = 15,000 (estimate). Net 9,000 a year. Payback 24,000 / 9,000 = 2.7 years.",
+    "std": "List costs and benefits for each option and cite where each number came from, marking any guess as an estimate."
+   },
+   {
+    "t": "Recommendation and main risk",
+    "min": 20,
+    "pts": [
+     "Reason in one line",
+     "Most likely or most harmful risk",
+     "Dated next step"
+    ],
+    "ex": "Recommend A: net 9,000 a year, payback 2.7 years. Main risk: demand halves to 5 orders a week: income 7,500, net 1,500, payback 16 years. Plan: review after 6 months. Next step: manager decides by 30 June.",
+    "std": "Make a clear recommendation with the reason for it, and state the main risk with a plan to reduce it, plus a dated next step."
+   },
+   {
+    "t": "Practice and feedback",
+    "min": 10,
+    "pts": [
+     "Write from a case",
+     "Read the feedback list",
+     "Correct the gap"
+    ],
+    "ex": "Draft had two sources missing: the 6,000 running cost had none. Feedback: add \"estimate from last year's running costs\". Redraft has 6 of 6 parts and a source for every number.",
+    "std": "Write a practice page on a case such as a second delivery van, then use the feedback to correct any missing part."
+   },
+   {
+    "t": "Check",
+    "min": 5,
+    "pts": [
+     "Tick each point",
+     "Fix before passing on",
+     "One page only"
+    ],
+    "ex": "Check list: parts present, sources shown, risk named with plan, one page, no jargon. Pass is 5 of 5 before the page goes on.",
+    "std": "Check a finished page against the list of parts, sources, risk and length, then correct any gap before it is passed on."
+   },
+   {
+    "t": "Second case: replace 12 laptops now or later",
+    "min": 45,
+    "pts": [
+     "Work case card 2",
+     "Compare now, later and do nothing",
+     "Write the page"
+    ],
+    "ex": "Case card 2: 12 old laptops. Now: 12 x 800 = 9,600 (Quote L1). In a year: repairs 12 x 120 = 1,440 this year (estimate), then 9,600 next year (estimate), total 11,040 over two years. Waiting costs 1,440 more but keeps 9,600 in cash for a year. Do nothing: repairs continue and failures cost staff time (estimate).",
+    "std": "Write the one-page case for the 12 laptops, comparing replacing now, replacing in a year and doing nothing, with sources, a recommendation and the main risk."
+   },
+   {
+    "t": "Teach-back and peer check",
+    "min": 35,
+    "pts": [
+     "Present your page in two minutes",
+     "Peer checks the six parts",
+     "Answer one challenge question"
+    ],
+    "ex": "Teach-back: \"The problem is 12 old laptops. Three options. I recommend replacing now because repairs would cost 1,440 more over the year. Main risk: cash is tight; plan: pay in two stages. Decision needed by the end of the month.\"",
+    "std": "Present your finished page in two minutes and answer one challenge question so that a peer can confirm all six parts, the sources and the risk plan."
+   }
+  ],
+  "extra_check": {
+   "q": "Cost is 24,000 and the yearly net benefit is 9,000. What is the payback in years?",
+   "a": "24,000 / 9,000 = about 2.7 years.",
+   "module": 3
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What is a business case",
+    "note": "A business case is a short page that helps someone decide. Learners at this level can say that it states the problem, the choices and a recommendation, and that it should be short."
+   },
+   {
+    "t": "L2 Awareness: The decision-maker",
+    "note": "Show who reads a business case and what they need: the problem, the numbers, the choice and the risk. Learners know that a reader who cannot find the cost will say no."
+   },
+   {
+    "t": "L3 Foundation: Fill a template",
+    "note": "With a mentor, learners fill a one-page template from a simple case such as a second delivery van, writing the problem in two lines and listing three options with do nothing."
+   },
+   {
+    "t": "L4 Practitioner: Write the page",
+    "note": "This course sits here. The learner states the problem, compares three options with sourced numbers, recommends one with its main risk and a dated next step, and edits the page to one page."
+   },
+   {
+    "t": "L5 Specialist: Sharper numbers",
+    "note": "The specialist works with estimates and ranges, checks sources, tests what happens if numbers are wrong, such as demand halving, and builds comparison tables that others can reuse."
+   },
+   {
+    "t": "L6 Advanced: Cases that win decisions",
+    "note": "The advanced writer handles larger cases with several stakeholders, aligns the page with strategy, answers board challenges and tracks whether the decision delivered the benefit it promised."
+   },
+   {
+    "t": "L7 Super expert: A decision system",
+    "note": "The super expert designs how the organisation makes decisions: case templates, review levels, evidence rules and follow-up. They teach writers to keep every page honest, short and checkable."
+   }
+  ],
+  "jobs": [
+   "Business analyst",
+   "Project coordinator",
+   "Operations officer",
+   "Management trainee",
+   "Office manager"
+  ]
+ }
+}

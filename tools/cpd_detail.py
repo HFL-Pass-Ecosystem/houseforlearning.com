@@ -33,7 +33,8 @@ def load():
     return res
 def checks_html(text, tags=None):
     """tags: optional list (one per question) of ready-made 'Covered in...' strings."""
-    items = re.findall(r'(?:^|\s)\d+\.?\s+(.+?)\s+\*(.+?)\*(?=\s+\d+\.?\s|\s*$)', ' '.join(text) if isinstance(text, list) else text)
+    if isinstance(text, list): text = ' '.join(l for l in text if l.strip() != '---')
+    items = re.findall(r'(?:^|\s)\d+\.?\s+(.+?)\s+\*(.+?)\*(?=\s+\d+\.?\s|\s*$)', text)
     if tags is not None: assert len(tags) == len(items), (len(tags), len(items))
     return ''.join(f'<details class="loc"><summary>{inline(q)}</summary><p><strong>Model answer:</strong> {inline(a)}' + (f' {e(tags[i])}' if tags else '') + '</p></details>' for i, (q, a) in enumerate(items)), len(items)
 def load_modmap():
@@ -53,3 +54,9 @@ def render_lines(lines):
         head = ls[0]; li = ''.join(f'<li>{inline(re.sub(r"^\s*[-*] ", "", l))}</li>' for l in ls[1:])
         return f'<p>{inline(head)}</p><ul>{li}</ul>'
     return '<p>' + inline(' '.join(l.strip() for l in ls)) + '</p>'
+
+def load_full():
+    import json
+    m = {}
+    for p in sorted(D.glob('full-*.json')): m.update(json.loads(p.read_text()))
+    return m

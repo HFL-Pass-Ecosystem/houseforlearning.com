@@ -3,7 +3,7 @@
 Method and recording only. No tax, legal or investment advice. Figures invented. Rules differ by country and body; always check your own. Expert review before publish. No fees.
 
 ## ACC-001 Reconcile accounts to a month-end standard
-**Worked example:** Bank balance 10,000; ledger cash balance 9,700. Items: cheque issued, not yet cleared (400); deposit received, not yet in ledger (100). Check: 10,000 - 400 = 9,600; 9,700 - 100 = 9,600. Difference after reconciling: 0.
+**Worked example:** Bank balance 10,000; ledger cash balance 9,700. Items: cheque issued, not yet cleared (400); deposit made, not yet shown by the bank (100). Check: 10,000 - 400 + 100 = 9,700; ledger 9,700. Difference after reconciling: 0.
 **Layout:** balance per bank; add/less timing items; adjusted balance; balance per ledger; add/less ledger items; adjusted balance; difference.
 **Case card:** a practice file of 12 bank lines and 12 ledger lines with 3 planted differences.
 **Checks:** 1 Why reconcile monthly? *To catch errors and fraud early.* 2 A cheque issued but not cleared affects which balance? *Bank balance side (deduct it).* 3 What do you do with an unexplained 50? *Investigate, record it and escalate if above the limit.* 4 Who reviews? *A second person, per your policy.*
