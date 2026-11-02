@@ -2,8 +2,8 @@
  "price": [
   2400,
   900,
-  14,
-  "run"
+  8,
+  "package"
  ],
  "mods": {
   "1": {
@@ -13,12 +13,12 @@
     "Quantum methods are studied for three families of problem: simulating molecules and materials, searching or optimising among huge numbers of choices, and some cryptography tasks.",
     "Most office work, databases and web pages gain nothing from quantum hardware. A buyer who hears 'quantum' for these should be told so.",
     "Ask of any problem: how many choices, how costly is a wrong answer, and what does the best classical method already achieve? Write the three answers before you propose anything.",
-    "Count the choices with a simple formula and write the number down. Ten stops in a fixed order of visits give 9 x 8 x 7 x ... x 1 = 362,880 orders, which a laptop checks in moments.",
+    "Count the choices with a simple formula and write the number down. A route that visits 10 stops once each, with the first stop fixed, has 9 x 8 x 7 x ... x 1 = 362,880 possible orders, which a laptop checks in moments.",
     "Learn the term 'quantum-inspired': classical software that borrows ideas from quantum methods and runs today on ordinary computers. Test it before you recommend buying quantum time.",
     "Canadian buyers include research groups, banks, logistics firms and energy companies; write one concrete problem for each.",
     "End every screen with a one-line verdict: use now, watch and look again on a set date, or not suitable. Give the reason in plain words."
    ],
-   "ex": "Delivery routing for 10 stops has 9 x 8 x ... x 1 = 362,880 orders, which a laptop checks at once. For 40 stops the count is a 47-digit number, but good classical heuristics already get within a few percent of the best route. Verdict: quantum is not yet worth the cost; recommend a classical solver and a watch list with a review date.",
+   "ex": "Delivery routing for 10 stops, with the first stop fixed, has 9 x 8 x ... x 1 = 362,880 orders, which a laptop checks at once. For 40 stops the count is a 47-digit number, but good classical heuristics already get within a few percent of the best route. Verdict: quantum is not yet worth the cost; recommend a classical solver and a watch list with a review date.",
    "act": "Write a one-page 'is it quantum?' screen for three real problems and give a verdict with the three answers for each.",
    "std": "Each verdict cites the classical baseline; at least one problem is rejected with reasons."
   },
@@ -45,7 +45,7 @@
     "A qubit holds a blend of 0 and 1 until measured. Measure many times ('shots') and you get a pattern of counts, not one answer.",
     "Start with two circuits: a coin-flip (one gate) and an entangled pair (two gates). Predict the counts, then run them.",
     "Compare simulator and real hardware: the hardware shows errors. Record the error rate as wrong counts divided by total shots.",
-    "Use version control; save the circuit, shots, device name, date and result in one table row per run.",
+    "Use version control, and save the circuit, shots, device name, date and result as one table row per run.",
     "Turn counts into shares by dividing each count by the shots. With 1,000 shots, a count of 470 is 47%.",
     "Run the same circuit at 100 shots and at 1,000 shots and compare. Write one sentence on why more shots give a steadier result.",
     "Change one thing at a time between runs, such as the device or the shots, so you know what caused any change."
@@ -58,15 +58,15 @@
    "title": "Cost a proof-of-concept project",
    "intro": "Quantum work is paid by the project. Price staff time, cloud hardware time and review, and show a buyer what they get.",
    "pts": [
-    "Variable cost per run: hardware time, extra staff review and reporting.",
-    "Fixed cost per month: tools, insurance, workspace, training and a share of the lead's time.",
+    "Variable cost per package is the hardware time, extra staff review and reporting that each additional study uses.",
+    "Fixed cost per month is the tools, insurance, workspace, training and a share of the lead's time that you pay whatever you sell.",
     "Offer a fixed-price study (for example 6 weeks) with a clear deliverable: a verdict, a baseline comparison and a plan.",
     "Add 15% contingency because hardware queues and noise slow the schedule.",
     "Margin per package = price minus variable cost. Break-even packages = fixed cost per month divided by margin, rounded up.",
-    "Write three cases: 3 packages sold, 5 packages and 8 packages a month, and show profit or loss for each.",
+    "Write three cases, with 3, 5 and 8 packages sold in a month, and show the profit or loss for each.",
     "Check what free or low-cost simulator and cloud access can do before you charge for paid hardware time."
    ],
-   "ex": "Study price 2,400 per run-package; variable cost 900; margin 1,500 (63%). Fixed cost 7,000 a month needs 7,000 / 1,500 = 4.67, so 5 packages. With 15% contingency on variable cost, 900 x 1.15 = 1,035, margin 1,365, and 7,000 / 1,365 = 5.13, so 6 packages. If only 3 sell, 3 x 1,500 = 4,500 and the month loses 2,500. Teaching figures in CAD.",
+   "ex": "Study package price 2,400; variable cost 900; margin 1,500 (about 63%). Fixed cost 7,000 a month needs 7,000 / 1,500 = 4.67, so 5 packages. With 15% contingency on variable cost, 900 x 1.15 = 1,035, margin 1,365, and 7,000 / 1,365 = 5.13, so 6 packages. Three cases at the 1,500 margin: 3 packages give 4,500, a loss of 2,500; 5 give 7,500, a profit of 500; 8 give 12,000, a profit of 5,000. Teaching figures in CAD.",
    "act": "Build the cost sheet and compute break-even; show a case where only 3 packages sell.",
    "std": "Units and currency shown; three cases; arithmetic checked."
   },
@@ -76,7 +76,7 @@
    "pts": [
     "Record device, software version, calibration date, shots and random seed for every run.",
     "Re-run any surprising result three times before you report it.",
-    "Keep a model of 'expected versus observed' for each circuit and flag drift over time.",
+    "Keep a record of expected versus observed counts for each circuit and flag any drift over time.",
     "Control access to cloud accounts and rotate keys; never paste keys into notes.",
     "Back up the run table and circuit files to a second place each week, and test that you can open the copy.",
     "Name files by date and circuit so a colleague can find a run in under a minute.",

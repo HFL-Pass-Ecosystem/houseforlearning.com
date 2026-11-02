@@ -58,9 +58,9 @@
    "title": "Price a project and show return",
    "intro": "Return = savings minus cost.",
    "pts": [
-    "Price: discovery, build, integration, training, support.",
-    "Customer saving: hours saved x cost per hour, error cost avoided.",
-    "Payback in months.",
+    "Price the work in parts: discovery, build, integration, training and support.",
+    "Estimate the customer saving as hours saved times cost per hour, plus error cost avoided.",
+    "Express payback in months: the price divided by the monthly saving.",
     "Offer a staged price with a decision point.",
     "List the monthly cost of running the model: hosting, monitoring time, retraining and support hours.",
     "Quote three tiers, discovery only, discovery plus pilot, and full build, with a go or no-go point between them.",
@@ -72,12 +72,12 @@
   },
   "5": {
    "title": "Deploy, monitor and maintain",
-   "intro": "Models drift.",
+   "intro": "Model accuracy falls over time as the data changes, so plan to watch it.",
    "pts": [
-    "Pilot with humans in the loop.",
+    "Pilot with people checking the model's output before it acts.",
     "Monitor accuracy and inputs weekly.",
     "Retrain when accuracy falls.",
-    "Document for support.",
+    "Document the model so the support team can run and fix it.",
     "Log each prediction with its inputs, output, confidence and the person's final decision, so accuracy can be measured later.",
     "Set two alert levels, a warning and a stop level, and name the person who acts at each.",
     "Store each model version with its training data date and test result, and keep a rollback step."
@@ -90,10 +90,10 @@
    "title": "Sell and manage change",
    "intro": "People adopt what helps them.",
    "pts": [
-    "Start with a small win.",
-    "Train staff and listen.",
-    "Report results simply.",
-    "Ask for referrals.",
+    "Start with one small process where the model can show a quick, clear win.",
+    "Train staff on the new tool and listen to their concerns.",
+    "Report results in plain numbers the client's managers can read in a minute.",
+    "Ask satisfied clients for referrals to similar teams.",
     "Run a one-hour workshop: show the process map, run the model on 10 real cases, and ask staff to mark where they disagree.",
     "Name a champion on the client team who owns adoption and reports use every week.",
     "Update the checklist or job description so staff know what changed in their work."
@@ -107,9 +107,9 @@
    "intro": "Models make mistakes.",
    "pts": [
     "Test for unequal error across groups.",
-    "Provide appeal routes.",
-    "Keep logs.",
-    "Be honest about limits.",
+    "Provide a route for people to appeal a model decision to a human.",
+    "Keep logs of inputs and decisions so errors can be traced.",
+    "Be honest with clients about what the model cannot do.",
     "Agree with the client which groups to check, using fields it holds lawfully, and what gap triggers action.",
     "Write an appeal route: how a person asks for human review, who answers, and the time limit.",
     "Publish a one-page plain note on what the model does, what data it uses and its known limits."
@@ -122,10 +122,10 @@
    "title": "Pilot and scale",
    "intro": "Prove value.",
    "pts": [
-    "90 days.",
-    "Measure saving, accuracy, satisfaction.",
-    "Stop rule: accuracy under baseline → stop.",
-    "Plan roll-out.",
+    "Run the pilot for 90 days.",
+    "Measure saving, accuracy and user satisfaction every week.",
+    "Stop rule: if accuracy stays under the baseline, stop the pilot.",
+    "Plan the roll-out only if the pilot meets its targets.",
     "Run the pilot with a control: compare time and error against a matched group not using the model.",
     "Record weekly saving, accuracy, staff overrides and complaints.",
     "Plan the roll-out in stages, one team, then two, then all, with a checklist for each stage."

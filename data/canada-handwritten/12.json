@@ -56,12 +56,12 @@
   },
   "4": {
    "title": "Cost and price the product",
-   "intro": "Volume matters.",
+   "intro": "Cost per sensor falls as volume rises, so price with a volume in mind.",
    "pts": [
-    "Parts, assembly, test and calibration time.",
-    "Certification amortised over units.",
-    "Warranty and returns.",
-    "Price and margin.",
+    "Add up parts, assembly, test and calibration time to get the cost of one sensor.",
+    "Spread the one-time certification cost over the number of units you expect to sell.",
+    "Set aside money for warranty repairs and returned units.",
+    "Set the price so the margin per sensor covers fixed costs at your expected volume.",
     "Add a returns allowance: if 2% of units come back and each costs 70 to replace, add 0.02 x 70 = 1.40 per unit.",
     "Count test and calibration minutes per unit, divide by 60 and multiply by the hourly labour cost.",
     "Write a volume discount table and check the margin at each step so no tier sells at a loss."
@@ -74,10 +74,10 @@
    "title": "Control production quality",
    "intro": "Every unit must be tested.",
    "pts": [
-    "Incoming parts check.",
-    "End-of-line test with pass limits.",
-    "Traceability by serial number.",
-    "Track first-pass yield.",
+    "Inspect incoming parts against the drawing before they enter production.",
+    "Test every finished unit at the end of the line against written pass limits.",
+    "Give each unit a serial number so you can trace its parts and test results.",
+    "Track first-pass yield each week to see where faults come from.",
     "Write pass limits as numbers on the test sheet, such as 'error not above 0.3 at all three points'.",
     "Tag failed units with a red label and a fault code, and never ship a reworked unit without a retest.",
     "Check a sample from each supplier lot and link the lot number to the serial numbers."
@@ -90,10 +90,10 @@
    "title": "Sell and support",
    "intro": "Industrial buyers want proof.",
    "pts": [
-    "Offer evaluation units.",
+    "Offer evaluation units so buyers can try the sensor in their own plant.",
     "Provide integration notes for common controllers.",
-    "Quick response support.",
-    "Reference customers.",
+    "Answer support calls quickly, because plant downtime is costly for buyers.",
+    "Ask early customers to act as references for new buyers.",
     "Write a one-page integration note per controller type showing wiring, signal range and a test step.",
     "Prepare a pitch with the buyer's own numbers: cost of a wrong reading, sensors needed, price and payback.",
     "Set a service promise, such as a reply within one working day, and track how often you keep it."
@@ -106,10 +106,10 @@
    "title": "Manage cyber and safety risk",
    "intro": "Connected sensors can be attacked.",
    "pts": [
-    "Secure firmware updates.",
-    "Unique credentials per device.",
-    "Fail-safe behaviour on fault.",
-    "Document known limits.",
+    "Make firmware updates secure so only your signed code can run.",
+    "Give every device its own credentials instead of a shared default.",
+    "Design the sensor to go to a safe state when it detects a fault.",
+    "Document the known limits of the sensor in the data sheet and manual.",
     "Sign firmware, check the signature before installing an update, and keep the previous version for rollback.",
     "Keep the sensor network apart from the office network where you can, and list every open port.",
     "Define the safe state on a fault, such as an output that goes to a known value, and test it by pulling power and cable."
@@ -125,7 +125,7 @@
     "Install 20 sensors for 90 days.",
     "Compare with reference readings.",
     "Stop rule: drift above spec means redesign.",
-    "Plan production.",
+    "Plan the first production batch only after the pilot review passes.",
     "Agree the pilot plan in writing with the customer: sensors, locations, dates, who reads reference values and how often.",
     "Read reference values weekly and plot sensor minus reference on a graph over the 90 days.",
     "Collect operator feedback on mounting, wiring and display, and list changes for the next version."

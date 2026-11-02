@@ -25,7 +25,7 @@
     "A content calendar lists date, platform, topic, text, image and status.",
     "Agree who approves posts and how fast.",
     "Write each goal as a number, a measure and a date.",
-    "List who approves posts and how fast they reply.",
+    "Write down the name of each approver and the reply time you expect from them.",
     "Plan to create a week of posts in one sitting."
    ],
    "ex": "Goal: 20 enquiries in a month. Plan: three posts a week with one clear action each, so 3 x 4 = 12 posts. If each post brought 2 enquiries that would be 24, but check the real numbers at the end of the month.",
@@ -54,7 +54,7 @@
    "pts": [
     "Advertising must be truthful. Do not post fake reviews or false claims.",
     "Paid or gifted endorsements must be clearly disclosed.",
-    "Commercial messages by email or text need consent and an unsubscribe; check the current rule with the local authority.",
+    "Commercial messages by email or text need consent and an unsubscribe; check the federal anti-spam rules.",
     "Contests have rules; in some provinces they need extra steps. Check before you run one. Respect copyright and ask before using a person's photo.",
     "Keep a record of consent for every email address.",
     "Draft disclosure wording such as 'Sponsored' or 'Gifted'.",
@@ -73,7 +73,7 @@
     "A monthly package needs a clear list: posts, platforms, replies and report.",
     "Track hours per client to see if the price is fair.",
     "Time each task: plan, create, reply and report.",
-    "Compare a monthly package with per-post pricing.",
+    "Work out what one extra post or one extra round of replies costs you in time.",
     "Review the price after the first month using your time log."
    ],
    "ex": "A package of 12 posts and a report takes 14 hours at $45: 14 x 45 = $630 a month, or $630 / 12 = $52.50 per post. If replies add 3 hours, the true cost is 17 x 45 = $765, so raise the price or limit replies.",
@@ -132,7 +132,7 @@
  "price": [
   45,
   5,
-  40,
+  30,
   "hour"
  ],
  "quiz": [

@@ -10,10 +10,10 @@
    "title": "Understand electric vehicle markets",
    "intro": "Electric vehicles are sold as cars, vans, buses and special vehicles.",
    "pts": [
-    "Segments: personal, delivery vans, buses, trucks, small special vehicles.",
-    "Customers: fleets, cities, households. Fleets care about total cost of ownership.",
-    "Incentives and rules change; check federal and provincial programmes.",
-    "Pick one niche, such as delivery vans in cold climates.",
+    "Segments include personal vehicles, delivery vans, buses, trucks and small special vehicles.",
+    "Customers include fleets, cities and households; fleets care most about total cost of ownership.",
+    "Incentives and rules change, so check the current federal and provincial programmes before you quote any figure.",
+    "Pick one niche, such as delivery vans in cold climates, and write why it suits you.",
     "Ride in or drive one electric vehicle for a week and note range loss in cold weather.",
     "Interview five fleet managers: daily distance, depot parking, power at the depot and what they pay now per kilometre.",
     "Total cost of ownership = purchase price + running costs over the years - resale value. Write it for one vehicle you would replace."
@@ -27,9 +27,9 @@
    "intro": "Vehicles must meet safety and environmental standards.",
    "pts": [
     "Federal motor-vehicle safety standards apply before a vehicle can be sold.",
-    "Battery transport and storage have dangerous-goods rules.",
-    "Provinces register and insure vehicles.",
-    "Warranty and recall rules protect buyers.",
+    "Battery transport and storage follow dangerous-goods rules, so check the federal and provincial requirements before you ship or store packs.",
+    "Provinces register and insure vehicles, so check what each province requires before a vehicle goes on the road.",
+    "Warranty and recall rules protect buyers; check which federal and provincial rules apply to you.",
     "Check charging time on a home plug, a public charger and a fast charger, and compare with spec.",
     "A vehicle built in small numbers may have different import or approval steps; check the federal and provincial rule for your case.",
     "Keep a certificate file with the standard, the test result, the date and the person who signed."
@@ -42,10 +42,10 @@
    "title": "Design the vehicle systems",
    "intro": "Work from needs.",
    "pts": [
-    "Define use: range, payload, charging time, cold performance.",
-    "Size battery from energy per kilometre.",
-    "Plan safety: crash structure, thermal management, battery protection.",
-    "Document specifications in one table.",
+    "Define the use first: range, payload, charging time and cold-weather performance.",
+    "Size the battery from the energy the vehicle uses per kilometre and the range you need.",
+    "Plan safety: crash structure, thermal management and battery protection.",
+    "Document the specifications in one table that everyone can read.",
     "List the five parts that fail most often in fleet use and plan spares.",
     "Add a margin for ageing and cold weather to the pack size, and state the margin you used.",
     "Check payload: weight of the battery, body, driver and cargo against the vehicle's rated limit."
@@ -58,10 +58,10 @@
    "title": "Cost the product",
    "intro": "Cost per vehicle drives the business.",
    "pts": [
-    "Bill of materials: battery, motor, body, electronics.",
-    "Assembly labour and facility cost per vehicle.",
-    "Warranty provision.",
-    "Margin and break-even.",
+    "Build a bill of materials that lists the battery, motor, body and electronics with a price for each.",
+    "Add assembly labour and facility cost per vehicle.",
+    "Add a warranty provision per vehicle.",
+    "Work out margin and break-even from price, cost and fixed cost.",
     "Study one crash test report and note what the structure does.",
     "Ask three suppliers for a quote at 100, 500 and 1,000 units and note how the price falls with volume.",
     "Test a 10% rise in battery cost and show the new margin."
@@ -74,10 +74,10 @@
    "title": "Build to quality",
    "intro": "Quality means testing.",
    "pts": [
-    "Incoming inspection of parts.",
-    "End-of-line tests: brakes, battery, software, leaks.",
-    "Traceability by vehicle number.",
-    "Corrective action when tests fail.",
+    "Inspect incoming parts before they enter the build.",
+    "Run end-of-line tests on brakes, battery, software and leaks.",
+    "Trace every vehicle by its number.",
+    "Take corrective action and record it whenever a test fails.",
     "Interview a fleet mechanic about what is hard to repair.",
     "Set a pass limit for each test and a sign-off line, so no vehicle leaves without a signed sheet.",
     "Count first-pass rate (vehicles that pass the first time divided by vehicles tested) and chart it weekly."
@@ -90,10 +90,10 @@
    "title": "Sell and service",
    "intro": "Service builds trust.",
    "pts": [
-    "Sales through fleets and dealers.",
-    "Service network and parts.",
-    "Training for technicians.",
-    "Remote monitoring.",
+    "Sell through fleets and dealers, and write which one you will start with.",
+    "Build a service network and a parts supply for your customers.",
+    "Train technicians before the first vehicles are delivered.",
+    "Use remote monitoring to spot faults before the customer calls.",
     "Write down the software update promise and who delivers it.",
     "Plan service in cold regions: where a customer can get help in winter and how long the repair takes.",
     "Agree a response time for a stopped vehicle and measure it."
@@ -106,10 +106,10 @@
    "title": "Manage safety and supply risk",
    "intro": "Batteries and supply chains carry risk.",
    "pts": [
-    "Battery fire plan and training.",
-    "Supplier diversification.",
-    "Material sourcing and recycling.",
-    "Cyber security for connected vehicles.",
+    "Prepare a battery fire plan and train staff in it.",
+    "Use more than one supplier for key parts so that one failure does not stop production.",
+    "Plan material sourcing and the recycling of batteries.",
+    "Protect connected vehicles from cyber attack with updates and access controls.",
     "Compare the weight of your design with two similar vehicles.",
     "Ask each supplier where its materials come from and how they are recycled; note anything you cannot verify.",
     "Write who you call, and what staff do, in the first ten minutes of a battery incident, and practise it."
@@ -122,10 +122,10 @@
    "title": "Pilot and plan scale",
    "intro": "Prove with a small series.",
    "pts": [
-    "Build 5 pilot vehicles.",
+    "Build five pilot vehicles.",
     "Measure range, faults and customer feedback.",
-    "Stop rule: range under 85% of spec means redesign.",
-    "Plan funding and plant.",
+    "Set a stop rule: if range is under 85% of spec, redesign.",
+    "Plan funding and the plant for the next stage.",
     "Record every test in one table: date, condition, result, action.",
     "Measure range in cold weather, in warm weather and loaded, not only on a good day.",
     "Check programme rules and dates for funding yourself, and compare leasing a plant with building one."

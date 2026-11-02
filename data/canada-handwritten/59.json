@@ -92,7 +92,7 @@
     "Put a summary of five lines at the top of each report.",
     "Store records securely and limit who can open them."
    ],
-   "ex": "A client calls worried after a fall. The adviser opens the plan, shows the goal and time frame, and notes the call with date and outcome. The note also records that no change was made.",
+   "ex": "A client calls worried after a fall. The adviser opens the plan, shows the goal and time frame, and notes the call with date and outcome. The note also records that no change was made. As a pricing example, a firm bills a one-hour client review at 150 CAD; the assistant's cost for that hour is 35 CAD, so the margin is 115 CAD, about 77% of the price, before overhead, and the fee is shown to the client in writing.",
    "act": "Write a one-page client report for the practice portfolio, with fees and risk in plain words.",
    "std": "Task: write a client report. Condition: one page. Standard: no promises, fees and risk shown and a plain-word summary at the top that a teenager can follow."
   },

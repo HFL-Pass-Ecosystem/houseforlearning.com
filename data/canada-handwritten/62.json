@@ -5,7 +5,7 @@
    "intro": "Gluten is a protein in some grains. Some people must avoid it for health reasons. This course is about food service work, not medical advice; people with health questions should consult a licensed health professional.",
    "pts": [
     "Explain that gluten is found in wheat, rye, barley and foods made from them.",
-    "Explain that coeliac disease, wheat allergy and gluten sensitivity are different; do not tell a customer what they have.",
+    "Explain that celiac disease, wheat allergy and gluten sensitivity are different; do not tell a customer which one they have.",
     "Explain that for many customers even a small amount can make them ill, so care is serious.",
     "Name common hidden sources: sauces, stock, soy sauce, beer, fried foods and shared oil.",
     "Explain that oats are often mixed with wheat during growing and processing.",
@@ -84,15 +84,15 @@
    "title": "Price the menu and prove it pays",
    "intro": "Gluten-free ingredients often cost more. Price must cover that and your fixed costs.",
    "pts": [
-    "Cost each recipe: ingredient cost per portion.",
-    "Food cost percent = cost per portion / selling price.",
+    "Cost each recipe by adding up the ingredient cost per portion.",
+    "Work out food cost percent as cost per portion divided by selling price.",
     "Add labour, packaging and waste to find the real cost.",
     "Break-even volume = fixed cost / margin per portion.",
     "Test prices with real customers; ask a licensed accountant about sales tax.",
     "Count waste as a cost: unsold portions and failed batches.",
     "Set a target food cost percent and check each item against it."
    ],
-   "ex": "A muffin costs 1.40 CAD in ingredients and sells for 4.50. Food cost = 1.40 / 4.50 = about 31%, and margin before labour = 4.50 - 1.40 = 3.10 per muffin. If fixed cost is 1,550 per month, break-even = 1,550 / 3.10 = 500 muffins.",
+   "ex": "A gluten-free dish costs 3.50 CAD in ingredients and sells for 12. Food cost = 3.50 / 12 = about 29%, and margin before labour = 12 - 3.50 = 8.50 per portion. If fixed cost is 4,250 per month, break-even = 4,250 / 8.50 = 500 portions.",
    "act": "Build a menu cost sheet for ten items and a break-even number.",
    "std": "Task: cost a menu. Condition: a spreadsheet. Standard: formulas are visible, waste is counted and a mentor checks the arithmetic."
   },

@@ -44,7 +44,7 @@
     "Mark and cut with a pencil line and a square, and check the first cut against the plan.",
     "Keep the work area tidy and put offcuts and waste in the right bin at the end of the day."
    ],
-   "ex": "Check square by measuring both diagonals of a frame. A frame 2.4 m by 1.2 m should have both diagonals about 2.68 m. If one reads 2.68 and the other 2.72, the frame is out of square by 4 cm and must be adjusted.",
+   "ex": "Check square by measuring both diagonals of a frame. A frame 2.4 m by 1.2 m should have both diagonals about 2.68 m. If one reads 2.68 and the other 2.72, the diagonals differ by 4 cm, so the frame is out of square and must be adjusted.",
    "act": "Build a small practice item, such as a frame or a wall section, under supervision. Check and record measurements.",
    "std": "Task: build and check a practice item. Condition: supervised, with safety gear. Standard: measurements within the stated tolerance and no safety breaches."
   },
