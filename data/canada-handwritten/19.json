@@ -1,0 +1,163 @@
+{
+ "price": [
+  150,
+  25,
+  300,
+  "hour"
+ ],
+ "mods": {
+  "1": {
+   "title": "Understand what clients need from financial services",
+   "intro": "Clients seek planning, tax, insurance, credit and investing advice.",
+   "pts": [
+    "Know the service lines and who can offer each.",
+    "Interview five clients on their goals and worries.",
+    "Choose a niche such as newcomers, students or small businesses.",
+    "Write a service sheet."
+   ],
+   "ex": "Newcomers need credit history, tax filing and savings plans in their first year.",
+   "act": "Interview five people and write a service sheet.",
+   "std": "Needs recorded."
+  },
+  "2": {
+   "title": "Know registration and conduct rules",
+   "intro": "Financial advice is regulated.",
+   "pts": [
+    "Provincial securities, insurance and mortgage regulators license advisers.",
+    "Know-your-client and suitability duties require documented advice.",
+    "Anti-money-laundering reporting.",
+    "Privacy law covers client records."
+   ],
+   "ex": "Row: 'Recommend a fund | provincial securities regulator | registration and suitability record | each advice | file note'.",
+   "act": "Build a rules table.",
+   "std": "Rows sourced and dated."
+  },
+  "3": {
+   "title": "Build a plan and explain it",
+   "intro": "Plain-language plans win trust.",
+   "pts": [
+    "Collect goals, income, costs, debts, assets.",
+    "Compute net worth and savings rate.",
+    "Set steps with dates.",
+    "Explain risks and fees."
+   ],
+   "ex": "Income 4,000, costs 3,200; savings rate 20%.",
+   "act": "Build a plan for a fictional client.",
+   "std": "Numbers check."
+  },
+  "4": {
+   "title": "Price the service",
+   "intro": "Fees must be clear.",
+   "pts": [
+    "Hourly, fixed or percentage fees.",
+    "Disclose all costs.",
+    "Time tracking.",
+    "Break-even."
+   ],
+   "ex": "Fee 150 per hour; cost 25; margin 125; fixed cost 3,000 a month → 24 hours. Teaching figures in CAD.",
+   "act": "Build a fee sheet.",
+   "std": "Disclosure written."
+  },
+  "5": {
+   "title": "Run records and reviews",
+   "intro": "Keep files complete.",
+   "pts": [
+    "Client file checklist.",
+    "Annual review.",
+    "Complaints process.",
+    "Supervision."
+   ],
+   "ex": "100% of files had suitability notes after a checklist.",
+   "act": "Audit five mock files.",
+   "std": "Gaps listed."
+  },
+  "6": {
+   "title": "Win clients ethically",
+   "intro": "Trust grows from help.",
+   "pts": [
+    "Referrals and talks.",
+    "Free guides.",
+    "Clear next step.",
+    "Track funnel."
+   ],
+   "ex": "Funnel: 30 talks, 8 meetings, 3 clients.",
+   "act": "Give a short talk.",
+   "std": "Feedback recorded."
+  },
+  "7": {
+   "title": "Manage conflict, fraud and market risk",
+   "intro": "Protect clients.",
+   "pts": [
+    "Disclose conflicts.",
+    "Fraud signs.",
+    "Never promise returns.",
+    "Business continuity."
+   ],
+   "ex": "Risk: 'Client scam loss | 3 x 5 | warnings and verification | adviser | quarterly'.",
+   "act": "Write a risk register.",
+   "std": "Owners named."
+  },
+  "8": {
+   "title": "Pilot with mock clients",
+   "intro": "Practise.",
+   "pts": [
+    "Three mock plans.",
+    "Peer review.",
+    "Stop rule: missing disclosure fails.",
+    "Reflect."
+   ],
+   "ex": "All three plans passed disclosure check.",
+   "act": "Run mock pilot.",
+   "std": "Review has decision."
+  }
+ },
+ "quiz": [
+  [
+   "What is suitability?",
+   "Advice fitting the client's goals, risk and situation."
+  ],
+  [
+   "Who regulates advisers?",
+   "Provincial regulators."
+  ],
+  [
+   "What is savings rate?",
+   "Savings divided by income."
+  ],
+  [
+   "Why disclose fees?",
+   "Clients must know costs."
+  ],
+  [
+   "What is KYC?",
+   "Know your client."
+  ],
+  [
+   "Why keep notes?",
+   "Proof of advice."
+  ],
+  [
+   "What must you never promise?",
+   "Returns."
+  ],
+  [
+   "What is a conflict of interest?",
+   "A situation where your gain may clash with the client's."
+  ],
+  [
+   "Why annual reviews?",
+   "Plans must be updated."
+  ],
+  [
+   "What triggers fail in the mock?",
+   "Missing disclosure."
+  ]
+ ],
+ "jobs": [
+  "Financial services assistant",
+  "Client service officer",
+  "Planner trainee",
+  "Compliance assistant",
+  "Adviser"
+ ]
+}

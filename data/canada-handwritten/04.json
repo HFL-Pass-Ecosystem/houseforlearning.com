@@ -13,7 +13,8 @@
     "Stages: seed, early, growth. Each has different risk and information.",
     "Money comes from limited partners; managers owe them honest reports.",
     "AI companies differ: tools, applications, data, services. Judge whether the data or the model is the real asset.",
-    "Write a one-page thesis: what we back, why now, what we avoid."
+    "Write a one-page thesis: what we back, why now, what we avoid.",
+    "Read one real company's public filings or website and list five claims you can check and five you cannot."
    ],
    "ex": "Thesis: 'We back applied AI for Canadian clinics and logistics at seed stage; we avoid pure model-building without data access.'",
    "act": "Write a thesis and test it against three real companies' public information.",
@@ -26,7 +27,8 @@
     "Provincial securities regulators govern who may raise funds, give advice and sell investments; exemptions exist for some investors.",
     "Managers may need registration; do not act before checking.",
     "Anti-money-laundering rules require identifying investors and sources of funds.",
-    "Marketing must be balanced; never promise returns."
+    "Marketing must be balanced; never promise returns.",
+    "Check that you can lawfully see the information you use; do not trade on private information."
    ],
    "ex": "Row: 'Raise a fund from friends | provincial securities regulator | check exemption and registration | before any pitch | lawyer's written opinion'.",
    "act": "Build a rules table for a small fund and ask a licensed adviser to review.",
@@ -39,7 +41,8 @@
     "Check the data: source, rights to use, quality and bias.",
     "Check the model: accuracy on held-out data, cost to run, drift over time.",
     "Check the team and customers: paid pilots count more than letters of intent.",
-    "Write findings in a short memo with a rating and open questions."
+    "Write findings in a short memo with a rating and open questions.",
+    "Ask what the company would do with money, by when, and how you would know it worked."
    ],
    "ex": "Claim '95% accuracy' tested on the company's own test set; independent sample shows 84%. Memo rating drops from strong to watch.",
    "act": "Review one public AI company and write a two-page memo.",
@@ -52,7 +55,8 @@
     "A fund of 10,000,000 with 2% yearly fee costs 200,000 a year.",
     "Returns come from a few big winners; most investments return little.",
     "Model three cases: poor, expected, strong.",
-    "Be clear about fees and carried interest."
+    "Be clear about fees and carried interest.",
+    "Compare fund costs over ten years with a fee table, not a feeling."
    ],
    "ex": "Invest 500,000 across 10 companies at 50,000 each. Outcomes: 6 return nothing, 3 return 50,000 each, 1 returns 400,000 (8x). Total back = 150,000 + 400,000 = 550,000, which is 1.1x before fees. Teaching figures: one big winner decides the result.",
    "act": "Build a three-case return table.",
@@ -65,7 +69,8 @@
     "Quarterly review: revenue, cash, hires, risks.",
     "Reserve money for follow-on rounds.",
     "Set triggers for support or exit.",
-    "Report to investors in a fixed format."
+    "Report to investors in a fixed format.",
+    "Record why you made each decision on the day, so you can learn later."
    ],
    "ex": "Quarter page: 10 companies, 2 behind plan, 1 needing a bridge; action: reserve 200,000.",
    "act": "Build a quarterly dashboard for a fictional portfolio.",
@@ -78,7 +83,8 @@
     "Network with universities, accelerators and founders.",
     "Give founders fast, clear answers.",
     "Offer help beyond money: introductions and advice.",
-    "Track deal flow: seen, met, diligence, offer, closed."
+    "Track deal flow: seen, met, diligence, offer, closed.",
+    "Keep a list of founders you met and notes for follow-up, with their consent."
    ],
    "ex": "Funnel: 120 seen, 30 met, 8 diligence, 3 offers, 2 closed.",
    "act": "Run a deal funnel for 4 weeks (public companies or case studies).",
@@ -91,7 +97,8 @@
     "Screen for harmful uses and biased data.",
     "Declare conflicts of interest.",
     "Respect privacy law (PIPEDA) in portfolio companies.",
-    "Publish an investment policy."
+    "Publish an investment policy.",
+    "Write the policy for what you do if a founder behaves badly."
    ],
    "ex": "Policy line: 'We do not back face-recognition used without consent.'",
    "act": "Write a one-page responsible investing policy.",
@@ -104,7 +111,8 @@
     "Pick 5 public companies and a thesis.",
     "Track for 60 days with notes.",
     "Compare with a simple benchmark.",
-    "Write a review: what the thesis got right and wrong."
+    "Write a review: what the thesis got right and wrong.",
+    "Keep your paper fund simple: no more than five names."
    ],
    "ex": "Paper portfolio +3% vs benchmark +1%; reason noted: luck vs thesis.",
    "act": "Run the paper fund and present the review.",

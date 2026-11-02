@@ -1,0 +1,163 @@
+{
+ "price": [
+  420000,
+  360000,
+  12,
+  "unit"
+ ],
+ "mods": {
+  "1": {
+   "title": "Read a local property market",
+   "intro": "Property is local. Learn one neighbourhood deeply.",
+   "pts": [
+    "Collect 20 recent sales: price, size, days on market, condition.",
+    "Compute price per square foot and the spread.",
+    "Note rent levels, vacancy and new supply.",
+    "Write a one-page market note."
+   ],
+   "ex": "20 sales: median 640 per sq ft; range 560 to 760; median 28 days on market.",
+   "act": "Build a 20-sale table and market note.",
+   "std": "Numbers have sources and dates."
+  },
+  "2": {
+   "title": "Know licensing, disclosure and trust rules",
+   "intro": "Real estate is regulated.",
+   "pts": [
+    "Provincial regulators license agents and brokers; only licensed people may trade for others.",
+    "Deposits go into trust accounts with strict records.",
+    "Sellers and agents must disclose known material facts.",
+    "Anti-money-laundering rules need client identification."
+   ],
+   "ex": "Row: 'Accept a buyer deposit | provincial real-estate regulator | trust account and receipt | same day | trust ledger'.",
+   "act": "Build a rules table for your province.",
+   "std": "Rows sourced and dated."
+  },
+  "3": {
+   "title": "Value and analyse a property",
+   "intro": "Use comparable sales and income.",
+   "pts": [
+    "Comparable sales method: adjust for size, condition, location.",
+    "Income method: net operating income / capitalisation rate.",
+    "Check hidden costs: repairs, taxes, fees.",
+    "Write a short valuation note."
+   ],
+   "ex": "Net income 28,000 / cap rate 5% = 560,000.",
+   "act": "Value one property two ways.",
+   "std": "Both methods shown."
+  },
+  "4": {
+   "title": "Cost a deal and test it",
+   "intro": "Margin of safety.",
+   "pts": [
+    "Purchase price plus closing costs.",
+    "Repair and holding costs.",
+    "Sale or rent income.",
+    "Break-even and stress tests."
+   ],
+   "ex": "Buy 360,000; costs 24,000; sell 420,000; fees 21,000; profit 15,000 (3.5%). A 5% price fall turns it negative. Teaching figures in CAD.",
+   "act": "Build a deal sheet with a 5% fall case.",
+   "std": "Stress case shown."
+  },
+  "5": {
+   "title": "Run the transaction and file records",
+   "intro": "Process protects everyone.",
+   "pts": [
+    "Listing agreement, offer, conditions, closing.",
+    "Record every step.",
+    "Use lawyers and inspectors.",
+    "Handle conflicts of interest in writing."
+   ],
+   "ex": "Closing checklist with 14 steps, each signed and dated.",
+   "act": "Build a transaction checklist.",
+   "std": "All steps dated."
+  },
+  "6": {
+   "title": "Find clients and build trust",
+   "intro": "Reputation is the business.",
+   "pts": [
+    "Referrals and local presence.",
+    "Plain-language guides.",
+    "Respond within hours.",
+    "Collect reviews honestly."
+   ],
+   "ex": "Funnel: 40 contacts, 10 viewings, 3 offers, 1 sale.",
+   "act": "Run a 4-week funnel.",
+   "std": "Funnel recorded."
+  },
+  "7": {
+   "title": "Manage legal, fair-housing and market risk",
+   "intro": "Treat everyone fairly.",
+   "pts": [
+    "Fair-housing and human-rights rules forbid discrimination.",
+    "Market downturn plan.",
+    "Keep records for the required years.",
+    "Insurance."
+   ],
+   "ex": "Risk: 'Price fall | 4 x 4 | margin of safety | owner | quarterly'.",
+   "act": "Write a risk register.",
+   "std": "Owners named."
+  },
+  "8": {
+   "title": "Pilot with a paper deal",
+   "intro": "Practise with a mock transaction.",
+   "pts": [
+    "Pick a listing, value it and plan the sale.",
+    "Track 60 days.",
+    "Stop rule: negative margin means no deal.",
+    "Review."
+   ],
+   "ex": "Mock deal margin 6%; go.",
+   "act": "Run the mock and present review.",
+   "std": "Review has decision."
+  }
+ },
+ "quiz": [
+  [
+   "What is price per square foot?",
+   "Price divided by area."
+  ],
+  [
+   "How is value found by income?",
+   "Net operating income divided by cap rate."
+  ],
+  [
+   "Where are deposits held?",
+   "In a trust account."
+  ],
+  [
+   "Who may trade for others?",
+   "Licensed agents and brokers."
+  ],
+  [
+   "Why stress test a deal?",
+   "To see if it survives a price fall."
+  ],
+  [
+   "What must sellers disclose?",
+   "Known material facts."
+  ],
+  [
+   "Why keep records?",
+   "Rules require it and it protects you."
+  ],
+  [
+   "What is a margin of safety?",
+   "Buffer between price and value."
+  ],
+  [
+   "Why is fair housing important?",
+   "Discrimination is illegal."
+  ],
+  [
+   "What triggers no-go in the mock?",
+   "Negative margin."
+  ]
+ ],
+ "jobs": [
+  "Real-estate assistant",
+  "Property analyst",
+  "Property manager",
+  "Licensed agent trainee",
+  "Broker or developer"
+ ]
+}

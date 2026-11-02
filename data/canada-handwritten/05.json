@@ -13,7 +13,8 @@
     "Buyers care about energy bills, security, comfort and resale value.",
     "List features by cost and value: smart thermostat, leak sensors, access control, EV charging, shared-space booking.",
     "Interview ten buyers or tenants: which features they would pay for.",
-    "Check local condo prices and absorption (units sold per month)."
+    "Check local condo prices and absorption (units sold per month).",
+    "Walk two finished smart buildings and list what residents actually use and what sits idle."
    ],
    "ex": "Leak sensors cost 80 per unit and cut insurance claims; buyers rank them above voice assistants.",
    "act": "Interview ten people and rank features by willingness to pay.",
@@ -26,7 +27,8 @@
     "Zoning and official plans decide what you may build.",
     "Building code and permits come before work; inspections follow.",
     "Condo law (provincial) governs sale, deposits, disclosure and cooling-off.",
-    "Smart systems that collect resident data fall under privacy law."
+    "Smart systems that collect resident data fall under privacy law.",
+    "Check what happens to each feature if the internet fails for a day."
    ],
    "ex": "Row: 'Take buyer deposits | provincial condo law | hold in trust and give disclosure | before any sale | lawyer's trust account record'.",
    "act": "Build a rules table for a 40-unit building.",
@@ -39,7 +41,8 @@
     "Choose open standards so devices from different makers work together.",
     "Plan cabling, power and network closets at design time.",
     "Decide who owns data from sensors and who can see it.",
-    "Plan updates and support for ten years."
+    "Plan updates and support for ten years.",
+    "Ask the building operator who will pay for software updates in year 5."
    ],
    "ex": "Open standard chosen so that a failed hub vendor can be replaced without rewiring.",
    "act": "Draw a one-page system plan for a floor.",
@@ -52,7 +55,8 @@
     "Hard costs: construction. Soft costs: design, permits, fees, marketing.",
     "Financing cost grows each month of delay.",
     "Contingency of 10 to 15%.",
-    "Compute profit = sales - all costs."
+    "Compute profit = sales - all costs.",
+    "Cost features per unit and per year, not only at purchase."
    ],
    "ex": "40 units x 520,000 = 20.8M; cost per unit 430,000 = 17.2M; profit 3.6M (17%). Teaching figures.",
    "act": "Build a development pro forma with a 10% cost rise case.",
@@ -65,7 +69,8 @@
     "Stage gates: foundation, frame, services, finishes.",
     "Walk the site weekly with a checklist.",
     "Test smart systems before handover.",
-    "Keep a defects list and close it with dates."
+    "Keep a defects list and close it with dates.",
+    "Photograph every wall before it is closed, so later repairs know where cables run."
    ],
    "ex": "Defect list: 62 items at handover walk; 55 closed in 14 days; 7 reopened.",
    "act": "Write a stage-gate checklist.",
@@ -78,7 +83,8 @@
     "Give plain disclosure and a demonstration unit.",
     "Train residents to use systems.",
     "Set a help desk and response times.",
-    "Collect satisfaction after 90 days."
+    "Collect satisfaction after 90 days.",
+    "Test each smart system with the owner's phone, not only the installer's."
    ],
    "ex": "Demo-unit visits: 120; offers 30; sales 22.",
    "act": "Run a mock sales funnel.",
@@ -91,7 +97,8 @@
     "Collect only needed data; tell residents; allow deletion.",
     "Secure networks and update devices.",
     "Plan fire, flood and power-cut responses.",
-    "Aim for energy performance targets."
+    "Aim for energy performance targets.",
+    "Give residents a one-page guide in English and French."
    ],
    "ex": "Policy line: 'Camera data kept 30 days, viewed only after an incident.'",
    "act": "Write a resident data note and risk register.",
@@ -104,7 +111,8 @@
     "Pilot with 8 units for 90 days.",
     "Measure energy savings, faults and satisfaction.",
     "Stop rule: more than 3 faults per unit per month means redesign.",
-    "Plan the next phase."
+    "Plan the next phase.",
+    "Collect resident feedback at 30 and 90 days and file it."
    ],
    "ex": "Energy savings 14%; faults 1.5 per unit per month; proceed.",
    "act": "Run the pilot review.",

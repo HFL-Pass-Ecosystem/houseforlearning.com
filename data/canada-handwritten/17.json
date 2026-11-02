@@ -1,0 +1,163 @@
+{
+ "price": [
+  2400,
+  1800,
+  40,
+  "load"
+ ],
+ "mods": {
+  "1": {
+   "title": "Understand freight and storage markets",
+   "intro": "Goods move by road, rail, air and sea; storage buffers timing.",
+   "pts": [
+    "Map one route: origin, mode, handover, destination, with times.",
+    "Know cost drivers: distance, weight, speed, handling, empty returns.",
+    "Study cold chain and dangerous goods as special cases.",
+    "Choose a niche: local last-mile, cold storage, small-parcel consolidation."
+   ],
+   "ex": "A shipper sends 12 pallets weekly to three towns; empty return trips raise cost per pallet by 30%.",
+   "act": "Map one route with costs.",
+   "std": "Costs per mode shown."
+  },
+  "2": {
+   "title": "Know transport and safety rules",
+   "intro": "Transport is regulated.",
+   "pts": [
+    "Commercial driver licensing, hours-of-service and vehicle inspections apply.",
+    "Dangerous goods need training and documents.",
+    "Food and medicine storage need temperature records.",
+    "Cross-border rules need customs paperwork."
+   ],
+   "ex": "Row: 'Drive commercial truck | provincial and federal transport rules | licence, logs, inspection | each day | log book'.",
+   "act": "Build a rules table.",
+   "std": "Rows sourced and dated."
+  },
+  "3": {
+   "title": "Plan routes and warehouse flow",
+   "intro": "Good plans save kilometres and handling.",
+   "pts": [
+    "Group stops by area and time window.",
+    "Load in reverse stop order.",
+    "Warehouse flow: receive, check, put-away, pick, pack, ship.",
+    "Use simple software."
+   ],
+   "ex": "Route A: 22 stops in 188 km vs 241 km unplanned, saving 22%.",
+   "act": "Plan a 15-stop route two ways.",
+   "std": "Distances compared."
+  },
+  "4": {
+   "title": "Cost per load and per pallet position",
+   "intro": "Know your cost.",
+   "pts": [
+    "Vehicle cost per km, driver cost per hour, fuel, insurance.",
+    "Warehouse cost per pallet per month.",
+    "Utilisation: loaded share of capacity.",
+    "Margin and break-even."
+   ],
+   "ex": "Load price 2,400; cost 1,800; margin 600 (25%); fixed cost 24,000 a month → 40 loads. Teaching figures in CAD.",
+   "act": "Build a cost sheet with 70% utilisation case.",
+   "std": "Cases shown."
+  },
+  "5": {
+   "title": "Run on time and damage-free",
+   "intro": "Reliability sells.",
+   "pts": [
+    "Track on-time and damage rates.",
+    "Inspect and photograph loads.",
+    "Preventive maintenance.",
+    "Handle claims fast."
+   ],
+   "ex": "On-time 94%; damage 0.8%.",
+   "act": "Keep a 4-week delivery log.",
+   "std": "Rates computed."
+  },
+  "6": {
+   "title": "Win shippers and partners",
+   "intro": "Prove reliability.",
+   "pts": [
+    "Offer trial loads.",
+    "Quote in writing with terms.",
+    "Partner with brokers and warehouses.",
+    "Track funnel."
+   ],
+   "ex": "Funnel: 25 shippers, 8 quotes, 3 customers.",
+   "act": "Pitch three shippers.",
+   "std": "Pitch has numbers."
+  },
+  "7": {
+   "title": "Manage safety, weather and cargo risk",
+   "intro": "Plan for hazards.",
+   "pts": [
+    "Fatigue and speed controls.",
+    "Winter driving plans.",
+    "Cargo insurance.",
+    "Theft prevention."
+   ],
+   "ex": "Risk: 'Winter delay | 4 x 3 | buffer days and alerts | dispatcher | each season'.",
+   "act": "Write a risk register.",
+   "std": "Owners named."
+  },
+  "8": {
+   "title": "Pilot a lane",
+   "intro": "Prove one route.",
+   "pts": [
+    "60 days.",
+    "Measure on-time, cost per pallet.",
+    "Stop rule: margin under 10% means re-price.",
+    "Plan growth."
+   ],
+   "ex": "Margin 22%; proceed.",
+   "act": "Run pilot review.",
+   "std": "Review has decision."
+  }
+ },
+ "quiz": [
+  [
+   "What is utilisation?",
+   "Share of vehicle or space used."
+  ],
+  [
+   "Why group stops?",
+   "To cut distance."
+  ],
+  [
+   "What logs do drivers keep?",
+   "Hours-of-service logs."
+  ],
+  [
+   "Why photograph loads?",
+   "To handle damage claims."
+  ],
+  [
+   "What raises cost per pallet?",
+   "Empty return trips."
+  ],
+  [
+   "What is on-time rate?",
+   "Deliveries on time divided by all."
+  ],
+  [
+   "Who trains for dangerous goods?",
+   "Approved trainers; training is required."
+  ],
+  [
+   "Why buffer days?",
+   "Winter delays."
+  ],
+  [
+   "What triggers re-pricing?",
+   "Margin under 10%."
+  ],
+  [
+   "Why insure cargo?",
+   "Loss and damage claims."
+  ]
+ ],
+ "jobs": [
+  "Dispatcher",
+  "Warehouse associate",
+  "Driver",
+  "Logistics coordinator",
+  "Logistics business owner"
+ ]
+}
