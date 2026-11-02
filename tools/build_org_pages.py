@@ -58,8 +58,12 @@ def cta(kicker, h2, p, btns):
 def btn(href, text, ghost=False):
     return f'<a class="btn{" btn-ghost" if ghost else ""}" href="{href}">{text}</a>'
 
+BANDS = json.load(open('data/photo-bands.json', encoding='utf-8'))  # photo band shown under the hero on a few pages
+
 def write(f, main, title=None, desc=None, crumb=None, noindex=False):
     s = read(f)
+    if f in BANDS:
+        main = main.replace('</section>', '</section>' + BANDS[f], 1)
     if noindex and 'name="robots"' not in s:
         s = s.replace('<meta name="viewport"', '<meta name="robots" content="noindex">\n<meta name="viewport"', 1)
     pager = re.search(r'<nav class="pager".*?</nav>', s, re.S)
@@ -283,7 +287,7 @@ def sectors():
         if rel:
             m += split('learn in this sector', 'Related courses',
                        '<ul class="o-mini">' + ''.join(f'<li><a href="{h}">{E(t)}</a></li>' for h, t in rel) + '</ul>'
-                       '<p class="o-note">Course outlines are drafts and are not yet open for enrolment.</p>', alt=True)
+                       '<p class="o-note">Course outlines are planned and are not yet open for enrolment.</p>', alt=True)
         fo = SECTOR_FOCUS.get(f, {})
         fb = ''
         if fo.get('focus'):
@@ -315,6 +319,11 @@ def services():
              btn(CONTACT, 'Ask a question'))
     m += split('our services', 'Pick a service', grid([(t, p, f + '.html') for f, t, p, _ in SERVICES]),
                lead='Learn and earn: bloom where you are planted.', full=True)
+    m += ('<section class="sec alt" id="what-we-offer" aria-labelledby="wwo-h"><div class="wrap o-split"><div class="o-head"><p class="kicker">what we offer</p>'
+          '<h2 id="wwo-h">Training, software and learning supplies</h2></div><div class="o-body"><p class="o-lead">Training for organisations and individuals, and the tools to learn with.</p>'
+          '<ul class="o-mini"><li>Business and administrative training</li><li>Software training</li><li>Other training, including live and by contact</li><li>E-learning software</li>'
+          '<li>Online courses and learning materials, sold online</li><li>Laboratory kits and equipment for schools and universities</li><li>Classroom computers</li></ul>'
+          '<p class="o-note">Some items are planned and are not yet open to order. Ask us through <a href="contact.html">Contact</a>.</p></div></div></section>')
     m += cta('your next step', 'Not sure which one?', 'Tell us your goal and we will suggest a service.', btn(CONTACT, 'Contact form') + btn('partner.html', 'Partner with us', True))
     write('services.html', m)
 
@@ -325,6 +334,7 @@ def partner():
     m += band('partner programme', 'Four levels, one network',
               '<p>Partners, affiliates and value providers work together in a hub-and-spoke network in four levels. Each level has a memorandum checklist and a quarterly review.</p>'
               '<div class="o-links">' + btn('organisations.html', 'For organisations') + btn('how-we-help.html', 'How we help', True) + '</div>')
+    m += open('data/partner-sections.html', encoding='utf-8').read().rstrip('\n')  # how-partners steps + partner enquiry form
     m += split('contact us', 'Feel free to contact us about any queries',
                '<p>Use the contact form.</p><div class="o-links">' + btn('contact.html', 'Contact us') + '</div>', alt=True)
     write('partner.html', m)

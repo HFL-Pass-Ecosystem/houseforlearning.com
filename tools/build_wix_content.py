@@ -6,7 +6,7 @@ Draft: pages are noindex until the owner approves the wording."""
 import re, html, pathlib
 R = pathlib.Path(__file__).resolve().parents[1]; S = R / 'site'
 e = html.escape
-DRAFT = 'Draft wording, carried over from the old website. Prices are shown on the Membership page only.'
+DRAFT = 'Prices are shown on the Membership page only.'
 tpl = (S / 'catalogue.html').read_text()
 if 'name="robots"' not in tpl or 'index,follow' in tpl:
     tpl = tpl.replace('<meta name="robots" content="index,follow">', '')

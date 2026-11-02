@@ -5,7 +5,7 @@ Keeps each page's <head>, header and footer as they are and replaces only <main>
 Run from the repo root: python3 tools/build_support.py
 Text comes from the existing pages and the HFL content pack; nothing is invented here.
 """
-import re, pathlib
+import re, pathlib, json
 
 SITE = pathlib.Path(__file__).resolve().parent.parent / "site"
 MAIL = ""  # no mailbox is shown on public pages; people use the contact form
@@ -125,7 +125,7 @@ FAQ = [
         ("Where do I start?", 'Pick the subject family closest to your work in the <a href="catalogue.html">catalogue</a> and take its first unit. If you are unsure, our learner support desk will suggest one.'),
         ("How long is a unit?", "Between 5 and 90 minutes. Most first units take 10 to 15 minutes."),
         ("Do I need to be near a campus?", "No. Most units work at a home study station. Hands-on units need a supervised practice station on a campus."),
-        ("Where will " + NT + " be offered?", "Online, everywhere. The group plans offices across India and hubs abroad that will serve learners worldwide with partners. Each location is announced when it opens."),
+        ("Where will " + NT + " be offered?", "Online, everywhere. We plan offices across India and hubs abroad that will serve learners worldwide with partners. Each location is announced when it opens."),
         ("What do head, heart and hands mean?", "Every unit has an outcome for what you know, why it matters to you, and what you can do."),
     ]),
     ("credits", "pathways and credits", "Pathways and credits", [
@@ -305,6 +305,7 @@ def contact(old):
     main = hero("say hello", "Contact us",
                 "Tell us what you want to learn, or what your team needs. A person reads every message and writes back.",
                 BTN.format("#message-form", "Write to us") + GHOST.format("faq.html", "Read the questions"))
+    main += json.load(open(SITE.parent / "data" / "photo-bands.json", encoding="utf-8"))["contact.html"]  # photo under the hero
     main += ('<section class="sec sx-contact" id="message-form" aria-labelledby="message-form-h"><div class="wrap sx-contact-grid">'
              '<div class="sx-formcol"><p class="kicker">general message form</p><h2 id="message-form-h">Send us a message</h2>' + form + "</div>"
              '<aside class="sx-aside" aria-label="Other ways to reach us"><h3>Write to us</h3><dl class="details">'
