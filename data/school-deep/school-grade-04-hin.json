@@ -31,7 +31,15 @@
    ],
    "example": "Solved: main khata hoon (I eat), maine khaya (I ate), main khaunga (I will eat). Method: Model run for 'Verbs and tenses introduction'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
-   "standard": "Use simple verbs: at least 4 of 5 attempts correct, said or written, with one real example from home or school."
+   "standard": "Use simple verbs: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": [
+    "Step 1, A verb tells an action. Learn five: खाना [to eat], पीना [to drink], पढ़ना [to read], खेलना [to play], जाना [to go]. Remove ना to get the stem: खा, पी, पढ़, खेल, जा. Say each stem and each full verb.",
+    "Step 2, Make the present tense: stem + ता, ती or ते, plus है, हूँ or हैं. मैं स्कूल जाता हूँ। [I go to school, a boy speaking.] मैं स्कूल जाती हूँ। [A girl speaking.] वह खेलता है। [He plays.] हम पढ़ते हैं। [We read.]",
+    "Step 3, Make the past with जाना. कल मैं स्कूल गया। [Yesterday I went to school, a boy.] कल मैं स्कूल गई। [Yesterday I went to school, a girl.] हम बाज़ार गए। [We went to the market.] The ending shows gender and number.",
+    "Step 4, Make the future. कल मैं स्कूल जाऊँगा। [Tomorrow I will go to school, a boy.] कल मैं स्कूल जाऊँगी। [A girl.] हम बाग़ में खेलेंगे। [We will play in the garden.] Practise the same sentence in the three tenses.",
+    "Step 5, Fix an error. A child says मैं स्कूल जाता है। Correction: मैं स्कूल जाता हूँ। because मैं goes with हूँ. Another says वह खेलती हूँ। Correction: वह खेलती है। because वह goes with है.",
+    "Step 6, Your turn: say what you do today, did yesterday and will do tomorrow with पढ़ना. Model answer: आज मैं किताब पढ़ता हूँ। कल मैंने किताब पढ़ी। कल मैं कहानी पढ़ूँगा। [Today I read a book. Yesterday I read a book. Tomorrow I will read a story.]"
+   ]
   },
   {
    "n": 2,
@@ -52,7 +60,15 @@
    ],
    "example": "Solved: bada-chhota (big-small), din-raat (day-night), garam-thanda (hot-cold). A synonym for 'sundar' is 'khoobsurat'. Method: Model run for 'Opposites and word meanings'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
-   "standard": "Use opposites: at least 4 of 5 attempts correct, said or written, with one real example from home or school."
+   "standard": "Use opposites: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": [
+    "Step 1, Opposites (विलोम शब्द) mean the reverse. बड़ा–छोटा [big–small], ऊँचा–नीचा [high–low], गर्म–ठंडा [hot–cold], दिन–रात [day–night], आगे–पीछे [front–back]. Read each pair, then cover one word and say its opposite.",
+    "Step 2, More pairs. अंदर–बाहर [inside–outside], सच–झूठ [truth–lie], हँसना–रोना [to laugh–to cry], मीठा–कड़वा [sweet–bitter], नया–पुराना [new–old]. Make a pair card for each, with the word on one side and its opposite on the other.",
+    "Step 3, Use opposites in sentences. यह पहाड़ ऊँचा है और वह टीला नीचा है। [This mountain is high and that mound is low.] चाय गर्म है, पानी ठंडा है। [The tea is hot, the water is cold.] दिन में रोशनी होती है, रात में अँधेरा। [There is light in the day, darkness at night.]",
+    "Step 4, Match meaning with context. बच्चा अंदर है, बिल्ली बाहर है। [The child is inside, the cat is outside.] मीठा आम और कड़वा करेला [sweet mango and bitter gourd]. Use each pair in one sentence about a picture.",
+    "Step 5, Fix an error. A child says the opposite of दिन is शाम. Correction: the opposite of दिन is रात; शाम is only part of the day. Adjectives must still agree: बड़ी मेज़ [big table] and छोटी कुर्सी [small chair], not बड़ा मेज़.",
+    "Step 6, Your turn: write the opposites of नया, अंदर and हँसना, then a sentence. Model answer: पुराना, बाहर, रोना। नया बस्ता पुराने बस्ते से अच्छा है। [Old, outside, to cry. The new bag is better than the old bag.]"
+   ]
   },
   {
    "n": 3,
@@ -73,7 +89,8 @@
    ],
    "example": "Solved: अनौपचारिक पत्र: दिनांक, संबोधन (प्रिय मित्र रवि), कुशल-क्षेम, मुख्य बात, समापन (तुम्हारा मित्र, अमन)। औपचारिक: सेवा में, प्रधानाचार्य महोदय; विषय: अवकाश हेतु प्रार्थना-पत्र; मुख्य भाग दो छोटे अनुच्छेदों में; आपका आज्ञाकारी शिष्य, नाम, कक्षा। Method: Model run for 'Letters and short messages'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
-   "standard": "Write a short message: at least 4 of 5 attempts correct, said or written, with one real example from home or school."
+   "standard": "Write a short message: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": []
   },
   {
    "n": 4,
@@ -94,7 +111,8 @@
    ],
    "example": "Solved: भाषण: 'आदरणीय अध्यापकगण और मेरे साथियो, आज मैं पुस्तकें पढ़ने के लाभ पर बोलूँगा।' फिर तीन बिंदु, एक उदाहरण और अंत में धन्यवाद। एक मिनट में बोलने का अभ्यास करें। Method: Model run for 'Speaking practice'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
-   "standard": "Speak in short sentences: at least 4 of 5 attempts correct, said or written, with one real example from home or school."
+   "standard": "Speak in short sentences: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": []
   }
  ],
  "rubric": [

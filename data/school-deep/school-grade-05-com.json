@@ -31,7 +31,16 @@
    ],
    "example": "Solved: Slide 1 title; slide 2 three bullets of six words or fewer; slide 3 one picture. Check contrast and font size. Method: Model run for 'Advanced word and slide skills'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
-   "standard": "Format a report with headings, images and a table: at least 4 of 5 attempts correct, said or written, with one real example from home or school."
+   "standard": "Format a report with headings, images and a table: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": [
+    "Step 1, Plan the report: Rashid writes a one-page report on 'Water at School'. Structure: a title, two headings called 'How We Use Water' and 'How We Can Save It', one picture of a tap, and a small table of daily use.",
+    "Step 2, Apply styles: He types the title and sets it to Title style, then selects each heading line and applies Heading 1. Using styles rather than changing size by hand lets the program keep headings consistent and build a contents list later.",
+    "Step 3, Insert a table: Under the first heading he clicks Insert, Table, and chooses 3 columns by 4 rows. Row 1 holds Place, Litres, Times; rows 2 to 4 hold Sink 10 2, Toilet 6 3, Garden 20 1. The table has 4 rows including the header.",
+    "Step 4, Check the total: Rashid works out the daily litres: sink 10 times 2 is 20, toilet 6 times 3 is 18, garden 20 times 1 is 20. The total is 20 plus 18 plus 20, so 58 litres, which he types under the table.",
+    "Step 5, Insert the picture and caption: He inserts tap.png beside the second heading, sets text wrapping to Square, shrinks it to a quarter page width, and adds the caption 'Turn off the tap'. Alt text says 'A running tap'.",
+    "Step 6, Slide version: He makes one summary slide titled 'Save 58 Litres?' with three bullets: Fix leaks, Turn off taps, Water plants early. Then he saves the report as 'water-report' and the slides as 'water-slides'.",
+    "Your turn: Add a table of 3 rows for daily steps (Mon 4000, Tue 5000, Wed 6000). Total? Model answer: Insert Table, 2 columns by 4 rows with a header row; total is 4000 plus 5000 plus 6000, which is 15000 steps."
+   ]
   },
   {
    "n": 2,
@@ -52,7 +61,8 @@
    ],
    "example": "Solved: Python: for i in range(3): print('Hi') prints Hi three times. Blocks: when flag clicked, repeat 10: move 10 steps. For functions: def square(n): return n * n; square(4) gives 16. Method: Model run for 'Programming with blocks and sprites'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
-   "standard": "Build a game with variables and conditions: at least 4 of 5 attempts correct, said or written, with one real example from home or school."
+   "standard": "Build a game with variables and conditions: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": []
   },
   {
    "n": 3,
@@ -73,7 +83,16 @@
    ],
    "example": "Solved: Cells A1 = 12, A2 = 18, A3 = 20. In A4 type =SUM(A1:A3) to get 50. =AVERAGE(A1:A3) gives 16.67. Change A1 and the totals update. Method: Model run for 'Spreadsheets and charts'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
-   "standard": "Use simple formulas and choose a chart: at least 4 of 5 attempts correct, said or written, with one real example from home or school."
+   "standard": "Use simple formulas and choose a chart: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": [
+    "Step 1, Enter data: Lubna records pocket money saved each day: Monday 5, Tuesday 8, Wednesday 6, Thursday 7, Friday 9. She puts days in A2:A6 and amounts in B2:B6, with headers in row 1.",
+    "Step 2, SUM: In B7 she types =SUM(B2:B6). The result is 35, because 5 plus 8 is 13, 13 plus 6 is 19, 19 plus 7 is 26, and 26 plus 9 is 35. A formula starts with an equals sign.",
+    "Step 3, AVERAGE: In B8 she types =AVERAGE(B2:B6) and gets 7, since 35 divided by 5 days is 7. She also types =MAX(B2:B6) in B9 and gets 9, and =MIN(B2:B6) in B10 and gets 5.",
+    "Step 4, Choose chart: She wants to compare amounts across 5 separate days, so she picks a column chart of A1:B6. A pie chart would be wrong because the days are not parts of one whole choice.",
+    "Step 5, Edit and read: She titles the chart 'Savings per Day', labels the vertical axis 'Amount saved', and notes Friday is the tallest bar at 9 while Monday is the shortest at 5. Friday minus Monday is 4.",
+    "Step 6, Change a number: She changes Wednesday from 6 to 10. The sum becomes 39 and the average becomes 7.8 because 39 divided by 5 is 7.8. The chart bar for Wednesday grows by itself, which shows formulas update automatically.",
+    "Your turn: Rainfall in mm for Jan to Apr is 20, 15, 10, 5. Find the sum, average and chart type. Model answer: sum is 50, average is 12.5, and a line chart suits a change over time, showing a steady fall."
+   ]
   },
   {
    "n": 4,
@@ -94,7 +113,16 @@
    ],
    "example": "Solved: Before posting ask: would I say this face to face, and would I be happy if a teacher saw it? Everything you post can be copied. Method: Model run for 'Safe and responsible internet use'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
-   "standard": "Check if a website is trustworthy and give credit: at least 4 of 5 attempts correct, said or written, with one real example from home or school."
+   "standard": "Check if a website is trustworthy and give credit: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": [
+    "Step 1, The task: Hind researches 'How tall is the tallest tree?' She finds two pages. One is from a university science department, with an author name and a date. The other is a pop-up filled page with no author and loud claims.",
+    "Step 2, Check the source: She asks four questions. Who wrote it, when, why, and can I find the same fact elsewhere? Page one answers all four. Page two shows no author, no date and tries to sell something, so she trusts it less.",
+    "Step 3, Check the address: She looks at the address bar. Page one ends in a school or university style address and begins with https and a padlock sign. The padlock shows a secure connection, but it does not prove the facts are right.",
+    "Step 4, Cross-check: She finds the same height in two more trusted pages: a science museum article and a forestry encyclopedia. Three trustworthy sources agree, so she is confident. One source alone is not enough.",
+    "Step 5, Give credit: She writes the fact in her own words, 'The tallest living trees reach over 110 metres,' and adds a source line: author, page title, website name, and date visited. Copying words without credit is not honest.",
+    "Step 6, Safe use: While searching she closes a pop-up that asks for her name and email, and she tells her teacher. Only the school's trusted site needed her login. She keeps personal details private.",
+    "Your turn: A blog with no author claims a new fruit cures all illness. How do you check it? Model answer: no author or date and an unlikely claim means checking trusted health sources, and if none agree, do not trust it."
+   ]
   }
  ],
  "rubric": [

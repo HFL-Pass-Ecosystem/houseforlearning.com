@@ -31,7 +31,15 @@
    ],
    "example": "Solved: 5,38,246 has 5 lakh, 38 thousand, 2 hundreds, 4 tens and 6 ones. The 8 stands for 8,000. Rounded to the nearest thousand it is 5,38,000. Method: Model run for 'Knowing our numbers'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Read, round and estimate large numbers and use the Roman system: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Read, round and estimate large numbers and use the Roman system: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Read in the Indian system: 3,45,67,890 is three crore forty-five lakh sixty-seven thousand eight hundred ninety. In the international system the same number is 34,567,890.",
+    "Step 2, Estimate a sum: 4,897 + 3,112. Round each to the nearest thousand: 5,000 + 3,000 = 8,000. The exact sum is 8,009, very close to the estimate, so it is sensible.",
+    "Step 3, Roman numerals: XLIV = XL + IV = 40 + 4 = 44. And 1,994 = 1000 + 900 + 90 + 4 = M + CM + XC + IV = MCMXCIV. A smaller symbol before a larger one is subtracted.",
+    "Step 4, Roman rules: V, L and D are never repeated, and I, X, C, M repeat at most 3 times. So 4 is IV, not IIII, and 9 is IX. Check XIX = 10 + 9 = 19.",
+    "Step 5, Round to compare: a city has 4,86,215 people and another 5,12,780. Rounded to the nearest lakh these are 5,00,000 and 5,00,000, so round to the nearest ten thousand: 4,90,000 and 5,10,000. The second is larger by about 20,000.",
+    "Step 6, Your turn: write 2,019 in Roman numerals and estimate 7,962 - 3,018. Answer: MMXIX (2000 + 10 + 9); estimate 8,000 - 3,000 = 5,000, and the exact answer is 4,944."
+   ]
   },
   {
    "n": 2,
@@ -52,7 +60,15 @@
    ],
    "example": "Solved: 5,38,246 has 5 lakh, 38 thousand, 2 hundreds, 4 tens and 6 ones. The 8 stands for 8,000. Rounded to the nearest thousand it is 5,38,000. Method: Model run for 'Whole numbers and number play'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Use properties, factors, multiples, HCF and LCM, divisibility tests: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Use properties, factors, multiples, HCF and LCM, divisibility tests: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Use properties: 25 x 48. Write 48 as 50 - 2 and use the distributive property: 25 x 50 - 25 x 2 = 1,250 - 50 = 1,200. Check: 25 x 48 is 25 x 4 x 12 = 100 x 12 = 1,200.",
+    "Step 2, Divisibility tests on 3,726: digit sum 3 + 7 + 2 + 6 = 18, which is a multiple of 9, so 3,726 is divisible by 3 and 9. It ends in 6, so it is divisible by 2, and so by 6.",
+    "Step 3, Check 4: the last two digits 26 are not divisible by 4, so 3,726 is not divisible by 4. Verify: 3,726 / 6 = 621 exactly, since 6 x 621 = 3,726.",
+    "Step 4, Prime factors of 84: 84 = 2 x 42 = 2 x 2 x 21 = 2 x 2 x 3 x 7. For 70: 2 x 5 x 7. Both share 2 and 7, so HCF(84, 70) = 14.",
+    "Step 5, LCM of 42 and 70: 42 = 2 x 3 x 7 and 70 = 2 x 5 x 7. Take each prime once with the highest power: 2 x 3 x 5 x 7 = 210. Check: HCF 14 x LCM 210 = 2,940 = 42 x 70.",
+    "Step 6, Your turn: test 1,512 for 9 and 4, and find the HCF and LCM of 18 and 24. Answer: digit sum 9 so divisible by 9; 12 is divisible by 4 so yes; HCF 6, LCM 72."
+   ]
   },
   {
    "n": 3,
@@ -73,7 +89,15 @@
    ],
    "example": "Solved: 3/4 + 1/6. Common denominator 12. 9/12 + 2/12 = 11/12. Half of 12 is 6 and a quarter of 12 is 3. Method: Model run for 'Fractions and decimals'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Compare and operate on fractions and decimals: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Compare and operate on fractions and decimals: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Compare 3/4 and 5/6. The common denominator is 12: 3/4 = 9/12 and 5/6 = 10/12. Since 10 > 9, 5/6 is the larger fraction.",
+    "Step 2, Add: 2/5 + 1/3 = 6/15 + 5/15 = 11/15. Subtract mixed numbers: 1 3/4 - 5/8 = 7/4 - 5/8 = 14/8 - 5/8 = 9/8 = 1 1/8.",
+    "Step 3, Convert to a decimal: 3/8 means 3 divided by 8 = 0.375, since 8 x 0.375 = 3. So 3/8 = 0.375. Also 7/20 = 35/100 = 0.35.",
+    "Step 4, Add decimals: 6.75 + 2.8 = 6.75 + 2.80 = 9.55. Subtract: 5 - 2.36 = 5.00 - 2.36 = 2.64. Align decimal points, and add zeros to make the same number of places.",
+    "Step 5, Word problem: Sara runs 2.4 km and walks 3/4 km. Change 3/4 to 0.75. Total = 2.4 + 0.75 = 3.15 km. Check with fractions: 2 2/5 + 3/4 = 2 8/20 + 15/20 = 3 3/20 = 3.15.",
+    "Step 6, Your turn: find 3/10 + 2/5 and 8.4 - 3.75. Answer: 3/10 + 4/10 = 7/10; and 8.40 - 3.75 = 4.65."
+   ]
   },
   {
    "n": 4,
@@ -94,7 +118,15 @@
    ],
    "example": "Solved: -7 + 12 = 5. (-3) x (-4) = 12. -5 - (-2) = -3. Method: Model run for 'Integers'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Use negative numbers on a number line and add and subtract integers: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Use negative numbers on a number line and add and subtract integers: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Locate on a number line: -3 is 3 steps left of 0. Moving right is positive, left is negative. So -3 + 7 means start at -3 and move 7 right, landing on 4.",
+    "Step 2, Subtract: 5 - 9. Start at 5 and move 9 left, passing 0. That is 5 steps to 0 and 4 more, so 5 - 9 = -4. Check: -4 + 9 = 5.",
+    "Step 3, Two negatives: -6 - 2 means start at -6 and move 2 more left, giving -8. The number gets smaller, so -8 < -6.",
+    "Step 4, Subtracting a negative: -4 - (-7) = -4 + 7 = 3. Taking away a negative acts like adding the positive. Check with the number line: from -4 move 7 right to land on 3.",
+    "Step 5, Temperature problem: morning temperature is -5 degrees and noon is 8 degrees. Rise = 8 - (-5) = 8 + 5 = 13 degrees. On a thermometer, count 5 up to 0 and 8 more, total 13.",
+    "Step 6, Your turn: find -8 + 3 and 6 - (-4). Answer: -8 + 3 = -5 (move 3 right from -8), and 6 - (-4) = 6 + 4 = 10."
+   ]
   },
   {
    "n": 5,
@@ -115,7 +147,8 @@
    ],
    "example": "Solved: 20% of 350 = 350 x 20 / 100 = 70. Share 40 sweets in the ratio 3 : 5: 8 parts, each part is 5, so 15 and 25. If 5 pens cost 40, one costs 8 and 12 cost 96. Method: Model run for 'Ratio and proportion'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Write ratios, simplify and solve unitary problems: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Write ratios, simplify and solve unitary problems: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": []
   },
   {
    "n": 6,
@@ -136,7 +169,8 @@
    ],
    "example": "Solved: A square has 4 equal sides and 4 right angles; a rectangle has 2 pairs of equal sides. A tally of 5 red, 3 blue and 2 green shows most children like red. Method: Model run for 'Basic geometry and shapes'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Use a ruler, compass and protractor to draw and measure: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Use a ruler, compass and protractor to draw and measure: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": []
   },
   {
    "n": 7,
@@ -157,7 +191,15 @@
    ],
    "example": "Solved: Rectangle 12 cm by 5 cm. Perimeter = 2 x (12 + 5) = 34 cm. Area = 12 x 5 = 60 square cm. A cuboid 12 x 5 x 3 has volume 180 cubic cm. Method: Model run for 'Mensuration'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Find perimeter and area of squares, rectangles and composite shapes: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Find perimeter and area of squares, rectangles and composite shapes: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Rectangle 12 cm by 7 cm: perimeter = 2 x (12 + 7) = 38 cm. Area = 12 x 7 = 84 cm2. Perimeter is a length in cm and area is in square cm.",
+    "Step 2, Square of side 9 cm: perimeter = 4 x 9 = 36 cm. Area = 9 x 9 = 81 cm2. Reverse it: a square with perimeter 40 cm has side 40 / 4 = 10 cm and area 100 cm2.",
+    "Step 3, Composite shape: an L-shape is a 10 cm by 6 cm rectangle with a 4 cm by 3 cm corner removed. Area = 10 x 6 - 4 x 3 = 60 - 12 = 48 cm2.",
+    "Step 4, Perimeter of the L-shape: a corner notch does not change the perimeter, since the outer boundary is shifted but the same total length. So perimeter = 2 x (10 + 6) = 32 cm.",
+    "Step 5, Word problem: a 20 m by 13 m plot needs fencing and turf. Fence = perimeter = 2 x (20 + 13) = 66 m. Turf = area = 20 x 13 = 260 m2. Different units for different questions.",
+    "Step 6, Your turn: find the perimeter and area of a rectangle 25 m by 16 m. Answer: perimeter 2 x 41 = 82 m; area 25 x 16 = 400 m2."
+   ]
   },
   {
    "n": 8,
@@ -178,7 +220,15 @@
    ],
    "example": "Solved: 3x + 5 = 20. Take 5 from both sides: 3x = 15. Divide by 3: x = 5. Check: 3 x 5 + 5 = 20. Method: Model run for 'Algebra introduction'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Use letters for numbers, write expressions and solve simple equations: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Use letters for numbers, write expressions and solve simple equations: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Write expressions: a pencil costs p dirhams. Five pencils cost 5p. Ali has k stickers and gets 7 more: k + 7. A square of side s has perimeter 4s.",
+    "Step 2, Evaluate: if p = 3, then 5p = 15. If k = 12, then k + 7 = 19. Replace the letter with the number and then calculate.",
+    "Step 3, Solve x + 9 = 20. Subtract 9 from both sides: x = 20 - 9 = 11. Check: 11 + 9 = 20, so the equation balances.",
+    "Step 4, Solve 3n = 27. Divide both sides by 3: n = 9. Square problem: perimeter 36 cm, so 4s = 36 and s = 36 / 4 = 9 cm. Check: 4 x 9 = 36.",
+    "Step 5, Word problem: I think of a number, double it and add 5, and get 19. So 2x + 5 = 19. Subtract 5: 2x = 14, then divide by 2: x = 7.",
+    "Step 6, Your turn: write an expression for 3 notebooks at n each plus a pen costing 4, and solve 2x + 5 = 19 by checking 7. Answer: 3n + 4; and 2 x 7 + 5 = 19, so x = 7."
+   ]
   },
   {
    "n": 9,
@@ -199,7 +249,15 @@
    ],
    "example": "Solved: Data 4, 7, 7, 9, 13. Mean = 40 / 5 = 8. Median (middle value) = 7. Mode (most common) = 7. Method: Model run for 'Data handling and symmetry'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Draw bar graphs, find mean and identify lines of symmetry: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Draw bar graphs, find mean and identify lines of symmetry: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Draw a bar graph: marks of 5 students are 14, 18, 12, 16, 20. Choose the scale 0 to 20 in steps of 2, draw equal-width bars with gaps, and label both axes and the title.",
+    "Step 2, Find the mean: add 14 + 18 + 12 + 16 + 20 = 80, then divide by 5. The mean is 16. Check that 16 lies between the lowest 12 and the highest 20.",
+    "Step 3, Read from the graph: the highest bar is 20 and the lowest is 12, so the range is 20 - 12 = 8. Four of the five students scored 14 or above, since only 12 is below 14.",
+    "Step 4, Lines of symmetry: a rectangle has 2 (one vertical, one horizontal), a square has 4, an equilateral triangle has 3, and a circle has infinitely many. The letter A has 1 vertical line.",
+    "Step 5, Test a line: fold a paper rectangle along its diagonal and the corners do not match, so a diagonal is not a line of symmetry for a rectangle. Only the lines through midpoints of opposite sides work.",
+    "Step 6, Your turn: find the mean of 7, 9, 12, 8, 14 and the lines of symmetry of a regular pentagon. Answer: sum 50, mean 10; and a regular pentagon has 5 lines of symmetry."
+   ]
   }
  ],
  "rubric": [

@@ -31,7 +31,15 @@
    ],
    "example": "Solved: [1 2; 3 4] + [0 1; 1 0] = [1 3; 4 4]. The determinant of [1 2; 3 4] = 1 x 4 - 2 x 3 = -2. Method: Model run for 'Relations, functions and matrices'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Operate on matrices and functions: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Operate on matrices and functions: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Add matrices: A = [[1, 2], [3, 4]] and B = [[0, 1], [2, 3]]. A + B adds matching entries: [[1, 3], [5, 7]]. And 2A = [[2, 4], [6, 8]]. Same order is needed.",
+    "Step 2, Multiply: AB uses rows of A with columns of B. Entries: 1x0 + 2x2 = 4; 1x1 + 2x3 = 7; 3x0 + 4x2 = 8; 3x1 + 4x3 = 15. So AB = [[4, 7], [8, 15]].",
+    "Step 3, Order matters: BA = [[3, 4], [11, 16]], which differs from AB. For BA, entry (1,1) = 0x1 + 1x3 = 3. So matrix multiplication is not commutative.",
+    "Step 4, Transpose: the transpose of A swaps rows and columns, [[1, 3], [2, 4]]. Business use: a matrix of unit sales per shop times a column of prices gives total revenue per shop.",
+    "Step 5, Functions: f(x) = 2x + 1 is one-one since different x give different y. But f(x) = x^2 on all real numbers is not one-one because f(2) = f(-2) = 4.",
+    "Step 6, Your turn: multiply [[2, 0], [1, 3]] by [[1, 4], [2, 0]]. Answer: row 1 gives [2, 8], row 2 gives [1 + 6, 4 + 0] = [7, 4], so the product is [[2, 8], [7, 4]]."
+   ]
   },
   {
    "n": 2,
@@ -52,7 +60,15 @@
    ],
    "example": "Solved: d/dx of (3x squared + 5x) = 6x + 5; at x = 2 the gradient is 17. Limit as x goes to 2 of (x squared - 4)/(x - 2) = limit of (x + 2) = 4. Method: Model run for 'Calculus: differentiation and integration'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Find derivatives and simple integrals: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Find derivatives and simple integrals: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Differentiate: d/dx of 3x^4 - 5x^2 + 2 = 12x^3 - 10x. A constant differentiates to zero and each power drops by one.",
+    "Step 2, Marginal cost: C(x) = 0.5x^2 + 20x + 100 has C'(x) = x + 20. At x = 10 units the marginal cost is 30, the extra cost of making the 11th unit, roughly.",
+    "Step 3, Maximise revenue: R(x) = 50x - x^2. R'(x) = 50 - 2x = 0 gives x = 25. R(25) = 1,250 - 625 = 625. Second derivative -2 is negative, so it is a maximum.",
+    "Step 4, Integrate: the integral of 3x^2 + 4x dx = x^3 + 2x^2 + C. Check by differentiating: 3x^2 + 4x, which returns the original expression.",
+    "Step 5, Definite integral: from 1 to 3 of 2x dx = [x^2] from 1 to 3 = 9 - 1 = 8. This is the area under y = 2x between x = 1 and x = 3, a trapezoid of widths 2 and 6 and base 2: (2 + 6)/2 x 2 = 8.",
+    "Step 6, Your turn: differentiate 4x^3 - 2x + 7 and integrate 6x^2 - 2. Answer: 12x^2 - 2; and 2x^3 - 2x + C."
+   ]
   },
   {
    "n": 3,
@@ -73,7 +89,15 @@
    ],
    "example": "Solved: A fair die has 6 faces and 3 are even, so P(even) = 3/6 = 1/2. Method: Model run for 'Probability and linear programming'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Calculate probability and optimise: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Calculate probability and optimise: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Conditional probability: P(A and B) = 0.2 and P(B) = 0.5, so P(A given B) = 0.2/0.5 = 0.4. The conditional probability uses only the outcomes in B.",
+    "Step 2, Linear programming set-up: maximise profit Z = 3x + 2y with x + y <= 4, x <= 3, x >= 0 and y >= 0. Draw the feasible region and list its corner points.",
+    "Step 3, Corners: (0, 0), (3, 0), (3, 1) where x = 3 meets x + y = 4, and (0, 4). Check (3, 1): 3 + 1 = 4 and x = 3, both lines hold. The feasible region is the quadrilateral joining them.",
+    "Step 4, Evaluate Z: at (0, 0) Z = 0; at (3, 0) Z = 9; at (3, 1) Z = 9 + 2 = 11; at (0, 4) Z = 8. The maximum is 11 at (3, 1). The best point is always a corner.",
+    "Step 5, Check feasibility: (3, 1) satisfies x + y = 4 <= 4 and x = 3 <= 3. A nearby interior point like (2, 1) gives Z = 8, which is less, confirming the corner is best.",
+    "Step 6, Your turn: maximise Z = 5x + 4y with x + y <= 6, x <= 4, x, y >= 0. Answer: corners (0,0), (4,0), (4,2), (0,6) give 0, 20, 28, 24, so the maximum is 28 at (4, 2)."
+   ]
   },
   {
    "n": 4,
@@ -94,7 +118,15 @@
    ],
    "example": "Solved: Data 4, 7, 7, 9, 13. Mean = 40 / 5 = 8. Median (middle value) = 7. Mode (most common) = 7. Method: Model run for 'Index numbers and time series'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Compute index numbers and trends: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Compute index numbers and trends: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Price relative: an item costs 40 in the base year and 50 now. Index = 50/40 x 100 = 125. So prices are 25 percent higher than the base year.",
+    "Step 2, Laspeyres index: base prices 10 and 20, base quantities 5 and 3, current prices 12 and 25. Sum of p1q0 = 12 x 5 + 25 x 3 = 60 + 75 = 135. Sum of p0q0 = 50 + 60 = 110.",
+    "Step 3, Index = 135/110 x 100 = 122.73. The basket that cost 110 would now cost 135, a rise of about 22.7 percent. It uses base-year quantities as weights.",
+    "Step 4, Moving average: yearly sales 20, 24, 28, 26, 30. Three-year averages are (20 + 24 + 28)/3 = 24, (24 + 28 + 26)/3 = 26 and (28 + 26 + 30)/3 = 28. They rise steadily, showing the trend.",
+    "Step 5, Check: the averages 24, 26, 28 rise by 2 each time, and the raw data wiggle 24, 28, 26, 30, so the moving average has smoothed out the short-term swings.",
+    "Step 6, Your turn: base prices 8 and 5, base quantities 2 and 4, current prices 10 and 6. Find the Laspeyres index. Answer: (20 + 24)/(16 + 20) x 100 = 44/36 x 100 = 122.22."
+   ]
   }
  ],
  "rubric": [

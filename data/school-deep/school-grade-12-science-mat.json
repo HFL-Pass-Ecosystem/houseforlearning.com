@@ -31,7 +31,15 @@
    ],
    "example": "Solved: Right triangle, opposite side 3, hypotenuse 5, adjacent side 4. sin = 3/5 = 0.6, cos = 4/5 = 0.8, tan = 3/4 = 0.75. Method: Model run for 'Relations, functions and inverse trigonometric functions'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Define and graph functions and their inverses: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Define and graph functions and their inverses: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Find an inverse: f(x) = 2x - 3. Put y = 2x - 3, solve for x: x = (y + 3)/2. So the inverse is f^-1(x) = (x + 3)/2. Check: f(f^-1(5)) = f(4) = 5.",
+    "Step 2, Composition: f(x) = x + 1 and g(x) = x^2. Then (f o g)(2) = f(4) = 5 while (g o f)(2) = g(3) = 9. Composition is not commutative, so order matters.",
+    "Step 3, Principal values: sin^-1(1/2) = pi/6, cos^-1(-1/2) = 2 pi/3, tan^-1(1) = pi/4. The ranges are [-pi/2, pi/2] for sin^-1, [0, pi] for cos^-1.",
+    "Step 4, Pitfall: sin^-1(sin(5 pi/6)) is not 5 pi/6, since 5 pi/6 is outside the range. sin(5 pi/6) = 1/2, so the answer is sin^-1(1/2) = pi/6.",
+    "Step 5, Equivalence relation: R on integers, a R b if a - b is divisible by 3. Reflexive: a - a = 0. Symmetric: if 3 divides a - b it divides b - a. Transitive: sum of two multiples of 3 is a multiple of 3.",
+    "Step 6, Your turn: find the inverse of f(x) = 3x + 6 and tan^-1(root 3). Answer: x = (y - 6)/3, so f^-1(x) = (x - 6)/3; and tan^-1(root 3) = pi/3."
+   ]
   },
   {
    "n": 2,
@@ -52,7 +60,15 @@
    ],
    "example": "Solved: [1 2; 3 4] + [0 1; 1 0] = [1 3; 4 4]. The determinant of [1 2; 3 4] = 1 x 4 - 2 x 3 = -2. Method: Model run for 'Matrices and determinants'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Operate on matrices and find inverses: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Operate on matrices and find inverses: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Determinant and inverse: A = [[2, 1], [5, 3]] has det = 2 x 3 - 1 x 5 = 1. The inverse is (1/1) x [[3, -1], [-5, 2]]. Swap the diagonal, change the sign of the other entries.",
+    "Step 2, Check: A x A^-1 = [[2 x 3 + 1 x (-5), 2 x (-1) + 1 x 2], [5 x 3 + 3 x (-5), 5 x (-1) + 3 x 2]] = [[1, 0], [0, 1]]. It gives the identity matrix, so the inverse is right.",
+    "Step 3, Solve a system: 2x + y = 7 and 5x + 3y = 18, written AX = B. Then X = A^-1 B = [[3, -1], [-5, 2]] x [7, 18] = [21 - 18, -35 + 36] = [3, 1].",
+    "Step 4, Check: x = 3, y = 1 gives 6 + 1 = 7 and 15 + 3 = 18. Both equations hold. A zero determinant would mean no unique solution.",
+    "Step 5, Triangular determinant: for [[1, 2, 3], [0, 1, 4], [0, 0, 2]] the determinant is the product of the diagonal, 1 x 1 x 2 = 2. Expanding along the first column gives the same, 1 x (1 x 2 - 4 x 0) = 2.",
+    "Step 6, Your turn: find the determinant and inverse of [[4, 3], [2, 2]]. Answer: det = 8 - 6 = 2; inverse = 1/2 x [[2, -3], [-2, 4]] = [[1, -3/2], [-1, 2]]."
+   ]
   },
   {
    "n": 3,
@@ -73,7 +89,15 @@
    ],
    "example": "Solved: d/dx of (3x squared + 5x) = 6x + 5; at x = 2 the gradient is 17. Limit as x goes to 2 of (x squared - 4)/(x - 2) = limit of (x + 2) = 4. Method: Model run for 'Continuity, differentiability and applications of derivatives'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Differentiate and find maxima and minima: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Differentiate and find maxima and minima: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Continuity: f(x) = (x^2 - 9)/(x - 3) for x not equal to 3, and f(3) = 6. The limit as x approaches 3 is x + 3 = 6, which equals f(3), so f is continuous at 3.",
+    "Step 2, Chain rule: y = (3x + 1)^5 gives dy/dx = 5(3x + 1)^4 x 3 = 15(3x + 1)^4. Also d/dx of e^(2x) = 2e^(2x). Differentiate the outer function, then multiply by the inner derivative.",
+    "Step 3, Maxima and minima: f(x) = x^3 - 3x + 2. f'(x) = 3x^2 - 3 = 0 gives x = 1 or -1. f''(x) = 6x. At x = 1, f'' = 6 > 0, a minimum with f(1) = 0. At x = -1, f'' = -6 < 0, a maximum with f(-1) = 4.",
+    "Step 4, Check values: f(1) = 1 - 3 + 2 = 0 and f(-1) = -1 + 3 + 2 = 4. Also f(0) = 2 lies between them, as expected for the curve between the turning points.",
+    "Step 5, Optimisation: a rectangle has perimeter 40, so sides x and 20 - x. Area A = x(20 - x), A' = 20 - 2x = 0, so x = 10 and A = 100. It is a square, and A'' = -2 < 0.",
+    "Step 6, Your turn: find the minimum of x^2 - 6x + 5. Answer: f' = 2x - 6 = 0 gives x = 3, f'' = 2 > 0, and f(3) = 9 - 18 + 5 = -4."
+   ]
   },
   {
    "n": 4,
@@ -94,7 +118,15 @@
    ],
    "example": "Solved: The integral of (6x + 5) dx = 3x squared + 5x + C. Check by differentiating: 6x + 5. Method: Model run for 'Integrals and applications of integrals'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Integrate and find areas under curves: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Integrate and find areas under curves: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Basic integral: the integral of 3x^2 + 2x + 1 dx = x^3 + x^2 + x + C. And the integral of sin 2x dx = -cos 2x / 2 + C. Differentiate to check: d/dx of -cos 2x / 2 = sin 2x.",
+    "Step 2, Substitution: the integral of 2x(x^2 + 1)^3 dx. Let u = x^2 + 1, then du = 2x dx. The integral becomes u^3 du = u^4/4 + C = (x^2 + 1)^4 / 4 + C.",
+    "Step 3, Definite integral: from 0 to 1 of x^2 dx = [x^3/3] = 1/3. From 0 to 2 of 3x^2 + 1 dx = [x^3 + x] = 8 + 2 = 10.",
+    "Step 4, Area under y = x^2 from 0 to 3: the integral is [x^3/3] from 0 to 3 = 27/3 = 9 square units. Rough check: the curve is below the line y = 3x, whose area is 13.5.",
+    "Step 5, Area between curves: y = x and y = x^2 meet at x = 0 and x = 1, with the line above. Area = integral of (x - x^2) = [x^2/2 - x^3/3] = 1/2 - 1/3 = 1/6.",
+    "Step 6, Your turn: integrate cos 3x and evaluate the integral of 2x from 0 to 3. Answer: sin 3x / 3 + C; and [x^2] from 0 to 3 = 9."
+   ]
   },
   {
    "n": 5,
@@ -115,7 +147,15 @@
    ],
    "example": "Solved: dy/dx = 2x gives y = x squared + C. If y = 3 when x = 0, then C = 3. Method: Model run for 'Differential equations'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Solve first-order differential equations: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Solve first-order differential equations: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Order and degree: (d^2y/dx^2)^3 + dy/dx = 0 has highest derivative d^2y/dx^2, so order 2, and that derivative is raised to power 3, so degree 3.",
+    "Step 2, Direct integration: dy/dx = 2x gives y = x^2 + C. With y(0) = 3 we get C = 3, so y = x^2 + 3. Check: derivative 2x, and y(0) = 3.",
+    "Step 3, Separable: dy/dx = x/y gives y dy = x dx. Integrate: y^2/2 = x^2/2 + c, so y^2 = x^2 + k. At (0, 2), k = 4, so y^2 = x^2 + 4.",
+    "Step 4, Exponential: dy/dx + 2y = 0 gives dy/y = -2 dx, so ln|y| = -2x + c and y = Ce^(-2x). With y(0) = 5, C = 5. Check: y' = -10e^(-2x) and 2y = 10e^(-2x), which sum to 0.",
+    "Step 5, Growth model: dy/dx = ky has solution y = Ae^(kx). If a population of 1,000 grows with k = 0.1, then after 10 time units y = 1,000 x e^1, about 2,718.",
+    "Step 6, Your turn: solve dy/dx = 3x^2 with y(1) = 2, and give the general solution of dy/dx = 4y. Answer: y = x^3 + C, then 1 + C = 2 so y = x^3 + 1; and y = Ae^(4x)."
+   ]
   },
   {
    "n": 6,
@@ -136,7 +176,15 @@
    ],
    "example": "Solved: a = (2, 3) and b = (1, -1). a + b = (3, 2). Twice a = (4, 6). Method: Model run for 'Vectors and three-dimensional geometry'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Use dot and cross products and equations of lines and planes: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Use dot and cross products and equations of lines and planes: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Dot product: a = (1, 2, 3) and b = (2, -1, 4). a.b = 1 x 2 + 2 x (-1) + 3 x 4 = 2 - 2 + 12 = 12. And |a| = root of 1 + 4 + 9 = root 14.",
+    "Step 2, Cross product: a x b = (2x4 - 3x(-1), 3x2 - 1x4, 1x(-1) - 2x2) = (11, 2, -5). Check: a . (11, 2, -5) = 11 + 4 - 15 = 0, and b . (11, 2, -5) = 22 - 2 - 20 = 0.",
+    "Step 3, Angle: |b| = root of 4 + 1 + 16 = root 21. So cos theta = 12 / root 294, about 12 / 17.15 = 0.70, and theta is about 45.6 degrees.",
+    "Step 4, Line: through (1, 2, 3) with direction (2, 1, -1): (x - 1)/2 = (y - 2)/1 = (z - 3)/(-1). Setting each ratio to t gives x = 1 + 2t, y = 2 + t, z = 3 - t.",
+    "Step 5, Plane: through (1, 0, 0) with normal (2, 3, 1): 2(x - 1) + 3y + z = 0, so 2x + 3y + z = 2. Its distance from the origin is 2/root 14, about 0.53.",
+    "Step 6, Your turn: find the dot and cross product of (1, 0, 2) and (3, 1, -1). Answer: dot = 3 + 0 - 2 = 1; cross = (0 - 2, 6 + 1, 1 - 0) = (-2, 7, 1), and (1, 0, 2) . (-2, 7, 1) = 0."
+   ]
   },
   {
    "n": 7,
@@ -157,7 +205,15 @@
    ],
    "example": "Solved: A fair die has 6 faces and 3 are even, so P(even) = 3/6 = 1/2. Method: Model run for 'Linear programming and probability'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Solve optimisation and conditional probability problems: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Solve optimisation and conditional probability problems: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Set up: maximise Z = 4x + 3y subject to 2x + y <= 10, x + 2y <= 8, x, y >= 0. The corner points are (0, 0), (5, 0), (0, 4), and the meeting point of the two lines.",
+    "Step 2, Intersection: from 2x + y = 10, y = 10 - 2x. Substitute into x + 2y = 8: x + 20 - 4x = 8, so x = 4 and y = 2. Check: 8 + 2 = 10 and 4 + 4 = 8.",
+    "Step 3, Evaluate Z: (0, 0) gives 0, (5, 0) gives 20, (0, 4) gives 12, (4, 2) gives 16 + 6 = 22. The maximum is 22 at (4, 2). Your answer must come from a corner of the region.",
+    "Step 4, Conditional probability: P(A) = 0.6, P(B) = 0.5, P(A and B) = 0.3. Then P(A given B) = 0.3/0.5 = 0.6 = P(A), and 0.6 x 0.5 = 0.3, so A and B are independent.",
+    "Step 5, Total probability: bag 1 has 3 red and 2 black, bag 2 has 1 red and 4 black, and a bag is chosen at random. P(red) = 1/2 x 3/5 + 1/2 x 1/5 = 4/10 = 2/5. By Bayes, P(bag 1 given red) = (3/10)/(4/10) = 3/4.",
+    "Step 6, Your turn: maximise Z = 2x + 3y with x + y <= 5, x <= 3. Answer: corners (0,0), (3,0), (3,2), (0,5) give 0, 6, 12, 15, so the maximum is 15 at (0, 5)."
+   ]
   }
  ],
  "rubric": [

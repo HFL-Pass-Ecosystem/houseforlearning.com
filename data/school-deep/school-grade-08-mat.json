@@ -31,7 +31,8 @@
    ],
    "example": "Solved: Square root of 196: 14 x 14 = 196, so the root is 14. 2 cubed x 2 to the 4 = 2 to the 7 = 128. 0.75 = 3/4 is rational; the square root of 2 is not. Method: Model run for 'Rational numbers'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Apply properties and represent them on a number line: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Apply properties and represent them on a number line: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": []
   },
   {
    "n": 2,
@@ -52,7 +53,15 @@
    ],
    "example": "Solved: 3x + 5 = 20. Take 5 from both sides: 3x = 15. Divide by 3: x = 5. Check: 3 x 5 + 5 = 20. Method: Model run for 'Linear equations in one variable'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Solve equations with variables on both sides: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Solve equations with variables on both sides: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Solve 5x - 7 = 3x + 9. Move 3x to the left by subtracting it from both sides: 2x - 7 = 9. Add 7: 2x = 16. Divide by 2: x = 8.",
+    "Step 2, Check x = 8: left side 5 x 8 - 7 = 33, right side 3 x 8 + 9 = 33. Both sides equal 33, so x = 8 is correct. Always substitute into the original equation.",
+    "Step 3, With brackets: 3(x + 4) = 2x + 19. Expand the left side: 3x + 12 = 2x + 19. Subtract 2x: x + 12 = 19, so x = 7. Check: 3 x 11 = 33 and 2 x 7 + 19 = 33.",
+    "Step 4, With fractions: x/3 + 2 = x/2 - 1. Multiply every term by the LCM 6: 2x + 12 = 3x - 6. Then 12 + 6 = 3x - 2x, so x = 18. Check: 6 + 2 = 8 and 9 - 1 = 8.",
+    "Step 5, Word problem: a father is 3 times as old as his son. After 10 years he will be twice as old. With son's age x: 3x + 10 = 2(x + 10), so x = 10. Son 10, father 30. Check: 40 = 2 x 20.",
+    "Step 6, Your turn: solve 7x + 4 = 3x + 28. Answer: 4x = 24, so x = 6. Check: 7 x 6 + 4 = 46 and 3 x 6 + 28 = 46."
+   ]
   },
   {
    "n": 3,
@@ -73,7 +82,15 @@
    ],
    "example": "Solved: Angles of a quadrilateral add to 360 degrees. If three are 90, 80 and 100, the fourth is 360 - 270 = 90 degrees. Method: Model run for 'Understanding quadrilaterals'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Use angle sum and properties of parallelograms and special quadrilaterals: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Use angle sum and properties of parallelograms and special quadrilaterals: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Angle sum: a quadrilateral has angles 85, 95, 110 and x. The four angles add to 360, so x = 360 - 290 = 70 degrees. The sum 360 comes from splitting it into two triangles.",
+    "Step 2, Parallelogram angles: if angle A = 65, then opposite angle C = 65, and each adjacent angle is 180 - 65 = 115, so B = D = 115. Check: 65 + 115 + 65 + 115 = 360.",
+    "Step 3, Parallelogram diagonals: they bisect each other. If AC = 18 cm and BD = 14 cm, they meet at O with AO = 9 cm and BO = 7 cm. Opposite sides are equal and parallel.",
+    "Step 4, Rhombus: its diagonals are perpendicular and bisect each other. With diagonals 16 and 12, each half is 8 and 6, so a side is the root of 64 + 36 = 100, which is 10 cm. Perimeter 40 cm.",
+    "Step 5, Rectangle test: a rectangle's diagonals are equal. A parallelogram with sides 6 and 8 and diagonals both 10 is a rectangle, since 36 + 64 = 100 gives a right angle at the corner.",
+    "Step 6, Your turn: adjacent angles of a parallelogram are (2x + 10) and (3x - 20). Find x and the angles. Answer: 5x - 10 = 180, x = 38; the angles are 86 and 94."
+   ]
   },
   {
    "n": 4,
@@ -94,7 +111,15 @@
    ],
    "example": "Solved: Data 4, 7, 7, 9, 13. Mean = 40 / 5 = 8. Median (middle value) = 7. Mode (most common) = 7. Method: Model run for 'Data handling'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Use pie charts, histograms and probability: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Use pie charts, histograms and probability: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Pie chart angles: 600 students choose sports. Cricket 240, football 150, swimming 120, others 90. Cricket angle = 240 / 600 x 360 = 144 degrees. Football = 150 / 600 x 360 = 90.",
+    "Step 2, Finish and check: swimming = 120 / 600 x 360 = 72 degrees and others = 90 / 600 x 360 = 54. Sum 144 + 90 + 72 + 54 = 360. The angles must always add up to 360.",
+    "Step 3, Histogram: marks grouped as 0-10, 10-20, 20-30, 30-40 with frequencies 4, 9, 12, 5. Bars touch because the classes are continuous. The tallest bar, 20-30, holds 12 of the 30 students.",
+    "Step 4, Probability: a bag has 5 red, 3 blue and 2 green balls, 10 in all. P(blue) = 3/10. P(not red) = 5/10 = 1/2. Probabilities of all outcomes add to 1: 5/10 + 3/10 + 2/10 = 1.",
+    "Step 5, Die: P(prime) when rolling one die counts 2, 3, 5, so 3/6 = 1/2. P(a number greater than 4) counts 5 and 6, so 2/6 = 1/3. Probability is favourable outcomes divided by total outcomes.",
+    "Step 6, Your turn: of 40 students, 10 prefer tea; find its pie-chart angle, and P(even number) on a die. Answer: 10 / 40 x 360 = 90 degrees; P(even) = 3/6 = 1/2."
+   ]
   },
   {
    "n": 5,
@@ -115,7 +140,8 @@
    ],
    "example": "Solved: Square root of 196: 14 x 14 = 196, so the root is 14. 2 cubed x 2 to the 4 = 2 to the 7 = 128. 0.75 = 3/4 is rational; the square root of 2 is not. Method: Model run for 'Squares, square roots, cubes and cube roots'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Find roots by factors and division: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Find roots by factors and division: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": []
   },
   {
    "n": 6,
@@ -136,7 +162,8 @@
    ],
    "example": "Solved: 20% of 350 = 350 x 20 / 100 = 70. Share 40 sweets in the ratio 3 : 5: 8 parts, each part is 5, so 15 and 25. If 5 pens cost 40, one costs 8 and 12 cost 96. Method: Model run for 'Comparing quantities'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Use compound interest, discount and tax: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Use compound interest, discount and tax: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": []
   },
   {
    "n": 7,
@@ -157,7 +184,15 @@
    ],
    "example": "Solved: x squared - 9 = (x - 3)(x + 3). Check by expanding: x squared + 3x - 3x - 9 = x squared - 9. Method: Model run for 'Algebraic expressions and identities'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Multiply expressions and use standard identities: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Multiply expressions and use standard identities: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Multiply two binomials: (2x + 3)(x - 4) = 2x(x) + 2x(-4) + 3(x) + 3(-4) = 2x^2 - 8x + 3x - 12 = 2x^2 - 5x - 12. Every term in one bracket meets every term in the other.",
+    "Step 2, Square of a sum: (3x + 2)^2 = (3x)^2 + 2(3x)(2) + 2^2 = 9x^2 + 12x + 4. Check with x = 1: 5^2 = 25 and 9 + 12 + 4 = 25.",
+    "Step 3, Square of a difference: (5y - 3)^2 = 25y^2 - 30y + 9. Check with y = 1: 2^2 = 4 and 25 - 30 + 9 = 4. The middle term takes a minus sign.",
+    "Step 4, Difference of squares: (a + b)(a - b) = a^2 - b^2. Use it for numbers: 102 x 98 = (100 + 2)(100 - 2) = 10,000 - 4 = 9,996. And 99^2 = (100 - 1)^2 = 10,000 - 200 + 1 = 9,801.",
+    "Step 5, Find a missing term: x^2 + 10x + 25 is (x + 5)^2 since 2 x x x 5 = 10x and 5^2 = 25. Check with x = 1: 36 = 6^2.",
+    "Step 6, Your turn: expand (x + 7)(x - 7) and (4m + 1)^2. Answer: x^2 - 49; and 16m^2 + 8m + 1."
+   ]
   },
   {
    "n": 8,
@@ -178,7 +213,15 @@
    ],
    "example": "Solved: Rectangle 12 cm by 5 cm. Perimeter = 2 x (12 + 5) = 34 cm. Area = 12 x 5 = 60 square cm. A cuboid 12 x 5 x 3 has volume 180 cubic cm. Method: Model run for 'Mensuration'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Find surface area and volume of cubes, cuboids and cylinders: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Find surface area and volume of cubes, cuboids and cylinders: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Cube of side 5 cm: total surface area = 6 x side^2 = 6 x 25 = 150 cm2 and volume = 5^3 = 125 cm3. Six faces, each a square of area 25.",
+    "Step 2, Cuboid 8 cm by 5 cm by 4 cm: surface area = 2(lb + bh + hl) = 2(40 + 20 + 32) = 2 x 92 = 184 cm2. Volume = 8 x 5 x 4 = 160 cm3.",
+    "Step 3, Cylinder with radius 7 cm and height 10 cm, using pi = 22/7: curved surface = 2 x 22/7 x 7 x 10 = 440 cm2. Total surface = 2 x 22/7 x 7 x (7 + 10) = 44 x 17 = 748 cm2.",
+    "Step 4, Cylinder volume: pi r^2 h = 22/7 x 7 x 7 x 10 = 22 x 7 x 10 = 1,540 cm3. Check: the total surface 748 = 440 + 2 x 154 (two circular ends), and 440 + 308 = 748.",
+    "Step 5, Word problem: a cylindrical tank of radius 7 m and height 10 m holds 1,540 cubic metres. Since 1 cubic metre = 1,000 litres, it holds 1,540,000 litres.",
+    "Step 6, Your turn: find the volume and curved surface of a cylinder with radius 3.5 cm and height 8 cm. Answer: volume 22/7 x 12.25 x 8 = 308 cm3; curved surface 2 x 22/7 x 3.5 x 8 = 176 cm2."
+   ]
   },
   {
    "n": 9,
@@ -199,7 +242,8 @@
    ],
    "example": "Solved: Square root of 196: 14 x 14 = 196, so the root is 14. 2 cubed x 2 to the 4 = 2 to the 7 = 128. 0.75 = 3/4 is rational; the square root of 2 is not. Method: Model run for 'Exponents and powers'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Use laws of exponents with negative powers: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Use laws of exponents with negative powers: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": []
   },
   {
    "n": 10,
@@ -220,7 +264,8 @@
    ],
    "example": "Solved: 20% of 350 = 350 x 20 / 100 = 70. Share 40 sweets in the ratio 3 : 5: 8 parts, each part is 5, so 15 and 25. If 5 pens cost 40, one costs 8 and 12 cost 96. Method: Model run for 'Direct and inverse proportion'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Solve problems with proportion: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Solve problems with proportion: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": []
   },
   {
    "n": 11,
@@ -241,7 +286,15 @@
    ],
    "example": "Solved: x squared - 9 = (x - 3)(x + 3). Check by expanding: x squared + 3x - 3x - 9 = x squared - 9. Method: Model run for 'Factorisation and graphs'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Factorise expressions and plot linear graphs: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Factorise expressions and plot linear graphs: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Common factor: 6x^2 + 9x. The HCF of 6 and 9 is 3 and both terms have x, so the common factor is 3x. Divide: 6x^2 / 3x = 2x and 9x / 3x = 3. Result: 3x(2x + 3).",
+    "Step 2, Factorise x^2 + 7x + 12: find two numbers that multiply to 12 and add to 7, which are 3 and 4. So (x + 3)(x + 4). Check by expanding: x^2 + 4x + 3x + 12 = x^2 + 7x + 12.",
+    "Step 3, Identities: x^2 - 49 = (x - 7)(x + 7) as a difference of squares. And 4x^2 - 12x + 9 = (2x - 3)^2, since 2 x 2x x 3 = 12x and 3^2 = 9.",
+    "Step 4, Plot y = 2x + 1. Table: x = -1 gives y = -1, x = 0 gives 1, x = 1 gives 3, x = 2 gives 5. Mark (-1, -1), (0, 1), (1, 3), (2, 5) and join them in a straight line.",
+    "Step 5, Read the graph: the line cuts the y-axis at 1 (the intercept) and rises 2 for each 1 across (slope 2). Check that the point (3, 7) lies on the line: 2 x 3 + 1 = 7.",
+    "Step 6, Your turn: factorise x^2 - 5x + 6 and find y for y = x - 2 at x = 3 and x = 0. Answer: (x - 2)(x - 3); and y = 1 at x = 3, and y = -2 at x = 0."
+   ]
   }
  ],
  "rubric": [

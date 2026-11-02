@@ -31,7 +31,15 @@
    ],
    "example": "Solved: أبدأ بالتحية، ثم أعرض ثلاث أفكار مع مثال، وأختم بالشكر. للتلخيص: أكتب الفكرة الرئيسية في جملتين. Method: Model run for 'Fables and morals'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Retell a fable and its moral: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Retell a fable and its moral: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Read the fable I wrote. كَانَ طَاوُوسٌ يَسْخَرُ مِنْ عُصْفُورٍ بِرِيشِهِ الْبَسِيطِ. جَاءَتْ عَاصِفَةٌ، فَثَقُلَ ذَيْلُ الطَّاوُوسِ بِالْمَاءِ وَلَمْ يَسْتَطِعِ الطَّيَرَانَ. [A peacock used to mock a sparrow for its plain feathers. A storm came, and the peacock's tail grew heavy with water so he could not fly.]",
+    "Step 2, Read the ending. أَمَّا الْعُصْفُورُ فَطَارَ إِلَى عُشِّهِ وَنَجَا. ثُمَّ عَادَ وَأَرْشَدَ الطَّاوُوسَ إِلَى مَأْوًى. [As for the sparrow, he flew to his nest and was safe. Then he came back and guided the peacock to shelter.] Notice أَمَّا ... فَ shows contrast.",
+    "Step 3, State the moral. الْعِبْرَةُ: لَا نَسْخَرُ مِنَ الْآخَرِينَ، فَالْقِيمَةُ بِالْفِعْلِ لَا بِالْمَظْهَرِ. [The moral: we do not mock others, for worth is in deeds, not looks.] Link it to the story: the peacock's beauty did not help him.",
+    "Step 4, Retell with connectors. فِي الْبِدَايَةِ سَخِرَ الطَّاوُوسُ مِنَ الْعُصْفُورِ. ثُمَّ جَاءَتِ الْعَاصِفَةُ. لَكِنَّ الْعُصْفُورَ نَجَا وَسَاعَدَ الطَّاوُوسَ. وَفِي النِّهَايَةِ تَعَلَّمَ الطَّاوُوسُ التَّوَاضُعَ. [At first the peacock mocked. Then the storm came. But the sparrow escaped and helped. In the end the peacock learned humility.]",
+    "Step 5, Fix an error. A student states the moral as الطَّاوُوسُ جَمِيلٌ. Correction: that is a fact, not a moral; a moral is a lesson for readers, such as لَا نَغْتَرُّ بِمَظْهَرِنَا [we should not be proud of our looks]. Also keep the past tense when retelling.",
+    "Step 6, Your turn: write a three-sentence retelling with the moral. Model answer: سَخِرَ طَاوُوسٌ مِنْ عُصْفُورٍ. لَكِنَّ الْعَاصِفَةَ أَوْقَعَتِ الطَّاوُوسَ فِي مَأْزِقٍ فَسَاعَدَهُ الْعُصْفُورُ. الْعِبْرَةُ: التَّوَاضُعُ أَجْمَلُ مِنَ الْمَظْهَرِ. [A peacock mocked a sparrow. But the storm put the peacock in trouble and the sparrow helped him. Moral: humility is better than looks.]"
+   ]
   },
   {
    "n": 2,
@@ -52,7 +60,15 @@
    ],
    "example": "Solved: In 'Mira has a dog called Bruno', 'dog' is a common noun, 'Mira' and 'Bruno' are proper nouns and need capital letters. Method: Model run for 'Grammar: pronouns and agreement'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Use pronouns and agreement: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Use pronouns and agreement: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Attached pronouns show possession: كِتَابِي [my book], كِتَابُكَ [your book, m], كِتَابُكِ [your book, f], كِتَابُهُ [his book], كِتَابُهَا [her book], كِتَابُنَا [our book], كِتَابُهُمْ [their book]. Say each with the noun كِتَابٌ.",
+    "Step 2, Detached pronouns stand alone: أَنَا [I], أَنْتَ [you, m], أَنْتِ [you, f], هُوَ [he], هِيَ [she], نَحْنُ [we], أَنْتُمْ [you, pl], هُمْ [they, m], هُنَّ [they, f]. Use them: هِيَ مُجْتَهِدَةٌ. [She is hardworking.]",
+    "Step 3, Verb and subject agreement. When the verb comes first it stays singular and matches only the gender: ذَهَبَ الطُّلَّابُ [The students went], ذَهَبَتِ الطَّالِبَاتُ [The female students went]. When the pronoun comes first, the verb agrees fully: هُمْ ذَهَبُوا [They went].",
+    "Step 4, Adjective agreement. طَالِبَةٌ مُجْتَهِدَةٌ [a hardworking girl student], طُلَّابٌ مُجْتَهِدُونَ [hardworking students], كُتُبٌ جَدِيدَةٌ [new books]. A plural of a non-person takes a feminine singular adjective: جَدِيدَةٌ, not جَدِيدُونَ.",
+    "Step 5, Fix errors. A student says ذَهَبُوا الطُّلَّابُ. Correction: ذَهَبَ الطُّلَّابُ, because the verb precedes the subject. Another says الْكُتُبُ جَدِيدُونَ. Correction: الْكُتُبُ جَدِيدَةٌ. A third says كِتَابُهُ for a girl's book; use كِتَابُهَا.",
+    "Step 6, Your turn: translate She is hardworking and her books are new. Model answer: هِيَ مُجْتَهِدَةٌ وَكُتُبُهَا جَدِيدَةٌ. [She is hardworking and her books are new.] Check that مُجْتَهِدَةٌ is feminine and كُتُبُهَا uses the her pronoun."
+   ]
   },
   {
    "n": 3,
@@ -73,7 +89,15 @@
    ],
    "example": "Solved: حكمة: العلم نور والجهل ظلام. الكلمتان المتضادتان: نور وظلام. (Knowledge is light, ignorance is darkness; opposites: light and darkness.) Method: Model run for 'Poetry'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Read and explain a short poem: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Read and explain a short poem: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Read the lines I wrote. لِلْوَطَنِ فِي الْقَلْبِ مَكَانْ، نَحْمِيهِ بِالْعِلْمِ وَالْإِيمَانْ. نَزْرَعُ الْخَيْرَ فِي كُلِّ مَكَانْ، فَتُزْهِرُ الدُّنْيَا بِلَا أَحْزَانْ. [The homeland has a place in the heart; we protect it with knowledge and faith. We plant good everywhere, so the world blooms without sorrows.]",
+    "Step 2, Understand the vocabulary. الْوَطَنُ [homeland], نَحْمِي [we protect], الْعِلْمُ [knowledge], الْإِيمَانُ [faith], نَزْرَعُ [we plant], تُزْهِرُ [blooms], أَحْزَانٌ [sorrows]. Write the meaning above each word.",
+    "Step 3, Identify rhyme and rhythm. Each line ends in ـَانْ: مَكَانْ، الْإِيمَانْ، مَكَانْ، أَحْزَانْ. This end rhyme is called قَافِيَةٌ. Read the lines aloud, keeping the same beat and lengthening the final sound.",
+    "Step 4, Explain the images and message. Planting good (نَزْرَعُ الْخَيْرَ) is a metaphor: kindness is a seed that grows into a better world. Write: يَدْعُو الشَّاعِرُ إِلَى حُبِّ الْوَطَنِ وَنَشْرِ الْخَيْرِ. [The poet calls for love of the homeland and spreading good.]",
+    "Step 5, Fix an error. A student says the poem is about farming. Correction: نَزْرَعُ is figurative; the poem is about loving the homeland and doing good. Another student reads it without the rhyme sound; keep the ـَانْ ending clear.",
+    "Step 6, Your turn: explain the line فَتُزْهِرُ الدُّنْيَا بِلَا أَحْزَانْ. Model answer: تَعْنِي أَنَّ الْخَيْرَ إِذَا انْتَشَرَ جَعَلَ الْعَالَمَ سَعِيدًا وَخَالِيًا مِنَ الْحُزْنِ. [It means that when good spreads, it makes the world happy and free of sorrow.]"
+   ]
   },
   {
    "n": 4,
@@ -94,7 +118,15 @@
    ],
    "example": "Solved: أبدأ بالتحية، ثم أعرض ثلاث أفكار مع مثال، وأختم بالشكر. للتلخيص: أكتب الفكرة الرئيسية في جملتين. Method: Model run for 'Debate and speech'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Give a short speech: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Give a short speech: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, A short speech has an opening, arguments and a closing. Topic: using mobile phones in class. Open: حَضَرَاتِ الزُّمَلَاءِ وَالزَّمِيلَاتِ، السَّلَامُ عَلَيْكُمْ. مَوْضُوعُنَا الْيَوْمَ الْهَاتِفُ الْمَحْمُولُ فِي الصَّفِّ. [Dear colleagues, peace be upon you. Our topic today is the mobile phone in class.]",
+    "Step 2, State your position and first argument. أَنَا مَعَ مَنْعِ الْهَاتِفِ فِي الصَّفِّ لِأَنَّهُ يُشَتِّتُ الِانْتِبَاهَ. [I am for banning the phone in class because it distracts attention.] بِالْإِضَافَةِ إِلَى ذَلِكَ، يَقِلُّ الْحِوَارُ بَيْنَ الطُّلَّابِ. [In addition, discussion among students decreases.]",
+    "Step 3, Answer the other side. يَقُولُ الْبَعْضُ إِنَّ الْهَاتِفَ يُفِيدُ فِي الْبَحْثِ. وَلَكِنْ يُمْكِنُ اسْتِعْمَالُهُ فِي الْمَكْتَبَةِ تَحْتَ إِشْرَافِ الْمُعَلِّمِ. [Some say the phone helps with research. But it can be used in the library under teacher supervision.]",
+    "Step 4, Close strongly. فِي الْخِتَامِ، لِنَجْعَلِ الصَّفَّ مَكَانًا لِلتَّرْكِيزِ وَالْحِوَارِ. شُكْرًا لِحُسْنِ إِصْغَائِكُمْ. [In conclusion, let us make the class a place of focus and discussion. Thank you for your attention.] Practise with a timer: one minute.",
+    "Step 5, Fix an error. A speaker says only أَنَا لَا أُحِبُّ الْهَاتِفَ [I do not like the phone], which is a feeling, not an argument. Correction: give a reason with لِأَنَّ and an example, then answer the opposing view with وَلَكِنْ.",
+    "Step 6, Your turn: write a three-sentence argument for longer school breaks. Model answer: أَنَا مَعَ زِيَادَةِ وَقْتِ الاِسْتِرَاحَةِ لِأَنَّهَا تُنَشِّطُ الْعَقْلَ. بِالْإِضَافَةِ إِلَى ذَلِكَ، يَلْعَبُ الطُّلَّابُ مَعًا. لِذَلِكَ أَرْجُو مِنْكُمْ تَأْيِيدَ الْفِكْرَةِ. [I support longer breaks because they refresh the mind. In addition, students play together. So I ask you to support the idea.]"
+   ]
   }
  ],
  "rubric": [

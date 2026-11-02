@@ -31,7 +31,15 @@
    ],
    "example": "Solved: -7 + 12 = 5. (-3) x (-4) = 12. -5 - (-2) = -3. Method: Model run for 'Integers'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Add, subtract, multiply and divide integers and use properties: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Add, subtract, multiply and divide integers and use properties: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Multiply with signs: (-6) x 4. A positive times a negative is negative, so the answer is -24. Think of it as 4 jumps of 6 to the left. Then (-5) x (-3) = 15, since two negatives give a positive.",
+    "Step 2, Divide with signs: -36 / 9 = -4, because 9 x (-4) = -36. And -48 / (-6) = 8, because (-6) x 8 = -48. Same signs give a positive quotient, different signs give a negative.",
+    "Step 3, Check the distributive property: (-4) x (7 + 3) = (-4) x 10 = -40. Also (-4) x 7 + (-4) x 3 = -28 + (-12) = -40. Both sides agree, which confirms the property.",
+    "Step 4, Word problem: the temperature drops 3 degrees every hour for 5 hours, starting at 2 degrees. Change = 5 x (-3) = -15. Final = 2 + (-15) = -13 degrees.",
+    "Step 5, Mixed expression: (-3) x 4 + 10 / (-2). Multiply and divide first: -12 and -5. Then add: -12 + (-5) = -17. Check by estimating signs: both parts are negative so the sum is negative.",
+    "Step 6, Your turn: find (-7) x (-8), 45 / (-5), and (-2) x 6 - (-9). Answer: 56; -9; and -12 + 9 = -3."
+   ]
   },
   {
    "n": 2,
@@ -52,7 +60,15 @@
    ],
    "example": "Solved: 3/4 + 1/6. Common denominator 12. 9/12 + 2/12 = 11/12. Half of 12 is 6 and a quarter of 12 is 3. Method: Model run for 'Fractions and decimals'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Multiply and divide fractions and decimals and solve problems: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Multiply and divide fractions and decimals and solve problems: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Multiply fractions: 3/4 x 2/5 = 6/20 = 3/10 after dividing top and bottom by 2. Cancelling first also works: 2 and 4 share a factor of 2, leaving 3/2 x 1/5 = 3/10.",
+    "Step 2, Divide fractions: 2/3 divided by 4/5 means 2/3 x 5/4, the reciprocal flipped. That is 10/12 = 5/6. Check: 5/6 x 4/5 = 20/30 = 2/3, which is the start.",
+    "Step 3, Mixed numbers: 2 1/2 divided by 5/6. Write 5/2 x 6/5. The 5s cancel and 6/2 = 3, so the answer is 3. Estimate: 2.5 / 0.83 is about 3.",
+    "Step 4, Multiply decimals: 3.6 x 0.25. Do 36 x 25 = 900 and count 1 + 2 = 3 decimal places, so 0.900 = 0.9. Divide: 7.2 / 0.8 = 72 / 8 = 9 after shifting the points one place.",
+    "Step 5, Word problem: 12.6 kg of rice is packed in 0.9 kg bags. 12.6 / 0.9 = 126 / 9 = 14 bags. Check: 14 x 0.9 = 12.6, so no rice is left over.",
+    "Step 6, Your turn: find 3/5 divided by 9/10 and 6.3 divided by 0.7. Answer: 3/5 x 10/9 = 30/45 = 2/3; and 63 / 7 = 9."
+   ]
   },
   {
    "n": 3,
@@ -73,7 +89,15 @@
    ],
    "example": "Solved: Data 4, 7, 7, 9, 13. Mean = 40 / 5 = 8. Median (middle value) = 7. Mode (most common) = 7. Method: Model run for 'Data handling'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Find mean, median, mode and range and read bar graphs: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Find mean, median, mode and range and read bar graphs: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Mean: 8 students scored 12, 7, 9, 12, 15, 10, 12, 11. Sum = 88, and 88 / 8 = 11. The mean is 11. Pair check: 19 + 21 + 25 + 23 = 88.",
+    "Step 2, Median: sort to 7, 9, 10, 11, 12, 12, 12, 15. With 8 values the median is the average of the 4th and 5th: (11 + 12) / 2 = 11.5.",
+    "Step 3, Mode and range: 12 appears three times, more than any other value, so the mode is 12. The range is highest minus lowest = 15 - 7 = 8.",
+    "Step 4, Read a bar graph: bars of height 6, 9, 4 and 11 show books read in four weeks. Total = 30, mean = 7.5, and the biggest difference between weeks is 11 - 4 = 7.",
+    "Step 5, Compare averages: mean 11 and median 11.5 are close, so the data has no big outliers. If one score were 40, the mean would jump while the median barely moves.",
+    "Step 6, Your turn: find mean, median, mode and range of 4, 9, 6, 9, 12. Answer: mean 40 / 5 = 8; median 9 (sorted 4, 6, 9, 9, 12); mode 9; range 12 - 4 = 8."
+   ]
   },
   {
    "n": 4,
@@ -94,7 +118,15 @@
    ],
    "example": "Solved: 3x + 5 = 20. Take 5 from both sides: 3x = 15. Divide by 3: x = 5. Check: 3 x 5 + 5 = 20. Method: Model run for 'Simple equations'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Solve and form equations in one variable: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Solve and form equations in one variable: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Solve 3x + 5 = 20. Subtract 5 from both sides: 3x = 15. Divide both sides by 3: x = 5. Check: 3 x 5 + 5 = 20, so the equation balances.",
+    "Step 2, Solve x/4 - 2 = 3. Add 2 to both sides: x/4 = 5. Multiply both sides by 4: x = 20. Check: 20 / 4 - 2 = 5 - 2 = 3.",
+    "Step 3, Form an equation: the sum of two consecutive numbers is 41. Let the numbers be n and n + 1. Then 2n + 1 = 41, so 2n = 40 and n = 20. The numbers are 20 and 21.",
+    "Step 4, Perimeter problem: a rectangle's length is 4 more than its width w and its perimeter is 36. 2(w + w + 4) = 36, so 2w + 4 = 18, w = 7. Length is 11. Check: 2 x (7 + 11) = 36.",
+    "Step 5, Transposing: moving a term across the equals sign changes its sign. From 5y - 9 = 16 move -9 to get 5y = 25, so y = 5. This is the same as adding 9 to both sides.",
+    "Step 6, Your turn: solve 5x - 7 = 18, and form and solve: 4 times a number minus 6 equals 22. Answer: x = 5; and 4n - 6 = 22 gives 4n = 28, so n = 7."
+   ]
   },
   {
    "n": 5,
@@ -115,7 +147,15 @@
    ],
    "example": "Solved: Two angles on a straight line add to 180 degrees. If one is 65 degrees the other is 180 - 65 = 115 degrees. Method: Model run for 'Lines and angles'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Use angle pairs, parallel lines and transversals: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Use angle pairs, parallel lines and transversals: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Complementary and supplementary: complementary angles add to 90 and supplementary add to 180. The complement of 38 is 90 - 38 = 52. The supplement of 125 is 180 - 125 = 55.",
+    "Step 2, Linear pair: two angles on a straight line are (3x + 10) and (2x + 20). They add to 180, so 5x + 30 = 180 and x = 30. The angles are 100 and 80. Check: 100 + 80 = 180.",
+    "Step 3, Vertically opposite angles: when two lines cross, opposite angles are equal. If one angle is 70, the one opposite is 70 and the two neighbours are 180 - 70 = 110 each.",
+    "Step 4, Parallel lines and a transversal: if one angle is 70, its corresponding angle is 70 and its alternate interior angle is 70. The co-interior (same side) angle is 180 - 70 = 110.",
+    "Step 5, Find an unknown: lines are parallel and a transversal makes alternate angles (4a + 10) and 50. Equal angles give 4a + 10 = 50, so 4a = 40 and a = 10. Check: 4 x 10 + 10 = 50.",
+    "Step 6, Your turn: two angles (2x + 15) and (x + 30) form a linear pair. Find x and the angles. Answer: 3x + 45 = 180, so x = 45; the angles are 105 and 75."
+   ]
   },
   {
    "n": 6,
@@ -136,7 +176,15 @@
    ],
    "example": "Solved: Angles of a triangle add to 180 degrees. If two angles are 50 and 60, the third is 180 - 110 = 70 degrees. Method: Model run for 'The triangle and its properties'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Use the angle-sum and exterior-angle properties and the Pythagoras property: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Use the angle-sum and exterior-angle properties and the Pythagoras property: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Angle-sum property: a triangle has angles 40, 65 and x. The three add up to 180, so x = 180 - 40 - 65 = 75 degrees.",
+    "Step 2, Exterior angle: in triangle ABC with angles A = 50 and B = 60, the exterior angle at C equals the sum of the two interior opposite angles. So it is 50 + 60 = 110. Check: interior C is 70 and 70 + 110 = 180.",
+    "Step 3, Pythagoras property: in a right triangle with legs 6 and 8, hypotenuse squared = 36 + 64 = 100. So the hypotenuse is 10. The triple 6, 8, 10 is a scaled 3, 4, 5.",
+    "Step 4, Ladder problem: a 13 m ladder leans on a wall with its foot 5 m from the wall. Height squared = 169 - 25 = 144, so the height is 12 m. Check: 5, 12, 13 is a known triple.",
+    "Step 5, Test for a right triangle: sides 7, 24, 25. 7^2 + 24^2 = 49 + 576 = 625 and 25^2 = 625. The squares match, so the triangle is right-angled, with the right angle opposite 25.",
+    "Step 6, Your turn: find x in a triangle with angles x, 2x and 3x, and the other leg when the hypotenuse is 17 and one leg is 8. Answer: 6x = 180, x = 30; other leg is the root of 289 - 64 = 225, which is 15."
+   ]
   },
   {
    "n": 7,
@@ -157,7 +205,15 @@
    ],
    "example": "Solved: Angles of a triangle add to 180 degrees. If two angles are 50 and 60, the third is 180 - 110 = 70 degrees. Method: Model run for 'Congruence of triangles'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Test congruence with SSS, SAS, ASA and RHS: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Test congruence with SSS, SAS, ASA and RHS: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, SAS test: triangle ABC has AB = 5 cm, BC = 7 cm and angle B = 50. Triangle PQR has PQ = 5, QR = 7 and angle Q = 50. Two sides and the included angle match, so ABC is congruent to PQR by SAS.",
+    "Step 2, Use the match: with ABC congruent to PQR, corresponding parts are equal. So AC = PR, angle A = angle P, angle C = angle R. Write the correspondence in order, A to P, B to Q, C to R.",
+    "Step 3, SSS test: triangles with sides 4, 5, 6 and 6, 4, 5 are congruent by SSS because all three pairs of sides are equal. No angle information is needed.",
+    "Step 4, RHS test: two right triangles each have hypotenuse 10 cm and one leg 6 cm. They are congruent by RHS. The third side is the root of 100 - 36 = 64, so it is 8 cm in both.",
+    "Step 5, ASA and a failure: ASA needs two angles and the included side, such as angles 40 and 60 with the side 8 cm between them. But SSA (two sides and a non-included angle) is not enough, as different triangles can fit.",
+    "Step 6, Your turn: triangle one has angles 40 and 60 with the side between them 8 cm; triangle two has angles 60 and 40 with 8 cm between them. Are they congruent? Answer: yes, by ASA, and the third angle of each is 80."
+   ]
   },
   {
    "n": 8,
@@ -178,7 +234,8 @@
    ],
    "example": "Solved: 20% of 350 = 350 x 20 / 100 = 70. Share 40 sweets in the ratio 3 : 5: 8 parts, each part is 5, so 15 and 25. If 5 pens cost 40, one costs 8 and 12 cost 96. Method: Model run for 'Comparing quantities'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Solve percentage, profit and loss, and simple interest problems: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Solve percentage, profit and loss, and simple interest problems: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": []
   },
   {
    "n": 9,
@@ -199,7 +256,8 @@
    ],
    "example": "Solved: Square root of 196: 14 x 14 = 196, so the root is 14. 2 cubed x 2 to the 4 = 2 to the 7 = 128. 0.75 = 3/4 is rational; the square root of 2 is not. Method: Model run for 'Rational numbers'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Compare and operate on rational numbers: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Compare and operate on rational numbers: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": []
   },
   {
    "n": 10,
@@ -220,7 +278,8 @@
    ],
    "example": "Solved: A square has 4 equal sides and 4 right angles; a rectangle has 2 pairs of equal sides. A tally of 5 red, 3 blue and 2 green shows most children like red. Method: Model run for 'Practical geometry'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Construct lines, angles and triangles: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Construct lines, angles and triangles: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": []
   },
   {
    "n": 11,
@@ -241,7 +300,15 @@
    ],
    "example": "Solved: Rectangle 12 cm by 5 cm. Perimeter = 2 x (12 + 5) = 34 cm. Area = 12 x 5 = 60 square cm. A cuboid 12 x 5 x 3 has volume 180 cubic cm. Method: Model run for 'Perimeter and area'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Find area of parallelograms, triangles and circles: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Find area of parallelograms, triangles and circles: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Parallelogram: base 12 cm and perpendicular height 7 cm. Area = base x height = 12 x 7 = 84 cm2. Use the height at right angles to the base, not the slanted side.",
+    "Step 2, Triangle: base 10 cm and height 6 cm. Area = 1/2 x 10 x 6 = 30 cm2. This is half of a parallelogram of the same base and height, 60 cm2.",
+    "Step 3, Circle with radius 7 cm using pi = 22/7: circumference = 2 x 22/7 x 7 = 44 cm. Area = 22/7 x 7 x 7 = 22 x 7 = 154 cm2. Check: 154 is a little less than the square of side 14 = 196.",
+    "Step 4, Circle from the diameter: diameter 20 cm gives radius 10 cm. With pi = 3.14, circumference = 3.14 x 20 = 62.8 cm and area = 3.14 x 100 = 314 cm2.",
+    "Step 5, Word problem: a circular park has radius 14 m. Area = 22/7 x 14 x 14 = 22 x 2 x 14 = 616 m2. Fencing the edge needs 2 x 22/7 x 14 = 88 m.",
+    "Step 6, Your turn: find the area of a parallelogram with base 9 cm and height 5 cm, and the circumference and area of a circle of radius 21 cm. Answer: 45 cm2; 132 cm and 1,386 cm2."
+   ]
   },
   {
    "n": 12,
@@ -262,7 +329,15 @@
    ],
    "example": "Solved: x squared - 9 = (x - 3)(x + 3). Check by expanding: x squared + 3x - 3x - 9 = x squared - 9. Method: Model run for 'Algebraic expressions'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Add and subtract expressions and find values: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Add and subtract expressions and find values: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Identify like terms: in 3x + 2y + 5x - 4y the x terms are 3x and 5x, and the y terms are 2y and -4y. Only like terms can be combined.",
+    "Step 2, Add: (3x + 2y) + (5x - 4y) = (3x + 5x) + (2y - 4y) = 8x - 2y. Group the like terms, then add their numbers.",
+    "Step 3, Subtract: (7a - 3b + 2) - (2a + b - 5). Change every sign in the second bracket: 7a - 3b + 2 - 2a - b + 5. Collect: 5a - 4b + 7.",
+    "Step 4, Find a value: for 3x^2 - 4x + 1 with x = 2, work 3 x 4 - 8 + 1 = 12 - 8 + 1 = 5. Square before multiplying by 3. Try x = -1 to see: 3 + 4 + 1 = 8.",
+    "Step 5, Use in a problem: a rectangle has length (2x + 3) and width x. Perimeter = 2(2x + 3 + x) = 6x + 6. If x = 4, the perimeter is 6 x 4 + 6 = 30. Direct check: 2 x (11 + 4) = 30.",
+    "Step 6, Your turn: add (4m + 3n) and (2m - 5n), and find 2a + 3b when a = 4 and b = -1. Answer: 6m - 2n; and 8 - 3 = 5."
+   ]
   },
   {
    "n": 13,
@@ -283,7 +358,8 @@
    ],
    "example": "Solved: Square root of 196: 14 x 14 = 196, so the root is 14. 2 cubed x 2 to the 4 = 2 to the 7 = 128. 0.75 = 3/4 is rational; the square root of 2 is not. Method: Model run for 'Exponents and powers'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Use laws of exponents and standard form: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Use laws of exponents and standard form: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": []
   },
   {
    "n": 14,
@@ -304,7 +380,15 @@
    ],
    "example": "Solved: A rectangle has 2 lines of symmetry; a square has 4; a cube has 6 faces, 12 edges and 8 vertices. Method: Model run for 'Symmetry and solid shapes'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Draw nets and views of solids and find lines of symmetry: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Draw nets and views of solids and find lines of symmetry: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Nets: a cube net has 6 squares joined so that they fold into a closed box. A cuboid net has 6 rectangles, in 3 equal pairs. Fold test: a row of 4 squares with one square above and one below works.",
+    "Step 2, Count faces, vertices and edges: a cube has 6 faces, 8 vertices and 12 edges. Euler's check F + V - E = 2 gives 6 + 8 - 12 = 2. A triangular prism has 5 faces, 6 vertices and 9 edges: 5 + 6 - 9 = 2.",
+    "Step 3, Views: a stack has 3 cubes in the front row and 1 cube behind the left one. The front view shows 3 squares side by side and the top view shows 3 squares in a row plus 1 behind at the left end.",
+    "Step 4, Lines of symmetry: an equilateral triangle has 3, a regular hexagon has 6, a rectangle 2, and the letter H has 2 (one vertical, one horizontal). A scalene triangle has none.",
+    "Step 5, Check a net: a cross with 5 squares and 1 extra is a cube net only if no two squares overlap when folded. A row of 6 squares fails, since folding makes the end squares overlap.",
+    "Step 6, Your turn: find F + V - E for a square pyramid and say how many lines of symmetry a square has. Answer: 5 faces, 5 vertices, 8 edges gives 5 + 5 - 8 = 2; a square has 4 lines of symmetry."
+   ]
   }
  ],
  "rubric": [

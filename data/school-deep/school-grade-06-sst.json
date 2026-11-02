@@ -31,7 +31,8 @@
    ],
    "example": "Solved: Early humans moved from hunting and gathering to farming; Indus Valley cities had planned streets and drains. Put four events on a timeline. Method: Model run for 'History: early humans to ancient civilisations'. Question: what happened, or what is the situation, and why? Sources: two short extracts, a map or table. Notes: who, what, where, when, why. Answer: three sentences, each with a reason and a piece of evidence. Check: is there a point of view that you have not considered? What a good answer looks like: facts are correct, reasons are linked to evidence, and one other point of view is named fairly.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Describe how early people lived and early cities began: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Describe how early people lived and early cities began: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": []
   },
   {
    "n": 2,
@@ -52,7 +53,8 @@
    ],
    "example": "Solved: Earth rotates once in 24 hours (day and night) and orbits the Sun in about 365 days (a year). Earthquakes happen where plates meet; rivers and wind erode land. Method: Model run for 'Geography: Earth in space'. Question: what happened, or what is the situation, and why? Sources: two short extracts, a map or table. Notes: who, what, where, when, why. Answer: three sentences, each with a reason and a piece of evidence. Check: is there a point of view that you have not considered? What a good answer looks like: facts are correct, reasons are linked to evidence, and one other point of view is named fairly.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Describe the solar system, latitudes and longitudes: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Describe the solar system, latitudes and longitudes: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": []
   },
   {
    "n": 3,
@@ -73,7 +75,15 @@
    ],
    "example": "Solved: Scale 1:50,000: 2 cm on the map is 1 km on the ground. Contour lines close together show a steep slope. Method: Model run for 'Geography: maps and landforms'. Question: what happened, or what is the situation, and why? Sources: two short extracts, a map or table. Notes: who, what, where, when, why. Answer: three sentences, each with a reason and a piece of evidence. Check: is there a point of view that you have not considered? What a good answer looks like: facts are correct, reasons are linked to evidence, and one other point of view is named fairly.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Read maps and describe major landforms: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Read maps and describe major landforms: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Use latitude and longitude. The Equator is 0 degrees latitude. Dubai is near 25 degrees North and 55 degrees East; Mumbai is near 19 degrees North and 73 degrees East. The Tropic of Cancer, 23.5 degrees North, crosses both India and the UAE.",
+    "Step 2, Work a scale problem. On a map, 1 cm stands for 25 km. A road measuring 6.4 cm is 6.4 x 25 = 160 km long. A larger scale such as 1:50,000 shows more detail for a small area than 1:5,000,000.",
+    "Step 3, Compute time from longitude. The Earth turns 15 degrees each hour. The UAE uses UTC+4 and India UTC+5:30, so when it is 10:00 in Dubai it is 11:30 in Mumbai. India's time is 1 hour 30 minutes ahead.",
+    "Step 4, Read a contour map. Contour lines join points of equal height. If the lines are spaced 20 m apart and packed closely, the slope is steep; if they are wide apart, it is gentle. A closed ring with rising values marks a hill.",
+    "Step 5, Describe landforms with an example. Mountains: Himalayas, with Everest at 8,849 m. Plateau: Deccan. Plains: Indo-Gangetic. Desert: Thar. Model answer: 'A plateau is a flat-topped highland with steep sides; the Deccan lies in southern India.'",
+    "Step 6, Your turn: a map scale is 1 cm = 10 km, and two towns are 7.5 cm apart. Model answer: 'The distance is 7.5 x 10 = 75 km. The towns are 75 km apart on the ground.'"
+   ]
   },
   {
    "n": 4,
@@ -94,7 +104,8 @@
    ],
    "example": "Solved: Diversity is many languages, faiths and customs in one country; equality is the same rights for everyone. Give one example of each from your own area. Method: Model run for 'Civics: diversity and government'. Question: what happened, or what is the situation, and why? Sources: two short extracts, a map or table. Notes: who, what, where, when, why. Answer: three sentences, each with a reason and a piece of evidence. Check: is there a point of view that you have not considered? What a good answer looks like: facts are correct, reasons are linked to evidence, and one other point of view is named fairly.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Describe diversity, government and local governance: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Describe diversity, government and local governance: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": []
   }
  ],
  "rubric": [

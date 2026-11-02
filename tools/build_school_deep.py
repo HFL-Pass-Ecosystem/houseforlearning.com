@@ -413,6 +413,17 @@ def solved(title):
         if re.search(pat, title.lower()): return txt
     return None
 
+# Unit-specific solved working, one file per subject group: data/school-deep-solved/out-N.json {unit_id: {"steps": [...]}}.
+import glob as _glob
+SOLVED_STEPS = {}
+for _f in sorted(_glob.glob(str(B.Dt / 'school-deep-solved' / 'out-*.json'))):
+    try: SOLVED_STEPS.update(json.load(open(_f)))
+    except Exception as _e: print('skip', _f, _e)
+def _steps(uid, subj):
+    if subj == 'ISL': return []
+    v = SOLVED_STEPS.get(uid) or {}
+    return [x for x in v.get('steps', []) if isinstance(x, str) and x.strip()]
+
 def modules(rows, kind, bd):
     f = FR[kind]; out = []
     for i, r in enumerate(rows):
@@ -422,7 +433,7 @@ def modules(rows, kind, bd):
                         intro=f"In this unit you work on '{t}', taught in a way that is {bd['w']}. The target is clear: {o}. You move from seeing it, to saying it, to doing it alone.",
                         points=[s.format(t=t, o=o) for s in f['steps']], example=(((lambda sv: ('Solved: ' + sv + ' Method: ') if sv else '')((solved(t) if kind in ('maths', 'sci', 'lang') else None) or solved2(t, sj) or solved4(t, sj) or solved3(t, sj))) + f['ex'].format(t=t, o=o)),
                         activity=f"About {bd['t']} of class work, then one short practice task for home. Keep evidence: {bd['ev']}.",
-                        standard=f"{o[:1].upper() + o[1:]}: {bd['std']}."))
+                        standard=f"{o[:1].upper() + o[1:]}: {bd['std']}.", steps=_steps(r['unit_id'], sj)))
     return out
 
 def checks(subj, kind, mods, bd, plan_lbl):
@@ -452,7 +463,7 @@ def build_data(p, s, rs):
 def render(d):
     mods = ''.join(f'<details class="mod" {"open" if m["n"] == 1 else ""}><summary><span class="mn">Unit {m["n"]}</span> {e(m["title"])} <span class="pill">Weeks {m["weeks"][0]} to {m["weeks"][1]}</span><span class="pill bz">{m["bloom"]}</span></summary>'
                    f'<p>{e(m["intro"])}</p><ul>' + ''.join(f'<li>{e(x)}</li>' for x in m['points']) + '</ul>'
-                   f'<div class="evi"><strong>Worked example.</strong> {e(m["example"])}</div><p><strong>Activity.</strong> {e(m["activity"])}</p><p><strong>Standard to meet.</strong> {e(m["standard"])}</p></details>' for m in d['modules'])
+                   f'<div class="evi"><strong>Worked example.</strong> {e(m["example"])}</div>' + ('<p><strong>Step by step.</strong></p><ol>' + ''.join(f'<li>{e(x)}</li>' for x in m['steps']) + '</ol>' if m.get('steps') else '') + f'<p><strong>Activity.</strong> {e(m["activity"])}</p><p><strong>Standard to meet.</strong> {e(m["standard"])}</p></details>' for m in d['modules'])
     rub = ('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric (Not yet, Meets, Exceeds)</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>'
            + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(c)}</td><td>{e(x)}</td></tr>' for a, b, c, x in d['rubric']) + '</tbody></table></div>')
     quiz = ''.join(f'<details class="mod"><summary>Q{i + 1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a)}</p></details>' for i, (q, a) in enumerate(d['checks']))

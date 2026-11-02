@@ -31,7 +31,8 @@
    ],
    "example": "Solved: Speed = distance / time. A bus covers 120 km in 2 hours: 120 / 2 = 60 km/h. Starting at 0 and reaching 20 m/s in 5 s means acceleration = 20 / 5 = 4 m/s squared. Method: Model run for 'Physics: motion'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Describe motion with graphs and equations: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Describe motion with graphs and equations: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": []
   },
   {
    "n": 2,
@@ -52,7 +53,8 @@
    ],
    "example": "Solved: Speed = distance / time. A bus covers 120 km in 2 hours: 120 / 2 = 60 km/h. Starting at 0 and reaching 20 m/s in 5 s means acceleration = 20 / 5 = 4 m/s squared. Method: Model run for 'Physics: force and laws of motion'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Apply Newton's laws and momentum: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Apply Newton's laws and momentum: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": []
   },
   {
    "n": 3,
@@ -73,7 +75,15 @@
    ],
    "example": "Solved: Work = force x distance. 20 N over 3 m = 60 J. Kinetic energy of 2 kg at 3 m/s = 1/2 x 2 x 9 = 9 J. Method: Model run for 'Physics: gravitation, work and energy'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Use universal gravitation and work and energy: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Use universal gravitation and work and energy: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Use Newton's law of gravitation F = G m1 m2 / r^2 with G = 6.67 x 10^-11 N m^2 kg^-2. For two 10 kg balls 0.5 m apart, F = 6.67e-11 x 10 x 10 / 0.25 = 2.67 x 10^-8 N, tiny.",
+    "Step 2, Find g on Earth. Using M = 6.0 x 10^24 kg and R = 6.4 x 10^6 m: g = GM/R^2 = 6.67e-11 x 6.0e24 / 4.1e13 = 9.77 m/s2, close to 9.8. Weight = m g, so a 50 kg student weighs 490 N.",
+    "Step 3, Compute work. A 20 kg box is lifted 3 m. Force needed equals weight 20 x 9.8 = 196 N. Work W = F x d = 196 x 3 = 588 J.",
+    "Step 4, Use energy. Potential energy at height is mgh = 588 J. If the box falls, KE at the ground is 588 J. Then v = sqrt(2KE/m) = sqrt(2 x 588 / 20) = sqrt(58.8) = 7.7 m/s, the same as sqrt(2gh).",
+    "Step 5, Power: lifting that 588 J in 4 s gives P = 588 / 4 = 147 W. Conclusion: work transfers energy; energy changes form but its total is conserved.",
+    "Step 6, Your turn: a 2 kg stone falls from rest through 5 m. Find KE gained and speed (g = 10). Answer: KE = 2 x 10 x 5 = 100 J; v = sqrt(2 x 100 / 2) = 10 m/s."
+   ]
   },
   {
    "n": 4,
@@ -94,7 +104,15 @@
    ],
    "example": "Solved: Echo: sound at 340 m/s returns after 2 s, so it travelled 680 m there and back, and the wall is 340 m away. Method: Model run for 'Physics: sound'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Explain sound waves and echo: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Explain sound waves and echo: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Describe a sound wave. A tuning fork vibrates and compresses air then leaves a rarefaction, forming longitudinal waves. Mark compressions as high pressure and rarefactions as low pressure on a diagram.",
+    "Step 2, Define terms. Frequency f in hertz is vibrations per second, wavelength lambda is the distance between two compressions, and wave speed v = f x lambda. For f = 340 Hz and lambda = 1 m, v = 340 m/s.",
+    "Step 3, Solve for wavelength. Audible range is 20 Hz to 20,000 Hz. At 340 m/s, a 20 Hz sound has lambda = 340 / 20 = 17 m and a 20,000 Hz sound has lambda = 340 / 20000 = 0.017 m.",
+    "Step 4, Do an echo calculation. A girl claps and hears the echo after 0.6 s. Sound speed 340 m/s means the total path is 340 x 0.6 = 204 m, so the wall is 204 / 2 = 102 m away.",
+    "Step 5, Link to uses: sonar sends ultrasound (above 20 kHz) and measures echo time, and ultrasound scans use frequencies of a few MHz. Loudness relates to amplitude, pitch to frequency.",
+    "Step 6, Your turn: a ship's sonar receives an echo after 4 s in water where sound speed is 1500 m/s. Find the depth. Answer: 1500 x 4 / 2 = 3000 m."
+   ]
   },
   {
    "n": 5,
@@ -115,7 +133,15 @@
    ],
    "example": "Solved: 10 g of salt in 90 g of water: solution mass 100 g, so concentration = 10 / 100 x 100 = 10 percent by mass. Method: Model run for 'Chemistry: matter in our surroundings and is matter around us pure'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Classify matter and calculate concentration: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Classify matter and calculate concentration: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Classify matter. Pure substances are elements like iron and compounds like water. Mixtures are homogeneous like salt solution or heterogeneous like soil and water. Test: a pure substance has a fixed melting point.",
+    "Step 2, Compare mixture and compound. Iron and sulphur mixed can be separated by a magnet. Heated together they form iron sulphide, a compound with different properties, not attracted by the magnet.",
+    "Step 3, Calculate mass percent. A solution contains 10 g of salt in 90 g of water. Solution mass = 100 g. Mass by mass percentage = 10 / 100 x 100 = 10 per cent.",
+    "Step 4, Calculate volume percent. 25 mL of alcohol in 100 mL of solution gives 25 per cent by volume. Mass by volume of 5 g in 200 mL is 5 / 200 x 100 = 2.5 per cent.",
+    "Step 5, Describe particles. States differ by spacing and motion. Evaporation occurs below boiling, and rate rises with temperature, surface area and wind. Convert 300 K to Celsius: 300 - 273 = 27 C.",
+    "Step 6, Your turn: find the concentration of a solution of 20 g sugar in 180 g water. Answer: 20 / 200 x 100 = 10 per cent by mass."
+   ]
   },
   {
    "n": 6,
@@ -136,7 +162,15 @@
    ],
    "example": "Solved: Water is H2O: 2 hydrogen atoms and 1 oxygen atom. Mass = 2 x 1 + 16 = 18 units. Check atoms balance on both sides of an equation. Method: Model run for 'Chemistry: atoms, molecules and the structure of the atom'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Use symbols, formulae and the atomic model: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Use symbols, formulae and the atomic model: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Write symbols and valencies. Sodium Na is +1, chlorine Cl is -1, oxygen O is -2, calcium Ca is +2. Criss-cross: Na (1) and Cl (1) give NaCl. Ca (2) and Cl (1) give CaCl2. Al (3) and O (2) give Al2O3.",
+    "Step 2, Calculate molecular mass. Using atomic masses H = 1, C = 12, O = 16, Ca = 40: H2O = 2 + 16 = 18 u. CO2 = 12 + 32 = 44 u. CaCO3 = 40 + 12 + 48 = 100 u.",
+    "Step 3, State the laws. Conservation of mass: in a reaction, 4 g of hydrogen forms water with 32 g of oxygen to give 36 g of water, so mass is unchanged. Constant proportion: in water H to O mass is always 1 to 8.",
+    "Step 4, Describe the atom. Sodium has 11 protons, 12 neutrons and 11 electrons, so atomic number 11 and mass number 23. Electron configuration is 2, 8, 1, with one valence electron that is easily lost.",
+    "Step 5, Compare isotopes: chlorine-35 and chlorine-37 have the same 17 protons but 18 and 20 neutrons. Average atomic mass about 35.5 u because of the abundance, roughly 3 to 1.",
+    "Step 6, Your turn: write the formula for magnesium chloride and its molecular mass (Mg 24, Cl 35.5). Answer: MgCl2; 24 + 71 = 95 u."
+   ]
   },
   {
    "n": 7,
@@ -157,7 +191,8 @@
    ],
    "example": "Solved: Plant cells have a cell wall and chloroplasts; animal cells do not. A tissue is a group of similar cells doing one job, for example muscle tissue for movement. Method: Model run for 'Biology: the fundamental unit of life and tissues'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Describe cell organelles and plant and animal tissues: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Describe cell organelles and plant and animal tissues: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": []
   },
   {
    "n": 8,
@@ -178,7 +213,15 @@
    ],
    "example": "Solved: Use a key: has a backbone? yes, vertebrate. Has feathers? yes, bird. Say how disease spreads and how to prevent it. Method: Model run for 'Biology: diversity, health and natural resources'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Classify organisms and explain disease and resource cycles: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Classify organisms and explain disease and resource cycles: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Classify with the five kingdoms: Monera (bacteria), Protista (amoeba), Fungi (mushroom), Plantae (mango tree) and Animalia (tiger). Take the tiger: Kingdom Animalia, Phylum Chordata, Class Mammalia, Order Carnivora, Family Felidae, Genus Panthera, species tigris.",
+    "Step 2, Trace disease. Malaria is caused by Plasmodium protozoa spread by the female Anopheles mosquito. It is infectious. Diabetes is a non-infectious disease. Prevention for malaria: nets, drain standing water, prompt treatment.",
+    "Step 3, Explain vaccination. A weakened antigen trains the immune system to make antibodies and memory cells. A later exposure to the real pathogen is then met by a fast response. Herd immunity protects those not vaccinated.",
+    "Step 4, Follow the nitrogen cycle: atmospheric N2, nitrogen fixation by Rhizobium in legume root nodules, nitrates in soil, uptake by plants, passage to animals, decomposition to ammonia, and denitrification to N2.",
+    "Step 5, Follow the carbon cycle: plants take CO2 by photosynthesis, animals release it by respiration, and burning fossil fuels adds CO2. The greenhouse effect traps heat; rising CO2 warms the climate.",
+    "Step 6, Your turn: name the kingdom and one disease prevention for a mushroom and for cholera. Answer: Fungi; cholera is prevented by clean boiled water and sanitation."
+   ]
   }
  ],
  "rubric": [

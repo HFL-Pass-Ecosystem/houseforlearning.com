@@ -31,7 +31,8 @@
    ],
    "example": "Solved: Input: keyboard, mouse. Output: screen, printer. Processing: CPU. Storage: hard drive. Press a key (input), the screen shows a letter (output). Method: Model run for 'Parts of a computer'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
-   "standard": "Name the screen, keyboard, mouse and their jobs: at least 4 of 5 attempts correct, said or written, with one real example from home or school."
+   "standard": "Name the screen, keyboard, mouse and their jobs: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": []
   },
   {
    "n": 2,
@@ -52,7 +53,16 @@
    ],
    "example": "Solved: Home row: A S D F for the left hand, J K L ; for the right. Type 'sad lad' ten times without looking. Aim for no errors, then raise speed. Method: Model run for 'Mouse and keyboard skills'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
-   "standard": "Click, drag and type letters and my name: at least 4 of 5 attempts correct, said or written, with one real example from home or school."
+   "standard": "Click, drag and type letters and my name: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": [
+    "Step 1, Sit and set up: Amina sits with both feet on the floor, the screen at eye level, and one hand on the mouse. She finds the pointer arrow on the screen and moves the mouse slowly until the arrow touches the big green square.",
+    "Step 2, Click: With the arrow on the green square, Amina presses the left button once and lets go. The square turns yellow. One quick press is a click. She says 'click' aloud each time to remember the single press.",
+    "Step 3, Drag: Amina puts the arrow on a red ball, holds the left button down, slides the mouse to the basket on the right, then lets go. The ball drops into the basket. Hold, move, release is called dragging.",
+    "Step 4, Find letters: Her teacher shows a box and the letters A, M, I, N. Amina looks at the keyboard, finds the A key on the left side of the middle row, and presses it once. An 'a' appears in the box.",
+    "Step 5, Type the name: She types A, then holds the Shift key with her little finger while pressing A for a capital, so the first letter is right. Next come m, i, n, a. The screen shows Amina, five letters.",
+    "Step 6, Check and fix: She reads the screen letter by letter, touching each one with the pointer: A-m-i-n-a. All five match. If a letter were wrong she would press Backspace once to remove the last letter and type again.",
+    "Your turn: Your name is Omar. Click the blue button, drag a star into a box, then type your name with a capital O. Model answer: O comes from Shift plus the O key, then m, a, r. The screen shows Omar, four letters, and the star sits inside the box."
+   ]
   },
   {
    "n": 3,
@@ -73,7 +83,16 @@
    ],
    "example": "Solved: Draw a square, put a triangle on top, add a door and fill with colour: a house. Save as house.png. Method: Model run for 'Drawing on a computer'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
-   "standard": "Make a simple picture with a drawing tool: at least 4 of 5 attempts correct, said or written, with one real example from home or school."
+   "standard": "Make a simple picture with a drawing tool: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": [
+    "Step 1, Open the tool: Lina clicks the drawing tool icon, a paintbrush on the desktop. A white page opens with a row of colour squares at the top and a pencil, a brush and an eraser on the left side.",
+    "Step 2, Pick a colour and tool: She clicks the yellow square, then the brush. The pointer changes to a small dot. Yellow is now the colour she will draw with, so everything she paints from here will be yellow.",
+    "Step 3, Draw the sun: Holding the left button down, Lina moves the mouse in a slow circle in the top corner. When the circle joins up she lets go. A yellow round sun appears. She adds five short lines around it for rays.",
+    "Step 4, Change colour for the house: She clicks the red square and draws a square box in the middle of the page for the house wall. Then she clicks brown and draws a triangle on top for the roof, making a simple house.",
+    "Step 5, Fix a mistake: One ray crossed the roof. Lina clicks the eraser tool, rubs over only that crossing line, and the white page shows again. She switches back to the yellow brush and draws the ray shorter.",
+    "Step 6, Save: Lina clicks the save button, types the name 'my house' and presses Enter. The tool shows 'my house' at the top. She now has a picture with a sun, a house and a roof that she can open tomorrow.",
+    "Your turn: Draw a tree with a brown trunk and a green top, then erase one mistake and save it as 'tree'. Model answer: pick brown and draw a thin tall rectangle, pick green and draw a round top, use the eraser on any stray mark, then save with the name tree."
+   ]
   },
   {
    "n": 4,
@@ -94,7 +113,8 @@
    ],
    "example": "Solved: Never share your password, address or school name. If a stranger messages you: do not reply, close it, tell a trusted adult. Strong password: three random words plus a number. Method: Model run for 'Staying safe with screens'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
-   "standard": "Follow simple rules for screen time and sharing: at least 4 of 5 attempts correct, said or written, with one real example from home or school."
+   "standard": "Follow simple rules for screen time and sharing: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": []
   }
  ],
  "rubric": [

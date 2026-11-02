@@ -31,7 +31,15 @@
    ],
    "example": "Solved: الولد يلعب في الحديقة. أين يلعب الولد؟ في الحديقة. (The boy plays in the garden. Where does the boy play? In the garden.) Method: Model run for 'Reading and comprehension'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
-   "standard": "Answer questions on a longer text: at least 4 of 5 attempts correct, said or written, with one real example from home or school."
+   "standard": "Answer questions on a longer text: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": [
+    "Step 1, Read the passage. ذَهَبَتْ سَارَةُ مَعَ صَدِيقَتِهَا إِلَى مَكْتَبَةِ الْمَدْرَسَةِ يَوْمَ الْخَمِيسِ. اسْتَعَارَتْ سَارَةُ كِتَابًا عَنِ الْحَيَوَانَاتِ، وَاخْتَارَتْ صَدِيقَتُهَا قِصَّةً عَنِ الْبَحْرِ. [Sara went with her friend to the school library on Thursday. Sara borrowed a book about animals, and her friend chose a story about the sea.]",
+    "Step 2, Read the rest. جَلَسَتَا مَعًا وَقَرَأَتَا بِهُدُوءٍ. فِي الْمَسَاءِ أَخْبَرَتْ سَارَةُ أُمَّهَا بِمَا تَعَلَّمَتْ. [The two sat together and read quietly. In the evening Sara told her mother what she had learned.] Underline the day, the place and the people.",
+    "Step 3, Answer direct questions. مَتَى ذَهَبَتْ سَارَةُ إِلَى الْمَكْتَبَةِ؟ [When did Sara go to the library?] ذَهَبَتْ يَوْمَ الْخَمِيسِ. [She went on Thursday.] مَاذَا اسْتَعَارَتْ؟ [What did she borrow?] اسْتَعَارَتْ كِتَابًا عَنِ الْحَيَوَانَاتِ. [She borrowed a book about animals.]",
+    "Step 4, Answer a thinking question. لِمَاذَا قَرَأَتَا بِهُدُوءٍ؟ [Why did they read quietly?] لِأَنَّهُمَا فِي الْمَكْتَبَةِ. [Because they were in the library.] This reason is not written word for word, so use the clue كَانَتَا فِي مَكْتَبَةِ الْمَدْرَسَةِ [They were in the school library].",
+    "Step 5, Fix an error. A student writes the whole passage as an answer to مَنْ اخْتَارَ قِصَّةً؟ [Who chose a story?]. Correction: choose the key sentence only, اخْتَارَتْ صَدِيقَةُ سَارَةَ قِصَّةً. [Sara's friend chose a story.] Short, exact answers score better.",
+    "Step 6, Your turn: give a title and answer: what did Sara do in the evening? Model answer: عُنْوَانٌ: زِيَارَةُ الْمَكْتَبَةِ [Title: A visit to the library]. أَخْبَرَتْ سَارَةُ أُمَّهَا بِمَا تَعَلَّمَتْ. [Sara told her mother what she learned.]"
+   ]
   },
   {
    "n": 2,
@@ -52,7 +60,8 @@
    ],
    "example": "Solved: Nominal sentence starts with a noun: al-waladu mujtahidun (the boy is hardworking). Verbal sentence starts with a verb: dhahaba al-waladu ila al-madrasa (the boy went to school). Method: Model run for 'Nominal and verbal sentences'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
-   "standard": "Identify and write both types: at least 4 of 5 attempts correct, said or written, with one real example from home or school."
+   "standard": "Identify and write both types: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": []
   },
   {
    "n": 3,
@@ -73,7 +82,15 @@
    ],
    "example": "Solved: أمارس الرياضة كل يوم وأشرب الماء. الرياضة مفيدة للصحة. (I exercise daily and drink water. Sport is good for health.) Method: Model run for 'Sports and health'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
-   "standard": "Talk about sport and healthy living: at least 4 of 5 attempts correct, said or written, with one real example from home or school."
+   "standard": "Talk about sport and healthy living: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": [
+    "Step 1, Name sports. كُرَةُ الْقَدَمِ [football], كُرَةُ السَّلَّةِ [basketball], السِّبَاحَةُ [swimming], الْجَرْيُ [running], رُكُوبُ الدَّرَّاجَةِ [cycling]. Ask a partner: مَا رِيَاضَتُكَ الْمُفَضَّلَةُ؟ [What is your favourite sport?]",
+    "Step 2, Say what you do. أُمَارِسُ الرِّيَاضَةَ ثَلَاثَ مَرَّاتٍ فِي الْأُسْبُوعِ. [I do sport three times a week.] أُحِبُّ السِّبَاحَةَ. [I like swimming.] أَجْرِي فِي الْحَدِيقَةِ كُلَّ صَبَاحٍ. [I run in the park every morning.]",
+    "Step 3, Talk about healthy living. أَشْرَبُ الْمَاءَ كَثِيرًا. [I drink a lot of water.] الْفَوَاكِهُ وَالْخُضَارُ مُفِيدَةٌ لِلْجِسْمِ. [Fruit and vegetables are good for the body.] كَثْرَةُ الْحَلْوَى مُضِرَّةٌ. [Too many sweets are harmful.] Say each sentence slowly.",
+    "Step 4, Give advice with يَجِبُ أَنْ. يَجِبُ أَنْ أَنَامَ مُبَكِّرًا. [I must sleep early.] يَجِبُ أَنْ نَأْكُلَ طَعَامًا صِحِّيًّا. [We must eat healthy food.] After أَنْ the present verb ends with a fatha sound: أَنَامَ، نَأْكُلَ.",
+    "Step 5, Fix an error. A child says يَجِبُ أَنْ أَنَامُ مُبَكِّرًا. Correction: يَجِبُ أَنْ أَنَامَ مُبَكِّرًا, because the verb after أَنْ takes fatha. Another says أُحِبُّ السِّبَاحَةُ; use أُحِبُّ السِّبَاحَةَ.",
+    "Step 6, Your turn: write three sentences about your sport and a healthy habit. Model answer: أَلْعَبُ كُرَةَ الْقَدَمِ يَوْمَ السَّبْتِ. أَشْرَبُ الْمَاءَ كَثِيرًا. يَجِبُ أَنْ أَنَامَ مُبَكِّرًا. [I play football on Saturday. I drink a lot of water. I must sleep early.]"
+   ]
   },
   {
    "n": 4,
@@ -94,7 +111,15 @@
    ],
    "example": "Solved: فقرة: القراءة مفيدة. فهي تزيد معلوماتنا. وتنمّي لغتنا. لذلك أقرأ كل يوم. (topic sentence, two details, closing) Method: Model run for 'Writing a paragraph'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
-   "standard": "Write a paragraph with a topic: at least 4 of 5 attempts correct, said or written, with one real example from home or school."
+   "standard": "Write a paragraph with a topic: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": [
+    "Step 1, A paragraph has a topic sentence, two or three details, and a closing sentence. Choose a topic: my school. First write the topic sentence: مَدْرَسَتِي مَكَانٌ جَمِيلٌ لِلتَّعَلُّمِ. [My school is a lovely place to learn.]",
+    "Step 2, Add details that support the topic. فِيهَا صُفُوفٌ وَاسِعَةٌ وَمَلْعَبٌ كَبِيرٌ. [It has spacious classrooms and a big playground.] أُحِبُّ الْمُعَلِّمِينَ لِأَنَّهُمْ يَشْرَحُونَ بِصَبْرٍ. [I like the teachers because they explain patiently.]",
+    "Step 3, Use linking words. وَ [and], لِأَنَّ [because], ثُمَّ [then], لِذَلِكَ [therefore]. Example: أَدْرُسُ بِجِدٍّ لِأَنِّي أُحِبُّ الْعِلْمَ. [I study hard because I love knowledge.] Add one linking word to each detail.",
+    "Step 4, Close the paragraph. لِذَلِكَ أَنَا سَعِيدٌ فِي مَدْرَسَتِي. [Therefore I am happy in my school.] Now read the paragraph from the topic sentence to the end and check that every sentence talks about school.",
+    "Step 5, Fix an error. A student writes a paragraph about school and then adds أَنَا أُحِبُّ الْبَحْرَ [I love the sea], which is off topic. Correction: delete it, or replace it with a school detail like فِي مَدْرَسَتِي مَكْتَبَةٌ كَبِيرَةٌ [My school has a big library].",
+    "Step 6, Your turn: write a four-sentence paragraph on my family. Model answer: أُسْرَتِي صَغِيرَةٌ وَسَعِيدَةٌ. فِيهَا أَبِي وَأُمِّي وَأَخِي. نَأْكُلُ مَعًا كُلَّ مَسَاءٍ. لِذَلِكَ أُحِبُّ أُسْرَتِي. [My family is small and happy. It has my father, mother and brother. We eat together every evening. Therefore I love my family.]"
+   ]
   }
  ],
  "rubric": [
