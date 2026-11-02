@@ -1,0 +1,283 @@
+{
+ "id": "GL-67",
+ "title": "3D Home Building",
+ "level": 3,
+ "desc": "Understand how large-scale 3D printing of walls and homes works, its safety, codes, costs and where it suits.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain how a construction printer builds walls."
+  ],
+  [
+   "Apply",
+   "Estimate material and print time."
+  ],
+  [
+   "Analyse",
+   "Compare with conventional building."
+  ],
+  [
+   "Evaluate",
+   "Judge codes, safety and quality."
+  ],
+  [
+   "Create",
+   "Write a feasibility note for a small building."
+  ]
+ ],
+ "task": "Write a feasibility note for a small printed building with design, quantities, time, cost, code checks and risks.",
+ "condition": "A computer, public information, a spreadsheet, two peers and a mentor builder. No printer operation is done.",
+ "standard": "Quantities and time are calculated; code and permit checks are listed; risks and controls are stated; cost compared with conventional building; peers rate Meets or better.",
+ "who": "Builders, architects in training, housing groups, students.",
+ "req": "none",
+ "evidence": "quantity sheet, cost comparison, risk list, note",
+ "modules": [
+  [
+   "How it works",
+   "Understand",
+   3,
+   "Layers of material.",
+   [
+    "A gantry or arm prints a cement-like mix in layers.",
+    "Walls are printed; roofs and services are added by hand.",
+    "A design file controls the path."
+   ],
+   "A printer lays a 40 mm bead in a double-wall pattern.",
+   "Draw the process.",
+   "Steps labelled."
+  ],
+  [
+   "Materials",
+   "Understand",
+   3,
+   "The mix decides success.",
+   [
+    "Cement mixes with additives; earth mixes; recycled aggregates.",
+    "Must flow, hold shape and cure.",
+    "Weather affects curing."
+   ],
+   "A hot day needs a retarder.",
+   "Compare two mixes.",
+   "Properties listed."
+  ],
+  [
+   "Design and codes",
+   "Apply",
+   4,
+   "Printing is not exempt.",
+   [
+    "Structural design by an engineer; reinforcement and openings.",
+    "Fire, energy and accessibility codes.",
+    "Foundations and utilities as usual."
+   ],
+   "Steel bars are placed in wall cavities.",
+   "List code checks.",
+   "Sources noted."
+  ],
+  [
+   "Quantities and time",
+   "Analyse",
+   4,
+   "Count the bead.",
+   [
+    "Wall length x height / layer height = layers.",
+    "Volume x density = material.",
+    "Print speed gives hours."
+   ],
+   "60 m of wall at 3 m high needs 150 layers of 20 mm.",
+   "Calculate for a small room.",
+   "Maths correct."
+  ],
+  [
+   "Site and safety",
+   "Evaluate",
+   4,
+   "People and machine.",
+   [
+    "Exclusion zones, emergency stop, lifting.",
+    "Dust and silica protection.",
+    "Weather plan."
+   ],
+   "A fence marks the print zone.",
+   "Write a site safety plan.",
+   "Plan approved by mentor."
+  ],
+  [
+   "Cost and comparison",
+   "Evaluate",
+   3,
+   "Where it pays.",
+   [
+    "Labour saving vs machine and material cost.",
+    "Speed and waste reduction.",
+    "Compare per m2."
+   ],
+   "Walls cost 12% less but doors cost the same.",
+   "Build a table.",
+   "Currency shown."
+  ],
+  [
+   "Quality control",
+   "Apply",
+   3,
+   "Test it.",
+   [
+    "Sample cubes for strength.",
+    "Check layer bonding and tolerances.",
+    "Keep records."
+   ],
+   "A cube fails; the batch is rejected.",
+   "Write a QC plan.",
+   "Tests named."
+  ],
+  [
+   "Feasibility note",
+   "Create",
+   4,
+   "Pull it together.",
+   [
+    "Fit: housing, shelters, small buildings.",
+    "Risks and permits.",
+    "Next steps."
+   ],
+   "The note recommends a small pilot hut.",
+   "Write and present.",
+   "Reader can decide."
+  ]
+ ],
+ "quiz": [
+  [
+   "How is a wall built?",
+   "In layers by a gantry or arm. (Covered in module 1: How it works. To pass that module: Steps labelled.)"
+  ],
+  [
+   "What controls the path?",
+   "A design file. (Covered in module 2: Materials. To pass that module: Properties listed.)"
+  ],
+  [
+   "Who designs structure?",
+   "An engineer. (Covered in module 3: Design and codes. To pass that module: Sources noted.)"
+  ],
+  [
+   "Layers formula?",
+   "Height / layer height. (Covered in module 4: Quantities and time. To pass that module: Maths correct.)"
+  ],
+  [
+   "Silica danger?",
+   "Dust harms lungs. (Covered in module 5: Site and safety. To pass that module: Plan approved by mentor.)"
+  ],
+  [
+   "Why cube tests?",
+   "Check strength. (Covered in module 6: Cost and comparison. To pass that module: Currency shown.)"
+  ],
+  [
+   "What stays manual?",
+   "Roof and services. (Covered in module 7: Quality control. To pass that module: Tests named.)"
+  ],
+  [
+   "Weather effect?",
+   "Curing changes. (Covered in module 8: Feasibility note. To pass that module: Reader can decide.)"
+  ],
+  [
+   "Cost comparison unit?",
+   "Per m2. (Covered in module 8: Feasibility note. To pass that module: Reader can decide.)"
+  ],
+  [
+   "Why pilot?",
+   "Learn small. (Covered in module 8: Feasibility note. To pass that module: Reader can decide.)"
+  ]
+ ],
+ "rubric": [
+  [
+   "Quantities",
+   "Errors",
+   "Correct",
+   "Correct with margin"
+  ],
+  [
+   "Codes and safety",
+   "Missing",
+   "Listed",
+   "Listed and approved"
+  ],
+  [
+   "Cost comparison",
+   "None",
+   "Done",
+   "Done with sensitivity"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Construction printing assistant",
+   "Supports crew"
+  ],
+  [
+   "Materials tester",
+   "Runs cube tests"
+  ],
+  [
+   "Site safety assistant",
+   "Checks controls"
+  ],
+  [
+   "Quantity surveyor trainee",
+   "Counts materials"
+  ],
+  [
+   "Housing project coordinator",
+   "Plans builds"
+  ]
+ ],
+ "next": "construction and built environment, 3D printing, green building.",
+ "local": "Building codes and permits differ by place.",
+ "ladder": [
+  [
+   "How it works",
+   "L1: learner can describe printing. Focus module: How it works (Understand, 3 h). Layers of material. Key points: A gantry or arm prints a cement-like mix in layers. Walls are printed; roofs and services are added by hand. A design file controls the path.",
+   "Teach: open with the worked example. A printer lays a 40 mm bead in a double-wall pattern. Then set the activity: Draw the process. Mark against the standard: Steps labelled. Check at this level: How is a wall built? Model answer: In layers by a gantry or arm. Process."
+  ],
+  [
+   "Materials",
+   "L2: learner knows materials. Focus module: Materials (Understand, 3 h). The mix decides success. Key points: Cement mixes with additives; earth mixes; recycled aggregates. Must flow, hold shape and cure. Weather affects curing.",
+   "Teach: open with the worked example. A hot day needs a retarder. Then set the activity: Compare two mixes. Mark against the standard: Properties listed. Check at this level: What controls the path? Model answer: A design file. Mix."
+  ],
+  [
+   "Design and codes",
+   "L3: learner can read codes. Focus module: Design and codes (Apply, 4 h). Printing is not exempt. Key points: Structural design by an engineer; reinforcement and openings. Fire, energy and accessibility codes. Foundations and utilities as usual.",
+   "Teach: open with the worked example. Steel bars are placed in wall cavities. Then set the activity: List code checks. Mark against the standard: Sources noted. Check at this level: Who designs structure? Model answer: An engineer. Codes."
+  ],
+  [
+   "Quantities and time",
+   "L4: learner can count. Focus module: Quantities and time (Analyse, 4 h). Count the bead. Key points: Wall length x height / layer height = layers. Volume x density = material. Print speed gives hours.",
+   "Teach: open with the worked example. 60 m of wall at 3 m high needs 150 layers of 20 mm. Then set the activity: Calculate for a small room. Mark against the standard: Maths correct. Check at this level: Layers formula? Model answer: Height / layer height. Sums."
+  ],
+  [
+   "Site and safety",
+   "L5: learner can compare cost. Focus module: Site and safety (Evaluate, 4 h). People and machine. Key points: Exclusion zones, emergency stop, lifting. Dust and silica protection. Weather plan.",
+   "Teach: open with the worked example. A fence marks the print zone. Then set the activity: Write a site safety plan. Mark against the standard: Plan approved by mentor. Check at this level: Silica danger? Model answer: Dust harms lungs. Costs."
+  ],
+  [
+   "Quality control",
+   "L6: learner can lead a crew. Focus module: Quality control (Apply, 3 h). Test it. Key points: Sample cubes for strength. Check layer bonding and tolerances. Keep records.",
+   "Teach: open with the worked example. A cube fails; the batch is rejected. Then set the activity: Write a QC plan. Mark against the standard: Tests named. Check at this level: Why cube tests? Model answer: Check strength. Lead."
+  ],
+  [
+   "Feasibility note",
+   "L7: learner can audit. Focus module: Feasibility note (Create, 4 h). Pull it together. Key points: Fit: housing, shelters, small buildings. Risks and permits. Next steps.",
+   "Teach: open with the worked example. The note recommends a small pilot hut. Then set the activity: Write and present. Mark against the standard: Reader can decide. Check at this level: What stays manual? Model answer: Roof and services. Peer audit."
+  ]
+ ]
+}

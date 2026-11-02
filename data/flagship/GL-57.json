@@ -1,0 +1,291 @@
+{
+ "id": "GL-57",
+ "title": "Biofuel Production Overview",
+ "level": 2,
+ "desc": "Understand how biofuels are made from crops, waste and algae, with sustainability, safety, cost and policy.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain biofuel types and basic production steps."
+  ],
+  [
+   "Apply",
+   "Do simple mass and energy balances."
+  ],
+  [
+   "Analyse",
+   "Compare feedstocks and emissions."
+  ],
+  [
+   "Evaluate",
+   "Judge sustainability and food-versus-fuel questions."
+  ],
+  [
+   "Create",
+   "Write a balanced overview for a community or investor."
+  ]
+ ],
+ "task": "Produce a three-page overview of one biofuel pathway with process chart, balance, emissions estimate, risks and recommendation.",
+ "condition": "A computer, public data, a spreadsheet, two peers and a mentor. No production work is done.",
+ "standard": "Process steps and balances are correct; emissions use stated assumptions; risks and safety are listed; sources dated; peers rate Meets or better.",
+ "who": "Students, farm cooperatives, energy staff, policy assistants.",
+ "req": "none",
+ "evidence": "process chart, balance sheet, emissions estimate, overview",
+ "modules": [
+  [
+   "Types of biofuel",
+   "Understand",
+   2,
+   "Biofuels are fuels made from biological materials.",
+   [
+    "Ethanol is made by fermenting sugars or starch and is blended with petrol.",
+    "Biodiesel is made from oils and fats and is blended with diesel.",
+    "Biogas is made by digesting wet waste and is used for cooking, heat or power.",
+    "Advanced biofuels use residues, wood or algae and are mostly at pilot scale."
+   ],
+   "Waste cooking oil can be converted to biodiesel using alcohol and a catalyst, and then tested for water and acidity before use.",
+   "Make a table of five biofuels with feedstock, product and use.",
+   "Each type is accurate and sourced."
+  ],
+  [
+   "Feedstocks",
+   "Analyse",
+   2,
+   "What you start with matters for cost and sustainability.",
+   [
+    "Food crops, crop residues, used oils, energy crops and wet waste.",
+    "Compare yield per hectare, cost and competition with food.",
+    "Prefer wastes and residues over new land use.",
+    "Check supply is reliable."
+   ],
+   "Used cooking oil collected from restaurants avoids new land use; sugarcane gives high ethanol yield but needs water and land.",
+   "Compare four feedstocks.",
+   "Pros and cons for each with a source."
+  ],
+  [
+   "Production steps",
+   "Understand",
+   3,
+   "Each pathway has a chain of steps.",
+   [
+    "Collect and clean the feedstock; convert; separate; purify; store.",
+    "Fermentation makes ethanol, a chemical reaction makes biodiesel, digestion makes biogas.",
+    "Co-products such as glycerol and digestate can be sold or reused.",
+    "Quality tests guard against engine damage."
+   ],
+   "In a biogas digester, food waste breaks down in the absence of air, producing methane-rich gas and nutrient-rich digestate used as fertiliser.",
+   "Draw a process chart for one pathway with inputs, outputs and co-products.",
+   "Chart shows all steps and outputs."
+  ],
+  [
+   "Mass and energy balance",
+   "Apply",
+   3,
+   "Check the numbers for a simple process.",
+   [
+    "Inputs equal outputs plus losses.",
+    "Energy ratio = energy out / energy in.",
+    "Water use per litre produced.",
+    "Use consistent units."
+   ],
+   "100 kg of oil plus 20 kg of alcohol gives about 95 kg of biodiesel and 10 kg of glycerol, with 15 kg of losses and residue.",
+   "Calculate a simple balance for your pathway.",
+   "Totals reconcile and units are consistent."
+  ],
+  [
+   "Emissions and sustainability",
+   "Evaluate",
+   3,
+   "A biofuel is cleaner only if the whole chain is clean.",
+   [
+    "Count land change, fertiliser, processing energy, transport and use.",
+    "Compare with fossil fuel per megajoule.",
+    "Use a recognised method and state boundaries.",
+    "Consider water and biodiversity."
+   ],
+   "Waste-based biodiesel can cut life-cycle emissions greatly. A fuel from newly cleared forest land may increase them.",
+   "Do a simple emissions estimate and list assumptions.",
+   "Method and sources listed."
+  ],
+  [
+   "Safety and quality",
+   "Apply",
+   3,
+   "Fuels burn and chemicals harm.",
+   [
+    "Flammable liquids, methanol, strong bases and acids need controls.",
+    "Quality tests: water content, acidity, flash point and viscosity.",
+    "Storage, earthing and spill plans.",
+    "Training and personal protective equipment."
+   ],
+   "A spill kit, earthing straps and a no-ignition zone are set up around the storage tank.",
+   "List hazards and controls for your pathway.",
+   "Each hazard has a control."
+  ],
+  [
+   "Economics and policy",
+   "Evaluate",
+   3,
+   "Costs, incentives and fairness decide success.",
+   [
+    "Feedstock is often the largest cost.",
+    "Blend mandates and incentives change prices.",
+    "Fair prices for farmers and no food shortages.",
+    "Local jobs and energy security."
+   ],
+   "A blending rule increases demand for used oil, so collection networks grow and a small processor becomes profitable.",
+   "Cost one pathway with a price per litre.",
+   "Currency shown and assumptions listed."
+  ],
+  [
+   "Write the overview",
+   "Create",
+   3,
+   "Combine your findings into a balanced recommendation.",
+   [
+    "Summary, evidence, risks and next steps.",
+    "State what you do not know.",
+    "Test with a reader.",
+    "Update as data changes."
+   ],
+   "The note recommends starting with biogas from market waste, a pathway with low land use and local benefit.",
+   "Finish and present.",
+   "Reader can repeat the recommendation and a main risk."
+  ]
+ ],
+ "quiz": [
+  [
+   "Name three biofuels.",
+   "Ethanol, biodiesel, biogas. (Covered in module 1: Types of biofuel. To pass that module: Each type has feedstock and use.)"
+  ],
+  [
+   "Best feedstock type?",
+   "Waste and residues. (Covered in module 2: Feedstocks. To pass that module: Pros and cons for each.)"
+  ],
+  [
+   "What is a co-product?",
+   "Another useful output such as glycerol. (Covered in module 3: Production steps. To pass that module: Steps and outputs shown.)"
+  ],
+  [
+   "What is a balance?",
+   "Inputs equal outputs plus losses. (Covered in module 4: Mass and energy balance. To pass that module: Totals correct.)"
+  ],
+  [
+   "Name an emissions source in the chain.",
+   "Land change, fertiliser, processing, transport. (Covered in module 5: Emissions and sustainability. To pass that module: Method and sources listed.)"
+  ],
+  [
+   "Name a safety hazard.",
+   "Flammable liquids or methanol. (Covered in module 6: Safety and quality. To pass that module: Each hazard has a control.)"
+  ],
+  [
+   "Name a quality test.",
+   "Water content, acidity, flash point. (Covered in module 7: Economics and policy. To pass that module: Currency shown.)"
+  ],
+  [
+   "Biggest cost?",
+   "Feedstock. (Covered in module 8: Write the overview. To pass that module: Reader can repeat the choice.)"
+  ],
+  [
+   "Food versus fuel question?",
+   "Avoid competing with food supply. (Covered in module 8: Write the overview. To pass that module: Reader can repeat the choice.)"
+  ],
+  [
+   "Why check sources?",
+   "Emissions claims vary. (Covered in module 8: Write the overview. To pass that module: Reader can repeat the choice.)"
+  ]
+ ],
+ "rubric": [
+  [
+   "Science accuracy",
+   "Errors",
+   "Correct",
+   "Correct and sourced"
+  ],
+  [
+   "Balance and emissions",
+   "Missing",
+   "Done",
+   "Done with assumptions"
+  ],
+  [
+   "Risk review",
+   "Missing",
+   "Listed",
+   "Listed with controls"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Biofuel plant trainee",
+   "Supports operations"
+  ],
+  [
+   "Waste collection coordinator",
+   "Gathers feedstock"
+  ],
+  [
+   "Lab assistant",
+   "Runs quality tests"
+  ],
+  [
+   "Sustainability analyst",
+   "Estimates emissions"
+  ],
+  [
+   "Farm cooperative officer",
+   "Plans supply"
+  ]
+ ],
+ "next": "greenhouse gas auditing, plastic alternatives, wind and solar basics.",
+ "local": "Fuel standards, licences and incentives differ by place.",
+ "ladder": [
+  [
+   "Types of biofuel",
+   "L1: learner can name biofuel types. Focus module: Types of biofuel (Understand, 2 h). Liquid and gas fuels from biomass. Key points: Ethanol from sugar or starch; biodiesel from oils; biogas from waste. Advanced fuels from residues and algae. Blends: low blends are used in existing engines.",
+   "Teach: open with the worked example. Vegetable oil waste becomes biodiesel after a simple chemical step. Then set the activity: Make a type table. Mark against the standard: Each type has feedstock and use. Check at this level: Name three biofuels. Model answer: Ethanol, biodiesel, biogas. Table."
+  ],
+  [
+   "Feedstocks",
+   "L2: learner knows feedstock and hazard basics. Focus module: Feedstocks (Analyse, 2 h). What you start with matters. Key points: Food crops, residues, used oil, energy crops. Compare yield per hectare and competing uses. Prefer waste and residues.",
+   "Teach: open with the worked example. Used cooking oil avoids new land use. Then set the activity: Compare 4 feedstocks. Mark against the standard: Pros and cons for each. Check at this level: Best feedstock type? Model answer: Waste and residues. Compare."
+  ],
+  [
+   "Production steps",
+   "L3: learner can follow a process chart. Focus module: Production steps (Understand, 3 h). Basic process chain. Key points: Collect, clean, convert, separate, purify, store. Fermentation for ethanol; transesterification for biodiesel; digestion for biogas. Co-products such as glycerol or digestate.",
+   "Teach: open with the worked example. Digestate returns nutrients to the field. Then set the activity: Draw a process chart. Mark against the standard: Steps and outputs shown. Check at this level: What is a co-product? Model answer: Another useful output such as glycerol. Chart."
+  ],
+  [
+   "Mass and energy balance",
+   "L4: learner can do a simple balance. Focus module: Mass and energy balance (Apply, 3 h). Check the numbers. Key points: Inputs equal outputs plus losses. Energy out / energy in gives a ratio. Water use per litre.",
+   "Teach: open with the worked example. 100 kg oil gives about 95 kg biodiesel and 10 kg glycerol with alcohol. Then set the activity: Calculate a simple balance. Mark against the standard: Totals correct. Check at this level: What is a balance? Model answer: Inputs equal outputs plus losses. Sums."
+  ],
+  [
+   "Emissions and sustainability",
+   "L5: learner can estimate emissions. Focus module: Emissions and sustainability (Evaluate, 3 h). Cleaner only if the whole chain is clean. Key points: Count land change, fertiliser, processing energy and transport. Compare against fossil fuel per MJ. Use recognised methods.",
+   "Teach: open with the worked example. Waste-based fuel can cut emissions greatly; land-clearing crops may not. Then set the activity: Do a simple estimate. Mark against the standard: Method and sources listed. Check at this level: Name an emissions source in the chain. Model answer: Land change, fertiliser, processing, transport. Emissions."
+  ],
+  [
+   "Economics and policy",
+   "L6: learner can coordinate supply. Focus module: Economics and policy (Evaluate, 3 h). Costs, incentives and fairness. Key points: Feedstock is the largest cost. Incentives and blend mandates change prices. Fair prices for farmers and no food shortages.",
+   "Teach: open with the worked example. A mandate raises demand for used oil, so collection grows. Then set the activity: Cost one pathway. Mark against the standard: Currency shown. Check at this level: Name a safety hazard. Model answer: Flammable liquids or methanol. Supply."
+  ],
+  [
+   "Write the overview",
+   "L7: learner can audit an overview. Focus module: Write the overview (Create, 3 h). Balanced recommendation. Key points: Summary, evidence, risks, next steps. State what you do not know. Test with a reader.",
+   "Teach: open with the worked example. The note recommends biogas from market waste first. Then set the activity: Finish and present. Mark against the standard: Reader can repeat the choice. Check at this level: Name a quality test. Model answer: Water content, acidity, flash point. Peer audit."
+  ]
+ ]
+}

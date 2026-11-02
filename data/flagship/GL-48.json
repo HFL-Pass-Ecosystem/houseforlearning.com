@@ -1,0 +1,291 @@
+{
+ "id": "GL-48",
+ "title": "Nanotechnology in Medicine (Awareness Level)",
+ "level": 5,
+ "desc": "Understand how very small materials are used in medicine, from imaging to drug delivery, and how safety, testing and ethics apply. Awareness only.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain what nanoscale means and give three medical uses."
+  ],
+  [
+   "Apply",
+   "Use size comparisons and units correctly."
+  ],
+  [
+   "Analyse",
+   "Compare benefits and risks of nanomedicines."
+  ],
+  [
+   "Evaluate",
+   "Judge claims in news and adverts."
+  ],
+  [
+   "Create",
+   "Write a balanced one-page briefing."
+  ]
+ ],
+ "task": "Write a two-page briefing on three medical uses of nanotechnology, with benefits, risks, evidence stage and ethical questions.",
+ "condition": "A computer, public information, two peers and a mentor. No laboratory work is done in this course.",
+ "standard": "Units and sizes are correct; each use has an evidence stage; risks are stated; no overclaims; sources dated; peers rate Meets or better.",
+ "who": "Science students, biomedical trainees, health writers, regulators' assistants.",
+ "req": "none",
+ "evidence": "briefing, size chart, claim review",
+ "modules": [
+  [
+   "The nanoscale",
+   "Understand",
+   2,
+   "A nanometre is one billionth of a metre. At this size, materials can behave differently from the same material at ordinary size.",
+   [
+    "1 metre = 1,000,000,000 nanometres. A human hair is about 80,000 nm wide, a red blood cell about 7,000 nm, a virus about 100 nm, a DNA strand about 2 nm.",
+    "Small particles have a large surface compared with their volume, so they react faster and interact with cells differently.",
+    "Gold particles look red or purple in liquid, not yellow, because of how light interacts with them.",
+    "Nano does not mean magic; it means a size range with new properties to test and control."
+   ],
+   "A gold nanoparticle 20 nm wide is about 4,000 times narrower than a hair. A rapid test strip uses such particles to show a coloured line when a marker is present.",
+   "Make a size chart from a metre to an atom with at least eight objects and their sizes in nanometres.",
+   "All sizes are within the correct order of magnitude and the chart is labelled with units."
+  ],
+  [
+   "Imaging and diagnostics",
+   "Understand",
+   2,
+   "Nanoparticles can make signals clearer or detect small amounts of a marker in a sample.",
+   [
+    "Contrast agents improve scan images in some tests.",
+    "Test strips use nanoparticles to make a line visible, and sensors can detect very small amounts of a substance.",
+    "False positives and false negatives still occur, so results must be confirmed when they matter.",
+    "Always follow instructions and storage conditions of a test."
+   ],
+   "A pregnancy test strip uses coloured nanoparticles attached to antibodies. They gather at the test line only if the hormone is present, giving a visible line.",
+   "Explain a test strip to a peer in your own words using a drawing.",
+   "Peer can repeat how the line forms and one limit of the test."
+  ],
+  [
+   "Drug delivery",
+   "Understand",
+   3,
+   "Carriers can protect a drug and help it reach where it is needed.",
+   [
+    "Lipid (fat-based) particles protect fragile genetic medicines during delivery.",
+    "Targeting aims to put drug where it is needed and reduce side effects elsewhere.",
+    "Particles can be cleared by the liver and kidneys or trigger immune reactions.",
+    "Each carrier is tested for size, stability, safety and release."
+   ],
+   "Some vaccines use fat-based particles around genetic instructions so that they survive until they reach cells, then release their cargo.",
+   "Draw a delivery diagram labelling carrier, drug, target and clearance route.",
+   "Diagram labels all four and has no false claims."
+  ],
+  [
+   "Particles in the body",
+   "Analyse",
+   3,
+   "Size, shape and surface decide where particles go and how long they stay.",
+   [
+    "Very small particles may pass through kidneys; larger ones are caught by the liver and spleen.",
+    "Surface coatings change how the immune system sees them.",
+    "Long-term build-up is a concern for some materials.",
+    "Animal-free and human-cell methods help early safety testing where possible."
+   ],
+   "Studies often report particles around 100 nm circulating longer than particles of 500 nm, which are filtered quickly.",
+   "Make a table of size, likely route and a concern for three particle types.",
+   "Entries agree with the sources you cite."
+  ],
+  [
+   "Testing and regulation",
+   "Evaluate",
+   3,
+   "Nanomedicines go through extra checks because size and surface strongly affect behaviour.",
+   [
+    "Path: lab studies, safety testing, human trials, regulator review, approval, monitoring after sale.",
+    "Regulators ask for particle size distribution, stability, purity and batch consistency.",
+    "Manufacturing changes can change behaviour, so they are controlled.",
+    "Report side effects to the national system."
+   ],
+   "A batch is rejected because particle size varied beyond the allowed range. The factory fixes mixing time and re-tests before release.",
+   "Map the path from lab to patient with at least six stages and one check at each.",
+   "All stages present; checks are specific."
+  ],
+  [
+   "Risks and unknowns",
+   "Evaluate",
+   3,
+   "An honest briefing lists uncertainty as clearly as benefit.",
+   [
+    "Possible concerns: inflammation, accumulation, allergy, effects over many years.",
+    "Environmental release during making and disposal needs control.",
+    "Workers handling powders need closed systems and protective equipment.",
+    "State what is not yet known."
+   ],
+   "A plant uses closed handling and extraction, masks for sampling, and a waste route for nano-containing material.",
+   "List five risks, a control for each and one unknown.",
+   "Each risk has a control and the unknown is stated honestly."
+  ],
+  [
+   "Hype, claims and headlines",
+   "Analyse",
+   2,
+   "News often reports lab results as if they were cures.",
+   [
+    "Stage check: idea, lab, animal-free or animal study, human trial, approved.",
+    "Be wary of \"miracle\" words and of results in a single small study.",
+    "Look for independent reviews and trial registry entries.",
+    "Ask who funded the work."
+   ],
+   "A headline says tiny particles \"destroy cancer\". The study is in cells in a dish. The learner labels it \"lab stage, not a treatment\".",
+   "Review three real headlines and assign each an evidence stage.",
+   "Each stage is justified with a quote."
+  ],
+  [
+   "Write the balanced briefing",
+   "Create",
+   3,
+   "Combine facts, benefits, risks and fairness.",
+   [
+    "Cover three uses with benefits, risks and stage.",
+    "Add access and cost questions.",
+    "State what is unknown.",
+    "Test with a non-expert."
+   ],
+   "The reader can explain why approval takes years and why one lab result is not enough.",
+   "Write and present a two-page briefing.",
+   "Reader repeats three limits correctly."
+  ]
+ ],
+ "quiz": [
+  [
+   "How many nanometres in a metre?",
+   "1,000,000,000. (Covered in module 1: The nanoscale. To pass that module: Orders of magnitude correct.)"
+  ],
+  [
+   "Name a medical use.",
+   "Imaging, test strips or drug delivery. (Covered in module 2: Imaging and diagnostics. To pass that module: Peer understands.)"
+  ],
+  [
+   "Why does size matter in the body?",
+   "It decides where particles go and how they clear. (Covered in module 3: Drug delivery. To pass that module: Diagram labels carrier, drug, target.)"
+  ],
+  [
+   "What do regulators check?",
+   "Size distribution, stability and safety. (Covered in module 4: Materials in the body. To pass that module: Table is consistent with sources.)"
+  ],
+  [
+   "Name a risk.",
+   "Inflammation, accumulation or allergy. (Covered in module 5: Testing and regulation. To pass that module: All stages shown.)"
+  ],
+  [
+   "Name a worker control.",
+   "Closed systems or masks. (Covered in module 6: Risks and unknowns. To pass that module: Each risk has a control.)"
+  ],
+  [
+   "How judge a headline?",
+   "Find the evidence stage. (Covered in module 7: Hype and claims. To pass that module: Stage is named for each.)"
+  ],
+  [
+   "Who gets access?",
+   "A fairness question to state. (Covered in module 8: Write the briefing. To pass that module: Reader repeats three limits.)"
+  ],
+  [
+   "Is lab result a cure?",
+   "No. (Covered in module 8: Write the briefing. To pass that module: Reader repeats three limits.)"
+  ],
+  [
+   "Why monitor after approval?",
+   "Long-term effects can appear. (Covered in module 8: Write the briefing. To pass that module: Reader repeats three limits.)"
+  ]
+ ],
+ "rubric": [
+  [
+   "Science accuracy",
+   "Errors",
+   "Correct",
+   "Correct with sources"
+  ],
+  [
+   "Risks and unknowns",
+   "Missing",
+   "Listed",
+   "Listed with controls"
+  ],
+  [
+   "Claim review",
+   "None",
+   "Done",
+   "Done with evidence stage"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Biomedical lab assistant",
+   "Supports sample prep"
+  ],
+  [
+   "Regulatory affairs assistant",
+   "Tracks documents"
+  ],
+  [
+   "Science writer",
+   "Explains advances"
+  ],
+  [
+   "Quality technician",
+   "Checks batches"
+  ],
+  [
+   "Ethics committee assistant",
+   "Supports reviews"
+  ]
+ ],
+ "next": "DNA analysis, stem cells, materials science basics.",
+ "local": "Medicine regulation differs by place.",
+ "ladder": [
+  [
+   "The nanoscale",
+   "L1: learner can say what nano means. Focus module: The nanoscale (Understand, 2 h). A nanometre is one billionth of a metre. Key points: A hair is about 80,000 nm wide; a virus about 100 nm. Materials behave differently at this size. Units: 1 m = 1,000,000,000 nm.",
+   "Teach: open with the worked example. Gold looks red when particles are tiny, not yellow. Then set the activity: Make a size chart from hair to atom. Mark against the standard: Orders of magnitude correct. Check at this level: How many nanometres in a metre? Model answer: 1,000,000,000. Show size chart."
+  ],
+  [
+   "Imaging and diagnostics",
+   "L2: learner can name medical uses. Focus module: Imaging and diagnostics (Understand, 2 h). Tiny particles can make signals clearer. Key points: Contrast agents and rapid test strips use nanoparticles. Sensors can detect small amounts of a marker. False results still occur; follow-up tests are needed.",
+   "Teach: open with the worked example. A rapid test shows a coloured line using gold particles. Then set the activity: Explain a test strip in your own words. Mark against the standard: Peer understands. Check at this level: Name a medical use. Model answer: Imaging, test strips or drug delivery. Use test strip."
+  ],
+  [
+   "Drug delivery",
+   "L3: learner can read size charts. Focus module: Drug delivery (Understand, 3 h). Carriers can protect a drug and aim it. Key points: Lipid particles carry some vaccines and drugs. Targeting may reduce side effects. The body can clear or react to carriers.",
+   "Teach: open with the worked example. Fat-based particles shield fragile genetic material during delivery. Then set the activity: Draw a delivery diagram. Mark against the standard: Diagram labels carrier, drug, target. Check at this level: Why does size matter in the body? Model answer: It decides where particles go and how they clear. Draw carrier."
+  ],
+  [
+   "Materials in the body",
+   "L4: learner can explain delivery and clearance. Focus module: Materials in the body (Analyse, 3 h). Where particles go matters. Key points: Size, shape and surface decide where they travel. Liver and kidneys clear many particles. Long-term effects need study.",
+   "Teach: open with the worked example. Particles above a certain size stay in the liver longer. Then set the activity: Make a table of size and body route. Mark against the standard: Table is consistent with sources. Check at this level: What do regulators check? Model answer: Size distribution, stability and safety. Discuss clearance."
+  ],
+  [
+   "Testing and regulation",
+   "L5: learner can review claims and regulation. Focus module: Testing and regulation (Evaluate, 3 h). Nanomedicines go through extra checks. Key points: Lab, animal-free methods where possible, human trials, approval. Regulators ask for size distribution, stability and safety. Post-approval monitoring continues.",
+   "Teach: open with the worked example. A batch is rejected because particle size varied. Then set the activity: Map the path from lab to patient. Mark against the standard: All stages shown. Check at this level: Name a risk. Model answer: Inflammation, accumulation or allergy. Map approval path."
+  ],
+  [
+   "Hype and claims",
+   "L6: learner can coordinate a lab file. Focus module: Hype and claims (Analyse, 2 h). Sort proven from promised. Key points: Check evidence stage: idea, lab, trial, approved. Be careful with \"miracle\" words. Look for independent reviews.",
+   "Teach: open with the worked example. A news story calls a lab result a cure; the learner marks it \"lab stage\". Then set the activity: Review three headlines. Mark against the standard: Stage is named for each. Check at this level: Name a worker control. Model answer: Closed systems or masks. Cover records."
+  ],
+  [
+   "Write the briefing",
+   "L7: learner can audit a briefing. Focus module: Write the briefing (Create, 3 h). Balance benefit, risk and fairness. Key points: Cover access and cost. State what is unknown. Test with a non-expert.",
+   "Teach: open with the worked example. The reader can explain why approval takes years. Then set the activity: Finish and test. Mark against the standard: Reader repeats three limits. Check at this level: How judge a headline? Model answer: Find the evidence stage. Peer audit."
+  ]
+ ]
+}

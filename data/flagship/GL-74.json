@@ -1,0 +1,283 @@
+{
+ "id": "GL-74",
+ "title": "eSports Management",
+ "level": 4,
+ "desc": "Plan and run a small eSports team, club or tournament: roster, schedule, wellbeing, fair play, finance and sponsors.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain how eSports teams and events work."
+  ],
+  [
+   "Apply",
+   "Plan rosters and schedules."
+  ],
+  [
+   "Analyse",
+   "Read performance data."
+  ],
+  [
+   "Evaluate",
+   "Judge wellbeing, fair play and contracts."
+  ],
+  [
+   "Create",
+   "Run a small tournament."
+  ]
+ ],
+ "task": "Plan and run a one-day small tournament or a one-month team season, with roster, rules, wellbeing plan, budget and report.",
+ "condition": "A game with free play, a computer or consoles, a spreadsheet, two peers and a mentor.",
+ "standard": "Rules are published; fair-play and anti-cheat steps are used; wellbeing plan limits hours and includes breaks; budget totals correct; report with results; peers rate Meets or better.",
+ "who": "Club leaders, coaches, event organisers, students.",
+ "req": "none",
+ "evidence": "roster, rules, schedule, wellbeing plan, budget, report",
+ "modules": [
+  [
+   "The ecosystem",
+   "Understand",
+   3,
+   "Players, teams, publishers, events.",
+   [
+    "Leagues, tournaments, streams.",
+    "Roles: coach, analyst, manager, shoutcaster.",
+    "Rules of the game publisher."
+   ],
+   "A school league runs weekly.",
+   "Map the roles.",
+   "Chart."
+  ],
+  [
+   "Roster and roles",
+   "Apply",
+   4,
+   "Team design.",
+   [
+    "Skills, roles, communication.",
+    "Trials and contracts.",
+    "Equal chance, no discrimination."
+   ],
+   "A support player is added for balance.",
+   "Build a roster.",
+   "Roles clear."
+  ],
+  [
+   "Practice and analysis",
+   "Analyse",
+   4,
+   "Improve with data.",
+   [
+    "Review recordings, stats, mistakes.",
+    "One focus per week.",
+    "Track win rate."
+   ],
+   "Review shows late rotations.",
+   "Review a match.",
+   "Three findings."
+  ],
+  [
+   "Wellbeing",
+   "Evaluate",
+   4,
+   "Health matters.",
+   [
+    "Sleep, eye breaks, posture, social time.",
+    "Limit hours; protect study.",
+    "Watch for burnout."
+   ],
+   "A 50/10 break rule.",
+   "Write a wellbeing plan.",
+   "Rules clear."
+  ],
+  [
+   "Fair play and conduct",
+   "Evaluate",
+   3,
+   "Integrity.",
+   [
+    "Anti-cheat, no match fixing, no harassment.",
+    "Clear sanctions.",
+    "Report process."
+   ],
+   "A cheater is banned.",
+   "Write a code.",
+   "Sanctions listed."
+  ],
+  [
+   "Tournament operations",
+   "Create",
+   4,
+   "Run it.",
+   [
+    "Bracket, rules, schedule, tech, referees.",
+    "Backup plans for faults.",
+    "Stream and scoring."
+   ],
+   "Double elimination for 16 teams.",
+   "Build a bracket and schedule.",
+   "No clashes."
+  ],
+  [
+   "Money and sponsors",
+   "Analyse",
+   3,
+   "Budget.",
+   [
+    "Costs: prizes, tech, venue, staff.",
+    "Income: fees, sponsors.",
+    "Honest sponsor disclosure."
+   ],
+   "Break-even 12 teams.",
+   "Build a budget.",
+   "Currency shown."
+  ],
+  [
+   "Report",
+   "Create",
+   3,
+   "Learn.",
+   [
+    "Results, feedback, costs.",
+    "Improvements.",
+    "Share thanks."
+   ],
+   "Feedback 4.5.",
+   "Report.",
+   "Numbers real."
+  ]
+ ],
+ "quiz": [
+  [
+   "Name a role.",
+   "Coach, analyst, manager or shoutcaster. (Covered in module 1: The ecosystem. To pass that module: Chart.)"
+  ],
+  [
+   "Why limit hours?",
+   "Protect health and study. (Covered in module 2: Roster and roles. To pass that module: Roles clear.)"
+  ],
+  [
+   "Anti-cheat?",
+   "Prevents unfair play. (Covered in module 3: Practice and analysis. To pass that module: Three findings.)"
+  ],
+  [
+   "Bracket?",
+   "Match structure. (Covered in module 4: Wellbeing. To pass that module: Rules clear.)"
+  ],
+  [
+   "Break rule?",
+   "Regular breaks. (Covered in module 5: Fair play and conduct. To pass that module: Sanctions listed.)"
+  ],
+  [
+   "Sponsor rule?",
+   "Disclose. (Covered in module 6: Tournament operations. To pass that module: No clashes.)"
+  ],
+  [
+   "Break-even?",
+   "Teams needed to cover cost. (Covered in module 7: Money and sponsors. To pass that module: Currency shown.)"
+  ],
+  [
+   "Review use?",
+   "Spot mistakes. (Covered in module 8: Report. To pass that module: Numbers real.)"
+  ],
+  [
+   "Sanction?",
+   "Penalty for rules breach. (Covered in module 8: Report. To pass that module: Numbers real.)"
+  ],
+  [
+   "Equal chance?",
+   "No discrimination. (Covered in module 8: Report. To pass that module: Numbers real.)"
+  ]
+ ],
+ "rubric": [
+  [
+   "Rules and fair play",
+   "Missing",
+   "Published",
+   "Published and enforced"
+  ],
+  [
+   "Wellbeing",
+   "None",
+   "Plan",
+   "Plan applied"
+  ],
+  [
+   "Event ops",
+   "Clashes",
+   "Smooth",
+   "Smooth with backups"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "eSports coach assistant",
+   "Plans practice"
+  ],
+  [
+   "Tournament organiser",
+   "Runs events"
+  ],
+  [
+   "Team manager",
+   "Handles roster"
+  ],
+  [
+   "Match analyst",
+   "Reviews data"
+  ],
+  [
+   "Community moderator",
+   "Keeps fair play"
+  ]
+ ],
+ "next": "VR events, podcasting, event management.",
+ "local": "Age rules, gambling-adjacent rules and contracts differ by place.",
+ "ladder": [
+  [
+   "The ecosystem",
+   "L1: learner can name roles. Focus module: The ecosystem (Understand, 3 h). Players, teams, publishers, events. Key points: Leagues, tournaments, streams. Roles: coach, analyst, manager, shoutcaster. Rules of the game publisher.",
+   "Teach: open with the worked example. A school league runs weekly. Then set the activity: Map the roles. Mark against the standard: Chart. Check at this level: Name a role. Model answer: Coach, analyst, manager or shoutcaster. Roles."
+  ],
+  [
+   "Roster and roles",
+   "L2: learner knows fair play. Focus module: Roster and roles (Apply, 4 h). Team design. Key points: Skills, roles, communication. Trials and contracts. Equal chance, no discrimination.",
+   "Teach: open with the worked example. A support player is added for balance. Then set the activity: Build a roster. Mark against the standard: Roles clear. Check at this level: Why limit hours? Model answer: Protect health and study. Fair play."
+  ],
+  [
+   "Practice and analysis",
+   "L3: learner can plan a roster. Focus module: Practice and analysis (Analyse, 4 h). Improve with data. Key points: Review recordings, stats, mistakes. One focus per week. Track win rate.",
+   "Teach: open with the worked example. Review shows late rotations. Then set the activity: Review a match. Mark against the standard: Three findings. Check at this level: Anti-cheat? Model answer: Prevents unfair play. Roster."
+  ],
+  [
+   "Wellbeing",
+   "L4: learner can run practice. Focus module: Wellbeing (Evaluate, 4 h). Health matters. Key points: Sleep, eye breaks, posture, social time. Limit hours; protect study. Watch for burnout.",
+   "Teach: open with the worked example. A 50/10 break rule. Then set the activity: Write a wellbeing plan. Mark against the standard: Rules clear. Check at this level: Bracket? Model answer: Match structure. Practice."
+  ],
+  [
+   "Fair play and conduct",
+   "L5: learner can analyse. Focus module: Fair play and conduct (Evaluate, 3 h). Integrity. Key points: Anti-cheat, no match fixing, no harassment. Clear sanctions. Report process.",
+   "Teach: open with the worked example. A cheater is banned. Then set the activity: Write a code. Mark against the standard: Sanctions listed. Check at this level: Break rule? Model answer: Regular breaks. Data."
+  ],
+  [
+   "Money and sponsors",
+   "L6: learner can lead a team. Focus module: Money and sponsors (Analyse, 3 h). Budget. Key points: Costs: prizes, tech, venue, staff. Income: fees, sponsors. Honest sponsor disclosure.",
+   "Teach: open with the worked example. Break-even 12 teams. Then set the activity: Build a budget. Mark against the standard: Currency shown. Check at this level: Sponsor rule? Model answer: Disclose. Lead."
+  ],
+  [
+   "Report",
+   "L7: learner can audit. Focus module: Report (Create, 3 h). Learn. Key points: Results, feedback, costs. Improvements. Share thanks.",
+   "Teach: open with the worked example. Feedback 4.5. Then set the activity: Report. Mark against the standard: Numbers real. Check at this level: Break-even? Model answer: Teams needed to cover cost. Peer audit."
+  ]
+ ]
+}

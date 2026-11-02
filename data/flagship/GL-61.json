@@ -1,0 +1,283 @@
+{
+ "id": "GL-61",
+ "title": "Micro-Mobility Services",
+ "level": 4,
+ "desc": "Plan and run a small shared bike or scooter service: fleet, safety, parking, pricing, maintenance and city rules.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain micro-mobility types and where they fit."
+  ],
+  [
+   "Apply",
+   "Plan fleet size, zones and parking."
+  ],
+  [
+   "Analyse",
+   "Estimate use and revenue."
+  ],
+  [
+   "Evaluate",
+   "Judge safety and city impact."
+  ],
+  [
+   "Create",
+   "Write an operations plan."
+  ]
+ ],
+ "task": "Plan a 30-day pilot of a shared micro-mobility service for one campus or district, with fleet, safety rules, maintenance, pricing and a community plan.",
+ "condition": "A computer, a map, a spreadsheet, two peers and a mentor. Real vehicles are not required.",
+ "standard": "Fleet and cost maths correct; safety rules and rider age limits stated; parking and permits checked; maintenance plan has daily checks; peers rate Meets or better.",
+ "who": "Campus managers, tourism staff, city assistants, entrepreneurs.",
+ "req": "none",
+ "evidence": "zone map, fleet sheet, safety rules, price sheet, maintenance plan",
+ "modules": [
+  [
+   "Types and fit",
+   "Understand",
+   3,
+   "Bikes, e-bikes, scooters.",
+   [
+    "Short trips under 5 km are the main use.",
+    "E-assist helps hills.",
+    "Match to local roads and weather."
+   ],
+   "A hilly campus picks e-bikes.",
+   "Compare 3 types.",
+   "Table includes range and cost."
+  ],
+  [
+   "Zones and parking",
+   "Apply",
+   4,
+   "Order on the street.",
+   [
+    "Pick start points near demand.",
+    "Marked parking, no-go zones, speed limits.",
+    "Work with the owner or authority."
+   ],
+   "Parking bays at gates reduce clutter.",
+   "Draw a zone map.",
+   "Zones marked."
+  ],
+  [
+   "Fleet sizing",
+   "Analyse",
+   4,
+   "Not too many, not too few.",
+   [
+    "Fleet = peak trips / trips per vehicle per day.",
+    "Rebalancing moves bikes to demand.",
+    "Start small and measure."
+   ],
+   "60 peak trips at 6 trips each need 10 bikes plus a spare.",
+   "Size your fleet.",
+   "Maths correct."
+  ],
+  [
+   "Safety",
+   "Evaluate",
+   5,
+   "Prevent injury.",
+   [
+    "Helmets, lights, speed limits; age limits.",
+    "Rider training and clear rules.",
+    "Incident log and insurance."
+   ],
+   "A slow-speed zone is set near pedestrians.",
+   "Write safety rules.",
+   "Rules measurable."
+  ],
+  [
+   "Maintenance and charging",
+   "Apply",
+   4,
+   "Safe vehicles every day.",
+   [
+    "Daily check: brakes, tyres, lights, bell, lock.",
+    "Battery swaps and safe charging.",
+    "Spare parts."
+   ],
+   "A tag shows last check date.",
+   "Create a check card.",
+   "Card has ten items."
+  ],
+  [
+   "Pricing and money",
+   "Evaluate",
+   4,
+   "Cover costs.",
+   [
+    "Unlock fee plus per-minute price; passes.",
+    "Costs: vehicles, staff, charging, repair, insurance.",
+    "Break-even trips per day."
+   ],
+   "Break-even is 4.2 trips per bike per day.",
+   "Build a sheet.",
+   "Currency shown."
+  ],
+  [
+   "Community and environment",
+   "Evaluate",
+   3,
+   "Be a good neighbour.",
+   [
+    "Noise, sidewalk clutter, accessibility.",
+    "Complaint line.",
+    "Recycling of batteries and parts."
+   ],
+   "A fine for blocking paths is explained in rules.",
+   "List community actions.",
+   "Each has an owner."
+  ],
+  [
+   "Pilot plan",
+   "Create",
+   4,
+   "Run 30 days.",
+   [
+    "Targets for trips, safety and complaints.",
+    "Review weekly.",
+    "Decide to stop, change or grow."
+   ],
+   "The pilot adds two bays after complaints.",
+   "Present the plan.",
+   "Peers can follow it."
+  ]
+ ],
+ "quiz": [
+  [
+   "Typical trip length?",
+   "Under about 5 km. (Covered in module 1: Types and fit. To pass that module: Table includes range and cost.)"
+  ],
+  [
+   "Fleet formula?",
+   "Peak trips / trips per vehicle per day. (Covered in module 2: Zones and parking. To pass that module: Zones marked.)"
+  ],
+  [
+   "Name a safety rule.",
+   "Helmets or speed limits. (Covered in module 3: Fleet sizing. To pass that module: Maths correct.)"
+  ],
+  [
+   "Daily check items?",
+   "Brakes, tyres, lights, bell, lock. (Covered in module 4: Safety. To pass that module: Rules measurable.)"
+  ],
+  [
+   "Break-even idea?",
+   "Trips per day needed to cover costs. (Covered in module 5: Maintenance and charging. To pass that module: Card has ten items.)"
+  ],
+  [
+   "Why parking zones?",
+   "To avoid clutter. (Covered in module 6: Pricing and money. To pass that module: Currency shown.)"
+  ],
+  [
+   "Why insurance?",
+   "Covers incidents. (Covered in module 7: Community and environment. To pass that module: Each has an owner.)"
+  ],
+  [
+   "What is rebalancing?",
+   "Moving vehicles to demand. (Covered in module 8: Pilot plan. To pass that module: Peers can follow it.)"
+  ],
+  [
+   "Name a community issue.",
+   "Noise or blocked paths. (Covered in module 8: Pilot plan. To pass that module: Peers can follow it.)"
+  ],
+  [
+   "What is a pilot?",
+   "A short test before scaling. (Covered in module 8: Pilot plan. To pass that module: Peers can follow it.)"
+  ]
+ ],
+ "rubric": [
+  [
+   "Fleet and zones",
+   "Unclear",
+   "Clear",
+   "Clear and tested"
+  ],
+  [
+   "Safety",
+   "Gaps",
+   "Rules set",
+   "Rules enforced and logged"
+  ],
+  [
+   "Finance",
+   "No costs",
+   "Costs",
+   "Break-even shown"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Fleet technician",
+   "Checks and repairs"
+  ],
+  [
+   "Operations coordinator",
+   "Rebalances fleet"
+  ],
+  [
+   "Community liaison",
+   "Handles complaints"
+  ],
+  [
+   "Data analyst assistant",
+   "Tracks trips"
+  ],
+  [
+   "Campus mobility manager",
+   "Runs services"
+  ]
+ ],
+ "next": "car sharing business, electric car basics, city planning basics.",
+ "local": "City permits and helmet laws differ by place.",
+ "ladder": [
+  [
+   "Types and fit",
+   "L1: learner can name types. Focus module: Types and fit (Understand, 3 h). Bikes, e-bikes, scooters. Key points: Short trips under 5 km are the main use. E-assist helps hills. Match to local roads and weather.",
+   "Teach: open with the worked example. A hilly campus picks e-bikes. Then set the activity: Compare 3 types. Mark against the standard: Table includes range and cost. Check at this level: Typical trip length? Model answer: Under about 5 km. Types."
+  ],
+  [
+   "Zones and parking",
+   "L2: learner knows safety rules. Focus module: Zones and parking (Apply, 4 h). Order on the street. Key points: Pick start points near demand. Marked parking, no-go zones, speed limits. Work with the owner or authority.",
+   "Teach: open with the worked example. Parking bays at gates reduce clutter. Then set the activity: Draw a zone map. Mark against the standard: Zones marked. Check at this level: Fleet formula? Model answer: Peak trips / trips per vehicle per day. Rules."
+  ],
+  [
+   "Fleet sizing",
+   "L3: learner can plan zones. Focus module: Fleet sizing (Analyse, 4 h). Not too many, not too few. Key points: Fleet = peak trips / trips per vehicle per day. Rebalancing moves bikes to demand. Start small and measure.",
+   "Teach: open with the worked example. 60 peak trips at 6 trips each need 10 bikes plus a spare. Then set the activity: Size your fleet. Mark against the standard: Maths correct. Check at this level: Name a safety rule. Model answer: Helmets or speed limits. Map."
+  ],
+  [
+   "Safety",
+   "L4: learner can run daily checks. Focus module: Safety (Evaluate, 5 h). Prevent injury. Key points: Helmets, lights, speed limits; age limits. Rider training and clear rules. Incident log and insurance.",
+   "Teach: open with the worked example. A slow-speed zone is set near pedestrians. Then set the activity: Write safety rules. Mark against the standard: Rules measurable. Check at this level: Daily check items? Model answer: Brakes, tyres, lights, bell, lock. Checks."
+  ],
+  [
+   "Maintenance and charging",
+   "L5: learner can price and size. Focus module: Maintenance and charging (Apply, 4 h). Safe vehicles every day. Key points: Daily check: brakes, tyres, lights, bell, lock. Battery swaps and safe charging. Spare parts.",
+   "Teach: open with the worked example. A tag shows last check date. Then set the activity: Create a check card. Mark against the standard: Card has ten items. Check at this level: Break-even idea? Model answer: Trips per day needed to cover costs. Sums."
+  ],
+  [
+   "Community and environment",
+   "L6: learner can lead operations. Focus module: Community and environment (Evaluate, 3 h). Be a good neighbour. Key points: Noise, sidewalk clutter, accessibility. Complaint line. Recycling of batteries and parts.",
+   "Teach: open with the worked example. A fine for blocking paths is explained in rules. Then set the activity: List community actions. Mark against the standard: Each has an owner. Check at this level: Why parking zones? Model answer: To avoid clutter. Team."
+  ],
+  [
+   "Pilot plan",
+   "L7: learner can audit a pilot. Focus module: Pilot plan (Create, 4 h). Run 30 days. Key points: Targets for trips, safety and complaints. Review weekly. Decide to stop, change or grow.",
+   "Teach: open with the worked example. The pilot adds two bays after complaints. Then set the activity: Present the plan. Mark against the standard: Peers can follow it. Check at this level: Why insurance? Model answer: Covers incidents. Peer audit."
+  ]
+ ]
+}

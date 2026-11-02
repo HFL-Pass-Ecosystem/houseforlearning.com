@@ -1,0 +1,283 @@
+{
+ "id": "GL-59",
+ "title": "Car Charging Stations",
+ "level": 4,
+ "desc": "Plan, site and run a small public or shared EV charging point: demand, power, safety, pricing, uptime and users.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain charger types, connectors and grid limits."
+  ],
+  [
+   "Apply",
+   "Choose a site and size the supply."
+  ],
+  [
+   "Analyse",
+   "Estimate demand, usage and revenue."
+  ],
+  [
+   "Evaluate",
+   "Judge safety, cost, uptime and fairness."
+  ],
+  [
+   "Create",
+   "Write a site plan and operations sheet."
+  ]
+ ],
+ "task": "Plan one charging point or small hub with site survey, power sizing, safety plan, tariff, maintenance plan and 12-month cash view.",
+ "condition": "A computer, a map, a spreadsheet, two peers and a licensed electrician mentor. No live installation work is done by learners.",
+ "standard": "Power and demand maths is correct; protective devices and earthing are listed and approved by a licensed person; accessibility is planned; uptime target and tariff shown; peers rate Meets or better.",
+ "who": "Site hosts, shop and hotel owners, utilities assistants, installers.",
+ "req": "none",
+ "evidence": "site survey, sizing sheet, safety plan, tariff, maintenance plan, cash view",
+ "modules": [
+  [
+   "Charger types",
+   "Understand",
+   3,
+   "Slow, fast and ultra-fast.",
+   [
+    "AC points (3 to 22 kW) suit long stays; DC fast chargers suit quick stops.",
+    "Connectors and standards depend on region.",
+    "Smart chargers share load."
+   ],
+   "A mall installs 7 kW points because shoppers stay two hours.",
+   "Compare 3 charger types.",
+   "Table includes time to add 30 kWh."
+  ],
+  [
+   "Site choice",
+   "Apply",
+   4,
+   "Right place, right grid.",
+   [
+    "Visible, safe, lit, accessible, near amenities.",
+    "Distance to the electricity supply; transformer capacity.",
+    "Permissions from the owner and the utility."
+   ],
+   "A site 20 m from the panel cuts cable cost.",
+   "Do a mock site survey.",
+   "Scores for 5 criteria."
+  ],
+  [
+   "Power sizing",
+   "Apply",
+   5,
+   "Do not overload the supply.",
+   [
+    "Total kW = chargers x kW x diversity factor.",
+    "Check supply capacity; add load management if limited.",
+    "Plan growth."
+   ],
+   "Four 7 kW points on a 20 kW supply use load sharing.",
+   "Size your site.",
+   "Maths correct."
+  ],
+  [
+   "Demand and revenue",
+   "Analyse",
+   5,
+   "Estimate real use.",
+   [
+    "Count nearby EVs and traffic.",
+    "Utilisation = hours in use / hours open.",
+    "Revenue = kWh sold x price minus electricity cost."
+   ],
+   "At 15% utilisation a 7 kW point sells about 9 kWh a day.",
+   "Build a 12-month model.",
+   "Currency shown."
+  ],
+  [
+   "Safety and standards",
+   "Evaluate",
+   5,
+   "Protect users.",
+   [
+    "RCD protection, earthing, surge, emergency stop, fire plan.",
+    "Weather protection and cable management.",
+    "Regular inspection."
+   ],
+   "A charger fails a test and is locked out until fixed.",
+   "List safety measures.",
+   "Approved by licensed person."
+  ],
+  [
+   "Pricing and payment",
+   "Evaluate",
+   4,
+   "Clear and fair.",
+   [
+    "Per kWh, per minute, session fee, idle fee.",
+    "Display price before charging.",
+    "Payment through approved local methods."
+   ],
+   "An idle fee after 30 minutes frees the bay.",
+   "Design a tariff.",
+   "Examples worked."
+  ],
+  [
+   "Operations and uptime",
+   "Apply",
+   4,
+   "Chargers must work.",
+   [
+    "Remote monitoring; a fault response time.",
+    "Maintenance schedule; spares.",
+    "Helpline number on the unit."
+   ],
+   "A 24-hour fix target is met 95% of the time.",
+   "Write an operations sheet.",
+   "Targets measurable."
+  ],
+  [
+   "Inclusion and plan",
+   "Create",
+   4,
+   "Everyone should be able to charge.",
+   [
+    "Step-free access, bay width, lighting.",
+    "Multi-language instructions.",
+    "Share the plan with the community."
+   ],
+   "Wider bays and a call button suit wheelchair users.",
+   "Finish the plan.",
+   "Peers can follow it."
+  ]
+ ],
+ "quiz": [
+  [
+   "What is load sharing?",
+   "Dividing supply among chargers. (Covered in module 1: Charger types. To pass that module: Table includes time to add 30 kWh.)"
+  ],
+  [
+   "Which suits long stays?",
+   "AC chargers. (Covered in module 2: Site choice. To pass that module: Scores for 5 criteria.)"
+  ],
+  [
+   "Utilisation formula?",
+   "Hours in use / hours open. (Covered in module 3: Power sizing. To pass that module: Maths correct.)"
+  ],
+  [
+   "Name a safety measure.",
+   "RCD, earthing or emergency stop. (Covered in module 4: Demand and revenue. To pass that module: Currency shown.)"
+  ],
+  [
+   "Why display price?",
+   "Fairness and trust. (Covered in module 5: Safety and standards. To pass that module: Approved by licensed person.)"
+  ],
+  [
+   "What is idle fee?",
+   "Charge for occupying a bay after charging. (Covered in module 6: Pricing and payment. To pass that module: Examples worked.)"
+  ],
+  [
+   "Who approves electrics?",
+   "Licensed electrician. (Covered in module 7: Operations and uptime. To pass that module: Targets measurable.)"
+  ],
+  [
+   "Why monitor remotely?",
+   "Quick faults response. (Covered in module 8: Inclusion and plan. To pass that module: Peers can follow it.)"
+  ],
+  [
+   "Name an access feature.",
+   "Step-free route or wide bays. (Covered in module 8: Inclusion and plan. To pass that module: Peers can follow it.)"
+  ],
+  [
+   "Revenue formula?",
+   "kWh x price minus cost. (Covered in module 8: Inclusion and plan. To pass that module: Peers can follow it.)"
+  ]
+ ],
+ "rubric": [
+  [
+   "Power sizing",
+   "Errors",
+   "Correct",
+   "Correct with growth plan"
+  ],
+  [
+   "Safety",
+   "Missing",
+   "Listed",
+   "Listed and approved"
+  ],
+  [
+   "Business view",
+   "No numbers",
+   "12-month model",
+   "Model with sensitivity"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Charging site coordinator",
+   "Runs a site"
+  ],
+  [
+   "Charger maintenance trainee",
+   "Assists technicians"
+  ],
+  [
+   "Roaming/customer support agent",
+   "Helps drivers"
+  ],
+  [
+   "Energy data analyst assistant",
+   "Tracks usage"
+  ],
+  [
+   "Site development assistant",
+   "Surveys sites"
+  ]
+ ],
+ "next": "electric car basics, portable charging, solar basics.",
+ "local": "Utility and safety rules differ by place.",
+ "ladder": [
+  [
+   "Charger types",
+   "L1: learner can name charger types. Focus module: Charger types (Understand, 3 h). Slow, fast and ultra-fast. Key points: AC points (3 to 22 kW) suit long stays; DC fast chargers suit quick stops. Connectors and standards depend on region. Smart chargers share load.",
+   "Teach: open with the worked example. A mall installs 7 kW points because shoppers stay two hours. Then set the activity: Compare 3 charger types. Mark against the standard: Table includes time to add 30 kWh. Check at this level: What is load sharing? Model answer: Dividing supply among chargers. Table."
+  ],
+  [
+   "Site choice",
+   "L2: learner knows safety basics. Focus module: Site choice (Apply, 4 h). Right place, right grid. Key points: Visible, safe, lit, accessible, near amenities. Distance to the electricity supply; transformer capacity. Permissions from the owner and the utility.",
+   "Teach: open with the worked example. A site 20 m from the panel cuts cable cost. Then set the activity: Do a mock site survey. Mark against the standard: Scores for 5 criteria. Check at this level: Which suits long stays? Model answer: AC chargers. Safety."
+  ],
+  [
+   "Power sizing",
+   "L3: learner can survey a site. Focus module: Power sizing (Apply, 5 h). Do not overload the supply. Key points: Total kW = chargers x kW x diversity factor. Check supply capacity; add load management if limited. Plan growth.",
+   "Teach: open with the worked example. Four 7 kW points on a 20 kW supply use load sharing. Then set the activity: Size your site. Mark against the standard: Maths correct. Check at this level: Utilisation formula? Model answer: Hours in use / hours open. Survey."
+  ],
+  [
+   "Demand and revenue",
+   "L4: learner can run a site. Focus module: Demand and revenue (Analyse, 5 h). Estimate real use. Key points: Count nearby EVs and traffic. Utilisation = hours in use / hours open. Revenue = kWh sold x price minus electricity cost.",
+   "Teach: open with the worked example. At 15% utilisation a 7 kW point sells about 9 kWh a day. Then set the activity: Build a 12-month model. Mark against the standard: Currency shown. Check at this level: Name a safety measure. Model answer: RCD, earthing or emergency stop. Ops."
+  ],
+  [
+   "Safety and standards",
+   "L5: learner can model demand. Focus module: Safety and standards (Evaluate, 5 h). Protect users. Key points: RCD protection, earthing, surge, emergency stop, fire plan. Weather protection and cable management. Regular inspection.",
+   "Teach: open with the worked example. A charger fails a test and is locked out until fixed. Then set the activity: List safety measures. Mark against the standard: Approved by licensed person. Check at this level: Why display price? Model answer: Fairness and trust. Model."
+  ],
+  [
+   "Operations and uptime",
+   "L6: learner can lead a small team. Focus module: Operations and uptime (Apply, 4 h). Chargers must work. Key points: Remote monitoring; a fault response time. Maintenance schedule; spares. Helpline number on the unit.",
+   "Teach: open with the worked example. A 24-hour fix target is met 95% of the time. Then set the activity: Write an operations sheet. Mark against the standard: Targets measurable. Check at this level: What is idle fee? Model answer: Charge for occupying a bay after charging. Team."
+  ],
+  [
+   "Inclusion and plan",
+   "L7: learner can audit a site plan. Focus module: Inclusion and plan (Create, 4 h). Everyone should be able to charge. Key points: Step-free access, bay width, lighting. Multi-language instructions. Share the plan with the community.",
+   "Teach: open with the worked example. Wider bays and a call button suit wheelchair users. Then set the activity: Finish the plan. Mark against the standard: Peers can follow it. Check at this level: Who approves electrics? Model answer: Licensed electrician. Peer audit."
+  ]
+ ]
+}

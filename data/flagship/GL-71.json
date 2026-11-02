@@ -1,0 +1,283 @@
+{
+ "id": "GL-71",
+ "title": "Holographic and Immersive Theatre",
+ "level": 4,
+ "desc": "Plan an immersive or holographic show: concept, stage tech, safety, rights, budget and audience care.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain holographic effects and immersive formats."
+  ],
+  [
+   "Apply",
+   "Plan staging, lighting and projection."
+  ],
+  [
+   "Analyse",
+   "Compute budget and capacity."
+  ],
+  [
+   "Evaluate",
+   "Judge safety and access."
+  ],
+  [
+   "Create",
+   "Write a production plan."
+  ]
+ ],
+ "task": "Produce a production plan for a short immersive or hologram-style show, with concept, tech list, safety plan, access plan, budget and run sheet.",
+ "condition": "A computer, a spreadsheet, a venue plan, two peers and a mentor. No live public show is run by learners.",
+ "standard": "Effects are described accurately (illusion methods named); safety and fire plans approved; access plan included; budget totals correct; peers rate Meets or better.",
+ "who": "Stage managers, event planners, students, museum staff.",
+ "req": "none",
+ "evidence": "concept, tech list, safety plan, budget, run sheet",
+ "modules": [
+  [
+   "Formats",
+   "Understand",
+   3,
+   "Many ways to immerse.",
+   [
+    "Walk-through rooms, projection mapping, reflected-image effects, VR add-ons.",
+    "Most holograms on stage are illusions using angled screens.",
+    "Choose by story and budget."
+   ],
+   "A reflected image creates a floating figure.",
+   "Compare 3 formats.",
+   "Table complete."
+  ],
+  [
+   "Story and audience",
+   "Create",
+   4,
+   "Start with the story.",
+   [
+    "One idea, one audience, one feeling.",
+    "Map the journey in scenes.",
+    "Tech serves the story."
+   ],
+   "A six-scene museum walk.",
+   "Write a concept.",
+   "One page."
+  ],
+  [
+   "Stage tech",
+   "Apply",
+   5,
+   "Lighting, projection, sound.",
+   [
+    "Throw distance, brightness (lumens), screen size.",
+    "Dark rooms improve visibility.",
+    "Sound sync with cues."
+   ],
+   "A 5,000-lumen projector suits a small dark room.",
+   "List equipment.",
+   "Specs listed."
+  ],
+  [
+   "Safety",
+   "Evaluate",
+   5,
+   "People in the dark.",
+   [
+    "Fire exits lit, crowd limits, trip hazards.",
+    "Flashing lights warnings.",
+    "Trained staff."
+   ],
+   "Capacity set from exit width.",
+   "Write a safety plan.",
+   "Plan approved by venue."
+  ],
+  [
+   "Access and inclusion",
+   "Evaluate",
+   4,
+   "Everyone should enjoy it.",
+   [
+    "Step-free route, seats, captions, audio description.",
+    "Low-sensory sessions.",
+    "Clear signs."
+   ],
+   "Quiet hour with lower sound.",
+   "Write an access plan.",
+   "Measures listed."
+  ],
+  [
+   "Rights and content",
+   "Apply",
+   3,
+   "Clear everything.",
+   [
+    "Music, images, scripts, performers.",
+    "Written agreements.",
+    "Credit creators."
+   ],
+   "A performer consent form covers filming.",
+   "Complete a rights sheet.",
+   "Items sourced."
+  ],
+  [
+   "Budget",
+   "Analyse",
+   4,
+   "Money plan.",
+   [
+    "Equipment hire, crew, venue, marketing, contingency.",
+    "Ticket price x seats x shows.",
+    "Break-even audience."
+   ],
+   "Break-even 140 seats at 400 INR.",
+   "Build a budget.",
+   "Currency shown."
+  ],
+  [
+   "Run sheet and rehearsal",
+   "Create",
+   3,
+   "Run smoothly.",
+   [
+    "Cue sheet and roles.",
+    "Technical and dress rehearsals.",
+    "Debrief."
+   ],
+   "A rehearsal finds a cue 3 seconds late.",
+   "Write a run sheet.",
+   "Complete."
+  ]
+ ],
+ "quiz": [
+  [
+   "How are many stage holograms made?",
+   "Illusions using angled screens. (Covered in module 1: Formats. To pass that module: Table complete.)"
+  ],
+  [
+   "Why dark rooms?",
+   "Better visibility. (Covered in module 2: Story and audience. To pass that module: One page.)"
+  ],
+  [
+   "Capacity from?",
+   "Exit width. (Covered in module 3: Stage tech. To pass that module: Specs listed.)"
+  ],
+  [
+   "Access measure?",
+   "Step-free route or captions. (Covered in module 4: Safety. To pass that module: Plan approved by venue.)"
+  ],
+  [
+   "Rights needed for?",
+   "Music, images, performers. (Covered in module 5: Access and inclusion. To pass that module: Measures listed.)"
+  ],
+  [
+   "Budget contingency?",
+   "Spare funds. (Covered in module 6: Rights and content. To pass that module: Items sourced.)"
+  ],
+  [
+   "Break-even?",
+   "Audience to cover cost. (Covered in module 7: Budget. To pass that module: Currency shown.)"
+  ],
+  [
+   "Why rehearse?",
+   "Find faults. (Covered in module 8: Run sheet and rehearsal. To pass that module: Complete.)"
+  ],
+  [
+   "Flash warning?",
+   "Protect photosensitive guests. (Covered in module 8: Run sheet and rehearsal. To pass that module: Complete.)"
+  ],
+  [
+   "Tech serves?",
+   "The story. (Covered in module 8: Run sheet and rehearsal. To pass that module: Complete.)"
+  ]
+ ],
+ "rubric": [
+  [
+   "Concept",
+   "Vague",
+   "Clear",
+   "Clear and tested"
+  ],
+  [
+   "Safety and access",
+   "Gaps",
+   "Plans",
+   "Plans approved"
+  ],
+  [
+   "Budget",
+   "No totals",
+   "Totals",
+   "Break-even"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Stage tech assistant",
+   "Sets equipment"
+  ],
+  [
+   "Stage manager trainee",
+   "Calls cues"
+  ],
+  [
+   "Event producer assistant",
+   "Manages budget"
+  ],
+  [
+   "Museum experience coordinator",
+   "Plans exhibits"
+  ],
+  [
+   "Access officer",
+   "Leads inclusion"
+  ]
+ ],
+ "next": "VR live events, podcasting, event management.",
+ "local": "Public safety and licensing rules differ by place.",
+ "ladder": [
+  [
+   "Formats",
+   "L1: learner can name formats. Focus module: Formats (Understand, 3 h). Many ways to immerse. Key points: Walk-through rooms, projection mapping, reflected-image effects, VR add-ons. Most holograms on stage are illusions using angled screens. Choose by story and budget.",
+   "Teach: open with the worked example. A reflected image creates a floating figure. Then set the activity: Compare 3 formats. Mark against the standard: Table complete. Check at this level: How are many stage holograms made? Model answer: Illusions using angled screens. Formats."
+  ],
+  [
+   "Story and audience",
+   "L2: learner knows safety. Focus module: Story and audience (Create, 4 h). Start with the story. Key points: One idea, one audience, one feeling. Map the journey in scenes. Tech serves the story.",
+   "Teach: open with the worked example. A six-scene museum walk. Then set the activity: Write a concept. Mark against the standard: One page. Check at this level: Why dark rooms? Model answer: Better visibility. Safety."
+  ],
+  [
+   "Stage tech",
+   "L3: learner can list tech. Focus module: Stage tech (Apply, 5 h). Lighting, projection, sound. Key points: Throw distance, brightness (lumens), screen size. Dark rooms improve visibility. Sound sync with cues.",
+   "Teach: open with the worked example. A 5,000-lumen projector suits a small dark room. Then set the activity: List equipment. Mark against the standard: Specs listed. Check at this level: Capacity from? Model answer: Exit width. Tech."
+  ],
+  [
+   "Safety",
+   "L4: learner can run a rehearsal. Focus module: Safety (Evaluate, 5 h). People in the dark. Key points: Fire exits lit, crowd limits, trip hazards. Flashing lights warnings. Trained staff.",
+   "Teach: open with the worked example. Capacity set from exit width. Then set the activity: Write a safety plan. Mark against the standard: Plan approved by venue. Check at this level: Access measure? Model answer: Step-free route or captions. Rehearse."
+  ],
+  [
+   "Access and inclusion",
+   "L5: learner can budget. Focus module: Access and inclusion (Evaluate, 4 h). Everyone should enjoy it. Key points: Step-free route, seats, captions, audio description. Low-sensory sessions. Clear signs.",
+   "Teach: open with the worked example. Quiet hour with lower sound. Then set the activity: Write an access plan. Mark against the standard: Measures listed. Check at this level: Rights needed for? Model answer: Music, images, performers. Budget."
+  ],
+  [
+   "Budget",
+   "L6: learner can lead. Focus module: Budget (Analyse, 4 h). Money plan. Key points: Equipment hire, crew, venue, marketing, contingency. Ticket price x seats x shows. Break-even audience.",
+   "Teach: open with the worked example. Break-even 140 seats at 400 INR. Then set the activity: Build a budget. Mark against the standard: Currency shown. Check at this level: Budget contingency? Model answer: Spare funds. Lead."
+  ],
+  [
+   "Run sheet and rehearsal",
+   "L7: learner can audit. Focus module: Run sheet and rehearsal (Create, 3 h). Run smoothly. Key points: Cue sheet and roles. Technical and dress rehearsals. Debrief.",
+   "Teach: open with the worked example. A rehearsal finds a cue 3 seconds late. Then set the activity: Write a run sheet. Mark against the standard: Complete. Check at this level: Break-even? Model answer: Audience to cover cost. Peer audit."
+  ]
+ ]
+}

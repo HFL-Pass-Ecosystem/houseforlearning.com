@@ -1,0 +1,283 @@
+{
+ "id": "GL-72",
+ "title": "VR Live Events",
+ "level": 4,
+ "desc": "Plan and run a live virtual-reality or virtual event: platforms, access, moderation, safety and measures of success.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain event formats and platforms."
+  ],
+  [
+   "Apply",
+   "Prepare tech checks and run sheets."
+  ],
+  [
+   "Analyse",
+   "Read attendance data."
+  ],
+  [
+   "Evaluate",
+   "Judge safety, privacy and access."
+  ],
+  [
+   "Create",
+   "Run a small pilot event."
+  ]
+ ],
+ "task": "Plan and run a 30-minute virtual event for 10 to 20 people, with rehearsal, moderation, accessibility, feedback and report.",
+ "condition": "Computers or VR headsets as available, a free event platform, two peers and a mentor.",
+ "standard": "Rehearsal passes; moderation rules enforced; accessibility options present; feedback from 80% of attendees; report with data; peers rate Meets or better.",
+ "who": "Event planners, teachers, community groups, trainers.",
+ "req": "none",
+ "evidence": "plan, run sheet, tech checklist, feedback report",
+ "modules": [
+  [
+   "Formats",
+   "Understand",
+   3,
+   "Choose the right space.",
+   [
+    "Desktop 3D, headset VR, hybrid streams.",
+    "Social, training, concert, expo.",
+    "Capacity and comfort."
+   ],
+   "A training uses desktop for easy access.",
+   "Compare formats.",
+   "Table."
+  ],
+  [
+   "Goals and audience",
+   "Create",
+   3,
+   "Set outcomes.",
+   [
+    "One goal with a number.",
+    "Know devices people have.",
+    "Plan for low bandwidth."
+   ],
+   "80 attendees, 70% stay to the end.",
+   "Write goals.",
+   "Measurable."
+  ],
+  [
+   "Tech check",
+   "Apply",
+   4,
+   "Avoid surprises.",
+   [
+    "Accounts, links, audio, avatars, backups.",
+    "Test on each device.",
+    "Helper desk."
+   ],
+   "A fallback video link saves a failed session.",
+   "Make a checklist.",
+   "Ten items."
+  ],
+  [
+   "Moderation and safety",
+   "Evaluate",
+   4,
+   "Safe space.",
+   [
+    "Code of conduct; block, mute, report.",
+    "Age rules; no personal data sharing.",
+    "Moderators trained."
+   ],
+   "A harasser is muted and removed.",
+   "Write rules.",
+   "Clear."
+  ],
+  [
+   "Access",
+   "Evaluate",
+   4,
+   "Everyone in.",
+   [
+    "Captions, transcripts, keyboard options.",
+    "Motion-sickness settings.",
+    "Time zones and breaks."
+   ],
+   "Teleport movement reduces sickness.",
+   "Write an access plan.",
+   "Measures listed."
+  ],
+  [
+   "Run sheet and rehearsal",
+   "Apply",
+   4,
+   "Smooth delivery.",
+   [
+    "Minute-by-minute plan.",
+    "Roles: host, tech, moderator.",
+    "Rehearse twice."
+   ],
+   "A rehearsal finds audio echo.",
+   "Run rehearsal.",
+   "Fixes logged."
+  ],
+  [
+   "Live run",
+   "Create",
+   4,
+   "Run it.",
+   [
+    "Welcome, rules, content, Q&A, close.",
+    "Handle problems calmly.",
+    "Collect feedback."
+   ],
+   "Pilot finishes on time.",
+   "Run the pilot.",
+   "Mentor observes."
+  ],
+  [
+   "Measure and report",
+   "Analyse",
+   3,
+   "Learn.",
+   [
+    "Attendance, time in event, feedback scores.",
+    "Fix top issues.",
+    "Share results."
+   ],
+   "Average rating 4.3.",
+   "Write a report.",
+   "Numbers real."
+  ]
+ ],
+ "quiz": [
+  [
+   "Name a format.",
+   "Desktop 3D, headset VR or hybrid. (Covered in module 1: Formats. To pass that module: Table.)"
+  ],
+  [
+   "Why a fallback?",
+   "Protect the session. (Covered in module 2: Goals and audience. To pass that module: Measurable.)"
+  ],
+  [
+   "Code of conduct use?",
+   "Set behaviour rules. (Covered in module 3: Tech check. To pass that module: Ten items.)"
+  ],
+  [
+   "Motion sickness fix?",
+   "Teleport movement or breaks. (Covered in module 4: Moderation and safety. To pass that module: Clear.)"
+  ],
+  [
+   "Time zone issue?",
+   "Choose fair times. (Covered in module 5: Access. To pass that module: Measures listed.)"
+  ],
+  [
+   "Metric?",
+   "Attendance or rating. (Covered in module 6: Run sheet and rehearsal. To pass that module: Fixes logged.)"
+  ],
+  [
+   "Roles?",
+   "Host, tech, moderator. (Covered in module 7: Live run. To pass that module: Mentor observes.)"
+  ],
+  [
+   "Rehearsals?",
+   "At least two. (Covered in module 8: Measure and report. To pass that module: Numbers real.)"
+  ],
+  [
+   "Privacy?",
+   "No personal data sharing. (Covered in module 8: Measure and report. To pass that module: Numbers real.)"
+  ],
+  [
+   "Access feature?",
+   "Captions. (Covered in module 8: Measure and report. To pass that module: Numbers real.)"
+  ]
+ ],
+ "rubric": [
+  [
+   "Tech readiness",
+   "Gaps",
+   "Checked",
+   "Tested twice"
+  ],
+  [
+   "Safety and access",
+   "Gaps",
+   "Plans",
+   "Plans applied"
+  ],
+  [
+   "Reporting",
+   "No data",
+   "Data",
+   "Data and actions"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Virtual event coordinator",
+   "Plans sessions"
+  ],
+  [
+   "Event moderator",
+   "Keeps safe space"
+  ],
+  [
+   "Tech support host",
+   "Helps attendees"
+  ],
+  [
+   "Learning facilitator",
+   "Runs training"
+  ],
+  [
+   "Community manager",
+   "Builds groups"
+  ]
+ ],
+ "next": "holographic theatre, podcasting, social network building.",
+ "local": "Privacy and child-protection rules differ by place.",
+ "ladder": [
+  [
+   "Formats",
+   "L1: learner can name formats. Focus module: Formats (Understand, 3 h). Choose the right space. Key points: Desktop 3D, headset VR, hybrid streams. Social, training, concert, expo. Capacity and comfort.",
+   "Teach: open with the worked example. A training uses desktop for easy access. Then set the activity: Compare formats. Mark against the standard: Table. Check at this level: Name a format. Model answer: Desktop 3D, headset VR or hybrid. Formats."
+  ],
+  [
+   "Goals and audience",
+   "L2: learner knows safety. Focus module: Goals and audience (Create, 3 h). Set outcomes. Key points: One goal with a number. Know devices people have. Plan for low bandwidth.",
+   "Teach: open with the worked example. 80 attendees, 70% stay to the end. Then set the activity: Write goals. Mark against the standard: Measurable. Check at this level: Why a fallback? Model answer: Protect the session. Safety."
+  ],
+  [
+   "Tech check",
+   "L3: learner can check tech. Focus module: Tech check (Apply, 4 h). Avoid surprises. Key points: Accounts, links, audio, avatars, backups. Test on each device. Helper desk.",
+   "Teach: open with the worked example. A fallback video link saves a failed session. Then set the activity: Make a checklist. Mark against the standard: Ten items. Check at this level: Code of conduct use? Model answer: Set behaviour rules. Check."
+  ],
+  [
+   "Moderation and safety",
+   "L4: learner can run a session. Focus module: Moderation and safety (Evaluate, 4 h). Safe space. Key points: Code of conduct; block, mute, report. Age rules; no personal data sharing. Moderators trained.",
+   "Teach: open with the worked example. A harasser is muted and removed. Then set the activity: Write rules. Mark against the standard: Clear. Check at this level: Motion sickness fix? Model answer: Teleport movement or breaks. Run."
+  ],
+  [
+   "Access",
+   "L5: learner can analyse. Focus module: Access (Evaluate, 4 h). Everyone in. Key points: Captions, transcripts, keyboard options. Motion-sickness settings. Time zones and breaks.",
+   "Teach: open with the worked example. Teleport movement reduces sickness. Then set the activity: Write an access plan. Mark against the standard: Measures listed. Check at this level: Time zone issue? Model answer: Choose fair times. Data."
+  ],
+  [
+   "Live run",
+   "L6: learner can lead. Focus module: Live run (Create, 4 h). Run it. Key points: Welcome, rules, content, Q&A, close. Handle problems calmly. Collect feedback.",
+   "Teach: open with the worked example. Pilot finishes on time. Then set the activity: Run the pilot. Mark against the standard: Mentor observes. Check at this level: Metric? Model answer: Attendance or rating. Lead."
+  ],
+  [
+   "Measure and report",
+   "L7: learner can audit. Focus module: Measure and report (Analyse, 3 h). Learn. Key points: Attendance, time in event, feedback scores. Fix top issues. Share results.",
+   "Teach: open with the worked example. Average rating 4.3. Then set the activity: Write a report. Mark against the standard: Numbers real. Check at this level: Roles? Model answer: Host, tech, moderator. Peer audit."
+  ]
+ ]
+}

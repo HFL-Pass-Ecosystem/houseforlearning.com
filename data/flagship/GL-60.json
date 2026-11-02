@@ -1,0 +1,283 @@
+{
+ "id": "GL-60",
+ "title": "Portable and Wireless Charging Solutions",
+ "level": 3,
+ "desc": "Understand power banks, wireless pads and shared charging kiosks: safety, standards, battery care and a simple service business.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain how batteries, chargers and wireless pads work."
+  ],
+  [
+   "Apply",
+   "Calculate capacity and charge time."
+  ],
+  [
+   "Analyse",
+   "Compare devices on real capacity."
+  ],
+  [
+   "Evaluate",
+   "Judge safety and quality."
+  ],
+  [
+   "Create",
+   "Plan a small charging service."
+  ]
+ ],
+ "task": "Test and compare three portable chargers, write a safety and quality note, and plan a small shared charging point with price and care rules.",
+ "condition": "Three chargers (practice or real), a meter or phone app, a spreadsheet, two peers and a mentor. No opening of battery packs.",
+ "standard": "Capacity test is repeated and averaged; safety rules are followed; unsafe items are rejected; business plan shows costs; peers rate Meets or better.",
+ "who": "Shop owners, repair techs, event hosts, students.",
+ "req": "none",
+ "evidence": "test table, safety note, price sheet, plan",
+ "modules": [
+  [
+   "Batteries and units",
+   "Understand",
+   3,
+   "mAh, V, Wh.",
+   [
+    "Wh = V x Ah. A 10,000 mAh at 3.7 V is 37 Wh.",
+    "Losses of 20 to 40% in conversion.",
+    "Charge and discharge cycles age cells."
+   ],
+   "A 37 Wh bank charges a 12 Wh phone about 2.5 times.",
+   "Calculate three examples.",
+   "Maths correct."
+  ],
+  [
+   "Wired charging standards",
+   "Understand",
+   3,
+   "Cables and speeds.",
+   [
+    "Connector types and power delivery levels.",
+    "Use quality cables; thin cables overheat.",
+    "Match charger and device."
+   ],
+   "A 65 W charger with the wrong cable charges slowly.",
+   "Make a compatibility table.",
+   "Entries correct."
+  ],
+  [
+   "Wireless charging",
+   "Understand",
+   3,
+   "Coils and fields.",
+   [
+    "Pad and device must align.",
+    "Efficiency is lower; more heat.",
+    "Metal objects between can heat up."
+   ],
+   "A wireless pad is 70% efficient, wasting 30%.",
+   "Explain how it works.",
+   "Peer understands."
+  ],
+  [
+   "Testing capacity",
+   "Apply",
+   4,
+   "Measure, do not trust labels.",
+   [
+    "Discharge fully into a known load and measure Wh.",
+    "Repeat three times and average.",
+    "Compare to the label."
+   ],
+   "A 20,000 mAh bank delivers 55 Wh instead of 74 Wh claimed.",
+   "Test three banks.",
+   "Results recorded."
+  ],
+  [
+   "Safety and quality",
+   "Evaluate",
+   4,
+   "Cheap packs can fail.",
+   [
+    "Look for certification marks and protection circuits.",
+    "Avoid swollen, hot or damaged units.",
+    "Do not carry on aircraft against airline rules; check limits."
+   ],
+   "A swollen bank is isolated in a safe container and disposed of properly.",
+   "Write a safety note.",
+   "Includes disposal."
+  ],
+  [
+   "Shared charging service",
+   "Create",
+   4,
+   "Kiosk or lending service.",
+   [
+    "Locations: cafes, events, transport hubs.",
+    "Pricing by time or deposit.",
+    "Return, cleaning and loss control."
+   ],
+   "A cafe rents banks for 50 INR and refunds on return.",
+   "Plan a service.",
+   "Costs and prices shown."
+  ],
+  [
+   "Care and recycling",
+   "Apply",
+   3,
+   "Extend life.",
+   [
+    "Avoid heat; store at half charge.",
+    "Recycle batteries at collection points.",
+    "Repair only with trained people."
+   ],
+   "A cafe has a labelled battery recycling box.",
+   "Write care rules.",
+   "Rules specific."
+  ],
+  [
+   "Plan and review",
+   "Create",
+   3,
+   "Pilot the idea.",
+   [
+    "Run a one-week trial.",
+    "Record use and complaints.",
+    "Improve."
+   ],
+   "Week one: 40 rentals, 2 losses; add deposit.",
+   "Present your review.",
+   "Numbers real."
+  ]
+ ],
+ "quiz": [
+  [
+   "Formula for Wh?",
+   "Volts x amp-hours. (Covered in module 1: Batteries and units. To pass that module: Maths correct.)"
+  ],
+  [
+   "Why losses?",
+   "Conversion and heat. (Covered in module 2: Wired charging standards. To pass that module: Entries correct.)"
+  ],
+  [
+   "What marks safe goods?",
+   "Certification marks and protection circuits. (Covered in module 3: Wireless charging. To pass that module: Peer understands.)"
+  ],
+  [
+   "What do you do with a swollen bank?",
+   "Isolate and dispose safely. (Covered in module 4: Testing capacity. To pass that module: Results recorded.)"
+  ],
+  [
+   "Wireless pad efficiency issue?",
+   "Lower efficiency, more heat. (Covered in module 5: Safety and quality. To pass that module: Includes disposal.)"
+  ],
+  [
+   "Why store at half charge?",
+   "Slows ageing. (Covered in module 6: Shared charging service. To pass that module: Costs and prices shown.)"
+  ],
+  [
+   "How measure capacity?",
+   "Discharge into a known load and measure Wh. (Covered in module 7: Care and recycling. To pass that module: Rules specific.)"
+  ],
+  [
+   "Why repeat tests?",
+   "To average errors. (Covered in module 8: Plan and review. To pass that module: Numbers real.)"
+  ],
+  [
+   "Name a loss control.",
+   "Deposit. (Covered in module 8: Plan and review. To pass that module: Numbers real.)"
+  ],
+  [
+   "Where recycle batteries?",
+   "Collection points. (Covered in module 8: Plan and review. To pass that module: Numbers real.)"
+  ]
+ ],
+ "rubric": [
+  [
+   "Testing",
+   "Single test",
+   "Repeated",
+   "Repeated with analysis"
+  ],
+  [
+   "Safety",
+   "Gaps",
+   "Complete",
+   "Complete and applied"
+  ],
+  [
+   "Plan",
+   "No numbers",
+   "Numbers",
+   "Numbers with pilot data"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Charging kiosk operator",
+   "Runs shared charging"
+  ],
+  [
+   "Device repair assistant",
+   "Tests chargers"
+  ],
+  [
+   "Retail adviser",
+   "Advises buyers"
+  ],
+  [
+   "Quality inspector trainee",
+   "Rejects unsafe items"
+  ],
+  [
+   "Event services assistant",
+   "Provides charging at events"
+  ]
+ ],
+ "next": "car charging stations, solar basics, small electronics repair.",
+ "local": "Battery transport and recycling rules differ by place.",
+ "ladder": [
+  [
+   "Batteries and units",
+   "L1: learner can name charger parts. Focus module: Batteries and units (Understand, 3 h). mAh, V, Wh. Key points: Wh = V x Ah. A 10,000 mAh at 3.7 V is 37 Wh. Losses of 20 to 40% in conversion. Charge and discharge cycles age cells.",
+   "Teach: open with the worked example. A 37 Wh bank charges a 12 Wh phone about 2.5 times. Then set the activity: Calculate three examples. Mark against the standard: Maths correct. Check at this level: Formula for Wh? Model answer: Volts x amp-hours. Show examples."
+  ],
+  [
+   "Wired charging standards",
+   "L2: learner knows safety rules. Focus module: Wired charging standards (Understand, 3 h). Cables and speeds. Key points: Connector types and power delivery levels. Use quality cables; thin cables overheat. Match charger and device.",
+   "Teach: open with the worked example. A 65 W charger with the wrong cable charges slowly. Then set the activity: Make a compatibility table. Mark against the standard: Entries correct. Check at this level: Why losses? Model answer: Conversion and heat. Safety."
+  ],
+  [
+   "Wireless charging",
+   "L3: learner can calculate Wh. Focus module: Wireless charging (Understand, 3 h). Coils and fields. Key points: Pad and device must align. Efficiency is lower; more heat. Metal objects between can heat up.",
+   "Teach: open with the worked example. A wireless pad is 70% efficient, wasting 30%. Then set the activity: Explain how it works. Mark against the standard: Peer understands. Check at this level: What marks safe goods? Model answer: Certification marks and protection circuits. Sums."
+  ],
+  [
+   "Testing capacity",
+   "L4: learner can test a bank. Focus module: Testing capacity (Apply, 4 h). Measure, do not trust labels. Key points: Discharge fully into a known load and measure Wh. Repeat three times and average. Compare to the label.",
+   "Teach: open with the worked example. A 20,000 mAh bank delivers 55 Wh instead of 74 Wh claimed. Then set the activity: Test three banks. Mark against the standard: Results recorded. Check at this level: What do you do with a swollen bank? Model answer: Isolate and dispose safely. Test."
+  ],
+  [
+   "Safety and quality",
+   "L5: learner can compare devices. Focus module: Safety and quality (Evaluate, 4 h). Cheap packs can fail. Key points: Look for certification marks and protection circuits. Avoid swollen, hot or damaged units. Do not carry on aircraft against airline rules; check limits.",
+   "Teach: open with the worked example. A swollen bank is isolated in a safe container and disposed of properly. Then set the activity: Write a safety note. Mark against the standard: Includes disposal. Check at this level: Wireless pad efficiency issue? Model answer: Lower efficiency, more heat. Compare."
+  ],
+  [
+   "Care and recycling",
+   "L6: learner can run a kiosk team. Focus module: Care and recycling (Apply, 3 h). Extend life. Key points: Avoid heat; store at half charge. Recycle batteries at collection points. Repair only with trained people.",
+   "Teach: open with the worked example. A cafe has a labelled battery recycling box. Then set the activity: Write care rules. Mark against the standard: Rules specific. Check at this level: Why store at half charge? Model answer: Slows ageing. Team."
+  ],
+  [
+   "Plan and review",
+   "L7: learner can audit safety. Focus module: Plan and review (Create, 3 h). Pilot the idea. Key points: Run a one-week trial. Record use and complaints. Improve.",
+   "Teach: open with the worked example. Week one: 40 rentals, 2 losses; add deposit. Then set the activity: Present your review. Mark against the standard: Numbers real. Check at this level: How measure capacity? Model answer: Discharge into a known load and measure Wh. Peer audit."
+  ]
+ ]
+}

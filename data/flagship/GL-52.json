@@ -1,0 +1,291 @@
+{
+ "id": "GL-52",
+ "title": "Veterinary and Pet Care Business",
+ "level": 4,
+ "desc": "Start and run a small pet care business, from grooming, boarding and walking to records, hygiene and when to refer to a vet.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain animal welfare needs and the limits of a non-vet service."
+  ],
+  [
+   "Apply",
+   "Run safe handling, hygiene and booking steps."
+  ],
+  [
+   "Analyse",
+   "Cost services and capacity."
+  ],
+  [
+   "Evaluate",
+   "Judge risks, bites, disease and legal duties."
+  ],
+  [
+   "Create",
+   "Launch a 30-day pilot."
+  ]
+ ],
+ "task": "Plan and pilot a small pet care service with welfare rules, hygiene plan, booking and price sheet, owner forms and emergency steps.",
+ "condition": "Practice animals from willing owners or a shelter partner, a spreadsheet, two peers and a mentor veterinarian. Medical treatments are for qualified vets only.",
+ "standard": "Every pet has an owner form and vaccine record; welfare needs are met; injuries and bites have a response plan; costs and price are shown; peers rate Meets or better.",
+ "who": "Pet lovers, vet clinic assistants, groomers, walkers and boarders.",
+ "req": "none",
+ "evidence": "service menu, owner form, hygiene plan, price sheet, pilot log",
+ "modules": [
+  [
+   "Welfare basics",
+   "Understand",
+   4,
+   "Every animal needs the same five things, no matter the species.",
+   [
+    "A suitable environment, a suitable diet, the ability to behave normally, appropriate company or separation, and protection from pain, suffering and disease.",
+    "Signs of stress: panting, hiding, shaking, aggression, changes in appetite.",
+    "Never leave animals in hot vehicles or without water.",
+    "Know the needs of each species you handle."
+   ],
+   "A dog left in shade with fresh water stays calm. One left in a parked car on a warm day can suffer heatstroke within minutes.",
+   "Write a welfare card for two species covering the five needs.",
+   "Each need is covered and accurate."
+  ],
+  [
+   "Owner forms and records",
+   "Apply",
+   4,
+   "You must know the pet and the owner before you take responsibility.",
+   [
+    "Collect pet name, age, vaccines, medicines, allergies, behaviour notes, vet contact and emergency contact.",
+    "Written consent for care and for emergency treatment with a spending limit.",
+    "Keep records secure and up to date.",
+    "Decline animals when records or vaccines are missing."
+   ],
+   "A boarding form shows an unvaccinated puppy. The business declines the booking and advises the owner to vaccinate.",
+   "Design an owner form and fill it for a practice pet.",
+   "Includes vaccine, vet, emergency and consent fields."
+  ],
+  [
+   "Safe handling",
+   "Apply",
+   5,
+   "Protect animals and people.",
+   [
+    "Approach calmly; read body language; do not corner an animal.",
+    "Use correct leads, harnesses and carriers and keep species apart.",
+    "Know basic first aid for bites and scratches and report them.",
+    "Train in handling under a mentor."
+   ],
+   "A walker uses a double lead and keeps a distance from a nervous dog near traffic, preventing a bolt.",
+   "Practise handling steps under a mentor and complete an observation sheet.",
+   "Mentor sees safe handling with no incidents."
+  ],
+  [
+   "Hygiene and disease control",
+   "Apply",
+   4,
+   "Clean spaces prevent disease.",
+   [
+    "Clean and disinfect kennels, bowls and tools between animals.",
+    "Isolate any animal that coughs, vomits or has diarrhoea and call the vet.",
+    "Wash hands, handle waste safely and control pests.",
+    "Keep a cleaning log."
+   ],
+   "A cough in one dog leads to isolation, a vet call and disinfecting shared areas, preventing an outbreak.",
+   "Create a daily hygiene plan and log.",
+   "Plan lists frequency, method and responsible person."
+  ],
+  [
+   "When to refer to a vet",
+   "Evaluate",
+   4,
+   "A pet business is not a veterinary clinic.",
+   [
+    "Poisoning, injury, breathing trouble, long vomiting, seizures and collapse need a vet at once.",
+    "Do not give medicines unless the owner or vet instructs in writing.",
+    "Keep the clinic number and an emergency clinic number visible.",
+    "Record time and symptoms."
+   ],
+   "A boarder calls the vet within 10 minutes after a dog eats chocolate, following a pre-agreed plan.",
+   "Write an emergency card with numbers, steps and owner contacts.",
+   "Card is tested in a mock call."
+  ],
+  [
+   "Services, scheduling and pricing",
+   "Analyse",
+   5,
+   "Match services to capacity and cost.",
+   [
+    "Services: grooming, walking, day care, boarding.",
+    "Time per pet plus cleaning plus travel.",
+    "Costs: staff, supplies, transport, insurance, space.",
+    "Price to cover costs and margin."
+   ],
+   "A 60-minute groom takes 90 minutes of table time. At 400 INR per hour of staff plus 120 INR of supplies, the price is set at 1,100 INR.",
+   "Cost three services and set prices.",
+   "Totals correct and currency shown."
+  ],
+  [
+   "Law, insurance and ethics",
+   "Evaluate",
+   4,
+   "Know the rules before you start.",
+   [
+    "Business licence, animal-welfare law and insurance.",
+    "No cruelty or neglect; report abuse.",
+    "Honest advertising and clear terms.",
+    "Respect owners' privacy."
+   ],
+   "A provider takes public-liability insurance before accepting clients and keeps the policy on file.",
+   "List the rules for your place with sources.",
+   "Each rule has a source and date."
+  ],
+  [
+   "Pilot and improve",
+   "Create",
+   5,
+   "Run 30 days with a small number of clients.",
+   [
+    "Track bookings, complaints, injuries and rebookings.",
+    "Fix the top three issues.",
+    "Plan owner education and community links.",
+    "Review weekly."
+   ],
+   "Rebookings reach 55% after owners receive a report card with a photo after each visit.",
+   "Present your pilot review.",
+   "Numbers are real and fixes dated."
+  ]
+ ],
+ "quiz": [
+  [
+   "Name the five welfare needs.",
+   "Food and water, shelter, health, behaviour, company. (Covered in module 1: Welfare basics. To pass that module: Each need is covered.)"
+  ],
+  [
+   "Why vaccine records?",
+   "To protect other animals. (Covered in module 2: Owner forms and records. To pass that module: Includes vaccine and vet details.)"
+  ],
+  [
+   "Name a stress sign.",
+   "Panting, hiding or aggression. (Covered in module 3: Safe handling. To pass that module: Mentor observes without safety issues.)"
+  ],
+  [
+   "When call a vet?",
+   "Poisoning, injury, breathing trouble, seizures, long vomiting. (Covered in module 4: Hygiene and disease control. To pass that module: Plan lists frequency and method.)"
+  ],
+  [
+   "Can you give medicine freely?",
+   "No, only as the owner or vet instructs in writing. (Covered in module 5: When to refer to a vet. To pass that module: Includes numbers, steps and owner contacts.)"
+  ],
+  [
+   "What goes on an owner form?",
+   "Details, vaccines, medicines, allergies, contacts, consent. (Covered in module 6: Services, scheduling and pricing. To pass that module: Totals correct; currency shown.)"
+  ],
+  [
+   "Why separate sick animals?",
+   "To stop spread. (Covered in module 7: Law, insurance and ethics. To pass that module: Sources listed.)"
+  ],
+  [
+   "Why insurance?",
+   "To cover injuries or damage. (Covered in module 8: Pilot and improve. To pass that module: Numbers real; fixes dated.)"
+  ],
+  [
+   "What is table time?",
+   "Time in the room including cleaning. (Covered in module 8: Pilot and improve. To pass that module: Numbers real; fixes dated.)"
+  ],
+  [
+   "What do you track in a pilot?",
+   "Bookings, complaints, injuries, rebookings. (Covered in module 8: Pilot and improve. To pass that module: Numbers real; fixes dated.)"
+  ]
+ ],
+ "rubric": [
+  [
+   "Animal welfare",
+   "Gaps",
+   "Needs met",
+   "Needs met and monitored"
+  ],
+  [
+   "Owner records",
+   "Missing",
+   "Complete",
+   "Complete and securely stored"
+  ],
+  [
+   "Referral readiness",
+   "No plan",
+   "Card",
+   "Card tested with vet"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Pet groomer",
+   "Grooms and cares"
+  ],
+  [
+   "Dog walker or day-care assistant",
+   "Runs safe outings"
+  ],
+  [
+   "Vet clinic assistant (reception)",
+   "Books and records"
+  ],
+  [
+   "Boarding manager",
+   "Runs hygiene and rota"
+  ],
+  [
+   "Pet products seller",
+   "Advises owners"
+  ]
+ ],
+ "next": "customer service, bookkeeping for small business, animal first aid awareness.",
+ "local": "Licences and animal-welfare laws differ by place.",
+ "ladder": [
+  [
+   "Welfare basics",
+   "L1: learner can name pet needs. Focus module: Welfare basics (Understand, 4 h). Five needs: food and water, shelter, health, behaviour and company. Key points: Know species needs and daily routines. Signs of stress: panting, hiding, aggression. Never leave animals in hot vehicles.",
+   "Teach: open with the worked example. A dog left in shade with fresh water stays calm; one in a parked car does not. Then set the activity: Write a welfare card for two species. Mark against the standard: Each need is covered. Check at this level: Name the five welfare needs. Model answer: Food and water, shelter, health, behaviour, company. Show care card."
+  ],
+  [
+   "Owner forms and records",
+   "L2: learner knows hygiene and referral limits. Focus module: Owner forms and records (Apply, 4 h). Know the pet before you take it. Key points: Name, age, vaccines, medicines, allergies, vet contact, emergency contact. Written consent for care and emergency treatment. Keep records securely.",
+   "Teach: open with the worked example. A boarding form shows an unvaccinated pup, so it is declined. Then set the activity: Design an owner form. Mark against the standard: Includes vaccine and vet details. Check at this level: Why vaccine records? Model answer: To protect other animals. Explain limits."
+  ],
+  [
+   "Safe handling",
+   "L3: learner can handle one pet safely. Focus module: Safe handling (Apply, 5 h). Protect animals and people. Key points: Approach calmly; read body language. Use correct leads and carriers; keep species apart. First-aid for bites and scratches; report them.",
+   "Teach: open with the worked example. A walker uses a double lead near traffic. Then set the activity: Practise handling steps. Mark against the standard: Mentor observes without safety issues. Check at this level: Name a stress sign. Model answer: Panting, hiding or aggression. Practise handling."
+  ],
+  [
+   "Hygiene and disease control",
+   "L4: learner can run a pet service day. Focus module: Hygiene and disease control (Apply, 4 h). Clean spaces prevent disease. Key points: Clean and disinfect kennels, tools and bowls between animals. Separate sick animals. Safe waste and hand washing.",
+   "Teach: open with the worked example. A cough in one dog leads to isolation and a vet call. Then set the activity: Create a daily hygiene plan. Mark against the standard: Plan lists frequency and method. Check at this level: When call a vet? Model answer: Poisoning, injury, breathing trouble, seizures, long vomiting. Role-play."
+  ],
+  [
+   "When to refer to a vet",
+   "L5: learner can cost and price. Focus module: When to refer to a vet (Evaluate, 4 h). Know your limits. Key points: Poisoning, injury, breathing trouble, long vomiting, seizures need a vet at once. Do not give medicines unless a vet or owner instructs in writing. Keep the clinic number visible.",
+   "Teach: open with the worked example. A boarder calls the vet within 10 minutes for a dog that ate chocolate. Then set the activity: Write an emergency card. Mark against the standard: Includes numbers, steps and owner contacts. Check at this level: Can you give medicine freely? Model answer: No, only as the owner or vet instructs in writing. Cost sheet."
+  ],
+  [
+   "Law, insurance and ethics",
+   "L6: learner can lead a small team. Focus module: Law, insurance and ethics (Evaluate, 4 h). Check licences and duties. Key points: Business licence, animal-welfare rules and insurance. No cruelty or neglect; report abuse. Honest advertising.",
+   "Teach: open with the worked example. A provider obtains public-liability insurance before taking clients. Then set the activity: List rules for your place. Mark against the standard: Sources listed. Check at this level: What goes on an owner form? Model answer: Details, vaccines, medicines, allergies, contacts, consent. Cover rota."
+  ],
+  [
+   "Pilot and improve",
+   "L7: learner can audit a service. Focus module: Pilot and improve (Create, 5 h). Run 30 days with a few clients. Key points: Track bookings, complaints, injuries, rebookings. Fix top 3 issues. Plan owner education and community tie-ups.",
+   "Teach: open with the worked example. Rebookings reach 55% after report cards with photos. Then set the activity: Present your review. Mark against the standard: Numbers real; fixes dated. Check at this level: Why separate sick animals? Model answer: To stop spread. Peer audit."
+  ]
+ ]
+}

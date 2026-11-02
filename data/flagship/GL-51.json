@@ -1,0 +1,291 @@
+{
+ "id": "GL-51",
+ "title": "Senior At-Home Care",
+ "level": 4,
+ "desc": "Plan and deliver safe, respectful at-home support for older adults: daily living, safety, medicines reminders, dignity and when to call for help.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain the needs, rights and dignity of an older person at home."
+  ],
+  [
+   "Apply",
+   "Assist with daily routines safely."
+  ],
+  [
+   "Analyse",
+   "Find fall, fire and medicine risks in a home."
+  ],
+  [
+   "Evaluate",
+   "Judge when a situation needs a professional or emergency help."
+  ],
+  [
+   "Create",
+   "Build a written care routine and a family communication plan."
+  ]
+ ],
+ "task": "Produce a person-centred home care plan for a practice case, with a home safety check, daily routine, emergency card and carer wellbeing plan.",
+ "condition": "A practice case or a consenting family, a phone, forms, two peers and a qualified nurse or care mentor. Nursing procedures are outside scope.",
+ "standard": "Plan respects the person's wishes; safety check finds and fixes at least 8 risks; emergency card is complete; no clinical task is done outside training; peers rate Meets or better.",
+ "who": "Family carers, home-care assistants, community volunteers, care entrepreneurs.",
+ "req": "none",
+ "evidence": "care plan, home safety checklist, routine, emergency card, carer plan",
+ "modules": [
+  [
+   "Respect and dignity first",
+   "Understand",
+   4,
+   "Good care starts with the person, not the task. Older adults have a lifetime of skills, habits and wishes that should shape their care.",
+   [
+    "Ask what they want, offer real choices and use their preferred name.",
+    "Protect privacy in washing, dressing and toilet care; knock, close doors, cover with towels.",
+    "Never talk about the person as if they are not present and never treat an adult like a child.",
+    "Involve them in decisions, including small ones like clothes and meals."
+   ],
+   "Mr Rao likes tea at 7 am and a walk at 5 pm. The carer plans the day around these, keeps the bathroom door closed during care and asks before each step.",
+   "Write a \"what matters to me\" page with a real or practice person using their own words.",
+   "Page lists at least eight preferences in the person's words and is signed off by them."
+  ],
+  [
+   "Home safety check",
+   "Analyse",
+   5,
+   "Most harm to older people at home is preventable. A structured check finds risks before an accident.",
+   [
+    "Falls: loose rugs, poor light, wet floors, no grab rails, clutter on stairs.",
+    "Fire and electrical hazards: frayed cables, overloaded sockets, unattended cooking, gas leaks.",
+    "Medicine storage and bathroom hot water.",
+    "Easy-to-reach items, a clear path to the toilet and night lights."
+   ],
+   "A carer removes a loose mat, fits a night light and rail by the bed and moves the kettle to counter height. Night-time stumbles stop within a month.",
+   "Complete a home safety checklist for one home and photograph before and after each fix.",
+   "At least eight risks found, each with a fix, an owner and a date."
+  ],
+  [
+   "Daily living support",
+   "Apply",
+   5,
+   "Support independence rather than replacing it.",
+   [
+    "Meals and drinks: offer fluids through the day and watch weight and appetite.",
+    "Mobility: assist with walking aids, use correct lifting aids and ask for training before lifting.",
+    "Hygiene and dressing: do with, not for, whenever possible.",
+    "Rest, activity and company all matter."
+   ],
+   "The carer lays out clothes in order and lets Mrs Iyer dress herself, stepping in only for buttons. Her confidence and her strength improve over weeks.",
+   "Plan a full day routine with times for meals, fluids, movement, rest and social contact.",
+   "Routine covers all five areas and respects the person's preferences."
+  ],
+  [
+   "Medicines and health reminders",
+   "Apply",
+   4,
+   "Carers remind and observe; clinicians decide.",
+   [
+    "Use a pill organiser prepared by a pharmacist or nurse.",
+    "Record each dose taken or refused; never change doses or share medicines.",
+    "Report new symptoms, falls and side effects promptly.",
+    "Keep a list of medicines and allergies."
+   ],
+   "A weekly box with morning and evening slots reduces missed doses from five a week to one. The carer records each tick and reports a dizzy spell to the nurse.",
+   "Create a reminder chart and a record sheet from a sample prescription list.",
+   "Chart matches the list exactly and a nurse mentor confirms it."
+  ],
+  [
+   "Mind, mood and memory",
+   "Apply",
+   4,
+   "Loneliness, low mood and forgetfulness are common but not inevitable.",
+   [
+    "Keep a regular routine, calendars and clocks; label doors.",
+    "Encourage activity, light and conversation; arrange visits and calls.",
+    "Be patient with repeated questions; redirect kindly rather than arguing.",
+    "Sudden confusion can signal infection or illness; seek medical help promptly."
+   ],
+   "A daily 15-minute walk and a call to a grandchild improves sleep and mood. A sudden change in behaviour triggers a call to the doctor, who finds a urine infection.",
+   "Plan a weekly social and activity schedule with five activities.",
+   "Schedule includes social, physical and mental activities and respects interests."
+  ],
+  [
+   "Emergencies and when to call",
+   "Evaluate",
+   4,
+   "Know the line between watching and acting.",
+   [
+    "Call emergency services for chest pain, stroke signs, serious fall, breathing trouble, heavy bleeding.",
+    "Call the doctor for fever, new pain, poor eating or drinking, or sudden change.",
+    "Keep an emergency card by the door and in the phone.",
+    "Stay calm, note times and what happened."
+   ],
+   "Face drooping and slurred speech appear at 10:15. The carer calls emergency services, notes the time and stays with the person.",
+   "Make an emergency card with numbers, allergies, medicines, conditions and contacts.",
+   "Card is complete and tested by a family member."
+  ],
+  [
+   "Family and carer wellbeing",
+   "Evaluate",
+   3,
+   "Carers burn out when they carry everything alone.",
+   [
+    "Share tasks and take planned breaks.",
+    "Use a shared log or group message.",
+    "Seek local support groups and respite care.",
+    "Watch your own sleep, mood and health."
+   ],
+   "Three siblings take alternate weekends; the main carer takes one free day each week, and her stress score falls.",
+   "Write a carer wellbeing plan naming who does what and when.",
+   "Plan has names, days and a review date."
+  ],
+  [
+   "Review and improve",
+   "Create",
+   4,
+   "Care plans change as needs change.",
+   [
+    "Review monthly or after any event such as a fall or hospital stay.",
+    "Track weight, sleep, mood and falls.",
+    "Celebrate good days and note what worked.",
+    "Update the plan with the person and family."
+   ],
+   "After a fall, a rail is added, a physiotherapist visits and the walking aid is changed. No further falls occur in three months.",
+   "Present your care plan and review.",
+   "Changes are dated and agreed with the person."
+  ]
+ ],
+ "quiz": [
+  [
+   "Why use their words?",
+   "It keeps dignity and choice. (Covered in module 1: Respect and dignity. To pass that module: Page uses their words.)"
+  ],
+  [
+   "Name three fall risks.",
+   "Loose rugs, poor light, wet floors. (Covered in module 2: Home safety check. To pass that module: At least 8 risks found, each with a fix and date.)"
+  ],
+  [
+   "Who decides doses?",
+   "The prescriber. (Covered in module 3: Daily living support. To pass that module: Routine covers meals, fluids, movement, rest and social time.)"
+  ],
+  [
+   "When call emergency?",
+   "Chest pain, stroke signs, serious fall, breathing trouble. (Covered in module 4: Medicines and health reminders. To pass that module: Chart matches the prescriber's list.)"
+  ],
+  [
+   "What is \"do with, not for\"?",
+   "Support independence by helping only as needed. (Covered in module 5: Mind, mood and memory. To pass that module: Includes five activities.)"
+  ],
+  [
+   "Name one mood tip.",
+   "Daily activity and social contact. (Covered in module 6: Emergencies and when to call. To pass that module: Includes numbers, allergies, medicines, contacts.)"
+  ],
+  [
+   "What is sudden confusion a sign of?",
+   "Possible illness; seek help. (Covered in module 7: Family and carer wellbeing. To pass that module: Plan names who, when, what.)"
+  ],
+  [
+   "What goes on an emergency card?",
+   "Numbers, allergies, medicines, contacts. (Covered in module 8: Review and improve. To pass that module: Changes are dated and agreed with the person.)"
+  ],
+  [
+   "Why carer breaks?",
+   "To avoid burnout. (Covered in module 8: Review and improve. To pass that module: Changes are dated and agreed with the person.)"
+  ],
+  [
+   "How often review?",
+   "Monthly or after any event. (Covered in module 8: Review and improve. To pass that module: Changes are dated and agreed with the person.)"
+  ]
+ ],
+ "rubric": [
+  [
+   "Person-centred plan",
+   "Task-led",
+   "Respectful",
+   "Built from their words"
+  ],
+  [
+   "Home safety",
+   "Few risks",
+   "8 risks fixed",
+   "All risks fixed and rechecked"
+  ],
+  [
+   "Emergency readiness",
+   "No card",
+   "Card made",
+   "Card tested with family"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Home-care assistant",
+   "Supports daily living"
+  ],
+  [
+   "Senior companion",
+   "Provides company and activity"
+  ],
+  [
+   "Care coordinator",
+   "Plans visits"
+  ],
+  [
+   "Family care trainer",
+   "Teaches safe routines"
+  ],
+  [
+   "Care-at-home entrepreneur",
+   "Starts a small service"
+  ]
+ ],
+ "next": "first aid, wellbeing, customer service.",
+ "local": "Care rules, licences and background checks differ by place.",
+ "ladder": [
+  [
+   "Respect and dignity",
+   "L1: learner can name basic needs of an older person. Focus module: Respect and dignity (Understand, 4 h). Care starts with the person, not the task. Key points: Ask what they want; offer choices; use their name. Protect privacy in washing, dressing and toilet care. Never treat an adult like a child.",
+   "Teach: open with the worked example. Mr Rao prefers tea at 7; the carer plans around it and keeps the bathroom door closed. Then set the activity: Write a \"what matters to me\" page with the person. Mark against the standard: Page uses their words. Check at this level: Why use their words? Model answer: It keeps dignity and choice. Start with respect."
+  ],
+  [
+   "Home safety check",
+   "L2: learner knows dignity and safety rules. Focus module: Home safety check (Analyse, 5 h). Most harm at home is preventable. Key points: Falls: loose rugs, poor light, wet floors, no rails. Fire and electrical hazards; gas safety. Easy-to-reach items and clear paths.",
+   "Teach: open with the worked example. A carer removes a loose mat and fits a night light, ending night-time stumbles. Then set the activity: Complete a checklist for one home. Mark against the standard: At least 8 risks found, each with a fix and date. Check at this level: Name three fall risks. Model answer: Loose rugs, poor light, wet floors. Show safety signs."
+  ],
+  [
+   "Daily living support",
+   "L3: learner can complete a home safety check. Focus module: Daily living support (Apply, 5 h). Support independence, not dependence. Key points: Meals, drinks and nutrition; assist with mobility; hygiene. Do with, not for, whenever possible. Safe lifting: ask for training; use aids.",
+   "Teach: open with the worked example. The carer sets out clothes in order and lets Mrs Iyer dress herself. Then set the activity: Plan a day routine with times. Mark against the standard: Routine covers meals, fluids, movement, rest and social time. Check at this level: Who decides doses? Model answer: The prescriber. Practise a check."
+  ],
+  [
+   "Medicines and health reminders",
+   "L4: learner can deliver a daily routine. Focus module: Medicines and health reminders (Apply, 4 h). Carers remind; clinicians decide. Key points: Use a pill organiser prepared by a pharmacist or nurse. Record what was taken; never change doses. Report new symptoms promptly.",
+   "Teach: open with the worked example. A weekly box with morning and evening slots reduces missed doses. Then set the activity: Create a reminder chart and record sheet. Mark against the standard: Chart matches the prescriber's list. Check at this level: When call emergency? Model answer: Chest pain, stroke signs, serious fall, breathing trouble. Role-play."
+  ],
+  [
+   "Mind, mood and memory",
+   "L5: learner can handle medicines reminders and emergencies. Focus module: Mind, mood and memory (Apply, 4 h). Loneliness and forgetfulness are common. Key points: Keep routine; use calendars and clocks; encourage activity. Be patient; do not argue about facts when kind redirection works. Watch for sudden confusion, which can mean illness.",
+   "Teach: open with the worked example. A daily 15-minute walk and a call to a grandchild lifts mood. Then set the activity: Plan a weekly social schedule. Mark against the standard: Includes five activities. Check at this level: What is \"do with, not for\"? Model answer: Support independence by helping only as needed. Emergency drills."
+  ],
+  [
+   "Family and carer wellbeing",
+   "L6: learner can coordinate a team. Focus module: Family and carer wellbeing (Evaluate, 3 h). Carers burn out. Key points: Share the load; take breaks; ask for respite. Keep a shared log or group message. Seek local support groups.",
+   "Teach: open with the worked example. Siblings take alternate weekends; stress drops. Then set the activity: Write a carer plan. Mark against the standard: Plan names who, when, what. Check at this level: Name one mood tip. Model answer: Daily activity and social contact. Cover rota."
+  ],
+  [
+   "Review and improve",
+   "L7: learner can audit a care plan. Focus module: Review and improve (Create, 4 h). Care plans change as needs change. Key points: Review monthly or after any event. Track weight, sleep, mood, falls. Celebrate good days.",
+   "Teach: open with the worked example. After a fall, a rail and a physiotherapy visit are added. Then set the activity: Present your plan review. Mark against the standard: Changes are dated and agreed with the person. Check at this level: What is sudden confusion a sign of? Model answer: Possible illness; seek help. Peer audit."
+  ]
+ ]
+}

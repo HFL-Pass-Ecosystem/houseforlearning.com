@@ -1,0 +1,291 @@
+{
+ "id": "GL-49",
+ "title": "Cryobank Operations (Awareness Level)",
+ "level": 2,
+ "desc": "Understand how biological sample banks are run: consent, labelling, cold storage, records, security and ethics. Awareness only.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain what a cryobank stores and why consent matters."
+  ],
+  [
+   "Apply",
+   "Fill a sample record and label correctly."
+  ],
+  [
+   "Analyse",
+   "Find risks in the cold chain."
+  ],
+  [
+   "Evaluate",
+   "Judge a bank's policies for security and fairness."
+  ],
+  [
+   "Create",
+   "Draft a daily operations checklist."
+  ]
+ ],
+ "task": "Create a daily operations checklist and a sample record template for a practice cryobank, and run a mock audit.",
+ "condition": "A computer, practice forms and a mentor. No real samples, personal data or hazardous materials are used.",
+ "standard": "Checklist covers temperature, alarms, labelling, access and records; mock audit finds at least 3 planted errors; peers rate Meets or better.",
+ "who": "Lab trainees, hospital store staff, health administrators.",
+ "req": "none",
+ "evidence": "checklist, record template, mock audit report",
+ "modules": [
+  [
+   "What a cryobank holds",
+   "Understand",
+   2,
+   "A cryobank stores biological samples at very low temperatures so they can be used later under agreed conditions.",
+   [
+    "Samples include cells, tissue, cord blood, reproductive cells and research samples.",
+    "Very low temperatures slow biological activity almost to a stop.",
+    "Each sample has an owner or custodian, a purpose and conditions of use.",
+    "A bank must be able to find, protect and prove the identity of every sample."
+   ],
+   "A family stores cord blood. The contract states storage period, who may request release, fees and what happens if the bank closes.",
+   "Summarise in one paragraph what a cryobank stores, why consent matters and how a sample is found again.",
+   "Summary names consent, storage conditions and traceability."
+  ],
+  [
+   "Consent and ownership",
+   "Understand",
+   2,
+   "People must understand what they agree to, and they must be able to change their mind within the rules.",
+   [
+    "Consent in plain language: purpose, duration, research use, fees, risks and withdrawal.",
+    "Children's samples need guardian consent and a plan for when the child becomes an adult.",
+    "Rules for disposal and for research use must be stated.",
+    "Keep signed forms linked to the sample record."
+   ],
+   "A form has a research-use tick box that defaults to \"No\". The donor ticks \"Yes, anonymised only\" and signs. The ID on the form matches the sample label.",
+   "Review a sample consent form and list four gaps.",
+   "Four real gaps found with a suggested fix for each."
+  ],
+  [
+   "Labelling and records",
+   "Apply",
+   2,
+   "A sample without a correct label is a lost sample.",
+   [
+    "Unique ID, date, sample type, volume, location (tank, rack, box, slot).",
+    "Two-person check at entry and removal.",
+    "Barcode plus a paper backup.",
+    "Never reuse or overwrite an ID."
+   ],
+   "Sample C-2031 is logged in tank 2, rack B, box 4, slot 7 by Ana and verified by Ravi. The barcode scan matches the form before the sample moves.",
+   "Fill five practice records and swap with a peer to check.",
+   "No errors and each record has two initials."
+  ],
+  [
+   "Cold chain and alarms",
+   "Analyse",
+   2,
+   "Temperature is the main risk. A failure can destroy samples in hours.",
+   [
+    "Daily log of temperature and nitrogen or power levels.",
+    "Alarms with a call-out list and backup power.",
+    "Transport in validated containers with a logger.",
+    "Test alarms regularly."
+   ],
+   "A night alarm triggers a call at 2:10 am, a technician arrives within 20 minutes and refills the tank before the temperature rises.",
+   "Mark five cold-chain risks on a floor plan and write a control for each.",
+   "Every risk has a control and an owner."
+  ],
+  [
+   "Safety for staff",
+   "Apply",
+   2,
+   "Extreme cold and nitrogen create real hazards.",
+   [
+    "Wear cryogenic gloves, face shield and apron when handling.",
+    "Oxygen sensors in rooms with nitrogen; ventilation.",
+    "Never work alone; know the evacuation route.",
+    "First aid for cold burns."
+   ],
+   "The oxygen alarm sounds. Staff leave the room immediately, ventilate from outside and only re-enter when the reading is safe.",
+   "Write five safety rules and one emergency drill.",
+   "Rules are specific and the drill names who does what."
+  ],
+  [
+   "Security and privacy",
+   "Evaluate",
+   2,
+   "Access is limited and logged because the data and samples are sensitive.",
+   [
+    "Badge access, camera at doors and a visitor log.",
+    "Only authorised staff see identity data.",
+    "Data stored securely and deleted per the rule.",
+    "Report breaches quickly."
+   ],
+   "A visitor must show ID, sign the log and be escorted. The log shows time in and out.",
+   "Review a security policy and list three strengths and three gaps.",
+   "Strengths and gaps are specific."
+  ],
+  [
+   "Ethics, fairness and cost",
+   "Evaluate",
+   2,
+   "Banks must be honest about benefits, fees and risks.",
+   [
+    "Clear fees and no pressure.",
+    "No misleading claims about future cures.",
+    "An exit plan if the bank closes.",
+    "Respect differing cultural and faith views."
+   ],
+   "A bank publishes a plan to transfer samples to another licensed bank at no extra charge if it closes.",
+   "List five ethics questions you would ask a bank.",
+   "Questions are fair and specific."
+  ],
+  [
+   "Checklist and mock audit",
+   "Create",
+   2,
+   "Practice the routine and prove you can find faults.",
+   [
+    "Daily, weekly and monthly checklist.",
+    "Audit trail and corrective action.",
+    "Plant three errors for a peer to find.",
+    "Review monthly."
+   ],
+   "A mock audit finds a missing second-person check, a late temperature entry and an unlabelled box. Each gets a corrective action.",
+   "Run a mock audit and write the report.",
+   "At least three planted errors found and fixed."
+  ]
+ ],
+ "quiz": [
+  [
+   "What does a cryobank store?",
+   "Cells, tissue or cord blood at low temperatures. (Covered in module 1: What a cryobank holds. To pass that module: Summary names consent, storage and use.)"
+  ],
+  [
+   "Why two-person checks?",
+   "They catch labelling mistakes. (Covered in module 2: Consent and ownership. To pass that module: Four gaps identified.)"
+  ],
+  [
+   "Name a cold-chain risk.",
+   "Power failure or low nitrogen. (Covered in module 3: Labelling and records. To pass that module: No errors.)"
+  ],
+  [
+   "Name a safety rule.",
+   "Never work alone; use ventilation. (Covered in module 4: Cold chain and alarms. To pass that module: Five risks with controls.)"
+  ],
+  [
+   "Who may access data?",
+   "Authorised staff only. (Covered in module 5: Safety for staff. To pass that module: Rules are specific.)"
+  ],
+  [
+   "What does consent include?",
+   "Use, duration, research, right to withdraw. (Covered in module 6: Security and privacy. To pass that module: Strengths and gaps listed.)"
+  ],
+  [
+   "Why backup labels?",
+   "Barcodes can fail. (Covered in module 7: Ethics, fairness and cost. To pass that module: Questions are fair.)"
+  ],
+  [
+   "What is an exit plan?",
+   "Steps to move samples if the bank closes. (Covered in module 8: Checklist and mock audit. To pass that module: Findings logged.)"
+  ],
+  [
+   "What is an audit trail?",
+   "Records showing who did what and when. (Covered in module 8: Checklist and mock audit. To pass that module: Findings logged.)"
+  ],
+  [
+   "Why logs?",
+   "To show control and find faults. (Covered in module 8: Checklist and mock audit. To pass that module: Findings logged.)"
+  ]
+ ],
+ "rubric": [
+  [
+   "Record accuracy",
+   "Errors",
+   "Accurate",
+   "Accurate with checks"
+  ],
+  [
+   "Risk control",
+   "Missing",
+   "Listed",
+   "Controls tested"
+  ],
+  [
+   "Audit",
+   "Not done",
+   "Done",
+   "Done with fixes"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Cryobank technician trainee",
+   "Handles records and logs"
+  ],
+  [
+   "Sample records clerk",
+   "Maintains data"
+  ],
+  [
+   "Quality assistant",
+   "Audits checklists"
+  ],
+  [
+   "Safety officer assistant",
+   "Checks controls"
+  ],
+  [
+   "Hospital store assistant",
+   "Manages cold stores"
+  ]
+ ],
+ "next": "stem cells awareness, DNA analysis, privacy protection practice.",
+ "local": "Laws for storing human tissue and data differ by place.",
+ "ladder": [
+  [
+   "What a cryobank holds",
+   "L1: learner can say what a cryobank stores. Focus module: What a cryobank holds (Understand, 2 h). Banks store cells, tissue or cord blood at very low temperatures. Key points: Used for later treatment or research under consent. Cold storage pauses biological activity. Each sample has an owner and conditions of use.",
+   "Teach: open with the worked example. A family stores cord blood; a contract states how long and who can request it. Then set the activity: Write a one-paragraph summary. Mark against the standard: Summary names consent, storage and use. Check at this level: What does a cryobank store? Model answer: Cells, tissue or cord blood at low temperatures. Explain with a picture."
+  ],
+  [
+   "Consent and ownership",
+   "L2: learner knows consent basics. Focus module: Consent and ownership (Understand, 2 h). People must know what they agree to. Key points: Consent in plain language; the right to withdraw. Rules for research use and disposal. Children's samples need guardian consent and review at adulthood in many places.",
+   "Teach: open with the worked example. A form has a tick box for research use that defaults to No. Then set the activity: Review a sample consent form. Mark against the standard: Four gaps identified. Check at this level: Why two-person checks? Model answer: They catch labelling mistakes. Show consent form."
+  ],
+  [
+   "Labelling and records",
+   "L3: learner can fill a record correctly. Focus module: Labelling and records (Apply, 2 h). A sample without a correct label is lost. Key points: Unique ID, date, type, volume, location. Two-person check at entry and removal. Barcode and a paper backup.",
+   "Teach: open with the worked example. ID C-2031 is logged in tank 2, rack B, box 4, slot 7. Then set the activity: Fill 5 practice records. Mark against the standard: No errors. Check at this level: Name a cold-chain risk. Model answer: Power failure or low nitrogen. Practise labels."
+  ],
+  [
+   "Cold chain and alarms",
+   "L4: learner can run daily checks. Focus module: Cold chain and alarms (Analyse, 2 h). Temperature is the main risk. Key points: Daily log of temperature and nitrogen or power levels. Alarms with call-out lists; backup power. Transport in validated containers.",
+   "Teach: open with the worked example. A night alarm leads to a refill within 20 minutes. Then set the activity: Mark risks on a floor plan. Mark against the standard: Five risks with controls. Check at this level: Name a safety rule. Model answer: Never work alone; use ventilation. Walk through alarm drill."
+  ],
+  [
+   "Safety for staff",
+   "L5: learner can audit a bank. Focus module: Safety for staff (Apply, 2 h). Extreme cold and gases are hazards. Key points: Gloves, face shield, ventilation. Oxygen sensors in rooms with nitrogen. Never work alone.",
+   "Teach: open with the worked example. Staff leave the room immediately when the oxygen alarm sounds. Then set the activity: Write five safety rules. Mark against the standard: Rules are specific. Check at this level: Who may access data? Model answer: Authorised staff only. Mock audit."
+  ],
+  [
+   "Ethics, fairness and cost",
+   "L6: learner can lead a small shift. Focus module: Ethics, fairness and cost (Evaluate, 2 h). Commercial banks must be honest. Key points: Clear fees; no pressure. No misleading claims about future cures. Exit plan if a bank closes.",
+   "Teach: open with the worked example. A bank has a written plan to transfer samples if it closes. Then set the activity: List five ethics questions. Mark against the standard: Questions are fair. Check at this level: What does consent include? Model answer: Use, duration, research, right to withdraw. Cover shifts."
+  ],
+  [
+   "Checklist and mock audit",
+   "L7: learner can advise on policy. Focus module: Checklist and mock audit (Create, 2 h). Practise audit. Key points: Daily, weekly, monthly tasks. Audit trail and corrective action. Review each month.",
+   "Teach: open with the worked example. The audit finds a missing second-person check and a late log. Then set the activity: Run a mock audit. Mark against the standard: Findings logged. Check at this level: Why backup labels? Model answer: Barcodes can fail. Peer audit."
+  ]
+ ]
+}

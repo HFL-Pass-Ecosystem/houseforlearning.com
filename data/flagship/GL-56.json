@@ -1,0 +1,291 @@
+{
+ "id": "GL-56",
+ "title": "Solar Power Design and Installation Basics",
+ "level": 3,
+ "desc": "Learn to size, design and plan a small solar system with correct safety, cost, layout and handover.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain how panels, inverters and batteries work together."
+  ],
+  [
+   "Apply",
+   "Size a small system from a load list."
+  ],
+  [
+   "Analyse",
+   "Check roof, shade and orientation."
+  ],
+  [
+   "Evaluate",
+   "Judge safety, cost and payback."
+  ],
+  [
+   "Create",
+   "Produce a design pack and handover sheet."
+  ]
+ ],
+ "task": "Design a small rooftop solar system for a practice home or shop, with load list, size, layout, safety plan, cost, payback and handover sheet.",
+ "condition": "A computer, a spreadsheet, a floor plan or satellite view, two peers and a licensed electrician mentor. Installation on live wiring is done only by licensed people.",
+ "standard": "Load list and size are correct; roof and shade checks are done; protective devices and earthing are listed; cost and payback shown; a licensed person signs the design; peers rate Meets or better.",
+ "who": "Trainee electricians, technicians, small shop owners, community energy workers.",
+ "req": "none",
+ "evidence": "load list, sizing sheet, layout drawing, safety plan, cost sheet, handover sheet",
+ "modules": [
+  [
+   "How a solar system works",
+   "Understand",
+   3,
+   "Panels turn sunlight into direct current electricity; an inverter changes it to the alternating current your appliances use.",
+   [
+    "Types: grid-tied, off-grid with batteries, and hybrid.",
+    "Parts: panels, mounting, inverter, cables, breakers, meter, optional battery.",
+    "Energy units: kWh = kW x hours.",
+    "Output depends on sun, temperature, shade, tilt and dirt."
+   ],
+   "A grid-tied system sends extra daytime power to the network and draws from it at night. A hybrid system also charges a battery for backup.",
+   "Draw a block diagram of a hybrid system and label each part.",
+   "All parts named and the energy flow is correct."
+  ],
+  [
+   "Load list",
+   "Apply",
+   4,
+   "Know what you use before sizing anything.",
+   [
+    "List each appliance with watts and hours used per day.",
+    "Add up daily watt-hours; check against bills.",
+    "Cut waste first with efficient lamps, fans and cooling.",
+    "Note peak load and any large motor starts."
+   ],
+   "A shop uses 12 kWh a day. Efficient lights save 1.5 kWh, so the system is sized for 10.5 kWh.",
+   "Make a load list for a practice building with at least ten loads.",
+   "Totals are correct and checked against a bill."
+  ],
+  [
+   "Site survey",
+   "Analyse",
+   4,
+   "The roof and its surroundings decide the output.",
+   [
+    "Check orientation, tilt, shading, roof strength and space.",
+    "Find sun hours per day in your place from public data.",
+    "Look for safe access and fall protection.",
+    "Photograph the roof and the electrical panel."
+   ],
+   "A water tank shades part of the roof in the afternoon and would cost 8 per cent of annual output. The panels are moved to another section.",
+   "Do a mock survey from photos and write a findings sheet.",
+   "Findings listed with fixes."
+  ],
+  [
+   "Sizing the system",
+   "Apply",
+   5,
+   "Match supply to load with a transparent calculation.",
+   [
+    "Panel kW = daily kWh / (sun hours x system efficiency).",
+    "Choose an inverter slightly below panel kW.",
+    "Battery size = backup hours x load / (depth of discharge).",
+    "Check voltage and current limits."
+   ],
+   "12 kWh a day, 5 sun hours and 0.75 efficiency gives 12 / (5 x 0.75) = 3.2 kW of panels, about eight 400 W panels.",
+   "Size a system for your load list and show all steps.",
+   "Calculations are correct with units."
+  ],
+  [
+   "Electrical protection and earthing",
+   "Apply",
+   5,
+   "Safety devices are not optional.",
+   [
+    "Fuses or breakers on each string and on the AC side, surge protection, isolators and earthing.",
+    "Correct cable size, colour and routing.",
+    "Label every device and the main switch.",
+    "Only a licensed electrician connects to the grid or home wiring."
+   ],
+   "A DC isolator is added near the inverter and a label at the main board reads \"Solar supply – isolate both sources\".",
+   "List all protective devices for your design.",
+   "Licensed mentor approves the list."
+  ],
+  [
+   "Safety on site",
+   "Evaluate",
+   4,
+   "Heights and live parts demand a safe method.",
+   [
+    "Fall protection, safe ladders and PPE.",
+    "Panels make power in daylight: treat all wiring as live.",
+    "Lock-out and tag-out; weather checks.",
+    "Never work alone."
+   ],
+   "A crew stops roof work on a windy afternoon and reschedules for the next morning.",
+   "Write a site safety plan.",
+   "Plan names hazards, controls and who is responsible."
+  ],
+  [
+   "Cost and payback",
+   "Evaluate",
+   4,
+   "Know the real numbers before you decide.",
+   [
+    "Costs: panels, inverter, mounting, cable, labour, permits, insurance.",
+    "Savings: bills avoided or income from export; maintenance costs.",
+    "Payback and cost per kWh over system life.",
+    "Test with price rises and shading losses."
+   ],
+   "Cost 2,10,000 INR; saving 32,000 INR per year; payback 6.6 years.",
+   "Build a cost sheet with currency shown.",
+   "Maths correct and assumptions listed."
+  ],
+  [
+   "Design pack and handover",
+   "Create",
+   4,
+   "Hand over a pack that someone else can understand and maintain.",
+   [
+    "Single-line diagram, layout drawing, specifications and warranty.",
+    "Train the owner on cleaning, monitoring and shut-down.",
+    "Schedule checks every six months.",
+    "Keep records."
+   ],
+   "The owner receives a one-page guide with shut-down steps, an emergency contact and a cleaning schedule.",
+   "Produce a design pack and handover sheet.",
+   "Pack is signed by a licensed person."
+  ]
+ ],
+ "quiz": [
+  [
+   "What converts DC to AC?",
+   "Inverter. (Covered in module 1: System parts. To pass that module: All parts named.)"
+  ],
+  [
+   "kWh equals?",
+   "kW times hours. (Covered in module 2: Load list. To pass that module: Totals correct.)"
+  ],
+  [
+   "Name a shading effect.",
+   "Output drops. (Covered in module 3: Site survey. To pass that module: Findings listed with fixes.)"
+  ],
+  [
+   "Panel sizing formula?",
+   "Daily kWh / (sun hours x efficiency). (Covered in module 4: Sizing. To pass that module: Steps shown.)"
+  ],
+  [
+   "Name two protective devices.",
+   "Breaker and surge protector. (Covered in module 5: Electrical protection and earthing. To pass that module: Licensed mentor approves.)"
+  ],
+  [
+   "Who may wire live circuits?",
+   "Licensed electricians. (Covered in module 6: Safety on site. To pass that module: Plan names hazards and controls.)"
+  ],
+  [
+   "Why label everything?",
+   "Safe maintenance and emergency. (Covered in module 7: Cost and payback. To pass that module: Maths correct; currency shown.)"
+  ],
+  [
+   "Payback formula?",
+   "Cost / yearly saving. (Covered in module 8: Design pack and handover. To pass that module: Pack signed by a licensed person.)"
+  ],
+  [
+   "Why cut waste first?",
+   "Smaller, cheaper system. (Covered in module 8: Design pack and handover. To pass that module: Pack signed by a licensed person.)"
+  ],
+  [
+   "Are panels live in daylight?",
+   "Yes. (Covered in module 8: Design pack and handover. To pass that module: Pack signed by a licensed person.)"
+  ]
+ ],
+ "rubric": [
+  [
+   "Sizing",
+   "Wrong",
+   "Correct",
+   "Correct with checks"
+  ],
+  [
+   "Protection",
+   "Missing",
+   "Listed",
+   "Listed and approved"
+  ],
+  [
+   "Cost",
+   "Incomplete",
+   "Complete",
+   "Complete with sensitivity"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Solar installer assistant",
+   "Supports installs"
+  ],
+  [
+   "Solar designer trainee",
+   "Prepares layouts"
+  ],
+  [
+   "Site surveyor",
+   "Checks roofs"
+  ],
+  [
+   "Energy auditor assistant",
+   "Builds load lists"
+  ],
+  [
+   "Customer handover officer",
+   "Trains owners"
+  ]
+ ],
+ "next": "wind energy, electric car basics, energy efficiency.",
+ "local": "Electrical and net-metering rules differ by place.",
+ "ladder": [
+  [
+   "System parts",
+   "L1: learner can name solar parts. Focus module: System parts (Understand, 3 h). Panels make direct current; the inverter converts it. Key points: Types: grid-tied, off-grid, hybrid. Parts: panels, mounting, inverter, wiring, breakers, meter, optional battery. Energy: kWh = kW x hours.",
+   "Teach: open with the worked example. A grid-tied system sends extra power to the network. Then set the activity: Draw a block diagram. Mark against the standard: All parts named. Check at this level: What converts DC to AC? Model answer: Inverter. Diagram."
+  ],
+  [
+   "Load list",
+   "L2: learner knows safety basics. Focus module: Load list (Apply, 4 h). Know what you use. Key points: List each appliance: watts, hours a day. Add daily watt-hours; check bills. Cut waste first, with efficient lamps and fans.",
+   "Teach: open with the worked example. A shop uses 12 kWh a day; efficient lights save 1.5 kWh. Then set the activity: Make a load list. Mark against the standard: Totals correct. Check at this level: kWh equals? Model answer: kW times hours. Safety."
+  ],
+  [
+   "Site survey",
+   "L3: learner can make a load list. Focus module: Site survey (Analyse, 4 h). Roof and shade decide output. Key points: Orientation, tilt, shade, roof strength, space. Sun hours per day in your place. Safe roof access and fall protection.",
+   "Teach: open with the worked example. A shade from a tank costs 8% in the afternoon; panels are moved. Then set the activity: Do a mock survey from a photo. Mark against the standard: Findings listed with fixes. Check at this level: Name a shading effect. Model answer: Output drops. Load list."
+  ],
+  [
+   "Sizing",
+   "L4: learner can size a small system. Focus module: Sizing (Apply, 5 h). Match supply to load. Key points: Panel kW = daily kWh / (sun hours x system efficiency). Choose inverter slightly below panel kW. Battery size from backup hours and depth of discharge.",
+   "Teach: open with the worked example. 12 kWh a day, 5 sun hours, 0.75 efficiency: about 3.2 kW of panels. Then set the activity: Size your system. Mark against the standard: Steps shown. Check at this level: Panel sizing formula? Model answer: Daily kWh / (sun hours x efficiency). Size."
+  ],
+  [
+   "Electrical protection and earthing",
+   "L5: learner can design protection and cost. Focus module: Electrical protection and earthing (Apply, 5 h). Safety is not optional. Key points: Fuses, breakers, surge protection, isolators and earthing. Correct cable size and colours. Label everything.",
+   "Teach: open with the worked example. A DC isolator is added near the inverter. Then set the activity: List protective devices. Mark against the standard: Licensed mentor approves. Check at this level: Name two protective devices. Model answer: Breaker and surge protector. Protection."
+  ],
+  [
+   "Cost and payback",
+   "L6: learner can lead a small crew. Focus module: Cost and payback (Evaluate, 4 h). Know the real numbers. Key points: Panels, inverter, mounting, cable, labour, permits. Savings per year from bills; maintenance. Payback and lifetime cost per kWh.",
+   "Teach: open with the worked example. Cost 210,000 INR; saving 32,000 INR a year; payback 6.6 years. Then set the activity: Build a cost sheet. Mark against the standard: Maths correct; currency shown. Check at this level: Who may wire live circuits? Model answer: Licensed electricians. Crew."
+  ],
+  [
+   "Design pack and handover",
+   "L7: learner can audit a design. Focus module: Design pack and handover (Create, 4 h). Hand over a clear pack. Key points: Single-line diagram, layout, specs, warranty. Teach the owner cleaning and safety. Plan checks every six months.",
+   "Teach: open with the worked example. The owner receives a one-page guide with shut-down steps. Then set the activity: Produce a design pack and handover sheet. Mark against the standard: Pack signed by a licensed person. Check at this level: Why label everything? Model answer: Safe maintenance and emergency. Peer audit."
+  ]
+ ]
+}

@@ -1,0 +1,283 @@
+{
+ "id": "GL-68",
+ "title": "Space Tourism Awareness",
+ "level": 2,
+ "desc": "Understand what suborbital and orbital tourism are, the risks, cost, rules and careers, and how to read claims.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain suborbital and orbital flights."
+  ],
+  [
+   "Apply",
+   "Read a flight profile."
+  ],
+  [
+   "Analyse",
+   "Compare cost, risk and environment."
+  ],
+  [
+   "Evaluate",
+   "Judge safety and fairness."
+  ],
+  [
+   "Create",
+   "Write a fact sheet."
+  ]
+ ],
+ "task": "Produce a two-page fact sheet on space tourism with flight types, risks, costs, environmental impact and careers.",
+ "condition": "A computer, public information, two peers and a mentor.",
+ "standard": "Facts sourced and dated; risks stated; claims checked; peers rate Meets or better.",
+ "who": "Students, travel staff, writers, enthusiasts.",
+ "req": "none",
+ "evidence": "fact sheet, comparison table",
+ "modules": [
+  [
+   "What counts as space",
+   "Understand",
+   2,
+   "The edge of space.",
+   [
+    "A common line is 100 km up.",
+    "Suborbital goes up and falls back.",
+    "Orbital circles Earth."
+   ],
+   "A short flight gives a few minutes of weightlessness.",
+   "Explain the difference.",
+   "Peer understands."
+  ],
+  [
+   "Flight types",
+   "Understand",
+   2,
+   "Rocket, balloon, plane.",
+   [
+    "Rocket planes, capsules, high balloons.",
+    "Time, altitude and experience vary.",
+    "Training is needed."
+   ],
+   "Balloon flights reach about 30 km.",
+   "Compare types.",
+   "Table complete."
+  ],
+  [
+   "Safety and health",
+   "Evaluate",
+   2,
+   "Risk is real.",
+   [
+    "Acceleration, vibration, radiation, emergencies.",
+    "Medical checks and training.",
+    "Incident history is public."
+   ],
+   "Passengers train for high G.",
+   "List risks.",
+   "Each risk has a control."
+  ],
+  [
+   "Cost and access",
+   "Analyse",
+   2,
+   "Very expensive today.",
+   [
+    "Costs are in the hundreds of thousands and above.",
+    "Price may fall.",
+    "Access is unequal."
+   ],
+   "A seat costs more than a lifetime of savings for most.",
+   "Discuss fairness.",
+   "Fair views."
+  ],
+  [
+   "Environment",
+   "Analyse",
+   2,
+   "Rockets emit.",
+   [
+    "Soot and gases in high air.",
+    "Launch frequency matters.",
+    "Fuel type changes impacts."
+   ],
+   "Per passenger emissions are high.",
+   "Check a claim.",
+   "Source dated."
+  ],
+  [
+   "Rules and licensing",
+   "Evaluate",
+   2,
+   "Regulated by authorities.",
+   [
+    "Launch licences, informed consent.",
+    "Passenger responsibility.",
+    "Insurance."
+   ],
+   "Operators must tell passengers risks.",
+   "List rules.",
+   "Sources named."
+  ],
+  [
+   "Careers and ground services",
+   "Understand",
+   2,
+   "Not just pilots.",
+   [
+    "Engineers, medics, trainers, guides, safety.",
+    "Hospitality and data roles.",
+    "Local spaceports."
+   ],
+   "A spaceport employs hundreds in ground roles.",
+   "List ten roles.",
+   "Roles correct."
+  ],
+  [
+   "Fact sheet",
+   "Create",
+   2,
+   "Balanced writing.",
+   [
+    "Plain language.",
+    "State limits.",
+    "Test with a reader."
+   ],
+   "Reader repeats three facts.",
+   "Finish.",
+   "Reader can repeat."
+  ]
+ ],
+ "quiz": [
+  [
+   "Space line?",
+   "About 100 km. (Covered in module 1: What counts as space. To pass that module: Peer understands.)"
+  ],
+  [
+   "Suborbital?",
+   "Up and back without orbit. (Covered in module 2: Flight types. To pass that module: Table complete.)"
+  ],
+  [
+   "Name a risk.",
+   "High G or radiation. (Covered in module 3: Safety and health. To pass that module: Each risk has a control.)"
+  ],
+  [
+   "Cost?",
+   "Very high today. (Covered in module 4: Cost and access. To pass that module: Fair views.)"
+  ],
+  [
+   "Environmental issue?",
+   "Emissions in high air. (Covered in module 5: Environment. To pass that module: Source dated.)"
+  ],
+  [
+   "Rule?",
+   "Licence and informed consent. (Covered in module 6: Rules and licensing. To pass that module: Sources named.)"
+  ],
+  [
+   "Ground roles?",
+   "Engineers, medics, trainers. (Covered in module 7: Careers and ground services. To pass that module: Roles correct.)"
+  ],
+  [
+   "Why check claims?",
+   "Hype. (Covered in module 8: Fact sheet. To pass that module: Reader can repeat.)"
+  ],
+  [
+   "Balloon altitude?",
+   "About 30 km. (Covered in module 8: Fact sheet. To pass that module: Reader can repeat.)"
+  ],
+  [
+   "Fairness issue?",
+   "Access. (Covered in module 8: Fact sheet. To pass that module: Reader can repeat.)"
+  ]
+ ],
+ "rubric": [
+  [
+   "Accuracy",
+   "Errors",
+   "Correct",
+   "Correct and sourced"
+  ],
+  [
+   "Balance",
+   "One-sided",
+   "Both",
+   "Both with limits"
+  ],
+  [
+   "Clarity",
+   "Hard",
+   "Clear",
+   "Tested"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Spaceport guest services",
+   "Welcomes guests"
+  ],
+  [
+   "Aerospace ground assistant",
+   "Supports crews"
+  ],
+  [
+   "Travel adviser",
+   "Explains options"
+  ],
+  [
+   "Science communicator",
+   "Writes factual guides"
+  ],
+  [
+   "Safety administration assistant",
+   "Tracks training"
+  ]
+ ],
+ "next": "drones, nanosatellites, adventure tourism.",
+ "local": "Space regulation differs by country.",
+ "ladder": [
+  [
+   "What counts as space",
+   "L1: learner can say what space is. Focus module: What counts as space (Understand, 2 h). The edge of space. Key points: A common line is 100 km up. Suborbital goes up and falls back. Orbital circles Earth.",
+   "Teach: open with the worked example. A short flight gives a few minutes of weightlessness. Then set the activity: Explain the difference. Mark against the standard: Peer understands. Check at this level: Space line? Model answer: About 100 km. Define."
+  ],
+  [
+   "Flight types",
+   "L2: learner knows flight types. Focus module: Flight types (Understand, 2 h). Rocket, balloon, plane. Key points: Rocket planes, capsules, high balloons. Time, altitude and experience vary. Training is needed.",
+   "Teach: open with the worked example. Balloon flights reach about 30 km. Then set the activity: Compare types. Mark against the standard: Table complete. Check at this level: Suborbital? Model answer: Up and back without orbit. Types."
+  ],
+  [
+   "Safety and health",
+   "L3: learner can read a profile. Focus module: Safety and health (Evaluate, 2 h). Risk is real. Key points: Acceleration, vibration, radiation, emergencies. Medical checks and training. Incident history is public.",
+   "Teach: open with the worked example. Passengers train for high G. Then set the activity: List risks. Mark against the standard: Each risk has a control. Check at this level: Name a risk. Model answer: High G or radiation. Profile."
+  ],
+  [
+   "Cost and access",
+   "L4: learner can compare costs. Focus module: Cost and access (Analyse, 2 h). Very expensive today. Key points: Costs are in the hundreds of thousands and above. Price may fall. Access is unequal.",
+   "Teach: open with the worked example. A seat costs more than a lifetime of savings for most. Then set the activity: Discuss fairness. Mark against the standard: Fair views. Check at this level: Cost? Model answer: Very high today. Costs."
+  ],
+  [
+   "Environment",
+   "L5: learner can review safety. Focus module: Environment (Analyse, 2 h). Rockets emit. Key points: Soot and gases in high air. Launch frequency matters. Fuel type changes impacts.",
+   "Teach: open with the worked example. Per passenger emissions are high. Then set the activity: Check a claim. Mark against the standard: Source dated. Check at this level: Environmental issue? Model answer: Emissions in high air. Safety."
+  ],
+  [
+   "Careers and ground services",
+   "L6: learner can coordinate guest services. Focus module: Careers and ground services (Understand, 2 h). Not just pilots. Key points: Engineers, medics, trainers, guides, safety. Hospitality and data roles. Local spaceports.",
+   "Teach: open with the worked example. A spaceport employs hundreds in ground roles. Then set the activity: List ten roles. Mark against the standard: Roles correct. Check at this level: Rule? Model answer: Licence and informed consent. Team."
+  ],
+  [
+   "Fact sheet",
+   "L7: learner can audit a sheet. Focus module: Fact sheet (Create, 2 h). Balanced writing. Key points: Plain language. State limits. Test with a reader.",
+   "Teach: open with the worked example. Reader repeats three facts. Then set the activity: Finish. Mark against the standard: Reader can repeat. Check at this level: Ground roles? Model answer: Engineers, medics, trainers. Peer audit."
+  ]
+ ]
+}

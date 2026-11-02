@@ -1,0 +1,283 @@
+{
+ "id": "GL-73",
+ "title": "3D Printing",
+ "level": 3,
+ "desc": "Learn to design, slice, print, finish and cost 3D-printed parts safely and sell them honestly.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain printer types and materials."
+  ],
+  [
+   "Apply",
+   "Prepare a model and slice it."
+  ],
+  [
+   "Analyse",
+   "Fix common failures."
+  ],
+  [
+   "Evaluate",
+   "Judge strength, safety and cost."
+  ],
+  [
+   "Create",
+   "Print and finish a useful part."
+  ]
+ ],
+ "task": "Design or select a part, print it, finish it, test it against a requirement and cost it for sale.",
+ "condition": "Access to a printer (own, makerspace or partner), a computer, free software, two peers and a mentor.",
+ "standard": "Part meets the dimensions within 0.3 mm; print log shows settings; failure analysis written; safety rules followed; cost per part shown; peers rate Meets or better.",
+ "who": "Makers, students, product designers, small manufacturers.",
+ "req": "none",
+ "evidence": "model, slicer settings, print log, test record, cost sheet",
+ "modules": [
+  [
+   "Printers and materials",
+   "Understand",
+   3,
+   "Know the options.",
+   [
+    "Filament (fused) and resin printers.",
+    "Plastics: PLA, PETG, ABS; resins need care.",
+    "Match material to use."
+   ],
+   "PLA is easy; PETG tougher.",
+   "Compare materials.",
+   "Table."
+  ],
+  [
+   "Design for printing",
+   "Apply",
+   4,
+   "Print-friendly shapes.",
+   [
+    "Wall thickness, overhangs, tolerances.",
+    "Orientation matters for strength.",
+    "Add chamfers."
+   ],
+   "A bracket printed on its side is stronger.",
+   "Design a part.",
+   "Dimensions listed."
+  ],
+  [
+   "Slicing",
+   "Apply",
+   4,
+   "Settings.",
+   [
+    "Layer height, infill, speed, supports.",
+    "Preview the path.",
+    "Save settings."
+   ],
+   "0.2 mm layers with 20% infill.",
+   "Slice your part.",
+   "Preview checked."
+  ],
+  [
+   "Printing and safety",
+   "Apply",
+   4,
+   "Hot, moving, fumes.",
+   [
+    "Ventilation; do not touch hot parts.",
+    "Never leave long prints unattended without safeguards.",
+    "Resin: gloves and eye protection."
+   ],
+   "A smoke alarm and a fire blanket nearby.",
+   "Print and log.",
+   "Log complete."
+  ],
+  [
+   "Troubleshooting",
+   "Analyse",
+   3,
+   "Fix failures.",
+   [
+    "Warping, stringing, poor adhesion, clogs.",
+    "Change one setting at a time.",
+    "Keep notes."
+   ],
+   "A heated bed fixes warping.",
+   "Fix two issues.",
+   "Notes recorded."
+  ],
+  [
+   "Finishing",
+   "Apply",
+   3,
+   "Look professional.",
+   [
+    "Remove supports, sand, prime, paint.",
+    "Resin: wash and cure.",
+    "Check fit."
+   ],
+   "Sanding to 400 grit.",
+   "Finish the part.",
+   "Smooth."
+  ],
+  [
+   "Testing",
+   "Evaluate",
+   3,
+   "Does it work?",
+   [
+    "Dimension check with calipers.",
+    "Load test within safe limits.",
+    "Document."
+   ],
+   "The bracket holds 5 kg.",
+   "Test.",
+   "Record."
+  ],
+  [
+   "Cost and sale",
+   "Create",
+   3,
+   "Price honestly.",
+   [
+    "Material, power, machine time, labour, failures.",
+    "Quote per part.",
+    "Disclose limits."
+   ],
+   "Cost 62 INR; price 150 INR.",
+   "Cost it.",
+   "Currency shown."
+  ]
+ ],
+ "quiz": [
+  [
+   "Easy filament?",
+   "PLA. (Covered in module 1: Printers and materials. To pass that module: Table.)"
+  ],
+  [
+   "Overhang fix?",
+   "Supports. (Covered in module 2: Design for printing. To pass that module: Dimensions listed.)"
+  ],
+  [
+   "Resin safety?",
+   "Gloves and eye protection. (Covered in module 3: Slicing. To pass that module: Preview checked.)"
+  ],
+  [
+   "Why ventilate?",
+   "Fumes. (Covered in module 4: Printing and safety. To pass that module: Log complete.)"
+  ],
+  [
+   "Warping fix?",
+   "Heated bed. (Covered in module 5: Troubleshooting. To pass that module: Notes recorded.)"
+  ],
+  [
+   "Measuring tool?",
+   "Calipers. (Covered in module 6: Finishing. To pass that module: Smooth.)"
+  ],
+  [
+   "Costs?",
+   "Material, power, time, labour, failures. (Covered in module 7: Testing. To pass that module: Record.)"
+  ],
+  [
+   "Orientation effect?",
+   "Strength. (Covered in module 8: Cost and sale. To pass that module: Currency shown.)"
+  ],
+  [
+   "Why log?",
+   "Repeat results. (Covered in module 8: Cost and sale. To pass that module: Currency shown.)"
+  ],
+  [
+   "Disclose?",
+   "Limits. (Covered in module 8: Cost and sale. To pass that module: Currency shown.)"
+  ]
+ ],
+ "rubric": [
+  [
+   "Print quality",
+   "Poor",
+   "Good",
+   "Excellent and repeatable"
+  ],
+  [
+   "Safety",
+   "Gaps",
+   "Followed",
+   "Followed and logged"
+  ],
+  [
+   "Cost",
+   "No costs",
+   "Costs",
+   "Costs with failure margin"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "3D print technician",
+   "Runs printers"
+  ],
+  [
+   "Product prototyper",
+   "Builds models"
+  ],
+  [
+   "Makerspace assistant",
+   "Supports users"
+  ],
+  [
+   "Small-batch manufacturer",
+   "Sells parts"
+  ],
+  [
+   "Design assistant",
+   "Prepares models"
+  ]
+ ],
+ "next": "3D home building, smart apparel, product design.",
+ "local": "Product-safety and IP rules differ by place; do not copy protected designs.",
+ "ladder": [
+  [
+   "Printers and materials",
+   "L1: learner can name printer types. Focus module: Printers and materials (Understand, 3 h). Know the options. Key points: Filament (fused) and resin printers. Plastics: PLA, PETG, ABS; resins need care. Match material to use.",
+   "Teach: open with the worked example. PLA is easy; PETG tougher. Then set the activity: Compare materials. Mark against the standard: Table. Check at this level: Easy filament? Model answer: PLA. Types."
+  ],
+  [
+   "Design for printing",
+   "L2: learner knows safety. Focus module: Design for printing (Apply, 4 h). Print-friendly shapes. Key points: Wall thickness, overhangs, tolerances. Orientation matters for strength. Add chamfers.",
+   "Teach: open with the worked example. A bracket printed on its side is stronger. Then set the activity: Design a part. Mark against the standard: Dimensions listed. Check at this level: Overhang fix? Model answer: Supports. Safety."
+  ],
+  [
+   "Slicing",
+   "L3: learner can slice. Focus module: Slicing (Apply, 4 h). Settings. Key points: Layer height, infill, speed, supports. Preview the path. Save settings.",
+   "Teach: open with the worked example. 0.2 mm layers with 20% infill. Then set the activity: Slice your part. Mark against the standard: Preview checked. Check at this level: Resin safety? Model answer: Gloves and eye protection. Slice."
+  ],
+  [
+   "Printing and safety",
+   "L4: learner can print. Focus module: Printing and safety (Apply, 4 h). Hot, moving, fumes. Key points: Ventilation; do not touch hot parts. Never leave long prints unattended without safeguards. Resin: gloves and eye protection.",
+   "Teach: open with the worked example. A smoke alarm and a fire blanket nearby. Then set the activity: Print and log. Mark against the standard: Log complete. Check at this level: Why ventilate? Model answer: Fumes. Print."
+  ],
+  [
+   "Troubleshooting",
+   "L5: learner can fix and cost. Focus module: Troubleshooting (Analyse, 3 h). Fix failures. Key points: Warping, stringing, poor adhesion, clogs. Change one setting at a time. Keep notes.",
+   "Teach: open with the worked example. A heated bed fixes warping. Then set the activity: Fix two issues. Mark against the standard: Notes recorded. Check at this level: Warping fix? Model answer: Heated bed. Fix."
+  ],
+  [
+   "Testing",
+   "L6: learner can lead a lab. Focus module: Testing (Evaluate, 3 h). Does it work? Key points: Dimension check with calipers. Load test within safe limits. Document.",
+   "Teach: open with the worked example. The bracket holds 5 kg. Then set the activity: Test. Mark against the standard: Record. Check at this level: Measuring tool? Model answer: Calipers. Lead."
+  ],
+  [
+   "Cost and sale",
+   "L7: learner can audit. Focus module: Cost and sale (Create, 3 h). Price honestly. Key points: Material, power, machine time, labour, failures. Quote per part. Disclose limits.",
+   "Teach: open with the worked example. Cost 62 INR; price 150 INR. Then set the activity: Cost it. Mark against the standard: Currency shown. Check at this level: Costs? Model answer: Material, power, time, labour, failures. Peer audit."
+  ]
+ ]
+}
