@@ -109,3 +109,4 @@ a{text-underline-offset:3px}
 #mphoto:not([src]){display:none}
 .th-more{max-width:100%;white-space:normal}
 .sec.op-host{overflow-x:clip}
+.tbl-wrap{overflow-x:auto;max-width:100%}.tbl-wrap table{border-collapse:collapse;width:100%;min-width:520px}.tbl-wrap caption{text-align:left;font-weight:600;padding:0 0 8px}.tbl-wrap th,.tbl-wrap td{border:1px solid #d9d3c0;padding:8px 10px;text-align:left;vertical-align:top}.tbl-wrap thead th{background:#f2eee2}
