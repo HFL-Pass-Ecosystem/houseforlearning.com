@@ -50,14 +50,20 @@ for f,r in rows.items():
     if r['ladder']!='slides': miss.append('ladder:'+r['ladder'])
     if miss: bad.append((f,miss))
 
-# Bloom action verbs a module standard may start with (Remember, Understand, Apply, Analyse, Evaluate, Create). "Pass the check" and vague verbs are not on it.
-BLOOM=set("""remember define identify list name recall recognise recognize state select match label find choose cite read spot
-understand describe explain interpret summarise summarize classify compare contrast distinguish clarify show discuss report paraphrase translate
-apply use calculate complete demonstrate record enter prepare practise practice solve execute implement carry adjust configure update respond triage escalate protect
-add mark plot draw divide reconcile test check verify rewrite edit correct modify adapt arrange reorder measure collect build construct facilitate introduce present
-analyse analyze examine break differentiate organise organize attribute
-evaluate reflect judge justify review rank rate decide critique assess defend support
-create design write plan produce draft propose compose develop formulate generate make""".split())
+# Bloom action verbs a module standard may start with: the project list (data/verbs.json) plus data/verbs-extra.json.
+import json as _json, os as _os
+def _load_bloom():
+    root=_os.path.join(_os.path.dirname(_os.path.abspath(__file__)),'..','data')
+    out=set()
+    v=_json.load(open(_os.path.join(root,'verbs.json'),encoding='utf-8'))
+    for lv in v['levels'].values():
+        for w in lv['core']+lv['more']: out.add(w.lower().split()[0])
+    ex=_os.path.join(root,'verbs-extra.json')
+    if _os.path.exists(ex):
+        for ws in _json.load(open(ex,encoding='utf-8'))['levels'].values():
+            for w in ws: out.add(w.lower().split()[0])
+    return out
+BLOOM=_load_bloom()
 def bad_std_verbs(t):
     out=[]
     for m in re.finditer(r'Standard to meet\.\s+([A-Za-z-]+)',t):

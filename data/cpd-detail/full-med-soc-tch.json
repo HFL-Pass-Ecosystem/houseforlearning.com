@@ -1,8 +1,8 @@
 {
  "MED-001": {
-  "task": "Summarize a patient's status in a spoken handover, clarify unclear instructions and close with named owners for each open task",
+  "task": "Summarise a patient's status in a spoken handover, clarify unclear instructions and close with named owners for each open task",
   "cond": "Given written case cards, recorded and live role-plays and a list of 20 phrases, in a 3-hour practical session",
-  "std": "Hand over a case card in the agreed order in under 2 minutes with no missing items, and select at least 18 of 20 plain-word phrases correctly",
+  "std": "Show a handover of a case card in the agreed order in under 2 minutes with no missing items, and choose at least 18 of 20 plain-word phrases correctly",
   "modules": [
    {
     "t": "Why handovers fail, with two invented near-miss stories",
@@ -24,7 +24,7 @@
      "About 90 words fits in 40 to 60 seconds."
     ],
     "ex": "Situation: \"Patient A, bed 4, is due his 6 pm dressing change and says the pain is worse than this morning.\" Request: \"Please check his pain score at 6.\" Timed: 4 parts at about 15 seconds each = 60 seconds.",
-    "std": "Summarize a patient's status aloud from a case card in Situation, Background, Assessment, Recommendation order, in about 60 seconds with no missing items."
+    "std": "Summarise a patient's status aloud from a case card in Situation, Background, Assessment, Recommendation order, in about 60 seconds with no missing items."
    },
    {
     "t": "Repeat-back and clarifying questions",
@@ -692,7 +692,7 @@
  "SOC-003": {
   "task": "Prepare, run and record a person-centred review in which the person speaks first and last and every action has an owner and a date",
   "cond": "Given a case file, meeting notes, role-plays and a checklist, in a 3-hour practical session",
-  "std": "Run a short review where the person speaks at least half the time, write actions with a named owner and date, and score the review against a checklist with reasons",
+  "std": "Organise a short review where the person speaks at least half the time, write actions with a named owner and date, and score the review against a checklist with reasons",
   "modules": [
    {
     "t": "What person-centred means",
