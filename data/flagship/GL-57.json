@@ -1,0 +1,283 @@
+{
+ "id": "GL-57",
+ "title": "Biofuel Production Overview",
+ "level": 2,
+ "desc": "Understand how biofuels are made from crops, waste and algae, with sustainability, safety, cost and policy.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain biofuel types and basic production steps."
+  ],
+  [
+   "Apply",
+   "Do simple mass and energy balances."
+  ],
+  [
+   "Analyse",
+   "Compare feedstocks and emissions."
+  ],
+  [
+   "Evaluate",
+   "Judge sustainability and food-versus-fuel questions."
+  ],
+  [
+   "Create",
+   "Write a balanced overview for a community or investor."
+  ]
+ ],
+ "task": "Produce a three-page overview of one biofuel pathway with process chart, balance, emissions estimate, risks and recommendation.",
+ "condition": "A computer, public data, a spreadsheet, two peers and a mentor. No production work is done.",
+ "standard": "Process steps and balances are correct; emissions use stated assumptions; risks and safety are listed; sources dated; peers rate Meets or better.",
+ "who": "Students, farm cooperatives, energy staff, policy assistants.",
+ "req": "none",
+ "evidence": "process chart, balance sheet, emissions estimate, overview",
+ "modules": [
+  [
+   "Types of biofuel",
+   "Understand",
+   2,
+   "Liquid and gas fuels from biomass.",
+   [
+    "Ethanol from sugar or starch; biodiesel from oils; biogas from waste.",
+    "Advanced fuels from residues and algae.",
+    "Blends: low blends are used in existing engines."
+   ],
+   "Vegetable oil waste becomes biodiesel after a simple chemical step.",
+   "Make a type table.",
+   "Each type has feedstock and use."
+  ],
+  [
+   "Feedstocks",
+   "Analyse",
+   2,
+   "What you start with matters.",
+   [
+    "Food crops, residues, used oil, energy crops.",
+    "Compare yield per hectare and competing uses.",
+    "Prefer waste and residues."
+   ],
+   "Used cooking oil avoids new land use.",
+   "Compare 4 feedstocks.",
+   "Pros and cons for each."
+  ],
+  [
+   "Production steps",
+   "Understand",
+   3,
+   "Basic process chain.",
+   [
+    "Collect, clean, convert, separate, purify, store.",
+    "Fermentation for ethanol; transesterification for biodiesel; digestion for biogas.",
+    "Co-products such as glycerol or digestate."
+   ],
+   "Digestate returns nutrients to the field.",
+   "Draw a process chart.",
+   "Steps and outputs shown."
+  ],
+  [
+   "Mass and energy balance",
+   "Apply",
+   3,
+   "Check the numbers.",
+   [
+    "Inputs equal outputs plus losses.",
+    "Energy out / energy in gives a ratio.",
+    "Water use per litre."
+   ],
+   "100 kg oil gives about 95 kg biodiesel and 10 kg glycerol with alcohol.",
+   "Calculate a simple balance.",
+   "Totals correct."
+  ],
+  [
+   "Emissions and sustainability",
+   "Evaluate",
+   3,
+   "Cleaner only if the whole chain is clean.",
+   [
+    "Count land change, fertiliser, processing energy and transport.",
+    "Compare against fossil fuel per MJ.",
+    "Use recognised methods."
+   ],
+   "Waste-based fuel can cut emissions greatly; land-clearing crops may not.",
+   "Do a simple estimate.",
+   "Method and sources listed."
+  ],
+  [
+   "Safety and quality",
+   "Apply",
+   3,
+   "Fuels burn and chemicals harm.",
+   [
+    "Flammable liquids, methanol and acids need controls.",
+    "Quality tests: water content, acidity, flash point.",
+    "Storage and spill plans."
+   ],
+   "A spill kit and earthing are installed at the tank.",
+   "List hazards and controls.",
+   "Each hazard has a control."
+  ],
+  [
+   "Economics and policy",
+   "Evaluate",
+   3,
+   "Costs, incentives and fairness.",
+   [
+    "Feedstock is the largest cost.",
+    "Incentives and blend mandates change prices.",
+    "Fair prices for farmers and no food shortages."
+   ],
+   "A mandate raises demand for used oil, so collection grows.",
+   "Cost one pathway.",
+   "Currency shown."
+  ],
+  [
+   "Write the overview",
+   "Create",
+   3,
+   "Balanced recommendation.",
+   [
+    "Summary, evidence, risks, next steps.",
+    "State what you do not know.",
+    "Test with a reader."
+   ],
+   "The note recommends biogas from market waste first.",
+   "Finish and present.",
+   "Reader can repeat the choice."
+  ]
+ ],
+ "quiz": [
+  [
+   "Name three biofuels.",
+   "Ethanol, biodiesel, biogas."
+  ],
+  [
+   "Best feedstock type?",
+   "Waste and residues."
+  ],
+  [
+   "What is a co-product?",
+   "Another useful output such as glycerol."
+  ],
+  [
+   "What is a balance?",
+   "Inputs equal outputs plus losses."
+  ],
+  [
+   "Name an emissions source in the chain.",
+   "Land change, fertiliser, processing, transport."
+  ],
+  [
+   "Name a safety hazard.",
+   "Flammable liquids or methanol."
+  ],
+  [
+   "Name a quality test.",
+   "Water content, acidity, flash point."
+  ],
+  [
+   "Biggest cost?",
+   "Feedstock."
+  ],
+  [
+   "Food versus fuel question?",
+   "Avoid competing with food supply."
+  ],
+  [
+   "Why check sources?",
+   "Emissions claims vary."
+  ]
+ ],
+ "rubric": [
+  [
+   "Science accuracy",
+   "Errors",
+   "Correct",
+   "Correct and sourced"
+  ],
+  [
+   "Balance and emissions",
+   "Missing",
+   "Done",
+   "Done with assumptions"
+  ],
+  [
+   "Risk review",
+   "Missing",
+   "Listed",
+   "Listed with controls"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Biofuel plant trainee",
+   "Supports operations"
+  ],
+  [
+   "Waste collection coordinator",
+   "Gathers feedstock"
+  ],
+  [
+   "Lab assistant",
+   "Runs quality tests"
+  ],
+  [
+   "Sustainability analyst",
+   "Estimates emissions"
+  ],
+  [
+   "Farm cooperative officer",
+   "Plans supply"
+  ]
+ ],
+ "next": "greenhouse gas auditing, plastic alternatives, wind and solar basics.",
+ "local": "Fuel standards, licences and incentives differ by place.",
+ "ladder": [
+  [
+   "Know the basics",
+   "L1: learner can name biofuel types.",
+   "Table."
+  ],
+  [
+   "Know the rules and risks",
+   "L2: learner knows feedstock and hazard basics.",
+   "Compare."
+  ],
+  [
+   "Prepare and set up",
+   "L3: learner can follow a process chart.",
+   "Chart."
+  ],
+  [
+   "Run it",
+   "L4: learner can do a simple balance.",
+   "Sums."
+  ],
+  [
+   "Specialise and measure",
+   "L5: learner can estimate emissions.",
+   "Emissions."
+  ],
+  [
+   "Lead a small team",
+   "L6: learner can coordinate supply.",
+   "Supply."
+  ],
+  [
+   "Advise and audit others",
+   "L7: learner can audit an overview.",
+   "Peer audit."
+  ]
+ ]
+}

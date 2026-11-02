@@ -1,0 +1,283 @@
+{
+ "id": "GL-55",
+ "title": "Wind Energy Fundamentals",
+ "level": 3,
+ "desc": "Learn how wind turbines turn wind into power, how sites are assessed, and the safety, cost and community basics.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain how a turbine converts wind into electricity."
+  ],
+  [
+   "Apply",
+   "Estimate energy from wind speed and rotor size."
+  ],
+  [
+   "Analyse",
+   "Compare sites and turbine types."
+  ],
+  [
+   "Evaluate",
+   "Judge cost, noise, wildlife and safety."
+  ],
+  [
+   "Create",
+   "Write a simple feasibility note for a small wind project."
+  ]
+ ],
+ "task": "Produce a feasibility note for a small wind installation, with a wind data table, energy estimate, cost and payback, safety and community checks.",
+ "condition": "A computer, public wind data for a chosen site, a spreadsheet, two peers and a mentor engineer. No work at height is done in this course.",
+ "standard": "Energy estimate uses stated formulas and units; payback is calculated in your currency; safety and community points are listed; assumptions are written; peers rate Meets or better.",
+ "who": "Technicians, engineering students, community energy groups, small farm owners.",
+ "req": "none",
+ "evidence": "wind data table, energy and payback sheet, safety checklist, feasibility note",
+ "modules": [
+  [
+   "How a turbine works",
+   "Understand",
+   3,
+   "Blades turn a shaft that drives a generator.",
+   [
+    "Parts: rotor, hub, gearbox or direct drive, generator, tower, controller.",
+    "Cut-in, rated and cut-out wind speeds.",
+    "Power grows with the cube of wind speed."
+   ],
+   "Doubling wind speed gives about eight times more power.",
+   "Label a turbine diagram.",
+   "All main parts named."
+  ],
+  [
+   "Wind and sites",
+   "Analyse",
+   4,
+   "Good wind makes or breaks a project.",
+   [
+    "Wind speed rises with height; obstacles cause turbulence.",
+    "Use at least a year of data; hourly averages.",
+    "Choose open land away from buildings and trees."
+   ],
+   "A hilltop averages 6.5 m/s at 30 m; a valley 4.2 m/s.",
+   "Tabulate monthly wind for a site.",
+   "Table has twelve months with source."
+  ],
+  [
+   "Energy estimate",
+   "Apply",
+   5,
+   "Estimate in simple steps.",
+   [
+    "Swept area = pi x r squared. Power = 0.5 x air density x area x speed cubed x efficiency.",
+    "Annual energy = average power x hours x capacity factor.",
+    "Capacity factor of small turbines is often 15 to 30 percent."
+   ],
+   "A 5 kW turbine at 22% factor makes about 9,600 kWh a year.",
+   "Calculate annual energy for your case.",
+   "Units and steps shown."
+  ],
+  [
+   "Types and sizes",
+   "Analyse",
+   3,
+   "Small, community and large.",
+   [
+    "Horizontal vs vertical axis.",
+    "Small turbines suit remote sites; large ones suit farms and grids.",
+    "Grid-tied vs off-grid with batteries."
+   ],
+   "A village chooses a grid-tied turbine to cut diesel use.",
+   "Compare 3 turbines.",
+   "Table includes cost per kW."
+  ],
+  [
+   "Cost and payback",
+   "Evaluate",
+   4,
+   "Count the full cost.",
+   [
+    "Turbine, tower, foundation, wiring, permits, installation, maintenance.",
+    "Value electricity by units saved or sold.",
+    "Payback = cost / yearly benefit."
+   ],
+   "Cost 650,000 INR; yearly benefit 85,000 INR; payback 7.6 years.",
+   "Build a payback sheet.",
+   "Maths correct; currency shown."
+  ],
+  [
+   "Safety and maintenance",
+   "Apply",
+   4,
+   "Heights, rotating parts and electricity are hazards.",
+   [
+    "Only trained, certified people work at height or on electrics.",
+    "Lock-out and tag-out before maintenance.",
+    "Regular checks of bolts, blades and brakes."
+   ],
+   "A rule is that nobody climbs when wind exceeds a set speed.",
+   "Write a safety checklist.",
+   "Mentor confirms accuracy."
+  ],
+  [
+   "Environment and community",
+   "Evaluate",
+   3,
+   "Share benefits and manage impacts.",
+   [
+    "Noise, shadow flicker, birds and bats, land use.",
+    "Consult neighbours early; follow permit rules.",
+    "Plan decommissioning and recycling."
+   ],
+   "Radar checks and seasonal shutdowns protect migrating birds.",
+   "List impacts and controls.",
+   "Each has a control."
+  ],
+  [
+   "Feasibility note",
+   "Create",
+   4,
+   "Pull it together.",
+   [
+    "One-page summary, assumptions, risks and next steps.",
+    "State what you do not know.",
+    "Review by a mentor."
+   ],
+   "The note advises a wind monitoring mast for one year before buying.",
+   "Write and present it.",
+   "Peer can follow the numbers."
+  ]
+ ],
+ "quiz": [
+  [
+   "What does the generator do?",
+   "Turns rotation into electricity."
+  ],
+  [
+   "What happens to power when wind doubles?",
+   "About eight times more."
+  ],
+  [
+   "Swept area formula?",
+   "Pi x radius squared."
+  ],
+  [
+   "Typical small capacity factor?",
+   "15 to 30 percent."
+  ],
+  [
+   "Name a cost item.",
+   "Turbine, tower, foundation, wiring, permits, maintenance."
+  ],
+  [
+   "Payback formula?",
+   "Cost divided by yearly benefit."
+  ],
+  [
+   "Who may work at height?",
+   "Trained, certified people."
+  ],
+  [
+   "Name two impacts.",
+   "Noise and birds (or shadow flicker)."
+  ],
+  [
+   "Why a year of wind data?",
+   "To cover all seasons."
+  ],
+  [
+   "Why decommissioning plan?",
+   "To remove and recycle safely."
+  ]
+ ],
+ "rubric": [
+  [
+   "Energy estimate",
+   "Wrong units",
+   "Correct",
+   "Correct with sensitivity check"
+  ],
+  [
+   "Cost and payback",
+   "Incomplete",
+   "Complete",
+   "Complete with options"
+  ],
+  [
+   "Safety and community",
+   "Missing",
+   "Listed",
+   "Listed with controls"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Wind technician trainee",
+   "Supports site and maintenance"
+  ],
+  [
+   "Site assessment assistant",
+   "Collects wind data"
+  ],
+  [
+   "Community energy officer",
+   "Engages neighbours"
+  ],
+  [
+   "Energy analyst assistant",
+   "Builds estimates"
+  ],
+  [
+   "Project coordinator",
+   "Tracks permits"
+  ]
+ ],
+ "next": "solar power basics, electric car basics, greenhouse gas auditing.",
+ "local": "Permits, grid rules and safety law differ by place.",
+ "ladder": [
+  [
+   "Know the basics",
+   "L1: learner can name turbine parts.",
+   "Diagram."
+  ],
+  [
+   "Know the rules and risks",
+   "L2: learner knows wind and safety basics.",
+   "Safety first."
+  ],
+  [
+   "Prepare and set up",
+   "L3: learner can estimate energy.",
+   "Do the sum."
+  ],
+  [
+   "Run it",
+   "L4: learner can run a site wind log.",
+   "Log."
+  ],
+  [
+   "Specialise and measure",
+   "L5: learner can compare types and costs.",
+   "Compare."
+  ],
+  [
+   "Lead a small team",
+   "L6: learner can coordinate a small project.",
+   "Rota."
+  ],
+  [
+   "Advise and audit others",
+   "L7: learner can audit a feasibility note.",
+   "Peer audit."
+  ]
+ ]
+}

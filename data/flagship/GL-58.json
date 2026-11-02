@@ -1,0 +1,283 @@
+{
+ "id": "GL-58",
+ "title": "Electric Car and EV Basics",
+ "level": 3,
+ "desc": "Understand how electric vehicles work, charge, cost and stay safe, and how to advise buyers and fleets honestly.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain motor, battery, charger and range."
+  ],
+  [
+   "Apply",
+   "Estimate running cost and charging time."
+  ],
+  [
+   "Analyse",
+   "Compare EV and petrol costs."
+  ],
+  [
+   "Evaluate",
+   "Judge battery health, safety and resale."
+  ],
+  [
+   "Create",
+   "Write a buyer or fleet advice sheet."
+  ]
+ ],
+ "task": "Produce an advice sheet comparing one EV with one petrol car for a given user, with cost, range, charging and safety notes.",
+ "condition": "A computer, public specifications, a spreadsheet, two peers and a mentor. No high-voltage work is done.",
+ "standard": "Maths is correct and in your currency; assumptions are stated; safety rules for high-voltage parts are included; claims are sourced; peers rate Meets or better.",
+ "who": "Sales staff, drivers, fleet clerks, technician trainees.",
+ "req": "none",
+ "evidence": "comparison sheet, charging time sheet, safety notes, advice sheet",
+ "modules": [
+  [
+   "How an EV works",
+   "Understand",
+   3,
+   "Battery to motor to wheels.",
+   [
+    "Parts: battery pack, inverter, motor, charger, controller.",
+    "Regenerative braking returns some energy.",
+    "Energy use in kWh per 100 km."
+   ],
+   "A car using 15 kWh per 100 km travels 400 km on 60 kWh.",
+   "Draw a block diagram.",
+   "Parts labelled."
+  ],
+  [
+   "Batteries",
+   "Understand",
+   3,
+   "Range and life depend on the pack.",
+   [
+    "Capacity in kWh; usable capacity is less.",
+    "Heat, fast charging and deep discharge age batteries.",
+    "Warranty usually covers years and distance."
+   ],
+   "Keeping charge between 20% and 80% daily can slow ageing.",
+   "Summarise battery care.",
+   "Five tips."
+  ],
+  [
+   "Charging levels",
+   "Apply",
+   4,
+   "Speed depends on power.",
+   [
+    "Slow home charging, faster wallbox, fast public chargers.",
+    "Time = energy / power, plus losses.",
+    "Plug types and compatibility."
+   ],
+   "To add 30 kWh at 7 kW takes about 4.5 hours.",
+   "Calculate three charge times.",
+   "Maths correct."
+  ],
+  [
+   "Running cost",
+   "Analyse",
+   4,
+   "Compare fairly.",
+   [
+    "EV: kWh per 100 km times price per kWh.",
+    "Petrol: litres per 100 km times price per litre.",
+    "Add service, insurance, tax, depreciation."
+   ],
+   "EV: 15 kWh x 8 INR = 120 INR per 100 km; petrol: 7 L x 100 INR = 700 INR.",
+   "Compare for your place.",
+   "Currency shown."
+  ],
+  [
+   "Range reality",
+   "Evaluate",
+   3,
+   "Real range is not the label range.",
+   [
+    "Speed, temperature, load and hills change range.",
+    "Plan trips with charger stops.",
+    "Keep a reserve."
+   ],
+   "Cold and highway driving cut range by 25%.",
+   "Plan a 300 km trip.",
+   "Charging stops listed."
+  ],
+  [
+   "Safety",
+   "Apply",
+   4,
+   "High voltage demands respect.",
+   [
+    "Orange cables are high voltage; only trained technicians work on them.",
+    "First responders need a rescue sheet.",
+    "Never charge with damaged cables."
+   ],
+   "A pack damage warning means stop and call the maker.",
+   "Write a safety card.",
+   "Mentor approves."
+  ],
+  [
+   "Battery end of life",
+   "Evaluate",
+   3,
+   "Reuse and recycle.",
+   [
+    "Second-life storage use.",
+    "Recycling recovers metals.",
+    "Check collection programmes."
+   ],
+   "An old pack powers a shop's backup.",
+   "Describe three end-of-life options.",
+   "Options listed."
+  ],
+  [
+   "Advice sheet",
+   "Create",
+   3,
+   "Honest advice.",
+   [
+    "State fit: daily distance, home charging, budget.",
+    "List cons as well as pros.",
+    "Show assumptions."
+   ],
+   "Advice says an EV suits a commuter with home charging but not a user with no parking.",
+   "Write the sheet.",
+   "Reader can decide."
+  ]
+ ],
+ "quiz": [
+  [
+   "What does regen braking do?",
+   "Returns some energy to the battery."
+  ],
+  [
+   "Charging time formula?",
+   "Energy / power plus losses."
+  ],
+  [
+   "Name a battery ageing factor.",
+   "Heat or frequent fast charging."
+  ],
+  [
+   "Who works on orange cables?",
+   "Trained technicians."
+  ],
+  [
+   "What affects range?",
+   "Speed, temperature, load, hills."
+  ],
+  [
+   "EV running cost steps?",
+   "kWh per 100 km x price per kWh."
+  ],
+  [
+   "Name an end-of-life option.",
+   "Second life or recycling."
+  ],
+  [
+   "Why keep a reserve?",
+   "Range varies."
+  ],
+  [
+   "What costs besides fuel?",
+   "Service, insurance, tax, depreciation."
+  ],
+  [
+   "What is usable capacity?",
+   "Less than the label capacity."
+  ]
+ ],
+ "rubric": [
+  [
+   "Calculations",
+   "Errors",
+   "Correct",
+   "Correct with sensitivity"
+  ],
+  [
+   "Safety",
+   "Missing",
+   "Listed",
+   "Listed and approved"
+  ],
+  [
+   "Honest advice",
+   "One-sided",
+   "Balanced",
+   "Balanced and tailored"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "EV sales adviser",
+   "Explains cost and range"
+  ],
+  [
+   "Charging helpdesk agent",
+   "Supports drivers"
+  ],
+  [
+   "EV technician trainee",
+   "Assists under supervision"
+  ],
+  [
+   "Fleet coordinator",
+   "Plans charging"
+  ],
+  [
+   "Battery logistics clerk",
+   "Tracks packs"
+  ]
+ ],
+ "next": "car charging stations, portable charging, micro-mobility.",
+ "local": "Standards, subsidies and tax differ by place.",
+ "ladder": [
+  [
+   "Know the basics",
+   "L1: learner can name EV parts.",
+   "Diagram."
+  ],
+  [
+   "Know the rules and risks",
+   "L2: learner knows safety basics.",
+   "Safety."
+  ],
+  [
+   "Prepare and set up",
+   "L3: learner can calculate charge times.",
+   "Maths."
+  ],
+  [
+   "Run it",
+   "L4: learner can compare costs.",
+   "Costs."
+  ],
+  [
+   "Specialise and measure",
+   "L5: learner can plan trips.",
+   "Trips."
+  ],
+  [
+   "Lead a small team",
+   "L6: learner can coordinate a fleet.",
+   "Fleet."
+  ],
+  [
+   "Advise and audit others",
+   "L7: learner can audit advice.",
+   "Peer audit."
+  ]
+ ]
+}
