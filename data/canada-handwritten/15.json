@@ -1,0 +1,163 @@
+{
+ "price": [
+  1250,
+  780,
+  1200,
+  "screen"
+ ],
+ "mods": {
+  "1": {
+   "title": "Understand display technologies and uses",
+   "intro": "Dynamic screens change what they show: signs, windows, vehicles, wearable and building surfaces.",
+   "pts": [
+    "Know the types: LCD, LED, e-paper, transparent and flexible panels.",
+    "Match to use: bright for outdoors, low power for shelf labels, transparent for windows.",
+    "Ask buyers about brightness, size, viewing distance, power and life.",
+    "Pick a first product and customer, such as shelf labels for grocers."
+   ],
+   "ex": "A grocery chain changes 4,000 shelf prices a week by hand at 15 seconds each = 16.7 hours; e-paper labels update them in minutes.",
+   "act": "Write a requirement sheet from three buyer interviews.",
+   "std": "Requirements have units."
+  },
+  "2": {
+   "title": "Know product and trade rules",
+   "intro": "Electronics have safety and import rules.",
+   "pts": [
+    "Electrical and radio approvals are required.",
+    "Hazardous substance limits and recycling duties apply.",
+    "Import duties and origin rules affect costs.",
+    "Warranty and consumer law apply."
+   ],
+   "ex": "Row: 'Sell a powered sign | electrical safety approval | lab certificate | before sale | certificate'.",
+   "act": "Build a rules table.",
+   "std": "Rows sourced and dated."
+  },
+  "3": {
+   "title": "Design and assemble a display module",
+   "intro": "Good design hides complexity.",
+   "pts": [
+    "Block diagram: panel, driver, power, controller, link.",
+    "Heat and brightness testing.",
+    "Content management: how a user changes the image.",
+    "Document assembly steps."
+   ],
+   "ex": "Brightness spec 700 nits; measured 640 at 40 C; add a better heat path.",
+   "act": "Assemble a prototype and measure brightness at two temperatures.",
+   "std": "Measurements recorded."
+  },
+  "4": {
+   "title": "Price and prove the business",
+   "intro": "Display makers live on yield.",
+   "pts": [
+    "Bill of materials: panel is the largest part.",
+    "Assembly, test, scrap.",
+    "Warranty provision.",
+    "Margin and break-even."
+   ],
+   "ex": "Price 1,250; cost 780; margin 470 (38%); fixed cost 564,000 a year → break-even 1,200 units. Teaching figures in CAD.",
+   "act": "Build cost sheet with 8% scrap case.",
+   "std": "Cases shown."
+  },
+  "5": {
+   "title": "Control quality and yield",
+   "intro": "Dead pixels and colour drift end sales.",
+   "pts": [
+    "Incoming panel test.",
+    "Burn-in test.",
+    "Grade units by defects.",
+    "Track yield."
+   ],
+   "ex": "Yield 91%; top defect: bonding bubbles.",
+   "act": "Design test sheet with grades.",
+   "std": "Limits stated."
+  },
+  "6": {
+   "title": "Sell, install and support",
+   "intro": "Installers decide what they recommend.",
+   "pts": [
+    "Train installers.",
+    "Offer pilots.",
+    "Remote update service.",
+    "Spare stock."
+   ],
+   "ex": "Funnel: 18 retailers, 5 pilots, 2 orders.",
+   "act": "Pitch three buyers.",
+   "std": "Pitch has numbers."
+  },
+  "7": {
+   "title": "Manage supply, energy and end-of-life risk",
+   "intro": "Panels depend on a global chain.",
+   "pts": [
+    "Second sources.",
+    "Power use targets.",
+    "Recycling plan.",
+    "Cyber security for networked signs."
+   ],
+   "ex": "Risk: 'Panel shortage | 4 x 4 | second source | purchasing | monthly'.",
+   "act": "Write a risk register.",
+   "std": "Owners named."
+  },
+  "8": {
+   "title": "Pilot and plan scale",
+   "intro": "Prove in a store.",
+   "pts": [
+    "60 days in 3 stores.",
+    "Measure failures and update time.",
+    "Stop rule: failure over 3% means fix.",
+    "Plan production."
+   ],
+   "ex": "Failure 1.5%; proceed.",
+   "act": "Run pilot review.",
+   "std": "Review has decision."
+  }
+ },
+ "quiz": [
+  [
+   "Name three display types.",
+   "LCD, LED and e-paper (also transparent, flexible)."
+  ],
+  [
+   "What is a nit?",
+   "A unit of brightness."
+  ],
+  [
+   "Why burn-in test?",
+   "To find early failures."
+  ],
+  [
+   "What drives yield loss?",
+   "Defects such as dead pixels or bonding bubbles."
+  ],
+  [
+   "Why a second panel source?",
+   "Panels are the largest, scarcest part."
+  ],
+  [
+   "What approval do powered signs need?",
+   "Electrical safety approval."
+  ],
+  [
+   "What is break-even?",
+   "Fixed cost over margin per unit."
+  ],
+  [
+   "Why train installers?",
+   "They influence what is recommended."
+  ],
+  [
+   "What triggers a fix in the pilot?",
+   "Failure over 3%."
+  ],
+  [
+   "Why plan recycling?",
+   "End-of-life duties apply."
+  ]
+ ],
+ "jobs": [
+  "Display technician",
+  "Assembly technician",
+  "Test technician",
+  "Product engineer",
+  "Display company founder"
+ ]
+}

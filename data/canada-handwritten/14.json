@@ -1,0 +1,163 @@
+{
+ "price": [
+  1800,
+  600,
+  8,
+  "brand"
+ ],
+ "mods": {
+  "1": {
+   "title": "Find the authenticity and resale problem",
+   "intro": "Fashion has problems with fakes, hidden labour and waste. A shared digital record can tie a garment to its origin, owner history and repair record.",
+   "pts": [
+    "List buyer worries: fake goods, unknown origin, resale value, repair history.",
+    "Choose one product: a bag, a jacket or a pair of shoes, and a first brand partner.",
+    "Decide the record: material source, maker, date, size, care and each change of owner.",
+    "Test the need with ten shoppers: would proof of origin change what you pay?"
+   ],
+   "ex": "A resale buyer pays 15% more for a bag with a verified history and a repair record; fakes cost the brand about 2% of sales.",
+   "act": "Survey ten shoppers and one brand and write the problem in one page.",
+   "std": "Survey shows a real willingness to pay."
+  },
+  "2": {
+   "title": "Know consumer, textile and data rules",
+   "intro": "Fashion claims are regulated.",
+   "pts": [
+    "Textile labelling rules set fibre content and care labels, in English and French.",
+    "Claims such as 'sustainable' or 'ethical' must be provable under competition law.",
+    "Customer personal data is protected by privacy law and should not sit on a record that cannot be erased.",
+    "Cross-border sales add customs, duty and product-safety rules."
+   ],
+   "ex": "Row: 'Claim recycled content | competition law and labelling rules | hold supplier certificate | before launch | certificate on file'.",
+   "act": "Build a rules table for one product line.",
+   "std": "Rows sourced and dated."
+  },
+  "3": {
+   "title": "Design the digital product passport",
+   "intro": "Keep the record small and useful.",
+   "pts": [
+    "Attach a tag: QR code, NFC chip or hidden label that cannot be copied easily.",
+    "Record business facts only: lot, maker, date, material, certificate numbers.",
+    "Let owners add care and repair entries; a transfer is a new entry.",
+    "Test the tag after washing, rubbing and sunlight."
+   ],
+   "ex": "After 20 washes, 18 of 20 QR labels still scanned; 2 failed; switch to a woven label.",
+   "act": "Prototype a passport for one garment and test the tag.",
+   "std": "Test results recorded."
+  },
+  "4": {
+   "title": "Price the service and prove the gain",
+   "intro": "Brands pay when the passport raises sales or cuts fakes.",
+   "pts": [
+    "Fee per item for the passport plus platform fee.",
+    "Brand gains: price premium, resale royalty, fewer fakes, better returns data.",
+    "Cost: tags, hosting, support, onboarding.",
+    "Break-even by volume."
+   ],
+   "ex": "Fee 1.80 per item; variable cost 0.60; margin 1.20; fixed cost 8,000 a month needs about 6,700 items a month. Teaching figures in CAD.",
+   "act": "Build the model with a 50% volume case.",
+   "std": "Cases shown."
+  },
+  "5": {
+   "title": "Run supplier onboarding and data quality",
+   "intro": "Trust depends on honest inputs.",
+   "pts": [
+    "Train suppliers to scan at each step.",
+    "Verify with audits and photos.",
+    "Fix errors with new entries.",
+    "Track completion."
+   ],
+   "ex": "Pilot: 85% of items had a complete record after 6 weeks.",
+   "act": "Run a 4-week capture test.",
+   "std": "Completion tracked."
+  },
+  "6": {
+   "title": "Sell to brands and marketplaces",
+   "intro": "Start with a brand that has a fake or resale problem.",
+   "pts": [
+    "Offer a 90-day pilot on one line.",
+    "Show live scan demo.",
+    "Partner with repair shops and resale sites.",
+    "Track funnel."
+   ],
+   "ex": "Funnel: 20 brands, 6 demos, 2 pilots.",
+   "act": "Pitch three brands.",
+   "std": "Pitch has numbers."
+  },
+  "7": {
+   "title": "Manage greenwashing, privacy and tech risks",
+   "intro": "A record can mislead if inputs are wrong.",
+   "pts": [
+    "Claim only what you can prove.",
+    "Keep personal data off the shared record.",
+    "Plan for tag failure and re-tagging.",
+    "Prepare for brand exit."
+   ],
+   "ex": "Risk: 'Wrong origin entered | 3 x 5 | audit and photo proof | quality lead | monthly'.",
+   "act": "Write a risk register.",
+   "std": "Owners named."
+  },
+  "8": {
+   "title": "Pilot and scale",
+   "intro": "Prove one line.",
+   "pts": [
+    "90 days.",
+    "Measure scan rate, resale uplift, fakes found.",
+    "Stop rule: under 50% tag survival means change tag.",
+    "Plan expansion."
+   ],
+   "ex": "Tag survival 94%; resale uplift 12%.",
+   "act": "Run pilot review.",
+   "std": "Review has decision."
+  }
+ },
+ "quiz": [
+  [
+   "What does a product passport record?",
+   "Business facts such as lot, maker, date, material and certificates."
+  ],
+  [
+   "How is an ownership change recorded?",
+   "As a new entry."
+  ],
+  [
+   "Why keep personal data off the record?",
+   "It cannot easily be erased."
+  ],
+  [
+   "Why test tags after washing?",
+   "Tags must survive real use."
+  ],
+  [
+   "What law governs 'sustainable' claims?",
+   "Competition and labelling rules require provable claims."
+  ],
+  [
+   "What is break-even?",
+   "Fixed cost divided by margin per item."
+  ],
+  [
+   "Why audit suppliers?",
+   "Inputs decide whether the record is true."
+  ],
+  [
+   "Name two brand gains.",
+   "Price premium and fewer fakes (or resale royalty)."
+  ],
+  [
+   "What triggers a tag change?",
+   "Under 50% tag survival."
+  ],
+  [
+   "Why use English and French labels?",
+   "Canadian labelling rules often need both."
+  ]
+ ],
+ "jobs": [
+  "Product data coordinator",
+  "Supply chain auditor",
+  "Resale specialist",
+  "Fashion technology consultant",
+  "Fashion technology founder"
+ ]
+}
