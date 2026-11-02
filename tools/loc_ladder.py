@@ -37,3 +37,28 @@ def topic_slug(t):
         for r in rows: _T2S[r[1]] = r[0]
         _T2S['e- Commerce'] = 'ecommerce'
     return _T2S.get(t)
+
+_ROLES = [('L2', 'Entry', '{t} assistant', 'helps with set tasks, keeps records and follows the checklist.'),
+          ('L3', 'Junior', 'Junior {t} coordinator', 'runs small jobs end to end and reports each week.'),
+          ('L4', 'Practitioner', '{t} practitioner', 'plans and delivers the work alone, with a mentor check.'),
+          ('L5', 'Specialist', '{t} specialist', 'goes deep in one area, such as rules, numbers or customers.'),
+          ('L6', 'Advanced', '{t} team lead or manager', 'leads people and partners, owns the plan and the data.'),
+          ('L7', 'Senior', 'Senior {t} adviser or mentor', 'designs the whole system, reviews others and publishes cases.')]
+
+def roles_html(t, esc):
+    """Six generic roles from entry to senior, linked to the pathways pages."""
+    return ('<h3 class="ws-h3">Six steps from entry to senior</h3><ol class="blm">'
+            + ''.join(f'<li><strong>{esc(n.format(t=t)[0].upper() + n.format(t=t)[1:])} ({lv}, {lab}).</strong> {esc(d)}</li>' for lv, lab, n, d in _ROLES)
+            + '</ol><p>See how these steps connect to study and work in <a href="career-pathways.html">Career pathways</a> and <a href="pathways.html">Pathways</a>.</p>')
+
+_PNOTES = ['Show a one-page glossary with ten local terms; the learner reads each aloud and gives the meaning in {place}.',
+           'Ask the learner to explain the market of {place} in one page; check that each fact has a source and a date.',
+           'Give a sample sector and ask for a licence table; check the issuer, the cost in {cur} and the date checked.',
+           'Run the 20-person test with the learner and check the sums in {cur}, including a worse case 25 per cent lower.',
+           'Review a cluster checklist; each rule has a public source and a question for a local expert.',
+           'Review the team plan: roles, partners, data map and the monthly review; ask what changes if a rule changes.',
+           'Read the published case against the evidence list; a mentor and a peer must both agree it meets the standard.']
+
+def place_slides_html(L, esc, names, ev):
+    return ('<h3 class="ws-h3">Slide by slide</h3><p>Seven slides, one per level. Open each for the slide text and the speaker notes.</p>'
+            + ''.join(f'<details class="mod"><summary><span class="mn">Slide {i+1}</span> {esc(names[i])}</summary><p>{esc(L["ladder"][i])}</p><p class="ws-note"><strong>Speaker notes.</strong> {esc(_fill(_PNOTES[i], L))} Evidence to collect: {esc(ev[i])}</p></details>' for i in range(7)))
