@@ -132,8 +132,29 @@ def build(c):
       +B.sec('','jb','jobs this leads to','Where this takes you','<ul>'+''.join(f'<li>{e(j)}</li>' for j in c['jobs'])+'</ul>')
       +B.sec('alt','lc','ten locations and global','Your place','<p>Use your own currency, language and local rules. Check each rule with your local authority.</p>'+''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Currency {L["cur"]}; language {e(L["lang"])}; set up legally: {e(L["reg"])}; personal data: {e(L["data"])}; where to practise: {e(L["partner"])}.</p></details>' for L in B.LOC)+f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
       +B.sec('','nx','next','Draft','<p class="ws-note">Draft flagship-depth course. Own wording. Not live.</p>'))
-    B.page(f'learn-flagship-ae-{c["slug"]}.html',c['title']+' in the UAE (full course)',f'Full course: {c["title"]}, UAE.',c['title'],e(f'Learn {c["title"].lower()} for the UAE: rules, workflow, costing in AED and a recorded 30-day practice.'),body,B.crumb(('Courses','courses-hub.html'),('UAE courses',None)),kicker='UAE · full course')
+    B.page(f'learn-flagship-ae-{c["slug"]}.html',c['title']+' in the UAE (full course)',f'Full course: {c["title"]}, UAE.',c['title'],e(f'Learn {c["title"].lower()} for the UAE: rules, workflow, costing in AED and a recorded 30-day practice.'),body,B.crumb(('Courses','courses-hub.html'),('UAE','learn-uae-hub.html'),(c['title'],None)),kicker='UAE · full course')
 n=0
 for t in T+P:
     build(course(t)); n+=1
 print(n,'UAE courses built (39 + 10 pathways)')
+
+# ---- UAE hub page + link from the courses hub (idempotent) ----
+def hub():
+    import re
+    cards=''
+    for t in T+P:
+        c=course(t)
+        n=len(c['M'])+len(D.get(t[0],[]))*0
+        cards+=(f'<li class="cc" data-t="{e((c["title"]+" uae").lower())}"><a href="learn-flagship-ae-{c["slug"]}.html"><span class="pill lv">L4 Practitioner</span><h3>{e(c["title"])}</h3>'
+                f'<p>{e(c["task"][:140])}</p><p class="cm">{sum(x[2] for x in c["M"])} h</p></a></li>')
+    body=B.sec('','ls','courses',f'{len(T)+len(P)} full courses for the UAE',f'<p>{len(T)} location topics and {len(P)} pathway courses for Dubai and Abu Dhabi. Each has modules with worked examples, a rubric, a ten-question check and a seven-level ladder.</p><ul class="cgrid">{cards}</ul>')
+    B.page('learn-uae-hub.html','UAE location courses','Full courses for Dubai and Abu Dhabi.','UAE location courses','Full courses for Dubai and Abu Dhabi: 39 location topics and 10 pathways.',body,B.crumb(('Courses','courses-hub.html'),('UAE',None)),kicker='flagship courses · UAE')
+    p=B.S/'courses-hub.html'
+    s=p.read_text()
+    if 'learn-uae-hub.html' not in s:
+        card='<li class="cc"><a href="learn-uae-hub.html"><h3>UAE location courses</h3><p>49 full courses for Dubai and Abu Dhabi</p></a></li>'
+        i=s.find('class="cgrid"')
+        j=s.find('</ul>',i)
+        if i>-1 and j>-1: p.write_text(s[:j]+card+s[j:])
+hub()
+print('hub built')
