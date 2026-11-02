@@ -160,7 +160,7 @@
   ],
   [
    "Why removable module?",
-   "For washing. (Covered in module 2: Fabrics, comfort and skin. To pass that module: Results table has both fabrics, two users, comfort and signal scores and one design decision.)"
+   "For washing. (Covered in module 4: Building a prototype. To pass that module: Signal remains stable during walking, arm movement and sitting for five minutes each.)"
   ],
   [
    "Safe voltage?",
@@ -168,23 +168,23 @@
   ],
   [
    "Accuracy measure?",
-   "Percent error. (Covered in module 4: Building a prototype. To pass that module: Signal remains stable during walking, arm movement and sitting for five minutes each.)"
+   "Percent error. (Covered in module 6: Accuracy and honest claims. To pass that module: Both figures are calculated and the claim wording matches the evidence.)"
   ],
   [
    "Material concern?",
-   "Skin allergy. (Covered in module 5: Washing, wear and durability. To pass that module: Log shows cycles, faults and one improvement tested.)"
+   "Skin allergy. (Covered in module 2: Fabrics, comfort and skin. To pass that module: Results table has both fabrics, two users, comfort and signal scores and one design decision.)"
   ],
   [
    "Privacy rule?",
-   "Consent and secure storage. (Covered in module 6: Accuracy and honest claims. To pass that module: Both figures are calculated and the claim wording matches the evidence.)"
+   "Consent and secure storage. (Covered in module 7: Privacy, safety and rules. To pass that module: Consent text is readable by a non-expert and the checklist has at least eight items.)"
   ],
   [
    "Wash test?",
-   "Count cycles to failure. (Covered in module 7: Privacy, safety and rules. To pass that module: Consent text is readable by a non-expert and the checklist has at least eight items.)"
+   "Count cycles to failure. (Covered in module 5: Washing, wear and durability. To pass that module: Log shows cycles, faults and one improvement tested.)"
   ],
   [
    "Strain relief?",
-   "Prevents wire breaks. (Covered in module 8: Pilot, cost and plan. To pass that module: Plan names ten users, a cost per unit and a go/stop rule.)"
+   "Prevents wire breaks. (Covered in module 3: Sensors, power and electronics. To pass that module: Diagram is complete and the two battery-life figures are correct.)"
   ],
   [
    "Pilot size?",
@@ -192,7 +192,7 @@
   ],
   [
    "Claim style?",
-   "Modest. (Covered in module 8: Pilot, cost and plan. To pass that module: Plan names ten users, a cost per unit and a go/stop rule.)"
+   "Modest. (Covered in module 6: Accuracy and honest claims. To pass that module: Both figures are calculated and the claim wording matches the evidence.)"
   ]
  ],
  "rubric": [
@@ -260,7 +260,7 @@
   [
    "Fabrics, comfort and skin",
    "L2: learner knows materials. Focus module: Fabrics, comfort and skin (Understand, 3 h). A garment that is uncomfortable will not be worn, and an unworn garment gives no data. Fabric choice affects both sensor contact and comfort. Key points: Breathable, stretchy fabrics such as cotton-elastane blends or knitted polyester keep sensors snug without chafing. Dry electrodes need skin contact; loose fabric loses signal, and very tight fabric is uncomfortable. Aim for firm but not tight. Conductive yarns, often silver-coated, carry signals; metallic coatings can wear off in washing, and some people are sensitive to metals. Seams over sensors cause hot spots; place seams away from contact areas.",
-   "Teach: open with the worked example. Two chest-band prototypes are tested. The band with flat seams and a wider elastic gives a steadier signal and fewer red marks after a one-hour walk than the narrow band with a raised seam. Then set the activity: Test two fabrics for comfort and signal on two volunteers who consent, and record scores from 1 to 5. Mark against the standard: Results table has both fabrics, two users, comfort and signal scores and one design decision. Check at this level: Why removable module? Model answer: For washing."
+   "Teach: open with the worked example. Two chest-band prototypes are tested. The band with flat seams and a wider elastic gives a steadier signal and fewer red marks after a one-hour walk than the narrow band with a raised seam. Then set the activity: Test two fabrics for comfort and signal on two volunteers who consent, and record scores from 1 to 5. Mark against the standard: Results table has both fabrics, two users, comfort and signal scores and one design decision. Check at this level: Material concern? Model answer: Skin allergy."
   ],
   [
    "Sensors, power and electronics",
@@ -270,12 +270,12 @@
   [
    "Building a prototype",
    "L4: learner can build. Focus module: Building a prototype (Apply, 4 h). Prototype quickly with a kit before investing in special fabrics. Key points: Bench test the sensor first, then test it on a person, then attach it to a garment. Attach the module in a pocket or with snaps so it can be removed for washing. Test continuity of every conductive path before closing seams. Record every change, photograph the layout and keep the version number on the garment.",
-   "Teach: open with the worked example. The first sleeve prototype loses signal when the elbow bends because the wire crosses the joint. Moving the wire along the side seam with a loose loop fixes the break. Then set the activity: Build or plan a prototype with removable module and test it on two users. Mark against the standard: Signal remains stable during walking, arm movement and sitting for five minutes each. Check at this level: Accuracy measure? Model answer: Percent error."
+   "Teach: open with the worked example. The first sleeve prototype loses signal when the elbow bends because the wire crosses the joint. Moving the wire along the side seam with a loose loop fixes the break. Then set the activity: Build or plan a prototype with removable module and test it on two users. Mark against the standard: Signal remains stable during walking, arm movement and sitting for five minutes each. Check at this level: Why removable module? Model answer: For washing."
   ],
   [
    "Washing, wear and durability",
    "L5: learner can test. Focus module: Washing, wear and durability (Analyse, 4 h). Washing is the harshest test a smart garment faces. Key points: Test cycles: gentle cold wash, air dry. Count cycles to failure. Detach modules, close zips and use a wash bag. Inspect connections, coatings and fabric after every five washes. Decide a minimum life such as 25 washes and design to that.",
-   "Teach: open with the worked example. Three prototypes are washed. The first fails at 8 washes (corroded thread), the second at 15 (cracked sealant), the third passes 25 after a flexible silicone seal is added. Then set the activity: Wash-test a sample and record the number of cycles to failure and the failure cause. Mark against the standard: Log shows cycles, faults and one improvement tested. Check at this level: Material concern? Model answer: Skin allergy."
+   "Teach: open with the worked example. Three prototypes are washed. The first fails at 8 washes (corroded thread), the second at 15 (cracked sealant), the third passes 25 after a flexible silicone seal is added. Then set the activity: Wash-test a sample and record the number of cycles to failure and the failure cause. Mark against the standard: Log shows cycles, faults and one improvement tested. Check at this level: Wash test? Model answer: Count cycles to failure."
   ],
   [
    "Privacy, safety and rules",
@@ -285,7 +285,7 @@
   [
    "Pilot, cost and plan",
    "L7: learner can audit. Focus module: Pilot, cost and plan (Create, 3 h). A small pilot shows whether anyone wants and can use the garment. Key points: Recruit about ten users with consent and a clear task. Measure wear time, comfort, washing results and satisfaction. Cost per garment = fabric + module share + labour + packaging + warranty reserve. Decide: improve, change use, or stop.",
-   "Teach: open with the worked example. The pilot garment costs 780 INR to make and is priced at 1,600 INR. Users wear it on 8 out of 10 days; two report the collar irritates, so the module moves to the side seam. Then set the activity: Write a pilot plan with users, measures, cost and decision rule. Mark against the standard: Plan names ten users, a cost per unit and a go/stop rule. Check at this level: Wash test? Model answer: Count cycles to failure."
+   "Teach: open with the worked example. The pilot garment costs 780 INR to make and is priced at 1,600 INR. Users wear it on 8 out of 10 days; two report the collar irritates, so the module moves to the side seam. Then set the activity: Write a pilot plan with users, measures, cost and decision rule. Mark against the standard: Plan names ten users, a cost per unit and a go/stop rule. Check at this level: Pilot size? Model answer: About 10 users."
   ]
  ]
 }
