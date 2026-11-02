@@ -76,7 +76,7 @@
     "Compare a 10-hour retainer with hourly billing.",
     "Add a late payment rule to your terms."
    ],
-   "ex": "At $28 an hour with 30 billable hours a month you bill 30 x 28 = $840. Tools cost $40, so before tax you keep 840 - 40 = $800. If you worked 40 hours to bill those 30, $800 / 40 = $20 per hour worked.",
+   "ex": "At an example rate of $28 an hour with 30 billable hours a month you bill 30 x 28 = $840. Tools cost $40, so before tax you keep 840 - 40 = $800. If you worked 40 hours to bill those 30, $800 / 40 = $20 per hour worked.",
    "act": "Build a price sheet with three packages and a monthly cost sheet.",
    "std": "Task: build a price and cost sheet. Condition: spreadsheet with visible formulas. Standard: break-even hours per month shown, three what-if cases, and a mentor checks the arithmetic."
   },
@@ -92,7 +92,7 @@
     "List fifteen possible clients with where you found each.",
     "Define what a successful trial looks like before it starts."
    ],
-   "ex": "Offer: 'For solo trades owners: I answer email, book jobs and send invoices. Five hours a week. First week is a trial.' Five hours a week for four weeks is 5 x 4 = 20 hours, which at $28 an hour is $560 a month.",
+   "ex": "Offer: 'For solo trades owners: I answer email, book jobs and send invoices. Five hours a week. First week is a trial.' Five hours a week for four weeks is 5 x 4 = 20 hours, which at an example rate of $28 an hour is $560 a month.",
    "act": "Contact fifteen possible clients with consent-based messages and book three calls.",
    "std": "Task: run a client search for two weeks. Condition: only people who may be contacted under the anti-spam rules. Standard: messages logged, calls booked, one lesson written."
   },
@@ -124,7 +124,7 @@
     "List the tools and logins the handover guide needs.",
     "Plan a price rise for new clients."
    ],
-   "ex": "At day 60: two clients, 38 hours a month, errors 2 (both caught), one referral. At $28 an hour, 38 hours bills 38 x 28 = $1,064 a month. A 10 percent rise gives 28 x 1.10 = $30.80 an hour for new clients.",
+   "ex": "At day 60: two clients, 38 hours a month, errors 2 (both caught), one referral. At an example rate of $28 an hour, 38 hours bills 38 x 28 = $1,064 a month. A 10 percent rise gives 28 x 1.10 = $30.80 an hour for new clients.",
    "act": "Run the pilot, keep the log and present the plan to a panel of three.",
    "std": "Task: operate a 60-day pilot. Condition: real clients with written scope. Standard: log complete, privacy rules followed, decision backed by numbers."
   }

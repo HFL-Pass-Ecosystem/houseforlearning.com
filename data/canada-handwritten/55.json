@@ -108,7 +108,7 @@
     "Calculate the completion rate: finishers divided by starters.",
     "List what is and is not included, such as live help hours."
    ],
-   "ex": "Price 65 per hour of live help, direct cost 0. If fixed costs are 500 a month, break-even is 500 / 65 = 7.7, so 8 hours. If 20 learners start and 12 finish, the completion rate is 12 / 20 = 60%, below an aim of 75%, so the first two lessons need work.",
+   "ex": "Price 65 per hour of live help, direct cost 0. If fixed costs are 500 a month, break-even is 500 / 65 = 7.7, so 8 hours (teaching numbers only). If 20 learners start and 12 finish, the completion rate is 12 / 20 = 60%, below an aim of 75%, so the first two lessons need work.",
    "act": "Build a cost sheet and a one-page offer, and invite 20 people to a free first lesson.",
    "std": "Task: price a course. Condition: all costs counted. Standard: break-even correct and the offer makes no unsupported promises."
   },

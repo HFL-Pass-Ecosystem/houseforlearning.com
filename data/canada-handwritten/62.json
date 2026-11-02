@@ -92,7 +92,7 @@
     "Count waste as a cost: unsold portions and failed batches.",
     "Set a target food cost percent and check each item against it."
    ],
-   "ex": "A gluten-free dish costs 3.50 CAD in ingredients and sells for 12. Food cost = 3.50 / 12 = about 29%, and margin before labour = 12 - 3.50 = 8.50 per portion. If fixed cost is 4,250 per month, break-even = 4,250 / 8.50 = 500 portions.",
+   "ex": "A gluten-free dish costs 3.50 CAD in ingredients and sells for 12. Food cost = 3.50 / 12 = about 29%, and margin before labour = 12 - 3.50 = 8.50 per portion. If fixed cost is 4,250 per month, break-even = 4,250 / 8.50 = 500 portions (teaching numbers only).",
    "act": "Build a menu cost sheet for ten items and a break-even number.",
    "std": "Task: cost a menu. Condition: a spreadsheet. Standard: formulas are visible, waste is counted and a mentor checks the arithmetic."
   },

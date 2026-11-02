@@ -76,7 +76,7 @@
     "Ask for a deposit on larger jobs and write the payment dates in the agreement.",
     "Compare your price with similar services in your area and explain the difference."
    ],
-   "ex": "At 150 CAD an hour and 20 hours: 20 x 150 = 3,000 CAD. Costs: 20 x 35 = 700. Margin: 3,000 - 700 = 2,300 per job, about 77 percent. If you can bill only 25 hours of a 40-hour week, billable use is 25 / 40 = 62.5 percent. Teaching figures only.",
+   "ex": "At an example rate of 150 CAD an hour and 20 hours: 20 x 150 = 3,000 CAD. Costs: 20 x 35 = 700. Margin: 3,000 - 700 = 2,300 per job, about 77 percent. If you can bill only 25 hours of a 40-hour week, billable use is 25 / 40 = 62.5 percent. Teaching figures only.",
    "act": "Build a fee sheet for three services with hours, rate and costs, and compute break-even.",
    "std": "Task: build a fee and cost sheet. Condition: spreadsheet with visible formulas. Standard: units shown, three what-if cases, mentor checks the arithmetic."
   },
@@ -92,7 +92,7 @@
     "Record the time spent on each client every day, not at the end of the month.",
     "Back up client files to a second safe place each week."
    ],
-   "ex": "Time log: estimate 20 hours, actual 26. Overrun is 6 hours, or 30 percent (6 / 20). Cause: three extra rounds of client changes. At 150 CAD an hour, 6 hours is 900 CAD of lost fee. Fix: write the change limit in the agreement.",
+   "ex": "Time log: estimate 20 hours, actual 26. Overrun is 6 hours, or 30 percent (6 / 20). Cause: three extra rounds of client changes. At an example rate of 150 CAD an hour, 6 hours is 900 CAD of lost fee. Fix: write the change limit in the agreement.",
    "act": "Keep a four-week time log and file system for two pretend or real clients.",
    "std": "Task: manage files and time for four weeks. Condition: real or practice clients. Standard: log complete, files named by rule, one improvement made."
   },
@@ -103,7 +103,7 @@
     "Keep client information private. Share only with permission or as the law requires.",
     "Tell the client about any conflict of interest and decline when you cannot serve fairly.",
     "Do not promise results you cannot control.",
-    "Follow privacy law: collect only what you need and delete when no longer needed.",
+    "Follow privacy law, which may be federal or provincial, so check which applies. Collect only what you need and delete when no longer needed.",
     "Lock paper files and use passwords on files that hold client data.",
     "Tell the client what you do with their data when the job ends.",
     "Check any gift or favour policy so it never affects your advice."

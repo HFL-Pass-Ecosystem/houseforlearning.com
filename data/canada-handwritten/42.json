@@ -92,7 +92,7 @@
     "Set a rule for extra work: it is quoted and agreed before it is done.",
     "Keep records of tools and calibration costs as part of your overhead."
    ],
-   "ex": "Price 150 CAD per hour for 20 hours is 3,000 CAD. Cost is 35 per hour, so 20 x 35 = 700. Margin is 3,000 - 700 = 2,300, which is 115 per hour. If rework adds 3 hours at your cost, the margin falls by 3 x 35 = 105. Teaching figures only.",
+   "ex": "An example price of 150 CAD per hour for 20 hours is 3,000 CAD. Cost is 35 per hour, so 20 x 35 = 700. Margin is 3,000 - 700 = 2,300, which is 115 per hour. If rework adds 3 hours at your cost, the margin falls by 3 x 35 = 105. Teaching figures only.",
    "act": "Build an estimate and cost sheet for one job, then compare to the actual hours.",
    "std": "Task: estimate and track a job. Condition: for a real or practice job. Standard: units shown, formulas visible, difference between estimate and actual explained."
   },

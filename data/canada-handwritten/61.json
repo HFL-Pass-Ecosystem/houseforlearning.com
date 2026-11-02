@@ -108,7 +108,7 @@
     "Include warranty returns as a cost in the cost sheet.",
     "Compare your price with three similar products and write why a buyer would pick yours."
    ],
-   "ex": "Price 1,200 CAD, variable cost 780, so margin = 1,200 - 780 = 420. Fixed cost is 10,000 per month, so break-even = 10,000 / 420 = 23.8, which rounds up to 24 units a month. At 30 units the monthly profit is 30 x 420 - 10,000 = 2,600 CAD.",
+   "ex": "Price 1,200 CAD, variable cost 780, so margin = 1,200 - 780 = 420. Fixed cost is 10,000 per month, so break-even = 10,000 / 420 = 23.8, which rounds up to 24 units a month. At 30 units the monthly profit is 30 x 420 - 10,000 = 2,600 CAD (teaching numbers only).",
    "act": "Build a cost sheet, compute break-even and write what you would change if you were 30% short.",
    "std": "Task: price a computer. Condition: a spreadsheet. Standard: formulas are visible, three what-if cases are shown and a mentor checks the arithmetic."
   },
