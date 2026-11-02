@@ -41,8 +41,7 @@ def build(c):
             + B.sec('alt', 'ld', 'ladder L1 to L7', 'Slide by slide, with notes', '<p>Seven slides, one for each level. Step in at your level and move up; credits stack.</p>' + slides)
             + B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', jobs + f'<p>Next courses: {e(c["next"])}</p>')
             + B.sec('alt', 'lc', 'ten locations and global', 'Your place', f'<p>{e(c["local"])} {SAFE_DEFAULT}</p>'
-                    + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Currency: write {L["cur"]} next to every number. Language: {e(L["lang"])}. Personal data law to check: {e(L["data"])}. Level frame: {e(L["frame"])}. Partner to practise with: {e(L["partner"])}.</p></details>' for L in B.LOC)
-                    + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
+                    + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Currency: write {L["cur"]} next to every number. Language: {e(L["lang"])}. Personal data law to check: {e(L["data"])}. Level frame: {e(L["frame"])}. Partner to practise with: {e(L["partner"])}.</p></details>' for L in B.LOC))
             + B.sec('', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship. Own wording; no outside brand, school or person names. Not live.</p><p><a class="btn" href="courses-hub.html">All courses</a> <a class="btn btn-ghost" href="join.html">Join</a></p>'))
     B.page(f'learn-flagship-{c["id"].lower()}.html', c['title'] + ' (flagship course)', c['summary'][:150], c['title'], e(c['summary']), body,
            B.crumb(('Courses', 'courses-hub.html'), (c['group'], None)), kicker=f'flagship course · {c["id"]}')

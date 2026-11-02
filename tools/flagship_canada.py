@@ -289,8 +289,7 @@ def course(p):
             + B.sec('alt', 'lv', 'levels', 'Seven levels, L1 to L7', ('<p>Use this ladder to see where you are and what to show next. Each level builds on the one below.</p>' + lad if not lad.startswith('<p>Seven slides') else lad))
             + B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', '<ul>' + ''.join(f'<li>{e(j)}</li>' for j in f['jobs']) + '</ul>')
             + B.sec('alt', 'lc', 'ten locations and global', 'Your place', f'<p>The course is written for Canada. The same method works elsewhere; local rules, currency and levels change. Pick your place.</p>'
-                    + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Currency: {L["cur"]}. Registering: {e(L["reg"])}. Data rule: {e(L["data"])}. Levels frame to cite: {e(L["frame"])}.</p></details>' for L in B.LOC)
-                    + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
+                    + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Currency: {L["cur"]}. Registering: {e(L["reg"])}. Data rule: {e(L["data"])}. Levels frame to cite: {e(L["frame"])}.</p></details>' for L in B.LOC))
             + B.sec('', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship course. Own wording. Teaching figures are examples, not market data. Not live.</p>'))
     fn = slug(t, n)
     B.page(fn, f'{t} (Canada flagship course)', f'{hours}-hour course on {tl} in Canada: eight modules, worked examples, rubric and ten-question check.', t, e(f'Run a real {tl} pilot in Canada: eight modules from user need to review, with rules, costs, risks and a seven-level ladder.'),
