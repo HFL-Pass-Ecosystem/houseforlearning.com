@@ -1,0 +1,180 @@
+{
+ "slug": "school-grade-06-com.html",
+ "plan": "grade-06",
+ "subject": "COM",
+ "subject_name": "Computing",
+ "kind": "comp",
+ "label": "Grade 06",
+ "band": "secondary",
+ "level": 3,
+ "weeks": 36,
+ "task": "Meet the outcome of every unit in Grade 06 Computing, and keep one piece of evidence for each.",
+ "condition": "A 36-week school year, 4 units, a teacher or guide, a learning book or device, and local examples in the local language first with English support.",
+ "standard": "Each unit: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. Course pass: no unit at 'Not yet' after one retry, and a pass in SA1 and SA2.",
+ "modules": [
+  {
+   "n": 1,
+   "title": "Word, slides and spreadsheets in practice",
+   "bloom": "Apply",
+   "weeks": [
+    1,
+    11
+   ],
+   "hours": 33,
+   "outcome": "prepare a report with a table, chart and slides",
+   "intro": "In this unit you work on 'Word, slides and spreadsheets in practice', taught in a way that is with notes, a worked line and a self-mark. The target is clear: prepare a report with a table, chart and slides. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Word, slides and spreadsheets in practice' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: prepare a report with a table, chart and slides. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Model run for 'Word, slides and spreadsheets in practice'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Prepare a report with a table, chart and slides: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 2,
+   "title": "Algorithms and flowcharts",
+   "bloom": "Create",
+   "weeks": [
+    12,
+    22
+   ],
+   "hours": 33,
+   "outcome": "plan a solution with a flowchart and test it",
+   "intro": "In this unit you work on 'Algorithms and flowcharts', taught in a way that is with notes, a worked line and a self-mark. The target is clear: plan a solution with a flowchart and test it. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Algorithms and flowcharts' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: plan a solution with a flowchart and test it. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Model run for 'Algorithms and flowcharts'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Plan a solution with a flowchart and test it: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 3,
+   "title": "Programming in a text language, first steps",
+   "bloom": "Apply",
+   "weeks": [
+    23,
+    33
+   ],
+   "hours": 33,
+   "outcome": "write short programs with input, output and decisions",
+   "intro": "In this unit you work on 'Programming in a text language, first steps', taught in a way that is with notes, a worked line and a self-mark. The target is clear: write short programs with input, output and decisions. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Programming in a text language, first steps' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: write short programs with input, output and decisions. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Model run for 'Programming in a text language, first steps'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Write short programs with input, output and decisions: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 4,
+   "title": "Cyber safety and ethics",
+   "bloom": "Apply",
+   "weeks": [
+    34,
+    36
+   ],
+   "hours": 9,
+   "outcome": "apply privacy and respectful communication rules",
+   "intro": "In this unit you work on 'Cyber safety and ethics', taught in a way that is with notes, a worked line and a self-mark. The target is clear: apply privacy and respectful communication rules. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Cyber safety and ethics' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: apply privacy and respectful communication rules. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Model run for 'Cyber safety and ethics'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Apply privacy and respectful communication rules: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  }
+ ],
+ "rubric": [
+  [
+   "It works",
+   "Does not run",
+   "Runs with help",
+   "Runs and handles odd input"
+  ],
+  [
+   "Understanding of the parts",
+   "Cannot name",
+   "Names most",
+   "Names and explains"
+  ],
+  [
+   "Planning",
+   "None",
+   "A list",
+   "A clear ordered plan"
+  ],
+  [
+   "Safety and care",
+   "Needs reminding",
+   "Follows rules",
+   "Follows rules and helps others"
+  ],
+  [
+   "Practice habit",
+   "Rarely",
+   "Weekly",
+   "Most days"
+  ]
+ ],
+ "checks": [
+  [
+   "Unit 1 (Word, slides and spreadsheets in practice): show that you can prepare a report with a table, chart and slides. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  ],
+  [
+   "Unit 2 (Algorithms and flowcharts): show that you can plan a solution with a flowchart and test it. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  ],
+  [
+   "Unit 3 (Programming in a text language, first steps): show that you can write short programs with input, output and decisions. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  ],
+  [
+   "Unit 4 (Cyber safety and ethics): show that you can apply privacy and respectful communication rules. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  ],
+  [
+   "Which action verb starts the outcome of Unit 1 (Word, slides and spreadsheets in practice), and at which Bloom level is it?",
+   "'prepare', at the Apply level."
+  ],
+  [
+   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
+   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36."
+  ],
+  [
+   "In which weeks does Unit 4 (Cyber safety and ethics) run?",
+   "Weeks 34 to 36."
+  ],
+  [
+   "What evidence do you keep for each unit, and why?",
+   "A worked task and a corrected copy. It shows what you can really do and lets a teacher check it against the standard."
+  ]
+ ],
+ "ladder": [
+  "L1: use a device safely; click, type and draw.",
+  "L2: create documents; follow simple instructions in blocks.",
+  "L3: spreadsheets, algorithms and simple programs.",
+  "L4: programming, data and networks.",
+  "L5: software design, databases and security.",
+  "L6 (degree): software engineering and systems.",
+  "L7 (postgraduate): research, architecture or AI practice."
+ ],
+ "jobs": [],
+ "blooms": [
+  "Apply",
+  "Create"
+ ]
+}

@@ -1,0 +1,250 @@
+{
+ "slug": "school-grade-12-science-mat.html",
+ "plan": "grade-12-science",
+ "subject": "MAT",
+ "subject_name": "Mathematics",
+ "kind": "maths",
+ "label": "Grade 12 Science",
+ "band": "post",
+ "level": 5,
+ "weeks": 36,
+ "task": "Meet the outcome of every unit in Grade 12 Science Mathematics, and keep one piece of evidence for each.",
+ "condition": "A 36-week school year, 7 units, a teacher or guide, a learning book or device, and local examples in the local language first with English support.",
+ "standard": "Each unit: at least 70 percent on an exam-style task, with the method shown. Course pass: no unit at 'Not yet' after one retry, and a pass in SA1 and SA2.",
+ "modules": [
+  {
+   "n": 1,
+   "title": "Relations, functions and inverse trigonometric functions",
+   "bloom": "Apply",
+   "weeks": [
+    1,
+    6
+   ],
+   "hours": 18,
+   "outcome": "define and graph functions and their inverses",
+   "intro": "In this unit you work on 'Relations, functions and inverse trigonometric functions', taught in a way that is with exam-style questions and written reasoning. The target is clear: define and graph functions and their inverses. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Relations, functions and inverse trigonometric functions' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: define and graph functions and their inverses. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Right triangle, opposite side 3, hypotenuse 5, adjacent side 4. sin = 3/5 = 0.6, cos = 4/5 = 0.8, tan = 3/4 = 0.75. Method: Model run for 'Relations, functions and inverse trigonometric functions'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Define and graph functions and their inverses: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 2,
+   "title": "Matrices and determinants",
+   "bloom": "Apply",
+   "weeks": [
+    7,
+    11
+   ],
+   "hours": 15,
+   "outcome": "operate on matrices and find inverses",
+   "intro": "In this unit you work on 'Matrices and determinants', taught in a way that is with exam-style questions and written reasoning. The target is clear: operate on matrices and find inverses. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Matrices and determinants' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: operate on matrices and find inverses. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: [1 2; 3 4] + [0 1; 1 0] = [1 3; 4 4]. The determinant of [1 2; 3 4] = 1 x 4 - 2 x 3 = -2. Method: Model run for 'Matrices and determinants'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Operate on matrices and find inverses: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 3,
+   "title": "Continuity, differentiability and applications of derivatives",
+   "bloom": "Apply",
+   "weeks": [
+    12,
+    16
+   ],
+   "hours": 15,
+   "outcome": "differentiate and find maxima and minima",
+   "intro": "In this unit you work on 'Continuity, differentiability and applications of derivatives', taught in a way that is with exam-style questions and written reasoning. The target is clear: differentiate and find maxima and minima. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Continuity, differentiability and applications of derivatives' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: differentiate and find maxima and minima. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: d/dx of (3x squared + 5x) = 6x + 5; at x = 2 the gradient is 17. Limit as x goes to 2 of (x squared - 4)/(x - 2) = limit of (x + 2) = 4. Method: Model run for 'Continuity, differentiability and applications of derivatives'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Differentiate and find maxima and minima: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 4,
+   "title": "Integrals and applications of integrals",
+   "bloom": "Apply",
+   "weeks": [
+    17,
+    21
+   ],
+   "hours": 15,
+   "outcome": "integrate and find areas under curves",
+   "intro": "In this unit you work on 'Integrals and applications of integrals', taught in a way that is with exam-style questions and written reasoning. The target is clear: integrate and find areas under curves. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Integrals and applications of integrals' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: integrate and find areas under curves. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: The integral of (6x + 5) dx = 3x squared + 5x + C. Check by differentiating: 6x + 5. Method: Model run for 'Integrals and applications of integrals'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Integrate and find areas under curves: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 5,
+   "title": "Differential equations",
+   "bloom": "Apply",
+   "weeks": [
+    22,
+    26
+   ],
+   "hours": 15,
+   "outcome": "solve first-order differential equations",
+   "intro": "In this unit you work on 'Differential equations', taught in a way that is with exam-style questions and written reasoning. The target is clear: solve first-order differential equations. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Differential equations' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: solve first-order differential equations. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Model run for 'Differential equations'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Solve first-order differential equations: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 6,
+   "title": "Vectors and three-dimensional geometry",
+   "bloom": "Apply",
+   "weeks": [
+    27,
+    31
+   ],
+   "hours": 15,
+   "outcome": "use dot and cross products and equations of lines and planes",
+   "intro": "In this unit you work on 'Vectors and three-dimensional geometry', taught in a way that is with exam-style questions and written reasoning. The target is clear: use dot and cross products and equations of lines and planes. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Vectors and three-dimensional geometry' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: use dot and cross products and equations of lines and planes. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: a = (2, 3) and b = (1, -1). a + b = (3, 2). Twice a = (4, 6). Method: Model run for 'Vectors and three-dimensional geometry'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Use dot and cross products and equations of lines and planes: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 7,
+   "title": "Linear programming and probability",
+   "bloom": "Apply",
+   "weeks": [
+    32,
+    36
+   ],
+   "hours": 15,
+   "outcome": "solve optimisation and conditional probability problems",
+   "intro": "In this unit you work on 'Linear programming and probability', taught in a way that is with exam-style questions and written reasoning. The target is clear: solve optimisation and conditional probability problems. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Linear programming and probability' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: solve optimisation and conditional probability problems. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: A fair die has 6 faces and 3 are even, so P(even) = 3/6 = 1/2. Method: Model run for 'Linear programming and probability'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Solve optimisation and conditional probability problems: at least 70 percent on an exam-style task, with the method shown."
+  }
+ ],
+ "rubric": [
+  [
+   "Accuracy",
+   "Frequent errors",
+   "Mostly correct",
+   "Correct, checked"
+  ],
+  [
+   "Method shown",
+   "Answer only",
+   "Steps shown",
+   "Steps shown with reasons"
+  ],
+  [
+   "Problem solving",
+   "Needs the method told",
+   "Chooses the method",
+   "Chooses and explains why"
+  ],
+  [
+   "Communication",
+   "Hard to follow",
+   "Clear working",
+   "Clear working with correct terms"
+  ],
+  [
+   "Practice habit",
+   "Rarely practises",
+   "Practises weekly",
+   "Practises most days with an error log"
+  ]
+ ],
+ "checks": [
+  [
+   "Unit 1 (Relations, functions and inverse trigonometric functions): show that you can define and graph functions and their inverses. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Unit 2 (Matrices and determinants): show that you can operate on matrices and find inverses. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Unit 3 (Continuity, differentiability and applications of derivatives): show that you can differentiate and find maxima and minima. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Unit 4 (Integrals and applications of integrals): show that you can integrate and find areas under curves. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Unit 5 (Differential equations): show that you can solve first-order differential equations. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Unit 6 (Vectors and three-dimensional geometry): show that you can use dot and cross products and equations of lines and planes. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Which action verb starts the outcome of Unit 1 (Relations, functions and inverse trigonometric functions), and at which Bloom level is it?",
+   "'define', at the Apply level."
+  ],
+  [
+   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
+   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36."
+  ],
+  [
+   "In which weeks does Unit 7 (Linear programming and probability) run?",
+   "Weeks 32 to 36."
+  ],
+  [
+   "What evidence do you keep for each unit, and why?",
+   "A timed paper and an error log. It shows what you can really do and lets a teacher check it against the standard."
+  ]
+ ],
+ "ladder": [
+  "L1: count, add and subtract small numbers; name shapes.",
+  "L2: use the four operations, fractions and simple measures.",
+  "L3: work with ratio, algebra beginnings and geometry reasoning.",
+  "L4: algebra, geometry proof, trigonometry and statistics.",
+  "L5: functions, calculus, vectors and probability.",
+  "L6 (degree): proof, linear algebra and modelling.",
+  "L7 (postgraduate): research mathematics, data science or teaching at depth."
+ ],
+ "jobs": [],
+ "blooms": [
+  "Apply"
+ ]
+}

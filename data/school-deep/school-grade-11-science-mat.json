@@ -1,0 +1,292 @@
+{
+ "slug": "school-grade-11-science-mat.html",
+ "plan": "grade-11-science",
+ "subject": "MAT",
+ "subject_name": "Mathematics",
+ "kind": "maths",
+ "label": "Grade 11 Science",
+ "band": "post",
+ "level": 5,
+ "weeks": 36,
+ "task": "Meet the outcome of every unit in Grade 11 Science Mathematics, and keep one piece of evidence for each.",
+ "condition": "A 36-week school year, 9 units, a teacher or guide, a learning book or device, and local examples in the local language first with English support.",
+ "standard": "Each unit: at least 70 percent on an exam-style task, with the method shown. Course pass: no unit at 'Not yet' after one retry, and a pass in SA1 and SA2.",
+ "modules": [
+  {
+   "n": 1,
+   "title": "Sets and relations",
+   "bloom": "Apply",
+   "weeks": [
+    1,
+    5
+   ],
+   "hours": 15,
+   "outcome": "use set notation, relations and functions",
+   "intro": "In this unit you work on 'Sets and relations', taught in a way that is with exam-style questions and written reasoning. The target is clear: use set notation, relations and functions. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Sets and relations' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: use set notation, relations and functions. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: A = {1, 2, 3} and B = {2, 3, 4}. Union = {1, 2, 3, 4}. Intersection = {2, 3}. Method: Model run for 'Sets and relations'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Use set notation, relations and functions: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 2,
+   "title": "Trigonometric functions",
+   "bloom": "Apply",
+   "weeks": [
+    6,
+    10
+   ],
+   "hours": 15,
+   "outcome": "use identities and graphs of trigonometric functions",
+   "intro": "In this unit you work on 'Trigonometric functions', taught in a way that is with exam-style questions and written reasoning. The target is clear: use identities and graphs of trigonometric functions. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Trigonometric functions' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: use identities and graphs of trigonometric functions. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Right triangle, opposite side 3, hypotenuse 5, adjacent side 4. sin = 3/5 = 0.6, cos = 4/5 = 0.8, tan = 3/4 = 0.75. Method: Model run for 'Trigonometric functions'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Use identities and graphs of trigonometric functions: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 3,
+   "title": "Principle of mathematical induction",
+   "bloom": "Apply",
+   "weeks": [
+    11,
+    13
+   ],
+   "hours": 9,
+   "outcome": "prove statements by induction",
+   "intro": "In this unit you work on 'Principle of mathematical induction', taught in a way that is with exam-style questions and written reasoning. The target is clear: prove statements by induction. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Principle of mathematical induction' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: prove statements by induction. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Show 1 + 2 + ... + n = n(n + 1)/2. n = 1: 1 = 1. Assume it holds for k. Add k + 1: k(k + 1)/2 + (k + 1) = (k + 1)(k + 2)/2, which is the rule for k + 1. So it holds for all n. Method: Model run for 'Principle of mathematical induction'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Prove statements by induction: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 4,
+   "title": "Complex numbers and quadratic equations",
+   "bloom": "Apply",
+   "weeks": [
+    14,
+    18
+   ],
+   "hours": 15,
+   "outcome": "operate on complex numbers and solve quadratics",
+   "intro": "In this unit you work on 'Complex numbers and quadratic equations', taught in a way that is with exam-style questions and written reasoning. The target is clear: operate on complex numbers and solve quadratics. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Complex numbers and quadratic equations' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: operate on complex numbers and solve quadratics. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: x squared - 5x + 6 = 0 factorises as (x - 2)(x - 3) = 0, so x = 2 or x = 3. Check x = 2: 4 - 10 + 6 = 0. Method: Model run for 'Complex numbers and quadratic equations'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Operate on complex numbers and solve quadratics: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 5,
+   "title": "Linear inequalities and permutations and combinations",
+   "bloom": "Apply",
+   "weeks": [
+    19,
+    21
+   ],
+   "hours": 9,
+   "outcome": "solve inequalities and count arrangements",
+   "intro": "In this unit you work on 'Linear inequalities and permutations and combinations', taught in a way that is with exam-style questions and written reasoning. The target is clear: solve inequalities and count arrangements. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Linear inequalities and permutations and combinations' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: solve inequalities and count arrangements. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Arrange 5 books in 3 places: 5 x 4 x 3 = 60 ways. Choose 3 of 5: 60 / 6 = 10 ways. Method: Model run for 'Linear inequalities and permutations and combinations'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Solve inequalities and count arrangements: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 6,
+   "title": "Binomial theorem and sequences and series",
+   "bloom": "Apply",
+   "weeks": [
+    22,
+    26
+   ],
+   "hours": 15,
+   "outcome": "expand binomials and sum series",
+   "intro": "In this unit you work on 'Binomial theorem and sequences and series', taught in a way that is with exam-style questions and written reasoning. The target is clear: expand binomials and sum series. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Binomial theorem and sequences and series' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: expand binomials and sum series. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: 2, 5, 8, ... has a = 2 and d = 3. The 10th term = 2 + 9 x 3 = 29. The sum of 10 terms = 10/2 x (2 + 29) = 155. Method: Model run for 'Binomial theorem and sequences and series'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Expand binomials and sum series: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 7,
+   "title": "Straight lines and conic sections",
+   "bloom": "Apply",
+   "weeks": [
+    27,
+    30
+   ],
+   "hours": 12,
+   "outcome": "use equations of lines, circles and conics",
+   "intro": "In this unit you work on 'Straight lines and conic sections', taught in a way that is with exam-style questions and written reasoning. The target is clear: use equations of lines, circles and conics. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Straight lines and conic sections' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: use equations of lines, circles and conics. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Points (1, 2) and (4, 6). Distance = square root of (3 squared + 4 squared) = square root of 25 = 5. Slope = (6 - 2) / (4 - 1) = 4/3. Method: Model run for 'Straight lines and conic sections'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Use equations of lines, circles and conics: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 8,
+   "title": "Limits and derivatives, introduction",
+   "bloom": "Apply",
+   "weeks": [
+    31,
+    33
+   ],
+   "hours": 9,
+   "outcome": "find simple limits and derivatives",
+   "intro": "In this unit you work on 'Limits and derivatives, introduction', taught in a way that is with exam-style questions and written reasoning. The target is clear: find simple limits and derivatives. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Limits and derivatives, introduction' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: find simple limits and derivatives. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: d/dx of (3x squared + 5x) = 6x + 5; at x = 2 the gradient is 17. Limit as x goes to 2 of (x squared - 4)/(x - 2) = limit of (x + 2) = 4. Method: Model run for 'Limits and derivatives, introduction'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Find simple limits and derivatives: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 9,
+   "title": "Statistics and probability",
+   "bloom": "Apply",
+   "weeks": [
+    34,
+    36
+   ],
+   "hours": 9,
+   "outcome": "find variance and calculate probability",
+   "intro": "In this unit you work on 'Statistics and probability', taught in a way that is with exam-style questions and written reasoning. The target is clear: find variance and calculate probability. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Statistics and probability' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: find variance and calculate probability. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Data 4, 7, 7, 9, 13. Mean = 40 / 5 = 8. Median (middle value) = 7. Mode (most common) = 7. Method: Model run for 'Statistics and probability'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Find variance and calculate probability: at least 70 percent on an exam-style task, with the method shown."
+  }
+ ],
+ "rubric": [
+  [
+   "Accuracy",
+   "Frequent errors",
+   "Mostly correct",
+   "Correct, checked"
+  ],
+  [
+   "Method shown",
+   "Answer only",
+   "Steps shown",
+   "Steps shown with reasons"
+  ],
+  [
+   "Problem solving",
+   "Needs the method told",
+   "Chooses the method",
+   "Chooses and explains why"
+  ],
+  [
+   "Communication",
+   "Hard to follow",
+   "Clear working",
+   "Clear working with correct terms"
+  ],
+  [
+   "Practice habit",
+   "Rarely practises",
+   "Practises weekly",
+   "Practises most days with an error log"
+  ]
+ ],
+ "checks": [
+  [
+   "Unit 1 (Sets and relations): show that you can use set notation, relations and functions. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Unit 2 (Trigonometric functions): show that you can use identities and graphs of trigonometric functions. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Unit 3 (Principle of mathematical induction): show that you can prove statements by induction. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Unit 4 (Complex numbers and quadratic equations): show that you can operate on complex numbers and solve quadratics. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Unit 5 (Linear inequalities and permutations and combinations): show that you can solve inequalities and count arrangements. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Unit 6 (Binomial theorem and sequences and series): show that you can expand binomials and sum series. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Which action verb starts the outcome of Unit 1 (Sets and relations), and at which Bloom level is it?",
+   "'use', at the Apply level."
+  ],
+  [
+   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
+   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36."
+  ],
+  [
+   "In which weeks does Unit 9 (Statistics and probability) run?",
+   "Weeks 34 to 36."
+  ],
+  [
+   "What evidence do you keep for each unit, and why?",
+   "A timed paper and an error log. It shows what you can really do and lets a teacher check it against the standard."
+  ]
+ ],
+ "ladder": [
+  "L1: count, add and subtract small numbers; name shapes.",
+  "L2: use the four operations, fractions and simple measures.",
+  "L3: work with ratio, algebra beginnings and geometry reasoning.",
+  "L4: algebra, geometry proof, trigonometry and statistics.",
+  "L5: functions, calculus, vectors and probability.",
+  "L6 (degree): proof, linear algebra and modelling.",
+  "L7 (postgraduate): research mathematics, data science or teaching at depth."
+ ],
+ "jobs": [],
+ "blooms": [
+  "Apply"
+ ]
+}

@@ -1,0 +1,180 @@
+{
+ "slug": "school-grade-08-com.html",
+ "plan": "grade-08",
+ "subject": "COM",
+ "subject_name": "Computing",
+ "kind": "comp",
+ "label": "Grade 08",
+ "band": "secondary",
+ "level": 3,
+ "weeks": 36,
+ "task": "Meet the outcome of every unit in Grade 08 Computing, and keep one piece of evidence for each.",
+ "condition": "A 36-week school year, 4 units, a teacher or guide, a learning book or device, and local examples in the local language first with English support.",
+ "standard": "Each unit: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. Course pass: no unit at 'Not yet' after one retry, and a pass in SA1 and SA2.",
+ "modules": [
+  {
+   "n": 1,
+   "title": "Databases and queries",
+   "bloom": "Create",
+   "weeks": [
+    1,
+    11
+   ],
+   "hours": 33,
+   "outcome": "create tables and write simple queries",
+   "intro": "In this unit you work on 'Databases and queries', taught in a way that is with notes, a worked line and a self-mark. The target is clear: create tables and write simple queries. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Databases and queries' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: create tables and write simple queries. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Model run for 'Databases and queries'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Create tables and write simple queries: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 2,
+   "title": "Programming with functions and lists",
+   "bloom": "Apply",
+   "weeks": [
+    12,
+    22
+   ],
+   "hours": 33,
+   "outcome": "break a task into functions and use lists",
+   "intro": "In this unit you work on 'Programming with functions and lists', taught in a way that is with notes, a worked line and a self-mark. The target is clear: break a task into functions and use lists. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Programming with functions and lists' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: break a task into functions and use lists. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Model run for 'Programming with functions and lists'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Break a task into functions and use lists: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 3,
+   "title": "Web pages with HTML and CSS",
+   "bloom": "Apply",
+   "weeks": [
+    23,
+    33
+   ],
+   "hours": 33,
+   "outcome": "style a multi-page site",
+   "intro": "In this unit you work on 'Web pages with HTML and CSS', taught in a way that is with notes, a worked line and a self-mark. The target is clear: style a multi-page site. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Web pages with HTML and CSS' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: style a multi-page site. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Model run for 'Web pages with HTML and CSS'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Style a multi-page site: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 4,
+   "title": "Safe use of artificial intelligence tools",
+   "bloom": "Apply",
+   "weeks": [
+    34,
+    36
+   ],
+   "hours": 9,
+   "outcome": "use AI tools responsibly and check their answers",
+   "intro": "In this unit you work on 'Safe use of artificial intelligence tools', taught in a way that is with notes, a worked line and a self-mark. The target is clear: use AI tools responsibly and check their answers. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Safe use of artificial intelligence tools' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: use AI tools responsibly and check their answers. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Model run for 'Safe use of artificial intelligence tools'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Use AI tools responsibly and check their answers: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  }
+ ],
+ "rubric": [
+  [
+   "It works",
+   "Does not run",
+   "Runs with help",
+   "Runs and handles odd input"
+  ],
+  [
+   "Understanding of the parts",
+   "Cannot name",
+   "Names most",
+   "Names and explains"
+  ],
+  [
+   "Planning",
+   "None",
+   "A list",
+   "A clear ordered plan"
+  ],
+  [
+   "Safety and care",
+   "Needs reminding",
+   "Follows rules",
+   "Follows rules and helps others"
+  ],
+  [
+   "Practice habit",
+   "Rarely",
+   "Weekly",
+   "Most days"
+  ]
+ ],
+ "checks": [
+  [
+   "Unit 1 (Databases and queries): show that you can create tables and write simple queries. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  ],
+  [
+   "Unit 2 (Programming with functions and lists): show that you can break a task into functions and use lists. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  ],
+  [
+   "Unit 3 (Web pages with HTML and CSS): show that you can style a multi-page site. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  ],
+  [
+   "Unit 4 (Safe use of artificial intelligence tools): show that you can use AI tools responsibly and check their answers. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  ],
+  [
+   "Which action verb starts the outcome of Unit 1 (Databases and queries), and at which Bloom level is it?",
+   "'create', at the Create level."
+  ],
+  [
+   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
+   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36."
+  ],
+  [
+   "In which weeks does Unit 4 (Safe use of artificial intelligence tools) run?",
+   "Weeks 34 to 36."
+  ],
+  [
+   "What evidence do you keep for each unit, and why?",
+   "A worked task and a corrected copy. It shows what you can really do and lets a teacher check it against the standard."
+  ]
+ ],
+ "ladder": [
+  "L1: use a device safely; click, type and draw.",
+  "L2: create documents; follow simple instructions in blocks.",
+  "L3: spreadsheets, algorithms and simple programs.",
+  "L4: programming, data and networks.",
+  "L5: software design, databases and security.",
+  "L6 (degree): software engineering and systems.",
+  "L7 (postgraduate): research, architecture or AI practice."
+ ],
+ "jobs": [],
+ "blooms": [
+  "Apply",
+  "Create"
+ ]
+}

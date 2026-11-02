@@ -1,0 +1,179 @@
+{
+ "slug": "school-grade-12-commerce-mat.html",
+ "plan": "grade-12-commerce",
+ "subject": "MAT",
+ "subject_name": "Mathematics",
+ "kind": "maths",
+ "label": "Grade 12 Commerce",
+ "band": "post",
+ "level": 5,
+ "weeks": 36,
+ "task": "Meet the outcome of every unit in Grade 12 Commerce Mathematics, and keep one piece of evidence for each.",
+ "condition": "A 36-week school year, 4 units, a teacher or guide, a learning book or device, and local examples in the local language first with English support.",
+ "standard": "Each unit: at least 70 percent on an exam-style task, with the method shown. Course pass: no unit at 'Not yet' after one retry, and a pass in SA1 and SA2.",
+ "modules": [
+  {
+   "n": 1,
+   "title": "Relations, functions and matrices",
+   "bloom": "Apply",
+   "weeks": [
+    1,
+    9
+   ],
+   "hours": 27,
+   "outcome": "operate on matrices and functions",
+   "intro": "In this unit you work on 'Relations, functions and matrices', taught in a way that is with exam-style questions and written reasoning. The target is clear: operate on matrices and functions. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Relations, functions and matrices' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: operate on matrices and functions. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: [1 2; 3 4] + [0 1; 1 0] = [1 3; 4 4]. The determinant of [1 2; 3 4] = 1 x 4 - 2 x 3 = -2. Method: Model run for 'Relations, functions and matrices'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Operate on matrices and functions: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 2,
+   "title": "Calculus: differentiation and integration",
+   "bloom": "Apply",
+   "weeks": [
+    10,
+    18
+   ],
+   "hours": 27,
+   "outcome": "find derivatives and simple integrals",
+   "intro": "In this unit you work on 'Calculus: differentiation and integration', taught in a way that is with exam-style questions and written reasoning. The target is clear: find derivatives and simple integrals. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Calculus: differentiation and integration' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: find derivatives and simple integrals. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: d/dx of (3x squared + 5x) = 6x + 5; at x = 2 the gradient is 17. Limit as x goes to 2 of (x squared - 4)/(x - 2) = limit of (x + 2) = 4. Method: Model run for 'Calculus: differentiation and integration'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Find derivatives and simple integrals: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 3,
+   "title": "Probability and linear programming",
+   "bloom": "Apply",
+   "weeks": [
+    19,
+    27
+   ],
+   "hours": 27,
+   "outcome": "calculate probability and optimise",
+   "intro": "In this unit you work on 'Probability and linear programming', taught in a way that is with exam-style questions and written reasoning. The target is clear: calculate probability and optimise. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Probability and linear programming' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: calculate probability and optimise. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: A fair die has 6 faces and 3 are even, so P(even) = 3/6 = 1/2. Method: Model run for 'Probability and linear programming'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Calculate probability and optimise: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 4,
+   "title": "Index numbers and time series",
+   "bloom": "Apply",
+   "weeks": [
+    28,
+    36
+   ],
+   "hours": 27,
+   "outcome": "compute index numbers and trends",
+   "intro": "In this unit you work on 'Index numbers and time series', taught in a way that is with exam-style questions and written reasoning. The target is clear: compute index numbers and trends. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Index numbers and time series' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: compute index numbers and trends. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Data 4, 7, 7, 9, 13. Mean = 40 / 5 = 8. Median (middle value) = 7. Mode (most common) = 7. Method: Model run for 'Index numbers and time series'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Compute index numbers and trends: at least 70 percent on an exam-style task, with the method shown."
+  }
+ ],
+ "rubric": [
+  [
+   "Accuracy",
+   "Frequent errors",
+   "Mostly correct",
+   "Correct, checked"
+  ],
+  [
+   "Method shown",
+   "Answer only",
+   "Steps shown",
+   "Steps shown with reasons"
+  ],
+  [
+   "Problem solving",
+   "Needs the method told",
+   "Chooses the method",
+   "Chooses and explains why"
+  ],
+  [
+   "Communication",
+   "Hard to follow",
+   "Clear working",
+   "Clear working with correct terms"
+  ],
+  [
+   "Practice habit",
+   "Rarely practises",
+   "Practises weekly",
+   "Practises most days with an error log"
+  ]
+ ],
+ "checks": [
+  [
+   "Unit 1 (Relations, functions and matrices): show that you can operate on matrices and functions. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Unit 2 (Calculus: differentiation and integration): show that you can find derivatives and simple integrals. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Unit 3 (Probability and linear programming): show that you can calculate probability and optimise. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Unit 4 (Index numbers and time series): show that you can compute index numbers and trends. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Which action verb starts the outcome of Unit 1 (Relations, functions and matrices), and at which Bloom level is it?",
+   "'operate', at the Apply level."
+  ],
+  [
+   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
+   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36."
+  ],
+  [
+   "In which weeks does Unit 4 (Index numbers and time series) run?",
+   "Weeks 28 to 36."
+  ],
+  [
+   "What evidence do you keep for each unit, and why?",
+   "A timed paper and an error log. It shows what you can really do and lets a teacher check it against the standard."
+  ]
+ ],
+ "ladder": [
+  "L1: count, add and subtract small numbers; name shapes.",
+  "L2: use the four operations, fractions and simple measures.",
+  "L3: work with ratio, algebra beginnings and geometry reasoning.",
+  "L4: algebra, geometry proof, trigonometry and statistics.",
+  "L5: functions, calculus, vectors and probability.",
+  "L6 (degree): proof, linear algebra and modelling.",
+  "L7 (postgraduate): research mathematics, data science or teaching at depth."
+ ],
+ "jobs": [],
+ "blooms": [
+  "Apply"
+ ]
+}

@@ -1,0 +1,180 @@
+{
+ "slug": "school-grade-11-science-csc.html",
+ "plan": "grade-11-science",
+ "subject": "CSC",
+ "subject_name": "Computer science",
+ "kind": "comp",
+ "label": "Grade 11 Science",
+ "band": "post",
+ "level": 5,
+ "weeks": 36,
+ "task": "Meet the outcome of every unit in Grade 11 Science Computer science, and keep one piece of evidence for each.",
+ "condition": "A 36-week school year, 4 units, a teacher or guide, a learning book or device, and local examples in the local language first with English support.",
+ "standard": "Each unit: at least 70 percent on an exam-style task, with the method shown. Course pass: no unit at 'Not yet' after one retry, and a pass in SA1 and SA2.",
+ "modules": [
+  {
+   "n": 1,
+   "title": "Python programming: control flow and strings",
+   "bloom": "Apply",
+   "weeks": [
+    1,
+    9
+   ],
+   "hours": 27,
+   "outcome": "write programs with decisions and loops",
+   "intro": "In this unit you work on 'Python programming: control flow and strings', taught in a way that is with exam-style questions and written reasoning. The target is clear: write programs with decisions and loops. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Python programming: control flow and strings' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: write programs with decisions and loops. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Model run for 'Python programming: control flow and strings'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Write programs with decisions and loops: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 2,
+   "title": "Lists, tuples and dictionaries",
+   "bloom": "Apply",
+   "weeks": [
+    10,
+    18
+   ],
+   "hours": 27,
+   "outcome": "store and process data with Python structures",
+   "intro": "In this unit you work on 'Lists, tuples and dictionaries', taught in a way that is with exam-style questions and written reasoning. The target is clear: store and process data with Python structures. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Lists, tuples and dictionaries' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: store and process data with Python structures. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Model run for 'Lists, tuples and dictionaries'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Store and process data with Python structures: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 3,
+   "title": "Computer systems and number systems",
+   "bloom": "Apply",
+   "weeks": [
+    19,
+    27
+   ],
+   "hours": 27,
+   "outcome": "convert numbers and describe hardware",
+   "intro": "In this unit you work on 'Computer systems and number systems', taught in a way that is with exam-style questions and written reasoning. The target is clear: convert numbers and describe hardware. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Computer systems and number systems' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: convert numbers and describe hardware. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Model run for 'Computer systems and number systems'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Convert numbers and describe hardware: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 4,
+   "title": "Introduction to databases and SQL",
+   "bloom": "Create",
+   "weeks": [
+    28,
+    36
+   ],
+   "hours": 27,
+   "outcome": "create and query a table",
+   "intro": "In this unit you work on 'Introduction to databases and SQL', taught in a way that is with exam-style questions and written reasoning. The target is clear: create and query a table. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Introduction to databases and SQL' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: create and query a table. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Model run for 'Introduction to databases and SQL'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Create and query a table: at least 70 percent on an exam-style task, with the method shown."
+  }
+ ],
+ "rubric": [
+  [
+   "It works",
+   "Does not run",
+   "Runs with help",
+   "Runs and handles odd input"
+  ],
+  [
+   "Understanding of the parts",
+   "Cannot name",
+   "Names most",
+   "Names and explains"
+  ],
+  [
+   "Planning",
+   "None",
+   "A list",
+   "A clear ordered plan"
+  ],
+  [
+   "Safety and care",
+   "Needs reminding",
+   "Follows rules",
+   "Follows rules and helps others"
+  ],
+  [
+   "Practice habit",
+   "Rarely",
+   "Weekly",
+   "Most days"
+  ]
+ ],
+ "checks": [
+  [
+   "Unit 1 (Python programming: control flow and strings): show that you can write programs with decisions and loops. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Unit 2 (Lists, tuples and dictionaries): show that you can store and process data with Python structures. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Unit 3 (Computer systems and number systems): show that you can convert numbers and describe hardware. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Unit 4 (Introduction to databases and SQL): show that you can create and query a table. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Which action verb starts the outcome of Unit 1 (Python programming: control flow and strings), and at which Bloom level is it?",
+   "'write', at the Apply level."
+  ],
+  [
+   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
+   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36."
+  ],
+  [
+   "In which weeks does Unit 4 (Introduction to databases and SQL) run?",
+   "Weeks 28 to 36."
+  ],
+  [
+   "What evidence do you keep for each unit, and why?",
+   "A timed paper and an error log. It shows what you can really do and lets a teacher check it against the standard."
+  ]
+ ],
+ "ladder": [
+  "L1: use a device safely; click, type and draw.",
+  "L2: create documents; follow simple instructions in blocks.",
+  "L3: spreadsheets, algorithms and simple programs.",
+  "L4: programming, data and networks.",
+  "L5: software design, databases and security.",
+  "L6 (degree): software engineering and systems.",
+  "L7 (postgraduate): research, architecture or AI practice."
+ ],
+ "jobs": [],
+ "blooms": [
+  "Apply",
+  "Create"
+ ]
+}

@@ -1,0 +1,399 @@
+{
+ "slug": "school-grade-07-mat.html",
+ "plan": "grade-07",
+ "subject": "MAT",
+ "subject_name": "Mathematics",
+ "kind": "maths",
+ "label": "Grade 07",
+ "band": "secondary",
+ "level": 3,
+ "weeks": 36,
+ "task": "Meet the outcome of every unit in Grade 07 Mathematics, and keep one piece of evidence for each.",
+ "condition": "A 36-week school year, 14 units, a teacher or guide, a learning book or device, and local examples in the local language first with English support.",
+ "standard": "Each unit: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. Course pass: no unit at 'Not yet' after one retry, and a pass in SA1 and SA2.",
+ "modules": [
+  {
+   "n": 1,
+   "title": "Integers",
+   "bloom": "Apply",
+   "weeks": [
+    1,
+    3
+   ],
+   "hours": 9,
+   "outcome": "add, subtract, multiply and divide integers and use properties",
+   "intro": "In this unit you work on 'Integers', taught in a way that is with notes, a worked line and a self-mark. The target is clear: add, subtract, multiply and divide integers and use properties. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Integers' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: add, subtract, multiply and divide integers and use properties. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: -7 + 12 = 5. (-3) x (-4) = 12. -5 - (-2) = -3. Method: Model run for 'Integers'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Add, subtract, multiply and divide integers and use properties: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 2,
+   "title": "Fractions and decimals",
+   "bloom": "Apply",
+   "weeks": [
+    4,
+    7
+   ],
+   "hours": 12,
+   "outcome": "multiply and divide fractions and decimals and solve problems",
+   "intro": "In this unit you work on 'Fractions and decimals', taught in a way that is with notes, a worked line and a self-mark. The target is clear: multiply and divide fractions and decimals and solve problems. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Fractions and decimals' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: multiply and divide fractions and decimals and solve problems. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: 3/4 + 1/6. Common denominator 12. 9/12 + 2/12 = 11/12. Half of 12 is 6 and a quarter of 12 is 3. Method: Model run for 'Fractions and decimals'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Multiply and divide fractions and decimals and solve problems: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 3,
+   "title": "Data handling",
+   "bloom": "Apply",
+   "weeks": [
+    8,
+    10
+   ],
+   "hours": 9,
+   "outcome": "find mean, median, mode and range and read bar graphs",
+   "intro": "In this unit you work on 'Data handling', taught in a way that is with notes, a worked line and a self-mark. The target is clear: find mean, median, mode and range and read bar graphs. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Data handling' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: find mean, median, mode and range and read bar graphs. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Data 4, 7, 7, 9, 13. Mean = 40 / 5 = 8. Median (middle value) = 7. Mode (most common) = 7. Method: Model run for 'Data handling'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Find mean, median, mode and range and read bar graphs: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 4,
+   "title": "Simple equations",
+   "bloom": "Apply",
+   "weeks": [
+    11,
+    13
+   ],
+   "hours": 9,
+   "outcome": "solve and form equations in one variable",
+   "intro": "In this unit you work on 'Simple equations', taught in a way that is with notes, a worked line and a self-mark. The target is clear: solve and form equations in one variable. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Simple equations' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: solve and form equations in one variable. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: 3x + 5 = 20. Take 5 from both sides: 3x = 15. Divide by 3: x = 5. Check: 3 x 5 + 5 = 20. Method: Model run for 'Simple equations'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Solve and form equations in one variable: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 5,
+   "title": "Lines and angles",
+   "bloom": "Apply",
+   "weeks": [
+    14,
+    16
+   ],
+   "hours": 9,
+   "outcome": "use angle pairs, parallel lines and transversals",
+   "intro": "In this unit you work on 'Lines and angles', taught in a way that is with notes, a worked line and a self-mark. The target is clear: use angle pairs, parallel lines and transversals. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Lines and angles' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: use angle pairs, parallel lines and transversals. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Two angles on a straight line add to 180 degrees. If one is 65 degrees the other is 180 - 65 = 115 degrees. Method: Model run for 'Lines and angles'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Use angle pairs, parallel lines and transversals: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 6,
+   "title": "The triangle and its properties",
+   "bloom": "Apply",
+   "weeks": [
+    17,
+    20
+   ],
+   "hours": 12,
+   "outcome": "use the angle-sum and exterior-angle properties and the Pythagoras property",
+   "intro": "In this unit you work on 'The triangle and its properties', taught in a way that is with notes, a worked line and a self-mark. The target is clear: use the angle-sum and exterior-angle properties and the Pythagoras property. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'The triangle and its properties' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: use the angle-sum and exterior-angle properties and the Pythagoras property. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Angles of a triangle add to 180 degrees. If two angles are 50 and 60, the third is 180 - 110 = 70 degrees. Method: Model run for 'The triangle and its properties'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Use the angle-sum and exterior-angle properties and the Pythagoras property: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 7,
+   "title": "Congruence of triangles",
+   "bloom": "Apply",
+   "weeks": [
+    21,
+    23
+   ],
+   "hours": 9,
+   "outcome": "test congruence with SSS, SAS, ASA and RHS",
+   "intro": "In this unit you work on 'Congruence of triangles', taught in a way that is with notes, a worked line and a self-mark. The target is clear: test congruence with SSS, SAS, ASA and RHS. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Congruence of triangles' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: test congruence with SSS, SAS, ASA and RHS. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Angles of a triangle add to 180 degrees. If two angles are 50 and 60, the third is 180 - 110 = 70 degrees. Method: Model run for 'Congruence of triangles'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Test congruence with SSS, SAS, ASA and RHS: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 8,
+   "title": "Comparing quantities",
+   "bloom": "Apply",
+   "weeks": [
+    24,
+    26
+   ],
+   "hours": 9,
+   "outcome": "solve percentage, profit and loss, and simple interest problems",
+   "intro": "In this unit you work on 'Comparing quantities', taught in a way that is with notes, a worked line and a self-mark. The target is clear: solve percentage, profit and loss, and simple interest problems. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Comparing quantities' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: solve percentage, profit and loss, and simple interest problems. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: 20% of 350 = 350 x 20 / 100 = 70. Share 40 sweets in the ratio 3 : 5: 8 parts, each part is 5, so 15 and 25. If 5 pens cost 40, one costs 8 and 12 cost 96. Method: Model run for 'Comparing quantities'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Solve percentage, profit and loss, and simple interest problems: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 9,
+   "title": "Rational numbers",
+   "bloom": "Analyse",
+   "weeks": [
+    27,
+    28
+   ],
+   "hours": 6,
+   "outcome": "compare and operate on rational numbers",
+   "intro": "In this unit you work on 'Rational numbers', taught in a way that is with notes, a worked line and a self-mark. The target is clear: compare and operate on rational numbers. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Rational numbers' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: compare and operate on rational numbers. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Square root of 196: 14 x 14 = 196, so the root is 14. 2 cubed x 2 to the 4 = 2 to the 7 = 128. 0.75 = 3/4 is rational; the square root of 2 is not. Method: Model run for 'Rational numbers'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Compare and operate on rational numbers: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 10,
+   "title": "Practical geometry",
+   "bloom": "Create",
+   "weeks": [
+    29,
+    29
+   ],
+   "hours": 3,
+   "outcome": "construct lines, angles and triangles",
+   "intro": "In this unit you work on 'Practical geometry', taught in a way that is with notes, a worked line and a self-mark. The target is clear: construct lines, angles and triangles. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Practical geometry' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: construct lines, angles and triangles. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Model run for 'Practical geometry'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Construct lines, angles and triangles: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 11,
+   "title": "Perimeter and area",
+   "bloom": "Apply",
+   "weeks": [
+    30,
+    31
+   ],
+   "hours": 6,
+   "outcome": "find area of parallelograms, triangles and circles",
+   "intro": "In this unit you work on 'Perimeter and area', taught in a way that is with notes, a worked line and a self-mark. The target is clear: find area of parallelograms, triangles and circles. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Perimeter and area' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: find area of parallelograms, triangles and circles. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Rectangle 12 cm by 5 cm. Perimeter = 2 x (12 + 5) = 34 cm. Area = 12 x 5 = 60 square cm. A cuboid 12 x 5 x 3 has volume 180 cubic cm. Method: Model run for 'Perimeter and area'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Find area of parallelograms, triangles and circles: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 12,
+   "title": "Algebraic expressions",
+   "bloom": "Apply",
+   "weeks": [
+    32,
+    33
+   ],
+   "hours": 6,
+   "outcome": "add and subtract expressions and find values",
+   "intro": "In this unit you work on 'Algebraic expressions', taught in a way that is with notes, a worked line and a self-mark. The target is clear: add and subtract expressions and find values. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Algebraic expressions' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: add and subtract expressions and find values. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: x squared - 9 = (x - 3)(x + 3). Check by expanding: x squared + 3x - 3x - 9 = x squared - 9. Method: Model run for 'Algebraic expressions'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Add and subtract expressions and find values: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 13,
+   "title": "Exponents and powers",
+   "bloom": "Apply",
+   "weeks": [
+    34,
+    35
+   ],
+   "hours": 6,
+   "outcome": "use laws of exponents and standard form",
+   "intro": "In this unit you work on 'Exponents and powers', taught in a way that is with notes, a worked line and a self-mark. The target is clear: use laws of exponents and standard form. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Exponents and powers' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: use laws of exponents and standard form. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Square root of 196: 14 x 14 = 196, so the root is 14. 2 cubed x 2 to the 4 = 2 to the 7 = 128. 0.75 = 3/4 is rational; the square root of 2 is not. Method: Model run for 'Exponents and powers'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Use laws of exponents and standard form: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 14,
+   "title": "Symmetry and solid shapes",
+   "bloom": "Apply",
+   "weeks": [
+    36,
+    36
+   ],
+   "hours": 3,
+   "outcome": "draw nets and views of solids and find lines of symmetry",
+   "intro": "In this unit you work on 'Symmetry and solid shapes', taught in a way that is with notes, a worked line and a self-mark. The target is clear: draw nets and views of solids and find lines of symmetry. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Symmetry and solid shapes' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: draw nets and views of solids and find lines of symmetry. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: A rectangle has 2 lines of symmetry; a square has 4; a cube has 6 faces, 12 edges and 8 vertices. Method: Model run for 'Symmetry and solid shapes'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Draw nets and views of solids and find lines of symmetry: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  }
+ ],
+ "rubric": [
+  [
+   "Accuracy",
+   "Frequent errors",
+   "Mostly correct",
+   "Correct, checked"
+  ],
+  [
+   "Method shown",
+   "Answer only",
+   "Steps shown",
+   "Steps shown with reasons"
+  ],
+  [
+   "Problem solving",
+   "Needs the method told",
+   "Chooses the method",
+   "Chooses and explains why"
+  ],
+  [
+   "Communication",
+   "Hard to follow",
+   "Clear working",
+   "Clear working with correct terms"
+  ],
+  [
+   "Practice habit",
+   "Rarely practises",
+   "Practises weekly",
+   "Practises most days with an error log"
+  ]
+ ],
+ "checks": [
+  [
+   "Unit 1 (Integers): show that you can add, subtract, multiply and divide integers and use properties. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  ],
+  [
+   "Unit 2 (Fractions and decimals): show that you can multiply and divide fractions and decimals and solve problems. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  ],
+  [
+   "Unit 3 (Data handling): show that you can find mean, median, mode and range and read bar graphs. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  ],
+  [
+   "Unit 4 (Simple equations): show that you can solve and form equations in one variable. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  ],
+  [
+   "Unit 5 (Lines and angles): show that you can use angle pairs, parallel lines and transversals. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  ],
+  [
+   "Unit 6 (The triangle and its properties): show that you can use the angle-sum and exterior-angle properties and the Pythagoras property. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  ],
+  [
+   "Which action verb starts the outcome of Unit 1 (Integers), and at which Bloom level is it?",
+   "'add,', at the Apply level."
+  ],
+  [
+   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
+   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36."
+  ],
+  [
+   "In which weeks does Unit 14 (Symmetry and solid shapes) run?",
+   "Weeks 36 to 36."
+  ],
+  [
+   "What evidence do you keep for each unit, and why?",
+   "A worked task and a corrected copy. It shows what you can really do and lets a teacher check it against the standard."
+  ]
+ ],
+ "ladder": [
+  "L1: count, add and subtract small numbers; name shapes.",
+  "L2: use the four operations, fractions and simple measures.",
+  "L3: work with ratio, algebra beginnings and geometry reasoning.",
+  "L4: algebra, geometry proof, trigonometry and statistics.",
+  "L5: functions, calculus, vectors and probability.",
+  "L6 (degree): proof, linear algebra and modelling.",
+  "L7 (postgraduate): research mathematics, data science or teaching at depth."
+ ],
+ "jobs": [],
+ "blooms": [
+  "Apply",
+  "Analyse",
+  "Create"
+ ]
+}

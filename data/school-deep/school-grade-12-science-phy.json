@@ -1,0 +1,230 @@
+{
+ "slug": "school-grade-12-science-phy.html",
+ "plan": "grade-12-science",
+ "subject": "PHY",
+ "subject_name": "Physics",
+ "kind": "sci",
+ "label": "Grade 12 Science",
+ "band": "post",
+ "level": 5,
+ "weeks": 36,
+ "task": "Meet the outcome of every unit in Grade 12 Science Physics, and keep one piece of evidence for each.",
+ "condition": "A 36-week school year, 6 units, a teacher or guide, a learning book or device, and local examples in the local language first with English support.",
+ "standard": "Each unit: at least 70 percent on an exam-style task, with the method shown. Course pass: no unit at 'Not yet' after one retry, and a pass in SA1 and SA2.",
+ "modules": [
+  {
+   "n": 1,
+   "title": "Electric charges, fields and potential",
+   "bloom": "Apply",
+   "weeks": [
+    1,
+    6
+   ],
+   "hours": 18,
+   "outcome": "calculate fields and potential and use Gauss's law",
+   "intro": "In this unit you work on 'Electric charges, fields and potential', taught in a way that is with exam-style questions and written reasoning. The target is clear: calculate fields and potential and use Gauss's law. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Electric charges, fields and potential' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: calculate fields and potential and use Gauss's law. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Solved: V = I x R. A 6 V cell across a 2 ohm resistor gives I = 6 / 2 = 3 A. Method: Model run for 'Electric charges, fields and potential'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Calculate fields and potential and use Gauss's law: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 2,
+   "title": "Current electricity and magnetism",
+   "bloom": "Apply",
+   "weeks": [
+    7,
+    12
+   ],
+   "hours": 18,
+   "outcome": "apply Kirchhoff's laws and the Biot-Savart law",
+   "intro": "In this unit you work on 'Current electricity and magnetism', taught in a way that is with exam-style questions and written reasoning. The target is clear: apply Kirchhoff's laws and the Biot-Savart law. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Current electricity and magnetism' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: apply Kirchhoff's laws and the Biot-Savart law. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Solved: V = I x R. A 6 V cell across a 2 ohm resistor gives I = 6 / 2 = 3 A. Method: Model run for 'Current electricity and magnetism'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Apply Kirchhoff's laws and the Biot-Savart law: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 3,
+   "title": "Electromagnetic induction and alternating current",
+   "bloom": "Apply",
+   "weeks": [
+    13,
+    18
+   ],
+   "hours": 18,
+   "outcome": "apply Faraday's law and AC circuits",
+   "intro": "In this unit you work on 'Electromagnetic induction and alternating current', taught in a way that is with exam-style questions and written reasoning. The target is clear: apply Faraday's law and AC circuits. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Electromagnetic induction and alternating current' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: apply Faraday's law and AC circuits. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Solved: Show 1 + 2 + ... + n = n(n + 1)/2. n = 1: 1 = 1. Assume it holds for k. Add k + 1: k(k + 1)/2 + (k + 1) = (k + 1)(k + 2)/2, which is the rule for k + 1. So it holds for all n. Method: Model run for 'Electromagnetic induction and alternating current'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Apply Faraday's law and AC circuits: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 4,
+   "title": "Electromagnetic waves and optics",
+   "bloom": "Apply",
+   "weeks": [
+    19,
+    24
+   ],
+   "hours": 18,
+   "outcome": "use ray and wave optics",
+   "intro": "In this unit you work on 'Electromagnetic waves and optics', taught in a way that is with exam-style questions and written reasoning. The target is clear: use ray and wave optics. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Electromagnetic waves and optics' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: use ray and wave optics. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Model run for 'Electromagnetic waves and optics'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Use ray and wave optics: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 5,
+   "title": "Dual nature of matter and atoms",
+   "bloom": "Understand",
+   "weeks": [
+    25,
+    30
+   ],
+   "hours": 18,
+   "outcome": "explain the photoelectric effect and atomic spectra",
+   "intro": "In this unit you work on 'Dual nature of matter and atoms', taught in a way that is with exam-style questions and written reasoning. The target is clear: explain the photoelectric effect and atomic spectra. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Dual nature of matter and atoms' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: explain the photoelectric effect and atomic spectra. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Solved: 10 g of salt in 90 g of water: solution mass 100 g, so concentration = 10 / 100 x 100 = 10 percent by mass. Method: Model run for 'Dual nature of matter and atoms'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Explain the photoelectric effect and atomic spectra: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 6,
+   "title": "Nuclei and semiconductor electronics",
+   "bloom": "Understand",
+   "weeks": [
+    31,
+    36
+   ],
+   "hours": 18,
+   "outcome": "describe nuclear reactions and diodes and transistors",
+   "intro": "In this unit you work on 'Nuclei and semiconductor electronics', taught in a way that is with exam-style questions and written reasoning. The target is clear: describe nuclear reactions and diodes and transistors. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Nuclei and semiconductor electronics' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: describe nuclear reactions and diodes and transistors. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Model run for 'Nuclei and semiconductor electronics'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Describe nuclear reactions and diodes and transistors: at least 70 percent on an exam-style task, with the method shown."
+  }
+ ],
+ "rubric": [
+  [
+   "Scientific ideas",
+   "Ideas mixed up",
+   "Main ideas right",
+   "Ideas right and linked"
+  ],
+  [
+   "Evidence and data",
+   "No record",
+   "Record made",
+   "Clear record used in the conclusion"
+  ],
+  [
+   "Safe, fair method",
+   "Needs reminding",
+   "Safe and mostly fair",
+   "Safe, fair and improved"
+  ],
+  [
+   "Use of key words",
+   "Few",
+   "Some",
+   "Accurate and confident"
+  ],
+  [
+   "Practice habit",
+   "Rarely practises",
+   "Practises weekly",
+   "Practises most days and reflects"
+  ]
+ ],
+ "checks": [
+  [
+   "Unit 1 (Electric charges, fields and potential): show that you can calculate fields and potential and use Gauss's law. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Unit 2 (Current electricity and magnetism): show that you can apply Kirchhoff's laws and the Biot-Savart law. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Unit 3 (Electromagnetic induction and alternating current): show that you can apply Faraday's law and AC circuits. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Unit 4 (Electromagnetic waves and optics): show that you can use ray and wave optics. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Unit 5 (Dual nature of matter and atoms): show that you can explain the photoelectric effect and atomic spectra. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Unit 6 (Nuclei and semiconductor electronics): show that you can describe nuclear reactions and diodes and transistors. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Which action verb starts the outcome of Unit 1 (Electric charges, fields and potential), and at which Bloom level is it?",
+   "'calculate', at the Apply level."
+  ],
+  [
+   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
+   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36."
+  ],
+  [
+   "In which weeks does Unit 6 (Nuclei and semiconductor electronics) run?",
+   "Weeks 31 to 36."
+  ],
+  [
+   "What evidence do you keep for each unit, and why?",
+   "A timed paper and an error log. It shows what you can really do and lets a teacher check it against the standard."
+  ]
+ ],
+ "ladder": [
+  "L1: observe, sort and describe the living and non-living world.",
+  "L2: run simple tests and explain with key words.",
+  "L3: use models and equations; plan a fair test.",
+  "L4: link physics, chemistry and biology ideas with calculation.",
+  "L5: specialise; design, analyse and evaluate experiments.",
+  "L6 (degree): laboratory science, instrumentation and analysis.",
+  "L7 (postgraduate): research design and expert practice."
+ ],
+ "jobs": [],
+ "blooms": [
+  "Understand",
+  "Apply"
+ ]
+}
