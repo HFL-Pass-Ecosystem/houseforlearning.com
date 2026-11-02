@@ -20,7 +20,7 @@
    ],
    "ex": "A grocery chain changes 4,000 shelf prices a week by hand at 15 seconds each, which is 60,000 seconds or 16.7 hours. If staff time costs 25 per hour, that is about 417 a week, and e-paper labels update the same prices in minutes. Compare that saving with the label cost before you pitch.",
    "act": "Write a requirement sheet from three buyer interviews.",
-   "std": "Requirements have units."
+   "std": "Add units to the requirements."
   },
   "2": {
    "title": "Know product and trade rules",
@@ -36,7 +36,7 @@
    ],
    "ex": "Row: 'Sell a powered sign | electrical safety approval | lab certificate | before sale | certificate'. A second row: 'Ship panels from abroad | border agency | customs entry and origin proof | each shipment | entry copy'. Re-read each source every six months and update the date.",
    "act": "Build a rules table.",
-   "std": "Rows sourced and dated."
+   "std": "Cite a source and a date for every row."
   },
   "3": {
    "title": "Design and assemble a display module",
@@ -52,7 +52,7 @@
    ],
    "ex": "Brightness spec 700 nits; measured 640 at 40 C. The shortfall is 60 nits, which is 8.6% of the spec. Add a better heat path, retest at the same temperature and record the new reading.",
    "act": "Assemble a prototype and measure brightness at two temperatures.",
-   "std": "Measurements recorded."
+   "std": "Record measurements."
   },
   "4": {
    "title": "Price and prove the business",
@@ -68,7 +68,7 @@
    ],
    "ex": "Price 1,250; cost 780; margin 470 (38%); fixed cost 564,000 a year, so break-even is 564,000 / 470 = 1,200 units. With the 8% scrap case the cost is 848, margin 402, and break-even rises to 564,000 / 402 = about 1,403 units. Teaching figures in CAD.",
    "act": "Build cost sheet with 8% scrap case.",
-   "std": "Cases shown."
+   "std": "Show the cases."
   },
   "5": {
    "title": "Control quality and yield",
@@ -84,7 +84,7 @@
    ],
    "ex": "Yield 91%: of 200 units built, 182 pass and 18 fail (200 x 0.91 = 182). If 9 of the 18 failures are bonding bubbles, that single defect costs 4.5% of output, so it is the first process to fix.",
    "act": "Design test sheet with grades.",
-   "std": "Limits stated."
+   "std": "State limits."
   },
   "6": {
    "title": "Sell, install and support",
@@ -116,7 +116,7 @@
    ],
    "ex": "Risk: 'Panel shortage | 4 x 4 | second source | purchasing | monthly'. The score is likelihood 4 times impact 4 = 16 out of 25, which is high. Action: qualify a second panel source within 90 days and review it monthly.",
    "act": "Write a risk register.",
-   "std": "Owners named."
+   "std": "Name an owner for each item."
   },
   "8": {
    "title": "Pilot and plan scale",

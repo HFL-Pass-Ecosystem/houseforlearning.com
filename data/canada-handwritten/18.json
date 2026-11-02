@@ -20,7 +20,7 @@
    ],
    "ex": "A building site produces 60 t of waste; sorting could divert 70%, which is 42 t, leaving 18 t for landfill. If disposal costs 100 per tonne, diverting 42 t avoids 4,200, before the cost of sorting.",
    "act": "Sample and weigh a waste stream.",
-   "std": "Composition table made."
+   "std": "Build the composition table."
   },
   "2": {
    "title": "Know environmental and handling rules",
@@ -36,7 +36,7 @@
    ],
    "ex": "Row: 'Haul hazardous waste | provincial environment ministry | licence and manifest | each load | manifest copies'. A second row: 'Operate a transfer site | provincial environment ministry | approval | before opening | approval letter'. Date each source.",
    "act": "Build a rules table.",
-   "std": "Rows sourced and dated."
+   "std": "Cite a source and a date for every row."
   },
   "3": {
    "title": "Plan collection, sorting and treatment",
@@ -52,7 +52,7 @@
    ],
    "ex": "Contamination is 18% in mixed loads and 6% with source sorting. In a 50 t load that is 9 t versus 3 t, so source sorting removes 6 t of contamination.",
    "act": "Design a sorting flow.",
-   "std": "Flow diagram with limits."
+   "std": "Draw a flow diagram with limits."
   },
   "4": {
    "title": "Cost per tonne and revenue",
@@ -68,7 +68,7 @@
    ],
    "ex": "Price 180 per tonne; cost 120; margin 60; fixed cost 540,000 a year gives 540,000 / 60 = 9,000 t. If the price falls 10% to 162, margin is 42 and break-even rises to 540,000 / 42 = about 12,857 t. Teaching figures in CAD.",
    "act": "Build a cost sheet with price fall.",
-   "std": "Cases shown."
+   "std": "Show the cases."
   },
   "5": {
    "title": "Operate safely and measure",
@@ -84,7 +84,7 @@
    ],
    "ex": "This month 400 t came in and 272 t were diverted, so the rate is 272 / 400 = 68%. Last month's rate was 61%. The change is 7 percentage points; write the cause.",
    "act": "Keep a 4-week operations log.",
-   "std": "Rates computed."
+   "std": "Compute rates."
   },
   "6": {
    "title": "Win contracts and partners",
@@ -100,7 +100,7 @@
    ],
    "ex": "Funnel: 15 bids, 4 shortlists, 2 wins. Shortlist rate is 4 / 15 = 27%, win rate from shortlist is 2 / 4 = 50%, and overall 2 / 15 = 13%.",
    "act": "Prepare a tender response.",
-   "std": "Response complete."
+   "std": "Complete the response."
   },
   "7": {
    "title": "Manage contamination, community and liability risk",
@@ -116,7 +116,7 @@
    ],
    "ex": "Risk: 'Storage fire | 2 x 5 | spacing, detection | site lead | monthly'. The score is 2 x 5 = 10; low likelihood but severe impact, so controls are checked monthly.",
    "act": "Write a risk register.",
-   "std": "Owners named."
+   "std": "Name an owner for each item."
   },
   "8": {
    "title": "Pilot a stream",

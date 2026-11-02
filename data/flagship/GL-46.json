@@ -45,7 +45,7 @@
    ],
    "Height is influenced by hundreds of genes and also by food and health in childhood. Two brothers with the same parents can differ by several centimetres.",
    "Draw a one-page picture: DNA to genes to traits to environment, with plain labels.",
-   "Picture is accurate and a non-expert can explain it back."
+   "Draw an accurate picture and check that a non-expert can explain it back."
   ],
   [
    "Kinds of DNA tests",
@@ -60,7 +60,7 @@
    ],
    "A carrier test reports that a couple each carry a change linked to a blood condition. This does not mean any child will be affected; it means that, for a typical recessive condition, the chance is about one in four per pregnancy, and a genetic counsellor explains the options.",
    "Build a table of five test kinds with purpose, what it cannot tell you, and who should explain results.",
-   "Each row states a limit and a right person to explain."
+   "State a limit in each row and name the right person to explain."
   ],
   [
    "From sample to result",
@@ -75,7 +75,7 @@
    ],
    "Two tubes are swapped at the front desk. A barcode scan at the lab finds a mismatch with the form and stops the run, avoiding a wrong report.",
    "Map the sample steps and write one quality check for each step.",
-   "Every step has a check and an owner."
+   "Give every step a check and an owner."
   ],
   [
    "Reading a result safely",
@@ -90,7 +90,7 @@
    ],
    "A report says a 50% higher chance of a condition. The absolute chance changes from 2 in 100 to 3 in 100. A counsellor explains that lifestyle and screening matter more than fear.",
    "Explain a sample result (given by your mentor) to a peer in under two minutes using absolute numbers.",
-   "Peer repeats the meaning correctly and does not panic."
+   "Check that the peer repeats the meaning correctly and does not panic."
   ],
   [
    "Marketing and overclaims",
@@ -105,7 +105,7 @@
    ],
    "An advert promises a diet plan from a saliva test with no study cited. The learner marks it \"unproven\" and notes the missing evidence.",
    "Review two real adverts with a five-point checklist.",
-   "Each advert has a scored list with reasons."
+   "Score a list for each advert, with reasons."
   ],
   [
    "Privacy and family impact",
@@ -120,7 +120,7 @@
    ],
    "A family agrees before testing that surprises will be shared only with a counsellor present. Two siblings opt out of learning some results.",
    "Write a consent checklist with at least eight questions.",
-   "Each question is clear and answerable yes or no."
+   "Write each question clearly so that it can be answered yes or no."
   ],
   [
    "Ethics, fairness and access",
@@ -135,7 +135,7 @@
    ],
    "A research project adds samples from under-represented communities with community agreement, improving accuracy for them.",
    "Discuss two cases with peers and write a reasoned view on each.",
-   "Peers reach a view with at least two reasons and one risk."
+   "Reach a view with your peers, with at least two reasons and one risk."
   ],
   [
    "Write a plain-language explainer",
@@ -150,21 +150,21 @@
    ],
    "A reader says, \"Now I know to ask a counsellor, not a website, about my result.\"",
    "Finish and test the explainer.",
-   "Both readers can list three limits of DNA tests."
+   "Check that both readers can list three limits of DNA tests."
   ]
  ],
  "quiz": [
   [
    "What is DNA?",
-   "The instruction code in cells. (Covered in module 1: DNA in plain words. To pass that module: Picture is accurate and a non-expert can explain it back.)"
+   "The instruction code in cells. (Covered in module 1: DNA in plain words. To pass that module: Draw an accurate picture and check that a non-expert can explain it back.)"
   ],
   [
    "Is a result destiny?",
-   "No; it is a chance. (Covered in module 4: Reading a result safely. To pass that module: Peer repeats the meaning correctly and does not panic.)"
+   "No; it is a chance. (Covered in module 4: Reading a result safely. To pass that module: Check that the peer repeats the meaning correctly and does not panic.)"
   ],
   [
    "Name two test kinds.",
-   "Ancestry and carrier (or health risk, paternity). (Covered in module 2: Kinds of DNA tests. To pass that module: Each row states a limit and a right person to explain.)"
+   "Ancestry and carrier (or health risk, paternity). (Covered in module 2: Kinds of DNA tests. To pass that module: State a limit in each row and name the right person to explain.)"
   ],
   [
    "Why chain of custody?",
@@ -172,27 +172,27 @@
   ],
   [
    "Who explains health results?",
-   "A genetic counsellor or clinician. (Covered in module 4: Reading a result safely. To pass that module: Peer repeats the meaning correctly and does not panic.)"
+   "A genetic counsellor or clinician. (Covered in module 4: Reading a result safely. To pass that module: Check that the peer repeats the meaning correctly and does not panic.)"
   ],
   [
    "Name one marketing red flag.",
-   "A big promise with no evidence. (Covered in module 5: Marketing and overclaims. To pass that module: Each advert has a scored list with reasons.)"
+   "A big promise with no evidence. (Covered in module 5: Marketing and overclaims. To pass that module: Score a list for each advert, with reasons.)"
   ],
   [
    "Why does DNA affect relatives?",
-   "Relatives share genes. (Covered in module 6: Privacy and family impact. To pass that module: Each question is clear and answerable yes or no.)"
+   "Relatives share genes. (Covered in module 6: Privacy and family impact. To pass that module: Write each question clearly so that it can be answered yes or no.)"
   ],
   [
    "Name a data risk.",
-   "Sale, hacking or misuse by insurers. (Covered in module 6: Privacy and family impact. To pass that module: Each question is clear and answerable yes or no.)"
+   "Sale, hacking or misuse by insurers. (Covered in module 6: Privacy and family impact. To pass that module: Write each question clearly so that it can be answered yes or no.)"
   ],
   [
    "Can employers force tests?",
-   "They should not. (Covered in module 7: Ethics, fairness and access. To pass that module: Peers reach a view with at least two reasons and one risk.)"
+   "They should not. (Covered in module 7: Ethics, fairness and access. To pass that module: Reach a view with your peers, with at least two reasons and one risk.)"
   ],
   [
    "Why is diverse data needed?",
-   "Results are less accurate for under-represented groups. (Covered in module 7: Ethics, fairness and access. To pass that module: Peers reach a view with at least two reasons and one risk.)"
+   "Results are less accurate for under-represented groups. (Covered in module 7: Ethics, fairness and access. To pass that module: Reach a view with your peers, with at least two reasons and one risk.)"
   ]
  ],
  "rubric": [
@@ -255,12 +255,12 @@
   [
    "DNA in plain words",
    "L1: learner can say what DNA is. Focus module: DNA in plain words (Understand, 2 h). DNA is the code inside almost every cell that carries instructions for how a body is built and runs. You do not need chemistry to understand the main idea. Key points: DNA is made of four letters arranged in a very long order. Genes are sections that carry instructions. You inherit about half your DNA from each parent, with small changes. Most traits depend on many genes and on life, such as food, health and environment. A test reads some parts of DNA, never the whole story of a person.",
-   "Teach: open with the worked example. Height is influenced by hundreds of genes and also by food and health in childhood. Two brothers with the same parents can differ by several centimetres. Then set the activity: Draw a one-page picture: DNA to genes to traits to environment, with plain labels. Mark against the standard: Picture is accurate and a non-expert can explain it back. Check at this level: What is DNA? Model answer: The instruction code in cells."
+   "Teach: open with the worked example. Height is influenced by hundreds of genes and also by food and health in childhood. Two brothers with the same parents can differ by several centimetres. Then set the activity: Draw a one-page picture: DNA to genes to traits to environment, with plain labels. Mark against the standard: Draw an accurate picture and check that a non-expert can explain it back. Check at this level: What is DNA? Model answer: The instruction code in cells."
   ],
   [
    "Kinds of DNA tests",
    "L2: learner can name the test kinds. Focus module: Kinds of DNA tests (Understand, 2 h). \"A DNA test\" can mean very different things, with different uses and limits. Key points: Ancestry tests estimate where your ancestors may have lived, using comparison groups. Health-risk tests report chances of some conditions; carrier tests show if you could pass a condition on. Paternity and relationship tests compare DNA between people; forensic tests compare crime-scene samples. Medical diagnosis belongs with a clinician and an accredited lab.",
-   "Teach: open with the worked example. A carrier test reports that a couple each carry a change linked to a blood condition. This does not mean any child will be affected; it means that, for a typical recessive condition, the chance is about one in four per pregnancy, and a genetic counsellor explains the options. Then set the activity: Build a table of five test kinds with purpose, what it cannot tell you, and who should explain results. Mark against the standard: Each row states a limit and a right person to explain. Check at this level: Is a result destiny? Model answer: No; it is a chance."
+   "Teach: open with the worked example. A carrier test reports that a couple each carry a change linked to a blood condition. This does not mean any child will be affected; it means that, for a typical recessive condition, the chance is about one in four per pregnancy, and a genetic counsellor explains the options. Then set the activity: Build a table of five test kinds with purpose, what it cannot tell you, and who should explain results. Mark against the standard: State a limit in each row and name the right person to explain. Check at this level: Is a result destiny? Model answer: No; it is a chance."
   ],
   [
    "From sample to result",
@@ -270,22 +270,22 @@
   [
    "Reading a result safely",
    "L4: learner can check a sample chain. Focus module: Reading a result safely (Analyse, 2 h). Numbers like \"twice the risk\" sound alarming but need context. Key points: Relative risk compares groups; absolute risk is the real chance for a person. Variants of uncertain meaning are common and are not proof of disease. Results can be wrong or incomplete; confirm important findings in an accredited lab. Only a genetic counsellor or clinician explains health results.",
-   "Teach: open with the worked example. A report says a 50% higher chance of a condition. The absolute chance changes from 2 in 100 to 3 in 100. A counsellor explains that lifestyle and screening matter more than fear. Then set the activity: Explain a sample result (given by your mentor) to a peer in under two minutes using absolute numbers. Mark against the standard: Peer repeats the meaning correctly and does not panic. Check at this level: Who explains health results? Model answer: A genetic counsellor or clinician."
+   "Teach: open with the worked example. A report says a 50% higher chance of a condition. The absolute chance changes from 2 in 100 to 3 in 100. A counsellor explains that lifestyle and screening matter more than fear. Then set the activity: Explain a sample result (given by your mentor) to a peer in under two minutes using absolute numbers. Mark against the standard: Check that the peer repeats the meaning correctly and does not panic. Check at this level: Who explains health results? Model answer: A genetic counsellor or clinician."
   ],
   [
    "Marketing and overclaims",
    "L5: learner can review ads and consent. Focus module: Marketing and overclaims (Evaluate, 2 h). Some adverts promise a perfect diet, talent or career from your DNA. Most go beyond evidence. Key points: Look for independent studies, regulator approval and clear limits. Be wary of \"personalised diet\" or \"talent\" claims and of high prices. Check whether samples are analysed in an accredited lab. Read the privacy terms before sending a sample.",
-   "Teach: open with the worked example. An advert promises a diet plan from a saliva test with no study cited. The learner marks it \"unproven\" and notes the missing evidence. Then set the activity: Review two real adverts with a five-point checklist. Mark against the standard: Each advert has a scored list with reasons. Check at this level: Name one marketing red flag. Model answer: A big promise with no evidence."
+   "Teach: open with the worked example. An advert promises a diet plan from a saliva test with no study cited. The learner marks it \"unproven\" and notes the missing evidence. Then set the activity: Review two real adverts with a five-point checklist. Mark against the standard: Score a list for each advert, with reasons. Check at this level: Name one marketing red flag. Model answer: A big promise with no evidence."
   ],
   [
    "Ethics, fairness and access",
    "L6: learner can coordinate consent records. Focus module: Ethics, fairness and access (Evaluate, 2 h). Genetic science can help or harm depending on how it is used. Key points: No test should be forced on employees, students or insurance applicants. Some groups have less data in reference sets, so results can be less accurate for them. Respect cultural and faith views. Ask who benefits, who pays and who is left out.",
-   "Teach: open with the worked example. A research project adds samples from under-represented communities with community agreement, improving accuracy for them. Then set the activity: Discuss two cases with peers and write a reasoned view on each. Mark against the standard: Peers reach a view with at least two reasons and one risk. Check at this level: Can employers force tests? Model answer: They should not."
+   "Teach: open with the worked example. A research project adds samples from under-represented communities with community agreement, improving accuracy for them. Then set the activity: Discuss two cases with peers and write a reasoned view on each. Mark against the standard: Reach a view with your peers, with at least two reasons and one risk. Check at this level: Can employers force tests? Model answer: They should not."
   ],
   [
    "Write a plain-language explainer",
    "L7: learner can audit an explainer. Focus module: Write a plain-language explainer (Create, 2 h). Bring everything into a two-page guide that a curious non-expert can use. Key points: Use short sentences and a glossary. Include the limits, privacy risks and who to ask for help. Test with one person aged under 25 and one over 55. Date the guide and plan a yearly review.",
-   "Teach: open with the worked example. A reader says, \"Now I know to ask a counsellor, not a website, about my result.\" Then set the activity: Finish and test the explainer. Mark against the standard: Both readers can list three limits of DNA tests. Check at this level: How often should the explainer be reviewed? Model answer: Yearly."
+   "Teach: open with the worked example. A reader says, \"Now I know to ask a counsellor, not a website, about my result.\" Then set the activity: Finish and test the explainer. Mark against the standard: Check that both readers can list three limits of DNA tests. Check at this level: How often should the explainer be reviewed? Model answer: Yearly."
   ]
  ]
 }

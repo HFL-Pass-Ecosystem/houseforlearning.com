@@ -20,7 +20,7 @@
    ],
    "ex": "Landfill gas contains roughly half methane. Using a 100-year factor of 25 (use the factor your reporting rule requires), converting 1,000 t of methane avoids about 1,000 x 25 = 25,000 t carbon-dioxide equivalent, before you subtract any carbon dioxide the process itself releases. If the unit converts only 80% of the 1,000 t, then 800 t x 25 = 20,000 t carbon-dioxide equivalent is avoided.",
    "act": "Write a one-page problem statement with source, gas, volume and buyer.",
-   "std": "Volumes have units and sources."
+   "std": "Add units and sources to the volumes."
   },
   "2": {
    "title": "Know environmental and safety rules",
@@ -36,7 +36,7 @@
    ],
    "ex": "Row: 'Operate a gas conversion unit | provincial environment ministry | permit and monitoring plan | before start-up | permit on file'. Row: 'Build a pressure vessel | provincial technical safety authority | certified design and inspection | before use | inspection record'. If the permit takes 6 months and the build 4 months, start both together: earliest start-up is month 6, not month 10.",
    "act": "Build a rules table for a landfill pilot.",
-   "std": "Rows dated and sourced."
+   "std": "Date and source the rows."
   },
   "3": {
    "title": "Design a small conversion unit",
@@ -68,7 +68,7 @@
    ],
    "ex": "Machine 640,000 over a 10-year life = 64,000 a year; operating cost 150,000 a year; total 214,000. At 5,000 tonnes a year the cost is 214,000 / 5,000 = about 43 per tonne; at 75% use (3,750 tonnes) it is 214,000 / 3,750 = about 57. Compare with the credit or product price per tonne. At a sale price of 640,000 and a build cost of 420,000, the maker earns 220,000 per machine (about 34%). Teaching figures in CAD.",
    "act": "Compute cost per tonne and payback.",
-   "std": "Assumptions listed."
+   "std": "List assumptions."
   },
   "5": {
    "title": "Operate, measure and verify",
@@ -116,7 +116,7 @@
    ],
    "ex": "Risk: 'Gas leak | 2 x 5 | detectors and shutoff | site lead | weekly test'. Score 2 x 5 = 10 of 25. Testing detectors weekly means 52 tests a year; any failed test triggers a repair within 24 hours.",
    "act": "Write risk register.",
-   "std": "Owners named."
+   "std": "Name an owner for each item."
   },
   "8": {
    "title": "Pilot and scale",

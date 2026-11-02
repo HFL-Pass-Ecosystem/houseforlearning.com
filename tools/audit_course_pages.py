@@ -62,6 +62,16 @@ def _load_bloom():
     if _os.path.exists(ex):
         for ws in _json.load(open(ex,encoding='utf-8'))['levels'].values():
             for w in ws: out.add(w.lower().split()[0])
+    sc=_os.path.join(root,'verbs-school.json')   # school verbs list (PR #203), used when present
+    if _os.path.exists(sc):
+        def _walk(o):
+            if isinstance(o,str): out.add(o.lower().split()[0]) if o.strip() else None
+            elif isinstance(o,list):
+                for x in o: _walk(x)
+            elif isinstance(o,dict):
+                for k,x in o.items():
+                    if k!='note': _walk(x)
+        _walk(_json.load(open(sc,encoding='utf-8')))
     return out
 BLOOM=_load_bloom()
 def bad_std_verbs(t):

@@ -20,7 +20,7 @@
    ],
    "ex": "In a teaching survey of ten buyers, 6 chose repairability, 3 chose seven-year updates and 1 chose 'ethical' branding as the top reason to pay extra, so 9 of 10 (90%) favoured features that can be tested. Promise: 'a phone you can repair and update for seven years'.",
    "act": "Survey ten buyers and write a provable promise.",
-   "std": "Each claim has a proof plan."
+   "std": "Give each claim a proof plan."
   },
   "2": {
    "title": "Know product, trade and labour rules",
@@ -36,7 +36,7 @@
    ],
    "ex": "Row: 'Sell a phone with a radio | federal radio approval | lab test and certificate | before launch | certificate filed'. Row: 'Ship spare batteries by air | transport safety rules and carrier | follow packing and label rules | each shipment | carrier acceptance note'. If a part costs 400 and duty plus freight add 12% (an assumed teaching rate; check the real rate), landed cost = 400 x 1.12 = 448.",
    "act": "Build a rules table for importing parts and selling in one province.",
-   "std": "Rows have enforcer, action, date."
+   "std": "Give each row an enforcer, action and date."
   },
   "3": {
    "title": "Design for repair and long life",
@@ -52,7 +52,7 @@
    ],
    "ex": "A battery swap takes 6 minutes with one screwdriver; the spare battery is listed at 45 and a screen at 120. A battery plus a screen = 45 + 120 = 165, which is 165 / 780 = about 21% of the phone price.",
    "act": "Write a design brief with a repair-time target and test it on a teardown of any phone.",
-   "std": "Repair time measured."
+   "std": "Measure repair time."
   },
   "4": {
    "title": "Source ethically and check suppliers",
@@ -68,7 +68,7 @@
    ],
    "ex": "An audit finds overtime above limits at a supplier; the corrective plan gives 60 days and a re-check. Scores on five items of 4, 3, 5, 2 and 4 total 18 out of 25 = 72%; with a pass mark of 80% (20 points), the supplier needs the plan.",
    "act": "Build a supplier scorecard for three suppliers.",
-   "std": "Scorecard has evidence and dates."
+   "std": "Add evidence and dates to the scorecard."
   },
   "5": {
    "title": "Cost the phone and set the price",
@@ -84,7 +84,7 @@
    ],
    "ex": "Price 780; cost 520; margin 260 (33%). Fixed cost 1,500,000 per year gives break-even of 1,500,000 / 260 = about 5,800 phones. If parts are 400 of the 520 and rise 15%, cost rises by 60 to 580, margin falls to 200 and break-even becomes 1,500,000 / 200 = 7,500 phones. Teaching figures in CAD.",
    "act": "Build the cost sheet and a +15% parts-cost case.",
-   "std": "Units and currency shown."
+   "std": "Show units and currency."
   },
   "6": {
    "title": "Sell, support and take back",
@@ -116,7 +116,7 @@
    ],
    "ex": "Risk: 'Chip shortage | 4 x 4 | second source and buffer stock | purchasing | monthly'. Score 4 x 4 = 16 of 25. If you build 200 phones a month and want 3 months of cover, buffer stock = 200 x 3 = 600 chips.",
    "act": "Write a risk register.",
-   "std": "Rows have owners."
+   "std": "Assign owners to rows."
   },
   "8": {
    "title": "Pilot a small run",

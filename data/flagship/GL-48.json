@@ -45,7 +45,7 @@
    ],
    "A gold nanoparticle 20 nm wide is about 4,000 times narrower than a hair. A rapid test strip uses such particles to show a coloured line when a marker is present.",
    "Build a size chart from a metre to an atom with at least eight objects and their sizes in nanometres.",
-   "All sizes are within the correct order of magnitude and the chart is labelled with units."
+   "Check that all sizes are within the correct order of magnitude and label the chart with units."
   ],
   [
    "Imaging and diagnostics",
@@ -60,7 +60,7 @@
    ],
    "A pregnancy test strip uses coloured nanoparticles attached to antibodies. They gather at the test line only if the hormone is present, giving a visible line.",
    "Explain a test strip to a peer in your own words using a drawing.",
-   "Peer can repeat how the line forms and one limit of the test."
+   "Confirm that a peer can repeat how the line forms and one limit of the test."
   ],
   [
    "Drug delivery",
@@ -90,7 +90,7 @@
    ],
    "Studies often report particles around 100 nm circulating longer than particles of 500 nm, which are filtered quickly.",
    "Build a table of size, likely route and a concern for three particle types.",
-   "Entries agree with the sources you cite."
+   "Check that entries agree with the sources you cite."
   ],
   [
    "Testing and regulation",
@@ -105,7 +105,7 @@
    ],
    "A batch is rejected because particle size varied beyond the allowed range. The factory fixes mixing time and re-tests before release.",
    "Map the path from lab to patient with at least six stages and one check at each.",
-   "All stages present; checks are specific."
+   "Include all stages and make the checks specific."
   ],
   [
    "Risks and unknowns",
@@ -120,7 +120,7 @@
    ],
    "A plant uses closed handling and extraction, masks for sampling, and a waste route for nano-containing material.",
    "List five risks, a control for each and one unknown.",
-   "Each risk has a control and the unknown is stated honestly."
+   "Give each risk a control and state the unknown honestly."
   ],
   [
    "Hype, claims and headlines",
@@ -135,7 +135,7 @@
    ],
    "A headline says tiny particles \"destroy cancer\". The study is in cells in a dish. The learner labels it \"lab stage, not a treatment\".",
    "Review three real headlines and assign each an evidence stage.",
-   "Each stage is justified with a quote."
+   "Justify each stage with a quote."
   ],
   [
    "Write the balanced briefing",
@@ -150,17 +150,17 @@
    ],
    "The reader can explain why approval takes years and why one lab result is not enough.",
    "Write and present a two-page briefing.",
-   "Reader repeats three limits correctly."
+   "Confirm that the reader repeats three limits correctly."
   ]
  ],
  "quiz": [
   [
    "How many nanometres in a metre?",
-   "1,000,000,000. (Covered in module 1: The nanoscale. To pass that module: All sizes are within the correct order of magnitude and the chart is labelled with units.)"
+   "1,000,000,000. (Covered in module 1: The nanoscale. To pass that module: Check that all sizes are within the correct order of magnitude and label the chart with units.)"
   ],
   [
    "Name a medical use.",
-   "Imaging, test strips or drug delivery. (Covered in module 2: Imaging and diagnostics. To pass that module: Peer can repeat how the line forms and one limit of the test.)"
+   "Imaging, test strips or drug delivery. (Covered in module 2: Imaging and diagnostics. To pass that module: Confirm that a peer can repeat how the line forms and one limit of the test.)"
   ],
   [
    "Why does size matter in the body?",
@@ -172,11 +172,11 @@
   ],
   [
    "Name a risk.",
-   "Inflammation, accumulation or allergy. (Covered in module 6: Risks and unknowns. To pass that module: Each risk has a control and the unknown is stated honestly.)"
+   "Inflammation, accumulation or allergy. (Covered in module 6: Risks and unknowns. To pass that module: Give each risk a control and state the unknown honestly.)"
   ],
   [
    "Name a worker control.",
-   "Closed systems or masks. (Covered in module 6: Risks and unknowns. To pass that module: Each risk has a control and the unknown is stated honestly.)"
+   "Closed systems or masks. (Covered in module 6: Risks and unknowns. To pass that module: Give each risk a control and state the unknown honestly.)"
   ],
   [
    "How judge a headline?",
@@ -255,12 +255,12 @@
   [
    "The nanoscale",
    "L1: learner can say what nano means. Focus module: The nanoscale (Understand, 2 h). A nanometre is one billionth of a metre. At this size, materials can behave differently from the same material at ordinary size. Key points: 1 metre = 1,000,000,000 nanometres. A human hair is about 80,000 nm wide, a red blood cell about 7,000 nm, a virus about 100 nm, a DNA strand about 2 nm. Small particles have a large surface compared with their volume, so they react faster and interact with cells differently. Gold particles look red or purple in liquid, not yellow, because of how light interacts with them. Nano does not mean magic; it means a size range with new properties to test and control.",
-   "Teach: open with the worked example. A gold nanoparticle 20 nm wide is about 4,000 times narrower than a hair. A rapid test strip uses such particles to show a coloured line when a marker is present. Then set the activity: Build a size chart from a metre to an atom with at least eight objects and their sizes in nanometres. Mark against the standard: All sizes are within the correct order of magnitude and the chart is labelled with units. Check at this level: How many nanometres in a metre? Model answer: 1,000,000,000."
+   "Teach: open with the worked example. A gold nanoparticle 20 nm wide is about 4,000 times narrower than a hair. A rapid test strip uses such particles to show a coloured line when a marker is present. Then set the activity: Build a size chart from a metre to an atom with at least eight objects and their sizes in nanometres. Mark against the standard: Check that all sizes are within the correct order of magnitude and label the chart with units. Check at this level: How many nanometres in a metre? Model answer: 1,000,000,000."
   ],
   [
    "Imaging and diagnostics",
    "L2: learner can name medical uses. Focus module: Imaging and diagnostics (Understand, 2 h). Nanoparticles can make signals clearer or detect small amounts of a marker in a sample. Key points: Contrast agents improve scan images in some tests. Test strips use nanoparticles to make a line visible, and sensors can detect very small amounts of a substance. False positives and false negatives still occur, so results must be confirmed when they matter. Always follow instructions and storage conditions of a test.",
-   "Teach: open with the worked example. A pregnancy test strip uses coloured nanoparticles attached to antibodies. They gather at the test line only if the hormone is present, giving a visible line. Then set the activity: Explain a test strip to a peer in your own words using a drawing. Mark against the standard: Peer can repeat how the line forms and one limit of the test. Check at this level: Name a medical use. Model answer: Imaging, test strips or drug delivery."
+   "Teach: open with the worked example. A pregnancy test strip uses coloured nanoparticles attached to antibodies. They gather at the test line only if the hormone is present, giving a visible line. Then set the activity: Explain a test strip to a peer in your own words using a drawing. Mark against the standard: Confirm that a peer can repeat how the line forms and one limit of the test. Check at this level: Name a medical use. Model answer: Imaging, test strips or drug delivery."
   ],
   [
    "Drug delivery",

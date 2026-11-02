@@ -20,7 +20,7 @@
    ],
    "ex": "Basil sells at 28 per kilogram to restaurants who now pay 36 for imported, so each kitchen saves 8 per kilogram. Demand is 12 kg per week across three kitchens: 12 x 28 = 336 a week in sales, and the buyers save 12 x 8 = 96 a week. This is a small start, which is right for a first customer test.",
    "act": "Interview five buyers and fill a crop table with price, volume and delivery frequency.",
-   "std": "Five buyers recorded; one crop chosen with reasons."
+   "std": "Record five buyers and choose one crop with reasons."
   },
   "2": {
    "title": "Know the rules for growing and selling in Canada",
@@ -36,7 +36,7 @@
    ],
    "ex": "Row: 'Pack leafy greens for sale | federal or provincial food inspection office and local health unit | register and follow wash and pack rules | before first sale | inspection report'. A table of 10 rows with 3 rows needing a permit means 3 of 10 (30%) have a waiting time to plan around, so list those first.",
    "act": "Build the rules table for a rented warehouse unit in your province.",
-   "std": "Each row cites an official source and date."
+   "std": "Cite an official source and date in each row."
   },
   "3": {
    "title": "Design the system and grow a first crop",
@@ -52,7 +52,7 @@
    ],
    "ex": "Lettuce: 28 days to harvest, 0.45 kg per tray, 12 trays per rack, 10 racks. One rack gives 0.45 x 12 = 5.4 kg and ten racks give 54 kg per cycle. If one rack fails, the cycle gives 48.6 kg, a loss of 10%.",
    "act": "Grow one tray cycle; log daily readings and final yield.",
-   "std": "Daily log complete; yield per tray calculated."
+   "std": "Complete the daily log and calculate yield per tray."
   },
   "4": {
    "title": "Cost it: power, labour and trays",
@@ -68,7 +68,7 @@
    ],
    "ex": "Power per tray: 0.2 kW x 16 h x 28 days = 89.6 kWh; at 0.16 per kWh that is about 14. Add seeds and nutrients 6, packaging 4, labour 14 for 38 variable; price 95 per tray-equivalent gives margin 57 (60%). Break-even is 21,700 / 57 = about 381 trays a month. Power test: a 10% rise in power price adds about 1.4, so variable cost is 39.4, margin 55.6 and break-even is 21,700 / 55.6 = about 390 trays. Yield test: a 15% yield drop cuts revenue to 80.75 and margin to 42.75, so break-even rises to about 508 trays. Teaching figures in CAD.",
    "act": "Build the cost sheet for your system and compute break-even.",
-   "std": "Both stress tests shown."
+   "std": "Show both stress tests."
   },
   "5": {
    "title": "Run clean, steady operations",
@@ -84,7 +84,7 @@
    ],
    "ex": "Batch code 'B-0417-T3' links a delivered bag to the tray, seed lot and cleaning record. If a 28-day crop is seeded weekly across 4 groups of trays, one group is harvested each week, so a customer receives 4 deliveries in a 28-day period.",
    "act": "Keep a 4-week operations log with batch numbers.",
-   "std": "Every delivery traces back to a tray."
+   "std": "Trace every delivery back to a tray."
   },
   "6": {
    "title": "Sell, deliver and keep the customer",
@@ -100,7 +100,7 @@
    ],
    "ex": "Funnel: 15 visits, 6 samples, 3 trial orders, 2 standing orders. Rates: samples 6/15 = 40%, trials 3/6 = 50%, standing 2/3 = 67%. Overall 2/15 = 13% of visits became standing orders, so 10 more visits would bring about 1 or 2 more.",
    "act": "Visit ten buyers with samples and record outcomes.",
-   "std": "Funnel recorded; one change made."
+   "std": "Record the funnel and apply one change."
   },
   "7": {
    "title": "Manage food safety and power risks",
@@ -116,7 +116,7 @@
    ],
    "ex": "Risk: 'Pump fails overnight | 2 x 5 = 10 | float alarm and spare pump | owner | monthly test'. A contamination risk scored 3 x 5 = 15 ranks higher, so its controls come first.",
    "act": "Write an eight-row risk register.",
-   "std": "Each row has owner and test date."
+   "std": "Give each row an owner and test date."
   },
   "8": {
    "title": "Pilot one room and plan growth",

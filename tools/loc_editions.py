@@ -31,7 +31,7 @@ def build(L, i, t):
         [f'Local angle: {L["clus"][k]}', 'Score demand, skills you hold, start-up cost, rules and partner access from 1 to 5.', 'A rules score below 3 makes this a later project.', ('Regulated: planning only. Partner with a licensed firm.' if reg else 'Not on the regulated list, but check any activity licence.')],
         f'Fit table for {t} in {L["name"]}: list three local customer groups, one local competitor type (no names), one rule that could stop you and one partner type. Score each criterion with a reason.',
         f'Write a fit table for {t} with scores and reasons. Ask one local reader to challenge two scores.',
-        'Five criteria scored with reasons; one rule risk named; regulated status stated.')
+        'Score five criteria with reasons, name one rule risk, and state the regulated status.')
     q = F.quiz(L); q[0] = (f'In which cluster is {t}, and is it regulated?', f'{cn}; ' + ('regulated, so planning only.' if reg else 'not on the regulated list, but check licences.'))
     mh = ''.join(f'<details class="mod" {"open" if j==0 else ""}><summary><span class="mn">Module {j+1}</span> {e(m[0])} <span class="pill">{m[2]} h</span><span class="pill bz">{m[1]}</span></summary><p>{e(m[3])}</p><ul>' + ''.join(f'<li>{e(x)}</li>' for x in m[4]) + f'</ul><div class="evi"><strong>Worked example.</strong> {e(m[5])}</div><p><strong>Activity.</strong> {e(m[6])}</p><p><strong>Standard to meet.</strong> {e(m[7])}</p></details>' for j, m in enumerate(mods))
     qz = ''.join(f'<details class="mod"><summary>Q{j+1}. {e(a)}</summary><p><strong>Model answer:</strong> {e(b)}</p></details>' for j, (a, b) in enumerate(F.tag_quiz(q, mods, {0: 2})))

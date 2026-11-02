@@ -11,7 +11,7 @@ T = {
   std='The centre lead and a mentor review the pack; the safety checklist has no gaps for the age range; at least 70% on the check; two peer reviews given.',
   m8=('Score sheet, each line marked 0 to 5 (3 or more meets the standard): child safety 5, learning aim 3, parent communication 4, safeguarding 4, costing 4. Total 20 of 25 = 80%, above the 70% line. Learning aim at 3 is the weakest line, so it gets the first dated fix.',
       'Present for 8 minutes, then answer three questions: what you changed after the pilot, what you would stop, and how many children one adult can supervise.',
-      'All rubric lines at 3 or more; the weakest line has a dated fix.')),
+      'Score all rubric lines at 3 or more and give the weakest line a dated fix.')),
  'EU-07': dict(
   outs=[('Understand', 'Explain the documents and terms that carry a trade from quote to delivery.'),
         ('Analyse', 'Break the trade into costs, risks and compliance checks.'),
@@ -22,7 +22,7 @@ T = {
   std='A mentor reviews the file; every document agrees with the others; margin is computed under three scenarios; at least 70% on the check; two peer reviews given.',
   m8=('Score sheet, each line marked 0 to 5 (3 or more meets the standard): documents 5, costing 4, terms and risk 4, compliance 4, margin 3. Total 20 of 25 = 80%, above the 70% line. Margin at 3 is the weakest line, so the next step is a third scenario with a freight rise.',
       'Present for 8 minutes, then answer: which cost moved the margin most, which document is the riskiest, and what you would refuse.',
-      'All rubric lines at 3 or more; the weakest line has a dated fix.')),
+      'Score all rubric lines at 3 or more and give the weakest line a dated fix.')),
  'EU-08': dict(
   outs=[('Understand', 'Explain the process, its steps and the hazards at each step.'),
         ('Analyse', 'Break the process into times, waits and waste points.'),
@@ -33,7 +33,7 @@ T = {
   std='A mentor reviews the pack; three waste points are shown with measured data; every fix has a safety check; at least 70% on the check; two peer reviews given.',
   m8=('Score sheet, each line marked 0 to 5 (3 or more meets the standard): process map 5, waste analysis 4, safety 5, fixes 3, evidence 4. Total 21 of 25 = 84%, above the 70% line. Fixes at 3 is the weakest line, so it gets a costed payback figure next.',
       'Present for 8 minutes, then answer: which waste was largest in minutes, which fix you would do first, and what could go wrong with it.',
-      'All rubric lines at 3 or more; the weakest line has a dated fix.')),
+      'Score all rubric lines at 3 or more and give the weakest line a dated fix.')),
  'EU-09': dict(
   outs=[('Understand', 'Explain how a drawing, a bill of quantities and a safety plan fit together.'),
         ('Analyse', 'Break the project into elements, quantities and hazards.'),
@@ -44,7 +44,7 @@ T = {
   std='A mentor reviews the pack; quantities are within 5% of a second person\'s count; the safety plan names the hazards of this project; at least 70% on the check; two peer reviews given.',
   m8=('Score sheet, each line marked 0 to 5 (3 or more meets the standard): drawing reading 4, quantities 4, cost 5, safety plan 3, quality 4. Total 20 of 25 = 80%, above the 70% line. Safety plan at 3 is the weakest line, so it gets a task-specific hazard list next.',
       'Present for 8 minutes, then answer: which quantity was hardest to measure, how much contingency you kept and why, and which hazard worries you most.',
-      'All rubric lines at 3 or more; the weakest line has a dated fix.')),
+      'Score all rubric lines at 3 or more and give the weakest line a dated fix.')),
  'EU-10': dict(
   outs=[('Understand', 'Explain the stages of a growing or fishing season and what each needs.'),
         ('Analyse', 'Break the season into inputs, labour, losses and sales.'),
@@ -55,5 +55,5 @@ T = {
   std='A mentor reviews the log; cost per kilo and break-even are worked from the log; the post-harvest plan names a cooling and hygiene step; at least 70% on the check; two peer reviews given.',
   m8=('Score sheet, each line marked 0 to 5 (3 or more meets the standard): season plan 4, costing 5, sustainability 3, post-harvest 4, market 3. Total 19 of 25 = 76%, above the 70% line. Sustainability and market at 3 are the weakest lines, so each gets a dated fix.',
       'Present for 8 minutes, then answer: what cost the most per kilo, which buyer you would drop, and what you would change in the next season.',
-      'All rubric lines at 3 or more; each weakest line has a dated fix.')),
+      'Score all rubric lines at 3 or more and give each weakest line a dated fix.')),
 }

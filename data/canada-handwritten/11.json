@@ -20,7 +20,7 @@
    ],
    "ex": "A village of 300 households has 2 Mbps shared at peak. Target 25 Mbps at under 40 a month per home. Ten tests give 1.8, 2.1, 2.0, 1.9, 2.2, 2.0, 1.7, 2.3, 2.0 and 2.0 Mbps; the sum is 20.0, so the average is 2.0 Mbps. If all 300 homes shared that equally at peak, each would get under 0.01 Mbps.",
    "act": "Run speed tests at 10 spots and write a need statement.",
-   "std": "Tests have times and devices recorded."
+   "std": "Record times and devices for the tests."
   },
   "2": {
    "title": "Know telecom and licensing rules",
@@ -36,7 +36,7 @@
    ],
    "ex": "Row: 'Use a radio link | federal spectrum rules | stay within licence-exempt limits | before install | equipment certificate'. Second row: 'Mount an antenna on a mast | municipal approval, possibly federal rules | check the provincial and municipal rule | before building | written approval on file'. Write the date you read each source.",
    "act": "Build a rules table for a small community network.",
-   "std": "Rows sourced and dated."
+   "std": "Cite a source and a date for every row."
   },
   "3": {
    "title": "Design a network a community can run",
@@ -52,7 +52,7 @@
    ],
    "ex": "100 households x 1.5 Mbps peak each = 150 Mbps if every home used its peak at once; with 3:1 sharing the backhaul needed is 150 / 3 = 50 Mbps. A site drawing 120 W that must run 6 hours needs 120 x 6 = 720 Wh; with 20% margin that is 720 x 1.2 = 864 Wh.",
    "act": "Draw a network plan and compute backhaul.",
-   "std": "Calculation shown."
+   "std": "Show the calculation."
   },
   "4": {
    "title": "Cost it and set affordable prices",
@@ -68,7 +68,7 @@
    ],
    "ex": "Teaching figures in CAD. Build cost about 42,000 (an estimate; get real quotes) for a site of 150 homes; monthly cost per household 25; price 35; margin 10 per home. If all 150 homes pay, margin is 10 x 150 = 1,500 a month. At 60% take-up, 150 homes become 90 paying homes, so margin is 90 x 10 = 900 a month. Payback on 42,000 is 42,000 / 900 = about 47 months; at 40% take-up, 60 homes give 600 a month and payback is 42,000 / 600 = 70 months.",
    "act": "Build the model with 60% take-up.",
-   "std": "Cases shown."
+   "std": "Show the cases."
   },
   "5": {
    "title": "Operate and support",
@@ -84,7 +84,7 @@
    ],
    "ex": "Uptime 98%; fixed within 1 day in 90% of cases. A 30-day month has 720 hours, so 98% uptime allows 720 x 0.02 = 14.4 hours down. If there were 20 faults, 90% fixed within a day means 18 fixed in a day and 2 slower.",
    "act": "Keep a 4-week ops log.",
-   "std": "Faults and fixes logged."
+   "std": "Log faults and fixes."
   },
   "6": {
    "title": "Train users and grow adoption",
@@ -116,7 +116,7 @@
    ],
    "ex": "Policy: 'We log connection times for 30 days only.' With 150 homes making 20 connections a day, the log holds at most 150 x 20 x 30 = 90,000 entries before the oldest are deleted.",
    "act": "Write privacy and fair-use notes.",
-   "std": "Plain words."
+   "std": "Use plain words."
   },
   "8": {
    "title": "Pilot and sustain",

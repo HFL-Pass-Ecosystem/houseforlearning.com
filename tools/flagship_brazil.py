@@ -112,7 +112,7 @@ def mods(n):
        "Choose one first segment and say why the others wait."],
       f"Weak: 'Everyone needs {th}.' Strong: 'Our first customer is {cu} within 8 km of the centre, who today pays {money(pr*1.1)} per {un} and complains about delay. We target {qn(max(1, round(vol * 0.6)))} {pl(un, max(1, round(vol * 0.6)))} a month by month three.'",
       "Write the one-sentence customer, a five-row rival table and eight interview records. Share them with a peer for a challenge round.",
-      "Customer is specific; rival table has prices; every claim traces to an interview or a source."))
+      "Define a specific customer, build a rival table with prices, and trace every claim to an interview or a source."))
     m.append(("Rules, registration and data duties in Brazil", "Understand", 4,
       "Brazil asks every trader to be visible and accountable. Know which register, tax regime and sector rules apply before the first sale, and check each against the current official text.",
       ["Choose a legal form: micro-entrepreneur (MEI) only if your activity appears on the official MEI list, or a company registered with a CNPJ. Regulated activities need their sector authorisation first. Check the current limits and lists on the official portal.",
@@ -122,7 +122,7 @@ def mods(n):
        "Consumer law gives buyers clear rights on information, returns and complaints. Put your terms in plain Portuguese."],
       f"Checklist for a new {n.lower()} trader: 1) legal form (CNPJ, or MEI only if your activity is on the official list); 2) city operating licence; 3) sector licence or register; 4) tax set-up; 5) privacy notice; 6) written terms. Each has an owner and a date.",
       "Build your own six-line compliance table for your first location. Mark what is done, what is pending and who confirms it.",
-      "Every line cites an official source; nothing is assumed; pending items have dates. Local law always wins over this course."))
+      "Cite an official source for every line, assume nothing, and date every pending item. Local law always wins over this course."))
     m.append(("Design the offer", "Create", 4,
       f"An offer states what the customer gets, how well, by when and at what price. For {th}, the offer must make the quality visible and the next step easy.",
       [f"Describe the core offer in three lines: what is delivered ({th}), the standard it meets, and the time it takes.",
@@ -132,7 +132,7 @@ def mods(n):
        "Create two options at most, so choice stays easy."],
       f"Offer: '{th.capitalize()}, delivered within agreed time, checked against a written standard, price {money(pr)} per {un}. Proof: a dated record the customer can check and sign. Changes or cancellation by written agreement before work begins.'",
       "Write the offer card, the proof list and the terms sheet. Test them with three customers and note every point where they hesitated.",
-      "Promise, proof and price are consistent; terms fit one page; three customer reactions are recorded."))
+      "Check that promise, proof and price are consistent, fit the terms on one page, and record three customer reactions."))
     m.append(("Run the work step by step", "Apply", 5,
       f"Good operations make results repeatable. For {n.lower()}, write each step so a new person could follow it on their first day, and measure each step.",
       [f"Map the process from first contact to paid and closed. Typical stages: enquiry, quote, preparation, delivery of the {un}, check, payment, follow-up.",
@@ -142,7 +142,7 @@ def mods(n):
        "Fix the cause of a defect, not the symptom. Ask 'why' five times and record the answer."],
       f"Stage record: 'Prepare. Owner: lead. Time: 30 min. Tool: checklist. Record: signed sheet. Defect found on 1 of {qn(max(2, vol // 4))} {pl(un, max(2, vol // 4))} last week; cause: missing check on {kit}; fix: add check at start, review next Friday.'",
       "Draw the process map and write procedures for the two riskiest stages. Run each once and time it.",
-      "Procedures are followable by a stranger; measures have weekly numbers; one defect is traced to a root cause."))
+      "Write procedures a stranger can follow, record weekly numbers for each measure, and trace one defect to a root cause."))
     m.append(("Safety, quality and risk", "Evaluate", 4,
       f"The most serious risk in this field is {rk}. A calm, written risk routine protects people first and the business second.",
       ["List ten things that could go wrong. Score each for how likely (1 to 5) and how serious (1 to 5). Multiply and sort.",
@@ -152,7 +152,7 @@ def mods(n):
        "Check that insurance and legal duties match the risk you actually carry."],
       f"Risk row: 'Hazard: {rk}. Likelihood 3, severity 5, score 15. Control: written check before each {un}, trained staff, log sheet. Owner: site lead. Review monthly.'",
       "Build a ten-row risk register and a one-page emergency plan. Run a ten-minute drill with a peer and note two improvements.",
-      "Top risks have controls ranked by preference; drill done; log started. Where a regulation applies, follow the official rule."))
+      "Rank controls by preference for the top risks, run the drill, and start the log. Where a regulation applies, follow the official rule."))
     m.append(("People, skills and service", "Apply", 4,
       "People deliver the promise. Define roles, train to a standard and give feedback in the open.",
       ["Write a role card for each person: purpose, five tasks, the standard for each, and who to ask for help.",
@@ -162,7 +162,7 @@ def mods(n):
        "Build a growth path: what a new person can do in week 1, month 3 and month 12."],
       "Training record: 'Task: process a complaint. Shown 2 May; done with support 4 May; done alone 8 May, checked: apology, fix, follow-up call. Signed by lead.'",
       "Write two role cards and a training plan for one new hire. Role-play a hard customer conversation twice and review.",
-      "Role cards have measurable standards; training shows sign-off steps; service rules are written in plain words."))
+      "Write role cards with measurable standards, show the sign-off steps in training, and write the service rules in plain words."))
     m.append(("Money: cost, price and break-even", "Analyse", 5,
       "A business lives or dies on a few numbers. Know your contribution per unit, your fixed costs and the volume you need.",
       [f"Contribution per {un} = price minus variable cost. Fixed costs are paid whether you sell or not.",
@@ -172,7 +172,7 @@ def mods(n):
        "Test the plan: what if sales fall by a quarter, or cost rises by a tenth?"],
       f"Worked example, all figures in reais: price {money(pr)}, variable cost {money(vc)}, contribution {money(cm)} per {un}. Fixed cost {money(fx)} a month. Break-even = {money(fx)} / {money(cm)} = {bex(fx, cm, be)}{pl(un, be)} a month. At {qn(vol)} {pl(un, vol)} a month, profit = {money(cm)} x {qn(vol)} - {money(fx)} = {money(prof)}. These are teaching figures that belong to this example only; later examples and the case study use their own figures. Use your own.",
       "Build your own table: price, variable cost, contribution, fixed cost, break-even and a downside case at 75% of sales. Show it to a peer or mentor.",
-      "Arithmetic is correct; every figure has a source or is marked as an assumption; a downside case is shown."))
+      "Calculate correctly, give every figure a source or mark it as an assumption, and show a downside case."))
     m.append(("Grow, measure and renew", "Evaluate", 4,
       "Growth should follow proof. Measure, learn, then add; and keep returning to the customer.",
       ["Pick one growth lever at a time: new customers, a higher repeat rate, a better price, or a new offer.",
@@ -182,7 +182,7 @@ def mods(n):
        "Plan the renewal of licences, equipment and skills a year ahead."],
       f"90-day plan: 'Lever: repeat customers. Action: follow-up call after every {un}. Target: repeat rate from 20% to 30%. Check: weekly count. Review date: day 45 and day 90.'",
       "Write a 90-day plan with one target, three actions and a review date. Present it in five minutes and take questions.",
-      "Target is measurable and dated; actions are small enough to start this week; review date is in the calendar."))
+      "Set a measurable, dated target, break the actions down small enough to start this week, and put the review date in the calendar."))
     for k, mod in enumerate(m):
         mod[4].insert(0, 'In ' + n.lower() + ': ' + DEEP[n][k])
     m = [tuple(x) for x in m]

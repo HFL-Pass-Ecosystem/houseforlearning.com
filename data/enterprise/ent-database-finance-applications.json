@@ -12,7 +12,7 @@
   ],
   "A small trading firm asks for monthly sales by region that matches the ledger. Your query total differs by 40, and you trace it to one invoice posted in the wrong period, then fix the entry and document the cause.",
   "Design and test a small finance reporting solution on the practice data set, reconcile it to the ledger and present it to a reviewer.",
-  "Query totals equal ledger totals; three control checks pass; the reviewer finds the design clear and the recovery plan realistic."
+  "Check that query totals equal ledger totals, pass three control checks, and confirm that the reviewer finds the design clear and the recovery plan realistic."
  ],
  "quiz": [
   [

@@ -12,7 +12,7 @@
   ],
   "A reviewer follows one customer from web form to paid invoice and finds that the ticket app does not know the invoice is paid. You add a rule to fix it.",
   "Build the full story with three users, run five customers through it, then write a one-page audit with three problems and fixes.",
-  "Every customer completes the story; audit lists three problems with a fix and an owner for each."
+  "Show that every customer completes the story, and list three problems in the audit with a fix and an owner for each."
  ],
  "quiz": [
   [

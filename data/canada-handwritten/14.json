@@ -36,7 +36,7 @@
    ],
    "ex": "Row: 'Claim recycled content | competition law and labelling rules | hold supplier certificate | before launch | certificate on file'. Second row: 'Label a jacket for sale in Canada | federal textile labelling rules | check the fibre content label in both languages and the care label if you add one | before launch | label proof approved'. Check the provincial rule for any extra requirements.",
    "act": "Build a rules table for one product line.",
-   "std": "Rows sourced and dated."
+   "std": "Cite a source and a date for every row."
   },
   "3": {
    "title": "Design the digital product passport",
@@ -68,7 +68,7 @@
    ],
    "ex": "Fee 1.80 per item; variable cost 0.60; margin 1.20; fixed cost 8,000 a month needs about 6,700 items a month. Teaching figures in CAD. Check: 6,700 x 1.20 = 8,040, just above 8,000. At 50% volume, 3,350 items give 3,350 x 1.20 = 4,020, leaving a monthly gap of 8,000 - 4,020 = 3,980.",
    "act": "Build the model with a 50% volume case.",
-   "std": "Cases shown."
+   "std": "Show the cases."
   },
   "5": {
    "title": "Run supplier onboarding and data quality",
@@ -84,7 +84,7 @@
    ],
    "ex": "Pilot: 85% of items had a complete record after 6 weeks. Of 2,000 items tagged, 85% complete means 1,700 full records and 300 incomplete. A target of 95% is 1,900, so 200 more records must be completed.",
    "act": "Run a 4-week capture test.",
-   "std": "Completion tracked."
+   "std": "Track completion."
   },
   "6": {
    "title": "Sell to brands and marketplaces",
@@ -116,7 +116,7 @@
    ],
    "ex": "Risk: 'Wrong origin entered | 3 x 5 | audit and photo proof | quality lead | monthly'. The score is 3 x 5 = 15 out of 25, so it is high priority. After audits with photo proof, likelihood falls to 2 and the score is 2 x 5 = 10.",
    "act": "Write a risk register.",
-   "std": "Owners named."
+   "std": "Name an owner for each item."
   },
   "8": {
    "title": "Pilot and scale",

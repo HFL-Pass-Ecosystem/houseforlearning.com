@@ -20,7 +20,7 @@
    ],
    "ex": "Thesis: 'We back applied AI for Canadian clinics and logistics at seed stage; we avoid pure model-building without data access.' A test on 3 companies might find 2 that fit and 1 that fails the data rule, and the reason for the failure is written beside it.",
    "act": "Write a thesis and test it against three real companies' public information.",
-   "std": "Thesis has reasons and exclusions."
+   "std": "Give reasons and exclusions for the thesis."
   },
   "2": {
    "title": "Know the securities rules",
@@ -36,7 +36,7 @@
    ],
    "ex": "Row: 'Raise a fund from friends | provincial securities regulator | check exemption and registration | before any pitch | lawyer's written opinion'. A fund table with 8 rows, each with an owner and a date, shows at a glance which of the 8 are still open before a first pitch.",
    "act": "Build a rules table for a small fund and ask a licensed adviser to review.",
-   "std": "No row guessed; opinion kept."
+   "std": "Check that no row is guessed and opinion is kept."
   },
   "3": {
    "title": "Evaluate an AI company",
@@ -52,7 +52,7 @@
    ],
    "ex": "Claim '95% accuracy' tested on the company's own test set; independent sample shows 84%, a gap of 11 points. Memo rating drops from strong to watch. If a customer pays 1,500 a month and serving them costs 400, gross margin is 1,100 (about 73%).",
    "act": "Review one public AI company and write a two-page memo.",
-   "std": "Each claim has evidence or is marked unverified."
+   "std": "Support each claim with evidence or mark it unverified."
   },
   "4": {
    "title": "Model returns and fees",
@@ -68,7 +68,7 @@
    ],
    "ex": "Invest 500,000 across 10 companies at 50,000 each. Outcomes: 6 return nothing, 3 return 50,000 each, 1 returns 400,000 (8x). Total back = 150,000 + 400,000 = 550,000, which is 1.1x before fees. If the 400,000 winner is missed, the total is 150,000, only 0.3x. Fees on a 10,000,000 fund at 2% for 10 years are 2,000,000. Teaching figures in CAD.",
    "act": "Build a three-case return table.",
-   "std": "Fees and assumptions shown."
+   "std": "Show fees and assumptions."
   },
   "5": {
    "title": "Manage the portfolio",
@@ -84,7 +84,7 @@
    ],
    "ex": "Quarter page: 10 companies, 2 behind plan (20%), 1 needing a bridge; action: reserve 200,000. A company with 240,000 in cash spending 30,000 a month has 8 months left, under the 9-month line, so it is on the watch list.",
    "act": "Build a quarterly dashboard for a fictional portfolio.",
-   "std": "Every company has a status and next step."
+   "std": "Give every company a status and next step."
   },
   "6": {
    "title": "Source and win deals",
@@ -100,7 +100,7 @@
    ],
    "ex": "Funnel: 120 seen, 30 met, 8 diligence, 3 offers, 2 closed. Rates: met 30/120 = 25%, diligence 8/30 = 27%, offers 3/8 = 38%, closed 2/3 = 67%. Overall 2/120 = 1.7%, so about 60 deals seen per closing.",
    "act": "Run a deal funnel for 4 weeks (public companies or case studies).",
-   "std": "Funnel recorded."
+   "std": "Record the funnel."
   },
   "7": {
    "title": "Handle AI ethics and conflicts",
@@ -116,7 +116,7 @@
    ],
    "ex": "Policy line: 'We do not back face-recognition used without consent.' A conflicts register with 5 entries, each with a date and an action, lets an investor see that every conflict was handled.",
    "act": "Write a one-page responsible investing policy.",
-   "std": "Policy has screens and a review step."
+   "std": "Include screens and a review step in the policy."
   },
   "8": {
    "title": "Pilot a mock fund",

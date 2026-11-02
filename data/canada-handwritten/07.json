@@ -20,7 +20,7 @@
    ],
    "ex": "A restaurant group recalled all romaine for 5 days because origin was unclear, losing about 18,000 in sales. If batch records had narrowed the recall to 2 of 10 lots, only 20% of stock would be pulled, so the loss would be about 18,000 x 0.20 = 3,600, a saving of 14,400. Teaching figures in CAD.",
    "act": "Map one real chain and decide, with reasons, whether a shared ledger beats a normal database.",
-   "std": "The decision names who writes, who reads and who pays."
+   "std": "Name who writes, who reads and who pays in the decision."
   },
   "2": {
    "title": "Know food, data and finance rules",
@@ -36,7 +36,7 @@
    ],
    "ex": "Row: 'Claim organic on a menu | federal labelling rules and certifier | show certificate and lot link | before printing | certificate copy filed'. Row: 'Store supplier contact names on the record | privacy law | keep business contacts only | at sign-up | consent form on file'. A pilot with 6 restaurants and 4 shared suppliers has 6 + 4 = 10 parties, so the data agreement needs 10 signatures.",
    "act": "Build a rules table for a six-restaurant pilot.",
-   "std": "No row guessed; sources dated."
+   "std": "Check that no row is guessed and date the sources."
   },
   "3": {
    "title": "Design the record and the data capture",
@@ -52,7 +52,7 @@
    ],
    "ex": "Lot 'R-0612-A' moves farm to packer to distributor to kitchen: four entries, each with time and quantity. A trace query returns the full path in under 10 seconds. If one scan takes 12 seconds, the lot costs 4 x 12 = 48 seconds of staff time in all.",
    "act": "Build a spreadsheet prototype for one chain with at least 20 entries and run two trace queries.",
-   "std": "Both queries return the full path; errors fixed by new entries."
+   "std": "Check that both queries return the full path and fix errors by adding new entries."
   },
   "4": {
    "title": "Price the service and prove the saving",
@@ -68,7 +68,7 @@
    ],
    "ex": "Price 2,400 a year (200 a month); variable cost 900 a year (75 a month); margin 125 a month per supplier. Fixed cost 9,000 a month needs 9,000 / 125 = 72 suppliers to break even; if only 36 sign, margin is 36 x 125 = 4,500 and the loss is 4,500 a month. A supplier that saves 4 hours of paperwork a week at 25 an hour saves 4 x 25 x 52 = 5,200 a year, well above the 2,400 fee. Teaching figures in CAD.",
    "act": "Build the cost sheet and a customer saving case.",
-   "std": "Units shown; saving case uses customer data."
+   "std": "Show units and use customer data in the saving case."
   },
   "5": {
    "title": "Onboard suppliers and keep data clean",
@@ -84,7 +84,7 @@
    ],
    "ex": "Pilot week 1: 62% of cases scanned; week 4: 91% after a quick guide and a helpline. With 400 cases a week, week 1 scanned 400 x 0.62 = 248 and week 4 scanned 400 x 0.91 = 364, so 116 more cases a week could be traced.",
    "act": "Run a 4-week capture test with three suppliers or a simulation.",
-   "std": "Scan rate tracked weekly."
+   "std": "Track the scan rate weekly."
   },
   "6": {
    "title": "Sell to buyers and partners",
@@ -100,7 +100,7 @@
    ],
    "ex": "Funnel: 30 demos, 8 pilots, 4 paid. Demo-to-pilot is 8 / 30 = 27%; pilot-to-paid is 4 / 8 = 50%; demo-to-paid is 4 / 30 = 13%.",
    "act": "Deliver a demo to five buyers.",
-   "std": "Funnel recorded."
+   "std": "Record the funnel."
   },
   "7": {
    "title": "Manage trust, security and misuse risk",
@@ -116,7 +116,7 @@
    ],
    "ex": "Risk: 'False origin entry | 3 x 5 | spot audits and sensor data | quality lead | monthly'. Likelihood 3 x impact 5 = 15 of 25, so it ranks near the top. If a spot audit of 10 lots finds 1 mismatch, the error rate is 1 / 10 = 10%, above a 5% limit, so widen the audit to 20 lots and find the cause.",
    "act": "Write an eight-row risk register.",
-   "std": "Each row has owner and review date."
+   "std": "Give each row an owner and review date."
   },
   "8": {
    "title": "Pilot, review and scale",

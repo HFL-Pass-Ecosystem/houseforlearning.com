@@ -20,7 +20,7 @@
    ],
    "ex": "Leak sensors may cost about 80 per unit and can reduce water damage; interviews may show that buyers rank them above voice assistants. For a 40-unit building, 40 x 80 = 3,200 buys sensors for every unit, a small share of a 17.2M build cost.",
    "act": "Interview ten people and rank features by willingness to pay.",
-   "std": "Ranking backed by interviews."
+   "std": "Back the ranking with interviews."
   },
   "2": {
    "title": "Know development rules",
@@ -36,7 +36,7 @@
    ],
    "ex": "Row: 'Take buyer deposits | provincial condo law | hold in trust and give disclosure | before any sale | lawyer's trust account record'. If each of 40 units takes a deposit, there are 40 separate deposit records to reconcile with the trust account.",
    "act": "Build a rules table for a 40-unit building.",
-   "std": "Rules cited with source and date."
+   "std": "Cite rules with source and date."
   },
   "3": {
    "title": "Plan the building and the smart layer",
@@ -52,7 +52,7 @@
    ],
    "ex": "Open standard chosen so that a failed hub vendor can be replaced without rewiring. If each of 8 units on a floor has 12 devices, the floor plan lists 8 x 12 = 96 devices, each with a power point, a network path and an owner.",
    "act": "Draw a one-page system plan for a floor.",
-   "std": "Every device has a power, network and owner."
+   "std": "Give every device a power, network and owner."
   },
   "4": {
    "title": "Cost the development",
@@ -68,7 +68,7 @@
    ],
    "ex": "40 units x 520,000 = 20.8M; cost per unit 430,000 = 17.2M; profit 3.6M (17%). With costs up 10%, cost is 18.92M and profit falls to 1.88M (9%). A 10 to 15% contingency on 17.2M is 1.72M to 2.58M, so a 10% contingency (1.72M) leaves profit of 1.88M. Teaching figures in CAD.",
    "act": "Build a development pro forma with a 10% cost rise case.",
-   "std": "Margin shown under stress."
+   "std": "Show the margin under stress."
   },
   "5": {
    "title": "Manage construction and quality",
@@ -84,7 +84,7 @@
    ],
    "ex": "Defect list: 62 items at handover walk; 55 closed in 14 days (89%); 7 still open and carried to a new dated list. Repeat the walk when the 7 are done and sign off only when the count is zero.",
    "act": "Write a stage-gate checklist.",
-   "std": "Each gate has pass criteria."
+   "std": "Set pass criteria for each gate."
   },
   "6": {
    "title": "Sell, hand over and support",
@@ -100,7 +100,7 @@
    ],
    "ex": "Demo-unit visits: 120; offers 30; sales 22. Rates: offers 30/120 = 25%, sales 22/30 = 73%. 22 of 40 units sold is 55%, so 18 units remain to sell. If the sales team tracks this each week, it can see early whether the pace is on plan.",
    "act": "Run a mock sales funnel.",
-   "std": "Funnel numbers recorded."
+   "std": "Record funnel numbers."
   },
   "7": {
    "title": "Manage data, safety and sustainability",
@@ -116,7 +116,7 @@
    ],
    "ex": "Policy line: 'Camera data kept 30 days, viewed only after an incident.' A camera that records 30 days and is viewed twice a year, each time after an incident, leaves a short log of 2 entries that residents can ask to see.",
    "act": "Write a resident data note and risk register.",
-   "std": "Notes in plain words."
+   "std": "Write notes in plain words."
   },
   "8": {
    "title": "Pilot a floor and plan scale",

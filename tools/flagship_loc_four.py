@@ -99,23 +99,23 @@ def modules(L):
       f'Every plan starts with the place. Read {L["name"]} as your customer does before you choose a sector.', L['ctx'],
       f'Market page for {L["name"]}: size in one line, three languages or fewer, main payment methods, three public holidays that affect delivery, and one risk. Each line has a source you can open and a date.',
       'Write a one-page market page with sources and dates. Ask two local people to correct it.',
-      'Every line has a source and a date; two local readers confirm the facts; one risk is named with a response.'))
+      'Cite a source and a date for every line, have two local readers confirm the facts, and name one risk with a response.'))
     M.append((THEMES[1][0], THEMES[1][1], THEMES[1][2],
       f'The global list has {len(TOPICS)} sectors in {len(CL)} clusters. Pick by local fit, not by fashion.',
       [f'Cluster {k}, {n}: {L["clus"][k]}' for k, n, _ in CL[:5]] + [f'Cluster {k}, {n}: {L["clus"][k]}' for k, n, _ in CL[5:]],
       f'Scoring example: pick three sectors, score each 1 to 5 on local demand, skills you hold, start-up cost, rules and partner access. A sector that scores 5 on demand but 1 on rules is a later project, not a first one. Pick the sector with the highest total and a rules score of 3 or more.',
       'Rank six sectors from at least three clusters. Choose one and write the reason in three lines.',
-      'Six sectors scored on five criteria; the choice has a stated reason; any regulated sector is marked as planning only.'))
+      'Score six sectors on five criteria, state the reason for your choice, and mark any regulated sector as planning only.'))
     M.append((THEMES[2][0], THEMES[2][1], THEMES[2][2],
       f'Rules differ by place. {CHECK}', L['reg'],
       f'Licence list for {L["item"]}: registration type, tax registration, address, any activity licence, insurance. Next to each, write who issues it, what it costs in {cur} (from their public page), how long it takes, and the date you checked.',
       'Build a licence table for your chosen sector with issuer, cost, time and the date checked. Do not apply; this is a plan.',
-      'Table is complete; every row has a public source; the order of steps is logical; one adviser question is written.'))
+      'Complete the table with a public source for every row, put the steps in a logical order, and write one question for an adviser.'))
     M.append((THEMES[3][0], THEMES[3][1], THEMES[3][2],
       'Trust is the real product. Protect customer data and keep your promises in writing.', L['data'],
       'Privacy notice in five lines: who we are; what we collect; why; who sees it; how to ask for a copy, correction or removal. Plus a data map listing each tool and where it stores data.',
       'Write the five-line notice and a data map for your plan. Ask a peer to find any gap.',
-      'Notice is plain words; data map lists every tool; refund and complaint steps are written and dated.'))
+      'Write the notice in plain words, list every tool in the data map, and write and date the refund and complaint steps.'))
     M.append((THEMES[4][0], THEMES[4][1], THEMES[4][2],
       f'Go where your customers already are, in the language they use. Language: {L["lang"]}.', L['cust'],
       f'Test plan: show the offer to 20 real people through two channels over two weeks; count enquiries, replies and first orders. Example result: 20 shown, 6 enquiries, 2 orders: a 10% order rate. Change one thing (price or wording) and test again.',
@@ -128,12 +128,12 @@ def modules(L):
       [f'Write {cur} next to every number.', 'Contribution per unit = price minus the cost of each unit.', 'Break-even units = fixed monthly cost divided by contribution per unit; round up.', 'Add tax and duty explicitly; never bury them in a price.', 'Check against a worse case: if sales are 25% lower, do you still cover costs?'],
       f'For {L["item"]} (all amounts are estimates): price {L.get("curx",cur)} {p:,} per unit, cost {L.get("curx",cur)} {v:,} per unit, fixed cost {L.get("curx",cur)} {f:,} per month. Contribution = {p:,} - {v:,} = {cm:,}. Break-even = {f:,} / {cm:,} = {f/cm:.1f}, so {utxt}. If sales fall 25% from {bu*2}, you sell {int(bu*2*0.75)} and the margin is {int(bu*2*0.75)*cm - f:,}.' + risk_note(p, v, f),
       f'Build your own sheet in {cur}: price, unit cost, fixed cost, contribution, break-even and a 25% worse case. Put the tax and duty rules in a separate line with a source.',
-      f'Sheet has all six lines in {cur}; arithmetic is checked by a peer; the worse case is shown.'))
+      f'Complete all six lines of the sheet in {cur}, have a peer check the arithmetic, and show the worse case.'))
     M.append((THEMES[6][0], THEMES[6][1], THEMES[6][2],
       'Plans become real through people. Hire, partner and write every promise down.', L['people'],
       f'Role card for a first helper: tasks, hours, pay in {cur}, trial period, review date, and one measure of success. Signed by both sides.',
       'Write one role card and one partner letter (what each side gives). Role-play a first meeting for 10 minutes.',
-      'Role card has pay in local currency, hours and a review date; partner letter is balanced; both are signed copies.'))
+      'Write a role card with pay in local currency, hours and a review date, balance the partner letter, and keep signed copies of both.'))
     M.append((THEMES[7][0], THEMES[7][1], THEMES[7][2],
       'Finish with a one-page launch plan and a plan to review it every month.',
       ['Dates: first test, first order, first review.', 'One measure per week: enquiries, orders or revenue; pick one.', 'A monthly review: what we planned, what happened, what we change.', 'Keep a risk list with a response for each; include a rules change.', f'Local caution: {L["caution"]}'],
