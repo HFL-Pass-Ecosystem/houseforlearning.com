@@ -138,43 +138,53 @@
  "quiz": [
   [
    "What is runway?",
-   "Months you can run before cash ends."
+   "Months you can run before cash ends.",
+   1
   ],
   [
    "Why talk to ten people first?",
-   "To learn the real problem before building."
+   "To learn the real problem before building.",
+   2
   ],
   [
    "What is a prototype for?",
-   "To learn, not to impress."
+   "To learn, not to impress.",
+   2
   ],
   [
    "What does a test need before it starts?",
-   "One measure of success and a fixed time."
+   "One measure of success and a fixed time.",
+   3
   ],
   [
    "Name two common business forms.",
-   "Sole proprietor and corporation (or partnership)."
+   "Sole proprietor and corporation (or partnership).",
+   4
   ],
   [
    "Why write a founder agreement?",
-   "To fix ownership, roles and what happens if someone leaves."
+   "To fix ownership, roles and what happens if someone leaves.",
+   4
   ],
   [
    "How is break-even found?",
-   "Fixed cost divided by margin per unit."
+   "Fixed cost divided by margin per unit.",
+   5
   ],
   [
    "Why plan low, expected and high cases?",
-   "Because real sales are uncertain."
+   "Because real sales are uncertain.",
+   5
   ],
   [
    "What three things might a weekly check track?",
-   "Leads, paying customers and cash."
+   "Leads, paying customers and cash.",
+   6
   ],
   [
    "What if you cannot find a rule?",
-   "Ask the official office or an adviser and keep the answer in writing."
+   "Ask the official office or an adviser and keep the answer in writing.",
+   8
   ]
  ],
  "jobs": [

@@ -138,43 +138,53 @@
  "quiz": [
   [
    "What is suitability?",
-   "Advice fitting the client's goals, risk and situation."
+   "Advice fitting the client's goals, risk and situation.",
+   2
   ],
   [
    "Who regulates advisers?",
-   "Provincial regulators, and in some cases federal bodies; check which applies."
+   "Provincial regulators, and in some cases federal bodies; check which applies.",
+   2
   ],
   [
    "What is savings rate?",
-   "Savings divided by income."
+   "Savings divided by income.",
+   3
   ],
   [
    "Why disclose fees?",
-   "Clients must know costs."
+   "Clients must know costs.",
+   4
   ],
   [
    "What is KYC?",
-   "Know your client."
+   "Know your client.",
+   2
   ],
   [
    "Why keep notes?",
-   "Proof of advice."
+   "Proof of advice.",
+   5
   ],
   [
    "What must you never promise?",
-   "Returns."
+   "Returns.",
+   7
   ],
   [
    "What is a conflict of interest?",
-   "A situation where your gain may clash with the client's."
+   "A situation where your gain may clash with the client's.",
+   7
   ],
   [
    "Why annual reviews?",
-   "Plans must be updated."
+   "Plans must be updated.",
+   5
   ],
   [
    "What triggers fail in the mock?",
-   "Missing disclosure."
+   "Missing disclosure.",
+   8
   ]
  ],
  "jobs": [

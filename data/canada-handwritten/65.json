@@ -138,43 +138,53 @@
  "quiz": [
   [
    "What is the difference between personal support and nursing care?",
-   "Personal support helps with daily living; nursing care is clinical care by a licensed nurse."
+   "Personal support helps with daily living; nursing care is clinical care by a licensed nurse.",
+   1
   ],
   [
    "What should you do if asked to do a task outside your scope?",
-   "Decline politely and call the nurse or supervisor."
+   "Decline politely and call the nurse or supervisor.",
+   2
   ],
   [
    "Why remove loose mats?",
-   "They cause falls."
+   "They cause falls.",
+   3
   ],
   [
    "Why explain each step before personal care?",
-   "To get consent and respect dignity."
+   "To get consent and respect dignity.",
+   1
   ],
   [
    "Can a carer change a medicine plan?",
-   "No; follow the written plan and refer questions to the nurse or pharmacist."
+   "No; follow the written plan and refer questions to the nurse or pharmacist.",
+   5
   ],
   [
    "What makes a good note?",
-   "Dated, factual and states who was told."
+   "Dated, factual and states who was told.",
+   6
   ],
   [
    "Who runs public home care programmes?",
-   "Provinces; check eligibility with the local health authority."
+   "Provinces; check eligibility with the local health authority.",
+   2
   ],
   [
    "What do you do in an emergency?",
-   "Call the emergency number without delay."
+   "Call the emergency number without delay.",
+   3
   ],
   [
    "Why ask about culture and routine?",
-   "Care that fits a person's life is safer and kinder."
+   "Care that fits a person's life is safer and kinder.",
+   7
   ],
   [
    "What do you do if you are unsure of a rule?",
-   "Ask the official body or a licensed professional and keep the answer in writing."
+   "Ask the official body or a licensed professional and keep the answer in writing.",
+   2
   ]
  ],
  "jobs": [

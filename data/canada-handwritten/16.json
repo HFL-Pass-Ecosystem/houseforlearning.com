@@ -138,43 +138,53 @@
  "quiz": [
   [
    "What is price per square foot?",
-   "Price divided by area."
+   "Price divided by area.",
+   1
   ],
   [
    "How is value found by income?",
-   "Net operating income divided by cap rate."
+   "Net operating income divided by cap rate.",
+   3
   ],
   [
    "Where are deposits held?",
-   "In a trust account."
+   "In a trust account.",
+   2
   ],
   [
    "Who may trade for others?",
-   "Licensed agents and brokers."
+   "Licensed agents and brokers.",
+   2
   ],
   [
    "Why stress test a deal?",
-   "To see if it survives a price fall."
+   "To see if it survives a price fall.",
+   4
   ],
   [
    "What must sellers disclose?",
-   "Known material facts."
+   "Known material facts.",
+   2
   ],
   [
    "Why keep records?",
-   "Rules require it and it protects you."
+   "Rules require it and it protects you.",
+   7
   ],
   [
    "What is a margin of safety?",
-   "Buffer between price and value."
+   "Buffer between price and value.",
+   7
   ],
   [
    "Why is fair housing important?",
-   "Discrimination is illegal."
+   "Discrimination is illegal.",
+   7
   ],
   [
    "What triggers no-go in the mock?",
-   "Negative margin."
+   "Negative margin.",
+   8
   ]
  ],
  "jobs": [

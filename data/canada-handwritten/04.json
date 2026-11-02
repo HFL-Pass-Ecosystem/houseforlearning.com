@@ -138,43 +138,53 @@
  "quiz": [
   [
    "What are the stages of company investing?",
-   "Seed, early and growth."
+   "Seed, early and growth.",
+   1
   ],
   [
    "Why test accuracy independently?",
-   "Company figures may come from its own favourable test set."
+   "Company figures may come from its own favourable test set.",
+   3
   ],
   [
    "Who regulates raising funds?",
-   "Provincial securities regulators."
+   "Provincial securities regulators.",
+   2
   ],
   [
    "What is due diligence?",
-   "Checking a company's claims and risks before investing."
+   "Checking a company's claims and risks before investing.",
+   3
   ],
   [
    "Why reserve follow-on money?",
-   "Good companies need later rounds."
+   "Good companies need later rounds.",
+   5
   ],
   [
    "Why do fees matter?",
-   "They reduce investor returns every year."
+   "They reduce investor returns every year.",
+   4
   ],
   [
    "Which kind of data does federal private-sector privacy law cover?",
-   "Personal information held by private organisations."
+   "Personal information held by private organisations.",
+   7
   ],
   [
    "What belongs in an investment policy?",
-   "Screens, conflicts and review steps."
+   "Screens, conflicts and review steps.",
+   7
   ],
   [
    "Why never promise returns?",
-   "Rules forbid it and results are uncertain."
+   "Rules forbid it and results are uncertain.",
+   2
   ],
   [
    "What separates luck from skill?",
-   "A written thesis tested against results."
+   "A written thesis tested against results.",
+   8
   ]
  ],
  "jobs": [

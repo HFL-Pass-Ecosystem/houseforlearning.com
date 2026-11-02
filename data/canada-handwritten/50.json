@@ -138,43 +138,53 @@
  "quiz": [
   [
    "Name two kinds of mobile service.",
-   "Fixing or setting up devices, and offering a service through a phone."
+   "Fixing or setting up devices, and offering a service through a phone.",
+   1
   ],
   [
    "Why get consent before a repair?",
-   "The phone holds private data and the owner must agree to the work."
+   "The phone holds private data and the owner must agree to the work.",
+   2
   ],
   [
    "What do you check before blaming a phone for fast battery drain?",
-   "Background apps, battery health, charger and cable."
+   "Background apps, battery health, charger and cable.",
+   2
   ],
   [
    "Why give a written estimate?",
-   "Consumer rules and trust; the customer knows the cost before work."
+   "Consumer rules and trust; the customer knows the cost before work.",
+   3
   ],
   [
    "Which level regulates telecom and radio equipment?",
-   "Federal; check the rule before selling or changing equipment."
+   "Federal; check the rule before selling or changing equipment.",
+   3
   ],
   [
    "What is two-step sign-in?",
-   "A second proof, such as a code, in addition to the password."
+   "A second proof, such as a code, in addition to the password.",
+   4
   ],
   [
    "What should you never ask a customer to share?",
-   "Their one-time codes or passwords."
+   "Their one-time codes or passwords.",
+   7
   ],
   [
    "How do you test a mobile page?",
-   "On two phones and with slow data."
+   "On two phones and with slow data.",
+   5
   ],
   [
    "How do you find break-even visits?",
-   "Fixed cost divided by margin per visit."
+   "Fixed cost divided by margin per visit.",
+   6
   ],
   [
    "What do you do with a damaged battery?",
-   "Do not use it; dispose of it by local e-waste rules."
+   "Do not use it; dispose of it by local e-waste rules.",
+   3
   ]
  ],
  "jobs": [

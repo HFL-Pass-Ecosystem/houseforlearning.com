@@ -138,43 +138,53 @@
  "quiz": [
   [
    "Name three problem families where quantum methods are studied.",
-   "Simulating molecules and materials, optimising or searching large option sets, and some cryptography."
+   "Simulating molecules and materials, optimising or searching large option sets, and some cryptography.",
+   1
   ],
   [
    "What does a 'shot' mean?",
-   "One run of a circuit ending in a measurement; many shots give counts."
+   "One run of a circuit ending in a measurement; many shots give counts.",
+   3
   ],
   [
    "How do you compute the hardware error rate?",
-   "Unexpected counts divided by total shots."
+   "Unexpected counts divided by total shots.",
+   3
   ],
   [
    "Why check export rules before sharing designs?",
-   "Strategic technology can need a federal permit to leave the country."
+   "Strategic technology can need a federal permit to leave the country.",
+   2
   ],
   [
    "Why re-run a surprising result?",
-   "To rule out noise or drift before reporting it."
+   "To rule out noise or drift before reporting it.",
+   5
   ],
   [
    "What should a pitch avoid?",
-   "Promising advantage you have not measured against the best classical method."
+   "Promising advantage you have not measured against the best classical method.",
+   6
   ],
   [
    "Why inventory long-life secrets now?",
-   "Data stolen today may be decrypted later by quantum computers."
+   "Data stolen today may be decrypted later by quantum computers.",
+   7
   ],
   [
    "What belongs in a run record?",
-   "Device, software version, calibration date, shots, seed and result."
+   "Device, software version, calibration date, shots, seed and result.",
+   5
   ],
   [
    "What is a no-regret first step for a client?",
-   "A short screen of their problems with a stop point."
+   "A short screen of their problems with a stop point.",
+   6
   ],
   [
    "What must a pilot agree before it starts?",
-   "Scope, deliverable and a stop rule."
+   "Scope, deliverable and a stop rule.",
+   8
   ]
  ],
  "jobs": [

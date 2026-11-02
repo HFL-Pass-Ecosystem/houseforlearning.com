@@ -138,43 +138,53 @@
  "quiz": [
   [
    "What is a mass balance?",
-   "Mass in equals mass out; gaps show leaks or errors."
+   "Mass in equals mass out; gaps show leaks or errors.",
+   3
   ],
   [
    "Why use calibrated meters?",
-   "Claims need trusted data."
+   "Claims need trusted data.",
+   5
   ],
   [
    "Who verifies reductions?",
-   "An approved third-party verifier."
+   "An approved third-party verifier.",
+   5
   ],
   [
    "What comes before building?",
-   "Permits."
+   "Permits.",
+   2
   ],
   [
    "How compute cost per tonne?",
-   "Annual cost divided by tonnes avoided."
+   "Annual cost divided by tonnes avoided.",
+   4
   ],
   [
    "What does the uptime figure measure?",
-   "Hours running divided by hours planned."
+   "Hours running divided by hours planned.",
+   5
   ],
   [
    "Why consult neighbours?",
-   "Trust is needed, and a permit may depend on community input; check the provincial rule."
+   "Trust is needed, and a permit may depend on community input; check the provincial rule.",
+   7
   ],
   [
    "What triggers a fix?",
-   "Uptime under 70%."
+   "Uptime under 70%.",
+   8
   ],
   [
    "Who must build and inspect pressure systems?",
-   "Certified welders and inspectors, following the technical safety code."
+   "Certified welders and inspectors, following the technical safety code.",
+   2
   ],
   [
    "What is payback?",
-   "Capital divided by yearly net gain."
+   "Capital divided by yearly net gain.",
+   4
   ]
  ],
  "jobs": [

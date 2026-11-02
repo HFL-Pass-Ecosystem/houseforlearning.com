@@ -138,43 +138,53 @@
  "quiz": [
   [
    "What is a deficiency?",
-   "A small fault found at the end that must be fixed."
+   "A small fault found at the end that must be fixed.",
+   1
   ],
   [
    "What does a scope say?",
-   "What work is included and what is not."
+   "What work is included and what is not.",
+   2
   ],
   [
    "What is a change order?",
-   "A written, priced and agreed change to the work."
+   "A written, priced and agreed change to the work.",
+   2
   ],
   [
    "How can you check a frame is square?",
-   "Measure both diagonals; they should match."
+   "Measure both diagonals; they should match.",
+   3
   ],
   [
    "Why call before you dig?",
-   "To locate buried lines and avoid injury and damage."
+   "To locate buried lines and avoid injury and damage.",
+   3
   ],
   [
    "Who sets building codes in Canada?",
-   "The provinces, based on national model codes; the city applies them."
+   "The provinces, based on national model codes; the city applies them.",
+   4
   ],
   [
    "What does a lien law do?",
-   "Lets unpaid workers or suppliers claim against a property; rules differ by province."
+   "Lets unpaid workers or suppliers claim against a property; rules differ by province.",
+   4
   ],
   [
    "What goes into an estimate?",
-   "Materials, labour, equipment, permits, waste, travel and margin."
+   "Materials, labour, equipment, permits, waste, travel and margin.",
+   5
   ],
   [
    "Why inspect before covering work?",
-   "Hidden faults are costly to fix later."
+   "Hidden faults are costly to fix later.",
+   6
   ],
   [
    "What do you do if you do not know a rule?",
-   "Ask the municipality or provincial authority and keep the answer in writing."
+   "Ask the municipality or provincial authority and keep the answer in writing.",
+   4
   ]
  ],
  "jobs": [

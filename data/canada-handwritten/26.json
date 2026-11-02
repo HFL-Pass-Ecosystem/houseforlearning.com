@@ -138,43 +138,53 @@
  "quiz": [
   [
    "What is a flip?",
-   "Buying an item and reselling it for more."
+   "Buying an item and reselling it for more.",
+   1
   ],
   [
    "What is sell-through?",
-   "The share of listed items that sell."
+   "The share of listed items that sell.",
+   1
   ],
   [
    "What do you check before buying?",
-   "Damage, missing parts, working order and fakes."
+   "Damage, missing parts, working order and fakes.",
+   2
   ],
   [
    "Why check recall lists?",
-   "Some used goods are unsafe or cannot be sold."
+   "Some used goods are unsafe or cannot be sold.",
+   4
   ],
   [
    "How do you compute profit?",
-   "Sale price minus all costs."
+   "Sale price minus all costs.",
+   5
   ],
   [
    "Why track profit per hour?",
-   "To see if your time is worth it."
+   "To see if your time is worth it.",
+   5
   ],
   [
    "What do you do with items that do not sell?",
-   "Re-price or stop buying that type."
+   "Re-price or stop buying that type.",
+   6
   ],
   [
    "How do you meet buyers safely?",
-   "In a busy public place in daytime."
+   "In a busy public place in daytime.",
+   7
   ],
   [
    "Who sets garage sale rules?",
-   "Cities; check the current rule with the local authority."
+   "Cities; check the current rule with the local authority.",
+   4
   ],
   [
    "What do you do when unsure about a rule?",
-   "Check the current rule with the local authority and keep the answer in writing."
+   "Check the current rule with the local authority and keep the answer in writing.",
+   4
   ]
  ],
  "jobs": [

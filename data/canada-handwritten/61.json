@@ -138,43 +138,53 @@
  "quiz": [
   [
    "Name four main parts of a computer.",
-   "Processor, memory, storage and mainboard (also power supply, cooling, case)."
+   "Processor, memory, storage and mainboard (also power supply, cooling, case).",
+   1
   ],
   [
    "Why use an anti-static strap?",
-   "Static can damage chips and boards."
+   "Static can damage chips and boards.",
+   2
   ],
   [
    "What is a first article check?",
-   "A full test of the first unit before the batch continues."
+   "A full test of the first unit before the batch continues.",
+   4
   ],
   [
    "How do you compute yield?",
-   "Good units divided by started units."
+   "Good units divided by started units.",
+   5
   ],
   [
    "How do you find a reorder point?",
-   "Daily use times lead time plus safety stock."
+   "Daily use times lead time plus safety stock.",
+   6
   ],
   [
    "Why record serial and batch numbers?",
-   "So a bad unit or bad lot can be traced."
+   "So a bad unit or bad lot can be traced.",
+   6
   ],
   [
    "What may you need before selling a radio-enabled product?",
-   "Federal radio approval; check the current rule with the regulator."
+   "Federal radio approval; check the current rule with the regulator.",
+   3
   ],
   [
    "What is break-even volume?",
-   "Fixed cost divided by margin per unit, rounded up to whole units."
+   "Fixed cost divided by margin per unit, rounded up to whole units.",
+   7
   ],
   [
    "What should you do with electronic waste?",
-   "Follow the take-back and disposal rule in your province."
+   "Follow the take-back and disposal rule in your province.",
+   3
   ],
   [
    "What should you do if you are unsure of a rule?",
-   "Ask the official body or a licensed adviser and keep the answer in writing."
+   "Ask the official body or a licensed adviser and keep the answer in writing.",
+   3
   ]
  ],
  "jobs": [

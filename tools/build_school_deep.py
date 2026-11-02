@@ -437,15 +437,22 @@ def modules(rows, kind, bd):
     return out
 
 def checks(subj, kind, mods, bd, plan_lbl):
+    qs = _checks(subj, kind, mods, bd, plan_lbl)
+    if subj == 'ISL':
+        import re
+        qs = [(q, re.sub(r' \(Covered in[^)]*\)', '', a)) for q, a in qs]
+    return qs
+
+def _checks(subj, kind, mods, bd, plan_lbl):
     qs = []
     for m in mods[:6]:
         qs.append((f"Unit {m['n']} ({m['title']}): show that you can {m['outcome']}. What are the first and last step you used?",
-                   f"Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: {bd['std']}."))
+                   f"Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: {bd['std']}. (Covered in unit {m['n']}: {m['title']}.)"))
     vs = {m['bloom'] for m in mods}
-    qs.append((f"Which action verb starts the outcome of Unit 1 ({mods[0]['title']}), and at which Bloom level is it?", f"'{mods[0]['outcome'].split()[0]}', at the {mods[0]['bloom']} level."))
-    qs.append(("When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?", "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36."))
-    qs.append((f"In which weeks does Unit {mods[-1]['n']} ({mods[-1]['title']}) run?", f"Weeks {mods[-1]['weeks'][0]} to {mods[-1]['weeks'][1]}."))
-    qs.append(("What evidence do you keep for each unit, and why?", f"{bd['ev'][:1].upper() + bd['ev'][1:]}. It shows what you can really do and lets a teacher check it against the standard."))
+    qs.append((f"Which action verb starts the outcome of Unit 1 ({mods[0]['title']}), and at which Bloom level is it?", f"'{mods[0]['outcome'].split()[0]}', at the {mods[0]['bloom']} level. (Covered in unit {mods[0]['n']}: {mods[0]['title']}.)"))
+    qs.append(("When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?", "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36. (Covered in: Assessment plan, near the top of this page.)"))
+    qs.append((f"In which weeks does Unit {mods[-1]['n']} ({mods[-1]['title']}) run?", f"Weeks {mods[-1]['weeks'][0]} to {mods[-1]['weeks'][1]}. (Covered in unit {mods[-1]['n']}: {mods[-1]['title']}.)"))
+    qs.append(("What evidence do you keep for each unit, and why?", f"{bd['ev'][:1].upper() + bd['ev'][1:]}. It shows what you can really do and lets a teacher check it against the standard. (Covered in: How you are checked, further down this page.)"))
     return qs[:10]
 
 def build_data(p, s, rs):

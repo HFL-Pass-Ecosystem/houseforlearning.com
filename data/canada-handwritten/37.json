@@ -138,43 +138,53 @@
  "quiz": [
   [
    "What is front of house?",
-   "Staff who serve guests."
+   "Staff who serve guests.",
+   1
   ],
   [
    "What is occupancy percent?",
-   "Rooms used divided by rooms available."
+   "Rooms used divided by rooms available.",
+   1
   ],
   [
    "Why keep raw and cooked food apart?",
-   "To stop harmful germs spreading."
+   "To stop harmful germs spreading.",
+   3
   ],
   [
    "Who do you ask about food handler and inspection rules?",
-   "The local public health authority."
+   "The local public health authority.",
+   3
   ],
   [
    "What does selling alcohol need?",
-   "A provincial licence and trained staff; check local rules."
+   "A provincial licence and trained staff; check local rules.",
+   4
   ],
   [
    "How is food cost percent worked out?",
-   "Ingredient cost per portion divided by selling price."
+   "Ingredient cost per portion divided by selling price.",
+   5
   ],
   [
    "What are four steps to handle a complaint?",
-   "Listen, say sorry, fix, follow up."
+   "Listen, say sorry, fix, follow up.",
+   6
   ],
   [
    "Why track waste?",
-   "It shows lost money and where to improve."
+   "It shows lost money and where to improve.",
+   6
   ],
   [
    "What goes in a pilot stop rule?",
-   "A measure and a level that triggers a change or stop."
+   "A measure and a level that triggers a change or stop.",
+   8
   ],
   [
    "What do you do if you are unsure of a rule?",
-   "Ask the official office and keep the answer in writing."
+   "Ask the official office and keep the answer in writing.",
+   8
   ]
  ],
  "jobs": [

@@ -220,16 +220,16 @@ def course(p):
          "Write a 12-month plan with three milestones, a budget and who helps you."],
         f"Stop rule: 'If fewer than {max(be//2,3)} {unit}s are sold in 60 days, we stop and write lessons.' Result at day 60: {be} {unit}s; decision: grow in steps of 25%.",
         "Run the pilot, write the review and the 12-month plan, and present to a panel of three.", "Pilot has measures and a stop rule; review decides with evidence; panel can repeat the plan."))
-    QZ = [("What belongs in a one-line value statement?", "Who it is for, the need, the result and how it differs from what they do now."),
-          ("Why make a rules table with a date and an official source?", "Rules change and differ by province; a dated source shows what you checked and when."),
-          f['qa'],
-          ("How do you find break-even volume?", "Fixed cost divided by margin per unit."),
-          ("What is margin percent?", "Margin per unit divided by price."),
-          ("Name the three measures on a weekly one-page check.", "Volume, quality and cash."),
-          ("Which funnel step do you improve first?", "The weakest step, found from the conversion numbers."),
-          ("What two things must a privacy note state?", "What data you collect and why, and how you protect and delete it."),
-          ("What must be agreed before a pilot starts?", "Scope, length, measures and a stop rule."),
-          ("What is the safest response when you cannot find a rule for your case?", "Ask the official body or a licensed adviser and keep their answer in writing.")]
+    QZ = [("What belongs in a one-line value statement?", "Who it is for, the need, the result and how it differs from what they do now.", 1),
+          ("Why make a rules table with a date and an official source?", "Rules change and differ by province; a dated source shows what you checked and when.", 2),
+          f['qa'] + (3,),
+          ("How do you find break-even volume?", "Fixed cost divided by margin per unit.", 4),
+          ("What is margin percent?", "Margin per unit divided by price.", 4),
+          ("Name the three measures on a weekly one-page check.", "Volume, quality and cash.", 5),
+          ("Which funnel step do you improve first?", "The weakest step, found from the conversion numbers.", 6),
+          ("What two things must a privacy note state?", "What data you collect and why, and how you protect and delete it.", 7),
+          ("What must be agreed before a pilot starts?", "Scope, length, measures and a stop rule.", 8),
+          ("What is the safest response when you cannot find a rule for your case?", "Ask the official body or a licensed adviser and keep their answer in writing.", 2)]
     RUB = [("Evidence quality", "Claims without records", "Dated records for claims", "Every claim linked to a dated source or measure"),
            ("Numbers and units", "Missing units or currency", "Correct with units", "Correct with a check and what-if cases"),
            ("Rules and safety", "Rules guessed", "Rules named with enforcers", "Rules confirmed in writing with the official body"),
@@ -247,7 +247,13 @@ def course(p):
     for i, (mt, bl, h, intro, pts, ex, act, std) in enumerate(M, 1):
         mods += (f'<details class="mod" {"open" if i==1 else ""}><summary><span class="mn">Module {i}</span> {e(mt)} <span class="pill">{h} h</span><span class="pill bz">{bl}</span></summary><p>{e(intro)}</p><ul>' + ''.join(f'<li>{e(x)}</li>' for x in pts) + '</ul>'
                  f'<div class="evi"><strong>Worked example.</strong> {e(ex)}</div><p><strong>Activity.</strong> {e(act)}</p><p><strong>Standard to meet.</strong> {e(std)}</p></details>')
-    quiz = ''.join(f'<details class="mod"><summary>Q{i+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a)}</p></details>' for i, (q, a) in enumerate(QZ))
+    def tag(mn):
+        # Derived from the module data: number, title and standard come from M, never typed by hand.
+        if mn:
+            mt_, std_ = M[mn - 1][0], M[mn - 1][7]
+            return f' (Covered in module {mn}: {mt_}. To pass that module: {std_.rstrip().rstrip(".")}.)'
+        return ' (Background fact, not taught in a single module. Check it with your mentor and note the source in your records; see the "Rules and safety" and "Evidence quality" rows of the marking rubric.)'
+    quiz = ''.join(f'<details class="mod"><summary>Q{i+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a.rstrip() + tag(mn))}</p></details>' for i, (q, a, mn) in enumerate(QZ))
     rub = ('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>' + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(c)}</td><td>{e(d)}</td></tr>' for a, b, c, d in RUB) + '</tbody></table></div>')
     lad = ('<div class="scroll-x"><table class="ws-table"><caption>Seven levels, L1 to L7</caption><thead><tr><th>Level</th><th>Role</th><th>You can</th><th>Notes and evidence</th></tr></thead><tbody>' +
            ''.join(f'<tr><th scope="row">L{i+1}</th><td>{e(f["roles"][i])}</td><td>{LADDER_VERB[i]}: {e(LADDER_DO[i].format(t=tl))}</td><td>{e(LADDER_NOTE[i])}</td></tr>' for i in range(7)) + '</tbody></table></div>')

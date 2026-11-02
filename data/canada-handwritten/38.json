@@ -138,43 +138,53 @@
  "quiz": [
   [
    "What is a SKU?",
-   "One exact item, such as a size and colour of a product."
+   "One exact item, such as a size and colour of a product.",
+   1
   ],
   [
    "What is lead time?",
-   "Days between placing an order and getting the stock."
+   "Days between placing an order and getting the stock.",
+   2
   ],
   [
    "What is margin percent?",
-   "Margin per unit divided by price."
+   "Margin per unit divided by price.",
+   5
   ],
   [
    "What is a reorder point?",
-   "Daily sales times lead time plus a safety amount."
+   "Daily sales times lead time plus a safety amount.",
+   5
   ],
   [
    "Why count stock on arrival?",
-   "To catch missing or damaged items before you pay or sell."
+   "To catch missing or damaged items before you pay or sell.",
+   3
   ],
   [
    "Who sets return and refund rules?",
-   "Mainly the provinces under consumer protection law; check yours."
+   "Mainly the provinces under consumer protection law; check yours.",
+   4
   ],
   [
    "What can packaged goods need in Canada?",
-   "Labels in English and French for many products, and extra rules for some; check the current rules."
+   "Labels in English and French for many products, and extra rules for some; check the current rules.",
+   4
   ],
   [
    "Why track returns by reason?",
-   "To fix the most common cause."
+   "To fix the most common cause.",
+   6
   ],
   [
    "What does a wholesale price list include?",
-   "Prices, minimum order, payment terms and delivery."
+   "Prices, minimum order, payment terms and delivery.",
+   7
   ],
   [
    "What do you do when you cannot find a rule?",
-   "Ask the official office and keep the answer in writing."
+   "Ask the official office and keep the answer in writing.",
+   4
   ]
  ],
  "jobs": [
