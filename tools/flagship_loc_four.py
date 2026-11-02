@@ -151,9 +151,21 @@ def quiz(L):
      ('Name three items in a licence table.', 'Issuer, cost, time, and the date checked (any three).'),
      ('Name the five lines of a privacy notice.', 'Who we are, what we collect, why, who sees it, how to ask for a copy, correction or removal.'),
      ('How do you test an offer?', 'Show it to about 20 real people through two channels and count enquiries and orders.'),
-     (f'Price {L["cur"]} {p}, unit cost {v}, fixed {f:,}. What is the contribution per unit?', f'{p} - {v} = {cm}.'),
-     (f'With the same numbers, what is break-even per month?', f'{f:,} / {cm} = {f/cm:.1f}, rounded up to {bu}.'),
+     (f'Price {L["cur"]} {p:,}, unit cost {v:,}, fixed {f:,}. What is the contribution per unit?', f'{p:,} - {v:,} = {cm:,}.'),
+     (f'With the same numbers, what is break-even per month?', f'{f:,} / {cm:,} = {f/cm:.1f}, rounded up to {bu:,}.'),
      ('What goes on a role card?', 'Tasks, hours, pay, trial period, review date and one measure of success.')]
+
+# which module each of the ten checks belongs to (1-based), from the question content
+QMOD = [1, 2, 3, 3, 3, 4, 5, 6, 6, 7]
+def tag_quiz(q, mods, qmap=None):
+    """Append '(Covered in module N: title. To pass that module: standard.)' to each model answer."""
+    qm = list(QMOD)
+    for i, n in (qmap or {}).items(): qm[i] = n
+    out = []
+    for (a, b), n in zip(q, qm):
+        m = mods[n - 1]
+        out.append((a, b.rstrip() + f' (Covered in module {n}: {m[0]}. To pass that module: {m[7].rstrip().rstrip(".")}.)'))
+    return out
 
 def rubric(L):
     return [('Local fit','Generic page','Local facts with sources','Local facts, sources, dates and two local readers'),
@@ -184,7 +196,7 @@ def build(L):
         mods += (f'<details class="mod" {"open" if i == 1 else ""}><summary><span class="mn">Module {i}</span> {e(t)} <span class="pill">{h} h</span><span class="pill bz">{bl}</span></summary><p>{e(intro)}</p><ul>'
                  + ''.join(f'<li>{e(x)}</li>' for x in pts) + '</ul>'
                  f'<div class="evi"><strong>Worked example.</strong> {e(ex)}</div><p><strong>Activity.</strong> {e(act)}</p><p><strong>Standard to meet.</strong> {e(std)}</p></details>')
-    qz = ''.join(f'<details class="mod"><summary>Q{i+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a)}</p></details>' for i, (q, a) in enumerate(quiz(L)))
+    qz = ''.join(f'<details class="mod"><summary>Q{i+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a)}</p></details>' for i, (q, a) in enumerate(tag_quiz(quiz(L), modules(L))))
     rub = ('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric (Not yet, Meets, Exceeds)</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>'
            + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(m)}</td><td>{e(d)}</td></tr>' for a, b, m, d in rubric(L)) + '</tbody></table></div>')
     jobs = '<ul>' + ''.join(f'<li><strong>{e(a)}.</strong> {e(b)}.</li>' for a, b in L['jobs']) + '</ul>'
