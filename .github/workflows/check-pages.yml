@@ -1,0 +1,23 @@
+# Checks every pull request into claude/hfl-courses: the pages must match the builders, and the course audit must show no new gaps.
+# Read-only. No deploy, no secrets.
+name: Check pages
+
+on:
+  pull_request:
+    branches: [claude/hfl-courses]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  rebuild-and-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Rebuild everything and audit
+        run: python3 tools/ci_check.py
