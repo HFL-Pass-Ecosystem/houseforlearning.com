@@ -49,7 +49,7 @@ Present idea, method, safety or compliance notes, cost sheet, feedback and decis
 ## Lesson 9 - Regeneration (STUDY, 5 h): Check and next step
 1. Take the 10-question check. Pass mark 70% (draft).
 2. Write a 90-day plan and pick a follow-on course.
-3. Contribute back a template, checklist or worked example. Accepted items earn credits (rates are placeholders until the owner fixes the revenue plan).
+3. Contribute back a template, checklist or worked example. Accepted items earn credits (rates will be confirmed before opening).
 
 ## Check questions (draft, 10)
 1. Response time or fix time: what is the difference?
