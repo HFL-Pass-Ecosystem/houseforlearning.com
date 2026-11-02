@@ -5,6 +5,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import build_full_courses as B
 from uae_data import T
 from uae_pathways import P
+from uae_deep import D
 e = html.escape
 RUB = [("Evidence quality","Claims without records","Records for most claims","Every claim linked to a dated record"),
  ("Numbers and units","Missing units or currency","Correct, units shown (AED)","Correct, with a check calculation"),
@@ -93,6 +94,7 @@ def course(t):
        "Give two peers one strength and one fix each."],
       f"Result: cost per {unit} fell from AED {m(cost)} to AED {m(cost*0.94)}; repeat users 6 of 9. Decision: scale to a second site; keep price.",
       "Present to a review room and collect one written comment from a user.","Decision backed by numbers; two peer reviews given."))
+    M.extend(D.get(slug,[]))
     Q=[(f"Name the main hazards in this work.", haz.capitalize()+"."),
        ("Why ask your local authority about licences?", "Rules differ by emirate and activity; written answers protect you."),
        (f"Gain per {unit} if price is AED {m(price)} and cost is AED {m(cost)}?", f"AED {m(unitgain)}."),
@@ -119,7 +121,7 @@ def build(c):
       '<ul class="blm">'+''.join(f'<li><span class="bz">{b}</span> {e(t)}</li>' for b,t in c['outcomes'])+'</ul>'
       f'<h3 class="ws-h3">Task, condition and standard</h3><div class="tcs"><div><h4>Task</h4><p>{e(c["task"])}</p></div><div><h4>Condition</h4><p>{e(c["cond"])}</p></div><div><h4>Standard</h4><p>{e(c["std"])}</p></div></div>'
       f'<p class="ws-note">{e(c["safety"])}</p><p><strong>Requirements:</strong> none. Currency: AED on every number.</p>')
-    body=(about+B.sec('alt','md','lesson by lesson',f'8 modules with worked examples ({total} h guided)',mods)
+    body=(about+B.sec('alt','md','lesson by lesson',f'{len(c["M"])} modules with worked examples ({total} h guided)',mods)
       +B.sec('','as','assessment','How you are checked',f'<p>Evidence: your records, numbers and reflections. Two peers and one mentor mark it with this rubric. Pass: no criterion at "Not yet" and at least 70% on the check.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{quiz}')
       +B.sec('alt','ld','levels L1 to L7','Where this sits on the ladder',lad)
       +B.sec('','jb','jobs this leads to','Where this takes you','<ul>'+''.join(f'<li>{e(j)}</li>' for j in c['jobs'])+'</ul>')
