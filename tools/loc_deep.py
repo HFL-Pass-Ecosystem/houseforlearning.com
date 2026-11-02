@@ -100,8 +100,17 @@ import re as _re
 _RULE = _re.compile(r'\b(tax|taxes|vat|duty|duties|licen[cs]e|licen[cs]es|permit|permits|law|laws|legal|regulat\w*|rule|rules|registration|compliance|customs|data protection|privacy|labour law|work permit)\b', _re.I)
 def _expert(pt):
     return pt if (not _RULE.search(pt) or 'local expert' in pt) else pt.rstrip() + (' ' if pt.rstrip().endswith('.') else '. ') + 'Check with a local expert.'
+# Price level per place: sample amounts in the sector data are written once as '{c} N' in a base unit (about one US dollar)
+# and scaled here by a whole-number factor so sums stay exact. ky 1 (Cayman prices are high), mx 20, hk 8, ge 3.
+PRICE_LEVEL = {'ky': 1, 'mx': 20, 'hk': 8, 'ge': 3}
+_AMT = _re.compile(r'\{c\} ?(\d[\d,]*)(\.\d+)?')
+def _scale(txt, c, k):
+    def f(m):
+        v = float(m.group(1).replace(',', '') + (m.group(2) or '')) * k
+        return f'{c} {v:,.0f}' if v == int(v) else f'{c} {v:,.2f}'
+    return _AMT.sub(f, txt)
 def build(L, idx, sl, topic, rows):
-    L = copy.deepcopy(L); c = L['cur'].split(' or ')[0]
+    L = copy.deepcopy(L); c = L['cur'].split(' or ')[0]; k = PRICE_LEVEL.get(L['k'], 1)
     L['price'], L['var'], L['fixed'] = LE.scaled(L, idx)
     L['item'] = f'a small {topic} business'
     mods = F.modules(L)
@@ -109,10 +118,10 @@ def build(L, idx, sl, topic, rows):
     out = []
     for j, m in enumerate(mods):
         pt, ex = rows[j]
-        out.append((m[0], m[1], m[2], m[3], [_expert(pt.replace('{c}', c))] + [_expert(x) for x in m[4]], ex.replace('{c}', c) + ' | Local example: ' + m[5], m[6], m[7]))
+        out.append((m[0], m[1], m[2], m[3], [_expert(_scale(pt, c, k).replace('{c}', c))] + [_expert(x) for x in m[4]], _scale(ex, c, k).replace('{c}', c) + ' | Local example: ' + m[5], m[6], m[7]))
     mh = ''.join(f'<details class="mod" {"open" if j==0 else ""}><summary><span class="mn">Module {j+1}</span> {e(m[0])} <span class="pill">{m[2]} h</span><span class="pill bz">{m[1]}</span></summary><p>{e(m[3])}</p><ul>' + ''.join(f'<li>{e(x)}</li>' for x in m[4]) + f'</ul><div class="evi"><strong>Worked example.</strong> {e(m[5])}</div><p><strong>Activity.</strong> {e(m[6])}</p><p><strong>Standard to meet.</strong> {e(m[7])}</p></details>' for j, m in enumerate(out))
-    q = F.quiz(L); q[0] = (f'What is the first move for a {topic} business in {L["name"]}?', rows[0][0].replace('{c}', c))
-    q[1] = ('Which model comparison belongs to this sector?', rows[1][0].replace('{c}', c))
+    q = F.quiz(L); q[0] = (f'What is the first move for a {topic} business in {L["name"]}?', _scale(rows[0][0], c, k).replace('{c}', c))
+    q[1] = ('Which model comparison belongs to this sector?', _scale(rows[1][0], c, k).replace('{c}', c))
     qz = ''.join(f'<details class="mod"><summary>Q{j+1}. {e(a)}</summary><p><strong>Model answer:</strong> {e(b)}</p></details>' for j, (a, b) in enumerate(q))
     rub = '<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>' + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(x)}</td><td>{e(d)}</td></tr>' for a, b, x, d in F.rubric(L)) + '</tbody></table></div>'
     jobs = '<ul>' + ''.join(f'<li><strong>{e(a)}.</strong> {e(b)}.</li>' for a, b in [(f'{topic} assistant', f'supports a small {topic} business in {L["name"]}')] + L['jobs'][:5]) + '</ul>'
