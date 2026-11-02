@@ -172,7 +172,9 @@ def slug(t, n): return f'learn-ca-{n:02d}-' + re.sub(r'[^a-z0-9]+', '-', t.lower
 def course(p):
     t, n = p['title'], p['n']; tl = t[0].lower() + t[1:] if not t.isupper() else t
     k = family(t); f = F[k]
-    price, cost, vol, unit = f['price']
+    HW = ROOT / 'data/canada-handwritten' / f'{n:02d}.json'
+    hw = json.load(open(HW)) if HW.exists() else {}
+    price, cost, vol, unit = hw.get('price', f['price'])
     margin = price - cost; pct = round(100 * margin / price) if price else 0
     fixed = round(vol * margin * 0.6); be = round(fixed / margin) if margin > 0 else 0
     M = []
@@ -233,6 +235,13 @@ def course(p):
            ("Rules and safety", "Rules guessed", "Rules named with enforcers", "Rules confirmed in writing with the official body"),
            ("User focus", "No real user", "Five users heard", "Changes made from user feedback"),
            ("Reflection", "No lessons", "Three lessons", "Lessons turned into a dated plan")]
+    for k_, v_ in hw.get('mods', {}).items():
+        i_ = int(k_) - 1; o = list(M[i_])
+        for fld, ix in (('title', 0), ('intro', 3), ('pts', 4), ('ex', 5), ('act', 6), ('std', 7)):
+            if fld in v_: o[ix] = v_[fld]
+        M[i_] = tuple(o)
+    if hw.get('quiz'): QZ = hw['quiz']
+    if hw.get('jobs'): f = dict(f, jobs=hw['jobs'])
     hours = sum(m[2] for m in M)
     mods = ''
     for i, (mt, bl, h, intro, pts, ex, act, std) in enumerate(M, 1):
