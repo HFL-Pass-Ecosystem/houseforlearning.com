@@ -5,7 +5,7 @@
 "modules": [
 {"title": "What happens in a fault","bloom": "Understand: Explain","minutes": 15,
 "intro": "When a breaker opens a large fault, an arc forms inside it. The arc makes very hot gas, and that gas needs a path out, away from live parts.",
-"points": ["The arc heats the air and makes ionised gas and metal vapour.","Vents let this gas escape away from live parts.","If the gas stays near live parts, the arc can restart outside the breaker."],
+"points": ["The arc heats the air and makes ionised (electrically charged) gas and metal vapour.","Vents let this gas escape away from live parts.","If the gas stays near live parts, the arc can restart outside the breaker."],
 "example": "Picture a fault that opens in 0.02 s. In that short time the arc inside the breaker heats a small volume of air, and the pressure rises sharply. With open vents, the hot gas leaves through the top in that same instant. With a blocked vent, the gas has nowhere to go, so it pushes toward the sides and the connections. If a bare bar sits 20 mm from the vent, hot conductive gas can bridge to it. So a clear vent with a gap protects the bar. Times and distances are illustrations only.",
 "activity": "Draw a breaker with its vents on top and a bare bar near them. Mark where the gas goes with the vents open and with the vents blocked.",
 "standard": "Learner explains in plain words why vents exist and what happens if they are blocked."},
@@ -24,7 +24,7 @@
 {"title": "Alternatives need proof","bloom": "Evaluate: Judge","minutes": 15,
 "intro": "Sometimes a customer wants a tighter layout than the sheet allows. The answer is not opinion. It must be shown by test.",
 "points": ["A layout other than the maker's must be proved by test, not by judgement on the day.","Without proof, keep to the sheet.","Record who approved the arrangement and on what evidence."],
-"example": "A request asks to cut the 60 mm clearance to 40 mm to fit one extra breaker. That saves 20 mm per row, which is one third of the clearance. A fitter says it looks fine. Looks fine is not proof, so the answer is no unless a test report for that exact arrangement exists. With a report covering 40 mm for that breaker and fault level, the change can go to the designer for approval. Without it, add the breaker in a new row instead. The distances are examples.",
+"example": "A request asks to cut the 60 mm clearance to 40 mm to fit one extra breaker. That saves 20 mm per row, which is one third of the clearance. A fitter says it \"looks fine\". That is not proof, so the answer is no unless a test report for that exact arrangement exists. With a report covering 40 mm for that breaker and fault level, the change can go to the designer for approval. Without it, add the breaker in a new row instead. The distances are examples.",
 "activity": "Write a short reply to a customer asking to shrink a clearance. Say no or yes, give the reason, and say what evidence would change the answer.",
 "standard": "Learner declines unproven layouts, names the evidence needed and records the decision."}
 ],
