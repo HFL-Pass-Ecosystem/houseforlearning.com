@@ -68,6 +68,7 @@ D = {
 }
 from brazil_deep_1 import DEEP as _D1
 from brazil_deep_2 import DEEP as _D2
+from brazil_cases import CASES
 DEEP = {**_D1, **_D2}
 assert set(DEEP) == set(D), set(D) ^ set(DEEP)
 assert set(D) == set(TOPICS), (set(TOPICS) - set(D), set(D) - set(TOPICS))
@@ -230,6 +231,7 @@ def build(n, i):
         '<div><h4>Standard</h4><p>Every module standard is met; all claims are true and backed by records; peers and a mentor mark the evidence \'Meets\' or better.</p></div></div>'
         '<p><strong>Who it is for:</strong> students, graduates, career changers, owners, workers and returners. <strong>Requirements:</strong> none. <strong>Materials:</strong> lesson text, templates, tracker, rubric, check with answers.</p>')
     body = (about + B.sec('alt', 'md', 'lesson by lesson', '8 modules with worked examples', mh)
+        + B.sec('', 'cs', 'case study', 'A case to work through', f'<div class="evi"><p><strong>Situation.</strong> {e(CASES[n][0])}</p><p><strong>Task.</strong> Say what you would do first, next and last, and what record you would keep.</p><p><strong>Model answer.</strong> {e(CASES[n][1])}</p></div>')
         + B.sec('', 'as', 'assessment', 'How you are checked', f'<p>Evidence: customer file, compliance table, offer card, procedures, risk register, role cards, money table, 90-day plan. Mentor and peers mark it with this rubric. Pass: no criterion at \'Not yet\'.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{qz}')
         + B.sec('alt', 'ld', 'levels L1 to L7', 'Where this sits on the ladder', lad)
         + B.sec('', 'lc', 'ten locations and global', 'Your place', '<p>Local rules change licences, taxes, data duties and customer rights. This course is written for Sao Paulo. Check the current official text for your own place.</p>'
