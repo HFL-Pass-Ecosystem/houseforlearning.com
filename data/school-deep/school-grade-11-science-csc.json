@@ -50,7 +50,7 @@
     "Use it: store and process data with Python structures. Save your work in a named file or folder.",
     "Test and fix: run it, find one fault, correct it, and note what you changed."
    ],
-   "example": "Model run for 'Lists, tuples and dictionaries'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "example": "Solved: marks = [70, 85, 90]; marks.append(60). d = {'Sara': 85}; d['Sara'] gives 85. A tuple such as (1, 2) cannot change. Method: Model run for 'Lists, tuples and dictionaries'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Store and process data with Python structures: at least 70 percent on an exam-style task, with the method shown."
   },
