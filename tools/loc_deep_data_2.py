@@ -11,7 +11,7 @@ S_2 = [
 ('minority-businesses', 'Minority Businesses', [
 ('Start with one need in your own community that you know well and can serve better than others.', 'Talk to 15 neighbours; 9 name the same gap; write it as one sentence.'),
 ('Compare three models: sole trader, shared co-operative, or supplier to larger firms.', 'Sole trader {c} 500 start-up, co-op {c} 200 each from 5 members, supplier needs {c} 2000 stock: compare risk and control.'),
-('List the licences, tax steps and fair-treatment rules that apply to you and to supplier schemes; ask a local adviser.', 'Check list: business registration, tax number, local permit, supplier-scheme form; date each item.'),
+('List the licences, any tax steps and fair-treatment rules that apply to you and to supplier schemes; ask a local adviser.', 'Check list: business registration, any tax number, local permit, supplier-scheme form; date each item.'),
 ('Protect customer and owner data; share only what a form requires, and keep a copy of what you sent.', 'Data sheet: who holds which document, where it is stored, who can open it.'),
 ('Show proof beyond identity: a sample, a reference and a clear result for a buyer.', 'Case: delivered 3 orders on time for one buyer; buyer writes 2 lines of feedback.'),
 ('Price on cost plus a fair margin and keep a cash buffer.', 'Costs {c} 700 per month, 3 months buffer {c} 2100; 35 orders at {c} 30 earn {c} 1050, leaving {c} 350 profit.'),
@@ -65,7 +65,7 @@ S_2 = [
 ('grow-meat-in-a-lab', 'Grow Meat In A Lab', [
 ('Plan on paper first: one product, such as a mince blend, and one question to answer with partners.', 'Question: can a pilot make 10 kg at a cost per kg we can plan around?'),
 ('Compare three models: own lab, contract with a licensed lab, or sell ingredients to others.', 'Own lab {c} 200000, contract lab {c} 300 per kg, ingredient sales {c} 50 per kg: compare capital and risk.'),
-('Check food safety and novel food approval rules; this stage is planning only and a licensed firm runs production.', 'Rules table: novel food route, label rule, plant approval, tasting rule, dates.'),
+('Check food safety and approval rules for new foods; this stage is planning only and a licensed firm runs production.', 'Rules table: new-food route, label rule, plant approval, tasting rule, dates.'),
 ('Plan to trace cell source, batches and tests; keep records open to inspectors.', 'Trace sheet: cell line, batch, test, date, signer.'),
 ('Plan proof with a taste panel and an open lab report, run by a licensed partner.', 'Panel plan: 30 tasters, 5 point score, target 3.5 or above.'),
 ('Work out cost per kg and the price gap to normal meat.', 'Media {c} 120, energy {c} 60, labour {c} 70, other {c} 50: cost {c} 300 per kg; market price {c} 20: gap {c} 280.'),
@@ -74,7 +74,7 @@ S_2 = [
 ('virtual-event-planning-platform', 'Virtual Event Planning Platform', [
 ('Choose one event type, such as training days or product demos, and one buyer group.', 'Interview 10 organisers; 6 plan 1 event per month; pick that group.'),
 ('Compare three models: per event fee, monthly subscription, or full service with a producer.', 'Per event {c} 200, subscription {c} 150 per month, full service {c} 600 per event: compare by events per month.'),
-('Check privacy, recording consent, ticket terms and tax rules for online sales.', 'Check list: consent banner, recording notice, refund terms, tax step, dates.'),
+('Check privacy, recording consent, ticket terms and any tax rules for online sales.', 'Check list: consent banner, recording notice, refund terms, any tax step, dates.'),
 ('Hold attendee data lightly: name, email, ticket; delete lists after a set time.', 'Data plan: lists deleted 60 days after the event; 2 staff have access.'),
 ('Show proof with a demo event and attendance and rating data.', 'Demo: 120 sign-ups, 78 attend, 4.3 of 5 rating: 65% attend.'),
 ('Work out cost per event and fees.', 'Platform {c} 40, host {c} 60, support {c} 30: cost {c} 130; price {c} 250 leaves {c} 120; 4 events earn {c} 480.'),
@@ -92,7 +92,7 @@ S_2 = [
 ('social-media-network', 'Social Media Network', [
 ('Start with one niche community and one core action, such as posting photos or answering questions.', 'Invite 50 members of one hobby group to post one thing a day.'),
 ('Compare three models: open network, invite-only group, or a feature inside an existing app.', 'Open network has no entry fee but spam, invite-only starts with 200 members and is safer, feature needs a partner: compare moderation load.'),
-('Check rules on content, child safety, reporting, takedown and local law; write terms and a report flow.', 'Check list: terms page, age rule, report button, takedown time of 24 hours, dates.'),
+('Check rules on content, child safety, reporting, takedown and local law; write terms and a report flow.', 'Check list: terms page, age rule, report button, takedown time you set, dates.'),
 ('Collect minimal profile data, explain use in plain words, and let members export and delete data.', 'Profile has 3 fields; delete button works in 2 clicks.'),
 ('Show proof with members who return: weekly active share and posts per member.', '200 sign-ups, 90 active in week 4: 45% active.'),
 ('Work out running cost per member and income.', 'Hosting {c} 300, moderation {c} 400: cost {c} 700 per month; 200 of 2000 members (10%) pay {c} 5 per month: {c} 1000.'),

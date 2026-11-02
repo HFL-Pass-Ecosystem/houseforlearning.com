@@ -9,7 +9,7 @@ S = [
  ('ecommerce','E-Commerce',[
   ('Sell one product line to one customer group first; a wide shop hides what works.','Start with 12 products for one group; after 4 weeks drop the 6 with no orders and reorder the 3 best.'),
   ('Compare three models: own shop, marketplace, messaging-app orders. Pick by cost per order.','Own shop {c} 40 per order to win a customer, marketplace {c} 25 plus fee, app orders {c} 10 but slow: choose by margin left.'),
-  ('List the shop licence, the tax set-up and the returns rule before the first listing.','Licence table row: tax registration, shop terms page, returns page, delivery terms; each has a date checked.'),
+  ('List the shop licence, any tax set-up and the returns rule before the first listing.','Licence table row: any tax registration, shop terms page, returns page, delivery terms; each has a date checked.'),
   ('Collect only the data an order needs: name, address, phone, payment status.','A checkout that asks for 6 fields instead of 14 and stores nothing else.'),
   ('Write product pages in the customer language with size, price, delivery days and returns in the first screen.','Page test: 100 visitors, 8 add to basket, 3 order: a 3% order rate; move delivery days above the price and test again.'),
   ('Count landed cost: product, packing, delivery, returns share, payment fee.','Item cost {c} 100, packing {c} 8, delivery {c} 15, returns {c} 6, fee {c} 3: landed {c} 132; a price of {c} 180 leaves {c} 48.'),
@@ -43,7 +43,7 @@ S = [
   ('Build a backup technician rota so no client waits.','Rota: primary and backup each week with a phone list.'),
   ('Launch with 3 pilot clients and a 30-day review.','Go rule: 3 pilots rate response time 4 of 5 or better.')]),
  ('solar','Solar Power',[
-  ('Start with a survey service: roof, shade, use and bill; install through a certified partner.','Survey of a 20 square metre usable roof, 3 hours of shade check, 12-month bills.'),
+  ('Start with a survey service: roof, shade, use and bill; install through a certified partner.','Survey of a usable roof, 3 hours of shade check, 12-month bills.'),
   ('Compare buy, lease and shared models by years to pay back.','Cost {c} 10000, yearly saving {c} 1800: payback 5.6 years; lease keeps cost at zero but saves less.'),
   ('Check building permits, grid-connection rules and installer certification.','Permit table: owner approval, grid approval, installer certificate, inspection date.'),
   ('Keep site photos and home data private; agree who may share them.','Consent form for survey photos with a deletion date.'),
@@ -82,7 +82,7 @@ S = [
   ('Serve one group, such as freelancers or small teams; rent by the desk or by the day.','Pilot: 10 desks, 2 rooms for hire.'),
   ('Compare lease, shared lease and partner-hosted models by risk.','Lease {c} 700 per month vs partner space {c} 300 plus a share of income.'),
   ('Check lease terms, safety, fire and signage rules.','Table: lease clause, occupancy limit, fire exit, insurance.'),
-  ('Handle member data: door logs and cameras need notices.','Notice at the door and in the member terms.'),
+  ('Handle member data: check the local rule on door logs and cameras.','Notice at the door and in the member terms.'),
   ('Sell the community: events and introductions, not only desks.','Monthly event with 25 guests, 6 become desk users.'),
   ('Price day pass, desk and room; count occupancy.','10 desks at {c} 150 = {c} 1500; at 70% full = {c} 1050; rent {c} 700 leaves {c} 350.'),
   ('Hire a host part-time; write a daily open and close routine.','Host 20 hours per week; checklist at open and close.'),
