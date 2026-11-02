@@ -33,60 +33,64 @@
  "evidence": "service menu, hygiene plan, intake and consent forms, price sheet, pilot log",
  "modules": [
   [
-   "Service menu and scope",
+   "Service menu and scope of practice",
    "Understand",
    4,
-   "Offer only what staff are trained and licensed to do.",
+   "A spa must offer only what its staff are trained and allowed to do.",
    [
-    "Cleansing, facials, light exfoliation; leave medical treatments to doctors.",
-    "Write who can perform each service.",
-    "Refer skin concerns to a doctor."
+    "Typical services: cleansing facials, light exfoliation, massage, relaxation treatments.",
+    "Medical or invasive treatments belong with a doctor.",
+    "Write who may perform each service and what training they need.",
+    "Refer any skin change, lump or bleeding mole to a doctor."
    ],
-   "The spa lists facials but refers a changing mole to a doctor.",
-   "Write a menu with scope notes.",
-   "Each service has a qualification need."
+   "A spa lists facials and body massage but writes \"we do not treat medical skin conditions; we refer to a doctor\". A client with a changing mole is referred the same day.",
+   "Write a menu of eight services with duration, scope note and qualification needed.",
+   "Each service has a qualification note and a referral line."
   ],
   [
    "Hygiene and infection control",
    "Apply",
    5,
-   "Clean spaces protect clients.",
+   "Clean practice protects clients and the business.",
    [
-    "Hand washing, clean towels, single-use items, tool sterilising.",
-    "Surface cleaning between clients; waste handling.",
-    "Daily and weekly log."
+    "Wash hands before and after each client; use clean towels and single-use items.",
+    "Clean and sterilise tools by a stated method and cycle; log it.",
+    "Clean surfaces between clients; manage waste safely.",
+    "Check the room at the start and end of each day."
    ],
-   "A tool tray is sterilised for the full cycle and logged.",
-   "Write a hygiene checklist and a log.",
-   "All steps have a time and initials."
+   "A tool tray is cleaned, sterilised for the full cycle, dried and stored covered. The log records date, time and initials.",
+   "Write a hygiene checklist and a daily log sheet.",
+   "Every step has a time and an initials box."
   ],
   [
-   "Client intake, consent, patch tests",
+   "Client intake, consent and patch tests",
    "Apply",
    5,
    "Know the client before touching skin.",
    [
-    "Ask about allergies, medicines, pregnancy, skin conditions.",
-    "Do patch tests 24 to 48 hours before new products where advised.",
-    "Written consent before treatment."
+    "Ask about allergies, medicines, pregnancy, skin conditions and recent procedures.",
+    "Do a patch test 24 to 48 hours before a new product where advised.",
+    "Obtain written consent and explain aftercare.",
+    "Store records securely."
    ],
-   "A client with a nut allergy avoids a nut-oil product.",
-   "Design an intake form.",
-   "Form covers allergy, medicine, consent."
+   "A client reports a nut allergy. The therapist avoids a nut-oil product, records the allergy on the card and chooses a different oil.",
+   "Design an intake and consent form and fill it for a practice client.",
+   "Form covers allergy, medicine, pregnancy, consent and patch test result."
   ],
   [
    "Products and ingredients",
    "Evaluate",
    5,
-   "Do not trust claims blindly.",
+   "Choose products on evidence, not on promises.",
    [
-    "Read ingredient lists; know common allergens.",
-    "Reject miracle claims; use claims the maker can support.",
-    "Store products at the right temperature and note expiry."
+    "Read ingredient lists; know common allergens and irritants.",
+    "Reject miracle claims and unproven treatments.",
+    "Check storage, opening dates and expiry.",
+    "Buy from reliable suppliers with batch information."
    ],
-   "A cream lists fragrance as the first ingredient; the practitioner avoids it for sensitive skin.",
-   "Review 3 product labels.",
-   "Each review has a safety note."
+   "A cream lists fragrance as the first ingredient. The therapist avoids it for sensitive skin and chooses a fragrance-free option.",
+   "Review three product labels and write a safety note for each.",
+   "Each note names allergens and storage rules."
   ],
   [
    "Scheduling and capacity",
@@ -94,55 +98,59 @@
    4,
    "Time is the main resource.",
    [
-    "Service time plus cleaning plus buffer.",
-    "Rooms and staff per slot.",
-    "Online booking and reminders."
+    "Room time = service time + cleaning + buffer.",
+    "Match staff and rooms to peak times.",
+    "Use online booking with reminders.",
+    "Track late cancellations and no-shows."
    ],
-   "A 60-minute facial uses 80 minutes of room time.",
-   "Build a day schedule for two staff.",
-   "No overlaps."
+   "A 60-minute facial needs 80 minutes of room time. Two rooms and two staff can deliver 6 facials in an 8-hour day, not 8.",
+   "Build a one-day schedule for two staff and two rooms.",
+   "No overlaps and cleaning time shown."
   ],
   [
    "Pricing and profit",
    "Evaluate",
    5,
-   "Know costs per treatment.",
+   "Price must cover cost and leave a margin.",
    [
-    "Staff time, products, rent share, laundry, booking fees.",
-    "Price to cover cost and margin.",
-    "Packages and loyalty must still be profitable."
+    "Costs: staff time, products, rent share, laundry, booking fees, insurance.",
+    "Price = cost + margin; check against local prices.",
+    "Packages and loyalty rewards must remain profitable.",
+    "Review prices every quarter."
    ],
-   "Cost 520 INR; price 1,100 INR; margin 580 INR.",
-   "Cost 5 services.",
-   "Totals correct; currency shown."
+   "A facial costs 520 INR to deliver and sells at 1,100 INR, giving 580 INR margin. A 10% package discount still leaves 480 INR.",
+   "Cost five services and set prices with currency shown.",
+   "Totals correct and margin shown for each."
   ],
   [
-   "Client care and complaints",
+   "Client care and reactions",
    "Apply",
    4,
-   "Calm service wins trust.",
+   "Calm, kind service builds trust, and a clear protocol handles problems.",
    [
-    "Greet, explain, check comfort, aftercare tips.",
-    "Handle reactions: stop, rinse, record, advise a doctor if needed.",
-    "Review feedback weekly."
+    "Greet, explain, check comfort, give aftercare tips.",
+    "If a reaction occurs: stop, rinse, cool, record, advise medical help if needed.",
+    "Handle complaints politely and record them.",
+    "Follow up with clients after treatments."
    ],
-   "A client reports redness; staff stop, cool the skin, record and call the mentor.",
-   "Write a reaction protocol.",
-   "Steps in order with contact numbers."
+   "A client reports redness. Staff stop the treatment, cool the skin, record the product used and call the mentor, who advises a doctor visit. The incident is logged.",
+   "Write a reaction protocol and role-play it.",
+   "Steps are in order and contact numbers listed."
   ],
   [
    "Pilot and improve",
    "Create",
    5,
-   "Run 30 days of service.",
+   "Run 30 days of real service and learn from the numbers.",
    [
-    "Track bookings, rebookings, complaints, product waste.",
-    "Fix top 3 issues.",
-    "Plan responsible disposal and fair pay."
+    "Track bookings, rebookings, complaints and product waste.",
+    "Fix the top three issues.",
+    "Plan fair pay and responsible disposal.",
+    "Collect client feedback."
    ],
-   "Rebooking rises from 32% to 45% after aftercare cards.",
+   "Rebooking rises from 32% to 45% after aftercare cards. Product waste falls 12% with smaller sample sizes.",
    "Present the pilot review.",
-   "Numbers are real; three fixes dated."
+   "Numbers are real and three fixes are dated."
   ]
  ],
  "quiz": [
