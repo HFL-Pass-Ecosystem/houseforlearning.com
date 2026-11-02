@@ -10,12 +10,12 @@ D2 = {
 "wellbeing": [
  ("Spot risk and refer on safely","Evaluate",8,"A wellbeing coach supports healthy habits. Some people need more than coaching, and knowing the limit protects them and you.",
   ["Know the red flags: chest pain, fainting, thoughts of self-harm, eating that is clearly harming the body, or a sudden change in mood or weight.","Never diagnose, never promise a cure, and never tell a client to stop prescribed treatment.","Refer using a short script: say what you noticed, say it is outside your role, and help the client contact a qualified professional or the emergency number.","Keep client information private; share only with consent, except where life is at risk."],
-  "A client says she has dizziness on 3 of her last 5 sessions and has cut meals to one a day. Pause the plan, record the facts, and advise a medical check before the next session at 48 hours' notice.",
+  "A client says she has dizziness on 3 of her last 5 sessions and has cut meals to one a day. Pause the plan, record the facts, and advise her to see a doctor before the next session.",
   "Role-play three red-flag situations with a partner and write the referral note for each.","No diagnosis given; referral offered the same day; note is factual and kept private."),
 ],
 "transport": [
  ("Breakdown and incident drill","Apply",8,"When a vehicle stops or an accident happens, the first ten minutes decide whether people stay safe.",
-  ["Make the scene safe: hazard lights, a safe stopping place, a warning triangle placed a safe distance behind, passengers moved away from traffic.","Call the right number first for injury, then the operator's control room; give location, vehicle number and number of people.","Take photos and notes of the scene; do not admit blame or argue with other drivers.","After the event, complete an incident form and flag the vehicle as not fit to drive until checked."],
+  ["Make the scene safe: hazard lights, a safe stopping place, a warning triangle placed a safe distance behind, passengers moved away from traffic.","If anyone is hurt, call the emergency number first, then the operator's control room; give the location, the vehicle number and how many people are on board.","Take photos and notes of the scene; do not admit blame or argue with other drivers.","After the event, complete an incident form and flag the vehicle as not fit to drive until checked."],
   "A bus carrying 24 passengers stops on a highway shoulder at 14:05. The triangle goes 50 metres behind, a replacement is called, and it arrives at 14:50. Delay is 45 minutes; the form records this and the cause.",
   "Run a table-top drill with a flat-tyre case and time each step with a stopwatch.","All steps done in order; call made within 2 minutes; form complete."),
 ],
@@ -34,7 +34,7 @@ D2 = {
 "shopping": [
  ("Returns, refunds and difficult customers","Apply",7,"How a shop handles a return tells customers whether to trust it. A fair, calm process also protects the shop from loss.",
   ["Know the return rule: time limit, condition, proof of purchase and what is excluded. State it clearly at the till and on the receipt.","Listen to the whole complaint, repeat it back, and offer a solution before explaining policy.","Check the item and receipt; refund to the original method of payment where possible.","If a customer is abusive, stay calm, offer a manager, and record the event."],
-  "A customer returns a AED 180 jacket after 5 days with the tag on. The rule allows 14 days, so refund AED 180. A AED 60 item returned after 20 days gets an exchange offer instead.",
+  "A customer returns an AED 180 jacket after 5 days with the tag on. The rule allows 14 days, so refund AED 180. An AED 60 item returned after 20 days gets an exchange offer instead.",
   "Role-play three return cases, one valid, one late, one with no receipt.","Rule explained in one sentence; refund amount correct; calm tone kept."),
 ],
 "tourism": [
@@ -52,7 +52,7 @@ D2 = {
 "recruitment": [
  ("Fair hiring, data and difficult conversations","Evaluate",8,"A recruiter handles personal information and shapes careers, so fairness and privacy are part of the job.",
   ["Judge candidates only on skills, experience and the needs of the role; leave out age, gender, nationality, religion and family status.","Collect only the data you need, store it safely and delete it when you no longer need it.","Never charge a candidate a fee for a job and never keep their original documents.","Give clear, kind feedback to candidates who are not chosen, ideally within 5 working days."],
-  "Out of 60 applicants, 12 are shortlisted (20%) and 3 interviewed. Everyone gets a reply, so 57 reply messages go out in 5 working days.",
+  "Out of 60 applicants, 12 are shortlisted (20%), so 60 - 12 = 48 applicants are not shortlisted. Each of those 48 gets a decline message within 5 working days.",
   "Rewrite a biased job advert and draft a decline message for a sample candidate.","No protected traits used; no fee asked; reply is polite and specific."),
 ],
 "childcare": [
@@ -82,7 +82,7 @@ D2 = {
 "flower-industry": [
  ("Wrong flowers, wilting and refunds","Apply",7,"Flowers are fragile and sentimental. A fair policy for wilted or wrong stems protects both the customer and the shop.",
   ["State the freshness promise clearly, for example a number of days with proper care, and give care instructions with every order.","Ask for a photo and the delivery time before judging the complaint.","Replace or refund quickly when the fault is yours; explain gently when heat or storage after delivery caused it.","Log each case and review the supplier, the cold room and the delivery route weekly."],
-  "A bouquet of 24 stems, cost AED 240, wilts on day 1. The photo shows heat damage in the cold room. Refund AED 240 and move the stock check to every 4 hours.",
+  "A bouquet of 24 stems, cost AED 240, wilts on day 1. The photo shows heat damage, so the fault was in our cold room. Refund AED 240 and move the stock check to every 4 hours.",
   "Write a freshness promise and a reply to a wilted-bouquet complaint.","Promise states days and care; reply uses the photo; the log names the cause."),
 ],
 }
