@@ -66,7 +66,7 @@
     "Add fixed costs each month: rent, insurance, water, software and a share of your own pay.",
     "Break-even trays per month = fixed cost divided by margin per tray, rounded up."
    ],
-   "ex": "Power per tray: 0.2 kW x 16 h x 28 days = 89.6 kWh; at 0.16 per kWh that is about 14. Add seeds and nutrients 6, packaging 4, labour 14 for 38 variable; price 95 per tray-equivalent gives margin 57 (60%). Break-even is 21,700 / 57 = about 381 trays a month. Power test: a 10% rise in power price adds about 1.4, so variable cost is 39.4, margin 55.6 and break-even is 21,700 / 55.6 = about 391 trays. Yield test: a 15% yield drop cuts revenue to 80.75 and margin to 42.75, so break-even rises to about 508 trays. Teaching figures in CAD.",
+   "ex": "Power per tray: 0.2 kW x 16 h x 28 days = 89.6 kWh; at 0.16 per kWh that is about 14. Add seeds and nutrients 6, packaging 4, labour 14 for 38 variable; price 95 per tray-equivalent gives margin 57 (60%). Break-even is 21,700 / 57 = about 381 trays a month. Power test: a 10% rise in power price adds about 1.4, so variable cost is 39.4, margin 55.6 and break-even is 21,700 / 55.6 = about 390 trays. Yield test: a 15% yield drop cuts revenue to 80.75 and margin to 42.75, so break-even rises to about 508 trays. Teaching figures in CAD.",
    "act": "Build the cost sheet for your system and compute break-even.",
    "std": "Both stress tests shown."
   },
