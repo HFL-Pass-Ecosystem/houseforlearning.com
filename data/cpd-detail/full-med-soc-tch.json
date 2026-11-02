@@ -158,7 +158,8 @@
     "pts": [
      "Write the date and time of each entry.",
      "State facts you saw or were told, with numbers.",
-     "Sign with initials and role."
+     "Sign with initials and role.",
+     "Write for someone else only under a clear policy; normally each author records their own."
     ],
     "ex": "\"14 Mar, 10:20. Patient A reported pain in the right knee, 7 out of 10. Dressing dry and intact. Told nurse in charge at 10:25. Signed: initials, role.\" That ticks 6 of 6 checklist items.",
     "std": "Record an event from a short scenario with date, time, facts only and signature, meeting every item on the checklist."
@@ -180,7 +181,8 @@
     "pts": [
      "Share only what the reader needs for care.",
      "Leave out home address and family detail unless needed.",
-     "Only people with a care need may read the note."
+     "Only people with a care need may read the note.",
+     "Notes are kept for the time set by local retention rules."
     ],
     "ex": "Sample note has 5 personal details. Keep 2 needed for care (pain score, allergy) and remove 3 (home address, phone, family dispute).",
     "std": "Protect privacy by removing every personal detail not needed for care from a sample note, and say who may read a note."
@@ -580,7 +582,8 @@
     "pts": [
      "Use the route card in your policy.",
      "Tell the lead first, within the stated time.",
-     "Use the alternative route if the lead is the concern."
+     "Use the alternative route if the lead is the concern.",
+     "Tell the person what happens next, as far as is safe."
     ],
     "ex": "You hear at 11:00 and tell the safeguarding lead at 11:20: 20 minutes, inside the time limit in your policy (for example 60 minutes). If the lead is the concern, the policy's alternative route applies.",
     "std": "Select the correct reporting route from your organisation's policy and tell the right person within the required time, including the alternative route."
@@ -887,7 +890,8 @@
     "pts": [
      "Review a peer's plan with a checklist.",
      "Give two strengths and one improvement.",
-     "Check your own plan too."
+     "Check your own plan too.",
+     "If few learners meet the outcome, re-teach and re-check."
     ],
     "ex": "Peer feedback: strengths: clear verbs, timed plan. Improvement: outcome 3 has no check. After the fix, 3 outcomes, 3 checks.",
     "std": "Review a peer's plan against a checklist, giving two strengths and one improvement, and show your own lesson meets the outcome standard."
@@ -1117,7 +1121,9 @@
     "pts": [
      "Choose prompts, word banks or pictures from learner needs.",
      "Scaffolds are temporary.",
-     "Remove them as skill grows."
+     "Remove them as skill grows.",
+     "Record each change in a short note that links it to the learner need.",
+     "The teacher agrees adaptations with the support lead, per policy."
     ],
     "ex": "Class profile: 2 learners new to the language (word bank), 3 learners who need steps (prompt card). 5 scaffolds for 5 learners, 2 types.",
     "std": "Identify learner needs from a class profile and choose a scaffold for each, such as prompts, a word bank or pictures."
@@ -1139,7 +1145,8 @@
     "pts": [
      "Extra time keeps the standard the same.",
      "Adjust seating, noise and room.",
-     "Record the reason for each change."
+     "Record the reason for each change.",
+     "Record the plan in a short note linked to the learner need."
     ],
     "ex": "Learner A gets 15 minutes instead of 10 (5 extra) and a seat near the board. Standard: 4 of 5 stays the same for all.",
     "std": "Adjust time and the room for a learner who needs it, such as extra time or seating, while keeping the standard unchanged."

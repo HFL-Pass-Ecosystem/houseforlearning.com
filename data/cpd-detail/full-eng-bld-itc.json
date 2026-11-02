@@ -854,7 +854,8 @@
     "pts": [
      "Replace every default password at install.",
      "Use a strong passphrase and current encryption.",
-     "Update firmware and keep the admin page away from guests."
+     "Update firmware and keep the admin page away from guests.",
+     "A rule change is approved by the owner or the change approver."
     ],
     "ex": "Lab router: admin password changed, staff passphrase of several random words (long and unique), current encryption on, firmware updated to the latest version offered (sample 4.2.1 to 4.2.3), admin page open to staff zone only.",
     "std": "Configure standard settings in the lab, replacing default passwords, applying a strong passphrase and current encryption, updating firmware, and keeping the admin page out of guest reach."

@@ -158,7 +158,8 @@
     "pts": [
      "Write each formula before using it",
      "Show units: ratio, percent, days",
-     "Check arithmetic twice"
+     "Check arithmetic twice",
+     "A limit of ratios: they depend on accounting choices and one-off items."
     ],
     "ex": "This year: revenue 1,200, cost of sales 780, net profit 96, current assets 600, current liabilities 400, inventory 150, receivables 200, payables 130. Current 600 / 400 = 1.5. Quick (600 - 150) / 400 = 1.13. Gross margin 420 / 1,200 = 35.0%. Net margin 96 / 1,200 = 8.0%. Debtor days 200 / 1,200 x 365 = 61. Creditor days 130 / 780 x 365 = 61.",
     "std": "Calculate the six ratios, current, quick, gross margin, net margin, debtor days and creditor days, from a set of statements using the correct formulas."
@@ -602,7 +603,8 @@
     "pts": [
      "Tick every item",
      "Adviser and client sign",
-     "Alternatives and confirmation are required"
+     "Alternatives and confirmation are required",
+     "Keep the advice record as long as your local rule and firm policy require; check them."
     ],
     "ex": "Checklist has 8 items. A draft ticks 6: missing alternatives considered and client confirmation. Not complete. After fixing it, 8 of 8 and both signatures present.",
     "std": "Complete the advice record to the checklist, including alternatives considered, client confirmation, and the signatures required of the adviser and client."
@@ -717,7 +719,8 @@
     "pts": [
      "Name who receives it",
      "Name how fast",
-     "Use the route on the card"
+     "Use the route on the card",
+     "If you turn out to be wrong, reporting in good faith is expected."
     ],
     "ex": "Sample route card: report to the reporting officer within the time on the card (for example the same working day), by the internal form. You send the report by that route, not to a friend or colleague on your team.",
     "std": "Use the local route card to name who receives a report and how quickly it must be made, and send a report by that route."
@@ -876,7 +879,8 @@
     "pts": [
      "Pick three simple measures",
      "Set a target",
-     "State how each is read"
+     "State how each is read",
+     "Stop measuring when the change is routine."
     ],
     "ex": "Measures: orders entered per day (80 before), errors per 100 items, confidence score 1 to 5. Week 8: 12 errors in 400 items = 3 per 100. Target 3 or lower: met.",
     "std": "Choose three simple measures for a change, such as errors per 100 items or briefing attendance, and say how each will be read."

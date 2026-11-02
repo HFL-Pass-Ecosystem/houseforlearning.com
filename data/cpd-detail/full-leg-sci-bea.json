@@ -21,7 +21,8 @@
     "pts": [
      "Swap jargon for everyday words that keep the meaning",
      "Short sentences, one idea each",
-     "A reader stops after one page"
+     "A reader stops after one page",
+     "Say what you cannot advise on."
     ],
     "ex": "Draft line: \"We shall endeavour to effect filing of the instrument prior to the 10th day of November\" has 16 words. Plain version: \"We will file the form by 10 Nov.\" has 8 words, half the length. Also \"heretofore\" becomes \"until now\" and \"pursuant to\" becomes \"under\".",
     "std": "Rewrite a sample letter in plain words, replacing legal jargon with everyday terms that keep the meaning, and fit it onto one page."
@@ -32,7 +33,8 @@
     "pts": [
      "Average sentence length = words / sentences",
      "Mark any sentence over 20 words and split it",
-     "A colleague read finds what a test misses"
+     "A colleague read finds what a test misses",
+     "A second person reviews it, per firm policy."
     ],
     "ex": "Sample letter: 120 words in 8 sentences gives 120 / 8 = 15 words per sentence, under the target of 20. One sentence of 34 words is split into two of 17. A colleague reads it and names the next step in one breath.",
     "std": "Apply a simple readability test to a drafted letter, then ask a colleague to read it, and adjust any hard sentences the test or reader finds."
@@ -169,7 +171,8 @@
     "pts": [
      "Look for payment, termination, liability, indemnity, change",
      "Ask one question for each risk",
-     "A risk clause exposes you to cost or loss"
+     "A risk clause exposes you to cost or loss",
+     "If you are unsure of the law, refer to the senior."
     ],
     "ex": "Of 8 clauses, 6 are flagged: 3 payment terms, 4 auto-renewal, 5 termination, 6 unlimited liability, 7 indemnity, 8 change of terms. Question for clause 8: \"Can the supplier change the price without asking me?\" Needs at least 5; 6 found.",
     "std": "Identify the risk clauses in a sample contract, such as payment terms, termination, liability, indemnity and change of terms, listing at least five with a question each."
@@ -180,7 +183,8 @@
     "pts": [
      "Rate each risk high, medium or low",
      "Give a reason for every rating",
-     "Order the clauses by priority"
+     "Order the clauses by priority",
+     "The client decides, with advice from a qualified lawyer."
     ],
     "ex": "Rating table: clause 6 unlimited liability, High, because the cost has no ceiling; clause 8 price change at any time, High; clause 4 auto-renewal, Medium; clause 3 payment in 30 days, Low. Priority order: 6, 8, 4, 3. Count: 2 High, 1 Medium, 1 Low.",
     "std": "Give each flagged clause a high, medium or low risk rating with a stated reason, and put the clauses in order of priority."
@@ -191,7 +195,8 @@
     "pts": [
      "Add a cap, a notice period or a consent step",
      "Mark agree, query or escalate",
-     "Refer to the senior when unsure of the law"
+     "Refer to the senior when unsure of the law",
+     "The client, advised by you, makes the final choice on safer wording."
     ],
     "ex": "Clause 6 \"unlimited liability\" becomes \"liability is limited to the sum paid in the last 12 months\". Clause 8 becomes \"price changes need 60 days' written notice\". Checklist marks: clause 6 escalate, clause 8 query, clause 3 agree.",
     "std": "Propose safer wording for a risky clause, such as a stated cap or a notice period, and record agree, query or escalate against the checklist."
@@ -558,7 +563,8 @@
     "pts": [
      "The mean is the sum divided by the count",
      "Spread shows how far values vary",
-     "Always give units"
+     "Always give units",
+     "Keep the raw data so that you can re-check."
     ],
     "ex": "Group A heights 10, 12, 11 cm: mean = 33 / 3 = 11 cm. Deviations -1, 1, 0; squares 1, 1, 0 add to 2; 2 / (3 - 1) = 1; spread (sample SD) = 1 cm. Group B 14, 15, 13: mean 14 cm, SD 1 cm.",
     "std": "Calculate the mean and the spread of a small data set with correct arithmetic and units, as in groups of three plant heights."
@@ -717,7 +723,8 @@
     "pts": [
      "State what was not tested",
      "State possible errors",
-     "Do not hide a weakness"
+     "Do not hide a weakness",
+     "Share the raw data so that others can check."
     ],
     "ex": "Limits: \"Only one site was tested. Only day 14 was measured. Heights were read by hand to the nearest 0.5 cm.\" 3 honest sentences covering what was not tested and one possible error.",
     "std": "Write at least three honest sentences on limits, covering what was not tested and the possible errors, for a small one-site study."
@@ -728,7 +735,8 @@
     "pts": [
      "Use short sentences and plain words",
      "Claim no more than the data show",
-     "Cut filler words"
+     "Cut filler words",
+     "A colleague who is not on the study reviews first."
     ],
     "ex": "A sentence of 34 words is split into two of 17 words each. \"It could perhaps be suggested that results may show\" becomes \"Results show\". Gap 3 cm is stated as seen, not as proven cause.",
     "std": "Edit a draft paragraph into clear, short sentences with plain words and no claim beyond the data."
@@ -991,7 +999,8 @@
     "pts": [
      "Single-use items are used once, then discarded",
      "Reusable items are cleaned to their level",
-     "Follow the item label and product instructions"
+     "Follow the item label and product instructions",
+     "Follow your local regulator and the product instructions."
     ],
     "ex": "Six items on the case card: towel (launder), tweezers (clean, then disinfect or sterilise), nail file (single-use, discard), couch cover (single-use, discard), brush (clean, then disinfect), gloves (single-use, discard). 3 single-use + 3 reusable = 6.",
     "std": "Choose the cleaning level for each of six items, such as towel, tweezers and gloves, and keep clean and used items apart."
@@ -1002,7 +1011,8 @@
     "pts": [
      "Log date, item, method and initials",
      "The lead checks the log weekly",
-     "A log is proof of the routine"
+     "A log is proof of the routine",
+     "If you miss a step, re-do it and note it in the log."
     ],
     "ex": "Log line: \"12 Jun, tweezers, disinfected, AB\" has 4 parts: date, item, method, initials. A lead checks weekly: 5 days x 6 items = 30 expected entries; 28 found means 2 missing, so the lead asks why.",
     "std": "Record cleaning on the log with date, item, method and initials, so there is proof of the routine for a lead to check."
@@ -1183,7 +1193,9 @@
     "pts": [
      "Stop when consent is withdrawn",
      "Follow the local rule on minors",
-     "Reflect on your explanation"
+     "Reflect on your explanation",
+     "For a minor, follow local rules on guardian consent.",
+     "If the client is a minor, follow the local rule and get guardian consent."
     ],
     "ex": "Client withdraws at 10:20. Record: \"10:20 client withdrew consent; treatment stopped; recorded and countersigned.\" For a minor, follow the local rule and get guardian consent. Reflection: one plain word that worked.",
     "std": "Explain what to do when a client withdraws consent or is a minor, record it correctly, and reflect on one way to make your explanation plainer."

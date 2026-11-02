@@ -48,6 +48,18 @@ for f,r in rows.items():
     miss=[k for k,v in r.items() if (k!='ladder' and not v)]
     if r['ladder']!='slides': miss.append('ladder:'+r['ladder'])
     if miss: bad.append((f,miss))
+
+# CPD pages: every check answer must say "Covered in module N" (never "not taught"); no fees on CPD pages.
+cpd_bad=[]
+for f in sorted(glob.glob('cpd-*.html')):
+    raw=open(f,encoding='utf-8').read(); t=txt(clean(raw)); miss=[]
+    na=t.count('Model answer')
+    if 'not taught' in t or 'background fact' in t: miss.append('cpd:not-taught tag')
+    if t.count('Covered in module')<na: miss.append('cpd:answer without module tag (%d of %d)'%(t.count('Covered in module'),na))
+    if re.search(r'(USD|AED|GBP|EUR|INR|Rs\.?|\$|₹|£|€)\s?\d',t): miss.append('cpd:fee-like amount')
+    if miss: cpd_bad.append((f,miss))
+bad+=cpd_bad
+rows.update({f:{} for f in glob.glob('cpd-*.html')})
 os.makedirs(os.path.dirname(REPORT), exist_ok=True)
 with open(REPORT,'w') as o:
     o.write('# Course page audit\n\nChecks per page: Bloom verbs, task/condition/standard, 8 modules, 8 worked examples, rubric, 10 checks with answers, ladder (slides = 7 slides with notes; table = L1-L7 as a table only; none), job links. Russia pages left out.\n\n')
