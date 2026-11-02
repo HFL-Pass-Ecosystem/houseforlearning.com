@@ -130,6 +130,29 @@ def _scale(txt, c, k):
         v = float(m.group(1).replace(',', '') + (m.group(2) or '')) * k
         return f'{c} {v:,.0f}' if v == int(v) else f'{c} {v:,.2f}'
     return _AMT.sub(f, txt)
+_MODKEY = ['market place local demand research trend season area competitor rival',
+           'sector choose compare option model type product service idea',
+           'regist licen permit rule law legal compl certif approv authorit',
+           'data privacy protect safety safe insur risk secur customer-data record backup',
+           'customer market sale channel lead booking serve guest client brand promot reach review feedback journey',
+           'price pricing tax money cost margin cash profit capacity budget invoice sum revenue',
+           'people partner team hire staff helper role train supplier alliance operator lead',
+           'launch plan review growth scale improve roadmap timeline publish case system']
+def _deep(sl, out, tq):
+    """Per slide: the page's own module (best match on the slide's words) and its check question, for the L1-L7 ladder."""
+    from ladder_common import LADDER_MODULE_IDX, quiz_for_module
+    sd = LL.LAD.get(sl)
+    if not sd: return None
+    quiz = [(a, b, int(m.group(1))) for a, b in tq for m in [_re.search(r'Covered in module (\d+)', b)] if m]
+    stems = [k.split() for k in _MODKEY]
+    def hits(text, ks): return sum(1 for w in _re.findall(r'[a-z]+', text.lower()) if any(w.startswith(k) for k in ks))
+    used, res = [], []
+    for i, (t, b, n) in enumerate(sd, 1):
+        d = LADDER_MODULE_IDX[i-1]
+        sc = [3 * hits(t, stems[k]) + hits(n, stems[k]) + (0.75 if k == d else 0) - 4 * used.count(k) for k in range(8)]
+        k = max(range(8), key=lambda x: (sc[x], x == d)); used.append(k)
+        res.append((out[k], quiz_for_module(quiz, k + 1)))
+    return res
 def build(L, idx, sl, topic, rows):
     L = copy.deepcopy(L)
     if L['k'] == 'ge': L['cur'] = 'GEL'  # Georgia pages show GEL only; the overview page covers both countries
@@ -155,12 +178,13 @@ def build(L, idx, sl, topic, rows):
     mh = ''.join(f'<details class="mod" {"open" if j==0 else ""}><summary><span class="mn">Module {j+1}</span> {e(m[0])} <span class="pill">{m[2]} h</span><span class="pill bz">{m[1]}</span></summary><p>{e(m[3])}</p><ul>' + ''.join(f'<li>{e(x)}</li>' for x in m[4]) + f'</ul><div class="evi"><strong>Worked example.</strong> {e(m[5])}</div><p><strong>Activity.</strong> {e(m[6])}</p><p><strong>Standard to meet.</strong> {e(m[7])}</p></details>' for j, m in enumerate(out))
     q = F.quiz(L); q[0] = (f'What is the first move for a {topic} business in {L["name"]}?', _scale(rows[0][0], c, k).replace('{c}', c))
     q[1] = ('Which model comparison belongs to this sector?', _scale(rows[1][0], c, k).replace('{c}', c))
-    qz = ''.join(f'<details class="mod"><summary>Q{j+1}. {e(a)}</summary><p><strong>Model answer:</strong> {e(b)}</p></details>' for j, (a, b) in enumerate(F.tag_quiz(q, out, {0: 1, 1: 2})))
+    tq = F.tag_quiz(q, out, {0: 1, 1: 2})
+    qz = ''.join(f'<details class="mod"><summary>Q{j+1}. {e(a)}</summary><p><strong>Model answer:</strong> {e(b)}</p></details>' for j, (a, b) in enumerate(tq))
     rub = '<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>' + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(x)}</td><td>{e(d)}</td></tr>' for a, b, x, d in F.rubric(L)) + '</tbody></table></div>'
     jobs = '<ul>' + ''.join(f'<li><strong>{e(a)}.</strong> {e(b)}.</li>' for a, b in [(f'{topic} assistant', f'supports a small {topic} business in {L["name"]}')] + L['jobs'][:5]) + '</ul>' + LL.roles_html(topic, e)
     body = (B.sec('', 'ab', 'about', f'{topic}: {L["name"]} deep edition', f'<p>{e(topic)} planned in detail for {e(L["name"])}: sector lessons plus local rules, jobs and {e(L["cur"])} examples. {e(F.CHECK)} All amounts are estimates for planning, not quotes. The module lines use rounded sample numbers; the Local example in module 6 uses separate local estimates.</p>' + LL.tcs_html(sl, L, e))
             + B.sec('alt', 'md', 'lesson by lesson', '8 modules with worked examples', mh) + B.sec('', 'as', 'assessment', 'How you are checked', f'<p>Pass: no criterion at Not yet and 8 of 10 right.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{qz}')
-            + B.sec('alt', 'jb', 'jobs', 'Where this takes you', jobs) + B.sec('', 'ld', 'ladder', 'Ladder L1 to L7', F.ladder(L, LL.slides_html(sl, L, e))))
+            + B.sec('alt', 'jb', 'jobs', 'Where this takes you', jobs) + B.sec('', 'ld', 'ladder', 'Ladder L1 to L7', F.ladder(L, LL.slides_html(sl, L, e, deep=_deep(sl, out, tq)))))
     for _r in FIXES.get((L['k'], sl), []):  # place-specific price corrections from the price review (estimates)
         for _a, _b in ((e(_r['found']), e(_r['fix'])), (_r['found'], _r['fix'])):
             if _a in body: body = body.replace(_a, _b); break
