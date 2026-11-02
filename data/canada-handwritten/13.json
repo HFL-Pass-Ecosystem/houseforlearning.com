@@ -54,7 +54,7 @@
     "Payback in months.",
     "Offer a staged price with a decision point."
    ],
-   "ex": "Project 22,000; ongoing 9,000... saving 4,000 invoices x 70% x 6 min = 280 hours a month × 30 = 8,400 a month. Payback about 3 months. Teaching figures in CAD.",
+   "ex": "Project price 22,000. Saving: 4,000 invoices x 70% auto-checked x 6 minutes = 16,800 minutes = 280 hours a month; at 30 an hour = 8,400 a month. Payback = 22,000 / 8,400 = about 2.6 months. If only half the saving is real, payback is about 5 months. Teaching figures in CAD.",
    "act": "Build a payback model with a 50% savings case.",
    "std": "Cases shown."
   },
