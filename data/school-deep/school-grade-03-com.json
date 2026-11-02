@@ -32,7 +32,15 @@
    "example": "Solved: Draw a square, put a triangle on top, add a door and fill with colour: a house. Save as house.png. Method: Model run for 'Pictures and shapes in a drawing program'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Rotate, resize, colour and save a picture: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
-   "steps": []
+   "steps": [
+    "Step 1, Insert a shape: Farah opens the drawing program, selects the arrow shape from the shapes menu, and drags to draw an arrow pointing right on the page. The arrow has small square handles at its corners and edges.",
+    "Step 2, Resize: She drags the bottom right corner handle outward and the arrow grows bigger while keeping its proportions. Dragging a corner handle changes both width and height together, so the shape does not get squashed.",
+    "Step 3, Rotate: She grabs the round rotate handle above the shape and turns it a quarter turn clockwise. The arrow, which pointed right, now points down. She also uses the menu Rotate right 90 degrees and gets the same result.",
+    "Step 4, Colour: With the arrow still selected, Farah picks Fill, chooses green and sets the outline to dark blue. The arrow becomes green with a blue edge. Selecting before colouring is important, or nothing changes.",
+    "Step 5, Copy and check: She copies the arrow with Ctrl+C, pastes with Ctrl+V, and rotates the copy 180 degrees. Now one arrow points down and one points up, each green with a blue edge.",
+    "Step 6, Save: Farah chooses File, Save as, types 'arrows', picks the picture format PNG, and presses Save. The file arrows.png appears in the folder. She reopens it and sees both arrows unchanged.",
+    "Your turn: Draw a triangle, make it twice as large, rotate it 90 degrees to the left, colour it red, and save it as 'tri'. Model answer: drag a corner handle to double its size, rotate left 90, fill red, then Save as tri.png."
+   ]
   },
   {
    "n": 2,
@@ -54,7 +62,15 @@
    "example": "Solved: Home row: A S D F for the left hand, J K L ; for the right. Type 'sad lad' ten times without looking. Aim for no errors, then raise speed. Method: Model run for 'Typing and word processing basics'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Type a short text and format it: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
-   "steps": []
+   "steps": [
+    "Step 1, Posture and home row: Sultan sits straight with wrists level. His left fingers rest on A, S, D, F and his right fingers on J, K, L and the semicolon key. Thumbs rest on the Space bar. This is the home row.",
+    "Step 2, Type a short text: He opens the word processor and types 'The desert is hot in summer.' Then he presses Enter and types 'Camels can walk far without any water.' That is two sentences, 13 words in total.",
+    "Step 3, Check the count: Sultan counts: sentence one has 6 words, sentence two has 7 words. 6 plus 7 is 13. The word count shown at the bottom of the program also says 13, so his typing and counting match.",
+    "Step 4, Format the title: He adds a line at the top, 'Desert Facts', selects it by dragging, then clicks Bold, sets the size from 12 to 18, and clicks Centre. The title is now large, bold and in the middle.",
+    "Step 5, Format the body: He selects the two sentences and changes the font to a clear one, keeps the size at 12, and clicks Align left. Small, clear text for the body and large text for the title looks neat.",
+    "Step 6, Save: Sultan presses Ctrl+S, names the file 'desert-facts' and presses Enter. He closes and reopens it, and the bold centred title and two sentences are still there.",
+    "Your turn: Type a title 'My School' and two sentences about it, make the title bold and centred, size 16. Model answer: title is selected, Bold, Centre, size 16 from the size box; body stays at 12; save as my-school."
+   ]
   },
   {
    "n": 3,

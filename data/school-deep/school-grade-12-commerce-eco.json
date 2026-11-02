@@ -32,7 +32,14 @@
    "example": "Solved: GDP = C + I + G + (X - M) = 600 + 200 + 150 + (80 - 60) = 970. Method: Model run for 'National income and related aggregates'. Question: what happened, or what is the situation, and why? Sources: two short extracts, a map or table. Notes: who, what, where, when, why. Answer: three sentences, each with a reason and a piece of evidence. Check: is there a point of view that you have not considered? What a good answer looks like: facts are correct, reasons are linked to evidence, and one other point of view is named fairly.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Measure national income: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": []
+   "steps": [
+    "Step 1, Use the expenditure method. Private consumption 600, investment 200, government spending 150, exports 100, imports 80. GDP at market price = 600 + 200 + 150 + (100 - 80) = 970. Net exports are exports minus imports.",
+    "Step 2, Move to national income. Depreciation 50, so NDP at market price = 970 - 50 = 920. Net factor income from abroad is -10, so NNP at market price = 910. Indirect taxes 70 minus subsidies 20 gives net indirect tax 50.",
+    "Step 3, Finish the chain. NNP at factor cost = 910 - 50 = 860, which is national income. Check with the income method: NDP at factor cost = 500 compensation + 280 operating surplus + 90 mixed income = 870. Subtracting 10 net factor income from abroad gives 860.",
+    "Step 4, Avoid double counting with value added. A farmer sells wheat for 40 to a miller; flour sells for 70 to a baker; bread sells for 120. Value added = 40 + 30 + 50 = 120, equal to the final product value, not 230.",
+    "Step 5, Real GDP. If nominal GDP is 970 and the price index is 110 with base 100, real GDP = 970 / 110 x 100 = 881.8 approximately. Model answer: 'Real GDP removes price changes, so it shows true output growth.'",
+    "Step 6, Your turn: GDP at market price 500, depreciation 30, net indirect tax 20, net factor income from abroad 5. Model answer: 'NDP at market price 470, NNP at market price 475, NNP at factor cost 455 (national income).'"
+   ]
   },
   {
    "n": 2,
@@ -54,7 +61,14 @@
    "example": "Solved: Money multiplier = 1 / reserve ratio = 1 / 0.2 = 5. A deposit of 100 can support up to 500 in total deposits. Method: Model run for 'Money, banking and income determination'. Question: what happened, or what is the situation, and why? Sources: two short extracts, a map or table. Notes: who, what, where, when, why. Answer: three sentences, each with a reason and a piece of evidence. Check: is there a point of view that you have not considered? What a good answer looks like: facts are correct, reasons are linked to evidence, and one other point of view is named fairly.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Explain money creation and income determination: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": []
+   "steps": [
+    "Step 1, Show how banks create money. A deposit of 1,000 is made and the required reserve ratio is 10 percent. The bank keeps 100 and lends 900, which returns as deposits. The money multiplier is 1 / 0.10 = 10, so total deposits can reach 10,000.",
+    "Step 2, Name central bank tools. To reduce credit, it raises the repo rate, cash reserve ratio or sells securities in open market operations. To raise credit, it does the opposite. A higher reserve ratio of 20 percent cuts the multiplier to 5.",
+    "Step 3, Find equilibrium income. Consumption is C = 100 + 0.75Y and investment is 50. Y = (100 + 50) / (1 - 0.75) = 150 / 0.25 = 600. Check: consumption 550 and saving 50 equals investment 50, so planned saving equals investment.",
+    "Step 4, Use the multiplier. Multiplier = 1 / (1 - MPC) = 1 / 0.25 = 4. If investment rises by 20, income rises by 20 x 4 = 80, to 680. New consumption 610 plus investment 70 equals 680.",
+    "Step 5, Analyse a gap. Full-employment income is 700. At 700, aggregate demand is 625 + 50 = 675, so there is a deficient demand gap of 25. Raising investment by 25 brings income up by 100 to 700.",
+    "Step 6, Your turn: MPC is 0.8; investment increases by 50. Model answer: 'The multiplier is 1 / 0.2 = 5, so income rises by 50 x 5 = 250.'"
+   ]
   },
   {
    "n": 3,
@@ -98,7 +112,14 @@
    "example": "Solved: Compare two years of one indicator, such as literacy or per capita income, in a table; say the change in percent and one cause. Method: Model run for 'Indian economy and development'. Question: what happened, or what is the situation, and why? Sources: two short extracts, a map or table. Notes: who, what, where, when, why. Answer: three sentences, each with a reason and a piece of evidence. Check: is there a point of view that you have not considered? What a good answer looks like: facts are correct, reasons are linked to evidence, and one other point of view is named fairly.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Analyse development, poverty and reforms: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": []
+   "steps": [
+    "Step 1, Date the policy phases. Planning began with the first Five Year Plan in 1951 with an emphasis on public sector industry and land reform. By 1991 a balance of payments crisis, with very low foreign exchange reserves, led to reforms.",
+    "Step 2, Explain the 1991 reforms. They are summarised as liberalisation (fewer licences), privatisation (smaller state role in some sectors) and globalisation (lower import duties, foreign investment). Model answer should state both gains and costs in a balanced way.",
+    "Step 3, Compute growth. If GDP rises from 1,000 to 1,060 units, growth is (1,060 - 1,000) / 1,000 x 100 = 6 percent. If population grows 1.5 percent, per capita income grows roughly 4.5 percent, which affects living standards.",
+    "Step 4, Read sector shares. Agriculture employs roughly 45 percent of workers but produces under 20 percent of output, so productivity per worker is low there. This gap explains why rural incomes lag and why shifting work to industry and services is a goal.",
+    "Step 5, Measure poverty. Head count ratio = poor / population x 100. If 220 million of 1,000 million live below the poverty line, the ratio is 22 percent. Compare using HDI as well, which includes health and education, not just income.",
+    "Step 6, Your turn: assess one effect of the 1991 reforms. Model answer: 'Services and exports grew faster because of openness, but inequality between regions and sectors persisted, so growth needs jobs and skills too.'"
+   ]
   }
  ],
  "rubric": [

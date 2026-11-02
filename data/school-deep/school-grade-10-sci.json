@@ -32,7 +32,14 @@
    "example": "Solved: Water is H2O: 2 hydrogen atoms and 1 oxygen atom. Mass = 2 x 1 + 16 = 18 units. Check atoms balance on both sides of an equation. Method: Model run for 'Chemistry: chemical reactions and equations'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Balance equations and classify reactions: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Balance iron plus steam: Fe + H2O gives Fe3O4 + H2. Fix Fe first with 3Fe. Fe3O4 has 4 oxygen, so use 4H2O. Then hydrogen gives 4H2. Final: 3Fe + 4H2O gives Fe3O4 + 4H2, with 3 Fe, 8 H and 4 O on each side.",
+    "Step 2, Balance aluminium and hydrochloric acid: Al + HCl gives AlCl3 + H2. Use 2Al to give 2AlCl3, which needs 6HCl and gives 3H2. Final: 2Al + 6HCl gives 2AlCl3 + 3H2. Check: 2 Al, 6 H, 6 Cl both sides.",
+    "Step 3, Classify. 2Mg + O2 gives 2MgO is combination and also oxidation. CaCO3 gives CaO + CO2 on heating is decomposition (thermal). Zn + CuSO4 gives ZnSO4 + Cu is displacement. AgNO3 + NaCl gives AgCl + NaNO3 is double displacement.",
+    "Step 4, Identify observations. The silver chloride in the last reaction is a white precipitate, so add (s) state symbols: AgNO3(aq) + NaCl(aq) gives AgCl(s) + NaNO3(aq). Zinc displaces copper because zinc is more reactive; blue solution fades.",
+    "Step 5, Identify oxidation and reduction in CuO + H2 gives Cu + H2O. CuO loses oxygen so it is reduced; H2 gains oxygen so it is oxidised. Together a redox reaction. Rancidity and corrosion are everyday oxidations.",
+    "Step 6, Your turn: balance Fe2O3 + CO gives Fe + CO2 and name the type. Answer: Fe2O3 + 3CO gives 2Fe + 3CO2; it is a redox reaction."
+   ]
   },
   {
    "n": 2,
@@ -76,7 +83,14 @@
    "example": "Solved: Zinc + sulphuric acid gives zinc sulphate + hydrogen. Metals shine and conduct; non-metals such as sulphur are brittle and poor conductors. Method: Model run for 'Chemistry: metals, non-metals and carbon compounds'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Explain reactivity and bonding in carbon compounds: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Use the reactivity series K, Na, Ca, Mg, Al, Zn, Fe, Pb, H, Cu, Ag, Au. Predict: iron plus copper sulphate reacts (Fe is above Cu): Fe + CuSO4 gives FeSO4 + Cu. Copper plus zinc sulphate does not react.",
+    "Step 2, Explain ionic bonding in NaCl. Na (2,8,1) loses one electron to become Na+ (2,8); Cl (2,8,7) gains it to become Cl- (2,8,8). Opposite charges attract. Ionic solids have high melting points (801 C) and conduct when molten or dissolved.",
+    "Step 3, Explain covalent bonding in methane CH4. Carbon (2,4) shares one electron pair with each of four hydrogens, completing its octet. Covalent compounds have low melting points and are poor conductors.",
+    "Step 4, Name carbon compounds. Alkanes CnH2n+2: methane CH4, ethane C2H6, propane C3H8. Alkene C2H4 is ethene with a double bond. Ethanol C2H5OH has an alcohol group. Ethanoic acid CH3COOH has a carboxylic acid group.",
+    "Step 5, Write reactions. Combustion: CH4 + 2O2 gives CO2 + 2H2O. Esterification: CH3COOH + C2H5OH with acid catalyst gives ethyl ethanoate, fruity smelling, + H2O. Saponification of oils with NaOH gives soap.",
+    "Step 6, Your turn: give the formula of the alkane with 5 carbons and say if Cu displaces Zn from ZnSO4. Answer: C5H12; no, copper is less reactive than zinc."
+   ]
   },
   {
    "n": 4,
@@ -120,7 +134,14 @@
    "example": "Solved: V = I x R. A 6 V cell across a 2 ohm resistor gives I = 6 / 2 = 3 A. Method: Model run for 'Physics: electricity and magnetic effects of current'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Apply Ohm's law and describe motors and generators: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Apply V = IR. A nichrome wire has a 6 V cell across it and a measured current of 0.3 A. R = V / I = 6 / 0.3 = 20 ohm. Doubling the voltage to 12 V gives 0.6 A, since resistance is constant.",
+    "Step 2, Combine resistors. Series 10 ohm and 20 ohm give 30 ohm. In parallel, 1/R = 1/10 + 1/20 = 3/20, so R = 6.67 ohm. With 6 V, series current is 0.2 A and parallel total current is 0.9 A.",
+    "Step 3, Use power and heat. P = V I. A heater at 220 V draws 5 A, so P = 1100 W. In 2 hours it uses 1.1 kW x 2 = 2.2 kWh. Joule heating H = I^2 R t.",
+    "Step 4, Describe magnetic effects. A current in a wire gives a circular field, found by the right-hand rule. A solenoid acts as a bar magnet. Force on a conductor follows Fleming's left-hand rule: thumb force, first finger field, second finger current.",
+    "Step 5, Explain the motor and generator. An electric motor turns a coil in a field using a split-ring commutator to reverse current every half turn. A generator turns a coil in a field to induce current by electromagnetic induction, shown by Fleming's right-hand rule.",
+    "Step 6, Your turn: a 40 ohm bulb is across 220 V. Find current and power. Answer: I = 220/40 = 5.5 A; P = 220 x 5.5 = 1210 W."
+   ]
   },
   {
    "n": 6,
@@ -164,7 +185,14 @@
    "example": "Solved: Cross a tall plant (TT) with a short one (tt): all offspring are Tt and tall. Cross Tt with Tt: 3 tall to 1 short. Method: Model run for 'Biology: reproduction, heredity and evolution'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Describe reproduction and Mendel's laws: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Compare reproduction. Asexual: binary fission in amoeba, budding in yeast, fragmentation in Spirogyra, vegetative propagation by cuttings. Sexual reproduction involves two gametes and gives variation.",
+    "Step 2, Trace human reproduction: sperm from testes meet an egg in the fallopian tube, fertilisation forms a zygote that divides and implants in the uterus, the placenta supplies nutrients, and about 9 months later birth occurs.",
+    "Step 3, Do a monohybrid cross. Tall (T) is dominant over dwarf (t). Cross Tt x Tt: gametes T, t and T, t give TT, Tt, Tt, tt. Phenotype ratio 3 tall to 1 dwarf, genotype ratio 1:2:1.",
+    "Step 4, Do a dihybrid cross. Round yellow RRYY x wrinkled green rryy gives all RrYy. Selfing gives 9 round yellow, 3 round green, 3 wrinkled yellow, 1 wrinkled green. From 160 plants expect 90, 30, 30 and 10.",
+    "Step 5, Explain sex determination. Humans have 22 pairs of autosomes plus XX or XY. The egg always carries X. The sperm carries X or Y, so the child's sex is decided by the father's sperm with a 50 per cent chance each.",
+    "Step 6, Your turn: cross heterozygous tall Tt with dwarf tt and give the ratio. Answer: Tt, Tt, tt, tt, so 1 tall to 1 dwarf."
+   ]
   },
   {
    "n": 8,
@@ -186,7 +214,14 @@
    "example": "Solved: Reduce, reuse, recycle. Rainwater harvesting saves water. List two actions your school can do and how to check they worked. Method: Model run for 'Environment and sustainable use of resources'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Analyse ecosystems and sustainable resource use: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Build a food chain. Grass, grasshopper, frog, snake, eagle. Name the producer (grass), primary consumer (grasshopper), secondary consumer (frog), tertiary consumer (snake) and top consumer (eagle). Add decomposers like bacteria.",
+    "Step 2, Apply the 10 per cent law. If grass captures 10,000 J, the grasshopper gets 1000 J, the frog 100 J, the snake 10 J and the eagle 1 J. Hence food chains are short, usually 3 to 5 levels.",
+    "Step 3, Analyse waste. Biodegradable waste like vegetable peels is broken down by microbes. Non-biodegradable waste like plastic stays. Biomagnification: a pesticide at 0.02 ppm in water can reach much higher levels in top predators.",
+    "Step 4, Discuss the ozone layer. UV breaks O2 and O3 in the stratosphere. Chlorofluorocarbons release chlorine atoms which destroy ozone, so their use was curbed. Ozone absorbs harmful UV.",
+    "Step 5, Plan resource use. Use the 3 Rs, rainwater harvesting, and water management. Compare coal and petroleum as non-renewable fossil fuels with solar and wind as renewable. Use CNG to cut air pollution.",
+    "Step 6, Your turn: a producer fixes 5000 J. How much reaches the tertiary consumer by the 10 per cent law? Answer: 5000 to 500 to 50 to 5 J, so 5 J."
+   ]
   }
  ],
  "rubric": [

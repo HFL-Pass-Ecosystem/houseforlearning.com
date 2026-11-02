@@ -32,7 +32,15 @@
    "example": "Solved: Cells A1 = 12, A2 = 18, A3 = 20. In A4 type =SUM(A1:A3) to get 50. =AVERAGE(A1:A3) gives 16.67. Change A1 and the totals update. Method: Model run for 'Word, slides and spreadsheets in practice'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Prepare a report with a table, chart and slides: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Plan: Saif prepares a report on class reading for four weeks. He needs a table in a word processor, a chart from a spreadsheet, and three slides. First he collects the numbers: minutes read per week.",
+    "Step 2, Enter data: In the spreadsheet he types Week 1 to Week 4 in A2:A5, and minutes 120, 150, 180, 210 in B2:B5. Headers in row 1 are Week and Minutes. The increase each week is 30 minutes.",
+    "Step 3, Formulas: In B6 he types =SUM(B2:B5) and gets 660 because 120 plus 150 is 270, plus 180 is 450, plus 210 is 660. In B7 he types =AVERAGE(B2:B5) and gets 165, since 660 divided by 4 is 165.",
+    "Step 4, Chart: He selects A1:B5 and inserts a line chart, because the numbers change over time. The line rises steadily from 120 to 210. He adds the title 'Reading Minutes per Week' and axis labels.",
+    "Step 5, Report page: In the word processor he adds a table, 5 rows by 2 columns, copying the weeks and minutes, pastes the chart under it, and writes, 'Reading grew by 30 minutes each week, to a total of 660 minutes.'",
+    "Step 6, Slides: Slide 1 is the title. Slide 2 holds the chart with one sentence, 'Average 165 minutes'. Slide 3 gives one goal: 240 minutes by Week 6, which is 210 plus 30 plus 30. He saves all three files with clear names.",
+    "Your turn: Steps walked: Mon 3000, Tue 4000, Wed 5000, Thu 6000. Total, average and chart? Model answer: total 18000, average 4500, a line chart of the four days, and a one-sentence finding that steps rose by 1000 each day."
+   ]
   },
   {
    "n": 2,
@@ -98,7 +106,15 @@
    "example": "Solved: Before posting ask: would I say this face to face, and would I be happy if a teacher saw it? Everything you post can be copied. Method: Model run for 'Cyber safety and ethics'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Apply privacy and respectful communication rules: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, The situation: Alia receives a message from a classmate in a group chat: 'Send me your login code and then I'll do your homework.' Another child posts an unkind photo of a friend, with the caption 'Look at this'.",
+    "Step 2, Privacy rule: Alia knows a login code or password is private. She never shares it, even with a friend, because anyone with it can act as her. The rule covers passwords, codes, home address and phone number.",
+    "Step 3, Reply respectfully and firmly: She writes, 'No thanks, my codes are private. I will help you with the homework if you want.' She says no politely and offers a safe alternative, so the friendship is not harmed.",
+    "Step 4, The unkind photo: Alia does not share or like it. She messages the poster, 'Please delete that, it could hurt her.' She screenshots it, tells her teacher, and checks on the friend. Sharing would spread the harm.",
+    "Step 5, Strengthen settings: At home she checks that her account is set to private, uses a password of at least 12 characters mixing words, numbers and symbols, and turns on a second step for sign-in.",
+    "Step 6, Review: Her actions followed three ideas. Keep private data private, treat others with respect, and report harm to a trusted adult. If she were unsure, she would pause and ask before posting.",
+    "Your turn: A stranger online asks for your school name and photo. Respond using the rules. Model answer: do not send, block and report, tell an adult, because both are private information that could identify you."
+   ]
   }
  ],
  "rubric": [

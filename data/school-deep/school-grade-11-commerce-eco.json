@@ -32,7 +32,14 @@
    "example": "Solved: Marks 10, 20, 20, 30, 40. Mean = 120 / 5 = 24. Median = 20. Mode = 20. Range = 40 - 10 = 30. Method: Model run for 'Introduction to economics and collection of data'. Question: what happened, or what is the situation, and why? Sources: two short extracts, a map or table. Notes: who, what, where, when, why. Answer: three sentences, each with a reason and a piece of evidence. Check: is there a point of view that you have not considered? What a good answer looks like: facts are correct, reasons are linked to evidence, and one other point of view is named fairly.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Describe economic problems and data collection methods: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": []
+   "steps": [
+    "Step 1, Start with scarcity. Wants are unlimited, but resources are limited, so every economy must choose what to produce, how to produce and for whom. Choice means opportunity cost: the value of the next best option given up.",
+    "Step 2, Use a production possibilities table. Economy can make wheat and cloth: A (0 wheat, 50 cloth), B (10, 45), C (20, 35), D (30, 20), E (40, 0). Moving A to B loses 5 cloth for 10 wheat, then 10, then 15, then 20.",
+    "Step 3, Interpret it. The opportunity cost of 10 wheat rises from 5 cloth to 20 cloth, so the curve bends outwards, because resources are not equally good at both goods. Point (30, 40) lies outside the curve and is unattainable now.",
+    "Step 4, Learn data collection. Primary data is collected first-hand by questionnaire, interview or observation. Secondary data comes from existing sources such as the national census, published surveys and company reports. A census covers all units, while a sample covers a part.",
+    "Step 5, Choose a method with a reason. To study monthly pocket money of 500 students, a short questionnaire is suitable because it is cheap and covers many. Model answer: 'I would use a sample questionnaire, with clear closed questions to reduce bias.'",
+    "Step 6, Your turn: if 20 wheat is produced, what is the maximum cloth in the table, and what is the cost of 10 more wheat? Model answer: 'Maximum cloth is 35, and moving to 30 wheat costs 15 cloth.'"
+   ]
   },
   {
    "n": 2,
@@ -54,7 +61,14 @@
    "example": "Solved: Marks 10, 20, 20, 30, 40. Mean = 120 / 5 = 24. Median = 20. Mode = 20. Range = 40 - 10 = 30. Method: Model run for 'Sampling, organisation and presentation of data'. Question: what happened, or what is the situation, and why? Sources: two short extracts, a map or table. Notes: who, what, where, when, why. Answer: three sentences, each with a reason and a piece of evidence. Check: is there a point of view that you have not considered? What a good answer looks like: facts are correct, reasons are linked to evidence, and one other point of view is named fairly.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Organise and present data in tables and diagrams: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": []
+   "steps": [
+    "Step 1, Choose a sample. A school has 600 students and you need 60. Systematic sampling uses interval 600 / 60 = 10. Pick a random start, say 7, then take roll numbers 7, 17, 27 and so on. Random sampling gives each student an equal chance and avoids bias.",
+    "Step 2, Organise raw marks of 20 students: 12, 25, 38, 45, 22, 31, 47, 18, 29, 36, 41, 8, 33, 27, 15, 49, 23, 39, 44, 30. Use classes 0-10, 10-20, 20-30, 30-40, 40-50, where the upper limit is excluded.",
+    "Step 3, Tally the frequencies. 0-10: 1; 10-20: 3 (12, 18, 15); 20-30: 5; 30-40: 6 (including 30); 40-50: 5. Total 1 + 3 + 5 + 6 + 5 = 20, matching the number of students. Cumulative frequencies are 1, 4, 9, 15, 20.",
+    "Step 4, Present as diagrams. A histogram has touching bars with heights 1, 3, 5, 6, 5. An ogive plots cumulative frequency against upper limits. For a pie chart the angle is frequency / 20 x 360: 18, 54, 90, 108 and 90 degrees, which sum to 360.",
+    "Step 5, Write a model reading: 'The class 30-40 has the highest frequency, 6 students, which is 30 percent of the group. Only 4 of 20 scored below 20, so most students scored 20 or more.'",
+    "Step 6, Your turn: how many students scored below 30? Model answer: 'The cumulative frequency up to 30 is 1 + 3 + 5 = 9, so 9 students, which is 45 percent of the 20.'"
+   ]
   },
   {
    "n": 3,
@@ -76,7 +90,14 @@
    "example": "Solved: Marks 10, 20, 20, 30, 40. Mean = 120 / 5 = 24. Median = 20. Mode = 20. Range = 40 - 10 = 30. Method: Model run for 'Measures of central tendency and dispersion'. Question: what happened, or what is the situation, and why? Sources: two short extracts, a map or table. Notes: who, what, where, when, why. Answer: three sentences, each with a reason and a piece of evidence. Check: is there a point of view that you have not considered? What a good answer looks like: facts are correct, reasons are linked to evidence, and one other point of view is named fairly.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Calculate and interpret mean, median and mode: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": []
+   "steps": [
+    "Step 1, Compute the three averages for ungrouped data. Output of 5 workers: 12, 15, 15, 18, 20. Mean = 80 / 5 = 16. Median, the middle value, is 15. Mode, the most frequent value, is 15. Mean exceeds the others because of the high 20.",
+    "Step 2, Compute the mean of grouped marks. Classes 0-10 to 40-50 have frequencies 1, 3, 5, 6, 5 and midpoints 5, 15, 25, 35, 45. Sum of f x m = 5 + 45 + 125 + 210 + 225 = 610. Mean = 610 / 20 = 30.5.",
+    "Step 3, Find the median. N / 2 = 10. Cumulative frequencies are 1, 4, 9, 15, so the median class is 30-40. Median = 30 + (10 - 9) / 6 x 10 = 31.67 approximately. The mode formula gives 30 + (6 - 5) / (12 - 5 - 5) x 10 = 35.",
+    "Step 4, Measure dispersion for 12, 15, 15, 18, 20. Range = 20 - 12 = 8. Deviations from 16 are -4, -1, -1, 2, 4, with squares 16, 1, 1, 4, 16, totalling 38. Variance = 38 / 5 = 7.6, and standard deviation is about 2.76.",
+    "Step 5, Compare two series by coefficient of variation. CV = (SD / mean) x 100 = 2.76 / 16 x 100 = 17.2 percent. A series with 25 percent is more variable. Model answer: 'The series with the lower CV is more consistent.'",
+    "Step 6, Your turn: find the mean and median of 4, 6, 8, 10, 12. Model answer: 'Mean is 40 / 5 = 8 and median is the middle value, 8. They coincide because the data are symmetrical.'"
+   ]
   },
   {
    "n": 4,

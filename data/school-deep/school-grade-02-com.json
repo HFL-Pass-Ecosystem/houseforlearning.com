@@ -32,7 +32,15 @@
    "example": "Solved: Type a title, select it, make it bold, add two lines, and save as notes.txt. Reopen to check. Method: Model run for 'Using a text editor'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Open, type, save and name a simple document: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
-   "steps": []
+   "steps": [
+    "Step 1, Open the editor: Hind clicks the Start button, finds the text editor in the list, and clicks it once. A white empty page opens with a blinking line at the top left. That blinking line is the cursor.",
+    "Step 2, Type a sentence: She clicks inside the page and types 'My cat is called Noor.' She presses the Space bar between words and the full stop key at the end. Five words and a full stop appear on one line.",
+    "Step 3, New line: Hind presses Enter. The cursor jumps to the next line. She types 'Noor likes milk.' Now the page has two lines, each starting with a capital letter and ending with a full stop.",
+    "Step 4, Fix a typing mistake: She sees 'mlik' instead of 'milk'. She clicks just after the k, presses Backspace four times to delete all of 'mlik', and types milk again. The word now reads correctly.",
+    "Step 5, Save and name: Hind presses Ctrl and S together. A box asks for a name. She types 'my-cat' and presses Enter. The title at the top of the window changes to my-cat, which means the file is saved.",
+    "Step 6, Close and reopen: She closes the editor, then opens the Documents folder and double-clicks my-cat. Both lines come back unchanged, which proves the file was saved. Choosing a clear name made it easy to find.",
+    "Your turn: Type 'I like apples.' on line one and 'They are red.' on line two, then save it as 'apples'. Model answer: Ctrl+S, type apples, Enter. Reopening apples shows two lines, each with a capital letter and a full stop."
+   ]
   },
   {
    "n": 2,
@@ -54,7 +62,15 @@
    "example": "Solved: Draw a square, put a triangle on top, add a door and fill with colour: a house. Save as house.png. Method: Model run for 'Drawing and colouring tools'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Use shapes, fill and undo in a drawing tool: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
-   "steps": []
+   "steps": [
+    "Step 1, Choose a shape: Yusuf opens the drawing tool and clicks the rectangle shape in the tool list. He drags from the left of the page to the middle, down and across, and lets go. A square outline appears for a house wall.",
+    "Step 2, Fill with colour: He clicks the fill tool, which looks like a paint bucket, picks orange, and clicks inside the rectangle. The whole wall turns orange. The bucket fills only inside closed lines, so the outline must have no gaps.",
+    "Step 3, Add a triangle roof: Yusuf selects the triangle shape, drags a triangle on top of the wall, then fills it brown with the bucket. The page now shows an orange wall and a brown roof, which is two shapes.",
+    "Step 4, Add a circle window: He selects the circle shape and holds Shift while dragging so the circle is round. He puts it on the wall and fills it light blue. Now the house has one round window.",
+    "Step 5, Undo: Yusuf accidentally fills the sky area black with the bucket. He presses Ctrl and Z once. The black disappears and the page returns to the step before. Undo cancels only the last action each time.",
+    "Step 6, Count and save: The finished picture has 3 shapes, a rectangle, a triangle and a circle, filled in 3 colours. Yusuf presses Ctrl and S, names it 'my house', and presses Enter to keep it.",
+    "Your turn: Make a boat from a rectangle hull and a triangle sail, fill both, undo one mistake. Model answer: draw the rectangle, fill brown; draw a triangle above it, fill white; if a wrong fill happens press Ctrl+Z once. Two shapes, two colours."
+   ]
   },
   {
    "n": 3,

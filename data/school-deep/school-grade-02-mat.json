@@ -32,7 +32,14 @@
    "example": "Solved: 5,38,246 has 5 lakh, 38 thousand, 2 hundreds, 4 tens and 6 ones. The 8 stands for 8,000. Rounded to the nearest thousand it is 5,38,000. Method: Model run for 'Place value to 100'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Show a number as tens and ones and compare numbers: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
-   "steps": []
+   "steps": [
+    "Step 1, Break 63 into tens and ones: 6 tens and 3 ones, which is 60 + 3. Draw 6 rods of ten and 3 unit cubes. The 6 in the tens place is worth 60, not 6.",
+    "Step 2, Compare 47 and 74: both use digits 4 and 7. Look at the tens first. 7 tens is more than 4 tens, so 74 > 47. Only look at the ones if the tens match.",
+    "Step 3, Compare with equal tens: 58 and 52. Tens are both 5, so compare ones: 8 is more than 2. So 58 > 52. Write it as 52 < 58 and read it two ways.",
+    "Step 4, Order numbers: 39, 93, 29, 91. Tens: 3, 9, 2, 9. Smallest tens is 29, then 39. The two with 9 tens are compared by ones: 91 before 93. Order is 29, 39, 91, 93.",
+    "Step 5, Build a number: with digit cards 5, 8 and 2, make the largest two-digit number using two cards. Put the biggest digit in tens: 85. The smallest is 25. Check, 85 is above 25.",
+    "Step 6, Your turn: write 76 as tens and ones, and compare 68 and 86. Answer: 76 is 7 tens and 6 ones, 70 + 6. And 68 < 86 because 6 tens is less than 8 tens."
+   ]
   },
   {
    "n": 2,
@@ -54,7 +61,14 @@
    "example": "Solved: 47 + 28. Tens: 40 + 20 = 60. Ones: 7 + 8 = 15. Add: 60 + 15 = 75. Check by taking away: 75 - 28 = 47. Method: Model run for 'Addition to 100'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Add two-digit numbers with and without carrying: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
-   "steps": []
+   "steps": [
+    "Step 1, Add without carrying: 34 + 25. Ones: 4 + 5 = 9. Tens: 3 + 2 = 5. So the answer is 59. Line up the ones under ones and tens under tens before adding.",
+    "Step 2, Add with carrying: 47 + 28. Ones: 7 + 8 = 15, write 5 and carry 1 ten. Tens: 4 + 2 = 6, plus the carried 1 is 7. The answer is 75.",
+    "Step 3, Check with rounding: 47 is about 50 and 28 is about 30, so the sum should be near 80. Our answer 75 is close to 80, so it is sensible. A far-off answer means check again.",
+    "Step 4, Word problem: a shop sold 56 mangoes in the morning and 38 in the evening. 56 + 38: ones 6 + 8 = 14, write 4 carry 1; tens 5 + 3 + 1 = 9. Total 94 mangoes.",
+    "Step 5, Add by partitioning: 56 + 38 = 56 + 30 + 8 = 86 + 8 = 94. Same answer as the column method, so both agree. Using two methods catches slips in the carry.",
+    "Step 6, Your turn: find 68 + 25 and check by rounding. Answer: ones 8 + 5 = 13, write 3 carry 1; tens 6 + 2 + 1 = 9. So 93. Rounded 70 + 30 = 100, near 93."
+   ]
   },
   {
    "n": 3,
@@ -76,7 +90,14 @@
    "example": "Solved: 83 - 47. Count up: 47 to 50 is 3, 50 to 80 is 30, 80 to 83 is 3. Total 3 + 30 + 3 = 36. Check: 36 + 47 = 83. Method: Model run for 'Subtraction to 100'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Subtract two-digit numbers with and without borrowing: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
-   "steps": []
+   "steps": [
+    "Step 1, Subtract without borrowing: 79 - 34. Ones: 9 - 4 = 5. Tens: 7 - 3 = 4. The answer is 45. Write the bigger number on top and line up the places.",
+    "Step 2, Subtract with borrowing: 52 - 27. Ones: 2 is less than 7, so borrow a ten from the 5. The 5 tens become 4 tens and the 2 ones become 12. Then 12 - 7 = 5 and 4 - 2 = 2. Answer: 25.",
+    "Step 3, Check by adding: 25 + 27 = 52, since 5 + 7 = 12, write 2 carry 1, and 2 + 2 + 1 = 5. This matches the number we started with, so 25 is correct.",
+    "Step 4, Word problem: a library had 83 books and lent out 46. 83 - 46: borrow, so ones 13 - 6 = 7 and tens 7 - 4 = 3. Answer: 37 books are left.",
+    "Step 5, Check with counting up: from 46 to 50 is 4, then 50 to 83 is 33, so 4 + 33 = 37. This second method agrees with 37 and proves the borrowing was done right.",
+    "Step 6, Your turn: find 71 - 38 and check by adding. Answer: ones 11 - 8 = 3, tens 6 - 3 = 3, so 33. Check: 33 + 38 = 71."
+   ]
   },
   {
    "n": 4,
@@ -120,7 +141,14 @@
    "example": "Solved: 36 sweets shared equally among 4 children: 36 / 4 = 9 each. Check: 4 x 9 = 36. Method: Model run for 'Sharing and grouping'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Share equally and link sharing to multiplication: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
-   "steps": []
+   "steps": [
+    "Step 1, Share equally: 12 sweets among 3 children. Deal one at a time: each child gets 1, then 2, then 3, then 4. Each gets 4 sweets and none are left. So 12 shared by 3 is 4.",
+    "Step 2, Group instead: 12 sweets in bags of 3. Circle groups of 3: you can make 4 bags. Sharing 12 into 3 groups and making groups of 3 both give 4.",
+    "Step 3, Link to multiplication: 4 bags of 3 sweets is 4 x 3 = 12. Reverse it: 12 divided by 3 = 4. The multiplication fact and the sharing fact are about the same numbers.",
+    "Step 4, Check unequal sharing: 10 apples among 3 children gives 3 each with 1 left over, because 3 x 3 = 9. Equal sharing needs the same number for everyone, so one apple remains.",
+    "Step 5, Word problem: 20 pencils shared equally among 5 pupils. Count in fives: 5, 10, 15, 20 is four jumps, so each gets 4. Check: 5 x 4 = 20.",
+    "Step 6, Your turn: share 18 stickers among 3 friends, and write the multiplication check. Answer: each gets 6, because 3 x 6 = 18."
+   ]
   },
   {
    "n": 6,
@@ -142,7 +170,14 @@
    "example": "Solved: 3/4 + 1/6. Common denominator 12. 9/12 + 2/12 = 11/12. Half of 12 is 6 and a quarter of 12 is 3. Method: Model run for 'Fractions: halves and quarters'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Name and show halves, thirds and quarters of shapes: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
-   "steps": []
+   "steps": [
+    "Step 1, Half of a shape: fold a square paper so the two parts match exactly. Each part is one half, written 1/2. Two halves make a whole, and the parts must be equal in size.",
+    "Step 2, Quarters: fold the square again so there are 4 equal parts. Each part is one quarter, 1/4. Colour 1 part and say one quarter is shaded; 3 parts shaded is three quarters.",
+    "Step 3, Thirds: a rectangle cut into 3 equal strips gives thirds. Shade 1 strip and write 1/3. If the strips are different sizes then they are not thirds, so measure them.",
+    "Step 4, Half of a number: half of 12 cookies means sharing into 2 equal groups, so 12 shared by 2 is 6. A quarter of 12 is 3 cookies since 4 groups of 3 make 12.",
+    "Step 5, Spot a wrong split: a circle cut into 2 pieces, one big and one small, is not in halves. Both parts need the same size, so the split fails and is not 1/2.",
+    "Step 6, Your turn: what is a quarter of 8 sweets, and how many equal parts make thirds? Answer: a quarter of 8 is 2, since 4 groups of 2 make 8; thirds have 3 equal parts."
+   ]
   },
   {
    "n": 7,
@@ -164,7 +199,14 @@
    "example": "Solved: 2 m 35 cm = 200 + 35 = 235 cm. 1.5 kg = 1.5 x 1000 = 1500 g. Method: Model run for 'Length, mass and capacity'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Measure with units and choose the right tool: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
-   "steps": []
+   "steps": [
+    "Step 1, Measure length: line a ruler's 0 mark with the left end of a pencil. The right end reaches 15, so the pencil is 15 cm long. Always start at 0, not at the edge of the ruler.",
+    "Step 2, Choose the tool: use a ruler for a pencil, a tape measure for a desk, and a metre stick for a door. Pick a tool that fits the size, so a ruler for small things.",
+    "Step 3, Mass: a bag of sugar on a kitchen scale reads 2 kg. A bag of rice reads 5 kg. The rice is 3 kg heavier since 5 - 2 = 3. Scales measure mass in grams or kilograms.",
+    "Step 4, Capacity: a jug holds 1 litre and a cup holds a quarter of a litre. Pouring 4 cups fills the jug, because 4 x 1/4 = 1. Choose litres for large amounts of liquid.",
+    "Step 5, Compare lengths: a rope is 90 cm and a stick is 65 cm. The rope is longer by 90 - 65 = 25 cm. Check by adding: 65 + 25 = 90.",
+    "Step 6, Your turn: which tool measures a classroom floor, and how much longer is a 120 cm ribbon than an 85 cm one? Answer: a tape measure; 35 cm longer, since 120 - 85 = 35."
+   ]
   },
   {
    "n": 8,
@@ -186,7 +228,14 @@
    "example": "Solved: A train leaves at 9:45 and the journey takes 2 hours 30 minutes. 9:45 + 2:00 = 11:45, then + 30 minutes = 12:15. Method: Model run for 'Time and money'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Read time to five minutes and add small amounts of money: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
-   "steps": []
+   "steps": [
+    "Step 1, Read the clock to 5 minutes: the minute hand on 3 means 15 minutes past, because each number is 5 minutes. With the hour hand just past 4, the time is quarter past 4, or 4:15.",
+    "Step 2, Count in fives: minute hand on 7 means 7 x 5 = 35 minutes. Count 5, 10, 15, 20, 25, 30, 35. With the hour hand near 6 the time is 6:35, which is 25 minutes to 7.",
+    "Step 3, Add money: a pen costs 15 dirhams and a notebook costs 28 dirhams. Add: 5 + 8 = 13, write 3 carry 1; 1 + 2 + 1 = 4. Total is 43 dirhams.",
+    "Step 4, Change: pay 50 dirhams for the 43 dirham items. Count up from 43 to 45 is 2, then to 50 is 5, so 7 dirhams change. Check: 43 + 7 = 50.",
+    "Step 5, Time later: it is 3:25 and a film starts in 10 minutes. Count on 10 minutes from 25 to get 35. The film starts at 3:35. Check on a clock face: minute hand moves from 5 to 7.",
+    "Step 6, Your turn: say the time when the minute hand is on 9 and the hour hand is between 8 and 9, and add 24 + 19 dirhams. Answer: 8:45, quarter to 9; and 24 + 19 = 43 dirhams."
+   ]
   },
   {
    "n": 9,
