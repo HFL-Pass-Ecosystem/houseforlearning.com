@@ -123,7 +123,7 @@ except Exception as _ex: print('skip price fixes', _ex)
 try:
     LOCAL_FIG = _json.load(open(pathlib.Path(__file__).parent / 'loc_local_figures.json'))['figures']
 except Exception as _ex: LOCAL_FIG = {}; print('skip local figures', _ex)
-def _art(t): return 'an' if t[:1] in 'AEIOU' else 'a'
+def _art(t): return 'an' if t[:1].lower() in 'aeiou' else 'a'
 def _bz(t): return t if t.lower().endswith(('business', 'businesses')) else t + ' business'
 PRICE_LEVEL = {'ky': 2, 'mx': 20, 'hk': 8, 'ge': 3}
 _AMT = _re.compile(r'\{c\} ?(\d[\d,]*)(\.\d+)?')
