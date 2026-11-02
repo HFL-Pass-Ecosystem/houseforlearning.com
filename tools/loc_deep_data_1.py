@@ -59,7 +59,7 @@ S_1 = [
 ('Check land, grid, noise, bird and permit rules before design.', 'Rules table: land lease, grid link, noise limit, bird survey, permit; each has a date.'),
 ('Keep site data: wind logs, output logs, maintenance logs; store with dates.', 'Log sheet: date, speed, output, fault code.'),
 ('Show proof with a small test turbine or published site data.', 'Test: 10 kW unit made 20000 kWh in a year at a 23% capacity factor.'),
-('Compute the energy and income.', '100 kW at 25% factor gives 100 x 0.25 x 8760 = 219000 kWh; at {c} 100 per 1000 kWh income is {c} 21900.'),
+('Compute the energy and income.', '100 kW at 25% factor gives 100 x 0.25 x 8760 = 219000 kWh; at {c} 150 per 1000 kWh income is {c} 32850; payback {c} 250000 / {c} 32850 = 7.6 years.'),
 ('Partner with an installer, an electrician and a land owner; write a safety plan.', 'Plan: lock-out step, height work rule, 2-person rule.'),
 ('Launch with one small unit and a go or no-go rule.', 'Go: wind above 5.5 m/s, permits in hand and payback under 10 years; else no-go.')]),
 ('wallet-payment-solution', 'Wallet Payment Solution', [
