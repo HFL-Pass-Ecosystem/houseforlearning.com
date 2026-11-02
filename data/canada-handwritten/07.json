@@ -54,7 +54,7 @@
     "Compute your cost: cloud hosting, support, scanners, onboarding time.",
     "Break-even = fixed cost / monthly margin per supplier."
    ],
-   "ex": "Price 2,400 a year per supplier; variable cost 900; margin 1,500. Fixed cost 9,000 a month is covered by 72 suppliers a year... that is 6 suppliers a month. Teaching figures in CAD.",
+   "ex": "Price 2,400 a year (200 a month); variable cost 900 a year (75 a month); margin 125 a month per supplier. Fixed cost 9,000 a month needs 9,000 / 125 = 72 suppliers to break even. Teaching figures in CAD.",
    "act": "Build the cost sheet and a customer saving case.",
    "std": "Units shown; saving case uses customer data."
   },
