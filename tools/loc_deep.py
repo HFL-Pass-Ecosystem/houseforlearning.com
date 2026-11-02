@@ -2,7 +2,7 @@
 """Deeper local editions for ten priority sectors x four places (40 pages): site/learn-deep-<k>-<slug>.html. Own wording."""
 import sys, pathlib, html, copy
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
-import flagship_loc_four as F, loc_editions as LE, build_full_courses as B
+import flagship_loc_four as F, loc_editions as LE, build_full_courses as B, loc_ladder as LL
 e = html.escape
 # per sector: (slug, topic, 8 x (lesson point, worked example sentence)); {c}=currency code
 S = [
@@ -108,6 +108,11 @@ try:
     from loc_deep_units import UNITS
 except ImportError:
     UNITS = {}
+# per-sector price, cost and fixed monthly cost in the sample base unit (from each sector's own worked example), scaled by PRICE_LEVEL
+ECON = {}
+for _n in 'ABC':
+    try: ECON.update(__import__(f'loc_deep_econ_{_n}').__dict__[f'ECON_{_n}'])
+    except Exception as _ex: print('skip econ', _n, _ex)
 PRICE_LEVEL = {'ky': 2, 'mx': 20, 'hk': 8, 'ge': 3}
 _AMT = _re.compile(r'\{c\} ?(\d[\d,]*)(\.\d+)?')
 def _scale(txt, c, k):
@@ -118,8 +123,11 @@ def _scale(txt, c, k):
 def build(L, idx, sl, topic, rows):
     L = copy.deepcopy(L); c = L['cur'].split(' or ')[0]; k = PRICE_LEVEL.get(L['k'], 1)
     L['price'], L['var'], L['fixed'] = LE.scaled(L, idx)
-    _f = FIXED_LEVEL.get(L['k'], 1); L['price'], L['var'], L['fixed'] = L['price'] * _f, L['var'] * _f, L['fixed'] * _f
-    L['unit'] = UNITS.get(sl, L['unit'])
+    if sl in ECON:
+        _p, _v, _fx, _u = ECON[sl]; L['price'], L['var'], L['fixed'], L['unit'] = _p * k, _v * k, _fx * k, _u
+    else:
+        _f = FIXED_LEVEL.get(L['k'], 1); L['price'], L['var'], L['fixed'] = L['price'] * _f, L['var'] * _f, L['fixed'] * _f
+        L['unit'] = UNITS.get(sl, L['unit'])
     L['item'] = f'a small {topic} business'
     mods = F.modules(L)
     mods[1] = LE.build.__globals__['F'].modules(L)[1]
@@ -133,9 +141,9 @@ def build(L, idx, sl, topic, rows):
     qz = ''.join(f'<details class="mod"><summary>Q{j+1}. {e(a)}</summary><p><strong>Model answer:</strong> {e(b)}</p></details>' for j, (a, b) in enumerate(q))
     rub = '<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>' + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(x)}</td><td>{e(d)}</td></tr>' for a, b, x, d in F.rubric(L)) + '</tbody></table></div>'
     jobs = '<ul>' + ''.join(f'<li><strong>{e(a)}.</strong> {e(b)}.</li>' for a, b in [(f'{topic} assistant', f'supports a small {topic} business in {L["name"]}')] + L['jobs'][:5]) + '</ul>'
-    body = (B.sec('', 'ab', 'about', f'{topic}: {L["name"]} deep edition', f'<p>{e(topic)} planned in detail for {e(L["name"])}: sector lessons plus local rules, jobs and {e(L["cur"])} examples. {e(F.CHECK)}</p>')
+    body = (B.sec('', 'ab', 'about', f'{topic}: {L["name"]} deep edition', f'<p>{e(topic)} planned in detail for {e(L["name"])}: sector lessons plus local rules, jobs and {e(L["cur"])} examples. {e(F.CHECK)}</p>' + LL.tcs_html(sl, L, e))
             + B.sec('alt', 'md', 'lesson by lesson', '8 modules with worked examples', mh) + B.sec('', 'as', 'assessment', 'How you are checked', f'<p>Pass: no criterion at Not yet and 8 of 10 right.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{qz}')
-            + B.sec('alt', 'jb', 'jobs', 'Where this takes you', jobs) + B.sec('', 'ld', 'ladder', 'Ladder L1 to L7', F.ladder(L)))
+            + B.sec('alt', 'jb', 'jobs', 'Where this takes you', jobs) + B.sec('', 'ld', 'ladder', 'Ladder L1 to L7', F.ladder(L, LL.slides_html(sl, L, e))))
     fn = f'learn-deep-{L["k"]}-{sl}.html'
     B.page(fn, f'{topic}: {L["name"]} deep edition', f'{topic} in detail for {L["name"]}.', f'{topic}: {L["name"]} deep edition', e(f'Sector lessons, local rules, jobs and {L["cur"]} examples.'), body, B.crumb(('Courses', 'courses-hub.html'), (f'{L["name"]} editions', f'learn-loc-{L["k"]}-hub.html'), (topic, None)), kicker=f'deep location edition · {L["k"].upper()}')
 if __name__ == '__main__':

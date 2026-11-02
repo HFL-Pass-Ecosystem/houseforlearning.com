@@ -6,6 +6,7 @@ import sys, pathlib, html, re, copy
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import flagship_loc_four as F
 import build_full_courses as B
+import loc_ladder as LL
 e = html.escape
 def slug(i): return f'{i:02d}'
 def cluster_of(t):
@@ -39,7 +40,7 @@ def build(L, i, t):
         f'<p class="ws-note">{e(F.CHECK)} Draft; not legal, tax, medical or financial advice.</p>')
     body = (B.sec('', 'ab', 'about this course', f'{t}: {L["name"]} edition', about) + B.sec('alt', 'md', 'lesson by lesson', '8 modules with worked examples', mh)
             + B.sec('', 'as', 'assessment', 'How you are checked', f'<p>Pass: no criterion at Not yet and 8 of 10 right.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{qz}')
-            + B.sec('alt', 'jb', 'jobs', 'Where this takes you', jobs) + B.sec('', 'ld', 'ladder', 'Ladder L1 to L7', F.ladder(L)))
+            + B.sec('alt', 'jb', 'jobs', 'Where this takes you', jobs) + B.sec('', 'ld', 'ladder', 'Ladder L1 to L7', F.ladder(L, LL.slides_html(LL.topic_slug(t), L, e))))
     fn = f'learn-loc-{L["k"]}-{slug(i)}.html'
     B.page(fn, f'{t}: {L["name"]} edition', f'{t} applied to {L["name"]}: local rules, jobs and examples in {L["cur"]}.', f'{t}: {L["name"]} edition', e(f'The global course "{t}" with local rules, jobs and examples for {L["name"]}.'), body,
            B.crumb(('Courses', 'courses-hub.html'), (f'{L["name"]} editions', f'learn-loc-{L["k"]}-hub.html'), (t, None)), kicker=f'location edition · {L["k"].upper()}')

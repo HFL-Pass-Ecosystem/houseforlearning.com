@@ -125,7 +125,7 @@ def modules(L):
     M.append((THEMES[5][0], THEMES[5][1], THEMES[5][2],
       f'Know your numbers in {cur}. Tax rule in one line: {L["tax"]}.',
       [f'Write {cur} next to every number.', 'Contribution per unit = price minus the cost of each unit.', 'Break-even units = fixed monthly cost divided by contribution per unit; round up.', 'Add tax and duty explicitly; never bury them in a price.', 'Check against a worse case: if sales are 25% lower, do you still cover costs?'],
-      f'For {L["item"]}: price {L.get("curx",cur)} {p} per unit, cost {L.get("curx",cur)} {v} per unit, fixed cost {L.get("curx",cur)} {f:,} per month. Contribution = {p} - {v} = {cm}. Break-even = {f:,} / {cm} = {f/cm:.1f}, so {bu} {unit} per month. If sales fall 25% from {bu*2}, you sell {int(bu*2*0.75)} and the margin is {int(bu*2*0.75)*cm - f:,}.',
+      f'For {L["item"]}: price {L.get("curx",cur)} {p:,} per unit, cost {L.get("curx",cur)} {v:,} per unit, fixed cost {L.get("curx",cur)} {f:,} per month. Contribution = {p:,} - {v:,} = {cm:,}. Break-even = {f:,} / {cm:,} = {f/cm:.1f}, so {bu} {unit} per month. If sales fall 25% from {bu*2}, you sell {int(bu*2*0.75)} and the margin is {int(bu*2*0.75)*cm - f:,}.',
       f'Build your own sheet in {cur}: price, unit cost, fixed cost, contribution, break-even and a 25% worse case. Put the tax and duty rules in a separate line with a source.',
       f'Sheet has all six lines in {cur}; arithmetic is checked by a peer; the worse case is shown.'))
     M.append((THEMES[6][0], THEMES[6][1], THEMES[6][2],
@@ -162,13 +162,13 @@ def rubric(L):
             ('Customer proof','No test','20-person test counted','Test, result, change and re-test'),
             ('People and trust','No notice','Privacy notice and role card','Notice, data map, signed role card and partner letter')]
 
-def ladder(L):
+def ladder(L, extra=''):
     names = ['L1 Basic','L2 Awareness','L3 Foundation','L4 Practitioner','L5 Specialist','L6 Advanced','L7 Super expert']
     ev = ['A short glossary in two languages.','A one-page market page.','A practice registration table.','A numbers sheet and a 20-person test.','A cluster checklist with sources.','A team plan with people, partners and data.','A published local case and a plan audit.']
     rows = ''.join(f'<tr><th scope="row">{names[i]}</th><td>{e(L["ladder"][i])}</td><td>{e(ev[i])}</td></tr>' for i in range(7))
     return ('<div class="scroll-x"><table class="ws-table"><caption>Ladder L1 to L7 for this location (this course covers L1 to L4; L5 to L7 follow in the sector courses)</caption>'
             '<thead><tr><th>Level</th><th>Can do</th><th>Evidence</th></tr></thead><tbody>' + rows + '</tbody></table></div>'
-            '<p class="ws-note">Notes: each level uses action verbs (name, describe, register, run, specialise, lead, mentor). A level is passed only when its evidence is checked by a mentor and a peer.</p>')
+            '<p class="ws-note">Notes: each level uses action verbs (name, describe, register, run, specialise, lead, mentor). A level is passed only when its evidence is checked by a mentor and a peer.</p>' + extra)
 
 def clusters_html(L):
     out = ''
