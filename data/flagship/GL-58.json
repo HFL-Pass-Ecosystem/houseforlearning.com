@@ -45,7 +45,7 @@
    ],
    "A 60 kWh car uses about 15 kWh per 100 km. The motor turns about 90 per cent of battery energy into motion; a petrol engine turns about 30 per cent of fuel energy into motion.",
    "Draw the energy chain for one named EV type and mark the loss at each step.",
-   "Chain is complete and ordered, losses are shown as percentages, and regenerative braking is explained in one sentence."
+   "Complete the chain in order, show losses as percentages, and explain regenerative braking in one sentence."
   ],
   [
    "Batteries",
@@ -60,7 +60,7 @@
    ],
    "A battery with 60 kWh capacity and 90 per cent health holds 54 kWh. A warranty to 70 per cent health after 8 years is a better promise than a warranty with no health level.",
    "Read a sample warranty and list capacity, health level, years and kilometre limit.",
-   "All four facts are extracted correctly and one question for the seller is written."
+   "Extract all four facts correctly and write one question for the seller."
   ],
   [
    "Charging levels and time",
@@ -75,7 +75,7 @@
    ],
    "Adding 30 kWh at 7 kW takes 30 / 7 x 1.1 = 4.7 hours, so overnight home charging fits. At 50 kW the same energy takes about 40 minutes.",
    "Calculate charging time for one user at home and at a route charger.",
-   "Both times are shown with the formula and the 10 per cent loss; the right place is chosen with a reason."
+   "Show both times with the formula and the 10 per cent loss; choose the right place and give a reason."
   ],
   [
    "Running cost comparison",
@@ -90,7 +90,7 @@
    ],
    "A user drives 12,000 km a year (prices are estimates; check your market). Electric: 15 kWh per 100 km at 8 INR per kWh costs 1.2 INR per km, or 14,400 INR a year. Petrol: 6 litres per 100 km at 100 INR per litre costs 6 INR per km, or 72,000 INR a year. The saving is 57,600 INR a year.",
    "Build a five-year cost table for one EV and one petrol car.",
-   "Totals add up, assumptions are listed, and break-even year is stated."
+   "Add up the totals, list the assumptions, and state the break-even year."
   ],
   [
    "Real-world range",
@@ -105,7 +105,7 @@
    ],
    "A car with 400 km label range gives about 320 km usable. In winter on a highway it may give 250 km. A 280 km trip needs a charging stop.",
    "Plan one trip and decide if a stop is needed.",
-   "Margin is applied, weather is considered, and the stop plan names where and how long."
+   "Apply the margin, consider the weather, and name in the stop plan where and how long."
   ],
   [
    "Safety",
@@ -120,7 +120,7 @@
    ],
    "A flooded car is not touched or charged. It is reported, isolated outdoors and checked by a trained technician before use.",
    "Write a ten-line safety card for a new owner.",
-   "Card covers charging, damage, flooding and what to tell responders, in plain words."
+   "Cover charging, damage, flooding and what to tell responders on the card, in plain words."
   ],
   [
    "Battery end of life",
@@ -150,33 +150,33 @@
    ],
    "For a user with home parking, 30 km daily trips and one 300 km trip a month, the sheet recommends the EV and a hire car or a charging stop for the long trip.",
    "Produce the full one-page advice sheet.",
-   "All parts are present, numbers are consistent, and a reader can act on it without help."
+   "Include all parts, keep numbers consistent, and check that a reader can act on it without help."
   ]
  ],
  "quiz": [
   [
    "What does regen braking do?",
-   "Returns some energy to the battery. (Covered in module 1: How an electric vehicle works. To pass that module: Chain is complete and ordered, losses are shown as percentages, and regenerative braking is explained in one sentence.)"
+   "Returns some energy to the battery. (Covered in module 1: How an electric vehicle works. To pass that module: Complete the chain in order, show losses as percentages, and explain regenerative braking in one sentence.)"
   ],
   [
    "Charging time formula?",
-   "Energy / power plus losses. (Covered in module 3: Charging levels and time. To pass that module: Both times are shown with the formula and the 10 per cent loss; the right place is chosen with a reason.)"
+   "Energy / power plus losses. (Covered in module 3: Charging levels and time. To pass that module: Show both times with the formula and the 10 per cent loss; choose the right place and give a reason.)"
   ],
   [
    "Name a battery ageing factor.",
-   "Heat or frequent fast charging. (Covered in module 2: Batteries. To pass that module: All four facts are extracted correctly and one question for the seller is written.)"
+   "Heat or frequent fast charging. (Covered in module 2: Batteries. To pass that module: Extract all four facts correctly and write one question for the seller.)"
   ],
   [
    "Who works on orange cables?",
-   "Trained technicians. (Covered in module 6: Safety. To pass that module: Card covers charging, damage, flooding and what to tell responders, in plain words.)"
+   "Trained technicians. (Covered in module 6: Safety. To pass that module: Cover charging, damage, flooding and what to tell responders on the card, in plain words.)"
   ],
   [
    "What affects range?",
-   "Speed, temperature, load, hills. (Covered in module 5: Real-world range. To pass that module: Margin is applied, weather is considered, and the stop plan names where and how long.)"
+   "Speed, temperature, load, hills. (Covered in module 5: Real-world range. To pass that module: Apply the margin, consider the weather, and name in the stop plan where and how long.)"
   ],
   [
    "EV running cost steps?",
-   "kWh per 100 km x price per kWh. (Covered in module 4: Running cost comparison. To pass that module: Totals add up, assumptions are listed, and break-even year is stated.)"
+   "kWh per 100 km x price per kWh. (Covered in module 4: Running cost comparison. To pass that module: Add up the totals, list the assumptions, and state the break-even year.)"
   ],
   [
    "Name an end-of-life option.",
@@ -184,15 +184,15 @@
   ],
   [
    "Why keep a reserve?",
-   "Range varies. (Covered in module 5: Real-world range. To pass that module: Margin is applied, weather is considered, and the stop plan names where and how long.)"
+   "Range varies. (Covered in module 5: Real-world range. To pass that module: Apply the margin, consider the weather, and name in the stop plan where and how long.)"
   ],
   [
    "What costs besides fuel?",
-   "Service, insurance, tax, depreciation. (Covered in module 4: Running cost comparison. To pass that module: Totals add up, assumptions are listed, and break-even year is stated.)"
+   "Service, insurance, tax, depreciation. (Covered in module 4: Running cost comparison. To pass that module: Add up the totals, list the assumptions, and state the break-even year.)"
   ],
   [
    "What is usable capacity?",
-   "Less than the label capacity. (Covered in module 2: Batteries. To pass that module: All four facts are extracted correctly and one question for the seller is written.)"
+   "Less than the label capacity. (Covered in module 2: Batteries. To pass that module: Extract all four facts correctly and write one question for the seller.)"
   ]
  ],
  "rubric": [
@@ -255,27 +255,27 @@
   [
    "How an electric vehicle works",
    "L1: learner can name EV parts. Focus module: How an electric vehicle works (Understand, 3 h). An electric car swaps the engine, fuel tank and gearbox for a battery, a motor and a controller. Knowing the chain lets you explain every cost and limit later. Key points: Energy flows battery to controller to motor to wheels; braking sends some energy back to the battery. A motor gives full pull from a standstill, so the car feels quick and quiet with one gear. A small battery runs lights, screens and cooling; the traction battery drives the wheels. Fewer moving parts means fewer routine services, but tyres, brakes and suspension still wear.",
-   "Teach: open with the worked example. A 60 kWh car uses about 15 kWh per 100 km. The motor turns about 90 per cent of battery energy into motion; a petrol engine turns about 30 per cent of fuel energy into motion. Then set the activity: Draw the energy chain for one named EV type and mark the loss at each step. Mark against the standard: Chain is complete and ordered, losses are shown as percentages, and regenerative braking is explained in one sentence. Check at this level: What does regen braking do? Model answer: Returns some energy to the battery."
+   "Teach: open with the worked example. A 60 kWh car uses about 15 kWh per 100 km. The motor turns about 90 per cent of battery energy into motion; a petrol engine turns about 30 per cent of fuel energy into motion. Then set the activity: Draw the energy chain for one named EV type and mark the loss at each step. Mark against the standard: Complete the chain in order, show losses as percentages, and explain regenerative braking in one sentence. Check at this level: What does regen braking do? Model answer: Returns some energy to the battery."
   ],
   [
    "Batteries",
    "L2: learner knows safety basics. Focus module: Batteries (Understand, 3 h). The battery is the costliest and most sensitive part. A buyer must read its size, health and warranty. Key points: Capacity is in kWh; usable capacity is lower than the headline number. Heat, deep discharge and constant fast charging age the battery faster. Warranty usually states years or kilometres and a minimum health level. Cold weather cuts range temporarily; hot weather speeds ageing.",
-   "Teach: open with the worked example. A battery with 60 kWh capacity and 90 per cent health holds 54 kWh. A warranty to 70 per cent health after 8 years is a better promise than a warranty with no health level. Then set the activity: Read a sample warranty and list capacity, health level, years and kilometre limit. Mark against the standard: All four facts are extracted correctly and one question for the seller is written. Check at this level: Name a battery ageing factor. Model answer: Heat or frequent fast charging."
+   "Teach: open with the worked example. A battery with 60 kWh capacity and 90 per cent health holds 54 kWh. A warranty to 70 per cent health after 8 years is a better promise than a warranty with no health level. Then set the activity: Read a sample warranty and list capacity, health level, years and kilometre limit. Mark against the standard: Extract all four facts correctly and write one question for the seller. Check at this level: Name a battery ageing factor. Model answer: Heat or frequent fast charging."
   ],
   [
    "Charging levels and time",
    "L3: learner can calculate charge times. Focus module: Charging levels and time (Apply, 4 h). Time to charge depends on power. Home, work and route charging suit different users. Key points: Time in hours = energy needed / charging power, with about 10 per cent loss. Slow home points give 2 to 7 kW; fast route chargers give 50 kW and more. Cars limit their own intake as the battery fills, so the last 20 per cent is slow. Match the charging place to where the car sits longest.",
-   "Teach: open with the worked example. Adding 30 kWh at 7 kW takes 30 / 7 x 1.1 = 4.7 hours, so overnight home charging fits. At 50 kW the same energy takes about 40 minutes. Then set the activity: Calculate charging time for one user at home and at a route charger. Mark against the standard: Both times are shown with the formula and the 10 per cent loss; the right place is chosen with a reason. Check at this level: Charging time formula? Model answer: Energy / power plus losses."
+   "Teach: open with the worked example. Adding 30 kWh at 7 kW takes 30 / 7 x 1.1 = 4.7 hours, so overnight home charging fits. At 50 kW the same energy takes about 40 minutes. Then set the activity: Calculate charging time for one user at home and at a route charger. Mark against the standard: Show both times with the formula and the 10 per cent loss; choose the right place and give a reason. Check at this level: Charging time formula? Model answer: Energy / power plus losses."
   ],
   [
    "Running cost comparison",
    "L4: learner can compare costs. Focus module: Running cost comparison (Analyse, 4 h). Compare fairly: energy, servicing, insurance, tax and the price difference. Key points: Cost per km = price per unit of energy x energy per km. Add servicing, insurance, tax and parking for both cars. Include purchase price difference and how many years the user will keep the car. State clearly what is a measured number and what is an assumption.",
-   "Teach: open with the worked example. A user drives 12,000 km a year. Electric: 15 kWh per 100 km at 8 per kWh costs 1.2 per km, 14,400 a year. Petrol: 6 litres per 100 km at 100 per litre costs 6 per km, 72,000 a year. The saving is 57,600 a year. Then set the activity: Build a five-year cost table for one EV and one petrol car. Mark against the standard: Totals add up, assumptions are listed, and break-even year is stated. Check at this level: EV running cost steps? Model answer: kWh per 100 km x price per kWh."
+   "Teach: open with the worked example. A user drives 12,000 km a year. Electric: 15 kWh per 100 km at 8 per kWh costs 1.2 per km, 14,400 a year. Petrol: 6 litres per 100 km at 100 per litre costs 6 per km, 72,000 a year. The saving is 57,600 a year. Then set the activity: Build a five-year cost table for one EV and one petrol car. Mark against the standard: Add up the totals, list the assumptions, and state the break-even year. Check at this level: EV running cost steps? Model answer: kWh per 100 km x price per kWh."
   ],
   [
    "Real-world range",
    "L5: learner can plan trips. Focus module: Real-world range (Evaluate, 3 h). Label range is measured in set conditions. Real range moves with speed, load, weather and use of air conditioning. Key points: Highway speed and cold weather cut range most. Heavy loads and hills use more energy; downhill braking gives some back. Plan with a margin: use about 80 per cent of label range. Check route chargers before long trips.",
-   "Teach: open with the worked example. A car with 400 km label range gives about 320 km usable. In winter on a highway it may give 250 km. A 280 km trip needs a charging stop. Then set the activity: Plan one trip and decide if a stop is needed. Mark against the standard: Margin is applied, weather is considered, and the stop plan names where and how long. Check at this level: What affects range? Model answer: Speed, temperature, load, hills."
+   "Teach: open with the worked example. A car with 400 km label range gives about 320 km usable. In winter on a highway it may give 250 km. A 280 km trip needs a charging stop. Then set the activity: Plan one trip and decide if a stop is needed. Mark against the standard: Apply the margin, consider the weather, and name in the stop plan where and how long. Check at this level: What affects range? Model answer: Speed, temperature, load, hills."
   ],
   [
    "Battery end of life",
@@ -285,7 +285,7 @@
   [
    "Write the advice sheet",
    "L7: learner can audit advice. Focus module: Write the advice sheet (Create, 3 h). Bring the work together as one honest sheet for a named user. Key points: Start with the user: distance, budget, parking, charging access. Show the cost table, range plan and charging plan. State one risk and one limit in plain words. End with a clear recommendation and what would change it.",
-   "Teach: open with the worked example. For a user with home parking, 30 km daily trips and one 300 km trip a month, the sheet recommends the EV and a hire car or a charging stop for the long trip. Then set the activity: Produce the full one-page advice sheet. Mark against the standard: All parts are present, numbers are consistent, and a reader can act on it without help. Check at this level: What should the advice sheet end with? Model answer: A clear recommendation and what would change it."
+   "Teach: open with the worked example. For a user with home parking, 30 km daily trips and one 300 km trip a month, the sheet recommends the EV and a hire car or a charging stop for the long trip. Then set the activity: Produce the full one-page advice sheet. Mark against the standard: Include all parts, keep numbers consistent, and check that a reader can act on it without help. Check at this level: What should the advice sheet end with? Model answer: A clear recommendation and what would change it."
   ]
  ]
 }

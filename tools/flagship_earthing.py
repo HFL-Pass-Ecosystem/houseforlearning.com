@@ -24,7 +24,7 @@ M = [
    "Measurement methods are done by a competent person with a calibrated instrument and a written procedure."],
   "Illustration with example values: two rods 3 m long placed close together do not give half the resistance of one; spaced further apart they come closer to it. The calculation and the measurement must be done by a qualified engineer; this course teaches you to read and question the numbers.",
   "Rank the three sites in a table of soil readings (ohm-metres) against a target resistance and write which one needs the most extra electrode length and why.",
-  "Ranking correct; the reason mentions moisture or resistivity; no claim of a final design."),
+  "Rank correctly, give a reason that mentions moisture or resistivity, and claim no final design."),
  ("Parts of an earthing system", "Apply", 3,
   "Learn the names and purposes of each part and read them on a drawing.",
   ["Earth electrode: rod, plate or buried conductor in contact with soil. Earthing conductor: links the installation to the electrode. Main earthing terminal: the one point where earthing and bonding meet.",
@@ -33,7 +33,7 @@ M = [
    "Records: label every connection point, record test dates and results."],
   "On a drawing: rod (E1), earthing conductor (colour depends on local rules), main terminal (MET), bonding to water pipe, protective conductors to the distribution board.",
   "Mark up a sample single-line drawing with the six parts above and give each one sentence.",
-  "All six parts correctly identified; labels readable."),
+  "Identify all six parts correctly and keep the labels readable."),
  ("Ground potential rise: what it is", "Analyse", 4,
   "When a large fault current flows into an earth system, the ground around it rises in voltage compared with a distant point (remote earth). This rise is called ground potential rise.",
   ["Order of magnitude: GPR is roughly the earth fault current that flows into the earth system times the earth system resistance. A small resistance still gives a big voltage at high current.",
@@ -42,7 +42,7 @@ M = [
    "Control methods: lower resistance, grading conductors, insulating or isolating metallic paths, bonding intentionally, limiting fault current and clearing faults fast. Every design is verified by a competent engineer."],
   "Example values (illustration only, not for design): 5,000 A flowing into an earth system of 0.5 ohm gives a rise of 2,500 V relative to remote earth. At the edge of the site, the voltage falls with distance; the gradient across your stride is the step voltage.",
   "Calculate the rise for three given fault currents and resistances; list two metal paths in a sample site plan that could transfer potential.",
-  "Three calculations correct with units; two transfer paths named; a short note says a qualified engineer designs and approves the controls."),
+  "Calculate three results correctly with units, name two transfer paths, and write a short note saying a qualified engineer designs and approves the controls."),
  ("Reading test results and inspection records", "Evaluate", 4,
   "You will not design the system, but you must judge whether a record is complete and whether results are plausible.",
   ["A complete record has: date, instrument and calibration date, method, weather and soil condition, positions, values and the person's name.",
@@ -51,7 +51,7 @@ M = [
    "Escalate: any result outside the design limit goes to the responsible engineer promptly, as your procedure requires."],
   "Example values: last year 2.1 ohm; this year 6.8 ohm on the same electrode. Likely causes: dry season, loose joint, corrosion. Action: retest, inspect joints, tell the engineer.",
   "Review three sample records; mark each complete or incomplete, plausible or suspicious, and write the next action.",
-  "Three records judged with reasons; escalation named for any suspicious result."),
+  "Judge three records with reasons, and name the escalation for any suspicious result."),
  ("Safe work, communication and next steps", "Create", 3,
   "Earthing work is designed, tested and verified only by qualified, authorised people. Your job in this course is awareness, clear records and clear communication.",
   ["Safe isolation and permits come first: test dead before touching any conductor, and never test or open live earth connections without authority.",
@@ -60,7 +60,7 @@ M = [
    "Next courses: selecting a cable, checking a protection setting, preparing a site test record."],
   "A 60-second explanation: 'If a wire inside a washing machine touches the metal case, the earth wire gives the current an easy path, the breaker trips, and you do not get a shock.'",
   "Write and record (or present to a peer) a 60-second explanation, a one-page checklist for reviewing earthing records, and a three-item next-step plan.",
-  "Explanation understood by a non-expert peer; checklist has at least eight items; plan has dates."),
+  "Explain it so that a non-expert peer understands; write a checklist of at least eight items; put dates in the plan."),
 ]
 M[5:5] = [
  ("Touch and step voltage in practice", "Analyse", 3,
@@ -71,7 +71,7 @@ M[5:5] = [
    "Controls include grading conductors, insulating surfaces, keeping people away and clearing faults fast. A qualified engineer chooses and approves them."],
   "Example values (illustration only, not for design): a fence post rises to 300 V relative to remote earth in a fault, and the ground one metre away is at 120 V. A person touching the post there sees a touch voltage of 300 - 120 = 180 V.",
   "Calculate the touch voltage for each of three pairs of readings (part voltage and ground voltage), rank the three by risk and write one control for the worst case.",
-  "Three subtractions correct with units; the ranking follows the numbers; the control is named and the note says a qualified engineer approves it."),
+  "Calculate three subtractions correctly with units, let the ranking follow the numbers, name the control, and note that a qualified engineer approves it."),
  ("Bonding and special locations", "Apply", 3,
   "Some places need extra care because water, metal and people are close together. Learn where bonding is checked and what a record should show.",
   ["Equipotential bonding links incoming metal pipes, structural steel and other conductive parts so they stay at the same voltage.",
@@ -80,7 +80,7 @@ M[5:5] = [
    "Do not make or change bonding yourself unless you are competent and authorised."],
   "A metal water pipe enters a workshop and is not linked to the main earthing terminal. A fault on a machine could raise the machine above the pipe, so a person touching both is at risk. Action: record it, tell the responsible engineer, and have a competent person correct it.",
   "Review a sample workshop plan and list three metal parts that need bonding, then write one line on what you would record for each.",
-  "Three parts correctly named; each record line has what, where and who was told; no repair is attempted by the reviewer."),
+  "Name three parts correctly, record what, where and who was told on each record line, and attempt no repair as the reviewer."),
 ]
 RUBRIC = [('Diagram and terms', 'Loop incomplete or terms wrong', 'Complete fault loop with three terms used correctly', 'Also shows where touch voltage appears and why the device trips'), ('Calculations', 'Missing units or wrong arithmetic', 'Rise and touch voltage correct with units', 'Also notes limits of the illustration'), ('Record review', 'Records not judged or reasons missing', 'Each record marked complete or not and plausible or not, with next action', 'Also spots trends across records'), ('Safety and limits', 'Claims a design or repair', 'States that a qualified engineer designs and approves; no live work', 'Also names the permit and isolation steps'), ('Explanation', 'Not understood by a peer', '60-second explanation understood by a non-expert peer', 'Also uses a home example and a work example')]
 

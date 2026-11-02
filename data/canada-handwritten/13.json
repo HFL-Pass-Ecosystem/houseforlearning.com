@@ -20,7 +20,7 @@
    ],
    "ex": "Invoice checking: 4,000 invoices a month, 6 minutes each by hand; target 70% auto-checked with human review of the rest. Hand time now is 4,000 x 6 = 24,000 minutes, or 400 hours a month. At 70% auto-checked, 2,800 invoices are automated and 1,200 stay with people.",
    "act": "Score three processes and choose one.",
-   "std": "Scores have reasons."
+   "std": "Give reasons for scores."
   },
   "2": {
    "title": "Know privacy, AI and contract rules",
@@ -36,7 +36,7 @@
    ],
    "ex": "Row: 'Use client customer data to train | privacy law | consent and purpose limit | before training | written data agreement'. Second row: 'Use a model to screen applicants | privacy law and provincial rules | human review and explanation | before launch | written process'. Check the provincial rule before you automate any decision about a person.",
    "act": "Build a rules table for one client.",
-   "std": "Rows sourced and dated."
+   "std": "Cite a source and a date for every row."
   },
   "3": {
    "title": "Prepare data and build a baseline",
@@ -68,7 +68,7 @@
    ],
    "ex": "Project price 22,000. Saving: 4,000 invoices x 70% auto-checked x 6 minutes = 16,800 minutes = 280 hours a month; at 30 an hour = 8,400 a month. Payback = 22,000 / 8,400 = about 2.6 months. If only half the saving is real, payback is about 5 months. Teaching figures in CAD.",
    "act": "Build a payback model with a 50% savings case.",
-   "std": "Cases shown."
+   "std": "Show the cases."
   },
   "5": {
    "title": "Deploy, monitor and maintain",
@@ -84,7 +84,7 @@
    ],
    "ex": "Accuracy fell from 83% to 74% after a form change; retrained on new data. A drop of 83 - 74 = 9 points was caught because the warning level was set at 78%. After retraining on new examples, accuracy returned to 82%.",
    "act": "Design a monitoring sheet.",
-   "std": "Alert levels set."
+   "std": "Set alert levels."
   },
   "6": {
    "title": "Sell and manage change",
@@ -100,7 +100,7 @@
    ],
    "ex": "Funnel: 20 talks, 6 workshops, 3 pilots. Talk to workshop is 6 / 20 = 30%, workshop to pilot is 3 / 6 = 50%, and overall 3 / 20 = 15%. At 15%, 40 talks are needed for 6 pilots.",
    "act": "Run a workshop for a real team.",
-   "std": "Feedback recorded."
+   "std": "Record feedback."
   },
   "7": {
    "title": "Manage bias, errors and trust",

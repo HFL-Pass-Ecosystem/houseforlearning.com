@@ -20,7 +20,7 @@
    ],
    "ex": "A delivery fleet compares 10-year cost: if an electric van costs 15,000 more to buy but saves 3,000 a year in fuel and servicing, the saving over 10 years is 30,000, so the van is ahead by 15,000 and pays back in 15,000 / 3,000 = 5 years. Teaching figures in CAD; use the fleet's real numbers.",
    "act": "Write a niche statement and customer profile.",
-   "std": "Niche is narrow and testable."
+   "std": "Define a narrow, testable niche."
   },
   "2": {
    "title": "Know vehicle rules",
@@ -36,7 +36,7 @@
    ],
    "ex": "Row: 'Sell a new vehicle | federal safety standards | certify and label | before first sale | certificate on file'. For a 60 kWh battery on a 7 kW home charger, a full charge takes about 60 / 7 = 8.6 hours, which you compare with the stated spec.",
    "act": "Build a rules table for a small manufacturer.",
-   "std": "Each row has source and date."
+   "std": "Give each row a source and date."
   },
   "3": {
    "title": "Design the vehicle systems",
@@ -52,7 +52,7 @@
    ],
    "ex": "Need 250 km at 0.35 kWh per km: 250 x 0.35 = 87.5 kWh usable. Add 20% for cold and ageing: 87.5 x 1.2 = 105 kWh pack. If the cells give 0.15 kWh per kg, the cells alone weigh 105 / 0.15 = 700 kg, which must fit the payload plan.",
    "act": "Calculate pack size for a chosen use.",
-   "std": "Calculation shown with margin."
+   "std": "Show the calculation with margin."
   },
   "4": {
    "title": "Cost the product",
@@ -68,7 +68,7 @@
    ],
    "ex": "Price 48,000; cost 36,000; margin 12,000 (25%); fixed cost 3.1M per year gives 3,100,000 / 12,000 = 258.3, so break-even is 259 vehicles, shown as about 260. If battery cost is 14,000 of the 36,000, a 10% rise adds 1,400, so cost is 37,400, margin 10,600 and break-even rises to about 293. Teaching figures in CAD.",
    "act": "Build a bill of materials and break-even.",
-   "std": "Units and currency shown."
+   "std": "Show units and currency."
   },
   "5": {
    "title": "Build to quality",
@@ -84,7 +84,7 @@
    ],
    "ex": "End-of-line fail rate 4% mostly connectors; fix with a torque check. At 260 vehicles a year, 4% is about 10 vehicles needing rework; if the torque check halves the fails to 2%, rework drops to about 5.",
    "act": "Design an end-of-line test sheet.",
-   "std": "Sheet has limits and sign-off."
+   "std": "Add limits and sign-off to the sheet."
   },
   "6": {
    "title": "Sell and service",
@@ -100,7 +100,7 @@
    ],
    "ex": "Fleet pilot: 3 vans for 90 days; uptime 97%. The 3 vans have 3 x 90 = 270 van-days, and 3% down is about 8 van-days lost, which you compare with the offer's target.",
    "act": "Plan a fleet pilot offer.",
-   "std": "Offer has measures."
+   "std": "Add measures to the offer."
   },
   "7": {
    "title": "Manage safety and supply risk",
@@ -116,7 +116,7 @@
    ],
    "ex": "Risk: 'Cell supplier delay | 4 x 4 = 16 | second source | purchasing | monthly'. A score of 16 out of 25 is high, so the second supplier should be qualified before volume production.",
    "act": "Write a risk register.",
-   "std": "Rows have owners."
+   "std": "Assign owners to rows."
   },
   "8": {
    "title": "Pilot and plan scale",

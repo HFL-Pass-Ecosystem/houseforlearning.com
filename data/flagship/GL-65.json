@@ -45,7 +45,7 @@
    ],
    "Methane has a larger warming effect than CO2 per tonne, so a leaking gas line is expressed as tonnes CO2e. Replacing old lights with LEDs saves 2 tonnes CO2e and 20,000 INR a year (an estimate; check your market).",
    "Explain CO2e and a baseline year to a peer.",
-   "Peer can explain both terms."
+   "Check that a peer can explain both terms."
   ],
   [
    "Boundaries and scopes",
@@ -60,7 +60,7 @@
    ],
    "Company vehicles are scope 1; electricity is scope 2; business flights and purchased goods are scope 3. A rented warehouse is excluded and the reason is recorded.",
    "Set a boundary for a practice organisation with two inclusions and two exclusions.",
-   "Boundary is written and justified."
+   "Write the boundary and justify it."
   ],
   [
    "Collecting activity data",
@@ -75,7 +75,7 @@
    ],
    "Fuel invoices give 1,200 litres of diesel. Missing March data is estimated from February and April and flagged as an estimate.",
    "Collect and list data for a practice case with sources.",
-   "Every line has unit, source and date."
+   "Record a unit, source and date on every line."
   ],
   [
    "Emission factors and calculation",
@@ -90,7 +90,7 @@
    ],
    "Using example factors (always use current published ones): 1,200 L x 2.68 kg CO2 per litre = 3,216 kg CO2. 40,000 kWh x 0.82 kg CO2e per kWh = 32,800 kg CO2e.",
    "Calculate five lines with a factor table.",
-   "Maths and units are correct."
+   "Check that the maths and units are correct."
   ],
   [
    "Scope 3 estimates",
@@ -105,7 +105,7 @@
    ],
    "Purchased goods account for 35 per cent of the total using spend factors; commuting 11 per cent and travel 22 per cent.",
    "Estimate two scope 3 categories and rank all categories.",
-   "Method stated and ranking shown."
+   "State the method and show the ranking."
   ],
   [
    "Data quality and checks",
@@ -120,7 +120,7 @@
    ],
    "A sample check finds a unit error (MWh entered as kWh) that changes the total by 1,000 times. A duplicated invoice is also removed.",
    "Review a data set and log issues.",
-   "At least three checks done and logged."
+   "Complete and log at least three checks."
   ],
   [
    "Hotspots and reduction targets",
@@ -135,7 +135,7 @@
    ],
    "Fixing refrigerant leaks saves 6 tonnes CO2e for 15,000 INR; efficient lighting saves 8 per cent for a two-year payback.",
    "Draw a hotspot chart and rank five actions.",
-   "Ranking uses tonnes and cost."
+   "Rank using tonnes and cost."
   ],
   [
    "Reporting and verification",

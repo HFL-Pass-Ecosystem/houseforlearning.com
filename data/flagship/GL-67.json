@@ -45,7 +45,7 @@
    ],
    "A printer lays a 40 mm bead in a double-wall pattern with hollow cavities. The cavities are later filled with reinforcement and insulation. A precast printed planter is made off site in two hours.",
    "Draw the process from design file to finished wall and compare on-site and off-site printing.",
-   "Steps are in order and both options are compared."
+   "Order the steps and compare both options."
   ],
   [
    "Printable materials and curing",
@@ -60,7 +60,7 @@
    ],
    "On a hot day a retarder is added so layers bond before drying. A 1 m test wall is printed and cut open; poor bonding is found at low temperature.",
    "Compare two mixes in a table and describe a test wall plan.",
-   "Properties and limits are listed."
+   "List the properties and limits."
   ],
   [
    "Design, engineering and building codes",
@@ -75,7 +75,7 @@
    ],
    "Steel bars are placed in wall cavities before they are filled, and an engineer signs the design. Vertical steel bars (rebar) are added at the spacing the engineer specifies for an earthquake zone.",
    "List code checks and loads for a small building in your place.",
-   "Sources are listed and loads are named."
+   "List the sources and name the loads."
   ],
   [
    "Quantities, time and cost drivers",
@@ -90,7 +90,7 @@
    ],
    "60 m of wall at 3 m high with 20 mm layers needs 150 layers; at 4 minutes a layer that is 10 hours plus 1 hour set-up.",
    "Calculate quantities and time for a small room.",
-   "Maths is correct with waste and set-up included."
+   "Calculate the maths correctly, with waste and set-up included."
   ],
   [
    "Site safety",
@@ -120,7 +120,7 @@
    ],
    "Printed walls cost 12 per cent less, but doors and roofing cost the same, so the whole building saves about 4 per cent. Transport of the machine adds 8 per cent to the first project.",
    "Build a comparison table for one small building.",
-   "Currency shown and assumptions listed."
+   "Show the currency and list the assumptions."
   ],
   [
    "Quality control and records",
@@ -135,7 +135,7 @@
    ],
    "A cube fails the strength test and the batch is rejected; the log shows mix water was too high.",
    "Write a quality control plan with tests and records.",
-   "Tests are named and records defined."
+   "Name the tests and define the records."
   ],
   [
    "Feasibility note",
@@ -150,7 +150,7 @@
    ],
    "The note recommends a small pilot hut before a house, and a builder advises testing in your climate first.",
    "Write and present the note.",
-   "Reader can decide from the note."
+   "Write the note so that the reader can decide from it."
   ]
  ],
  "quiz": [
@@ -255,7 +255,7 @@
   [
    "How a construction printer works",
    "L1: learner can describe printing. Focus module: How a construction printer works (Understand, 3 h). A construction 3D printer builds walls by laying a cement-like mix in layers, following a digital path. Key points: A gantry or robotic arm moves a nozzle over the site, or parts are printed off site and lifted into place. Walls are printed in layers of about 15 to 40 mm; foundations, doors, windows, roof and services are added by trades. A design file controls the path; changing the file changes the building. Printing is fast for walls, but the whole building still needs foundations, roof and finishes.",
-   "Teach: open with the worked example. A printer lays a 40 mm bead in a double-wall pattern with hollow cavities. The cavities are later filled with reinforcement and insulation. A precast printed planter is made off site in two hours. Then set the activity: Draw the process from design file to finished wall and compare on-site and off-site printing. Mark against the standard: Steps are in order and both options are compared. Check at this level: How is a wall built? Model answer: In layers by a gantry or arm."
+   "Teach: open with the worked example. A printer lays a 40 mm bead in a double-wall pattern with hollow cavities. The cavities are later filled with reinforcement and insulation. A precast printed planter is made off site in two hours. Then set the activity: Draw the process from design file to finished wall and compare on-site and off-site printing. Mark against the standard: Order the steps and compare both options. Check at this level: How is a wall built? Model answer: In layers by a gantry or arm."
   ],
   [
    "Printable materials and curing",
@@ -270,7 +270,7 @@
   [
    "Quantities, time and cost drivers",
    "L4: learner can count. Focus module: Quantities, time and cost drivers (Analyse, 4 h). Count the bead and the hours. Key points: Wall height / layer height = layers; layers x wall length = bead length to print. Volume x density = material mass; add an allowance for waste, for example 10 per cent. Print speed gives hours; add set-up and clean-up time. Include transport of the machine and mix.",
-   "Teach: open with the worked example. 60 m of wall at 3 m high with 20 mm layers needs 150 layers; at 4 minutes a layer that is 10 hours plus 1 hour set-up. Then set the activity: Calculate quantities and time for a small room. Mark against the standard: Maths is correct with waste and set-up included. Check at this level: Layers formula? Model answer: Height / layer height."
+   "Teach: open with the worked example. 60 m of wall at 3 m high with 20 mm layers needs 150 layers; at 4 minutes a layer that is 10 hours plus 1 hour set-up. Then set the activity: Calculate quantities and time for a small room. Mark against the standard: Calculate the maths correctly, with waste and set-up included. Check at this level: Layers formula? Model answer: Height / layer height."
   ],
   [
    "Site safety",

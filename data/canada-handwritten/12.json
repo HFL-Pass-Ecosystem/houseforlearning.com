@@ -20,7 +20,7 @@
    ],
    "ex": "A cold-room temperature sensor needs plus or minus 0.5 degrees C from -30 to +10; wrong readings spoil stock worth 40,000. The range spans 10 - (-30) = 40 degrees C, so plus or minus 0.5 is 0.5 / 40 = 1.25% of span. One spoiled batch costs 40,000, which equals the price of about 276 sensors at 145 (40,000 / 145 = 275.9).",
    "act": "Interview three plant users and write a requirement sheet.",
-   "std": "Requirements have units and limits."
+   "std": "Add units and limits to the requirements."
   },
   "2": {
    "title": "Know product safety and approval rules",
@@ -36,7 +36,7 @@
    ],
    "ex": "Row: 'Sell a sensor into a gas plant | hazardous-location certification | certify | before sale | certificate'. Second row: 'Fit a wireless module | national radio equipment rules | use a pre-approved module or test | before sale | approval certificate'. Check the provincial rule on inspection of installed electrical equipment.",
    "act": "Build a rules table for one sensor.",
-   "std": "Rows sourced and dated."
+   "std": "Cite a source and a date for every row."
   },
   "3": {
    "title": "Design, build and calibrate",
@@ -52,7 +52,7 @@
    ],
    "ex": "Reference points 0, 20 and 40 degrees C; the sensor reads 0.5, 20.4 and 40.3, so the offsets are 0.5, 0.4 and 0.3. After subtracting the mean offset of 0.4, the remaining error is at most 0.1 degrees C, which is 0.1 / 40 = 0.25% of span.",
    "act": "Calibrate a sensor at three points and record error.",
-   "std": "Error computed."
+   "std": "Compute the error."
   },
   "4": {
    "title": "Cost and price the product",
@@ -68,7 +68,7 @@
    ],
    "ex": "Price 145; cost 70; margin 75 (52%); fixed cost 150,000 → break-even 2,000 sensors. Teaching figures in CAD. Check: 2,000 x 75 = 150,000. If only 800 sell in year one, margin earned is 800 x 75 = 60,000, leaving 150,000 - 60,000 = 90,000 uncovered.",
    "act": "Build cost sheet with low-volume case.",
-   "std": "Both cases shown."
+   "std": "Show both cases."
   },
   "5": {
    "title": "Control production quality",
@@ -84,7 +84,7 @@
    ],
    "ex": "Yield 94%; main fail: solder joint; fix: reflow profile. Of 500 units built, 94% pass first time, which is 470 passes and 30 fails. If solder joints cause 18 of the 30, fixing them lifts yield to (470 + 18) / 500 = 97.6%.",
    "act": "Design a test sheet.",
-   "std": "Limits and sign-off."
+   "std": "State limits and sign-off."
   },
   "6": {
    "title": "Sell and support",
@@ -116,7 +116,7 @@
    ],
    "ex": "Risk: 'Default password found | 3 x 5 | unique keys | firmware lead | each release'. Likelihood 3 times impact 5 gives a score of 15 out of 25, so it is fixed first. Once each device has a unique key, likelihood falls to 1 and the score is 1 x 5 = 5.",
    "act": "Write a risk register.",
-   "std": "Owners named."
+   "std": "Name an owner for each item."
   },
   "8": {
    "title": "Pilot with a customer",

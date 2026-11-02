@@ -45,7 +45,7 @@
    ],
    "A care home wants to know when a resident gets out of bed at night. A pressure pad in a night garment or a mat is a better answer than a heart-rate shirt. The need (alert staff within 30 seconds) drives the design, not the technology.",
    "Write a user need statement for one wearer: who, where, what must be sensed, how often, who is alerted and how fast.",
-   "The statement names the wearer, signal, accuracy needed, time limit and who sees the data."
+   "State the wearer, signal, accuracy needed, time limit and who sees the data."
   ],
   [
    "Fabrics, comfort and skin",
@@ -60,7 +60,7 @@
    ],
    "Two chest-band prototypes are tested. The band with flat seams and a wider elastic gives a steadier signal and fewer red marks after a one-hour walk than the narrow band with a raised seam.",
    "Test two fabrics for comfort and signal on two volunteers who consent, and record scores from 1 to 5.",
-   "Results table has both fabrics, two users, comfort and signal scores and one design decision."
+   "Build a results table with both fabrics, two users, comfort and signal scores and one design decision."
   ],
   [
    "Sensors, power and electronics",
@@ -90,7 +90,7 @@
    ],
    "The first sleeve prototype loses signal when the elbow bends because the wire crosses the joint. Moving the wire along the side seam with a loose loop fixes the break.",
    "Build or plan a prototype with removable module and test it on two users.",
-   "Signal remains stable during walking, arm movement and sitting for five minutes each."
+   "Show that the signal remains stable during walking, arm movement and sitting for five minutes each."
   ],
   [
    "Washing, wear and durability",
@@ -120,7 +120,7 @@
    ],
    "Heart rate from the shirt differs from a reference by 6 per cent on average at rest and 12 per cent while running, with worst case 20 per cent. The product description says \"wellness tracking, not a medical device\".",
    "Compare your prototype with a reference and calculate average and worst-case per cent error.",
-   "Both figures are calculated and the claim wording matches the evidence."
+   "Calculate both figures and match the claim wording to the evidence."
   ],
   [
    "Privacy, safety and rules",
@@ -135,7 +135,7 @@
    ],
    "A consent screen lists: what is recorded (heart rate every minute), where it is kept (the phone only), who can see it (the wearer) and how to delete it.",
    "Draft a one-screen consent text and a safety checklist for your garment.",
-   "Consent text is readable by a non-expert and the checklist has at least eight items."
+   "Write consent text that a non-expert can read, and build a checklist of at least eight items."
   ],
   [
    "Pilot, cost and plan",
@@ -255,12 +255,12 @@
   [
    "What smart apparel is, and who needs it",
    "L1: learner can name uses. Focus module: What smart apparel is, and who needs it (Understand, 3 h). Smart apparel is clothing that senses, records or responds, usually through small sensors and a removable electronic module. The best products solve a clear problem for a clear wearer; the worst add gadgets nobody asked for. Key points: Common signals: heart rate, breathing, body temperature, movement, posture, pressure and sweat. Each needs a different sensor and a different place on the body. Use cases: sport and training, elder and patient care, worker safety, baby monitoring, rehabilitation and fashion effects such as light-up garments. Ask first: who wears it, for how long, doing what, in what weather, and who will read the data? Smart does not replace medical devices; a garment that claims to diagnose may need regulatory approval in many places.",
-   "Teach: open with the worked example. A care home wants to know when a resident gets out of bed at night. A pressure pad in a night garment or a mat is a better answer than a heart-rate shirt. The need (alert staff within 30 seconds) drives the design, not the technology. Then set the activity: Write a user need statement for one wearer: who, where, what must be sensed, how often, who is alerted and how fast. Mark against the standard: The statement names the wearer, signal, accuracy needed, time limit and who sees the data. Check at this level: Name a use. Model answer: Sport, care or safety."
+   "Teach: open with the worked example. A care home wants to know when a resident gets out of bed at night. A pressure pad in a night garment or a mat is a better answer than a heart-rate shirt. The need (alert staff within 30 seconds) drives the design, not the technology. Then set the activity: Write a user need statement for one wearer: who, where, what must be sensed, how often, who is alerted and how fast. Mark against the standard: State the wearer, signal, accuracy needed, time limit and who sees the data. Check at this level: Name a use. Model answer: Sport, care or safety."
   ],
   [
    "Fabrics, comfort and skin",
    "L2: learner knows materials. Focus module: Fabrics, comfort and skin (Understand, 3 h). A garment that is uncomfortable will not be worn, and an unworn garment gives no data. Fabric choice affects both sensor contact and comfort. Key points: Breathable, stretchy fabrics such as cotton-elastane blends or knitted polyester keep sensors snug without chafing. Dry electrodes need skin contact; loose fabric loses signal, and very tight fabric is uncomfortable. Aim for firm but not tight. Conductive yarns, often silver-coated, carry signals; metallic coatings can wear off in washing, and some people are sensitive to metals. Seams over sensors cause hot spots; place seams away from contact areas.",
-   "Teach: open with the worked example. Two chest-band prototypes are tested. The band with flat seams and a wider elastic gives a steadier signal and fewer red marks after a one-hour walk than the narrow band with a raised seam. Then set the activity: Test two fabrics for comfort and signal on two volunteers who consent, and record scores from 1 to 5. Mark against the standard: Results table has both fabrics, two users, comfort and signal scores and one design decision. Check at this level: Material concern? Model answer: Skin allergy."
+   "Teach: open with the worked example. Two chest-band prototypes are tested. The band with flat seams and a wider elastic gives a steadier signal and fewer red marks after a one-hour walk than the narrow band with a raised seam. Then set the activity: Test two fabrics for comfort and signal on two volunteers who consent, and record scores from 1 to 5. Mark against the standard: Build a results table with both fabrics, two users, comfort and signal scores and one design decision. Check at this level: Material concern? Model answer: Skin allergy."
   ],
   [
    "Sensors, power and electronics",
@@ -270,7 +270,7 @@
   [
    "Building a prototype",
    "L4: learner can build. Focus module: Building a prototype (Apply, 4 h). Prototype quickly with a kit before investing in special fabrics. Key points: Bench test the sensor first, then test it on a person, then attach it to a garment. Attach the module in a pocket or with snaps so it can be removed for washing. Test continuity of every conductive path before closing seams. Record every change, photograph the layout and keep the version number on the garment.",
-   "Teach: open with the worked example. The first sleeve prototype loses signal when the elbow bends because the wire crosses the joint. Moving the wire along the side seam with a loose loop fixes the break. Then set the activity: Build or plan a prototype with removable module and test it on two users. Mark against the standard: Signal remains stable during walking, arm movement and sitting for five minutes each. Check at this level: Why removable module? Model answer: For washing."
+   "Teach: open with the worked example. The first sleeve prototype loses signal when the elbow bends because the wire crosses the joint. Moving the wire along the side seam with a loose loop fixes the break. Then set the activity: Build or plan a prototype with removable module and test it on two users. Mark against the standard: Show that the signal remains stable during walking, arm movement and sitting for five minutes each. Check at this level: Why removable module? Model answer: For washing."
   ],
   [
    "Washing, wear and durability",
@@ -280,7 +280,7 @@
   [
    "Privacy, safety and rules",
    "L6: learner can lead a pilot. Focus module: Privacy, safety and rules (Evaluate, 4 h). The body is the most personal data source, so privacy and safety come before features. Key points: Collect only what is needed, explain it in plain words and let the wearer delete it. Store data on the phone where possible; encrypt anything that leaves the device. Check electrical safety, skin safety and local rules for wearable electronics and textile labelling. Do not share data with third parties without clear consent.",
-   "Teach: open with the worked example. A consent screen lists: what is recorded (heart rate every minute), where it is kept (the phone only), who can see it (the wearer) and how to delete it. Then set the activity: Draft a one-screen consent text and a safety checklist for your garment. Mark against the standard: Consent text is readable by a non-expert and the checklist has at least eight items. Check at this level: Privacy rule? Model answer: Consent and secure storage."
+   "Teach: open with the worked example. A consent screen lists: what is recorded (heart rate every minute), where it is kept (the phone only), who can see it (the wearer) and how to delete it. Then set the activity: Draft a one-screen consent text and a safety checklist for your garment. Mark against the standard: Write consent text that a non-expert can read, and build a checklist of at least eight items. Check at this level: Privacy rule? Model answer: Consent and secure storage."
   ],
   [
    "Pilot, cost and plan",

@@ -20,7 +20,7 @@
    ],
    "ex": "Shopping centre: average stay 90 minutes, 60 EV cars a day, grid connection 150 kW available; score 4.2/5. If 25% of the cars would charge, 60 x 0.25 = 15 sessions a day is the ceiling to test. At 50 kW a 28 kWh session takes 28 / 50 = 0.56 hour, about 34 minutes, which fits inside the 90-minute stay.",
    "act": "Score three sites and choose one.",
-   "std": "Counts recorded."
+   "std": "Record counts."
   },
   "2": {
    "title": "Know electrical and utility rules",
@@ -36,7 +36,7 @@
    ],
    "ex": "Row: 'Install a fast charger | provincial electrical authority | permit and inspection | before energising | inspection certificate'. Row: 'Charge by the kWh | Measurement Canada and the provincial energy regulator | check allowed method | before opening | written answer filed'. If the utility needs 12 weeks and the permit 4 weeks and they run in parallel, plan 12 weeks, not 16.",
    "act": "Build a rules table for one site.",
-   "std": "Rows sourced and dated."
+   "std": "Cite a source and a date for every row."
   },
   "3": {
    "title": "Plan the installation",
@@ -52,7 +52,7 @@
    ],
    "ex": "4 chargers of 50 kW on a 150 kW supply with load sharing: no more than 3 run at full power at once (3 x 50 = 150). If all 4 are in use, each gets 150 / 4 = 37.5 kW, so a 28 kWh session takes 28 / 37.5 = about 0.75 hour, or about 45 minutes.",
    "act": "Draw a site layout and load plan.",
-   "std": "Power sums checked."
+   "std": "Check power sums."
   },
   "4": {
    "title": "Price charging and prove the business",
@@ -68,7 +68,7 @@
    ],
    "ex": "Installed cost 18,000 per charger (teaching figure, not a market price). High case: 12 sessions a day x 28 kWh x 0.18 margin = 60.48 a day, about 1,800 a month; less 400 for site, software and upkeep leaves 1,400, so payback = 18,000 / 1,400 = about 13 months. Low case: 5 sessions a day gives 25.20 a day, about 756 a month; less 400 leaves 356, so payback = 18,000 / 356 = about 51 months. Teaching figures in CAD.",
    "act": "Build a payback model with a low-use case.",
-   "std": "Three cases shown."
+   "std": "Show three cases."
   },
   "5": {
    "title": "Operate reliably",
@@ -84,7 +84,7 @@
    ],
    "ex": "Uptime 97% target; fault repaired within 12 hours. In a 30-day month (720 hours), 3% downtime allows only 720 x 0.03 = 21.6 hours, so one 24-hour fault alone breaks the target; spare parts on the shelf prevent this.",
    "act": "Keep a 4-week uptime log.",
-   "std": "Faults and fixes recorded."
+   "std": "Record faults and fixes."
   },
   "6": {
    "title": "Win site hosts and drivers",
@@ -116,7 +116,7 @@
    ],
    "ex": "Risk: 'Peak demand charge | 3 x 4 | load management | ops | monthly'. Suppose the utility charged 12 per kW of monthly peak (an assumed rate; check the real tariff): a 150 kW peak costs 150 x 12 = 1,800, while limiting load to 100 kW costs 100 x 12 = 1,200, a saving of 600 a month.",
    "act": "Write risk register.",
-   "std": "Owners named."
+   "std": "Name an owner for each item."
   },
   "8": {
    "title": "Pilot and expand",

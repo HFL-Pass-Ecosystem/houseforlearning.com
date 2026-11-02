@@ -20,7 +20,7 @@
    ],
    "ex": "A shipper sends 12 pallets weekly to three towns. If a loaded trip costs 100 per pallet and empty returns add 30%, the cost is 130 per pallet. Over 12 pallets that is 1,560 instead of 1,200, a difference of 360 a week.",
    "act": "Map one route with costs.",
-   "std": "Costs per mode shown."
+   "std": "Show costs per mode."
   },
   "2": {
    "title": "Know transport and safety rules",
@@ -36,7 +36,7 @@
    ],
    "ex": "Row: 'Drive commercial truck | provincial and federal transport rules | licence, logs, inspection | each day | log book'. A second row: 'Store chilled food | food safety rule | temperature log against the limit in the rule | at the interval the rule sets; check it | log sheet'. Date each source.",
    "act": "Build a rules table.",
-   "std": "Rows sourced and dated."
+   "std": "Cite a source and a date for every row."
   },
   "3": {
    "title": "Plan routes and warehouse flow",
@@ -52,7 +52,7 @@
    ],
    "ex": "Route A: 22 stops in 188 km versus 241 km unplanned. The saving is 53 km, which is 53 / 241 = 22%. At 1.20 per km for fuel and wear that is 63.60 saved per route.",
    "act": "Plan a 15-stop route two ways.",
-   "std": "Distances compared."
+   "std": "Compare distances."
   },
   "4": {
    "title": "Cost per load and per pallet position",
@@ -68,7 +68,7 @@
    ],
    "ex": "Load price 2,400; cost 1,800; margin 600 (25%); fixed cost 24,000 a month gives 24,000 / 600 = 40 loads. At 70% utilisation revenue is 2,400 x 0.7 = 1,680 against the same 1,800 cost, a loss of 120 per load. Teaching figures in CAD.",
    "act": "Build a cost sheet with 70% utilisation case.",
-   "std": "Cases shown."
+   "std": "Show the cases."
   },
   "5": {
    "title": "Run on time and damage-free",
@@ -84,7 +84,7 @@
    ],
    "ex": "On-time 94%: 47 of 50 deliveries arrived in the window. Damage 0.8%: 4 pallets of 500 were damaged. Track both every week and set a target for next month.",
    "act": "Keep a 4-week delivery log.",
-   "std": "Rates computed."
+   "std": "Compute rates."
   },
   "6": {
    "title": "Win shippers and partners",
@@ -116,7 +116,7 @@
    ],
    "ex": "Risk: 'Winter delay | 4 x 3 | buffer days and alerts | dispatcher | each season'. The score is 4 x 3 = 12. If a lost pallet is worth 6,000 and cover is 5,000, 1,000 is uninsured.",
    "act": "Write a risk register.",
-   "std": "Owners named."
+   "std": "Name an owner for each item."
   },
   "8": {
    "title": "Pilot a lane",

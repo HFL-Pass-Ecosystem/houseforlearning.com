@@ -45,7 +45,7 @@
    ],
    "A shelf bracket is printed in PETG for toughness. A jewellery prototype is printed in resin for detail. A phone stand is printed in PLA because strength is not critical.",
    "Compare four materials in a table for strength, heat, ease, cost and safety.",
-   "Table is accurate and cites data sheets."
+   "Check that the table is accurate and cite data sheets."
   ],
   [
    "Designing parts for printing",
@@ -60,7 +60,7 @@
    ],
    "A bracket printed on its side is much stronger than one printed upright because layer lines run along the load.",
    "Design or choose a part, list dimensions, orientation and clearances.",
-   "Dimensions and orientation are justified in writing."
+   "Justify dimensions and orientation in writing."
   ],
   [
    "Slicing and settings",
@@ -75,7 +75,7 @@
    ],
    "A part is sliced at 0.2 mm layers, 20 per cent infill and 3 walls. Print time is 2.5 hours and mass 38 g.",
    "Slice your part and record all settings.",
-   "Settings are recorded and the preview shows no gaps."
+   "Record settings and check that the preview shows no gaps."
   ],
   [
    "Printing safely",
@@ -105,7 +105,7 @@
    ],
    "A large flat part warps at the corners. A heated bed at 60 degrees Celsius and a brim fix it on the next print.",
    "Fix two issues and record the cause, change and result.",
-   "Notes show one change at a time."
+   "Note one change at a time."
   ],
   [
    "Post-processing and finishing",
@@ -120,7 +120,7 @@
    ],
    "Sanding progressively from 120 to 400 grit gives a smooth surface suitable for painting.",
    "Finish your part and photograph before and after.",
-   "Surface is smooth and fits."
+   "Check that the surface is smooth and fits."
   ],
   [
    "Testing the part",
@@ -135,7 +135,7 @@
    ],
    "Three bracket copies hold 4.8, 5.1 and 5.0 kg for 10 minutes without deflection.",
    "Test three copies and report average and spread.",
-   "Results are recorded with units."
+   "Record results with units."
   ],
   [
    "Costing and selling honestly",
@@ -260,12 +260,12 @@
   [
    "Designing parts for printing",
    "L2: learner knows safety. Focus module: Designing parts for printing (Apply, 4 h). A model designed for printing prints well; a model copied from a metal part may not. Key points: Wall thickness of at least two nozzle widths; avoid thin spikes. Avoid overhangs steeper than about 45 degrees or add supports. Layers are weakest in tension, so orient the part so loads run along layers. Add 0.2 to 0.4 mm clearance for moving or fitted parts.",
-   "Teach: open with the worked example. A bracket printed on its side is much stronger than one printed upright because layer lines run along the load. Then set the activity: Design or choose a part, list dimensions, orientation and clearances. Mark against the standard: Dimensions and orientation are justified in writing. Check at this level: Overhang fix? Model answer: Supports."
+   "Teach: open with the worked example. A bracket printed on its side is much stronger than one printed upright because layer lines run along the load. Then set the activity: Design or choose a part, list dimensions, orientation and clearances. Mark against the standard: Justify dimensions and orientation in writing. Check at this level: Overhang fix? Model answer: Supports."
   ],
   [
    "Slicing and settings",
    "L3: learner can slice. Focus module: Slicing and settings (Apply, 4 h). The slicer turns the model into printer instructions. Key points: Layer height (0.1 to 0.3 mm), infill (10 to 40 per cent), walls, speed, temperature and supports. Preview the tool path layer by layer before printing. Save profiles for each material. Check the first layer closely; most failures start there.",
-   "Teach: open with the worked example. A part is sliced at 0.2 mm layers, 20 per cent infill and 3 walls. Print time is 2.5 hours and mass 38 g. Then set the activity: Slice your part and record all settings. Mark against the standard: Settings are recorded and the preview shows no gaps. Check at this level: Layer height range? Model answer: 0.1 to 0.3 mm."
+   "Teach: open with the worked example. A part is sliced at 0.2 mm layers, 20 per cent infill and 3 walls. Print time is 2.5 hours and mass 38 g. Then set the activity: Slice your part and record all settings. Mark against the standard: Record settings and check that the preview shows no gaps. Check at this level: Layer height range? Model answer: 0.1 to 0.3 mm."
   ],
   [
    "Printing safely",

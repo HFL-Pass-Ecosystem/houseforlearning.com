@@ -20,7 +20,7 @@
    ],
    "ex": "20 sales: median 640 per sq ft; range 560 to 760; median 28 days on market. A 900 sq ft unit at the median is 900 x 640 = 576,000, and the range gives 504,000 to 684,000. If it rents for 2,400 a month, annual rent is 28,800 and the gross yield is 28,800 / 576,000 = 5%.",
    "act": "Build a 20-sale table and market note.",
-   "std": "Numbers have sources and dates."
+   "std": "Add sources and dates to the numbers."
   },
   "2": {
    "title": "Know licensing, disclosure and trust rules",
@@ -36,7 +36,7 @@
    ],
    "ex": "Row: 'Accept a buyer deposit | provincial real-estate regulator | trust account and receipt | by the deadline in the provincial rule | trust ledger'. A second row: 'Disclose a known defect | seller and agent | written disclosure | before offer | signed form'. Date each source.",
    "act": "Build a rules table for your province.",
-   "std": "Rows sourced and dated."
+   "std": "Cite a source and a date for every row."
   },
   "3": {
    "title": "Value and analyse a property",
@@ -52,7 +52,7 @@
    ],
    "ex": "Rent 40,000 a year less 5% vacancy (2,000) = 38,000; less costs 10,000 = 28,000 net income. At a 5% cap rate the value is 28,000 / 0.05 = 560,000. At 6% it is 28,000 / 0.06 = about 466,667, so the cap rate you choose matters a great deal.",
    "act": "Value one property two ways.",
-   "std": "Both methods shown."
+   "std": "Show both methods."
   },
   "4": {
    "title": "Cost a deal and test it",
@@ -68,7 +68,7 @@
    ],
    "ex": "Buy 360,000; costs 24,000, so total cost is 384,000. Sell 420,000; fees 21,000, so net is 399,000; profit 15,000, about 3.9% of cost. If the price falls 5% to 399,000, fees of 5% are 19,950, net is 379,050 and the result is a loss of 4,950. Teaching figures in CAD.",
    "act": "Build a deal sheet with a 5% fall case.",
-   "std": "Stress case shown."
+   "std": "Show the stress case."
   },
   "5": {
    "title": "Run the transaction and file records",
@@ -84,7 +84,7 @@
    ],
    "ex": "Closing checklist with 14 steps, each signed and dated. If only 12 are dated, the file is 12 / 14 = 86% complete, and the two blanks are the first things to chase.",
    "act": "Build a transaction checklist.",
-   "std": "All steps dated."
+   "std": "Date all steps."
   },
   "6": {
    "title": "Find clients and build trust",
@@ -100,7 +100,7 @@
    ],
    "ex": "Funnel: 40 contacts, 10 viewings, 3 offers, 1 sale. Rates: 10 / 40 = 25% to viewing, 3 / 10 = 30% to offer, 1 / 3 = 33% to sale, and 1 / 40 = 2.5% overall. To expect four sales you would need about 160 contacts.",
    "act": "Run a 4-week funnel.",
-   "std": "Funnel recorded."
+   "std": "Record the funnel."
   },
   "7": {
    "title": "Manage legal, fair-housing and market risk",
@@ -116,7 +116,7 @@
    ],
    "ex": "Risk: 'Price fall | 4 x 4 | margin of safety | owner | quarterly'. A 10% fall on a 420,000 property is 42,000 of value, so a deal with less than that margin of safety is skipped or re-priced.",
    "act": "Write a risk register.",
-   "std": "Owners named."
+   "std": "Name an owner for each item."
   },
   "8": {
    "title": "Pilot with a paper deal",

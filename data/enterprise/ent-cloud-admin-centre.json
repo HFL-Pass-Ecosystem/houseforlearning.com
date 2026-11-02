@@ -12,7 +12,7 @@
   ],
   "An audit finds 14 accounts with no sign-in for 120 days, 6 global admins and one site shared with anyone who has the link. The team disables the old accounts, cuts admins to 2 and changes the link to named guests with expiry.",
   "Audit a practice tenant using a checklist of 15 items. Produce a table of findings with a rating, an owner and a fix date, plus a one-page handover note.",
-  "All 15 items checked; every finding rated and owned; handover note lets a new admin find roles, policies and recovery steps."
+  "Check all 15 items, rate and assign an owner to every finding, and write a handover note that lets a new admin find roles, policies and recovery steps."
  ],
  "quiz": [
   [

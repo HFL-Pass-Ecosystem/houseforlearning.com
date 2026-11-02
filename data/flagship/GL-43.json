@@ -44,7 +44,7 @@
    ],
    "A trader lists blood pressure monitors only after learning that her country needs a device registration; she waits for a licensed distributor.",
    "List 20 items and sort them into low risk, needs licence, do not sell.",
-   "Each item has a rule note with a source."
+   "Add a rule note with a source to each item."
   ],
   [
    "Supplier checks",
@@ -58,7 +58,7 @@
    ],
    "A glove supplier cannot give batch numbers; the trader drops the offer and picks one with labelled cartons.",
    "Complete a supplier check form for two suppliers.",
-   "Forms are filled with real or practice evidence; one supplier is rejected with a reason."
+   "Fill the forms with real or practice evidence and reject one supplier with a reason."
   ],
   [
    "Product pages that tell the truth",
@@ -72,7 +72,7 @@
    ],
    "Weak: \"Best protection against disease.\" Strong: \"Single-use nitrile gloves, size M, box of 100, not for sterile surgery.\"",
    "Write 10 product pages.",
-   "Pages have all required facts; no unapproved claim."
+   "Include all required facts on the pages and check that no claim is unapproved."
   ],
   [
    "Storage, cold chain and expiry",
@@ -100,7 +100,7 @@
    ],
    "An order of ear drops is held until the prescription is checked by the partner pharmacist.",
    "Write the order-to-delivery steps and run a mock order.",
-   "Mock order passes with no mistakes."
+   "Complete the mock order with no mistakes."
   ],
   [
    "Returns, complaints and recall",
@@ -114,7 +114,7 @@
    ],
    "A batch of masks has a seal fault. The shop finds 40 buyers by batch number within 6 hours.",
    "Run a mock recall within 24 hours.",
-   "Every step is recorded with time."
+   "Record every step with its time."
   ],
   [
    "Privacy and payment safety",
@@ -128,7 +128,7 @@
    ],
    "The shop removes the product name from the delivery label and shows only the order number.",
    "Write a one-page privacy and payment note.",
-   "Note lists data kept, why, and for how long."
+   "List in the note the data kept, why, and for how long."
   ],
   [
    "Launch and improve",
@@ -142,7 +142,7 @@
    ],
    "After one month: 62 orders, 2 complaints, 0 recalls; one item removed for slow sales and a supplier changed.",
    "Present your launch review.",
-   "Numbers are true and a clear next step is dated."
+   "State true numbers and date a clear next step."
   ]
  ],
  "quiz": [
@@ -252,12 +252,12 @@
   [
    "Supplier checks",
    "L2: learner knows that some items need licences. Focus module: Supplier checks (Analyse, 5 h). A shop is only as safe as its supplier. Key points: Ask for licence, batch number, expiry date, storage needs and a product data sheet. Test with a small order; inspect packs, labels and seals. Keep records for each batch so you can trace and recall.",
-   "Teach: open with the worked example. A glove supplier cannot give batch numbers; the trader drops the offer and picks one with labelled cartons. Then set the activity: Complete a supplier check form for two suppliers. Mark against the standard: Forms are filled with real or practice evidence; one supplier is rejected with a reason. Check at this level: What must a supplier provide? Model answer: Licence, batch number, expiry date, storage needs, data sheet."
+   "Teach: open with the worked example. A glove supplier cannot give batch numbers; the trader drops the offer and picks one with labelled cartons. Then set the activity: Complete a supplier check form for two suppliers. Mark against the standard: Fill the forms with real or practice evidence and reject one supplier with a reason. Check at this level: What must a supplier provide? Model answer: Licence, batch number, expiry date, storage needs, data sheet."
   ],
   [
    "Product pages that tell the truth",
    "L3: learner can write a product page with warnings. Focus module: Product pages that tell the truth (Create, 5 h). Pages must be clear, accurate and not claim to cure. Key points: State what it is, size, quantity, intended use, warnings, storage and expiry. Use only the maker's approved claims; never promise cures or diagnosis. Show real photos and a clear return rule.",
-   "Teach: open with the worked example. Weak: \"Best protection against disease.\" Strong: \"Single-use nitrile gloves, size M, box of 100, not for sterile surgery.\" Then set the activity: Write 10 product pages. Mark against the standard: Pages have all required facts; no unapproved claim. Check at this level: Why avoid cure claims? Model answer: They mislead buyers and may be illegal where you sell; check the local rule."
+   "Teach: open with the worked example. Weak: \"Best protection against disease.\" Strong: \"Single-use nitrile gloves, size M, box of 100, not for sterile surgery.\" Then set the activity: Write 10 product pages. Mark against the standard: Include all required facts on the pages and check that no claim is unapproved. Check at this level: Why avoid cure claims? Model answer: They mislead buyers and may be illegal where you sell; check the local rule."
   ],
   [
    "Storage, cold chain and expiry",
@@ -272,12 +272,12 @@
   [
    "Privacy and payment safety",
    "L6: learner can lead stock and compliance for a small team. Focus module: Privacy and payment safety (Evaluate, 4 h). Order data can reveal health, which is sensitive. Key points: Collect only what is needed; store securely; delete when no longer needed. Use payment methods approved in your place; never ask for card numbers by message. Pack discreetly where the product is private.",
-   "Teach: open with the worked example. The shop removes the product name from the delivery label and shows only the order number. Then set the activity: Write a one-page privacy and payment note. Mark against the standard: Note lists data kept, why, and for how long. Check at this level: What is a returns rule for opened medical items? Model answer: Usually not resellable; state it clearly."
+   "Teach: open with the worked example. The shop removes the product name from the delivery label and shows only the order number. Then set the activity: Write a one-page privacy and payment note. Mark against the standard: List in the note the data kept, why, and for how long. Check at this level: What is a returns rule for opened medical items? Model answer: Usually not resellable; state it clearly."
   ],
   [
    "Launch and improve",
    "L7: learner can advise other shops on rules and recall readiness. Focus module: Launch and improve (Create, 5 h). Open small, learn, and grow only what is safe. Key points: Launch with 10 items; track orders, complaints, returns and stock-outs. Review monthly with a licensed adviser; add items only after the rule check. Plan responsible disposal and give customer safety tips.",
-   "Teach: open with the worked example. After one month: 62 orders, 2 complaints, 0 recalls; one item removed for slow sales and a supplier changed. Then set the activity: Present your launch review. Mark against the standard: Numbers are true and a clear next step is dated. Check at this level: Name two storage dangers. Model answer: Heat and damp (also pests, sunlight)."
+   "Teach: open with the worked example. After one month: 62 orders, 2 complaints, 0 recalls; one item removed for slow sales and a supplier changed. Then set the activity: Present your launch review. Mark against the standard: State true numbers and date a clear next step. Check at this level: Name two storage dangers. Model answer: Heat and damp (also pests, sunlight)."
   ]
  ]
 }

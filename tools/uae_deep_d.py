@@ -10,7 +10,7 @@ D2 = {
    'Settle disputes by the written return policy, not by mood, and record the outcome.'],
   'A buyer says a phone case arrived cracked. The packing photo shows it intact, but the courier note shows a crushed box. You refund the full AED 45 price, claim AED 45 back from the courier, and add 2 cm more padding to the pack. The refund costs less than a lost review or a chargeback (the bank taking the AED 45 back) plus a bank fee of AED 25, AED 70 in total.',
   'Write a one-page dispute procedure with a 48-hour reply rule and three example cases.',
-  'Procedure names the proof needed, who decides, a time limit in hours, and how records are kept.')],
+  'State in the procedure the proof needed, who decides, a time limit in hours, and how records are kept.')],
  'webpreneur': [(
   'Terms, consent and honest claims', 'Evaluate', 9,
   'An online business is judged on what it promises. Clear terms, honest marketing and proper consent keep customers and help you avoid complaints and penalties.',
@@ -20,7 +20,7 @@ D2 = {
    'Keep a log of complaints and how each was solved.'],
   'A course page says "only 3 places left" but 40 places are open. You change it to "next class starts 15 March, 40 places". Sales fall from 12 to 9 a week at first, but refund requests drop from 4 to 1 a month, saving AED 600 (3 fewer refunds at AED 200 each).',
   'Audit one real sales page and list every claim that cannot be proved, with a corrected wording.',
-  'Every claim is either proved, reworded or removed; refund rule is visible before payment.')],
+  'Prove, reword or remove every claim; show the refund rule before payment.')],
  'business-brokers': [(
   'Conflicts, confidentiality and honest disclosure', 'Evaluate', 9,
   'A broker holds private facts about sellers and buyers. Trust depends on keeping secrets, being open about conflicts and never hiding a known problem.',
@@ -30,7 +30,7 @@ D2 = {
    'Verify the buyer can pay before opening the books.'],
   'A seller owes AED 80,000 to a supplier and asks you to leave it out. You refuse and list it in the disclosure sheet. The asking price of AED 600,000 is lowered by the AED 80,000 debt to AED 520,000, and the sale can still close in 6 weeks instead of collapsing when the buyer checks the books (due diligence).',
   'Role-play a seller who wants a fact hidden; write the disclosure note and your reply.',
-  'Reply refuses to hide the fact, gives reasons, and the disclosure note is dated and complete.')],
+  'Write a reply that refuses to hide the fact and gives reasons, and date and complete the disclosure note.')],
  'insurance-brokers': [(
   'Disputed claims and fair treatment', 'Evaluate', 9,
   'When a claim is refused or delayed, the client turns to the broker. Fair, documented handling and honest explanation are the core skill.',
@@ -40,7 +40,7 @@ D2 = {
    'Tell the client about the complaints route if the insurer does not resolve it.'],
   'A client claims AED 12,000 for water damage. The insurer refuses citing gradual leakage. You collect the plumber report showing a sudden burst on 3 June, resubmit within 5 days, and the insurer accepts the claim and pays AED 11,500 (AED 12,000 less the AED 500 excess, the part the client pays first).',
   'Draft a reply to an insurer refusing a claim, using a fictional case and listing three pieces of evidence.',
-  'Letter quotes the policy clause, attaches evidence and asks for a decision by a stated date.')],
+  'Write a letter that quotes the policy clause, attaches evidence and asks for a decision by a stated date.')],
  'luxury': [(
   'Authenticity, complaints and high-value rules', 'Evaluate', 9,
   'Luxury clients expect proof that an item is genuine and a graceful answer when something goes wrong. Rules on large cash sales also apply.',
@@ -50,7 +50,7 @@ D2 = {
    'Offer a fix before a discount; protect the value of the item and the client relationship.'],
   'A watch worth AED 48,000 arrives with a scratch on the case. You apologise the same day, collect it by courier, polish and re-inspect it, and return it in 3 days. The cost is AED 350, far less than an AED 48,000 refund and a lost client.',
   'Write a three-step complaint reply and a checklist for recording a high-value sale.',
-  'Reply is under 120 words, personal, with a date; checklist includes identity and proof of authenticity.')],
+  'Write a reply under 120 words that is personal and has a date; include identity and proof of authenticity in the checklist.')],
  'travel': [(
   'Disruptions, refunds and duty of care', 'Evaluate', 9,
   'Flights are cancelled, visas are refused and hotels overbook. A good agent keeps the traveller informed, knows the refund rules and acts fast.',
@@ -70,7 +70,7 @@ D2 = {
    'Show the owner the faulty part and explain what is needed and what can wait.'],
   'A car will not start. Battery reads 11.2 V (should be above 12.4 V). A charge fixes it for one day, so you test the alternator: output is 12.9 V instead of 14 V. The alternator is the fault (AED 650 to replace), so a new battery (AED 480) is not needed.',
   'Build a six-step fault tree for "engine cranks but will not start" and test it on a worked case.',
-  'Tree starts with simple checks, each step has a pass or fail result, and ends with a stated cause.')],
+  'Start the tree with simple checks, give each step a pass or fail result, and end with a stated cause.')],
  'mobile': [(
   'Data privacy and tricky repair cases', 'Evaluate', 9,
   'A phone holds a person\'s whole life. Handling it with care, protecting data and knowing when to decline a repair are professional duties.',
@@ -90,7 +90,7 @@ D2 = {
    'Give customers a short guide on safe charging and warning signs.'],
   'A batch of 100 chargers at AED 12 each weighs 38 g against a genuine 62 g. You quarantine the batch, return it for an AED 1,200 credit (100 x AED 12), and replace it with conforming stock at AED 25 each. The margin falls, but one fire claim could cost far more.',
   'Write a one-page "spot the fake" checklist for staff with five physical checks.',
-  'Checklist is measurable, mentions marks and weight, and says what to do when a fake is found.')],
+  'Write a measurable checklist that mentions marks and weight and says what to do when a fake is found.')],
  'freelance-web-design': [(
   'Difficult clients and scope disputes', 'Evaluate', 9,
   'Most disputes come from vague scope and late feedback. Clear change rules and calm written replies keep projects profitable.',
@@ -110,7 +110,7 @@ D2 = {
    'After the fix, add a test and write a short incident note.'],
   'A checkout page returns an error after a deployment at 14:00. Logs show a missing field. You roll back in 10 minutes, losing about 3 orders worth AED 150 each (AED 450) instead of 2 hours of failed checkouts, then fix and test on a copy.',
   'Debug a given broken page with a deliberate bug and write the incident note.',
-  'Note states cause, fix, time in minutes and one change to prevent repeats.')],
+  'State cause, fix, time in minutes and one change to prevent repeats in the note.')],
  'freelance-writer': [(
   'Ethics, sources and difficult feedback', 'Evaluate', 9,
   'Trust is a writer\'s asset. Honest sourcing, respect for copyright and professional handling of criticism protect your work and your client.',
@@ -120,7 +120,7 @@ D2 = {
    'Handle feedback by separating opinion from error, and revise within the agreed rounds.'],
   'A client asks for a claim that a product cures a problem. You cannot find evidence, so you offer "may help" with a source. The article is 800 words, the fee is AED 400, and the client accepts a safer version, which lowers the risk of a complaint.',
   'Take a 300-word draft with three unsupported claims and fix each with a source or a softer wording.',
-  'Every claim has a source or is reworded; a source list is attached.')],
+  'Support every claim with a source or reword it, and attach a source list.')],
  'restaurant': [(
   'Complaints, allergens and kitchen incidents', 'Evaluate', 10,
   'A guest with an allergy or a bad meal needs a fast, careful response. Clear allergen information and a calm complaint routine protect guests and the kitchen.',
@@ -130,7 +130,7 @@ D2 = {
    'Report any suspected food illness to a manager at once and keep the sample.'],
   'A guest says the soup was cold. You replace it within 5 minutes and remove the AED 28 item from the bill. The cost is AED 28 in lost sales plus about AED 9 in food, AED 37 in total, far less than a bad review that could lose guests who would each spend about AED 120.',
   'Create an allergen matrix for five dishes and a complaint log template.',
-  'Matrix lists all main allergens; log has time, cause, action and manager sign-off.')],
+  'List all main allergens in the matrix; record time, cause, action and manager sign-off in the log.')],
  'e-commerce': [(
   'Fraud, chargebacks and customer data', 'Evaluate', 9,
   'Online sellers face false claims and stolen cards. Spotting patterns, keeping evidence and protecting customer data limits losses.',
@@ -140,7 +140,7 @@ D2 = {
    'Confirm risky orders by phone before shipping.'],
   'An order of AED 3,200 is placed from a new account with a different delivery country. You call, get no answer, cancel and refund. You avoid a possible chargeback (the bank taking the AED 3,200 back) plus an AED 60 fee.',
   'Write a five-point risk checklist and a chargeback evidence folder list.',
-  'Checklist has measurable triggers in AED or counts; folder list covers proof of delivery and contact.')],
+  'Set measurable triggers in AED or counts in the checklist, and cover proof of delivery and contact in the folder list.')],
  'business-consultancy-services': [(
   'Ethics, scope control and handling resistance', 'Evaluate', 9,
   'Clients sometimes resist change or ask for answers that suit them. A consultant stays honest, protects confidentiality and holds the scope.',
@@ -150,5 +150,5 @@ D2 = {
    'Manage resistance by listening to concerns, testing a small pilot and showing numbers.'],
   'A manager wants a report to show a 20% saving. Your data shows 8% across 12 months, about AED 96,000 on an AED 1,200,000 cost base. You present 8% with a plan to look for a further 5 percentage points (about AED 60,000), which protects the credibility of the report; a 20% saving would have been AED 240,000.',
   'Write an engagement letter clause on confidentiality and conflicts, plus a reply to a request to change findings.',
-  'Clause is clear and short; reply refuses politely and offers evidence-based options.')],
+  'Write a clear, short clause, and draft a reply that refuses politely and offers evidence-based options.')],
 }

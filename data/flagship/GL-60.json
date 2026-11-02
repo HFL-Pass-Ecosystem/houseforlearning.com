@@ -45,7 +45,7 @@
    ],
    "A 37 Wh bank at 70 per cent efficiency delivers about 26 Wh, enough for roughly two charges of a 12 Wh phone, not three.",
    "Calculate usable energy for three banks from their labels and assumed efficiency.",
-   "Maths is correct and assumptions are stated."
+   "Calculate the maths correctly, and state the assumptions."
   ],
   [
    "Wired charging, cables and standards",
@@ -60,7 +60,7 @@
    ],
    "A 65 W charger with a cheap cable charges a laptop slowly because the cable cannot carry the current; a certified cable restores full speed.",
    "Build a compatibility table for five devices, chargers and cables.",
-   "Entries are correct and sourced."
+   "Check that the entries are correct and sourced."
   ],
   [
    "Wireless charging",
@@ -75,7 +75,7 @@
    ],
    "A wireless pad at 70 per cent efficiency wastes 30 per cent as heat, so a 15 Wh phone charge draws about 21 Wh from the wall.",
    "Explain how wireless charging works and calculate wall energy for one charge.",
-   "A peer can repeat the idea and one limit."
+   "Explain the idea and one limit so that a peer can repeat them."
   ],
   [
    "Testing real capacity",
@@ -90,7 +90,7 @@
    ],
    "A 20,000 mAh bank labelled 74 Wh delivers 55 Wh on average, 74 per cent of the claim. Its price per delivered Wh is higher than a competitor with an honest label.",
    "Test three banks and record results in a table with price per delivered Wh.",
-   "Results include averages, percentage of label and cost per Wh."
+   "Report results that include averages, percentage of label and cost per Wh."
   ],
   [
    "Safety, quality and transport",
@@ -105,7 +105,7 @@
    ],
    "A swollen bank is isolated in a metal tin away from flammable items and taken to a collection point the same day.",
    "Write a safety note, inspection routine and disposal procedure.",
-   "Includes inspection, isolation, transport rule and disposal."
+   "Include inspection, isolation, transport rule and disposal."
   ],
   [
    "A shared charging service",
@@ -120,7 +120,7 @@
    ],
    "A cafe rents banks for 50 INR with a refundable deposit of 300 INR (estimates; check your market) and tracks serial numbers. Loss falls to zero after deposits are introduced.",
    "Plan a small service with prices, loss assumptions and break-even.",
-   "Costs and prices are shown with currency and break-even is calculated."
+   "Show costs and prices with currency, and calculate break-even."
   ],
   [
    "Care, reuse and recycling",
@@ -135,7 +135,7 @@
    ],
    "A cafe has a labelled battery recycling box and a monthly collection. Banks are retired after 500 cycles or when capacity falls below 70 per cent.",
    "Write care rules and a retirement rule.",
-   "Rules are specific and measurable."
+   "Write specific and measurable rules."
   ],
   [
    "Pilot and review",
@@ -150,7 +150,7 @@
    ],
    "Week one: 40 rentals and 2 losses; a deposit is added and losses stop. Average rental time is 4 hours, so one bank earns about 12 INR an hour.",
    "Present your pilot review.",
-   "Numbers are real and one improvement is dated."
+   "Use real numbers, and date one improvement."
   ]
  ],
  "quiz": [
@@ -255,7 +255,7 @@
   [
    "Batteries, units and real capacity",
    "L1: learner can name charger parts. Focus module: Batteries, units and real capacity (Understand, 3 h). You cannot compare power banks without understanding the units, and the number on the label is not what you can use. Key points: Energy is measured in watt-hours: Wh = volts x amp-hours. A 10,000 mAh cell at 3.7 V holds 37 Wh. Converting to 5 V and charging a phone loses 20 to 40 per cent as heat. Cycles of charge and discharge age batteries; heat ages them faster. Labels often quote capacity at cell voltage, not usable output.",
-   "Teach: open with the worked example. A 37 Wh bank at 70 per cent efficiency delivers about 26 Wh, enough for roughly two charges of a 12 Wh phone, not three. Then set the activity: Calculate usable energy for three banks from their labels and assumed efficiency. Mark against the standard: Maths is correct and assumptions are stated. Check at this level: Formula for Wh? Model answer: Volts x amp-hours."
+   "Teach: open with the worked example. A 37 Wh bank at 70 per cent efficiency delivers about 26 Wh, enough for roughly two charges of a 12 Wh phone, not three. Then set the activity: Calculate usable energy for three banks from their labels and assumed efficiency. Mark against the standard: Calculate the maths correctly, and state the assumptions. Check at this level: Formula for Wh? Model answer: Volts x amp-hours."
   ],
   [
    "Wired charging, cables and standards",
@@ -265,17 +265,17 @@
   [
    "Wireless charging",
    "L3: learner can calculate Wh. Focus module: Wireless charging (Understand, 3 h). Coils and magnetic fields transfer energy without a plug. Key points: Pad and device must align; metal objects between them can heat up. Efficiency is lower than wired charging, so more heat and wasted energy. Standards exist for compatibility. Good for convenience, not always for speed.",
-   "Teach: open with the worked example. A wireless pad at 70 per cent efficiency wastes 30 per cent as heat, so a 15 Wh phone charge draws about 21 Wh from the wall. Then set the activity: Explain how wireless charging works and calculate wall energy for one charge. Mark against the standard: A peer can repeat the idea and one limit. Check at this level: Wireless pad efficiency issue? Model answer: Lower efficiency, more heat."
+   "Teach: open with the worked example. A wireless pad at 70 per cent efficiency wastes 30 per cent as heat, so a 15 Wh phone charge draws about 21 Wh from the wall. Then set the activity: Explain how wireless charging works and calculate wall energy for one charge. Mark against the standard: Explain the idea and one limit so that a peer can repeat them. Check at this level: Wireless pad efficiency issue? Model answer: Lower efficiency, more heat."
   ],
   [
    "Testing real capacity",
    "L4: learner can test a bank. Focus module: Testing real capacity (Apply, 4 h). Measure, do not trust the label. Key points: Fully discharge into a known load while recording watt-hours with a meter. Repeat three times and average. Compare with the label and record the percentage. Record temperature and time.",
-   "Teach: open with the worked example. A 20,000 mAh bank labelled 74 Wh delivers 55 Wh on average, 74 per cent of the claim. Its price per delivered Wh is higher than a competitor with an honest label. Then set the activity: Test three banks and record results in a table with price per delivered Wh. Mark against the standard: Results include averages, percentage of label and cost per Wh. Check at this level: How measure capacity? Model answer: Discharge into a known load and measure Wh."
+   "Teach: open with the worked example. A 20,000 mAh bank labelled 74 Wh delivers 55 Wh on average, 74 per cent of the claim. Its price per delivered Wh is higher than a competitor with an honest label. Then set the activity: Test three banks and record results in a table with price per delivered Wh. Mark against the standard: Report results that include averages, percentage of label and cost per Wh. Check at this level: How measure capacity? Model answer: Discharge into a known load and measure Wh."
   ],
   [
    "Safety, quality and transport",
    "L5: learner can compare devices. Focus module: Safety, quality and transport (Evaluate, 4 h). Poor batteries can overheat or catch fire. Key points: Look for certification marks and protection circuits. Avoid swollen, hot or damaged units; isolate them in a safe container. Follow airline and transport rules for carrying batteries. Dispose of faulty batteries at a collection point.",
-   "Teach: open with the worked example. A swollen bank is isolated in a metal tin away from flammable items and taken to a collection point the same day. Then set the activity: Write a safety note, inspection routine and disposal procedure. Mark against the standard: Includes inspection, isolation, transport rule and disposal. Check at this level: What marks safe goods? Model answer: Certification marks and protection circuits."
+   "Teach: open with the worked example. A swollen bank is isolated in a metal tin away from flammable items and taken to a collection point the same day. Then set the activity: Write a safety note, inspection routine and disposal procedure. Mark against the standard: Include inspection, isolation, transport rule and disposal. Check at this level: What marks safe goods? Model answer: Certification marks and protection circuits."
   ],
   [
    "Care, reuse and recycling",
@@ -285,7 +285,7 @@
   [
    "Pilot and review",
    "L7: learner can audit safety. Focus module: Pilot and review (Create, 3 h). Test the idea for a week. Key points: Run a trial with a small number of users. Record use, complaints and losses. Improve based on data. Decide whether to continue.",
-   "Teach: open with the worked example. Week one: 40 rentals and 2 losses; a deposit is added and losses stop. Average rental time is 4 hours, so one bank earns about 12 an hour. Then set the activity: Present your pilot review. Mark against the standard: Numbers are real and one improvement is dated. Check at this level: What should a pilot record? Model answer: Use, complaints and losses."
+   "Teach: open with the worked example. Week one: 40 rentals and 2 losses; a deposit is added and losses stop. Average rental time is 4 hours, so one bank earns about 12 an hour. Then set the activity: Present your pilot review. Mark against the standard: Use real numbers, and date one improvement. Check at this level: What should a pilot record? Model answer: Use, complaints and losses."
   ]
  ]
 }
