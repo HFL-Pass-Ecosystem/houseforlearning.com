@@ -62,7 +62,7 @@ Evidence: slides or notes, two peer reviews, the written note.
 ## Lesson 9 - Regeneration (STUDY, 2 h): Check and next step
 1. Take the 10-question check. Pass mark is 70% (draft).
 2. Write your 90-day plan: what you will do next, how you will measure it, what you will learn next. Good follow-on courses: Privacy Protection Practice; DDoS and Cyber-Attack Prevention; Internet Infrastructure Basics.
-3. Contribute back: share your options table template, notice wording or breach-plan template so the next learner starts higher. Accepted items earn credits (rates are placeholders until the owner fixes the revenue plan).
+3. Contribute back: share your options table template, notice wording or breach-plan template so the next learner starts higher. Accepted items earn credits (rates will be confirmed before opening).
 Evidence: check result and the 90-day plan.
 
 ## Worked examples
