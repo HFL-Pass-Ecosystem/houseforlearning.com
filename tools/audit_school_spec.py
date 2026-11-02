@@ -28,6 +28,7 @@ for f in sorted(glob.glob(f'{root}/data/school-deep/*.json')):
         if m['bloom'] not in h: gaps['bloom missing on page'].append(u)
         if len(m.get('example', '')) < 60: gaps['no worked example'].append(u)
         if not isl and not m.get('steps'): gaps['no step working'].append(u)
+        if 'taught in a way that is' in m.get('intro', '') or 'The target is clear' in m.get('intro', ''): gaps['old broken intro wording'].append(u)
         if len(m.get('points', [])) < 3: gaps['few points'].append(u)
         if len(m.get('standard', '')) < 30: gaps['no unit standard'].append(u)
         if len(m.get('activity', '')) < 30: gaps['no activity'].append(u)

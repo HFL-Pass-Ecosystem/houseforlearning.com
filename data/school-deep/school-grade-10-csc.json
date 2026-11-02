@@ -22,7 +22,7 @@
    ],
    "hours": 33,
    "outcome": "write programs using lists, dictionaries and files",
-   "intro": "In this unit you work on 'Python: functions, files and data structures', taught in a way that is with notes, a worked line and a self-mark. The target is clear: write programs using lists, dictionaries and files. You move from seeing it, to saying it, to doing it alone.",
+   "intro": "In this unit, 'Python: functions, files and data structures', you learn to write programs using lists, dictionaries and files. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
    "points": [
     "See it: watch or try the skill in 'Python: functions, files and data structures' on a teacher screen or a safe device.",
     "Name the parts: write the key words and what each part does.",
@@ -52,7 +52,7 @@
    ],
    "hours": 33,
    "outcome": "design and query a small database",
-   "intro": "In this unit you work on 'Databases and SQL', taught in a way that is with notes, a worked line and a self-mark. The target is clear: design and query a small database. You move from seeing it, to saying it, to doing it alone.",
+   "intro": "In this unit, 'Databases and SQL', you learn to design and query a small database. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
    "points": [
     "See it: watch or try the skill in 'Databases and SQL' on a teacher screen or a safe device.",
     "Name the parts: write the key words and what each part does.",
@@ -82,7 +82,7 @@
    ],
    "hours": 33,
    "outcome": "plan a small data project from problem to evaluation",
-   "intro": "In this unit you work on 'Artificial intelligence project cycle', taught in a way that is with notes, a worked line and a self-mark. The target is clear: plan a small data project from problem to evaluation. You move from seeing it, to saying it, to doing it alone.",
+   "intro": "In this unit, 'Artificial intelligence project cycle', you learn to plan a small data project from problem to evaluation. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
    "points": [
     "See it: watch or try the skill in 'Artificial intelligence project cycle' on a teacher screen or a safe device.",
     "Name the parts: write the key words and what each part does.",
@@ -112,7 +112,7 @@
    ],
    "hours": 9,
    "outcome": "describe privacy, copyright and responsible AI use",
-   "intro": "In this unit you work on 'Cyber law and ethics', taught in a way that is with notes, a worked line and a self-mark. The target is clear: describe privacy, copyright and responsible AI use. You move from seeing it, to saying it, to doing it alone.",
+   "intro": "In this unit, 'Cyber law and ethics', you learn to describe privacy, copyright and responsible AI use. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
    "points": [
     "See it: watch or try the skill in 'Cyber law and ethics' on a teacher screen or a safe device.",
     "Name the parts: write the key words and what each part does.",
@@ -171,7 +171,7 @@
    "total = sum(stock.values()) gives 12; best = max(stock, key=stock.get) gives 'apple'. (Covered in unit 1: Python: functions, files and data structures.)"
   ],
   [
-   "Unit 2 (Databases and SQL): Tables books(book_id, title) and loans(book_id, days) with books (1,'Sea'),(2,'Sky') and loans (1,7),(1,5),(2,10). Average days per title?.",
+   "Unit 2 (Databases and SQL): Tables books(book_id, title) and loans(book_id, days) with books (1,'Sea'),(2,'Sky') and loans (1,7),(1,5),(2,10). Average days per title?",
    "join on book_id, GROUP BY title; Sea is (7 plus 5) divided by 2, which is 6.0; Sky is 10.0. (Covered in unit 2: Databases and SQL.)"
   ],
   [
@@ -179,16 +179,16 @@
    "total 50; accuracy is 40 divided by 50, or 80 percent; recall is 10 divided by 15, which is 66.7 percent. (Covered in unit 3: Artificial intelligence project cycle.)"
   ],
   [
-   "Unit 4 (Cyber law and ethics): Your team wants to use a song on a school video. What do you check?.",
+   "Unit 4 (Cyber law and ethics): Your team wants to use a song on a school video. What do you check?",
    "check the licence or get permission, use free-to-reuse music with credit, or compose your own; do not just copy it. (Covered in unit 4: Cyber law and ethics.)"
   ],
   [
    "Unit 1 (Python: functions, files and data structures): Use a dictionary. Show how you do it and say what the result is.",
-   "He stores marks = {'Ali': 72, 'Bana': 91, 'Cyrus': 65, 'Dina': 88}. marks['Bana'] gives 91. A dictionary looks up a value by its key, which is faster to read than searching a list by position. (Covered in unit 1: Python: functions, files and data structures.)"
+   "He stores marks = {'Learner 1': 72, 'Learner 2': 91, 'Learner 3': 65, 'Learner 4': 88}. marks['Learner 2'] gives 91. A dictionary looks up a value by its key, which is faster to read than searching a list by position. (Covered in unit 1: Python: functions, files and data structures.)"
   ],
   [
    "Unit 2 (Databases and SQL): Create and fill. Show how you do it and say what the result is.",
-   "CREATE TABLE students (student_id INTEGER PRIMARY KEY, name TEXT); and CREATE TABLE marks (student_id INTEGER, subject TEXT, mark INTEGER); then INSERT students (1,'Ali'),(2,'Bana') and marks (1,'Maths',72),(1,'Science',80),(2,'Maths',91),(2,'Science',85). That is 2 students and 4 marks. (Covered in unit 2: Databases and SQL.)"
+   "CREATE TABLE students (student_id INTEGER PRIMARY KEY, name TEXT); and CREATE TABLE marks (student_id INTEGER, subject TEXT, mark INTEGER); then INSERT students (1,'Learner 1'),(2,'Learner 2') and marks (1,'Maths',72),(1,'Science',80),(2,'Maths',91),(2,'Science',85). That is 2 students and 4 marks. (Covered in unit 2: Databases and SQL.)"
   ],
   [
    "Unit 3 (Artificial intelligence project cycle): Acquire data. Show how you do it and say what the result is.",
@@ -200,11 +200,11 @@
   ],
   [
    "Unit 1 (Python: functions, files and data structures): Write to a file. Show how you do it and say what the result is.",
-   "with open('scores.txt', 'w') as f: for n, m in marks.items(): f.write(n + ',' + str(m) + '\\n'). The file has 4 lines such as Ali,72. The with block closes the file safely at the end. (Covered in unit 1: Python: functions, files and data structures.)"
+   "with open('scores.txt', 'w') as f: for n, m in marks.items(): f.write(n + ',' + str(m) + '\\n'). The file has 4 lines such as Learner 1,72. The with block closes the file safely at the end. (Covered in unit 1: Python: functions, files and data structures.)"
   ],
   [
    "Unit 2 (Databases and SQL): Why two tables. Show how you do it and say what the result is.",
-   "Names are stored once, not repeated in every mark row. If Bana changed her name, only 1 row in students changes, not 2 rows in marks. This avoids repeated data and mistakes. (Covered in unit 2: Databases and SQL.)"
+   "Names are stored once, not repeated in every mark row. If Learner 2 changed their name, only 1 row in students changes, not 2 rows in marks. This avoids repeated data and mistakes. (Covered in unit 2: Databases and SQL.)"
   ]
  ],
  "ladder": [
