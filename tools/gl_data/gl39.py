@@ -21,7 +21,7 @@ C = dict(id='GL-39', title='Virtual Interior Design Consulting', group='Business
  next='360-Degree Photography and Virtual Tours; Business Coaching Practice; Online Car Dealership Operations.',
  local='Building, safety and tenancy rules differ by place; never advise changes that need approval without telling the client.',
  evidence='Your evidence: scope, brief, measurement check, two layouts, mood board, shopping list, feedback round and handover.',
- ladder=[('Basics of rooms', 'Measure a room. Notes: tape and sketch.'), ('Awareness', 'Know layout and colour. Notes: examples.'), ('Foundation', 'Plan one room. Notes: peer client.'), ('Practitioner', 'This course. Notes: remote package.'), ('Specialist', 'Whole home. Notes: phases.'), ('Advanced', 'Lead a design team. Notes: contracts.'), ('Super expert', 'Set method and teach teachers. Notes: safety review.')])
+ ladder=[('Basics of rooms', 'Measure a room. Notes: tape and sketch.'), ('Awareness', 'Know layout and colour. Notes: examples.'), ('Foundation', 'Plan one room. Notes: peer client.'), ('Practitioner', 'This course. Notes: remote package.'), ('Specialist', 'Whole home. Notes: phases.'), ('Advanced', 'Lead a design team. Notes: contracts.'), ('Super expert', 'Set the measured-brief, layout and safety method for virtual interior design and teach the consultants who use it. Notes: review electrical, fire and access advice against the current code each year.')])
 
 C['deep'] = dict(mods=[
  ('Starting with products.', 'Start with how the room is used.', 'How is it used?'),

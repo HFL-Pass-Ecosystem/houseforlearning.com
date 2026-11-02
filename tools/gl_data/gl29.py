@@ -21,7 +21,7 @@ C = dict(id='GL-29', title='Business Process Outsourcing Services', group='Busin
  next='Business Coaching Practice; IT Service and Support; E-Commerce Inventory Management.',
  local='Data export, labour and tax rules differ by place; check contracts and cross-border data rules.',
  evidence='Your evidence: process map, agreement, procedure, quality sample, capacity sheet, security checklist and four weekly reports.',
- ladder=[('Basics of tasks', 'Do a task accurately. Notes: timed exercise.'), ('Awareness', 'Know outsourcing. Notes: case studies.'), ('Foundation', 'Follow a procedure. Notes: checklists.'), ('Practitioner', 'This course. Notes: 4-week pilot.'), ('Specialist', 'Complex processes. Notes: finance support.'), ('Advanced', 'Lead delivery. Notes: SLAs.'), ('Super expert', 'Set method and teach teachers. Notes: audits.')])
+ ladder=[('Basics of tasks', 'Do a task accurately. Notes: timed exercise.'), ('Awareness', 'Know outsourcing. Notes: case studies.'), ('Foundation', 'Follow a procedure. Notes: checklists.'), ('Practitioner', 'This course. Notes: 4-week pilot.'), ('Specialist', 'Complex processes. Notes: finance support.'), ('Advanced', 'Lead delivery. Notes: SLAs.'), ('Super expert', 'Set the service-level, quality and data-handling method for outsourcing work and teach the team leads who use it. Notes: audit calls, tickets and access logs on a set schedule.')])
 
 C['deep'] = dict(mods=[
  ('Outsourcing a process you cannot describe.', 'Write the steps first; then price.', 'Which process did you choose and why?'),

@@ -21,7 +21,7 @@ C = dict(id='GL-27', title='Ghost Kitchens', group='Business and Commerce', leve
  next='Box Subscription Services; Marketplace Fulfilment Selling; E-Commerce Growth Marketing.',
  local='Food licences, allergen law and platform rules differ by place: check with your food authority.',
  evidence='Your evidence: model comparison, menu and transit test, layout, food-safety plan and logs, costings, order stats and report.',
- ladder=[('Basics of kitchen hygiene', 'Wash, clean, store. Notes: practise hand-washing steps.'), ('Awareness', 'Know ghost kitchens. Notes: visit one if possible.'), ('Foundation', 'Cook and cost a dish. Notes: one recipe.'), ('Practitioner', 'This course. Notes: two-week trial.'), ('Specialist', 'Multi-brand kitchen. Notes: schedules.'), ('Advanced', 'Lead a kitchen group. Notes: audits.'), ('Super expert', 'Set method and teach teachers. Notes: food-safety review.')])
+ ladder=[('Basics of kitchen hygiene', 'Wash, clean, store. Notes: practise hand-washing steps.'), ('Awareness', 'Know ghost kitchens. Notes: visit one if possible.'), ('Foundation', 'Cook and cost a dish. Notes: one recipe.'), ('Practitioner', 'This course. Notes: two-week trial.'), ('Specialist', 'Multi-brand kitchen. Notes: schedules.'), ('Advanced', 'Lead a kitchen group. Notes: audits.'), ('Super expert', 'Set the kitchen-level hygiene, order and platform method for ghost kitchens and teach the managers who use it. Notes: run a food-safety review by the book on a set schedule and file the findings.')])
 
 C['deep'] = dict(mods=[
  ('Thinking delivery-only means lighter rules.', 'The kitchen is inspected like any other; the delivery bag is not a reason to skip checks.', 'Which licence do you hold?'),

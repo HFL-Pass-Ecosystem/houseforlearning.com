@@ -21,7 +21,7 @@ C = dict(id='GL-31', title='Affiliate Marketing', group='Business and Commerce',
  next='Influencer Marketing; Digital Marketing; E-Commerce Growth Marketing.',
  local='Disclosure and advertising law vary: follow local rules and the programme terms.',
  evidence='Your evidence: programme comparison, niche note, ten product notes, three content pieces, disclosure check, tracking sheet and review.',
- ladder=[('Basics of recommending', 'Give a helpful tip. Notes: write a friend recommendation.'), ('Awareness', 'Know affiliate. Notes: read terms.'), ('Foundation', 'This course. Notes: first page.'), ('Practitioner', 'Run a niche channel. Notes: tracking.'), ('Specialist', 'Search and email growth. Notes: data.'), ('Advanced', 'Lead partners. Notes: contracts.'), ('Super expert', 'Set method and teach teachers. Notes: ethics review.')])
+ ladder=[('Basics of recommending', 'Give a helpful tip. Notes: write a friend recommendation.'), ('Awareness', 'Know affiliate. Notes: read terms.'), ('Foundation', 'This course. Notes: first page.'), ('Practitioner', 'Run a niche channel. Notes: tracking.'), ('Specialist', 'Search and email growth. Notes: data.'), ('Advanced', 'Lead partners. Notes: contracts.'), ('Super expert', 'Set the honest-recommendation method (disclosure, evidence, link records) for affiliate work and teach the partners who use it. Notes: hold an ethics review of disclosed links and complaints each year.')])
 
 C['deep'] = dict(mods=[
  ('Joining every programme.', 'Three well-chosen programmes beat thirty weak ones.', 'Which programmes did you pick?'),

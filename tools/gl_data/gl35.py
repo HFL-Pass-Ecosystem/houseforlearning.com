@@ -21,7 +21,7 @@ C = dict(id='GL-35', title='Online Library Building', group='Business and Commer
  next='Online Tutoring Platform; Virtual Event Planning; Social Media Network Building.',
  local='Copyright terms and lending rules differ by place; check before you share digital copies.',
  evidence='Your evidence: user notes, policy, licence log, 50 item records, search test, access checklist and use report.',
- ladder=[('Basics of finding', 'Find a book. Notes: use a catalogue.'), ('Awareness', 'Know copyright. Notes: licence quiz.'), ('Foundation', 'This course. Notes: 50 items.'), ('Practitioner', 'Run a library hub. Notes: partners.'), ('Specialist', 'Metadata standards. Notes: data quality.'), ('Advanced', 'Lead a network. Notes: policy.'), ('Super expert', 'Set method and teach teachers. Notes: review rules yearly.')])
+ ladder=[('Basics of finding', 'Find a book. Notes: use a catalogue.'), ('Awareness', 'Know copyright. Notes: licence quiz.'), ('Foundation', 'This course. Notes: 50 items.'), ('Practitioner', 'Run a library hub. Notes: partners.'), ('Specialist', 'Metadata standards. Notes: data quality.'), ('Advanced', 'Lead a network. Notes: policy.'), ('Super expert', 'Set the collection, cataloguing and rights method for an online library and teach the librarians who use it. Notes: re-read the copyright and lending rules for the place each year.')])
 
 C['deep'] = dict(mods=[
  ('Collecting everything.', 'A village group needs farm skills in two languages; stay on topic.', 'What does your community need?'),

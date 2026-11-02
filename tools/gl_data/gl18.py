@@ -21,7 +21,7 @@ C = dict(id='GL-18', title='Online Currency Exchange Concepts', group='Digital a
  next='Wallet Payment Solutions; P2P Lending Platform Concepts; Blockchain Health-Record Concepts.',
  local='Exchange licences, limits and tax declarations differ by country: always check the local regulator before any service idea.',
  evidence='Your evidence: conversions, true-cost table, five-route comparison, scam checklist, rules page, price-screen sketch and risk table.',
- ladder=[('Basics of money abroad', 'Convert amounts. Notes: use a calculator.'), ('Awareness', 'Know rates and fees. Notes: read a real rate card.'), ('Foundation', 'This course. Notes: true cost and design.'), ('Practitioner', 'Support a desk with supervision. Notes: practice only.'), ('Specialist', 'Treasury and risk. Notes: hedging concepts.'), ('Advanced', 'Lead compliance and operations. Notes: audits.'), ('Super expert', 'Set method and teach teachers. Notes: review rules yearly.')])
+ ladder=[('Basics of money abroad', 'Convert amounts. Notes: use a calculator.'), ('Awareness', 'Know rates and fees. Notes: read a real rate card.'), ('Foundation', 'This course. Notes: true cost and design.'), ('Practitioner', 'Support a desk with supervision. Notes: practice only.'), ('Specialist', 'Treasury and risk. Notes: hedging concepts.'), ('Advanced', 'Lead compliance and operations. Notes: audits.'), ('Super expert', 'Set the quote-comparison and fee-disclosure method for currency exchange and teach the advisers who use it. Notes: re-read the exchange rules for each place yearly and refresh the sample rate cards.')])
 
 C['deep'] = dict(mods=[
  ('Confusing buy and sell rates.', 'Bank buys at 88 and sells at 92 against mid 90; know which side you are on.', 'Which rate applies to you?'),

@@ -21,7 +21,7 @@ C = dict(id='GL-30', title='Coworking Space Operations', group='Business and Com
  next='Business Coaching Practice; Virtual Event Planning; Inclusive and Minority-Owned Business Growth.',
  local='Building use, fire, accessibility and lease rules differ by place; check them early.',
  evidence='Your evidence: member interviews, layout, rules and safety checklist, pricing sheet, plans, event plan, logs and pilot report.',
- ladder=[('Basics of shared space', 'Use a shared space well. Notes: visit one.'), ('Awareness', 'Know models. Notes: compare three.'), ('Foundation', 'Plan a layout. Notes: sketch.'), ('Practitioner', 'This course. Notes: pilot.'), ('Specialist', 'Multi-site. Notes: brand standards.'), ('Advanced', 'Lead a network. Notes: finance.'), ('Super expert', 'Set method and teach teachers. Notes: audits.')])
+ ladder=[('Basics of shared space', 'Use a shared space well. Notes: visit one.'), ('Awareness', 'Know models. Notes: compare three.'), ('Foundation', 'Plan a layout. Notes: sketch.'), ('Practitioner', 'This course. Notes: pilot.'), ('Specialist', 'Multi-site. Notes: brand standards.'), ('Advanced', 'Lead a network. Notes: finance.'), ('Super expert', 'Set the membership, safety and space-use method for coworking and teach the managers who use it. Notes: audit occupancy, fire exits and cleaning records on a set schedule.')])
 
 C['deep'] = dict(mods=[
  ('Building for yourself instead of members.', 'Interviews show members want quiet and fast internet more than a coffee machine.', 'What do your members rank first?'),

@@ -21,7 +21,7 @@ C = dict(id='GL-36', title='Virtual Event Planning', group='Business and Commerc
  next='Tele and Video Conferencing Operations; Online Library Building; Crowdfunding Platform Practice.',
  local='Data, consent and recording rules differ by place and attendee place; check each.',
  evidence='Your evidence: goal note, programme, budget, form, rehearsal checklist, access checklist, run of show and report.',
- ladder=[('Basics of meetings', 'Join and host a small call. Notes: practise.'), ('Awareness', 'Know event types. Notes: attend two.'), ('Foundation', 'This course. Notes: first event.'), ('Practitioner', 'Run a series. Notes: templates.'), ('Specialist', 'Larger events. Notes: sponsors.'), ('Advanced', 'Lead an events team. Notes: budgets.'), ('Super expert', 'Set method and teach teachers. Notes: review yearly.')])
+ ladder=[('Basics of meetings', 'Join and host a small call. Notes: practise.'), ('Awareness', 'Know event types. Notes: attend two.'), ('Foundation', 'This course. Notes: first event.'), ('Practitioner', 'Run a series. Notes: templates.'), ('Specialist', 'Larger events. Notes: sponsors.'), ('Advanced', 'Lead an events team. Notes: budgets.'), ('Super expert', 'Set the run-sheet, rehearsal and accessibility method for virtual events and teach the producers who use it. Notes: review each event\'s attendance, drop-out and feedback figures and update the run sheet yearly.')])
 
 C['deep'] = dict(mods=[
  ('No measurable goal.', '40 attendees; 80% report a plan.', 'What is your measure?'),

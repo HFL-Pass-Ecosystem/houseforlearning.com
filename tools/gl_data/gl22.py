@@ -21,7 +21,7 @@ C = dict(id='GL-22', title='Marketplace Fulfilment Selling', group='Business and
  next='E-Commerce Inventory Management; E-Commerce Growth Marketing; Selling Personal Protective Equipment.',
  local='Marketplace availability, taxes and import rules differ by place: check customs, tax and product labelling.',
  evidence='Your evidence: fee summary, product scores, ten listings, profit calculator, 20-order log, returns log and metrics report.',
- ladder=[('Basics of selling', 'Explain a sale. Notes: sell one item to a friend.'), ('Awareness', 'Know marketplaces. Notes: browse and compare.'), ('Foundation', 'List a product. Notes: one listing.'), ('Practitioner', 'This course. Notes: ten listings, 20 orders.'), ('Specialist', 'Multi-marketplace and stock. Notes: sync stock.'), ('Advanced', 'Lead a seller team. Notes: SOPs.'), ('Super expert', 'Set method and teach teachers. Notes: review policy changes.')])
+ ladder=[('Basics of selling', 'Explain a sale. Notes: sell one item to a friend.'), ('Awareness', 'Know marketplaces. Notes: browse and compare.'), ('Foundation', 'List a product. Notes: one listing.'), ('Practitioner', 'This course. Notes: ten listings, 20 orders.'), ('Specialist', 'Multi-marketplace and stock. Notes: sync stock.'), ('Advanced', 'Lead a seller team. Notes: SOPs.'), ('Super expert', 'Set the listing, fulfilment and returns method for marketplace selling and teach the sellers who use it. Notes: review each marketplace policy change as it is published and update the checklists.')])
 
 C['deep'] = dict(mods=[
  ('Not reading the marketplace rules.', 'A banned item gets the account suspended.', 'Which rule matters most to you?'),

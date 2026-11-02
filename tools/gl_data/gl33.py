@@ -21,7 +21,7 @@ C = dict(id='GL-33', title='Digital Marketing', group='Business and Commerce', l
  next='E-Commerce Growth Marketing; Influencer Marketing; Affiliate Marketing.',
  local='Advertising, privacy and consent law differ by place; use the local rule on each campaign.',
  evidence='Your evidence: plan, persona, messages, page changes, calendar, email consent records, weekly table and report.',
- ladder=[('Basics of promotion', 'Describe how people find businesses. Notes: ask five people.'), ('Awareness', 'Know channels. Notes: compare ads.'), ('Foundation', 'This course. Notes: 30-day campaign.'), ('Practitioner', 'Run for several clients. Notes: templates.'), ('Specialist', 'Search or social specialist. Notes: advanced tools.'), ('Advanced', 'Lead strategy. Notes: budgets.'), ('Super expert', 'Set method and teach teachers. Notes: ethics review.')])
+ ladder=[('Basics of promotion', 'Describe how people find businesses. Notes: ask five people.'), ('Awareness', 'Know channels. Notes: compare ads.'), ('Foundation', 'This course. Notes: 30-day campaign.'), ('Practitioner', 'Run for several clients. Notes: templates.'), ('Specialist', 'Search or social specialist. Notes: advanced tools.'), ('Advanced', 'Lead strategy. Notes: budgets.'), ('Super expert', 'Set the plan, measure and report method for digital campaigns and teach the marketers who use it. Notes: hold an ethics review of targeting, claims and data use each year.')])
 
 C['deep'] = dict(mods=[
  ('Starting with a channel instead of a goal.', 'The goal is 20 bookings; the channel follows.', 'What is your goal?'),
