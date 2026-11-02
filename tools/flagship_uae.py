@@ -4,6 +4,7 @@ import sys, pathlib, html, math
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import build_full_courses as B
 from uae_data import T
+from uae_pathways import P
 e = html.escape
 RUB = [("Evidence quality","Claims without records","Records for most claims","Every claim linked to a dated record"),
  ("Numbers and units","Missing units or currency","Correct, units shown (AED)","Correct, with a check calculation"),
@@ -126,6 +127,6 @@ def build(c):
       +B.sec('','nx','next','Draft','<p class="ws-note">Draft flagship-depth course. Own wording. Not live.</p>'))
     B.page(f'learn-flagship-ae-{c["slug"]}.html',c['title']+' in the UAE (full course)',f'Full course: {c["title"]}, UAE.',c['title'],e(f'Learn {c["title"].lower()} for the UAE: rules, workflow, costing in AED and a recorded 30-day practice.'),body,B.crumb(('Courses','courses-hub.html'),('UAE courses',None)),kicker='UAE · full course')
 n=0
-for t in T:
+for t in T+P:
     build(course(t)); n+=1
-print(n,'UAE courses built')
+print(n,'UAE courses built (39 + 10 pathways)')
