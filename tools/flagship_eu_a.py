@@ -4,6 +4,7 @@ import sys, pathlib, html
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import build_full_courses as B
 from flagship_data_eu_ladder import LADDER
+from flagship_eu_a_rubric import RUBRIC
 LV = {1: 'L1 Basic', 2: 'L2 Awareness', 3: 'L3 Foundation', 4: 'L4 Practitioner', 5: 'L5 Specialist', 6: 'L6 Advanced', 7: 'L7 Super expert'}
 e = html.escape
 
@@ -253,7 +254,7 @@ def build(c):
         quiz_t.append((q, ans.rstrip() + f' (Covered in module {n}: {mt}. To pass that module: {mstd.rstrip().rstrip(".")}.)'))
     quiz = ''.join(f'<details class="mod"><summary>Q{i+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a)}</p></details>' for i, (q, a) in enumerate(quiz_t))
     rub = ('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>'
-           + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(cc)}</td><td>{e(d)}</td></tr>' for a, b, cc, d in RUBRIC_STD) + '</tbody></table></div>')
+           + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(cc)}</td><td>{e(d)}</td></tr>' for a, b, cc, d in RUBRIC[c['id']]) + '</tbody></table></div>')
     about = B.sec('', 'ab', 'about this course', 'What you will be able to do',
         f'<div class="cb-facts"><span class="pill lv">{e(c["lvl"])}</span><span class="pill">About {c["hours"]} h</span><span class="pill">Practice 70% · Share 20% · Study 10%</span><span class="pill pr">USD 39 per learner per month, or USD 79 with mentor review</span></div>'
         f'<p class="kit-intro">{e(c["summary"])}</p><ul class="blm">' + ''.join(f'<li><span class="bz">{b}</span> {e(t)}</li>' for b, t in c['outcomes']) + '</ul>'
