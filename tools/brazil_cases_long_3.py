@@ -262,7 +262,7 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                             '45.000 a month for rent, machines, maintenance and supervisors. Last '
                             'month he made 30 batches for three buyers. One buyer, taking 5 '
                             'batches, asks for a R$ 500 price cut per batch, and a machine stopped '
-                            'for two days. Scrap also reached 4 percent of the variable cost per '
+                            'for two days. Scrap, not counted in that R$ 6.200, also cost 4 percent of it per '
                             'batch. Roberto does not know his break-even, how much the discount '
                             'costs or what the scrap is worth. He reads output at the end of the '
                             'month, and machine stoppages are not written down, so causes are '
