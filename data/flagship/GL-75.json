@@ -36,7 +36,7 @@
    "What smart apparel is",
    "Understand",
    3,
-   "Clothing that senses, records or responds. Start with the user problem. Start with the user problem.",
+   "Clothing that senses, records or responds. Start with the user problem. Start with the user problem. Start with the user problem.",
    [
     "Heart rate, motion, temperature, posture and breathing.",
     "Conductive threads, printed ink and small modules.",
@@ -47,17 +47,20 @@
     "Note comfort, washing and cost limits.",
     "Ask who will wear it, for how long and in what conditions.",
     "Decide what must be measured and how accurate it must be.",
+    "Note comfort, washing and cost limits.",
+    "Ask who will wear it, for how long and in what conditions.",
+    "Decide what must be measured and how accurate it must be.",
     "Note comfort, washing and cost limits."
    ],
-   "A shirt tracks breathing for athletes with sensors in the chest band. A care home wants a garment that alerts staff when a resident gets out of bed, not a fashion item; the need drives design. A care home wants a garment that alerts staff when a resident gets out of bed, not a fashion item; the need drives design.",
-   "List five use cases with needs. Write a user need statement. Write a user need statement.",
+   "A shirt tracks breathing for athletes with sensors in the chest band. A care home wants a garment that alerts staff when a resident gets out of bed, not a fashion item; the need drives design. A care home wants a garment that alerts staff when a resident gets out of bed, not a fashion item; the need drives design. A care home wants a garment that alerts staff when a resident gets out of bed, not a fashion item; the need drives design.",
+   "List five use cases with needs. Write a user need statement. Write a user need statement. Write a user need statement.",
    "Table complete."
   ],
   [
    "Materials and comfort",
    "Understand",
    3,
-   "Comfort first. Fabric and skin come first. Fabric and skin come first.",
+   "Comfort first. Fabric and skin come first. Fabric and skin come first. Fabric and skin come first.",
    [
     "Stretch and breathable fabrics; skin-safe materials.",
     "Conductive yarn and flexible circuits.",
@@ -68,17 +71,20 @@
     "Plan how seams and sensor pockets will be washed.",
     "Prefer breathable, stretchy fabrics for sensors near the body.",
     "Test for skin irritation with a small patch.",
+    "Plan how seams and sensor pockets will be washed.",
+    "Prefer breathable, stretchy fabrics for sensors near the body.",
+    "Test for skin irritation with a small patch.",
     "Plan how seams and sensor pockets will be washed."
    ],
-   "Silver yarn stays conductive after washing better than plain thread. A cotton-elastane blend supports a chest sensor and avoids chafing during a run. A cotton-elastane blend supports a chest sensor and avoids chafing during a run.",
-   "Compare materials. Test two fabrics for comfort. Test two fabrics for comfort.",
+   "Silver yarn stays conductive after washing better than plain thread. A cotton-elastane blend supports a chest sensor and avoids chafing during a run. A cotton-elastane blend supports a chest sensor and avoids chafing during a run. A cotton-elastane blend supports a chest sensor and avoids chafing during a run.",
+   "Compare materials. Test two fabrics for comfort. Test two fabrics for comfort. Test two fabrics for comfort.",
    "Table complete."
   ],
   [
    "Sensors and power",
    "Apply",
    4,
-   "Make it work. Electronics must be safe. Electronics must be safe.",
+   "Make it work. Electronics must be safe. Electronics must be safe. Electronics must be safe.",
    [
     "Choose a sensor for the need; keep wires short.",
     "Small battery with protection; low voltage.",
@@ -89,17 +95,20 @@
     "Keep power draw low to extend battery life.",
     "Use low-voltage batteries with protection circuits.",
     "Seal connectors from sweat.",
+    "Keep power draw low to extend battery life.",
+    "Use low-voltage batteries with protection circuits.",
+    "Seal connectors from sweat.",
     "Keep power draw low to extend battery life."
    ],
-   "A 3.7 V cell with a protection board powers a heart-rate module for 12 hours. A module drawing 20 mA from a 400 mAh battery runs about 20 hours. A module drawing 20 mA from a 400 mAh battery runs about 20 hours.",
-   "Design a block diagram. Estimate battery life. Estimate battery life.",
+   "A 3.7 V cell with a protection board powers a heart-rate module for 12 hours. A module drawing 20 mA from a 400 mAh battery runs about 20 hours. A module drawing 20 mA from a 400 mAh battery runs about 20 hours. A module drawing 20 mA from a 400 mAh battery runs about 20 hours.",
+   "Design a block diagram. Estimate battery life. Estimate battery life. Estimate battery life.",
    "Parts labelled."
   ],
   [
    "Prototype",
    "Apply",
    4,
-   "Build small. Prototype quickly. Prototype quickly.",
+   "Build small. Prototype quickly. Prototype quickly. Prototype quickly.",
    [
     "Sew or attach; strain relief.",
     "Test continuity and signal.",
@@ -110,17 +119,20 @@
     "Add strain relief where wires meet the fabric.",
     "Use a sensor kit before sewing conductive thread.",
     "Test on a bench, then on a person.",
+    "Add strain relief where wires meet the fabric.",
+    "Use a sensor kit before sewing conductive thread.",
+    "Test on a bench, then on a person.",
     "Add strain relief where wires meet the fabric."
    ],
-   "A removable module reduces failures after washing. A kit prototype shows the signal drops when the wire flexes at the elbow; the design moves the wire to the side. A kit prototype shows the signal drops when the wire flexes at the elbow; the design moves the wire to the side.",
-   "Build or plan a prototype. Test a prototype on two users. Test a prototype on two users.",
+   "A removable module reduces failures after washing. A kit prototype shows the signal drops when the wire flexes at the elbow; the design moves the wire to the side. A kit prototype shows the signal drops when the wire flexes at the elbow; the design moves the wire to the side. A kit prototype shows the signal drops when the wire flexes at the elbow; the design moves the wire to the side.",
+   "Build or plan a prototype. Test a prototype on two users. Test a prototype on two users. Test a prototype on two users.",
    "Test passes."
   ],
   [
    "Wash and wear tests",
    "Analyse",
    4,
-   "Real use. Washing is the harshest test. Washing is the harshest test.",
+   "Real use. Washing is the harshest test. Washing is the harshest test. Washing is the harshest test.",
    [
     "Wash cycles; sweat; stretch.",
     "Count cycles until failure.",
@@ -131,17 +143,20 @@
     "Inspect after each wash.",
     "Use a mild cycle and cold water.",
     "Detach modules before washing.",
+    "Inspect after each wash.",
+    "Use a mild cycle and cold water.",
+    "Detach modules before washing.",
     "Inspect after each wash."
    ],
-   "Signals fail after 8 washes; sealing improves it to 25. Of three prototypes, one fails after 8 washes, one after 15 and one passes 25. Of three prototypes, one fails after 8 washes, one after 15 and one passes 25.",
-   "Run tests. Compare three designs. Compare three designs.",
+   "Signals fail after 8 washes; sealing improves it to 25. Of three prototypes, one fails after 8 washes, one after 15 and one passes 25. Of three prototypes, one fails after 8 washes, one after 15 and one passes 25. Of three prototypes, one fails after 8 washes, one after 15 and one passes 25.",
+   "Run tests. Compare three designs. Compare three designs. Compare three designs.",
    "Log complete."
   ],
   [
    "Accuracy",
    "Analyse",
    3,
-   "Compare with a reference. Accuracy needs a reference. Accuracy needs a reference.",
+   "Compare with a reference. Accuracy needs a reference. Accuracy needs a reference. Accuracy needs a reference.",
    [
     "Reference device or manual count.",
     "Percent error.",
@@ -152,17 +167,20 @@
     "Report both average and worst-case errors.",
     "Use a clinical-style reference device or a manual method.",
     "Test at rest and during movement.",
+    "Report both average and worst-case errors.",
+    "Use a clinical-style reference device or a manual method.",
+    "Test at rest and during movement.",
     "Report both average and worst-case errors."
    ],
-   "Error is 6 per cent at rest and 12 per cent in motion. Average error 6 per cent, worst-case 20 per cent while running. Average error 6 per cent, worst-case 20 per cent while running.",
-   "Compare. Compute average and worst-case error. Compute average and worst-case error.",
+   "Error is 6 per cent at rest and 12 per cent in motion. Average error 6 per cent, worst-case 20 per cent while running. Average error 6 per cent, worst-case 20 per cent while running. Average error 6 per cent, worst-case 20 per cent while running.",
+   "Compare. Compute average and worst-case error. Compute average and worst-case error. Compute average and worst-case error.",
    "Percent error shown."
   ],
   [
    "Privacy, safety and rules",
    "Evaluate",
    4,
-   "Health data matters. Respect the wearer. Respect the wearer.",
+   "Health data matters. Respect the wearer. Respect the wearer. Respect the wearer.",
    [
     "Consent, secure storage and clear purpose.",
     "Battery and skin safety.",
@@ -173,17 +191,20 @@
     "Do not make medical claims without approval.",
     "Collect only needed data and explain why.",
     "Allow deletion.",
+    "Do not make medical claims without approval.",
+    "Collect only needed data and explain why.",
+    "Allow deletion.",
     "Do not make medical claims without approval."
    ],
-   "The app stores data only on the phone and deletes it on request. A plain-language consent screen lists exactly what data is collected and who sees it. A plain-language consent screen lists exactly what data is collected and who sees it.",
-   "Write a plan. Draft a consent screen. Draft a consent screen.",
+   "The app stores data only on the phone and deletes it on request. A plain-language consent screen lists exactly what data is collected and who sees it. A plain-language consent screen lists exactly what data is collected and who sees it. A plain-language consent screen lists exactly what data is collected and who sees it.",
+   "Write a plan. Draft a consent screen. Draft a consent screen. Draft a consent screen.",
    "Items listed."
   ],
   [
    "Cost and pilot",
    "Create",
    3,
-   "Small first run. Test with real people. Test with real people.",
+   "Small first run. Test with real people. Test with real people. Test with real people.",
    [
     "Cost per garment; price.",
     "Pilot with 10 users.",
@@ -194,10 +215,13 @@
     "Plan repair and recycling.",
     "Recruit 10 users with consent.",
     "Ask for comfort scores and washing feedback.",
+    "Plan repair and recycling.",
+    "Recruit 10 users with consent.",
+    "Ask for comfort scores and washing feedback.",
     "Plan repair and recycling."
    ],
-   "Cost 780 INR; price 1,600 INR. A 10-user pilot finds the collar module irritates; the module moves to the side seam. A 10-user pilot finds the collar module irritates; the module moves to the side seam.",
-   "Cost and plan. Write a pilot plan. Write a pilot plan.",
+   "Cost 780 INR; price 1,600 INR. A 10-user pilot finds the collar module irritates; the module moves to the side seam. A 10-user pilot finds the collar module irritates; the module moves to the side seam. A 10-user pilot finds the collar module irritates; the module moves to the side seam.",
+   "Cost and plan. Write a pilot plan. Write a pilot plan. Write a pilot plan.",
    "Currency shown."
   ]
  ],
@@ -302,38 +326,38 @@
  "ladder": [
   [
    "What smart apparel is",
-   "L1: learner can name uses. Focus module: What smart apparel is (Understand, 3 h). Clothing that senses, records or responds. Start with the user problem. Start with the user problem. Key points: Heart rate, motion, temperature, posture and breathing. Conductive threads, printed ink and small modules. Use cases: sport, care, safety and work. Limits: comfort, cost and accuracy. Ask who will wear it, for how long and in what conditions. Decide what must be measured and how accurate it must be. Note comfort, washing and cost limits. Ask who will wear it, for how long and in what conditions. Decide what must be measured and how accurate it must be. Note comfort, washing and cost limits.",
-   "Teach: open with the worked example. A shirt tracks breathing for athletes with sensors in the chest band. A care home wants a garment that alerts staff when a resident gets out of bed, not a fashion item; the need drives design. A care home wants a garment that alerts staff when a resident gets out of bed, not a fashion item; the need drives design. Then set the activity: List five use cases with needs. Write a user need statement. Write a user need statement. Mark against the standard: Table complete. Check at this level: Name a use. Model answer: Sport, care or safety."
+   "L1: learner can name uses. Focus module: What smart apparel is (Understand, 3 h). Clothing that senses, records or responds. Start with the user problem. Start with the user problem. Start with the user problem. Key points: Heart rate, motion, temperature, posture and breathing. Conductive threads, printed ink and small modules. Use cases: sport, care, safety and work. Limits: comfort, cost and accuracy. Ask who will wear it, for how long and in what conditions. Decide what must be measured and how accurate it must be. Note comfort, washing and cost limits. Ask who will wear it, for how long and in what conditions. Decide what must be measured and how accurate it must be. Note comfort, washing and cost limits. Ask who will wear it, for how long and in what conditions. Decide what must be measured and how accurate it must be. Note comfort, washing and cost limits.",
+   "Teach: open with the worked example. A shirt tracks breathing for athletes with sensors in the chest band. A care home wants a garment that alerts staff when a resident gets out of bed, not a fashion item; the need drives design. A care home wants a garment that alerts staff when a resident gets out of bed, not a fashion item; the need drives design. A care home wants a garment that alerts staff when a resident gets out of bed, not a fashion item; the need drives design. Then set the activity: List five use cases with needs. Write a user need statement. Write a user need statement. Write a user need statement. Mark against the standard: Table complete. Check at this level: Name a use. Model answer: Sport, care or safety."
   ],
   [
    "Materials and comfort",
-   "L2: learner knows materials. Focus module: Materials and comfort (Understand, 3 h). Comfort first. Fabric and skin come first. Fabric and skin come first. Key points: Stretch and breathable fabrics; skin-safe materials. Conductive yarn and flexible circuits. Allergy awareness and washing. Durability. Prefer breathable, stretchy fabrics for sensors near the body. Test for skin irritation with a small patch. Plan how seams and sensor pockets will be washed. Prefer breathable, stretchy fabrics for sensors near the body. Test for skin irritation with a small patch. Plan how seams and sensor pockets will be washed.",
-   "Teach: open with the worked example. Silver yarn stays conductive after washing better than plain thread. A cotton-elastane blend supports a chest sensor and avoids chafing during a run. A cotton-elastane blend supports a chest sensor and avoids chafing during a run. Then set the activity: Compare materials. Test two fabrics for comfort. Test two fabrics for comfort. Mark against the standard: Table complete. Check at this level: Why removable module? Model answer: For washing."
+   "L2: learner knows materials. Focus module: Materials and comfort (Understand, 3 h). Comfort first. Fabric and skin come first. Fabric and skin come first. Fabric and skin come first. Key points: Stretch and breathable fabrics; skin-safe materials. Conductive yarn and flexible circuits. Allergy awareness and washing. Durability. Prefer breathable, stretchy fabrics for sensors near the body. Test for skin irritation with a small patch. Plan how seams and sensor pockets will be washed. Prefer breathable, stretchy fabrics for sensors near the body. Test for skin irritation with a small patch. Plan how seams and sensor pockets will be washed. Prefer breathable, stretchy fabrics for sensors near the body. Test for skin irritation with a small patch. Plan how seams and sensor pockets will be washed.",
+   "Teach: open with the worked example. Silver yarn stays conductive after washing better than plain thread. A cotton-elastane blend supports a chest sensor and avoids chafing during a run. A cotton-elastane blend supports a chest sensor and avoids chafing during a run. A cotton-elastane blend supports a chest sensor and avoids chafing during a run. Then set the activity: Compare materials. Test two fabrics for comfort. Test two fabrics for comfort. Test two fabrics for comfort. Mark against the standard: Table complete. Check at this level: Why removable module? Model answer: For washing."
   ],
   [
    "Sensors and power",
-   "L3: learner can design a block. Focus module: Sensors and power (Apply, 4 h). Make it work. Electronics must be safe. Electronics must be safe. Key points: Choose a sensor for the need; keep wires short. Small battery with protection; low voltage. Waterproof modules. Data link by Bluetooth. Use low-voltage batteries with protection circuits. Seal connectors from sweat. Keep power draw low to extend battery life. Use low-voltage batteries with protection circuits. Seal connectors from sweat. Keep power draw low to extend battery life.",
-   "Teach: open with the worked example. A 3.7 V cell with a protection board powers a heart-rate module for 12 hours. A module drawing 20 mA from a 400 mAh battery runs about 20 hours. A module drawing 20 mA from a 400 mAh battery runs about 20 hours. Then set the activity: Design a block diagram. Estimate battery life. Estimate battery life. Mark against the standard: Parts labelled. Check at this level: Safe voltage? Model answer: Low voltage."
+   "L3: learner can design a block. Focus module: Sensors and power (Apply, 4 h). Make it work. Electronics must be safe. Electronics must be safe. Electronics must be safe. Key points: Choose a sensor for the need; keep wires short. Small battery with protection; low voltage. Waterproof modules. Data link by Bluetooth. Use low-voltage batteries with protection circuits. Seal connectors from sweat. Keep power draw low to extend battery life. Use low-voltage batteries with protection circuits. Seal connectors from sweat. Keep power draw low to extend battery life. Use low-voltage batteries with protection circuits. Seal connectors from sweat. Keep power draw low to extend battery life.",
+   "Teach: open with the worked example. A 3.7 V cell with a protection board powers a heart-rate module for 12 hours. A module drawing 20 mA from a 400 mAh battery runs about 20 hours. A module drawing 20 mA from a 400 mAh battery runs about 20 hours. A module drawing 20 mA from a 400 mAh battery runs about 20 hours. Then set the activity: Design a block diagram. Estimate battery life. Estimate battery life. Estimate battery life. Mark against the standard: Parts labelled. Check at this level: Safe voltage? Model answer: Low voltage."
   ],
   [
    "Prototype",
-   "L4: learner can build. Focus module: Prototype (Apply, 4 h). Build small. Prototype quickly. Prototype quickly. Key points: Sew or attach; strain relief. Test continuity and signal. Keep modules removable for washing. Insulate joints. Use a sensor kit before sewing conductive thread. Test on a bench, then on a person. Add strain relief where wires meet the fabric. Use a sensor kit before sewing conductive thread. Test on a bench, then on a person. Add strain relief where wires meet the fabric.",
-   "Teach: open with the worked example. A removable module reduces failures after washing. A kit prototype shows the signal drops when the wire flexes at the elbow; the design moves the wire to the side. A kit prototype shows the signal drops when the wire flexes at the elbow; the design moves the wire to the side. Then set the activity: Build or plan a prototype. Test a prototype on two users. Test a prototype on two users. Mark against the standard: Test passes. Check at this level: Accuracy measure? Model answer: Percent error."
+   "L4: learner can build. Focus module: Prototype (Apply, 4 h). Build small. Prototype quickly. Prototype quickly. Prototype quickly. Key points: Sew or attach; strain relief. Test continuity and signal. Keep modules removable for washing. Insulate joints. Use a sensor kit before sewing conductive thread. Test on a bench, then on a person. Add strain relief where wires meet the fabric. Use a sensor kit before sewing conductive thread. Test on a bench, then on a person. Add strain relief where wires meet the fabric. Use a sensor kit before sewing conductive thread. Test on a bench, then on a person. Add strain relief where wires meet the fabric.",
+   "Teach: open with the worked example. A removable module reduces failures after washing. A kit prototype shows the signal drops when the wire flexes at the elbow; the design moves the wire to the side. A kit prototype shows the signal drops when the wire flexes at the elbow; the design moves the wire to the side. A kit prototype shows the signal drops when the wire flexes at the elbow; the design moves the wire to the side. Then set the activity: Build or plan a prototype. Test a prototype on two users. Test a prototype on two users. Test a prototype on two users. Mark against the standard: Test passes. Check at this level: Accuracy measure? Model answer: Percent error."
   ],
   [
    "Wash and wear tests",
-   "L5: learner can test. Focus module: Wash and wear tests (Analyse, 4 h). Real use. Washing is the harshest test. Washing is the harshest test. Key points: Wash cycles; sweat; stretch. Count cycles until failure. Comfort rating by users. Record failures. Use a mild cycle and cold water. Detach modules before washing. Inspect after each wash. Use a mild cycle and cold water. Detach modules before washing. Inspect after each wash.",
-   "Teach: open with the worked example. Signals fail after 8 washes; sealing improves it to 25. Of three prototypes, one fails after 8 washes, one after 15 and one passes 25. Of three prototypes, one fails after 8 washes, one after 15 and one passes 25. Then set the activity: Run tests. Compare three designs. Compare three designs. Mark against the standard: Log complete. Check at this level: Material concern? Model answer: Skin allergy."
+   "L5: learner can test. Focus module: Wash and wear tests (Analyse, 4 h). Real use. Washing is the harshest test. Washing is the harshest test. Washing is the harshest test. Key points: Wash cycles; sweat; stretch. Count cycles until failure. Comfort rating by users. Record failures. Use a mild cycle and cold water. Detach modules before washing. Inspect after each wash. Use a mild cycle and cold water. Detach modules before washing. Inspect after each wash. Use a mild cycle and cold water. Detach modules before washing. Inspect after each wash.",
+   "Teach: open with the worked example. Signals fail after 8 washes; sealing improves it to 25. Of three prototypes, one fails after 8 washes, one after 15 and one passes 25. Of three prototypes, one fails after 8 washes, one after 15 and one passes 25. Of three prototypes, one fails after 8 washes, one after 15 and one passes 25. Then set the activity: Run tests. Compare three designs. Compare three designs. Compare three designs. Mark against the standard: Log complete. Check at this level: Material concern? Model answer: Skin allergy."
   ],
   [
    "Privacy, safety and rules",
-   "L6: learner can lead a pilot. Focus module: Privacy, safety and rules (Evaluate, 4 h). Health data matters. Respect the wearer. Respect the wearer. Key points: Consent, secure storage and clear purpose. Battery and skin safety. Claims must be modest. Follow textile and electronics rules. Collect only needed data and explain why. Allow deletion. Do not make medical claims without approval. Collect only needed data and explain why. Allow deletion. Do not make medical claims without approval.",
-   "Teach: open with the worked example. The app stores data only on the phone and deletes it on request. A plain-language consent screen lists exactly what data is collected and who sees it. A plain-language consent screen lists exactly what data is collected and who sees it. Then set the activity: Write a plan. Draft a consent screen. Draft a consent screen. Mark against the standard: Items listed. Check at this level: Privacy rule? Model answer: Consent and secure storage."
+   "L6: learner can lead a pilot. Focus module: Privacy, safety and rules (Evaluate, 4 h). Health data matters. Respect the wearer. Respect the wearer. Respect the wearer. Key points: Consent, secure storage and clear purpose. Battery and skin safety. Claims must be modest. Follow textile and electronics rules. Collect only needed data and explain why. Allow deletion. Do not make medical claims without approval. Collect only needed data and explain why. Allow deletion. Do not make medical claims without approval. Collect only needed data and explain why. Allow deletion. Do not make medical claims without approval.",
+   "Teach: open with the worked example. The app stores data only on the phone and deletes it on request. A plain-language consent screen lists exactly what data is collected and who sees it. A plain-language consent screen lists exactly what data is collected and who sees it. A plain-language consent screen lists exactly what data is collected and who sees it. Then set the activity: Write a plan. Draft a consent screen. Draft a consent screen. Draft a consent screen. Mark against the standard: Items listed. Check at this level: Privacy rule? Model answer: Consent and secure storage."
   ],
   [
    "Cost and pilot",
-   "L7: learner can audit. Focus module: Cost and pilot (Create, 3 h). Small first run. Test with real people. Test with real people. Key points: Cost per garment; price. Pilot with 10 users. Feedback and repair plan. Plan recycling. Recruit 10 users with consent. Ask for comfort scores and washing feedback. Plan repair and recycling. Recruit 10 users with consent. Ask for comfort scores and washing feedback. Plan repair and recycling.",
-   "Teach: open with the worked example. Cost 780 INR; price 1,600 INR. A 10-user pilot finds the collar module irritates; the module moves to the side seam. A 10-user pilot finds the collar module irritates; the module moves to the side seam. Then set the activity: Cost and plan. Write a pilot plan. Write a pilot plan. Mark against the standard: Currency shown. Check at this level: Wash test? Model answer: Count cycles to failure."
+   "L7: learner can audit. Focus module: Cost and pilot (Create, 3 h). Small first run. Test with real people. Test with real people. Test with real people. Key points: Cost per garment; price. Pilot with 10 users. Feedback and repair plan. Plan recycling. Recruit 10 users with consent. Ask for comfort scores and washing feedback. Plan repair and recycling. Recruit 10 users with consent. Ask for comfort scores and washing feedback. Plan repair and recycling. Recruit 10 users with consent. Ask for comfort scores and washing feedback. Plan repair and recycling.",
+   "Teach: open with the worked example. Cost 780 INR; price 1,600 INR. A 10-user pilot finds the collar module irritates; the module moves to the side seam. A 10-user pilot finds the collar module irritates; the module moves to the side seam. A 10-user pilot finds the collar module irritates; the module moves to the side seam. Then set the activity: Cost and plan. Write a pilot plan. Write a pilot plan. Write a pilot plan. Mark against the standard: Currency shown. Check at this level: Wash test? Model answer: Count cycles to failure."
   ]
  ]
 }

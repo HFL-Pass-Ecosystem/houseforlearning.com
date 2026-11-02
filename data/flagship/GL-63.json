@@ -41,10 +41,11 @@
     "Single-use items such as bags, bottles, sachets and cutlery make up a large share of litter.",
     "Microplastics from breakdown and from textiles enter water and food.",
     "Order of action: reduce, reuse, recycle, and only then replace.",
-    "A switch that increases total impact is not an improvement."
+    "A switch that increases total impact is not an improvement.",
+    "Set a baseline by weighing or counting before any change."
    ],
-   "A cafe counts 300 disposable cups a day. Switching to a returnable cup scheme with a deposit cuts that by 70 per cent, more than any new compostable cup could.",
-   "Audit the plastic you or your business use in one week and list items with counts.",
+   "A cafe counts 300 disposable cups a day. Switching to a returnable cup scheme with a deposit cuts that by 70 per cent, more than any new compostable cup could. A shop weighs its plastic waste bin each Friday for a month: average 9 kg a week.",
+   "Audit the plastic you or your business use in one week and list items with counts. Record a weekly baseline.",
    "List has at least 15 items with counts and the top three are highlighted."
   ],
   [
@@ -56,10 +57,11 @@
     "Resin codes 1 to 7 show the polymer type.",
     "PET (1) and HDPE (2) are widely recycled; films and multilayer packs are rarely recycled.",
     "Mixed, dirty and black plastics are hard to sort.",
-    "Check local collection rules."
+    "Check local collection rules.",
+    "Check which codes your local collectors accept."
    ],
-   "PET bottles are often collected and recycled; a chips packet made of multilayer film usually goes to landfill.",
-   "Sort 10 items by code and recyclability in your area.",
+   "PET bottles are often collected and recycled; a chips packet made of multilayer film usually goes to landfill. The municipal website lists only codes 1 and 2 for kerbside pickup.",
+   "Sort 10 items by code and recyclability in your area. Add your local accepted list.",
    "At least 9 sorted correctly."
   ],
   [
@@ -71,10 +73,11 @@
     "Paper, card, glass, metal, plant fibres, starch-based plastics and compostable blends.",
     "Reuse systems often beat single-use alternatives.",
     "Consider strength, moisture, heat and cost.",
-    "Consider whether local facilities exist for the end-of-life route."
+    "Consider whether local facilities exist for the end-of-life route.",
+    "Include reuse and refill options in the table, not only materials."
    ],
-   "A bakery tests paper bags, starch bags and reusable cloth bags. The paper bag works but costs more; a cloth bag discount scheme reduces bag use by half.",
-   "Make an options table for one product with pros and cons.",
+   "A bakery tests paper bags, starch bags and reusable cloth bags. The paper bag works but costs more; a cloth bag discount scheme reduces bag use by half. A refill station for detergent cuts bottle purchases by 80 per cent.",
+   "Make an options table for one product with pros and cons. Add a refill option row.",
    "At least four options compared."
   ],
   [
@@ -86,10 +89,11 @@
     "Strength: load until failure; leak test; heat test; shelf life.",
     "Repeat each test three times.",
     "Record failures and costs.",
-    "Test with real users."
+    "Test with real users.",
+    "Test under real conditions such as hot food, cold drinks and rain."
    ],
-   "A starch bag tears at 3 kg while a paper bag holds 5 kg; the shop selects paper for heavy items.",
-   "Test two alternatives against your current item and record results.",
+   "A starch bag tears at 3 kg while a paper bag holds 5 kg; the shop selects paper for heavy items. A paper cup with a thin lining leaks after 25 minutes with hot tea; the lined version lasts an hour.",
+   "Test two alternatives against your current item and record results. Add a hot and cold test.",
    "Table has repeated results and a conclusion."
   ],
   [
@@ -101,10 +105,11 @@
     "Stages: raw material, making, transport, use, end of life.",
     "A reusable item wins after enough uses.",
     "Local conditions change results.",
-    "State your boundaries."
+    "State your boundaries.",
+    "Count uses needed to break even against the single-use item."
    ],
-   "A glass jar needs about 12 uses to beat a plastic tub in emissions; a thicker cup needs 20 uses.",
-   "Do a simple comparison for two options.",
+   "A glass jar needs about 12 uses to beat a plastic tub in emissions; a thicker cup needs 20 uses. A reusable bag needs about 11 uses to break even in carbon terms.",
+   "Do a simple comparison for two options. Add a break-even uses figure.",
    "Method and sources stated."
   ],
   [
@@ -116,10 +121,11 @@
     "Biodegradable and compostable are not the same.",
     "Compostable may need industrial facilities.",
     "Look for recognised standards and test reports.",
-    "Ask for evidence."
+    "Ask for evidence.",
+    "Ask suppliers for certificates and the standard number."
    ],
-   "A bag labelled \"eco\" has no standard. The buyer asks for a test report and finds it is not compostable in home conditions.",
-   "Review three labels and score their claims.",
+   "A bag labelled \"eco\" has no standard. The buyer asks for a test report and finds it is not compostable in home conditions. A supplier shows a certificate for industrial composting but the shop has no such facility, so the option is dropped.",
+   "Review three labels and score their claims. Request or simulate a certificate check.",
    "Each review lists evidence required."
   ],
   [
@@ -131,10 +137,11 @@
     "Cost per use, not per piece.",
     "Deposit or discount schemes.",
     "Explain simply and train staff.",
-    "Track complaints."
+    "Track complaints.",
+    "Survey ten customers on price and convenience."
    ],
-   "A refill discount repays the cost of the container within 20 uses.",
-   "Cost your switch for one month.",
+   "A refill discount repays the cost of the container within 20 uses. Eight of ten accept a 5 INR deposit on a cup.",
+   "Cost your switch for one month. Run a ten-person survey.",
    "Currency shown."
   ],
   [
@@ -146,10 +153,11 @@
     "Steps, dates, owners, measures.",
     "Pilot in one store.",
     "Report results.",
-    "Scale or adjust."
+    "Scale or adjust.",
+    "Set a numeric goal such as 50 per cent fewer single-use items in 90 days."
    ],
-   "Plastic bags fall by 70 per cent in one month with a returnable bag scheme.",
-   "Present the plan.",
+   "Plastic bags fall by 70 per cent in one month with a returnable bag scheme. The shop meets 62 per cent after 90 days.",
+   "Present the plan. Set and track a goal.",
    "Measures are clear."
   ]
  ],
@@ -254,38 +262,38 @@
  "ladder": [
   [
    "The plastic waste problem",
-   "L1: learner can name plastic problems. Focus module: The plastic waste problem (Understand, 3 h). Single-use plastic is used for minutes and can last for centuries. Understanding the scale helps you choose where to act first. Key points: Single-use items such as bags, bottles, sachets and cutlery make up a large share of litter. Microplastics from breakdown and from textiles enter water and food. Order of action: reduce, reuse, recycle, and only then replace. A switch that increases total impact is not an improvement.",
-   "Teach: open with the worked example. A cafe counts 300 disposable cups a day. Switching to a returnable cup scheme with a deposit cuts that by 70 per cent, more than any new compostable cup could. Then set the activity: Audit the plastic you or your business use in one week and list items with counts. Mark against the standard: List has at least 15 items with counts and the top three are highlighted. Check at this level: Order of waste actions? Model answer: Reduce, reuse, recycle."
+   "L1: learner can name plastic problems. Focus module: The plastic waste problem (Understand, 3 h). Single-use plastic is used for minutes and can last for centuries. Understanding the scale helps you choose where to act first. Key points: Single-use items such as bags, bottles, sachets and cutlery make up a large share of litter. Microplastics from breakdown and from textiles enter water and food. Order of action: reduce, reuse, recycle, and only then replace. A switch that increases total impact is not an improvement. Set a baseline by weighing or counting before any change.",
+   "Teach: open with the worked example. A cafe counts 300 disposable cups a day. Switching to a returnable cup scheme with a deposit cuts that by 70 per cent, more than any new compostable cup could. A shop weighs its plastic waste bin each Friday for a month: average 9 kg a week. Then set the activity: Audit the plastic you or your business use in one week and list items with counts. Record a weekly baseline. Mark against the standard: List has at least 15 items with counts and the top three are highlighted. Check at this level: Order of waste actions? Model answer: Reduce, reuse, recycle."
   ],
   [
    "Plastic types and codes",
-   "L2: learner knows reduce-reuse-recycle. Focus module: Plastic types and codes (Understand, 3 h). Knowing the type tells you if it can be recycled. Key points: Resin codes 1 to 7 show the polymer type. PET (1) and HDPE (2) are widely recycled; films and multilayer packs are rarely recycled. Mixed, dirty and black plastics are hard to sort. Check local collection rules.",
-   "Teach: open with the worked example. PET bottles are often collected and recycled; a chips packet made of multilayer film usually goes to landfill. Then set the activity: Sort 10 items by code and recyclability in your area. Mark against the standard: At least 9 sorted correctly. Check at this level: Why microplastics matter? Model answer: They enter food and water."
+   "L2: learner knows reduce-reuse-recycle. Focus module: Plastic types and codes (Understand, 3 h). Knowing the type tells you if it can be recycled. Key points: Resin codes 1 to 7 show the polymer type. PET (1) and HDPE (2) are widely recycled; films and multilayer packs are rarely recycled. Mixed, dirty and black plastics are hard to sort. Check local collection rules. Check which codes your local collectors accept.",
+   "Teach: open with the worked example. PET bottles are often collected and recycled; a chips packet made of multilayer film usually goes to landfill. The municipal website lists only codes 1 and 2 for kerbside pickup. Then set the activity: Sort 10 items by code and recyclability in your area. Add your local accepted list. Mark against the standard: At least 9 sorted correctly. Check at this level: Why microplastics matter? Model answer: They enter food and water."
   ],
   [
    "Alternative materials",
-   "L3: learner can test options. Focus module: Alternative materials (Understand, 4 h). Many options exist, each with trade-offs. Key points: Paper, card, glass, metal, plant fibres, starch-based plastics and compostable blends. Reuse systems often beat single-use alternatives. Consider strength, moisture, heat and cost. Consider whether local facilities exist for the end-of-life route.",
-   "Teach: open with the worked example. A bakery tests paper bags, starch bags and reusable cloth bags. The paper bag works but costs more; a cloth bag discount scheme reduces bag use by half. Then set the activity: Make an options table for one product with pros and cons. Mark against the standard: At least four options compared. Check at this level: Compostable equals biodegradable? Model answer: No."
+   "L3: learner can test options. Focus module: Alternative materials (Understand, 4 h). Many options exist, each with trade-offs. Key points: Paper, card, glass, metal, plant fibres, starch-based plastics and compostable blends. Reuse systems often beat single-use alternatives. Consider strength, moisture, heat and cost. Consider whether local facilities exist for the end-of-life route. Include reuse and refill options in the table, not only materials.",
+   "Teach: open with the worked example. A bakery tests paper bags, starch bags and reusable cloth bags. The paper bag works but costs more; a cloth bag discount scheme reduces bag use by half. A refill station for detergent cuts bottle purchases by 80 per cent. Then set the activity: Make an options table for one product with pros and cons. Add a refill option row. Mark against the standard: At least four options compared. Check at this level: Compostable equals biodegradable? Model answer: No."
   ],
   [
    "Testing alternatives",
-   "L4: learner can compare life cycles. Focus module: Testing alternatives (Apply, 4 h). Do real tests before switching. Key points: Strength: load until failure; leak test; heat test; shelf life. Repeat each test three times. Record failures and costs. Test with real users.",
-   "Teach: open with the worked example. A starch bag tears at 3 kg while a paper bag holds 5 kg; the shop selects paper for heavy items. Then set the activity: Test two alternatives against your current item and record results. Mark against the standard: Table has repeated results and a conclusion. Check at this level: Name a test. Model answer: Strength, leak, heat or shelf life."
+   "L4: learner can compare life cycles. Focus module: Testing alternatives (Apply, 4 h). Do real tests before switching. Key points: Strength: load until failure; leak test; heat test; shelf life. Repeat each test three times. Record failures and costs. Test with real users. Test under real conditions such as hot food, cold drinks and rain.",
+   "Teach: open with the worked example. A starch bag tears at 3 kg while a paper bag holds 5 kg; the shop selects paper for heavy items. A paper cup with a thin lining leaks after 25 minutes with hot tea; the lined version lasts an hour. Then set the activity: Test two alternatives against your current item and record results. Add a hot and cold test. Mark against the standard: Table has repeated results and a conclusion. Check at this level: Name a test. Model answer: Strength, leak, heat or shelf life."
   ],
   [
    "Life-cycle thinking",
-   "L5: learner can review claims. Focus module: Life-cycle thinking (Analyse, 4 h). Look at the whole life of a product, from raw material to disposal. Key points: Stages: raw material, making, transport, use, end of life. A reusable item wins after enough uses. Local conditions change results. State your boundaries.",
-   "Teach: open with the worked example. A glass jar needs about 12 uses to beat a plastic tub in emissions; a thicker cup needs 20 uses. Then set the activity: Do a simple comparison for two options. Mark against the standard: Method and sources stated. Check at this level: Life-cycle stages? Model answer: Material, making, transport, use, end of life."
+   "L5: learner can review claims. Focus module: Life-cycle thinking (Analyse, 4 h). Look at the whole life of a product, from raw material to disposal. Key points: Stages: raw material, making, transport, use, end of life. A reusable item wins after enough uses. Local conditions change results. State your boundaries. Count uses needed to break even against the single-use item.",
+   "Teach: open with the worked example. A glass jar needs about 12 uses to beat a plastic tub in emissions; a thicker cup needs 20 uses. A reusable bag needs about 11 uses to break even in carbon terms. Then set the activity: Do a simple comparison for two options. Add a break-even uses figure. Mark against the standard: Method and sources stated. Check at this level: Life-cycle stages? Model answer: Material, making, transport, use, end of life."
   ],
   [
    "Customers and cost",
-   "L6: learner can lead a switch. Focus module: Customers and cost (Evaluate, 3 h). A switch must work for customers and the business. Key points: Cost per use, not per piece. Deposit or discount schemes. Explain simply and train staff. Track complaints.",
-   "Teach: open with the worked example. A refill discount repays the cost of the container within 20 uses. Then set the activity: Cost your switch for one month. Mark against the standard: Currency shown. Check at this level: Why cost per use? Model answer: Reuse items spread cost."
+   "L6: learner can lead a switch. Focus module: Customers and cost (Evaluate, 3 h). A switch must work for customers and the business. Key points: Cost per use, not per piece. Deposit or discount schemes. Explain simply and train staff. Track complaints. Survey ten customers on price and convenience.",
+   "Teach: open with the worked example. A refill discount repays the cost of the container within 20 uses. Eight of ten accept a 5 INR deposit on a cup. Then set the activity: Cost your switch for one month. Run a ten-person survey. Mark against the standard: Currency shown. Check at this level: Why cost per use? Model answer: Reuse items spread cost."
   ],
   [
    "Switch plan",
-   "L7: learner can audit. Focus module: Switch plan (Create, 3 h). Plan and review. Key points: Steps, dates, owners, measures. Pilot in one store. Report results. Scale or adjust.",
-   "Teach: open with the worked example. Plastic bags fall by 70 per cent in one month with a returnable bag scheme. Then set the activity: Present the plan. Mark against the standard: Measures are clear. Check at this level: Name a label risk. Model answer: Greenwashing."
+   "L7: learner can audit. Focus module: Switch plan (Create, 3 h). Plan and review. Key points: Steps, dates, owners, measures. Pilot in one store. Report results. Scale or adjust. Set a numeric goal such as 50 per cent fewer single-use items in 90 days.",
+   "Teach: open with the worked example. Plastic bags fall by 70 per cent in one month with a returnable bag scheme. The shop meets 62 per cent after 90 days. Then set the activity: Present the plan. Set and track a goal. Mark against the standard: Measures are clear. Check at this level: Name a label risk. Model answer: Greenwashing."
   ]
  ]
 }

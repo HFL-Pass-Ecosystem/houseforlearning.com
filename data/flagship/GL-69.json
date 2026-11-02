@@ -41,10 +41,11 @@
     "Types: scenic, sunset, wildlife, transfer.",
     "Duration, capacity, ports and landing sites.",
     "Accessibility and comfort.",
-    "Seasonality."
+    "Seasonality.",
+    "Add a weather back-up day and an indoor alternative."
    ],
-   "A 45-minute coastal route with a sunset slot and a 20-minute boarding window.",
-   "Design a route with times.",
+   "A 45-minute coastal route with a sunset slot and a 20-minute boarding window. A rainy-day harbour museum visit replaces the cruise.",
+   "Design a route with times. Add a backup plan.",
    "Map and timings."
   ],
   [
@@ -56,10 +57,11 @@
     "Vessel or aircraft certificates, crew licences and operator permits.",
     "Insurance for passengers.",
     "Check expiry dates.",
-    "Keep copies."
+    "Keep copies.",
+    "Verify operator documents with the authority where possible."
    ],
-   "A certificate expires next month; bookings after that date are stopped until renewal.",
-   "Make a checklist.",
+   "A certificate expires next month; bookings after that date are stopped until renewal. A tour desk asks for an up-to-date certificate before each season.",
+   "Make a checklist. Add a seasonal check.",
    "Sources and dates."
   ],
   [
@@ -71,10 +73,11 @@
     "Wind, visibility, waves and ceiling.",
     "Clear numbers and a named decision maker.",
     "Refund policy for cancellations.",
-    "Record decisions."
+    "Record decisions.",
+    "Use two independent weather sources."
    ],
-   "Wind above a set limit cancels flights and guests are offered a new date or refund.",
-   "Write rules.",
+   "Wind above a set limit cancels flights and guests are offered a new date or refund. Two forecasts disagree; the cautious one is followed.",
+   "Write rules. Name your sources.",
    "Numbers specified."
   ],
   [
@@ -86,10 +89,11 @@
     "Life jackets, seat belts, exits and behaviour.",
     "Language options and check understanding.",
     "Equipment inspection log.",
-    "Accessibility."
+    "Accessibility.",
+    "Give briefing in the guest language or with pictures."
    ],
-   "Guests repeat how to fasten a life jacket before boarding.",
-   "Write a briefing script.",
+   "Guests repeat how to fasten a life jacket before boarding. A picture card shows life-jacket fastening.",
+   "Write a briefing script. Create a picture card.",
    "Under five minutes."
   ],
   [
@@ -101,10 +105,11 @@
     "Man overboard, fire, engine failure and medical.",
     "Contacts and roles.",
     "Practice drills.",
-    "Review after drills."
+    "Review after drills.",
+    "Practice a man-overboard drill every month."
    ],
-   "A drill finds the radio channel was wrong and the sheet is corrected.",
-   "Write a plan.",
+   "A drill finds the radio channel was wrong and the sheet is corrected. The crew recovers a dummy in 90 seconds.",
+   "Write a plan. Record drill times.",
    "Steps ordered."
   ],
   [
@@ -116,10 +121,11 @@
     "Hourly cost of vessel or aircraft is high.",
     "Cost per guest = hourly cost x hours / guests.",
     "Break-even load factor.",
-    "Seasonal pricing."
+    "Seasonal pricing.",
+    "Include fuel, landing fees and crew rest rules."
    ],
-   "Hourly cost 40,000 INR for 8 guests is 5,000 INR each.",
-   "Build a sheet.",
+   "Hourly cost 40,000 INR for 8 guests is 5,000 INR each. Landing fees add 1,500 INR per trip.",
+   "Build a sheet. Add fees.",
    "Currency shown."
   ],
   [
@@ -131,10 +137,11 @@
     "Noise, wildlife and emissions.",
     "Flight paths and speed rules.",
     "Local jobs.",
-    "Respect for residents."
+    "Respect for residents.",
+    "Publish noise and altitude commitments."
    ],
-   "Routes avoid nesting sites in season.",
-   "List controls.",
+   "Routes avoid nesting sites in season. Operators fly above 300 m over residential areas.",
+   "List controls. Add commitments.",
    "Controls clear."
   ],
   [
@@ -146,10 +153,11 @@
     "Roles, schedule and records.",
     "Review each season.",
     "Guest feedback.",
-    "Training."
+    "Training.",
+    "Prepare a complaint and refund process."
    ],
-   "The plan reaches 4.7 average guest score.",
-   "Present.",
+   "The plan reaches 4.7 average guest score. Refunds within 7 days after cancellation.",
+   "Present. Add a refund rule.",
    "Complete."
   ]
  ],
@@ -254,38 +262,38 @@
  "ladder": [
   [
    "Product and route",
-   "L1: learner can name tour types. Focus module: Product and route (Understand, 3 h). Design a tour that guests will value and operators can run safely. Key points: Types: scenic, sunset, wildlife, transfer. Duration, capacity, ports and landing sites. Accessibility and comfort. Seasonality.",
-   "Teach: open with the worked example. A 45-minute coastal route with a sunset slot and a 20-minute boarding window. Then set the activity: Design a route with times. Mark against the standard: Map and timings. Check at this level: Who may operate? Model answer: Licensed operators and crew."
+   "L1: learner can name tour types. Focus module: Product and route (Understand, 3 h). Design a tour that guests will value and operators can run safely. Key points: Types: scenic, sunset, wildlife, transfer. Duration, capacity, ports and landing sites. Accessibility and comfort. Seasonality. Add a weather back-up day and an indoor alternative.",
+   "Teach: open with the worked example. A 45-minute coastal route with a sunset slot and a 20-minute boarding window. A rainy-day harbour museum visit replaces the cruise. Then set the activity: Design a route with times. Add a backup plan. Mark against the standard: Map and timings. Check at this level: Who may operate? Model answer: Licensed operators and crew."
   ],
   [
    "Licences and insurance",
-   "L2: learner knows licence basics. Focus module: Licences and insurance (Apply, 5 h). Only licensed operators and crews run commercial trips. Key points: Vessel or aircraft certificates, crew licences and operator permits. Insurance for passengers. Check expiry dates. Keep copies.",
-   "Teach: open with the worked example. A certificate expires next month; bookings after that date are stopped until renewal. Then set the activity: Make a checklist. Mark against the standard: Sources and dates. Check at this level: Go/no-go factors? Model answer: Wind, visibility, waves or ceiling."
+   "L2: learner knows licence basics. Focus module: Licences and insurance (Apply, 5 h). Only licensed operators and crews run commercial trips. Key points: Vessel or aircraft certificates, crew licences and operator permits. Insurance for passengers. Check expiry dates. Keep copies. Verify operator documents with the authority where possible.",
+   "Teach: open with the worked example. A certificate expires next month; bookings after that date are stopped until renewal. A tour desk asks for an up-to-date certificate before each season. Then set the activity: Make a checklist. Add a seasonal check. Mark against the standard: Sources and dates. Check at this level: Go/no-go factors? Model answer: Wind, visibility, waves or ceiling."
   ],
   [
    "Weather and go/no-go",
-   "L3: learner can read weather rules. Focus module: Weather and go/no-go (Apply, 5 h). Safety over schedule. Key points: Wind, visibility, waves and ceiling. Clear numbers and a named decision maker. Refund policy for cancellations. Record decisions.",
-   "Teach: open with the worked example. Wind above a set limit cancels flights and guests are offered a new date or refund. Then set the activity: Write rules. Mark against the standard: Numbers specified. Check at this level: Briefing items? Model answer: Equipment, exits, behaviour."
+   "L3: learner can read weather rules. Focus module: Weather and go/no-go (Apply, 5 h). Safety over schedule. Key points: Wind, visibility, waves and ceiling. Clear numbers and a named decision maker. Refund policy for cancellations. Record decisions. Use two independent weather sources.",
+   "Teach: open with the worked example. Wind above a set limit cancels flights and guests are offered a new date or refund. Two forecasts disagree; the cautious one is followed. Then set the activity: Write rules. Name your sources. Mark against the standard: Numbers specified. Check at this level: Briefing items? Model answer: Equipment, exits, behaviour."
   ],
   [
    "Briefing and equipment",
-   "L4: learner can brief guests. Focus module: Briefing and equipment (Apply, 4 h). Guests must know what to do. Key points: Life jackets, seat belts, exits and behaviour. Language options and check understanding. Equipment inspection log. Accessibility.",
-   "Teach: open with the worked example. Guests repeat how to fasten a life jacket before boarding. Then set the activity: Write a briefing script. Mark against the standard: Under five minutes. Check at this level: Cost per guest? Model answer: Hourly cost x hours / guests."
+   "L4: learner can brief guests. Focus module: Briefing and equipment (Apply, 4 h). Guests must know what to do. Key points: Life jackets, seat belts, exits and behaviour. Language options and check understanding. Equipment inspection log. Accessibility. Give briefing in the guest language or with pictures.",
+   "Teach: open with the worked example. Guests repeat how to fasten a life jacket before boarding. A picture card shows life-jacket fastening. Then set the activity: Write a briefing script. Create a picture card. Mark against the standard: Under five minutes. Check at this level: Cost per guest? Model answer: Hourly cost x hours / guests."
   ],
   [
    "Emergencies",
-   "L5: learner can price. Focus module: Emergencies (Evaluate, 4 h). Plan and drill. Key points: Man overboard, fire, engine failure and medical. Contacts and roles. Practice drills. Review after drills.",
-   "Teach: open with the worked example. A drill finds the radio channel was wrong and the sheet is corrected. Then set the activity: Write a plan. Mark against the standard: Steps ordered. Check at this level: Why drills? Model answer: Find weaknesses."
+   "L5: learner can price. Focus module: Emergencies (Evaluate, 4 h). Plan and drill. Key points: Man overboard, fire, engine failure and medical. Contacts and roles. Practice drills. Review after drills. Practice a man-overboard drill every month.",
+   "Teach: open with the worked example. A drill finds the radio channel was wrong and the sheet is corrected. The crew recovers a dummy in 90 seconds. Then set the activity: Write a plan. Record drill times. Mark against the standard: Steps ordered. Check at this level: Why drills? Model answer: Find weaknesses."
   ],
   [
    "Environment and community",
-   "L6: learner can lead. Focus module: Environment and community (Evaluate, 3 h). Be a good neighbour. Key points: Noise, wildlife and emissions. Flight paths and speed rules. Local jobs. Respect for residents.",
-   "Teach: open with the worked example. Routes avoid nesting sites in season. Then set the activity: List controls. Mark against the standard: Controls clear. Check at this level: Insurance for? Model answer: Passengers."
+   "L6: learner can lead. Focus module: Environment and community (Evaluate, 3 h). Be a good neighbour. Key points: Noise, wildlife and emissions. Flight paths and speed rules. Local jobs. Respect for residents. Publish noise and altitude commitments.",
+   "Teach: open with the worked example. Routes avoid nesting sites in season. Operators fly above 300 m over residential areas. Then set the activity: List controls. Add commitments. Mark against the standard: Controls clear. Check at this level: Insurance for? Model answer: Passengers."
   ],
   [
    "Operations plan",
-   "L7: learner can audit. Focus module: Operations plan (Create, 3 h). Write and present. Key points: Roles, schedule and records. Review each season. Guest feedback. Training.",
-   "Teach: open with the worked example. The plan reaches 4.7 average guest score. Then set the activity: Present. Mark against the standard: Complete. Check at this level: Why check expiry? Model answer: Valid permits."
+   "L7: learner can audit. Focus module: Operations plan (Create, 3 h). Write and present. Key points: Roles, schedule and records. Review each season. Guest feedback. Training. Prepare a complaint and refund process.",
+   "Teach: open with the worked example. The plan reaches 4.7 average guest score. Refunds within 7 days after cancellation. Then set the activity: Present. Add a refund rule. Mark against the standard: Complete. Check at this level: Why check expiry? Model answer: Valid permits."
   ]
  ]
 }
