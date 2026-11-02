@@ -38,7 +38,7 @@ M = [
   "When a large fault current flows into an earth system, the ground around it rises in voltage compared with a distant point (remote earth). This rise is called ground potential rise.",
   ["Order of magnitude: GPR is roughly the earth fault current that flows into the earth system times the earth system resistance. A small resistance still gives a big voltage at high current.",
    "Transferred potential: a metal path (a fence, a cable sheath, a pipe) can carry that rise to a remote point and give a shock where none is expected.",
-   "Homes and public: GPR near substations and pylon bases is why we separate or bond systems carefully, and why isolation rules exist for communications and pipes entering sites.",
+   "People and the public: GPR near substations and pylon bases is why we separate or bond systems carefully, and why isolation rules exist for communications and pipes entering sites.",
    "Control methods: lower resistance, grading conductors, insulating or isolating metallic paths, bonding intentionally, limiting fault current and clearing faults fast. Every design is verified by a competent engineer."],
   "Example values (illustration only, not for design): 5,000 A flowing into an earth system of 0.5 ohm gives a rise of 2,500 V relative to remote earth. At the edge of the site, the voltage falls with distance; the gradient across your stride is the step voltage.",
   "Calculate the rise for three given fault currents and resistances; list two metal paths in a sample site plan that could transfer potential.",
@@ -54,10 +54,10 @@ M = [
   "Three records judged with reasons; escalation named for any suspicious result."),
  ("Safe work, communication and next steps", "Create", 3,
   "Earthing work is designed, tested and verified only by qualified, authorised people. Your job in this course is awareness, clear records and clear communication.",
-  ["Safe isolation and permits come first; never test or open live earth connections without authority.",
+  ["Safe isolation and permits come first: test dead before touching any conductor, and never test or open live earth connections without authority.",
    "Storms and faults: stay away from earth electrodes and fences during faults or lightning.",
    "Explain to a non-expert in 60 seconds why earthing and bonding matter at home and at work.",
-   "Next courses: protection settings, cable selection, substation design awareness."],
+   "Next courses: selecting a cable, checking a protection setting, preparing a site test record."],
   "A 60-second explanation: 'If a wire inside a washing machine touches the metal case, the earth wire gives the current an easy path, the breaker trips, and you do not get a shock.'",
   "Write and record (or present to a peer) a 60-second explanation, a one-page checklist for reviewing earthing records, and a three-item next-step plan.",
   "Explanation understood by a non-expert peer; checklist has at least eight items; plan has dates."),
@@ -92,22 +92,23 @@ QUIZ = [("Name the three jobs of an earthing system.", "Protect people, protect 
  ("Calculate GPR for 2,000 A and 0.4 ohm.", "About 800 V (2,000 x 0.4); example values only, a qualified engineer designs and verifies the real system."),
  ("What is transferred potential and one example?", "A metal path carrying the rise elsewhere; example a metal fence or cable sheath."),
  ("Name three items a test record must show.", "Date, instrument and calibration, method, values, person (any three)."),
- ("A result rose from 2 to 7 ohm. What do you do?", "Retest, inspect joints, and report to the responsible engineer promptly (example: the same day)."),
- ("Who designs and approves earthing controls?", "A qualified, authorised engineer; this course gives awareness only.")]
+ ("An example result rose from 2 to 7 ohm. What do you do?", "Retest, inspect joints, and report to the responsible engineer promptly (example: the same day)."),
+ ("Who designs and approves earthing controls?", "A qualified, authorised engineer; this course gives awareness only."),
+ ("A metal water pipe enters a workshop and is not linked to the main earthing terminal. What do you do?", "Record it, tell the responsible engineer, and have a competent person correct it; do not make or change bonding yourself. Bonding links metal parts so they stay at the same voltage, so a person touching two of them is not at risk. (Covered in module 7: Bonding and special locations.)")]
 def build():
     mods = ''
     for i, (t, bl, h, intro, pts, ex, act, std) in enumerate(M, 1):
-        mods += (f'<details class="mod" {"open" if i==1 else ""}><summary><span class="mn">Module {i}</span> {e(t)} <span class="pill">{h} h</span><span class="pill bz">{bl}</span></summary><p>{e(intro)}</p><ul>' + ''.join(f'<li>{e(p)}</li>' for p in pts) + '</ul>'
+        mods += (f'<details class="mod" {"open" if i==1 else ""}><summary><span class="mn">Module {i}</span> {e(t)} <span class="pill">{h} hours ({h*60} minutes)</span><span class="pill bz">{bl}</span></summary><p>{e(intro)}</p><ul>' + ''.join(f'<li>{e(p)}</li>' for p in pts) + '</ul>'
                  f'<div class="evi"><strong>Worked example.</strong> {e(ex)}</div><p><strong>Activity.</strong> {e(act)}</p><p><strong>Standard to meet.</strong> {e(std)}</p></details>')
     quiz = ''.join(f'<details class="mod"><summary>Q{i+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a)}</p></details>' for i, (q, a) in enumerate(QUIZ))
     total = sum(m[2] for m in M)
     outs = [('Explain', 'why earthing and bonding protect people and equipment.'), ('Identify', 'the parts of an earthing system on a drawing.'), ('Calculate', 'a simple ground potential rise from fault current and resistance.'), ('Evaluate', 'a test record for completeness and plausibility.'), ('Communicate', 'the risk and the next action to a non-expert.')]
     about = B.sec('', 'ab', 'about this course', 'What you will be able to do',
-        f'<div class="cb-facts"><span class="pill lv">L4 Practitioner</span><span class="pill">{total} h lessons plus practice</span><span class="pill">Mentor review available</span></div><ul class="blm">' + ''.join(f'<li><span class="bz">{b}</span> {e(t)}</li>' for b, t in outs) + '</ul>'
+        f'<div class="cb-facts"><span class="pill lv">L4 Practitioner</span><span class="pill">{total} hours ({total*60} minutes) of lessons plus practice</span><span class="pill">Mentor review available</span></div><ul class="blm">' + ''.join(f'<li><span class="bz">{b}</span> {e(t)}</li>' for b, t in outs) + '</ul>'
         '<h3 class="ws-h3">Task, condition and standard</h3><div class="tcs"><div><h4>Task</h4><p>Mark up a drawing, calculate a simple rise, judge three test records and explain the risk in 60 seconds.</p></div><div><h4>Condition</h4><p>Sample drawings and records supplied; calculator; mentor review; no live equipment. About 3 weeks part-time.</p></div><div><h4>Standard</h4><p>All calculations correct with units; every record judged with a reason; the explanation is understood by a non-expert peer.</p></div></div>'
         '<p class="ws-note">Safety: this course gives awareness and method. It does not qualify you to design, test or approve an earthing system. Work on live or fault-carrying equipment is done only by authorised, competent people under your local rules.</p>')
     body = (about + B.sec('alt', 'md', 'lesson by lesson', f'{len(M)} modules with worked examples', mods)
-            + B.sec('', 'as', 'assessment', 'How you are checked', '<p>Evidence: diagram, calculations, three record reviews, 60-second explanation. A mentor with electrical experience marks it with this rubric. Pass: no criterion at Not yet.</p>' + '<div class="scroll-x"><table class="ws-table"><caption>Marking rubric (Not yet, Meets, Exceeds)</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>' + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(m)}</td><td>{e(d)}</td></tr>' for a, b, m, d in RUBRIC) + '</tbody></table></div>' + '<h3 class="ws-h3">Ten-question check, with model answers</h3>' + quiz)
+            + B.sec('', 'as', 'assessment', 'How you are checked', '<p>Evidence: diagram, calculations, three record reviews, 60-second explanation. A mentor with electrical experience marks it with this rubric. Pass: no criterion at Not yet.</p>' + '<div class="scroll-x"><table class="ws-table"><caption>Marking rubric (Not yet, Meets, Exceeds)</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>' + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(m)}</td><td>{e(d)}</td></tr>' for a, b, m, d in RUBRIC) + '</tbody></table></div>' + '<h3 class="ws-h3">Eleven-question check, with model answers</h3>' + quiz)
             + ladder_sec(LADDER['earthing'], 'alt')
             + B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', '<ul><li>Electrical technician trainee</li><li>Site safety assistant</li><li>Inspection and testing assistant</li><li>Utility field assistant</li></ul><p>Next: Selecting a cable, Checking a protection setting, Preparing a site test record.</p>')
             + B.sec('alt', 'lc', 'ten locations and global', 'Your place', '<p>Wiring and earthing rules, colours and test limits differ by place. Always work to your own national code and your employer\'s procedure.</p>' + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Use your national wiring code and the local regulator for electrical safety. Credit frame: {e(L["frame"])}.</p></details>' for L in B.LOC))

@@ -46,7 +46,7 @@ dict(id='GL-04', title='Internet Infrastructure Basics', group='Digital and Tech
    '99 percent allows 87.6 hours; 99.99 percent allows about 53 minutes.',
    'Ask: what is promised, what refund follows a failure, where are backups, where is the data kept.',
    'Match the plan to the need: a hobby page and an online shop need different promises.'],
-  'A shop earning USD 400 a day (an estimate; check your market) compares two hosts. 99 percent allows 3.65 days down a year, a risk of about USD 1,460. 99.9 percent allows 8.76 hours, about USD 146. If the better plan costs USD 60 a year more, it is worth it: it cuts the risk by about USD 1,314 a year.',
+  'Worked-example estimate, not a real price or guarantee. Assumptions: a shop loses USD 400 a day when its site is down (about USD 16.67 an hour; check your own market); Plan A promises 99 percent and costs USD 0 extra; Plan B promises 99.9 percent and costs USD 60 a year more. Plan A allows 8,760 h x 1% = 87.6 hours (3.65 days) down a year, an expected loss of 87.6 x 16.67 = USD 1,460. Plan B allows 8,760 h x 0.1% = 8.76 hours down a year, an expected loss of about USD 146. Saving = 1,460 - 146 = USD 1,314 a year; net benefit = 1,314 - 60 = USD 1,254 a year. So Plan B is worth it under these assumptions. Real downtime can be lower or higher than the promise.',
   'Convert three availability promises into hours per year and pick one for a case.',
   'All three conversions correct to two decimals; the pick is argued with a cost figure.'),
  ('Security basics', 'Apply', 5,
