@@ -14,15 +14,19 @@ SET = {'pathways.html': 'Pathways: your growth, our goal', 'courses.html': 'Plan
 SETDESC = {'learn-flagship-in.html': 'Full courses for India: 35 flagship courses with eight modules, worked examples, a marking rubric, a ten-question check and a seven-level ladder.',
            'learn-loc-mx-hub.html': 'All 75 global courses as Mexico editions: every course with local rules, jobs and MXN examples, from lead generation to robotics and space tourism.',
            'enterprise-software.html': 'Full courses on business software, from L1 to L7: CRM administration, creative suites, finance applications, ERP, and cloud office administration.'}
-REPL = [(' (flagship course, India)', ' (India)'), (' (Canada flagship course)', ' (Canada)'), (' deep edition', ''), (' (full course)', ''),
-        (' (flagship course)', '')]
+REPL = [(' (flagship course, India)', ' (India)'), (' (Canada flagship course)', ' (Canada)')]
 def e(s): return html.escape(s, quote=True)
 def fit(core):
     for a, b in REPL:
         if len(core + SUF) > 70: core = core.replace(a, b)
     if len(core + SUF) <= 70: return core + SUF
     if len(core + SHORT) <= 70: return core + SHORT
-    cut = core[:70 - len(SHORT) - 1].rsplit(' ', 1)[0].rstrip(' ,:;-(')
+    room = 70 - len(SHORT)
+    if ': ' in core:                      # keep the place or edition after the colon: it tells pages apart
+        topic, tail = core.split(': ', 1)
+        keep = room - len(tail) - 3
+        if keep >= 20: return topic[:keep].rsplit(' ', 1)[0].rstrip(' ,:;-(&') + '…: ' + tail + SHORT
+    cut = core[:room - 1].rsplit(' ', 1)[0].rstrip(' ,:;-(&')
     return cut + '…' + SHORT
 def text(raw): return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', ' ', raw))).strip()
 def cut(s, lo=120, hi=160):
