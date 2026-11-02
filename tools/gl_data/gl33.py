@@ -22,3 +22,25 @@ C = dict(id='GL-33', title='Digital Marketing', group='Business and Commerce', l
  local='Advertising, privacy and consent law differ by place; use the local rule on each campaign.',
  evidence='Your evidence: plan, persona, messages, page changes, calendar, email consent records, weekly table and report.',
  ladder=[('Basics of promotion', 'Describe how people find businesses. Notes: ask five people.'), ('Awareness', 'Know channels. Notes: compare ads.'), ('Foundation', 'This course. Notes: 30-day campaign.'), ('Practitioner', 'Run for several clients. Notes: templates.'), ('Specialist', 'Search or social specialist. Notes: advanced tools.'), ('Advanced', 'Lead strategy. Notes: budgets.'), ('Super expert', 'Set method and teach teachers. Notes: ethics review.')])
+
+C['deep'] = dict(mods=[
+ ('Starting with a channel instead of a goal.', 'The goal is 20 bookings; the channel follows.', 'What is your goal?'),
+ ('Imagining the customer.', 'Five interviews change the message.', 'What did you hear?'),
+ ('Clever slogans.', '"Learn to draw in 6 Saturdays" beats a pun.', 'Is your message clear?'),
+ ('Slow pages.', '2 seconds on a phone keeps people.', 'How fast is yours?'),
+ ('Posting without a calendar.', 'Four-week plan keeps rhythm.', 'What is on it?'),
+ ('Emailing without consent.', 'Opt-in forms and unsubscribe links.', 'Where is consent?'),
+ ('Ignoring cost.', '4.00 per lead and 20 per booking.', 'What is yours?'),
+ ('Not moving budget.', 'Shift to the channel that works.', 'Where did you move?')],
+ gloss=[('Funnel', 'Steps from awareness to purchase.'), ('Persona', 'A sketch of a typical customer.'), ('Call to action', 'The next step requested.'), ('SEO', 'Making pages easier to find in search.'), ('Opt-in', 'Permission to contact.'), ('Cost per lead', 'Spend divided by leads.')],
+ cases=[('The flop', 'An ad gets clicks but no bookings.', 'What to check?', 'Landing page, message mismatch, price, and form length.'),
+        ('The angry comment', 'A user complains publicly.', 'How do you respond?', 'Reply politely, move to private help and fix the cause.')])
+C['deep']['extra'] = [
+ ['Check competitors\' offers.', 'Set weekly review time.'],
+ ['Use their words in messages.', 'Share your persona.'],
+ ['Add proof such as photos.', 'Test two headlines.'],
+ ['Add a local listing.', 'Test on mobile.'],
+ ['Reuse content in formats.', 'Reply to comments.'],
+ ['Segment lists.', 'Test send times.'],
+ ['Create a simple dashboard.', 'Compare week on week.'],
+ ['Share lessons.', 'Plan the next month.']]

@@ -22,3 +22,25 @@ C = dict(id='GL-32', title='Influencer Marketing', group='Business and Commerce'
  local='Disclosure rules and age limits for audiences differ by place: follow the local authority.',
  evidence='Your evidence: goal note, vetting checklist, brief, agreement outline, tracking sheet, results table and lessons.',
  ladder=[('Basics of sharing', 'Share safely. Notes: privacy settings.'), ('Awareness', 'Know creator rules. Notes: compare ads.'), ('Foundation', 'This course. Notes: small campaign.'), ('Practitioner', 'Manage several creators. Notes: calendar.'), ('Specialist', 'Data and contracts. Notes: attribution.'), ('Advanced', 'Lead a programme. Notes: brand safety.'), ('Super expert', 'Set method and teach teachers. Notes: ethics review.')])
+
+C['deep'] = dict(mods=[
+ ('Choosing by follower count.', 'A nano creator\'s audience may trust them more.', 'What matters more than size?'),
+ ('Vague goals.', '30 sign-ups for 300 budget.', 'What is your target?'),
+ ('Ignoring fake engagement.', 'Comments all emojis suggest bought activity.', 'How did you vet?'),
+ ('Over-controlling the creator.', 'Give a brief with room for their voice.', 'What is flexible?'),
+ ('No written terms.', 'Fees and rights in writing avoid disputes.', 'What did you agree?'),
+ ('Forgetting tracking.', 'A code per creator shows who sells.', 'What is your code?'),
+ ('Judging on views alone.', 'Cost per result tells more.', 'What is yours?'),
+ ('Accepting every offer as a creator.', 'Decline items that do not fit your values.', 'What will you decline?')],
+ gloss=[('Nano creator', 'A creator with a small, close audience.'), ('Brief', 'The instructions for a partnership.'), ('Disclosure', 'Label showing a paid link or post.'), ('Engagement rate', 'Interactions divided by reach.'), ('Usage rights', 'How you may reuse content.'), ('Promo code', 'A code tracking sales.')],
+ cases=[('The off-brief post', 'A creator posts a claim not in the brief.', 'Response?', 'Ask for a correction, use the contract and keep records.'),
+        ('The undisclosed ad', 'A creator does not label a paid post.', 'What do you do?', 'Request an immediate label, pause payment and review the process.')])
+C['deep']['extra'] = [
+ ['Study one local campaign.', 'List your own values.'],
+ ['Set a budget range.', 'Choose a start and end date.'],
+ ['Check past posts for similar ads.', 'Ask for audience details.'],
+ ['Share examples.', 'Agree approval steps.'],
+ ['Put payment dates in writing.', 'Plan for delays.'],
+ ['Reply to comments.', 'Watch for complaints.'],
+ ['Share findings with creators.', 'Plan the next campaign.'],
+ ['Create a media kit.', 'Be open about your audience.']]

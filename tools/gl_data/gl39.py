@@ -22,3 +22,25 @@ C = dict(id='GL-39', title='Virtual Interior Design Consulting', group='Business
  local='Building, safety and tenancy rules differ by place; never advise changes that need approval without telling the client.',
  evidence='Your evidence: scope, brief, measurement check, two layouts, mood board, shopping list, feedback round and handover.',
  ladder=[('Basics of rooms', 'Measure a room. Notes: tape and sketch.'), ('Awareness', 'Know layout and colour. Notes: examples.'), ('Foundation', 'Plan one room. Notes: peer client.'), ('Practitioner', 'This course. Notes: remote package.'), ('Specialist', 'Whole home. Notes: phases.'), ('Advanced', 'Lead a design team. Notes: contracts.'), ('Super expert', 'Set method and teach teachers. Notes: safety review.')])
+
+C['deep'] = dict(mods=[
+ ('Starting with products.', 'Start with how the room is used.', 'How is it used?'),
+ ('Skipping the brief call.', 'A brief reveals a guest need.', 'What did you learn?'),
+ ('Trusting one measurement.', 'Diagonals confirm the room.', 'Do yours match?'),
+ ('Crowded layouts.', 'Keep 0.9 m paths.', 'What are your paths?'),
+ ('Colour without reasons.', '60-30-10 rule with reasons.', 'What is your palette?'),
+ ('Overspending.', 'Hold 10% contingency.', 'What is your total?'),
+ ('One option only.', 'Present two layouts.', 'What did the client choose?'),
+ ('No handover.', 'Order of work in a checklist.', 'What is the order?')],
+ gloss=[('Mood board', 'A collage of style and colour.'), ('Space plan', 'Layout of furniture.'), ('Circulation', 'Paths through a room.'), ('Palette', 'Chosen colours.'), ('Contingency', 'Reserve budget.'), ('Brief', 'The client\'s needs and limits.')],
+ cases=[('The small room', 'A 3 x 3 m room must be an office and guest room.', 'Solution?', 'Use a wall bed or sofa bed, wall desk, vertical storage, keep a path.'),
+        ('The over-budget list', 'The list exceeds budget by 20%.', 'Fix?', 'Swap items, use second-hand, phase purchases.')])
+C['deep']['extra'] = [
+ ['Agree communication tools.', 'Set response times.'],
+ ['Ask about pets and children.', 'Note accessibility.'],
+ ['Take photos in daylight.', 'Mark power points.'],
+ ['Label zones.', 'Check door swings.'],
+ ['Collect fabric samples.', 'Think about light layers.'],
+ ['Add delivery times.', 'Check returns.'],
+ ['Limit rounds of revision.', 'Get written approval.'],
+ ['Ask for feedback.', 'Plan your portfolio.']]

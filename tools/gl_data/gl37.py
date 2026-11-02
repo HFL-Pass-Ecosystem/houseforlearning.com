@@ -22,3 +22,25 @@ C = dict(id='GL-37', title='Crowdfunding Platform Practice', group='Business and
  local='Public fundraising and securities rules differ strongly by place; check before anything is published.',
  evidence='Your evidence: model table, project summary, budget and goal, reward costs, draft page, rules list and update plan.',
  ladder=[('Basics of funding', 'Explain donations. Notes: examples.'), ('Awareness', 'Know models. Notes: compare.'), ('Foundation', 'Plan a small campaign. Notes: paper.'), ('Practitioner', 'This course. Notes: full preparation.'), ('Specialist', 'Platform concept. Notes: risk controls.'), ('Advanced', 'Lead funding programmes. Notes: governance.'), ('Super expert', 'Set method and teach teachers. Notes: rules review.')])
+
+C['deep'] = dict(mods=[
+ ('Treating all models as the same.', 'Equity needs extra rules that donation does not.', 'Which model fits?'),
+ ('No audience before launch.', 'A list of 100 supporters converts at 20%.', 'How big is your list?'),
+ ('Forgetting fees.', 'Costs of 8,000 need a goal of 8,696.', 'What is your goal?'),
+ ('Under-costing rewards.', 'Reward cost 11 plus postage 4 leaves 10 of 25.', 'What are reward margins?'),
+ ('Hiding risk.', 'Page states supplier delay risk.', 'What risks do you state?'),
+ ('Skipping rules.', 'The platform holds funds until the goal is met.', 'What rules apply?'),
+ ('Silence after launch.', 'Weekly updates keep trust.', 'When are updates?'),
+ ('Overpromising.', 'Say what you can deliver.', 'What can you promise?')],
+ gloss=[('Backer', 'A person who supports a campaign.'), ('All-or-nothing', 'Funds released only if the goal is met.'), ('Reward', 'Something given in return.'), ('Platform fee', 'Charge by the platform.'), ('Stretch goal', 'An extra target.'), ('Risk statement', 'A plain list of what could go wrong.')],
+ cases=[('The shortfall', 'The campaign reaches 70% of the goal.', 'What now?', 'Follow platform rules; consider a smaller relaunch with honest communication.'),
+        ('The delay', 'Production slips by two months.', 'Response?', 'Tell backers early, give a new date and offer refund options if rules require.')])
+C['deep']['extra'] = [
+ ['Study three campaigns.', 'List who bears risk.'],
+ ['Build an email list.', 'Test the story with friends.'],
+ ['Add tax and fees.', 'Keep a reserve.'],
+ ['Keep rewards simple.', 'Test shipping costs.'],
+ ['Show a prototype.', 'Introduce the team.'],
+ ['Check local fundraising rules.', 'Ask an adviser.'],
+ ['Plan thank-yous.', 'Answer comments.'],
+ ['Keep a delivery tracker.', 'Share lessons.']]

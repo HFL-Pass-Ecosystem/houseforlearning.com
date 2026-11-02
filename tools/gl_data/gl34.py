@@ -22,3 +22,25 @@ C = dict(id='GL-34', title='Online Tutoring Platform', group='Business and Comme
  local='Child-protection, tutor registration and privacy rules differ by place; check before you launch.',
  evidence='Your evidence: safeguarding policy, tutor onboarding, lesson plans, scheduling test, pricing sheet, progress data and pilot report.',
  ladder=[('Basics of helping learners', 'Explain a topic to a friend. Notes: teach-back.'), ('Awareness', 'Know safeguarding. Notes: read policy.'), ('Foundation', 'Tutor a peer. Notes: observed.'), ('Practitioner', 'This course. Notes: pilot.'), ('Specialist', 'Exam or special-needs tutoring. Notes: training.'), ('Advanced', 'Lead a team of tutors. Notes: quality system.'), ('Super expert', 'Set method and teach teachers. Notes: safeguarding review.')])
+
+C['deep'] = dict(mods=[
+ ('Starting with price instead of learner need.', 'A diagnostic reveals fractions are the gap.', 'What gap did you find?'),
+ ('Skipping checks.', 'Checks and references before any tutor teaches.', 'What checks did you do?'),
+ ('Lenient onboarding.', 'Only four of ten pass a sample lesson.', 'How do you select?'),
+ ('Lessons that are all talking.', 'Practice time is 20 of 45 minutes.', 'How much do learners do?'),
+ ('Complicated booking.', 'Reminders cut no-shows to 5%.', 'What is your no-show rate?'),
+ ('Hidden fees.', 'Clear price with a platform fee shown.', 'What is the margin?'),
+ ('Reporting attendance only.', 'Show pre and post scores.', 'What gain?'),
+ ('Ignoring complaints.', 'Respond within a day.', 'How many complaints?')],
+ gloss=[('Safeguarding', 'Protecting learners from harm.'), ('Diagnostic', 'A short check of what a learner knows.'), ('Onboarding', 'Bringing tutors into the service.'), ('Session recording', 'A recording kept with consent.'), ('Progress measure', 'Evidence of learning gain.'), ('Code of conduct', 'Rules tutors agree to.')],
+ cases=[('The private message', 'A tutor messages a learner outside the platform.', 'What do you do?', 'Stop, report per policy, inform the parent, review the tutor.'),
+        ('The no-show', 'A learner misses three sessions.', 'Response?', 'Contact the parent, adjust times, offer a pause.')])
+C['deep']['extra'] = [
+ ['Interview parents.', 'Check exam boards for your place.'],
+ ['Keep a safeguarding lead.', 'Run annual refreshers.'],
+ ['Observe sample lessons.', 'Give tutors a handbook.'],
+ ['Share slides with learners.', 'Plan quick wins.'],
+ ['Test time zones.', 'Keep a backup tool.'],
+ ['Pay tutors on time.', 'Refund fairly.'],
+ ['Update parents monthly.', 'Re-test after eight weeks.'],
+ ['Collect testimonials with consent.', 'Plan to scale slowly.']]

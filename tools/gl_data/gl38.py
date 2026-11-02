@@ -22,3 +22,25 @@ C = dict(id='GL-38', title='P2P Lending Platform Concepts', group='Business and 
  local='Lending platforms are licensed and capped in many places; check the regulator\'s rules.',
  evidence='Your evidence: money-flow chart, loan calculations, expected-loss table, return model, fairness rules, disclosure sheet, operating checklist and one-page concept.',
  ladder=[('Basics of borrowing', 'Understand interest. Notes: calculators.'), ('Awareness', 'Know platforms. Notes: compare.'), ('Foundation', 'Calculate loans. Notes: spreadsheet.'), ('Practitioner', 'This course. Notes: concept and model.'), ('Specialist', 'Risk modelling. Notes: scoring.'), ('Advanced', 'Lead risk and compliance. Notes: audits.'), ('Super expert', 'Set method and teach teachers. Notes: rules review.')])
+
+C['deep'] = dict(mods=[
+ ('Believing returns are certain.', 'Lenders can lose money; say so.', 'What risks are stated?'),
+ ('Quoting rate without fees.', '12% plus 2% fee costs more than 12%.', 'What is the total cost?'),
+ ('Not diversifying.', '50 loans of 20 each reduce impact.', 'How many loans?'),
+ ('Skipping stress tests.', 'Double the defaults and see.', 'What happens?'),
+ ('Biased scoring.', 'Check outcomes across groups.', 'What did you find?'),
+ ('Long, dense disclosures.', 'Plain sheet in short lines.', 'Does yours pass a reader test?'),
+ ('Mixing funds.', 'Keep client money separate.', 'How are funds kept?'),
+ ('Calling a concept a product.', 'State concept only.', 'What limit did you state?')],
+ gloss=[('Default', 'Failure to repay.'), ('APR', 'Annual percentage rate including fees.'), ('Expected loss', 'Chance of default times loss.'), ('Ring-fence', 'Keep funds separate.'), ('Servicing', 'Collecting and managing loan payments.'), ('Stress test', 'Testing under bad conditions.')],
+ cases=[('The surge in defaults', 'Defaults double in one month.', 'Response?', 'Stress model, inform lenders, review scoring and collections.'),
+        ('The unfair offer', 'Rates for one group are far higher.', 'Check?', 'Investigate bias in the scoring and fix.')])
+C['deep']['extra'] = [
+ ['Compare banks and platforms.', 'Name the regulator.'],
+ ['Compute payment by hand once.', 'Compare early repayment.'],
+ ['Use public default data.', 'Note limits of data.'],
+ ['Show gross and net.', 'Compare with savings.'],
+ ['Offer help for hardship.', 'Keep fees clear.'],
+ ['Add a complaint route.', 'Test with readers.'],
+ ['Check identity.', 'Plan back-up servicing.'],
+ ['Ask an adviser to review.', 'List next steps.']]

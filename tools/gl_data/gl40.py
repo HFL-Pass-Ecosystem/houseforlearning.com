@@ -22,3 +22,25 @@ C = dict(id='GL-40', title='Online Car Dealership Operations', group='Business a
  local='Trader licences, vehicle registration, warranty and consumer-return rules differ by place; check them first.',
  evidence='Your evidence: sales map, two inspection checklists, three listings, price sheet, enquiry log, test-drive procedure and paperwork checklist.',
  ladder=[('Basics of cars', 'Know the parts. Notes: walk-round.'), ('Awareness', 'Know seller duties. Notes: case studies.'), ('Foundation', 'List one car. Notes: honest.'), ('Practitioner', 'This course. Notes: five vehicles.'), ('Specialist', 'Finance and trade-ins. Notes: rules.'), ('Advanced', 'Lead a showroom. Notes: compliance.'), ('Super expert', 'Set method and teach teachers. Notes: ethics review.')])
+
+C['deep'] = dict(mods=[
+ ('Thinking online sales are different law.', 'Same duties plus distance-selling rules.', 'Which rules apply?'),
+ ('Skipping ownership checks.', 'Car still under finance; stop listing.', 'What did you verify?'),
+ ('Hiding faults.', 'Photograph the scratch and say so.', 'Which faults did you show?'),
+ ('Pricing from memory.', 'Compare five similar cars.', 'What range?'),
+ ('Slow replies.', 'Reply in two hours.', 'What is your target?'),
+ ('Unsafe test drives.', 'Check licence, insurance and route.', 'What is your procedure?'),
+ ('Cash handling.', 'Use bank transfer.', 'What payments do you accept?'),
+ ('No after-sales.', 'Call after a week.', 'What do you do?')],
+ gloss=[('Mileage', 'Distance driven.'), ('Service history', 'Record of maintenance.'), ('Finance check', 'Check for outstanding loans.'), ('Test drive', 'A trial drive by a buyer.'), ('Warranty', 'A promise to repair faults.'), ('Handover', 'Transfer of keys and papers.')],
+ cases=[('The clocked car', 'Records suggest mileage was reduced.', 'Response?', 'Stop sale, investigate, report as required.'),
+        ('The late payment', 'A buyer wants to pay later in cash.', 'What do you do?', 'Insist on traceable payment before handover.')])
+C['deep']['extra'] = [
+ ['Learn the vehicle registration steps.', 'Know local trader rules.'],
+ ['Check the vehicle identification number.', 'Look for signs of repair.'],
+ ['Take photos in daylight.', 'Describe the tyres.'],
+ ['Account for reconditioning.', 'Review price weekly.'],
+ ['Keep a template reply.', 'Offer video calls.'],
+ ['Record the odometer before and after.', 'Limit distance.'],
+ ['Issue a written receipt.', 'Send insurance guidance.'],
+ ['Gather reviews.', 'Fix faults fast.']]

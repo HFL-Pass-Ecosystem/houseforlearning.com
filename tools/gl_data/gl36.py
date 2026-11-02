@@ -22,3 +22,25 @@ C = dict(id='GL-36', title='Virtual Event Planning', group='Business and Commerc
  local='Data, consent and recording rules differ by place and attendee place; check each.',
  evidence='Your evidence: goal note, programme, budget, form, rehearsal checklist, access checklist, run of show and report.',
  ladder=[('Basics of meetings', 'Join and host a small call. Notes: practise.'), ('Awareness', 'Know event types. Notes: attend two.'), ('Foundation', 'This course. Notes: first event.'), ('Practitioner', 'Run a series. Notes: templates.'), ('Specialist', 'Larger events. Notes: sponsors.'), ('Advanced', 'Lead an events team. Notes: budgets.'), ('Super expert', 'Set method and teach teachers. Notes: review yearly.')])
+
+C['deep'] = dict(mods=[
+ ('No measurable goal.', '40 attendees; 80% report a plan.', 'What is your measure?'),
+ ('Long talks.', '25 minutes of talk and 15 of activity.', 'How do you keep interaction?'),
+ ('Forgetting contingency.', 'A 10% reserve covers a late fee.', 'What is your reserve?'),
+ ('Single reminder.', 'Three reminders raise attendance.', 'When are yours?'),
+ ('Testing the day itself.', 'A rehearsal finds the slides not shared.', 'What did rehearsal find?'),
+ ('No captions.', 'Captions and slides ahead.', 'What did you provide?'),
+ ('Overrunning.', 'Cut questions to stay on time.', 'Did you finish on time?'),
+ ('Skipping follow-up.', 'Send thanks and slides in a day.', 'What did you send?')],
+ gloss=[('Run of show', 'A timed script.'), ('Producer', 'Handles tech while the host speaks.'), ('Moderator', 'Manages questions.'), ('Registration', 'Sign-up for the event.'), ('Breakout', 'Small group room.'), ('Follow-up', 'Messages after the event.')],
+ cases=[('The no-show speaker', 'A key speaker does not appear.', 'What do you do?', 'Run the backup activity, try the contact number and reschedule the talk.'),
+        ('Low attendance', 'Only 30% of registrants attend.', 'Fix?', 'Send reminders, offer a recording, check time zones.')])
+C['deep']['extra'] = [
+ ['Study one event format.', 'Choose a date away from holidays.'],
+ ['Brief speakers in writing.', 'Run a speaker rehearsal.'],
+ ['Get quotes for tools.', 'Track spending weekly.'],
+ ['Add the time zone to all notices.', 'Use a short link.'],
+ ['Prepare a backup link.', 'Test sound with a guest.'],
+ ['Offer notes and a recording.', 'Check colour contrast.'],
+ ['Keep a facilitator for chat.', 'Thank attendees.'],
+ ['Analyse feedback by theme.', 'Share lessons.']]
