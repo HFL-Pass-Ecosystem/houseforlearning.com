@@ -54,7 +54,7 @@
     "Add a failure allowance: if 1 in 10 builds fails, add about 11% to cost.",
     "Quote price from cost plus target margin; show the customer a breakdown."
    ],
-   "ex": "Part price 420, cost 150 + 9 failure allowance... margin 270 per part in teaching figures; fixed cost 25,000 a month gives break-even near 93 parts. Teaching figures in CAD.",
+   "ex": "Cost per part: machine time 70, material 45, post-processing 25, inspection 10 = 150; failure allowance 1 in 10 builds adds about 17 = 167. Price 420 gives margin 253 (60%). Fixed cost 25,000 a month breaks even at about 99 parts. Teaching figures in CAD.",
    "act": "Build the quote sheet and test a 20% rise in failures.",
    "std": "Units shown; failure allowance included."
   },
