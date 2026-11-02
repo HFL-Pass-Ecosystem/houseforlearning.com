@@ -22,3 +22,16 @@ C = dict(id='GL-15', title='Tele and Video Conferencing Operations', group='Digi
  local='Recording and cross-border calls may need consent and notices; check your place and your attendees\' places.',
  evidence='Your evidence: space test, tool test list, run sheets, fault drill log, access checklist, three-session report.',
  ladder=[('Basics of calling', 'Join a call well. Notes: learn mute, camera and chat.'), ('Awareness', 'Know etiquette and privacy. Notes: practise as a guest.'), ('Foundation', 'This course. Notes: three sessions.'), ('Practitioner', 'Run weekly sessions for a team. Notes: templates and checklists.'), ('Specialist', 'Hybrid rooms and larger events. Notes: add room kits.'), ('Advanced', 'Lead production teams. Notes: standards and training.'), ('Super expert', 'Set method and teach teachers. Notes: review every quarter.')])
+
+C['deep'] = dict(mods=[
+ ('Relying on a laptop microphone.', 'A USB headset removes echo and clatter in one change.', 'What audio gear do you use?'),
+ ('Opening the tool for the first time as host on the day.', 'A guest login shows attendees cannot see the poll; fix before the event.', 'What did your guest test find?'),
+ ('Testing alone.', 'Testing with a partner shows echo when both speakers are open.', 'What did your partner hear?'),
+ ('Ignoring upload speed.', 'Download is fast but upload is 1 Mbit/s; the speaker\'s video freezes.', 'What are your three readings?'),
+ ('Adding captions at the end.', 'Captions on from the start help a noisy-room attendee as well.', 'Which access items did you set?'),
+ ('No run sheet, so time slips.', 'A 5-minute chat on the welcome slide cuts the questions by half.', 'What did you cut?'),
+ ('Panicking in a fault.', 'The producer says "we will be back in two minutes" and posts the backup link.', 'What is your plan B?'),
+ ('Not asking for feedback.', 'A one-question poll gives a 4.4 score and one useful comment.', 'What did attendees say?')],
+ gloss=[('Host', 'The person who controls the meeting.'), ('Co-host', 'A helper with host controls.'), ('Breakout room', 'A small group space.'), ('Latency', 'Delay between speaking and hearing.'), ('Bandwidth', 'Data speed.'), ('Run sheet', 'A timed plan.')],
+ cases=[('The echo', 'Everyone hears themselves.', 'Cause and fix?', 'Two open microphones in a room; mute one, use headphones.'),
+        ('The late guest speaker', 'The speaker has not joined at start time.', 'What do you do?', 'Start with the welcome, call the number you hold, move the slot if possible, and keep the time.')])

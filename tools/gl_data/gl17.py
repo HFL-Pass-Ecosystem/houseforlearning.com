@@ -22,3 +22,16 @@ C = dict(id='GL-17', title='Blockchain Health-Record Concepts', group='Digital a
  local='Health and privacy law differ strongly by place and often limit what can be shared: always consult the local health-data authority.',
  evidence='Your evidence: five-person access map, toy ledger, hash comparison, consent entries, two-layer diagram, use-case scores, risk table and one-page concept.',
  ladder=[('Basics of records', 'Explain why records matter. Notes: talk about a clinic visit.'), ('Awareness', 'Know hashes and ledgers. Notes: toy ledger demo.'), ('Foundation', 'This course. Notes: concept and risks.'), ('Practitioner', 'Support a pilot with fake data. Notes: test plans.'), ('Specialist', 'Design with standards. Notes: add health data standards.'), ('Advanced', 'Lead governance. Notes: ethics board and audits.'), ('Super expert', 'Set method and teach teachers. Notes: review laws yearly.')])
+
+C['deep'] = dict(mods=[
+ ('Thinking more sharing is always better.', 'A lab shares only what the doctor needs; extra sharing raises risk.', 'Who needs what in your map?'),
+ ('Believing a ledger prevents wrong data.', 'A wrong lab value recorded on a ledger stays wrong, only tamper-evident.', 'What fixes wrong data?'),
+ ('Hashing small guessable values.', 'A hash of a phone number can be guessed by trying all numbers; add a secret salt.', 'Which value would you not hash alone?'),
+ ('Putting names in consent entries.', 'Use a pseudonym and a scope code.', 'What does your entry avoid?'),
+ ('Putting records on the chain "so they are safe".', 'A record on a chain cannot be deleted when law requires it.', 'Where does your record live?'),
+ ('Choosing a ledger by fashion.', 'A single clinic with its own database scores low.', 'Which idea did you reject?'),
+ ('Ignoring people without phones.', 'A paper route and trusted clinic recovery included.', 'How can a person without a phone take part?'),
+ ('Overstating readiness.', 'The summary says "concept only, not for live use".', 'What limits does your summary state?')],
+ gloss=[('Ledger', 'A shared list of records.'), ('Hash', 'A fixed-length code made from data.'), ('Block', 'A group of entries.'), ('Consent', 'Permission to share.'), ('Pseudonym', 'A stand-in ID.'), ('Off-chain', 'Stored outside the shared ledger.')],
+ cases=[('The deletion request', 'A patient asks for deletion of a record whose hash is on a ledger.', 'What happens?', 'Delete the record from the clinic system; the hash alone reveals nothing; document it.'),
+        ('The insurer', 'An insurer wants access to all records.', 'Your response?', 'Only with specific, limited, time-bound consent, and the patient may refuse.')])

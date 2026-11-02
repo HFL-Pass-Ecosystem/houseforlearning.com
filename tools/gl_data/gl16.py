@@ -22,3 +22,16 @@ C = dict(id='GL-16', title='Mobile Application Testing Services', group='Digital
  local='App stores, accessibility and consumer rules differ by place: record which version and region you tested.',
  evidence='Your evidence: test plan, 30 cases with results, 10 bug reports, five non-functional checks, summary and retest.',
  ladder=[('Basics of apps', 'Use an app and describe how it behaves. Notes: keep a notebook.'), ('Awareness', 'Know bugs and users. Notes: spot bugs in sample apps.'), ('Foundation', 'Run given test cases. Notes: follow a script.'), ('Practitioner', 'This course. Notes: plan, run and report.'), ('Specialist', 'Automation basics and performance. Notes: add free tools.'), ('Advanced', 'Lead a test team. Notes: strategy and metrics.'), ('Super expert', 'Set method and teach teachers. Notes: review defect trends yearly.')])
+
+C['deep'] = dict(mods=[
+ ('Testing everything equally.', 'Payment gets 15 cases, colour theme 2, because failure there harms users most.', 'What are your top three risks?'),
+ ('Testing without knowing the intended behaviour.', 'You ask the owner and learn that discounts apply after tax.', 'Where did you check the requirement?'),
+ ('Cases that combine several ideas.', 'Split "sign up and pay" into two cases so a failure points to one cause.', 'Is each case one idea?'),
+ ('Testing on one phone.', 'A button hidden on a small screen is found on device two.', 'Which devices did you use?'),
+ ('Vague bug titles.', '"Doesn\'t work" becomes "Cart total ignores discount code on small screen".', 'Can a peer reproduce your bug?'),
+ ('Ignoring weak networks.', 'The app hangs after 10 seconds without a message; raise it.', 'What did you test offline?'),
+ ('Ranking by how annoying it feels.', 'A typo is annoying; a double charge is harmful. Rank by harm.', 'What is your top bug by harm?'),
+ ('Not retesting.', 'The fix to payment breaks receipts; retest found it.', 'What did retest find?')],
+ gloss=[('Test case', 'A written check with steps and expected result.'), ('Bug', 'A fault in behaviour.'), ('Severity', 'How harmful a bug is.'), ('Regression', 'A new fault after a change.'), ('Emulator', 'A software copy of a device.'), ('Edge case', 'A limit or unusual input.')],
+ cases=[('The crash on rotate', 'The app crashes when rotating on one device.', 'How do you report it?', 'Give device, version, steps, expected, actual, frequency and a recording.'),
+        ('The tight release', 'Two high bugs remain with launch tomorrow.', 'What do you advise?', 'Delay or release with the feature off, based on harm and numbers.')])

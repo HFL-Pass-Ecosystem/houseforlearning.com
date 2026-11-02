@@ -22,3 +22,16 @@ C = dict(id='GL-14', title='IT Service and Support', group='Digital and Technolo
  local='Check local consumer and data rules when you handle other people\'s devices and accounts.',
  evidence='Your evidence: ticket log of 20, five computer and five network fixes, tested guide, measures table and 90-day plan.',
  ladder=[('Basics of helping', 'Fix your own device problems. Notes: keep a fix diary.'), ('Awareness', 'Know cycle and tone. Notes: role-play calls.'), ('Foundation', 'This course. Notes: 20-ticket practice desk.'), ('Practitioner', 'Own a service area. Notes: measures and guides.'), ('Specialist', 'Advanced fixes and tools. Notes: remote tools with permission.'), ('Advanced', 'Lead a team and service promise. Notes: staffing and training.'), ('Super expert', 'Set method and teach teachers. Notes: review measures yearly.')])
+
+C['deep'] = dict(mods=[
+ ('Jumping to fixes before understanding the fault.', 'A "slow computer" is only a full disk; ten minutes of questions saves an hour of rebuilding.', 'What three questions start every call?'),
+ ('Using jargon with a worried user.', 'Say "the network is not reaching the printer" not "the print spooler is hung".', 'Rewrite one technical sentence in plain words.'),
+ ('A ticket that says only "it\'s broken".', 'Better: "Laptop A12, no Wi-Fi since 09:10, others fine, restarted once, priority medium".', 'Is any of your tickets missing a time?'),
+ ('Changing settings before backing up.', 'A reset wipes photos; a backup first saves them.', 'What do you back up before a fix?'),
+ ('Unlocking accounts without checking who asks.', 'Verify by a known contact before resetting a password.', 'How do you verify identity?'),
+ ('Writing a guide without testing it.', 'A tester gets stuck at step 3; the picture was wrong.', 'Who tested your guide?'),
+ ('Reporting only averages.', 'Average 4.3 hides one rating of 1; read the comment.', 'What did your lowest rating say?'),
+ ('Escalating without notes.', 'Escalation lists steps tried, error code and time, saving a repeat call.', 'What goes in your escalation note?')],
+ gloss=[('Ticket', 'A record of one request.'), ('Triage', 'Sorting by urgency.'), ('First-time fix', 'Solved at the first attempt.'), ('Escalation', 'Passing a case to a higher level.'), ('Root cause', 'The real reason for a fault.'), ('Service promise', 'The reply and fix times you commit to.')],
+ cases=[('The whole floor is offline', 'Twenty people lose the network at 10:00.', 'Priority and first steps?', 'High priority; check shared equipment first, tell users, escalate to the provider with notes.'),
+        ('The angry caller', 'A user shouts about a lost file.', 'How do you respond?', 'Stay calm, listen, repeat back, say what you will do and when, and check the recycle bin and backups.')])

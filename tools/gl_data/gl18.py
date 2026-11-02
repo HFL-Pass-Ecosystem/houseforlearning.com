@@ -22,3 +22,16 @@ C = dict(id='GL-18', title='Online Currency Exchange Concepts', group='Digital a
  local='Exchange licences, limits and tax declarations differ by country: always check the local regulator before any service idea.',
  evidence='Your evidence: conversions, true-cost table, five-route comparison, scam checklist, rules page, price-screen sketch and risk table.',
  ladder=[('Basics of money abroad', 'Convert amounts. Notes: use a calculator.'), ('Awareness', 'Know rates and fees. Notes: read a real rate card.'), ('Foundation', 'This course. Notes: true cost and design.'), ('Practitioner', 'Support a desk with supervision. Notes: practice only.'), ('Specialist', 'Treasury and risk. Notes: hedging concepts.'), ('Advanced', 'Lead compliance and operations. Notes: audits.'), ('Super expert', 'Set method and teach teachers. Notes: review rules yearly.')])
+
+C['deep'] = dict(mods=[
+ ('Confusing buy and sell rates.', 'Bank buys at 88 and sells at 92 against mid 90; know which side you are on.', 'Which rate applies to you?'),
+ ('Forgetting fixed fees on small amounts.', 'A 3.00 fee on 50.00 is 6% before spread.', 'What is the fee as a percent?'),
+ ('Comparing different days.', 'Rates moved 0.8% in an hour; compare within ten minutes.', 'When did you take each quote?'),
+ ('Trusting a too-good rate.', 'An offer 8% above market is a scam sign.', 'Which red flag did you find?'),
+ ('Ignoring identity rules.', 'A provider\'s ID request is a legal duty.', 'What limit applies where you live?'),
+ ('Showing the rate but not the total.', 'The screen shows total received first in large type.', 'What is the first number your user sees?'),
+ ('No rate-lock time.', 'The rate holds for 5 minutes, then refreshes.', 'How long is your hold?'),
+ ('Presenting concept as ready.', 'Summary says "concept only, no real money".', 'What did you state as limits?')],
+ gloss=[('Mid-market rate', 'Middle of buy and sell prices.'), ('Spread', 'Gap between mid and offered rate.'), ('True cost', 'All costs as a percent of the amount.'), ('Rate lock', 'A fixed rate for a short time.'), ('Regulator', 'The authority that licenses providers.'), ('Remittance', 'Money sent abroad.')],
+ cases=[('The cheap-looking transfer', 'A provider shows "0 fee".', 'How check?', 'Compare received amount with mid-market and compute true cost.'),
+        ('The pressure call', 'A caller says the rate expires in ten minutes and asks for a personal transfer.', 'What do you do?', 'Stop, verify the provider on the regulator\'s list, and report.')])
