@@ -8,7 +8,7 @@ Text comes from the existing pages and the HFL content pack; nothing is invented
 import re, pathlib
 
 SITE = pathlib.Path(__file__).resolve().parent.parent / "site"
-MAIL = "engage@hfl-pass.com"
+MAIL = ""  # no mailbox is shown on public pages; people use the contact form
 NT = '<span translate="no">House for Learning</span>'
 
 
@@ -246,7 +246,7 @@ def legal(kind):
             ("who", "Who sees it", "<p>Only the staff who handle your message, and service providers that host our website and email under contract. We share data with authorities only when the law requires it.</p>"),
             ("keep", "How long we keep it", "<p>As long as needed to answer you and for any learning that follows, and then as the law requires. After that we delete it.</p>"),
             ("rights", "Your rights", "<p>You can ask to see, correct, download or delete your data, or withdraw your consent, at any time. We follow applicable data protection laws, including India’s Digital Personal Data Protection Act 2023, the EU and UK GDPR, the UAE data protection law and Canada’s PIPEDA, and give the same protection to visitors from other countries.</p>"),
-            ("contact", "Contact", f'<p><a href="mailto:{MAIL}">{MAIL}</a></p>'),
+            ("contact", "Contact", '<p><a href="contact.html">Use the contact form</a></p>'),
         ]
         h = hero("privacy", "Privacy notice", f"What {NT} collects through this website, and why. Short, plain and in your favour.",
                  meta='<p class="meta">Last updated: on publishing</p>')
@@ -259,7 +259,7 @@ def legal(kind):
             ("fonts", "Typefaces", "<p>Our typefaces are served from this site itself. Nothing is fetched from an outside font service, so no one else learns that you visited.</p>"),
             ("optional", "If optional cookies are ever added", "<p>They stay off unless you accept, and this page will list them first.</p>"),
             ("choose", "Change your choice", '<p>Use <strong>Manage preferences</strong> in the notice at the foot of the page, or clear this site’s data in your browser to be asked again.</p>'),
-            ("more", "More", '<p>Read the <a href="privacy.html">privacy notice</a> for what we collect and your rights, or write to <a href="mailto:' + MAIL + '">' + MAIL + "</a>.</p>"),
+            ("more", "More", '<p>Read the <a href="privacy.html">privacy notice</a> for what we collect and your rights, or use the <a href="contact.html">contact form</a>.</p>'),
         ]
         h = hero("cookies", "Cookies and storage", "No tracking, no advertising. One small note in your browser remembers your choice.")
         pg = pager(("privacy.html", "Privacy"), ("terms.html", "Terms"))
@@ -287,7 +287,7 @@ def legal(kind):
              "<li><strong>Cancel in one click.</strong> You can stop renewal at any time from your account, with one click.</li>"
              "<li><strong>Deleting the app does not cancel.</strong> Removing an app or a bookmark does not stop a renewal. Please switch it off in your account.</li>"
              '<li><strong>Refunds.</strong> Full refund within 14 days, then unused months less 10%. No exit fee, ever. See <a href="payments.html">payments</a>.</li></ul>'),
-            ("contact", "Contact", f'<p><a href="mailto:{MAIL}">{MAIL}</a></p>'),
+            ("contact", "Contact", '<p><a href="contact.html">Use the contact form</a></p>'),
         ]
         h = hero("terms", "Terms of use", f"The plain rules for using this website and dealing with {NT}.",
                  meta='<p class="meta">Last updated: on publishing</p>')
@@ -308,7 +308,7 @@ def contact(old):
     main += ('<section class="sec sx-contact" id="message-form" aria-labelledby="message-form-h"><div class="wrap sx-contact-grid">'
              '<div class="sx-formcol"><p class="kicker">general message form</p><h2 id="message-form-h">Send us a message</h2>' + form + "</div>"
              '<aside class="sx-aside" aria-label="Other ways to reach us"><h3>Write to us</h3><dl class="details">'
-             f'<dt>Email</dt><dd><a href="mailto:{MAIL}">{MAIL}</a></dd>'
+             '<dt>Contact</dt><dd><a href="contact.html">Contact form</a></dd>'
              "<dt>Members</dt><dd>Members login opens with the members area. Until then, use this form.</dd>"
              "<dt>Loka and Vidya</dt><dd>Our AI guides are coming soon.</dd></dl>"
              '<h3>Before you write</h3><ul class="sx-plain">'
