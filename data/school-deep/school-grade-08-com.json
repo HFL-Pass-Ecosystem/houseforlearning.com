@@ -29,7 +29,7 @@
     "Use it: create tables and write simple queries. Save your work in a named file or folder.",
     "Test and fix: run it, find one fault, correct it, and note what you changed."
    ],
-   "example": "Model run for 'Databases and queries'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "example": "Solved: Table Students: ID, Name, Class. Query: SELECT Name FROM Students WHERE Class = '7B'; lists the names in 7B. Method: Model run for 'Databases and queries'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Create tables and write simple queries: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
   },
@@ -50,7 +50,7 @@
     "Use it: break a task into functions and use lists. Save your work in a named file or folder.",
     "Test and fix: run it, find one fault, correct it, and note what you changed."
    ],
-   "example": "Model run for 'Programming with functions and lists'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "example": "Solved: Python: for i in range(3): print('Hi') prints Hi three times. Blocks: when flag clicked, repeat 10: move 10 steps. For functions: def square(n): return n * n; square(4) gives 16. Method: Model run for 'Programming with functions and lists'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Break a task into functions and use lists: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
   },
@@ -71,7 +71,7 @@
     "Use it: style a multi-page site. Save your work in a named file or folder.",
     "Test and fix: run it, find one fault, correct it, and note what you changed."
    ],
-   "example": "Model run for 'Web pages with HTML and CSS'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "example": "Solved: <h1>My page</h1><p>Hello</p><a href='about.html'>About</a>. CSS: p { color: blue; } makes paragraphs blue. Method: Model run for 'Web pages with HTML and CSS'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Style a multi-page site: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
   },
@@ -92,7 +92,7 @@
     "Use it: use AI tools responsibly and check their answers. Save your work in a named file or folder.",
     "Test and fix: run it, find one fault, correct it, and note what you changed."
    ],
-   "example": "Model run for 'Safe use of artificial intelligence tools'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "example": "Solved: AI can be wrong. Check one fact from a second source. Never type personal details into an AI tool. Method: Model run for 'Safe use of artificial intelligence tools'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Use AI tools responsibly and check their answers: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
   }

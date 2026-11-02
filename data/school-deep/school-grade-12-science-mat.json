@@ -113,7 +113,7 @@
     "Use it: solve first-order differential equations. Start with one easy question, then one with a real-life story.",
     "Check it: use a second method, estimate, or work backwards to test your answer."
    ],
-   "example": "Model run for 'Differential equations'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "example": "Solved: dy/dx = 2x gives y = x squared + C. If y = 3 when x = 0, then C = 3. Method: Model run for 'Differential equations'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Solve first-order differential equations: at least 70 percent on an exam-style task, with the method shown."
   },
