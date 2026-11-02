@@ -59,7 +59,7 @@
     "Use it: read common short words and decode simple regular words, first with help, then alone.",
     "Check and fix: read your work aloud once more; fix one thing you hear is wrong."
    ],
-   "example": "Solved: Blend c-a-t = cat, d-o-g = dog, s-u-n = sun. A name starts with a capital letter: Sara. Method: Model run for 'Reading simple words'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
+   "example": "Solved: Blend c-a-t = cat, d-o-g = dog, s-u-n = sun. A name starts with a capital letter: [your name]. Method: Model run for 'Reading simple words'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Read common short words and decode simple regular words: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
    "steps": [
@@ -89,17 +89,17 @@
     "Use it: form letters correctly and write my first name and short labels, first with help, then alone.",
     "Check and fix: read your work aloud once more; fix one thing you hear is wrong."
    ],
-   "example": "Solved: Blend c-a-t = cat, d-o-g = dog, s-u-n = sun. A name starts with a capital letter: Sara. Method: Model run for 'Writing letters and my name'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
+   "example": "Solved: Blend c-a-t = cat, d-o-g = dog, s-u-n = sun. A name starts with a capital letter: [your name]. Method: Model run for 'Writing letters and my name'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Form letters correctly and write my first name and short labels: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
    "steps": [
     "Step 1, Form letters from the right starting point. The letter c starts at the top right, curves left round and stops. The letter a starts the same way and then draws a straight line down. Say the path aloud as you write.",
     "Step 2, Keep letters the right height. Tall letters (b, d, h, l) reach the top line; short letters (a, c, e, o) sit in the middle. Write \"bad\" and check: b and d are tall, a is short.",
-    "Step 3, Write your first name with one capital letter. Model: \"Nora\". The capital N is tall, the other letters are small. Reason: names always start with a capital letter.",
-    "Step 4, Fix an error. The child writes \"nora\" or \"NORA\". Correction: \"Nora\", capital first, lowercase after. Another error: letter b facing backwards. Fix: draw the straight line first, then the circle to its right (\"bat and ball\").",
+    "Step 3, Write your first name with one capital letter. Model: write [your name] with a capital first letter. The capital letter is tall, the other letters are small. Reason: names always start with a capital letter.",
+    "Step 4, Fix an error. The child writes the name all in small letters or all in capitals. Correction: capital first, lowercase after. Another error: letter b facing backwards. Fix: draw the straight line first, then the circle to its right (\"bat and ball\").",
     "Step 5, Leave spaces between words. Write \"my cat\" with a finger-width gap between the words. Reason: gaps make the words easy to read, and a finger space gives the correct size.",
     "Step 6, Write labels for pictures. A picture of a hat: label \"hat\". A picture of a dog: label \"dog\". Say the sounds as you write: h-a-t. Reason: saying the sounds helps you spell the word.",
-    "Step 7, Your turn. Write your name and a label for a drawing of a sun. Model answer: \"Nora\" at the top, and under the sun picture write \"sun\"."
+    "Step 7, Your turn. Write your name and a label for a drawing of a sun. Model answer: your name at the top, and under the sun picture write \"sun\"."
    ]
   },
   {
@@ -157,7 +157,7 @@
     "Step 3, Use \"a\" or \"an\" before a noun. \"a cat\", \"a school\", \"an egg\", \"an animal\". Reason: \"an\" goes before a vowel sound (a, e, i, o, u), and \"a\" goes before other sounds.",
     "Step 4, Make more than one with -s. One dog, two dogs. One book, three books. Reason: adding s changes a naming word from one to many. Say each pair aloud and hear the final s.",
     "Step 5, Fix an error. The child puts \"run\" in the animal group. Correction: \"run\" is something we do; it is not a thing or animal. Put \"dog\" there. Ask: \"Can I see it, touch it, or name it as a place or person?\"",
-    "Step 6, Sort a mixed list. Words: mum, park, lion, pen, Sara, farm. People: mum, Sara. Places: park, farm. Animals: lion. Things: pen. Notice \"Sara\" begins with a capital letter because it is a name.",
+    "Step 6, Sort a mixed list. Words: mum, park, lion, pen, Dubai, farm. People: mum. Places: park, farm, Dubai. Animals: lion. Things: pen. Notice \"Dubai\" begins with a capital letter because it is the name of a place.",
     "Step 7, Your turn. Sort: boy, tree, bus, bird, kitchen. Model answer: people: boy. Animals: bird. Places: kitchen. Things: tree, bus. Make a sentence: \"The bird is in the tree.\""
    ]
   },
@@ -242,10 +242,10 @@
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Take turns, listen to instructions and speak in a full sentence: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
    "steps": [
-    "Step 1, Take turns when talking. Rule: one person speaks, the others listen. Model: \"It is your turn, Sam.\" \"Thank you. I like red.\" Reason: waiting for your turn shows respect.",
+    "Step 1, Take turns when talking. Rule: one person speaks, the others listen. Model: \"It is your turn, my friend.\" \"Thank you. I like red.\" Reason: waiting for your turn shows respect.",
     "Step 2, Listen to a two-step instruction. Teacher: \"Pick up your pencil and write your name.\" Do two actions in order: first pick up, then write. Reason: listening carefully means doing every step.",
     "Step 3, Answer in a full sentence. Question: \"What is your favourite food?\" Answer: \"My favourite food is rice.\" Not just \"Rice.\" Reason: a full sentence has a naming word and an action or being word.",
-    "Step 4, Speak so people can hear. Use a loud, clear voice and look at the listener. Model: \"Good morning. My name is Ana.\" Reason: a clear voice and eye contact make you easier to understand.",
+    "Step 4, Speak so people can hear. Use a loud, clear voice and look at the listener. Model: \"Good morning. My name is [your name].\" Reason: a clear voice and eye contact make you easier to understand.",
     "Step 5, Fix an error. Question: \"Where do you live?\" Child: \"Near.\" Better: \"I live near the market.\" Another error: speaking while someone else is talking. Correction: wait, then say \"Excuse me.\"",
     "Step 6, Ask a question back. \"I like cats. Do you like cats?\" Answer: \"Yes, I do.\" Reason: a question keeps a conversation going.",
     "Step 7, Your turn. Answer in a full sentence: \"What do you do after school?\" Model answer: \"After school I play with my friends.\" Then ask a question: \"What do you do after school?\""

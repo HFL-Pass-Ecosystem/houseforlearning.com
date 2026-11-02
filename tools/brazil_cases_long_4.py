@@ -1,4 +1,4 @@
-LONG = {'3D Printing Business': ('Camila runs a small 3D printing studio from a rented room in Pinheiros, '
+LONG = {'3D Printing Business': ('the owner runs a small 3D printing studio from a rented room in Pinheiros, '
                           'Sao Paulo. Her usual price is R$ 95 per printed part. Filament, power, '
                           'machine wear and finishing cost about R$ 40 per part. Her fixed costs '
                           'are R$ 9.000 a month for rent, printer installments, software and a '
@@ -22,13 +22,13 @@ LONG = {'3D Printing Business': ('Camila runs a small 3D printing studio from a 
                           'and finishing time, and a record of quotes. Her reply to the customer '
                           'can wait a day: write the full cost per part in the print log, then '
                           'send the new quote.'),
- 'App Development': ('Thiago runs a small app studio in Sao Paulo with two developers. He sells '
+ 'App Development': ('the owner runs a small app studio in Sao Paulo with two developers. He sells '
                      'each release, a finished and tested version of a client app, for R$ 8.200. '
                      'Developer hours, test devices and store fees cost about R$ 4.200 per '
                      'release. His fixed costs are R$ 14.000 a month for the office, cloud tools '
                      'and a part-time project manager. He normally ships about 6 releases a month. '
                      'A physiotherapy clinic now asks for a booking app, and halfway through asked '
-                     'for three extras: online payment, reminders and a report screen. Thiago said '
+                     'for three extras: online payment, reminders and a report screen. The owner said '
                      'yes to each by message and did not write down any new price. The extras took '
                      'the equivalent of a full extra release, and the owner refuses to pay extra. '
                      'He has no dated approvals. He wants to resolve this and avoid it next time.',
@@ -42,11 +42,11 @@ LONG = {'3D Printing Business': ('Camila runs a small 3D printing studio from a 
                      'change request, priced at about R$ 4.200 plus margin. Then change the '
                      'method. Write a scope list with what is included and excluded. Require every '
                      'change to have hours, price and a written yes before work starts. Split '
-                     "payments into milestones and record hours daily. Thiago's reply to the "
+                     "payments into milestones and record hours daily. The owner's reply to the "
                      'clinic owner should wait until he has lined up the dated messages, the first '
                      'estimate and the R$ 4.200 extra, and a lawyer has glanced over the contract '
                      'template and the handling of patient data.'),
- 'Apparels and Accessories': ('Marlene runs a small clothing shop in Bom Retiro, in Sao Paulo. She '
+ 'Apparels and Accessories': ('the owner runs a small clothing shop in Bom Retiro, in Sao Paulo. She '
                               'sells dresses and tops at about R$ 130 a piece, and each piece '
                               'costs her about R$ 60 from the supplier, including labels and '
                               'freight. Her fixed costs are R$ 12.000 a month for rent, a '
@@ -54,7 +54,7 @@ LONG = {'3D Printing Business': ('Camila runs a small 3D printing studio from a 
                               'she sold about 500 pieces in a busy month, but she never wrote down '
                               'sales, purchases or leftover stock. Her cash box looks thinner than '
                               'expected, and she cannot say whether the month gave profit or loss. '
-                              'Her sister tells her to raise every price, yet Marlene fears losing '
+                              'Her sister tells her to raise every price, yet the owner fears losing '
                               'customers. She also does not know how many pieces she must sell '
                               'just to cover the fixed costs. She needs a clear method to find the '
                               'real result and choose prices with facts.',
@@ -71,7 +71,7 @@ LONG = {'3D Printing Business': ('Camila runs a small 3D printing studio from a 
                               'deadline is the last day of the month, when the notebook, the '
                               'receipts and a shelf count must produce one written profit figure; '
                               'tax and registration questions go to her accountant.'),
- 'Beauty': ('Daniela runs a small beauty studio in Mooca, Sao Paulo, with one room and one helper. '
+ 'Beauty': ('the owner runs a small beauty studio in Mooca, Sao Paulo, with one room and one helper. '
             'She charges R$ 150 per treatment, such as a facial or a nail and foot package, and '
             'each treatment uses about R$ 45 of products, gloves and laundry. Her fixed costs are '
             'R$ 7.000 a month for rent, her helper, energy and software. In March she did about '
@@ -90,7 +90,7 @@ LONG = {'3D Printing Business': ('Camila runs a small 3D printing studio from a 
             'Each Monday she can read the agenda against the 67-treatment line and see which empty '
             'slots came from no-shows and which from unsold hours, with the confirmations and the '
             'product list as backup.'),
- 'Cleaning Services': ('Rosana runs a home and office cleaning company in Itaquera, Sao Paulo, '
+ 'Cleaning Services': ('the owner runs a home and office cleaning company in Itaquera, Sao Paulo, '
                        'with two helpers. She charges R$ 160 per visit and says yes to every '
                        'request. For each visit she pays about R$ 85 in helper pay, transport and '
                        'cleaning products. Her fixed costs are R$ 6.000 a month for the van, '
@@ -113,7 +113,7 @@ LONG = {'3D Printing Business': ('Camila runs a small 3D printing studio from a 
                        'for five hours. Her next quote for a large apartment should show three '
                        'lines, hours, cost and her own pay, and the visit list, payment notes and '
                        'complaint log will show whether it held.'),
- 'Dental': ('Dr. Helena works in a small private dental office in Tatuape, Sao Paulo, with one '
+ 'Dental': ('the dentist works in a small private dental office in Tatuape, Sao Paulo, with one '
             'assistant. She charges about R$ 260 per visit on average, and materials, laboratory '
             'work and assistant time cost about R$ 110 per visit. Her fixed monthly costs are R$ '
             '30.000, covering rent, staff, energy, sterilization and software. She does about 300 '
@@ -133,7 +133,7 @@ LONG = {'3D Printing Business': ('Camila runs a small 3D printing studio from a 
             'replying to the plan, she should write its R$ 200 beside the R$ 110 cost of each '
             'visit and ask in writing how many patients it will really send; patient files stay '
             'private under the health-data rules.'),
- 'Electronics Sales & Repair Services': ('Ricardo runs a small phone repair counter in a market '
+ 'Electronics Sales & Repair Services': ('the owner runs a small phone repair counter in a market '
                                          'area of central Sao Paulo. His average repair is R$ 180, '
                                          'and parts, labor time and packaging cost him about R$ '
                                          '70. His fixed costs are R$ 8.000 a month for the '
@@ -165,7 +165,7 @@ LONG = {'3D Printing Business': ('Camila runs a small 3D printing studio from a 
                                          'arrival form, final test and supplier mark in place, his '
                                          'next monthly count shows whether returns fall from 8 '
                                          'percent toward a target of 5.'),
- 'Outsourcing Services': ('Fernanda runs a small company in Sao Paulo that provides outsourced '
+ 'Outsourcing Services': ('the owner runs a small company in Sao Paulo that provides outsourced '
                           'customer service and simple bookkeeping support to local shops. She '
                           'sells each monthly service contract for about R$ 16.000. Staff time, '
                           'tools and licences cost her about R$ 9.500 per contract. Her fixed '
@@ -224,7 +224,7 @@ LONG = {'3D Printing Business': ('Camila runs a small 3D printing studio from a 
                                             'drawing the thirteen weeks on one sheet, with R$ '
                                             '6.000 as week-one cash; his accountant can add the '
                                             'tax dates.'),
- 'Transportation and Courier Services': ('Anderson runs a small courier company in Sao Paulo with '
+ 'Transportation and Courier Services': ('the owner runs a small courier company in Sao Paulo with '
                                          'two vans and three drivers. He charges about R$ 380 per '
                                          'trip. Fuel, driver pay, tolls and tyre wear cost him '
                                          'about R$ 250 per trip. His fixed costs are R$ 20.000 a '
@@ -254,7 +254,7 @@ LONG = {'3D Printing Business': ('Camila runs a small 3D printing studio from a 
                                          'first test: write its price beside the R$ 130 line on '
                                          'the daily sheet, and ask an insurance broker how large '
                                          'the repair reserve should be.'),
- 'Warehousing and Storage Services': ('Edson runs a rented shed in the north zone of Sao Paulo and '
+ 'Warehousing and Storage Services': ('the owner runs a rented shed in the north zone of Sao Paulo and '
                                       'stores pallets for small online sellers. He charges R$ 55 '
                                       'per pallet a month. Handling labor, wrap and energy cost '
                                       'about R$ 22 per pallet. His fixed costs are R$ 28.000 a '
@@ -262,10 +262,10 @@ LONG = {'3D Printing Business': ('Camila runs a small 3D printing studio from a 
                                       'software. Right now he holds about 1.500 pallets. He '
                                       'thought the business was fine because money comes in every '
                                       'month, but his account is always low. One client also '
-                                      'claims that three pallets disappeared, and Edson cannot '
+                                      'claims that three pallets disappeared, and the owner cannot '
                                       'prove whether they ever arrived because he has no entry and '
                                       'exit record. Another seller asks for a discount in return '
-                                      'for bringing more goods next year. Edson wants to know his '
+                                      'for bringing more goods next year. The owner wants to know his '
                                       'break-even point and how to protect himself from stock '
                                       'disputes.',
                                       'First, find the margin: R$ 55 minus R$ 22 leaves R$ 33 per '

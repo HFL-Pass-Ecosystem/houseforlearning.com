@@ -556,7 +556,11 @@ def main():
     n = 0
     for (p, s), rs in B.plans.items():
         d = build_data(p, s, rs)
-        (OUT / (d['slug'][:-5] + '.json')).write_text(json.dumps(d, indent=1, ensure_ascii=False))
+        f = OUT / (d['slug'][:-5] + '.json')
+        # The saved data file is the master once it exists: it has been reviewed (for example, made-up personal names were replaced by roles),
+        # so it is never overwritten by a rebuild. Delete a data file to make it again from the sources above.
+        if f.exists(): d = json.loads(f.read_text())
+        else: f.write_text(json.dumps(d, indent=1, ensure_ascii=False))
         render(d); n += 1
         # same line break as tools/add_series_gate.py, so a rebuild leaves the pages unchanged
         pg = B.S / d['slug']; t = pg.read_text()

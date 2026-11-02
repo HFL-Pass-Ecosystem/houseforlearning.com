@@ -29,7 +29,7 @@
     "Use it: write and test functions and handle files. Save your work in a named file or folder.",
     "Test and fix: run it, find one fault, correct it, and note what you changed."
    ],
-   "example": "Solved: name = 'Sara'; total = 0; for n in [3, 5, 7]: total = total + n; print(name, total) prints Sara 15. Trace each line to check. Method: Model run for 'Python functions, files and exceptions'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "example": "Solved: name = 'Learner'; total = 0; for n in [3, 5, 7]: total = total + n; print(name, total) prints Learner 15. Trace each line to check. Method: Model run for 'Python functions, files and exceptions'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Write and test functions and handle files: at least 70 percent on an exam-style task, with the method shown.",
    "steps": [
@@ -119,17 +119,17 @@
     "Use it: connect Python with a database and query it. Save your work in a named file or folder.",
     "Test and fix: run it, find one fault, correct it, and note what you changed."
    ],
-   "example": "Solved: name = 'Sara'; total = 0; for n in [3, 5, 7]: total = total + n; print(name, total) prints Sara 15. Trace each line to check. Method: Model run for 'Databases and SQL with Python'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "example": "Solved: name = 'Learner'; total = 0; for n in [3, 5, 7]: total = total + n; print(name, total) prints Learner 15. Trace each line to check. Method: Model run for 'Databases and SQL with Python'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Connect Python with a database and query it: at least 70 percent on an exam-style task, with the method shown.",
    "steps": [
     "Step 1, Connect and create: import sqlite3, con = sqlite3.connect('school.db'), cur = con.cursor(), then cur.execute('CREATE TABLE IF NOT EXISTS marks (name TEXT, score INTEGER)'). If school.db does not exist, the file is created with an empty marks table.",
-    "Step 2, Insert safely: cur.executemany('INSERT INTO marks VALUES (?, ?)', [('Ali', 72), ('Bana', 91), ('Cyrus', 65), ('Dina', 88)]) then con.commit(). Without commit the rows are not saved. Running this twice would add 8 rows, so run it once.",
-    "Step 3, Query: cur.execute('SELECT name, score FROM marks WHERE score >= 80 ORDER BY score DESC') then print(cur.fetchall()). Output: [('Bana', 91), ('Dina', 88)]. fetchall returns a list of tuples, one per row.",
+    "Step 2, Insert safely: cur.executemany('INSERT INTO marks VALUES (?, ?)', [('Learner 1', 72), ('Learner 2', 91), ('Learner 3', 65), ('Learner 4', 88)]) then con.commit(). Without commit the rows are not saved. Running this twice would add 8 rows, so run it once.",
+    "Step 3, Query: cur.execute('SELECT name, score FROM marks WHERE score >= 80 ORDER BY score DESC') then print(cur.fetchall()). Output: [('Learner 2', 91), ('Learner 4', 88)]. fetchall returns a list of tuples, one per row.",
     "Step 4, Aggregate: cur.execute('SELECT AVG(score) FROM marks') then print(cur.fetchone()[0]). The output is 79.0 because 72 plus 91 plus 65 plus 88 is 316, and 316 divided by 4 is 79. fetchone returns one tuple.",
-    "Step 5, Parameters not string joining: user_name = 'Ali', cur.execute('SELECT score FROM marks WHERE name = ?', (user_name,)) returns [(72,)] with fetchall. The question mark keeps user input as data, which prevents SQL injection from input like x' OR '1'='1.",
+    "Step 5, Parameters not string joining: user_name = 'Learner 1', cur.execute('SELECT score FROM marks WHERE name = ?', (user_name,)) returns [(72,)] with fetchall. The question mark keeps user input as data, which prevents SQL injection from input like x' OR '1'='1.",
     "Step 6, Close: con.close() releases the file. Wrapping work in try and finally ensures the connection closes even after an error. Reopening school.db and running COUNT(*) should still return 4 rows.",
-    "Your turn: Create pets(name, age) with ('Mimi', 3), ('Rex', 7), ('Kiwi', 1) and print pets older than 2. Model answer: executemany inserts, commit, SELECT name FROM pets WHERE age > 2 ORDER BY age gives [('Mimi',), ('Rex',)]."
+    "Your turn: Create pets(name, age) with ('Cat', 3), ('Dog', 7), ('Bird', 1) and print pets older than 2. Model answer: executemany inserts, commit, SELECT name FROM pets WHERE age > 2 ORDER BY age gives [('Cat',), ('Dog',)]."
    ]
   }
  ],

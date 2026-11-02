@@ -29,11 +29,11 @@
     "Use it: write programs with variables, decisions and loops. Save your work in a named file or folder.",
     "Test and fix: run it, find one fault, correct it, and note what you changed."
    ],
-   "example": "Solved: name = 'Sara'; total = 0; for n in [3, 5, 7]: total = total + n; print(name, total) prints Sara 15. Trace each line to check. Method: Model run for 'Python programming basics'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "example": "Solved: name = 'Learner'; total = 0; for n in [3, 5, 7]: total = total + n; print(name, total) prints Learner 15. Trace each line to check. Method: Model run for 'Python programming basics'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Write programs with variables, decisions and loops: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
    "steps": [
-    "Step 1, Variables and decisions: Sami types marks = 72 then if marks >= 90: print('A') elif marks >= 70: print('B') else: print('C'), with each print line indented four spaces. Python checks conditions top to bottom, and 72 fails the first test but passes the second.",
+    "Step 1, Variables and decisions: A learner types marks = 72 then if marks >= 90: print('A') elif marks >= 70: print('B') else: print('C'), with each print line indented four spaces. Python checks conditions top to bottom, and 72 fails the first test but passes the second.",
     "Step 2, Run it: The output is B. If he changes marks to 95 the first condition is true and A prints; the elif and else parts are skipped. Only the first true branch runs, which is why the order of conditions matters.",
     "Step 3, A for loop: He types for i in range(1, 4): print(i * i). range(1, 4) gives 1, 2, 3 because the end value 4 is not included. The program prints 1, then 4, then 9, one per line.",
     "Step 4, A while loop: He types total = 0, n = 1, then while n <= 5: total = total + n and n = n + 1 on indented lines, then print(total). Adding 1 plus 2 plus 3 plus 4 plus 5 gives 15, so 15 is printed.",
@@ -63,9 +63,9 @@
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Decompose problems and design algorithms: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
    "steps": [
-    "Step 1, Decompose: Huda must plan a class bake sale. She breaks it into smaller parts: choose items, count how many of each, make a price-free sign, set up the stall, and clean up. Five small tasks are easier than one big one.",
+    "Step 1, Decompose: A learner must plan a class bake sale. The learner breaks it into smaller parts: choose items, count how many of each, make a price-free sign, set up the stall, and clean up. Five small tasks are easier than one big one.",
     "Step 2, Find patterns: Each baker follows the same pattern: bring item, tell the team, place on the table. She notices she can write this once and reuse it for all 8 bakers. Spotting repeated steps is pattern recognition.",
-    "Step 3, Abstract: Huda ignores detail like the colour of the tablecloth and keeps what matters: item name and number brought. A table with two columns, Item and Count, represents the real situation in a simple model.",
+    "Step 3, Abstract: The learner ignores detail like the colour of the tablecloth and keeps what matters: item name and number brought. A table with two columns, Item and Count, represents the real situation in a simple model.",
     "Step 4, Algorithm to find the largest count: List is 12, 7, 19, 4. Steps: set largest to the first number; look at each next number; if it is bigger than largest, replace largest; when no numbers remain, report largest.",
     "Step 5, Trace it: Start largest 12. Compare 7: not bigger. Compare 19: bigger, so largest becomes 19. Compare 4: not bigger. No numbers remain, so the answer is 19. Tracing by hand proves the algorithm before coding it.",
     "Step 6, Flowchart and test: She draws Start, set largest, a loop with a decision diamond 'Next number > largest?', Yes or No arrows, and End. She tests with 5, 5, 5; the result is 5, correct for equal numbers.",

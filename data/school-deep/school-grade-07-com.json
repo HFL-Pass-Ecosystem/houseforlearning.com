@@ -33,7 +33,7 @@
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Build a simple web page with text, images and links: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
    "steps": [
-    "Step 1, Set up files: Yara creates a folder called camel-site and opens a plain text editor. She saves a new file as index.html inside it. The .html ending tells the browser that this file is a web page.",
+    "Step 1, Set up files: The learner creates a folder called camel-site and opens a plain text editor. She saves a new file as index.html inside it. The .html ending tells the browser that this file is a web page.",
     "Step 2, Basic skeleton: She types <!DOCTYPE html>, then <html>, <head><title>My Camel Page</title></head>, then <body> and </body></html>. The title shows on the browser tab, and everything visible goes between the body tags.",
     "Step 3, Heading and paragraph: Inside body she types <h1>Camels</h1> and <p>Camels live in the desert and can go days without water.</p>. In the browser she sees a large bold heading and one line of normal text below it.",
     "Step 4, Image: She copies camel.jpg into the folder and types <img src=\"camel.jpg\" alt=\"A camel standing on sand\">. The browser shows the picture, and the alt text is read by screen readers and appears if the image fails to load.",
@@ -92,12 +92,12 @@
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Enter, sort and filter data in a table: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
    "steps": [
-    "Step 1, Build the table: Faisal sets up a table with fields Name, Class and Score and five records: Ali 7A 82, Bana 7B 91, Cyrus 7A 76, Dina 7B 88, Eman 7A 91. Each row is one record and each column is one field.",
-    "Step 2, Sort ascending: He sorts by Score from lowest to highest. The order becomes Cyrus 76, Ali 82, Dina 88, Bana 91, Eman 91. Bana and Eman tie at 91, so they keep their original relative order.",
-    "Step 3, Sort descending: He changes the sort to highest first. Now Bana 91, Eman 91, Dina 88, Ali 82, Cyrus 76. The top of the table shows the best scores, which is useful for a quick ranking.",
-    "Step 4, Filter by class: He filters Class equals 7A. Only 3 records show: Ali, Cyrus and Eman. The other 2 records, Bana and Dina, are hidden but not deleted. Clearing the filter shows all 5 again.",
-    "Step 5, Filter by number: He filters Score greater than or equal to 85. This shows Bana 91, Dina 88 and Eman 91, which is 3 records. Ali at 82 and Cyrus at 76 do not meet the rule.",
-    "Step 6, Combine filters: He applies Class equals 7A and Score at least 85 together. Only Eman remains, because Eman is the one record that passes both conditions. Two conditions together are stricter than either alone.",
+    "Step 1, Build the table: The learner sets up a table with fields Name, Class and Score and five records: Learner 1 7A 82, Learner 2 7B 91, Learner 3 7A 76, Learner 4 7B 88, Learner 5 7A 91. Each row is one record and each column is one field.",
+    "Step 2, Sort ascending: The learner sorts by Score from lowest to highest. The order becomes Learner 3 76, Learner 1 82, Learner 4 88, Learner 2 91, Learner 5 91. Learner 2 and Learner 5 tie at 91, so they keep their original relative order.",
+    "Step 3, Sort descending: The learner changes the sort to highest first. Now Learner 2 91, Learner 5 91, Learner 4 88, Learner 1 82, Learner 3 76. The top of the table shows the best scores, which is useful for a quick ranking.",
+    "Step 4, Filter by class: The learner filters Class equals 7A. Only 3 records show: Learner 1, Learner 3 and Learner 5. The other 2 records, Learner 2 and Learner 4, are hidden but not deleted. Clearing the filter shows all 5 again.",
+    "Step 5, Filter by number: The learner filters Score greater than or equal to 85. This shows Learner 2 91, Learner 4 88 and Learner 5 91, which is 3 records. Learner 1 at 82 and Learner 3 at 76 do not meet the rule.",
+    "Step 6, Combine filters: The learner applies Class equals 7A and Score at least 85 together. Only Learner 5 remains, because Learner 5 is the one record that passes both conditions. Two conditions together are stricter than either alone.",
     "Your turn: Table of books: Sand Tales Story 120, Stars Science 200, Boats Science 90, Moon Story 150 pages. Sort by pages up and filter Science. Model answer: Boats 90, Sand Tales 120, Moon 150, Stars 200; Science filter shows Stars and Boats, 2 records."
    ]
   },
@@ -122,7 +122,7 @@
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Describe a digital footprint and manage it: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
    "steps": [
-    "Step 1, Define: Noor's digital footprint is every trace she leaves online: posts, photos she shared, comments, accounts, and also what others post about her. Some traces she chose on purpose, like a profile picture, and some are collected from her activity.",
+    "Step 1, Define: The learner's digital footprint is every trace she leaves online: posts, photos she shared, comments, accounts, and also what others post about her. Some traces she chose on purpose, like a profile picture, and some are collected from her activity.",
     "Step 2, Audit: She searches for her own name and lists what she finds: 4 public photos, 1 school quiz result, 2 comments on a game forum, and 1 old account she forgot. That is 8 items in total.",
     "Step 3, Sort the items: She marks each item as keep, change or remove. Quiz result keep; 2 comments change, because one uses her full name; 4 photos, 1 shows her school uniform with the school name, so that goes to remove; the old account is removed.",
     "Step 4, Manage: She sets the photo album to friends only, deletes the uniform photo, deletes the old account and its posts, and edits the forum name from her real name to a nickname. Items visible to the public drop from 8 to 3, the quiz result and the 2 comments.",

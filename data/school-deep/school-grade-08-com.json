@@ -33,12 +33,12 @@
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Create tables and write simple queries: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
    "steps": [
-    "Step 1, Create a table: Hadi opens a database tool and types: CREATE TABLE students (id INTEGER PRIMARY KEY, name TEXT, grade INTEGER, score INTEGER); The tool replies that the table was created, with four columns and no rows yet.",
-    "Step 2, Insert data: He types INSERT INTO students VALUES (1,'Ali',8,72),(2,'Bana',8,91),(3,'Cyrus',8,65),(4,'Dina',8,88); The tool reports 4 rows added. Text values are in quotes, numbers are not.",
-    "Step 3, Select all: SELECT * FROM students; shows all 4 rows and 4 columns. The star means every column. Hadi checks the output matches what he typed, which verifies the insert.",
-    "Step 4, Filter and order: SELECT name, score FROM students WHERE score >= 80 ORDER BY score DESC; returns two rows: Bana 91 first, then Dina 88. Ali at 72 and Cyrus at 65 fail the WHERE test.",
+    "Step 1, Create a table: A learner opens a database tool and types: CREATE TABLE students (id INTEGER PRIMARY KEY, name TEXT, grade INTEGER, score INTEGER); The tool replies that the table was created, with four columns and no rows yet.",
+    "Step 2, Insert data: He types INSERT INTO students VALUES (1,'Learner 1',8,72),(2,'Learner 2',8,91),(3,'Learner 3',8,65),(4,'Learner 4',8,88); The tool reports 4 rows added. Text values are in quotes, numbers are not.",
+    "Step 3, Select all: SELECT * FROM students; shows all 4 rows and 4 columns. The star means every column. The learner checks the output matches what he typed, which verifies the insert.",
+    "Step 4, Filter and order: SELECT name, score FROM students WHERE score >= 80 ORDER BY score DESC; returns two rows: Learner 2 91 first, then Learner 4 88. Learner 1 at 72 and Learner 3 at 65 fail the WHERE test.",
     "Step 5, Aggregate: SELECT COUNT(*) FROM students; returns 4. SELECT AVG(score) FROM students; returns 79.0 because 72 plus 91 plus 65 plus 88 is 316, and 316 divided by 4 is 79.",
-    "Step 6, Update and check: UPDATE students SET score = 70 WHERE id = 3; changes Cyrus from 65 to 70. Running AVG again gives 80.25, since the total is now 321 and 321 divided by 4 is 80.25.",
+    "Step 6, Update and check: UPDATE students SET score = 70 WHERE id = 3; changes Learner 3 from 65 to 70. Running AVG again gives 80.25, since the total is now 321 and 321 divided by 4 is 80.25.",
     "Your turn: Table books(id, title, pages) with (1,'Sea',120),(2,'Sky',200),(3,'Sand',80). List books over 100 pages shortest first, and count them. Model answer: SELECT title, pages FROM books WHERE pages > 100 ORDER BY pages ASC; gives Sea 120, Sky 200; adding WHERE pages > 100 to COUNT(*) gives 2."
    ]
   },
@@ -92,7 +92,7 @@
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Style a multi-page site: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
    "steps": [
-    "Step 1, Plan the site: Aya builds a 2-page site for a class garden club: index.html (home) and about.html (members), plus one shared style.css. Keeping all three in one folder makes links simple.",
+    "Step 1, Plan the site: A learner builds a 2-page site for a class garden club: index.html (home) and about.html (members), plus one shared style.css. Keeping all three in one folder makes links simple.",
     "Step 2, Shared navigation: In both pages she puts <nav><a href=\"index.html\">Home</a> <a href=\"about.html\">About</a></nav> inside the body. Clicking Home or About now moves between the pages from either one.",
     "Step 3, Link the stylesheet: In the head of both pages she adds <link rel=\"stylesheet\" href=\"style.css\">. Without this line the CSS file would be ignored, so every page that wants the style needs it.",
     "Step 4, Write CSS: In style.css she writes body { font-family: Arial, sans-serif; background-color: #f4f4f4; } and h1 { color: #036; } and nav a { margin-right: 12px; color: #0a6; }. Each rule has a selector and property: value; pairs.",
@@ -122,11 +122,11 @@
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Use AI tools responsibly and check their answers: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
    "steps": [
-    "Step 1, The task: Zain asks an AI tool, 'What is 15 percent of 240?' The tool replies, '15 percent of 240 is 34.' Zain remembers that AI tools can sound confident but still be wrong, so he plans to check.",
+    "Step 1, The task: A learner asks an AI tool, 'What is 15 percent of 240?' The tool replies, '15 percent of 240 is 34.' The learner remembers that AI tools can sound confident but still be wrong, so he plans to check.",
     "Step 2, Check by calculation: He works it out himself. 10 percent of 240 is 24 and 5 percent is 12, so 15 percent is 24 plus 12, which is 36. The tool was wrong by 2. Only the calculation can prove the correct answer.",
-    "Step 3, Ask it to show reasoning: Zain writes, 'Show your steps.' The tool now says 240 times 0.15 equals 36. A second try with working gives the right result, but he does not trust it until he has also checked it by hand.",
-    "Step 4, Check a source claim: The tool says a book called 'The Desert Rain' by a named author proves a fact. Zain searches the school library catalogue and finds no such book. He treats this as an invented source and does not cite it.",
-    "Step 5, Protect privacy: Zain was about to paste his full name, home address and a class photo into the tool. He stops, because anything typed may be stored. He removes the personal details and asks only about the maths.",
+    "Step 3, Ask it to show reasoning: The learner writes, 'Show your steps.' The tool now says 240 times 0.15 equals 36. A second try with working gives the right result, but he does not trust it until he has also checked it by hand.",
+    "Step 4, Check a source claim: The tool says a book called 'The Desert Rain' by a named author proves a fact. The learner searches the school library catalogue and finds no such book. He treats this as an invented source and does not cite it.",
+    "Step 5, Protect privacy: The learner was about to paste his full name, home address and a class photo into the tool. He stops, because anything typed may be stored. He removes the personal details and asks only about the maths.",
     "Step 6, Use honestly: His homework is to write about deserts. He uses the AI for ideas, writes the answer in his own words, checks two facts in a trusted encyclopedia, and tells his teacher he used AI for ideas.",
     "Your turn: An AI says the capital of a country is a city you doubt. What do you do? Model answer: check a trusted atlas or government site, trust the match with two reliable sources, and note that the AI was unreliable."
    ]

@@ -29,7 +29,7 @@
     "Use it: write programs with decisions and loops. Save your work in a named file or folder.",
     "Test and fix: run it, find one fault, correct it, and note what you changed."
    ],
-   "example": "Solved: name = 'Sara'; total = 0; for n in [3, 5, 7]: total = total + n; print(name, total) prints Sara 15. Trace each line to check. Method: Model run for 'Python programming: control flow and strings'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "example": "Solved: name = 'Learner'; total = 0; for n in [3, 5, 7]: total = total + n; print(name, total) prints Learner 15. Trace each line to check. Method: Model run for 'Python programming: control flow and strings'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Write programs with decisions and loops: at least 70 percent on an exam-style task, with the method shown.",
    "steps": [
@@ -59,7 +59,7 @@
     "Use it: store and process data with Python structures. Save your work in a named file or folder.",
     "Test and fix: run it, find one fault, correct it, and note what you changed."
    ],
-   "example": "Solved: marks = [70, 85, 90]; marks.append(60). d = {'Sara': 85}; d['Sara'] gives 85. A tuple such as (1, 2) cannot change. Method: Model run for 'Lists, tuples and dictionaries'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "example": "Solved: marks = [70, 85, 90]; marks.append(60). d = {'Learner': 85}; d['Learner'] gives 85. A tuple such as (1, 2) cannot change. Method: Model run for 'Lists, tuples and dictionaries'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Store and process data with Python structures: at least 70 percent on an exam-style task, with the method shown.",
    "steps": [
@@ -129,7 +129,7 @@
     "Step 4, Aggregates: SELECT SUM(copies) FROM books; returns 11, as 3 plus 2 plus 5 plus 1 is 11. SELECT AVG(pages) FROM books; returns 137.5 because 120 plus 200 plus 80 plus 150 is 550, and 550 divided by 4 is 137.5.",
     "Step 5, Update: UPDATE books SET copies = 4 WHERE title = 'Star'; changes Star from 1 to 4. Running SUM(copies) again returns 14. Without the WHERE clause every row would change, which is a serious mistake.",
     "Step 6, Delete and verify: DELETE FROM books WHERE book_id = 3; removes Sand. COUNT(*) now returns 3 and the sum of copies is 9, since 14 minus 5 is 9. Always test the WHERE condition with SELECT before running a DELETE.",
-    "Your turn: Create table pets(id, name, age) with (1,'Mimi',3),(2,'Rex',7),(3,'Kiwi',1). List pets older than 2, oldest first. Model answer: SELECT name, age FROM pets WHERE age > 2 ORDER BY age DESC; gives Rex 7, Mimi 3."
+    "Your turn: Create table pets(id, name, age) with (1,'Cat',3),(2,'Dog',7),(3,'Bird',1). List pets older than 2, oldest first. Model answer: SELECT name, age FROM pets WHERE age > 2 ORDER BY age DESC; gives Dog 7, Cat 3."
    ]
   }
  ],
