@@ -618,5 +618,265 @@
    "Step 5, Check a net: a cross with 5 squares and 1 extra is a cube net only if no two squares overlap when folded. A row of 6 squares fails, since folding makes the end squares overlap.",
    "Step 6, Your turn: find F + V - E for a square pyramid and say how many lines of symmetry a square has. Answer: 5 faces, 5 vertices, 8 edges gives 5 + 5 - 8 = 2; a square has 4 lines of symmetry."
   ]
+ },
+ "G08-MAT-02": {
+  "steps": [
+   "Step 1, Solve 5x - 7 = 3x + 9. Move 3x to the left by subtracting it from both sides: 2x - 7 = 9. Add 7: 2x = 16. Divide by 2: x = 8.",
+   "Step 2, Check x = 8: left side 5 x 8 - 7 = 33, right side 3 x 8 + 9 = 33. Both sides equal 33, so x = 8 is correct. Always substitute into the original equation.",
+   "Step 3, With brackets: 3(x + 4) = 2x + 19. Expand the left side: 3x + 12 = 2x + 19. Subtract 2x: x + 12 = 19, so x = 7. Check: 3 x 11 = 33 and 2 x 7 + 19 = 33.",
+   "Step 4, With fractions: x/3 + 2 = x/2 - 1. Multiply every term by the LCM 6: 2x + 12 = 3x - 6. Then 12 + 6 = 3x - 2x, so x = 18. Check: 6 + 2 = 8 and 9 - 1 = 8.",
+   "Step 5, Word problem: a father is 3 times as old as his son. After 10 years he will be twice as old. With son's age x: 3x + 10 = 2(x + 10), so x = 10. Son 10, father 30. Check: 40 = 2 x 20.",
+   "Step 6, Your turn: solve 7x + 4 = 3x + 28. Answer: 4x = 24, so x = 6. Check: 7 x 6 + 4 = 46 and 3 x 6 + 28 = 46."
+  ]
+ },
+ "G08-MAT-03": {
+  "steps": [
+   "Step 1, Angle sum: a quadrilateral has angles 85, 95, 110 and x. The four angles add to 360, so x = 360 - 290 = 70 degrees. The sum 360 comes from splitting it into two triangles.",
+   "Step 2, Parallelogram angles: if angle A = 65, then opposite angle C = 65, and each adjacent angle is 180 - 65 = 115, so B = D = 115. Check: 65 + 115 + 65 + 115 = 360.",
+   "Step 3, Parallelogram diagonals: they bisect each other. If AC = 18 cm and BD = 14 cm, they meet at O with AO = 9 cm and BO = 7 cm. Opposite sides are equal and parallel.",
+   "Step 4, Rhombus: its diagonals are perpendicular and bisect each other. With diagonals 16 and 12, each half is 8 and 6, so a side is the root of 64 + 36 = 100, which is 10 cm. Perimeter 40 cm.",
+   "Step 5, Rectangle test: a rectangle's diagonals are equal. A parallelogram with sides 6 and 8 and diagonals both 10 is a rectangle, since 36 + 64 = 100 gives a right angle at the corner.",
+   "Step 6, Your turn: adjacent angles of a parallelogram are (2x + 10) and (3x - 20). Find x and the angles. Answer: 5x - 10 = 180, x = 38; the angles are 86 and 94."
+  ]
+ },
+ "G08-MAT-04": {
+  "steps": [
+   "Step 1, Pie chart angles: 600 students choose sports. Cricket 240, football 150, swimming 120, others 90. Cricket angle = 240 / 600 x 360 = 144 degrees. Football = 150 / 600 x 360 = 90.",
+   "Step 2, Finish and check: swimming = 120 / 600 x 360 = 72 degrees and others = 90 / 600 x 360 = 54. Sum 144 + 90 + 72 + 54 = 360. The angles must always add up to 360.",
+   "Step 3, Histogram: marks grouped as 0-10, 10-20, 20-30, 30-40 with frequencies 4, 9, 12, 5. Bars touch because the classes are continuous. The tallest bar, 20-30, holds 12 of the 30 students.",
+   "Step 4, Probability: a bag has 5 red, 3 blue and 2 green balls, 10 in all. P(blue) = 3/10. P(not red) = 5/10 = 1/2. Probabilities of all outcomes add to 1: 5/10 + 3/10 + 2/10 = 1.",
+   "Step 5, Die: P(prime) when rolling one die counts 2, 3, 5, so 3/6 = 1/2. P(a number greater than 4) counts 5 and 6, so 2/6 = 1/3. Probability is favourable outcomes divided by total outcomes.",
+   "Step 6, Your turn: of 40 students, 10 prefer tea; find its pie-chart angle, and P(even number) on a die. Answer: 10 / 40 x 360 = 90 degrees; P(even) = 3/6 = 1/2."
+  ]
+ },
+ "G08-MAT-07": {
+  "steps": [
+   "Step 1, Multiply two binomials: (2x + 3)(x - 4) = 2x(x) + 2x(-4) + 3(x) + 3(-4) = 2x^2 - 8x + 3x - 12 = 2x^2 - 5x - 12. Every term in one bracket meets every term in the other.",
+   "Step 2, Square of a sum: (3x + 2)^2 = (3x)^2 + 2(3x)(2) + 2^2 = 9x^2 + 12x + 4. Check with x = 1: 5^2 = 25 and 9 + 12 + 4 = 25.",
+   "Step 3, Square of a difference: (5y - 3)^2 = 25y^2 - 30y + 9. Check with y = 1: 2^2 = 4 and 25 - 30 + 9 = 4. The middle term takes a minus sign.",
+   "Step 4, Difference of squares: (a + b)(a - b) = a^2 - b^2. Use it for numbers: 102 x 98 = (100 + 2)(100 - 2) = 10,000 - 4 = 9,996. And 99^2 = (100 - 1)^2 = 10,000 - 200 + 1 = 9,801.",
+   "Step 5, Find a missing term: x^2 + 10x + 25 is (x + 5)^2 since 2 x x x 5 = 10x and 5^2 = 25. Check with x = 1: 36 = 6^2.",
+   "Step 6, Your turn: expand (x + 7)(x - 7) and (4m + 1)^2. Answer: x^2 - 49; and 16m^2 + 8m + 1."
+  ]
+ },
+ "G08-MAT-08": {
+  "steps": [
+   "Step 1, Cube of side 5 cm: total surface area = 6 x side^2 = 6 x 25 = 150 cm2 and volume = 5^3 = 125 cm3. Six faces, each a square of area 25.",
+   "Step 2, Cuboid 8 cm by 5 cm by 4 cm: surface area = 2(lb + bh + hl) = 2(40 + 20 + 32) = 2 x 92 = 184 cm2. Volume = 8 x 5 x 4 = 160 cm3.",
+   "Step 3, Cylinder with radius 7 cm and height 10 cm, using pi = 22/7: curved surface = 2 x 22/7 x 7 x 10 = 440 cm2. Total surface = 2 x 22/7 x 7 x (7 + 10) = 44 x 17 = 748 cm2.",
+   "Step 4, Cylinder volume: pi r^2 h = 22/7 x 7 x 7 x 10 = 22 x 7 x 10 = 1,540 cm3. Check: the total surface 748 = 440 + 2 x 154 (two circular ends), and 440 + 308 = 748.",
+   "Step 5, Word problem: a cylindrical tank of radius 7 m and height 10 m holds 1,540 cubic metres. Since 1 cubic metre = 1,000 litres, it holds 1,540,000 litres.",
+   "Step 6, Your turn: find the volume and curved surface of a cylinder with radius 3.5 cm and height 8 cm. Answer: volume 22/7 x 12.25 x 8 = 308 cm3; curved surface 2 x 22/7 x 3.5 x 8 = 176 cm2."
+  ]
+ },
+ "G08-MAT-11": {
+  "steps": [
+   "Step 1, Common factor: 6x^2 + 9x. The HCF of 6 and 9 is 3 and both terms have x, so the common factor is 3x. Divide: 6x^2 / 3x = 2x and 9x / 3x = 3. Result: 3x(2x + 3).",
+   "Step 2, Factorise x^2 + 7x + 12: find two numbers that multiply to 12 and add to 7, which are 3 and 4. So (x + 3)(x + 4). Check by expanding: x^2 + 4x + 3x + 12 = x^2 + 7x + 12.",
+   "Step 3, Identities: x^2 - 49 = (x - 7)(x + 7) as a difference of squares. And 4x^2 - 12x + 9 = (2x - 3)^2, since 2 x 2x x 3 = 12x and 3^2 = 9.",
+   "Step 4, Plot y = 2x + 1. Table: x = -1 gives y = -1, x = 0 gives 1, x = 1 gives 3, x = 2 gives 5. Mark (-1, -1), (0, 1), (1, 3), (2, 5) and join them in a straight line.",
+   "Step 5, Read the graph: the line cuts the y-axis at 1 (the intercept) and rises 2 for each 1 across (slope 2). Check that the point (3, 7) lies on the line: 2 x 3 + 1 = 7.",
+   "Step 6, Your turn: factorise x^2 - 5x + 6 and find y for y = x - 2 at x = 3 and x = 0. Answer: (x - 2)(x - 3); and y = 1 at x = 3, and y = -2 at x = 0."
+  ]
+ },
+ "G09-MAT-02": {
+  "steps": [
+   "Step 1, Add polynomials: (3x^2 + 2x - 5) + (x^2 - 4x + 7). Group like terms: (3 + 1)x^2 + (2 - 4)x + (-5 + 7) = 4x^2 - 2x + 2. Degree stays 2.",
+   "Step 2, Multiply: (x + 3)(x^2 - 2x + 1) = x^3 - 2x^2 + x + 3x^2 - 6x + 3 = x^3 + x^2 - 5x + 3. Check at x = 2: left 5 x 1 = 5, right 8 + 4 - 10 + 3 = 5.",
+   "Step 3, Remainder theorem: divide p(x) = x^3 + 2x^2 - x + 5 by (x - 2). The remainder is p(2) = 8 + 8 - 2 + 5 = 19. No long division needed, just substitute the root of the divisor.",
+   "Step 4, Factor theorem: for p(x) = x^3 - 6x^2 + 11x - 6, p(1) = 1 - 6 + 11 - 6 = 0, so (x - 1) is a factor. Dividing gives x^2 - 5x + 6, which factorises as (x - 2)(x - 3).",
+   "Step 5, Full factorisation: x^3 - 6x^2 + 11x - 6 = (x - 1)(x - 2)(x - 3). Check p(2) = 8 - 24 + 22 - 6 = 0 and p(3) = 27 - 54 + 33 - 6 = 0. All three roots work.",
+   "Step 6, Your turn: find the remainder of x^3 - 3x^2 + 4 divided by (x - 1), and test whether (x - 2) is a factor. Answer: p(1) = 1 - 3 + 4 = 2; p(2) = 8 - 12 + 4 = 0, so yes."
+  ]
+ },
+ "G09-MAT-03": {
+  "steps": [
+   "Step 1, Plot points: A(3, 2) is 3 right and 2 up, in quadrant I. B(-4, 3) is in quadrant II, C(-2, -5) in quadrant III and D(5, -1) in quadrant IV. The x-coordinate is always read first.",
+   "Step 2, Distances from axes: for B(-4, 3) the distance from the y-axis is 4 (the abscissa without the sign) and the distance from the x-axis is 3 (the ordinate). A point on the x-axis looks like (a, 0).",
+   "Step 3, Rectangle: plot (1, 1), (5, 1), (5, 4), (1, 4). The length is 5 - 1 = 4 and the width is 4 - 1 = 3. Area = 4 x 3 = 12 square units. Perimeter = 14 units.",
+   "Step 4, Reflection: reflecting (3, 2) in the x-axis flips the sign of y, giving (3, -2). Reflecting in the y-axis gives (-3, 2). The point and its image are the same distance from the axis.",
+   "Step 5, Find a missing coordinate: the points (2, k) and (2, 7) lie on a vertical line x = 2. If the point is 3 units below the x-axis, then k = -3. Check: its distance from the x-axis is |-3| = 3.",
+   "Step 6, Your turn: name the quadrant of (-6, -2) and say where (0, -4) lies. Answer: quadrant III, with abscissa -6 and ordinate -2; (0, -4) lies on the y-axis, 4 units below the origin."
+  ]
+ },
+ "G09-MAT-04": {
+  "steps": [
+   "Step 1, Find solutions of x + y = 7: choose x and compute y. x = 0 gives y = 7; x = 2 gives y = 5; x = 7 gives y = 0. So (0, 7), (2, 5) and (7, 0) are solutions. There are infinitely many.",
+   "Step 2, Graph it: plot (0, 7), (2, 5), (7, 0) and draw the line through them. Check that (3, 4) lies on the line, since 3 + 4 = 7. Every point on the line is a solution.",
+   "Step 3, Write an equation: three pens cost x each and two notebooks cost y each, total 40. So 3x + 2y = 40. If x = 6 then 2y = 22, so y = 11. Check: 18 + 22 = 40.",
+   "Step 4, Translate a sentence: y is 3 more than twice x gives y = 2x + 3. Table: x = 0, y = 3; x = 1, y = 5; x = 2, y = 7. The points lie on a straight line.",
+   "Step 5, Special lines: the x-axis is y = 0 and the y-axis is x = 0. The line x = 3 is vertical through (3, 0). Write y - 4 = 0 as y = 4, a horizontal line through (0, 4).",
+   "Step 6, Your turn: find three solutions of 2x + 3y = 12. Answer: x = 0 gives y = 4; y = 0 gives x = 6; x = 3 gives y = 2. Check: 6 + 6 = 12."
+  ]
+ },
+ "G09-MAT-05": {
+  "steps": [
+   "Step 1, Use an axiom: things equal to the same thing are equal to each other. If AB = PQ and PQ = XY then AB = XY. So three stick lengths 12 cm, 12 cm, 12 cm are all equal.",
+   "Step 2, Equals added to equals: if x - 3 = 5 then x - 3 + 3 = 5 + 3, so x = 8. Each step of solving an equation uses an axiom like this one, which is why we say it is a logical argument.",
+   "Step 3, The whole and the part: a rope of length 10 m is cut so that a piece is 4 m. The whole (10) is greater than the part (4). That is Euclid's idea that the whole is greater than the part.",
+   "Step 4, Postulate: a straight line can be drawn between any two points. Through A and B there is exactly one such line. A theorem follows: two different lines cannot meet in more than one point.",
+   "Step 5, Midpoint: if C is the midpoint of AB and AB = 10 cm, then AC = CB = 5 cm. And if AB = CD for points A, B, C, D in order on a line, then AC = BD, since AC = AB + BC and BD = BC + CD.",
+   "Step 6, Your turn: name the axiom used to say that if a = b and b = c then a = c, and find AC when AB = 12 and C is the midpoint. Answer: things equal to the same thing are equal; AC = 6."
+  ]
+ },
+ "G09-MAT-06": {
+  "steps": [
+   "Step 1, Prove vertically opposite angles: lines AB and CD meet at O. Angle AOC + angle COB = 180 (linear pair) and angle COB + angle BOD = 180. So angle AOC = angle BOD.",
+   "Step 2, Use it: if angle AOC = 50 then angle BOD = 50 and angle COB = 130. Check: 50 + 130 = 180. The other vertically opposite pair is also 130 and 130.",
+   "Step 3, Parallel lines: lines AB and CD are parallel and a transversal makes an angle of 75. The alternate interior angle is 75 and the co-interior angle is 180 - 75 = 105.",
+   "Step 4, Solve for x: AB is parallel to CD and the alternate angles are (2x + 20) and (3x - 10). Setting them equal, 2x + 20 = 3x - 10, so x = 30. Each angle is 80. Check: 2 x 30 + 20 = 80.",
+   "Step 5, Triangle angle sum and exterior angle: in triangle ABC, angle A = 55 and angle B = 65, so angle C = 60. The exterior angle at C is 180 - 60 = 120, which equals 55 + 65.",
+   "Step 6, Your turn: the angles of a triangle are in the ratio 2 : 3 : 4. Find them. Answer: 2 + 3 + 4 = 9 parts, 180 / 9 = 20, so the angles are 40, 60 and 80."
+  ]
+ },
+ "G09-MAT-07": {
+  "steps": [
+   "Step 1, Isosceles proof: in triangle ABC, AB = AC and AD bisects angle A, meeting BC at D. In triangles ABD and ACD, AB = AC, angle BAD = angle CAD, and AD is common. So they are congruent by SAS.",
+   "Step 2, Conclusion: by congruence, BD = DC and angle B = angle C. So angles opposite equal sides are equal. If angle B is 70, then angle C is 70 and angle A is 180 - 140 = 40.",
+   "Step 3, Larger angle opposite longer side: in triangle with angles B = 70, C = 50, A = 60, the largest angle is B, so side AC is the longest. The smallest angle C = 50 faces the shortest side AB.",
+   "Step 4, Triangle inequality: sides 3, 4 and 8 cannot form a triangle since 3 + 4 = 7 is less than 8. Sides 6, 8 and 10 can, since 6 + 8 = 14 is greater than 10.",
+   "Step 5, Range for the third side: two sides are 7 and 4. The third side x must satisfy 7 - 4 < x < 7 + 4, which means 3 < x < 11. So x = 8 works but x = 12 does not.",
+   "Step 6, Your turn: find the range of the third side if two sides are 5 and 9. Answer: 9 - 5 < x < 9 + 5, so 4 < x < 14."
+  ]
+ },
+ "G09-MAT-08": {
+  "steps": [
+   "Step 1, Mid-point theorem: in triangle ABC, D and E are midpoints of AB and AC. Then DE is parallel to BC and DE = BC / 2. If BC = 14 cm, then DE = 7 cm.",
+   "Step 2, Parallelogram: AB = 8 cm and AD = 5 cm. Opposite sides are equal, so CD = 8 and BC = 5. Perimeter = 2 x (8 + 5) = 26 cm. A diagonal splits it into two congruent triangles.",
+   "Step 3, Chord and centre: a perpendicular from the centre bisects the chord. A chord of 16 cm in a circle of radius 10 cm has half-chord 8, so the distance from the centre is the root of 100 - 64 = 36, which is 6 cm.",
+   "Step 4, Cyclic quadrilateral: opposite angles add to 180. If angle A = 100 then angle C = 80, and if angle B = 75 then angle D = 105. Check: 100 + 75 + 80 + 105 = 360.",
+   "Step 5, Equal chords: chords of equal length are equal distance from the centre. If two chords of a circle both measure 12 cm and one is 8 cm from the centre, the other is also 8 cm away.",
+   "Step 6, Your turn: a chord of 24 cm lies in a circle of radius 13 cm; find its distance from the centre. Answer: half-chord 12, so the distance is the root of 169 - 144 = 25, which is 5 cm."
+  ]
+ },
+ "G09-MAT-09": {
+  "steps": [
+   "Step 1, Heron's formula: a triangle has sides 13, 14 and 15. The semi-perimeter s = (13 + 14 + 15) / 2 = 21. Area = root of s(s - a)(s - b)(s - c) = root of 21 x 8 x 7 x 6 = root of 7,056 = 84.",
+   "Step 2, Check: take 14 as the base. Then the height is 2 x 84 / 14 = 12. The height 12 is shorter than the sides 13 and 15, as it must be. The area 1/2 x 14 x 12 = 84.",
+   "Step 3, Cone: radius 7 cm and slant height 25 cm. Height h = root of 625 - 49 = root of 576 = 24. Curved surface = pi r l = 22/7 x 7 x 25 = 550 cm2. Volume = 1/3 x 22/7 x 49 x 24 = 1,232 cm3.",
+   "Step 4, Sphere with radius 21 cm: surface = 4 pi r^2 = 4 x 22/7 x 441 = 5,544 cm2. Volume = 4/3 x 22/7 x 9,261 = 38,808 cm3. Compute 9,261 / 21 first to keep numbers small.",
+   "Step 5, Word problem: a cone-shaped tent has radius 7 m and slant height 25 m. The canvas needed is its curved surface, 550 m2. The cone's volume 1,232 m3 would be the air space.",
+   "Step 6, Your turn: find the area of a triangle with sides 5, 12, 13 and the surface area of a sphere with radius 3.5 cm. Answer: s = 15, area = root of 15 x 10 x 3 x 2 = 30; surface = 4 x 22/7 x 12.25 = 154 cm2."
+  ]
+ },
+ "G09-MAT-10": {
+  "steps": [
+   "Step 1, Frequency table: marks x = 2, 3, 4, 5 with frequencies f = 3, 5, 7, 5. Total N = 3 + 5 + 7 + 5 = 20. Make a column for f times x: 6, 15, 28, 25.",
+   "Step 2, Mean = sum of fx divided by N = (6 + 15 + 28 + 25) / 20 = 74 / 20 = 3.7. A mean can be a value that nobody scored. Check: 3.7 lies between 2 and 5.",
+   "Step 3, Mode is the value with the highest frequency: 4, since f = 7. Median: N = 20 is even, so use the 10th and 11th values. Cumulative frequencies are 3, 8, 15, 20.",
+   "Step 4, Both the 10th and 11th values fall in the cumulative group reaching 15, which is the mark 4. So median = (4 + 4) / 2 = 4. Mean 3.7, median 4, mode 4 are close, so data is balanced.",
+   "Step 5, Read a table: how many scored 4 or more? 7 + 5 = 12 out of 20, which is 60 percent. And how many scored less than 3? Only 3, which is 15 percent.",
+   "Step 6, Your turn: marks 1, 2, 3 with frequencies 4, 3, 3. Find mean, median and mode. Answer: N = 10, sum fx = 4 + 6 + 9 = 19, mean 1.9; median is the 5th and 6th values, both 2; mode 1."
+  ]
+ },
+ "G09-MAT-11": {
+  "steps": [
+   "Step 1, Experimental probability: a coin is tossed 50 times and shows heads 28 times. P(head) = 28 / 50 = 0.56. P(tail) = 22 / 50 = 0.44. Both add to 1.",
+   "Step 2, Die experiment: rolled 60 times, a 6 appears 12 times. P(6) = 12 / 60 = 1/5. In theory it should be 1/6, near 0.167, and 1/5 = 0.2. More trials bring the two closer.",
+   "Step 3, Quality check: 100 bulbs tested, 4 are defective. P(defective) = 4 / 100 = 0.04 and P(good) = 96 / 100 = 0.96. The probability of an event always lies from 0 to 1.",
+   "Step 4, Sure and impossible events: drawing a red ball from a bag that holds only red balls has probability 1. Drawing a blue ball from that bag has probability 0.",
+   "Step 5, Predict: if P(defective) = 0.04, then in 2,500 bulbs we expect about 0.04 x 2,500 = 100 defective bulbs. This is an estimate, not an exact count.",
+   "Step 6, Your turn: an event happens 20 times in 80 trials; find its probability and the probability that it does not happen. Answer: 20/80 = 1/4; and 60/80 = 3/4."
+  ]
+ },
+ "G10-MAT-02": {
+  "steps": [
+   "Step 1, Find zeroes of p(x) = x^2 - 5x + 6 by factorising: (x - 2)(x - 3) = 0, so the zeroes are 2 and 3. On a graph, the parabola cuts the x-axis at (2, 0) and (3, 0).",
+   "Step 2, Relate to coefficients: for ax^2 + bx + c the sum of zeroes is -b/a and the product is c/a. Here sum = 5 = -(-5)/1 and product = 6 = 6/1. Both agree with 2 + 3 and 2 x 3.",
+   "Step 3, Build a polynomial: zeroes with sum -3 and product -10. Use x^2 - (sum)x + product = x^2 + 3x - 10. Check by factorising: (x + 5)(x - 2), zeroes -5 and 2, sum -3, product -10.",
+   "Step 4, Find an unknown: x^2 - 6x + k has a zero at 2. Substitute: 4 - 12 + k = 0, so k = 8. Then the other zero is 6 - 2 = 4 by the sum rule, and 2 x 4 = 8 matches the product.",
+   "Step 5, Quadratic with a leading coefficient: for 2x^2 - 8x + 6 the sum of zeroes is 8/2 = 4 and the product is 6/2 = 3. The zeroes are 1 and 3, since 2 - 8 + 6 = 0 and 18 - 24 + 6 = 0.",
+   "Step 6, Your turn: find the sum and product of the zeroes of 3x^2 - 12x + 9, then the zeroes. Answer: sum 4, product 3; factorise 3(x - 1)(x - 3), so zeroes 1 and 3."
+  ]
+ },
+ "G10-MAT-03": {
+  "steps": [
+   "Step 1, Elimination: x + y = 10 and x - y = 4. Add the equations: 2x = 14, so x = 7. Then y = 10 - 7 = 3. Check in the second: 7 - 3 = 4. The solution is (7, 3).",
+   "Step 2, Substitution: 2x + 3y = 12 and y = x - 1. Replace y: 2x + 3(x - 1) = 12, so 5x - 3 = 12, 5x = 15, x = 3. Then y = 2. Check: 6 + 6 = 12 and 2 = 3 - 1.",
+   "Step 3, Word problem: 3 pens and 2 notebooks cost 36; 2 pens and 5 notebooks cost 57. So 3p + 2n = 36 and 2p + 5n = 57. Multiply the first by 5 and the second by 2: 15p + 10n = 180 and 4p + 10n = 114.",
+   "Step 4, Subtract: 11p = 66, so p = 6. Then 3 x 6 + 2n = 36 gives n = 9. Check in the second equation: 2 x 6 + 5 x 9 = 12 + 45 = 57. A pen costs 6 and a notebook 9.",
+   "Step 5, Graph meaning: x + y = 10 and x - y = 4 are two lines that meet at exactly one point, (7, 3). But x + y = 5 and 2x + 2y = 12 are parallel, so there is no solution.",
+   "Step 6, Your turn: solve 3x + y = 11 and x + y = 5. Answer: subtract to get 2x = 6, so x = 3 and y = 2. Check: 9 + 2 = 11."
+  ]
+ },
+ "G10-MAT-04": {
+  "steps": [
+   "Step 1, Factors: x^2 - 5x + 6 = 0. Find two numbers with product 6 and sum -5, namely -2 and -3. So (x - 2)(x - 3) = 0 and x = 2 or x = 3. Check x = 2: 4 - 10 + 6 = 0.",
+   "Step 2, Completing the square: x^2 + 6x - 7 = 0. Write x^2 + 6x + 9 = 16, so (x + 3)^2 = 16. Then x + 3 = 4 or -4, giving x = 1 or x = -7. Check x = 1: 1 + 6 - 7 = 0.",
+   "Step 3, Formula: 2x^2 + 3x - 5 = 0. The discriminant D = 3^2 - 4 x 2 x (-5) = 9 + 40 = 49. Then x = (-3 plus or minus 7) / 4, so x = 1 or x = -5/2. Check: 2 + 3 - 5 = 0.",
+   "Step 4, Nature of roots: D > 0 gives two real roots, D = 0 gives equal roots, D < 0 gives none. For x^2 - 4x + 4 = 0, D = 16 - 16 = 0, so a repeated root x = 2.",
+   "Step 5, Word problem: a rectangle's length is 3 more than its width and area is 40. So w(w + 3) = 40, w^2 + 3w - 40 = 0, (w + 8)(w - 5) = 0. Width 5, length 8. Reject w = -8.",
+   "Step 6, Your turn: solve x^2 - 7x + 12 = 0 and 3x^2 - x - 2 = 0. Answer: x = 3 or 4; and D = 1 + 24 = 25, x = (1 plus or minus 5) / 6, so x = 1 or -2/3."
+  ]
+ },
+ "G10-MAT-05": {
+  "steps": [
+   "Step 1, Identify: in the AP 3, 7, 11, 15, the first term a = 3 and the common difference d = 4. Check d with 7 - 3 = 4 and 15 - 11 = 4.",
+   "Step 2, nth term: a_n = a + (n - 1)d. For n = 10: 3 + 9 x 4 = 39. So the 10th term is 39. List check: 3, 7, 11, 15, 19, 23, 27, 31, 35, 39 is ten terms.",
+   "Step 3, Find n: which term equals 99? 3 + (n - 1) x 4 = 99, so (n - 1) x 4 = 96, n - 1 = 24, n = 25. The 25th term is 99.",
+   "Step 4, Sum: S_n = n/2 x (first + last). S_10 = 10/2 x (3 + 39) = 5 x 42 = 210. Alternative formula n/2 x (2a + (n - 1)d) = 5 x (6 + 36) = 210, which agrees.",
+   "Step 5, Word problem: a stack has 20 logs in the bottom row and one fewer in each row up, down to 1. That is the sum 1 + 2 + ... + 20 = 20/2 x (1 + 20) = 210 logs.",
+   "Step 6, Your turn: for the AP 5, 9, 13, ..., find the 12th term and the sum of 12 terms. Answer: a_12 = 5 + 11 x 4 = 49; S_12 = 6 x (5 + 49) = 324."
+  ]
+ },
+ "G10-MAT-06": {
+  "steps": [
+   "Step 1, Basic proportionality: in triangle ABC, DE is parallel to BC with D on AB and E on AC. If AD = 4, DB = 6 and AE = 6, then AD/DB = AE/EC gives 4/6 = 6/EC, so EC = 9.",
+   "Step 2, Check: the ratio AD : DB = 2 : 3 and AE : EC = 6 : 9 = 2 : 3. Equal ratios confirm DE is parallel to BC. Also AD/AB = 4/10 = AE/AC = 6/15 = 2/5.",
+   "Step 3, Area ratio: similar triangles with sides in ratio 2 : 3 have areas in ratio 4 : 9. If the smaller triangle has area 16 cm2, the larger has 16 x 9/4 = 36 cm2.",
+   "Step 4, Shadow problem: a 6 m pole casts a 4 m shadow while a tower casts a 20 m shadow at the same time. The triangles are similar, so height / 20 = 6 / 4, and the height is 30 m.",
+   "Step 5, Pythagoras: a right triangle with legs 5 and 12 has hypotenuse the root of 25 + 144 = 169, which is 13. The converse: 8, 15, 17 gives 64 + 225 = 289 = 17^2, so it is a right triangle.",
+   "Step 6, Your turn: DE is parallel to BC, AD = 3, DB = 5 and AE = 6. Find EC. And two similar triangles have sides in ratio 3 : 4, the small area being 27. Answer: EC = 10; the larger area is 27 x 16/9 = 48."
+  ]
+ },
+ "G10-MAT-07": {
+  "steps": [
+   "Step 1, Distance formula: between (2, 3) and (8, 11), distance = root of (8 - 2)^2 + (11 - 3)^2 = root of 36 + 64 = root of 100 = 10 units.",
+   "Step 2, Midpoint: for (-2, 4) and (6, -2) the midpoint is ((-2 + 6)/2, (4 - 2)/2) = (2, 1). Check: distance from (-2, 4) to (2, 1) is 5, and from (2, 1) to (6, -2) is 5.",
+   "Step 3, Section formula: find the point dividing (1, 2) and (7, 8) in the ratio 1 : 2. x = (1 x 7 + 2 x 1)/3 = 9/3 = 3 and y = (1 x 8 + 2 x 2)/3 = 12/3 = 4. The point is (3, 4).",
+   "Step 4, Check the section: distance from (1, 2) to (3, 4) is root 8, and from (3, 4) to (7, 8) is root 32 = 2 root 8. The ratio is 1 : 2, which agrees.",
+   "Step 5, Area of a triangle with vertices (1, 1), (5, 1), (3, 5): half of the absolute value of 1(1 - 5) + 5(5 - 1) + 3(1 - 1) = half of |-4 + 20 + 0| = 8 square units. Check: base 4, height 4, area 8.",
+   "Step 6, Your turn: find the distance between (-1, 2) and (4, 14) and the midpoint of (4, 6) and (10, 2). Answer: root of 25 + 144 = 13; midpoint (7, 4)."
+  ]
+ },
+ "G10-MAT-08": {
+  "steps": [
+   "Step 1, Ratios: in a right triangle, sin A = 3/5 means opposite = 3 and hypotenuse = 5. The adjacent side is the root of 25 - 9 = 4, so cos A = 4/5 and tan A = 3/4.",
+   "Step 2, Identity check: sin^2 A + cos^2 A = 9/25 + 16/25 = 1. Also tan A = sin A / cos A = (3/5) / (4/5) = 3/4. Both match, so the ratios are consistent.",
+   "Step 3, Standard values: sin 30 = 1/2, cos 60 = 1/2, tan 45 = 1. Evaluate sin 30 + cos 60 = 1/2 + 1/2 = 1. And tan 45 x sin 30 = 1/2.",
+   "Step 4, Height problem: from 20 m away the angle of elevation of a tower top is 30 degrees. Height = 20 x tan 30 = 20 / root 3 = about 11.55 m. Draw the right triangle first.",
+   "Step 5, Equal angle: at 45 degrees elevation and 30 m from the base, tan 45 = 1 gives height = 30 m. A ladder of 10 m at 60 degrees to the ground reaches 10 x sin 60 = 5 root 3 = about 8.66 m.",
+   "Step 6, Your turn: if tan theta = 5/12, find sin theta and cos theta. Answer: the hypotenuse is root of 25 + 144 = 13, so sin theta = 5/13 and cos theta = 12/13."
+  ]
+ },
+ "G10-MAT-09": {
+  "steps": [
+   "Step 1, Tangent and radius: a tangent is perpendicular to the radius at the point of contact. A circle with radius 5 cm has centre O, and P is 13 cm from O. Then PT^2 = 13^2 - 5^2 = 144.",
+   "Step 2, Length of tangent: PT = 12 cm. Check with the 5, 12, 13 triple. The two tangents from P have the same length 12, so the figure is symmetric about the line OP.",
+   "Step 3, Angle between tangents: if the angle at the centre between the two radii to the points of contact is 120 degrees, the angle between tangents is 180 - 120 = 60 degrees, since the quadrilateral has two right angles.",
+   "Step 4, Construct tangents from P, 7 cm from the centre of a circle of radius 3 cm: join OP, find its midpoint M, draw a circle centre M with radius MO. It cuts the given circle at T and T'. Join PT and PT'.",
+   "Step 5, Verify the construction: angle OTP is in a semicircle, so it is 90 degrees, and PT is a tangent. Length PT = root of 49 - 9 = root of 40, about 6.32 cm. Measure to check.",
+   "Step 6, Your turn: find the tangent length from a point 17 cm from the centre of a circle of radius 8 cm. Answer: PT = root of 289 - 64 = root of 225 = 15 cm."
+  ]
+ },
+ "G10-MAT-10": {
+  "steps": [
+   "Step 1, Sector: radius 14 cm and angle 90 degrees. Area = 90/360 x pi r^2 = 1/4 x 22/7 x 196 = 154 cm2. Arc length = 1/4 x 2 x 22/7 x 14 = 22 cm.",
+   "Step 2, Another sector: radius 21 cm, angle 60. Area = 1/6 x 22/7 x 441 = 231 cm2 and arc = 1/6 x 2 x 22/7 x 21 = 22 cm. Perimeter of the sector adds two radii, 22 + 42 = 64 cm.",
+   "Step 3, Combined solid: a capsule is a cylinder of radius 7 and height 10 with a hemisphere on one end. Cylinder volume = 22/7 x 49 x 10 = 1,540 cm3.",
+   "Step 4, Hemisphere volume = 2/3 x pi r^3 = 2/3 x 22/7 x 343 = 2,156/3 = about 718.67 cm3. Total volume = 1,540 + 718.67 = about 2,258.67 cm3.",
+   "Step 5, Surface of the capsule: curved cylinder 2 x 22/7 x 7 x 10 = 440, hemisphere 2 pi r^2 = 308, and the flat circular end 154. Total 440 + 308 + 154 = 902 cm2.",
+   "Step 6, Your turn: find the area of a sector with radius 7 cm and angle 120 degrees. Answer: 120/360 x 22/7 x 49 = 1/3 x 154 = about 51.33 cm2."
+  ]
+ },
+ "G10-MAT-11": {
+  "steps": [
+   "Step 1, Grouped mean: classes 0-10, 10-20, 20-30, 30-40, 40-50 have f = 5, 8, 12, 10, 5 and midpoints 5, 15, 25, 35, 45. Then fx = 25, 120, 300, 350, 225 and N = 40.",
+   "Step 2, Mean = sum fx / N = 1,020 / 40 = 25.5. Check: it lies in the middle class region 20-30, which is reasonable because the biggest frequency is there.",
+   "Step 3, Mode: the modal class is 20-30 with f1 = 12, f0 = 8, f2 = 10. Mode = 20 + (12 - 8) / (24 - 8 - 10) x 10 = 20 + 4/6 x 10 = 26.67.",
+   "Step 4, Median: N/2 = 20. Cumulative frequencies 5, 13, 25 show the median class is 20-30. Median = 20 + (20 - 13)/12 x 10 = 20 + 5.83 = 25.83. The three averages are close.",
+   "Step 5, Probability: a card is drawn from a pack of 52. P(king) = 4/52 = 1/13. P(a red face card) = 6/52 = 3/26. For a die, P(a prime) = 3/6 = 1/2, since 2, 3, 5 are prime.",
+   "Step 6, Your turn: find the probability of a multiple of 3 when a die is rolled, and of drawing a spade from 52 cards. Answer: 2/6 = 1/3; and 13/52 = 1/4."
+  ]
  }
 }

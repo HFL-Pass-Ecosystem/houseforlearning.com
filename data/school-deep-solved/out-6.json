@@ -570,5 +570,280 @@
    "Step 6, Plan and review: She makes a week table with 3 local actions (litter, kindness, school council idea) and 2 global ones (water, waste). That makes 5 actions, and she ticks those she completed, honestly reporting 4 out of 5.",
    "Your turn: List 2 local and 1 global duty you could do this week, with one measure. Model answer: keep the class tidy daily, greet a visitor politely, and turn the tap off while brushing; count days done out of 7."
   ]
+ },
+ "G11C-ACC-04": {
+  "steps": [
+   "Step 1, Straight-line depreciation: A machine costs 120,000, has an estimated scrap value of 20,000 and a life of 5 years. Annual depreciation is (120,000 minus 20,000) divided by 5, which is 20,000 each year, so the machine falls to 100,000 after year one.",
+   "Step 2, Journal entry: Depreciation A/c Dr 20,000, To Machinery A/c 20,000, being depreciation charged for the year. At year end Depreciation A/c Dr is closed by transfer: Profit and Loss A/c Dr 20,000, To Depreciation A/c 20,000.",
+   "Step 3, Reducing balance at 20 percent: Year 1 charge is 20 percent of 120,000, which is 24,000, leaving 96,000. Year 2 is 20 percent of 96,000, which is 19,200, leaving 76,800. Year 3 is 20 percent of 76,800, which is 15,360.",
+   "Step 4, Bad debts and provision: Debtors are 50,000. Bad debts of 2,000 are written off: Bad Debts A/c Dr 2,000, To Debtors A/c 2,000. Debtors become 48,000. A 5 percent provision is 48,000 times 5 percent, which is 2,400.",
+   "Step 5, Record the provision: Profit and Loss A/c Dr 2,400, To Provision for Doubtful Debts A/c 2,400. Balance sheet shows debtors 48,000 less provision 2,400, net 45,600. Next year, with debtors 60,000 and bad debts 1,000, the provision is 5 percent of 59,000, which is 2,950, so the extra charge is 550.",
+   "Step 6, Reserve: From a profit of 40,000, the owner sets aside 10,000. Entry: Profit and Loss Appropriation A/c Dr 10,000, To General Reserve A/c 10,000. This keeps 10,000 in the business without changing cash. The remaining 30,000 stays available.",
+   "Your turn: Equipment 80,000, scrap 8,000, life 6 years; debtors 40,000 with 1,000 bad debts and a 5 percent provision. Model answer: depreciation (80,000 minus 8,000) divided by 6 is 12,000; provision is 5 percent of 39,000, which is 1,950; Bad Debts Dr 1,000 To Debtors 1,000."
+  ]
+ },
+ "G11C-ACC-06": {
+  "steps": [
+   "Step 1, Set up accounts: In a spreadsheet Hana creates a sheet called Ledger with columns Account, Debit, Credit. She enters Cash 15,000 Dr, Debtors 8,000 Dr, Purchases 8,000 Dr, Rent 3,000 Dr, Capital 10,000 Cr, Sales 20,000 Cr, Creditors 4,000 Cr.",
+   "Step 2, Total with formulas: In B9 she types =SUM(B2:B5), which adds Cash, Debtors, Purchases and Rent to 34,000. In C9 she types =SUM(C6:C8) for Capital, Sales and Creditors, giving 34,000. The two totals agree, so the trial balance balances.",
+   "Step 3, Record a new transaction: A journal-style row records rent: Rent Dr 3,000, Cash Cr 3,000. In accounting software the click path is Transactions, New journal, choose date, select accounts, enter 3,000 on each side and Post. Rent rises, Cash falls.",
+   "Step 4, Check the effect: After posting rent, debits and credits still match because every journal has equal debit and credit lines. If she typed 3,000 against Rent but 300 against Cash, the software would refuse to post or show a difference of 2,700.",
+   "Step 5, Profit report: In a Profit and Loss sheet she types =C7-B4-B5 using Sales, Purchases and Rent cells, which is 20,000 minus 8,000 minus 3,000 and equals 9,000. The software report Reports, Profit and Loss would show the same 9,000.",
+   "Step 6, Protect and back up: She locks the formula cells, saves a copy named ledger-term1, and keeps an audit note of who entered what. Computers speed up arithmetic, but checking the trial balance remains the accountant's job.",
+   "Your turn: Cash 6,000 Dr, Sales 9,000 Cr, Capital 5,000 Cr, Purchases 4,000 Dr, Rent 2,000 Dr, Debtors 2,000 Dr. Does it balance? Model answer: Dr is 6,000 plus 4,000 plus 2,000 plus 2,000, which is 14,000; Cr is 9,000 plus 5,000, which is 14,000; yes, and profit is 9,000 minus 4,000 minus 2,000, or 3,000."
+  ]
+ },
+ "G11C-VAL-02": {
+  "steps": [
+   "Step 1, Self-assessment: Sana rates her interests from 1 to 5 using real activity evidence: Numbers 5 (she wins the maths quiz), Business ideas 4 (she runs a class stall), People 3, Writing 2. She does not pick a career yet.",
+   "Step 2, Course profiles: She gives weights for numbers, business, people and writing. Accounting and finance 0.5, 0.3, 0.1, 0.1. Marketing 0.1, 0.4, 0.3, 0.2. Human resources 0.1, 0.2, 0.5, 0.2. Each row adds to 1.",
+   "Step 3, Score Accounting and finance: 5 times 0.5 is 2.5; 4 times 0.3 is 1.2; 3 times 0.1 is 0.3; 2 times 0.1 is 0.2. Total 2.5 plus 1.2 plus 0.3 plus 0.2 is 4.2 out of 5.",
+   "Step 4, Score the others: Marketing is 0.5 plus 1.6 plus 0.9 plus 0.4, which is 3.4. Human resources is 0.5 plus 0.8 plus 1.5 plus 0.4, which is 3.2. Ranking: Accounting and finance 4.2, Marketing 3.4, Human resources 3.2.",
+   "Step 5, Test the match: Sana checks entry needs: strong maths and accounting marks, and admission requirements on university pages. She asks a local accountant about a typical day and spends a day shadowing at a small firm to see if the work suits her.",
+   "Step 6, Plan with options: Her pathway is a bachelor course in accounting or finance, with professional exams later, and a second option in marketing. She writes what to do this term: raise her maths mark, join the finance club, and revisit her scores next year.",
+   "Your turn: Ratings Numbers 3, Business 5, People 4, Writing 3 with Marketing weights 0.1, 0.4, 0.3, 0.2. Model answer: 0.3 plus 2.0 plus 1.2 plus 0.6 is 4.1 out of 5, a strong match worth exploring through a short work experience."
+  ]
+ },
+ "G11H-VAL-02": {
+  "steps": [
+   "Step 1, Self-assessment: Dalia rates her interests from 1 to 5: History 5 (reads historical novels), Writing 4 (school magazine), Debate 3, Numbers 2. She backs each rating with an activity she has actually done.",
+   "Step 2, Course profiles: Weights for history, writing, debate and numbers. History and archaeology 0.5, 0.3, 0.1, 0.1. Journalism 0.2, 0.5, 0.2, 0.1. Law 0.2, 0.3, 0.4, 0.1. Each row sums to 1.",
+   "Step 3, Score History and archaeology: 5 times 0.5 is 2.5; 4 times 0.3 is 1.2; 3 times 0.1 is 0.3; 2 times 0.1 is 0.2. Total is 2.5 plus 1.2 plus 0.3 plus 0.2, so 4.2 out of 5.",
+   "Step 4, Score the others: Journalism is 1.0 plus 2.0 plus 0.6 plus 0.2, which is 3.8. Law is 1.0 plus 1.2 plus 1.2 plus 0.2, which is 3.6. The three courses rank 4.2, 3.8 and 3.6, so all three deserve a look.",
+   "Step 5, Check the details: Dalia reads the subject needs for each course, notes that law needs strong reading and argument marks and journalism needs a writing portfolio, and talks to a museum curator and a school magazine editor.",
+   "Step 6, Plan: She lists a first choice, history, and a second choice, journalism, and plans to publish 3 articles this term as a portfolio. Scores are only a guide, and she will update them as her interests and results change.",
+   "Your turn: Ratings History 3, Writing 5, Debate 4, Numbers 2 with Journalism weights 0.2, 0.5, 0.2, 0.1. Model answer: 0.6 plus 2.5 plus 0.8 plus 0.2 is 4.1 out of 5, so journalism is a strong option to explore."
+  ]
+ },
+ "G11S-VAL-02": {
+  "steps": [
+   "Step 1, Self-assessment: Rami rates his interests from 1 to 5: Biology 5, Chemistry 4, Maths 3, Helping people 4. Evidence: top marks in biology, a first-aid course, and a volunteer day at a care home.",
+   "Step 2, Course profiles: Weights for biology, chemistry, maths, helping. Nursing 0.3, 0.1, 0.1, 0.5. Pharmacy 0.2, 0.5, 0.1, 0.2. Engineering 0.0, 0.2, 0.6, 0.2. Each row sums to 1.",
+   "Step 3, Score Nursing: 5 times 0.3 is 1.5; 4 times 0.1 is 0.4; 3 times 0.1 is 0.3; 4 times 0.5 is 2.0. Total is 1.5 plus 0.4 plus 0.3 plus 2.0, which is 4.2 out of 5.",
+   "Step 4, Score the others: Pharmacy is 1.0 plus 2.0 plus 0.3 plus 0.8, which is 4.1. Engineering is 0.0 plus 0.8 plus 1.8 plus 0.8, which is 3.4. Nursing 4.2 and Pharmacy 4.1 are very close, so the scores cannot separate them.",
+   "Step 5, Break the tie with evidence: Rami reads entry needs for each, shadows a nurse and a pharmacist for a day, and notes which tasks he enjoys: talking with patients or preparing and checking medicines. A near-tie means gather more evidence.",
+   "Step 6, Plan: He keeps both on a shortlist, checks the chemistry and biology marks needed, and plans a second work-shadow day. He writes that the pathway is a science degree followed by professional licensing, and checks the details with a counsellor.",
+   "Your turn: Ratings Biology 2, Chemistry 3, Maths 5, Helping 3 with Engineering weights 0.0, 0.2, 0.6, 0.2. Model answer: 0.0 plus 0.6 plus 3.0 plus 0.6 is 4.2 out of 5, a strong match worth exploring."
+  ]
+ },
+ "G11S-CSC-01": {
+  "steps": [
+   "Step 1, Strings and slicing: s = 'computer'. len(s) is 8. s[0:3] is 'com', s[-3:] is 'ter', and s.upper() is 'COMPUTER'. Indexes start at 0, and negative indexes count from the end, so s[-1] is 'r'.",
+   "Step 2, Count vowels with a loop: count = 0, then for ch in 'Education': if ch.lower() in 'aeiou': count = count + 1. The vowels E, u, a, i, o are found, so print(count) shows 5. lower() makes the capital E match.",
+   "Step 3, Palindrome test: word = 'Level', then if word.lower() == word.lower()[::-1]: print('palindrome') else: print('no'). Lower case gives 'level', reversed 'level', equal, so the output is palindrome. The slice [::-1] reverses a string.",
+   "Step 4, While loop with break: attempts = 0, while attempts < 3: pw = input('Password: '), if pw == 'open': print('Welcome') then break, and otherwise attempts = attempts + 1. Entering open on the first try prints Welcome and stops the loop.",
+   "Step 5, Nested loop pattern: for row in range(1, 4): print('*' * row). It prints one star, then two stars, then three stars on separate lines, because the string is repeated row times. Row goes 1, 2, 3.",
+   "Step 6, Trace and debug: A student wrote range(1, 3) and got only 2 rows. Because range stops before 3, the rows were 1 and 2. Changing to range(1, 4) gives the three rows. Off-by-one errors are common in loops, so always trace the first and last values.",
+   "Your turn: Count the vowels in 'Python' and test whether 'Noon' is a palindrome. Model answer: only o is a vowel, so the count is 1; 'noon' reversed is 'noon', so the output is palindrome."
+  ]
+ },
+ "G11S-CSC-02": {
+  "steps": [
+   "Step 1, Lists: marks = [72, 91, 65, 88]. marks.append(79) adds a fifth value. marks.sort() gives [65, 72, 79, 88, 91]. max(marks) is 91, and sum(marks) is 395 because 72 plus 91 plus 65 plus 88 plus 79 equals 395.",
+   "Step 2, Average and slicing: sum(marks) / len(marks) is 395 / 5, which is 79.0. marks[:2] gives [65, 72], the two lowest marks of the sorted list. marks[-1] gives 91. Lists can be changed in place.",
+   "Step 3, Tuples: point = (3, 4). x, y = point unpacks the values so x is 3 and y is 4. Trying point[0] = 5 raises TypeError because tuples cannot be changed. Use tuples for fixed values such as coordinates.",
+   "Step 4, Dictionaries: stock = {'apple': 5, 'pear': 3}. stock['plum'] = 4 adds a key. stock['apple'] is 5. for k, v in stock.items(): print(k, v) prints three lines. sum(stock.values()) is 12.",
+   "Step 5, Count words: words = 'to be or not to be'.split() gives six items. freq = {}, then for w in words: freq[w] = freq.get(w, 0) + 1. The result is {'to': 2, 'be': 2, 'or': 1, 'not': 1}. The total counts are 2 plus 2 plus 1 plus 1, which is 6.",
+   "Step 6, Choose the structure: Marks in order suit a list. A fixed coordinate suits a tuple. Names to marks suit a dictionary. Using a missing key, stock['kiwi'], raises KeyError, so use stock.get('kiwi', 0) to get 0 safely.",
+   "Your turn: nums = [4, 9, 2]. Sort descending and find the total. Model answer: nums.sort(reverse=True) gives [9, 4, 2]; sum(nums) is 15; nums[0] is 9, the largest."
+  ]
+ },
+ "G11S-CSC-03": {
+  "steps": [
+   "Step 1, Decimal to binary: Convert 45. The place values are 32, 16, 8, 4, 2, 1. 45 minus 32 leaves 13, no 16, 13 minus 8 leaves 5, 5 minus 4 leaves 1, no 2, and 1 minus 1 leaves 0. Bits are 101101.",
+   "Step 2, Binary to decimal: Convert 11010. The place values are 16, 8, 4, 2, 1, so 16 plus 8 plus 0 plus 2 plus 0 equals 26. Checking back: 26 minus 16 is 10, minus 8 is 2, minus 2 is 0, which matches the bit pattern.",
+   "Step 3, Hexadecimal: Convert 45 to hex. 45 divided by 16 is 2 remainder 13, and 13 is D. So 45 is 2D. Check: 2 times 16 plus 13 is 45. Hex uses 0 to 9 and A to F.",
+   "Step 4, Binary to hex: 10110110 splits into 1011 and 0110. 1011 is 11, which is B, and 0110 is 6. So the result is B6, which is 11 times 16 plus 6, or 182 in decimal. Groups of 4 bits make one hex digit.",
+   "Step 5, Binary addition: 1011 plus 0110. Right to left: 1 plus 0 is 1; 1 plus 1 is 10, write 0 carry 1; 0 plus 1 plus carry 1 is 10, write 0 carry 1; 1 plus 0 plus carry 1 is 10. Result 10001, which is 17, since 11 plus 6 is 17.",
+   "Step 6, Hardware link: The CPU runs instructions as binary, RAM holds data and programs in use and loses them at power off, and storage keeps files permanently. A file of 8 bits per character means 5 letters use 40 bits, which is 5 bytes.",
+   "Your turn: Convert 37 to binary and hex. Model answer: 37 is 32 plus 4 plus 1, so binary is 100101; in hex 37 divided by 16 is 2 remainder 5, so 25; check 2 times 16 plus 5 is 37."
+  ]
+ },
+ "G11S-CSC-04": {
+  "steps": [
+   "Step 1, Create a table: CREATE TABLE books (book_id INTEGER PRIMARY KEY, title VARCHAR(30), pages INTEGER, copies INTEGER); The database confirms that an empty table with four columns exists. The primary key makes each book_id unique.",
+   "Step 2, Insert rows: INSERT INTO books VALUES (1,'Sea',120,3),(2,'Sky',200,2),(3,'Sand',80,5),(4,'Star',150,1); reports 4 rows inserted. SELECT COUNT(*) FROM books; returns 4, which matches the number inserted.",
+   "Step 3, Query with condition: SELECT title, pages FROM books WHERE pages > 100 ORDER BY pages; returns Sea 120, Star 150, Sky 200. Sand with 80 pages is excluded, so 3 of 4 rows pass the condition.",
+   "Step 4, Aggregates: SELECT SUM(copies) FROM books; returns 11, as 3 plus 2 plus 5 plus 1 is 11. SELECT AVG(pages) FROM books; returns 137.5 because 120 plus 200 plus 80 plus 150 is 550, and 550 divided by 4 is 137.5.",
+   "Step 5, Update: UPDATE books SET copies = 4 WHERE title = 'Star'; changes Star from 1 to 4. Running SUM(copies) again returns 14. Without the WHERE clause every row would change, which is a serious mistake.",
+   "Step 6, Delete and verify: DELETE FROM books WHERE book_id = 3; removes Sand. COUNT(*) now returns 3 and the sum of copies is 9, since 14 minus 5 is 9. Always test the WHERE condition with SELECT before running a DELETE.",
+   "Your turn: Create table pets(id, name, age) with (1,'Mimi',3),(2,'Rex',7),(3,'Kiwi',1). List pets older than 2, oldest first. Model answer: SELECT name, age FROM pets WHERE age > 2 ORDER BY age DESC; gives Rex 7, Mimi 3."
+  ]
+ },
+ "G12C-ACC-01": {
+  "steps": [
+   "Step 1, The facts: A and B are partners with fixed capitals of 300,000 and 200,000 and a profit sharing ratio of 3:2. Net profit is 100,000. Terms: interest on capital 10 percent, salary to B of 12,000, interest on drawings 450 for A and 300 for B.",
+   "Step 2, Interest on capital: A gets 10 percent of 300,000, which is 30,000. B gets 10 percent of 200,000, which is 20,000. Total 50,000 is an appropriation of profit, not an expense, and is credited to the partners' current accounts because capitals are fixed.",
+   "Step 3, Appropriation account: Net profit 100,000, less interest on capital 50,000, less B's salary 12,000, plus interest on drawings 750 (450 plus 300), leaves 38,750 to share. That is 100,000 minus 50,000 minus 12,000 plus 750.",
+   "Step 4, Share the balance: A gets 3 over 5 of 38,750, which is 23,250. B gets 2 over 5, which is 15,500. Check: 23,250 plus 15,500 equals 38,750, so the whole balance is shared.",
+   "Step 5, A's current account: Opening 5,000 Cr, plus interest on capital 30,000 and profit share 23,250 gives 58,250 on the credit side. Debits are drawings 15,000 and interest on drawings 450, totalling 15,450. Closing balance is 42,800 Cr.",
+   "Step 6, B's current account and proof: Credits are 3,000 opening plus 20,000 plus salary 12,000 plus 15,500, which is 50,500. Debits are 10,000 plus 300, which is 10,300. Closing balance is 40,200 Cr. Proof: A 52,800 plus B 47,200 equals 100,000.",
+   "Your turn: C and D, fixed capitals 100,000 and 50,000, interest 8 percent, profit 30,000, ratio 2:1, no salary. Model answer: interest 8,000 and 4,000; balance 18,000 shared 12,000 and 6,000; C gets 20,000 and D 10,000, total 30,000."
+  ]
+ },
+ "G12C-ACC-02": {
+  "steps": [
+   "Step 1, Value goodwill: A firm has average profit of 60,000 and capital employed of 400,000 with a normal return of 10 percent. Normal profit is 40,000, so super profit is 60,000 minus 40,000, which is 20,000. At 3 years' purchase, goodwill is 60,000.",
+   "Step 2, Admission and new ratio: A and B share 3:2. C is admitted for a 1 over 5 share. The remaining 4 over 5 is shared 3:2, so A gets 12 over 25 and B gets 8 over 25, and C gets 5 over 25. The new ratio is 12:8:5.",
+   "Step 3, Sacrifice ratio: A sacrifices 15 over 25 minus 12 over 25, which is 3 over 25. B sacrifices 10 over 25 minus 8 over 25, which is 2 over 25. The sacrifice ratio is 3:2, and it decides who is compensated.",
+   "Step 4, Goodwill brought in: C's share of goodwill is 1 over 5 of 60,000, which is 12,000. It is shared 3:2, so A gets 7,200 and B gets 4,800. Journal: Cash A/c Dr 12,000, To A's Capital A/c 7,200, To B's Capital A/c 4,800.",
+   "Step 5, Retirement: X, Y and Z share 5:3:2 and Z retires, leaving X and Y to share 3:2. X gains 3 over 5 minus 1 over 2, which is 1 over 10; Y gains 2 over 5 minus 3 over 10, which is 1 over 10. The gaining ratio is 1:1.",
+   "Step 6, Goodwill on retirement and death: Z's share of 60,000 is 2 over 10, which is 12,000, paid equally by gainers. Journal: X's Capital Dr 6,000, Y's Capital Dr 6,000, To Z's Capital 12,000. If Z died after 3 months, profit to date is 80,000 times 3 over 12, which is 20,000, and Z's share of it is 4,000.",
+   "Your turn: Goodwill is 90,000, A and B share 2:1, D is admitted for 1 over 4. Find the new ratio and goodwill credits. Model answer: new ratio 2:1:1; sacrifice A 1 over 6, B 1 over 12 so 2:1; D pays 22,500, A gets 15,000 and B gets 7,500."
+  ]
+ },
+ "G12C-ACC-03": {
+  "steps": [
+   "Step 1, The issue: A company issues 10,000 shares of 10 each at a premium of 2. The amount per share is 3 on application, 5 on allotment, including the premium of 2, and 4 on the first and final call. Check 3 plus 5 plus 4 equals 12, which equals 10 plus 2.",
+   "Step 2, Application: 12,000 shares are applied for. Bank Dr 36,000, To Share Application A/c 36,000, since 12,000 times 3 is 36,000. The issue is oversubscribed by 2,000 shares, which are rejected.",
+   "Step 3, Adjust application: Share Application A/c Dr 36,000, To Share Capital A/c 30,000, To Bank A/c 6,000. Capital is 10,000 times 3, which is 30,000, and the refund is 2,000 times 3, which is 6,000. The application account closes at nil.",
+   "Step 4, Allotment: Share Allotment A/c Dr 50,000, To Share Capital A/c 30,000, To Securities Premium A/c 20,000, because 10,000 times 5 is 50,000 and 10,000 times 2 is 20,000. When received: Bank Dr 50,000, To Share Allotment A/c 50,000.",
+   "Step 5, Call: Share First and Final Call A/c Dr 40,000, To Share Capital A/c 40,000, then Bank Dr 40,000 To Call A/c 40,000. Share capital is 30,000 plus 30,000 plus 40,000, which is 100,000, equal to 10,000 times 10.",
+   "Step 6, Debentures: 1,000 debentures of 100 are issued at a 5 percent discount, redeemable at par. Bank Dr 95,000, Loss on Issue of Debentures Dr 5,000, To Debentures A/c 100,000. The 5,000 loss is written off over the life.",
+   "Your turn: 5,000 shares of 20 at premium 4; application 5, allotment 9 including premium, call 10. Model answer: total 24, application 25,000, allotment 45,000 (capital 25,000 and premium 20,000), call 50,000; capital is 100,000, premium 20,000, cash 120,000."
+  ]
+ },
+ "G12C-ACC-04": {
+  "steps": [
+   "Step 1, Profit and loss data: A company reports revenue from operations of 800,000 and other income of 20,000, so total revenue is 820,000. This is Part I of the statement, under the standard headings.",
+   "Step 2, Expenses: Cost of materials 400,000, employee benefit expense 150,000, finance costs 20,000, depreciation 50,000, other expenses 80,000. Total expenses are 700,000, since 400 plus 150 plus 20 plus 50 plus 80 is 700 (thousands).",
+   "Step 3, Profit: Profit before tax is 820,000 minus 700,000, which is 120,000. Tax at 30 percent is 36,000, so profit after tax is 120,000 minus 36,000, which is 84,000. This 84,000 moves to reserves and surplus in the balance sheet.",
+   "Step 4, Equity and liabilities: Share capital 300,000, reserves and surplus 144,000 (opening 60,000 plus 84,000), long-term borrowings 100,000, trade payables 60,000, short-term provisions for tax 36,000. Total is 640,000.",
+   "Step 5, Assets: Property, plant and equipment (net) 420,000, non-current investments 40,000, inventories 80,000, trade receivables 60,000, cash and cash equivalents 40,000. Total 420 plus 40 plus 80 plus 60 plus 40 is 640 (thousands).",
+   "Step 6, Check and note: Equity and liabilities of 640,000 equal assets of 640,000, so the balance sheet agrees. Current assets are 180,000 and current liabilities are 96,000, which will be used in ratio analysis. Notes to accounts give details of each line.",
+   "Your turn: Revenue 500,000, other income 10,000, expenses 430,000, tax 25 percent. Find profit after tax. Model answer: total revenue 510,000; profit before tax 80,000; tax 20,000; profit after tax 60,000."
+  ]
+ },
+ "G12C-ACC-05": {
+  "steps": [
+   "Step 1, The data: Current assets 180,000 including inventory 64,000; current liabilities 90,000; revenue 800,000; cost of goods sold 560,000; net profit 80,000; long-term debt 200,000; equity 400,000; opening inventory 48,000.",
+   "Step 2, Liquidity: Current ratio is 180,000 divided by 90,000, which is 2:1. Quick ratio is (180,000 minus 64,000) divided by 90,000, which is 116,000 over 90,000, about 1.29:1. Both show enough short-term resources to pay current liabilities.",
+   "Step 3, Solvency: Debt-equity ratio is 200,000 divided by 400,000, which is 0.5:1. Debt is half of equity, so the firm is not heavily borrowed. A lower ratio means lower financial risk, though industries differ.",
+   "Step 4, Profitability: Gross profit is 800,000 minus 560,000, which is 240,000, so the gross profit ratio is 240,000 over 800,000, which is 30 percent. The net profit ratio is 80,000 over 800,000, which is 10 percent.",
+   "Step 5, Activity: Average inventory is (48,000 plus 64,000) divided by 2, which is 56,000. Inventory turnover is 560,000 divided by 56,000, which is 10 times. Receivables turnover is 12 times if credit sales are 600,000 and average receivables 50,000, which is 30 days.",
+   "Step 6, Interpret: Compare each ratio with last year's and with similar firms. A 10 percent net margin, 2:1 current ratio and 10 times turnover suggest healthy performance, but one year is not a trend, so a comparison is needed before judging.",
+   "Your turn: Current assets 120,000, current liabilities 80,000, inventory 40,000. Find the current and quick ratios. Model answer: current ratio 120,000 over 80,000, which is 1.5:1; quick ratio 80,000 over 80,000, which is 1:1."
+  ]
+ },
+ "G12C-ACC-06": {
+  "steps": [
+   "Step 1, Starting figures: Net profit before tax is 100,000. Depreciation is 20,000 and interest expense is 8,000. Inventory rose by 15,000, receivables rose by 10,000 and payables rose by 12,000. Tax paid is 25,000. Opening cash is 18,000.",
+   "Step 2, Operating profit: Net profit 100,000 plus depreciation 20,000 plus interest 8,000 gives operating profit before working capital changes of 128,000. Non-cash and financing items are added back because they do not belong in operations.",
+   "Step 3, Working capital: Increase in inventory (15,000) and receivables (10,000) use cash, so subtract. Increase in payables 12,000 adds cash. Cash generated from operations is 128,000 minus 15,000 minus 10,000 plus 12,000, which is 115,000.",
+   "Step 4, Net operating cash: Subtract tax paid 25,000 to get 90,000. This is net cash from operating activities. Cash from operations is the most important line because it shows whether the core business produces cash.",
+   "Step 5, Investing and financing: Purchase of equipment (60,000) and sale of investment 10,000 give net investing of minus 50,000. Financing: shares issued 40,000, loan repaid (20,000), interest paid (8,000), dividend paid (10,000), net 2,000.",
+   "Step 6, Reconcile: Net increase is 90,000 minus 50,000 plus 2,000, which is 42,000. Closing cash is 18,000 plus 42,000, which is 60,000. This must agree with the balance sheet cash figure, which is the final check.",
+   "Your turn: Profit before tax 60,000, depreciation 10,000, receivables up 5,000, tax paid 12,000, equipment bought 30,000, shares issued 20,000, opening cash 7,000. Model answer: operating 53,000, investing minus 30,000, financing 20,000, net 43,000, closing 50,000."
+  ]
+ },
+ "G12C-VAL-01": {
+  "steps": [
+   "Step 1, The project: Mona leads a team of four running a school enterprise stall for two days. Roles: Mona is coordinator, Hamad is cashier, Layla handles stock, Rashid handles records. Clear roles and a shared goal come first.",
+   "Step 2, Ethical rules agreed: Record every sale, give correct change, tell customers the truth about the products, and report the real totals to the school. Four rules go on a sheet at the stall, signed by all four.",
+   "Step 3, Count the cash: The float was 100 and the cash box holds 740 at closing, so sales are 740 minus 100, which is 640. Rashid's sales record shows only 600, a gap of 40. The leader treats the gap as a problem to solve, not to hide.",
+   "Step 4, Investigate fairly: Mona checks without blaming. Layla remembers four items sold at 10 each when Rashid stepped away. 4 times 10 is 40, which closes the gap. The records are corrected to 640, so cash and records agree.",
+   "Step 5, Ethical review: Hamad suggests reporting only 600 and keeping 40 quietly for the team's snack. Mona asks, 'Is it honest, fair and safe to explain publicly?' The answer is no, and the team reports 640 in full.",
+   "Step 6, Review the leadership: Costs were 210, so profit is 640 minus 210, which is 430. The team scores itself out of 5: roles 5, honesty 5, records 3, communication 4. The fix is to record sales immediately. A leader owns the process and the ethics.",
+   "Your turn: Your team's records show 520 but the cash box shows 560 above float. What do you do? Model answer: do not hide the 40, search for unrecorded sales, correct the records, and report 560 honestly."
+  ]
+ },
+ "G12H-VAL-01": {
+  "steps": [
+   "Step 1, The project: Noura leads a team of four on an oral history project about the town's past, interviewing 12 elders. Roles: Noura coordinates, Sami interviews, Dalal transcribes, Faisal designs the booklet.",
+   "Step 2, Ethical rules: Get written consent, explain how the stories will be used, quote people accurately, let each person check their quote, and protect anyone who asks to stay anonymous. These five rules guide every interview.",
+   "Step 3, Audit consent: After the interviews, Dalal reports that 10 of the 12 gave written consent and 2 agreed only verbally. 10 divided by 12 is about 83 percent. The leader pauses publication until the other 2 are sorted out.",
+   "Step 4, Choices: Faisal says, 'Just use all 12, they agreed.' Noura weighs the options: use only the 10, or return and ask the other 2 to sign. Returning respects the elders and keeps all 12 stories, so she chooses it.",
+   "Step 5, Accuracy: One elder said, 'We lived near the old well', but the draft says 'We owned the old well.' Noura asks Dalal to fix the quote, because a small change could mislead readers about the family's history.",
+   "Step 6, Review the leadership: The 2 elders sign within a week, so all 12 stories are used. The team rates itself out of 5: consent 4, accuracy 5, teamwork 4. Noura notes that she should have asked for signatures at the interview.",
+   "Your turn: 9 of 15 survey participants gave written consent. What does the leader do before publishing? Model answer: use only those 9 responses or obtain consent from the other 6, and tell participants how the data will be used."
+  ]
+ },
+ "G12S-VAL-01": {
+  "steps": [
+   "Step 1, The project: Aref leads a team of four on a lab project measuring the time a trolley takes to roll down a ramp. Roles: Aref leads, Dina measures, Hamad records, Sara analyses the data.",
+   "Step 2, Ethical rules: Record every trial honestly, do not change data to match a hoped result, give credit for help and report all methods. These rules are agreed and written in the project log before the first trial.",
+   "Step 3, The data: Five timing trials in seconds are 12.1, 12.3, 11.9, 12.2 and 14.8. The sum is 63.3, so the mean is 63.3 divided by 5, which is 12.66 seconds. The last result is far from the others.",
+   "Step 4, The temptation: Hamad suggests deleting 14.8 without saying so, because it spoils the neat result. Aref asks, 'Would we be comfortable explaining this to our teacher?' The team decides the outlier cannot be silently removed.",
+   "Step 5, The honest treatment: They investigate and find that Dina started the timer late on trial 5. They report all five values and explain the probable error. Without that trial the mean is 48.5 divided by 4, which is 12.125 seconds.",
+   "Step 6, Review the leadership: The report shows both means, 12.66 and 12.125, and states the reason. The team rates itself out of 5: honesty 5, method 4, teamwork 4. Aref notes that one more trial would have helped. Honest reporting makes results trustworthy.",
+   "Your turn: Trials 8.0, 8.2, 8.1 and 9.9. What do you report? Model answer: all four values; mean with all is 34.2 divided by 4, which is 8.55; without 9.9 it is 8.1; explain the cause and repeat the trial."
+  ]
+ },
+ "G12C-VAL-02": {
+  "steps": [
+   "Step 1, Study plan: Reem has 12 weeks to prepare for exams. She plans 18 hours per week: Accountancy 6, Business Studies 5, Economics 4, English 3. Check 6 plus 5 plus 4 plus 3 is 18. Over 12 weeks that is 216 hours.",
+   "Step 2, Weekly schedule: Accountancy gets three 2-hour sessions on Mon, Wed and Fri; Business Studies gets 5 hours as five 1-hour sessions; she leaves Sunday for review and rest. She plans breaks every 50 minutes, so the plan can be followed.",
+   "Step 3, CV structure: Name and contact, one-line profile, education with predicted subjects, achievements, activities and skills. For example: 'Treasurer, school enterprise club: tracked 640 in sales and balanced the cash box to the unit.' It fits one page.",
+   "Step 4, Specific bullet points: She replaces vague claims with evidence. Instead of 'good with numbers' she writes 'Prepared monthly budget for a club of 20 members, saving 15 percent of the planned spending.' Each bullet shows action, size and result.",
+   "Step 5, Statement of purpose: Limit 250 words. Plan: 40 words opening, 80 on why accounting, 80 on evidence from the enterprise club and courses, 50 on future goals. That adds up to 250 words. She drafts and then cuts any sentence that does not add something.",
+   "Step 6, Review: She asks a teacher to check the CV for one page and facts, reads the statement aloud for clarity, and checks every claim is true. She tracks hours weekly, aiming for at least 16 of 18 planned hours to stay on plan.",
+   "Your turn: Plan 16 hours a week across 4 subjects for 10 weeks. Model answer: for example 5, 4, 4, 3 hours totalling 16; 16 times 10 is 160 hours; add one rest slot and a weekly review."
+  ]
+ },
+ "G12H-VAL-02": {
+  "steps": [
+   "Step 1, Study plan: Salma has 10 weeks before exams. She plans 16 hours per week: History 5, Political Science 4, English 4, Sociology 3. Check 5 plus 4 plus 4 plus 3 is 16. Over 10 weeks that is 160 hours.",
+   "Step 2, Weekly schedule: History gets two 2-hour sessions and one 1-hour recap; English gets four 1-hour sessions of reading and writing; Sundays are for a past-style question under timed conditions. Fixed times make the plan easier to follow.",
+   "Step 3, CV structure: Name and contact, one-line profile, education, achievements, activities and skills. Example bullet: 'Edited the school magazine, publishing 6 issues of 12 pages with a team of 5 writers.' It fits one page.",
+   "Step 4, Evidence not adjectives: Instead of 'good writer' she writes 'Wrote 3 articles on local history, read by about 200 students, and interviewed 2 community elders.' Each bullet shows action, size and result, and every number is true.",
+   "Step 5, Statement of purpose: Limit 250 words: 40 words opening with the question that drives her, 80 on why history, 80 on evidence from the magazine and oral history work, 50 on goals. 40 plus 80 plus 80 plus 50 is 250.",
+   "Step 6, Review: She asks two readers to check clarity and accuracy, makes sure no sentence is copied from a model, and tracks weekly hours, aiming for at least 14 of 16. Honesty and specific detail make an application convincing.",
+   "Your turn: Plan 18 hours a week for 4 subjects over 8 weeks. Model answer: for example 6, 4, 4, 4 hours totalling 18; 18 times 8 is 144 hours; include a weekly timed practice."
+  ]
+ },
+ "G12S-VAL-02": {
+  "steps": [
+   "Step 1, Study plan: Yousef has 8 weeks before exams and plans 20 hours per week: Mathematics 6, Physics 5, Chemistry 5, Computer Science 4. Check 6 plus 5 plus 5 plus 4 is 20. Over 8 weeks that is 160 hours.",
+   "Step 2, Weekly schedule: Maths gets three 2-hour sessions of problem practice; Physics and Chemistry each get one 2-hour session of theory and one 3-hour session of past-style questions; Computer Science gets four 1-hour coding sessions.",
+   "Step 3, CV structure: Name and contact, profile, education with subjects, projects, achievements and skills. Example bullet: 'Built a Python program to log lab readings, reducing a 30-minute table task to 5 minutes.' It fits one page.",
+   "Step 4, Evidence and honesty: He replaces 'good at coding' with the project bullet above and lists only skills he can demonstrate. Claiming a language he cannot use would be dishonest and could fail an interview.",
+   "Step 5, Statement of purpose: Limit 250 words: 40 words on the problem that interests him, 80 on why engineering, 80 on evidence from the lab project and courses, 50 on goals. 40 plus 80 plus 80 plus 50 is 250.",
+   "Step 6, Review: A teacher checks facts, he reads it aloud for flow, and he tracks hours weekly, aiming for 18 of 20. He keeps a second pathway in mind in case marks differ, because plans should be flexible.",
+   "Your turn: Plan 18 hours a week over 10 weeks for 3 science subjects. Model answer: for example 6 hours each; 18 times 10 is 180 hours; add timed past questions every second week and a rest day."
+  ]
+ },
+ "G12S-CSC-01": {
+  "steps": [
+   "Step 1, A function with exception handling: def safe_div(a, b): try: return a / b except ZeroDivisionError: return None. safe_div(10, 2) returns 5.0 and safe_div(5, 0) returns None instead of crashing the program.",
+   "Step 2, Test with assert: assert safe_div(10, 2) == 5.0 passes silently. assert safe_div(5, 0) is None also passes. If a test fails, Python raises AssertionError with the line number, so the bug is found quickly.",
+   "Step 3, Prepare a file: nums.txt contains three lines: 4, then x, then 6. The goal is to total the valid numbers. The expected answer is 4 plus 6, which is 10, and x should be skipped and reported.",
+   "Step 4, Read with handling: def read_total(path): total = 0, then with open(path) as f: for line in f: try: total += int(line) except ValueError: print('skip', line.strip()), then return total. Each int() is guarded by its own try block.",
+   "Step 5, Run and check: read_total('nums.txt') prints skip x and returns 10. Because int('4\\n') and int('6\\n') accept surrounding whitespace, they convert, but int('x') raises ValueError, which is caught, so the loop continues.",
+   "Step 6, Missing file: read_total('none.txt') raises FileNotFoundError because open fails. A caller wraps it in try and except FileNotFoundError and prints 'No such file'. Different errors need different handlers, and a bare except would hide mistakes.",
+   "Your turn: Write average(nums) that returns 0 for an empty list, and test it. Model answer: if not nums: return 0, otherwise return sum(nums) / len(nums); assert average([2, 4, 6]) == 4 and assert average([]) == 0."
+  ]
+ },
+ "G12S-CSC-02": {
+  "steps": [
+   "Step 1, Stack with a list: stack = [], then stack.append(5), stack.append(8), stack.append(2). The stack is [5, 8, 2] with 2 on top. print(stack.pop()) prints 2, then print(stack[-1]) prints 8, the new top, and print(stack) shows [5, 8].",
+   "Step 2, Last in, first out: The last item added, 2, was the first removed. Calling pop() on an empty list raises IndexError, so check if stack: before popping. A stack suits undo history and bracket checking.",
+   "Step 3, Queue with deque: from collections import deque, then q = deque(), q.append('A'), q.append('B'), q.append('C'). print(q.popleft()) prints A, and print(list(q)) shows ['B', 'C']. First in, first out, like a print queue.",
+   "Step 4, Why deque: Removing from the front of a plain list with pop(0) shifts every other item, while deque.popleft() is fast. Use a list for stacks and a deque for queues.",
+   "Step 5, Balanced brackets: def balanced(s): st = [], for ch in s: if ch == '(': st.append(ch) elif ch == ')': if not st: return False, then st.pop(); finally return len(st) == 0. balanced('((a+b)*c)') is True.",
+   "Step 6, Trace the failures: balanced('(a+b))') pushes once, pops once, then meets a second ) with an empty stack and returns False. balanced('(a+b') ends with one item left, so len(st) is 1 and it returns False.",
+   "Your turn: Reverse 'abc' with a stack. Model answer: push a, b, c to make [a, b, c]; pop gives c, then b, then a; joining them gives 'cba'. The last character comes out first."
+  ]
+ },
+ "G12S-CSC-03": {
+  "steps": [
+   "Step 1, The layers: A browser request passes through four layers. Application: HTTP data. Transport: TCP splits it into segments with port numbers, such as 443 for secure web traffic. Network: IP adds source and destination addresses. Link: frames move it over one hop.",
+   "Step 2, Follow one request: A student opens a page. The browser makes an HTTP request, TCP adds the destination port 443, IP adds the server's address, and the link layer sends the frame to the router. The server reverses the process, so the reply climbs the layers.",
+   "Step 3, Subnet: 192.168.1.0/24 has a prefix of 24 bits, leaving 8 host bits. 2 to the power 8 is 256 addresses, and two are reserved, the network and the broadcast, so 254 hosts can be used. The mask is 255.255.255.0.",
+   "Step 4, Split into smaller subnets: With /26 there are 6 host bits, so 2 to the power 6 gives 64 addresses and 62 usable hosts. The first subnet is 192.168.1.0 to 192.168.1.63, with hosts .1 to .62, and the next starts at .64. The mask is 255.255.255.192.",
+   "Step 5, Encryption example: A Caesar cipher with shift 3 changes CAT to FDW, because C moves to F, A to D and T to W. It is easy to break, so real systems use strong, well-tested algorithms. Never design your own for real data.",
+   "Step 6, Password strength: An 8-letter lowercase password has 26 to the power 8, about 208.8 billion possibilities. With 62 characters, upper and lower case letters and digits, 62 to the power 8 is about 218 trillion. Longer, varied passwords are much harder to guess.",
+   "Your turn: How many usable hosts in a /28 subnet? Model answer: 32 minus 28 is 4 host bits; 2 to the power 4 is 16 addresses; minus the network and broadcast addresses gives 14 usable hosts."
+  ]
+ },
+ "G12S-CSC-04": {
+  "steps": [
+   "Step 1, Connect and create: import sqlite3, con = sqlite3.connect('school.db'), cur = con.cursor(), then cur.execute('CREATE TABLE IF NOT EXISTS marks (name TEXT, score INTEGER)'). If school.db does not exist, the file is created with an empty marks table.",
+   "Step 2, Insert safely: cur.executemany('INSERT INTO marks VALUES (?, ?)', [('Ali', 72), ('Bana', 91), ('Cyrus', 65), ('Dina', 88)]) then con.commit(). Without commit the rows are not saved. Running this twice would add 8 rows, so run it once.",
+   "Step 3, Query: cur.execute('SELECT name, score FROM marks WHERE score >= 80 ORDER BY score DESC') then print(cur.fetchall()). Output: [('Bana', 91), ('Dina', 88)]. fetchall returns a list of tuples, one per row.",
+   "Step 4, Aggregate: cur.execute('SELECT AVG(score) FROM marks') then print(cur.fetchone()[0]). The output is 79.0 because 72 plus 91 plus 65 plus 88 is 316, and 316 divided by 4 is 79. fetchone returns one tuple.",
+   "Step 5, Parameters not string joining: user_name = 'Ali', cur.execute('SELECT score FROM marks WHERE name = ?', (user_name,)) returns [(72,)] with fetchall. The question mark keeps user input as data, which prevents SQL injection from input like x' OR '1'='1.",
+   "Step 6, Close: con.close() releases the file. Wrapping work in try and finally ensures the connection closes even after an error. Reopening school.db and running COUNT(*) should still return 4 rows.",
+   "Your turn: Create pets(name, age) with ('Mimi', 3), ('Rex', 7), ('Kiwi', 1) and print pets older than 2. Model answer: executemany inserts, commit, SELECT name FROM pets WHERE age > 2 ORDER BY age gives [('Mimi',), ('Rex',)]."
+  ]
  }
 }
