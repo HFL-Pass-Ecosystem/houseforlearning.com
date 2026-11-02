@@ -155,6 +155,8 @@ def _deep(sl, out, tq):
         k = max(range(8), key=lambda x: (sc[x], x == d)); used.append(k)
         res.append((out[k], quiz_for_module(quiz, k + 1)))
     return res
+def _art(t): return 'an' if t[:1] in 'AEIOU' else 'a'
+def _bz(t): return t if t.lower().endswith(('business', 'businesses')) else t + ' business'
 def build(L, idx, sl, topic, rows):
     L = copy.deepcopy(L)
     if L['k'] == 'ge': L['cur'] = 'GEL'  # Georgia pages show GEL only; the overview page covers both countries
