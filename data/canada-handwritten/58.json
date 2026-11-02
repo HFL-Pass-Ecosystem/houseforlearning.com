@@ -39,7 +39,7 @@
     "Check power, cables, Wi-Fi and storage space before deeper steps.",
     "Restart the device and the app; many faults clear.",
     "Change one thing at a time and write it down.",
-    "Check for pending updates and free disk space.",
+    "Check for pending updates and look at free disk space, because a nearly full disk makes a device slow.",
     "Decide when to stop and escalate to a person with more skill.",
     "Recreate the fault to confirm it, then confirm the fix afterwards.",
     "Write the cause and fix so the next person can repeat it."
@@ -55,7 +55,7 @@
     "Explain strong passwords, a password manager and two-step sign-in.",
     "Spot a phishing message: odd sender, urgent tone, strange link, request for a password.",
     "Never ask users to tell you their password; reset it with them instead.",
-    "Explain Canada's privacy rules: federal and provincial laws apply to personal information; Quebec has its own law.",
+    "Explain that federal and provincial privacy laws apply to personal information, and that some provinces, such as Quebec, have their own private-sector laws; check which law applies.",
     "Report a suspected data leak to the responsible person quickly; check the current rule on breach reporting with the privacy regulator.",
     "Explain why shared passwords are risky and how to give each person their own login.",
     "Apply the least-access rule: give each person only the access the job needs."
@@ -87,7 +87,7 @@
     "Choose a price model: per hour, per visit or a monthly plan.",
     "Count unpaid time: travel, tickets, learning and admin.",
     "Write terms: what is covered, response time, payment date and what is out of scope.",
-    "Ask a licensed adviser about insurance and sales tax.",
+    "Ask a licensed adviser about insurance and sales tax, and check the current rule before you invoice.",
     "Offer a plan for a small group with a fixed monthly fee.",
     "Calculate the margin percentage: margin divided by price.",
     "Explain why a fixed fee needs a limit on hours or a clear scope."
@@ -105,7 +105,7 @@
     "Respect accessibility needs such as larger text or a screen reader.",
     "Offer help in English, French or another language you can use well.",
     "Keep a log of all visits for later review.",
-    "Draw up a large-print version of a how-to page.",
+    "Make a large-print version of a how-to page for users who find small text hard to read.",
     "Slow down, leave pauses and let the user type and click on their own."
    ],
    "ex": "A senior wants video calls. You set up one icon on the screen, write a three-step card and practise twice with her until she can start the call alone. The log notes that she needed two tries, and the card now has a bigger picture.",
@@ -130,10 +130,10 @@
   }
  },
  "price": [
-  40,
+  250,
+  120,
   5,
-  60,
-  "hour"
+  "plan"
  ],
  "quiz": [
   [

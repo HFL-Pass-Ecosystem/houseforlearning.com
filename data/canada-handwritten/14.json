@@ -1,9 +1,9 @@
 {
  "price": [
-  1800,
-  600,
-  8,
-  "brand"
+  1.8,
+  0.6,
+  6700,
+  "item"
  ],
  "mods": {
   "1": {
@@ -24,9 +24,9 @@
   },
   "2": {
    "title": "Know consumer, textile and data rules",
-   "intro": "Fashion claims are regulated.",
+   "intro": "Fashion claims and labels are regulated, so check each rule before you launch.",
    "pts": [
-    "Textile labelling rules set fibre content and care labels, in English and French.",
+    "Federal textile labelling rules require fibre content to be shown in English and French; care labels are voluntary but any care claim must be true. Check the current rule for your product.",
     "Claims such as 'sustainable' or 'ethical' must be provable under competition law.",
     "Customer personal data is protected by privacy law and should not sit on a record that cannot be erased.",
     "Cross-border sales add customs, duty and product-safety rules.",
@@ -34,7 +34,7 @@
     "Ask a privacy adviser whether a tag linked to an owner needs consent and how a person can delete their data; collect only what is needed.",
     "List which claims go on the tag, the website and ads, and who approves each claim before it is published."
    ],
-   "ex": "Row: 'Claim recycled content | competition law and labelling rules | hold supplier certificate | before launch | certificate on file'. Second row: 'Label a jacket for sale in Canada | federal textile labelling rules | check fibre content and care label in both languages | before launch | label proof approved'. Check the provincial rule for any extra requirements.",
+   "ex": "Row: 'Claim recycled content | competition law and labelling rules | hold supplier certificate | before launch | certificate on file'. Second row: 'Label a jacket for sale in Canada | federal textile labelling rules | check the fibre content label in both languages and the care label if you add one | before launch | label proof approved'. Check the provincial rule for any extra requirements.",
    "act": "Build a rules table for one product line.",
    "std": "Rows sourced and dated."
   },
@@ -58,10 +58,10 @@
    "title": "Price the service and prove the gain",
    "intro": "Brands pay when the passport raises sales or cuts fakes.",
    "pts": [
-    "Fee per item for the passport plus platform fee.",
-    "Brand gains: price premium, resale royalty, fewer fakes, better returns data.",
-    "Cost: tags, hosting, support, onboarding.",
-    "Break-even by volume.",
+    "Charge the brand a fee per item tagged; the worked example below uses 1.80 per item.",
+    "List the brand's gains: price premium, resale royalty, fewer fakes and better returns data.",
+    "List your own costs: tags, hosting, support and onboarding.",
+    "Work out break-even volume as fixed cost divided by margin per item.",
     "Estimate the price premium the brand can charge, and the share of it the passport must earn to be worth the fee.",
     "Compare tag types (QR label, woven label, NFC chip) and check that your choice fits within the 0.60 variable cost.",
     "Quote a pilot package: setup fee, per-item fee and a review at day 90."
@@ -75,9 +75,9 @@
    "intro": "Trust depends on honest inputs.",
    "pts": [
     "Train suppliers to scan at each step.",
-    "Verify with audits and photos.",
-    "Fix errors with new entries.",
-    "Track completion.",
+    "Verify supplier entries with audits and photos.",
+    "Tell the supplier what went wrong as soon as an audit finds an error.",
+    "Track the share of items with a complete record each week.",
     "Give each supplier a one-page checklist: what to scan, when, and whom to call if the tag does not work.",
     "Audit a sample of 20 records a week against photos and paper documents, and record the error rate.",
     "Never delete an entry; add a correction with date, reason and who made it."
@@ -91,9 +91,9 @@
    "intro": "Start with a brand that has a fake or resale problem.",
    "pts": [
     "Offer a 90-day pilot on one line.",
-    "Show live scan demo.",
+    "Show a live scan demo to every brand you meet.",
     "Partner with repair shops and resale sites.",
-    "Track funnel.",
+    "Track the funnel from brands contacted to demos to pilots.",
     "Prepare a three-minute live demo: scan a tag, show the history, and add a repair entry.",
     "Meet a repair shop and a resale seller, agree how they will add entries, and record their needs.",
     "Write a one-page pilot offer: line, units, fee, dates, measures and exit terms."
@@ -109,7 +109,7 @@
     "Claim only what you can prove.",
     "Keep personal data off the shared record.",
     "Plan for tag failure and re-tagging.",
-    "Prepare for brand exit.",
+    "Prepare for the brand leaving the service.",
     "Keep a claims log: each public claim, its evidence, the date checked and the person who signed it off.",
     "Design the tag to carry only an item number, with all other data held in a record you can correct and delete.",
     "Write a brand-exit plan: how owners keep access to history if the brand stops using the service, and how data is exported."
@@ -122,10 +122,10 @@
    "title": "Pilot and scale",
    "intro": "Prove one line.",
    "pts": [
-    "90 days.",
+    "Run the pilot for 90 days on one product line.",
     "Measure scan rate, resale uplift, fakes found.",
     "Stop rule: under 50% tag survival means change tag.",
-    "Plan expansion.",
+    "Decide at day 90 whether to proceed, change the tag or stop.",
     "Record three numbers each week: scan rate, tags lost and fakes found, and plot each.",
     "Collect resale prices for tagged and untagged items of the same type and compare the averages.",
     "Plan a second line only after the review, and list what must be fixed first."
@@ -174,7 +174,7 @@
   ],
   [
    "Why use English and French labels?",
-   "Federal labelling rules for textiles generally need both languages; check the rule for your product."
+   "Fibre content labelling under federal textile rules generally needs both languages; check the rule for your product."
   ]
  ],
  "jobs": [

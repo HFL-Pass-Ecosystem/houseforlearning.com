@@ -25,7 +25,7 @@
     "Ask for text, logos and images before you start.",
     "Agree how many rounds of changes are included.",
     "Write the one action wanted at the top of the brief.",
-    "Collect text, logos and images before sketching and list what is missing.",
+    "Check what the client has supplied against your list and ask in writing for anything that is missing.",
     "Draft a schedule with dates for sketches, first design, feedback and final files."
    ],
    "ex": "A client wants a flyer. You ask: Who reads it? Where is it handed out? What size? What must it say? A schedule of sketches 1 day, design 2 days, feedback 1 day, changes 1 day and files 1 day is 1 + 2 + 1 + 1 + 1 = 6 days.",
@@ -52,7 +52,7 @@
    "title": "Follow Canadian rules for design work",
    "intro": "Design touches copyright, advertising and accessibility rules.",
    "pts": [
-    "Copyright protects images, fonts, music and logos. Use your own work or licensed work and keep the licence; check the current rule with the local authority.",
+    "Copyright protects images, fonts, music and logos. Use your own work or licensed work and keep the licence; check the federal copyright rules when unsure.",
     "Typefaces have licences. Check what your licence allows before using one in a client job.",
     "Advertising must be truthful. Some products, such as alcohol, food and health, have extra rules; check the current rule with the local authority.",
     "In Quebec, commercial signage and advertising generally need French; check the current rule with the local authority. Accessibility rules can apply to public documents.",
@@ -88,7 +88,7 @@
     "Name files clearly, for example client_project_version_date.",
     "Build a portfolio of five pieces with a brief and result beside each.",
     "Contact ten local businesses with a specific idea for each; keep a log.",
-    "Build a portfolio page with five pieces and a short caption for each.",
+    "Publish the portfolio as one page with a short caption under each piece, and ask clients for permission first.",
     "Open every final file on a second device to test it.",
     "Track messages, replies and jobs and work out your reply rate."
    ],
@@ -103,7 +103,7 @@
     "Write who owns the final design and what the client may do with it. Ask a legal adviser for large deals.",
     "Keep source files safe and backed up.",
     "Check text, names, prices, dates and links before delivery.",
-    "Test print files with a small proof when possible.",
+    "Send print files to the printer only after the client has approved the final proof.",
     "List where source files are backed up and how often.",
     "Draft a sign-off line: the client approves text and prices in writing before print.",
     "Check a small print proof for colour and trim."
@@ -132,7 +132,7 @@
  "price": [
   50,
   8,
-  30,
+  28,
   "hour"
  ],
  "quiz": [

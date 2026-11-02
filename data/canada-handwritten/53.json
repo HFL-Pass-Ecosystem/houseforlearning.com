@@ -124,7 +124,7 @@
     "Compare time per visit with the plan to find slow spots.",
     "Write a safety and quality check for every new team member."
    ],
-   "ex": "Stop rule: if margin per visit is under 60 after 60 days, change the price or scope. With a price of 95 and actual costs of 17, the margin is 78, above 60, so the pilot continues. Adding one client in the same building saves travel.",
+   "ex": "Stop rule: if margin per visit is under 60 after 60 days, change the price or scope. With a price of 95 and actual costs of 15, the margin is 80, above 60, so the pilot continues. Adding one client in the same building saves travel.",
    "act": "Run the pilot, write the review and present your plan to three people.",
    "std": "Task: run a cleaning pilot. Condition: 60 days, real clients. Standard: results compared with the stop rule and safety training confirmed."
   }

@@ -54,8 +54,8 @@
    "pts": [
     "Apply the comparison method: find three recent sales of similar homes and adjust for size and condition.",
     "Compute income value for a rental: yearly rent minus yearly costs.",
-    "Explain that an official appraisal comes from a qualified appraiser; check how your province regulates the title.",
-    "Explain why only licensed appraisers give an official value.",
+    "Describe how an agent's opinion of value differs from a written appraisal, and check how your province regulates appraisers.",
+    "Explain why a lender may ask for a written appraisal from a qualified appraiser instead of an agent's opinion.",
     "Calculate each adjustment with a stated reason, such as a bedroom or a newer roof.",
     "Compare income value with the asking price by dividing net yearly rent by the price.",
     "List repair items from an inspection report and estimate each from a local quote."
@@ -124,7 +124,7 @@
     "Identify the licence or training steps for your chosen path from the official source.",
     "Write a conflict-of-interest rule: tell all parties in writing when you or a relative has an interest."
    ],
-   "ex": "Stop rule: if after 90 days the practice cost is more than the fees earned, change the plan. Fees earned 3,600 minus costs 2,900 is 700, so the plan continues. Result and decision are written with the numbers.",
+   "ex": "Stop rule: if after 90 days the practice cost is more than the fees earned, change the plan. Nine pilot jobs at 2,420 each earn 9 x 2,420 = 21,780; costs of 9 x 1,750 = 15,750 leave 6,030, so the plan continues. Result and decision are written with the numbers. Teaching numbers only.",
    "act": "Run the pilot, write the review and present a 12-month plan to three people.",
    "std": "Task: run a supervised practice pilot. Condition: 90 days. Standard: results compared with the stop rule and licence needs checked with the regulator."
   }
@@ -150,11 +150,11 @@
   ],
   [
    "Who gives an official appraisal?",
-   "A qualified, regulated appraiser; check your province."
+   "A qualified, regulated appraiser; check how your province regulates the title."
   ],
   [
-   "Who gives an official appraisal?",
-   "A licensed appraiser."
+   "How do you find the income value of a rental?",
+   "Yearly rent minus yearly costs."
   ],
   [
    "Name two costs of owning a rental.",

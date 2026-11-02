@@ -1,8 +1,8 @@
 {
  "price": [
-  2400,
-  900,
-  6,
+  200,
+  75,
+  120,
   "supplier"
  ],
  "mods": {
@@ -58,10 +58,10 @@
    "title": "Price the service and prove the saving",
    "intro": "Customers pay when savings beat the fee.",
    "pts": [
-    "Price per supplier or per site per month, plus set-up.",
-    "Compute customer benefit: recall cost avoided, labour saved on paperwork, premium for proven origin.",
-    "Compute your cost: cloud hosting, support, scanners, onboarding time.",
-    "Break-even = fixed cost / monthly margin per supplier.",
+    "Set the price per supplier per month (or per site), plus a one-time set-up charge.",
+    "Compute the customer benefit: recall cost avoided, labour saved on paperwork and any premium for proven origin.",
+    "Compute your own cost: cloud hosting, support, scanners and onboarding time.",
+    "Break-even = fixed cost divided by monthly margin per supplier.",
     "Interview two buyers to learn what they pay now for paper filing, audits and recalls; use their numbers as the ceiling for your price.",
     "Offer a starter price for small suppliers and a higher price for large ones, and compute the margin of each tier separately.",
     "Run a worst case: if only half the planned suppliers sign, show how large the monthly loss is and how many months your cash lasts."
@@ -74,10 +74,10 @@
    "title": "Onboard suppliers and keep data clean",
    "intro": "The network only works if small suppliers can join easily.",
    "pts": [
-    "Offer phone-first capture and paper fallback with later entry.",
+    "Offer phone-first capture with a paper fallback and later entry.",
     "Train in under one hour; provide a one-page guide in English and French.",
     "Audit sample entries monthly against physical stock.",
-    "Set a rule for late or missing entries and follow it kindly.",
+    "Set a rule for late or missing entries and apply it kindly.",
     "Visit one supplier on site and watch a hand-over; note where gloves, wet hands, poor signal or language make capture hard.",
     "Make a help sheet of the five most common mistakes, with a photo of each and the fix.",
     "Track the time from hand-over to entry; set a target (for example within 4 hours) and report it weekly."
@@ -93,7 +93,7 @@
     "Approach restaurant groups, grocers, distributors and certifiers.",
     "Offer a 90-day pilot with a written success measure.",
     "Show a live trace demo in under two minutes.",
-    "Track funnel: demos, pilots, paid.",
+    "Track the funnel: demos, pilots and paid customers.",
     "Prepare a one-page pilot offer: length, price, success measure, who does what, and how either side can stop.",
     "Prepare answers to three common objections (cost, extra work, data ownership) with a figure or example for each.",
     "Ask each buyer who else signs off; map the decision makers in operations, quality and finance, and speak to all three."
@@ -107,8 +107,8 @@
    "intro": "A record is only as true as what goes in.",
    "pts": [
     "Garbage in, garbage out: a ledger proves an entry was made, not that it is true; add checks such as sensors and audits.",
-    "Secure keys and access; review accounts monthly.",
-    "Plan for supplier exit and data return.",
+    "Secure keys and access, and review accounts monthly.",
+    "Plan for supplier exit, including how data is returned.",
     "Avoid hype: do not claim the ledger makes food safe.",
     "List the ways an entry can be false (typo, fraud, scanner on the wrong case) and pick one check for each.",
     "Run a recovery drill: a supplier loses a phone with the app; show that access is removed in under one hour and past entries stay intact.",
@@ -122,10 +122,10 @@
    "title": "Pilot, review and scale",
    "intro": "Prove it on one chain.",
    "pts": [
-    "Pilot 90 days on one product with five suppliers.",
+    "Pilot for 90 days on one product with five suppliers.",
     "Measure trace time, scan rate and recall scope.",
-    "Stop rule: trace time over 1 minute after 60 days means redesign.",
-    "Plan the next chain.",
+    "Set a stop rule: if trace time is over 1 minute after 60 days, redesign.",
+    "Plan the next chain only after the review.",
     "Agree the success numbers with the buyer before the pilot starts and write them down: trace time, scan rate and recall scope.",
     "Hold a review every two weeks with all five suppliers; log each problem with an owner and a date.",
     "On day 90, write a one-page decision (scale, change or stop) with the figures behind it."

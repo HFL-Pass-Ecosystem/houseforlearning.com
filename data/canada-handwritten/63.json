@@ -108,7 +108,7 @@
     "Write a sick-child policy that says when a child must stay home.",
     "Track child-days filled each month and compare them with your plan."
    ],
-   "ex": "Monthly costs are 900 CAD and target income is 2,300 CAD, a total of 3,200. You can fill 160 child-days. Fee = 3,200 / 160 = 20 CAD per child per day. If only 140 days fill, income is 140 x 20 = 2,800, which is 400 short of the plan.",
+   "ex": "Monthly costs are 960 CAD and target income is 2,240 CAD, a total of 3,200. You can fill 160 child-days. Fee = 3,200 / 160 = 20 CAD per child per day. If only 140 days fill, income is 140 x 20 = 2,800, which is 400 short of the plan.",
    "act": "Build a cost sheet and a fee, and write a one-page family agreement.",
    "std": "Task: set a fee. Condition: a spreadsheet. Standard: costs are listed, the fee sum is correct and the agreement is clear."
   },
