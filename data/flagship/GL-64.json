@@ -86,7 +86,7 @@
     "Aerators, low-flow shower heads, efficient flushes and full loads.",
     "Behaviour: shorter showers, tap off while brushing, reuse of rinse water.",
     "Signs and feedback help.",
-    "Rank measures by litres saved per rupee spent."
+    "Rank measures by litres saved per INR spent."
    ],
    "A low-flow shower head saves 6 litres per minute; an aerator cuts tap flow by 25 per cent.",
    "Choose five measures and estimate savings.",
@@ -156,43 +156,43 @@
  "quiz": [
   [
    "Litres per person per day?",
-   "Total use / people / days. (Covered in module 2: Water audit. To pass that module: Table is complete and totals match the meter.)"
+   "Total use / people / days."
   ],
   [
    "Night meter test?",
-   "No use but meter moves means a leak. (Covered in module 3: Finding and fixing leaks. To pass that module: Result recorded with fix and saving.)"
+   "No use but meter moves means a leak."
   ],
   [
    "Rainwater formula?",
-   "Area x rain x efficiency. (Covered in module 5: Rainwater harvesting. To pass that module: Calculation is correct and the design has overflow and cleaning.)"
+   "Area x rain x efficiency."
   ],
   [
    "Safe grey water use?",
-   "Irrigation of non-edible plants. (Covered in module 6: Reuse and water quality. To pass that module: Rules are clear and a test is noted.)"
+   "Irrigation of non-edible plants."
   ],
   [
    "Aerator benefit?",
-   "Reduces flow. (Covered in module 4: Saving at the tap. To pass that module: Savings are estimated with numbers.)"
+   "Reduces flow."
   ],
   [
    "Why first flush?",
-   "Removes dirt. (Covered in module 5: Rainwater harvesting. To pass that module: Calculation is correct and the design has overflow and cleaning.)"
+   "Removes dirt."
   ],
   [
    "Mulch use?",
-   "Keeps moisture. (Covered in module 7: Irrigation and farming. To pass that module: Plan is complete and justified.)"
+   "Keeps moisture."
   ],
   [
    "Drinking water rule?",
-   "Treat and test. (Covered in module 6: Reuse and water quality. To pass that module: Rules are clear and a test is noted.)"
+   "Treat and test."
   ],
   [
    "Why meters?",
-   "To measure savings. (Covered in module 2: Water audit. To pass that module: Table is complete and totals match the meter.)"
+   "To measure savings."
   ],
   [
    "Why share plan?",
-   "Community buy-in. (Covered in module 8: Target, plan and progress. To pass that module: Target is measurable and the display is clear.)"
+   "Community buy-in."
   ]
  ],
  "rubric": [

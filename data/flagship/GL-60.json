@@ -39,7 +39,7 @@
    "You cannot compare power banks without understanding the units, and the number on the label is not what you can use.",
    [
     "Energy is measured in watt-hours: Wh = volts x amp-hours. A 10,000 mAh cell at 3.7 V holds 37 Wh.",
-    "Converting to 5 V and charging a phone loses 20 to 40 per cent as heat.",
+    "Converting the voltage to 5 V and charging a phone wastes 20 to 40 per cent as heat.",
     "Cycles of charge and discharge age batteries; heat ages them faster.",
     "Labels often quote capacity at cell voltage, not usable output."
    ],
@@ -118,7 +118,7 @@
     "Return, cleaning, serial tracking and loss control.",
     "Staff training, insurance and a complaint route."
    ],
-   "A cafe rents banks for 50 with a refundable deposit of 300 (estimates; check your market) and tracks serial numbers. Loss falls to zero after deposits are introduced.",
+   "A cafe rents banks for 50 INR with a refundable deposit of 300 INR (estimates; check your market) and tracks serial numbers. Loss falls to zero after deposits are introduced.",
    "Plan a small service with prices, loss assumptions and break-even.",
    "Costs and prices are shown with currency and break-even is calculated."
   ],
@@ -148,7 +148,7 @@
     "Improve based on data.",
     "Decide whether to continue."
    ],
-   "Week one: 40 rentals and 2 losses; a deposit is added and losses stop. Average rental time is 4 hours, so one bank earns about 12 an hour.",
+   "Week one: 40 rentals and 2 losses; a deposit is added and losses stop. Average rental time is 4 hours, so one bank earns about 12 INR an hour.",
    "Present your pilot review.",
    "Numbers are real and one improvement is dated."
   ]
@@ -156,43 +156,43 @@
  "quiz": [
   [
    "Formula for Wh?",
-   "Volts x amp-hours. (Covered in module 1: Batteries, units and real capacity. To pass that module: Maths is correct and assumptions are stated.)"
+   "Volts x amp-hours."
   ],
   [
    "Why losses?",
-   "Conversion and heat. (Covered in module 1: Batteries, units and real capacity. To pass that module: Maths is correct and assumptions are stated.)"
+   "Conversion and heat."
   ],
   [
    "What marks safe goods?",
-   "Certification marks and protection circuits. (Covered in module 5: Safety, quality and transport. To pass that module: Includes inspection, isolation, transport rule and disposal.)"
+   "Certification marks and protection circuits."
   ],
   [
    "What do you do with a swollen bank?",
-   "Isolate and dispose safely. (Covered in module 5: Safety, quality and transport. To pass that module: Includes inspection, isolation, transport rule and disposal.)"
+   "Isolate and dispose safely."
   ],
   [
    "Wireless pad efficiency issue?",
-   "Lower efficiency, more heat. (Covered in module 3: Wireless charging. To pass that module: A peer can repeat the idea and one limit.)"
+   "Lower efficiency, more heat."
   ],
   [
    "Why store at half charge?",
-   "Slows ageing. (Covered in module 7: Care, reuse and recycling. To pass that module: Rules are specific and measurable.)"
+   "Slows ageing."
   ],
   [
    "How measure capacity?",
-   "Discharge into a known load and measure Wh. (Covered in module 4: Testing real capacity. To pass that module: Results include averages, percentage of label and cost per Wh.)"
+   "Discharge into a known load and measure Wh."
   ],
   [
    "Why repeat tests?",
-   "To average errors. (Covered in module 4: Testing real capacity. To pass that module: Results include averages, percentage of label and cost per Wh.)"
+   "To average errors."
   ],
   [
    "Name a loss control.",
-   "Deposit. (Covered in module 6: A shared charging service. To pass that module: Costs and prices are shown with currency and break-even is calculated.)"
+   "Deposit."
   ],
   [
    "Where recycle batteries?",
-   "Collection points. (Covered in module 7: Care, reuse and recycling. To pass that module: Rules are specific and measurable.)"
+   "Collection points."
   ]
  ],
  "rubric": [

@@ -129,7 +129,7 @@
    "Decide where action pays most.",
    [
     "Rank sources by tonnes.",
-    "Estimate tonnes saved per rupee spent for each action.",
+    "Estimate tonnes saved per INR spent for each action.",
     "Set targets with dates and owners.",
     "Track progress quarterly."
    ],
@@ -156,43 +156,43 @@
  "quiz": [
   [
    "What are scope 1, 2 and 3?",
-   "Direct, purchased energy, other chain emissions. (Covered in module 2: Boundaries and scopes. To pass that module: Boundary is written and justified.)"
+   "Direct, purchased energy, other chain emissions."
   ],
   [
    "What is CO2e?",
-   "CO2 equivalent of other gases. (Covered in module 1: Why measure emissions. To pass that module: Peer can explain both terms.)"
+   "CO2 equivalent of other gases."
   ],
   [
    "Emissions formula?",
-   "Activity data x emission factor. (Covered in module 4: Emission factors and calculation. To pass that module: Maths and units are correct.)"
+   "Activity data x emission factor."
   ],
   [
    "Why record sources?",
-   "To audit. (Covered in module 3: Collecting activity data. To pass that module: Every line has unit, source and date.)"
+   "To audit."
   ],
   [
    "Name a scope 3 category.",
-   "Purchased goods, travel, commuting or waste. (Covered in module 5: Scope 3 estimates. To pass that module: Method stated and ranking shown.)"
+   "Purchased goods, travel, commuting or waste."
   ],
   [
    "Double counting?",
-   "Counting the same emission twice. (Covered in module 6: Data quality and checks. To pass that module: At least three checks done and logged.)"
+   "Counting the same emission twice."
   ],
   [
    "Why local factors?",
-   "Grids and fuels differ. (Covered in module 4: Emission factors and calculation. To pass that module: Maths and units are correct.)"
+   "Grids and fuels differ."
   ],
   [
    "Why state exclusions?",
-   "Honesty. (Covered in module 8: Reporting and verification. To pass that module: Report is reproducible and peer confirmed one number.)"
+   "Honesty."
   ],
   [
    "How rate data quality?",
-   "High, medium, low. (Covered in module 6: Data quality and checks. To pass that module: At least three checks done and logged.)"
+   "High, medium, low."
   ],
   [
    "How often update?",
-   "Yearly. (Covered in module 8: Reporting and verification. To pass that module: Report is reproducible and peer confirmed one number.)"
+   "Yearly."
   ]
  ],
  "rubric": [

@@ -25,7 +25,7 @@ C = dict(id='GL-18', title='Online Currency Exchange Concepts', group='Digital a
 
 C['deep'] = dict(mods=[
  ('Confusing buy and sell rates.', 'Bank buys at 88 and sells at 92 against mid 90; know which side you are on.', 'Which rate applies to you?'),
- ('Forgetting fixed fees on small amounts.', 'A 3.00 fee on 50.00 is 6% before spread.', 'What is the fee as a percent?'),
+ ('Forgetting fixed fees on small amounts.', 'A 3.00 fee on 50.00 is 6% before spread. Amounts are in your currency.', 'What is the fee as a percent?'),
  ('Comparing different days.', 'Rates moved 0.8% in an hour; compare within ten minutes.', 'When did you take each quote?'),
  ('Trusting a too-good rate.', 'An offer 8% above market is a scam sign.', 'Which red flag did you find?'),
  ('Ignoring identity rules.', 'A provider\'s ID request is a legal duty.', 'What limit applies where you live?'),

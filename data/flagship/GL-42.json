@@ -53,7 +53,7 @@
    "Each sensor measures something indirectly, and every one has error.",
    [
     "Steps come from motion; heart rate from light on the skin or a chest strap; sleep from movement and heart rate; calories are estimates.",
-    "Errors grow with dark skin tone or tattoos for light sensors, cold hands, loose straps and unusual movement.",
+    "Light sensors can read less well on dark skin or over tattoos, and errors also grow with cold hands, loose straps and unusual movement.",
     "Compare to a simple truth: count 100 steps by hand, or a 60-second pulse by finger."
    ],
    "A wrist band says 112 steps for a hand-counted 100: error 12%. Chest strap and band show 148 and 141 beats per minute in the same minute.",
@@ -126,7 +126,7 @@
     "Compare 3 options on cost, battery days, accuracy tests, repair and resale; add the yearly cost of any subscription.",
     "Prefer products with clear data export so you are not locked in."
    ],
-   "Option B costs 6,000 INR (prices are estimates; check your market) with 10-day battery; option C costs 4,000 INR plus 1,200 INR a year. After two years B is cheaper.",
+   "Option B costs 6,000 INR (prices are estimates; check your market) with 10-day battery; option C costs 4,000 INR plus 1,200 INR a year. After two years of use, B is cheaper (6,000 INR against 6,400 INR for C).",
    "Make a comparison table for 3 devices with the currency written.",
    "Totals over two years are correct."
   ],
@@ -148,7 +148,7 @@
  "quiz": [
   [
    "Name two sensor errors.",
-   "Loose strap and dark skin or tattoo for light sensors; step double counts."
+   "A loose strap; dark skin or a tattoo (for light sensors); steps counted twice."
   ],
   [
    "Why ask a doctor first for some people?",

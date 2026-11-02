@@ -54,7 +54,7 @@
    "Order on the street keeps the service welcome.",
    [
     "Place parking where people already walk: gates, stations and shops.",
-    "Use geofencing in the app to slow vehicles in busy zones or end trips only in marked bays.",
+    "Use geofencing (a map boundary set in the app) to slow vehicles in busy zones or end trips only in marked bays.",
     "Mark no-go zones near hospitals and schools.",
     "Work with the owner or authority."
    ],
@@ -118,7 +118,7 @@
     "Student and low-income discounts.",
     "Break-even trips per vehicle per day."
    ],
-   "Revenue of 90 per vehicle-day (an estimate; check your market) against a cost of 70 gives a margin of 20. Break-even is 3.5 trips at an average fare of 20.",
+   "Revenue of 90 INR per vehicle-day (an estimate; check your market) against a cost of 70 INR gives a margin of 20 INR. Break-even is 3.5 trips per vehicle per day at an average fare of 20 INR.",
    "Build a pricing sheet and test two prices.",
    "Currency shown and totals correct."
   ],
@@ -156,43 +156,43 @@
  "quiz": [
   [
    "Typical trip length?",
-   "Under about 5 km. (Covered in module 1: Types, fit and local conditions. To pass that module: Table has range, cost, risk and fit.)"
+   "Under about 5 km."
   ],
   [
    "Fleet formula?",
-   "Peak trips / trips per vehicle per day. (Covered in module 3: Fleet sizing and rebalancing. To pass that module: Maths correct.)"
+   "Peak trips / trips per vehicle per day."
   ],
   [
    "Name a safety rule.",
-   "Helmets or speed limits. (Covered in module 4: Rider safety. To pass that module: Rules are measurable and the quiz is clear.)"
+   "Helmets or speed limits."
   ],
   [
    "Daily check items?",
-   "Brakes, tyres, lights, bell, lock. (Covered in module 5: Maintenance and charging. To pass that module: Card has ten items and calendar is complete.)"
+   "Brakes, tyres, lights, bell, lock."
   ],
   [
    "Break-even idea?",
-   "Trips per day needed to cover costs. (Covered in module 6: Pricing, access and money. To pass that module: Currency shown and totals correct.)"
+   "Trips per day needed to cover costs."
   ],
   [
    "Why parking zones?",
-   "To avoid clutter. (Covered in module 2: Zones, parking and rules. To pass that module: Zones are marked and justified.)"
+   "To avoid clutter."
   ],
   [
    "Why insurance?",
-   "Covers incidents. (Covered in module 4: Rider safety. To pass that module: Rules are measurable and the quiz is clear.)"
+   "Covers incidents."
   ],
   [
    "What is rebalancing?",
-   "Moving vehicles to demand. (Covered in module 3: Fleet sizing and rebalancing. To pass that module: Maths correct.)"
+   "Moving vehicles to demand."
   ],
   [
    "Name a community issue.",
-   "Noise or blocked paths. (Covered in module 7: Community and environment. To pass that module: Each has an owner and a date.)"
+   "Noise or blocked paths."
   ],
   [
    "What is a pilot?",
-   "A short test before scaling. (Covered in module 8: Pilot plan and stop rules. To pass that module: Targets are numbers and stop rules are stated.)"
+   "A short test before scaling."
   ]
  ],
  "rubric": [
