@@ -65,7 +65,7 @@
     "Step 1, Apply Kirchhoff's laws to a circuit. A 12 V battery with a 2 ohm series resistor feeds two parallel branches of 6 ohm and 3 ohm. Parallel resistance is 2 ohm, total 4 ohm. I = 12 / 4 = 3 A. Voltage across the parallel part is 3 x 2 = 6 V.",
     "Step 2, Branch currents. 6 / 6 = 1 A and 6 / 3 = 2 A, which sum to 3 A, consistent with the junction rule. The loop rule: 12 - 3 x 2 - 6 = 0.",
     "Step 3, Use a Wheatstone bridge. Balance condition P/Q = R/S. If P = 10, Q = 20 and R = 15, then S = 30 ohm. A potentiometer compares emfs by balance lengths: if E1 balances at 60 cm and E2 at 40 cm, E1/E2 = 1.5.",
-    "Step 4, Biot-Savart. A circular coil of 100 turns, radius 0.1 m, carrying 2 A has field at the centre B = mu0 N I / (2R) = 4e-7 pi x 100 x 2 / 0.2 = 1.26 x 10^-3 T. A long straight wire at 0.05 m carrying 10 A gives B = mu0 I / (2 pi r) = 4e-5 T.",
+    "Step 4, Biot-Savart. A coil of 100 turns, radius 0.1 m, carrying 2 A has centre field B = mu0 N I / (2R) = 4e-7 pi x 100 x 2 / 0.2 = 1.26 x 10^-3 T. A long wire carrying 10 A gives B = mu0 I / (2 pi r) = 4e-5 T at 0.05 m.",
     "Step 5, Force on a conductor and moving charge: F = B I L sin theta. 0.5 m of wire carrying 4 A in 0.2 T at 90 degrees feels 0.4 N. A proton at 10^6 m/s in 0.1 T moves in a circle of radius r = mv/(qB) = 1.67e-27 x 1e6 / (1.6e-19 x 0.1) = 0.104 m.",
     "Step 6, Your turn: find B at 0.1 m from a straight wire carrying 5 A. Answer: 2e-7 x 5 / 0.1 = 1 x 10^-5 T."
    ]
@@ -147,7 +147,7 @@
     "Step 3, De Broglie wavelength. An electron accelerated through 100 V has lambda = 1.227 / sqrt(V) nm = 0.1227 nm. A 0.1 kg ball at 10 m/s has lambda = 6.63e-34 / 1 = 6.6 x 10^-34 m, not observable.",
     "Step 4, Bohr model of hydrogen. E_n = -13.6 / n^2 eV. For n = 3 to n = 2: E = 13.6 (1/4 - 1/9) = 1.89 eV, giving lambda = 1240 / 1.89 = 656 nm, the red H-alpha line in the Balmer series.",
     "Step 5, Compute orbit radius. r_n = 0.529 n^2 angstrom, so n = 2 gives 2.12 angstrom. Lyman series ends in n = 1, Balmer in n = 2. Shortest Lyman wavelength is 1240/13.6 = 91 nm.",
-    "Step 6, Your turn: find photon energy for 200 nm light. Answer: 1240 / 200 = 6.2 eV."
+    "Step 6, Your turn: find the photon energy of 200 nm light and say whether it ejects electrons from a metal with work function 4.5 eV. Answer: 1240/200 = 6.2 eV, which exceeds 4.5 eV, so yes."
    ]
   },
   {
