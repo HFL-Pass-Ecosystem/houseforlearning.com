@@ -147,7 +147,7 @@ FAQ = [
     ("member", "membership and payments", "Membership, payments and your data", [
         ("How much does it cost?", "Membership from $5 a year for eligible people. Plans for organisations, and for people who can pay more, are shown after sign-in."),
         ("How do I pay?", 'By UPI or direct bank payment. For a bank payment you choose Request payment details and we send them to you by email. We never publish bank numbers on this site. See <a href="payments.html">payments</a>.'),
-        ("Can I get my money back?", "Full refund within 14 days, then unused months less 10%. There is no exit fee, and membership does not renew by itself unless you switch renewal on."),
+        ("Can I get my money back?", "Full refund within 14 days. There is no exit fee, and membership does not renew by itself unless you switch renewal on."),
         ("Do you sell my data?", "No. Every data choice starts switched off, and we never sell your data or show advertising."),
         ("Is sign-up open now?", "Online sign-up opens with the members area. Until then, the Members login button takes you to the contact form."),
     ]),
@@ -286,7 +286,7 @@ def legal(kind):
              "<li><strong>A reminder first.</strong> If you switch renewal on, we remind you before it renews, so you can change your mind.</li>"
              "<li><strong>Cancel in one click.</strong> You can stop renewal at any time from your account, with one click.</li>"
              "<li><strong>Deleting the app does not cancel.</strong> Removing an app or a bookmark does not stop a renewal. Please switch it off in your account.</li>"
-             '<li><strong>Refunds.</strong> Full refund within 14 days, then unused months less 10%. No exit fee, ever. See <a href="payments.html">payments</a>.</li></ul>'),
+             '<li><strong>Refunds.</strong> Full refund within 14 days. No exit fee, ever. See <a href="payments.html">payments</a>.</li></ul>'),
             ("contact", "Contact", '<p><a href="contact.html">Use the contact form</a></p>'),
         ]
         h = hero("terms", "Terms of use", f"The plain rules for using this website and dealing with {NT}.",
