@@ -59,10 +59,10 @@ def build(c):
     t2, _ = tg(mr, n1) if mr else (None, 0)
     ck2, n2 = CD.checks_html(mr, t2)
     if chk is not None: assert len(chk) == n1 + n2, c['code']
-    if F:
+    if F and n1 + n2 == 9:
         x = F['extra_check']; assert 1 <= x['module'] <= 8
         ck2 += (f'<details class="loc"><summary>{CD.inline(x["q"])}</summary><p><strong>Model answer:</strong> {CD.inline(x["a"])} {e(CD.covered_tag(x["module"], mods, stds))}</p></details>'); n2 += 1
-        assert n1 + n2 == 10, (c['code'], n1, n2)
+    if F: assert n1 + n2 == 10, (c['code'], n1, n2)
     gl = fl.get('Glossary')
     practice = B.sec('', 'pr', 'practice', 'Worked example and case cards', extra) if extra else ''
     checks = B.sec('alt', 'ck', 'checks', f'{n1 + n2} check questions with model answers', ck1 + ck2) if (n1 + n2) else ''

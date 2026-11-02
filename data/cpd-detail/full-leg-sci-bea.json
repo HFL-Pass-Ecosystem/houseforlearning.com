@@ -1,0 +1,1235 @@
+{
+ "LEG-001": {
+  "task": "Draft a plain-language client letter that puts the purpose first, then the facts, then the next step and its date, and edit it to under one page.",
+  "cond": "Given a short client brief, source documents, a sample letter with jargon and an editing checklist, working in a three-hour supervised session with no legal advice given.",
+  "std": "Finish with a letter that is plain, under one page, matches every date and figure in the sources, and ends with the next step and date, passing all checklist items.",
+  "modules": [
+   {
+    "t": "Who reads it and what they need",
+    "min": 15,
+    "pts": [
+     "A letter has one reader and one job",
+     "Ask what the reader needs to know and do",
+     "State the purpose first in one sentence"
+    ],
+    "ex": "Brief: Ms K asked what happens next on a form. The reader needs what, by when and what she must do. Purpose in one sentence of 20 words: \"This letter explains the next step: you sign the form by 8 Nov and we file it by 10 Nov.\"",
+    "std": "Identify, from a short client brief, who will read the letter and what that reader needs to know, and state the letter's purpose first in one sentence."
+   },
+   {
+    "t": "Plain words under one page",
+    "min": 30,
+    "pts": [
+     "Swap jargon for everyday words that keep the meaning",
+     "Short sentences, one idea each",
+     "A reader stops after one page"
+    ],
+    "ex": "Draft line: \"We shall endeavour to effect filing of the instrument prior to the 10th day of November\" has 16 words. Plain version: \"We will file the form by 10 Nov.\" has 8 words, half the length. Also \"heretofore\" becomes \"until now\" and \"pursuant to\" becomes \"under\".",
+    "std": "Rewrite a sample letter in plain words, replacing legal jargon with everyday terms that keep the meaning, and fit it onto one page."
+   },
+   {
+    "t": "Readability test",
+    "min": 20,
+    "pts": [
+     "Average sentence length = words / sentences",
+     "Mark any sentence over 20 words and split it",
+     "A colleague read finds what a test misses"
+    ],
+    "ex": "Sample letter: 120 words in 8 sentences gives 120 / 8 = 15 words per sentence, under the target of 20. One sentence of 34 words is split into two of 17. A colleague reads it and names the next step in one breath.",
+    "std": "Apply a simple readability test to a drafted letter, then ask a colleague to read it, and adjust any hard sentences the test or reader finds."
+   },
+   {
+    "t": "Next step and date",
+    "min": 20,
+    "pts": [
+     "End every letter with the next step and its date",
+     "Check each date and figure against the source",
+     "Say what you cannot advise on"
+    ],
+    "ex": "Source form: sign by 8 Nov, file by 10 Nov, 4 pages. The letter says \"sign by 8 Nov, we file by 10 Nov, 4 pages\", so all three match. If it said 12 Nov it would be 2 days after the source date, an error to fix.",
+    "std": "Add to a letter the next step and its date, and check that every date and figure matches the source documents given."
+   },
+   {
+    "t": "Practice",
+    "min": 10,
+    "pts": [
+     "Use the order: purpose, facts, next step and date",
+     "Write for the reader named in the brief",
+     "Keep to one page"
+    ],
+    "ex": "Case card: explain a filing step. Letter of 5 sentences, about 90 words: purpose (1 sentence), facts (3 sentences), next step and date (1 sentence): \"Please sign by 8 Nov. We will file the form by 10 Nov and tell you the same day.\"",
+    "std": "Draft a full client letter from a case card, with purpose first, then facts, then next step and date, in plain words and under one page."
+   },
+   {
+    "t": "Check",
+    "min": 5,
+    "pts": [
+     "Edit against the checklist item by item",
+     "Plain, accurate, under one page, ends with step and date",
+     "A second person reviews per firm policy"
+    ],
+    "ex": "Check: a sample letter of 420 words is edited to 280 words, 140 fewer or one third cut. Checklist result: 3 jargon terms replaced, wrong date 12 Nov corrected to 10 Nov, next step added: 5 of 5 items met.",
+    "std": "Pass the check by editing a sample letter against the checklist so it is plain, accurate, under one page and ends with the next step and date."
+   },
+   {
+    "t": "Second case: a moved hearing",
+    "min": 45,
+    "pts": [
+     "Same structure, new facts",
+     "Work out the new date before writing",
+     "Say what the client must bring"
+    ],
+    "ex": "Case card 2: a hearing moves two weeks later, from 14 Mar to 28 Mar (14 + 14 = 28). Letter: \"Your hearing has moved from 14 Mar to 28 Mar, two weeks later. Please bring the signed form and photo ID. Call us if 28 Mar is a problem.\" 3 sentences, 31 words.",
+    "std": "Draft a second letter from a new case card, calculating the new date correctly and listing what the client must bring, in plain words and under one page."
+   },
+   {
+    "t": "Teach-back and portfolio",
+    "min": 35,
+    "pts": [
+     "Partner says back the next step and date",
+     "Fix any point the partner misses",
+     "Keep both letters as portfolio evidence"
+    ],
+    "ex": "Partner reads the moved-hearing letter and says back: \"Bring the form and ID on 28 Mar.\" Both facts correct. Portfolio: 2 letters, 96 words in 6 sentences = 16 words per sentence, and 3 improvements noted in a short reflection.",
+    "std": "Evaluate your own letters by a partner teach-back and a readability count, then reflect in writing on three changes you would make next time."
+   }
+  ],
+  "extra_check": {
+   "q": "A letter has 120 words in 8 sentences. What is the average sentence length, and is it within a target of 20?",
+   "a": "120 / 8 = 15 words per sentence, so it is within the target.",
+   "module": 3
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What is a client letter",
+    "note": "A client letter tells one reader what is happening and what to do next. Say it in one sentence. At this level the learner only knows that plain words and a date make a letter useful."
+   },
+   {
+    "t": "L2 Awareness: Who is reading it",
+    "note": "Show a brief and ask who will read the letter. The learner at this level can name the reader, say what that person needs to know, and spot a letter that starts with background instead of purpose."
+   },
+   {
+    "t": "L3 Foundation: Plain words with help",
+    "note": "Learners swap jargon such as pursuant to for under, using a prepared list, and follow a model letter with purpose, facts, then next step and date. They need a checklist beside them."
+   },
+   {
+    "t": "L4 Practitioner: Draft and edit to one page",
+    "note": "This course sits here. The learner drafts a full client letter alone from a brief, replaces jargon, tests readability, checks every date against the sources, and ends with the next step and date under one page."
+   },
+   {
+    "t": "L5 Specialist: Hard letters and tone",
+    "note": "The specialist writes letters for upset or confused readers, such as a moved hearing, and judges tone and order. They coach others, and know when a point needs a qualified lawyer, so they refer it on."
+   },
+   {
+    "t": "L6 Advanced: Templates and review",
+    "note": "The advanced worker designs letter templates, sets readability targets such as 20 words per sentence, and reviews teams' letters for patterns like missing dates. Talk about why the same errors repeat."
+   },
+   {
+    "t": "L7 Super expert: A plain-language standard",
+    "note": "The super expert sets the firm's writing standard: templates, review steps, training and measures such as complaints about unclear letters. They decide what good looks like and prove it with sampled letters."
+   }
+  ],
+  "jobs": [
+   "Legal secretary",
+   "Paralegal assistant",
+   "Legal administrator",
+   "Client services officer",
+   "Case support assistant"
+  ]
+ },
+ "LEG-002": {
+  "task": "Review a contract clause by clause, summarize each clause in one sentence, flag and rate the risk clauses, and propose safer wording for a supervisor to check.",
+  "cond": "Given a sample eight-clause contract, a clause table and a review checklist, working in a four-hour supervised session; skills only, with no legal advice and decisions left to the client and a qualified lawyer.",
+  "std": "Finish with all 8 clauses summarized, at least 5 risks listed with a question each, each risk rated high, medium or low with a reason, and every entry followable by a supervisor.",
+  "modules": [
+   {
+    "t": "Contract parts",
+    "min": 25,
+    "pts": [
+     "A contract has parties, scope, payment, term and risk clauses",
+     "Find each numbered clause in order",
+     "Do not skip a clause"
+    ],
+    "ex": "Sample contract, 3 pages, 8 clauses in order: 1 Parties, 2 Services, 3 Payment, 4 Term and renewal, 5 Termination, 6 Liability, 7 Indemnity, 8 Change of terms. Clause 6 is on page 2. Ticking 8 of 8 means none is skipped.",
+    "std": "Name the main parts of a sample contract and find each numbered clause in order, so that no clause in the eight-clause sample is skipped."
+   },
+   {
+    "t": "One-line summaries",
+    "min": 40,
+    "pts": [
+     "One sentence per clause",
+     "Write it in your own plain words",
+     "A summary proves you understood"
+    ],
+    "ex": "Clause 3: \"The customer shall pay each invoice within 30 days of the invoice date.\" Summary in one sentence: \"You pay each invoice within 30 days.\" An invoice dated 1 Jun is due 1 Jul (June has 30 days).",
+    "std": "Summarize each clause of a sample contract in one sentence, so the summary confirms that you have understood what the clause says."
+   },
+   {
+    "t": "Spotting risk clauses",
+    "min": 45,
+    "pts": [
+     "Look for payment, termination, liability, indemnity, change",
+     "Ask one question for each risk",
+     "A risk clause exposes you to cost or loss"
+    ],
+    "ex": "Of 8 clauses, 6 are flagged: 3 payment terms, 4 auto-renewal, 5 termination, 6 unlimited liability, 7 indemnity, 8 change of terms. Question for clause 8: \"Can the supplier change the price without asking me?\" Needs at least 5; 6 found.",
+    "std": "Identify the risk clauses in a sample contract, such as payment terms, termination, liability, indemnity and change of terms, listing at least five with a question each."
+   },
+   {
+    "t": "Reasons and priority",
+    "min": 30,
+    "pts": [
+     "Rate each risk high, medium or low",
+     "Give a reason for every rating",
+     "Order the clauses by priority"
+    ],
+    "ex": "Rating table: clause 6 unlimited liability, High, because the cost has no ceiling; clause 8 price change at any time, High; clause 4 auto-renewal, Medium; clause 3 payment in 30 days, Low. Priority order: 6, 8, 4, 3. Count: 2 High, 1 Medium, 1 Low.",
+    "std": "Give each flagged clause a high, medium or low risk rating with a stated reason, and put the clauses in order of priority."
+   },
+   {
+    "t": "Safer wording",
+    "min": 40,
+    "pts": [
+     "Add a cap, a notice period or a consent step",
+     "Mark agree, query or escalate",
+     "Refer to the senior when unsure of the law"
+    ],
+    "ex": "Clause 6 \"unlimited liability\" becomes \"liability is limited to the sum paid in the last 12 months\". Clause 8 becomes \"price changes need 60 days' written notice\". Checklist marks: clause 6 escalate, clause 8 query, clause 3 agree.",
+    "std": "Propose safer wording for a risky clause, such as a stated cap or a notice period, and record agree, query or escalate against the checklist."
+   },
+   {
+    "t": "Assessment",
+    "min": 30,
+    "pts": [
+     "Complete the table for a new contract",
+     "Show summary, rating, reason and suggestion",
+     "Make every row followable"
+    ],
+    "ex": "New 8-clause contract: the table has 8 rows and 5 columns (number, summary, risk, reason, wording) = 40 cells, all filled. At least 5 risks listed, each rated, so the supervisor can follow every row.",
+    "std": "Pass the assessment by completing the clause table for a new sample contract so a supervisor can follow every summary, rating, reason and suggestion."
+   },
+   {
+    "t": "Second case: a price-change clause",
+    "min": 15,
+    "pts": [
+     "Same method on a new clause",
+     "Cap the change and require notice",
+     "Check the arithmetic of the cap"
+    ],
+    "ex": "Case card 2: a clause lets the supplier raise price at any time. Rated High. Safer wording: no change without 60 days' written notice and a rise of at most 5% a year. On 1,000 a month the cap is 5% of 1,000 = 50, so the most is 1,050.",
+    "std": "Apply the review method to a new clause that lets a supplier raise price at any time, rating it and proposing wording with a stated cap and notice period."
+   },
+   {
+    "t": "Peer check and reflection",
+    "min": 15,
+    "pts": [
+     "Swap tables with a partner",
+     "Compare ratings and reasons",
+     "Record what you would change"
+    ],
+    "ex": "Partner and learner compare 8 ratings and agree on 7, which is 7 of 8 or 87.5%. They discuss the one difference, clause 4, and record the reason. Reflection: one risk the learner first missed.",
+    "std": "Compare your clause table with a partner's, resolve differences between ratings with stated reasons, and reflect on one risk you missed."
+   }
+  ],
+  "extra_check": {
+   "q": "A clause lets a supplier raise a price of 1,000 a month by up to 5% a year. What is the most the monthly price can be after one year?",
+   "a": "5% of 1,000 is 50, so the most is 1,050.",
+   "module": 7
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What is a contract",
+    "note": "A contract is a written promise between two sides, split into numbered clauses. Say it in one sentence. At this level the learner only knows the word clause and that every clause must be read in order."
+   },
+   {
+    "t": "L2 Awareness: Reading in order",
+    "note": "Hand out an eight-clause sample and ask learners to find each numbered clause. The learner at this level can name the main parts, such as payment and termination, and say what each part is for."
+   },
+   {
+    "t": "L3 Foundation: One-line summaries",
+    "note": "Learners summarize clauses such as pay within 30 days in one plain sentence under supervision and begin to notice words like unlimited or at any time. They follow a prepared example and a checklist."
+   },
+   {
+    "t": "L4 Practitioner: Review and flag the risks",
+    "note": "This course sits here. The learner reviews a whole sample contract alone: summarizes every clause, lists at least five risks with questions, rates them, suggests safer wording, and marks agree, query or escalate."
+   },
+   {
+    "t": "L5 Specialist: Judging what matters",
+    "note": "The specialist weighs unusual clauses, such as auto-renewal with a short notice window, and ranks them by cost. They write clear reasons for rates and train others, and always refer legal questions to a qualified lawyer."
+   },
+   {
+    "t": "L6 Advanced: Playbooks and patterns",
+    "note": "The advanced worker builds the clause checklist and standard safer wordings, such as caps and notice periods, and spots repeating risks across suppliers. Talk about which clauses are always escalated."
+   },
+   {
+    "t": "L7 Super expert: A review system for the business",
+    "note": "The super expert designs how contracts are reviewed across the whole organisation: templates, limits for sign-off, training and measures such as days to review. They prove the system works with sampled reviews."
+   }
+  ],
+  "jobs": [
+   "Contracts assistant",
+   "Paralegal assistant",
+   "Legal administrator",
+   "Procurement assistant",
+   "Compliance support officer"
+  ]
+ },
+ "LEG-003": {
+  "task": "Organise a case file in the standard order, record each decision as it is made, complete the closing checklist, and apply the retention period and safe disposal.",
+  "cond": "Given a messy sample file, a file index template, a closing checklist and a records policy, working in a three-hour supervised session with no legal advice given.",
+  "std": "Finish with a file in the standard order, every note dated with who, what, when and why, a fully completed closing checklist, and the correct retention date stated.",
+  "modules": [
+   {
+    "t": "Standard file order",
+    "min": 20,
+    "pts": [
+     "Index, instructions, correspondence, notes, documents, billing, checklist",
+     "The order lets an auditor find items quickly",
+     "Add an index and a version"
+    ],
+    "ex": "Messy file of 25 papers sorted into 7 sections: index 1, instructions 2, correspondence 9, dated notes 5, documents 4, billing 3, closing checklist 1. Check: 1 + 2 + 9 + 5 + 4 + 3 + 1 = 25, so none is lost.",
+    "std": "Arrange the papers in a messy sample file into the standard order: index, instructions, correspondence, dated notes, documents, billing and closing checklist."
+   },
+   {
+    "t": "Recording time and decisions",
+    "min": 25,
+    "pts": [
+     "Record who, what, when and why",
+     "Date every note at the time",
+     "Keep a time record"
+    ],
+    "ex": "Note: \"12 Mar 10:15. Client agreed option B. Who: client and A. Lee. Why: lower risk. Recorded at the time.\" Time record: three calls of 10, 15 and 20 minutes = 45 minutes, entered the same day.",
+    "std": "Record each decision in a scenario at the time it is made, with who, what, when and why, and date every note."
+   },
+   {
+    "t": "Closing checklist",
+    "min": 20,
+    "pts": [
+     "Outcome, documents returned, retention date",
+     "Every item complete before closing",
+     "Sign and date the checklist"
+    ],
+    "ex": "Closing checklist: outcome \"matter settled 30 Apr 2026\"; documents returned 4 of 4; retention date set. Policy 6 years, so retention ends 30 Apr 2032 (2026 + 6). All 3 items complete, then it is signed.",
+    "std": "Close a file by completing every item on the closing checklist: the outcome, the documents returned and the retention date."
+   },
+   {
+    "t": "Retention and privacy",
+    "min": 15,
+    "pts": [
+     "Only authorised people may see a file",
+     "Retention follows your regulator and policy",
+     "Dispose of records safely and log it"
+    ],
+    "ex": "File access list: 3 authorised people (lead, assigned worker, auditor) of 7 staff, so 4 may not open it. At 30 Apr 2032 the file is disposed of safely: paper shredded, electronic copies deleted, and the disposal logged.",
+    "std": "State who may see a file and how long it is kept under a given policy, and name how to dispose of records safely afterwards."
+   },
+   {
+    "t": "Practice",
+    "min": 15,
+    "pts": [
+     "Reorder first, then fill the gaps",
+     "Never invent a date; note \"date from email\"",
+     "Complete the checklist"
+    ],
+    "ex": "Case card 2: loose notes, none dated, no time record. Learner dates 5 notes from the covering emails, adds the three calls (10 + 15 + 20 = 45 minutes), adds an index and marks the file \"version 2\".",
+    "std": "Reorder a file with loose notes and no time record, fill the gaps with an index, dates and version, and complete its checklist."
+   },
+   {
+    "t": "Check",
+    "min": 5,
+    "pts": [
+     "Show standard order and dated decisions",
+     "Show a completed closing checklist",
+     "State the correct retention period"
+    ],
+    "ex": "Check result: 7 of 7 sections in order, 5 of 5 notes dated, 3 of 3 checklist items done, retention date 30 Apr 2032 correct against a 6-year policy.",
+    "std": "Pass the check by showing a sample file in standard order with dated decisions, a completed closing checklist and the correct retention period."
+   },
+   {
+    "t": "Second case: closing with gaps",
+    "min": 45,
+    "pts": [
+     "Find what is missing at closing",
+     "Fix the file before it is closed",
+     "Recalculate the retention date"
+    ],
+    "ex": "A file closed 15 Jan 2026 under a 5-year policy keeps until 15 Jan 2031 (2026 + 5). Gaps found: no index, no version, 1 of 4 documents not returned. Learner fixes the 3 gaps, then signs the checklist.",
+    "std": "Evaluate a file at closing, find missing items, correct them and calculate the retention date from the closing date and policy."
+   },
+   {
+    "t": "Audit trail test and reflection",
+    "min": 35,
+    "pts": [
+     "Auditor asks for 3 items",
+     "Find each in under 2 minutes",
+     "Reflect on weak points"
+    ],
+    "ex": "An auditor asks for the instruction letter, the 12 Mar decision note and the billing summary. The learner finds all 3 in order in under 2 minutes each, 3 of 3. Reflection: one place the file order slowed a search and its fix.",
+    "std": "Demonstrate that an auditor can trace three requested items in your file within two minutes, then reflect on one change to your filing habits."
+   }
+  ],
+  "extra_check": {
+   "q": "A file is closed on 30 Apr 2026 and the policy keeps files for 6 years. On what date does retention end?",
+   "a": "30 Apr 2032.",
+   "module": 3
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What is a case file",
+    "note": "A case file is the single place that shows what was asked, decided and done. Say it in one sentence. At this level the learner knows that a tidy file protects the client and the firm."
+   },
+   {
+    "t": "L2 Awareness: The standard order",
+    "note": "Show the seven sections: index, instructions, correspondence, notes, documents, billing, checklist. The learner at this level can name each part and say why dated notes matter when someone checks the file later."
+   },
+   {
+    "t": "L3 Foundation: Filing with a template",
+    "note": "Learners sort a messy sample into order using a template and write dated notes with who, what, when and why. They are supervised and follow the closing checklist one tick at a time."
+   },
+   {
+    "t": "L4 Practitioner: Keep and close to the audit standard",
+    "note": "This course sits here. The learner organises a file alone, records decisions as they are made, completes the closing checklist, applies the retention period, and disposes of records safely."
+   },
+   {
+    "t": "L5 Specialist: Fixing damaged files",
+    "note": "The specialist rebuilds a file with loose notes and gaps, decides what can be filled from emails, and notes what cannot. They coach colleagues and judge when a gap must be reported to a lead."
+   },
+   {
+    "t": "L6 Advanced: File standards and sampling",
+    "note": "The advanced worker sets file standards, samples files for missing dates and checklists, and reports trends. Talk about why the same gap, such as no time record, repeats and how to fix its cause."
+   },
+   {
+    "t": "L7 Super expert: A records system for the firm",
+    "note": "The super expert designs the file and retention system across the whole firm: templates, access rules, retention schedules, disposal logs and audit evidence. They prove it works with measures such as time to find an item."
+   }
+  ],
+  "jobs": [
+   "Legal secretary",
+   "Records clerk",
+   "Paralegal assistant",
+   "File administrator",
+   "Legal practice assistant"
+  ]
+ },
+ "SCI-001": {
+  "task": "Plan a repeatable test by stating a question and a measure, choosing a control and repeats, listing sources of error, and writing a method another person can follow exactly.",
+  "cond": "Given a topic, a protocol template and a partner for peer checking, working in a four-hour supervised session.",
+  "std": "Finish with a testable question, a control, a measure with units, repeats for each group, at least 4 listed sources of error, and a method another person can repeat.",
+  "modules": [
+   {
+    "t": "Question and hypothesis",
+    "min": 25,
+    "pts": [
+     "A good question can be answered with a number",
+     "A hypothesis is a testable guess",
+     "Choose one measure"
+    ],
+    "ex": "Topic: paint drying time. Question: \"Does a thin coat of paint dry to the touch faster than a thick coat?\" Measure: minutes to touch-dry. Hypothesis: the thin coat dries faster. It can be answered with a number.",
+    "std": "State a testable question and a hypothesis for a given topic, such as paint drying time, with one measure that can be answered with a number."
+   },
+   {
+    "t": "Controls and measures",
+    "min": 40,
+    "pts": [
+     "The control is the comparison without the change",
+     "Change one thing at a time",
+     "Name the measure and its unit"
+    ],
+    "ex": "Fertiliser A test: control group gets no fertiliser; same soil, light and water; only the fertiliser changes. Measure: height in cm at day 14. One change at a time keeps the comparison fair.",
+    "std": "Choose a control group and a measure with units for a question, and keep all conditions the same except the one thing changed."
+   },
+   {
+    "t": "How many repeats",
+    "min": 40,
+    "pts": [
+     "Repeats show the natural spread",
+     "More repeats give more trust",
+     "Choose the same number per group"
+    ],
+    "ex": "10 plants in each group, 2 groups = 20 plants. At 5 pots per tray that is 20 / 5 = 4 trays. Heights in group A range from 10 to 14 cm, which is the natural spread the repeats reveal.",
+    "std": "Decide how many repeats are needed for each group, and explain that repeats show the natural spread in the results."
+   },
+   {
+    "t": "Writing the method",
+    "min": 45,
+    "pts": [
+     "List materials, steps, measures and units",
+     "Number the steps",
+     "Write it so another lab can repeat it"
+    ],
+    "ex": "Method: 1 Fill 20 pots with 200 g of soil each (4,000 g, or 4 kg, in all). 2 Sow one seed per pot. 3 Give fertiliser A to 10 pots. 4 Water all pots 100 ml daily. 5 Measure height in cm at day 14. 6 Record every value.",
+    "std": "Write a method with materials, steps, measures and units that is clear enough for another person to repeat exactly."
+   },
+   {
+    "t": "Peer check",
+    "min": 35,
+    "pts": [
+     "Find unclear steps",
+     "Find at least four sources of error",
+     "Suggest a fix for each"
+    ],
+    "ex": "Partner reads the method and finds 4 sources of error: uneven light on the bench, pots of different sizes, height measured from different points, seedlings picked by hand (a bias). Fixes: rotate pots, one pot size, measure from the soil line, pick by random draw.",
+    "std": "Check a partner's method against the checklist, find unclear steps and at least four sources of error, and suggest a fix for each."
+   },
+   {
+    "t": "Assessment",
+    "min": 25,
+    "pts": [
+     "Write a method for a new question",
+     "Include control, measure, repeats and errors",
+     "A method that cannot be repeated does not pass"
+    ],
+    "ex": "Assessment question: does a thick coat of paint dry slower than a thin one? Control: thin coat. Measure: minutes to touch-dry. Repeats: 6 panels each, 12 in all. Method has 6 steps, 4 errors listed: pass.",
+    "std": "Pass the assessment by writing a repeatable method for a new question, with a control, a measure, repeats and listed sources of error."
+   },
+   {
+    "t": "Second case: a coating and corrosion",
+    "min": 20,
+    "pts": [
+     "Same planning steps, new question",
+     "Define control, measure and repeats",
+     "Predict the size of the gap"
+    ],
+    "ex": "Case card 2: does a coating cut corrosion? Control: 8 uncoated strips; test: 8 coated strips (16 in all). Measure: mass lost in mg after 30 days. Sample result: uncoated 120 mg, coated 30 mg, a gap of 90 mg or 75% less.",
+    "std": "Plan a repeatable test for a new question, defining the control, the measure with units and the number of repeats, and calculate a sample difference."
+   },
+   {
+    "t": "Teach-back and reflection",
+    "min": 10,
+    "pts": [
+     "Partner repeats your method",
+     "Count the unclear steps",
+     "Rewrite and reflect"
+    ],
+    "ex": "A partner follows the 6-step method alone and asks about 2 unclear steps (\"how much water?\"). Learner rewrites both steps, so the method now has 0 open questions. Reflection: one source of error found late.",
+    "std": "Evaluate your method by asking a partner to follow it, correct each unclear step, and reflect on one source of error you would find earlier."
+   }
+  ],
+  "extra_check": {
+   "q": "A test has 20 pots and each tray holds 5 pots. How many trays are needed?",
+   "a": "20 / 5 = 4 trays.",
+   "module": 3
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What is a fair test",
+    "note": "A fair test changes one thing and keeps everything else the same. Say it with a plant example. At this level the learner knows the words question, control and measure."
+   },
+   {
+    "t": "L2 Awareness: Question and measure",
+    "note": "Show a topic such as paint drying time and ask for a question that has a number as its answer. The learner at this level can state a question and name what to measure and in which unit."
+   },
+   {
+    "t": "L3 Foundation: Controls and repeats",
+    "note": "Learners add a control group and repeats to a prepared question, such as 10 plants per group. They follow a template and see why one sample cannot show the natural spread."
+   },
+   {
+    "t": "L4 Practitioner: Plan a repeatable test",
+    "note": "This course sits here. The learner states a question and measure, plans steps with a control and repeats, lists at least four sources of error, and writes a protocol another person can repeat."
+   },
+   {
+    "t": "L5 Specialist: Hard designs and bias",
+    "note": "The specialist handles designs with several groups, picks samples by random draw to avoid bias, and judges how many repeats are enough. They coach others in spotting hidden changes between groups."
+   },
+   {
+    "t": "L6 Advanced: Protocols across a team",
+    "note": "The advanced worker writes shared protocols, reviews team methods for unclear steps, and keeps records so results can be re-checked. Talk about why two labs got different answers from the same words."
+   },
+   {
+    "t": "L7 Super expert: A testing standard for the lab",
+    "note": "The super expert sets the lab's method standard: templates, review steps, training and measures such as how often a method is repeated by someone else with the same result. They decide what repeatable means."
+   }
+  ],
+  "jobs": [
+   "Laboratory assistant",
+   "Research assistant",
+   "Laboratory technician",
+   "Quality control technician",
+   "Field data collector"
+  ]
+ },
+ "SCI-002": {
+  "task": "Calculate the mean and spread of small data sets, plot group means with labelled axes and error bars, judge whether a difference is larger than the spread, and write a one-paragraph result.",
+  "cond": "Given two small data sets, a plotting template and a caption checklist, working in a four-hour supervised session.",
+  "std": "Finish with correct means and spread with units, labelled plots with error bars and a caption, a correct judgement of the difference, and a paragraph that claims no more than the data show.",
+  "modules": [
+   {
+    "t": "Means and spread",
+    "min": 40,
+    "pts": [
+     "The mean is the sum divided by the count",
+     "Spread shows how far values vary",
+     "Always give units"
+    ],
+    "ex": "Group A heights 10, 12, 11 cm: mean = 33 / 3 = 11 cm. Deviations -1, 1, 0; squares 1, 1, 0 add to 2; 2 / (3 - 1) = 1; spread (sample SD) = 1 cm. Group B 14, 15, 13: mean 14 cm, SD 1 cm.",
+    "std": "Calculate the mean and the spread of a small data set with correct arithmetic and units, as in groups of three plant heights."
+   },
+   {
+    "t": "Plotting with labels",
+    "min": 35,
+    "pts": [
+     "Label each axis with a name and unit",
+     "Choose a scale that fits the data",
+     "Plot the means"
+    ],
+    "ex": "Plot of group means: x axis \"Group\" with A and B; y axis \"Plant height (cm)\" from 0 to 16; bars at 11 and 14. Each axis has a name and a unit, so the plot can be read alone.",
+    "std": "Plot group means from the numbers given, labelling each axis with a name and a unit so the plot can be read alone."
+   },
+   {
+    "t": "Error bars: what they show",
+    "min": 35,
+    "pts": [
+     "An error bar shows spread or uncertainty",
+     "State what the bar means in the caption",
+     "State the sample size"
+    ],
+    "ex": "Error bars of one SD: group A runs 10 to 12 cm (11 - 1 to 11 + 1), group B 13 to 15 cm. Caption: \"Bars show one standard deviation, n = 3 plants per group.\"",
+    "std": "Add error bars of one standard deviation to a plot and state in the caption what the bars show."
+   },
+   {
+    "t": "Is the difference real?",
+    "min": 40,
+    "pts": [
+     "Compare the gap to the spread",
+     "Overlapping bars alone do not decide",
+     "A gap does not prove a cause"
+    ],
+    "ex": "Gap = 14 - 11 = 3 cm, three times the spread of 1 cm, and the bars do not overlap (12 vs 13). So the difference looks real, but with 3 plants per group it is tentative, and a gap alone does not prove a cause.",
+    "std": "Judge from two plots whether a difference is larger than the spread, and say that a gap alone does not prove a cause."
+   },
+   {
+    "t": "Writing the reason",
+    "min": 25,
+    "pts": [
+     "State the difference and the spread",
+     "Say the result is tentative if n is small",
+     "Do not claim more than the data show"
+    ],
+    "ex": "Paragraph: \"Group B plants were taller (mean 14 cm, SD 1) than group A (mean 11 cm, SD 1), a gap of 3 cm. With 3 plants per group, the result is tentative.\" It claims no cause and no more than the numbers show.",
+    "std": "Write a one-paragraph result for a figure that states the difference and spread and does not claim more than the data show."
+   },
+   {
+    "t": "Assessment",
+    "min": 25,
+    "pts": [
+     "Calculate, plot and interpret two sets",
+     "Write a paragraph within the data",
+     "Keep the raw numbers"
+    ],
+    "ex": "New data: group C 20, 22, 24 cm: mean 22, SD 2 (squares 4 + 0 + 4 = 8, 8 / 2 = 4, root 2). Group D 30, 32, 34: mean 32, SD 2. Gap 10 cm is 5 times the spread of 2 cm. Pass needs all numbers, plots and a paragraph.",
+    "std": "Pass the assessment by calculating, plotting and interpreting two small data sets, then writing a paragraph that stays within what the data show."
+   },
+   {
+    "t": "Second case: overlapping results",
+    "min": 25,
+    "pts": [
+     "Work with values that nearly overlap",
+     "Compare the gap to both spreads",
+     "Decide on the next step"
+    ],
+    "ex": "Case card 2: 12.1 ± 0.4 and 12.6 ± 0.5. Ranges: 11.7 to 12.5 and 12.1 to 13.1, overlapping from 12.1 to 12.5. The gap 12.6 - 12.1 = 0.5 is no bigger than the spreads, so do not claim a difference; collect more repeats.",
+    "std": "Evaluate two results with overlapping error bars, comparing the gap to the spread, and decide what further data to collect before making a claim."
+   },
+   {
+    "t": "Teach-back and raw data check",
+    "min": 15,
+    "pts": [
+     "Partner recalculates the means",
+     "Compare to your own numbers",
+     "Reflect on a slip"
+    ],
+    "ex": "Partner recalculates group A from the raw data: 10 + 12 + 11 = 33, 33 / 3 = 11, matching the learner's 11. One slip found in a unit label (mm instead of cm) and fixed. Raw data is kept for re-checking.",
+    "std": "Verify a partner's calculations from the raw data, correct any slip in numbers or units, and reflect on one habit that would prevent it."
+   }
+  ],
+  "extra_check": {
+   "q": "Heights 6, 8, 10 cm. What are the mean and the sample spread (standard deviation)?",
+   "a": "Mean = 24 / 3 = 8 cm. Deviations -2, 0, 2; squares 4, 0, 4 add to 8; 8 / 2 = 4; SD = 2 cm.",
+   "module": 1
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What is an average",
+    "note": "An average is one number that stands for a group, such as the mean height of three plants. At this level the learner knows the word mean and that results come with units."
+   },
+   {
+    "t": "L2 Awareness: Mean and spread",
+    "note": "Show 10, 12 and 11 cm and find the mean of 11. The learner at this level can calculate a mean, and knows that two groups with the same mean can have different spread."
+   },
+   {
+    "t": "L3 Foundation: Plotting with error bars",
+    "note": "Learners plot means from a table with named axes and units, and add error bars of one spread under supervision. They follow a model plot and caption wording for what the bars show."
+   },
+   {
+    "t": "L4 Practitioner: Calculate, plot and interpret",
+    "note": "This course sits here. The learner calculates mean and spread alone, plots with labelled axes and error bars, judges whether a gap is bigger than the spread, and writes a paragraph that does not overclaim."
+   },
+   {
+    "t": "L5 Specialist: Judging uncertain results",
+    "note": "The specialist handles overlapping bars such as 12.1 and 12.6, small samples and odd values. They state when more repeats are needed and coach others to say tentative when the data are thin."
+   },
+   {
+    "t": "L6 Advanced: Honest figures across a team",
+    "note": "The advanced worker reviews team figures for missing units, unexplained bars and claims beyond the data. Talk about the habit of showing the raw numbers so any reader can re-check them."
+   },
+   {
+    "t": "L7 Super expert: A results standard",
+    "note": "The super expert sets how results are shown across the lab: plot templates, caption rules, tests for differences and review steps. They decide what honest uncertainty looks like and prove it with sampled figures."
+   }
+  ],
+  "jobs": [
+   "Laboratory assistant",
+   "Research assistant",
+   "Data technician",
+   "Quality control analyst",
+   "Environmental monitoring assistant"
+  ]
+ },
+ "SCI-003": {
+  "task": "Write a short, honest report from a result table in the standard sections, cite every source in one style, state limits, and respond politely to a reviewer comment.",
+  "cond": "Given a result table, a report template, an agreed reference style and a sample reviewer comment, working in a three-hour supervised session.",
+  "std": "Finish with a report in the standard order, one citation style used throughout, at least three honest sentences on limits, no claim beyond the data, and a polite reply with evidence or a change.",
+  "modules": [
+   {
+    "t": "Standard sections",
+    "min": 20,
+    "pts": [
+     "Title, abstract, introduction, methods, results, discussion, limits, references",
+     "Results and discussion stay apart",
+     "Each section has one job"
+    ],
+    "ex": "Result table: control mean 11.0 cm, fertiliser mean 14.0 cm, 10 plants each, one site. Placed in 8 sections: title, abstract, introduction, methods, results (the table), discussion, limits (one site only), references. Results hold the numbers; discussion holds the meaning.",
+    "std": "Arrange a result table into a short report with the standard sections: title, abstract, introduction, methods, results, discussion, limits and references."
+   },
+   {
+    "t": "Citing sources, one style",
+    "min": 25,
+    "pts": [
+     "Use one agreed style",
+     "Every claim has a source",
+     "Every citation appears in the list"
+    ],
+    "ex": "The text cites 3 sources in the form (name, year) and the reference list has 3 entries. 3 = 3, so each citation matches a listed source. One style, kept the same from first page to last.",
+    "std": "Cite every source in a report using one agreed style, kept the same throughout, so each claim can be traced."
+   },
+   {
+    "t": "Limits and what was not tested",
+    "min": 20,
+    "pts": [
+     "State what was not tested",
+     "State possible errors",
+     "Do not hide a weakness"
+    ],
+    "ex": "Limits: \"Only one site was tested. Only day 14 was measured. Heights were read by hand to the nearest 0.5 cm.\" 3 honest sentences covering what was not tested and one possible error.",
+    "std": "Write at least three honest sentences on limits, covering what was not tested and the possible errors, for a small one-site study."
+   },
+   {
+    "t": "Clear language",
+    "min": 15,
+    "pts": [
+     "Use short sentences and plain words",
+     "Claim no more than the data show",
+     "Cut filler words"
+    ],
+    "ex": "A sentence of 34 words is split into two of 17 words each. \"It could perhaps be suggested that results may show\" becomes \"Results show\". Gap 3 cm is stated as seen, not as proven cause.",
+    "std": "Edit a draft paragraph into clear, short sentences with plain words and no claim beyond the data."
+   },
+   {
+    "t": "Practice",
+    "min": 15,
+    "pts": [
+     "Fill every section in order",
+     "Keep results in results",
+     "Add a limits paragraph"
+    ],
+    "ex": "Report of about 370 words: abstract 50, introduction 60, methods 80, results 70, discussion 70, limits 40 (50 + 60 + 80 + 70 + 70 + 40 = 370). All 8 sections present, results kept apart from discussion.",
+    "std": "Write a full short report from a result table, with all sections in place, results kept apart from discussion, and a limits paragraph."
+   },
+   {
+    "t": "Check",
+    "min": 5,
+    "pts": [
+     "Review by a colleague not on the study",
+     "Pass needs standard order, one style, honest limits",
+     "Share raw data so others can check"
+    ],
+    "ex": "Check: 8 of 8 sections present, 1 citation style, 3 limit sentences, 0 claims beyond the data. A colleague not on the study reads it and finds 1 unclear sentence, which is fixed before the check is passed.",
+    "std": "Pass the check by producing a short report in the standard order with one citation style, honest limits and no claims beyond the data."
+   },
+   {
+    "t": "Second case: limits for a one-site study",
+    "min": 45,
+    "pts": [
+     "Write limits for a new study",
+     "Say how far results apply",
+     "Offer a next test"
+    ],
+    "ex": "Case card 2: a small study with one site, 10 plants per group (20 in all), measured at day 14. Limits paragraph: \"Only one site and one soil were tested, so results may not apply elsewhere. Only day 14 was measured. A repeat at a second site would help.\"",
+    "std": "Write an honest limits paragraph for a small one-site study, stating what was not tested, the possible errors and what further test would help."
+   },
+   {
+    "t": "Reviewer comments and portfolio",
+    "min": 35,
+    "pts": [
+     "Read the comment fairly",
+     "Answer with evidence or a change",
+     "Keep the report as evidence"
+    ],
+    "ex": "Reviewer: \"Results come from one site only.\" Reply: \"Thank you. We have added this to the limits and stated that other sites were not tested.\" Change made, 1 of 1 comments answered politely. Final report passes all 8 checklist items.",
+    "std": "Respond to a reviewer comment politely with evidence or a change, revise the report, and compile it into a portfolio with a short reflection."
+   }
+  ],
+  "extra_check": {
+   "q": "A report cites 3 sources in the text but its reference list has 2 entries. What is wrong and what do you do?",
+   "a": "One cited source is missing from the list, so add it, in the same style, so each citation matches an entry.",
+   "module": 2
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What is a report",
+    "note": "A report tells others what was asked, done and found, so they can check it. At this level the learner knows that honest reporting means saying what the data show and nothing more."
+   },
+   {
+    "t": "L2 Awareness: The standard sections",
+    "note": "Show the eight sections: title, abstract, introduction, methods, results, discussion, limits, references. The learner at this level can name each part and say where a table of results belongs."
+   },
+   {
+    "t": "L3 Foundation: Cite and state limits",
+    "note": "Learners add citations in one agreed style under supervision and write one sentence on what was not tested. They follow a model report and a checklist for each section."
+   },
+   {
+    "t": "L4 Practitioner: Write the report for review",
+    "note": "This course sits here. The learner writes a complete short report alone from a result table, cites every source in one style, states at least three limits and answers a reviewer politely."
+   },
+   {
+    "t": "L5 Specialist: Critical reviewing",
+    "note": "The specialist reviews others' reports for claims beyond the data, missing sources and weak limits, and writes useful comments. They coach colleagues in answering reviewers with evidence or a change."
+   },
+   {
+    "t": "L6 Advanced: Quality across reports",
+    "note": "The advanced worker sets report templates and review rules, samples reports for missing limits and style errors, and reports trends. Talk about how sharing raw data helps others re-check the work."
+   },
+   {
+    "t": "L7 Super expert: A reporting standard",
+    "note": "The super expert defines the organisation's reporting standard: templates, citation style, review steps, data sharing and training. They decide what reproducible means and prove it by having others re-run the work."
+   }
+  ],
+  "jobs": [
+   "Research assistant",
+   "Laboratory assistant",
+   "Technical writer",
+   "Data technician",
+   "Quality assurance assistant"
+  ]
+ },
+ "BEA-001": {
+  "task": "Take a client history before a treatment by asking the required questions in order, recording the answers dated and signed, and deciding whether to proceed or refer on.",
+  "cond": "Given a history form, a referral card, eight sample histories and a role-play client, working in a two-hour supervised session; process only, with no medical advice.",
+  "std": "Finish with a form complete in all 9 fields, answers dated and signed, at least 7 of 8 sample histories decided correctly, and the form stored securely.",
+  "modules": [
+   {
+    "t": "Why history matters",
+    "min": 15,
+    "pts": [
+     "A history protects the client from harm",
+     "It proves what was asked and answered",
+     "Take it before every new treatment"
+    ],
+    "ex": "Case card: a client reports a skin rash and a new medicine. The history protects the client: the rash and the medicine are both reasons to check before any treatment. The answers are written down with the date so they can be shown later.",
+    "std": "Explain why a client history is taken before treatment, naming how it protects the client from harm and why it is recorded."
+   },
+   {
+    "t": "Required questions in order",
+    "min": 25,
+    "pts": [
+     "Ask the required questions in order",
+     "Use plain, kind wording",
+     "Leave no field blank"
+    ],
+    "ex": "The form has 9 fields in order: name, contact, reason for visit, allergies, skin conditions, medicines, pregnancy, previous reactions, consent to record. 5 are health questions (allergies to previous reactions) and 4 are admin, so 5 + 4 = 9.",
+    "std": "Ask the required history questions in order, covering allergies, skin conditions, medicines, pregnancy and previous reactions, so every required field is complete."
+   },
+   {
+    "t": "Recording clearly",
+    "min": 20,
+    "pts": [
+     "Date and sign every record",
+     "Record a refusal",
+     "Keep the form secure; share only with consent"
+    ],
+    "ex": "Entry: \"14 Jun. Pregnancy: client declined to answer. Treatment limited. Signed client, signed therapist.\" Date, answer, refusal and both signatures are present. The form is kept in a locked cabinet.",
+    "std": "Record a client's answers clearly on the form, dated and signed, and note any refusal to answer, while keeping the form secure."
+   },
+   {
+    "t": "When to refer on",
+    "min": 25,
+    "pts": [
+     "Refer when it is beyond your scope",
+     "Refer when it is unsafe to proceed",
+     "Record the referral"
+    ],
+    "ex": "8 sample histories, 7 correct needed, which is 7 of 8 or 87.5%. A learner who gets 6 right has 75%, below the standard, and revisits the referral card. Reasons to refer include a new medicine with a rash and recent surgery.",
+    "std": "Identify from sample histories the reasons not to proceed and refer the client on to the right person, with at least 7 of 8 correct."
+   },
+   {
+    "t": "Role-play",
+    "min": 10,
+    "pts": [
+     "Ask a follow-up for each warning sign",
+     "Do not give medical advice",
+     "Decide: proceed or refer on"
+    ],
+    "ex": "Role-play: a client mentions recent surgery. Follow-up questions: \"When was it?\" \"Has your doctor said you can have this treatment?\" \"Any redness or healing still going on?\" Decision: refer on, and record it.",
+    "std": "Role-play taking a history from a client who mentions recent surgery or a skin condition, asking follow-up questions and deciding on referral."
+   },
+   {
+    "t": "Check",
+    "min": 5,
+    "pts": [
+     "Complete the form for a case card",
+     "Decide correctly",
+     "Store the form securely"
+    ],
+    "ex": "Check: case card with rash and new medicine. Form 9 of 9 fields complete, dated and signed. Decision: refer on, because a rash with a new medicine is outside scope. 1 of 1 decisions correct.",
+    "std": "Pass the check by completing a history form for a case card and deciding correctly whether to proceed or refer on."
+   },
+   {
+    "t": "Second case: surgery and a skin condition",
+    "min": 10,
+    "pts": [
+     "A client with two warning signs",
+     "Ask follow-ups for each",
+     "Decide and record"
+    ],
+    "ex": "Case card 2: a client had surgery 3 weeks ago and has a skin condition. Two warning signs, 2 follow-up questions each = 4 questions. Decision: refer on and record the reason, date and signature.",
+    "std": "Apply the history questions to a client with two warning signs, ask follow-up questions for each, and decide whether to proceed or refer on."
+   },
+   {
+    "t": "Updating at each visit and reflection",
+    "min": 10,
+    "pts": [
+     "Ask what has changed",
+     "Date every update",
+     "Reflect on your question order"
+    ],
+    "ex": "A client returns at weeks 0, 4 and 8, so there are 3 visits and 3 dated updates. At week 4 a new medicine is noted, and the therapist checks the referral card before any treatment.",
+    "std": "Update a history at each visit by asking what has changed, record it dated and signed, and reflect on how to improve your questioning."
+   }
+  ],
+  "extra_check": {
+   "q": "A history form has 9 required fields and a client has answered 7. How many are missing, and what do you do before treatment?",
+   "a": "2 are missing. Ask for them, or record the refusal, and follow the referral card before going ahead.",
+   "module": 3
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What is a client history",
+    "note": "A client history is a short form of questions asked before a treatment. At this level the learner knows that it keeps the client safe and must be dated and signed."
+   },
+   {
+    "t": "L2 Awareness: The required questions",
+    "note": "Show the nine fields from name to consent to record. The learner at this level can name the health questions, such as allergies and medicines, and say why each one is asked."
+   },
+   {
+    "t": "L3 Foundation: Taking and recording",
+    "note": "Learners ask the questions in order from a script, under supervision, and record answers dated and signed. They practise noting a refusal and following the referral card for simple cases."
+   },
+   {
+    "t": "L4 Practitioner: Take a history and decide",
+    "note": "This course sits here. The learner takes a full history alone, completes all nine fields, spots warning signs in sample histories, decides to proceed or refer on, and stores the form securely."
+   },
+   {
+    "t": "L5 Specialist: Complex histories",
+    "note": "The specialist handles clients with several warning signs, such as surgery and a skin condition, asks careful follow-ups, and coaches new staff. They never give medical advice and refer on at once when needed."
+   },
+   {
+    "t": "L6 Advanced: Standards for the whole salon",
+    "note": "The advanced worker designs the form and referral card, audits histories for missing fields and signatures, and reports trends. Talk about how often updates at each visit are really done."
+   },
+   {
+    "t": "L7 Super expert: A client safety system",
+    "note": "The super expert designs the history and referral system for a group of salons: forms, privacy rules, training and measures such as complete forms per month. They prove it works with audits."
+   }
+  ],
+  "jobs": [
+   "Beauty therapist",
+   "Salon receptionist",
+   "Spa assistant",
+   "Nail technician",
+   "Complementary therapy assistant"
+  ]
+ },
+ "BEA-002": {
+  "task": "Apply infection control in a treatment room by cleaning hands in order, choosing the cleaning level for each item, keeping clean and used items apart, and completing the cleaning log.",
+  "cond": "Given a hand-cleaning checklist, six sample items, a room layout and a cleaning log, working in a two-hour supervised session and following the local rule and product instructions.",
+  "std": "Finish with every hand-cleaning step in order, the right cleaning level for all six items, clean and used items kept apart, and a log complete with date, item, method and initials.",
+  "modules": [
+   {
+    "t": "Why it matters",
+    "min": 15,
+    "pts": [
+     "Missed steps can pass germs between people",
+     "Clients and staff are both at risk",
+     "A routine is proof of care"
+    ],
+    "ex": "A missed step has a cost to the client and to staff. With 3 clients in a session and one missed hand-clean each, 3 chances for contamination pass between people. Infection control lowers that risk to 0 missed steps.",
+    "std": "Explain why infection control matters in a treatment room and list the risks to clients and staff when a step is missed."
+   },
+   {
+    "t": "Hand hygiene order",
+    "min": 20,
+    "pts": [
+     "Clean hands before and after each client",
+     "Clean hands after removing gloves",
+     "Follow the steps in order"
+    ],
+    "ex": "Hand cleaning with 3 clients and gloves each time: 3 before, 3 after, 3 after glove removal = 9 hand-cleaning moments. Steps in order scored on the checklist: 6 of 6.",
+    "std": "Demonstrate hand cleaning with every step in order, before and after each client and after removing gloves, against a checklist."
+   },
+   {
+    "t": "Cleaning levels for tools",
+    "min": 25,
+    "pts": [
+     "Single-use items are used once, then discarded",
+     "Reusable items are cleaned to their level",
+     "Follow the item label and product instructions"
+    ],
+    "ex": "Six items: towel (launder), tweezers (clean, then disinfect or sterilise), nail file (single-use, discard), couch cover (single-use, discard), brush (clean, then disinfect), gloves (single-use, discard). 3 single-use + 3 reusable = 6.",
+    "std": "Choose the cleaning level for each of six items, such as towel, tweezers and gloves, and keep clean and used items apart."
+   },
+   {
+    "t": "Cleaning log",
+    "min": 15,
+    "pts": [
+     "Log date, item, method and initials",
+     "The lead checks the log weekly",
+     "A log is proof of the routine"
+    ],
+    "ex": "Log line: \"12 Jun, tweezers, disinfected, AB\" has 4 parts: date, item, method, initials. A lead checks weekly: 5 days x 6 items = 30 expected entries; 28 found means 2 missing, so the lead asks why.",
+    "std": "Record cleaning on the log with date, item, method and initials, so there is proof of the routine for a lead to check."
+   },
+   {
+    "t": "Demonstration",
+    "min": 20,
+    "pts": [
+     "Choose the cleaning level for the tool",
+     "Keep clean and used items apart",
+     "Complete the log"
+    ],
+    "ex": "Case card 2: a reusable tool touched skin. Learner demonstrates 6 of 6 steps: wash hands, clean with approved cleaner, disinfect, dry, store covered, log date and who. Clean items stay on the left, used on the right.",
+    "std": "Demonstrate the full routine on a live case where a reusable tool touched skin, choosing the cleaning level and completing the log."
+   },
+   {
+    "t": "Check",
+    "min": 5,
+    "pts": [
+     "Show hand cleaning, levels and log",
+     "Follow the local rule",
+     "Redo and note any missed step"
+    ],
+    "ex": "Check: hands 6 of 6 steps in order, 6 of 6 items sorted correctly, log has all 4 parts. If the local rule differs from the card, the local rule and the product instructions win.",
+    "std": "Pass the check by showing hand cleaning, tool cleaning levels and a complete log, following the local rule and product instructions."
+   },
+   {
+    "t": "Second case: a busy room",
+    "min": 10,
+    "pts": [
+     "Plan for several clients in a row",
+     "Rotate tool sets",
+     "Log every use"
+    ],
+    "ex": "Case card 2: 4 clients in a row and 2 sets of tweezers. Set 1 for clients 1 and 3, set 2 for clients 2 and 4, so each set rests one client length between uses. Log entries: 4, one per client, each with date, item, method and initials.",
+    "std": "Apply the cleaning routine to a busy session by planning tool sets for four clients in a row and logging each use correctly."
+   },
+   {
+    "t": "Spot the missed step and reflection",
+    "min": 10,
+    "pts": [
+     "Find the step that was skipped",
+     "Redo it and note it",
+     "Reflect on your routine"
+    ],
+    "ex": "Observed routine shows 5 of 6 steps, with drying missed. The learner redoes the tool from the cleaning step and notes \"missed drying, redone\" in the log. Now 6 of 6 steps. Reflection: why the missed step was rushed.",
+    "std": "Evaluate an observed routine, identify a missed step, correct it and record it in the log, then reflect on one habit that prevents a repeat."
+   }
+  ],
+  "extra_check": {
+   "q": "Of six items (towel, tweezers, nail file, couch cover, brush, gloves), three are marked single-use on the case card. Which three, and what do you do with them?",
+   "a": "Nail file, couch cover and gloves. Use them once, then discard them in the correct container.",
+   "module": 3
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What is infection control",
+    "note": "Infection control is the set of cleaning habits that stop germs passing between people in a treatment room. At this level the learner knows the word hygiene and why clean hands come first."
+   },
+   {
+    "t": "L2 Awareness: Hands and single-use",
+    "note": "Show the hand-cleaning moments: before, after, and after gloves. The learner at this level can name when to wash and which items are single-use, such as gloves and couch covers."
+   },
+   {
+    "t": "L3 Foundation: Cleaning levels",
+    "note": "Learners sort the six items into clean, disinfect, sterilise or discard under supervision, keep clean and used apart, and fill in a log line with a date, item, method and initials."
+   },
+   {
+    "t": "L4 Practitioner: Apply the routine and log it",
+    "note": "This course sits here. The learner demonstrates every hand-cleaning step in order, chooses the cleaning level for each item, keeps clean and used items apart, and completes the log without help."
+   },
+   {
+    "t": "L5 Specialist: Busy rooms and judgement",
+    "note": "The specialist plans tool sets for several clients in a row, handles a reusable tool that touched skin, and coaches colleagues to redo a missed step and note it. They follow the local rule."
+   },
+   {
+    "t": "L6 Advanced: Auditing the routine",
+    "note": "The advanced worker checks logs weekly for gaps, such as 28 of 30 expected entries, finds the cause of misses and reports trends. Talk about how the routine slips on the busiest days."
+   },
+   {
+    "t": "L7 Super expert: A hygiene system for the business",
+    "note": "The super expert designs the hygiene system for several rooms: layouts, tool sets, logs, training and audit measures. They decide what compliant looks like and prove it with weekly log checks."
+   }
+  ],
+  "jobs": [
+   "Beauty therapist",
+   "Nail technician",
+   "Salon assistant",
+   "Spa attendant",
+   "Barber"
+  ]
+ },
+ "BEA-003": {
+  "task": "Obtain informed consent by explaining a treatment in plain words, checking understanding before the signature, recording what was agreed, and reviewing the form when anything changes.",
+  "cond": "Given a treatment script, a consent form template, a role-play client and sample forms, working in a 90-minute supervised session; process only, with no medical advice.",
+  "std": "Finish with benefits, risks, aftercare and refusal explained in plain words, understanding checked before signing, a complete dated form held securely, and any missing item in a sample found.",
+  "modules": [
+   {
+    "t": "What consent means",
+    "min": 15,
+    "pts": [
+     "Consent must be understood",
+     "A client can withdraw it at any time",
+     "Hesitation means pause and explain"
+    ],
+    "ex": "Case card: a client hesitates about a patch test. Consent means the client understands and agrees freely, and may say no at any time. A hesitant client has not yet agreed, so the therapist waits and explains more.",
+    "std": "Explain what consent means, including that it must be understood and that a client can withdraw it at any time."
+   },
+   {
+    "t": "Explaining risks plainly",
+    "min": 25,
+    "pts": [
+     "Explain benefits, risks and aftercare",
+     "Use plain words",
+     "Say what the client can refuse"
+    ],
+    "ex": "Script: 2 benefits (smoother skin, a lasting colour), 2 risks (redness, a reaction), 3 aftercare points (keep dry, avoid sun, call if sore). \"Contraindication\" becomes \"a reason not to do the treatment\". 2 + 2 + 3 = 7 points, then \"You may say no.\"",
+    "std": "Explain a treatment to a client in plain words, covering benefits, risks, aftercare and what the client can refuse."
+   },
+   {
+    "t": "The standard form",
+    "min": 20,
+    "pts": [
+     "Complete every item on the form",
+     "Date it and name the client",
+     "Store it securely in the client file"
+    ],
+    "ex": "The form has 7 items: client name, date, treatment, what was agreed, risks explained, client signature, therapist countersign. All 7 filled, stored in the client file, kept per the retention rule.",
+    "std": "Complete the standard consent form with the date, the client's name and what was agreed, and keep it securely in the client file."
+   },
+   {
+    "t": "Reviewing when things change",
+    "min": 20,
+    "pts": [
+     "Review the form when anything changes",
+     "Explain the change",
+     "Record the new agreement before going ahead"
+    ],
+    "ex": "A form signed 1 May is reviewed on 29 May, 28 days or 4 weeks later, because the client asks for a change. The therapist explains the change, records the new agreement and a new date, and only then goes ahead.",
+    "std": "Review a signed form when anything changes, explain the change, and record the new agreement before going ahead."
+   },
+   {
+    "t": "Practice",
+    "min": 15,
+    "pts": [
+     "Do not press a hesitant client",
+     "Check understanding before signing",
+     "Record it on the template"
+    ],
+    "ex": "Role-play: client says \"I am not sure about the patch test.\" Therapist: \"That is fine. Shall I explain it again, and you can decide later?\" Understanding check: \"Can you tell me what the risk is?\" Client answers correctly, then signs.",
+    "std": "Role-play obtaining consent from a client who hesitates, checking understanding before the signature and recording it on the template."
+   },
+   {
+    "t": "Check",
+    "min": 5,
+    "pts": [
+     "Explain in plain words",
+     "Complete the form correctly",
+     "Find any missing item"
+    ],
+    "ex": "Check: a sample form has 7 items and 2 are missing (date and countersign). Finding 2 of 2 missing items, plus the plain-word explanation and a correct form, meets the standard.",
+    "std": "Pass the check by explaining a treatment in plain words, completing the form correctly, and finding any missing item in a sample form."
+   },
+   {
+    "t": "Second case: a stronger treatment",
+    "min": 5,
+    "pts": [
+     "Compare the request with the old form",
+     "Do not go ahead on old consent",
+     "Record the new agreement"
+    ],
+    "ex": "Case card 2: the client wants level 2, but the form dated 3 Mar agrees level 1. The agreement does not cover level 2 (1 level higher). Explain the added risk, record a new form with a new date, and sign before going ahead.",
+    "std": "Apply the consent steps to a request for a stronger treatment than agreed, explaining the change and recording a new dated agreement before going ahead."
+   },
+   {
+    "t": "Withdrawal, minors and reflection",
+    "min": 5,
+    "pts": [
+     "Stop when consent is withdrawn",
+     "Follow the local rule on minors",
+     "Reflect on your explanation"
+    ],
+    "ex": "Client withdraws at 10:20. Record: \"10:20 client withdrew consent; treatment stopped; recorded and countersigned.\" For a minor, follow the local rule and get guardian consent. Reflection: one plain word that worked.",
+    "std": "Explain what to do when a client withdraws consent or is a minor, record it correctly, and reflect on one way to make your explanation plainer."
+   }
+  ],
+  "extra_check": {
+   "q": "A client signed a consent form on 1 May and asks for a stronger level on 29 May. What do you do first?",
+   "a": "Explain the change and its risks in plain words, then record a new agreement and date before going ahead.",
+   "module": 4
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What is consent",
+    "note": "Consent is a client's free, understood agreement to a treatment, and it can be withdrawn at any time. At this level the learner knows that a signature alone is not enough."
+   },
+   {
+    "t": "L2 Awareness: Explaining plainly",
+    "note": "Show a script with benefits, risks and aftercare, and turn contraindication into a reason not to do the treatment. The learner at this level can use plain words and say what the client may refuse."
+   },
+   {
+    "t": "L3 Foundation: The form and the record",
+    "note": "Learners fill in the standard form with name, date, treatment and what was agreed, under supervision, and store it in the client file. They check a sample form for missing items."
+   },
+   {
+    "t": "L4 Practitioner: Obtain and record consent",
+    "note": "This course sits here. The learner explains a treatment alone, checks understanding before the signature, records the agreement, stores the form securely and reviews it when anything changes."
+   },
+   {
+    "t": "L5 Specialist: Hesitant and changing clients",
+    "note": "The specialist handles a hesitant client or a request for a stronger treatment than agreed, pauses to explain again, and records the new agreement. They coach colleagues and follow the local rule on minors."
+   },
+   {
+    "t": "L6 Advanced: Reviewing forms and practice",
+    "note": "The advanced worker audits consent forms for missing items such as dates and countersignatures, reports trends and updates scripts. Talk about why forms go missing on busy days."
+   },
+   {
+    "t": "L7 Super expert: A consent system",
+    "note": "The super expert designs the consent system across sites: scripts, forms, review triggers, secure storage and training. They set measures such as the share of complete forms and prove them with audits."
+   }
+  ],
+  "jobs": [
+   "Beauty therapist",
+   "Spa receptionist",
+   "Complementary therapy assistant",
+   "Salon assistant",
+   "Nail technician"
+  ]
+ }
+}

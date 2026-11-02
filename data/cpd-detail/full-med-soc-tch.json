@@ -1,0 +1,1235 @@
+{
+ "MED-001": {
+  "task": "Summarize a patient's status in a spoken handover, clarify unclear instructions and close with named owners for each open task",
+  "cond": "Given written case cards, recorded and live role-plays and a list of 20 phrases, in a 3-hour practical session",
+  "std": "Hand over a case card in the agreed order in under 2 minutes with no missing items, and select at least 18 of 20 plain-word phrases correctly",
+  "modules": [
+   {
+    "t": "Why handovers fail, with two invented near-miss stories",
+    "min": 30,
+    "pts": [
+     "A missed task usually comes from one gap: no named owner.",
+     "Near-miss stories show the cause without blaming a person.",
+     "Name the cause in one short sentence."
+    ],
+    "ex": "Story 1: the night nurse hears \"fluids are sorted\" but the chart is still open, and 4 hours later it shows 0 ml. Cause: no named owner for the open task.",
+    "std": "Explain, using two invented near-miss stories, how a poor handover leads to a missed task, and name the cause in each story."
+   },
+   {
+    "t": "The SBAR order, speaking it in 60 seconds",
+    "min": 40,
+    "pts": [
+     "Situation, Background, Assessment, Recommendation: four parts, in that order.",
+     "Give the main concern first, then only the background that is needed.",
+     "About 90 words fits in 40 to 60 seconds."
+    ],
+    "ex": "Situation: \"Mr A, bed 4, is due his 6 pm dressing change and says the pain is worse than this morning.\" Request: \"Please check his pain score at 6.\" Timed: 4 parts at about 15 seconds each = 60 seconds.",
+    "std": "Summarize a patient's status aloud from a case card in Situation, Background, Assessment, Recommendation order, in about 60 seconds with no missing items."
+   },
+   {
+    "t": "Repeat-back and clarifying questions",
+    "min": 30,
+    "pts": [
+     "Ask the listener to say the plan back in their own words.",
+     "One clarifying question is better than a guess.",
+     "Repeat-back catches errors early."
+    ],
+    "ex": "You say: \"Can you repeat the plan back to me?\" Listener: \"Check his pain at 6 and tell the doctor if it is higher than this morning.\" Two tasks, both correct, so the check passes.",
+    "std": "Clarify an unclear instruction in a role-play by asking one repeat-back question and asking the listener to repeat the plan back to confirm the meaning."
+   },
+   {
+    "t": "Plain words and approved abbreviations",
+    "min": 30,
+    "pts": [
+     "Use plain words, not slang.",
+     "Use only abbreviations the workplace approves.",
+     "Replace a vague phrase with the specific fact."
+    ],
+    "ex": "\"He's gone off\" becomes \"He has eaten 1 of 3 meals today.\" Phrase list scoring: 18 of 20 correct is the pass line, so 2 misses are allowed.",
+    "std": "Select plain words instead of slang or unapproved abbreviations from a list of phrases, getting at least 18 of 20 correct."
+   },
+   {
+    "t": "Practice role-plays with feedback",
+    "min": 35,
+    "pts": [
+     "Work from a case card with a clock running.",
+     "Cover patient, concern, open tasks and request.",
+     "Partner gives feedback against the checklist."
+    ],
+    "ex": "Case card: Bed 7, Mrs B, quiet voice, family at 5 pm, fluids chart open. Target: under 120 seconds. A learner takes 105 seconds and covers 7 of 7 checklist items.",
+    "std": "Demonstrate a handover under two minutes in a live role-play, using the agreed order and confirming who holds each open task."
+   },
+   {
+    "t": "Assessment and reflection",
+    "min": 15,
+    "pts": [
+     "Hand over from a new case card.",
+     "The assessor scores the 7-item role-play checklist.",
+     "Finish by naming one thing to improve."
+    ],
+    "ex": "Score sheet: 6 of 7 items ticked; the missing item is \"confirms who holds each open task\". Reflection: \"Next time I will name the person before I leave.\"",
+    "std": "Show you can hand over from a new case card in the agreed order and reflect on one thing to improve, meeting the role-play checklist."
+   },
+   {
+    "t": "Second worked case",
+    "min": 15,
+    "pts": [
+     "Use the second case card to practise the full order.",
+     "Compare it with the first case.",
+     "Check the time against the 2-minute limit."
+    ],
+    "ex": "Case card 2: Bed 3, Ms L, scan at 2 pm, needs a porter, hearing aid, daughter phoned twice. A 105-second handover leaves 15 seconds under the 120-second limit.",
+    "std": "Apply the handover order to the second case card in under 2 minutes, naming the porter task and who holds it."
+   },
+   {
+    "t": "Teach-back and peer check",
+    "min": 10,
+    "pts": [
+     "Work in pairs and swap roles.",
+     "The listener repeats three key items.",
+     "The observer scores with the checklist."
+    ],
+    "ex": "Pairs of 3: speaker 2 minutes, listener repeat-back 30 seconds, observer scoring 30 seconds. Target: listener repeats 3 of 3 items correctly.",
+    "std": "Evaluate a peer's handover against the checklist, giving one strength and one improvement, and confirm the listener repeated all three key items."
+   }
+  ],
+  "extra_check": {
+   "q": "A listener repeats back only two of your three open tasks. What do you do?",
+   "a": "Say which task was missed, state it again, and ask for a second repeat-back before you leave.",
+   "module": 3
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What a handover is",
+    "note": "A handover passes care of a patient from one person to the next. At this first step the learner can say what a handover is, why it happens at shift change, and why a missed task can hurt a patient."
+   },
+   {
+    "t": "L2 Awareness: Why handovers fail",
+    "note": "The learner can name common causes of ward handover failure, such as no named owner, slang and rushing. Two invented near-miss stories show how one gap in a handover leads to a missed task."
+   },
+   {
+    "t": "L3 Foundation: The order and plain words",
+    "note": "The learner knows the Situation, Background, Assessment, Recommendation order and can swap slang for plain words. They follow a worked example and a repeat-back, using a short case card with help."
+   },
+   {
+    "t": "L4 Practitioner: Hand over in under 2 minutes",
+    "note": "This course sits here. The learner gives a full spoken handover from a case card in the agreed order in under 2 minutes, asks one repeat-back question, and names who holds each open task."
+   },
+   {
+    "t": "L5 Specialist: Hard handovers",
+    "note": "The specialist handles harder handovers: several patients, a listener who looks confused, a noisy ward or a late change of plan. They adjust pace and wording while keeping every open task owned and confirmed."
+   },
+   {
+    "t": "L6 Advanced: Coach and improve the system",
+    "note": "The advanced practitioner observes colleagues, scores handovers against the checklist, gives specific feedback and spots repeated gaps. They suggest changes to the ward's handover routine and word lists."
+   },
+   {
+    "t": "L7 Super expert: Lead handover practice",
+    "note": "The super expert designs training and audits for handover quality across a service. They study near-miss patterns, set standards for plain words and repeat-back, and mentor others to teach the method."
+   }
+  ],
+  "jobs": [
+   "Ward nurse",
+   "Healthcare assistant",
+   "Nursing student",
+   "Clinical team leader",
+   "Care home worker"
+  ]
+ },
+ "MED-002": {
+  "task": "Record a care event as a clear, dated, signed, fact-only note, correct errors without hiding the original, and protect patient privacy",
+  "cond": "Given short scenarios, sample notes with personal details, 10 sample lines and a rule set, in a 90-minute practical session",
+  "std": "Write a note meeting every checklist item, correct an error with the original still readable, and distinguish fact from opinion in at least 9 of 10 lines",
+  "modules": [
+   {
+    "t": "What good notes do and why",
+    "min": 15,
+    "pts": [
+     "A good note is clear, fair and useful to the next reader.",
+     "Accuracy protects the patient and the writer.",
+     "Notes show the order of events."
+    ],
+    "ex": "Poor note: \"Patient grumpy, pain bad, gave him something.\" It has 0 times, 0 numbers and no signature, so the next reader cannot act on it.",
+    "std": "Describe what makes a care note clear, fair and useful, and give two reasons why a note must be accurate for the next reader."
+   },
+   {
+    "t": "Facts, time, signature",
+    "min": 25,
+    "pts": [
+     "Write the date and time of each entry.",
+     "State facts you saw or were told, with numbers.",
+     "Sign with initials and role."
+    ],
+    "ex": "\"14 Mar, 10:20. Mr A reported pain in the right knee, 7 out of 10. Dressing dry and intact. Told nurse in charge at 10:25. Signed: initials, role.\" That ticks 6 of 6 checklist items.",
+    "std": "Record an event from a short scenario with date, time, facts only and signature, meeting every item on the checklist."
+   },
+   {
+    "t": "Correcting errors and late entries",
+    "min": 20,
+    "pts": [
+     "Draw one line through the error so it can be read.",
+     "Write error, then initials and date.",
+     "Mark a late entry with the real time of writing."
+    ],
+    "ex": "At 10:40 you find 7 should be 6. Line through 7, write \"error\", initials, 14 Mar 10:40, then add: \"Correct: 6 out of 10.\" Original still readable.",
+    "std": "Correct an error in a sample note with one line, the word error, initials and date, keeping the original readable, and mark a late entry."
+   },
+   {
+    "t": "Privacy and need-to-know",
+    "min": 15,
+    "pts": [
+     "Share only what the reader needs for care.",
+     "Leave out home address and family detail unless needed.",
+     "Only people with a care need may read the note."
+    ],
+    "ex": "Sample note has 5 personal details. Keep 2 needed for care (pain score, allergy) and remove 3 (home address, phone, family dispute).",
+    "std": "Protect privacy by removing every personal detail not needed for care from a sample note, and say who may read a note."
+   },
+   {
+    "t": "Write-and-score practice",
+    "min": 10,
+    "pts": [
+     "Write the note from the fall scenario.",
+     "Score it on the 6-item checklist.",
+     "Name any gap."
+    ],
+    "ex": "Fall with no injury, 2:15 pm: \"Found sitting on the floor by bed. No injury seen. Helped to chair. Told nurse in charge 2:20.\" Score 5 of 6, gap: no signature.",
+    "std": "Write a note for a short scenario about a fall with no injury, then score it against the checklist and name any gaps."
+   },
+   {
+    "t": "Check and reflection",
+    "min": 5,
+    "pts": [
+     "Sort 10 lines into fact or opinion.",
+     "Pass is 9 of 10.",
+     "Reflect on one habit to change."
+    ],
+    "ex": "\"He was crying\" is fact; \"He seemed upset\" is opinion. A learner gets 9 of 10 right, meets the pass line, and plans to replace \"appeared to\" with what they saw.",
+    "std": "Distinguish fact from opinion in 10 sample lines, getting at least 9 correct, and reflect on one way to improve your own notes."
+   },
+   {
+    "t": "Second worked case: the refused meal",
+    "min": 10,
+    "pts": [
+     "Write the second case card as a note.",
+     "Quote the person's words.",
+     "Record both offers with times."
+    ],
+    "ex": "Resident refused a meal at 12:30: \"I'm not hungry.\" Re-offered 13:15, accepted soup. Note: 12:30 declined, 13:15 soup accepted, 45 minutes between offers.",
+    "std": "Write a note for the refused-meal case with both times, the quoted words and a signature, and score it against the checklist."
+   },
+   {
+    "t": "Peer review and portfolio",
+    "min": 10,
+    "pts": [
+     "Swap notes with a partner.",
+     "Score each other's note.",
+     "Keep your best two notes in a portfolio."
+    ],
+    "ex": "Partner scores your note 5 of 6 on the checklist. After fixing the missing time, you re-score it 6 of 6 and file it in your portfolio.",
+    "std": "Review a partner's note against the checklist, name one strength and one gap, and revise your own note to reach every item."
+   }
+  ],
+  "extra_check": {
+   "q": "A note is written at 4 pm about an event at 2 pm. How do you mark it?",
+   "a": "Mark it as a late entry, giving the real time of writing (4 pm) and the time of the event (2 pm).",
+   "module": 3
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: Why we write care notes",
+    "note": "A care note is a written record of what happened to a person in care. At this first step the learner can say why notes are written, who reads them and why they must be true."
+   },
+   {
+    "t": "L2 Awareness: Fact, opinion and privacy",
+    "note": "The learner knows the difference between a fact such as \"he was crying\" and an opinion such as \"he seemed upset\", and knows that notes are private and shared only with people who need to know."
+   },
+   {
+    "t": "L3 Foundation: Date, time, signature",
+    "note": "The learner can copy a good note pattern: date and time, what was seen, what was done, who was told and a signature. They find the gaps in a poor sample note with help."
+   },
+   {
+    "t": "L4 Practitioner: Write notes to the standard",
+    "note": "This course sits here. The learner writes a full note from a scenario meeting every checklist item, corrects an error with one line and keeps personal details to what care needs."
+   },
+   {
+    "t": "L5 Specialist: Hard notes",
+    "note": "The specialist records harder events: refusals, falls, late entries and shared records. They choose exact words, quote the person and decide what to leave out for a wider team."
+   },
+   {
+    "t": "L6 Advanced: Audit and coach",
+    "note": "The advanced practitioner audits a set of notes against the checklist, spots patterns such as missing times, and coaches colleagues with specific, kind feedback. They report the audit results as simple class-style patterns, not as blame, so that staff can see where notes improve."
+   },
+   {
+    "t": "L7 Super expert: Shape recording practice",
+    "note": "The super expert sets recording standards for a service, links note quality to safer care, and trains others to teach fact-based writing and privacy-aware sharing."
+   }
+  ],
+  "jobs": [
+   "Healthcare assistant",
+   "Care home worker",
+   "Nurse",
+   "Support worker",
+   "Ward clerk"
+  ]
+ },
+ "MED-003": {
+  "task": "Introduce yourself, explain care steps in plain words, respond to worried family members and check understanding with teach-back",
+  "cond": "Given role-plays, a care card and recorded and live scenarios, in a 4-hour practical session with feedback",
+  "std": "Use the greeting and the patient's name correctly, have the listener repeat an explanation correctly, and use teach-back at least twice in a live role-play",
+  "modules": [
+   {
+    "t": "Respect, names and greetings",
+    "min": 30,
+    "pts": [
+     "Greet, give your name and role, and ask permission.",
+     "Use the patient's name respectfully.",
+     "Respect shows in tone as well as words."
+    ],
+    "ex": "\"Good morning, Mrs C. My name is ___ and I am your nurse today. I will check your blood pressure now. Is that all right?\" That covers 4 of 4 parts: greeting, name, role, permission.",
+    "std": "Introduce yourself and your role in a role-play with the agreed greeting, using the patient's name correctly and respectfully."
+   },
+   {
+    "t": "Explaining a step in plain words",
+    "min": 40,
+    "pts": [
+     "Break a step into short plain sentences.",
+     "One idea per sentence.",
+     "Avoid medical shorthand."
+    ],
+    "ex": "\"You are nil by mouth\" becomes \"Please do not eat or drink anything until the doctor says.\" 16 words become 2 clear actions.",
+    "std": "Explain a care step from a care card in plain words so the listener can repeat it back correctly."
+   },
+   {
+    "t": "Worry and feelings: Listen, Acknowledge, Explain, Check",
+    "min": 45,
+    "pts": [
+     "Listen, Acknowledge, Explain, Check.",
+     "Do not promise what you cannot keep.",
+     "Stay calm and use their words."
+    ],
+    "ex": "\"I can see this is worrying for you. The doctor is coming within the hour. Would you like me to write that down? What questions do you have?\" All 4 steps in under 30 seconds.",
+    "std": "Respond to a worried family member with Listen, Acknowledge, Explain and Check, using calm, respectful words and making no promises you cannot keep."
+   },
+   {
+    "t": "Interpreters and when to use them",
+    "min": 25,
+    "pts": [
+     "Use an approved interpreter when understanding is not secure.",
+     "Never use a child to translate.",
+     "Speak to the patient, not the interpreter."
+    ],
+    "ex": "A patient answers \"yes\" to 3 different questions with the same word. Three answers in a row that do not fit signals the need for an approved interpreter.",
+    "std": "Decide when an interpreter is needed and describe how to use an approved service, without relying on a family member or child to translate."
+   },
+   {
+    "t": "Escalating a concern in writing and by voice",
+    "min": 30,
+    "pts": [
+     "Use who, what, when.",
+     "Say it in writing and by voice.",
+     "Follow the local route."
+    ],
+    "ex": "\"To: nurse in charge. Mr D, bed 2, started feeling dizzy at 3:10 pm. He is sitting. Please come now.\" Who, what and when are all present in 20 words.",
+    "std": "Escalate a concern with a short message stating who, what and when, in writing and by voice, following the local route."
+   },
+   {
+    "t": "Role-play practice",
+    "min": 50,
+    "pts": [
+     "Practise the four steps live.",
+     "Use teach-back at least twice.",
+     "Receive feedback from the observer."
+    ],
+    "ex": "Case card: daughter asks why her father is not eating; 2 minutes. You use teach-back twice: \"Can you tell me what you will do tonight?\" and \"What will you tell your brother?\"",
+    "std": "Demonstrate the four steps in a live role-play, using teach-back at least twice to confirm the person understood."
+   },
+   {
+    "t": "Assessment and reflection",
+    "min": 20,
+    "pts": [
+     "Handle a request you may not share.",
+     "Escalate to the nurse in charge.",
+     "Reflect on two improvements."
+    ],
+    "ex": "A son asks to \"tell him everything\". You say \"Only the nurse in charge can share details; I will ask her to come now.\" Then you note 2 improvements: slower pace and one more teach-back.",
+    "std": "Show you can handle a new case card, including a request for information you may not share, and reflect on two things to improve."
+   },
+   {
+    "t": "Second worked case: the closed question",
+    "min": 15,
+    "pts": [
+     "Compare closed and open questions.",
+     "Open questions tell you more.",
+     "Rewrite closed questions as open ones."
+    ],
+    "ex": "\"Are you in pain?\" gets yes or no. \"Tell me about the pain\" gets location, level and time. Rewrite 3 closed questions as open ones in 5 minutes.",
+    "std": "Rewrite three closed questions as open questions and use one in a short role-play to learn something new from the patient."
+   }
+  ],
+  "extra_check": {
+   "q": "A patient nods but looks confused after your explanation. What do you do?",
+   "a": "Do not take the nod as understanding. Rephrase more simply and ask them to say it back in their own words.",
+   "module": 4
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: Hello and respect",
+    "note": "The learner can greet a patient politely, say their own name and role, and use the patient's name. This first step builds the habit of respect before any care step is explained."
+   },
+   {
+    "t": "L2 Awareness: Why language matters",
+    "note": "The learner understands how a second language can hide worry and confusion for patients and families. They notice slow speech, simple words and interpreters as ways to help."
+   },
+   {
+    "t": "L3 Foundation: Plain explanations",
+    "note": "The learner can explain a simple care step in short plain sentences with help from a care card, and can ask the patient to repeat the step in their own words."
+   },
+   {
+    "t": "L4 Practitioner: Talk and check",
+    "note": "This course sits here. The learner introduces themselves, explains a care step, responds to a worried relative with Listen, Acknowledge, Explain, Check and uses teach-back at least twice."
+   },
+   {
+    "t": "L5 Specialist: Sensitive conversations",
+    "note": "The specialist handles sensitive talks: a relative who wants all information, bad news the nurse in charge will give, or an accent that is hard to follow, using escalation and interpreters well."
+   },
+   {
+    "t": "L6 Advanced: Coach colleagues",
+    "note": "The advanced practitioner observes others, gives feedback on tone, plain words and teach-back, and builds simple phrase cards for common care steps in the ward."
+   },
+   {
+    "t": "L7 Super expert: Lead communication",
+    "note": "The super expert designs communication training for international staff, reviews patient feedback, and sets standards for interpreters, escalation and respectful language across a service. They also review patient and family feedback each quarter and use it to refine the training."
+   }
+  ],
+  "jobs": [
+   "Registered nurse",
+   "Healthcare assistant",
+   "Care worker",
+   "Patient liaison officer",
+   "Nursing student"
+  ]
+ },
+ "SOC-001": {
+  "task": "Plan, carry out and record a safe, fair home visit, rating risk on a three-level scale and reporting concerns to a supervisor in time",
+  "cond": "Given case summaries, a worker-safety checklist and role-plays, in a 4-hour practical session",
+  "std": "List at least 6 relevant risk factors with sources, rate each case Low, Medium or High with the right action, and record a complete visit note the same day",
+  "modules": [
+   {
+    "t": "Purpose and limits of a visit",
+    "min": 25,
+    "pts": [
+     "A visit checks safety and listens to the person.",
+     "A visit has limits: it is not a full assessment.",
+     "If the person refuses help, record it and tell the manager."
+    ],
+    "ex": "Mr F refuses help twice. You record: \"Mr F said, 'I don't need anyone.' Offered help at 10:05 and 10:20. Told the manager at 10:40.\" Refusal and reasons recorded.",
+    "std": "Explain what a home visit is for and where its limits lie, and state what to do when the person refuses help."
+   },
+   {
+    "t": "Seeing: signs of risk",
+    "min": 45,
+    "pts": [
+     "Look at cooking, floors, food, warmth and signs of fear.",
+     "Note the source: seen, told or read.",
+     "Look for protective factors too."
+    ],
+    "ex": "Mrs E's visit: cooker left on (seen), no food in fridge (seen), uses a stick (seen), floor clear (seen), smoke alarm present (seen), neighbour calls daily (told). 6 factors listed, 6 sources.",
+    "std": "Identify risk signs in a case summary, such as unsafe cooking, trip hazards or neglect, and list at least six factors with the source of each."
+   },
+   {
+    "t": "Rating on the 3-level scale",
+    "min": 30,
+    "pts": [
+     "Low means routine; Medium means action within the week; High means same-day action and the manager.",
+     "Rate the highest risk, not the average.",
+     "State the action for the rating."
+    ],
+    "ex": "Mrs E: cooker left on = Medium. Action: agree a cooker timer, add a food check next visit, within 7 days. Mr F: unopened post for 2 days = High, same-day manager call.",
+    "std": "Rate a visit as Low, Medium or High using the three-level scale, and state the action each rating needs, including same-day manager contact for High."
+   },
+   {
+    "t": "Talking with the person respectfully",
+    "min": 30,
+    "pts": [
+     "Start with the person's own view.",
+     "Listen before you advise.",
+     "Use their name and a calm tone."
+    ],
+    "ex": "Opening: \"Mrs M, how are things at home for you at the moment?\" Then 30 seconds of listening before any advice. She says the heating costs too much, so that becomes a noted concern.",
+    "std": "Talk with the person respectfully in a role-play, starting from their own view of their situation and listening before you advise."
+   },
+   {
+    "t": "Recording the visit",
+    "min": 30,
+    "pts": [
+     "Record facts seen, rating, action, who was told and time.",
+     "Write it the same day.",
+     "Keep facts and opinion apart."
+    ],
+    "ex": "\"Door opened after 3 minutes. Cooker left on, no food in fridge. Rating: Medium (cooker). Action: cooker timer. Told team lead 14:30.\" Five required items all present.",
+    "std": "Record a visit note with facts seen, rating, action, who was told and the time, written promptly on the same day."
+   },
+   {
+    "t": "Practice with case cards",
+    "min": 35,
+    "pts": [
+     "Use Mr F and Mrs M case cards.",
+     "List signs, rate and name the first action.",
+     "Check against the scale."
+    ],
+    "ex": "Mr F, 82, post unopened, not seen for 2 days: signs = 2 (post, neighbour report), rating High, first action: call the manager and request a same-day welfare check.",
+    "std": "Apply the scale to a case card such as Mr F or Mrs M by listing signs, giving a rating and naming the first action."
+   },
+   {
+    "t": "Assessment",
+    "min": 15,
+    "pts": [
+     "Plan, rate and record a new case.",
+     "Report a concern in the agreed time.",
+     "Reflect on one improvement."
+    ],
+    "ex": "New case: 3 signs, rating Medium, note written by 16:00, supervisor told within 1 hour of leaving. You meet both time limits and name one improvement.",
+    "std": "Show you can plan, rate and record a visit from a new case summary and report a concern to a supervisor in the agreed time."
+   },
+   {
+    "t": "Second worked case and lone working",
+    "min": 30,
+    "pts": [
+     "Use the Mrs M case.",
+     "Plan arrival, exit and check-in steps.",
+     "Leave and report if you feel unsafe."
+    ],
+    "ex": "Mrs M, 76: damp smell, heating off, says \"I'm fine.\" 3 signs, rating Medium. Plan: check-in call before entry at 10:00 and after exit at 10:45.",
+    "std": "Plan a lone visit with arrival, exit and check-in steps, then rate the Mrs M case and name the first action."
+   }
+  ],
+  "extra_check": {
+   "q": "What is a protective factor, and how does it change your rating?",
+   "a": "Something that lowers risk, such as a daily visitor. It may keep a rating lower but never hides a clear serious risk.",
+   "module": 2
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What a home visit is",
+    "note": "A home visit is a planned call at someone's home to see how they are. The learner can say why visits happen, who goes, and that the person's own views come first."
+   },
+   {
+    "t": "L2 Awareness: Spotting risk",
+    "note": "The learner knows common home risks such as unsafe cooking, trip hazards, no food, cold rooms and signs of fear or neglect, and knows that protective factors can lower risk."
+   },
+   {
+    "t": "L3 Foundation: Safe and respectful",
+    "note": "The learner can prepare for a visit with a safety checklist, greet respectfully, and note what they see. They follow the three-level scale with help from a worked example."
+   },
+   {
+    "t": "L4 Practitioner: Rate, act and record",
+    "note": "This course sits here. The learner lists at least six risk factors with sources, rates a case Low, Medium or High, takes the matching action and writes a complete note the same day."
+   },
+   {
+    "t": "L5 Specialist: Complex homes",
+    "note": "The specialist handles harder visits: a person who refuses help, mixed signals, several risks at once or a worker who feels unsafe, balancing respect with duty to report."
+   },
+   {
+    "t": "L6 Advanced: Review and coach",
+    "note": "The advanced practitioner checks colleagues' ratings against the scale, finds inconsistent notes and coaches workers on fair, evidence-based risk judgements. They compare ratings on the same case card across several workers and discuss any difference until the scale is applied the same way."
+   },
+   {
+    "t": "L7 Super expert: Shape visit practice",
+    "note": "The super expert designs the visit process for a team, sets the rating scale and time limits, audits outcomes and trains supervisors to act fast on High ratings."
+   }
+  ],
+  "jobs": [
+   "Social care worker",
+   "Support worker",
+   "Community care assistant",
+   "Housing support officer",
+   "Care coordinator"
+  ]
+ },
+ "SOC-002": {
+  "task": "Decide whether a situation is a concern, write a fact-only report with exact words, choose the right reporting route and protect confidentiality",
+  "cond": "Given scenarios, case cards, your organisation's route card and a sample record, in a 3-hour practical session",
+  "std": "Write a report with exact quoted words, date, time and witness and no opinion, tell the right person within the required time, and share only what the route needs",
+  "modules": [
+   {
+    "t": "What counts as a concern",
+    "min": 15,
+    "pts": [
+     "A concern is anything that may mean a person is at risk.",
+     "Decide using what you saw or heard.",
+     "Give a reason for the decision."
+    ],
+    "ex": "Ms G says \"He takes my money\" and shows a 3 cm bruise on her left forearm. Concern? Yes: a disclosure plus a mark. Reason recorded in one sentence.",
+    "std": "Decide whether a situation counts as a concern, using a short scenario, and give the reason for your decision."
+   },
+   {
+    "t": "Writing facts only",
+    "min": 25,
+    "pts": [
+     "Quote the person's own words.",
+     "Add date, time, witness and what you saw.",
+     "Leave out opinion."
+    ],
+    "ex": "\"On 3 Nov at 11:00 Ms G said, 'He takes my money.' She pointed to a bruise on her left forearm, about 3 cm.\" Not acceptable: \"I think her son is abusing her.\"",
+    "std": "Write a concern report with the exact words in quotes, date, time and witness, using facts only and no opinion."
+   },
+   {
+    "t": "Who to tell and how fast",
+    "min": 20,
+    "pts": [
+     "Use the route card in your policy.",
+     "Tell the lead first, within the stated time.",
+     "Use the alternative route if the lead is the concern."
+    ],
+    "ex": "You hear at 11:00 and tell the safeguarding lead at 11:20: 20 minutes, inside a 60-minute limit. If the lead is the concern, the policy's alternative route applies.",
+    "std": "Select the correct reporting route from your organisation's policy and tell the right person within the required time, including the alternative route."
+   },
+   {
+    "t": "Confidentiality and sharing",
+    "min": 15,
+    "pts": [
+     "Do not promise secrecy.",
+     "Share only what the route needs.",
+     "Tell the person who must be told."
+    ],
+    "ex": "Report has 8 details. Route needs 5 (words, date, time, mark, witness). Remove 3 (unrelated family history, address, phone). Say: \"I must tell my lead to keep you safe.\"",
+    "std": "Protect confidentiality by sharing only what the route needs, and explain to the person who must be told instead of promising secrecy."
+   },
+   {
+    "t": "Practice",
+    "min": 10,
+    "pts": [
+     "Use the burn case card.",
+     "Write the report and choose who to tell.",
+     "Score with the fact-not-opinion test."
+    ],
+    "ex": "Unexplained burn on a hand, 2 cm, seen at 14:05; person said \"I don't know.\" You report at 14:15, within a 30-minute limit. Facts: 4, opinions: 0.",
+    "std": "Write and score a report for a case card, such as an unexplained burn or a bruise, and choose who to tell from the route card."
+   },
+   {
+    "t": "Check",
+    "min": 5,
+    "pts": [
+     "Review a sample record.",
+     "Name two improvements.",
+     "Use the fact test on each line."
+    ],
+    "ex": "Sample record: 6 lines, 4 facts and 2 opinions (\"seemed scared\", \"probably his son\"). Improvements: replace both with what you saw and heard.",
+    "std": "Reflect on one sample record and name two things to improve, using the fact-not-opinion test."
+   },
+   {
+    "t": "Second worked case: the child and the bruise",
+    "min": 45,
+    "pts": [
+     "Use case card 2.",
+     "Write the words exactly.",
+     "Name the route and the time limit."
+    ],
+    "ex": "A child at a day centre says a bruise came \"from Dad's belt.\" Quote the words in 7 words, record date, time and witness, and tell the lead within the time limit.",
+    "std": "Write a report for the child case with the words quoted exactly, no questions asked, and name the route and who to tell."
+   },
+   {
+    "t": "Peer review and reflection",
+    "min": 45,
+    "pts": [
+     "Swap reports with a partner.",
+     "Score each for fact and opinion.",
+     "Plan one change to your own writing."
+    ],
+    "ex": "Partner finds 2 opinion words in your 9-line report. You replace them and re-score: 0 opinions, 9 of 9 lines factual.",
+    "std": "Evaluate a peer's report with the fact-not-opinion test, give two improvements and revise your own report to remove any opinion."
+   }
+  ],
+  "extra_check": {
+   "q": "A person tells you something serious and asks you to keep it secret. What do you say?",
+   "a": "Say you cannot keep it secret, explain who must be told and why, and report it by the route in policy.",
+   "module": 4
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What a concern is",
+    "note": "A safeguarding concern is a worry that a person may be hurt or at risk. The learner can say what a concern looks like and that every worry should be reported, not kept private."
+   },
+   {
+    "t": "L2 Awareness: Fact not opinion",
+    "note": "The learner knows that a good report uses facts and exact words, and that opinion such as \"I think he is abusing her\" does not belong. They can sort sample lines into fact or opinion."
+   },
+   {
+    "t": "L3 Foundation: Who to tell",
+    "note": "The learner can find the reporting route in their policy, name the lead, and explain that reporting is quick and that secrecy cannot be promised."
+   },
+   {
+    "t": "L4 Practitioner: Document the concern",
+    "note": "This course sits here. The learner writes a full report with quoted words, date, time and witness, chooses the route, tells the right person in time and shares only what is needed."
+   },
+   {
+    "t": "L5 Specialist: Hard cases",
+    "note": "The specialist handles harder reports: a person who changes their story, a lead who is part of the concern, or a delay. They keep to facts and use the alternative route."
+   },
+   {
+    "t": "L6 Advanced: Audit records",
+    "note": "The advanced practitioner audits sample reports for opinion, missing times and over-sharing, and coaches colleagues to record fairly and safely. They give feedback that is kind, specific and tied to the fact-not-opinion test, and keep a record of common gaps for training."
+   },
+   {
+    "t": "L7 Super expert: Improve the system",
+    "note": "The super expert reviews reporting routes and time limits, trains teams, and tracks patterns across a service to make concerns easier and faster to report. Process only, no legal advice."
+   }
+  ],
+  "jobs": [
+   "Support worker",
+   "Social care assistant",
+   "Day centre worker",
+   "Residential care worker",
+   "Safeguarding administrator"
+  ]
+ },
+ "SOC-003": {
+  "task": "Prepare, run and record a person-centred review in which the person speaks first and last and every action has an owner and a date",
+  "cond": "Given a case file, meeting notes, role-plays and a checklist, in a 3-hour practical session",
+  "std": "Run a short review where the person speaks at least half the time, write actions with a named owner and date, and score the review against a checklist with reasons",
+  "modules": [
+   {
+    "t": "What person-centred means",
+    "min": 25,
+    "pts": [
+     "Person-centred means the person's goals lead.",
+     "Strengths come before problems.",
+     "The person is the expert on their own life."
+    ],
+    "ex": "Mr H's goal in his own words: \"I want to cook my own dinner again.\" The review starts from that goal, not from the list of falls.",
+    "std": "Explain what person-centred means and show how the person's own goals, strengths and wishes lead a review."
+   },
+   {
+    "t": "Preparing and inviting",
+    "min": 30,
+    "pts": [
+     "List goals, strengths and questions before the meeting.",
+     "Send a clear agenda and a welcoming time and room.",
+     "Invite a support person if wanted."
+    ],
+    "ex": "Agenda: welcome (5 min), going well (10), not working (10), goals for 3 months (10), actions (5) = 40 minutes. Invitations sent 7 days before.",
+    "std": "Prepare a review from a case file, listing the person's goals, strengths and questions first, and invite everyone with a clear agenda and a welcoming setting."
+   },
+   {
+    "t": "Running the review: person first and last",
+    "min": 40,
+    "pts": [
+     "The person speaks first and last.",
+     "Aim for at least half the talking time.",
+     "Invite them back if someone talks over them."
+    ],
+    "ex": "In a 40-minute review the person speaks for at least 20 minutes. Family member interrupts at minute 12: \"Let's hear what Mr H thinks.\"",
+    "std": "Facilitate a short review in a role-play so the person speaks first, last and for at least half the time, redirecting anyone who talks over them."
+   },
+   {
+    "t": "Setting goals with actions, owners, dates",
+    "min": 30,
+    "pts": [
+     "Every action has a named owner.",
+     "Every action has a date.",
+     "Set the next review date before you close."
+    ],
+    "ex": "Action 1: \"Book a falls check\" - owner: nurse, date: 12 Dec. Action 2: \"Try a short cooking session\" - owner: Mr H and support worker, date: 15 Dec. Next review: 15 Mar.",
+    "std": "Write an action plan from meeting notes in which every action has a named owner and a date, and set the next review date."
+   },
+   {
+    "t": "Recording and sharing",
+    "min": 20,
+    "pts": [
+     "Use plain language in the person's words.",
+     "Fill in the review form and care plan.",
+     "Share a copy with the person."
+    ],
+    "ex": "Outcome in the person's words: \"I will cook on Tuesdays with Sam.\" Recorded on the form and care plan, copy given to Mr H the same day.",
+    "std": "Record the outcome in plain language in the person's own words on the review form and care plan, and share it with the person."
+   },
+   {
+    "t": "Practice",
+    "min": 25,
+    "pts": [
+     "Use Mr H and Ms N case cards.",
+     "Plan the agenda and write three actions.",
+     "Check each action for owner and date."
+    ],
+    "ex": "Ms N wants a weekly choir; transport is the barrier. 3 actions, 3 owners, 3 dates; 3 of 3 pass the owner-and-date test.",
+    "std": "Plan and run a review for a case card, such as Mr H or Ms N, and write three actions with owners and dates."
+   },
+   {
+    "t": "Assessment",
+    "min": 10,
+    "pts": [
+     "Score a review against the checklist.",
+     "Give one reason per item.",
+     "Name one change for next time."
+    ],
+    "ex": "Checklist of 8 items: 7 ticked. Missed: next review date not set. Reason given: \"meeting ran out of time.\" Change: set the date at minute 35.",
+    "std": "Evaluate a review against a checklist, scoring each item with one reason, and name one change for next time."
+   },
+   {
+    "t": "Second worked case and reflection",
+    "min": 15,
+    "pts": [
+     "Compare two cases.",
+     "Note differences in barriers.",
+     "Plan one personal improvement."
+    ],
+    "ex": "Mr H needs a falls check (health barrier); Ms N needs transport (travel barrier). 2 cases, 6 actions in total, 6 of 6 with owner and date.",
+    "std": "Compare the Mr H and Ms N reviews, identify the barrier in each, and justify one improvement to your own facilitation."
+   }
+  ],
+  "extra_check": {
+   "q": "What do you do if family members disagree with the person's wishes?",
+   "a": "Record both views, keep the person's wishes leading unless local capacity rules apply, and tell the manager.",
+   "module": 4
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What a review is",
+    "note": "A review is a meeting to check how a person's care is going. The learner can say that the person is invited, is heard first, and decides what matters most."
+   },
+   {
+    "t": "L2 Awareness: Person-centred thinking",
+    "note": "The learner knows that goals, strengths and wishes lead the review, and that families and workers support rather than speak for the person. They practise saying \"What matters to you?\" and listen for the answer before adding their own view."
+   },
+   {
+    "t": "L3 Foundation: Prepare well",
+    "note": "The learner can read a case file, list the person's goals and questions, and send a clear, welcoming invitation and agenda with help from a template."
+   },
+   {
+    "t": "L4 Practitioner: Run and record a review",
+    "note": "This course sits here. The learner runs a short review where the person speaks at least half the time, writes actions with an owner and date, and records the outcome in plain words."
+   },
+   {
+    "t": "L5 Specialist: Complex reviews",
+    "note": "The specialist handles reviews with several family views, communication barriers or limited capacity, keeping the person central and recording differing views fairly. They plan extra time, a support person or an advocate, and keep the person's own words in the record."
+   },
+   {
+    "t": "L6 Advanced: Evaluate and coach",
+    "note": "The advanced practitioner scores reviews with a checklist, gives specific feedback and helps colleagues improve agendas, action plans and recording. They check each action has an owner and a date, and help others tighten vague actions into clear ones."
+   },
+   {
+    "t": "L7 Super expert: Shape review practice",
+    "note": "The super expert designs the review process for a service, sets standards for person-first speaking time, audits outcomes and trains teams across sites. They also track how many actions are done on time and use the results to improve training and templates."
+   }
+  ],
+  "jobs": [
+   "Care coordinator",
+   "Support worker",
+   "Care home team leader",
+   "Community care worker",
+   "Social care assistant"
+  ]
+ },
+ "TCH-001": {
+  "task": "Write measurable lesson outcomes, align each activity and check to an outcome, and design a short check a learner can pass or not yet pass",
+  "cond": "Given a topic, a checklist and peer plans, in a 3-hour planning workshop",
+  "std": "Write three outcomes that each start with a Bloom verb, match every activity and check to one outcome, and give a peer two strengths and one improvement",
+  "modules": [
+   {
+    "t": "Outcomes and Bloom verbs",
+    "min": 35,
+    "pts": [
+     "Start each outcome with an action verb you can observe.",
+     "Replace know and understand with identify, list or calculate.",
+     "Add a measure such as 4 of 5."
+    ],
+    "ex": "Weak: \"Understand fractions.\" Strong: \"Compare two fractions with unlike denominators using the common-denominator method, getting 4 of 5 right.\" Verb: compare; measure: 4 of 5.",
+    "std": "Write three lesson outcomes for a given topic, each starting with a measurable Bloom action verb, and replace vague verbs such as know or understand."
+   },
+   {
+    "t": "Alignment: outcome, activity, check",
+    "min": 40,
+    "pts": [
+     "Each activity leads to one outcome.",
+     "Each check matches an outcome.",
+     "Spot an activity that leads nowhere."
+    ],
+    "ex": "Plan: 3 outcomes, 3 activities, 3 checks. A fourth activity, a word search, matches 0 outcomes, so it is removed. Alignment: 3 of 3 pairs.",
+    "std": "Match each activity and each check to one outcome in a plan, and spot an activity that does not lead to its outcome."
+   },
+   {
+    "t": "Designing a 5-item check",
+    "min": 30,
+    "pts": [
+     "Write 3 to 5 items for one outcome.",
+     "One correct answer per item.",
+     "Decide the pass line before teaching."
+    ],
+    "ex": "5-question exit slip on comparing fractions. Pass line: 4 of 5. A learner with 3 of 5 is \"not yet\" and is re-taught, not failed.",
+    "std": "Design a five-item check for one outcome that a learner can pass or not yet pass, with one correct answer per item."
+   },
+   {
+    "t": "Timing and flow",
+    "min": 25,
+    "pts": [
+     "Give each activity a time.",
+     "Order activities from easy to hard.",
+     "Leave time for the check."
+    ],
+    "ex": "60-minute lesson: starter 5, worked pairs 15, practice 25, exit check 10, wrap-up 5 = 60 minutes. Practice follows 3 worked pairs.",
+    "std": "Plan the timing and flow of a lesson so that each activity fits the time available and leads on to the next."
+   },
+   {
+    "t": "Practice: draft your lesson",
+    "min": 40,
+    "pts": [
+     "Draft a lesson with two to four outcomes.",
+     "Add one activity and one check for each.",
+     "Read it against your checklist."
+    ],
+    "ex": "Topic: states of matter, Year 7. 3 outcomes (describe, compare, classify), 3 activities, 3 checks of 3 items each = 9 check items.",
+    "std": "Draft a lesson of your own with two to four outcomes, one aligned activity for each, and a check for each outcome."
+   },
+   {
+    "t": "Peer feedback and assessment",
+    "min": 10,
+    "pts": [
+     "Review a peer's plan with a checklist.",
+     "Give two strengths and one improvement.",
+     "Check your own plan too."
+    ],
+    "ex": "Peer feedback: strengths: clear verbs, timed plan. Improvement: outcome 3 has no check. After the fix, 3 outcomes, 3 checks.",
+    "std": "Review a peer's plan against a checklist, giving two strengths and one improvement, and show your own lesson meets the outcome standard."
+   },
+   {
+    "t": "Second worked case",
+    "min": 10,
+    "pts": [
+     "Use the Year 7 science case card.",
+     "Write three outcomes and one check each.",
+     "Check the verbs."
+    ],
+    "ex": "States of matter: Outcome 1 \"Describe three properties of a solid in 3 sentences.\" Check: 3-item quiz, pass at 2 of 3. Three outcomes give 9 items in total.",
+    "std": "Write three outcomes with Bloom verbs for states of matter and one check item for each, then confirm each is measurable."
+   },
+   {
+    "t": "Portfolio and reflection",
+    "min": 10,
+    "pts": [
+     "Keep your best lesson plan.",
+     "Note the verbs you used.",
+     "Plan one change for your next lesson."
+    ],
+    "ex": "Portfolio: 1 plan, 3 outcomes, 3 verbs (compare, describe, classify). Reflection: \"I will replace 'learn about' in my next plan.\"",
+    "std": "Reflect on your lesson plan and justify one change that would make an outcome easier to measure."
+   }
+  ],
+  "extra_check": {
+   "q": "How can you tell whether an outcome is measurable?",
+   "a": "Check that its verb names an action you can see and that a measure, such as 4 of 5, shows when it is met.",
+   "module": 1
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What a lesson outcome is",
+    "note": "An outcome says what a learner will be able to do by the end of a lesson. The learner can tell an outcome from an activity and says why teachers write them first."
+   },
+   {
+    "t": "L2 Awareness: Verbs that can be measured",
+    "note": "The learner knows that verbs such as compare, list and calculate can be observed, while know and understand cannot. They sort sample outcomes into measurable and vague."
+   },
+   {
+    "t": "L3 Foundation: Link activity to outcome",
+    "note": "The learner can match a simple activity and a simple check to each outcome and see when an activity does not lead to any outcome."
+   },
+   {
+    "t": "L4 Practitioner: Design a measurable lesson",
+    "note": "This course sits here. The learner writes three outcomes with Bloom verbs, aligns each activity and check, designs a five-item check and reviews a peer's plan."
+   },
+   {
+    "t": "L5 Specialist: Plan across a unit",
+    "note": "The specialist plans a sequence of lessons so outcomes build from one lesson to the next, with checks that show progress across the unit. Each lesson's check feeds the next lesson's plan, so gaps are caught early rather than at the end of the term."
+   },
+   {
+    "t": "L6 Advanced: Coach and moderate",
+    "note": "The advanced practitioner reviews other teachers' plans, spots misalignment, and moderates how outcomes and pass lines are applied across a department. They give feedback in the strength, strength, improvement pattern and share good examples with the team."
+   },
+   {
+    "t": "L7 Super expert: Lead curriculum design",
+    "note": "The super expert designs outcome frameworks for a subject or school, trains teachers in alignment, and tracks whether outcomes lead to measurable learner gains. They also review results over a year to see which outcomes learners meet and which need redesign."
+   }
+  ],
+  "jobs": [
+   "Teacher",
+   "Teaching assistant",
+   "Trainee teacher",
+   "Tutor",
+   "Curriculum designer"
+  ]
+ },
+ "TCH-002": {
+  "task": "Choose and build short checks during a lesson, read class results to find the weakest topics and plan a re-teach and re-check",
+  "cond": "Given a lesson goal, a topic and class result tables, in a 3-hour practical session",
+  "std": "Select a check type that matches the lesson verb, write five clear questions, rank the weakest topics from a table and plan a re-teach with a re-check within a week",
+  "modules": [
+   {
+    "t": "Why short checks",
+    "min": 15,
+    "pts": [
+     "Short checks show what to do next.",
+     "Use them often, such as once per part of the lesson.",
+     "They are for teaching, not for ranking learners."
+    ],
+    "ex": "A 3-question exit slip takes 3 minutes. One slip per lesson, 5 lessons a week, gives 15 data points a week for 1 class.",
+    "std": "Explain why short checks during a lesson tell you what to do next, and describe how often to use them."
+   },
+   {
+    "t": "Choosing a check type",
+    "min": 25,
+    "pts": [
+     "Match the check to the verb in the goal.",
+     "Exit slips, mini whiteboards and hands-up polls differ in speed.",
+     "Pick the quickest check that shows the verb."
+    ],
+    "ex": "Goal verb: \"calculate\" so use mini whiteboards, 5 items, 4 minutes. Goal verb: \"list\" so use a hands-up poll, 1 minute.",
+    "std": "Select a check type, such as an exit slip, mini whiteboards or a hands-up poll, that matches the verb in the lesson goal."
+   },
+   {
+    "t": "Reading results quickly",
+    "min": 20,
+    "pts": [
+     "Find the lowest percentage first.",
+     "Name the two weakest topics.",
+     "Share class patterns, not individual marks."
+    ],
+    "ex": "Exit slip: Q1 90 percent, Q2 85, Q3 40. Weakest: Q3 at 40 percent, then Q2 at 85 percent. Class pattern shared; no names.",
+    "std": "Interpret a class result table quickly, naming the two weakest topics, and share class patterns rather than individual marks."
+   },
+   {
+    "t": "Planning a re-teach",
+    "min": 20,
+    "pts": [
+     "Re-teach the weakest topic with one new example.",
+     "Keep it to about 10 minutes.",
+     "Re-check within a week with a few items."
+    ],
+    "ex": "Q3 at 40 percent. Plan: 10-minute re-teach with one new example, re-check next lesson with 2 items. Target: 70 percent or more.",
+    "std": "Plan a short re-teach for the weakest topic with one new example, and set a re-check of a few items within a week."
+   },
+   {
+    "t": "Practice",
+    "min": 5,
+    "pts": [
+     "Write five clear questions.",
+     "One correct answer each.",
+     "No trick wording."
+    ],
+    "ex": "Topic: fractions. Q1 \"What is the common denominator of 1/2 and 1/3?\" Answer: 6. Five questions, 5 single answers, 0 trick words.",
+    "std": "Construct five clear questions for a topic, each with one correct answer and no trick wording."
+   },
+   {
+    "t": "Check",
+    "min": 5,
+    "pts": [
+     "Read a new table.",
+     "Rank the weakest aims and plan the next step.",
+     "Record the pattern on a class tracker."
+    ],
+    "ex": "Table of 6 aims. Weakest two: aim 4 at 35 percent, aim 6 at 48 percent. Next step: re-teach aim 4 first. Tracker updated.",
+    "std": "Interpret a new result table, rank the weakest aims, plan the next step, and record the pattern on a simple class tracker."
+   },
+   {
+    "t": "Second worked case: the results table",
+    "min": 45,
+    "pts": [
+     "Use the second table: Q1 95, Q2 60, Q3 55, Q4 90.",
+     "Rank the weakest two.",
+     "Plan the re-teach."
+    ],
+    "ex": "Q1 95, Q2 60, Q3 55, Q4 90. Average = (95+60+55+90) / 4 = 75 percent. Weakest two: Q3 at 55 and Q2 at 60. Re-teach Q3 first.",
+    "std": "Rank the weakest two questions from the second table and plan a 10-minute re-teach with a 2-item re-check."
+   },
+   {
+    "t": "Peer check and class tracker",
+    "min": 45,
+    "pts": [
+     "Swap tables with a partner.",
+     "Compare rankings.",
+     "Keep a simple class tracker."
+    ],
+    "ex": "Tracker with 4 aims and 3 weekly checks: aim 3 moves 55 to 70 to 85 percent. Peer agrees on the 2 weakest aims in 5 of 6 tables.",
+    "std": "Compare your ranking with a peer's, resolve any difference and record the pattern on a class tracker over three checks."
+   }
+  ],
+  "extra_check": {
+   "q": "What do you do if every learner gets 100 percent on a short check?",
+   "a": "Move on to the next goal or add an extension task, because the class has shown the outcome is met.",
+   "module": 3
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What a short check is",
+    "note": "A short check is a quick task during a lesson, such as an exit slip. The learner can name two quick checks and say why teachers use them."
+   },
+   {
+    "t": "L2 Awareness: Checks tell you what to do next",
+    "note": "The learner understands that results guide teaching, not just marks. A low result on one question tells the teacher what to re-teach. They see that a result of 40 percent on one question is a signal about the lesson, not about the learners."
+   },
+   {
+    "t": "L3 Foundation: Make a simple check",
+    "note": "The learner can write a small set of clear questions and run a hands-up poll or mini whiteboard check with support from a template. They practise using a five-question template and a simple tally sheet to record the results."
+   },
+   {
+    "t": "L4 Practitioner: Check, read, re-teach",
+    "note": "This course sits here. The learner selects a check type, writes five clear questions, ranks the weakest topics from a table and plans a re-teach with a re-check within a week."
+   },
+   {
+    "t": "L5 Specialist: Deeper analysis",
+    "note": "The specialist looks at results by question and by group, separates a weak question from a weak topic, and chooses the most efficient re-teach. They also test whether a weak question was badly worded before deciding to re-teach the whole topic."
+   },
+   {
+    "t": "L6 Advanced: Coach and compare",
+    "note": "The advanced practitioner helps colleagues build shared check banks, compares patterns across classes and coaches on dignity and fair sharing of results. They keep results private by showing only class patterns and agree one tracker format with the team."
+   },
+   {
+    "t": "L7 Super expert: Lead assessment practice",
+    "note": "The super expert designs a department-wide approach to formative checks, trackers and re-check timing, and measures whether re-teaching raises results. They also compare results before and after re-teaching to show which methods work best for the school."
+   }
+  ],
+  "jobs": [
+   "Teacher",
+   "Teaching assistant",
+   "Tutor",
+   "Head of department",
+   "Trainee teacher"
+  ]
+ },
+ "TCH-003": {
+  "task": "Adapt one lesson so that learners at different levels reach the same outcome by different routes, with scaffolds, extensions and recorded reasons",
+  "cond": "Given a class profile, a standard task, a ten-item worksheet and a checklist, in a 3-hour planning workshop",
+  "std": "Write three levels of one task leading to the same outcome, choose a scaffold for each learner need, and evaluate the lesson against a checklist with two changes",
+  "modules": [
+   {
+    "t": "Same outcome, different routes",
+    "min": 30,
+    "pts": [
+     "The outcome stays the same; the route changes.",
+     "Adapting does not lower the standard.",
+     "Write the outcome first."
+    ],
+    "ex": "Outcome: \"Compare two fractions.\" Level 1: pictures with halves and quarters. Level 2: common denominators with prompts. Level 3: unlike denominators and explain why. All 3 lead to one outcome.",
+    "std": "Show that the outcome stays the same while the route changes, by writing three levels of one task that all lead to that outcome."
+   },
+   {
+    "t": "Scaffolds: prompts, word banks, pictures",
+    "min": 40,
+    "pts": [
+     "Choose prompts, word banks or pictures from learner needs.",
+     "Scaffolds are temporary.",
+     "Remove them as skill grows."
+    ],
+    "ex": "Class profile: 2 learners new to the language (word bank), 3 learners who need steps (prompt card). 5 scaffolds for 5 learners, 2 types.",
+    "std": "Identify learner needs from a class profile and choose a scaffold for each, such as prompts, a word bank or pictures."
+   },
+   {
+    "t": "Extension for fast learners",
+    "min": 25,
+    "pts": [
+     "Extend with an open question or a create-a-problem task.",
+     "Do not raise the standard for others.",
+     "Keep extension optional."
+    ],
+    "ex": "Extension: \"Write a fraction pair where the larger fraction has the smaller denominator and explain why.\" Offered after 4 of 5 items are correct.",
+    "std": "Modify a task with an extension for fast learners, such as an open question or asking them to create a problem, without raising the standard for others."
+   },
+   {
+    "t": "Time and environment",
+    "min": 25,
+    "pts": [
+     "Extra time keeps the standard the same.",
+     "Adjust seating, noise and room.",
+     "Record the reason for each change."
+    ],
+    "ex": "Learner A gets 15 minutes instead of 10 (5 extra) and a seat near the board. Standard: 4 of 5 stays the same for all.",
+    "std": "Adjust time and the room for a learner who needs it, such as extra time or seating, while keeping the standard unchanged."
+   },
+   {
+    "t": "Practice: adapt your worksheet",
+    "min": 40,
+    "pts": [
+     "Turn a ten-item worksheet into three levels.",
+     "Write a five-line note on the changes.",
+     "Link each change to a learner need."
+    ],
+    "ex": "10 items become Level 1: 6 items with pictures, Level 2: 8 items with prompts, Level 3: 10 items. Note: 5 lines, 3 levels, 3 needs.",
+    "std": "Adapt a ten-item worksheet into three levels and write a five-line note explaining each change and the learner need behind it."
+   },
+   {
+    "t": "Assessment",
+    "min": 20,
+    "pts": [
+     "Score the lesson against a checklist.",
+     "Give two changes for next time.",
+     "Give a reason for each grouping."
+    ],
+    "ex": "Checklist of 8 items: 6 ticked. Two changes: shorten Level 3 instructions, add a word bank to Level 2. Groups of 4 chosen from last check results.",
+    "std": "Evaluate your adapted lesson against a checklist, giving two changes for next time and one reason for each grouping."
+   },
+   {
+    "t": "Second worked case: the reading task",
+    "min": 10,
+    "pts": [
+     "Use the second case card.",
+     "Create three versions.",
+     "Keep one outcome."
+    ],
+    "ex": "Reading task, 3 versions: Level 1 with a 10-word bank and pictures, Level 2 with a 5-word bank, Level 3 with an inference question. One outcome, 3 versions.",
+    "std": "Create three versions of the reading task that all lead to one outcome and justify the scaffold chosen for each."
+   },
+   {
+    "t": "Teach-back and portfolio",
+    "min": 10,
+    "pts": [
+     "Explain your changes to a partner.",
+     "Keep your adapted worksheet and note.",
+     "Plan one next step."
+    ],
+    "ex": "Teach-back: 2 minutes to explain 3 changes. Partner repeats 3 of 3 back. Portfolio: 1 worksheet, 1 five-line note, 1 checklist.",
+    "std": "Explain your adaptations to a peer, check the peer can repeat each reason, and file your worksheet and note in a portfolio."
+   }
+  ],
+  "extra_check": {
+   "q": "How do you decide which learner gets which version of a task?",
+   "a": "Use recent check results and the learner's needs, offer choice where you can, and review the grouping after the next check.",
+   "module": 1
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: Learners differ",
+    "note": "Learners in one class know different amounts and need different help. The learner can say why one task does not suit everyone and that adapting is a normal part of teaching."
+   },
+   {
+    "t": "L2 Awareness: Same outcome, different route",
+    "note": "The learner understands that adapting changes the route, not the standard. They can name two supports, such as a word bank and extra time. They see that a word bank or extra time helps one learner reach the same 4 of 5 pass line as everyone else."
+   },
+   {
+    "t": "L3 Foundation: Simple supports",
+    "note": "The learner can add a prompt card, pictures or a word bank to a ready-made task, with help from a checklist, and note why it was added."
+   },
+   {
+    "t": "L4 Practitioner: Adapt and evaluate",
+    "note": "This course sits here. The learner identifies learner needs, writes three levels of one task for the same outcome, adds extensions and scaffolds, and evaluates the lesson against a checklist."
+   },
+   {
+    "t": "L5 Specialist: Complex needs",
+    "note": "The specialist plans for several needs at once, such as a new language learner, a fluent reader and a learner who needs more time, and agrees plans with the support lead."
+   },
+   {
+    "t": "L6 Advanced: Coach and share",
+    "note": "The advanced practitioner shares adapted resources, coaches colleagues on scaffolds that fade, and checks that adaptations still lead to the same standard. They also keep a shared bank of word lists, picture cards and extension tasks so colleagues save planning time."
+   },
+   {
+    "t": "L7 Super expert: Lead inclusive teaching",
+    "note": "The super expert builds a department approach to adapting lessons, trains teachers, audits support notes and measures whether all learners reach the outcome. They also check results by group over time to be sure support is removed as learners grow in skill."
+   }
+  ],
+  "jobs": [
+   "Teacher",
+   "Teaching assistant",
+   "Learning support assistant",
+   "Tutor",
+   "Trainee teacher"
+  ]
+ }
+}
