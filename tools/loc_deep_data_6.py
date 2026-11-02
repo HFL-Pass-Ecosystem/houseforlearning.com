@@ -5,7 +5,7 @@ S_6 = [
 ('Check the spectrum, cable-route, tower and telecom licence rules with the regulator before any build.', 'Licence table row: operator licence, route permit, tower permit, safety rule; each has an owner and a date checked.'),
 ('Protect network data: log only what you must, lock the equipment room, and plan for outages and backups.', 'Outage sheet: a power backup of 4 hours, a spare router, and a call list for faults.'),
 ('Prove the service with a pilot: measure speed, uptime and fault fix time for 20 sites.', 'Pilot result: 20 sites, 99% uptime over 30 days, median fix time 5 hours; publish the numbers.'),
-('Price per site: build cost spread over years, plus running cost, plus margin. Calculate the payback.', 'Build 60 sites at {c} 300 = {c} 18000. Fee {c} 15 per month x 60 = {c} 900 per month. Payback 18000 / 900 = 20 months.'),
+('Price per site: build cost spread over years, plus running cost, plus margin. Calculate the payback.', 'Build 60 sites at {c} 300 = {c} 18000. Fee {c} 15 per month x 60 = {c} 900 per month. Payback {c} 18000 / {c} 900 = 20 months.'),
 ('Plan the people and partners: a licensed installer, a power supplier, a site owner, and a support person.', 'Roster: installer on call, two site owners signed, one support person on shift 8 am to 8 pm.'),
 ('Launch with a go or no-go rule: 40 paying sites in 3 months and uptime above 98%.', 'Month 3 count: 46 sites, 99% uptime: go; 22 sites: fix the offer, do not build more.')]),
 ('online-therapy', 'Online Therapy', [
@@ -14,7 +14,7 @@ S_6 = [
 ('Check licensing, privacy, consent and emergency rules with the health regulator. Partner with a licensed firm; do not give therapy yourself.', 'Rules table: licence of each therapist, consent form, emergency plan, cross-border rule; each has a date checked.'),
 ('Treat health data as the most sensitive data: collect the least, encrypt it, and set who may read it.', 'Access sheet: only the therapist and the client see notes; the admin sees bookings only.'),
 ('Gather proof the careful way: partner feedback forms, anonymous and with consent. Never publish client stories.', 'Survey: 30 clients, 24 say booking was easy and 21 would return; report the counts only.'),
-('Price per session after the partner share: fee less therapist pay, platform cost and tax. Calculate the margin.', 'Session fee {c} 60. Therapist {c} 36, platform {c} 6, payment {c} 2: left {c} 16. 40 sessions give 640.'),
+('Price per session after the partner share: fee less therapist pay, platform cost and tax. Calculate the margin.', 'Session fee {c} 60. Therapist {c} 36, platform {c} 6, payment {c} 2: left {c} 16. 40 sessions give {c} 640.'),
 ('List the roles: licensed therapists (partners), a client support person, and a safety contact. Write a handover rule.', 'Shift sheet: support person answers within 2 hours; urgent cases go to the emergency line the same hour.'),
 ('Decide a go or no-go rule: 3 licensed partners signed, the emergency plan tested, and 25 booked sessions in 6 weeks.', 'Week 6 check: 3 partners, plan tested, 31 bookings: go; plan not tested: no-go.')]),
 ('drones', 'Drones', [
@@ -41,7 +41,7 @@ S_6 = [
 ('Check medical device, drug, ethics and lab safety rules. Partner with a licensed firm for all testing and trials.', 'Rules table: lab licence, ethics approval, device class, safety rule; each has a date checked.'),
 ('Keep trial data clean: record who, what and when, keep an audit trail, and protect any patient data.', 'Data log: each sample has an ID, date, handler and storage place; no patient names.'),
 ('Gather proof from partner results: a peer-reviewed method, a lab report, and a test date. Never claim a cure.', 'Proof sheet: 3 lab runs, same result 3 times, report dated and signed by the lab.'),
-('Plan the cost of research: lab runs, materials, review and a reserve. Calculate the total.', '6 runs x {c} 500 = {c} 3000. Materials {c} 400, review {c} 300, so {c} 3700. Reserve 10% of 3700 = {c} 370: total {c} 4070.'),
+('Plan the cost of research: lab runs, materials, review and a reserve. Calculate the total.', '6 runs x {c} 500 = {c} 3000. Materials {c} 400, review {c} 300, so {c} 3700. Reserve 10% of {c} 3700 = {c} 370: total {c} 4070.'),
 ('List partners: a licensed lab, a clinical adviser, a regulatory adviser, and a university group. Write who signs off what.', 'Sign-off table: lab signs results, adviser signs the safety review, you sign the plan.'),
 ('Decide a go or no-go rule: a signed lab partner, a safety review passed, and a funded study plan before any spend.', 'Check: partner signed, review passed, {c} 4070 funded: go; review open: no-go.')]),
 ('e-commerce-inventory-management', 'E-Commerce Inventory Management', [
@@ -68,7 +68,7 @@ S_6 = [
 ('Check power connection, electrical safety, planning permit and payment rules. Use a licensed electrician for all work.', 'Rules table: grid connection, electrical permit, site lease, safety signs, payment rule; each has a date checked.'),
 ('Handle user data and payments with care: store little, use a secure payment partner, and log faults.', 'Rule: the payment partner holds card data; you keep session count and kWh only.'),
 ('Prove demand with a count: cars per hour near the site and a survey of drivers.', 'Count: 12 electric cars per day pass; 40 drivers surveyed, 28 would charge there.'),
-('Calculate payback: install cost, power cost per kWh and price per kWh.', '4 bays x {c} 6000 = {c} 24000. Sell at {c} 40 per 100 kWh, pay {c} 25: margin {c} 15 per 100 kWh. 400 kWh per day is 4 lots x 15 = {c} 60 per day; 24000 / 60 = 400 days.'),
+('Calculate payback: install cost, power cost per kWh and price per kWh.', '4 bays x {c} 6000 = {c} 24000. Sell at {c} 40 per 100 kWh, pay {c} 25: margin {c} 15 per 100 kWh. 400 kWh per day is 4 lots x {c} 15 = {c} 60 per day; {c} 24000 / {c} 60 = 400 days.'),
 ('List the partners: a licensed electrician, a hardware supplier, a site owner, and a maintenance contact.', 'Roster: electrician for install and yearly check, supplier warranty 2 years, repair call within 48 hours.'),
 ('Launch with a go or no-go rule: a signed site lease, an approved grid connection and 15 sessions a day expected.', 'Check: lease signed, connection approved, forecast 18 sessions: go; no connection date: no-go.')]),
 ('smart-apparel', 'Smart Apparel', [

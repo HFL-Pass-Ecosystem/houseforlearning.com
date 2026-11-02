@@ -6,7 +6,7 @@ import flagship_loc_four as F, loc_editions as LE, build_full_courses as B
 e = html.escape
 # per sector: (slug, topic, 8 x (lesson point, worked example sentence)); {c}=currency code
 S = [
- ('ecommerce','e- Commerce',[
+ ('ecommerce','E-Commerce',[
   ('Sell one product line to one customer group first; a wide shop hides what works.','Start with 12 products for one group; after 4 weeks drop the 6 with no orders and reorder the 3 best.'),
   ('Compare three models: own shop, marketplace, messaging-app orders. Pick by cost per order.','Own shop {c} 40 per order to win a customer, marketplace {c} 25 plus fee, app orders {c} 10 but slow: choose by margin left.'),
   ('List the shop licence, the tax set-up and the returns rule before the first listing.','Licence table row: tax registration, shop terms page, returns page, delivery terms; each has a date checked.'),

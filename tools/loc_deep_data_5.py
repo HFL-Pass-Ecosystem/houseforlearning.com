@@ -1,7 +1,7 @@
 S_5 = [
 ('robotics', 'Robotics', [
 ('Pick one task in one workplace, such as moving boxes in a small store room, and define it in numbers.', 'Task card: carry 20 kg boxes over 30 m, 100 times per day, in a dry indoor room.'),
-('Compare three models: sell robots, rent robots by the month, or sell a service done by robots. Choose by cash needed.', 'Sell {c} 8000 once, rent {c} 400 per month, service {c} 5 per box: compare after 12 months of use.'),
+('Compare three models: sell robots, rent robots by the month, or sell a service done by robots. Choose by cash needed.', 'Sell {c} 8000 once, rent {c} 400 per month, service {c} 0.25 per box: compare after 12 months of use.'),
 ('List the safety rules, electrical standards, import rules and worker rules that apply before a trial.', 'Rules table: machine safety check, emergency stop, test report, insurance note; each has a date checked.'),
 ('Log robot data, camera images and error records; keep images of people private and delete them on a set date.', 'Rule: camera images are deleted after 14 days; error logs are kept for 1 year.'),
 ('Run a 2-week trial at a customer site and measure time saved and errors.', 'Trial result: 100 boxes moved per day, 3 errors, 2 hours of staff time saved per day.'),

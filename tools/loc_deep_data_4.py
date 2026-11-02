@@ -20,7 +20,7 @@ S_4 = [
   ('Launch with a go or no-go rule: 500 orders in 6 weeks at 97% accuracy and a margin above 20%.','Week 6: 540 orders at 98%: go; 300 orders at 93%: fix process, do not take new sellers.')]),
  ('micro-mobility-services','Micro-Mobility Services',[
   ('Start with one small zone, such as a campus or a district of 1 square km, and one vehicle type.','Place 20 bikes in one zone; track rides per bike per day for 4 weeks.'),
-  ('Compare three models: own fleet, leased fleet, rental stands with a partner. Pick by cost per ride.','Per 100 rides after cost: own fleet {c} 120, leased {c} 100, stands {c} 80 with fewer rides: compare by rides per day.'),
+  ('Compare three models: own fleet, leased fleet, rental stands with a partner. Pick by cost per ride.','Per 100 rides after cost: own fleet {c} 105, leased {c} 90, stands {c} 70 with fewer rides: compare by rides per day.'),
   ('Check city permits, parking zones, speed limits, helmet and age rules, and insurance before any vehicle is out.','Rules table row: city permit, parking rule, speed cap, insurance; each has a date checked.'),
   ('Collect only trip data you need: start, end, time, payment. State why and how long you keep it.','Trip logs deleted after 90 days; location is stored only during a ride.'),
   ('Show proof: ride counts, safety record and a short rider survey.','Pilot: 20 bikes, 900 rides in 4 weeks: 1.6 rides per bike per day; 1 minor incident.'),
