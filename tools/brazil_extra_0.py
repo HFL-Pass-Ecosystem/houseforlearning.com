@@ -372,12 +372,12 @@ EXTRA = {'Automated Farming Equipment': {'growth': ('Run the growth of this busi
                                           'adjust the specification. Keep measurement sheets '
                                           'signed by the client to speed payment. Archive every '
                                           'sheet by segment name.',
-                                          'The quote was R$ 282.955 and the job cost R$ 261.000. '
-                                          'The overrun is R$ 261.000 - R$ 282.955 = R$ -21.955, or '
-                                          '-7,8% of the quote. Three rain days at R$ 2.700 of '
-                                          'standby each explain R$ 8.100 of it, leaving R$ -30.055 '
+                                          'The quote was R$ 282.955 and the job cost R$ 305.000. '
+                                          'The overrun is R$ 305.000 - R$ 282.955 = R$ 22.045, or '
+                                          '7,8% of the quote. Three rain days at R$ 2.790 of '
+                                          'idle labour each explain R$ 8.370 of it, leaving R$ 13.675 '
                                           'to investigate in the rework list. Next quote, raise '
-                                          'the rain reserve to cover 3 days, which is R$ 8.100.'),
+                                          'the rain reserve to cover 3 days, which is R$ 8.370.'),
                                'offer': ('Define the repair package per segment after a walk along '
                                          'the road. Record each defect by type, such as potholes, '
                                          'cracked edges, failed drains and worn markings, with '
