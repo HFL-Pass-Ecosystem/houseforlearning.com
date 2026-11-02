@@ -9,7 +9,7 @@ LAD = {
   ("Work out landed cost",
    "Calculate the landed cost of one product from its price, freight, duty and fees. Notes: check the sum on the course example, AED 40 + AED 6 + AED 2 + AED 12 = AED 60 per unit, and make sure every line has a unit and AED."),
   ("Run a 30-day trading pilot",
-   "Run a real or simulated 30-day pilot that covers pick, source, list, price, ship and return, with a daily log. Notes: the standard is complete records, no fake goods, and the margin worked out twice; at AED 160 per order and AED 110 cost the gain is AED 50, or 31.2 per cent."),
+   "Run a real or simulated 30-day pilot that covers pick, source, list, price, ship and return, with a daily log. Notes: the standard is complete records, no fake goods, and the margin worked out twice; at AED 160 per order and AED 110 cost the gain is AED 50, or 31.3 per cent."),
   ("Compare two products and decide",
    "Compare two products by return rate, margin and orders fulfilled without a complaint, and choose to scale, change or stop. Notes: write the rule first, for example stop if the break-even of 88 orders a month is out of reach; at 200 orders the gross gain is AED 10,000 against AED 4,400 fixed costs."),
   ("Coach a team on proof and returns",

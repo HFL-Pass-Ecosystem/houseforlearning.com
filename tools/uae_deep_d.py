@@ -98,7 +98,7 @@ D2 = {
    'Record every request in writing and confirm changes with a new price and date.',
    'Pause work if payment is more than 7 days late, as stated in the contract.',
    'Respect the client\'s content rights and credit sources properly.'],
-  'A client asks for a redesign of a fifth page after the 2 included revision rounds are used. You quote AED 400 for a third round (4 hours at AED 100 per hour). The client agrees, and the project stays profitable instead of losing 4 unpaid hours.',
+  'A client asks for a third round of changes after the 2 included revision rounds are used. You quote AED 400 for a third round (4 hours at AED 100 per hour). The client agrees, and the project stays profitable instead of losing 4 unpaid hours.',
   'Write a change request form and a polite reply declining free extra work.',
   'Form lists hours, AED price, new date and client signature; reply stays under 100 words.')],
  'web-development': [(
