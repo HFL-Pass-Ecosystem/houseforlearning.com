@@ -21,3 +21,10 @@ Checks every course page for the flagship standard (Bloom verbs, task/condition/
 python3 tools/ci_check.py
 ```
 Same as the GitHub check "Check pages" on pull requests into `claude/hfl-courses`. It fails if the rebuild changes any file, or if the audit shows a gap not already listed in `audits/course-page-audit.md`. It prints a short list of what to fix. It does not deploy and needs no secrets.
+
+## Pay-flow check (browser)
+```
+npm i --no-save playwright && npx playwright install chromium
+node tools/check_payflow.js
+```
+Opens a sample of pages from each course family (school, CPD, GL flagship, four-place editions, executive, Electrical academy and Career Launch lessons) at 1280 px and 390 px. It checks signed out, signed in, the test payment and Members > My courses, and exits with 1 if any page fails. Options: `--per-family N`, `--widths 1280,390`, `--family school,cpd`, `--pages a.html,b.html`. The GitHub check "Check pay flow" runs it by hand (Run workflow) and on pull requests that change `access.js` or `courses.css`. It is not part of "Check pages", which stays Python-only. Test only: no real money, no secrets.
