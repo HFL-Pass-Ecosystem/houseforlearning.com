@@ -162,13 +162,13 @@ def rubric(L):
             ('Customer proof','No test','20-person test counted','Test, result, change and re-test'),
             ('People and trust','No notice','Privacy notice and role card','Notice, data map, signed role card and partner letter')]
 
-def ladder(L):
+def ladder(L, extra=''):
     names = ['L1 Basic','L2 Awareness','L3 Foundation','L4 Practitioner','L5 Specialist','L6 Advanced','L7 Super expert']
     ev = ['A short glossary in two languages.','A one-page market page.','A practice registration table.','A numbers sheet and a 20-person test.','A cluster checklist with sources.','A team plan with people, partners and data.','A published local case and a plan audit.']
     rows = ''.join(f'<tr><th scope="row">{names[i]}</th><td>{e(L["ladder"][i])}</td><td>{e(ev[i])}</td></tr>' for i in range(7))
     return ('<div class="scroll-x"><table class="ws-table"><caption>Ladder L1 to L7 for this location (this course covers L1 to L4; L5 to L7 follow in the sector courses)</caption>'
             '<thead><tr><th>Level</th><th>Can do</th><th>Evidence</th></tr></thead><tbody>' + rows + '</tbody></table></div>'
-            '<p class="ws-note">Notes: each level uses action verbs (name, describe, register, run, specialise, lead, mentor). A level is passed only when its evidence is checked by a mentor and a peer.</p>')
+            '<p class="ws-note">Notes: each level uses action verbs (name, describe, register, run, specialise, lead, mentor). A level is passed only when its evidence is checked by a mentor and a peer.</p>' + extra)
 
 def clusters_html(L):
     out = ''
