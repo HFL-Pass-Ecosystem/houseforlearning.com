@@ -39,7 +39,8 @@ def practise_text(c, i, title=''):
     if tl.startswith('check'):
         return f'Take the end check for "{_low(c["title"])}": show that you can {_low(v)} {t}, {cn}, {st}, and meet every outcome standard above.'
     again = f' Use a new case this time (round {(i-1)//n+1}).' if i > n else ''
-    return f'Practise with a case card or template: {_low(v)} {t}, {cn}, {st}.{again}'
+    on = f' for "{_low(title.strip())}"' if title and title.strip() else ''
+    return f'Practise with a case card or template{on}: {_low(v)} {t}, {cn}, {st}.{again}'
 
 def build(c):
     outs = ''.join(f'<li><span class="bz">{e(v)}</span> {e(t)}, {e(cn)}, {e(s)}.</li>' for v, t, cn, s in c['outs'])
@@ -47,7 +48,7 @@ def build(c):
     for i, a in enumerate(c['agenda'], 1):
         ag += (f'<details class="mod" {"open" if i==1 else ""}><summary><span class="mn">Session {i}</span> {e(a)}</summary>'
                f'<p><strong>Learn:</strong> {e(learn_text(c, a, None))}</p>'
-               f'<p><strong>Practise:</strong> {e(practise_text(c, i))}</p>'
+               f'<p><strong>Practise:</strong> {e(practise_text(c, i, a))}</p>'
                f'<p><strong>Check:</strong> a short pass or not-yet check using the standard in the outcome.</p></details>')
     det = dict((k, v) for k, v in DET[c['code']]['detail']); fl = dict((k, v) for k, v in DET[c['code']]['flag'])
     mods = CD.modules(fl.get('Modules', []))
