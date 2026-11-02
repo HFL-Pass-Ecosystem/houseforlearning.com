@@ -5,7 +5,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import build_full_courses as B
 from flagship_data_eu_ladder import LADDER
 from flagship_eu_a_rubric import RUBRIC
-from ladder_common import deep_slide, LADDER_MODULE_IDX, quiz_for_module, pick_module
+from ladder_common import deep_slide, LADDER_MODULE_IDX, quiz_for_module, pick_module, MODULE_OVERRIDE
 LV = {1: 'L1 Basic', 2: 'L2 Awareness', 3: 'L3 Foundation', 4: 'L4 Practitioner', 5: 'L5 Specialist', 6: 'L6 Advanced', 7: 'L7 Super expert'}
 e = html.escape
 
@@ -247,7 +247,7 @@ def ladder_html(c):
     used = []
     texts = [' || '.join([m[0], m[3], ' '.join(m[4]), m[5], m[6]]) for m in c['mods']]
     for i, (tt, n) in enumerate(LADDER[c['id']], 1):
-        k = pick_module(texts, tt, n, LADDER_MODULE_IDX[i-1], used); used.append(k)
+        k = pick_module(texts, tt, n, LADDER_MODULE_IDX[i-1], used); k = MODULE_OVERRIDE.get((c['id'], i), k); used.append(k)
         on, nt = deep_slide(i, tt, n, c['mods'][k], quiz_for_module(c['quiz'], k + 1))
         out += f'<details class="mod"><summary>Slide {i}. {LV[i]}: {e(tt)}</summary><p><strong>On the slide:</strong> {LV[i]} · {e(on)}</p><p><strong>Notes:</strong> {e(nt)}</p></details>'
     return out

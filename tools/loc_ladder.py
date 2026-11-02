@@ -12,10 +12,18 @@ LN = ['L1 Basic', 'L2 Awareness', 'L3 Foundation', 'L4 Practitioner', 'L5 Specia
 def _fill(s, L):
     return s.replace('{place}', L['name']).replace('{cur}', L['cur'].split(' or ')[0])
 
-def slides_html(slug, L, esc):
-    """Seven <details> slides for a sector, or '' when none is written."""
+def slides_html(slug, L, esc, deep=None):
+    """Seven <details> slides for a sector, or '' when none is written.
+    deep = optional list of 7 (module, (question, answer) or None) from the page's own modules and checks; the slide then also carries that module's key points, example, activity, standard and check question."""
     sl = LAD.get(slug)
     if not sl: return ''
+    if deep:
+        from ladder_common import deep_slide
+        rows = []
+        for i, ((t, b, n), (mod, qa)) in enumerate(zip(sl, deep), 1):
+            on, nt = deep_slide(i, _fill(b, L).rstrip().rstrip('.'), _fill(n, L).removeprefix('Notes:').strip(), mod, qa)
+            rows.append(f'<details class="mod"><summary><span class="mn">Slide {i}</span> {LN[i-1]}: {esc(_fill(t, L))}</summary><p>{esc(on)}</p><p class="ws-note"><strong>Speaker notes.</strong> {esc(nt)}</p></details>')
+        return '<h3 class="ws-h3">Slide by slide</h3><p>Seven slides, one per level. Open each for the slide text and the speaker notes.</p>' + ''.join(rows)
     return ('<h3 class="ws-h3">Slide by slide</h3><p>Seven slides, one per level. Open each for the slide text and the speaker notes.</p>'
             + ''.join(f'<details class="mod"><summary><span class="mn">Slide {i}</span> {LN[i-1]}: {esc(_fill(t, L))}</summary><p>{esc(_fill(b, L))}</p><p class="ws-note"><strong>Speaker notes.</strong> {esc(_fill(n, L).removeprefix('Notes:').strip())}</p></details>' for i, (t, b, n) in enumerate(sl, 1)))
 
