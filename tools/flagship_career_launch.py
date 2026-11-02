@@ -25,7 +25,7 @@ M = [
    "Find strengths with two questions: where do you lose track of time, and where do others come to you for help? Ask three people who know you and compare with your own list.",
    "Decide the size of your next move: a small step (same field, next level), a bigger jump (new field, same skills) or a complete change. Each needs different evidence and a different timeline.",
    "Turn the answers into a one-page filter: top 3 motivators, top 3 strengths, move size, and three deal-breakers."],
-  "Example filter: motivators learning, balance, impact; strengths explaining, organising, calm under pressure; move size: bigger jump into training coordination; deal-breaker: more than 10 hours' commute.",
+  "Example filter: motivators learning, balance, impact; strengths explaining, organising, calm under pressure; move size: bigger jump into training coordination; deal-breaker: a commute of more than 10 hours a week.",
   "Complete the one-page filter. Test it on two real job adverts: does each pass or fail, and why?",
   "Ranking has no ties; strengths are backed by one example each; both adverts are judged against the filter in writing."),
  ("Aim, do not scatter", "Apply", 3,
@@ -44,7 +44,7 @@ M = [
    "CV: one page up to five years of experience. Three to four achievement lines per role, each with an action verb, scale, result and time. Plain layout.",
    "Public profile: headline with role and focus; first two lines of the About section with one number; three expert topics; consistent with your CV; no confidential information or personal ID."],
   "Pass one: 'Helped with school careers advice.' Pass two: 'Coached 500 students.' Pass three: 'Coached 500+ students and ran two classes of 25 so that most final-year students were ready to apply by graduation.'",
-  "Write three stories through all three passes; write one page CV; rewrite your profile headline and first two lines. See the full flagship 'Resume and Professional Profile' for the detailed method.",
+  "Write three stories through all three passes; write a one-page CV; rewrite your profile headline and first two lines. See the full flagship 'Resume and Professional Profile' for the detailed method.",
   "All stories have a number; CV is one page; two peers can repeat one number from your CV after a quick read."),
  ("Meet people before openings", "Apply", 4,
   "Hunt for conversations, not only adverts. Four routes work together: advertised roles, recruiters, your network and direct approaches.",
@@ -65,12 +65,12 @@ M = [
    "Plan the logistics: route, time, documents, a calm start."],
   "Failure story in five beats: Context (a late delivery to a key client). Challenge (fix it within two days). Action (I called the client, rebuilt the schedule, added a check). Result (arrived one day late, client stayed, check now used by the team). Lesson (confirm dates in writing).",
   "Write six stories in five beats. Do a 20-minute mock interview with a peer using a rubric. Score and note two improvements.",
-  "Each story is under 2 minutes; mock interview done; two improvements dated."),
+  "Each story takes about two minutes or less; mock interview done; two improvements dated."),
  ("Turn interviews into offers", "Evaluate", 3,
   "Follow up well and know when you have talked to enough people. Keep several serious conversations running so no single result decides your future.",
   ["Send a thank-you within the same day; add one new idea or a useful detail you forgot to mention.",
    "Ask what happens next and when you will hear back; put the date in your tracker.",
-   "As a rule of thumb, aim for about seven serious conversations at once, give or take two. Fewer makes every result feel life-or-death; more spreads you too thin.",
+   "As a rule of thumb, aim for about seven serious conversations at once, give or take two. Fewer than that makes every result feel life-or-death; more spreads you too thin.",
    "Review honestly every week: conversations held, interviews, second interviews, offers. Let the numbers guide where to spend effort.",
    "Handle silence: one polite follow-up after the stated date, then move on."],
   "Follow-up note: 'Thank you for the time today. After our talk, I thought of one more example: last quarter I cut quote time from two days to four hours. I would be glad to share the template.'",
@@ -99,7 +99,7 @@ M = [
 ]
 QUIZ = [("Why plan before you browse job boards?", "A plan gives order and focus; many roles often fill through conversations before they are advertised."),
  ("Name the four weekly blocks.", "Thinking, making, meeting, practising."),
- ("What three things form your filter?", "Motivators, strengths and move size (plus deal-breakers)."),
+ ("What goes on your one-page filter?", "Top three motivators, top three strengths, move size and three deal-breakers."),
  ("What goes on a target page?", "Why it fits, what they need, who you know, who to meet, next step with a date."),
  ("Name the three passes of an achievement story.", "What you did; what improved; what a leader would call outstanding."),
  ("Name the four search routes.", "Advertised roles, recruiters, network, direct approaches."),
@@ -117,7 +117,7 @@ JOBS = ["Career coach or advisor", "Recruitment coordinator", "HR or training as
 def build():
     mods = ''
     for i, (t, bl, h, intro, pts, ex, act, std) in enumerate(M, 1):
-        mods += (f'<details class="mod" {"open" if i==1 else ""}><summary><span class="mn">Module {i}</span> {e(t)} <span class="pill">{h} h</span><span class="pill bz">{bl}</span></summary><p>{e(intro)}</p><ul>' + ''.join(f'<li>{e(p)}</li>' for p in pts) + '</ul>'
+        mods += (f'<details class="mod" {"open" if i==1 else ""}><summary><span class="mn">Module {i}</span> {e(t)} <span class="pill">{h} hours ({h*60} minutes)</span><span class="pill bz">{bl}</span></summary><p>{e(intro)}</p><ul>' + ''.join(f'<li>{e(p)}</li>' for p in pts) + '</ul>'
                  f'<div class="evi"><strong>Worked example.</strong> {e(ex)}</div><p><strong>Activity.</strong> {e(act)}</p><p><strong>Standard to meet.</strong> {e(std)}</p></details>')
     quiz = ''.join(f'<details class="mod"><summary>Q{i+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a)}</p></details>' for i, (q, a) in enumerate(QUIZ))
     rub = ('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>' + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(c)}</td><td>{e(d)}</td></tr>' for a, b, c, d in RUBRIC) + '</tbody></table></div>')
@@ -125,7 +125,7 @@ def build():
     outs = [('Understand', 'Explain a plan-first job search and set a dated goal.'), ('Analyse', 'Name your motivators and strengths and turn them into a filter.'), ('Apply', 'Build a target board and run four search routes with a tracker.'),
             ('Create', 'Write achievement stories, a CV, a profile and six interview stories.'), ('Evaluate', 'Compare packages and negotiate honestly.'), ('Create', 'Plan your first 90 days and keep your method alive.')]
     about = B.sec('', 'ab', 'about this course', 'What you will be able to do',
-        f'<div class="cb-facts"><span class="pill lv">L4 Practitioner</span><span class="pill">9 modules · {total} h lessons plus practice</span></div>'
+        f'<div class="cb-facts"><span class="pill lv">L4 Practitioner</span><span class="pill">9 modules · about {total} hours ({total*60:,} minutes) of study and practice</span></div>'
         '<ul class="blm">' + ''.join(f'<li><span class="bz">{b}</span> {e(t)}</li>' for b, t in outs) + '</ul>'
         '<h3 class="ws-h3">Task, condition and standard</h3><div class="tcs"><div><h4>Task</h4><p>Run a complete job search from plan to accepted offer, keeping a record of every step.</p></div>'
         '<div><h4>Condition</h4><p>About 8 weeks part-time. Own phone or computer, real adverts, two peers, a mentor for the final review.</p></div>'
