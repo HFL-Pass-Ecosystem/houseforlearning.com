@@ -334,7 +334,7 @@ def how_we_help():
              btn('about.html', 'About us') + btn('contact.html', 'Contact us', True))
     m += split('our promise', 'Skills, learning and market reach',
                '<p>We help people and institutions across the world improve their skills, their learning and their reach into the market, using our digital enterprise platform, emerging technology and deep domain knowledge.</p>'
-               '<p>Our approach is open: it works with many systems, software and hardware, and many ways of doing business. It is aligned with data-protection law, the UN Sustainable Development Goals, OECD guidance, and each country and community’s own rules.</p>',
+               '<p>Our approach is open: it works with many systems, software and hardware, and many ways of doing business. It is aligned with data-protection law, sustainable development goals, international guidance, and each country and community’s own rules.</p>',
                lead='Learn and earn: bloom where you are planted. Course and career pathways: your growth is our goal.')
     m += split('think digital', 'How our digital helpers work', rows([
         ('Reading', 'Understands what a text means.'),
@@ -352,8 +352,8 @@ def how_we_help():
         'Connected-device services and people',
         'Information and communication technology services and people',
         'A full business stack (planning, customers, reporting, office tools) with no-code tools, built on our own interfaces and apps',
-        'An open-standards ecosystem of course and career pathways, joined to a marketplace and a workplace',
-        'Consultancy, channel, business-operations, support and full-service ecosystem',
+        'An open-standards network of course and career pathways, joined to a marketplace and a workplace',
+        'Consultancy, channel, business-operations, support and full-service network',
         'A partner, affiliate and value-provider network in four levels, hub and spoke',
         'Artificial intelligence and machine learning; big data and analytics']), alt=True)
     m += split('career pathways', 'Authoring, training, marketplace and workplace',
