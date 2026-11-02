@@ -179,7 +179,7 @@
    "standard": "Find mean, variance and probability: at least 70 percent on an exam-style task, with the method shown.",
    "steps": [
     "Step 1, Mean and deviations: data 4, 8, 6, 10, 12 has mean 40/5 = 8. Deviations are -4, 0, -2, 2, 4. Their squares are 16, 0, 4, 4, 16, which add up to 40.",
-    "Step 2, Variance = 40/5 = 8 and standard deviation = root 8 = about 2.83. Check: the deviations are mostly within 3 of the mean, so a spread near 2.83 is believable.",
+    "Step 2, Variance = 40/5 = 8 and standard deviation = root 8 = about 2.83. Check: the sizes of the deviations are 4, 0, 2, 2, 4, and a typical size near 2.83 is believable for this spread.",
     "Step 3, Addition rule: P(A) = 0.5, P(B) = 0.4 and P(A and B) = 0.2. Then P(A or B) = 0.5 + 0.4 - 0.2 = 0.7. Subtracting the overlap avoids double counting.",
     "Step 4, Two dice: a sum of 7 happens in 6 ways, (1,6), (2,5), (3,4), (4,3), (5,2), (6,1), out of 36. So P = 6/36 = 1/6.",
     "Step 5, Independent events: if P(A) = 0.6 and P(B) = 0.3 are independent, then P(A and B) = 0.6 x 0.3 = 0.18, and P(A or B) = 0.6 + 0.3 - 0.18 = 0.72.",

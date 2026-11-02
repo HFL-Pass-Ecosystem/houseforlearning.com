@@ -66,7 +66,7 @@
     "Step 2, Marginal cost: C(x) = 0.5x^2 + 20x + 100 has C'(x) = x + 20. At x = 10 units the marginal cost is 30, the extra cost of making the 11th unit, roughly.",
     "Step 3, Maximise revenue: R(x) = 50x - x^2. R'(x) = 50 - 2x = 0 gives x = 25. R(25) = 1,250 - 625 = 625. Second derivative -2 is negative, so it is a maximum.",
     "Step 4, Integrate: the integral of 3x^2 + 4x dx = x^3 + 2x^2 + C. Check by differentiating: 3x^2 + 4x, which returns the original expression.",
-    "Step 5, Definite integral: from 1 to 3 of 2x dx = [x^2] from 1 to 3 = 9 - 1 = 8. This is the area under y = 2x between x = 1 and x = 3, a trapezoid of widths 2 and 6 and base 2: (2 + 6)/2 x 2 = 8.",
+    "Step 5, Definite integral: from 1 to 3 of 2x dx = [x^2] from 1 to 3 = 9 - 1 = 8. This is the area under y = 2x from x = 1 to x = 3, a trapezoid with parallel sides 2 and 6 and width 2: (2 + 6)/2 x 2 = 8.",
     "Step 6, Your turn: differentiate 4x^3 - 2x + 7 and integrate 6x^2 - 2. Answer: 12x^2 - 2; and 2x^3 - 2x + C."
    ]
   },
@@ -124,7 +124,7 @@
     "Step 2, Laspeyres index: base prices 10 and 20, base quantities 5 and 3, current prices 12 and 25. Sum of p1q0 = 12 x 5 + 25 x 3 = 60 + 75 = 135. Sum of p0q0 = 50 + 60 = 110.",
     "Step 3, Index = 135/110 x 100 = 122.73. The basket that cost 110 would now cost 135, a rise of about 22.7 percent. It uses base-year quantities as weights.",
     "Step 4, Moving average: yearly sales 20, 24, 28, 26, 30. Three-year averages are (20 + 24 + 28)/3 = 24, (24 + 28 + 26)/3 = 26 and (28 + 26 + 30)/3 = 28. They rise steadily, showing the trend.",
-    "Step 5, Check: the averages 24, 26, 28 rise by 2 each time, and the raw data wiggle 24, 28, 26, 30, so the moving average has smoothed out the short-term swings.",
+    "Step 5, Check: the averages 24, 26, 28 rise by 2 each time, while the raw sales 20, 24, 28, 26, 30 dip at 26. So the moving average has smoothed out the short-term dip and shows the upward trend.",
     "Step 6, Your turn: base prices 8 and 5, base quantities 2 and 4, current prices 10 and 6. Find the Laspeyres index. Answer: (20 + 24)/(16 + 20) x 100 = 44/36 x 100 = 122.22."
    ]
   }

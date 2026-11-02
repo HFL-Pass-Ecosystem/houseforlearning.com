@@ -1,0 +1,68 @@
+{
+ "G03-VAL-03": {
+  "steps": [
+   "Step 1, The task: Group of four, Omar, Dina, Hamad and Sana, must build a poster about water saving in 30 minutes. The poster has four parts: title, a picture, three tips and colouring.",
+   "Step 2, Share jobs fairly: They list the jobs and match strengths. Omar writes the title, Dina draws the picture, Hamad writes the three tips, and Sana does the colouring. Four jobs, four children, one job each.",
+   "Step 3, Check time: The group plans time. Title 5 minutes, picture 10, tips 10, colouring 5. Total is 5 plus 10 plus 10 plus 5, which is 30 minutes. The plan fits exactly the time they have.",
+   "Step 4, A problem: Hamad finishes his tips in 6 minutes, not 10. Dina has not finished drawing. Hamad says, 'I am done, can I help?' Dina says yes and he draws the water drops, so the picture finishes on time.",
+   "Step 5, Listening: When Sana wants a blue border and Omar prefers green, they listen to each other and vote with Dina and Hamad. Three of four choose blue. Omar accepts the result politely and helps colour.",
+   "Step 6, Result and reflection: The poster is done in 28 minutes, with the whole group's names on it. They say, 'We shared jobs, helped each other and listened.' Teamwork meant nobody did everything and nobody did nothing.",
+   "Your turn: A team of three must make a model of a bridge from boxes in 20 minutes. Assign jobs and time. Model answer: Child A cuts boxes 8 minutes, B glues 8 minutes, C paints 4 minutes; 8+8+4=20; whoever finishes early helps another."
+  ]
+ },
+ "G05-VAL-03": {
+  "steps": [
+   "Step 1, The task: Hamda leads a group of 5 children to build a recycling display for the corridor. They have 40 minutes and four jobs: collect items, sort them, make labels, and build the stand.",
+   "Step 2, Listen first: Hamda asks each member what they would like to do and what they are good at. Fatma likes writing, Zayed likes building, Sama and Ali like sorting, and Hamda herself offers to collect and check.",
+   "Step 3, Assign fair roles: Hamda puts herself on collecting, Sama and Ali on sorting, Fatma on labels, and Zayed on the stand. Everyone has a clear job, and nobody has two jobs while another has none.",
+   "Step 4, Plan time: She sets four slots done one after another: collect 10 minutes, sort 10, labels 10, stand 10. That is 10 times 4, which is 40 minutes, so the plan fits exactly the time they have.",
+   "Step 5, Solve a problem: Zayed is slow because the stand needs two pairs of hands. Hamda moves Ali to help him once sorting is done, and says, 'Thank you, Ali.' A leader adjusts the plan instead of blaming a person.",
+   "Step 6, Review: The display is finished in 38 minutes. Hamda asks, 'What went well? What could we change?' Members say roles were clear, and next time start labels earlier. A leader serves the team and shares the credit.",
+   "Your turn: Lead 4 children making a class newspaper with four jobs in 20 minutes. Model answer: ask strengths, give one job each (headline, story, picture, layout), 5 minutes each, check at 10 minutes, and thank everyone."
+  ]
+ },
+ "G06-COM-01": {
+  "steps": [
+   "Step 1, Plan: Saif prepares a report on class reading for four weeks. He needs a table in a word processor, a chart from a spreadsheet, and three slides. First he collects the numbers: minutes read per week.",
+   "Step 2, Enter data: In the spreadsheet he types Week 1 to Week 4 in A2:A5, and minutes 120, 150, 180, 210 in B2:B5. Headers in row 1 are Week and Minutes. The increase each week is 30 minutes.",
+   "Step 3, Formulas: In B6 he types =SUM(B2:B5) and gets 660 because 120 plus 150 is 270, plus 180 is 450, plus 210 is 660. In B7 he types =AVERAGE(B2:B5) and gets 165, since 660 divided by 4 is 165.",
+   "Step 4, Chart: He selects A1:B5 and inserts a line chart, because the numbers change over time. The line rises steadily from 120 to 210. He adds the title 'Reading Minutes per Week' and axis labels.",
+   "Step 5, Report page: In the word processor he adds a table, 5 rows by 2 columns, copying the weeks and minutes, pastes the chart under it, and writes, 'Reading grew by 30 minutes each week, to a total of 660 minutes.'",
+   "Step 6, Slides: Slide 1 is the title. Slide 2 holds the chart with one sentence, 'Average 165 minutes'. Slide 3 gives one goal: 270 minutes by Week 6, which is 210 plus 30 plus 30. He saves all three files with clear names.",
+   "Your turn: Steps walked: Mon 3000, Tue 4000, Wed 5000, Thu 6000. Total, average and chart? Model answer: total 18000, average 4500, a line chart of the four days, and a one-sentence finding that steps rose by 1000 each day."
+  ]
+ },
+ "G06-COM-04": {
+  "steps": [
+   "Step 1, The situation: Alia receives a message from a classmate in a group chat: 'Send me your login code and then I'll do your homework.' Another child posts an unkind photo of a friend, with the caption 'Look at this'.",
+   "Step 2, Privacy rule: Alia knows a login code or password is private. She never shares it, even with a friend, because anyone with it can act as her. The rule covers passwords, codes, home address and phone number.",
+   "Step 3, Reply respectfully and firmly: She writes, 'No thanks, my codes are private. I will help you with the homework if you want.' She says no politely and offers a safe alternative, so the friendship is not harmed.",
+   "Step 4, The unkind photo: Alia does not share or like it. She messages the poster, 'Please delete that, it could hurt her.' She does not save or forward the photo, tells her teacher, and checks on the friend. Sharing would spread the harm.",
+   "Step 5, Strengthen settings: At home she checks that her account is set to private, uses a password of at least 12 characters mixing words, numbers and symbols, and turns on a second step for sign-in.",
+   "Step 6, Review: Her actions followed three ideas. Keep private data private, treat others with respect, and report harm to a trusted adult. If she were unsure, she would pause and ask before posting.",
+   "Your turn: A stranger online asks for your school name and photo. Respond using the rules. Model answer: do not send, block and report, tell an adult, because both are private information that could identify you."
+  ]
+ },
+ "G07-COM-04": {
+  "steps": [
+   "Step 1, Define: Noor's digital footprint is every trace she leaves online: posts, photos she shared, comments, accounts, and also what others post about her. Some traces she chose on purpose, like a profile picture, and some are collected from her activity.",
+   "Step 2, Audit: She searches for her own name and lists what she finds: 4 public photos, 1 school quiz result, 2 comments on a game forum, and 1 old account she forgot. That is 8 items in total.",
+   "Step 3, Sort the items: She marks each item as keep, change or remove. Quiz result keep; 2 comments change, because one uses her full name; 4 photos, 1 shows her school uniform with the school name, so that goes to remove; the old account is removed.",
+   "Step 4, Manage: She sets the photo album to friends only, deletes the uniform photo, deletes the old account and its posts, and edits the forum name from her real name to a nickname. Items visible to the public drop from 8 to 3, the quiz result and the 2 comments.",
+   "Step 5, Think before posting: Before posting a holiday picture she asks, 'Would I be fine if my teacher, grandmother and a stranger saw this in five years?' She also leaves out the location. Posts can be copied and stay long after deletion.",
+   "Step 6, Review: Her new footprint shows safe, positive items such as her art competition result. She sets a reminder to check privacy settings every term. Managing a footprint is ongoing, not a one-time job.",
+   "Your turn: Audit shows 6 public items, 2 reveal your address. What do you do? Model answer: remove or hide the 2 address items first, set the rest to friends only, and check again; public items drop from 6 to 4 or fewer."
+  ]
+ },
+ "G08-COM-01": {
+  "steps": [
+   "Step 1, Create a table: Hadi opens a database tool and types: CREATE TABLE students (id INTEGER PRIMARY KEY, name TEXT, grade INTEGER, score INTEGER); The tool replies that the table was created, with four columns and no rows yet.",
+   "Step 2, Insert data: He types INSERT INTO students VALUES (1,'Ali',8,72),(2,'Bana',8,91),(3,'Cyrus',8,65),(4,'Dina',8,88); The tool reports 4 rows added. Text values are in quotes, numbers are not.",
+   "Step 3, Select all: SELECT * FROM students; shows all 4 rows and 4 columns. The star means every column. Hadi checks the output matches what he typed, which verifies the insert.",
+   "Step 4, Filter and order: SELECT name, score FROM students WHERE score >= 80 ORDER BY score DESC; returns two rows: Bana 91 first, then Dina 88. Ali at 72 and Cyrus at 65 fail the WHERE test.",
+   "Step 5, Aggregate: SELECT COUNT(*) FROM students; returns 4. SELECT AVG(score) FROM students; returns 79.0 because 72 plus 91 plus 65 plus 88 is 316, and 316 divided by 4 is 79.",
+   "Step 6, Update and check: UPDATE students SET score = 70 WHERE id = 3; changes Cyrus from 65 to 70. Running AVG again gives 80.25, since the total is now 321 and 321 divided by 4 is 80.25.",
+   "Your turn: Table books(id, title, pages) with (1,'Sea',120),(2,'Sky',200),(3,'Sand',80). List books over 100 pages shortest first, and count them. Model answer: SELECT title, pages FROM books WHERE pages > 100 ORDER BY pages ASC; gives Sea 120, Sky 200; adding WHERE pages > 100 to COUNT(*) gives 2."
+  ]
+ }
+}

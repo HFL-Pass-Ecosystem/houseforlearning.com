@@ -159,10 +159,10 @@
    "steps": [
     "Step 1, Build a series circuit with two 1.5 V cells in a row (3 V total), two bulbs and a switch. Both bulbs glow equally. Unscrew one bulb and the other goes out because the loop is broken.",
     "Step 2, Build a parallel circuit with the same cells, giving each bulb its own branch. Both glow brighter than in series. Unscrew one bulb and the other stays lit, which is why house lights are wired in parallel.",
-    "Step 3, Make an electromagnet. Wind 30 turns of insulated wire around an iron nail and connect it to a 3 V supply. It picks up 6 paper clips. Wind 60 turns and it picks up 12. More turns give a stronger magnet.",
-    "Step 4, Test a bar magnet on a tray of objects. It attracts iron nails, steel pins and nickel coins but not plastic, wood or aluminium foil. Two north poles repel; a north and south pole attract.",
+    "Step 3, Make an electromagnet. Wind 30 turns of insulated wire around an iron nail and connect it through a switch to two 1.5 V cells. It may pick up about 6 paper clips; 60 turns picks up more. Switch off when not testing, as the wire warms.",
+    "Step 4, Test a bar magnet on a tray of objects. It attracts iron nails, steel pins and steel paper clips but not plastic, wood, copper or aluminium foil. Two north poles repel; a north and south pole attract.",
     "Step 5, Uses: electromagnets lift scrap metal in a yard and ring doorbells, and compasses use magnets to point north. A switch in the circuit turns an electromagnet off to drop its load.",
-    "Step 6, Your turn: if the nail picks up 6 clips with 30 turns, how many clips would you predict with 90 turns, and why? Answer: about 18, because more turns make a stronger field, assuming the same supply."
+    "Step 6, Your turn: if the nail picks up 6 clips with 30 turns, how many clips would you predict with 90 turns, and why? Answer: roughly 18, because more turns make a stronger field, assuming the same supply."
    ]
   },
   {

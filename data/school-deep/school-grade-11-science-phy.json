@@ -188,7 +188,7 @@
    "steps": [
     "Step 1, Describe SHM x = A sin(omega t) with A = 0.05 m and period T = 2 s. omega = 2 pi / T = 3.14 rad/s. Maximum speed = A omega = 0.157 m/s and maximum acceleration = A omega^2 = 0.49 m/s2.",
     "Step 2, Spring-mass system. m = 0.5 kg and k = 200 N/m. T = 2 pi sqrt(m/k) = 2 pi sqrt(0.0025) = 2 pi x 0.05 = 0.314 s, so f = 3.18 Hz.",
-    "Step 3, Simple pendulum. L = 1 m gives T = 2 pi sqrt(L/g) = 2 pi sqrt(1/9.8) = 2.01 s. Quadrupling L to 4 m doubles T to 4.02 s.",
+    "Step 3, Simple pendulum. L = 1 m gives T = 2 pi sqrt(L/g) = 2 pi sqrt(1/9.8) = 2.01 s. Quadrupling L to 4 m doubles T to 4.01 s.",
     "Step 4, Energy in SHM. For the spring system with A = 0.1 m: total energy = 0.5 k A^2 = 0.5 x 200 x 0.01 = 1 J. At x = 0.05 m, PE = 0.5 x 200 x 0.0025 = 0.25 J, so KE = 0.75 J.",
     "Step 5, Wave speed v = f lambda. A wave of f = 50 Hz and lambda = 6.8 m travels at 340 m/s. On a string, v = sqrt(T/mu): with T = 100 N and mu = 0.01 kg/m, v = 100 m/s. Fundamental on 1 m string: f = v / 2L = 50 Hz.",
     "Step 6, Your turn: find the period of a 0.25 m pendulum (g = 9.8). Answer: 2 pi sqrt(0.25/9.8) = 1.00 s."

@@ -172,7 +172,7 @@
    "standard": "Describe nuclear reactions and diodes and transistors: at least 70 percent on an exam-style task, with the method shown.",
    "steps": [
     "Step 1, Describe the nucleus. Carbon-14 has Z = 6 and A = 14, so 8 neutrons. Nuclear radius R = R0 A^(1/3) with R0 = 1.2 fm gives R = 1.2 x 14^(1/3) = 2.89 fm. Density is about 2.3 x 10^17 kg/m3.",
-    "Step 2, Calculate binding energy. Helium-4 has mass 4.0026 u against 2 protons (1.00728 u) and 2 neutrons (1.00866 u) sum 4.03188 u. Mass defect 0.0293 u x 931.5 MeV/u = 27.3 MeV, so about 6.8 MeV per nucleon.",
+    "Step 2, Calculate binding energy using atomic masses. Helium-4 has mass 4.0026 u against 2 hydrogen atoms (1.00783 u) and 2 neutrons (1.00866 u) summing to 4.03298 u. Mass defect 0.0304 u x 931.5 MeV/u = 28.3 MeV, so about 7.1 MeV per nucleon.",
     "Step 3, Radioactive decay. N = N0 (1/2)^(t/T). A sample with half-life 5 days is 800 mg. After 15 days, N = 800 / 8 = 100 mg. Decay constant lambda = 0.693 / T = 0.139 per day.",
     "Step 4, Write nuclear reactions. Alpha decay: U-238 gives Th-234 + He-4. Beta decay: C-14 gives N-14 + electron + antineutrino. Fission: U-235 + n gives Ba-141 + Kr-92 + 3n + about 200 MeV. Fusion: 4 H gives He.",
     "Step 5, Semiconductors. A p-n junction diode conducts in forward bias; in reverse bias there is a small leakage. A half-wave rectifier passes one half cycle. Silicon has a band gap of 1.1 eV. N-type doping with phosphorus; p-type with boron.",
