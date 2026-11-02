@@ -266,7 +266,7 @@
    "standard": "Use laws of exponents with negative powers: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
    "steps": [
     "Step 1, Meet a negative exponent. a^-n means 1 / a^n. So 2^-3 = 1 / 2^3 = 1/8, and 10^-2 = 1/100 = 0.01. A negative power does not make the number negative; it means a reciprocal.",
-    "Step 2, Add exponents when multiplying, even if one is negative. 3^-2 x 3^5 = 3^(-2 + 5) = 3^3 = 27. Check: 1/9 x 243 = 27. The rule a^m x a^n = a^(m + n) holds for all whole numbers m and n.",
+    "Step 2, Add exponents when multiplying, even if one is negative. 3^-2 x 3^5 = 3^(-2 + 5) = 3^3 = 27. Check: 1/9 x 243 = 27. The rule a^m x a^n = a^(m + n) holds for all integers m and n.",
     "Step 3, Handle a fraction raised to a negative power by flipping it. (2/3)^-2 = (3/2)^2 = 9/4. The reciprocal turns the power positive. Compute the numerator and denominator separately: 3^2 = 9 and 2^2 = 4.",
     "Step 4, Subtract exponents when dividing. 5^-3 / 5^-5 = 5^(-3 - (-5)) = 5^2 = 25. Be careful with the double negative, which becomes plus. Check: 1/125 divided by 1/3125 = 3125 / 125 = 25.",
     "Step 5, Simplify (2^-1 + 3^-1)^-1. First, 2^-1 = 1/2 and 3^-1 = 1/3, so the bracket is 5/6. A power of -1 flips it, giving 6/5. Standard form with negatives: 0.0000052 = 5.2 x 10^-6, moving the point 6 places right.",
