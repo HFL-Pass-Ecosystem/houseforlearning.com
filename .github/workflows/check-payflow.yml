@@ -1,0 +1,32 @@
+# Test pay-to-access check: a headless browser clicks signed out, signed in, test pay and My courses on a sample of pages from each course family.
+# Runs by hand (Actions > Check pay flow > Run workflow) and on pull requests that change the gate script or its style.
+# Read-only. No deploy, no secrets, no real payment: it serves site/ on a local port.
+name: Check pay flow
+
+on:
+  pull_request:
+    branches: [claude/hfl-courses]
+    paths:
+      - 'site/assets/access.js'
+      - 'site/assets/courses.css'
+      - 'tools/check_payflow.js'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  payflow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install a browser
+        run: |
+          npm i --no-save playwright@1.49.1
+          npx playwright install --with-deps chromium
+      - name: Run the pay-flow check
+        run: node tools/check_payflow.js --per-family 3
