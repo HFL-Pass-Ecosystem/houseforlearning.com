@@ -31,7 +31,7 @@ LADDER = {
  ('Build and test a prototype', 'Build the prototype and test it with five users. Notes: 3 of 5 missed the Add button, so move and enlarge it.'),
  ('Security and access', 'Run a 12-point security, privacy and accessibility check. Notes: 11 pass and low contrast fails; fix and retest.'),
  ('Lead a release', 'Release to ten users and decide the next version. Notes: 8 of 10 completed the task; rank requests such as night mode.'),
- ('Plan the app business', 'Plan pricing, hosting and support. Notes: EUR 3 a month needs 40 offices to cover hosting; check the working.')],
+ ('Plan the app business', 'Plan pricing, hosting and support. Notes: EUR 3 a month from 40 offices is EUR 120, which covers estimated hosting and support of EUR 120 a month; check the working.')],
 'EU-05': [
  ('What IT support is', 'Explain help desk, updates and backups in plain words. Notes: use a 10-person office as the example.'),
  ('Basic safe support', 'Handle simple requests and protect passwords. Notes: learners log three tickets with times.'),
@@ -45,9 +45,9 @@ LADDER = {
  ('Safe products', 'Check size, paint and age fit. Notes: pieces must be larger than the choking size; water-based paint only.'),
  ('Plan a supervised session', 'Write a simple activity plan with an aim. Notes: "Colour hunt" with 10 hidden cards; aim to name colours.'),
  ('Run a pilot with safeguarding', 'Run the pilot with a trained adult and clear parent notes. Notes: 8 children, 7 stayed, one near miss logged.'),
- ('Cost and price', 'Work out cost per child. Notes: 130 for 8 children is 16.25 each; set a price above it.'),
+ ('Cost and price', 'Work out cost per child. Notes: EUR 130 for 8 children is EUR 16.25 each; set a price above it.'),
  ('Lead quality and safeguarding', 'Review incidents and feedback. Notes: sample the near-miss log and the parent notes.'),
- ('Design a childcare service', 'Plan offers, staffing and checks. Notes: 20 per child, 8 places, refund if cancelled 24 hours before; check legal rules with an adviser.')],
+ ('Design a childcare service', 'Plan offers, staffing and checks. Notes: EUR 20 per child, 8 places, refund if cancelled 24 hours before; check legal rules with an adviser.')],
 'EU-07': [
  ('What trade means', 'Describe buyer, seller and goods moving between them. Notes: use water bottles as an example.'),
  ('Trade documents', 'Name the main documents. Notes: invoice 500 against packing list 480 is a mismatch to fix before shipping.'),
@@ -61,9 +61,9 @@ LADDER = {
  ('Industrial safety', 'List hazards and controls for one step. Notes: blade, noise, dust and lifting need a guard, ear protection, extraction and lifting rules.'),
  ('Map a process', 'Time each step. Notes: cut 2.0, assemble 3.5, test 1.5, pack 1.0 and 4.0 of waiting.'),
  ('Quality tools', 'Count defects and rank them. Notes: wrong size 42, scratches 18, missing part 9, other 6; wrong size is 56 per cent.'),
- ('Find waste', 'Find the three waste points. Notes: waiting is 40 per cent of cycle, rework 6 per cent and stoppages 35 minutes a day.'),
+ ('Find waste', 'Find the three waste points. Notes: waiting is 33 per cent of the 12.0 minute total, scrap 6 per cent and stoppages 35 minutes a day.'),
  ('Maintenance and fixes', 'Propose a fix with numbers. Notes: a gauge check cut wrong-size defects from 42 to 12; moving parts saves 0.8 minutes a unit.'),
- ('Design a process improvement', 'Present a plan with cost and payback. Notes: 800 minutes saved a month at 1,000 units; compare with the 150 cost.')],
+ ('Design a process improvement', 'Present a plan with cost and payback. Notes: 800 minutes saved a month at 1,000 units; compare with the EUR 150 cost.')],
 'EU-09': [
  ('What construction work is', 'Describe the people and stages of a small job. Notes: use a 12 square metre room.'),
  ('Site safety', 'Name the main site hazards. Notes: falls, digging and lifting each need a control.'),
@@ -73,11 +73,11 @@ LADDER = {
  ('Control quality and cost', 'Check tolerance and spend. Notes: plumb tolerance 5 mm over 2 m; EUR 3,200 spent against EUR 3,000 is a 6.7 per cent overspend.'),
  ('Plan a small build', 'Present a programme, cost and handover for a job. Notes: price against EUR 600 to 900 per square metre.')],
 'EU-10': [
- ('What farming and fishing sell', 'Name a crop or catch and its buyer. Notes: tomatoes at 1.4 to 2.0 a kilo; a canteen needs 30 kg twice a week.'),
+ ('What farming and fishing sell', 'Name a crop or catch and its buyer. Notes: tomatoes at EUR 1.4 to 2.0 a kilo; a canteen needs 30 kg twice a week.'),
  ('Sustainable practice', 'Describe rotation and soil care. Notes: tomatoes, then beans, then leafy greens.'),
- ('Plan a plot', 'Cost a season. Notes: 300 plants at 0.10 is 30, compost 40, water 25, labour 180, total 275.'),
+ ('Plan a plot', 'Cost a season. Notes: 300 plants at EUR 0.10 is EUR 30, compost EUR 40, water EUR 25, labour EUR 180, total EUR 275.'),
  ('Grow and record', 'Keep weekly records. Notes: pests on 10 per cent of plants, removed by hand with no spray.'),
  ('Harvest and handling', 'Handle produce and catch to keep quality. Notes: fish iced within 30 minutes keeps fresher; tomatoes in shade last about 5 days.'),
- ('Market and price', 'Work out cost per kilo and margin. Notes: 275 / 540 is 0.51 a kilo; at 1.4 the margin is about 63.6 per cent.'),
+ ('Market and price', 'Work out cost per kilo and margin. Notes: EUR 275 / 540 kg is EUR 0.51 a kilo; at EUR 1.4 the margin is about 63.6 per cent.'),
  ('Review and plan the next season', 'Compare yield with plan. Notes: 540 against 600 is 10 per cent lower because of pests; plan earlier planting and netting.')],
 }
