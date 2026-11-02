@@ -114,8 +114,10 @@ def page(slug, title, desc, body, crumb_prev, crumb_next, lesson=None):
 
 import json
 def hm(m):
-    h = int(m / 6 + 0.5) / 10
-    return f'{h:g} {"hour" if h == 1 else "hours"} ({m} minutes)'
+    if m < 60:
+        return f"{m} minutes"
+    h, r = divmod(m, 60)
+    return f'{h} {"hour" if h == 1 else "hours"}' + (f" {r} minutes" if r else "") + f" ({m} minutes)"
 def tot(L):
     # reading time plus the timed parts in the lesson's data file
     f = os.path.join(os.path.dirname(__file__), '..', 'data', 'electrical', L['slug'].replace('electrical-', '') + '.json')
@@ -127,7 +129,7 @@ def rich(L):
     def sec(cls, i, kick, h2, inner):
         return f'<section class="sec {cls}" aria-labelledby="{i}"><div class="wrap"><div class="sec-head"><p class="kicker">{kick}</p><h2 id="{i}">{h2}</h2></div><div class="sec-body">{inner}</div></div></section>\n'
     tcs = f'<ul class="lux-list one"><li><strong>Task.</strong> {x["task"]}</li><li><strong>Condition.</strong> {x["condition"]}</li><li><strong>Standard.</strong> {x["standard"]}</li></ul>'
-    mod = ''.join(f'<details class="lux-panel" {"open" if i==1 else ""}><summary>Part {i}: {m["title"]} (about {hm(m["minutes"])}; {m["bloom"]})</summary><p>{m["intro"]}</p><ul class="lux-list one">' + ''.join(f'<li>{q}</li>' for q in m['points']) + f'</ul><p><strong>Worked example.</strong> {m["example"]}</p><p><strong>Activity.</strong> {m["activity"]}</p><p><strong>Standard.</strong> {m["standard"]}</p></details>' for i, m in enumerate(ms, 1))
+    mod = ''.join(f'<details class="lux-panel" {"open" if i==1 else ""}><summary>Part {i}: {m["title"]} ({hm(m["minutes"])}; {m["bloom"]})</summary><p>{m["intro"]}</p><ul class="lux-list one">' + ''.join(f'<li>{q}</li>' for q in m['points']) + f'</ul><p><strong>Worked example.</strong> {m["example"]}</p><p><strong>Activity.</strong> {m["activity"]}</p><p><strong>Standard.</strong> {m["standard"]}</p></details>' for i, m in enumerate(ms, 1))
     qs = ''.join(f'<details class="lux-panel"><summary>{q["q"]}</summary><p>{q["a"]} <em>(Covered in part {q["module"]}: {ms[q["module"]-1]["title"]}. To pass that part: {ms[q["module"]-1]["standard"].rstrip().rstrip(".")}.)</em></p></details>' for q in x['quiz'])
     lad = ''.join(f'<li><strong>Slide {j}: {l["title"]}.</strong> {l["slide"]} <em>Speaker note:</em> {l["notes"]}</li>' for j, l in enumerate(x['ladder'], 1))
     rub = '<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>' + ''.join(f'<tr><th scope="row">{r["criterion"]}</th><td>{r["not_yet"]}</td><td>{r["meets"]}</td><td>{r["exceeds"]}</td></tr>' for r in x['rubric']) + '</tbody></table></div>'
@@ -137,7 +139,7 @@ def rich(L):
             + sec('', 'rr', 'how it is judged', 'Marking rubric', rub) + sec('alt', 'rj', 'where it leads', 'Jobs this supports', jobs))
 
 def lesson_body(L):
-    b = f'<section class="hero" aria-labelledby="h1"><div class="wrap hero-grid"><div><p class="kicker">electrical academy · lesson {L["n"]} · about {hm(tot(L))}</p><h1 id="h1">{L["title"]}</h1><p>{L["lede"]}</p>{SAFE}</div></div></section>\n'
+    b = f'<section class="hero" aria-labelledby="h1"><div class="wrap hero-grid"><div><p class="kicker">electrical academy · lesson {L["n"]} · {hm(tot(L))}</p><h1 id="h1">{L["title"]}</h1><p>{L["lede"]}</p>{SAFE}</div></div></section>\n'
     for k, (h, paras) in enumerate(L['secs']):
         items = paras if len(paras) < 3 else None
         inner = ''.join(f'<p>{p}</p>' for p in paras) if items else '<ul class="lux-list one">' + ''.join(f'<li>{p}</li>' for p in paras) + '</ul>'
@@ -175,7 +177,7 @@ def main():
         prev = ('electrical-academy.html', 'Electrical academy') if k == 0 else (LESSONS[k-1]['slug'] + '.html', LESSONS[k-1]['title'])
         nxt = ('electrical-academy.html', 'Electrical academy') if k == len(LESSONS)-1 else (LESSONS[k+1]['slug'] + '.html', LESSONS[k+1]['title'])
         page(L['slug'], L['title'], L['lede'], lesson_body(L), prev, nxt, lesson=L['n'])
-    cards = '<li class="card"><span class="tag">catalogue</span><h3>Training by market segment</h3><p>How we organise topics by the market a learner works in, with building automation as a first example.</p><a class="more" href="training-by-segment.html">See the segments</a></li>' + ''.join(f'<li class="card"><span class="tag">lesson {L["n"]} · about {hm(tot(L))}</span><h3>{L["title"]}</h3><p>{L["lede"]}</p><a class="more" href="{L["slug"]}.html">Start lesson {L["n"]}</a></li>' for L in LESSONS)
+    cards = '<li class="card"><span class="tag">catalogue</span><h3>Training by market segment</h3><p>How we organise topics by the market a learner works in, with building automation as a first example.</p><a class="more" href="training-by-segment.html">See the segments</a></li>' + ''.join(f'<li class="card"><span class="tag">lesson {L["n"]} · {hm(tot(L))}</span><h3>{L["title"]}</h3><p>{L["lede"]}</p><a class="more" href="{L["slug"]}.html">Start lesson {L["n"]}</a></li>' for L in LESSONS)
     hub = ('<section class="hero" aria-labelledby="h1"><div class="wrap hero-grid"><div><p class="kicker">skills for the trade</p><h1 id="h1">Electrical academy</h1>'
       '<p>Lessons on the thinking behind low-voltage switchboards. Each one uses plain words, a worked idea and three questions to check yourself.</p>' + SAFE + '<div class="ctas"><a class="btn" href="electrical-keep-dry.html">Start with lesson 1</a><a class="btn btn-ghost" href="catalogue.html">Open the catalogue</a></div></div></div></section>\n'
       f'<section class="sec" aria-labelledby="ls"><div class="wrap"><div class="sec-head"><p class=\"kicker\">five lessons</p><h2 id=\"ls\">Choose a lesson</h2></div><div class="sec-body"><ul class="cards">{cards}</ul></div></div></section>\n'
