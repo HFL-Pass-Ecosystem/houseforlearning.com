@@ -58,9 +58,9 @@
     "Record average speed, direction and the share of time in each speed band.",
     "Check the distance to the load and to the grid connection."
    ],
-   "A site shows 4.2 m/s average at 10 m and 5.0 m/s at 30 m. A rule of thumb is that speed rises about 15 per cent per doubling of height, so a 30 m tower gives the better energy.",
-   "Complete a wind data table for a site with five speed bands and hours in each.",
-   "Hours add to 8,760 and the average speed is calculated correctly."
+   "A hilltop averages 6.5 m/s at 30 m height; a sheltered valley averages 4.2 m/s. The hilltop produces nearly four times the energy from the same turbine.",
+   "Tabulate monthly average wind speed for a real or practice site with the data source.",
+   "Table has twelve months, units and source."
   ],
   [
    "Estimating energy",
@@ -259,8 +259,8 @@
   ],
   [
    "Wind resource and sites",
-   "L2: learner knows wind and safety basics. Focus module: Wind resource and sites (Analyse, 4 h). Good wind makes or breaks a project, and wind data decides whether to continue. Key points: Use at least one year of data at hub height; short records mislead. Trees, buildings and hills cause turbulence; put the rotor well above them. Record average speed, direction and the share of time in each speed band. Check the distance to the load and to the grid connection.",
-   "Teach: open with the worked example. A site shows 4.2 m/s average at 10 m and 5.0 m/s at 30 m. A rule of thumb is that speed rises about 15 per cent per doubling of height, so a 30 m tower gives the better energy. Then set the activity: Complete a wind data table for a site with five speed bands and hours in each. Mark against the standard: Hours add to 8,760 and the average speed is calculated correctly. Check at this level: What happens to power when wind doubles? Model answer: About eight times more."
+   "L2: learner knows wind and safety basics. Focus module: Wind resource and sites (Analyse, 4 h). Good wind makes or breaks a project, and wind data decides whether to continue. Key points: Wind speed rises with height; trees, buildings and hills cause turbulence. Use at least a year of hourly or ten-minute averages from a mast or a trusted dataset. Choose open land away from obstacles, with road access and a grid or load nearby. Check land rights, distance from homes and any aviation or radar limits.",
+   "Teach: open with the worked example. A hilltop averages 6.5 m/s at 30 m height; a sheltered valley averages 4.2 m/s. The hilltop produces nearly four times the energy from the same turbine. Then set the activity: Tabulate monthly average wind speed for a real or practice site with the data source. Mark against the standard: Table has twelve months, units and source. Check at this level: What happens to power when wind doubles? Model answer: About eight times more."
   ],
   [
    "Estimating energy",
