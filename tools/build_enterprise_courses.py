@@ -20,7 +20,7 @@ def build(c):
     mods = ''
     total = sum(m[3] for m in c['mods'])
     for i, (lv, t, bl, h, intro, pts, ex, act, std, slides) in enumerate(c['mods'], 1):
-        sl = ''.join(f'<li><strong>Slide {j}: {e(st)}.</strong> <em>Speaker note:</em> {e(sn)}</li>' for j, (st, sn) in enumerate(slides, 1))
+        sl = ''.join(f'<li><strong>Slide {j}: {e(st)}{'' if st[-1:] in '?!' else '.'}</strong> <em>Speaker note:</em> {e(sn)}</li>' for j, (st, sn) in enumerate(slides, 1))
         mods += (f'<details class="mod" {"open" if i==1 else ""}><summary><span class="mn">Module {i}</span> {e(t)} <span class="pill">{h} h</span><span class="pill bz">{bl}</span><span class="pill lv">{D.LV[lv]}</span></summary>'
                  f'<p>{e(intro)}</p><ul>' + ''.join(f'<li>{e(p)}</li>' for p in pts) + '</ul>'
                  f'<div class="evi"><strong>Worked example.</strong> {e(ex)}</div>'

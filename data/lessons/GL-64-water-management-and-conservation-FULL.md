@@ -76,8 +76,8 @@ Evidence: check result and the 90-day plan.
 ## Worked examples
 1. Meter readings: 4,210 m3 to 4,214 m3 in 10 days = 4 m3 = 4000 litres, i.e. 400 litres a day.
 2. Shower flow: 9-litre bucket fills in 45 s = 12 litres per minute. 8 minutes = 96 litres per shower.
-3. Leak: toilet leaking 3 litres an hour = 72 litres a day = 2.2 m3 a month.
-4. Saving: fixing that leak at a price of 1.50 per m3 = 2.2 x 1.50 = 3.24 a month (currency shown).
+3. Leak: toilet leaking 3 litres an hour = 72 litres a day = 2.16 m3 a month.
+4. Saving: fixing that leak at a price of 1.50 per m3 = 2.16 x 1.50 = 3.24 a month (currency shown).
 
 ## Case exercise
 A small workshop pays for 120 m3 a month but staff estimate only 80. Questions: How do you find the 40 m3 gap? Which checks come first? Which reuse is allowed locally? Write a one-page savings plan with payback.
