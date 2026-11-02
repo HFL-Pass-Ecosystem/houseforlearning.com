@@ -2,7 +2,7 @@
 """Deeper local editions for ten priority sectors x four places (40 pages): site/learn-deep-<k>-<slug>.html. Own wording."""
 import sys, pathlib, html, copy
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
-import flagship_loc_four as F, loc_editions as LE, build_full_courses as B, loc_ladder as LL
+import flagship_loc_four as F, loc_editions as LE, build_full_courses as B, loc_ladder as LL, loc_risk as RK
 e = html.escape
 # per sector: (slug, topic, 8 x (lesson point, worked example sentence)); {c}=currency code
 S = [
@@ -182,7 +182,7 @@ def build(L, idx, sl, topic, rows):
     qz = ''.join(f'<details class="mod"><summary>Q{j+1}. {e(a)}</summary><p><strong>Model answer:</strong> {e(b)}</p></details>' for j, (a, b) in enumerate(tq))
     rub = '<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>' + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(x)}</td><td>{e(d)}</td></tr>' for a, b, x, d in F.rubric(L)) + '</tbody></table></div>'
     jobs = '<ul>' + ''.join(f'<li><strong>{e(a)}.</strong> {e(b)}.</li>' for a, b in [(f'{topic} assistant', f'supports a small {topic} business in {L["name"]}')] + L['jobs'][:5]) + '</ul>' + LL.roles_html(topic, e)
-    body = (B.sec('', 'ab', 'about', f'{topic}: {L["name"]} deep edition', f'<p>{e(topic)} planned in detail for {e(L["name"])}: sector lessons plus local rules, jobs and {e(L["cur"])} examples. {e(F.CHECK)} All amounts are estimates for planning, not quotes. The module lines use rounded sample numbers; the Local example in module 6 uses separate local estimates.</p>' + LL.tcs_html(sl, L, e))
+    body = (B.sec('', 'ab', 'about', f'{topic}: {L["name"]} deep edition', f'<p>{e(topic)} planned in detail for {e(L["name"])}: sector lessons plus local rules, jobs and {e(L["cur"])} examples. {e(F.CHECK)} All amounts are estimates for planning, not quotes. The module lines use rounded sample numbers; the Local example in module 6 uses separate local estimates.</p>' + ('' if 'Risk:' in mh else RK.note(L['k'], sl, e)) + LL.tcs_html(sl, L, e))
             + B.sec('alt', 'md', 'lesson by lesson', '8 modules with worked examples', mh) + B.sec('', 'as', 'assessment', 'How you are checked', f'<p>Pass: no criterion at Not yet and 8 of 10 right.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{qz}')
             + B.sec('alt', 'jb', 'jobs', 'Where this takes you', jobs) + B.sec('', 'ld', 'ladder', 'Ladder L1 to L7', F.ladder(L, LL.slides_html(sl, L, e, deep=_deep(sl, out, tq)))))
     for _r in FIXES.get((L['k'], sl), []):  # place-specific price corrections from the price review (estimates)
