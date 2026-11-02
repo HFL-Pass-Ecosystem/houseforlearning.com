@@ -5,6 +5,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import build_full_courses as B
 from flagship_data_eu_ladder import LADDER
 from flagship_eu_b_topic import T
+from ladder_common import deep_slide, LADDER_MODULE_IDX, quiz_for_module, pick_module
 LV = {1: 'L1 Basic', 2: 'L2 Awareness', 3: 'L3 Foundation', 4: 'L4 Practitioner', 5: 'L5 Specialist', 6: 'L6 Advanced', 7: 'L7 Super expert'}
 e = html.escape
 H = [6, 6, 35, 10, 35, 14, 28, 8]  # hours per module
@@ -77,6 +78,18 @@ C['EU-10'] = dict(title='Agriculture and Fisheries', jobs=['Farm or fishery assi
  M('Review room and next step', 'Present and check.', ['Show plan, log, handling, sales.', 'Peer feedback.', 'Take the check.', 'Next: Food Industry or Trading.'], 'Score sheet.', 'Present for 8 minutes.', 'All rubric lines at Meets or better.')],
  quiz=[('Why rotate crops?', 'To keep soil healthy and reduce pests and disease.', 2), ('Cost per kilo: cost 275, 540 kg sold?', 'About 0.51.', 6), ('Why agree prices before harvest?', 'It reduces risk of unsold produce.', 6), ('Where do most losses occur?', 'After harvest.', 5), ('What should you respect when fishing?', 'Catch limits and closed seasons.', 2), ('Name one cold-chain step.', 'Cool or ice quickly and record temperature.', 5), ('Why keep a sales book?', 'To see prices, buyers and patterns.', 6), ('Margin at price 1.4 and cost 0.51?', 'About 63.6%.', 6), ('Who decides chemical use rules?', 'Your local authority and the product label; only trained people apply them.', 2), ('Name one sustainable practice.', 'Rest ponds or rotate crops.', 2)])
 
+def ladder_html(cid, c, H, BL):
+    out = ''
+    used = []
+    texts = [' || '.join([m[0], m[1], ' '.join(m[2]), m[3], m[4]]) for m in c['mods']]
+    for i, (tt, n) in enumerate(LADDER[cid], 1):
+        k = pick_module(texts, tt, n, LADDER_MODULE_IDX[i-1], used); used.append(k)
+        m = c['mods'][k]
+        mod = (m[0], BL[k], H[k], m[1], m[2], m[3], m[4], m[5])
+        on, nt = deep_slide(i, tt, n, mod, quiz_for_module(c['quiz'], k + 1))
+        out += f'<details class="mod"><summary>Slide {i}. {LV[i]}: {e(tt)}</summary><p><strong>On the slide:</strong> {LV[i]} · {e(on)}</p><p><strong>Notes:</strong> {e(nt)}</p></details>'
+    return out
+
 def build(cid, c):
     mods = ''
     mm = list(c['mods'])
@@ -99,7 +112,7 @@ def build(cid, c):
         f'<h3 class="ws-h3">Task, condition and standard</h3><div class="tcs"><div><h4>Task</h4><p>{e(c["task"])}</p></div><div><h4>Condition</h4><p>{e(T[cid]["cond"])}</p></div><div><h4>Standard</h4><p>{e(T[cid]["std"])}</p></div></div>')
     body = (about + B.sec('alt', 'md', 'lesson by lesson', '8 modules with worked examples', mods)
             + B.sec('', 'as', 'assessment', 'How you are checked', f'<p>Evidence: your practice file, data and decision. A mentor and a peer mark it.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{quiz}')
-            + B.sec('alt', 'ld', 'ladder L1 to L7', 'Slide by slide, with notes', '<p>Seven slides, one for each level. Step in at your level and move up; credits stack.</p>' + ''.join(f'<details class="mod"><summary>Slide {i}. {LV[i]}: {e(t)}</summary><p><strong>On the slide:</strong> {LV[i]} · {e(t)}</p><p><strong>Notes:</strong> {e(n)}</p></details>' for i, (t, n) in enumerate(LADDER[cid], 1)))
+            + B.sec('alt', 'ld', 'ladder L1 to L7', 'Slide by slide, with notes', '<p>Seven slides, one for each level. Step in at your level and move up; credits stack.</p>' + ladder_html(cid, c, H, BL))
             + B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', '<ul>' + ''.join(f'<li>{e(j)}</li>' for j in c['jobs']) + '</ul>')
             + B.sec('alt', 'lc', 'ten locations and global', 'Your place', '<p>Use local units, rules and authorities.</p>' + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Currency: {L["cur"]}. Business set-up: {e(L["reg"])}. Personal data: {e(L["data"])}. Product and food rules: {e(L["food"])}.</p></details>' for L in B.LOC) + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
             + B.sec('', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship. Own wording. Process and safety awareness only; no professional advice. Not live.</p>'))
