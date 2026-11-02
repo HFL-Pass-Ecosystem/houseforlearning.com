@@ -34,9 +34,9 @@
    "standard": "Explain the steps of farming and food storage: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
    "steps": [
     "Step 1, List the steps of growing wheat in order: preparing the soil by ploughing and levelling, sowing selected seeds, adding manure and fertiliser, irrigation, weeding, harvesting, threshing and winnowing, then storage.",
-    "Step 2, Calculate seed and yield. A field of 2 hectares needs 100 kg of seed per hectare, so 2 x 100 = 200 kg. If the yield is 4000 kg per hectare, the harvest is 2 x 4000 = 8000 kg, which is 40 times the seed.",
+    "Step 2, Calculate seed and yield. Suppose a field of 2 hectares needs 100 kg of seed per hectare, so 2 x 100 = 200 kg. If the yield is 4000 kg per hectare, the harvest is 2 x 4000 = 8000 kg, which is 40 times the seed.",
     "Step 3, Compare manure and fertiliser. Manure is organic from decayed plants and animal waste and improves soil structure. Fertilisers like urea are manufactured, give nutrients quickly, but overuse pollutes water.",
-    "Step 4, Choose irrigation. Drip irrigation delivers water drop by drop at the roots and can cut water use by 30 to 50 per cent compared with flooding. Sprinklers suit uneven land and lawns.",
+    "Step 4, Choose irrigation. Drip irrigation delivers water drop by drop at the roots and can cut water use a lot compared with flooding. Sprinklers suit uneven land and lawns.",
     "Step 5, Explain storage. Grain must be dried to about 12 to 14 per cent moisture, kept in clean, dry bins, and protected from rats and insects, because damp grain grows fungi and spoils.",
     "Step 6, Your turn: a 1.5 hectare field yields 3200 kg per hectare of rice. What is the harvest? Answer: 1.5 x 3200 = 4800 kg."
    ]
@@ -95,7 +95,7 @@
     "Step 2, Teacher demonstration only, outdoors or in a ventilated space, with tongs on tiny samples; never at home. Cotton burns with a paper smell and ash. Wool smells like burning hair. Nylon melts into a bead and shrinks from the flame, showing a synthetic.",
     "Step 3, Compare in a table: absorbs water (cotton yes, polyester little), dries fast (polyester yes), strength (nylon high), cost and durability. Wash a 10 cm swatch of each and note wet weights.",
     "Step 4, Explain plastics. They are polymers, long chains of repeating units. Thermoplastics like polythene soften on heating and can be remoulded. Thermosetting plastics like bakelite harden permanently and are used for electrical switches.",
-    "Step 5, Discuss environment: plastic is non-biodegradable and can last hundreds of years. Use the 5 R principle: reduce, reuse, recycle, recover and refuse. Sort plastics by recycling code and send to proper collection.",
+    "Step 5, Discuss environment: plastic is non-biodegradable and can last hundreds of years. Use the R principles: refuse, reduce, reuse and recycle. Sort plastics by recycling code and send to proper collection.",
     "Step 6, Your turn: which fibre would you choose for a raincoat and which for summer wear, and why? Answer: a synthetic like nylon or polyester that repels water for the raincoat; cotton for summer as it absorbs sweat."
    ]
   },
@@ -151,7 +151,7 @@
    "steps": [
     "Step 1, Identify the three needs of combustion: a fuel, oxygen from air, and heat to reach the ignition temperature. Remove any one and the fire stops. This is the fire triangle.",
     "Step 2, Show it. Light a candle and cover with an inverted glass jar. The flame goes out after a few seconds when oxygen is used. Compare with two candles under jars of 250 mL and 1 L: the larger lasts longer.",
-    "Step 3, Compare fuels using calorific value. LPG gives about 55 kJ per g, wood about 17 kJ per g, and hydrogen about 150 kJ per g. Burning 100 g of LPG gives 100 x 55 = 5500 kJ.",
+    "Step 3, Compare fuels using calorific value. LPG gives about 50 kJ per g, wood about 17 kJ per g, and hydrogen about 120 kJ per g, though sources differ a little. Burning 100 g of LPG gives about 100 x 50 = 5000 kJ.",
     "Step 4, Draw the flame zones: inner dark zone with unburnt wax vapour, middle luminous zone with partial combustion, and the outer non-luminous zone with complete combustion, hottest part. A goldsmith uses the outer zone.",
     "Step 5, Fire safety: water extinguishes wood and paper fires, but not oil or electric fires, where CO2 or foam extinguishers cut oxygen. Stop, drop and roll if clothes catch fire, and call the fire service.",
     "Step 6, Your turn: how much heat comes from burning 200 g of wood at 17 kJ per g? Answer: 200 x 17 = 3400 kJ."
@@ -182,7 +182,7 @@
     "Step 2, Conclude: the same force on a smaller area gives more pressure. That is why a knife has a sharp edge and tractors have wide tyres. A pascal is one newton per square metre.",
     "Step 3, Liquid pressure rises with depth. In a tall can with holes at 5 cm, 15 cm and 25 cm, water squirts farthest from the lowest hole. Pressure equals density x g x depth, so at 10 m in water it is 1000 x 10 x 10 = 100000 Pa extra.",
     "Step 4, Atmospheric pressure at sea level is about 101,000 Pa. It pushes on a 1 m2 surface with about 101,000 N, but our bodies push back with equal internal pressure.",
-    "Step 5, Friction opposes sliding. Pull a 2 kg block on wood with a spring balance: it reads 6 N. On a polished tile it reads 3 N. Rough surfaces have more friction. Rolling needs less force than sliding, so wheels help.",
+    "Step 5, Friction opposes sliding. Pull a 2 kg block on wood with a spring balance. Suppose it reads 6 N on wood and 3 N on polished tile. Rough surfaces have more friction. Rolling needs less force than sliding, so wheels help.",
     "Step 6, Your turn: a 600 N person stands on two feet with total area 0.04 m2. Find the pressure. Answer: 600 / 0.04 = 15000 Pa."
    ]
   },
@@ -308,44 +308,44 @@
  ],
  "checks": [
   [
-   "Unit 1 (Crop production and management): show that you can explain the steps of farming and food storage. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 1: Crop production and management.)"
+   "Unit 1 (Crop production and management): A 1.5 hectare field yields 3200 kg per hectare of rice. What is the harvest?.",
+   "1.5 x 3200 = 4800 kg. (Covered in unit 1: Crop production and management.)"
   ],
   [
-   "Unit 2 (Microorganisms: friend and foe): show that you can describe useful and harmful microbes. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 2: Microorganisms: friend and foe.)"
+   "Unit 2 (Microorganisms: friend and foe): Explain why bread dough placed in a warm place rises faster than in the fridge.",
+   "yeast respires faster at warm temperature, giving more carbon dioxide gas. (Covered in unit 2: Microorganisms: friend and foe.)"
   ],
   [
-   "Unit 3 (Synthetic fibres and plastics): show that you can compare natural and synthetic materials and recycling. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 3: Synthetic fibres and plastics.)"
+   "Unit 3 (Synthetic fibres and plastics): Which fibre would you choose for a raincoat and which for summer wear, and why?.",
+   "a synthetic like nylon or polyester that repels water for the raincoat; cotton for summer as it absorbs sweat. (Covered in unit 3: Synthetic fibres and plastics.)"
   ],
   [
-   "Unit 4 (Metals and non-metals): show that you can compare properties and uses. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 4: Metals and non-metals.)"
+   "Unit 4 (Metals and non-metals): A silvery solid hammers into a sheet and rings when struck. Is it a metal? Name its oxide's nature.",
+   "yes, a metal; its oxide is likely basic. (Covered in unit 4: Metals and non-metals.)"
   ],
   [
-   "Unit 5 (Combustion and flame): show that you can describe fire conditions, fuels and fire safety. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 5: Combustion and flame.)"
+   "Unit 5 (Combustion and flame): How much heat comes from burning 200 g of wood at 17 kJ per g?.",
+   "200 x 17 = 3400 kJ. (Covered in unit 5: Combustion and flame.)"
   ],
   [
-   "Unit 6 (Force and pressure): show that you can calculate pressure and describe friction. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 6: Force and pressure.)"
+   "Unit 6 (Force and pressure): A 600 N person stands on two feet with total area 0.04 m2. Find the pressure.",
+   "600 / 0.04 = 15000 Pa. (Covered in unit 6: Force and pressure.)"
   ],
   [
-   "Which action verb starts the outcome of Unit 1 (Crop production and management), and at which Bloom level is it?",
-   "'explain', at the Understand level. (Covered in unit 1: Crop production and management.)"
+   "Unit 7 (Sound and light): A ray hits a mirror at 40 degrees to the normal. Give the reflected angle and the number of images with mirrors at 72 degrees.",
+   "40 degrees; 360/72 - 1 = 4 images. (Covered in unit 7: Sound and light.)"
   ],
   [
-   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
-   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36. (Covered in: Assessment plan, near the top of this page.)"
+   "Unit 8 (Cells and reproduction): Calculate the magnification using a 10x eyepiece and a 100x objective, and say how many cells there are after 6 divisions from one cell.",
+   "1000 times; 2 to the power 6 = 64 cells. (Covered in unit 8: Cells and reproduction.)"
   ],
   [
-   "In which weeks does Unit 9 (Chemical effects of electric current) run?",
-   "Weeks 33 to 36. (Covered in unit 9: Chemical effects of electric current.)"
+   "Unit 9 (Chemical effects of electric current): In plating a spoon with silver, which electrode is the spoon and which is the silver strip?.",
+   "the spoon is the cathode, the silver strip is the anode, in a silver salt solution. (Covered in unit 9: Chemical effects of electric current.)"
   ],
   [
-   "What evidence do you keep for each unit, and why?",
-   "A worked task and a corrected copy. It shows what you can really do and lets a teacher check it against the standard. (Covered in: How you are checked, further down this page.)"
+   "Unit 1 (Crop production and management): Calculate seed and yield. Show how you do it and say what the result is.",
+   "Suppose a field of 2 hectares needs 100 kg of seed per hectare, so 2 x 100 = 200 kg. If the yield is 4000 kg per hectare, the harvest is 2 x 4000 = 8000 kg, which is 40 times the seed. (Covered in unit 1: Crop production and management.)"
   ]
  ],
  "ladder": [

@@ -94,7 +94,7 @@
    "steps": [
     "Step 1, Print a message. In a text language you type instructions as lines. The line print(\"Hello\") shows Hello on the screen. Text goes in quote marks. Run the line and check the output matches exactly, including capital letters and the brackets, because the computer does exactly what is written.",
     "Step 2, Store input in a variable. Type: name = input(\"What is your name? \") then print(\"Hello,\", name). If the user types Ria, the screen shows: What is your name? Ria and then Hello, Ria. The variable name holds the typed text until the program ends.",
-    "Step 3, Convert to a number. Input always arrives as text, so write age = int(input(\"Age: \")). The int part turns the text 12 into the number 12. Without it, comparing the age with 5 would give an error. Check by printing a + b for 7 and 5, which prints 12.",
+    "Step 3, Convert to a number. Input always arrives as text, so write age = int(input(\"Age: \")). The int part turns the text 12 into the number 12. Without it, comparing the age with 5 would give an error. Check by printing int(\"7\") + int(\"5\"), which prints 12, whereas \"7\" + \"5\" as text would print 75.",
     "Step 4, Make a decision: if age < 5: print(\"Free\"), then elif age <= 12: print(\"Child ticket\"), then else: print(\"Adult ticket\"). The lines under each test are indented by four spaces. Only the first true test runs, and else catches everything left over. Colons are required after each test.",
     "Step 5, Test all branches. Run the program with 4, 12 and 13. The outputs are Free, Child ticket and Adult ticket. Testing edge values such as 12 and 13 catches the usual mistake of writing < where <= is needed. If you see an indentation error, align the lines.",
     "Step 6, Your turn: write a program that reads a number and prints even or odd. Hint: n % 2 is the remainder after dividing by 2. Answer: n = int(input()), if n % 2 == 0: print(\"even\"), else: print(\"odd\"). For 7 it prints odd."
@@ -165,36 +165,44 @@
  ],
  "checks": [
   [
-   "Unit 1 (Word, slides and spreadsheets in practice): show that you can prepare a report with a table, chart and slides. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 1: Word, slides and spreadsheets in practice.)"
+   "Unit 1 (Word, slides and spreadsheets in practice): Steps walked: Mon 3000, Tue 4000, Wed 5000, Thu 6000. Total, average and chart?.",
+   "total 18000, average 4500, a line chart of the four days, and a one-sentence finding that steps rose by 1000 each day. (Covered in unit 1: Word, slides and spreadsheets in practice.)"
   ],
   [
-   "Unit 2 (Algorithms and flowcharts): show that you can plan a solution with a flowchart and test it. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 2: Algorithms and flowcharts.)"
+   "Unit 2 (Algorithms and flowcharts): Plan a flowchart that reads a mark and prints Pass for 50 or more, otherwise Fail. Test it with 49, 50 and 72.",
+   "Is mark >= 50? Yes gives Pass, no gives Fail; the tests give Fail, Pass, Pass. (Covered in unit 2: Algorithms and flowcharts.)"
   ],
   [
-   "Unit 3 (Programming in a text language, first steps): show that you can write short programs with input, output and decisions. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 3: Programming in a text language, first steps.)"
+   "Unit 3 (Programming in a text language, first steps): Write a program that reads a number and prints even or odd. Hint: n % 2 is the remainder after dividing by 2.",
+   "n = int(input()), if n % 2 == 0: print(\"even\"), else: print(\"odd\"). For 7 it prints odd. (Covered in unit 3: Programming in a text language, first steps.)"
   ],
   [
-   "Unit 4 (Cyber safety and ethics): show that you can apply privacy and respectful communication rules. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 4: Cyber safety and ethics.)"
+   "Unit 4 (Cyber safety and ethics): A stranger online asks for your school name and photo. Respond using the rules.",
+   "do not send, block and report, tell an adult, because both are private information that could identify you. (Covered in unit 4: Cyber safety and ethics.)"
   ],
   [
-   "Which action verb starts the outcome of Unit 1 (Word, slides and spreadsheets in practice), and at which Bloom level is it?",
-   "'prepare', at the Apply level. (Covered in unit 1: Word, slides and spreadsheets in practice.)"
+   "Unit 1 (Word, slides and spreadsheets in practice): Enter data. Show how you do it and say what the result is.",
+   "In the spreadsheet he types Week 1 to Week 4 in A2:A5, and minutes 120, 150, 180, 210 in B2:B5. Headers in row 1 are Week and Minutes. The increase each week is 30 minutes. (Covered in unit 1: Word, slides and spreadsheets in practice.)"
   ],
   [
-   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
-   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36. (Covered in: Assessment plan, near the top of this page.)"
+   "Unit 2 (Algorithms and flowcharts): Learn the flowchart shapes. Show how you do it and say what the result is.",
+   "An oval means start or stop, a parallelogram means input or output, a rectangle means a process step, and a diamond means a yes or no decision. Arrows show the order. Draw Start, then a parallelogram: Input age. (Covered in unit 2: Algorithms and flowcharts.)"
   ],
   [
-   "In which weeks does Unit 4 (Cyber safety and ethics) run?",
-   "Weeks 34 to 36. (Covered in unit 4: Cyber safety and ethics.)"
+   "Unit 3 (Programming in a text language, first steps): Store input in a variable. Show how you do it and say what the result is.",
+   "Type: name = input(\"What is your name? \") then print(\"Hello,\", name). If the user types Ria, the screen shows: What is your name? Ria and then Hello, Ria. The variable name holds the typed text until the program ends. (Covered in unit 3: Programming in a text language, first steps.)"
   ],
   [
-   "What evidence do you keep for each unit, and why?",
-   "A worked task and a corrected copy. It shows what you can really do and lets a teacher check it against the standard. (Covered in: How you are checked, further down this page.)"
+   "Unit 4 (Cyber safety and ethics): Privacy rule. Show how you do it and say what the result is.",
+   "Alia knows a login code or password is private. She never shares it, even with a friend, because anyone with it can act as her. The rule covers passwords, codes, home address and phone number. (Covered in unit 4: Cyber safety and ethics.)"
+  ],
+  [
+   "Unit 1 (Word, slides and spreadsheets in practice): Formulas. Show how you do it and say what the result is.",
+   "In B6 he types =SUM(B2:B5) and gets 660 because 120 plus 150 is 270, plus 180 is 450, plus 210 is 660. In B7 he types =AVERAGE(B2:B5) and gets 165, since 660 divided by 4 is 165. (Covered in unit 1: Word, slides and spreadsheets in practice.)"
+  ],
+  [
+   "Unit 2 (Algorithms and flowcharts): Build the decisions. Show how you do it and say what the result is.",
+   "First diamond: Is age < 5? Yes leads to Output 0. No leads to a second diamond: Is age <= 12? Yes leads to Output 4, and No leads to Output 8. All three paths join at Stop. Every diamond needs exactly two labelled exits. (Covered in unit 2: Algorithms and flowcharts.)"
   ]
  ],
  "ladder": [

@@ -29,11 +29,11 @@
     "Use it: write programs with variables, decisions and loops. Save your work in a named file or folder.",
     "Test and fix: run it, find one fault, correct it, and note what you changed."
    ],
-   "example": "Solved: name = 'Sara'; total = 0; for n in [3, 5, 7]: total = total + n; print(name, total) prints Sara 15. Trace each line to check. Method: Model run for 'Python programming basics'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "example": "Solved: name = 'Learner'; total = 0; for n in [3, 5, 7]: total = total + n; print(name, total) prints Learner 15. Trace each line to check. Method: Model run for 'Python programming basics'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Write programs with variables, decisions and loops: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
    "steps": [
-    "Step 1, Variables and decisions: Sami types marks = 72 then if marks >= 90: print('A') elif marks >= 70: print('B') else: print('C'), with each print line indented four spaces. Python checks conditions top to bottom, and 72 fails the first test but passes the second.",
+    "Step 1, Variables and decisions: A learner types marks = 72 then if marks >= 90: print('A') elif marks >= 70: print('B') else: print('C'), with each print line indented four spaces. Python checks conditions top to bottom, and 72 fails the first test but passes the second.",
     "Step 2, Run it: The output is B. If he changes marks to 95 the first condition is true and A prints; the elif and else parts are skipped. Only the first true branch runs, which is why the order of conditions matters.",
     "Step 3, A for loop: He types for i in range(1, 4): print(i * i). range(1, 4) gives 1, 2, 3 because the end value 4 is not included. The program prints 1, then 4, then 9, one per line.",
     "Step 4, A while loop: He types total = 0, n = 1, then while n <= 5: total = total + n and n = n + 1 on indented lines, then print(total). Adding 1 plus 2 plus 3 plus 4 plus 5 gives 15, so 15 is printed.",
@@ -63,9 +63,9 @@
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Decompose problems and design algorithms: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
    "steps": [
-    "Step 1, Decompose: Huda must plan a class bake sale. She breaks it into smaller parts: choose items, count how many of each, make a price-free sign, set up the stall, and clean up. Five small tasks are easier than one big one.",
+    "Step 1, Decompose: A learner must plan a class bake sale. The learner breaks it into smaller parts: choose items, count how many of each, make a price-free sign, set up the stall, and clean up. Five small tasks are easier than one big one.",
     "Step 2, Find patterns: Each baker follows the same pattern: bring item, tell the team, place on the table. She notices she can write this once and reuse it for all 8 bakers. Spotting repeated steps is pattern recognition.",
-    "Step 3, Abstract: Huda ignores detail like the colour of the tablecloth and keeps what matters: item name and number brought. A table with two columns, Item and Count, represents the real situation in a simple model.",
+    "Step 3, Abstract: The learner ignores detail like the colour of the tablecloth and keeps what matters: item name and number brought. A table with two columns, Item and Count, represents the real situation in a simple model.",
     "Step 4, Algorithm to find the largest count: List is 12, 7, 19, 4. Steps: set largest to the first number; look at each next number; if it is bigger than largest, replace largest; when no numbers remain, report largest.",
     "Step 5, Trace it: Start largest 12. Compare 7: not bigger. Compare 19: bigger, so largest becomes 19. Compare 4: not bigger. No numbers remain, so the answer is 19. Tracing by hand proves the algorithm before coding it.",
     "Step 6, Flowchart and test: She draws Start, set largest, a loop with a decision diamond 'Next number > largest?', Yes or No arrows, and End. She tests with 5, 5, 5; the result is 5, correct for equal numbers.",
@@ -167,36 +167,44 @@
  ],
  "checks": [
   [
-   "Unit 1 (Python programming basics): show that you can write programs with variables, decisions and loops. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 1: Python programming basics.)"
+   "Unit 1 (Python programming basics): Print the first five even numbers using a loop, and their total.",
+   "total = 0, for i in range(1, 6): print(i * 2), total = total + i * 2, then print(total). Output 2 4 6 8 10 and then 30. (Covered in unit 1: Python programming basics.)"
   ],
   [
-   "Unit 2 (Computational thinking and algorithms): show that you can decompose problems and design algorithms. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 2: Computational thinking and algorithms.)"
+   "Unit 2 (Computational thinking and algorithms): Find the smallest number in 8, 3, 11, 5 and trace it.",
+   "start smallest 8; 3 is smaller so smallest 3; 11 not; 5 not; answer 3. Steps mirror the largest algorithm with the comparison reversed. (Covered in unit 2: Computational thinking and algorithms.)"
   ],
   [
-   "Unit 3 (Data, spreadsheets and databases): show that you can clean, sort and summarise data. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 3: Data, spreadsheets and databases.)"
+   "Unit 3 (Data, spreadsheets and databases): Scores 60, 80, blank, 80 (duplicate student), 120. Clean and average.",
+   "remove the duplicate 80, ignore blank, flag 120, leaving 60 and 80; the average is 70. (Covered in unit 3: Data, spreadsheets and databases.)"
   ],
   [
-   "Unit 4 (Introduction to artificial intelligence): show that you can describe how machines learn from data and where bias comes from. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 4: Introduction to artificial intelligence.)"
+   "Unit 4 (Introduction to artificial intelligence): A model is trained on 80 photos from city A and 20 from city B and gets 90 percent and 50 percent. Overall? What fix?.",
+   "(72 plus 10) divided by 100 is 82 percent; add more balanced training data from city B and test each group separately. (Covered in unit 4: Introduction to artificial intelligence.)"
   ],
   [
-   "Which action verb starts the outcome of Unit 1 (Python programming basics), and at which Bloom level is it?",
-   "'write', at the Apply level. (Covered in unit 1: Python programming basics.)"
+   "Unit 1 (Python programming basics): Run it. Show how you do it and say what the result is.",
+   "The output is B. If he changes marks to 95 the first condition is true and A prints; the elif and else parts are skipped. Only the first true branch runs, which is why the order of conditions matters. (Covered in unit 1: Python programming basics.)"
   ],
   [
-   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
-   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36. (Covered in: Assessment plan, near the top of this page.)"
+   "Unit 2 (Computational thinking and algorithms): Find patterns. Show how you do it and say what the result is.",
+   "Each baker follows the same pattern: bring item, tell the team, place on the table. She notices she can write this once and reuse it for all 8 bakers. Spotting repeated steps is pattern recognition. (Covered in unit 2: Computational thinking and algorithms.)"
   ],
   [
-   "In which weeks does Unit 4 (Introduction to artificial intelligence) run?",
-   "Weeks 31 to 36. (Covered in unit 4: Introduction to artificial intelligence.)"
+   "Unit 3 (Data, spreadsheets and databases): Fix format. Show how you do it and say what the result is.",
+   "He makes names consistent by changing bana to Bana and trimming extra spaces. Consistent text means sorting and searching work properly. Hidden extra spaces or odd capitals can make the same name look different to a computer. (Covered in unit 3: Data, spreadsheets and databases.)"
   ],
   [
-   "What evidence do you keep for each unit, and why?",
-   "A worked task and a corrected copy. It shows what you can really do and lets a teacher check it against the standard. (Covered in: How you are checked, further down this page.)"
+   "Unit 4 (Introduction to artificial intelligence): Learn a rule. Show how you do it and say what the result is.",
+   "The gap lies between 140 and 180. The middle is (140 plus 180) divided by 2, which is 160. The learned rule is: weight below 160 is plum, 160 or above is apple. This is a very simple model. (Covered in unit 4: Introduction to artificial intelligence.)"
+  ],
+  [
+   "Unit 1 (Python programming basics): A for loop. Show how you do it and say what the result is.",
+   "He types for i in range(1, 4): print(i * i). range(1, 4) gives 1, 2, 3 because the end value 4 is not included. The program prints 1, then 4, then 9, one per line. (Covered in unit 1: Python programming basics.)"
+  ],
+  [
+   "Unit 2 (Computational thinking and algorithms): Abstract. Show how you do it and say what the result is.",
+   "Huda ignores detail like the colour of the tablecloth and keeps what matters: item name and number brought. A table with two columns, Item and Count, represents the real situation in a simple model. (Covered in unit 2: Computational thinking and algorithms.)"
   ]
  ],
  "ladder": [

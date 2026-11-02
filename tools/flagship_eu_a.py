@@ -39,7 +39,7 @@ C.append(dict(id='EU-01', title='Food Industry and Food Technology', lvl='L4 Pra
   "Make three trial batches, one change each; record all in a table.","Three records with yield and a chosen final recipe with reasons."),
  ("Shelf life and storage","Analyse",8,"Shelf life is what you can prove, not what you hope. Heat, water in the food, acid, salt, sugar, air and packaging all matter.",
   ["Keep samples of each batch in the same pack as sold and check on days 1, 3, 7 and 14.","Judge look, smell, texture and (with your authority's guidance) safe testing.","Use a date label that is shorter than the tested life, with a safety margin.","Store and transport at the temperature your tests used."],
-  "Samples stored at 5 C stay good to day 10. You set a 7-day 'use by' with a 3-day safety margin.",
+  "Samples stored at 5 °C stay good to day 10. You set a 7-day 'use by' with a 3-day safety margin.",
   "Run a shelf-life test and decide the date label.","Sample records for four dates; label date is shorter than tested life."),
  ("Packs and labels","Create",8,"A label is a legal document and a sales tool. Each country has its own rules; write down the rule you must follow and who told you.",
   ["Usual items: name, ingredients in weight order, allergens clearly shown, net weight, batch code, date, maker contact.","Never print health claims such as 'cures' or 'boosts immunity'.","Pack choice affects shelf life, cost and waste; avoid over-packing.","Ask the local food authority to check your label draft before printing."],
@@ -49,7 +49,7 @@ C.append(dict(id='EU-01', title='Food Industry and Food Technology', lvl='L4 Pra
   ["Cost per unit = total cost divided by units sold (not units made).","Margin = (price minus cost) divided by price.","Include labour at a fair hourly rate, even if you pay yourself.","Check the break-even: fixed costs divided by margin per unit."],
   "Batch of 100 biscuits: ingredients EUR 14, packaging EUR 6, energy EUR 3, kitchen share EUR 12, labour 3 h at EUR 12 = EUR 36; total EUR 71; waste 5 units; cost per sold unit = 71/95 = EUR 0.75. At price EUR 1.20 margin = 37.5%.",
   "Build your cost sheet with currency on every line; present it to your peer circle.","Mentor finds no missing cost; margin is calculated twice by different routes."),
- ("Run the 30-day pilot","Apply",60,"Pilot means small, real and recorded. Sell or give for paid trial to real buyers and learn quickly.",
+ ("Run the 30-day pilot","Apply",60,"Pilot means small, real and recorded. Sell to real buyers, or offer a paid trial, and learn quickly.",
   ["Daily log: date, batch code, cost, units made, sold, waste, complaints.","Keep a sample of every batch until it expires.","Write down each complaint: what happened and what you changed.","Review weekly with your mentor."],
   "Week 2 log shows 12 returned units from one batch. Cause found: under-baked centre. Fix: add a timed check and a core-temperature rule. Returns fall to 2 in week 3.",
   "Run the 30 days and keep the log.","30 days recorded; every complaint answered; weekly review notes kept."),
@@ -58,7 +58,7 @@ C.append(dict(id='EU-01', title='Food Industry and Food Technology', lvl='L4 Pra
   "Result: waste fell from 14% to 5%; repeat buyers 6 of 9. Decision: scale to two cafes, buy a second tray rack, keep price.",
   "Present to a review room; collect a written note from one buyer.","Decision supported by numbers; two peer reviews given."),
  ],
- quiz=[('Name the four kinds of food hazard.', 'Biological (germs), chemical, physical (foreign bodies), allergens.', 2), ('Why separate raw and ready foods?', 'To stop germs moving from raw to food that will not be cooked again.', 2), ('Yield for 4.0 kg out from 5.0 kg in?', '80%.', 3), ('Margin: price 1.20, cost 0.75?', '(1.20 - 0.75) / 1.20 = 37.5%.', 6), ('What must a label show?', 'Name, ingredients by weight, allergens, net weight, batch code, date, maker contact.', 5), ('Two factors that lengthen shelf life?', 'Lower temperature, acid, salt, sugar, less water, suitable packaging.', 4), ('Why keep a sample from each batch?', 'To check what happens to a batch over its life and trace problems.', 4), ('What do you do after a complaint?', 'Record it, find the cause, change the process, note the change.', 7), ('Which costs do beginners forget?', 'Packaging, energy, rent share, delivery, waste, labour.', 6), ('What decision options end the pilot?', 'Scale, change or stop, with reasons from the numbers.', 8)],
+ quiz=[('Name the four kinds of food hazard.', 'Biological (germs), chemical, physical (foreign bodies), allergens.', 2), ('Why separate raw and ready foods?', 'To stop germs moving from raw to food that will not be cooked again.', 2), ('Yield for 4.0 kg out from 5.0 kg in?', '80%.', 3), ('Margin: price EUR 1.20, cost EUR 0.75?', '(EUR 1.20 - EUR 0.75) / EUR 1.20 = 37.5%.', 6), ('What must a label show?', 'Name, ingredients by weight, allergens, net weight, batch code, date, maker contact.', 5), ('Two factors that lengthen shelf life?', 'Lower temperature, acid, salt, sugar, less water, suitable packaging.', 4), ('Why keep a sample from each batch?', 'To check what happens to a batch over its life and trace problems.', 4), ('What do you do after a complaint?', 'Record it, find the cause, change the process, note the change.', 7), ('Which costs do beginners forget?', 'Packaging, energy, rent share, delivery, waste, labour.', 6), ('What decision options end the pilot?', 'Scale, change or stop, with reasons from the numbers.', 8)],
  jobs=["Small-batch food producer","Production assistant in a food factory","Food-safety record keeper","Cafe or canteen supplier","Quality assistant"],
  prereq="None", ))
 
@@ -101,10 +101,10 @@ C.append(dict(id='EU-02', title='Handmade Goods and Craft Enterprise', lvl='L4 P
   "Write a one-page rules note naming each rule and its source.","Each rule has a named source and a date."),
  ("Review and plan","Evaluate",32,"After the pilot, decide how to grow without losing quality.",
   ["Compare time and margin for batch 1 and batch 4.","Write three lessons learned.","Choose: more of the same, a new colour or size, or a new channel.","Give two peers written feedback."],
-  "Margin rose from 12% to 31% after templates and a price change; plan: one new stall and a 40-unit batch.",
+  "Margin rose from 12% to 32% after templates and a price change; plan: one new stall and a 40-unit batch.",
   "Present evidence at a review room.","Plan with numbers and dates; two peer reviews given."),
  ],
- quiz=[('Why time each step?', 'Time is often the biggest hidden cost.', 2), ('Define batch making.', 'Making a group of items together for speed and consistency.', 3), ('Unit cost formula?', 'Materials + labour + packaging + selling cost share.', 4), ('Margin when price 18 and cost 12.30?', '(18 - 12.30)/18 = 31.7%.', 4), ('What belongs in a listing?', 'Photos, size, material, care, delivery, a short story.', 5), ('Why a quality checklist?', 'So every item meets the same standard and rejects are caught.', 3), ('What should you do when a shop sells for you?', 'Agree price, share and payment date in writing.', 6), ('Why ask buyers why they chose it?', 'To learn what the market values and improve.', 6), ('Name one product-safety step.', 'Check the rules for your product type with the local authority.', 7), ('What decides growth?', 'Margin and quality at the higher volume, not only demand.', 8)],
+ quiz=[('Why time each step?', 'Time is often the biggest hidden cost.', 2), ('Define batch making.', 'Making a group of items together for speed and consistency.', 3), ('Unit cost formula?', 'Materials + labour + packaging + selling cost share.', 4), ('Margin when price is EUR 18 and cost is EUR 12.30?', '(18 - 12.30) / 18 = 31.7%, about 32%.', 4), ('What belongs in a listing?', 'Photos, size, material, care, delivery, a short story.', 5), ('Why a quality checklist?', 'So every item meets the same standard and rejects are caught.', 3), ('What should you do when a shop sells for you?', 'Agree price, share and payment date in writing.', 6), ('Why ask buyers why they chose it?', 'To learn what the market values and improve.', 6), ('Name one product-safety step.', 'Check the rules for your product type with the local authority.', 7), ('What decides growth?', 'Margin and quality at the higher volume, not only demand.', 8)],
  jobs=["Craft entrepreneur","Production assistant","Product photographer assistant","Market and online seller","Craft trainer"], prereq="None"))
 
 # ---------------- EU-03 ONLINE SALES ----------------
@@ -112,7 +112,7 @@ C.append(dict(id='EU-03', title='Online Sales and E-Commerce Operations', lvl='L
  summary='Set up and run a small online shop: product pages, stock, orders, delivery, payments, customer service and simple numbers.',
  outcomes=[('Understand','Explain the order journey from visit to delivery.'),('Apply','Build product pages and run 20 real orders.'),('Analyse','Read conversion, order value and return numbers.'),('Evaluate','Judge delivery, price and page changes by results.'),('Create','Write clear policies and customer messages.')],
  task='Run a small online shop through at least 20 real or trial orders and keep a full record.',
- cond='About 150 hours over 3 to 6 months. A free or low-cost shop tool, a product with stock, bank or UPI-style payment page, a mentor and a peer circle.',
+ cond='About 150 hours over 3 to 6 months. A free or low-cost shop tool, a product with stock, a card or bank-transfer payment page, a mentor and a peer circle.',
  std='20 orders processed; every order tracked; policies written; numbers reported weekly; data-protection and consumer rules checked; 70% on the check.',
  safety='Collect only the personal data you need, keep it safe and delete it when no longer needed; follow your place\'s consumer and data law.',
  mods=[
@@ -129,7 +129,7 @@ C.append(dict(id='EU-03', title='Online Sales and E-Commerce Operations', lvl='L
   "Sales 4 per day, lead time 5 days, safety stock 8: reorder when 28 remain.",
   "Set reorder points for your five products.","Counts match records within 2%; reorder rules written."),
  ("Payments, delivery and returns","Apply",16,"Choose simple, trusted ways to be paid and to deliver.",
-  ["Use bank or UPI-style payment pages and trusted partners; never store card numbers.","Compare couriers on price, speed, tracking and damage record.","Set a returns policy you can afford and describe it clearly.","Reconcile payments with orders every week."],
+  ["Use card or bank-transfer payment pages and trusted partners; never store card numbers.","Compare couriers on price, speed, tracking and damage record.","Set a returns policy you can afford and describe it clearly.","Reconcile payments with orders every week."],
   "Courier A EUR 4.20 in 2 days; courier B EUR 3.50 in 4 days. For orders over EUR 40 offer free delivery on A.",
   "Write delivery and returns rules and test the process with one order.","Rules published; test order delivered; reconciliation done."),
  ("Customer service","Create",14,"Service wins repeat buyers. Answer fast, politely and with a clear next step.",
@@ -191,7 +191,7 @@ C.append(dict(id='EU-04', title='Mobile Application Building', lvl='L4 Practitio
   "Release and collect feedback from ten users.","Ten users reached; feedback table complete."),
  ("Plan version two and the business","Evaluate",8,"After release, decide whether to grow, change or stop, and how the app could earn.",
   ["Options: free for a service, paid app, subscription, sponsor, or a tool for your own business.","Estimate costs: time, hosting, support.","Write three lessons learned.","Plan version two with dates."],
-  "Plan: free for riders, EUR 3 per month for dispatch offices; need 40 offices to cover hosting and support.",
+  "Plan: free for riders, EUR 3 per month for each dispatch office; hosting and support cost about EUR 120 a month, so 40 offices x EUR 3 = EUR 120 cover them.",
   "Present at a review room; give two peers feedback.","Plan has numbers and dates."),
  ],
  quiz=[('Why interview users before designing?', 'To solve a real problem for a real person.', 1), ('What does a data table list?', 'Fields, their types and whether each is required.', 3), ('Why test on real phones?', 'Behaviour differs from a computer preview.', 5), ('How should you rank bugs?', 'Blocks the task, annoys, cosmetic.', 5), ('What belongs in a privacy note?', 'What is collected, why, how long, how to delete.', 6), ('Why keep secrets out of code?', 'Anyone who sees the code could misuse them.', 4), ('Name two accessibility checks.', 'Text size, contrast, labels, large tap targets.', 6), ('Why release to only ten users first?', 'To learn cheaply before scaling.', 7), ('What are three feedback questions?', 'Did it work, what was hard, would you use it again?', 7), ('What should a version-two plan include?', 'Changes, dates and cost estimate.', 8)],
@@ -267,7 +267,7 @@ def build(c):
     rub = ('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>'
            + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(cc)}</td><td>{e(d)}</td></tr>' for a, b, cc, d in RUBRIC[c['id']]) + '</tbody></table></div>')
     about = B.sec('', 'ab', 'about this course', 'What you will be able to do',
-        f'<div class="cb-facts"><span class="pill lv">{e(c["lvl"])}</span><span class="pill">About {c["hours"]} h</span><span class="pill">Practice 70% · Share 20% · Study 10%</span><span class="pill pr">USD 39 per learner per month, or USD 79 with mentor review</span></div>'
+        f'<div class="cb-facts"><span class="pill lv">{e(c["lvl"])}</span><span class="pill">About {c["hours"]} h</span><span class="pill">Practice 70% · Share 20% · Study 10%</span></div>'
         f'<p class="kit-intro">{e(c["summary"])}</p><ul class="blm">' + ''.join(f'<li><span class="bz">{b}</span> {e(t)}</li>' for b, t in c['outcomes']) + '</ul>'
         f'<h3 class="ws-h3">Task, condition and standard</h3><div class="tcs"><div><h4>Task</h4><p>{e(c["task"])}</p></div><div><h4>Condition</h4><p>{e(c["cond"])}</p></div><div><h4>Standard</h4><p>{e(c["std"])}</p></div></div>'
         f'<p class="ws-note">{e(c["safety"])}</p><p><strong>Requirements:</strong> {e(c["prereq"])}. Currency is shown on every number.</p>')

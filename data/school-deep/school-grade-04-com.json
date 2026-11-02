@@ -33,8 +33,8 @@
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Make a short slide presentation with text and pictures: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
    "steps": [
-    "Step 1, Plan three slides: Mariam must present 'Our Local Birds' in about two minutes. She plans 3 slides: slide 1 the title, slide 2 'Falcon' with one picture and two short points, slide 3 'Flamingo' laid out the same way.",
-    "Step 2, Title slide: She opens the slide tool, picks the Title layout, clicks the top box and types 'Our Local Birds', then clicks the lower box and types 'By Mariam, Grade 4'. The first slide now has a title and a name.",
+    "Step 1, Plan three slides: The learner must present 'Our Local Birds' in about two minutes. She plans 3 slides: slide 1 the title, slide 2 'Falcon' with one picture and two short points, slide 3 'Flamingo' laid out the same way.",
+    "Step 2, Title slide: She opens the slide tool, picks the Title layout, clicks the top box and types 'Our Local Birds', then clicks the lower box and types 'By [your name], Grade 4'. The first slide now has a title and a name.",
     "Step 3, Add a slide with text: She clicks New Slide, picks Title and Content, types 'Falcon' as the heading, then two bullets: 'Fast flyer' and 'Hunts small animals'. Each bullet has about three words, so the audience reads quickly.",
     "Step 4, Insert a picture: On slide 2 she clicks Insert, then Picture, chooses her own drawing 'falcon.png' from the Pictures folder, and drags a corner handle to resize it so it sits at the right without covering the bullets.",
     "Step 5, Copy the layout: She duplicates slide 2 to make slide 3, changes the heading to 'Flamingo', the bullets to 'Pink feathers' and 'Stands on one leg', and replaces the picture with flamingo.png. The deck has 3 slides.",
@@ -63,11 +63,11 @@
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Write a block program with loops and events: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
    "steps": [
-    "Step 1, Goal: Tariq wants a sprite to draw a square on the stage using a block-coding tool. A square has 4 equal sides and 4 right angles. He plans to repeat one move and one turn four times.",
+    "Step 1, Goal: The learner wants a sprite to draw a square on the stage using a block-coding tool. A square has 4 equal sides and 4 right angles. He plans to repeat one move and one turn four times.",
     "Step 2, Start event: From the Events category he drags 'when green flag clicked' to the coding area. An event block starts the program only when the flag is clicked, so nothing happens until then.",
     "Step 3, Pen and loop: Under it he snaps 'pen down' and then a 'repeat 4' block. Inside the repeat he snaps 'move 100 steps' and 'turn right 90 degrees'. Four times: move, turn.",
     "Step 4, Predict: The sprite moves 100, turns 90, moves 100, turns 90, moves 100, turns 90, moves 100, turns 90. Total turning is 4 times 90, which is 360 degrees, so it ends facing the way it began.",
-    "Step 5, Run and check: Tariq clicks the green flag. A square with sides of 100 steps is drawn and the sprite ends where it began. If he forgets pen down, the sprite moves but leaves no line, so he checks that block first.",
+    "Step 5, Run and check: The learner clicks the green flag. A square with sides of 100 steps is drawn and the sprite ends where it began. If he forgets pen down, the sprite moves but leaves no line, so he checks that block first.",
     "Step 6, Add a second event: He adds 'when space key pressed' then 'say Done! for 2 seconds'. Pressing the space bar makes a speech bubble show Done! for 2 seconds. Two events, two separate small programs.",
     "Your turn: Draw a triangle with sides of 100. Model answer: when green flag clicked, pen down, repeat 3, move 100 steps, turn right 120 degrees. 3 times 120 is 360, so the sprite finishes facing its starting direction."
    ]
@@ -93,12 +93,12 @@
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Enter data and make a simple chart: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
    "steps": [
-    "Step 1, Enter data: Sara surveys 22 classmates about pets. In a spreadsheet she types Pet in A1 and Number in B1, then Cat 6, Dog 9, Fish 4, Bird 3 in rows 2 to 5. Each fact goes in its own cell.",
+    "Step 1, Enter data: The learner surveys 22 classmates about pets. In a spreadsheet she types Pet in A1 and Number in B1, then Cat 6, Dog 9, Fish 4, Bird 3 in rows 2 to 5. Each fact goes in its own cell.",
     "Step 2, Check the total: She clicks cell B6 and types =SUM(B2:B5) then Enter. The spreadsheet shows 22. By hand, 6 plus 9 is 15, 15 plus 4 is 19, 19 plus 3 is 22, so the formula and the survey agree.",
     "Step 3, Select for the chart: She drags from A1 to B5 to select the labels and the numbers, but not the total row. Including the total would draw a fifth tall bar and mislead readers.",
     "Step 4, Insert chart: She clicks Insert, then Chart, and chooses a column chart. Four bars appear: Cat reaches 6, Dog 9, Fish 4, Bird 3. A column chart is good for comparing separate groups.",
     "Step 5, Add labels: She clicks the chart title and types 'Pets in Our Class', and sets the vertical axis title to 'Number of children'. Now anyone can read what the bars mean without asking.",
-    "Step 6, Read the chart: The Dog bar is tallest at 9 and the Bird bar is shortest at 3. Dog beats Bird by 9 minus 3, which is 6. Sara writes under the chart: 'Dogs are the most popular pet.'",
+    "Step 6, Read the chart: The Dog bar is tallest at 9 and the Bird bar is shortest at 3. Dog beats Bird by 9 minus 3, which is 6. The learner writes under the chart: 'Dogs are the most popular pet.'",
     "Your turn: 20 children voted for fruit: Apple 7, Banana 5, Mango 8. Total and chart? Model answer: =SUM(B2:B4) gives 20; column chart of A1:B4; the Mango bar is tallest at 8, Banana shortest at 5."
    ]
   },
@@ -123,12 +123,12 @@
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Show respectful behaviour and spot unsafe messages: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
    "steps": [
-    "Step 1, Meet the message: In the class chat Noura sees: 'You won a free tablet! Click this link and type your home address and your password.' It comes from someone she does not know, and she feels a little excited and a little unsure.",
+    "Step 1, Meet the message: In the class chat the learner sees: 'You won a free tablet! Click this link and type your home address and your password.' It comes from someone she does not know, and she feels a little excited and a little unsure.",
     "Step 2, Spot the warning signs: She lists three signs. It promises a free prize, it asks for private details, and the sender is a stranger. A real prize would never ask for a password. That makes this message unsafe.",
-    "Step 3, Stop and do not click: Noura keeps the link untouched and types no address or password. Clicking can lead to a fake page. Doing nothing is the safest first action, so she stops before anything else.",
+    "Step 3, Stop and do not click: The learner keeps the link untouched and types no address or password. Clicking can lead to a fake page. Doing nothing is the safest first action, so she stops before anything else.",
     "Step 4, Tell a trusted adult: She shows her teacher the message and says, 'I think this is not safe.' Her teacher thanks her, helps report it in the app and blocks the sender. Telling an adult is a strong choice.",
-    "Step 5, Respectful behaviour: Later a classmate posts a joke about Hadi's drawing. Noura writes, 'I like the colours in your drawing, Hadi,' and does not join the joke. Kind words online follow the same rules as face to face.",
-    "Step 6, Check: Noura keeps her password private, did not share her address, reported the unsafe message and spoke kindly. Four good actions. The rule is to think before you click and before you post.",
+    "Step 5, Respectful behaviour: Later one classmate posts a joke about another classmate's drawing. The learner writes, 'I like the colours in your drawing,' and does not join the joke. Kind words online follow the same rules as face to face.",
+    "Step 6, Check: The learner keeps their password private, did not share their address, reported the unsafe message and spoke kindly. Four good actions. The rule is to think before you click and before you post.",
     "Your turn: A stranger says, 'Send me your photo and school name to win a game.' What do you do? Model answer: do not reply, tell a trusted adult, block the sender, because photos and school names are private details."
    ]
   }
@@ -167,36 +167,44 @@
  ],
  "checks": [
   [
-   "Unit 1 (Presentations): show that you can make a short slide presentation with text and pictures. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 4 of 5 attempts correct, said or written, with one real example from home or school. (Covered in unit 1: Presentations.)"
+   "Unit 1 (Presentations): Make a 3-slide talk on 'My Favourite Food' with one picture.",
+   "slide 1 title and name; slide 2 a food heading, two short bullets and one picture; slide 3 another food or a summary with a picture; save and practise. (Covered in unit 1: Presentations.)"
   ],
   [
-   "Unit 2 (Coding with blocks): show that you can write a block program with loops and events. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 4 of 5 attempts correct, said or written, with one real example from home or school. (Covered in unit 2: Coding with blocks.)"
+   "Unit 2 (Coding with blocks): Draw a triangle with sides of 100.",
+   "when green flag clicked, pen down, repeat 3, move 100 steps, turn right 120 degrees. 3 times 120 is 360, so the sprite finishes facing its starting direction. (Covered in unit 2: Coding with blocks.)"
   ],
   [
-   "Unit 3 (Spreadsheets for beginners): show that you can enter data and make a simple chart. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 4 of 5 attempts correct, said or written, with one real example from home or school. (Covered in unit 3: Spreadsheets for beginners.)"
+   "Unit 3 (Spreadsheets for beginners): 20 children voted for fruit: Apple 7, Banana 5, Mango 8. Total and chart?.",
+   "=SUM(B2:B4) gives 20; column chart of A1:B4; the Mango bar is tallest at 8, Banana shortest at 5. (Covered in unit 3: Spreadsheets for beginners.)"
   ],
   [
-   "Unit 4 (Digital citizenship): show that you can show respectful behaviour and spot unsafe messages. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 4 of 5 attempts correct, said or written, with one real example from home or school. (Covered in unit 4: Digital citizenship.)"
+   "Unit 4 (Digital citizenship): A stranger says, 'Send me your photo and school name to win a game.' What do you do?.",
+   "do not reply, tell a trusted adult, block the sender, because photos and school names are private details. (Covered in unit 4: Digital citizenship.)"
   ],
   [
-   "Which action verb starts the outcome of Unit 1 (Presentations), and at which Bloom level is it?",
-   "'make', at the Create level. (Covered in unit 1: Presentations.)"
+   "Unit 1 (Presentations): Title slide. Show how you do it and say what the result is.",
+   "She opens the slide tool, picks the Title layout, clicks the top box and types 'Our Local Birds', then clicks the lower box and types 'By Mariam, Grade 4'. The first slide now has a title and a name. (Covered in unit 1: Presentations.)"
   ],
   [
-   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
-   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36. (Covered in: Assessment plan, near the top of this page.)"
+   "Unit 2 (Coding with blocks): Start event. Show how you do it and say what the result is.",
+   "From the Events category he drags 'when green flag clicked' to the coding area. An event block starts the program only when the flag is clicked, so nothing happens until then. (Covered in unit 2: Coding with blocks.)"
   ],
   [
-   "In which weeks does Unit 4 (Digital citizenship) run?",
-   "Weeks 33 to 36. (Covered in unit 4: Digital citizenship.)"
+   "Unit 3 (Spreadsheets for beginners): Check the total. Show how you do it and say what the result is.",
+   "She clicks cell B6 and types =SUM(B2:B5) then Enter. The spreadsheet shows 22. By hand, 6 plus 9 is 15, 15 plus 4 is 19, 19 plus 3 is 22, so the formula and the survey agree. (Covered in unit 3: Spreadsheets for beginners.)"
   ],
   [
-   "What evidence do you keep for each unit, and why?",
-   "One page in your learning book. It shows what you can really do and lets a teacher check it against the standard. (Covered in: How you are checked, further down this page.)"
+   "Unit 4 (Digital citizenship): Spot the warning signs. Show how you do it and say what the result is.",
+   "She lists three signs. It promises a free prize, it asks for private details, and the sender is a stranger. A real prize would never ask for a password. That makes this message unsafe. (Covered in unit 4: Digital citizenship.)"
+  ],
+  [
+   "Unit 1 (Presentations): Add a slide with text. Show how you do it and say what the result is.",
+   "She clicks New Slide, picks Title and Content, types 'Falcon' as the heading, then two bullets: 'Fast flyer' and 'Hunts small animals'. Each bullet has about three words, so the audience reads quickly. (Covered in unit 1: Presentations.)"
+  ],
+  [
+   "Unit 2 (Coding with blocks): Pen and loop. Show how you do it and say what the result is.",
+   "Under it he snaps 'pen down' and then a 'repeat 4' block. Inside the repeat he snaps 'move 100 steps' and 'turn right 90 degrees'. Four times: move, turn. (Covered in unit 2: Coding with blocks.)"
   ]
  ],
  "ladder": [

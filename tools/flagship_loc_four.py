@@ -213,7 +213,7 @@ def build(L):
     jobs = '<ul>' + ''.join(f'<li><strong>{e(a)}.</strong> {e(b)}.</li>' for a, b in L['jobs']) + '</ul>' + _LL.roles_html('small business', e)
     outs = [('Understand', f'Explain the {L["name"]} market in one page with sources.'), ('Analyse', 'Score sectors from the global list for local fit.'), ('Apply', 'Build a licence table and a privacy notice.'),
             ('Create', 'Run a customer test and a launch plan.'), ('Evaluate', f'Judge a plan with a worse-case sheet in {L["cur"]}.')]
-    top = (f'<div class="cb-facts"><span class="pill lv">L1 to L4 location edition</span><span class="pill">8 modules, {total} h plus practice</span><span class="pill">About 6 weeks part-time</span><span class="pill pr">USD 39 per learner per month, or USD 79 with mentor review</span></div>')
+    top = (f'<div class="cb-facts"><span class="pill lv">L1 to L4 location edition</span><span class="pill">8 modules, {total} h plus practice</span><span class="pill">About 6 weeks part-time</span></div>')
     about = B.sec('', 'ab', 'about this course', f'{L["name"]} edition: what you will be able to do', top +
         f'<p class="kit-intro">The global course list applied to {e(L["name"])}: local context, rules, jobs and examples, with numbers in {e(L["cur"])}.</p><ul class="blm">'
         + ''.join(f'<li><span class="bz">{b}</span> {e(t)}</li>' for b, t in outs) + '</ul>'

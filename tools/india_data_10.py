@@ -17,7 +17,7 @@ dict(slug='academic-courses', title='Academic Course Design and Tutoring', level
  M('Capstone: six-lesson unit','Create',5,['Write outcomes, six lesson plans and a test.','Teach at least one lesson with a mentor.','Analyse the test.','Write the reteaching and tutoring plan.'],'A six-lesson unit on circuits with a 20-mark test and a tutoring plan for two learners.','Present the unit and the analysis.','Unit is coherent, test matches the blueprint and plan uses the results.','What proves the unit worked?','Test results and a reteaching plan based on them.')],
  extra=[('Why give feedback quickly?','Learners can use it while the work is fresh.'),('What is differentiation?','Adapting tasks to different learners.')],
  rubric=RUB('Outcomes','Verb, condition and standard in every outcome','Teaching','Engaging, adaptive and timed'),
- ladder=LAD('Know your subject.','Explain how learning works.','Teach short sessions and tutor a friend.','Design and teach units alone.','Lead a department and design assessments.','Lead an institution academic quality.','Set academic standards and curriculum across institutions.'),
+ ladder=LAD('Know your subject.','Explain how learning works.','Teach short sessions and tutor a friend.','Design and teach units alone.','Lead a department and design assessments.','Lead an institution\'s academic quality.','Set academic standards and curriculum across institutions.'),
  jobs=['Tutor','Teacher','Course writer','Academic coordinator','Learning designer']),
 
 dict(slug='virtual-assistant-services', title='Virtual Assistant Services', level='L4 Practitioner',

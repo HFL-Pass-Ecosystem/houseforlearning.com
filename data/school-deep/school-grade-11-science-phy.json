@@ -38,7 +38,7 @@
     "Step 3, Use the kinematic equations for constant acceleration: v = u + at, s = ut + (1/2)at^2 and v^2 = u^2 + 2as. A car starts from rest with a = 2 m/s^2 for 5 s. Then v = 0 + 2 x 5 = 10 m/s and s = 0.5 x 2 x 25 = 25 m.",
     "Step 4, Solve a braking problem. A car at u = 20 m/s decelerates at a = -5 m/s^2 until v = 0. Time t = (0 - 20)/(-5) = 4 s. Distance s = (0 - 400)/(2 x -5) = 40 m. Use v^2 = u^2 + 2as when time is not given.",
     "Step 5, Practical: roll a trolley from rest down a 2.0 m ramp and time it with a stopwatch, getting 2.0 s. Then a = 2s/t^2 = 2 x 2.0/4.0 = 1.0 m/s^2. Safety: clamp the ramp, place a stop block at the bottom and keep feet clear. Repeat three times and average.",
-    "Step 6, Your turn: a stone is dropped from rest from a 80 m height with g = 10 m/s^2. Find the fall time and landing speed. Answer: t = square root of (2 x 80/10) = 4 s, and v = gt = 40 m/s."
+    "Step 6, Your turn: a stone is dropped from rest from an 80 m height with g = 10 m/s^2. Find the fall time and landing speed. Answer: t = square root of (2 x 80/10) = 4 s, and v = gt = 40 m/s."
    ]
   },
   {
@@ -149,7 +149,7 @@
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Use stress, strain and Bernoulli's principle: at least 70 percent on an exam-style task, with the method shown.",
    "steps": [
-    "Step 1, Calculate stress and strain. A steel wire of length 2 m and cross-section 1 mm2 (1e-6 m2) carries a load of 100 N. Stress = 100 / 1e-6 = 1 x 10^8 Pa. With Young's modulus 2 x 10^11 Pa, strain = 5 x 10^-4. Extension = 5e-4 x 2 = 1 mm.",
+    "Step 1, Calculate stress and strain. A steel wire of length 2 m and cross-section 1 mm2 (1e-6 m2) carries a load of 100 N. Stress = 100 / 1e-6 = 1 x 10^8 Pa. Taking Young's modulus of steel as about 2 x 10^11 Pa, strain = 5 x 10^-4. Extension = 5e-4 x 2 = 1 mm.",
     "Step 2, Compute pressure in a fluid. In water at depth 5 m, gauge pressure = rho g h = 1000 x 10 x 5 = 5 x 10^4 Pa. With atmosphere 1.0 x 10^5 Pa, absolute pressure is 1.5 x 10^5 Pa.",
     "Step 3, Use the continuity equation A1 v1 = A2 v2. Water in a pipe of 4 cm2 at 2 m/s narrows to 1 cm2. v2 = 4 x 2 / 1 = 8 m/s.",
     "Step 4, Use Bernoulli's principle P + 0.5 rho v^2 + rho g h = constant. Horizontal pipe: v1 = 2 m/s, v2 = 8 m/s. Pressure drop = 0.5 x 1000 x (64 - 4) = 30000 Pa. Higher speed means lower pressure, as in an aerofoil.",
@@ -250,44 +250,44 @@
  ],
  "checks": [
   [
-   "Unit 1 (Units, measurement and motion in a straight line): show that you can use dimensions and kinematic equations. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 1: Units, measurement and motion in a straight line.)"
+   "Unit 1 (Units, measurement and motion in a straight line): A stone is dropped from rest from a 80 m height with g = 10 m/s^2. Find the fall time and landing speed.",
+   "t = square root of (2 x 80/10) = 4 s, and v = gt = 40 m/s. (Covered in unit 1: Units, measurement and motion in a straight line.)"
   ],
   [
-   "Unit 2 (Motion in a plane and laws of motion): show that you can use vectors, projectile motion and Newton's laws. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 2: Motion in a plane and laws of motion.)"
+   "Unit 2 (Motion in a plane and laws of motion): A stone is thrown horizontally at 10 m/s from a 20 m cliff, g = 10 m/s^2. Find the time of fall, the horizontal range and the vertical speed on landing.",
+   "t = 2 s, range = 20 m, v_y = 20 m/s. (Covered in unit 2: Motion in a plane and laws of motion.)"
   ],
   [
-   "Unit 3 (Work, energy, power and systems of particles): show that you can apply conservation of energy and momentum. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 3: Work, energy, power and systems of particles.)"
+   "Unit 3 (Work, energy, power and systems of particles): A 1 kg ball moving at 4 m/s hits and sticks to a 3 kg stationary ball. Find the final speed and KE lost.",
+   "v = 4 / 4 = 1 m/s; KE lost = 8 - 2 = 6 J. (Covered in unit 3: Work, energy, power and systems of particles.)"
   ],
   [
-   "Unit 4 (Rotational motion and gravitation): show that you can use torque, angular momentum and Kepler's laws. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 4: Rotational motion and gravitation.)"
+   "Unit 4 (Rotational motion and gravitation): Find the orbital period of a planet at 9 AU from the Sun, and the torque of a 60 N perpendicular force at 0.5 m.",
+   "T^2 = 729 so T = 27 years, and tau = 0.5 x 60 = 30 N m. (Covered in unit 4: Rotational motion and gravitation.)"
   ],
   [
-   "Unit 5 (Properties of solids and fluids): show that you can use stress, strain and Bernoulli's principle. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 5: Properties of solids and fluids.)"
+   "Unit 5 (Properties of solids and fluids): Find the speed in a 2 cm2 section if a 6 cm2 section has 1 m/s flow.",
+   "v = 6 x 1 / 2 = 3 m/s. (Covered in unit 5: Properties of solids and fluids.)"
   ],
   [
-   "Unit 6 (Thermodynamics and kinetic theory): show that you can apply the laws of thermodynamics. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 6: Thermodynamics and kinetic theory.)"
+   "Unit 6 (Thermodynamics and kinetic theory): Find the efficiency of a Carnot engine between 500 K and 400 K.",
+   "1 - 400/500 = 20 per cent. (Covered in unit 6: Thermodynamics and kinetic theory.)"
   ],
   [
-   "Which action verb starts the outcome of Unit 1 (Units, measurement and motion in a straight line), and at which Bloom level is it?",
-   "'use', at the Apply level. (Covered in unit 1: Units, measurement and motion in a straight line.)"
+   "Unit 7 (Oscillations and waves): Find the period of a 0.25 m pendulum (g = 9.8).",
+   "2 pi sqrt(0.25/9.8) = 1.00 s. (Covered in unit 7: Oscillations and waves.)"
   ],
   [
-   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
-   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36. (Covered in: Assessment plan, near the top of this page.)"
+   "Unit 1 (Units, measurement and motion in a straight line): Check a formula by dimensions. Show how you do it and say what the result is.",
+   "In s = ut + (1/2)at^2 the term ut has [L T^-1][T] = [L], and at^2 has [L T^-2][T^2] = [L]. Both match the dimension of s, so the formula is consistent. Dimensions cannot fix pure numbers like 1/2. (Covered in unit 1: Units, measurement and motion in a straight line.)"
   ],
   [
-   "In which weeks does Unit 7 (Oscillations and waves) run?",
-   "Weeks 33 to 36. (Covered in unit 7: Oscillations and waves.)"
+   "Unit 2 (Motion in a plane and laws of motion): Treat projectile motion as two independent motions. Show how you do it and say what the result is.",
+   "Horizontal speed stays constant and vertical motion has acceleration g = 10 m/s^2 downward. A ball leaves a 45 m high cliff horizontally at 20 m/s. Fall time t = square root of (2 x 45/10) = 3 s. (Covered in unit 2: Motion in a plane and laws of motion.)"
   ],
   [
-   "What evidence do you keep for each unit, and why?",
-   "A timed paper and an error log. It shows what you can really do and lets a teacher check it against the standard. (Covered in: How you are checked, further down this page.)"
+   "Unit 3 (Work, energy, power and systems of particles): Use the work-energy theorem. Show how you do it and say what the result is.",
+   "A 2 kg block starts at 3 m/s and the net force of 4 N acts for 5 m. Work = 20 J. Initial KE = 0.5 x 2 x 9 = 9 J. Final KE = 29 J, so v = sqrt(2 x 29 / 2) = 5.39 m/s. (Covered in unit 3: Work, energy, power and systems of particles.)"
   ]
  ],
  "ladder": [

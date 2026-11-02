@@ -192,40 +192,44 @@
  ],
  "checks": [
   [
-   "Unit 1 (Reproduction in organisms and humans): show that you can describe sexual reproduction in flowering plants and humans. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 1: Reproduction in organisms and humans.)"
+   "Unit 1 (Reproduction in organisms and humans): A pea plant has 14 chromosomes in a body cell. How many are in a pollen grain, the egg, the zygote and the endosperm?.",
+   "pollen grain 7, egg 7, zygote 14, endosperm 21 (three sets of 7). Name the process by which one fusion forms the zygote and another forms the endosperm: double fertilization. (Covered in unit 1: Reproduction in organisms and humans.)"
   ],
   [
-   "Unit 2 (Genetics and evolution): show that you can apply inheritance laws and molecular basis of inheritance. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 2: Genetics and evolution.)"
+   "Unit 2 (Genetics and evolution): Cross a round pea plant Rr with a wrinkled plant rr. State the genotypes and phenotype ratio.",
+   "gametes R or r from the first, r from the second, so offspring are 1 Rr : 1 rr, which is 1 round : 1 wrinkled. This is also a test cross, showing the round parent is heterozygous. (Covered in unit 2: Genetics and evolution.)"
   ],
   [
-   "Unit 3 (Biology and human welfare): show that you can describe health, disease and food production. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 3: Biology and human welfare.)"
+   "Unit 3 (Biology and human welfare): Match each disease to its cause or carrier: malaria, dengue, typhoid.",
+   "malaria is caused by Plasmodium carried by the female Anopheles; dengue is a virus carried by Aedes mosquitoes; typhoid is caused by Salmonella typhi in contaminated food or water. Prevention for the first two is stopping mosquito breeding, for typhoid clean water. (Covered in unit 3: Biology and human welfare.)"
   ],
   [
-   "Unit 4 (Biotechnology and its applications): show that you can explain recombinant DNA technology. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 4: Biotechnology and its applications.)"
+   "Unit 4 (Biotechnology and its applications): How many copies result from one DNA molecule after 25 PCR cycles, and which enzyme seals the gene into the plasmid?.",
+   "2^25 = 33,554,432 copies. The enzyme is DNA ligase. Human insulin made this way in bacteria is a real use, joining the A chain of 21 and the B chain of 30 amino acids. (Covered in unit 4: Biotechnology and its applications.)"
   ],
   [
-   "Unit 5 (Ecology and environment): show that you can explain ecosystems, biodiversity and conservation. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 5: Ecology and environment.)"
+   "Unit 5 (Ecology and environment): Grass holds 20,000 J. Following the 10 percent rule through grasshopper, frog, snake and hawk, how much reaches the hawk?.",
+   "grasshopper 2,000 J, frog 200 J, snake 20 J, hawk 2 J. Only a tiny share reaches the top consumer, so the hawk is rare compared with the grass. (Covered in unit 5: Ecology and environment.)"
   ],
   [
-   "Which action verb starts the outcome of Unit 1 (Reproduction in organisms and humans), and at which Bloom level is it?",
-   "'describe', at the Understand level. (Covered in unit 1: Reproduction in organisms and humans.)"
+   "Unit 1 (Reproduction in organisms and humans): Describe pollination and double fertilization. Show how you do it and say what the result is.",
+   "Pollen lands on the stigma and grows a tube down the style to the ovule. Two male gametes are released. One fuses with the egg to form the zygote. The other fuses with the 2 polar nuclei to form the primary endosperm nucleus. Two fusions in one embryo sac is why it is called double fertilization. (Covered in unit 1: Reproduction in organisms and humans.)"
   ],
   [
-   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
-   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36. (Covered in: Assessment plan, near the top of this page.)"
+   "Unit 2 (Genetics and evolution): Apply independent assortment to a dihybrid cross. Show how you do it and say what the result is.",
+   "Round (R) and yellow (Y) are dominant. Cross RrYy x RrYy. Each parent makes four gamete types, RY, Ry, rY, ry, so there are 16 combinations. Count phenotypes: 9 round yellow, 3 round green, 3 wrinkled yellow, 1 wrinkled green. The ratio is 9 : 3 : 3 : 1. (Covered in unit 2: Genetics and evolution.)"
   ],
   [
-   "In which weeks does Unit 5 (Ecology and environment) run?",
-   "Weeks 30 to 36. (Covered in unit 5: Ecology and environment.)"
+   "Unit 3 (Biology and human welfare): Describe malaria. Show how you do it and say what the result is.",
+   "An infected Anopheles bites and injects the parasite, which enters the liver and then the red blood cells. When red cells burst, toxins release and cause cycles of chills and high fever every 2 to 3 days. Control means draining breeding water, using nets and treating patients with prescribed medicine. (Covered in unit 3: Biology and human welfare.)"
   ],
   [
-   "What evidence do you keep for each unit, and why?",
-   "A timed paper and an error log. It shows what you can really do and lets a teacher check it against the standard. (Covered in: How you are checked, further down this page.)"
+   "Unit 4 (Biotechnology and its applications): Explain the cutting. Show how you do it and say what the result is.",
+   "A restriction enzyme recognises a palindromic site. EcoRI recognises GAATTC, which reads the same on the opposite strand from 5' to 3'. It cuts between G and A on each strand, leaving short single-stranded sticky ends (AATT). Cutting the vector and the gene with the same enzyme gives matching sticky ends. (Covered in unit 4: Biotechnology and its applications.)"
+  ],
+  [
+   "Unit 5 (Ecology and environment): Explain energy flow. Show how you do it and say what the result is.",
+   "Sunlight is fixed by producers, and only about 10 percent of the energy passes to each next trophic level, the rest is lost as heat in respiration. If grass holds 10,000 J, grasshoppers get 1,000 J, a frog 100 J, and a snake 10 J. That is why food chains seldom exceed four or five levels. (Covered in unit 5: Ecology and environment.)"
   ]
  ],
  "ladder": [

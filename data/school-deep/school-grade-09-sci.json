@@ -279,44 +279,44 @@
  ],
  "checks": [
   [
-   "Unit 1 (Physics: motion): show that you can describe motion with graphs and equations. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 1: Physics: motion.)"
+   "Unit 1 (Physics: motion): A ball is dropped from rest and falls for 2 s. Take g = 10 m/s^2. Find its speed and distance fallen using the equations.",
+   "v = 0 + 10 x 2 = 20 m/s, and s = (1/2) x 10 x 2^2 = 20 m. (Covered in unit 1: Physics: motion.)"
   ],
   [
-   "Unit 2 (Physics: force and laws of motion): show that you can apply Newton's laws and momentum. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 2: Physics: force and laws of motion.)"
+   "Unit 2 (Physics: force and laws of motion): A 3 kg cart moving at 4 m/s hits a 1 kg cart at rest and the two stick together. Find their speed.",
+   "momentum before = 3 x 4 = 12 kg m/s; after = 4 kg x v, so v = 12 / 4 = 3 m/s. (Covered in unit 2: Physics: force and laws of motion.)"
   ],
   [
-   "Unit 3 (Physics: gravitation, work and energy): show that you can use universal gravitation and work and energy. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 3: Physics: gravitation, work and energy.)"
+   "Unit 3 (Physics: gravitation, work and energy): A 2 kg stone falls from rest through 5 m. Find KE gained and speed (g = 10).",
+   "KE = 2 x 10 x 5 = 100 J; v = sqrt(2 x 100 / 2) = 10 m/s. (Covered in unit 3: Physics: gravitation, work and energy.)"
   ],
   [
-   "Unit 4 (Physics: sound): show that you can explain sound waves and echo. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 4: Physics: sound.)"
+   "Unit 4 (Physics: sound): A ship's sonar receives an echo after 4 s in water where sound speed is 1500 m/s. Find the depth.",
+   "1500 x 4 / 2 = 3000 m. (Covered in unit 4: Physics: sound.)"
   ],
   [
-   "Unit 5 (Chemistry: matter in our surroundings and is matter around us pure): show that you can classify matter and calculate concentration. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 5: Chemistry: matter in our surroundings and is matter around us pure.)"
+   "Unit 5 (Chemistry: matter in our surroundings and is matter around us pure): Find the concentration of a solution of 20 g sugar in 180 g water.",
+   "20 / 200 x 100 = 10 per cent by mass. (Covered in unit 5: Chemistry: matter in our surroundings and is matter around us pure.)"
   ],
   [
-   "Unit 6 (Chemistry: atoms, molecules and the structure of the atom): show that you can use symbols, formulae and the atomic model. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 6: Chemistry: atoms, molecules and the structure of the atom.)"
+   "Unit 6 (Chemistry: atoms, molecules and the structure of the atom): Write the formula for magnesium chloride and its molecular mass (Mg 24, Cl 35.5).",
+   "MgCl2; 24 + 71 = 95 u. (Covered in unit 6: Chemistry: atoms, molecules and the structure of the atom.)"
   ],
   [
-   "Which action verb starts the outcome of Unit 1 (Physics: motion), and at which Bloom level is it?",
-   "'describe', at the Understand level. (Covered in unit 1: Physics: motion.)"
+   "Unit 7 (Biology: the fundamental unit of life and tissues): Name the organelle that releases energy and the plant tissue that carries water up from roots.",
+   "the mitochondrion releases energy from glucose, and xylem carries water and minerals upward. (Covered in unit 7: Biology: the fundamental unit of life and tissues.)"
   ],
   [
-   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
-   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36. (Covered in: Assessment plan, near the top of this page.)"
+   "Unit 8 (Biology: diversity, health and natural resources): Name the kingdom and one disease prevention for a mushroom and for cholera.",
+   "Fungi; cholera is prevented by clean boiled water and sanitation. (Covered in unit 8: Biology: diversity, health and natural resources.)"
   ],
   [
-   "In which weeks does Unit 8 (Biology: diversity, health and natural resources) run?",
-   "Weeks 33 to 36. (Covered in unit 8: Biology: diversity, health and natural resources.)"
+   "Unit 1 (Physics: motion): Read a distance-time graph. Show how you do it and say what the result is.",
+   "Plot (0 s, 0 m), (2 s, 10 m) and (4 s, 20 m). The points lie on a straight line, so the motion is uniform. The slope is 20 m divided by 4 s, which is 5 m/s, the speed. A flat line means at rest, and a line curving upward means speeding up. (Covered in unit 1: Physics: motion.)"
   ],
   [
-   "What evidence do you keep for each unit, and why?",
-   "A worked task and a corrected copy. It shows what you can really do and lets a teacher check it against the standard. (Covered in: How you are checked, further down this page.)"
+   "Unit 2 (Physics: force and laws of motion): Apply the second law, F = ma. Show how you do it and say what the result is.",
+   "A 5 kg trolley pushed by a net force of 20 N gets a = 20 / 5 = 4 m/s^2. Double the force to 40 N and the acceleration doubles to 8 m/s^2. Double the mass to 10 kg with 20 N and it halves to 2 m/s^2. (Covered in unit 2: Physics: force and laws of motion.)"
   ]
  ],
  "ladder": [

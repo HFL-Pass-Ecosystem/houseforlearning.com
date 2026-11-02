@@ -1,11 +1,11 @@
-LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast in Sao Paulo that can '
+LONG = {'Bed and Breakfast Business': ('the owner runs a five-room bed and breakfast in Sao Paulo that can '
                                 'offer 150 room-nights a month. She charges R$ 280 per room-night '
                                 'with breakfast, and laundry, cleaning, breakfast food and energy '
                                 'cost about R$ 90. Her fixed costs are R$ 6.000 a month for rent, '
                                 'insurance, internet and a part-time cleaner. Last month she sold '
                                 '90 room-nights. A travel agent proposes a group of 20 room-nights '
                                 'next month at R$ 240 each, and a guest left a poor review about a '
-                                'dirty bathroom. Rita does not know her break-even occupancy or '
+                                'dirty bathroom. The owner does not know her break-even occupancy or '
                                 'whether the group price is worth taking. She keeps bookings in a '
                                 'calendar on the wall and has no record of how guests found her or '
                                 'what each night really earned.',
@@ -26,15 +26,15 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                                 'cleaner, so a bathroom complaint can be traced to a date and a '
                                 'room.\n'
                                 '\n'
-                                "Rita's wall calendar becomes a weekly sheet, so a dirty-bathroom "
+                                "the owner's wall calendar becomes a weekly sheet, so a dirty-bathroom "
                                 'review points to a date, a room and a signed checklist.'),
- 'Carpentry': ('Valdir runs a small carpentry workshop in Sao Paulo and builds made-to-measure '
+ 'Carpentry': ('the owner runs a small carpentry workshop in Sao Paulo and builds made-to-measure '
                'pieces such as tables and wardrobe door sets. He charges R$ 1.800 per piece, and '
                'boards, hardware, finish, helper hours and delivery cost about R$ 900. His fixed '
                'costs are R$ 6.000 a month for the rented bay, power, tools and insurance. Last '
                'month he delivered 12 pieces. One client asked for a change after the boards were '
                'cut, so he remade a piece, wasting R$ 520 of boards and R$ 150 of helper time. '
-               'Valdir does not know how many pieces he needs to cover costs, or how much the '
+               'the owner does not know how many pieces he needs to cover costs, or how much the '
                'remake cost him. He keeps prices in his head and works from sketches on scrap '
                'wood, so clients sometimes remember the agreement differently.',
                'First, margin per piece is R$ 1.800 - R$ 900 = R$ 900, or 50 percent. Break-even '
@@ -49,16 +49,16 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                'for a month to learn whether the price still covers the work. The remake costs and '
                'deposit are worked-example figures, not market data.\n'
                '\n'
-               'Valdir should photograph each piece beside its signed drawing, so the client sees '
+               'the owner should photograph each piece beside its signed drawing, so the client sees '
                'the R$ 1.800 piece they approved.'),
- 'Construction and Technical Services': ('Tiago runs a small renovation firm in Sao Paulo with two '
+ 'Construction and Technical Services': ('the owner runs a small renovation firm in Sao Paulo with two '
                                          'crews. He sells each finished job for R$ 7.500, and '
                                          'materials, crew days and transport cost him about R$ '
                                          '5.000 per job. Each month he pays R$ 14.000 for the '
                                          'yard, van, insurance and office. Last month he closed 10 '
                                          'jobs and felt busy, but his account stayed thin. One '
                                          'client paid 30 days late, and a tiling job needed R$ 900 '
-                                         'of extra materials that he never charged. Tiago does not '
+                                         'of extra materials that he never charged. The owner does not '
                                          'know how many jobs he must finish just to cover his '
                                          'fixed cost, or how much one overrun really costs. He '
                                          'keeps his notes in a notebook and on his phone, and his '
@@ -81,10 +81,10 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                                          'signed cost sheet. The R$ 900 overrun and deposit are '
                                          'illustrative figures.\n'
                                          '\n'
-                                         "Tiago's first change sheet should cover the R$ 900 of "
+                                         "the owner's first change sheet should cover the R$ 900 of "
                                          'tile materials, so the next overrun is charged when '
                                          'ordered.'),
- 'Event Organization and Management': ('Camila runs a small events company in Sao Paulo that '
+ 'Event Organization and Management': ('the owner runs a small events company in Sao Paulo that '
                                        'organises corporate lunches and private parties. She sells '
                                        'each event for R$ 14.000, and venue, catering, sound, '
                                        'decor, staff and transport cost about R$ 8.500. Her fixed '
@@ -92,7 +92,7 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                                        'coordinator. Last month she delivered 5 events. For one of '
                                        'them the client added 20 guests two days before, and the '
                                        'caterer billed R$ 1.500 extra. The client has not yet paid '
-                                       'the final balance of R$ 4.200. Camila does not know how '
+                                       'the final balance of R$ 4.200. The owner does not know how '
                                        'many events she must run to cover her costs or how much '
                                        'the late change cost her. Her quotes are built from memory '
                                        'of past events, and supplier prices are noted on messages '
@@ -115,16 +115,16 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                                        'lines overrun and can price the contingency with '
                                        'evidence.\n'
                                        '\n'
-                                       "Camila's debrief should log the R$ 1.500 caterer bill, so "
+                                       "the owner's debrief should log the R$ 1.500 caterer bill, so "
                                        'her next quote prices late headcount changes.'),
- 'Export and Import Business': ('Marcos runs a small trading firm in Sao Paulo that imports food '
+ 'Export and Import Business': ('the owner runs a small trading firm in Sao Paulo that imports food '
                                 'equipment and sells to restaurant groups. Each shipment is sold '
                                 'for R$ 40.000 and costs R$ 34.000 for goods, freight, insurance, '
                                 'port and broker charges and haulage. His office, broker retainer '
                                 'and salaries are R$ 12.000 a month, and he handles 3 shipments a '
                                 'month. A buyer now asks for a R$ 2.000 discount on the next '
                                 'shipment and 60 days to pay. At the same time the freight quote '
-                                'for the next container has risen by R$ 1.000. Marcos does not '
+                                'for the next container has risen by R$ 1.000. The owner does not '
                                 'know whether he can accept both changes and still cover his fixed '
                                 "costs. His records sit in email folders, and the broker's "
                                 'invoices arrive weeks after the container is cleared, which hides '
@@ -146,7 +146,7 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                                 'each month, and accept credit terms only for buyers who pay on '
                                 'time.\n'
                                 '\n'
-                                'Marcos can tell the buyer that at R$ 3.000 of margin a shipment '
+                                'the owner can tell the buyer that at R$ 3.000 of margin a shipment '
                                 'covers a quarter of his R$ 12.000 fixed cost.'),
  'Financing Start-ups': ('Beatriz advises early-stage founders in Sao Paulo. She sells an advisory '
                          'package for R$ 3.000, which includes a cash forecast, a break-even sheet '
@@ -175,12 +175,12 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                          '\n'
                          "Beatriz's next proposal should price hours beyond the 12 in scope, so "
                          'the 10 extra hours, R$ 300 at cost, stop being absorbed.'),
- 'Food Trucking': ('Luana runs a food truck near office towers in Sao Paulo and sells about 2.400 '
+ 'Food Trucking': ('the owner runs a food truck near office towers in Sao Paulo and sells about 2.400 '
                    'meals a month at R$ 32 each. Ingredients, packaging and waste cost her R$ 13 '
                    'per meal. Her fixed costs are R$ 9.000 a month for the truck instalment, gas, '
                    'permits, insurance and a monthly helper. In the rainy week she sold only 380 '
                    'meals instead of her usual 560. She is thinking of adding a third dish that '
-                   'costs R$ 16 to make and sells for R$ 32. Luana does not know how many meals '
+                   'costs R$ 16 to make and sells for R$ 32. The owner does not know how many meals '
                    'she must sell to break even, how much the rainy week cost, or whether the new '
                    'dish helps. She counts takings at night but does not record meals by day, '
                    'weather or place, so patterns stay hidden.',
@@ -198,7 +198,7 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                    'weeks, then keep the places that clear break-even each day and move away from '
                    'the rest. Check prices against ingredient costs monthly.\n'
                    '\n'
-                   "Luana's four-week log should compare each place with the 474-meal line, about "
+                   "the owner's four-week log should compare each place with the 474-meal line, about "
                    '16 meals a day over 30 days.'),
  'Franchise Business': ('Paulo owns a small snack brand in Sao Paulo and sells opening packages to '
                         'franchisees. Each outlet package sells for R$ 52.000 and costs him R$ '
@@ -226,13 +226,13 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                         '\n'
                         'Paulo should visit the outlet ignoring the manual first, with the audit '
                         'sheet and its R$ 9.800 margin after concessions.'),
- 'Hostel or Hotel Business': ('Joana manages a small hotel with 30 rooms in Sao Paulo, which '
+ 'Hostel or Hotel Business': ('the owner manages a small hotel with 30 rooms in Sao Paulo, which '
                               'offers 900 room-nights in a month. The average price is R$ 340 per '
                               'room-night, and housekeeping, breakfast, utilities and amenities '
                               'cost about R$ 130. Fixed costs are R$ 45.000 a month for staff, '
                               'rent, maintenance and booking software. Last month the hotel sold '
                               '600 room-nights, but weekdays were quiet. A company offers 60 extra '
-                              'room-nights a month on weekdays if the price falls to R$ 300. Joana '
+                              'room-nights a month on weekdays if the price falls to R$ 300. The owner '
                               'does not know the break-even occupancy or whether the company deal '
                               'is worth accepting. Weekend rooms sell out early, but the booking '
                               'system shows no report by weekday, and the team makes price changes '
@@ -254,16 +254,16 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                               'maintenance logs weekly so rooms out of order do not silently '
                               'reduce sellable nights.\n'
                               '\n'
-                              "Joana's first report should split the 600 nights by weekday, so the "
+                              "the owner's first report should split the 600 nights by weekday, so the "
                               '60 company nights fill quiet gaps, not sold-out Saturdays.'),
- 'Manufacturing Business': ('Roberto owns a small plant in Sao Paulo that makes packaged sauces in '
+ 'Manufacturing Business': ('the owner owns a small plant in Sao Paulo that makes packaged sauces in '
                             'batches. A batch sells for R$ 9.000, and raw materials, packaging, '
                             'labour, energy and water cost about R$ 6.200. His fixed costs are R$ '
                             '45.000 a month for rent, machines, maintenance and supervisors. Last '
                             'month he made 30 batches for three buyers. One buyer, taking 5 '
                             'batches, asks for a R$ 500 price cut per batch, and a machine stopped '
                             'for two days. Scrap, not counted in that R$ 6.200, also cost 4 percent of it per '
-                            'batch. Roberto does not know his break-even, how much the discount '
+                            'batch. The owner does not know his break-even, how much the discount '
                             'costs or what the scrap is worth. He reads output at the end of the '
                             'month, and machine stoppages are not written down, so causes are '
                             'guessed.',
@@ -282,14 +282,14 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                             'that costs the most hours first, and review prices with each buyer '
                             'once the batch cost record is reliable.\n'
                             '\n'
-                            'Roberto should hang a stoppage sheet at the filling machine, so the '
+                            'the owner should hang a stoppage sheet at the filling machine, so the '
                             'R$ 500 discount is decided on measured numbers.'),
- 'Winery': ('Helena and her brother run a small winery near Sao Paulo that sells wine in cases of '
+ 'Winery': ('the owner and her brother run a small winery near Sao Paulo that sells wine in cases of '
             '6. A case sells for R$ 520 and costs R$ 300 in grapes, glass, corks, labels, cellar '
             'labour and breakage. Their fixed costs are R$ 22.000 a month for rent, tanks, '
             'insurance and a part-time host. This month they plan to sell 120 cases. A restaurant '
             'took 30 cases on a handshake and promised to pay in 45 days, and 8 cases came back '
-            'from a shop with cork problems. Helena has little cash and the next grape payment is '
+            'from a shop with cork problems. The owner has little cash and the next grape payment is '
             'due soon. She does not know her break-even or what the returns cost. The cellar notes '
             'are scattered across a notebook and several messages, and stock counts differ between '
             'the two of them.',
@@ -307,5 +307,5 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
             'schedule, and decide what to fill next only after the numbers agree. Keep one sample '
             'from each lot for any complaint.\n'
             '\n'
-            "Helena and her brother should count the cellar together and record the restaurant's "
+            "the owner and her brother should count the cellar together and record the restaurant's "
             '30-case promise, R$ 15.600 due in 45 days.')}

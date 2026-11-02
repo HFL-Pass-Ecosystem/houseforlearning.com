@@ -33,7 +33,7 @@
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Lead a team project with an ethical review: at least 70 percent on an exam-style task, with the method shown.",
    "steps": [
-    "Step 1, The project: Aref leads a team of four on a lab project measuring the time a trolley takes to roll down a ramp. Roles: Aref leads, Dina measures, Hamad records, Sara analyses the data.",
+    "Step 1, The project: Learner A leads a team of four on a lab project measuring the time a trolley takes to roll down a ramp. Roles: Learner A leads, Learner B measures, Learner C records, Learner D analyses the data.",
     "Step 2, Ethical rules: Record every trial honestly, do not change data to match a hoped result, give credit for help and report all methods. These rules are agreed and written in the project log before the first trial.",
     "Step 3, The data: Five timing trials in seconds are 12.1, 12.3, 11.9, 12.2 and 14.8. The sum is 63.3, so the mean is 63.3 divided by 5, which is 12.66 seconds. The last result is far from the others.",
     "Step 4, The temptation: Hamad suggests deleting 14.8 without saying so, because it spoils the neat result. Aref asks, 'Would we be comfortable explaining this to our teacher?' The team decides the outlier cannot be silently removed.",
@@ -63,7 +63,7 @@
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Prepare a study plan, a CV and a statement of purpose: at least 70 percent on an exam-style task, with the method shown.",
    "steps": [
-    "Step 1, Study plan: Yousef has 8 weeks before exams and plans 20 hours per week: Mathematics 6, Physics 5, Chemistry 5, Computer Science 4. Check 6 plus 5 plus 5 plus 4 is 20. Over 8 weeks that is 160 hours.",
+    "Step 1, Study plan: A learner has 8 weeks before exams and plans 20 hours per week: Mathematics 6, Physics 5, Chemistry 5, Computer Science 4. Check 6 plus 5 plus 5 plus 4 is 20. Over 8 weeks that is 160 hours.",
     "Step 2, Weekly schedule: Maths gets three 2-hour sessions of problem practice; Physics and Chemistry each get one 2-hour session of theory and one 3-hour session of past-style questions; Computer Science gets four 1-hour coding sessions.",
     "Step 3, CV structure: Name and contact, profile, education with subjects, projects, achievements and skills. Example bullet: 'Built a Python program to log lab readings, reducing a 30-minute table task to 5 minutes.' It fits one page.",
     "Step 4, Evidence and honesty: He replaces 'good at coding' with the project bullet above and lists only skills he can demonstrate. Claiming a language he cannot use would be dishonest and could fail an interview.",
@@ -107,28 +107,44 @@
  ],
  "checks": [
   [
-   "Unit 1 (Leadership and ethics): show that you can lead a team project with an ethical review. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 1: Leadership and ethics.)"
+   "Unit 1 (Leadership and ethics): Trials 8.0, 8.2, 8.1 and 9.9. What do you report?.",
+   "all four values; mean with all is 34.2 divided by 4, which is 8.55; without 9.9 it is 8.1; explain the cause and repeat the trial. (Covered in unit 1: Leadership and ethics.)"
   ],
   [
-   "Unit 2 (Preparing for university and work): show that you can prepare a study plan, a CV and a statement of purpose. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 2: Preparing for university and work.)"
+   "Unit 2 (Preparing for university and work): Plan 18 hours a week over 10 weeks for 3 science subjects.",
+   "for example 6 hours each; 18 times 10 is 180 hours; add timed past questions every second week and a rest day. (Covered in unit 2: Preparing for university and work.)"
   ],
   [
-   "Which action verb starts the outcome of Unit 1 (Leadership and ethics), and at which Bloom level is it?",
-   "'lead', at the Apply level. (Covered in unit 1: Leadership and ethics.)"
+   "Unit 1 (Leadership and ethics): Ethical rules. Show how you do it and say what the result is.",
+   "Record every trial honestly, do not change data to match a hoped result, give credit for help and report all methods. These rules are agreed and written in the project log before the first trial. (Covered in unit 1: Leadership and ethics.)"
   ],
   [
-   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
-   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36. (Covered in: Assessment plan, near the top of this page.)"
+   "Unit 2 (Preparing for university and work): Weekly schedule. Show how you do it and say what the result is.",
+   "Maths gets three 2-hour sessions of problem practice; Physics and Chemistry each get one 2-hour session of theory and one 3-hour session of past-style questions; Computer Science gets four 1-hour coding sessions. (Covered in unit 2: Preparing for university and work.)"
   ],
   [
-   "In which weeks does Unit 2 (Preparing for university and work) run?",
-   "Weeks 19 to 36. (Covered in unit 2: Preparing for university and work.)"
+   "Unit 1 (Leadership and ethics): The data. Show how you do it and say what the result is.",
+   "Five timing trials in seconds are 12.1, 12.3, 11.9, 12.2 and 14.8. The sum is 63.3, so the mean is 63.3 divided by 5, which is 12.66 seconds. The last result is far from the others. (Covered in unit 1: Leadership and ethics.)"
   ],
   [
-   "What evidence do you keep for each unit, and why?",
-   "A timed paper and an error log. It shows what you can really do and lets a teacher check it against the standard. (Covered in: How you are checked, further down this page.)"
+   "Unit 2 (Preparing for university and work): CV structure. Show how you do it and say what the result is.",
+   "Name and contact, profile, education with subjects, projects, achievements and skills. Example bullet: 'Built a Python program to log lab readings, reducing a 30-minute table task to 5 minutes.' It fits one page. (Covered in unit 2: Preparing for university and work.)"
+  ],
+  [
+   "Unit 1 (Leadership and ethics): The temptation. Show how you do it and say what the result is.",
+   "Hamad suggests deleting 14.8 without saying so, because it spoils the neat result. Aref asks, 'Would we be comfortable explaining this to our teacher?' The team decides the outlier cannot be silently removed. (Covered in unit 1: Leadership and ethics.)"
+  ],
+  [
+   "Unit 2 (Preparing for university and work): Evidence and honesty. Show how you do it and say what the result is.",
+   "He replaces 'good at coding' with the project bullet above and lists only skills he can demonstrate. Claiming a language he cannot use would be dishonest and could fail an interview. (Covered in unit 2: Preparing for university and work.)"
+  ],
+  [
+   "Unit 1 (Leadership and ethics): The honest treatment. Show how you do it and say what the result is.",
+   "They investigate and find that Dina stopped the timer late on trial 5. They report all five values and explain the probable error. Without that trial the mean is 48.5 divided by 4, which is 12.125 seconds. (Covered in unit 1: Leadership and ethics.)"
+  ],
+  [
+   "Unit 2 (Preparing for university and work): Statement of purpose. Show how you do it and say what the result is.",
+   "Limit 250 words: 40 words on the problem that interests him, 80 on why engineering, 80 on evidence from the lab project and courses, 50 on goals. 40 plus 80 plus 80 plus 50 is 250. (Covered in unit 2: Preparing for university and work.)"
   ]
  ],
  "ladder": [

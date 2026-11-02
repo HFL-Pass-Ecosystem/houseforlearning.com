@@ -308,44 +308,44 @@
  ],
  "checks": [
   [
-   "Unit 1 (Sets and relations): show that you can use set notation, relations and functions. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 1: Sets and relations.)"
+   "Unit 1 (Sets and relations): If n(A) = 4 and n(B) = 5 find n(A x B), and give the domain of 1/(x - 5).",
+   "20; all real numbers except 5. (Covered in unit 1: Sets and relations.)"
   ],
   [
-   "Unit 2 (Trigonometric functions): show that you can use identities and graphs of trigonometric functions. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 2: Trigonometric functions.)"
+   "Unit 2 (Trigonometric functions): Find cos 2x when cos x = 3/5.",
+   "cos 2x = 2 cos^2 x - 1 = 2 x 9/25 - 1 = -7/25. (Covered in unit 2: Trigonometric functions.)"
   ],
   [
-   "Unit 3 (Principle of mathematical induction): show that you can prove statements by induction. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 3: Principle of mathematical induction.)"
+   "Unit 3 (Principle of mathematical induction): Prove 1^2 + 2^2 + ... + n^2 = n(n + 1)(2n + 1)/6.",
+   "base n = 1 gives 1 = 1 x 2 x 3/6. Assume true for k, add (k + 1)^2 to get (k + 1)(2k^2 + 7k + 6)/6 = (k + 1)(k + 2)(2k + 3)/6, which is P(k + 1). (Covered in unit 3: Principle of mathematical induction.)"
   ],
   [
-   "Unit 4 (Complex numbers and quadratic equations): show that you can operate on complex numbers and solve quadratics. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 4: Complex numbers and quadratic equations.)"
+   "Unit 4 (Complex numbers and quadratic equations): Find (2 + i)^2 and the modulus of 5 + 12i.",
+   "4 + 4i + i^2 = 3 + 4i; modulus is the root of 25 + 144 = 13. (Covered in unit 4: Complex numbers and quadratic equations.)"
   ],
   [
-   "Unit 5 (Linear inequalities and permutations and combinations): show that you can solve inequalities and count arrangements. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 5: Linear inequalities and permutations and combinations.)"
+   "Unit 5 (Linear inequalities and permutations and combinations): Solve 5x + 2 <= 17 and find C(9, 3).",
+   "5x <= 15 so x <= 3; C(9, 3) = 9 x 8 x 7 / 6 = 84. (Covered in unit 5: Linear inequalities and permutations and combinations.)"
   ],
   [
-   "Unit 6 (Binomial theorem and sequences and series): show that you can expand binomials and sum series. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 6: Binomial theorem and sequences and series.)"
+   "Unit 6 (Binomial theorem and sequences and series): Find the x^2 coefficient in (1 + 2x)^3 and the sum of 6, 2, 2/3, ... to infinity.",
+   "3 x 4 = 12; and 6/(1 - 1/3) = 9. (Covered in unit 6: Binomial theorem and sequences and series.)"
   ],
   [
-   "Which action verb starts the outcome of Unit 1 (Sets and relations), and at which Bloom level is it?",
-   "'use', at the Apply level. (Covered in unit 1: Sets and relations.)"
+   "Unit 7 (Straight lines and conic sections): Find the focus of x^2 = 12y and the radius of x^2 + y^2 = 49.",
+   "4a = 12, a = 3, focus (0, 3); radius 7. (Covered in unit 7: Straight lines and conic sections.)"
   ],
   [
-   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
-   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36. (Covered in: Assessment plan, near the top of this page.)"
+   "Unit 8 (Limits and derivatives, introduction): Find the derivative of 3x^2 + 4x - 5 at x = 1, and lim of (x^2 - 1)/(x - 1) as x approaches 1.",
+   "6x + 4 = 10; the limit is x + 1 = 2. (Covered in unit 8: Limits and derivatives, introduction.)"
   ],
   [
-   "In which weeks does Unit 9 (Statistics and probability) run?",
-   "Weeks 34 to 36. (Covered in unit 9: Statistics and probability.)"
+   "Unit 9 (Statistics and probability): Find the variance of 1, 3, 5, 7, and P(sum 9) on two dice.",
+   "mean 4, squares 9, 1, 1, 9 give 20/4 = 5; sum 9 has 4 ways, so 4/36 = 1/9. (Covered in unit 9: Statistics and probability.)"
   ],
   [
-   "What evidence do you keep for each unit, and why?",
-   "A timed paper and an error log. It shows what you can really do and lets a teacher check it against the standard. (Covered in: How you are checked, further down this page.)"
+   "Unit 1 (Sets and relations): Relation. Show how you do it and say what the result is.",
+   "R = {(x, y): y = x + 2} from {1, 2, 3, 4} to {3, 4, 5, 6}. Pairs: (1, 3), (2, 4), (3, 5), (4, 6). Domain {1, 2, 3, 4}, range {3, 4, 5, 6}. (Covered in unit 1: Sets and relations.)"
   ]
  ],
  "ladder": [
