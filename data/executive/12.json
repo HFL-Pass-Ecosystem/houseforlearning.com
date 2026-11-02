@@ -1,6 +1,6 @@
 {
  "task": "Map stakeholders, test a public-private deal and design a multi-sector body that is fair and measured.",
- "condition": "Given a firm case with stakeholder data, project costs, tax figures and a programme budget.",
+ "condition": "Given a firm case with stakeholder data, project costs, tax figures and a programme budget. All money figures are in one currency of your choice.",
  "standard": "Scores, shares and ratios are correct, the deal has a profit cap and no two sectors can pass a motion alone.",
  "who": "Leaders who work with governments, communities and partners.",
  "modules": [
@@ -42,7 +42,7 @@
     "State: law and public goods",
     "Civil society: voice and watching"
    ],
-   "example": "A firm earns 10 million profit. At an example tax rate of 25% the state receives 2.5 million. The firm funds a training scheme of 400,000, which is 4% of profit. A local group runs the scheme and reports on results. The firm's cost, the state's income and the group's duty to report are all clear. If the group is not independent, no one checks the firm, so the firm asks for an outside review each year.",
+   "example": "Worked-example figures, in your currency. A firm earns 10 million profit. At an example tax rate of 25% the state receives 2.5 million. The firm funds a training scheme of 400,000, which is 4% of profit. A local group runs the scheme and reports on results. The firm's cost, the state's income and the group's duty to report are all clear. If the group is not independent, no one checks the firm, so the firm asks for an outside review each year.",
    "activity": "Make a three-column table of what each sector does in one real or case project and name one check between them.",
    "standard": "Each sector has two duties, one check is named and one money figure is shown."
   },
@@ -56,7 +56,7 @@
     "Length of the deal",
     "Open accounts and exit terms"
    ],
-   "example": "A road costs 60 million. The firm pays 40 million (two thirds) and the state pays 20 million. The firm earns tolls of 5 million a year over 20 years, which is 100 million. The firm's gain is 100 - 40 = 60 million over 20 years, a 150% return on its money. That looks high, so the contract sets a cap of 8% a year on the firm's profit, which is 3.2 million on 40 million, and any extra goes to the state.",
+   "example": "Worked-example figures, in your currency. A road costs 60 million. The firm pays 40 million (two thirds) and the state pays 20 million. The firm earns tolls of 5 million a year over 20 years, which is 100 million. The firm's gain is 100 - 40 = 60 million over 20 years, ignoring running costs, a 150% return on its money. That looks high, so the contract sets a cap of 8% a year on the firm's profit, which is 3.2 million on 40 million, and any extra goes to the state.",
    "activity": "A bridge costs 30 million, the firm pays half, tolls are 2 million a year for 25 years. Work out the firm's gain and a fair cap.",
    "standard": "The gain is 35 million, the return is stated as a percentage and a cap is proposed with a number."
   },
@@ -84,7 +84,7 @@
     "Publish a tax summary",
     "Explain choices to the public"
    ],
-   "example": "A firm earns 40 million, with 70% of sales in country A, 20% in B and 10% in C. Tax should follow the sales, which gives 28 million, 8 million and 4 million of profit. The firm instead books 30 million in a low-tax place. At 10% the tax is 3 million. At 25% on the sales basis the tax would be 10 million. The gap is 7 million, and the firm decides to publish the figures and align the booking with sales.",
+   "example": "Worked-example figures, in your currency. A firm earns 40 million, with 70% of sales in country A, 20% in B and 10% in C. Tax should follow the sales, which gives 28 million, 8 million and 4 million of profit. The firm instead books all 40 million in a low-tax place. At an example rate of 10% the tax is 4 million. At an example rate of 25% on the sales basis the tax would be 10 million. The gap is 6 million, and the firm decides to publish the figures and align the booking with sales.",
    "activity": "Split 24 million profit by sales shares of 50%, 30% and 20%, then compute tax at 20% on each part.",
    "standard": "Profits are 12, 7.2 and 4.8 million, tax is 4.8 million in total and the sum is checked."
   },
@@ -98,7 +98,7 @@
     "Voting rule that stops one sector dominating",
     "Public minutes"
    ],
-   "example": "A body has 9 seats: 3 business, 3 state, 3 civil society. A decision needs 6 of 9 votes. Business alone has 3, so cannot pass anything. A block of business and state has 6 and could pass a motion without civil society. To prevent that, the rule adds that at least one civil society vote must be in the 6. Now a motion needs 6 votes with at least 1 from each of the 3 sectors.",
+   "example": "A body has 9 seats: 3 business, 3 state, 3 civil society. A decision needs 6 of 9 votes. Business alone has 3, so cannot pass anything. A block of business and state has 6 and could pass a motion without civil society. To prevent that, the rule adds that the 6 votes must include at least 1 vote from each of the 3 sectors. Now no two sectors can pass a motion alone.",
    "activity": "Design a 12-seat body with three sectors and a voting rule that stops any two sectors passing a motion alone.",
    "standard": "Seats add to 12 and the voting rule is checked against all three two-sector blocks."
   },
@@ -112,7 +112,7 @@
     "Divide benefit by cost",
     "Report what could not be counted"
    ],
-   "example": "A job programme costs 500,000 and places 120 people. Each placement saves 6,000 a year in benefits paid and earns tax of 2,000. Yearly benefit is 120 x (6,000 + 2,000) = 960,000. The ratio is 960,000 / 500,000 = 1.92, so each unit of cost returns 1.92. A second programme costs 300,000 and places 50 people, giving 400,000 / 300,000 = 1.33. The first is better value, but the report also notes who was not reached.",
+   "example": "Worked-example figures, in your currency. A job programme costs 500,000 and places 120 people. Each placement saves 6,000 a year in benefits paid and earns tax of 2,000. Yearly benefit is 120 x (6,000 + 2,000) = 960,000. The ratio is 960,000 / 500,000 = 1.92, so each unit of cost returns 1.92. A second programme costs 300,000 and places 50 people worth 8,000 each a year, giving 400,000 / 300,000 = 1.33. The first is better value, but the report also notes who was not reached.",
    "activity": "A scheme costs 250,000 and places 40 people with a yearly value of 7,000 each. Work out the ratio.",
    "standard": "Benefit is 280,000, ratio is 1.12 and one uncounted effect is named."
   }

@@ -1,12 +1,12 @@
 # Social care and Teaching: course detail (DRAFT)
 
-Method and recording only; no legal or clinical advice. Invented cases. Local law and workplace policy override these examples. Expert review before publish. No fees.
+Method and recording only; no legal or clinical advice. Invented cases and worked-example figures. Local law and workplace policy override these examples. Expert review before publish. No fees.
 
 ## SOC-001 Assess risk in a home visit
 **Worked example:** Visit note: "Door opened after 3 minutes. Kitchen: cooker left on, no food in fridge. Person E uses a stick, floor clear. Smoke alarm present. Rating: Medium (cooker). Action: agree cooker timer with Person E, ask the team to add a food check next visit."
 **Scale (3 levels, this course's scale; use your workplace's if it differs):** Low = no action beyond routine; Medium = action planned within the week; High = same-day action and tell the manager.
 **Case card:** Person F, 82, lives alone, post unopened on the mat, a neighbour says he has not been seen for two days. Learners identify signs, rate, and name the first action.
-**Checks:** 1 Name three risk signs in a home. *e.g. unsafe cooking, trip hazards, signs of neglect or fear.* 2 What makes a rating High? *Risk of serious harm soon; needs same-day action and a manager.* 3 What goes in the note? *Facts seen, rating, action, who was told, time.* 4 If the person refuses help? *Record the refusal and their reasons, check capacity rules locally, tell the manager.*
+**Checks:** 1 Name three risk signs in a home. *e.g. unsafe cooking, trip hazards, signs of neglect or fear.* 2 What makes a rating High? *Risk of serious harm soon; needs same-day action and a manager.* 3 What goes in the note? *Facts seen, rating, action, who was told, time.* 4 If the person refuses help? *Record the refusal and their reasons, check the local rules on capacity (whether the person can make that decision), tell the manager.*
 
 ## SOC-002 Document a safeguarding concern
 **Worked example (facts only):** "On 3 Nov at 11:00 Person G said, in her own words, 'He takes my money.' She pointed to a bruise on her left forearm, about 3 cm. I did not question further. I told the safeguarding lead at 11:20."

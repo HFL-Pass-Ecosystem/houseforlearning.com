@@ -29,7 +29,7 @@ Read with `00-STANDARD.md`. Minutes add up to the course length. All cases are i
 ## CPD-ENG-002 Check a protection setting (about 240 min)
 **Modules:** 1 One-line diagram basics (30). 2 Device order from source to load (30). 3 Coordination curves (45). 4 Checking a setting (35). 5 Reporting a mismatch and next check (25). 6 Assessment (15). 7 Second worked case: crossed curves (30). 8 Teach-back and peer check (30).
 **Case card 2:** A downstream breaker trips later than the upstream. Learners mark the curves, state the mismatch and next step.
-**More checks:** 1 What is coordination? *Only the device nearest the fault trips.* 2 Who may change a setting? *An authorized person with a change record.* 3 What do you report? *Setting, expected value, difference, location.* 4 Why list devices in order? *To trace which one should act first.* 5 What if you cannot verify? *Say so; do not guess.*
+**More checks:** 1 What is coordination? *Only the device nearest the fault trips.* 2 Who may change a setting? *Only an authorised person, with a change record.* 3 What do you report? *Setting, expected value, difference, location.* 4 Why list devices in order? *To trace which one should act first.* 5 What if you cannot verify? *Say so; do not guess.*
 **Glossary:** one-line diagram, coordination, trip curve, setting, change record.
 
 ## CPD-ENG-003 Prepare a site test record (about 180 min)
@@ -41,17 +41,17 @@ Read with `00-STANDARD.md`. Minutes add up to the course length. All cases are i
 ## CPD-BLD-001 Inspect a site for safety (about 240 min)
 **Modules:** 1 Hazard, risk, control (30). 2 Spotting hazards in photos (45). 3 Ranking by risk with a reason (35). 4 Action list: owner and date (30). 5 Walk-through practice (50). 6 Assessment (20). 7 Second worked case: open edge, cables and bricks (15). 8 Teach-back and peer check (15).
 **Case card 2:** Photos show an open edge, loose cables, and stacked bricks near a path. Learners rank and assign actions.
-**More checks:** 1 What is the best control? *Remove the hazard, then protect, then train, then equipment.* 2 Who gets the action list? *The site lead and each owner.* 3 When re-inspect? *At the date set or after any change.* 4 What do you do for imminent danger? *Stop work and tell the lead now.* 5 Why photograph? *Evidence of what was found.*
+**More checks:** 1 What is the best control? *Remove the hazard first; protective equipment is the last resort.* 2 Who gets the action list? *The site lead and each owner.* 3 When re-inspect? *At the date set or after any change.* 4 What do you do for imminent danger? *Stop work and tell the lead now.* 5 Why photograph? *Evidence of what was found.*
 **Glossary:** hazard, risk, control, imminent danger, action owner.
 
 ## CPD-BLD-002 Estimate quantities (about 240 min)
 **Modules:** 1 Reading scale and units (30). 2 Measuring areas and lengths (45). 3 Waste allowance (25). 4 Quantity calculations (40). 5 Bill of quantities layout (35). 6 Assessment (25). 7 Second worked case: paint for the walls (25). 8 Teach-back and peer check (15).
-**Case card 2:** A 6 m by 4.5 m floor needs tiles of 0.3 m by 0.3 m, 8 percent waste. Learners compute number and boxes.
-**More checks:** 1 Floor area? *27 square metres.* 2 Why add waste? *Cuts, breakage, mistakes.* 3 What is a bill of quantities? *A list of items, units and amounts.* 4 What if the drawing and note disagree? *Query, do not assume.* 5 Rounding rule? *Round up to full units you can buy.*
+**Case card 2:** A 6 m by 4.5 m floor needs tiles of 0.3 m by 0.3 m, 8 percent waste. Learners compute the number of tiles and boxes of 10.
+**More checks:** 1 Floor area of 6 m by 4.5 m? *27 square metres.* 2 Why add waste? *Cuts, breakage, mistakes.* 3 What is a bill of quantities? *A list of items, units and amounts.* 4 What if the drawing and note disagree? *Query, do not assume.* 5 Rounding rule? *Round up to full units you can buy.*
 **Glossary:** scale, area, waste allowance, bill of quantities, query.
 
 ## CPD-BLD-003 Prepare a handover pack (about 180 min)
 **Modules:** 1 What clients need to keep (20). 2 Checking for gaps (30). 3 Building the index (20). 4 Walk-through with the client (15). 5 Practice (10). 6 Check (5). 7 Second worked case: missing warranty and test record (40). 8 Teach-back and peer check (40).
 **Case card 2:** The pack lacks warranty papers and one test record. Learners find gaps and list the chase.
-**More checks:** 1 Name three documents. *Drawings, warranties, test records.* 2 Why an index? *So the client can find items later.* 3 Who signs the handover? *The client and the lead.* 4 What if a document is late? *List it as outstanding with a date.* 5 Where stored? *Both client copy and project archive.*
+**More checks:** 1 Name three documents. *Drawings, warranties, test records.* 2 Why an index? *So the client can find items later.* 3 Who signs the handover? *The client or their representative signs to accept; the project lead hands over.* 4 What if a document is late? *List it as outstanding with a date.* 5 Where stored? *Both client copy and project archive.*
 **Glossary:** handover, warranty, as-built, outstanding item, index.
