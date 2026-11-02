@@ -44,7 +44,7 @@ def build(c):
     ck1 = ''; n1 = 0; ck2 = ''; n2 = 0
     chk = mm['checks'] if mm else None
     def tg(lst, off):
-        n = len(re.findall(r'(?:^|\s)\d+\.?\s+(.+?)\s+\*(.+?)\*(?=\s+\d+\.?\s|\s*$)', ' '.join(lst)))
+        n = len(re.findall(r'(?:^|\s)\d+\.?\s+(.+?)\s+\*(.+?)\*(?=\s+\d+\.?\s|\s*$)', ' '.join(l for l in lst if l.strip() != '---')))
         return None if chk is None else [CD.covered_tag(x, mods, stds) for x in chk[off:off + n]], n
     for k, v in DET[c['code']]['detail']:
         if k.startswith('Check'):

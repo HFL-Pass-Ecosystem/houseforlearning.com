@@ -33,7 +33,8 @@ def load():
     return res
 def checks_html(text, tags=None):
     """tags: optional list (one per question) of ready-made 'Covered in...' strings."""
-    items = re.findall(r'(?:^|\s)\d+\.?\s+(.+?)\s+\*(.+?)\*(?=\s+\d+\.?\s|\s*$)', ' '.join(text) if isinstance(text, list) else text)
+    if isinstance(text, list): text = ' '.join(l for l in text if l.strip() != '---')
+    items = re.findall(r'(?:^|\s)\d+\.?\s+(.+?)\s+\*(.+?)\*(?=\s+\d+\.?\s|\s*$)', text)
     if tags is not None: assert len(tags) == len(items), (len(tags), len(items))
     return ''.join(f'<details class="loc"><summary>{inline(q)}</summary><p><strong>Model answer:</strong> {inline(a)}' + (f' {e(tags[i])}' if tags else '') + '</p></details>' for i, (q, a) in enumerate(items)), len(items)
 def load_modmap():
