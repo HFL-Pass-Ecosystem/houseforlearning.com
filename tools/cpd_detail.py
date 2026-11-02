@@ -54,3 +54,9 @@ def render_lines(lines):
         head = ls[0]; li = ''.join(f'<li>{inline(re.sub(r"^\s*[-*] ", "", l))}</li>' for l in ls[1:])
         return f'<p>{inline(head)}</p><ul>{li}</ul>'
     return '<p>' + inline(' '.join(l.strip() for l in ls)) + '</p>'
+
+def load_full():
+    import json
+    m = {}
+    for p in sorted(D.glob('full-*.json')): m.update(json.loads(p.read_text()))
+    return m

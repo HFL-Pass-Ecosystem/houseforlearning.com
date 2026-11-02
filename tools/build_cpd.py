@@ -6,6 +6,7 @@ import build_full_courses as B
 import cpd_detail as CD
 MM = CD.load_modmap()
 DET = CD.load()
+FULL = CD.load_full()
 e = html.escape; R = B.R
 rows = [l.rstrip('\n').split('|', 5) for l in (R / 'data' / 'cpd-courses.txt').read_text().splitlines() if l and not l.startswith('#')]
 slug = lambda t: 'cpd-' + re.sub(r'[^a-z0-9]+', '-', t.lower()).strip('-')[:60] + '.html'
@@ -26,14 +27,19 @@ def build(c):
                f'<p><strong>Check:</strong> a short pass or not-yet check using the standard in the outcome.</p></details>')
     det = dict((k, v) for k, v in DET[c['code']]['detail']); fl = dict((k, v) for k, v in DET[c['code']]['flag'])
     mods = CD.modules(fl.get('Modules', []))
-    mm = MM.get(c['code']); stds = mm['standards'] if mm else None
-    if mm: assert len(stds) == len(mods), c['code']
+    F = FULL.get(c['code'])
+    if F:
+        assert len(F['modules']) == 8 and len(F['slides']) == 7, c['code']
+        mods = [(m['t'], str(m['min'])) for m in F['modules']]
+    mm = MM.get(c['code']); stds = [m['std'] for m in F['modules']] if F else (mm['standards'] if mm else None)
+    if mm and not F: assert len(stds) == len(mods), c['code']
     if mods:
         ag = ''
         for i, (mt, mn) in enumerate(mods, 1):
             ag += (f'<details class="mod" {"open" if i==1 else ""}><summary><span class="mn">Module {i}</span> {e(mt)} <span class="pill">{e(mn)} min</span></summary>'
-                   f'<p><strong>Learn:</strong> a short explanation with a worked example from the sector, then the rule or checklist you will use.</p>'
-                   f'<p><strong>Practise:</strong> a case card or template exercise linked to outcome {min(i, len(c["outs"]))}.</p>'
+                   + (f'<ul>' + ''.join(f'<li>{e(x)}</li>' for x in F['modules'][i-1]['pts']) + f'</ul><div class="evi"><strong>Worked example.</strong> {e(F["modules"][i-1]["ex"])}</div>' if F else
+                   f'<p><strong>Learn:</strong> a short explanation with a worked example from the sector, then the rule or checklist you will use.</p>')
+                   + f'<p><strong>Practise:</strong> a case card or template exercise linked to outcome {min(i, len(c["outs"]))}.</p>'
                    + (f'<p><strong>Standard to meet.</strong> {e(stds[i-1])}</p>' if stds else '') + '</details>')
     extra = ''
     for k, v in DET[c['code']]['detail']:
@@ -53,6 +59,10 @@ def build(c):
     t2, _ = tg(mr, n1) if mr else (None, 0)
     ck2, n2 = CD.checks_html(mr, t2)
     if chk is not None: assert len(chk) == n1 + n2, c['code']
+    if F:
+        x = F['extra_check']; assert 1 <= x['module'] <= 8
+        ck2 += (f'<details class="loc"><summary>{CD.inline(x["q"])}</summary><p><strong>Model answer:</strong> {CD.inline(x["a"])} {e(CD.covered_tag(x["module"], mods, stds))}</p></details>'); n2 += 1
+        assert n1 + n2 == 10, (c['code'], n1, n2)
     gl = fl.get('Glossary')
     practice = B.sec('', 'pr', 'practice', 'Worked example and case cards', extra) if extra else ''
     checks = B.sec('alt', 'ck', 'checks', f'{n1 + n2} check questions with model answers', ck1 + ck2) if (n1 + n2) else ''
@@ -60,9 +70,13 @@ def build(c):
     rub = B.sec('alt', 'rb', 'marking', 'How the practice and assessment are marked', '<table class="rubric"><tr><th>Level</th><th>Meaning</th><th>Marks of 4</th></tr><tr><td>Secure</td><td>Meets the standard in the outcome every time, no prompts</td><td>4</td></tr><tr><td>Meeting</td><td>Meets the standard with one small slip, corrected when prompted</td><td>3</td></tr><tr><td>Developing</td><td>Meets part of the standard; needs a re-attempt</td><td>2</td></tr><tr><td>Not yet</td><td>Standard not met</td><td>1</td></tr></table><p>Pass = average 3 or more, and no outcome at 1. You may re-attempt after feedback. The subject expert sets any stricter pass mark.</p>')
     body = (B.sec('', 'ab', 'about this course', 'What you will be able to do',
                   f'<div class="cb-facts"><span class="pill lv">{LV[c["lv"]]}</span><span class="pill">About {e(c["hrs"])} hours of CPD</span><span class="pill">Self-study plus role-play</span><span class="pill">{e(c["sector"])}</span></div>'
-                  f'<p class="kit-intro">{e(c["desc"])}</p><ul class="blm">{outs}</ul><p class="ws-note">{e(SAFE)}</p>')
+                  f'<p class="kit-intro">{e(c["desc"])}</p><ul class="blm">{outs}</ul>'
+                  + (f'<h3 class="ws-h3">Task, condition and standard</h3><div class="tcs"><div><h4>Task</h4><p>{e(F["task"])}</p></div><div><h4>Condition</h4><p>{e(F["cond"])}</p></div><div><h4>Standard</h4><p>{e(F["std"])}</p></div></div>' if F else '')
+                  + f'<p class="ws-note">{e(SAFE)}</p>')
             + B.sec('alt', 'ag', 'sessions', f'{len(mods) or len(c["agenda"])} modules' if mods else f'{len(c["agenda"])} sessions', ag)
             + practice + checks + gloss + rub
+            + (B.sec('alt', 'ld', 'where next', 'Ladder L1 to L7, slide by slide with notes', '<ol class="slides">' + ''.join(f'<li><strong>Slide {j}: {e(sl["t"])}.</strong> <em>Speaker note:</em> {e(sl["note"])}</li>' for j, sl in enumerate(F['slides'], 1)) + '</ol><p>This course sits at L4 Practitioner. Credits stack; aligned with, not accredited by, any framework.</p>') if F else '')
+            + (B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', '<ul>' + ''.join(f'<li>{e(j)}</li>' for j in F['jobs']) + '</ul>') if F else '')
             + B.sec('', 'as', 'assessment and certificate', 'How you are checked',
                     '<p>Each outcome is checked against its standard with a checklist or a short test. A digital CPD record shows the hours. Keep evidence in My page. Aligned with common CPD practice; not accredited. Learners check their own body\'s rules.</p>')
             + B.sec('alt', 'lc', 'ten locations and global', 'Your place', '<p>Use your own body\'s forms, units and currency. Local professional bodies set the rules for CPD hours; check them first.</p>'
