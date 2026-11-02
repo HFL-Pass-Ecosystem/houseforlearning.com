@@ -97,14 +97,20 @@ LESSONS = [
 BTNS = '<div class="ctas"><a class="btn" href="electrical-academy.html">Electrical academy</a><a class="btn btn-ghost" href="catalogue.html">Open the catalogue</a></div>'
 SAFE = '<p class="lux-note">Learning material, not a design or safety instruction. Electrical work must be done by qualified people following the maker\'s instructions and local rules.</p>'
 
-def page(slug, title, desc, body, crumb_prev, crumb_next):
+def page(slug, title, desc, body, crumb_prev, crumb_next, lesson=None):
     h = HEAD.replace('Course and Career Pathways | House for Learning', f'{title} | House for Learning')
     h = re.sub(r'<meta name="description" content="[^"]*">', f'<meta name="description" content="{desc}">', h)
     h = h.replace('career-pathways.html">', slug + '.html">').replace('<li aria-current="page">Career pathways</li>', f'<li><a href="electrical-academy.html">Electrical academy</a></li><li aria-current="page">{title}</li>' if slug != 'electrical-academy' else '<li aria-current="page">Electrical academy</li>')
     pager = ('<nav class="pager" aria-label="Previous and next page"><div class="wrap pager-row">'
       f'<a class="pager-link pager-prev" href="{crumb_prev[0]}"><span class="pager-k">&larr; Previous</span><span class="pager-n">{crumb_prev[1]}</span></a>'
       f'<a class="pager-link pager-next" href="{crumb_next[0]}"><span class="pager-k">Next &rarr;</span><span class="pager-n">{crumb_next[1]}</span></a></div></nav>\n')
-    open(os.path.join(SITE, slug + '.html'), 'w').write(h + '<main id="main" tabindex="-1">\n' + body + pager + TAIL)
+    # test pay-to-access: lesson 1 is the free preview; assets/access.js reads these attributes
+    gate = f' data-series="electrical-academy.html" data-lesson="{lesson}" data-lessons="{len(LESSONS)}" data-title="Electrical academy"' if lesson else ''
+    out = h + f'<main id="main" tabindex="-1"{gate}>\n' + body + pager + TAIL
+    if lesson:
+        if 'assets/courses.css' not in out: out = out.replace('<link rel="stylesheet" href="assets/site.css">', '<link rel="stylesheet" href="assets/site.css">\n<link rel="stylesheet" href="assets/courses.css">', 1)
+        if 'assets/access.js' not in out: out = out.replace('</body>', '<script src="assets/access.js" defer></script>\n</body>', 1)
+    open(os.path.join(SITE, slug + '.html'), 'w').write(out)
 
 import json
 def rich(L):
@@ -161,7 +167,7 @@ def main():
     for k, L in enumerate(LESSONS):
         prev = ('electrical-academy.html', 'Electrical academy') if k == 0 else (LESSONS[k-1]['slug'] + '.html', LESSONS[k-1]['title'])
         nxt = ('electrical-academy.html', 'Electrical academy') if k == len(LESSONS)-1 else (LESSONS[k+1]['slug'] + '.html', LESSONS[k+1]['title'])
-        page(L['slug'], L['title'], L['lede'], lesson_body(L), prev, nxt)
+        page(L['slug'], L['title'], L['lede'], lesson_body(L), prev, nxt, lesson=L['n'])
     cards = '<li class="card"><span class="tag">catalogue</span><h3>Training by market segment</h3><p>How we organise topics by the market a learner works in, with building automation as a first example.</p><a class="more" href="training-by-segment.html">See the segments</a></li>' + ''.join(f'<li class="card"><span class="tag">lesson {L["n"]} · {L["mins"]} min</span><h3>{L["title"]}</h3><p>{L["lede"]}</p><a class="more" href="{L["slug"]}.html">Start lesson {L["n"]}</a></li>' for L in LESSONS)
     hub = ('<section class="hero" aria-labelledby="h1"><div class="wrap hero-grid"><div><p class="kicker">skills for the trade</p><h1 id="h1">Electrical academy</h1>'
       '<p>Short lessons on the thinking behind safe, reliable low-voltage switchboards. Each one uses plain words, a worked idea and three questions to check yourself.</p>' + SAFE + '<div class="ctas"><a class="btn" href="electrical-keep-dry.html">Start with lesson 1</a><a class="btn btn-ghost" href="catalogue.html">Open the catalogue</a></div></div></div></section>\n'

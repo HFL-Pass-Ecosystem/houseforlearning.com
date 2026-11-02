@@ -8,6 +8,40 @@
   var file = (location.pathname.split('/').pop() || 'index.html');
   window.HFLAccess = { load: load, save: save, signedIn: signedIn };
   if (/^(pay|members-courses)\.html$/.test(file)) return;
+  // Lesson series (one lesson per page, e.g. Electrical academy, Career Launch). The builder sets data-series (the series hub file), data-lesson, data-lessons, data-title on <main>.
+  // Lesson 1 is the free preview. Joining the series (test payment on pay.html) opens every lesson, with a Done tick per lesson.
+  var sm = document.querySelector('main[data-series]');
+  if (sm) {
+    var skey = sm.getAttribute('data-series'), sn = parseInt(sm.getAttribute('data-lesson'), 10) || 1, st = parseInt(sm.getAttribute('data-lessons'), 10) || 1, stitle = sm.getAttribute('data-title') || skey;
+    var sstate = load(), srec = sstate[skey], spaid = !!(srec && srec.paid);
+    var shero = sm.querySelector('.hero') || sm.firstElementChild;
+    var sbar = document.createElement('section'); sbar.className = 'acc-bar'; sbar.setAttribute('aria-live', 'polite');
+    if (shero && shero.parentNode) shero.parentNode.insertBefore(sbar, shero.nextSibling); else sm.insertBefore(sbar, sm.firstChild);
+    if (!spaid && sn > 1) {
+      var after = false; Array.prototype.slice.call((shero && shero.parentNode ? shero.parentNode : sm).children).forEach(function (c) { if (c === shero) { after = true; return; } if (after && c !== sbar) c.classList.add('acc-hidden'); });
+    }
+    if (!spaid) {
+      sbar.innerHTML = '<div class="wrap acc-in"><div><p class="acc-k">Preview</p><p class="acc-t">' + (sn > 1 ? 'This lesson is part of ' + stitle + '. Join to open all ' + st + ' lessons.' : 'Lesson 1 of ' + st + ' is a free preview. Join ' + stitle + ' to open all ' + st + ' lessons.') + '</p></div><div class="acc-act"></div></div>';
+      var sa = document.createElement('a'); sa.className = 'btn';
+      if (signedIn()) { sa.href = 'pay.html?course=' + encodeURIComponent(skey) + '&t=' + encodeURIComponent(stitle); sa.textContent = 'Join this course'; } else { sa.href = 'login.html'; sa.textContent = 'Sign in to join'; }
+      sbar.querySelector('.acc-act').appendChild(sa);
+      var sno = document.createElement('p'); sno.className = 'acc-note'; sno.textContent = 'Test only. No real money is taken.'; sbar.querySelector('.acc-act').appendChild(sno);
+    } else {
+      var sdone = srec.done || [];
+      var sdraw = function () {
+        var c = sdone.length;
+        sbar.innerHTML = '<div class="wrap acc-in"><div><p class="acc-k">' + (c ? 'Your course' : 'You are in') + '</p><p class="acc-t">Lesson ' + sn + ' of ' + st + '. ' + c + ' of ' + st + ' done.' + (c === st ? ' Course complete.' : '') + '</p><div class="acc-prog" role="progressbar" aria-valuemin="0" aria-valuemax="' + st + '" aria-valuenow="' + c + '"><span style="width:' + Math.round(100 * c / st) + '%"></span></div></div><div class="acc-act"></div></div>';
+        var act = sbar.querySelector('.acc-act'), lab = document.createElement('label'); lab.className = 'acc-done';
+        var cb = document.createElement('input'); cb.type = 'checkbox'; cb.checked = sdone.indexOf(sn) >= 0;
+        cb.addEventListener('change', function () { var p = sdone.indexOf(sn); if (cb.checked && p < 0) sdone.push(sn); if (!cb.checked && p >= 0) sdone.splice(p, 1); sdraw(); });
+        lab.appendChild(cb); lab.appendChild(document.createTextNode(' Done')); act.appendChild(lab);
+        var l = document.createElement('a'); l.href = 'members-courses.html'; l.className = 'acc-link'; l.textContent = 'My courses'; act.appendChild(l);
+        sstate = load(); sstate[skey] = { paid: true, title: stitle, total: st, done: sdone, paidAt: srec.paidAt || Date.now(), updated: Date.now() }; save(sstate);
+      };
+      sdraw();
+    }
+    return;
+  }
   var mods = Array.prototype.slice.call(document.querySelectorAll('details.mod'));
   if (!mods.length) return;
   var numbered = mods.filter(function (d) { var m = d.querySelector('summary .mn'); return m && /^(Module|Session|Unit)\s+\d+/.test(m.textContent.trim()); });
