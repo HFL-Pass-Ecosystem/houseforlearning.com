@@ -32,7 +32,3 @@ Checks per page: Bloom verbs, task/condition/standard, 8 modules, 8 worked examp
 - learn-flagship-eu-09.html: ladder:none
 - learn-flagship-eu-10.html: ladder:none
 - learn-flagship-in.html: bloom, task_cond_std, 8_modules, worked_example_each, rubric, 10_checks, jobs, ladder:none
-- learn-flagship-loc-ge.html: ladder:table
-- learn-flagship-loc-hk.html: ladder:table
-- learn-flagship-loc-ky.html: ladder:table
-- learn-flagship-loc-mx.html: ladder:table
