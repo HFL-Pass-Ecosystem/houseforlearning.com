@@ -221,44 +221,44 @@
  ],
  "checks": [
   [
-   "Unit 1 (Introduction to economics and collection of data): show that you can describe economic problems and data collection methods. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 1: Introduction to economics and collection of data.)"
+   "Unit 1 (Introduction to economics and collection of data): If 20 wheat is produced, what is the maximum cloth in the table, and what is the cost of 10 more wheat?.",
+   "'Maximum cloth is 35, and moving to 30 wheat costs 15 cloth.' (Covered in unit 1: Introduction to economics and collection of data.)"
   ],
   [
-   "Unit 2 (Sampling, organisation and presentation of data): show that you can organise and present data in tables and diagrams. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 2: Sampling, organisation and presentation of data.)"
+   "Unit 2 (Sampling, organisation and presentation of data): How many students scored below 30?.",
+   "'The cumulative frequency up to 30 is 1 + 3 + 5 = 9, so 9 students, which is 45 percent of the 20.' (Covered in unit 2: Sampling, organisation and presentation of data.)"
   ],
   [
-   "Unit 3 (Measures of central tendency and dispersion): show that you can calculate and interpret mean, median and mode. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 3: Measures of central tendency and dispersion.)"
+   "Unit 3 (Measures of central tendency and dispersion): Find the mean and median of 4, 6, 8, 10, 12.",
+   "'Mean is 40 / 5 = 8 and median is the middle value, 8. They coincide because the data are symmetrical.' (Covered in unit 3: Measures of central tendency and dispersion.)"
   ],
   [
-   "Unit 4 (Consumer behaviour and demand): show that you can explain utility, demand and elasticity. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 4: Consumer behaviour and demand.)"
+   "Unit 4 (Consumer behaviour and demand): Price falls from 50 to 40 and quantity rises from 100 to 110. Find PED and say what happens to revenue.",
+   "-20 percent and +10 percent give 0.5, which is inelastic; revenue falls from 5,000 to 4,400. (Covered in unit 4: Consumer behaviour and demand.)"
   ],
   [
-   "Unit 5 (Producer behaviour and supply): show that you can explain cost, production and supply. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 5: Producer behaviour and supply.)"
+   "Unit 5 (Producer behaviour and supply): Total cost for 4 trays is 180 and for 5 trays is 230. Find the marginal cost of the fifth tray and the average cost of 5 trays.",
+   "marginal cost 230 - 180 = 50; average cost 230 / 5 = 46, which is above 45, so average cost has started to rise. (Covered in unit 5: Producer behaviour and supply.)"
   ],
   [
-   "Unit 6 (Price determination and market forms): show that you can show equilibrium and compare market forms. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 6: Price determination and market forms.)"
+   "Unit 6 (Price determination and market forms): Qd = 100 - 5P and Qs = 20 + 5P. Find the equilibrium. Then name the market form for many farmers selling identical maize.",
+   "100 - 5P = 20 + 5P gives P = 8 and Q = 60; it is perfect competition. (Covered in unit 6: Price determination and market forms.)"
   ],
   [
-   "Which action verb starts the outcome of Unit 1 (Introduction to economics and collection of data), and at which Bloom level is it?",
-   "'describe', at the Understand level. (Covered in unit 1: Introduction to economics and collection of data.)"
+   "Unit 1 (Introduction to economics and collection of data): Use a production possibilities table. Show how you do it and say what the result is.",
+   "Economy can make wheat and cloth: A (0 wheat, 50 cloth), B (10, 45), C (20, 35), D (30, 20), E (40, 0). Moving A to B loses 5 cloth for 10 wheat, then 10, then 15, then 20. (Covered in unit 1: Introduction to economics and collection of data.)"
   ],
   [
-   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
-   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36. (Covered in: Assessment plan, near the top of this page.)"
+   "Unit 2 (Sampling, organisation and presentation of data): Organise raw marks of 20 students. Show how you do it and say what the result is.",
+   "12, 25, 38, 45, 22, 31, 47, 18, 29, 36, 41, 8, 33, 27, 15, 49, 23, 39, 44, 30. Use classes 0-10, 10-20, 20-30, 30-40, 40-50, where the upper limit is excluded. (Covered in unit 2: Sampling, organisation and presentation of data.)"
   ],
   [
-   "In which weeks does Unit 6 (Price determination and market forms) run?",
-   "Weeks 31 to 36. (Covered in unit 6: Price determination and market forms.)"
+   "Unit 3 (Measures of central tendency and dispersion): Compute the mean of grouped marks. Show how you do it and say what the result is.",
+   "Classes 0-10 to 40-50 have frequencies 1, 3, 5, 6, 5 and midpoints 5, 15, 25, 35, 45. Sum of f x m = 5 + 45 + 125 + 210 + 225 = 610. Mean = 610 / 20 = 30.5. (Covered in unit 3: Measures of central tendency and dispersion.)"
   ],
   [
-   "What evidence do you keep for each unit, and why?",
-   "A timed paper and an error log. It shows what you can really do and lets a teacher check it against the standard. (Covered in: How you are checked, further down this page.)"
+   "Unit 4 (Consumer behaviour and demand): The law of demand. Show how you do it and say what the result is.",
+   "when price rises, quantity demanded falls, other things equal. A schedule: at price 10 buyers want 20, at 8 they want 30, at 6 they want 40 and at 4 they want 50. Plot it to get a downward-sloping curve. A price change moves along the curve. (Covered in unit 4: Consumer behaviour and demand.)"
   ]
  ],
  "ladder": [

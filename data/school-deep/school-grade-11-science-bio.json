@@ -151,7 +151,7 @@
    "steps": [
     "Step 1, Describe photosynthesis with the balanced equation: 6CO2 + 6H2O gives C6H12O6 + 6O2, using light and chlorophyll. Count atoms to check: both sides have 6 carbon, 12 hydrogen and 18 oxygen. Carbon dioxide enters through stomata, water arrives through roots, glucose feeds the plant and oxygen is released.",
     "Step 2, Describe the two stages. The light reaction happens in the grana of the chloroplast: light splits water, releasing oxygen and making ATP and NADPH. The dark reaction (Calvin cycle) happens in the stroma: carbon dioxide is fixed into sugar using that ATP and NADPH. Light is needed directly only for the first stage.",
-    "Step 3, Describe respiration: glucose + 6O2 gives 6CO2 + 6H2O + energy. Glycolysis takes place in the cytoplasm and splits one glucose into 2 pyruvate with a net gain of 2 ATP. The Krebs cycle runs in the mitochondrial matrix, and the electron transport chain on the inner membrane makes most of the ATP, about 36 to 38 in total.",
+    "Step 3, Describe respiration: glucose + 6O2 gives 6CO2 + 6H2O + energy. Glycolysis takes place in the cytoplasm and splits one glucose into 2 pyruvate with a net gain of 2 ATP. The Krebs cycle runs in the mitochondrial matrix, and the electron transport chain on the inner membrane makes most of the ATP. Textbooks quote totals of roughly 30 to 38 ATP per glucose, so check the figure your course uses.",
     "Step 4, Describe plant growth and its regulators. Auxins promote cell elongation and make stems bend toward light. Gibberellins make stems elongate and break seed dormancy. Cytokinins promote cell division. Abscisic acid closes stomata in drought. Ethylene ripens fruit. Growth is measured by increase in height, mass or number of cells.",
     "Step 5, Describe the starch test for photosynthesis. Take a leaf kept in light, boil it in water for a minute, then warm it in ethanol in a hot water bath to remove chlorophyll, and add iodine. Blue-black means starch is present. Safety: ethanol is flammable, so never heat it over a flame; use hot water, wear goggles, and keep iodine off the skin.",
     "Step 6, Your turn: if a plant makes 3 molecules of glucose, how many molecules of carbon dioxide are used and oxygen released? Answer: 6 CO2 gives 1 glucose, so 3 glucose need 18 CO2 and release 18 O2 (6 x 3 for each). In respiration the same 18 O2 would be needed to break the sugar down."
@@ -221,44 +221,44 @@
  ],
  "checks": [
   [
-   "Unit 1 (The living world and biological classification): show that you can classify organisms using taxonomy. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 1: The living world and biological classification.)"
+   "Unit 1 (The living world and biological classification): The domestic cat is Felis catus. Name its genus, species, family and order, and say what it shares with the lion.",
+   "genus Felis, species catus, family Felidae, order Carnivora. It shares Family Felidae, Order Carnivora, Class Mammalia, Phylum Chordata and Kingdom Animalia with the lion. (Covered in unit 1: The living world and biological classification.)"
   ],
   [
-   "Unit 2 (Plant kingdom and animal kingdom): show that you can compare major plant and animal groups. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 2: Plant kingdom and animal kingdom.)"
+   "Unit 2 (Plant kingdom and animal kingdom): Compare a frog and a sparrow in four points: class, heart, skin or body covering, and body temperature.",
+   "frog is Amphibia, 3-chambered heart, moist skin, cold-blooded; sparrow is Aves, 4-chambered heart, feathers, warm-blooded. Both are chordates with a backbone. (Covered in unit 2: Plant kingdom and animal kingdom.)"
   ],
   [
-   "Unit 3 (Structural organisation and cell: the unit of life): show that you can describe tissues and cell structure. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 3: Structural organisation and cell: the unit of life.)"
+   "Unit 3 (Structural organisation and cell: the unit of life): A cheek cell is 60 micrometres wide and your drawing is 30 mm wide. Find the magnification.",
+   "30 mm = 30,000 micrometres; 30,000 / 60 = 500, so the magnification is 500 times. Also say which organelle is absent from a cheek cell but present in a leaf cell: the chloroplast. (Covered in unit 3: Structural organisation and cell: the unit of life.)"
   ],
   [
-   "Unit 4 (Cell cycle and biomolecules): show that you can explain mitosis, meiosis and biomolecules. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 4: Cell cycle and biomolecules.)"
+   "Unit 4 (Cell cycle and biomolecules): A plant cell with 2n = 20 undergoes meiosis. How many chromosomes in each gamete cell and how many cells result?.",
+   "10 chromosomes, 4 cells. (Covered in unit 4: Cell cycle and biomolecules.)"
   ],
   [
-   "Unit 5 (Plant physiology): show that you can describe photosynthesis, respiration and plant growth. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 5: Plant physiology.)"
+   "Unit 5 (Plant physiology): If a plant makes 3 molecules of glucose, how many molecules of carbon dioxide are used and oxygen released?.",
+   "6 CO2 gives 1 glucose, so 3 glucose need 18 CO2 and release 18 O2 (6 x 3 for each). In respiration the same 18 O2 would be needed to break the sugar down. (Covered in unit 5: Plant physiology.)"
   ],
   [
-   "Unit 6 (Human physiology): show that you can describe digestion, breathing, circulation and excretion. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 6: Human physiology.)"
+   "Unit 6 (Human physiology): A person breathes 450 mL per breath at 14 breaths a minute. Find the volume of air per minute, then name the muscle that pulls air in.",
+   "450 x 14 = 6,300 mL, which is 6.3 litres per minute. The muscle is the diaphragm, helped by the muscles between the ribs. (Covered in unit 6: Human physiology.)"
   ],
   [
-   "Which action verb starts the outcome of Unit 1 (The living world and biological classification), and at which Bloom level is it?",
-   "'classify', at the Understand level. (Covered in unit 1: The living world and biological classification.)"
+   "Unit 1 (The living world and biological classification): Learn the taxonomic hierarchy from largest to smallest group. Show how you do it and say what the result is.",
+   "Kingdom, Phylum (Division in plants), Class, Order, Family, Genus, Species. Each step down has fewer organisms that share more features. A handy memory line is built from the first letters K P C O F G S. Species is the basic unit: organisms that can breed together. (Covered in unit 1: The living world and biological classification.)"
   ],
   [
-   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
-   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36. (Covered in: Assessment plan, near the top of this page.)"
+   "Unit 2 (Plant kingdom and animal kingdom): Compare bryophytes and pteridophytes. Show how you do it and say what the result is.",
+   "Both need water for the male gamete to swim to the egg. Moss has no true roots, only root-like rhizoids, and no xylem or phloem. A fern has true roots, stems, leaves and vascular tissue, so it can grow taller. Neither produces seeds; both spread by spores. (Covered in unit 2: Plant kingdom and animal kingdom.)"
   ],
   [
-   "In which weeks does Unit 6 (Human physiology) run?",
-   "Weeks 31 to 36. (Covered in unit 6: Human physiology.)"
+   "Unit 3 (Structural organisation and cell: the unit of life): Describe the organelles. Show how you do it and say what the result is.",
+   "The cell membrane controls what enters and leaves. The nucleus holds DNA. Mitochondria release energy as ATP. Ribosomes make proteins. The endoplasmic reticulum transports materials, the Golgi body packs and sends them, and lysosomes digest waste. Write one job beside each name. (Covered in unit 3: Structural organisation and cell: the unit of life.)"
   ],
   [
-   "What evidence do you keep for each unit, and why?",
-   "A timed paper and an error log. It shows what you can really do and lets a teacher check it against the standard. (Covered in: How you are checked, further down this page.)"
+   "Unit 4 (Cell cycle and biomolecules): Describe mitosis. Show how you do it and say what the result is.",
+   "prophase (chromosomes condense), metaphase (align at the plate), anaphase (sister chromatids separate), telophase (nuclei form), and then cytokinesis. One 2n = 46 cell gives two cells with 46 chromosomes each. (Covered in unit 4: Cell cycle and biomolecules.)"
   ]
  ],
  "ladder": [

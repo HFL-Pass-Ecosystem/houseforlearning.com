@@ -237,7 +237,7 @@
    "standard": "Draw circuit diagrams and test conductors: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
    "steps": [
     "Step 1, Draw a circuit diagram using symbols: cell as long and short parallel lines, bulb as a circle with a cross, switch as a break with a lever, and lines for wires. Draw a loop with one cell, one bulb and one switch.",
-    "Step 2, Draw two cells in series with the long line of one next to the short line of the other. Their voltages add: 1.5 + 1.5 = 3 V. A bulb rated 2.5 V glows brightly on 3 V.",
+    "Step 2, Draw two cells in series with the long line of one next to the short line of the other. Their voltages add: 1.5 + 1.5 = 3 V. A bulb rated 3 V glows normally on 3 V.",
     "Step 3, Test materials in a gap tester: copper wire, aluminium foil, steel spoon, graphite pencil lead glow the bulb (conductors); plastic ruler, rubber band, dry wood, glass do not (insulators).",
     "Step 4, Record in a table with columns Material, Bulb glows, Type. Note that salt water also lights the bulb since dissolved salts carry charge, while pure dry sugar does not.",
     "Step 5, Add safety: never touch a damaged wire, keep water away from mains sockets, and use only cells in class experiments. An insulator on a plug covers the metal to prevent shocks.",
@@ -308,44 +308,44 @@
  ],
  "checks": [
   [
-   "Unit 1 (Food: where it comes from and components): show that you can group nutrients and test for starch. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 1: Food: where it comes from and components.)"
+   "Unit 1 (Food: where it comes from and components): A food sample turns blue-black with iodine. Which nutrient is present, and which group does it belong to?.",
+   "starch is present; it is a carbohydrate, which gives energy. (Covered in unit 1: Food: where it comes from and components.)"
   ],
   [
-   "Unit 2 (Fibres, fabrics and materials): show that you can sort materials by properties and uses. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 2: Fibres, fabrics and materials.)"
+   "Unit 2 (Fibres, fabrics and materials): Choose a fabric for a rain jacket and a towel, and give a property for each.",
+   "rain jacket, polyester or nylon, because it is waterproof; towel, cotton, because it is absorbent. (Covered in unit 2: Fibres, fabrics and materials.)"
   ],
   [
-   "Unit 3 (Separation of substances): show that you can choose a method to separate a mixture. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 3: Separation of substances.)"
+   "Unit 3 (Separation of substances): How do you separate chalk powder from water, and ink colours?.",
+   "chalk by filtration; ink colours by chromatography on filter paper, since each dye moves at a different speed. (Covered in unit 3: Separation of substances.)"
   ],
   [
-   "Unit 4 (Changes around us): show that you can classify changes as physical or chemical. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 4: Changes around us.)"
+   "Unit 4 (Changes around us): Classify a rotting banana and crushing a can.",
+   "rotting is chemical (new substances, smell, colour); crushing is physical (shape changes only). (Covered in unit 4: Changes around us.)"
   ],
   [
-   "Unit 5 (Living organisms and habitats): show that you can describe adaptation and the parts of the body of plants and animals. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 5: Living organisms and habitats.)"
+   "Unit 5 (Living organisms and habitats): A frog is found near a pond and has webbed feet and long back legs. State its habitat and one adaptation with its use.",
+   "an aquatic and land habitat near water; webbed feet help it swim, and long back legs help it jump. (Covered in unit 5: Living organisms and habitats.)"
   ],
   [
-   "Unit 6 (Motion and measurement): show that you can measure length and time and describe types of motion. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 6: Motion and measurement.)"
+   "Unit 6 (Motion and measurement): A cyclist rides 60 m in 12 s, and a pendulum makes 10 swings in 15 s. Find the speed and the time period.",
+   "speed 60 / 12 = 5 m/s; time period 15 / 10 = 1.5 s. (Covered in unit 6: Motion and measurement.)"
   ],
   [
-   "Which action verb starts the outcome of Unit 1 (Food: where it comes from and components), and at which Bloom level is it?",
-   "'group', at the Apply level. (Covered in unit 1: Food: where it comes from and components.)"
+   "Unit 7 (Light, shadows and reflections): A beam hits a mirror at 25 degrees, and you stand 3 m from the mirror. State the reflection angle and the distance to your image.",
+   "reflection angle 25 degrees; the image is 3 m behind the mirror, so 6 m from you. (Covered in unit 7: Light, shadows and reflections.)"
   ],
   [
-   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
-   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36. (Covered in: Assessment plan, near the top of this page.)"
+   "Unit 8 (Electricity and circuits): Draw how a bulb, a battery and a switch connect, then say what happens to the lamp if the switch is open.",
+   "the loop is broken so no current flows and the lamp is off. (Covered in unit 8: Electricity and circuits.)"
   ],
   [
-   "In which weeks does Unit 9 (Magnets, water and air) run?",
-   "Weeks 33 to 36. (Covered in unit 9: Magnets, water and air.)"
+   "Unit 9 (Magnets, water and air): Which items in a pile of a rubber, a steel spoon, a coin of copper and an iron screw will a magnet lift?.",
+   "the steel spoon and the iron screw. (Covered in unit 9: Magnets, water and air.)"
   ],
   [
-   "What evidence do you keep for each unit, and why?",
-   "A worked task and a corrected copy. It shows what you can really do and lets a teacher check it against the standard. (Covered in: How you are checked, further down this page.)"
+   "Unit 1 (Food: where it comes from and components): Group the nutrients. Show how you do it and say what the result is.",
+   "Carbohydrates give energy, proteins build and repair the body, fats give stored energy, vitamins and minerals protect the body and help it work, fibre helps digestion, and water carries things around the body. Pair each nutrient with two foods, such as rice and potato for carbohydrates. (Covered in unit 1: Food: where it comes from and components.)"
   ]
  ],
  "ladder": [

@@ -4,6 +4,7 @@ Step 1 writes one data file per course: data/school-deep/<slug>.json (modules, w
 Step 2 renders site/school-*.html from those files (overwrites the thin pages made by build_full_courses.py).
 Run after build_full_courses.py:  python3 tools/build_school_deep.py
 Own wording. No outside brand, school or teacher names. No fees. Draft: noindex; educator review needed before use."""
+import re
 import sys, json, re, pathlib, html
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import build_full_courses as B
@@ -438,7 +439,66 @@ def modules(rows, kind, bd):
                         standard=f"{o[:1].upper() + o[1:]}: {bd['std']}.", steps=_steps(r['unit_id'], sj)))
     return out
 
+
+def _split_turn(step):
+    """Step 6 'Your turn: <task>. Answer: <answer>' -> (task, answer), or None."""
+    import re
+    t = re.sub(r'^Step \d+,\s*', '', step.strip())
+    t = re.sub(r'^Your turn[\s:.,;-]*', '', t)
+    m = re.search(r'\s(?:Model answer|Answer|Sample answer)s?:\s*', t)
+    if not m: return None
+    task, ans = t[:m.start()].strip().rstrip('.:'), t[m.end():].strip()
+    return (task, ans) if task and ans else None
+
+def _step_qa(step):
+    """'Step k, <Heading>. <body>' -> (heading, answer) or None."""
+    t = re.sub(r'^Step \d+,\s*', '', step.strip())
+    m = re.match(r'(.{6,90}?)[.:]\s+(.+)$', t, flags=re.S)
+    if not m: return None
+    return m.group(1).strip(), m.group(2).strip()
+
+def _checks_ten(subj, kind, mods, bd, plan_lbl):
+    """Exactly 10 checks, each tied to one unit ('Covered in unit N'), each with a specific answer taken from that unit's own working."""
+    turn, steps_qs = [], {}
+    for m in mods:
+        st = m.get('steps') or []
+        tag = f" (Covered in unit {m['n']}: {m['title']}.)"
+        sp = _split_turn(st[-1]) if st else None
+        if sp:
+            task, ans = sp
+            turn.append((m['n'], f"Unit {m['n']} ({m['title']}): {task[:1].upper() + task[1:]}.", ans.rstrip() + tag))
+        else:
+            turn.append((m['n'], f"Unit {m['n']} ({m['title']}): show that you can {m['outcome']}. Name the first step you used and the last.",
+                         f"The first step is to see or say the idea, and the last is to check or reflect; your evidence must meet the standard: {bd['std']}.{tag}"))
+        qa = []
+        for k in range(1, 5):
+            r = _step_qa(st[k]) if len(st) > k + 1 else None
+            if r: qa.append((f"Unit {m['n']} ({m['title']}): {r[0].rstrip('.:')}. Show how you do it and say what the result is.", r[1] + tag))
+        steps_qs[m['n']] = qa
+    qs = [(q, a) for _, q, a in turn]
+    if len(qs) > 10:
+        idx = sorted({round(i * (len(qs) - 1) / 9) for i in range(10)})
+        qs = [qs[i] for i in idx]
+    rnd = 0
+    while len(qs) < 10 and any(len(v) > rnd for v in steps_qs.values()):
+        for m in mods:
+            if len(qs) >= 10: break
+            if len(steps_qs[m['n']]) > rnd: qs.append(steps_qs[m['n']][rnd])
+        rnd += 1
+    extras = [
+        (f"Which action verb starts the outcome of Unit 1 ({mods[0]['title']}), and at which Bloom level is it?", f"'{mods[0]['outcome'].split()[0]}', at the {mods[0]['bloom']} level. (Covered in unit 1: {mods[0]['title']}.)"),
+        (f"In which weeks does Unit {mods[-1]['n']} ({mods[-1]['title']}) run?", f"Weeks {mods[-1]['weeks'][0]} to {mods[-1]['weeks'][1]}. (Covered in unit {mods[-1]['n']}: {mods[-1]['title']}.)"),
+        (f"Which weeks does Unit 1 ({mods[0]['title']}) cover?", f"Weeks {mods[0]['weeks'][0]} to {mods[0]['weeks'][1]}. (Covered in unit 1: {mods[0]['title']}.)"),
+        (f"At which Bloom level does Unit {mods[-1]['n']} ({mods[-1]['title']}) start?", f"At the {mods[-1]['bloom']} level, with the verb '{mods[-1]['outcome'].split()[0]}'. (Covered in unit {mods[-1]['n']}: {mods[-1]['title']}.)"),
+    ]
+    for q in extras:
+        if len(qs) >= 10: break
+        qs.append(q)
+    return qs[:10]
+
 def checks(subj, kind, mods, bd, plan_lbl):
+    if subj != 'ISL':
+        return _checks_ten(subj, kind, mods, bd, plan_lbl)
     qs = _checks(subj, kind, mods, bd, plan_lbl)
     if subj == 'ISL':
         import re

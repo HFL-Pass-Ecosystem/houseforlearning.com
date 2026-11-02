@@ -167,36 +167,44 @@
  ],
  "checks": [
   [
-   "Unit 1 (Presentations): show that you can make a short slide presentation with text and pictures. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 4 of 5 attempts correct, said or written, with one real example from home or school. (Covered in unit 1: Presentations.)"
+   "Unit 1 (Presentations): Make a 3-slide talk on 'My Favourite Food' with one picture.",
+   "slide 1 title and name; slide 2 a food heading, two short bullets and one picture; slide 3 another food or a summary with a picture; save and practise. (Covered in unit 1: Presentations.)"
   ],
   [
-   "Unit 2 (Coding with blocks): show that you can write a block program with loops and events. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 4 of 5 attempts correct, said or written, with one real example from home or school. (Covered in unit 2: Coding with blocks.)"
+   "Unit 2 (Coding with blocks): Draw a triangle with sides of 100.",
+   "when green flag clicked, pen down, repeat 3, move 100 steps, turn right 120 degrees. 3 times 120 is 360, so the sprite finishes facing its starting direction. (Covered in unit 2: Coding with blocks.)"
   ],
   [
-   "Unit 3 (Spreadsheets for beginners): show that you can enter data and make a simple chart. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 4 of 5 attempts correct, said or written, with one real example from home or school. (Covered in unit 3: Spreadsheets for beginners.)"
+   "Unit 3 (Spreadsheets for beginners): 20 children voted for fruit: Apple 7, Banana 5, Mango 8. Total and chart?.",
+   "=SUM(B2:B4) gives 20; column chart of A1:B4; the Mango bar is tallest at 8, Banana shortest at 5. (Covered in unit 3: Spreadsheets for beginners.)"
   ],
   [
-   "Unit 4 (Digital citizenship): show that you can show respectful behaviour and spot unsafe messages. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 4 of 5 attempts correct, said or written, with one real example from home or school. (Covered in unit 4: Digital citizenship.)"
+   "Unit 4 (Digital citizenship): A stranger says, 'Send me your photo and school name to win a game.' What do you do?.",
+   "do not reply, tell a trusted adult, block the sender, because photos and school names are private details. (Covered in unit 4: Digital citizenship.)"
   ],
   [
-   "Which action verb starts the outcome of Unit 1 (Presentations), and at which Bloom level is it?",
-   "'make', at the Create level. (Covered in unit 1: Presentations.)"
+   "Unit 1 (Presentations): Title slide. Show how you do it and say what the result is.",
+   "She opens the slide tool, picks the Title layout, clicks the top box and types 'Our Local Birds', then clicks the lower box and types 'By Mariam, Grade 4'. The first slide now has a title and a name. (Covered in unit 1: Presentations.)"
   ],
   [
-   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
-   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36. (Covered in: Assessment plan, near the top of this page.)"
+   "Unit 2 (Coding with blocks): Start event. Show how you do it and say what the result is.",
+   "From the Events category he drags 'when green flag clicked' to the coding area. An event block starts the program only when the flag is clicked, so nothing happens until then. (Covered in unit 2: Coding with blocks.)"
   ],
   [
-   "In which weeks does Unit 4 (Digital citizenship) run?",
-   "Weeks 33 to 36. (Covered in unit 4: Digital citizenship.)"
+   "Unit 3 (Spreadsheets for beginners): Check the total. Show how you do it and say what the result is.",
+   "She clicks cell B6 and types =SUM(B2:B5) then Enter. The spreadsheet shows 22. By hand, 6 plus 9 is 15, 15 plus 4 is 19, 19 plus 3 is 22, so the formula and the survey agree. (Covered in unit 3: Spreadsheets for beginners.)"
   ],
   [
-   "What evidence do you keep for each unit, and why?",
-   "One page in your learning book. It shows what you can really do and lets a teacher check it against the standard. (Covered in: How you are checked, further down this page.)"
+   "Unit 4 (Digital citizenship): Spot the warning signs. Show how you do it and say what the result is.",
+   "She lists three signs. It promises a free prize, it asks for private details, and the sender is a stranger. A real prize would never ask for a password. That makes this message unsafe. (Covered in unit 4: Digital citizenship.)"
+  ],
+  [
+   "Unit 1 (Presentations): Add a slide with text. Show how you do it and say what the result is.",
+   "She clicks New Slide, picks Title and Content, types 'Falcon' as the heading, then two bullets: 'Fast flyer' and 'Hunts small animals'. Each bullet has about three words, so the audience reads quickly. (Covered in unit 1: Presentations.)"
+  ],
+  [
+   "Unit 2 (Coding with blocks): Pen and loop. Show how you do it and say what the result is.",
+   "Under it he snaps 'pen down' and then a 'repeat 4' block. Inside the repeat he snaps 'move 100 steps' and 'turn right 90 degrees'. Four times: move, turn. (Covered in unit 2: Coding with blocks.)"
   ]
  ],
  "ladder": [

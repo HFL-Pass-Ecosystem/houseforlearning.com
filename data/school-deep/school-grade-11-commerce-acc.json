@@ -223,44 +223,44 @@
  ],
  "checks": [
   [
-   "Unit 1 (Accounting concepts and the accounting equation): show that you can apply accounting principles and the accounting equation. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 1: Accounting concepts and the accounting equation.)"
+   "Unit 1 (Accounting concepts and the accounting equation): A trader starts with Rs 60,000 cash, buys a machine for Rs 25,000 cash and buys goods for Rs 10,000 on credit. Show the equation.",
+   "cash 35,000 + machine 25,000 + stock 10,000 = assets 70,000; capital 60,000 + liabilities 10,000 = 70,000, so it balances. (Covered in unit 1: Accounting concepts and the accounting equation.)"
   ],
   [
-   "Unit 2 (Journal, ledger and trial balance): show that you can record transactions and prepare a trial balance. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 2: Journal, ledger and trial balance.)"
+   "Unit 2 (Journal, ledger and trial balance): A trader starts with cash 40,000, buys goods for cash 15,000 and pays wages 2,000. Prepare the trial balance.",
+   "Debit side: Cash 23,000, Purchases 15,000, Wages 2,000, total 40,000. Credit side: Capital 40,000. Both totals are 40,000. (Covered in unit 2: Journal, ledger and trial balance.)"
   ],
   [
-   "Unit 3 (Subsidiary books and bank reconciliation): show that you can record in cash and purchase books and reconcile a bank statement. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 3: Subsidiary books and bank reconciliation.)"
+   "Unit 3 (Subsidiary books and bank reconciliation): Cash book bank balance is 18,000. Bank charges of 200 are not yet recorded. A cheque issued for 1,500 is not presented. Find the passbook balance and reconcile.",
+   "adjusted cash book 18,000 - 200 = 17,800; passbook 19,300 - 1,500 = 17,800, so the passbook shows 19,300 and both agree. (Covered in unit 3: Subsidiary books and bank reconciliation.)"
   ],
   [
-   "Unit 4 (Depreciation, provisions and reserves): show that you can calculate depreciation and record provisions. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 4: Depreciation, provisions and reserves.)"
+   "Unit 4 (Depreciation, provisions and reserves): Equipment 80,000, scrap 8,000, life 6 years; debtors 40,000 with 1,000 bad debts and a 5 percent provision.",
+   "depreciation (80,000 minus 8,000) divided by 6 is 12,000; provision is 5 percent of 39,000, which is 1,950; Bad Debts Dr 1,000 To Debtors 1,000. (Covered in unit 4: Depreciation, provisions and reserves.)"
   ],
   [
-   "Unit 5 (Financial statements of sole proprietors): show that you can prepare an income statement and a balance sheet. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 5: Financial statements of sole proprietors.)"
+   "Unit 5 (Financial statements of sole proprietors): Sales 80,000, purchases 50,000, opening stock 5,000, closing stock 8,000, expenses 12,000. Find gross profit and net profit.",
+   "cost of goods sold = 5,000 + 50,000 - 8,000 = 47,000; gross profit = 80,000 - 47,000 = 33,000; net profit = 33,000 - 12,000 = 21,000. (Covered in unit 5: Financial statements of sole proprietors.)"
   ],
   [
-   "Unit 6 (Accounting with computers and spreadsheets): show that you can record and report using accounting software. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 6: Accounting with computers and spreadsheets.)"
+   "Unit 6 (Accounting with computers and spreadsheets): Cash 6,000 Dr, Sales 9,000 Cr, Capital 5,000 Cr, Purchases 4,000 Dr, Rent 2,000 Dr, Debtors 2,000 Dr. Does it balance?.",
+   "Dr is 6,000 plus 4,000 plus 2,000 plus 2,000, which is 14,000; Cr is 9,000 plus 5,000, which is 14,000; yes, and profit is 9,000 minus 4,000 minus 2,000, or 3,000. (Covered in unit 6: Accounting with computers and spreadsheets.)"
   ],
   [
-   "Which action verb starts the outcome of Unit 1 (Accounting concepts and the accounting equation), and at which Bloom level is it?",
-   "'apply', at the Apply level. (Covered in unit 1: Accounting concepts and the accounting equation.)"
+   "Unit 1 (Accounting concepts and the accounting equation): State the equation. Show how you do it and say what the result is.",
+   "Assets = Capital + Liabilities. Assets are what the business owns, capital is what the owner has put in, and liabilities are what it owes outsiders. Every transaction has two effects (dual aspect), so both sides stay equal. The owner starts with Rs 100,000 cash: Assets 100,000 = Capital 100,000 + Liabilities 0. (Covered in unit 1: Accounting concepts and the accounting equation.)"
   ],
   [
-   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
-   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36. (Covered in: Assessment plan, near the top of this page.)"
+   "Unit 2 (Journal, ledger and trial balance): Journalise five January transactions. Show how you do it and say what the result is.",
+   "1 Jan: started business with cash 50,000 (Dr Cash, Cr Capital). 2 Jan: bought goods for cash 20,000 (Dr Purchases, Cr Cash). 3 Jan: sold goods on credit to Customer K 18,000 (Dr Customer K, Cr Sales). 5 Jan: paid rent 3,000 (Dr Rent, Cr Cash). 8 Jan: received 10,000 from Customer K (Dr Cash, Cr Customer K). (Covered in unit 2: Journal, ledger and trial balance.)"
   ],
   [
-   "In which weeks does Unit 6 (Accounting with computers and spreadsheets) run?",
-   "Weeks 31 to 36. (Covered in unit 6: Accounting with computers and spreadsheets.)"
+   "Unit 3 (Subsidiary books and bank reconciliation): Write the purchases book. Show how you do it and say what the result is.",
+   "5 March: goods from Supplier A on credit 12,000. 9 March: goods from Supplier B on credit 8,000. Total credit purchases 20,000. Post the total once as Dr Purchases 20,000, and credit each supplier's account with its own amount: Supplier A 12,000 and Supplier B 8,000. Cash purchases do not go here. (Covered in unit 3: Subsidiary books and bank reconciliation.)"
   ],
   [
-   "What evidence do you keep for each unit, and why?",
-   "A timed paper and an error log. It shows what you can really do and lets a teacher check it against the standard. (Covered in: How you are checked, further down this page.)"
+   "Unit 4 (Depreciation, provisions and reserves): Journal entry. Show how you do it and say what the result is.",
+   "Depreciation A/c Dr 20,000, To Machinery A/c 20,000, being depreciation charged for the year. At year end Depreciation A/c Dr is closed by transfer: Profit and Loss A/c Dr 20,000, To Depreciation A/c 20,000. (Covered in unit 4: Depreciation, provisions and reserves.)"
   ]
  ],
  "ladder": [

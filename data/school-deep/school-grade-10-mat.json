@@ -366,44 +366,44 @@
  ],
  "checks": [
   [
-   "Unit 1 (Real numbers): show that you can apply Euclid's division lemma and fundamental theorem of arithmetic. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 1: Real numbers.)"
+   "Unit 1 (Real numbers): Use Euclid's algorithm on 84 and 36, then find their LCM.",
+   "84 = 36 x 2 + 12 and 36 = 12 x 3 + 0, so HCF = 12. LCM = 84 x 36 / 12 = 252. (Covered in unit 1: Real numbers.)"
   ],
   [
-   "Unit 2 (Polynomials): show that you can find zeroes and relate them to coefficients. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 2: Polynomials.)"
+   "Unit 2 (Polynomials): Find the sum and product of the zeroes of 3x^2 - 12x + 9, then the zeroes.",
+   "sum 4, product 3; factorise 3(x - 1)(x - 3), so zeroes 1 and 3. (Covered in unit 2: Polynomials.)"
   ],
   [
-   "Unit 3 (Pair of linear equations in two variables): show that you can solve by graph, substitution and elimination. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 3: Pair of linear equations in two variables.)"
+   "Unit 3 (Pair of linear equations in two variables): Solve 3x + y = 11 and x + y = 5.",
+   "subtract to get 2x = 6, so x = 3 and y = 2. Check: 9 + 2 = 11. (Covered in unit 3: Pair of linear equations in two variables.)"
   ],
   [
-   "Unit 4 (Quadratic equations): show that you can solve by factors, completing the square and the formula. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 4: Quadratic equations.)"
+   "Unit 4 (Quadratic equations): Solve x^2 - 7x + 12 = 0 and 3x^2 - x - 2 = 0.",
+   "x = 3 or 4; and D = 1 + 24 = 25, x = (1 plus or minus 5) / 6, so x = 1 or -2/3. (Covered in unit 4: Quadratic equations.)"
   ],
   [
-   "Unit 5 (Arithmetic progressions): show that you can find nth term and sum. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 5: Arithmetic progressions.)"
+   "Unit 5 (Arithmetic progressions): For the AP 5, 9, 13, ..., find the 12th term and the sum of 12 terms.",
+   "a_12 = 5 + 11 x 4 = 49; S_12 = 6 x (5 + 49) = 324. (Covered in unit 5: Arithmetic progressions.)"
   ],
   [
-   "Unit 6 (Triangles): show that you can apply similarity and the Pythagoras theorem. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 6: Triangles.)"
+   "Unit 7 (Coordinate geometry): Find the distance between (-1, 2) and (4, 14) and the midpoint of (4, 6) and (10, 2).",
+   "root of 25 + 144 = 13; midpoint (7, 4). (Covered in unit 7: Coordinate geometry.)"
   ],
   [
-   "Which action verb starts the outcome of Unit 1 (Real numbers), and at which Bloom level is it?",
-   "'apply', at the Apply level. (Covered in unit 1: Real numbers.)"
+   "Unit 8 (Introduction to trigonometry and its applications): If tan theta = 5/12, find sin theta and cos theta.",
+   "the hypotenuse is root of 25 + 144 = 13, so sin theta = 5/13 and cos theta = 12/13. (Covered in unit 8: Introduction to trigonometry and its applications.)"
   ],
   [
-   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
-   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36. (Covered in: Assessment plan, near the top of this page.)"
+   "Unit 9 (Circles and constructions): Find the tangent length from a point 17 cm from the centre of a circle of radius 8 cm.",
+   "PT = root of 289 - 64 = root of 225 = 15 cm. (Covered in unit 9: Circles and constructions.)"
   ],
   [
-   "In which weeks does Unit 11 (Statistics and probability) run?",
-   "Weeks 35 to 36. (Covered in unit 11: Statistics and probability.)"
+   "Unit 10 (Areas related to circles and surface areas and volumes): Find the area of a sector with radius 7 cm and angle 120 degrees.",
+   "120/360 x 22/7 x 49 = 1/3 x 154 = about 51.33 cm2. (Covered in unit 10: Areas related to circles and surface areas and volumes.)"
   ],
   [
-   "What evidence do you keep for each unit, and why?",
-   "A worked task and a corrected copy. It shows what you can really do and lets a teacher check it against the standard. (Covered in: How you are checked, further down this page.)"
+   "Unit 11 (Statistics and probability): Find the probability of a multiple of 3 when a die is rolled, and of drawing a spade from 52 cards.",
+   "2/6 = 1/3; and 13/52 = 1/4. (Covered in unit 11: Statistics and probability.)"
   ]
  ],
  "ladder": [

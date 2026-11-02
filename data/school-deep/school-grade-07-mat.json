@@ -453,44 +453,44 @@
  ],
  "checks": [
   [
-   "Unit 1 (Integers): show that you can add, subtract, multiply and divide integers and use properties. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 1: Integers.)"
+   "Unit 1 (Integers): Find (-7) x (-8), 45 / (-5), and (-2) x 6 - (-9).",
+   "56; -9; and -12 + 9 = -3. (Covered in unit 1: Integers.)"
   ],
   [
-   "Unit 2 (Fractions and decimals): show that you can multiply and divide fractions and decimals and solve problems. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 2: Fractions and decimals.)"
+   "Unit 2 (Fractions and decimals): Find 3/5 divided by 9/10 and 6.3 divided by 0.7.",
+   "3/5 x 10/9 = 30/45 = 2/3; and 63 / 7 = 9. (Covered in unit 2: Fractions and decimals.)"
   ],
   [
-   "Unit 3 (Data handling): show that you can find mean, median, mode and range and read bar graphs. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 3: Data handling.)"
+   "Unit 4 (Simple equations): Solve 5x - 7 = 18, and form and solve: 4 times a number minus 6 equals 22.",
+   "x = 5; and 4n - 6 = 22 gives 4n = 28, so n = 7. (Covered in unit 4: Simple equations.)"
   ],
   [
-   "Unit 4 (Simple equations): show that you can solve and form equations in one variable. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 4: Simple equations.)"
+   "Unit 5 (Lines and angles): Two angles (2x + 15) and (x + 30) form a linear pair. Find x and the angles.",
+   "3x + 45 = 180, so x = 45; the angles are 105 and 75. (Covered in unit 5: Lines and angles.)"
   ],
   [
-   "Unit 5 (Lines and angles): show that you can use angle pairs, parallel lines and transversals. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 5: Lines and angles.)"
+   "Unit 7 (Congruence of triangles): Triangle one has angles 40 and 60 with the side between them 8 cm; triangle two has angles 60 and 40 with 8 cm between them. Are they congruent?.",
+   "yes, by ASA, and the third angle of each is 80. (Covered in unit 7: Congruence of triangles.)"
   ],
   [
-   "Unit 6 (The triangle and its properties): show that you can use the angle-sum and exterior-angle properties and the Pythagoras property. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 6: The triangle and its properties.)"
+   "Unit 8 (Comparing quantities): Find the simple interest on 2500 at 8% a year for 2 years. Then find the selling price of an article that costs 400 sold at 20% profit.",
+   "interest = 2500 x 8 x 2 / 100 = 400, and selling price = 400 + 80 = 480. (Covered in unit 8: Comparing quantities.)"
   ],
   [
-   "Which action verb starts the outcome of Unit 1 (Integers), and at which Bloom level is it?",
-   "'add,', at the Apply level. (Covered in unit 1: Integers.)"
+   "Unit 10 (Practical geometry): Can a triangle have sides 3 cm, 4 cm and 8 cm? Test the rule before you draw.",
+   "no, because 3 + 4 = 7, which is less than 8, so the two arcs would never meet. (Covered in unit 10: Practical geometry.)"
   ],
   [
-   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
-   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36. (Covered in: Assessment plan, near the top of this page.)"
+   "Unit 11 (Perimeter and area): Find the area of a parallelogram with base 9 cm and height 5 cm, and the circumference and area of a circle of radius 21 cm.",
+   "45 cm2; 132 cm and 1,386 cm2. (Covered in unit 11: Perimeter and area.)"
   ],
   [
-   "In which weeks does Unit 14 (Symmetry and solid shapes) run?",
-   "Weeks 36 to 36. (Covered in unit 14: Symmetry and solid shapes.)"
+   "Unit 13 (Exponents and powers): Simplify 2^3 x 2^5 / 2^4 and write 6,300,000 in standard form.",
+   "2^(3 + 5 - 4) = 2^4 = 16, and moving the point 6 places gives 6.3 x 10^6. (Covered in unit 13: Exponents and powers.)"
   ],
   [
-   "What evidence do you keep for each unit, and why?",
-   "A worked task and a corrected copy. It shows what you can really do and lets a teacher check it against the standard. (Covered in: How you are checked, further down this page.)"
+   "Unit 14 (Symmetry and solid shapes): Find F + V - E for a square pyramid and say how many lines of symmetry a square has.",
+   "5 faces, 5 vertices, 8 edges gives 5 + 5 - 8 = 2; a square has 4 lines of symmetry. (Covered in unit 14: Symmetry and solid shapes.)"
   ]
  ],
  "ladder": [

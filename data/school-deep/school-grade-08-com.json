@@ -166,36 +166,44 @@
  ],
  "checks": [
   [
-   "Unit 1 (Databases and queries): show that you can create tables and write simple queries. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 1: Databases and queries.)"
+   "Unit 1 (Databases and queries): Table books(id, title, pages) with (1,'Sea',120),(2,'Sky',200),(3,'Sand',80). List books over 100 pages shortest first, and count them.",
+   "SELECT title, pages FROM books WHERE pages > 100 ORDER BY pages ASC; gives Sea 120, Sky 200; adding WHERE pages > 100 to COUNT(*) gives 2. (Covered in unit 1: Databases and queries.)"
   ],
   [
-   "Unit 2 (Programming with functions and lists): show that you can break a task into functions and use lists. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 2: Programming with functions and lists.)"
+   "Unit 2 (Programming with functions and lists): Temps = [21, 25, 19, 30, 24]. Write a function that counts the temperatures above 22, and find the average.",
+   "count is 3 (25, 30 and 24), and the average is 119 / 5 = 23.8. (Covered in unit 2: Programming with functions and lists.)"
   ],
   [
-   "Unit 3 (Web pages with HTML and CSS): show that you can style a multi-page site. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 3: Web pages with HTML and CSS.)"
+   "Unit 3 (Web pages with HTML and CSS): Add a third page contact.html with the same style and nav.",
+   "copy the head including <link rel=\"stylesheet\" href=\"style.css\">, add a Contact link in the nav of all 3 pages, and check each page shows the grey background. (Covered in unit 3: Web pages with HTML and CSS.)"
   ],
   [
-   "Unit 4 (Safe use of artificial intelligence tools): show that you can use AI tools responsibly and check their answers. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. (Covered in unit 4: Safe use of artificial intelligence tools.)"
+   "Unit 4 (Safe use of artificial intelligence tools): An AI says the capital of a country is a city you doubt. What do you do?.",
+   "check a trusted atlas or government site, trust the match with two reliable sources, and note that the AI was unreliable. (Covered in unit 4: Safe use of artificial intelligence tools.)"
   ],
   [
-   "Which action verb starts the outcome of Unit 1 (Databases and queries), and at which Bloom level is it?",
-   "'create', at the Create level. (Covered in unit 1: Databases and queries.)"
+   "Unit 1 (Databases and queries): Insert data. Show how you do it and say what the result is.",
+   "He types INSERT INTO students VALUES (1,'Ali',8,72),(2,'Bana',8,91),(3,'Cyrus',8,65),(4,'Dina',8,88); The tool reports 4 rows added. Text values are in quotes, numbers are not. (Covered in unit 1: Databases and queries.)"
   ],
   [
-   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
-   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36. (Covered in: Assessment plan, near the top of this page.)"
+   "Unit 2 (Programming with functions and lists): Store the data in a list. Show how you do it and say what the result is.",
+   "marks = [56, 72, 45, 88, 67]. Counting starts at 0, so marks[0] is 56 and marks[-1] is 67. marks[1:3] is the slice [72, 45]. len(marks) is 5. A list keeps related values together under one name. (Covered in unit 2: Programming with functions and lists.)"
   ],
   [
-   "In which weeks does Unit 4 (Safe use of artificial intelligence tools) run?",
-   "Weeks 34 to 36. (Covered in unit 4: Safe use of artificial intelligence tools.)"
+   "Unit 3 (Web pages with HTML and CSS): Shared navigation. Show how you do it and say what the result is.",
+   "In both pages she puts <nav><a href=\"index.html\">Home</a> <a href=\"about.html\">About</a></nav> inside the body. Clicking Home or About now moves between the pages from either one. (Covered in unit 3: Web pages with HTML and CSS.)"
   ],
   [
-   "What evidence do you keep for each unit, and why?",
-   "A worked task and a corrected copy. It shows what you can really do and lets a teacher check it against the standard. (Covered in: How you are checked, further down this page.)"
+   "Unit 4 (Safe use of artificial intelligence tools): Check by calculation. Show how you do it and say what the result is.",
+   "He works it out himself. 10 percent of 240 is 24 and 5 percent is 12, so 15 percent is 24 plus 12, which is 36. The tool was wrong by 2. Only the calculation can prove the correct answer. (Covered in unit 4: Safe use of artificial intelligence tools.)"
+  ],
+  [
+   "Unit 1 (Databases and queries): Select all. Show how you do it and say what the result is.",
+   "SELECT * FROM students; shows all 4 rows and 4 columns. The star means every column. Hadi checks the output matches what he typed, which verifies the insert. (Covered in unit 1: Databases and queries.)"
+  ],
+  [
+   "Unit 2 (Programming with functions and lists): Write a function with a parameter and a return value. Show how you do it and say what the result is.",
+   "def average(items): return sum(items) / len(items). Calling average(marks) gives 328 / 5 = 65.6. The word return sends the answer back. The max(marks) built-in gives 88. (Covered in unit 2: Programming with functions and lists.)"
   ]
  ],
  "ladder": [

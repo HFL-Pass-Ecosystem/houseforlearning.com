@@ -250,44 +250,44 @@
  ],
  "checks": [
   [
-   "Unit 1 (Relations, functions and inverse trigonometric functions): show that you can define and graph functions and their inverses. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 1: Relations, functions and inverse trigonometric functions.)"
+   "Unit 1 (Relations, functions and inverse trigonometric functions): Find the inverse of f(x) = 3x + 6 and tan^-1(root 3).",
+   "x = (y - 6)/3, so f^-1(x) = (x - 6)/3; and tan^-1(root 3) = pi/3. (Covered in unit 1: Relations, functions and inverse trigonometric functions.)"
   ],
   [
-   "Unit 2 (Matrices and determinants): show that you can operate on matrices and find inverses. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 2: Matrices and determinants.)"
+   "Unit 2 (Matrices and determinants): Find the determinant and inverse of [[4, 3], [2, 2]].",
+   "det = 8 - 6 = 2; inverse = 1/2 x [[2, -3], [-2, 4]] = [[1, -3/2], [-1, 2]]. (Covered in unit 2: Matrices and determinants.)"
   ],
   [
-   "Unit 3 (Continuity, differentiability and applications of derivatives): show that you can differentiate and find maxima and minima. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 3: Continuity, differentiability and applications of derivatives.)"
+   "Unit 3 (Continuity, differentiability and applications of derivatives): Find the minimum of x^2 - 6x + 5.",
+   "f' = 2x - 6 = 0 gives x = 3, f'' = 2 > 0, and f(3) = 9 - 18 + 5 = -4. (Covered in unit 3: Continuity, differentiability and applications of derivatives.)"
   ],
   [
-   "Unit 4 (Integrals and applications of integrals): show that you can integrate and find areas under curves. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 4: Integrals and applications of integrals.)"
+   "Unit 4 (Integrals and applications of integrals): Integrate cos 3x and evaluate the integral of 2x from 0 to 3.",
+   "sin 3x / 3 + C; and [x^2] from 0 to 3 = 9. (Covered in unit 4: Integrals and applications of integrals.)"
   ],
   [
-   "Unit 5 (Differential equations): show that you can solve first-order differential equations. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 5: Differential equations.)"
+   "Unit 5 (Differential equations): Solve dy/dx = 3x^2 with y(1) = 2, and give the general solution of dy/dx = 4y.",
+   "y = x^3 + C, then 1 + C = 2 so y = x^3 + 1; and y = Ae^(4x). (Covered in unit 5: Differential equations.)"
   ],
   [
-   "Unit 6 (Vectors and three-dimensional geometry): show that you can use dot and cross products and equations of lines and planes. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 6: Vectors and three-dimensional geometry.)"
+   "Unit 6 (Vectors and three-dimensional geometry): Find the dot and cross product of (1, 0, 2) and (3, 1, -1).",
+   "dot = 3 + 0 - 2 = 1; cross = (0 - 2, 6 + 1, 1 - 0) = (-2, 7, 1), and (1, 0, 2) . (-2, 7, 1) = 0. (Covered in unit 6: Vectors and three-dimensional geometry.)"
   ],
   [
-   "Which action verb starts the outcome of Unit 1 (Relations, functions and inverse trigonometric functions), and at which Bloom level is it?",
-   "'define', at the Apply level. (Covered in unit 1: Relations, functions and inverse trigonometric functions.)"
+   "Unit 7 (Linear programming and probability): Maximise Z = 2x + 3y with x + y <= 5, x <= 3.",
+   "corners (0,0), (3,0), (3,2), (0,5) give 0, 6, 12, 15, so the maximum is 15 at (0, 5). (Covered in unit 7: Linear programming and probability.)"
   ],
   [
-   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
-   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36. (Covered in: Assessment plan, near the top of this page.)"
+   "Unit 1 (Relations, functions and inverse trigonometric functions): Composition. Show how you do it and say what the result is.",
+   "f(x) = x + 1 and g(x) = x^2. Then (f o g)(2) = f(4) = 5 while (g o f)(2) = g(3) = 9. Composition is not commutative, so order matters. (Covered in unit 1: Relations, functions and inverse trigonometric functions.)"
   ],
   [
-   "In which weeks does Unit 7 (Linear programming and probability) run?",
-   "Weeks 32 to 36. (Covered in unit 7: Linear programming and probability.)"
+   "Unit 2 (Matrices and determinants): Solve a system. Show how you do it and say what the result is.",
+   "2x + y = 7 and 5x + 3y = 18, written AX = B. Then X = A^-1 B = [[3, -1], [-5, 2]] x [7, 18] = [21 - 18, -35 + 36] = [3, 1]. (Covered in unit 2: Matrices and determinants.)"
   ],
   [
-   "What evidence do you keep for each unit, and why?",
-   "A timed paper and an error log. It shows what you can really do and lets a teacher check it against the standard. (Covered in: How you are checked, further down this page.)"
+   "Unit 3 (Continuity, differentiability and applications of derivatives): Chain rule. Show how you do it and say what the result is.",
+   "y = (3x + 1)^5 gives dy/dx = 5(3x + 1)^4 x 3 = 15(3x + 1)^4. Also d/dx of e^(2x) = 2e^(2x). Differentiate the outer function, then multiply by the inner derivative. (Covered in unit 3: Continuity, differentiability and applications of derivatives.)"
   ]
  ],
  "ladder": [

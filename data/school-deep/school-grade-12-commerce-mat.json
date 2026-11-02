@@ -163,36 +163,44 @@
  ],
  "checks": [
   [
-   "Unit 1 (Relations, functions and matrices): show that you can operate on matrices and functions. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 1: Relations, functions and matrices.)"
+   "Unit 1 (Relations, functions and matrices): Multiply [[2, 0], [1, 3]] by [[1, 4], [2, 0]].",
+   "row 1 gives [2, 8], row 2 gives [1 + 6, 4 + 0] = [7, 4], so the product is [[2, 8], [7, 4]]. (Covered in unit 1: Relations, functions and matrices.)"
   ],
   [
-   "Unit 2 (Calculus: differentiation and integration): show that you can find derivatives and simple integrals. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 2: Calculus: differentiation and integration.)"
+   "Unit 2 (Calculus: differentiation and integration): Differentiate 4x^3 - 2x + 7 and integrate 6x^2 - 2.",
+   "12x^2 - 2; and 2x^3 - 2x + C. (Covered in unit 2: Calculus: differentiation and integration.)"
   ],
   [
-   "Unit 3 (Probability and linear programming): show that you can calculate probability and optimise. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 3: Probability and linear programming.)"
+   "Unit 3 (Probability and linear programming): Maximise Z = 5x + 4y with x + y <= 6, x <= 4, x, y >= 0.",
+   "corners (0,0), (4,0), (4,2), (0,6) give 0, 20, 28, 24, so the maximum is 28 at (4, 2). (Covered in unit 3: Probability and linear programming.)"
   ],
   [
-   "Unit 4 (Index numbers and time series): show that you can compute index numbers and trends. What are the first and last step you used?",
-   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown. (Covered in unit 4: Index numbers and time series.)"
+   "Unit 4 (Index numbers and time series): Base prices 8 and 5, base quantities 2 and 4, current prices 10 and 6. Find the Laspeyres index.",
+   "(20 + 24)/(16 + 20) x 100 = 44/36 x 100 = 122.22. (Covered in unit 4: Index numbers and time series.)"
   ],
   [
-   "Which action verb starts the outcome of Unit 1 (Relations, functions and matrices), and at which Bloom level is it?",
-   "'operate', at the Apply level. (Covered in unit 1: Relations, functions and matrices.)"
+   "Unit 1 (Relations, functions and matrices): Multiply. Show how you do it and say what the result is.",
+   "AB uses rows of A with columns of B. Entries: 1x0 + 2x2 = 4; 1x1 + 2x3 = 7; 3x0 + 4x2 = 8; 3x1 + 4x3 = 15. So AB = [[4, 7], [8, 15]]. (Covered in unit 1: Relations, functions and matrices.)"
   ],
   [
-   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
-   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36. (Covered in: Assessment plan, near the top of this page.)"
+   "Unit 2 (Calculus: differentiation and integration): Marginal cost. Show how you do it and say what the result is.",
+   "C(x) = 0.5x^2 + 20x + 100 has C'(x) = x + 20. At x = 10 units the marginal cost is 30, the extra cost of making the 11th unit, roughly. (Covered in unit 2: Calculus: differentiation and integration.)"
   ],
   [
-   "In which weeks does Unit 4 (Index numbers and time series) run?",
-   "Weeks 28 to 36. (Covered in unit 4: Index numbers and time series.)"
+   "Unit 3 (Probability and linear programming): Linear programming set-up. Show how you do it and say what the result is.",
+   "maximise profit Z = 3x + 2y with x + y <= 4, x <= 3, x >= 0 and y >= 0. Draw the feasible region and list its corner points. (Covered in unit 3: Probability and linear programming.)"
   ],
   [
-   "What evidence do you keep for each unit, and why?",
-   "A timed paper and an error log. It shows what you can really do and lets a teacher check it against the standard. (Covered in: How you are checked, further down this page.)"
+   "Unit 4 (Index numbers and time series): Laspeyres index. Show how you do it and say what the result is.",
+   "base prices 10 and 20, base quantities 5 and 3, current prices 12 and 25. Sum of p1q0 = 12 x 5 + 25 x 3 = 60 + 75 = 135. Sum of p0q0 = 50 + 60 = 110. (Covered in unit 4: Index numbers and time series.)"
+  ],
+  [
+   "Unit 1 (Relations, functions and matrices): Order matters. Show how you do it and say what the result is.",
+   "BA = [[3, 4], [11, 16]], which differs from AB. For BA, entry (1,1) = 0x1 + 1x3 = 3. So matrix multiplication is not commutative. (Covered in unit 1: Relations, functions and matrices.)"
+  ],
+  [
+   "Unit 2 (Calculus: differentiation and integration): Maximise revenue. Show how you do it and say what the result is.",
+   "R(x) = 50x - x^2. R'(x) = 50 - 2x = 0 gives x = 25. R(25) = 1,250 - 625 = 625. Second derivative -2 is negative, so it is a maximum. (Covered in unit 2: Calculus: differentiation and integration.)"
   ]
  ],
  "ladder": [
