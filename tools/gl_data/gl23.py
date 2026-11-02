@@ -21,7 +21,7 @@ C = dict(id='GL-23', title='E-Commerce Inventory Management', group='Business an
  next='Marketplace Fulfilment Selling; E-Commerce Growth Marketing; Box Subscription Services.',
  local='Storage rules, taxes on stock and import duties differ by place; check them with a local adviser.',
  evidence='Your evidence: item list, count records, forecast, reorder table, shelf photos, slow-mover list and health report.',
- ladder=[('Basics of stock', 'Count items. Notes: count a shelf.'), ('Awareness', 'Know terms. Notes: define each term with an example.'), ('Foundation', 'Maintain a stock list. Notes: spreadsheet.'), ('Practitioner', 'This course. Notes: rules and report.'), ('Specialist', 'Multi-location and forecasting. Notes: seasonal items.'), ('Advanced', 'Lead supply planning. Notes: supplier terms.'), ('Super expert', 'Set method and teach teachers. Notes: audits.')])
+ ladder=[('Basics of stock', 'Count items. Notes: count a shelf.'), ('Awareness', 'Know terms. Notes: define each term with an example.'), ('Foundation', 'Maintain a stock list. Notes: spreadsheet.'), ('Practitioner', 'This course. Notes: rules and report.'), ('Specialist', 'Multi-location and forecasting. Notes: seasonal items.'), ('Advanced', 'Lead supply planning. Notes: supplier terms.'), ('Super expert', 'Set the stock-count, reorder and shrinkage method and teach the stock controllers who use it. Notes: run a cycle-count audit on a set schedule and review variances and write-offs.')])
 
 C['deep'] = dict(mods=[
  ('Ignoring holding cost.', '500 of stock for 90 days at 2% monthly costs 30 in tied capital.', 'What do you hold too much of?'),

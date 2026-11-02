@@ -21,7 +21,7 @@ C = dict(id='GL-37', title='Crowdfunding Platform Practice', group='Business and
  next='P2P Lending Platform Concepts; Inclusive and Minority-Owned Business Growth; Digital Marketing.',
  local='Public fundraising and securities rules differ strongly by place; check before anything is published.',
  evidence='Your evidence: model table, project summary, budget and goal, reward costs, draft page, rules list and update plan.',
- ladder=[('Basics of funding', 'Explain donations. Notes: examples.'), ('Awareness', 'Know models. Notes: compare.'), ('Foundation', 'Plan a small campaign. Notes: paper.'), ('Practitioner', 'This course. Notes: full preparation.'), ('Specialist', 'Platform concept. Notes: risk controls.'), ('Advanced', 'Lead funding programmes. Notes: governance.'), ('Super expert', 'Set method and teach teachers. Notes: rules review.')])
+ ladder=[('Basics of funding', 'Explain donations. Notes: examples.'), ('Awareness', 'Know models. Notes: compare.'), ('Foundation', 'Plan a small campaign. Notes: paper.'), ('Practitioner', 'This course. Notes: full preparation.'), ('Specialist', 'Platform concept. Notes: risk controls.'), ('Advanced', 'Lead funding programmes. Notes: governance.'), ('Super expert', 'Set the campaign-vetting and disclosure method for crowdfunding and teach the reviewers who use it. Notes: re-read the platform and securities rules for the place and update the checklist.')])
 
 C['deep'] = dict(mods=[
  ('Treating all models as the same.', 'Equity needs extra rules that donation does not.', 'Which model fits?'),

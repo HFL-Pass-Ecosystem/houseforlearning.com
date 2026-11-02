@@ -21,7 +21,7 @@ C = dict(id='GL-16', title='Mobile Application Testing Services', group='Digital
  next='IT Service and Support; Wallet Payment Solutions; Social Media Network Building.',
  local='App stores, accessibility and consumer rules differ by place: record which version and region you tested.',
  evidence='Your evidence: test plan, 30 cases with results, 10 bug reports, five non-functional checks, summary and retest.',
- ladder=[('Basics of apps', 'Use an app and describe how it behaves. Notes: keep a notebook.'), ('Awareness', 'Know bugs and users. Notes: spot bugs in sample apps.'), ('Foundation', 'Run given test cases. Notes: follow a script.'), ('Practitioner', 'This course. Notes: plan, run and report.'), ('Specialist', 'Automation basics and performance. Notes: add free tools.'), ('Advanced', 'Lead a test team. Notes: strategy and metrics.'), ('Super expert', 'Set method and teach teachers. Notes: review defect trends yearly.')])
+ ladder=[('Basics of apps', 'Use an app and describe how it behaves. Notes: keep a notebook.'), ('Awareness', 'Know bugs and users. Notes: spot bugs in sample apps.'), ('Foundation', 'Run given test cases. Notes: follow a script.'), ('Practitioner', 'This course. Notes: plan, run and report.'), ('Specialist', 'Automation basics and performance. Notes: add free tools.'), ('Advanced', 'Lead a test team. Notes: strategy and metrics.'), ('Super expert', 'Set the test-plan and defect-report method for mobile apps and teach the testers who apply it. Notes: review defect trends by device and release each year.')])
 
 C['deep'] = dict(mods=[
  ('Testing everything equally.', 'Payment gets 15 cases, colour theme 2, because failure there harms users most.', 'What are your top three risks?'),

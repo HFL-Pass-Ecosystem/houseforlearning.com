@@ -21,7 +21,7 @@ C = dict(id='GL-20', title='Social Media Network Building', group='Digital and T
  next='Influencer Marketing; Digital Marketing; Virtual Event Planning.',
  local='Platform choice, age rules and content laws differ by place; check what members use and what your law requires.',
  evidence='Your evidence: purpose note, rules, setup screenshots, six-week calendar, moderation log, weekly measures and health report.',
- ladder=[('Basics of sharing', 'Post safely. Notes: privacy settings.'), ('Awareness', 'Know communities and rules. Notes: observe three groups.'), ('Foundation', 'This course. Notes: 6-week community.'), ('Practitioner', 'Run several groups. Notes: shared calendar.'), ('Specialist', 'Brand and customer communities. Notes: insights and care.'), ('Advanced', 'Lead a team and policy. Notes: crisis handling.'), ('Super expert', 'Set method and teach teachers. Notes: share templates.')])
+ ladder=[('Basics of sharing', 'Post safely. Notes: privacy settings.'), ('Awareness', 'Know communities and rules. Notes: observe three groups.'), ('Foundation', 'This course. Notes: 6-week community.'), ('Practitioner', 'Run several groups. Notes: shared calendar.'), ('Specialist', 'Brand and customer communities. Notes: insights and care.'), ('Advanced', 'Lead a team and policy. Notes: crisis handling.'), ('Super expert', 'Set the community-building method (purpose, rules, moderation, reporting) and teach the moderators who run it. Notes: share the community-rules and onboarding templates and review them after each growth step.')])
 
 C['deep'] = dict(mods=[
  ('A purpose that is "everyone".', '"Home bakers swap tips" is clearer than "food lovers".', 'Who is your member in one sentence?'),

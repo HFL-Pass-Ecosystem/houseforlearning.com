@@ -21,7 +21,7 @@ C = dict(id='GL-38', title='P2P Lending Platform Concepts', group='Business and 
  next='Crowdfunding Platform Practice; Online Currency Exchange Concepts; Wallet Payment Solutions.',
  local='Lending platforms are licensed and capped in many places; check the regulator\'s rules.',
  evidence='Your evidence: money-flow chart, loan calculations, expected-loss table, return model, fairness rules, disclosure sheet, operating checklist and one-page concept.',
- ladder=[('Basics of borrowing', 'Understand interest. Notes: calculators.'), ('Awareness', 'Know platforms. Notes: compare.'), ('Foundation', 'Calculate loans. Notes: spreadsheet.'), ('Practitioner', 'This course. Notes: concept and model.'), ('Specialist', 'Risk modelling. Notes: scoring.'), ('Advanced', 'Lead risk and compliance. Notes: audits.'), ('Super expert', 'Set method and teach teachers. Notes: rules review.')])
+ ladder=[('Basics of borrowing', 'Understand interest. Notes: calculators.'), ('Awareness', 'Know platforms. Notes: compare.'), ('Foundation', 'Calculate loans. Notes: spreadsheet.'), ('Practitioner', 'This course. Notes: concept and model.'), ('Specialist', 'Risk modelling. Notes: scoring.'), ('Advanced', 'Lead risk and compliance. Notes: audits.'), ('Super expert', 'Set the borrower-assessment, risk-warning and disclosure method for peer lending and teach the reviewers who use it. Notes: re-read the lending rules for the place and update the warnings.')])
 
 C['deep'] = dict(mods=[
  ('Believing returns are certain.', 'Lenders can lose money; say so.', 'What risks are stated?'),

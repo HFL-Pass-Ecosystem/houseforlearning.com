@@ -21,7 +21,7 @@ C = dict(id='GL-15', title='Tele and Video Conferencing Operations', group='Digi
  next='Virtual Event Planning; IT Service and Support; Online Tutoring Platform.',
  local='Recording and cross-border calls may need consent and notices; check your place and your attendees\' places.',
  evidence='Your evidence: space test, tool test list, run sheets, fault drill log, access checklist, three-session report.',
- ladder=[('Basics of calling', 'Join a call well. Notes: learn mute, camera and chat.'), ('Awareness', 'Know etiquette and privacy. Notes: practise as a guest.'), ('Foundation', 'This course. Notes: three sessions.'), ('Practitioner', 'Run weekly sessions for a team. Notes: templates and checklists.'), ('Specialist', 'Hybrid rooms and larger events. Notes: add room kits.'), ('Advanced', 'Lead production teams. Notes: standards and training.'), ('Super expert', 'Set method and teach teachers. Notes: review every quarter.')])
+ ladder=[('Basics of calling', 'Join a call well. Notes: learn mute, camera and chat.'), ('Awareness', 'Know etiquette and privacy. Notes: practise as a guest.'), ('Foundation', 'This course. Notes: three sessions.'), ('Practitioner', 'Run weekly sessions for a team. Notes: templates and checklists.'), ('Specialist', 'Hybrid rooms and larger events. Notes: add room kits.'), ('Advanced', 'Lead production teams. Notes: standards and training.'), ('Super expert', 'Set the meeting-quality standard (audio, camera, access, recording consent) and teach the hosts who use it. Notes: review call-quality logs and complaints every quarter.')])
 
 C['deep'] = dict(mods=[
  ('Relying on a laptop microphone.', 'A USB headset removes echo and clatter in one change.', 'What audio gear do you use?'),

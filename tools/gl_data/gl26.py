@@ -21,7 +21,7 @@ C = dict(id='GL-26', title='Box Subscription Services', group='Business and Comm
  next='E-Commerce Inventory Management; E-Commerce Growth Marketing; Ghost Kitchens.',
  local='Renewal and cancellation rules and import duties vary by place; check consumer law.',
  evidence='Your evidence: theme note, costing, pricing sheet, sign-up policy, packing test, delivery log, churn table and review.',
- ladder=[('Basics of subscriptions', 'Explain repeat buying. Notes: list your own subscriptions.'), ('Awareness', 'Know churn and value. Notes: compare three models.'), ('Foundation', 'Cost a box. Notes: one box.'), ('Practitioner', 'This course. Notes: two cycles.'), ('Specialist', 'Scale and partners. Notes: bulk buying.'), ('Advanced', 'Lead a portfolio. Notes: data and finance.'), ('Super expert', 'Set method and teach teachers. Notes: review rules yearly.')])
+ ladder=[('Basics of subscriptions', 'Explain repeat buying. Notes: list your own subscriptions.'), ('Awareness', 'Know churn and value. Notes: compare three models.'), ('Foundation', 'Cost a box. Notes: one box.'), ('Practitioner', 'This course. Notes: two cycles.'), ('Specialist', 'Scale and partners. Notes: bulk buying.'), ('Advanced', 'Lead a portfolio. Notes: data and finance.'), ('Super expert', 'Set the plan, churn and fulfilment method for subscription boxes and teach the managers who use it. Notes: re-read the consumer-subscription and cancellation rules for the place each year.')])
 
 C['deep'] = dict(mods=[
  ('Choosing a theme you like instead of one that repeats.', 'A one-time gift theme has high churn; a consumable theme keeps subscribers.', 'Why will your subscriber want a second box?'),

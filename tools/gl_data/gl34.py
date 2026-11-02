@@ -21,7 +21,7 @@ C = dict(id='GL-34', title='Online Tutoring Platform', group='Business and Comme
  next='Online Library Building; Virtual Event Planning; Tele and Video Conferencing Operations.',
  local='Child-protection, tutor registration and privacy rules differ by place; check before you launch.',
  evidence='Your evidence: safeguarding policy, tutor onboarding, lesson plans, scheduling test, pricing sheet, progress data and pilot report.',
- ladder=[('Basics of helping learners', 'Explain a topic to a friend. Notes: teach-back.'), ('Awareness', 'Know safeguarding. Notes: read policy.'), ('Foundation', 'Tutor a peer. Notes: observed.'), ('Practitioner', 'This course. Notes: pilot.'), ('Specialist', 'Exam or special-needs tutoring. Notes: training.'), ('Advanced', 'Lead a team of tutors. Notes: quality system.'), ('Super expert', 'Set method and teach teachers. Notes: safeguarding review.')])
+ ladder=[('Basics of helping learners', 'Explain a topic to a friend. Notes: teach-back.'), ('Awareness', 'Know safeguarding. Notes: read policy.'), ('Foundation', 'Tutor a peer. Notes: observed.'), ('Practitioner', 'This course. Notes: pilot.'), ('Specialist', 'Exam or special-needs tutoring. Notes: training.'), ('Advanced', 'Lead a team of tutors. Notes: quality system.'), ('Super expert', 'Set the lesson-quality and child-safeguarding method for online tutoring and teach the tutors who use it. Notes: hold a safeguarding review of incidents, reports and recordings each term.')])
 
 C['deep'] = dict(mods=[
  ('Starting with price instead of learner need.', 'A diagnostic reveals fractions are the gap.', 'What gap did you find?'),

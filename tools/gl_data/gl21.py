@@ -21,7 +21,7 @@ C = dict(id='GL-21', title='E-Commerce Growth Marketing', group='Business and Co
  next='Marketplace Fulfilment Selling; Digital Marketing; E-Commerce Inventory Management.',
  local='Advertising, consent and consumer-return rules differ by place; check the local rule before running offers.',
  evidence='Your evidence: funnel table, buyer profile, page changes, channel plan, three test records, email sequence, numbers table and review.',
- ladder=[('Basics of selling online', 'Describe a sale step by step. Notes: buy something small.'), ('Awareness', 'Know funnel and channels. Notes: trace an ad.'), ('Foundation', 'Improve one page. Notes: simple changes.'), ('Practitioner', 'This course. Notes: 30-day plan.'), ('Specialist', 'Multi-channel and data. Notes: attribution.'), ('Advanced', 'Lead growth for a shop group. Notes: budgets and teams.'), ('Super expert', 'Set method and teach teachers. Notes: review tests yearly.')])
+ ladder=[('Basics of selling online', 'Describe a sale step by step. Notes: buy something small.'), ('Awareness', 'Know funnel and channels. Notes: trace an ad.'), ('Foundation', 'Improve one page. Notes: simple changes.'), ('Practitioner', 'This course. Notes: 30-day plan.'), ('Specialist', 'Multi-channel and data. Notes: attribution.'), ('Advanced', 'Lead growth for a shop group. Notes: budgets and teams.'), ('Super expert', 'Set the experiment method for e-commerce growth (hypothesis, test, stop rule) and teach the marketers who use it. Notes: review test records yearly and retire any result that no longer holds.')])
 
 C['deep'] = dict(mods=[
  ('Looking at total visits only.', 'Visits rise but orders do not: the leak is at checkout.', 'Where is your biggest leak?'),

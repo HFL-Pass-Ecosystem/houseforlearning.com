@@ -21,7 +21,7 @@ C = dict(id='GL-28', title='Business Coaching Practice', group='Business and Com
  next='Inclusive and Minority-Owned Business Growth; Digital Marketing; Coworking Space Operations.',
  local='Coaching is unregulated in many places but advice rules apply: do not give regulated advice.',
  evidence='Your evidence: coaching description, signed agreements, question bank, session notes (private), goals, tool outputs and feedback.',
- ladder=[('Basics of listening', 'Listen well. Notes: pair exercises.'), ('Awareness', 'Know coaching. Notes: watch a demo.'), ('Foundation', 'Practise with peers. Notes: structure.'), ('Practitioner', 'This course. Notes: four sessions each.'), ('Specialist', 'Niche coaching. Notes: family firms.'), ('Advanced', 'Supervise coaches. Notes: reflective practice.'), ('Super expert', 'Set method and teach teachers. Notes: ethics review.')])
+ ladder=[('Basics of listening', 'Listen well. Notes: pair exercises.'), ('Awareness', 'Know coaching. Notes: watch a demo.'), ('Foundation', 'Practise with peers. Notes: structure.'), ('Practitioner', 'This course. Notes: four sessions each.'), ('Specialist', 'Niche coaching. Notes: family firms.'), ('Advanced', 'Supervise coaches. Notes: reflective practice.'), ('Super expert', 'Set the coaching contract, boundary and referral method and teach the coaches who use it. Notes: hold an ethics review on cases without client names and revise the code of practice.')])
 
 C['deep'] = dict(mods=[
  ('Giving advice and calling it coaching.', 'Instead of "hire a manager", ask "what would a manager change for you?"', 'Where did you catch yourself advising?'),

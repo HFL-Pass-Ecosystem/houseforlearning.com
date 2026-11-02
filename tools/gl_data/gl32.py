@@ -21,7 +21,7 @@ C = dict(id='GL-32', title='Influencer Marketing', group='Business and Commerce'
  next='Affiliate Marketing; Digital Marketing; Social Media Network Building.',
  local='Disclosure rules and age limits for audiences differ by place: follow the local authority.',
  evidence='Your evidence: goal note, vetting checklist, brief, agreement outline, tracking sheet, results table and lessons.',
- ladder=[('Basics of sharing', 'Share safely. Notes: privacy settings.'), ('Awareness', 'Know creator rules. Notes: compare ads.'), ('Foundation', 'This course. Notes: small campaign.'), ('Practitioner', 'Manage several creators. Notes: calendar.'), ('Specialist', 'Data and contracts. Notes: attribution.'), ('Advanced', 'Lead a programme. Notes: brand safety.'), ('Super expert', 'Set method and teach teachers. Notes: ethics review.')])
+ ladder=[('Basics of sharing', 'Share safely. Notes: privacy settings.'), ('Awareness', 'Know creator rules. Notes: compare ads.'), ('Foundation', 'This course. Notes: small campaign.'), ('Practitioner', 'Manage several creators. Notes: calendar.'), ('Specialist', 'Data and contracts. Notes: attribution.'), ('Advanced', 'Lead a programme. Notes: brand safety.'), ('Super expert', 'Set the brief, disclosure and fair-pay method for influencer campaigns and teach the managers who use it. Notes: hold an ethics review of posts, disclosures and complaints each year.')])
 
 C['deep'] = dict(mods=[
  ('Choosing by follower count.', 'A nano creator\'s audience may trust them more.', 'What matters more than size?'),

@@ -21,7 +21,7 @@ C = dict(id='GL-40', title='Online Car Dealership Operations', group='Business a
  next='Virtual Interior Design Consulting; E-Commerce Growth Marketing; Marketplace Fulfilment Selling.',
  local='Trader licences, vehicle registration, warranty and consumer-return rules differ by place; check them first.',
  evidence='Your evidence: sales map, two inspection checklists, three listings, price sheet, enquiry log, test-drive procedure and paperwork checklist.',
- ladder=[('Basics of cars', 'Know the parts. Notes: walk-round.'), ('Awareness', 'Know seller duties. Notes: case studies.'), ('Foundation', 'List one car. Notes: honest.'), ('Practitioner', 'This course. Notes: five vehicles.'), ('Specialist', 'Finance and trade-ins. Notes: rules.'), ('Advanced', 'Lead a showroom. Notes: compliance.'), ('Super expert', 'Set method and teach teachers. Notes: ethics review.')])
+ ladder=[('Basics of cars', 'Know the parts. Notes: walk-round.'), ('Awareness', 'Know seller duties. Notes: case studies.'), ('Foundation', 'List one car. Notes: honest.'), ('Practitioner', 'This course. Notes: five vehicles.'), ('Specialist', 'Finance and trade-ins. Notes: rules.'), ('Advanced', 'Lead a showroom. Notes: compliance.'), ('Super expert', 'Set the honest-listing, inspection and disclosure method for online car sales and teach the dealers who use it. Notes: hold an ethics review of listings, complaints and returns each year.')])
 
 C['deep'] = dict(mods=[
  ('Thinking online sales are different law.', 'Same duties plus distance-selling rules.', 'Which rules apply?'),
