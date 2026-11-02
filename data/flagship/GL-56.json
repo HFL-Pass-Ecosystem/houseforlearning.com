@@ -73,7 +73,7 @@
     "Inspect roof strength and old wiring.",
     "Photograph and record the main panel."
    ],
-   "A roof of 24 square metres facing south fits about eight panels of 2 square metres; a water tank shades two panels in the afternoon and they are moved.",
+   "A roof with 16 usable square metres facing south fits about eight panels of 2 square metres; a water tank shades two panels in the afternoon and they are moved.",
    "Complete a survey sheet for a practice roof.",
    "Area, tilt, shade and panel condition are recorded with photos or sketches."
   ],
@@ -103,7 +103,7 @@
     "Earth the frames and the system to the correct standard.",
     "Label every switch and cable."
    ],
-   "A cable too thin for the current heats up; the design uses the next size up and shows the voltage drop under 2 per cent.",
+   "A cable too thin for the current heats up; the design uses the next size up and keeps the voltage drop within the allowed limit.",
    "Draw a single line diagram with protection.",
    "All protective devices are present and sized, and earthing is shown."
   ],
@@ -224,7 +224,7 @@
    "Electrical code and permits",
    "Code not checked",
    "Wiring code, permit and inspector steps for the place are written down",
-   "Code clause numbers cited and a licensed installer has signed off the design"
+   "Code rules cited and a licensed installer has signed off the design"
   ]
  ],
  "jobs": [
@@ -265,7 +265,7 @@
   [
    "Site survey",
    "L3: learner can make a load list. Focus module: Site survey (Analyse, 4 h). The roof and the wiring decide what is possible. Key points: Measure usable roof area, tilt and direction. Check shade at morning, noon and afternoon. Inspect roof strength and old wiring. Photograph and record the main panel.",
-   "Teach: open with the worked example. A roof of 24 square metres facing south fits about eight panels of 2 square metres; a water tank shades two panels in the afternoon and they are moved. Then set the activity: Complete a survey sheet for a practice roof. Mark against the standard: Area, tilt, shade and panel condition are recorded with photos or sketches. Check at this level: Why check shade at several times of day? Model answer: A tank, tree or building can shade panels in the morning or afternoon and cut output, so panels are moved to avoid it."
+   "Teach: open with the worked example. A roof with 16 usable square metres facing south fits about eight panels of 2 square metres; a water tank shades two panels in the afternoon and they are moved. Then set the activity: Complete a survey sheet for a practice roof. Mark against the standard: Area, tilt, shade and panel condition are recorded with photos or sketches. Check at this level: Why check shade at several times of day? Model answer: A tank, tree or building can shade panels in the morning or afternoon and cut output, so panels are moved to avoid it."
   ],
   [
    "Sizing the system",
@@ -275,7 +275,7 @@
   [
    "Electrical protection and earthing",
    "L5: learner can design protection and cost. Focus module: Electrical protection and earthing (Apply, 5 h). Protection prevents fire and shock. Key points: Direct current isolator, alternating current breaker and surge protection. Correct cable size and colour for the current and distance. Earth the frames and the system to the correct standard. Label every switch and cable.",
-   "Teach: open with the worked example. A cable too thin for the current heats up; the design uses the next size up and shows the voltage drop under 2 per cent. Then set the activity: Draw a single line diagram with protection. Mark against the standard: All protective devices are present and sized, and earthing is shown. Check at this level: Name two protective devices. Model answer: Breaker and surge protector."
+   "Teach: open with the worked example. A cable too thin for the current heats up; the design uses the next size up and keeps the voltage drop within the allowed limit. Then set the activity: Draw a single line diagram with protection. Mark against the standard: All protective devices are present and sized, and earthing is shown. Check at this level: Name two protective devices. Model answer: Breaker and surge protector."
   ],
   [
    "Cost and payback",
