@@ -43,7 +43,7 @@
     "Ask three local buyers what they buy weekly, at what price and in what pack.",
     "Rank crops by income per tray per week."
    ],
-   "Three buyers want 20 kg of basil per week at 300 INR per kg. A basil tray gives 1.2 kg every 5 weeks, so about 85 trays in rotation are needed.",
+   "Three buyers want 20 kg of basil per week at 300 INR per kg (an estimate; check your market). A basil tray gives 1.2 kg every 5 weeks, so about 85 trays in rotation are needed.",
    "Make a demand table with three buyers, quantities and prices and choose three crops.",
    "Choice is supported by buyer numbers and cycle times."
   ],
