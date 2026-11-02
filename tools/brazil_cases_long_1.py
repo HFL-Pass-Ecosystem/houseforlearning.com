@@ -1,46 +1,261 @@
-LONG = {
-'Construction Safety Management': (
-"A small renovation firm in Mooca, São Paulo, runs a three-story job with 12 workers. The owner pays R$ 4.800 a month for scaffold rental and R$ 1.350 for helmets, harnesses and boots. Last week a worker slipped on a wet plank four meters up and caught the rail by luck. The foreman says the harness was still in the van. The site has no daily check, and three near misses this month were only told by voice, never written down. The owner does not want to stop work, because one idle day costs about R$ 2.200 in wages. He must decide what to inspect, who signs, and how to prove later that the team was careful.",
-"First, list every task done at height and write the name of the worker who does it. Next, create a one-page checklist for scaffold, planks, rails and harnesses; the foreman inspects before each shift and signs it, and each worker signs the short safety talk. Then record every near miss the same day: time, place, cause, and the fix. Last, review the log each Friday and assign one owner and one date for each fix. Keep these records: the signed daily checklists, the training sheet, the equipment issue list with dates, the near-miss log, and photos of repairs. Re-compute the cost: a 10-minute check on 22 working days is 220 minutes, about 3,7 hours, while one idle day after an accident costs R$ 2.200 before any other loss. Standard to meet: no one works at height until the signed check exists for that day. For exact duties, check the current official text of the Brazilian safety rules."
-),
-'Sensor Manufacture': (
-"A small electronics workshop in Santo Amaro, São Paulo, builds temperature sensors for cold rooms in local supermarkets. It makes 400 units a month and sells each for R$ 85, with a material cost of R$ 38 per unit. Last month 36 units came back because readings drifted by more than 1 degree after two weeks. The owner suspects the cheaper solder paste bought to save R$ 3 per unit, but she has no batch records, so she cannot prove it. Two customers now threaten to cancel. She has one technician and a reference thermometer. She must find the cause, protect the customers already served, and change the process without raising prices.",
-"First, stop shipping until a test step exists. Next, calibrate every unit against the reference thermometer at two points, such as 0 and 8 degrees, and write the readings on a batch sheet with the date and the solder paste lot. Then separate 20 returned units by paste lot and compare the drift; this tests the owner's guess with data instead of belief. After that, fix the cause found and run a 48-hour test on a sample of 10 units. Last, send each affected customer a corrected unit and a clear note. Records to keep: the calibration sheet, lot numbers, return log, and test results. Re-compute: 36 returns of 400 is 9 percent; the paste saving of R$ 3 times 400 is R$ 1.200, while 36 returns at R$ 85 is R$ 3.060 in lost sales before shipping. Standard: no unit leaves without a signed two-point test and a traceable lot number."
-),
-'Internet Infrastructure': (
-"A neighborhood internet provider in Itaquera, São Paulo, serves 320 homes through its own fiber and one rented link of 1 Gbps costing R$ 3.600 a month. Every evening between 8 and 10 the speed falls and the support line fills with about 45 calls. The owner thinks he must rent a second link for R$ 3.100 more each month. His one technician has never measured the traffic, and no one knows if the problem is the link, the main switch, or a few heavy users. Customers pay R$ 99 a month each. Losing 32 or more customers would cost more than the new link. He needs evidence before spending money, and he must explain his choice to his partner.",
-"First, measure before buying. Install a free traffic monitor on the main switch and record usage every five minutes for seven days. Next, read the graphs: if the link reaches 100 percent only in the evening, capacity is the cause; if it stays near 60 percent while users complain, look at the switch ports and the Wi-Fi equipment. Then list the top 10 users by traffic and check for faults such as a looping device. After that, test one fix at a time, such as a queue rule that shares speed fairly, and measure again for three evenings. Last, decide on the second link only if the data still shows saturation. Records: the traffic graphs, the call log by hour, the change log with dates, and a map of the network. Re-compute: 320 homes at R$ 99 is R$ 31.680 a month; losing 15 customers is R$ 1.485 a month, less than the R$ 3.100 link, so the link pays only if it saves at least 32 customers (32 x R$ 99 = R$ 3.168). Standard: every upgrade must be backed by a measured number."
-),
-'International Trade': (
-"A small firm in Brás, São Paulo, imports 2.000 phone cases from a supplier abroad. The goods cost USD 1.800, the freight is USD 300, and the owner assumes an exchange rate of R$ 5,50 per dollar. She adds only the supplier invoice to her price and plans to sell each case for R$ 9. Then the broker says that import taxes, port charges and local transport will be added, and the dollar moved to R$ 5,80 before payment. She has no written cost sheet. The cases arrive in six weeks, and she has already promised a store 1.500 units at R$ 9. She must find the true cost per unit and decide whether the promise still makes sense.",
-"First, write a landed cost sheet with one line for each cost: goods, freight, insurance, taxes, port and broker fees, and local transport. Ask the broker for each value in writing, and check the current official text for the tax rules that apply to this product. Next, convert the dollar costs at the rate expected on the payment day, not the old rate. Then divide the total by 2.000 units to get the cost per unit. Compute the goods and freight: USD 2.100 at R$ 5,50 is R$ 11.550, and at R$ 5,80 it is R$ 12.180, so the rate change alone adds R$ 630, or about R$ 0,32 per unit. Add the other lines and compare the result with the R$ 9 price. Last, decide to renegotiate the price, change the quantity, or protect the margin. Records: invoice, packing list, broker quote, bank exchange receipt. Standard: no price is promised before a full landed cost per unit exists."
-),
-'Tourist Automation': (
-"A small walking-tour company in the historic center of São Paulo takes bookings by messages, and the owner answers them by hand after work. Last month she received 140 requests, answered 95 within a day, and lost the rest. A tour costs the customer R$ 120, and each guide earns R$ 60 per tour. She is thinking of an automatic reply and booking form, but she worries it will confuse visitors who ask about accessibility, language, or rain. Two bookings were also doubled on the same Saturday morning because she tracked them on paper. She has a simple budget of R$ 400 for tools and wants a plan that keeps a human in charge of hard questions.",
-"First, list the 10 questions asked most often, such as price, meeting point, duration, language, and rain. Next, write a clear answer for each and set up an automatic reply that gives them and a booking link. Then build a single shared calendar so one slot cannot be sold twice, and test it with five friends before opening it. After that, add a rule that sends any question about accessibility, health, or a group over 12 people to the owner. Last, review weekly how many requests were answered in an hour and how many needed a person. Records: the question list, the booking log, the reply times, and the complaints. Re-compute: 45 lost requests at an assumed one in three booking is 15 tours, worth R$ 1.800 in sales and R$ 900 after paying guides. Standard: every request receives an answer within one hour, and no slot is booked twice. Respect visitor privacy and check the current official text on personal data."
-),
-'Online / AI Investment Management': (
-"A 34-year-old nurse in São Paulo earns R$ 5.200 a month and has saved R$ 18.000. An app that uses artificial intelligence sends her daily messages telling her what to buy, and her coworker boasts about a gain of 12 percent in one month. She is tempted to move all her savings into the app. She also has a debt of R$ 3.500 on a credit card. She does not know how the app makes its suggestions, who is responsible if it errs, or what she would do if the value fell by 20 percent the month her rent is due. She wants to learn how to judge a tool like this, not to receive a promise of profit.",
-"First, write down your goal, the date you need the money, and the loss you could accept without harm. Next, pay attention to the order of priorities: compare the card debt cost with any return, and keep an emergency reserve of several months of expenses before taking risk. Then ask the app six questions in writing: who runs it, how it is regulated, how it makes suggestions, what it charges, what the worst case is, and how to leave. Check the current official text and the regulator's register. After that, test with a very small amount, for example R$ 500, and record every decision and reason. Last, review monthly against your goal, not against a coworker. Re-compute: a 20 percent fall on R$ 18.000 is R$ 3.600, which is more than the card debt. Standard: never invest money that you need within the next year, and never rely on a gain being repeated. This is education, not advice."
-),
-'Universities': (
-"A public university campus in the west of São Paulo has 9.000 students, and its canteen and library serve many who work during the day. A student council reports that 22 percent of first-year students left in the first two semesters. A survey of 300 of them shows the main reasons: cost of transport at about R$ 330 a month, classes at times that clash with jobs, and difficulty with mathematics. The dean has a small fund of R$ 60.000 for the year and must choose how to use it. She wants a plan that can be measured, shared with the council, and checked after one year. She cannot copy a program from another country without testing whether it fits her students.",
-"First, define the problem as a number: 22 percent of the first-year class left, so with 2.000 new students that is about 440 people. Next, rank the survey reasons by how many students named them and pick the top two. Then design one small action for each: a tutoring group in mathematics, and a night section of the three hardest courses. Estimate each cost; for example, 10 tutors at R$ 600 a month for 8 months is R$ 48.000. After that, pilot the action with one group of 200 and compare their dropout rate with a similar group. Last, report results to the council each semester. Records: the survey data, the budget lines, attendance lists, and grade changes. Re-compute: if the pilot cuts dropout from 22 to 17 percent, 10 of 200 students stay. Standard: every action has an owner, a cost, a target number, and a review date, and student data is handled with care."
-),
-'Technical & Vocational Schools': (
-"A technical school in Guarulhos, near São Paulo, trains 120 students a year as electricians. The course costs the school R$ 2.400 per student, and 70 percent of graduates find work within six months. Local employers say graduates know theory but cannot read a simple wiring plan or test a circuit safely. The school has one workshop with 8 benches for 30 students, so each learner gets about 40 minutes of hands-on time a week. The coordinator has a budget of R$ 15.000 to improve the course and wants to match skills to what employers need. She must choose between new equipment, more workshop hours, or a visit program with local firms.",
-"First, interview at least eight local employers and list the five tasks they most want a new electrician to do. Next, compare that list with the course plan and mark each task as taught, partly taught, or missing. Then set a measurable skill test for each missing task, such as reading a plan and testing a circuit in 20 minutes with the correct safety steps. After that, use the R$ 15.000 on the largest gap: if hands-on time is the barrier, adding a second shift would raise workshop time from 40 to 80 minutes per student. Pilot the change with one class. Last, track job placement at six months and employer comments. Records: the interview notes, the skills matrix, the test results, and placement data. Re-compute: 70 percent of 120 is 84 graduates employed; a rise to 80 percent is 96. Standard: every graduate passes the safety test before leaving. Check the current official text for training rules."
-),
-'Sustainability Management': (
-"A bakery with 14 employees in Pinheiros, São Paulo, spends R$ 3.800 a month on electricity and throws away about 60 kilograms of unsold bread each week. The owner wants to be more sustainable, but he sees only costs. A friend suggests new ovens at R$ 28.000, which he cannot afford. He has never measured how much energy each oven uses or what food is wasted by product. A nearby shelter might accept some unsold bread if it is handled safely, and a recycling cooperative collects cardboard. He needs a plan that saves money first, uses simple measurement, and avoids empty promises to customers about being green. He has two weeks to start.",
-"First, measure for four weeks: weigh the unsold bread each day by product, and read the electricity meter at opening and closing. Next, rank the waste and the energy use to find the biggest items. Then act on the cheapest first: bake smaller batches of the products with the most waste, switch off ovens during the idle hours, and send cardboard to the cooperative. After that, ask the shelter about safe handling rules and check the current official text on food donation. Pilot for another four weeks and compare. Last, publish only the numbers you can prove. Records: the daily waste sheet, the meter readings, the donation receipts, and the electricity bills. Re-compute: 60 kilograms a week is 240 kilograms a month; if batches shrink and waste falls by a quarter, 60 kilograms a month are saved. Standard: every claim made to customers is supported by a record."
-),
-'Drones': (
-"A small surveying company in São Paulo wants to use a drone to inspect rooftops for leaks. A manual inspection of one building takes two workers a full day and costs R$ 900, and it puts them at height. The drone costs R$ 7.500, and a trained pilot would charge about R$ 350 a day. The owner expects to inspect 4 buildings a month. He has never flown one, does not know the rules for flying over people or near airports, and has not asked clients for permission to record images. A neighbor already flew a drone over a building site and received a complaint about privacy. He needs a safe, legal and honest plan.",
-"First, check the current official text of the aviation authority's rules and the airspace authority's rules for the drone type and the place, including registration, height limits, and distance from people and airports. Next, choose a trained pilot and keep their proof of training. Then write a flight plan for each job: place, date, weather, battery level, route, and a safety area closed to people. After that, ask each client for written permission and explain how images will be stored and deleted, in line with the data protection rules. Test on one building and compare the findings with a manual check. Last, review every flight in a short log. Records: permissions, pilot proof, flight plans, flight logs, and incidents. Re-compute: manual inspection of 4 buildings costs R$ 3.600 a month; with a pilot it is R$ 1.400 before data and upkeep. Standard: no flight without a written plan and permission."
-),
-'Distribution Companies': (
-"A small distribution company in Osasco, near São Paulo, delivers drinks and snacks to 90 shops using three vans. Monthly fuel and driver costs are R$ 21.000, and the vans make about 1.350 stops. Lately 8 percent of deliveries arrive late, and two shops have asked for credit notes of R$ 450 each because of damaged boxes. Drivers plan their own routes, and the owner has no record of the stops, time, or damage. He can spend R$ 2.500 on route software or give the planning to the best dispatcher. He wants to lower the cost per stop and improve punctuality without hiring more staff, and he must show his partner clear numbers.",
-"First, compute the base: R$ 21.000 divided by 1.350 stops is about R$ 15,56 per stop. Next, record every delivery for two weeks with the planned time, the arrival time, the kilometers, and any damage. Then group the shops by area and time window, and redraw the routes so vans do not cross the same streets. After that, test the new routes for two weeks with one van, and compare late deliveries and kilometers with the old routes. Add a simple check of box loading to cut damage. Last, decide on the software only if the dispatcher's plan does not meet the target. Records: the delivery log, route maps, damage reports, and credit notes. Re-compute: 8 percent late is 108 stops; if routes cut it to 4 percent, 54 stops improve, and two credit notes cost R$ 900. Standard: the cost per stop and the late rate are reviewed every month."
-),
-}
+LONG = {'Construction Safety Management': ('A safety consultancy in São Paulo serves 8 building sites a '
+                                    'month at R$ 6.500 per site. Technician time, printed '
+                                    'checklists and transport cost R$ 3.000 per site, and the '
+                                    'office, tools and insurance cost R$ 12.000 a month. Profit is '
+                                    '8 x R$ 3.500 - R$ 12.000 = R$ 16.000. Last week a worker at a '
+                                    'client renovation job in Mooca slipped from a plank four '
+                                    'meters up and caught the rail by luck; the harness was still '
+                                    'in the van, and three near misses this month were only told '
+                                    'by voice. The client says he may leave. The consultancy must '
+                                    'decide what to inspect, who signs, and how to prove care.',
+                                    'First, list every task done at height and name the worker who '
+                                    'does it. Next, use a one-page checklist for scaffold, planks, '
+                                    'rails and harnesses; the foreman signs before each shift and '
+                                    'each worker signs the short talk. Then record every near miss '
+                                    'the same day: time, place, cause, fix. Last, review the log '
+                                    'each Friday with one owner and one date per fix. Keep '
+                                    'checklists, training sheets, equipment issue lists, the '
+                                    'near-miss log and repair photos. Re-compute the cost: a daily '
+                                    'check visit adds R$ 500 per site, so cost becomes R$ 3.500 '
+                                    'and contribution R$ 3.000; at 8 sites profit is R$ 12.000, '
+                                    'against R$ 16.000. Losing one site costs R$ 3.500 a month, so '
+                                    'a price of R$ 7.000 restores the margin. Break-even is R$ '
+                                    '12.000 / R$ 3.500 = 3,43, so 4 sites. For exact duties check '
+                                    'the current official text of the Brazilian safety rules. Also '
+                                    'state the standard to meet: no one works at height until the '
+                                    'signed check exists for that day.'),
+ 'Sensor Manufacture': ('A small electronics workshop in Santo Amaro, São Paulo, builds '
+                        'temperature sensors for cold rooms in supermarkets. It makes 400 sensors '
+                        'a month and sells each for R$ 260, with a total variable cost of R$ 150 '
+                        'per sensor. Fixed cost is R$ 30.000 a month, so profit is 400 x R$ 110 - '
+                        'R$ 30.000 = R$ 14.000. Last month 36 sensors came back because readings '
+                        'drifted by more than 1 degree after two weeks. The owner suspects the '
+                        'cheaper solder paste, bought to save R$ 3 per sensor, but she has no '
+                        'batch records and cannot prove it. Two customers threaten to cancel. She '
+                        'has one technician and a reference thermometer, and she must find the '
+                        'cause without raising prices.',
+                        'First, write a batch record for every lot: paste lot number, date, '
+                        'station, who built it, test result. Next, compare the 36 returned units '
+                        'with the lot numbers and test ten sensors from the cheaper paste and ten '
+                        'from the old one against the reference thermometer. Then replace the '
+                        'faulty units for the two customers and keep the proof. The returns cost '
+                        '36 x R$ 150 = R$ 5.400 in replacement, while the paste saved only 400 x '
+                        'R$ 3 = R$ 1.200. Net effect is a loss of R$ 4.200 a month, so profit '
+                        'really is R$ 8.600. If the old paste is restored, profit returns to R$ '
+                        '14.000 less R$ 1.200. Standard: no lot ships without a signed test sheet. '
+                        'Break-even is R$ 30.000 / R$ 110 = 272,73, so 273 sensors. Then set a '
+                        'rule: a rejected sensor is reworked once, logged, and never sold as new. '
+                        'If rework recovers half of the 36 returns, the loss drops by 18 x R$ 150 '
+                        '= R$ 2.700 a month.'),
+ 'Internet Infrastructure': ('A small colocation provider in Barra Funda, São Paulo, rents 60 '
+                             'racks at R$ 1.800 per rack a month. Power and cooling cost R$ 700 '
+                             'per rack, and the lease, staff and uplink cost R$ 50.000 a month, so '
+                             'profit is 60 x R$ 1.100 - R$ 50.000 = R$ 16.000. Every evening '
+                             'between 8 and 10 the room temperature rises, two customers had an '
+                             'outage last month, and support receives about 45 calls. A customer '
+                             'wants 10 more racks, but the owner would need a second cooling unit '
+                             'and a new cage costing R$ 8.000 a month more in fixed cost. His one '
+                             'technician has never logged temperature or load, and nobody knows if '
+                             'the cause is airflow, a switch or a few heavy racks.',
+                             'First, log temperature and power per row for two weeks, with time '
+                             'and date, so the cause is measured. Next, fix airflow with blanking '
+                             'panels and cable tidy-up before buying anything. Then check the new '
+                             'cage: ten racks add 10 x R$ 1.100 = R$ 11.000 of contribution '
+                             'against R$ 8.000 of fixed cost, a net gain of R$ 3.000 a month. '
+                             'Break-even for the cage is R$ 8.000 / R$ 1.100 = 7,27, so 8 racks. '
+                             'Profit would rise from R$ 16.000 to R$ 19.000. Losing two racks to '
+                             'outages would cost R$ 2.200 a month. Keep records: temperature logs, '
+                             'outage notes, customer messages and signed capacity limits. Check '
+                             'the current official text of any rules before promising uptime. '
+                             'Review the logs every Friday with the technician and agree one '
+                             'change at a time, so the effect of each can be seen. A 10 percent '
+                             'price rise on new contracts would add R$ 180 per rack.'),
+ 'International Trade': ('A small trading firm in Brás, São Paulo, sells 4 imported-goods '
+                         'shipments a month, delivered to stores, at R$ 25.000 per shipment. The '
+                         'owner planned a cost of USD 3.400 per shipment at R$ 5,50, or R$ 18.700, '
+                         'and assumed that was almost everything. Then the broker added taxes, '
+                         'port charges and local transport of R$ 1.280, and the dollar moved to R$ '
+                         '5,80 before payment, so goods cost R$ 19.720. Fixed cost is R$ 9.000 a '
+                         'month for staff, office and software. She has no written cost sheet and '
+                         'has already promised a store 4 shipments at R$ 25.000 for the coming '
+                         'month. She must find the true cost per shipment and decide if the '
+                         'promise still makes sense.',
+                         'First, build a cost sheet per shipment: goods USD 3.400 x R$ 5,80 = R$ '
+                         '19.720, taxes, port and transport R$ 1.280, total R$ 21.000, which is '
+                         'the variable cost of R$ 21.000. Next, compare with her first belief: R$ '
+                         '18.700, which would have given contribution R$ 6.300 and profit R$ '
+                         '16.200. The real contribution is R$ 4.000 per shipment, so profit is 4 x '
+                         'R$ 4.000 - R$ 9.000 = R$ 7.000. Break-even is R$ 9.000 / R$ 4.000 = '
+                         '2,25, so 3 shipments. The promise still makes sense, but each R$ 0,10 '
+                         'rise in the dollar costs 3.400 x R$ 0,10 = R$ 340 per shipment. Keep '
+                         'invoices, bills of lading, the exchange rate on the payment day and the '
+                         "broker's final account. Check the current official text for import "
+                         'rules. Update the sheet on every payment day and keep a note of the '
+                         'exchange rate used. If the dollar rose a further R$ 0,20, each shipment '
+                         'would cost R$ 680 more, leaving contribution of R$ 3.320.'),
+ 'Tourist Automation': ('A small tourism company in the historic center of São Paulo handles 500 '
+                        'tour bookings a month through messages, at R$ 60 per booking. Payment '
+                        'handling, guide coordination and support cost R$ 22 per booking, and '
+                        'tools plus staff cost R$ 12.000 a month, so profit is 500 x R$ 38 - R$ '
+                        '12.000 = R$ 7.000. Last month 680 requests arrived and the owner answered '
+                        'by hand after work. About 60 requests that were not answered within a day '
+                        'were lost, and two bookings were doubled on the same Saturday morning '
+                        'because she used paper. She is thinking of an automatic reply and booking '
+                        'form, but fears it will confuse visitors who ask about accessibility, '
+                        'language or rain. A tool would add R$ 400 a month to fixed cost.',
+                        'First, list the ten most common questions and write short replies; let '
+                        'anything about accessibility, language or rain go to a person. Next, use '
+                        'one booking form linked to a shared calendar so a slot cannot be sold '
+                        'twice. Then track three counts each week: requests, answered within a '
+                        'day, bookings. Re-compute the effect: recovering the 60 lost requests '
+                        'gives 60 x R$ 38 = R$ 2.280 of contribution, and the tool adds R$ 400 of '
+                        'fixed cost, a net gain of R$ 1.880 a month. New profit is R$ 8.880. '
+                        'Break-even moves to (R$ 12.400) / R$ 38 = 326,32, so 326 bookings. Keep '
+                        'the message log and the booking calendar as records. Review the replies '
+                        'monthly with the guides. Review accessibility and rain questions with the '
+                        'guides every month. If only half of the lost requests are recovered, 30 x '
+                        'R$ 38 = R$ 1.140 is still above the tool cost of R$ 400.'),
+ 'Online / AI Investment Management': ('A small firm in São Paulo sells a monthly subscription to '
+                                       'an app that uses artificial intelligence to track a model '
+                                       'portfolio. It has 300 clients at R$ 95 a month; data, '
+                                       'hosting and support cost R$ 25 per client, and fixed cost '
+                                       'is R$ 20.000 a month, so profit is 300 x R$ 70 - R$ 20.000 '
+                                       '= R$ 1.000. A 34-year-old nurse earning R$ 5.200 a month '
+                                       'read the daily messages as instructions and moved all of '
+                                       'her R$ 18.000 savings; the value fell 20 percent, a loss '
+                                       'of R$ 3.600, and she complained. She also had a R$ 3.500 '
+                                       'card debt. The owner does not know how to word the '
+                                       'messages, who reviews them, or what to record. He wants to '
+                                       'teach people to judge a tool, not to promise profit.',
+                                       'First, rewrite every daily message so it states that it is '
+                                       'an example from a model, that results can be negative and '
+                                       "that the app does not know the reader's situation. Next, "
+                                       'add a risk page with a 20 percent fall example and a debt '
+                                       'check before any real money. Then log every message, '
+                                       'version and approval, so a reviewer can be shown. '
+                                       'Re-compute: a human reviewer adds R$ 1.400 a month, so '
+                                       'fixed cost is R$ 21.400 and profit is 300 x R$ 70 - R$ '
+                                       '21.400 = R$ -400. Break-even is R$ 21.400 / R$ 70 = '
+                                       '305,71, so 306 clients, 6 more than today. Refunding the '
+                                       'nurse for one year would cost 12 x R$ 95 = R$ 1.140. Check '
+                                       'the current official text on who may recommend '
+                                       'investments. Offer the nurse a plain explanation of the '
+                                       'loss and a link to the risk page; do not promise any '
+                                       'return. Keep each approval signed with a date.'),
+ 'Universities': ('A private university campus in the west of São Paulo enrolls 120 student terms '
+                  'a month at R$ 4.800 per student term. Teaching and materials cost R$ 2.600 per '
+                  'student term, and rooms, staff and library cost R$ 90.000 a month, so profit is '
+                  '120 x R$ 2.200 - R$ 90.000 = R$ 174.000. A student council reports that 22 '
+                  'percent of first-year students leave in the first two semesters. A survey of '
+                  '300 of them shows the main reasons: transport at about R$ 330 a month, classes '
+                  'that clash with jobs, and difficulty with mathematics. The dean has a fund of '
+                  'R$ 60.000 for the year. She wants a plan that can be measured, shared with the '
+                  'council and checked after one year, and she cannot copy a program from another '
+                  'country without testing it.',
+                  'First, set the baseline: 22 percent of 120 is 26,4 student terms lost each '
+                  'month, worth 26,4 x R$ 2.200 = R$ 58.080 of contribution. Next, test two '
+                  'measures on one group each: a mathematics support class and evening sections '
+                  'for working students. Then measure dropout again after two semesters. If the '
+                  'plan cuts dropout by 5 points, that keeps 6 student terms, worth 6 x R$ 2.200 = '
+                  'R$ 13.200 a month, so the fund of R$ 60.000 pays back in R$ 60.000 / R$ 13.200 '
+                  '= 4,55 months. Break-even stays R$ 90.000 / R$ 2.200 = 40,91, so 41 student '
+                  'terms. Keep survey data, attendance sheets and results by group. Check the '
+                  'current official text on student support before promising any transport aid. '
+                  'Share the baseline and the results with the council each semester, and stop any '
+                  'measure that does not move dropout. Each retained student term is worth R$ '
+                  '2.200 a month to the campus.'),
+ 'Technical & Vocational Schools': ('A technical school in Guarulhos, near São Paulo, trains 90 '
+                                    'electrician learners at R$ 600 per learner a month. '
+                                    'Instructor hours and materials cost R$ 280 per learner and '
+                                    'fixed cost is R$ 25.000 a month, so profit is 90 x R$ 320 - '
+                                    'R$ 25.000 = R$ 3.800. Only 70 percent of graduates find work '
+                                    'within six months. Local employers say graduates know theory '
+                                    'but cannot read a simple wiring plan or test a circuit '
+                                    'safely. The school has one workshop with 8 benches for 30 '
+                                    'learners at a time, so each learner gets about 40 minutes of '
+                                    'hands-on time a week. The coordinator has R$ 15.000 to '
+                                    'improve the course and must choose between new equipment, '
+                                    'more workshop hours or a visit program with local firms.',
+                                    'First, ask five employers to name three tasks they test and '
+                                    'turn them into a practical exam. Next, count bench use: 8 '
+                                    'benches over 30 learners leaves most learners waiting, so add '
+                                    'evening workshop hours before buying equipment. Then compare '
+                                    'options by learners kept and placed. If extra hours let the '
+                                    'school take 20 more learners, contribution rises by 20 x R$ '
+                                    '320 = R$ 6.400 a month, and R$ 15.000 pays back in R$ 15.000 '
+                                    "/ R$ 6.400 = 2,34 months. Today's break-even is R$ 25.000 / "
+                                    'R$ 320 = 78,12, so 79 learners, and 90 is only 11 above it. '
+                                    'Keep attendance, practical marks and a placement list at six '
+                                    'months. Check the current official text for course approval '
+                                    'and safety rules. If instead the school bought equipment at '
+                                    'R$ 15.000 without adding learners, there would be no added '
+                                    'contribution, so extra hours and employer visits come first. '
+                                    'Review the exam results every term with the coordinator and '
+                                    'two employers.'),
+ 'Sustainability Management': ('A bakery with 14 employees in Pinheiros, São Paulo, spends R$ '
+                               '3.800 a month on electricity and throws away about 60 kilograms of '
+                               'unsold bread each week. The owner wants to be more sustainable but '
+                               'sees only costs. A friend suggests new ovens at R$ 28.000, which '
+                               'he cannot afford. A consultancy offers a full assessment at R$ '
+                               '9.000, and it would cost the consultancy R$ 3.500 to deliver. A '
+                               'nearby shelter might accept some unsold bread if it is handled '
+                               'safely, and a cooperative collects cardboard. He needs a plan that '
+                               'saves money first, uses simple measurement and avoids empty '
+                               'promises to customers. He has two weeks to start.',
+                               'First, measure: read the meter for each oven, weigh the unsold '
+                               'bread daily and note what is left by product. Next, test low-cost '
+                               'actions: door seals, switching ovens off between batches, baking '
+                               'smaller later batches. If the assessment finds 15 percent on '
+                               'electricity, R$ 570, and cuts waste by 40 percent of 260 kilograms '
+                               'a month at R$ 8 per kilogram, R$ 832, the saving is R$ 1.402 a '
+                               'month. The R$ 9.000 assessment pays back in R$ 9.000 / R$ 1.402 = '
+                               '6,42 months, while the R$ 28.000 ovens would need 20,0 months. For '
+                               'the consultancy, contribution is R$ 5.500 per assessment. Keep '
+                               'bills, weighing logs and shelter receipts. Check the current '
+                               'official text for food donation rules. Review the figures after '
+                               'the first month, then after three. For the consultancy, 6 '
+                               'assessments give profit of R$ 18.000 and break-even is R$ 15.000 / '
+                               'R$ 5.500 = 2,73, so 3 assessments.'),
+ 'Drones': ('A small surveying company in São Paulo wants to use a drone to inspect rooftops for '
+            'leaks. A manual inspection of one building takes two workers a full day and costs the '
+            'client R$ 4.000, and it puts them at height. The company would charge R$ 2.500 per '
+            'flight job. A trained pilot, batteries, processing and travel cost R$ 900 per job, '
+            'and the drone, insurance and software cost R$ 12.000 a month in fixed cost, with the '
+            'drone bought for R$ 7.500. The owner expects 12 jobs a month. He has never flown one, '
+            'does not know the rules for flying over people or near airports, and has not asked '
+            'clients for permission to record images. A neighbor who flew over a building site '
+            'received a complaint about privacy.',
+            'First, check the current official text of the Brazilian drone rules: registrations, '
+            'areas, height limits and permission to record. Next, get written permission from each '
+            'building owner and note neighbours. Then fly a checklist before every job and log '
+            'battery, weather and place. Re-compute: contribution is R$ 1.600 per job, so 12 jobs '
+            'give R$ 19.200 and profit R$ 7.200. Break-even is R$ 12.000 / R$ 1.600 = 7,50, so 8 '
+            'jobs. The client saves R$ 1.500 per building. The drone purchase of R$ 7.500 is '
+            'repaid by 4,69 jobs of contribution. Keep the flight log, permissions and delivered '
+            'photos for each job, and never fly over people. Lastly, tell clients plainly what the '
+            'drone can and cannot see, and delete images that are not needed. Each reflight costs '
+            'about R$ 350, so log its cause and fix it at the source before the next job.'),
+ 'Distribution Companies': ('A small distribution company in Osasco, near São Paulo, delivers '
+                            'drinks and snacks to shops using three vans. It sells 60 route days a '
+                            'month at R$ 2.200 per route day, with 14 stops each, so 840 stops. '
+                            'Driver, fuel and helper cost R$ 1.500 per route day, and the '
+                            'warehouse and office cost R$ 30.000 a month, so profit is 60 x R$ 700 '
+                            '- R$ 30.000 = R$ 12.000. Lately 8 percent of deliveries arrive late, '
+                            'and two shops have asked for credit notes of R$ 450 each because of '
+                            'damaged boxes. Drivers plan their own routes, and the owner has no '
+                            'record of stops, times or damage. He can spend R$ 2.500 on route '
+                            'software or give the planning to the best dispatcher, and he must '
+                            'show his partner clear numbers.',
+                            'First, record every stop for two weeks: planned time, arrival, damage '
+                            "and reason. Next, test the best dispatcher's routes on one van "
+                            "against the drivers' routes on another. Then compute. Late stops are "
+                            '8 percent of 840, about 67 stops. The two credit notes cost 2 x R$ '
+                            '450 = R$ 900. If better routes cut variable cost by 5 percent, that '
+                            'is R$ 75 per route day, or R$ 4.500 a month, and R$ 2.500 of software '
+                            'pays back in 0,56 months. Profit would move from R$ 12.000 to R$ '
+                            '16.500. Break-even is R$ 30.000 / R$ 700 = 42,86, so 43 route days. '
+                            'Keep route sheets, delivery signatures and damage photos. Next, set a '
+                            'damage rule: photograph boxes at loading and at the door. A single '
+                            'credit note of R$ 450 equals 0,64 route days of contribution, so '
+                            'damage control pays directly. Review the numbers with the partner '
+                            'every month.')}

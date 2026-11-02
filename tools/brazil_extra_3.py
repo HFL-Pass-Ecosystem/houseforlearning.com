@@ -1,123 +1,606 @@
-EXTRA = {
-'Construction and Technical Services': {
-'offer': (
-'List three jobs you can finish well, such as bathroom waterproofing, outlet and breaker replacement or wall repair, and write what each one includes and excludes. Visit the site before quoting and photograph damp spots, cracks and wiring condition. Calculate materials, helper days, transport and waste for each job, then add a reserve for rework. Draft a one-page scope sheet with steps, drying time, delivery date and warranty period. Compare your price with two nearby builders. Check the current official text on technical responsibility, safety gear and licences before you accept any work beyond simple repairs.',
-'A bathroom waterproofing job needs R$ 380 in materials, two helpers for 3 days at R$ 75 per day, which is R$ 450, and R$ 70 in transport. Direct cost is R$ 380 + R$ 450 + R$ 70 = R$ 900. A 15 percent reserve for rework adds R$ 135, so total cost is R$ 1.035. To earn a 25 percent margin on the price, divide by 0.75: R$ 1.035 / 0.75 = R$ 1.380. The scope sheet shows this price.'),
-'people': (
-'Assign each helper one trade task, such as mixing mortar, laying tile or pulling conduit, and demonstrate the finished standard on a small sample wall. Draft a daily checklist for helmets, gloves, ladders, extension cords and site cleaning, and tick it before the first tool is lifted. Explain the work order aloud, then ask the helper to repeat it back. Evaluate every job with three questions: on time, clean, correct. Confirm visit times with the client by message, send progress photos and record each extra request in writing before doing it.',
-'One helper earns R$ 80 per day for a job of 6 days, so labour is R$ 80 x 6 = R$ 480. Teaching the checklist on day one costs half a day of output: R$ 80 x 0.5 = R$ 40. One repeat visit avoided saves R$ 70 in transport plus half a day lost, R$ 70 + R$ 40 = R$ 110. Net gain is R$ 110 - R$ 40 = R$ 70 on the first job and R$ 110 on each later job.'),
-'growth': (
-"Record every quote in a notebook or sheet with its value, real cost, days used and the client's comment. Calculate margin per job and the share of quotes that become contracts. Compare your best and worst job and explain the gap in materials, hours or rework. Ask satisfied clients for a referral and a written opinion. Plan maintenance visits twice a year for past clients, such as checking sealing and wiring. Review your price list every quarter against material receipts, and assess which service pays most per working day. Write down why you lost each rejected quote.",
-'In one month you sent 20 quotes and won 8, so the win rate is 8 / 20 = 40 percent. Revenue was 8 x R$ 1.800 = R$ 14.400 and direct costs were 70 percent of it, R$ 10.080. Margin is R$ 14.400 - R$ 10.080 = R$ 4.320, which is 30 percent. If better follow-up raises the win rate to 50 percent on the same 20 quotes, you win 10 jobs, and revenue becomes 10 x R$ 1.800 = R$ 18.000.'),
-},
-'Winery': {
-'offer': (
-'Choose the wine styles your vineyard and cellar can repeat every year, such as a young red, a dry white and a sparkling, and name one buyer for each: restaurants, gift shops or visitors. Work out what one bottle costs from grapes, glass, corks, labels, tank time, labour and breakage. Compare your shelf price with similar bottles in Sao Paulo shops. Plan tastings or small farm visits as part of the offer. Check the current official text on production registration, labelling, tax stamps and alcohol sales before you sell a single bottle.',
-'A batch of 1.000 bottles costs R$ 9.000 in grapes, R$ 4.500 in bottles, corks and labels, and R$ 3.500 in labour and energy. Total is R$ 9.000 + R$ 4.500 + R$ 3.500 = R$ 17.000, or R$ 17 per bottle. With 5 percent lost to breakage and spoilage you sell 950 bottles, so real cost per sellable bottle is R$ 17.000 / 950 = R$ 17,89. At a shelf price of R$ 45, each bottle leaves R$ 27,11 before taxes and selling costs.'),
-'people': (
-'Separate the cellar jobs by season: harvest pickers, a cellar worker for racking and cleaning, a bottling crew and a host for visitors. Write a one-page procedure for sanitising hoses, tanks and bottling equipment, and demonstrate each step once with the helper watching. Assess hygiene every day, because one dirty valve can spoil a whole tank. Practise a short tasting talk that names aroma, body and food pairing in plain words, without pressure to buy. Agree harvest days and pay in writing early, and check the current official text on seasonal work.',
-'The harvest is 12.000 kg. Six trained pickers cut 500 kg per person per day, so they finish in 4 days and cost 6 x R$ 150 x 4 = R$ 3.600. Untrained pickers cut 400 kg each, so the same fruit takes 12.000 / 2.400 = 5 days and costs R$ 4.500. Half a day of training costs 6 x R$ 150 x 0.5 = R$ 450. Net saving is R$ 4.500 - R$ 3.600 - R$ 450 = R$ 450.'),
-'growth': (
-'Keep a sales sheet for each channel: cellar door, restaurants, online orders and fairs. Record bottles sold, average price, unpaid invoices and the bottles left from each vintage. Evaluate which wine sells out first and which stays in the rack, then adjust the next batch. Build a list of repeat buyers, with their consent, and offer them a seasonal release. Visit each restaurant buyer every quarter with a tasting. Decide whether to age or discount slow bottles before they lose freshness. Review prices once a year against grape and glass costs.',
-'Last quarter you sold 240 bottles at the cellar door at R$ 52 and 160 bottles to restaurants at R$ 38. Door revenue is 240 x R$ 52 = R$ 12.480 and restaurant revenue is 160 x R$ 38 = R$ 6.080, total R$ 18.560. With a cost of R$ 19 per bottle, total margin is R$ 18.560 - (400 x R$ 19) = R$ 10.960. The door earns R$ 33 per bottle and restaurants R$ 19, so you plan two extra tasting days.'),
-},
-'Export and Import Business': {
-'offer': (
-'Pick one product, one origin country and one type of buyer, and write them in a single sentence. Request written quotes from two suppliers and compare unit price, minimum order and production time. Calculate the landed cost by adding product, freight, insurance, import taxes, customs agent, storage and the effect of the exchange rate. Draft an offer sheet with minimum order, price terms, delivery time and payment terms. Order a small sample before a full container. Check the current official text on import licences and tax treatment, and ask a qualified customs professional to confirm your figures.',
-'You plan to import 400 units at R$ 45 each, so the product costs R$ 18.000. Freight and insurance add R$ 2.800, import taxes R$ 5.200, and the customs agent and storage R$ 1.400. Landed cost is R$ 18.000 + R$ 2.800 + R$ 5.200 + R$ 1.400 = R$ 27.400, or R$ 68,50 per unit. To keep a 30 percent margin on the price, divide by 0.70: R$ 68,50 / 0.70 = R$ 97,86. Your offer sheet shows R$ 97,86 per unit.'),
-'people': (
-'Map each shipment step to one named contact: supplier, freight forwarder, customs broker, bank for payment and your buyer. Draft a document checklist covering invoice, packing list, transport document and certificates, and review it before goods leave the origin. Write short messages with a confirmed date and a photo of the loaded goods. Explain delays to the buyer the same day and offer options. Evaluate each partner on punctuality and accuracy after every shipment, and keep a backup contact for the broker and the forwarder. Save every agreement as a written message.',
-'A shipment depends on 3 partners: supplier, forwarder and broker. If each is on time 90 percent of the time, all three are on time with probability 0.90 x 0.90 x 0.90 = 0,729, so a delay happens with probability 0,271. With a checklist that lifts each partner to 97 percent, the chance of all being on time is 0.97 x 0.97 x 0.97 = 0,913. A delay costs R$ 1.500 in storage, so expected delay cost falls from R$ 406,50 to R$ 130,99.'),
-'growth': (
-'Open one file per shipment and record product cost, landed cost, selling price, days from order to cash and final margin. Compare results by supplier and by client, and evaluate which relationship gives the steadiest profit. Track the exchange rate on the order date and the payment date, because the gap moves your cost. Plan repeat orders with clients and yearly terms with suppliers. Count stock days, since unsold goods tie up cash. Add one related product only after the first line has paid back its costs. Check the current official text before you enter a new market.',
-'A shipment cost R$ 27.400 landed and sold for R$ 38.000 over 60 days. Margin is R$ 38.000 - R$ 27.400 = R$ 10.600, or 27,9 percent of the sale. If the exchange rate rises 5 percent between order and payment on the R$ 18.000 product part, you pay R$ 900 more. Margin falls to R$ 10.600 - R$ 900 = R$ 9.700, or 25,5 percent. You decide that your quotes stay valid for only 30 days.'),
-},
-'Financing Start-ups': {
-'offer': (
-'State the one problem you solve, for example helping a founder who needs a clear cash plan before asking anyone for money. List what you deliver: a monthly cash sheet, a comparison of funding paths and a checklist of documents. Compare the paths in plain words: own savings, a partner, bank credit, public programmes and grants, giving the cost and the risk of each. Calculate the hours you need to deliver each service. Never promise approval or returns. Check the current official text of any programme before you describe its rules.',
-'A founder needs R$ 25.000 and compares two credit offers over 10 months. Offer A has total repayments of R$ 29.500 and offer B has R$ 28.750. The extra cost of A is R$ 29.500 - R$ 25.000 = R$ 4.500 and of B is R$ 28.750 - R$ 25.000 = R$ 3.750. Offer B costs R$ 750 less in total. Monthly payment of B is R$ 28.750 / 10 = R$ 2.875, against R$ 2.950 for A. Check each contract before signing.'),
-'people': (
-'Prepare the founder for the questions a lender or partner will ask: what the money buys, who the customers are, what the monthly fixed costs are and how repayment will work. Practise a three-minute pitch aloud and record it on a phone. Create an index card with the five key numbers and rehearse stating each without reading. Explain risks openly, since trust weighs more than polish. Assess each rehearsal on clarity, numbers and calm. Identify who can review the plan, such as an accountant or a mentor, and book that conversation before the meeting.',
-'Before the pitch, the founder lists monthly fixed costs: rent R$ 1.800, utilities R$ 400, one salary R$ 2.500 and internet R$ 150. The total is R$ 1.800 + R$ 400 + R$ 2.500 + R$ 150 = R$ 4.850. With a gross margin of 40 percent on each sale, break-even sales are R$ 4.850 / 0.40 = R$ 12.125 per month. This is the number the founder must state without reading. If rent rises by R$ 200, break-even becomes R$ 12.625.'),
-'growth': (
-"After funds arrive, record every month the cash in, cash out, closing balance and the date of each repayment. Calculate runway by dividing cash in the bank by average net monthly spending. Compare actual results with the plan and write one line explaining each gap. Test every new expense with one question: does it bring a customer or save money soon? Send updated numbers to lenders and partners before a renewal talk, not after. Keep receipts and contracts in labelled folders. Never count on future sales to cover today's payments.",
-'A start-up has R$ 36.000 in the bank. Monthly sales are R$ 11.000 and monthly spending is R$ 17.000, so net cash use is R$ 17.000 - R$ 11.000 = R$ 6.000. Runway is R$ 36.000 / R$ 6.000 = 6 months. If you cut spending by R$ 1.500, net use becomes R$ 4.500 and runway becomes R$ 36.000 / R$ 4.500 = 8 months, which gives 2 extra months to win customers.'),
-},
-'Food Trucking': {
-'offer': (
-"Write a menu of five to seven items that one cook can finish in under three minutes from a prepared base. Name the signature item and the customer you serve: office workers at lunch, students or event crowds. Walk past nearby trucks and stalls and note their prices. Calculate each item's cost from ingredients, packaging, gas share and waste, then set prices that cover costs and profit. Test the menu for two weeks and drop the slowest sellers. Check the current official text on street food permits, vehicle rules and food handling before opening day.",
-'A sandwich costs R$ 8,40 in ingredients and R$ 1,60 in packaging and gas share, so direct cost is R$ 10. You want cost to be 32 percent of the price: R$ 10 / 0.32 = R$ 31,25. You round the price to R$ 31. If you sell 70 sandwiches in a day, revenue is 70 x R$ 31 = R$ 2.170 and direct cost is 70 x R$ 10 = R$ 700, leaving R$ 1.470 before staff, fuel and permits.'),
-'people': (
-'Split the truck into three stations: grill and assembly, cash and orders, and washing and stock. Write opening and closing routines on a card taped inside the truck. Demonstrate hand washing, glove use, fridge temperature checks and safe storage of raw meat, then assess each person with a practical test. Practise taking orders in a line of customers, repeating each order aloud before charging. Plan for rain and for a sick cook, naming who replaces whom. Time service per customer each week and aim to shorten it. Check the current official text on hygiene training.',
-'In a lunch peak of 80 minutes, service at 2,5 minutes per customer serves 80 / 2,5 = 32 customers. After you redesign the station, service takes 2 minutes and you serve 80 / 2 = 40 customers, 8 more. At an average ticket of R$ 27, the extra sales are 8 x R$ 27 = R$ 216 per lunch peak, or R$ 1.080 over five working days.'),
-'growth': (
-'Fill in a daily card with customers served, average ticket, items sold, leftover food and the spot used. Compare spots by profit per hour, not by the size of the crowd. Ask regular customers, with consent, for a phone number to announce your next position. Plan weekly specials, stamp cards and agreements with nearby offices to keep them returning. Check ingredient prices monthly and adjust portions before you adjust the price. Set aside money for tyres, gas and engine repairs. Add a second shift or spot only after two months of steady margins.',
-'At spot A you sell R$ 1.800 in 6 hours with R$ 900 of costs. Profit is R$ 1.800 - R$ 900 = R$ 900, or R$ 150 per hour. At spot B you sell R$ 1.100 in 3 hours with R$ 440 of costs. Profit is R$ 1.100 - R$ 440 = R$ 660, or R$ 220 per hour. Spot B pays R$ 70 more per hour, so you use the 3 hours saved to test a third spot.'),
-},
-'Bed and Breakfast Business': {
-'offer': (
-'Choose the feature that sets your house apart, such as a quiet garden, a homemade breakfast or a walk to a metro station, and describe the guest who values it. List what the price covers: room, breakfast, towels, internet and neighbourhood tips. Compare nightly prices of similar stays nearby. Add up the cost of one guest-night from laundry, cleaning, breakfast, energy and platform commission. Draft house rules and a cancellation policy in plain words. Check the current official text on lodging registration, taxes and guest registration before you accept the first booking. Photograph each corner of the room for your listing.',
-'One room has these costs per guest-night: breakfast R$ 14, cleaning and laundry R$ 38 and energy and water R$ 9, so variable cost is R$ 14 + R$ 38 + R$ 9 = R$ 61. You set the price at R$ 220, so each night contributes R$ 220 - R$ 61 = R$ 159. Monthly fixed costs for the room are R$ 1.800. Break-even is R$ 1.800 / R$ 159 = 11,32, so you need 12 occupied nights each month.'),
-'people': (
-'Walk through the guest journey and mark who handles each moment: welcome, room turnover, breakfast, repairs and message replies. Photograph the made-up room from the door and use the photo as the cleaning standard. Practise a five-minute check-in: greet, show the house, give the wifi code and hand over keys. Set a reply time for messages and keep to it. Read guest comments each Friday and fix one item the next week. Protect guest privacy by keeping documents and phone numbers locked away, and share them with no one. Keep spare keys and linen in a labelled cupboard.',
-'A cleaner needs 90 minutes to turn a room without a checklist and 60 minutes with one. At R$ 22 per hour, the cost falls from 1,5 x R$ 22 = R$ 33 to 1 x R$ 22 = R$ 22, saving R$ 11 per turnover. With 14 turnovers a month, savings are 14 x R$ 11 = R$ 154. Over 12 months that is R$ 1.848, and fewer guests find a missed item.'),
-'growth': (
-'Count nights sold and nights available each week, and divide to find occupancy. Chart average nightly price and revenue per available night side by side. Compare weekdays with weekends and holidays, then test a lower weekday price for one month. Reply politely to every review, including critical ones, and note repeated complaints. Offer returning guests a direct booking and a small welcome-back gesture. Put aside money each month for paint, linen and repairs. Improve one room completely before you add another. Write down what changed and why each time you adjust a price.',
-'In a 31-night month your room was occupied 19 nights at R$ 210. Occupancy is 19 / 31 = 61,3 percent, and revenue is 19 x R$ 210 = R$ 3.990. Revenue per available night is R$ 3.990 / 31 = R$ 128,71. A weekday offer at R$ 175 fills 4 more nights and adds 4 x R$ 175 = R$ 700. New revenue is R$ 4.690 and occupancy becomes 23 / 31 = 74,2 percent.'),
-},
-'Hostel or Hotel Business': {
-'offer': (
-'Pick one guest type, such as budget travellers, business visitors or student groups, and build the rooms around it. Decide the bed mix: dormitory beds fill fast, private rooms earn more per night. List shared spaces and services, for example kitchen, luggage storage and laundry. Compare price, ratings and distance to transport for five nearby places. Total the cost behind each occupied bed from staff, cleaning, utilities, repairs and booking commission. Draft rules for quiet hours, cancellation and lockers. Check the current official text on lodging registration, fire safety, accessibility and guest records.',
-'A hostel has 24 beds. The average price is R$ 75 per bed per night and monthly costs are R$ 32.000. Break-even is R$ 32.000 / R$ 75 = 426,7, so 427 occupied bed-nights. Available bed-nights in 30 days are 24 x 30 = 720. Break-even occupancy is 427 / 720 = 59,3 percent. At 55 percent occupancy, revenue is 0.55 x 720 x R$ 75 = R$ 29.700, which is R$ 2.300 short of costs.'),
-'people': (
-'Draw a weekly grid of the 168 hours and mark who covers the desk, cleaning and repairs in each block. Identify the skills the desk needs: welcoming, a second language, calm answers and basic first aid. Write routines for check-in, room inspection and a night emergency, then rehearse the emergency with the team. Assess people with real cases, such as an overbooked night or a noisy dormitory. Explain that every guest gets the same respect. Watch for tired staff after long shifts. Check the current official text on working hours, rest periods and contracts.',
-'A desk open 24 hours needs 168 staffed hours per week. One person works 44 hours, so you need 168 / 44 = 3,82, rounded up to 4 people. At R$ 2.300 per month each, base wages are 4 x R$ 2.300 = R$ 9.200. If you staff the desk only 84 hours a week and use night self check-in, you need 84 / 44 = 1,91, rounded up to 2 people, costing R$ 4.600. The difference is R$ 4.600 per month.'),
-'growth': (
-'Log every booking by channel: your own site, platforms, groups and walk-ins. Calculate the commission or card fee on each and compare what you actually keep. Evaluate local events, school holidays and fairs to set prices by demand. Offer corporate rates to nearby companies and a guide-friendly rate to tour operators. Track repair requests and fix repeated ones at the root, such as a leaking shower. Test every price change for one month and write the result. Add rooms only when occupancy stays above break-even for several months. Keep a log of complaints about noise and bathrooms.',
-'A platform takes 16 percent of a R$ 300 room-night, so you keep R$ 300 x 0.84 = R$ 252. A direct booking at R$ 280 carries a 3 percent card cost, so you keep R$ 280 x 0.97 = R$ 271,60. The direct booking earns R$ 271,60 - R$ 252 = R$ 19,60 more despite the lower price. If 35 nights a month move from the platform to direct booking, you gain 35 x R$ 19,60 = R$ 686.'),
-},
-'Carpentry': {
-'offer': (
-'Pick the pieces you build best, such as made-to-measure wardrobes, kitchen cabinets, doors or repairs, and refuse work outside that list at first. Measure the room, sketch the piece and list the boards, hinges, rails and finish. Calculate cost from wood, hardware, varnish, electricity, blade wear, hours and delivery. Draft a quote with a drawing, materials, delivery date and payment steps. Build a small catalogue of standard items you can repeat. Check the current official text on wood origin documents, machine safety and business registration. Keep offcuts for small items so waste turns into sales, and record each reuse.',
-'A bookshelf uses R$ 310 in wood, R$ 55 in hardware and finish, and 14 hours of work valued at R$ 28 per hour, which is R$ 392. Adding R$ 40 for transport and waste, total cost is R$ 310 + R$ 55 + R$ 392 + R$ 40 = R$ 797. For a 30 percent margin on the price, divide by 0.70: R$ 797 / 0.70 = R$ 1.138,57. The quote to the customer is R$ 1.138,57.'),
-'people': (
-"Test your own skills in five steps: measuring, cutting, joining, sanding and fitting, and mark the one that slows you most. Teach an assistant by demonstrating a cut, guiding the first three, then watching alone. Post a safety card at the saw covering goggles, ear protection, dust mask, push stick and a clear floor, and check it each morning. Practise repeating the client's measures aloud and writing them on the quote. Use a final checklist for size, finish and fit before delivery, and warn clients early when wood or hardware is late.",
-'A helper paid R$ 90 per day cuts and sands for half a day on a piece, which frees 4 hours of your time. Those hours are worth 4 x R$ 28 = R$ 112. His half day costs R$ 90 x 0.5 = R$ 45. Net gain is R$ 112 - R$ 45 = R$ 67 per piece. Over 6 pieces a month, the helper adds 6 x R$ 67 = R$ 402.'),
-'growth': (
-'Time every job with a stopwatch or notebook: hours for cutting, assembly, finishing and installing. Compare the hours you quoted with the hours you used, and find the step where you lose time. Photograph finished pieces before delivery and ask the client for a short written opinion. Offer a free tightening visit after six months and use it to get referrals. Visit builders and design shops with your catalogue. Update your price list each month from wood receipts. Buy a new machine only when your records show it saves hours you can sell.',
-'Last month you finished 5 jobs with 60 quoted hours but 75 real hours. You lost 75 - 60 = 15 hours, worth 15 x R$ 28 = R$ 420. Next month you add 20 percent to estimated hours for jobs of the same type: 60 x 1.2 = 72 hours. The quotes rise by 12 hours x R$ 28 = R$ 336 across the five jobs, and the gap to real hours shrinks to 3 hours.'),
-},
-'Event Organization and Management': {
-'offer': (
-"Choose the event type you will run, such as children's birthdays, small weddings or company meetings, and write the package for it: venue search, supplier list, schedule and day-of coordination. Visit two venues and ask for written quotes with date, capacity and rules. Calculate the package cost from supplier fees, your hours, transport and a contingency reserve. Draft a contract summary with deadlines, payment dates and the rule if the date moves. Check the current official text on venue permits, music rights, crowd safety and contracts before you sign anything.",
-'A 50-guest birthday package has supplier costs of R$ 7.500 for food, R$ 2.200 for the venue and R$ 1.200 for decoration, total R$ 10.900. A 10 percent contingency adds R$ 1.090, and 20 hours of your time at R$ 40 per hour add R$ 800. Total cost is R$ 10.900 + R$ 1.090 + R$ 800 = R$ 12.790. With a 20 percent margin on the price, divide by 0.80: R$ 12.790 / 0.80 = R$ 15.987,50, or R$ 319,75 per guest.'),
-'people': (
-'Build a run sheet in which every task has a start time, an owner and a phone number. Brief everyone for ten minutes the day before, then walk the venue together and mark entrances, power points and the kitchen route. Practise the opening hour with the team, since early mistakes spread. Ask each supplier for a reference and, if you can, visit a previous job. Name a backup for sound and food, the two items that stop a party. After the event, hold a short review and record what failed. Confirm every client decision in writing.',
-'Without a run sheet you need 7 helpers for 6 hours at R$ 25 per hour: 7 x 6 x R$ 25 = R$ 1.050. With a clear run sheet 6 helpers are enough: 6 x 6 x R$ 25 = R$ 900, saving R$ 150 per event. Over 12 events the saving is R$ 1.800. Writing the sheet takes 1,5 hours per event at R$ 40, which costs 12 x 1,5 x R$ 40 = R$ 720. Net gain is R$ 1.080.'),
-'growth': (
-'After each event, compare budget against real cost for food, venue, decoration and labour, and record guest numbers and supplier delays. Calculate profit per hour of your own work for every event type. Ask clients for feedback and, with their permission, photos. Send an anniversary reminder to past clients and offer a yearly company event. Keep a supplier sheet with prices, punctuality and notes. Review your fees twice a year. Check cash flow before paying large supplier deposits, and specialise in the event type that repeats most. Store signed budgets and invoices of each event in one folder.',
-'Last year weddings gave R$ 7.200 profit for 90 hours, which is R$ 7.200 / 90 = R$ 80 per hour. Company meetings gave R$ 3.000 profit for 24 hours, which is R$ 3.000 / 24 = R$ 125 per hour. If you move 60 hours from weddings to meetings, you earn 60 x R$ 125 = R$ 7.500 instead of 60 x R$ 80 = R$ 4.800, a gain of R$ 2.700, but only if demand for meetings exists.'),
-},
-'Franchise Business': {
-'offer': (
-'Write down what the contract actually gives you: brand use, method, training, supply and support, and what it takes away, such as fixed suppliers and territory limits. Compare at least three franchise options on entry cost, monthly royalty, marketing contribution, space and staff. Calculate sales, costs and break-even with cautious numbers, not the best unit shown. Ask for the disclosure circular and speak with current owners. Check the current official text on franchise disclosure, and have a qualified adviser read the contract. Treat any promise of profit as a warning sign.',
-'A franchise asks R$ 80.000 to start, plus 7 percent royalties and 2 percent marketing on sales. Expected monthly sales are R$ 55.000, so royalties and marketing are R$ 55.000 x 0.09 = R$ 4.950. Other monthly costs are fixed at R$ 38.000. Monthly result is R$ 55.000 - R$ 4.950 - R$ 38.000 = R$ 12.050 before taxes and owner pay. If sales are 20 percent lower at R$ 44.000, the result is R$ 44.000 - R$ 3.960 - R$ 38.000 = R$ 2.040, so test that case too.'),
-'people': (
-'List the daily jobs the manual requires: opening, service, cash count, stock order and closing, and mark which ones you will do yourself. Compare the training the franchisor offers with the skills you still lack, such as leading a shift or reading a daily cash report. Write a one-page routine for each shift and demonstrate it to new staff. Evaluate staff using the same measures the network uses. Keep written records of every request and answer exchanged with the franchisor. Check the current official text on employment obligations before you hire.',
-'A unit needs 4 employees at R$ 2.100 per month each. Assuming social charges of about 70 percent, which you must confirm in the current official text, the cost per employee is R$ 2.100 x 1,70 = R$ 3.570, and for 4 it is R$ 14.280 per month. If better scheduling removes one part-time shift paid R$ 1.100 per month, the monthly saving with charges is R$ 1.100 x 1,70 = R$ 1.870, or R$ 22.440 in a year.'),
-'growth': (
-"Set your unit's monthly break-even sales and plot actual sales against it. Record customer count, average ticket and complaints, and compare them with the network targets. Plan local marketing inside the franchise rules, such as partnerships with nearby schools or offices. Keep a consent-based list of regular clients. Mark the contract dates for renewal, transfer and territory on a calendar and prepare your numbers three months ahead. Consider a second unit only after steady results and a clear picture of your debts. Keep a cash reserve for slow months, and write down what you will do if sales fall.",
-'Your unit has monthly break-even sales of R$ 48.000. Actual sales over four months were R$ 45.000, R$ 49.000, R$ 52.000 and R$ 54.000. The average is R$ 200.000 / 4 = R$ 50.000. That is R$ 50.000 - R$ 48.000 = R$ 2.000 above break-even, or 4,2 percent. A fall of 4 percent from the average gives R$ 50.000 x 0.96 = R$ 48.000, which equals break-even, so you keep a cash reserve.'),
-},
-'Manufacturing Business': {
-'offer': (
-'Name the product, the buyer and the quality level you can repeat in every batch. Buy or borrow three competing samples and compare price, materials, finish and delivery time. Calculate unit cost from materials, labour, energy, machine time, packaging and scrap. Draft a product sheet with dimensions, materials, minimum order and lead time. Run a pilot batch and let real buyers test it before you commit to full production. Decide which steps to outsource. Check the current official text on product standards, labelling, environmental rules and tax treatment for your product.',
-'A batch of 250 pieces costs R$ 4.000 in materials, R$ 2.250 in labour, R$ 500 in energy and R$ 250 in packaging, total R$ 7.000. Scrap of 4 percent leaves 240 good pieces, so cost per good piece is R$ 7.000 / 240 = R$ 29,17. For a 35 percent margin on the price, divide by 0.65: R$ 29,17 / 0.65 = R$ 44,88. You set the wholesale price at R$ 45.'),
-'people': (
-'Write a work instruction for each station with photos of the correct and wrong result, and demonstrate it on the machine. Assess operators by watching one full cycle and measuring output against the standard. Train everyone on guards, lock-out of the power, noise, dust and safe lifting, and confirm protective gear is worn. Practise shift handover with a one-line log of problems and settings. Sort defects by cause, such as material, setting or handling, not by blame, and ask operators for fixes. Check the current official text on workplace safety and employment rules.',
-'A line makes 500 units per shift with 9 percent defects, so good units are 500 x 0.91 = 455. After clearer work instructions, defects fall to 6 percent: 500 x 0.94 = 470 good units, which is 15 more per shift. At a cost of R$ 16 per unit, you avoid 15 x R$ 16 = R$ 240 in waste per shift, or R$ 5.280 over 22 working days.'),
-'growth': (
-'Log each day the units made, hours run, defects, scrap weight, stoppages and on-time deliveries. Calculate cost per unit and compare it month to month, then find the biggest source of loss. Schedule maintenance on a calendar so stops are planned. Ask a second supplier for a quote on every critical material. Send customers a short quality report with each order and answer complaints within a day. Calculate free machine hours before accepting a large order. Improve yield and delivery first, and add a product or shift only when cash and machines allow.',
-'Your machine runs 176 hours a month at 18 units per hour, so maximum output is 176 x 18 = 3.168 units. Last month you made 2.200, which is 69,4 percent of capacity. A new customer wants 600 units monthly. The total would be 2.800 units, or 88,4 percent of capacity. At a contribution of R$ 11 per unit, the order adds 600 x R$ 11 = R$ 6.600 per month, leaving little room for breakdowns.'),
-},
-}
+EXTRA = {'Bed and Breakfast Business': {'growth': ('Record every booking with source, nights, room, price '
+                                           'and review score. Calculate occupancy by weekday and '
+                                           'by month and look for the empty nights. Test a midweek '
+                                           'offer for visiting workers and a weekend offer for '
+                                           'couples. Ask guests who liked the stay to leave a '
+                                           'written review and to book direct next time. Review '
+                                           'prices each season against what similar houses charge '
+                                           'and against your costs. Keep a notebook of guest '
+                                           'requests, such as an extra pillow, a late taxi or a '
+                                           'quiet room, and turn the repeats into standard '
+                                           'services, because small touches are what guests '
+                                           'mention in reviews.',
+                                           'This month you sold 90 room-nights out of 150, an '
+                                           'occupancy of 60 percent. Revenue is 90 x R$ 280 = R$ '
+                                           '25.200 and variable cost is 90 x R$ 90 = R$ 8.100. '
+                                           'After R$ 6.000 fixed cost, profit is R$ 11.100. A '
+                                           'midweek offer fills 15 more room-nights: 15 x R$ 190 = '
+                                           'R$ 2.850, so profit becomes R$ 13.950.'),
+                                'offer': ('Decide who your house is for, such as visiting '
+                                          'consultants, couples on weekends or cultural '
+                                          'travellers, and set one standard room-night price that '
+                                          'includes breakfast. Cost a night from breakfast food, '
+                                          'laundry and cleaning, water, energy and small '
+                                          'amenities. Compare your price with similar stays in '
+                                          'your neighbourhood and with a hostel and a hotel. '
+                                          'Photograph each room honestly and write house rules on '
+                                          'noise and check-in. Check the current official text on '
+                                          'lodging registration and safety before you accept '
+                                          'guests. Put the breakfast menu, check-in times and '
+                                          'parking details in a short welcome note that you send '
+                                          'the day before arrival, so guests know what to expect '
+                                          'and your first message sets the standard.',
+                                          'A house with 5 rooms offers 150 room-nights a month. '
+                                          'One room-night sells for R$ 280. Variable cost is R$ 28 '
+                                          'for breakfast, R$ 42 for laundry and cleaning and R$ 20 '
+                                          'for water, energy and amenities, so R$ 28 + R$ 42 + R$ '
+                                          '20 = R$ 90. Margin is R$ 190, or 67,9 percent. Fixed '
+                                          'cost is R$ 6.000 a month, so break-even is 6.000 / 190 '
+                                          '= 31,58, rounded up to 32 room-nights. At 90 '
+                                          'room-nights profit is R$ 11.100.'),
+                                'people': ('Teach the housekeeper a fixed room routine: strip, '
+                                           'wipe, restock, vacuum and a final look from the '
+                                           'doorway. Put a laminated checklist in the cleaning '
+                                           'cupboard and walk the first rooms together. Agree who '
+                                           'prepares breakfast, who answers late arrivals and who '
+                                           'handles repairs. Practise a calm reply to a complaint '
+                                           'about noise or a dirty bathroom. Keep a written rota '
+                                           'with pay and days off, and check the current official '
+                                           'text on household and hospitality staff. Walk through '
+                                           'a bad review together with the team once a month and '
+                                           'ask what could have prevented it. Staff who help find '
+                                           'the fix are far more likely to follow the new routine '
+                                           'than those who are only told.',
+                                           'Of 90 room-nights, about 60 are turnovers. A trained '
+                                           'cleaner turns a room in 35 minutes instead of 50, '
+                                           'saving 15 minutes x 60 = 900 minutes, or 15 hours. At '
+                                           'R$ 20 per hour that is R$ 300. Training takes 3 hours, '
+                                           'which costs R$ 60. Avoiding one free replacement night '
+                                           'after a cleanliness complaint protects R$ 280. Net '
+                                           'gain is R$ 300 + R$ 280 - R$ 60 = R$ 520.')},
+ 'Carpentry': {'growth': ('Keep a sheet of every quote with the piece, price, cost, days used and '
+                          'result. Call clients one week after sending a quote. Ask satisfied '
+                          'clients for a photo and a referral to designers or neighbours. Compare '
+                          'time per piece to find slow steps. Keep a small stock of common boards '
+                          'to avoid waiting for suppliers. Review prices each quarter against '
+                          'board and hardware costs. Photograph every finished piece in good light '
+                          'before delivery and keep the pictures with the job sheet. Good '
+                          'photographs bring new enquiries and also show you how your finish has '
+                          'improved over time.',
+                          'You sent 30 quotes and won 12, so the win rate is 12 / 30 = 40 percent. '
+                          'Revenue is 12 x R$ 1.800 = R$ 21.600 and variable cost is 12 x R$ 900 = '
+                          'R$ 10.800. After R$ 6.000 fixed cost, profit is R$ 4.800. A follow-up '
+                          'call lifts the win rate to 50 percent, which is 15 pieces, so profit '
+                          'becomes 15 x R$ 900 - R$ 6.000 = R$ 7.500, or R$ 2.700 more.'),
+               'offer': ('List three pieces you can build well, such as a made-to-measure table, a '
+                         'wardrobe door set or a shelf unit, and write what each includes, such as '
+                         'finish and delivery. Cost a piece from boards, hardware, finish, helper '
+                         "hours and transport. Visit the client's room, measure twice and agree "
+                         'the drawing before cutting. Quote a price per piece, with a deposit and '
+                         'a delivery date. Check the current official text on workshop '
+                         'registration and on wood sourcing. Keep your quote template to one page '
+                         'with a drawing, the wood or board type, the finish, the deposit and the '
+                         'delivery date. Clients who see exactly what they are buying argue less '
+                         'about price and changes.',
+                         'One piece sells for R$ 1.800. Variable cost is R$ 520 for boards and '
+                         'timber, R$ 180 for hardware and finish, R$ 150 for helper hours and R$ '
+                         '50 for delivery, so R$ 520 + R$ 180 + R$ 150 + R$ 50 = R$ 900. Margin is '
+                         'R$ 900, or 50 percent. Fixed cost is R$ 6.000 a month, so break-even is '
+                         '6.000 / 900 = 6,67, rounded up to 7 pieces. At 12 pieces profit is R$ '
+                         '4.800.'),
+               'people': ('Give the helper a defined task, such as sanding, drilling hinge holes '
+                          'or applying the first coat, and show the finished standard on a sample '
+                          'board. Build a drilling jig for repeat holes and teach its use. Check '
+                          'each cut against the cut list before assembly. Insist on glasses, ear '
+                          'protection and a dust mask. Agree hours, pay and delivery days in '
+                          'writing, and check the current official text on workshop helpers. Store '
+                          'tools on a marked board so a missing chisel is visible at a glance, and '
+                          'sharpen blades on a set day each week. A helper who cares for tools '
+                          'wastes less wood and works more safely.',
+                          'Before the jig, 2 of 12 pieces were remade, each wasting R$ 520 of '
+                          'boards and R$ 150 of helper time, which is R$ 670 per remake and R$ '
+                          '1.340 in all. After training only 1 was remade, or R$ 670. Saving is R$ '
+                          '1.340 - R$ 670 = R$ 670. Training took 3 hours at R$ 25, which is R$ '
+                          '75, so the net gain is R$ 595.')},
+ 'Construction and Technical Services': {'growth': ('Record every quote in a sheet with its value, '
+                                                    "expected cost, days used and the client's "
+                                                    'comment, and mark the ones you lost with the '
+                                                    'reason. Work out margin per job and the share '
+                                                    'of quotes that become contracts. Compare your '
+                                                    'best and worst jobs and ask what differed: '
+                                                    'access, delays or price. Call past clients '
+                                                    'after three months to ask about defects and '
+                                                    'referrals. Raise prices on jobs that are '
+                                                    'always late, and drop work that never covers '
+                                                    'its cost. Photograph every finished job with '
+                                                    'the date, and keep the delivery notes, since '
+                                                    'later disputes about extra work are settled '
+                                                    'by paper, not memory. Review the sheet on the '
+                                                    'last Friday of each month.',
+                                                    'In one month you sent 25 quotes and won 10, '
+                                                    'so the win rate is 10 / 25 = 40 percent. '
+                                                    'Revenue was 10 x R$ 7.500 = R$ 75.000 and '
+                                                    'variable cost 10 x R$ 5.000 = R$ 50.000. '
+                                                    'After R$ 14.000 fixed cost, profit is R$ '
+                                                    '11.000. A follow-up call to every quote lifts '
+                                                    'wins to 12 jobs: 12 x R$ 2.500 - R$ 14.000 = '
+                                                    'R$ 16.000, which adds R$ 5.000 a month.'),
+                                         'offer': ('Define three jobs you can finish well, such as '
+                                                   'bathroom waterproofing, flat rewiring or a '
+                                                   'rebuilt boundary wall, and write what each '
+                                                   'includes and excludes. Visit the site before '
+                                                   'quoting and photograph existing damage. Price '
+                                                   'one finished job, not hours, then list its '
+                                                   'materials, crew days and transport so the '
+                                                   'quote still protects you if a delivery is '
+                                                   'late. Show the client a schedule with stages '
+                                                   'and payment dates. Check the current official '
+                                                   'text on permits and technical responsibility '
+                                                   'before you accept work. Keep a list of '
+                                                   'exclusions, such as hidden pipes or old '
+                                                   'wiring, and promise to price them separately '
+                                                   'once found, so the client understands why a '
+                                                   'quote can change after opening a wall.',
+                                                   'One job is priced at R$ 7.500. Direct costs '
+                                                   'are R$ 2.900 in materials, two workers for 5 '
+                                                   'days at R$ 180 per day, which is R$ 1.800, and '
+                                                   'R$ 300 in transport and waste removal. Total '
+                                                   'is R$ 2.900 + R$ 1.800 + R$ 300 = R$ 5.000. '
+                                                   'Margin is R$ 7.500 - R$ 5.000 = R$ 2.500, or '
+                                                   '33,3 percent. With R$ 14.000 of fixed cost a '
+                                                   'month, break-even is 14.000 / 2.500 = 5,60, so '
+                                                   '6 jobs. At 10 jobs profit is R$ 11.000.'),
+                                         'people': ('Give each helper one trade task, such as '
+                                                    'mixing mortar, laying tile or pulling '
+                                                    'conduit, and demonstrate the finished '
+                                                    'standard on a sample wall before the real '
+                                                    'job. Draft a daily checklist for helmets, '
+                                                    'gloves, ladders and cable checks, and hold a '
+                                                    'five-minute talk each morning. Review a '
+                                                    'finished room together and let the helper '
+                                                    'name the faults. Agree day rates, overtime '
+                                                    'and payment dates in writing, and confirm the '
+                                                    'current official text on site workers and '
+                                                    'insurance. Pair each new helper with an '
+                                                    'experienced worker for the first week and let '
+                                                    'the helper explain each task back, so you '
+                                                    'learn who needs more practice before work at '
+                                                    'height or with power tools begins.',
+                                                    'Last month 3 of 10 jobs needed rework costing '
+                                                    'R$ 700 each, which is R$ 2.100. After a '
+                                                    'one-day training on the checklist, rework '
+                                                    'fell to 1 job, or R$ 700. Training cost 2 '
+                                                    'helpers x R$ 180 x 1 day = R$ 360. Saving is '
+                                                    'R$ 2.100 - R$ 700 = R$ 1.400, so the net gain '
+                                                    'in the first month is R$ 1.400 - R$ 360 = R$ '
+                                                    '1.040. Training pays back in 0,26 of a '
+                                                    'month.')},
+ 'Event Organization and Management': {'growth': ('Keep an event file with brief, quote, final '
+                                                  'budget, guest numbers and client comments. '
+                                                  'Compare quoted and real costs and find the '
+                                                  'lines that overran. Track enquiries, quotes and '
+                                                  'wins. Ask every client for a testimonial and a '
+                                                  'referral, and offer a repeat discount only on a '
+                                                  'booked date. Visit venues and caterers outside '
+                                                  'peak season to learn rates. Review the file '
+                                                  'before every new quote. Send a short thank-you '
+                                                  'note and a feedback form within two days, and '
+                                                  'record the answers beside the budget. Clients '
+                                                  'who feel heard are the ones who book again and '
+                                                  'recommend you to friends.',
+                                                  'You had 15 enquiries and booked 5 events, so '
+                                                  'the win rate is 33,3 percent. Revenue is 5 x R$ '
+                                                  '14.000 = R$ 70.000 and variable cost is 5 x R$ '
+                                                  '8.500 = R$ 42.500. After R$ 8.000 fixed cost, '
+                                                  'profit is R$ 19.500. A sixth booking from a '
+                                                  'repeat client brings profit to 6 x R$ 5.500 - '
+                                                  'R$ 8.000 = R$ 25.000, which is R$ 5.500 more.'),
+                                       'offer': ('Define one standard event you can run well, such '
+                                                 'as a corporate lunch for 80 guests, and list '
+                                                 'what is included: venue search, caterer, sound, '
+                                                 'decor, staff and a run-of-show. State what is '
+                                                 'excluded, such as extra hours. Build the price '
+                                                 'from supplier quotes and a contingency line, '
+                                                 'then add your own work. Ask for a deposit and '
+                                                 'write the cancellation terms. Check the current '
+                                                 'official text on venue permits, crowd safety and '
+                                                 'music before you sign. Visit the venue at the '
+                                                 'same hour as the event and note light, noise, '
+                                                 'loading access and the distance from kitchen to '
+                                                 'tables. A site visit often reveals extra hire or '
+                                                 'staff you would otherwise pay for on the day.',
+                                                 'One event is sold for R$ 14.000. Variable cost '
+                                                 'is R$ 5.200 for venue and catering, R$ 1.800 for '
+                                                 'sound and decor, R$ 1.000 for staff and R$ 500 '
+                                                 'for transport and contingency. That is R$ 5.200 '
+                                                 '+ R$ 1.800 + R$ 1.000 + R$ 500 = R$ 8.500. '
+                                                 'Margin is R$ 5.500, or 39,3 percent. Fixed cost '
+                                                 'is R$ 8.000 a month, so break-even is 8.000 / '
+                                                 '5.500 = 1,45, rounded up to 2 events. At 5 '
+                                                 'events profit is R$ 19.500.'),
+                                       'people': ('Write a run-of-show with times, names and phone '
+                                                  'numbers, and brief the whole crew an hour '
+                                                  'before doors open. Assign one lead for each '
+                                                  'area: registration, food, sound and guest care. '
+                                                  'Rehearse a late supplier, a power cut and a '
+                                                  'medical call. Agree overtime rules and pay in '
+                                                  'writing before the day. Collect feedback from '
+                                                  'the crew afterwards, and check the current '
+                                                  'official text on temporary staff and safety. '
+                                                  'Give every supplier a one-page contact and '
+                                                  'arrival sheet with parking and load-in times. '
+                                                  'Late deliveries are the most common cause of '
+                                                  'delay, and a clear sheet makes each supplier '
+                                                  'responsible for their slot.',
+                                                  'Without a written run-of-show, setup ran late '
+                                                  'and overtime cost 6 staff x 2 hours x R$ 50 = '
+                                                  'R$ 600 per event. A one-hour briefing costs 6 x '
+                                                  'R$ 40 = R$ 240. Net saving per event is R$ 600 '
+                                                  '- R$ 240 = R$ 360. Across 5 events the gain is '
+                                                  '5 x R$ 360 = R$ 1.800 a month.')},
+ 'Export and Import Business': {'growth': ('Track each shipment in a sheet with order date, '
+                                           'departure, arrival, clearance days, payment date and '
+                                           'final margin. Compare suppliers on delay and defects, '
+                                           'and buyers on payment time. Note which routes and '
+                                           'delivery terms cost more than quoted. Ask your best '
+                                           'buyer for a forecast of the next two quarters so you '
+                                           'can book space early. Review prices when freight or '
+                                           'exchange rates move more than you expected. Keep the '
+                                           'original documents and the payment proof for each '
+                                           'shipment in a folder named by order number, so a '
+                                           'customs query or a buyer dispute months later takes '
+                                           'minutes to answer.',
+                                           'In a quarter you handle 9 shipments at R$ 40.000. '
+                                           'Margin per shipment is R$ 6.000, so contribution is 9 '
+                                           'x R$ 6.000 = R$ 54.000. Fixed cost for 3 months is R$ '
+                                           '36.000, so profit is R$ 18.000. Adding a fourth '
+                                           'shipment each month gives 4 x R$ 6.000 - R$ 12.000 = '
+                                           'R$ 12.000 a month, up from R$ 6.000. The extra order '
+                                           'also ties up R$ 40.000 until the buyer pays.'),
+                                'offer': ('Pick one product line and one market where you already '
+                                          'have a reliable supplier, and define a standard '
+                                          'shipment, for example one container. Build the landed '
+                                          'cost from goods, freight, insurance, port and customs '
+                                          'broker charges, and haulage to the buyer. Quote the '
+                                          'buyer a delivered price with clear delivery terms and a '
+                                          'payment date. Ask the broker which documents and '
+                                          'permits the product needs and check the current '
+                                          'official text before you confirm an order. Ask two '
+                                          'brokers for a written quote on the same shipment, and '
+                                          'compare what is included: storage days, inspection, '
+                                          'document handling and delivery. Hidden extras are the '
+                                          'usual reason a margin disappears.',
+                                          'One shipment is sold for R$ 40.000. Variable cost is R$ '
+                                          '26.000 for goods, R$ 4.500 for freight and insurance, '
+                                          'R$ 2.200 for port and broker charges and R$ 1.300 for '
+                                          'haulage, so R$ 26.000 + R$ 4.500 + R$ 2.200 + R$ 1.300 '
+                                          '= R$ 34.000. Margin is R$ 40.000 - R$ 34.000 = R$ '
+                                          '6.000, or 15 percent. Fixed cost is R$ 12.000 a month, '
+                                          'so break-even is 12.000 / 6.000 = 2 shipments. At 3 '
+                                          'shipments profit is R$ 6.000.'),
+                                'people': ('Give one clerk the document file for each shipment and '
+                                           'teach a fixed order: purchase order, invoice, packing '
+                                           'list, bill of lading, certificate and broker '
+                                           'instructions. Check each page against the order before '
+                                           'it leaves the desk. Practise a call with the broker '
+                                           'and the carrier so you know who to phone when a '
+                                           'container is held. Write down cut-off dates for each '
+                                           'port and agree who covers when the clerk is away. Keep '
+                                           'a contact sheet for the broker, carrier, bank, buyer '
+                                           'and supplier, with office hours and time zones. A '
+                                           'clerk who knows who to call within five minutes saves '
+                                           'more than any software ever will.',
+                                           'A document error on one shipment held the container 2 '
+                                           'days at R$ 1.500 per day, which is R$ 3.000. Before '
+                                           'training this happened every month. After a one-day '
+                                           'course and a checklist it happened every second month. '
+                                           'Expected saving is R$ 3.000 - R$ 1.500 = R$ 1.500 a '
+                                           "month. The course cost R$ 220 of the clerk's time, so "
+                                           'the net gain in month one is R$ 1.500 - R$ 220 = R$ '
+                                           '1.280.')},
+ 'Financing Start-ups': {'growth': ('Log every enquiry with its source, meeting date, outcome and '
+                                    'reason for a no. Count how many leads reach a meeting and how '
+                                    'many meetings become packages. Ask each client after two '
+                                    'months whether the forecast matched reality, and use the '
+                                    'answers to improve the template. Keep a short list of '
+                                    'founders who may need a second package once they raise money '
+                                    'or add a product. Raise the price only when you have a '
+                                    'waiting list. Send each client a short summary three months '
+                                    'later asking how the forecast compared with real cash, then '
+                                    'use the differences to correct your template. Honest feedback '
+                                    'is worth more than a testimonial alone.',
+                                    'This month you had 32 leads, 16 meetings and 8 packages sold. '
+                                    'That is 50 percent of leads to meetings and 50 percent of '
+                                    'meetings to packages. Profit is 8 x R$ 2.400 - R$ 12.000 = R$ '
+                                    '7.200. If better preparation lifts meeting conversion to 62,5 '
+                                    'percent, you sell 10 packages and profit is 10 x R$ 2.400 - '
+                                    'R$ 12.000 = R$ 12.000, which is R$ 4.800 more.'),
+                         'offer': ('Define one advisory package a founder can buy for a fixed '
+                                   'price: a twelve-month cash forecast, a break-even sheet, a '
+                                   'funding-options memo and two review meetings. Write what is '
+                                   'included and what is not, such as legal drafting or '
+                                   'guaranteeing a loan. Estimate the hours, data checks and '
+                                   'meetings behind one package. Offer it first to founders you '
+                                   'already know and ask for a written comment afterwards. Do not '
+                                   'promise outcomes, and check the current official text before '
+                                   'describing any funding programme. Collect a one-page intake '
+                                   'form before the first meeting, covering sales, costs, debts, '
+                                   'owners and goals. A prepared client makes better use of the '
+                                   'review meetings, and your hours stay inside the estimate.',
+                                   'One package sells for R$ 3.000. Variable cost is R$ 360 for 12 '
+                                   'hours of analyst time at R$ 30, R$ 100 for data and templates '
+                                   'and R$ 140 for meetings and travel, so R$ 360 + R$ 100 + R$ '
+                                   '140 = R$ 600. Margin is R$ 3.000 - R$ 600 = R$ 2.400, or 80 '
+                                   'percent. Fixed cost is R$ 12.000 a month, so break-even is '
+                                   '12.000 / 2.400 = 5 packages. At 8 packages profit is R$ '
+                                   '7.200.'),
+                         'people': ('Train a junior analyst to run the package the same way every '
+                                    "time: collect the client's bank statements, build the "
+                                    'forecast from a template, check that closing cash matches, '
+                                    'and write a one-page summary. Sit in on the first two client '
+                                    'meetings. Review each model against a checklist of formulas, '
+                                    'sources and unusual items before it goes out. Agree who '
+                                    'answers client questions and keep confidentiality rules in '
+                                    'writing. Set a rule that every number in a client file has a '
+                                    'source note, such as a bank statement or an invoice. A junior '
+                                    'who cannot explain a figure should flag it rather than guess, '
+                                    'and clients notice the care.',
+                                    'A second explanatory meeting costs R$ 150 in time and travel. '
+                                    'Before the checklist, 3 of 8 packages needed one, which is R$ '
+                                    '450. After 6 hours of training costing R$ 180, only 1 did, '
+                                    'which is R$ 150. Monthly saving is R$ 450 - R$ 150 = R$ 300. '
+                                    'The training pays back in 0,60 of a month, and after that the '
+                                    'saving of R$ 300 stays in your pocket each month.')},
+ 'Food Trucking': {'growth': ('Record meals sold by location, weekday and weather, plus waste at '
+                              'close. Compare locations by meals per day against your break-even '
+                              'and drop the ones that stay below it. Build a list of repeat '
+                              'customers through a loyalty card or a message group, with consent. '
+                              'Offer your truck for private events and quote them in writing. Test '
+                              'one new dish at a time, and keep it only if it sells and the margin '
+                              "holds. Photograph the day's board and queue at each location, since "
+                              'a picture of a busy line helps later when you ask an event '
+                              'organiser for a place. Count customers who come back within a week.',
+                              'Last month you sold 2.400 meals: 1.200 at an office block, 700 at '
+                              'weekend fairs and 500 at a university. Revenue is 2.400 x R$ 32 = '
+                              'R$ 76.800 and variable cost is 2.400 x R$ 13 = R$ 31.200. After R$ '
+                              '9.000 fixed cost, profit is R$ 36.600. A spot selling 18 meals a '
+                              'day is replaced by one selling 60 for 4 days: (60 - 18) x 4 x R$ 19 '
+                              '= R$ 3.192 more.'),
+                   'offer': ('Build a short menu of three or four dishes that you can cook fast '
+                             'from the same ingredients, and set one average price per meal that '
+                             'includes a drink or side. Cost each dish from the recipe card: '
+                             'ingredients, packaging and the waste you throw away. Compare your '
+                             'price with nearby lunch spots at your location. Plan peak hours and '
+                             'the days you will stand at each place. Check the current official '
+                             'text on street-food permits and food handling before the first '
+                             'service. Taste-test each dish with ten regular customers before it '
+                             'joins the menu, and write down comments on portion size and speed. A '
+                             'dish that takes more than three minutes at the window slows the '
+                             'whole line.',
+                             'One meal sells for R$ 32. Its variable cost is R$ 8,50 in '
+                             'ingredients, R$ 1,70 in packaging and R$ 2,80 for waste, so R$ 8,50 '
+                             '+ R$ 1,70 + R$ 2,80 = R$ 13. Margin is R$ 32 - R$ 13 = R$ 19, or '
+                             '59,4 percent. Fixed cost is R$ 9.000 a month, so break-even is 9.000 '
+                             '/ 19 = 473,68, rounded up to 474 meals. At 2.400 meals profit is R$ '
+                             '36.600.'),
+                   'people': ('Give each crew member one station, such as grill, assembly or cash, '
+                              'and write the order of steps on a card at the window. Practise the '
+                              'lunch rush before opening for real, with a timer. Teach '
+                              'handwashing, glove changes, temperature checks and closing '
+                              'clean-down, and check them each day. Agree shift times, breaks and '
+                              'pay in writing, and check the current official text on food '
+                              'handlers and street work. Post the cleaning schedule inside the '
+                              'truck, with a name against each task and a tick box for the end of '
+                              'service. Shared jobs without names are the ones that are left '
+                              'undone, and inspectors notice.',
+                              'At lunch the crew serves 96 meals in 3 hours. After a day of '
+                              'station practice it serves 108, which is 12 more. At R$ 19 margin '
+                              'that is 12 x R$ 19 = R$ 228 a day. Over 24 trading days the gain is '
+                              '24 x R$ 228 = R$ 5.472. Training cost 2 people x R$ 120 for one day '
+                              '= R$ 240, so the net gain is R$ 5.232, if customers are waiting.')},
+ 'Franchise Business': {'growth': ('Track every outlet on the same sheet: opening date, monthly '
+                                   'sales, labour share, waste, audit score and customer comments. '
+                                   'Compare units by location to find what drives results. Hold a '
+                                   'quarterly meeting where the best outlet shows what it does. '
+                                   'Update the manual after each lesson. Keep a pipeline of '
+                                   'candidate sites and franchisees, and say no to weak sites. '
+                                   'Review package costs against supplier prices every quarter. '
+                                   'Compare outlets on the same four measures every month and '
+                                   'visit the weakest one first. Share what the best outlet does '
+                                   'in simple terms, because copying a proven routine is the point '
+                                   'of a franchise.',
+                                   'This month you opened 4 outlets. Revenue is 4 x R$ 52.000 = R$ '
+                                   '208.000 and variable cost is 4 x R$ 38.000 = R$ 152.000. After '
+                                   'R$ 15.000 head office cost, profit is R$ 41.000. A pipeline of '
+                                   '10 candidate sites converts 4 into signed outlets, or 40 '
+                                   'percent. If a fifth outlet opens, profit is 5 x R$ 14.000 - R$ '
+                                   '15.000 = R$ 55.000.'),
+                        'offer': ('Define the opening package a franchisee buys for one outlet: '
+                                  'site checklist, fit-out materials, equipment, training and '
+                                  'launch support. Write what the brand supplies and what the '
+                                  'franchisee must pay separately. Build the package cost from '
+                                  'supplier quotes and your own support days. Test the numbers '
+                                  'with a pilot outlet before you sell more. Ask a lawyer and '
+                                  'check the current official text on disclosure and contract '
+                                  'terms before you present an offer. Run the package past two '
+                                  'existing franchisees and ask what surprised them in the first '
+                                  'month. Their answers often reveal hidden costs, such as signage '
+                                  'or permits, which should be listed in your document.',
+                                  'One outlet package is sold for R$ 52.000. Variable cost is R$ '
+                                  '24.000 for fit-out materials, R$ 9.000 for equipment and R$ '
+                                  '5.000 for training and opening support, so R$ 24.000 + R$ 9.000 '
+                                  '+ R$ 5.000 = R$ 38.000. Margin is R$ 14.000, or 26,9 percent. '
+                                  'Head office cost is R$ 15.000 a month, so break-even is 15.000 '
+                                  '/ 14.000 = 1,07, rounded up to 2 outlets. At 4 outlets profit '
+                                  'is R$ 41.000.'),
+                        'people': ('Train each new manager on the operations manual before opening '
+                                   'day, using the checklists for opening, service, stock and '
+                                   'cash. Send a field trainer for the first week, then visit '
+                                   'monthly. Score every outlet on the same audit sheet: '
+                                   'cleanliness, speed, product quality and records. Practise how '
+                                   'to give hard feedback calmly. Keep a training log for every '
+                                   'employee, and check the current official text on staff '
+                                   'contracts. Record short videos of key routines, such as '
+                                   'opening and cash closing, and keep them with the manual. New '
+                                   'managers can review a clip when the trainer is away, and '
+                                   'standards stay the same across outlets.',
+                                   'A field trainer day costs R$ 600. Of 4 new outlets, 1 needed a '
+                                   'second visit of 2 days, which is R$ 1.200. After a better '
+                                   'opening checklist, only 1 of 8 needed one, so the expected '
+                                   'cost per 4 outlets is R$ 600. Saving is R$ 1.200 - R$ 600 = R$ '
+                                   '600 a month. Writing the checklist took 2 trainer days, R$ '
+                                   '1.200, so it pays back in 2 months.')},
+ 'Hostel or Hotel Business': {'growth': ('Record daily room-nights sold, average rate, complaints '
+                                         'and review scores. Compare occupancy by weekday and find '
+                                         'the weak nights. Build a corporate or group offer for '
+                                         'those nights, with a clear price and cancellation rule. '
+                                         'Track repeat guests and ask them for referrals. Review '
+                                         'maintenance requests monthly, because a room out of '
+                                         'order is a lost night. Adjust rates each season against '
+                                         'costs and local events. Compare your rates and reviews '
+                                         'with three nearby properties every month and note events '
+                                         'that fill the city. Planning rates a month ahead for big '
+                                         'weekends beats reacting after the rooms are gone.',
+                                         'You sold 600 room-nights out of 900, an occupancy of '
+                                         '66,7 percent. Revenue is 600 x R$ 340 = R$ 204.000 and '
+                                         'variable cost is 600 x R$ 130 = R$ 78.000. After R$ '
+                                         '45.000 fixed cost, profit is R$ 81.000. A group offer on '
+                                         'quiet nights adds 60 room-nights, which is 60 x R$ 210 = '
+                                         'R$ 12.600, so profit becomes R$ 93.600.'),
+                              'offer': ('Choose the room mix you can fill, such as private rooms, '
+                                        'four-bed dorms or family rooms, and set one standard '
+                                        'room-night rate for each. Cost a night from housekeeping, '
+                                        'laundry, breakfast, utilities and amenities. Look at what '
+                                        'similar hostels and hotels in your district charge on '
+                                        'weekdays and weekends. Plan a clear cancellation rule and '
+                                        'a check-in routine. Check the current official text on '
+                                        'licences, fire safety and guest registration before you '
+                                        'open. Take photos of each room type in daylight and '
+                                        'update them yearly, and write an honest description of '
+                                        'noise, stairs and shared bathrooms. Accurate listings '
+                                        'reduce complaints and keep review scores high.',
+                                        'A property with 30 rooms has 900 room-nights a month. One '
+                                        'room-night is sold at R$ 340. Variable cost is R$ 60 for '
+                                        'housekeeping and laundry, R$ 30 for breakfast, R$ 25 for '
+                                        'utilities and R$ 15 for amenities, so R$ 60 + R$ 30 + R$ '
+                                        '25 + R$ 15 = R$ 130. Margin is R$ 210, or 61,8 percent. '
+                                        'Fixed cost is R$ 45.000, so break-even is 45.000 / 210 = '
+                                        '214,29, rounded up to 215. At 600 room-nights profit is '
+                                        'R$ 81.000.'),
+                              'people': ('Write a one-page standard for each department: front '
+                                         'desk, housekeeping and maintenance. Run a daily '
+                                         'ten-minute briefing on arrivals, departures and rooms '
+                                         'out of order. Rehearse a check-in, a noise complaint and '
+                                         'a lost key until staff reply the same way. Give each '
+                                         'attendant a floor and inspect two rooms a day. Keep a '
+                                         'roster with weekend cover, and check the current '
+                                         'official text on hospitality staff before you confirm '
+                                         'hours. Give each department a short written handover at '
+                                         'shift change, listing rooms out of order, late arrivals '
+                                         'and special requests. Missed handovers cause most repeat '
+                                         'complaints and are cheap to prevent.',
+                                         'There are about 450 turnovers a month. Attendants '
+                                         'trained to a set routine clean a room 8 minutes faster, '
+                                         'which is 450 x 8 = 3.600 minutes, or 60 hours. At R$ 22 '
+                                         'per hour that saves R$ 1.320 a month. Training 6 '
+                                         'attendants for 4 hours costs 6 x 4 x R$ 22 = R$ 528. The '
+                                         'net gain in month one is R$ 1.320 - R$ 528 = R$ 792.')},
+ 'Manufacturing Business': {'growth': ('Record every batch: date, quantity, scrap, downtime, '
+                                       'rework and customer returns. Report weekly output and cost '
+                                       'per batch to the team. Compare buyers by volume, price and '
+                                       'payment time. Plan maintenance before breakdowns, and keep '
+                                       'spares for the parts that fail often. Ask buyers for a '
+                                       'forecast so purchases of raw materials can be planned. '
+                                       'Review prices when material costs move. Photograph the '
+                                       'production board each Friday and keep the weekly figures '
+                                       'in one file. After a quarter you will see patterns in '
+                                       'downtime and scrap that daily noise hides, and you can fix '
+                                       'the worst cause first.',
+                                       'You made 30 batches for three buyers: 15, 10 and 5. '
+                                       'Revenue is 30 x R$ 9.000 = R$ 270.000 and variable cost is '
+                                       '30 x R$ 6.200 = R$ 186.000. After R$ 45.000 fixed cost, '
+                                       'profit is R$ 39.000. If the buyer of 5 batches leaves, 25 '
+                                       'batches give 25 x R$ 2.800 - R$ 45.000 = R$ 25.000, a fall '
+                                       'of R$ 14.000.'),
+                            'offer': ('Choose one product you can make in repeatable batches, such '
+                                      'as packaged sauces, and set a standard batch size. Cost a '
+                                      'batch from raw materials, packaging, direct labour, energy '
+                                      'and water. Compare your price with similar products on '
+                                      'shelves and with an imported alternative. Test a pilot '
+                                      'batch and keep the sample. Check the current official text '
+                                      'on factory registration, product labelling and food or '
+                                      'product safety before you sell. Ask two buyers to test the '
+                                      'pilot batch and give written comments on quality, packaging '
+                                      'and delivery time. Small adjustments before launch cost far '
+                                      'less than a recall or a returned order after the first '
+                                      'shipment.',
+                                      'One batch is sold for R$ 9.000. Variable cost is R$ 3.900 '
+                                      'for raw materials, R$ 900 for packaging, R$ 1.000 for '
+                                      'direct labour and R$ 400 for energy and water, so R$ 3.900 '
+                                      '+ R$ 900 + R$ 1.000 + R$ 400 = R$ 6.200. Margin is R$ '
+                                      '2.800, or 31,1 percent. Fixed cost is R$ 45.000 a month, so '
+                                      'break-even is 45.000 / 2.800 = 16,07, rounded up to 17 '
+                                      'batches. At 30 batches profit is R$ 39.000.'),
+                            'people': ('Write a standard work sheet for each station with steps, '
+                                       'times and quality points, and train each operator on it. '
+                                       'Run a short shift briefing on the plan, safety and quality '
+                                       'problems. Teach lockout, cleaning and machine guarding by '
+                                       'showing each step. Rotate operators so two people can run '
+                                       'every machine. Keep a training matrix and check the '
+                                       'current official text on factory safety and working hours. '
+                                       'Hold a five-minute huddle at each shift start to review '
+                                       "yesterday's scrap and today's plan, and write numbers on a "
+                                       'board. Operators who see results improve are more willing '
+                                       'to follow standards and report problems early.',
+                                       "Scrap cost 4 percent of a batch's variable cost, R$ 248. "
+                                       'After training it fell to 2,5 percent, R$ 155, saving R$ '
+                                       '93 per batch. Over 30 batches that is R$ 2.790. Training 4 '
+                                       'operators for 2 days at R$ 120 costs 4 x 2 x R$ 120 = R$ '
+                                       '960. Net gain in month one is R$ 2.790 - R$ 960 = R$ '
+                                       '1.830.')},
+ 'Winery': {'growth': ('Keep a sales sheet for each channel: cellar door, restaurants and online '
+                       'orders. Record cases sold, price, unpaid invoices and the cases left from '
+                       'each vintage. Find which wine sells out first and which stays in the rack, '
+                       'then adjust the next batch. Build a list of repeat buyers, with their '
+                       'consent, and offer them a seasonal release. Visit each restaurant buyer '
+                       'every quarter with a tasting. Decide whether to age or reprice slow cases '
+                       'before they lose freshness. Note the weather and harvest quality beside '
+                       'each sales record, because a poor vintage changes what you can charge. '
+                       'Share the sheet with your partner each month so decisions on stock and '
+                       'price rest on figures.',
+                       'Last quarter you sold 150 cases at the cellar door, 130 to restaurants and '
+                       '80 online, 360 cases in all at R$ 520. Revenue is 360 x R$ 520 = R$ '
+                       '187.200 and variable cost is 360 x R$ 300 = R$ 108.000. Margin is R$ '
+                       '79.200. Fixed cost for 3 months is 3 x R$ 22.000 = R$ 66.000, so profit is '
+                       'R$ 13.200. Each case sold adds R$ 220, so 20 unsold cases hold R$ 6.000 of '
+                       'cost.'),
+            'offer': ('Choose the wine styles your vineyard and cellar can repeat every year, such '
+                      'as a young red, a dry white and a sparkling, and name one buyer for each: '
+                      'restaurants, gift shops or visitors. Sell in cases of six so the price is '
+                      'easy to quote. Work out what one case costs from grapes, glass, corks, '
+                      'labels, tank time, labour and breakage. Compare your price with similar '
+                      'wines in Sao Paulo shops. Check the current official text on production '
+                      'registration, labelling and alcohol sales before you sell. Keep a sample '
+                      'bottle from every lot for a year, with its batch number, so you can answer '
+                      'a complaint and compare vintages.',
+                      'One case of 6 sells for R$ 520. Its variable cost is R$ 140 in grapes, R$ '
+                      '90 in glass, corks and labels, R$ 55 in cellar labour and energy, and R$ 15 '
+                      'for breakage, so R$ 140 + R$ 90 + R$ 55 + R$ 15 = R$ 300. Margin per case '
+                      'is R$ 520 - R$ 300 = R$ 220, or 42,3 percent. Fixed cost is R$ 22.000 a '
+                      'month, so break-even is 22.000 / 220 = 100 cases. At 120 cases profit is R$ '
+                      '4.400.'),
+            'people': ('Separate cellar jobs by season: harvest pickers, a cellar worker for '
+                       'racking and cleaning, a bottling crew and a host for visitors. Write a '
+                       'one-page procedure for sanitising hoses, tanks and filling equipment, and '
+                       'demonstrate each step once with the helper watching. Check hygiene every '
+                       'day, because one dirty valve can spoil a tank. Practise a short tasting '
+                       'talk in plain words. Agree harvest days and pay in writing early, and '
+                       'check the current official text on seasonal work. Label every tank and '
+                       'hose with its use and cleaning date, and keep a logbook beside the door. '
+                       'Visitors and new workers then copy the routine without being asked, and '
+                       'the cellar stays traceable.',
+                       'Bottling 120 cases takes an untrained pair 12 hours and a trained pair 8 '
+                       'hours, at R$ 25 per hour each. Time saved is 4 hours x 2 x R$ 25 = R$ 200. '
+                       'Training costs 1 hour x 2 x R$ 25 = R$ 50. Careful handling also cuts '
+                       'breakage from 6 cases to 3, saving 3 x R$ 300 = R$ 900. Net gain for the '
+                       'lot is R$ 200 + R$ 900 - R$ 50 = R$ 1.050.')}}

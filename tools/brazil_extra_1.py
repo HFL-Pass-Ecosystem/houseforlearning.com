@@ -1,123 +1,620 @@
-EXTRA = {
-    'Construction Safety Management': {
-        'offer': (
-            'Walk one building site with the foreman before you price anything. Record the hazards you see: unguarded slab edges, open trenches, loose extension cables, scaffolds without inspection tags. Draft a monthly package with four parts: a risk walk, a toolbox talk calendar, an equipment checklist and a findings report with photos. List what the contractor already covers, then mark the gap you fill. Justify the price against the cost of one stopped working day, not against your hours. Check the current official text of the site safety rules before you write any duty into a proposal.',
-            'A contractor runs a site with 40 workers. Your monthly package costs you R$ 1.400 in technician time and R$ 300 in printed checklists and transport, so R$ 1.700 in total. You quote R$ 3.200. Margin is R$ 3.200 minus R$ 1.700 = R$ 1.500 per month, about 46,88 percent. If one stoppage costs the site R$ 12.000 per day, a single avoided day pays for 3,75 months of your package.'),
-        'people': (
-            'Place each safety role on a ladder: administrator who files records, field inspector, lead technician, trainer. Ask every newcomer to inspect a photographed scaffold and name three faults, then correct the answers together the same day. Rehearse the talk at the gate door, with helmets on and a crew that stands in the noise. Pair a beginner with an inspector for two weeks of shadowing. Write a near-miss form with five boxes and train everyone to fill it in under two minutes. Review each person monthly against tasks done, and reward the inspector whose reports get closed fastest.',
-            'You train 6 inspectors. Each completes 8 hours of practice with a trainer paid R$ 90 per hour, so trainer cost is 8 x R$ 90 = R$ 720. Printed forms and gloves cost R$ 20 per person, 6 x R$ 20 = R$ 120. Total is R$ 840, or R$ 140 per inspector. Each faster site walk saves R$ 35, so the cost returns after 4 walks per inspector.'),
-        'growth': (
-            "Prove value with three counts you can show on one page: inspections finished on the planned day, findings closed inside seven days, and near misses reported. Compute each at month end and put it beside the last month's figure. Present the page to the site manager with two photos of fixed hazards, standing at the fence, not in an office. Book the renewal talk sixty days before the contract ends and bring one extra service to propose, for example a night-shift walk. Record every lost client's reason in one line. Share only anonymous results and check the current official text before you cite any legal requirement.",
-            'Last month the team planned 50 inspections and finished 45, so the on-time rate is 45 / 50 = 90 percent. Findings opened were 30 and 24 closed within seven days, a closure rate of 80 percent. Against targets of 95 and 90 percent, the gaps are 5 and 10 points. One extra inspector day costs R$ 280 per week, R$ 1.120 per month, and you re-measure next month.'),
-    },
-    'Sensor Manufacture': {
-        'offer': (
-            "Pick one measurement problem and stay on it, such as temperature in a cold room, moisture in a planter bed or vibration in a pump motor. Write the buyer's accuracy need, the operating heat and the dust or damp the housing must survive. Set your device beside an imported one and compare delivery time, calibration paper, repair turnaround and total cost of ownership. Build the bundle: sensor, cable, mounting kit, calibration certificate and a plain data screen. Cost every part, add a warranty reserve and fix the price. Run a pilot batch with two customers before you buy parts in volume.",
-            'A cold-chain distributor orders 20 temperature sensors. Parts cost R$ 38, assembly R$ 12 and calibration R$ 10, so unit cost is R$ 60. You charge R$ 110 with a certificate. Revenue is 20 x R$ 110 = R$ 2.200, cost is 20 x R$ 60 = R$ 1.200, and gross profit is R$ 1.000, a 45,45 percent margin. A 5 percent warranty reserve of R$ 110 leaves R$ 890.'),
-        'people': (
-            'Split the bench into stations: parts check, soldering, sealing the enclosure, calibration, burn-in test and packing. Give each station one owner and a one-page card with photos of a good and a bad joint. Show a newcomer the soldering once, watch three repeats, then sign the person off. Choose one technician to read the calibration curve and stamp pass or fail. Tag every complaint from a customer with its batch number so a bad lot can be traced in minutes. Count rejected units each Friday and discuss the causes at the bench, naming the step, never the person.',
-            'In one week the line builds 200 sensors and calibration rejects 18, a rejection rate of 18 / 200 = 9 percent. Each rejected unit wastes R$ 48 in parts and labor, so the loss is 18 x R$ 48 = R$ 864. After retraining the soldering station, only 8 of the next 200 fail, a loss of 8 x R$ 48 = R$ 384. Weekly saving is R$ 480.'),
-        'growth': (
-            'Follow each sensor after the sale. Log the quote date, the order date, the calibration due date and any return, then count how many quotes became orders in each channel: technical visit, trade show, online catalog. Choose one test per quarter, such as a free field trial for a new buyer, and drop it if profit does not rise. Contact each customer thirty days before the sensor needs recalibration and offer a swap or a service visit. Visit the plant of your best repeat buyer to learn which second device they would purchase. Write down what you learn.',
-            'Last quarter you sent 40 quotes and won 10, so conversion is 10 / 40 = 25 percent. The average order is R$ 2.400, so revenue was 10 x R$ 2.400 = R$ 24.000. A recalibration reminder reached customers and 6 booked a service at R$ 300, adding 6 x R$ 300 = R$ 1.800. Revenue becomes R$ 25.800, a gain of 7,50 percent.'),
-    },
-    'Internet Infrastructure': {
-        'offer': (
-            'Choose a first coverage zone small enough to finish in a month: a few apartment blocks, a shopping street or a factory lane. Count the homes passed by walking the poles and conduits, and mark where a splice box or a radio hop is needed. Offer two or three plans, since ten plans confuse buyers and support. Promise only what you can keep: a fixed installation day, a repair window and a phone number that is answered. Add up the drop cable, router, connectors and labor to connect one home, then set the monthly price that returns it in a stated period. Check the current official text of telecom rules before selling.',
-            'You pass 300 homes. Connecting one customer costs R$ 350 in equipment and labor. The plan sells at R$ 100 per month and serving one customer costs R$ 40 per month, so contribution is R$ 60. Payback is R$ 350 / R$ 60 = 5,83 months. If 90 homes sign up, monthly contribution is 90 x R$ 60 = R$ 5.400.'),
-        'people': (
-            'Staff the network with four distinct roles: installer on the roof and in the ducts, network technician at the rack, support agent on the phone, billing assistant. Rehearse a full installation on a test rack, crimping, labeling and testing speed, before anyone climbs a pole. Send each new installer out with a veteran for the first ten jobs. Give support agents a three-question ladder before escalation: is the light on, is the cable firm, did a restart help. Count return visits per installer, not complaints. Publish a written on-call rota that rotates weekly so repairs never depend on one tired person.',
-            'A crew of 3 installers does 5 jobs per day each, 15 in total. A return visit costs R$ 60 in fuel and time. At 12 percent returns, that is 1,80 visits per day, costing R$ 108. After a checklist, returns fall to 6 percent, or 0,90 visits, costing R$ 54. Saving is R$ 54 per day, R$ 1.188 over 22 working days.'),
-        'growth': (
-            'Keep a monthly sheet with new connections, cancellations, hours to repair and complaints per hundred customers. Divide cancellations by customers at the start of the month to get churn, then rank neighborhoods by churn and fix the worst one first. Phone people whose promotion ends next month and offer a speed check rather than a discount. Ask each person who cancels one question and write the answer word for word. Never advertise a speed your last-mile cable cannot sustain at night. Check the current official text of consumer rules for contract and cancellation terms before you change any paper.',
-            'You start the month with 800 customers and 24 cancel, so churn is 24 / 800 = 3 percent. At R$ 100 per customer, lost monthly revenue is 24 x R$ 100 = R$ 2.400. A repair-time fix cuts churn to 2 percent, which is 16 cancellations. You keep 8 more customers, worth 8 x R$ 100 = R$ 800 per month.'),
-    },
-    'International Trade': {
-        'offer': (
-            'Pick one product group and one route, such as machine spare parts arriving by sea, and write the chain from factory gate to shop shelf: supplier price, incoterm, freight, insurance, import tax, clearance and inland delivery. Request quotes on two routes and compare them by landed cost per unit, not by invoice price. Choose the incoterm that matches what your team can control. Show the client each cost line in plain words with the exchange rate and its date. Hire a licensed customs professional where the rules require one. Check the current official text of customs and tax rules before you quote.',
-            'A shop in São Paulo imports 500 units at USD 4 each with an exchange rate of R$ 5 per dollar, so goods cost 500 x 4 x 5 = R$ 10.000. Freight and insurance are R$ 1.500, and taxes and clearance fees are R$ 3.500. Landed cost is R$ 15.000, or R$ 30 per unit. At a shelf price of R$ 49, margin per unit is R$ 19, a total of R$ 9.500.'),
-        'people': (
-            'Assign each shipment one document owner and one backup. Hand a trainee a finished sample file and ask for the invoice, packing list and transport document to be rebuilt from the order alone, then compare line by line. Teach the double read of names, quantities and tariff codes, since one wrong digit can hold a container at the port. Keep a shared tracker with dates, owners and the next action. Draft short, polite messages to suppliers abroad that respect their time zone. Sort every error by type each week, such as weight, code or consignee, and keep a log of every promise made.',
-            'Your team handles 20 shipments per month. A document error costs R$ 400 in storage and delay. At a 10 percent error rate, 2 shipments have errors, costing 2 x R$ 400 = R$ 800. A double-check step cuts errors to 1 shipment, costing R$ 400. The saving is R$ 400 per month. The check takes 15 minutes per shipment, 5 hours per month, so it pays if an hour costs less than R$ 80.'),
-        'growth': (
-            'Compare plan and actual landed cost on every shipment and write the gap in reais and in percent. Track days from purchase order to shelf, share of shipments with a problem and margin per product. Set a price-update rule tied to the exchange rate, for example review when the dollar moves five percent from the quoted day. Score suppliers on defects and delay, and renew only those above your line. Meet your main client each quarter to propose a consolidated shipment or a cheaper route. List the products to drop. Promise no returns, and check the current official text of trade rules, since they change often.',
-            'A product planned at a landed cost of R$ 30 per unit ended at R$ 33 because of a weaker real. The overrun is R$ 3, or 10 percent. At 400 units, the extra cost is 400 x R$ 3 = R$ 1.200. You raise the shelf price from R$ 49 to R$ 52. New margin per unit is R$ 52 - R$ 33 = R$ 19, which restores the margin of R$ 19 per unit.'),
-    },
-    'Tourist Automation': {
-        'offer': (
-            'Visit a small guesthouse or tour guide and list every message sent twice: booking confirmation, directions to the door, check-in code, Wi-Fi password, late checkout rule, review request. Count each per week and automate the three that eat the most time, using a form plus scheduled messages before any costly platform. Compare two tools by monthly price, language support and how easily the owner edits a text alone. Mark what stays with a person: complaints, allergies, special celebrations. Show the owner hours saved and bookings no longer missed overnight. Protect guest data and check the current official text of data protection rules.',
-            'A small guesthouse spends 10 hours a week answering the same booking questions. Staff time costs R$ 25 per hour, so that is R$ 250 per week. Automated replies cut the work by 60 percent, saving 6 hours, or R$ 150 per week. Over 4 weeks you save R$ 600. The tool costs R$ 120 per month, so the net gain is R$ 480 per month.'),
-        'people': (
-            'Give every automated message a named owner and a daily inbox check at nine in the morning. Ask each staff member to play the guest on a phone, booking a room in Portuguese and then in English, and to write down every confusing step. Rehearse the hand-over line: a calm sentence that tells the guest a person will reply within the hour. Read ten real conversations every Friday and mark where the guest asked again. Rewrite any reply with a clear local touch, like naming the bakery on the corner. Nominate a backup for holidays and write the steps so a newcomer can follow them.',
-            'You read 40 guest conversations in a week and find 6 where the automatic reply missed the question, so the miss rate is 6 / 40 = 15 percent. Each miss costs about 20 minutes of staff time, worth R$ 8, so the weekly cost is 6 x R$ 8 = R$ 48. After rewriting four replies, misses fall to 2, costing R$ 16. You save R$ 32 per week, about R$ 128 per month.'),
-        'growth': (
-            'Follow the guest from first question to review and count five points: replies sent within an hour, bookings per hundred inquiries, repeat guests, review score and the month with the emptiest rooms. Change one thing at a time, such as a faster first reply or a price list with photos, and keep it for a full month before judging. Send a thank-you note after checkout with a small perk that costs you little, such as a late coffee. Prepare a rainy-season offer for low months. Keep only the automations that raise bookings. Never promise full occupancy to the owner.',
-            'You receive 200 inquiries per month and 30 book, so conversion is 30 / 200 = 15 percent. A faster automatic reply lifts it to 18 percent, which is 36 bookings, or 6 more. An average stay brings R$ 450, so the gain is 6 x R$ 450 = R$ 2.700 per month. After the tool cost of R$ 120, the net gain is R$ 2.580.'),
-    },
-    'Online / AI Investment Management': {
-        'offer': (
-            "Teach how investing tools work and never sell a result. Describe your learner: an adult who has a payslip, a savings goal and no idea how an automated advice screen reaches its suggestion. Plan four lessons: read a statement line by line, compare fees on two sample products, see how spreading risk works with a toy example, spot a scam message. Say plainly what you cannot do: you do not pick products and you do not hold anyone's money. Check the current official text of securities rules and the regulator's guidance before publishing. Prepare a checklist, a worksheet and a glossary.",
-            'You run a learning workshop for 25 people, paid by a sponsor with a budget of R$ 1.500. The hall and printed materials cost R$ 600 and your preparation time is valued at R$ 400, so total cost is R$ 1.000. The surplus is R$ 1.500 - R$ 1.000 = R$ 500, or R$ 20 per participant, which you reserve for updating the worksheets next term.'),
-        'people': (
-            'Set a speaking rule for every tutor: explain ideas, never recommend a product. Ask each tutor to teach risk twice, once with a jar of coins that sometimes shrinks and once with a bank statement, then record which version the learners follow. Practise the stop sentence: this question needs a licensed professional, here is how to find one. Write a list of fraud warning signs, such as pressure to decide today, and drill it with role play. Name a reviewer who reads every slide before use and marks any wording that sounds like a promise. Quiz learners with five questions after each session.',
-            'A reviewer checks 12 slide decks at 30 minutes each, so 6 hours at R$ 40 per hour, or R$ 240. In the first pass, 4 decks contain wording that sounds like a promise, which is 4 / 12 = 33,30 percent. After a wording guide, only 1 deck has the issue, or 8,30 percent. You avoid 3 corrections, each worth about R$ 20 of rework, saving R$ 60.'),
-        'growth': (
-            'Count learning, not gains. At the end of each course record starters, finishers, learners who pass the closing quiz and learners who can explain a fee in their own words to a neighbor. Divide finishers by starters, then read the quiz item that most people missed and rewrite that lesson. Send past learners an updated example every quarter and invite them to a refresher. Treat complaints as a lesson map. Never show past returns or promised gains as proof of quality. Check the current official text of advertising rules for financial topics before you publish a single result.',
-            'Of 60 learners who start a course, 42 finish, so completion is 42 / 60 = 70 percent. In the closing quiz, 31 of 42 score at least 70 percent, which is 73,80 percent. You rewrite the fee lesson, and the next group of 50 has 38 finishers, or 76 percent. Completion rises by 6 points with no extra cost to learners.'),
-    },
-    'Universities': {
-        'offer': (
-            'Start from a gap that students or local firms can name, such as no hands-on course in spreadsheets for first-year commerce students. Write the path from entry to outcome: prerequisites, weekly hours, a graded project with a real local partner and the support offered on the way. Check the catalog for overlap and keep only what is new. Cost the course from instructor hours, room and materials, then split by seats. State the outcome in one plain sentence, for example: a graduate can build a monthly cash plan for a small shop. Check the current official text of education rules for course approval and credit.',
-            'You plan a 40-hour practical course for 30 students. Instructor pay is 40 x R$ 120 = R$ 4.800. Room and materials add R$ 1.200, so total cost is R$ 6.000, or R$ 200 per student. A grant covers R$ 5.000 and the department R$ 1.000, together R$ 6.000, which equals the total cost, so the course runs without a fee for the 30 students.'),
-        'people': (
-            "Hire assistants to carry the part of teaching that needs small groups. Train each assistant to run a ten-minute pair exercise, to read a gradebook for students who missed three sessions and to write a first message that is kind and short. Sit in a colleague's lecture once a term and trade written notes the same week. Collect a three-question mid-term form and change one thing before week eight. Keep office hours posted outside the door and reply to messages inside two working days. Give every new teacher a mentor for the first semester and a workload that leaves time to prepare.",
-            'One teaching assistant supports 3 groups of 30 students, 6 hours per week per group, at R$ 35 per hour. Weekly cost is 3 x 6 x R$ 35 = R$ 630. Over a 15-week term that is R$ 9.450. If advising lifts retention from 80 to 86 percent among 90 students, 5,40 more students stay, so the cost is about R$ 1.750 per retained student.'),
-        'growth': (
-            'Follow each cohort from first day to what graduates do six months later. Count enrolled, attending in week four, finished and working or studying after the course. Divide finishers by starters and compare cohorts side by side. Ask students who left to name the moment they decided, then test one fix, such as an evening group. Meet employers and alumni each year to revise the content list, and tell new students what changed before they enroll. Publish weak results as well as strong ones and discuss them with teachers. Check the current official text of education rules before advertising outcomes or credentials.',
-            'A cohort starts with 120 students and 96 finish, so completion is 96 / 120 = 80 percent, with 24 dropouts. After adding evening classes, the next cohort of 120 has 105 finishers, or 87,50 percent. That is 9 more graduates. If each retained student brings R$ 3.000 in public support, 9 x R$ 3.000 = R$ 27.000, minus R$ 8.000 extra teaching cost, leaves R$ 19.000.'),
-    },
-    'Technical & Vocational Schools': {
-        'offer': (
-            'Interview three employers who are hiring and ask each to describe the first week of a new hire: which machine is used, which reading is taken, which form is signed. Turn the answers into outcomes with verbs such as install, measure, diagnose and document. Lay out hours so at least half are on the shop floor, and list the equipment, consumables and safety gear per learner. Pick a class size the workshop can handle. Cost the course per learner before you announce a date. Check the current official text of technical education rules for approval, safety and certificate requirements.',
-            'A welding course has 16 learners and 120 hours. Instructor pay is 120 x R$ 90 = R$ 10.800. Gas, metal and masks cost R$ 3.200 and workshop upkeep R$ 1.000. Total cost is R$ 10.800 + R$ 3.200 + R$ 1.000 = R$ 15.000, which is R$ 937,50 per learner. A public program covers R$ 12.000 and an employer partner R$ 3.000, together R$ 15.000, so the budget balances.'),
-        'people': (
-            'Recruit instructors who worked in the trade within the last five years and teach them a four-step routine: demonstrate, let the learner try, correct, repeat. Open every workshop with a two-minute safety briefing at the bench and make it a rule that no one starts without it. Hire a tool technician who logs each broken item with the date and the cause. Grade skills with a practical checklist at the machine, not only with a written paper. Send each instructor to visit a workplace once a year. Call any learner who misses two sessions, and adapt explanations to mixed ages.',
-            'An instructor spends 2 days per year visiting two workplaces to update skills, costing 2 x R$ 400 = R$ 800 in class cover. With 16 learners per course and 4 courses, 64 learners benefit, so the visit costs R$ 800 / 64 = R$ 12,50 per learner. A student assistant who logs tool faults for 1 hour per week at R$ 25 costs R$ 100 per month, and fewer broken tools save about R$ 150 per month, or R$ 1.800 per year.'),
-        'growth': (
-            'Call graduates at three and six months and ask three things: are you employed, is the job related to the course, and which skill was missing on day one. Divide employed graduates by those reached to get placement, and note how many you failed to reach. Set low-placement courses beside strong ones and retire the weakest after two cohorts. Sit with employers once a year to update the module list. Rank workshop equipment by age and plan which piece to replace first. Report plain numbers and promise no jobs. Check the current official text of education rules before you publish placement figures.',
-            'A course graduates 40 learners, and you reach 32 of them after six months. Of those, 22 work in the field, so placement is 22 / 32 = 68,80 percent. An employer visit leads to a new module on reading drawings. The next cohort reaches 34 of 40, and 27 work in the field, which is 79,40 percent. Placement rises 10,60 points.'),
-    },
-    'Sustainability Management': {
-        'offer': (
-            'Begin with a baseline for a small bakery, clinic or workshop: copy twelve months of electricity, water and waste bills into one sheet and read the meters on a normal day. Find the three biggest costs and the hours they run. Pick two or three actions with a short payback, such as efficient lamps, door seals on cold rooms or a sorting corner for recyclables. Compare each by cost, installation time and expected saving in kilowatt-hours. Report results in reais and in units, never in vague green words. Check the current official text of environmental and labeling rules before you publish a statement about a product.',
-            'A small bakery pays R$ 1.800 per month for electricity. The audit finds that efficient lighting and fridge door seals can cut use by 15 percent. Monthly saving is R$ 1.800 x 0,15 = R$ 270. The upgrade costs R$ 2.700. Payback is R$ 2.700 / R$ 270 = 10 months. After that, the saving of R$ 3.240 per year stays with the bakery.'),
-        'people': (
-            'Name one champion in each team: a cook, a driver, a cleaner, a clerk. Give each a single weekly task, such as reading the water meter on Monday or emptying and weighing the sorting bins. Walk the premises together with the team and ask them to point at every tap left running, light left on and bin mixed up. Count rather than guess: kilograms of waste, liters of water, kilowatt-hours. Thank the team in the Friday meeting when a number improves. Tailor the message, since drivers control fuel and cleaners control detergent. Draft a one-page guide in plain words and revise it after feedback.',
-            'Four team champions each spend 1 hour per week on checks, at R$ 30 per hour, so weekly cost is 4 x R$ 30 = R$ 120. Over 4 weeks that is R$ 480. Their checks find water leaks and idle machines that save R$ 650 per month. Net benefit is R$ 650 - R$ 480 = R$ 170 per month, with better awareness as an extra gain.'),
-        'growth': (
-            'Record monthly use of energy, water and materials, plus the weight of waste sent to landfill. Divide each by output, for example liters per unit produced, so a busy month does not hide real progress. Compare against the baseline year and set the next target only after the last one is met or explained. Put sites side by side and copy the habit of the best one. Review the plan yearly and retire actions that stalled. Say openly which targets you missed. Avoid claims you cannot prove, and check the current official text of reporting and claims rules.',
-            'A workshop used 4.000 liters of water per month for 800 units, so 5 liters per unit. After new taps and a reuse tank, use fell to 3.200 liters for 800 units, or 4 liters per unit. That is a 20 percent cut, saving 800 liters. At R$ 12 per 1.000 liters, the saving is 0,80 x R$ 12 = R$ 9,60 per month, small in reais but a clear start.'),
-    },
-    'Drones': {
-        'offer': (
-            'Choose one job, for example roof inspection for apartment buildings, and write what the client receives: georeferenced photos, a defect list and a short report. Compare your flight with the present method, such as a rope crew, on price, time on site and risk to people. Pick an aircraft and camera that match the job and cost an hour of flight: battery cycles, propeller wear, insurance and processing software. Tell the client what weather stops work. Register the aircraft and plan flight areas only after you check the current official text of aviation authority rules for commercial operations.',
-            'A building manager needs 5 roof inspections. A rope crew costs R$ 1.500 each. You price a drone inspection at R$ 600 with a photo report. Your cost per job is R$ 120 for batteries and wear, R$ 80 for processing and R$ 100 for travel, a total of R$ 300. Profit is R$ 300 per job, or 5 x R$ 300 = R$ 1.500. The client saves 5 x R$ 900 = R$ 4.500.'),
-        'people': (
-            'Assign four jobs on each mission: pilot, visual observer, data processor and client contact. Start new pilots on an open training field and make them read a pre-flight card aloud before every takeoff: battery charge, propeller tightness, wind, satellite lock and signal. Write one rule in capitals: if conditions are unsafe, the pilot lands, and no client can overrule it. Review the log and the footage after each mission with the whole crew. Prepare a two-minute briefing for the client about what will and will not be photographed. Plan rest after long days, and name one person who keeps flight, repair and incident records.',
-            'A new pilot logs 40 flight hours in training before solo jobs. Batteries and wear cost R$ 40 per hour, so 40 x R$ 40 = R$ 1.600, and a course costs R$ 800, for a total of R$ 2.400. If the pilot earns R$ 60 per billable hour, the training cost returns after R$ 2.400 / R$ 60 = 40 billable hours.'),
-        'growth': (
-            'Log every flight: planned, done, redone and why. Compute revenue per flight hour for each job type and compare roof, field and construction work to see which pays best. Offer a quarterly inspection contract and send a reminder two weeks before each date. Read every incident and near miss aloud at the monthly meeting and write one change in the checklist. Launch only one new service at a time, such as thermal images, and test it on a friendly client. Promise only what your data shows. Check the current official text of aviation rules, which change.',
-            'In a month you fly 20 jobs, with 3 reflights because of blurry images, so the reflight rate is 3 / 20 = 15 percent. Each reflight costs R$ 150, so waste is 3 x R$ 150 = R$ 450. After a pre-flight camera check, reflights fall to 1, costing R$ 150, a saving of R$ 300 per month. A quarterly contract at R$ 500 with 6 clients adds 6 x R$ 500 = R$ 3.000 per quarter.'),
-    },
-    'Distribution Companies': {
-        'offer': (
-            'List the shops you can serve on time with the trucks and stock you have, and sketch each route on a map with the stops in order. Mark where hours vanish: a narrow street, a closed loading dock, a long queue at the supplier. Offer two service levels only, such as next-day for large buyers and twice weekly for small ones. Divide the daily route cost by stops to see cost per delivery, then set a minimum order that makes each stop pay. Write return and damage terms on the delivery note. Check the current official text of transport and tax rules, which vary by product and route.',
-            'A distributor delivers to 50 small shops. Each route costs R$ 420 per day for driver, fuel and truck. A truck serves 14 shops per day, so cost per stop is R$ 420 / 14 = R$ 30. If the average order margin is R$ 55, profit per stop is R$ 25. A minimum order that lifts margin to R$ 90 gives R$ 60 profit per stop.'),
-        'people': (
-            "Write a job card for each post: picker, loader, driver, dispatcher, sales representative. Train pickers on sample orders and time each line picked. Load the truck in reverse delivery order and ask the loader to tick the delivery note against the boxes at the dock. Teach drivers to greet the shop owner, count the goods together and call the dispatcher the moment a delivery is refused. Choose one person to review all wrong-item cases on Monday. Rotate heavy lifting to protect backs and post the day's route on the wall at six in the morning so everyone knows what comes first.",
-            'A warehouse ships 300 orders per week and 21 contain a picking error, so the error rate is 21 / 300 = 7 percent. Each error costs R$ 65 in a second trip and credit. Weekly loss is 21 x R$ 65 = R$ 1.365. After a scan-and-check step, errors fall to 9, costing R$ 585. You save R$ 780 per week.'),
-        'growth': (
-            "Post a weekly scoreboard: deliveries on time and complete, stock-outs, cost per delivery and reorder rate by customer. Sort products by days on the shelf and decide for each slow item whether to bundle it, mark it down or stop buying it. Visit the five largest customers every quarter with last quarter's numbers in hand and offer a change that helps both sides, like a fixed delivery weekday. Explain every figure in plain words to drivers and pickers. Promise no growth to the owner. Check the current official text of commercial and tax rules before changing any term with a customer.",
-            'Last month 400 deliveries were planned and 368 were on time and complete, so the service level is 368 / 400 = 92 percent. The goal is 96 percent, or 384 deliveries, a gap of 16. Each late delivery costs R$ 40 in goodwill and re-delivery. Closing the gap saves 16 x R$ 40 = R$ 640 per month, which covers a R$ 300 monthly route tool.'),
-    },
-}
+EXTRA = {'Construction Safety Management': {'offer': ('Walk one building site with the foreman before you '
+                                              'price anything. Record the hazards you see: '
+                                              'unguarded slab edges, open trenches, loose '
+                                              'extension cables, scaffolds without inspection '
+                                              'tags. Draft a monthly package with four parts: a '
+                                              'risk walk, a toolbox talk calendar, an equipment '
+                                              'checklist and a findings report with photos. List '
+                                              'what the contractor already covers, then mark the '
+                                              'gap you fill. Justify the price against the cost of '
+                                              'one stopped working day, not against your hours. '
+                                              'Check the current official text of the site safety '
+                                              'rules before you write any duty into a proposal.',
+                                              'Your monthly package for one building site sells at '
+                                              'R$ 6.500 per site. Direct cost per site is R$ 3.000 '
+                                              'for technician time, printed checklists and '
+                                              'transport, so each site leaves R$ 3.500. With 8 '
+                                              'sites, revenue is 8 x R$ 6.500 = R$ 52.000, '
+                                              'variable cost is R$ 24.000, contribution is R$ '
+                                              '28.000, and after fixed cost of R$ 12.000 a month '
+                                              'the profit is R$ 16.000, a margin of 0,3 percent. '
+                                              'Break-even is R$ 12.000 / R$ 3.500 = 3,43, so 4 '
+                                              'sites.'),
+                                    'people': ('Place each safety role on a ladder: administrator '
+                                               'who files records, field inspector, lead '
+                                               'technician, trainer. Ask every newcomer to inspect '
+                                               'a photographed scaffold and name three faults, '
+                                               'then correct the answers together the same day. '
+                                               'Rehearse the talk at the gate door, with helmets '
+                                               'on and a crew that stands in the noise. Pair a '
+                                               'beginner with an inspector for two weeks of '
+                                               'shadowing. Write a near-miss form with five boxes '
+                                               'and train everyone to fill it in under two '
+                                               'minutes. Review each person monthly against tasks '
+                                               'done, and reward the inspector whose reports get '
+                                               'closed fastest.',
+                                               'You train 6 inspectors to run your 8 sites. Each '
+                                               'completes 8 hours with a trainer paid R$ 90 per '
+                                               'hour, so trainer cost is 6 x 8 x R$ 90 = R$ 4.320. '
+                                               'Forms and gloves add 6 x R$ 20 = R$ 120, total R$ '
+                                               '4.440. Trained inspectors let you carry one extra '
+                                               'site, which adds R$ 3.500 of contribution each '
+                                               'month. Payback is R$ 4.440 / R$ 3.500 = 1,27 '
+                                               'months, about 38 days.'),
+                                    'growth': ('Prove value with three counts you can show on one '
+                                               'page: inspections finished on the planned day, '
+                                               'findings closed inside seven days, and near misses '
+                                               'reported. Compute each at month end and put it '
+                                               "beside the last month's figure. Present the page "
+                                               'to the site manager with two photos of fixed '
+                                               'hazards, standing at the fence, not in an office. '
+                                               'Book the renewal talk sixty days before the '
+                                               'contract ends and bring one extra service to '
+                                               'propose, for example a night-shift walk. Record '
+                                               "every lost client's reason in one line. Share only "
+                                               'anonymous results and check the current official '
+                                               'text before you cite any legal requirement.',
+                                               'This month you ran 8 sites with R$ 16.000 profit. '
+                                               'Your page shows inspections on the planned day: 45 '
+                                               'of 50, or 90 percent, and findings closed within '
+                                               'seven days: 24 of 30, or 80 percent. Losing one '
+                                               'site cuts contribution by R$ 3.500, so profit '
+                                               'falls to R$ 12.500. A night-shift walk sold to 2 '
+                                               'sites at an extra R$ 900 each, with R$ 400 of cost '
+                                               'each, adds 2 x R$ 500 = R$ 1.000 per month. '
+                                               'Re-measure next month.')},
+ 'Sensor Manufacture': {'offer': ('Pick one measurement problem and stay on it, such as '
+                                  'temperature in a cold room, moisture in a planter bed or '
+                                  "vibration in a pump motor. Write the buyer's accuracy need, the "
+                                  'operating heat and the dust or damp the housing must survive. '
+                                  'Set your device beside an imported one and compare delivery '
+                                  'time, calibration paper, repair turnaround and total cost of '
+                                  'ownership. Build the bundle: sensor, cable, mounting kit, '
+                                  'calibration certificate and a plain data screen. Cost every '
+                                  'part, add a warranty reserve and fix the price. Run a pilot '
+                                  'batch with two customers before you buy parts in volume.',
+                                  'A cold-chain distributor orders a month of sensors from you. '
+                                  'Each sensor sells at R$ 260 with a calibration certificate and '
+                                  'costs R$ 150 in parts, assembly and calibration, so '
+                                  'contribution is R$ 110 per sensor, 42,3 percent of the price. '
+                                  'At 400 sensors revenue is R$ 104.000, variable cost R$ 60.000, '
+                                  'contribution R$ 44.000. After fixed cost of R$ 30.000 profit is '
+                                  'R$ 14.000. A 3 percent warranty reserve on revenue is R$ 3.120, '
+                                  'leaving R$ 10.880. Break-even is R$ 30.000 / R$ 110 = 272,73, '
+                                  'so 273 sensors.'),
+                        'people': ('Split the bench into stations: parts check, soldering, sealing '
+                                   'the enclosure, calibration, burn-in test and packing. Give '
+                                   'each station one owner and a one-page card with photos of a '
+                                   'good and a bad joint. Show a newcomer the soldering once, '
+                                   'watch three repeats, then sign the person off. Choose one '
+                                   'technician to read the calibration curve and stamp pass or '
+                                   'fail. Tag every complaint from a customer with its batch '
+                                   'number so a bad lot can be traced in minutes. Count rejected '
+                                   'units each Friday and discuss the causes at the bench, naming '
+                                   'the step, never the person.',
+                                   'In one month the line builds 400 sensors and calibration '
+                                   'rejects 36, a rate of 9 percent. Each rejected unit wastes R$ '
+                                   '150, so the loss is 36 x R$ 150 = R$ 5.400. After retraining '
+                                   'the soldering station only 16 of the next 400 fail, 4 percent, '
+                                   'a loss of R$ 2.400. Monthly saving is R$ 3.000. Retraining 2 '
+                                   'operators for 12 hours at R$ 80 per hour costs R$ 1.920, '
+                                   'repaid in 0,64 months.'),
+                        'growth': ('Follow each sensor after the sale. Log the quote date, the '
+                                   'order date, the calibration due date and any return, then '
+                                   'count how many quotes became orders in each channel: technical '
+                                   'visit, trade show, online catalog. Choose one test per '
+                                   'quarter, such as a free field trial for a new buyer, and drop '
+                                   'it if profit does not rise. Contact each customer thirty days '
+                                   'before the sensor needs recalibration and offer a swap or a '
+                                   'service visit. Visit the plant of your best repeat buyer to '
+                                   'learn which second device they would purchase. Write down what '
+                                   'you learn.',
+                                   'Last quarter you sent 40 quotes and won 10, so conversion is '
+                                   '10 / 40 = 25 percent. Each win is a monthly order of about 40 '
+                                   'sensors. A recalibration reminder lifts wins to 12, or 30 '
+                                   'percent, adding 2 x 40 = 80 sensors per month. Each sensor '
+                                   'adds R$ 110 of contribution, so the gain is 80 x R$ 110 = R$ '
+                                   '8.800 per month. Fixed cost stays at R$ 30.000, so profit '
+                                   'rises from R$ 14.000 to R$ 22.800 at 480 sensors.')},
+ 'Internet Infrastructure': {'offer': ('Choose a first coverage zone small enough to finish in a '
+                                       'month: a few apartment blocks, a shopping street or a '
+                                       'factory lane. Count the homes passed by walking the poles '
+                                       'and conduits, and mark where a splice box or a radio hop '
+                                       'is needed. Offer two or three plans, since ten plans '
+                                       'confuse buyers and support. Promise only what you can '
+                                       'keep: a fixed installation day, a repair window and a '
+                                       'phone number that is answered. Add up the drop cable, '
+                                       'router, connectors and labor to connect one home, then set '
+                                       'the monthly price that returns it in a stated period. '
+                                       'Check the current official text of telecom rules before '
+                                       'selling.',
+                                       'You rent racks in a small data room at R$ 1.800 per rack a '
+                                       'month. Power, cooling and cross-connect cost R$ 700 per '
+                                       'rack, so contribution is R$ 1.100, 61,1 percent of the '
+                                       'price. At 60 racks revenue is R$ 108.000, variable cost R$ '
+                                       '42.000 and contribution R$ 66.000. After fixed cost of R$ '
+                                       '50.000 for lease, staff and uplink, profit is R$ 16.000. '
+                                       'Break-even is R$ 50.000 / R$ 1.100 = 45,45, so 46 racks. '
+                                       'Ten more racks would add 10 x R$ 1.100 = R$ 11.000 a '
+                                       'month.'),
+                             'people': ('Staff the network with four distinct roles: installer on '
+                                        'the roof and in the ducts, network technician at the '
+                                        'rack, support agent on the phone, billing assistant. '
+                                        'Rehearse a full installation on a test rack, crimping, '
+                                        'labeling and testing speed, before anyone climbs a pole. '
+                                        'Send each new installer out with a veteran for the first '
+                                        'ten jobs. Give support agents a three-question ladder '
+                                        'before escalation: is the light on, is the cable firm, '
+                                        'did a restart help. Count return visits per installer, '
+                                        'not complaints. Publish a written on-call rota that '
+                                        'rotates weekly so repairs never depend on one tired '
+                                        'person.',
+                                        'Your remote-hands team handles 40 visits a month on 60 '
+                                        'racks. A repeat visit costs R$ 220 in travel and credit. '
+                                        'At a 15 percent repeat rate, 6 visits cost 6 x R$ 220 = '
+                                        'R$ 1.320. After a handover checklist the rate falls to 5 '
+                                        'percent, 2 visits, costing R$ 440. Saving is R$ 880 a '
+                                        'month. Training 2 technicians for 10 hours at R$ 75 per '
+                                        'hour costs R$ 1.500, which pays back in 1,70 months.'),
+                             'growth': ('Keep a monthly sheet with new connections, cancellations, '
+                                        'hours to repair and complaints per hundred customers. '
+                                        'Divide cancellations by customers at the start of the '
+                                        'month to get churn, then rank neighborhoods by churn and '
+                                        'fix the worst one first. Phone people whose promotion '
+                                        'ends next month and offer a speed check rather than a '
+                                        'discount. Ask each person who cancels one question and '
+                                        'write the answer word for word. Never advertise a speed '
+                                        'your last-mile cable cannot sustain at night. Check the '
+                                        'current official text of consumer rules for contract and '
+                                        'cancellation terms before you change any paper.',
+                                        'You start the month with 60 racks and 3 customers leave, '
+                                        'so churn is 3 / 60 = 5 percent. Each lost rack removes R$ '
+                                        '1.100 of contribution, so the loss is 3 x R$ 1.100 = R$ '
+                                        '3.300 a month, or R$ 5.400 of revenue. A faster repair '
+                                        'routine cuts churn to 2 percent, about 1 rack, so you '
+                                        'keep 2 more racks. That is worth 2 x R$ 1.100 = R$ 2.200 '
+                                        'a month. Profit at 59 racks is R$ 14.900.')},
+ 'International Trade': {'offer': ('Pick one product group and one route, such as machine spare '
+                                   'parts arriving by sea, and write the chain from factory gate '
+                                   'to shop shelf: supplier price, incoterm, freight, insurance, '
+                                   'import tax, clearance and inland delivery. Request quotes on '
+                                   'two routes and compare them by landed cost per shipment, not '
+                                   'by invoice price. Choose the incoterm that matches what your '
+                                   'team can control. Show the client each cost line in plain '
+                                   'words with the exchange rate and its date. Hire a licensed '
+                                   'customs professional where the rules require one. Check the '
+                                   'current official text of customs and tax rules before you '
+                                   'quote.',
+                                   "You sell managed shipments delivered to the client's warehouse "
+                                   'at R$ 25.000 per shipment. Your direct cost is R$ 21.000, '
+                                   'including goods, freight, taxes and local transport, so '
+                                   'contribution is R$ 4.000, 16 percent of the price. With 4 '
+                                   'shipments revenue is R$ 100.000, variable cost R$ 84.000 and '
+                                   'contribution R$ 16.000. After fixed cost of R$ 9.000 a month, '
+                                   'profit is R$ 7.000. Break-even is R$ 9.000 / R$ 4.000 = 2,25, '
+                                   'so 3 shipments.'),
+                         'people': ('Assign each shipment one document owner and one backup. Hand '
+                                    'a trainee a finished sample file and ask for the invoice, '
+                                    'packing list and transport document to be rebuilt from the '
+                                    'order alone, then compare line by line. Teach the double read '
+                                    'of names, quantities and tariff codes, since one wrong digit '
+                                    'can hold a container at the port. Keep a shared tracker with '
+                                    'dates, owners and the next action. Draft short, polite '
+                                    'messages to suppliers abroad that respect their time zone. '
+                                    'Sort every error by type each week, such as weight, code or '
+                                    'consignee, and keep a log of every promise made.',
+                                    'Your team ships 4 containers per month, 12 per quarter. A '
+                                    'document error costs R$ 1.500 in storage and delay. At 2 '
+                                    'errors per quarter, a 16,7 percent rate, the cost is 2 x R$ '
+                                    '1.500 = R$ 3.000. A double-check step of 20 minutes per '
+                                    'shipment, 4 hours per quarter, cuts errors to 1, costing R$ '
+                                    '1.500. The saving is R$ 1.500 per quarter, or R$ 500 a month. '
+                                    'Training two clerks for 6 hours at R$ 60 costs R$ 720, paid '
+                                    'back in 1,44 months.'),
+                         'growth': ('Compare plan and actual landed cost on every shipment and '
+                                    'write the gap in reais and in percent. Track days from '
+                                    'purchase order to shelf, share of shipments with a problem '
+                                    'and margin per product. Set a price-update rule tied to the '
+                                    'exchange rate, for example review when the dollar moves five '
+                                    'percent from the quoted day. Score suppliers on defects and '
+                                    'delay, and renew only those above your line. Meet your main '
+                                    'client each quarter to propose a consolidated shipment or a '
+                                    'cheaper route. List the products to drop. Promise no returns, '
+                                    'and check the current official text of trade rules, since '
+                                    'they change often.',
+                                    'Part of your R$ 21.000 cost is USD 2.800, planned at R$ 5,00, '
+                                    'or R$ 14.000. The real weakens to R$ 5,40, so that part costs '
+                                    'R$ 15.120, an overrun of R$ 1.120. Cost per shipment becomes '
+                                    'R$ 22.120 and contribution R$ 2.880. At 4 shipments profit is '
+                                    'R$ 2.520 instead of R$ 7.000. Raising the price to R$ 26.120 '
+                                    'restores R$ 4.000 of contribution per shipment, a rise of 4,5 '
+                                    'percent.')},
+ 'Tourist Automation': {'offer': ('Visit a small guesthouse or tour guide and list every message '
+                                  'sent twice: booking confirmation, directions to the door, '
+                                  'check-in code, Wi-Fi password, late checkout rule, review '
+                                  'request. Count each per week and automate the three that eat '
+                                  'the most time, using a form plus scheduled messages before any '
+                                  'costly platform. Compare two tools by monthly price, language '
+                                  'support and how easily the owner edits a text alone. Mark what '
+                                  'stays with a person: complaints, allergies, special '
+                                  'celebrations. Show the owner hours saved and bookings no longer '
+                                  'missed overnight. Protect guest data and check the current '
+                                  'official text of data protection rules.',
+                                  'A tour operator pays you R$ 60 for each booking you take, '
+                                  'confirm and remind by automatic messages. Handling, payment and '
+                                  'support cost R$ 22 per booking, so each leaves R$ 38, 63,3 '
+                                  'percent of the price. At 500 bookings revenue is R$ 30.000, '
+                                  'variable cost R$ 11.000 and contribution R$ 19.000. After fixed '
+                                  'cost of R$ 12.000 for tools and staff, profit is R$ 7.000. '
+                                  'Break-even is R$ 12.000 / R$ 38 = 315,79, so 316 bookings a '
+                                  'month.'),
+                        'people': ('Give every automated message a named owner and a daily inbox '
+                                   'check at nine in the morning. Ask each staff member to play '
+                                   'the guest on a phone, booking a room in Portuguese and then in '
+                                   'English, and to write down every confusing step. Rehearse the '
+                                   'hand-over line: a calm sentence that tells the guest a person '
+                                   'will reply within the hour. Read ten real conversations every '
+                                   'Friday and mark where the guest asked again. Rewrite any reply '
+                                   'with a clear local touch, like naming the bakery on the '
+                                   'corner. Nominate a backup for holidays and write the steps so '
+                                   'a newcomer can follow them.',
+                                   'Of your 500 bookings, 45 need a manual fix because the '
+                                   'automatic reply missed the question, a rate of 45 / 500 = 9 '
+                                   'percent. Each fix costs R$ 18 of staff time, so the loss is 45 '
+                                   'x R$ 18 = R$ 810. After rewriting the five weakest replies, '
+                                   'fixes fall to 20, 4 percent, costing R$ 360. You save R$ 450 a '
+                                   'month. Training 3 agents for 4 hours at R$ 30 per hour costs '
+                                   'R$ 360, which pays back in 0,80 months.'),
+                        'growth': ('Follow the guest from first question to review and count five '
+                                   'points: replies sent within an hour, bookings per hundred '
+                                   'inquiries, repeat guests, review score and the month with the '
+                                   'emptiest rooms. Change one thing at a time, such as a faster '
+                                   'first reply or a price list with photos, and keep it for a '
+                                   'full month before judging. Send a thank-you note after '
+                                   'checkout with a small perk that costs you little, such as a '
+                                   'late coffee. Prepare a rainy-season offer for low months. Keep '
+                                   'only the automations that raise bookings. Never promise full '
+                                   'occupancy to the owner.',
+                                   'You receive 2.500 enquiries a month and 500 become bookings, '
+                                   'so conversion is 20 percent. A faster automatic reply lifts it '
+                                   'to 22 percent, which is 550 bookings, 50 more. Each booking '
+                                   'adds R$ 38, so the gain is 50 x R$ 38 = R$ 1.900 a month. '
+                                   'Fixed cost stays at R$ 12.000, so profit rises from R$ 7.000 '
+                                   'to R$ 8.900.')},
+ 'Online / AI Investment Management': {'offer': ('Teach how investing tools work and never sell a '
+                                                 'result. Describe your learner: an adult who has '
+                                                 'a payslip, a savings goal and no idea how an '
+                                                 'automated advice screen reaches its suggestion. '
+                                                 'Plan four lessons: read a statement line by '
+                                                 'line, compare fees on two sample products, see '
+                                                 'how spreading risk works with a toy example, '
+                                                 'spot a scam message. Say plainly what you cannot '
+                                                 'do: you do not pick products and you do not hold '
+                                                 "anyone's money. Check the current official text "
+                                                 "of securities rules and the regulator's guidance "
+                                                 'before publishing. Prepare a checklist, a '
+                                                 'worksheet and a glossary.',
+                                                 'You sell a monthly reporting subscription for '
+                                                 'people who follow a model portfolio. The price '
+                                                 'is R$ 95 per client, and data, support and '
+                                                 'hosting cost R$ 25 per client, so contribution '
+                                                 'is R$ 70, 73,7 percent of the price. With 300 '
+                                                 'clients revenue is R$ 28.500, variable cost R$ '
+                                                 '7.500 and contribution R$ 21.000. After fixed '
+                                                 'cost of R$ 20.000, profit is R$ 1.000, a margin '
+                                                 'of 0,0 percent. Break-even is R$ 20.000 / R$ 70 '
+                                                 '= 285,71, so 286 clients. The service teaches; '
+                                                 'it does not recommend.'),
+                                       'people': ('Set a speaking rule for every tutor: explain '
+                                                  'ideas, never recommend a product. Ask each '
+                                                  'tutor to teach risk twice, once with a jar of '
+                                                  'coins that sometimes shrinks and once with a '
+                                                  'bank statement, then record which version the '
+                                                  'learners follow. Practise the stop sentence: '
+                                                  'this question needs a licensed professional, '
+                                                  'here is how to find one. Write a list of fraud '
+                                                  'warning signs, such as pressure to decide '
+                                                  'today, and drill it with role play. Name a '
+                                                  'reviewer who reads every slide before use and '
+                                                  'marks any wording that sounds like a promise. '
+                                                  'Quiz learners with five questions after each '
+                                                  'session.',
+                                                  'A reviewer checks a sample of 40 client reports '
+                                                  'for wording that sounds like a promise. In the '
+                                                  'first pass 6 contain it, a rate of 6 / 40 = 15 '
+                                                  'percent. Across 300 clients that would be 45 '
+                                                  'reports, and each costs R$ 12 of rework, so R$ '
+                                                  '540. After a wording guide only 2 of 40 fail, 5 '
+                                                  'percent, or 15 across 300, costing R$ 180. You '
+                                                  'save R$ 360 a month. Training 2 reviewers for 5 '
+                                                  'hours at R$ 40 costs R$ 400, repaid in 1,11 '
+                                                  'months.'),
+                                       'growth': ('Count learning, not gains. At the end of each '
+                                                  'course record starters, finishers, learners who '
+                                                  'pass the closing quiz and learners who can '
+                                                  'explain a fee in their own words to a neighbor. '
+                                                  'Divide finishers by starters, then read the '
+                                                  'quiz item that most people missed and rewrite '
+                                                  'that lesson. Send past learners an updated '
+                                                  'example every quarter and invite them to a '
+                                                  'refresher. Treat complaints as a lesson map. '
+                                                  'Never show past returns or promised gains as '
+                                                  'proof of quality. Check the current official '
+                                                  'text of advertising rules for financial topics '
+                                                  'before you publish a single result.',
+                                                  'You start the month with 300 clients and 15 '
+                                                  'cancel, so churn is 15 / 300 = 5 percent. Each '
+                                                  'client is worth R$ 70 of contribution, so the '
+                                                  'loss is 15 x R$ 70 = R$ 1.050 a month. After a '
+                                                  'clearer lesson on risk and loss, churn falls to '
+                                                  '3 percent, 9 clients, so you keep 6 more worth '
+                                                  '6 x R$ 70 = R$ 420 a month. Without that effect '
+                                                  'the base drops to 285 clients, below the '
+                                                  'break-even of 286, and profit becomes R$ -50.')},
+ 'Universities': {'offer': ('Start from a gap that students or local firms can name, such as no '
+                            'hands-on course in spreadsheets for first-year commerce students. '
+                            'Write the path from entry to outcome: prerequisites, weekly hours, a '
+                            'graded project with a real local partner and the support offered on '
+                            'the way. Check the catalog for overlap and keep only what is new. '
+                            'Cost the course from instructor hours, room and materials, then split '
+                            'by seats. State the outcome in one plain sentence, for example: a '
+                            'graduate can build a monthly cash plan for a small shop. Check the '
+                            'current official text of education rules for course approval and '
+                            'credit.',
+                            'A practical course is sold at R$ 4.800 per student term. Teaching and '
+                            'materials cost R$ 2.600, so each leaves R$ 2.200, 45,8 percent. With '
+                            '120 student terms in a month, revenue is R$ 576.000, variable cost R$ '
+                            '312.000 and contribution R$ 264.000. After fixed cost of R$ 90.000, '
+                            'profit is R$ 174.000, a margin of 0,3 percent. Break-even is R$ '
+                            '90.000 / R$ 2.200 = 40,91, so 41 student terms.'),
+                  'people': ('Hire assistants to carry the part of teaching that needs small '
+                             'groups. Train each assistant to run a ten-minute pair exercise, to '
+                             'read a gradebook for students who missed three sessions and to write '
+                             "a first message that is kind and short. Sit in a colleague's lecture "
+                             'once a term and trade written notes the same week. Collect a '
+                             'three-question mid-term form and change one thing before week eight. '
+                             'Keep office hours posted outside the door and reply to messages '
+                             'inside two working days. Give every new teacher a mentor for the '
+                             'first semester and a workload that leaves time to prepare.',
+                             'One teaching assistant supports 3 groups, 6 hours a week per group, '
+                             'at R$ 35 per hour. Weekly cost is 3 x 6 x R$ 35 = R$ 630, and over 4 '
+                             'weeks R$ 2.520. If advising keeps 6 more of 120 student terms from '
+                             'dropping out, the gain is 6 x R$ 2.200 = R$ 13.200 a month. Net '
+                             'benefit is R$ 13.200 - R$ 2.520 = R$ 10.680. The cost per retained '
+                             'student is R$ 2.520 / 6 = R$ 420.'),
+                  'growth': ('Follow each cohort from first day to what graduates do six months '
+                             'later. Count enrolled, attending in week four, finished and working '
+                             'or studying after the course. Divide finishers by starters and '
+                             'compare cohorts side by side. Ask students who left to name the '
+                             'moment they decided, then test one fix, such as an evening group. '
+                             'Meet employers and alumni each year to revise the content list, and '
+                             'tell new students what changed before they enroll. Publish weak '
+                             'results as well as strong ones and discuss them with teachers. Check '
+                             'the current official text of education rules before advertising '
+                             'outcomes or credentials.',
+                             'A cohort starts with 120 student terms and 96 finish, so completion '
+                             'is 96 / 120 = 80 percent, with 24 dropouts. After adding evening '
+                             'classes the next cohort of 120 has 105 finishers, 87,5 percent, 9 '
+                             'more. Each retained student brings R$ 2.200 of contribution, so 9 x '
+                             'R$ 2.200 = R$ 19.800. Extra teaching costs R$ 8.000, so the net gain '
+                             'is R$ 11.800 per term. Profit moves from R$ 174.000 to R$ 185.800.')},
+ 'Technical & Vocational Schools': {'offer': ('Interview three employers who are hiring and ask '
+                                              'each to describe the first week of a new hire: '
+                                              'which machine is used, which reading is taken, '
+                                              'which form is signed. Turn the answers into '
+                                              'outcomes with verbs such as install, measure, '
+                                              'diagnose and document. Lay out hours so at least '
+                                              'half are on the shop floor, and list the equipment, '
+                                              'consumables and safety gear per learner. Pick a '
+                                              'class size the workshop can handle. Cost the course '
+                                              'per learner before you announce a date. Check the '
+                                              'current official text of technical education rules '
+                                              'for approval, safety and certificate requirements.',
+                                              'A welding course charges R$ 600 per learner a '
+                                              'month. Instructor hours, gas, metal and masks cost '
+                                              'R$ 280 per learner, so each leaves R$ 320, 53,3 '
+                                              'percent. With 90 learners revenue is R$ 54.000, '
+                                              'variable cost R$ 25.200 and contribution R$ 28.800. '
+                                              'After fixed cost of R$ 25.000 for workshop rent, '
+                                              'machines and administration, profit is R$ 3.800. '
+                                              'Break-even is R$ 25.000 / R$ 320 = 78,12, so 79 '
+                                              'learners. An employer partner sponsoring 10 seats '
+                                              'adds 10 x R$ 320 = R$ 3.200.'),
+                                    'people': ('Recruit instructors who worked in the trade within '
+                                               'the last five years and teach them a four-step '
+                                               'routine: demonstrate, let the learner try, '
+                                               'correct, repeat. Open every workshop with a '
+                                               'two-minute safety briefing at the bench and make '
+                                               'it a rule that no one starts without it. Hire a '
+                                               'tool technician who logs each broken item with the '
+                                               'date and the cause. Grade skills with a practical '
+                                               'checklist at the machine, not only with a written '
+                                               'paper. Send each instructor to visit a workplace '
+                                               'once a year. Call any learner who misses two '
+                                               'sessions, and adapt explanations to mixed ages.',
+                                               'An instructor spends 2 days a year visiting two '
+                                               'workplaces, costing 2 x R$ 400 = R$ 800 in class '
+                                               'cover. With 90 learners benefiting, the visit '
+                                               'costs R$ 800 / 90 = R$ 8,89 per learner. A student '
+                                               'assistant who logs tool faults for 1 hour a week '
+                                               'at R$ 25 costs R$ 100 a month, while fewer broken '
+                                               'tools save about R$ 10 per learner, 90 x R$ 10 = '
+                                               'R$ 900. Net benefit is R$ 800 a month.'),
+                                    'growth': ('Call graduates at three and six months and ask '
+                                               'three things: are you employed, is the job related '
+                                               'to the course, and which skill was missing on day '
+                                               'one. Divide employed graduates by those reached to '
+                                               'get placement, and note how many you failed to '
+                                               'reach. Set low-placement courses beside strong '
+                                               'ones and retire the weakest after two cohorts. Sit '
+                                               'with employers once a year to update the module '
+                                               'list. Rank workshop equipment by age and plan '
+                                               'which piece to replace first. Report plain numbers '
+                                               'and promise no jobs. Check the current official '
+                                               'text of education rules before you publish '
+                                               'placement figures.',
+                                               'A course has 90 learners and 12 leave early, a '
+                                               'dropout of 13,3 percent. After a workshop buddy '
+                                               'system, 8 leave, 8,9 percent. You keep 4 more '
+                                               'learners, worth 4 x R$ 320 = R$ 1.280 a month. Of '
+                                               '40 graduates you reach 32 after six months and 22 '
+                                               'work in the field, 68,8 percent. After a new '
+                                               'drawing-reading module, 27 of 34 work in the '
+                                               'field, 79,4 percent, a rise of 10,6 points.')},
+ 'Sustainability Management': {'offer': ('Begin with a baseline for a small bakery, clinic or '
+                                         'workshop: copy twelve months of electricity, water and '
+                                         'waste bills into one sheet and read the meters on a '
+                                         'normal day. Find the three biggest costs and the hours '
+                                         'they run. Pick two or three actions with a short '
+                                         'payback, such as efficient lamps, door seals on cold '
+                                         'rooms or a sorting corner for recyclables. Compare each '
+                                         'by cost, installation time and expected saving in '
+                                         'kilowatt-hours. Report results in reais and in units, '
+                                         'never in vague green words. Check the current official '
+                                         'text of environmental and labeling rules before you '
+                                         'publish a statement about a product.',
+                                         'Your assessment of one client site is priced at R$ '
+                                         '9.000. Field work and reporting cost R$ 3.500 per '
+                                         'assessment, so contribution is R$ 5.500, 61,1 percent. '
+                                         'With 6 assessments revenue is R$ 54.000, variable cost '
+                                         'R$ 21.000 and contribution R$ 33.000. After fixed cost '
+                                         'of R$ 15.000 a month, profit is R$ 18.000. Break-even is '
+                                         '3 assessments. A client that cuts 18 percent of an R$ '
+                                         '8.000 electricity bill and saves R$ 560 in waste gains '
+                                         'R$ 2.000 a month, repaying the price in 4,5 months.'),
+                               'people': ('Name one champion in each team: a cook, a driver, a '
+                                          'cleaner, a clerk. Give each a single weekly task, such '
+                                          'as reading the water meter on Monday or emptying and '
+                                          'weighing the sorting bins. Walk the premises together '
+                                          'with the team and ask them to point at every tap left '
+                                          'running, light left on and bin mixed up. Count rather '
+                                          'than guess: kilograms of waste, liters of water, '
+                                          'kilowatt-hours. Thank the team in the Friday meeting '
+                                          'when a number improves. Tailor the message, since '
+                                          'drivers control fuel and cleaners control detergent. '
+                                          'Draft a one-page guide in plain words and revise it '
+                                          'after feedback.',
+                                          'One assessment takes 40 field hours at R$ 87,50, which '
+                                          'is R$ 3.500, close to the variable cost of R$ 3.500. '
+                                          'After training two assessors on a checklist, an '
+                                          'assessment takes 34 hours, costing R$ 2.975. You save '
+                                          'R$ 525 per assessment, or R$ 3.150 on 6 assessments a '
+                                          'month. Training costs 2 x 8 hours x R$ 100 = R$ 1.600, '
+                                          'paid back in 0,51 months.'),
+                               'growth': ('Record monthly use of energy, water and materials, plus '
+                                          'the weight of waste sent to landfill. Divide each by '
+                                          'output, for example liters per assessment report '
+                                          'produced, so a busy month does not hide real progress. '
+                                          'Compare against the baseline year and set the next '
+                                          'target only after the last one is met or explained. Put '
+                                          'sites side by side and copy the habit of the best one. '
+                                          'Review the plan yearly and retire actions that stalled. '
+                                          'Say openly which targets you missed. Avoid claims you '
+                                          'cannot prove, and check the current official text of '
+                                          'reporting and claims rules.',
+                                          'You send 15 proposals a month and win 6, so conversion '
+                                          'is 6 / 15 = 40 percent. A visit to a past client lifts '
+                                          'wins to 8, or 53,3 percent. Two more assessments add 2 '
+                                          'x R$ 5.500 = R$ 11.000 of contribution. Profit rises '
+                                          'from R$ 18.000 to R$ 29.000. Revenue goes from R$ '
+                                          '54.000 to R$ 72.000.')},
+ 'Drones': {'offer': ('Choose one job, for example roof inspection for apartment buildings, and '
+                      'write what the client receives: georeferenced photos, a defect list and a '
+                      'short report. Compare your flight with the present method, such as a rope '
+                      'crew, on price, time on site and risk to people. Pick an aircraft and '
+                      'camera that match the job and cost an hour of flight: battery cycles, '
+                      'propeller wear, insurance and processing software. Tell the client what '
+                      'weather stops work. Register the aircraft and plan flight areas only after '
+                      'you check the current official text of aviation authority rules for '
+                      'commercial operations.',
+                      'A building manager needs roof inspections. A rope crew costs the client R$ '
+                      '4.000 per building. You price a flight job at R$ 2.500 with a photo report. '
+                      'Your cost per job is R$ 900 for batteries, pilot, processing and travel, so '
+                      'contribution is R$ 1.600, 64 percent. With 12 jobs revenue is R$ 30.000, '
+                      'variable cost R$ 10.800 and contribution R$ 19.200. After fixed cost of R$ '
+                      '12.000, profit is R$ 7.200. Break-even is R$ 12.000 / R$ 1.600 = 7,50, so 8 '
+                      'jobs.'),
+            'people': ('Assign four jobs on each mission: pilot, visual observer, data processor '
+                       'and client contact. Start new pilots on an open training field and make '
+                       'them read a pre-flight card aloud before every takeoff: battery charge, '
+                       'propeller tightness, wind, satellite lock and signal. Write one rule in '
+                       'capitals: if conditions are unsafe, the pilot lands, and no client can '
+                       'overrule it. Review the log and the footage after each mission with the '
+                       'whole crew. Prepare a two-minute briefing for the client about what will '
+                       'and will not be photographed. Plan rest after long days, and name one '
+                       'person who keeps flight, repair and incident records.',
+                       'A new pilot logs 40 flight hours in training before solo jobs. Batteries '
+                       'and wear cost R$ 40 per hour, so 40 x R$ 40 = R$ 1.600, and a course costs '
+                       'R$ 800, a total of R$ 2.400. Each solo job leaves R$ 1.600 of '
+                       'contribution. The training cost returns after R$ 2.400 / R$ 1.600 = 1,50 '
+                       'jobs. A second pilot also lets you add 4 jobs a month, worth 4 x R$ 1.600 '
+                       '= R$ 6.400.'),
+            'growth': ('Log every flight: planned, done, redone and why. Compute revenue per '
+                       'flight hour for each job type and compare roof, field and construction '
+                       'work to see which pays best. Offer a quarterly inspection contract and '
+                       'send a reminder two weeks before each date. Read every incident and near '
+                       'miss aloud at the monthly meeting and write one change in the checklist. '
+                       'Launch only one new service at a time, such as thermal images, and test it '
+                       'on a friendly client. Promise only what your data shows. Check the current '
+                       'official text of aviation rules, which change.',
+                       'In a month you fly 12 jobs and 3 need a reflight because of blurry images, '
+                       'a reflight rate of 3 / 12 = 25 percent. Each reflight costs R$ 350 in '
+                       'battery and travel, so waste is 3 x R$ 350 = R$ 1.050. After a pre-flight '
+                       'camera check, reflights fall to 1, costing R$ 350, a saving of R$ 700. A '
+                       'contract with 3 more jobs a month adds 3 x R$ 1.600 = R$ 4.800, so profit '
+                       'rises from R$ 7.200 to R$ 12.000.')},
+ 'Distribution Companies': {'offer': ('List the shops you can serve on time with the trucks and '
+                                      'stock you have, and sketch each route on a map with the '
+                                      'stops in order. Mark where hours vanish: a narrow street, a '
+                                      'closed loading dock, a long queue at the supplier. Offer '
+                                      'two service levels only, such as next-day for large buyers '
+                                      'and twice weekly for small ones. Divide the daily route '
+                                      'cost by stops to see cost per delivery, then set a minimum '
+                                      'order that makes each stop pay. Write return and damage '
+                                      'terms on the delivery note. Check the current official text '
+                                      'of transport and tax rules, which vary by product and '
+                                      'route.',
+                                      'A distributor sells delivery as route days at R$ 2.200 per '
+                                      'route day. A truck serves 14 shops a day, so revenue per '
+                                      'stop is R$ 157,14. Driver and fuel cost R$ 1.500 per route '
+                                      'day, so contribution is R$ 700 per route day, R$ 50,00 per '
+                                      'stop. With 60 route days revenue is R$ 132.000, variable '
+                                      'cost R$ 90.000 and contribution R$ 42.000. After fixed cost '
+                                      'of R$ 30.000, profit is R$ 12.000. Break-even is R$ 30.000 '
+                                      '/ R$ 700 = 42,86, so 43 route days.'),
+                            'people': ('Write a job card for each post: picker, loader, driver, '
+                                       'dispatcher, sales representative. Train pickers on sample '
+                                       'orders and time each line picked. Load the truck in '
+                                       'reverse delivery order and ask the loader to tick the '
+                                       'delivery note against the boxes at the dock. Teach drivers '
+                                       'to greet the shop owner, count the goods together and call '
+                                       'the dispatcher the moment a delivery is refused. Choose '
+                                       'one person to review all wrong-item cases on Monday. '
+                                       "Rotate heavy lifting to protect backs and post the day's "
+                                       'route on the wall at six in the morning so everyone knows '
+                                       'what comes first.',
+                                       '60 route days of 14 stops give 840 stops a month. A '
+                                       'picking error forces a second trip costing R$ 120. At a 5 '
+                                       'percent error rate, 42 stops cost 42 x R$ 120 = R$ 5.040. '
+                                       'After a scan-and-check step, errors fall to 2,5 percent, '
+                                       '21 stops, costing R$ 2.520. You save R$ 2.520 a month. '
+                                       'Training 4 pickers for 6 hours at R$ 40 costs R$ 960, paid '
+                                       'back in 0,38 months.'),
+                            'growth': ('Post a weekly scoreboard: deliveries on time and complete, '
+                                       'stock-outs, cost per delivery and reorder rate by '
+                                       'customer. Sort products by days on the shelf and decide '
+                                       'for each slow item whether to bundle it, mark it down or '
+                                       'stop buying it. Visit the five largest customers every '
+                                       "quarter with last quarter's numbers in hand and offer a "
+                                       'change that helps both sides, like a fixed delivery '
+                                       'weekday. Explain every figure in plain words to drivers '
+                                       'and pickers. Promise no growth to the owner. Check the '
+                                       'current official text of commercial and tax rules before '
+                                       'changing any term with a customer.',
+                                       'Last month 840 stops were planned and 756 were on time and '
+                                       'complete, so the service level is 756 / 840 = 90 percent. '
+                                       'The goal is 95 percent, or 798 stops, a gap of 42. Each '
+                                       'late stop costs R$ 45, so closing the gap saves 42 x R$ 45 '
+                                       '= R$ 1.890 a month, which covers a R$ 300 route tool with '
+                                       'R$ 1.590 left. Five more route days would add 5 x R$ 700 = '
+                                       'R$ 3.500.')}}

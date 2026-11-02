@@ -1,46 +1,220 @@
-LONG = {
-'Internet Companies': (
-"A small online shop in Sao Paulo sells handmade leather bags to customers across Brazil. Last month the site had 18,000 visits and 360 orders, so 2 percent of visitors bought. The average order was R$ 240, giving R$ 86,400 in sales. The owner spent R$ 9,000 on online ads and believes more ads always mean more sales. But the cart abandonment rate is 74 percent, and many shoppers leave at the shipping step, where the quoted freight is often R$ 38. Two employees answer messages by hand, and replies take about 9 hours. The owner asks a student to analyze the numbers and decide where the next R$ 3,000 of effort should go: more ads, a faster checkout, or quicker replies. The student must explain the choice using the data, not a guess.",
-"First, list the funnel steps with counts: visits, product views, carts, payments, and paid orders. Next, compute each step's drop rate; here 74 percent of carts are lost, which is the largest leak. Then compare options: if abandonment fell from 74 to 70 percent, carts that finish would rise by about 15 percent, and 360 orders would become roughly 414 orders, or about R$ 99,400 in sales, with no new ad spend. Spending R$ 3,000 more on ads at the same 2 percent rate buys fewer sure gains. Next, test one change at a time, for example showing the freight cost earlier, for two weeks. Last, record the result. Records to keep: weekly funnel counts, ad spend, average order value, reply time, and test dates. Re-compute the cost per order: R$ 9,000 divided by 360 equals R$ 25. Standard to meet: every spending choice must show a before number, an after number, and one named test.")
-,
-'IT': (
-"A small IT support team of three people serves 40 local offices in Sao Paulo. Each month it handles about 520 tickets. The average first reply takes 5 hours, and the team lead says clients are unhappy. Payroll for the team is R$ 21,000 per month, so one ticket costs roughly R$ 40 of labor. A review shows that 140 tickets, about 27 percent, are the same request: password resets, each taking 12 minutes. Another 60 tickets come from one old printer model that jams often. The lead has R$ 4,000 to improve service this quarter. A junior technician must apply what she learned in class: sort the tickets, find the biggest repeat cause, and propose a fix that can be measured. She cannot simply ask for more staff, because the budget is fixed.",
-"First, export the last three months of tickets and label each by cause: password, printer, network, software, other. Next, count them and rank the causes. Here passwords are 140 of 520, and 140 times 12 minutes equals 1,680 minutes, or 28 hours of work each month. Then choose one fix that removes repeat work, such as a written self-service reset guide or a reset tool that clients can use themselves. Estimate the saving: if half the resets disappear, 14 hours return to the team. Next, check whether the old printers should be replaced, comparing repair hours with a quote. Last, measure again after 30 days. Records to keep: the ticket export, the cause table, reply times, and the quote. Re-compute the cost per ticket: R$ 21,000 divided by 520 is about R$ 40. Standard to meet: first reply under 3 hours for 90 percent of tickets, shown in a monthly report.")
-,
-'Health': (
-"A private physiotherapy clinic in Sao Paulo has two rooms and four therapists. It books 300 sessions per month at R$ 120 each. Lately about 20 percent of booked patients do not show up, so the clinic loses sessions it could have filled. Fixed costs are R$ 22,000 per month for rent, salaries, and supplies. The manager reads that reminder messages may help, but she does not know if it is worth the time. She also must protect patient data, since health records are sensitive personal information. Reception currently keeps appointments in a paper notebook and a shared spreadsheet that anyone can open. She asks a new staff member to explain what is wrong, estimate the loss from no-shows, and propose a safer and better process. The proposal must use the clinic's own numbers.",
-"First, count the loss. Twenty percent of 300 sessions is 60 missed sessions, and 60 times R$ 120 equals R$ 7,200 each month. Next, record every no-show for four weeks with date, time, therapist, and reason if known. Then test a reminder one day before each visit, using only the contact permission the patient gave. If reminders cut no-shows from 20 to 12 percent, missed sessions fall from 60 to 36, and R$ 2,880 per month is recovered. Next, move the schedule from the open spreadsheet to a protected system with named user access, so only needed staff see patient data. Last, check the current official text of the data protection law and the health council rules for your role. Records to keep: no-show log, consent record, access list, and monthly revenue. Standard to meet: no-shows below 12 percent, and every access to patient data tied to a named person.")
-,
-'Real Estate': (
-"A young couple in Sao Paulo wants to rent out a small apartment they inherited. They expect monthly rent of R$ 2,800. The building fee is R$ 650 per month, the yearly property tax is R$ 1,440, and repairs before the first tenant will cost about R$ 6,000. The couple also wants to know whether the place stays empty some months. A friend says that renting is always profit. A local agent says the apartment may sit empty for two months a year. The couple has never kept rental records and does not know which costs the owner pays and which the tenant pays. They ask a student to build a simple yearly cash view, show how vacancy changes the result, and list what documents to keep. They do not want investment promises, only clear arithmetic.",
-"First, list the yearly income: R$ 2,800 times 12 equals R$ 33,600 if rented all year. Next, subtract vacancy: with two empty months, income is R$ 2,800 times 10, or R$ 28,000. Then list owner costs: building fee R$ 650 times 12 equals R$ 7,800 if the owner pays it during empty months, plus property tax R$ 1,440. Next, add the one-time repair of R$ 6,000 in year one. Compute the result: R$ 28,000 minus R$ 7,800 minus R$ 1,440 minus R$ 6,000 leaves R$ 12,760 before income tax. Then check the current official text on rent contracts and on income tax for rental income. Last, keep records. Records to keep: signed contract, inspection photos, rent receipts, fee and tax bills, repair invoices, and a monthly ledger. Standard to meet: every real number has a document, and the cash view is updated each month, showing vacancy separately.")
-,
-'Food': (
-"A family runs a small lunch restaurant in Sao Paulo that serves 90 plates per day, six days a week. The plate sells for R$ 32. Ingredients cost R$ 13 per plate on paper, but the owner notices the monthly food purchase is R$ 33,000. Over a month the restaurant sells about 2,160 plates, so real ingredient cost per plate is higher than planned. The cook admits some food is thrown away because rice and beans are cooked in too large batches, and the cold room is sometimes warm. The owner worries about food safety and about money. She asks an employee to measure waste for two weeks, compare it with the plan, and propose changes to batch size and storage. The employee must show the numbers and the safety checks, not just say that waste is high.",
-"First, weigh and record all food thrown away each day for 14 days, with the reason: overcooked, expired, or leftover. Next, compute real cost per plate: R$ 33,000 divided by 2,160 equals about R$ 15.28 for purchases alone, so compare this with the planned recipe cost and look at the gap by item, since the paper figure of R$ 13 may include costs not in purchases. Then change batch sizes using the daily sales pattern, cooking a second smaller batch at midday. Next, check and write the cold room temperature twice a day, and label every container with date. Last, review the current official text of local food hygiene rules. Records to keep: waste log, purchase invoices, temperature sheet, and recipe cards. Re-compute waste cost weekly. Standard to meet: waste down by a stated percent within one month, and every temperature reading inside the safe range written on the sheet.")
-,
-'Energy': (
-"A small bakery in Sao Paulo pays R$ 2,400 per month for electricity. The owner uses two ovens, one cold room, and old lighting. The oven runs 10 hours a day, and the cold room never stops. A technician reports that lighting uses about 12 percent of the bill and the cold room about 30 percent, and that door gaskets on the cold room are worn. New efficient lamps would cost R$ 1,800 for the shop. New gaskets cost R$ 350. The owner wants to cut the bill but has only R$ 2,500 to spend this season and does not want to guess. She asks a worker to read the electricity bill, estimate savings from each action, rank the actions, and explain how to check results after the change. The worker must show the arithmetic clearly.",
-"First, read the last six bills and write the kWh used and the value paid each month, so you know the normal level. Next, split the R$ 2,400 using the technician's shares: lighting 12 percent equals R$ 288, and the cold room 30 percent equals R$ 720. Then estimate each saving. If lamps cut lighting use by half, the saving is about R$ 144 per month, and R$ 1,800 divided by R$ 144 is 12.5 months to pay back. If new gaskets cut cold room use by 10 percent, the saving is R$ 72 per month, and R$ 350 divided by R$ 72 is about 4.9 months. Rank the gaskets first, then lamps if money remains. Next, install and compare the next three bills with the six-month normal, adjusting for production. Records to keep: bills, quotes, invoices, installation dates, and a monthly kWh table. Standard to meet: each action shows a measured kWh change, not only a promise.")
-,
-'Oil & Gas': (
-"A small distributor in the Sao Paulo region delivers cooking gas cylinders to homes and small shops. Each driver makes about 45 deliveries per day. A cylinder is sold for R$ 130, and the company pays R$ 105 at the supplier. The truck costs R$ 180 a day in fuel and upkeep, and the driver earns R$ 140 a day. Last month a driver dropped a cylinder at a delivery, and nobody was hurt, but the manager realized the team has no written safety routine and no log of cylinder checks. Customers also complain of late deliveries. The manager asks a team member to compute the daily margin per truck, find the safety gaps, and write a short checklist for loading, transport, and delivery. The checklist must be simple enough for drivers to use.",
-"First, compute the daily margin. Each cylinder earns R$ 130 minus R$ 105, or R$ 25. Forty-five deliveries give R$ 1,125. Subtract truck cost R$ 180 and driver pay R$ 140, leaving R$ 805 before other costs. Next, walk the route and list the risk points: loading, tie-down, stacking, handing over, and leaks. Then write a checklist with plain steps: check the valve and seal, keep cylinders upright and secured, never smoke near them, and report any damage the same day. Next, add a short daily check by the driver and a weekly check by the manager. Last, review the current official text of the safety and transport rules from the regulator before finalizing. Records to keep: daily checklist signatures, incident reports, delivery times, and training dates. Re-compute margin monthly. Standard to meet: every delivery day has a signed checklist, and every incident has a written report within 24 hours.")
-,
-'Telecom': (
-"A small internet provider in a Sao Paulo neighborhood has 600 home customers who pay R$ 99 per month. Monthly costs are R$ 41,000 for the link, staff, and equipment. Last quarter 36 customers cancelled, mostly after slow speeds in the evening and long waits for repairs of about 4 days. The owner thinks the answer is a price cut. The technician says the main cable is saturated from 7 to 11 pm. A new link upgrade would cost R$ 3,500 more per month. A team member is asked to compute the current margin, estimate what churn is costing, and compare the upgrade with a faster repair process. The member must base the recommendation on the numbers and on customer complaint records, not on opinion.",
-"First, compute monthly revenue: 600 times R$ 99 equals R$ 59,400. Subtract costs of R$ 41,000, leaving R$ 18,400. Next, measure churn: 36 cancellations in a quarter is 12 a month, which is 2 percent of customers, and the lost revenue is 12 times R$ 99, or R$ 1,188 per month, growing each month. Then log evening speed tests for two weeks and sort complaints by type: speed or repair delay. Next, compare options. The upgrade costs R$ 3,500 per month, so it needs to keep about 36 customers to pay for itself, since 36 times R$ 99 is R$ 3,564. A repair target of 1 day may cost far less. Test the cheaper fix first. Last, check the current official text of the regulator's quality rules. Records to keep: speed tests, complaint tickets, repair times, and cancellation reasons. Standard to meet: repairs within 1 day for 90 percent of tickets, and churn tracked monthly.")
-,
-'Smart Home Builder': (
-"A small builder in Sao Paulo constructs ten apartments in a low-rise building and wants to sell them as smart homes. Each apartment would receive smart locks, light controls, and water sensors costing R$ 6,500 per unit. The base price of the unit is R$ 520,000. Buyers in the area have asked mostly about leaks and security, and less about voice commands. The builder worries about two things: whether devices will still work in five years if the maker disappears, and whether residents' data stays private. She asks a project assistant to propose which features to include, compute the extra cost against the price, and write a short buyer guide. The assistant must base choices on what buyers asked, not on what looks modern.",
-"First, list each feature with its cost and the number of buyers who asked for it. Here the water sensors and the lock matter most, and voice control matters least. Next, compute the extra cost: R$ 6,500 is 1.25 percent of R$ 520,000, and for ten units the total is R$ 65,000. Then drop the least requested feature and recompute, keeping the total in the plan. Next, require that every device works locally without an account, uses open standards where possible, and has a manual override, so the home still works if a company closes. Last, write a one-page buyer guide with passwords, updates, and who can see the data, and check the current official text of the data protection law. Records to keep: buyer questions, quotes, device manuals, warranty terms, and test results. Standard to meet: each device is tested in each unit before handover and the result is signed.")
-,
-'Road & Bridge Development': (
-"A city works team in Sao Paulo is asked to repair a 1.2 kilometer neighborhood road and a small concrete bridge over a stream. The budget approved is R$ 1,800,000. Quotes show paving at R$ 900 per meter, so R$ 1,080,000, and the bridge repair at R$ 540,000, leaving only R$ 180,000 for drainage and signs. After heavy rain last year, water flooded the road for two days, and the bridge deck showed cracks. A junior engineer is asked to review the plan. She notices drainage is the smallest line, yet water damage is the likely cause of the road breaking. She must explain the budget, propose a priority order, and list the records needed so the public can follow progress. She must not make legal claims.",
-"First, verify the sums: R$ 1,080,000 plus R$ 540,000 plus R$ 180,000 equals R$ 1,800,000. Next, map the failures: record flood marks, crack widths, and photos, with dates and location. Then ask why the road failed. If water is the cause, paving first will fail again, so move money to drainage. For example, raise drainage to R$ 378,000 and lower paving to R$ 882,000 by repairing only the worst 0.98 km first, since 980 times R$ 900 is R$ 882,000. Next, schedule the bridge inspection before any other work and follow the technical rules. Last, check the current official text of procurement and public works rules before changing the plan. Records to keep: surveys, quotes, change approvals, weekly progress photos, and payments. Re-compute the total after every change. Standard to meet: the total never exceeds R$ 1,800,000 and each change has a written reason.")
-,
-'Automated Farming Equipment': (
-"A family farm near Sao Paulo state's interior grows vegetables on 12 hectares. The owner is thinking of buying an automatic drip irrigation system with soil sensors for R$ 48,000. Today two workers irrigate by hand, costing R$ 5,200 per month in wages for this task, and water use is about 900 cubic meters per month at R$ 3 each. The supplier says the system can cut water use by 30 percent and labor on this task by half. The owner has R$ 20,000 saved and would need to borrow the rest. She asks an agricultural technician student to test those claims with the farm's own numbers, check the risks like power cuts and sensor failures, and decide what to ask the supplier before buying.",
-"First, compute current monthly cost: wages R$ 5,200 plus water 900 times R$ 3, or R$ 2,700, equals R$ 7,900. Next, compute the claimed saving: half the wages is R$ 2,600, and 30 percent less water saves R$ 810, so about R$ 3,410 per month. Then divide the price: R$ 48,000 divided by R$ 3,410 is about 14 months before upkeep and loan costs, which must be added. Next, test the claims with a small trial plot and a meter reading before and after. Ask the supplier about spare parts, repair time, power backup, and training. Last, check the current official text on water use permits and equipment safety. Records to keep: water meter readings, wage records, trial results, supplier quotes, and maintenance logs. Re-compute the payback with real loan costs included. Standard to meet: measured savings in the trial confirm at least 80 percent of the supplier's claim before buying.")
-,
-}
+LONG = {'Automated Farming Equipment': ('A company near Sao Paulo sells or hires out about 3 automated '
+                                 'farm units a month, each valued at R$ 38.000. The plan counts R$ '
+                                 '26.000 of cost per unit and R$ 20.000 of fixed cost, so the '
+                                 'planned result is R$ 16.000. In the middle of the planting week, '
+                                 'the controller of one unit stopped. The technician took three '
+                                 'days to arrive because the spare part was not in stock, and the '
+                                 'farmer asked for a credit for each stopped day. The company '
+                                 'agreed to R$ 1.500 per day. The owner worries about the customer '
+                                 'and about the cost. An employee must study the failure, find the '
+                                 'cause, calculate the cost and propose a spare-parts list and a '
+                                 'response rule. The owner wants a table of faults, response times '
+                                 'and costs.',
+                                 'First, record the date of the call, the date of arrival, the '
+                                 'cause and the part used. The credit is 3 days x R$ 1.500 = R$ '
+                                 '4.500. The monthly contribution falls from R$ 36.000 to R$ '
+                                 '31.500 and the result becomes R$ 11.500 instead of R$ 16.000. '
+                                 'Next, list the parts that failed in the last season and keep a '
+                                 'kit of the three most frequent at the base. Write a rule: a call '
+                                 'during planting gets an answer within 4 hours and a visit within '
+                                 '24. Check the controller log each month to find faults before '
+                                 'they stop the machine. Standard to meet: no stoppage longer than '
+                                 'one day in the next season. Check the current official text on '
+                                 'machinery safety. Records to keep: the fault table, response '
+                                 'times, the controller log, the spare-parts list and the credits '
+                                 'granted.'),
+ 'Energy': ('A small solar installer in Sao Paulo fits about 30 kilowatts a month in six homes and '
+            'sells each kilowatt at R$ 4.200. The plan counts R$ 3.000 of cost per kilowatt and R$ '
+            '20.000 of fixed cost, so the planned result is R$ 16.000. This month the foreman '
+            'reports that four of the six homes needed a second visit: a cable run was longer than '
+            'measured, an inverter was configured wrongly or the panel had no free breaker. Each '
+            'return visit cost the crew a day plus travel. An employee must study the six job '
+            'files, find the causes and propose a pre-installation and commissioning checklist. '
+            'The owner wants the cost of the returns and a procedure that the crews can follow.',
+            'First, list the six homes and the cause of each return visit. Suppose each return '
+            'costs R$ 1.100, so the extra cost is 4 x R$ 1.100 = R$ 4.400. Spread over 30 '
+            'kilowatts, that adds R$ 146,67 per kilowatt and the real cost is R$ 3.146,67. The '
+            'monthly result becomes 30 x R$ 1.053,33 - R$ 20.000 = R$ 11.600 instead of R$ 16.000. '
+            'Next, write a roof and panel checklist for the quote visit, with measured cable '
+            'lengths and breaker space, and a commissioning sheet with the inverter settings. '
+            'Record returns per job. Standard to meet: at most one return in six jobs, which cuts '
+            'the extra cost to R$ 1.100. Check the current official text on electrical safety. '
+            'Records to keep: the six job files, the cause table, the quote checklist, the '
+            'commissioning sheets and the count of return visits.'),
+ 'Food': ('A kitchen in Sao Paulo packs about 400 cases of twelve lunches a month for offices and '
+          'sells each case at R$ 150. The recipe cards say a case costs R$ 90 in ingredients, '
+          'packaging and delivery, and the fixed cost is R$ 10.000 a month, so the planned result '
+          "is R$ 14.000. The month's purchase invoices for food and packing total R$ 39.600, which "
+          'the owner divides by 400 cases. The cook admits that rice and beans are cooked in large '
+          'batches, some food is thrown away and the cold room is sometimes warm. An employee must '
+          'measure waste for two weeks, compare it with the plan and propose changes to batch size '
+          'and storage. The owner wants numbers and safety checks, not impressions.',
+          'First, weigh and record all food thrown away each day for 14 days, with the reason: '
+          'overcooked, expired or leftover. Next, compute the real cost per case: R$ 39.600 / 400 '
+          '= R$ 99, so the gap to plan is R$ 9 per case. The margin falls to R$ 51 and the monthly '
+          'result to 400 x R$ 51 - R$ 10.000 = R$ 10.400 instead of R$ 14.000. The break-even '
+          'rises to R$ 10.000 / R$ 51 = 196,1 cases. Then cook a second, smaller batch at midday, '
+          'write the cold room temperature twice a day and date every container. Standard to meet: '
+          'halve the gap, to R$ 94,50 per case, with every temperature reading inside the safe '
+          'range on the sheet. Check the current official text on food hygiene. Records to keep: '
+          'the waste log, purchase invoices, the temperature sheet and recipe cards, re-computed '
+          'every week.'),
+ 'Health': ('A private clinic in Sao Paulo attends about 220 visits a month at R$ 180 each. The '
+            'plan says each visit costs R$ 80 and the fixed cost is R$ 14.000, so the monthly '
+            'result should be R$ 8.000. The owner finds the result lower. The clinicians are paid '
+            'for every booked slot, and the agenda shows that many patients do not come. The '
+            'reception does not keep a record of reasons, and nobody calls to confirm. An employee '
+            'must study one month of the agenda, count booked, attended and missed slots, '
+            'calculate what the missed slots cost, and propose a confirmation routine. The owner '
+            'wants a written procedure, a table by weekday and respect for patient privacy.',
+            'First, export the agenda and count: 270 booked slots, 220 attended, 50 missed, or '
+            '18,5%. Each missed slot still costs R$ 60 of clinician time, so the loss is 50 x R$ '
+            '60 = R$ 3.000. The monthly result is 220 x R$ 100 - R$ 14.000 - R$ 3.000 = R$ 5.000 '
+            'instead of R$ 8.000. Next, build a table of missed slots by weekday and hour to find '
+            'the worst times. Then call or message each patient the day before, record the answer, '
+            'and offer freed slots to the waiting list. Standard to meet: missed slots at 10% '
+            'within two months. With 270 booked slots that gives 243 visits, 23 more than now, '
+            'worth R$ 2.300 a month. Keep only the data needed, and check the current official '
+            'text on patient privacy. Records to keep: the agenda export, the weekday table, the '
+            'confirmation answers and the weekly count of missed slots.'),
+ 'IT': ('A small IT firm in Sao Paulo has 40 support contracts, each sold at R$ 900 a month. The '
+        'plan was 7,5 technician hours per contract at R$ 60 an hour, so a cost of R$ 450 and a '
+        'monthly result of R$ 3.000 after R$ 15.000 of fixed cost. After two months the owner sees '
+        'overtime and a result close to zero. Clients also complain that the same fault comes '
+        'back. The owner asks an employee to review the ticket log of one month, find where the '
+        'hours go and propose a way to bring them back to plan. The employee must show the real '
+        'hours per contract, the repeated faults and the cost of each, and write what changes in '
+        'the procedure.',
+        'First, export every ticket of the month with the contract, minutes spent and cause, and '
+        'mark faults that returned within seven days. Suppose the average is 9,2 hours per '
+        'contract, not 7,5. The cost per contract becomes 9,2 x R$ 60 = R$ 552, the margin falls '
+        'to R$ 348 and the monthly result becomes 40 x R$ 348 - R$ 15.000 = R$ -1.080, a loss. The '
+        'break-even moves to R$ 15.000 / R$ 348 = 43,1 contracts, so 44. Next, find the three '
+        'faults that return most, fix their root cause once, and write a short checklist for each. '
+        'Standard to meet: back to 8 hours per contract within a month, which gives a margin of R$ '
+        '420 and a result of R$ 1.800. Keep the ticket log as evidence. Records to keep: the '
+        'exported ticket log, the table of returned faults, the checklists and the weekly hours '
+        'per contract.'),
+ 'Internet Companies': ('A small online shop in Sao Paulo sells about 700 orders a month at R$ 120 '
+                        'each. The owner planned R$ 70 of cost per order and a fixed cost of R$ '
+                        '18.000 a month, which gives a planned monthly result of R$ 17.000. In the '
+                        'accounts the result is lower and nobody knows why. The owner suspects '
+                        're-sent parcels, because customers write that a parcel arrived late or '
+                        'with the wrong item. The courier cost and the item are paid again each '
+                        'time. An employee is asked to study one month of orders, find how many '
+                        'were re-sent and what that costs, and propose a change before the next '
+                        'campaign. The owner wants numbers and a written procedure.',
+                        'First, list every order of the month and mark each one that was re-sent, '
+                        'with the cause: wrong item, damage, wrong address or delay. Suppose 63 '
+                        'orders, or 9,0%, were re-sent at an extra R$ 55 each. The extra cost is '
+                        '63 x R$ 55 = R$ 3.465, which adds R$ 4,95 to every order, so the real '
+                        'cost per order is R$ 74,95 and the monthly result falls to R$ 13.535,00 '
+                        'instead of R$ 17.000. Next, fix the top cause with a checklist: confirm '
+                        'the address, count items at packing and photograph the parcel. Record '
+                        'causes weekly. Standard to meet: halve the re-sent orders within a month, '
+                        'which saves about R$ 1.705, and show the new count in the log. Check the '
+                        'current official text on consumer returns. Records to keep: the order '
+                        'list, the cause table, the checklist and the weekly count of re-sent '
+                        'orders.'),
+ 'Oil & Gas': ('A small service company near Sao Paulo carries out about 10 job orders a month at '
+               'R$ 22.000 each. The plan counts R$ 15.000 of cost per job and R$ 60.000 of fixed '
+               'cost, so the planned result is R$ 10.000. This month four jobs finished two days '
+               'late because the crew arrived and the permit was not yet signed. The crew was paid '
+               'but idle, and a crew-day costs R$ 2.250. The owner also fears the risk of a crew '
+               'pressed to start work without a valid permit. An employee must study the four '
+               'jobs, list the time lost at each step of the permit and propose a procedure. The '
+               'owner wants the cost of the delay in numbers and a rule that no work starts '
+               'without the permit.',
+               'First, build a table for the four jobs with the date the permit was requested, the '
+               'date it was signed and the days the crew waited. The idle cost is 4 jobs x 2 days '
+               'x R$ 2.250 = R$ 18.000. Spread over 10 jobs, it adds R$ 1.800 per job, so the real '
+               'cost is R$ 16.800 and the margin R$ 5.200. The monthly result becomes 10 x R$ '
+               '5.200 - R$ 60.000 = R$ -8.000, a loss, and the break-even rises to 11,5 jobs. '
+               'Next, request permits five days before the start, name one person who checks them, '
+               'and move the crew to another job if the permit is late. Standard to meet: at most '
+               'one late job a month and no work started without a signed permit. Check the '
+               'current official text on safety. Records to keep: the permit table, the crew '
+               'timesheets, the safety briefing sheets and the monthly count of late jobs.'),
+ 'Real Estate': ('A small agency in Sao Paulo closes about 6 deals a month, each paying a '
+                 'commission of R$ 4.500. The plan counts R$ 900 of cost per closed deal and R$ '
+                 '12.000 of fixed cost, so the planned result is R$ 9.600. This month the owner '
+                 'finds that nine buyers signed a proposal but only six deals closed. Three fell '
+                 'through after weeks of work because a certificate or a document of the owner was '
+                 'missing, and the agency had already paid for photographs, copies and travel. An '
+                 'employee must study the nine files, find at which step each one stopped and '
+                 'propose a checklist. The owner wants a table of days per step and a written '
+                 'procedure that can be used by every agent.',
+                 'First, build a table of the nine files with the step reached, the days spent and '
+                 'the missing document. Suppose the three failed files each used the usual R$ 900 '
+                 'of cost, so the wasted cost is 3 x R$ 900 = R$ 2.700. The month then ends at 6 x '
+                 'R$ 3.600 - R$ 12.000 - R$ 2.700 = R$ 6.900 instead of R$ 9.600. Next, write a '
+                 "document checklist and ask for the owner's papers before the first visit, not "
+                 'after the proposal. Record the days from listing to signature for every file. '
+                 'Standard to meet: at most one failed file in nine. Each deal saved is worth R$ '
+                 '3.600 of contribution, so saving two adds R$ 7.200. Check the current official '
+                 'text on contracts and brokerage. Records to keep: the table of nine files, the '
+                 'document checklist, the days per step and the count of failed files.'),
+ 'Road & Bridge Development': ('A small civil works company in Sao Paulo state builds about 3 road '
+                               'sections a month, each sold at R$ 90.000. The plan counts R$ '
+                               '65.000 of cost per section and R$ 70.000 of fixed cost, so the '
+                               'planned result is R$ 5.000. In the rainy month one section stopped '
+                               'for four days. The 12 workers and the hired machines stayed on '
+                               "site, because nobody decided to release them. The section's labour "
+                               'was planned at R$ 18.000 and machine hire at R$ 12.000 over 7 '
+                               'days. An employee must study the site diary, calculate the cost of '
+                               'the idle days and propose a rule for rain, a drainage plan and a '
+                               'schedule with a buffer. The owner wants numbers and a written '
+                               'decision rule.',
+                               'First, read the site diary and count the idle days and the cause '
+                               'of each. Labour costs R$ 18.000 / 7 = R$ 2.571,43 per day and '
+                               'machines R$ 12.000 / 7 = R$ 1.714,29 per day. For 4 idle days the '
+                               'loss is 4 x (R$ 2.571,43 + R$ 1.714,29) = R$ 17.142,86. '
+                               'Contribution falls from R$ 75.000 to R$ 57.857,14 and the monthly '
+                               'result becomes R$ -12.142,86, a loss, instead of R$ 5.000. Next, '
+                               'write a rain rule: after two hours of rain, release the machines, '
+                               'move the crew to a dry task and record it. Build drainage first '
+                               'and add two spare days to each schedule. Standard to meet: idle '
+                               'days cut to two per rainy month, saving R$ 8.571,43. Check the '
+                               'current official text on site safety. Records to keep: the site '
+                               'diary, the weather log, the crew and machine timesheets and the '
+                               'list of idle days.'),
+ 'Smart Home Builder': ('A smart home company in Sao Paulo fits about 6 homes a month at R$ 18.000 '
+                        'each. The plan counts R$ 12.000 of cost per home and R$ 25.000 of fixed '
+                        'cost, so the planned result is R$ 11.000. This month two of the six homes '
+                        'had weak Wi-Fi in far rooms after the installation. Cameras and sensors '
+                        'disconnected, the clients called, and the crew went back to add extra '
+                        'access points and recable. The quote had not included a signal test. An '
+                        'employee must study the two homes, calculate the cost of the repair and '
+                        'propose a survey procedure that avoids it. The owner wants a table of '
+                        'rooms with signal readings, a cost in reais and a checklist that every '
+                        'quote must use.',
+                        'First, list for each of the two homes the rooms with weak signal, the '
+                        'equipment added and the days spent. Suppose each repair cost R$ 1.400 in '
+                        'devices and labour, so the extra cost is 2 x R$ 1.400 = R$ 2.800. The '
+                        'monthly result becomes R$ 11.000 - R$ 2.800 = R$ 8.200, and the margin on '
+                        'those two homes falls from R$ 6.000 to R$ 4.600 each. Next, make a signal '
+                        'test in every room at the quote visit, record the readings and put the '
+                        'needed access points into the quote. Standard to meet: no home with a '
+                        'weak room at handover, and a handover sheet signed by the client. Check '
+                        'the current official text on electrical work and on data from cameras. '
+                        'Records to keep: the room table with signal readings, the repair costs, '
+                        'the quote checklist and the signed handover sheets.'),
+ 'Telecom': ('A small regional internet provider near Sao Paulo has 1.500 subscribers paying R$ 90 '
+             'a month. The plan counts R$ 45 of cost per subscriber and R$ 40.000 of fixed cost, '
+             'so the planned result is R$ 27.500. Cancellations have risen from 2% to 3,2% a '
+             'month, which is 48 subscribers instead of 30. The call centre says that customers in '
+             'two neighbourhoods report long outages at night, but nobody has linked the outages '
+             'to the cancellations. An employee must study the last three months of fault tickets '
+             'and cancellations by area, calculate what the extra cancellations cost and propose '
+             'an action plan. The owner wants a table by area, a cost in reais and a clear target.',
+             'First, build a table by neighbourhood with outage hours, fault tickets and '
+             'cancellations. The extra cancellations are 48 - 30 = 18 subscribers a month. Each '
+             'was worth R$ 45 of contribution, so the first month loses 18 x R$ 45 = R$ 810. If '
+             'the rate stays high for 6 months, 108 subscribers are missing, and the monthly '
+             'contribution falls by R$ 4.860. The monthly result becomes R$ 27.500 - R$ 4.860 = R$ '
+             '22.640. Next, rank the areas by outage hours, repair the worst link first and call '
+             'affected subscribers. Standard to meet: cancellations back to 2,4% within two '
+             'months, with the outage log as evidence. Check the current official text on service '
+             'quality and consumer rights. Records to keep: the fault tickets by area, the '
+             'cancellation reasons, the outage log and the monthly cancellation rate, reviewed '
+             'with the team each month.')}

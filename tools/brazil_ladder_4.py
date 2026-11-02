@@ -21,38 +21,34 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                            'List basic sizes, care labels and price tags',
                                            'Recognise safe handling of scissors, irons and '
                                            'steamers'],
-                                          'Level 1 suits curious beginners with no experience in '
-                                          'apparel and accessories. Expect about 6 to 10 hours of '
-                                          'short lessons, with a word list or simple quiz as '
-                                          'evidence. The standard is to recognise the main terms, '
-                                          'tools and safety points in plain language. Passing '
-                                          'gives the learner the vocabulary needed for Level 2, '
-                                          'where they begin to explain how apparel and accessories '
-                                          'works around Sao Paulo.'),
+                                          'Begin at the garment rail. Beginners learn to tell '
+                                          'cotton from polyester by touch, read the care symbols '
+                                          'sewn into a seam and match a tag to a size. Six to ten '
+                                          'hours of short lessons end in a labelled-garment quiz. '
+                                          'Pass means correct terms and safe use of scissors, '
+                                          'irons and steamers.'),
                                          ('L2 Awareness: apparel and accessories',
                                           ['Describe how a garment moves from supplier to shopper',
                                            'Explain seasons, trends and the main sales channels in '
                                            'Sao Paulo',
                                            'Identify who buys what: local shops, markets and '
                                            'online'],
-                                          'Level 2 suits learners who know the basic words and '
-                                          'want the bigger picture of apparel and accessories. '
-                                          'Expect about 10 to 15 hours, with a short written '
-                                          'summary or a visit report as evidence. The standard is '
-                                          'to explain how the work flows and who is involved. It '
-                                          'prepares the learner for Level 3, where explaining '
-                                          'turns into doing simple tasks.'),
+                                          'Follow one shirt from a Bom Retiro supplier to the till '
+                                          "and on to a customer's wardrobe. Ten to fifteen hours "
+                                          'of visits and reading finish with a one-page route map '
+                                          "naming sales channels, winter and Mothers' Day peaks, "
+                                          'and who buys in each. Accuracy and plain words earn the '
+                                          'pass.'),
                                          ('L3 Foundation: apparel and accessories',
                                           ['Apply size charts and fabric care rules to real items',
                                            'Demonstrate a clean display and a correct sale record',
                                            'Calculate a simple selling price from cost and margin'],
-                                          'Level 3 suits learners ready to try real tasks in '
-                                          'apparel and accessories under guidance. Expect about 20 '
-                                          'to 30 hours of practice, with a small portfolio of '
-                                          'supervised tasks as evidence. The standard is to finish '
-                                          'routine work correctly, safely and on time. It leads '
-                                          'into Level 4, the main course, where these skills are '
-                                          'joined into a working plan.'),
+                                          'Supervised practice, 20 to 30 hours. The learner '
+                                          'measures real shoppers against a size chart, steams and '
+                                          'folds a display table, and writes each sale in a '
+                                          'notebook that must balance to the cash drawer. A priced '
+                                          'item with cost, margin and workings completes the '
+                                          'portfolio of photographed displays.'),
                                          ('L4 Practitioner: apparel and accessories',
                                           ['Plan a small apparel brand or shop with target '
                                            'customers and range',
@@ -61,51 +57,46 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                            'registration',
                                            'Run weekly stock, sales and cash records and fix '
                                            'problems'],
-                                          'Level 4 is the main course, with 8 modules, for adults '
-                                          'who want to run apparel and accessories in Sao Paulo. '
-                                          'Expect about 60 to 80 hours, with a full plan, a '
-                                          'first-launch checklist and a month of sample records as '
-                                          'evidence. The standard is a plan another person could '
-                                          'follow. Check the current official text for any rule. '
-                                          'It opens Level 5, which deepens one area.'),
+                                          'The main course asks for a launch pack: range, supplier '
+                                          'quotes, a chosen shop or online store, and eight '
+                                          'modules of work over 60 to 80 hours. Evidence is a '
+                                          'first-order checklist plus four weeks of stock and '
+                                          'sales sheets. Another person should be able to run the '
+                                          'brand from it.'),
                                          ('L5 Specialist: apparel and accessories',
                                           ['Analyse sales by size, colour and season to cut slow '
                                            'stock',
                                            'Negotiate supplier terms and quality checks',
                                            'Improve returns handling and customer reviews'],
-                                          'Level 5 suits people already running or working in '
-                                          'apparel and accessories who want to be the go-to person '
-                                          'in one area. Expect about 40 to 60 hours, with a case '
-                                          'study using real numbers as evidence. The standard is '
-                                          'to find a weak point, fix it and show measured results. '
-                                          'It prepares the learner for Level 6, where this skill '
-                                          'expands to the whole operation.'),
+                                          'A specialist digs into one sales spreadsheet. Sorting '
+                                          'units by size, colour and month shows which sizes sit '
+                                          'unsold, and a supplier talk is built from the defect '
+                                          'photos and delivery dates. Forty to sixty hours; the '
+                                          'case study must show markdown or returns falling '
+                                          'against the earlier figures.'),
                                          ('L6 Advanced: apparel and accessories',
                                           ['Evaluate several channels and choose where to grow',
                                            'Design buying plans, pricing rules and staff roles',
                                            'Manage risk from stock, currency and late deliveries'],
-                                          'Level 6 suits experienced practitioners who manage '
-                                          'people, money or several sites in apparel and '
-                                          'accessories. Expect about 60 to 80 hours, with a '
-                                          'written improvement programme and review of its results '
-                                          'as evidence. The standard is sound judgement across the '
-                                          'whole operation, including risk and quality. It leads '
-                                          'to Level 7, where the learner shapes the field and '
-                                          'teaches others.'),
+                                          'Here the owner compares marketplace, own web shop and '
+                                          'street stall on contribution per piece, then writes a '
+                                          'buying calendar, a markdown rule and who approves '
+                                          'orders. Currency swings on imported trims and late '
+                                          'lorries get a written fallback. Sixty to eighty hours; '
+                                          'the review checks results after a season.'),
                                          ('L7 Super expert: apparel and accessories',
                                           ['Create a collection strategy and brand story that '
                                            'lasts',
                                            'Mentor owners and teams in quality and fair supplier '
                                            'practice',
                                            'Lead improvement projects shared with the local trade'],
-                                          'Level 7 suits proven leaders in apparel and accessories '
-                                          'who guide others and shape good practice. Expect 100 or '
-                                          'more hours of mentoring, writing and project work, with '
-                                          'a peer-reviewed body of work as evidence. The standard '
-                                          'is to create new methods, train others and handle hard '
-                                          'cases with care. Rules change, so always check the '
-                                          'current official text. This is the top of the '
-                                          'ladder.')]},
+                                          'Top-level work: a collection strategy tested over '
+                                          'several seasons, supplier code of conduct audits and a '
+                                          'quality guide others can follow. Over 100 hours of '
+                                          'mentoring owners, writing and trade-group projects. '
+                                          'Peers review the portfolio, and rules on labelling and '
+                                          'imports are always rechecked in current official '
+                                          'text.')]},
  'Beauty': {'jobs': [('Salon Assistant',
                       'Welcomes clients, washes hair, cleans tools and prepares the work area.'),
                      ('Beauty Therapist or Hair Stylist',
@@ -121,69 +112,65 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                         ['Name basic hair, skin and nail terms and tools',
                          'List hygiene steps before and after each client',
                          'Recognise common skin and hair types'],
-                        'Level 1 suits curious beginners with no experience in beauty services. '
-                        'Expect about 6 to 10 hours of short lessons, with a word list or simple '
-                        'quiz as evidence. The standard is to recognise the main terms, tools and '
-                        'safety points in plain language. Passing gives the learner the vocabulary '
-                        'needed for Level 2, where they begin to explain how beauty services works '
-                        'around Sao Paulo.'),
+                        "Learners meet the salon's vocabulary: cuticle, scalp, fringe, acetone, "
+                        'foil. They sort tools by use, rehearse hand washing and tool disinfection '
+                        'steps, and learn to tell oily from dry skin. About 6 to 10 hours with a '
+                        'labelled-picture quiz. Safe, correct naming of tools and hygiene steps is '
+                        'the pass.'),
                        ('L2 Awareness: beauty services',
                         ['Describe the main beauty services and how long they take',
                          'Explain why sterilising and patch tests matter',
                          'Identify who the clients are in Sao Paulo and what they ask for'],
-                        'Level 2 suits learners who know the basic words and want the bigger '
-                        'picture of beauty services. Expect about 10 to 15 hours, with a short '
-                        'written summary or a visit report as evidence. The standard is to explain '
-                        'how the work flows and who is involved. It prepares the learner for Level '
-                        '3, where explaining turns into doing simple tasks.'),
+                        'Ten to fifteen hours shadowing or visiting, then a short report on one '
+                        'salon morning: which services ran, how long each took, why a patch test '
+                        'came first. The learner also lists what clients in Sao Paulo ask for, '
+                        'from lashes to curls. A clear, truthful report is the standard.'),
                        ('L3 Foundation: beauty services',
                         ['Apply cleaning and sterilising routines to all tools',
                          'Demonstrate a simple service with a consent and record form',
                          'Calculate service prices from time, products and costs'],
-                        'Level 3 suits learners ready to try real tasks in beauty services under '
-                        'guidance. Expect about 20 to 30 hours of practice, with a small portfolio '
-                        'of supervised tasks as evidence. The standard is to finish routine work '
-                        'correctly, safely and on time. It leads into Level 4, the main course, '
-                        'where these skills are joined into a working plan.'),
+                        'Practice under a trainer for 20 to 30 hours. Combs, clippers and nail '
+                        'files go through a full wash and sterilising routine, a mock client signs '
+                        'a consent form, and a price is built from minutes, product used and a '
+                        'share of the rent. Portfolio: photos, signed forms and one costed menu '
+                        'line.'),
                        ('L4 Practitioner: beauty services',
                         ['Plan a salon or mobile beauty service with services, hours and prices',
                          'Start it by choosing premises, equipment and checking the current '
                          'official text for health and business rules',
                          'Run bookings, stock, hygiene logs and cash each week'],
-                        'Level 4 is the main course, with 8 modules, for adults who want to run '
-                        'beauty services in Sao Paulo. Expect about 60 to 80 hours, with a full '
-                        'plan, a first-launch checklist and a month of sample records as evidence. '
-                        'The standard is a plan another person could follow. Check the current '
-                        'official text for any rule. It opens Level 5, which deepens one area.'),
+                        'Core course of 8 modules, 60 to 80 hours. The plan names services, '
+                        'opening hours, chairs or home visits, equipment and a price list, and the '
+                        'learner checks the current official text on health inspection and '
+                        'registration. Evidence includes a launch checklist and a month of '
+                        'booking, stock and cleaning logs.'),
                        ('L5 Specialist: beauty services',
                         ['Analyse client return rates and best-selling services',
                          'Improve treatment menus and product choices',
                          'Resolve client complaints and allergy incidents correctly'],
-                        'Level 5 suits people already running or working in beauty services who '
-                        'want to be the go-to person in one area. Expect about 40 to 60 hours, '
-                        'with a case study using real numbers as evidence. The standard is to find '
-                        'a weak point, fix it and show measured results. It prepares the learner '
-                        'for Level 6, where this skill expands to the whole operation.'),
+                        'Using four weeks of client cards, the specialist counts who returned, '
+                        'which service sold most and where no-shows cluster. The menu is trimmed '
+                        'or reordered, and allergy complaints are handled with a written incident '
+                        'note. Between 40 and 60 hours; the case study must show a measured '
+                        'change.'),
                        ('L6 Advanced: beauty services',
                         ['Evaluate new services and staff structures',
                          'Design training, hygiene audits and pay systems',
                          'Manage risk from products, reviews and seasonal demand'],
-                        'Level 6 suits experienced practitioners who manage people, money or '
-                        'several sites in beauty services. Expect about 60 to 80 hours, with a '
-                        'written improvement programme and review of its results as evidence. The '
-                        'standard is sound judgement across the whole operation, including risk '
-                        'and quality. It leads to Level 7, where the learner shapes the field and '
-                        'teaches others.'),
+                        'This level compares adding a new service, such as brow lamination, '
+                        'against hiring a second stylist. Learners draft a training plan, a '
+                        'monthly hygiene audit sheet and a pay scheme, and think through bad '
+                        'online reviews and quiet seasons. Sixty to eighty hours with a review of '
+                        'what actually improved.'),
                        ('L7 Super expert: beauty services',
                         ['Create standards for quality, safety and client care',
                          'Mentor stylists and owners across several sites',
                          'Lead trade talks and share good practice'],
-                        'Level 7 suits proven leaders in beauty services who guide others and '
-                        'shape good practice. Expect 100 or more hours of mentoring, writing and '
-                        'project work, with a peer-reviewed body of work as evidence. The standard '
-                        'is to create new methods, train others and handle hard cases with care. '
-                        'Rules change, so always check the current official text. This is the top '
-                        'of the ladder.')]},
+                        'Leaders write the house standard for client care, patch tests and tool '
+                        'hygiene, then coach stylists across several sites. Work includes talks at '
+                        'trade meetings and a peer-checked portfolio over 100 hours. Product '
+                        'safety rules change, so every claim is checked against the current '
+                        'official text. Client safety comes first.')]},
  'Dental': {'jobs': [('Dental Receptionist',
                       'Greets patients, books visits and handles records and payments.'),
                      ('Dental Assistant',
@@ -201,72 +188,65 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                         ['Name basic parts of a tooth and common dental tools',
                          'List hand hygiene and glove steps',
                          'Recognise common patient worries about visits'],
-                        'Level 1 suits curious beginners with no experience in dental practice '
-                        'support. Expect about 6 to 10 hours of short lessons, with a word list or '
-                        'simple quiz as evidence. The standard is to recognise the main terms, '
-                        'tools and safety points in plain language. Passing gives the learner the '
-                        'vocabulary needed for Level 2, where they begin to explain how dental '
-                        'practice support works around Sao Paulo.'),
+                        'Learners label a tooth diagram, name mirror, probe and suction tip, and '
+                        'rehearse hand washing and glove changes. They also list what makes people '
+                        'nervous in the chair. Six to ten hours of short lessons with a picture '
+                        'quiz; pass means correct names and a safe glove sequence.'),
                        ('L2 Awareness: dental practice support',
                         ['Describe a typical check-up and who does what in the team',
                          'Explain why infection control and consent matter',
                          'Identify common dental services offered in Sao Paulo'],
-                        'Level 2 suits learners who know the basic words and want the bigger '
-                        'picture of dental practice support. Expect about 10 to 15 hours, with a '
-                        'short written summary or a visit report as evidence. The standard is to '
-                        'explain how the work flows and who is involved. It prepares the learner '
-                        'for Level 3, where explaining turns into doing simple tasks.'),
+                        'Ten to fifteen hours of reading and visits lead to a visit report that '
+                        'traces a check-up from reception to the chair to the bill, naming who '
+                        'does what. It must say why consent and sterilisation come first. Common '
+                        'services around Sao Paulo, from cleaning to braces, are listed.'),
                        ('L3 Foundation: dental practice support',
                         ['Apply clean room set-up and instrument tracking steps',
                          'Demonstrate polite patient greeting and record keeping',
                          'Calculate stock use for common consumables'],
-                        'Level 3 suits learners ready to try real tasks in dental practice support '
-                        'under guidance. Expect about 20 to 30 hours of practice, with a small '
-                        'portfolio of supervised tasks as evidence. The standard is to finish '
-                        'routine work correctly, safely and on time. It leads into Level 4, the '
-                        'main course, where these skills are joined into a working plan.'),
+                        'Under supervision, 20 to 30 hours. The learner lays out a clean room, '
+                        'tracks instrument packs from used to sterile, greets a mock patient and '
+                        'fills the record sheet, then counts gloves and cotton rolls used per '
+                        'week. A portfolio of supervised tasks shows routine work done safely and '
+                        'on time.'),
                        ('L4 Practitioner: dental practice support',
                         ['Plan a dental practice or support service with rooms, team and patient '
                          'flow',
                          'Start it by checking the current official text for professional and '
                          'health licensing before opening',
                          'Run daily sterilisation logs, bookings, stock and cash'],
-                        'Level 4 is the main course, with 8 modules, for adults who want to run '
-                        'dental practice support in Sao Paulo. Expect about 60 to 80 hours, with a '
-                        'full plan, a first-launch checklist and a month of sample records as '
-                        'evidence. The standard is a plan another person could follow. Check the '
-                        'current official text for any rule. It opens Level 5, which deepens one '
-                        'area.'),
+                        'The full launch plan sets out chairs, team roles and patient flow, with a '
+                        'check of the official text on professional and health licences before any '
+                        'opening. Over 60 to 80 hours across 8 modules the learner delivers a '
+                        'plan, a launch checklist and a month of sample sterilisation and booking '
+                        'logs.'),
                        ('L5 Specialist: dental practice support',
                         ['Analyse missed visits and waiting times to improve flow',
                          'Improve infection control audits and record quality',
                          'Negotiate supplier and laboratory terms'],
-                        'Level 5 suits people already running or working in dental practice '
-                        'support who want to be the go-to person in one area. Expect about 40 to '
-                        '60 hours, with a case study using real numbers as evidence. The standard '
-                        'is to find a weak point, fix it and show measured results. It prepares '
-                        'the learner for Level 6, where this skill expands to the whole '
-                        'operation.'),
+                        'One bad month of agenda data gets dissected: missed visits, late starts '
+                        'and gaps between patients. The specialist redesigns confirmations and '
+                        'booking blocks, audits infection-control records and negotiates lab '
+                        'turnaround with a supplier. Forty to sixty hours; the case study needs '
+                        'before and after numbers. Clear charts matter more than speed.'),
                        ('L6 Advanced: dental practice support',
                         ['Evaluate equipment purchases and service mix',
                          'Design staff rosters, training and complaint handling',
                          'Manage risk from data privacy, waste and equipment failure'],
-                        'Level 6 suits experienced practitioners who manage people, money or '
-                        'several sites in dental practice support. Expect about 60 to 80 hours, '
-                        'with a written improvement programme and review of its results as '
-                        'evidence. The standard is sound judgement across the whole operation, '
-                        'including risk and quality. It leads to Level 7, where the learner shapes '
-                        'the field and teaches others.'),
+                        'At this level the manager weighs a new chair or X-ray unit against the '
+                        'service mix it would serve, builds a roster and a training plan, and '
+                        'writes how complaints are logged. Data privacy, clinical waste and '
+                        'equipment breakdown each get a risk entry. Sixty to eighty hours with a '
+                        'results review.'),
                        ('L7 Super expert: dental practice support',
                         ['Create clinic standards for safety and patient trust',
                          'Mentor managers and clinical support staff',
                          'Lead practice improvement and share results with peers'],
-                        'Level 7 suits proven leaders in dental practice support who guide others '
-                        'and shape good practice. Expect 100 or more hours of mentoring, writing '
-                        'and project work, with a peer-reviewed body of work as evidence. The '
-                        'standard is to create new methods, train others and handle hard cases '
-                        'with care. Rules change, so always check the current official text. This '
-                        'is the top of the ladder.')]},
+                        'Senior practitioners set written clinic standards for safety and patient '
+                        'trust and coach managers and clinical support staff. Over 100 hours of '
+                        'mentoring, writing and improvement projects, judged by peers. Health and '
+                        'professional rules shift, so every standard is rechecked against current '
+                        'official text. Patient trust is the test.')]},
  'Cleaning Services': {'jobs': [('Cleaner',
                                  'Cleans homes, offices or shops to an agreed checklist.'),
                                 ('Cleaning Team Member',
@@ -283,34 +263,32 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                    ['Name common cleaning tools and products',
                                     'List safe handling steps for chemicals',
                                     'Recognise surface types and basic hazards'],
-                                   'Level 1 suits curious beginners with no experience in cleaning '
-                                   'services. Expect about 6 to 10 hours of short lessons, with a '
-                                   'word list or simple quiz as evidence. The standard is to '
-                                   'recognise the main terms, tools and safety points in plain '
-                                   'language. Passing gives the learner the vocabulary needed for '
-                                   'Level 2, where they begin to explain how cleaning services '
-                                   'works around Sao Paulo.'),
+                                   'Learners handle mops, microfibre cloths, squeegees and '
+                                   'buckets, read chemical labels and practise gloves and '
+                                   'ventilation. They also match surfaces such as tile, wood and '
+                                   'glass to the right product. About 6 to 10 hours with a '
+                                   'tool-and-hazard quiz; the pass is naming each item and storing '
+                                   'products safely.'),
                                   ('L2 Awareness: cleaning services',
                                    ['Describe how homes, offices and shops differ in cleaning '
                                     'needs',
                                     'Explain colour coding and why mixing products is unsafe',
                                     'Identify service types and typical clients in Sao Paulo'],
-                                   'Level 2 suits learners who know the basic words and want the '
-                                   'bigger picture of cleaning services. Expect about 10 to 15 '
-                                   'hours, with a short written summary or a visit report as '
-                                   'evidence. The standard is to explain how the work flows and '
-                                   'who is involved. It prepares the learner for Level 3, where '
-                                   'explaining turns into doing simple tasks.'),
+                                   'A home, an office and a shop need different routines. Over 10 '
+                                   'to 15 hours the learner compares them, explains colour-coded '
+                                   'cloths and why bleach must never meet ammonia, and lists '
+                                   'typical clients in Sao Paulo. A short written comparison of '
+                                   'three sites is the evidence. Spelling out the hazards earns '
+                                   'the pass.'),
                                   ('L3 Foundation: cleaning services',
                                    ['Apply a room-by-room checklist to a real space',
                                     'Demonstrate safe lifting, storage and protective wear',
                                     'Calculate time and material for a standard job'],
-                                   'Level 3 suits learners ready to try real tasks in cleaning '
-                                   'services under guidance. Expect about 20 to 30 hours of '
-                                   'practice, with a small portfolio of supervised tasks as '
-                                   'evidence. The standard is to finish routine work correctly, '
-                                   'safely and on time. It leads into Level 4, the main course, '
-                                   'where these skills are joined into a working plan.'),
+                                   'On a real room, supervised for 20 to 30 hours, the learner '
+                                   'works through a checklist from top to bottom, lifts and stores '
+                                   'equipment safely, wears protective gear and logs minutes and '
+                                   'product used. A portfolio of signed-off checklists shows the '
+                                   'standard: finished on time with nothing missed.'),
                                   ('L4 Practitioner: cleaning services',
                                    ['Plan a cleaning business with services, areas, team and '
                                     'prices',
@@ -318,44 +296,41 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                     'the current official text for business and labour rules',
                                     'Run schedules, supplies, quality checks and payments each '
                                     'week'],
-                                   'Level 4 is the main course, with 8 modules, for adults who '
-                                   'want to run cleaning services in Sao Paulo. Expect about 60 to '
-                                   '80 hours, with a full plan, a first-launch checklist and a '
-                                   'month of sample records as evidence. The standard is a plan '
-                                   'another person could follow. Check the current official text '
-                                   'for any rule. It opens Level 5, which deepens one area.'),
+                                   'Main course, 8 modules, 60 to 80 hours. The learner builds a '
+                                   'business plan with service list, districts, crew, equipment '
+                                   'and a quote method, checks the current official text on '
+                                   'registration and worker rules, and writes a client contract. '
+                                   'Four weeks of rosters, supply counts and payment notes prove '
+                                   'it works.'),
                                   ('L5 Specialist: cleaning services',
                                    ['Analyse job times and complaints to raise quality',
                                     'Improve routes, supply buying and equipment care',
                                     'Handle damage claims and client disputes fairly'],
-                                   'Level 5 suits people already running or working in cleaning '
-                                   'services who want to be the go-to person in one area. Expect '
-                                   'about 40 to 60 hours, with a case study using real numbers as '
-                                   'evidence. The standard is to find a weak point, fix it and '
-                                   'show measured results. It prepares the learner for Level 6, '
-                                   'where this skill expands to the whole operation.'),
+                                   'The specialist studies timesheets and complaint notes to see '
+                                   'which jobs overrun and why, then reorders routes and bulk '
+                                   'supply purchases and sets a maintenance rhythm for machines. A '
+                                   'damage claim is handled with photos and a written reply. Forty '
+                                   'to sixty hours; the case study shows a measured improvement.'),
                                   ('L6 Advanced: cleaning services',
                                    ['Evaluate contract bids and pricing models',
                                     'Design training, audits and staff scheduling',
                                     'Manage risk from safety, absence and late payment'],
-                                   'Level 6 suits experienced practitioners who manage people, '
-                                   'money or several sites in cleaning services. Expect about 60 '
-                                   'to 80 hours, with a written improvement programme and review '
-                                   'of its results as evidence. The standard is sound judgement '
-                                   'across the whole operation, including risk and quality. It '
-                                   'leads to Level 7, where the learner shapes the field and '
-                                   'teaches others.'),
+                                   'Contract bids are compared on hourly rate, travel and '
+                                   'supervision cost. The manager designs a training course, a '
+                                   'monthly spot-audit sheet and a cover plan for absences, plus a '
+                                   'rule for slow-paying clients. Safety incidents get logged. '
+                                   "Sixty to eighty hours, with a review of the programme's "
+                                   'results.'),
                                   ('L7 Super expert: cleaning services',
                                    ['Create service standards and safe working culture',
                                     'Mentor supervisors and new owners',
                                     'Lead improvement projects and share results with the trade'],
-                                   'Level 7 suits proven leaders in cleaning services who guide '
-                                   'others and shape good practice. Expect 100 or more hours of '
-                                   'mentoring, writing and project work, with a peer-reviewed body '
-                                   'of work as evidence. The standard is to create new methods, '
-                                   'train others and handle hard cases with care. Rules change, so '
-                                   'always check the current official text. This is the top of the '
-                                   'ladder.')]},
+                                   'At the top, an expert writes service standards and a safe-work '
+                                   'culture, then coaches supervisors and new owners. Over 100 '
+                                   'hours across mentoring, trade sessions and improvement '
+                                   'projects, with a peer-reviewed portfolio. Safety and labour '
+                                   'rules move, so current official text is always rechecked. Safe '
+                                   'crews are the proof.')]},
  'Warehousing and Storage Services': {'jobs': [('Warehouse Operative',
                                                 'Receives, stores and picks goods using simple '
                                                 'tools and checklists.'),
@@ -379,16 +354,13 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                                    'List basic safety rules for lifting and '
                                                    'walking routes',
                                                    'Recognise labels and simple scanning steps'],
-                                                  'Level 1 suits curious beginners with no '
-                                                  'experience in warehousing and storage. Expect '
-                                                  'about 6 to 10 hours of short lessons, with a '
-                                                  'word list or simple quiz as evidence. The '
-                                                  'standard is to recognise the main terms, tools '
-                                                  'and safety points in plain language. Passing '
-                                                  'gives the learner the vocabulary needed for '
-                                                  'Level 2, where they begin to explain how '
-                                                  'warehousing and storage works around Sao '
-                                                  'Paulo.'),
+                                                  'Learners walk a warehouse floor on paper: '
+                                                  'pallet, rack, bin, batch, forklift aisle. They '
+                                                  'learn safe lifting, marked walkways and what a '
+                                                  'barcode label tells a scanner. Six to ten hours '
+                                                  'of short lessons with a term-matching quiz; the '
+                                                  'pass is correct vocabulary and the main safety '
+                                                  'rules.'),
                                                  ('L2 Awareness: warehousing and storage',
                                                   ['Describe how goods flow from receiving to '
                                                    'dispatch',
@@ -396,27 +368,25 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                                    'match shelves',
                                                    'Identify storage types and customers in Sao '
                                                    'Paulo'],
-                                                  'Level 2 suits learners who know the basic words '
-                                                  'and want the bigger picture of warehousing and '
-                                                  'storage. Expect about 10 to 15 hours, with a '
-                                                  'short written summary or a visit report as '
-                                                  'evidence. The standard is to explain how the '
-                                                  'work flows and who is involved. It prepares the '
-                                                  'learner for Level 3, where explaining turns '
-                                                  'into doing simple tasks.'),
+                                                  'Ten to fifteen hours trace a delivery from the '
+                                                  'gate to the dock, put-away, picking and '
+                                                  'dispatch, and explain first-in first-out and '
+                                                  'why the system count must equal the shelf. The '
+                                                  'written flow chart names storage types, from '
+                                                  'dry racking to cold rooms, and who uses them in '
+                                                  'Sao Paulo.'),
                                                  ('L3 Foundation: warehousing and storage',
                                                   ['Apply put-away and picking steps to real goods',
                                                    'Demonstrate a stock count and a damage report',
                                                    'Calculate space use and simple storage '
                                                    'charges'],
-                                                  'Level 3 suits learners ready to try real tasks '
-                                                  'in warehousing and storage under guidance. '
-                                                  'Expect about 20 to 30 hours of practice, with a '
-                                                  'small portfolio of supervised tasks as '
-                                                  'evidence. The standard is to finish routine '
-                                                  'work correctly, safely and on time. It leads '
-                                                  'into Level 4, the main course, where these '
-                                                  'skills are joined into a working plan.'),
+                                                  'On sample goods, under supervision for 20 to 30 '
+                                                  'hours, the learner puts away and picks orders, '
+                                                  'runs a cycle count on one aisle, writes a '
+                                                  'damage report with photos and works out pallet '
+                                                  'positions used against those free. The '
+                                                  'portfolio shows counts that match records. '
+                                                  'Accuracy beats speed.'),
                                                  ('L4 Practitioner: warehousing and storage',
                                                   ['Plan a storage or warehousing service with '
                                                    'layout, systems and customers',
@@ -425,28 +395,26 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                                    'safety and business rules',
                                                    'Run receiving, counts, dispatch and billing '
                                                    'each week'],
-                                                  'Level 4 is the main course, with 8 modules, for '
-                                                  'adults who want to run warehousing and storage '
-                                                  'in Sao Paulo. Expect about 60 to 80 hours, with '
-                                                  'a full plan, a first-launch checklist and a '
-                                                  'month of sample records as evidence. The '
-                                                  'standard is a plan another person could follow. '
-                                                  'Check the current official text for any rule. '
-                                                  'It opens Level 5, which deepens one area.'),
+                                                  'The core launch plan fixes layout, shelving, '
+                                                  'software or paper records, insurance and a '
+                                                  'site, after checking the current official text '
+                                                  'on fire and operating permits. Sixty to eighty '
+                                                  'hours across 8 modules produce a customer '
+                                                  'offer, a start-up checklist and four weeks of '
+                                                  'receiving, count and billing sheets.'),
                                                  ('L5 Specialist: warehousing and storage',
                                                   ['Analyse picking errors and slow zones to speed '
                                                    'work',
                                                    'Improve layout, labelling and stock accuracy',
                                                    'Negotiate with carriers and customers on '
                                                    'service terms'],
-                                                  'Level 5 suits people already running or working '
-                                                  'in warehousing and storage who want to be the '
-                                                  'go-to person in one area. Expect about 40 to 60 '
-                                                  'hours, with a case study using real numbers as '
-                                                  'evidence. The standard is to find a weak point, '
-                                                  'fix it and show measured results. It prepares '
-                                                  'the learner for Level 6, where this skill '
-                                                  'expands to the whole operation.'),
+                                                  'Pick-error logs and travel paths expose slow '
+                                                  'zones. The specialist relabels bays, moves fast '
+                                                  'sellers near the dock, raises count accuracy '
+                                                  'and negotiates carrier pick-up windows and '
+                                                  'customer service terms. Forty to sixty hours; '
+                                                  'the case study must show error rate or pick '
+                                                  'time before and after.'),
                                                  ('L6 Advanced: warehousing and storage',
                                                   ['Evaluate systems, automation and expansion '
                                                    'options',
@@ -454,30 +422,27 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                                    'control',
                                                    'Manage risk from fire, theft, damage and '
                                                    'peaks'],
-                                                  'Level 6 suits experienced practitioners who '
-                                                  'manage people, money or several sites in '
-                                                  'warehousing and storage. Expect about 60 to 80 '
-                                                  'hours, with a written improvement programme and '
-                                                  'review of its results as evidence. The standard '
-                                                  'is sound judgement across the whole operation, '
-                                                  'including risk and quality. It leads to Level '
-                                                  '7, where the learner shapes the field and '
-                                                  'teaches others.'),
+                                                  'Managers weigh scanners, conveyors or more '
+                                                  'racking against volume forecasts, write safety '
+                                                  'audit routines and shift plans, and set budgets '
+                                                  'per cost line. Fire, theft, water damage and '
+                                                  'peak-season overload each get a risk note and a '
+                                                  'response. Sixty to eighty hours with results '
+                                                  'reviewed afterwards.'),
                                                  ('L7 Super expert: warehousing and storage',
                                                   ['Create operating standards for accuracy and '
                                                    'safety',
                                                    'Mentor supervisors and managers',
                                                    'Lead change projects and share methods with '
                                                    'the sector'],
-                                                  'Level 7 suits proven leaders in warehousing and '
-                                                  'storage who guide others and shape good '
-                                                  'practice. Expect 100 or more hours of '
-                                                  'mentoring, writing and project work, with a '
-                                                  'peer-reviewed body of work as evidence. The '
-                                                  'standard is to create new methods, train others '
-                                                  'and handle hard cases with care. Rules change, '
-                                                  'so always check the current official text. This '
-                                                  'is the top of the ladder.')]},
+                                                  'Top-tier work sets site-wide standards for '
+                                                  'stock accuracy and safe handling and coaches '
+                                                  'supervisors and managers. Over 100 hours of '
+                                                  'mentoring, writing and change projects shared '
+                                                  'with the sector, judged by peers. Fire and '
+                                                  'labour rules evolve, so each point is rechecked '
+                                                  'against current official text. Aisles stay '
+                                                  'clear and counts stay true.')]},
  'Transportation and Courier Services': {'jobs': [('Delivery Assistant',
                                                    'Loads, hands over and records parcels for '
                                                    'deliveries.'),
@@ -502,17 +467,13 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                                       'List safe loading and driving habits',
                                                       'Recognise basic traffic and '
                                                       'proof-of-delivery steps'],
-                                                     'Level 1 suits curious beginners with no '
-                                                     'experience in transport and courier '
-                                                     'services. Expect about 6 to 10 hours of '
-                                                     'short lessons, with a word list or simple '
-                                                     'quiz as evidence. The standard is to '
-                                                     'recognise the main terms, tools and safety '
-                                                     'points in plain language. Passing gives the '
-                                                     'learner the vocabulary needed for Level 2, '
-                                                     'where they begin to explain how transport '
-                                                     'and courier services works around Sao '
-                                                     'Paulo.'),
+                                                     'Learners sort parcels by size and fragility, '
+                                                     'read waybill and delivery-term wording, and '
+                                                     'learn how to load a van or box so weight '
+                                                     'stays low and secure. Safe driving habits '
+                                                     'and what a signed proof means are covered. '
+                                                     'Six to ten hours, ending in a term quiz; '
+                                                     'pass is correct terms and safe loading.'),
                                                     ('L2 Awareness: transport and courier services',
                                                      ['Describe how a parcel travels from sender '
                                                       'to receiver',
@@ -520,15 +481,14 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                                       'and returns',
                                                       'Identify courier and transport service '
                                                       'types in Sao Paulo'],
-                                                     'Level 2 suits learners who know the basic '
-                                                     'words and want the bigger picture of '
-                                                     'transport and courier services. Expect about '
-                                                     '10 to 15 hours, with a short written summary '
-                                                     'or a visit report as evidence. The standard '
-                                                     'is to explain how the work flows and who is '
-                                                     'involved. It prepares the learner for Level '
-                                                     '3, where explaining turns into doing simple '
-                                                     'tasks.'),
+                                                     'Ten to fifteen hours follow one parcel from '
+                                                     'sender to doorstep, including delivery '
+                                                     'windows, a failed attempt and a return. The '
+                                                     'learner also lists courier types in Sao '
+                                                     'Paulo, from motorcycle to van to long-haul. '
+                                                     'A one-page trip diagram with each handover '
+                                                     'signed is the evidence. Each handover needs '
+                                                     'a name and a time.'),
                                                     ('L3 Foundation: transport and courier '
                                                      'services',
                                                      ['Apply a route plan using stops, traffic and '
@@ -537,15 +497,13 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                                       'signed proof',
                                                       'Calculate trip cost from fuel, time and '
                                                       'wear'],
-                                                     'Level 3 suits learners ready to try real '
-                                                     'tasks in transport and courier services '
-                                                     'under guidance. Expect about 20 to 30 hours '
-                                                     'of practice, with a small portfolio of '
-                                                     'supervised tasks as evidence. The standard '
-                                                     'is to finish routine work correctly, safely '
-                                                     'and on time. It leads into Level 4, the main '
-                                                     'course, where these skills are joined into a '
-                                                     'working plan.'),
+                                                     'Supervised practice of 20 to 30 hours: plan '
+                                                     'a route with eight stops around traffic, '
+                                                     'handle and photograph parcels, collect a '
+                                                     'signature and compute the cost of a trip '
+                                                     'from fuel, driver time and tyre wear. The '
+                                                     'portfolio holds a route sheet, proofs and a '
+                                                     'costed trip.'),
                                                     ('L4 Practitioner: transport and courier '
                                                      'services',
                                                      ['Plan a courier or transport service with '
@@ -555,15 +513,14 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                                       'before operating',
                                                       'Run dispatch, tracking, maintenance records '
                                                       'and billing each week'],
-                                                     'Level 4 is the main course, with 8 modules, '
-                                                     'for adults who want to run transport and '
-                                                     'courier services in Sao Paulo. Expect about '
-                                                     '60 to 80 hours, with a full plan, a '
-                                                     'first-launch checklist and a month of sample '
-                                                     'records as evidence. The standard is a plan '
-                                                     'another person could follow. Check the '
-                                                     'current official text for any rule. It opens '
-                                                     'Level 5, which deepens one area.'),
+                                                     'The main course builds a courier plan: '
+                                                     'vehicles, districts, driver rules and a '
+                                                     'tariff, with a check of the current official '
+                                                     'text on driver, vehicle and cargo rules. '
+                                                     'Over 60 to 80 hours and 8 modules the '
+                                                     'learner delivers a launch checklist plus '
+                                                     'four weeks of dispatch, maintenance and '
+                                                     'billing records.'),
                                                     ('L5 Specialist: transport and courier '
                                                      'services',
                                                      ['Analyse late and failed deliveries to find '
@@ -571,15 +528,13 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                                       'Improve route clustering and vehicle use',
                                                       'Handle damage, loss and customer claims '
                                                       'properly'],
-                                                     'Level 5 suits people already running or '
-                                                     'working in transport and courier services '
-                                                     'who want to be the go-to person in one area. '
-                                                     'Expect about 40 to 60 hours, with a case '
-                                                     'study using real numbers as evidence. The '
-                                                     'standard is to find a weak point, fix it and '
-                                                     'show measured results. It prepares the '
-                                                     'learner for Level 6, where this skill '
-                                                     'expands to the whole operation.'),
+                                                     'Late and failed deliveries are tallied by '
+                                                     'cause: wrong address, absent receiver, '
+                                                     'traffic. The specialist clusters stops by '
+                                                     'area, raises vehicle fill and writes a '
+                                                     'claims reply for damaged goods. Forty to '
+                                                     'sixty hours; the case study must show '
+                                                     'on-time rate or cost per trip moving.'),
                                                     ('L6 Advanced: transport and courier services',
                                                      ['Evaluate vehicle choices, partners and '
                                                       'pricing tiers',
@@ -587,16 +542,14 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                                       'incentive plans',
                                                       'Manage risk from accidents, fuel changes '
                                                       'and peak seasons'],
-                                                     'Level 6 suits experienced practitioners who '
-                                                     'manage people, money or several sites in '
-                                                     'transport and courier services. Expect about '
-                                                     '60 to 80 hours, with a written improvement '
-                                                     'programme and review of its results as '
-                                                     'evidence. The standard is sound judgement '
-                                                     'across the whole operation, including risk '
-                                                     'and quality. It leads to Level 7, where the '
-                                                     'learner shapes the field and teaches '
-                                                     'others.'),
+                                                     'Managers compare motorcycle, van and partner '
+                                                     'carriers, set price tiers by distance and '
+                                                     'weight, and write driver training, a '
+                                                     'pre-trip safety check and a bonus scheme. '
+                                                     'Accidents, fuel spikes and Christmas peaks '
+                                                     'get risk plans. Sixty to eighty hours with a '
+                                                     'written review of results. Drivers should '
+                                                     'understand why each check exists.'),
                                                     ('L7 Super expert: transport and courier '
                                                      'services',
                                                      ['Create service and safety standards for the '
@@ -604,16 +557,14 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                                       'Mentor managers and new owners',
                                                       'Lead network improvements and share lessons '
                                                       'with peers'],
-                                                     'Level 7 suits proven leaders in transport '
-                                                     'and courier services who guide others and '
-                                                     'shape good practice. Expect 100 or more '
-                                                     'hours of mentoring, writing and project '
-                                                     'work, with a peer-reviewed body of work as '
-                                                     'evidence. The standard is to create new '
-                                                     'methods, train others and handle hard cases '
-                                                     'with care. Rules change, so always check the '
-                                                     'current official text. This is the top of '
-                                                     'the ladder.')]},
+                                                     'Experts write operating and safety standards '
+                                                     'for the whole fleet and coach managers and '
+                                                     'new owners. Over 100 hours of mentoring, '
+                                                     'writing and network improvement projects, '
+                                                     'assessed by peers. Traffic and cargo rules '
+                                                     'change, so every standard is checked against '
+                                                     'current official text. Seatbelts, brakes and '
+                                                     'receipts all count.')]},
  '3D Printing Business': {'jobs': [('3D Print Operator',
                                     'Loads files, runs printers and removes finished parts.'),
                                    ('Post-Processing Technician',
@@ -630,35 +581,33 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                       ['Name main printer types, filaments and resins',
                                        'List safety steps for heat, fumes and moving parts',
                                        'Recognise common file formats and print faults'],
-                                      'Level 1 suits curious beginners with no experience in 3D '
-                                      'printing. Expect about 6 to 10 hours of short lessons, with '
-                                      'a word list or simple quiz as evidence. The standard is to '
-                                      'recognise the main terms, tools and safety points in plain '
-                                      'language. Passing gives the learner the vocabulary needed '
-                                      'for Level 2, where they begin to explain how 3D printing '
-                                      'works around Sao Paulo.'),
+                                      'Beginners compare filament printers with resin printers, '
+                                      'handle PLA spools, and learn why hot nozzles, fumes and '
+                                      'moving belts need care. They recognise STL files and '
+                                      'typical faults such as stringing and warping. Six to ten '
+                                      'hours of lessons with a picture quiz; pass is correct names '
+                                      'and safe habits.'),
                                      ('L2 Awareness: 3D printing',
                                       ['Describe how a digital model becomes a printed part',
                                        'Explain layer height, infill and support in plain words',
                                        'Identify who buys prints in Sao Paulo: makers, shops and '
                                        'schools'],
-                                      'Level 2 suits learners who know the basic words and want '
-                                      'the bigger picture of 3D printing. Expect about 10 to 15 '
-                                      'hours, with a short written summary or a visit report as '
-                                      'evidence. The standard is to explain how the work flows and '
-                                      'who is involved. It prepares the learner for Level 3, where '
-                                      'explaining turns into doing simple tasks.'),
+                                      'Ten to fifteen hours trace a model from download to slicer '
+                                      'to finished part, explain layer height, infill and supports '
+                                      'in plain language, and name buyers around Sao Paulo: '
+                                      'makers, architects, schools. A one-page report with '
+                                      'photographed prints, labelled by setting, is the evidence. '
+                                      'Labelled settings beside each photo make it easy to mark.'),
                                      ('L3 Foundation: 3D printing',
                                       ['Apply slicer settings to print a simple part',
                                        'Demonstrate print inspection and basic repair of failed '
                                        'prints',
                                        'Calculate cost per part from material, time and power'],
-                                      'Level 3 suits learners ready to try real tasks in 3D '
-                                      'printing under guidance. Expect about 20 to 30 hours of '
-                                      'practice, with a small portfolio of supervised tasks as '
-                                      'evidence. The standard is to finish routine work correctly, '
-                                      'safely and on time. It leads into Level 4, the main course, '
-                                      'where these skills are joined into a working plan.'),
+                                      'Under supervision for 20 to 30 hours the learner slices and '
+                                      'prints a simple bracket, inspects it with calipers, fixes a '
+                                      'failed first layer, and costs the part from grams, hours '
+                                      'and power. The portfolio shows three prints, a failure log '
+                                      'and one costed part within tolerance.'),
                                      ('L4 Practitioner: 3D printing',
                                       ['Plan a 3D printing business with services, machines and '
                                        'customers',
@@ -666,46 +615,42 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                        'and checking the current official text for business rules',
                                        'Run job queues, maintenance logs, quotes and payments each '
                                        'week'],
-                                      'Level 4 is the main course, with 8 modules, for adults who '
-                                      'want to run 3D printing in Sao Paulo. Expect about 60 to 80 '
-                                      'hours, with a full plan, a first-launch checklist and a '
-                                      'month of sample records as evidence. The standard is a plan '
-                                      'another person could follow. Check the current official '
-                                      'text for any rule. It opens Level 5, which deepens one '
-                                      'area.'),
+                                      'The core plan names services, machines, workspace '
+                                      'ventilation and a quoting method, after a check of the '
+                                      'current official text on business registration and workshop '
+                                      'safety. Sixty to eighty hours, 8 modules, ending in a '
+                                      'launch checklist and a month of job queue, maintenance and '
+                                      'quote records.'),
                                      ('L5 Specialist: 3D printing',
                                       ['Analyse failure rates and costs to raise yield',
                                        'Improve material choice and finishing quality',
                                        'Handle design ownership and customer files with care'],
-                                      'Level 5 suits people already running or working in 3D '
-                                      'printing who want to be the go-to person in one area. '
-                                      'Expect about 40 to 60 hours, with a case study using real '
-                                      'numbers as evidence. The standard is to find a weak point, '
-                                      'fix it and show measured results. It prepares the learner '
-                                      'for Level 6, where this skill expands to the whole '
-                                      'operation.'),
+                                      'Failed-print logs turn into causes: bed adhesion, damp '
+                                      'filament, bad supports. The specialist chooses better '
+                                      'materials, standardises finishing and writes a policy for '
+                                      'customer files and design ownership. Forty to sixty hours; '
+                                      'the case study must show yield rising with the earlier '
+                                      'failure count beside it.'),
                                      ('L6 Advanced: 3D printing',
                                       ['Evaluate new machines, materials and markets',
                                        'Design a production workflow and staff plan',
                                        'Manage risk from machine downtime and supply gaps'],
-                                      'Level 6 suits experienced practitioners who manage people, '
-                                      'money or several sites in 3D printing. Expect about 60 to '
-                                      '80 hours, with a written improvement programme and review '
-                                      'of its results as evidence. The standard is sound judgement '
-                                      'across the whole operation, including risk and quality. It '
-                                      'leads to Level 7, where the learner shapes the field and '
-                                      'teaches others.'),
+                                      'At this level a shop owner compares a second printer, resin '
+                                      'or a farm of small machines, designs a job flow with trays '
+                                      'and shift hours, and writes a fallback for machine downtime '
+                                      'and filament shortages. Sixty to eighty hours, with a '
+                                      'review of utilisation figures afterwards.'),
                                      ('L7 Super expert: 3D printing',
                                       ['Create quality standards for repeatable printing',
                                        'Mentor makers and small studios',
                                        'Lead product ideas and share know-how with the community'],
-                                      'Level 7 suits proven leaders in 3D printing who guide '
-                                      'others and shape good practice. Expect 100 or more hours of '
-                                      'mentoring, writing and project work, with a peer-reviewed '
-                                      'body of work as evidence. The standard is to create new '
-                                      'methods, train others and handle hard cases with care. '
-                                      'Rules change, so always check the current official text. '
-                                      'This is the top of the ladder.')]},
+                                      'Senior makers define repeatable quality standards, such as '
+                                      'test cubes per spool and tolerance sheets, and mentor '
+                                      'studios and young makers. Over 100 hours of mentoring, '
+                                      'writing and community projects, reviewed by peers. Product '
+                                      'safety rules evolve, so claims are rechecked against '
+                                      'current official text. Spare spools and a logbook keep the '
+                                      'work repeatable.')]},
  'App Development': {'jobs': [('Junior App Developer',
                                'Writes and fixes small parts of an app under guidance.'),
                               ('QA Tester', 'Tests apps for bugs and reports them clearly.'),
@@ -721,33 +666,29 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                  ['Name main app parts such as screen, data and server',
                                   'List basic coding terms and tools',
                                   'Recognise safe habits for passwords and user data'],
-                                 'Level 1 suits curious beginners with no experience in app '
-                                 'development. Expect about 6 to 10 hours of short lessons, with a '
-                                 'word list or simple quiz as evidence. The standard is to '
-                                 'recognise the main terms, tools and safety points in plain '
-                                 'language. Passing gives the learner the vocabulary needed for '
-                                 'Level 2, where they begin to explain how app development works '
-                                 'around Sao Paulo.'),
+                                 'Learners sketch an app as screens, stored data and a server, '
+                                 'learn terms such as variable, loop, bug and repository, and '
+                                 'practise strong passwords and careful handling of user data. Six '
+                                 'to ten hours of lessons with a vocabulary quiz; pass is naming '
+                                 'the parts and the safe habits correctly.'),
                                 ('L2 Awareness: app development',
                                  ['Describe how an idea becomes a working app',
                                   'Explain mobile, web and cross-platform choices',
                                   'Identify app markets and user needs in Sao Paulo'],
-                                 'Level 2 suits learners who know the basic words and want the '
-                                 'bigger picture of app development. Expect about 10 to 15 hours, '
-                                 'with a short written summary or a visit report as evidence. The '
-                                 'standard is to explain how the work flows and who is involved. '
-                                 'It prepares the learner for Level 3, where explaining turns into '
-                                 'doing simple tasks.'),
+                                 'Ten to fifteen hours follow an idea from sketch to store '
+                                 'listing, compare native, web and cross-platform choices, and '
+                                 'look at what Sao Paulo users want, such as delivery tracking or '
+                                 'banking. A short written brief with a user story and a platform '
+                                 'choice is the evidence.'),
                                 ('L3 Foundation: app development',
                                  ['Apply basic code to build a small screen and button',
                                   'Demonstrate testing and version saving of a small project',
                                   'Calculate simple effort and time for a feature'],
-                                 'Level 3 suits learners ready to try real tasks in app '
-                                 'development under guidance. Expect about 20 to 30 hours of '
-                                 'practice, with a small portfolio of supervised tasks as '
-                                 'evidence. The standard is to finish routine work correctly, '
-                                 'safely and on time. It leads into Level 4, the main course, '
-                                 'where these skills are joined into a working plan.'),
+                                 'Practical work, 20 to 30 hours, builds one screen with a button, '
+                                 'runs it on a phone or emulator, saves versions in a repository, '
+                                 'tests it by hand and estimates hours for one extra feature. The '
+                                 'portfolio holds the working code, a commit history and an honest '
+                                 'time estimate.'),
                                 ('L4 Practitioner: app development',
                                  ['Plan an app product or service with users, features and a build '
                                   'plan',
@@ -755,42 +696,39 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                   'official text for data protection and business rules',
                                   'Run sprints, bug tracking, releases and user feedback each '
                                   'week'],
-                                 'Level 4 is the main course, with 8 modules, for adults who want '
-                                 'to run app development in Sao Paulo. Expect about 60 to 80 '
-                                 'hours, with a full plan, a first-launch checklist and a month of '
-                                 'sample records as evidence. The standard is a plan another '
-                                 'person could follow. Check the current official text for any '
-                                 'rule. It opens Level 5, which deepens one area.'),
+                                 'The core course delivers a first working version, a sprint plan '
+                                 'and a user feedback loop, after checking the current official '
+                                 'text on data protection and store rules. Over 60 to 80 hours, 8 '
+                                 'modules, evidence is the build, a release checklist and four '
+                                 'weeks of sprint and bug records.'),
                                 ('L5 Specialist: app development',
                                  ['Analyse usage data and crashes to improve the app',
                                   'Improve speed, security and code quality',
                                   'Choose tools and services with clear trade-offs'],
-                                 'Level 5 suits people already running or working in app '
-                                 'development who want to be the go-to person in one area. Expect '
-                                 'about 40 to 60 hours, with a case study using real numbers as '
-                                 'evidence. The standard is to find a weak point, fix it and show '
-                                 'measured results. It prepares the learner for Level 6, where '
-                                 'this skill expands to the whole operation.'),
+                                 'Crash reports and usage events point to the slow screen and the '
+                                 'failing login. The specialist profiles speed, fixes weak spots '
+                                 'in security, tidies code through reviews and compares tools by '
+                                 'cost and lock-in. Forty to sixty hours; the case study shows '
+                                 'crash or load figures before and after.'),
                                 ('L6 Advanced: app development',
                                  ['Evaluate architecture, team structure and release plans',
                                   'Design testing, security and support routines',
                                   'Manage risk from outages, cost growth and rule changes'],
-                                 'Level 6 suits experienced practitioners who manage people, money '
-                                 'or several sites in app development. Expect about 60 to 80 '
-                                 'hours, with a written improvement programme and review of its '
-                                 'results as evidence. The standard is sound judgement across the '
-                                 'whole operation, including risk and quality. It leads to Level '
-                                 '7, where the learner shapes the field and teaches others.'),
+                                 'Leads weigh architecture options, team structure and release '
+                                 'cadence, then write a test plan, security routine and support '
+                                 'rota. Outages, cloud cost growth and store rule changes each '
+                                 'receive a risk entry. Sixty to eighty hours of work, followed by '
+                                 'a review of the release record.'),
                                 ('L7 Super expert: app development',
                                  ['Create a product vision and engineering standards',
                                   'Mentor developers and founders',
                                   'Lead open knowledge sharing and major launches'],
-                                 'Level 7 suits proven leaders in app development who guide others '
-                                 'and shape good practice. Expect 100 or more hours of mentoring, '
-                                 'writing and project work, with a peer-reviewed body of work as '
-                                 'evidence. The standard is to create new methods, train others '
-                                 'and handle hard cases with care. Rules change, so always check '
-                                 'the current official text. This is the top of the ladder.')]},
+                                 'Senior engineers set product vision and engineering standards '
+                                 'such as review rules, test coverage and incident write-ups, and '
+                                 'coach developers and founders. Over 100 hours across mentoring, '
+                                 'public knowledge sharing and a major launch, assessed by peers. '
+                                 'Data rules change, so recheck current official text. Shipped '
+                                 'releases are the proof.')]},
  'Small and Medium Entrepreneur Business': {'jobs': [('Business Assistant',
                                                       'Supports daily tasks such as orders, '
                                                       'records and customer replies.'),
@@ -815,17 +753,14 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                                          'List the main types of small business',
                                                          'Recognise the roles of owner, staff and '
                                                          'customer'],
-                                                        'Level 1 suits curious beginners with no '
-                                                        'experience in small business ownership. '
-                                                        'Expect about 6 to 10 hours of short '
-                                                        'lessons, with a word list or simple quiz '
-                                                        'as evidence. The standard is to recognise '
-                                                        'the main terms, tools and safety points '
-                                                        'in plain language. Passing gives the '
-                                                        'learner the vocabulary needed for Level '
-                                                        '2, where they begin to explain how small '
-                                                        'business ownership works around Sao '
-                                                        'Paulo.'),
+                                                        'Beginners separate income, cost and '
+                                                        'profit using a lemonade stand example, '
+                                                        'then list owner, employee and customer '
+                                                        'roles and common business types such as '
+                                                        'shop, workshop and service. Six to ten '
+                                                        'hours of lessons with a short quiz; pass '
+                                                        'is using the money words correctly. Use '
+                                                        'real shop examples.'),
                                                        ('L2 Awareness: small business ownership',
                                                         ['Describe how a small business finds '
                                                          'customers and earns money',
@@ -833,15 +768,14 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                                          'keeping in general terms',
                                                          'Identify local support and market types '
                                                          'in Sao Paulo'],
-                                                        'Level 2 suits learners who know the basic '
-                                                        'words and want the bigger picture of '
-                                                        'small business ownership. Expect about 10 '
-                                                        'to 15 hours, with a short written summary '
-                                                        'or a visit report as evidence. The '
-                                                        'standard is to explain how the work flows '
-                                                        'and who is involved. It prepares the '
-                                                        'learner for Level 3, where explaining '
-                                                        'turns into doing simple tasks.'),
+                                                        'Ten to fifteen hours explain how a '
+                                                        'neighbourhood business finds customers, '
+                                                        'earns money and keeps records, with a '
+                                                        'general view of registration and taxes. '
+                                                        'The learner visits a market or shop and '
+                                                        'hands in a short report naming customers, '
+                                                        'suppliers and local support bodies in Sao '
+                                                        'Paulo.'),
                                                        ('L3 Foundation: small business ownership',
                                                         ['Apply a simple budget and price '
                                                          'calculation',
@@ -849,16 +783,13 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                                          'and costs',
                                                          'Draft a one-page business idea with '
                                                          'customer and offer'],
-                                                        'Level 3 suits learners ready to try real '
-                                                        'tasks in small business ownership under '
-                                                        'guidance. Expect about 20 to 30 hours of '
-                                                        'practice, with a small portfolio of '
-                                                        'supervised tasks as evidence. The '
-                                                        'standard is to finish routine work '
-                                                        'correctly, safely and on time. It leads '
-                                                        'into Level 4, the main course, where '
-                                                        'these skills are joined into a working '
-                                                        'plan.'),
+                                                        'The learner builds a one-month budget, '
+                                                        'sets a price from cost plus margin, '
+                                                        'records sales and costs in a simple '
+                                                        'ledger and drafts a one-page idea naming '
+                                                        'the customer and the offer. About 20 to '
+                                                        '30 hours; the portfolio shows a ledger '
+                                                        'that adds up and a price with workings.'),
                                                        ('L4 Practitioner: small business ownership',
                                                         ['Plan a small business with market, '
                                                          'offer, finances and team',
@@ -867,16 +798,13 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                                          'registration and tax',
                                                          'Run weekly sales, cash, supplier and '
                                                          'customer reviews'],
-                                                        'Level 4 is the main course, with 8 '
-                                                        'modules, for adults who want to run small '
-                                                        'business ownership in Sao Paulo. Expect '
-                                                        'about 60 to 80 hours, with a full plan, a '
-                                                        'first-launch checklist and a month of '
-                                                        'sample records as evidence. The standard '
-                                                        'is a plan another person could follow. '
-                                                        'Check the current official text for any '
-                                                        'rule. It opens Level 5, which deepens one '
-                                                        'area.'),
+                                                        'The core course produces a full plan '
+                                                        'covering market, offer, finances and '
+                                                        'team, a legal form chosen after checking '
+                                                        'the current official text on registration '
+                                                        'and tax, and a launch checklist. Sixty to '
+                                                        'eighty hours across 8 modules, with four '
+                                                        'weeks of sales and cash sheets as proof.'),
                                                        ('L5 Specialist: small business ownership',
                                                         ['Analyse margins, cash flow and customer '
                                                          'groups',
@@ -884,15 +812,15 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                                          'terms',
                                                          'Solve staffing and growth problems with '
                                                          'data'],
-                                                        'Level 5 suits people already running or '
-                                                        'working in small business ownership who '
-                                                        'want to be the go-to person in one area. '
-                                                        'Expect about 40 to 60 hours, with a case '
-                                                        'study using real numbers as evidence. The '
-                                                        'standard is to find a weak point, fix it '
-                                                        'and show measured results. It prepares '
-                                                        'the learner for Level 6, where this skill '
-                                                        'expands to the whole operation.'),
+                                                        'Using real accounts, the specialist '
+                                                        'compares margins by product, projects '
+                                                        'cash week by week and splits customers '
+                                                        'into groups worth different effort. '
+                                                        'Prices, supplier terms and staffing gaps '
+                                                        'are fixed with data. Forty to sixty '
+                                                        'hours; the case study must show a '
+                                                        'measured gain. Numbers, not opinions, '
+                                                        'carry the case.'),
                                                        ('L6 Advanced: small business ownership',
                                                         ['Evaluate expansion, funding and partner '
                                                          'options',
@@ -900,32 +828,28 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                                          'growth',
                                                          'Manage legal, tax and cash risks with '
                                                          'proper advice'],
-                                                        'Level 6 suits experienced practitioners '
-                                                        'who manage people, money or several sites '
-                                                        'in small business ownership. Expect about '
-                                                        '60 to 80 hours, with a written '
-                                                        'improvement programme and review of its '
-                                                        'results as evidence. The standard is '
-                                                        'sound judgement across the whole '
-                                                        'operation, including risk and quality. It '
-                                                        'leads to Level 7, where the learner '
-                                                        'shapes the field and teaches others.'),
+                                                        'Owners weigh a second site, a loan or a '
+                                                        'partner by what each does to cash and '
+                                                        'risk, write roles and systems for growth, '
+                                                        'and set out legal, tax and cash risks '
+                                                        'while naming where a qualified adviser is '
+                                                        'needed. Sixty to eighty hours with the '
+                                                        "plan's results reviewed."),
                                                        ('L7 Super expert: small business ownership',
                                                         ['Create a lasting company strategy and '
                                                          'culture',
                                                          'Mentor new owners and managers',
                                                          'Lead local business groups and share '
                                                          'lessons'],
-                                                        'Level 7 suits proven leaders in small '
-                                                        'business ownership who guide others and '
-                                                        'shape good practice. Expect 100 or more '
-                                                        'hours of mentoring, writing and project '
-                                                        'work, with a peer-reviewed body of work '
-                                                        'as evidence. The standard is to create '
-                                                        'new methods, train others and handle hard '
-                                                        'cases with care. Rules change, so always '
-                                                        'check the current official text. This is '
-                                                        'the top of the ladder.')]},
+                                                        'Senior owners shape long-run strategy and '
+                                                        'company culture, mentor new owners and '
+                                                        'managers, and lead local business groups. '
+                                                        'Over 100 hours of mentoring, writing and '
+                                                        'community projects, reviewed by peers. '
+                                                        'Tax and labour rules shift, so every '
+                                                        'point is rechecked against the current '
+                                                        'official text. Peers decide whether the '
+                                                        'lessons hold.')]},
  'Outsourcing Services': {'jobs': [('Customer Support Agent',
                                     'Answers customer questions by phone, chat or email for a '
                                     'client.'),
@@ -944,34 +868,31 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                       ['Name common outsourced tasks and service terms',
                                        'List basic rules for client data and privacy',
                                        'Recognise simple quality and speed targets'],
-                                      'Level 1 suits curious beginners with no experience in '
-                                      'outsourcing services. Expect about 6 to 10 hours of short '
-                                      'lessons, with a word list or simple quiz as evidence. The '
-                                      'standard is to recognise the main terms, tools and safety '
-                                      'points in plain language. Passing gives the learner the '
-                                      'vocabulary needed for Level 2, where they begin to explain '
-                                      'how outsourcing services works around Sao Paulo.'),
+                                      'Learners list tasks firms hand out, such as data entry, '
+                                      'customer chat and invoice processing, learn service words '
+                                      'like turnaround and ticket, and practise protecting client '
+                                      'files. Six to ten hours of lessons with a term quiz; pass '
+                                      'is correct vocabulary and the privacy rules. Quiet, careful '
+                                      'handling of client files is the habit.'),
                                      ('L2 Awareness: outsourcing services',
                                       ['Describe how a client hands work to a service provider',
                                        'Explain service agreements and reporting in plain words',
                                        'Identify outsourcing types and demand in Sao Paulo'],
-                                      'Level 2 suits learners who know the basic words and want '
-                                      'the bigger picture of outsourcing services. Expect about 10 '
-                                      'to 15 hours, with a short written summary or a visit report '
-                                      'as evidence. The standard is to explain how the work flows '
-                                      'and who is involved. It prepares the learner for Level 3, '
-                                      'where explaining turns into doing simple tasks.'),
+                                      'Ten to fifteen hours explain how a client briefs a '
+                                      'provider, what a service agreement and a weekly report '
+                                      'contain, and what demand looks like in Sao Paulo from call '
+                                      'centres to back-office teams. A short written summary of '
+                                      'one sample agreement is the evidence. Plain wording matters '
+                                      'here.'),
                                      ('L3 Foundation: outsourcing services',
                                       ['Apply a step-by-step process to real sample tasks',
                                        'Demonstrate accurate work and clear status updates',
                                        'Calculate cost per task and hourly capacity'],
-                                      'Level 3 suits learners ready to try real tasks in '
-                                      'outsourcing services under guidance. Expect about 20 to 30 '
-                                      'hours of practice, with a small portfolio of supervised '
-                                      'tasks as evidence. The standard is to finish routine work '
-                                      'correctly, safely and on time. It leads into Level 4, the '
-                                      'main course, where these skills are joined into a working '
-                                      'plan.'),
+                                      'Practice for 20 to 30 hours on sample batches: follow a '
+                                      'written procedure, keep error counts, send clear status '
+                                      'messages and work out cost per task from minutes and pay. '
+                                      'The portfolio holds a finished batch with its error log and '
+                                      'a capacity table for one worker.'),
                                      ('L4 Practitioner: outsourcing services',
                                       ['Plan an outsourcing service with tasks, team, tools and '
                                        'client offer',
@@ -980,47 +901,41 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                        'protection',
                                        'Run quality checks, reports, invoices and staffing each '
                                        'week'],
-                                      'Level 4 is the main course, with 8 modules, for adults who '
-                                      'want to run outsourcing services in Sao Paulo. Expect about '
-                                      '60 to 80 hours, with a full plan, a first-launch checklist '
-                                      'and a month of sample records as evidence. The standard is '
-                                      'a plan another person could follow. Check the current '
-                                      'official text for any rule. It opens Level 5, which deepens '
-                                      'one area.'),
+                                      'The core course designs a service: task list, team, tools, '
+                                      'client offer and a pilot with a first client, with the '
+                                      'current official text checked on contracts, data and '
+                                      'labour. Sixty to eighty hours, 8 modules; evidence is a '
+                                      'launch checklist and a month of quality checks, reports and '
+                                      'invoices.'),
                                      ('L5 Specialist: outsourcing services',
                                       ['Analyse error rates and turnaround to raise quality',
                                        'Improve process steps and training',
                                        'Handle client complaints and scope changes fairly'],
-                                      'Level 5 suits people already running or working in '
-                                      'outsourcing services who want to be the go-to person in one '
-                                      'area. Expect about 40 to 60 hours, with a case study using '
-                                      'real numbers as evidence. The standard is to find a weak '
-                                      'point, fix it and show measured results. It prepares the '
-                                      'learner for Level 6, where this skill expands to the whole '
-                                      'operation.'),
+                                      'Error rates and turnaround times from a month of tickets '
+                                      'show where rework piles up. The specialist rewrites process '
+                                      'steps, trains staff on the weak step and sets a rule for '
+                                      'scope changes and complaints. Forty to sixty hours; the '
+                                      'case study shows error and speed before and after.'),
                                      ('L6 Advanced: outsourcing services',
                                       ['Evaluate new service lines and pricing models',
                                        'Design secure systems, staffing and backup plans',
                                        'Manage risk from client loss, staff change and data '
                                        'issues'],
-                                      'Level 6 suits experienced practitioners who manage people, '
-                                      'money or several sites in outsourcing services. Expect '
-                                      'about 60 to 80 hours, with a written improvement programme '
-                                      'and review of its results as evidence. The standard is '
-                                      'sound judgement across the whole operation, including risk '
-                                      'and quality. It leads to Level 7, where the learner shapes '
-                                      'the field and teaches others.'),
+                                      'Managers compare new service lines and pricing models such '
+                                      'as per task, per hour and fixed fee, build secure systems '
+                                      'and backups, and plan for losing a big client or key staff. '
+                                      'Sixty to eighty hours, followed by a written review of '
+                                      'results. Contract limits are written down.'),
                                      ('L7 Super expert: outsourcing services',
                                       ['Create delivery standards and a service culture',
                                        'Mentor managers and new providers',
                                        'Lead sector projects and share good practice'],
-                                      'Level 7 suits proven leaders in outsourcing services who '
-                                      'guide others and shape good practice. Expect 100 or more '
-                                      'hours of mentoring, writing and project work, with a '
-                                      'peer-reviewed body of work as evidence. The standard is to '
-                                      'create new methods, train others and handle hard cases with '
-                                      'care. Rules change, so always check the current official '
-                                      'text. This is the top of the ladder.')]},
+                                      'Top-level work sets delivery standards and a service '
+                                      'culture, and coaches managers and new providers. Over 100 '
+                                      'hours of mentoring, writing and sector projects assessed by '
+                                      'peers. Data protection and labour rules change, so each '
+                                      'standard is rechecked against current official text. Calm '
+                                      'delivery under pressure is the aim.')]},
  'Electronics Sales & Repair Services': {'jobs': [('Electronics Sales Assistant',
                                                    'Helps customers choose devices and accessories '
                                                    'and records sales.'),
@@ -1044,16 +959,13 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                                       'List safety steps for batteries and static',
                                                       'Recognise simple faults such as dead '
                                                       'battery or cracked screen'],
-                                                     'Level 1 suits curious beginners with no '
-                                                     'experience in electronics sales and repair. '
-                                                     'Expect about 6 to 10 hours of short lessons, '
-                                                     'with a word list or simple quiz as evidence. '
-                                                     'The standard is to recognise the main terms, '
-                                                     'tools and safety points in plain language. '
-                                                     'Passing gives the learner the vocabulary '
-                                                     'needed for Level 2, where they begin to '
-                                                     'explain how electronics sales and repair '
-                                                     'works around Sao Paulo.'),
+                                                     'Beginners open a dead phone on a mat and '
+                                                     'name battery, board, screen and connector, '
+                                                     'then learn why batteries swell and how '
+                                                     'static damages chips. They spot simple '
+                                                     'faults such as a cracked glass or a drained '
+                                                     'cell. Six to ten hours with a parts quiz; '
+                                                     'pass is correct names and safe handling.'),
                                                     ('L2 Awareness: electronics sales and repair',
                                                      ['Describe how a repair job moves from intake '
                                                       'to return',
@@ -1061,30 +973,27 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                                       'used-device grading',
                                                       'Identify sales and repair demand in Sao '
                                                       'Paulo'],
-                                                     'Level 2 suits learners who know the basic '
-                                                     'words and want the bigger picture of '
-                                                     'electronics sales and repair. Expect about '
-                                                     '10 to 15 hours, with a short written summary '
-                                                     'or a visit report as evidence. The standard '
-                                                     'is to explain how the work flows and who is '
-                                                     'involved. It prepares the learner for Level '
-                                                     '3, where explaining turns into doing simple '
-                                                     'tasks.'),
+                                                     'Ten to fifteen hours follow a repair from '
+                                                     'intake tag to test to return, explain '
+                                                     'warranty, spare parts and used-device '
+                                                     'grading, and look at sales and repair demand '
+                                                     'in Sao Paulo, from shopping-mall kiosks to '
+                                                     'neighbourhood benches. A written job-flow '
+                                                     'summary is the evidence. Tidy tags prevent '
+                                                     'mix-ups at the counter.'),
                                                     ('L3 Foundation: electronics sales and repair',
                                                      ['Apply testing steps to find a simple fault',
                                                       'Demonstrate a safe screen or battery swap '
                                                       'on a practice device',
                                                       'Calculate a repair quote from parts, time '
                                                       'and margin'],
-                                                     'Level 3 suits learners ready to try real '
-                                                     'tasks in electronics sales and repair under '
-                                                     'guidance. Expect about 20 to 30 hours of '
-                                                     'practice, with a small portfolio of '
-                                                     'supervised tasks as evidence. The standard '
-                                                     'is to finish routine work correctly, safely '
-                                                     'and on time. It leads into Level 4, the main '
-                                                     'course, where these skills are joined into a '
-                                                     'working plan.'),
+                                                     'Supervised work, 20 to 30 hours: test a '
+                                                     'device with a multimeter to find a simple '
+                                                     'fault, swap a screen or battery on a '
+                                                     'practice phone without damage, and write a '
+                                                     'quote from parts, minutes and margin. '
+                                                     'Portfolio: photos, a test log and a costed '
+                                                     'quote.'),
                                                     ('L4 Practitioner: electronics sales and '
                                                      'repair',
                                                      ['Plan an electronics sales or repair shop '
@@ -1094,15 +1003,13 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                                       'business, waste and consumer rules',
                                                       'Run intake logs, parts stock, quotes and '
                                                       'payments each week'],
-                                                     'Level 4 is the main course, with 8 modules, '
-                                                     'for adults who want to run electronics sales '
-                                                     'and repair in Sao Paulo. Expect about 60 to '
-                                                     '80 hours, with a full plan, a first-launch '
-                                                     'checklist and a month of sample records as '
-                                                     'evidence. The standard is a plan another '
-                                                     'person could follow. Check the current '
-                                                     'official text for any rule. It opens Level '
-                                                     '5, which deepens one area.'),
+                                                     'The core plan sets out services, parts stock '
+                                                     'and customer flow, with a check of the '
+                                                     'current official text on bench safety, waste '
+                                                     'and consumer rules. Sixty to eighty hours '
+                                                     'across 8 modules end in a launch checklist '
+                                                     'and a month of intake logs, parts counts, '
+                                                     'quotes and receipts.'),
                                                     ('L5 Specialist: electronics sales and repair',
                                                      ['Analyse repeat repairs and parts returns to '
                                                       'cut waste',
@@ -1110,15 +1017,14 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                                       'quality',
                                                       'Handle data privacy and warranty disputes '
                                                       'correctly'],
-                                                     'Level 5 suits people already running or '
-                                                     'working in electronics sales and repair who '
-                                                     'want to be the go-to person in one area. '
-                                                     'Expect about 40 to 60 hours, with a case '
-                                                     'study using real numbers as evidence. The '
-                                                     'standard is to find a weak point, fix it and '
-                                                     'show measured results. It prepares the '
-                                                     'learner for Level 6, where this skill '
-                                                     'expands to the whole operation.'),
+                                                     'Repeat repairs and returned parts are '
+                                                     'charted by model and supplier. The '
+                                                     'specialist speeds diagnosis with a fixed '
+                                                     'test order, drops weak suppliers and handles '
+                                                     'customer data and warranty disputes with '
+                                                     'signed forms. Forty to sixty hours; the case '
+                                                     'study shows returns falling. Evidence is a '
+                                                     'month of tickets.'),
                                                     ('L6 Advanced: electronics sales and repair',
                                                      ['Evaluate new device lines and training '
                                                       'needs',
@@ -1126,29 +1032,25 @@ LADDER = {'Apparels and Accessories': {'jobs': [('Retail Sales Assistant',
                                                       'pricing rules',
                                                       'Manage risk from fake parts, stock value '
                                                       'and fire safety'],
-                                                     'Level 6 suits experienced practitioners who '
-                                                     'manage people, money or several sites in '
-                                                     'electronics sales and repair. Expect about '
-                                                     '60 to 80 hours, with a written improvement '
-                                                     'programme and review of its results as '
-                                                     'evidence. The standard is sound judgement '
-                                                     'across the whole operation, including risk '
-                                                     'and quality. It leads to Level 7, where the '
-                                                     'learner shapes the field and teaches '
-                                                     'others.'),
+                                                     'Managers evaluate new device lines and '
+                                                     'technician training, write bench standards, '
+                                                     'tracking rules and pricing, and assess risks '
+                                                     'from fake parts, locked-up stock value and '
+                                                     'fire. Sixty to eighty hours of work, '
+                                                     'followed by a review of the effect on '
+                                                     'returns and margin. Every purchase gets a '
+                                                     'reason.'),
                                                     ('L7 Super expert: electronics sales and '
                                                      'repair',
                                                      ['Create repair quality and safety standards',
                                                       'Mentor technicians and shop owners',
                                                       'Lead recycling and training projects and '
                                                       'share results'],
-                                                     'Level 7 suits proven leaders in electronics '
-                                                     'sales and repair who guide others and shape '
-                                                     'good practice. Expect 100 or more hours of '
-                                                     'mentoring, writing and project work, with a '
-                                                     'peer-reviewed body of work as evidence. The '
-                                                     'standard is to create new methods, train '
-                                                     'others and handle hard cases with care. '
-                                                     'Rules change, so always check the current '
-                                                     'official text. This is the top of the '
-                                                     'ladder.')]}}
+                                                     'Experts set repair quality and safety '
+                                                     'standards, coach technicians and owners, and '
+                                                     'lead recycling and training projects. Over '
+                                                     '100 hours of mentoring, writing and '
+                                                     'community work, judged by peers. Waste and '
+                                                     'battery rules change, so every item is '
+                                                     'rechecked against current official text. '
+                                                     'Safe benches are the test.')]}}

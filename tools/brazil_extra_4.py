@@ -1,90 +1,649 @@
-EXTRA = {
-'Apparels and Accessories': {
-'offer': ('Pick one buyer, for example office workers in Sao Paulo, and cut the range to basics in five sizes and three colors. Visit three nearby shops and write down their prices, fabrics and exchange rules. Ask a seamstress for a written quote per piece, then add thread, labels, bags and freight to find the landed cost. Divide that cost by one minus your target margin to reach the shelf price. Sew two samples, wash them five times and inspect shrinkage and loose seams. Show both to ten buyers and record the winner. Order a small first batch only after that. Check the current official text for labeling and tax rules.',
-'A seller plans a cotton shirt. Fabric costs R$ 18, sewing R$ 12 and packaging plus freight R$ 5, so landed cost is R$ 35. Wanting a 50 percent margin on the selling price, she divides by 0,50 and sets R$ 70. A rival charges R$ 75, so the price holds. A first batch of 40 shirts costs R$ 1.400 and, if every shirt sells, brings R$ 2.800, which leaves R$ 1.400 before other expenses.'),
-'people': ('Split the shop work into floor, stock room and chat desk, and write each post on one page. Teach the floor person to ask who the clothes are for and on which day they will be worn, then to bring three pieces to the fitting room. Show the stock person how to fold, tag by size and count each delivery against the note. Give the chat desk a template that greets the client by name and answers within ten minutes. Rehearse a late order and a wrong size until the apology feels natural. Read five customer comments each Friday. Check the current official text for employment rules.',
-'A shop answers 20 chat inquiries a week. Before the script, 4 became sales, which is 20 percent. After the ten-minute reply goal, 7 bought, or 35 percent. With an average ticket of R$ 120, weekly sales moved from R$ 480 to R$ 840. The difference is R$ 360 per week, and over a four-week month it reaches R$ 1.440, without any new advertising.'),
-'growth': ('Keep a weekly sheet with visits, orders, average ticket and returns, and read it every Monday. Mark every item unsold after sixty days for a bundle or a markdown, and note the lesson for the next purchase. Place orders six weeks ahead of Mothers Day, winter and year-end, since sewing shops fill up. Ask each buyer for a photo wearing the piece and invite them to a private preview of the next line. Count how many customers bought twice in the quarter. Try one new sales channel at a time and judge it by orders, not likes. Check the current official text for marketplace and tax rules.',
-'A shop sold 150 pieces in a month at an average ticket of R$ 90, so revenue was R$ 13.500. Among 60 tracked customers, 18 had bought before, a repeat rate of 30 percent. After inviting buyers to a preview, 24 of 60 returned, or 40 percent. Six extra repeat buyers at R$ 90 each add R$ 540 a month, which is R$ 6.480 over a year if the habit lasts.'),
-},
-'Beauty': {
-'offer': ('Interview ten regular clients and write their top three complaints, such as frizz, short time or sensitive skin. Turn your three strongest services into named packages and describe what each one includes in one line. Time every step with a clock, weigh the product used and add gloves, towels and disposable items. Place your own hour on the sheet, then compare it with prices of two salons nearby. Print a menu showing price, duration and aftercare. Offer one package to five clients for two weeks and note what they ask to change. Check the current official text for hygiene and licensing rules.',
-'A nail studio sells a hands-and-feet package. Products cost R$ 9, cleaning and tools R$ 6, and the service lasts 100 minutes. Valuing her hour at R$ 30, the owner counts R$ 50 for her time. Full cost is R$ 65. At a price of R$ 110, she keeps R$ 45 above cost per package. Selling 6 packages in a week brings R$ 660 in revenue and R$ 270 above cost.'),
-'people': ('Write a three-part routine for every visit: welcome with a drink, consultation with two questions, and a closing that explains aftercare. Watch each candidate work on a real model before hiring, and score cut, color or polish, speed and cleanliness. Boil or sterilize tools, sign the cleaning checklist after each client and keep the sheets for inspection. Leave ten idle minutes between appointments so delays do not pile up. Send a reminder message the day before. Meet each professional monthly to review rebooking and complaints. Check the current official text for health, safety and labor rules before you hire.',
-'Each professional has 8 slots a day but late clients leave only 6 served. With a ten-minute buffer and a reminder message, 7 are served. At R$ 80 per service over 22 working days, one extra slot gives R$ 1.760 a month per professional. With 2 professionals the gain is R$ 3.520 a month. Over six months that is R$ 21.120, gained by organizing the day rather than adding hours.'),
-'growth': ('Open a client card with date, service, product used and the next suggested visit. Each week, list the clients who passed forty-five days without returning and send them a friendly message. Ask each happy client to bring one friend and thank both with a small sample. Rank services by profit per hour and give the top ones the best slots. Photograph results with written permission and post them on a fixed schedule. Review four numbers monthly: new clients, returning clients, average ticket and cancellations. Change one thing at a time. Check the current official text for advertising and data privacy rules.',
-'A studio has 100 active clients and 55 return within 45 days, a rate of 55 percent. After weekly reminder messages, 65 return, a rate of 65 percent. That is 10 more clients each cycle. At an average ticket of R$ 90, the cycle gains R$ 900. With about 8 cycles in a year, the gain is R$ 7.200. The studio checks the same client list again after one quarter to confirm that the gain is not a short peak.'),
-},
-'Dental': {
-'offer': ('Group your procedures into prevention, restoration and aesthetics and describe each in words a patient understands. Record chair minutes, assistant minutes, materials and laboratory fees for every procedure on one table. Divide your monthly clinic cost by the hours you really treat to find the cost of one chair hour. Compare price ranges in the neighborhood and choose your position. Write a treatment plan listing options, stages, cost and recovery so the patient can decide without pressure. Propose a six-month check-up as the standard return. Check the current official text from the professional council and health authority for advertising, records and infection control.',
-'A clinic prices a restoration. Materials cost R$ 25, assistant time R$ 15, and the procedure uses 45 minutes of a chair that costs R$ 120 per hour, which is R$ 90. Total cost is R$ 130. At a price of R$ 220, the margin is R$ 90, or 41 percent of the price. Ten restorations in a month leave R$ 900 above cost.'),
-'people': ('Give the dentist, assistant, front desk and cleaner a written checklist of what they do before, during and after each patient. Train the front desk to confirm each visit by message one day before and to explain preparation, such as eating or medicines. Teach the chairside team to describe each step in simple words and to ask the patient to repeat what they understood. Run every instrument pack through the sterilizer, label the batch and file the log. Ask each patient one question on leaving and review answers on Fridays. Check the current official text for staff qualifications, health rules and patient privacy.',
-'A clinic books 30 appointments a week and 6 patients miss them, a no-show rate of 20 percent. After confirming by message the day before, absences fall to 3. At R$ 150 per appointment, the clinic recovers R$ 450 a week. Over four weeks that is R$ 1.800 of chair time that no longer sits empty. The front desk keeps the confirmation list in the same sheet as the agenda, so the numbers can be checked again next month.'),
-'growth': ('Follow each patient from first visit to treatment plan to final appointment, and count how many reach each stage. Ask patients who decline a plan for the main reason and write it down. Create a recall list for six-month check-ups and for people with unfinished treatment. Answer every online review politely and without sharing clinical details. Divide monthly revenue by the number of chairs to see what each earns. Before you buy equipment, count how many procedures per month are needed to pay its installment. Check the current official text for dentistry advertising limits and patient data rules.',
-'A clinic presents 40 treatment plans a month and 20 are accepted, which is 50 percent. After explaining stages and payment options better, 26 are accepted, or 65 percent. With an average plan of R$ 800, accepted value moves from R$ 16.000 to R$ 20.800, a gain of R$ 4.800 a month. Held for twelve months, the gain would be R$ 57.600.'),
-},
-'Cleaning Services': {
-'offer': ('Choose between home, office and post-construction cleaning, because dust, tools and time differ in each. Visit the site before quoting and measure rooms in square meters, counting windows, bathrooms and floor types. Write a checklist of included tasks and a short list of what is excluded, such as moving heavy furniture. Time a trial job with a clock and add products, cloths, transport and labor. Quote by area or per visit so a slow job does not eat your margin. Hand the client a one-page proposal with date, price and checklist. Check the current official text for labor, safety and product rules.',
-'A cleaner quotes an office of 120 square meters. The job takes 2 workers for 4 hours at R$ 20 per hour each, so labor is R$ 160. Products and transport add R$ 40, making total cost R$ 200. She quotes R$ 300, keeping R$ 100, or 33 percent of the price. Four such visits a month leave R$ 400 above cost.'),
-'people': ('Hand each worker a room-by-room card that says top to bottom, dry to wet, and has them tick every line. Demonstrate each product with its label, show which ones must never be mixed and make gloves, masks and non-slip shoes part of the uniform. Plan routes so teams finish one neighborhood before moving to the next. After each visit, take a photo of the finished rooms and ask the client to sign the card. Inspect one job per week without warning. Praise punctuality in front of the group. Check the current official text for employment, protective equipment and safety rules.',
-'A two-person team cleans 3 homes a day, with 40 minutes of travel per move. Grouping clients by neighborhood cuts each move to 20 minutes. Over 2 moves the team saves 40 minutes a day, which can be used to fit a shorter fourth visit. If that visit earns R$ 150 on 10 days a month, the gain is R$ 1.500. In half a year the same routes add R$ 9.000.'),
-'growth': ('Offer weekly and monthly plans with a fixed price and priority on the calendar, and write the visit day on a shared sheet. After a successful one-time job, ask whether the client wants the next date saved. Keep a list of every client with frequency, price and the last visit. Compare monthly income from plans with income from single jobs. Request one referral per happy client. Track cancellations, complaints and minutes per job, then fix the weakest number first. Buy a new machine only when the extra jobs repay its price within a few months. Check the current official text for contracts and tax rules.',
-'A business has 10 recurring clients paying R$ 280 a month, so recurring income is R$ 2.800. By offering priority scheduling, it converts 5 one-time clients, adding R$ 1.400 a month. Recurring income rises to R$ 4.200, an increase of 50 percent. Over twelve months the new plans add R$ 16.800. The owner keeps a dated list of these clients and counts again each quarter to see whether any of them cancel.'),
-},
-'Warehousing and Storage Services': {
-'offer': ('Decide which cargo you store: pallets, shelves, cold rooms or small boxes. Walk the building with a tape measure and mark only usable positions, leaving out aisles, docks and fire exits. Add rent, energy, labor, insurance and forklift costs for one month, then divide by positions to see the cost of one place. Price receiving, counting, picking and packing as separate services. Compare two nearby warehouses and state your edge, such as opening hours or road access. Write clear terms for damage, delay and unpaid storage. Check the current official text for storage, fire and insurance rules.',
-'A warehouse has 200 pallet positions and monthly costs of R$ 16.000, so cost per position is R$ 80. If only 80 percent are used, 160 pallets share the cost, which is R$ 100 each. The owner charges R$ 140 per pallet. Revenue is R$ 22.400, which leaves R$ 6.400 above monthly costs. Before signing larger contracts, the owner checks again whether the occupied share stays near that level.'),
-'people': ('Write one routine for each post: receiving, put-away, picking and dispatch. At receiving, require a count against the delivery note and a photo of any damaged box before the driver leaves. Teach staff to lift with the legs, drive forklifts only with a license and stack no higher than the marked line. Plan shifts to match truck arrival times. When a customer asks where an item is, the system must answer in two minutes. Run a stock count of ten random locations each week. Check the current official text for workplace safety, equipment licensing and labor rules.',
-'A warehouse ships 500 orders a month with 2 percent wrong, which is 10 orders. Each error costs R$ 60 in redelivery and goodwill, a loss of R$ 600. After training and double-check labels, errors fall to 0,6 percent, or 3 orders, costing R$ 180. The monthly saving is R$ 420, and over a year it reaches R$ 5.040. The supervisor keeps the monthly count sheet, so the saving can be confirmed against real orders and not guessed.'),
-'growth': ('Compute occupancy every Monday as used positions divided by total positions, and note the average number of days a pallet stays. Call customers whose volume has fallen before they move out. Offer a discount for six-month contracts and a premium for peak season. Measure revenue per square meter and compare it with last quarter. Expand only after occupancy stays high for several months. Send each customer a short monthly report on delays, errors and damage. Visit three local shops and ask about their storage problems. Check the current official text for contracts and tax rules.',
-"A warehouse with 200 positions averaged 120 occupied, which is 60 percent. A visit campaign to local shops fills 30 more positions, reaching 150, or 75 percent. At R$ 140 each, monthly revenue moves from R$ 16.800 to R$ 21.000. The difference is R$ 4.200 a month, and since fixed costs stay unchanged, most of it becomes margin. The owner confirms this by comparing the month's invoices with the previous quarter before planning any new shelving."),
-},
-'Transportation and Courier Services': {
-'offer': ('Promise one thing you can keep, such as delivery in the same day inside four neighborhoods. Draw the service area on a map, mark the usual travel time between zones and avoid promises outside it. Record fuel, oil, tires, parking and the driver hour for a full week, then divide by kilometers and deliveries. Choose the vehicle that fits your parcels, whether motorbike, car or van, and write weight and size limits. Price by zone and package size, adding a surcharge for urgent runs. Offer pickup windows and a delivery proof photo. Check the current official text for vehicle, cargo and insurance rules.',
-'A courier drives 80 kilometers a day. Fuel and maintenance cost R$ 0,90 per kilometer, so the vehicle costs R$ 72. The driver is paid R$ 15 per hour for 8 hours, which is R$ 120. Daily cost is R$ 192. With 24 deliveries, cost per delivery is R$ 8. He charges R$ 14, earning R$ 6 per delivery and R$ 144 a day.'),
-'people': ('Give each driver a short checklist: check the address on the label, call when five minutes away, hand the parcel to a named person and photograph the proof. Train dispatchers to sort the morning list by neighborhood and by delivery window before sending anyone out. Show drivers how to carry fragile boxes, strap loads and park without blocking traffic. Write a polite message for delays and ask drivers to send it at once. Rank drivers weekly by on-time rate, damaged parcels and compliments. Plan breaks and rest, since tired drivers cause accidents. Check the current official text for driver licensing, working hours and labor rules.',
-'A dispatcher sends 24 deliveries in order of arrival, covering 80 kilometers. After grouping them by neighborhood, the same work needs 62. At R$ 0,90 per kilometer the saving is R$ 16,20 a day. Over 22 working days that is R$ 356,40 per driver each month, and with 3 drivers it reaches R$ 1.069,20. The dispatcher confirms the figure by comparing the odometer readings written on each route sheet during the month.'),
-'growth': ('Walk into small shops along your route and propose a fixed weekly pickup at a stable price. Ask each customer which delay hurts them most and fix that before anything else. Calculate profit per zone by subtracting kilometers and driver time from the fees, and raise or drop zones that lose money. Keep a log of failed deliveries and the reason for each. Buy a second vehicle only when steady volume covers its monthly installment plus fuel. Share the on-time rate with your team every month and celebrate improvements. Check the current official text for contracts and tax rules.',
-'A courier serves 6 shops that each send 20 packages a week at R$ 12, so weekly revenue is R$ 1.440. Two more shops with the same volume add R$ 480. With a cost of R$ 8 per package, their weekly profit is R$ 160. Over four weeks that is R$ 640. The owner confirms the profit by checking the delivery log, since a shop with fewer parcels would change the result.'),
-},
-'3D Printing Business': {
-'offer': ('Choose one niche, such as spare parts, prototypes, gifts or architectural models, and learn its common materials. Print five test pieces and write down filament weight, print hours, failed layers and finishing time. Convert filament weight into reais using the price per kilogram, then add power and a share of nozzle and belt wear. Set a minimum order and a delivery time that includes failed prints. Build a price table by volume and detail level. Ask customers to send files in a standard format and confirm measurements before starting. Check the current official text for product safety and design copying rules.',
-'A printed phone stand uses 60 grams of filament at R$ 100 per kilogram, so material is R$ 6. It prints for 4 hours at R$ 1,50 per hour for power and wear, which is R$ 6. Finishing is valued at R$ 4. Cost is R$ 16. At a price of R$ 40, margin is R$ 24 per piece. A batch of 25 stands leaves R$ 600.'),
-'people': ('Write a routine for every job: open the file, check wall thickness and overhangs, choose settings, level the bed, start the print, inspect the first layer and pack. Train a second person to read these signs and to spot warping, stringing and weak layers. Ask the customer how the piece will be used, how much load it takes and what color is needed before quoting. Tell them plainly what the material cannot do, such as resist heat. Run long prints overnight and do finishing in daylight. Compare each finished piece with the drawing using calipers. Check the current official text for workshop safety and labor rules.',
-'A workshop runs 100 jobs a month with a 15 percent failure rate, so 15 are reprinted. Each reprint wastes R$ 12 of material and time, a loss of R$ 180. With a bed-preparation routine, failures fall to 6 percent, or 6 jobs, costing R$ 72. The saving is R$ 108 a month, or R$ 1.296 in a year. The owner confirms the result by counting reprints in a logbook, because a new filament could change the failure rate.'),
-'growth': ("Rank last quarter's jobs by profit per machine hour and keep the top three as standard products. Print small batches of them, photograph each with a ruler for scale and publish a price list. Approach designers, repair shops and schools for monthly orders. Track machine hours, revenue per hour and failure rate on a wall chart. Buy another printer only when the current ones run most hours of the week. Test every new filament on a cheap order before you offer it widely. Check the current official text for designs you may copy and for tax rules.",
-'One printer works 200 hours a month and earns R$ 2.400, so revenue per hour is R$ 12. The owner moves 80 hours from jobs paying R$ 8 per hour to a standard product paying R$ 16 per hour. The gain is R$ 640 a month, and revenue rises from R$ 2.400 to R$ 3.040, an increase of 27 percent.'),
-},
-'App Development': {
-'offer': ('Interview five possible users and write down how each solves the problem today, with what tool and how long it takes. Pick one user and one result, then list the screens needed to reach it and cut every other feature. Draw those screens on paper and let users tap through them before any code exists. Estimate hours for design, build, tests and a month of fixes. Decide how the app earns: subscription, per-seat fee or service contract. Compare two similar apps and state your difference in one line. Check the current official text for data protection and app store rules.',
-'A developer estimates the first version at 160 hours and values her time at R$ 60 per hour, so build cost is R$ 9.600. Hosting and tools cost R$ 150 a month. A business client pays R$ 1.200 a month, leaving R$ 1.050. The build cost is recovered in 9,1 months, so she plans for at least 10 months of paid use.'),
-'people': ('Name an owner for each decision: who sets priorities, who writes code, who tests and who answers users. Hold a fifteen-minute meeting each Monday where each person states what is done, what is next and what blocks them. Write acceptance criteria for each feature as a list of yes-or-no checks. Ask the support person to reproduce every complaint, then log the steps and a screenshot. Add a second pair of eyes to each change before release. Judge the team by problems solved for users, not hours worked. Check the current official text for contractor, employment and data rules.',
-'A team of 3 delivers 9 features in a month, but 3 come back with bugs. After adding test steps and a second reviewer, 1 comes back. Each returned feature costs 6 hours at R$ 60, so rework falls from R$ 1.080 to R$ 360. The monthly saving is R$ 720, which equals 12 hours freed for new work. The lead confirms the saving by counting reopened tickets in the tracker at the end of each month.'),
-'growth': ('Add event tracking for sign-up, first action and return after seven days, and read the funnel every week. Group support messages by theme and fix the most common one first. Ship one small change at a time so the effect on retention can be seen. Show a new price to a small group before changing it for everyone. Ask active users for a rating at a happy moment, such as after finishing a task. Divide marketing spend by new users to learn the cost of each. Remove features nobody touches. Check the current official text for data protection and subscription rules.',
-'An app gets 500 downloads a month and 100 users stay active after a week, a retention of 20 percent. A clearer first screen lifts retention to 28 percent, or 140 users. If 10 percent of active users pay R$ 20 a month, paying users rise from 10 to 14. Monthly revenue moves from R$ 200 to R$ 280, a gain of R$ 80.'),
-},
-'Small and Medium Entrepreneur Business': {
-'offer': ('Write one sentence that names your customer, the problem and the moment it hurts. List everything you sell and mark the one or two items that earn most per sale and are easiest to explain. Add up direct cost, rent, tools, taxes to set aside, your own pay and idle days, then divide by expected sales. Look at what three neighbors charge and decide where you stand and why. Offer the product to ten real people and write down every objection. Only widen the range after those ten answers are clear. Check the current official text for registration, tax and consumer rules.',
-'An owner sells a service with direct cost of R$ 60. Monthly fixed costs are R$ 3.000 and she expects 100 sales, so fixed cost per sale is R$ 30 and full cost is R$ 90. For a 30 percent margin on price, she divides by 0,70, getting R$ 128,57. She rounds it to R$ 129. She checks the result against two neighbors who sell a similar service, and confirms that her own pay is already counted inside the fixed costs.'),
-'people': ('Pick the three jobs customers feel most: selling, delivering and fixing a mistake. Write each as five short steps on a card pinned near the counter. Name the person in charge of each job and a stand-in for days off, including relatives who help. Give every helper authority to refund or replace up to a small amount without asking you. After each sale, ask the customer one question and write the answer. Hold a fifteen-minute meeting each week to read complaints aloud and agree one fix. Check the current official text for hiring, working hours and contract rules.',
-'A small shop gets 8 complaints a month, each taking 30 minutes of the owner, or 4 hours. After writing an exchange rule and briefing the team, staff solve 6 alone. The owner now handles 2, which is 1 hour. At R$ 40 per hour, the owner saves R$ 120 a month, and customers wait less. The owner confirms the figure by writing each complaint and its minutes on a sheet, instead of trusting memory.'),
-'growth': ('Every Friday, write four lines: sales, costs, cash in the account and customers served. Subtract costs from sales to see profit and list bills due in the next thirty days. Pick one growth move, such as a package for repeat buyers, and give it a month before judging. Put aside a reserve equal to at least one slow month. Twice a year, review each price against its current cost. Ask a lost customer why they left and a loyal one why they stay. Pay for new equipment from cash you have counted. Check the current official text for taxes, credit and reporting rules.',
-'A business sells R$ 20.000 a month with total costs of R$ 17.000, so profit is R$ 3.000, or 15 percent of sales. A repeat-purchase offer lifts sales 10 percent to R$ 22.000, while costs rise by R$ 1.200 to R$ 18.200. New profit is R$ 3.800, a gain of R$ 800 a month, and margin is about 17 percent.'),
-},
-'Outsourcing Services': {
-'offer': ('Ask three possible clients which routine tasks steal their week, and choose one such as order entry, billing follow-up or call answering. Write the scope: what you do, in how many hours, to what accuracy and by which deadline. List what the client must send and by when. Divide your monthly cost, including training, software, supervision and unused hours, by the volume of tasks. Show the client the in-house cost beside your price with every line visible. Propose a thirty-day pilot with one success number agreed in writing. Check the current official text for contract, labor and data protection rules.',
-"A client pays R$ 3.500 a month for an employee who enters orders. The provider handles 1.200 orders at R$ 2,20 each, charging R$ 2.640. The client saves R$ 860 a month. The provider's cost is R$ 1,60 per order, or R$ 1.920, so its margin is R$ 720, about 27 percent of the price. The client confirms both numbers by comparing the invoice with the previous payroll line."),
-'people': ("Write a manual for each client with screenshots, sample cases and the five mistakes seen most often. Qualify two people on every client account so absences do not stop delivery. Give each client one named contact and one channel for urgent problems. Use a short Monday call to confirm the week's priorities and check the previous week's results. Measure accuracy, deadline hits and client comments, and show the numbers to the team. Give each person access only to the files they need and remove it when a contract ends. Check the current official text for labor, subcontracting and confidentiality rules.",
-'A provider handles 1.000 tasks a month with 5 percent errors, so 50 need correction. Each fix takes 15 minutes at R$ 20 per hour, costing R$ 250. After adding a checklist and a second reviewer, errors drop to 2 percent, or 20 tasks, costing R$ 100. The monthly saving is R$ 150, and a year brings R$ 1.800. The team lead confirms the saving by counting corrected tasks in the review log at month end.'),
-'growth': ("Send each client a one-page monthly report showing volume handled, speed and accuracy. During the review call, ask which neighboring task causes the most trouble and offer to try it for a month. Record revenue, margin and months of relationship for every client. Once a year, compare your price with your real cost and propose a fair adjustment. When a client leaves, write the reason in a log and read it quarterly. Hire only after demand has stayed steady for several months. Share a short case result only with the client's written permission. Check the current official text for contracts and renewal rules.",
-'A provider has 5 clients paying R$ 2.500 a month, so revenue is R$ 12.500. Two clients accept an added task for R$ 600 each, adding R$ 1.200. Revenue becomes R$ 13.700, a rise of 9.6 percent. The added work needs 20 hours at R$ 18, costing R$ 360, so margin grows by R$ 840 a month, or R$ 10.080 in a year.'),
-},
-'Electronics Sales & Repair Services': {
-'offer': ('List the devices you will fix, such as phones and notebooks, and the five faults you see most. For each fault, record the part price from two suppliers, the minutes of bench time and how often the repair fails. Decide whether the diagnosis is free or charged, and say so before the customer leaves the device. Set a warranty in days and write what it covers, for example the part but not water damage. Keep a small stock of fast-moving cases and cables. Print a receipt with the device condition, fault and agreed price. Check the current official text for warranty, consumer and waste disposal rules.',
-'A phone screen repair uses a part costing R$ 150. The technician spends 45 minutes valued at R$ 40 per hour, which is R$ 30. Tools and packaging add R$ 5. Cost is R$ 185. The shop charges R$ 290 with a 90-day warranty, a margin of R$ 105, or 36 percent of the price. Twenty repairs a month leave R$ 2.100.'),
-'people': ('At the counter, train the receptionist to note the fault, passwords given or not, scratches, accessories left and the promised date, then to read the sheet back to the customer. Give technicians a bench checklist: open, photograph, label screws, replace, test sound, touch, charge and camera, then close. Tag every part with the job number. Call the customer when the device is ready and again if a new fault appears. Review each return under warranty to find out which step failed. Lock customer files and never browse them. Check the current official text for data protection and workshop rules.',
-'A shop completes 80 repairs a month and 8 return under warranty, a return rate of 10 percent. Each return costs R$ 45 in time and parts, a loss of R$ 360. After adding a final test checklist, returns fall to 3, costing R$ 135. The shop saves R$ 225 a month, or R$ 2.700 over a year. The owner confirms the figure by counting warranty tickets in the receipt book at month end.'),
-'growth': ("Save every customer's device model and repair date, then send a message six months later offering a free check. Offer a case and a charger together with each repair, and track how many accept. Count repairs per week, average ticket, returns and days spent waiting for parts. Keep only the parts that sell often and order the rest on demand. Compare suppliers on price and failure rate, not price alone. Rank accessories by margin per shelf space and move the winners to the counter. Ask satisfied customers for a review. Check the current official text for warranty, imports and tax rules.",
-'A shop sells 50 accessories a month at R$ 35 with cost of R$ 20, earning R$ 750. By offering a case and charger with each repair and following up by message, it sells 20 more a month. The extra margin is R$ 300. Monthly accessory margin rises from R$ 750 to R$ 1.050, an increase of 40 percent. The owner confirms the extra sales by reading the receipt book, since accessories sold without a repair would blur the result.'),
-},
-}
+EXTRA = {'Apparels and Accessories': {'offer': ('Pick one buyer, for example office workers in Sao Paulo, '
+                                        'and cut the range to basics in five sizes and three '
+                                        'colors. Visit three nearby shops and write down their '
+                                        'prices, fabrics and exchange rules. Ask a seamstress for '
+                                        'a written quote per piece, then add thread, labels, bags '
+                                        'and freight to find the landed cost. Divide that cost by '
+                                        'one minus your target margin to reach the shelf price. '
+                                        'Sew two samples, wash them five times and inspect '
+                                        'shrinkage and loose seams. Show both to ten buyers and '
+                                        'record the winner. Order a small first batch only after '
+                                        'that. Check the current official text for labeling and '
+                                        'tax rules.',
+                                        'A seller prices a piece at R$ 130. Fabric, sewing, labels '
+                                        'and freight add up to R$ 60, so each piece leaves R$ 70, '
+                                        'or 53,8 percent of the price. Fixed costs of R$ 12.000 a '
+                                        'month for rent, a seamstress and software are covered '
+                                        'after 172 pieces, because R$ 12.000 divided by R$ 70 is '
+                                        '171,4. At 500 pieces she has R$ 65.000 of sales, R$ '
+                                        '35.000 above variable cost and R$ 23.000 of monthly '
+                                        'profit.'),
+                              'people': ('Split the shop work into floor, stock room and chat '
+                                         'desk, and write each post on one page. Teach the floor '
+                                         'person to ask who the clothes are for and on which day '
+                                         'they will be worn, then to bring three pieces to the '
+                                         'fitting room. Show the stock person how to fold, tag by '
+                                         'size and count each delivery against the note. Give the '
+                                         'chat desk a template that greets the client by name and '
+                                         'answers within ten minutes. Rehearse a late order and a '
+                                         'wrong size until the apology feels natural. Read five '
+                                         'customer comments each Friday. Check the current '
+                                         'official text for employment rules.',
+                                         'A shop sells 500 pieces a month at R$ 130, but 40 come '
+                                         'back for size or finish faults. Each return costs R$ 60 '
+                                         'of new product and handling, so returns waste R$ 2.400. '
+                                         'After a size chart at the till and a seam check before '
+                                         'packing, returns fall to 15. The shop now wastes R$ 900, '
+                                         'saving R$ 1.500 a month, which is R$ 18.000 in a year. '
+                                         'The owner confirms it by counting return tickets.'),
+                              'growth': ('Keep a weekly sheet with visits, orders, average ticket '
+                                         'and returns, and read it every Monday. Mark every item '
+                                         'unsold after sixty days for a bundle or a markdown, and '
+                                         'note the lesson for the next purchase. Place orders six '
+                                         'weeks ahead of Mothers Day, winter and year-end, since '
+                                         'sewing shops fill up. Ask each buyer for a photo wearing '
+                                         'the piece and invite them to a private preview of the '
+                                         'next line. Count how many customers bought twice in the '
+                                         'quarter. Try one new sales channel at a time and judge '
+                                         'it by orders, not likes. Check the current official text '
+                                         'for marketplace and tax rules.',
+                                         'A shop sells 500 pieces a month at R$ 130, with variable '
+                                         'cost of R$ 60 and fixed cost of R$ 12.000, so profit is '
+                                         'R$ 23.000. A preview for repeat buyers lifts volume by '
+                                         '10 percent, to 550 pieces. Sales reach R$ 71.500 and '
+                                         'profit becomes R$ 26.500, a gain of R$ 3.500 a month. '
+                                         'Over twelve months the gain is R$ 42.000, if the habit '
+                                         'holds. The owner checks the receipt book again each '
+                                         'quarter.')},
+ 'Beauty': {'offer': ('Interview ten regular clients and write their top three complaints, such as '
+                      'frizz, short time or sensitive skin. Turn your three strongest services '
+                      'into named packages and describe what each one includes in one line. Time '
+                      'every step with a clock, weigh the product used and add gloves, towels and '
+                      'disposable items. Place your own hour on the sheet, then compare it with '
+                      'prices of two salons nearby. Print a menu showing price, duration and '
+                      'aftercare. Offer one package to five clients for two weeks and note what '
+                      'they ask to change. Check the current official text for hygiene and '
+                      'licensing rules.',
+                      'A studio sells a treatment at R$ 150. Products, gloves and laundry cost R$ '
+                      '45, so each treatment leaves R$ 105, which is 70 percent of the price. '
+                      'Fixed costs of R$ 7.000 a month for rent, the receptionist and energy are '
+                      'covered after 67 treatments, since R$ 7.000 divided by R$ 105 is 66,7. With '
+                      '220 treatments in a month, sales are R$ 33.000, contribution is R$ 23.100 '
+                      'and profit is R$ 16.100. The owner rechecks the product cost every '
+                      'quarter.'),
+            'people': ('Write a three-part routine for every visit: welcome with a drink, '
+                       'consultation with two questions, and a closing that explains aftercare. '
+                       'Watch each candidate work on a real model before hiring, and score cut, '
+                       'color or polish, speed and cleanliness. Boil or sterilize tools, sign the '
+                       'cleaning checklist after each client and keep the sheets for inspection. '
+                       'Leave ten idle minutes between appointments so delays do not pile up. Send '
+                       'a reminder message the day before. Meet each professional monthly to '
+                       'review rebooking and complaints. Check the current official text for '
+                       'health, safety and labor rules before you hire.',
+                       'A studio books 220 treatments a month, but 30 clients miss without warning '
+                       'and the slot stays empty. At R$ 150 each, those misses cost R$ 4.500 of '
+                       'sales, less R$ 1.350 of products not used, so R$ 3.150 of contribution. '
+                       'After a reminder message one day before and a short waiting list, misses '
+                       'fall to 10. The studio recovers R$ 2.100 a month, or R$ 25.200 in a year. '
+                       'The receptionist keeps the count in the agenda.'),
+            'growth': ('Open a client card with date, service, product used and the next suggested '
+                       'visit. Each week, list the clients who passed forty-five days without '
+                       'returning and send them a friendly message. Ask each happy client to bring '
+                       'one friend and thank both with a small sample. Rank services by profit per '
+                       'hour and give the top ones the best slots. Photograph results with written '
+                       'permission and post them on a fixed schedule. Review four numbers monthly: '
+                       'new clients, returning clients, average ticket and cancellations. Change '
+                       'one thing at a time. Check the current official text for advertising and '
+                       'data privacy rules.',
+                       'A studio does 220 treatments a month at R$ 150, with R$ 45 of variable '
+                       'cost and R$ 7.000 of fixed cost, so profit is R$ 16.100. Weekly reminders '
+                       'bring more clients back, and volume rises by 20 treatments, to 240. Sales '
+                       'become R$ 36.000 and profit R$ 18.200, a gain of R$ 2.100 a month. Fixed '
+                       'costs stay unchanged, so the whole extra contribution is kept. Over a year '
+                       'the gain is R$ 25.200. The owner checks the client list each quarter.')},
+ 'Dental': {'offer': ('Group your procedures into prevention, restoration and aesthetics and '
+                      'describe each in words a patient understands. Record chair minutes, '
+                      'assistant minutes, materials and laboratory fees for every procedure on one '
+                      'table. Divide your monthly clinic cost by the hours you really treat to '
+                      'find the cost of one chair hour. Compare price ranges in the neighborhood '
+                      'and choose your position. Write a treatment plan listing options, stages, '
+                      'cost and recovery so the patient can decide without pressure. Propose a '
+                      'six-month check-up as the standard return. Check the current official text '
+                      'from the professional council and health authority for advertising, records '
+                      'and infection control.',
+                      'A clinic charges R$ 260 per visit. Materials, laboratory work and assistant '
+                      'time add R$ 110, so each visit leaves R$ 150, or 57,7 percent of the price. '
+                      'Fixed costs of R$ 30.000 a month for rent, staff, sterilization and '
+                      'software are covered after 200 visits, since R$ 30.000 divided by R$ 150 is '
+                      '200. With 300 visits, sales are R$ 78.000, contribution is R$ 45.000 and '
+                      'monthly profit is R$ 15.000. Prices are checked against the neighborhood '
+                      'each quarter.'),
+            'people': ('Give the dentist, assistant, front desk and cleaner a written checklist of '
+                       'what they do before, during and after each patient. Train the front desk '
+                       'to confirm each visit by message one day before and to explain '
+                       'preparation, such as eating or medicines. Teach the chairside team to '
+                       'describe each step in simple words and to ask the patient to repeat what '
+                       'they understood. Run every instrument pack through the sterilizer, label '
+                       'the batch and file the log. Ask each patient one question on leaving and '
+                       'review answers on Fridays. Check the current official text for staff '
+                       'qualifications, health rules and patient privacy.',
+                       'A clinic books 330 visits a month, but 30 patients a month miss without '
+                       'warning. Each missed visit loses R$ 150 of contribution, so the clinic '
+                       'loses R$ 4.500. After a message the day before and a waiting list, misses '
+                       'fall to 12. The clinic recovers R$ 2.700 a month, or R$ 32.400 in a year. '
+                       'The front desk keeps the confirmation list in the agenda, so the saving '
+                       'can be rechecked.'),
+            'growth': ('Follow each patient from first visit to treatment plan to final '
+                       'appointment, and count how many reach each stage. Ask patients who decline '
+                       'a plan for the main reason and write it down. Create a recall list for '
+                       'six-month check-ups and for people with unfinished treatment. Answer every '
+                       'online review politely and without sharing clinical details. Divide '
+                       'monthly revenue by the number of chairs to see what each earns. Before you '
+                       'buy equipment, count how many procedures per month are needed to pay its '
+                       'installment. Check the current official text for dentistry advertising '
+                       'limits and patient data rules.',
+                       'A clinic does 300 visits a month at R$ 260, with R$ 110 of variable cost '
+                       'and R$ 30.000 of fixed cost, so profit is R$ 15.000. A recall list for '
+                       'six-month check-ups brings 30 more visits, reaching 330. Sales rise to R$ '
+                       '85.800 and profit to R$ 19.500, a gain of R$ 4.500 a month. Fixed costs do '
+                       'not move, so most of the gain stays. Over twelve months it is R$ 54.000. '
+                       'The owner checks the recall list again each quarter.')},
+ 'Cleaning Services': {'offer': ('Choose between home, office and post-construction cleaning, '
+                                 'because dust, tools and time differ in each. Visit the site '
+                                 'before quoting and measure rooms in square meters, counting '
+                                 'windows, bathrooms and floor types. Write a checklist of '
+                                 'included tasks and a short list of what is excluded, such as '
+                                 'moving heavy furniture. Time a trial job with a clock and add '
+                                 'products, cloths, transport and labor. Quote by area or per '
+                                 'visit so a slow job does not eat your margin. Hand the client a '
+                                 'one-page proposal with date, price and checklist. Check the '
+                                 'current official text for labor, safety and product rules.',
+                                 'A cleaning company quotes R$ 160 per visit. Helper pay, '
+                                 'transport and products cost R$ 85, so each visit leaves R$ 75, '
+                                 'or 46,9 percent of the price. Fixed costs of R$ 6.000 a month '
+                                 'for the van, insurance, phone and office are covered after 80 '
+                                 'visits, since R$ 6.000 divided by R$ 75 is 80. With 220 visits '
+                                 'in a month, sales are R$ 35.200, contribution is R$ 16.500 and '
+                                 'profit is R$ 10.500. The owner checks quotes against real hours '
+                                 'each month.'),
+                       'people': ('Hand each worker a room-by-room card that says top to bottom, '
+                                  'dry to wet, and has them tick every line. Demonstrate each '
+                                  'product with its label, show which ones must never be mixed and '
+                                  'make gloves, masks and non-slip shoes part of the uniform. Plan '
+                                  'routes so teams finish one neighborhood before moving to the '
+                                  'next. After each visit, take a photo of the finished rooms and '
+                                  'ask the client to sign the card. Inspect one job per week '
+                                  'without warning. Praise punctuality in front of the group. '
+                                  'Check the current official text for employment, protective '
+                                  'equipment and safety rules.',
+                                  'A crew does 220 visits a month, and 11 of them need a free redo '
+                                  'because a bathroom or kitchen was missed. Each redo costs R$ 85 '
+                                  'of pay, transport and products, so redos waste R$ 935. After a '
+                                  'room-by-room checklist signed at the door, redos fall to 3. The '
+                                  'company saves R$ 680 a month, or R$ 8.160 in a year. The '
+                                  'supervisor confirms it by counting redo notes in the job log.'),
+                       'growth': ('Offer weekly and monthly plans with a fixed price and priority '
+                                  'on the calendar, and write the visit day on a shared sheet. '
+                                  'After a successful one-time job, ask whether the client wants '
+                                  'the next date saved. Keep a list of every client with '
+                                  'frequency, price and the last visit. Compare monthly income '
+                                  'from plans with income from single jobs. Request one referral '
+                                  'per happy client. Track cancellations, complaints and minutes '
+                                  'per job, then fix the weakest number first. Buy a new machine '
+                                  'only when the extra jobs repay its price within a few months. '
+                                  'Check the current official text for contracts and tax rules.',
+                                  'A company does 220 visits a month at R$ 160, with R$ 85 of '
+                                  'variable cost and R$ 6.000 of fixed cost, so profit is R$ '
+                                  '10.500. By offering priority scheduling, it turns 20 one-time '
+                                  'clients into regulars, adding 20 visits a month, for 240. Sales '
+                                  'become R$ 38.400 and profit R$ 12.000, a gain of R$ 1.500 a '
+                                  'month. Fixed costs stay unchanged. Over twelve months the gain '
+                                  'is R$ 18.000. The owner counts the regular list each quarter.')},
+ 'Warehousing and Storage Services': {'offer': ('Decide which cargo you store: pallets, shelves, '
+                                                'cold rooms or small boxes. Walk the building with '
+                                                'a tape measure and mark only usable positions, '
+                                                'leaving out aisles, docks and fire exits. Add '
+                                                'rent, energy, labor, insurance and forklift costs '
+                                                'for one month, then divide by positions to see '
+                                                'the cost of one place. Price receiving, counting, '
+                                                'picking and packing as separate services. Compare '
+                                                'two nearby warehouses and state your edge, such '
+                                                'as opening hours or road access. Write clear '
+                                                'terms for damage, delay and unpaid storage. Check '
+                                                'the current official text for storage, fire and '
+                                                'insurance rules.',
+                                                'A warehouse charges R$ 55 per pallet a month. '
+                                                'Handling labor, shrink wrap and energy for each '
+                                                'pallet cost R$ 22, leaving R$ 33, or 60 percent '
+                                                'of the price. Fixed costs of R$ 28.000 a month '
+                                                'for the lease, night watch, insurance and '
+                                                'software are covered after 849 pallets, since R$ '
+                                                '28.000 divided by R$ 33 is 848,5. With 1.500 '
+                                                'pallets, sales are R$ 82.500, contribution is R$ '
+                                                '49.500 and profit is R$ 21.500. The owner checks '
+                                                'occupancy before signing larger contracts.'),
+                                      'people': ('Write one routine for each post: receiving, '
+                                                 'put-away, picking and dispatch. At receiving, '
+                                                 'require a count against the delivery note and a '
+                                                 'photo of any damaged box before the driver '
+                                                 'leaves. Teach staff to lift with the legs, drive '
+                                                 'forklifts only with a license and stack no '
+                                                 'higher than the marked line. Plan shifts to '
+                                                 'match truck arrival times. When a customer asks '
+                                                 'where an item is, the system must answer in two '
+                                                 'minutes. Run a stock count of ten random '
+                                                 'locations each week. Check the current official '
+                                                 'text for workplace safety, equipment licensing '
+                                                 'and labor rules.',
+                                                 'A warehouse handles 1.500 pallets a month and 3 '
+                                                 'percent, or 45, are misplaced or damaged, each '
+                                                 'costing R$ 22 of rehandling and claims. Losses '
+                                                 'are R$ 990. After labeled bays and a double scan '
+                                                 'at dispatch, errors fall to 1 percent, or 15 '
+                                                 'pallets. Losses become R$ 330, so the saving is '
+                                                 'R$ 660 a month, or R$ 7.920 in a year. The '
+                                                 'supervisor confirms it by comparing the count '
+                                                 'sheet with the system.'),
+                                      'growth': ('Compute occupancy every Monday as used positions '
+                                                 'divided by total positions, and note the average '
+                                                 'number of days a pallet stays. Call customers '
+                                                 'whose volume has fallen before they move out. '
+                                                 'Offer a discount for six-month contracts and a '
+                                                 'premium for peak season. Measure revenue per '
+                                                 'square meter and compare it with last quarter. '
+                                                 'Expand only after occupancy stays high for '
+                                                 'several months. Send each customer a short '
+                                                 'monthly report on delays, errors and damage. '
+                                                 'Visit three local shops and ask about their '
+                                                 'storage problems. Check the current official '
+                                                 'text for contracts and tax rules.',
+                                                 'A warehouse averages 1.500 pallets at R$ 55, '
+                                                 'with R$ 22 of variable cost and R$ 28.000 of '
+                                                 'fixed cost, so profit is R$ 21.500. Visits to '
+                                                 'local shops fill 200 more positions, reaching '
+                                                 '1.700. Sales rise to R$ 93.500 and profit to R$ '
+                                                 '28.100, a gain of R$ 6.600 a month. Fixed costs '
+                                                 'stay unchanged, so all of the gain stays. Over '
+                                                 'twelve months it is R$ 79.200. The owner '
+                                                 'compares the invoices with the previous '
+                                                 'quarter.')},
+ 'Transportation and Courier Services': {'offer': ('Promise one thing you can keep, such as '
+                                                   'delivery in the same day inside four '
+                                                   'neighborhoods. Draw the service area on a map, '
+                                                   'mark the usual travel time between zones and '
+                                                   'avoid promises outside it. Record fuel, oil, '
+                                                   'tires, parking and the driver hour for a full '
+                                                   'week, then divide by kilometers and '
+                                                   'deliveries. Choose the vehicle that fits your '
+                                                   'parcels, whether motorbike, car or van, and '
+                                                   'write weight and size limits. Price by zone '
+                                                   'and package size, adding a surcharge for '
+                                                   'urgent runs. Offer pickup windows and a '
+                                                   'delivery proof photo. Check the current '
+                                                   'official text for vehicle, cargo and insurance '
+                                                   'rules.',
+                                                   'A courier firm charges R$ 380 per trip. Fuel, '
+                                                   'driver pay, tolls and tyre wear cost R$ 250, '
+                                                   'leaving R$ 130, or 34,2 percent of the price. '
+                                                   'Fixed costs of R$ 20.000 a month for vehicle '
+                                                   'installments, insurance, tracking and dispatch '
+                                                   'are covered after 154 trips, since R$ 20.000 '
+                                                   'divided by R$ 130 is 153,8. With 180 trips, '
+                                                   'sales are R$ 68.400, contribution is R$ 23.400 '
+                                                   'and profit is only R$ 3.400. A thin margin '
+                                                   'means price must be checked often.'),
+                                         'people': ('Give each driver a short checklist: check the '
+                                                    'address on the label, call when five minutes '
+                                                    'away, hand the parcel to a named person and '
+                                                    'photograph the proof. Train dispatchers to '
+                                                    'sort the morning list by neighborhood and by '
+                                                    'delivery window before sending anyone out. '
+                                                    'Show drivers how to carry fragile boxes, '
+                                                    'strap loads and park without blocking '
+                                                    'traffic. Write a polite message for delays '
+                                                    'and ask drivers to send it at once. Rank '
+                                                    'drivers weekly by on-time rate, damaged '
+                                                    'parcels and compliments. Plan breaks and '
+                                                    'rest, since tired drivers cause accidents. '
+                                                    'Check the current official text for driver '
+                                                    'licensing, working hours and labor rules.',
+                                                    'A dispatcher sends 180 trips a month, and 18 '
+                                                    'are repeated because of failed deliveries. '
+                                                    'Each repeat costs R$ 250 in fuel, driver time '
+                                                    'and tolls, so waste is R$ 4.500. After '
+                                                    'confirming the receiver by message before '
+                                                    'leaving and grouping stops, repeats fall to '
+                                                    '6. The saving is R$ 3.000 a month, or R$ '
+                                                    '36.000 in a year. The dispatcher confirms the '
+                                                    'figure by counting failed-delivery notes on '
+                                                    'the route sheets.'),
+                                         'growth': ('Walk into small shops along your route and '
+                                                    'propose a fixed weekly pickup at a stable '
+                                                    'price. Ask each customer which delay hurts '
+                                                    'them most and fix that before anything else. '
+                                                    'Calculate profit per zone by subtracting '
+                                                    'kilometers and driver time from the fees, and '
+                                                    'raise or drop zones that lose money. Keep a '
+                                                    'log of failed deliveries and the reason for '
+                                                    'each. Buy a second vehicle only when steady '
+                                                    'volume covers its monthly installment plus '
+                                                    'fuel. Share the on-time rate with your team '
+                                                    'every month and celebrate improvements. Check '
+                                                    'the current official text for contracts and '
+                                                    'tax rules.',
+                                                    'A firm runs 180 trips a month at R$ 380, with '
+                                                    'R$ 250 of variable cost and R$ 20.000 of '
+                                                    'fixed cost, so profit is R$ 3.400. Two new '
+                                                    'shop contracts add 20 trips, reaching 200. '
+                                                    'Sales rise to R$ 76.000 and profit to R$ '
+                                                    '6.000, a gain of R$ 2.600 a month, since the '
+                                                    'vehicles already exist. Over twelve months '
+                                                    'the gain is R$ 31.200. The owner checks the '
+                                                    'trip log, because lower volume would change '
+                                                    'the result.')},
+ '3D Printing Business': {'offer': ('Choose one niche, such as spare parts, prototypes, gifts or '
+                                    'architectural models, and learn its common materials. Print '
+                                    'five test pieces and write down filament weight, print hours, '
+                                    'failed layers and finishing time. Convert filament weight '
+                                    'into reais using the price per kilogram, then add power and a '
+                                    'share of nozzle and belt wear. Set a minimum order and a '
+                                    'delivery time that includes failed prints. Build a price '
+                                    'table by volume and detail level. Ask customers to send files '
+                                    'in a standard format and confirm measurements before '
+                                    'starting. Check the current official text for product safety '
+                                    'and design copying rules.',
+                                    'A studio sells a printed part at R$ 95. Filament, power, '
+                                    'machine wear and finishing cost R$ 40, leaving R$ 55, or 57,9 '
+                                    'percent of the price. Fixed costs of R$ 9.000 a month for the '
+                                    "room, printers' installments, software and the helper are "
+                                    'covered after 164 parts, since R$ 9.000 divided by R$ 55 is '
+                                    '163,6. With 220 parts, sales are R$ 20.900, contribution is '
+                                    'R$ 12.100 and profit is R$ 3.100. The owner updates filament '
+                                    'cost every spool.'),
+                          'people': ('Write a routine for every job: open the file, check wall '
+                                     'thickness and overhangs, choose settings, level the bed, '
+                                     'start the print, inspect the first layer and pack. Train a '
+                                     'second person to read these signs and to spot warping, '
+                                     'stringing and weak layers. Ask the customer how the piece '
+                                     'will be used, how much load it takes and what color is '
+                                     'needed before quoting. Tell them plainly what the material '
+                                     'cannot do, such as resist heat. Run long prints overnight '
+                                     'and do finishing in daylight. Compare each finished piece '
+                                     'with the drawing using calipers. Check the current official '
+                                     'text for workshop safety and labor rules.',
+                                     'A studio prints 220 parts a month and 10 percent, or 22, '
+                                     'fail and are thrown away, each costing R$ 40 in material, '
+                                     'power and time. Failures waste R$ 880. After drying filament '
+                                     'and preparing the bed with a checklist, failures fall to 4 '
+                                     'percent, or 9 parts, costing R$ 360. The saving is R$ 520 a '
+                                     'month, or R$ 6.240 in a year. The owner confirms it by '
+                                     'counting failed parts in a logbook.'),
+                          'growth': ("Rank last quarter's jobs by profit per machine hour and keep "
+                                     'the top three as standard products. Print small batches of '
+                                     'them, photograph each with a ruler for scale and publish a '
+                                     'price list. Approach designers, repair shops and schools for '
+                                     'monthly orders. Track machine hours, revenue per hour and '
+                                     'failure rate on a wall chart. Buy another printer only when '
+                                     'the current ones run most hours of the week. Test every new '
+                                     'filament on a cheap order before you offer it widely. Check '
+                                     'the current official text for designs you may copy and for '
+                                     'tax rules.',
+                                     'A studio makes 220 parts a month at R$ 95, with R$ 40 of '
+                                     'variable cost and R$ 9.000 of fixed cost, so profit is R$ '
+                                     '3.100. A standard product sold to local shops adds 40 parts, '
+                                     'reaching 260. Sales rise to R$ 24.700 and profit to R$ '
+                                     '5.300, a gain of R$ 2.200 a month. The printers already '
+                                     'exist, so fixed costs stay unchanged. Over twelve months the '
+                                     'gain is R$ 26.400. The owner checks the machine hours before '
+                                     'accepting more orders.')},
+ 'App Development': {'offer': ('Interview five possible users and write down how each solves the '
+                               'problem today, with what tool and how long it takes. Pick one user '
+                               'and one result, then list the screens needed to reach it and cut '
+                               'every other feature. Draw those screens on paper and let users tap '
+                               'through them before any code exists. Estimate hours for design, '
+                               'build, tests and a month of fixes. Decide how the app earns: '
+                               'subscription, per-seat fee or service contract. Compare two '
+                               'similar apps and state your difference in one line. Check the '
+                               'current official text for data protection and app store rules.',
+                               'A studio sells each release at R$ 8.200. Developer hours, testing '
+                               'devices and store fees cost R$ 4.200 per release, leaving R$ '
+                               '4.000, or 48,8 percent of the price. Fixed costs of R$ 14.000 a '
+                               'month for the office, cloud tools and a project manager are '
+                               'covered after 4 releases, since R$ 14.000 divided by R$ 4.000 is '
+                               '3,5. With 6 releases in a month, sales are R$ 49.200, contribution '
+                               'is R$ 24.000 and profit is R$ 10.000. Every estimate is checked '
+                               'against the hours logged.'),
+                     'people': ('Name an owner for each decision: who sets priorities, who writes '
+                                'code, who tests and who answers users. Hold a fifteen-minute '
+                                'meeting each Monday where each person states what is done, what '
+                                'is next and what blocks them. Write acceptance criteria for each '
+                                'feature as a list of yes-or-no checks. Ask the support person to '
+                                'reproduce every complaint, then log the steps and a screenshot. '
+                                'Add a second pair of eyes to each change before release. Judge '
+                                'the team by problems solved for users, not hours worked. Check '
+                                'the current official text for contractor, employment and data '
+                                'rules.',
+                                'A team ships 6 releases a month, but 2 come back with bugs that '
+                                'cost R$ 1.000 each in extra developer hours. Rework is R$ 2.000. '
+                                'After a second reviewer and a short test checklist, only 1 comes '
+                                'back, costing R$ 1.000. The team saves R$ 1.000 a month, or R$ '
+                                '12.000 in a year. The lead confirms it by counting reopened '
+                                'tickets in the tracker at month end.'),
+                     'growth': ('Add event tracking for sign-up, first action and return after '
+                                'seven days, and read the funnel every week. Group support '
+                                'messages by theme and fix the most common one first. Ship one '
+                                'small change at a time so the effect on retention can be seen. '
+                                'Show a new price to a small group before changing it for '
+                                'everyone. Ask active users for a rating at a happy moment, such '
+                                'as after finishing a task. Divide marketing spend by new users to '
+                                'learn the cost of each. Remove features nobody touches. Check the '
+                                'current official text for data protection and subscription rules.',
+                                'A studio ships 6 releases a month at R$ 8.200, with R$ 4.200 of '
+                                'variable cost and R$ 14.000 of fixed cost, so profit is R$ '
+                                '10.000. A maintenance plan for past clients adds one release a '
+                                'month, reaching 7. Sales rise to R$ 57.400 and profit to R$ '
+                                '14.000, a gain of R$ 4.000 a month. Fixed costs stay unchanged. '
+                                'Over twelve months the gain is R$ 48.000. The owner checks that '
+                                "the added work fits the team's hours before accepting it.")},
+ 'Small and Medium Entrepreneur Business': {'offer': ('Write one sentence that names your '
+                                                      'customer, the problem and the moment it '
+                                                      'hurts. List everything you sell and mark '
+                                                      'the one or two items that earn most per '
+                                                      'sale and are easiest to explain. Add up '
+                                                      'direct cost, rent, tools, taxes to set '
+                                                      'aside, your own pay and idle days, then '
+                                                      'divide by expected sales. Look at what '
+                                                      'three neighbors charge and decide where you '
+                                                      'stand and why. Offer the product to ten '
+                                                      'real people and write down every objection. '
+                                                      'Only widen the range after those ten '
+                                                      'answers are clear. Check the current '
+                                                      'official text for registration, tax and '
+                                                      'consumer rules.',
+                                                      'A small business sells each order at R$ '
+                                                      '190. Materials, packing and delivery cost '
+                                                      'R$ 120, leaving R$ 70, or 36,8 percent of '
+                                                      'the price. Fixed costs of R$ 9.000 a month '
+                                                      "for rent, one employee, the owner's pay and "
+                                                      'software are covered after 129 orders, '
+                                                      'since R$ 9.000 divided by R$ 70 is 128,6. '
+                                                      'With 160 orders, sales are R$ 30.400, '
+                                                      'contribution is R$ 11.200 and profit is R$ '
+                                                      '2.200. The owner compares the price with '
+                                                      'two neighbors every quarter.'),
+                                            'people': ('Pick the three jobs customers feel most: '
+                                                       'selling, delivering and fixing a mistake. '
+                                                       'Write each as five short steps on a card '
+                                                       'pinned near the counter. Name the person '
+                                                       'in charge of each job and a stand-in for '
+                                                       'days off, including relatives who help. '
+                                                       'Give every helper authority to refund or '
+                                                       'replace up to a small amount without '
+                                                       'asking you. After each sale, ask the '
+                                                       'customer one question and write the '
+                                                       'answer. Hold a fifteen-minute meeting each '
+                                                       'week to read complaints aloud and agree '
+                                                       'one fix. Check the current official text '
+                                                       'for hiring, working hours and contract '
+                                                       'rules.',
+                                                       'A small business handles 160 orders a '
+                                                       'month and 16 get complaints, each taking '
+                                                       'the owner 30 minutes, or 8 hours. After '
+                                                       'writing an exchange rule and briefing the '
+                                                       'team, staff solve 12 alone, so the owner '
+                                                       'handles 4, or 2 hours. Six hours are '
+                                                       "freed. If an hour of the owner's time "
+                                                       'sells one more order, that adds R$ 420 a '
+                                                       'month, or R$ 5.040 in a year. The owner '
+                                                       'confirms it by writing each complaint on a '
+                                                       'sheet.'),
+                                            'growth': ('Every Friday, write four lines: sales, '
+                                                       'costs, cash in the account and customers '
+                                                       'served. Subtract costs from sales to see '
+                                                       'profit and list bills due in the next '
+                                                       'thirty days. Pick one growth move, such as '
+                                                       'a package for repeat buyers, and give it a '
+                                                       'month before judging. Put aside a reserve '
+                                                       'equal to at least one slow month. Twice a '
+                                                       'year, review each price against its '
+                                                       'current cost. Ask a lost customer why they '
+                                                       'left and a loyal one why they stay. Pay '
+                                                       'for new equipment from cash you have '
+                                                       'counted. Check the current official text '
+                                                       'for taxes, credit and reporting rules.',
+                                                       'A business sells 160 orders a month at R$ '
+                                                       '190, with R$ 120 of variable cost and R$ '
+                                                       '9.000 of fixed cost, so profit is R$ '
+                                                       '2.200. A repeat-purchase offer lifts '
+                                                       'volume by 10 percent, to 176 orders. Sales '
+                                                       'reach R$ 33.440 and profit R$ 3.320, a '
+                                                       'gain of R$ 1.120 a month. Fixed costs do '
+                                                       'not move. Over twelve months the gain is '
+                                                       'R$ 13.440. The owner rechecks the figures '
+                                                       'against the order book after each '
+                                                       'quarter.')},
+ 'Outsourcing Services': {'offer': ('Ask three possible clients which routine tasks steal their '
+                                    'week, and choose one such as order entry, billing follow-up '
+                                    'or call answering. Write the scope: what you do, in how many '
+                                    'hours, to what accuracy and by which deadline. List what the '
+                                    'client must send and by when. Divide your monthly cost, '
+                                    'including training, software, supervision and unused hours, '
+                                    'by the volume of tasks. Show the client the in-house cost '
+                                    'beside your price with every line visible. Propose a '
+                                    'thirty-day pilot with one success number agreed in writing. '
+                                    'Check the current official text for contract, labor and data '
+                                    'protection rules.',
+                                    'A provider sells each monthly service contract for R$ 16.000. '
+                                    'Staff time, tools and licences cost R$ 9.500 per contract, '
+                                    'leaving R$ 6.500, or 40,6 percent of the price. Fixed costs '
+                                    'of R$ 22.000 a month for the office, management and security '
+                                    'are covered after 4 contracts, since R$ 22.000 divided by R$ '
+                                    '6.500 is 3,4. With 5 contracts, sales are R$ 80.000, '
+                                    'contribution is R$ 32.500 and profit is R$ 10.500. The client '
+                                    'compares the invoice with the old payroll line.'),
+                          'people': ('Write a manual for each client with screenshots, sample '
+                                     'cases and the five mistakes seen most often. Qualify two '
+                                     'people on every client account so absences do not stop '
+                                     'delivery. Give each client one named contact and one channel '
+                                     'for urgent problems. Use a short Monday call to confirm the '
+                                     "week's priorities and check the previous week's results. "
+                                     'Measure accuracy, deadline hits and client comments, and '
+                                     'show the numbers to the team. Give each person access only '
+                                     'to the files they need and remove it when a contract ends. '
+                                     'Check the current official text for labor, subcontracting '
+                                     'and confidentiality rules.',
+                                     'A provider runs 5 contracts and rework from errors uses 40 '
+                                     'staff hours a month, costing R$ 2.000. After a checklist and '
+                                     'a second reviewer, rework falls to 15 hours, costing R$ 750. '
+                                     'The monthly saving is R$ 1.250, or R$ 15.000 in a year. That '
+                                     "equals 19 percent of a contract's margin. The team lead "
+                                     'confirms it by counting corrected tasks in the review log.'),
+                          'growth': ('Send each client a one-page monthly report showing volume '
+                                     'handled, speed and accuracy. During the review call, ask '
+                                     'which neighboring task causes the most trouble and offer to '
+                                     'try it for a month. Record revenue, margin and months of '
+                                     'relationship for every client. Once a year, compare your '
+                                     'price with your real cost and propose a fair adjustment. '
+                                     'When a client leaves, write the reason in a log and read it '
+                                     'quarterly. Hire only after demand has stayed steady for '
+                                     'several months. Share a short case result only with the '
+                                     "client's written permission. Check the current official text "
+                                     'for contracts and renewal rules.',
+                                     'A provider has 5 contracts at R$ 16.000, with R$ 9.500 of '
+                                     'variable cost and R$ 22.000 of fixed cost, so profit is R$ '
+                                     '10.500. One more contract is signed, making 6. Sales rise to '
+                                     'R$ 96.000 and profit to R$ 17.000, a gain of R$ 6.500 a '
+                                     'month, since the office and management already exist. Over '
+                                     'twelve months the gain is R$ 78.000. The owner checks that '
+                                     'the team can hold the quality level before taking a seventh '
+                                     'contract.')},
+ 'Electronics Sales & Repair Services': {'offer': ('List the devices you will fix, such as phones '
+                                                   'and notebooks, and the five faults you see '
+                                                   'most. For each fault, record the part price '
+                                                   'from two suppliers, the minutes of bench time '
+                                                   'and how often the repair fails. Decide whether '
+                                                   'the diagnosis is free or charged, and say so '
+                                                   'before the customer leaves the device. Set a '
+                                                   'warranty in days and write what it covers, for '
+                                                   'example the part but not water damage. Keep a '
+                                                   'small stock of fast-moving cases and cables. '
+                                                   'Print a receipt with the device condition, '
+                                                   'fault and agreed price. Check the current '
+                                                   'official text for warranty, consumer and waste '
+                                                   'disposal rules.',
+                                                   'A shop charges R$ 180 per repair. Parts, labor '
+                                                   'time and packaging cost R$ 70, leaving R$ 110, '
+                                                   'or 61,1 percent of the price. Fixed costs of '
+                                                   'R$ 8.000 a month for the counter, bench tools, '
+                                                   'the clerk and software are covered after 73 '
+                                                   'repairs, since R$ 8.000 divided by R$ 110 is '
+                                                   '72,7. With 200 repairs, sales are R$ 36.000, '
+                                                   'contribution is R$ 22.000 and profit is R$ '
+                                                   '14.000. The owner updates part costs with each '
+                                                   'supplier invoice.'),
+                                         'people': ('At the counter, train the receptionist to '
+                                                    'note the fault, passwords given or not, '
+                                                    'scratches, accessories left and the promised '
+                                                    'date, then to read the sheet back to the '
+                                                    'customer. Give technicians a bench checklist: '
+                                                    'open, photograph, label screws, replace, test '
+                                                    'sound, touch, charge and camera, then close. '
+                                                    'Tag every part with the job number. Call the '
+                                                    'customer when the device is ready and again '
+                                                    'if a new fault appears. Review each return '
+                                                    'under warranty to find out which step failed. '
+                                                    'Lock customer files and never browse them. '
+                                                    'Check the current official text for data '
+                                                    'protection and workshop rules.',
+                                                    'A shop completes 200 repairs a month and 16 '
+                                                    'return under warranty, each costing R$ 70 in '
+                                                    'new parts and time. Returns waste R$ 1.120. '
+                                                    'After a final test checklist and photos at '
+                                                    'intake, returns fall to 6. The shop saves R$ '
+                                                    '700 a month, or R$ 8.400 in a year. The owner '
+                                                    'confirms the figure by counting warranty '
+                                                    'tickets in the receipt book at month end.'),
+                                         'growth': ("Save every customer's device model and repair "
+                                                    'date, then send a message six months later '
+                                                    'offering a free check. Offer a case and a '
+                                                    'charger together with each repair, and track '
+                                                    'how many accept. Count repairs per week, '
+                                                    'average ticket, returns and days spent '
+                                                    'waiting for parts. Keep only the parts that '
+                                                    'sell often and order the rest on demand. '
+                                                    'Compare suppliers on price and failure rate, '
+                                                    'not price alone. Rank accessories by margin '
+                                                    'per shelf space and move the winners to the '
+                                                    'counter. Ask satisfied customers for a '
+                                                    'review. Check the current official text for '
+                                                    'warranty, imports and tax rules.',
+                                                    'A shop does 200 repairs a month at R$ 180, '
+                                                    'with R$ 70 of variable cost and R$ 8.000 of '
+                                                    'fixed cost, so profit is R$ 14.000. Offering '
+                                                    'a case or charger with each repair and a '
+                                                    'follow-up message brings 20 more repairs from '
+                                                    'referrals, reaching 220. Sales rise to R$ '
+                                                    '39.600 and profit to R$ 16.200, a gain of R$ '
+                                                    '2.200 a month. Fixed costs stay unchanged. '
+                                                    'Over twelve months the gain is R$ 26.400. The '
+                                                    'owner checks the receipt book.')}}
