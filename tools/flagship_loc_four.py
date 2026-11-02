@@ -174,9 +174,12 @@ def rubric(L):
             ('Customer proof','No test','20-person test counted','Test, result, change and re-test'),
             ('People and trust','No notice','Privacy notice and role card','Notice, data map, signed role card and partner letter')]
 
-def ladder(L, extra=''):
+def ladder(L, extra='', place=False):
     names = ['L1 Basic','L2 Awareness','L3 Foundation','L4 Practitioner','L5 Specialist','L6 Advanced','L7 Super expert']
     ev = ['A short glossary in two languages.','A one-page market page.','A practice registration table.','A numbers sheet and a 20-person test.','A cluster checklist with sources.','A team plan with people, partners and data.','A published local case and a plan audit.']
+    if place:
+        import loc_ladder as _LL
+        extra = _LL.place_slides_html(L, e, names, ev)
     rows = ''.join(f'<tr><th scope="row">{names[i]}</th><td>{e(L["ladder"][i])}</td><td>{e(ev[i])}</td></tr>' for i in range(7))
     return ('<div class="scroll-x"><table class="ws-table"><caption>Ladder L1 to L7 for this location (this course covers L1 to L4; L5 to L7 follow in the sector courses)</caption>'
             '<thead><tr><th>Level</th><th>Can do</th><th>Evidence</th></tr></thead><tbody>' + rows + '</tbody></table></div>'
@@ -199,7 +202,8 @@ def build(L):
     qz = ''.join(f'<details class="mod"><summary>Q{i+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a)}</p></details>' for i, (q, a) in enumerate(tag_quiz(quiz(L), modules(L))))
     rub = ('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric (Not yet, Meets, Exceeds)</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>'
            + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(m)}</td><td>{e(d)}</td></tr>' for a, b, m, d in rubric(L)) + '</tbody></table></div>')
-    jobs = '<ul>' + ''.join(f'<li><strong>{e(a)}.</strong> {e(b)}.</li>' for a, b in L['jobs']) + '</ul>'
+    import loc_ladder as _LL
+    jobs = '<ul>' + ''.join(f'<li><strong>{e(a)}.</strong> {e(b)}.</li>' for a, b in L['jobs']) + '</ul>' + _LL.roles_html('small business', e)
     outs = [('Understand', f'Explain the {L["name"]} market in one page with sources.'), ('Analyse', 'Score sectors from the global list for local fit.'), ('Apply', 'Build a licence table and a privacy notice.'),
             ('Create', 'Run a customer test and a launch plan.'), ('Evaluate', f'Judge a plan with a worse-case sheet in {L["cur"]}.')]
     top = (f'<div class="cb-facts"><span class="pill lv">L1 to L4 location edition</span><span class="pill">8 modules, {total} h plus practice</span><span class="pill">About 6 weeks part-time</span><span class="pill pr">USD 39 per learner per month, or USD 79 with mentor review</span></div>')
@@ -216,7 +220,7 @@ def build(L):
             + B.sec('', 'md', 'lesson by lesson', '8 modules with worked examples', mods)
             + B.sec('alt', 'as', 'assessment', 'How you are checked', f'<p>Evidence: market page, scored sector list, licence table, privacy notice and data map, test results, numbers sheet in {e(L["cur"])}, role card, launch plan. A mentor and one peer mark it with this rubric. Pass: no criterion at \'Not yet\', and at least 8 of 10 check answers right.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{qz}')
             + B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', jobs + f'<p>Next courses: the sector courses from the global list, at L5 to L7.</p>')
-            + B.sec('alt', 'ld', 'ladder', 'Ladder L1 to L7', ladder(L))
+            + B.sec('alt', 'ld', 'ladder', 'Ladder L1 to L7', ladder(L, place=True))
             + B.sec('', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship location edition. Own wording; no outside brand, school or person names. Not live.</p><p><a class="btn" href="courses-hub.html">All courses</a> <a class="btn btn-ghost" href="join.html">Join</a></p>'))
     B.page(f'learn-flagship-loc-{L["k"]}.html', f'{L["name"]} edition: starting a business from the global list', f'Global course list applied to {L["name"]}: local context, rules, jobs and worked examples in {L["cur"]}.', f'{L["name"]} edition',
            e(f'The global sector list applied to {L["name"]}: local context, rules, jobs and examples, in eight modules.'), body,
