@@ -4,7 +4,8 @@ Checks per page: Bloom verbs, task/condition/standard, 8 modules, 8 worked examp
 10 checks with answers, L1-L7 ladder (slides = 7 slides with notes, table = levels only, none), job links.
 Run from the repo root:  python3 tools/audit_course_pages.py [report.md]
 Prints a per-family summary and writes a one-line-per-page gap list (default audits/course-page-audit.md).
-Word and count checks only. Hub pages and pointer pages ("Full course here" box) are skipped. Exit code 0 always."""
+Word and count checks only. School pages (site/school-*.html) are checked too: 10 checks, every answer tagged "Covered in unit N", no generic answers.
+Hub pages and pointer pages ("Full course here" box) are skipped. Exit code 0 always."""
 import os, sys
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 os.chdir(os.path.join(ROOT, 'site'))
@@ -60,6 +61,21 @@ for f in sorted(glob.glob('cpd-*.html')):
     if miss: cpd_bad.append((f,miss))
 bad+=cpd_bad
 rows.update({f:{} for f in glob.glob('cpd-*.html')})
+
+# School pages: exactly 10 checks per page, every answer tagged "Covered in unit N", no generic answers.
+GENERIC=re.compile(r'Any correct example is fine|A good answer names the first step',re.I)
+school_bad=[]
+for f in sorted(glob.glob('school-*.html')):
+    raw=clean(open(f,encoding='utf-8').read()); i=raw.find('-question check'); miss=[]
+    if i<0: school_bad.append((f,['school:no check block'])); continue
+    items=re.findall(r'<details[^>]*>.*?</details>',raw[i:raw.find('</section>',i)],re.S)
+    n=len(items); untag=sum(1 for it in items if not re.search(r'Covered in unit \d',txt(it))); gen=sum(1 for it in items if GENERIC.search(txt(it)))
+    if n!=10: miss.append('school:%d checks, need 10'%n)
+    if untag: miss.append('school:answer without unit tag (%d of %d)'%(untag,n))
+    if gen: miss.append('school:generic answer (%d of %d)'%(gen,n))
+    if miss: school_bad.append((f,miss))
+bad+=school_bad
+rows.update({f:{} for f in glob.glob('school-*.html')})
 os.makedirs(os.path.dirname(REPORT), exist_ok=True)
 with open(REPORT,'w') as o:
     o.write('# Course page audit\n\nChecks per page: Bloom verbs, task/condition/standard, 8 modules, 8 worked examples, rubric, 10 checks with answers, ladder (slides = 7 slides with notes; table = L1-L7 as a table only; none), job links. Russia pages left out.\n\n')
