@@ -25,7 +25,11 @@ def booklet(c):
 def load():
     out = []
     for f in sorted(glob.glob(str(pathlib.Path(__file__).parent / 'india_data_*.py'))):
-        s = importlib.util.spec_from_file_location(pathlib.Path(f).stem, f); m = importlib.util.module_from_spec(s); m.M = M; s.loader.exec_module(m); out += m.COURSES
+        s = importlib.util.spec_from_file_location(pathlib.Path(f).stem, f); m = importlib.util.module_from_spec(s); m.M = M; s.loader.exec_module(m)
+        for c in m.COURSES:
+            idx = [i for i, o in enumerate(out) if o['slug'] == c['slug']]
+            if idx: out[idx[0]] = c
+            else: out.append(c)
     return out
 def build(c, n):
     mods = ''
