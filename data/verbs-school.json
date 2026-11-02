@@ -1,0 +1,73 @@
+{
+ "note": "Action verbs the school course outcomes use that data/verbs.json and verbs-extra.json do not yet hold. Each is something a learner can be seen to do. The audit accepts these as well. Fold into verbs.json when the owner updates it. British spelling.",
+ "levels": {
+  "Remember": [
+   "greet",
+   "recite",
+   "say",
+   "sing",
+   "spell"
+  ],
+  "Understand": [
+   "answer",
+   "ask",
+   "give",
+   "retell",
+   "share",
+   "speak",
+   "talk",
+   "tell"
+  ],
+  "Apply": [
+   "act",
+   "balance",
+   "clean",
+   "click",
+   "conjugate",
+   "connect",
+   "continue",
+   "control",
+   "convert",
+   "deliver",
+   "determine",
+   "do",
+   "expand",
+   "factorise",
+   "follow",
+   "format",
+   "group",
+   "hold",
+   "join",
+   "keep",
+   "lead",
+   "link",
+   "manage",
+   "map",
+   "multiply",
+   "open",
+   "rotate",
+   "sequence",
+   "set",
+   "sort",
+   "store",
+   "style",
+   "subtract",
+   "take",
+   "trace",
+   "type",
+   "work"
+  ],
+  "Analyse": [
+   "break",
+   "decompose"
+  ],
+  "Evaluate": [
+   "prove",
+   "value"
+  ],
+  "Create": [
+   "form",
+   "make"
+  ]
+ }
+}
