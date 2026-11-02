@@ -15,7 +15,7 @@ S_1 = [
 ('Secure each device: unique password, signed updates, only needed data sent.', 'Test: change default password on 10 of 10 devices and log the date.'),
 ('Prove value with one customer: alerts that saved stock or time.', 'Case: 3 alerts in 4 weeks saved 2 batches worth {c} 900.'),
 ('Count total cost per device: parts, assembly, network, support share.', 'Parts {c} 30, assembly {c} 5, network {c} 2, support {c} 3: cost {c} 40; price {c} 60 leaves {c} 20.'),
-('Partner with an installer and a network provider; write a install checklist.', 'Checklist: mount, power, connect, test alert, sign off; 45 minutes per site.'),
+('Partner with an installer and a network provider; write an install checklist.', 'Checklist: mount, power, connect, test alert, sign off; 45 minutes per site.'),
 ('Launch with 10 devices and a go or no-go rule on uptime.', 'Go: 95% uptime over 6 weeks and 2 customers ask to buy; below 90%, fix the hardware first.')]),
 ('blockchain-health-record', 'Blockchain Health Record Digitization & Sharing Company', [
 ('Plan only: map one record flow, such as a lab result moving to a clinic; do not hold patient data yet.', 'Flow map: patient, lab, clinic, 5 steps, who consents at each step.'),
