@@ -1,4 +1,4 @@
-/* Site assistant for this site (each site carries only its own assistant, owner 20 Oct 2026).
+/* Site assistant for this site (this site carries only its own assistant).
    Add once per page, before </body>:  <script src="/assets/ask.js" defer></script>
    Picks the assistant from the body class. Fixed answers only; no calls out, nothing stored. */
 (function(S){

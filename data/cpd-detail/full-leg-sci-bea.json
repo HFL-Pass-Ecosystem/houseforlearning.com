@@ -33,7 +33,7 @@
     "pts": [
      "Average sentence length = words / sentences",
      "Mark any sentence over 20 words and split it",
-     "A colleague read finds what a test misses",
+     "A colleague's read-through finds what a test misses",
      "A second person reviews it, per firm policy."
     ],
     "ex": "Sample letter: 120 words in 8 sentences gives 120 / 8 = 15 words per sentence, under the target of 20. One sentence of 34 words is split into two of 17. A colleague reads it and names the next step in one breath.",
@@ -69,7 +69,7 @@
      "Plain, accurate, under one page, ends with step and date",
      "A second person reviews per firm policy"
     ],
-    "ex": "Check: a sample letter of 420 words is edited to 280 words, 140 fewer or one third cut. Checklist result: 3 jargon terms replaced, wrong date 12 Nov corrected to 10 Nov, next step added: 5 of 5 items met.",
+    "ex": "Check: a sample letter of 420 words is edited to 280 words, 140 fewer or one third cut. Checklist result: 3 jargon terms replaced, wrong date 12 Nov corrected to 10 Nov, next step added: 4 of 4 checklist items met.",
     "std": "Pass the check by editing a sample letter against the checklist so it is plain, accurate, under one page and ends with the next step and date."
    },
    {
@@ -91,7 +91,7 @@
      "Fix any point the partner misses",
      "Keep both letters as portfolio evidence"
     ],
-    "ex": "Partner reads the moved-hearing letter and says back: \"Bring the form and ID on 28 Mar.\" Both facts correct. Portfolio: 2 letters, 128 words in 8 sentences = 16 words per sentence, and 3 improvements noted in a short reflection.",
+    "ex": "Partner reads the moved-hearing letter and says back: \"Bring the form and ID on 28 Mar.\" Both facts correct. Portfolio: 2 letters, about 120 words in 8 sentences = 15 words per sentence, and 3 improvements noted in a short reflection.",
     "std": "Evaluate your own letters by a partner teach-back and a readability count, then reflect in writing on three changes you would make next time."
    }
   ],
@@ -169,7 +169,7 @@
     "t": "Spotting risk clauses",
     "min": 45,
     "pts": [
-     "Look for payment, termination, liability, indemnity, change",
+     "Look for payment, termination, liability, indemnity (a promise to cover the other side's losses) and change",
      "Ask one question for each risk",
      "A risk clause exposes you to cost or loss",
      "If you are unsure of the law, refer to the senior."
@@ -186,7 +186,7 @@
      "Order the clauses by priority",
      "The client decides, with advice from a qualified lawyer."
     ],
-    "ex": "Rating table: clause 6 unlimited liability, High, because the cost has no ceiling; clause 8 price change at any time, High; clause 4 auto-renewal, Medium; clause 3 payment in 30 days, Low. Priority order: 6, 8, 4, 3. Count: 2 High, 1 Medium, 1 Low.",
+    "ex": "Rating table (first 4 of the 6 flagged clauses): clause 6 unlimited liability, High, because the cost has no ceiling; clause 8 price change at any time, High; clause 4 auto-renewal, Medium; clause 3 payment in 30 days, Low. Priority order: 6, 8, 4, 3. Count: 2 High, 1 Medium, 1 Low.",
     "std": "Give each flagged clause a high, medium or low risk rating with a stated reason, and put the clauses in order of priority."
    },
    {
@@ -196,7 +196,7 @@
      "Add a cap, a notice period or a consent step",
      "Mark agree, query or escalate",
      "Refer to the senior when unsure of the law",
-     "The client, advised by you, makes the final choice on safer wording."
+     "The client, advised by a qualified lawyer, makes the final choice on safer wording."
     ],
     "ex": "Clause 6 \"unlimited liability\" becomes \"liability is limited to the sum paid in the last 12 months\". Clause 8 becomes \"price changes need 60 days' written notice\". Checklist marks: clause 6 escalate, clause 8 query, clause 3 agree.",
     "std": "Propose safer wording for a risky clause, such as a stated cap or a notice period, and record agree, query or escalate against the checklist."
@@ -220,7 +220,7 @@
      "Cap the change and require notice",
      "Check the arithmetic of the cap"
     ],
-    "ex": "Case card 2: a clause lets the supplier raise price at any time. Rated High. Safer wording: no change without 60 days' written notice and a rise of at most 5% a year. On 1,000 a month the cap is 5% of 1,000 = 50, so the most is 1,050.",
+    "ex": "Case card 2: a clause lets the supplier raise price at any time. Rated High. Safer wording: no change without 60 days' written notice and a rise of at most 5% a year. On a worked-example price of 1,000 a month the cap is 5% of 1,000 = 50, so the most is 1,050.",
     "std": "Apply the review method to a new clause that lets a supplier raise price at any time, rating it and proposing wording with a stated cap and notice period."
    },
    {
@@ -448,7 +448,8 @@
     "pts": [
      "Repeats show the natural spread",
      "More repeats give more trust",
-     "Choose the same number per group"
+     "Choose the same number per group",
+     "Record an odd result; do not remove it without a stated rule"
     ],
     "ex": "10 plants in each group, 2 groups = 20 plants. At 5 pots per tray that is 20 / 5 = 4 trays. Heights in group A range from 10 to 14 cm, which is the natural spread the repeats reveal.",
     "std": "Decide how many repeats are needed for each group, and explain that repeats show the natural spread in the results."
@@ -566,7 +567,7 @@
      "Always give units",
      "Keep the raw data so that you can re-check."
     ],
-    "ex": "Group A heights 10, 12, 11 cm: mean = 33 / 3 = 11 cm. Deviations -1, 1, 0; squares 1, 1, 0 add to 2; 2 / (3 - 1) = 1; spread (sample SD) = 1 cm. Group B 14, 15, 13: mean 14 cm, SD 1 cm.",
+    "ex": "Group A heights 10, 12, 11 cm: mean = 33 / 3 = 11 cm. Deviations -1, 1, 0; squares 1, 1, 0 add to 2; 2 / (3 - 1) = 1; spread (sample standard deviation, SD) = 1 cm. Group B 14, 15, 13: mean 14 cm, SD 1 cm.",
     "std": "Calculate the mean and the spread of a small data set with correct arithmetic and units, as in groups of three plant heights."
    },
    {
@@ -610,7 +611,7 @@
      "Say the result is tentative if n is small",
      "Do not claim more than the data show"
     ],
-    "ex": "Paragraph: \"Group B plants were taller (mean 14 cm, SD 1) than group A (mean 11 cm, SD 1), a gap of 3 cm. With 3 plants per group, the result is tentative.\" It claims no cause and no more than the numbers show.",
+    "ex": "Paragraph: \"Group B plants were taller (mean 14 cm, SD 1 cm) than group A (mean 11 cm, SD 1 cm), a gap of 3 cm. With 3 plants per group, the result is tentative.\" It claims no cause and no more than the numbers show.",
     "std": "Write a one-paragraph result for a figure that states the difference and spread and does not claim more than the data show."
    },
    {
@@ -749,7 +750,7 @@
      "Keep results in results",
      "Add a limits paragraph"
     ],
-    "ex": "Report of about 370 words: abstract 50, introduction 60, methods 80, results 70, discussion 70, limits 40 (50 + 60 + 80 + 70 + 70 + 40 = 370). All 8 sections present, results kept apart from discussion.",
+    "ex": "Report body of about 370 words: abstract 50, introduction 60, methods 80, results 70, discussion 70, limits 40 (50 + 60 + 80 + 70 + 70 + 40 = 370). All 8 sections present, results kept apart from discussion.",
     "std": "Write a full short report from a result table, with all sections in place, results kept apart from discussion, and a limits paragraph."
    },
    {
@@ -782,7 +783,7 @@
      "Answer with evidence or a change",
      "Keep the report as evidence"
     ],
-    "ex": "Reviewer: \"Results come from one site only.\" Reply: \"Thank you. We have added this to the limits and stated that other sites were not tested.\" Change made, 1 of 1 comments answered politely. Final report passes all 8 checklist items.",
+    "ex": "Reviewer: \"Results come from one site only.\" Reply: \"Thank you. We have added this to the limits and stated that other sites were not tested.\" Change made, 1 of 1 comments answered politely. Final report has all 8 sections and passes the check.",
     "std": "Respond to a reviewer comment politely with evidence or a change, revise the report, and compile it into a portfolio with a short reflection."
    }
   ],
@@ -864,7 +865,7 @@
      "Record a refusal",
      "Keep the form secure; share only with consent"
     ],
-    "ex": "Entry: \"14 Jun. Pregnancy: client declined to answer. Treatment limited. Signed client, signed therapist.\" Date, answer, refusal and both signatures are present. The form is kept in a locked cabinet.",
+    "ex": "Entry: \"14 Jun. Pregnancy: client declined to answer. Treatment paused until the referral card is checked. Signed client, signed therapist.\" Date, answer, refusal and both signatures are present. The form is kept in a locked cabinet.",
     "std": "Record a client's answers clearly on the form, dated and signed, and note any refusal to answer, while keeping the form secure."
    },
    {
@@ -926,7 +927,7 @@
   "extra_check": {
    "q": "A history form has 9 required fields and a client has answered 7. How many are missing, and what do you do before treatment?",
    "a": "2 are missing. Ask for them, or record the refusal, and follow the referral card before going ahead.",
-   "module": 3
+   "module": 2
   },
   "slides": [
    {
@@ -979,7 +980,7 @@
      "Clients and staff are both at risk",
      "A routine is proof of care"
     ],
-    "ex": "A missed step has a cost to the client and to staff. With 3 clients in a session and one missed hand-clean each, 3 chances for contamination pass between people. Infection control aims for 0 missed steps.",
+    "ex": "A missed step has a cost to the client and to staff. With 3 clients in a session and one missed hand-clean each, there are 3 chances for germs to pass between people. Infection control aims for 0 missed steps.",
     "std": "Explain why infection control matters in a treatment room and list the risks to clients and staff when a step is missed."
    },
    {
@@ -1025,7 +1026,7 @@
      "Keep clean and used items apart",
      "Complete the log"
     ],
-    "ex": "Case card 2: a reusable tool touched skin. Learner demonstrates 6 of 6 steps: wash hands, clean with approved cleaner, disinfect, dry, store covered, log date and who. Clean items stay on the left, used on the right.",
+    "ex": "Case card 2: a reusable tool touched skin. Learner demonstrates 6 of 6 steps: wash hands, clean with approved cleaner, disinfect, dry, store covered, log date, item, method and initials. Clean items stay on the left, used on the right.",
     "std": "Demonstrate the full routine on a live case where a reusable tool touched skin, choosing the cleaning level and completing the log."
    },
    {
@@ -1047,7 +1048,7 @@
      "Rotate tool sets",
      "Log every use"
     ],
-    "ex": "Case card 2: 4 clients in a row and 2 sets of tweezers. Set 1 for clients 1 and 3, set 2 for clients 2 and 4, so each set rests one client length between uses. Log entries: 4, one per client, each with date, item, method and initials.",
+    "ex": "Case card 2: 4 clients in a row and 2 sets of tweezers. Set 1 for clients 1 and 3, set 2 for clients 2 and 4, so each set is cleaned while the other set is in use. Log entries: 4, one per client, each with date, item, method and initials.",
     "std": "Apply the cleaning routine to a busy session by planning tool sets for four clients in a row and logging each use correctly."
    },
    {
@@ -1194,10 +1195,9 @@
      "Stop when consent is withdrawn",
      "Follow the local rule on minors",
      "Reflect on your explanation",
-     "For a minor, follow local rules on guardian consent.",
-     "If the client is a minor, follow the local rule and get guardian consent."
+     "For a minor, check the local rule on who must give consent"
     ],
-    "ex": "Client withdraws at 10:20. Record: \"10:20 client withdrew consent; treatment stopped; recorded and countersigned.\" For a minor, follow the local rule and get guardian consent. Reflection: one plain word that worked.",
+    "ex": "Client withdraws at 10:20. Record: \"10:20 client withdrew consent; treatment stopped; recorded and countersigned.\" For a minor, follow the local rule on who must give consent. Reflection: one plain word that worked.",
     "std": "Explain what to do when a client withdraws consent or is a minor, record it correctly, and reflect on one way to make your explanation plainer."
    }
   ],

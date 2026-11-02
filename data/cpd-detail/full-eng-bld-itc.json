@@ -12,7 +12,7 @@
      "Keep units clear: watts, volts, then amps.",
      "A margin covers heat, grouping and ageing."
     ],
-    "ex": "22 kW at 400 V, power factor 0.85: I = 22,000 / (1.732 x 400 x 0.85) = 22,000 / 588.9 = about 37.4 A. A sample 25 percent margin (your standard and engineer set the real one) gives 37.4 x 1.25 = 46.7 A.",
+    "ex": "22 kW at 400 V, power factor 0.85: I = 22,000 / (1.732 x 400 x 0.85) = 22,000 / 588.9 = about 37.4 A. A sample 25 percent margin (your standard and a qualified person set the real one) would give 37.4 x 1.25 = 46.7 A. The later steps use 37.4 A as the design current and correct the table rating instead.",
     "std": "Calculate the design current for a three-phase load such as 22 kW at 400 V, given a load schedule, using the correct formula and units, and state why a safety margin on current is applied."
    },
    {
@@ -34,7 +34,7 @@
      "Multiply the tabulated rating by every correction factor.",
      "The corrected rating must be above the design current."
     ],
-    "ex": "Sample table: 10 mm2 = 52 A, 16 mm2 = 69 A. Temperature factor 0.87 x grouping factor 0.80 = 0.696. 10 mm2: 52 x 0.696 = 36.2 A, below 37.4 A, so it fails. 16 mm2: 69 x 0.696 = 48.0 A, above 37.4 A, so it passes.",
+    "ex": "Sample table: 10 mm2 = 52 A, 16 mm2 = 69 A. Temperature factor 0.87 x grouping factor 0.80 = 0.696. 10 mm2: 52 x 0.696 = 36.2 A, below 37.4 A, so it fails. 16 mm2: 69 x 0.696 = 48.0 A, above 37.4 A, so it passes (it is also above the 46.7 A sample margin figure). All table values here are worked-example figures.",
     "std": "Interpret the sample rating table, given the installation method and temperature, and apply the correction so the corrected rating is shown to be above the design current."
    },
    {
@@ -149,7 +149,7 @@
      "Each symbol is one device with one job.",
      "Read from the supply to the motor."
     ],
-    "ex": "Sample diagram: 400 V supply, main breaker 400 A, feeder breaker 100 A, motor starter, 37 kW motor. Four items named from supply to motor, each with its purpose: supply (source), main breaker (isolate and protect the board), feeder breaker (protect the feeder), motor starter (start and protect the motor).",
+    "ex": "Sample diagram: 400 V supply, main breaker 400 A, feeder breaker 100 A, motor starter, 37 kW motor. Four items named from the supply down to the motor starter, with the 37 kW motor as the load, each with its purpose: supply (source), main breaker (isolate and protect the board), feeder breaker (protect the feeder), motor starter (start and protect the motor).",
     "std": "Read a one-line diagram and name each device from supply to motor, stating the purpose of every device shown on the diagram."
    },
    {
@@ -368,7 +368,7 @@
    }
   ],
   "extra_check": {
-   "q": "Circuit 4 failed at 0.98 MOhm and reads 2.3 MOhm after repair. What happens to the first reading?",
+   "q": "A circuit failed at 0.98 MOhm and reads 2.3 MOhm after repair. What happens to the first reading?",
    "a": "It stays on the record as a fail; add a dated retest line marked pass.",
    "module": 7
   },
@@ -423,7 +423,7 @@
      "Risk is how likely and how serious the harm is.",
      "Controls go from most to least effective."
     ],
-    "ex": "Hazard: noisy saw. Controls in order: 1 eliminate (use a cut-to-size supply), 2 substitute (quieter tool), 3 engineer (enclosure), 4 admin (time limits), 5 PPE (ear defenders). Five levels, best first.",
+    "ex": "Hazard: noisy saw. Controls in order: 1 eliminate (use a cut-to-size supply), 2 substitute (quieter tool), 3 engineer (enclosure), 4 admin (time limits), 5 PPE (ear defenders).",
     "std": "Define hazard, risk and control in plain words, and order controls from most to least effective, giving an example of each for a site hazard."
    },
    {
@@ -434,7 +434,7 @@
      "Name the hazard and one control for each.",
      "Aim for at least eight from ten photos."
     ],
-    "ex": "Photo 3: ladder not tied and nobody footing it. Hazard: fall. Control: tie the ladder or use a platform. Ten photos, 8 hazards found, 8 controls named.",
+    "ex": "Photo 3: ladder not tied and nobody footing it. Hazard: fall. Control: tie the ladder or use a platform.",
     "std": "Identify hazards in a set of site photos, given as text, listing at least eight and naming a control for each one."
    },
    {
@@ -456,7 +456,7 @@
      "Higher risk means an earlier date.",
      "Set a re-inspection date for each item."
     ],
-    "ex": "Edge: edge protection today, site manager, re-inspect tomorrow. Bricks: restack away from the path, labourer lead, tomorrow. Cable: reroute, electrician, within 2 days. 3 actions, 3 owners, 3 dates.",
+    "ex": "Edge: edge protection today, site manager, re-inspect tomorrow. Bricks: restack away from the path, labourer lead, tomorrow. Cable: reroute, electrician, within 2 days.",
     "std": "Write an action list, given the ranked hazards, with a named owner and a due date for every action, and state when each item is re-inspected."
    },
    {
@@ -615,7 +615,7 @@
      "Show units and waste on every line.",
      "Query anything that does not agree."
     ],
-    "ex": "New room 5 m x 4 m, walls 2.4 m high, door 2.0 m2, window 1.5 m2, tiles 0.3 m square, 8 percent waste. Walls: 18 x 2.4 = 43.2 - 3.5 = 39.7 m2. Floor: 20 m2 x 1.08 / 0.09 = 240 tiles, 24 boxes.",
+    "ex": "New room 5 m x 4 m, walls 2.4 m high, door 2.0 m2, window 1.5 m2, tiles 0.3 m square, 8 percent waste on tiles and 10 percent on wall finish. Walls: 18 x 2.4 = 43.2 - 3.5 = 39.7 m2, plus 10 percent = 43.7 m2. Floor: 20 m2 x 1.08 / 0.09 = 240 tiles, 24 boxes.",
     "std": "Complete a bill of quantities for a simple room, with correct areas, waste and units, and query any disagreement between drawing and note instead of assuming."
    },
    {
@@ -719,7 +719,7 @@
      "Number the index so items are easy to find.",
      "Keep the index in the same order as the checklist."
     ],
-    "ex": "Index line: 4.2 | Boiler warranty | dated 2026-02-10 | folder W3, page 1. Seven items, seven index lines, in the checklist order.",
+    "ex": "Index line: 4.2 | Boiler warranty | dated 2026-02-10 | folder W3, page 1. Keep the index in the checklist order.",
     "std": "Build an index of the pack, given the documents, with each item named, dated and filed, so the client can find any item quickly."
    },
    {
@@ -834,7 +834,7 @@
      "Staff, guest and devices need separate zones.",
      "A guest must never reach staff systems."
     ],
-    "ex": "Office with 8 staff laptops, public Wi-Fi, 1 printer and 2 cameras. Three zones: staff 192.168.10.0/24, guest 192.168.20.0/24, devices 192.168.30.0/24.",
+    "ex": "Office with 8 staff laptops, public Wi-Fi, 1 printer and 2 cameras. Three zones, each a separate address range (a /24 range holds up to 254 devices): staff 192.168.10.0/24, guest 192.168.20.0/24, devices 192.168.30.0/24.",
     "std": "Divide a small network into staff, guest and device zones, given user groups, so a guest device cannot reach staff systems."
    },
    {
@@ -845,7 +845,7 @@
      "Write each firewall rule in plain words.",
      "Default is deny; allow only what is needed."
     ],
-    "ex": "Plan rules: staff to internet allow; guest to internet allow; guest to staff deny; guest to devices deny; staff to printer allow. Five rules on one page.",
+    "ex": "Plan rules: staff to internet allow; guest to internet allow; guest to staff deny; guest to devices deny; staff to printer allow.",
     "std": "Draw a small network plan, given a lab diagram such as an office with public Wi-Fi, showing each zone, its traffic and the firewall rules between zones."
    },
    {
@@ -879,7 +879,7 @@
      "Add the date and the author.",
      "Put steps in the order you built them."
     ],
-    "ex": "One-page guide: date 2026-03-14, author the lab technician; steps 1 create three zones, 2 set passphrases, 3 apply five rules, 4 update firmware, 5 run the 8-item check list. Five steps, one page.",
+    "ex": "One-page guide: date 2026-03-14, author the lab technician; steps 1 create three zones, 2 set passphrases, 3 apply five rules, 4 update firmware, 5 run the 8-item check list.",
     "std": "Write a one-page repeat-it guide, given the configuration, with date and author, so another person could rebuild or audit the network."
    },
    {
@@ -972,7 +972,7 @@
      "An incident is an alert that has been confirmed.",
      "Read what evidence the alert gives."
     ],
-    "ex": "Five sample alerts; after checking, 1 is a confirmed incident (ransomware note on a server) and 4 are not. An alert is a warning; an incident is confirmed harm or risk.",
+    "ex": "Five sample alerts; after checking, 1 is a confirmed incident (a ransomware note on a server, saying its files are locked) and 4 are not. An alert is a warning; an incident is confirmed harm or risk.",
     "std": "Describe what an alert is and what evidence it gives, given sample alerts, and say how an alert differs from a confirmed incident."
    },
    {
@@ -994,7 +994,7 @@
      "Contain before recover.",
      "Tell the incident lead at the escalate step."
     ],
-    "ex": "Playbook run for A1: 1 identify the note, 2 isolate the server, 3 preserve evidence, 4 tell the incident lead, 5 recover from backup, 6 write the report. Six steps, in this order.",
+    "ex": "Playbook run for A1: 1 identify the note, 2 isolate the server, 3 preserve evidence, 4 tell the incident lead, 5 recover from backup, 6 write the report.",
     "std": "Follow the playbook steps in order, given a written playbook, identify, contain, preserve evidence, escalate, recover and report, telling the incident lead at the right step."
    },
    {
@@ -1120,7 +1120,7 @@
      "Risk: what could go wrong and for how long.",
      "Rollback: clear steps to undo the change."
     ],
-    "ex": "Mail server update. Reason: security fix. Risk: 30-minute outage. Rollback: restore the snapshot, about 20 minutes, started if the test fails by the end of the window.",
+    "ex": "Mail server update. Reason: security fix. Risk: 30-minute outage. Rollback: restore the snapshot, about 20 minutes. Start it if a test fails.",
     "std": "Write the reason, risk and rollback for a change, given a scenario such as a mail server update, with the rollback as clear steps that undo the change."
    },
    {
@@ -1171,11 +1171,11 @@
     "t": "Second worked case: a Friday evening upgrade",
     "min": 10,
     "pts": [
-     "Add the time for change, rollback and a margin.",
+     "Add the time for the change, the tests, the rollback and a margin.",
      "Choose a window when few people are affected.",
      "Rewrite the record with the new time."
     ],
-    "ex": "Case card 2: mail upgrade planned for Friday at 18:00, 30-minute outage plus 20-minute rollback = 50 minutes. A Sunday 06:00 to 08:00 window gives 120 minutes, which is 2.4 times the need. Choose Sunday.",
+    "ex": "Case card 2: mail upgrade planned for Friday at 18:00, 30-minute change plus 15 minutes of tests plus 20-minute rollback = 65 minutes. A Sunday 06:00 to 08:00 window gives 120 minutes, about 1.8 times the need. Choose Sunday.",
     "std": "Review a risky upgrade planned for a busy time, calculate the time needed including rollback, and choose a safer window with the record rewritten."
    },
    {

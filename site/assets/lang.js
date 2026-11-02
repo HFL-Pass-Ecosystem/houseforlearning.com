@@ -2,7 +2,7 @@
    Under the site's Content-Security-Policy no outside script runs here: choosing a language is a normal link to the
    public web-page translation service (translate.google.com/translate?sl=en&tl=CODE&u=PAGE). It works once the site
    is at a public address; on local preview files it cannot fetch the page. The chosen code is kept in localStorage
-   only to preselect it next time. Same file on all three group sites. */
+   only to preselect it next time. */
 (function () {
   var KEY = 'site-lang';
   var SVC = 'https://translate.google.com/translate?sl=en&tl=';
@@ -101,7 +101,7 @@
     back.type = 'button';
     acts.appendChild(go); acts.appendChild(back);
     confirmBox.appendChild(note); confirmBox.appendChild(acts);
-    /* Owner 20 Oct 2026: no one is left out. The list above is what automatic translation covers; every other
+    /* No one is left out. The list above is what automatic translation covers; every other
        language, dialect and sign language is added by people. A visitor can ask for theirs: the request opens the
        visitor's own email app addressed to this site's contact address (nothing is sent or stored by this page). */
     more = el('div', 'lang-more');
@@ -273,7 +273,7 @@
 })();
 
 /* ---------------------------------------------------------------------------------------------
-   Accessibility and learning style (owner rules, 19 and 20 Oct 2026). Same code on all group sites.
+   Accessibility and learning style.
    Adds an "Accessibility" button next to the Language button and a panel with:
    - learning style (VARK: visual, aural, read/write, hands-on, or mixed),
    - seeing: text size, reading font (dyslexia-friendly or extra-clear, both open fonts we host),
