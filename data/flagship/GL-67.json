@@ -33,87 +33,99 @@
  "evidence": "quantity sheet, cost comparison, risk list, note",
  "modules": [
   [
-   "How it works",
+   "How a construction printer works",
    "Understand",
    3,
-   "Layers of material.",
+   "A construction 3D printer builds walls by laying a cement-like mix in layers, following a digital path.",
    [
-    "A gantry or arm prints a cement-like mix in layers.",
-    "Walls are printed; roofs and services are added by hand.",
-    "A design file controls the path."
+    "A gantry or robotic arm moves a nozzle over the site.",
+    "Walls are printed in layers of 15 to 40 mm; doors, windows, roof and services are added by trades.",
+    "A design file controls the path; changing the file changes the building.",
+    "Printing is fast for walls but the whole building still needs foundations, roof and finishes.",
+    "Printing can be done on site or off site as precast parts."
    ],
-   "A printer lays a 40 mm bead in a double-wall pattern.",
-   "Draw the process.",
-   "Steps labelled."
+   "A printer lays a 40 mm bead in a double-wall pattern with hollow cavities, which are later filled with reinforcement and insulation. A precast printed planter is made off site in two hours.",
+   "Draw the process from design file to finished wall with labels. Compare on-site and off-site printing.",
+   "All steps are shown in order."
   ],
   [
-   "Materials",
+   "Printable materials",
    "Understand",
    3,
    "The mix decides success.",
    [
-    "Cement mixes with additives; earth mixes; recycled aggregates.",
-    "Must flow, hold shape and cure.",
-    "Weather affects curing."
+    "Cement-based mixes with additives, earth mixes and recycled aggregates.",
+    "The mix must flow through the nozzle, hold shape and gain strength.",
+    "Weather affects curing; heat and wind dry layers quickly.",
+    "Test every batch.",
+    "Print a small test wall and cut it to inspect layers."
    ],
-   "A hot day needs a retarder.",
-   "Compare two mixes.",
-   "Properties listed."
+   "On a hot day a retarder is added so layers bond before drying. A 1 m test wall reveals poor bonding between layers at cold temperature.",
+   "Compare two mixes in a table. Describe a test wall plan.",
+   "Properties and limits listed."
   ],
   [
-   "Design and codes",
+   "Design and building codes",
    "Apply",
    4,
-   "Printing is not exempt.",
+   "Printed buildings follow the same safety codes as others.",
    [
-    "Structural design by an engineer; reinforcement and openings.",
-    "Fire, energy and accessibility codes.",
-    "Foundations and utilities as usual."
+    "Structural design by a qualified engineer, including reinforcement and openings.",
+    "Fire, energy, accessibility and ventilation codes.",
+    "Foundations and services as usual.",
+    "Permits and inspections.",
+    "Engineers check wind, earthquake and load."
    ],
-   "Steel bars are placed in wall cavities.",
-   "List code checks.",
-   "Sources noted."
+   "Steel bars are placed in wall cavities before they are filled, and an engineer signs the design. An engineer adds vertical rebar every 600 mm for earthquake zones.",
+   "List code checks for a small building in your place. List loads to be checked.",
+   "Sources are listed."
   ],
   [
-   "Quantities and time",
+   "Quantities and print time",
    "Analyse",
    4,
    "Count the bead.",
    [
     "Wall length x height / layer height = layers.",
-    "Volume x density = material.",
-    "Print speed gives hours."
+    "Volume x density = material mass.",
+    "Print speed gives hours.",
+    "Add waste and set-up time.",
+    "Add 10 per cent for waste and set-up."
    ],
-   "60 m of wall at 3 m high needs 150 layers of 20 mm.",
-   "Calculate for a small room.",
+   "60 m of wall at 3 m high with 20 mm layers needs 150 layers. 150 layers at 4 minutes each take 10 hours plus 1 hour set-up.",
+   "Calculate for a small room. Add waste and setup to your numbers.",
    "Maths correct."
   ],
   [
-   "Site and safety",
+   "Site safety",
    "Evaluate",
    4,
-   "People and machine.",
+   "People and machines share the site.",
    [
-    "Exclusion zones, emergency stop, lifting.",
+    "Exclusion zones, emergency stop and lifting plans.",
     "Dust and silica protection.",
-    "Weather plan."
+    "Weather plan.",
+    "Training.",
+    "Use a trained operator and a banksman for lifting."
    ],
-   "A fence marks the print zone.",
-   "Write a site safety plan.",
+   "A fence marks the print zone and a trained operator stays on watch. Two workers are assigned: operator and spotter.",
+   "Write a site safety plan. Add roles.",
    "Plan approved by mentor."
   ],
   [
    "Cost and comparison",
    "Evaluate",
    3,
-   "Where it pays.",
+   "See where it pays.",
    [
     "Labour saving vs machine and material cost.",
     "Speed and waste reduction.",
-    "Compare per m2."
+    "Compare per m2.",
+    "Include transport and set-up.",
+    "Include logistics of the printer and mix delivery."
    ],
-   "Walls cost 12% less but doors cost the same.",
-   "Build a table.",
+   "Walls cost 12 per cent less but doors and roofing cost the same. Transport of the machine adds 8 per cent to the first project cost.",
+   "Build a comparison table. Add transport cost.",
    "Currency shown."
   ],
   [
@@ -124,10 +136,12 @@
    [
     "Sample cubes for strength.",
     "Check layer bonding and tolerances.",
-    "Keep records."
+    "Keep records.",
+    "Fix defects.",
+    "Record mix temperature and slump."
    ],
-   "A cube fails; the batch is rejected.",
-   "Write a QC plan.",
+   "A cube fails the strength test and the batch is rejected. A slump test is done on every batch before pumping.",
+   "Write a QC plan. Add temperature and slump to QC.",
    "Tests named."
   ],
   [
@@ -138,33 +152,35 @@
    [
     "Fit: housing, shelters, small buildings.",
     "Risks and permits.",
-    "Next steps."
+    "Next steps.",
+    "Review.",
+    "List ten questions for a mentor builder."
    ],
-   "The note recommends a small pilot hut.",
-   "Write and present.",
+   "The note recommends a small pilot hut before a house. A builder advises testing in your climate first.",
+   "Write and present the note. List and ask ten questions.",
    "Reader can decide."
   ]
  ],
  "quiz": [
   [
    "How is a wall built?",
-   "In layers by a gantry or arm. (Covered in module 1: How it works. To pass that module: Steps labelled.)"
+   "In layers by a gantry or arm. (Covered in module 1: How a construction printer works. To pass that module: All steps are shown in order.)"
   ],
   [
    "What controls the path?",
-   "A design file. (Covered in module 2: Materials. To pass that module: Properties listed.)"
+   "A design file. (Covered in module 2: Printable materials. To pass that module: Properties and limits listed.)"
   ],
   [
    "Who designs structure?",
-   "An engineer. (Covered in module 3: Design and codes. To pass that module: Sources noted.)"
+   "An engineer. (Covered in module 3: Design and building codes. To pass that module: Sources are listed.)"
   ],
   [
    "Layers formula?",
-   "Height / layer height. (Covered in module 4: Quantities and time. To pass that module: Maths correct.)"
+   "Height / layer height. (Covered in module 4: Quantities and print time. To pass that module: Maths correct.)"
   ],
   [
    "Silica danger?",
-   "Dust harms lungs. (Covered in module 5: Site and safety. To pass that module: Plan approved by mentor.)"
+   "Dust harms lungs. (Covered in module 5: Site safety. To pass that module: Plan approved by mentor.)"
   ],
   [
    "Why cube tests?",
@@ -245,39 +261,39 @@
  "local": "Building codes and permits differ by place.",
  "ladder": [
   [
-   "How it works",
-   "L1: learner can describe printing. Focus module: How it works (Understand, 3 h). Layers of material. Key points: A gantry or arm prints a cement-like mix in layers. Walls are printed; roofs and services are added by hand. A design file controls the path.",
-   "Teach: open with the worked example. A printer lays a 40 mm bead in a double-wall pattern. Then set the activity: Draw the process. Mark against the standard: Steps labelled. Check at this level: How is a wall built? Model answer: In layers by a gantry or arm. Process."
+   "How a construction printer works",
+   "L1: learner can describe printing. Focus module: How a construction printer works (Understand, 3 h). A construction 3D printer builds walls by laying a cement-like mix in layers, following a digital path. Key points: A gantry or robotic arm moves a nozzle over the site. Walls are printed in layers of 15 to 40 mm; doors, windows, roof and services are added by trades. A design file controls the path; changing the file changes the building. Printing is fast for walls but the whole building still needs foundations, roof and finishes. Printing can be done on site or off site as precast parts.",
+   "Teach: open with the worked example. A printer lays a 40 mm bead in a double-wall pattern with hollow cavities, which are later filled with reinforcement and insulation. A precast printed planter is made off site in two hours. Then set the activity: Draw the process from design file to finished wall with labels. Compare on-site and off-site printing. Mark against the standard: All steps are shown in order. Check at this level: How is a wall built? Model answer: In layers by a gantry or arm."
   ],
   [
-   "Materials",
-   "L2: learner knows materials. Focus module: Materials (Understand, 3 h). The mix decides success. Key points: Cement mixes with additives; earth mixes; recycled aggregates. Must flow, hold shape and cure. Weather affects curing.",
-   "Teach: open with the worked example. A hot day needs a retarder. Then set the activity: Compare two mixes. Mark against the standard: Properties listed. Check at this level: What controls the path? Model answer: A design file. Mix."
+   "Printable materials",
+   "L2: learner knows materials. Focus module: Printable materials (Understand, 3 h). The mix decides success. Key points: Cement-based mixes with additives, earth mixes and recycled aggregates. The mix must flow through the nozzle, hold shape and gain strength. Weather affects curing; heat and wind dry layers quickly. Test every batch. Print a small test wall and cut it to inspect layers.",
+   "Teach: open with the worked example. On a hot day a retarder is added so layers bond before drying. A 1 m test wall reveals poor bonding between layers at cold temperature. Then set the activity: Compare two mixes in a table. Describe a test wall plan. Mark against the standard: Properties and limits listed. Check at this level: What controls the path? Model answer: A design file."
   ],
   [
-   "Design and codes",
-   "L3: learner can read codes. Focus module: Design and codes (Apply, 4 h). Printing is not exempt. Key points: Structural design by an engineer; reinforcement and openings. Fire, energy and accessibility codes. Foundations and utilities as usual.",
-   "Teach: open with the worked example. Steel bars are placed in wall cavities. Then set the activity: List code checks. Mark against the standard: Sources noted. Check at this level: Who designs structure? Model answer: An engineer. Codes."
+   "Design and building codes",
+   "L3: learner can read codes. Focus module: Design and building codes (Apply, 4 h). Printed buildings follow the same safety codes as others. Key points: Structural design by a qualified engineer, including reinforcement and openings. Fire, energy, accessibility and ventilation codes. Foundations and services as usual. Permits and inspections. Engineers check wind, earthquake and load.",
+   "Teach: open with the worked example. Steel bars are placed in wall cavities before they are filled, and an engineer signs the design. An engineer adds vertical rebar every 600 mm for earthquake zones. Then set the activity: List code checks for a small building in your place. List loads to be checked. Mark against the standard: Sources are listed. Check at this level: Who designs structure? Model answer: An engineer."
   ],
   [
-   "Quantities and time",
-   "L4: learner can count. Focus module: Quantities and time (Analyse, 4 h). Count the bead. Key points: Wall length x height / layer height = layers. Volume x density = material. Print speed gives hours.",
-   "Teach: open with the worked example. 60 m of wall at 3 m high needs 150 layers of 20 mm. Then set the activity: Calculate for a small room. Mark against the standard: Maths correct. Check at this level: Layers formula? Model answer: Height / layer height. Sums."
+   "Quantities and print time",
+   "L4: learner can count. Focus module: Quantities and print time (Analyse, 4 h). Count the bead. Key points: Wall length x height / layer height = layers. Volume x density = material mass. Print speed gives hours. Add waste and set-up time. Add 10 per cent for waste and set-up.",
+   "Teach: open with the worked example. 60 m of wall at 3 m high with 20 mm layers needs 150 layers. 150 layers at 4 minutes each take 10 hours plus 1 hour set-up. Then set the activity: Calculate for a small room. Add waste and setup to your numbers. Mark against the standard: Maths correct. Check at this level: Layers formula? Model answer: Height / layer height."
   ],
   [
-   "Site and safety",
-   "L5: learner can compare cost. Focus module: Site and safety (Evaluate, 4 h). People and machine. Key points: Exclusion zones, emergency stop, lifting. Dust and silica protection. Weather plan.",
-   "Teach: open with the worked example. A fence marks the print zone. Then set the activity: Write a site safety plan. Mark against the standard: Plan approved by mentor. Check at this level: Silica danger? Model answer: Dust harms lungs. Costs."
+   "Site safety",
+   "L5: learner can compare cost. Focus module: Site safety (Evaluate, 4 h). People and machines share the site. Key points: Exclusion zones, emergency stop and lifting plans. Dust and silica protection. Weather plan. Training. Use a trained operator and a banksman for lifting.",
+   "Teach: open with the worked example. A fence marks the print zone and a trained operator stays on watch. Two workers are assigned: operator and spotter. Then set the activity: Write a site safety plan. Add roles. Mark against the standard: Plan approved by mentor. Check at this level: Silica danger? Model answer: Dust harms lungs."
   ],
   [
    "Quality control",
-   "L6: learner can lead a crew. Focus module: Quality control (Apply, 3 h). Test it. Key points: Sample cubes for strength. Check layer bonding and tolerances. Keep records.",
-   "Teach: open with the worked example. A cube fails; the batch is rejected. Then set the activity: Write a QC plan. Mark against the standard: Tests named. Check at this level: Why cube tests? Model answer: Check strength. Lead."
+   "L6: learner can lead a crew. Focus module: Quality control (Apply, 3 h). Test it. Key points: Sample cubes for strength. Check layer bonding and tolerances. Keep records. Fix defects. Record mix temperature and slump.",
+   "Teach: open with the worked example. A cube fails the strength test and the batch is rejected. A slump test is done on every batch before pumping. Then set the activity: Write a QC plan. Add temperature and slump to QC. Mark against the standard: Tests named. Check at this level: Why cube tests? Model answer: Check strength."
   ],
   [
    "Feasibility note",
-   "L7: learner can audit. Focus module: Feasibility note (Create, 4 h). Pull it together. Key points: Fit: housing, shelters, small buildings. Risks and permits. Next steps.",
-   "Teach: open with the worked example. The note recommends a small pilot hut. Then set the activity: Write and present. Mark against the standard: Reader can decide. Check at this level: What stays manual? Model answer: Roof and services. Peer audit."
+   "L7: learner can audit. Focus module: Feasibility note (Create, 4 h). Pull it together. Key points: Fit: housing, shelters, small buildings. Risks and permits. Next steps. Review. List ten questions for a mentor builder.",
+   "Teach: open with the worked example. The note recommends a small pilot hut before a house. A builder advises testing in your climate first. Then set the activity: Write and present the note. List and ask ten questions. Mark against the standard: Reader can decide. Check at this level: What stays manual? Model answer: Roof and services."
   ]
  ]
 }

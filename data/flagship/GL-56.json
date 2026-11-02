@@ -156,11 +156,11 @@
  "quiz": [
   [
    "What converts DC to AC?",
-   "Inverter. (Covered in module 1: System parts. To pass that module: All parts named.)"
+   "Inverter. (Covered in module 1: How a solar system works. To pass that module: All parts named and the energy flow is correct.)"
   ],
   [
    "kWh equals?",
-   "kW times hours. (Covered in module 2: Load list. To pass that module: Totals correct.)"
+   "kW times hours. (Covered in module 2: Load list. To pass that module: Totals are correct and checked against a bill.)"
   ],
   [
    "Name a shading effect.",
@@ -168,31 +168,31 @@
   ],
   [
    "Panel sizing formula?",
-   "Daily kWh / (sun hours x efficiency). (Covered in module 4: Sizing. To pass that module: Steps shown.)"
+   "Daily kWh / (sun hours x efficiency). (Covered in module 4: Sizing the system. To pass that module: Calculations are correct with units.)"
   ],
   [
    "Name two protective devices.",
-   "Breaker and surge protector. (Covered in module 5: Electrical protection and earthing. To pass that module: Licensed mentor approves.)"
+   "Breaker and surge protector. (Covered in module 5: Electrical protection and earthing. To pass that module: Licensed mentor approves the list.)"
   ],
   [
    "Who may wire live circuits?",
-   "Licensed electricians. (Covered in module 6: Safety on site. To pass that module: Plan names hazards and controls.)"
+   "Licensed electricians. (Covered in module 6: Safety on site. To pass that module: Plan names hazards, controls and who is responsible.)"
   ],
   [
    "Why label everything?",
-   "Safe maintenance and emergency. (Covered in module 7: Cost and payback. To pass that module: Maths correct; currency shown.)"
+   "Safe maintenance and emergency. (Covered in module 7: Cost and payback. To pass that module: Maths correct and assumptions listed.)"
   ],
   [
    "Payback formula?",
-   "Cost / yearly saving. (Covered in module 8: Design pack and handover. To pass that module: Pack signed by a licensed person.)"
+   "Cost / yearly saving. (Covered in module 8: Design pack and handover. To pass that module: Pack is signed by a licensed person.)"
   ],
   [
    "Why cut waste first?",
-   "Smaller, cheaper system. (Covered in module 8: Design pack and handover. To pass that module: Pack signed by a licensed person.)"
+   "Smaller, cheaper system. (Covered in module 8: Design pack and handover. To pass that module: Pack is signed by a licensed person.)"
   ],
   [
    "Are panels live in daylight?",
-   "Yes. (Covered in module 8: Design pack and handover. To pass that module: Pack signed by a licensed person.)"
+   "Yes. (Covered in module 8: Design pack and handover. To pass that module: Pack is signed by a licensed person.)"
   ]
  ],
  "rubric": [
@@ -253,39 +253,39 @@
  "local": "Electrical and net-metering rules differ by place.",
  "ladder": [
   [
-   "System parts",
-   "L1: learner can name solar parts. Focus module: System parts (Understand, 3 h). Panels make direct current; the inverter converts it. Key points: Types: grid-tied, off-grid, hybrid. Parts: panels, mounting, inverter, wiring, breakers, meter, optional battery. Energy: kWh = kW x hours.",
-   "Teach: open with the worked example. A grid-tied system sends extra power to the network. Then set the activity: Draw a block diagram. Mark against the standard: All parts named. Check at this level: What converts DC to AC? Model answer: Inverter. Diagram."
+   "How a solar system works",
+   "L1: learner can name solar parts. Focus module: How a solar system works (Understand, 3 h). Panels turn sunlight into direct current electricity; an inverter changes it to the alternating current your appliances use. Key points: Types: grid-tied, off-grid with batteries, and hybrid. Parts: panels, mounting, inverter, cables, breakers, meter, optional battery. Energy units: kWh = kW x hours. Output depends on sun, temperature, shade, tilt and dirt.",
+   "Teach: open with the worked example. A grid-tied system sends extra daytime power to the network and draws from it at night. A hybrid system also charges a battery for backup. Then set the activity: Draw a block diagram of a hybrid system and label each part. Mark against the standard: All parts named and the energy flow is correct. Check at this level: What converts DC to AC? Model answer: Inverter."
   ],
   [
    "Load list",
-   "L2: learner knows safety basics. Focus module: Load list (Apply, 4 h). Know what you use. Key points: List each appliance: watts, hours a day. Add daily watt-hours; check bills. Cut waste first, with efficient lamps and fans.",
-   "Teach: open with the worked example. A shop uses 12 kWh a day; efficient lights save 1.5 kWh. Then set the activity: Make a load list. Mark against the standard: Totals correct. Check at this level: kWh equals? Model answer: kW times hours. Safety."
+   "L2: learner knows safety basics. Focus module: Load list (Apply, 4 h). Know what you use before sizing anything. Key points: List each appliance with watts and hours used per day. Add up daily watt-hours; check against bills. Cut waste first with efficient lamps, fans and cooling. Note peak load and any large motor starts.",
+   "Teach: open with the worked example. A shop uses 12 kWh a day. Efficient lights save 1.5 kWh, so the system is sized for 10.5 kWh. Then set the activity: Make a load list for a practice building with at least ten loads. Mark against the standard: Totals are correct and checked against a bill. Check at this level: kWh equals? Model answer: kW times hours."
   ],
   [
    "Site survey",
-   "L3: learner can make a load list. Focus module: Site survey (Analyse, 4 h). Roof and shade decide output. Key points: Orientation, tilt, shade, roof strength, space. Sun hours per day in your place. Safe roof access and fall protection.",
-   "Teach: open with the worked example. A shade from a tank costs 8% in the afternoon; panels are moved. Then set the activity: Do a mock survey from a photo. Mark against the standard: Findings listed with fixes. Check at this level: Name a shading effect. Model answer: Output drops. Load list."
+   "L3: learner can make a load list. Focus module: Site survey (Analyse, 4 h). The roof and its surroundings decide the output. Key points: Check orientation, tilt, shading, roof strength and space. Find sun hours per day in your place from public data. Look for safe access and fall protection. Photograph the roof and the electrical panel.",
+   "Teach: open with the worked example. A water tank shades part of the roof in the afternoon and would cost 8 per cent of annual output. The panels are moved to another section. Then set the activity: Do a mock survey from photos and write a findings sheet. Mark against the standard: Findings listed with fixes. Check at this level: Name a shading effect. Model answer: Output drops."
   ],
   [
-   "Sizing",
-   "L4: learner can size a small system. Focus module: Sizing (Apply, 5 h). Match supply to load. Key points: Panel kW = daily kWh / (sun hours x system efficiency). Choose inverter slightly below panel kW. Battery size from backup hours and depth of discharge.",
-   "Teach: open with the worked example. 12 kWh a day, 5 sun hours, 0.75 efficiency: about 3.2 kW of panels. Then set the activity: Size your system. Mark against the standard: Steps shown. Check at this level: Panel sizing formula? Model answer: Daily kWh / (sun hours x efficiency). Size."
+   "Sizing the system",
+   "L4: learner can size a small system. Focus module: Sizing the system (Apply, 5 h). Match supply to load with a transparent calculation. Key points: Panel kW = daily kWh / (sun hours x system efficiency). Choose an inverter slightly below panel kW. Battery size = backup hours x load / (depth of discharge). Check voltage and current limits.",
+   "Teach: open with the worked example. 12 kWh a day, 5 sun hours and 0.75 efficiency gives 12 / (5 x 0.75) = 3.2 kW of panels, about eight 400 W panels. Then set the activity: Size a system for your load list and show all steps. Mark against the standard: Calculations are correct with units. Check at this level: Panel sizing formula? Model answer: Daily kWh / (sun hours x efficiency)."
   ],
   [
    "Electrical protection and earthing",
-   "L5: learner can design protection and cost. Focus module: Electrical protection and earthing (Apply, 5 h). Safety is not optional. Key points: Fuses, breakers, surge protection, isolators and earthing. Correct cable size and colours. Label everything.",
-   "Teach: open with the worked example. A DC isolator is added near the inverter. Then set the activity: List protective devices. Mark against the standard: Licensed mentor approves. Check at this level: Name two protective devices. Model answer: Breaker and surge protector. Protection."
+   "L5: learner can design protection and cost. Focus module: Electrical protection and earthing (Apply, 5 h). Safety devices are not optional. Key points: Fuses or breakers on each string and on the AC side, surge protection, isolators and earthing. Correct cable size, colour and routing. Label every device and the main switch. Only a licensed electrician connects to the grid or home wiring.",
+   "Teach: open with the worked example. A DC isolator is added near the inverter and a label at the main board reads \"Solar supply – isolate both sources\". Then set the activity: List all protective devices for your design. Mark against the standard: Licensed mentor approves the list. Check at this level: Name two protective devices. Model answer: Breaker and surge protector."
   ],
   [
    "Cost and payback",
-   "L6: learner can lead a small crew. Focus module: Cost and payback (Evaluate, 4 h). Know the real numbers. Key points: Panels, inverter, mounting, cable, labour, permits. Savings per year from bills; maintenance. Payback and lifetime cost per kWh.",
-   "Teach: open with the worked example. Cost 210,000 INR; saving 32,000 INR a year; payback 6.6 years. Then set the activity: Build a cost sheet. Mark against the standard: Maths correct; currency shown. Check at this level: Who may wire live circuits? Model answer: Licensed electricians. Crew."
+   "L6: learner can lead a small crew. Focus module: Cost and payback (Evaluate, 4 h). Know the real numbers before you decide. Key points: Costs: panels, inverter, mounting, cable, labour, permits, insurance. Savings: bills avoided or income from export; maintenance costs. Payback and cost per kWh over system life. Test with price rises and shading losses.",
+   "Teach: open with the worked example. Cost 2,10,000 INR; saving 32,000 INR per year; payback 6.6 years. Then set the activity: Build a cost sheet with currency shown. Mark against the standard: Maths correct and assumptions listed. Check at this level: Who may wire live circuits? Model answer: Licensed electricians."
   ],
   [
    "Design pack and handover",
-   "L7: learner can audit a design. Focus module: Design pack and handover (Create, 4 h). Hand over a clear pack. Key points: Single-line diagram, layout, specs, warranty. Teach the owner cleaning and safety. Plan checks every six months.",
-   "Teach: open with the worked example. The owner receives a one-page guide with shut-down steps. Then set the activity: Produce a design pack and handover sheet. Mark against the standard: Pack signed by a licensed person. Check at this level: Why label everything? Model answer: Safe maintenance and emergency. Peer audit."
+   "L7: learner can audit a design. Focus module: Design pack and handover (Create, 4 h). Hand over a pack that someone else can understand and maintain. Key points: Single-line diagram, layout drawing, specifications and warranty. Train the owner on cleaning, monitoring and shut-down. Schedule checks every six months. Keep records.",
+   "Teach: open with the worked example. The owner receives a one-page guide with shut-down steps, an emergency contact and a cleaning schedule. Then set the activity: Produce a design pack and handover sheet. Mark against the standard: Pack is signed by a licensed person. Check at this level: Why label everything? Model answer: Safe maintenance and emergency."
   ]
  ]
 }

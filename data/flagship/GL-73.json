@@ -36,99 +36,113 @@
    "Printers and materials",
    "Understand",
    3,
-   "Know the options.",
+   "Pick the printer and material to match the part.",
    [
-    "Filament (fused) and resin printers.",
-    "Plastics: PLA, PETG, ABS; resins need care.",
-    "Match material to use."
+    "Filament printers melt plastic and lay it in layers; resin printers cure liquid with light.",
+    "PLA is easy and stiff; PETG is tougher; ABS resists heat but fumes need ventilation; resins give fine detail but need care.",
+    "Match material to heat, strength and food-contact needs.",
+    "Check manufacturer guidance.",
+    "Check local food-contact and safety rules before printing items for food."
    ],
-   "PLA is easy; PETG tougher.",
-   "Compare materials.",
-   "Table."
+   "A bracket for a shelf is printed in PETG for toughness; a jewellery prototype is printed in resin for detail. Most filament prints are not food safe without testing.",
+   "Compare four materials in a table. Add a food-contact note.",
+   "Table covers strength, heat and ease."
   ],
   [
    "Design for printing",
    "Apply",
    4,
-   "Print-friendly shapes.",
+   "A model designed for printing prints well.",
    [
-    "Wall thickness, overhangs, tolerances.",
-    "Orientation matters for strength.",
-    "Add chamfers."
+    "Wall thickness at least two nozzle widths.",
+    "Avoid steep overhangs or add supports.",
+    "Orientation affects strength; layers are weak in tension.",
+    "Allow tolerances of 0.2 to 0.4 mm for fits.",
+    "Print a tolerance test before fitting parts."
    ],
-   "A bracket printed on its side is stronger.",
-   "Design a part.",
+   "A bracket printed on its side is stronger because layer lines run along the load. A tolerance block shows 0.3 mm clearance works.",
+   "Design or choose a part and list its dimensions and orientation. Print or describe a tolerance test.",
    "Dimensions listed."
   ],
   [
    "Slicing",
    "Apply",
    4,
-   "Settings.",
+   "The slicer turns a model into instructions.",
    [
-    "Layer height, infill, speed, supports.",
-    "Preview the path.",
-    "Save settings."
+    "Layer height, infill, speed, temperature and supports.",
+    "Preview the path before printing.",
+    "Save profiles for materials.",
+    "Check the first layer.",
+    "Save slicer profiles for each material."
    ],
-   "0.2 mm layers with 20% infill.",
-   "Slice your part.",
+   "A part is sliced at 0.2 mm layers with 20 per cent infill and 3 walls, printing in 2.5 hours. A PETG profile prints at 235 degrees.",
+   "Slice your part and record settings. Save profiles.",
    "Preview checked."
   ],
   [
    "Printing and safety",
    "Apply",
    4,
-   "Hot, moving, fumes.",
+   "Hot, moving and fumes.",
    [
-    "Ventilation; do not touch hot parts.",
-    "Never leave long prints unattended without safeguards.",
-    "Resin: gloves and eye protection."
+    "Ventilation and a stable surface.",
+    "Do not touch hot parts; keep hair and clothes clear.",
+    "Do not leave long prints unattended without safeguards.",
+    "Resin: gloves, eye protection and proper waste disposal.",
+    "Keep a fire blanket nearby."
    ],
-   "A smoke alarm and a fire blanket nearby.",
-   "Print and log.",
+   "A smoke alarm and a fire blanket are kept near the printer. A blanket is kept on the wall.",
+   "Print and log. Check safety kit.",
    "Log complete."
   ],
   [
    "Troubleshooting",
    "Analyse",
    3,
-   "Fix failures.",
+   "Failures teach.",
    [
-    "Warping, stringing, poor adhesion, clogs.",
+    "Warping, stringing, poor adhesion and clogs.",
     "Change one setting at a time.",
-    "Keep notes."
+    "Keep notes.",
+    "Maintain the machine.",
+    "Record each failure with a photo."
    ],
-   "A heated bed fixes warping.",
-   "Fix two issues.",
+   "A heated bed and a brim fix warping on a large flat part. Photos show stringing at high temperature.",
+   "Fix two issues. Photograph failures.",
    "Notes recorded."
   ],
   [
    "Finishing",
    "Apply",
    3,
-   "Look professional.",
+   "Make the part look professional.",
    [
-    "Remove supports, sand, prime, paint.",
+    "Remove supports; sand; prime; paint.",
     "Resin: wash and cure.",
-    "Check fit."
+    "Check fit.",
+    "Wear dust protection.",
+    "Use a respirator for sanding and spray paint."
    ],
-   "Sanding to 400 grit.",
-   "Finish the part.",
+   "Sanding progressively to 400 grit gives a smooth surface. A mask is worn for sanding.",
+   "Finish the part. Add protection.",
    "Smooth."
   ],
   [
-   "Testing",
+   "Testing the part",
    "Evaluate",
    3,
-   "Does it work?",
+   "Does it meet the requirement?",
    [
     "Dimension check with calipers.",
     "Load test within safe limits.",
-    "Document."
+    "Document the results.",
+    "Retest after changes.",
+    "Test three copies of the part."
    ],
-   "The bracket holds 5 kg.",
-   "Test.",
-   "Record."
+   "A bracket holds 5 kg for 10 minutes without deflection. Three copies hold 4.8, 5.1 and 5.0 kg.",
+   "Test and record. Test three copies.",
+   "Record complete."
   ],
   [
    "Cost and sale",
@@ -136,19 +150,21 @@
    3,
    "Price honestly.",
    [
-    "Material, power, machine time, labour, failures.",
+    "Material, power, machine time, labour and failures.",
     "Quote per part.",
-    "Disclose limits."
+    "Disclose limits and intended use.",
+    "Respect intellectual property.",
+    "Include print time and failed print waste."
    ],
-   "Cost 62 INR; price 150 INR.",
-   "Cost it.",
+   "Cost 62 INR; price 150 INR. A 10 per cent waste factor is applied.",
+   "Cost one part. Add waste.",
    "Currency shown."
   ]
  ],
  "quiz": [
   [
    "Easy filament?",
-   "PLA. (Covered in module 1: Printers and materials. To pass that module: Table.)"
+   "PLA. (Covered in module 1: Printers and materials. To pass that module: Table covers strength, heat and ease.)"
   ],
   [
    "Overhang fix?",
@@ -172,7 +188,7 @@
   ],
   [
    "Costs?",
-   "Material, power, time, labour, failures. (Covered in module 7: Testing. To pass that module: Record.)"
+   "Material, power, time, labour, failures. (Covered in module 7: Testing the part. To pass that module: Record complete.)"
   ],
   [
    "Orientation effect?",
@@ -246,38 +262,38 @@
  "ladder": [
   [
    "Printers and materials",
-   "L1: learner can name printer types. Focus module: Printers and materials (Understand, 3 h). Know the options. Key points: Filament (fused) and resin printers. Plastics: PLA, PETG, ABS; resins need care. Match material to use.",
-   "Teach: open with the worked example. PLA is easy; PETG tougher. Then set the activity: Compare materials. Mark against the standard: Table. Check at this level: Easy filament? Model answer: PLA. Types."
+   "L1: learner can name printer types. Focus module: Printers and materials (Understand, 3 h). Pick the printer and material to match the part. Key points: Filament printers melt plastic and lay it in layers; resin printers cure liquid with light. PLA is easy and stiff; PETG is tougher; ABS resists heat but fumes need ventilation; resins give fine detail but need care. Match material to heat, strength and food-contact needs. Check manufacturer guidance. Check local food-contact and safety rules before printing items for food.",
+   "Teach: open with the worked example. A bracket for a shelf is printed in PETG for toughness; a jewellery prototype is printed in resin for detail. Most filament prints are not food safe without testing. Then set the activity: Compare four materials in a table. Add a food-contact note. Mark against the standard: Table covers strength, heat and ease. Check at this level: Easy filament? Model answer: PLA."
   ],
   [
    "Design for printing",
-   "L2: learner knows safety. Focus module: Design for printing (Apply, 4 h). Print-friendly shapes. Key points: Wall thickness, overhangs, tolerances. Orientation matters for strength. Add chamfers.",
-   "Teach: open with the worked example. A bracket printed on its side is stronger. Then set the activity: Design a part. Mark against the standard: Dimensions listed. Check at this level: Overhang fix? Model answer: Supports. Safety."
+   "L2: learner knows safety. Focus module: Design for printing (Apply, 4 h). A model designed for printing prints well. Key points: Wall thickness at least two nozzle widths. Avoid steep overhangs or add supports. Orientation affects strength; layers are weak in tension. Allow tolerances of 0.2 to 0.4 mm for fits. Print a tolerance test before fitting parts.",
+   "Teach: open with the worked example. A bracket printed on its side is stronger because layer lines run along the load. A tolerance block shows 0.3 mm clearance works. Then set the activity: Design or choose a part and list its dimensions and orientation. Print or describe a tolerance test. Mark against the standard: Dimensions listed. Check at this level: Overhang fix? Model answer: Supports."
   ],
   [
    "Slicing",
-   "L3: learner can slice. Focus module: Slicing (Apply, 4 h). Settings. Key points: Layer height, infill, speed, supports. Preview the path. Save settings.",
-   "Teach: open with the worked example. 0.2 mm layers with 20% infill. Then set the activity: Slice your part. Mark against the standard: Preview checked. Check at this level: Resin safety? Model answer: Gloves and eye protection. Slice."
+   "L3: learner can slice. Focus module: Slicing (Apply, 4 h). The slicer turns a model into instructions. Key points: Layer height, infill, speed, temperature and supports. Preview the path before printing. Save profiles for materials. Check the first layer. Save slicer profiles for each material.",
+   "Teach: open with the worked example. A part is sliced at 0.2 mm layers with 20 per cent infill and 3 walls, printing in 2.5 hours. A PETG profile prints at 235 degrees. Then set the activity: Slice your part and record settings. Save profiles. Mark against the standard: Preview checked. Check at this level: Resin safety? Model answer: Gloves and eye protection."
   ],
   [
    "Printing and safety",
-   "L4: learner can print. Focus module: Printing and safety (Apply, 4 h). Hot, moving, fumes. Key points: Ventilation; do not touch hot parts. Never leave long prints unattended without safeguards. Resin: gloves and eye protection.",
-   "Teach: open with the worked example. A smoke alarm and a fire blanket nearby. Then set the activity: Print and log. Mark against the standard: Log complete. Check at this level: Why ventilate? Model answer: Fumes. Print."
+   "L4: learner can print. Focus module: Printing and safety (Apply, 4 h). Hot, moving and fumes. Key points: Ventilation and a stable surface. Do not touch hot parts; keep hair and clothes clear. Do not leave long prints unattended without safeguards. Resin: gloves, eye protection and proper waste disposal. Keep a fire blanket nearby.",
+   "Teach: open with the worked example. A smoke alarm and a fire blanket are kept near the printer. A blanket is kept on the wall. Then set the activity: Print and log. Check safety kit. Mark against the standard: Log complete. Check at this level: Why ventilate? Model answer: Fumes."
   ],
   [
    "Troubleshooting",
-   "L5: learner can fix and cost. Focus module: Troubleshooting (Analyse, 3 h). Fix failures. Key points: Warping, stringing, poor adhesion, clogs. Change one setting at a time. Keep notes.",
-   "Teach: open with the worked example. A heated bed fixes warping. Then set the activity: Fix two issues. Mark against the standard: Notes recorded. Check at this level: Warping fix? Model answer: Heated bed. Fix."
+   "L5: learner can fix and cost. Focus module: Troubleshooting (Analyse, 3 h). Failures teach. Key points: Warping, stringing, poor adhesion and clogs. Change one setting at a time. Keep notes. Maintain the machine. Record each failure with a photo.",
+   "Teach: open with the worked example. A heated bed and a brim fix warping on a large flat part. Photos show stringing at high temperature. Then set the activity: Fix two issues. Photograph failures. Mark against the standard: Notes recorded. Check at this level: Warping fix? Model answer: Heated bed."
   ],
   [
-   "Testing",
-   "L6: learner can lead a lab. Focus module: Testing (Evaluate, 3 h). Does it work? Key points: Dimension check with calipers. Load test within safe limits. Document.",
-   "Teach: open with the worked example. The bracket holds 5 kg. Then set the activity: Test. Mark against the standard: Record. Check at this level: Measuring tool? Model answer: Calipers. Lead."
+   "Testing the part",
+   "L6: learner can lead a lab. Focus module: Testing the part (Evaluate, 3 h). Does it meet the requirement? Key points: Dimension check with calipers. Load test within safe limits. Document the results. Retest after changes. Test three copies of the part.",
+   "Teach: open with the worked example. A bracket holds 5 kg for 10 minutes without deflection. Three copies hold 4.8, 5.1 and 5.0 kg. Then set the activity: Test and record. Test three copies. Mark against the standard: Record complete. Check at this level: Measuring tool? Model answer: Calipers."
   ],
   [
    "Cost and sale",
-   "L7: learner can audit. Focus module: Cost and sale (Create, 3 h). Price honestly. Key points: Material, power, machine time, labour, failures. Quote per part. Disclose limits.",
-   "Teach: open with the worked example. Cost 62 INR; price 150 INR. Then set the activity: Cost it. Mark against the standard: Currency shown. Check at this level: Costs? Model answer: Material, power, time, labour, failures. Peer audit."
+   "L7: learner can audit. Focus module: Cost and sale (Create, 3 h). Price honestly. Key points: Material, power, machine time, labour and failures. Quote per part. Disclose limits and intended use. Respect intellectual property. Include print time and failed print waste.",
+   "Teach: open with the worked example. Cost 62 INR; price 150 INR. A 10 per cent waste factor is applied. Then set the activity: Cost one part. Add waste. Mark against the standard: Currency shown. Check at this level: Costs? Model answer: Material, power, time, labour, failures."
   ]
  ]
 }

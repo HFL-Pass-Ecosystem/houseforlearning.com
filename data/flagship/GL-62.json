@@ -33,18 +33,21 @@
  "evidence": "legal checklist, booking flow, cost sheet, safety plan, launch plan",
  "modules": [
   [
-   "Models",
+   "Models of sharing",
    "Understand",
    3,
-   "Three common ways.",
+   "There are several ways to share cars.",
    [
-    "Peer-to-peer lending of private cars.",
-    "A company fleet booked by the hour.",
-    "Carpool matching shared journeys."
+    "Peer-to-peer lets owners rent their cars to others.",
+    "A fleet owned by an operator is booked by the hour.",
+    "Carpooling matches people with seats to riders.",
+    "Each model has different legal, insurance and trust needs.",
+    "Ask which model fits your community: trust, density and parking all matter.",
+    "Peer-to-peer needs strong identity checks; fleets need capital."
    ],
-   "A building runs a shared car booked by the hour.",
-   "Compare 3 models.",
-   "Pros and cons."
+   "A residential building runs a shared car booked by the hour for members. A rural village with few cars chooses carpooling first because it needs no vehicles.",
+   "Compare three models in a table. Add a model choice with reasons.",
+   "Pros and cons for each."
   ],
   [
    "Legal and insurance",
@@ -54,52 +57,64 @@
    [
     "Licences, vehicle checks, tax and permits.",
     "Insurance that covers sharing, not only private use.",
-    "Written terms for damage and fines."
+    "Written terms for damage and fines.",
+    "Data and privacy rules for location data.",
+    "Ask insurers in writing what is covered for sharing and what is excluded.",
+    "Check commercial licence rules for charging fees."
    ],
-   "A policy covers hire use only if declared.",
-   "Make a legal checklist.",
+   "A policy covers hire use only if declared; an undeclared sharing claim is refused. An insurer confirms cover only for registered, declared vehicles and named drivers.",
+   "Make a legal checklist. Record an insurer's written answer or a practice case.",
    "Each item has a source."
   ],
   [
-   "Vetting and ID",
+   "Vetting and identity",
    "Apply",
    4,
    "Know who drives.",
    [
     "Check licence and ID; set minimum experience.",
     "Photo of vehicle before and after.",
-    "Privacy rules for data."
+    "Privacy rules for data.",
+    "Block risky drivers.",
+    "Re-check licences regularly and block expired ones.",
+    "Offer a trial drive for new members."
    ],
-   "A licence check fails and booking is blocked.",
-   "Write the vetting steps.",
-   "Steps clear."
+   "A licence check fails and booking is blocked until the user provides valid documents. A monthly licence expiry report blocks three members until they upload new documents.",
+   "Write the vetting steps. Add a monthly vetting routine.",
+   "Steps are clear."
   ],
   [
    "Booking and handover",
    "Apply",
    4,
-   "Smooth and fair.",
+   "Make the journey smooth and fair.",
    [
-    "App or form: choose car, time, deposit.",
+    "App or form: choose car, time and deposit.",
     "Digital or key handover; fuel or charge rule.",
-    "Late and cancel rules."
+    "Late and cancel rules.",
+    "Support line.",
+    "Use a deposit and a late fee to protect availability.",
+    "Photograph fuel or charge level at pickup and return."
    ],
-   "A checklist records mileage and damage.",
-   "Design the flow.",
-   "Flow has 8 steps."
+   "A checklist records mileage and damage at pickup and return. A 2,000 INR deposit is held and released within 48 hours of a clean return.",
+   "Design the flow. Draw the flow with times.",
+   "Flow has eight steps."
   ],
   [
    "Costs and price",
    "Analyse",
    5,
-   "Know the real cost.",
+   "Know the real cost per hour and per km.",
    [
     "Fixed: insurance, depreciation, parking. Variable: fuel, wear.",
     "Cost per hour and per km.",
-    "Utilisation for break-even."
+    "Utilisation for break-even.",
+    "Review regularly.",
+    "Compare cost per hour for 2, 4 and 8 hour bookings.",
+    "Show members an example bill before they book."
    ],
-   "Cost 520 INR per day fixed plus 7 INR per km.",
-   "Build a cost sheet.",
+   "Fixed cost 520 INR per day plus 7 INR per km; at 80 km a day, cost per km is 13.5 INR. A 4-hour trip of 40 km costs 130 INR fixed share plus 280 INR distance cost.",
+   "Build a cost sheet. Test the sheet with three trips.",
    "Currency shown."
   ],
   [
@@ -109,11 +124,14 @@
    "Plan for problems.",
    [
     "Breakdown, accident and fraud steps.",
-    "Emergency numbers; first aid kit.",
-    "Incident log and review."
+    "Emergency numbers and first aid kit.",
+    "Incident log and review.",
+    "Roadside help.",
+    "List emergency contacts in the car and the app.",
+    "Run a mock breakdown with a tow call."
    ],
-   "A driver reports a flat tyre; roadside help is called.",
-   "Write an incident plan.",
+   "A driver reports a flat tyre; roadside help is called and the booking extended. A tow and a replacement car are arranged within 90 minutes in the mock run.",
+   "Write an incident plan. Run and time a mock incident.",
    "Steps ordered."
   ],
   [
@@ -124,10 +142,13 @@
    [
     "No discrimination in access.",
     "Fair rates and clear fees.",
-    "Accessibility options."
+    "Accessibility options.",
+    "Feedback loop.",
+    "Publish clear rules for cancellations and damage.",
+    "Offer a pay-by-month option for low-income members."
    ],
-   "A rule offers hand controls on request.",
-   "List fairness rules.",
+   "A rule offers hand controls on request and trains staff. A fee cap and an appeal route make the service fairer.",
+   "List fairness rules. Add a fee cap and appeal route.",
    "Rules clear."
   ],
   [
@@ -138,17 +159,20 @@
    [
     "Pilot with one car and 20 members.",
     "Track use, damage and feedback.",
-    "Improve."
+    "Improve.",
+    "Decide to grow.",
+    "Define pilot metrics: utilisation, damage per 100 trips, member score.",
+    "Set a review at day 30 and day 90."
    ],
-   "Pilot: 60% utilisation, 1 minor damage.",
-   "Present the plan.",
-   "Peers follow it."
+   "Pilot: 60 per cent utilisation and 1 minor damage. Pilot: 60 per cent utilisation, 1 minor damage and a score of 4.4 after 30 days.",
+   "Present the plan. Set your targets.",
+   "Peers follow."
   ]
  ],
  "quiz": [
   [
    "Name three models.",
-   "Peer-to-peer, fleet, carpool. (Covered in module 1: Models. To pass that module: Pros and cons.)"
+   "Peer-to-peer, fleet, carpool. (Covered in module 1: Models of sharing. To pass that module: Pros and cons for each.)"
   ],
   [
    "Why special insurance?",
@@ -156,11 +180,11 @@
   ],
   [
    "Cost per km components?",
-   "Fuel, wear. (Covered in module 3: Vetting and ID. To pass that module: Steps clear.)"
+   "Fuel, wear. (Covered in module 3: Vetting and identity. To pass that module: Steps are clear.)"
   ],
   [
    "Why before-and-after photos?",
-   "Prove damage. (Covered in module 4: Booking and handover. To pass that module: Flow has 8 steps.)"
+   "Prove damage. (Covered in module 4: Booking and handover. To pass that module: Flow has eight steps.)"
   ],
   [
    "Name a vetting check.",
@@ -176,15 +200,15 @@
   ],
   [
    "Fairness rule example?",
-   "Equal access. (Covered in module 8: Launch plan. To pass that module: Peers follow it.)"
+   "Equal access. (Covered in module 8: Launch plan. To pass that module: Peers follow.)"
   ],
   [
    "What is a pilot?",
-   "A small test. (Covered in module 8: Launch plan. To pass that module: Peers follow it.)"
+   "A small test. (Covered in module 8: Launch plan. To pass that module: Peers follow.)"
   ],
   [
    "Why log incidents?",
-   "Review and improve. (Covered in module 8: Launch plan. To pass that module: Peers follow it.)"
+   "Review and improve. (Covered in module 8: Launch plan. To pass that module: Peers follow.)"
   ]
  ],
  "rubric": [
@@ -245,39 +269,39 @@
  "local": "Licensing and insurance rules differ by place.",
  "ladder": [
   [
-   "Models",
-   "L1: learner can name models. Focus module: Models (Understand, 3 h). Three common ways. Key points: Peer-to-peer lending of private cars. A company fleet booked by the hour. Carpool matching shared journeys.",
-   "Teach: open with the worked example. A building runs a shared car booked by the hour. Then set the activity: Compare 3 models. Mark against the standard: Pros and cons. Check at this level: Name three models. Model answer: Peer-to-peer, fleet, carpool. Models."
+   "Models of sharing",
+   "L1: learner can name models. Focus module: Models of sharing (Understand, 3 h). There are several ways to share cars. Key points: Peer-to-peer lets owners rent their cars to others. A fleet owned by an operator is booked by the hour. Carpooling matches people with seats to riders. Each model has different legal, insurance and trust needs. Ask which model fits your community: trust, density and parking all matter. Peer-to-peer needs strong identity checks; fleets need capital.",
+   "Teach: open with the worked example. A residential building runs a shared car booked by the hour for members. A rural village with few cars chooses carpooling first because it needs no vehicles. Then set the activity: Compare three models in a table. Add a model choice with reasons. Mark against the standard: Pros and cons for each. Check at this level: Name three models. Model answer: Peer-to-peer, fleet, carpool."
   ],
   [
    "Legal and insurance",
-   "L2: learner knows legal basics. Focus module: Legal and insurance (Apply, 5 h). Do not skip this. Key points: Licences, vehicle checks, tax and permits. Insurance that covers sharing, not only private use. Written terms for damage and fines.",
-   "Teach: open with the worked example. A policy covers hire use only if declared. Then set the activity: Make a legal checklist. Mark against the standard: Each item has a source. Check at this level: Why special insurance? Model answer: Private cover may not apply. Legal."
+   "L2: learner knows legal basics. Focus module: Legal and insurance (Apply, 5 h). Do not skip this. Key points: Licences, vehicle checks, tax and permits. Insurance that covers sharing, not only private use. Written terms for damage and fines. Data and privacy rules for location data. Ask insurers in writing what is covered for sharing and what is excluded. Check commercial licence rules for charging fees.",
+   "Teach: open with the worked example. A policy covers hire use only if declared; an undeclared sharing claim is refused. An insurer confirms cover only for registered, declared vehicles and named drivers. Then set the activity: Make a legal checklist. Record an insurer's written answer or a practice case. Mark against the standard: Each item has a source. Check at this level: Why special insurance? Model answer: Private cover may not apply."
   ],
   [
-   "Vetting and ID",
-   "L3: learner can vet and book. Focus module: Vetting and ID (Apply, 4 h). Know who drives. Key points: Check licence and ID; set minimum experience. Photo of vehicle before and after. Privacy rules for data.",
-   "Teach: open with the worked example. A licence check fails and booking is blocked. Then set the activity: Write the vetting steps. Mark against the standard: Steps clear. Check at this level: Cost per km components? Model answer: Fuel, wear. Vet."
+   "Vetting and identity",
+   "L3: learner can vet and book. Focus module: Vetting and identity (Apply, 4 h). Know who drives. Key points: Check licence and ID; set minimum experience. Photo of vehicle before and after. Privacy rules for data. Block risky drivers. Re-check licences regularly and block expired ones. Offer a trial drive for new members.",
+   "Teach: open with the worked example. A licence check fails and booking is blocked until the user provides valid documents. A monthly licence expiry report blocks three members until they upload new documents. Then set the activity: Write the vetting steps. Add a monthly vetting routine. Mark against the standard: Steps are clear. Check at this level: Cost per km components? Model answer: Fuel, wear."
   ],
   [
    "Booking and handover",
-   "L4: learner can run a day. Focus module: Booking and handover (Apply, 4 h). Smooth and fair. Key points: App or form: choose car, time, deposit. Digital or key handover; fuel or charge rule. Late and cancel rules.",
-   "Teach: open with the worked example. A checklist records mileage and damage. Then set the activity: Design the flow. Mark against the standard: Flow has 8 steps. Check at this level: Why before-and-after photos? Model answer: Prove damage. Run."
+   "L4: learner can run a day. Focus module: Booking and handover (Apply, 4 h). Make the journey smooth and fair. Key points: App or form: choose car, time and deposit. Digital or key handover; fuel or charge rule. Late and cancel rules. Support line. Use a deposit and a late fee to protect availability. Photograph fuel or charge level at pickup and return.",
+   "Teach: open with the worked example. A checklist records mileage and damage at pickup and return. A 2,000 INR deposit is held and released within 48 hours of a clean return. Then set the activity: Design the flow. Draw the flow with times. Mark against the standard: Flow has eight steps. Check at this level: Why before-and-after photos? Model answer: Prove damage."
   ],
   [
    "Costs and price",
-   "L5: learner can price. Focus module: Costs and price (Analyse, 5 h). Know the real cost. Key points: Fixed: insurance, depreciation, parking. Variable: fuel, wear. Cost per hour and per km. Utilisation for break-even.",
-   "Teach: open with the worked example. Cost 520 INR per day fixed plus 7 INR per km. Then set the activity: Build a cost sheet. Mark against the standard: Currency shown. Check at this level: Name a vetting check. Model answer: Licence and ID. Price."
+   "L5: learner can price. Focus module: Costs and price (Analyse, 5 h). Know the real cost per hour and per km. Key points: Fixed: insurance, depreciation, parking. Variable: fuel, wear. Cost per hour and per km. Utilisation for break-even. Review regularly. Compare cost per hour for 2, 4 and 8 hour bookings. Show members an example bill before they book.",
+   "Teach: open with the worked example. Fixed cost 520 INR per day plus 7 INR per km; at 80 km a day, cost per km is 13.5 INR. A 4-hour trip of 40 km costs 130 INR fixed share plus 280 INR distance cost. Then set the activity: Build a cost sheet. Test the sheet with three trips. Mark against the standard: Currency shown. Check at this level: Name a vetting check. Model answer: Licence and ID."
   ],
   [
    "Fairness and community",
-   "L6: learner can lead. Focus module: Fairness and community (Evaluate, 3 h). Treat all fairly. Key points: No discrimination in access. Fair rates and clear fees. Accessibility options.",
-   "Teach: open with the worked example. A rule offers hand controls on request. Then set the activity: List fairness rules. Mark against the standard: Rules clear. Check at this level: What is utilisation? Model answer: Share of time in use. Lead."
+   "L6: learner can lead. Focus module: Fairness and community (Evaluate, 3 h). Treat all fairly. Key points: No discrimination in access. Fair rates and clear fees. Accessibility options. Feedback loop. Publish clear rules for cancellations and damage. Offer a pay-by-month option for low-income members.",
+   "Teach: open with the worked example. A rule offers hand controls on request and trains staff. A fee cap and an appeal route make the service fairer. Then set the activity: List fairness rules. Add a fee cap and appeal route. Mark against the standard: Rules clear. Check at this level: What is utilisation? Model answer: Share of time in use."
   ],
   [
    "Launch plan",
-   "L7: learner can audit. Focus module: Launch plan (Create, 4 h). Test small. Key points: Pilot with one car and 20 members. Track use, damage and feedback. Improve.",
-   "Teach: open with the worked example. Pilot: 60% utilisation, 1 minor damage. Then set the activity: Present the plan. Mark against the standard: Peers follow it. Check at this level: Incident step one? Model answer: Make everyone safe. Peer audit."
+   "L7: learner can audit. Focus module: Launch plan (Create, 4 h). Test small. Key points: Pilot with one car and 20 members. Track use, damage and feedback. Improve. Decide to grow. Define pilot metrics: utilisation, damage per 100 trips, member score. Set a review at day 30 and day 90.",
+   "Teach: open with the worked example. Pilot: 60 per cent utilisation and 1 minor damage. Pilot: 60 per cent utilisation, 1 minor damage and a score of 4.4 after 30 days. Then set the activity: Present the plan. Set your targets. Mark against the standard: Peers follow. Check at this level: Incident step one? Model answer: Make everyone safe."
   ]
  ]
 }

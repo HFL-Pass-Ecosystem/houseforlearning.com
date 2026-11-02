@@ -156,11 +156,11 @@
  "quiz": [
   [
    "What are cultivated meat cells?",
-   "Real animal cells grown in a vessel. (Covered in module 1: What it is. To pass that module: Steps in order.)"
+   "Real animal cells grown in a vessel. (Covered in module 1: What cultivated meat is. To pass that module: Steps are in correct order.)"
   ],
   [
    "Is it plant-based?",
-   "No. (Covered in module 2: How it is made. To pass that module: Contains six stages.)"
+   "No. (Covered in module 2: How it is made. To pass that module: All six stages present and risks are specific.)"
   ],
   [
    "Name a stage.",
@@ -168,31 +168,31 @@
   ],
   [
    "Who approves?",
-   "Food regulators in each place. (Covered in module 4: Nutrition and taste. To pass that module: Numbers sourced.)"
+   "Food regulators in each place. (Covered in module 4: Nutrition and taste. To pass that module: Numbers have sources.)"
   ],
   [
    "Why vary environment results?",
-   "Energy mix and process differ. (Covered in module 5: Environment claims. To pass that module: Sources compared.)"
+   "Energy mix and process differ. (Covered in module 5: Environment claims. To pass that module: Sources compared and conditions stated.)"
   ],
   [
    "Name an ethics view.",
-   "Animal welfare, religion or farmers' livelihood. (Covered in module 6: Ethics and culture. To pass that module: Both fair.)"
+   "Animal welfare, religion or farmers' livelihood. (Covered in module 6: Ethics, culture and livelihoods. To pass that module: Both are stated fairly.)"
   ],
   [
    "What roles may exist?",
-   "Bioprocess technician, quality, regulatory. (Covered in module 7: Jobs and skills. To pass that module: Roles with skills.)"
+   "Bioprocess technician, quality, regulatory. (Covered in module 7: Jobs and skills. To pass that module: Roles are realistic and sourced.)"
   ],
   [
    "Why state unknowns?",
-   "Early data is limited. (Covered in module 8: Write the fact sheet. To pass that module: Readers can repeat them.)"
+   "Early data is limited. (Covered in module 8: Write the balanced fact sheet. To pass that module: Readers repeat the key points.)"
   ],
   [
    "Why serum-free medium?",
-   "To avoid animal serum. (Covered in module 8: Write the fact sheet. To pass that module: Readers can repeat them.)"
+   "To avoid animal serum. (Covered in module 8: Write the balanced fact sheet. To pass that module: Readers repeat the key points.)"
   ],
   [
    "What should a label do?",
-   "Be clear about what it is. (Covered in module 8: Write the fact sheet. To pass that module: Readers can repeat them.)"
+   "Be clear about what it is. (Covered in module 8: Write the balanced fact sheet. To pass that module: Readers repeat the key points.)"
   ]
  ],
  "rubric": [
@@ -253,39 +253,39 @@
  "local": "Approval and labelling of cultivated meat differ by place.",
  "ladder": [
   [
-   "What it is",
-   "L1: learner can say what it is. Focus module: What it is (Understand, 2 h). Real animal cells grown in a vessel. Key points: A small sample is taken; cells multiply in nutrients. Scaffolds give shape; cells mature into tissue. It is different from plant-based meat.",
-   "Teach: open with the worked example. A bioreactor grows cells for several weeks into a patty. Then set the activity: Draw the steps. Mark against the standard: Steps in order. Check at this level: What are cultivated meat cells? Model answer: Real animal cells grown in a vessel. Draw steps."
+   "What cultivated meat is",
+   "L1: learner can say what it is. Focus module: What cultivated meat is (Understand, 2 h). Cultivated meat is real animal muscle and fat cells grown in a vessel instead of in an animal. Key points: A small sample of cells is taken from a living animal, without killing it. The cells multiply in a nutrient liquid in a bioreactor. Cells are shaped on a scaffold and mature into tissue. It is different from plant-based meat, which uses plant ingredients.",
+   "Teach: open with the worked example. A pilot plant grows cells for several weeks in a stainless steel bioreactor, harvests them and forms a patty. Then set the activity: Draw the steps from sample to patty with labels. Mark against the standard: Steps are in correct order. Check at this level: What are cultivated meat cells? Model answer: Real animal cells grown in a vessel."
   ],
   [
    "How it is made",
-   "L2: learner knows process steps. Focus module: How it is made (Understand, 2 h). Stages from cell to product. Key points: Cell line, growth medium, bioreactor, harvest, forming, cooking. Growth medium once used animal serum; newer media avoid it. Clean-room hygiene is key.",
-   "Teach: open with the worked example. A pilot plant changes to a serum-free medium. Then set the activity: Make a process chart. Mark against the standard: Contains six stages. Check at this level: Is it plant-based? Model answer: No. Process chart."
+   "L2: learner knows process steps. Focus module: How it is made (Understand, 2 h). Understanding the process makes it easier to judge claims. Key points: Stages: cell line, growth medium, bioreactor, harvest, forming, cooking. Growth medium once used animal serum; newer media aim to avoid it. Clean-room style hygiene is essential to prevent contamination. Scaling up to large volumes is still a major challenge.",
+   "Teach: open with the worked example. A pilot plant changes to a serum-free medium and reports a cost per kilogram reduction over two years. Then set the activity: Make a process chart with six stages and one risk for each. Mark against the standard: All six stages present and risks are specific. Check at this level: Is it plant-based? Model answer: No."
   ],
   [
    "Safety and approval",
-   "L3: learner can compare nutrition. Focus module: Safety and approval (Evaluate, 2 h). Approval differs by place. Key points: Regulators review cell source, medium, process and allergens. Only a few places have approved sales. Labels must be clear.",
-   "Teach: open with the worked example. A regulator approves one product after reviewing safety data. Then set the activity: List approval status for your place. Mark against the standard: Source and date shown. Check at this level: Name a stage. Model answer: Cell line, growth medium, bioreactor, harvest. Table."
+   "L3: learner can compare nutrition. Focus module: Safety and approval (Evaluate, 2 h). Approval differs by place and changes quickly. Key points: Regulators review the cell source, medium, process, allergens and labelling. Only a few places have approved sales so far. Labels must be clear about what the product is. Check regulator websites for the current status.",
+   "Teach: open with the worked example. A regulator approves one product after reviewing safety data, requiring a clear label and monitoring. Then set the activity: List the approval status in your place with source and date. Mark against the standard: Source and date shown. Check at this level: Name a stage. Model answer: Cell line, growth medium, bioreactor, harvest."
   ],
   [
    "Nutrition and taste",
-   "L4: learner can check approval status. Focus module: Nutrition and taste (Analyse, 2 h). Compare with other proteins. Key points: Protein, fat, iron per 100 g. Taste depends on fat and texture. Processing may add salt.",
-   "Teach: open with the worked example. A table shows similar protein but different fat. Then set the activity: Make a comparison table. Mark against the standard: Numbers sourced. Check at this level: Who approves? Model answer: Food regulators in each place. Approval status."
+   "L4: learner can check approval status. Focus module: Nutrition and taste (Analyse, 2 h). How does it compare with other proteins? Key points: Compare protein, fat, iron and salt per 100 g. Taste depends on fat, texture and seasoning. Processing can add salt or additives. Check lab data, not marketing.",
+   "Teach: open with the worked example. A table shows cultivated chicken with similar protein per 100 g but different fat content than a farmed cut. Then set the activity: Make a comparison table for three products. Mark against the standard: Numbers have sources. Check at this level: Who approves? Model answer: Food regulators in each place."
   ],
   [
    "Environment claims",
-   "L5: learner can check claims. Focus module: Environment claims (Analyse, 2 h). Energy use and land use vary. Key points: Compare land, water and emissions per kg. Energy mix of the factory changes results. Be careful with early estimates.",
-   "Teach: open with the worked example. Results vary widely between studies; a fact sheet states a range. Then set the activity: Check two claims. Mark against the standard: Sources compared. Check at this level: Why vary environment results? Model answer: Energy mix and process differ. Claim check."
+   "L5: learner can check claims. Focus module: Environment claims (Analyse, 2 h). Claims about land, water and emissions vary widely. Key points: Compare land, water and emissions per kg. The factory energy mix strongly changes results. Early estimates are uncertain. Use ranges rather than single numbers.",
+   "Teach: open with the worked example. One study finds large reductions with renewable power; another finds higher emissions with fossil power. A fact sheet states a range and the condition. Then set the activity: Check two environmental claims and compare their sources. Mark against the standard: Sources compared and conditions stated. Check at this level: Why vary environment results? Model answer: Energy mix and process differ."
   ],
   [
    "Jobs and skills",
-   "L6: learner can lead a briefing. Focus module: Jobs and skills (Understand, 2 h). New roles may appear. Key points: Cell biology technicians, process operators, food safety, quality, regulatory. Skills from food and brewing carry across. Training pathways at college level.",
-   "Teach: open with the worked example. A brewery technician moves to a bioprocess role. Then set the activity: List five roles. Mark against the standard: Roles with skills. Check at this level: Name an ethics view. Model answer: Animal welfare, religion or farmers' livelihood. Briefing."
+   "L6: learner can lead a briefing. Focus module: Jobs and skills (Understand, 2 h). New roles may appear as the sector grows. Key points: Roles: cell biology technician, process operator, food safety, quality, regulatory. Skills from brewing, dairy and pharmaceutical work carry across. Training pathways at college level. Check job claims; the sector is early stage.",
+   "Teach: open with the worked example. A brewery technician moves to a bioprocess role after a short course on sterile technique. Then set the activity: List five roles with skills needed. Mark against the standard: Roles are realistic and sourced. Check at this level: Name an ethics view. Model answer: Animal welfare, religion or farmers' livelihood."
   ],
   [
-   "Write the fact sheet",
-   "L7: learner can audit a fact sheet. Focus module: Write the fact sheet (Create, 2 h). Combine and test. Key points: One page, plain words. Include limits and unknowns. Test with two readers.",
-   "Teach: open with the worked example. Readers state three facts and two unknowns. Then set the activity: Finish and test. Mark against the standard: Readers can repeat them. Check at this level: What roles may exist? Model answer: Bioprocess technician, quality, regulatory. Peer audit."
+   "Write the balanced fact sheet",
+   "L7: learner can audit a fact sheet. Focus module: Write the balanced fact sheet (Create, 2 h). Combine and test your fact sheet. Key points: One page and plain words. Include limits and unknowns. Test with two readers. Date it and plan a review.",
+   "Teach: open with the worked example. Readers can state three facts and two unknowns. Then set the activity: Finish and test. Mark against the standard: Readers repeat the key points. Check at this level: What roles may exist? Model answer: Bioprocess technician, quality, regulatory."
   ]
  ]
 }

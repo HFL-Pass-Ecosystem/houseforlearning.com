@@ -33,158 +33,166 @@
  "evidence": "route plan, briefing script, go/no-go rules, price sheet",
  "modules": [
   [
-   "Product and route",
+   "Designing the tour product",
    "Understand",
    3,
-   "Design the experience.",
+   "A tour is a product: a route, a time, a promise and a safety plan. Design all four before selling a single seat.",
    [
-    "Scenic, sunset, wildlife, transfer.",
-    "Duration, capacity, ports and landing sites.",
-    "Accessibility."
+    "Types: scenic loops, sunset trips, wildlife viewing, island transfers and special-occasion flights.",
+    "Fix duration, number of guests, boarding point, landing or mooring point and toilet or rest access.",
+    "Plan accessibility: step-free boarding, help for older guests and children, seat limits.",
+    "Add a weather back-up: a shorter route, a new date or an indoor alternative."
    ],
-   "A 45-minute coastal route.",
-   "Design a route.",
-   "Map and timings."
+   "A 45-minute coastal route has a 20-minute boarding window, 8 guests, a sunset slot in season and a harbour museum visit as the rainy-day alternative.",
+   "Design a route with a map, timings, capacity, accessibility notes and a weather alternative.",
+   "Route has times, capacity, access notes and a backup plan."
   ],
   [
-   "Licences and insurance",
+   "Licences, certificates and insurance",
    "Apply",
    5,
-   "Only licensed operators.",
+   "Only licensed operators, qualified crews and certified vessels or aircraft carry paying guests.",
    [
-    "Vessel or aircraft certificates, crew licences, operator permits.",
-    "Insurance for passengers.",
-    "Check expiry dates."
+    "Check vessel or aircraft certificates, crew licences and operator permits with the authority.",
+    "Confirm passenger insurance and its limits in writing.",
+    "Write down expiry dates and set reminders one month ahead.",
+    "If the operator is a partner, you still check; you cannot hand off your duty to guests."
    ],
-   "A certificate expires next month; booking stops.",
-   "Make a checklist.",
-   "Sources and dates."
+   "A tour desk finds that a boat certificate expires on 30 November. It stops selling trips after that date until the new certificate is shown.",
+   "Build a licence and insurance checklist with source and expiry date for each item.",
+   "Every item has an authority, document number or practice placeholder and a date."
   ],
   [
-   "Weather and go/no-go",
+   "Weather rules and go/no-go decisions",
    "Apply",
    5,
-   "Safety over schedule.",
+   "Safety beats schedule. Rules must be written before the day, with numbers.",
    [
-    "Wind, visibility, waves, ceiling.",
-    "Clear numbers and a decision maker.",
-    "Refund policy for cancellations."
+    "Choose limits: wind speed, wave height, visibility, cloud ceiling and temperature.",
+    "Use two forecast sources and a rule for when they disagree: follow the cautious one.",
+    "Name one decision maker with authority to cancel and record each decision.",
+    "Plan the guest message: reason, new date or refund, and a thank-you."
    ],
-   "Wind above a set limit cancels flights.",
-   "Write rules.",
-   "Numbers specified."
+   "The rule says: no trip if wind exceeds 20 knots or visibility is under 5 km. At 07:30 the forecast shows 24 knots; the decision maker cancels and sends the message by 08:00.",
+   "Write go/no-go rules with numbers and a message template.",
+   "Rules have limits, decision maker and guest message."
   ],
   [
    "Briefing and equipment",
    "Apply",
    4,
-   "Guests must know what to do.",
+   "Guests who understand the rules stay safe and enjoy the trip more.",
    [
-    "Life jackets, seat belts, exits, behaviour.",
-    "Language options; check understanding.",
-    "Equipment inspection log."
+    "Briefing items: equipment, exits, seat belts or life jackets, behaviour and what to do in an emergency.",
+    "Use plain words, pictures and the guests' language; ask guests to repeat key steps.",
+    "Inspect equipment before each trip and log it.",
+    "Special briefing for children, older guests and guests with disabilities."
    ],
-   "Guests repeat how to fasten a life jacket.",
-   "Write a briefing script.",
-   "Under five minutes."
+   "Guests repeat how to fasten a life jacket before boarding. A picture card on every seat shows the steps.",
+   "Write a briefing script under five minutes and make a picture card.",
+   "Script covers equipment, exits, behaviour and emergency, and a peer can repeat it."
   ],
   [
-   "Emergencies",
+   "Emergency planning and drills",
    "Evaluate",
    4,
-   "Plan and drill.",
+   "Emergencies are rare, so practice is the only preparation.",
    [
-    "Man overboard, fire, engine failure, medical.",
-    "Contacts and roles.",
-    "Practice drills."
+    "Plan for man overboard or passenger emergency, fire, engine or equipment failure and medical events.",
+    "Assign roles, contacts and radio channels; keep emergency numbers visible.",
+    "Practise a drill every month and record the time to complete it.",
+    "Review each drill and change the plan."
    ],
-   "A drill finds the radio channel was wrong.",
-   "Write a plan.",
-   "Steps ordered."
+   "A drill finds the radio channel on the sheet was wrong. The sheet is corrected and the next drill recovers a dummy in 90 seconds.",
+   "Write an emergency plan and run a table-top drill.",
+   "Plan has roles, contacts and drill results."
   ],
   [
-   "Cost and pricing",
+   "Costs, price and break-even",
    "Analyse",
    4,
-   "Know the economics.",
+   "Tours are expensive to run; price must cover real costs.",
    [
-    "Hourly cost of vessel or aircraft is high.",
+    "Costs: crew, fuel, maintenance, landing or mooring fees, insurance, marketing and booking fees.",
     "Cost per guest = hourly cost x hours / guests.",
-    "Break-even load factor."
+    "Break-even load factor = cost per trip / (price x seats).",
+    "Seasonal pricing and group offers must stay above cost."
    ],
-   "Hourly 40,000 INR for 8 guests: 5,000 INR each.",
-   "Build a sheet.",
-   "Currency shown."
+   "Hourly cost 40,000 INR for a 1-hour trip with 8 seats is 5,000 INR per seat. At 6,000 INR a seat, break-even is 83 per cent full.",
+   "Build a cost sheet and break-even load factor.",
+   "Maths is correct and the currency is shown."
   ],
   [
    "Environment and community",
    "Evaluate",
    3,
-   "Be a good neighbour.",
+   "Tourism lasts only if neighbours and nature are protected.",
    [
-    "Noise, wildlife, emissions.",
-    "Flight paths and speed rules.",
-    "Local jobs."
+    "Noise, wildlife disturbance, emissions and waste.",
+    "Fly or sail around nesting and breeding areas and keep minimum heights or distances.",
+    "Use local guides and suppliers; share some benefit with the community.",
+    "Publish your commitments."
    ],
-   "Routes avoid nesting sites.",
-   "List controls.",
-   "Controls clear."
+   "The route avoids a nesting beach in spring and keeps above 300 m over houses. Neighbours receive a flight schedule.",
+   "List five environmental and community commitments with measures.",
+   "Each commitment has a number or rule."
   ],
   [
-   "Operations plan",
+   "Operations plan and guest care",
    "Create",
    3,
-   "Write and present.",
+   "Bring it all together into a plan staff can follow.",
    [
-    "Roles, schedule, records.",
-    "Review each season.",
-    "Guest feedback."
+    "Roles, schedule, records, training and spare parts.",
+    "Guest journey: booking, reminders, arrival, briefing, trip, thanks and feedback.",
+    "Complaints and refunds within a stated time.",
+    "Review each season."
    ],
-   "The plan reaches 4.7 average score.",
-   "Present.",
-   "Complete."
+   "The plan reaches an average guest score of 4.7 out of 5 in the first 20 trips and cuts late arrivals with a reminder message.",
+   "Write the operations plan and present it.",
+   "Plan includes roles, records, guest journey and a review date."
   ]
  ],
  "quiz": [
   [
    "Who may operate?",
-   "Licensed operators and crew. (Covered in module 1: Product and route. To pass that module: Map and timings.)"
+   "Licensed operators and crew. (Covered in module 1: Designing the tour product. To pass that module: Route has times, capacity, access notes and a backup plan.)"
   ],
   [
    "Go/no-go factors?",
-   "Wind, visibility, waves or ceiling. (Covered in module 2: Licences and insurance. To pass that module: Sources and dates.)"
+   "Wind, visibility, waves or ceiling. (Covered in module 2: Licences, certificates and insurance. To pass that module: Every item has an authority, document number or practice placeholder and a date.)"
   ],
   [
    "Briefing items?",
-   "Equipment, exits, behaviour. (Covered in module 3: Weather and go/no-go. To pass that module: Numbers specified.)"
+   "Equipment, exits, behaviour. (Covered in module 3: Weather rules and go/no-go decisions. To pass that module: Rules have limits, decision maker and guest message.)"
   ],
   [
    "Cost per guest?",
-   "Hourly cost x hours / guests. (Covered in module 4: Briefing and equipment. To pass that module: Under five minutes.)"
+   "Hourly cost x hours / guests. (Covered in module 4: Briefing and equipment. To pass that module: Script covers equipment, exits, behaviour and emergency, and a peer can repeat it.)"
   ],
   [
    "Why drills?",
-   "Find weaknesses. (Covered in module 5: Emergencies. To pass that module: Steps ordered.)"
+   "Find weaknesses. (Covered in module 5: Emergency planning and drills. To pass that module: Plan has roles, contacts and drill results.)"
   ],
   [
    "Insurance for?",
-   "Passengers. (Covered in module 6: Cost and pricing. To pass that module: Currency shown.)"
+   "Passengers. (Covered in module 6: Costs, price and break-even. To pass that module: Maths is correct and the currency is shown.)"
   ],
   [
    "Why check expiry?",
-   "Valid permits. (Covered in module 7: Environment and community. To pass that module: Controls clear.)"
+   "Valid permits. (Covered in module 7: Environment and community. To pass that module: Each commitment has a number or rule.)"
   ],
   [
    "Environment control?",
-   "Avoid nesting sites. (Covered in module 8: Operations plan. To pass that module: Complete.)"
+   "Avoid nesting sites. (Covered in module 8: Operations plan and guest care. To pass that module: Plan includes roles, records, guest journey and a review date.)"
   ],
   [
    "Cancel policy?",
-   "Refund. (Covered in module 8: Operations plan. To pass that module: Complete.)"
+   "Refund. (Covered in module 8: Operations plan and guest care. To pass that module: Plan includes roles, records, guest journey and a review date.)"
   ],
   [
    "What are checks logged?",
-   "Equipment inspection. (Covered in module 8: Operations plan. To pass that module: Complete.)"
+   "Equipment inspection. (Covered in module 8: Operations plan and guest care. To pass that module: Plan includes roles, records, guest journey and a review date.)"
   ]
  ],
  "rubric": [
@@ -245,39 +253,39 @@
  "local": "Maritime and aviation law differ by place.",
  "ladder": [
   [
-   "Product and route",
-   "L1: learner can name tour types. Focus module: Product and route (Understand, 3 h). Design the experience. Key points: Scenic, sunset, wildlife, transfer. Duration, capacity, ports and landing sites. Accessibility.",
-   "Teach: open with the worked example. A 45-minute coastal route. Then set the activity: Design a route. Mark against the standard: Map and timings. Check at this level: Who may operate? Model answer: Licensed operators and crew. Types."
+   "Designing the tour product",
+   "L1: learner can name tour types. Focus module: Designing the tour product (Understand, 3 h). A tour is a product: a route, a time, a promise and a safety plan. Design all four before selling a single seat. Key points: Types: scenic loops, sunset trips, wildlife viewing, island transfers and special-occasion flights. Fix duration, number of guests, boarding point, landing or mooring point and toilet or rest access. Plan accessibility: step-free boarding, help for older guests and children, seat limits. Add a weather back-up: a shorter route, a new date or an indoor alternative.",
+   "Teach: open with the worked example. A 45-minute coastal route has a 20-minute boarding window, 8 guests, a sunset slot in season and a harbour museum visit as the rainy-day alternative. Then set the activity: Design a route with a map, timings, capacity, accessibility notes and a weather alternative. Mark against the standard: Route has times, capacity, access notes and a backup plan. Check at this level: Who may operate? Model answer: Licensed operators and crew."
   ],
   [
-   "Licences and insurance",
-   "L2: learner knows licence basics. Focus module: Licences and insurance (Apply, 5 h). Only licensed operators. Key points: Vessel or aircraft certificates, crew licences, operator permits. Insurance for passengers. Check expiry dates.",
-   "Teach: open with the worked example. A certificate expires next month; booking stops. Then set the activity: Make a checklist. Mark against the standard: Sources and dates. Check at this level: Go/no-go factors? Model answer: Wind, visibility, waves or ceiling. Licences."
+   "Licences, certificates and insurance",
+   "L2: learner knows licence basics. Focus module: Licences, certificates and insurance (Apply, 5 h). Only licensed operators, qualified crews and certified vessels or aircraft carry paying guests. Key points: Check vessel or aircraft certificates, crew licences and operator permits with the authority. Confirm passenger insurance and its limits in writing. Write down expiry dates and set reminders one month ahead. If the operator is a partner, you still check; you cannot hand off your duty to guests.",
+   "Teach: open with the worked example. A tour desk finds that a boat certificate expires on 30 November. It stops selling trips after that date until the new certificate is shown. Then set the activity: Build a licence and insurance checklist with source and expiry date for each item. Mark against the standard: Every item has an authority, document number or practice placeholder and a date. Check at this level: Go/no-go factors? Model answer: Wind, visibility, waves or ceiling."
   ],
   [
-   "Weather and go/no-go",
-   "L3: learner can read weather rules. Focus module: Weather and go/no-go (Apply, 5 h). Safety over schedule. Key points: Wind, visibility, waves, ceiling. Clear numbers and a decision maker. Refund policy for cancellations.",
-   "Teach: open with the worked example. Wind above a set limit cancels flights. Then set the activity: Write rules. Mark against the standard: Numbers specified. Check at this level: Briefing items? Model answer: Equipment, exits, behaviour. Weather."
+   "Weather rules and go/no-go decisions",
+   "L3: learner can read weather rules. Focus module: Weather rules and go/no-go decisions (Apply, 5 h). Safety beats schedule. Rules must be written before the day, with numbers. Key points: Choose limits: wind speed, wave height, visibility, cloud ceiling and temperature. Use two forecast sources and a rule for when they disagree: follow the cautious one. Name one decision maker with authority to cancel and record each decision. Plan the guest message: reason, new date or refund, and a thank-you.",
+   "Teach: open with the worked example. The rule says: no trip if wind exceeds 20 knots or visibility is under 5 km. At 07:30 the forecast shows 24 knots; the decision maker cancels and sends the message by 08:00. Then set the activity: Write go/no-go rules with numbers and a message template. Mark against the standard: Rules have limits, decision maker and guest message. Check at this level: Briefing items? Model answer: Equipment, exits, behaviour."
   ],
   [
    "Briefing and equipment",
-   "L4: learner can brief guests. Focus module: Briefing and equipment (Apply, 4 h). Guests must know what to do. Key points: Life jackets, seat belts, exits, behaviour. Language options; check understanding. Equipment inspection log.",
-   "Teach: open with the worked example. Guests repeat how to fasten a life jacket. Then set the activity: Write a briefing script. Mark against the standard: Under five minutes. Check at this level: Cost per guest? Model answer: Hourly cost x hours / guests. Brief."
+   "L4: learner can brief guests. Focus module: Briefing and equipment (Apply, 4 h). Guests who understand the rules stay safe and enjoy the trip more. Key points: Briefing items: equipment, exits, seat belts or life jackets, behaviour and what to do in an emergency. Use plain words, pictures and the guests' language; ask guests to repeat key steps. Inspect equipment before each trip and log it. Special briefing for children, older guests and guests with disabilities.",
+   "Teach: open with the worked example. Guests repeat how to fasten a life jacket before boarding. A picture card on every seat shows the steps. Then set the activity: Write a briefing script under five minutes and make a picture card. Mark against the standard: Script covers equipment, exits, behaviour and emergency, and a peer can repeat it. Check at this level: Cost per guest? Model answer: Hourly cost x hours / guests."
   ],
   [
-   "Emergencies",
-   "L5: learner can price. Focus module: Emergencies (Evaluate, 4 h). Plan and drill. Key points: Man overboard, fire, engine failure, medical. Contacts and roles. Practice drills.",
-   "Teach: open with the worked example. A drill finds the radio channel was wrong. Then set the activity: Write a plan. Mark against the standard: Steps ordered. Check at this level: Why drills? Model answer: Find weaknesses. Price."
+   "Emergency planning and drills",
+   "L5: learner can price. Focus module: Emergency planning and drills (Evaluate, 4 h). Emergencies are rare, so practice is the only preparation. Key points: Plan for man overboard or passenger emergency, fire, engine or equipment failure and medical events. Assign roles, contacts and radio channels; keep emergency numbers visible. Practise a drill every month and record the time to complete it. Review each drill and change the plan.",
+   "Teach: open with the worked example. A drill finds the radio channel on the sheet was wrong. The sheet is corrected and the next drill recovers a dummy in 90 seconds. Then set the activity: Write an emergency plan and run a table-top drill. Mark against the standard: Plan has roles, contacts and drill results. Check at this level: Why drills? Model answer: Find weaknesses."
   ],
   [
    "Environment and community",
-   "L6: learner can lead. Focus module: Environment and community (Evaluate, 3 h). Be a good neighbour. Key points: Noise, wildlife, emissions. Flight paths and speed rules. Local jobs.",
-   "Teach: open with the worked example. Routes avoid nesting sites. Then set the activity: List controls. Mark against the standard: Controls clear. Check at this level: Insurance for? Model answer: Passengers. Lead."
+   "L6: learner can lead. Focus module: Environment and community (Evaluate, 3 h). Tourism lasts only if neighbours and nature are protected. Key points: Noise, wildlife disturbance, emissions and waste. Fly or sail around nesting and breeding areas and keep minimum heights or distances. Use local guides and suppliers; share some benefit with the community. Publish your commitments.",
+   "Teach: open with the worked example. The route avoids a nesting beach in spring and keeps above 300 m over houses. Neighbours receive a flight schedule. Then set the activity: List five environmental and community commitments with measures. Mark against the standard: Each commitment has a number or rule. Check at this level: Insurance for? Model answer: Passengers."
   ],
   [
-   "Operations plan",
-   "L7: learner can audit. Focus module: Operations plan (Create, 3 h). Write and present. Key points: Roles, schedule, records. Review each season. Guest feedback.",
-   "Teach: open with the worked example. The plan reaches 4.7 average score. Then set the activity: Present. Mark against the standard: Complete. Check at this level: Why check expiry? Model answer: Valid permits. Peer audit."
+   "Operations plan and guest care",
+   "L7: learner can audit. Focus module: Operations plan and guest care (Create, 3 h). Bring it all together into a plan staff can follow. Key points: Roles, schedule, records, training and spare parts. Guest journey: booking, reminders, arrival, briefing, trip, thanks and feedback. Complaints and refunds within a stated time. Review each season.",
+   "Teach: open with the worked example. The plan reaches an average guest score of 4.7 out of 5 in the first 20 trips and cuts late arrivals with a reminder message. Then set the activity: Write the operations plan and present it. Mark against the standard: Plan includes roles, records, guest journey and a review date. Check at this level: Why check expiry? Model answer: Valid permits."
   ]
  ]
 }
