@@ -11,6 +11,8 @@ def walk(x):
     elif isinstance(x, list):
         for v in x: walk(v) if isinstance(v, (dict, list)) else verbs.add(str(v).lower())
 walk(V)
+for _x in ('verbs-extra.json', 'verbs-school.json'):
+    if os.path.exists(f'{root}/data/{_x}'): walk(json.load(open(f'{root}/data/{_x}')))
 gaps = collections.defaultdict(list)
 for f in sorted(glob.glob(f'{root}/data/school-deep/*.json')):
     d = json.load(open(f)); s = d['slug']; h = open(f'{root}/site/{s}').read(); isl = d['subject'] == 'ISL'
@@ -20,7 +22,8 @@ for f in sorted(glob.glob(f'{root}/data/school-deep/*.json')):
     if len(d['checks']) != 10: gaps['checks not 10'].append(s)
     for m in d['modules']:
         u = f"{s}#{m['n']}"
-        v = m['outcome'].split()[0].lower()
+        v = re.sub(r'[^a-z]', '', m['outcome'].split()[0].lower())
+        if v in {x.lower() for x in V.get('banned_as_action', [])}: gaps['outcome verb banned as action'].append(u + ' ' + v)
         if V and v not in verbs: gaps['outcome verb not in verbs.json'].append(u + ' ' + v)
         if m['bloom'] not in h: gaps['bloom missing on page'].append(u)
         if len(m.get('example', '')) < 60: gaps['no worked example'].append(u)

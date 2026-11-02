@@ -40,6 +40,13 @@ BAND = {'esl': dict(w='short, spoken, with pictures and real objects', t='15 to 
         'secondary': dict(w='with notes, a worked line and a self-mark', t='30 to 40 minutes', std='at least 8 of 10 marks on a short task, with one line of reasoning for each answer', ev='a worked task and a corrected copy'),
         'post': dict(w='with exam-style questions and written reasoning', t='40 to 50 minutes', std='at least 70 percent on an exam-style task, with the method shown', ev='a timed paper and an error log')}
 
+# plain-words lesson sentence for each band (the old wording "taught in a way that is with notes..." was not grammatical)
+BAND_LESSON = {'esl': 'Lessons are short and spoken, with pictures and real objects.', 'primary': 'Lessons are short and playful, with objects, pictures and talk.',
+               'secondary': 'You work with notes, a worked line and a self-mark.', 'post': 'You work with exam-style questions and written reasoning.'}
+def unit_intro(t, o, bd):
+    band = next(k for k, v in BAND.items() if v is bd)
+    return f"In this unit, '{t}', you learn to {o}. {BAND_LESSON[band]} You see it, say it, then do it alone."
+
 # Subject-kind frames: four moves for every unit. {t}=unit title, {o}=outcome.
 FR = {
  'lang': dict(steps=["Listen first: your teacher or a recording says the new words or sentences from '{t}' twice. You repeat them aloud.", "Notice the pattern: find where the new sound, word form or sentence rule appears in a short text and mark it.",
@@ -438,7 +445,7 @@ def modules(rows, kind, bd):
         sj = r['subject']
         o = r['outcome'].split(' (grade')[0].strip(); t = r['unit']; b = bloom(o)
         out.append(dict(n=i + 1, title=t, bloom=b, weeks=[int(r['first_week']), int(r['last_week'])], hours=int(r['weeks']) * 3, outcome=o,
-                        intro=f"In this unit you work on '{t}', taught in a way that is {bd['w']}. The target is clear: {o}. You move from seeing it, to saying it, to doing it alone.",
+                        intro=unit_intro(t, o, bd),
                         points=[s.format(t=t, o=o) for s in f['steps']], example=(((lambda sv: ('Solved: ' + sv + ' Method: ') if sv else '')((solved(t) if kind in ('maths', 'sci', 'lang') else None) or solved2(t, sj) or solved4(t, sj) or solved3(t, sj))) + f['ex'].format(t=t, o=o)),
                         activity=f"About {bd['t']} of class work, then one short practice task for home. Keep evidence: {bd['ev']}.",
                         standard=f"{o[:1].upper() + o[1:]}: {bd['std']}.", steps=_steps(r['unit_id'], sj)))
