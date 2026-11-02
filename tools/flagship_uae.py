@@ -33,6 +33,10 @@ LADDER = [("L1 Awareness","Name the main parts of {k} and the safety rules.","Yo
  ("L5 Specialist","Improve the process using data and fix root causes.","You cut a cost, delay or fault by a measured amount."),
  ("L6 Lead","Lead a team, set standards and train others.","Your team meets the standard when you are away."),
  ("L7 Director","Set strategy, partnerships and risk limits for the whole unit.","You grow results over a year within agreed risk limits.")]
+def plu(u,n=2):
+    if n==1: return u
+    irr={'child':'children','analysis':'analyses','policy':'policies','kg':'kg','MWh':'MWh','tonne':'tonnes'}
+    return irr.get(u,u+'s')
 def m(n): return f'{n:,.0f}' if n==int(n) else f'{n:,.2f}'
 def course(t):
     (slug,title,mode,prod,buyers,haz,steps,kpi,unit,price,cost,vol,terms,jobs,local)=t
@@ -86,9 +90,9 @@ def course(t):
       "Collect a tally for one week and make a Pareto chart.","Tally complete; biggest cause named; one fix planned with a date."))
     M.append(("Costing and pricing in AED","Evaluate",12,
       f"Know the cost of one {unit} before you set the price. Include materials, labour, energy, transport, licence share, waste and a safety margin.",
-      [f"Cost per {unit} = total cost divided by {unit}s sold (not made).","Margin = (price minus cost) divided by price.",
+      [f"Cost per {unit} = total cost divided by {plu(unit)} sold (not made).","Margin = (price minus cost) divided by price.",
        "Break-even units = fixed costs divided by gain per unit.","Test the price with two users and write down the answer."],
-      f"At AED {m(price)} per {unit} and cost AED {m(cost)}, gain is AED {m(unitgain)} and margin {marg:.1f}%. At {m(vol)} {unit}s a month, gross gain is AED {m(month)}. If fixed costs are AED {m(fixed)}, break-even is {math.ceil(fixed/unitgain)} {unit}s.",
+      f"At AED {m(price)} per {unit} and cost AED {m(cost)}, gain is AED {m(unitgain)} and margin {marg:.1f}%. At {m(vol)} {plu(unit,vol)} a month, gross gain is AED {m(month)}. If fixed costs are AED {m(fixed)}, break-even is {m(math.ceil(fixed/unitgain))} {plu(unit,math.ceil(fixed/unitgain))}.",
       "Build the cost sheet with AED on every line and have your mentor check it.","No missing cost found; margin calculated twice by different routes."))
     M.append(("Serve and sell responsibly","Apply",12,
       f"Customers return when you keep promises. Promise only what your workflow can deliver.",
@@ -126,6 +130,8 @@ def course(t):
         outcomes=[("Understand",f"Explain the UAE market, rules and hazards for {title.lower()}."),("Apply",f"Run the workflow: {', '.join(s)}."),("Analyse",f"Measure {kpi} and find the biggest cause of loss."),("Evaluate","Cost and price in AED and judge scale, change or stop."),("Create","Produce a record pack a supervisor can audit.")])
 def build(c):
     total=sum(x[2] for x in c['M'])
+    import re as _re
+    c['cond']=_re.sub(r'About \d+ hours',f'About {total} hours',c['cond'])
     mods=''
     for i,(t,bl,h,intro,pts,ex,act,std) in enumerate(c['M'],1):
         mods+=(f'<details class="mod" {"open" if i==1 else ""}><summary><span class="mn">Module {i}</span> {e(t)} <span class="pill">{h} h</span><span class="pill bz">{bl}</span></summary><p>{e(intro)}</p><ul>'+''.join(f'<li>{e(p)}</li>' for p in pts)+'</ul>'

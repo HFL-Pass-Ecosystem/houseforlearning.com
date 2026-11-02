@@ -11,11 +11,11 @@ LAD = {
         ("Log a 30-day output record",
          "Run the four-step chain in a simulated or supervised setting and log kilograms of hydrogen in specification per day for 30 days. Notes: record kWh per kg each day against the 54 kWh per kg target and give a cause for every day over it, such as a cell cleaning delayed by 3 hours."),
         ("Find the biggest loss and decide",
-         "Analyse a tally of faults, fix the biggest cause first and decide to scale, change or stop with the numbers behind it. Notes: use 22 of 40 faults from late inputs (55%) as the practice case; the price check is AED 14 per kg against a cost of AED 10.50, which is a 25.0% margin; check that the cost figure covers the power cost per kg from the electrolyser sums."),
+         "Analyse a tally of faults, fix the biggest cause first and decide to scale, change or stop with the numbers behind it. Notes: use 22 of 40 faults from late inputs (55%) as the practice case; the price check is AED 21 per kg against a cost of AED 16, which is a 23.8% margin; check that the cost figure covers the power cost of about AED 13 per kg from the electrolyser sums."),
         ("Coach a shift on gas alarms",
          "Set a gas-alarm drill, a permit check and a daily log review for a small team working under a competent supervisor. Notes: sample five daily logs a week against a checklist; the drill must stop the compressor, keep people upwind, call control and wait for a gas test below 5% of the lower flammable limit before restart."),
         ("Design the whole plant control system",
-         "Design the safety, purity, efficiency and cost controls for a plant that makes 5,000 kg a month, audit one risk and set a 12-month plan. Notes: break-even at fixed costs of AED 10,500 and a gain of AED 3.50 per kg is 3,000 kg; hold any batch below purity grade; present one risk, one saving and quarterly targets for kWh per kg."),
+         "Design the safety, purity, efficiency and cost controls for a plant that makes 5,000 kg a month, audit one risk and set a 12-month plan. Notes: break-even at fixed costs of AED 16,000 and a gain of AED 5 per kg is 3,200 kg; hold any batch below purity grade; present one risk, one saving and quarterly targets for kWh per kg."),
     ],
     "pw-02-green-hydrogen-export-corridors": [
         ("What a hydrogen export corridor is",
