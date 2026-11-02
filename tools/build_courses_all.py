@@ -19,6 +19,10 @@ G = [
  ('Netherlands', ['learn-flagship-nl-']),
  ('Singapore', ['learn-flagship-sg-']),
  ('Australia', ['learn-flagship-au-']),
+ ('Hong Kong', ['learn-flagship-loc-hk', 'learn-loc-hk-']),
+ ('Georgia and Israel', ['learn-flagship-loc-ge', 'learn-loc-ge-']),
+ ('Cayman Islands', ['learn-flagship-loc-ky', 'learn-loc-ky-']),
+ ('Mexico', ['learn-flagship-loc-mx', 'learn-loc-mx-']),
 ]
 body = ''; n = 0
 for i, (name, pre) in enumerate(G):
