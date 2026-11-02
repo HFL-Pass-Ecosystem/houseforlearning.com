@@ -208,7 +208,7 @@
    "standard": "Use equations of lines, circles and conics: at least 70 percent on an exam-style task, with the method shown.",
    "steps": [
     "Step 1, Line through (2, -1) and (5, 5): slope = 6/3 = 2. Equation y + 1 = 2(x - 2), so y = 2x - 5. Check (5, 5): 10 - 5 = 5.",
-    "Step 2, Distance from a point to a line: the distance from (1, 2) to 3x + 4y - 5 = 0 is |3 + 8 - 5| / root of 9 + 16 = 6/5 = 1.2.",
+    "Step 2, Distance from a point to a line: the distance from (1, 2) to 3x + 4y - 5 = 0 is |3 + 8 - 5| / root of (9 + 16) = 6/5 = 1.2.",
     "Step 3, Circle: centre (3, -2) and radius 5 gives (x - 3)^2 + (y + 2)^2 = 25. Test (6, 2): 9 + 16 = 25, so it lies on the circle.",
     "Step 4, Find centre from a general equation: x^2 + y^2 - 6x + 4y - 12 = 0. Complete squares: (x - 3)^2 + (y + 2)^2 = 12 + 9 + 4 = 25. Centre (3, -2), radius 5.",
     "Step 5, Parabola y^2 = 8x: 4a = 8 so a = 2, focus (2, 0), directrix x = -2. Ellipse x^2/25 + y^2/9 = 1: a = 5, b = 3, c = root of 25 - 9 = 4, foci (plus or minus 4, 0), e = 4/5.",

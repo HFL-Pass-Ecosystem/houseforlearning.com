@@ -471,7 +471,7 @@ def _checks_ten(subj, kind, mods, bd, plan_lbl):
         sp = _split_turn(st[-1]) if st else None
         if sp:
             task, ans = sp
-            turn.append((m['n'], f"Unit {m['n']} ({m['title']}): {task[:1].upper() + task[1:]}.", ans.rstrip() + tag))
+            turn.append((m['n'], f"Unit {m['n']} ({m['title']}): {task[:1].upper() + task[1:]}{'' if task[-1:] in '?!' else '.'}", ans.rstrip() + tag))
         else:
             turn.append((m['n'], f"Unit {m['n']} ({m['title']}): show that you can {m['outcome']}. Name the first step you used and the last.",
                          f"First step: {m['points'][0]} Last step: {m['points'][-1]} Your evidence must meet the standard: {bd['std']}.{tag}"))
