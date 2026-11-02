@@ -17,21 +17,21 @@ tpl = tpl.replace('<body class="learn">', '<body class="learn svc-page">', 1)
 # slug, short name, page title, Wix tagline, paragraphs (Wix text), bullets heading, bullets, hue
 SERV = [
  ('introduction', 'Introduction', 'Introduction', '', [], '', [], 'a'),
- ('smetech', 'SMETech', 'SMETech', "Our joined-up approach promotes collaboration between everyone involved.", [
-  "In SMETech, we focus on fast-growing skills in business, sales, information technology, creative learning, learning design and engineering. This gives small and medium enterprises (SMEs) a head start in reaching their upskilling and reskilling goals."], '', [], 'b'),
+ ('smetech', 'SMETech', 'SMETech', "HFL's joined-up approach promotes collaboration between everyone involved.", [
+  "HFL, in its SMETech operations, will focus on fast-growing skills in business, sales, information technology, creative learning, learning design and engineering. This gives small and medium enterprises (SMEs) a head start in reaching their upskilling and reskilling goals."], '', [], 'b'),
  ('edtech', 'EdTech', 'EdTech', 'Empowering individuals and institutions to learn it to earn it.', [
-  "EdTech (education technology) is growing quickly across the world, and digital learning is now part of many school systems. We recognise the promise of digital learning and how well it suits bringing education to disadvantaged groups who cannot afford the best of traditional face-to-face learning.",
-  "Globally, our EdTech work covers two broad markets: (1) K-12, which is education from kindergarten to grade 12; and (2) post-K-12, which is undergraduate, postgraduate and professional courses. In both, House for Learning aims to deliver live and self-paced learning on computers, tablets, smartphones and other portable electronic devices."], '', [], 'c'),
+  "EdTech (education technology) is growing quickly across the world, and digital learning is now part of many school systems. HFL recognises the promise of digital learning and how well it suits bringing education to disadvantaged groups who cannot afford the best of traditional face-to-face learning.",
+  "Globally, HFL's EdTech covers two broad markets: (1) K-12, which is education from kindergarten to grade 12; and (2) post-K-12, which is undergraduate, postgraduate and professional courses. In both, House for Learning aims to deliver live and self-paced learning on computers, tablets, smartphones and other portable electronic devices."], '', [], 'c'),
  ('emtech', 'EmTech', 'EmTech', 'Basic to advanced skills in artificial intelligence, machine learning, connected devices and big-data analytics.', [
-  "EmTech (emerging technology) helps businesses by promoting skills in new technology products and services. We believe in adopting new technologies early to solve the challenges facing people today in healthcare, climate change, sustainability and similar fields.",
+  "EmTech (emerging technology) helps businesses by promoting skills in new technology products and services. At HFL, we believe in adopting new technologies early to solve the challenges facing people today in healthcare, climate change, sustainability and similar fields.",
   "We aim to create value where industries meet, through artificial intelligence, quantum computing, blockchain, cryptocurrency, the Internet of Things, augmented reality, nanotechnology and 3D printing."], '', [], 'd'),
  ('msmetech', 'MSMETech', 'MSMETech', 'Sustainable upskilling and reskilling for micro, small and medium enterprises.', [
   "Micro, small and medium enterprises (MSMEs) are supported by governments across the world for their role in economic growth. They make up much of the business world and employ a large share of the workforce. Their part in creating jobs is hard to overstate.",
-  "Many new jobs will be needed in the years ahead. This is where we come in, with a joined-up approach that links education providers, skills, workers and employers."],
+  "Many new jobs will be needed in the years ahead. This is where HFL comes in, with a joined-up approach that links education providers, skills, workers and employers."],
   'Our core offerings for MSMEs will focus on', ['Upskilling platforms', 'Upskilling and reskilling programmes that build core skills', 'Certification programmes in trending skills and jobs', 'Job-readiness courses and bridge programmes for university students', 'Employability skill-development programmes for MSMEs'], 'a'),
  ('life-long-learning', 'Life Long Learning', 'Life Long Learning', 'Enhance yourself through digitisation and create a new wave of demand.', [
-  "The creative economy is a large and growing source of work, especially for young people. We recognise the growing opportunities in creative arts and design, and we are exploring products and services for creators, users and lovers of modern creative arts and design."],
-  'Our solutions for the arts may be aimed at creative professionals and customers in the fields of', ['Photography', 'Film', 'Videography', 'Editing', 'Sound design', 'Music and sound engineering', 'Performing arts', 'Visual arts', 'Multimedia design', 'Interior design', 'Fashion design'], 'b'),
+  "The creative economy is a large and growing source of work, especially for young people. HFL recognises the growing opportunities in creative arts and design, and we are exploring products and services for creators, users and lovers of modern creative arts and design."],
+  'HFL solutions for the arts may be aimed at creative professionals and customers in the fields of', ['Photography', 'Film', 'Videography', 'Editing', 'Sound design', 'Music and sound engineering', 'Performing arts', 'Visual arts', 'Multimedia design', 'Interior design', 'Fashion design'], 'b'),
 ]
 NAMES = {s: n for s, n, *_ in SERV}
 
