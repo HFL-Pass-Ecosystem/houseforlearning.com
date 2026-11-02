@@ -174,7 +174,7 @@ D.update({
   "Write a pre-trip checklist and use it on five vehicles or a sample.","Checklist complete; defects logged."),
  ("Route, cost per trip and punctuality","Evaluate",9,"Cost per trip and on-time rate decide profit.",
   ["Cost per trip = fuel + driver + wear + overhead share.","Plan routes to avoid peak traffic.","Measure on-time percent weekly.","Share delay causes with the team."],
-  "Fuel AED 55, driver AED 90, wear AED 25, overhead AED 30: cost AED 200 against a price of AED 320 gives margin 37.5%.",
+  "Fuel AED 55, driver AED 90, wear AED 25, overhead AED 60: cost AED 230 against a price of AED 320 gives margin 28.1%.",
   "Cost three routes and choose the best.","Margins shown; punctuality plan set."),
 ],
 "freight-and-cargo": [
