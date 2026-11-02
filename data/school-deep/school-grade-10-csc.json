@@ -29,7 +29,7 @@
     "Use it: write programs using lists, dictionaries and files. Save your work in a named file or folder.",
     "Test and fix: run it, find one fault, correct it, and note what you changed."
    ],
-   "example": "Model run for 'Python: functions, files and data structures'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "example": "Solved: name = 'Sara'; total = 0; for n in [3, 5, 7]: total = total + n; print(name, total) prints Sara 15. Trace each line to check. Method: Model run for 'Python: functions, files and data structures'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Write programs using lists, dictionaries and files: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
   },
@@ -50,7 +50,7 @@
     "Use it: design and query a small database. Save your work in a named file or folder.",
     "Test and fix: run it, find one fault, correct it, and note what you changed."
    ],
-   "example": "Model run for 'Databases and SQL'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "example": "Solved: SELECT name, marks FROM students WHERE marks > 80 ORDER BY marks DESC; returns the students above 80, highest first. Method: Model run for 'Databases and SQL'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Design and query a small database: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
   },

@@ -149,6 +149,79 @@ WE = [
  (r'nouns', "In 'Mira has a dog called Bruno', 'dog' is a common noun, 'Mira' and 'Bruno' are proper nouns and need capital letters."),
  (r'punctuation', "'what is your name' becomes 'What is your name?' - capital letter at the start and a question mark at the end. 'I have a pen a book and a bag' needs commas: 'I have a pen, a book and a bag.'"),
 ]
+
+# Second bank: keyed on (subjects, title pattern). Checked by hand. Religious and ministry-set content keeps the method frame only.
+WE2 = [
+ (('ESL',), r'hello and me', "A: Hello, I am Sara. What is your name? B: Hello Sara, I am Omar. A: How old are you? B: I am eight. Spell it: O-M-A-R."),
+ (('ESL',), r'numbers, colours', "Count aloud: one, two, three, up to twenty. 'I have three red circles and two blue squares.' Point and count: 3 + 2 = 5 shapes."),
+ (('ESL',), r'family and my home', "'This is my mother. She is in the kitchen. My brother is in the bedroom.' Rooms: kitchen, bedroom, bathroom, living room."),
+ (('ESL',), r'school things', "Teacher: 'Open your book. Take out a pencil. Please sit down.' Learner does each action and can ask: 'Can you repeat, please?'"),
+ (('ESL',), r'food and drink', "'I like apples. I do not like fish. Can I have some water, please?' Order: 'A sandwich and a juice, please.'"),
+ (('ESL',), r'daily routines', "'I wake up at 6:30. I eat breakfast at 7:00. I go to school at 7:30.' Ask a partner: 'What time do you wake up?'"),
+ (('ESL',), r'past events', "'Yesterday I visited my aunt. We played a game and ate lunch.' Regular past: play, played; visit, visited. Irregular: go, went; eat, ate."),
+ (('ENG',), r'reading simple words|writing letters', "Blend c-a-t = cat, d-o-g = dog, s-u-n = sun. A name starts with a capital letter: Sara."),
+ (('ENG',), r'simple sentences|picture composition', "Picture of a boy with a kite. 'A boy has a kite. The kite is red. The wind is strong. He is happy.' Four connected sentences, each ending in a full stop."),
+ (('ENG',), r'naming words', "In 'The cat sat on the mat', cat and mat are naming words (nouns)."),
+ (('ENG',), r'action words|verbs', "'The girl runs.' Add describing words: 'The tall girl runs fast.' Tense: walk, walked, will walk."),
+ (('ENG',), r'rhymes|poems', "cat, hat and mat rhyme. Make a couplet: 'The sun is high, a bird can fly.' High and fly rhyme."),
+ (('ENG',), r'reading short passages|reading stories', "Passage: 'Ravi has a red kite. He flies it on the hill.' Who? Ravi. What? A red kite. Where? On the hill."),
+ (('ENG',), r'subject and predicate', "'The tall boy | kicked the ball.' Subject: the tall boy. Predicate: kicked the ball."),
+ (('ENG',), r'speaking and listening', "Retell in order with first, next, then, last. Ask: 'What happened next?' Reply politely: 'Thank you, I agree because...'"),
+ (('FRE',), r'greetings and introductions', "Bonjour, je m'appelle Lea. Et toi? Je m'appelle Omar. Enchante. Comment ca va? Ca va bien, merci."),
+ (('FRE',), r'verbs to have and to be', "etre: je suis, tu es, il est. avoir: j'ai, tu as, il a. 'Je suis grand. J'ai un chat.'"),
+ (('FRE',), r'numbers and colours', "un, deux, trois, quatre, cinq. rouge, bleu, vert. 'J'ai trois stylos bleus.'"),
+ (('ARA',), r'greetings', "Marhaba (hello). Ismi Sara (my name is Sara). Ma ismuk? (what is your name?) Shukran (thank you)."),
+ (('HIN',), r'matras', "Short and long vowel signs change the sound: ka, kaa, ki, kee. Read: kamal, kaam, kitaab."),
+ (('HIN',), r'family and home', "Maa (mother), pitaji (father), bhai (brother), behan (sister). 'Yeh mera ghar hai.' (This is my home.)"),
+ (('SCI',), r'my body and my senses', "Five senses: sight (eyes), hearing (ears), smell (nose), taste (tongue), touch (skin). A lemon: you see yellow, smell sharp, taste sour, feel a bumpy skin."),
+ (('SCI',), r'animals and their homes|^animals$', "A bird lives in a nest, a bee in a hive, a fish in water. Sort animals by where they live: land, water, air."),
+ (('SCI',), r'water and the water cycle|^water$', "Heat makes water evaporate, it cools and condenses into clouds, then falls as rain, then flows back to rivers and sea. Boiling a kettle and watching steam on a cold lid shows this."),
+ (('SCI',), r'weather|air and weather|seasons', "Record 5 days: Mon sunny 32 C, Tue cloudy 29 C, Wed rain 27 C, Thu sunny 33 C, Fri sunny 34 C. Most common: sunny (3 days). Hottest: Friday."),
+ (('SCI',), r'materials', "Test: does it float? A wooden spoon floats, a metal spoon sinks. Is it see-through? Glass yes, wood no. Choose a raincoat material: waterproof, light, bendy."),
+ (('SCI',), r'food and healthy|keeping healthy|food and digestion', "A healthy plate has a half of fruit and vegetables, a quarter of grains, a quarter of protein. Wash hands before eating for 20 seconds. Digestion: mouth, food pipe, stomach, small intestine, large intestine."),
+ (('SCI',), r'plant life', "Plants need light, water, air and warmth. Test: two seedlings, one in light and one in a dark cupboard, same water. After a week the dark one is pale and weak."),
+ (('SST',), r'family and my school|home and neighbourhood', "Draw a map of the route from home to school with 3 landmarks. Tell it: 'First pass the shop, then the park, then the school gate.'"),
+ (('SST',), r'maps and directions', "North is at the top. If the school is east of the park, go right (east) from the park. Scale 1 cm = 100 m: 4 cm on the map is 400 m."),
+ (('SST',), r'needs and wants', "Needs: food, water, shelter, clothes. Wants: a toy, a game. With 100 coins: spend 70 on needs and 30 on wants, and save any extra."),
+ (('SST',), r'communities and helpers', "A doctor heals, a teacher teaches, a farmer grows food, a police officer keeps us safe. Match each helper to a need in the community."),
+ (('COM',), r'parts of a computer', "Input: keyboard, mouse. Output: screen, printer. Processing: CPU. Storage: hard drive. Press a key (input), the screen shows a letter (output)."),
+ (('COM',), r'mouse and keyboard|typing', "Home row: A S D F for the left hand, J K L ; for the right. Type 'sad lad' ten times without looking. Aim for no errors, then raise speed."),
+ (('COM',), r'online safety|staying safe', "Never share your password, address or school name. If a stranger messages you: do not reply, close it, tell a trusted adult. Strong password: three random words plus a number."),
+ (('COM',), r'algorithms|giving clear instructions|loops', "Algorithm to make toast: 1 take two slices, 2 put in toaster, 3 press down, 4 wait, 5 take out. Loop: repeat 4 times: step forward, turn right = draw a square."),
+ (('COM',), r'coding with blocks', "Blocks: when green flag clicked, repeat 10: move 10 steps, turn 36 degrees. The sprite draws a ten-sided shape (36 x 10 = 360)."),
+ (('COM',), r'spreadsheets', "Cells A1 = 12, A2 = 18, A3 = 20. In A4 type =SUM(A1:A3) to get 50. =AVERAGE(A1:A3) gives 16.67. Change A1 and the totals update."),
+ (('VAL',), r'kindness|compassion', "A classmate drops books. Kind action: help pick them up and say 'Are you OK?'. Reflect: how did it feel for them, and for you?"),
+ (('VAL',), r'honesty', "You break a cup. Honest action: tell the adult straight away, say what happened and offer to help clean. Trust grows when we tell the truth even when it is hard."),
+ (('VAL',), r'responsibility|fairness and rules', "Class jobs: Monday Asha waters plants, Tuesday Ben tidies books. A fair rule: everyone takes a turn, and everyone knows it in advance."),
+ (('VAL',), r'environment|earth', "Reduce, reuse, recycle: use both sides of paper, refill a water bottle, put bottles in the recycling bin. Count how many bottles your class saves in a week."),
+ (('CSC',), r'python', "name = 'Sara'; total = 0; for n in [3, 5, 7]: total = total + n; print(name, total) prints Sara 15. Trace each line to check."),
+ (('CSC',), r'sql|databases', "SELECT name, marks FROM students WHERE marks > 80 ORDER BY marks DESC; returns the students above 80, highest first."),
+ (('CSC',), r'stacks and queues', "Stack (last in, first out): push 3, push 5, pop gives 5. Queue (first in, first out): enqueue 3, enqueue 5, dequeue gives 3."),
+ (('CSC',), r'number systems|computer systems', "Binary 1011 = 8 + 0 + 2 + 1 = 11. Decimal 13 = 8 + 4 + 1 = 1101."),
+ (('ACC',), r'accounting concepts|equation', "Assets = Liabilities + Capital. Cash 5,000 + Stock 3,000 = Loan 2,000 + Capital 6,000. If the owner pays 1,000 of the loan in cash: Assets 7,000 = Liabilities 1,000 + Capital 6,000."),
+ (('ACC',), r'journal|ledger', "Bought goods for 4,000 cash. Journal: Purchases A/c Dr 4,000, To Cash A/c 4,000. Post to the ledger: debit side of Purchases, credit side of Cash."),
+ (('ACC',), r'depreciation', "Machine cost 50,000, scrap value 5,000, life 5 years. Straight line: (50,000 - 5,000) / 5 = 9,000 per year."),
+ (('ACC',), r'financial statements of sole', "Sales 90,000 - cost of goods sold 60,000 = gross profit 30,000. Less expenses 12,000 = net profit 18,000. Capital + net profit - drawings gives closing capital."),
+ (('BST',), r'.', "A small stall buys fruit for 50 and sells for 80. Revenue 80, cost 50, profit 30. Name which function of management you used: planning (how much to buy), organising (who sells), controlling (check the cash)."),
+ (('ECO',), r'central tendency|data', "Marks 10, 20, 20, 30, 40. Mean = 120 / 5 = 24. Median = 20. Mode = 20. Range = 40 - 10 = 30."),
+ (('ECO',), r'demand|supply|price', "If price of tea falls from 20 to 15 and quantity demanded rises from 100 to 130 cups, demand has extended along the same curve: the law of demand."),
+ (('HIS', 'GEO', 'POL', 'PSY'), r'.', "Take one source or data set. Ask five questions: who made it, when, why, what does it show, what is missing? Write three sentences using one piece of evidence each, then say what other source you would check."),
+ (('PHY',), r'work, energy', "Power = work / time. 600 J of work in 12 s gives P = 50 W. Potential energy of 2 kg at 5 m = 2 x 10 x 5 = 100 J (g = 10)."),
+ (('PHY',), r'oscillations|waves', "Wave speed = frequency x wavelength. 50 Hz and 6.8 m gives 340 m/s. Period = 1 / frequency = 0.02 s."),
+ (('CHE',), r'basic concepts', "Moles = mass / molar mass. 36 g of water (18 g per mole) is 2 moles, which contains 2 x 6.02 x 10 to the 23 molecules."),
+ (('BIO',), r'.', "Draw and label the structure, state the function of each part in one line, then link structure to function: for example, thin walls of the air sacs let oxygen pass quickly into the blood."),
+ (('MAT',), r'numbers to 20|numbers to 100|numbers to 1000', "Show 47 as 4 tens and 7 ones. Compare 47 and 74: 7 tens is more than 4 tens, so 74 is greater. Count on in tens from 47: 57, 67, 77."),
+ (('MAT',), r'shapes and data|geometry|shapes', "A square has 4 equal sides and 4 right angles; a rectangle has 2 pairs of equal sides. A tally of 5 red, 3 blue and 2 green shows most children like red."),
+ (('MAT',), r'quadrilaterals', "Angles of a quadrilateral add to 360 degrees. If three are 90, 80 and 100, the fourth is 360 - 270 = 90 degrees."),
+ (('MAT',), r'measurement', "A pencil is 15 cm; 4 pencils end to end are 60 cm. Estimate first, measure, then compare."),
+ (('MAT',), r'four operations', "A shop sells 24 pens at 5 each and 12 books at 30 each. Pens 120 + books 360 = 480. Pay 500: change 20."),
+ (('MAT',), r'linear equations in two', "2x + y = 7 and x - y = 2. Add: 3x = 9, x = 3, y = 1. Check: 6 + 1 = 7 and 3 - 1 = 2."),
+]
+def solved2(title, subj):
+    for subs, pat, txt in WE2:
+        if subj in subs and re.search(pat, title.lower()): return txt
+    return None
+
 def solved(title):
     for pat, txt in WE:
         if re.search(pat, title.lower()): return txt
@@ -157,10 +230,11 @@ def solved(title):
 def modules(rows, kind, bd):
     f = FR[kind]; out = []
     for i, r in enumerate(rows):
+        sj = r['subject']
         o = r['outcome'].split(' (grade')[0].strip(); t = r['unit']; b = bloom(o)
         out.append(dict(n=i + 1, title=t, bloom=b, weeks=[int(r['first_week']), int(r['last_week'])], hours=int(r['weeks']) * 3, outcome=o,
                         intro=f"In this unit you work on '{t}', taught in a way that is {bd['w']}. The target is clear: {o}. You move from seeing it, to saying it, to doing it alone.",
-                        points=[s.format(t=t, o=o) for s in f['steps']], example=((('Solved: ' + solved(t) + ' Method: ') if solved(t) and kind in ('maths', 'sci', 'lang') else '') + f['ex'].format(t=t, o=o)),
+                        points=[s.format(t=t, o=o) for s in f['steps']], example=(((lambda sv: ('Solved: ' + sv + ' Method: ') if sv else '')((solved(t) if kind in ('maths', 'sci', 'lang') else None) or solved2(t, sj))) + f['ex'].format(t=t, o=o)),
                         activity=f"About {bd['t']} of class work, then one short practice task for home. Keep evidence: {bd['ev']}.",
                         standard=f"{o[:1].upper() + o[1:]}: {bd['std']}."))
     return out
