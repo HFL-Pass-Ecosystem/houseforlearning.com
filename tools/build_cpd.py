@@ -75,7 +75,7 @@ def build(c):
                   + f'<p class="ws-note">{e(SAFE)}</p>')
             + B.sec('alt', 'ag', 'sessions', f'{len(mods) or len(c["agenda"])} modules' if mods else f'{len(c["agenda"])} sessions', ag)
             + practice + checks + gloss + rub
-            + (B.sec('alt', 'ld', 'where next', 'Ladder L1 to L7, slide by slide with notes', '<ol class="slides">' + ''.join(f'<li><strong>Slide {j}: {e(sl["t"])}.</strong> <em>Speaker note:</em> {e(sl["note"])}</li>' for j, sl in enumerate(F['slides'], 1)) + '</ol><p>This course sits at L4 Practitioner. Credits stack; aligned with, not accredited by, any framework.</p>') if F else '')
+            + (B.sec('alt', 'ld', 'where next', 'Ladder L1 to L7, slide by slide with notes', '<ol class="slides">' + ''.join(f'<li><strong>Slide {j}: {e(sl["t"])}.</strong> <em>Speaker note:</em> {e(sl["note"])}</li>' for j, sl in enumerate(F['slides'], 1)) + f'</ol><p>This course sits at {LV[c["lv"]]}. Credits stack; aligned with, not accredited by, any framework.</p>') if F else '')
             + (B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', '<ul>' + ''.join(f'<li>{e(j)}</li>' for j in F['jobs']) + '</ul>') if F else '')
             + B.sec('', 'as', 'assessment and certificate', 'How you are checked',
                     '<p>Each outcome is checked against its standard with a checklist or a short test. A digital CPD record shows the hours. Keep evidence in My page. Aligned with common CPD practice; not accredited. Learners check their own body\'s rules.</p>')
