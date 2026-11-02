@@ -1,0 +1,283 @@
+{
+ "id": "GL-52",
+ "title": "Veterinary and Pet Care Business",
+ "level": 4,
+ "desc": "Start and run a small pet care business, from grooming, boarding and walking to records, hygiene and when to refer to a vet.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain animal welfare needs and the limits of a non-vet service."
+  ],
+  [
+   "Apply",
+   "Run safe handling, hygiene and booking steps."
+  ],
+  [
+   "Analyse",
+   "Cost services and capacity."
+  ],
+  [
+   "Evaluate",
+   "Judge risks, bites, disease and legal duties."
+  ],
+  [
+   "Create",
+   "Launch a 30-day pilot."
+  ]
+ ],
+ "task": "Plan and pilot a small pet care service with welfare rules, hygiene plan, booking and price sheet, owner forms and emergency steps.",
+ "condition": "Practice animals from willing owners or a shelter partner, a spreadsheet, two peers and a mentor veterinarian. Medical treatments are for qualified vets only.",
+ "standard": "Every pet has an owner form and vaccine record; welfare needs are met; injuries and bites have a response plan; costs and price are shown; peers rate Meets or better.",
+ "who": "Pet lovers, vet clinic assistants, groomers, walkers and boarders.",
+ "req": "none",
+ "evidence": "service menu, owner form, hygiene plan, price sheet, pilot log",
+ "modules": [
+  [
+   "Welfare basics",
+   "Understand",
+   4,
+   "Five needs: food and water, shelter, health, behaviour and company.",
+   [
+    "Know species needs and daily routines.",
+    "Signs of stress: panting, hiding, aggression.",
+    "Never leave animals in hot vehicles."
+   ],
+   "A dog left in shade with fresh water stays calm; one in a parked car does not.",
+   "Write a welfare card for two species.",
+   "Each need is covered."
+  ],
+  [
+   "Owner forms and records",
+   "Apply",
+   4,
+   "Know the pet before you take it.",
+   [
+    "Name, age, vaccines, medicines, allergies, vet contact, emergency contact.",
+    "Written consent for care and emergency treatment.",
+    "Keep records securely."
+   ],
+   "A boarding form shows an unvaccinated pup, so it is declined.",
+   "Design an owner form.",
+   "Includes vaccine and vet details."
+  ],
+  [
+   "Safe handling",
+   "Apply",
+   5,
+   "Protect animals and people.",
+   [
+    "Approach calmly; read body language.",
+    "Use correct leads and carriers; keep species apart.",
+    "First-aid for bites and scratches; report them."
+   ],
+   "A walker uses a double lead near traffic.",
+   "Practise handling steps.",
+   "Mentor observes without safety issues."
+  ],
+  [
+   "Hygiene and disease control",
+   "Apply",
+   4,
+   "Clean spaces prevent disease.",
+   [
+    "Clean and disinfect kennels, tools and bowls between animals.",
+    "Separate sick animals.",
+    "Safe waste and hand washing."
+   ],
+   "A cough in one dog leads to isolation and a vet call.",
+   "Create a daily hygiene plan.",
+   "Plan lists frequency and method."
+  ],
+  [
+   "When to refer to a vet",
+   "Evaluate",
+   4,
+   "Know your limits.",
+   [
+    "Poisoning, injury, breathing trouble, long vomiting, seizures need a vet at once.",
+    "Do not give medicines unless a vet or owner instructs in writing.",
+    "Keep the clinic number visible."
+   ],
+   "A boarder calls the vet within 10 minutes for a dog that ate chocolate.",
+   "Write an emergency card.",
+   "Includes numbers, steps and owner contacts."
+  ],
+  [
+   "Services, scheduling and pricing",
+   "Analyse",
+   5,
+   "Match services to capacity.",
+   [
+    "Grooming, walking, boarding, day care; time per pet.",
+    "Costs: staff, supplies, transport, insurance, space.",
+    "Price to cover costs and margin."
+   ],
+   "A 60-minute groom has 90 minutes of table time.",
+   "Cost three services.",
+   "Totals correct; currency shown."
+  ],
+  [
+   "Law, insurance and ethics",
+   "Evaluate",
+   4,
+   "Check licences and duties.",
+   [
+    "Business licence, animal-welfare rules and insurance.",
+    "No cruelty or neglect; report abuse.",
+    "Honest advertising."
+   ],
+   "A provider obtains public-liability insurance before taking clients.",
+   "List rules for your place.",
+   "Sources listed."
+  ],
+  [
+   "Pilot and improve",
+   "Create",
+   5,
+   "Run 30 days with a few clients.",
+   [
+    "Track bookings, complaints, injuries, rebookings.",
+    "Fix top 3 issues.",
+    "Plan owner education and community tie-ups."
+   ],
+   "Rebookings reach 55% after report cards with photos.",
+   "Present your review.",
+   "Numbers real; fixes dated."
+  ]
+ ],
+ "quiz": [
+  [
+   "Name the five welfare needs.",
+   "Food and water, shelter, health, behaviour, company."
+  ],
+  [
+   "Why vaccine records?",
+   "To protect other animals."
+  ],
+  [
+   "Name a stress sign.",
+   "Panting, hiding or aggression."
+  ],
+  [
+   "When call a vet?",
+   "Poisoning, injury, breathing trouble, seizures, long vomiting."
+  ],
+  [
+   "Can you give medicine freely?",
+   "No, only as the owner or vet instructs in writing."
+  ],
+  [
+   "What goes on an owner form?",
+   "Details, vaccines, medicines, allergies, contacts, consent."
+  ],
+  [
+   "Why separate sick animals?",
+   "To stop spread."
+  ],
+  [
+   "Why insurance?",
+   "To cover injuries or damage."
+  ],
+  [
+   "What is table time?",
+   "Time in the room including cleaning."
+  ],
+  [
+   "What do you track in a pilot?",
+   "Bookings, complaints, injuries, rebookings."
+  ]
+ ],
+ "rubric": [
+  [
+   "Animal welfare",
+   "Gaps",
+   "Needs met",
+   "Needs met and monitored"
+  ],
+  [
+   "Owner records",
+   "Missing",
+   "Complete",
+   "Complete and securely stored"
+  ],
+  [
+   "Referral readiness",
+   "No plan",
+   "Card",
+   "Card tested with vet"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Pet groomer",
+   "Grooms and cares"
+  ],
+  [
+   "Dog walker or day-care assistant",
+   "Runs safe outings"
+  ],
+  [
+   "Vet clinic assistant (reception)",
+   "Books and records"
+  ],
+  [
+   "Boarding manager",
+   "Runs hygiene and rota"
+  ],
+  [
+   "Pet products seller",
+   "Advises owners"
+  ]
+ ],
+ "next": "customer service, bookkeeping for small business, animal first aid awareness.",
+ "local": "Licences and animal-welfare laws differ by place.",
+ "ladder": [
+  [
+   "Know the basics",
+   "L1: learner can name pet needs.",
+   "Show care card."
+  ],
+  [
+   "Know the rules and risks",
+   "L2: learner knows hygiene and referral limits.",
+   "Explain limits."
+  ],
+  [
+   "Prepare and set up",
+   "L3: learner can handle one pet safely.",
+   "Practise handling."
+  ],
+  [
+   "Run it",
+   "L4: learner can run a pet service day.",
+   "Role-play."
+  ],
+  [
+   "Specialise and measure",
+   "L5: learner can cost and price.",
+   "Cost sheet."
+  ],
+  [
+   "Lead a small team",
+   "L6: learner can lead a small team.",
+   "Cover rota."
+  ],
+  [
+   "Advise and audit others",
+   "L7: learner can audit a service.",
+   "Peer audit."
+  ]
+ ]
+}

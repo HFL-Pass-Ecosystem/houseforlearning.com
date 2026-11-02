@@ -1,0 +1,283 @@
+{
+ "id": "GL-51",
+ "title": "Senior At-Home Care",
+ "level": 4,
+ "desc": "Plan and deliver safe, respectful at-home support for older adults: daily living, safety, medicines reminders, dignity and when to call for help.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain the needs, rights and dignity of an older person at home."
+  ],
+  [
+   "Apply",
+   "Assist with daily routines safely."
+  ],
+  [
+   "Analyse",
+   "Find fall, fire and medicine risks in a home."
+  ],
+  [
+   "Evaluate",
+   "Judge when a situation needs a professional or emergency help."
+  ],
+  [
+   "Create",
+   "Build a written care routine and a family communication plan."
+  ]
+ ],
+ "task": "Produce a person-centred home care plan for a practice case, with a home safety check, daily routine, emergency card and carer wellbeing plan.",
+ "condition": "A practice case or a consenting family, a phone, forms, two peers and a qualified nurse or care mentor. Nursing procedures are outside scope.",
+ "standard": "Plan respects the person's wishes; safety check finds and fixes at least 8 risks; emergency card is complete; no clinical task is done outside training; peers rate Meets or better.",
+ "who": "Family carers, home-care assistants, community volunteers, care entrepreneurs.",
+ "req": "none",
+ "evidence": "care plan, home safety checklist, routine, emergency card, carer plan",
+ "modules": [
+  [
+   "Respect and dignity",
+   "Understand",
+   4,
+   "Care starts with the person, not the task.",
+   [
+    "Ask what they want; offer choices; use their name.",
+    "Protect privacy in washing, dressing and toilet care.",
+    "Never treat an adult like a child."
+   ],
+   "Mr Rao prefers tea at 7; the carer plans around it and keeps the bathroom door closed.",
+   "Write a \"what matters to me\" page with the person.",
+   "Page uses their words."
+  ],
+  [
+   "Home safety check",
+   "Analyse",
+   5,
+   "Most harm at home is preventable.",
+   [
+    "Falls: loose rugs, poor light, wet floors, no rails.",
+    "Fire and electrical hazards; gas safety.",
+    "Easy-to-reach items and clear paths."
+   ],
+   "A carer removes a loose mat and fits a night light, ending night-time stumbles.",
+   "Complete a checklist for one home.",
+   "At least 8 risks found, each with a fix and date."
+  ],
+  [
+   "Daily living support",
+   "Apply",
+   5,
+   "Support independence, not dependence.",
+   [
+    "Meals, drinks and nutrition; assist with mobility; hygiene.",
+    "Do with, not for, whenever possible.",
+    "Safe lifting: ask for training; use aids."
+   ],
+   "The carer sets out clothes in order and lets Mrs Iyer dress herself.",
+   "Plan a day routine with times.",
+   "Routine covers meals, fluids, movement, rest and social time."
+  ],
+  [
+   "Medicines and health reminders",
+   "Apply",
+   4,
+   "Carers remind; clinicians decide.",
+   [
+    "Use a pill organiser prepared by a pharmacist or nurse.",
+    "Record what was taken; never change doses.",
+    "Report new symptoms promptly."
+   ],
+   "A weekly box with morning and evening slots reduces missed doses.",
+   "Create a reminder chart and record sheet.",
+   "Chart matches the prescriber's list."
+  ],
+  [
+   "Mind, mood and memory",
+   "Apply",
+   4,
+   "Loneliness and forgetfulness are common.",
+   [
+    "Keep routine; use calendars and clocks; encourage activity.",
+    "Be patient; do not argue about facts when kind redirection works.",
+    "Watch for sudden confusion, which can mean illness."
+   ],
+   "A daily 15-minute walk and a call to a grandchild lifts mood.",
+   "Plan a weekly social schedule.",
+   "Includes five activities."
+  ],
+  [
+   "Emergencies and when to call",
+   "Evaluate",
+   4,
+   "Know the line between watch and act.",
+   [
+    "Call emergency services for chest pain, stroke signs, serious fall, breathing trouble.",
+    "Call the doctor for fever, new pain, poor eating.",
+    "Keep an emergency card at the door."
+   ],
+   "Face drooping and slurred speech: call emergency now, note the time.",
+   "Make an emergency card.",
+   "Includes numbers, allergies, medicines, contacts."
+  ],
+  [
+   "Family and carer wellbeing",
+   "Evaluate",
+   3,
+   "Carers burn out.",
+   [
+    "Share the load; take breaks; ask for respite.",
+    "Keep a shared log or group message.",
+    "Seek local support groups."
+   ],
+   "Siblings take alternate weekends; stress drops.",
+   "Write a carer plan.",
+   "Plan names who, when, what."
+  ],
+  [
+   "Review and improve",
+   "Create",
+   4,
+   "Care plans change as needs change.",
+   [
+    "Review monthly or after any event.",
+    "Track weight, sleep, mood, falls.",
+    "Celebrate good days."
+   ],
+   "After a fall, a rail and a physiotherapy visit are added.",
+   "Present your plan review.",
+   "Changes are dated and agreed with the person."
+  ]
+ ],
+ "quiz": [
+  [
+   "Why use their words?",
+   "It keeps dignity and choice."
+  ],
+  [
+   "Name three fall risks.",
+   "Loose rugs, poor light, wet floors."
+  ],
+  [
+   "Who decides doses?",
+   "The prescriber."
+  ],
+  [
+   "When call emergency?",
+   "Chest pain, stroke signs, serious fall, breathing trouble."
+  ],
+  [
+   "What is \"do with, not for\"?",
+   "Support independence by helping only as needed."
+  ],
+  [
+   "Name one mood tip.",
+   "Daily activity and social contact."
+  ],
+  [
+   "What is sudden confusion a sign of?",
+   "Possible illness; seek help."
+  ],
+  [
+   "What goes on an emergency card?",
+   "Numbers, allergies, medicines, contacts."
+  ],
+  [
+   "Why carer breaks?",
+   "To avoid burnout."
+  ],
+  [
+   "How often review?",
+   "Monthly or after any event."
+  ]
+ ],
+ "rubric": [
+  [
+   "Person-centred plan",
+   "Task-led",
+   "Respectful",
+   "Built from their words"
+  ],
+  [
+   "Home safety",
+   "Few risks",
+   "8 risks fixed",
+   "All risks fixed and rechecked"
+  ],
+  [
+   "Emergency readiness",
+   "No card",
+   "Card made",
+   "Card tested with family"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Home-care assistant",
+   "Supports daily living"
+  ],
+  [
+   "Senior companion",
+   "Provides company and activity"
+  ],
+  [
+   "Care coordinator",
+   "Plans visits"
+  ],
+  [
+   "Family care trainer",
+   "Teaches safe routines"
+  ],
+  [
+   "Care-at-home entrepreneur",
+   "Starts a small service"
+  ]
+ ],
+ "next": "first aid, wellbeing, customer service.",
+ "local": "Care rules, licences and background checks differ by place.",
+ "ladder": [
+  [
+   "Know the basics",
+   "L1: learner can name basic needs of an older person.",
+   "Start with respect."
+  ],
+  [
+   "Know the rules and risks",
+   "L2: learner knows dignity and safety rules.",
+   "Show safety signs."
+  ],
+  [
+   "Prepare and set up",
+   "L3: learner can complete a home safety check.",
+   "Practise a check."
+  ],
+  [
+   "Run it",
+   "L4: learner can deliver a daily routine.",
+   "Role-play."
+  ],
+  [
+   "Specialise and measure",
+   "L5: learner can handle medicines reminders and emergencies.",
+   "Emergency drills."
+  ],
+  [
+   "Lead a small team",
+   "L6: learner can coordinate a team.",
+   "Cover rota."
+  ],
+  [
+   "Advise and audit others",
+   "L7: learner can audit a care plan.",
+   "Peer audit."
+  ]
+ ]
+}

@@ -1,0 +1,283 @@
+{
+ "id": "GL-53",
+ "title": "Alternative Protein Food Products",
+ "level": 4,
+ "desc": "Plan a small food product built on plant, fungal or insect protein: recipe, safety, labelling, costing and honest claims.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain protein sources and the nutrition and allergy basics."
+  ],
+  [
+   "Apply",
+   "Scale a recipe and plan a safe process."
+  ],
+  [
+   "Analyse",
+   "Compare taste, cost and nutrition against a normal product."
+  ],
+  [
+   "Evaluate",
+   "Judge labels and claims."
+  ],
+  [
+   "Create",
+   "Run a tasting test and write a launch plan."
+  ]
+ ],
+ "task": "Develop one alternative-protein product to a tested recipe with hygiene plan, label draft, cost sheet and tasting results.",
+ "condition": "A clean kitchen or partner food unit, scales, a spreadsheet, 10 tasters, two peers and a food-trade mentor. Local food rules are checked.",
+ "standard": "Recipe is repeatable within 5% weight; allergen list is complete; hygiene plan passes; label meets local rules; cost per pack is shown; 10 tasters' scores recorded; peers rate Meets or better.",
+ "who": "Food entrepreneurs, cooks, product developers, hospitality staff.",
+ "req": "none",
+ "evidence": "recipe card, hygiene plan, label draft, cost sheet, tasting record",
+ "modules": [
+  [
+   "Protein sources",
+   "Understand",
+   4,
+   "Many sources can make a balanced protein.",
+   [
+    "Pulses, grains, soy, mushrooms-based protein, algae and insects.",
+    "Combine sources to give all amino acids.",
+    "Know the typical protein per 100 g."
+   ],
+   "Rice with lentils gives a more complete protein than either alone.",
+   "Make a table of 6 sources with protein per 100 g.",
+   "Values from labels with the date."
+  ],
+  [
+   "Nutrition and allergy",
+   "Analyse",
+   5,
+   "Healthy and safe for everyone.",
+   [
+    "Check iron, B12, calcium, salt and fat balance.",
+    "Allergens: soy, nuts, gluten, shellfish cross-reaction with insects.",
+    "Show allergens in bold on the label."
+   ],
+   "An insect-flour product warns people with shellfish allergy.",
+   "Check your recipe against an allergen list.",
+   "All allergens named."
+  ],
+  [
+   "Recipe development",
+   "Create",
+   6,
+   "Test small, repeat exactly.",
+   [
+    "Weigh everything; write steps with time and temperature.",
+    "Change one thing at a time.",
+    "Record batch numbers."
+   ],
+   "Version 3 uses 18% less salt and tastes the same.",
+   "Write a recipe card and make 3 batches.",
+   "Batches within 5% weight."
+  ],
+  [
+   "Hygiene and food safety",
+   "Apply",
+   5,
+   "Prevent harm before it happens.",
+   [
+    "Identify hazards and control points such as cooking temperature and cooling time.",
+    "Clean surfaces, tools and hands; separate raw and cooked.",
+    "Keep temperature and cleaning logs."
+   ],
+   "Cooked patties are cooled from 60 to 21 degrees within two hours.",
+   "Write a hygiene and control plan.",
+   "Controls measurable."
+  ],
+  [
+   "Labels and claims",
+   "Evaluate",
+   5,
+   "Say what is true.",
+   [
+    "Name, ingredients by weight, allergens, net weight, date, storage, maker.",
+    "Claims such as \"high protein\" need the numbers to match rules.",
+    "Use \"meat-free\" only when true."
+   ],
+   "A label says \"contains soy\" in bold and gives best-before date.",
+   "Draft a label.",
+   "Meets local rules per adviser check."
+  ],
+  [
+   "Costing and price",
+   "Analyse",
+   5,
+   "Know cost per pack.",
+   [
+    "Ingredients, packing, fuel, labour, loss, overhead.",
+    "Price above cost with a margin.",
+    "Compare to normal products."
+   ],
+   "Cost 42 INR; price 70 INR.",
+   "Build a cost sheet.",
+   "Totals correct; currency shown."
+  ],
+  [
+   "Taste test and feedback",
+   "Evaluate",
+   4,
+   "Real tasters, real scores.",
+   [
+    "10 tasters score taste, texture, look, fairness of price from 1 to 5.",
+    "Record comments; do not defend.",
+    "Tasters give consent and are asked about allergies."
+   ],
+   "Texture is scored 3.2; mixing time is adjusted.",
+   "Run a tasting test.",
+   "Scores and changes logged."
+  ],
+  [
+   "Launch plan",
+   "Create",
+   5,
+   "Small first sales.",
+   [
+    "Choose a channel: market, cafe, online.",
+    "Plan cold storage and delivery.",
+    "Plan packaging that can be reused or recycled."
+   ],
+   "Weekend market stall with samples sells 60 packs.",
+   "Write the launch plan.",
+   "Plan includes cost, channels and a review date."
+  ]
+ ],
+ "quiz": [
+  [
+   "Why combine protein sources?",
+   "To get all amino acids."
+  ],
+  [
+   "Name two allergens.",
+   "Soy and nuts (also gluten, shellfish cross-reaction)."
+  ],
+  [
+   "What goes on a label?",
+   "Name, ingredients, allergens, weight, date, storage, maker."
+  ],
+  [
+   "Why weigh ingredients?",
+   "For repeatable batches."
+  ],
+  [
+   "What is a control point?",
+   "A step like cooking temperature that prevents harm."
+  ],
+  [
+   "How cool cooked food?",
+   "Quickly, within the rule."
+  ],
+  [
+   "How many tasters here?",
+   "At least 10."
+  ],
+  [
+   "Name a cost item.",
+   "Ingredients, packing, fuel, labour, loss, overhead."
+  ],
+  [
+   "When say meat-free?",
+   "Only when true."
+  ],
+  [
+   "What do you log?",
+   "Batches, temperatures, cleaning."
+  ]
+ ],
+ "rubric": [
+  [
+   "Recipe consistency",
+   "Varies",
+   "Within 5%",
+   "Within 3% and documented"
+  ],
+  [
+   "Food safety",
+   "Gaps",
+   "Plan complete",
+   "Plan with logs"
+  ],
+  [
+   "Label and claims",
+   "Errors",
+   "Meets rules",
+   "Meets rules with adviser check"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Food product developer",
+   "Tests recipes"
+  ],
+  [
+   "Food-safety assistant",
+   "Keeps logs"
+  ],
+  [
+   "Small food maker",
+   "Sells at markets"
+  ],
+  [
+   "Kitchen supervisor",
+   "Runs production"
+  ],
+  [
+   "Label and compliance clerk",
+   "Prepares labels"
+  ]
+ ],
+ "next": "food industry, handmade goods, ecommerce growth.",
+ "local": "Food laws, labelling and licences differ by place.",
+ "ladder": [
+  [
+   "Know the basics",
+   "L1: learner can name protein sources.",
+   "Show samples."
+  ],
+  [
+   "Know the rules and risks",
+   "L2: learner knows allergens and hygiene.",
+   "Allergen list."
+  ],
+  [
+   "Prepare and set up",
+   "L3: learner can follow a recipe card.",
+   "Weigh together."
+  ],
+  [
+   "Run it",
+   "L4: learner can run a batch with logs.",
+   "Run a batch."
+  ],
+  [
+   "Specialise and measure",
+   "L5: learner can cost, label and test.",
+   "Cost sheet."
+  ],
+  [
+   "Lead a small team",
+   "L6: learner can lead a kitchen shift.",
+   "Cover rota."
+  ],
+  [
+   "Advise and audit others",
+   "L7: learner can audit a food plan.",
+   "Peer audit."
+  ]
+ ]
+}

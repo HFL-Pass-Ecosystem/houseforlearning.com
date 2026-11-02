@@ -1,0 +1,283 @@
+{
+ "id": "GL-54",
+ "title": "Lab-Grown Meat (Awareness Level)",
+ "level": 2,
+ "desc": "Understand how cultivated meat is made, what it means for safety, nutrition, ethics, jobs and the environment, and how to read claims.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain the steps of cell-cultivated meat in plain words."
+  ],
+  [
+   "Apply",
+   "Compare it with farmed and plant-based protein."
+  ],
+  [
+   "Analyse",
+   "Check claims about environment and cost."
+  ],
+  [
+   "Evaluate",
+   "Weigh safety, labelling and ethics."
+  ],
+  [
+   "Create",
+   "Draft a balanced one-page fact sheet."
+  ]
+ ],
+ "task": "Write a balanced one-page fact sheet on cultivated meat, with a comparison table and a claim checker.",
+ "condition": "A computer, public information, two peers and a mentor. No production or sales is planned.",
+ "standard": "Facts sourced and dated; benefits and unknowns both stated; approval status per place is named; no promotion; peers rate Meets or better.",
+ "who": "Students, food entrepreneurs, journalists, policy staff, curious consumers.",
+ "req": "none",
+ "evidence": "fact sheet, comparison table, claim checker",
+ "modules": [
+  [
+   "What it is",
+   "Understand",
+   2,
+   "Real animal cells grown in a vessel.",
+   [
+    "A small sample is taken; cells multiply in nutrients.",
+    "Scaffolds give shape; cells mature into tissue.",
+    "It is different from plant-based meat."
+   ],
+   "A bioreactor grows cells for several weeks into a patty.",
+   "Draw the steps.",
+   "Steps in order."
+  ],
+  [
+   "How it is made",
+   "Understand",
+   2,
+   "Stages from cell to product.",
+   [
+    "Cell line, growth medium, bioreactor, harvest, forming, cooking.",
+    "Growth medium once used animal serum; newer media avoid it.",
+    "Clean-room hygiene is key."
+   ],
+   "A pilot plant changes to a serum-free medium.",
+   "Make a process chart.",
+   "Contains six stages."
+  ],
+  [
+   "Safety and approval",
+   "Evaluate",
+   2,
+   "Approval differs by place.",
+   [
+    "Regulators review cell source, medium, process and allergens.",
+    "Only a few places have approved sales.",
+    "Labels must be clear."
+   ],
+   "A regulator approves one product after reviewing safety data.",
+   "List approval status for your place.",
+   "Source and date shown."
+  ],
+  [
+   "Nutrition and taste",
+   "Analyse",
+   2,
+   "Compare with other proteins.",
+   [
+    "Protein, fat, iron per 100 g.",
+    "Taste depends on fat and texture.",
+    "Processing may add salt."
+   ],
+   "A table shows similar protein but different fat.",
+   "Make a comparison table.",
+   "Numbers sourced."
+  ],
+  [
+   "Environment claims",
+   "Analyse",
+   2,
+   "Energy use and land use vary.",
+   [
+    "Compare land, water and emissions per kg.",
+    "Energy mix of the factory changes results.",
+    "Be careful with early estimates."
+   ],
+   "Results vary widely between studies; a fact sheet states a range.",
+   "Check two claims.",
+   "Sources compared."
+  ],
+  [
+   "Ethics and culture",
+   "Evaluate",
+   2,
+   "Different views deserve respect.",
+   [
+    "Animal welfare, religion and food culture views differ.",
+    "Farmers' livelihoods may be affected.",
+    "Fair access and price matter."
+   ],
+   "A community panel discusses halal and vegetarian views.",
+   "Write two paragraphs on two views.",
+   "Both fair."
+  ],
+  [
+   "Jobs and skills",
+   "Understand",
+   2,
+   "New roles may appear.",
+   [
+    "Cell biology technicians, process operators, food safety, quality, regulatory.",
+    "Skills from food and brewing carry across.",
+    "Training pathways at college level."
+   ],
+   "A brewery technician moves to a bioprocess role.",
+   "List five roles.",
+   "Roles with skills."
+  ],
+  [
+   "Write the fact sheet",
+   "Create",
+   2,
+   "Combine and test.",
+   [
+    "One page, plain words.",
+    "Include limits and unknowns.",
+    "Test with two readers."
+   ],
+   "Readers state three facts and two unknowns.",
+   "Finish and test.",
+   "Readers can repeat them."
+  ]
+ ],
+ "quiz": [
+  [
+   "What are cultivated meat cells?",
+   "Real animal cells grown in a vessel."
+  ],
+  [
+   "Is it plant-based?",
+   "No."
+  ],
+  [
+   "Name a stage.",
+   "Cell line, growth medium, bioreactor, harvest."
+  ],
+  [
+   "Who approves?",
+   "Food regulators in each place."
+  ],
+  [
+   "Why vary environment results?",
+   "Energy mix and process differ."
+  ],
+  [
+   "Name an ethics view.",
+   "Animal welfare, religion or farmers' livelihood."
+  ],
+  [
+   "What roles may exist?",
+   "Bioprocess technician, quality, regulatory."
+  ],
+  [
+   "Why state unknowns?",
+   "Early data is limited."
+  ],
+  [
+   "Why serum-free medium?",
+   "To avoid animal serum."
+  ],
+  [
+   "What should a label do?",
+   "Be clear about what it is."
+  ]
+ ],
+ "rubric": [
+  [
+   "Accuracy",
+   "Errors",
+   "Correct",
+   "Correct and sourced"
+  ],
+  [
+   "Balance",
+   "One-sided",
+   "Both sides",
+   "Both sides with unknowns"
+  ],
+  [
+   "Plain language",
+   "Jargon",
+   "Clear",
+   "Tested with readers"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Food-science trainee",
+   "Supports pilot lines"
+  ],
+  [
+   "Regulatory assistant",
+   "Tracks approvals"
+  ],
+  [
+   "Food communicator",
+   "Writes factual guides"
+  ],
+  [
+   "Quality technician",
+   "Checks hygiene"
+  ],
+  [
+   "Sustainability analyst",
+   "Compares footprints"
+  ]
+ ],
+ "next": "alternative protein food products, food industry, greenhouse gas auditing.",
+ "local": "Approval and labelling of cultivated meat differ by place.",
+ "ladder": [
+  [
+   "Know the basics",
+   "L1: learner can say what it is.",
+   "Draw steps."
+  ],
+  [
+   "Know the rules and risks",
+   "L2: learner knows process steps.",
+   "Process chart."
+  ],
+  [
+   "Prepare and set up",
+   "L3: learner can compare nutrition.",
+   "Table."
+  ],
+  [
+   "Run it",
+   "L4: learner can check approval status.",
+   "Approval status."
+  ],
+  [
+   "Specialise and measure",
+   "L5: learner can check claims.",
+   "Claim check."
+  ],
+  [
+   "Lead a small team",
+   "L6: learner can lead a briefing.",
+   "Briefing."
+  ],
+  [
+   "Advise and audit others",
+   "L7: learner can audit a fact sheet.",
+   "Peer audit."
+  ]
+ ]
+}
