@@ -22,3 +22,16 @@ C = dict(id='GL-12', title='DDoS and Cyber-Attack Prevention', group='Digital an
  local='Laws on computer misuse and breach reporting differ by country: know your reporting duty and deadline.',
  evidence='Your evidence: system map, normal-traffic table, hardening checklist, alert tests, restore log, response plan and drill report.',
  ladder=[('Basics of safe use', 'Strong passwords and updates. Notes: set up a password manager.'), ('Awareness', 'Spot phishing and scams. Notes: run a spot-the-scam quiz.'), ('Foundation', 'Harden one account set. Notes: second step everywhere.'), ('Practitioner', 'Monitor one service. Notes: logs and alerts.'), ('Specialist', 'This course. Notes: layers, drill and recovery.'), ('Advanced', 'Run a team and audit. Notes: add testing with permission.'), ('Super expert', 'Set method and teach teachers. Notes: review incidents yearly.')])
+
+C['deep'] = dict(mods=[
+ ('Thinking attacks only hit big firms.', 'A small shop is flooded by a rival\'s bought attack and loses a weekend of orders.', 'Which attack worries you most and why?'),
+ ('Not knowing normal traffic, so a spike cannot be seen.', 'Normal 300 per minute; alert at 1,500. Without that baseline the first sign is a phone call.', 'What is your normal peak?'),
+ ('Leaving default passwords on routers.', 'Default admin password changed on all three devices; log kept.', 'List devices with default settings changed.'),
+ ('Relying on one tool.', 'Caching removes 80% of load, rate limits stop one visitor from taking all.', 'Which layers do you have?'),
+ ('Alerts that nobody reads.', 'Alert goes to two phones; one acknowledges within 5 minutes in the test.', 'Who gets each alert?'),
+ ('Backups on the same server.', 'A copy is stored away from the site; the restore test uses it.', 'Where is your off-site copy?'),
+ ('A plan nobody can find.', 'Plan printed and stored in a shared folder with the host\'s phone number.', 'Where is your plan?'),
+ ('Drills that skip communication.', 'The drill adds a customer notice at minute 20.', 'What is your first public message?')],
+ gloss=[('DDoS', 'Distributed denial of service: many sources flood a service.'), ('Rate limit', 'A cap on requests per visitor.'), ('Cache', 'Saved copies that avoid hitting the main server.'), ('Second step', 'Extra sign-in proof beyond a password.'), ('Hardening', 'Removing weaknesses.'), ('Table-top drill', 'Rehearsing a plan on paper.')],
+ cases=[('The evening spike', 'Traffic jumps tenfold at 8 pm; the site is slow.', 'First three actions?', 'Confirm with logs, enable stricter filtering with the front service, tell your host, and post a notice.'),
+        ('The reused password', 'An admin password leaks from another site.', 'What do you do?', 'Reset it, force a second step, check logs for use, and review other accounts.')])

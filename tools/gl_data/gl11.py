@@ -22,3 +22,16 @@ C = dict(id='GL-11', title='Biometric Sensor and Security Solutions', group='Dig
  local='Biometric rules are strict in many places and may need a legal basis or a regulator\'s view: check before any pilot.',
  evidence='Your evidence: need statement, consent form and notice, enrolment log, error table, threat table, fairness comparison, recommendation.',
  ladder=[('Basics of access', 'Explain locks and ID. Notes: look at doors in your building.'), ('Awareness', 'Know biometrics and privacy. Notes: discuss when it feels fair.'), ('Foundation', 'Compare tools for one need. Notes: paper exercise.'), ('Practitioner', 'Run a small trial. Notes: simulator allowed.'), ('Specialist', 'This course. Notes: errors, privacy and fairness.'), ('Advanced', 'Design for sites and audits. Notes: add standards and testing labs.'), ('Super expert', 'Set method and teach teachers. Notes: publish templates and review yearly.')])
+
+C['deep'] = dict(mods=[
+ ('Believing a match score is a yes or no fact.', 'Score 78 against threshold 80 is a reject; at threshold 75 it passes. Same person, different rule.', 'What threshold did you choose and why?'),
+ ('Buying a reader before stating the need.', 'A store room with four users is served by cards at a fraction of the cost.', 'What is your need in one sentence?'),
+ ('Hiding the alternative path in small print.', 'The notice puts "ask for a card" in the first line, not the last.', 'Where is the alternative described?'),
+ ('Skipping the second enrolment sample.', 'Two samples cut false rejects from 6% to 3% in the trial.', 'How many samples per person?'),
+ ('Testing only with easy cases.', 'Dry-hand and wet-hand trials show rates of 2% and 11%.', 'What conditions did you test?'),
+ ('Forgetting power loss.', 'Fire rules need doors to release on power loss; the log records every release.', 'What happens to your door in a power cut?'),
+ ('Ignoring group differences.', 'Rates of 2% and 9% for two groups lead to a card option and a hand-care tip.', 'Which group had the highest rejection rate?'),
+ ('Keeping trial data "just in case".', 'Templates are deleted on the planned date and the log records it.', 'When will your trial data be deleted?')],
+ gloss=[('Template', 'Stored numbers made from a trait.'), ('Threshold', 'The score that decides pass or fail.'), ('False accept', 'Wrong person let in.'), ('False reject', 'Right person refused.'), ('Liveness check', 'A test that the trait comes from a live person.'), ('Enrolment', 'First recording of a person\'s trait.')],
+ cases=[('The reluctant employee', 'An employee does not want a fingerprint reader.', 'What must you do?', 'Offer an equal alternative at once, with no penalty, and record the choice.'),
+        ('The photo trick', 'A tester opens the face reader using a photo.', 'What does this show?', 'The system lacks a liveness check; add it or choose another method and record the weakness.')])

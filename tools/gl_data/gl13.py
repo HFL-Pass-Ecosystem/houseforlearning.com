@@ -22,3 +22,16 @@ C = dict(id='GL-13', title='Privacy Protection Practice', group='Digital and Tec
  local='Privacy laws and deadlines differ by place: the location notes below name the main law to check.',
  evidence='Your evidence: data map, risk list, notice, request log, breach plan, mock audit and 90-day plan.',
  ladder=[('Basics of privacy', 'Protect your own accounts. Notes: review phone settings.'), ('Awareness', 'Know rights and principles. Notes: share examples from daily life.'), ('Foundation', 'Map one small system. Notes: use a club or shop.'), ('Practitioner', 'This course. Notes: full review of a small organisation.'), ('Specialist', 'Handle complex data and suppliers. Notes: add contracts and transfers.'), ('Advanced', 'Lead a programme. Notes: policies, audits, training.'), ('Super expert', 'Set method and teach teachers. Notes: review laws yearly.')])
+
+C['deep'] = dict(mods=[
+ ('Thinking only names are personal data.', 'A photo, a car number and an online ID can also identify a person.', 'Which three items in your office are personal data?'),
+ ('Collecting "just in case".', 'A form drops date of birth and keeps "over 18"; fewer risks.', 'Which field can you remove?'),
+ ('A data map that skips email and phones.', 'The map adds staff phones and shared mailboxes; two forgotten stores appear.', 'Which store did you almost forget?'),
+ ('Scoring risk once and never acting.', 'Top three fixes are done in a week with dates.', 'What fixed which risk?'),
+ ('A notice nobody can read.', 'A reader aged 12 explains the notice back correctly.', 'What reading age did you aim at?'),
+ ('Ignoring the deadline for requests.', 'Request on day 2, reply on day 9, deadline 30 days.', 'What is your deadline?'),
+ ('No breach practice.', 'A lost laptop scenario shows nobody knows the owner of the plan; assign one.', 'Who is your breach owner?'),
+ ('Doing it once.', 'Quarterly review adds a new app to the map.', 'When is your next review?')],
+ gloss=[('Personal data', 'Any detail that identifies a person.'), ('Consent', 'Free, clear agreement.'), ('Data map', 'A list of what data is held and where.'), ('Retention', 'How long data is kept.'), ('Breach', 'Loss or leak of personal data.'), ('Data subject', 'The person the data is about.')],
+ cases=[('The old files', 'A school finds ten years of scanned IDs.', 'What now?', 'Check purpose and retention, delete what is not needed, secure what stays and update the map.'),
+        ('The access request', 'A parent asks for all data held on their child.', 'What steps?', 'Verify identity, search all stores in the map, reply within the deadline, and log it.')])
