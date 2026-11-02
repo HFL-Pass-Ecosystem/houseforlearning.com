@@ -1,0 +1,163 @@
+{
+ "price": [
+  22000,
+  9000,
+  10,
+  "project"
+ ],
+ "mods": {
+  "1": {
+   "title": "Find processes where AI pays",
+   "intro": "AI implementation means putting working models into daily processes.",
+   "pts": [
+    "Good candidates: repeat decisions with data, such as triage, forecasting, document checks, quality inspection.",
+    "Poor candidates: rare events, no data, high harm if wrong without a person checking.",
+    "Score ideas on value, data readiness and risk; pick the top one.",
+    "Write the success measure before building."
+   ],
+   "ex": "Invoice checking: 4,000 invoices a month, 6 minutes each by hand; target 70% auto-checked with human review of the rest.",
+   "act": "Score three processes and choose one.",
+   "std": "Scores have reasons."
+  },
+  "2": {
+   "title": "Know privacy, AI and contract rules",
+   "intro": "Know what you must follow.",
+   "pts": [
+    "Privacy law covers personal data used for training and decisions; get consent or another lawful basis.",
+    "Automated decisions about people need explanation and human review where the law or policy says so.",
+    "Contracts: data ownership, model ownership, performance claims, liability.",
+    "Sector rules such as health or finance add duties."
+   ],
+   "ex": "Row: 'Use client customer data to train | privacy law | consent and purpose limit | before training | written data agreement'.",
+   "act": "Build a rules table for one client.",
+   "std": "Rows sourced and dated."
+  },
+  "3": {
+   "title": "Prepare data and build a baseline",
+   "intro": "Data work is most of the work.",
+   "pts": [
+    "Collect, clean and label data; record where each field comes from.",
+    "Set a baseline: how well does the current process or a simple rule do?",
+    "Split data: train, validate, test; never test on training data.",
+    "Report accuracy, false alarms and misses."
+   ],
+   "ex": "Rule-only baseline catches 61%; model catches 83% with 9% false alarms on held-out test data.",
+   "act": "Build a baseline and a simple model on a public data set.",
+   "std": "Test results on held-out data."
+  },
+  "4": {
+   "title": "Price a project and show return",
+   "intro": "Return = savings minus cost.",
+   "pts": [
+    "Price: discovery, build, integration, training, support.",
+    "Customer saving: hours saved x cost per hour, error cost avoided.",
+    "Payback in months.",
+    "Offer a staged price with a decision point."
+   ],
+   "ex": "Project 22,000; ongoing 9,000... saving 4,000 invoices x 70% x 6 min = 280 hours a month × 30 = 8,400 a month. Payback about 3 months. Teaching figures in CAD.",
+   "act": "Build a payback model with a 50% savings case.",
+   "std": "Cases shown."
+  },
+  "5": {
+   "title": "Deploy, monitor and maintain",
+   "intro": "Models drift.",
+   "pts": [
+    "Pilot with humans in the loop.",
+    "Monitor accuracy and inputs weekly.",
+    "Retrain when accuracy falls.",
+    "Document for support."
+   ],
+   "ex": "Accuracy fell from 83% to 74% after a form change; retrained on new data.",
+   "act": "Design a monitoring sheet.",
+   "std": "Alert levels set."
+  },
+  "6": {
+   "title": "Sell and manage change",
+   "intro": "People adopt what helps them.",
+   "pts": [
+    "Start with a small win.",
+    "Train staff and listen.",
+    "Report results simply.",
+    "Ask for referrals."
+   ],
+   "ex": "Funnel: 20 talks, 6 workshops, 3 pilots.",
+   "act": "Run a workshop for a real team.",
+   "std": "Feedback recorded."
+  },
+  "7": {
+   "title": "Manage bias, errors and trust",
+   "intro": "Models make mistakes.",
+   "pts": [
+    "Test for unequal error across groups.",
+    "Provide appeal routes.",
+    "Keep logs.",
+    "Be honest about limits."
+   ],
+   "ex": "Error gap between two groups was 11%; fixed by rebalancing data.",
+   "act": "Write a fairness check.",
+   "std": "Check has numbers."
+  },
+  "8": {
+   "title": "Pilot and scale",
+   "intro": "Prove value.",
+   "pts": [
+    "90 days.",
+    "Measure saving, accuracy, satisfaction.",
+    "Stop rule: accuracy under baseline → stop.",
+    "Plan roll-out."
+   ],
+   "ex": "Saving 6,100 a month; proceed.",
+   "act": "Run pilot review.",
+   "std": "Review has decision."
+  }
+ },
+ "quiz": [
+  [
+   "What is a baseline?",
+   "Current method or simple rule used for comparison."
+  ],
+  [
+   "Why test on held-out data?",
+   "To avoid inflated accuracy."
+  ],
+  [
+   "Name two good AI process types.",
+   "Triage and forecasting (or document checks, inspection)."
+  ],
+  [
+   "Why keep a human in the loop at first?",
+   "To catch errors."
+  ],
+  [
+   "What is drift?",
+   "Model accuracy falling as data changes."
+  ],
+  [
+   "What is payback?",
+   "Cost divided by monthly saving."
+  ],
+  [
+   "Why check fairness?",
+   "Errors may hit groups unequally."
+  ],
+  [
+   "What data rights matter?",
+   "Consent and purpose for personal data."
+  ],
+  [
+   "When stop a pilot?",
+   "If accuracy is below baseline."
+  ],
+  [
+   "What goes in a contract?",
+   "Data and model ownership, claims and liability."
+  ]
+ ],
+ "jobs": [
+  "Data analyst",
+  "AI project coordinator",
+  "Machine learning technician",
+  "Solutions consultant",
+  "AI company founder"
+ ]
+}
