@@ -89,13 +89,78 @@ LADDER = {
          "L6 (degree): management accounting, finance and enterprise.", "L7 (postgraduate): strategy, audit or entrepreneurship at depth."],
 }
 
+
+# Solved examples keyed on unit title words (checked by hand). Other units keep the method frame only.
+WE = [
+ (r'adding within 20|addition to 100|^addition', "47 + 28. Tens: 40 + 20 = 60. Ones: 7 + 8 = 15. Add: 60 + 15 = 75. Check by taking away: 75 - 28 = 47."),
+ (r'subtraction|taking away', "83 - 47. Count up: 47 to 50 is 3, 50 to 80 is 30, 80 to 83 is 3. Total 3 + 30 + 3 = 36. Check: 36 + 47 = 83."),
+ (r'multiplication', "6 bags with 4 apples in each. Repeated adding: 4 + 4 + 4 + 4 + 4 + 4 = 24. As multiplication: 6 x 4 = 24. Check by turning it round: 4 x 6 = 24."),
+ (r'^division|sharing and grouping', "36 sweets shared equally among 4 children: 36 / 4 = 9 each. Check: 4 x 9 = 36."),
+ (r'place value|large numbers|knowing our numbers|numbers to 10 lakh|whole numbers', "5,38,246 has 5 lakh, 38 thousand, 2 hundreds, 4 tens and 6 ones. The 8 stands for 8,000. Rounded to the nearest thousand it is 5,38,000."),
+ (r'^fractions$|fractions and decimals|fractions: halves', "3/4 + 1/6. Common denominator 12. 9/12 + 2/12 = 11/12. Half of 12 is 6 and a quarter of 12 is 3."),
+ (r'decimals', "3.6 + 2.45. Line up the decimal points: 3.60 + 2.45 = 6.05. Check by estimate: 4 + 2 is about 6."),
+ (r'percentages|comparing quantities|ratio and proportion|direct and inverse', "20% of 350 = 350 x 20 / 100 = 70. Share 40 sweets in the ratio 3 : 5: 8 parts, each part is 5, so 15 and 25. If 5 pens cost 40, one costs 8 and 12 cost 96."),
+ (r'factors|hcf', "HCF and LCM of 12 and 18. 12 = 2 x 2 x 3 and 18 = 2 x 3 x 3. HCF = 2 x 3 = 6. LCM = 2 x 2 x 3 x 3 = 36. Check: 6 x 36 = 216 = 12 x 18."),
+ (r'circles and constructions|areas related to circles', "A circle with radius 7 cm, using 22/7 for pi. Area = 22/7 x 7 x 7 = 154 square cm. Circumference = 2 x 22/7 x 7 = 44 cm."),
+ (r'perimeter|area|mensuration|measurement and perimeter|surface', "Rectangle 12 cm by 5 cm. Perimeter = 2 x (12 + 5) = 34 cm. Area = 12 x 5 = 60 square cm. A cuboid 12 x 5 x 3 has volume 180 cubic cm."),
+ (r'lines and angles|angles and shapes', "Two angles on a straight line add to 180 degrees. If one is 65 degrees the other is 180 - 65 = 115 degrees."),
+ (r'triangle', "Angles of a triangle add to 180 degrees. If two angles are 50 and 60, the third is 180 - 110 = 70 degrees."),
+ (r'pair of linear', "x + y = 10 and x - y = 2. Add the equations: 2x = 12, so x = 6, then y = 4. Check: 6 + 4 = 10 and 6 - 4 = 2."),
+ (r'simple equations|linear equations in one|algebra beginnings|algebra introduction', "3x + 5 = 20. Take 5 from both sides: 3x = 15. Divide by 3: x = 5. Check: 3 x 5 + 5 = 20."),
+ (r'quadratic', "x squared - 5x + 6 = 0 factorises as (x - 2)(x - 3) = 0, so x = 2 or x = 3. Check x = 2: 4 - 10 + 6 = 0."),
+ (r'polynomials|factorisation|identities|algebraic expressions', "x squared - 9 = (x - 3)(x + 3). Check by expanding: x squared + 3x - 3x - 9 = x squared - 9."),
+ (r'statistics|data and averages|data handling|index numbers', "Data 4, 7, 7, 9, 13. Mean = 40 / 5 = 8. Median (middle value) = 7. Mode (most common) = 7."),
+ (r'probability', "A fair die has 6 faces and 3 are even, so P(even) = 3/6 = 1/2."),
+ (r'^time', "A train leaves at 9:45 and the journey takes 2 hours 30 minutes. 9:45 + 2:00 = 11:45, then + 30 minutes = 12:15."),
+ (r'money', "3 books at 45 each: 3 x 45 = 135. Paid 200, so change = 200 - 135 = 65."),
+ (r'length|mass|capacity', "2 m 35 cm = 200 + 35 = 235 cm. 1.5 kg = 1.5 x 1000 = 1500 g."),
+ (r'squares, square roots|exponents|real numbers|number systems|rational', "Square root of 196: 14 x 14 = 196, so the root is 14. 2 cubed x 2 to the 4 = 2 to the 7 = 128. 0.75 = 3/4 is rational; the square root of 2 is not."),
+ (r'trigonometr', "Right triangle, opposite side 3, hypotenuse 5, adjacent side 4. sin = 3/5 = 0.6, cos = 4/5 = 0.8, tan = 3/4 = 0.75."),
+ (r'coordinate|straight lines', "Points (1, 2) and (4, 6). Distance = square root of (3 squared + 4 squared) = square root of 25 = 5. Slope = (6 - 2) / (4 - 1) = 4/3."),
+ (r'differentiation|derivatives|limits', "d/dx of (3x squared + 5x) = 6x + 5; at x = 2 the gradient is 17. Limit as x goes to 2 of (x squared - 4)/(x - 2) = limit of (x + 2) = 4."),
+ (r'integral', "The integral of (6x + 5) dx = 3x squared + 5x + C. Check by differentiating: 6x + 5."),
+ (r'progression|sequences', "2, 5, 8, ... has a = 2 and d = 3. The 10th term = 2 + 9 x 3 = 29. The sum of 10 terms = 10/2 x (2 + 29) = 155."),
+ (r'sets', "A = {1, 2, 3} and B = {2, 3, 4}. Union = {1, 2, 3, 4}. Intersection = {2, 3}."),
+ (r'matrices', "[1 2; 3 4] + [0 1; 1 0] = [1 3; 4 4]. The determinant of [1 2; 3 4] = 1 x 4 - 2 x 3 = -2."),
+ (r'permutations', "Arrange 5 books in 3 places: 5 x 4 x 3 = 60 ways. Choose 3 of 5: 60 / 6 = 10 ways."),
+ (r'integers', "-7 + 12 = 5. (-3) x (-4) = 12. -5 - (-2) = -3."),
+ (r'patterns', "3, 7, 11, 15: add 4 each time, so next is 19. The nth term is 4n - 1; check n = 4: 15."),
+ (r'symmetry|solid shapes|shapes around', "A rectangle has 2 lines of symmetry; a square has 4; a cube has 6 faces, 12 edges and 8 vertices."),
+ (r'vectors', "a = (2, 3) and b = (1, -1). a + b = (3, 2). Twice a = (4, 6)."),
+ (r'binomial', "(1 + x) to the 4 = 1 + 4x + 6x squared + 4x cubed + x to the 4. The coefficients are row 4 of Pascal's triangle."),
+ (r'inequalities', "2x - 3 < 7. Add 3: 2x < 10. Divide by 2: x < 5. Check x = 4: 5 < 7, true."),
+ (r'complex', "(2 + 3i)(1 - i) = 2 - 2i + 3i - 3i squared = 2 + i + 3 = 5 + i, because i squared = -1."),
+ (r'induction', "Show 1 + 2 + ... + n = n(n + 1)/2. n = 1: 1 = 1. Assume it holds for k. Add k + 1: k(k + 1)/2 + (k + 1) = (k + 1)(k + 2)/2, which is the rule for k + 1. So it holds for all n."),
+ (r'euclid', "Axiom: things equal to the same thing are equal to each other. So if AB = CD and CD = EF then AB = EF."),
+ (r'congruence', "SAS: two triangles each with sides 5 cm and 7 cm and a 60 degree angle between them are congruent."),
+ (r'relations, functions|functions', "f(x) = 2x + 1. f(3) = 7. For input 0, 1, 2 the outputs are 1, 3, 5, so each input has exactly one output."),
+ (r'motion', "Speed = distance / time. A bus covers 120 km in 2 hours: 120 / 2 = 60 km/h. Starting at 0 and reaching 20 m/s in 5 s means acceleration = 20 / 5 = 4 m/s squared."),
+ (r'force', "Force = mass x acceleration. A 5 kg trolley accelerating at 2 m/s squared needs F = 5 x 2 = 10 N."),
+ (r'work and energy|gravitation', "Work = force x distance. 20 N over 3 m = 60 J. Kinetic energy of 2 kg at 3 m/s = 1/2 x 2 x 9 = 9 J."),
+ (r'sound', "Echo: sound at 340 m/s returns after 2 s, so it travelled 680 m there and back, and the wall is 340 m away."),
+ (r'electric|current', "V = I x R. A 6 V cell across a 2 ohm resistor gives I = 6 / 2 = 3 A."),
+ (r'matter|solution|mixture', "10 g of salt in 90 g of water: solution mass 100 g, so concentration = 10 / 100 x 100 = 10 percent by mass."),
+ (r'atoms|molecules|chemical', "Water is H2O: 2 hydrogen atoms and 1 oxygen atom. Mass = 2 x 1 + 16 = 18 units. Check atoms balance on both sides of an equation."),
+ (r'cell|tissue', "Plant cells have a cell wall and chloroplasts; animal cells do not. A tissue is a group of similar cells doing one job, for example muscle tissue for movement."),
+ (r'light|reflection', "Law of reflection: the angle of incidence equals the angle of reflection. A ray hitting a mirror at 30 degrees to the normal leaves at 30 degrees."),
+ (r'acids|salts', "A solution that turns blue litmus red is an acid. Acid + base gives salt + water, for example hydrochloric acid + sodium hydroxide gives sodium chloride + water."),
+ (r'photosynthesis|plants', "Carbon dioxide + water, in light and with chlorophyll, gives glucose + oxygen. Test: a leaf kept in the dark makes no starch."),
+ (r'phonics|spelling', "Sound out each part: s-t-ay stays; r-ai-n rain; b-oa-t boat. Vowel pairs ai, ay, oa, ee make one sound. Write three more words that share one pair."),
+ (r'nouns', "In 'Mira has a dog called Bruno', 'dog' is a common noun, 'Mira' and 'Bruno' are proper nouns and need capital letters."),
+ (r'punctuation', "'what is your name' becomes 'What is your name?' - capital letter at the start and a question mark at the end. 'I have a pen a book and a bag' needs commas: 'I have a pen, a book and a bag.'"),
+]
+def solved(title):
+    for pat, txt in WE:
+        if re.search(pat, title.lower()): return txt
+    return None
+
 def modules(rows, kind, bd):
     f = FR[kind]; out = []
     for i, r in enumerate(rows):
         o = r['outcome'].split(' (grade')[0].strip(); t = r['unit']; b = bloom(o)
         out.append(dict(n=i + 1, title=t, bloom=b, weeks=[int(r['first_week']), int(r['last_week'])], hours=int(r['weeks']) * 3, outcome=o,
                         intro=f"In this unit you work on '{t}', taught in a way that is {bd['w']}. The target is clear: {o}. You move from seeing it, to saying it, to doing it alone.",
-                        points=[s.format(t=t, o=o) for s in f['steps']], example=f['ex'].format(t=t, o=o),
+                        points=[s.format(t=t, o=o) for s in f['steps']], example=((('Solved: ' + solved(t) + ' Method: ') if solved(t) and kind in ('maths', 'sci', 'lang') else '') + f['ex'].format(t=t, o=o)),
                         activity=f"About {bd['t']} of class work, then one short practice task for home. Keep evidence: {bd['ev']}.",
                         standard=f"{o[:1].upper() + o[1:]}: {bd['std']}."))
     return out

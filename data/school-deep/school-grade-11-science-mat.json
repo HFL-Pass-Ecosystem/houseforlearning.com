@@ -29,7 +29,7 @@
     "Use it: use set notation, relations and functions. Start with one easy question, then one with a real-life story.",
     "Check it: use a second method, estimate, or work backwards to test your answer."
    ],
-   "example": "Model run for 'Sets and relations'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "example": "Solved: A = {1, 2, 3} and B = {2, 3, 4}. Union = {1, 2, 3, 4}. Intersection = {2, 3}. Method: Model run for 'Sets and relations'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Use set notation, relations and functions: at least 70 percent on an exam-style task, with the method shown."
   },
@@ -50,7 +50,7 @@
     "Use it: use identities and graphs of trigonometric functions. Start with one easy question, then one with a real-life story.",
     "Check it: use a second method, estimate, or work backwards to test your answer."
    ],
-   "example": "Model run for 'Trigonometric functions'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "example": "Solved: Right triangle, opposite side 3, hypotenuse 5, adjacent side 4. sin = 3/5 = 0.6, cos = 4/5 = 0.8, tan = 3/4 = 0.75. Method: Model run for 'Trigonometric functions'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Use identities and graphs of trigonometric functions: at least 70 percent on an exam-style task, with the method shown."
   },
@@ -71,7 +71,7 @@
     "Use it: prove statements by induction. Start with one easy question, then one with a real-life story.",
     "Check it: use a second method, estimate, or work backwards to test your answer."
    ],
-   "example": "Model run for 'Principle of mathematical induction'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "example": "Solved: Show 1 + 2 + ... + n = n(n + 1)/2. n = 1: 1 = 1. Assume it holds for k. Add k + 1: k(k + 1)/2 + (k + 1) = (k + 1)(k + 2)/2, which is the rule for k + 1. So it holds for all n. Method: Model run for 'Principle of mathematical induction'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Prove statements by induction: at least 70 percent on an exam-style task, with the method shown."
   },
@@ -92,7 +92,7 @@
     "Use it: operate on complex numbers and solve quadratics. Start with one easy question, then one with a real-life story.",
     "Check it: use a second method, estimate, or work backwards to test your answer."
    ],
-   "example": "Model run for 'Complex numbers and quadratic equations'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "example": "Solved: x squared - 5x + 6 = 0 factorises as (x - 2)(x - 3) = 0, so x = 2 or x = 3. Check x = 2: 4 - 10 + 6 = 0. Method: Model run for 'Complex numbers and quadratic equations'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Operate on complex numbers and solve quadratics: at least 70 percent on an exam-style task, with the method shown."
   },
@@ -113,7 +113,7 @@
     "Use it: solve inequalities and count arrangements. Start with one easy question, then one with a real-life story.",
     "Check it: use a second method, estimate, or work backwards to test your answer."
    ],
-   "example": "Model run for 'Linear inequalities and permutations and combinations'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "example": "Solved: Arrange 5 books in 3 places: 5 x 4 x 3 = 60 ways. Choose 3 of 5: 60 / 6 = 10 ways. Method: Model run for 'Linear inequalities and permutations and combinations'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Solve inequalities and count arrangements: at least 70 percent on an exam-style task, with the method shown."
   },
@@ -134,7 +134,7 @@
     "Use it: expand binomials and sum series. Start with one easy question, then one with a real-life story.",
     "Check it: use a second method, estimate, or work backwards to test your answer."
    ],
-   "example": "Model run for 'Binomial theorem and sequences and series'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "example": "Solved: 2, 5, 8, ... has a = 2 and d = 3. The 10th term = 2 + 9 x 3 = 29. The sum of 10 terms = 10/2 x (2 + 29) = 155. Method: Model run for 'Binomial theorem and sequences and series'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Expand binomials and sum series: at least 70 percent on an exam-style task, with the method shown."
   },
@@ -155,7 +155,7 @@
     "Use it: use equations of lines, circles and conics. Start with one easy question, then one with a real-life story.",
     "Check it: use a second method, estimate, or work backwards to test your answer."
    ],
-   "example": "Model run for 'Straight lines and conic sections'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "example": "Solved: Points (1, 2) and (4, 6). Distance = square root of (3 squared + 4 squared) = square root of 25 = 5. Slope = (6 - 2) / (4 - 1) = 4/3. Method: Model run for 'Straight lines and conic sections'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Use equations of lines, circles and conics: at least 70 percent on an exam-style task, with the method shown."
   },
@@ -176,7 +176,7 @@
     "Use it: find simple limits and derivatives. Start with one easy question, then one with a real-life story.",
     "Check it: use a second method, estimate, or work backwards to test your answer."
    ],
-   "example": "Model run for 'Limits and derivatives, introduction'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "example": "Solved: d/dx of (3x squared + 5x) = 6x + 5; at x = 2 the gradient is 17. Limit as x goes to 2 of (x squared - 4)/(x - 2) = limit of (x + 2) = 4. Method: Model run for 'Limits and derivatives, introduction'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Find simple limits and derivatives: at least 70 percent on an exam-style task, with the method shown."
   },
@@ -197,7 +197,7 @@
     "Use it: find variance and calculate probability. Start with one easy question, then one with a real-life story.",
     "Check it: use a second method, estimate, or work backwards to test your answer."
    ],
-   "example": "Model run for 'Statistics and probability'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "example": "Solved: Data 4, 7, 7, 9, 13. Mean = 40 / 5 = 8. Median (middle value) = 7. Mode (most common) = 7. Method: Model run for 'Statistics and probability'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Find variance and calculate probability: at least 70 percent on an exam-style task, with the method shown."
   }
