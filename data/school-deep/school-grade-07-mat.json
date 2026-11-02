@@ -304,7 +304,7 @@
    "steps": [
     "Step 1, Parallelogram: base 12 cm and perpendicular height 7 cm. Area = base x height = 12 x 7 = 84 cm2. Use the height at right angles to the base, not the slanted side.",
     "Step 2, Triangle: base 10 cm and height 6 cm. Area = 1/2 x 10 x 6 = 30 cm2. This is half of a parallelogram of the same base and height, 60 cm2.",
-    "Step 3, Circle with radius 7 cm using pi = 22/7: circumference = 2 x 22/7 x 7 = 44 cm. Area = 22/7 x 7 x 7 = 22 x 7 = 154 cm2. Check: 154 is a little less than the square of side 14 = 196.",
+    "Step 3, Circle with radius 7 cm using pi = 22/7: circumference = 2 x 22/7 x 7 = 44 cm. Area = 22/7 x 7 x 7 = 22 x 7 = 154 cm2. Check: the circle fits inside the square of side 14, area 196, and 154 is smaller, about pi/4 of 196.",
     "Step 4, Circle from the diameter: diameter 20 cm gives radius 10 cm. With pi = 3.14, circumference = 3.14 x 20 = 62.8 cm and area = 3.14 x 100 = 314 cm2.",
     "Step 5, Word problem: a circular park has radius 14 m. Area = 22/7 x 14 x 14 = 22 x 2 x 14 = 616 m2. Fencing the edge needs 2 x 22/7 x 14 = 88 m.",
     "Step 6, Your turn: find the area of a parallelogram with base 9 cm and height 5 cm, and the circumference and area of a circle of radius 21 cm. Answer: 45 cm2; 132 cm and 1,386 cm2."

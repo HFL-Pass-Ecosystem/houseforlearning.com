@@ -416,7 +416,7 @@ def solved(title):
 # Unit-specific solved working, one file per subject group: data/school-deep-solved/out-N.json {unit_id: {"steps": [...]}}.
 import glob as _glob
 SOLVED_STEPS = {}
-for _f in sorted(_glob.glob(str(B.Dt / 'school-deep-solved' / 'out-*.json'))):
+for _f in sorted(_glob.glob(str(B.Dt / 'school-deep-solved' / 'out-*.json'))) + sorted(_glob.glob(str(B.Dt / 'school-deep-solved' / 'fix-*.json'))):
     try: SOLVED_STEPS.update(json.load(open(_f)))
     except Exception as _e: print('skip', _f, _e)
 def _steps(uid, subj):

@@ -37,7 +37,7 @@
     "Step 2, Find the boiling point elevation. delta Tb = Kb m = 0.52 x 0.2 = 0.104 K, so the solution boils at 100.104 C. Freezing point depression with Kf = 1.86: delta Tf = 0.372 K, freezing at -0.372 C.",
     "Step 3, Calculate molar mass from osmotic pressure. A solution of 2 g solute in 1 L gives pi = 0.0246 atm at 300 K. M = wRT / (pi V) = 2 x 0.0821 x 300 / 0.0246 = 2002 g/mol, a polymer-like value.",
     "Step 4, Apply the van't Hoff factor. 0.1 m NaCl has i near 2, so delta Tf = 2 x 1.86 x 0.1 = 0.372 K, twice that of glucose at 0.1 m. Relative lowering of vapour pressure equals the solute mole fraction.",
-    "Step 5, Calculate a cell potential. Zn + Cu2+ gives Zn2+ + Cu. E cell = 0.34 - (-0.76) = 1.10 V. Nernst at 298 K: E = 1.10 - (0.0592/2) log([Zn2+]/[Cu2+]). With [Zn2+] = 1 and [Cu2+] = 0.01, E = 1.10 + 0.0592 = 1.159 V.",
+    "Step 5, Calculate a cell potential. Zn + Cu2+ gives Zn2+ + Cu. E cell = 0.34 - (-0.76) = 1.10 V. Nernst at 298 K: E = 1.10 - (0.0592/2) log([Zn2+]/[Cu2+]). With [Zn2+] = 0.01 and [Cu2+] = 1, E = 1.10 + 0.0592 = 1.159 V.",
     "Step 6, Your turn: find delta Tf for 0.5 m glucose in water (Kf = 1.86). Answer: 1.86 x 0.5 = 0.93 K, so freezing at -0.93 C."
    ]
   },
