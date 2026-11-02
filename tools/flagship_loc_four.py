@@ -104,7 +104,7 @@ def modules(L):
       f'The global list has {len(TOPICS)} sectors in {len(CL)} clusters. Pick by local fit, not by fashion.',
       [f'Cluster {k}, {n}: {L["clus"][k]}' for k, n, _ in CL[:5]] + [f'Cluster {k}, {n}: {L["clus"][k]}' for k, n, _ in CL[5:]],
       f'Scoring example: pick three sectors, score each 1 to 5 on local demand, skills you hold, start-up cost, rules and partner access. A sector that scores 5 on demand but 1 on rules is a later project, not a first one. Pick the sector with the highest total and a rules score of 3 or more.',
-      'Score six sectors from at least three clusters. Choose one and write the reason in three lines.',
+      'Rank six sectors from at least three clusters. Choose one and write the reason in three lines.',
       'Six sectors scored on five criteria; the choice has a stated reason; any regulated sector is marked as planning only.'))
     M.append((THEMES[2][0], THEMES[2][1], THEMES[2][2],
       f'Rules differ by place. {CHECK}', L['reg'],
@@ -119,7 +119,7 @@ def modules(L):
     M.append((THEMES[4][0], THEMES[4][1], THEMES[4][2],
       f'Go where your customers already are, in the language they use. Language: {L["lang"]}.', L['cust'],
       f'Test plan: show the offer to 20 real people through two channels over two weeks; count enquiries, replies and first orders. Example result: 20 shown, 6 enquiries, 2 orders: a 10% order rate. Change one thing (price or wording) and test again.',
-      'Run a two-channel test with 20 people. Record results in a table and write the next change.',
+      'Test two channels with 20 people. Record results in a table and write the next change.',
       'Test has a start and end date; results are counted, not guessed; one change is chosen and justified.'))
     unit = L['unit']
     utxt = f'{bu} units per month (one unit = {unit})' if L.get('unit_one') else f'{bu} {unit} per month'
