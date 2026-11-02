@@ -18,6 +18,10 @@ def page(fn, title, desc, h1, lead, body, crumbs):
     main = (f'<main id="main" tabindex="-1"><section class="hero" aria-labelledby="h1"><div class="wrap hero-grid solo"><div><p class="kicker">executive programme</p>'
             f'<h1 id="h1">{e(h1)}</h1><p>{e(lead)}</p></div></div></section>{body}</main>')
     t = re.sub(r'<main id="main".*?</main>', lambda m: main, t, count=1, flags=re.S)
+    if 'details class="mod"' in body:
+        # test pay-to-access: Part 1 is the free preview; assets/access.js locks the rest until the test payment
+        if 'assets/courses.css' not in t: t = t.replace('<link rel="stylesheet" href="assets/site.css">', '<link rel="stylesheet" href="assets/site.css">\n<link rel="stylesheet" href="assets/courses.css">', 1)
+        if 'assets/access.js' not in t: t = t.replace('</body>', '<script src="assets/access.js" defer></script>\n</body>', 1)
     (S / fn).write_text(t)
 
 def sec(cls, i, kick, h2, inner):
