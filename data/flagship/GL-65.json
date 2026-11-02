@@ -156,15 +156,15 @@
  "quiz": [
   [
    "What are scope 1, 2 and 3?",
-   "Direct, purchased energy, other chain emissions. (Covered in module 1: Why measure. To pass that module: Peer understands.)"
+   "Direct, purchased energy, other chain emissions. (Covered in module 1: Why measure emissions. To pass that module: Peer understands.)"
   ],
   [
    "What is CO2e?",
-   "CO2 equivalent of other gases. (Covered in module 2: Boundaries and scopes. To pass that module: Written.)"
+   "CO2 equivalent of other gases. (Covered in module 2: Boundaries and scopes. To pass that module: Written and justified.)"
   ],
   [
    "Emissions formula?",
-   "Activity data x emission factor. (Covered in module 3: Activity data. To pass that module: Sources noted.)"
+   "Activity data x emission factor. (Covered in module 3: Collecting activity data. To pass that module: Sources noted.)"
   ],
   [
    "Why record sources?",
@@ -172,7 +172,7 @@
   ],
   [
    "Name a scope 3 category.",
-   "Purchased goods, travel, commuting or waste. (Covered in module 5: Scope 3. To pass that module: Method stated.)"
+   "Purchased goods, travel, commuting or waste. (Covered in module 5: Scope 3 estimation. To pass that module: Method stated.)"
   ],
   [
    "Double counting?",
@@ -253,39 +253,39 @@
  "local": "Reporting rules and emission factors differ by place and year.",
  "ladder": [
   [
-   "Why measure",
-   "L1: learner can say what CO2e means. Focus module: Why measure (Understand, 3 h). You cannot cut what you do not count. Key points: Greenhouse gases trap heat; CO2 is the main one. CO2e converts other gases to CO2 equivalent. Reporting supports cost savings and customers.",
-   "Teach: open with the worked example. Methane has a larger warming effect than CO2 per tonne. Then set the activity: Explain CO2e. Mark against the standard: Peer understands. Check at this level: What are scope 1, 2 and 3? Model answer: Direct, purchased energy, other chain emissions. Concept."
+   "Why measure emissions",
+   "L1: learner can say what CO2e means. Focus module: Why measure emissions (Understand, 3 h). You cannot reduce what you do not count. Key points: Greenhouse gases trap heat; carbon dioxide is the main one. CO2e converts other gases to CO2 equivalent using warming factors. Reporting supports cost saving, customers and rules. Use consistent, recognised methods.",
+   "Teach: open with the worked example. Methane has a larger warming effect than CO2 per tonne, so a leaking gas line is expressed as tonnes CO2e. Then set the activity: Explain CO2e to a peer. Mark against the standard: Peer understands. Check at this level: What are scope 1, 2 and 3? Model answer: Direct, purchased energy, other chain emissions."
   ],
   [
    "Boundaries and scopes",
-   "L2: learner knows scopes. Focus module: Boundaries and scopes (Understand, 4 h). Decide what is in. Key points: Organisational boundary: control or ownership. Scope 1 direct; scope 2 purchased energy; scope 3 other chain. Write what is excluded.",
-   "Teach: open with the worked example. Company vehicles are scope 1; electricity is scope 2. Then set the activity: Set a boundary. Mark against the standard: Written. Check at this level: What is CO2e? Model answer: CO2 equivalent of other gases. Scopes."
+   "L2: learner knows scopes. Focus module: Boundaries and scopes (Understand, 4 h). Decide what is in and what is out. Key points: Organisational boundary: control or ownership. Scope 1: direct emissions; scope 2: purchased electricity, heat or cooling; scope 3: other chain emissions. Write what is excluded and why. Keep the boundary consistent year to year.",
+   "Teach: open with the worked example. Company vehicles are scope 1; electricity is scope 2; business flights are scope 3. Then set the activity: Set a boundary for a practice organisation. Mark against the standard: Written and justified. Check at this level: What is CO2e? Model answer: CO2 equivalent of other gases."
   ],
   [
-   "Activity data",
-   "L3: learner can collect data. Focus module: Activity data (Apply, 5 h). Collect clean data. Key points: Bills, meters, fuel logs, travel records. Units must match: litres, kWh, km. Record source and date.",
-   "Teach: open with the worked example. Fuel invoices give 1,200 litres. Then set the activity: Collect data for a case. Mark against the standard: Sources noted. Check at this level: Emissions formula? Model answer: Activity data x emission factor. Data."
+   "Collecting activity data",
+   "L3: learner can collect data. Focus module: Collecting activity data (Apply, 5 h). Good data comes first. Key points: Bills, meters, fuel logs, travel records. Units must match: litres, kWh, km. Record source and date. Keep invoices.",
+   "Teach: open with the worked example. Fuel invoices give 1,200 litres of diesel for the year. Then set the activity: Collect data for a case. Mark against the standard: Sources noted. Check at this level: Emissions formula? Model answer: Activity data x emission factor."
   ],
   [
    "Emission factors",
-   "L4: learner can calculate. Focus module: Emission factors (Apply, 5 h). Convert data. Key points: Emissions = activity data x factor. Use recent, local factors. Record version.",
-   "Teach: open with the worked example. 1,200 L x 2.68 kg CO2 per litre = 3,216 kg. Then set the activity: Calculate five lines. Mark against the standard: Maths correct. Check at this level: Why record sources? Model answer: To audit. Maths."
+   "L4: learner can calculate. Focus module: Emission factors (Apply, 5 h). Convert activity to emissions. Key points: Emissions = activity data x factor. Use recent, local factors. Record version and source. Check units.",
+   "Teach: open with the worked example. 1,200 L x 2.68 kg CO2 per litre = 3,216 kg CO2. Then set the activity: Calculate five lines. Mark against the standard: Maths correct. Check at this level: Why record sources? Model answer: To audit."
   ],
   [
-   "Scope 3",
-   "L5: learner can find hotspots. Focus module: Scope 3 (Analyse, 5 h). The big chain. Key points: Purchased goods, travel, commuting, waste. Start with the largest categories. Use estimates and say so.",
-   "Teach: open with the worked example. Travel is 22% of the total. Then set the activity: Estimate two categories. Mark against the standard: Method stated. Check at this level: Name a scope 3 category. Model answer: Purchased goods, travel, commuting or waste. Hotspots."
+   "Scope 3 estimation",
+   "L5: learner can find hotspots. Focus module: Scope 3 estimation (Analyse, 5 h). The chain is often the largest part. Key points: Purchased goods, travel, commuting, waste. Start with largest categories. Use estimates and say so. Ask suppliers for data.",
+   "Teach: open with the worked example. Travel is 22 per cent of the total; staff commuting 11 per cent. Then set the activity: Estimate two categories. Mark against the standard: Method stated. Check at this level: Name a scope 3 category. Model answer: Purchased goods, travel, commuting or waste."
   ],
   [
    "Hotspots and targets",
-   "L6: learner can lead an inventory. Focus module: Hotspots and targets (Analyse, 4 h). Where to act. Key points: Rank sources. Set reduction targets and dates. Cost the actions.",
-   "Teach: open with the worked example. Efficient lighting cuts 8% for a payback of 2 years. Then set the activity: Draw a hotspot chart. Mark against the standard: Ranked. Check at this level: Double counting? Model answer: Counting the same emission twice. Lead."
+   "L6: learner can lead an inventory. Focus module: Hotspots and targets (Analyse, 4 h). Decide where to act. Key points: Rank sources. Set reduction targets and dates. Cost the actions. Track progress.",
+   "Teach: open with the worked example. Efficient lighting cuts 8 per cent for a payback of 2 years. Then set the activity: Draw a hotspot chart. Mark against the standard: Ranked. Check at this level: Double counting? Model answer: Counting the same emission twice."
   ],
   [
    "Report and verify",
-   "L7: learner can audit. Focus module: Report and verify (Create, 4 h). Share honestly. Key points: Summary, method, limits. Independent review. Update yearly.",
-   "Teach: open with the worked example. The report states excluded sources. Then set the activity: Write the report. Mark against the standard: Reproducible. Check at this level: Why local factors? Model answer: Grids and fuels differ. Peer audit."
+   "L7: learner can audit. Focus module: Report and verify (Create, 4 h). Share honestly. Key points: Summary, method, limits. Independent review. Update yearly. Publish what you can.",
+   "Teach: open with the worked example. The report states excluded sources and the data quality rating. Then set the activity: Write the report. Mark against the standard: Reproducible. Check at this level: Why local factors? Model answer: Grids and fuels differ."
   ]
  ]
 }

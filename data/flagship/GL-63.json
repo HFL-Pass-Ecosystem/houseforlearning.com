@@ -156,27 +156,27 @@
  "quiz": [
   [
    "Order of waste actions?",
-   "Reduce, reuse, recycle. (Covered in module 1: The waste problem. To pass that module: List with counts.)"
+   "Reduce, reuse, recycle. (Covered in module 1: The plastic waste problem. To pass that module: List has at least 15 items with counts and the top three are highlighted.)"
   ],
   [
    "Why microplastics matter?",
-   "They enter food and water. (Covered in module 2: Types of plastic and codes. To pass that module: At least 9 correct.)"
+   "They enter food and water. (Covered in module 2: Plastic types and codes. To pass that module: At least 9 sorted correctly.)"
   ],
   [
    "Compostable equals biodegradable?",
-   "No. (Covered in module 3: Alternatives. To pass that module: Pros and cons.)"
+   "No. (Covered in module 3: Alternative materials. To pass that module: At least four options compared.)"
   ],
   [
    "Name a test.",
-   "Strength, leak, heat or shelf life. (Covered in module 4: Testing. To pass that module: Table complete.)"
+   "Strength, leak, heat or shelf life. (Covered in module 4: Testing alternatives. To pass that module: Table has repeated results and a conclusion.)"
   ],
   [
    "Life-cycle stages?",
-   "Material, making, transport, use, end of life. (Covered in module 5: Life-cycle thinking. To pass that module: Method stated.)"
+   "Material, making, transport, use, end of life. (Covered in module 5: Life-cycle thinking. To pass that module: Method and sources stated.)"
   ],
   [
    "Why cost per use?",
-   "Reuse items spread cost. (Covered in module 6: Claims and labels. To pass that module: Claims checked.)"
+   "Reuse items spread cost. (Covered in module 6: Claims and labels. To pass that module: Each review lists evidence required.)"
   ],
   [
    "Name a label risk.",
@@ -253,39 +253,39 @@
  "local": "Packaging, food-contact and waste rules differ by place.",
  "ladder": [
   [
-   "The waste problem",
-   "L1: learner can name plastic problems. Focus module: The waste problem (Understand, 3 h). Why plastic matters. Key points: Single-use items are used for minutes and last for centuries. Microplastics enter food and water. Reduce first, reuse second, recycle third.",
-   "Teach: open with the worked example. Refill stations cut bottle use more than any new material. Then set the activity: Audit the plastic you use in a week. Mark against the standard: List with counts. Check at this level: Order of waste actions? Model answer: Reduce, reuse, recycle. Audit."
+   "The plastic waste problem",
+   "L1: learner can name plastic problems. Focus module: The plastic waste problem (Understand, 3 h). Single-use plastic is used for minutes and can last for centuries. Understanding the scale helps you choose where to act first. Key points: Single-use items such as bags, bottles, sachets and cutlery make up a large share of litter. Microplastics from breakdown and from textiles enter water and food. Order of action: reduce, reuse, recycle, and only then replace. A switch that increases total impact is not an improvement.",
+   "Teach: open with the worked example. A cafe counts 300 disposable cups a day. Switching to a returnable cup scheme with a deposit cuts that by 70 per cent, more than any new compostable cup could. Then set the activity: Audit the plastic you or your business use in one week and list items with counts. Mark against the standard: List has at least 15 items with counts and the top three are highlighted. Check at this level: Order of waste actions? Model answer: Reduce, reuse, recycle."
   ],
   [
-   "Types of plastic and codes",
-   "L2: learner knows reduce-reuse-recycle. Focus module: Types of plastic and codes (Understand, 3 h). Know what you hold. Key points: Resin codes 1 to 7. Some types are widely recycled, some not. Mixed and dirty plastic is hard to recycle.",
-   "Teach: open with the worked example. PET bottles are often recycled; film is not. Then set the activity: Sort 10 items. Mark against the standard: At least 9 correct. Check at this level: Why microplastics matter? Model answer: They enter food and water. Rule."
+   "Plastic types and codes",
+   "L2: learner knows reduce-reuse-recycle. Focus module: Plastic types and codes (Understand, 3 h). Knowing the type tells you if it can be recycled. Key points: Resin codes 1 to 7 show the polymer type. PET (1) and HDPE (2) are widely recycled; films and multilayer packs are rarely recycled. Mixed, dirty and black plastics are hard to sort. Check local collection rules.",
+   "Teach: open with the worked example. PET bottles are often collected and recycled; a chips packet made of multilayer film usually goes to landfill. Then set the activity: Sort 10 items by code and recyclability in your area. Mark against the standard: At least 9 sorted correctly. Check at this level: Why microplastics matter? Model answer: They enter food and water."
   ],
   [
-   "Alternatives",
-   "L3: learner can test options. Focus module: Alternatives (Understand, 4 h). Many options. Key points: Paper, glass, metal, plant fibres, starch-based, compostable blends. Each has a cost and an impact. Reuse systems often win.",
-   "Teach: open with the worked example. A cafe moves to returnable cups. Then set the activity: Make an options table. Mark against the standard: Pros and cons. Check at this level: Compostable equals biodegradable? Model answer: No. Test."
+   "Alternative materials",
+   "L3: learner can test options. Focus module: Alternative materials (Understand, 4 h). Many options exist, each with trade-offs. Key points: Paper, card, glass, metal, plant fibres, starch-based plastics and compostable blends. Reuse systems often beat single-use alternatives. Consider strength, moisture, heat and cost. Consider whether local facilities exist for the end-of-life route.",
+   "Teach: open with the worked example. A bakery tests paper bags, starch bags and reusable cloth bags. The paper bag works but costs more; a cloth bag discount scheme reduces bag use by half. Then set the activity: Make an options table for one product with pros and cons. Mark against the standard: At least four options compared. Check at this level: Compostable equals biodegradable? Model answer: No."
   ],
   [
-   "Testing",
-   "L4: learner can compare life cycles. Focus module: Testing (Apply, 4 h). Do real tests. Key points: Strength, leak, heat, shelf life, cost per use. Repeat three times. Record failures.",
-   "Teach: open with the worked example. A starch bag tears at 3 kg; paper holds 5 kg. Then set the activity: Test two options. Mark against the standard: Table complete. Check at this level: Name a test. Model answer: Strength, leak, heat or shelf life. Compare."
+   "Testing alternatives",
+   "L4: learner can compare life cycles. Focus module: Testing alternatives (Apply, 4 h). Do real tests before switching. Key points: Strength: load until failure; leak test; heat test; shelf life. Repeat each test three times. Record failures and costs. Test with real users.",
+   "Teach: open with the worked example. A starch bag tears at 3 kg while a paper bag holds 5 kg; the shop selects paper for heavy items. Then set the activity: Test two alternatives against your current item and record results. Mark against the standard: Table has repeated results and a conclusion. Check at this level: Name a test. Model answer: Strength, leak, heat or shelf life."
   ],
   [
    "Life-cycle thinking",
-   "L5: learner can review claims. Focus module: Life-cycle thinking (Analyse, 4 h). Look at the whole life. Key points: Raw material, making, transport, use, end of life. Reuse items win after enough uses. Local conditions change results.",
-   "Teach: open with the worked example. A glass jar needs 12 uses to beat plastic. Then set the activity: Do a simple comparison. Mark against the standard: Method stated. Check at this level: Life-cycle stages? Model answer: Material, making, transport, use, end of life. Claims."
+   "L5: learner can review claims. Focus module: Life-cycle thinking (Analyse, 4 h). Look at the whole life of a product, from raw material to disposal. Key points: Stages: raw material, making, transport, use, end of life. A reusable item wins after enough uses. Local conditions change results. State your boundaries.",
+   "Teach: open with the worked example. A glass jar needs about 12 uses to beat a plastic tub in emissions; a thicker cup needs 20 uses. Then set the activity: Do a simple comparison for two options. Mark against the standard: Method and sources stated. Check at this level: Life-cycle stages? Model answer: Material, making, transport, use, end of life."
   ],
   [
    "Customers and cost",
-   "L6: learner can lead a switch. Focus module: Customers and cost (Evaluate, 3 h). Make the switch fair. Key points: Cost per use, not per piece. Deposit or discount schemes. Explain simply.",
-   "Teach: open with the worked example. A refill discount repays within 20 uses. Then set the activity: Cost your switch. Mark against the standard: Currency shown. Check at this level: Why cost per use? Model answer: Reuse items spread cost. Plan."
+   "L6: learner can lead a switch. Focus module: Customers and cost (Evaluate, 3 h). A switch must work for customers and the business. Key points: Cost per use, not per piece. Deposit or discount schemes. Explain simply and train staff. Track complaints.",
+   "Teach: open with the worked example. A refill discount repays the cost of the container within 20 uses. Then set the activity: Cost your switch for one month. Mark against the standard: Currency shown. Check at this level: Why cost per use? Model answer: Reuse items spread cost."
   ],
   [
    "Switch plan",
-   "L7: learner can audit. Focus module: Switch plan (Create, 3 h). Plan and review. Key points: Steps, dates, owners, measures. Pilot in one store. Report results.",
-   "Teach: open with the worked example. Plastic bags fall by 70% in a month. Then set the activity: Present the plan. Mark against the standard: Measures are clear. Check at this level: Name a label risk. Model answer: Greenwashing. Peer audit."
+   "L7: learner can audit. Focus module: Switch plan (Create, 3 h). Plan and review. Key points: Steps, dates, owners, measures. Pilot in one store. Report results. Scale or adjust.",
+   "Teach: open with the worked example. Plastic bags fall by 70 per cent in one month with a returnable bag scheme. Then set the activity: Present the plan. Mark against the standard: Measures are clear. Check at this level: Name a label risk. Model answer: Greenwashing."
   ]
  ]
 }

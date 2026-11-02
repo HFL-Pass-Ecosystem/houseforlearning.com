@@ -156,19 +156,19 @@
  "quiz": [
   [
    "Typical trip length?",
-   "Under about 5 km. (Covered in module 1: Types and fit. To pass that module: Table includes range and cost.)"
+   "Under about 5 km. (Covered in module 1: Types and fit. To pass that module: Table includes range, cost and best use.)"
   ],
   [
    "Fleet formula?",
-   "Peak trips / trips per vehicle per day. (Covered in module 2: Zones and parking. To pass that module: Zones marked.)"
+   "Peak trips / trips per vehicle per day. (Covered in module 2: Zones and parking. To pass that module: Zones are marked and justified.)"
   ],
   [
    "Name a safety rule.",
-   "Helmets or speed limits. (Covered in module 3: Fleet sizing. To pass that module: Maths correct.)"
+   "Helmets or speed limits. (Covered in module 3: Fleet sizing and rebalancing. To pass that module: Maths correct.)"
   ],
   [
    "Daily check items?",
-   "Brakes, tyres, lights, bell, lock. (Covered in module 4: Safety. To pass that module: Rules measurable.)"
+   "Brakes, tyres, lights, bell, lock. (Covered in module 4: Rider safety. To pass that module: Rules measurable.)"
   ],
   [
    "Break-even idea?",
@@ -184,15 +184,15 @@
   ],
   [
    "What is rebalancing?",
-   "Moving vehicles to demand. (Covered in module 8: Pilot plan. To pass that module: Peers can follow it.)"
+   "Moving vehicles to demand. (Covered in module 8: Pilot plan. To pass that module: Peers can follow.)"
   ],
   [
    "Name a community issue.",
-   "Noise or blocked paths. (Covered in module 8: Pilot plan. To pass that module: Peers can follow it.)"
+   "Noise or blocked paths. (Covered in module 8: Pilot plan. To pass that module: Peers can follow.)"
   ],
   [
    "What is a pilot?",
-   "A short test before scaling. (Covered in module 8: Pilot plan. To pass that module: Peers can follow it.)"
+   "A short test before scaling. (Covered in module 8: Pilot plan. To pass that module: Peers can follow.)"
   ]
  ],
  "rubric": [
@@ -254,38 +254,38 @@
  "ladder": [
   [
    "Types and fit",
-   "L1: learner can name types. Focus module: Types and fit (Understand, 3 h). Bikes, e-bikes, scooters. Key points: Short trips under 5 km are the main use. E-assist helps hills. Match to local roads and weather.",
-   "Teach: open with the worked example. A hilly campus picks e-bikes. Then set the activity: Compare 3 types. Mark against the standard: Table includes range and cost. Check at this level: Typical trip length? Model answer: Under about 5 km. Types."
+   "L1: learner can name types. Focus module: Types and fit (Understand, 3 h). Different vehicles suit different places. Key points: Bikes, e-bikes, scooters and cargo bikes have different range, speed and cost. Short trips under 5 km are the main use. E-assist helps on hills and with longer trips. Match to local roads, weather and rules.",
+   "Teach: open with the worked example. A hilly campus picks e-bikes because they allow fast trips up slopes without sweat. Then set the activity: Compare three vehicle types in a table. Mark against the standard: Table includes range, cost and best use. Check at this level: Typical trip length? Model answer: Under about 5 km."
   ],
   [
    "Zones and parking",
-   "L2: learner knows safety rules. Focus module: Zones and parking (Apply, 4 h). Order on the street. Key points: Pick start points near demand. Marked parking, no-go zones, speed limits. Work with the owner or authority.",
-   "Teach: open with the worked example. Parking bays at gates reduce clutter. Then set the activity: Draw a zone map. Mark against the standard: Zones marked. Check at this level: Fleet formula? Model answer: Peak trips / trips per vehicle per day. Rules."
+   "L2: learner knows safety rules. Focus module: Zones and parking (Apply, 4 h). Order on the street keeps the service welcome. Key points: Pick start points near demand. Marked parking, no-go zones and speed limits. Work with the owner or authority. Review complaints.",
+   "Teach: open with the worked example. Parking bays at gates reduce clutter; a no-go zone near a hospital entrance prevents blocked access. Then set the activity: Draw a zone map for a campus or district. Mark against the standard: Zones are marked and justified. Check at this level: Fleet formula? Model answer: Peak trips / trips per vehicle per day."
   ],
   [
-   "Fleet sizing",
-   "L3: learner can plan zones. Focus module: Fleet sizing (Analyse, 4 h). Not too many, not too few. Key points: Fleet = peak trips / trips per vehicle per day. Rebalancing moves bikes to demand. Start small and measure.",
-   "Teach: open with the worked example. 60 peak trips at 6 trips each need 10 bikes plus a spare. Then set the activity: Size your fleet. Mark against the standard: Maths correct. Check at this level: Name a safety rule. Model answer: Helmets or speed limits. Map."
+   "Fleet sizing and rebalancing",
+   "L3: learner can plan zones. Focus module: Fleet sizing and rebalancing (Analyse, 4 h). Not too many and not too few. Key points: Fleet = peak trips / trips per vehicle per day. Rebalancing moves vehicles from places where they pile up to where they are needed. Start small and measure. Keep spares for repair.",
+   "Teach: open with the worked example. 60 peak trips at 6 trips per vehicle need 10 vehicles plus 2 spares. Then set the activity: Size a fleet for your case. Mark against the standard: Maths correct. Check at this level: Name a safety rule. Model answer: Helmets or speed limits."
   ],
   [
-   "Safety",
-   "L4: learner can run daily checks. Focus module: Safety (Evaluate, 5 h). Prevent injury. Key points: Helmets, lights, speed limits; age limits. Rider training and clear rules. Incident log and insurance.",
-   "Teach: open with the worked example. A slow-speed zone is set near pedestrians. Then set the activity: Write safety rules. Mark against the standard: Rules measurable. Check at this level: Daily check items? Model answer: Brakes, tyres, lights, bell, lock. Checks."
+   "Rider safety",
+   "L4: learner can run daily checks. Focus module: Rider safety (Evaluate, 5 h). Prevent injuries. Key points: Helmets, lights, speed limits and age limits. Rider tips and clear rules in the app. Incident log and insurance. Safe parking and pedestrian priority.",
+   "Teach: open with the worked example. A slow-speed zone is set near pedestrians and the speed is limited remotely. Then set the activity: Write safety rules. Mark against the standard: Rules measurable. Check at this level: Daily check items? Model answer: Brakes, tyres, lights, bell, lock."
   ],
   [
    "Maintenance and charging",
-   "L5: learner can price and size. Focus module: Maintenance and charging (Apply, 4 h). Safe vehicles every day. Key points: Daily check: brakes, tyres, lights, bell, lock. Battery swaps and safe charging. Spare parts.",
-   "Teach: open with the worked example. A tag shows last check date. Then set the activity: Create a check card. Mark against the standard: Card has ten items. Check at this level: Break-even idea? Model answer: Trips per day needed to cover costs. Sums."
+   "L5: learner can price and size. Focus module: Maintenance and charging (Apply, 4 h). Safe vehicles every day. Key points: Daily check: brakes, tyres, lights, bell and lock. Battery swaps and safe charging. Spare parts and tools. Log every repair.",
+   "Teach: open with the worked example. A tag shows last check date; vehicles failing a check are removed. Then set the activity: Create a check card. Mark against the standard: Card has ten items. Check at this level: Break-even idea? Model answer: Trips per day needed to cover costs."
   ],
   [
    "Community and environment",
-   "L6: learner can lead operations. Focus module: Community and environment (Evaluate, 3 h). Be a good neighbour. Key points: Noise, sidewalk clutter, accessibility. Complaint line. Recycling of batteries and parts.",
-   "Teach: open with the worked example. A fine for blocking paths is explained in rules. Then set the activity: List community actions. Mark against the standard: Each has an owner. Check at this level: Why parking zones? Model answer: To avoid clutter. Team."
+   "L6: learner can lead operations. Focus module: Community and environment (Evaluate, 3 h). Be a good neighbour. Key points: Noise, sidewalk clutter and accessibility. Complaint line and response times. Recycling of batteries and parts. Local jobs.",
+   "Teach: open with the worked example. A fine for blocking paths is explained in rules and enforced fairly. Then set the activity: List community actions. Mark against the standard: Each has an owner. Check at this level: Why parking zones? Model answer: To avoid clutter."
   ],
   [
    "Pilot plan",
-   "L7: learner can audit a pilot. Focus module: Pilot plan (Create, 4 h). Run 30 days. Key points: Targets for trips, safety and complaints. Review weekly. Decide to stop, change or grow.",
-   "Teach: open with the worked example. The pilot adds two bays after complaints. Then set the activity: Present the plan. Mark against the standard: Peers can follow it. Check at this level: Why insurance? Model answer: Covers incidents. Peer audit."
+   "L7: learner can audit a pilot. Focus module: Pilot plan (Create, 4 h). Test before scaling. Key points: Targets for trips, safety and complaints. Review weekly. Decide to stop, change or grow. Share results.",
+   "Teach: open with the worked example. The pilot adds two bays after complaints and raises utilisation. Then set the activity: Present the plan. Mark against the standard: Peers can follow. Check at this level: Why insurance? Model answer: Covers incidents."
   ]
  ]
 }

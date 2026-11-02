@@ -156,7 +156,7 @@
  "quiz": [
   [
    "Litres per person per day?",
-   "Total use / people / days. (Covered in module 1: Water cycle and risk. To pass that module: Sources named.)"
+   "Total use / people / days. (Covered in module 1: Water cycle and local risk. To pass that module: Sources named and risk explained.)"
   ],
   [
    "Night meter test?",
@@ -164,11 +164,11 @@
   ],
   [
    "Rainwater formula?",
-   "Area x rain x efficiency. (Covered in module 3: Finding leaks. To pass that module: Result recorded.)"
+   "Area x rain x efficiency. (Covered in module 3: Finding leaks. To pass that module: Result recorded with fix.)"
   ],
   [
    "Safe grey water use?",
-   "Irrigation of non-edible plants. (Covered in module 4: Saving at the tap. To pass that module: Savings estimated.)"
+   "Irrigation of non-edible plants. (Covered in module 4: Saving at the tap. To pass that module: Savings estimated with numbers.)"
   ],
   [
    "Aerator benefit?",
@@ -176,7 +176,7 @@
   ],
   [
    "Why first flush?",
-   "Removes dirt. (Covered in module 6: Reuse and quality. To pass that module: Rules clear.)"
+   "Removes dirt. (Covered in module 6: Reuse and water quality. To pass that module: Rules clear.)"
   ],
   [
    "Mulch use?",
@@ -253,39 +253,39 @@
  "local": "Water rights, rainwater and reuse rules differ by place.",
  "ladder": [
   [
-   "Water cycle and risk",
-   "L1: learner can name water sources. Focus module: Water cycle and risk (Understand, 3 h). Where water comes from. Key points: Rain, rivers, groundwater, storage. Droughts, floods and quality problems. Know your supply and rules.",
-   "Teach: open with the worked example. A town cuts supply in summer; households store water. Then set the activity: Describe your supply. Mark against the standard: Sources named. Check at this level: Litres per person per day? Model answer: Total use / people / days. Cycle."
+   "Water cycle and local risk",
+   "L1: learner can name water sources. Focus module: Water cycle and local risk (Understand, 3 h). Know where your water comes from and what could go wrong. Key points: Rain, rivers, lakes, groundwater and storage. Droughts, floods and quality problems. Know your supply source, schedule and rules. Cost and availability vary by season.",
+   "Teach: open with the worked example. A town cuts supply in summer; households that store water cope better. Then set the activity: Describe your water supply and one risk. Mark against the standard: Sources named and risk explained. Check at this level: Litres per person per day? Model answer: Total use / people / days."
   ],
   [
    "Water audit",
-   "L2: learner knows leak basics. Focus module: Water audit (Apply, 5 h). Measure first. Key points: Read the meter at the same time daily. List uses: taps, toilets, showers, cleaning, irrigation. Convert to litres per day per person.",
-   "Teach: open with the worked example. A home uses 180 L per person per day. Then set the activity: Do an audit. Mark against the standard: Table complete. Check at this level: Night meter test? Model answer: No use but meter moves means a leak. Leaks."
+   "L2: learner knows leak basics. Focus module: Water audit (Apply, 5 h). Measure first. Key points: Read the meter at the same time daily. List uses: taps, toilets, showers, cleaning, irrigation, laundry. Convert to litres per person per day. Compare with benchmarks.",
+   "Teach: open with the worked example. A home uses 180 L per person per day; the benchmark target is 135 L. Then set the activity: Do an audit for one week. Mark against the standard: Table complete. Check at this level: Night meter test? Model answer: No use but meter moves means a leak."
   ],
   [
    "Finding leaks",
-   "L3: learner can audit. Focus module: Finding leaks (Apply, 4 h). Small drips cost a lot. Key points: Night meter test; dye test for toilets. A drip per second wastes thousands of litres a year. Fix quickly.",
-   "Teach: open with the worked example. A toilet leak is found with food dye and repaired. Then set the activity: Run a leak test. Mark against the standard: Result recorded. Check at this level: Rainwater formula? Model answer: Area x rain x efficiency. Audit."
+   "L3: learner can audit. Focus module: Finding leaks (Apply, 4 h). Small drips cost a lot. Key points: Night meter test: stop all use, check the meter does not move. Dye test for toilets. A drip per second wastes thousands of litres per year. Fix quickly.",
+   "Teach: open with the worked example. A toilet leak is found with food dye and repaired with a new valve, saving 20 L per day. Then set the activity: Run a leak test and record results. Mark against the standard: Result recorded with fix. Check at this level: Rainwater formula? Model answer: Area x rain x efficiency."
   ],
   [
    "Saving at the tap",
-   "L4: learner can fix and save. Focus module: Saving at the tap (Analyse, 4 h). Cheap measures. Key points: Aerators, efficient flushes, full loads, shorter showers. Behaviour and signs. Track savings.",
-   "Teach: open with the worked example. Aerators save 25% at taps. Then set the activity: Choose five measures. Mark against the standard: Savings estimated. Check at this level: Safe grey water use? Model answer: Irrigation of non-edible plants. Measures."
+   "L4: learner can fix and save. Focus module: Saving at the tap (Analyse, 4 h). Cheap measures work. Key points: Aerators, efficient flushes, full loads, shorter showers. Behaviour and signs. Track savings. Maintenance matters.",
+   "Teach: open with the worked example. Aerators cut tap flow by 25 per cent. Then set the activity: Choose five measures and estimate savings. Mark against the standard: Savings estimated with numbers. Check at this level: Safe grey water use? Model answer: Irrigation of non-edible plants."
   ],
   [
    "Rainwater harvesting",
-   "L5: learner can design rainwater. Focus module: Rainwater harvesting (Create, 5 h). Catch and store. Key points: Roof area x rainfall x efficiency = litres. First-flush diverter, filter and covered tank. Use for non-drinking unless treated.",
-   "Teach: open with the worked example. 100 m2 roof and 800 mm rain gives about 64,000 L a year. Then set the activity: Design a system. Mark against the standard: Calculation correct. Check at this level: Aerator benefit? Model answer: Reduces flow. Design."
+   "L5: learner can design rainwater. Focus module: Rainwater harvesting (Create, 5 h). Catch and store rain. Key points: Roof area x rainfall x efficiency = litres per year. First-flush diverter, filter and covered tank. Use for non-drinking unless treated. Maintain tanks.",
+   "Teach: open with the worked example. A 100 m2 roof and 800 mm rain with 80 per cent efficiency gives about 64,000 L a year. Then set the activity: Design a system. Mark against the standard: Calculation correct. Check at this level: Aerator benefit? Model answer: Reduces flow."
   ],
   [
    "Irrigation and farming",
-   "L6: learner can lead a plan. Focus module: Irrigation and farming (Apply, 3 h). Use less, grow more. Key points: Drip lines, mulching, timing. Soil moisture checks. Crop choice for local rain.",
-   "Teach: open with the worked example. Drip cuts water by 40%. Then set the activity: Plan a plot. Mark against the standard: Plan complete. Check at this level: Why first flush? Model answer: Removes dirt. Lead."
+   "L6: learner can lead a plan. Focus module: Irrigation and farming (Apply, 3 h). Use less, grow more. Key points: Drip lines, mulching, timing. Soil moisture checks. Crop choice for local rain. Reduce evaporation.",
+   "Teach: open with the worked example. Drip cuts water use by about 40 per cent compared with flood irrigation. Then set the activity: Plan a small plot. Mark against the standard: Plan complete. Check at this level: Why first flush? Model answer: Removes dirt."
   ],
   [
    "Plan and target",
-   "L7: learner can audit others. Focus module: Plan and target (Create, 4 h). Make it stick. Key points: Targets, owners, dates. Report monthly. Share with the community.",
-   "Teach: open with the worked example. A school sets a 20% cut in one year. Then set the activity: Present the plan. Mark against the standard: Target measurable. Check at this level: Mulch use? Model answer: Keeps moisture. Peer audit."
+   "L7: learner can audit others. Focus module: Plan and target (Create, 4 h). Make it stick. Key points: Targets, owners, dates. Report monthly. Share with the community. Celebrate wins.",
+   "Teach: open with the worked example. A school sets a 20 per cent cut in one year. Then set the activity: Present the plan. Mark against the standard: Target measurable. Check at this level: Mulch use? Model answer: Keeps moisture."
   ]
  ]
 }

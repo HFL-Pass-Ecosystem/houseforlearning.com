@@ -156,7 +156,7 @@
  "quiz": [
   [
    "Which crops suit?",
-   "Leafy greens, herbs, microgreens. (Covered in module 1: What suits vertical growing. To pass that module: Reasons given.)"
+   "Leafy greens, herbs, microgreens. (Covered in module 1: What suits vertical growing. To pass that module: Reasons given with numbers.)"
   ],
   [
    "Why LEDs?",
@@ -184,15 +184,15 @@
   ],
   [
    "Why compare to field?",
-   "See whether it pays. (Covered in module 8: Pilot plan. To pass that module: Peers follow it.)"
+   "See whether it pays. (Covered in module 8: Pilot plan. To pass that module: Peers follow.)"
   ],
   [
    "What is break-even?",
-   "Volume covering costs. (Covered in module 8: Pilot plan. To pass that module: Peers follow it.)"
+   "Volume covering costs. (Covered in module 8: Pilot plan. To pass that module: Peers follow.)"
   ],
   [
    "Why log readings?",
-   "Spot trends. (Covered in module 8: Pilot plan. To pass that module: Peers follow it.)"
+   "Spot trends. (Covered in module 8: Pilot plan. To pass that module: Peers follow.)"
   ]
  ],
  "rubric": [
@@ -254,38 +254,38 @@
  "ladder": [
   [
    "What suits vertical growing",
-   "L1: learner can name crops. Focus module: What suits vertical growing (Understand, 3 h). Leafy and herbs first. Key points: High-value, fast, light crops: lettuce, herbs, microgreens. Heavy crops are harder. Weigh space, energy and market.",
-   "Teach: open with the worked example. Microgreens ready in 8 days. Then set the activity: Pick three crops. Mark against the standard: Reasons given. Check at this level: Which crops suit? Model answer: Leafy greens, herbs, microgreens. Crops."
+   "L1: learner can name crops. Focus module: What suits vertical growing (Understand, 3 h). Not every crop suits stacked indoor growing. Key points: Leafy greens, herbs and microgreens are fast, light and high-value. Heavy crops such as grains and tubers are rarely economic indoors. Weigh space, energy and market. Check local demand.",
+   "Teach: open with the worked example. Microgreens are ready in about 8 days and sell at a high price per kg, suiting a small indoor unit. Then set the activity: Pick three crops and justify them. Mark against the standard: Reasons given with numbers. Check at this level: Which crops suit? Model answer: Leafy greens, herbs, microgreens."
   ],
   [
    "Systems",
-   "L2: learner knows system types. Focus module: Systems (Understand, 4 h). Soil, hydroponic, aeroponic. Key points: Water flows with nutrients; no soil. Pumps, trays, channels. Failure risk if pumps stop.",
-   "Teach: open with the worked example. A timer controls a flood and drain tray. Then set the activity: Draw a layout. Mark against the standard: Parts labelled. Check at this level: Why LEDs? Model answer: Efficient, less heat. Systems."
+   "L2: learner knows system types. Focus module: Systems (Understand, 4 h). Choose soil, hydroponic or aeroponic systems. Key points: Hydroponics grows plants in nutrient water; aeroponics mists roots. Parts: trays, pumps, channels, reservoirs, timers. Failure risk if pumps stop. Cleaning between cycles.",
+   "Teach: open with the worked example. A timer controls a flood and drain tray that waters lettuce every 30 minutes. Then set the activity: Draw a layout. Mark against the standard: Parts labelled. Check at this level: Why LEDs? Model answer: Efficient, less heat."
   ],
   [
    "Light",
-   "L3: learner can set schedules. Focus module: Light (Apply, 4 h). Plants need the right light. Key points: Intensity, spectrum and hours. LEDs use less heat. Distance matters.",
-   "Teach: open with the worked example. Lettuce gets 14 hours a day. Then set the activity: Set a light schedule. Mark against the standard: Settings logged. Check at this level: What pH range? Model answer: About 5.8 to 6.2 for many crops. Light."
+   "L3: learner can set schedules. Focus module: Light (Apply, 4 h). Plants need the right light. Key points: Intensity, spectrum and hours. LEDs use less heat. Distance matters. Photoperiod varies by crop.",
+   "Teach: open with the worked example. Lettuce receives about 14 hours of light a day. Then set the activity: Set a light schedule. Mark against the standard: Settings logged. Check at this level: What pH range? Model answer: About 5.8 to 6.2 for many crops."
   ],
   [
    "Water and nutrients",
-   "L4: learner can run a tray. Focus module: Water and nutrients (Apply, 4 h). Balance matters. Key points: pH and nutrient strength checks. Keep water clean; change on schedule. Record readings.",
-   "Teach: open with the worked example. pH kept between 5.8 and 6.2. Then set the activity: Run daily checks. Mark against the standard: Log complete. Check at this level: Why hygiene? Model answer: Prevent disease. Run."
+   "L4: learner can run a tray. Focus module: Water and nutrients (Apply, 4 h). Balance matters. Key points: pH and nutrient strength checks. Keep water clean; change on schedule. Record readings. Adjust slowly.",
+   "Teach: open with the worked example. pH is kept between 5.8 and 6.2 using small adjustments. Then set the activity: Run daily checks. Mark against the standard: Log complete. Check at this level: Why hygiene? Model answer: Prevent disease."
   ],
   [
    "Climate and hygiene",
-   "L5: learner can measure yield. Focus module: Climate and hygiene (Evaluate, 4 h). Prevent disease. Key points: Temperature, humidity and airflow. Clean tools, hands and trays; keep pests out. Separate harvest area.",
-   "Teach: open with the worked example. Mould appears at high humidity; fans fix it. Then set the activity: Write a hygiene plan. Mark against the standard: Measures specific. Check at this level: Yield measure? Model answer: Per m2 per cycle. Maths."
+   "L5: learner can measure yield. Focus module: Climate and hygiene (Evaluate, 4 h). Prevent disease. Key points: Temperature, humidity and airflow. Clean tools, hands and trays; keep pests out. Separate harvest area. Dispose of waste.",
+   "Teach: open with the worked example. Mould appears at high humidity; fans and a dehumidifier fix it. Then set the activity: Write a hygiene plan. Mark against the standard: Measures specific. Check at this level: Yield measure? Model answer: Per m2 per cycle."
   ],
   [
    "Business case",
-   "L6: learner can lead a farm shift. Focus module: Business case (Evaluate, 4 h). Does it pay? Key points: Setup cost, running cost, price per kg. Direct sales and contracts. Break-even volume.",
-   "Teach: open with the worked example. Price 250 INR per kg; cost 190. Then set the activity: Build a cost sheet. Mark against the standard: Currency shown. Check at this level: Energy per kg unit? Model answer: kWh per kg. Lead."
+   "L6: learner can lead a farm shift. Focus module: Business case (Evaluate, 4 h). Does it pay? Key points: Setup cost, running cost, price per kg. Direct sales and contracts. Break-even volume. Risks.",
+   "Teach: open with the worked example. Price 250 INR per kg; cost 190 INR. Then set the activity: Build a cost sheet. Mark against the standard: Currency shown. Check at this level: Energy per kg unit? Model answer: kWh per kg."
   ],
   [
    "Pilot plan",
-   "L7: learner can audit a plan. Focus module: Pilot plan (Create, 3 h). Run 90 days. Key points: Targets and weekly reviews. Learn from losses. Decide to scale or stop.",
-   "Teach: open with the worked example. Pilot gives 62 kg of herbs. Then set the activity: Present the plan. Mark against the standard: Peers follow it. Check at this level: Biggest risk? Model answer: Pump or power failure. Peer audit."
+   "L7: learner can audit a plan. Focus module: Pilot plan (Create, 3 h). Run 90 days. Key points: Targets and weekly reviews. Learn from losses. Decide to scale or stop. Share findings.",
+   "Teach: open with the worked example. The pilot produces 62 kg of herbs. Then set the activity: Present the plan. Mark against the standard: Peers follow. Check at this level: Biggest risk? Model answer: Pump or power failure."
   ]
  ]
 }
