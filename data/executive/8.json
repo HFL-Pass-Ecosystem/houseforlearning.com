@@ -28,7 +28,7 @@
     "Longer stays raise the cost per month",
     "Match the type to the business need"
    ],
-   "example": "A firm needs a technical lead in another country. The base pay is 80,000 a year. A 6-month short assignment costs about 1.3 times pay, so 80,000 x 0.5 x 1.3 = 52,000. A 3-year long-term post costs about 2.0 times pay each year, so 80,000 x 2.0 x 3 = 480,000. The need is only a 6-month project, so the short assignment saves 428,000.",
+   "example": "A firm needs a technical lead in another country. The base pay is 80,000 a year. Using example multipliers, a 6-month short assignment costs about 1.3 times pay, so 80,000 x 0.5 x 1.3 = 52,000. A 3-year long-term post costs about 2.0 times pay each year, so 80,000 x 2.0 x 3 = 480,000. The need is only a 6-month project, so the short assignment saves 428,000.",
    "activity": "Take a business need that lasts 9 months. Cost three assignment types with a cost multiplier for each and recommend one.",
    "standard": "Three costs are worked out with the multiplier shown and the cheapest type that meets the need is named."
   },

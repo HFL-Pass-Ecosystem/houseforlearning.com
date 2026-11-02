@@ -14,7 +14,7 @@
     "Set shared rules early",
     "Check the stage every month"
    ],
-   "example": "A team of 8 starts a project. After four weeks, a pulse check asks each person to rate 'we agree how we work' from 1 to 5. The scores are 2, 2, 3, 3, 3, 4, 2, 3, which total 22. The mean is 22 / 8 = 2.75. A score under 3.5 means the team is still in friction, so the lead holds a rules session before adding new tasks.",
+   "example": "A team of 8 starts a project. After four weeks, a pulse check asks each person to rate 'we agree how we work' from 1 to 5. The scores are 2, 2, 3, 3, 3, 4, 2, 3, which total 22. The mean is 22 / 8 = 2.75. A score under 3.5 (an example cut-off) means the team is still in friction, so the lead holds a rules session before adding new tasks.",
    "activity": "Run a five-question pulse check for a team of at least 6 and decide the stage from the mean.",
    "standard": "The mean is calculated correctly and a stage and next step are named using a stated cut-off."
   },
@@ -100,7 +100,7 @@
    ],
    "example": "Member A wants 14 days to finish a task and member B, who depends on it, needs it in 7. The arbiter asks for interests. A needs time for a data check, and B needs a first draft to start. The deal is a draft at day 7 and the checked version at day 12. That is 2 days less than A asked for and 5 days more than B asked for. Both sign a one-line note.",
    "activity": "Run a mock arbitration with two sides who have different deadlines and write the agreed dates.",
-   "standard": "Interests are stated for both sides, the dates are between the two demands and both agree in writing."
+   "standard": "Interests are stated for both sides, the dates fall within the range of the two demands and both agree in writing."
   },
   {
    "title": "Measuring team health",

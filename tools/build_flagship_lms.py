@@ -9,7 +9,7 @@ e = html.escape
 M = [
  ("Choosing the right kind of platform", "Analyse", 3,
   "Before features, decide which KIND of learning platform you need. Five choices shape everything else.",
-  ["Size: a small organisation values fast set-up and ease; an enterprise (about 500 or more staff, possibly customers and partners too) needs automation, segmenting of users and links to other systems.",
+  ["Size: a small organisation values fast set-up and ease; an enterprise (for example a few hundred staff or more, possibly customers and partners too) needs automation, segmenting of users and links to other systems.",
    "Open source or paid: open source has no licence fee, but you must install, host, secure and upgrade it, which can cost more than a subscription. Count the staff time.",
    "Cloud or installed: cloud is the norm; installed is chosen only when a law or network rule requires it.",
    "Integrated or standalone: can it exchange data with HR, CRM, payment and meeting tools?",
@@ -18,7 +18,7 @@ M = [
   "Write a one-page needs brief for a real organisation: size, five choices, three must-haves, three nice-to-haves.",
   "Brief names a decision on all five choices with one reason each; must-haves are testable."),
  ("Building and packaging courses", "Create", 4,
-  "Features 1 and 2 of the 29: course management and learning-package standards.",
+  "Covers course management and learning-package standards.",
   ["Course management: drag, drop and order content; mix PDFs, slides, video, audio and live sessions.",
    "Package standards: SCORM and xAPI are the common formats that let a course made in one tool run on another platform and report results. Test an upload before you promise a date.",
    "Learning paths: sequenced (one after another) when order matters; learner choice (finish any 3 of 5) when it does not.",
@@ -27,7 +27,7 @@ M = [
   "Build a three-step learning path in a practice platform with one uploaded package, one live session and one exam.",
   "Path runs end to end; a test learner completes it; the completion record appears in the report."),
  ("Organising people: portals, groups, roles", "Apply", 4,
-  "Features 3, 12, 13 and 14: learning portals, roles and permissions, groups.",
+  "Covers learning portals, roles and permissions, and groups.",
   ["Portals: a top-level portal controls several sub-portals, one per audience (staff, customers, partners). Copy a course between portals instead of rebuilding.",
    "Roles: give each person only the rights they need: view, edit, create, delete. Mirror your real structure: director, manager, trainer, learner.",
    "Groups: collect people by team, role or place. Use filter rules so people move in and out automatically, for example 'joined in the last 30 days' feeds the onboarding group.",
@@ -36,7 +36,7 @@ M = [
   "Design the portal, role and group map for a real organisation on one page; write three group filter rules.",
   "Every audience has a portal or group; no role has more rights than its tasks need; rules are testable."),
  ("Automating the work", "Apply", 4,
-  "Features 7, 8, 24 and 25: integrations, automation, dynamic rules, notifications.",
+  "Covers integrations, automation, dynamic rules and notifications.",
   ["Integrations: link HR, CRM, meeting tools and payment. Single sign-in lets people use one login. An open data interface lets other systems add users and pull results.",
    "Automation: add and remove users from the HR list, enrol by role, send due-date reminders.",
    "Dynamic rules are 'if this, then that': if onboarding is complete then award the certificate and enrol in the next course.",
@@ -45,17 +45,17 @@ M = [
   "Write five automation rules for your brief, each with trigger, action and a test case.",
   "Each rule has a trigger, an action and a way to check it fired; no rule can send more than one message a day to a person."),
  ("Assessing, certifying and reporting", "Evaluate", 4,
-  "Features 10, 11, 20, 21 and 22: exams, surveys, reporting, skills and certificate tracking, selling courses.",
+  "Covers exams, surveys, reporting, skills and certificate tracking, and selling courses.",
   ["Exams: several question types; auto-marking gives fast feedback. Match the question verb to the course outcome verb.",
    "Surveys inside a course show what to fix. Ask one question per idea.",
    "Reports: progress, results, survey answers; schedule and export them. Look for patterns (for example, written lessons pass better than video).",
    "Certificates: auto-issue on completion; set expiry dates and automatic re-enrolment for renewals; keep records audit-ready.",
    "Selling: a built-in store or payment link, bundles of courses, plans for groups, member discounts."],
-  "Pattern found in a report: video lessons pass at 62%, written lessons at 81%. Action: add a written summary to each video lesson and compare next month.",
+  "Pattern found in a sample report (example values): video lessons pass at 62%, written lessons at 81%. Action: add a written summary to each video lesson and compare next month.",
   "Choose three measures for your brief (for example completion rate, first-attempt pass rate, time to certificate) and sketch the report that shows them.",
   "Each measure has a definition, a target and an action to take if it is missed."),
  ("Experience, security and reliability", "Evaluate", 4,
-  "Features 9, 15 to 19 and 26 to 29: learner experience, branding, language, mobile, security, uptime, migration.",
+  "Covers learner experience, branding, language, mobile, security, reliability and migration.",
   ["Learner experience: easy to find, works on any device, offers extra optional courses so learners steer their own learning. Social tools (forums, sharing) keep people engaged.",
    "Branding: your colours and logo; white-labelling also removes the supplier's marks and sets your own web address.",
    "Languages and mobile: the interface in learners' own languages, and a design that works on phones and weak connections.",
@@ -73,7 +73,7 @@ M[5:5] = [
    "Forums, groups and shared projects make learners talk to each other; assign a moderator and house rules.",
    "Leaderboards can discourage some people; make them optional and show personal progress too.",
    "Measure the effect: compare completion before and after a change, with the same kind of learners."],
-  "Illustration: a 30-learner onboarding group has 18 completions in a month (60 per cent). After a progress bar and a weekly group message the next group has 24 of 30 (80 per cent). The change is noted, and the team repeats it with a third group before calling it proven.",
+  "Illustration with example values: a 30-learner onboarding group has 18 completions in a month (60 per cent). After a progress bar and a weekly group message the next group has 24 of 30 (80 per cent). The change is noted, and the team repeats it with a third group before calling it proven.",
   "Choose two engagement tools for your brief, write the rule for each and a way to measure whether it works.",
   "Each tool has a fair public rule, a measure and a stop condition; the claim of benefit is based on a comparison."),
  ("Pilot, roll-out and review", "Create", 4,
@@ -82,7 +82,7 @@ M[5:5] = [
    "Write success measures before the pilot: completion, first-attempt pass, learner score, support requests.",
    "Roll out in steps by group; keep a rollback plan and a support rota.",
    "Review at 30 and 90 days and update the brief."],
-  "A pilot with 30 learners reaches 27 completions: 27 / 30 = 90 per cent against a target of 85. Three support requests were all about login, so a one-page login guide is added before roll-out.",
+  "Example values: a pilot with 30 learners reaches 27 completions: 27 / 30 = 90 per cent against a target of 85 per cent. Three support requests were all about login, so a one-page login guide is added before roll-out.",
   "Write a one-page pilot and roll-out plan for your brief with measures, dates and a rollback step.",
   "Plan has at least three measures with targets, three dates and a rollback step."),
 ]
@@ -107,7 +107,7 @@ def build():
     total = sum(m[2] for m in M)
     outs = [('Analyse', 'Compare platform types and decide what an organisation needs.'), ('Create', 'Build a learning path with a package, a live session and an exam.'), ('Apply', 'Set up portals, roles, groups and automation rules.'), ('Evaluate', 'Judge reports, security and reliability, and recommend a platform.')]
     about = B.sec('', 'ab', 'about this course', 'What you will be able to do',
-        f'<div class="cb-facts"><span class="pill lv">L4 Practitioner</span><span class="pill">{total} h lessons plus practice</span><span class="pill pr">USD 39 per learner per month, or USD 79 with mentor review</span></div>'
+        f'<div class="cb-facts"><span class="pill lv">L4 Practitioner</span><span class="pill">{total} h lessons plus practice</span><span class="pill">Mentor review available</span></div>'
         '<ul class="blm">' + ''.join(f'<li><span class="bz">{b}</span> {e(t)}</li>' for b, t in outs) + '</ul>'
         '<h3 class="ws-h3">Task, condition and standard</h3><div class="tcs"><div><h4>Task</h4><p>Write a needs brief, build a sample learning path, design the people and automation set-up, and score one platform against a checklist.</p></div>'
         '<div><h4>Condition</h4><p>A practice platform (free trial or open demo), a real or sample organisation, a mentor review. About 5 weeks part-time.</p></div>'
@@ -121,5 +121,5 @@ def build():
             + B.sec('alt', 'jb', 'jobs this leads to', 'Where this takes you', '<ul><li>Learning platform administrator</li><li>Training operations coordinator</li><li>Instructional technologist</li><li>E-learning project lead</li><li>Independent consultant for small academies</li></ul>')
             + B.sec('', 'lc', 'ten locations and global', 'Your place', '<p>Choose a platform that can store learner data in a place your law allows.</p>' + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Personal data law to check: {e(L["data"])}. Credit and level frame: {e(L["frame"])}.</p></details>' for L in B.LOC) + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
             + B.sec('alt', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship. Own wording. Not live.</p>'))
-    B.page('learn-flagship-platform-admin.html', 'Learning Platform Administration (flagship course)', 'Choose, build and run a learning platform: 29 features, six modules.', 'Learning Platform Administration', e('Choose, build and run a learning platform: from course packages to security, with all 29 key features covered.'), body, B.crumb(('Courses', 'courses-hub.html'), ('Learning technology', None)), kicker='flagship course')
+    B.page('learn-flagship-platform-admin.html', 'Learning Platform Administration (flagship course)', 'Choose, build and run a learning platform: 29 features, eight modules.', 'Learning Platform Administration', e('Choose, build and run a learning platform: from course packages to security, with all 29 key features covered.'), body, B.crumb(('Courses', 'courses-hub.html'), ('Learning technology', None)), kicker='flagship course')
 build()
