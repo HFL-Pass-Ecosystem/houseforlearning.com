@@ -61,7 +61,14 @@
    "example": "Solved: Nominal sentence starts with a noun: al-waladu mujtahidun (the boy is hardworking). Verbal sentence starts with a verb: dhahaba al-waladu ila al-madrasa (the boy went to school). Method: Model run for 'Nominal and verbal sentences'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Identify and write both types: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
-   "steps": []
+   "steps": [
+    "Step 1, Meet the two types. A nominal sentence begins with a noun: الْوَلَدُ مُجْتَهِدٌ [The boy is hard-working]. It has a subject الْوَلَدُ and a predicate مُجْتَهِدٌ. A verbal sentence begins with a verb: كَتَبَ الْوَلَدُ الدَّرْسَ [The boy wrote the lesson]. Always look at the first word.",
+    "Step 2, Sort by first word. السَّمَاءُ صَافِيَةٌ [The sky is clear] starts with a noun, so it is nominal. يَلْعَبُ الْأَطْفَالُ [The children play] starts with a verb, so it is verbal. أَكَلَتِ الْبِنْتُ التُّفَّاحَةَ [The girl ate the apple] starts with a verb, so it is verbal too.",
+    "Step 3, Name the parts of a verbal sentence. In كَتَبَ الْوَلَدُ الدَّرْسَ, the verb is كَتَبَ [wrote], the doer is الْوَلَدُ [the boy], ending in damma (ُ), and the object is الدَّرْسَ [the lesson], ending in fatha (َ). Order: verb, doer, object. Say it aloud, then point to each part.",
+    "Step 4, Match gender. In a nominal sentence the predicate agrees with the subject: الْوَلَدُ مُجْتَهِدٌ (boy, masculine) and الْبِنْتُ مُجْتَهِدَةٌ (girl, feminine). In a verbal sentence the verb agrees in gender too: كَتَبَ الْوَلَدُ, كَتَبَتِ الْبِنْتُ [The girl wrote]. When the verb comes first it stays singular: يَلْعَبُ الْأَوْلَادُ [The boys play].",
+    "Step 5, Watch the trap. الطَّالِبُ يَقْرَأُ [The student reads] begins with a noun, so it is a nominal sentence even though it contains a verb. Move the verb first and it becomes verbal: يَقْرَأُ الطَّالِبُ الْكِتَابَ [The student reads the book]. The type depends only on the first word.",
+    "Step 6, Your turn: label each sentence, then write one of your own. 1) الْبَابُ مَفْتُوحٌ [The door is open] 2) فَتَحَ الْوَلَدُ الْبَابَ [The boy opened the door]. Answer: 1 is nominal, it starts with the noun الْبَابُ; 2 is verbal, it starts with the verb فَتَحَ. Own sentence, for example: الْقَمَرُ جَمِيلٌ [The moon is beautiful], nominal."
+   ]
   },
   {
    "n": 3,

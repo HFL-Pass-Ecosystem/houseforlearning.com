@@ -148,7 +148,14 @@
    "example": "Solved: 6 bags with 4 apples in each. Repeated adding: 4 + 4 + 4 + 4 + 4 + 4 = 24. As multiplication: 6 x 4 = 24. Check by turning it round: 4 x 6 = 24. Method: Model run for 'Multiplication'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Use tables to 10, multiply a two-digit number by one digit: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
-   "steps": []
+   "steps": [
+    "Step 1, Recall a table fact: 7 x 8 means 7 jumps of 8, which is 8, 16, 24, 32, 40, 48, 56. So 7 x 8 = 56. A finger trick for the nines: for 9 x 6 the tens digit is 6 - 1 = 5 and the digits add to 9, so the answer is 54.",
+    "Step 2, Swap the order: 6 x 4 = 24 and 4 x 6 = 24. Draw an array of 6 rows with 4 dots in each row, then turn the page. The same 24 dots appear. Knowing one fact gives you two, which halves the tables you must learn.",
+    "Step 3, Multiply a two-digit number by one digit by splitting it. To find 23 x 4, split 23 into 20 and 3. Then 20 x 4 = 80 and 3 x 4 = 12. Add the parts: 80 + 12 = 92. Check with repeated addition 23 + 23 + 23 + 23 = 92.",
+    "Step 4, Try 46 x 3 the same way. Split 46 into 40 and 6. Then 40 x 3 = 120 and 6 x 3 = 18. Add: 120 + 18 = 138. Notice the partial answers are tens and ones, so write them in neat columns before adding.",
+    "Step 5, Use the column method for 34 x 6. Multiply the ones first: 4 x 6 = 24, write 4 and carry 2 tens. Multiply the tens: 3 x 6 = 18, add the carried 2 to get 20 tens. So the answer is 204. Estimate 30 x 6 = 180 to check it is sensible.",
+    "Step 6, Your turn: a box holds 52 pencils and there are 5 boxes. How many pencils altogether? Split 52 into 50 and 2 and add the parts. Answer: 50 x 5 = 250 and 2 x 5 = 10, so 52 x 5 = 260 pencils."
+   ]
   },
   {
    "n": 6,
@@ -286,7 +293,14 @@
    "example": "Solved: A square has 4 equal sides and 4 right angles; a rectangle has 2 pairs of equal sides. A tally of 5 red, 3 blue and 2 green shows most children like red. Method: Model run for 'Geometry'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Name angles, lines and 2D and 3D shapes by their properties: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
-   "steps": []
+   "steps": [
+    "Step 1, Name lines by how they relate. Parallel lines stay the same distance apart and never meet, like two rails of a train track. Perpendicular lines meet at a square corner. Intersecting lines cross. Find one example of each in your classroom.",
+    "Step 2, Name angles by size. A right angle is a square corner, 90 degrees, like the corner of a page. An acute angle is smaller than a right angle. An obtuse angle is bigger than a right angle but smaller than a straight line, which is 180 degrees.",
+    "Step 3, Name 2D shapes by their properties. A triangle has 3 sides, a rectangle has 4 sides and 4 right angles with opposite sides equal, a pentagon has 5 sides, a hexagon has 6 and an octagon has 8, like a stop sign.",
+    "Step 4, Name 3D shapes by faces, edges and corners. A cube has 6 square faces, 12 edges and 8 corners. A square-based pyramid has 5 faces, 8 edges and 5 corners. A cylinder has 2 flat circular faces and 1 curved face.",
+    "Step 5, Solve mystery descriptions. 'I have 4 equal sides and 4 right angles' is a square. 'I have 6 square faces' is a cube. 'I have 1 flat circular face, 1 curved face and 1 point' is a cone. Use the properties, not the picture.",
+    "Step 6, Your turn: name a flat shape with 5 sides, then say how many faces and edges a cuboid has, and what kind of angle is smaller than 90 degrees. Answer: a pentagon, a cuboid has 6 faces and 12 edges, and the angle is acute."
+   ]
   },
   {
    "n": 11,

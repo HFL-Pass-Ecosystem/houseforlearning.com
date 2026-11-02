@@ -32,7 +32,14 @@
    "example": "Solved: Square root of 196: 14 x 14 = 196, so the root is 14. 2 cubed x 2 to the 4 = 2 to the 7 = 128. 0.75 = 3/4 is rational; the square root of 2 is not. Method: Model run for 'Number systems'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Work with rational and irrational numbers and laws of exponents: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Write a repeating decimal as a fraction. Let x = 0.333... Then 10x = 3.333... Subtracting gives 9x = 3, so x = 3/9 = 1/3. Terminating decimals such as 0.75 = 3/4 are rational too. Every rational number is terminating or repeating.",
+    "Step 2, Try a block of two digits: x = 0.3636... Multiply by 100 to match the block length. Then 100x = 36.3636..., and subtracting gives 99x = 36. So x = 36/99, which simplifies by 9 to 4/11.",
+    "Step 3, Meet irrational numbers. The square root of 2 cannot be written as p/q. If it could, p^2 = 2q^2 would force both p and q to be even, which contradicts lowest terms. It is about 1.4142 and never repeats. It is the diagonal of a unit square.",
+    "Step 4, Operate on surds. (3 + root 2)(3 - root 2) = 9 - 2 = 7, a rational result. To rationalise 1 / (root 3 - 1), multiply top and bottom by (root 3 + 1): the bottom becomes 3 - 1 = 2, so the value is (root 3 + 1) / 2, about 1.366.",
+    "Step 5, Use laws of exponents with rational powers. 16^(3/4) = (16^(1/4))^3 = 2^3 = 8. And 27^(-2/3) = 1 / 27^(2/3) = 1 / 3^2 = 1/9. Take the root first, then the power, to keep the numbers small.",
+    "Step 6, Your turn: rationalise 1 / (root 5 + 2) and evaluate 8^(2/3). Answer: multiply by (root 5 - 2) to get (root 5 - 2) / (5 - 4) = root 5 - 2, and 8^(2/3) = 2^2 = 4."
+   ]
   },
   {
    "n": 2,

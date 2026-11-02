@@ -90,7 +90,14 @@
    "example": "Solved: 6 bags with 4 apples in each. Repeated adding: 4 + 4 + 4 + 4 + 4 + 4 = 24. As multiplication: 6 x 4 = 24. Check by turning it round: 4 x 6 = 24. Method: Model run for 'Multiplication'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Multiply by one and two digits and use estimation: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
-   "steps": []
+   "steps": [
+    "Step 1, Estimate first by rounding. For 38 x 6, round 38 up to 40. Then 40 x 6 = 240. The real answer should be a little less, because 38 is a little less than 40. The exact answer is 228, which fits the estimate.",
+    "Step 2, Multiply a three-digit number by one digit. For 346 x 7 split into 300 + 40 + 6. Then 300 x 7 = 2100, 40 x 7 = 280 and 6 x 7 = 42. Add them: 2100 + 280 + 42 = 2422. Estimate 300 x 7 = 2100, close.",
+    "Step 3, Start two-digit multipliers by splitting the multiplier. For 24 x 13 do 24 x 10 = 240 and 24 x 3 = 72. Add: 240 + 72 = 312. Multiplying by 10 just moves each digit one place left, so it is quick.",
+    "Step 4, Use long multiplication for 47 x 26. Do 47 x 20 = 940, then 47 x 6 = 282. Add the rows: 940 + 282 = 1222. Estimate 50 x 30 = 1500. Both numbers were rounded up, so the exact answer is smaller than 1500, which it is.",
+    "Step 5, Solve a story. A shop packs 48 apples in each box and has 36 boxes. Multiply 48 x 36: 48 x 30 = 1440 and 48 x 6 = 288, which total 1728 apples. A quick check with 50 x 36 = 1800 shows the answer is reasonable.",
+    "Step 6, Your turn: estimate then work out 63 x 24. Round to 60 x 20 first, then use 63 x 20 and 63 x 4. Answer: estimate 1200, exact 1260 + 252 = 1512, close to the estimate but a bit higher because both numbers were rounded down."
+   ]
   },
   {
    "n": 4,
@@ -257,7 +264,14 @@
    "example": "Solved: A square has 4 equal sides and 4 right angles; a rectangle has 2 pairs of equal sides. A tally of 5 red, 3 blue and 2 green shows most children like red. Method: Model run for 'Geometry'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Classify angles, triangles and quadrilaterals and find lines of symmetry: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
-   "steps": []
+   "steps": [
+    "Step 1, Classify angles by size. Acute is less than 90 degrees, such as 35. Right is exactly 90. Obtuse is between 90 and 180, such as 120. A straight angle is 180, and reflex is between 180 and 360, such as 250. Sort five angles by comparing with a paper corner.",
+    "Step 2, Classify triangles by sides. Equilateral has 3 equal sides and 3 angles of 60 degrees. Isosceles has 2 equal sides. Scalene has no equal sides. The three angles of any triangle add up to 180 degrees, so 60 + 60 + 60 works.",
+    "Step 3, Classify triangles by angles and find a missing one. A triangle with a right angle is right-angled. If all angles are under 90 it is acute, and if one is over 90 it is obtuse. With angles 90 and 35, the third is 180 - 125 = 55.",
+    "Step 4, Classify quadrilaterals. A square has 4 equal sides and 4 right angles. A rectangle has 4 right angles and equal opposite sides. A rhombus has 4 equal sides. A parallelogram has two pairs of parallel sides. A kite has two pairs of equal neighbouring sides. Their angles add to 360 degrees.",
+    "Step 5, Find lines of symmetry by folding paper shapes. A rectangle has 2, a square has 4, an equilateral triangle has 3, an isosceles triangle has 1 and a circle has infinitely many. A parallelogram that is not a rectangle has none.",
+    "Step 6, Your turn: a triangle has angles 72 and 48 degrees. Find the third angle and name the triangle by its angles. Then give the lines of symmetry of a rhombus that is not a square. Answer: 180 - 120 = 60 degrees, acute triangle, and 2 lines of symmetry."
+   ]
   },
   {
    "n": 10,

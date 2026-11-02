@@ -62,7 +62,14 @@
    "example": "Solved: Algorithm to make toast: 1 take two slices, 2 put in toaster, 3 press down, 4 wait, 5 take out. Loop: repeat 4 times: step forward, turn right = draw a square. Method: Model run for 'Algorithms and flowcharts'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Plan a solution with a flowchart and test it: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, State the problem: a museum charges by age. Under 5 is free, ages 5 to 12 pay 4 coins, and anyone older pays 8 coins. Write the inputs (age), the process (compare the age) and the output (the price). Planning in plain words first helps before any drawing.",
+    "Step 2, Learn the flowchart shapes. An oval means start or stop, a parallelogram means input or output, a rectangle means a process step, and a diamond means a yes or no decision. Arrows show the order. Draw Start, then a parallelogram: Input age.",
+    "Step 3, Build the decisions. First diamond: Is age < 5? Yes leads to Output 0. No leads to a second diamond: Is age <= 12? Yes leads to Output 4, and No leads to Output 8. All three paths join at Stop. Every diamond needs exactly two labelled exits.",
+    "Step 4, Test with a trace table, choosing the edge values. Age 4: first question yes, price 0. Age 5: first no, second yes, price 4. Age 12: price 4. Age 13: both questions no, price 8. The results 0, 4, 4, 8 match the museum rules.",
+    "Step 5, Add a loop to serve many visitors. After each output, draw a diamond: Another visitor? Yes goes back to Input age, and No goes to Stop. Trace three visitors aged 3, 9 and 40: prices 0, 4 and 8, total 12 coins. The arrow back is what makes the loop.",
+    "Step 6, Your turn: plan a flowchart that reads a mark and prints Pass for 50 or more, otherwise Fail. Test it with 49, 50 and 72. Answer: Is mark >= 50? Yes gives Pass, no gives Fail; the tests give Fail, Pass, Pass."
+   ]
   },
   {
    "n": 3,
@@ -84,7 +91,14 @@
    "example": "Solved: Python: for i in range(3): print('Hi') prints Hi three times. Blocks: when flag clicked, repeat 10: move 10 steps. For functions: def square(n): return n * n; square(4) gives 16. Method: Model run for 'Programming in a text language, first steps'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Write short programs with input, output and decisions: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Print a message. In a text language you type instructions as lines. The line print(\"Hello\") shows Hello on the screen. Text goes in quote marks. Run the line and check the output matches exactly, including capital letters and the brackets, because the computer does exactly what is written.",
+    "Step 2, Store input in a variable. Type: name = input(\"What is your name? \") then print(\"Hello,\", name). If the user types Ria, the screen shows: What is your name? Ria and then Hello, Ria. The variable name holds the typed text until the program ends.",
+    "Step 3, Convert to a number. Input always arrives as text, so write age = int(input(\"Age: \")). The int part turns the text 12 into the number 12. Without it, comparing the age with 5 would give an error. Check by printing a + b for 7 and 5, which prints 12.",
+    "Step 4, Make a decision: if age < 5: print(\"Free\"), then elif age <= 12: print(\"Child ticket\"), then else: print(\"Adult ticket\"). The lines under each test are indented by four spaces. Only the first true test runs, and else catches everything left over. Colons are required after each test.",
+    "Step 5, Test all branches. Run the program with 4, 12 and 13. The outputs are Free, Child ticket and Adult ticket. Testing edge values such as 12 and 13 catches the usual mistake of writing < where <= is needed. If you see an indentation error, align the lines.",
+    "Step 6, Your turn: write a program that reads a number and prints even or odd. Hint: n % 2 is the remainder after dividing by 2. Answer: n = int(input()), if n % 2 == 0: print(\"even\"), else: print(\"odd\"). For 7 it prints odd."
+   ]
   },
   {
    "n": 4,

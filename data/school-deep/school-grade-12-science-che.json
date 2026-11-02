@@ -148,7 +148,14 @@
    "example": "Solved: A solution that turns blue litmus red is an acid. Acid + base gives salt + water, for example hydrochloric acid + sodium hydroxide gives sodium chloride + water. Method: Model run for 'Aldehydes, ketones, carboxylic acids and amines'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Describe reactions and tests: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": []
+   "steps": [
+    "Step 1, Recognise the groups. Aldehydes have C=O at the chain end: ethanal CH3CHO. Ketones have C=O inside the chain: propanone CH3COCH3. Carboxylic acids have -COOH: ethanoic acid CH3COOH. Amines have -NH2: methylamine CH3NH2. Name each from its longest chain, then ending -al, -one, -oic acid or -amine.",
+    "Step 2, Describe oxidation. Warm ethanol with acidified potassium dichromate and it is oxidised to ethanal, then to ethanoic acid; the orange mixture turns green. Propan-2-ol gives propanone, which resists further oxidation. Reduction goes the other way: ethanal with sodium borohydride gives ethanol. Safety: dichromate is toxic, so use a water bath, not a flame.",
+    "Step 3, Tell aldehydes from ketones. Warm with ammoniacal silver nitrate: an aldehyde gives a silver mirror, a ketone gives nothing. Warm with alkaline copper(II) solution: an aldehyde turns blue to brick-red solid, a ketone stays blue. 2,4-dinitrophenylhydrazine gives an orange precipitate with both. Use tiny amounts, wear goggles, rinse silver mixtures away at once.",
+    "Step 4, Carboxylic acids are weak acids. Ethanoic acid with sodium hydrogencarbonate fizzes: CH3COOH + NaHCO3 -> CH3COONa + H2O + CO2, and the gas turns limewater cloudy. With ethanol and a little concentrated sulfuric acid catalyst it forms ethyl ethanoate, a fruity-smelling ester. Masses: 60 + 46 = 88 + 18, so the equation balances. Safety: wear goggles, because concentrated sulfuric acid burns skin.",
+    "Step 5, Amines are weak bases because nitrogen has a lone pair. CH3NH2 + H2O <=> CH3NH3+ + OH-, so it turns red litmus blue. With hydrochloric acid it makes the salt methylammonium chloride, CH3NH3Cl, which dissolves in water. Primary, secondary and tertiary amines have one, two or three carbon groups on N. Amines smell fishy and are irritants, so use a fume cupboard.",
+    "Step 6, Your turn: a liquid gives an orange precipitate with 2,4-dinitrophenylhydrazine, no silver mirror, and no colour change with warm acidified dichromate. Name its class and one example. Model answer: it is a ketone, because it has a carbonyl group but resists oxidation; propanone is an example."
+   ]
   },
   {
    "n": 6,

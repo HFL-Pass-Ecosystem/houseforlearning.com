@@ -119,7 +119,14 @@
    "example": "Solved: 6 bags with 4 apples in each. Repeated adding: 4 + 4 + 4 + 4 + 4 + 4 = 24. As multiplication: 6 x 4 = 24. Check by turning it round: 4 x 6 = 24. Method: Model run for 'Multiplication as equal groups'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Use groups, arrays and repeated adding; the tables of 2, 5 and 10: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
-   "steps": []
+   "steps": [
+    "Step 1, Make equal groups: draw 3 plates with 4 apples on each plate. Count all the apples by adding the groups, 4 + 4 + 4 = 12. We say 3 groups of 4 make 12. Write it as 3 x 4 = 12 and read it as three times four equals twelve.",
+    "Step 2, Build an array, which is rows and columns of equal size. Put 5 counters in each of 2 rows. Add by rows, 5 + 5 = 10, so 2 x 5 = 10. Turn the array and see 5 columns of 2, so 5 x 2 = 10 too. The order does not change the answer.",
+    "Step 3, Learn the table of 2 by skip counting in twos: 2, 4, 6, 8, 10, 12, 14, 16, 18, 20. Each answer is a double, so 6 x 2 = 12 because 6 + 6 = 12. Touch a finger for each jump and say the count aloud, then say the whole table without looking.",
+    "Step 4, Learn the table of 5 by counting in fives: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50. Every answer ends in 5 or 0. To find 7 x 5, count 7 jumps of 5 and reach 35. A clock helps, since each number on the face is 5 minutes.",
+    "Step 5, Learn the table of 10 by counting in tens: 10, 20, 30, 40, 50, 60, 70, 80, 90, 100. Four groups of ten is 4 x 10 = 40, so the answer is the number with a 0 after it. Use ten-rods or ten coins to build 4 tens and count them.",
+    "Step 6, Your turn: there are 6 bags with 5 marbles in each bag. How many marbles in all? Then find 8 x 2. Answer: 6 x 5 = 30 marbles, by counting 5, 10, 15, 20, 25, 30, and 8 x 2 = 16, because 8 + 8 = 16."
+   ]
   },
   {
    "n": 5,
@@ -257,7 +264,14 @@
    "example": "Solved: A square has 4 equal sides and 4 right angles; a rectangle has 2 pairs of equal sides. A tally of 5 red, 3 blue and 2 green shows most children like red. Method: Model run for 'Shapes and data'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Name flat and solid shapes and read simple picture graphs: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
-   "steps": []
+   "steps": [
+    "Step 1, Name flat shapes: a circle is round with no corners, a triangle has 3 sides and 3 corners, a square has 4 equal sides, and a rectangle has 4 sides with two long and two short. Trace a coin, a book and a sandwich slice to find them.",
+    "Step 2, Name solid shapes: a ball is a sphere, a dice is a cube, a cereal box is a cuboid, a tin is a cylinder, and a party hat is a cone. Solid shapes can be held. Pick up a tin and roll it, then try to roll a box.",
+    "Step 3, Count the parts of a cube: it has 6 flat faces, 12 edges and 8 corners. Each face is a square. Touch each face of a dice and count aloud. A flat shape lives inside a solid, such as the circle on top of a tin.",
+    "Step 4, Read a picture graph. Each smiley stands for 1 child's favourite fruit. Apple has 4 smileys, banana has 6 and orange has 3. Put a finger on the first row, say apple, and count the pictures to get 4.",
+    "Step 5, Answer questions from the graph. Which fruit is most popular? Banana, with 6. How many more chose apple than orange? 4 take away 3 leaves 1 more. How many children in all? Add 4 + 6 + 3, which makes 13.",
+    "Step 6, Your turn: a graph shows dog 5, cat 3 and fish 2 pictures. How many more children chose dog than cat? How many children in all? Name the solid shape of a can. Answer: 2 more chose dog, 10 children in all, and a can is a cylinder."
+   ]
   }
  ],
  "rubric": [

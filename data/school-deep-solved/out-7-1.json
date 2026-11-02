@@ -1,0 +1,242 @@
+{
+ "G11C-ACC-01": {
+  "steps": [
+   "Step 1, Apply the basic principles: the business entity principle says the owner and the business are separate, so the owner's own scooter is not a business asset. Going concern assumes the shop will keep running. Money measurement records only items that can be stated in money. The cost concept records assets at the price paid.",
+   "Step 2, State the equation: Assets = Capital + Liabilities. Assets are what the business owns, capital is what the owner has put in, and liabilities are what it owes outsiders. Every transaction has two effects (dual aspect), so both sides stay equal. The owner starts with Rs 100,000 cash: Assets 100,000 = Capital 100,000 + Liabilities 0.",
+   "Step 3, Apply it to two more transactions. Buy furniture for Rs 20,000 cash: cash falls to 80,000 and furniture 20,000 appears, so assets stay 100,000. Buy goods on credit for Rs 30,000: stock rises by 30,000 and creditors rise by 30,000, so assets 130,000 = capital 100,000 + liabilities 30,000.",
+   "Step 4, Record a sale. Sell goods that cost Rs 10,000 for Rs 15,000 cash: cash rises by 15,000 and stock falls by 10,000, so assets rise by 5,000. That 5,000 is profit, which belongs to the owner, so capital becomes 105,000. Check: cash 95,000 + furniture 20,000 + stock 20,000 = 135,000 = 105,000 + 30,000.",
+   "Step 5, Record a payment to a creditor of Rs 12,000: cash falls from 95,000 to 83,000 and creditors fall from 30,000 to 18,000. Assets are now 83,000 + 20,000 + 20,000 = 123,000, and capital 105,000 + liabilities 18,000 = 123,000. Paying a debt shrinks both sides equally, so the equation still balances.",
+   "Step 6, Your turn: A trader starts with Rs 60,000 cash, buys a machine for Rs 25,000 cash and buys goods for Rs 10,000 on credit. Show the equation. Answer: cash 35,000 + machine 25,000 + stock 10,000 = assets 70,000; capital 60,000 + liabilities 10,000 = 70,000, so it balances."
+  ]
+ },
+ "G11C-ACC-02": {
+  "steps": [
+   "Step 1, Record in the journal, the book of first entry. For each transaction, name the account to debit and the account to credit, give the date and add a short narration. Rule used: debit what comes in or an expense, credit what goes out or a gain. A debit entry always has an equal credit entry.",
+   "Step 2, Journalise five January transactions. 1 Jan: started business with cash 50,000 (Dr Cash, Cr Capital). 2 Jan: bought goods for cash 20,000 (Dr Purchases, Cr Cash). 3 Jan: sold goods on credit to Customer K 18,000 (Dr Customer K, Cr Sales). 5 Jan: paid rent 3,000 (Dr Rent, Cr Cash). 8 Jan: received 10,000 from Customer K (Dr Cash, Cr Customer K).",
+   "Step 3, Post to the ledger, where each account has its own page. Cash account: debit side 50,000 + 10,000 = 60,000, credit side 20,000 + 3,000 = 23,000. Balance carried down 37,000 on the debit side. Customer K's account: debit 18,000, credit 10,000, so the balance is 8,000 debit, meaning Customer K still owes us that amount.",
+   "Step 4, Balance the other accounts. Purchases has one debit of 20,000. Rent has one debit of 3,000. Sales has one credit of 18,000. Capital has one credit of 50,000. A ledger balance sits on the side that is larger. Write each closing balance in the trial balance list next.",
+   "Step 5, Prepare the trial balance. Debit column: Cash 37,000, Purchases 20,000, Customer K 8,000, Rent 3,000, total 68,000. Credit column: Capital 50,000, Sales 18,000, total 68,000. The totals agree, so the double entries were posted correctly. If they differed, recheck postings and additions for the error.",
+   "Step 6, Your turn: a trader starts with cash 40,000, buys goods for cash 15,000 and pays wages 2,000. Prepare the trial balance. Answer: Debit side: Cash 23,000, Purchases 15,000, Wages 2,000, total 40,000. Credit side: Capital 40,000. Both totals are 40,000."
+  ]
+ },
+ "G11C-ACC-03": {
+  "steps": [
+   "Step 1, Record in subsidiary books so the journal does not get crowded. Each book holds one kind of transaction: cash book for cash and bank, purchases book for credit purchases of goods, sales book for credit sales, and returns books for goods sent back. Only the totals are posted to the ledger, which saves time.",
+   "Step 2, Write the purchases book. 5 March: goods from Supplier A on credit 12,000. 9 March: goods from Supplier B on credit 8,000. Total credit purchases 20,000. Post the total once as Dr Purchases 20,000, and credit each supplier's account with its own amount: Supplier A 12,000 and Supplier B 8,000. Cash purchases do not go here.",
+   "Step 3, Use a cash book with a bank column. Cash received and cheques deposited are entered on the debit side, and payments on the credit side. After the month's entries the bank column of the cash book shows a debit balance of Rs 24,500. The bank's passbook is its own copy of the same account and may show a different figure.",
+   "Step 4, Find why they differ. Four items: bank charges 300 and interest credited 800 are known to the bank but not yet in the cash book; a cheque issued for 2,500 has not been presented; a cheque deposited for 1,000 has not been cleared. The first two need cash book entries, the last two are only timing differences.",
+   "Step 5, Reconcile. Adjust the cash book: 24,500 - 300 + 800 = 25,000. The passbook shows 26,500. Start from it: 26,500 + 1,000 (deposited, not yet credited) - 2,500 (issued, not yet presented) = 25,000. Both agree at 25,000, so the books are reconciled and the true bank balance is Rs 25,000.",
+   "Step 6, Your turn: cash book bank balance is 18,000. Bank charges of 200 are not yet recorded. A cheque issued for 1,500 is not presented. Find the passbook balance and reconcile. Answer: adjusted cash book 18,000 - 200 = 17,800; passbook 19,300 - 1,500 = 17,800, so the passbook shows 19,300 and both agree."
+  ]
+ },
+ "G11C-ACC-05": {
+  "steps": [
+   "Step 1, Gather the closing figures from the trial balance of a sole proprietor. Debit side: Purchases 120,000, Opening stock 15,000, Wages 20,000, Rent 12,000, Drawings 10,000, Furniture 40,000, Debtors 22,000, Bank 59,000. Credit side: Sales 200,000, Capital 80,000, Creditors 18,000. Both sides total 298,000. Closing stock is valued at 25,000.",
+   "Step 2, Prepare the trading section of the income statement. Cost of goods sold = opening stock 15,000 + purchases 120,000 - closing stock 25,000 = 110,000. Gross profit = sales 200,000 - 110,000 = 90,000. Gross profit shows what trading the goods earned before running expenses.",
+   "Step 3, Complete the income statement. Deduct operating expenses: wages 20,000 + rent 12,000 = 32,000. Net profit = gross profit 90,000 - 32,000 = 58,000. Drawings are money the owner takes for personal use, so they are not an expense and do not appear here.",
+   "Step 4, Build the capital section of the balance sheet. Opening capital 80,000 + net profit 58,000 - drawings 10,000 = closing capital 128,000. Add the liability, creditors 18,000, to get the total of capital and liabilities: 146,000. Show current liabilities such as creditors separately.",
+   "Step 5, List the assets: furniture 40,000 (fixed asset); closing stock 25,000, debtors 22,000 and bank 59,000 (current assets). Total assets = 40,000 + 25,000 + 22,000 + 59,000 = 146,000. This equals capital plus liabilities of 146,000, so the balance sheet balances and the statements are consistent.",
+   "Step 6, Your turn: sales 80,000, purchases 50,000, opening stock 5,000, closing stock 8,000, expenses 12,000. Find gross profit and net profit. Answer: cost of goods sold = 5,000 + 50,000 - 8,000 = 47,000; gross profit = 80,000 - 47,000 = 33,000; net profit = 33,000 - 12,000 = 21,000."
+  ]
+ },
+ "G04-ARA-03": {
+  "steps": [
+   "Step 1, Listen, say and split the word. The helper says كِتَاب [book]: ki-taa-b. Write it from right to left as four letters, ك ت ا ب. Notice the alif (ا) joins to the letter before it but never to the letter after it, so the last ب is written on its own, in its separate shape.",
+   "Step 2, Mark the long sounds. قَلَم [pen] has only short sounds, so no long letter is written. بَاب [door] has a long aa, written with alif. نُور [light] has a long oo, written with waw (و). فِيل [elephant] has a long ee, written with ya (ي). Listen for how long each sound lasts before you write.",
+   "Step 3, Spell the round ta. مَدْرَسَة [school] ends in ة, the round ta with two dots, which sounds like a short a at the end of the word. Compare تَمْر [dates], which ends in the ordinary ت and is pronounced t. Do not write the round ta as ه; it needs its two dots.",
+   "Step 4, Write words with sun and moon letters. الشَّمْس [the sun] is said ash-shams, because the L sound disappears and ش is doubled with a shadda (ّ). الْقَمَر [the moon] is said al-qamar, and the L is heard. Both are written with ال; say the word aloud before writing the first letter.",
+   "Step 5, Take a short dictation. The helper reads ذَهَبَ الْوَلَدُ إِلَى الْمَدْرَسَةِ [The boy went to the school] three times: whole, then phrase by phrase, then whole again. Write it, then check three things: every dot, the round ta in المدرسة, and إِلَى, which ends in the dotless ى that sounds like aa.",
+   "Step 6, Your turn: write these words from the English meaning, with ال in front: the pen, the school, the sun. Say each aloud first. Answer: الْقَلَم، الْمَدْرَسَة، الشَّمْس. The first uses a moon letter, the third a sun letter, and the second ends with the round ta."
+  ]
+ },
+ "G05-ARA-02": {
+  "steps": [
+   "Step 1, Meet the two types. A nominal sentence begins with a noun: الْوَلَدُ مُجْتَهِدٌ [The boy is hard-working]. It has a subject الْوَلَدُ and a predicate مُجْتَهِدٌ. A verbal sentence begins with a verb: كَتَبَ الْوَلَدُ الدَّرْسَ [The boy wrote the lesson]. Always look at the first word.",
+   "Step 2, Sort by first word. السَّمَاءُ صَافِيَةٌ [The sky is clear] starts with a noun, so it is nominal. يَلْعَبُ الْأَطْفَالُ [The children play] starts with a verb, so it is verbal. أَكَلَتِ الْبِنْتُ التُّفَّاحَةَ [The girl ate the apple] starts with a verb, so it is verbal too.",
+   "Step 3, Name the parts of a verbal sentence. In كَتَبَ الْوَلَدُ الدَّرْسَ, the verb is كَتَبَ [wrote], the doer is الْوَلَدُ [the boy], ending in damma (ُ), and the object is الدَّرْسَ [the lesson], ending in fatha (َ). Order: verb, doer, object. Say it aloud, then point to each part.",
+   "Step 4, Match gender. In a nominal sentence the predicate agrees with the subject: الْوَلَدُ مُجْتَهِدٌ (boy, masculine) and الْبِنْتُ مُجْتَهِدَةٌ (girl, feminine). In a verbal sentence the verb agrees in gender too: كَتَبَ الْوَلَدُ, كَتَبَتِ الْبِنْتُ [The girl wrote]. When the verb comes first it stays singular: يَلْعَبُ الْأَوْلَادُ [The boys play].",
+   "Step 5, Watch the trap. الطَّالِبُ يَقْرَأُ [The student reads] begins with a noun, so it is a nominal sentence even though it contains a verb. Move the verb first and it becomes verbal: يَقْرَأُ الطَّالِبُ الْكِتَابَ [The student reads the book]. The type depends only on the first word.",
+   "Step 6, Your turn: label each sentence, then write one of your own. 1) الْبَابُ مَفْتُوحٌ [The door is open] 2) فَتَحَ الْوَلَدُ الْبَابَ [The boy opened the door]. Answer: 1 is nominal, it starts with the noun الْبَابُ; 2 is verbal, it starts with the verb فَتَحَ. Own sentence, for example: الْقَمَرُ جَمِيلٌ [The moon is beautiful], nominal."
+  ]
+ },
+ "G11S-BIO-01": {
+  "steps": [
+   "Step 1, Classify using the five-kingdom system, which sorts living things by cell type, body organisation and mode of nutrition. Monera: bacteria, prokaryotic. Protista: single-celled eukaryotes such as Amoeba. Fungi: absorb food, cell wall of chitin. Plantae: make food by photosynthesis. Animalia: eat food, no cell wall. Place a mushroom: Fungi.",
+   "Step 2, Learn the taxonomic hierarchy from largest to smallest group: Kingdom, Phylum (Division in plants), Class, Order, Family, Genus, Species. Each step down has fewer organisms that share more features. A handy memory line is built from the first letters K P C O F G S. Species is the basic unit: organisms that can breed together.",
+   "Step 3, Classify the lion: Kingdom Animalia, Phylum Chordata, Class Mammalia, Order Carnivora, Family Felidae, Genus Panthera, species leo. Check each rung: it has a backbone (Chordata), hair and milk glands (Mammalia), and meat-eating teeth (Carnivora). The domestic cat shares the same Class, Order and Family.",
+   "Step 4, Write the scientific name by binomial nomenclature: genus first with a capital letter, species second in lower case, and the whole name in italics or underlined when handwritten. Examples: Homo sapiens for human, Mangifera indica for mango, Panthera leo for lion. The two-part name is the same worldwide.",
+   "Step 5, Classify the mango tree: Kingdom Plantae, Division Angiospermae, Class Dicotyledonae, Order Sapindales, Family Anacardiaceae, Genus Mangifera, species indica. Explain why: it makes seeds inside fruits (angiosperm) and its seed has two cotyledons (dicot). Different plants in the genus share the name Mangifera.",
+   "Step 6, Your turn: the domestic cat is Felis catus. Name its genus, species, family and order, and say what it shares with the lion. Answer: genus Felis, species catus, family Felidae, order Carnivora. It shares Family Felidae, Order Carnivora, Class Mammalia, Phylum Chordata and Kingdom Animalia with the lion."
+  ]
+ },
+ "G11S-BIO-02": {
+  "steps": [
+   "Step 1, Compare the five main plant groups. Algae: simple, mostly aquatic, for example Spirogyra. Bryophytes: moss and liverworts, no vascular tissue. Pteridophytes: ferns, vascular tissue but no seeds. Gymnosperms: Cycas and Pinus, seeds not enclosed in fruit. Angiosperms: flowering plants with seeds inside fruits.",
+   "Step 2, Compare bryophytes and pteridophytes. Both need water for the male gamete to swim to the egg. Moss has no true roots, only root-like rhizoids, and no xylem or phloem. A fern has true roots, stems, leaves and vascular tissue, so it can grow taller. Neither produces seeds; both spread by spores.",
+   "Step 3, Compare gymnosperms and angiosperms. Pine seeds sit naked on cone scales, while mango seeds are covered by a fruit. Angiosperms are divided into monocots (one seed leaf, parallel veins, fibrous roots, as in wheat) and dicots (two seed leaves, net veins, tap root, as in gram).",
+   "Step 4, Compare animal phyla by body plan. Porifera (sponges) have pores, no true tissues. Cnidaria (Hydra) have stinging cells and radial symmetry. Platyhelminthes (tapeworm) are flat. Annelida (earthworm) have ringed segments. Arthropoda (cockroach) have jointed legs and the most species. Mollusca (snail) have soft bodies. Echinodermata (starfish) have spiny skins.",
+   "Step 5, Compare the vertebrate classes by the heart. Pisces (fish) have gills and a 2-chambered heart. Amphibia (frog) have moist skin and a 3-chambered heart. Reptilia (lizard) have dry scales and usually a 3-chambered heart. Aves (sparrow) have feathers and a 4-chambered heart. Mammalia (human) have hair, milk glands and a 4-chambered heart.",
+   "Step 6, Your turn: compare a frog and a sparrow in four points: class, heart, skin or body covering, and body temperature. Answer: frog is Amphibia, 3-chambered heart, moist skin, cold-blooded; sparrow is Aves, 4-chambered heart, feathers, warm-blooded. Both are chordates with a backbone."
+  ]
+ },
+ "G11S-BIO-03": {
+  "steps": [
+   "Step 1, Describe the cell. All living things are made of cells, cells come from existing cells, and the cell is the basic unit. A prokaryotic cell (bacteria) has no membrane-bound nucleus. A eukaryotic cell (plant, animal) has a nucleus and organelles. Typical animal cells measure about 10 to 30 micrometres, and one micrometre is a thousandth of a millimetre.",
+   "Step 2, Describe the organelles. The cell membrane controls what enters and leaves. The nucleus holds DNA. Mitochondria release energy as ATP. Ribosomes make proteins. The endoplasmic reticulum transports materials, the Golgi body packs and sends them, and lysosomes digest waste. Write one job beside each name.",
+   "Step 3, Describe the differences between plant and animal cells. A plant cell has a cellulose cell wall outside the membrane, chloroplasts for photosynthesis and a large central vacuole. An animal cell has none of these but usually has centrioles, which help in cell division. Both have a nucleus, mitochondria and ribosomes.",
+   "Step 4, Describe the four animal tissues. Epithelial tissue covers surfaces, such as the flat cells lining the air sacs. Connective tissue joins and supports: bone, cartilage and blood. Muscular tissue contracts: skeletal, smooth and cardiac. Neural tissue carries signals through neurons. Plant tissues are meristematic (dividing) or permanent.",
+   "Step 5, Calculate magnification when you view a slide. Magnification = image size divided by actual size. A red blood cell about 7 micrometres wide is drawn 14 mm wide: 14 mm = 14,000 micrometres, and 14,000 / 7 = 2,000, so the drawing is magnified 2000 times. Safety: glass slides and coverslips are fragile, stains such as iodine stain skin and clothes, and hands are washed afterwards.",
+   "Step 6, Your turn: a cheek cell is 60 micrometres wide and your drawing is 30 mm wide. Find the magnification. Answer: 30 mm = 30,000 micrometres; 30,000 / 60 = 500, so the magnification is 500 times. Also say which organelle is absent from a cheek cell but present in a leaf cell: the chloroplast."
+  ]
+ },
+ "G11S-BIO-05": {
+  "steps": [
+   "Step 1, Describe photosynthesis with the balanced equation: 6CO2 + 6H2O gives C6H12O6 + 6O2, using light and chlorophyll. Count atoms to check: both sides have 6 carbon, 12 hydrogen and 18 oxygen. Carbon dioxide enters through stomata, water arrives through roots, glucose feeds the plant and oxygen is released.",
+   "Step 2, Describe the two stages. The light reaction happens in the grana of the chloroplast: light splits water, releasing oxygen and making ATP and NADPH. The dark reaction (Calvin cycle) happens in the stroma: carbon dioxide is fixed into sugar using that ATP and NADPH. Light is needed directly only for the first stage.",
+   "Step 3, Describe respiration: glucose + 6O2 gives 6CO2 + 6H2O + energy. Glycolysis takes place in the cytoplasm and splits one glucose into 2 pyruvate with a net gain of 2 ATP. The Krebs cycle runs in the mitochondrial matrix, and the electron transport chain on the inner membrane makes most of the ATP, about 36 to 38 in total.",
+   "Step 4, Describe plant growth and its regulators. Auxins promote cell elongation and make stems bend toward light. Gibberellins make stems elongate and break seed dormancy. Cytokinins promote cell division. Abscisic acid closes stomata in drought. Ethylene ripens fruit. Growth is measured by increase in height, mass or number of cells.",
+   "Step 5, Describe the starch test for photosynthesis. Take a leaf kept in light, boil it in water for a minute, then warm it in ethanol in a hot water bath to remove chlorophyll, and add iodine. Blue-black means starch is present. Safety: ethanol is flammable, so never heat it over a flame; use hot water, wear goggles, and keep iodine off the skin.",
+   "Step 6, Your turn: if a plant makes 3 molecules of glucose, how many molecules of carbon dioxide are used and oxygen released? Answer: 6 CO2 gives 1 glucose, so 3 glucose need 18 CO2 and release 18 O2 (6 x 3 for each). In respiration the same 18 O2 would be needed to break the sugar down."
+  ]
+ },
+ "G11S-BIO-06": {
+  "steps": [
+   "Step 1, Describe digestion. In the mouth, salivary amylase starts breaking starch into sugars. In the stomach, acid of about pH 1.5 to 2 and the enzyme pepsin begin digesting protein. In the small intestine, bile, lipase and trypsin finish fats and proteins, and villi absorb the nutrients into the blood. Undigested matter leaves via the large intestine.",
+   "Step 2, Describe breathing. The diaphragm contracts and flattens, the ribs move up and out, chest volume rises, pressure falls and air flows in. In the alveoli oxygen diffuses into blood and carbon dioxide leaves. A resting adult takes in about 500 mL per breath (tidal volume) at roughly 12 breaths per minute: 500 x 12 = 6,000 mL, or 6 litres per minute.",
+   "Step 3, Describe circulation. The heart has four chambers. Deoxygenated blood enters the right atrium, goes to the right ventricle, then to the lungs. Oxygenated blood returns to the left atrium, enters the left ventricle and is pumped to the body. This double circulation keeps oxygen-rich and oxygen-poor blood apart.",
+   "Step 4, Describe the output of the heart. If each beat pumps about 70 mL (stroke volume) and the pulse is 72 beats per minute, then 70 x 72 = 5,040 mL, about 5 litres per minute. That is roughly the volume of blood in the whole body, so all of it passes the heart about once every minute.",
+   "Step 5, Describe excretion. Each kidney has about a million nephrons. Blood is filtered in the glomerulus to give roughly 180 litres of filtrate a day, but most water and useful solutes such as glucose are reabsorbed, so only about 1.5 litres of urine is made. Urea and extra salts leave, and urine passes through the ureters to the bladder.",
+   "Step 6, Your turn: a person breathes 450 mL per breath at 14 breaths a minute. Find the volume of air per minute, then name the muscle that pulls air in. Answer: 450 x 14 = 6,300 mL, which is 6.3 litres per minute. The muscle is the diaphragm, helped by the muscles between the ribs."
+  ]
+ },
+ "G12S-BIO-01": {
+  "steps": [
+   "Step 1, Describe the flower as the reproductive organ. The stamen has an anther that makes pollen grains, and the carpel (stigma, style, ovary) holds ovules. Inside the ovule, one cell divides to form an embryo sac of 7 cells and 8 nuclei, including one egg cell and 2 polar nuclei. Pollen grains hold the male gametes.",
+   "Step 2, Describe pollination and double fertilization. Pollen lands on the stigma and grows a tube down the style to the ovule. Two male gametes are released. One fuses with the egg to form the zygote. The other fuses with the 2 polar nuclei to form the primary endosperm nucleus. Two fusions in one embryo sac is why it is called double fertilization.",
+   "Step 3, Describe the result. The zygote becomes the embryo, the endosperm nucleus becomes the food store, the ovule becomes the seed and the ovary becomes the fruit. Check the chromosome numbers in maize, which has 20 chromosomes in body cells: egg 10, zygote 20, and endosperm 30 because it has three sets of 10.",
+   "Step 4, Describe human gametes. Sperm are made in the seminiferous tubules of the testes by spermatogenesis and each carries 23 chromosomes. Eggs are made in the ovaries by oogenesis, also with 23. Fusion at fertilization restores 46 chromosomes, the normal number for a human body cell, and the sex is set by whether the sperm carries X or Y.",
+   "Step 5, Describe the cycle and early pregnancy. In a typical 28-day menstrual cycle, ovulation occurs around day 14. Fertilization happens in the fallopian tube, and the embryo reaches the uterus and implants about 7 days later. Pregnancy lasts about 9 months, which is around 40 weeks counted from the last period. The placenta feeds the foetus.",
+   "Step 6, Your turn: a pea plant has 14 chromosomes in a body cell. How many are in a pollen grain, the egg, the zygote and the endosperm? Answer: pollen grain 7, egg 7, zygote 14, endosperm 21 (three sets of 7). Name the process by which one fusion forms the zygote and another forms the endosperm: double fertilization."
+  ]
+ },
+ "G12S-BIO-02": {
+  "steps": [
+   "Step 1, Apply the law of segregation to a monohybrid cross. Tall (T) is dominant over short (t). Cross two heterozygous plants, Tt x Tt. Gametes: T or t from each parent. Offspring: 1 TT : 2 Tt : 1 tt. Phenotypes are 3 tall to 1 short, because TT and Tt both look tall. A test cross with tt shows an unknown plant's genotype.",
+   "Step 2, Apply independent assortment to a dihybrid cross. Round (R) and yellow (Y) are dominant. Cross RrYy x RrYy. Each parent makes four gamete types, RY, Ry, rY, ry, so there are 16 combinations. Count phenotypes: 9 round yellow, 3 round green, 3 wrinkled yellow, 1 wrinkled green. The ratio is 9 : 3 : 3 : 1.",
+   "Step 3, Apply the molecular basis. DNA is a double helix with A pairing with T and G with C. Read a template strand 3' TAC CGA TTT ACT 5'. The mRNA made is 5' AUG GCU AAA UGA 3', because RNA uses U instead of T. The codons code for methionine (start), alanine, lysine and then UGA, a stop signal.",
+   "Step 4, Apply it to a mutation. In sickle cell disease one base changes in the gene for the haemoglobin beta chain, so the codon GAG becomes GUG in mRNA and the amino acid glutamic acid is replaced by valine. One changed letter alters one amino acid and can change the shape of red cells. Heterozygous carriers (HbA HbS) usually stay healthy.",
+   "Step 5, Apply it to evolution. Natural selection changes allele frequencies. In a population where 4 in 100 are recessive (q squared = 0.04), q = 0.2 and p = 0.8. Carriers are 2pq = 2 x 0.8 x 0.2 = 0.32, or 32 in 100, far more than the 4 who show the trait. The equation p squared + 2pq + q squared = 1 holds when nothing changes the frequencies.",
+   "Step 6, Your turn: cross a round pea plant Rr with a wrinkled plant rr. State the genotypes and phenotype ratio. Answer: gametes R or r from the first, r from the second, so offspring are 1 Rr : 1 rr, which is 1 round : 1 wrinkled. This is also a test cross, showing the round parent is heterozygous."
+  ]
+ },
+ "G12S-BIO-03": {
+  "steps": [
+   "Step 1, Describe disease causes. Typhoid comes from the bacterium Salmonella typhi in contaminated food and water. Malaria comes from the parasite Plasmodium, carried by the female Anopheles mosquito. Dengue is a virus spread by Aedes mosquitoes. Amoebic dysentery is caused by Entamoeba. Prevention follows the route: clean water, hand washing, nets and removing stagnant water.",
+   "Step 2, Describe malaria. An infected Anopheles bites and injects the parasite, which enters the liver and then the red blood cells. When red cells burst, toxins release and cause cycles of chills and high fever every 2 to 3 days. Control means draining breeding water, using nets and treating patients with prescribed medicine.",
+   "Step 3, Describe immunity. Innate immunity is present at birth: skin, stomach acid, white cells. Acquired immunity develops after exposure, using memory B and T cells. A vaccine contains a weakened or dead pathogen or part of it, which trains memory cells so a later real infection is cleared fast without causing the disease.",
+   "Step 4, Describe AIDS. HIV infects helper T cells, so the body slowly loses the ability to fight infection. It spreads through unprotected sex, infected blood or needles, and from mother to child, but not through touch, hugging, or sharing a meal. Early testing, safe blood and clean needles help prevent spread, and treatment can control it.",
+   "Step 5, Describe food production. Plant breeding improves crops in steps: collect varied plants, evaluate and select the best, cross-hybridise, select and test the offspring, then release a new variety. Examples are high-yield, disease-resistant wheat and biofortified crops rich in iron or vitamins. Animal husbandry improves milk, eggs and meat by good breeding, feed and care.",
+   "Step 6, Your turn: match each disease to its cause or carrier: malaria, dengue, typhoid. Answer: malaria is caused by Plasmodium carried by the female Anopheles; dengue is a virus carried by Aedes mosquitoes; typhoid is caused by Salmonella typhi in contaminated food or water. Prevention for the first two is stopping mosquito breeding, for typhoid clean water."
+  ]
+ },
+ "G12S-BIO-04": {
+  "steps": [
+   "Step 1, Explain the idea of recombinant DNA technology: cut a useful gene from one organism, join it to a carrier called a vector, and place it in a host such as a bacterium so the gene works there. The tools are restriction enzymes (molecular scissors), DNA ligase (glue), a vector such as a plasmid, and a host cell.",
+   "Step 2, Explain the cutting. A restriction enzyme recognises a palindromic site. EcoRI recognises GAATTC, which reads the same on the opposite strand from 5' to 3'. It cuts between G and A on each strand, leaving short single-stranded sticky ends (AATT). Cutting the vector and the gene with the same enzyme gives matching sticky ends.",
+   "Step 3, Explain the joining. Mix the cut plasmid with the cut gene. The sticky ends pair up by base pairing, and DNA ligase seals the gaps in the sugar-phosphate backbone, giving a recombinant plasmid. Add the plasmid to bacteria after making their walls permeable, in a step called transformation.",
+   "Step 4, Explain selection. A plasmid used as a vector carries marker genes, for example one for ampicillin resistance. Spread the bacteria on a plate containing ampicillin: only cells that took up the plasmid survive and form colonies. Safety: handle bacteria only as taught, wear gloves, keep plates closed, wash hands and sterilise waste.",
+   "Step 5, Explain amplification by PCR. Each cycle has three steps: denaturation at about 94 degrees C, annealing of primers at about 55 degrees C, and extension at about 72 degrees C. Each cycle doubles the DNA, so n cycles give 2 to the power n copies. After 30 cycles, 2^30 = 1,073,741,824, over a billion copies from one molecule.",
+   "Step 6, Your turn: how many copies result from one DNA molecule after 25 PCR cycles, and which enzyme seals the gene into the plasmid? Answer: 2^25 = 33,554,432 copies. The enzyme is DNA ligase. Human insulin made this way in bacteria is a real use, joining the A chain of 21 and the B chain of 30 amino acids."
+  ]
+ },
+ "G12S-BIO-05": {
+  "steps": [
+   "Step 1, Explain an ecosystem. It is the living (biotic) and non-living (abiotic) parts of an area together: producers such as grass, consumers such as grasshoppers, frogs and hawks, and decomposers such as bacteria and fungi, with abiotic factors such as light, water and soil. A pond and a forest are both ecosystems.",
+   "Step 2, Explain energy flow. Sunlight is fixed by producers, and only about 10 percent of the energy passes to each next trophic level, the rest is lost as heat in respiration. If grass holds 10,000 J, grasshoppers get 1,000 J, a frog 100 J, and a snake 10 J. That is why food chains seldom exceed four or five levels.",
+   "Step 3, Explain population change. Population size changes by births, deaths, immigration and emigration: N next = N + B - D + I - E. Start with 500 animals, with 60 births, 20 deaths, 10 arrivals and 15 departures. Then 500 + 60 - 20 + 10 - 15 = 535. A growing population needs food and space, so growth slows near the carrying capacity.",
+   "Step 4, Explain biodiversity. It means the variety of life at gene, species and ecosystem level. It is highest in warm, wet areas near the equator. India is one of the megadiverse countries and includes biodiversity hotspots such as the Western Ghats. Biodiversity gives food, medicine, clean air and water, and stabilises ecosystems.",
+   "Step 5, Explain the four main threats and the conservation methods. Threats: habitat loss and fragmentation, over-exploitation, alien species and co-extinction. In-situ conservation protects species in their natural home, such as national parks, sanctuaries and biosphere reserves. Ex-situ conservation protects them elsewhere, such as zoos, botanical gardens and seed banks.",
+   "Step 6, Your turn: grass holds 20,000 J. Following the 10 percent rule through grasshopper, frog, snake and hawk, how much reaches the hawk? Answer: grasshopper 2,000 J, frog 200 J, snake 20 J, hawk 2 J. Only a tiny share reaches the top consumer, so the hawk is rare compared with the grass."
+  ]
+ },
+ "G11C-BST-01": {
+  "steps": [
+   "Step 1, Compare business with other activities. Business is an economic activity done regularly to earn profit by producing or exchanging goods and services. A tailor selling shirts is business; a teacher volunteering for free is not. Business aims at profit, but also survival, growth and a good name with customers.",
+   "Step 2, Compare the sole proprietorship. One person owns, manages and takes all profit, and has unlimited liability. Example: a shop owner has business debts of Rs 200,000 but business assets of only Rs 150,000. The remaining Rs 50,000 can be recovered from the owner's personal property. Advantages are quick decisions and full control; the drawback is limited capital.",
+   "Step 3, Compare the partnership. Two or more persons agree to share profit, usually with unlimited liability. Capital of 60,000 from partner A and 40,000 from partner B is in the ratio 3 : 2. A profit of Rs 50,000 is shared as 30,000 and 20,000. More partners bring more money and skill, but disagreements can slow decisions.",
+   "Step 4, Compare the company. A company is a separate legal person, with owners called shareholders and limited liability. A shareholder who paid Rs 10,000 for shares can lose at most that Rs 10,000, even if the company owes millions. A private company has at least 2 members and a public company at least 7. A cooperative society needs at least 10 members.",
+   "Step 5, Compare in a table by liability, ownership, life and capital. Sole trader: unlimited, one owner, ends with owner, small capital. Partnership: usually unlimited, 2 or more owners, may end if a partner leaves, medium capital. Company: limited, many shareholders, continues despite changes of owners, large capital. Match each form with its advantages and limits.",
+   "Step 6, Your turn: three friends put in Rs 100,000 each to open a tailoring shop and earn Rs 90,000 profit. Name a suitable form and share the profit. Answer: a partnership, because three persons pool money and skill. Equal shares give 90,000 / 3 = Rs 30,000 each. Their liability is unlimited unless they register a limited form."
+  ]
+ },
+ "G11C-BST-02": {
+  "steps": [
+   "Step 1, Compare the three types. The public sector is owned by the government, the private sector by individuals or companies, and global enterprises operate in many countries. A state bus service is public, a local bakery is private, and a firm with factories in ten countries is a global enterprise.",
+   "Step 2, Compare public enterprises. A departmental undertaking is part of a ministry, such as the railways. A statutory corporation is created by a special law of the legislature and has its own powers. A government company is registered under the company law and the government holds at least 51 percent of the shares. The government may hold all of the shares.",
+   "Step 3, Compare their roles. Public enterprises build infrastructure such as roads and power, provide services where profit is low, create jobs and help balanced regional growth. Private enterprises respond fast to demand, bring innovation and efficiency, and generate most employment in trade. Both pay taxes that support public services.",
+   "Step 4, Compare global enterprises. They have large capital, advanced technology, a wide network of branches, and a global marketing approach. They create jobs, bring investment, and widen consumer choice, but can strain local small businesses. A joint venture shares ownership and risk between a foreign firm and a local firm.",
+   "Step 5, Calculate a public private partnership. In a build-operate-transfer road, a private firm spends Rs 400 crore and collects tolls of Rs 30 crore a year. Payback = 400 / 30 = about 13.3 years. After the contract period, the road is handed to the government. The public gains the road without paying the cost, the firm earns a return.",
+   "Step 6, Your turn: the government holds 5,100 of a company's 10,000 shares. Is it a government company? Name one role of a public enterprise. Answer: yes, 5,100 / 10,000 = 51 percent, which meets the minimum. One role is providing essential services, such as electricity, at reasonable prices where private firms may not."
+  ]
+ },
+ "G11C-BST-03": {
+  "steps": [
+   "Step 1, Describe banking services. Banks accept deposits in savings, current, fixed and recurring accounts, give loans, keep valuables, transfer money and offer cards and mobile payments. Savings accounts suit individuals and pay low interest. Current accounts suit traders with many daily payments. Fixed deposits lock money for a fixed term at a higher interest rate.",
+   "Step 2, Describe the fixed deposit with numbers. Rs 50,000 at 6 percent per year for 2 years: simple interest = 50,000 x 6 / 100 x 2 = Rs 6,000. If interest is added each year (compound), year 1 gives 53,000 and year 2 gives 56,180, so the interest is Rs 6,180. Compounding earns interest on interest.",
+   "Step 3, Describe insurance and its principles. Insurance spreads risk: many people pay small premiums and the insurer pays the few who suffer loss. Principles: utmost good faith (tell all facts), insurable interest (you must lose if the thing is lost), indemnity (you are paid the actual loss, not more), and contribution when two insurers cover one risk.",
+   "Step 4, Describe a fire insurance claim. A shop is insured for Rs 500,000 and pays a premium of Rs 2,000 a year. A fire causes Rs 120,000 of damage. Under indemnity the insurer pays the actual loss of Rs 120,000, not the full Rs 500,000. The owner is back where they were, with no profit from the loss.",
+   "Step 5, Describe transport and communication. Road gives door-to-door service for short distances, rail suits bulk goods over long distances, water carries very heavy cargo cheaply, and air is fastest for urgent or perishable goods. Communication includes post, email, telephone and the internet, which let buyers and sellers agree prices and orders quickly.",
+   "Step 6, Your turn: find the amount from Rs 20,000 in a fixed deposit at 5 percent compounded yearly for 3 years, and name the best transport for fresh flowers sent overseas. Answer: 20,000 x 1.05^3 = Rs 23,152.50. Air transport is best because flowers are perishable and need speed."
+  ]
+ },
+ "G11C-BST-04": {
+  "steps": [
+   "Step 1, Explain e-business. It means doing business activities through electronic networks: online selling, banking, ticket booking and bill payment. Compared with a shop, it works day and night, reaches distant buyers, and cuts rent costs. Its limits include no touch-and-feel of goods, delivery delay and security risks.",
+   "Step 2, Explain how an online order works. The buyer chooses an item, places the order, pays by card or bank transfer, and the seller packs and delivers it and issues an invoice. Safe habits: use secure sites, never share a one-time password or card PIN, and be wary of messages asking you to click unknown links.",
+   "Step 3, Explain outsourcing. A business hands a task such as customer calls, payroll or accounting to an outside firm. Example: handling the calls in-house needs 10 staff x Rs 30,000 = Rs 300,000 a month, but an outside provider charges Rs 240,000. The saving is 60,000, or 20 percent, and the firm focuses on its main work.",
+   "Step 4, Explain business ethics. These are moral rules about right and wrong: honest advertising, fair prices, correct weights, paying taxes and treating workers properly. Ethical firms win trust and loyal customers; a firm that hides a product defect may gain this month but loses its reputation and may face legal penalties.",
+   "Step 5, Explain social responsibility with a rule of thumb. Responsibility means a business acts for the good of society too, for example by cutting pollution or supporting schools. In India large firms must spend 2 percent of average net profit of the last three years on social causes. Profits of 6, 8 and 10 crore average 8 crore, and 2 percent of it is 0.16 crore, which is Rs 16 lakh.",
+   "Step 6, Your turn: a firm's net profits over three years are 9, 12 and 15 crore. Find the 2 percent social spending and name one ethical practice. Answer: average = (9 + 12 + 15) / 3 = 12 crore; 2 percent of 12 crore = 0.24 crore, which is Rs 24 lakh. Practice: give honest product information in advertisements."
+  ]
+ },
+ "G11C-BST-05": {
+  "steps": [
+   "Step 1, Compare finance by period. Short-term finance is repaid within a year and funds working capital, such as stock; examples are trade credit and bank overdraft. Long-term finance is held for more than five years and buys machines or buildings, such as shares and debentures. Medium term lies in between.",
+   "Step 2, Compare owner's funds. These are money put in by owners: equity shares and retained earnings. Retained earnings are profit kept in the business. If profit is Rs 50,000 and 30 percent is retained, Rs 15,000 is reinvested. Owner's funds carry no fixed repayment, but dividends depend on profit.",
+   "Step 3, Compare borrowed funds. Loans and debentures must be repaid with interest, and trade credit lets a firm pay a supplier after 30 days. Borrowing Rs 100,000 at 12 percent costs Rs 12,000 interest a year whether or not the firm earns profit. Interest on debt is paid before profit is shared.",
+   "Step 4, Compare by cost and risk. To raise Rs 500,000, a 10 percent loan costs Rs 50,000 each year and must be repaid, giving risk if sales fall. New equity needs no fixed payment, but shares ownership and later dividends. A sensible firm mixes both, choosing by cost, risk, control and repayment time.",
+   "Step 5, Compare small business support. Under the 2020 revision, a micro enterprise invests up to Rs 1 crore with turnover up to Rs 5 crore, and a small one up to Rs 10 crore and Rs 50 crore. Support includes easier loans, skill training, raw material help and marketing assistance, since small firms struggle with credit and competition.",
+   "Step 6, Your turn: a shop needs Rs 300,000. It can keep Rs 30,000 of retained profit and borrow the rest at 10 percent. Find the loan and yearly interest. Answer: the loan is 300,000 - 30,000 = Rs 270,000; yearly interest = 270,000 x 10 / 100 = Rs 27,000. The retained profit carries no interest."
+  ]
+ },
+ "G11C-BST-06": {
+  "steps": [
+   "Step 1, Describe internal trade. It is buying and selling inside one country. Wholesale trade sells in large lots to retailers; retail trade sells small quantities to the final consumer. Example: a wholesaler buys goods at Rs 100 and sells to a retailer at Rs 120, then the retailer sells to a customer at Rs 150. Margins are 20 and 30.",
+   "Step 2, Describe retail types. Itinerant traders such as street hawkers carry goods to buyers. Fixed shops include small general stores, department stores with many sections, supermarkets with self-service, and chain stores with branches. Online retail sells through websites. Choose by place, range and service.",
+   "Step 3, Describe why countries trade. Resources, climate and skills differ, so one country may grow tea cheaply while another makes machines cheaply. Trade lets each sell what it produces best and buy the rest. Export means selling abroad, import means buying from abroad, and entrepot trade means importing goods only to export them again.",
+   "Step 4, Describe the export steps. The exporter receives an enquiry, sends a quotation, gets an order and a payment guarantee, produces and packs the goods, obtains clearance, ships them and presents documents. Key documents are the invoice, the bill of lading (receipt for goods on a ship) and, at the importing end, the bill of entry.",
+   "Step 5, Describe the trade balance. Balance of trade = value of exports minus value of imports. If a country exports goods worth 500 and imports 650 (in billions), the balance is 500 - 650 = minus 150, a trade deficit. If exports exceed imports, it is a surplus. This counts goods only, not services.",
+   "Step 6, Your turn: a country exports goods worth 820 and imports 760. Find the balance and say whether it is a surplus or deficit. Answer: 820 - 760 = 60, a trade surplus of 60. Name one document used when goods go by sea: the bill of lading."
+  ]
+ },
+ "G12C-BST-01": {
+  "steps": [
+   "Step 1, Describe management as the process of getting things done with and through people to achieve goals. Features: goal directed, a continuous process, all-pervasive in every organisation, multi-dimensional (work, people, operations) and a group activity. A bakery owner who plans, assigns bakers and checks quality is managing.",
+   "Step 2, Describe the levels. Top management (directors, chief executive) sets overall aims. Middle management (department heads) turns them into departmental plans. Lower or supervisory management (supervisors) guides workers daily. In a bakery chain, the head office decides to grow, a branch manager plans stock, and the shift supervisor directs bakers.",
+   "Step 3, Describe the five functions in order. Planning: decide to bake 500 loaves a day. Organising: assign ovens, tasks and people. Staffing: hire and train bakers. Directing: guide, motivate and communicate. Controlling: compare real output with the plan and correct gaps. Each function supports the next.",
+   "Step 4, Describe effectiveness and efficiency. Effectiveness is completing the task: target 500 loaves and 450 baked gives 450 / 500 = 90 percent. Efficiency is doing it with few inputs: if 100 kg of flour was standard but only 90 kg was used for those loaves, resources were saved. A good manager aims at both together.",
+   "Step 5, Describe coordination and significance. Coordination links the efforts of departments so they pull together, as when the oven team and delivery van team time their work. Management achieves group goals, raises efficiency, creates a dynamic organisation, helps people grow and contributes to society.",
+   "Step 6, Your turn: name the function in each: (a) decide the monthly sales target, (b) compare actual sales with the target. Also find effectiveness if 400 of a 500 target is reached. Answer: (a) planning, (b) controlling. Effectiveness = 400 / 500 = 80 percent."
+  ]
+ },
+ "G12C-BST-02": {
+  "steps": [
+   "Step 1, Apply the general principles of management, which are flexible guides, not fixed laws. Division of work: split jobs by skill. Authority and responsibility go together. Discipline: follow agreed rules. Unity of command: one worker takes orders from one boss. Unity of direction: one plan for one group of activities. Pick the one a case breaks.",
+   "Step 2, Apply the principles of scientific management: use science, not rule of thumb; promote harmony, not discord; promote cooperation, not individualism; aim for maximum output, not restricted output; develop each worker to the fullest. If standard time is 30 minutes per unit, a worker should make 480 / 30 = 16 units in an 8-hour shift.",
+   "Step 3, Apply planning, which means deciding in advance what to do, how and when. Its steps: set objectives, develop premises, identify alternatives, evaluate them, select one, implement, and follow up. Example: a bakery wants to raise sales from 200 to 250 loaves a day, an increase of 50 / 200 = 25 percent.",
+   "Step 4, Apply the steps to the bakery. Alternatives: advertise, open longer, add a delivery service. Evaluate cost and effect, and choose delivery. Premises: assume demand stays steady and flour prices change little. Implement by buying a van, then follow up by checking sales weekly against the 250 target.",
+   "Step 5, Apply the types of plans from broad to specific. Objective: the end to be reached. Strategy: the broad approach. Policy: a general guide to decisions. Procedure: the steps in order. Method: how one step is done. Rule: a strict do or do not. Programme: a set of activities. Budget: a plan in figures.",
+   "Step 6, Your turn: a worker gets orders from two different supervisors. Which principle is broken, and how long should 15 units take at 30 minutes each? Answer: unity of command is broken. 15 x 30 = 450 minutes, which is 7.5 hours. The fix is one supervisor giving the orders."
+  ]
+ }
+}

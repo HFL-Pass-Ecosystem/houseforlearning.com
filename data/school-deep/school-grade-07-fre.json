@@ -90,7 +90,14 @@
    "example": "Solved: Texte: 'Lea habite a Lyon. Elle a douze ans. Elle aime lire.' Ou habite Lea? A Lyon. A toi d'ecrire: 'Je m'appelle... J'habite a... J'aime...' Method: Model run for 'Reading comprehension'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Answer in full: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Read the text once, then again. Hier, Clara est allée à la piscine avec sa cousine. Elles ont nagé pendant une heure, puis elles ont mangé une glace. Clara n'a pas pris son bonnet, alors le maître nageur lui a prêté un bonnet. [Yesterday Clara went to the pool with her cousin. They swam for an hour, then ate an ice cream. Clara did not take her cap, so the lifeguard lent her one.]",
+    "Step 2, Spot the tense and the helper verb. Aller uses être: Clara est allée. Nager and manger use avoir: elles ont nagé, elles ont mangé. These are the passé composé, for finished past actions. Underline each helper verb and its past participle before you answer.",
+    "Step 3, Turn the question into the start of your answer. Où est allée Clara ? becomes Clara est allée à la piscine. Qu'est-ce qu'elles ont mangé ? becomes Elles ont mangé une glace. Reuse the same helper verb and past participle as the question.",
+    "Step 4, Give reasons in full. Pourquoi le maître nageur a-t-il prêté un bonnet à Clara ? [Why did the lifeguard lend Clara a cap?] Answer in a full sentence: Le maître nageur a prêté un bonnet à Clara parce qu'elle n'a pas pris le sien. Do not answer with only Parce que.",
+    "Step 5, Fix errors. A child writes Clara est allé. Correction: allée, because être verbs agree with the subject and Clara is feminine. Another writes Elles ont allé. Correction: Elles sont allées. Another writes Clara a pas pris. Correction: Clara n'a pas pris, with ne and pas around a.",
+    "Step 6, Your turn: answer Combien de temps ont-elles nagé ? [How long did they swim?] Answer: Elles ont nagé pendant une heure. [They swam for an hour.]"
+   ]
   },
   {
    "n": 4,
@@ -112,7 +119,14 @@
    "example": "Solved: Texte: 'Lea habite a Lyon. Elle a douze ans. Elle aime lire.' Ou habite Lea? A Lyon. A toi d'ecrire: 'Je m'appelle... J'habite a... J'aime...' Method: Model run for 'Writing practice'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Write a short text: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Plan a short letter in four parts: greeting, about me, last weekend, a question. Open with Chère Zoé, for a girl or Cher Zoé, for a boy. Close with À bientôt or Amitiés. Write the plan as four bullets before you start the full text.",
+    "Step 2, Write the opening and the present tense. Chère Zoé, merci pour ta lettre. Je m'appelle Ibrahim et j'ai douze ans. J'habite dans un appartement près d'un parc. [Dear Zoé, thank you for your letter. My name is Ibrahim and I am twelve. I live in a flat near a park.]",
+    "Step 3, Add the past with the passé composé. Le week-end dernier, j'ai joué au basket et j'ai visité un musée avec mon père. [Last weekend I played basketball and visited a museum with my father.] Both verbs use avoir plus the past participle: joué, visité.",
+    "Step 4, Close with a question and a sign-off. Et toi, qu'est-ce que tu aimes faire ? Écris-moi vite ! [And you, what do you like to do? Write to me soon!] Amitiés, Ibrahim. Count about 55 words. Read the letter aloud and check each verb.",
+    "Step 5, Fix errors. A child writes J'ai allé au musée. Correction: Je suis allé au musée, because aller takes être. Another writes Cher Zoé to a girl. Correction: Chère Zoé. A third writes j'ai joue. Correction: j'ai joué, with the é ending.",
+    "Step 6, Your turn: write three sentences about last weekend using the passé composé. Model answer: Samedi dernier, j'ai regardé un film. Dimanche, je suis allée chez ma grand-mère. J'ai mangé un bon gâteau. [Last Saturday I watched a film. On Sunday I went to my grandmother's. I ate a good cake.]"
+   ]
   }
  ],
  "rubric": [

@@ -62,7 +62,14 @@
    "example": "Solved: Algorithm to make toast: 1 take two slices, 2 put in toaster, 3 press down, 4 wait, 5 take out. Loop: repeat 4 times: step forward, turn right = draw a square. Method: Model run for 'Programming with variables, loops and decisions'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Solve problems with a short program: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Break a problem into inputs, steps and output. Problem: you save 5 coins a week and want 60. How many weeks? Inputs are 5 and 60. Process is repeat adding 5 and count the weeks. Output is the number of weeks. Plan this before typing any code.",
+    "Step 2, Write a while loop. savings = 0 and weeks = 0, then while savings < 60: savings += 5 and weeks += 1, then print(weeks, savings). It prints 12 60. The loop repeats while the test is true, and each pass changes a variable so the loop can end.",
+    "Step 3, Use a for loop when the count is known. total = 0, then for n in range(1, 101): total += n. The range runs from 1 to 100 because the end value is left out. The program prints 5050, which matches adding 1 + 2 + 3 up to 100 by pairing.",
+    "Step 4, Add a decision inside a loop. To count multiples of 7 below 100: count = 0, for n in range(1, 100): if n % 7 == 0: count += 1. The answer is 14, since 7 x 14 = 98 is the last multiple below 100. The % operator gives the remainder.",
+    "Step 5, Test and debug. If a while loop never changes savings it runs forever; stop it with the stop button and add the missing line. Check one case by hand: the first 12 weeks give 12 x 5 = 60, so the program output is correct and an off-by-one slip is ruled out.",
+    "Step 6, Your turn: change the program so you save 8 coins a week and want 100. How many weeks, and how much is saved? Answer: 13 weeks, because 12 weeks gives 96 which is below 100, and 13 weeks gives 104."
+   ]
   },
   {
    "n": 3,

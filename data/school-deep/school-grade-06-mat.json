@@ -148,7 +148,14 @@
    "example": "Solved: 20% of 350 = 350 x 20 / 100 = 70. Share 40 sweets in the ratio 3 : 5: 8 parts, each part is 5, so 15 and 25. If 5 pens cost 40, one costs 8 and 12 cost 96. Method: Model run for 'Ratio and proportion'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Write ratios, simplify and solve unitary problems: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Write a ratio. A class has 12 boys and 18 girls, so boys to girls is 12 : 18. The order matters, so girls to boys would be 18 : 12. A ratio compares two quantities of the same kind and has no unit after it.",
+    "Step 2, Simplify by dividing both numbers by their highest common factor. For 12 : 18 the HCF is 6, so 12 / 6 = 2 and 18 / 6 = 3. The simple form is 2 : 3. Check by multiplying back: 2 x 6 = 12 and 3 x 6 = 18.",
+    "Step 3, Make the units match before simplifying. For 50 cm to 2 m, change 2 m to 200 cm. The ratio is 50 : 200. Divide both by 50 to get 1 : 4. Equivalent ratios such as 2 : 3, 4 : 6 and 10 : 15 all describe the same comparison.",
+    "Step 4, Use the unitary method: find the cost of one first. If 5 kg of apples cost 45 coins, then 1 kg costs 45 / 5 = 9 coins. So 8 kg cost 8 x 9 = 72 coins. Finding one unit makes any quantity easy.",
+    "Step 5, Solve a proportion problem. Paint is mixed blue to yellow as 2 : 3 and 20 litres are needed. That is 5 parts, so 1 part is 4 litres, giving 8 litres blue and 12 litres yellow. A recipe with 3 cups flour for 12 biscuits needs 5 cups for 20.",
+    "Step 6, Your turn: 4 pencils cost 24 coins. Find the cost of 7 pencils, then simplify the ratio 28 : 42. Answer: 1 pencil costs 6 coins, so 7 cost 42 coins. The HCF of 28 and 42 is 14, so the ratio is 2 : 3."
+   ]
   },
   {
    "n": 6,
@@ -170,7 +177,14 @@
    "example": "Solved: A square has 4 equal sides and 4 right angles; a rectangle has 2 pairs of equal sides. A tally of 5 red, 3 blue and 2 green shows most children like red. Method: Model run for 'Basic geometry and shapes'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Use a ruler, compass and protractor to draw and measure: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Measure a line with a ruler. Put the 0 mark exactly at one end, not the edge of the ruler. If the other end falls 7 small marks after 7 cm, read 7.7 cm, since each small mark is 1 mm. Draw a 7.5 cm line and label its ends A and B.",
+    "Step 2, Measure an angle with a protractor. Put the centre hole on the vertex and the base line along one arm. Start counting from the 0 on that arm. If the other arm passes 65, the angle is 65 degrees. Check it is acute, so the inner scale makes sense.",
+    "Step 3, Draw a 50 degree angle. Draw a 6 cm line, put the protractor centre on one end, make a small dot at 50 on the scale starting from 0 on the line, and remove the protractor. Join the dot to the end. Label the angle and measure again to check.",
+    "Step 4, Draw a circle with a compass. Set the compass width to 3 cm using the ruler, press the point on the centre and turn the pencil end smoothly. The radius is 3 cm and the diameter is 6 cm. Safety: the metal point is sharp, so hold the top and keep it capped when not in use.",
+    "Step 5, Construct a triangle with sides 5 cm, 4 cm and 3 cm. Draw the 5 cm base, then with the compass draw an arc of 4 cm from one end and an arc of 3 cm from the other. Where they cross is the third corner. Measure the angle opposite the 5 cm side to find 90 degrees.",
+    "Step 6, Your turn: draw an angle of 110 degrees, say what type it is, and draw a circle with diameter 8 cm. Answer: the angle is obtuse because it is more than 90 degrees, and the compass is set to a radius of 4 cm."
+   ]
   },
   {
    "n": 7,
