@@ -25,7 +25,7 @@ def build(c):
     slides = ''.join(f'<details class="mod"><summary>Slide {i}. {LV[i]}: {e(t)}</summary><p><strong>On the slide:</strong> {LV[i]} · {e(t)}</p><p><strong>Notes:</strong> {e(n)}</p></details>' for i, (t, n) in enumerate(c['ladder'], 1))
     total = sum(HRS)
     top = (f'<div class="cb-facts"><span class="pill lv">{LV[c["level"]]}</span><span class="pill">{total} h of lessons plus practice</span><span class="pill">About 8 to 12 weeks part-time</span>'
-           '<span class="pill pr">USD 39 per learner per month, or USD 79 with mentor review</span></div>')
+           '</div>')
     about = B.sec('', 'ab', 'about this course', 'What you will be able to do', top + f'<p class="kit-intro">{e(c["summary"])}</p><ul class="blm">'
         + ''.join(f'<li><span class="bz">{b}</span> {e(t)}</li>' for b, t in zip(OUT, c['outcomes'])) + '</ul>'
         '<h3 class="ws-h3">Task, condition and standard</h3><div class="tcs">'
