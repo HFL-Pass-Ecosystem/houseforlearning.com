@@ -145,3 +145,156 @@ D.update({
   "Inspect a sample lot and decide.","Rule used correctly; defects classified."),
 ],
 })
+
+D.update({
+"healthcare": [
+ ("Privacy, consent and the patient journey","Apply",9,"Support staff handle the most private facts a person has. Every step of the journey needs consent and care.",
+  ["Share patient facts only with those who need them to give care.","Confirm identity with two identifiers before any record is opened or labelled.","Explain what happens next in plain words and check the patient understood.","Report a privacy slip the same day; hiding it makes it worse."],
+  "A relative phones for test results. Staff verify the patient's own written permission first; with none on file they offer to pass a message to the patient.",
+  "Role-play three front-desk calls and mark each against the privacy rules.","Identity checked; nothing shared without consent."),
+ ("Flow, waiting time and handover","Analyse",9,"Waiting is the patient's biggest complaint and often a flow problem, not a staff problem.",
+  ["Time the steps from arrival to leaving for 20 patients.","Find the longest wait and its cause.","Use a handover note with who, what, when, what next.","Track the share of patients routed correctly the first time."],
+  "Average wait 38 minutes; 14 minutes are spent waiting for a missing form. A pre-visit form check cuts the wait to 24 minutes.",
+  "Build a flow chart and a waiting-time table from sample data.","Longest wait found; one fix proposed."),
+],
+"wellbeing": [
+ ("Safe session design","Create",9,"A good session is simple, safe and honest about what it can and cannot do.",
+  ["Screen for health limits before activity and know when to refer.","Warm up, work, cool down; keep intensity reasonable.","Use plain claims: 'helps relax', never 'cures'.","Keep an attendance and feedback log."],
+  "A 45-minute stretch session: 10 warm-up, 25 main, 10 cool-down, with a screening question at the door.",
+  "Plan one session with screening, steps and a referral rule.","Plan has screening, timing and no cure claims."),
+ ("Measure change without overclaiming","Evaluate",9,"Simple before-and-after measures show progress without pretending to be medical tests.",
+  ["Pick one self-rated measure such as energy on a 1 to 10 scale.","Record it at weeks 0, 4 and 8.","Report the range and the number of participants.","Treat small groups with care; avoid strong conclusions."],
+  "12 participants rate energy 4.8 at start and 6.1 at week 8: a rise of 1.3 points, reported as 'self-rated energy rose on average'.",
+  "Design a three-point measure and a one-page report.","Honest wording; sample size stated."),
+],
+"transport": [
+ ("Daily vehicle and driver checks","Apply",9,"A five-minute check prevents most breakdowns and many crashes.",
+  ["Check tyres, lights, brakes, fluids, air conditioning and seat belts.","Record defects and tag the vehicle out if unsafe.","Check the driver is rested and within hours rules.","Keep documents in the vehicle."],
+  "A worn tyre found at 06:10 is replaced before the 07:00 run, avoiding a roadside stop in 40-degree heat.",
+  "Write a pre-trip checklist and use it on five vehicles or a sample.","Checklist complete; defects logged."),
+ ("Route, cost per trip and punctuality","Evaluate",9,"Cost per trip and on-time rate decide profit.",
+  ["Cost per trip = fuel + driver + wear + overhead share.","Plan routes to avoid peak traffic.","Measure on-time percent weekly.","Share delay causes with the team."],
+  "Fuel AED 55, driver AED 90, wear AED 25, overhead AED 30: cost AED 200 against a price of AED 320 gives margin 37.5%.",
+  "Cost three routes and choose the best.","Margins shown; punctuality plan set."),
+],
+"freight-and-cargo": [
+ ("Documents that move cargo","Apply",10,"Cargo stops where paperwork is wrong. Every shipment has a document set that must agree.",
+  ["Commercial invoice, packing list and transport document must match on quantity, value and description.","Classify goods with the correct tariff code.","Check licences for restricted goods before booking.","Keep copies and a tracking sheet."],
+  "A packing list says 120 cartons but the invoice says 112. The mismatch is fixed before departure, avoiding a hold at the border.",
+  "Check three sample document sets for mismatches.","All mismatches found and corrected."),
+ ("Quote, chargeable weight and delivery promise","Evaluate",9,"Air cargo is priced on the larger of actual and volume weight.",
+  ["Volume weight = length x width x height (cm) divided by 6,000, giving kg.","Chargeable weight is the higher of actual and volume weight.","Add handling, fuel and documents.","Promise dates only with margin."],
+  "A box 60x50x40 cm weighs 12 kg actual; volume weight = 120,000 / 6,000 = 20 kg, so charge for 20 kg.",
+  "Price five sample parcels.","Weights correct; quotes itemised."),
+],
+"real-estate": [
+ ("Fair listing and honest viewings","Apply",9,"Listings must be accurate, and viewings are the moment of truth.",
+  ["State size, price, fees and condition truthfully.","Take clear photos and a floor plan.","Prepare answers on service charges and rules.","Record each viewing and feedback."],
+  "A listing that states a 90 square metre flat but measures 84 is corrected, avoiding a dispute.",
+  "Write two accurate listings and a viewing script.","Facts checked against sources."),
+ ("Deposits, contracts and handover","Evaluate",9,"Money and signatures need clear steps and records.",
+  ["Explain deposit rules and who holds the money.","Use the approved contract form of the licensed firm.","Run a handover inspection with a snag list.","Never accept cash without a receipt and approved process."],
+  "A snag list notes four faults at handover, each with a photo and a fix date.",
+  "Complete a handover checklist for a sample unit.","Every item has a photo and date."),
+],
+"shopping": [
+ ("Shelf, stock and the sales floor","Apply",9,"A full, tidy shelf sells. Gaps lose sales.",
+  ["Follow the planogram and face products forward.","Count stock and reorder before it runs out.","Keep aisles clear and floors dry.","Handle returns with a clear rule."],
+  "A fast item with 6 days of stock and a 5-day lead time is reordered today.",
+  "Run a shelf audit on a sample aisle.","Gaps found and a reorder list made."),
+ ("Customer service and conversion","Evaluate",9,"Conversion rises when staff greet, ask and help.",
+  ["Greet within 10 seconds; ask one open question.","Offer one relevant extra, not a push.","Count visitors and buyers to find conversion.","Handle complaints by listening first."],
+  "800 visitors and 160 sales is 20% conversion; a greeting rule lifts it to 23%, which is 24 more sales.",
+  "Run a one-day count and compute conversion.","Counts recorded; one change tested."),
+],
+"tourism": [
+ ("Design a safe, enjoyable experience","Create",9,"A tour balances story, pace, comfort and safety.",
+  ["Plan timing with breaks and shade.","Set capacity and guide ratios.","Brief on water, sun and local etiquette.","Prepare a wet or hot weather plan."],
+  "A desert evening tour moves the walking section to sunset, with water stops every 20 minutes.",
+  "Plan a half-day tour with a safety brief.","Timings, capacity and weather plan set."),
+ ("Feedback, price and repeat guests","Evaluate",9,"Guests rate quickly. Ask well and act on it.",
+  ["Ask three short questions after the tour.","Track average rating and top complaint.","Test a price change with a small group.","Thank guests and invite them back."],
+  "Average rating 4.3; top complaint is waiting at pickup. A 10-minute earlier meeting lifts the rating to 4.6.",
+  "Collect 10 feedback forms and summarise.","Top issue and fix named."),
+],
+"property-management": [
+ ("Requests, repairs and response times","Apply",9,"Tenants judge you by how fast and clearly you fix things.",
+  ["Log every request with time, place, urgency.","Set response targets by urgency.","Assign, update and close the loop with the tenant.","Keep supplier contacts and costs."],
+  "A leak is urgent: response in 2 hours. A loose cabinet is normal: 3 days.",
+  "Set up a request log and test with five requests.","All requests closed with times."),
+ ("Planned maintenance and owner reports","Evaluate",9,"Planned work costs less than emergency work.",
+  ["List assets: pumps, lifts, air-conditioning, fire systems.","Set service dates and checks.","Report to owners monthly with costs and issues.","Check fire safety equipment on a calendar."],
+  "Quarterly air-conditioning service at AED 600 per unit avoids a typical emergency repair of AED 2,400.",
+  "Build a yearly maintenance calendar for ten assets.","Dates set; owner report drafted."),
+],
+})
+
+def _m(t,b,h,i,p,e,a,s): return (t,b,h,i,p,e,a,s)
+D.update({
+"recruitment": [
+ _m("Write a role brief and screen fairly","Apply",9,"A clear brief and fair screening save weeks.",["List must-haves apart from nice-to-haves.","Score every candidate with the same sheet.","Never ask about protected traits.","Record reasons for every rejection."],"Brief lists 4 must-haves; 40 CVs are scored out of 20; the top 5 are called.","Score 10 sample CVs against one brief.","Same sheet used for all; reasons logged."),
+ _m("Time to hire and candidate care","Evaluate",9,"Speed and respect win good people.",["Track days from brief to accepted offer.","Reply to every applicant within a set time.","Prepare candidates for interviews.","Never charge candidates a fee."],"Average time to hire 38 days; a faster shortlist step cuts it to 29.","Build a stage-by-stage timing table.","Longest stage found; fix named.")],
+"childcare": [
+ _m("Ratios, supervision and safeguarding","Apply",10,"Safety rules protect children first.",["Keep legal adult-to-child ratios at all times.","Sign children in and out with named adults only.","Know who to tell about a concern, the same day.","Check the space for hazards daily."],"A group of 12 toddlers needs at least 3 adults when the ratio is 1 to 4.","Make a daily safety check and a ratio chart.","Ratios correct; concern route written."),
+ _m("Plan a play-based day","Create",9,"Children learn through play, routine and calm.",["Balance active and quiet time.","Plan snacks around allergies.","Write a short note for parents each day.","Review the day with the team."],"Day plan: arrival 08:00, free play, snack 09:30, outdoor shade play 10:00, story 11:00.","Plan a day for one age group.","Routine, allergy list, parent note present.")],
+"cleaning-services": [
+ _m("Survey, quote and schedule","Apply",9,"A survey stops surprises.",["Measure area and note surfaces.","Time tasks by room type.","Quote hours times rate plus supplies.","Schedule teams to avoid travel waste."],"A 3-bedroom flat: 4 hours x AED 35 + AED 20 supplies = AED 160.","Quote three sample jobs.","Hours and supplies shown."),
+ _m("Chemicals, safety and inspection","Evaluate",9,"Wrong mixes injure people.",["Read labels; never mix products.","Dilute by the label ratio.","Wear gloves and ventilate.","Inspect with a checklist and photos."],"A bottle of 1 part cleaner to 20 parts water needs 50 ml in 1 litre.","Create a chemical chart and an inspection sheet.","Ratios correct; checklist complete.")],
+"handyman-services": [
+ _m("Quote and plan a small repair job","Apply",9,"Clear scope and price build trust.",["Visit or request photos.","List tasks, parts and time.","Quote with a validity date.","Confirm access and parking."],"Fit a shelf and fix a door: 2.5 hours x AED 70 + AED 40 parts = AED 215.","Quote five sample jobs.","Scope, parts and time shown."),
+ _m("Isolation, tools and finishing","Evaluate",9,"Safe tools and tidy finishing earn repeat calls.",["Switch off and lock isolation before work.","Check tools and ladders.","Test the finished job with the customer.","Give a written warranty note."],"Power off at the breaker, tag it, test with a meter, then work.","Write a pre-job safety check.","Isolation step present.")],
+"gift-industry": [
+ _m("Design the order flow","Create",9,"Names and dates cannot be wrong.",["Capture name, message and date in a form.","Confirm by message with a proof.","Pack with a checklist.","Track delivery."],"A proof catches a misspelled name before 60 boxes are printed.","Build an order form and proof step.","Proof step prevents errors."),
+ _m("Peak days and stock planning","Evaluate",9,"Festival peaks need early stock.",["Forecast demand from last year.","Order long-lead items first.","Set cut-off dates.","Hire help for peak days."],"Last year 250 orders at peak; plan for 300 with a cut-off 5 days before.","Plan a peak week.","Stock and cut-off set.")],
+"flower-industry": [
+ _m("Cold chain and conditioning","Apply",9,"Flowers last longer when cold and watered fast.",["Cut stems at an angle in clean water.","Keep the cold room at the set temperature.","Remove leaves under water level.","Rotate stock by arrival date."],"Roses held at 4 degrees last 10 days against 5 days at room temperature.","Run a vase-life test on two methods.","Results recorded."),
+ _m("Waste, pricing and events","Evaluate",9,"Waste is the main cost.",["Track stems bought, sold and wasted.","Price with a waste allowance.","Quote events with set-up and clear-down.","Offer subscription bouquets."],"Buy 1,000 stems, sell 900: waste 10%; add 11% to cost.","Compute waste and price for a week.","Waste percent computed.")],
+"online-trading": [
+ _m("Sourcing and landed cost","Apply",9,"The cheap price is not the real price.",["Add freight, duty, fees and returns.","Check certification of products.","Verify the supplier with a sample order.","Avoid fake or copied goods."],"Unit AED 40 + freight 6 + duty 2 + fees 12 = landed AED 60.","Compute landed cost for three products.","All costs included."),
+ _m("Listings, fulfilment and returns","Evaluate",9,"Good listings reduce returns.",["Accurate photos and sizes.","Pack and ship within the promise.","Handle returns by clear rules.","Track return rate."],"Return rate falls from 12% to 7% after adding a size chart.","Write two listings and a returns rule.","Claims accurate.")],
+"webpreneur": [
+ _m("Validate before you build","Analyse",9,"Prove one paying customer first.",["Interview 10 people about the problem.","Offer a simple paid test.","Measure sign-ups and payments.","Stop or change if no one pays."],"10 interviews, 3 say they would pay, 1 pays AED 100 for a test.","Run a smoke test page.","Numbers recorded."),
+ _m("Support, privacy and growth","Evaluate",9,"Support and trust keep customers.",["Collect only needed data.","Reply within a day.","Track churn monthly.","Improve the top complaint."],"Churn 8% per month; fixing onboarding brings it to 5%.","Draft a privacy note and support plan.","Data minimised.")],
+"business-brokers": [
+ _m("Valuation basics and mandates","Understand",9,"A fair price needs a method.",["Use earnings multiples and asset checks.","Adjust for owner pay and one-off items.","Sign a mandate with scope and period.","Keep seller identity secret until a buyer signs a non-disclosure agreement."],"Adjusted profit AED 400,000 x multiple 3 = AED 1.2 million as a starting range.","Value a sample firm three ways.","Method and adjustments shown."),
+ _m("Deal steps and checks","Evaluate",9,"Deals fail on surprises.",["Prepare an information pack.","Screen buyers for funds.","Run due diligence checks.","Close with advisers and licensed steps."],"Due diligence finds a late tax bill; the price is adjusted by that amount.","Create a due diligence checklist.","Checklist covers money, legal, people.")],
+"insurance-brokers": [
+ _m("Fact-find and fit the cover","Apply",9,"Advice starts with the client's real risks.",["List assets, risks and budget.","Compare cover, limits, exclusions.","Explain in plain words.","Record advice and client choice."],"A shop with AED 500,000 stock needs cover at replacement value, not cost.","Complete a fact-find for a sample client.","Risks mapped to cover."),
+ _m("Claims support and renewals","Evaluate",9,"Claims are where trust is earned.",["Gather documents fast.","Track claim stages.","Review cover at renewal.","Never promise outcomes."],"A claim file with photos and receipts is submitted in two days.","Build a claims checklist.","All documents listed.")],
+})
+
+D.update({
+"luxury": [
+ _m("Client book and discreet service","Apply",9,"Luxury is attention to detail and discretion.",["Record preferences with consent.","Never discuss one client with another.","Prepare before each visit.","Follow up within two days."],"A client's preferred colour and size are noted; the next visit starts with three matching pieces.","Build a consent-based client book template.","Consent line present; data minimal."),
+ _m("Care of goods and the unboxing","Evaluate",9,"Handling and packing are part of the product.",["Wear gloves for delicate items.","Check each item under light before sale.","Wrap with clean tissue and a care card.","Insure high-value deliveries."],"A scratch found at inspection stops the sale and a replacement is ordered.","Write a handling and packing standard.","Checks listed.")],
+"travel": [
+ _m("Build an itinerary that works","Create",9,"Connections and documents are where trips fail.",["Allow safe connection times.","Check passport validity and visa rules.","Give each traveller a clear itinerary.","Keep a 24-hour support contact."],"A 55-minute connection at a large hub is extended to 2 hours.","Plan a 5-day trip for a family.","Documents and timings checked."),
+ _m("Price, margin and supplier vouchers","Evaluate",9,"Costs hide in details.",["Add all supplier costs.","Add your fee and tax.","Send vouchers and confirmations.","Track changes in writing."],"Costs AED 3,000 plus fee AED 300 = AED 3,300; margin 9.1%.","Quote two trips.","Margins computed.")],
+"automobile": [
+ _m("Inspection, job card and quote","Apply",9,"The job card is the contract.",["List symptoms in the customer's words.","Inspect before quoting.","Get approval for extra work.","Keep replaced parts to show."],"Brake pads 2 hours x AED 90 + parts AED 260 = AED 440.","Fill a job card for three sample faults.","Approval step written."),
+ _m("Heat, battery and safety checks","Evaluate",9,"Desert heat is hard on cars.",["Test battery and coolant.","Check tyre age and pressure.","Lift vehicles safely.","Road-test after repair."],"A 3-year-old battery tests at 60% health; replacement is advised before summer.","Create a summer check list.","Items measurable.")],
+"mobile": [
+ _m("Diagnose and quote repairs","Apply",9,"Honest diagnosis builds trust.",["Backup only with permission.","Test screen, battery, ports.","Quote parts and time.","Warn about risk of data loss."],"Screen AED 220 + labour AED 40 = AED 260 with 90-day warranty.","Diagnose three sample faults.","Permission note present."),
+ _m("Battery safety and warranty","Evaluate",9,"Swollen batteries can burn.",["Never puncture or press a swollen battery.","Store in a fire-safe tray.","Use certified parts.","Write the warranty plainly."],"A swollen battery is isolated in a tray and replaced the same day.","Write a battery safety rule.","Isolation step present.")],
+"gadgets": [
+ _m("Range, standards and stock turn","Evaluate",9,"Stock must sell.",["Choose a small range.","Check certification marks.","Compute stock turn.","Clear slow lines."],"Annual sales AED 600,000 on average stock AED 150,000 gives turn 4.","Analyse a sample range.","Turn computed."),
+ _m("Warranty and returns","Apply",9,"Clear rules reduce disputes.",["State the warranty period.","Test returned items.","Replace or refund per rule.","Record faults by supplier."],"Faulty rate 3% from one supplier leads to a supplier review.","Draft a warranty note.","Rules clear.")],
+"freelance-web-design": [
+ _m("Brief, scope and wireframe","Create",9,"Scope protects both sides.",["Interview the client.","List pages and features.","Sketch wireframes first.","Agree revisions in writing."],"Five pages, two revision rounds, delivery in 14 days, AED 3,800.","Write a scope for a sample client.","Revisions limited."),
+ _m("Accessible, fast and mobile-ready","Evaluate",9,"A site must work for everyone.",["Check contrast and text size.","Compress images.","Test on a phone.","Add alt text."],"Compressing images cuts page weight from 4 MB to 900 KB.","Audit a sample page.","Three fixes listed.")],
+"web-development": [
+ _m("Plan, version and test","Apply",9,"Small, tested steps beat big rushes.",["Break work into small tasks.","Commit often with clear notes.","Write tests for key paths.","Review code before release."],"A form bug caught by a test before release avoids lost enquiries.","Build and test a small form.","Tests pass."),
+ _m("Security basics","Evaluate",9,"Most attacks use simple holes.",["Validate every input.","Hash passwords; never store them plain.","Use HTTPS.","Keep libraries updated."],"A form that accepts any text is changed to limit length and characters.","Review a sample form for five risks.","Risks listed with fixes.")],
+"freelance-writer": [
+ _m("Research, structure and draft","Create",9,"A plan saves rewriting.",["Clarify audience and goal.","Gather sources.","Outline then write.","Edit once for clarity, once for style."],"A 1,200-word article takes 2 hours research, 3 writing, 1 editing.","Write and edit a 600-word piece.","Sources listed."),
+ _m("Pricing, contracts and deadlines","Evaluate",9,"Clear terms avoid disputes.",["Quote per word or per project.","State revisions and payment terms.","Send an invoice on delivery.","Keep copies."],"6 hours at AED 75 = AED 450 for a 1,200-word piece.","Draft a one-page agreement.","Terms clear.")],
+"restaurant": [
+ _m("Menu costing and food safety","Evaluate",10,"Every dish needs a cost and a safe method.",["Cost each portion.","Set a target food cost percentage.","Control allergens by dish.","Log temperatures."],"Portion cost AED 14 at price AED 48 gives food cost 29%.","Cost five dishes.","Allergens listed."),
+ _m("Service flow and labour","Analyse",9,"Table time and labour hours decide profit.",["Time order-to-table.","Plan shifts to demand.","Reduce waste with prep lists.","Review daily sales."],"120 covers with 40 labour hours gives 3 covers per labour hour.","Compute covers per labour hour.","Calculation correct.")],
+"e-commerce": [
+ _m("Store set-up and checkout","Apply",9,"A simple checkout converts.",["Clear prices and delivery cost.","Few form fields.","Trusted payment options.","Mobile-friendly design."],"Cutting form fields from 12 to 6 raises conversion from 1.8% to 2.4%.","Review a sample checkout.","Three fixes listed."),
+ _m("Fulfilment, returns and metrics","Evaluate",9,"Metrics guide decisions.",["Pack within one day.","Track on-time delivery.","Compute average order value.","Handle returns clearly."],"2,000 visitors, 48 orders = 2.4% conversion; sales AED 10,080 gives order value AED 210.","Compute metrics for a week.","Numbers correct.")],
+"business-consultancy-services": [
+ _m("Diagnose and propose","Analyse",9,"A good diagnosis finds the biggest problem.",["Interview owner and staff.","Review numbers.","Rank issues by impact.","Propose one clear project."],"A firm loses 12% of orders to late delivery; that is the first project.","Run a diagnostic on a sample firm.","Issues ranked."),
+ _m("Deliver, measure and hand over","Evaluate",9,"Results must be measured in the client's own numbers.",["Set a baseline.","Deliver in steps.","Measure after 30 days.","Hand over documents and training."],"Late orders fall from 12% to 7% after a new schedule.","Write a one-page results report.","Baseline and result shown.")],
+})
