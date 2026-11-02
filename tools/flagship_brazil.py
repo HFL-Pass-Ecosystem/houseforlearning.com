@@ -165,6 +165,21 @@ def mods(n):
     m = [tuple(x) for x in m]
     return m
 
+def scen(n):
+    th, cu, un, rk, kit, pr, vc, fx, vol = D[n]
+    cm = pr - vc; v2 = max(1, int(vol * 0.75)); p2 = cm * v2 - fx; be = -(-fx // cm)
+    p10 = round(pr * 1.1); c20 = max(1, round(vol * 0.2)); d = max(1, round(vol * 0.06))
+    low = pr - round(pr * 0.1)
+    return [
+     f"Scenario: ten customers are interviewed for {n.lower()}. Seven say price, two say speed, one says trust. Question: which first message do you write, and which interview record backs it? Model answer: lead with the {un} price and speed promise, keep trust proof as the second line, and cite the seven price answers by date.",
+     f"Scenario: a neighbour says registration can wait until the first {money(pr * 5)} of sales. Question: what do you do? Model answer: do not delay; write the compliance table first, confirm the register, tax and sector licence with the official office, and start only where the table shows no open blocker.",
+     f"Scenario: a customer asks for a discount from {money(pr)} to {money(low)} per {un}. Question: decide with numbers. Model answer: contribution falls from {money(cm)} to {money(low - vc)} per {un}; offer an extra of value (for example faster service) before cutting price, and accept only if the lower contribution still clears break-even.",
+     f"Scenario: of {vol} {un}s last month, {d} had a defect traced to {kit}. Question: what is the defect rate and what is your first action? Model answer: about {100 * d / vol:.0f} defects per 100; stop the cause (add a check at the start), correct affected customers, log the cause, and re-measure next week.",
+     f"Scenario: a near-miss occurs: {rk} nearly happened but no one was hurt. Question: what do you do in the next 24 hours? Model answer: make safe, record the event, ask the five whys, add or tighten one control, brief the team, and set a review date; near-misses count as lessons, not blame.",
+     f"Scenario: a new hire completes training but a customer complaint shows a skipped step. Question: whose gap is it? Model answer: first the system: check the role card, the training sign-off and the checklist; then coach the person and fix the document so the step cannot be skipped.",
+     f"Scenario: sales fall to {v2} {un}s a month. Question: what is the monthly result? Model answer: {money(cm)} x {v2} - {money(fx)} = {money(p2)}; compare with break-even of {be} {un}s and decide whether to cut fixed cost or raise volume first. Teaching figures only.",
+     f"Scenario: you can add {c20} {un}s a month by one of two levers: a follow-up call to past customers or a {p10 - pr}-reais price rise to {money(p10)}. Question: how do you choose? Model answer: test the cheaper reversible lever first (the call), measure for 30 days, and only then try the price change, so you can tell which one worked."]
+
 def quiz(n):
     th, cu, un, rk, kit, pr, vc, fx, vol = D[n]
     cm = pr - vc; be = -(-fx // cm)
@@ -196,10 +211,11 @@ LADDER = [("L1 Basic", "Name the main parts of {n} and the words used. Notes: fo
 def build(n, i):
     th, cu, un, rk, kit = D[n][:5]
     ms = mods(n)
+    SC = scen(n)
     mh = ''
     for k, (t, bl, h, intro, pts, ex, act, std) in enumerate(ms, 1):
         mh += (f'<details class="mod" {"open" if k==1 else ""}><summary><span class="mn">Module {k}</span> {e(t)} <span class="pill">{h} h</span><span class="pill bz">{bl}</span></summary><p>{e(intro)}</p><ul>' + ''.join(f'<li>{e(p)}</li>' for p in pts) + '</ul>'
-               f'<div class="evi"><strong>Worked example.</strong> {e(ex)}</div><p><strong>Activity.</strong> {e(act)}</p><p><strong>Standard to meet.</strong> {e(std)}</p></details>')
+               f'<div class="evi"><strong>Worked example.</strong> {e(ex)}</div><div class="evi"><strong>Second worked scenario.</strong> {e(SC[k-1])}</div><p><strong>Activity.</strong> {e(act)}</p><p><strong>Standard to meet.</strong> {e(std)}</p></details>')
     qz = ''.join(f'<details class="mod"><summary>Q{j+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a)}</p></details>' for j, (q, a) in enumerate(quiz(n)))
     rub = ('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>' + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(c)}</td><td>{e(d)}</td></tr>' for a, b, c, d in RUBRIC) + '</tbody></table></div>')
     lad = '<ol class="ladder">' + ''.join(f'<li><strong>{e(a)}.</strong> {e(b.format(n=n.lower()))}</li>' for a, b in LADDER) + '</ol>'
