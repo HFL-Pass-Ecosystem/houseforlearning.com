@@ -51,11 +51,11 @@ LADDER = {
 'EU-07': [
  ('What trade means', 'Describe buyer, seller and goods moving between them. Notes: use water bottles as an example.'),
  ('Trade documents', 'Name the main documents. Notes: invoice 500 against packing list 480 is a mismatch to fix before shipping.'),
- ('Compare supplier quotes', 'Compare quotes at 3.2, 3.5 and 3.9 per unit. Notes: also compare quality and delivery, not only price.'),
- ('Cost the deal', 'Add goods, packing, freight, insurance, duties and bank fees. Notes: 3.5 x 500 is 1,750; add the rest to find landed cost.'),
- ('Price and negotiate', 'Set a cost, a walk-away and a counter. Notes: cost 4.67 per unit, walk-away 5.2, counter 5.4 for 500.'),
+ ('Compare supplier quotes', 'Compare quotes at EUR 3.20, EUR 3.50 and EUR 3.90 per unit. Notes: also compare quality and delivery, not only price.'),
+ ('Cost the deal', 'Add goods, packing, freight, insurance, duties and bank fees. Notes: EUR 3.50 x 500 is EUR 1,750; add the rest to find landed cost.'),
+ ('Price and negotiate', 'Set a cost, a walk-away and a counter. Notes: cost EUR 4.67 per unit, walk-away EUR 5.20, counter EUR 5.40 for 500.'),
  ('Lead a trade file', 'Check risks and compliance. Notes: late supplier, damage and currency risks need a buffer, better packing and a quote currency.'),
- ('Design a trade business', 'Plan products, partners and rules. Notes: air freight adding 180 cuts the margin to 10 per cent, so decide whether to offer it.')],
+ ('Design a trade business', 'Plan products, partners and rules. Notes: air freight adding EUR 180 cuts the margin to 10 per cent, so decide whether to offer it.')],
 'EU-08': [
  ('How a factory runs', 'Describe cut, assemble, test and pack. Notes: 40 units an hour at best and 31 on average.'),
  ('Industrial safety', 'List hazards and controls for one step. Notes: blade, noise, dust and lifting need a guard, ear protection, extraction and lifting rules.'),
@@ -69,9 +69,9 @@ LADDER = {
  ('Site safety', 'Name the main site hazards. Notes: falls, digging and lifting each need a control.'),
  ('Read a drawing', 'Read a plan and take measurements. Notes: a 3 m by 4 m room with 2.7 m walls, a door and a window.'),
  ('Measure quantities', 'Work out wall area. Notes: perimeter 14 m x 2.7 m is 37.8 square metres less door 1.89 and window 1.44, giving 34.47.'),
- ('Estimate cost', 'Cost items, overheads and profit. Notes: plaster 34.47 x 6 is 206.8; masonry 34.47 x 25 is 861.8; total all items to 9,420.'),
- ('Control quality and cost', 'Check tolerance and spend. Notes: plumb tolerance 5 mm over 2 m; 3,200 spent against 3,000 is a 6.7 per cent overspend.'),
- ('Plan a small build', 'Present a programme, cost and handover for a job. Notes: price against 600 to 900 per square metre; state your currency.')],
+ ('Estimate cost', 'Cost items, overheads and profit. Notes: plaster 34.47 x EUR 6 is EUR 206.8; masonry 34.47 x EUR 25 is EUR 861.8; total all items to EUR 9,420.'),
+ ('Control quality and cost', 'Check tolerance and spend. Notes: plumb tolerance 5 mm over 2 m; EUR 3,200 spent against EUR 3,000 is a 6.7 per cent overspend.'),
+ ('Plan a small build', 'Present a programme, cost and handover for a job. Notes: price against EUR 600 to 900 per square metre.')],
 'EU-10': [
  ('What farming and fishing sell', 'Name a crop or catch and its buyer. Notes: tomatoes at EUR 1.4 to 2.0 a kilo; a canteen needs 30 kg twice a week.'),
  ('Sustainable practice', 'Describe rotation and soil care. Notes: tomatoes, then beans, then leafy greens.'),
