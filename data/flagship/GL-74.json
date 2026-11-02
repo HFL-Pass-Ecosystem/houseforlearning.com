@@ -40,7 +40,7 @@
    [
     "The game publisher owns the game and sets licence rules for events, prize pools and streaming.",
     "Leagues and organisers run seasons and tournaments; teams sign and develop players; platforms stream.",
-    "Roles around a team: players, coach, analyst, manager, content creator, shoutcaster and referee.",
+    "Roles around a team: players, coach, analyst, manager, content creator, shoutcaster (match commentator) and referee.",
     "Schools and clubs have their own safeguarding rules, especially for minors."
    ],
    "A school club wants to charge an entry fee. It reads the publisher's community event rules, finds that paid events may need approval, and applies before announcing.",
@@ -53,7 +53,7 @@
    4,
    "A good roster fits skill, communication and schedule. A good culture keeps players improving and staying.",
    [
-    "Run trials: scrims, a team chat and a review. Watch communication as much as score.",
+    "Run trials: scrims (practice matches), a team chat and a review. Watch communication as much as score.",
     "Write expectations: practice days, attendance, language, equipment care and how conflict is handled.",
     "Use written agreements; for under-18s involve parents or guardians.",
     "Equal chance: no discrimination in trials; publish the criteria."
@@ -133,7 +133,7 @@
     "Disclose sponsors and prize rules to everyone.",
     "Keep receipts and a simple ledger."
    ],
-   "Twelve teams at 2,000 INR fees (an estimate; check your market) give 24,000 INR; costs are 22,000 INR, so break-even is 11 teams (22,000 / 2,000) and the surplus is 2,000 INR; a sponsor adds 15,000 INR for prizes.",
+   "Twelve teams at an entry fee of 2,000 INR per team (an estimate; check your market) give 24,000 INR; costs are 22,000 INR, so break-even is 11 teams (22,000 / 2,000) and the surplus is 2,000 INR; a sponsor adds 15,000 INR for prizes.",
    "Build a one-page budget with a break-even number of teams.",
    "Totals are correct and break-even is shown."
   ],
@@ -156,43 +156,43 @@
  "quiz": [
   [
    "Name a role.",
-   "Coach, analyst, manager or shoutcaster. (Covered in module 1: The eSports ecosystem and who decides what. To pass that module: Chart lists at least six roles and two rule sources with dates.)"
+   "Coach, analyst, manager or shoutcaster."
   ],
   [
    "Why limit hours?",
-   "Protect health and study. (Covered in module 4: Wellbeing, study and safety. To pass that module: Schedule shows sleep of at least seven hours and a weekly rest day.)"
+   "Protect health and study."
   ],
   [
    "Anti-cheat?",
-   "Prevents unfair play. (Covered in module 5: Fair play, conduct and integrity. To pass that module: Code has at least six rules and a four-step ladder.)"
+   "Prevents unfair play."
   ],
   [
    "Bracket?",
-   "Match structure. (Covered in module 6: Running a tournament. To pass that module: Schedule has no clashes and a delay allowance of 15 per cent.)"
+   "Match structure."
   ],
   [
    "Break rule?",
-   "Regular breaks. (Covered in module 4: Wellbeing, study and safety. To pass that module: Schedule shows sleep of at least seven hours and a weekly rest day.)"
+   "Regular breaks."
   ],
   [
    "Sponsor rule?",
-   "Disclose. (Covered in module 7: Budget, sponsors and honesty. To pass that module: Totals are correct and break-even is shown.)"
+   "Disclose."
   ],
   [
    "Break-even?",
-   "Teams needed to cover cost. (Covered in module 7: Budget, sponsors and honesty. To pass that module: Totals are correct and break-even is shown.)"
+   "Teams needed to cover cost."
   ],
   [
    "Review use?",
-   "Spot mistakes. (Covered in module 3: Practice, review and improvement. To pass that module: Findings use the data and each drill has a measure.)"
+   "Spot mistakes."
   ],
   [
    "Sanction?",
-   "Penalty for rules breach. (Covered in module 5: Fair play, conduct and integrity. To pass that module: Code has at least six rules and a four-step ladder.)"
+   "Penalty for rules breach."
   ],
   [
    "Equal chance?",
-   "No discrimination. (Covered in module 2: Building the roster and the team culture. To pass that module: Roster covers all roles; agreement covers schedule, conduct and conflict handling.)"
+   "No discrimination."
   ]
  ],
  "rubric": [
@@ -250,7 +250,7 @@
   ]
  ],
  "next": "VR events, podcasting, event management.",
- "local": "Age rules, gambling-adjacent rules and contracts differ by place.",
+ "local": "Age rules, gambling-related rules and contracts differ by place.",
  "ladder": [
   [
    "The eSports ecosystem and who decides what",

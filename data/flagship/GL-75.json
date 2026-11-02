@@ -119,7 +119,7 @@
     "Make claims no stronger than the evidence."
    ],
    "Heart rate from the shirt differs from a reference by 6 per cent on average at rest and 12 per cent while running, with worst case 20 per cent. The product description says \"wellness tracking, not a medical device\".",
-   "Compare your prototype with a reference and calculate average and worst-case percent error.",
+   "Compare your prototype with a reference and calculate average and worst-case per cent error.",
    "Both figures are calculated and the claim wording matches the evidence."
   ],
   [
@@ -156,43 +156,43 @@
  "quiz": [
   [
    "Name a use.",
-   "Sport, care or safety. (Covered in module 1: What smart apparel is, and who needs it. To pass that module: The statement names the wearer, signal, accuracy needed, time limit and who sees the data.)"
+   "Sport, care or safety."
   ],
   [
    "Why removable module?",
-   "For washing. (Covered in module 4: Building a prototype. To pass that module: Signal remains stable during walking, arm movement and sitting for five minutes each.)"
+   "For washing."
   ],
   [
    "Safe voltage?",
-   "Low voltage. (Covered in module 3: Sensors, power and electronics. To pass that module: Diagram is complete and the two battery-life figures are correct.)"
+   "Low voltage."
   ],
   [
    "Accuracy measure?",
-   "Percent error. (Covered in module 6: Accuracy and honest claims. To pass that module: Both figures are calculated and the claim wording matches the evidence.)"
+   "Per cent error."
   ],
   [
    "Material concern?",
-   "Skin allergy. (Covered in module 2: Fabrics, comfort and skin. To pass that module: Results table has both fabrics, two users, comfort and signal scores and one design decision.)"
+   "Skin allergy."
   ],
   [
    "Privacy rule?",
-   "Consent and secure storage. (Covered in module 7: Privacy, safety and rules. To pass that module: Consent text is readable by a non-expert and the checklist has at least eight items.)"
+   "Consent and secure storage."
   ],
   [
    "Wash test?",
-   "Count cycles to failure. (Covered in module 5: Washing, wear and durability. To pass that module: Log shows cycles, faults and one improvement tested.)"
+   "Count cycles to failure."
   ],
   [
    "Strain relief?",
-   "Prevents wire breaks. (Covered in module 3: Sensors, power and electronics. To pass that module: Diagram is complete and the two battery-life figures are correct.)"
+   "Prevents wire breaks."
   ],
   [
    "Pilot size?",
-   "About 10 users. (Covered in module 8: Pilot, cost and plan. To pass that module: Plan names ten users, a cost per unit and a go/stop rule.)"
+   "About 10 users."
   ],
   [
    "Claim style?",
-   "Modest. (Covered in module 6: Accuracy and honest claims. To pass that module: Both figures are calculated and the claim wording matches the evidence.)"
+   "Modest."
   ]
  ],
  "rubric": [
@@ -206,7 +206,7 @@
    "Testing",
    "None",
    "Done",
-   "Done with percent error"
+   "Done with per cent error"
   ],
   [
    "Privacy and safety",

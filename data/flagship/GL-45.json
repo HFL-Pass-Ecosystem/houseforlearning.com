@@ -22,7 +22,7 @@
   ],
   [
    "Create",
-   "Launch a pilot with a service level and review."
+   "Launch a pilot with a clear target and a review."
   ]
  ],
  "task": "Design and pilot a virtual appointment flow for one small clinic, with booking, identity check, consent, reminders, records and a fall-back for failed calls.",
@@ -168,7 +168,7 @@
   ],
   [
    "What is the fall-back order?",
-   "Voice, phone, then rebook. (Covered in module 4: Technology, connection and fall-backs. To pass that module: Contact is restored within 10 minutes in both runs and both are logged.)"
+   "Reconnect, switch to audio, switch to phone, then rebook. (Covered in module 4: Technology, connection and fall-backs. To pass that module: Contact is restored within 10 minutes in both runs and both are logged.)"
   ],
   [
    "Name two security measures.",

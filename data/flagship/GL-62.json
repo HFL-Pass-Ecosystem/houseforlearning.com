@@ -98,7 +98,7 @@
    5,
    "Know the cost per hour and per kilometre before setting prices.",
    [
-    "Fixed costs: insurance, depreciation, parking, tax. Variable costs: fuel or power, tyres, servicing.",
+    "Fixed costs: insurance, loss of value over time (depreciation), parking, tax. Variable costs: fuel or power, tyres, servicing.",
     "Cost per hour = fixed cost per day / hours available; cost per km = variable cost / km.",
     "Utilisation = hours booked / hours available; break-even depends on it.",
     "Show members an example bill before they book."
@@ -156,43 +156,43 @@
  "quiz": [
   [
    "Name three models.",
-   "Peer-to-peer, fleet, carpool. (Covered in module 1: Models of car and ride sharing. To pass that module: Table has pros, cons, capital needed and risks; choice is justified.)"
+   "Peer-to-peer, fleet, carpool."
   ],
   [
    "Why special insurance?",
-   "Private cover may not apply. (Covered in module 2: Legal checks and insurance. To pass that module: Each item has an authority or insurer, answer and date.)"
+   "Private cover may not apply."
   ],
   [
    "Cost per km components?",
-   "Fuel, wear. (Covered in module 5: Costs, pricing and break-even. To pass that module: Maths is correct and currency is shown.)"
+   "Fuel, wear."
   ],
   [
    "Why before-and-after photos?",
-   "Prove damage. (Covered in module 4: Booking, handover and return. To pass that module: Flow has times, photos and deposit rules.)"
+   "Prove damage."
   ],
   [
    "Name a vetting check.",
-   "Licence and ID. (Covered in module 3: Vetting drivers and identity. To pass that module: Steps cover document check, trial drive, expiry and data protection.)"
+   "Licence and ID."
   ],
   [
    "What is utilisation?",
-   "Share of time in use. (Covered in module 5: Costs, pricing and break-even. To pass that module: Maths is correct and currency is shown.)"
+   "Share of time in use."
   ],
   [
    "Incident step one?",
-   "Make everyone safe. (Covered in module 6: Safety, incidents and support. To pass that module: Plan has steps, contacts and a recorded mock run.)"
+   "Make everyone safe."
   ],
   [
    "Fairness rule example?",
-   "Equal access. (Covered in module 7: Fairness, access and community. To pass that module: Rules are clear and apply to all.)"
+   "Equal access."
   ],
   [
    "What is a pilot?",
-   "A small test. (Covered in module 8: Pilot and launch plan. To pass that module: Targets are numbers and a stop rule is stated.)"
+   "A small test."
   ],
   [
    "Why log incidents?",
-   "Review and improve. (Covered in module 6: Safety, incidents and support. To pass that module: Plan has steps, contacts and a recorded mock run.)"
+   "Review and improve."
   ]
  ],
  "rubric": [

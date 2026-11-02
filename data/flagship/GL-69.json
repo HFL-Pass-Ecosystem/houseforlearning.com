@@ -115,7 +115,7 @@
    [
     "Costs: crew, fuel, maintenance, landing or mooring fees, insurance, marketing and booking fees.",
     "Cost per guest = hourly cost x hours / guests.",
-    "Break-even load factor = cost per trip / (price x seats).",
+    "Break-even load factor (the share of seats you must fill) = cost per trip / (price x seats).",
     "Seasonal pricing and group offers must stay above cost."
    ],
    "Hourly cost 40,000 INR (an estimate; check your market) for a 1-hour trip with 8 seats is 5,000 INR per seat. At 6,000 INR a seat, break-even is 5,000 / 6,000 = 83 per cent full.",
@@ -156,43 +156,43 @@
  "quiz": [
   [
    "Who may operate?",
-   "Licensed operators and crew. (Covered in module 2: Licences, certificates and insurance. To pass that module: Every item has an authority, document number or practice placeholder and a date.)"
+   "Licensed operators and crew."
   ],
   [
    "Go/no-go factors?",
-   "Wind, visibility, waves or ceiling. (Covered in module 3: Weather rules and go/no-go decisions. To pass that module: Rules have limits, decision maker and guest message.)"
+   "Wind, visibility, waves or ceiling."
   ],
   [
    "Briefing items?",
-   "Equipment, exits, behaviour. (Covered in module 4: Briefing and equipment. To pass that module: Script covers equipment, exits, behaviour and emergency, and a peer can repeat it.)"
+   "Equipment, exits, behaviour."
   ],
   [
    "Cost per guest?",
-   "Hourly cost x hours / guests. (Covered in module 6: Costs, price and break-even. To pass that module: Maths is correct and the currency is shown.)"
+   "Hourly cost x hours / guests."
   ],
   [
    "Why drills?",
-   "Find weaknesses. (Covered in module 5: Emergency planning and drills. To pass that module: Plan has roles, contacts and drill results.)"
+   "Find weaknesses."
   ],
   [
    "Insurance for?",
-   "Passengers. (Covered in module 2: Licences, certificates and insurance. To pass that module: Every item has an authority, document number or practice placeholder and a date.)"
+   "Passengers."
   ],
   [
    "Why check expiry?",
-   "Valid permits. (Covered in module 2: Licences, certificates and insurance. To pass that module: Every item has an authority, document number or practice placeholder and a date.)"
+   "Valid permits."
   ],
   [
    "Environment control?",
-   "Avoid nesting sites. (Covered in module 7: Environment and community. To pass that module: Each commitment has a number or rule.)"
+   "Avoid nesting sites."
   ],
   [
    "Cancel policy?",
-   "Refund. (Covered in module 3: Weather rules and go/no-go decisions. To pass that module: Rules have limits, decision maker and guest message.)"
+   "Refund."
   ],
   [
-   "What are checks logged?",
-   "Equipment inspection. (Covered in module 4: Briefing and equipment. To pass that module: Script covers equipment, exits, behaviour and emergency, and a peer can repeat it.)"
+   "Which checks are logged?",
+   "Equipment inspection."
   ]
  ],
  "rubric": [
