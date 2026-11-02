@@ -33,7 +33,7 @@
  "evidence": "site survey, sizing sheet, safety plan, tariff, maintenance plan, cash view",
  "modules": [
   [
-   "Charger types and connectors",
+   "Charger types, speeds and connectors",
    "Understand",
    3,
    "Chargers differ in power, speed and cost. Choose by how long drivers will stay.",
@@ -43,7 +43,7 @@
     "Connector types and standards depend on region; check which cars you must support.",
     "Smart chargers can share power and report faults."
    ],
-   "A shopping mall installs 7 kW points because shoppers stay about two hours and add 14 kWh each. A highway site installs 60 kW units because drivers want 30 kWh in 30 minutes.",
+   "A shopping mall installs 7 kW points because shoppers stay about two hours and add 14 kWh each. A highway site installs 60 kW units because drivers want 30 kWh in about 30 minutes.",
    "Compare three charger types in a table with power, time to add 30 kWh, cost range and best site.",
    "Table values are correct and sourced."
   ],
@@ -56,11 +56,11 @@
     "Visible, safe, well lit, accessible, near amenities such as food and toilets.",
     "Distance to the electricity supply and spare transformer capacity.",
     "Permission from the land owner, the utility and the local authority.",
-    "Space for growth and for queuing."
+    "Space for growth, queuing and turning."
    ],
    "A site 20 m from the main panel saves cable cost; another 300 m away needs trenching and a new transformer, doubling cost.",
    "Do a mock site survey for two sites and score five criteria.",
-   "Scores justified in writing."
+   "Scores are justified in writing."
   ],
   [
    "Power sizing and load management",
@@ -71,11 +71,11 @@
     "Total kW = number of chargers x kW x diversity factor.",
     "Compare with supply capacity; use load management when limited.",
     "Plan growth with spare conduit.",
-    "Include power for lights and equipment."
+    "Include power for lights, screens and equipment."
    ],
-   "Four 7 kW points on a 20 kW supply use load sharing so that total draw never exceeds 20 kW; with all four in use each car gets about 5 kW.",
+   "Four 7 kW points on a 20 kW supply use load sharing so total draw never exceeds 20 kW; with all four in use each car gets about 5 kW.",
    "Size a site and show the calculation.",
-   "Maths correct; supply limit respected."
+   "Maths is correct and the supply limit is respected."
   ],
   [
    "Demand and revenue",
@@ -90,7 +90,7 @@
    ],
    "At 15 per cent utilisation a 7 kW point sells about 25 kWh a day; at 5 per cent it sells about 8 kWh a day and may not break even.",
    "Build a 12-month model with three demand cases.",
-   "Currency shown and assumptions listed."
+   "Currency is shown and assumptions are listed."
   ],
   [
    "Safety and standards",
@@ -103,7 +103,7 @@
     "Regular inspection and testing by qualified staff.",
     "Clear signs and instructions."
    ],
-   "A charger fails an earth test and is locked out until a licensed electrician repairs it; the fault is logged.",
+   "A charger fails an earth test and is locked out until a licensed electrician repairs it; the fault is logged and reported.",
    "List the safety measures for your site.",
    "A licensed person approves the list."
   ],
@@ -114,13 +114,13 @@
    "Make prices clear and fair.",
    [
     "Per kWh, per minute, session fee and idle fee.",
-    "Display price before charging begins.",
+    "Display the price before charging begins.",
     "Use payment methods approved in your place.",
     "Offer a way for users without a smartphone."
    ],
-   "An idle fee after 30 minutes frees the bay for other drivers, and users are told by a sign and a message.",
+   "An idle fee after 30 minutes frees the bay for other drivers, and users are told by a sign and a message. A 12 INR per kWh price covers a 7 INR electricity cost and fees.",
    "Design a tariff and test it with three examples.",
-   "Examples worked correctly."
+   "Examples are worked correctly."
   ],
   [
    "Operations and uptime",
@@ -148,27 +148,27 @@
     "Share the plan with the community.",
     "Review after six months."
    ],
-   "Wider bays and a call button let wheelchair users charge independently.",
-   "Finish the plan.",
+   "Wider bays and a call button let wheelchair users charge independently. A review at six months adds two more bays after queues exceed 15 minutes.",
+   "Finish the plan and a review date.",
    "Peers can follow the plan and see accessibility steps."
   ]
  ],
  "quiz": [
   [
    "What is load sharing?",
-   "Dividing supply among chargers. (Covered in module 1: Charger types and connectors. To pass that module: Table values are correct and sourced.)"
+   "Dividing supply among chargers. (Covered in module 1: Charger types, speeds and connectors. To pass that module: Table values are correct and sourced.)"
   ],
   [
    "Which suits long stays?",
-   "AC chargers. (Covered in module 2: Choosing a site. To pass that module: Scores justified in writing.)"
+   "AC chargers. (Covered in module 2: Choosing a site. To pass that module: Scores are justified in writing.)"
   ],
   [
    "Utilisation formula?",
-   "Hours in use / hours open. (Covered in module 3: Power sizing and load management. To pass that module: Maths correct; supply limit respected.)"
+   "Hours in use / hours open. (Covered in module 3: Power sizing and load management. To pass that module: Maths is correct and the supply limit is respected.)"
   ],
   [
    "Name a safety measure.",
-   "RCD, earthing or emergency stop. (Covered in module 4: Demand and revenue. To pass that module: Currency shown and assumptions listed.)"
+   "RCD, earthing or emergency stop. (Covered in module 4: Demand and revenue. To pass that module: Currency is shown and assumptions are listed.)"
   ],
   [
    "Why display price?",
@@ -176,7 +176,7 @@
   ],
   [
    "What is idle fee?",
-   "Charge for occupying a bay after charging. (Covered in module 6: Pricing and payment. To pass that module: Examples worked correctly.)"
+   "Charge for occupying a bay after charging. (Covered in module 6: Pricing and payment. To pass that module: Examples are worked correctly.)"
   ],
   [
    "Who approves electrics?",
@@ -253,29 +253,29 @@
  "local": "Utility and safety rules differ by place.",
  "ladder": [
   [
-   "Charger types and connectors",
-   "L1: learner can name charger types. Focus module: Charger types and connectors (Understand, 3 h). Chargers differ in power, speed and cost. Choose by how long drivers will stay. Key points: AC points (3 to 22 kW) suit long stays such as homes, workplaces and hotels; the car converts AC to DC. DC fast chargers (50 kW and above) suit quick stops on routes. Connector types and standards depend on region; check which cars you must support. Smart chargers can share power and report faults.",
-   "Teach: open with the worked example. A shopping mall installs 7 kW points because shoppers stay about two hours and add 14 kWh each. A highway site installs 60 kW units because drivers want 30 kWh in 30 minutes. Then set the activity: Compare three charger types in a table with power, time to add 30 kWh, cost range and best site. Mark against the standard: Table values are correct and sourced. Check at this level: What is load sharing? Model answer: Dividing supply among chargers."
+   "Charger types, speeds and connectors",
+   "L1: learner can name charger types. Focus module: Charger types, speeds and connectors (Understand, 3 h). Chargers differ in power, speed and cost. Choose by how long drivers will stay. Key points: AC points (3 to 22 kW) suit long stays such as homes, workplaces and hotels; the car converts AC to DC. DC fast chargers (50 kW and above) suit quick stops on routes. Connector types and standards depend on region; check which cars you must support. Smart chargers can share power and report faults.",
+   "Teach: open with the worked example. A shopping mall installs 7 kW points because shoppers stay about two hours and add 14 kWh each. A highway site installs 60 kW units because drivers want 30 kWh in about 30 minutes. Then set the activity: Compare three charger types in a table with power, time to add 30 kWh, cost range and best site. Mark against the standard: Table values are correct and sourced. Check at this level: What is load sharing? Model answer: Dividing supply among chargers."
   ],
   [
    "Choosing a site",
-   "L2: learner knows safety basics. Focus module: Choosing a site (Apply, 4 h). The right place and the right grid connection decide success. Key points: Visible, safe, well lit, accessible, near amenities such as food and toilets. Distance to the electricity supply and spare transformer capacity. Permission from the land owner, the utility and the local authority. Space for growth and for queuing.",
-   "Teach: open with the worked example. A site 20 m from the main panel saves cable cost; another 300 m away needs trenching and a new transformer, doubling cost. Then set the activity: Do a mock site survey for two sites and score five criteria. Mark against the standard: Scores justified in writing. Check at this level: Which suits long stays? Model answer: AC chargers."
+   "L2: learner knows safety basics. Focus module: Choosing a site (Apply, 4 h). The right place and the right grid connection decide success. Key points: Visible, safe, well lit, accessible, near amenities such as food and toilets. Distance to the electricity supply and spare transformer capacity. Permission from the land owner, the utility and the local authority. Space for growth, queuing and turning.",
+   "Teach: open with the worked example. A site 20 m from the main panel saves cable cost; another 300 m away needs trenching and a new transformer, doubling cost. Then set the activity: Do a mock site survey for two sites and score five criteria. Mark against the standard: Scores are justified in writing. Check at this level: Which suits long stays? Model answer: AC chargers."
   ],
   [
    "Power sizing and load management",
-   "L3: learner can survey a site. Focus module: Power sizing and load management (Apply, 5 h). Do not overload the supply. Key points: Total kW = number of chargers x kW x diversity factor. Compare with supply capacity; use load management when limited. Plan growth with spare conduit. Include power for lights and equipment.",
-   "Teach: open with the worked example. Four 7 kW points on a 20 kW supply use load sharing so that total draw never exceeds 20 kW; with all four in use each car gets about 5 kW. Then set the activity: Size a site and show the calculation. Mark against the standard: Maths correct; supply limit respected. Check at this level: Utilisation formula? Model answer: Hours in use / hours open."
+   "L3: learner can survey a site. Focus module: Power sizing and load management (Apply, 5 h). Do not overload the supply. Key points: Total kW = number of chargers x kW x diversity factor. Compare with supply capacity; use load management when limited. Plan growth with spare conduit. Include power for lights, screens and equipment.",
+   "Teach: open with the worked example. Four 7 kW points on a 20 kW supply use load sharing so total draw never exceeds 20 kW; with all four in use each car gets about 5 kW. Then set the activity: Size a site and show the calculation. Mark against the standard: Maths is correct and the supply limit is respected. Check at this level: Utilisation formula? Model answer: Hours in use / hours open."
   ],
   [
    "Demand and revenue",
    "L4: learner can run a site. Focus module: Demand and revenue (Analyse, 5 h). Estimate real use before you invest. Key points: Count nearby EVs and traffic; talk to likely users. Utilisation = hours in use / hours open. Revenue = kWh sold x price minus electricity cost and fees. Test low, medium and high demand cases.",
-   "Teach: open with the worked example. At 15 per cent utilisation a 7 kW point sells about 25 kWh a day; at 5 per cent it sells about 8 kWh a day and may not break even. Then set the activity: Build a 12-month model with three demand cases. Mark against the standard: Currency shown and assumptions listed. Check at this level: Name a safety measure. Model answer: RCD, earthing or emergency stop."
+   "Teach: open with the worked example. At 15 per cent utilisation a 7 kW point sells about 25 kWh a day; at 5 per cent it sells about 8 kWh a day and may not break even. Then set the activity: Build a 12-month model with three demand cases. Mark against the standard: Currency is shown and assumptions are listed. Check at this level: Name a safety measure. Model answer: RCD, earthing or emergency stop."
   ],
   [
    "Safety and standards",
    "L5: learner can model demand. Focus module: Safety and standards (Evaluate, 5 h). Protect users and property. Key points: Residual current protection, earthing, surge protection, emergency stop and fire plan. Weather protection, cable management and trip-free layout. Regular inspection and testing by qualified staff. Clear signs and instructions.",
-   "Teach: open with the worked example. A charger fails an earth test and is locked out until a licensed electrician repairs it; the fault is logged. Then set the activity: List the safety measures for your site. Mark against the standard: A licensed person approves the list. Check at this level: Why display price? Model answer: Fairness and trust."
+   "Teach: open with the worked example. A charger fails an earth test and is locked out until a licensed electrician repairs it; the fault is logged and reported. Then set the activity: List the safety measures for your site. Mark against the standard: A licensed person approves the list. Check at this level: Why display price? Model answer: Fairness and trust."
   ],
   [
    "Operations and uptime",
@@ -285,7 +285,7 @@
   [
    "Inclusion and the site plan",
    "L7: learner can audit a site plan. Focus module: Inclusion and the site plan (Create, 4 h). Everyone should be able to charge. Key points: Step-free access, bay width, lighting and a call button. Multi-language instructions and simple screens. Share the plan with the community. Review after six months.",
-   "Teach: open with the worked example. Wider bays and a call button let wheelchair users charge independently. Then set the activity: Finish the plan. Mark against the standard: Peers can follow the plan and see accessibility steps. Check at this level: Who approves electrics? Model answer: Licensed electrician."
+   "Teach: open with the worked example. Wider bays and a call button let wheelchair users charge independently. A review at six months adds two more bays after queues exceed 15 minutes. Then set the activity: Finish the plan and a review date. Mark against the standard: Peers can follow the plan and see accessibility steps. Check at this level: Who approves electrics? Model answer: Licensed electrician."
   ]
  ]
 }
