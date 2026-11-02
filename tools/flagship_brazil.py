@@ -66,6 +66,10 @@ D = {
 "Outsourcing Services": ("a handled back-office or support process", "a client firm", "service month", "errors that reach the client's customer", "a trained team and service levels", 16000, 9500, 22000, 5),
 "Electronics Sales & Repair Services": ("sold and repaired electronic goods", "a household or small firm", "repair", "an electric shock or a lost customer device", "an anti-static bench and a job tag", 180, 70, 8000, 200),
 }
+from brazil_deep_1 import DEEP as _D1
+from brazil_deep_2 import DEEP as _D2
+DEEP = {**_D1, **_D2}
+assert set(DEEP) == set(D), set(D) ^ set(DEEP)
 assert set(D) == set(TOPICS), (set(TOPICS) - set(D), set(D) - set(TOPICS))
 PHASE1 = set(TOPICS[:8])
 
@@ -156,6 +160,9 @@ def mods(n):
       f"90-day plan: 'Lever: repeat customers. Action: follow-up call after every {un}. Target: repeat rate from 20% to 30%. Check: weekly count. Review date: day 45 and day 90.'",
       "Write a 90-day plan with one target, three actions and a review date. Present it in five minutes and take questions.",
       "Target is measurable and dated; actions are small enough to start this week; review date is in the calendar."))
+    for k, mod in enumerate(m):
+        mod[4].insert(0, 'In ' + n.lower() + ': ' + DEEP[n][k])
+    m = [tuple(x) for x in m]
     return m
 
 def quiz(n):
