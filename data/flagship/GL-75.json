@@ -41,7 +41,7 @@
     "Common signals: heart rate, breathing, body temperature, movement, posture, pressure and sweat. Each needs a different sensor and a different place on the body.",
     "Use cases: sport and training, elder and patient care, worker safety, baby monitoring, rehabilitation and fashion effects such as light-up garments.",
     "Ask first: who wears it, for how long, doing what, in what weather, and who will read the data?",
-    "Smart does not replace medical devices; a garment that claims to diagnose needs regulatory approval."
+    "Smart does not replace medical devices; a garment that claims to diagnose may need regulatory approval in many places."
    ],
    "A care home wants to know when a resident gets out of bed at night. A pressure pad in a night garment or a mat is a better answer than a heart-rate shirt. The need (alert staff within 30 seconds) drives the design, not the technology.",
    "Write a user need statement for one wearer: who, where, what must be sensed, how often, who is alerted and how fast.",
@@ -73,7 +73,7 @@
     "Battery life = capacity (mAh) / average current (mA). A 400 mAh cell with a 20 mA module lasts about 20 hours.",
     "Keep wires short, use strain relief and seal connectors with flexible sealant."
    ],
-   "A 400 mAh module draws 20 mA when streaming and 5 mA when storing data. Changing from streaming to storing and sending every 10 minutes extends battery life from 20 to about 60 hours.",
+   "A 400 mAh module draws 20 mA when streaming (20 hours) and about 5 mA when storing data. Storing and sending a short burst every 10 minutes averages about 6.7 mA, which extends battery life to about 60 hours (400 / 6.7).",
    "Draw a block diagram (sensor, processor, radio, battery, charger) and calculate battery life for two data modes.",
    "Diagram is complete and the two battery-life figures are correct."
   ],
@@ -254,7 +254,7 @@
  "ladder": [
   [
    "What smart apparel is, and who needs it",
-   "L1: learner can name uses. Focus module: What smart apparel is, and who needs it (Understand, 3 h). Smart apparel is clothing that senses, records or responds, usually through small sensors and a removable electronic module. The best products solve a clear problem for a clear wearer; the worst add gadgets nobody asked for. Key points: Common signals: heart rate, breathing, body temperature, movement, posture, pressure and sweat. Each needs a different sensor and a different place on the body. Use cases: sport and training, elder and patient care, worker safety, baby monitoring, rehabilitation and fashion effects such as light-up garments. Ask first: who wears it, for how long, doing what, in what weather, and who will read the data? Smart does not replace medical devices; a garment that claims to diagnose needs regulatory approval.",
+   "L1: learner can name uses. Focus module: What smart apparel is, and who needs it (Understand, 3 h). Smart apparel is clothing that senses, records or responds, usually through small sensors and a removable electronic module. The best products solve a clear problem for a clear wearer; the worst add gadgets nobody asked for. Key points: Common signals: heart rate, breathing, body temperature, movement, posture, pressure and sweat. Each needs a different sensor and a different place on the body. Use cases: sport and training, elder and patient care, worker safety, baby monitoring, rehabilitation and fashion effects such as light-up garments. Ask first: who wears it, for how long, doing what, in what weather, and who will read the data? Smart does not replace medical devices; a garment that claims to diagnose may need regulatory approval in many places.",
    "Teach: open with the worked example. A care home wants to know when a resident gets out of bed at night. A pressure pad in a night garment or a mat is a better answer than a heart-rate shirt. The need (alert staff within 30 seconds) drives the design, not the technology. Then set the activity: Write a user need statement for one wearer: who, where, what must be sensed, how often, who is alerted and how fast. Mark against the standard: The statement names the wearer, signal, accuracy needed, time limit and who sees the data. Check at this level: Name a use. Model answer: Sport, care or safety."
   ],
   [
@@ -265,7 +265,7 @@
   [
    "Sensors, power and electronics",
    "L3: learner can design a block. Focus module: Sensors, power and electronics (Apply, 4 h). Electronics in clothing must be small, low voltage, protected against sweat and easy to remove. Key points: Start from a ready sensor board for heart rate, movement or temperature; sewing the conductive parts can come later. Use a small rechargeable cell with a protection circuit and charge only with the right charger. Never use a damaged cell next to skin. Battery life = capacity (mAh) / average current (mA). A 400 mAh cell with a 20 mA module lasts about 20 hours. Keep wires short, use strain relief and seal connectors with flexible sealant.",
-   "Teach: open with the worked example. A 400 mAh module draws 20 mA when streaming and 5 mA when storing data. Changing from streaming to storing and sending every 10 minutes extends battery life from 20 to about 60 hours. Then set the activity: Draw a block diagram (sensor, processor, radio, battery, charger) and calculate battery life for two data modes. Mark against the standard: Diagram is complete and the two battery-life figures are correct. Check at this level: Safe voltage? Model answer: Low voltage."
+   "Teach: open with the worked example. A 400 mAh module draws 20 mA when streaming (20 hours) and about 5 mA when storing data. Storing and sending a short burst every 10 minutes averages about 6.7 mA, which extends battery life to about 60 hours (400 / 6.7). Then set the activity: Draw a block diagram (sensor, processor, radio, battery, charger) and calculate battery life for two data modes. Mark against the standard: Diagram is complete and the two battery-life figures are correct. Check at this level: Safe voltage? Model answer: Low voltage."
   ],
   [
    "Building a prototype",

@@ -58,7 +58,7 @@
     "Collect only the data needed to book.",
     "Review no-show and late-cancel rates weekly."
    ],
-   "A clinic with 18% no-shows adds two reminders and a two-tap reschedule. No-shows fall to 9% in six weeks, giving back about 14 appointment slots per week.",
+   "A clinic with about 155 appointment slots a week and 18% no-shows adds two reminders and a two-tap reschedule. No-shows fall to 9% in six weeks, giving back about 14 slots per week (9% of 155).",
    "Configure slots, reminders and a reschedule flow in a free booking tool and test with five mock patients.",
    "All five mock bookings complete; reminders arrive at the right times."
   ],
@@ -260,7 +260,7 @@
   [
    "Booking, slots and reminders",
    "L2: learner knows why consent and privacy come first. Focus module: Booking, slots and reminders (Apply, 4 h). Good booking design cuts no-shows and protects clinician time. Key points: Create slot types by clinician, length and visit type (new, follow-up, urgent) with buffer time between visits. Send reminders the day before and one hour before, with a join link and a cancel or reschedule link. Collect only the data needed to book. Review no-show and late-cancel rates weekly.",
-   "Teach: open with the worked example. A clinic with 18% no-shows adds two reminders and a two-tap reschedule. No-shows fall to 9% in six weeks, giving back about 14 appointment slots per week. Then set the activity: Configure slots, reminders and a reschedule flow in a free booking tool and test with five mock patients. Mark against the standard: All five mock bookings complete; reminders arrive at the right times. Check at this level: Why two reminders? Model answer: They cut no-shows."
+   "Teach: open with the worked example. A clinic with about 155 appointment slots a week and 18% no-shows adds two reminders and a two-tap reschedule. No-shows fall to 9% in six weeks, giving back about 14 slots per week (9% of 155). Then set the activity: Configure slots, reminders and a reschedule flow in a free booking tool and test with five mock patients. Mark against the standard: All five mock bookings complete; reminders arrive at the right times. Check at this level: Why two reminders? Model answer: They cut no-shows."
   ],
   [
    "Identity and consent",
