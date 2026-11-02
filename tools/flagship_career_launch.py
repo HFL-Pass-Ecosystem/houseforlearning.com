@@ -13,7 +13,7 @@ M = [
   "A job search that starts with a plan beats one that starts with a job board. The order is simple: know yourself, choose targets, shape your story, then meet people. Steadiness matters as much as skill.",
   ["Write the goal in one sentence with a date: 'By 31 March I will start a role as a ___ in ___.' A goal you can test is a goal you can work toward.",
    "Split the search into four weekly blocks: thinking (self and targets), making (CV, stories), meeting (conversations), and practising (interviews). Put each block in your calendar.",
-   "Many roles are filled through conversations before they are advertised, so plan for conversations, not only applications.",
+   "Many roles are often filled through conversations before they are advertised, so plan for conversations, not only applications.",
    "Build habits that survive a bad week: a fixed start time, a daily minimum (for example 2 conversations or 3 applications), a short end-of-day note of what moved.",
    "Choose one honest measure of progress per week: number of useful conversations held."],
   "Weak plan: 'Apply to lots of jobs.' Strong plan: 'Goal: junior operations role in logistics by 31 March. Weekly: 6 hours thinking and making, 5 conversations, 2 practice interviews. Daily minimum: 2 messages sent.'",
@@ -43,17 +43,17 @@ M = [
    "Use the story frame: Situation, Mission, Action, Result, Takeaway. Use 'I' for what you did.",
    "CV: one page up to five years of experience. Three to four achievement lines per role, each with an action verb, scale, result and time. Plain layout.",
    "Public profile: headline with role and focus; first two lines of the About section with one number; three expert topics; consistent with your CV; no confidential information or personal ID."],
-  "Pass one: 'Helped with school careers advice.' Pass two: 'Coached 500 students.' Pass three: 'Coached 500+ students and ran two classes of 25 so that 90% of final-year students were ready to apply by graduation.'",
+  "Pass one: 'Helped with school careers advice.' Pass two: 'Coached 500 students.' Pass three: 'Coached 500+ students and ran two classes of 25 so that most final-year students were ready to apply by graduation.'",
   "Write three stories through all three passes; write one page CV; rewrite your profile headline and first two lines. See the full flagship 'Resume and Professional Profile' for the detailed method.",
-  "All stories have a number; CV is one page; two peers can repeat one number from your CV after 30 seconds."),
+  "All stories have a number; CV is one page; two peers can repeat one number from your CV after a quick read."),
  ("Meet people before openings", "Apply", 4,
   "Hunt for conversations, not only adverts. Four routes work together: advertised roles, recruiters, your network and direct approaches.",
-  ["Advertised roles: apply only where you pass at least 70% of the requirements, and tailor your summary to the advert's key words.",
+  ["Advertised roles: as a rule of thumb, apply where you meet most of the requirements (many people use about two thirds), and tailor your summary to the advert's key words.",
    "Recruiters: send a short note with your target, your evidence and your dates; keep it professional; never pay a fee to be placed.",
    "Network: start with people you already know. A short information conversation asks for advice, never for a job.",
    "Direct approaches: a short message to a person in a target organisation, with one specific question.",
    "Keep a weekly tracker: name, date, route, what was said, next step. Effort that is not recorded disappears."],
-  "Message: 'Hello Ms Rao, I am moving from retail into training coordination and read your note on onboarding. May I ask two questions about how your team started? Ten minutes of your time would be a real help; a reply by message is fine.'",
+  "Message: 'Hello, I am moving from retail into training coordination and read your note on onboarding. May I ask two questions about how your team started? Ten minutes of your time would be a real help; a reply by message is fine.'",
   "Send five messages across at least three routes. Keep the tracker for one week. Write a one-page review: what worked, what to change.",
   "Each message under 80 words with one small ask; tracker complete; review names one change."),
  ("Interview with confidence", "Create", 5,
@@ -70,7 +70,7 @@ M = [
   "Follow up well and know when you have talked to enough people. Keep several serious conversations running so no single result decides your future.",
   ["Send a thank-you within the same day; add one new idea or a useful detail you forgot to mention.",
    "Ask what happens next and when you will hear back; put the date in your tracker.",
-   "Aim for about seven serious conversations at once, give or take two. Fewer makes every result feel life-or-death; more spreads you too thin.",
+   "As a rule of thumb, aim for about seven serious conversations at once, give or take two. Fewer makes every result feel life-or-death; more spreads you too thin.",
    "Review honestly every week: conversations held, interviews, second interviews, offers. Let the numbers guide where to spend effort.",
    "Handle silence: one polite follow-up after the stated date, then move on."],
   "Follow-up note: 'Thank you for the time today. After our talk, I thought of one more example: last quarter I cut quote time from two days to four hours. I would be glad to share the template.'",
@@ -97,7 +97,7 @@ M = [
   "Write your 30-60-90 plan and a yearly review date. Mentor one peer for 20 minutes.",
   "Plan has three dated goals with measures; review date is in the calendar; one peer is helped."),
 ]
-QUIZ = [("Why plan before you browse job boards?", "A plan gives order and focus; many roles fill through conversations before they are advertised."),
+QUIZ = [("Why plan before you browse job boards?", "A plan gives order and focus; many roles often fill through conversations before they are advertised."),
  ("Name the four weekly blocks.", "Thinking, making, meeting, practising."),
  ("What three things form your filter?", "Motivators, strengths and move size (plus deal-breakers)."),
  ("What goes on a target page?", "Why it fits, what they need, who you know, who to meet, next step with a date."),
@@ -125,7 +125,7 @@ def build():
     outs = [('Understand', 'Explain a plan-first job search and set a dated goal.'), ('Analyse', 'Name your motivators and strengths and turn them into a filter.'), ('Apply', 'Build a target board and run four search routes with a tracker.'),
             ('Create', 'Write achievement stories, a CV, a profile and six interview stories.'), ('Evaluate', 'Compare packages and negotiate honestly.'), ('Create', 'Plan your first 90 days and keep your method alive.')]
     about = B.sec('', 'ab', 'about this course', 'What you will be able to do',
-        f'<div class="cb-facts"><span class="pill lv">L4 Practitioner</span><span class="pill">9 modules · {total} h lessons plus practice</span><span class="pill pr">USD 39 per learner per month, or USD 79 with mentor review</span></div>'
+        f'<div class="cb-facts"><span class="pill lv">L4 Practitioner</span><span class="pill">9 modules · {total} h lessons plus practice</span></div>'
         '<ul class="blm">' + ''.join(f'<li><span class="bz">{b}</span> {e(t)}</li>' for b, t in outs) + '</ul>'
         '<h3 class="ws-h3">Task, condition and standard</h3><div class="tcs"><div><h4>Task</h4><p>Run a complete job search from plan to accepted offer, keeping a record of every step.</p></div>'
         '<div><h4>Condition</h4><p>About 8 weeks part-time. Own phone or computer, real adverts, two peers, a mentor for the final review.</p></div>'

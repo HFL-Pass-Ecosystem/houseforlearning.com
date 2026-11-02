@@ -9,11 +9,11 @@ e = html.escape
 
 LESSONS = [
  ("1", "Why achievements beat duties", "Understand", 2,
-  "Employers read a CV in about thirty seconds. They are asking one question: what will this person do for us? A list of duties answers a different question (what was your job title's paperwork?). An achievement answers it.",
+  "Recruiters often skim a CV quickly (a rule of thumb, not a fixed time). They are asking one question: what will this person do for us? A list of duties answers a different question (what was your job title's paperwork?). An achievement answers it.",
   ["Duty: 'Responsible for customer complaints.' Achievement: 'Cut complaint response time from 5 days to 2 days across a 12-person team, and kept the rate at 2 days for 9 months.'",
    "A strong achievement line has four parts: an ACTION VERB (what you did), the SCALE (how many, how big), the RESULT (a number, before and after) and the TIME (how long, or by when).",
    "No number yet? Estimate honestly and say so ('about 30 families a week'). Never invent. Ask a colleague or check old records."],
-  "Three versions of one line. Weak: 'Helped with school careers advice.' Better: 'Coached 500 students in careers skills.' Strong: 'Coached 500+ students and ran two classes of 25, so that 90% of final-year students were ready to apply for jobs by graduation.' Notice how each version adds scale, then a result.",
+  "Three versions of one line (all numbers are example values). Weak: 'Helped with school careers advice.' Better: 'Coached 500 students in careers skills.' Strong: 'Coached 500+ students and ran two classes of 25, so that 90% of final-year students were ready to apply for jobs by graduation.' Notice how each version adds scale, then a result.",
   "Take your last three jobs or projects. For each, write the duty line, then rewrite it as an achievement line with action verb, scale, result and time. Keep all nine lines in My page.",
   "Each rewritten line has all four parts; at least 6 of 9 carry a number; none claims something you cannot show."),
  ("2", "Finding your achievement stories", "Apply", 3,
@@ -50,26 +50,26 @@ LESSONS = [
    "Each role: job title, organisation, dates, then 3 to 4 achievement lines. Start every line with a different action verb: led, built, reduced, designed, trained, negotiated, analysed.",
    "Use one simple font, no photos or tables unless your region expects a photo, and save a copy as a plain document and as a PDF.",
    "Do not list personal details your region does not need (check local custom): ID numbers, bank details, full home address."],
-  "A finished entry: 'Sales coordinator, Greenfield Traders, 2022-2025. Raised repeat orders by 22% by building a simple follow-up call list for 120 customers. Cut quote preparation from 2 days to 4 hours using a shared template. Trained 3 new colleagues.'",
+  "A finished entry: 'Sales coordinator, small trading company, 2022-2025. Raised repeat orders by 22% by building a simple follow-up call list for 120 customers. Cut quote preparation from 2 days to 4 hours using a shared template. Trained 3 new colleagues.'",
   "Write your target CV. Ask two peers to read it for 30 seconds each and tell you what they remember.",
   "Fits the page limit; every role has 3 to 4 achievement lines; no spelling errors; peers remember at least one number."),
  ("6", "Your public professional profile", "Apply", 3,
   "A public professional profile is your CV that people can find, in your own words, and it can show your work. Use it to be found, to be trusted and to start conversations.",
-  ["Headline: what you do and for whom, in under 120 characters. Not just a job title.",
+  ["Headline: what you do and for whom, short enough to read at a glance (about 120 characters is a common limit; check your platform). Not just a job title.",
    "About section: first 2 lines matter most; state what you do, one proof with a number, and what you are looking for.",
    "Experience: reuse your achievement lines. Skills: pick the ones in your target adverts. Add a clear, friendly photo where local custom allows.",
    "Show expertise: write about three topics you know well (a short post, a tip, a lesson learned). Give before you take: comment helpfully, thank people, share others' good work.",
    "Privacy and safety: never post personal ID, never share an employer's confidential material, check who can see what."],
   "Headline weak: 'Student'. Headline strong: 'Final-year electrical student | solar installation and site safety | seeking a trainee technician role'. About, first lines: 'I help small buildings use less electricity. Last year I audited 12 shops and found savings of about 15% in each.'",
   "Rewrite your headline and About section; choose 3 expert topics; write one short post and ask two people for feedback. Keep drafts in My page.",
-  "Headline under 120 characters and names a role and a focus; About has one number; 3 topics listed; one post drafted."),
+  "Headline is short and names a role and a focus; About has one number; 3 topics listed; one post drafted."),
  ("7", "Building connections the fair way", "Apply", 2,
   "Networking works when it is generous and specific. A good message is short, personal, and asks for something small.",
   ["Give first: share a useful article, congratulate a promotion, answer a question.",
    "Message pattern: who you are in one line, why this person, one small ask (a 15-minute call, one piece of advice). Make it easy to say no.",
    "Follow up with thanks and tell them what you did with the advice. Keep a simple tracker: name, date, what they said, next step.",
    "Respect: no mass messages, no pressure, no asking strangers for a job."],
-  "Weak: 'Hi, please give me a job.' Strong: 'Hello Ms Rao, I am finishing a diploma in electrical installation and read your post on testing solar strings. Could I ask two questions about how you started? I know your time is limited, so a short reply is fine.'",
+  "Weak: 'Hi, please give me a job.' Strong: 'Hello, I am finishing a diploma in electrical installation and read your post on testing solar strings. Could I ask two questions about how you started? I know your time is limited, so a short reply is fine.'",
   "Write three messages to three different people (a classmate, a trainer, a professional in your target role). Send none until you have had peer feedback.",
   "Each message is under 80 words, has one specific ask, and passes a peer 'would I reply?' check."),
  ("8", "Interviews and keeping the proof", "Create", 3,
@@ -117,8 +117,8 @@ def build():
     jobs = '<ul>' + ''.join(f'<li><strong>{e(a)}.</strong> {e(b)}.</li>' for a, b in JOBS) + '</ul>'
     outcomes = [('Understand', 'Explain why achievements beat duties on a CV.'), ('Apply', 'Write three SMART stories and nine achievement lines.'), ('Analyse', 'Audit a CV against four myths and a gap table for a target role.'),
                 ('Create', 'Produce a target CV, a public profile and five interview stories.'), ('Evaluate', 'Score your own mock interview against a rubric and plan two improvements.')]
-    top = (f'<div class="cb-facts"><span class="pill lv">L3 Foundation</span><span class="pill">{total}:00 h of lessons plus 30 h practice and sharing</span>'
-           '<span class="pill">Self-paced with peer circle</span><span class="pill pr">USD 39 per learner per month, or USD 79 with mentor review</span></div>')
+    top = (f'<div class="cb-facts"><span class="pill lv">L3 Foundation</span><span class="pill">{total} h of lessons plus 30 h practice and sharing</span>'
+           '<span class="pill">Self-paced with peer circle</span><span class="pill">Mentor review available</span></div>')
     about = B.sec('', 'ab', 'about this course', 'What you will be able to do', top + '<ul class="blm">' + ''.join(f'<li><span class="bz">{b}</span> {e(t)}</li>' for b, t in outcomes) + '</ul>'
         + '<h3 class="ws-h3">Task, condition and standard</h3><div class="tcs"><div><h4>Task</h4><p>Produce a target CV, a public professional profile and five interview stories for one real target role.</p></div>'
         '<div><h4>Condition</h4><p>Own computer or phone, five real job adverts, two peers for feedback, a mentor for the final review. About 6 weeks part-time.</p></div>'

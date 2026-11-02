@@ -4,7 +4,7 @@
 "standard": "The learner explains what the vents do, checks a layout against clearance and cover rules, and says that any alternative layout needs proof by test.",
 "modules": [
 {"title": "What happens in a fault","bloom": "Understand: Explain","minutes": 15,
-"intro": "When a breaker opens a large fault, an arc forms inside it. The arc makes very hot gas, and that gas needs a safe way out.",
+"intro": "When a breaker opens a large fault, an arc forms inside it. The arc makes very hot gas, and that gas needs a path out, away from live parts.",
 "points": ["The arc heats the air and makes ionised gas and metal vapour.","Vents let this gas escape away from live parts.","If the gas stays near live parts, the arc can restart outside the breaker."],
 "example": "Picture a fault that opens in 0.02 s. In that short time the arc inside the breaker heats a small volume of air, and the pressure rises sharply. With open vents, the hot gas leaves through the top in that same instant. With a blocked vent, the gas has nowhere to go, so it pushes toward the sides and the connections. If a bare bar sits 20 mm from the vent, hot conductive gas can bridge to it. So a clear vent with a gap protects the bar. Times and distances are illustrations only.",
 "activity": "Draw a breaker with its vents on top and a bare bar near them. Mark where the gas goes with the vents open and with the vents blocked.",
@@ -12,7 +12,7 @@
 {"title": "Rules to follow","bloom": "Remember: Recall","minutes": 15,
 "intro": "The rules are short and easy to forget under time pressure. Learn them as a checklist.",
 "points": ["Do not block vents with barriers, panels or neighbouring devices.","Fit phase separators or terminal covers where the maker requires them.","Use insulated bars or cables to connect the breaker, and follow the sheet for each fixing style."],
-"example": "A board holds eight breakers in a row. The maker asks for at least 60 mm of free space above each vent. The cover plate sits 45 mm above the vents. The shortfall is 60 minus 45, so 15 mm. That layout fails the clearance rule. Fix by raising the cover by at least 15 mm or choosing a different cover. Of the eight breakers, all eight are affected since the plate runs across the full row. Maker figures here are an example.",
+"example": "A board holds eight breakers in a row. The maker asks for at least 60 mm of free space above each vent. The cover plate sits 45 mm above the vents. The shortfall is 60 minus 45, so 15 mm. That layout fails the clearance rule. A qualified person would fix this by raising the cover by at least 15 mm or choosing a different cover, following the maker's sheet. Of the eight breakers, all eight are affected since the plate runs across the full row. Maker figures here are an example.",
 "activity": "Write a six-item checklist from this module. Use it to check a made-up board with a cover 50 mm above vents when 60 mm is required.",
 "standard": "Learner lists the three rules and applies a clearance check with numbers."},
 {"title": "Fixing styles and covers","bloom": "Apply: Check","minutes": 15,
@@ -42,7 +42,7 @@
 ],
 "ladder": [
 {"title": "L1 Basic: Where does the gas go","slide": "Cross-section of a breaker with an arrow out of the top vent.","notes": "Ask where the hot gas goes when a fault opens. Introduce vents as the answer."},
-{"title": "L2 Explain: Why keep them clear","slide": "Two pictures: open vent with a safe plume, blocked vent with gas pushed sideways.","notes": "Explain arc restart. Keep language plain and avoid any step that involves live equipment."},
+{"title": "L2 Explain: Why keep them clear","slide": "Two pictures: open vent with the plume directed away from live parts, blocked vent with gas pushed sideways.","notes": "Explain arc restart. Keep language plain and avoid any step that involves live equipment."},
 {"title": "L3 Apply: The checklist","slide": "Six-line checklist: vents clear, clearance met, separators fitted, insulated links, right sheet, record kept.","notes": "Learners apply it to a drawing. Use the 60 mm against 45 mm case and find the 15 mm shortfall."},
 {"title": "L4 Analyse: Three styles","slide": "Table of fixed, plug-in and withdrawable with columns for cover and separator rules.","notes": "Stress reading the sheet for each style. Count separators for the plug-in group together."},
 {"title": "L5 Design: Row layout","slide": "A row of eight breakers with a cover plate and a ruler marked in millimetres.","notes": "Learners adjust the cover height to meet the clearance. Remind them that fitting and changes belong to qualified people following local rules."},

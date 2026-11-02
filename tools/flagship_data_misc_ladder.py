@@ -20,8 +20,8 @@ LADDER = {
  ('Why earth anything', 'Say in plain words what earthing protects. Notes: use a washing machine case as the example; no tools needed.'),
  ('Awareness of danger', 'Name touch voltage, step voltage and bonding. Notes: show one drawing and ask where a person could be at risk.'),
  ('Read the parts', 'Identify rod, conductor, main terminal and bonding on a drawing. Notes: check labels are readable and complete.'),
- ('Calculate a simple rise', 'Work out ground potential rise from current and resistance. Notes: 2,000 A at 0.4 ohm is about 800 V; state it is an illustration, not a design.'),
- ('Judge test records', 'Judge whether a record is complete and plausible. Notes: a result rising from 2 to 7 ohm means retest, inspect and report the same day.'),
+ ('Calculate a simple rise', 'Work out ground potential rise from current and resistance. Notes: 2,000 A at 0.4 ohm is about 800 V (example values); state it is an illustration, not a design.'),
+ ('Judge test records', 'Judge whether a record is complete and plausible. Notes: a result rising from 2 to 7 ohm (example values) means retest, inspect and report promptly.'),
  ('Lead an inspection round', 'Plan a round of visual checks and record reviews. Notes: sample three records and mark them complete or incomplete.'),
  ('Advise on an earthing programme', 'Write an inspection programme and escalation route for a site. Notes: design and approval stay with a qualified engineer; this course gives awareness only.')],
 'platform': [

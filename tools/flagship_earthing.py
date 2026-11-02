@@ -19,10 +19,10 @@ M = [
  ("Soil and resistance basics", "Understand", 3,
   "How well current spreads into the ground depends on soil resistivity, electrode size and shape, and moisture.",
   ["Soil resistivity changes with moisture, temperature, salts and layers. Dry sand and rock are poor; moist clay is better. Measure; do not guess.",
-   "Electrode resistance falls as you add length, depth or parallel electrodes, but with diminishing returns. Spacing parallel rods at least their own length apart avoids overlapping.",
+   "Electrode resistance falls as you add length, depth or parallel electrodes, but with diminishing returns. As a rule of thumb, parallel rods spaced about their own length apart overlap less; the engineer decides the spacing.",
    "Seasonal change: measure in the driest season, or allow a margin.",
    "Measurement methods are done by a competent person with a calibrated instrument and a written procedure."],
-  "Two rods 3 m long placed 1 m apart do not give half the resistance of one; at about 6 m apart, they come close. The calculation and the measurement must be done by a qualified engineer; this course teaches you to read and question the numbers.",
+  "Illustration with example values: two rods 3 m long placed close together do not give half the resistance of one; spaced further apart they come closer to it. The calculation and the measurement must be done by a qualified engineer; this course teaches you to read and question the numbers.",
   "Given a table of three soil readings (ohm-metres) and a target resistance, rank the three sites and write which one needs the most extra electrode length and why.",
   "Ranking correct; the reason mentions moisture or resistivity; no claim of a final design."),
  ("Parts of an earthing system", "Apply", 3,
@@ -31,7 +31,7 @@ M = [
    "Protective conductor: runs with the circuits to every exposed metal part. Equipotential bonding: links pipes, structural steel and other conductive parts.",
    "Earth mat or grid: a buried mesh of conductors used at substations to spread current and limit voltages across the site.",
    "Records: label every connection point, record test dates and results."],
-  "On a drawing: rod (E1), earthing conductor (green-yellow), main terminal (MET), bonding to water pipe, protective conductors to the distribution board.",
+  "On a drawing: rod (E1), earthing conductor (colour depends on local rules), main terminal (MET), bonding to water pipe, protective conductors to the distribution board.",
   "Mark up a sample single-line drawing with the six parts above and give each one sentence.",
   "All six parts correctly identified; labels readable."),
  ("Ground potential rise: what it is", "Analyse", 4,
@@ -40,7 +40,7 @@ M = [
    "Transferred potential: a metal path (a fence, a cable sheath, a pipe) can carry that rise to a remote point and give a shock where none is expected.",
    "Homes and public: GPR near substations and pylon bases is why we separate or bond systems carefully, and why isolation rules exist for communications and pipes entering sites.",
    "Control methods: lower resistance, grading conductors, insulating or isolating metallic paths, bonding intentionally, limiting fault current and clearing faults fast. Every design is verified by a competent engineer."],
-  "Example (illustrative, not for design): 5,000 A flowing into an earth system of 0.5 ohm gives a rise of 2,500 V relative to remote earth. At the edge of the site, the voltage falls with distance; the gradient across your stride is the step voltage.",
+  "Example values (illustration only, not for design): 5,000 A flowing into an earth system of 0.5 ohm gives a rise of 2,500 V relative to remote earth. At the edge of the site, the voltage falls with distance; the gradient across your stride is the step voltage.",
   "Calculate the rise for three given fault currents and resistances; list two metal paths in a sample site plan that could transfer potential.",
   "Three calculations correct with units; two transfer paths named; a short note says a qualified engineer designs and approves the controls."),
  ("Reading test results and inspection records", "Evaluate", 4,
@@ -48,12 +48,12 @@ M = [
   ["A complete record has: date, instrument and calibration date, method, weather and soil condition, positions, values and the person's name.",
    "Compare to the design target and to the last result. A sudden rise suggests a broken connection or corrosion.",
    "Visual inspection: corrosion at joints, loose clamps, cut conductors, missing labels.",
-   "Escalate: any result outside the limit goes to the responsible engineer the same day."],
-  "Last year 2.1 ohm; this year 6.8 ohm on the same electrode. Likely causes: dry season, loose joint, corrosion. Action: retest, inspect joints, tell the engineer.",
+   "Escalate: any result outside the design limit goes to the responsible engineer promptly, as your procedure requires."],
+  "Example values: last year 2.1 ohm; this year 6.8 ohm on the same electrode. Likely causes: dry season, loose joint, corrosion. Action: retest, inspect joints, tell the engineer.",
   "Review three sample records; mark each complete or incomplete, plausible or suspicious, and write the next action.",
   "Three records judged with reasons; escalation named for any suspicious result."),
  ("Safe work, communication and next steps", "Create", 3,
-  "Earthing work is done only by competent, authorised people. Your job in this course is awareness, clear records and clear communication.",
+  "Earthing work is designed, tested and verified only by qualified, authorised people. Your job in this course is awareness, clear records and clear communication.",
   ["Safe isolation and permits come first; never test or open live earth connections without authority.",
    "Storms and faults: stay away from earth electrodes and fences during faults or lightning.",
    "Explain to a non-expert in 60 seconds why earthing and bonding matter at home and at work.",
@@ -69,7 +69,7 @@ M[5:5] = [
    "Step voltage is the difference between the ground voltage at two foot positions; it falls the further you are from the electrode.",
    "People at greatest risk are those close to fences, poles, pump houses and substations during a fault, especially when wet.",
    "Controls include grading conductors, insulating surfaces, keeping people away and clearing faults fast. A qualified engineer chooses and approves them."],
-  "Illustration, not for design: a fence post rises to 300 V relative to remote earth in a fault, and the ground one metre away is at 120 V. A person touching the post there sees a touch voltage of 300 - 120 = 180 V.",
+  "Example values (illustration only, not for design): a fence post rises to 300 V relative to remote earth in a fault, and the ground one metre away is at 120 V. A person touching the post there sees a touch voltage of 300 - 120 = 180 V.",
   "Given three pairs of readings (part voltage and ground voltage), work out the touch voltage for each, rank the three by risk and write one control for the worst case.",
   "Three subtractions correct with units; the ranking follows the numbers; the control is named and the note says a qualified engineer approves it."),
  ("Bonding and special locations", "Apply", 3,
@@ -86,13 +86,13 @@ RUBRIC = [('Diagram and terms', 'Loop incomplete or terms wrong', 'Complete faul
 
 QUIZ = [("Name the three jobs of an earthing system.", "Protect people, protect equipment, keep the supply stable (and let protection operate)."),
  ("What is touch voltage?", "The voltage between a touched metal part and the ground under the person's feet."),
- ("Why measure soil resistivity in the driest season?", "Resistance is highest then, so the result is the worst case."),
+ ("Why measure soil resistivity in the driest season?", "Resistance is usually highest then, so the result is closer to the worst case."),
  ("What is the main earthing terminal for?", "The single point where earthing and bonding conductors meet."),
  ("Define ground potential rise.", "The voltage rise of an earth system compared with remote earth during a fault current."),
- ("Calculate GPR for 2,000 A and 0.4 ohm.", "About 800 V (2,000 x 0.4)."),
+ ("Calculate GPR for 2,000 A and 0.4 ohm.", "About 800 V (2,000 x 0.4); example values only, a qualified engineer designs and verifies the real system."),
  ("What is transferred potential and one example?", "A metal path carrying the rise elsewhere; example a metal fence or cable sheath."),
  ("Name three items a test record must show.", "Date, instrument and calibration, method, values, person (any three)."),
- ("A result rose from 2 to 7 ohm. What do you do?", "Retest, inspect joints, and report to the responsible engineer the same day."),
+ ("A result rose from 2 to 7 ohm. What do you do?", "Retest, inspect joints, and report to the responsible engineer promptly (example: the same day)."),
  ("Who designs and approves earthing controls?", "A qualified, authorised engineer; this course gives awareness only.")]
 def build():
     mods = ''
@@ -103,7 +103,7 @@ def build():
     total = sum(m[2] for m in M)
     outs = [('Explain', 'why earthing and bonding protect people and equipment.'), ('Identify', 'the parts of an earthing system on a drawing.'), ('Calculate', 'a simple ground potential rise from fault current and resistance.'), ('Evaluate', 'a test record for completeness and plausibility.'), ('Communicate', 'the risk and the next action to a non-expert.')]
     about = B.sec('', 'ab', 'about this course', 'What you will be able to do',
-        f'<div class="cb-facts"><span class="pill lv">L4 Practitioner</span><span class="pill">{total} h lessons plus practice</span><span class="pill pr">USD 39 per learner per month, or USD 79 with mentor review</span></div><ul class="blm">' + ''.join(f'<li><span class="bz">{b}</span> {e(t)}</li>' for b, t in outs) + '</ul>'
+        f'<div class="cb-facts"><span class="pill lv">L4 Practitioner</span><span class="pill">{total} h lessons plus practice</span><span class="pill">Mentor review available</span></div><ul class="blm">' + ''.join(f'<li><span class="bz">{b}</span> {e(t)}</li>' for b, t in outs) + '</ul>'
         '<h3 class="ws-h3">Task, condition and standard</h3><div class="tcs"><div><h4>Task</h4><p>Mark up a drawing, calculate a simple rise, judge three test records and explain the risk in 60 seconds.</p></div><div><h4>Condition</h4><p>Sample drawings and records supplied; calculator; mentor review; no live equipment. About 3 weeks part-time.</p></div><div><h4>Standard</h4><p>All calculations correct with units; every record judged with a reason; the explanation is understood by a non-expert peer.</p></div></div>'
         '<p class="ws-note">Safety: this course gives awareness and method. It does not qualify you to design, test or approve an earthing system. Work on live or fault-carrying equipment is done only by authorised, competent people under your local rules.</p>')
     body = (about + B.sec('alt', 'md', 'lesson by lesson', f'{len(M)} modules with worked examples', mods)
