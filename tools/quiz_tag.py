@@ -9,4 +9,4 @@ def tag(cid, i, answer, titles, standards):
     if not p.exists() or 'Covered in module' in answer:
         return answer
     n = json.loads(p.read_text())[i]
-    return f'{answer} (Covered in module {n}: {titles[n-1]}. To pass that module: {standards[n-1]})'
+    return f'{answer} (Covered in module {n}: {titles[n-1]}{'' if titles[n-1][-1:] in '?!' else '.'} To pass that module: {standards[n-1]})'
