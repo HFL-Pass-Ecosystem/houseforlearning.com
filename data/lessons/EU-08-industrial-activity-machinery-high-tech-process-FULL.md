@@ -59,7 +59,7 @@ Evidence: slides or notes, two peer reviews, one outside note.
 ## Lesson 9 - Regeneration (STUDY, 5 h): Check and next step
 1. Take the 10-question check. Pass mark is 70% (draft).
 2. Write a 90-day plan and pick a follow-on course.
-3. Contribute back: share a template or worked example. Accepted items earn credits (rates are placeholders).
+3. Contribute back: share a template or worked example. Accepted items earn credits (rates will be confirmed before opening).
 Evidence: check result and the 90-day plan.
 
 ## Worked examples

@@ -92,6 +92,12 @@ def pl(u, c=2):
 
 def slug(n): return 'learn-brazil-' + re.sub(r'[^a-z0-9]+', '-', n.lower()).strip('-') + '.html'
 def money(x): return f'R$ {x:,.0f}'.replace(',', '.')
+def qn(x): return f'{x:,}'.replace(',', '.')
+def bex(fx, cm, be):
+    # exact quotient (comma decimal) when not whole, then the rounded-up figure
+    if fx % cm == 0: return f'{qn(be)} '
+    q = fx / cm; t = f'{q:.3f}' if round(q, 3) == q else f'{q:.2f}'
+    return f'{t.replace(".", ",")}, so {qn(be)} '
 
 def mods(n):
     th, cu, un, rk, kit, pr, vc, fx, vol = D[n]
@@ -104,7 +110,7 @@ def mods(n):
        "Interview at least eight real customers with open questions. Record exact words, not your summary.",
        f"Count the market in units: how many {pl(un)} could one area buy in a month? Use two public sources and your own count, then take the lower figure.",
        "Choose one first segment and say why the others wait."],
-      f"Weak: 'Everyone needs {th}.' Strong: 'Our first customer is {cu} within 8 km of the centre, who today pays {money(pr*1.1)} per {un} and complains about delay. We target {max(1, round(vol * 0.6))} {pl(un, max(1, round(vol * 0.6)))} a month by month three.'",
+      f"Weak: 'Everyone needs {th}.' Strong: 'Our first customer is {cu} within 8 km of the centre, who today pays {money(pr*1.1)} per {un} and complains about delay. We target {qn(max(1, round(vol * 0.6)))} {pl(un, max(1, round(vol * 0.6)))} a month by month three.'",
       "Write the one-sentence customer, a five-row rival table and eight interview records. Share them with a peer for a challenge round.",
       "Customer is specific; rival table has prices; every claim traces to an interview or a source."))
     m.append(("Rules, registration and data duties in Brazil", "Understand", 4,
@@ -134,7 +140,7 @@ def mods(n):
        "Write a one-page standard procedure per stage: who, what, tool, time, record.",
        "Choose three measures: speed, quality (errors per 100) and customer rating. Review them every week.",
        "Fix the cause of a defect, not the symptom. Ask 'why' five times and record the answer."],
-      f"Stage record: 'Prepare. Owner: lead. Time: 30 min. Tool: checklist. Record: signed sheet. Defect found on 1 of {max(2, vol // 4)} {pl(un, max(2, vol // 4))} last week; cause: missing check on {kit}; fix: add check at start, review next Friday.'",
+      f"Stage record: 'Prepare. Owner: lead. Time: 30 min. Tool: checklist. Record: signed sheet. Defect found on 1 of {qn(max(2, vol // 4))} {pl(un, max(2, vol // 4))} last week; cause: missing check on {kit}; fix: add check at start, review next Friday.'",
       "Draw the process map and write procedures for the two riskiest stages. Run each once and time it.",
       "Procedures are followable by a stranger; measures have weekly numbers; one defect is traced to a root cause."))
     m.append(("Safety, quality and risk", "Evaluate", 4,
@@ -164,7 +170,7 @@ def mods(n):
        "Make a 12-month cash plan. Cash timing matters as much as profit: customers may pay late, suppliers may want money first.",
        "Keep money for business and money for the owner apart.",
        "Test the plan: what if sales fall by a quarter, or cost rises by a tenth?"],
-      f"Worked example, all figures in reais: price {money(pr)}, variable cost {money(vc)}, contribution {money(cm)} per {un}. Fixed cost {money(fx)} a month. Break-even = {money(fx)} / {money(cm)} = {be} {pl(un, be)} a month. At {vol} {pl(un, vol)} a month, profit = {money(cm)} x {vol} - {money(fx)} = {money(prof)}. These are teaching figures that belong to this example only; later examples and the case study use their own figures. Use your own.",
+      f"Worked example, all figures in reais: price {money(pr)}, variable cost {money(vc)}, contribution {money(cm)} per {un}. Fixed cost {money(fx)} a month. Break-even = {money(fx)} / {money(cm)} = {bex(fx, cm, be)}{pl(un, be)} a month. At {qn(vol)} {pl(un, vol)} a month, profit = {money(cm)} x {qn(vol)} - {money(fx)} = {money(prof)}. These are teaching figures that belong to this example only; later examples and the case study use their own figures. Use your own.",
       "Build your own table: price, variable cost, contribution, fixed cost, break-even and a downside case at 75% of sales. Show it to a peer or mentor.",
       "Arithmetic is correct; every figure has a source or is marked as an assumption; a downside case is shown."))
     m.append(("Grow, measure and renew", "Evaluate", 4,
@@ -191,11 +197,11 @@ def scen(n):
      f"Scenario: ten customers are interviewed for {n.lower()}. Seven say price, two say speed, one says trust. Question: which first message do you write, and which interview record backs it? Model answer: lead with the {un} price and speed promise, keep trust proof as the second line, and cite the seven price answers by date.",
      f"Scenario: a neighbour says registration can wait until the first {money(pr * 5)} of sales. Question: what do you do? Model answer: do not delay; write the compliance table first, confirm the register, tax and sector licence with the official office, and start only where the table shows no open blocker.",
      f"Scenario: a customer asks for a discount from {money(pr)} to {money(low)} per {un}. Question: decide with numbers. Model answer: contribution falls from {money(cm)} to {money(low - vc)} per {un}; offer an extra of value (for example faster service) before cutting price, and accept only if the lower contribution still clears break-even.",
-     f"Scenario: of {vol} {pl(un, vol)} last month, {d} had a defect traced to {kit}. Question: what is the defect rate and what is your first action? Model answer: about {int(100 * d / vol + 0.5)} defects per 100; stop the cause (add a check at the start), correct affected customers, log the cause, and re-measure next week.",
+     f"Scenario: of {qn(vol)} {pl(un, vol)} last month, {d} had a defect traced to {kit}. Question: what is the defect rate and what is your first action? Model answer: about {int(100 * d / vol + 0.5)} defects per 100; stop the cause (add a check at the start), correct affected customers, log the cause, and re-measure next week.",
      f"Scenario: a near-miss occurs: {rk} nearly happened but no one was hurt. Question: what do you do in the next 24 hours? Model answer: make safe, record the event, ask the five whys, add or tighten one control, brief the team, and set a review date; near-misses count as lessons, not blame.",
      f"Scenario: a new hire completes training but a customer complaint shows a skipped step. Question: whose gap is it? Model answer: first the system: check the role card, the training sign-off and the checklist; then coach the person and fix the document so the step cannot be skipped.",
-     f"Scenario: sales fall to {v2} {pl(un, v2)} a month. Question: what is the monthly result? Model answer: {money(cm)} x {v2} - {money(fx)} = {money(p2)}; compare with break-even of {be} {pl(un, be)} and decide whether to cut fixed cost or raise volume first. Teaching figures only.",
-     f"Scenario: you can add {c20} {pl(un, c20)} a month by one of two levers: a follow-up call to past customers or a price rise of {money(p10 - pr)} to {money(p10)}. Question: how do you choose? Model answer: test the cheaper reversible lever first (the call), measure for 30 days, and only then try the price change, so you can tell which one worked."]
+     f"Scenario: sales fall to {qn(v2)} {pl(un, v2)} a month. Question: what is the monthly result? Model answer: {money(cm)} x {qn(v2)} - {money(fx)} = {money(p2)}; compare with break-even of {qn(be)} {pl(un, be)} and decide whether to cut fixed cost or raise volume first. Teaching figures only.",
+     f"Scenario: you can add {qn(c20)} {pl(un, c20)} a month by one of two levers: a follow-up call to past customers or a price rise of {money(p10 - pr)} to {money(p10)}. Question: how do you choose? Model answer: test the cheaper reversible lever first (the call), measure for 30 days, and only then try the price change, so you can tell which one worked."]
 
 def quiz(n):
     th, cu, un, rk, kit, pr, vc, fx, vol = D[n]

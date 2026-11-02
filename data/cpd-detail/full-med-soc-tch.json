@@ -6,7 +6,7 @@
   "modules": [
    {
     "t": "Why handovers fail, with two invented near-miss stories",
-    "min": 30,
+    "min": 25,
     "pts": [
      "A missed task usually comes from one gap: no named owner.",
      "Near-miss stories show the cause without blaming a person.",
@@ -17,18 +17,18 @@
    },
    {
     "t": "The SBAR order, speaking it in 60 seconds",
-    "min": 40,
+    "min": 35,
     "pts": [
      "Situation, Background, Assessment, Recommendation: four parts, in that order.",
      "Give the main concern first, then only the background that is needed.",
      "About 90 words fits in 40 to 60 seconds."
     ],
-    "ex": "Situation: \"Mr A, bed 4, is due his 6 pm dressing change and says the pain is worse than this morning.\" Request: \"Please check his pain score at 6.\" Timed: 4 parts at about 15 seconds each = 60 seconds.",
+    "ex": "Situation: \"Patient A, bed 4, is due his 6 pm dressing change and says the pain is worse than this morning.\" Request: \"Please check his pain score at 6.\" Timed: 4 parts at about 15 seconds each = 60 seconds.",
     "std": "Summarize a patient's status aloud from a case card in Situation, Background, Assessment, Recommendation order, in about 60 seconds with no missing items."
    },
    {
     "t": "Repeat-back and clarifying questions",
-    "min": 30,
+    "min": 25,
     "pts": [
      "Ask the listener to say the plan back in their own words.",
      "One clarifying question is better than a guess.",
@@ -50,13 +50,13 @@
    },
    {
     "t": "Practice role-plays with feedback",
-    "min": 35,
+    "min": 30,
     "pts": [
      "Work from a case card with a clock running.",
      "Cover patient, concern, open tasks and request.",
      "Partner gives feedback against the checklist."
     ],
-    "ex": "Case card: Bed 7, Mrs B, quiet voice, family at 5 pm, fluids chart open. Target: under 120 seconds. A learner takes 105 seconds and covers 7 of 7 checklist items.",
+    "ex": "Case card: Bed 7, Patient B, quiet voice, family at 5 pm, fluids chart open. Target: under 120 seconds. A learner takes 105 seconds and covers 7 of 7 checklist items.",
     "std": "Demonstrate a handover under two minutes in a live role-play, using the agreed order and confirming who holds each open task."
    },
    {
@@ -72,24 +72,24 @@
    },
    {
     "t": "Second worked case",
-    "min": 15,
+    "min": 10,
     "pts": [
      "Use the second case card to practise the full order.",
      "Compare it with the first case.",
      "Check the time against the 2-minute limit."
     ],
-    "ex": "Case card 2: Bed 3, Ms L, scan at 2 pm, needs a porter, hearing aid, daughter phoned twice. A 105-second handover leaves 15 seconds under the 120-second limit.",
+    "ex": "Case card 2: Bed 3, Patient L, scan at 2 pm, needs a porter, hearing aid, daughter phoned twice. A 105-second handover leaves 15 seconds under the 120-second limit.",
     "std": "Apply the handover order to the second case card in under 2 minutes, naming the porter task and who holds it."
    },
    {
     "t": "Teach-back and peer check",
     "min": 10,
     "pts": [
-     "Work in pairs and swap roles.",
+     "Work in groups of three and swap roles.",
      "The listener repeats three key items.",
      "The observer scores with the checklist."
     ],
-    "ex": "Pairs of 3: speaker 2 minutes, listener repeat-back 30 seconds, observer scoring 30 seconds. Target: listener repeats 3 of 3 items correctly.",
+    "ex": "Groups of 3: speaker 2 minutes, listener repeat-back 30 seconds, observer scoring 30 seconds. Target: listener repeats 3 of 3 items correctly.",
     "std": "Evaluate a peer's handover against the checklist, giving one strength and one improvement, and confirm the listener repeated all three key items."
    }
   ],
@@ -154,18 +154,18 @@
    },
    {
     "t": "Facts, time, signature",
-    "min": 25,
+    "min": 20,
     "pts": [
      "Write the date and time of each entry.",
      "State facts you saw or were told, with numbers.",
      "Sign with initials and role."
     ],
-    "ex": "\"14 Mar, 10:20. Mr A reported pain in the right knee, 7 out of 10. Dressing dry and intact. Told nurse in charge at 10:25. Signed: initials, role.\" That ticks 6 of 6 checklist items.",
+    "ex": "\"14 Mar, 10:20. Patient A reported pain in the right knee, 7 out of 10. Dressing dry and intact. Told nurse in charge at 10:25. Signed: initials, role.\" That ticks 6 of 6 checklist items.",
     "std": "Record an event from a short scenario with date, time, facts only and signature, meeting every item on the checklist."
    },
    {
     "t": "Correcting errors and late entries",
-    "min": 20,
+    "min": 15,
     "pts": [
      "Draw one line through the error so it can be read.",
      "Write error, then initials and date.",
@@ -209,7 +209,7 @@
    },
    {
     "t": "Second worked case: the refused meal",
-    "min": 10,
+    "min": 5,
     "pts": [
      "Write the second case card as a note.",
      "Quote the person's words.",
@@ -220,7 +220,7 @@
    },
    {
     "t": "Peer review and portfolio",
-    "min": 10,
+    "min": 5,
     "pts": [
      "Swap notes with a partner.",
      "Score each other's note.",
@@ -286,7 +286,7 @@
      "Use the patient's name respectfully.",
      "Respect shows in tone as well as words."
     ],
-    "ex": "\"Good morning, Mrs C. My name is ___ and I am your nurse today. I will check your blood pressure now. Is that all right?\" That covers 4 of 4 parts: greeting, name, role, permission.",
+    "ex": "\"Good morning, [name]. My name is ___ and I am your nurse today. I will check your blood pressure now. Is that all right?\" That covers 4 of 4 parts: greeting, name, role, permission.",
     "std": "Introduce yourself and your role in a role-play with the agreed greeting, using the patient's name correctly and respectfully."
    },
    {
@@ -297,18 +297,18 @@
      "One idea per sentence.",
      "Avoid medical shorthand."
     ],
-    "ex": "\"You are nil by mouth\" becomes \"Please do not eat or drink anything until the doctor says.\" 16 words become 2 clear actions.",
+    "ex": "\"You are nil by mouth\" becomes \"Please do not eat or drink anything until the doctor says.\" A 5-word shorthand phrase becomes one plain sentence of 11 words with 2 clear actions: do not eat, do not drink.",
     "std": "Explain a care step from a care card in plain words so the listener can repeat it back correctly."
    },
    {
     "t": "Worry and feelings: Listen, Acknowledge, Explain, Check",
-    "min": 45,
+    "min": 40,
     "pts": [
      "Listen, Acknowledge, Explain, Check.",
      "Do not promise what you cannot keep.",
      "Stay calm and use their words."
     ],
-    "ex": "\"I can see this is worrying for you. The doctor is coming within the hour. Would you like me to write that down? What questions do you have?\" All 4 steps in under 30 seconds.",
+    "ex": "\"I can see this is worrying for you. I have asked the doctor to come, and I will tell you when they arrive. Would you like me to write that down? What questions do you have?\" All 4 steps in under 30 seconds.",
     "std": "Respond to a worried family member with Listen, Acknowledge, Explain and Check, using calm, respectful words and making no promises you cannot keep."
    },
    {
@@ -330,12 +330,12 @@
      "Say it in writing and by voice.",
      "Follow the local route."
     ],
-    "ex": "\"To: nurse in charge. Mr D, bed 2, started feeling dizzy at 3:10 pm. He is sitting. Please come now.\" Who, what and when are all present in 20 words.",
+    "ex": "\"To: nurse in charge. Patient D, bed 2, started feeling dizzy at 3:10 pm. He is sitting. Please come now.\" Who, what and when are all present in 20 words.",
     "std": "Escalate a concern with a short message stating who, what and when, in writing and by voice, following the local route."
    },
    {
     "t": "Role-play practice",
-    "min": 50,
+    "min": 45,
     "pts": [
      "Practise the four steps live.",
      "Use teach-back at least twice.",
@@ -357,7 +357,7 @@
    },
    {
     "t": "Second worked case: the closed question",
-    "min": 15,
+    "min": 10,
     "pts": [
      "Compare closed and open questions.",
      "Open questions tell you more.",
@@ -423,7 +423,7 @@
      "A visit has limits: it is not a full assessment.",
      "If the person refuses help, record it and tell the manager."
     ],
-    "ex": "Mr F refuses help twice. You record: \"Mr F said, 'I don't need anyone.' Offered help at 10:05 and 10:20. Told the manager at 10:40.\" Refusal and reasons recorded.",
+    "ex": "Person F refuses help twice. You record: \"Person F said, 'I don't need anyone.' Offered help at 10:05 and 10:20. Told the manager at 10:40.\" Refusal and reasons recorded.",
     "std": "Explain what a home visit is for and where its limits lie, and state what to do when the person refuses help."
    },
    {
@@ -434,18 +434,18 @@
      "Note the source: seen, told or read.",
      "Look for protective factors too."
     ],
-    "ex": "Mrs E's visit: cooker left on (seen), no food in fridge (seen), uses a stick (seen), floor clear (seen), smoke alarm present (seen), neighbour calls daily (told). 6 factors listed, 6 sources.",
+    "ex": "Person E's visit: cooker left on (seen), no food in fridge (seen), uses a stick (seen), floor clear (seen), smoke alarm present (seen), neighbour calls daily (told). 6 factors listed, 6 sources.",
     "std": "Identify risk signs in a case summary, such as unsafe cooking, trip hazards or neglect, and list at least six factors with the source of each."
    },
    {
     "t": "Rating on the 3-level scale",
     "min": 30,
     "pts": [
-     "Low means routine; Medium means action within the week; High means same-day action and the manager.",
+     "On this course's scale: Low means routine; Medium means action within the week; High means same-day action and the manager. Use your workplace's scale if it differs.",
      "Rate the highest risk, not the average.",
      "State the action for the rating."
     ],
-    "ex": "Mrs E: cooker left on = Medium. Action: agree a cooker timer, add a food check next visit, within 7 days. Mr F: unopened post for 2 days = High, same-day manager call.",
+    "ex": "Person E: cooker left on = Medium. Action: agree a cooker timer, add a food check next visit, within 7 days. Person F: unopened post for 2 days = High, same-day manager call.",
     "std": "Rate a visit as Low, Medium or High using the three-level scale, and state the action each rating needs, including same-day manager contact for High."
    },
    {
@@ -456,7 +456,7 @@
      "Listen before you advise.",
      "Use their name and a calm tone."
     ],
-    "ex": "Opening: \"Mrs M, how are things at home for you at the moment?\" Then 30 seconds of listening before any advice. She says the heating costs too much, so that becomes a noted concern.",
+    "ex": "Opening: \"[Name], how are things at home for you at the moment?\" Then 30 seconds of listening before any advice. She says the heating costs too much, so that becomes a noted concern.",
     "std": "Talk with the person respectfully in a role-play, starting from their own view of their situation and listening before you advise."
    },
    {
@@ -474,12 +474,12 @@
     "t": "Practice with case cards",
     "min": 35,
     "pts": [
-     "Use Mr F and Mrs M case cards.",
+     "Use Person F and Person M case cards.",
      "List signs, rate and name the first action.",
      "Check against the scale."
     ],
-    "ex": "Mr F, 82, post unopened, not seen for 2 days: signs = 2 (post, neighbour report), rating High, first action: call the manager and request a same-day welfare check.",
-    "std": "Apply the scale to a case card such as Mr F or Mrs M by listing signs, giving a rating and naming the first action."
+    "ex": "Person F, 82, post unopened, not seen for 2 days: signs = 2 (post, neighbour report), rating High, first action: call the manager and request a same-day welfare check.",
+    "std": "Apply the scale to a case card such as Person F or Person M by listing signs, giving a rating and naming the first action."
    },
    {
     "t": "Assessment",
@@ -489,19 +489,19 @@
      "Report a concern in the agreed time.",
      "Reflect on one improvement."
     ],
-    "ex": "New case: 3 signs, rating Medium, note written by 16:00, supervisor told within 1 hour of leaving. You meet both time limits and name one improvement.",
+    "ex": "New case: 3 signs, rating Medium, note written by 16:00, supervisor told within the agreed time (for example 1 hour) of leaving. You meet both time limits set by your workplace and name one improvement.",
     "std": "Show you can plan, rate and record a visit from a new case summary and report a concern to a supervisor in the agreed time."
    },
    {
     "t": "Second worked case and lone working",
     "min": 30,
     "pts": [
-     "Use the Mrs M case.",
+     "Use the Person M case.",
      "Plan arrival, exit and check-in steps.",
      "Leave and report if you feel unsafe."
     ],
-    "ex": "Mrs M, 76: damp smell, heating off, says \"I'm fine.\" 3 signs, rating Medium. Plan: check-in call before entry at 10:00 and after exit at 10:45.",
-    "std": "Plan a lone visit with arrival, exit and check-in steps, then rate the Mrs M case and name the first action."
+    "ex": "Person M, 76: damp smell, heating off, says \"I'm fine.\" 3 signs, rating Medium. Plan: check-in call before entry at 10:00 and after exit at 10:45.",
+    "std": "Plan a lone visit with arrival, exit and check-in steps, then rate the Person M case and name the first action."
    }
   ],
   "extra_check": {
@@ -560,7 +560,7 @@
      "Decide using what you saw or heard.",
      "Give a reason for the decision."
     ],
-    "ex": "Ms G says \"He takes my money\" and shows a 3 cm bruise on her left forearm. Concern? Yes: a disclosure plus a mark. Reason recorded in one sentence.",
+    "ex": "Person G says \"He takes my money\" and shows a 3 cm bruise on her left forearm. Concern? Yes: a disclosure plus a mark. Reason recorded in one sentence.",
     "std": "Decide whether a situation counts as a concern, using a short scenario, and give the reason for your decision."
    },
    {
@@ -571,7 +571,7 @@
      "Add date, time, witness and what you saw.",
      "Leave out opinion."
     ],
-    "ex": "\"On 3 Nov at 11:00 Ms G said, 'He takes my money.' She pointed to a bruise on her left forearm, about 3 cm.\" Not acceptable: \"I think her son is abusing her.\"",
+    "ex": "\"On 3 Nov at 11:00 Person G said, 'He takes my money.' She pointed to a bruise on her left forearm, about 3 cm.\" Not acceptable: \"I think her son is abusing her.\"",
     "std": "Write a concern report with the exact words in quotes, date, time and witness, using facts only and no opinion."
    },
    {
@@ -582,7 +582,7 @@
      "Tell the lead first, within the stated time.",
      "Use the alternative route if the lead is the concern."
     ],
-    "ex": "You hear at 11:00 and tell the safeguarding lead at 11:20: 20 minutes, inside a 60-minute limit. If the lead is the concern, the policy's alternative route applies.",
+    "ex": "You hear at 11:00 and tell the safeguarding lead at 11:20: 20 minutes, inside the time limit in your policy (for example 60 minutes). If the lead is the concern, the policy's alternative route applies.",
     "std": "Select the correct reporting route from your organisation's policy and tell the right person within the required time, including the alternative route."
    },
    {
@@ -604,7 +604,7 @@
      "Write the report and choose who to tell.",
      "Score with the fact-not-opinion test."
     ],
-    "ex": "Unexplained burn on a hand, 2 cm, seen at 14:05; person said \"I don't know.\" You report at 14:15, within a 30-minute limit. Facts: 4, opinions: 0.",
+    "ex": "Unexplained burn on a hand, 2 cm, seen at 14:05; person said \"I don't know.\" You report at 14:15, within the time limit in your policy. Facts: 4, opinions: 0.",
     "std": "Write and score a report for a case card, such as an unexplained burn or a bruise, and choose who to tell from the route card."
    },
    {
@@ -626,7 +626,7 @@
      "Write the words exactly.",
      "Name the route and the time limit."
     ],
-    "ex": "A child at a day centre says a bruise came \"from Dad's belt.\" Quote the words in 7 words, record date, time and witness, and tell the lead within the time limit.",
+    "ex": "A child at a day centre says a bruise came \"from Dad's belt.\" Quote the 3 words exactly, record date, time and witness, and tell the lead within the time limit.",
     "std": "Write a report for the child case with the words quoted exactly, no questions asked, and name the route and who to tell."
    },
    {
@@ -697,12 +697,12 @@
      "Strengths come before problems.",
      "The person is the expert on their own life."
     ],
-    "ex": "Mr H's goal in his own words: \"I want to cook my own dinner again.\" The review starts from that goal, not from the list of falls.",
+    "ex": "Person H's goal in his own words: \"I want to cook my own dinner again.\" The review starts from that goal, not from the list of falls.",
     "std": "Explain what person-centred means and show how the person's own goals, strengths and wishes lead a review."
    },
    {
     "t": "Preparing and inviting",
-    "min": 30,
+    "min": 25,
     "pts": [
      "List goals, strengths and questions before the meeting.",
      "Send a clear agenda and a welcoming time and room.",
@@ -719,7 +719,7 @@
      "Aim for at least half the talking time.",
      "Invite them back if someone talks over them."
     ],
-    "ex": "In a 40-minute review the person speaks for at least 20 minutes. Family member interrupts at minute 12: \"Let's hear what Mr H thinks.\"",
+    "ex": "In a 40-minute review the person speaks for at least 20 of the 40 minutes. Family member interrupts at minute 12: \"Let's hear what Person H thinks.\"",
     "std": "Facilitate a short review in a role-play so the person speaks first, last and for at least half the time, redirecting anyone who talks over them."
    },
    {
@@ -730,7 +730,7 @@
      "Every action has a date.",
      "Set the next review date before you close."
     ],
-    "ex": "Action 1: \"Book a falls check\" - owner: nurse, date: 12 Dec. Action 2: \"Try a short cooking session\" - owner: Mr H and support worker, date: 15 Dec. Next review: 15 Mar.",
+    "ex": "Action 1: \"Book a falls check\" - owner: nurse, date: 12 Dec. Action 2: \"Try a short cooking session\" - owner: Person H and support worker, date: 15 Dec. Next review: 15 Mar.",
     "std": "Write an action plan from meeting notes in which every action has a named owner and a date, and set the next review date."
    },
    {
@@ -741,19 +741,19 @@
      "Fill in the review form and care plan.",
      "Share a copy with the person."
     ],
-    "ex": "Outcome in the person's words: \"I will cook on Tuesdays with Sam.\" Recorded on the form and care plan, copy given to Mr H the same day.",
+    "ex": "Outcome in the person's words: \"I will cook on Tuesdays with my support worker.\" Recorded on the form and care plan, copy given to Person H the same day.",
     "std": "Record the outcome in plain language in the person's own words on the review form and care plan, and share it with the person."
    },
    {
     "t": "Practice",
-    "min": 25,
+    "min": 20,
     "pts": [
-     "Use Mr H and Ms N case cards.",
+     "Use Person H and Person N case cards.",
      "Plan the agenda and write three actions.",
      "Check each action for owner and date."
     ],
-    "ex": "Ms N wants a weekly choir; transport is the barrier. 3 actions, 3 owners, 3 dates; 3 of 3 pass the owner-and-date test.",
-    "std": "Plan and run a review for a case card, such as Mr H or Ms N, and write three actions with owners and dates."
+    "ex": "Person N wants a weekly choir; transport is the barrier. 3 actions, 3 owners, 3 dates; 3 of 3 pass the owner-and-date test.",
+    "std": "Plan and run a review for a case card, such as Person H or Person N, and write three actions with owners and dates."
    },
    {
     "t": "Assessment",
@@ -768,14 +768,14 @@
    },
    {
     "t": "Second worked case and reflection",
-    "min": 15,
+    "min": 10,
     "pts": [
      "Compare two cases.",
      "Note differences in barriers.",
      "Plan one personal improvement."
     ],
-    "ex": "Mr H needs a falls check (health barrier); Ms N needs transport (travel barrier). 2 cases, 6 actions in total, 6 of 6 with owner and date.",
-    "std": "Compare the Mr H and Ms N reviews, identify the barrier in each, and justify one improvement to your own facilitation."
+    "ex": "Person H needs a falls check (health barrier); Person N needs transport (travel barrier). 2 cases, 6 actions in total, 6 of 6 with owner and date.",
+    "std": "Compare the Person H and Person N reviews, identify the barrier in each, and justify one improvement to your own facilitation."
    }
   ],
   "extra_check": {
@@ -828,7 +828,7 @@
   "modules": [
    {
     "t": "Outcomes and Bloom verbs",
-    "min": 35,
+    "min": 30,
     "pts": [
      "Start each outcome with an action verb you can observe.",
      "Replace know and understand with identify, list or calculate.",
@@ -839,7 +839,7 @@
    },
    {
     "t": "Alignment: outcome, activity, check",
-    "min": 40,
+    "min": 35,
     "pts": [
      "Each activity leads to one outcome.",
      "Each check matches an outcome.",
@@ -872,7 +872,7 @@
    },
    {
     "t": "Practice: draft your lesson",
-    "min": 40,
+    "min": 30,
     "pts": [
      "Draft a lesson with two to four outcomes.",
      "Add one activity and one check for each.",
@@ -900,7 +900,7 @@
      "Write three outcomes and one check each.",
      "Check the verbs."
     ],
-    "ex": "States of matter: Outcome 1 \"Describe three properties of a solid in 3 sentences.\" Check: 3-item quiz, pass at 2 of 3. Three outcomes give 9 items in total.",
+    "ex": "States of matter: Outcome 1 \"Describe three properties of a solid in 3 sentences.\" Check item: write the 3 sentences; pass if all 3 are correct. Three outcomes with one check item each give 3 items in total.",
     "std": "Write three outcomes with Bloom verbs for states of matter and one check item for each, then confirm each is measurable."
    },
    {
@@ -1102,7 +1102,7 @@
   "modules": [
    {
     "t": "Same outcome, different routes",
-    "min": 30,
+    "min": 25,
     "pts": [
      "The outcome stays the same; the route changes.",
      "Adapting does not lower the standard.",
@@ -1113,7 +1113,7 @@
    },
    {
     "t": "Scaffolds: prompts, word banks, pictures",
-    "min": 40,
+    "min": 35,
     "pts": [
      "Choose prompts, word banks or pictures from learner needs.",
      "Scaffolds are temporary.",
@@ -1146,7 +1146,7 @@
    },
    {
     "t": "Practice: adapt your worksheet",
-    "min": 40,
+    "min": 30,
     "pts": [
      "Turn a ten-item worksheet into three levels.",
      "Write a five-line note on the changes.",

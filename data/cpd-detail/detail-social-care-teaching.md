@@ -3,20 +3,20 @@
 Method and recording only; no legal or clinical advice. Invented cases. Local law and workplace policy override these examples. Expert review before publish. No fees.
 
 ## SOC-001 Assess risk in a home visit
-**Worked example:** Visit note: "Door opened after 3 minutes. Kitchen: cooker left on, no food in fridge. Mrs E uses a stick, floor clear. Smoke alarm present. Rating: Medium (cooker). Action: agree cooker timer with Mrs E, ask the team to add a food check next visit."
-**Scale (3 levels):** Low = no action beyond routine; Medium = action planned within the week; High = same-day action and tell the manager.
-**Case card:** Mr F, 82, lives alone, post unopened on the mat, a neighbour says he has not been seen for two days. Learners identify signs, rate, and name the first action.
+**Worked example:** Visit note: "Door opened after 3 minutes. Kitchen: cooker left on, no food in fridge. Person E uses a stick, floor clear. Smoke alarm present. Rating: Medium (cooker). Action: agree cooker timer with Person E, ask the team to add a food check next visit."
+**Scale (3 levels, this course's scale; use your workplace's if it differs):** Low = no action beyond routine; Medium = action planned within the week; High = same-day action and tell the manager.
+**Case card:** Person F, 82, lives alone, post unopened on the mat, a neighbour says he has not been seen for two days. Learners identify signs, rate, and name the first action.
 **Checks:** 1 Name three risk signs in a home. *e.g. unsafe cooking, trip hazards, signs of neglect or fear.* 2 What makes a rating High? *Risk of serious harm soon; needs same-day action and a manager.* 3 What goes in the note? *Facts seen, rating, action, who was told, time.* 4 If the person refuses help? *Record the refusal and their reasons, check capacity rules locally, tell the manager.*
 
 ## SOC-002 Document a safeguarding concern
-**Worked example (facts only):** "On 3 Nov at 11:00 Ms G said, in her own words, 'He takes my money.' She pointed to a bruise on her left forearm, about 3 cm. I did not question further. I told the safeguarding lead at 11:20."
+**Worked example (facts only):** "On 3 Nov at 11:00 Person G said, in her own words, 'He takes my money.' She pointed to a bruise on her left forearm, about 3 cm. I did not question further. I told the safeguarding lead at 11:20."
 **Not acceptable:** "I think her son is abusing her." *Opinion, not fact.*
 **Case card:** a carer sees an unexplained burn; learners write the report and choose who to tell using their local route card.
 **Checks:** 1 Fact or opinion: "He looked frightened" vs "He was shaking and avoided eye contact"? *The second is fact.* 2 Should you promise to keep it secret? *No; explain who must be told.* 3 Who do you tell first? *The safeguarding lead or route in your workplace policy.* 4 What do you remove when sharing? *Details not needed to act.*
 
 ## SOC-003 Plan a person-centred review
 **Worked example agenda:** welcome and who is here (5 min); what is going well, in the person's words (10); what is not working (10); goals for next 3 months (10); actions, owner, date (5).
-**Case card:** Mr H wants to cook again but fears falls; learners plan the review and write 3 actions.
+**Case card:** Person H wants to cook again but fears falls; learners plan the review and write 3 actions.
 **Checks:** 1 Who speaks first? *The person.* 2 Each action needs what? *An owner and a date.* 3 How do you handle a family member talking over the person? *Invite the person back, check their wishes.* 4 Where do you record the outcome? *The review form and care plan.*
 
 ## TCH-001 Design a lesson with measurable outcomes

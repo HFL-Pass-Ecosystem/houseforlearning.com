@@ -615,7 +615,7 @@
      "Show currency and units",
      "Record facts, match, reason"
     ],
-    "ex": "Practice client: spare money 2,400 income - 1,900 costs = 500 a month. Goal 15,000 in 60 months needs 15,000 / 60 = 250 a month, which is half of the spare money. Record the figure with its currency.",
+    "ex": "Practice client (amounts in the local currency): spare money 2,400 income - 1,900 costs = 500 a month. Goal 15,000 in 60 months needs 15,000 / 60 = 250 a month, which is half of the spare money. Record the figure with its currency.",
     "std": "Complete a practice file for an invented client, recording facts, matching a product type and writing the reason, then correct gaps after feedback."
    },
    {
@@ -697,7 +697,7 @@
      "Look at behaviour and pattern",
      "Reasonable suspicion is enough to report"
     ],
-    "ex": "Three warning signs: cash deposits just under a reporting limit, such as 9,500 against a limit of 10,000; sudden unexplained wealth; reluctance to give identity details. One sign alone may be harmless; look at the picture.",
+    "ex": "Three warning signs: cash deposits just under a reporting limit, such as 9,500 against an example limit of 10,000 (real limits differ by place; use your route card); sudden unexplained wealth; reluctance to give identity details. One sign alone may be harmless; look at the picture.",
     "std": "Recognise warning signs of suspicious activity, such as cash just under a reporting limit, unexplained wealth or reluctance to give identity details."
    },
    {
@@ -708,7 +708,7 @@
      "Give a reason each time",
      "Add up the pattern"
     ],
-    "ex": "Six samples with a limit of 10,000: T1 cash 9,500, concern. T2 monthly salary 2,100, no concern. T3 three deposits of 3,300 in one day = 9,900, concern. T4 utility bill 85, no concern. T5 customer refuses identity details, concern. T6 normal rent 900, no concern. Total 3 concerns.",
+    "ex": "Six samples with an example limit of 10,000: T1 cash 9,500, concern. T2 monthly salary 2,100, no concern. T3 three deposits of 3,300 in one day = 9,900, concern. T4 utility bill 85, no concern. T5 customer refuses identity details, concern. T6 normal rent 900, no concern. Total 3 concerns.",
     "std": "Review six sample transactions, marking each as concern or no concern and giving a reason for each decision."
    },
    {
@@ -719,7 +719,7 @@
      "Name how fast",
      "Use the route on the card"
     ],
-    "ex": "Route card: report to the reporting officer, same working day, by the internal form. You send the report by that route, not to a friend or colleague on your team.",
+    "ex": "Sample route card: report to the reporting officer within the time on the card (for example the same working day), by the internal form. You send the report by that route, not to a friend or colleague on your team.",
     "std": "Use the local route card to name who receives a report and how quickly it must be made, and send a report by that route."
    },
    {
@@ -741,7 +741,7 @@
      "Include date and time",
      "Four lines"
     ],
-    "ex": "Four-line report: Who: customer C-77. What: three cash deposits of 3,300 each, total 9,900. When: 14 May, 10:05 to 10:40. Why: just under the 10,000 limit, same day, customer asked how the limit works.",
+    "ex": "Four-line report: Who: customer C-77. What: three cash deposits of 3,300 each, total 9,900. When: 14 May, 10:05 to 10:40. Why: just under the example 10,000 limit, same day, customer asked how the limit works.",
     "std": "Practise writing a four-line report covering who, what, when and why it worries you, using facts only, with date and time."
    },
    {
@@ -752,7 +752,7 @@
      "Three points",
      "Own words"
     ],
-    "ex": "Check: route (the named officer, same day), the ban on telling the customer, content of a report (who, what, when, why). 3 of 3 correct.",
+    "ex": "Check: route (the named officer, within the card's time), the ban on telling the customer, content of a report (who, what, when, why). 3 of 3 correct.",
     "std": "Show in a short check that you know the reporting route, the ban on telling the customer and the content of a report."
    },
    {
@@ -763,7 +763,7 @@
      "Add up the deposits",
      "Write the four-line report"
     ],
-    "ex": "Case card 2: 12 deposits of 900 over 5 days, limit 1,000. Total 12 x 900 = 10,800. Then the customer asks to send 10,500 abroad. Each deposit is under the limit, but together they are a pattern. Report by the route card.",
+    "ex": "Case card 2: 12 deposits of 900 over 5 days, example limit 1,000. Total 12 x 900 = 10,800. Then the customer asks to send 10,500 abroad. Each deposit is under the limit, but together they are a pattern. Report by the route card.",
     "std": "Report the many-small-deposits case by the route card, adding up the total and writing who, what, when and why in four factual lines."
    },
    {
@@ -774,19 +774,19 @@
      "Peer checks your report",
      "Fix any opinion in the facts"
     ],
-    "ex": "Teach-back: \"I report to the named officer the same day. I never tell the customer. My report says who, what, when, why. Reasonable suspicion is enough.\" Peer marks 4 of 4.",
+    "ex": "Teach-back: \"I report to the named officer within the card's time. I never tell the customer. My report says who, what, when, why. Reasonable suspicion is enough.\" Peer marks 4 of 4.",
     "std": "Explain the reporting route, the ban on telling the customer and the report content in your own words so that a peer can confirm all are correct."
    }
   ],
   "extra_check": {
-   "q": "Three cash deposits of 3,300 are made in one day and the reporting limit is 10,000. What is the total, and is it a concern?",
+   "q": "Three cash deposits of 3,300 are made in one day and the reporting limit is an example 10,000. What is the total, and is it a concern?",
    "a": "The total is 9,900, just under the limit, so it is a concern to report by the route card.",
    "module": 2
   },
   "slides": [
    {
     "t": "L1 Basic: Why we report",
-    "note": "Money services can be misused. Learners at this level know that staff have a duty to pass on worries and that this protects customers and the firm. They can say it in one sentence."
+    "note": "Money services can be misused. Learners at this level know that staff are expected to pass on worries (check your local rule) and that this protects customers and the firm. They can say it in one sentence."
    },
    {
     "t": "L2 Awareness: Warning signs",
@@ -1130,7 +1130,7 @@
      "Cite the source of each number",
      "Mark guesses as estimates"
     ],
-    "ex": "Option A: buy 24,000 (Quote Q1); running 6,000 a year (estimate from current van); extra income 10 orders x 30 x 50 weeks = 15,000 (estimate). Net 9,000 a year. Payback 24,000 / 9,000 = 2.7 years.",
+    "ex": "Option A (amounts in the local currency): buy 24,000 (Quote Q1); running 6,000 a year (estimate from current van); extra income 10 orders x 30 x 50 weeks = 15,000 (estimate). Net 9,000 a year. Payback 24,000 / 9,000 = 2.7 years.",
     "std": "List costs and benefits for each option and cite where each number came from, marking any guess as an estimate."
    },
    {
@@ -1152,7 +1152,7 @@
      "Read the feedback list",
      "Correct the gap"
     ],
-    "ex": "Draft had two sources missing: the 6,000 running cost had none. Feedback: add \"estimate from last year's running costs\". Redraft has 6 of 6 parts and a source for every number.",
+    "ex": "Draft had one source missing: the 6,000 running cost had none. Feedback: add \"estimate from last year's running costs\". Redraft has 6 of 6 parts and a source for every number.",
     "std": "Write a practice page on a case such as a second delivery van, then use the feedback to correct any missing part."
    },
    {

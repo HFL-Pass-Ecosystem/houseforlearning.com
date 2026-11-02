@@ -61,7 +61,7 @@ Evidence: slides or notes, two peer reviews, buyer note.
 ## Lesson 9 - Regeneration (STUDY, 5 h): Check and next step
 1. Take the 10-question check. Pass mark is 70% (draft).
 2. Write your next-step plan for 90 days: what to sell, where, how much, what to learn next. Pick a follow-on course (for example Trading and Distribution or Online Sales).
-3. Contribute back: share your recipe card template, label checklist or cost sheet so the next learner starts higher. Accepted items earn credits (rates are placeholders until the owner fixes the revenue plan).
+3. Contribute back: share your recipe card template, label checklist or cost sheet so the next learner starts higher. Accepted items earn credits (rates will be confirmed before opening).
 Evidence: check result and the 90-day plan.
 
 ## Check questions (draft set, 10)

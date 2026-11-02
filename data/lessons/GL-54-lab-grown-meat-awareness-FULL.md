@@ -70,7 +70,7 @@ Evidence: slides or notes, two peer reviews, and the note.
 Goal: close the module and plan what comes next.
 1. Take the 10-question check. Pass mark is 70% (draft).
 2. Write a 90-day next-step plan: what you will do, where, with whom, and what you will learn next. Good follow-on courses: Alternative Protein Food Products, Vertical Farming, Biofuel Production Overview.
-3. Contribute back: share your source log or briefing template so the next learner starts higher. Accepted items earn credits (rates are placeholders until the owner fixes the revenue plan).
+3. Contribute back: share your source log or briefing template so the next learner starts higher. Accepted items earn credits (rates will be confirmed before opening).
 Evidence: check result and the 90-day plan.
 
 ## Worked examples

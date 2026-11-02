@@ -13,7 +13,7 @@ cat = json.load(open(Dt / 'catalogue.json'))
 tpl = (S / 'catalogue.html').read_text()
 if 'name="robots"' not in tpl:
     tpl = tpl.replace('<meta name="theme-color"', '<meta name="robots" content="noindex">\n<meta name="theme-color"', 1)
-tpl = tpl.replace('</body>', '<script src="assets/access.js" defer></script>\n</body>', 1)  # test pay-to-access (preview + unlock)
+tpl = tpl.replace('</body>', '<script src="assets/access.js" defer></script></body>', 1)  # test pay-to-access (preview + unlock)
 tpl = tpl.replace('<li><a href="catalogue.html" aria-current="page">Catalogue</a></li>', '<li><a href="courses-hub.html">Courses</a></li><li><a href="catalogue.html">Catalogue</a></li>', 1)
 tpl = tpl.replace('<link rel="stylesheet" href="assets/site.css">', '<link rel="stylesheet" href="assets/site.css">\n<link rel="stylesheet" href="assets/courses.css">', 1)
 
@@ -28,7 +28,7 @@ LOC = [
  dict(k='sg', name='Singapore', cur='SGD', lang='English, Mandarin, Malay, Tamil', reg='registration with ACRA', data='Personal Data Protection Act (PDPA)', frame='the Singapore national skills frameworks and the national credit system', tax='GST', food='the Singapore Food Agency (SFA)', partner='a channel partner, a polytechnic or an approved training provider', note='Delivered with channel partners.'),
  dict(k='au', name='Australia', cur='AUD', lang='English', reg='an ABN and, for companies, ASIC registration', data='the Privacy Act 1988 and the Australian Privacy Principles', frame='the Australian Qualifications Framework (AQF) levels', tax='GST (10%)', food='Food Standards Australia New Zealand (FSANZ) and the state health authority', partner='a vocational college or registered training organisation, or a regional business chamber', note='Delivered with channel partners.'),
  dict(k='hk', name='Hong Kong (Eastern Asia)', cur='HKD', lang='Chinese (Cantonese, Mandarin), English', reg='a business registration and, for companies, the Companies Registry', data='the Personal Data (Privacy) Ordinance', frame='the Hong Kong Qualifications Framework', tax='profits tax (no sales tax; check current rules)', food='the Centre for Food Safety', partner='a college, training body or business chamber', note='Delivered with channel partners.'),
- dict(k='ge', name='Georgia and Israel (Western Asia)', cur='GEL or ILS', lang='Georgian, Hebrew, Arabic, English', reg='local business registration in the country where you work', data='the personal data law of the country where the learner lives', frame='the national qualifications framework of that country', tax='local VAT and income tax (check with a local adviser)', food='the national food-safety authority', partner='a local college, chamber or training body', note='Delivered with channel partners. The owner wrote Georgia / Israel; the final country is to be confirmed.'),
+ dict(k='ge', name='Georgia and Israel (Western Asia)', cur='GEL or ILS', lang='Georgian, Hebrew, Arabic, English', reg='local business registration in the country where you work', data='the personal data law of the country where the learner lives', frame='the national qualifications framework of that country', tax='local VAT and income tax (check with a local adviser)', food='the national food-safety authority', partner='a local college, chamber or training body', note='Delivered with channel partners. Georgia and Israel are shown together; the final country choice will be confirmed before opening.'),
  dict(k='ky', name='Cayman Islands (Caribbean)', cur='KYD', lang='English', reg='a trade and business licence or company registration', data='the Data Protection Act', frame='the local education and training framework', tax='local duties and fees (check with a local adviser)', food='the public health authority', partner='a local training body or business chamber', note='Delivered with channel partners.'),
  dict(k='mx', name='Mexico', cur='MXN', lang='Spanish, English', reg='tax registration (RFC) and company or sole-trader registration', data='the federal law on personal data held by private parties', frame='the national competency certification system and the education ministry levels', tax='IVA (VAT) and income tax', food='the federal health-risk authority', partner='a technical college or business chamber', note='Delivered with channel partners.'),
 ]
@@ -115,8 +115,8 @@ def prereq(c):
     return lower[0] if lower else None
 def hhmm(h): return f'{h}:00'
 SLUG = lambda c: 'learn-' + c['id'].lower() + '.html'
-# GL-01..75 have a full flagship course page; every link to the older learn-gl page goes there instead.
-LINK = lambda c: ('learn-flagship-' + c['id'].lower() + '.html') if c['id'].startswith('GL-') else SLUG(c)
+# GL-01..75 and EU-01..10 have a full flagship course page; every link to the older learn-gl page goes there instead.
+LINK = lambda c: ('learn-flagship-' + c['id'].lower() + '.html') if c['id'].startswith(('GL-', 'EU-')) else SLUG(c)
 
 def loc_box(c, L):
     t = c['title']
@@ -179,7 +179,7 @@ def course_page(c):
         f'<ol class="ws-chips"><li>Foundation: short units in {e(c["grp"])}</li><li>Practitioner: this course ({LNAME[lvl]})</li><li>Expert: advanced practice and research (L{min(lvl+2,7)})</li></ol>'
         + '<p>Credits stack. You can step in and out. Aligned with the national policy approach to credits and multiple entry and exit points; not an accredited qualification.</p>'
         + f'<p><a class="btn" href="b2c.html">Find similar courses</a> <a class="btn btn-ghost" href="join.html">Join</a></p>'
-        + '<p class="ws-note">Draft course. Pricing, levels and wording are for the owner to confirm. Nothing is live.</p>')
+        + '<p class="ws-note">Draft course. Pricing, levels and wording may change before opening. Nothing is live.</p>')
     page(SLUG(c), c['title'] + ' (course)', summary[:150], c['title'], e(summary),
          fullcourse(c) + about + modules + practice + locs + ladder,
          crumb(('Courses', 'courses-hub.html'), (c['grp'], None)), kicker=f'{c["id"]} · {c["grp"]}')
@@ -187,7 +187,7 @@ def course_page(c):
 
 # ---------- card lists ----------
 def fullcourse(c):
-    if not c['id'].startswith('GL-'): return ''
+    if not c['id'].startswith(('GL-', 'EU-')): return ''
     return sec('', 'fc', 'full course', 'Full course here', f'<p>This is the short version. The full course, with every module, worked examples, rubric, ten checks with answers and the L1-L7 ladder, is here:</p><p><a class="btn" href="{LINK(c)}">Open the full course</a></p>')
 
 # ---------- card lists ----------
@@ -251,9 +251,32 @@ def school_card(p, s, rs):
             f'<p>{len(rs)} units · {sum(int(r["weeks"]) for r in rs)} weeks</p><p class="cm">{e(rs[0]["outcome"][:110])}</p></a></li>')
 
 # ---------- main ----------
+def _asec(i, kick, h2, inner, alt=False):
+    return (f'<section class="sec{" alt" if alt else ""}" aria-labelledby="{i}"><div class="wrap"><div class="sec-head"><p class="kicker">{kick}</p><h2 id="{i}">{h2}</h2></div><div class="sec-body">{inner}</div></div></section>')
+def _add_before_main_end(fn, marker, block):
+    p = S / fn; t = p.read_text()
+    if marker in t: return
+    p.write_text(t.replace('</main>', block + '</main>', 1))
+def audience_extras():
+    """Extra sections on the learners and ESL pages. Folded in from tools/patch_audience_pages.py, so this builder alone gives the final pages (the script is kept, and is harmless to re-run)."""
+    _add_before_main_end('learners.html', 'id="ways"', _asec('ways', 'also for', 'Organisations, families and direct learners',
+        '<ul class="cgrid"><li class="cc"><a href="b2b.html"><h3>B2B</h3><p>Courses for organisations and training partners</p></a></li>'
+        '<li class="cc"><a href="b2c.html"><h3>B2C</h3><p>Courses for learners on our marketplace</p></a></li>'
+        '<li class="cc"><a href="d2c.html"><h3>D2C</h3><p>Learn direct from House for Learning</p></a></li>'
+        '<li class="cc"><a href="cpd.html"><h3>Professional development</h3><p>Short courses for working people</p></a></li></ul>', True))
+    _add_before_main_end('learners-esl.html', 'id="more-en"', _asec('more-en', 'more English', 'English for work and for health care',
+        '<ul class="cgrid"><li class="cc"><a href="learn-flagship-in-30-english-as-a-second-language.html"><h3>English as a second language, adult course</h3><p>A full course for adults, with units, outcomes and checks.</p></a></li>'
+        '<li class="cc"><a href="cpd-talking-with-patients-and-families-in-a-second-language.html"><h3>Talking with patients and families in a second language</h3><p>A short professional course for care workers.</p></a></li>'
+        '<li class="cc"><a href="cpd-plain-english-for-ward-handovers.html"><h3>Plain English for ward handovers</h3><p>A short professional course for clear spoken handovers.</p></a></li></ul>', True))
+# Cards at the top of the Courses page: the all-courses list and the regional hubs (written by tools/build_courses_all.py, tools/flagship_uae.py and tools/build_regional_hubs.py).
+COURSES_HUB_FIRST = ('<li class="cc"><a href="courses-all.html"><h3>All full-depth courses</h3><p>Every flagship course, grouped by area and location</p></a></li>'
+    '<li class="cc"><a href="learn-uae-hub.html"><h3>UAE location courses</h3><p>49 full courses for Dubai and Abu Dhabi</p></a></li>'
+    '<li class="cc"><a href="courses-nl.html"><h3>Netherlands courses</h3><p>10 full-depth courses</p></a></li>'
+    '<li class="cc"><a href="courses-sg.html"><h3>Singapore courses</h3><p>10 full-depth courses</p></a></li>'
+    '<li class="cc"><a href="courses-au.html"><h3>Australia courses</h3><p>7 full-depth courses</p></a></li>')
 def main():
     built = [c for c in courses if course_page(c)]
-    for (p, s), rs in plans.items(): school_page(p, s, rs)
+    # School pages (school-*.html) are written by tools/build_school_deep.py from data/school-deep/*.json; the short versions this builder used to write are not written any more, so a re-run cannot overwrite the deep pages.
     adult = built
     c_by = {c['id']: c for c in adult}
     ug = [c for c in adult if 2 <= c['level'] <= 4]; pg = [c for c in adult if c['level'] >= 4]
@@ -272,11 +295,11 @@ def main():
     gl = {}
     for k, (name, ages, fn) in BANDS.items():
         lst = [(p, s, rs) for (p, s), rs in plans.items() if band(p) == k]
-        body = sec('', 'in', 'ages and levels', 'Who this is for', f'<p><strong>{e(ages)}.</strong> The owner has not fixed the age range; this is our default and can be changed in one place.</p><p>Every course has weekly units, outcomes that start with an action verb, practice tasks, and assessments at set weeks.</p>') \
+        body = sec('', 'in', 'ages and levels', 'Who this is for', f'<p><strong>{e(ages)}.</strong> This age range is our default and can be changed.</p><p>Every course has weekly units, outcomes that start with an action verb, practice tasks, and assessments at set weeks.</p>') \
             + sec('alt', 'ls', 'courses', f'{len(lst)} courses', '<ul class="cgrid">' + ''.join(school_card(p, s, rs) for p, s, rs in lst) + '</ul>')
         page(fn, name, f'{name} courses: {len(lst)} full courses', name, e(f'{ages}. {len(lst)} full courses with units and outcomes.'), body, crumb(('Learners', 'learners.html'), (name, None)), 'learner group')
     def adult_group(fn, name, ages, lst, why):
-        hub(fn, name, f'{ages}. {why}', '<p>' + e(why) + '</p><p>Age range is our default; the owner can change it.</p>', lst, crumb(('Learners', 'learners.html'), (name, None)), kicker='learner group')
+        hub(fn, name, f'{ages}. {why}', '<p>' + e(why) + '</p><p>Age range is our default and can be changed.</p>', lst, crumb(('Learners', 'learners.html'), (name, None)), kicker='learner group')
     adult_group('learners-ug.html', 'UG: undergraduate learners', 'Ages 18 to 22 (default)', ug, 'Foundation and practitioner courses (L2 to L4) that build skills, credits and a portfolio alongside a degree.')
     adult_group('learners-pg.html', 'PG: postgraduate and working learners', 'Age 21 and over (default)', pg, 'Practitioner and specialist courses (L4 to L5) for graduates and working people moving up.')
     adult_group('learners-phd.html', 'PhD and systemic learners (seniors)', 'Age 25 and over; seniors are called systemic learners', phd + [c for c in sysl if c not in phd], 'Specialist courses (L5) for research-minded learners, plus courses chosen for seniors: calm pace, large text, hands-on, experience-led.')
@@ -286,8 +309,9 @@ def main():
     page('learners.html', 'Courses for every learner group', 'ESL, Primary, Secondary, Post-secondary, UG, PG, PhD and systemic learners', 'Courses for every learner group', e('Pick your group. Age ranges are defaults and can be changed.'),
          sec('', 'g', 'groups', 'Seven learner groups', '<ul class="cgrid">' + items + '</ul>'), crumb(('Courses', 'courses-hub.html'), ('Learners', None)))
     page('courses-hub.html', 'Courses', 'Full courses for organisations, learners and families', 'Courses', e(f'{len(adult)} full adult and business courses and {len(plans)} school courses, each localised for ten places and global.'),
-         sec('', 'w', 'ways to learn', 'Choose how you learn', '<ul class="cgrid"><li class="cc"><a href="b2b.html"><h3>B2B</h3><p>For organisations and training partners</p></a></li><li class="cc"><a href="b2c.html"><h3>B2C</h3><p>For learners on the marketplace</p></a></li><li class="cc"><a href="d2c.html"><h3>D2C</h3><p>Direct from House for Learning</p></a></li><li class="cc"><a href="cpd.html"><h3>CPD</h3><p>36 courses for 12 professions</p></a></li><li class="cc"><a href="learn-flagship-cv.html"><h3>Flagship: Resume and Professional Profile</h3><p>Full-depth sample course</p></a></li><li class="cc"><a href="learn-flagship-platform-admin.html"><h3>Flagship: Learning Platform Administration</h3><p>All 29 platform features</p></a></li><li class="cc"><a href="learn-flagship-earthing.html"><h3>Flagship: Earthing and Ground Potential Rise</h3><p>Awareness course, engineer review required</p></a></li><li class="cc"><a href="learn-flagship-career-launch.html"><h3>Flagship: Career Launch</h3><p>9 modules from profile to first role</p></a></li><li class="cc"><a href="learn-flagship-eu-01.html"><h3>Europe 1: Food Industry</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-eu-02.html"><h3>Europe 2: Handmade Goods and Craft Enterprise</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-eu-03.html"><h3>Europe 3: Online Sales and E-commerce</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-eu-04.html"><h3>Europe 4: Mobile App Building</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-eu-05.html"><h3>Europe 5: IT Business and Managed Services</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-eu-06.html"><h3>Europe 6: Childcare Products and Services</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-eu-07.html"><h3>Europe 7: Trading and Distribution</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-eu-08.html"><h3>Europe 8: Industrial Activity: Machinery, High-Tech and Process</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-eu-09.html"><h3>Europe 9: Construction and Built Environment</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-eu-10.html"><h3>Europe 10: Agriculture and Fisheries</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-gl-01.html"><h3>Global 1: Lead Generation for Small Businesses</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-gl-02.html"><h3>Global 2: Robotics Fundamentals</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-gl-03.html"><h3>Global 3: AI in Practice</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-gl-04.html"><h3>Global 4: Internet Infrastructure Basics</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-gl-05.html"><h3>Global 5: Internet of Things</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-gl-06.html"><h3>Global 6: Chatbots for Business</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learners.html"><h3>By learner group</h3><p>ESL to PhD and systemic learners</p></a></li></ul>'),
+         sec('', 'w', 'ways to learn', 'Choose how you learn', '<ul class="cgrid">' + COURSES_HUB_FIRST + '<li class="cc"><a href="b2b.html"><h3>B2B</h3><p>For organisations and training partners</p></a></li><li class="cc"><a href="b2c.html"><h3>B2C</h3><p>For learners on the marketplace</p></a></li><li class="cc"><a href="d2c.html"><h3>D2C</h3><p>Direct from House for Learning</p></a></li><li class="cc"><a href="cpd.html"><h3>CPD</h3><p>36 courses for 12 professions</p></a></li><li class="cc"><a href="learn-flagship-cv.html"><h3>Flagship: Resume and Professional Profile</h3><p>Full-depth sample course</p></a></li><li class="cc"><a href="learn-flagship-platform-admin.html"><h3>Flagship: Learning Platform Administration</h3><p>All 29 platform features</p></a></li><li class="cc"><a href="learn-flagship-earthing.html"><h3>Flagship: Earthing and Ground Potential Rise</h3><p>Awareness course, engineer review required</p></a></li><li class="cc"><a href="learn-flagship-career-launch.html"><h3>Flagship: Career Launch</h3><p>9 modules from profile to first role</p></a></li><li class="cc"><a href="learn-flagship-eu-01.html"><h3>Europe 1: Food Industry</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-eu-02.html"><h3>Europe 2: Handmade Goods and Craft Enterprise</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-eu-03.html"><h3>Europe 3: Online Sales and E-commerce</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-eu-04.html"><h3>Europe 4: Mobile App Building</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-eu-05.html"><h3>Europe 5: IT Business and Managed Services</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-eu-06.html"><h3>Europe 6: Childcare Products and Services</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-eu-07.html"><h3>Europe 7: Trading and Distribution</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-eu-08.html"><h3>Europe 8: Industrial Activity: Machinery, High-Tech and Process</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-eu-09.html"><h3>Europe 9: Construction and Built Environment</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-eu-10.html"><h3>Europe 10: Agriculture and Fisheries</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-gl-01.html"><h3>Global 1: Lead Generation for Small Businesses</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-gl-02.html"><h3>Global 2: Robotics Fundamentals</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-gl-03.html"><h3>Global 3: AI in Practice</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-gl-04.html"><h3>Global 4: Internet Infrastructure Basics</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-gl-05.html"><h3>Global 5: Internet of Things</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learn-flagship-gl-06.html"><h3>Global 6: Chatbots for Business</h3><p>Full-depth course, 8 modules</p></a></li><li class="cc"><a href="learners.html"><h3>By learner group</h3><p>ESL to PhD and systemic learners</p></a></li></ul>'),
          crumb(('Courses', None)))
+    audience_extras()
     print('adult courses', len(adult), 'school courses', len(plans), 'groups', len(BANDS) + 3)
 if __name__ == "__main__":
     main()
