@@ -2,7 +2,7 @@
  "ACC-001": {
   "task": "Reconcile a bank account to a ledger at month end, classify each difference, complete and sign the statement, and escalate anything unexplained.",
   "cond": "Given a bank statement, a ledger, a statement template, an approval card and a set limit for small differences, working in a four-hour supervised session.",
-  "std": "Finish with every difference explained, at least 9 of 10 items classified correctly, a difference after reconciling of zero, and preparer, reviewer and date complete.",
+  "std": "Produce a result with every difference explained, at least 9 of 10 items classified correctly, a difference after reconciling of zero, and preparer, reviewer and date complete.",
   "modules": [
    {
     "t": "Why reconcile and what \"done\" means",
@@ -965,7 +965,7 @@
  "BUS-002": {
   "task": "Prepare a supplier negotiation with a target, limit and three trades, conduct role-plays inside the limit, and record the agreed terms on a one-page summary for sign-off.",
   "cond": "Given a brief, a quote template and a role-play partner playing the supplier, working in a four-hour supervised session.",
-  "std": "Reach an agreement inside your limit using at least one trade, work out the cash cost of an early-payment offer, and record terms, signatory and date on a one-page summary.",
+  "std": "Produce an agreement inside your limit using at least one trade, work out the cash cost of an early-payment offer, and record terms, signatory and date on a one-page summary.",
   "modules": [
    {
     "t": "Target, limit, walk-away",
@@ -1146,7 +1146,7 @@
      "Dated next step"
     ],
     "ex": "Recommend A: net 9,000 a year, payback 2.7 years. Main risk: demand halves to 5 orders a week: income 7,500, net 1,500, payback 16 years. Plan: review after 6 months. Next step: manager decides by 30 June.",
-    "std": "Make a clear recommendation with the reason for it, and state the main risk with a plan to reduce it, plus a dated next step."
+    "std": "Recommend a course of action with the reason for it, and state the main risk with a plan to reduce it, plus a dated next step."
    },
    {
     "t": "Practice and feedback",

@@ -2,7 +2,7 @@
  "LEG-001": {
   "task": "Draft a plain-language client letter that puts the purpose first, then the facts, then the next step and its date, and edit it to under one page.",
   "cond": "Given a short client brief, source documents, a sample letter with jargon and an editing checklist, working in a three-hour supervised session with no legal advice given.",
-  "std": "Finish with a letter that is plain, under one page, matches every date and figure in the sources, and ends with the next step and date, passing all checklist items.",
+  "std": "Produce a letter that is plain, under one page, matches every date and figure in the sources, and ends with the next step and date, passing all checklist items.",
   "modules": [
    {
     "t": "Who reads it and what they need",
@@ -139,9 +139,9 @@
   ]
  },
  "LEG-002": {
-  "task": "Review a contract clause by clause, summarize each clause in one sentence, flag and rate the risk clauses, and propose safer wording for a supervisor to check.",
+  "task": "Review a contract clause by clause, summarise each clause in one sentence, flag and rate the risk clauses, and propose safer wording for a supervisor to check.",
   "cond": "Given a sample eight-clause contract, a clause table and a review checklist, working in a four-hour supervised session; skills only, with no legal advice and decisions left to the client and a qualified lawyer.",
-  "std": "Finish with all 8 clauses summarized, at least 5 risks listed with a question each, each risk rated high, medium or low with a reason, and every entry followable by a supervisor.",
+  "std": "Produce a result with all 8 clauses summarised, at least 5 risks listed with a question each, each risk rated high, medium or low with a reason, and every entry followable by a supervisor.",
   "modules": [
    {
     "t": "Contract parts",
@@ -163,7 +163,7 @@
      "A summary proves you understood"
     ],
     "ex": "Clause 3: \"The customer shall pay each invoice within 30 days of the invoice date.\" Summary in one sentence: \"You pay each invoice within 30 days.\" An invoice dated 1 Jun is due 1 Jul (June has 30 days).",
-    "std": "Summarize each clause of a sample contract in one sentence, so the summary confirms that you have understood what the clause says."
+    "std": "Summarise each clause of a sample contract in one sentence, so the summary confirms that you have understood what the clause says."
    },
    {
     "t": "Spotting risk clauses",
@@ -251,11 +251,11 @@
    },
    {
     "t": "L3 Foundation: One-line summaries",
-    "note": "Learners summarize clauses such as pay within 30 days in one plain sentence under supervision and begin to notice words like unlimited or at any time. They follow a prepared example and a checklist."
+    "note": "Learners summarise clauses such as pay within 30 days in one plain sentence under supervision and begin to notice words like unlimited or at any time. They follow a prepared example and a checklist."
    },
    {
     "t": "L4 Practitioner: Review and flag the risks",
-    "note": "This course sits here. The learner reviews a whole sample contract alone: summarizes every clause, lists at least five risks with questions, rates them, suggests safer wording, and marks agree, query or escalate."
+    "note": "This course sits here. The learner reviews a whole sample contract alone: summarises every clause, lists at least five risks with questions, rates them, suggests safer wording, and marks agree, query or escalate."
    },
    {
     "t": "L5 Specialist: Judging what matters",
@@ -281,7 +281,7 @@
  "LEG-003": {
   "task": "Organise a case file in the standard order, record each decision as it is made, complete the closing checklist, and apply the retention period and safe disposal.",
   "cond": "Given a messy sample file, a file index template, a closing checklist and a records policy, working in a three-hour supervised session with no legal advice given.",
-  "std": "Finish with a file in the standard order, every note dated with who, what, when and why, a fully completed closing checklist, and the correct retention date stated.",
+  "std": "Produce a file in the standard order, every note dated with who, what, when and why, a fully completed closing checklist, and the correct retention date stated.",
   "modules": [
    {
     "t": "Standard file order",
@@ -418,7 +418,7 @@
  "SCI-001": {
   "task": "Plan a repeatable test by stating a question and a measure, choosing a control and repeats, listing sources of error, and writing a method another person can follow exactly.",
   "cond": "Given a topic, a protocol template and a partner for peer checking, working in a four-hour supervised session.",
-  "std": "Finish with a testable question, a control, a measure with units, repeats for each group, at least 4 listed sources of error, and a method another person can repeat.",
+  "std": "Produce a testable question, a control, a measure with units, repeats for each group, at least 4 listed sources of error, and a method another person can repeat.",
   "modules": [
    {
     "t": "Question and hypothesis",
@@ -556,7 +556,7 @@
  "SCI-002": {
   "task": "Calculate the mean and spread of small data sets, plot group means with labelled axes and error bars, judge whether a difference is larger than the spread, and write a one-paragraph result.",
   "cond": "Given two small data sets, a plotting template and a caption checklist, working in a four-hour supervised session.",
-  "std": "Finish with correct means and spread with units, labelled plots with error bars and a caption, a correct judgement of the difference, and a paragraph that claims no more than the data show.",
+  "std": "Produce a result with correct means and spread with units, labelled plots with error bars and a caption, a correct judgement of the difference, and a paragraph that claims no more than the data show.",
   "modules": [
    {
     "t": "Means and spread",
@@ -694,7 +694,7 @@
  "SCI-003": {
   "task": "Write a short, honest report from a result table in the standard sections, cite every source in one style, state limits, and respond politely to a reviewer comment.",
   "cond": "Given a result table, a report template, an agreed reference style and a sample reviewer comment, working in a three-hour supervised session.",
-  "std": "Finish with a report in the standard order, one citation style used throughout, at least three honest sentences on limits, no claim beyond the data, and a polite reply with evidence or a change.",
+  "std": "Produce a report in the standard order, one citation style used throughout, at least three honest sentences on limits, no claim beyond the data, and a polite reply with evidence or a change.",
   "modules": [
    {
     "t": "Standard sections",
@@ -833,7 +833,7 @@
  "BEA-001": {
   "task": "Take a client history before a treatment by asking the required questions in order, recording the answers dated and signed, and deciding whether to proceed or refer on.",
   "cond": "Given a history form, a referral card, eight sample histories and a role-play client, working in a two-hour supervised session; process only, with no medical advice.",
-  "std": "Finish with a form complete in all 9 fields, answers dated and signed, at least 7 of 8 sample histories decided correctly, and the form stored securely.",
+  "std": "Produce a form complete in all 9 fields, answers dated and signed, at least 7 of 8 sample histories decided correctly, and the form stored securely.",
   "modules": [
    {
     "t": "Why history matters",
@@ -970,7 +970,7 @@
  "BEA-002": {
   "task": "Apply infection control in a treatment room by cleaning hands in order, choosing the cleaning level for each item, keeping clean and used items apart, and completing the cleaning log.",
   "cond": "Given a hand-cleaning checklist, six sample items, a room layout and a cleaning log, working in a two-hour supervised session and following the local rule and product instructions.",
-  "std": "Finish with every hand-cleaning step in order, the right cleaning level for all six items, clean and used items kept apart, and a log complete with date, item, method and initials.",
+  "std": "Produce a result with every hand-cleaning step in order, the right cleaning level for all six items, clean and used items kept apart, and a log complete with date, item, method and initials.",
   "modules": [
    {
     "t": "Why it matters",
@@ -1109,7 +1109,7 @@
  "BEA-003": {
   "task": "Obtain informed consent by explaining a treatment in plain words, checking understanding before the signature, recording what was agreed, and reviewing the form when anything changes.",
   "cond": "Given a treatment script, a consent form template, a role-play client and sample forms, working in a 90-minute supervised session; process only, with no medical advice.",
-  "std": "Finish with benefits, risks, aftercare and refusal explained in plain words, understanding checked before signing, a complete dated form held securely, and any missing item in a sample found.",
+  "std": "Produce a result with benefits, risks, aftercare and refusal explained in plain words, understanding checked before signing, a complete dated form held securely, and any missing item in a sample found.",
   "modules": [
    {
     "t": "What consent means",

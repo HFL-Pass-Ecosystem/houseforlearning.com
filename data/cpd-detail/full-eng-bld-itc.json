@@ -216,7 +216,7 @@
      "State the mismatch and the next step."
     ],
     "ex": "Case card 2: at a 2,000 A fault the downstream feeder trips in 0.50 s and the upstream main in 0.30 s. The feeder is 0.20 s slower, so the main trips first. Report the mismatch and ask the responsible engineer.",
-    "std": "Mark two crossing curves at a given fault current, state the time difference, and report the mismatch with the next step for the responsible engineer."
+    "std": "Identify two crossing curves at a given fault current, state the time difference, and report the mismatch with the next step for the responsible engineer."
    },
    {
     "t": "Teach-back and peer check",
@@ -276,7 +276,7 @@
  "ENG-003": {
   "task": "List the tests required for a scope, record readings on a test sheet with unit, instrument and date, judge each against its limit, and sign off only a complete sheet",
   "cond": "Given a scope of work, a blank test sheet, readings and limits for six circuits, and a sample instrument record, in a 3-hour practical session",
-  "std": "Fill every field of the sheet, mark every pass or fail correctly including a reading just under the limit, and sign off only when all six lines are complete and the instrument details are recorded",
+  "std": "Write every field of the sheet, mark every pass or fail correctly including a reading just under the limit, and sign off only when all six lines are complete and the instrument details are recorded",
   "modules": [
    {
     "t": "Which tests and why",
@@ -605,7 +605,7 @@
      "Keep the order of the template."
     ],
     "ex": "Bill line 1: Wall finish, m2, 27.8. Line 2: Floor tiles 300 x 300 mm, no., 324 (33 boxes of 10). Each line numbered, with unit, description and quantity.",
-    "std": "Enter the results in a bill of quantities, given a template, with every item numbered and each line showing unit, description and quantity."
+    "std": "Write the results in a bill of quantities, given a template, with every item numbered and each line showing unit, description and quantity."
    },
    {
     "t": "Assessment",
@@ -835,7 +835,7 @@
      "A guest must never reach staff systems."
     ],
     "ex": "Office with 8 staff laptops, public Wi-Fi, 1 printer and 2 cameras. Three zones, each a separate address range (a /24 range holds up to 254 devices): staff 192.168.10.0/24, guest 192.168.20.0/24, devices 192.168.30.0/24.",
-    "std": "Divide a small network into staff, guest and device zones, given user groups, so a guest device cannot reach staff systems."
+    "std": "Organise a small network into staff, guest and device zones, given user groups, so a guest device cannot reach staff systems."
    },
    {
     "t": "Drawing a small network plan",
@@ -846,7 +846,7 @@
      "Default is deny; allow only what is needed."
     ],
     "ex": "Plan rules: staff to internet allow; guest to internet allow; guest to staff deny; guest to devices deny; staff to printer allow.",
-    "std": "Draw a small network plan, given a lab diagram such as an office with public Wi-Fi, showing each zone, its traffic and the firewall rules between zones."
+    "std": "Sketch a small network plan, given a lab diagram such as an office with public Wi-Fi, showing each zone, its traffic and the firewall rules between zones."
    },
    {
     "t": "Standard settings in the lab",

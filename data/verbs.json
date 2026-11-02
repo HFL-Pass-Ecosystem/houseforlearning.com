@@ -1,0 +1,176 @@
+{
+  "version": "v0",
+  "spelling": "British/Indian",
+  "levels": {
+    "N": {
+      "step": "Remember",
+      "core": [
+        "name",
+        "list",
+        "state",
+        "label",
+        "match",
+        "define"
+      ],
+      "more": [
+        "identify",
+        "recall",
+        "repeat",
+        "find",
+        "quote",
+        "count",
+        "locate",
+        "memorise",
+        "order",
+        "outline",
+        "pick out"
+      ]
+    },
+    "7": {
+      "step": "Understand",
+      "core": [
+        "explain",
+        "summarise",
+        "paraphrase",
+        "classify",
+        "give an example",
+        "translate"
+      ],
+      "more": [
+        "describe",
+        "discuss",
+        "interpret",
+        "restate",
+        "predict",
+        "infer",
+        "estimate",
+        "generalise",
+        "rewrite",
+        "extend"
+      ]
+    },
+    "6": {
+      "step": "Apply",
+      "core": [
+        "solve",
+        "use",
+        "demonstrate",
+        "operate",
+        "produce",
+        "prepare"
+      ],
+      "more": [
+        "compute",
+        "show",
+        "sketch",
+        "modify",
+        "schedule",
+        "practise",
+        "write",
+        "illustrate",
+        "choose",
+        "implement",
+        "discover"
+      ]
+    },
+    "5": {
+      "step": "Analyse",
+      "core": [
+        "compare",
+        "contrast",
+        "categorise",
+        "separate",
+        "examine",
+        "test"
+      ],
+      "more": [
+        "diagram",
+        "infer",
+        "question",
+        "point out",
+        "differentiate",
+        "deduce",
+        "correlate",
+        "subdivide",
+        "investigate",
+        "calculate"
+      ]
+    },
+    "4": {
+      "step": "Evaluate",
+      "core": [
+        "judge",
+        "justify",
+        "defend",
+        "assess",
+        "rank",
+        "recommend"
+      ],
+      "more": [
+        "rate",
+        "prioritise",
+        "critique",
+        "verify",
+        "support",
+        "argue",
+        "decide",
+        "weigh",
+        "conclude",
+        "appraise"
+      ]
+    },
+    "3": {
+      "step": "Create",
+      "core": [
+        "design",
+        "plan",
+        "compose",
+        "construct",
+        "develop",
+        "formulate"
+      ],
+      "more": [
+        "invent",
+        "devise",
+        "propose",
+        "assemble",
+        "generate",
+        "organise",
+        "set up",
+        "integrate",
+        "combine",
+        "rewrite"
+      ]
+    }
+  },
+  "banned_as_action": [
+    "believe",
+    "know",
+    "understand",
+    "realise",
+    "realize",
+    "think",
+    "feel",
+    "see",
+    "hear",
+    "listen",
+    "perceive",
+    "comprehend",
+    "conceptualise",
+    "conceptualize",
+    "experience",
+    "aware of",
+    "familiar with",
+    "interested in",
+    "appreciation for",
+    "knowledge of",
+    "capable of"
+  ],
+  "vague_buttons": [
+    "submit",
+    "ok",
+    "click here",
+    "go",
+    "done"
+  ]
+}
