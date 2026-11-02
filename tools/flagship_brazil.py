@@ -70,6 +70,10 @@ from brazil_deep_1 import DEEP as _D1
 from brazil_deep_2 import DEEP as _D2
 from brazil_cases import CASES
 import importlib
+LADDER_DATA = {}
+for _i in range(5):
+    try: LADDER_DATA.update(importlib.import_module(f'brazil_ladder_{_i}').LADDER)
+    except ImportError: pass
 EXTRA = {}
 for _i in range(5):
     try: EXTRA.update(importlib.import_module(f'brazil_extra_{_i}').EXTRA)
@@ -227,6 +231,12 @@ def XT(n, k):
     note, ex = EXTRA[n][key]
     return f'<p><strong>Longer notes.</strong> {e(note)}</p><div class="evi"><strong>Extra worked example.</strong> {e(ex)}</div>'
 
+def jobs_html(n):
+    LD = LADDER_DATA.get(n)
+    if not LD: return ''
+    return ('<p>Generic roles, from entry to senior. Each opens the pathways page; use the Career Launch course for the job-search method.</p><ul class="jobs">' + ''.join(
+        f'<li><a href="pathways.html">{e(r)}</a>: {e(d)}</li>' for r, d in LD['jobs']) + '</ul><p><a class="btn" href="learn-flagship-career-launch.html">Career Launch: from plan to offer</a></p>')
+
 def build(n, i):
     th, cu, un, rk, kit = D[n][:5]
     ms = mods(n)
@@ -241,7 +251,13 @@ def build(n, i):
         return f' (Covered in module {QM[j]}: {m[0]}. To pass that module: {m[7].rstrip().rstrip(".")}.)'
     qz = ''.join(f'<details class="mod"><summary>Q{j+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a + tag(j))}</p></details>' for j, (q, a) in enumerate(quiz(n)))
     rub = ('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>' + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(c)}</td><td>{e(d)}</td></tr>' for a, b, c, d in RUBRIC) + '</tbody></table></div>')
-    lad = '<ol class="ladder">' + ''.join(f'<li><strong>{e(a)}.</strong> {e(b.format(n=n.lower()))}</li>' for a, b in LADDER) + '</ol>'
+    LD = LADDER_DATA.get(n)
+    if LD:
+        lad = '<p>Seven levels, one slide each. Read the slide, then read the speaker notes under it. Credits stack and you can step in and out; this course is L4.</p><div class="slides">' + ''.join(
+            f'<article class="slide" aria-label="Slide {k} of 7"><h3 class="ws-h3">Slide {k} of 7: {e(t)}</h3><ul>' + ''.join(f'<li>{e(b)}</li>' for b in bl) + f'</ul><details class="mod"><summary>Notes for slide {k}</summary><p>{e(nt)}</p></details></article>'
+            for k, (t, bl, nt) in enumerate(LD['slides'], 1)) + '</div>'
+    else:
+        lad = '<ol class="ladder">' + ''.join(f'<li><strong>{e(a)}.</strong> {e(b.format(n=n.lower()))}</li>' for a, b in LADDER) + '</ol>'
     total = sum(m[2] for m in ms)
     outs = [(m[1], f'{m[0]}: ' + m[7].split(';')[0].rstrip('.') + '.') for m in ms]
     phase = 'Phase 1 (2026 to 2027)' if n in PHASE1 else 'Phase 2 (2027 to 2028)'
@@ -256,6 +272,7 @@ def build(n, i):
         + B.sec('', 'cs', 'case study', 'A case to work through', f'<div class="evi"><p><strong>Situation.</strong> {e(CASES[n][0])}</p><p><strong>Task.</strong> Say what you would do first, next and last, and what record you would keep.</p><p><strong>Model answer.</strong> {e(CASES[n][1])}</p></div>')
         + B.sec('', 'as', 'assessment', 'How you are checked', f'<p>Evidence: customer file, compliance table, offer card, procedures, risk register, role cards, money table, 90-day plan. Mentor and peers mark it with this rubric. Pass: no criterion at \'Not yet\'.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{qz}')
         + B.sec('alt', 'ld', 'levels L1 to L7', 'Where this sits on the ladder', lad)
+        + B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', jobs_html(n))
         + B.sec('', 'lc', 'ten locations and global', 'Your place', '<p>Local rules change licences, taxes, data duties and customer rights. This course is written for São Paulo. Check the current official text for your own place.</p>'
                 + ''.join(f'<details class="loc"{" open" if L["k"]=="br" else ""}><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Currency: {L["cur"]}. Registration: {e(L["reg"])}. Data rule for what you publish: {e(L["data"])}. Skills frame to cite: {e(L["frame"])}.</p></details>' for L in B.LOC)
                 + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>'
