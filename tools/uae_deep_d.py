@@ -58,7 +58,7 @@ D2 = {
    'Read the fare rules: refundable, changeable or neither, and tell the client in writing.',
    'When a disruption happens, contact the traveller first, then the supplier, then offer options.',
    'Keep an emergency contact list and record every change made.'],
-  'A family of 4 has a flight cancelled 24 hours before departure. You rebook them on a flight 6 hours later at no extra fare, and move the airport transfer. The hotel is told to hold the room, avoiding a AED 900 first-night charge.',
+  'A family of 4 has a flight cancelled 24 hours before departure. You rebook them on a flight 6 hours later at no extra fare, and move the airport transfer. The hotel is told to hold the room, avoiding an AED 900 first-night charge.',
   'Prepare a disruption plan for a group of 10 with three alternative options and a message to the group.',
   'Plan lists contacts, deadlines in hours, costs in AED and what the traveller is told first.')],
  'automobile': [(
@@ -148,7 +148,7 @@ D2 = {
    'Report findings truthfully, even when unwelcome, and back them with data.',
    'Declare any conflict of interest before accepting work.',
    'Manage resistance by listening to concerns, testing a small pilot and showing numbers.'],
-  'A manager wants a report to show a 20% saving. Your data shows 8% across 12 months, about AED 96,000 on a AED 1,200,000 cost base. You present 8% with a plan to look for a further 5 percentage points (about AED 60,000), which protects the credibility of the report; a 20% saving would have been AED 240,000.',
+  'A manager wants a report to show a 20% saving. Your data shows 8% across 12 months, about AED 96,000 on an AED 1,200,000 cost base. You present 8% with a plan to look for a further 5 percentage points (about AED 60,000), which protects the credibility of the report; a 20% saving would have been AED 240,000.',
   'Write an engagement letter clause on confidentiality and conflicts, plus a reply to a request to change findings.',
   'Clause is clear and short; reply refuses politely and offers evidence-based options.')],
 }

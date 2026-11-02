@@ -163,6 +163,9 @@ def family(t):
 LADDER_VERB = ['Define', 'Describe', 'Apply', 'Analyse', 'Evaluate', 'Create', 'Lead']
 LADDER_DO = ['name the main terms, people and rules of {t}', 'explain how {t} works from first contact to result', 'carry out a routine task in {t} to a written standard',
              'diagnose why a {t} result missed its target and fix it', 'judge options for {t} against cost, risk and quality', 'design and pilot a new offer or process in {t}', 'run a team or business in {t} and develop others']
+def _ld(i, tl):
+    s = LADDER_DO[i].format(t=tl)
+    return s.replace('why a ' + tl, 'why an ' + tl) if tl[:1] in 'aeiou' else s
 LADDER_NOTE = ['Start here if new. Evidence: a one-page glossary and a visit or interview note.', 'Evidence: a flow chart and a two-minute spoken explanation.', 'Evidence: a supervised task record that meets the standard once.',
                'Evidence: a fault or gap analysis with a fix and a repeat test. This course targets this level.', 'Evidence: an options paper with numbers and a recommendation defended to a panel.',
                'Evidence: a pilot with measured results over at least 30 days.', 'Evidence: a record of results over a year and of people you have coached to a higher level.']
@@ -267,14 +270,14 @@ def course(p):
             k = (chk[i] - 1) if QZ[chk[i] - 1][2] == FOC[i] and (chk[i] - 1) not in used else (same[0] if same else chk[i] - 1)
             used.add(k); q, a = QZ[k][0], QZ[k][1]
             xm = '' if QZ[k][2] == FOC[i] else (f' (this question is covered in module {QZ[k][2]}: {M[QZ[k][2]-1][0]})' if QZ[k][2] else ' (background fact, not taught in a single module)')
-            body = (f'L{i+1}: {f["roles"][i]}. You can {LADDER_VERB[i].lower()}: {LADDER_DO[i].format(t=tl)}. Focus module: {mt} ({bl}, {h} h). {intro} Key points: ' + ' '.join(pts))
+            body = (f'L{i+1}: {f["roles"][i]}. You can {LADDER_VERB[i].lower()}: {_ld(i, tl)}. Focus module: {mt} ({bl}, {h} h). {intro} Key points: ' + ' '.join(pts))
             notes = (f'Teach: open with the worked example. {ex} Then set the activity: {act} Mark against the standard: {std} Check at this level{xm}: {q} Model answer: {a} Level note: {LADDER_NOTE[i]}')
             lad += (f'<details class="mod"><summary><span class="mn">Slide {i+1}</span> L{i+1} {e(f["roles"][i])}: {e(mt)}</summary><p>{e(body)}</p>'
                     f'<p class="ws-note"><strong>Speaker notes.</strong> {e(notes)}</p></details>')
         lad = '<p>Seven slides, one per level. Open each for the slide text and the speaker notes.</p>' + lad
     else:
         lad = ('<div class="scroll-x"><table class="ws-table"><caption>Seven levels, L1 to L7</caption><thead><tr><th>Level</th><th>Role</th><th>You can</th><th>Notes and evidence</th></tr></thead><tbody>' +
-               ''.join(f'<tr><th scope="row">L{i+1}</th><td>{e(f["roles"][i])}</td><td>{LADDER_VERB[i]}: {e(LADDER_DO[i].format(t=tl))}</td><td>{e(LADDER_NOTE[i])}</td></tr>' for i in range(7)) + '</tbody></table></div>')
+               ''.join(f'<tr><th scope="row">L{i+1}</th><td>{e(f["roles"][i])}</td><td>{LADDER_VERB[i]}: {e(_ld(i, tl))}</td><td>{e(LADDER_NOTE[i])}</td></tr>' for i in range(7)) + '</tbody></table></div>')
     outs = [(m[1], m[3].split('. ')[0] + '.') for m in M]
     about = B.sec('', 'ab', 'about this course', 'What you will be able to do',
         f'<div class="cb-facts"><span class="pill lv">L4 Practitioner</span><span class="pill">8 modules · {hours} h</span><span class="pill">{e(p["domain"])}</span><span class="pill">{e(p["phase"])}</span></div>'
@@ -293,7 +296,7 @@ def course(p):
                     + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
             + B.sec('', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship course. Own wording. Teaching figures are examples, not market data. Not live.</p>'))
     fn = slug(t, n)
-    B.page(fn, f'{t} (Canada flagship course)', f'{hours}-hour course on {tl} in Canada: eight modules, worked examples, rubric and ten-question check.', t, e(f'Run a real {tl} pilot in Canada: eight modules from user need to review, with rules, costs, risks and a seven-level ladder.'),
+    B.page(fn, f'{t} (Canada flagship course)', f'{hours}-hour course on {tl} in Canada: eight modules, worked examples, rubric and ten-question check.', t, e(f'Run a pilot of {tl} in Canada: eight modules from user need to review, with rules, costs, risks and a seven-level ladder.'),
            body, B.crumb(('Courses', 'courses-hub.html'), ('Canada courses', 'canada-courses.html'), (t, None)), kicker=f'Canada · {p["phase"]}')
     return fn, hours, k
 

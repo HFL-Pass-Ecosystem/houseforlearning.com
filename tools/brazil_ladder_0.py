@@ -64,7 +64,7 @@ LADDER = {'Automated Farming Equipment': {'jobs': [('Farm Machine Helper',
                                              'and a review report. Margin per unit and break-even must be '
                                              'calculated.'),
                                             ('L5 Specialist',
-                                             ['Design a automation system design for a demanding client',
+                                             ['Design an automation system design for a demanding client',
                                               'Analyse area covered per hour and downtime to find the root '
                                               'cause of a problem',
                                               'Coach junior staff and check their field operation work'],
@@ -111,7 +111,7 @@ LADDER = {'Automated Farming Equipment': {'jobs': [('Farm Machine Helper',
             'slides': [('L1 Basic',
                         ['Name the main parts of energy in plain words',
                          'Identify one energy project in Sao Paulo and what it does',
-                         'Describe a normal day for a energy assistant'],
+                         'Describe a normal day for an energy assistant'],
                         'No background is needed. In 6 to 10 hours you learn how electricity moves from '
                         'plant to socket, what a kilowatt and a kilowatt-hour measure, and why wet hands and '
                         'bare wire are dangerous. Evidence is a short quiz or labelled diagram. You must use '
@@ -120,7 +120,7 @@ LADDER = {'Automated Farming Equipment': {'jobs': [('Farm Machine Helper',
                         ['Explain how energy affects daily life in Sao Paulo',
                          'List the main risks, such as electrical hazards and supply failures, and who '
                          'handles them',
-                         'Compare two examples of a energy project and note the differences'],
+                         'Compare two examples of an energy project and note the differences'],
                         'For homeowners, small business managers and career changers who deal with '
                         'installers. In 15 to 25 hours you compare two energy projects in Sao Paulo, such as '
                         'a rooftop solar system and a grid upgrade, and explain shocks, fires and supply '
@@ -135,7 +135,7 @@ LADDER = {'Automated Farming Equipment': {'jobs': [('Farm Machine Helper',
                         'of a room and keep a portfolio of signed sheets. Required standard: isolation '
                         'before touching, correct instruments, and readings written down immediately.'),
                        ('L4 Practitioner: Plan, Start and Run',
-                        ['Plan a energy project for Sao Paulo using local demand, costs and a risk list',
+                        ['Plan an energy project for Sao Paulo using local demand, costs and a risk list',
                          'Prepare a budget, timeline and checklist for electricity sector and safety rules; '
                          'check the current official text',
                          'Run the first 90 days and review energy used per unit of output each week'],
@@ -145,7 +145,7 @@ LADDER = {'Automated Farming Equipment': {'jobs': [('Farm Machine Helper',
                         'reviewed weekly. Evidence is a plan, a checklist and a review report. Cost per '
                         'kilowatt and break-even must be calculated.'),
                        ('L5 Specialist',
-                        ['Design a energy system design for a demanding client',
+                        ['Design an energy system design for a demanding client',
                          'Analyse energy used per unit of output to find the root cause of a problem',
                          'Coach junior staff and check their energy audit work'],
                         'For installers and auditors with a year or more on real roofs and panels. Across '
@@ -334,7 +334,7 @@ LADDER = {'Automated Farming Equipment': {'jobs': [('Farm Machine Helper',
                    ('L2 Awareness',
                     ['Explain how information technology affects daily life in Sao Paulo',
                      'List the main risks, such as security breaches and outages, and who handles them',
-                     'Compare two examples of a IT service and note the differences'],
+                     'Compare two examples of an IT service and note the differences'],
                     'Written for office managers, students and career changers who deal with technical '
                     'staff. Over 15 to 25 hours you compare two IT services in Sao Paulo, such as managed '
                     'support and cloud hosting, and explain breaches, outages, backups and licences in plain '
@@ -350,7 +350,7 @@ LADDER = {'Automated Farming Equipment': {'jobs': [('Farm Machine Helper',
                     'work is the standard: right user, right fix, no shortcuts around permissions, honest '
                     'notes.'),
                    ('L4 Practitioner: Plan, Start and Run',
-                    ['Plan a IT service for Sao Paulo using local demand, costs and a risk list',
+                    ['Plan an IT service for Sao Paulo using local demand, costs and a risk list',
                      'Prepare a budget, timeline and checklist for data protection and software licence '
                      'rules; check the current official text',
                      'Run the first 90 days and review ticket resolution time each week'],
@@ -415,7 +415,7 @@ LADDER = {'Automated Farming Equipment': {'jobs': [('Farm Machine Helper',
                                     ['Explain how internet companies affects daily life in Sao Paulo',
                                      'List the main risks, such as data leaks and downtime, and who handles '
                                      'them',
-                                     'Compare two examples of a online service and note the differences'],
+                                     'Compare two examples of an online service and note the differences'],
                                     'Aimed at owners of small shops, sales staff and students who must '
                                     'discuss online trade with developers and couriers. In about 15 to 25 '
                                     'hours you compare two Sao Paulo services, covering delivery promise, '
@@ -423,7 +423,7 @@ LADDER = {'Automated Farming Equipment': {'jobs': [('Farm Machine Helper',
                                     'fails. Evidence is a short comparison report. The standard is '
                                     'explaining risks plainly.'),
                                    ('L3 Foundation',
-                                    ['Use a analytics dashboard to complete a simple task',
+                                    ['Use an analytics dashboard to complete a simple task',
                                      'Record monthly active users in a clear table',
                                      'Follow safe and correct steps for a routine user journey'],
                                     'Trainees learn the daily tools: a dashboard of visits, orders and '
@@ -433,7 +433,7 @@ LADDER = {'Automated Farming Equipment': {'jobs': [('Farm Machine Helper',
                                     'tickets is the evidence. Supervised accuracy and honest records are '
                                     'expected.'),
                                    ('L4 Practitioner: Plan, Start and Run',
-                                    ['Plan a online service for Sao Paulo using local demand, costs and a '
+                                    ['Plan an online service for Sao Paulo using local demand, costs and a '
                                      'risk list',
                                      'Prepare a budget, timeline and checklist for data protection and '
                                      'consumer rules; check the current official text',
@@ -494,7 +494,7 @@ LADDER = {'Automated Farming Equipment': {'jobs': [('Farm Machine Helper',
                           ('L2 Awareness',
                            ['Explain how oil and gas affects daily life in Sao Paulo',
                             'List the main risks, such as fires, leaks and spills, and who handles them',
-                            'Compare two examples of a oil and gas operation and note the differences'],
+                            'Compare two examples of an oil and gas operation and note the differences'],
                            'For managers, students and neighbours who need to talk sensibly with the sector. '
                            'Over 15 to 25 hours you compare two operations serving Sao Paulo, such as a fuel '
                            'terminal and a pipeline maintenance contractor, and explain leaks, fires and '
@@ -510,7 +510,7 @@ LADDER = {'Automated Farming Equipment': {'jobs': [('Farm Machine Helper',
                            'work without a valid permit, gas test readings written down, and stop-work used '
                            'when unsure.'),
                           ('L4 Practitioner: Plan, Start and Run',
-                           ['Plan a oil and gas operation for Sao Paulo using local demand, costs and a risk '
+                           ['Plan an oil and gas operation for Sao Paulo using local demand, costs and a risk '
                             'list',
                             'Prepare a budget, timeline and checklist for petroleum sector, environmental '
                             'and safety rules; check the current official text',
@@ -734,7 +734,7 @@ LADDER = {'Automated Farming Equipment': {'jobs': [('Farm Machine Helper',
                         'slides': [('L1 Basic',
                                     ['Name the main parts of smart home building in plain words',
                                      'Identify one smart home project in Sao Paulo and what it does',
-                                     'Describe a normal day for a installation helper'],
+                                     'Describe a normal day for an installation helper'],
                                     'No experience is required. In 6 to 10 hours you learn what makes a home '
                                     'smart: lights, locks, sensors and a network, and why wiring must be '
                                     'safe. Evidence is a short quiz or labelled floor plan. The standard is '
