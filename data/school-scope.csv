@@ -1,0 +1,793 @@
+plan,grade,stream,subject,unit_id,unit,weeks,first_week,last_week,outcome
+esl-e1,E1,,ESL,GE1-ESL-01,Hello and me,4,1,4,"greet people, give my name and age and spell my name"
+esl-e1,E1,,ESL,GE1-ESL-02,"Numbers, colours and shapes",4,5,8,say numbers to 20 and name colours and shapes
+esl-e1,E1,,ESL,GE1-ESL-03,My family and my home,4,9,12,name family members and rooms in a house
+esl-e1,E1,,ESL,GE1-ESL-04,School things and classroom language,3,13,15,name school objects and follow classroom instructions
+esl-e1,E1,,ESL,GE1-ESL-05,Food and drink,3,16,18,say what I like and ask for food politely
+esl-e1,E1,,ESL,GE1-ESL-06,Animals and the body,3,19,21,name animals and body parts and say what they can do
+esl-e1,E1,,ESL,GE1-ESL-07,Clothes and weather,3,22,24,describe what I wear and the weather
+esl-e1,E1,,ESL,GE1-ESL-08,"Letters, sounds and first words",3,25,27,match letters to sounds and read simple words
+esl-e1,E1,,ESL,GE1-ESL-09,Listening and speaking practice,3,28,30,follow a short talk and answer simple questions
+esl-e1,E1,,ESL,GE1-ESL-10,Writing my first sentences,3,31,33,write short sentences with capital letters and full stops
+esl-e1,E1,,ESL,GE1-ESL-11,Review and showcase,3,34,36,present a short talk about myself
+esl-e2,E2,,ESL,GE2-ESL-01,Daily routines,4,1,4,talk about my day using the present simple
+esl-e2,E2,,ESL,GE2-ESL-02,Places in town,4,5,8,ask for and give simple directions
+esl-e2,E2,,ESL,GE2-ESL-03,Hobbies and sports,4,9,12,say what I like and can do
+esl-e2,E2,,ESL,GE2-ESL-04,Shopping and money,3,13,15,ask the price and buy something
+esl-e2,E2,,ESL,GE2-ESL-05,Past events,3,16,18,tell a simple story about yesterday using the past simple
+esl-e2,E2,,ESL,GE2-ESL-06,Describing people and things,3,19,21,use adjectives and comparatives
+esl-e2,E2,,ESL,GE2-ESL-07,Health and feelings,3,22,24,say how I feel and what is wrong
+esl-e2,E2,,ESL,GE2-ESL-08,Reading short texts,3,25,27,find main ideas and details in a short text
+esl-e2,E2,,ESL,GE2-ESL-09,Writing paragraphs,3,28,30,write five connected sentences on a topic
+esl-e2,E2,,ESL,GE2-ESL-10,Listening for information,3,31,33,take notes from a short audio
+esl-e2,E2,,ESL,GE2-ESL-11,Review and showcase,3,34,36,present a short project
+esl-e3,E3,,ESL,GE3-ESL-01,Plans and future,4,1,4,use going to and will to talk about plans
+esl-e3,E3,,ESL,GE3-ESL-02,Travel and holidays,4,5,8,describe a trip and book tickets
+esl-e3,E3,,ESL,GE3-ESL-03,School subjects and study skills,4,9,12,ask for help and follow subject instructions
+esl-e3,E3,,ESL,GE3-ESL-04,Science and nature words,3,13,15,read simple science texts and learn key words
+esl-e3,E3,,ESL,GE3-ESL-05,Stories and characters,3,16,18,read a short story and retell it
+esl-e3,E3,,ESL,GE3-ESL-06,Opinions and reasons,3,19,21,give opinions with because and so
+esl-e3,E3,,ESL,GE3-ESL-07,Emails and notes,3,22,24,write a short email and note
+esl-e3,E3,,ESL,GE3-ESL-08,Grammar in use,3,25,27,use present perfect and conditionals in simple ways
+esl-e3,E3,,ESL,GE3-ESL-09,Listening to lessons,3,28,30,follow a short classroom explanation
+esl-e3,E3,,ESL,GE3-ESL-10,Speaking with confidence,3,31,33,take part in a pair or group discussion
+esl-e3,E3,,ESL,GE3-ESL-11,Review and showcase,3,34,36,present and answer questions
+esl-e4,E4,,ESL,GE4-ESL-01,Academic reading,4,1,4,read subject texts and find main ideas and evidence
+esl-e4,E4,,ESL,GE4-ESL-02,Academic writing,4,5,8,write a structured paragraph and short essay
+esl-e4,E4,,ESL,GE4-ESL-03,Note-taking and summarising,4,9,12,take notes and write a short summary
+esl-e4,E4,,ESL,GE4-ESL-04,Subject vocabulary: maths and science,4,13,16,use key terms in class tasks
+esl-e4,E4,,ESL,GE4-ESL-05,Subject vocabulary: social studies and computing,4,17,20,use key terms in class tasks
+esl-e4,E4,,ESL,GE4-ESL-06,Presentations and discussion,4,21,24,present and respond to questions
+esl-e4,E4,,ESL,GE4-ESL-07,Grammar for accuracy,4,25,28,"control tenses, articles and prepositions"
+esl-e4,E4,,ESL,GE4-ESL-08,Exam skills,4,29,32,manage time and read questions carefully
+esl-e4,E4,,ESL,GE4-ESL-09,Review and exit check,4,33,36,show readiness to join the main class
+grade-01,1,,ENG,G01-ENG-01,Letter sounds and phonics set 1,6,1,6,"hear, say and match the 26 letter sounds and blend three-letter words"
+grade-01,1,,ENG,G01-ENG-02,Reading simple words,6,7,12,read common short words and decode simple regular words
+grade-01,1,,ENG,G01-ENG-03,Writing letters and my name,5,13,17,form letters correctly and write my first name and short labels
+grade-01,1,,ENG,G01-ENG-04,Simple sentences,5,18,22,say and write a sentence that starts with a capital letter and ends with a full stop
+grade-01,1,,ENG,G01-ENG-05,Naming words,3,23,25,"sort words for people, animals, places and things"
+grade-01,1,,ENG,G01-ENG-06,Action words,3,26,28,act out and use action words in sentences
+grade-01,1,,ENG,G01-ENG-07,Rhymes and short stories,5,29,33,"retell a story with beginning, middle and end and join in with rhymes"
+grade-01,1,,ENG,G01-ENG-08,Speaking and listening,3,34,36,"take turns, listen to instructions and speak in a full sentence"
+grade-01,1,,MAT,G01-MAT-01,Numbers to 20,4,1,4,"count, read, write and order numbers to 20"
+grade-01,1,,MAT,G01-MAT-02,Numbers to 100,5,5,9,"count in ones and tens, read and write numbers to 100, tens and ones"
+grade-01,1,,MAT,G01-MAT-03,Adding within 20,5,10,14,"add using objects, number lines and number bonds to 10"
+grade-01,1,,MAT,G01-MAT-04,Taking away within 20,5,15,19,"subtract using objects and number lines, and link adding with taking away"
+grade-01,1,,MAT,G01-MAT-05,Shapes around us,4,20,23,name and sort flat and solid shapes by their features
+grade-01,1,,MAT,G01-MAT-06,Length and weight,4,24,27,compare and order objects by length and weight using everyday words
+grade-01,1,,MAT,G01-MAT-07,Time,4,28,31,tell time to the hour and half hour and order the days of the week
+grade-01,1,,MAT,G01-MAT-08,Money,3,32,34,name coins and notes and make small amounts
+grade-01,1,,MAT,G01-MAT-09,Patterns and sorting,2,35,36,continue and make patterns and sort by one rule
+grade-01,1,,SCI,G01-SCI-01,My body and my senses,6,1,6,name main body parts and match each sense to its organ
+grade-01,1,,SCI,G01-SCI-02,Plants around us,6,7,12,name parts of a plant and say what plants need
+grade-01,1,,SCI,G01-SCI-03,Animals,6,13,18,sort animals by where they live and what they eat
+grade-01,1,,SCI,G01-SCI-04,Food and healthy habits,4,19,22,group foods and choose healthy habits
+grade-01,1,,SCI,G01-SCI-05,Water,4,23,26,say where water comes from and why we need it
+grade-01,1,,SCI,G01-SCI-06,Weather and seasons,6,27,32,record weather and match clothes to weather
+grade-01,1,,SCI,G01-SCI-07,Materials,4,33,36,sort everyday objects by what they are made of
+grade-01,1,,SST,G01-SST-01,My family and my school,11,1,11,describe family roles and school rules
+grade-01,1,,SST,G01-SST-02,Home and neighbourhood,10,12,21,name places in the neighbourhood and the people who help us
+grade-01,1,,SST,G01-SST-03,Our country the UAE,10,22,31,"recognise the flag, the leaders' roles and national symbols"
+grade-01,1,,SST,G01-SST-04,Festivals and celebrations,5,32,36,describe how families celebrate festivals
+grade-01,1,,COM,G01-COM-01,Parts of a computer,12,1,12,"name the screen, keyboard, mouse and their jobs"
+grade-01,1,,COM,G01-COM-02,Mouse and keyboard skills,12,13,24,"click, drag and type letters and my name"
+grade-01,1,,COM,G01-COM-03,Drawing on a computer,6,25,30,make a simple picture with a drawing tool
+grade-01,1,,COM,G01-COM-04,Staying safe with screens,6,31,36,follow simple rules for screen time and sharing
+grade-01,1,,VAL,G01-VAL-01,Kindness and sharing,9,1,9,show kind actions and say why they matter
+grade-01,1,,VAL,G01-VAL-02,Honesty,9,10,18,tell the truth in a simple story and say how it feels
+grade-01,1,,VAL,G01-VAL-03,Respect and manners,9,19,27,use polite words and listen to others
+grade-01,1,,VAL,G01-VAL-04,Caring for the environment,9,28,36,choose small actions that save water and reduce waste
+grade-01,1,,ARA,G01-ARA-01,Letters and sounds,9,1,9,recognise and say the Arabic letters with short vowels
+grade-01,1,,ARA,G01-ARA-02,Greetings and polite words,9,10,18,use common greetings and thanks
+grade-01,1,,ARA,G01-ARA-03,My family and my house,9,19,27,name family members and rooms
+grade-01,1,,ARA,G01-ARA-04,"Colours, numbers and animals",9,28,36,"name colours, numbers to 10 and animals"
+grade-01,1,,HIN,G01-HIN-01,Letters and sounds,9,1,9,say and write Hindi vowels and consonants
+grade-01,1,,HIN,G01-HIN-02,Matras: short and long vowel signs,9,10,18,read words with matras
+grade-01,1,,HIN,G01-HIN-03,Simple words and objects,9,19,27,read and write simple words
+grade-01,1,,HIN,G01-HIN-04,Rhymes,9,28,36,recite short rhymes
+grade-01,1,,FRE,G01-FRE-01,Greetings and introductions,9,1,9,introduce myself in French
+grade-01,1,,FRE,G01-FRE-02,Numbers and colours,9,10,18,say numbers and colours
+grade-01,1,,FRE,G01-FRE-03,Fruits and food,9,19,27,name fruits and food
+grade-01,1,,FRE,G01-FRE-04,Days of the week and months,9,28,36,say the days and months
+grade-01,1,,ISL,G01-ISL-01,The Holy Qur'an: recitation and memorisation,6,1,6,"recite and understand the selected passages for this grade (grade 1, as set in the ministry syllabus)"
+grade-01,1,,ISL,G01-ISL-02,Faith and belief,6,7,12,"explain the pillars of faith in age-appropriate words (grade 1, as set in the ministry syllabus)"
+grade-01,1,,ISL,G01-ISL-03,Worship and practice,6,13,18,"describe the acts of worship and how to carry them out (grade 1, as set in the ministry syllabus)"
+grade-01,1,,ISL,G01-ISL-04,Stories of the prophets and the life of the Prophet,6,19,24,"tell and explain lessons from the stories studied (grade 1, as set in the ministry syllabus)"
+grade-01,1,,ISL,G01-ISL-05,Manners and values,6,25,30,"apply the values of honesty, respect and kindness in daily life (grade 1, as set in the ministry syllabus)"
+grade-01,1,,ISL,G01-ISL-06,Islamic civilisation and contribution,6,31,36,"describe how learning and culture grew in Islamic history (grade 1, as set in the ministry syllabus)"
+grade-02,2,,ENG,G02-ENG-01,Phonics set 2 and spelling patterns,5,1,5,read and spell words with common vowel pairs and blends
+grade-02,2,,ENG,G02-ENG-02,Reading short passages,5,6,10,"read a short passage aloud and answer who, what, where questions"
+grade-02,2,,ENG,G02-ENG-03,"Nouns, common and proper",5,11,15,tell common nouns from names that need capital letters
+grade-02,2,,ENG,G02-ENG-04,"Punctuation: full stop, comma, question mark",3,16,18,"use a full stop, comma and question mark correctly"
+grade-02,2,,ENG,G02-ENG-05,Verbs and describing words,5,19,23,use verbs and adjectives to make a sentence richer
+grade-02,2,,ENG,G02-ENG-06,Poems and rhymes,5,24,28,"read, recite and make a short rhyming poem"
+grade-02,2,,ENG,G02-ENG-07,Picture composition,5,29,33,write four connected sentences about a picture
+grade-02,2,,ENG,G02-ENG-08,Speaking and listening,3,34,36,"retell, ask questions and respond politely"
+grade-02,2,,MAT,G02-MAT-01,Place value to 100,4,1,4,show a number as tens and ones and compare numbers
+grade-02,2,,MAT,G02-MAT-02,Addition to 100,5,5,9,add two-digit numbers with and without carrying
+grade-02,2,,MAT,G02-MAT-03,Subtraction to 100,5,10,14,subtract two-digit numbers with and without borrowing
+grade-02,2,,MAT,G02-MAT-04,Multiplication as equal groups,5,15,19,"use groups, arrays and repeated adding; the tables of 2, 5 and 10"
+grade-02,2,,MAT,G02-MAT-05,Sharing and grouping,4,20,23,share equally and link sharing to multiplication
+grade-02,2,,MAT,G02-MAT-06,Fractions: halves and quarters,4,24,27,"name and show halves, thirds and quarters of shapes"
+grade-02,2,,MAT,G02-MAT-07,"Length, mass and capacity",4,28,31,measure with units and choose the right tool
+grade-02,2,,MAT,G02-MAT-08,Time and money,3,32,34,read time to five minutes and add small amounts of money
+grade-02,2,,MAT,G02-MAT-09,Shapes and data,2,35,36,name flat and solid shapes and read simple picture graphs
+grade-02,2,,SCI,G02-SCI-01,Plants and how they grow,7,1,7,describe a plant life cycle and what seeds need
+grade-02,2,,SCI,G02-SCI-02,Animals and their homes,7,8,14,match animals to habitats and young to parents
+grade-02,2,,SCI,G02-SCI-03,Water and the water cycle,7,15,21,name sources of water and the stages of the water cycle
+grade-02,2,,SCI,G02-SCI-04,Air and weather,5,22,26,show that air is all around and read a simple weather chart
+grade-02,2,,SCI,G02-SCI-05,Materials and their uses,4,27,30,say why a material is chosen for an object
+grade-02,2,,SCI,G02-SCI-06,Light and shadows,4,31,34,say what makes a shadow and test which things let light through
+grade-02,2,,SCI,G02-SCI-07,Keeping healthy,2,35,36,"plan a day of healthy food, sleep and play"
+grade-02,2,,SST,G02-SST-01,What is a school,14,1,14,"describe people, rules and places in a school and draw a school map"
+grade-02,2,,SST,G02-SST-02,Our neighbourhood and community,9,15,23,describe community helpers and public places
+grade-02,2,,SST,G02-SST-03,The UAE: emirates and landmarks,9,24,32,name the seven emirates and some landmarks
+grade-02,2,,SST,G02-SST-04,Needs and wants,4,33,36,sort needs from wants
+grade-02,2,,COM,G02-COM-01,Using a text editor,12,1,12,"open, type, save and name a simple document"
+grade-02,2,,COM,G02-COM-02,Drawing and colouring tools,12,13,24,"use shapes, fill and undo in a drawing tool"
+grade-02,2,,COM,G02-COM-03,Giving clear instructions,12,25,36,write step-by-step instructions for a daily task
+grade-02,2,,VAL,G02-VAL-01,Special gifts and gratitude,9,1,9,say thank you and name things we are grateful for
+grade-02,2,,VAL,G02-VAL-02,Friendship,9,10,18,solve a small friendship problem kindly
+grade-02,2,,VAL,G02-VAL-03,Responsibility,9,19,27,keep a simple class or home job
+grade-02,2,,VAL,G02-VAL-04,Fairness and rules,9,28,36,take turns and explain why rules help
+grade-02,2,,ARA,G02-ARA-01,Short words and sentences,9,1,9,read and write short words and sentences
+grade-02,2,,ARA,G02-ARA-02,At school,9,10,18,name school objects and give classroom commands
+grade-02,2,,ARA,G02-ARA-03,Food and fruits,9,19,27,name common foods and say what I like
+grade-02,2,,ARA,G02-ARA-04,Songs and short stories,9,28,36,enjoy and retell short stories
+grade-02,2,,HIN,G02-HIN-01,Family and home words,9,1,9,name family members
+grade-02,2,,HIN,G02-HIN-02,Colours and numbers,9,10,18,name colours and numbers to 20
+grade-02,2,,HIN,G02-HIN-03,Animals and birds,9,19,27,name animals and birds
+grade-02,2,,HIN,G02-HIN-04,Short sentences,9,28,36,read and write short sentences
+grade-02,2,,FRE,G02-FRE-01,Family and friends,9,1,9,name family members
+grade-02,2,,FRE,G02-FRE-02,My school,9,10,18,name school objects
+grade-02,2,,FRE,G02-FRE-03,Animals and body,9,19,27,name animals and body parts
+grade-02,2,,FRE,G02-FRE-04,Songs and rhymes,9,28,36,sing short songs
+grade-02,2,,ISL,G02-ISL-01,The Holy Qur'an: recitation and memorisation,6,1,6,"recite and understand the selected passages for this grade (grade 2, as set in the ministry syllabus)"
+grade-02,2,,ISL,G02-ISL-02,Faith and belief,6,7,12,"explain the pillars of faith in age-appropriate words (grade 2, as set in the ministry syllabus)"
+grade-02,2,,ISL,G02-ISL-03,Worship and practice,6,13,18,"describe the acts of worship and how to carry them out (grade 2, as set in the ministry syllabus)"
+grade-02,2,,ISL,G02-ISL-04,Stories of the prophets and the life of the Prophet,6,19,24,"tell and explain lessons from the stories studied (grade 2, as set in the ministry syllabus)"
+grade-02,2,,ISL,G02-ISL-05,Manners and values,6,25,30,"apply the values of honesty, respect and kindness in daily life (grade 2, as set in the ministry syllabus)"
+grade-02,2,,ISL,G02-ISL-06,Islamic civilisation and contribution,6,31,36,"describe how learning and culture grew in Islamic history (grade 2, as set in the ministry syllabus)"
+grade-03,3,,ENG,G03-ENG-01,Reading stories and poems,5,1,5,read a story or poem and say the main idea and favourite part
+grade-03,3,,ENG,G03-ENG-02,Subject and predicate,5,6,10,find who or what a sentence is about and what it says about it
+grade-03,3,,ENG,G03-ENG-03,"Nouns, pronouns and adjectives",5,11,15,use them correctly and for variety
+grade-03,3,,ENG,G03-ENG-04,Verbs and simple tenses,5,16,20,"use present, past and future verbs correctly"
+grade-03,3,,ENG,G03-ENG-05,Paragraph writing,5,21,25,write a paragraph with a topic sentence and supporting sentences
+grade-03,3,,ENG,G03-ENG-06,Poetry and nonsense verse,5,26,30,"read limericks, notice rhyme and rhythm and write one"
+grade-03,3,,ENG,G03-ENG-07,Dictionary and spelling skills,3,31,33,use alphabetical order and a dictionary to find and check words
+grade-03,3,,ENG,G03-ENG-08,Speaking and listening,3,34,36,give a one-minute talk and ask a question about a talk
+grade-03,3,,MAT,G03-MAT-01,Numbers to 1000,3,1,3,"read, write, order and compare numbers to 1000"
+grade-03,3,,MAT,G03-MAT-02,Place value,2,4,5,"show hundreds, tens and ones and round to the nearest ten"
+grade-03,3,,MAT,G03-MAT-03,Addition,4,6,9,add up to three-digit numbers with carrying and solve word problems
+grade-03,3,,MAT,G03-MAT-04,Subtraction,4,10,13,subtract up to three-digit numbers with borrowing and check by adding
+grade-03,3,,MAT,G03-MAT-05,Multiplication,4,14,17,"use tables to 10, multiply a two-digit number by one digit"
+grade-03,3,,MAT,G03-MAT-06,Division,4,18,21,"divide as sharing and grouping, link to tables, with remainders"
+grade-03,3,,MAT,G03-MAT-07,Fractions,4,22,25,"name, compare and add simple fractions of a whole and of a set"
+grade-03,3,,MAT,G03-MAT-08,Time,2,26,27,"read clocks to the minute, use a.m. and p.m. and find elapsed time"
+grade-03,3,,MAT,G03-MAT-09,Measurement,2,28,29,"measure length, mass and capacity and convert between metric units"
+grade-03,3,,MAT,G03-MAT-10,Geometry,2,30,31,"name angles, lines and 2D and 3D shapes by their properties"
+grade-03,3,,MAT,G03-MAT-11,Patterns,1,32,32,continue and describe number and shape patterns
+grade-03,3,,MAT,G03-MAT-12,Money,2,33,34,"add, subtract and give change in dirhams and fils"
+grade-03,3,,MAT,G03-MAT-13,Data handling,2,35,36,"read and make tally charts, pictographs and bar graphs"
+grade-03,3,,SCI,G03-SCI-01,Plant life,6,1,6,"name parts of a plant and their jobs, and describe how seeds spread"
+grade-03,3,,SCI,G03-SCI-02,Animal life and adaptation,5,7,11,link body features to habitats including desert and sea
+grade-03,3,,SCI,G03-SCI-03,Food and digestion,5,12,16,group nutrients and describe the journey of food
+grade-03,3,,SCI,G03-SCI-04,"Rocks, soil and water",5,17,21,compare soils and describe how water is used and saved
+grade-03,3,,SCI,G03-SCI-05,Light and shadows,5,22,26,explain how shadows form and how they change in length
+grade-03,3,,SCI,G03-SCI-06,Forces and motion,5,27,31,describe pushes and pulls and the effect of friction
+grade-03,3,,SCI,G03-SCI-07,Weather and the sky,5,32,36,"link the sun, moon and weather to daily and seasonal change"
+grade-03,3,,SST,G03-SST-01,The United Arab Emirates,12,1,12,"locate the seven emirates, describe leaders, symbols, landmarks and heritage"
+grade-03,3,,SST,G03-SST-02,Maps and directions,9,13,21,read a simple map using a key and compass points
+grade-03,3,,SST,G03-SST-03,Communities and helpers,9,22,30,describe how people work together and why services matter
+grade-03,3,,SST,G03-SST-04,Heritage and traditions,6,31,36,describe traditional life in the Gulf and what we keep today
+grade-03,3,,COM,G03-COM-01,Pictures and shapes in a drawing program,14,1,14,"rotate, resize, colour and save a picture"
+grade-03,3,,COM,G03-COM-02,Typing and word processing basics,9,15,23,type a short text and format it
+grade-03,3,,COM,G03-COM-03,Algorithms and loops without a computer,9,24,32,write and test a sequence of steps with a repeat
+grade-03,3,,COM,G03-COM-04,Online safety,4,33,36,say what to keep private and who to tell when something feels wrong
+grade-03,3,,VAL,G03-VAL-01,Learning from mistakes,9,1,9,describe a mistake and what was learned
+grade-03,3,,VAL,G03-VAL-02,Kindness in action,9,10,18,plan a small act of service
+grade-03,3,,VAL,G03-VAL-03,Teamwork,9,19,27,work in a group and share jobs fairly
+grade-03,3,,VAL,G03-VAL-04,Caring for the Earth,9,28,36,"choose reduce, reuse and recycle actions"
+grade-03,3,,ARA,G03-ARA-01,Reading simple passages,9,1,9,read and answer questions on a short text
+grade-03,3,,ARA,G03-ARA-02,Nouns and verbs,9,10,18,tell nouns from verbs and use them in sentences
+grade-03,3,,ARA,G03-ARA-03,Daily life and the beach,9,19,27,describe a day and a trip
+grade-03,3,,ARA,G03-ARA-04,Writing short sentences,9,28,36,write three connected sentences
+grade-03,3,,HIN,G03-HIN-01,Reading short passages,9,1,9,read and answer questions
+grade-03,3,,HIN,G03-HIN-02,Nouns and gender,9,10,18,tell nouns and their gender
+grade-03,3,,HIN,G03-HIN-03,Poems and stories,9,19,27,recite a poem and retell a story
+grade-03,3,,HIN,G03-HIN-04,Writing sentences,9,28,36,write sentences about a picture
+grade-03,3,,FRE,G03-FRE-01,Presenting a friend,9,1,9,describe a friend
+grade-03,3,,FRE,G03-FRE-02,The verbs to have and to be,9,10,18,use avoir and etre
+grade-03,3,,FRE,G03-FRE-03,Adjectives and plural,9,19,27,use simple adjectives and plurals
+grade-03,3,,FRE,G03-FRE-04,Free time and hobbies,9,28,36,talk about hobbies
+grade-03,3,,ISL,G03-ISL-01,The Holy Qur'an: recitation and memorisation,6,1,6,"recite and understand the selected passages for this grade (grade 3, as set in the ministry syllabus)"
+grade-03,3,,ISL,G03-ISL-02,Faith and belief,6,7,12,"explain the pillars of faith in age-appropriate words (grade 3, as set in the ministry syllabus)"
+grade-03,3,,ISL,G03-ISL-03,Worship and practice,6,13,18,"describe the acts of worship and how to carry them out (grade 3, as set in the ministry syllabus)"
+grade-03,3,,ISL,G03-ISL-04,Stories of the prophets and the life of the Prophet,6,19,24,"tell and explain lessons from the stories studied (grade 3, as set in the ministry syllabus)"
+grade-03,3,,ISL,G03-ISL-05,Manners and values,6,25,30,"apply the values of honesty, respect and kindness in daily life (grade 3, as set in the ministry syllabus)"
+grade-03,3,,ISL,G03-ISL-06,Islamic civilisation and contribution,6,31,36,"describe how learning and culture grew in Islamic history (grade 3, as set in the ministry syllabus)"
+grade-04,4,,ENG,G04-ENG-01,Prose reading and main ideas,5,1,5,summarise a passage and find evidence for an answer
+grade-04,4,,ENG,G04-ENG-02,Prefixes and suffixes,5,6,10,build and spell new words and say what they mean
+grade-04,4,,ENG,G04-ENG-03,Adverbs and prepositions,5,11,15,use adverbs and prepositions to add detail
+grade-04,4,,ENG,G04-ENG-04,Tenses and subject-verb agreement,5,16,20,"use simple, continuous and perfect tenses and match verbs to subjects"
+grade-04,4,,ENG,G04-ENG-05,Essay and letter writing,5,21,25,plan and write a short essay and an informal letter
+grade-04,4,,ENG,G04-ENG-06,Poetry,5,26,30,"read and respond to a poem, noticing imagery and sound"
+grade-04,4,,ENG,G04-ENG-07,Comprehension and vocabulary,3,31,33,use context to work out new words
+grade-04,4,,ENG,G04-ENG-08,Speaking and listening,3,34,36,"present, listen and respond with a reason"
+grade-04,4,,MAT,G04-MAT-01,Large numbers,3,1,3,"read, write, round and compare numbers to 10,000"
+grade-04,4,,MAT,G04-MAT-02,Addition and subtraction,4,4,7,add and subtract four-digit numbers and solve multi-step problems
+grade-04,4,,MAT,G04-MAT-03,Multiplication,4,8,11,multiply by one and two digits and use estimation
+grade-04,4,,MAT,G04-MAT-04,Division,4,12,15,divide up to four digits by one digit
+grade-04,4,,MAT,G04-MAT-05,Factors and multiples,4,16,19,"find factors, multiples and common multiples"
+grade-04,4,,MAT,G04-MAT-06,Fractions and decimals,4,20,23,"compare, add and subtract fractions; link tenths and hundredths to decimals"
+grade-04,4,,MAT,G04-MAT-07,Measurement and perimeter,3,24,26,find perimeter and area of rectangles and convert units
+grade-04,4,,MAT,G04-MAT-08,Time and calendar,3,27,29,"solve problems with time, timetables and the calendar"
+grade-04,4,,MAT,G04-MAT-09,Geometry,3,30,32,"classify angles, triangles and quadrilaterals and find lines of symmetry"
+grade-04,4,,MAT,G04-MAT-10,Data handling,3,33,35,read bar graphs and line graphs and find the mode
+grade-04,4,,MAT,G04-MAT-11,Patterns and money,1,36,36,continue number patterns and solve money problems
+grade-04,4,,SCI,G04-SCI-01,Adaptation in plants,6,1,6,"link plant features to desert, water and cold habitats"
+grade-04,4,,SCI,G04-SCI-02,Animal adaptations and food chains,5,7,11,build food chains and explain adaptation
+grade-04,4,,SCI,G04-SCI-03,The human body: digestion and teeth,5,12,16,describe digestion and care for teeth
+grade-04,4,,SCI,G04-SCI-04,States of matter,5,17,21,"compare solids, liquids and gases and show changes of state"
+grade-04,4,,SCI,G04-SCI-05,Sound,5,22,26,"explain how sound is made, travels and changes in pitch and loudness"
+grade-04,4,,SCI,G04-SCI-06,Electricity and circuits,5,27,31,build a simple circuit and test conductors and insulators
+grade-04,4,,SCI,G04-SCI-07,Earth and the solar system,5,32,36,"describe the sun, Earth and moon and why we have day and night"
+grade-04,4,,SST,G04-SST-01,Physical features of India and the Gulf,9,1,9,"compare plateaus, deserts, plains and coasts using maps"
+grade-04,4,,SST,G04-SST-02,People and places of the Gulf region,9,10,18,"describe countries, people, trade and resources of the Gulf"
+grade-04,4,,SST,G04-SST-03,UAE history and unity,9,19,27,sequence key events in the founding of the UAE
+grade-04,4,,SST,G04-SST-04,Citizenship and rules,9,28,36,"explain rights, duties and why we have laws"
+grade-04,4,,COM,G04-COM-01,Presentations,12,1,12,make a short slide presentation with text and pictures
+grade-04,4,,COM,G04-COM-02,Coding with blocks,12,13,24,write a block program with loops and events
+grade-04,4,,COM,G04-COM-03,Spreadsheets for beginners,8,25,32,enter data and make a simple chart
+grade-04,4,,COM,G04-COM-04,Digital citizenship,4,33,36,show respectful behaviour and spot unsafe messages
+grade-04,4,,VAL,G04-VAL-01,Honesty and trust,9,1,9,explain why trust takes time to build
+grade-04,4,,VAL,G04-VAL-02,Compassion,9,10,18,describe how to help someone who is sad or hurt
+grade-04,4,,VAL,G04-VAL-03,Perseverance,9,19,27,set a small goal and keep trying
+grade-04,4,,VAL,G04-VAL-04,Respecting differences,9,28,36,describe how people can be different and equal
+grade-04,4,,ARA,G04-ARA-01,Seasons and weather,9,1,9,describe the weather and seasons
+grade-04,4,,ARA,G04-ARA-02,Gardens and animals,9,10,18,describe a garden and its animals
+grade-04,4,,ARA,G04-ARA-03,Dictation and spelling,9,19,27,spell common words
+grade-04,4,,ARA,G04-ARA-04,Conversation practice,9,28,36,ask and answer questions
+grade-04,4,,HIN,G04-HIN-01,Verbs and tenses introduction,9,1,9,use simple verbs
+grade-04,4,,HIN,G04-HIN-02,Opposites and word meanings,9,10,18,use opposites
+grade-04,4,,HIN,G04-HIN-03,Letters and short messages,9,19,27,write a short message
+grade-04,4,,HIN,G04-HIN-04,Speaking practice,9,28,36,speak in short sentences
+grade-04,4,,FRE,G04-FRE-01,Reading short texts,9,1,9,read and answer
+grade-04,4,,FRE,G04-FRE-02,Writing short texts,9,10,18,write about me
+grade-04,4,,FRE,G04-FRE-03,Listening practice,9,19,27,follow a short dialogue
+grade-04,4,,FRE,G04-FRE-04,Speaking practice,9,28,36,give a short talk
+grade-04,4,,ISL,G04-ISL-01,The Holy Qur'an: recitation and memorisation,6,1,6,"recite and understand the selected passages for this grade (grade 4, as set in the ministry syllabus)"
+grade-04,4,,ISL,G04-ISL-02,Faith and belief,6,7,12,"explain the pillars of faith in age-appropriate words (grade 4, as set in the ministry syllabus)"
+grade-04,4,,ISL,G04-ISL-03,Worship and practice,6,13,18,"describe the acts of worship and how to carry them out (grade 4, as set in the ministry syllabus)"
+grade-04,4,,ISL,G04-ISL-04,Stories of the prophets and the life of the Prophet,6,19,24,"tell and explain lessons from the stories studied (grade 4, as set in the ministry syllabus)"
+grade-04,4,,ISL,G04-ISL-05,Manners and values,6,25,30,"apply the values of honesty, respect and kindness in daily life (grade 4, as set in the ministry syllabus)"
+grade-04,4,,ISL,G04-ISL-06,Islamic civilisation and contribution,6,31,36,"describe how learning and culture grew in Islamic history (grade 4, as set in the ministry syllabus)"
+grade-05,5,,ENG,G05-ENG-01,Reading fiction and non-fiction,5,1,5,compare a story and an information text on the same topic
+grade-05,5,,ENG,G05-ENG-02,"Pronouns, conjunctions and clauses",5,6,10,join ideas with conjunctions and use pronouns to avoid repeating
+grade-05,5,,ENG,G05-ENG-03,Informal and formal letters,5,11,15,write letters with correct layout and tone
+grade-05,5,,ENG,G05-ENG-04,Narrative writing,5,16,20,"plan and write a story with setting, problem and resolution"
+grade-05,5,,ENG,G05-ENG-05,Poetry and imagery,5,21,25,find simile and metaphor and write a short poem
+grade-05,5,,ENG,G05-ENG-06,Comprehension and inference,5,26,30,answer questions that need reading between the lines
+grade-05,5,,ENG,G05-ENG-07,Vocabulary and word origins,3,31,33,"use prefixes, suffixes and roots to work out meanings"
+grade-05,5,,ENG,G05-ENG-08,Speaking and debate,3,34,36,give an opinion with reasons and respond to a different view
+grade-05,5,,MAT,G05-MAT-01,Numbers to 10 lakh and millions,3,1,3,"read, write, compare and round large numbers"
+grade-05,5,,MAT,G05-MAT-02,Four operations,5,4,8,solve multi-step problems with all four operations
+grade-05,5,,MAT,G05-MAT-03,"Factors, multiples, HCF and LCM",5,9,13,find HCF and LCM and use them in word problems
+grade-05,5,,MAT,G05-MAT-04,Fractions,5,14,18,"add, subtract and multiply fractions and mixed numbers"
+grade-05,5,,MAT,G05-MAT-05,Decimals,4,19,22,"add, subtract and multiply decimals and link to money and measures"
+grade-05,5,,MAT,G05-MAT-06,Percentages and ratio,3,23,25,"link fractions, decimals and percentages and simple ratio"
+grade-05,5,,MAT,G05-MAT-07,"Perimeter, area and volume",4,26,29,find area of rectangles and triangles and volume of cuboids
+grade-05,5,,MAT,G05-MAT-08,Angles and shapes,3,30,32,measure and draw angles and classify polygons
+grade-05,5,,MAT,G05-MAT-09,Data and averages,3,33,35,"find mean, median and mode and read line graphs"
+grade-05,5,,MAT,G05-MAT-10,Algebra beginnings,1,36,36,use a letter for an unknown and solve simple equations
+grade-05,5,,SCI,G05-SCI-01,Living things: animals and life styles,6,1,6,"group animals by diet, habitat and life cycle"
+grade-05,5,,SCI,G05-SCI-02,The human body: systems,5,7,11,"describe the skeletal, muscular, respiratory and circulatory systems"
+grade-05,5,,SCI,G05-SCI-03,Plants and reproduction,5,12,16,"describe flower parts, pollination and seed dispersal"
+grade-05,5,,SCI,G05-SCI-04,Changes in materials,5,17,21,tell reversible from irreversible changes and mixtures from solutions
+grade-05,5,,SCI,G05-SCI-05,"Forces, gravity and simple machines",5,22,26,"show levers, pulleys and the effect of gravity"
+grade-05,5,,SCI,G05-SCI-06,Electricity and magnetism,5,27,31,use circuits and magnets and say how they are used
+grade-05,5,,SCI,G05-SCI-07,"Earth, space and environment",5,32,36,"describe the moon's phases, planets and how to protect resources"
+grade-05,5,,SST,G05-SST-01,Growth of knowledge and communication,9,1,9,trace how people shared knowledge from speech to the internet
+grade-05,5,,SST,G05-SST-02,Government and services,9,10,18,describe local and federal government roles and public services
+grade-05,5,,SST,G05-SST-03,"Trade, money and the economy",9,19,27,"explain barter, money, trade and the UAE's trade links"
+grade-05,5,,SST,G05-SST-04,Global links and sustainability,9,28,36,describe how countries depend on each other and protect resources
+grade-05,5,,COM,G05-COM-01,Advanced word and slide skills,12,1,12,"format a report with headings, images and a table"
+grade-05,5,,COM,G05-COM-02,Programming with blocks and sprites,12,13,24,build a game with variables and conditions
+grade-05,5,,COM,G05-COM-03,Spreadsheets and charts,8,25,32,use simple formulas and choose a chart
+grade-05,5,,COM,G05-COM-04,Safe and responsible internet use,4,33,36,check if a website is trustworthy and give credit
+grade-05,5,,VAL,G05-VAL-01,Integrity,9,1,9,explain integrity in school and sports
+grade-05,5,,VAL,G05-VAL-02,Empathy,9,10,18,describe a situation from another person's view
+grade-05,5,,VAL,G05-VAL-03,Leadership,9,19,27,lead a small team task with fair roles
+grade-05,5,,VAL,G05-VAL-04,Global citizenship,9,28,36,name a global issue and a local action
+grade-05,5,,ARA,G05-ARA-01,Reading and comprehension,9,1,9,answer questions on a longer text
+grade-05,5,,ARA,G05-ARA-02,Nominal and verbal sentences,9,10,18,identify and write both types
+grade-05,5,,ARA,G05-ARA-03,Sports and health,9,19,27,talk about sport and healthy living
+grade-05,5,,ARA,G05-ARA-04,Writing a paragraph,9,28,36,write a paragraph with a topic
+grade-05,5,,HIN,G05-HIN-01,Reading stories,9,1,9,read and understand a story
+grade-05,5,,HIN,G05-HIN-02,"Nouns, pronouns and adjectives",9,10,18,use them correctly
+grade-05,5,,HIN,G05-HIN-03,Prefixes and suffixes,9,19,27,build new words
+grade-05,5,,HIN,G05-HIN-04,Synonyms and opposites,9,28,36,use synonyms and antonyms
+grade-05,5,,FRE,G05-FRE-01,Describing my school,9,1,9,describe my school
+grade-05,5,,FRE,G05-FRE-02,"Regular verbs: er, ir, re",9,10,18,conjugate regular verbs
+grade-05,5,,FRE,G05-FRE-03,Negation and articles,9,19,27,use ne pas and articles
+grade-05,5,,FRE,G05-FRE-04,Nationalities and character,9,28,36,describe people
+grade-05,5,,ISL,G05-ISL-01,The Holy Qur'an: recitation and memorisation,6,1,6,"recite and understand the selected passages for this grade (grade 5, as set in the ministry syllabus)"
+grade-05,5,,ISL,G05-ISL-02,Faith and belief,6,7,12,"explain the pillars of faith in age-appropriate words (grade 5, as set in the ministry syllabus)"
+grade-05,5,,ISL,G05-ISL-03,Worship and practice,6,13,18,"describe the acts of worship and how to carry them out (grade 5, as set in the ministry syllabus)"
+grade-05,5,,ISL,G05-ISL-04,Stories of the prophets and the life of the Prophet,6,19,24,"tell and explain lessons from the stories studied (grade 5, as set in the ministry syllabus)"
+grade-05,5,,ISL,G05-ISL-05,Manners and values,6,25,30,"apply the values of honesty, respect and kindness in daily life (grade 5, as set in the ministry syllabus)"
+grade-05,5,,ISL,G05-ISL-06,Islamic civilisation and contribution,6,31,36,"describe how learning and culture grew in Islamic history (grade 5, as set in the ministry syllabus)"
+grade-06,6,,ENG,G06-ENG-01,Reading prose and drama,6,1,6,"identify theme, character and point of view with evidence"
+grade-06,6,,ENG,G06-ENG-02,"Pronouns, tenses and sentence types",6,7,12,"use pronouns, tenses and four sentence types accurately"
+grade-06,6,,ENG,G06-ENG-03,Paragraph and descriptive writing,6,13,18,write a paragraph that describes a person or place with detail
+grade-06,6,,ENG,G06-ENG-04,Poetry and figurative language,6,19,24,"explain simile, metaphor and personification in a poem"
+grade-06,6,,ENG,G06-ENG-05,"Letters, notices and messages",6,25,30,write formal and informal messages for a purpose
+grade-06,6,,ENG,G06-ENG-06,Comprehension of unseen passages,3,31,33,"answer literal, inference and vocabulary questions"
+grade-06,6,,ENG,G06-ENG-07,Speaking and listening,3,34,36,present a short talk and give feedback
+grade-06,6,,MAT,G06-MAT-01,Knowing our numbers,4,1,4,"read, round and estimate large numbers and use the Roman system"
+grade-06,6,,MAT,G06-MAT-02,Whole numbers and number play,5,5,9,"use properties, factors, multiples, HCF and LCM, divisibility tests"
+grade-06,6,,MAT,G06-MAT-03,Fractions and decimals,5,10,14,compare and operate on fractions and decimals
+grade-06,6,,MAT,G06-MAT-04,Integers,3,15,17,use negative numbers on a number line and add and subtract integers
+grade-06,6,,MAT,G06-MAT-05,Ratio and proportion,3,18,20,"write ratios, simplify and solve unitary problems"
+grade-06,6,,MAT,G06-MAT-06,Basic geometry and shapes,5,21,25,"use a ruler, compass and protractor to draw and measure"
+grade-06,6,,MAT,G06-MAT-07,Mensuration,5,26,30,"find perimeter and area of squares, rectangles and composite shapes"
+grade-06,6,,MAT,G06-MAT-08,Algebra introduction,3,31,33,"use letters for numbers, write expressions and solve simple equations"
+grade-06,6,,MAT,G06-MAT-09,Data handling and symmetry,3,34,36,"draw bar graphs, find mean and identify lines of symmetry"
+grade-06,6,,SCI,G06-SCI-01,Food: where it comes from and components,4,1,4,group nutrients and test for starch
+grade-06,6,,SCI,G06-SCI-02,"Fibres, fabrics and materials",4,5,8,sort materials by properties and uses
+grade-06,6,,SCI,G06-SCI-03,Separation of substances,4,9,12,choose a method to separate a mixture
+grade-06,6,,SCI,G06-SCI-04,Changes around us,4,13,16,classify changes as physical or chemical
+grade-06,6,,SCI,G06-SCI-05,Living organisms and habitats,4,17,20,describe adaptation and the parts of the body of plants and animals
+grade-06,6,,SCI,G06-SCI-06,Motion and measurement,4,21,24,measure length and time and describe types of motion
+grade-06,6,,SCI,G06-SCI-07,"Light, shadows and reflections",4,25,28,show that light travels in straight lines and use mirrors
+grade-06,6,,SCI,G06-SCI-08,Electricity and circuits,4,29,32,draw circuit diagrams and test conductors
+grade-06,6,,SCI,G06-SCI-09,"Magnets, water and air",4,33,36,explain properties of magnets and the role of water and air
+grade-06,6,,SST,G06-SST-01,History: early humans to ancient civilisations,9,1,9,describe how early people lived and early cities began
+grade-06,6,,SST,G06-SST-02,Geography: Earth in space,9,10,18,"describe the solar system, latitudes and longitudes"
+grade-06,6,,SST,G06-SST-03,Geography: maps and landforms,9,19,27,read maps and describe major landforms
+grade-06,6,,SST,G06-SST-04,Civics: diversity and government,9,28,36,"describe diversity, government and local governance"
+grade-06,6,,COM,G06-COM-01,"Word, slides and spreadsheets in practice",11,1,11,"prepare a report with a table, chart and slides"
+grade-06,6,,COM,G06-COM-02,Algorithms and flowcharts,11,12,22,plan a solution with a flowchart and test it
+grade-06,6,,COM,G06-COM-03,"Programming in a text language, first steps",11,23,33,"write short programs with input, output and decisions"
+grade-06,6,,COM,G06-COM-04,Cyber safety and ethics,3,34,36,apply privacy and respectful communication rules
+grade-06,6,,VAL,G06-VAL-01,Integrity and honesty,9,1,9,decide what is right in a short case
+grade-06,6,,VAL,G06-VAL-02,Responsibility and service,9,10,18,plan a service project in the school
+grade-06,6,,VAL,G06-VAL-03,Respect for all,9,19,27,describe respect across cultures and abilities
+grade-06,6,,VAL,G06-VAL-04,Environmental care,9,28,36,measure and reduce waste at home
+grade-06,6,,ARA,G06-ARA-01,"Birds, nature and the environment",9,1,9,describe nature
+grade-06,6,,ARA,G06-ARA-02,Letters and invitations,9,10,18,write a short letter
+grade-06,6,,ARA,G06-ARA-03,Poems and sayings,9,19,27,recite and explain a short poem
+grade-06,6,,ARA,G06-ARA-04,Conversation and presentation,9,28,36,present a short talk
+grade-06,6,,HIN,G06-HIN-01,Letter writing,9,1,9,write a letter
+grade-06,6,,HIN,G06-HIN-02,Poems,9,10,18,recite and explain
+grade-06,6,,HIN,G06-HIN-03,Paragraph writing,9,19,27,write a paragraph
+grade-06,6,,HIN,G06-HIN-04,Speaking practice,9,28,36,present a short talk
+grade-06,6,,FRE,G06-FRE-01,Reading comprehension,9,1,9,answer questions
+grade-06,6,,FRE,G06-FRE-02,Writing practice,9,10,18,write a paragraph
+grade-06,6,,FRE,G06-FRE-03,Listening practice,9,19,27,follow dialogue
+grade-06,6,,FRE,G06-FRE-04,Speaking practice,9,28,36,hold a short conversation
+grade-06,6,,ISL,G06-ISL-01,The Holy Qur'an: recitation and memorisation,6,1,6,"recite and understand the selected passages for this grade (grade 6, as set in the ministry syllabus)"
+grade-06,6,,ISL,G06-ISL-02,Faith and belief,6,7,12,"explain the pillars of faith in age-appropriate words (grade 6, as set in the ministry syllabus)"
+grade-06,6,,ISL,G06-ISL-03,Worship and practice,6,13,18,"describe the acts of worship and how to carry them out (grade 6, as set in the ministry syllabus)"
+grade-06,6,,ISL,G06-ISL-04,Stories of the prophets and the life of the Prophet,6,19,24,"tell and explain lessons from the stories studied (grade 6, as set in the ministry syllabus)"
+grade-06,6,,ISL,G06-ISL-05,Manners and values,6,25,30,"apply the values of honesty, respect and kindness in daily life (grade 6, as set in the ministry syllabus)"
+grade-06,6,,ISL,G06-ISL-06,Islamic civilisation and contribution,6,31,36,"describe how learning and culture grew in Islamic history (grade 6, as set in the ministry syllabus)"
+grade-07,7,,ENG,G07-ENG-01,Prose and short stories,6,1,6,describe how setting and character shape a story
+grade-07,7,,ENG,G07-ENG-02,"Tenses, voice and reported speech",6,7,12,"use continuous tenses, active and passive and reported speech"
+grade-07,7,,ENG,G07-ENG-03,Paragraph and article writing,6,13,18,write an article with a clear opening and purpose
+grade-07,7,,ENG,G07-ENG-04,Poetry,6,19,24,"analyse rhythm, rhyme and imagery in a poem"
+grade-07,7,,ENG,G07-ENG-05,"Letters, emails and notices",6,25,30,write and format emails and formal letters
+grade-07,7,,ENG,G07-ENG-06,Reading unseen passages,3,31,33,"infer, summarise and use evidence"
+grade-07,7,,ENG,G07-ENG-07,Speaking and listening,3,34,36,take part in a discussion and speak without notes for one minute
+grade-07,7,,MAT,G07-MAT-01,Integers,3,1,3,"add, subtract, multiply and divide integers and use properties"
+grade-07,7,,MAT,G07-MAT-02,Fractions and decimals,4,4,7,multiply and divide fractions and decimals and solve problems
+grade-07,7,,MAT,G07-MAT-03,Data handling,3,8,10,"find mean, median, mode and range and read bar graphs"
+grade-07,7,,MAT,G07-MAT-04,Simple equations,3,11,13,solve and form equations in one variable
+grade-07,7,,MAT,G07-MAT-05,Lines and angles,3,14,16,"use angle pairs, parallel lines and transversals"
+grade-07,7,,MAT,G07-MAT-06,The triangle and its properties,4,17,20,use the angle-sum and exterior-angle properties and the Pythagoras property
+grade-07,7,,MAT,G07-MAT-07,Congruence of triangles,3,21,23,"test congruence with SSS, SAS, ASA and RHS"
+grade-07,7,,MAT,G07-MAT-08,Comparing quantities,3,24,26,"solve percentage, profit and loss, and simple interest problems"
+grade-07,7,,MAT,G07-MAT-09,Rational numbers,2,27,28,compare and operate on rational numbers
+grade-07,7,,MAT,G07-MAT-10,Practical geometry,1,29,29,"construct lines, angles and triangles"
+grade-07,7,,MAT,G07-MAT-11,Perimeter and area,2,30,31,"find area of parallelograms, triangles and circles"
+grade-07,7,,MAT,G07-MAT-12,Algebraic expressions,2,32,33,add and subtract expressions and find values
+grade-07,7,,MAT,G07-MAT-13,Exponents and powers,2,34,35,use laws of exponents and standard form
+grade-07,7,,MAT,G07-MAT-14,Symmetry and solid shapes,1,36,36,draw nets and views of solids and find lines of symmetry
+grade-07,7,,SCI,G07-SCI-01,Nutrition in plants and animals,4,1,4,describe photosynthesis and digestion
+grade-07,7,,SCI,G07-SCI-02,Fibre to fabric and heat,4,5,8,compare conductors and insulators and temperature scales
+grade-07,7,,SCI,G07-SCI-03,"Acids, bases and salts",4,9,12,test with indicators and describe neutralisation
+grade-07,7,,SCI,G07-SCI-04,Physical and chemical changes,4,13,16,explain rusting and crystallisation
+grade-07,7,,SCI,G07-SCI-05,"Weather, climate and adaptation",4,17,20,read weather data and relate climate to living things
+grade-07,7,,SCI,G07-SCI-06,"Winds, storms and cyclones",4,21,24,explain how pressure causes wind and how to stay safe
+grade-07,7,,SCI,G07-SCI-07,Soil and water,4,25,28,describe soil profile and the water cycle and conserve water
+grade-07,7,,SCI,G07-SCI-08,"Motion, time and electric current",4,29,32,draw and read distance-time graphs and electric circuits
+grade-07,7,,SCI,G07-SCI-09,"Respiration, transportation and reproduction in plants",4,33,36,describe breathing and transport in living things
+grade-07,7,,SST,G07-SST-01,History: medieval kingdoms and trade routes,9,1,9,"explain how rulers, trade and culture linked the region"
+grade-07,7,,SST,G07-SST-02,Geography: our changing Earth,9,10,18,describe forces that shape land and the rock cycle
+grade-07,7,,SST,G07-SST-03,Geography: environment and natural vegetation,9,19,27,link climate to natural vegetation
+grade-07,7,,SST,G07-SST-04,Civics: democracy and equality,9,28,36,"describe democratic values, equality and rights"
+grade-07,7,,COM,G07-COM-01,HTML basics,11,1,11,"build a simple web page with text, images and links"
+grade-07,7,,COM,G07-COM-02,"Programming with variables, loops and decisions",11,12,22,solve problems with a short program
+grade-07,7,,COM,G07-COM-03,Databases and tables,11,23,33,"enter, sort and filter data in a table"
+grade-07,7,,COM,G07-COM-04,Digital footprint,3,34,36,describe a digital footprint and manage it
+grade-07,7,,VAL,G07-VAL-01,Build wisely,9,1,9,choose actions that build trust over time
+grade-07,7,,VAL,G07-VAL-02,Courage and conviction,9,10,18,describe a time to stand up for what is right
+grade-07,7,,VAL,G07-VAL-03,Kindness online and offline,9,19,27,respond kindly to unkind messages
+grade-07,7,,VAL,G07-VAL-04,Citizenship,9,28,36,take part in a class decision fairly
+grade-07,7,,ARA,G07-ARA-01,Reading short stories,9,1,9,summarise a short story
+grade-07,7,,ARA,G07-ARA-02,Present and past tenses,9,10,18,use verbs in present and past
+grade-07,7,,ARA,G07-ARA-03,Telephone and daily conversation,9,19,27,hold a short phone conversation
+grade-07,7,,ARA,G07-ARA-04,Descriptive writing,9,28,36,describe a person or place
+grade-07,7,,HIN,G07-HIN-01,Prose reading,9,1,9,read and summarise
+grade-07,7,,HIN,G07-HIN-02,"Grammar: case, sandhi, and sentence parts",9,10,18,use these in sentences
+grade-07,7,,HIN,G07-HIN-03,Poetry,9,19,27,read and explain
+grade-07,7,,HIN,G07-HIN-04,Letters and applications,9,28,36,write formal letters
+grade-07,7,,FRE,G07-FRE-01,Describing my town,9,1,9,describe a town
+grade-07,7,,FRE,G07-FRE-02,Adjective agreement and cause,9,10,18,use adjective agreement and express cause
+grade-07,7,,FRE,G07-FRE-03,Reading comprehension,9,19,27,answer in full
+grade-07,7,,FRE,G07-FRE-04,Writing practice,9,28,36,write a short text
+grade-07,7,,ISL,G07-ISL-01,The Holy Qur'an: recitation and memorisation,6,1,6,"recite and understand the selected passages for this grade (grade 7, as set in the ministry syllabus)"
+grade-07,7,,ISL,G07-ISL-02,Faith and belief,6,7,12,"explain the pillars of faith in age-appropriate words (grade 7, as set in the ministry syllabus)"
+grade-07,7,,ISL,G07-ISL-03,Worship and practice,6,13,18,"describe the acts of worship and how to carry them out (grade 7, as set in the ministry syllabus)"
+grade-07,7,,ISL,G07-ISL-04,Stories of the prophets and the life of the Prophet,6,19,24,"tell and explain lessons from the stories studied (grade 7, as set in the ministry syllabus)"
+grade-07,7,,ISL,G07-ISL-05,Manners and values,6,25,30,"apply the values of honesty, respect and kindness in daily life (grade 7, as set in the ministry syllabus)"
+grade-07,7,,ISL,G07-ISL-06,Islamic civilisation and contribution,6,31,36,"describe how learning and culture grew in Islamic history (grade 7, as set in the ministry syllabus)"
+grade-08,8,,ENG,G08-ENG-01,Prose and drama,6,1,6,compare how two writers show the same theme
+grade-08,8,,ENG,G08-ENG-02,"Tenses, voice and modals",6,7,12,"use tenses, voice and modals precisely"
+grade-08,8,,ENG,G08-ENG-03,Descriptive and narrative writing,6,13,18,write with detail and varied sentence openings
+grade-08,8,,ENG,G08-ENG-04,Poetry,6,19,24,read a poem closely and write a short critical response
+grade-08,8,,ENG,G08-ENG-05,"Formal letters, reports and speeches",6,25,30,write a report and a short speech with purpose
+grade-08,8,,ENG,G08-ENG-06,Unseen passages,3,31,33,read faster and answer inference questions with evidence
+grade-08,8,,ENG,G08-ENG-07,Discussion and presentation,3,34,36,prepare and deliver a presentation with slides
+grade-08,8,,MAT,G08-MAT-01,Rational numbers,4,1,4,apply properties and represent them on a number line
+grade-08,8,,MAT,G08-MAT-02,Linear equations in one variable,3,5,7,solve equations with variables on both sides
+grade-08,8,,MAT,G08-MAT-03,Understanding quadrilaterals,3,8,10,use angle sum and properties of parallelograms and special quadrilaterals
+grade-08,8,,MAT,G08-MAT-04,Data handling,3,11,13,"use pie charts, histograms and probability"
+grade-08,8,,MAT,G08-MAT-05,"Squares, square roots, cubes and cube roots",4,14,17,find roots by factors and division
+grade-08,8,,MAT,G08-MAT-06,Comparing quantities,3,18,20,"use compound interest, discount and tax"
+grade-08,8,,MAT,G08-MAT-07,Algebraic expressions and identities,4,21,24,multiply expressions and use standard identities
+grade-08,8,,MAT,G08-MAT-08,Mensuration,3,25,27,"find surface area and volume of cubes, cuboids and cylinders"
+grade-08,8,,MAT,G08-MAT-09,Exponents and powers,3,28,30,use laws of exponents with negative powers
+grade-08,8,,MAT,G08-MAT-10,Direct and inverse proportion,3,31,33,solve problems with proportion
+grade-08,8,,MAT,G08-MAT-11,Factorisation and graphs,3,34,36,factorise expressions and plot linear graphs
+grade-08,8,,SCI,G08-SCI-01,Crop production and management,4,1,4,explain the steps of farming and food storage
+grade-08,8,,SCI,G08-SCI-02,Microorganisms: friend and foe,4,5,8,describe useful and harmful microbes
+grade-08,8,,SCI,G08-SCI-03,Synthetic fibres and plastics,4,9,12,compare natural and synthetic materials and recycling
+grade-08,8,,SCI,G08-SCI-04,Metals and non-metals,4,13,16,compare properties and uses
+grade-08,8,,SCI,G08-SCI-05,Combustion and flame,4,17,20,"describe fire conditions, fuels and fire safety"
+grade-08,8,,SCI,G08-SCI-06,Force and pressure,4,21,24,calculate pressure and describe friction
+grade-08,8,,SCI,G08-SCI-07,Sound and light,4,25,28,explain reflection and the working of the eye
+grade-08,8,,SCI,G08-SCI-08,Cells and reproduction,4,29,32,describe cell structure and reproduction in animals
+grade-08,8,,SCI,G08-SCI-09,Chemical effects of electric current,4,33,36,show electrolysis and electroplating
+grade-08,8,,SST,G08-SST-01,History: the British Empire in India and the freedom movement,9,1,9,sequence causes and events of colonial rule and independence
+grade-08,8,,SST,G08-SST-02,Geography: resources and their use,9,10,18,classify resources and describe conservation
+grade-08,8,,SST,G08-SST-03,"Geography: agriculture, industries and human resources",9,19,27,compare farming systems and industries
+grade-08,8,,SST,G08-SST-04,Civics: the constitution and the judiciary,9,28,36,"describe the constitution, rights and courts"
+grade-08,8,,COM,G08-COM-01,Databases and queries,11,1,11,create tables and write simple queries
+grade-08,8,,COM,G08-COM-02,Programming with functions and lists,11,12,22,break a task into functions and use lists
+grade-08,8,,COM,G08-COM-03,Web pages with HTML and CSS,11,23,33,style a multi-page site
+grade-08,8,,COM,G08-COM-04,Safe use of artificial intelligence tools,3,34,36,use AI tools responsibly and check their answers
+grade-08,8,,VAL,G08-VAL-01,Ethical decision making,9,1,9,weigh choices using a simple framework
+grade-08,8,,VAL,G08-VAL-02,Peer pressure,9,10,18,describe ways to respond to peer pressure
+grade-08,8,,VAL,G08-VAL-03,Service and gratitude,9,19,27,plan and review a service act
+grade-08,8,,VAL,G08-VAL-04,Digital wellbeing,9,28,36,plan balanced screen time
+grade-08,8,,ARA,G08-ARA-01,Fables and morals,9,1,9,retell a fable and its moral
+grade-08,8,,ARA,G08-ARA-02,Grammar: pronouns and agreement,9,10,18,use pronouns and agreement
+grade-08,8,,ARA,G08-ARA-03,Poetry,9,19,27,read and explain a short poem
+grade-08,8,,ARA,G08-ARA-04,Debate and speech,9,28,36,give a short speech
+grade-08,8,,HIN,G08-HIN-01,Essay writing,9,1,9,write an essay
+grade-08,8,,HIN,G08-HIN-02,Unseen passage,9,10,18,answer questions
+grade-08,8,,HIN,G08-HIN-03,Idioms and proverbs,9,19,27,explain and use
+grade-08,8,,HIN,G08-HIN-04,Debate and speech,9,28,36,give a short speech
+grade-08,8,,FRE,G08-FRE-01,Past and future in simple form,9,1,9,talk about past and future
+grade-08,8,,FRE,G08-FRE-02,Daily routine,9,10,18,describe a day
+grade-08,8,,FRE,G08-FRE-03,Listening practice,9,19,27,follow a longer dialogue
+grade-08,8,,FRE,G08-FRE-04,Speaking practice,9,28,36,present
+grade-08,8,,ISL,G08-ISL-01,The Holy Qur'an: recitation and memorisation,6,1,6,"recite and understand the selected passages for this grade (grade 8, as set in the ministry syllabus)"
+grade-08,8,,ISL,G08-ISL-02,Faith and belief,6,7,12,"explain the pillars of faith in age-appropriate words (grade 8, as set in the ministry syllabus)"
+grade-08,8,,ISL,G08-ISL-03,Worship and practice,6,13,18,"describe the acts of worship and how to carry them out (grade 8, as set in the ministry syllabus)"
+grade-08,8,,ISL,G08-ISL-04,Stories of the prophets and the life of the Prophet,6,19,24,"tell and explain lessons from the stories studied (grade 8, as set in the ministry syllabus)"
+grade-08,8,,ISL,G08-ISL-05,Manners and values,6,25,30,"apply the values of honesty, respect and kindness in daily life (grade 8, as set in the ministry syllabus)"
+grade-08,8,,ISL,G08-ISL-06,Islamic civilisation and contribution,6,31,36,"describe how learning and culture grew in Islamic history (grade 8, as set in the ministry syllabus)"
+grade-09,9,,ENG,G09-ENG-01,Reading prose and drama,6,1,6,"analyse character, setting and theme with evidence"
+grade-09,9,,ENG,G09-ENG-02,Poetry,6,7,12,"analyse imagery, tone and structure"
+grade-09,9,,ENG,G09-ENG-03,"Grammar: modals, tenses and clauses",6,13,18,use modals and complex clauses accurately
+grade-09,9,,ENG,G09-ENG-04,"Writing: diary entry, article and speech",6,19,24,write for different audiences with correct format
+grade-09,9,,ENG,G09-ENG-05,Letters and reports,6,25,30,write formal letters and short reports
+grade-09,9,,ENG,G09-ENG-06,Reading unseen passages,3,31,33,infer and evaluate in unseen texts
+grade-09,9,,ENG,G09-ENG-07,"Speaking, listening and discussion",3,34,36,argue a point and respond with reasons
+grade-09,9,,MAT,G09-MAT-01,Number systems,4,1,4,work with rational and irrational numbers and laws of exponents
+grade-09,9,,MAT,G09-MAT-02,Polynomials,3,5,7,"add, multiply and factorise polynomials and use the remainder theorem"
+grade-09,9,,MAT,G09-MAT-03,Coordinate geometry,3,8,10,plot points and read coordinates in four quadrants
+grade-09,9,,MAT,G09-MAT-04,Linear equations in two variables,3,11,13,"write, graph and solve equations in two variables"
+grade-09,9,,MAT,G09-MAT-05,Introduction to Euclid's geometry,4,14,17,"state axioms, postulates and simple theorems"
+grade-09,9,,MAT,G09-MAT-06,Lines and angles,4,18,21,prove angle properties of parallel lines and triangles
+grade-09,9,,MAT,G09-MAT-07,Triangles,4,22,25,prove congruence and inequalities in triangles
+grade-09,9,,MAT,G09-MAT-08,Quadrilaterals and circles,4,26,29,prove properties of quadrilaterals and chords
+grade-09,9,,MAT,G09-MAT-09,"Areas, surface areas and volumes",3,30,32,find areas of triangles and surface area and volume of solids
+grade-09,9,,MAT,G09-MAT-10,Statistics,3,33,35,"find mean, median, mode and read frequency tables"
+grade-09,9,,MAT,G09-MAT-11,Probability introduction,1,36,36,find simple probability from experiments
+grade-09,9,,SCI,G09-SCI-01,Physics: motion,5,1,5,describe motion with graphs and equations
+grade-09,9,,SCI,G09-SCI-02,Physics: force and laws of motion,5,6,10,apply Newton's laws and momentum
+grade-09,9,,SCI,G09-SCI-03,"Physics: gravitation, work and energy",5,11,15,use universal gravitation and work and energy
+grade-09,9,,SCI,G09-SCI-04,Physics: sound,5,16,20,explain sound waves and echo
+grade-09,9,,SCI,G09-SCI-05,Chemistry: matter in our surroundings and is matter around us pure,4,21,24,classify matter and calculate concentration
+grade-09,9,,SCI,G09-SCI-06,"Chemistry: atoms, molecules and the structure of the atom",4,25,28,"use symbols, formulae and the atomic model"
+grade-09,9,,SCI,G09-SCI-07,Biology: the fundamental unit of life and tissues,4,29,32,describe cell organelles and plant and animal tissues
+grade-09,9,,SCI,G09-SCI-08,"Biology: diversity, health and natural resources",4,33,36,classify organisms and explain disease and resource cycles
+grade-09,9,,SST,G09-SST-01,History: the French Revolution,8,1,8,explain causes and results of the revolution
+grade-09,9,,SST,G09-SST-02,History: socialism and nazism and the modern world,7,9,15,compare political ideas and their effects
+grade-09,9,,SST,G09-SST-03,"Geography: India, size, location and physical features",7,16,22,"describe location, relief and drainage"
+grade-09,9,,SST,G09-SST-04,Civics: democracy in the contemporary world,7,23,29,compare democratic and non-democratic systems
+grade-09,9,,SST,G09-SST-05,Economics: the story of a village and poverty,7,30,36,"analyse production, work and poverty"
+grade-09,9,,CSC,G09-CSC-01,Python programming basics,10,1,10,"write programs with variables, decisions and loops"
+grade-09,9,,CSC,G09-CSC-02,Computational thinking and algorithms,10,11,20,decompose problems and design algorithms
+grade-09,9,,CSC,G09-CSC-03,"Data, spreadsheets and databases",10,21,30,"clean, sort and summarise data"
+grade-09,9,,CSC,G09-CSC-04,Introduction to artificial intelligence,6,31,36,describe how machines learn from data and where bias comes from
+grade-09,9,,VAL,G09-VAL-01,Values and character,9,1,9,describe values and how they guide choices
+grade-09,9,,VAL,G09-VAL-02,Mental health and resilience,9,10,18,name stress signs and coping skills
+grade-09,9,,VAL,G09-VAL-03,Community action,9,19,27,plan a project for a real need
+grade-09,9,,VAL,G09-VAL-04,Digital ethics,9,28,36,apply ethics to online sharing
+grade-09,9,,ARA,G09-ARA-01,Seasons and comparison,9,1,9,compare two seasons in writing
+grade-09,9,,ARA,G09-ARA-02,Neighbours and community,9,10,18,describe community life
+grade-09,9,,ARA,G09-ARA-03,Grammar: sentence types,9,19,27,use nominal and verbal sentences correctly
+grade-09,9,,ARA,G09-ARA-04,Essay writing,9,28,36,write a short essay
+grade-09,9,,HIN,G09-HIN-01,Prose and travel writing,9,1,9,read and summarise
+grade-09,9,,HIN,G09-HIN-02,Poetry: devotional and classical,9,10,18,read and explain
+grade-09,9,,HIN,G09-HIN-03,Grammar: sentence types and vocabulary,9,19,27,use correctly
+grade-09,9,,HIN,G09-HIN-04,Unseen passage and comprehension,9,28,36,answer in full
+grade-09,9,,FRE,G09-FRE-01,"Near future, recent past and present continuous",9,1,9,use these forms
+grade-09,9,,FRE,G09-FRE-02,Comparing education systems,9,10,18,compare two systems
+grade-09,9,,FRE,G09-FRE-03,Personal pronouns y and en,9,19,27,use y and en
+grade-09,9,,FRE,G09-FRE-04,Culture and civilisation,9,28,36,describe aspects of French-speaking cultures
+grade-09,9,,ISL,G09-ISL-01,The Holy Qur'an: recitation and memorisation,6,1,6,"recite and understand the selected passages for this grade (grade 9, as set in the ministry syllabus)"
+grade-09,9,,ISL,G09-ISL-02,Faith and belief,6,7,12,"explain the pillars of faith in age-appropriate words (grade 9, as set in the ministry syllabus)"
+grade-09,9,,ISL,G09-ISL-03,Worship and practice,6,13,18,"describe the acts of worship and how to carry them out (grade 9, as set in the ministry syllabus)"
+grade-09,9,,ISL,G09-ISL-04,Stories of the prophets and the life of the Prophet,6,19,24,"tell and explain lessons from the stories studied (grade 9, as set in the ministry syllabus)"
+grade-09,9,,ISL,G09-ISL-05,Manners and values,6,25,30,"apply the values of honesty, respect and kindness in daily life (grade 9, as set in the ministry syllabus)"
+grade-09,9,,ISL,G09-ISL-06,Islamic civilisation and contribution,6,31,36,"describe how learning and culture grew in Islamic history (grade 9, as set in the ministry syllabus)"
+grade-10,10,,ENG,G10-ENG-01,Prose and drama,7,1,7,analyse a longer text and write an essay with evidence
+grade-10,10,,ENG,G10-ENG-02,Poetry,7,8,14,compare two poems on theme and style
+grade-10,10,,ENG,G10-ENG-03,"Grammar: tenses, reported speech and editing",7,15,21,edit and transform sentences accurately
+grade-10,10,,ENG,G10-ENG-04,"Writing: data interpretation, letters and articles",6,22,27,write from data and for formal audiences
+grade-10,10,,ENG,G10-ENG-05,Reading: unseen passages,6,28,33,read critically and answer in full sentences
+grade-10,10,,ENG,G10-ENG-06,Speaking and listening assessment,3,34,36,speak to a prompt and respond to questions
+grade-10,10,,MAT,G10-MAT-01,Real numbers,4,1,4,apply Euclid's division lemma and fundamental theorem of arithmetic
+grade-10,10,,MAT,G10-MAT-02,Polynomials,3,5,7,find zeroes and relate them to coefficients
+grade-10,10,,MAT,G10-MAT-03,Pair of linear equations in two variables,4,8,11,"solve by graph, substitution and elimination"
+grade-10,10,,MAT,G10-MAT-04,Quadratic equations,4,12,15,"solve by factors, completing the square and the formula"
+grade-10,10,,MAT,G10-MAT-05,Arithmetic progressions,3,16,18,find nth term and sum
+grade-10,10,,MAT,G10-MAT-06,Triangles,4,19,22,apply similarity and the Pythagoras theorem
+grade-10,10,,MAT,G10-MAT-07,Coordinate geometry,3,23,25,"use distance, section and area formulae"
+grade-10,10,,MAT,G10-MAT-08,Introduction to trigonometry and its applications,4,26,29,"use ratios, identities and heights and distances"
+grade-10,10,,MAT,G10-MAT-09,Circles and constructions,3,30,32,use tangent properties and construct tangents
+grade-10,10,,MAT,G10-MAT-10,Areas related to circles and surface areas and volumes,2,33,34,solve problems on sectors and combined solids
+grade-10,10,,MAT,G10-MAT-11,Statistics and probability,2,35,36,"find mean, median and mode of grouped data and calculate probability"
+grade-10,10,,SCI,G10-SCI-01,Chemistry: chemical reactions and equations,5,1,5,balance equations and classify reactions
+grade-10,10,,SCI,G10-SCI-02,"Chemistry: acids, bases and salts",5,6,10,use pH and describe common salts
+grade-10,10,,SCI,G10-SCI-03,"Chemistry: metals, non-metals and carbon compounds",5,11,15,explain reactivity and bonding in carbon compounds
+grade-10,10,,SCI,G10-SCI-04,"Physics: light, reflection and refraction",5,16,20,use mirror and lens formulae
+grade-10,10,,SCI,G10-SCI-05,Physics: electricity and magnetic effects of current,4,21,24,apply Ohm's law and describe motors and generators
+grade-10,10,,SCI,G10-SCI-06,Biology: life processes and control and coordination,4,25,28,"describe nutrition, transport, nervous and hormonal control"
+grade-10,10,,SCI,G10-SCI-07,"Biology: reproduction, heredity and evolution",4,29,32,describe reproduction and Mendel's laws
+grade-10,10,,SCI,G10-SCI-08,Environment and sustainable use of resources,4,33,36,analyse ecosystems and sustainable resource use
+grade-10,10,,SST,G10-SST-01,History: nationalism and the making of the modern world,9,1,9,explain how nationalism shaped regions
+grade-10,10,,SST,G10-SST-02,"Geography: resources, agriculture, minerals and industries",9,10,18,explain resource use and industry location
+grade-10,10,,SST,G10-SST-03,"Civics: power sharing, federalism and political parties",9,19,27,compare power sharing arrangements
+grade-10,10,,SST,G10-SST-04,"Economics: development, money, credit and globalisation",9,28,36,"explain development, credit and trade"
+grade-10,10,,CSC,G10-CSC-01,"Python: functions, files and data structures",11,1,11,"write programs using lists, dictionaries and files"
+grade-10,10,,CSC,G10-CSC-02,Databases and SQL,11,12,22,design and query a small database
+grade-10,10,,CSC,G10-CSC-03,Artificial intelligence project cycle,11,23,33,plan a small data project from problem to evaluation
+grade-10,10,,CSC,G10-CSC-04,Cyber law and ethics,3,34,36,"describe privacy, copyright and responsible AI use"
+grade-10,10,,VAL,G10-VAL-01,Ethics and leadership,9,1,9,take a role in a team and review it
+grade-10,10,,VAL,G10-VAL-02,Career awareness,9,10,18,match strengths to career paths
+grade-10,10,,VAL,G10-VAL-03,Well-being and balance,9,19,27,build a weekly routine for study and rest
+grade-10,10,,VAL,G10-VAL-04,Civic responsibility,9,28,36,describe a citizen's duties in the UAE and globally
+grade-10,10,,ARA,G10-ARA-01,Literature and poetry,9,1,9,analyse a short text
+grade-10,10,,ARA,G10-ARA-02,Formal letters,9,10,18,write a formal letter
+grade-10,10,,ARA,G10-ARA-03,Listening and summary,9,19,27,summarise a spoken text
+grade-10,10,,ARA,G10-ARA-04,Oral presentation,9,28,36,present on a topic
+grade-10,10,,HIN,G10-HIN-01,Formal and informal letters,9,1,9,write both
+grade-10,10,,HIN,G10-HIN-02,Essay and article,9,10,18,write an article
+grade-10,10,,HIN,G10-HIN-03,Advertisement and notice,9,19,27,write a notice
+grade-10,10,,HIN,G10-HIN-04,Oral presentation,9,28,36,present on a topic
+grade-10,10,,FRE,G10-FRE-01,Reading comprehension,9,1,9,answer in full
+grade-10,10,,FRE,G10-FRE-02,Writing practice,9,10,18,write an essay
+grade-10,10,,FRE,G10-FRE-03,Listening practice,9,19,27,summarise a dialogue
+grade-10,10,,FRE,G10-FRE-04,Oral presentation,9,28,36,present on a topic
+grade-10,10,,ISL,G10-ISL-01,The Holy Qur'an: recitation and memorisation,6,1,6,"recite and understand the selected passages for this grade (grade 10, as set in the ministry syllabus)"
+grade-10,10,,ISL,G10-ISL-02,Faith and belief,6,7,12,"explain the pillars of faith in age-appropriate words (grade 10, as set in the ministry syllabus)"
+grade-10,10,,ISL,G10-ISL-03,Worship and practice,6,13,18,"describe the acts of worship and how to carry them out (grade 10, as set in the ministry syllabus)"
+grade-10,10,,ISL,G10-ISL-04,Stories of the prophets and the life of the Prophet,6,19,24,"tell and explain lessons from the stories studied (grade 10, as set in the ministry syllabus)"
+grade-10,10,,ISL,G10-ISL-05,Manners and values,6,25,30,"apply the values of honesty, respect and kindness in daily life (grade 10, as set in the ministry syllabus)"
+grade-10,10,,ISL,G10-ISL-06,Islamic civilisation and contribution,6,31,36,"describe how learning and culture grew in Islamic history (grade 10, as set in the ministry syllabus)"
+grade-11-commerce,11,C,ENG,G11C-ENG-01,Prose and poetry from world writers,9,1,9,analyse theme and voice in two texts
+grade-11-commerce,11,C,ENG,G11C-ENG-02,Grammar and editing,9,10,18,"edit text for tense, agreement and clarity"
+grade-11-commerce,11,C,ENG,G11C-ENG-03,"Writing: speeches, articles and reports",9,19,27,write persuasive and informative pieces
+grade-11-commerce,11,C,ENG,G11C-ENG-04,Reading: unseen passages and poems,5,28,32,answer inference and evaluation questions
+grade-11-commerce,11,C,ENG,G11C-ENG-05,Speaking and listening,4,33,36,deliver a structured speech and respond to questions
+grade-11-commerce,11,C,PED,G11C-PED-01,"Physical fitness, wellness and lifestyle",18,1,18,design a personal fitness plan and track it
+grade-11-commerce,11,C,PED,G11C-PED-02,The Olympic movement and sport in society,18,19,36,describe the history and values of the Olympic movement
+grade-11-commerce,11,C,VAL,G11C-VAL-01,"Values, ethics and wellbeing",18,1,18,apply an ethical framework to a case
+grade-11-commerce,11,C,VAL,G11C-VAL-02,Career and higher-study pathways,18,19,36,map interests to courses and careers
+grade-11-commerce,11,C,MAT,G11C-MAT-01,"Sets, relations and functions",6,1,6,use set notation and functions
+grade-11-commerce,11,C,MAT,G11C-MAT-02,Trigonometry and sequences,6,7,12,"use sequences, series and basic trigonometry"
+grade-11-commerce,11,C,MAT,G11C-MAT-03,Complex numbers and quadratic equations,6,13,18,solve quadratics and work with complex numbers
+grade-11-commerce,11,C,MAT,G11C-MAT-04,"Permutations, combinations and the binomial theorem",6,19,24,count arrangements
+grade-11-commerce,11,C,MAT,G11C-MAT-05,Straight lines and introduction to limits,6,25,30,use line equations and simple limits
+grade-11-commerce,11,C,MAT,G11C-MAT-06,Statistics and probability,6,31,36,"find mean, variance and probability"
+grade-11-commerce,11,C,ACC,G11C-ACC-01,Accounting concepts and the accounting equation,6,1,6,apply accounting principles and the accounting equation
+grade-11-commerce,11,C,ACC,G11C-ACC-02,"Journal, ledger and trial balance",6,7,12,record transactions and prepare a trial balance
+grade-11-commerce,11,C,ACC,G11C-ACC-03,Subsidiary books and bank reconciliation,6,13,18,record in cash and purchase books and reconcile a bank statement
+grade-11-commerce,11,C,ACC,G11C-ACC-04,"Depreciation, provisions and reserves",6,19,24,calculate depreciation and record provisions
+grade-11-commerce,11,C,ACC,G11C-ACC-05,Financial statements of sole proprietors,6,25,30,prepare an income statement and a balance sheet
+grade-11-commerce,11,C,ACC,G11C-ACC-06,Accounting with computers and spreadsheets,6,31,36,record and report using accounting software
+grade-11-commerce,11,C,BST,G11C-BST-01,"Nature, forms and purposes of business",6,1,6,compare forms of business ownership
+grade-11-commerce,11,C,BST,G11C-BST-02,"Public, private and global enterprises",6,7,12,compare enterprise types and their roles
+grade-11-commerce,11,C,BST,G11C-BST-03,Business services,6,13,18,"describe banking, insurance, transport and communication services"
+grade-11-commerce,11,C,BST,G11C-BST-04,Emerging modes and social responsibility of business,6,19,24,explain e-business and ethics
+grade-11-commerce,11,C,BST,G11C-BST-05,Sources of business finance and small business,6,25,30,compare sources of finance and support for small business
+grade-11-commerce,11,C,BST,G11C-BST-06,Internal and international trade,6,31,36,describe domestic and international trade
+grade-11-commerce,11,C,ECO,G11C-ECO-01,Introduction to economics and collection of data,6,1,6,describe economic problems and data collection methods
+grade-11-commerce,11,C,ECO,G11C-ECO-02,"Sampling, organisation and presentation of data",6,7,12,organise and present data in tables and diagrams
+grade-11-commerce,11,C,ECO,G11C-ECO-03,Measures of central tendency and dispersion,6,13,18,"calculate and interpret mean, median and mode"
+grade-11-commerce,11,C,ECO,G11C-ECO-04,Consumer behaviour and demand,6,19,24,"explain utility, demand and elasticity"
+grade-11-commerce,11,C,ECO,G11C-ECO-05,Producer behaviour and supply,6,25,30,"explain cost, production and supply"
+grade-11-commerce,11,C,ECO,G11C-ECO-06,Price determination and market forms,6,31,36,show equilibrium and compare market forms
+grade-11-humanities,11,H,ENG,G11H-ENG-01,Prose and poetry from world writers,9,1,9,analyse theme and voice in two texts
+grade-11-humanities,11,H,ENG,G11H-ENG-02,Grammar and editing,9,10,18,"edit text for tense, agreement and clarity"
+grade-11-humanities,11,H,ENG,G11H-ENG-03,"Writing: speeches, articles and reports",9,19,27,write persuasive and informative pieces
+grade-11-humanities,11,H,ENG,G11H-ENG-04,Reading: unseen passages and poems,5,28,32,answer inference and evaluation questions
+grade-11-humanities,11,H,ENG,G11H-ENG-05,Speaking and listening,4,33,36,deliver a structured speech and respond to questions
+grade-11-humanities,11,H,PED,G11H-PED-01,"Physical fitness, wellness and lifestyle",18,1,18,design a personal fitness plan and track it
+grade-11-humanities,11,H,PED,G11H-PED-02,The Olympic movement and sport in society,18,19,36,describe the history and values of the Olympic movement
+grade-11-humanities,11,H,VAL,G11H-VAL-01,"Values, ethics and wellbeing",18,1,18,apply an ethical framework to a case
+grade-11-humanities,11,H,VAL,G11H-VAL-02,Career and higher-study pathways,18,19,36,map interests to courses and careers
+grade-11-humanities,11,H,HIS,G11H-HIS-01,From the beginning of time to early societies,9,1,9,describe early human societies
+grade-11-humanities,11,H,HIS,G11H-HIS-02,Empires and cultures,9,10,18,compare empires and their legacies
+grade-11-humanities,11,H,HIS,G11H-HIS-03,Changing traditions,9,19,27,"explain religion, trade and learning across regions"
+grade-11-humanities,11,H,HIS,G11H-HIS-04,The modern world,9,28,36,describe revolutions and industrialisation
+grade-11-humanities,11,H,GEO,G11H-GEO-01,"Physical geography: Earth, landforms and climate",9,1,9,explain landform processes and climate patterns
+grade-11-humanities,11,H,GEO,G11H-GEO-02,"Oceans, soils and natural vegetation",9,10,18,describe ocean circulation and soil formation
+grade-11-humanities,11,H,GEO,G11H-GEO-03,Human geography: population and settlement,9,19,27,analyse population and settlement patterns
+grade-11-humanities,11,H,GEO,G11H-GEO-04,Geographical data and maps,9,28,36,read maps and use simple statistics
+grade-11-humanities,11,H,POL,G11H-POL-01,Constitution and rights,9,1,9,explain the constitution and rights
+grade-11-humanities,11,H,POL,G11H-POL-02,Elections and representation,9,10,18,explain election systems and representation
+grade-11-humanities,11,H,POL,G11H-POL-03,Federalism and local government,9,19,27,compare federal and local power
+grade-11-humanities,11,H,POL,G11H-POL-04,Political concepts,9,28,36,"define liberty, equality and justice"
+grade-11-humanities,11,H,PSY,G11H-PSY-01,What is psychology and methods of inquiry,9,1,9,describe methods of enquiry in psychology
+grade-11-humanities,11,H,PSY,G11H-PSY-02,Human development and the brain,9,10,18,describe the stages of development and the nervous system
+grade-11-humanities,11,H,PSY,G11H-PSY-03,"Sensation, perception and learning",9,19,27,"explain how we sense, perceive and learn"
+grade-11-humanities,11,H,PSY,G11H-PSY-04,"Memory, thinking and motivation",9,28,36,"describe memory, thinking and emotion"
+grade-11-science,11,S,ENG,G11S-ENG-01,Prose and poetry from world writers,9,1,9,analyse theme and voice in two texts
+grade-11-science,11,S,ENG,G11S-ENG-02,Grammar and editing,9,10,18,"edit text for tense, agreement and clarity"
+grade-11-science,11,S,ENG,G11S-ENG-03,"Writing: speeches, articles and reports",9,19,27,write persuasive and informative pieces
+grade-11-science,11,S,ENG,G11S-ENG-04,Reading: unseen passages and poems,5,28,32,answer inference and evaluation questions
+grade-11-science,11,S,ENG,G11S-ENG-05,Speaking and listening,4,33,36,deliver a structured speech and respond to questions
+grade-11-science,11,S,PED,G11S-PED-01,"Physical fitness, wellness and lifestyle",18,1,18,design a personal fitness plan and track it
+grade-11-science,11,S,PED,G11S-PED-02,The Olympic movement and sport in society,18,19,36,describe the history and values of the Olympic movement
+grade-11-science,11,S,VAL,G11S-VAL-01,"Values, ethics and wellbeing",18,1,18,apply an ethical framework to a case
+grade-11-science,11,S,VAL,G11S-VAL-02,Career and higher-study pathways,18,19,36,map interests to courses and careers
+grade-11-science,11,S,MAT,G11S-MAT-01,Sets and relations,5,1,5,"use set notation, relations and functions"
+grade-11-science,11,S,MAT,G11S-MAT-02,Trigonometric functions,5,6,10,use identities and graphs of trigonometric functions
+grade-11-science,11,S,MAT,G11S-MAT-03,Principle of mathematical induction,3,11,13,prove statements by induction
+grade-11-science,11,S,MAT,G11S-MAT-04,Complex numbers and quadratic equations,5,14,18,operate on complex numbers and solve quadratics
+grade-11-science,11,S,MAT,G11S-MAT-05,Linear inequalities and permutations and combinations,3,19,21,solve inequalities and count arrangements
+grade-11-science,11,S,MAT,G11S-MAT-06,Binomial theorem and sequences and series,5,22,26,expand binomials and sum series
+grade-11-science,11,S,MAT,G11S-MAT-07,Straight lines and conic sections,4,27,30,"use equations of lines, circles and conics"
+grade-11-science,11,S,MAT,G11S-MAT-08,"Limits and derivatives, introduction",3,31,33,find simple limits and derivatives
+grade-11-science,11,S,MAT,G11S-MAT-09,Statistics and probability,3,34,36,find variance and calculate probability
+grade-11-science,11,S,PHY,G11S-PHY-01,"Units, measurement and motion in a straight line",6,1,6,use dimensions and kinematic equations
+grade-11-science,11,S,PHY,G11S-PHY-02,Motion in a plane and laws of motion,6,7,12,"use vectors, projectile motion and Newton's laws"
+grade-11-science,11,S,PHY,G11S-PHY-03,"Work, energy, power and systems of particles",5,13,17,apply conservation of energy and momentum
+grade-11-science,11,S,PHY,G11S-PHY-04,Rotational motion and gravitation,5,18,22,"use torque, angular momentum and Kepler's laws"
+grade-11-science,11,S,PHY,G11S-PHY-05,Properties of solids and fluids,5,23,27,"use stress, strain and Bernoulli's principle"
+grade-11-science,11,S,PHY,G11S-PHY-06,Thermodynamics and kinetic theory,5,28,32,apply the laws of thermodynamics
+grade-11-science,11,S,PHY,G11S-PHY-07,Oscillations and waves,4,33,36,describe simple harmonic motion and wave speed
+grade-11-science,11,S,CHE,G11S-CHE-01,Some basic concepts of chemistry and atomic structure,6,1,6,use the mole and quantum numbers
+grade-11-science,11,S,CHE,G11S-CHE-02,Periodic table and chemical bonding,6,7,12,predict trends and bonding
+grade-11-science,11,S,CHE,G11S-CHE-03,States of matter and thermodynamics,5,13,17,apply gas laws and enthalpy
+grade-11-science,11,S,CHE,G11S-CHE-04,Equilibrium and redox reactions,5,18,22,apply Le Chatelier's principle and balance redox equations
+grade-11-science,11,S,CHE,G11S-CHE-05,"Hydrogen, s-block and p-block elements",5,23,27,compare properties and uses
+grade-11-science,11,S,CHE,G11S-CHE-06,Organic chemistry: basic principles and hydrocarbons,5,28,32,name compounds and describe reactions
+grade-11-science,11,S,CHE,G11S-CHE-07,Environmental chemistry,4,33,36,explain pollution and green chemistry
+grade-11-science,11,S,BIO,G11S-BIO-01,The living world and biological classification,6,1,6,classify organisms using taxonomy
+grade-11-science,11,S,BIO,G11S-BIO-02,Plant kingdom and animal kingdom,6,7,12,compare major plant and animal groups
+grade-11-science,11,S,BIO,G11S-BIO-03,Structural organisation and cell: the unit of life,6,13,18,describe tissues and cell structure
+grade-11-science,11,S,BIO,G11S-BIO-04,Cell cycle and biomolecules,6,19,24,"explain mitosis, meiosis and biomolecules"
+grade-11-science,11,S,BIO,G11S-BIO-05,Plant physiology,6,25,30,"describe photosynthesis, respiration and plant growth"
+grade-11-science,11,S,BIO,G11S-BIO-06,Human physiology,6,31,36,"describe digestion, breathing, circulation and excretion"
+grade-11-science,11,S,CSC,G11S-CSC-01,Python programming: control flow and strings,9,1,9,write programs with decisions and loops
+grade-11-science,11,S,CSC,G11S-CSC-02,"Lists, tuples and dictionaries",9,10,18,store and process data with Python structures
+grade-11-science,11,S,CSC,G11S-CSC-03,Computer systems and number systems,9,19,27,convert numbers and describe hardware
+grade-11-science,11,S,CSC,G11S-CSC-04,Introduction to databases and SQL,9,28,36,create and query a table
+grade-12-commerce,12,C,ENG,G12C-ENG-01,Prose and poetry from world writers,9,1,9,compare two authors' treatment of one theme
+grade-12-commerce,12,C,ENG,G12C-ENG-02,Grammar and editing,9,10,18,edit and transform text with precision
+grade-12-commerce,12,C,ENG,G12C-ENG-03,"Writing: reports, letters and articles",9,19,27,"write formal, persuasive and analytical text"
+grade-12-commerce,12,C,ENG,G12C-ENG-04,Reading: unseen passages,5,28,32,read critically in timed conditions
+grade-12-commerce,12,C,ENG,G12C-ENG-05,Speaking and listening,4,33,36,deliver an argued presentation
+grade-12-commerce,12,C,PED,G12C-PED-01,Physical education and sports for all,18,1,18,plan inclusive sport and fitness programmes
+grade-12-commerce,12,C,PED,G12C-PED-02,"Training, nutrition and sports injuries",18,19,36,"describe training methods, balanced diet and first aid for injuries"
+grade-12-commerce,12,C,VAL,G12C-VAL-01,Leadership and ethics,18,1,18,lead a team project with an ethical review
+grade-12-commerce,12,C,VAL,G12C-VAL-02,Preparing for university and work,18,19,36,"prepare a study plan, a CV and a statement of purpose"
+grade-12-commerce,12,C,MAT,G12C-MAT-01,"Relations, functions and matrices",9,1,9,operate on matrices and functions
+grade-12-commerce,12,C,MAT,G12C-MAT-02,Calculus: differentiation and integration,9,10,18,find derivatives and simple integrals
+grade-12-commerce,12,C,MAT,G12C-MAT-03,Probability and linear programming,9,19,27,calculate probability and optimise
+grade-12-commerce,12,C,MAT,G12C-MAT-04,Index numbers and time series,9,28,36,compute index numbers and trends
+grade-12-commerce,12,C,ACC,G12C-ACC-01,Accounting for partnership firms: fundamentals,6,1,6,prepare partners' capital and current accounts
+grade-12-commerce,12,C,ACC,G12C-ACC-02,"Goodwill, admission, retirement and death of a partner",6,7,12,value goodwill and adjust partners' accounts
+grade-12-commerce,12,C,ACC,G12C-ACC-03,Accounting for companies: share capital and debentures,6,13,18,record issue of shares and debentures
+grade-12-commerce,12,C,ACC,G12C-ACC-04,Financial statements of a company,6,19,24,prepare statements in the standard format
+grade-12-commerce,12,C,ACC,G12C-ACC-05,Analysis of financial statements,6,25,30,use ratios to analyse performance
+grade-12-commerce,12,C,ACC,G12C-ACC-06,Cash flow statement,6,31,36,prepare a statement of cash flows
+grade-12-commerce,12,C,BST,G12C-BST-01,Nature and significance of management,8,1,8,describe management functions
+grade-12-commerce,12,C,BST,G12C-BST-02,Principles of management and planning,7,9,15,apply management principles and planning
+grade-12-commerce,12,C,BST,G12C-BST-03,"Organising, staffing and directing",7,16,22,"describe organising, staffing, motivation and leadership"
+grade-12-commerce,12,C,BST,G12C-BST-04,Controlling and financial management,7,23,29,"explain control, finance decisions and markets"
+grade-12-commerce,12,C,BST,G12C-BST-05,Marketing management and consumer protection,7,30,36,apply the marketing mix and consumer rights
+grade-12-commerce,12,C,ECO,G12C-ECO-01,National income and related aggregates,9,1,9,measure national income
+grade-12-commerce,12,C,ECO,G12C-ECO-02,"Money, banking and income determination",9,10,18,explain money creation and income determination
+grade-12-commerce,12,C,ECO,G12C-ECO-03,Government budget and the balance of payments,9,19,27,describe the budget and exchange rates
+grade-12-commerce,12,C,ECO,G12C-ECO-04,Indian economy and development,9,28,36,"analyse development, poverty and reforms"
+grade-12-humanities,12,H,ENG,G12H-ENG-01,Prose and poetry from world writers,9,1,9,compare two authors' treatment of one theme
+grade-12-humanities,12,H,ENG,G12H-ENG-02,Grammar and editing,9,10,18,edit and transform text with precision
+grade-12-humanities,12,H,ENG,G12H-ENG-03,"Writing: reports, letters and articles",9,19,27,"write formal, persuasive and analytical text"
+grade-12-humanities,12,H,ENG,G12H-ENG-04,Reading: unseen passages,5,28,32,read critically in timed conditions
+grade-12-humanities,12,H,ENG,G12H-ENG-05,Speaking and listening,4,33,36,deliver an argued presentation
+grade-12-humanities,12,H,PED,G12H-PED-01,Physical education and sports for all,18,1,18,plan inclusive sport and fitness programmes
+grade-12-humanities,12,H,PED,G12H-PED-02,"Training, nutrition and sports injuries",18,19,36,"describe training methods, balanced diet and first aid for injuries"
+grade-12-humanities,12,H,VAL,G12H-VAL-01,Leadership and ethics,18,1,18,lead a team project with an ethical review
+grade-12-humanities,12,H,VAL,G12H-VAL-02,Preparing for university and work,18,19,36,"prepare a study plan, a CV and a statement of purpose"
+grade-12-humanities,12,H,HIS,G12H-HIS-01,Themes in ancient and medieval history,9,1,9,compare societies using sources
+grade-12-humanities,12,H,HIS,G12H-HIS-02,Themes in modern history,9,10,18,explain colonialism and nationalism
+grade-12-humanities,12,H,HIS,G12H-HIS-03,Themes in contemporary history,9,19,27,analyse partition and modern movements
+grade-12-humanities,12,H,HIS,G12H-HIS-04,Source work and historiography,9,28,36,interpret sources and write an evidence-based essay
+grade-12-humanities,12,H,GEO,G12H-GEO-01,Fundamentals of human geography,9,1,9,analyse population and resources
+grade-12-humanities,12,H,GEO,G12H-GEO-02,India people and economy,9,10,18,describe resources and industries
+grade-12-humanities,12,H,GEO,G12H-GEO-03,Practical work in geography,9,19,27,do map and data practicals
+grade-12-humanities,12,H,GEO,G12H-GEO-04,Geographical perspectives on selected issues,9,28,36,analyse an issue using evidence
+grade-12-humanities,12,H,POL,G12H-POL-01,Contemporary world politics,9,1,9,describe the cold war and globalisation
+grade-12-humanities,12,H,POL,G12H-POL-02,Politics in India since independence,9,10,18,trace key political developments
+grade-12-humanities,12,H,POL,G12H-POL-03,International organisations and security,9,19,27,describe the UN and global security
+grade-12-humanities,12,H,POL,G12H-POL-04,"Environment, resources and human rights",9,28,36,link politics to environmental and human rights issues
+grade-12-humanities,12,H,PSY,G12H-PSY-01,Variations in psychological attributes,9,1,9,describe intelligence and personality
+grade-12-humanities,12,H,PSY,G12H-PSY-02,Self and personality,9,10,18,explain theories of personality
+grade-12-humanities,12,H,PSY,G12H-PSY-03,Psychological disorders and therapies,9,19,27,describe types of disorders and therapy
+grade-12-humanities,12,H,PSY,G12H-PSY-04,"Attitudes, social influence and group processes",9,28,36,explain attitude change and group behaviour
+grade-12-science,12,S,ENG,G12S-ENG-01,Prose and poetry from world writers,9,1,9,compare two authors' treatment of one theme
+grade-12-science,12,S,ENG,G12S-ENG-02,Grammar and editing,9,10,18,edit and transform text with precision
+grade-12-science,12,S,ENG,G12S-ENG-03,"Writing: reports, letters and articles",9,19,27,"write formal, persuasive and analytical text"
+grade-12-science,12,S,ENG,G12S-ENG-04,Reading: unseen passages,5,28,32,read critically in timed conditions
+grade-12-science,12,S,ENG,G12S-ENG-05,Speaking and listening,4,33,36,deliver an argued presentation
+grade-12-science,12,S,PED,G12S-PED-01,Physical education and sports for all,18,1,18,plan inclusive sport and fitness programmes
+grade-12-science,12,S,PED,G12S-PED-02,"Training, nutrition and sports injuries",18,19,36,"describe training methods, balanced diet and first aid for injuries"
+grade-12-science,12,S,VAL,G12S-VAL-01,Leadership and ethics,18,1,18,lead a team project with an ethical review
+grade-12-science,12,S,VAL,G12S-VAL-02,Preparing for university and work,18,19,36,"prepare a study plan, a CV and a statement of purpose"
+grade-12-science,12,S,MAT,G12S-MAT-01,"Relations, functions and inverse trigonometric functions",6,1,6,define and graph functions and their inverses
+grade-12-science,12,S,MAT,G12S-MAT-02,Matrices and determinants,5,7,11,operate on matrices and find inverses
+grade-12-science,12,S,MAT,G12S-MAT-03,"Continuity, differentiability and applications of derivatives",5,12,16,differentiate and find maxima and minima
+grade-12-science,12,S,MAT,G12S-MAT-04,Integrals and applications of integrals,5,17,21,integrate and find areas under curves
+grade-12-science,12,S,MAT,G12S-MAT-05,Differential equations,5,22,26,solve first-order differential equations
+grade-12-science,12,S,MAT,G12S-MAT-06,Vectors and three-dimensional geometry,5,27,31,use dot and cross products and equations of lines and planes
+grade-12-science,12,S,MAT,G12S-MAT-07,Linear programming and probability,5,32,36,solve optimisation and conditional probability problems
+grade-12-science,12,S,PHY,G12S-PHY-01,"Electric charges, fields and potential",6,1,6,calculate fields and potential and use Gauss's law
+grade-12-science,12,S,PHY,G12S-PHY-02,Current electricity and magnetism,6,7,12,apply Kirchhoff's laws and the Biot-Savart law
+grade-12-science,12,S,PHY,G12S-PHY-03,Electromagnetic induction and alternating current,6,13,18,apply Faraday's law and AC circuits
+grade-12-science,12,S,PHY,G12S-PHY-04,Electromagnetic waves and optics,6,19,24,use ray and wave optics
+grade-12-science,12,S,PHY,G12S-PHY-05,Dual nature of matter and atoms,6,25,30,explain the photoelectric effect and atomic spectra
+grade-12-science,12,S,PHY,G12S-PHY-06,Nuclei and semiconductor electronics,6,31,36,describe nuclear reactions and diodes and transistors
+grade-12-science,12,S,CHE,G12S-CHE-01,Solutions and electrochemistry,6,1,6,calculate colligative properties and cell potentials
+grade-12-science,12,S,CHE,G12S-CHE-02,Chemical kinetics and surface chemistry,6,7,12,determine rate laws
+grade-12-science,12,S,CHE,G12S-CHE-03,d- and f-block elements and coordination compounds,6,13,18,describe transition metals and complexes
+grade-12-science,12,S,CHE,G12S-CHE-04,"Haloalkanes, haloarenes, alcohols, phenols and ethers",6,19,24,describe preparation and reactions
+grade-12-science,12,S,CHE,G12S-CHE-05,"Aldehydes, ketones, carboxylic acids and amines",6,25,30,describe reactions and tests
+grade-12-science,12,S,CHE,G12S-CHE-06,Biomolecules and polymers,6,31,36,"describe carbohydrates, proteins and polymers"
+grade-12-science,12,S,BIO,G12S-BIO-01,Reproduction in organisms and humans,8,1,8,describe sexual reproduction in flowering plants and humans
+grade-12-science,12,S,BIO,G12S-BIO-02,Genetics and evolution,7,9,15,apply inheritance laws and molecular basis of inheritance
+grade-12-science,12,S,BIO,G12S-BIO-03,Biology and human welfare,7,16,22,"describe health, disease and food production"
+grade-12-science,12,S,BIO,G12S-BIO-04,Biotechnology and its applications,7,23,29,explain recombinant DNA technology
+grade-12-science,12,S,BIO,G12S-BIO-05,Ecology and environment,7,30,36,"explain ecosystems, biodiversity and conservation"
+grade-12-science,12,S,CSC,G12S-CSC-01,"Python functions, files and exceptions",9,1,9,write and test functions and handle files
+grade-12-science,12,S,CSC,G12S-CSC-02,Data structures: stacks and queues,9,10,18,implement stacks and queues
+grade-12-science,12,S,CSC,G12S-CSC-03,Computer networks and security,9,19,27,describe network layers and security
+grade-12-science,12,S,CSC,G12S-CSC-04,Databases and SQL with Python,9,28,36,connect Python with a database and query it

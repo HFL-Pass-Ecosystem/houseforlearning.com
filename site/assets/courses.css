@@ -1,0 +1,16 @@
+/* Course pages: brand Montserrat, #0F85DB, #3CC261, #F2EEE2 */
+body.learn .cb-facts,.cf{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px;align-items:end}
+.pill{display:inline-block;border:1px solid #0F85DB;color:#0B66A8;border-radius:999px;padding:3px 12px;font:600 12px Montserrat,system-ui,sans-serif;margin:2px 6px 2px 0}
+.pill.lv{background:#0F85DB;color:#fff}.pill.pr{border-color:#3CC261;color:#1f7a3a}.pill.bz{border-color:#3CC261;color:#1f7a3a}
+.blm{list-style:none;padding:0;display:grid;gap:8px}.blm .bz{display:inline-block;min-width:92px;font:700 12px Montserrat,sans-serif;color:#1f7a3a;text-transform:uppercase;letter-spacing:.06em}
+.tcs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}.tcs>div{background:#F2EEE2;border-radius:10px;padding:16px;border-top:4px solid #0F85DB}.tcs h4{margin:0 0 6px;font-family:Montserrat,sans-serif}
+details.mod,details.loc{background:#fff;border:1px solid #d9d3c2;border-radius:10px;padding:12px 16px;margin:0 0 10px}
+details.mod[open],details.loc[open]{border-color:#0F85DB}
+details summary{cursor:pointer;font-weight:600}.mn{color:#0F85DB;font:700 12px Montserrat,sans-serif;text-transform:uppercase;margin-right:6px}
+details dl{display:grid;grid-template-columns:max-content 1fr;gap:6px 16px}details dt{font-weight:700}details dd{margin:0}
+.evi{background:#F2EEE2;border-radius:8px;padding:8px 12px}
+.cgrid{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.cc a{display:block;height:100%;background:#fff;border:1px solid #d9d3c2;border-top:4px solid #0F85DB;border-radius:10px;padding:16px;text-decoration:none;color:inherit}
+.cc a:hover{border-top-color:#3CC261;box-shadow:0 4px 14px rgba(0,0,0,.08)}.cc h3{margin:8px 0 6px}.cc p{font-size:14px;margin:0 0 6px}.cm{color:#4b5560}
+.cf label{display:flex;flex-direction:column;font:600 12px Montserrat,sans-serif}.cf input,.cf select{padding:8px;border:1px solid #d9d3c2;border-radius:6px;font:14px Montserrat,sans-serif}
+.cc[hidden]{display:none}
