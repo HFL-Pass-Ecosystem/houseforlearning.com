@@ -469,7 +469,7 @@ def _checks_ten(subj, kind, mods, bd, plan_lbl):
             turn.append((m['n'], f"Unit {m['n']} ({m['title']}): {task[:1].upper() + task[1:]}.", ans.rstrip() + tag))
         else:
             turn.append((m['n'], f"Unit {m['n']} ({m['title']}): show that you can {m['outcome']}. Name the first step you used and the last.",
-                         f"The first step is to see or say the idea, and the last is to check or reflect; your evidence must meet the standard: {bd['std']}.{tag}"))
+                         f"First step: {m['points'][0]} Last step: {m['points'][-1]} Your evidence must meet the standard: {bd['std']}.{tag}"))
         qa = []
         for k in range(1, 5):
             r = _step_qa(st[k]) if len(st) > k + 1 else None
@@ -497,7 +497,7 @@ def _checks_ten(subj, kind, mods, bd, plan_lbl):
     return qs[:10]
 
 def checks(subj, kind, mods, bd, plan_lbl):
-    if subj != 'ISL':
+    if True:
         return _checks_ten(subj, kind, mods, bd, plan_lbl)
     qs = _checks(subj, kind, mods, bd, plan_lbl)
     if subj == 'ISL':
@@ -606,8 +606,8 @@ def render(d):
             + B.sec('', 'lc', 'ten locations and global', 'Localised for your place', '<p>Teach in the local language first, with English support. Use local currency, units and examples in every worksheet. Local curriculum and ministry rules are checked before use in a school; Arabic, Islamic, Social and Moral content needs licensed educators and ministry review. Child-safety rules apply for every learner under 18.</p>'
                     + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Use {L["cur"]} in money problems; deliver in {e(L["lang"])}; personal data rule: {e(L["data"])}; guardian contact for every learner under 18.</p></details>' for L in B.LOC))
             + ('' if d['subject'] == 'ISL' else B.sec('alt', 'jb', 'where this leads', 'Next steps, study and work', leads_html(d)))
-            + B.sec('alt', 'nx', 'next', 'Draft', '<p class="ws-note">Draft course in our own words. Needs review by a qualified teacher before classroom use. Not live.</p>'
-                    f'<p><a class="btn" href="{B.BANDS[d["band"]][2]}">More {e(b[0])} courses</a> <a class="btn btn-ghost" href="join.html">Join</a></p>'))
+            + B.sec('alt', 'nx', 'next', 'Draft', '<p class="ws-note">Draft course in our own words. Needs review by a qualified teacher before classroom use. Not live.</p>' + ('<p class="ws-note">Islamic studies: this page only restates each unit\'s title and outcome. A qualified Islamic studies teacher must write and review the teaching content, and the local ministry rules must be checked, before any use.</p>' if d['subject'] == 'ISL' else '')
+                    + f'<p><a class="btn" href="{B.BANDS[d["band"]][2]}">More {e(b[0])} courses</a> <a class="btn btn-ghost" href="join.html">Join</a></p>'))
     B.page(d['slug'], f'{d["label"]} {d["subject_name"]}', f'{d["label"]} {d["subject_name"]}: {len(d["modules"])} units with worked examples, rubric, ten checks and levels L1 to L7', f'{d["label"]}: {d["subject_name"]}',
            e(f'{len(d["modules"])} units across the school year. Each has a worked example, an activity and a standard to meet.'), body,
            B.crumb(('Learners', 'learners.html'), (b[0], b[2]), (f'{d["label"]} {d["subject_name"]}', None)), kicker='school course')
