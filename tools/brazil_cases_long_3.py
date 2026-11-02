@@ -135,7 +135,7 @@ LONG = {'Bed and Breakfast Business': ('Rita runs a five-room bed and breakfast 
                                 '\n'
                                 'Next, the discount and the freight rise together cut margin to R$ '
                                 '6.000 - R$ 2.000 - R$ 1.000 = R$ 3.000, so that shipment adds '
-                                'only 7,5 percent of its price. If all 3 shipments carried it, '
+                                'only 7,9 percent of its discounted price (R$ 3.000 / R$ 38.000). If all 3 shipments carried it, '
                                 'profit would be 3 x R$ 3.000 - R$ 12.000 = R$ -3.000. The 60 days '
                                 'of credit also hold R$ 40.000 outside the bank. The discount, '
                                 'freight rise and credit term are worked-example figures.\n'
