@@ -31,7 +31,15 @@
    ],
    "example": "Solved: A = {1, 2, 3} and B = {2, 3, 4}. Union = {1, 2, 3, 4}. Intersection = {2, 3}. Method: Model run for 'Sets, relations and functions'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Use set notation and functions: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Use set notation and functions: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, read it twice and underline what is asked. Write what you know in a list.",
+    "Step 2, estimate the answer first (is it big or small? about how much?).",
+    "Step 3, choose the method named in 'Sets, relations and functions' and write the first line only.",
+    "Step 4, finish the working line by line, one idea per line, units where needed.",
+    "Step 5, check: use a second method, work backwards, or compare with your estimate.",
+    "Step 6, make your own: change one number in the example and solve it again without looking. Standard: use set notation and functions."
+   ]
   },
   {
    "n": 2,
@@ -52,7 +60,15 @@
    ],
    "example": "Solved: Right triangle, opposite side 3, hypotenuse 5, adjacent side 4. sin = 3/5 = 0.6, cos = 4/5 = 0.8, tan = 3/4 = 0.75. Method: Model run for 'Trigonometry and sequences'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Use sequences, series and basic trigonometry: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Use sequences, series and basic trigonometry: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, read it twice and underline what is asked. Write what you know in a list.",
+    "Step 2, estimate the answer first (is it big or small? about how much?).",
+    "Step 3, choose the method named in 'Trigonometry and sequences' and write the first line only.",
+    "Step 4, finish the working line by line, one idea per line, units where needed.",
+    "Step 5, check: use a second method, work backwards, or compare with your estimate.",
+    "Step 6, make your own: change one number in the example and solve it again without looking. Standard: use sequences, series and basic trigonometry."
+   ]
   },
   {
    "n": 3,
@@ -73,7 +89,15 @@
    ],
    "example": "Solved: x squared - 5x + 6 = 0 factorises as (x - 2)(x - 3) = 0, so x = 2 or x = 3. Check x = 2: 4 - 10 + 6 = 0. Method: Model run for 'Complex numbers and quadratic equations'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Solve quadratics and work with complex numbers: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Solve quadratics and work with complex numbers: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, read it twice and underline what is asked. Write what you know in a list.",
+    "Step 2, estimate the answer first (is it big or small? about how much?).",
+    "Step 3, choose the method named in 'Complex numbers and quadratic equations' and write the first line only.",
+    "Step 4, finish the working line by line, one idea per line, units where needed.",
+    "Step 5, check: use a second method, work backwards, or compare with your estimate.",
+    "Step 6, make your own: change one number in the example and solve it again without looking. Standard: solve quadratics and work with complex numbers."
+   ]
   },
   {
    "n": 4,
@@ -94,7 +118,15 @@
    ],
    "example": "Solved: Arrange 5 books in 3 places: 5 x 4 x 3 = 60 ways. Choose 3 of 5: 60 / 6 = 10 ways. Method: Model run for 'Permutations, combinations and the binomial theorem'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Count arrangements: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Count arrangements: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, read it twice and underline what is asked. Write what you know in a list.",
+    "Step 2, estimate the answer first (is it big or small? about how much?).",
+    "Step 3, choose the method named in 'Permutations, combinations and the binomial theorem' and write the first line only.",
+    "Step 4, finish the working line by line, one idea per line, units where needed.",
+    "Step 5, check: use a second method, work backwards, or compare with your estimate.",
+    "Step 6, make your own: change one number in the example and solve it again without looking. Standard: count arrangements."
+   ]
   },
   {
    "n": 5,
@@ -115,7 +147,15 @@
    ],
    "example": "Solved: Points (1, 2) and (4, 6). Distance = square root of (3 squared + 4 squared) = square root of 25 = 5. Slope = (6 - 2) / (4 - 1) = 4/3. Method: Model run for 'Straight lines and introduction to limits'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Use line equations and simple limits: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Use line equations and simple limits: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, read it twice and underline what is asked. Write what you know in a list.",
+    "Step 2, estimate the answer first (is it big or small? about how much?).",
+    "Step 3, choose the method named in 'Straight lines and introduction to limits' and write the first line only.",
+    "Step 4, finish the working line by line, one idea per line, units where needed.",
+    "Step 5, check: use a second method, work backwards, or compare with your estimate.",
+    "Step 6, make your own: change one number in the example and solve it again without looking. Standard: use line equations and simple limits."
+   ]
   },
   {
    "n": 6,
@@ -136,7 +176,15 @@
    ],
    "example": "Solved: Data 4, 7, 7, 9, 13. Mean = 40 / 5 = 8. Median (middle value) = 7. Mode (most common) = 7. Method: Model run for 'Statistics and probability'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Find mean, variance and probability: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Find mean, variance and probability: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, read it twice and underline what is asked. Write what you know in a list.",
+    "Step 2, estimate the answer first (is it big or small? about how much?).",
+    "Step 3, choose the method named in 'Statistics and probability' and write the first line only.",
+    "Step 4, finish the working line by line, one idea per line, units where needed.",
+    "Step 5, check: use a second method, work backwards, or compare with your estimate.",
+    "Step 6, make your own: change one number in the example and solve it again without looking. Standard: find mean, variance and probability."
+   ]
   }
  ],
  "rubric": [

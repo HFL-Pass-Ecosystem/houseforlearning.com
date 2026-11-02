@@ -31,7 +31,15 @@
    ],
    "example": "Solved: name = 'Sara'; total = 0; for n in [3, 5, 7]: total = total + n; print(name, total) prints Sara 15. Trace each line to check. Method: Model run for 'Python functions, files and exceptions'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Write and test functions and handle files: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Write and test functions and handle files: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, state the goal of the task for 'Python functions, files and exceptions' in one sentence.",
+    "Step 2, plan the steps on paper before touching the device.",
+    "Step 3, follow the example and save after each step with a clear file name.",
+    "Step 4, test with normal input, then with one unusual input.",
+    "Step 5, fix one fault and note what you changed and why.",
+    "Step 6, show a partner and explain each part aloud. Standard: write and test functions and handle files. Online safety rules apply."
+   ]
   },
   {
    "n": 2,
@@ -52,7 +60,15 @@
    ],
    "example": "Solved: Stack (last in, first out): push 3, push 5, pop gives 5. Queue (first in, first out): enqueue 3, enqueue 5, dequeue gives 3. Method: Model run for 'Data structures: stacks and queues'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Implement stacks and queues: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Implement stacks and queues: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, state the goal of the task for 'Data structures: stacks and queues' in one sentence.",
+    "Step 2, plan the steps on paper before touching the device.",
+    "Step 3, follow the example and save after each step with a clear file name.",
+    "Step 4, test with normal input, then with one unusual input.",
+    "Step 5, fix one fault and note what you changed and why.",
+    "Step 6, show a partner and explain each part aloud. Standard: implement stacks and queues. Online safety rules apply."
+   ]
   },
   {
    "n": 3,
@@ -73,7 +89,15 @@
    ],
    "example": "Solved: A LAN joins nearby devices; a WAN joins far ones. A firewall blocks unwanted traffic. Use strong, unique passwords. Method: Model run for 'Computer networks and security'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Describe network layers and security: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Describe network layers and security: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, state the goal of the task for 'Computer networks and security' in one sentence.",
+    "Step 2, plan the steps on paper before touching the device.",
+    "Step 3, follow the example and save after each step with a clear file name.",
+    "Step 4, test with normal input, then with one unusual input.",
+    "Step 5, fix one fault and note what you changed and why.",
+    "Step 6, show a partner and explain each part aloud. Standard: describe network layers and security. Online safety rules apply."
+   ]
   },
   {
    "n": 4,
@@ -94,7 +118,15 @@
    ],
    "example": "Solved: name = 'Sara'; total = 0; for n in [3, 5, 7]: total = total + n; print(name, total) prints Sara 15. Trace each line to check. Method: Model run for 'Databases and SQL with Python'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Connect Python with a database and query it: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Connect Python with a database and query it: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, state the goal of the task for 'Databases and SQL with Python' in one sentence.",
+    "Step 2, plan the steps on paper before touching the device.",
+    "Step 3, follow the example and save after each step with a clear file name.",
+    "Step 4, test with normal input, then with one unusual input.",
+    "Step 5, fix one fault and note what you changed and why.",
+    "Step 6, show a partner and explain each part aloud. Standard: connect Python with a database and query it. Online safety rules apply."
+   ]
   }
  ],
  "rubric": [

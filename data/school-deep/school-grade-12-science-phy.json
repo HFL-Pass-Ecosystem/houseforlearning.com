@@ -31,7 +31,15 @@
    ],
    "example": "Solved: V = I x R. A 6 V cell across a 2 ohm resistor gives I = 6 / 2 = 3 A. Method: Model run for 'Electric charges, fields and potential'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Calculate fields and potential and use Gauss's law: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Calculate fields and potential and use Gauss's law: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, observe: look, measure or recall a real case for 'Electric charges, fields and potential' and write two things you notice.",
+    "Step 2, predict in one sentence what will happen or what is true, and why.",
+    "Step 3, follow the example with your own safe numbers or objects.",
+    "Step 4, record in a small table or a labelled sketch with units.",
+    "Step 5, conclude: one sentence using the key words of the unit and one piece of evidence.",
+    "Step 6, improve: say what you would change to make the test or answer more reliable. Standard: calculate fields and potential and use Gauss's law."
+   ]
   },
   {
    "n": 2,
@@ -52,7 +60,15 @@
    ],
    "example": "Solved: V = I x R. A 6 V cell across a 2 ohm resistor gives I = 6 / 2 = 3 A. Method: Model run for 'Current electricity and magnetism'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Apply Kirchhoff's laws and the Biot-Savart law: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Apply Kirchhoff's laws and the Biot-Savart law: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, observe: look, measure or recall a real case for 'Current electricity and magnetism' and write two things you notice.",
+    "Step 2, predict in one sentence what will happen or what is true, and why.",
+    "Step 3, follow the example with your own safe numbers or objects.",
+    "Step 4, record in a small table or a labelled sketch with units.",
+    "Step 5, conclude: one sentence using the key words of the unit and one piece of evidence.",
+    "Step 6, improve: say what you would change to make the test or answer more reliable. Standard: apply Kirchhoff's laws and the Biot-Savart law."
+   ]
   },
   {
    "n": 3,
@@ -73,7 +89,8 @@
    ],
    "example": "Solved: Show 1 + 2 + ... + n = n(n + 1)/2. n = 1: 1 = 1. Assume it holds for k. Add k + 1: k(k + 1)/2 + (k + 1) = (k + 1)(k + 2)/2, which is the rule for k + 1. So it holds for all n. Method: Model run for 'Electromagnetic induction and alternating current'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Apply Faraday's law and AC circuits: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Apply Faraday's law and AC circuits: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": []
   },
   {
    "n": 4,
@@ -94,7 +111,15 @@
    ],
    "example": "Solved: Wave speed = frequency x wavelength. 50 Hz and 6.8 m gives 340 m/s. Period = 1 / frequency = 0.02 s. Method: Model run for 'Electromagnetic waves and optics'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Use ray and wave optics: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Use ray and wave optics: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, observe: look, measure or recall a real case for 'Electromagnetic waves and optics' and write two things you notice.",
+    "Step 2, predict in one sentence what will happen or what is true, and why.",
+    "Step 3, follow the example with your own safe numbers or objects.",
+    "Step 4, record in a small table or a labelled sketch with units.",
+    "Step 5, conclude: one sentence using the key words of the unit and one piece of evidence.",
+    "Step 6, improve: say what you would change to make the test or answer more reliable. Standard: use ray and wave optics."
+   ]
   },
   {
    "n": 5,
@@ -115,7 +140,15 @@
    ],
    "example": "Solved: 10 g of salt in 90 g of water: solution mass 100 g, so concentration = 10 / 100 x 100 = 10 percent by mass. Method: Model run for 'Dual nature of matter and atoms'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Explain the photoelectric effect and atomic spectra: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Explain the photoelectric effect and atomic spectra: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, observe: look, measure or recall a real case for 'Dual nature of matter and atoms' and write two things you notice.",
+    "Step 2, predict in one sentence what will happen or what is true, and why.",
+    "Step 3, follow the example with your own safe numbers or objects.",
+    "Step 4, record in a small table or a labelled sketch with units.",
+    "Step 5, conclude: one sentence using the key words of the unit and one piece of evidence.",
+    "Step 6, improve: say what you would change to make the test or answer more reliable. Standard: explain the photoelectric effect and atomic spectra."
+   ]
   },
   {
    "n": 6,
@@ -136,7 +169,15 @@
    ],
    "example": "Solved: Half-life 8 days: 80 g becomes 40 g after 8 days and 20 g after 16 days. Method: Model run for 'Nuclei and semiconductor electronics'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
-   "standard": "Describe nuclear reactions and diodes and transistors: at least 70 percent on an exam-style task, with the method shown."
+   "standard": "Describe nuclear reactions and diodes and transistors: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, observe: look, measure or recall a real case for 'Nuclei and semiconductor electronics' and write two things you notice.",
+    "Step 2, predict in one sentence what will happen or what is true, and why.",
+    "Step 3, follow the example with your own safe numbers or objects.",
+    "Step 4, record in a small table or a labelled sketch with units.",
+    "Step 5, conclude: one sentence using the key words of the unit and one piece of evidence.",
+    "Step 6, improve: say what you would change to make the test or answer more reliable. Standard: describe nuclear reactions and diodes and transistors."
+   ]
   }
  ],
  "rubric": [

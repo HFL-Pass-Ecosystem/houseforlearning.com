@@ -31,7 +31,15 @@
    ],
    "example": "Solved: Table Students: ID, Name, Class. Query: SELECT Name FROM Students WHERE Class = '7B'; lists the names in 7B. Method: Model run for 'Databases and queries'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Create tables and write simple queries: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Create tables and write simple queries: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, state the goal of the task for 'Databases and queries' in one sentence.",
+    "Step 2, plan the steps on paper before touching the device.",
+    "Step 3, follow the example and save after each step with a clear file name.",
+    "Step 4, test with normal input, then with one unusual input.",
+    "Step 5, fix one fault and note what you changed and why.",
+    "Step 6, show a partner and explain each part aloud. Standard: create tables and write simple queries. Online safety rules apply."
+   ]
   },
   {
    "n": 2,
@@ -52,7 +60,8 @@
    ],
    "example": "Solved: Python: for i in range(3): print('Hi') prints Hi three times. Blocks: when flag clicked, repeat 10: move 10 steps. For functions: def square(n): return n * n; square(4) gives 16. Method: Model run for 'Programming with functions and lists'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Break a task into functions and use lists: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Break a task into functions and use lists: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": []
   },
   {
    "n": 3,
@@ -73,7 +82,15 @@
    ],
    "example": "Solved: <h1>My page</h1><p>Hello</p><a href='about.html'>About</a>. CSS: p { color: blue; } makes paragraphs blue. Method: Model run for 'Web pages with HTML and CSS'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Style a multi-page site: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Style a multi-page site: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, state the goal of the task for 'Web pages with HTML and CSS' in one sentence.",
+    "Step 2, plan the steps on paper before touching the device.",
+    "Step 3, follow the example and save after each step with a clear file name.",
+    "Step 4, test with normal input, then with one unusual input.",
+    "Step 5, fix one fault and note what you changed and why.",
+    "Step 6, show a partner and explain each part aloud. Standard: style a multi-page site. Online safety rules apply."
+   ]
   },
   {
    "n": 4,
@@ -94,7 +111,15 @@
    ],
    "example": "Solved: AI can be wrong. Check one fact from a second source. Never type personal details into an AI tool. Method: Model run for 'Safe use of artificial intelligence tools'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Use AI tools responsibly and check their answers: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Use AI tools responsibly and check their answers: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, state the goal of the task for 'Safe use of artificial intelligence tools' in one sentence.",
+    "Step 2, plan the steps on paper before touching the device.",
+    "Step 3, follow the example and save after each step with a clear file name.",
+    "Step 4, test with normal input, then with one unusual input.",
+    "Step 5, fix one fault and note what you changed and why.",
+    "Step 6, show a partner and explain each part aloud. Standard: use AI tools responsibly and check their answers. Online safety rules apply."
+   ]
   }
  ],
  "rubric": [

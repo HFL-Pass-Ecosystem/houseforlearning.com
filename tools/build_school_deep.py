@@ -413,6 +413,28 @@ def solved(title):
         if re.search(pat, title.lower()): return txt
     return None
 
+# Longer step-by-step walk for units whose solved example is short or missing. {t}=unit title, {o}=outcome, {x}=the short solved example or ''.
+STEPS = {
+ 'lang': ["Step 1, warm up: say or read the example aloud twice, slowly. Cover it and say it again from memory.", "Step 2, find the pattern: underline the word, ending or sentence part that '{t}' is about. Say in your own words why it is there.",
+          "Step 3, change one thing: swap one word, name or number in the example and say the new version aloud.", "Step 4, write two new lines of your own that do the same job. Keep them short and true to your life.",
+          "Step 5, swap with a partner: read each other's lines, circle one thing to fix, and fix it.", "Step 6, own it: read your final lines to the class or teacher. Standard: {o}."],
+ 'maths': ["Step 1, read it twice and underline what is asked. Write what you know in a list.", "Step 2, estimate the answer first (is it big or small? about how much?).", "Step 3, choose the method named in '{t}' and write the first line only.",
+           "Step 4, finish the working line by line, one idea per line, units where needed.", "Step 5, check: use a second method, work backwards, or compare with your estimate.", "Step 6, make your own: change one number in the example and solve it again without looking. Standard: {o}."],
+ 'sci': ["Step 1, observe: look, measure or recall a real case for '{t}' and write two things you notice.", "Step 2, predict in one sentence what will happen or what is true, and why.", "Step 3, follow the example with your own safe numbers or objects.",
+         "Step 4, record in a small table or a labelled sketch with units.", "Step 5, conclude: one sentence using the key words of the unit and one piece of evidence.", "Step 6, improve: say what you would change to make the test or answer more reliable. Standard: {o}."],
+ 'soc': ["Step 1, place it: find where and when this happens on a map, a timeline or in a local example.", "Step 2, gather two facts or sources and note who made each and why.", "Step 3, use the example as a model and write your own three-sentence answer to '{t}'.",
+         "Step 4, give a reason and one piece of evidence for each sentence.", "Step 5, weigh it: name one other point of view and say fairly why someone might hold it.", "Step 6, decide and say what you would still like to check. Standard: {o}."],
+ 'val': ["Step 1, listen to or read the short text for '{t}'. Say the main lesson in one sentence.", "Step 2, link it: describe one real moment this week where it applies.", "Step 3, plan one small action you can do in two days.",
+         "Step 4, do it with care and respect for others.", "Step 5, reflect: what went well, what was hard, what did you learn?", "Step 6, share one sentence with a partner and listen to theirs. Standard: {o}. Content follows the approved local syllabus."],
+ 'comp': ["Step 1, state the goal of the task for '{t}' in one sentence.", "Step 2, plan the steps on paper before touching the device.", "Step 3, follow the example and save after each step with a clear file name.",
+          "Step 4, test with normal input, then with one unusual input.", "Step 5, fix one fault and note what you changed and why.", "Step 6, show a partner and explain each part aloud. Standard: {o}. Online safety rules apply."],
+ 'biz': ["Step 1, read the short story of transactions for '{t}' and list each one.", "Step 2, decide what each transaction changes (cash, stock, owner's claim, what is owed).", "Step 3, record each one in the format shown in the example.",
+         "Step 4, total each side and check that they agree.", "Step 5, find and fix one deliberate slip your partner planted in the working.", "Step 6, write one sentence on what the figures tell the owner. Standard: {o}."],
+}
+
+def _steps(t, o, kind):
+    return [x.format(t=t, o=o) for x in STEPS[kind]]
+
 def modules(rows, kind, bd):
     f = FR[kind]; out = []
     for i, r in enumerate(rows):
@@ -422,7 +444,10 @@ def modules(rows, kind, bd):
                         intro=f"In this unit you work on '{t}', taught in a way that is {bd['w']}. The target is clear: {o}. You move from seeing it, to saying it, to doing it alone.",
                         points=[s.format(t=t, o=o) for s in f['steps']], example=(((lambda sv: ('Solved: ' + sv + ' Method: ') if sv else '')((solved(t) if kind in ('maths', 'sci', 'lang') else None) or solved2(t, sj) or solved4(t, sj) or solved3(t, sj))) + f['ex'].format(t=t, o=o)),
                         activity=f"About {bd['t']} of class work, then one short practice task for home. Keep evidence: {bd['ev']}.",
-                        standard=f"{o[:1].upper() + o[1:]}: {bd['std']}."))
+                        standard=f"{o[:1].upper() + o[1:]}: {bd['std']}.", steps=_steps(t, o, kind)))
+    for m in out:
+        ex = m['example']
+        if ex.startswith('Solved: ') and len(ex[8:].split(' Method: ')[0]) >= 140: m['steps'] = []
     return out
 
 def checks(subj, kind, mods, bd, plan_lbl):
@@ -452,7 +477,7 @@ def build_data(p, s, rs):
 def render(d):
     mods = ''.join(f'<details class="mod" {"open" if m["n"] == 1 else ""}><summary><span class="mn">Unit {m["n"]}</span> {e(m["title"])} <span class="pill">Weeks {m["weeks"][0]} to {m["weeks"][1]}</span><span class="pill bz">{m["bloom"]}</span></summary>'
                    f'<p>{e(m["intro"])}</p><ul>' + ''.join(f'<li>{e(x)}</li>' for x in m['points']) + '</ul>'
-                   f'<div class="evi"><strong>Worked example.</strong> {e(m["example"])}</div><p><strong>Activity.</strong> {e(m["activity"])}</p><p><strong>Standard to meet.</strong> {e(m["standard"])}</p></details>' for m in d['modules'])
+                   f'<div class="evi"><strong>Worked example.</strong> {e(m["example"])}</div>' + ('<p><strong>Step by step.</strong></p><ol>' + ''.join(f'<li>{e(x)}</li>' for x in m['steps']) + '</ol>' if m.get('steps') else '') + f'<p><strong>Activity.</strong> {e(m["activity"])}</p><p><strong>Standard to meet.</strong> {e(m["standard"])}</p></details>' for m in d['modules'])
     rub = ('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric (Not yet, Meets, Exceeds)</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>'
            + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(c)}</td><td>{e(x)}</td></tr>' for a, b, c, x in d['rubric']) + '</tbody></table></div>')
     quiz = ''.join(f'<details class="mod"><summary>Q{i + 1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a)}</p></details>' for i, (q, a) in enumerate(d['checks']))

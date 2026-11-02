@@ -31,7 +31,15 @@
    ],
    "example": "Solved: Cells A1 = 12, A2 = 18, A3 = 20. In A4 type =SUM(A1:A3) to get 50. =AVERAGE(A1:A3) gives 16.67. Change A1 and the totals update. Method: Model run for 'Word, slides and spreadsheets in practice'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Prepare a report with a table, chart and slides: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Prepare a report with a table, chart and slides: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, state the goal of the task for 'Word, slides and spreadsheets in practice' in one sentence.",
+    "Step 2, plan the steps on paper before touching the device.",
+    "Step 3, follow the example and save after each step with a clear file name.",
+    "Step 4, test with normal input, then with one unusual input.",
+    "Step 5, fix one fault and note what you changed and why.",
+    "Step 6, show a partner and explain each part aloud. Standard: prepare a report with a table, chart and slides. Online safety rules apply."
+   ]
   },
   {
    "n": 2,
@@ -52,7 +60,8 @@
    ],
    "example": "Solved: Algorithm to make toast: 1 take two slices, 2 put in toaster, 3 press down, 4 wait, 5 take out. Loop: repeat 4 times: step forward, turn right = draw a square. Method: Model run for 'Algorithms and flowcharts'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Plan a solution with a flowchart and test it: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Plan a solution with a flowchart and test it: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": []
   },
   {
    "n": 3,
@@ -73,7 +82,8 @@
    ],
    "example": "Solved: Python: for i in range(3): print('Hi') prints Hi three times. Blocks: when flag clicked, repeat 10: move 10 steps. For functions: def square(n): return n * n; square(4) gives 16. Method: Model run for 'Programming in a text language, first steps'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Write short programs with input, output and decisions: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Write short programs with input, output and decisions: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": []
   },
   {
    "n": 4,
@@ -94,7 +104,15 @@
    ],
    "example": "Solved: Before posting ask: would I say this face to face, and would I be happy if a teacher saw it? Everything you post can be copied. Method: Model run for 'Cyber safety and ethics'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
-   "standard": "Apply privacy and respectful communication rules: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+   "standard": "Apply privacy and respectful communication rules: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, state the goal of the task for 'Cyber safety and ethics' in one sentence.",
+    "Step 2, plan the steps on paper before touching the device.",
+    "Step 3, follow the example and save after each step with a clear file name.",
+    "Step 4, test with normal input, then with one unusual input.",
+    "Step 5, fix one fault and note what you changed and why.",
+    "Step 6, show a partner and explain each part aloud. Standard: apply privacy and respectful communication rules. Online safety rules apply."
+   ]
   }
  ],
  "rubric": [
