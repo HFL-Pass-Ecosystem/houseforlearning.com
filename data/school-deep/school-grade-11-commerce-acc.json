@@ -32,7 +32,14 @@
    "example": "Solved: Assets = Liabilities + Capital. Cash 5,000 + Stock 3,000 = Loan 2,000 + Capital 6,000. If the owner pays 1,000 of the loan in cash: Assets 7,000 = Liabilities 1,000 + Capital 6,000. Method: Model run for 'Accounting concepts and the accounting equation'. Story: a small shop starts the month with cash and stock and has a short list of transactions. Step 1, list each transaction and what it changes. Step 2, record it in the format of the unit. Step 3, total and check that both sides agree. Step 4, write one sentence about what the figures tell the owner. What a good answer looks like: every transaction is recorded in the right place, totals agree, and the sentence states a useful message. Use local money units and local rules.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Apply accounting principles and the accounting equation: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": []
+   "steps": [
+    "Step 1, Apply the basic principles: the business entity principle says the owner and the business are separate, so the owner's own scooter is not a business asset. Going concern assumes the shop will keep running. Money measurement records only items that can be stated in money. The cost concept records assets at the price paid.",
+    "Step 2, State the equation: Assets = Capital + Liabilities. Assets are what the business owns, capital is what the owner has put in, and liabilities are what it owes outsiders. Every transaction has two effects (dual aspect), so both sides stay equal. The owner starts with Rs 100,000 cash: Assets 100,000 = Capital 100,000 + Liabilities 0.",
+    "Step 3, Apply it to two more transactions. Buy furniture for Rs 20,000 cash: cash falls to 80,000 and furniture 20,000 appears, so assets stay 100,000. Buy goods on credit for Rs 30,000: stock rises by 30,000 and creditors rise by 30,000, so assets 130,000 = capital 100,000 + liabilities 30,000.",
+    "Step 4, Record a sale. Sell goods that cost Rs 10,000 for Rs 15,000 cash: cash rises by 15,000 and stock falls by 10,000, so assets rise by 5,000. That 5,000 is profit, which belongs to the owner, so capital becomes 105,000. Check: cash 95,000 + furniture 20,000 + stock 20,000 = 135,000 = 105,000 + 30,000.",
+    "Step 5, Record a payment to a creditor of Rs 12,000: cash falls from 95,000 to 83,000 and creditors fall from 30,000 to 18,000. Assets are now 83,000 + 20,000 + 20,000 = 123,000, and capital 105,000 + liabilities 18,000 = 123,000. Paying a debt shrinks both sides equally, so the equation still balances.",
+    "Step 6, Your turn: A trader starts with Rs 60,000 cash, buys a machine for Rs 25,000 cash and buys goods for Rs 10,000 on credit. Show the equation. Answer: cash 35,000 + machine 25,000 + stock 10,000 = assets 70,000; capital 60,000 + liabilities 10,000 = 70,000, so it balances."
+   ]
   },
   {
    "n": 2,
@@ -54,7 +61,14 @@
    "example": "Solved: Bought goods for 4,000 cash. Journal: Purchases A/c Dr 4,000, To Cash A/c 4,000. Post to the ledger: debit side of Purchases, credit side of Cash. Method: Model run for 'Journal, ledger and trial balance'. Story: a small shop starts the month with cash and stock and has a short list of transactions. Step 1, list each transaction and what it changes. Step 2, record it in the format of the unit. Step 3, total and check that both sides agree. Step 4, write one sentence about what the figures tell the owner. What a good answer looks like: every transaction is recorded in the right place, totals agree, and the sentence states a useful message. Use local money units and local rules.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Record transactions and prepare a trial balance: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": []
+   "steps": [
+    "Step 1, Record in the journal, the book of first entry. For each transaction, name the account to debit and the account to credit, give the date and add a short narration. Rule used: debit what comes in or an expense, credit what goes out or a gain. A debit entry always has an equal credit entry.",
+    "Step 2, Journalise five January transactions. 1 Jan: started business with cash 50,000 (Dr Cash, Cr Capital). 2 Jan: bought goods for cash 20,000 (Dr Purchases, Cr Cash). 3 Jan: sold goods on credit to Customer K 18,000 (Dr Customer K, Cr Sales). 5 Jan: paid rent 3,000 (Dr Rent, Cr Cash). 8 Jan: received 10,000 from Customer K (Dr Cash, Cr Customer K).",
+    "Step 3, Post to the ledger, where each account has its own page. Cash account: debit side 50,000 + 10,000 = 60,000, credit side 20,000 + 3,000 = 23,000. Balance carried down 37,000 on the debit side. Customer K's account: debit 18,000, credit 10,000, so the balance is 8,000 debit, meaning Customer K still owes us that amount.",
+    "Step 4, Balance the other accounts. Purchases has one debit of 20,000. Rent has one debit of 3,000. Sales has one credit of 18,000. Capital has one credit of 50,000. A ledger balance sits on the side that is larger. Write each closing balance in the trial balance list next.",
+    "Step 5, Prepare the trial balance. Debit column: Cash 37,000, Purchases 20,000, Customer K 8,000, Rent 3,000, total 68,000. Credit column: Capital 50,000, Sales 18,000, total 68,000. The totals agree, so the double entries were posted correctly. If they differed, recheck postings and additions for the error.",
+    "Step 6, Your turn: a trader starts with cash 40,000, buys goods for cash 15,000 and pays wages 2,000. Prepare the trial balance. Answer: Debit side: Cash 23,000, Purchases 15,000, Wages 2,000, total 40,000. Credit side: Capital 40,000. Both totals are 40,000."
+   ]
   },
   {
    "n": 3,
@@ -76,7 +90,14 @@
    "example": "Solved: Cash book 12,000. Bank charges 200 not yet entered: adjusted cash book 11,800. Passbook shows 12,600 because a cheque for 800 is not yet presented: 12,600 - 800 = 11,800. Both agree. Method: Model run for 'Subsidiary books and bank reconciliation'. Story: a small shop starts the month with cash and stock and has a short list of transactions. Step 1, list each transaction and what it changes. Step 2, record it in the format of the unit. Step 3, total and check that both sides agree. Step 4, write one sentence about what the figures tell the owner. What a good answer looks like: every transaction is recorded in the right place, totals agree, and the sentence states a useful message. Use local money units and local rules.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Record in cash and purchase books and reconcile a bank statement: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": []
+   "steps": [
+    "Step 1, Record in subsidiary books so the journal does not get crowded. Each book holds one kind of transaction: cash book for cash and bank, purchases book for credit purchases of goods, sales book for credit sales, and returns books for goods sent back. Only the totals are posted to the ledger, which saves time.",
+    "Step 2, Write the purchases book. 5 March: goods from Supplier A on credit 12,000. 9 March: goods from Supplier B on credit 8,000. Total credit purchases 20,000. Post the total once as Dr Purchases 20,000, and credit each supplier's account with its own amount: Supplier A 12,000 and Supplier B 8,000. Cash purchases do not go here.",
+    "Step 3, Use a cash book with a bank column. Cash received and cheques deposited are entered on the debit side, and payments on the credit side. After the month's entries the bank column of the cash book shows a debit balance of Rs 24,500. The bank's passbook is its own copy of the same account and may show a different figure.",
+    "Step 4, Find why they differ. Four items: bank charges 300 and interest credited 800 are known to the bank but not yet in the cash book; a cheque issued for 2,500 has not been presented; a cheque deposited for 1,000 has not been cleared. The first two need cash book entries, the last two are only timing differences.",
+    "Step 5, Reconcile. Adjust the cash book: 24,500 - 300 + 800 = 25,000. The passbook shows 26,500. Start from it: 26,500 + 1,000 (deposited, not yet credited) - 2,500 (issued, not yet presented) = 25,000. Both agree at 25,000, so the books are reconciled and the true bank balance is Rs 25,000.",
+    "Step 6, Your turn: cash book bank balance is 18,000. Bank charges of 200 are not yet recorded. A cheque issued for 1,500 is not presented. Find the passbook balance and reconcile. Answer: adjusted cash book 18,000 - 200 = 17,800; passbook 19,300 - 1,500 = 17,800, so the passbook shows 19,300 and both agree."
+   ]
   },
   {
    "n": 4,
@@ -128,7 +149,14 @@
    "example": "Solved: Sales 90,000 - cost of goods sold 60,000 = gross profit 30,000. Less expenses 12,000 = net profit 18,000. Capital + net profit - drawings gives closing capital. Method: Model run for 'Financial statements of sole proprietors'. Story: a small shop starts the month with cash and stock and has a short list of transactions. Step 1, list each transaction and what it changes. Step 2, record it in the format of the unit. Step 3, total and check that both sides agree. Step 4, write one sentence about what the figures tell the owner. What a good answer looks like: every transaction is recorded in the right place, totals agree, and the sentence states a useful message. Use local money units and local rules.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Prepare an income statement and a balance sheet: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": []
+   "steps": [
+    "Step 1, Gather the closing figures from the trial balance of a sole proprietor. Debit side: Purchases 120,000, Opening stock 15,000, Wages 20,000, Rent 12,000, Drawings 10,000, Furniture 40,000, Debtors 22,000, Bank 59,000. Credit side: Sales 200,000, Capital 80,000, Creditors 18,000. Both sides total 298,000. Closing stock is valued at 25,000.",
+    "Step 2, Prepare the trading section of the income statement. Cost of goods sold = opening stock 15,000 + purchases 120,000 - closing stock 25,000 = 110,000. Gross profit = sales 200,000 - 110,000 = 90,000. Gross profit shows what trading the goods earned before running expenses.",
+    "Step 3, Complete the income statement. Deduct operating expenses: wages 20,000 + rent 12,000 = 32,000. Net profit = gross profit 90,000 - 32,000 = 58,000. Drawings are money the owner takes for personal use, so they are not an expense and do not appear here.",
+    "Step 4, Build the capital section of the balance sheet. Opening capital 80,000 + net profit 58,000 - drawings 10,000 = closing capital 128,000. Add the liability, creditors 18,000, to get the total of capital and liabilities: 146,000. Show current liabilities such as creditors separately.",
+    "Step 5, List the assets: furniture 40,000 (fixed asset); closing stock 25,000, debtors 22,000 and bank 59,000 (current assets). Total assets = 40,000 + 25,000 + 22,000 + 59,000 = 146,000. This equals capital plus liabilities of 146,000, so the balance sheet balances and the statements are consistent.",
+    "Step 6, Your turn: sales 80,000, purchases 50,000, opening stock 5,000, closing stock 8,000, expenses 12,000. Find gross profit and net profit. Answer: cost of goods sold = 5,000 + 50,000 - 8,000 = 47,000; gross profit = 80,000 - 47,000 = 33,000; net profit = 33,000 - 12,000 = 21,000."
+   ]
   },
   {
    "n": 6,

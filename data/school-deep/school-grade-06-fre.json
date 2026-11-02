@@ -32,7 +32,14 @@
    "example": "Solved: Texte: 'Lea habite a Lyon. Elle a douze ans. Elle aime lire.' Ou habite Lea? A Lyon. A toi d'ecrire: 'Je m'appelle... J'habite a... J'aime...' Method: Model run for 'Reading comprehension'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Answer questions: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Skim the text for the main idea. Samedi, Amir et sa sœur Lina vont au marché avec leur grand-père. Ils achètent des tomates, du fromage et une baguette. Il pleut, alors ils rentrent vite à la maison. L'après-midi, ils font un gâteau au chocolat. Main idea: a Saturday outing and baking at home.",
+    "Step 2, Read for details and gloss new words. ils vont [they go], ils achètent [they buy], il pleut [it is raining], alors [so], rentrer [to go back home], l'après-midi [in the afternoon], un gâteau [a cake]. Underline the verbs, because question answers usually depend on them.",
+    "Step 3, Identify what each question word asks for. Qui ? [Who?] gives a person. Où ? [Where?] gives a place. Quand ? [When?] gives a time. Pourquoi ? [Why?] needs parce que [because]. Combien ? [How many?] needs a number. Read the question before you hunt in the text.",
+    "Step 4, Find the evidence and write the answer. Où vont-ils samedi ? [Where do they go on Saturday?] Evidence: vont au marché. Answer: Ils vont au marché avec leur grand-père. [They go to the market with their grandfather.] Reuse words from the question and the text, changing only what is needed.",
+    "Step 5, Fix errors. A child answers Pourquoi rentrent-ils vite ? with Il pleut. Better: Ils rentrent vite parce qu'il pleut. Another answers Ils achètent du fromage et pain. Correction: du fromage et une baguette, as in the text. Always check the text before you copy.",
+    "Step 6, Your turn: answer Que font-ils l'après-midi ? [What do they do in the afternoon?] Answer: Ils font un gâteau au chocolat. [They make a chocolate cake.]"
+   ]
   },
   {
    "n": 2,
@@ -54,7 +61,14 @@
    "example": "Solved: Texte: 'Lea habite a Lyon. Elle a douze ans. Elle aime lire.' Ou habite Lea? A Lyon. A toi d'ecrire: 'Je m'appelle... J'habite a... J'aime...' Method: Model run for 'Writing practice'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Write a paragraph: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Begin with a topic sentence that names the subject. Le samedi, je me lève à huit heures. [On Saturdays I get up at eight.] Note je me lève, not je lève, because se lever is a reflexive verb. Every other sentence in the paragraph will support this opening.",
+    "Step 2, Add sequence words. d'abord [first], ensuite [then], puis [next], enfin [finally]. D'abord, je prends le petit déjeuner. [First, I have breakfast.] Ensuite, je joue au foot avec mes amis. [Then I play football with my friends.] Use a comma after each sequence word.",
+    "Step 3, Write the middle and the end. Puis, je fais mes devoirs. [Next, I do my homework.] Enfin, le soir, je regarde un film avec ma famille. [Finally, in the evening, I watch a film with my family.] That gives five sentences, a good length for a paragraph.",
+    "Step 4, Check the paragraph. Verbs in the present: je me lève, je prends, je joue, je fais, je regarde. Accents: élève, devoirs, film. Check that every sentence begins with a capital and ends with a full stop. Read aloud and fix anything that sounds odd.",
+    "Step 5, Fix errors. A child writes Je joue le foot. Correction: Je joue au foot, because jouer takes à before a sport. Another writes je lève à huit heures. Correction: je me lève à huit heures. Another writes Je fait mes devoirs. Correction: Je fais.",
+    "Step 6, Your turn: write four or five sentences about your Sunday with sequence words. Model answer: Le dimanche, je dors un peu plus. D'abord, je mange avec mes parents. Ensuite, je lis un livre. Puis, je joue avec mon frère. Enfin, je prépare mon sac."
+   ]
   },
   {
    "n": 3,
@@ -76,7 +90,14 @@
    "example": "Solved: Ecoute: 'Le train part a huit heures quinze du quai trois.' Note: 8 h 15, quai 3. A dire: 'Bonjour, je m'appelle Omar. Je vais parler de ma ville.' Method: Model run for 'Listening practice'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Follow dialogue: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Prepare to listen. The title is Pour aller à la gare [Getting to the station]. Predict words: tout droit [straight on], à gauche [on the left], à droite [on the right], la rue [street], mètres [metres]. Draw a small blank map with the start point marked.",
+    "Step 2, Listen for the gist. Read aloud: Excusez-moi, où est la gare, s'il vous plaît ? Allez tout droit jusqu'au feu rouge, puis tournez à gauche. Ensuite, prenez la deuxième rue à droite. La gare est en face de la poste. C'est loin ? Non, c'est à cinq cents mètres. Gist: someone asks the way to the station.",
+    "Step 3, Listen again and draw the route. Straight to the red light [le feu rouge], left, then the second street on the right. The station is opposite [en face de] the post office [la poste]. Mark each step with an arrow as you hear it.",
+    "Step 4, Check the numbers and the detail. cinq cents mètres is 500 m. At about 5 km per hour, 500 m takes six minutes, so sept minutes à pied [seven minutes on foot] is reasonable. Compare your map with a partner's and listen again where they differ.",
+    "Step 5, Fix common slips. À gauche [left] and à droite [right] are easy to swap, so write G and D. Tout droit means straight on, not to the right. Cent [100] and cinq cents [500] differ by cinq, so listen for it. Say them aloud.",
+    "Step 6, Your turn: hear Allez tout droit, puis tournez à droite. La bibliothèque est à côté de la pharmacie, à trois cents mètres. Where is it and how far? Answer: It is next to the pharmacy, after turning right, 300 metres away."
+   ]
   },
   {
    "n": 4,
@@ -98,7 +119,14 @@
    "example": "Solved: Ecoute: 'Le train part a huit heures quinze du quai trois.' Note: 8 h 15, quai 3. A dire: 'Bonjour, je m'appelle Omar. Je vais parler de ma ville.' Method: Model run for 'Speaking practice'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Hold a short conversation: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Learn greetings and first questions. Salut ! Comment tu t'appelles ? [Hi! What is your name?] Tu as quel âge ? [How old are you?] Tu habites où ? [Where do you live?] Qu'est-ce que tu aimes faire ? [What do you like to do?] Practise each with a partner, turn by turn.",
+    "Step 2, Answer in a full sentence and return the question. Je m'appelle Yara. Et toi ? [My name is Yara. And you?] J'ai onze ans. Et toi ? [I am eleven. And you?] Et toi ? keeps the conversation going and gives you time to think.",
+    "Step 3, Act out a conversation. Paul : Tu habites où ? [Where do you live?] Yara : J'habite près du parc. [I live near the park.] Paul : Qu'est-ce que tu aimes faire ? Yara : J'aime nager et lire. Et toi ? Paul : J'adore le foot ! Yara : Super ! [Great!]",
+    "Step 4, Add small words to sound natural. Euh [Um], alors [so], bien sûr [of course], d'accord [OK], pardon ? [Sorry?]. If you do not hear, say Tu peux répéter, s'il te plaît ? [Can you repeat, please?] Use one of these in every conversation.",
+    "Step 5, Fix errors. A child says Je habite près du parc. Correction: J'habite, with elision before the h. Another says Tu habites quoi ? Correction: Tu habites où ?",
+    "Step 6, Your turn: have a six-line conversation about hobbies with a partner. Model answer: Salut ! Tu aimes faire quoi ? J'aime dessiner. Et toi ? Moi, j'aime jouer au basket. Super ! On joue samedi ? D'accord ! [Hi! What do you like to do? I like drawing. And you? I like playing basketball. Great! Shall we play on Saturday? OK!]"
+   ]
   }
  ],
  "rubric": [

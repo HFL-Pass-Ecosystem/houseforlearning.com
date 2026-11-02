@@ -90,7 +90,14 @@
    "example": "Solved: Revenue receipts 100, revenue expenditure 120: revenue deficit 20. Fiscal deficit = total expenditure minus total receipts excluding borrowing. Method: Model run for 'Government budget and the balance of payments'. Question: what happened, or what is the situation, and why? Sources: two short extracts, a map or table. Notes: who, what, where, when, why. Answer: three sentences, each with a reason and a piece of evidence. Check: is there a point of view that you have not considered? What a good answer looks like: facts are correct, reasons are linked to evidence, and one other point of view is named fairly.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Describe the budget and exchange rates: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": []
+   "steps": [
+    "Step 1, A government budget lists revenue and spending. Revenue is 800 and spending is 920, so the budget deficit is 920 - 800 = 120. If national income is 4,000, the deficit is 120 / 4,000 = 3 percent of national income. If revenue were bigger than spending it would be a surplus.",
+    "Step 2, Taxes raise revenue. Direct taxes, such as income tax, are paid on income. Indirect taxes, such as sales tax, are paid on goods. A progressive tax takes a larger share as income rises. If the first 10,000 is untaxed and the rest pays 20 percent, income of 30,000 pays 20 percent of 20,000, which is 4,000, an average rate of 13.3 percent.",
+    "Step 3, Fiscal policy uses spending and taxes to steer the economy. In a recession the government spends more or cuts taxes. If households spend 0.8 of extra income, the multiplier is 1 / (1 - 0.8) = 5, so extra spending of 50 raises national income by up to 250. In high inflation it does the reverse.",
+    "Step 4, The balance of payments records a country's dealings with the world. In the current account, goods exports 500 and imports 560 give a trade balance of -60. Add net services +30, net income -20 and transfers +15: -60 + 30 - 20 + 15 = -35, a current account deficit. Financial account inflows pay for it.",
+    "Step 5, Exchange rates. Say 1 foreign currency unit (FC) = 80 local units. A local good priced at 400 costs foreigners 400 / 80 = 5 FC. If the local currency depreciates to 100 per FC, the good costs 400 / 100 = 4 FC, so exports become cheaper, while an imported good priced at 5 FC now costs 500 local units.",
+    "Step 6, Your turn: revenue is 650 and spending is 600. Find the budget balance. If 1 FC = 50 local units, what is a 2,000 local-unit item worth in FC? Answer: a surplus of 650 - 600 = 50; and 2,000 / 50 = 40 FC."
+   ]
   },
   {
    "n": 4,

@@ -1,0 +1,242 @@
+{
+ "G09-SCI-01": {
+  "steps": [
+   "Step 1, Separate distance from displacement. A child walks 3 m east then 4 m north. The distance travelled is 3 + 4 = 7 m, but the displacement is the straight line from start to finish, 5 m, because 3, 4 and 5 form a right triangle. Speed uses distance, velocity uses displacement with direction.",
+   "Step 2, Read a distance-time graph. Plot (0 s, 0 m), (2 s, 10 m) and (4 s, 20 m). The points lie on a straight line, so the motion is uniform. The slope is 20 m divided by 4 s, which is 5 m/s, the speed. A flat line means at rest, and a line curving upward means speeding up.",
+   "Step 3, Read a velocity-time graph. A car starts from rest and reaches 20 m/s in 10 s along a straight sloping line. The slope gives acceleration: 20 / 10 = 2 m/s squared. The area under the line gives distance: a triangle of half times 10 times 20 equals 100 m.",
+   "Step 4, Use the three equations of uniform acceleration: v = u + at, s = ut + (1/2)at^2 and v^2 = u^2 + 2as. For u = 0, a = 2 m/s^2 and t = 10 s, v = 20 m/s and s = 100 m. Check: v^2 = 400 and 2as = 2 x 2 x 100 = 400, so the equations agree with the graph.",
+   "Step 5, Describe slowing down. A bicycle at u = 12 m/s brakes with a = -3 m/s^2. It stops when 0 = 12 - 3t, so t = 4 s. Distance s = 12 x 4 - (1/2) x 3 x 16 = 48 - 24 = 24 m. For a class practical, roll a toy car down a ramp on a clear floor, time it and keep feet away from its path.",
+   "Step 6, Your turn: a ball is dropped from rest and falls for 2 s. Take g = 10 m/s^2. Find its speed and distance fallen using the equations. Answer: v = 0 + 10 x 2 = 20 m/s, and s = (1/2) x 10 x 2^2 = 20 m."
+  ]
+ },
+ "G09-SCI-02": {
+  "steps": [
+   "Step 1, Apply the first law, inertia. A body stays at rest or in steady straight motion unless an unbalanced force acts. Place a card on a plastic cup with a coin on top and flick the card sideways. The coin drops into the cup because it keeps its rest state. Keep your face back and use a light plastic cup.",
+   "Step 2, Apply the second law, F = ma. A 5 kg trolley pushed by a net force of 20 N gets a = 20 / 5 = 4 m/s^2. Double the force to 40 N and the acceleration doubles to 8 m/s^2. Double the mass to 10 kg with 20 N and it halves to 2 m/s^2.",
+   "Step 3, Calculate momentum, p = mv. A 1,000 kg car at 20 m/s has p = 20,000 kg m/s. Force equals change in momentum divided by time. Stopping in 5 s needs 20,000 / 5 = 4,000 N, but stopping in 0.5 s needs 40,000 N, which is why airbags and seat belts lengthen the stopping time.",
+   "Step 4, Apply the third law. When you push a wall, the wall pushes back with an equal force in the opposite direction. The two forces act on different bodies, so they do not cancel. A blown-up balloon released from your hand shoots forward as air rushes backward. Swimmers push water back and move forward.",
+   "Step 5, Use conservation of momentum. A 2 kg trolley moving at 3 m/s hits a 1 kg trolley at rest and they stick. Total momentum before is 2 x 3 = 6 kg m/s, so after the crash 6 = 3 x v and v = 2 m/s. A 4 kg gun firing a 0.05 kg bullet at 100 m/s recoils at 0.05 x 100 / 4 = 1.25 m/s.",
+   "Step 6, Your turn: a 3 kg cart moving at 4 m/s hits a 1 kg cart at rest and the two stick together. Find their speed. Answer: momentum before = 3 x 4 = 12 kg m/s; after = 4 kg x v, so v = 12 / 4 = 3 m/s."
+  ]
+ },
+ "G09-SCI-07": {
+  "steps": [
+   "Step 1, Describe the cell as the basic unit of life. All living things are made of cells, and new cells come from existing cells. An amoeba is one cell, a human has trillions. To see onion peel cells, stain a thin peel with dilute iodine, add a cover slip gently and use a lamp, never direct sunlight. Wash hands afterwards.",
+   "Step 2, Describe the parts every cell has. The plasma membrane controls what enters and leaves. The cytoplasm is the jelly where reactions happen. The nucleus holds the DNA and directs the cell. Plant cells also have a cellulose cell wall, a large vacuole and chloroplasts, while animal cells have no wall and only small vacuoles.",
+   "Step 3, Match organelles to jobs. Mitochondria release energy from glucose, so they are called powerhouses. Ribosomes make proteins. Rough ER, which carries ribosomes, moves proteins, and smooth ER makes fats. The Golgi apparatus packs and sends out substances. Lysosomes digest waste, and chloroplasts carry out photosynthesis.",
+   "Step 4, Describe plant tissues. Meristematic tissue at root and shoot tips divides to make the plant grow longer. Permanent tissues are parenchyma (stores food), collenchyma (flexible support), sclerenchyma (hard, dead support), xylem (carries water and minerals up) and phloem (carries made food in both directions).",
+   "Step 5, Describe animal tissues. Epithelial tissue covers skin and lines the gut. Connective tissue includes blood, bone, cartilage and fat. Muscle tissue has three kinds: striated in limbs, smooth in the gut and cardiac in the heart. Nervous tissue is made of neurons. Under a microscope, a 10x eyepiece with a 40x objective magnifies 400 times.",
+   "Step 6, Your turn: name the organelle that releases energy and the plant tissue that carries water up from roots. Answer: the mitochondrion releases energy from glucose, and xylem carries water and minerals upward."
+  ]
+ },
+ "G10-SCI-02": {
+  "steps": [
+   "Step 1, Use indicators to sort acids from bases. Blue litmus turns red in acid, red litmus turns blue in base. Phenolphthalein is colourless in acid and pink in base, and methyl orange is red in acid and yellow in base. Red cabbage juice also works. Wear goggles, use dilute solutions and never taste lab chemicals.",
+   "Step 2, Use the pH scale, where pH = -log10 of the hydrogen ion concentration. For 0.001 mol/L HCl, the concentration is 10^-3, so pH = 3. For 0.01 mol/L NaOH, pOH = 2 and pH = 14 - 2 = 12. Neutral water is 7. Each step of 1 means a tenfold change, so pH 3 is 100 times more acidic than pH 5.",
+   "Step 3, Write neutralisation: HCl + NaOH gives NaCl + H2O. Atoms balance, one each of H, Cl, Na and O on each side. 25 mL of 0.10 mol/L HCl holds 0.0025 mol, so it needs 0.0025 mol NaOH, which is 25 mL of 0.10 mol/L NaOH. An antacid works the same way against stomach acid.",
+   "Step 4, Predict a salt's nature. Strong acid with strong base, like NaCl, gives a neutral salt. Strong acid with weak base, like ammonium chloride, gives an acidic solution. Weak acid with strong base, like sodium carbonate, gives a basic solution. Electrolysing brine, NaCl solution, makes NaOH, chlorine and hydrogen.",
+   "Step 5, Describe four common salts. Baking soda NaHCO3 is a mild base used in baking and antacids. On heating, 2NaHCO3 gives Na2CO3 + H2O + CO2. Washing soda is Na2CO3 with water of crystallisation. Bleaching powder CaOCl2 disinfects water. Plaster of Paris, CaSO4 with half a water molecule, sets hard when mixed with water.",
+   "Step 6, Your turn: find the pH of 0.0001 mol/L HCl and say whether it is acidic or basic. Answer: the concentration is 10^-4, so pH = 4. It is acidic, and it is 10 times more acidic than a pH 5 solution."
+  ]
+ },
+ "G10-SCI-04": {
+  "steps": [
+   "Step 1, Use the laws of reflection: the angle of incidence equals the angle of reflection, and both rays and the normal lie in one plane. Use the sign convention: distances are measured from the pole, positive in the direction of incident light. A concave mirror has negative f. Never look at the Sun in a mirror or lens.",
+   "Step 2, Apply the mirror formula 1/v + 1/u = 1/f. A concave mirror has f = -15 cm and an object is placed at u = -30 cm. Then 1/v = -1/15 + 1/30 = -1/30, so v = -30 cm. The image forms at the same distance, in front of the mirror, as the object sits at the centre of curvature.",
+   "Step 3, Find magnification, m = -v/u. In step 2, m = -(-30)/(-30) = -1, so the image is real, inverted and the same size. Move the object to u = -10 cm inside the focus: 1/v = -1/15 + 1/10 = 1/30, so v = +30 cm behind the mirror and m = +3, a magnified, upright, virtual image. This is how a shaving mirror works.",
+   "Step 4, Use refraction. Snell's law gives n = sin i / sin r. Light enters glass of n = 1.5 at i = 30 degrees: sin r = 0.5 / 1.5 = 0.333, so r is about 19.5 degrees, bending towards the normal. The speed in glass is 3 x 10^8 / 1.5 = 2 x 10^8 m/s. Never aim a laser pointer at anyone's eyes.",
+   "Step 5, Use the lens formula 1/v - 1/u = 1/f. A convex lens has f = +20 cm and an object at u = -40 cm: 1/v = 1/20 - 1/40 = 1/40, so v = +40 cm and m = v/u = -1. Power P = 1/f in metres, so P = 1/0.20 = +5 D. A concave lens with f = -25 cm has P = -4 D.",
+   "Step 6, Your turn: a concave mirror has f = -10 cm and the object is at u = -30 cm. Find v and m, and describe the image. Answer: 1/v = -1/10 + 1/30 = -1/15, so v = -15 cm; m = -(-15)/(-30) = -0.5. The image is real, inverted and diminished, in front of the mirror."
+  ]
+ },
+ "G10-SCI-06": {
+  "steps": [
+   "Step 1, Describe nutrition. In photosynthesis, 6CO2 + 6H2O gives C6H12O6 + 6O2 using light and chlorophyll, with gases entering through stomata. Humans digest food: amylase in saliva starts on starch, pepsin with hydrochloric acid works in the stomach, bile and pancreatic juice act in the small intestine, and villi absorb the nutrients. For the leaf starch test, warm ethanol only in a water bath, never over a flame.",
+   "Step 2, Describe respiration. Aerobic respiration: glucose + oxygen gives carbon dioxide + water + energy. Without oxygen, yeast makes ethanol and carbon dioxide, and tired muscle makes lactic acid. Energy is stored in ATP. This explains why breathing and heart rate rise during exercise, so check your own pulse safely after light activity.",
+   "Step 3, Describe transport. The human heart has four chambers and double circulation: blood goes to the lungs and back, then around the body. At 72 beats a minute with 70 mL pumped per beat, the heart moves 72 x 70 = 5,040 mL, about 5 litres, a minute and beats 103,680 times a day. In plants, xylem carries water upward and phloem carries food.",
+   "Step 4, Describe nervous control. A neuron has dendrites, a cell body and an axon. In a reflex arc touching something hot sends an impulse along a sensory neuron to the spinal cord, then along a motor neuron to the arm muscle. At 100 m/s, a 0.6 m path takes only 0.006 s. The brain's cerebrum thinks, the cerebellum balances, the medulla controls breathing.",
+   "Step 5, Describe hormones. Insulin from the pancreas lowers blood sugar, thyroxine from the thyroid needs iodine, adrenaline prepares for danger, and growth hormone helps growth. Feedback works like a thermostat: after a meal, blood sugar rises, insulin is released, sugar falls to its normal range, and release stops. In plants, auxin makes shoots bend toward light.",
+   "Step 6, Your turn: trace a reflex when a hand touches a hot cup, and name the hormone that lowers blood sugar. Answer: receptor in skin, sensory neuron, spinal cord, motor neuron, muscle which pulls the hand away. The hormone is insulin."
+  ]
+ },
+ "G01-SST-03": {
+  "steps": [
+   "Step 1, Recognise the flag of the UAE. It has a red upright bar next to the pole, and three flat stripes beside it: green on top, white in the middle and black at the bottom. Point to each colour and say its name. We celebrate Flag Day on 3 November.",
+   "Step 2, Learn the name of our country: the United Arab Emirates. It is made of seven emirates that work together. Count seven fingers and say each emirate if you can. The capital city is Abu Dhabi, where many important offices are found.",
+   "Step 3, Recognise the leaders' roles. The President leads the whole country and helps keep everyone safe and united. The Ruler of each emirate leads that emirate. Think of a school: the principal leads the whole school and each teacher leads a class. Leaders work to take care of people.",
+   "Step 4, Recognise national symbols. The falcon is a strong bird with sharp eyes and is a symbol of the UAE. The Arabian oryx is our national animal, and the ghaf tree grows well in the desert with little water. The date palm gives sweet dates. Draw one symbol and name it.",
+   "Step 5, Learn about National Day. Our country began on 2 December 1971, when the emirates joined together. People wave flags, sing the anthem, and wear special clothes. Show respect: stand still and quiet when the anthem plays, and never let the flag touch the ground.",
+   "Step 6, Your turn: draw the flag, colour it, and name one national symbol. Answer: red bar at the pole side, then green, white and black stripes from top to bottom. One symbol is the falcon (or the oryx, or the ghaf tree)."
+  ]
+ },
+ "G02-SST-03": {
+  "steps": [
+   "Step 1, Name the seven emirates: Abu Dhabi, Dubai, Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah and Fujairah. Say them while clapping the syllables, then say them again with your eyes closed. Count them on your fingers: there are seven.",
+   "Step 2, Know two facts. Abu Dhabi is the capital and the largest emirate, with more land than the other six together. Ajman is the smallest emirate. Fujairah is on the east coast by the Gulf of Oman, and the other emirates lie mostly along the Arabian Gulf.",
+   "Step 3, Match landmarks to emirates. Burj Khalifa in Dubai is the tallest building, 828 m high. Qasr Al Hosn is an old fort in Abu Dhabi city, and Al Jahili Fort is in Al Ain. Jebel Jais in Ras Al Khaimah is the highest mountain, 1,934 m. Fujairah and Umm Al Quwain each have an old fort too.",
+   "Step 4, Place the emirates on a map. Along the northern Gulf coast from west to east come Abu Dhabi, Dubai, Sharjah, Ajman, Umm Al Quwain and Ras Al Khaimah. Fujairah sits on the opposite, eastern coast. Colour each emirate a different colour and write its name.",
+   "Step 5, Play a matching game. Make seven cards with emirate names and seven cards with a landmark or a fact. Mix them and match: 'tallest building' goes with Dubai, 'highest mountain' with Ras Al Khaimah, 'capital city' with Abu Dhabi. Check your answers with a partner.",
+   "Step 6, Your turn: name the emirate with Burj Khalifa, and the emirate with Jebel Jais. How many emirates are there in all? Answer: Dubai, Ras Al Khaimah, and seven emirates in all."
+  ]
+ },
+ "G03-SST-01": {
+  "steps": [
+   "Step 1, Locate the UAE. It lies on the south-eastern part of the Arabian Peninsula. The Arabian Gulf is to the north and the Gulf of Oman is to the east. Saudi Arabia is to the south and west, and Oman is to the east and north. Find these on a map using a compass rose.",
+   "Step 2, Locate the seven emirates. Abu Dhabi is the largest and lies to the west and south. Going north-east along the Gulf coast come Dubai, Sharjah, Ajman, Umm Al Quwain and Ras Al Khaimah. Fujairah is on the east coast. Dubai and Abu Dhabi are about 140 km apart by road.",
+   "Step 3, Describe the leaders. The seven Rulers form the Federal Supreme Council, the highest authority, and they choose the President, who serves for five years. The President leads the country, while each Ruler also leads their own emirate. Abu Dhabi is the capital city.",
+   "Step 4, Describe national symbols. The flag has red, green, white and black. The emblem shows a falcon, and the country also has a national anthem. National Day is 2 December, remembering the union of 1971, and Flag Day is 3 November. The ghaf tree and the Arabian oryx are also treasured.",
+   "Step 5, Describe landmarks and heritage. Burj Khalifa in Dubai is 828 m tall, and Al Jahili Fort stands in Al Ain. Heritage includes dhows (wooden boats), pearl diving, falconry, and the majlis, a sitting place to welcome guests with Arabic coffee and dates. Oasis farmers grew date palms.",
+   "Step 6, Your turn: write three sentences about the UAE: one locating an emirate, one about a symbol, one about heritage. Model answer: Fujairah is on the east coast. The falcon is a symbol of the UAE. A dhow is a traditional wooden boat used for fishing and pearl diving."
+  ]
+ },
+ "G04-SST-03": {
+  "steps": [
+   "Step 1, Picture life before the UAE. People fished, dived for pearls, herded animals and grew dates in oases such as Al Ain. They travelled by camel and traded by dhow with faraway places. Life depended on the sea and the desert, so people learned to share water and food.",
+   "Step 2, Place the early outside links. In the 1800s Britain signed agreements with local rulers, and the area was called the Trucial States. The rulers each led their own land and often met to settle matters. The sea trade and pearls were the main sources of income.",
+   "Step 3, Add the oil date. In 1962 Abu Dhabi began exporting oil. This brought money to build schools, hospitals, roads and homes. People from many countries came to work, and the emirates learned that working together could bring them more benefits.",
+   "Step 4, Add the union talks. In January 1968 Britain said it would leave by the end of 1971. On 18 February 1968 the rulers of Abu Dhabi and Dubai agreed to unite and invited the others to join. Talks included other neighbouring lands, but only six emirates were ready by 1971.",
+   "Step 5, Finish the timeline. On 2 December 1971 six emirates formed the UAE: Abu Dhabi, Dubai, Sharjah, Ajman, Umm Al Quwain and Fujairah. A temporary constitution was made. Ras Al Khaimah joined on 10 February 1972, making seven. The constitution became permanent in 1996.",
+   "Step 6, Your turn: put these in order: 1971 union, 1962 oil exports, 1972 Ras Al Khaimah joins, 1968 union agreement. Answer: 1962, 1968, 1971, 1972. From 1971 to 2021 is 50 years."
+  ]
+ },
+ "G04-SST-04": {
+  "steps": [
+   "Step 1, Explain rights and duties. A right is something every child should have, such as learning at school. A duty is something we must do in return, such as going to school on time and respecting teachers. Rights and duties come together, like two sides of a coin.",
+   "Step 2, Add more pairs. Right: to be safe. Duty: to follow safety rules and not hurt others. Right: to be heard. Duty: to listen when others speak. Right: to health care. Duty: to keep clean and look after yourself. My rights should never take away another person's rights.",
+   "Step 3, Explain why we have laws. A law is a rule made by government that everyone must follow. Laws about seat belts and red lights keep people from harm. Laws protect rights, settle quarrels fairly and keep order. Without a rule at a crossing, drivers might all go at once and crash.",
+   "Step 4, Know who makes and keeps laws. Government bodies make laws. Police help keep them, and courts decide when someone breaks them. In an emergency in the UAE, adults call 999 for police, 998 for an ambulance or 997 for fire. Citizens help by obeying laws and telling a grown-up about danger.",
+   "Step 5, Test with a class rule. Our class votes on 'walk in the corridor'. Reason: it prevents falls, which protects the right to be safe. Duty: each of us must walk. If a child runs, the teacher reminds them, like a gentle law. Explain what would happen if there were no rule.",
+   "Step 6, Your turn: give a right and its duty for a library. Model answer: right: to borrow and read books. Duty: to return them on time and keep them clean, so other children can also enjoy them."
+  ]
+ },
+ "G05-SST-02": {
+  "steps": [
+   "Step 1, Describe the federal government. It looks after the whole country. The Federal Supreme Council has the seven Rulers. There is a President, a Vice President, and a Council of Ministers. The Federal National Council has 40 members, half chosen by voters in an electoral college, and gives advice on laws. Federal courts apply the law.",
+   "Step 2, List federal jobs. Foreign affairs, defence, national security, citizenship, currency and the federal courts are decided for the whole country. All seven emirates use the same dirham. When the UAE signs an agreement with another country, it is a federal job.",
+   "Step 3, Describe local government. Each emirate has its own government and departments. A local municipality looks after roads, parks, waste collection, building permits and street lights. Local police and civil defence work in each emirate. Each emirate also manages its own land and natural resources.",
+   "Step 4, Describe public services. Services include clean water, electricity, hospitals and clinics, schools, police and fire help. The government pays for them from public money, such as income from oil. Emergency numbers are 999 for police, 998 for an ambulance and 997 for fire.",
+   "Step 5, Sort real cases. A broken street light: report to the local municipality. A rubbish bin not emptied: local. A passport or national defence matter: federal. A new school curriculum idea for all schools: federal education policy with local schools. Make a two-column table of local and federal.",
+   "Step 6, Your turn: say whether each is local or federal: (a) the army, (b) rubbish collection, (c) agreements with other countries. Answer: (a) federal, (b) local, (c) federal."
+  ]
+ },
+ "G05-SST-03": {
+  "steps": [
+   "Step 1, Explain barter. Before money, people swapped goods directly. A fisher might give 3 fish for 1 bag of rice. The trouble is the double coincidence of wants: the rice seller must also want fish. If not, the swap fails. Act out a barter market with cards in class.",
+   "Step 2, Explain money. Money is accepted as payment, so it solves the barter problem. It works as a way to buy and sell, a way to keep value for later, and a measure of value. The UAE currency is the dirham (AED), and 1 dirham equals 100 fils. Coins and notes both carry value.",
+   "Step 3, Do price sums. 3 bags of rice at 12 AED each cost 3 x 12 = 36 AED. Paying with a 50 AED note, the change is 50 - 36 = 14 AED. Prices let us compare: a 6 AED loaf is half the price of a 12 AED bag, so we can decide how to spend.",
+   "Step 4, Explain trade. Countries trade because no country has everything. Exports are goods sold to other countries, and imports are goods bought. The UAE exports oil and gas, and re-exports goods through ports and airports, while it imports food and machines. Long ago, dhows carried pearls and dates to India and East Africa.",
+   "Step 5, Explain the trade links today. Big ports such as Jebel Ali and busy airports connect the UAE with Asia, Africa and Europe. Free zones help companies trade. The dirham is fixed at about 3.67 AED to 1 US dollar, so 100 US dollars equals 367.25 AED. Stable money helps trade.",
+   "Step 6, Your turn: Buy 4 notebooks at 7 AED each and pay with 50 AED. Find the cost and change, then say if the notebooks are an import or an export when bought from another country. Answer: 28 AED cost, 22 AED change; an import."
+  ]
+ },
+ "G06-SST-01": {
+  "steps": [
+   "Step 1, Describe early people. For most of history, humans were hunter-gatherers in the Old Stone Age. They lived in small groups, in caves or shelters, and moved to follow animals and ripe plants. They made tools from stone, bone and wood, and learned to control fire for warmth, cooking and protection.",
+   "Step 2, Add more of their lives. They wore animal skins, painted animals on cave walls, and made spears and scrapers. The group shared food and looked after children. We learn this from archaeologists, who study tools, bones and paintings and take care not to disturb a site.",
+   "Step 3, Describe the farming change. About 10,000 years ago, people in the New Stone Age began to grow wheat and barley and keep sheep and goats. They settled in villages, built houses, made pots, and stored grain. A food surplus meant some people could do other jobs.",
+   "Step 4, Describe how cities began. Early cities grew beside rivers: the Nile in Egypt, the Tigris and Euphrates in Mesopotamia and the Indus in South Asia. Fertile mud, irrigation and surplus food supported thousands of people, along with traders, builders and rulers. The wheel appeared around 3500 BCE.",
+   "Step 5, Describe city features. Sumerian cities had temples, markets and cuneiform writing pressed into clay from about 3200 BCE. Indus cities around 2600 BCE had planned streets, brick houses and drains. Such a city was founded about 2600 + 2000 = 4,600 years before the year 2000 CE.",
+   "Step 6, Your turn: how many years before 2000 CE was a city founded in 3000 BCE, and name one reason it grew by a river. Answer: 3000 + 2000 = 5,000 years. A river gave water, fertile soil for crops, and a way to trade."
+  ]
+ },
+ "G06-SST-02": {
+  "steps": [
+   "Step 1, Describe the solar system. The Sun is a star at the centre. Eight planets travel around it in order: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune. Earth is about 150 million km from the Sun, so light takes about 150,000,000 / 300,000 = 500 s, or 8 minutes, to reach us.",
+   "Step 2, Describe Earth's motions. Earth spins on its tilted axis once in 24 hours, causing day and night, and this is rotation. It goes around the Sun once in about 365 and a quarter days, which is revolution, so we add a leap day every four years. Try it with a globe and a torch, never shining it into eyes.",
+   "Step 3, Describe latitudes. These are imaginary circles parallel to the Equator, measured in degrees north or south. The Equator is 0 degrees and each pole is 90 degrees. The Tropic of Cancer is 23.5 degrees north, and the Arctic Circle is 66.5 degrees north. One degree of latitude is about 111 km. The UAE lies at about 22 to 26 degrees north.",
+   "Step 4, Describe longitudes. These are lines from pole to pole, measured east or west of the prime meridian at 0 degrees. There are 360 degrees in a full circle, so the Earth turns 15 degrees every hour (360 / 24 = 15). The UAE lies at about 51 to 56 degrees east.",
+   "Step 5, Use longitude for time. A place at 75 degrees east is 75 / 15 = 5 hours ahead of the prime meridian. Dubai at about 55 degrees east is 55 / 15, about 3 hours 40 minutes ahead by the Sun. The UAE uses 60 degrees east as its standard line, which is 4 hours ahead.",
+   "Step 6, Your turn: when it is noon at the prime meridian, what is the local solar time at 75 degrees west? Answer: 75 / 15 = 5 hours behind, so it is 7 a.m."
+  ]
+ },
+ "G06-SST-04": {
+  "steps": [
+   "Step 1, Describe diversity. People differ in language, food, dress, festivals, family customs and ideas. A class of 30 may speak 8 languages at home. India's Constitution lists 22 languages, and the UAE is home to people of more than 200 nationalities. Diversity gives us more to learn from each other.",
+   "Step 2, Describe respect. Judging all people of one group as the same is a stereotype, such as 'girls cannot play cricket'. A prejudice can lead to discrimination, when someone is treated unfairly. We judge a person by what they do, not by group. Unity in diversity means different people live together with respect.",
+   "Step 3, Describe what government does. Government makes laws, runs public services and keeps order. In a democracy, people choose it by voting. It has three parts: the legislature makes laws, the executive carries them out, and the judiciary settles disputes and decides if a law has been broken.",
+   "Step 4, Describe levels of government. A country has government at the national level, the state or regional level, and the local level for a village or town. Each level has its own tasks. National government looks after defence and foreign matters, while local government looks after the nearest streets, water and lights.",
+   "Step 5, Describe local governance. In villages, a council called the panchayat is elected by the villagers, with ward members and a head. A town has a municipality with elected councillors. With 10 wards, 10 members are chosen. They manage water, roads, street lights and rubbish, and they meet publicly so people can ask questions.",
+   "Step 6, Your turn: say whether each is local or national: street-light repair, defence of the country, a law for the whole country. Answer: local, national, national (made by the national lawmaking body)."
+  ]
+ },
+ "G07-SST-02": {
+  "steps": [
+   "Step 1, Describe Earth's layers. The crust is thin, about 5 to 70 km. Below it the mantle is hot rock about 2,890 km deep. The outer core is liquid metal about 2,260 km thick, and the inner core is solid with a radius of about 1,220 km. Total radius is about 6,371 km.",
+   "Step 2, Describe internal forces. The crust is broken into slow plates, moving about 5 cm a year, so in 1 million years that is 5 x 1,000,000 cm = 50 km. When plates collide, rock folds into mountains like the Himalayas. Sliding plates cause earthquakes, and magma reaching the surface forms volcanoes.",
+   "Step 3, Describe external forces. Weathering breaks rock in place by heat, frost and roots. Erosion carries pieces away by rivers, wind, glaciers and waves, and deposition drops them. Rivers cut V-shaped valleys and build deltas, wind builds dunes in deserts, and waves carve sea cliffs.",
+   "Step 4, Describe the rock cycle. Igneous rocks form when molten rock cools, such as granite and basalt. Sedimentary rocks form from layers of sediment pressed together, such as sandstone and limestone, and may hold fossils. Metamorphic rocks form from heat and pressure, such as marble from limestone and slate from shale.",
+   "Step 5, Model deposition. Shake sand, soil and water in a sealed jar, then let it settle: sand falls first, then silt, then clay, in layers. If a layer grows 1 mm a year, 1 m of rock takes 1,000 years to form. Wipe up spills at once to avoid slips.",
+   "Step 6, Your turn: name the rock type marble and say how it forms. Answer: metamorphic rock, formed when limestone is changed by heat and pressure deep in the crust."
+  ]
+ },
+ "G07-SST-04": {
+  "steps": [
+   "Step 1, Describe democratic values. In a democracy, people choose their government by voting. Under universal adult franchise every adult citizen can vote, with one person one vote, whatever their wealth or background. In India the voting age is 18. Elections are held at regular intervals, such as every five years.",
+   "Step 2, Count a vote. A school council has 120 votes. Candidate A gets 54, B gets 38 and C gets 28. The total is 54 + 38 + 28 = 120. A has the most votes with 54 / 120 = 45 per cent. A majority needs more than half, which is 61 votes.",
+   "Step 3, Describe equality. Everyone has equal dignity and is equal before the law. Discrimination because of caste, religion, gender or place of birth is wrong. Equal opportunity means a girl and a boy have the same chance to study. Equal pay for equal work means the same job gets the same pay.",
+   "Step 4, Describe rights. Rights protect people from unfair treatment: freedom to speak, learn and gather peacefully, as long as we respect other people. Voting is a political right, and equal treatment in public places is a civil right. Rights come with duties, and the law applies to everyone, even leaders.",
+   "Step 5, Describe more values. Respect for minorities means that the majority cannot ignore others. Leaders are accountable, so they must answer questions and face the next election. A free press, a fair court and peaceful protest help citizens check power. Equality is also about real chances, such as fair access to school.",
+   "Step 6, Your turn: in an election of 100 votes the counts are 45, 35 and 20. Who wins, and is that a majority? Answer: the candidate with 45 wins by most votes, but 45 is not more than 50, so it is not a majority."
+  ]
+ },
+ "G08-SST-04": {
+  "steps": [
+   "Step 1, Describe the Constitution. It is the supreme law of the country, and every other law and government body must follow it. India's Constitution was adopted on 26 November 1949 and came into effect on 26 January 1950. It tells how government is organised and what rights citizens hold.",
+   "Step 2, Describe the Preamble. It begins 'We, the people of India' and states the goals: sovereign, socialist, secular, democratic and a republic, and aims at justice, liberty, equality and fraternity. Sovereign means free from outside control, and republic means the head of state is not a hereditary ruler.",
+   "Step 3, Describe fundamental rights. There are six: equality, freedom, against exploitation, freedom of religion, cultural and educational rights, and the right to constitutional remedies. For example, the right against exploitation bans forced labour and child labour in dangerous work. Rights can be limited only by law, for example to protect public safety.",
+   "Step 4, Describe the structure. The legislature makes laws, the executive carries them out, and the judiciary decides disputes and checks if laws match the Constitution. This separation of powers stops any one body from holding all power. Fundamental duties remind citizens to respect the flag and the Constitution.",
+   "Step 5, Describe the courts. Local cases begin in district courts. Each state, or group of states, has a High Court. The Supreme Court is the highest court. Civil cases cover disputes such as land or contracts, and criminal cases cover offences such as theft. A person whose rights are violated can approach the Supreme Court or a High Court directly.",
+   "Step 6, Your turn: say whether each case is civil or criminal: (a) neighbours dispute a boundary wall, (b) a theft from a shop. Which right lets a person go to court if rights are violated? Answer: (a) civil, (b) criminal; the right to constitutional remedies."
+  ]
+ },
+ "G09-SST-01": {
+  "steps": [
+   "Step 1, Explain the French society. Before 1789 French people were divided into three estates: clergy first, nobles second, and everyone else third, which was well over 95 in every 100 people. The third estate paid most taxes, while the first two had special privileges. Farmers paid taxes to the state, dues to nobles and a tenth of their crop.",
+   "Step 2, Explain more causes. The king's government was in debt after costly wars and court spending. The population grew to about 28 million, so grain and bread cost more while wages did not keep up. Thinkers wrote about liberty, equality and that rulers should serve the people, and ideas spread through newspapers and cafes.",
+   "Step 3, Explain the voting dispute. When the Estates-General met in May 1789, each estate had one vote, so the first two could outvote the third. With about 300 clergy, 300 nobles and 600 third-estate deputies, voting by estate gave the third just 1 of 3 votes, while by head it would be 600 of 1,200, which is 50 per cent.",
+   "Step 4, Sequence the main events. On 20 June 1789 the third estate swore the Tennis Court Oath to write a constitution. On 14 July 1789 crowds stormed the Bastille prison. In August 1789 feudal dues ended and the Declaration of the Rights of Man and of the Citizen was issued. In 1792 France became a republic.",
+   "Step 5, Explain the results. Absolute monarchy ended, rights and equality before the law were declared, and the tricolour became the flag. The years 1793 and 1794 brought the Reign of Terror, with many executions. Slavery was abolished in French colonies in 1794 but brought back in 1802. The ideas of liberty and equality inspired people across the world.",
+   "Step 6, Your turn: give one cause and one result of the revolution. Model answer: one cause was the unfair tax system, in which the third estate paid most but had least say. One result was the Declaration of Rights, which stated that people are born free and equal."
+  ]
+ },
+ "G09-SST-03": {
+  "steps": [
+   "Step 1, Describe location. India lies entirely in the northern and eastern hemispheres. Latitude runs from about 8 degrees 4 minutes N to 37 degrees 6 minutes N, a span of about 29 degrees, and longitude from 68 degrees 7 minutes E to 97 degrees 25 minutes E. The Tropic of Cancer, 23.5 degrees N, passes through the middle.",
+   "Step 2, Describe size and time. India covers about 3.28 million sq km, the seventh largest country by area. Its east-west spread is about 29.3 degrees, so the Sun rises about 29.3 / 15, nearly 2 hours, earlier in the east. India therefore uses one Standard Meridian, 82 degrees 30 minutes E, giving a time 82.5 / 15 = 5.5 hours ahead of the prime meridian.",
+   "Step 3, Describe relief. The Himalayas in the north are young fold mountains with the highest peaks, the highest in India being Kanchenjunga at about 8,586 m. The Northern Plains are fertile land built by rivers. The Peninsular Plateau is old hard rock, between the Western and Eastern Ghats. The Thar desert lies in the west, and there are coastal plains and island groups.",
+   "Step 4, Describe drainage. Himalayan rivers like the Indus, Ganga and Brahmaputra are perennial, fed by snow and rain, and form big plains and deltas. The Ganga is about 2,525 km long. Peninsular rivers like the Godavari, Krishna and Kaveri are seasonal and depend on rain. Rivers flowing east make deltas, those west make estuaries.",
+   "Step 5, Link relief with drainage. Rivers from steep mountains carry silt and flow fast, then slow on flat plains and meander. Rivers across the plateau flow in fixed valleys with waterfalls. Draw a sketch map: mark the three big northern rivers, three peninsular rivers, two Ghats and the plateau, label each, and give the map a title.",
+   "Step 6, Your turn: why does India use one standard time, and what is the time difference with the prime meridian? Answer: the Standard Meridian is 82 degrees 30 minutes E, so 82.5 / 15 = 5.5 hours ahead; one time avoids confusion across the country."
+  ]
+ },
+ "G09-SST-04": {
+  "steps": [
+   "Step 1, Define democracy. In a democracy, citizens choose rulers through free and fair elections. Every adult has one vote. Several parties may compete, rights such as speech are protected, and courts are independent so that the law applies to rulers as well. Elected leaders rule by majority, but must respect minorities.",
+   "Step 2, Define non-democratic systems. In one-party rule only one party may take power. In military rule soldiers take control. In an absolute monarchy a king or queen holds all power. In these systems people cannot remove leaders by voting, opponents may be jailed, the press may be controlled and courts may not be free.",
+   "Step 3, Study a case. In 1973 the army in Chile took power on 11 September and ruled until 1990, which is 1990 - 1973 = 17 years. Parties were banned, and opponents were jailed. Democracy returned after voters said no to continued military rule in 1988. In Poland, one-party rule ended after partly free elections in 1989.",
+   "Step 4, Compare with five tests. Who chooses rulers: voters or the ruler's own group? Can opposition parties compete? Are rights protected? Are courts independent? Can government be changed peacefully? A democracy passes all five, while a non-democratic system fails most of them. Draw a table with two columns and fill it in.",
+   "Step 5, Apply the tests. In Country X a single party wins 99.8 per cent of votes, the press is state-run, and the opposition cannot stand. Such a result shows no real choice, so Country X is non-democratic. Voting alone does not make a democracy: the vote must be free, fair and open to rivals.",
+   "Step 6, Your turn: Country Y holds elections every five years with many parties, but opposition leaders are jailed. Is it fully democratic? Answer: no, it fails the tests for open competition and protected rights, even though elections take place."
+  ]
+ },
+ "G09-SST-05": {
+  "steps": [
+   "Step 1, Analyse production. Farming and other production need four factors: land, labour, physical capital such as tools, seeds, tubewells and fertiliser, and human capital, meaning knowledge and skill. In a village, land is fixed, so more output must come from using it better. A hectare is 100 m by 100 m, or 10,000 square metres.",
+   "Step 2, Analyse farm output. Multiple cropping, growing two or three crops a year on the same land, raises production, as do improved seeds and irrigation. A farmer with 2 hectares getting 3,000 kg per hectare has 6,000 kg of wheat. Sold at 20 rupees per kg, that is 6,000 x 20 = 120,000 rupees; these are supposed figures.",
+   "Step 3, Work out income. If seeds, fertiliser, water and labour cost 45,000 rupees, income is 120,000 - 45,000 = 75,000 rupees. Small farmers have little land, so low income. Landless workers get daily wages, which may be low and uncertain. Compare two households with different land to see unequal incomes.",
+   "Step 4, Analyse non-farm work. Not all work is farming. Villagers run dairies, make jaggery, repair vehicles, sell goods in small shops and drive transport. These jobs add income and use workers when fields are quiet. More roads, power and credit allow more non-farm activity and reduce dependence on rain.",
+   "Step 5, Analyse poverty. The poverty line is based on the money needed for basic food, for example 2,400 calories per person a day in rural areas and 2,100 in urban areas, plus other needs. Poverty ratio = poor households / all households x 100. If 30 of 150 families are poor, it is 20 per cent. Causes include landlessness, unemployment, low skills and low pay.",
+   "Step 6, Your turn: 40 of 200 households are below the poverty line. Find the poverty ratio and give one cause with one remedy. Answer: 40 / 200 x 100 = 20 per cent. A cause is lack of land or jobs; a remedy is skills training or work in non-farm jobs."
+  ]
+ },
+ "G10-SST-03": {
+  "steps": [
+   "Step 1, Compare Belgium's case. About 59 per cent of people speak Dutch, 40 per cent French and 1 per cent German, which adds to 100. In the capital Brussels, about 80 per cent speak French and 20 per cent Dutch. The Dutch majority could have ruled, but that would anger French speakers, so Belgium shared power.",
+   "Step 2, Describe Belgium's solution. The central government must have equal numbers of Dutch- and French-speaking ministers. Many powers go to regional governments, and Brussels has its own government with equal representation. There is also a community government for each language group, chosen by that group. No single group can dominate.",
+   "Step 3, Describe Sri Lanka's case. About 74 per cent of people are Sinhala-speaking and about 18 per cent Tamil-speaking. In 1956 a law made Sinhala the only official language, and the majority's policy ignored Tamil needs in jobs and education. Distrust grew into a civil war that lasted until 2009, which is 26 years after 1983.",
+   "Step 4, Compare reasons. Belgium chose accommodation, and Sri Lanka chose majority rule. Power sharing has a prudential reason: it reduces conflict and keeps the country united. It also has a moral reason: citizens have a right to be consulted on how they are governed, so power sharing is part of democracy itself.",
+   "Step 5, Describe four forms of power sharing. Horizontal: legislature, executive and judiciary share power. Vertical: federalism among central, state and local governments, as in India, where the Union list has 97 subjects, the State list 66 and the Concurrent list 47. Among social groups: reserved seats. Among parties and groups: coalitions.",
+   "Step 6, Your turn: name the form of power sharing in each: (a) central, state and local governments, (b) courts checking the legislature, (c) a coalition of parties. Answer: (a) vertical, (b) horizontal, (c) among parties."
+  ]
+ }
+}

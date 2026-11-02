@@ -32,7 +32,14 @@
    "example": "Solved: Speed = distance / time. A bus covers 120 km in 2 hours: 120 / 2 = 60 km/h. Starting at 0 and reaching 20 m/s in 5 s means acceleration = 20 / 5 = 4 m/s squared. Method: Model run for 'Units, measurement and motion in a straight line'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Use dimensions and kinematic equations: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": []
+   "steps": [
+    "Step 1, Write dimensions using M for mass, L for length and T for time. Velocity is [L T^-1], acceleration is [L T^-2], and force is [M L T^-2], since force is mass times acceleration. Their SI units are m/s, m/s^2 and newton (kg m/s^2).",
+    "Step 2, Check a formula by dimensions. In s = ut + (1/2)at^2 the term ut has [L T^-1][T] = [L], and at^2 has [L T^-2][T^2] = [L]. Both match the dimension of s, so the formula is consistent. Dimensions cannot fix pure numbers like 1/2.",
+    "Step 3, Use the kinematic equations for constant acceleration: v = u + at, s = ut + (1/2)at^2 and v^2 = u^2 + 2as. A car starts from rest with a = 2 m/s^2 for 5 s. Then v = 0 + 2 x 5 = 10 m/s and s = 0.5 x 2 x 25 = 25 m.",
+    "Step 4, Solve a braking problem. A car at u = 20 m/s decelerates at a = -5 m/s^2 until v = 0. Time t = (0 - 20)/(-5) = 4 s. Distance s = (0 - 400)/(2 x -5) = 40 m. Use v^2 = u^2 + 2as when time is not given.",
+    "Step 5, Practical: roll a trolley from rest down a 2.0 m ramp and time it with a stopwatch, getting 2.0 s. Then a = 2s/t^2 = 2 x 2.0/4.0 = 1.0 m/s^2. Safety: clamp the ramp, place a stop block at the bottom and keep feet clear. Repeat three times and average.",
+    "Step 6, Your turn: a stone is dropped from rest from a 80 m height with g = 10 m/s^2. Find the fall time and landing speed. Answer: t = square root of (2 x 80/10) = 4 s, and v = gt = 40 m/s."
+   ]
   },
   {
    "n": 2,
@@ -54,7 +61,14 @@
    "example": "Solved: Speed = distance / time. A bus covers 120 km in 2 hours: 120 / 2 = 60 km/h. Starting at 0 and reaching 20 m/s in 5 s means acceleration = 20 / 5 = 4 m/s squared. Method: Model run for 'Motion in a plane and laws of motion'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Use vectors, projectile motion and Newton's laws: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": []
+   "steps": [
+    "Step 1, Resolve a vector into components. A velocity of 10 m/s at 30 degrees above horizontal has v_x = 10 cos 30 = 8.66 m/s and v_y = 10 sin 30 = 5.0 m/s. Two perpendicular vectors of 3 and 4 units add to a resultant of 5 units, by Pythagoras.",
+    "Step 2, Treat projectile motion as two independent motions. Horizontal speed stays constant and vertical motion has acceleration g = 10 m/s^2 downward. A ball leaves a 45 m high cliff horizontally at 20 m/s. Fall time t = square root of (2 x 45/10) = 3 s.",
+    "Step 3, Find the range for that cliff ball: x = 20 x 3 = 60 m. For a launch at 20 m/s at 30 degrees from level ground, the flight time is 2u sin 30/g = 2 s, the maximum height is u^2 sin^2 30/(2g) = 5 m, and the range is u^2 sin 60/g = 34.6 m.",
+    "Step 4, Apply Newton's second law, F = ma. A 1200 kg car with a net force of 3000 N has a = 3000/1200 = 2.5 m/s^2. By the first law, if the net force is zero the velocity stays constant, as when thrust equals drag at steady speed.",
+    "Step 5, Use free-body thinking. A 5 kg block is pulled by 20 N against 5 N of friction, so the net force is 15 N and a = 15/5 = 3 m/s^2. By the third law, the block pulls back on the rope with 20 N, a force on a different body.",
+    "Step 6, Your turn: a stone is thrown horizontally at 10 m/s from a 20 m cliff, g = 10 m/s^2. Find the time of fall, the horizontal range and the vertical speed on landing. Answer: t = 2 s, range = 20 m, v_y = 20 m/s."
+   ]
   },
   {
    "n": 3,
@@ -105,7 +119,14 @@
    "example": "Solved: Speed = distance / time. A bus covers 120 km in 2 hours: 120 / 2 = 60 km/h. Starting at 0 and reaching 20 m/s in 5 s means acceleration = 20 / 5 = 4 m/s squared. Method: Model run for 'Rotational motion and gravitation'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Use torque, angular momentum and Kepler's laws: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": []
+   "steps": [
+    "Step 1, Define torque: tau = r F sin(theta). A spanner of length 0.25 m is pulled with 40 N at right angles, so tau = 0.25 x 40 = 10 N m. If the pull makes 30 degrees with the spanner, sin 30 = 0.5 and the torque is 5 N m. Longer handles give more turning effect.",
+    "Step 2, Apply rotational equilibrium: clockwise torques equal anticlockwise torques. A 30 kg child sits 2 m from the pivot of a seesaw, and a 20 kg child balances it at distance x. Then 30 x 2 = 20 x x, so x = 3 m. The weight units cancel on both sides.",
+    "Step 3, Use conservation of angular momentum, L = I omega. A skater spins at 2 rad/s with I = 3 kg m^2, then pulls in her arms so I = 1.5 kg m^2. With no external torque, omega = 3 x 2/1.5 = 4 rad/s. Smaller I gives faster spin.",
+    "Step 4, Use Kepler's laws. The second says the line to a planet sweeps equal areas in equal times, so it moves fastest when closest to the Sun. The third says T^2 is proportional to a^3. For a = 4 AU, T^2 = 64 so T = 8 years.",
+    "Step 5, Apply gravitation: F = GMm/r^2 and g = GM/R^2, so g falls with the square of distance. At the surface g = 9.8 m/s^2. At a height of one Earth radius, r = 2R, so g = 9.8/4 = 2.45 m/s^2.",
+    "Step 6, Your turn: find the orbital period of a planet at 9 AU from the Sun, and the torque of a 60 N perpendicular force at 0.5 m. Answer: T^2 = 729 so T = 27 years, and tau = 0.5 x 60 = 30 N m."
+   ]
   },
   {
    "n": 5,

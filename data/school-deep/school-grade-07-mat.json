@@ -235,7 +235,14 @@
    "example": "Solved: 20% of 350 = 350 x 20 / 100 = 70. Share 40 sweets in the ratio 3 : 5: 8 parts, each part is 5, so 15 and 25. If 5 pens cost 40, one costs 8 and 12 cost 96. Method: Model run for 'Comparing quantities'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Solve percentage, profit and loss, and simple interest problems: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Find a percentage. A test has 250 marks and Sam scores 40. As a percentage this is 40 / 250 x 100 = 16%. To find a part of a quantity instead, 20% of 250 is 250 x 20 / 100 = 50.",
+    "Step 2, Use percentage increase. A bag marked 800 rises in price by 15%. The rise is 800 x 15 / 100 = 120, so the new price is 800 + 120 = 920. A quick route is to multiply by 1.15, because 100% + 15% = 115%.",
+    "Step 3, Find profit percentage. A seller buys a chair for 600, which is the cost price, and sells it for 750, the selling price. Profit = 750 - 600 = 150. Profit percent = 150 / 600 x 100 = 25%, always taken on the cost price.",
+    "Step 4, Find loss percentage. A bat costs 500 and is sold for 450. Loss = 500 - 450 = 50. Loss percent = 50 / 500 x 100 = 10%. If the selling price is above the cost price there is a profit, and below it there is a loss.",
+    "Step 5, Calculate simple interest with I = P x R x T / 100. Principal 4000, rate 5% a year, time 3 years gives 4000 x 5 x 3 / 100 = 600. The amount to be repaid is principal plus interest, 4000 + 600 = 4600.",
+    "Step 6, Your turn: find the simple interest on 2500 at 8% a year for 2 years. Then find the selling price of an article that costs 400 sold at 20% profit. Answer: interest = 2500 x 8 x 2 / 100 = 400, and selling price = 400 + 80 = 480."
+   ]
   },
   {
    "n": 9,
@@ -257,7 +264,14 @@
    "example": "Solved: Square root of 196: 14 x 14 = 196, so the root is 14. 2 cubed x 2 to the 4 = 2 to the 7 = 128. 0.75 = 3/4 is rational; the square root of 2 is not. Method: Model run for 'Rational numbers'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Compare and operate on rational numbers: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Recognise rational numbers. A rational number can be written as p / q with q not zero. So -3/4, 5 (which is 5/1) and 0.25 (which is 1/4) are all rational. Place -3/4 and 1/4 on a number line, with negatives to the left of zero.",
+    "Step 2, Compare -2/3 and -3/4. Use a common denominator of 12: -2/3 = -8/12 and -3/4 = -9/12. Since -8 is to the right of -9 on the number line, -2/3 is greater than -3/4. For negatives, the one nearer zero is larger.",
+    "Step 3, Add rational numbers: -1/2 + 3/4. Write -1/2 as -2/4. Then -2/4 + 3/4 = 1/4. Always bring both fractions to the same denominator first, then add the numerators, keeping their signs.",
+    "Step 4, Subtract by adding the opposite: 2/5 - (-3/10) = 2/5 + 3/10. Change 2/5 to 4/10. Then 4/10 + 3/10 = 7/10. Subtracting a negative number is the same as adding the positive number.",
+    "Step 5, Multiply and divide. (-2/3) x (9/10) = -18/30 = -3/5 after dividing by 6, and a negative times a positive is negative. For (-3/4) / (5/8), multiply by the reciprocal: (-3/4) x (8/5) = -24/20 = -6/5.",
+    "Step 6, Your turn: work out -5/6 + 1/3, then decide whether -1/2 is greater or less than -2/3. Answer: 1/3 = 2/6, so -5/6 + 2/6 = -3/6 = -1/2. Since -1/2 = -3/6 and -2/3 = -4/6, -1/2 is greater."
+   ]
   },
   {
    "n": 10,
@@ -279,7 +293,14 @@
    "example": "Solved: A square has 4 equal sides and 4 right angles; a rectangle has 2 pairs of equal sides. A tally of 5 red, 3 blue and 2 green shows most children like red. Method: Model run for 'Practical geometry'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Construct lines, angles and triangles: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Construct a perpendicular bisector. Draw a segment AB of 6 cm. Open the compass to more than 3 cm, draw arcs above and below from A, then repeat from B with the same width. Join the two crossing points. The line meets AB at its midpoint, 3 cm from each end, at 90 degrees. Safety: keep the compass point down and capped after use.",
+    "Step 2, Construct a 60 degree angle. Draw a ray OA. With the compass point on O draw an arc crossing OA at P. Keep the same width, put the point on P and mark a second arc on the first. Join O to that crossing. The angle is 60 degrees because the three points form an equilateral triangle.",
+    "Step 3, Bisect that angle. From the points where the arms cut the arc, draw two arcs of equal radius that cross inside the angle. Draw a ray from the vertex through the crossing. Each half measures 30 degrees. Check with a protractor.",
+    "Step 4, Construct a triangle with three sides, 5 cm, 6 cm and 7 cm. First check that two shorter sides add to more than the longest: 5 + 6 = 11, which is more than 7. Draw the 7 cm base, then arcs of 5 cm and 6 cm from its ends. Their crossing is the third vertex.",
+    "Step 5, Construct a triangle with two sides and the angle between them. Draw a 6 cm base PQ, make a 50 degree angle at P, mark 5 cm along that arm to R, and join Q to R. The included angle is the one between the two given sides.",
+    "Step 6, Your turn: can a triangle have sides 3 cm, 4 cm and 8 cm? Test the rule before you draw. Answer: no, because 3 + 4 = 7, which is less than 8, so the two arcs would never meet."
+   ]
   },
   {
    "n": 11,
@@ -359,7 +380,14 @@
    "example": "Solved: Square root of 196: 14 x 14 = 196, so the root is 14. 2 cubed x 2 to the 4 = 2 to the 7 = 128. 0.75 = 3/4 is rational; the square root of 2 is not. Method: Model run for 'Exponents and powers'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Use laws of exponents and standard form: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Read an exponent. In 2^5 the base is 2 and the exponent is 5, so 2^5 = 2 x 2 x 2 x 2 x 2 = 32. The exponent counts how many times the base is multiplied. Write 3^4 in full and evaluate it to get 81.",
+    "Step 2, Multiply powers with the same base by adding exponents: a^m x a^n = a^(m + n). So 3^2 x 3^4 = 3^6. Check: 9 x 81 = 729 and 3^6 = 729. Do not multiply the bases, so the base stays 3.",
+    "Step 3, Divide by subtracting exponents: a^m / a^n = a^(m - n). So 5^7 / 5^4 = 5^3 = 125. For a power of a power, multiply: (2^3)^2 = 2^6 = 64, which agrees with 8 x 8.",
+    "Step 4, Learn two more rules. Any non-zero number to the power 0 is 1, so 9^0 = 1. And (a x b)^m = a^m x b^m, so (2 x 3)^2 = 2^2 x 3^2 = 4 x 9 = 36, matching 6^2 = 36.",
+    "Step 5, Write numbers in standard form as a number from 1 to 10 times a power of 10. 45,000,000 = 4.5 x 10^7 because the decimal point moves 7 places. A small number, 0.00032, is 3.2 x 10^-4. The Earth to the Sun is about 1.5 x 10^8 km.",
+    "Step 6, Your turn: simplify 2^3 x 2^5 / 2^4 and write 6,300,000 in standard form. Answer: 2^(3 + 5 - 4) = 2^4 = 16, and moving the point 6 places gives 6.3 x 10^6."
+   ]
   },
   {
    "n": 14,

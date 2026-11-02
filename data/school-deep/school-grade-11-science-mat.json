@@ -90,7 +90,14 @@
    "example": "Solved: Show 1 + 2 + ... + n = n(n + 1)/2. n = 1: 1 = 1. Assume it holds for k. Add k + 1: k(k + 1)/2 + (k + 1) = (k + 1)(k + 2)/2, which is the rule for k + 1. So it holds for all n. Method: Model run for 'Principle of mathematical induction'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Prove statements by induction: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": []
+   "steps": [
+    "Step 1, State what to prove: P(n) is 1 + 2 + ... + n = n(n + 1)/2 for every natural number n. Induction works like dominoes. Show the first falls (base case), then show that if one falls the next falls (inductive step). Then all fall.",
+    "Step 2, Base case n = 1. The left side is just 1. The right side is 1 x (1 + 1) / 2 = 1. Both sides agree, so P(1) is true. Check n = 2 as well: 1 + 2 = 3 and 2 x 3 / 2 = 3.",
+    "Step 3, Inductive hypothesis: assume P(k) is true, so 1 + 2 + ... + k = k(k + 1)/2. Now add the next term k + 1 to both sides. The right side becomes k(k + 1)/2 + (k + 1).",
+    "Step 4, Simplify: k(k + 1)/2 + (k + 1) = (k + 1)(k/2 + 1) = (k + 1)(k + 2)/2. This is exactly P(k + 1), since replacing n by k + 1 gives (k + 1)(k + 2)/2. By the principle of induction, P(n) holds for all natural n. For n = 10 the sum is 55.",
+    "Step 5, Try a divisibility statement: 7^n - 1 is divisible by 6. Base: 7 - 1 = 6. Assume 7^k - 1 = 6m. Then 7^(k+1) - 1 = 7(7^k - 1) + 6 = 42m + 6 = 6(7m + 1), which is a multiple of 6.",
+    "Step 6, Your turn: prove 1^2 + 2^2 + ... + n^2 = n(n + 1)(2n + 1)/6. Model answer: base n = 1 gives 1 = 1 x 2 x 3/6. Assume true for k, add (k + 1)^2 to get (k + 1)(2k^2 + 7k + 6)/6 = (k + 1)(k + 2)(2k + 3)/6, which is P(k + 1)."
+   ]
   },
   {
    "n": 4,

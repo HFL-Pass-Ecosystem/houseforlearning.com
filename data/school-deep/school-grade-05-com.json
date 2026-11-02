@@ -62,7 +62,14 @@
    "example": "Solved: Python: for i in range(3): print('Hi') prints Hi three times. Blocks: when flag clicked, repeat 10: move 10 steps. For functions: def square(n): return n * n; square(4) gives 16. Method: Model run for 'Programming with blocks and sprites'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Build a game with variables and conditions: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
-   "steps": []
+   "steps": [
+    "Step 1, Plan the game: a cat sprite catches falling stars and avoids rocks. Make two variables. Click the start flag, then use the blocks set score to 0 and set lives to 3. Variables are named boxes that store numbers, and the game reads them as it runs.",
+    "Step 2, Add movement and conditions. Under forever, add: if touching star then change score by 1. Add: if touching rock then change lives by -1. A condition is an if question; the blocks inside run only when the answer is yes. A hidden star or rock does not change anything.",
+    "Step 3, Add an ending. Inside forever add: if lives = 0 then say Game over and stop all. Test with a pretend list of events: star, star, rock, star, rock, rock. Score goes 1, 2, 2, 3, 3, 3 and lives go 3, 3, 2, 2, 1, 0, so the game stops with a score of 3.",
+    "Step 4, Make it harder with a condition on the score. Add set speed to 5 at the start, then: if score = 5 then change speed by 1. The stars now fall faster once you reach 5 points. Use = for exact tests, or greater than blocks for at least that many.",
+    "Step 5, Test and debug. Play three times and watch the variable boxes on the stage. If lives drops by more than 1 for one rock, the rock is touching for many frames; add wait 1 second after the change. Fix one bug at a time and test again after each fix.",
+    "Step 6, Your turn: add a bonus star worth 5 points. What are the score and lives after the events star, bonus, rock? Answer: score 1 + 5 = 6 and lives 3 - 1 = 2, using if touching bonus then change score by 5."
+   ]
   },
   {
    "n": 3,

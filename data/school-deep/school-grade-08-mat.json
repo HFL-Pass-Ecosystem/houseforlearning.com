@@ -32,7 +32,14 @@
    "example": "Solved: Square root of 196: 14 x 14 = 196, so the root is 14. 2 cubed x 2 to the 4 = 2 to the 7 = 128. 0.75 = 3/4 is rational; the square root of 2 is not. Method: Model run for 'Rational numbers'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Apply properties and represent them on a number line: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Test closure. Adding two rationals gives a rational, as 1/2 + 1/3 = 5/6. Subtraction and multiplication also stay rational. Division is not closed, because dividing 1/2 by 0 is undefined. So rationals are closed under addition, subtraction and multiplication.",
+    "Step 2, Test commutativity. Addition: 1/2 + 1/3 = 5/6 and 1/3 + 1/2 = 5/6, so order does not matter. Subtraction is different: 5 - 2 = 3 but 2 - 5 = -3. So addition and multiplication are commutative, while subtraction and division are not.",
+    "Step 3, Test associativity and distributivity. (1/2 + 1/3) + 1/4 = 5/6 + 1/4 = 13/12, and 1/2 + (1/3 + 1/4) = 1/2 + 7/12 = 13/12. Also -2/3 x (3/4 + 1/2) = -2/3 x 5/4 = -5/6, and -1/2 + (-1/3) = -5/6.",
+    "Step 4, Find identities and inverses. The additive identity is 0, and the additive inverse of -7/9 is 7/9 since their sum is 0. The multiplicative identity is 1, and the reciprocal of -3/5 is -5/3. Zero has no reciprocal.",
+    "Step 5, Represent on a number line. To mark -3/4, divide the unit between 0 and -1 into 4 equal parts and move 3 parts left of zero. To find a rational between 1/4 and 1/2, take the mean: (1/4 + 1/2) / 2 = 3/8. There are infinitely many between any two.",
+    "Step 6, Your turn: find a rational number between 1/5 and 1/3, and say where -5/4 lies on a number line. Answer: the mean is (3/15 + 5/15) / 2 = 4/15, and -5/4 lies one quarter beyond -1, between -1 and -2."
+   ]
   },
   {
    "n": 2,
@@ -141,7 +148,14 @@
    "example": "Solved: Square root of 196: 14 x 14 = 196, so the root is 14. 2 cubed x 2 to the 4 = 2 to the 7 = 128. 0.75 = 3/4 is rational; the square root of 2 is not. Method: Model run for 'Squares, square roots, cubes and cube roots'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Find roots by factors and division: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Recall perfect squares: 1, 4, 9, 16, 25, 36 and so on, where 15 x 15 = 225. A number is a perfect square if its prime factors can be paired. A square never ends in 2, 3, 7 or 8, a fast test to rule numbers out.",
+    "Step 2, Find a square root by prime factors. Divide 324 by 2 twice to get 81, then 81 = 3 x 3 x 3 x 3, so 324 = 2^2 x 3^4. Take one from each pair: 2 x 3 x 3 = 18. Check: 18 x 18 = 324.",
+    "Step 3, Find a square root by division. For 529 pair the digits from the right as 5 | 29. The largest square under 5 is 4, so write 2, subtract to leave 1, and bring down 29 to make 129. Double 2 to get 4, and 43 x 3 = 129. So the root is 23.",
+    "Step 4, Find a cube root by factors. 1728 = 2^6 x 3^3. Group the factors in threes: (2 x 2 x 2) x (2 x 2 x 2) x (3 x 3 x 3). Take one from each triple: 2 x 2 x 3 = 12. Check: 12 x 12 x 12 = 1728.",
+    "Step 5, Make a perfect square or cube. 180 = 2^2 x 3^2 x 5, and 5 is unpaired, so multiply by 5 to get 900, which is 30 squared. And 54 = 2 x 3^3, so multiply by 4 to get 216, which is 6 cubed.",
+    "Step 6, Your turn: find the square root of 676 by factors, then the cube root of 3375. Answer: 676 = 2^2 x 13^2, so the root is 2 x 13 = 26. And 3375 = 3^3 x 5^3, so the cube root is 3 x 5 = 15."
+   ]
   },
   {
    "n": 6,
@@ -163,7 +177,14 @@
    "example": "Solved: 20% of 350 = 350 x 20 / 100 = 70. Share 40 sweets in the ratio 3 : 5: 8 parts, each part is 5, so 15 and 25. If 5 pens cost 40, one costs 8 and 12 cost 96. Method: Model run for 'Comparing quantities'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Use compound interest, discount and tax: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Find a discount. A jacket has a marked price of 1200 with a 15% discount. Discount = 1200 x 15 / 100 = 180. Selling price = 1200 - 180 = 1020. A discount is always taken from the marked price.",
+    "Step 2, Add tax. A bill of 1000 has 18% tax added. Tax = 1000 x 18 / 100 = 180, so the total is 1180. To go backwards, if 840 includes 5% tax, divide by 1.05: 840 / 1.05 = 800 before tax.",
+    "Step 3, Find compound interest with A = P(1 + R/100)^n. Take P = 10000, R = 10% and n = 2 years. A = 10000 x 1.1 x 1.1 = 12100. Compound interest = 12100 - 10000 = 2100, while simple interest would only be 2000.",
+    "Step 4, Compound half-yearly. For 8000 at 10% a year for 1 year, the rate per half-year is 5% and there are 2 periods. A = 8000 x 1.05^2 = 8000 x 1.1025 = 8820. Interest = 8820 - 8000 = 820.",
+    "Step 5, Combine markup and discount. A trader buys for 800 and marks it up 25%, so the marked price is 1000. After a 10% discount the sale price is 900. Profit = 900 - 800 = 100, which is 100 / 800 = 12.5% of cost.",
+    "Step 6, Your turn: find the compound interest on 5000 at 8% a year for 2 years. Answer: A = 5000 x 1.08 x 1.08 = 5832, so the interest is 5832 - 5000 = 832."
+   ]
   },
   {
    "n": 7,
@@ -243,7 +264,14 @@
    "example": "Solved: Square root of 196: 14 x 14 = 196, so the root is 14. 2 cubed x 2 to the 4 = 2 to the 7 = 128. 0.75 = 3/4 is rational; the square root of 2 is not. Method: Model run for 'Exponents and powers'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Use laws of exponents with negative powers: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Meet a negative exponent. a^-n means 1 / a^n. So 2^-3 = 1 / 2^3 = 1/8, and 10^-2 = 1/100 = 0.01. A negative power does not make the number negative; it means a reciprocal.",
+    "Step 2, Add exponents when multiplying, even if one is negative. 3^-2 x 3^5 = 3^(-2 + 5) = 3^3 = 27. Check: 1/9 x 243 = 27. The rule a^m x a^n = a^(m + n) holds for all whole numbers m and n.",
+    "Step 3, Handle a fraction raised to a negative power by flipping it. (2/3)^-2 = (3/2)^2 = 9/4. The reciprocal turns the power positive. Compute the numerator and denominator separately: 3^2 = 9 and 2^2 = 4.",
+    "Step 4, Subtract exponents when dividing. 5^-3 / 5^-5 = 5^(-3 - (-5)) = 5^2 = 25. Be careful with the double negative, which becomes plus. Check: 1/125 divided by 1/3125 = 3125 / 125 = 25.",
+    "Step 5, Simplify (2^-1 + 3^-1)^-1. First, 2^-1 = 1/2 and 3^-1 = 1/3, so the bracket is 5/6. A power of -1 flips it, giving 6/5. Standard form with negatives: 0.0000052 = 5.2 x 10^-6, moving the point 6 places right.",
+    "Step 6, Your turn: evaluate 4^-2 x 4^4 and write 0.00071 in standard form. Answer: 4^(-2 + 4) = 4^2 = 16, and 0.00071 = 7.1 x 10^-4."
+   ]
   },
   {
    "n": 10,
@@ -265,7 +293,14 @@
    "example": "Solved: 20% of 350 = 350 x 20 / 100 = 70. Share 40 sweets in the ratio 3 : 5: 8 parts, each part is 5, so 15 and 25. If 5 pens cost 40, one costs 8 and 12 cost 96. Method: Model run for 'Direct and inverse proportion'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Solve problems with proportion: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Spot direct proportion. If 3 notebooks cost 36 coins and 5 cost 60 coins, then cost divided by number is 12 each time. When one quantity rises, the other rises by the same factor, so y / x = k stays constant.",
+    "Step 2, Solve a direct problem. A car travels 240 km in 3 hours at a steady speed. Speed = 240 / 3 = 80 km/h. In 5 hours it travels 80 x 5 = 400 km. Or use a proportion: 240 / 3 = x / 5, so x = 400.",
+    "Step 3, Spot inverse proportion. If more workers do the job, it takes fewer days. Six workers need 12 days, so the work is 6 x 12 = 72 worker-days. With 9 workers the time is 72 / 9 = 8 days. Here x times y stays constant.",
+    "Step 4, Decide which type a table shows. For x = 2, 4, 8 and y = 12, 6, 3 the products are all 24, so it is inverse. For x = 1, 2, 3 and y = 5, 10, 15 the ratios are all 5, so it is direct.",
+    "Step 5, Use a map scale, a direct proportion. If 2 cm on a map shows 5 km, then 1 cm shows 2.5 km. A 7.5 cm distance is 7.5 x 2.5 = 18.75 km. Always write the units on each side of the proportion.",
+    "Step 6, Your turn: 4 painters finish a wall in 9 days. How long would 6 painters take at the same rate? Answer: the work is 4 x 9 = 36 painter-days, and 36 / 6 = 6 days."
+   ]
   },
   {
    "n": 11,

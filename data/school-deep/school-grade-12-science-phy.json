@@ -90,7 +90,14 @@
    "example": "Solved: Show 1 + 2 + ... + n = n(n + 1)/2. n = 1: 1 = 1. Assume it holds for k. Add k + 1: k(k + 1)/2 + (k + 1) = (k + 1)(k + 2)/2, which is the rule for k + 1. So it holds for all n. Method: Model run for 'Electromagnetic induction and alternating current'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Apply Faraday's law and AC circuits: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": []
+   "steps": [
+    "Step 1, State Faraday's law: the induced emf equals the rate of change of flux linkage, emf = N x change in flux / time. A coil of 100 turns sees flux fall from 0.05 Wb to 0.01 Wb in 0.2 s. The size is 100 x 0.04/0.2 = 20 V, and Lenz's law says it opposes the change.",
+    "Step 2, Find a motional emf: emf = B l v. A 0.5 m rod moves at 4 m/s at right angles to a 0.2 T field, so emf = 0.2 x 0.5 x 4 = 0.4 V. With a 2 ohm loop the current is 0.4/2 = 0.2 A. Safety: in a demonstration with a magnet and coil, use a small magnet and a sensitive low-voltage meter, never mains.",
+    "Step 3, Describe AC with V = V0 sin(omega t). The rms value is V0/root 2. Mains of 230 V rms has a peak of 230 x 1.414 = 325 V. At f = 50 Hz, omega = 2 pi f = 314 rad/s. Meters read rms values, not peaks.",
+    "Step 4, Find reactances. For an inductor X_L = omega L, so L = 0.1 H at 50 Hz gives 31.4 ohm. For a capacitor X_C = 1/(omega C), so C = 100 microfarad gives 1/(314 x 0.0001) = 31.8 ohm. Higher frequency raises X_L and lowers X_C.",
+    "Step 5, Solve a series LCR circuit. With R = 30 ohm, X_L = 60 ohm and X_C = 20 ohm, Z = root(30^2 + 40^2) = 50 ohm. On 100 V rms the current is 2 A. Resonance occurs when X_L = X_C, at f = 1/(2 pi root(LC)), which is about 50.3 Hz for 0.1 H and 100 microfarad.",
+    "Step 6, Your turn: an ideal transformer has 200 primary turns and 20 secondary turns on 230 V. Find the secondary voltage and say whether it is step-up or step-down. Answer: V_s = 230 x 20/200 = 23 V, a step-down transformer."
+   ]
   },
   {
    "n": 4,

@@ -92,7 +92,14 @@
    "example": "Solved: Algorithm to make toast: 1 take two slices, 2 put in toaster, 3 press down, 4 wait, 5 take out. Loop: repeat 4 times: step forward, turn right = draw a square. Method: Model run for 'Algorithms and loops without a computer'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Write and test a sequence of steps with a repeat: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
-   "steps": []
+   "steps": [
+    "Step 1, An algorithm is a list of exact steps. Picture a robot on a grid, facing north. It knows two commands: F means move forward one square and R means turn right a quarter turn. We want it to walk around a square with sides of 3 squares and end where it began.",
+    "Step 2, Write it with no repeat: F F F R F F F R F F F R F F F R. That is 16 commands, and the same group F F F R appears 4 times. When steps repeat, we can group them and say how many times to do them. This saves writing and makes mistakes less likely.",
+    "Step 3, Use a loop: repeat 4 times [F F F R]. Now there are only 4 commands inside the repeat. A loop has two parts: the steps that repeat and the count. The robot makes 4 sides of 3 squares and 4 right turns, then faces north again at the start square.",
+    "Step 4, Test by tracing on squared paper. Start at (0, 0). After the first F F F R you are at (0, 3) facing east. After the second you are at (3, 3) facing south. After the third, (3, 0) facing west. After the fourth, you are back at (0, 0) facing north. The test passes.",
+    "Step 5, Find a bug. Suppose someone writes repeat 3 times [F F F R]. Trace it: the robot stops at (3, 0) facing west, not back at (0, 0), so the shape has only 3 sides. Fix the count to 4 and test again.",
+    "Step 6, Your turn: write a repeat to walk around a rectangle 4 squares long and 2 wide, starting facing north. Model answer: repeat 2 times [F F F F R F F R]. It makes 2 long sides and 2 short sides, and it ends at the start."
+   ]
   },
   {
    "n": 4,
@@ -114,7 +121,14 @@
    "example": "Solved: Never share your password, address or school name. If a stranger messages you: do not reply, close it, tell a trusted adult. Strong password: three random words plus a number. Method: Model run for 'Online safety'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Say what to keep private and who to tell when something feels wrong: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
-   "steps": []
+   "steps": [
+    "Step 1, Sort private from public. Private information could help a stranger find you: your full name, home address, phone number, school name, birthday and passwords. Public information is safe to share, such as your favourite colour or a drawing of a cat. Make two lists and put each item in one of them.",
+    "Step 2, Keep passwords secret. Only you and a parent or carer should know them. A good password uses three random words and numbers, such as bluefish tree 27 joined together, which is longer and harder to guess than your pet's name. Never type a password for someone who asks in a message or a game chat.",
+    "Step 3, Treat online strangers carefully. A person you have never met face to face is a stranger, even if they are friendly, say they are a child, or offer a free gift. Do not reply to them, do not share photos, and never agree to meet. Tell a trusted adult if they ask to be your friend.",
+    "Step 4, Know the warning signs. Something feels wrong when a message is unkind, asks for a secret, asks for photos, or shows scary pictures. Do this: stop, do not reply, keep the message so a grown-up can see it, and tell a trusted adult such as a parent, carer or teacher. It is never your fault.",
+    "Step 5, Practise with a story. In a game chat, a player says, I am nine too! What school do you go to? Say, I do not share that. Then leave the chat, keep the message and go to a grown-up right away. You gave no private information, so you stayed safe.",
+    "Step 6, Your turn: name three things to keep private and say who you tell if a stranger asks for them. Model answer: my home address, my school name and my password; I tell a trusted adult, such as my parent or teacher, straight away."
+   ]
   }
  ],
  "rubric": [

@@ -92,7 +92,14 @@
    "example": "Solved: Algorithm to make toast: 1 take two slices, 2 put in toaster, 3 press down, 4 wait, 5 take out. Loop: repeat 4 times: step forward, turn right = draw a square. Method: Model run for 'Giving clear instructions'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
    "standard": "Write step-by-step instructions for a daily task: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
-   "steps": []
+   "steps": [
+    "Step 1, An instruction is a short order that tells someone exactly what to do. Choose a daily task: brushing teeth. Say the first step: Put a pea-sized dot of toothpaste on the wet brush. Good instructions start with an action word, such as put, brush, rinse or spit, and tell what to use.",
+    "Step 2, Write all the steps in order. 1 Pick up your brush. 2 Wet the brush. 3 Put on a small dot of toothpaste. 4 Brush the top teeth for 1 minute. 5 Brush the bottom teeth for 1 minute. 6 Spit and rinse your mouth. There are 6 steps, and each one has a single job.",
+    "Step 3, Order matters. If you swap step 3 and step 6, you spit before you brush, which makes no sense. Check each step by asking, does this have to come before the next one? Put numbers next to the steps, or the words first, next, then and last, so nobody gets lost.",
+    "Step 4, Test the instructions with a helper. Read them aloud while the helper acts them out exactly, doing only what you say, like a robot. If the helper stops and says, how do I open the toothpaste?, a step is missing. Add a step: Take the cap off the toothpaste.",
+    "Step 5, Fix and improve. After adding the missing step, there are now 7 steps. Make the words clearer: replace do the teeth with brush the top teeth. Read the list again from step 1 and check that the helper can finish the task, with a clean smile at the end, without asking questions.",
+    "Step 6, Your turn: write step-by-step instructions for putting butter on a slice of bread. Model answer: 1 Take a slice of bread. 2 Put it on a plate. 3 Open the butter. 4 Scoop some butter with a knife. 5 Spread it across the bread. 6 Close the butter."
+   ]
   }
  ],
  "rubric": [

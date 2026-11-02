@@ -62,7 +62,14 @@
    "example": "Solved: Python: for i in range(3): print('Hi') prints Hi three times. Blocks: when flag clicked, repeat 10: move 10 steps. For functions: def square(n): return n * n; square(4) gives 16. Method: Model run for 'Programming with functions and lists'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Break a task into functions and use lists: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Break the task into parts. Task: report on five test marks. Parts: find the average, find the highest mark and count how many passed with 50 or more. Each part becomes a function, a named block of code that can be reused and tested on its own.",
+    "Step 2, Store the data in a list: marks = [56, 72, 45, 88, 67]. Counting starts at 0, so marks[0] is 56 and marks[-1] is 67. marks[1:3] is the slice [72, 45]. len(marks) is 5. A list keeps related values together under one name.",
+    "Step 3, Write a function with a parameter and a return value. def average(items): return sum(items) / len(items). Calling average(marks) gives 328 / 5 = 65.6. The word return sends the answer back. The max(marks) built-in gives 88.",
+    "Step 4, Write a function with a loop and a decision. def count_pass(items, limit): count = 0, for x in items: if x >= limit: count += 1, then return count. Calling count_pass(marks, 50) returns 4, because 45 is the only mark below 50.",
+    "Step 5, Change the list and run the functions again. marks.append(90) adds a sixth mark. Now len(marks) is 6 and average(marks) is 418 / 6 = 69.67. The functions work with the longer list without any rewriting, which is the benefit of breaking a task into functions.",
+    "Step 6, Your turn: temps = [21, 25, 19, 30, 24]. Write a function that counts the temperatures above 22, and find the average. Answer: count is 3 (25, 30 and 24), and the average is 119 / 5 = 23.8."
+   ]
   },
   {
    "n": 3,

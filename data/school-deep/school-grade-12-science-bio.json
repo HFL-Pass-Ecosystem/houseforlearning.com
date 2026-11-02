@@ -32,7 +32,14 @@
    "example": "Solved: Draw and label the structure, state the function of each part in one line, then link structure to function: for example, thin walls of the air sacs let oxygen pass quickly into the blood. Method: Model run for 'Reproduction in organisms and humans'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Describe sexual reproduction in flowering plants and humans: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": []
+   "steps": [
+    "Step 1, Describe the flower as the reproductive organ. The stamen has an anther that makes pollen grains, and the carpel (stigma, style, ovary) holds ovules. Inside the ovule, one cell divides to form an embryo sac of 7 cells and 8 nuclei, including one egg cell and 2 polar nuclei. Pollen grains hold the male gametes.",
+    "Step 2, Describe pollination and double fertilization. Pollen lands on the stigma and grows a tube down the style to the ovule. Two male gametes are released. One fuses with the egg to form the zygote. The other fuses with the 2 polar nuclei to form the primary endosperm nucleus. Two fusions in one embryo sac is why it is called double fertilization.",
+    "Step 3, Describe the result. The zygote becomes the embryo, the endosperm nucleus becomes the food store, the ovule becomes the seed and the ovary becomes the fruit. Check the chromosome numbers in maize, which has 20 chromosomes in body cells: egg 10, zygote 20, and endosperm 30 because it has three sets of 10.",
+    "Step 4, Describe human gametes. Sperm are made in the seminiferous tubules of the testes by spermatogenesis and each carries 23 chromosomes. Eggs are made in the ovaries by oogenesis, also with 23. Fusion at fertilization restores 46 chromosomes, the normal number for a human body cell, and the sex is set by whether the sperm carries X or Y.",
+    "Step 5, Describe the cycle and early pregnancy. In a typical 28-day menstrual cycle, ovulation occurs around day 14. Fertilization happens in the fallopian tube, and the embryo reaches the uterus and implants about 7 days later. Pregnancy lasts about 9 months, which is around 40 weeks counted from the last period. The placenta feeds the foetus.",
+    "Step 6, Your turn: a pea plant has 14 chromosomes in a body cell. How many are in a pollen grain, the egg, the zygote and the endosperm? Answer: pollen grain 7, egg 7, zygote 14, endosperm 21 (three sets of 7). Name the process by which one fusion forms the zygote and another forms the endosperm: double fertilization."
+   ]
   },
   {
    "n": 2,
@@ -54,7 +61,14 @@
    "example": "Solved: Draw and label the structure, state the function of each part in one line, then link structure to function: for example, thin walls of the air sacs let oxygen pass quickly into the blood. Method: Model run for 'Genetics and evolution'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Apply inheritance laws and molecular basis of inheritance: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": []
+   "steps": [
+    "Step 1, Apply the law of segregation to a monohybrid cross. Tall (T) is dominant over short (t). Cross two heterozygous plants, Tt x Tt. Gametes: T or t from each parent. Offspring: 1 TT : 2 Tt : 1 tt. Phenotypes are 3 tall to 1 short, because TT and Tt both look tall. A test cross with tt shows an unknown plant's genotype.",
+    "Step 2, Apply independent assortment to a dihybrid cross. Round (R) and yellow (Y) are dominant. Cross RrYy x RrYy. Each parent makes four gamete types, RY, Ry, rY, ry, so there are 16 combinations. Count phenotypes: 9 round yellow, 3 round green, 3 wrinkled yellow, 1 wrinkled green. The ratio is 9 : 3 : 3 : 1.",
+    "Step 3, Apply the molecular basis. DNA is a double helix with A pairing with T and G with C. Read a template strand 3' TAC CGA TTT ACT 5'. The mRNA made is 5' AUG GCU AAA UGA 3', because RNA uses U instead of T. The codons code for methionine (start), alanine, lysine and then UGA, a stop signal.",
+    "Step 4, Apply it to a mutation. In sickle cell disease one base changes in the gene for the haemoglobin beta chain, so the codon GAG becomes GUG in mRNA and the amino acid glutamic acid is replaced by valine. One changed letter alters one amino acid and can change the shape of red cells. Heterozygous carriers (HbA HbS) usually stay healthy.",
+    "Step 5, Apply it to evolution. Natural selection changes allele frequencies. In a population where 4 in 100 are recessive (q squared = 0.04), q = 0.2 and p = 0.8. Carriers are 2pq = 2 x 0.8 x 0.2 = 0.32, or 32 in 100, far more than the 4 who show the trait. The equation p squared + 2pq + q squared = 1 holds when nothing changes the frequencies.",
+    "Step 6, Your turn: cross a round pea plant Rr with a wrinkled plant rr. State the genotypes and phenotype ratio. Answer: gametes R or r from the first, r from the second, so offspring are 1 Rr : 1 rr, which is 1 round : 1 wrinkled. This is also a test cross, showing the round parent is heterozygous."
+   ]
   },
   {
    "n": 3,
@@ -76,7 +90,14 @@
    "example": "Solved: Draw and label the structure, state the function of each part in one line, then link structure to function: for example, thin walls of the air sacs let oxygen pass quickly into the blood. Method: Model run for 'Biology and human welfare'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Describe health, disease and food production: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": []
+   "steps": [
+    "Step 1, Describe disease causes. Typhoid comes from the bacterium Salmonella typhi in contaminated food and water. Malaria comes from the parasite Plasmodium, carried by the female Anopheles mosquito. Dengue is a virus spread by Aedes mosquitoes. Amoebic dysentery is caused by Entamoeba. Prevention follows the route: clean water, hand washing, nets and removing stagnant water.",
+    "Step 2, Describe malaria. An infected Anopheles bites and injects the parasite, which enters the liver and then the red blood cells. When red cells burst, toxins release and cause cycles of chills and high fever every 2 to 3 days. Control means draining breeding water, using nets and treating patients with prescribed medicine.",
+    "Step 3, Describe immunity. Innate immunity is present at birth: skin, stomach acid, white cells. Acquired immunity develops after exposure, using memory B and T cells. A vaccine contains a weakened or dead pathogen or part of it, which trains memory cells so a later real infection is cleared fast without causing the disease.",
+    "Step 4, Describe AIDS. HIV infects helper T cells, so the body slowly loses the ability to fight infection. It spreads through unprotected sex, infected blood or needles, and from mother to child, but not through touch, hugging, or sharing a meal. Early testing, safe blood and clean needles help prevent spread, and treatment can control it.",
+    "Step 5, Describe food production. Plant breeding improves crops in steps: collect varied plants, evaluate and select the best, cross-hybridise, select and test the offspring, then release a new variety. Examples are high-yield, disease-resistant wheat and biofortified crops rich in iron or vitamins. Animal husbandry improves milk, eggs and meat by good breeding, feed and care.",
+    "Step 6, Your turn: match each disease to its cause or carrier: malaria, dengue, typhoid. Answer: malaria is caused by Plasmodium carried by the female Anopheles; dengue is a virus carried by Aedes mosquitoes; typhoid is caused by Salmonella typhi in contaminated food or water. Prevention for the first two is stopping mosquito breeding, for typhoid clean water."
+   ]
   },
   {
    "n": 4,
@@ -98,7 +119,14 @@
    "example": "Solved: Draw and label the structure, state the function of each part in one line, then link structure to function: for example, thin walls of the air sacs let oxygen pass quickly into the blood. Method: Model run for 'Biotechnology and its applications'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Explain recombinant DNA technology: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": []
+   "steps": [
+    "Step 1, Explain the idea of recombinant DNA technology: cut a useful gene from one organism, join it to a carrier called a vector, and place it in a host such as a bacterium so the gene works there. The tools are restriction enzymes (molecular scissors), DNA ligase (glue), a vector such as a plasmid, and a host cell.",
+    "Step 2, Explain the cutting. A restriction enzyme recognises a palindromic site. EcoRI recognises GAATTC, which reads the same on the opposite strand from 5' to 3'. It cuts between G and A on each strand, leaving short single-stranded sticky ends (AATT). Cutting the vector and the gene with the same enzyme gives matching sticky ends.",
+    "Step 3, Explain the joining. Mix the cut plasmid with the cut gene. The sticky ends pair up by base pairing, and DNA ligase seals the gaps in the sugar-phosphate backbone, giving a recombinant plasmid. Add the plasmid to bacteria after making their walls permeable, in a step called transformation.",
+    "Step 4, Explain selection. A plasmid used as a vector carries marker genes, for example one for ampicillin resistance. Spread the bacteria on a plate containing ampicillin: only cells that took up the plasmid survive and form colonies. Safety: handle bacteria only as taught, wear gloves, keep plates closed, wash hands and sterilise waste.",
+    "Step 5, Explain amplification by PCR. Each cycle has three steps: denaturation at about 94 degrees C, annealing of primers at about 55 degrees C, and extension at about 72 degrees C. Each cycle doubles the DNA, so n cycles give 2 to the power n copies. After 30 cycles, 2^30 = 1,073,741,824, over a billion copies from one molecule.",
+    "Step 6, Your turn: how many copies result from one DNA molecule after 25 PCR cycles, and which enzyme seals the gene into the plasmid? Answer: 2^25 = 33,554,432 copies. The enzyme is DNA ligase. Human insulin made this way in bacteria is a real use, joining the A chain of 21 and the B chain of 30 amino acids."
+   ]
   },
   {
    "n": 5,
@@ -120,7 +148,14 @@
    "example": "Solved: Draw and label the structure, state the function of each part in one line, then link structure to function: for example, thin walls of the air sacs let oxygen pass quickly into the blood. Method: Model run for 'Ecology and environment'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Explain ecosystems, biodiversity and conservation: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": []
+   "steps": [
+    "Step 1, Explain an ecosystem. It is the living (biotic) and non-living (abiotic) parts of an area together: producers such as grass, consumers such as grasshoppers, frogs and hawks, and decomposers such as bacteria and fungi, with abiotic factors such as light, water and soil. A pond and a forest are both ecosystems.",
+    "Step 2, Explain energy flow. Sunlight is fixed by producers, and only about 10 percent of the energy passes to each next trophic level, the rest is lost as heat in respiration. If grass holds 10,000 J, grasshoppers get 1,000 J, a frog 100 J, and a snake 10 J. That is why food chains seldom exceed four or five levels.",
+    "Step 3, Explain population change. Population size changes by births, deaths, immigration and emigration: N next = N + B - D + I - E. Start with 500 animals, with 60 births, 20 deaths, 10 arrivals and 15 departures. Then 500 + 60 - 20 + 10 - 15 = 535. A growing population needs food and space, so growth slows near the carrying capacity.",
+    "Step 4, Explain biodiversity. It means the variety of life at gene, species and ecosystem level. It is highest in warm, wet areas near the equator. India is one of the megadiverse countries and includes biodiversity hotspots such as the Western Ghats. Biodiversity gives food, medicine, clean air and water, and stabilises ecosystems.",
+    "Step 5, Explain the four main threats and the conservation methods. Threats: habitat loss and fragmentation, over-exploitation, alien species and co-extinction. In-situ conservation protects species in their natural home, such as national parks, sanctuaries and biosphere reserves. Ex-situ conservation protects them elsewhere, such as zoos, botanical gardens and seed banks.",
+    "Step 6, Your turn: grass holds 20,000 J. Following the 10 percent rule through grasshopper, frog, snake and hawk, how much reaches the hawk? Answer: grasshopper 2,000 J, frog 200 J, snake 20 J, hawk 2 J. Only a tiny share reaches the top consumer, so the hawk is rare compared with the grass."
+   ]
   }
  ],
  "rubric": [

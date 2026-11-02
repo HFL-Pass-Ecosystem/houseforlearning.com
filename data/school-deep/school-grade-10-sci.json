@@ -61,7 +61,14 @@
    "example": "Solved: A solution that turns blue litmus red is an acid. Acid + base gives salt + water, for example hydrochloric acid + sodium hydroxide gives sodium chloride + water. Method: Model run for 'Chemistry: acids, bases and salts'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Use pH and describe common salts: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Use indicators to sort acids from bases. Blue litmus turns red in acid, red litmus turns blue in base. Phenolphthalein is colourless in acid and pink in base, and methyl orange is red in acid and yellow in base. Red cabbage juice also works. Wear goggles, use dilute solutions and never taste lab chemicals.",
+    "Step 2, Use the pH scale, where pH = -log10 of the hydrogen ion concentration. For 0.001 mol/L HCl, the concentration is 10^-3, so pH = 3. For 0.01 mol/L NaOH, pOH = 2 and pH = 14 - 2 = 12. Neutral water is 7. Each step of 1 means a tenfold change, so pH 3 is 100 times more acidic than pH 5.",
+    "Step 3, Write neutralisation: HCl + NaOH gives NaCl + H2O. Atoms balance, one each of H, Cl, Na and O on each side. 25 mL of 0.10 mol/L HCl holds 0.0025 mol, so it needs 0.0025 mol NaOH, which is 25 mL of 0.10 mol/L NaOH. An antacid works the same way against stomach acid.",
+    "Step 4, Predict a salt's nature. Strong acid with strong base, like NaCl, gives a neutral salt. Strong acid with weak base, like ammonium chloride, gives an acidic solution. Weak acid with strong base, like sodium carbonate, gives a basic solution. Electrolysing brine, NaCl solution, makes NaOH, chlorine and hydrogen.",
+    "Step 5, Describe four common salts. Baking soda NaHCO3 is a mild base used in baking and antacids. On heating, 2NaHCO3 gives Na2CO3 + H2O + CO2. Washing soda is Na2CO3 with water of crystallisation. Bleaching powder CaOCl2 disinfects water. Plaster of Paris, CaSO4 with half a water molecule, sets hard when mixed with water.",
+    "Step 6, Your turn: find the pH of 0.0001 mol/L HCl and say whether it is acidic or basic. Answer: the concentration is 10^-4, so pH = 4. It is acidic, and it is 10 times more acidic than a pH 5 solution."
+   ]
   },
   {
    "n": 3,
@@ -112,7 +119,14 @@
    "example": "Solved: Law of reflection: the angle of incidence equals the angle of reflection. A ray hitting a mirror at 30 degrees to the normal leaves at 30 degrees. Method: Model run for 'Physics: light, reflection and refraction'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Use mirror and lens formulae: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Use the laws of reflection: the angle of incidence equals the angle of reflection, and both rays and the normal lie in one plane. Use the sign convention: distances are measured from the pole, positive in the direction of incident light. A concave mirror has negative f. Never look at the Sun in a mirror or lens.",
+    "Step 2, Apply the mirror formula 1/v + 1/u = 1/f. A concave mirror has f = -15 cm and an object is placed at u = -30 cm. Then 1/v = -1/15 + 1/30 = -1/30, so v = -30 cm. The image forms at the same distance, in front of the mirror, as the object sits at the centre of curvature.",
+    "Step 3, Find magnification, m = -v/u. In step 2, m = -(-30)/(-30) = -1, so the image is real, inverted and the same size. Move the object to u = -10 cm inside the focus: 1/v = -1/15 + 1/10 = 1/30, so v = +30 cm behind the mirror and m = +3, a magnified, upright, virtual image. This is how a shaving mirror works.",
+    "Step 4, Use refraction. Snell's law gives n = sin i / sin r. Light enters glass of n = 1.5 at i = 30 degrees: sin r = 0.5 / 1.5 = 0.333, so r is about 19.5 degrees, bending towards the normal. The speed in glass is 3 x 10^8 / 1.5 = 2 x 10^8 m/s. Never aim a laser pointer at anyone's eyes.",
+    "Step 5, Use the lens formula 1/v - 1/u = 1/f. A convex lens has f = +20 cm and an object at u = -40 cm: 1/v = 1/20 - 1/40 = 1/40, so v = +40 cm and m = v/u = -1. Power P = 1/f in metres, so P = 1/0.20 = +5 D. A concave lens with f = -25 cm has P = -4 D.",
+    "Step 6, Your turn: a concave mirror has f = -10 cm and the object is at u = -30 cm. Find v and m, and describe the image. Answer: 1/v = -1/10 + 1/30 = -1/15, so v = -15 cm; m = -(-15)/(-30) = -0.5. The image is real, inverted and diminished, in front of the mirror."
+   ]
   },
   {
    "n": 5,
@@ -163,7 +177,14 @@
    "example": "Solved: Life processes: nutrition, respiration, transport, excretion. Reflex arc: stimulus, receptor, spinal cord, effector, response (hand pulled from a hot pan). Method: Model run for 'Biology: life processes and control and coordination'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Describe nutrition, transport, nervous and hormonal control: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Describe nutrition. In photosynthesis, 6CO2 + 6H2O gives C6H12O6 + 6O2 using light and chlorophyll, with gases entering through stomata. Humans digest food: amylase in saliva starts on starch, pepsin with hydrochloric acid works in the stomach, bile and pancreatic juice act in the small intestine, and villi absorb the nutrients. For the leaf starch test, warm ethanol only in a water bath, never over a flame.",
+    "Step 2, Describe respiration. Aerobic respiration: glucose + oxygen gives carbon dioxide + water + energy. Without oxygen, yeast makes ethanol and carbon dioxide, and tired muscle makes lactic acid. Energy is stored in ATP. This explains why breathing and heart rate rise during exercise, so check your own pulse safely after light activity.",
+    "Step 3, Describe transport. The human heart has four chambers and double circulation: blood goes to the lungs and back, then around the body. At 72 beats a minute with 70 mL pumped per beat, the heart moves 72 x 70 = 5,040 mL, about 5 litres, a minute and beats 103,680 times a day. In plants, xylem carries water upward and phloem carries food.",
+    "Step 4, Describe nervous control. A neuron has dendrites, a cell body and an axon. In a reflex arc touching something hot sends an impulse along a sensory neuron to the spinal cord, then along a motor neuron to the arm muscle. At 100 m/s, a 0.6 m path takes only 0.006 s. The brain's cerebrum thinks, the cerebellum balances, the medulla controls breathing.",
+    "Step 5, Describe hormones. Insulin from the pancreas lowers blood sugar, thyroxine from the thyroid needs iodine, adrenaline prepares for danger, and growth hormone helps growth. Feedback works like a thermostat: after a meal, blood sugar rises, insulin is released, sugar falls to its normal range, and release stops. In plants, auxin makes shoots bend toward light.",
+    "Step 6, Your turn: trace a reflex when a hand touches a hot cup, and name the hormone that lowers blood sugar. Answer: receptor in skin, sensory neuron, spinal cord, motor neuron, muscle which pulls the hand away. The hormone is insulin."
+   ]
   },
   {
    "n": 7,

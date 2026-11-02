@@ -32,7 +32,14 @@
    "example": "Solved: Speed = distance / time. A bus covers 120 km in 2 hours: 120 / 2 = 60 km/h. Starting at 0 and reaching 20 m/s in 5 s means acceleration = 20 / 5 = 4 m/s squared. Method: Model run for 'Physics: motion'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Describe motion with graphs and equations: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Separate distance from displacement. A child walks 3 m east then 4 m north. The distance travelled is 3 + 4 = 7 m, but the displacement is the straight line from start to finish, 5 m, because 3, 4 and 5 form a right triangle. Speed uses distance, velocity uses displacement with direction.",
+    "Step 2, Read a distance-time graph. Plot (0 s, 0 m), (2 s, 10 m) and (4 s, 20 m). The points lie on a straight line, so the motion is uniform. The slope is 20 m divided by 4 s, which is 5 m/s, the speed. A flat line means at rest, and a line curving upward means speeding up.",
+    "Step 3, Read a velocity-time graph. A car starts from rest and reaches 20 m/s in 10 s along a straight sloping line. The slope gives acceleration: 20 / 10 = 2 m/s squared. The area under the line gives distance: a triangle of half times 10 times 20 equals 100 m.",
+    "Step 4, Use the three equations of uniform acceleration: v = u + at, s = ut + (1/2)at^2 and v^2 = u^2 + 2as. For u = 0, a = 2 m/s^2 and t = 10 s, v = 20 m/s and s = 100 m. Check: v^2 = 400 and 2as = 2 x 2 x 100 = 400, so the equations agree with the graph.",
+    "Step 5, Describe slowing down. A bicycle at u = 12 m/s brakes with a = -3 m/s^2. It stops when 0 = 12 - 3t, so t = 4 s. Distance s = 12 x 4 - (1/2) x 3 x 16 = 48 - 24 = 24 m. For a class practical, roll a toy car down a ramp on a clear floor, time it and keep feet away from its path.",
+    "Step 6, Your turn: a ball is dropped from rest and falls for 2 s. Take g = 10 m/s^2. Find its speed and distance fallen using the equations. Answer: v = 0 + 10 x 2 = 20 m/s, and s = (1/2) x 10 x 2^2 = 20 m."
+   ]
   },
   {
    "n": 2,
@@ -54,7 +61,14 @@
    "example": "Solved: Speed = distance / time. A bus covers 120 km in 2 hours: 120 / 2 = 60 km/h. Starting at 0 and reaching 20 m/s in 5 s means acceleration = 20 / 5 = 4 m/s squared. Method: Model run for 'Physics: force and laws of motion'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Apply Newton's laws and momentum: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Apply the first law, inertia. A body stays at rest or in steady straight motion unless an unbalanced force acts. Place a card on a plastic cup with a coin on top and flick the card sideways. The coin drops into the cup because it keeps its rest state. Keep your face back and use a light plastic cup.",
+    "Step 2, Apply the second law, F = ma. A 5 kg trolley pushed by a net force of 20 N gets a = 20 / 5 = 4 m/s^2. Double the force to 40 N and the acceleration doubles to 8 m/s^2. Double the mass to 10 kg with 20 N and it halves to 2 m/s^2.",
+    "Step 3, Calculate momentum, p = mv. A 1,000 kg car at 20 m/s has p = 20,000 kg m/s. Force equals change in momentum divided by time. Stopping in 5 s needs 20,000 / 5 = 4,000 N, but stopping in 0.5 s needs 40,000 N, which is why airbags and seat belts lengthen the stopping time.",
+    "Step 4, Apply the third law. When you push a wall, the wall pushes back with an equal force in the opposite direction. The two forces act on different bodies, so they do not cancel. A blown-up balloon released from your hand shoots forward as air rushes backward. Swimmers push water back and move forward.",
+    "Step 5, Use conservation of momentum. A 2 kg trolley moving at 3 m/s hits a 1 kg trolley at rest and they stick. Total momentum before is 2 x 3 = 6 kg m/s, so after the crash 6 = 3 x v and v = 2 m/s. A 4 kg gun firing a 0.05 kg bullet at 100 m/s recoils at 0.05 x 100 / 4 = 1.25 m/s.",
+    "Step 6, Your turn: a 3 kg cart moving at 4 m/s hits a 1 kg cart at rest and the two stick together. Find their speed. Answer: momentum before = 3 x 4 = 12 kg m/s; after = 4 kg x v, so v = 12 / 4 = 3 m/s."
+   ]
   },
   {
    "n": 3,
@@ -192,7 +206,14 @@
    "example": "Solved: Plant cells have a cell wall and chloroplasts; animal cells do not. A tissue is a group of similar cells doing one job, for example muscle tissue for movement. Method: Model run for 'Biology: the fundamental unit of life and tissues'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Describe cell organelles and plant and animal tissues: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Describe the cell as the basic unit of life. All living things are made of cells, and new cells come from existing cells. An amoeba is one cell, a human has trillions. To see onion peel cells, stain a thin peel with dilute iodine, add a cover slip gently and use a lamp, never direct sunlight. Wash hands afterwards.",
+    "Step 2, Describe the parts every cell has. The plasma membrane controls what enters and leaves. The cytoplasm is the jelly where reactions happen. The nucleus holds the DNA and directs the cell. Plant cells also have a cellulose cell wall, a large vacuole and chloroplasts, while animal cells have no wall and only small vacuoles.",
+    "Step 3, Match organelles to jobs. Mitochondria release energy from glucose, so they are called powerhouses. Ribosomes make proteins. Rough ER, which carries ribosomes, moves proteins, and smooth ER makes fats. The Golgi apparatus packs and sends out substances. Lysosomes digest waste, and chloroplasts carry out photosynthesis.",
+    "Step 4, Describe plant tissues. Meristematic tissue at root and shoot tips divides to make the plant grow longer. Permanent tissues are parenchyma (stores food), collenchyma (flexible support), sclerenchyma (hard, dead support), xylem (carries water and minerals up) and phloem (carries made food in both directions).",
+    "Step 5, Describe animal tissues. Epithelial tissue covers skin and lines the gut. Connective tissue includes blood, bone, cartilage and fat. Muscle tissue has three kinds: striated in limbs, smooth in the gut and cardiac in the heart. Nervous tissue is made of neurons. Under a microscope, a 10x eyepiece with a 40x objective magnifies 400 times.",
+    "Step 6, Your turn: name the organelle that releases energy and the plant tissue that carries water up from roots. Answer: the mitochondrion releases energy from glucose, and xylem carries water and minerals upward."
+   ]
   },
   {
    "n": 8,

@@ -61,7 +61,14 @@
    "example": "Solved: En France l'ecole elementaire commence a six ans, puis le college, puis le lycee. Fais un tableau: age, annees, examens, une ressemblance et une difference avec ton systeme. Method: Model run for 'Comparing education systems'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Compare two systems: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Collect facts in two columns. In France: école primaire five years (ages 6 to 11), collège four years (11 to 15), lycée three years (15 to 18), ending with the baccalauréat. For comparison use an invented system B: six years of primary, three of lower secondary, three of upper secondary. Total in both: 5 + 4 + 3 = 12 and 6 + 3 + 3 = 12.",
+    "Step 2, Learn the comparison forms. plus ... que [more ... than], moins ... que [less ... than], aussi ... que [as ... as]. Le primaire est plus long dans le système B qu'en France. [Primary school is longer in system B than in France.] Les deux systèmes durent aussi longtemps. [Both systems last as long.]",
+    "Step 3, Link ideas with contrast words. alors que, tandis que [whereas], par contre [on the other hand], en revanche [in contrast]. En France, le collège dure quatre ans, alors que dans le système B le premier cycle du secondaire dure trois ans. [In France lower secondary lasts four years, whereas in system B it lasts three.]",
+    "Step 4, Add a similarity and an opinion. Dans les deux systèmes, les élèves passent douze ans à l'école. [In both systems, pupils spend twelve years at school.] À mon avis, un collège plus long permet de mieux préparer le lycée. [In my opinion a longer collège prepares better for lycée.]",
+    "Step 5, Fix errors. A child says plus bon. Correction: meilleur, since bon has an irregular comparative. Another says aussi long comme. Correction: aussi long que. Another writes Le système est plus longue. Correction: plus long, because système is masculine. Check agreement.",
+    "Step 6, Your turn: compare country A with five school days of 8 hours and country B with four school days of 8 hours. Answer: Dans le pays A, les élèves sont à l'école 40 heures par semaine, alors que dans le pays B ils y sont 32 heures. La semaine est donc plus longue dans le pays A."
+   ]
   },
   {
    "n": 3,
@@ -112,7 +119,14 @@
    "example": "Solved: La Francophonie: le francais est parle sur plusieurs continents (France, Canada, Senegal). Choisis un pays francophone et presente trois faits. Method: Model run for 'Culture and civilisation'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Describe aspects of French-speaking cultures: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": []
+   "steps": [
+    "Step 1, Locate French-speaking places. French is spoken by more than 300 million people on five continents. Countries with French as an official language include la France, la Belgique, la Suisse, le Canada, le Sénégal and la Côte d'Ivoire. Use en with feminine countries and au with masculine ones: en France, au Canada, au Sénégal.",
+    "Step 2, Describe languages and everyday facts. La Suisse a quatre langues nationales : l'allemand, le français, l'italien et le romanche. [Switzerland has four national languages.] Au Québec, la langue officielle est le français. [In Quebec, the official language is French.] Use est and a to give facts.",
+    "Step 3, Describe festivals and food. En France, la fête nationale est le 14 juillet. [In France the national day is 14 July.] Au Québec, la fête nationale est le 24 juin. En Belgique, on mange des frites et des gaufres. En Suisse, on mange de la fondue. Au Québec, on mange de la poutine.",
+    "Step 4, Write a short description. Au Sénégal, le français est une langue officielle, mais beaucoup de gens parlent aussi le wolof. [In Senegal French is an official language, but many people also speak Wolof.] Use on and il y a to describe general customs without needing exact names.",
+    "Step 5, Fix errors. A child writes Je vais en Canada. Correction: au Canada. Another says La Suisse a trois langues. Correction: quatre. Another uses capital letters: Français, Juillet. Correction: le français is a language and juillet a month, both written with small letters.",
+    "Step 6, Your turn: describe one French-speaking country in three sentences. Model answer: La Belgique est un pays en Europe. On y parle français, néerlandais et allemand. On y mange des frites et des gaufres. [Belgium is a country in Europe. French, Dutch and German are spoken there. People eat chips and waffles there.]"
+   ]
   }
  ],
  "rubric": [
