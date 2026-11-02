@@ -6,6 +6,11 @@ import build_full_courses as B
 from uae_data import T
 from uae_pathways import P
 from uae_deep import D
+import importlib
+for _n in ('a','b','c','d'):
+    try:
+        for _k,_v in importlib.import_module('uae_deep_'+_n).D2.items(): D.setdefault(_k,[]); D[_k]=D[_k]+list(_v)
+    except ModuleNotFoundError: pass
 e = html.escape
 RUB = [("Evidence quality","Claims without records","Records for most claims","Every claim linked to a dated record"),
  ("Numbers and units","Missing units or currency","Correct, units shown (AED)","Correct, with a check calculation"),
@@ -117,7 +122,7 @@ def build(c):
     rub=('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>'+''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(x)}</td><td>{e(d)}</td></tr>' for a,b,x,d in RUB)+'</tbody></table></div>')
     lad=('<div class="scroll-x"><table class="ws-table"><caption>Seven-level ladder</caption><thead><tr><th>Level</th><th>You can</th><th>Evidence</th></tr></thead><tbody>'+''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b.format(k=c["title"].lower()))}</td><td>{e(d)}</td></tr>' for a,b,d in LADDER)+'</tbody></table></div>')
     about=B.sec('','ab','about this course','What you will be able to do',
-      f'<div class="cb-facts"><span class="pill lv">L4 Practitioner</span><span class="pill">About {c["hours"]} h</span><span class="pill">Practice 70% · Share 20% · Study 10%</span><span class="pill">UAE (Dubai and Abu Dhabi)</span></div>'
+      f'<div class="cb-facts"><span class="pill lv">L4 Practitioner</span><span class="pill">About {c["hours"]+sum(x[2] for x in c["M"][8:])} h</span><span class="pill">Practice 70% · Share 20% · Study 10%</span><span class="pill">UAE (Dubai and Abu Dhabi)</span></div>'
       '<ul class="blm">'+''.join(f'<li><span class="bz">{b}</span> {e(t)}</li>' for b,t in c['outcomes'])+'</ul>'
       f'<h3 class="ws-h3">Task, condition and standard</h3><div class="tcs"><div><h4>Task</h4><p>{e(c["task"])}</p></div><div><h4>Condition</h4><p>{e(c["cond"])}</p></div><div><h4>Standard</h4><p>{e(c["std"])}</p></div></div>'
       f'<p class="ws-note">{e(c["safety"])}</p><p><strong>Requirements:</strong> none. Currency: AED on every number.</p>')
