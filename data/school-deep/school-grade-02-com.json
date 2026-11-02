@@ -1,0 +1,154 @@
+{
+ "slug": "school-grade-02-com.html",
+ "plan": "grade-02",
+ "subject": "COM",
+ "subject_name": "Computing",
+ "kind": "comp",
+ "label": "Grade 02",
+ "band": "primary",
+ "level": 1,
+ "weeks": 36,
+ "task": "Meet the outcome of every unit in Grade 02 Computing, and keep one piece of evidence for each.",
+ "condition": "A 36-week school year, 3 units, a teacher or guide, a learning book or device, and local examples in the local language first with English support.",
+ "standard": "Each unit: at least 4 of 5 attempts correct, said or written, with one real example from home or school. Course pass: no unit at 'Not yet' after one retry, and a pass in SA1 and SA2.",
+ "modules": [
+  {
+   "n": 1,
+   "title": "Using a text editor",
+   "bloom": "Apply",
+   "weeks": [
+    1,
+    12
+   ],
+   "hours": 36,
+   "outcome": "open, type, save and name a simple document",
+   "intro": "In this unit you work on 'Using a text editor', taught in a way that is short, playful, with objects, pictures and talk. The target is clear: open, type, save and name a simple document. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Using a text editor' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: open, type, save and name a simple document. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Model run for 'Using a text editor'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
+   "standard": "Open, type, save and name a simple document: at least 4 of 5 attempts correct, said or written, with one real example from home or school."
+  },
+  {
+   "n": 2,
+   "title": "Drawing and colouring tools",
+   "bloom": "Apply",
+   "weeks": [
+    13,
+    24
+   ],
+   "hours": 36,
+   "outcome": "use shapes, fill and undo in a drawing tool",
+   "intro": "In this unit you work on 'Drawing and colouring tools', taught in a way that is short, playful, with objects, pictures and talk. The target is clear: use shapes, fill and undo in a drawing tool. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Drawing and colouring tools' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: use shapes, fill and undo in a drawing tool. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Model run for 'Drawing and colouring tools'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
+   "standard": "Use shapes, fill and undo in a drawing tool: at least 4 of 5 attempts correct, said or written, with one real example from home or school."
+  },
+  {
+   "n": 3,
+   "title": "Giving clear instructions",
+   "bloom": "Apply",
+   "weeks": [
+    25,
+    36
+   ],
+   "hours": 36,
+   "outcome": "write step-by-step instructions for a daily task",
+   "intro": "In this unit you work on 'Giving clear instructions', taught in a way that is short, playful, with objects, pictures and talk. The target is clear: write step-by-step instructions for a daily task. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Giving clear instructions' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: write step-by-step instructions for a daily task. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Model run for 'Giving clear instructions'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
+   "standard": "Write step-by-step instructions for a daily task: at least 4 of 5 attempts correct, said or written, with one real example from home or school."
+  }
+ ],
+ "rubric": [
+  [
+   "It works",
+   "Does not run",
+   "Runs with help",
+   "Runs and handles odd input"
+  ],
+  [
+   "Understanding of the parts",
+   "Cannot name",
+   "Names most",
+   "Names and explains"
+  ],
+  [
+   "Planning",
+   "None",
+   "A list",
+   "A clear ordered plan"
+  ],
+  [
+   "Safety and care",
+   "Needs reminding",
+   "Follows rules",
+   "Follows rules and helps others"
+  ],
+  [
+   "Practice habit",
+   "Rarely",
+   "Weekly",
+   "Most days"
+  ]
+ ],
+ "checks": [
+  [
+   "Unit 1 (Using a text editor): show that you can open, type, save and name a simple document. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 4 of 5 attempts correct, said or written, with one real example from home or school."
+  ],
+  [
+   "Unit 2 (Drawing and colouring tools): show that you can use shapes, fill and undo in a drawing tool. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 4 of 5 attempts correct, said or written, with one real example from home or school."
+  ],
+  [
+   "Unit 3 (Giving clear instructions): show that you can write step-by-step instructions for a daily task. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 4 of 5 attempts correct, said or written, with one real example from home or school."
+  ],
+  [
+   "Which action verb starts the outcome of Unit 1 (Using a text editor), and at which Bloom level is it?",
+   "'open,', at the Apply level."
+  ],
+  [
+   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
+   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36."
+  ],
+  [
+   "In which weeks does Unit 3 (Giving clear instructions) run?",
+   "Weeks 25 to 36."
+  ],
+  [
+   "What evidence do you keep for each unit, and why?",
+   "One page in your learning book. It shows what you can really do and lets a teacher check it against the standard."
+  ]
+ ],
+ "ladder": [
+  "L1: use a device safely; click, type and draw.",
+  "L2: create documents; follow simple instructions in blocks.",
+  "L3: spreadsheets, algorithms and simple programs.",
+  "L4: programming, data and networks.",
+  "L5: software design, databases and security.",
+  "L6 (degree): software engineering and systems.",
+  "L7 (postgraduate): research, architecture or AI practice."
+ ],
+ "jobs": [],
+ "blooms": [
+  "Apply"
+ ]
+}

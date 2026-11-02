@@ -1,0 +1,181 @@
+{
+ "slug": "school-grade-07-com.html",
+ "plan": "grade-07",
+ "subject": "COM",
+ "subject_name": "Computing",
+ "kind": "comp",
+ "label": "Grade 07",
+ "band": "secondary",
+ "level": 3,
+ "weeks": 36,
+ "task": "Meet the outcome of every unit in Grade 07 Computing, and keep one piece of evidence for each.",
+ "condition": "A 36-week school year, 4 units, a teacher or guide, a learning book or device, and local examples in the local language first with English support.",
+ "standard": "Each unit: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. Course pass: no unit at 'Not yet' after one retry, and a pass in SA1 and SA2.",
+ "modules": [
+  {
+   "n": 1,
+   "title": "HTML basics",
+   "bloom": "Create",
+   "weeks": [
+    1,
+    11
+   ],
+   "hours": 33,
+   "outcome": "build a simple web page with text, images and links",
+   "intro": "In this unit you work on 'HTML basics', taught in a way that is with notes, a worked line and a self-mark. The target is clear: build a simple web page with text, images and links. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "See it: watch or try the skill in 'HTML basics' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: build a simple web page with text, images and links. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Model run for 'HTML basics'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Build a simple web page with text, images and links: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 2,
+   "title": "Programming with variables, loops and decisions",
+   "bloom": "Apply",
+   "weeks": [
+    12,
+    22
+   ],
+   "hours": 33,
+   "outcome": "solve problems with a short program",
+   "intro": "In this unit you work on 'Programming with variables, loops and decisions', taught in a way that is with notes, a worked line and a self-mark. The target is clear: solve problems with a short program. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Programming with variables, loops and decisions' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: solve problems with a short program. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Model run for 'Programming with variables, loops and decisions'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Solve problems with a short program: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 3,
+   "title": "Databases and tables",
+   "bloom": "Apply",
+   "weeks": [
+    23,
+    33
+   ],
+   "hours": 33,
+   "outcome": "enter, sort and filter data in a table",
+   "intro": "In this unit you work on 'Databases and tables', taught in a way that is with notes, a worked line and a self-mark. The target is clear: enter, sort and filter data in a table. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Databases and tables' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: enter, sort and filter data in a table. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Model run for 'Databases and tables'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Enter, sort and filter data in a table: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 4,
+   "title": "Digital footprint",
+   "bloom": "Understand",
+   "weeks": [
+    34,
+    36
+   ],
+   "hours": 9,
+   "outcome": "describe a digital footprint and manage it",
+   "intro": "In this unit you work on 'Digital footprint', taught in a way that is with notes, a worked line and a self-mark. The target is clear: describe a digital footprint and manage it. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Digital footprint' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: describe a digital footprint and manage it. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Model run for 'Digital footprint'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Describe a digital footprint and manage it: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  }
+ ],
+ "rubric": [
+  [
+   "It works",
+   "Does not run",
+   "Runs with help",
+   "Runs and handles odd input"
+  ],
+  [
+   "Understanding of the parts",
+   "Cannot name",
+   "Names most",
+   "Names and explains"
+  ],
+  [
+   "Planning",
+   "None",
+   "A list",
+   "A clear ordered plan"
+  ],
+  [
+   "Safety and care",
+   "Needs reminding",
+   "Follows rules",
+   "Follows rules and helps others"
+  ],
+  [
+   "Practice habit",
+   "Rarely",
+   "Weekly",
+   "Most days"
+  ]
+ ],
+ "checks": [
+  [
+   "Unit 1 (HTML basics): show that you can build a simple web page with text, images and links. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  ],
+  [
+   "Unit 2 (Programming with variables, loops and decisions): show that you can solve problems with a short program. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  ],
+  [
+   "Unit 3 (Databases and tables): show that you can enter, sort and filter data in a table. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  ],
+  [
+   "Unit 4 (Digital footprint): show that you can describe a digital footprint and manage it. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  ],
+  [
+   "Which action verb starts the outcome of Unit 1 (HTML basics), and at which Bloom level is it?",
+   "'build', at the Create level."
+  ],
+  [
+   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
+   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36."
+  ],
+  [
+   "In which weeks does Unit 4 (Digital footprint) run?",
+   "Weeks 34 to 36."
+  ],
+  [
+   "What evidence do you keep for each unit, and why?",
+   "A worked task and a corrected copy. It shows what you can really do and lets a teacher check it against the standard."
+  ]
+ ],
+ "ladder": [
+  "L1: use a device safely; click, type and draw.",
+  "L2: create documents; follow simple instructions in blocks.",
+  "L3: spreadsheets, algorithms and simple programs.",
+  "L4: programming, data and networks.",
+  "L5: software design, databases and security.",
+  "L6 (degree): software engineering and systems.",
+  "L7 (postgraduate): research, architecture or AI practice."
+ ],
+ "jobs": [],
+ "blooms": [
+  "Understand",
+  "Apply",
+  "Create"
+ ]
+}

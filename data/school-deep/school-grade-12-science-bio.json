@@ -1,0 +1,205 @@
+{
+ "slug": "school-grade-12-science-bio.html",
+ "plan": "grade-12-science",
+ "subject": "BIO",
+ "subject_name": "Biology",
+ "kind": "sci",
+ "label": "Grade 12 Science",
+ "band": "post",
+ "level": 5,
+ "weeks": 36,
+ "task": "Meet the outcome of every unit in Grade 12 Science Biology, and keep one piece of evidence for each.",
+ "condition": "A 36-week school year, 5 units, a teacher or guide, a learning book or device, and local examples in the local language first with English support.",
+ "standard": "Each unit: at least 70 percent on an exam-style task, with the method shown. Course pass: no unit at 'Not yet' after one retry, and a pass in SA1 and SA2.",
+ "modules": [
+  {
+   "n": 1,
+   "title": "Reproduction in organisms and humans",
+   "bloom": "Understand",
+   "weeks": [
+    1,
+    8
+   ],
+   "hours": 24,
+   "outcome": "describe sexual reproduction in flowering plants and humans",
+   "intro": "In this unit you work on 'Reproduction in organisms and humans', taught in a way that is with exam-style questions and written reasoning. The target is clear: describe sexual reproduction in flowering plants and humans. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Reproduction in organisms and humans' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: describe sexual reproduction in flowering plants and humans. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Model run for 'Reproduction in organisms and humans'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Describe sexual reproduction in flowering plants and humans: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 2,
+   "title": "Genetics and evolution",
+   "bloom": "Apply",
+   "weeks": [
+    9,
+    15
+   ],
+   "hours": 21,
+   "outcome": "apply inheritance laws and molecular basis of inheritance",
+   "intro": "In this unit you work on 'Genetics and evolution', taught in a way that is with exam-style questions and written reasoning. The target is clear: apply inheritance laws and molecular basis of inheritance. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Genetics and evolution' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: apply inheritance laws and molecular basis of inheritance. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Model run for 'Genetics and evolution'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Apply inheritance laws and molecular basis of inheritance: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 3,
+   "title": "Biology and human welfare",
+   "bloom": "Understand",
+   "weeks": [
+    16,
+    22
+   ],
+   "hours": 21,
+   "outcome": "describe health, disease and food production",
+   "intro": "In this unit you work on 'Biology and human welfare', taught in a way that is with exam-style questions and written reasoning. The target is clear: describe health, disease and food production. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Biology and human welfare' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: describe health, disease and food production. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Model run for 'Biology and human welfare'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Describe health, disease and food production: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 4,
+   "title": "Biotechnology and its applications",
+   "bloom": "Understand",
+   "weeks": [
+    23,
+    29
+   ],
+   "hours": 21,
+   "outcome": "explain recombinant DNA technology",
+   "intro": "In this unit you work on 'Biotechnology and its applications', taught in a way that is with exam-style questions and written reasoning. The target is clear: explain recombinant DNA technology. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Biotechnology and its applications' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: explain recombinant DNA technology. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Model run for 'Biotechnology and its applications'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Explain recombinant DNA technology: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 5,
+   "title": "Ecology and environment",
+   "bloom": "Understand",
+   "weeks": [
+    30,
+    36
+   ],
+   "hours": 21,
+   "outcome": "explain ecosystems, biodiversity and conservation",
+   "intro": "In this unit you work on 'Ecology and environment', taught in a way that is with exam-style questions and written reasoning. The target is clear: explain ecosystems, biodiversity and conservation. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Ecology and environment' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: explain ecosystems, biodiversity and conservation. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Model run for 'Ecology and environment'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Explain ecosystems, biodiversity and conservation: at least 70 percent on an exam-style task, with the method shown."
+  }
+ ],
+ "rubric": [
+  [
+   "Scientific ideas",
+   "Ideas mixed up",
+   "Main ideas right",
+   "Ideas right and linked"
+  ],
+  [
+   "Evidence and data",
+   "No record",
+   "Record made",
+   "Clear record used in the conclusion"
+  ],
+  [
+   "Safe, fair method",
+   "Needs reminding",
+   "Safe and mostly fair",
+   "Safe, fair and improved"
+  ],
+  [
+   "Use of key words",
+   "Few",
+   "Some",
+   "Accurate and confident"
+  ],
+  [
+   "Practice habit",
+   "Rarely practises",
+   "Practises weekly",
+   "Practises most days and reflects"
+  ]
+ ],
+ "checks": [
+  [
+   "Unit 1 (Reproduction in organisms and humans): show that you can describe sexual reproduction in flowering plants and humans. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Unit 2 (Genetics and evolution): show that you can apply inheritance laws and molecular basis of inheritance. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Unit 3 (Biology and human welfare): show that you can describe health, disease and food production. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Unit 4 (Biotechnology and its applications): show that you can explain recombinant DNA technology. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Unit 5 (Ecology and environment): show that you can explain ecosystems, biodiversity and conservation. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Which action verb starts the outcome of Unit 1 (Reproduction in organisms and humans), and at which Bloom level is it?",
+   "'describe', at the Understand level."
+  ],
+  [
+   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
+   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36."
+  ],
+  [
+   "In which weeks does Unit 5 (Ecology and environment) run?",
+   "Weeks 30 to 36."
+  ],
+  [
+   "What evidence do you keep for each unit, and why?",
+   "A timed paper and an error log. It shows what you can really do and lets a teacher check it against the standard."
+  ]
+ ],
+ "ladder": [
+  "L1: observe, sort and describe the living and non-living world.",
+  "L2: run simple tests and explain with key words.",
+  "L3: use models and equations; plan a fair test.",
+  "L4: link physics, chemistry and biology ideas with calculation.",
+  "L5: specialise; design, analyse and evaluate experiments.",
+  "L6 (degree): laboratory science, instrumentation and analysis.",
+  "L7 (postgraduate): research design and expert practice."
+ ],
+ "jobs": [],
+ "blooms": [
+  "Understand",
+  "Apply"
+ ]
+}

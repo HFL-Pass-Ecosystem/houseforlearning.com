@@ -1,0 +1,129 @@
+{
+ "slug": "school-grade-11-humanities-val.html",
+ "plan": "grade-11-humanities",
+ "subject": "VAL",
+ "subject_name": "Values and life skills",
+ "kind": "val",
+ "label": "Grade 11 Humanities",
+ "band": "post",
+ "level": 5,
+ "weeks": 36,
+ "task": "Meet the outcome of every unit in Grade 11 Humanities Values and life skills, and keep one piece of evidence for each.",
+ "condition": "A 36-week school year, 2 units, a teacher or guide, a learning book or device, and local examples in the local language first with English support.",
+ "standard": "Each unit: at least 70 percent on an exam-style task, with the method shown. Course pass: no unit at 'Not yet' after one retry, and a pass in SA1 and SA2.",
+ "modules": [
+  {
+   "n": 1,
+   "title": "Values, ethics and wellbeing",
+   "bloom": "Apply",
+   "weeks": [
+    1,
+    18
+   ],
+   "hours": 54,
+   "outcome": "apply an ethical framework to a case",
+   "intro": "In this unit you work on 'Values, ethics and wellbeing', taught in a way that is with exam-style questions and written reasoning. The target is clear: apply an ethical framework to a case. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Listen and talk: hear a short story, text or example linked to 'Values, ethics and wellbeing' and say what it means in your own words.",
+    "Connect: name one place in your own day where it applies.",
+    "Use it: apply an ethical framework to a case. Practise with care and respect, in class and at home.",
+    "Reflect: what went well, what was hard, and one thing you will do next time."
+   ],
+   "example": "Model run for 'Values, ethics and wellbeing'. A short text or story is read aloud. Learners say the main lesson in one sentence. In pairs they find one moment in school or home where this lesson would help. Each learner plans one small action for the week and tells it to a partner. At the end of the week they report back. What a good answer looks like: the lesson is in the learner's own words, the example is real and local, and the action is small enough to do. Content follows the approved local syllabus and is checked by a qualified teacher.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Apply an ethical framework to a case: at least 70 percent on an exam-style task, with the method shown."
+  },
+  {
+   "n": 2,
+   "title": "Career and higher-study pathways",
+   "bloom": "Apply",
+   "weeks": [
+    19,
+    36
+   ],
+   "hours": 54,
+   "outcome": "map interests to courses and careers",
+   "intro": "In this unit you work on 'Career and higher-study pathways', taught in a way that is with exam-style questions and written reasoning. The target is clear: map interests to courses and careers. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Listen and talk: hear a short story, text or example linked to 'Career and higher-study pathways' and say what it means in your own words.",
+    "Connect: name one place in your own day where it applies.",
+    "Use it: map interests to courses and careers. Practise with care and respect, in class and at home.",
+    "Reflect: what went well, what was hard, and one thing you will do next time."
+   ],
+   "example": "Model run for 'Career and higher-study pathways'. A short text or story is read aloud. Learners say the main lesson in one sentence. In pairs they find one moment in school or home where this lesson would help. Each learner plans one small action for the week and tells it to a partner. At the end of the week they report back. What a good answer looks like: the lesson is in the learner's own words, the example is real and local, and the action is small enough to do. Content follows the approved local syllabus and is checked by a qualified teacher.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Map interests to courses and careers: at least 70 percent on an exam-style task, with the method shown."
+  }
+ ],
+ "rubric": [
+  [
+   "Understanding",
+   "Needs help",
+   "States the main idea",
+   "Explains with an example"
+  ],
+  [
+   "Practice in daily life",
+   "Not yet",
+   "Sometimes",
+   "Often, with a record"
+  ],
+  [
+   "Respect and care in discussion",
+   "Needs reminding",
+   "Mostly",
+   "Always and helps others"
+  ],
+  [
+   "Own reflection",
+   "None",
+   "Short",
+   "Honest and specific"
+  ],
+  [
+   "Practice habit",
+   "Rarely",
+   "Weekly",
+   "Most days"
+  ]
+ ],
+ "checks": [
+  [
+   "Unit 1 (Values, ethics and wellbeing): show that you can apply an ethical framework to a case. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Unit 2 (Career and higher-study pathways): show that you can map interests to courses and careers. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 70 percent on an exam-style task, with the method shown."
+  ],
+  [
+   "Which action verb starts the outcome of Unit 1 (Values, ethics and wellbeing), and at which Bloom level is it?",
+   "'apply', at the Apply level."
+  ],
+  [
+   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
+   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36."
+  ],
+  [
+   "In which weeks does Unit 2 (Career and higher-study pathways) run?",
+   "Weeks 19 to 36."
+  ],
+  [
+   "What evidence do you keep for each unit, and why?",
+   "A timed paper and an error log. It shows what you can really do and lets a teacher check it against the standard."
+  ]
+ ],
+ "ladder": [
+  "L1: kindness, honesty and sharing in daily life.",
+  "L2: responsibility, courage and care for others and nature.",
+  "L3: fairness, respect for difference and service.",
+  "L4: ethical choices and citizenship.",
+  "L5: leadership, wellbeing and ethical reasoning.",
+  "L6 (degree): applied ethics, culture and community work.",
+  "L7 (postgraduate): scholarship, counselling or teaching at depth."
+ ],
+ "jobs": [],
+ "blooms": [
+  "Apply"
+ ]
+}

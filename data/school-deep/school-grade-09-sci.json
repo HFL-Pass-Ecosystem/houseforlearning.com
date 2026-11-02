@@ -1,0 +1,272 @@
+{
+ "slug": "school-grade-09-sci.html",
+ "plan": "grade-09",
+ "subject": "SCI",
+ "subject_name": "Science",
+ "kind": "sci",
+ "label": "Grade 09",
+ "band": "secondary",
+ "level": 4,
+ "weeks": 36,
+ "task": "Meet the outcome of every unit in Grade 09 Science, and keep one piece of evidence for each.",
+ "condition": "A 36-week school year, 8 units, a teacher or guide, a learning book or device, and local examples in the local language first with English support.",
+ "standard": "Each unit: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. Course pass: no unit at 'Not yet' after one retry, and a pass in SA1 and SA2.",
+ "modules": [
+  {
+   "n": 1,
+   "title": "Physics: motion",
+   "bloom": "Understand",
+   "weeks": [
+    1,
+    5
+   ],
+   "hours": 15,
+   "outcome": "describe motion with graphs and equations",
+   "intro": "In this unit you work on 'Physics: motion', taught in a way that is with notes, a worked line and a self-mark. The target is clear: describe motion with graphs and equations. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Physics: motion' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: describe motion with graphs and equations. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Model run for 'Physics: motion'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Describe motion with graphs and equations: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 2,
+   "title": "Physics: force and laws of motion",
+   "bloom": "Apply",
+   "weeks": [
+    6,
+    10
+   ],
+   "hours": 15,
+   "outcome": "apply Newton's laws and momentum",
+   "intro": "In this unit you work on 'Physics: force and laws of motion', taught in a way that is with notes, a worked line and a self-mark. The target is clear: apply Newton's laws and momentum. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Physics: force and laws of motion' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: apply Newton's laws and momentum. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Model run for 'Physics: force and laws of motion'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Apply Newton's laws and momentum: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 3,
+   "title": "Physics: gravitation, work and energy",
+   "bloom": "Apply",
+   "weeks": [
+    11,
+    15
+   ],
+   "hours": 15,
+   "outcome": "use universal gravitation and work and energy",
+   "intro": "In this unit you work on 'Physics: gravitation, work and energy', taught in a way that is with notes, a worked line and a self-mark. The target is clear: use universal gravitation and work and energy. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Physics: gravitation, work and energy' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: use universal gravitation and work and energy. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Model run for 'Physics: gravitation, work and energy'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Use universal gravitation and work and energy: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 4,
+   "title": "Physics: sound",
+   "bloom": "Understand",
+   "weeks": [
+    16,
+    20
+   ],
+   "hours": 15,
+   "outcome": "explain sound waves and echo",
+   "intro": "In this unit you work on 'Physics: sound', taught in a way that is with notes, a worked line and a self-mark. The target is clear: explain sound waves and echo. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Physics: sound' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: explain sound waves and echo. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Model run for 'Physics: sound'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Explain sound waves and echo: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 5,
+   "title": "Chemistry: matter in our surroundings and is matter around us pure",
+   "bloom": "Understand",
+   "weeks": [
+    21,
+    24
+   ],
+   "hours": 12,
+   "outcome": "classify matter and calculate concentration",
+   "intro": "In this unit you work on 'Chemistry: matter in our surroundings and is matter around us pure', taught in a way that is with notes, a worked line and a self-mark. The target is clear: classify matter and calculate concentration. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Chemistry: matter in our surroundings and is matter around us pure' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: classify matter and calculate concentration. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Model run for 'Chemistry: matter in our surroundings and is matter around us pure'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Classify matter and calculate concentration: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 6,
+   "title": "Chemistry: atoms, molecules and the structure of the atom",
+   "bloom": "Apply",
+   "weeks": [
+    25,
+    28
+   ],
+   "hours": 12,
+   "outcome": "use symbols, formulae and the atomic model",
+   "intro": "In this unit you work on 'Chemistry: atoms, molecules and the structure of the atom', taught in a way that is with notes, a worked line and a self-mark. The target is clear: use symbols, formulae and the atomic model. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Chemistry: atoms, molecules and the structure of the atom' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: use symbols, formulae and the atomic model. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Model run for 'Chemistry: atoms, molecules and the structure of the atom'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Use symbols, formulae and the atomic model: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 7,
+   "title": "Biology: the fundamental unit of life and tissues",
+   "bloom": "Understand",
+   "weeks": [
+    29,
+    32
+   ],
+   "hours": 12,
+   "outcome": "describe cell organelles and plant and animal tissues",
+   "intro": "In this unit you work on 'Biology: the fundamental unit of life and tissues', taught in a way that is with notes, a worked line and a self-mark. The target is clear: describe cell organelles and plant and animal tissues. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Biology: the fundamental unit of life and tissues' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: describe cell organelles and plant and animal tissues. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Model run for 'Biology: the fundamental unit of life and tissues'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Describe cell organelles and plant and animal tissues: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  },
+  {
+   "n": 8,
+   "title": "Biology: diversity, health and natural resources",
+   "bloom": "Understand",
+   "weeks": [
+    33,
+    36
+   ],
+   "hours": 12,
+   "outcome": "classify organisms and explain disease and resource cycles",
+   "intro": "In this unit you work on 'Biology: diversity, health and natural resources', taught in a way that is with notes, a worked line and a self-mark. The target is clear: classify organisms and explain disease and resource cycles. You move from seeing it, to saying it, to doing it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Biology: diversity, health and natural resources' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: classify organisms and explain disease and resource cycles. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Model run for 'Biology: diversity, health and natural resources'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Classify organisms and explain disease and resource cycles: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  }
+ ],
+ "rubric": [
+  [
+   "Scientific ideas",
+   "Ideas mixed up",
+   "Main ideas right",
+   "Ideas right and linked"
+  ],
+  [
+   "Evidence and data",
+   "No record",
+   "Record made",
+   "Clear record used in the conclusion"
+  ],
+  [
+   "Safe, fair method",
+   "Needs reminding",
+   "Safe and mostly fair",
+   "Safe, fair and improved"
+  ],
+  [
+   "Use of key words",
+   "Few",
+   "Some",
+   "Accurate and confident"
+  ],
+  [
+   "Practice habit",
+   "Rarely practises",
+   "Practises weekly",
+   "Practises most days and reflects"
+  ]
+ ],
+ "checks": [
+  [
+   "Unit 1 (Physics: motion): show that you can describe motion with graphs and equations. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  ],
+  [
+   "Unit 2 (Physics: force and laws of motion): show that you can apply Newton's laws and momentum. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  ],
+  [
+   "Unit 3 (Physics: gravitation, work and energy): show that you can use universal gravitation and work and energy. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  ],
+  [
+   "Unit 4 (Physics: sound): show that you can explain sound waves and echo. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  ],
+  [
+   "Unit 5 (Chemistry: matter in our surroundings and is matter around us pure): show that you can classify matter and calculate concentration. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  ],
+  [
+   "Unit 6 (Chemistry: atoms, molecules and the structure of the atom): show that you can use symbols, formulae and the atomic model. What are the first and last step you used?",
+   "Any correct example is fine. A good answer names the first step (see or say the idea) and the last step (check or reflect) from the model run, and meets the standard: at least 8 of 10 marks on a short task, with one line of reasoning for each answer."
+  ],
+  [
+   "Which action verb starts the outcome of Unit 1 (Physics: motion), and at which Bloom level is it?",
+   "'describe', at the Understand level."
+  ],
+  [
+   "When do the formative checks FA1 to FA4 and the summative checks SA1 and SA2 happen?",
+   "FA1 to FA4 around weeks 6, 12, 24 and 30; SA1 in week 18; SA2 in week 36."
+  ],
+  [
+   "In which weeks does Unit 8 (Biology: diversity, health and natural resources) run?",
+   "Weeks 33 to 36."
+  ],
+  [
+   "What evidence do you keep for each unit, and why?",
+   "A worked task and a corrected copy. It shows what you can really do and lets a teacher check it against the standard."
+  ]
+ ],
+ "ladder": [
+  "L1: observe, sort and describe the living and non-living world.",
+  "L2: run simple tests and explain with key words.",
+  "L3: use models and equations; plan a fair test.",
+  "L4: link physics, chemistry and biology ideas with calculation.",
+  "L5: specialise; design, analyse and evaluate experiments.",
+  "L6 (degree): laboratory science, instrumentation and analysis.",
+  "L7 (postgraduate): research design and expert practice."
+ ],
+ "jobs": [],
+ "blooms": [
+  "Understand",
+  "Apply"
+ ]
+}
