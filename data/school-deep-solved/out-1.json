@@ -159,6 +159,256 @@
    "Step 6, Your turn: say the time when the minute hand is on 9 and the hour hand is between 8 and 9, and add 24 + 19 dirhams. Answer: 8:45, quarter to 9; and 24 + 19 = 43 dirhams."
   ]
  },
+ "G11C-MAT-01": {
+  "steps": [
+   "Step 1, Set operations: A = {1, 2, 3, 4, 5} and B = {2, 4, 6}. Union A U B = {1, 2, 3, 4, 5, 6}, intersection = {2, 4}, difference A - B = {1, 3, 5}. List each element once.",
+   "Step 2, Count with the formula n(A U B) = n(A) + n(B) - n(A n B) = 5 + 3 - 2 = 6. This agrees with the six elements listed. The formula avoids counting the overlap twice.",
+   "Step 3, Survey problem: of 60 students, 35 like tea, 28 like coffee and 10 like both. Either drink: 35 + 28 - 10 = 53. So 60 - 53 = 7 like neither.",
+   "Step 4, Function values: f(x) = 2x + 3 on the domain {1, 2, 3} gives f(1) = 5, f(2) = 7, f(3) = 9, so the range is {5, 7, 9}. Each input has exactly one output, so f is a function.",
+   "Step 5, Domain: for f(x) = 1/(x - 2), the denominator must not be zero, so the domain is all real numbers except 2. And f(x) = x^2 - 1 gives f(-2) = 4 - 1 = 3.",
+   "Step 6, Your turn: if n(A) = 20, n(B) = 15 and n(A U B) = 28, find n(A n B), and find f(4) for f(x) = 3x - 1. Answer: 20 + 15 - 28 = 7; f(4) = 11."
+  ]
+ },
+ "G11C-MAT-02": {
+  "steps": [
+   "Step 1, Arithmetic progression: a = 5 and d = 3. The 8th term is a + 7d = 5 + 21 = 26. The sum of 8 terms is 8/2 x (5 + 26) = 4 x 31 = 124.",
+   "Step 2, Geometric progression: 2, 6, 18, ... has a = 2 and r = 3. The 5th term = 2 x 3^4 = 162. Sum of 5 terms = 2(3^5 - 1)/(3 - 1) = 242. Check: 2 + 6 + 18 + 54 + 162 = 242.",
+   "Step 3, Business use: 10,000 invested at 10 percent compound interest grows as a GP with ratio 1.1. After 3 years the amount is 10,000 x 1.1^3 = 13,310.",
+   "Step 4, Trigonometry: if tan theta = 3/4 in the first quadrant, the hypotenuse is 5, so sin theta = 3/5 and cos theta = 4/5. Convert degrees to radians with 180 degrees = pi, so 60 degrees = pi/3.",
+   "Step 5, Check the GP sum formula with a short case: 3 terms of 2, 6, 18 sum to 2(27 - 1)/2 = 26, and 2 + 6 + 18 = 26. Matching small cases build trust in the formula.",
+   "Step 6, Your turn: find the sum of the first 6 terms of the GP 3, 6, 12, ... Answer: S_6 = 3(2^6 - 1)/(2 - 1) = 3 x 63 = 189."
+  ]
+ },
+ "G11C-MAT-03": {
+  "steps": [
+   "Step 1, Add and multiply complex numbers: (3 + 2i) + (1 - 4i) = 4 - 2i. And (2 + 3i)(1 - i) = 2 - 2i + 3i - 3i^2 = 2 + i + 3 = 5 + i, using i^2 = -1.",
+   "Step 2, Conjugate and modulus: the conjugate of 3 - 4i is 3 + 4i. The modulus of 3 - 4i is the root of 9 + 16 = 5. Also (3 - 4i)(3 + 4i) = 9 + 16 = 25, which equals the modulus squared.",
+   "Step 3, Quadratic with complex roots: x^2 + 2x + 5 = 0 has discriminant 4 - 20 = -16. So x = (-2 plus or minus 4i)/2 = -1 plus or minus 2i.",
+   "Step 4, Check: substitute x = -1 + 2i. x^2 = 1 - 4i + 4i^2 = -3 - 4i. Then x^2 + 2x + 5 = (-3 - 4i) + (-2 + 4i) + 5 = 0. The root works.",
+   "Step 5, Real roots: x^2 - 5x + 6 = 0 factorises as (x - 2)(x - 3), giving x = 2 or 3 with discriminant 25 - 24 = 1 > 0. A positive discriminant gives real roots, a negative one gives complex roots.",
+   "Step 6, Your turn: find (4 + i)(4 - i) and solve x^2 - 2x + 10 = 0. Answer: 16 + 1 = 17; discriminant 4 - 40 = -36, so x = 1 plus or minus 3i."
+  ]
+ },
+ "G11C-MAT-04": {
+  "steps": [
+   "Step 1, Factorial and arrangements: 5! = 5 x 4 x 3 x 2 x 1 = 120. The 5 distinct letters of MATHS can be arranged in 120 ways. For LEVEL, with E twice and L twice, it is 5!/(2! x 2!) = 120/4 = 30.",
+   "Step 2, Permutations: P(7, 2) = 7 x 6 = 42 ways to choose a president and a secretary from 7 people, where order matters. Combination: C(8, 3) = 8 x 7 x 6 / 6 = 56 where order does not matter.",
+   "Step 3, Committee problem: choose 3 from 5 men and 4 women with 2 men and 1 woman. C(5, 2) x C(4, 1) = 10 x 4 = 40 ways. Multiply the independent choices.",
+   "Step 4, Binomial theorem: (x + 2)^4 = x^4 + 4x^3 x 2 + 6x^2 x 4 + 4x x 8 + 16 = x^4 + 8x^3 + 24x^2 + 32x + 16. Check with x = 1: 3^4 = 81 and 1 + 8 + 24 + 32 + 16 = 81.",
+   "Step 5, Check C(8, 3) = C(8, 5) = 56. Choosing 3 to take is the same as choosing 5 to leave. This symmetry helps with larger numbers, e.g. C(10, 8) = C(10, 2) = 45.",
+   "Step 6, Your turn: find C(10, 2) and the number of 4-digit codes from digits 1 to 6 with no repeats. Answer: 45; and P(6, 4) = 6 x 5 x 4 x 3 = 360."
+  ]
+ },
+ "G11C-MAT-05": {
+  "steps": [
+   "Step 1, Equation of a line: through (1, 2) and (3, 8) the slope is (8 - 2)/(3 - 1) = 3. Using point-slope, y - 2 = 3(x - 1), so y = 3x - 1. Check with (3, 8): 9 - 1 = 8.",
+   "Step 2, Parallel and perpendicular: the line 2x + 3y = 6 has slope -2/3. A parallel line has the same slope. A perpendicular line has slope 3/2 because (-2/3) x (3/2) = -1.",
+   "Step 3, Intercept form: the line x/4 + y/3 = 1 meets the axes at (4, 0) and (0, 3). Multiply by 12 to get 3x + 4y = 12. Check (4, 0): 12 = 12.",
+   "Step 4, Limit by factorising: lim as x approaches 2 of (x^2 - 4)/(x - 2). Direct substitution gives 0/0, so factorise: (x - 2)(x + 2)/(x - 2) = x + 2, which tends to 4.",
+   "Step 5, Simple limit: lim as x approaches 3 of (2x + 1) = 7 by substitution. Business use: cost C = 50 + 8x is a line with fixed cost 50 and slope 8 per unit, so 20 units cost 210.",
+   "Step 6, Your turn: write the line through (0, -1) with slope 2, and find the limit of (x^2 - 1)/(x - 1) as x approaches 1. Answer: y = 2x - 1; the limit is x + 1 = 2."
+  ]
+ },
+ "G11C-MAT-06": {
+  "steps": [
+   "Step 1, Mean and deviations: data 4, 8, 6, 10, 12 has mean 40/5 = 8. Deviations are -4, 0, -2, 2, 4. Their squares are 16, 0, 4, 4, 16, which add up to 40.",
+   "Step 2, Variance = 40/5 = 8 and standard deviation = root 8 = about 2.83. Check: the deviations are mostly within 3 of the mean, so a spread near 2.83 is believable.",
+   "Step 3, Addition rule: P(A) = 0.5, P(B) = 0.4 and P(A and B) = 0.2. Then P(A or B) = 0.5 + 0.4 - 0.2 = 0.7. Subtracting the overlap avoids double counting.",
+   "Step 4, Two dice: a sum of 7 happens in 6 ways, (1,6), (2,5), (3,4), (4,3), (5,2), (6,1), out of 36. So P = 6/36 = 1/6.",
+   "Step 5, Independent events: if P(A) = 0.6 and P(B) = 0.3 are independent, then P(A and B) = 0.6 x 0.3 = 0.18, and P(A or B) = 0.6 + 0.3 - 0.18 = 0.72.",
+   "Step 6, Your turn: find the variance of 2, 4, 6, 8. Answer: mean 5, squared deviations 9, 1, 1, 9 sum to 20, so variance 20/4 = 5."
+  ]
+ },
+ "G11S-MAT-01": {
+  "steps": [
+   "Step 1, Cartesian product: A = {1, 2, 3} and B = {a, b}. A x B has 3 x 2 = 6 ordered pairs: (1, a), (1, b), (2, a), (2, b), (3, a), (3, b). Order matters, so (1, a) differs from (a, 1).",
+   "Step 2, Relation: R = {(x, y): y = x + 2} from {1, 2, 3, 4} to {3, 4, 5, 6}. Pairs: (1, 3), (2, 4), (3, 5), (4, 6). Domain {1, 2, 3, 4}, range {3, 4, 5, 6}.",
+   "Step 3, Venn counting: n(A) = 30, n(B) = 25, n(A n B) = 10. So n(A U B) = 30 + 25 - 10 = 45. Only A is 30 - 10 = 20, and only B is 25 - 10 = 15.",
+   "Step 4, Domain and range: f(x) = root of (x - 3) needs x - 3 >= 0, so the domain is x >= 3 and the range is y >= 0. For f(x) = x^2 + 1 the range is y >= 1.",
+   "Step 5, Power set: for {a, b, c}, the subsets are 2^3 = 8 in number: empty, 3 singletons, 3 pairs and the whole set. A set with n elements has 2^n subsets.",
+   "Step 6, Your turn: if n(A) = 4 and n(B) = 5 find n(A x B), and give the domain of 1/(x - 5). Answer: 20; all real numbers except 5."
+  ]
+ },
+ "G11S-MAT-02": {
+  "steps": [
+   "Step 1, Radians: 150 degrees = 150 x pi/180 = 5 pi/6. And pi/4 radians = 45 degrees. The conversion factor is pi radians = 180 degrees.",
+   "Step 2, Identity: if sin x = 3/5 with x in quadrant II, then cos^2 x = 1 - 9/25 = 16/25, so cos x = -4/5 since cosine is negative there. Then tan x = -3/4.",
+   "Step 3, Compound angle: sin 75 = sin(45 + 30) = sin 45 cos 30 + cos 45 sin 30 = (root 2/2)(root 3/2) + (root 2/2)(1/2) = (root 6 + root 2)/4, about 0.966.",
+   "Step 4, Solve sin x = 1/2 for x in [0, 2 pi]: the principal angle is pi/6, and the second solution is pi - pi/6 = 5 pi/6. Check: sin(5 pi/6) = 1/2.",
+   "Step 5, Graphs: y = 2 sin x has amplitude 2 and period 2 pi, with maximum 2 at x = pi/2. y = sin 2x has period pi, so it completes one wave between 0 and pi.",
+   "Step 6, Your turn: find cos 2x when cos x = 3/5. Answer: cos 2x = 2 cos^2 x - 1 = 2 x 9/25 - 1 = -7/25."
+  ]
+ },
+ "G11S-MAT-04": {
+  "steps": [
+   "Step 1, Divide complex numbers: (3 + 4i)/(1 - 2i). Multiply top and bottom by the conjugate 1 + 2i: (3 + 4i)(1 + 2i) / 5 = (3 + 6i + 4i + 8i^2)/5 = (-5 + 10i)/5 = -1 + 2i.",
+   "Step 2, Check: (-1 + 2i)(1 - 2i) = -1 + 2i + 2i - 4i^2 = -1 + 4i + 4 = 3 + 4i. This returns the numerator, so the quotient -1 + 2i is correct.",
+   "Step 3, Polar form: z = 1 + i has modulus root 2 and argument pi/4, since tan = 1 in the first quadrant. So z = root 2 (cos pi/4 + i sin pi/4). Also |3 - 4i| = 5.",
+   "Step 4, Quadratic: x^2 - 2x + 5 = 0 has D = 4 - 20 = -16. So x = (2 plus or minus 4i)/2 = 1 plus or minus 2i. The roots are conjugates, as always with real coefficients.",
+   "Step 5, Cube roots of unity: x^2 + x + 1 = 0 gives D = 1 - 4 = -3, so x = (-1 plus or minus i root 3)/2. These are the complex cube roots of 1, and their sum with 1 is 0.",
+   "Step 6, Your turn: find (2 + i)^2 and the modulus of 5 + 12i. Answer: 4 + 4i + i^2 = 3 + 4i; modulus is the root of 25 + 144 = 13."
+  ]
+ },
+ "G11S-MAT-05": {
+  "steps": [
+   "Step 1, Solve 3x - 5 < 7: add 5 to get 3x < 12, so x < 4. On a number line, draw an open circle at 4 and shade left. Test x = 3: 9 - 5 = 4 < 7, true.",
+   "Step 2, Double inequality: -3 <= 2x + 1 < 9. Subtract 1: -4 <= 2x < 8. Divide by 2: -2 <= x < 4. So x is in [-2, 4). Test x = 0: 1 lies between -3 and 9.",
+   "Step 3, Flip rule: 4 - 3x >= 10 gives -3x >= 6. Dividing by -3 reverses the sign, so x <= -2. Test x = -3: 4 + 9 = 13 >= 10, true.",
+   "Step 4, Arrangements: 5 people in a line can be placed in 5! = 120 ways. If 2 specific people must stand together, treat them as one block: 4! x 2! = 24 x 2 = 48 ways.",
+   "Step 5, Selection: choose 4 from 6 boys and 4 girls with exactly 2 girls. C(4, 2) x C(6, 2) = 6 x 15 = 90. BANANA has 6 letters with A three times and N twice, so 6!/(3! 2!) = 60.",
+   "Step 6, Your turn: solve 5x + 2 <= 17 and find C(9, 3). Answer: 5x <= 15 so x <= 3; C(9, 3) = 9 x 8 x 7 / 6 = 84."
+  ]
+ },
+ "G11S-MAT-06": {
+  "steps": [
+   "Step 1, Expand (1 + x)^4 using Pascal's row 1, 4, 6, 4, 1: 1 + 4x + 6x^2 + 4x^3 + x^4. Check x = 1: 16 and 1 + 4 + 6 + 4 + 1 = 16.",
+   "Step 2, General term: T(r+1) = C(n, r) a^(n-r) b^r. In (2 + x)^5 the coefficient of x^3 is C(5, 3) x 2^2 = 10 x 4 = 40. The third term overall has C(5, 2) = 10 as its binomial coefficient.",
+   "Step 3, AP sum: a = 2, d = 3, n = 15. S = 15/2 x (2 x 2 + 14 x 3) = 15/2 x 46 = 345. The 15th term is 2 + 42 = 44 and 15/2 x (2 + 44) = 345 agrees.",
+   "Step 4, GP sum: first term 3, ratio 2, 8 terms. S = 3(2^8 - 1)/(2 - 1) = 3 x 255 = 765. Check the 8th term: 3 x 128 = 384, and 765 is almost double 384, as expected for ratio 2.",
+   "Step 5, Infinite GP: 1 + 1/2 + 1/4 + ... has ratio 1/2, with |r| < 1, so the sum is a/(1 - r) = 1/(1/2) = 2. For ratio 1 or more, no such sum exists.",
+   "Step 6, Your turn: find the x^2 coefficient in (1 + 2x)^3 and the sum of 6, 2, 2/3, ... to infinity. Answer: 3 x 4 = 12; and 6/(1 - 1/3) = 9."
+  ]
+ },
+ "G11S-MAT-07": {
+  "steps": [
+   "Step 1, Line through (2, -1) and (5, 5): slope = 6/3 = 2. Equation y + 1 = 2(x - 2), so y = 2x - 5. Check (5, 5): 10 - 5 = 5.",
+   "Step 2, Distance from a point to a line: the distance from (1, 2) to 3x + 4y - 5 = 0 is |3 + 8 - 5| / root of 9 + 16 = 6/5 = 1.2.",
+   "Step 3, Circle: centre (3, -2) and radius 5 gives (x - 3)^2 + (y + 2)^2 = 25. Test (6, 2): 9 + 16 = 25, so it lies on the circle.",
+   "Step 4, Find centre from a general equation: x^2 + y^2 - 6x + 4y - 12 = 0. Complete squares: (x - 3)^2 + (y + 2)^2 = 12 + 9 + 4 = 25. Centre (3, -2), radius 5.",
+   "Step 5, Parabola y^2 = 8x: 4a = 8 so a = 2, focus (2, 0), directrix x = -2. Ellipse x^2/25 + y^2/9 = 1: a = 5, b = 3, c = root of 25 - 9 = 4, foci (plus or minus 4, 0), e = 4/5.",
+   "Step 6, Your turn: find the focus of x^2 = 12y and the radius of x^2 + y^2 = 49. Answer: 4a = 12, a = 3, focus (0, 3); radius 7."
+  ]
+ },
+ "G11S-MAT-08": {
+  "steps": [
+   "Step 1, Limit by factorising: lim as x approaches 2 of (x^2 - 4)/(x - 2) = lim (x + 2) = 4. Direct substitution gives 0/0, which signals the need to simplify first.",
+   "Step 2, Standard limit: lim as x approaches 0 of sin 3x / x = 3 x (sin 3x / 3x) = 3 x 1 = 3. Use the fact that sin t / t tends to 1 as t tends to 0.",
+   "Step 3, Power rule: d/dx of 5x^4 - 3x^2 + 7 = 20x^3 - 6x. The slope of y = x^3 at x = 2 is 3 x 4 = 12. The constant 7 differentiates to 0.",
+   "Step 4, First principles for f(x) = x^2: [(x + h)^2 - x^2]/h = (2xh + h^2)/h = 2x + h, which tends to 2x as h tends to 0. This confirms the power rule.",
+   "Step 5, Product rule: y = x^2 sin x. y' = 2x sin x + x^2 cos x. At x = pi/2 this is 2 x (pi/2) x 1 + 0 = pi. Compare with the quotient rule when dividing instead.",
+   "Step 6, Your turn: find the derivative of 3x^2 + 4x - 5 at x = 1, and lim of (x^2 - 1)/(x - 1) as x approaches 1. Answer: 6x + 4 = 10; the limit is x + 1 = 2."
+  ]
+ },
+ "G11S-MAT-09": {
+  "steps": [
+   "Step 1, Variance: data 2, 4, 4, 4, 5, 5, 7, 9 has mean 40/8 = 5. Deviations are -3, -1, -1, -1, 0, 0, 2, 4. Squares add: 9 + 1 + 1 + 1 + 0 + 0 + 4 + 16 = 32.",
+   "Step 2, Variance = 32/8 = 4 and standard deviation = 2. So most values lie within 2 of the mean 5, between 3 and 7. Six of the eight values do, which is consistent.",
+   "Step 3, Probability of at least one head in 3 tosses: P = 1 - P(no head) = 1 - (1/2)^3 = 1 - 1/8 = 7/8. The complement method is quicker than listing 7 outcomes.",
+   "Step 4, Two dice: the sum 8 occurs as (2,6), (3,5), (4,4), (5,3), (6,2), five ways out of 36, so P = 5/36. Sum at most 4 has 6 ways: P = 6/36 = 1/6.",
+   "Step 5, Exclusive and independent: for P(A) = 0.3 and P(B) = 0.5, if exclusive then P(A or B) = 0.8. If independent then P(A and B) = 0.15 and P(A or B) = 0.65.",
+   "Step 6, Your turn: find the variance of 1, 3, 5, 7, and P(sum 9) on two dice. Answer: mean 4, squares 9, 1, 1, 9 give 20/4 = 5; sum 9 has 4 ways, so 4/36 = 1/9."
+  ]
+ },
+ "G12C-MAT-01": {
+  "steps": [
+   "Step 1, Add matrices: A = [[1, 2], [3, 4]] and B = [[0, 1], [2, 3]]. A + B adds matching entries: [[1, 3], [5, 7]]. And 2A = [[2, 4], [6, 8]]. Same order is needed.",
+   "Step 2, Multiply: AB uses rows of A with columns of B. Entries: 1x0 + 2x2 = 4; 1x1 + 2x3 = 7; 3x0 + 4x2 = 8; 3x1 + 4x3 = 15. So AB = [[4, 7], [8, 15]].",
+   "Step 3, Order matters: BA = [[3, 4], [11, 16]], which differs from AB. For BA, entry (1,1) = 0x1 + 1x3 = 3. So matrix multiplication is not commutative.",
+   "Step 4, Transpose: the transpose of A swaps rows and columns, [[1, 3], [2, 4]]. Business use: a matrix of unit sales per shop times a column of prices gives total revenue per shop.",
+   "Step 5, Functions: f(x) = 2x + 1 is one-one since different x give different y. But f(x) = x^2 on all real numbers is not one-one because f(2) = f(-2) = 4.",
+   "Step 6, Your turn: multiply [[2, 0], [1, 3]] by [[1, 4], [2, 0]]. Answer: row 1 gives [2, 8], row 2 gives [1 + 6, 4 + 0] = [7, 4], so the product is [[2, 8], [7, 4]]."
+  ]
+ },
+ "G12C-MAT-02": {
+  "steps": [
+   "Step 1, Differentiate: d/dx of 3x^4 - 5x^2 + 2 = 12x^3 - 10x. A constant differentiates to zero and each power drops by one.",
+   "Step 2, Marginal cost: C(x) = 0.5x^2 + 20x + 100 has C'(x) = x + 20. At x = 10 units the marginal cost is 30, the extra cost of making the 11th unit, roughly.",
+   "Step 3, Maximise revenue: R(x) = 50x - x^2. R'(x) = 50 - 2x = 0 gives x = 25. R(25) = 1,250 - 625 = 625. Second derivative -2 is negative, so it is a maximum.",
+   "Step 4, Integrate: the integral of 3x^2 + 4x dx = x^3 + 2x^2 + C. Check by differentiating: 3x^2 + 4x, which returns the original expression.",
+   "Step 5, Definite integral: from 1 to 3 of 2x dx = [x^2] from 1 to 3 = 9 - 1 = 8. This is the area under y = 2x between x = 1 and x = 3, a trapezoid of widths 2 and 6 and base 2: (2 + 6)/2 x 2 = 8.",
+   "Step 6, Your turn: differentiate 4x^3 - 2x + 7 and integrate 6x^2 - 2. Answer: 12x^2 - 2; and 2x^3 - 2x + C."
+  ]
+ },
+ "G12C-MAT-03": {
+  "steps": [
+   "Step 1, Conditional probability: P(A and B) = 0.2 and P(B) = 0.5, so P(A given B) = 0.2/0.5 = 0.4. The conditional probability uses only the outcomes in B.",
+   "Step 2, Linear programming set-up: maximise profit Z = 3x + 2y with x + y <= 4, x <= 3, x >= 0 and y >= 0. Draw the feasible region and list its corner points.",
+   "Step 3, Corners: (0, 0), (3, 0), (3, 1) where x = 3 meets x + y = 4, and (0, 4). Check (3, 1): 3 + 1 = 4 and x = 3, both lines hold. The feasible region is the quadrilateral joining them.",
+   "Step 4, Evaluate Z: at (0, 0) Z = 0; at (3, 0) Z = 9; at (3, 1) Z = 9 + 2 = 11; at (0, 4) Z = 8. The maximum is 11 at (3, 1). The best point is always a corner.",
+   "Step 5, Check feasibility: (3, 1) satisfies x + y = 4 <= 4 and x = 3 <= 3. A nearby interior point like (2, 1) gives Z = 8, which is less, confirming the corner is best.",
+   "Step 6, Your turn: maximise Z = 5x + 4y with x + y <= 6, x <= 4, x, y >= 0. Answer: corners (0,0), (4,0), (4,2), (0,6) give 0, 20, 28, 24, so the maximum is 28 at (4, 2)."
+  ]
+ },
+ "G12C-MAT-04": {
+  "steps": [
+   "Step 1, Price relative: an item costs 40 in the base year and 50 now. Index = 50/40 x 100 = 125. So prices are 25 percent higher than the base year.",
+   "Step 2, Laspeyres index: base prices 10 and 20, base quantities 5 and 3, current prices 12 and 25. Sum of p1q0 = 12 x 5 + 25 x 3 = 60 + 75 = 135. Sum of p0q0 = 50 + 60 = 110.",
+   "Step 3, Index = 135/110 x 100 = 122.73. The basket that cost 110 would now cost 135, a rise of about 22.7 percent. It uses base-year quantities as weights.",
+   "Step 4, Moving average: yearly sales 20, 24, 28, 26, 30. Three-year averages are (20 + 24 + 28)/3 = 24, (24 + 28 + 26)/3 = 26 and (28 + 26 + 30)/3 = 28. They rise steadily, showing the trend.",
+   "Step 5, Check: the averages 24, 26, 28 rise by 2 each time, and the raw data wiggle 24, 28, 26, 30, so the moving average has smoothed out the short-term swings.",
+   "Step 6, Your turn: base prices 8 and 5, base quantities 2 and 4, current prices 10 and 6. Find the Laspeyres index. Answer: (20 + 24)/(16 + 20) x 100 = 44/36 x 100 = 122.22."
+  ]
+ },
+ "G12S-MAT-01": {
+  "steps": [
+   "Step 1, Find an inverse: f(x) = 2x - 3. Put y = 2x - 3, solve for x: x = (y + 3)/2. So the inverse is f^-1(x) = (x + 3)/2. Check: f(f^-1(5)) = f(4) = 5.",
+   "Step 2, Composition: f(x) = x + 1 and g(x) = x^2. Then (f o g)(2) = f(4) = 5 while (g o f)(2) = g(3) = 9. Composition is not commutative, so order matters.",
+   "Step 3, Principal values: sin^-1(1/2) = pi/6, cos^-1(-1/2) = 2 pi/3, tan^-1(1) = pi/4. The ranges are [-pi/2, pi/2] for sin^-1, [0, pi] for cos^-1.",
+   "Step 4, Pitfall: sin^-1(sin(5 pi/6)) is not 5 pi/6, since 5 pi/6 is outside the range. sin(5 pi/6) = 1/2, so the answer is sin^-1(1/2) = pi/6.",
+   "Step 5, Equivalence relation: R on integers, a R b if a - b is divisible by 3. Reflexive: a - a = 0. Symmetric: if 3 divides a - b it divides b - a. Transitive: sum of two multiples of 3 is a multiple of 3.",
+   "Step 6, Your turn: find the inverse of f(x) = 3x + 6 and tan^-1(root 3). Answer: x = (y - 6)/3, so f^-1(x) = (x - 6)/3; and tan^-1(root 3) = pi/3."
+  ]
+ },
+ "G12S-MAT-02": {
+  "steps": [
+   "Step 1, Determinant and inverse: A = [[2, 1], [5, 3]] has det = 2 x 3 - 1 x 5 = 1. The inverse is (1/1) x [[3, -1], [-5, 2]]. Swap the diagonal, change the sign of the other entries.",
+   "Step 2, Check: A x A^-1 = [[2 x 3 + 1 x (-5), 2 x (-1) + 1 x 2], [5 x 3 + 3 x (-5), 5 x (-1) + 3 x 2]] = [[1, 0], [0, 1]]. It gives the identity matrix, so the inverse is right.",
+   "Step 3, Solve a system: 2x + y = 7 and 5x + 3y = 18, written AX = B. Then X = A^-1 B = [[3, -1], [-5, 2]] x [7, 18] = [21 - 18, -35 + 36] = [3, 1].",
+   "Step 4, Check: x = 3, y = 1 gives 6 + 1 = 7 and 15 + 3 = 18. Both equations hold. A zero determinant would mean no unique solution.",
+   "Step 5, Triangular determinant: for [[1, 2, 3], [0, 1, 4], [0, 0, 2]] the determinant is the product of the diagonal, 1 x 1 x 2 = 2. Expanding along the first column gives the same, 1 x (1 x 2 - 4 x 0) = 2.",
+   "Step 6, Your turn: find the determinant and inverse of [[4, 3], [2, 2]]. Answer: det = 8 - 6 = 2; inverse = 1/2 x [[2, -3], [-2, 4]] = [[1, -3/2], [-1, 2]]."
+  ]
+ },
+ "G12S-MAT-03": {
+  "steps": [
+   "Step 1, Continuity: f(x) = (x^2 - 9)/(x - 3) for x not equal to 3, and f(3) = 6. The limit as x approaches 3 is x + 3 = 6, which equals f(3), so f is continuous at 3.",
+   "Step 2, Chain rule: y = (3x + 1)^5 gives dy/dx = 5(3x + 1)^4 x 3 = 15(3x + 1)^4. Also d/dx of e^(2x) = 2e^(2x). Differentiate the outer function, then multiply by the inner derivative.",
+   "Step 3, Maxima and minima: f(x) = x^3 - 3x + 2. f'(x) = 3x^2 - 3 = 0 gives x = 1 or -1. f''(x) = 6x. At x = 1, f'' = 6 > 0, a minimum with f(1) = 0. At x = -1, f'' = -6 < 0, a maximum with f(-1) = 4.",
+   "Step 4, Check values: f(1) = 1 - 3 + 2 = 0 and f(-1) = -1 + 3 + 2 = 4. Also f(0) = 2 lies between them, as expected for the curve between the turning points.",
+   "Step 5, Optimisation: a rectangle has perimeter 40, so sides x and 20 - x. Area A = x(20 - x), A' = 20 - 2x = 0, so x = 10 and A = 100. It is a square, and A'' = -2 < 0.",
+   "Step 6, Your turn: find the minimum of x^2 - 6x + 5. Answer: f' = 2x - 6 = 0 gives x = 3, f'' = 2 > 0, and f(3) = 9 - 18 + 5 = -4."
+  ]
+ },
+ "G12S-MAT-04": {
+  "steps": [
+   "Step 1, Basic integral: the integral of 3x^2 + 2x + 1 dx = x^3 + x^2 + x + C. And the integral of sin 2x dx = -cos 2x / 2 + C. Differentiate to check: d/dx of -cos 2x / 2 = sin 2x.",
+   "Step 2, Substitution: the integral of 2x(x^2 + 1)^3 dx. Let u = x^2 + 1, then du = 2x dx. The integral becomes u^3 du = u^4/4 + C = (x^2 + 1)^4 / 4 + C.",
+   "Step 3, Definite integral: from 0 to 1 of x^2 dx = [x^3/3] = 1/3. From 0 to 2 of 3x^2 + 1 dx = [x^3 + x] = 8 + 2 = 10.",
+   "Step 4, Area under y = x^2 from 0 to 3: the integral is [x^3/3] from 0 to 3 = 27/3 = 9 square units. Rough check: the curve is below the line y = 3x, whose area is 13.5.",
+   "Step 5, Area between curves: y = x and y = x^2 meet at x = 0 and x = 1, with the line above. Area = integral of (x - x^2) = [x^2/2 - x^3/3] = 1/2 - 1/3 = 1/6.",
+   "Step 6, Your turn: integrate cos 3x and evaluate the integral of 2x from 0 to 3. Answer: sin 3x / 3 + C; and [x^2] from 0 to 3 = 9."
+  ]
+ },
+ "G12S-MAT-05": {
+  "steps": [
+   "Step 1, Order and degree: (d^2y/dx^2)^3 + dy/dx = 0 has highest derivative d^2y/dx^2, so order 2, and that derivative is raised to power 3, so degree 3.",
+   "Step 2, Direct integration: dy/dx = 2x gives y = x^2 + C. With y(0) = 3 we get C = 3, so y = x^2 + 3. Check: derivative 2x, and y(0) = 3.",
+   "Step 3, Separable: dy/dx = x/y gives y dy = x dx. Integrate: y^2/2 = x^2/2 + c, so y^2 = x^2 + k. At (0, 2), k = 4, so y^2 = x^2 + 4.",
+   "Step 4, Exponential: dy/dx + 2y = 0 gives dy/y = -2 dx, so ln|y| = -2x + c and y = Ce^(-2x). With y(0) = 5, C = 5. Check: y' = -10e^(-2x) and 2y = 10e^(-2x), which sum to 0.",
+   "Step 5, Growth model: dy/dx = ky has solution y = Ae^(kx). If a population of 1,000 grows with k = 0.1, then after 10 time units y = 1,000 x e^1, about 2,718.",
+   "Step 6, Your turn: solve dy/dx = 3x^2 with y(1) = 2, and give the general solution of dy/dx = 4y. Answer: y = x^3 + C, then 1 + C = 2 so y = x^3 + 1; and y = Ae^(4x)."
+  ]
+ },
+ "G12S-MAT-06": {
+  "steps": [
+   "Step 1, Dot product: a = (1, 2, 3) and b = (2, -1, 4). a.b = 1 x 2 + 2 x (-1) + 3 x 4 = 2 - 2 + 12 = 12. And |a| = root of 1 + 4 + 9 = root 14.",
+   "Step 2, Cross product: a x b = (2x4 - 3x(-1), 3x2 - 1x4, 1x(-1) - 2x2) = (11, 2, -5). Check: a . (11, 2, -5) = 11 + 4 - 15 = 0, and b . (11, 2, -5) = 22 - 2 - 20 = 0.",
+   "Step 3, Angle: |b| = root of 4 + 1 + 16 = root 21. So cos theta = 12 / root 294, about 12 / 17.15 = 0.70, and theta is about 45.6 degrees.",
+   "Step 4, Line: through (1, 2, 3) with direction (2, 1, -1): (x - 1)/2 = (y - 2)/1 = (z - 3)/(-1). Setting each ratio to t gives x = 1 + 2t, y = 2 + t, z = 3 - t.",
+   "Step 5, Plane: through (1, 0, 0) with normal (2, 3, 1): 2(x - 1) + 3y + z = 0, so 2x + 3y + z = 2. Its distance from the origin is 2/root 14, about 0.53.",
+   "Step 6, Your turn: find the dot and cross product of (1, 0, 2) and (3, 1, -1). Answer: dot = 3 + 0 - 2 = 1; cross = (0 - 2, 6 + 1, 1 - 0) = (-2, 7, 1), and (1, 0, 2) . (-2, 7, 1) = 0."
+  ]
+ },
+ "G12S-MAT-07": {
+  "steps": [
+   "Step 1, Set up: maximise Z = 4x + 3y subject to 2x + y <= 10, x + 2y <= 8, x, y >= 0. The corner points are (0, 0), (5, 0), (0, 4), and the meeting point of the two lines.",
+   "Step 2, Intersection: from 2x + y = 10, y = 10 - 2x. Substitute into x + 2y = 8: x + 20 - 4x = 8, so x = 4 and y = 2. Check: 8 + 2 = 10 and 4 + 4 = 8.",
+   "Step 3, Evaluate Z: (0, 0) gives 0, (5, 0) gives 20, (0, 4) gives 12, (4, 2) gives 16 + 6 = 22. The maximum is 22 at (4, 2). Your answer must come from a corner of the region.",
+   "Step 4, Conditional probability: P(A) = 0.6, P(B) = 0.5, P(A and B) = 0.3. Then P(A given B) = 0.3/0.5 = 0.6 = P(A), and 0.6 x 0.5 = 0.3, so A and B are independent.",
+   "Step 5, Total probability: bag 1 has 3 red and 2 black, bag 2 has 1 red and 4 black, and a bag is chosen at random. P(red) = 1/2 x 3/5 + 1/2 x 1/5 = 4/10 = 2/5. By Bayes, P(bag 1 given red) = (3/10)/(4/10) = 3/4.",
+   "Step 6, Your turn: maximise Z = 2x + 3y with x + y <= 5, x <= 3. Answer: corners (0,0), (3,0), (3,2), (0,5) give 0, 6, 12, 15, so the maximum is 15 at (0, 5)."
+  ]
+ },
  "G03-MAT-01": {
   "steps": [
    "Step 1, Read and write: 508 is five hundreds, no tens and eight ones. Write it in words as five hundred and eight. The zero in the tens place is a placeholder, so do not write 58.",
