@@ -558,5 +558,8 @@ def main():
         d = build_data(p, s, rs)
         (OUT / (d['slug'][:-5] + '.json')).write_text(json.dumps(d, indent=1, ensure_ascii=False))
         render(d); n += 1
+        # same line break as tools/add_series_gate.py, so a rebuild leaves the pages unchanged
+        pg = B.S / d['slug']; t = pg.read_text()
+        pg.write_text(t.replace('defer></script></body>', 'defer></script>\n</body>', 1))
     print('school deep courses', n)
 if __name__ == '__main__': main()
