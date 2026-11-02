@@ -8,7 +8,7 @@ LAD = {
   ("Read a flow diagram and a permit",
    "Trace one product from tank to dispatch on a supplied flow diagram and fill a sample permit with every isolation named. Notes: work only under a competent supervisor; check the stop-work trigger is written, for example a gas test reading above 0 per cent of the lower explosive limit."),
   ("Run a three-day oil balance",
-   "Apply the receive, store and dispatch workflow to a simulated site and complete a three-day mass balance with the loss as a percentage. Notes: use opening stock 40,000, receipts 12,000, dispatches 11,700 and closing stock 40,280 barrels, giving a loss of 20 barrels or 0.17 per cent; investigate any gap above 0.2 per cent."),
+   "Apply the receive, store and dispatch workflow to a simulated site and complete a three-day mass balance with the loss as a percentage. Notes: use opening stock 40,000, receipts 12,000, dispatches 11,700 and closing stock 40,280 barrels, giving a loss of 20 barrels or 0.17 per cent; investigate any gap above 0.5 per cent."),
   ("Compare gauge, dip and meter",
    "Analyse three days of readings from the tank gauge, a manual dip and the flow meter, and decide which gaps to investigate and which to log. Notes: set the rule before looking at the data and keep it to the 0.5 per cent band; at AED 300 per barrel and AED 255 cost, each barrel gains AED 45, so a lost barrel is lost money."),
   ("Coach a shift on handover and alarms",
