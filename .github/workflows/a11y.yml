@@ -1,0 +1,22 @@
+# Accessibility check that needs no browser: one h1, heading order, lang, alt text, names on buttons and links,
+# form labels, duplicate ids, and contrast of the text colours set in the shared CSS. Fails the check on any problem.
+name: Accessibility check
+
+on:
+  pull_request:
+  push:
+    branches: ['**']
+
+permissions:
+  contents: read
+
+jobs:
+  a11y:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check pages
+        run: python3 tools/check_a11y.py

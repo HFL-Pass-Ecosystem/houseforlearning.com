@@ -97,6 +97,7 @@ def page(fn, title, desc, h1, lead, body, crumbs, kicker='courses'):
             f'<p class="kicker">{e(kicker)}</p><h1 id="h1">{e(h1)}</h1><p>{lead}</p></div></div></section>{body}</main>')
     import a11y_lang
     main = a11y_lang.mark(main)
+    if fn.endswith('-fre.html'): main = a11y_lang.mark_fr(main)
     t = re.sub(r'<main id="main".*?</main>', lambda m: main, t, 1, re.S)
     (S / fn).write_text(t)
 def sec(cls, i, kick, h2, inner):
