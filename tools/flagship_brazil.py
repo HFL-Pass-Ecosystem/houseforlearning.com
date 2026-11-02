@@ -70,6 +70,10 @@ from brazil_deep_1 import DEEP as _D1
 from brazil_deep_2 import DEEP as _D2
 from brazil_cases import CASES
 import importlib
+EXTRA = {}
+for _i in range(5):
+    try: EXTRA.update(importlib.import_module(f'brazil_extra_{_i}').EXTRA)
+    except ImportError: pass
 for _i in range(5):
     try: CASES.update(importlib.import_module(f'brazil_cases_long_{_i}').LONG)
     except ImportError: pass
@@ -213,6 +217,12 @@ LADDER = [("L1 Basic", "Name the main parts of {n} and the words used. Notes: fo
  ("L6 Advanced", "Design systems, lead a team and manage risk and budgets. Notes: for managers and owners."),
  ("L7 Super expert", "Set standards, advise others and shape the sector. Notes: for recognised leaders and examiners.")]
 
+def XT(n, k):
+    key = {3: 'offer', 6: 'people', 8: 'growth'}.get(k)
+    if not key or n not in EXTRA: return ''
+    note, ex = EXTRA[n][key]
+    return f'<p><strong>Longer notes.</strong> {e(note)}</p><div class="evi"><strong>Extra worked example.</strong> {e(ex)}</div>'
+
 def build(n, i):
     th, cu, un, rk, kit = D[n][:5]
     ms = mods(n)
@@ -220,7 +230,7 @@ def build(n, i):
     mh = ''
     for k, (t, bl, h, intro, pts, ex, act, std) in enumerate(ms, 1):
         mh += (f'<details class="mod" {"open" if k==1 else ""}><summary><span class="mn">Module {k}</span> {e(t)} <span class="pill">{h} h</span><span class="pill bz">{bl}</span></summary><p>{e(intro)}</p><ul>' + ''.join(f'<li>{e(p)}</li>' for p in pts) + '</ul>'
-               f'<div class="evi"><strong>Worked example.</strong> {e(ex)}</div><div class="evi"><strong>Second worked scenario.</strong> {e(SC[k-1])}</div><p><strong>Activity.</strong> {e(act)}</p><p><strong>Standard to meet.</strong> {e(std)}</p></details>')
+               f'<div class="evi"><strong>Worked example.</strong> {e(ex)}</div><div class="evi"><strong>Second worked scenario.</strong> {e(SC[k-1])}</div>{XT(n, k)}<p><strong>Activity.</strong> {e(act)}</p><p><strong>Standard to meet.</strong> {e(std)}</p></details>')
     qz = ''.join(f'<details class="mod"><summary>Q{j+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a)}</p></details>' for j, (q, a) in enumerate(quiz(n)))
     rub = ('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>' + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(c)}</td><td>{e(d)}</td></tr>' for a, b, c, d in RUBRIC) + '</tbody></table></div>')
     lad = '<ol class="ladder">' + ''.join(f'<li><strong>{e(a)}.</strong> {e(b.format(n=n.lower()))}</li>' for a, b in LADDER) + '</ol>'
