@@ -59,7 +59,7 @@ def others(cur):
 for slug, name, title, tag, ps, bh, bl, hue in SERV:
     lead = f'<p class="svc-lead">{e(tag)}</p>' if tag else '<p class="svc-lead svc-meta">Duration: 1 hour</p>'
     body = ''.join(f'<p>{e(p)}</p>' for p in ps)
-    if bl: body += f'<h3>{e(bh)}</h3><ul class="svc-list">' + ''.join(f'<li>{e(x)}</li>' for x in bl) + '</ul>'
+    if bl: body += f'<h2>{e(bh)}</h2><ul class="svc-list">' + ''.join(f'<li>{e(x)}</li>' for x in bl) + '</ul>'
     if slug == 'introduction':
         body = '<p>A one-hour introduction with House for Learning. Tell us who you are and what you are looking for, and we will arrange a time.</p>'
     main = (f'<main id="main" tabindex="-1"><section class="svc-hero hue-{hue}" aria-labelledby="h1"><div class="svc-in"><p class="svc-kick">partner with us · service</p><h1 id="h1">{e(title)}</h1>{lead}'
