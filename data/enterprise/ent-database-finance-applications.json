@@ -1,0 +1,108 @@
+{
+ "module8": [
+  "Capstone: build and defend a finance data solution",
+  "Create",
+  4,
+  "The final task joins data, reports and controls in one small solution. You design the tables, write the queries, post and reconcile the entries, and then explain and defend your design to a reviewer.",
+  [
+   "Design: sketch the tables and keys, then list the reports the finance team needs.",
+   "Build: write queries for totals by month and by customer, and check them against the ledger.",
+   "Control: list who can create, approve and pay, and show that no one person does all three.",
+   "Defend: present the design in five minutes, including risks, test results and a restore plan."
+  ],
+  "A small trading firm asks for monthly sales by region that matches the ledger. Your query total differs by 40, and you trace it to one invoice posted in the wrong period, then fix the entry and document the cause.",
+  "Design and test a small finance reporting solution on the practice data set, reconcile it to the ledger and present it to a reviewer.",
+  "Query totals equal ledger totals; three control checks pass; the reviewer finds the design clear and the recovery plan realistic."
+ ],
+ "quiz": [
+  [
+   "A customer table and an invoice table are linked. What is the link called and why not repeat the customer address on every invoice?",
+   "They are linked by a key, such as customer number. Storing the address once avoids mistakes when it changes."
+  ],
+  [
+   "Write what this query does: SELECT region, SUM(amount) FROM sales GROUP BY region.",
+   "It adds up the sales amount for each region and returns one row per region."
+  ],
+  [
+   "In the capstone your query total for sales differs from the ledger by 40. What do you do?",
+   "Trace the difference to its source, for example an invoice posted in the wrong period, fix the entry and write down the cause. Then re-run the reconciliation until the totals agree."
+  ],
+  [
+   "Buying a laptop for 1,000 by bank transfer: which accounts are debited and credited?",
+   "Debit the equipment account by 1,000 and credit the bank account by 1,000. Debits equal credits."
+  ],
+  [
+   "A trial balance shows debits of 52,300 and credits of 51,900. What does this tell you?",
+   "The books do not balance, with a difference of 400. Look for a one-sided entry or a typing error."
+  ],
+  [
+   "An invoice for 1,030 arrives for an order of 1,000 and the match allows 2 percent. What happens?",
+   "The 3 percent difference is over the limit, so the invoice goes for approval. A person decides whether to pay."
+  ],
+  [
+   "What three documents are compared in a three-way match?",
+   "The purchase order, the goods receipt and the supplier invoice. They must agree before payment."
+  ],
+  [
+   "Why does running reconciliations weekly shorten the month-end close?",
+   "Problems are found and fixed early, so fewer surprises remain at month end. The close then follows a calm checklist."
+  ],
+  [
+   "Give one example of segregation of duties in payables.",
+   "The person who creates a supplier is not the person who pays that supplier. This reduces the chance of fraud."
+  ],
+  [
+   "A nightly interface of 200,000 rows takes too long. Name one fix and one thing to include in the recovery plan.",
+   "Add an index on the column used to find rows and check the query plan. The plan should state recovery time and the limit of data loss."
+  ]
+ ],
+ "ladder": [
+  [
+   "L1 Basic",
+   "Remember the words table, row, column and key. Point to them on a small data example and say why one fact is stored once.",
+   "Draw two linked tables on the board. Common mistake: copying the same customer details into many rows."
+  ],
+  [
+   "L2 Awareness",
+   "Understand how SQL asks for chosen rows and columns, and why you read before you write. Explain the difference between a query and a change command.",
+   "Run a simple query together and ask what it returns. Common mistake: running update commands on live data."
+  ],
+  [
+   "L3 Foundation",
+   "Apply double entry to post journals and balance a trial. Explain how a period is opened and closed.",
+   "Check that debits equal credits on every entry. Common mistake: posting one side only."
+  ],
+  [
+   "L4 Practitioner",
+   "Apply the purchase-to-pay and order-to-cash flows with a three-way match and an ageing report. Resolve differences with a clear note.",
+   "Ask learners to trace one invoice from order to payment. Common mistake: paying before the goods receipt."
+  ],
+  [
+   "L5 Specialist",
+   "Analyse a month-end close by using a calendar, reconciliations and plain-word variance notes. Find why numbers moved.",
+   "Review a variance note for clarity. Common mistake: notes that repeat the number without giving the reason."
+  ],
+  [
+   "L6 Advanced",
+   "Evaluate a setup for control gaps such as missing segregation of duties, weak approvals and untested backups. Rank the gaps by risk.",
+   "Ask for a fix and an owner for each gap. Common mistake: controls so strict that staff avoid them."
+  ],
+  [
+   "L7 Super expert",
+   "Create a full design for interfaces, indexes, migration and recovery, and defend it to a reviewer. State recovery time and data loss limits.",
+   "Check that the design has numbers, not only words. Common mistake: no test of the restore plan."
+  ]
+ ],
+ "quiz_module": [
+  1,
+  2,
+  8,
+  3,
+  3,
+  4,
+  4,
+  5,
+  6,
+  7
+ ]
+}

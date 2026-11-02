@@ -1,0 +1,108 @@
+{
+ "module8": [
+  "Capstone: set up and audit a whole company suite",
+  "Evaluate",
+  5,
+  "Bring every module together. You build a small working company in the suite, then check it like an outside reviewer.",
+  [
+   "Plan one end-to-end story: lead, deal, invoice, payment, support ticket.",
+   "Check that each app passes data to the next one without retyping.",
+   "Audit roles, automations and logs for gaps and risks.",
+   "Teach a colleague to use the suite in 20 minutes."
+  ],
+  "A reviewer follows one customer from web form to paid invoice and finds that the ticket app does not know the invoice is paid. You add a rule to fix it.",
+  "Build the full story with three users, run five customers through it, then write a one-page audit with three problems and fixes.",
+  "Every customer completes the story; audit lists three problems with a fix and an owner for each."
+ ],
+ "quiz": [
+  [
+   "A new employee needs to see deals but not the bank feed. Which part of the suite do you change?",
+   "You set a role for that user so it only allows the sales app and hides the books app. Roles control who sees which data, so you do not share one login."
+  ],
+  [
+   "A web form on your site should create a lead and give a task to a salesperson. What two things do you set up?",
+   "You build the form with the fields you need and link it to the lead list, then add a rule that creates a task and assigns it to a named person when a lead arrives."
+  ],
+  [
+   "A customer invoice is 7 days overdue. How can the suite handle this without manual work?",
+   "Set an automatic reminder rule that sends a polite email at 7 days overdue. Check the aged receivables report to see which invoices are still open."
+  ],
+  [
+   "Explain why the three books reports (profit and loss, balance sheet, aged receivables) are used together.",
+   "Profit and loss shows if you earned money in a period, the balance sheet shows what you own and owe on one date, and aged receivables shows who has not paid yet. Together they give the full picture."
+  ],
+  [
+   "Ten tickets arrive and four are the same question about delivery times. What is the best fix?",
+   "Write one knowledge article that answers it and link it in the reply template. Then agents stop answering the same question again and again."
+  ],
+  [
+   "A ticket has a service level of 4 hours and it is now hour 5 with no reply. What does this mean and what do you do?",
+   "The service level is missed. Raise the ticket priority, assign an owner now, and check why it waited so you can change the rule or staffing."
+  ],
+  [
+   "A project reaches a milestone and you want an invoice created. How does linking help?",
+   "If the milestone is linked to billing, completing it creates an invoice draft automatically. This saves time and stops you forgetting to bill."
+  ],
+  [
+   "You build a rule: when a new customer is added in the sales app, create a contact in the books app. What must you do before turning it on?",
+   "Test it with a practice record in test mode, check the log for errors, and set an error message so someone is told if it fails."
+  ],
+  [
+   "Compare rolling out the suite to everyone on one day with a pilot team first.",
+   "A pilot with a small team for two weeks finds problems early and keeps the risk low. A one-day rollout is faster but mistakes hit the whole company at once."
+  ],
+  [
+   "In the capstone audit you find that an automation silently fails when a customer has no email. What do you recommend?",
+   "Add a check for the empty field, create a fault path that notifies a named person, and write the fix and its owner in the audit. Then test again with an empty-email record."
+  ]
+ ],
+ "ladder": [
+  [
+   "L1 Basic: Know the suite",
+   "Remember the names of the main apps and what each one is for. You can open the launcher and sign in with one login.",
+   "Show the launcher on screen and ask learners to name each app out loud. Common mistake: thinking each app needs its own account."
+  ],
+  [
+   "L2 Awareness: See how data flows",
+   "Understand how a lead becomes a deal, an invoice and a payment. You can explain in your own words why shared data saves time.",
+   "Draw the customer story on a board and let learners point to each hand-off. Check they can say why retyping causes errors."
+  ],
+  [
+   "L3 Foundation: Do simple tasks",
+   "Apply the basics: add a user, capture a lead, raise an invoice and log an expense. You follow a checklist to finish each task correctly.",
+   "Give a short checklist and watch a learner do each task once. Common mistake: giving a user too many rights because it is quicker."
+  ],
+  [
+   "L4 Practitioner: Run daily work",
+   "Analyse your own books, tickets and pipeline to find what is late or wrong. You read the reports and decide what to fix first.",
+   "Hand out a practice month with three hidden errors and ask learners to find them. Check that they match reports to the bank."
+  ],
+  [
+   "L5 Specialist: Build rules and automations",
+   "Evaluate which routine jobs are worth automating and build tested rules for them. You check logs and set error paths before going live.",
+   "Ask learners to justify each automation by time saved and risk. Common mistake: switching a rule on without a test record."
+  ],
+  [
+   "L6 Advanced: Design for a company",
+   "Create a rollout plan with waves, training, data protection settings and a dashboard. You set rules that fit how the company really works.",
+   "Review each plan for a pilot, a backup and an export. Check the plan names an owner for every step."
+  ],
+  [
+   "L7 Super expert: Audit and teach",
+   "Evaluate a whole suite like an outside reviewer and create a plan to fix it. You can train others and improve the setup year after year.",
+   "Let the learner audit a messy sample company and teach back in 20 minutes. Look for clear risks, simple fixes and plain language."
+  ]
+ ],
+ "quiz_module": [
+  1,
+  2,
+  3,
+  3,
+  4,
+  4,
+  5,
+  6,
+  7,
+  8
+ ]
+}

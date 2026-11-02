@@ -1,0 +1,108 @@
+{
+ "module8": [
+  "Capstone: a full brand and document project",
+  "Create",
+  4,
+  "Real work joins design, documents and rules in one job. In this capstone you plan, build, check and hand over a small brand pack and a signed document, then show others how to reuse it.",
+  [
+   "Plan first: audience, one message, list of pieces, deadline and who approves.",
+   "Build the set: a brand kit, two templates, a fillable form and a final export for print and web.",
+   "Run the check list before handover: facts, spelling, contrast, rights and accessibility.",
+   "Hand over with a short guide so another person can reuse the templates without help."
+  ],
+  "A small shop needs a poster, a social post and a booking form. One kit gives all three the same colours and fonts, and the form is signed and filed with an audit record on the first day.",
+  "Produce a brand kit, two templates, one fillable form and one export set for a practice business, then let a peer make a new piece from your guide.",
+  "All items pass the check list; the peer makes a correct piece in 15 minutes; files are named with date and version."
+ ],
+ "quiz": [
+  [
+   "A logo must print on a business card and on a large banner. Should it be a photo file or a vector file, and why?",
+   "A vector file, because it stays sharp at any size. A photo is made of pixels and blurs when enlarged."
+  ],
+  [
+   "A campaign needs 24 pieces in 3 languages. How do you keep quality high and fast?",
+   "Batch the repeat edits, make a version for each language and market, and run one check list before publishing covering facts, spelling, rights and accessibility."
+  ],
+  [
+   "A flyer has three fonts, five colours and four messages. What would you change?",
+   "Cut it to two fonts, the brand colours and one message with one clear action. Then check that the contrast is readable."
+  ],
+  [
+   "At the capstone handover another person must reuse your templates. What two things do you give them and how do you test it?",
+   "Give a project folder with a brand kit and templates plus a short guide. Test it by letting a peer make a correct new piece in about 15 minutes without help."
+  ],
+  [
+   "A 12 MB photo must go on a web page. What do you do?",
+   "Edit a copy and export a web size, for example about 300 KB, keeping the original untouched. Check it still looks clean."
+  ],
+  [
+   "What does a non-destructive edit mean, and why use layers?",
+   "The original pixels are never changed, so you can undo or adjust later. Layers hold each edit separately."
+  ],
+  [
+   "Name three steps to make a PDF agreement accessible.",
+   "Add proper headings, add alt text to pictures and set a correct reading order. Then run the accessibility check."
+  ],
+  [
+   "A form is signed electronically by two people. What record should you keep and why?",
+   "Keep the audit trail showing who signed and when. It is the evidence that the signature is genuine."
+  ],
+  [
+   "Ten staff make posters from one template. What should be locked and what should be open?",
+   "Lock logo, colours and fonts; leave text and picture open. This keeps the brand safe while allowing quick work."
+  ],
+  [
+   "A picture licence ended last month. How does a rights register help?",
+   "It records the licence end date, so the picture is removed before it is used again. It also shows who owns the check."
+  ]
+ ],
+ "ladder": [
+  [
+   "L1 Basic",
+   "Remember the difference between photo files and vector files, and name the tool for each job. Save a source file and an export with a clear name.",
+   "Show a zoomed photo and a zoomed logo side by side. Common mistake: using a small photo logo on a large banner."
+  ],
+  [
+   "L2 Awareness",
+   "Understand how grid, spacing, two fonts and strong contrast make one message clear. Explain why less is often better.",
+   "Ask learners to find the one message in a flyer. Common mistake: adding extra pictures and colours."
+  ],
+  [
+   "L3 Foundation",
+   "Apply layers, crop and light correction to edit photos without harming the original. Export the right size for print, web and social.",
+   "Check file sizes and that originals are untouched. Common mistake: saving over the only copy."
+  ],
+  [
+   "L4 Practitioner",
+   "Apply PDF tools to combine, protect and fill documents and request a signature. Make the file accessible with headings and alt text.",
+   "Run the accessibility check together. Common mistake: scanning a page as a picture so the text cannot be read by screen readers."
+  ],
+  [
+   "L5 Specialist",
+   "Analyse how a shared kit and locked templates keep a brand consistent. Compare a template that works with one that people break.",
+   "Test the template with a peer who has not seen it. Common mistake: leaving too many parts open to change."
+  ],
+  [
+   "L6 Advanced",
+   "Evaluate a batch of campaign pieces against a check list and a results sheet. Decide which version worked better and why.",
+   "Ask for facts, rights and access to be checked for every piece. Common mistake: judging results on taste, not numbers."
+  ],
+  [
+   "L7 Super expert",
+   "Create a full project and an operations pack with seats, rights register, archive rules and onboarding. Teach others to reuse it.",
+   "Check that every rule has an owner and a date. Common mistake: no yearly review, so unused seats and expired rights go unnoticed."
+  ]
+ ],
+ "quiz_module": [
+  1,
+  6,
+  2,
+  8,
+  3,
+  3,
+  4,
+  4,
+  5,
+  7
+ ]
+}
