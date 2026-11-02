@@ -9,7 +9,7 @@ C = dict(id='GL-39', title='Virtual Interior Design Consulting', group='Business
  mods=[
  ('The remote process', 'Same steps, more clarity needed.', ['Brief, survey, concept, plan, selection, review, handover.', 'Tools: calls, shared folders, drawing tools.', 'What you cannot judge from photos.', 'Agree scope and fees.'], 'You cannot judge colour exactly from photos; ask for swatches in daylight.', 'Write the process and scope for one project.', 'Scope has deliverables and dates.'),
  ('The brief', 'Listen for needs, not just looks.', ['Who uses the room and how.', 'Budget, timing, must-keep items.', 'Style words and examples.', 'Accessibility and safety needs.'], 'Client: "Home office that also works for guests." Needs: desk, sofa bed, storage.', 'Hold a brief call and write it up.', 'Client confirms the summary.'),
- ('Measure and photograph', 'Good data in, good design out.', ['Client measures walls, doors, windows, heights.', 'Photos from corners.', 'Check by diagonals.', 'Mark sockets and radiators.'], 'Room 4.0 x 3.2 m: diagonal 5.12 m should match; if not, remeasure.', 'Create instructions and check a sample.', 'Two-method check passes.'),
+ ('Measure and photograph', 'Good data in, good design out.', ['Client measures walls, doors, windows, heights.', 'Photos from corners.', 'Check by diagonals.', 'Mark sockets and radiators.'], 'Room 4.0 m by 3.2 m: diagonal 5.12 m should match; if not, remeasure.', 'Create instructions and check a sample.', 'Two-method check passes.'),
  ('Space planning', 'Layout first, decoration later.', ['Zones, circulation (clear paths; about 0.9 m is a common rule of thumb, so check the local rule).', 'Furniture sizes and clearances.', 'Light and views.', 'Sketch two options.'], 'Desk beneath window, sofa bed on the long wall; walkway 1.0 m kept.', 'Draw two layouts.', 'Clearances labelled.'),
  ('Colour, light and materials', 'Create mood with reasons.', ['Colour palette (60-30-10).', 'Light layers: ceiling, task, accent.', 'Materials and durability.', 'Sample boards.'], '60% soft neutral walls, 30% sofa and rug, 10% accent cushions.', 'Make a mood board.', 'Palette has reasons.'),
  ('Budget and sourcing', 'Cost every item.', ['List with price, size, link, delivery.', 'Mix new, second-hand, make.', 'Contingency 10%.', 'Compare alternatives.'], 'Budget 1,500: furniture 900, lighting 250, textiles 200, contingency 150 (an estimate; check your market).', 'Build a shopping list.', 'Total within 5% of budget.'),
@@ -33,7 +33,7 @@ C['deep'] = dict(mods=[
  ('One option only.', 'Present two layouts.', 'What did the client choose?'),
  ('No handover.', 'Order of work in a checklist.', 'What is the order?')],
  gloss=[('Mood board', 'A collage of style and colour.'), ('Space plan', 'Layout of furniture.'), ('Circulation', 'Paths through a room.'), ('Palette', 'Chosen colours.'), ('Contingency', 'Reserve budget.'), ('Brief', 'The client\'s needs and limits.')],
- cases=[('The small room', 'A 3 x 3 m room must be an office and guest room.', 'Solution?', 'Use a wall bed or sofa bed, wall desk, vertical storage, keep a path.'),
+ cases=[('The small room', 'A 3 m by 3 m room must be an office and guest room.', 'Solution?', 'Use a wall bed or sofa bed, wall desk, vertical storage, keep a path.'),
         ('The over-budget list', 'The list exceeds budget by 20%.', 'Fix?', 'Swap items, use second-hand, phase purchases.')])
 C['deep']['extra'] = [
  ['Agree communication tools.', 'Set response times.'],

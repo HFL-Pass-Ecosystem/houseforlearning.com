@@ -68,7 +68,7 @@
    5,
    "Do not overload the supply.",
    [
-    "Total kW = number of chargers x kW x diversity factor.",
+    "Total kW = number of chargers x kW each x diversity factor (the share likely to be in use at the same time).",
     "Compare with supply capacity; use load management when limited.",
     "Plan growth with spare conduit.",
     "Include power for lights, screens and equipment."
@@ -98,7 +98,7 @@
    5,
    "Protect users and property.",
    [
-    "Residual current protection, earthing, surge protection, emergency stop and fire plan.",
+    "Residual current device (RCD), earthing, surge protection, emergency stop and a fire plan.",
     "Weather protection, cable management and trip-free layout.",
     "Regular inspection and testing by qualified staff.",
     "Clear signs and instructions."
@@ -118,7 +118,7 @@
     "Use payment methods approved in your place.",
     "Offer a way for users without a smartphone."
    ],
-   "An idle fee after 30 minutes frees the bay for other drivers, and users are told by a sign and a message. A price of 12 per kWh covers a 7 per kWh electricity cost and fees (prices are estimates; check your market).",
+   "An idle fee after 30 minutes frees the bay for other drivers, and users are told by a sign and a message. A price of 12 INR per kWh covers a 7 INR per kWh electricity cost and fees (prices are estimates; check your market).",
    "Design a tariff and test it with three examples.",
    "Examples are worked correctly."
   ],
@@ -156,43 +156,43 @@
  "quiz": [
   [
    "What is load sharing?",
-   "Dividing supply among chargers. (Covered in module 3: Power sizing and load management. To pass that module: Maths is correct and the supply limit is respected.)"
+   "Dividing supply among chargers."
   ],
   [
    "Which suits long stays?",
-   "AC chargers. (Covered in module 1: Charger types, speeds and connectors. To pass that module: Table values are correct and sourced.)"
+   "AC chargers."
   ],
   [
    "Utilisation formula?",
-   "Hours in use / hours open. (Covered in module 4: Demand and revenue. To pass that module: Currency is shown and assumptions are listed.)"
+   "Hours in use / hours open."
   ],
   [
    "Name a safety measure.",
-   "RCD, earthing or emergency stop. (Covered in module 5: Safety and standards. To pass that module: A licensed person approves the list.)"
+   "RCD, earthing or emergency stop."
   ],
   [
    "Why display price?",
-   "Fairness and trust. (Covered in module 6: Pricing and payment. To pass that module: Examples are worked correctly.)"
+   "Fairness and trust."
   ],
   [
    "What is idle fee?",
-   "Charge for occupying a bay after charging. (Covered in module 6: Pricing and payment. To pass that module: Examples are worked correctly.)"
+   "Charge for occupying a bay after charging."
   ],
   [
    "Who approves electrics?",
-   "Licensed electrician. (Covered in module 5: Safety and standards. To pass that module: A licensed person approves the list.)"
+   "Licensed electrician."
   ],
   [
    "Why monitor remotely?",
-   "Quick faults response. (Covered in module 7: Operations and uptime. To pass that module: Targets are measurable.)"
+   "Quick faults response."
   ],
   [
    "Name an access feature.",
-   "Step-free route or wide bays. (Covered in module 8: Inclusion and the site plan. To pass that module: Peers can follow the plan and see accessibility steps.)"
+   "Step-free route or wide bays."
   ],
   [
    "Revenue formula?",
-   "kWh x price minus cost. (Covered in module 4: Demand and revenue. To pass that module: Currency is shown and assumptions are listed.)"
+   "kWh x price minus cost."
   ]
  ],
  "rubric": [

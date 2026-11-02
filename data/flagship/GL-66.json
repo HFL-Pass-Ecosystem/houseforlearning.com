@@ -68,7 +68,7 @@
    4,
    "Light is usually the largest running cost.",
    [
-    "Intensity is measured as photosynthetic photon flux density; many leafy greens do well at 150 to 250 micromoles per square metre per second.",
+    "Light strength is measured as photosynthetic photon flux density (PPFD, the usable light reaching the plants). Many leafy greens do well at 150 to 250 micromoles per square metre per second.",
     "White full-spectrum LEDs work for most beginners.",
     "Hang lights 20 to 40 cm above the canopy and raise as plants grow.",
     "Use timers; 12 to 16 hours of light a day for most leafy crops."
@@ -156,43 +156,43 @@
  "quiz": [
   [
    "Which crops suit?",
-   "Leafy greens, herbs, microgreens. (Covered in module 1: Choosing crops that pay. To pass that module: Choice is supported by buyer numbers and cycle times.)"
+   "Leafy greens, herbs, microgreens."
   ],
   [
    "Why LEDs?",
-   "Efficient, less heat. (Covered in module 3: Light schedules and cost. To pass that module: Schedule and cost are correct and recorded.)"
+   "Efficient, less heat."
   ],
   [
    "What pH range?",
-   "About 5.8 to 6.2 for many crops. (Covered in module 4: Water and nutrients. To pass that module: Log has daily pH, conductivity, temperature and actions.)"
+   "About 5.8 to 6.2 for many crops."
   ],
   [
    "Why hygiene?",
-   "Prevent disease. (Covered in module 5: Climate, hygiene and food safety. To pass that module: Schedule has daily, weekly and between-crop tasks.)"
+   "Prevent disease."
   ],
   [
    "Yield measure?",
-   "Per m2 per cycle. (Covered in module 6: Yield, energy and water. To pass that module: Calculations are correct with units.)"
+   "Per m2 per cycle."
   ],
   [
    "Energy per kg unit?",
-   "kWh per kg. (Covered in module 6: Yield, energy and water. To pass that module: Calculations are correct with units.)"
+   "kWh per kg."
   ],
   [
    "Biggest risk?",
-   "Pump or power failure. (Covered in module 2: Growing systems and fail-safes. To pass that module: Layout labels parts; plan covers power and pump failure.)"
+   "Pump or power failure."
   ],
   [
    "Why compare to field?",
-   "See whether it pays. (Covered in module 6: Yield, energy and water. To pass that module: Calculations are correct with units.)"
+   "See whether it pays."
   ],
   [
    "What is break-even?",
-   "Volume covering costs. (Covered in module 7: Unit economics and break-even. To pass that module: Break-even is calculated and compared with output.)"
+   "Volume covering costs."
   ],
   [
    "Why log readings?",
-   "Spot trends. (Covered in module 4: Water and nutrients. To pass that module: Log has daily pH, conductivity, temperature and actions.)"
+   "Spot trends."
   ]
  ],
  "rubric": [

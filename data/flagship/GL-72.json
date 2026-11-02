@@ -27,7 +27,7 @@
  ],
  "task": "Plan and run a 30-minute virtual event for 10 to 20 people, with rehearsal, moderation, accessibility, feedback and report.",
  "condition": "Computers or VR headsets as available, a free event platform, two peers and a mentor.",
- "standard": "Rehearsal passes; moderation rules enforced; accessibility options present; feedback from 80% of attendees; report with data; peers rate Meets or better.",
+ "standard": "Rehearsal passes; moderation rules enforced; accessibility options present; feedback from 80 per cent of attendees; report with data; peers rate Meets or better.",
  "who": "Event planners, teachers, community groups, trainers.",
  "req": "none",
  "evidence": "plan, run sheet, tech checklist, feedback report",
@@ -128,7 +128,7 @@
    4,
    "Deliver your pilot event calmly.",
    [
-    "Welcome, rules, content, Q and A, close.",
+    "Welcome, rules, content, questions and answers, close.",
     "Handle problems calmly and use the helper desk.",
     "Collect feedback and record attendance.",
     "Keep a live issue log with times."
@@ -156,43 +156,43 @@
  "quiz": [
   [
    "Name a format.",
-   "Desktop 3D, headset VR or hybrid. (Covered in module 1: Formats, platforms and fit. To pass that module: Table includes device needs, access and cost.)"
+   "Desktop 3D, headset VR or hybrid."
   ],
   [
    "Why a fallback?",
-   "Protect the session. (Covered in module 3: Technical checks and fall-backs. To pass that module: Checklist is tested and issues are logged.)"
+   "Protect the session."
   ],
   [
    "Code of conduct use?",
-   "Set behaviour rules. (Covered in module 4: Moderation and safety. To pass that module: Rules are clear and tested in a mock session.)"
+   "Set behaviour rules."
   ],
   [
    "Motion sickness fix?",
-   "Teleport movement or breaks. (Covered in module 5: Accessibility and comfort. To pass that module: Measures cover vision, hearing, motion and device access.)"
+   "Teleport movement or breaks."
   ],
   [
    "Time zone issue?",
-   "Choose fair times. (Covered in module 5: Accessibility and comfort. To pass that module: Measures cover vision, hearing, motion and device access.)"
+   "Choose fair times."
   ],
   [
    "Metric?",
-   "Attendance or rating. (Covered in module 8: Measure, report and improve. To pass that module: Report has numbers, feedback and three dated improvements.)"
+   "Attendance or rating."
   ],
   [
    "Roles?",
-   "Host, tech, moderator. (Covered in module 6: Run sheet and rehearsal. To pass that module: Fixes are logged and the second rehearsal is clean.)"
+   "Host, tech, moderator."
   ],
   [
    "Rehearsals?",
-   "At least two. (Covered in module 6: Run sheet and rehearsal. To pass that module: Fixes are logged and the second rehearsal is clean.)"
+   "At least two."
   ],
   [
    "Privacy?",
-   "No personal data sharing. (Covered in module 4: Moderation and safety. To pass that module: Rules are clear and tested in a mock session.)"
+   "No personal data sharing."
   ],
   [
    "Access feature?",
-   "Captions. (Covered in module 5: Accessibility and comfort. To pass that module: Measures cover vision, hearing, motion and device access.)"
+   "Captions."
   ]
  ],
  "rubric": [

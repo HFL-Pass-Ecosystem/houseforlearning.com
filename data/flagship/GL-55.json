@@ -103,7 +103,7 @@
     "Annual saving = kWh produced x price per kWh.",
     "Payback = cost / annual saving; test weak-wind cases."
    ],
-   "A 5 kW system costs 600,000 (an estimate; check your market). It makes 7,884 kWh at 8 per kWh, saving 63,072 a year, less 15,000 maintenance. Net saving 48,072 gives a payback of 12.5 years. At 10 per cent factor payback passes 25 years and the project is not worth it.",
+   "A 5 kW system costs 600,000 INR (an estimate; check your market). It makes 7,884 kWh a year at 8 INR per kWh, saving 63,072 INR a year, less 15,000 INR a year for maintenance. A net saving of 48,072 INR a year gives a payback of 12.5 years. At a 10 per cent capacity factor, payback passes 25 years and the project is not worth it.",
    "Build the cost and payback table for two wind cases.",
    "Costs add up, both cases are shown and a go or no-go is stated."
   ],

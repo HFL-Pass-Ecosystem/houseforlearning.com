@@ -55,7 +55,7 @@
    [
     "Wall thickness of at least two nozzle widths; avoid thin spikes.",
     "Avoid overhangs steeper than about 45 degrees or add supports.",
-    "Layers are weakest in tension, so orient the part so loads run along layers.",
+    "Layers pull apart most easily, so orient the part so loads run along the layer lines, not across them.",
     "Add 0.2 to 0.4 mm clearance for moving or fitted parts."
    ],
    "A bracket printed on its side is much stronger than one printed upright because layer lines run along the load.",
@@ -156,43 +156,43 @@
  "quiz": [
   [
    "Easy filament?",
-   "PLA. (Covered in module 1: Printers, materials and what suits what. To pass that module: Table is accurate and cites data sheets.)"
+   "PLA."
   ],
   [
    "Overhang fix?",
-   "Supports. (Covered in module 2: Designing parts for printing. To pass that module: Dimensions and orientation are justified in writing.)"
+   "Supports."
   ],
   [
    "Resin safety?",
-   "Gloves and eye protection. (Covered in module 4: Printing safely. To pass that module: Log is complete and safety kit is in place.)"
+   "Gloves and eye protection."
   ],
   [
    "Why ventilate?",
-   "Fumes. (Covered in module 1: Printers, materials and what suits what. To pass that module: Table is accurate and cites data sheets.)"
+   "Fumes."
   ],
   [
    "Warping fix?",
-   "Heated bed. (Covered in module 5: Troubleshooting failures. To pass that module: Notes show one change at a time.)"
+   "Heated bed."
   ],
   [
    "Measuring tool?",
-   "Calipers. (Covered in module 7: Testing the part. To pass that module: Results are recorded with units.)"
+   "Calipers."
   ],
   [
    "Costs?",
-   "Material, power, time, labour, failures. (Covered in module 8: Costing and selling honestly. To pass that module: Cost sheet is correct and the note states intended use.)"
+   "Material, power, time, labour, failures."
   ],
   [
    "Orientation effect?",
-   "Strength. (Covered in module 2: Designing parts for printing. To pass that module: Dimensions and orientation are justified in writing.)"
+   "Strength."
   ],
   [
    "Why log?",
-   "Repeat results. (Covered in module 4: Printing safely. To pass that module: Log is complete and safety kit is in place.)"
+   "Repeat results."
   ],
   [
    "Disclose?",
-   "Limits. (Covered in module 8: Costing and selling honestly. To pass that module: Cost sheet is correct and the note states intended use.)"
+   "Limits."
   ]
  ],
  "rubric": [
