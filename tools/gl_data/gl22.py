@@ -22,3 +22,16 @@ C = dict(id='GL-22', title='Marketplace Fulfilment Selling', group='Business and
  local='Marketplace availability, taxes and import rules differ by place: check customs, tax and product labelling.',
  evidence='Your evidence: fee summary, product scores, ten listings, profit calculator, 20-order log, returns log and metrics report.',
  ladder=[('Basics of selling', 'Explain a sale. Notes: sell one item to a friend.'), ('Awareness', 'Know marketplaces. Notes: browse and compare.'), ('Foundation', 'List a product. Notes: one listing.'), ('Practitioner', 'This course. Notes: ten listings, 20 orders.'), ('Specialist', 'Multi-marketplace and stock. Notes: sync stock.'), ('Advanced', 'Lead a seller team. Notes: SOPs.'), ('Super expert', 'Set method and teach teachers. Notes: review policy changes.')])
+
+C['deep'] = dict(mods=[
+ ('Not reading the marketplace rules.', 'A banned item gets the account suspended.', 'Which rule matters most to you?'),
+ ('Choosing products by price alone.', 'A cheap breakable item costs more in returns.', 'What did you reject and why?'),
+ ('Copying another seller\'s text.', 'Write your own details and photos.', 'Are your photos your own?'),
+ ('Pricing before fees.', 'A 20.00 sale leaves 4.50 after all costs.', 'What is your minimum price?'),
+ ('Unlabelled shelves.', 'Mis-picks fall from 4% to 1%.', 'Is every shelf labelled?'),
+ ('Promising fast delivery you cannot keep.', 'Promise 2 days if you ship in 1.', 'What is your promise?'),
+ ('Ignoring return reasons.', 'Size complaints fixed with a size photo.', 'What is the top reason?'),
+ ('Scaling listings before service.', 'Fix late shipping before adding items.', 'Which metric is weakest?')],
+ gloss=[('Listing', 'The product page.'), ('Fulfilment', 'Picking, packing and shipping.'), ('SKU', 'A unique stock code.'), ('Seller rating', 'Buyers\' score of you.'), ('Handling time', 'Time to ship.'), ('Referral fee', 'Marketplace commission.')],
+ cases=[('Late parcel', 'A buyer says the parcel is late.', 'First steps?', 'Check tracking, apologise, update, offer remedy if lost, and log the cause.'),
+        ('Fee change', 'The marketplace raises fees by 2 points.', 'What do you do?', 'Recalculate profit, adjust price or stop low-margin items.')])

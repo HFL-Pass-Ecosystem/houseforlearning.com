@@ -22,3 +22,16 @@ C = dict(id='GL-23', title='E-Commerce Inventory Management', group='Business an
  local='Storage rules, taxes on stock and import duties differ by place; check them with a local adviser.',
  evidence='Your evidence: item list, count records, forecast, reorder table, shelf photos, slow-mover list and health report.',
  ladder=[('Basics of stock', 'Count items. Notes: count a shelf.'), ('Awareness', 'Know terms. Notes: define each term with an example.'), ('Foundation', 'Maintain a stock list. Notes: spreadsheet.'), ('Practitioner', 'This course. Notes: rules and report.'), ('Specialist', 'Multi-location and forecasting. Notes: seasonal items.'), ('Advanced', 'Lead supply planning. Notes: supplier terms.'), ('Super expert', 'Set method and teach teachers. Notes: audits.')])
+
+C['deep'] = dict(mods=[
+ ('Ignoring holding cost.', '500 of stock for 90 days at 2% monthly costs 30 in tied capital.', 'What do you hold too much of?'),
+ ('Two codes for one item.', 'TB-40 and tote-40 split the count; merged.', 'Any duplicates?'),
+ ('Adjusting the record without finding the cause.', 'A mis-pick pattern is fixed by labelling.', 'What caused your count gap?'),
+ ('Using one week to forecast.', 'Four-week average 11.5 beats the single week of 14.', 'How many weeks do you average?'),
+ ('Ignoring supplier delays.', 'Lead time 6 days becomes 9 in holiday week; raise safety stock.', 'What is your lead time range?'),
+ ('Stacking heavy items high.', 'Heavy low, light high.', 'Is your shelf safe?'),
+ ('Letting slow movers sit.', 'No sales for 60 days triggers a discount.', 'Which item is slowest?'),
+ ('Reporting without actions.', 'Each measure has an owner and date.', 'What is your top action?')],
+ gloss=[('Lead time', 'Order-to-arrival days.'), ('Safety stock', 'Extra for surprises.'), ('Reorder point', 'Level that triggers an order.'), ('Turnover', 'How fast stock sells.'), ('FIFO', 'First in, first out.'), ('Shrink', 'Stock lost to damage or theft.')],
+ cases=[('The stock-out', 'A best seller runs out for 5 days.', 'Cause and fix?', 'Reorder point too low; recompute with real lead time and raise safety stock.'),
+        ('The pile of boxes', 'Boxes unsold for 6 months.', 'Options?', 'Bundle, discount, return to supplier or write off; stop reordering.')])

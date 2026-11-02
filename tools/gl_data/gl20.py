@@ -22,3 +22,16 @@ C = dict(id='GL-20', title='Social Media Network Building', group='Digital and T
  local='Platform choice, age rules and content laws differ by place; check what members use and what your law requires.',
  evidence='Your evidence: purpose note, rules, setup screenshots, six-week calendar, moderation log, weekly measures and health report.',
  ladder=[('Basics of sharing', 'Post safely. Notes: privacy settings.'), ('Awareness', 'Know communities and rules. Notes: observe three groups.'), ('Foundation', 'This course. Notes: 6-week community.'), ('Practitioner', 'Run several groups. Notes: shared calendar.'), ('Specialist', 'Brand and customer communities. Notes: insights and care.'), ('Advanced', 'Lead a team and policy. Notes: crisis handling.'), ('Super expert', 'Set method and teach teachers. Notes: share templates.')])
+
+C['deep'] = dict(mods=[
+ ('A purpose that is "everyone".', '"Home bakers swap tips" is clearer than "food lovers".', 'Who is your member in one sentence?'),
+ ('Rules that are long and vague.', 'Six short rules fit one screen.', 'Can a new member read your rules in 30 seconds?'),
+ ('Setting up before testing joining.', 'Friends find the join link broken; fixed in minutes.', 'How long does joining take?'),
+ ('Posting only offers.', 'Calendar mixes tip, question, story, offer.', 'What are your four types?'),
+ ('Buying followers.', 'Bought numbers hide low activity.', 'How did your 30 members join?'),
+ ('Ignoring the first message.', 'A named welcome doubles first replies.', 'What does your welcome say?'),
+ ('Measuring likes only.', 'Active rate and replies per post show real life.', 'What is your active rate?'),
+ ('Doing everything alone.', 'Two helpers share moderation.', 'Who are your helpers?')],
+ gloss=[('Moderation', 'Keeping a space safe and on topic.'), ('Active rate', 'Active members divided by all.'), ('Pinned post', 'A post kept at the top.'), ('Onboarding', 'Welcoming and guiding new members.'), ('Engagement', 'Replies and reactions.'), ('Churn', 'Members who leave.')],
+ cases=[('The argument', 'Two members insult each other.', 'First steps?', 'Message both privately, pause the thread, apply the rule and log it.'),
+        ('The quiet group', 'Only three members post.', 'What do you try?', 'Ask easier questions, feature member stories, invite quiet members to share short tips.')])

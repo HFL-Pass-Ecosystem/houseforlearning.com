@@ -22,3 +22,16 @@ C = dict(id='GL-19', title='Wallet Payment Solutions', group='Digital and Techno
  local='Payment rules, licences and which wallets people use differ greatly by place: check the regulator and local methods.',
  evidence='Your evidence: flow diagram, partner comparison, ten test payments, receipt, failure and refund tests, fraud checklist, reconciliation and guide.',
  ladder=[('Basics of paying', 'Explain card, wallet and cash. Notes: compare receipts.'), ('Awareness', 'Know fees and safety. Notes: read terms together.'), ('Foundation', 'Test a simple checkout. Notes: test mode only.'), ('Practitioner', 'This course. Notes: full journey and reconciliation.'), ('Specialist', 'Multi-currency and disputes. Notes: handle chargebacks.'), ('Advanced', 'Lead payments operations. Notes: controls and audits.'), ('Super expert', 'Set method and teach teachers. Notes: review rules yearly.')])
+
+C['deep'] = dict(mods=[
+ ('Thinking payment is done when the customer taps.', 'Authorised on Monday, settled on Wednesday, minus the fee.', 'When does money reach you?'),
+ ('Picking the lowest percent without the fixed fee.', 'On 10.00 sales the 1.6% + 0.50 partner costs more than 2.0% + 0.20.', 'Which partner is cheaper at your average sale?'),
+ ('Pasting keys into documents.', 'Keys live only in the partner\'s settings and a protected store.', 'Where are your keys?'),
+ ('A receipt without a reference.', 'The reference ties the receipt to the partner record.', 'Does every receipt carry one?'),
+ ('Refunding without a rule.', 'Refund within 14 days, fee not returned.', 'What is your refund rule?'),
+ ('Letting any helper refund.', 'Only two named roles may refund.', 'Who can refund?'),
+ ('Skipping the daily match.', 'A 3.00 gap is a missed fee; found on day 1.', 'What gaps did you find?'),
+ ('A guide that assumes knowledge.', 'Users test "Pay 55.00 now" and complete it alone.', 'How many users succeeded?')],
+ gloss=[('Authorisation', 'The wallet approving a payment.'), ('Settlement', 'Money paid to the merchant.'), ('Chargeback', 'A buyer disputes through their bank.'), ('Test mode', 'A safe mode with no real money.'), ('Reconciliation', 'Matching records.'), ('Tokenisation', 'Replacing card data with a safe code.')],
+ cases=[('Double charge', 'A customer sees two charges after a timeout.', 'What do you do?', 'Check the partner record, release or refund the duplicate, tell the customer when.'),
+        ('Large new order', 'A new account orders 40 phones.', 'Next step?', 'Hold, verify buyer and address, and use partner fraud tools.')])

@@ -22,3 +22,16 @@ C = dict(id='GL-21', title='E-Commerce Growth Marketing', group='Business and Co
  local='Advertising, consent and consumer-return rules differ by place; check the local rule before running offers.',
  evidence='Your evidence: funnel table, buyer profile, page changes, channel plan, three test records, email sequence, numbers table and review.',
  ladder=[('Basics of selling online', 'Describe a sale step by step. Notes: buy something small.'), ('Awareness', 'Know funnel and channels. Notes: trace an ad.'), ('Foundation', 'Improve one page. Notes: simple changes.'), ('Practitioner', 'This course. Notes: 30-day plan.'), ('Specialist', 'Multi-channel and data. Notes: attribution.'), ('Advanced', 'Lead growth for a shop group. Notes: budgets and teams.'), ('Super expert', 'Set method and teach teachers. Notes: review tests yearly.')])
+
+C['deep'] = dict(mods=[
+ ('Looking at total visits only.', 'Visits rise but orders do not: the leak is at checkout.', 'Where is your biggest leak?'),
+ ('Writing for yourself, not the buyer.', 'Switch from "premium bag" to "light bag that lasts two years".', 'Which words came from buyers?'),
+ ('Too many choices on the page.', 'One main button lifts clicks.', 'What is your one button?'),
+ ('Spreading a small budget thin.', '150 on one channel teaches more than 30 on five.', 'Which channels did you choose?'),
+ ('Changing two things at once.', 'Headline and image changed together hide the cause.', 'What single change did you test?'),
+ ('Emailing without consent.', 'Opt-in only; one-click unsubscribe.', 'Where is consent recorded?'),
+ ('Counting revenue instead of margin.', '25 sales of 20.00 sound good, but margin is 11.00 and ad cost 6.00.', 'What is your profit per sale?'),
+ ('Scaling too fast.', 'Raise spend 20% a week while cost holds.', 'What is your scale rule?')],
+ gloss=[('Funnel', 'Steps from visit to purchase.'), ('Conversion rate', 'Share who take the next step.'), ('Margin', 'Money left after costs.'), ('A/B test', 'Comparing two versions.'), ('Opt-in', 'Permission given by the person.'), ('Return on spend', 'Revenue divided by spend.')],
+ cases=[('The expensive click', 'Cost per sale 9.50, margin 8.00.', 'What do you do?', 'Stop or fix the ad and page; do not scale.'),
+        ('The cart leak', '60 carts, 20 orders.', 'What do you check?', 'Shipping cost shock, payment options, forced sign-up; test one change.')])
