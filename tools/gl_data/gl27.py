@@ -44,3 +44,8 @@ C['deep']['extra'] = [
  ['Pre-pack sides.', 'Check the bag before dispatch.'],
  ['Create a short brand story.', 'Respond to praise too.'],
  ['Track top sellers.', 'Write a lessons list.']]
+
+_ex = ['Burgers travel well; ice cream does not unless packed in cold boxes. The menu keeps burgers and drops ice cream.', 'Ten dishes sharing eight ingredients cut waste; the shopping list has 22 items, not 45.', 'Raw and ready foods sit on separate shelves and boards; the layout shows no crossing from raw to ready.', 'Cooked rice is cooled quickly and chilled; the log shows time and temperature at each check.', 'A 9.00 dish: ingredients 2.70 (30%), packaging 0.60, commission 2.25, margin 3.45.', 'Average ready time 14 minutes against 15 promised; 92% on time.', 'A late order gets an apology and a small voucher; the rating moves from 3 to 5.', 'Waste 11%: reduce batch size and prep to forecast; the next week it falls to 7%.']
+_extra = ['Check which delivery apps are used locally.', 'Write allergen lists on a wall chart.', 'Keep a cleaning schedule with signatures.', 'Calibrate thermometers each week.', 'Review packaging costs monthly.', 'Pre-pack sides at quiet times.', 'Check each bag against the ticket.', 'Keep a spare of key ingredients.', 'Take clear photos for each dish.', 'Reply to reviews within a day.', 'Track the top three sellers.', 'Record waste by dish.', 'Check the shared-kitchen agreement every quarter.', 'Train new cooks on the food safety plan.', 'Write a lessons list after the trial.', 'Plan the next 90 days with one change at a time.']
+C['deep']['mods'] = [(m[0], _ex[i], m[2]) for i, m in enumerate(C['deep']['mods'])]
+C['deep']['extra'] = [_extra[2*i:2*i+2] for i in range(8)]
