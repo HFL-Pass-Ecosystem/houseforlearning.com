@@ -7,6 +7,10 @@ from uae_data import T
 from uae_pathways import P
 from uae_deep import D
 import importlib
+for _n in ('1','2','3'):
+    try:
+        for _k,_v in importlib.import_module('uae_fix_'+_n).FIX.items(): D[_k]=list(_v)
+    except ModuleNotFoundError: pass
 for _n in ('a','b','c','d'):
     try:
         for _k,_v in importlib.import_module('uae_deep_'+_n).D2.items(): D.setdefault(_k,[]); D[_k]=D[_k]+list(_v)
