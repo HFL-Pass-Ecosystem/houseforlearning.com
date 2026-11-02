@@ -61,7 +61,7 @@
     "Design a folder system that holds six years of records and check the current retention rule."
    ],
    "ex": "A client asks if a car expense is fully deductible. You write the question, the amount and the date in a questions list and refer it to a tax professional. If the car costs were $2,400 for the year, you record $2,400 in the car expense account and let the professional decide how much is deductible.",
-   "act": "Make a table of tax or record item, who sets it, due date and where you checked, for ten items.",
+   "act": "Build a table of tax or record item, who sets it, due date and where you checked, for ten items.",
    "std": "Task: build a tax and records table. Condition: using official public pages. Standard: each row has a dated source and unclear items say 'check the current rule with the local authority'."
   },
   "5": {

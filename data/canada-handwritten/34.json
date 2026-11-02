@@ -61,7 +61,7 @@
     "Check that every price shows the full amount the reader will pay."
    ],
    "ex": "A client wants 'Best in Canada'. You ask for proof. They have none, so you write 'Loved by 200 local families' only after they show you the count. Keep the proof with the job file.",
-   "act": "Make a table of rule, who enforces it, what you must do, and where you checked, for ten claims you often write.",
+   "act": "Build a table of rule, who enforces it, what you must do, and where you checked, for ten claims you often write.",
    "std": "Task: build a claims and rules table. Condition: using official public pages. Standard: each row has a dated source; no rule is guessed; unclear cases say 'check the current rule with the local authority'."
   },
   "5": {

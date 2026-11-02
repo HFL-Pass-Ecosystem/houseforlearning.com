@@ -45,7 +45,7 @@
     "Find the off-leash and park rules for your city."
    ],
    "ex": "Rules table row: Dog licence | city | owner shows tag number | before the first walk | copy in client file. If the licence takes 10 business days and the first walk was planned for day 7, move the walk to day 10 or later.",
-   "act": "Make a rules table for your city, with the official page and date for each row.",
+   "act": "Build a rules table for your city, with the official page and date for each row.",
    "std": "Task: list the rules for a petcare business. Condition: official pages only. Standard: each row has an enforcer, an action and a checked date."
   },
   "4": {
@@ -61,7 +61,7 @@
     "Check the house before leaving: door locked, gates closed, water bowl full."
    ],
    "ex": "Visit note: arrived 4:00, walked 30 minutes, dog ate half its dinner, no limp, left water. The owner sees it by message that evening. Five practice visits of 30 minutes each take 5 x 30 = 150 minutes, or 2.5 hours.",
-   "act": "Do five practice visits with a friend's pet and write a visit note for each.",
+   "act": "Complete five practice visits with a friend's pet and write a visit note for each.",
    "std": "Task: complete a care visit. Condition: with a care card and permission. Standard: all card items done and a note written the same day."
   },
   "5": {

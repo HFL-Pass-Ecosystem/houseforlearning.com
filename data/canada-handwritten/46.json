@@ -45,7 +45,7 @@
     "Ask the regulator how deposit money must be held and who may hold it."
    ],
    "ex": "Rules table row: Land transfer tax | province or city | pay at closing | before keys are handed over | receipt kept in the deal file. If closing is on day 60 and the receipt takes 3 days to arrive, plan to pay by day 57.",
-   "act": "Make a rules table for buying, selling and renting in your province, with an official page for each row.",
+   "act": "Build a rules table for buying, selling and renting in your province, with an official page for each row.",
    "std": "Task: list property rules. Condition: official pages only. Standard: every row has the enforcer, the action and the date checked."
   },
   "4": {

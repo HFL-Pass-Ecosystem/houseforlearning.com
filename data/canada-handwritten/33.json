@@ -61,7 +61,7 @@
     "Check the platform's own contest rules as well as the provincial rules."
    ],
    "ex": "A client wants to repost a customer photo. You ask the customer for permission first and credit them. Save the reply with the date.",
-   "act": "Make a table of rule, who sets it, what you must do and where you checked, for ten post types.",
+   "act": "Build a table of rule, who sets it, what you must do and where you checked, for ten post types.",
    "std": "Task: build a rules table. Condition: using official public pages. Standard: each row has a dated source; unclear items say 'check the current rule with the local authority'."
   },
   "5": {

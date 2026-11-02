@@ -38,7 +38,7 @@ dict(id='GL-04', title='Internet Infrastructure Basics', group='Digital and Tech
    'Keep a table: device, owner, address, location, date. Unknown devices on the list are a warning.',
    'Change the router\'s default login on day one.'],
   'Office with 18 devices on 192.168.1.0/24. Room for 254, so no change needed. The table shows two unknown devices; one is a visitor\'s phone, one is an old printer to remove.',
-  'Make the device table for a real network and find any unknown device.',
+  'Build the device table for a real network and find any unknown device.',
   'Table complete with dates; unknown devices each have a decision.'),
  ('Hosting and availability', 'Analyse', 5,
   'Hosting is renting a computer that is always on and connected. Providers promise an availability percentage; the percentage turns into downtime you can calculate.',

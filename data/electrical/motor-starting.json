@@ -13,7 +13,7 @@
 "intro": "Three things describe a start: how long, how high and how often. A start is heavy when time or current go past the normal range.",
 "points": ["As a teaching guide (example values), a start is heavy if it lasts roughly 5 to 30 seconds, or the current is above six times running current, or both.","Heavy loads often have a lot of spinning mass, such as large fans and centrifuges.","Ask the machine owner and the motor maker for starting data instead of guessing."],
 "example": "Start A: 4 s at 6 times running current. It is under 5 s and not over 6 times, so it counts as a normal start. Start B: 22 s at 5 times running current. The time is inside the 5 to 30 s range, so it is heavy. Start C: 8 s at 7 times running current. The current is over 6 times, so it is heavy. So out of three starts, two are heavy. Note that Start B is heavy even though its current is below 6 times.",
-"activity": "Make a table of four invented starts with time and current multiple. Mark each normal or heavy and write the reason.",
+"activity": "Build a table of four invented starts with time and current multiple. Mark each normal or heavy and write the reason.",
 "standard": "Learner classifies each start by the time and current rules and gives the reason."},
 {"title": "Why it matters for the circuit","bloom": "Analyse: Compare","minutes": 15,
 "intro": "Heat in a conductor grows with the square of the current and with time. A long start is far hotter than a short one at the same current.",

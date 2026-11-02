@@ -29,7 +29,7 @@
     "Name the compliance contact in a made-up firm and write when you would go to that person."
    ],
    "ex": "An analyst learns of a coming takeover before it is public. The correct steps are to not trade, not tell anyone and tell the compliance team. She also writes down the time she reported it, so the record shows she acted at once.",
-   "act": "Make a rules table with rule, who enforces it, what you must do and a dated official source.",
+   "act": "Build a rules table with rule, who enforces it, what you must do and a dated official source.",
    "std": "Task: build a rules table. Condition: official regulator pages only. Standard: each row has an enforcer, action and dated source and no rule is guessed."
   },
   "3": {

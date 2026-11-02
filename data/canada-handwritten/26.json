@@ -61,7 +61,7 @@
     "Keep a list of restricted item types and check it before each purchase."
    ],
    "ex": "You find a used baby item. You search the recall list, find it is restricted, and do not sell it. You write the date and the page you checked in your log.",
-   "act": "Make a table of rule, who sets it, what you must do and where you checked, for ten item types.",
+   "act": "Build a table of rule, who sets it, what you must do and where you checked, for ten item types.",
    "std": "Task: build a rules table. Condition: from official public pages. Standard: each row has a dated source; unknowns say 'check the current rule with the local authority'."
   },
   "5": {

@@ -19,7 +19,7 @@
 "intro": "Fixed, plug-in and withdrawable breakers are installed differently, and each has its own sheet. Do not mix instructions between styles.",
 "points": ["Read the sheet for the fixing style in front of you.","Phase separators keep phases apart and leave the vents free.","Insulated connections reduce the chance of a gas path between phases."],
 "example": "A board has 6 breakers: 3 fixed, 2 plug-in and 1 withdrawable. That is 3 different fixing styles, so 3 sheets must be read, not one. The sheet for the plug-in style asks for phase separators on both sides, and there are 2 such breakers, so 2 × 2 = 4 separators are needed in that part of the check. The fixed type uses terminal covers instead. Counting needs to be done per style so nothing is missed.",
-"activity": "Make a table of three styles with the cover or separator the maker asks for. Then count the separators for a board with 4 plug-in breakers needing 2 each.",
+"activity": "Build a table of three styles with the cover or separator the maker asks for. Then count the separators for a board with 4 plug-in breakers needing 2 each.",
 "standard": "Learner matches fixing styles to their sheets and counts required parts correctly."},
 {"title": "Alternatives need proof","bloom": "Evaluate: Judge","minutes": 15,
 "intro": "Sometimes a customer wants a tighter layout than the sheet allows. The answer is not opinion. It must be shown by test.",

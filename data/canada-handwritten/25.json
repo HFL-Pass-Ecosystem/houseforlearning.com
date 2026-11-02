@@ -61,7 +61,7 @@
     "Label opinion as opinion and support facts with sources."
    ],
    "ex": "A client asks you to write 'Best in Canada'. You ask for proof; there is none, so you write a claim you can verify. You keep the exchange with the client in your files.",
-   "act": "Make a table of rule, what you must do and where you checked, for ten situations.",
+   "act": "Build a table of rule, what you must do and where you checked, for ten situations.",
    "std": "Task: build a rules table. Condition: from official public pages. Standard: each row has a dated source; unclear cases say 'check the current rule with the local authority'."
   },
   "5": {

@@ -45,7 +45,7 @@
     "Keep a copy of the quote, permit and insurance for every job."
    ],
    "ex": "Rules table row: Permit | city building office | ask before structural or electrical changes | before work | permit number in job file. A second row: Landlord approval | building owner | ask in writing before changes to walls or fixtures | before work | reply kept. Add a checked date to each row.",
-   "act": "Make a rules table for your city and province with official pages and dates.",
+   "act": "Build a rules table for your city and province with official pages and dates.",
    "std": "Task: map the rules. Condition: official pages only. Standard: each row has an enforcer, an action and a checked date."
   },
   "4": {
@@ -61,7 +61,7 @@
     "Clean and put away tools, then note what to improve."
    ],
    "ex": "Shelf job: stud found, level marked, two screws into the stud, anchor in one spot, load test, photo taken. If the shelf will hold three book sets of 2 kg and a 4 kg box, the planned load is 3 x 2 + 4 = 10 kg, and the load test uses that weight.",
-   "act": "Do each of three repairs twice on a practice board and compare the second run.",
+   "act": "Complete each of three repairs twice on a practice board and compare the second run.",
    "std": "Task: complete a repair. Condition: practice board. Standard: result level, firm and clean, and the second run is better."
   },
   "5": {

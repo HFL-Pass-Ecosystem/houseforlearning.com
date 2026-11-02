@@ -61,7 +61,7 @@
     "Check the advertising rules before you post any claim about results; if you are unsure, do not post it."
    ],
    "ex": "A client asks if a herb can replace her medicine. You say that is a question for her doctor or pharmacist and offer to help her write her questions. In a table of ten client questions, if four need a referral, you can coach on the other 10 - 4 = 6.",
-   "act": "Make a table of what you may do, what you must refer, and who to refer to, for ten common client questions.",
+   "act": "Build a table of what you may do, what you must refer, and who to refer to, for ten common client questions.",
    "std": "Task: build a scope-of-practice table. Condition: using official public pages. Standard: each row shows a referral or a safe coaching reply and a source; no guesswork."
   },
   "5": {

@@ -45,7 +45,7 @@
     "Ask the regulator how long client records must be kept."
    ],
    "ex": "Rules table row: Investment advice | provincial securities regulator | registration needed before advising | before first paid advice | registration proof kept. If registration takes 8 weeks, the first paid advice cannot be before week 8.",
-   "act": "Make a rules table for your province: what you can do unlicensed, and what needs a licence.",
+   "act": "Build a rules table for your province: what you can do unlicensed, and what needs a licence.",
    "std": "Task: map the rules. Condition: official regulator pages. Standard: each row has an enforcer, an action and a checked date."
   },
   "4": {

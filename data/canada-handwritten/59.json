@@ -29,7 +29,7 @@
     "Describe a complaint process and tell the client how to use it."
    ],
    "ex": "A person wants to start 'managing friends' money' for a fee. The right step is to ask the regulator what registration is needed first, not to begin. The person writes down the questions and keeps the answer in writing.",
-   "act": "Make a rules table with rule, who enforces it, what it requires and the source with date.",
+   "act": "Build a rules table with rule, who enforces it, what it requires and the source with date.",
    "std": "Task: build a rules table. Condition: official regulator pages only. Standard: each row has an enforcer, an action and a dated source; no rule is guessed."
   },
   "3": {

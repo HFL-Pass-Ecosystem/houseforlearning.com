@@ -61,7 +61,7 @@
     "Keep sales and tax records for the period the tax agency requires."
    ],
    "ex": "A buyer asks for a refund on a damaged item. You check the marketplace policy and the provincial rule, then reply in writing with the choice you will offer. You keep the reply with the order record.",
-   "act": "Make a table of rule, who sets it, what you must do and where you checked, for ten things you will sell.",
+   "act": "Build a table of rule, who sets it, what you must do and where you checked, for ten things you will sell.",
    "std": "Task: build a rules table for your product group. Condition: using official public pages. Standard: each row has a source and date; unclear cases say 'check the current rule with the local authority'."
   },
   "5": {

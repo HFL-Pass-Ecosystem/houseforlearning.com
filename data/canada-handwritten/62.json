@@ -13,7 +13,7 @@
     "Explain that wheat-free is not the same as gluten-free, since rye and barley also contain gluten."
    ],
    "ex": "A customer asks for a gluten-free pasta dish. You check: the pasta is gluten-free, but the sauce uses wheat flour as a thickener, so the dish is not safe until the sauce changes. The cook switches to a gluten-free thickener, cleans the pot and tells the customer what changed.",
-   "act": "Make a list of twenty common foods and mark which usually contain gluten, which do not and which need checking.",
+   "act": "Write a list of twenty common foods and mark which usually contain gluten, which do not and which need checking.",
    "std": "Task: sort foods by gluten risk. Condition: labels and reference lists. Standard: every food is sorted with a reason and unclear items are marked 'check'."
   },
   "2": {
@@ -29,7 +29,7 @@
     "Explain that menu boards and online posts count as claims too; check the current rule."
    ],
    "ex": "A bakery wants to put 'gluten-free' on a loaf. Before doing so it checks the current federal claim rules and the ingredient and process records. Only then does it print the label, and it files the check with the date.",
-   "act": "Make a rules table with rule, who enforces it, what you must do and a dated official source.",
+   "act": "Build a rules table with rule, who enforces it, what you must do and a dated official source.",
    "std": "Task: build a rules table. Condition: official pages only. Standard: each row has an enforcer, an action and a dated source; no rule is guessed."
   },
   "3": {

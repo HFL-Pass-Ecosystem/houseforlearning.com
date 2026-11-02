@@ -45,7 +45,7 @@
     "Find the drop-off for lithium batteries in your area."
    ],
    "ex": "Rules table row: Estimate | provincial consumer rules | give a written estimate before work | before every repair | copy kept in job file. If the estimate was 90 and the bill would be 140, the 50 extra needs the customer's approval before work continues.",
-   "act": "Make a rules table covering privacy, equipment, repair estimates and e-waste for your province.",
+   "act": "Build a rules table covering privacy, equipment, repair estimates and e-waste for your province.",
    "std": "Task: map the rules. Condition: official pages only. Standard: each row has an enforcer, an action and a checked date."
   },
   "4": {

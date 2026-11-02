@@ -61,7 +61,7 @@
     "Check the rule before you hire a helper."
    ],
    "ex": "A client wants you to work set hours with their equipment and no other clients. That is three signs of employment, so talk to an adviser before you accept.",
-   "act": "Make a rules table: rule, who enforces it, what you do, date checked.",
+   "act": "Build a rules table: rule, who enforces it, what you do, date checked.",
    "std": "Task: build a rules table for your province. Condition: using official public pages. Standard: every row has a dated source and an action; unclear points say to check with the authority."
   },
   "5": {

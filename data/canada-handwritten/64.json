@@ -29,7 +29,7 @@
     "Find the name and phone number of the patient relations office at your local hospital."
    ],
    "ex": "A patient is unhappy about a six-hour wait. The advocate finds the hospital patient relations office and helps write a clear, dated, polite note. The note gives the date and times so the office can look into it.",
-   "act": "Make a map of your province's care paths and complaint routes with the official source for each.",
+   "act": "Build a map of your province's care paths and complaint routes with the official source for each.",
    "std": "Task: map the system. Condition: official pages only. Standard: each path has a name, a purpose and a dated source; nothing is guessed."
   },
   "3": {

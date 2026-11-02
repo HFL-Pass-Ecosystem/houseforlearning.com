@@ -61,7 +61,7 @@
     "Apply the least-access rule: give each person only the access the job needs."
    ],
    "ex": "A user gets an email saying 'your account will close in one hour'. You check the link without opening it and see the address is not the real one. You advise deleting it and reporting it, and you help the user turn on two-step sign-in.",
-   "act": "Make a one-page safe-use guide for non-experts and a five-line phishing checklist.",
+   "act": "Build a one-page safe-use guide for non-experts and a five-line phishing checklist.",
    "std": "Task: write a safety guide. Condition: plain words, one page. Standard: covers passwords, two-step sign-in, phishing and who to tell when something goes wrong."
   },
   "5": {

@@ -45,7 +45,7 @@
     "Keep damaged and returned goods in a marked place until they are checked."
    ],
    "ex": "Records say 40 units but the shelf holds 37. Check the last receipts and sales. Found: three units were returned but not added back, since 37 + 3 = 40. Fix: add a returns step to the receiving checklist.",
-   "act": "Do a count of twenty SKUs, compare with records and explain each difference.",
+   "act": "Complete a count of twenty SKUs, compare with records and explain each difference.",
    "std": "Task: stock count and match. Condition: twenty SKUs. Standard: accuracy at or above 95 percent, and each difference explained in writing."
   },
   "4": {
