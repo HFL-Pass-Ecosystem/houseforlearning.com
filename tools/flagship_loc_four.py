@@ -125,7 +125,7 @@ def modules(L):
     M.append((THEMES[5][0], THEMES[5][1], THEMES[5][2],
       f'Know your numbers in {cur}. Tax rule in one line: {L["tax"]}.',
       [f'Write {cur} next to every number.', 'Contribution per unit = price minus the cost of each unit.', 'Break-even units = fixed monthly cost divided by contribution per unit; round up.', 'Add tax and duty explicitly; never bury them in a price.', 'Check against a worse case: if sales are 25% lower, do you still cover costs?'],
-      f'For {L["item"]}: price {L.get("curx",cur)} {p} per unit, cost {L.get("curx",cur)} {v} per unit, fixed cost {L.get("curx",cur)} {f:,} per month. Contribution = {p} - {v} = {cm}. Break-even = {f:,} / {cm} = {f/cm:.1f}, so {bu} {unit} per month. If sales fall 25% from {bu*2}, you sell {int(bu*2*0.75)} and the margin is {int(bu*2*0.75)*cm - f:,}.',
+      f'For {L["item"]}: price {L.get("curx",cur)} {p:,} per unit, cost {L.get("curx",cur)} {v:,} per unit, fixed cost {L.get("curx",cur)} {f:,} per month. Contribution = {p:,} - {v:,} = {cm:,}. Break-even = {f:,} / {cm:,} = {f/cm:.1f}, so {bu} {unit} per month. If sales fall 25% from {bu*2}, you sell {int(bu*2*0.75)} and the margin is {int(bu*2*0.75)*cm - f:,}.',
       f'Build your own sheet in {cur}: price, unit cost, fixed cost, contribution, break-even and a 25% worse case. Put the tax and duty rules in a separate line with a source.',
       f'Sheet has all six lines in {cur}; arithmetic is checked by a peer; the worse case is shown.'))
     M.append((THEMES[6][0], THEMES[6][1], THEMES[6][2],
@@ -151,9 +151,21 @@ def quiz(L):
      ('Name three items in a licence table.', 'Issuer, cost, time, and the date checked (any three).'),
      ('Name the five lines of a privacy notice.', 'Who we are, what we collect, why, who sees it, how to ask for a copy, correction or removal.'),
      ('How do you test an offer?', 'Show it to about 20 real people through two channels and count enquiries and orders.'),
-     (f'Price {L["cur"]} {p}, unit cost {v}, fixed {f:,}. What is the contribution per unit?', f'{p} - {v} = {cm}.'),
-     (f'With the same numbers, what is break-even per month?', f'{f:,} / {cm} = {f/cm:.1f}, rounded up to {bu}.'),
+     (f'Price {L["cur"]} {p:,}, unit cost {v:,}, fixed {f:,}. What is the contribution per unit?', f'{p:,} - {v:,} = {cm:,}.'),
+     (f'With the same numbers, what is break-even per month?', f'{f:,} / {cm:,} = {f/cm:.1f}, rounded up to {bu:,}.'),
      ('What goes on a role card?', 'Tasks, hours, pay, trial period, review date and one measure of success.')]
+
+# which module each of the ten checks belongs to (1-based), from the question content
+QMOD = [1, 2, 3, 3, 3, 4, 5, 6, 6, 7]
+def tag_quiz(q, mods, qmap=None):
+    """Append '(Covered in module N: title. To pass that module: standard.)' to each model answer."""
+    qm = list(QMOD)
+    for i, n in (qmap or {}).items(): qm[i] = n
+    out = []
+    for (a, b), n in zip(q, qm):
+        m = mods[n - 1]
+        out.append((a, b.rstrip() + f' (Covered in module {n}: {m[0]}. To pass that module: {m[7].rstrip().rstrip(".")}.)'))
+    return out
 
 def rubric(L):
     return [('Local fit','Generic page','Local facts with sources','Local facts, sources, dates and two local readers'),
@@ -162,13 +174,16 @@ def rubric(L):
             ('Customer proof','No test','20-person test counted','Test, result, change and re-test'),
             ('People and trust','No notice','Privacy notice and role card','Notice, data map, signed role card and partner letter')]
 
-def ladder(L):
+def ladder(L, extra='', place=False):
     names = ['L1 Basic','L2 Awareness','L3 Foundation','L4 Practitioner','L5 Specialist','L6 Advanced','L7 Super expert']
     ev = ['A short glossary in two languages.','A one-page market page.','A practice registration table.','A numbers sheet and a 20-person test.','A cluster checklist with sources.','A team plan with people, partners and data.','A published local case and a plan audit.']
+    if place:
+        import loc_ladder as _LL
+        extra = _LL.place_slides_html(L, e, names, ev)
     rows = ''.join(f'<tr><th scope="row">{names[i]}</th><td>{e(L["ladder"][i])}</td><td>{e(ev[i])}</td></tr>' for i in range(7))
     return ('<div class="scroll-x"><table class="ws-table"><caption>Ladder L1 to L7 for this location (this course covers L1 to L4; L5 to L7 follow in the sector courses)</caption>'
             '<thead><tr><th>Level</th><th>Can do</th><th>Evidence</th></tr></thead><tbody>' + rows + '</tbody></table></div>'
-            '<p class="ws-note">Notes: each level uses action verbs (name, describe, register, run, specialise, lead, mentor). A level is passed only when its evidence is checked by a mentor and a peer.</p>')
+            '<p class="ws-note">Notes: each level uses action verbs (name, describe, register, run, specialise, lead, mentor). A level is passed only when its evidence is checked by a mentor and a peer.</p>' + extra)
 
 def clusters_html(L):
     out = ''
@@ -184,10 +199,11 @@ def build(L):
         mods += (f'<details class="mod" {"open" if i == 1 else ""}><summary><span class="mn">Module {i}</span> {e(t)} <span class="pill">{h} h</span><span class="pill bz">{bl}</span></summary><p>{e(intro)}</p><ul>'
                  + ''.join(f'<li>{e(x)}</li>' for x in pts) + '</ul>'
                  f'<div class="evi"><strong>Worked example.</strong> {e(ex)}</div><p><strong>Activity.</strong> {e(act)}</p><p><strong>Standard to meet.</strong> {e(std)}</p></details>')
-    qz = ''.join(f'<details class="mod"><summary>Q{i+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a)}</p></details>' for i, (q, a) in enumerate(quiz(L)))
+    qz = ''.join(f'<details class="mod"><summary>Q{i+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a)}</p></details>' for i, (q, a) in enumerate(tag_quiz(quiz(L), modules(L))))
     rub = ('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric (Not yet, Meets, Exceeds)</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>'
            + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(m)}</td><td>{e(d)}</td></tr>' for a, b, m, d in rubric(L)) + '</tbody></table></div>')
-    jobs = '<ul>' + ''.join(f'<li><strong>{e(a)}.</strong> {e(b)}.</li>' for a, b in L['jobs']) + '</ul>'
+    import loc_ladder as _LL
+    jobs = '<ul>' + ''.join(f'<li><strong>{e(a)}.</strong> {e(b)}.</li>' for a, b in L['jobs']) + '</ul>' + _LL.roles_html('small business', e)
     outs = [('Understand', f'Explain the {L["name"]} market in one page with sources.'), ('Analyse', 'Score sectors from the global list for local fit.'), ('Apply', 'Build a licence table and a privacy notice.'),
             ('Create', 'Run a customer test and a launch plan.'), ('Evaluate', f'Judge a plan with a worse-case sheet in {L["cur"]}.')]
     top = (f'<div class="cb-facts"><span class="pill lv">L1 to L4 location edition</span><span class="pill">8 modules, {total} h plus practice</span><span class="pill">About 6 weeks part-time</span><span class="pill pr">USD 39 per learner per month, or USD 79 with mentor review</span></div>')
@@ -204,7 +220,7 @@ def build(L):
             + B.sec('', 'md', 'lesson by lesson', '8 modules with worked examples', mods)
             + B.sec('alt', 'as', 'assessment', 'How you are checked', f'<p>Evidence: market page, scored sector list, licence table, privacy notice and data map, test results, numbers sheet in {e(L["cur"])}, role card, launch plan. A mentor and one peer mark it with this rubric. Pass: no criterion at \'Not yet\', and at least 8 of 10 check answers right.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{qz}')
             + B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', jobs + f'<p>Next courses: the sector courses from the global list, at L5 to L7.</p>')
-            + B.sec('alt', 'ld', 'ladder', 'Ladder L1 to L7', ladder(L))
+            + B.sec('alt', 'ld', 'ladder', 'Ladder L1 to L7', ladder(L, place=True))
             + B.sec('', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship location edition. Own wording; no outside brand, school or person names. Not live.</p><p><a class="btn" href="courses-hub.html">All courses</a> <a class="btn btn-ghost" href="join.html">Join</a></p>'))
     B.page(f'learn-flagship-loc-{L["k"]}.html', f'{L["name"]} edition: starting a business from the global list', f'Global course list applied to {L["name"]}: local context, rules, jobs and worked examples in {L["cur"]}.', f'{L["name"]} edition',
            e(f'The global sector list applied to {L["name"]}: local context, rules, jobs and examples, in eight modules.'), body,

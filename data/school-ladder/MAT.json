@@ -1,0 +1,46 @@
+{
+ "slides": [
+  {
+   "level": "L1 Basic",
+   "title": "Count and name shapes",
+   "slide": "L1 Basic · Count and name shapes",
+   "notes": "Count objects up to 20 and name a circle, square and triangle. Notes: give ten buttons and two trays; learners count aloud, move three across and say how many are left (7), then hunt the room for one shape of each kind."
+  },
+  {
+   "level": "L2 Awareness",
+   "title": "Add, subtract and measure",
+   "slide": "L2 Awareness · Add, subtract and measure",
+   "notes": "Add and subtract within 100 and measure a length with a ruler. Notes: work 46 + 27 = 73 on a number line, jumping 20 then 7; learners measure a pencil in centimetres and explain how they checked their answer a second way."
+  },
+  {
+   "level": "L3 Foundation",
+   "title": "Fractions and decimals",
+   "slide": "L3 Foundation · Fractions and decimals",
+   "notes": "Compare fractions and decimals and use the four operations with whole numbers. Notes: shade 3/4 and 6/8 on equal strips to show they match, then add 0.5 + 0.25 = 0.75 and write it as 75 per cent of one whole."
+  },
+  {
+   "level": "L4 Practitioner",
+   "title": "Equations and percentages",
+   "slide": "L4 Practitioner · Equations and percentages",
+   "notes": "Solve one-step and two-step equations and percentage problems, showing each step. Notes: practice case is 3x + 5 = 20, so x = 5, checked by substituting back; then a 15 per cent discount on 400 leaves 340, because 400 x 0.85 = 340."
+  },
+  {
+   "level": "L5 Specialist",
+   "title": "Geometry, data and graphs",
+   "slide": "L5 Specialist · Geometry, data and graphs",
+   "notes": "Use the right-angled triangle rule, the mean and a straight-line graph to solve a problem. Notes: legs of 6 and 8 give a longest side of 10; the data 4, 6, 6, 8, 11 have mean 7; plot y = 2x + 1 and read y = 7 at x = 3."
+  },
+  {
+   "level": "L6 Advanced (degree level)",
+   "title": "Proof, calculus and algebra",
+   "slide": "L6 Advanced · Proof, calculus and algebra",
+   "notes": "Prove results and use calculus and matrices to model change. Notes: differentiate f(x) = x^3 - 3x to get 3x^2 - 3, so turning points sit at x = 1 and x = -1; the second derivative 6x shows a minimum then a maximum. Learners prove the square root of 2 is irrational."
+  },
+  {
+   "level": "L7 Super expert (postgraduate/expert)",
+   "title": "Research-level modelling",
+   "slide": "L7 Super expert · Research-level modelling",
+   "notes": "Formulate and defend a proof or statistical model, stating assumptions and limits. Notes: for 25 values with mean 50 and standard deviation 10, the standard error is 2 and a 95 per cent interval is about 45.9 to 54.1 (t = 2.064). Learners check residuals and write a referee-style critique."
+  }
+ ]
+}

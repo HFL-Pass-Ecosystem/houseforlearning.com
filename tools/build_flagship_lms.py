@@ -3,6 +3,8 @@
 import sys, pathlib, html
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import build_full_courses as B
+from ladder_common import ladder_sec
+from flagship_data_misc_ladder import LADDER
 e = html.escape
 M = [
  ("Choosing the right kind of platform", "Analyse", 3,
@@ -64,6 +66,28 @@ M = [
   "Complete a 15-line due-diligence checklist for a platform you could choose and score it.",
   "Each line has evidence, a score and a reason; two risks are named with a mitigation."),
 ]
+M[5:5] = [
+ ("Engagement, community and gamification", "Apply", 3,
+  "People finish courses when the experience is social, clear and rewarding. Learn simple engagement tools and how to check they help.",
+  ["Points, badges and progress bars show effort; keep rules public and fair.",
+   "Forums, groups and shared projects make learners talk to each other; assign a moderator and house rules.",
+   "Leaderboards can discourage some people; make them optional and show personal progress too.",
+   "Measure the effect: compare completion before and after a change, with the same kind of learners."],
+  "Illustration: a 30-learner onboarding group has 18 completions in a month (60 per cent). After a progress bar and a weekly group message the next group has 24 of 30 (80 per cent). The change is noted, and the team repeats it with a third group before calling it proven.",
+  "Choose two engagement tools for your brief, write the rule for each and a way to measure whether it works.",
+  "Each tool has a fair public rule, a measure and a stop condition; the claim of benefit is based on a comparison."),
+ ("Pilot, roll-out and review", "Create", 4,
+  "Test with a small group first, then roll out in steps, then review with data.",
+  ["Pilot with a small group of real learners and one friendly manager.",
+   "Write success measures before the pilot: completion, first-attempt pass, learner score, support requests.",
+   "Roll out in steps by group; keep a rollback plan and a support rota.",
+   "Review at 30 and 90 days and update the brief."],
+  "A pilot with 30 learners reaches 27 completions: 27 / 30 = 90 per cent against a target of 85. Three support requests were all about login, so a one-page login guide is added before roll-out.",
+  "Write a one-page pilot and roll-out plan for your brief with measures, dates and a rollback step.",
+  "Plan has at least three measures with targets, three dates and a rollback step."),
+]
+RUBRIC = [('Needs brief', 'Platform choice not reasoned', 'Decision and reason on all five choices; testable must-haves', 'Also costs staff time and compares two platforms'), ('Learning path', 'Path does not run', 'Path runs end to end and a test learner completes it', 'Also includes a live session and a retake rule'), ('People and automation', 'Rights too wide or rules untestable', 'Roles least-rights; five rules each with trigger, action and test', 'Also limits messages to one a day per person'), ('Reports and measures', 'Measures undefined', 'Three measures with definition, target and action', 'Also shows a report with a pattern and a fix'), ('Due-diligence checklist', 'Lines without evidence', 'Every line has evidence, score and reason; two risks have a mitigation', 'Also plans a migration test with a sample')]
+
 QUIZ = [("Give two costs of an open source platform that a licence fee hides.", "Hosting, installing, securing, upgrading and staff time."),
  ("When would you pick a sequenced path and when learner choice?", "Sequenced when order matters; learner choice when order does not."),
  ("What does SCORM or xAPI let you do?", "Move a course between tools and report results to the platform."),
@@ -91,10 +115,11 @@ def build():
         '<p><strong>Who it is for:</strong> training managers, HR staff, school and college administrators, trainers who run an online academy. <strong>Requirements:</strong> none. <strong>Source:</strong> built from the owner\'s "top 29 platform features" article, rewritten in our own words; no supplier is named.</p>')
     feat = ['Course management', 'Package standards (SCORM, xAPI)', 'Learning portals', 'Branding', 'White-labelling', 'Integrations', 'Automation', 'Learner experience', 'Exams', 'Surveys', 'Webinar link', 'Blended learning', 'Gamification', 'Roles and permissions', 'Groups', 'Social learning', 'Reporting', 'Skills and certificate tracking', 'Selling courses', 'Learning paths', 'Data migration', 'Dynamic rules', 'Notifications', 'Multilingual interface', 'Security', 'Reliability', 'Responsive design', 'Mobile and remote ready', 'Single sign-on']
     fmap = B.sec('alt', 'fm', 'feature map', 'The 29 features, and where you learn each', '<ol class="ws-chips">' + ''.join(f'<li>{e(f)}</li>' for f in feat) + '</ol>')
-    body = (about + fmap + B.sec('', 'md', 'lesson by lesson', '6 modules with worked examples', mods)
-            + B.sec('alt', 'as', 'assessment', 'How you are checked', '<p>Evidence: needs brief, learning path, people and automation map, scored checklist. A mentor and one peer mark it. Pass: every standard met.</p><h3 class="ws-h3">Ten-question check, with model answers</h3>' + quiz)
-            + B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', '<ul><li>Learning platform administrator</li><li>Training operations coordinator</li><li>Instructional technologist</li><li>E-learning project lead</li><li>Independent consultant for small academies</li></ul>')
-            + B.sec('alt', 'lc', 'ten locations and global', 'Your place', '<p>Choose a platform that can store learner data in a place your law allows.</p>' + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Personal data law to check: {e(L["data"])}. Credit and level frame: {e(L["frame"])}.</p></details>' for L in B.LOC) + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
-            + B.sec('', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship. Own wording. Not live.</p>'))
+    body = (about + fmap + B.sec('', 'md', 'lesson by lesson', f'{len(M)} modules with worked examples', mods)
+            + B.sec('alt', 'as', 'assessment', 'How you are checked', '<p>Evidence: needs brief, learning path, people and automation map, scored checklist. A mentor and one peer mark it with this rubric. Pass: no criterion at Not yet.</p>' + '<div class="scroll-x"><table class="ws-table"><caption>Marking rubric (Not yet, Meets, Exceeds)</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>' + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(m)}</td><td>{e(d)}</td></tr>' for a, b, m, d in RUBRIC) + '</tbody></table></div>' + '<h3 class="ws-h3">Ten-question check, with model answers</h3>' + quiz)
+            + ladder_sec(LADDER['platform'], '')
+            + B.sec('alt', 'jb', 'jobs this leads to', 'Where this takes you', '<ul><li>Learning platform administrator</li><li>Training operations coordinator</li><li>Instructional technologist</li><li>E-learning project lead</li><li>Independent consultant for small academies</li></ul>')
+            + B.sec('', 'lc', 'ten locations and global', 'Your place', '<p>Choose a platform that can store learner data in a place your law allows.</p>' + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Personal data law to check: {e(L["data"])}. Credit and level frame: {e(L["frame"])}.</p></details>' for L in B.LOC) + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
+            + B.sec('alt', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship. Own wording. Not live.</p>'))
     B.page('learn-flagship-platform-admin.html', 'Learning Platform Administration (flagship course)', 'Choose, build and run a learning platform: 29 features, six modules.', 'Learning Platform Administration', e('Choose, build and run a learning platform: from course packages to security, with all 29 key features covered.'), body, B.crumb(('Courses', 'courses-hub.html'), ('Learning technology', None)), kicker='flagship course')
 build()

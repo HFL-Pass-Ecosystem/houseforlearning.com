@@ -15,6 +15,11 @@ for _n in ('a','b','c','d'):
     try:
         for _k,_v in importlib.import_module('uae_deep_'+_n).D2.items(): D.setdefault(_k,[]); D[_k]=D[_k]+list(_v)
     except ModuleNotFoundError: pass
+LAD = {}
+for _n in ('a','b','c','d'):
+    try: LAD.update(importlib.import_module('uae_ladder_'+_n).LAD)
+    except ModuleNotFoundError: pass
+LVN = ['L1 Basic','L2 Awareness','L3 Foundation','L4 Practitioner','L5 Specialist','L6 Advanced','L7 Super expert']
 e = html.escape
 RUB = [("Evidence quality","Claims without records","Records for most claims","Every claim linked to a dated record"),
  ("Numbers and units","Missing units or currency","Correct, units shown (AED)","Correct, with a check calculation"),
@@ -28,6 +33,10 @@ LADDER = [("L1 Awareness","Name the main parts of {k} and the safety rules.","Yo
  ("L5 Specialist","Improve the process using data and fix root causes.","You cut a cost, delay or fault by a measured amount."),
  ("L6 Lead","Lead a team, set standards and train others.","Your team meets the standard when you are away."),
  ("L7 Director","Set strategy, partnerships and risk limits for the whole unit.","You grow results over a year within agreed risk limits.")]
+def plu(u,n=2):
+    if n==1: return u
+    irr={'child':'children','analysis':'analyses','policy':'policies','kg':'kg','MWh':'MWh','tonne':'tonnes'}
+    return irr.get(u,u+'s')
 def m(n): return f'{n:,.0f}' if n==int(n) else f'{n:,.2f}'
 def course(t):
     (slug,title,mode,prod,buyers,haz,steps,kpi,unit,price,cost,vol,terms,jobs,local)=t
@@ -81,9 +90,9 @@ def course(t):
       "Collect a tally for one week and make a Pareto chart.","Tally complete; biggest cause named; one fix planned with a date."))
     M.append(("Costing and pricing in AED","Evaluate",12,
       f"Know the cost of one {unit} before you set the price. Include materials, labour, energy, transport, licence share, waste and a safety margin.",
-      [f"Cost per {unit} = total cost divided by {unit}s sold (not made).","Margin = (price minus cost) divided by price.",
+      [f"Cost per {unit} = total cost divided by {plu(unit)} sold (not made).","Margin = (price minus cost) divided by price.",
        "Break-even units = fixed costs divided by gain per unit.","Test the price with two users and write down the answer."],
-      f"At AED {m(price)} per {unit} and cost AED {m(cost)}, gain is AED {m(unitgain)} and margin {marg:.1f}%. At {m(vol)} {unit}s a month, gross gain is AED {m(month)}. If fixed costs are AED {m(fixed)}, break-even is {math.ceil(fixed/unitgain)} {unit}s.",
+      f"At AED {m(price)} per {unit} and cost AED {m(cost)}, gain is AED {m(unitgain)} and margin {marg:.1f}%. At {m(vol)} {plu(unit,vol)} a month, gross gain is AED {m(month)}. If fixed costs are AED {m(fixed)}, break-even is {m(math.ceil(fixed/unitgain))} {plu(unit,math.ceil(fixed/unitgain))}.",
       "Build the cost sheet with AED on every line and have your mentor check it.","No missing cost found; margin calculated twice by different routes."))
     M.append(("Serve and sell responsibly","Apply",12,
       f"Customers return when you keep promises. Promise only what your workflow can deliver.",
@@ -121,6 +130,8 @@ def course(t):
         outcomes=[("Understand",f"Explain the UAE market, rules and hazards for {title.lower()}."),("Apply",f"Run the workflow: {', '.join(s)}."),("Analyse",f"Measure {kpi} and find the biggest cause of loss."),("Evaluate","Cost and price in AED and judge scale, change or stop."),("Create","Produce a record pack a supervisor can audit.")])
 def build(c):
     total=sum(x[2] for x in c['M'])
+    import re as _re
+    c['cond']=_re.sub(r'About \d+ hours',f'About {total} hours',c['cond'])
     mods=''
     for i,(t,bl,h,intro,pts,ex,act,std) in enumerate(c['M'],1):
         mods+=(f'<details class="mod" {"open" if i==1 else ""}><summary><span class="mn">Module {i}</span> {e(t)} <span class="pill">{h} h</span><span class="pill bz">{bl}</span></summary><p>{e(intro)}</p><ul>'+''.join(f'<li>{e(p)}</li>' for p in pts)+'</ul>'
@@ -134,6 +145,10 @@ def build(c):
     quiz=''.join(f'<details class="mod"><summary>Q{i+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a.rstrip()+tag(r))}</p></details>' for i,(q,a,r) in enumerate(c['Q']))
     rub=('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>'+''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(x)}</td><td>{e(d)}</td></tr>' for a,b,x,d in RUB)+'</tbody></table></div>')
     lad=('<div class="scroll-x"><table class="ws-table"><caption>Seven-level ladder</caption><thead><tr><th>Level</th><th>You can</th><th>Evidence</th></tr></thead><tbody>'+''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b.format(k=c["title"].lower()))}</td><td>{e(d)}</td></tr>' for a,b,d in LADDER)+'</tbody></table></div>')
+    if c['slug'] in LAD:
+        sl=LAD[c['slug']]; assert len(sl)==7, c['slug']
+        lad=('<p>Seven slides, one for each level. Step in at your level and move up; credits stack.</p>'+''.join(
+            f'<details class="mod"><summary>Slide {k}. {e(LVN[k-1])}: {e(t)}</summary><p><strong>On the slide:</strong> {e(LVN[k-1])} · {e(t)}</p><p><strong>Notes:</strong> {e(n)}</p></details>' for k,(t,n) in enumerate(sl,1)))
     about=B.sec('','ab','about this course','What you will be able to do',
       f'<div class="cb-facts"><span class="pill lv">L4 Practitioner</span><span class="pill">About {sum(x[2] for x in c["M"])} h</span><span class="pill">Practice 70% · Share 20% · Study 10%</span><span class="pill">UAE (Dubai and Abu Dhabi)</span></div>'
       '<ul class="blm">'+''.join(f'<li><span class="bz">{b}</span> {e(t)}</li>' for b,t in c['outcomes'])+'</ul>'
@@ -141,7 +156,7 @@ def build(c):
       f'<p class="ws-note">{e(c["safety"])}</p><p><strong>Requirements:</strong> none. Currency: AED on every number.</p>')
     body=(about+B.sec('alt','md','lesson by lesson',f'{len(c["M"])} modules with worked examples ({total} h guided)',mods)
       +B.sec('','as','assessment','How you are checked',f'<p>Evidence: your records, numbers and reflections. Two peers and one mentor mark it with this rubric. Pass: no criterion at "Not yet" and at least 70% on the check.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{quiz}')
-      +B.sec('alt','ld','levels L1 to L7','Where this sits on the ladder',lad)
+      +B.sec('alt','ld','levels L1 to L7','Slide by slide, with notes' if c['slug'] in LAD else 'Where this sits on the ladder',lad)
       +B.sec('','jb','jobs this leads to','Where this takes you','<ul>'+''.join(f'<li>{e(j)}</li>' for j in c['jobs'])+'</ul>')
       +B.sec('alt','lc','ten locations and global','Your place','<p>Use your own currency, language and local rules. Check each rule with your local authority.</p>'+''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Currency {L["cur"]}; language {e(L["lang"])}; set up legally: {e(L["reg"])}; personal data: {e(L["data"])}; where to practise: {e(L["partner"])}.</p></details>' for L in B.LOC)+f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
       +B.sec('','nx','next','Draft','<p class="ws-note">Draft flagship-depth course. Own wording. Not live.</p>'))

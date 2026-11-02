@@ -255,8 +255,26 @@ def course(p):
         return ' (Background fact, not taught in a single module. Check it with your mentor and note the source in your records; see the "Rules and safety" and "Evidence quality" rows of the marking rubric.)'
     quiz = ''.join(f'<details class="mod"><summary>Q{i+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a.rstrip() + tag(mn))}</p></details>' for i, (q, a, mn) in enumerate(QZ))
     rub = ('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>' + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(c)}</td><td>{e(d)}</td></tr>' for a, b, c, d in RUB) + '</tbody></table></div>')
-    lad = ('<div class="scroll-x"><table class="ws-table"><caption>Seven levels, L1 to L7</caption><thead><tr><th>Level</th><th>Role</th><th>You can</th><th>Notes and evidence</th></tr></thead><tbody>' +
-           ''.join(f'<tr><th scope="row">L{i+1}</th><td>{e(f["roles"][i])}</td><td>{LADDER_VERB[i]}: {e(LADDER_DO[i].format(t=tl))}</td><td>{e(LADDER_NOTE[i])}</td></tr>' for i in range(7)) + '</tbody></table></div>')
+    lad_file = ROOT / 'data/canada-ladder' / f'{n:02d}.json'
+    if lad_file.exists():
+        # L1..L7 slides, one per level, each tied to a focus module (M1, M2, M3, M4, M6, M7, M8) with speaker notes
+        chk = json.load(open(lad_file)); FOC = [1, 2, 3, 4, 6, 7, 8]
+        lad = ''; used = set()
+        for i in range(7):
+            mt, bl, h, intro, pts, ex, act, std = M[FOC[i] - 1]
+            # prefer a quiz item that is tagged to this focus module; else use the picked one
+            same = [k for k, z in enumerate(QZ) if z[2] == FOC[i] and k not in used]
+            k = (chk[i] - 1) if QZ[chk[i] - 1][2] == FOC[i] and (chk[i] - 1) not in used else (same[0] if same else chk[i] - 1)
+            used.add(k); q, a = QZ[k][0], QZ[k][1]
+            xm = '' if QZ[k][2] == FOC[i] else (f' (this question is covered in module {QZ[k][2]}: {M[QZ[k][2]-1][0]})' if QZ[k][2] else ' (background fact, not taught in a single module)')
+            body = (f'L{i+1}: {f["roles"][i]}. You can {LADDER_VERB[i].lower()}: {LADDER_DO[i].format(t=tl)}. Focus module: {mt} ({bl}, {h} h). {intro} Key points: ' + ' '.join(pts))
+            notes = (f'Teach: open with the worked example. {ex} Then set the activity: {act} Mark against the standard: {std} Check at this level{xm}: {q} Model answer: {a} Level note: {LADDER_NOTE[i]}')
+            lad += (f'<details class="mod"><summary><span class="mn">Slide {i+1}</span> L{i+1} {e(f["roles"][i])}: {e(mt)}</summary><p>{e(body)}</p>'
+                    f'<p class="ws-note"><strong>Speaker notes.</strong> {e(notes)}</p></details>')
+        lad = '<p>Seven slides, one per level. Open each for the slide text and the speaker notes.</p>' + lad
+    else:
+        lad = ('<div class="scroll-x"><table class="ws-table"><caption>Seven levels, L1 to L7</caption><thead><tr><th>Level</th><th>Role</th><th>You can</th><th>Notes and evidence</th></tr></thead><tbody>' +
+               ''.join(f'<tr><th scope="row">L{i+1}</th><td>{e(f["roles"][i])}</td><td>{LADDER_VERB[i]}: {e(LADDER_DO[i].format(t=tl))}</td><td>{e(LADDER_NOTE[i])}</td></tr>' for i in range(7)) + '</tbody></table></div>')
     outs = [(m[1], m[3].split('. ')[0] + '.') for m in M]
     about = B.sec('', 'ab', 'about this course', 'What you will be able to do',
         f'<div class="cb-facts"><span class="pill lv">L4 Practitioner</span><span class="pill">8 modules · {hours} h</span><span class="pill">{e(p["domain"])}</span><span class="pill">{e(p["phase"])}</span></div>'
@@ -268,7 +286,7 @@ def course(p):
         f'<p><strong>Field:</strong> {e(f["label"])}. <strong>Who it is for:</strong> students, career changers, returners, newcomers to Canada, small-business starters. <strong>Requirements:</strong> none. <strong>Materials:</strong> lesson text, templates, rules table, cost sheet, risk register, rubric, ten-question check with answers.</p>')
     body = (about + B.sec('alt', 'md', 'lesson by lesson', '8 modules with worked examples', mods)
             + B.sec('', 'as', 'assessment', 'How you are checked', f'<p>Evidence: value statement, rules table, core task record, cost sheet, 4-week log, funnel, risk register and privacy note, pilot review and 12-month plan. A mentor and two peers mark it with this rubric. Pass: no criterion at "Not yet".</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{quiz}')
-            + B.sec('alt', 'lv', 'levels', 'Seven levels, L1 to L7', '<p>Use this ladder to see where you are and what to show next. Each level builds on the one below.</p>' + lad)
+            + B.sec('alt', 'lv', 'levels', 'Seven levels, L1 to L7', ('<p>Use this ladder to see where you are and what to show next. Each level builds on the one below.</p>' + lad if not lad.startswith('<p>Seven slides') else lad))
             + B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', '<ul>' + ''.join(f'<li>{e(j)}</li>' for j in f['jobs']) + '</ul>')
             + B.sec('alt', 'lc', 'ten locations and global', 'Your place', f'<p>The course is written for Canada. The same method works elsewhere; local rules, currency and levels change. Pick your place.</p>'
                     + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Currency: {L["cur"]}. Registering: {e(L["reg"])}. Data rule: {e(L["data"])}. Levels frame to cite: {e(L["frame"])}.</p></details>' for L in B.LOC)

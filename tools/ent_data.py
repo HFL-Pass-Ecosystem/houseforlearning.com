@@ -9,7 +9,7 @@ def C(**k): COURSES.append(k)
 # ---------------------------------------------------------------- 1 CRM
 C(slug='ent-crm-administration', title='Customer Relationship Management Administration and Sales Process',
   short='Run a cloud CRM from first login to a governed, reported sales and service operation.',
-  sub='Cloud CRM platform (subject taught: Salesforce)', who='Sales staff, channel managers, support agents, junior admins, career changers.',
+  sub='Cloud CRM platform', who='Sales staff, channel managers, support agents, junior admins, career changers.',
   jobs=[('CRM administrator', 'Sets up users, access, fields and reports'), ('Sales operations analyst', 'Keeps pipeline data clean and reports it'), ('Channel manager', 'Plans and reviews partners inside the CRM'), ('Support team lead', 'Runs cases, queues and service levels'), ('CRM consultant', 'Designs the whole sales-to-service flow')],
   mods=[
  (1, 'Finding your way around', 'Remember', 2, 'A CRM is one shared notebook about customers. Before you change anything, learn where things are and what the words mean.',
@@ -40,7 +40,7 @@ C(slug='ent-crm-administration', title='Customer Relationship Management Adminis
  (6, 'Service: cases, queues and service levels', 'Evaluate', 4, 'Service turns a promise into a measured routine. Cases need a queue, a clock, an owner and a clear close.',
   ['Case flow: received, assigned, working, waiting for customer, solved, closed with a reason.', 'Entitlements and service levels: which customer gets which response and fix times.', 'Channels: email, portal, chat; one case for one problem.', 'Measure: first response time, time to solve, reopen rate, customer score.'],
   'Gold customers get a 1-hour response; the report shows 92% met in March and lists the 8% missed with causes.',
-  'Set up a queue with two service levels; process five practice cases; build a service dashboard.', 'Dashboard shows the four measures; at least 90% of practice cases within their clocks.',
+  'Set up a queue with two service levels; process ten practice cases; build a service dashboard.', 'Dashboard shows the four measures; at least 90% of practice cases within their clocks.',
   [('A case has a clock', 'Explain start, pause (waiting for customer), stop. Note: pause rules must be fair.'), ('Four service numbers', 'Define each in one line.')]),
  (7, 'Governance, data quality and change', 'Create', 5, 'At the top level you protect the whole system: clean data, tested changes, training and a support route.',
   ['Data quality: required fields, validation rules, duplicate rules, monthly clean-up report.', 'Change control: ideas list, sandbox test, release note, rollback plan.', 'Network of champions: a person per team who trains, collects ideas and helps others.', 'Audit: who changed what and when; yearly access review.'],
@@ -52,7 +52,7 @@ C(slug='ent-crm-administration', title='Customer Relationship Management Adminis
 # ---------------------------------------------------------------- 2 Creative / document tools
 C(slug='ent-creative-document-suite', title='Creative and Document Suite Practice: Design, PDF and Brand Control',
   short='Produce, protect and manage brand-safe designs and documents with a professional creative suite.',
-  sub='Creative cloud suite (subject taught: Adobe)', who='Designers, marketers, office staff, teachers, small-business owners.',
+  sub='Creative cloud suite', who='Designers, marketers, office staff, teachers, small-business owners.',
   jobs=[('Junior designer', 'Makes posters, social posts and layouts'), ('Document controller', 'Owns PDF forms, signatures and archive'), ('Brand coordinator', 'Keeps colours, fonts and logos correct'), ('Marketing assistant', 'Turns text into finished pieces'), ('Creative operations lead', 'Runs libraries, licences and review flow')],
   mods=[
  (1, 'The tools and the file types', 'Remember', 2, 'Know which tool does which job and which file to save.', ['Raster (photos) versus vector (logos and shapes).', 'Layout tool, photo tool, drawing tool, PDF tool.', 'Save an editable source and an export; name files with date and version.'], 'A logo is drawn as a vector so it prints sharp on a card and on a banner.', 'List five jobs and choose the tool and file type for each.', 'Five correct pairs; file names follow the naming rule.', [('Photo or drawing?', 'Show a zoomed photo and a zoomed logo. Note: pixels blur, vectors stay sharp.'), ('Source and export', 'Why keep both.')]),
@@ -67,7 +67,7 @@ C(slug='ent-creative-document-suite', title='Creative and Document Suite Practic
 # ---------------------------------------------------------------- 3 Database and finance applications
 C(slug='ent-database-finance-applications', title='Enterprise Database and Finance Applications Practice',
   short='Learn relational data, queries, and the core finance flows of a large business application suite.',
-  sub='Enterprise database and applications platform (subject taught: Oracle)', who='Accountants, data staff, junior developers, finance operations staff, career changers.',
+  sub='Enterprise database and applications platform', who='Accountants, data staff, junior developers, finance operations staff, career changers.',
   jobs=[('Database support analyst', 'Runs queries and checks data'), ('Finance systems analyst', 'Maintains ledger, payables, receivables'), ('Report developer', 'Builds management reports'), ('Application support lead', 'Handles incidents and changes'), ('Finance systems architect', 'Designs integration and controls')],
   mods=[
  (1, 'Data in tables', 'Remember', 2, 'A database is a set of tables linked by keys.', ['Table, row, column, key.', 'Types: text, number, date.', 'Why we do not store the same fact twice.'], 'A customer table and an invoice table are linked by customer number.', 'Sketch three linked tables for a small shop.', 'Keys named; no repeated facts.', [('Tables and keys', 'Draw two tables joined by a key.'), ('One fact, one place', 'Show a repeated-data problem.')]),
@@ -82,7 +82,7 @@ C(slug='ent-database-finance-applications', title='Enterprise Database and Finan
 # ---------------------------------------------------------------- 4 ERP and CRM business apps
 C(slug='ent-business-applications-erp-crm', title='ERP and CRM Business Applications: Sales, Operations and Finance',
   short='Run one connected business application for sales, stock, purchasing and finance, and tailor it with low-code tools.',
-  sub='Business applications suite (subject taught: Microsoft Dynamics)', who='Business analysts, operations staff, finance staff, consultants, managers.',
+  sub='Business applications suite', who='Business analysts, operations staff, finance staff, consultants, managers.',
   jobs=[('Business application analyst', 'Maps needs to settings'), ('Operations coordinator', 'Runs orders, stock, purchasing'), ('Low-code maker', 'Builds forms, flows and apps'), ('Implementation consultant', 'Leads setup and training'), ('Solution architect', 'Designs the whole system')],
   mods=[
  (1, 'One business, one system', 'Remember', 2, 'An ERP joins sales, stock, buying and money in one set of records.', ['Modules: sales, service, supply chain, finance, projects.', 'Master data versus transactions.', 'Roles and the home page.'], 'A sales order reduces stock and later creates an invoice automatically.', 'Trace one order from quote to cash on a diagram.', 'Every step and record named.', [('Modules map', 'Boxes joined by flow.'), ('Master data', 'Customer, item, supplier.')]),
@@ -97,10 +97,10 @@ C(slug='ent-business-applications-erp-crm', title='ERP and CRM Business Applicat
 # ---------------------------------------------------------------- 5 Cloud admin centre
 C(slug='ent-cloud-admin-centre', title='Cloud Office Admin Centre: Users, Security and Compliance',
   short='Administer a cloud office suite: people, licences, mail, files, devices, security and reports.',
-  sub='Cloud office admin centre (subject taught: Microsoft 365)', who='IT support staff, office managers, small-business owners, junior administrators.',
+  sub='Cloud office admin centre', who='IT support staff, office managers, small-business owners, junior administrators.',
   jobs=[('IT support technician', 'Creates users and fixes access'), ('Office administrator', 'Manages licences and shared mailboxes'), ('Security administrator', 'Applies sign-in and data rules'), ('Collaboration lead', 'Runs teams and sites'), ('Cloud administrator', 'Owns the whole tenant')],
   mods=[
- (1, 'The admin centre tour', 'Remember', 2, 'One portal controls the whole office suite.', ['Home, users, groups, billing, health.', 'Roles: global admin should be few.', 'Service health and message centre.'], 'A new admin finds a user, a licence and the service health page in 5 minutes.', 'Take the tour and list ten menu items with purpose.', 'Ten correct.', [('The map', 'Annotated screenshot.'), ('Few global admins', 'Why two, not ten.')]),
+ (1, 'The admin centre tour', 'Remember', 2, 'One portal controls the whole office suite.', ['Home, users, groups, billing, health.', 'Roles: global admin should be few.', 'Service health and message centre.'], 'A new admin finds a user, a licence and the service health page in 5 minutes.', 'Take the tour and list ten menu items with purpose.', 'Ten correct.', [('The map', 'Annotated screenshot.'), ('Few global admins', 'Why two or three, not ten.')]),
  (2, 'Users, groups and licences', 'Apply', 3, 'Joiners, movers and leavers done the same way every time.', ['Create user, assign licence.', 'Groups for teams and mail.', 'Leaver: block sign-in, convert mailbox, remove licence.'], 'A leaver is blocked in minutes and mailbox kept for 30 days.', 'Process a joiner, a mover and a leaver.', 'All three complete with checklist.', [('J-M-L', 'Three checklists.'), ('Licence cost', 'Saved by removing.')]),
  (3, 'Mail and calendars', 'Apply', 3, 'Mail needs correct records and rules.', ['Shared mailbox and alias.', 'Mail flow rules.', 'Domain records: mx, spf, dkim, dmarc (never edit without a plan).'], 'A shared inbox is used by four agents without a shared password.', 'Create a shared mailbox and one rule.', 'Works; permissions minimal.', [('Mail records', 'Explain each in one line.'), ('Shared mailbox', 'No shared password.')]),
  (4, 'Files, sites and teams', 'Understand', 3, 'Where files live decides who can see them.', ['Sites, libraries, sharing links.', 'Guest access rules.', 'Retention basics.'], 'External sharing is limited to named guests with expiry.', 'Set sharing limits for one site.', 'Guests expire in 30 days.', [('Link types', 'Anyone, org, named.'), ('Expiry', 'Why.')]),
@@ -112,7 +112,7 @@ C(slug='ent-cloud-admin-centre', title='Cloud Office Admin Centre: Users, Securi
 # ---------------------------------------------------------------- 6 Open ERP
 C(slug='ent-open-source-erp', title='Open-Source All-in-One ERP: Setup to Daily Operations',
   short='Set up and run an open-source business suite for sales, stock, buying, accounting and websites.',
-  sub='Open-source ERP (subject taught: Odoo)', who='Small-business owners, accountants, operations staff, junior consultants.',
+  sub='Open-source ERP', who='Small-business owners, accountants, operations staff, junior consultants.',
   jobs=[('ERP assistant', 'Enters daily transactions'), ('Small-business bookkeeper', 'Runs invoices and bank matching'), ('Inventory controller', 'Counts and replenishes stock'), ('ERP functional consultant', 'Configures modules for clients'), ('ERP project lead', 'Leads rollout')],
   mods=[
  (1, 'Apps and the dashboard', 'Remember', 2, 'Install only the apps you need.', ['App list: sales, inventory, purchase, accounting, website.', 'Company, users, access rights.', 'Settings and developer mode.'], 'A shop installs sales, inventory and accounting first.', 'Create a practice company and install three apps.', 'Three apps working; one user with limited rights.', [('Pick apps', 'Needs first.'), ('Rights', 'Basic setting.')]),
@@ -127,7 +127,7 @@ C(slug='ent-open-source-erp', title='Open-Source All-in-One ERP: Setup to Daily 
 # ---------------------------------------------------------------- 7 Small business cloud suite
 C(slug='ent-small-business-cloud-suite', title='Small-Business Cloud Suite: CRM, Finance, Desk and Automation',
   short='Connect sales, books, support, projects and automation in one affordable cloud suite.',
-  sub='Small-business cloud suite (subject taught: Zoho)', who='Owners, managers, accountants, support staff, freelancers.',
+  sub='Small-business cloud suite', who='Owners, managers, accountants, support staff, freelancers.',
   jobs=[('Business operations assistant', 'Keeps records across apps'), ('Customer-support agent', 'Runs the help desk'), ('Bookkeeper', 'Invoices, expenses, reports'), ('Automation builder', 'Connects apps with rules'), ('Suite consultant', 'Sets up whole companies')],
   mods=[
  (1, 'One login, many apps', 'Remember', 2, 'A suite shares users and data.', ['App launcher.', 'Organisation, users, roles.', 'Sandbox and live.'], 'One sign-in opens CRM, books and desk.', 'Create an org with three users.', 'Roles tested.', [('Launcher', 'Tour.'), ('Roles', 'Three.')]),

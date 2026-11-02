@@ -253,12 +253,14 @@ WE3 = [
  (('SST',), r'earth in space|changing earth', "Earth rotates once in 24 hours (day and night) and orbits the Sun in about 365 days (a year). Earthquakes happen where plates meet; rivers and wind erode land."),
  (('SST',), r'maps and landforms', "Scale 1:50,000: 2 cm on the map is 1 km on the ground. Contour lines close together show a steep slope."),
  (('SST',), r'india, size', "India lies in the northern and eastern hemispheres; the Tropic of Cancer crosses it; the Himalayas lie to the north. Locate three of these on a map."),
+ (('SST',), r'agriculture', "A district has 50,000 hectares in all and 30,000 of them are sown, so the net sown share is 30,000 / 50,000 x 100 = 60 percent. Match soil to crop: alluvial soil suits wheat and rice, and black soil suits cotton. Give two ways a farmer can raise yield without harming the soil."),
  (('SST',), r'resources', "Renewable: sun, wind, water. Non-renewable: coal, oil. Write two ways your home can use less of one non-renewable resource."),
  (('SST',), r'agriculture, industries', "Primary: farming. Secondary: making goods. Tertiary: services. Cotton farm, textile mill and clothes shop show all three."),
  (('SST',), r'natural vegetation', "Rainfall and temperature decide vegetation: heavy rain and heat give rainforest; little rain gives desert scrub."),
  (('SST',), r'early humans', "Early humans moved from hunting and gathering to farming; Indus Valley cities had planned streets and drains. Put four events on a timeline."),
  (('SST',), r'medieval kingdoms', "Trade routes carried silk and spices; kingdoms taxed the trade and built roads and ports. Mark one route on a map and list two goods."),
- (('SST',), r'nationalism|socialism and nazism', "Compare two ideas in a table: who holds power, who owns property, what rights people have. Then write one sentence on each effect."),
+ (('SST',), r'nationalism', "Nationalism is a feeling of belonging to one nation, shared by people with a common history, language or land. Example: Germany was proclaimed a single empire on 18 January 1871 after many separate states joined. Write two things that make people feel part of a nation and one risk if nationalism turns into hostility to others."),
+ (('SST',), r'socialism and nazism', "Compare two ideas in a table: who holds power, who owns property, what rights people have. Then write one sentence on each effect."),
  (('SST',), r'british empire', "Timeline: 1857 revolt, 1930 salt march, 1947 independence. Choose one event and say who took part and why."),
  (('SST',), r'french revolution', "1789: the Estates-General met and the Bastille was stormed on 14 July. The Declaration of the Rights of Man and the Citizen set out equal rights."),
  (('SST',), r'uae|united arab emirates|emirates', "The UAE has seven emirates: Abu Dhabi, Dubai, Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah and Fujairah. National Day is 2 December (1971). Name the capital and one landmark."),
@@ -467,6 +469,57 @@ def build_data(p, s, rs):
              ladder=LADDER[kind], jobs=[], blooms=sorted({m['bloom'] for m in mods}, key=list(BLOOM).index))
     return d
 
+
+RUNG_NOTE = ['First contact: short tasks, a teacher checks each one.', 'Awareness: explain the idea in your own words.', 'Foundation: do guided tasks with a checklist and keep a few records.',
+             'Practitioner: do the full task alone, with a teacher or mentor on call.', 'Specialist: take one narrow area to depth and help a peer.', 'Advanced: lead a team or a study and review other people\'s evidence.',
+             'Expert: set and audit the standard, and publish worked examples back to learners.']
+LEADS = {'lang': ['Reading, writing and speaking work in school, college and offices', 'Teaching assistant, writer, reporter, interpreter or customer-support roles'],
+         'maths': ['Accounts, data, planning and measurement work', 'Accounts assistant, data clerk, technician, analyst or teacher'],
+         'sci': ['Laboratory, health, farming, energy and engineering routes', 'Laboratory assistant, technician, nurse, engineer or researcher'],
+         'soc': ['Public service, law, research, media and community work', 'Researcher, civil-service aide, journalist, planner or teacher'],
+         'comp': ['Computing, data and office-technology routes', 'IT support, developer, data entry, web or network technician'],
+         'biz': ['Business, accounts and trade routes', 'Accounts assistant, sales or stores clerk, shop owner, entrepreneur'],
+         'val': ['Life skills for study, work and community life', 'Peer mentor, volunteer, team leader or counsellor trainee']}
+
+def next_plans(p):
+    import re
+    if p.startswith('esl-e'): return [f'esl-e{int(p[5:]) + 1}']
+    m = re.match(r'grade-(\d\d)(?:-(\w+))?$', p)
+    if not m: return []
+    g, st = int(m.group(1)), m.group(2)
+    if g == 10: return ['grade-11-commerce', 'grade-11-humanities', 'grade-11-science']
+    if g == 11: return [f'grade-12-{st}']
+    if g == 12: return []
+    return [f'grade-{g + 1:02d}']
+
+def leads_html(d):
+    b = B.BANDS[d['band']]; s = d['subject']; out = []
+    nx = []
+    for q in next_plans(d['plan']):
+        if (q, s) in B.plans: nx.append(f'<li><a href="{B.school_slug(q, s)}">{e(B.plan_label(q))} {e(d["subject_name"])}</a></li>')
+    out.append('<h3 class="ws-h3">Next course</h3>' + (('<ul>' + ''.join(nx) + '</ul>') if nx else f'<ul><li><a href="{b[2]}">More {e(b[0])} courses</a></li></ul>'))
+    if d['band'] in ('post', 'esl') or d['plan'] in ('grade-10', 'grade-09'):
+        lead = LEADS[d['kind']]
+        out.append(f'<h3 class="ws-h3">Study and work this course supports</h3><ul><li>{e(lead[0])}.</li><li>{e(lead[1])}. These are examples, not promises of a job.</li></ul>')
+    out.append('<h3 class="ws-h3">Pathways</h3><ul><li><a href="pathways.html">Pathways</a></li><li><a href="career-pathways.html">Career pathways</a></li>' + ('<li><a href="learners-ug.html">Undergraduate learners</a></li>' if d['plan'].startswith('grade-12') else '') + '</ul>')
+    return ''.join(out)
+
+
+def ladder_slides(d):
+    """7 slides (L1 to L7) with notes, from data/school-ladder/<SUBJECT>.json. None when no file (Islamic studies, or not written yet)."""
+    f = B.Dt / 'school-ladder' / f'{d["subject"]}.json'
+    if d['subject'] == 'ISL' or not f.exists(): return None
+    sl = json.load(open(f))['slides']
+    if len(sl) != 7: return None
+    units = '; '.join(m['title'] for m in d['modules'][:4]) + (' and more' if len(d['modules']) > 4 else '')
+    out = '<p>Seven slides, one for each level. Step in at your level and move up; credits stack. A level is reached when you can meet its standard, not by age.</p>'
+    for i, x in enumerate(sl, 1):
+        here = (i == d['level'])
+        mark = f'<p><strong>This course:</strong> {e(d["label"])} {e(d["subject_name"])} is at this level. Its units include {e(units)}.</p>' if here else ''
+        out += (f'<details class="mod"><summary>Slide {i}. {e(x["level"])}: {e(x["title"])}{" (this course)" if here else ""}</summary><p><strong>On the slide:</strong> {e(x["slide"])}</p>'
+                f'<p><strong>Notes:</strong> {e(x["notes"])}</p>{mark}</details>')
+    return out
+
 def render(d):
     mods = ''.join(f'<details class="mod" {"open" if m["n"] == 1 else ""}><summary><span class="mn">Unit {m["n"]}</span> {e(m["title"])} <span class="pill">Weeks {m["weeks"][0]} to {m["weeks"][1]}</span><span class="pill bz">{m["bloom"]}</span></summary>'
                    f'<p>{e(m["intro"])}</p><ul>' + ''.join(f'<li>{e(x)}</li>' for x in m['points']) + '</ul>'
@@ -475,8 +528,11 @@ def render(d):
            + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(c)}</td><td>{e(x)}</td></tr>' for a, b, c, x in d['rubric']) + '</tbody></table></div>')
     quiz = ''.join(f'<details class="mod"><summary>Q{i + 1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a)}</p></details>' for i, (q, a) in enumerate(d['checks']))
     names = ['L1 Foundation', 'L2', 'L3', 'L4', 'L5', 'L6 Degree', 'L7 Postgraduate']
-    lad = ('<div class="scroll-x"><table class="ws-table"><caption>Levels L1 to L7 for ' + e(d['subject_name']) + '</caption><thead><tr><th>Level</th><th>What you can do</th><th>This course</th></tr></thead><tbody>'
-           + ''.join(f'<tr><th scope="row">{names[i]}</th><td>{e(t.split(": ", 1)[1] if ": " in t else t)}</td><td>{"You are here" if i + 1 == d["level"] else "Next step up" if i + 1 == d["level"] + 1 else "Earlier step, already covered" if i + 1 < d["level"] else "Later step"}</td></tr>' for i, t in enumerate(d['ladder'])) + '</tbody></table></div>')
+    lad = ('<div class="scroll-x"><table class="ws-table"><caption>Levels L1 to L7 for ' + e(d['subject_name']) + '</caption><thead><tr><th>Level</th><th>What you can do</th><th>Note</th><th>This course</th></tr></thead><tbody>'
+           + ''.join(f'<tr><th scope="row">{names[i]}</th><td>{e(t.split(": ", 1)[1] if ": " in t else t)}</td><td>{e(RUNG_NOTE[i])}</td><td>{"You are here" if i + 1 == d["level"] else "Next step up" if i + 1 == d["level"] + 1 else "Earlier step, already covered" if i + 1 < d["level"] else "Later step"}</td></tr>' for i, t in enumerate(d['ladder'])) + '</tbody></table></div>')
+    if d['subject'] == 'ISL':
+        lad = lad.replace('<th>Note</th>', '')
+        for _n in RUNG_NOTE: lad = lad.replace(f'<td>{e(_n)}</td>', '')
     verbs = ', '.join(d['blooms'])
     outcomes = '<ul class="blm">' + ''.join(f'<li><span class="bz">{m["bloom"]}</span> {e(m["outcome"][:1].upper() + m["outcome"][1:])}.</li>' for m in d['modules']) + '</ul>'
     b = B.BANDS[d['band']]
@@ -486,9 +542,10 @@ def render(d):
         '<h3 class="ws-h3">Assessment plan</h3><p>Formative checks FA1 to FA4 around weeks 6, 12, 24 and 30; summative checks SA1 in week 18 and SA2 in week 36.</p>')
     body = (about + B.sec('alt', 'un', 'unit by unit', f'{len(d["modules"])} units with worked examples', mods)
             + B.sec('', 'as', 'assessment', 'How you are checked', f'<p>Evidence for each unit is marked with this rubric by a teacher, and by a peer where the unit allows. Pass: no criterion at \'Not yet\' after one retry.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{quiz}')
-            + B.sec('alt', 'ld', 'levels L1 to L7', 'Where this course sits on the ladder', lad + '<p>Notes: a level is reached when you can meet its standard, not by age. Learners may move up or down a level by subject.</p>')
+            + B.sec('alt', 'ld', 'levels L1 to L7', 'Where this course sits on the ladder', (ladder_slides(d) or lad) + '<p>Notes: a level is reached when you can meet its standard, not by age. Learners may move up or down a level by subject.</p>')
             + B.sec('', 'lc', 'ten locations and global', 'Localised for your place', '<p>Teach in the local language first, with English support. Use local currency, units and examples in every worksheet. Local curriculum and ministry rules are checked before use in a school; Arabic, Islamic, Social and Moral content needs licensed educators and ministry review. Child-safety rules apply for every learner under 18.</p>'
                     + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Use {L["cur"]} in money problems; deliver in {e(L["lang"])}; personal data rule: {e(L["data"])}; guardian contact for every learner under 18.</p></details>' for L in B.LOC))
+            + ('' if d['subject'] == 'ISL' else B.sec('alt', 'jb', 'where this leads', 'Next steps, study and work', leads_html(d)))
             + B.sec('alt', 'nx', 'next', 'Draft', '<p class="ws-note">Draft course in our own words. Needs review by a qualified teacher before classroom use. Not live.</p>'
                     f'<p><a class="btn" href="{B.BANDS[d["band"]][2]}">More {e(b[0])} courses</a> <a class="btn btn-ghost" href="join.html">Join</a></p>'))
     B.page(d['slug'], f'{d["label"]} {d["subject_name"]}', f'{d["label"]} {d["subject_name"]}: {len(d["modules"])} units with worked examples, rubric, ten checks and levels L1 to L7', f'{d["label"]}: {d["subject_name"]}',

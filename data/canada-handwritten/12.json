@@ -50,7 +50,7 @@
     "Let the sensor warm up and settle at each point before you read it, and write down the wait time.",
     "Repeat each reading five times and record the spread, to separate random noise from fixed offset."
    ],
-   "ex": "Reference points 0, 20 and 40 degrees C; the sensor reads 0.4, 20.4 and 40.4, so the offset is 0.4 at each point. After subtracting it, the remaining error is at most 0.1 degrees C, which is 0.1 / 40 = 0.25% of span.",
+   "ex": "Reference points 0, 20 and 40 degrees C; the sensor reads 0.5, 20.4 and 40.3, so the offsets are 0.5, 0.4 and 0.3. After subtracting the mean offset of 0.4, the remaining error is at most 0.1 degrees C, which is 0.1 / 40 = 0.25% of span.",
    "act": "Calibrate a sensor at three points and record error.",
    "std": "Error computed."
   },
@@ -149,7 +149,7 @@
   [
    "What does a data sheet state?",
    "Measured accuracy, range and conditions.",
-   7
+   3
   ],
   [
    "Why unique device credentials?",

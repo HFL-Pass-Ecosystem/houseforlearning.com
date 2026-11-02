@@ -6,6 +6,7 @@ import sys, pathlib, html, re, copy
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import flagship_loc_four as F
 import build_full_courses as B
+import loc_ladder as LL
 e = html.escape
 def slug(i): return f'{i:02d}'
 def cluster_of(t):
@@ -30,16 +31,16 @@ def build(L, i, t):
         'Five criteria scored with reasons; one rule risk named; regulated status stated.')
     q = F.quiz(L); q[0] = (f'In which cluster is {t}, and is it regulated?', f'{cn}; ' + ('regulated, so planning only.' if reg else 'not on the regulated list, but check licences.'))
     mh = ''.join(f'<details class="mod" {"open" if j==0 else ""}><summary><span class="mn">Module {j+1}</span> {e(m[0])} <span class="pill">{m[2]} h</span><span class="pill bz">{m[1]}</span></summary><p>{e(m[3])}</p><ul>' + ''.join(f'<li>{e(x)}</li>' for x in m[4]) + f'</ul><div class="evi"><strong>Worked example.</strong> {e(m[5])}</div><p><strong>Activity.</strong> {e(m[6])}</p><p><strong>Standard to meet.</strong> {e(m[7])}</p></details>' for j, m in enumerate(mods))
-    qz = ''.join(f'<details class="mod"><summary>Q{j+1}. {e(a)}</summary><p><strong>Model answer:</strong> {e(b)}</p></details>' for j, (a, b) in enumerate(q))
+    qz = ''.join(f'<details class="mod"><summary>Q{j+1}. {e(a)}</summary><p><strong>Model answer:</strong> {e(b)}</p></details>' for j, (a, b) in enumerate(F.tag_quiz(q, mods, {0: 2})))
     rub = '<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>' + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(c)}</td><td>{e(d)}</td></tr>' for a, b, c, d in F.rubric(L)) + '</tbody></table></div>'
-    jobs = '<ul>' + ''.join(f'<li><strong>{e(a)}.</strong> {e(b)}.</li>' for a, b in [(f'{t} assistant', f'supports a small {t} business in {L["name"]}')] + L['jobs'][:5]) + '</ul>'
+    jobs = '<ul>' + ''.join(f'<li><strong>{e(a)}.</strong> {e(b)}.</li>' for a, b in [(f'{t} assistant', f'supports a small {t} business in {L["name"]}')] + L['jobs'][:5]) + '</ul>' + LL.roles_html(t, e)
     about = (f'<div class="cb-facts"><span class="pill lv">L1 to L4 location edition</span><span class="pill">8 modules</span><span class="pill pr">USD 39 per learner per month, or USD 79 with mentor review</span></div>'
         f'<p>{e(t)} from the global list, applied to {e(L["name"])}: local rules, jobs and examples in {e(L["cur"])}.</p><div class="tcs"><div><h4>Task</h4><p>Plan a small {e(t)} business for {e(L["name"])} from fit check to launch plan.</p></div>'
         '<div><h4>Condition</h4><p>About six weeks part-time; public sources, two local readers and a mentor.</p></div><div><h4>Standard</h4><p>All module standards met; every claim has a public source and date; mentor and peer mark \'Meets\' or better.</p></div></div>'
         f'<p class="ws-note">{e(F.CHECK)} Draft; not legal, tax, medical or financial advice.</p>')
     body = (B.sec('', 'ab', 'about this course', f'{t}: {L["name"]} edition', about) + B.sec('alt', 'md', 'lesson by lesson', '8 modules with worked examples', mh)
             + B.sec('', 'as', 'assessment', 'How you are checked', f'<p>Pass: no criterion at Not yet and 8 of 10 right.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{qz}')
-            + B.sec('alt', 'jb', 'jobs', 'Where this takes you', jobs) + B.sec('', 'ld', 'ladder', 'Ladder L1 to L7', F.ladder(L)))
+            + B.sec('alt', 'jb', 'jobs', 'Where this takes you', jobs) + B.sec('', 'ld', 'ladder', 'Ladder L1 to L7', F.ladder(L, LL.slides_html(LL.topic_slug(t), L, e))))
     fn = f'learn-loc-{L["k"]}-{slug(i)}.html'
     B.page(fn, f'{t}: {L["name"]} edition', f'{t} applied to {L["name"]}: local rules, jobs and examples in {L["cur"]}.', f'{t}: {L["name"]} edition', e(f'The global course "{t}" with local rules, jobs and examples for {L["name"]}.'), body,
            B.crumb(('Courses', 'courses-hub.html'), (f'{L["name"]} editions', f'learn-loc-{L["k"]}-hub.html'), (t, None)), kicker=f'location edition · {L["k"].upper()}')

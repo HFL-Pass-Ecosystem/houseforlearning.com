@@ -1,0 +1,191 @@
+{
+ "LEG-001": {
+  "standards": [
+   "Identify, from a short client brief, who will read the letter and what that reader needs to know, and state the letter's purpose first in one sentence.",
+   "Rewrite a sample letter in plain words, replacing legal jargon with everyday terms that keep the meaning, and fit it onto one page.",
+   "Apply a simple readability test to a drafted letter, then ask a colleague to read it, and adjust any hard sentences the test or reader finds.",
+   "Add to a letter the next step and its date, and check that every date and figure matches the source documents given.",
+   "Draft a full client letter from a case card, with purpose first, then facts, then next step and date, in plain words and under one page.",
+   "Pass the check by editing a sample letter against the checklist so it is plain, accurate, under one page and ends with the next step and date."
+  ],
+  "checks": [
+   2,
+   4,
+   3,
+   null,
+   2,
+   2,
+   4,
+   2,
+   null
+  ]
+ },
+ "LEG-002": {
+  "standards": [
+   "Name the main parts of a sample contract and find each numbered clause in order, so that no clause in the eight-clause sample is skipped.",
+   "Summarize each clause of a sample contract in one sentence, so the summary confirms that you have understood what the clause says.",
+   "Identify the risk clauses in a sample contract, such as payment terms, termination, liability, indemnity and change of terms, listing at least five with a question each.",
+   "Give each flagged clause a high, medium or low risk rating with a stated reason, and put the clauses in order of priority.",
+   "Propose safer wording for a risky clause, such as a stated cap or a notice period, and record agree, query or escalate against the checklist.",
+   "Pass the assessment by completing the clause table for a new sample contract so a supervisor can follow every summary, rating, reason and suggestion."
+  ],
+  "checks": [
+   2,
+   3,
+   5,
+   null,
+   3,
+   3,
+   5,
+   null,
+   null
+  ]
+ },
+ "LEG-003": {
+  "standards": [
+   "Arrange the papers in a messy sample file into the standard order: index, instructions, correspondence, dated notes, documents, billing and closing checklist.",
+   "Record each decision in a scenario at the time it is made, with who, what, when and why, and date every note.",
+   "Close a file by completing every item on the closing checklist: the outcome, the documents returned and the retention date.",
+   "State who may see a file and how long it is kept under a given policy, and name how to dispose of records safely afterwards.",
+   "Reorder a file with loose notes and no time record, fill the gaps with an index, dates and version, and complete its checklist.",
+   "Pass the check by showing a sample file in standard order with dated decisions, a completed closing checklist and the correct retention period."
+  ],
+  "checks": [
+   2,
+   3,
+   4,
+   4,
+   2,
+   3,
+   4,
+   4,
+   1
+  ]
+ },
+ "SCI-001": {
+  "standards": [
+   "State a testable question and a hypothesis for a given topic, such as paint drying time, with one measure that can be answered with a number.",
+   "Choose a control group and a measure with units for a question, and keep all conditions the same except the one thing changed.",
+   "Decide how many repeats are needed for each group, and explain that repeats show the natural spread in the results.",
+   "Write a method with materials, steps, measures and units that is clear enough for another person to repeat exactly.",
+   "Check a partner's method against the checklist, find unclear steps and at least four sources of error, and suggest a fix for each.",
+   "Pass the assessment by writing a repeatable method for a new question, with a control, a measure, repeats and listed sources of error."
+  ],
+  "checks": [
+   2,
+   3,
+   4,
+   2,
+   2,
+   3,
+   4,
+   3,
+   2
+  ]
+ },
+ "SCI-002": {
+  "standards": [
+   "Calculate the mean and the spread of a small data set with correct arithmetic and units, as in groups of three plant heights.",
+   "Plot group means from the numbers given, labelling each axis with a name and a unit so the plot can be read alone.",
+   "Add error bars of one standard deviation to a plot and state in the caption what the bars show.",
+   "Judge from two plots whether a difference is larger than the spread, and say that a gap alone does not prove a cause.",
+   "Write a one-paragraph result for a figure that states the difference and spread and does not claim more than the data show.",
+   "Pass the assessment by calculating, plotting and interpreting two small data sets, then writing a paragraph that stays within what the data show."
+  ],
+  "checks": [
+   1,
+   3,
+   2,
+   4,
+   3,
+   4,
+   2,
+   null,
+   5
+  ]
+ },
+ "SCI-003": {
+  "standards": [
+   "Arrange a result table into a short report with the standard sections: title, abstract, introduction, methods, results, discussion, limits and references.",
+   "Cite every source in a report using one agreed style, kept the same throughout, so each claim can be traced.",
+   "Write at least three honest sentences on limits, covering what was not tested and the possible errors, for a small one-site study.",
+   "Edit a draft paragraph into clear, short sentences with plain words and no claim beyond the data.",
+   "Write a full short report from a result table, with all sections in place, results kept apart from discussion, and a limits paragraph.",
+   "Pass the check by producing a short report in the standard order with one citation style, honest limits and no claims beyond the data."
+  ],
+  "checks": [
+   3,
+   2,
+   1,
+   null,
+   3,
+   2,
+   1,
+   null,
+   3
+  ]
+ },
+ "BEA-001": {
+  "standards": [
+   "Explain why a client history is taken before treatment, naming how it protects the client from harm and why it is recorded.",
+   "Ask the required history questions in order, covering allergies, skin conditions, medicines, pregnancy and previous reactions, so every required field is complete.",
+   "Record a client's answers clearly on the form, dated and signed, and note any refusal to answer, while keeping the form secure.",
+   "Identify from sample histories the reasons not to proceed and refer the client on to the right person, with at least 7 of 8 correct.",
+   "Role-play taking a history from a client who mentions recent surgery or a skin condition, asking follow-up questions and deciding on referral.",
+   "Pass the check by completing a history form for a case card and deciding correctly whether to proceed or refer on."
+  ],
+  "checks": [
+   1,
+   4,
+   3,
+   3,
+   3,
+   3,
+   4,
+   3,
+   2
+  ]
+ },
+ "BEA-002": {
+  "standards": [
+   "Explain why infection control matters in a treatment room and list the risks to clients and staff when a step is missed.",
+   "Demonstrate hand cleaning with every step in order, before and after each client and after removing gloves, against a checklist.",
+   "Choose the cleaning level for each of six items, such as towel, tweezers and gloves, and keep clean and used items apart.",
+   "Record cleaning on the log with date, item, method and initials, so there is proof of the routine for a lead to check.",
+   "Demonstrate the full routine on a live case where a reusable tool touched skin, choosing the cleaning level and completing the log.",
+   "Pass the check by showing hand cleaning, tool cleaning levels and a complete log, following the local rule and product instructions."
+  ],
+  "checks": [
+   2,
+   3,
+   4,
+   null,
+   2,
+   3,
+   4,
+   4,
+   null
+  ]
+ },
+ "BEA-003": {
+  "standards": [
+   "Explain what consent means, including that it must be understood and that a client can withdraw it at any time.",
+   "Explain a treatment to a client in plain words, covering benefits, risks, aftercare and what the client can refuse.",
+   "Complete the standard consent form with the date, the client's name and what was agreed, and keep it securely in the client file.",
+   "Review a signed form when anything changes, explain the change, and record the new agreement before going ahead.",
+   "Role-play obtaining consent from a client who hesitates, checking understanding before the signature and recording it on the template.",
+   "Pass the check by explaining a treatment in plain words, completing the form correctly, and finding any missing item in a sample form."
+  ],
+  "checks": [
+   1,
+   2,
+   3,
+   null,
+   1,
+   1,
+   null,
+   3,
+   4
+  ]
+ }
+}
