@@ -96,6 +96,10 @@ S = [
   ('Earn from sponsors, services or membership; count your time.','5 hours per episode at 20 = 100; one sponsor pays 150.'),
   ('Use an editor and a guest booker with a one-page brief.','Editor delivers in 3 days; price per episode agreed.'),
   ('Launch with 8 episodes and a rule: 300 downloads per episode by episode 8.','Review after episode 8.')])]
+import re as _re
+_RULE = _re.compile(r'\b(tax|taxes|vat|duty|duties|licen[cs]e|licen[cs]es|permit|permits|law|laws|legal|regulat\w*|rule|rules|registration|compliance|customs|data protection|privacy|labour law|work permit)\b', _re.I)
+def _expert(pt):
+    return pt if (not _RULE.search(pt) or 'local expert' in pt) else pt.rstrip() + (' ' if pt.rstrip().endswith('.') else '. ') + 'Check with a local expert.'
 def build(L, idx, sl, topic, rows):
     L = copy.deepcopy(L); c = L['cur'].split(' or ')[0]
     L['price'], L['var'], L['fixed'] = LE.scaled(L, idx)
@@ -105,7 +109,7 @@ def build(L, idx, sl, topic, rows):
     out = []
     for j, m in enumerate(mods):
         pt, ex = rows[j]
-        out.append((m[0], m[1], m[2], m[3], [pt.replace('{c}', c)] + list(m[4]), ex.replace('{c}', c) + ' | Local example: ' + m[5], m[6], m[7]))
+        out.append((m[0], m[1], m[2], m[3], [_expert(pt.replace('{c}', c))] + [_expert(x) for x in m[4]], ex.replace('{c}', c) + ' | Local example: ' + m[5], m[6], m[7]))
     mh = ''.join(f'<details class="mod" {"open" if j==0 else ""}><summary><span class="mn">Module {j+1}</span> {e(m[0])} <span class="pill">{m[2]} h</span><span class="pill bz">{m[1]}</span></summary><p>{e(m[3])}</p><ul>' + ''.join(f'<li>{e(x)}</li>' for x in m[4]) + f'</ul><div class="evi"><strong>Worked example.</strong> {e(m[5])}</div><p><strong>Activity.</strong> {e(m[6])}</p><p><strong>Standard to meet.</strong> {e(m[7])}</p></details>' for j, m in enumerate(out))
     q = F.quiz(L); q[0] = (f'What is the first move for a {topic} business in {L["name"]}?', rows[0][0].replace('{c}', c))
     q[1] = ('Which model comparison belongs to this sector?', rows[1][0].replace('{c}', c))
