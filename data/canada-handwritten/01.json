@@ -1,0 +1,163 @@
+{
+ "price": [
+  2400,
+  900,
+  14,
+  "run"
+ ],
+ "mods": {
+  "1": {
+   "title": "Find problems where quantum may help",
+   "intro": "Quantum computers do not speed up everything. Your first job is to find problems where they may help and to say honestly where they will not.",
+   "pts": [
+    "Quantum methods are studied for three families of problem: simulating molecules and materials, searching or optimising among huge numbers of choices, and some cryptography tasks.",
+    "Most office work, databases and web pages gain nothing from quantum hardware. A buyer who hears 'quantum' for these should be told so.",
+    "Ask of any problem: how many choices, how costly is a wrong answer, and what does the best classical method already achieve? Write the three answers before you propose anything.",
+    "Canadian buyers include research groups, banks, logistics firms and energy companies; write one concrete problem for each."
+   ],
+   "ex": "Delivery routing for 40 stops has an astronomically large number of orders, but good classical heuristics already get within a few percent of best. Verdict: quantum is not yet worth the cost; recommend a classical solver and a watch list.",
+   "act": "Write a one-page 'is it quantum?' screen for three real problems and give a verdict with the three answers for each.",
+   "std": "Each verdict cites the classical baseline; at least one problem is rejected with reasons."
+  },
+  "2": {
+   "title": "Know the rules, exports and standards in Canada",
+   "intro": "Quantum technology is a controlled field. The rules decide who you may work with and what you may send abroad.",
+   "pts": [
+    "Strategic technology can need a federal export permit; check the control list before you send code, designs or papers to another country.",
+    "Research funding and public contracts often require security screening of staff and a data-handling plan.",
+    "Cryptography guidance from the federal cyber agency sets timelines for moving to quantum-safe methods; track it.",
+    "Intellectual property: agree in writing who owns code and results when you work with a university or client."
+   ],
+   "ex": "Row: 'Send circuit design to a partner abroad | federal export control | check list, ask for permit if listed | before first send | permit or written no-permit-needed note on file'.",
+   "act": "Build the rules table for a 3-person quantum start-up in your province, with a source and date per row.",
+   "std": "Every row has an enforcer, action and date; no rule guessed."
+  },
+  "3": {
+   "title": "Build and run a small quantum program",
+   "intro": "You learn by running real circuits on a simulator and on freely available cloud hardware, and recording what the noise does.",
+   "pts": [
+    "A qubit holds a blend of 0 and 1 until measured. Measure many times ('shots') and you get a pattern of counts, not one answer.",
+    "Start with two circuits: a coin-flip (one gate) and an entangled pair (two gates). Predict the counts, then run them.",
+    "Compare simulator and real hardware: the hardware shows errors. Record the error rate as wrong counts divided by total shots.",
+    "Use version control; save the circuit, shots, device name, date and result in one table row per run."
+   ],
+   "ex": "Entangled pair, 1,000 shots, ideal result: about 500 '00' and 500 '11'. Real device: 470 '00', 455 '11', 75 other. Error rate = 75 / 1,000 = 7.5%.",
+   "act": "Run both circuits on a simulator and on one real device, 1,000 shots each, and tabulate the results.",
+   "std": "Predictions written before runs; error rate computed; run table complete."
+  },
+  "4": {
+   "title": "Cost a proof-of-concept project",
+   "intro": "Quantum work is paid by the project. Price staff time, cloud hardware time and review, and show a buyer what they get.",
+   "pts": [
+    "Variable cost per run: hardware time, extra staff review and reporting.",
+    "Fixed cost per month: tools, insurance, workspace, training and a share of the lead's time.",
+    "Offer a fixed-price study (for example 6 weeks) with a clear deliverable: a verdict, a baseline comparison and a plan.",
+    "Add 15% contingency because hardware queues and noise slow the schedule."
+   ],
+   "ex": "Study price 2,400 per run-package; variable cost 900; margin 1,500 (63%). Fixed cost 7,000 a month is covered by about 5 packages. Teaching figures in CAD.",
+   "act": "Build the cost sheet and compute break-even; show a case where only 3 packages sell.",
+   "std": "Units and currency shown; three cases; arithmetic checked."
+  },
+  "5": {
+   "title": "Operate the lab and keep records",
+   "intro": "Good quantum work is repeatable work. Records make results believable.",
+   "pts": [
+    "Record device, software version, calibration date, shots and random seed for every run.",
+    "Re-run any surprising result three times before you report it.",
+    "Keep a model of 'expected versus observed' for each circuit and flag drift over time.",
+    "Control access to cloud accounts and rotate keys; never paste keys into notes."
+   ],
+   "ex": "Weekly page: 12 runs, 2 surprising, both repeated, one traced to a device recalibration; action: add calibration date to the run table.",
+   "act": "Keep a 4-week run log and one weekly page.",
+   "std": "Every run has all six fields; surprises are repeated."
+  },
+  "6": {
+   "title": "Explain it and win a first client",
+   "intro": "Buyers fund what they understand. Learn to explain quantum value in plain words with numbers.",
+   "pts": [
+    "Use the answer-first form: result, reason, risk, next step.",
+    "Never promise advantage you have not shown; show a measured comparison with the best classical method.",
+    "Offer a no-regret first step: a two-week screen of the client's problems.",
+    "Partner with a university group or industry cluster for credibility and access to hardware."
+   ],
+   "ex": "Pitch: 'We screened six scheduling problems; two may benefit from quantum-inspired methods now. We propose a six-week study with a stop point after week two.'",
+   "act": "Give a five-minute explanation to a non-expert and collect three written questions.",
+   "std": "Listener can repeat the verdict and the next step."
+  },
+  "7": {
+   "title": "Handle security, ethics and trust",
+   "intro": "Quantum advances create real risks as well as benefits.",
+   "pts": [
+    "Data stolen today may be decrypted later; help clients inventory what must stay secret for ten years or more.",
+    "Plan the move to quantum-safe encryption: list systems, rank by life of data, test, replace in stages.",
+    "Be honest in marketing: do not claim speed-ups that you have not measured.",
+    "Include researchers and users from many backgrounds when you choose test problems."
+   ],
+   "ex": "Inventory row: 'Customer records | secret for 25 years | high risk | pilot quantum-safe key exchange in test system by Q3'.",
+   "act": "Write a one-page quantum-safe inventory for a fictional clinic.",
+   "std": "Each system has a data life and a migration step."
+  },
+  "8": {
+   "title": "Run a pilot study and plan growth",
+   "intro": "A six-week pilot with a real client proves your process.",
+   "pts": [
+    "Agree scope, a deliverable and a stop rule in writing.",
+    "Report weekly: tried, learned, next.",
+    "Close with a verdict, evidence and a recommendation, even if the verdict is 'not yet'.",
+    "Plan 12 months: three milestones, funding sources and a hiring plan."
+   ],
+   "ex": "Stop rule: 'If after week 2 no problem passes the screen, we stop and refund the unused part.' Outcome: one problem passes; study continues.",
+   "act": "Run a pilot on a sample problem and present the review.",
+   "std": "Review includes a verdict, baseline comparison and a 12-month plan."
+  }
+ },
+ "quiz": [
+  [
+   "Name three problem families where quantum methods are studied.",
+   "Simulating molecules and materials, optimising or searching large option sets, and some cryptography."
+  ],
+  [
+   "What does a 'shot' mean?",
+   "One run of a circuit ending in a measurement; many shots give counts."
+  ],
+  [
+   "How do you compute the hardware error rate?",
+   "Unexpected counts divided by total shots."
+  ],
+  [
+   "Why check export rules before sharing designs?",
+   "Strategic technology can need a federal permit to leave the country."
+  ],
+  [
+   "Why re-run a surprising result?",
+   "To rule out noise or drift before reporting it."
+  ],
+  [
+   "What should a pitch avoid?",
+   "Promising advantage you have not measured against the best classical method."
+  ],
+  [
+   "Why inventory long-life secrets now?",
+   "Data stolen today may be decrypted later by quantum computers."
+  ],
+  [
+   "What belongs in a run record?",
+   "Device, software version, calibration date, shots, seed and result."
+  ],
+  [
+   "What is a no-regret first step for a client?",
+   "A short screen of their problems with a stop point."
+  ],
+  [
+   "What must a pilot agree before it starts?",
+   "Scope, deliverable and a stop rule."
+  ]
+ ],
+ "jobs": [
+  "Quantum software developer",
+  "Research assistant",
+  "Technical sales specialist",
+  "Cyber risk analyst",
+  "Quantum start-up founder"
+ ]
+}

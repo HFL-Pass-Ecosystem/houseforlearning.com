@@ -1,0 +1,163 @@
+{
+ "price": [
+  95,
+  38,
+  420,
+  "tray"
+ ],
+ "mods": {
+  "1": {
+   "title": "Choose crops, space and a first customer",
+   "intro": "Vertical gardens grow food or plants in stacked layers indoors or on walls. They suit places with little land and high prices for fresh produce.",
+   "pts": [
+    "Compare crops by days to harvest, price per kilogram and light needed: leafy greens and herbs turn fastest; fruit crops need more space and light.",
+    "Find a first customer within an hour's drive: restaurants, grocers, food programmes, office tenants who want green walls.",
+    "Ask each for weekly volume, price they pay now and the freshness gap you can close.",
+    "Write the offer: 'fresh [crop], harvested the day before, delivered twice a week at [price] per kilogram'."
+   ],
+   "ex": "Basil sells at 28 per kilogram to restaurants who now pay 36 for imported. Demand: 12 kg per week across three kitchens.",
+   "act": "Interview five buyers and fill a crop table with price, volume and delivery frequency.",
+   "std": "Five buyers recorded; one crop chosen with reasons."
+  },
+  "2": {
+   "title": "Know the rules for growing and selling in Canada",
+   "intro": "Growing under lights is farming, manufacturing and a building project at once.",
+   "pts": [
+    "Food grown for sale follows federal food-safety and labelling rules; the local public health unit may inspect washing and packing areas.",
+    "Building and fire rules apply to racks, wiring and water; get electrical work done by licensed trades and inspected.",
+    "Water use, nutrient discharge and waste are regulated by the municipality and province.",
+    "Insurance for crop loss, equipment and liability should be arranged before the first harvest."
+   ],
+   "ex": "Row: 'Pack leafy greens for sale | food inspection agency and local health unit | register and follow wash and pack rules | before first sale | inspection report'.",
+   "act": "Make the rules table for a rented warehouse unit in your province.",
+   "std": "Each row cites an official source and date."
+  },
+  "3": {
+   "title": "Design the system and grow a first crop",
+   "intro": "Good vertical growing is a controlled loop: light, water, nutrients, air and time.",
+   "pts": [
+    "Choose a system: hydroponic (roots in water), aeroponic (roots misted) or soil-based wall.",
+    "Set targets: light hours per day, nutrient strength (conductivity), water pH, temperature and humidity.",
+    "Log these daily; change one setting at a time.",
+    "Track yield per tray per cycle and days to harvest."
+   ],
+   "ex": "Lettuce: 28 days to harvest, 0.45 kg per tray, 12 trays per rack, 10 racks: 54 kg per cycle.",
+   "act": "Grow one tray cycle; log daily readings and final yield.",
+   "std": "Daily log complete; yield per tray calculated."
+  },
+  "4": {
+   "title": "Cost it: power, labour and trays",
+   "intro": "Electricity for lights is usually the largest cost after rent.",
+   "pts": [
+    "Power cost per cycle = lamp kilowatts x hours per day x days x price per kWh.",
+    "Add labour for seeding, moving, harvesting and cleaning.",
+    "Compute cost per tray and per kilogram; compare with selling price.",
+    "Test a 10% power price rise and a 15% yield drop."
+   ],
+   "ex": "Per tray: power 14, seeds and nutrients 6, packaging 4, labour 14 = 38 variable; price 95 per tray-equivalent; margin 57 (60%). Break-even about 380 trays a month with fixed cost 21,700. Teaching figures in CAD.",
+   "act": "Build the cost sheet for your system and compute break-even.",
+   "std": "Both stress tests shown."
+  },
+  "5": {
+   "title": "Run clean, steady operations",
+   "intro": "Hygiene, schedules and records keep crops safe and predictable.",
+   "pts": [
+    "Clean trays and tanks between cycles; sanitise tools; wash hands at entry.",
+    "Stagger seeding weekly so harvests are steady.",
+    "Scout for pests and mould twice a week; remove problem trays at once.",
+    "Keep a harvest and delivery log with batch numbers for traceability."
+   ],
+   "ex": "Batch code 'B-0417-T3' links a delivered bag to the tray, seed lot and cleaning record.",
+   "act": "Keep a 4-week operations log with batch numbers.",
+   "std": "Every delivery traces back to a tray."
+  },
+  "6": {
+   "title": "Sell, deliver and keep the customer",
+   "intro": "Restaurants and grocers value a steady supply and a person who answers.",
+   "pts": [
+    "Offer a standing weekly order with a trial week.",
+    "Deliver on a fixed day and time; confirm by message the day before.",
+    "Tell the story: seed to harvest dates, no spray, local.",
+    "Ask for feedback after four weeks and adjust crop mix."
+   ],
+   "ex": "Funnel: 15 visits, 6 samples, 3 trial orders, 2 standing orders.",
+   "act": "Visit ten buyers with samples and record outcomes.",
+   "std": "Funnel recorded; one change made."
+  },
+  "7": {
+   "title": "Manage food safety and power risks",
+   "intro": "A power cut or contamination can end a crop in hours.",
+   "pts": [
+    "List risks: power failure, pump failure, contamination, pest, buyer loss.",
+    "Controls: backup power for pumps, alarms, spare parts, test water.",
+    "Recall plan: know which batches went where and how to tell buyers.",
+    "Energy plan: efficient lamps, off-peak hours, rooftop or contract renewable power."
+   ],
+   "ex": "Risk: 'Pump fails overnight | 2 x 5 | float alarm and spare pump | owner | monthly test'.",
+   "act": "Write an eight-row risk register.",
+   "std": "Each row has owner and test date."
+  },
+  "8": {
+   "title": "Pilot one room and plan growth",
+   "intro": "Prove one room before you build ten.",
+   "pts": [
+    "Pilot 60 days with measures: yield, cost per kilogram, orders kept.",
+    "Stop rule: below 60% of planned yield after two cycles, pause and fix.",
+    "Scale in steps: second room only after margin holds.",
+    "Plan funding: grants for local food and clean technology, and customer pre-orders."
+   ],
+   "ex": "Result at day 60: 48 kg per cycle against 54 plan (89%); proceed.",
+   "act": "Run the pilot and present review.",
+   "std": "Review has measures and decision."
+  }
+ },
+ "quiz": [
+  [
+   "Why compare crops by days to harvest?",
+   "Faster crops return cash sooner and fit stacked systems best."
+  ],
+  [
+   "What is usually the largest cost after rent?",
+   "Electricity for lights."
+  ],
+  [
+   "How do you compute power cost per cycle?",
+   "Lamp kilowatts x hours per day x days x price per kWh."
+  ],
+  [
+   "Why use batch codes?",
+   "They trace a delivered bag back to its tray and enable recalls."
+  ],
+  [
+   "Name three growing systems.",
+   "Hydroponic, aeroponic and soil-based wall."
+  ],
+  [
+   "What should a risk register include for pumps?",
+   "A control such as an alarm and a spare, an owner and a test date."
+  ],
+  [
+   "What is a stop rule in the pilot?",
+   "A pre-agreed trigger, such as yield under 60% of plan, to pause and fix."
+  ],
+  [
+   "Why stagger seeding?",
+   "Harvests stay steady week to week."
+  ],
+  [
+   "Who inspects wash and pack areas?",
+   "The local public health unit may inspect them."
+  ],
+  [
+   "Why test a 15% yield drop?",
+   "It shows whether the business still breaks even under stress."
+  ]
+ ],
+ "jobs": [
+  "Indoor grower",
+  "Greenhouse technician",
+  "Food hub coordinator",
+  "Controlled-environment manager",
+  "Urban farm founder"
+ ]
+}
