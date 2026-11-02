@@ -15,7 +15,7 @@ LADDER = {
  ('Line follower or obstacle stopper', 'Build and test a small robot and write its threshold from real readings. Notes: practice case is 900 on white and 300 on black, threshold 600; learners repeat with their own sensor.'),
  ('Debug and improve', 'Find faults using a test log and improve reliability and battery life. Notes: use 2400 mAh at 800 mA, which gives 3 hours ideal and about 2.1 hours real; learners compare their robot to the estimate.'),
  ('Mentor a build group', 'Supervise a group build, check safety and mark each log. Notes: use a safety sign-off sheet; learners must not allow industrial machines in the course.'),
- ('Specify a robot project', 'Write a project specification with safety case, test plan and budget for a larger low-voltage robot. Notes: review risks, parts and a test plan; the work stays under the 5 V and no-mains limits of this course.')],
+ ('Specify a robot project', 'Write a project specification with safety case, test plan and budget for a larger low-voltage robot. Notes: review risks, parts and a test plan; the work stays under the 12 V and no-mains limits of this course.')],
 'GL-03': [
  ('What AI tools do', 'Explain in plain words what an AI tool does and one thing it cannot be trusted to do. Notes: show one hallucination example; learners say what a person should check.'),
  ('Safe first tasks', 'Choose a low-risk task and know what data must never go into a public tool. Notes: sort ten tasks by risk and ease of checking; only public or made-up data is used.'),
