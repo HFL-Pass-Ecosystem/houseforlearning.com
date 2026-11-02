@@ -36,7 +36,7 @@
    "What suits vertical growing",
    "Understand",
    3,
-   "Not every crop suits stacked indoor growing. Start with the crop, not the equipment. A crop that sells well and grows fast pays back sooner.",
+   "Not every crop suits stacked indoor growing. Start with the crop, not the equipment. A crop that sells well and grows fast pays back sooner. Start with the crop, not the equipment. A crop that sells well and grows fast pays back sooner.",
    [
     "Leafy greens, herbs and microgreens are fast, light and high-value.",
     "Heavy crops such as grains and tubers are rarely economic indoors.",
@@ -44,17 +44,20 @@
     "Check local demand.",
     "Check demand: ask three local buyers (restaurants, shops, households) what they buy weekly and at what price.",
     "Compare crop cycles: microgreens 8 to 12 days, lettuce 30 to 40 days, herbs 4 to 6 weeks, strawberries 8 to 12 weeks.",
+    "Rank crops by value per tray per week, not by price per kg alone.",
+    "Check demand: ask three local buyers (restaurants, shops, households) what they buy weekly and at what price.",
+    "Compare crop cycles: microgreens 8 to 12 days, lettuce 30 to 40 days, herbs 4 to 6 weeks, strawberries 8 to 12 weeks.",
     "Rank crops by value per tray per week, not by price per kg alone."
    ],
-   "Microgreens are ready in about 8 days and sell at a high price per kg, suiting a small indoor unit. Three buyers say they would take 20 kg of basil per week at 300 INR per kg. A basil tray yields 1.2 kg every 5 weeks, so the unit needs about 80 trays in rotation to meet that demand.",
-   "Pick three crops and justify them. Add a demand table with three buyers, quantity and price.",
+   "Microgreens are ready in about 8 days and sell at a high price per kg, suiting a small indoor unit. Three buyers say they would take 20 kg of basil per week at 300 INR per kg. A basil tray yields 1.2 kg every 5 weeks, so the unit needs about 80 trays in rotation to meet that demand. Three buyers say they would take 20 kg of basil per week at 300 INR per kg. A basil tray yields 1.2 kg every 5 weeks, so the unit needs about 80 trays in rotation to meet that demand.",
+   "Pick three crops and justify them. Add a demand table with three buyers, quantity and price. Add a demand table with three buyers, quantity and price.",
    "Reasons given with numbers."
   ],
   [
    "Systems",
    "Understand",
    4,
-   "Choose soil, hydroponic or aeroponic systems. Systems differ in cost, water use and risk.",
+   "Choose soil, hydroponic or aeroponic systems. Systems differ in cost, water use and risk. Systems differ in cost, water use and risk.",
    [
     "Hydroponics grows plants in nutrient water; aeroponics mists roots.",
     "Parts: trays, pumps, channels, reservoirs, timers.",
@@ -62,17 +65,20 @@
     "Cleaning between cycles.",
     "Deep-water culture floats plants on aerated nutrient solution; nutrient film technique runs a thin stream over roots; ebb and flow floods and drains trays.",
     "Aeroponics mists roots and saves the most water but fails fastest if a pump stops.",
+    "Plan a fail-safe: backup power for pumps, alarms and a manual watering routine.",
+    "Deep-water culture floats plants on aerated nutrient solution; nutrient film technique runs a thin stream over roots; ebb and flow floods and drains trays.",
+    "Aeroponics mists roots and saves the most water but fails fastest if a pump stops.",
     "Plan a fail-safe: backup power for pumps, alarms and a manual watering routine."
    ],
-   "A timer controls a flood and drain tray that waters lettuce every 30 minutes. A 4-level rack of ebb and flow trays uses a single 40 L reservoir and a timer. When the pump fails at night, a battery alarm wakes the grower within 10 minutes and plants survive.",
-   "Draw a layout. Write the fail-safe plan for your system.",
+   "A timer controls a flood and drain tray that waters lettuce every 30 minutes. A 4-level rack of ebb and flow trays uses a single 40 L reservoir and a timer. When the pump fails at night, a battery alarm wakes the grower within 10 minutes and plants survive. A 4-level rack of ebb and flow trays uses a single 40 L reservoir and a timer. When the pump fails at night, a battery alarm wakes the grower within 10 minutes and plants survive.",
+   "Draw a layout. Write the fail-safe plan for your system. Write the fail-safe plan for your system.",
    "Parts labelled."
   ],
   [
    "Light",
    "Apply",
    4,
-   "Plants need the right light. Light is usually the largest running cost.",
+   "Plants need the right light. Light is usually the largest running cost. Light is usually the largest running cost.",
    [
     "Intensity, spectrum and hours.",
     "LEDs use less heat.",
@@ -80,17 +86,20 @@
     "Photoperiod varies by crop.",
     "Intensity is measured as photosynthetic photon flux density; many leafy crops grow well at 150 to 250 micromoles per square metre per second.",
     "Blue light supports compact growth; red light supports leaf and fruit; full-spectrum white LEDs work for most beginners.",
+    "Hang lights 20 to 40 cm above the canopy and raise them as plants grow; use timers.",
+    "Intensity is measured as photosynthetic photon flux density; many leafy crops grow well at 150 to 250 micromoles per square metre per second.",
+    "Blue light supports compact growth; red light supports leaf and fruit; full-spectrum white LEDs work for most beginners.",
     "Hang lights 20 to 40 cm above the canopy and raise them as plants grow; use timers."
    ],
-   "Lettuce receives about 14 hours of light a day. A rack of 4 trays with 100 W of LEDs for 14 hours uses 1.4 kWh a day. At 8 INR per kWh, that is 11.2 INR a day for the rack.",
-   "Set a light schedule. Calculate the daily light energy cost for your rack.",
+   "Lettuce receives about 14 hours of light a day. A rack of 4 trays with 100 W of LEDs for 14 hours uses 1.4 kWh a day. At 8 INR per kWh, that is 11.2 INR a day for the rack. A rack of 4 trays with 100 W of LEDs for 14 hours uses 1.4 kWh a day. At 8 INR per kWh, that is 11.2 INR a day for the rack.",
+   "Set a light schedule. Calculate the daily light energy cost for your rack. Calculate the daily light energy cost for your rack.",
    "Settings logged."
   ],
   [
    "Water and nutrients",
    "Apply",
    4,
-   "Balance matters. Plants take nutrients dissolved in water, so water quality matters.",
+   "Balance matters. Plants take nutrients dissolved in water, so water quality matters. Plants take nutrients dissolved in water, so water quality matters.",
    [
     "pH and nutrient strength checks.",
     "Keep water clean; change on schedule.",
@@ -98,17 +107,20 @@
     "Adjust slowly.",
     "Measure pH and electrical conductivity every day; adjust slowly.",
     "Use clean water, change the solution on a schedule and keep it covered from light to stop algae.",
+    "Never mix concentrated nutrients together; add each to water separately.",
+    "Measure pH and electrical conductivity every day; adjust slowly.",
+    "Use clean water, change the solution on a schedule and keep it covered from light to stop algae.",
     "Never mix concentrated nutrients together; add each to water separately."
    ],
-   "pH is kept between 5.8 and 6.2 using small adjustments. Lettuce is grown at pH 5.8 to 6.2 and conductivity of 1.2 to 1.8 mS per cm. A reading of pH 7.2 is corrected with a few millilitres of acid solution and re-tested after 30 minutes.",
-   "Run daily checks. Keep a daily reading sheet for 14 days.",
+   "pH is kept between 5.8 and 6.2 using small adjustments. Lettuce is grown at pH 5.8 to 6.2 and conductivity of 1.2 to 1.8 mS per cm. A reading of pH 7.2 is corrected with a few millilitres of acid solution and re-tested after 30 minutes. Lettuce is grown at pH 5.8 to 6.2 and conductivity of 1.2 to 1.8 mS per cm. A reading of pH 7.2 is corrected with a few millilitres of acid solution and re-tested after 30 minutes.",
+   "Run daily checks. Keep a daily reading sheet for 14 days. Keep a daily reading sheet for 14 days.",
    "Log complete."
   ],
   [
    "Climate and hygiene",
    "Evaluate",
    4,
-   "Prevent disease. Disease spreads fast in warm, humid indoor air.",
+   "Prevent disease. Disease spreads fast in warm, humid indoor air. Disease spreads fast in warm, humid indoor air.",
    [
     "Temperature, humidity and airflow.",
     "Clean tools, hands and trays; keep pests out.",
@@ -116,17 +128,20 @@
     "Dispose of waste.",
     "Keep humidity around 50 to 70 per cent and airflow gentle but constant.",
     "Wash hands, use clean tools, keep a footbath or shoe change and quarantine new plants.",
+    "Remove diseased plants at once and sanitise trays between cycles.",
+    "Keep humidity around 50 to 70 per cent and airflow gentle but constant.",
+    "Wash hands, use clean tools, keep a footbath or shoe change and quarantine new plants.",
     "Remove diseased plants at once and sanitise trays between cycles."
    ],
-   "Mould appears at high humidity; fans and a dehumidifier fix it. Grey mould appears at 85 per cent humidity. A small fan and a dehumidifier bring it to 65 per cent within a day and the outbreak stops.",
-   "Write a hygiene plan. Add a weekly cleaning timetable.",
+   "Mould appears at high humidity; fans and a dehumidifier fix it. Grey mould appears at 85 per cent humidity. A small fan and a dehumidifier bring it to 65 per cent within a day and the outbreak stops. Grey mould appears at 85 per cent humidity. A small fan and a dehumidifier bring it to 65 per cent within a day and the outbreak stops.",
+   "Write a hygiene plan. Add a weekly cleaning timetable. Add a weekly cleaning timetable.",
    "Measures specific."
   ],
   [
    "Yield, energy and water",
    "Analyse",
    4,
-   "Measure efficiency. Efficiency numbers let you compare with field farming and plan.",
+   "Measure efficiency. Efficiency numbers let you compare with field farming and plan. Efficiency numbers let you compare with field farming and plan.",
    [
     "Yield per m2 per cycle.",
     "kWh per kg and litres per kg.",
@@ -134,17 +149,20 @@
     "Track costs.",
     "Yield per square metre of floor area counts all levels; per tray counts one level.",
     "Water use is often 90 per cent lower than field farming for leafy greens.",
+    "Energy per kg is the main weakness; track it.",
+    "Yield per square metre of floor area counts all levels; per tray counts one level.",
+    "Water use is often 90 per cent lower than field farming for leafy greens.",
     "Energy per kg is the main weakness; track it."
    ],
-   "A tray gives 3.5 kg per cycle using 9 kWh per kg. A 6 m2 floor with 4 levels gives 24 m2 of growing area and produces 40 kg of lettuce every 5 weeks, about 8 kg per week.",
-   "Calculate for your pilot. Calculate yield, water and energy per kg for your pilot.",
+   "A tray gives 3.5 kg per cycle using 9 kWh per kg. A 6 m2 floor with 4 levels gives 24 m2 of growing area and produces 40 kg of lettuce every 5 weeks, about 8 kg per week. A 6 m2 floor with 4 levels gives 24 m2 of growing area and produces 40 kg of lettuce every 5 weeks, about 8 kg per week.",
+   "Calculate for your pilot. Calculate yield, water and energy per kg for your pilot. Calculate yield, water and energy per kg for your pilot.",
    "Maths correct."
   ],
   [
    "Business case",
    "Evaluate",
    4,
-   "Does it pay? A viable unit needs steady sales.",
+   "Does it pay? A viable unit needs steady sales. A viable unit needs steady sales.",
    [
     "Setup cost, running cost, price per kg.",
     "Direct sales and contracts.",
@@ -152,17 +170,20 @@
     "Risks.",
     "Cost lines: racks, lights, pumps, space rent, power, water, seeds, nutrients, labour, packing, transport.",
     "Sell direct to restaurants and shops, and consider weekly subscription boxes.",
+    "Calculate break-even kilograms per week.",
+    "Cost lines: racks, lights, pumps, space rent, power, water, seeds, nutrients, labour, packing, transport.",
+    "Sell direct to restaurants and shops, and consider weekly subscription boxes.",
     "Calculate break-even kilograms per week."
    ],
-   "Price 250 INR per kg; cost 190 INR. Weekly costs of 9,500 INR and a margin of 110 INR per kg mean break-even at about 86 kg a week; the unit must grow and sell at that rate.",
-   "Build a cost sheet. Build a weekly break-even sheet.",
+   "Price 250 INR per kg; cost 190 INR. Weekly costs of 9,500 INR and a margin of 110 INR per kg mean break-even at about 86 kg a week; the unit must grow and sell at that rate. Weekly costs of 9,500 INR and a margin of 110 INR per kg mean break-even at about 86 kg a week; the unit must grow and sell at that rate.",
+   "Build a cost sheet. Build a weekly break-even sheet. Build a weekly break-even sheet.",
    "Currency shown."
   ],
   [
    "Pilot plan",
    "Create",
    3,
-   "Run 90 days. Run a pilot long enough to see a full crop cycle and several repeats.",
+   "Run 90 days. Run a pilot long enough to see a full crop cycle and several repeats. Run a pilot long enough to see a full crop cycle and several repeats.",
    [
     "Targets and weekly reviews.",
     "Learn from losses.",
@@ -170,10 +191,13 @@
     "Share findings.",
     "Set weekly targets for yield, losses and energy.",
     "Keep a log of every problem and fix.",
+    "At day 90 decide: scale, change crop or stop.",
+    "Set weekly targets for yield, losses and energy.",
+    "Keep a log of every problem and fix.",
     "At day 90 decide: scale, change crop or stop."
    ],
-   "The pilot produces 62 kg of herbs. By week 12 the pilot sells 62 kg of herbs, loses 6 per cent to disease and reduces energy per kg by 12 per cent after lights are moved closer.",
-   "Present the plan. Write the day-90 decision memo.",
+   "The pilot produces 62 kg of herbs. By week 12 the pilot sells 62 kg of herbs, loses 6 per cent to disease and reduces energy per kg by 12 per cent after lights are moved closer. By week 12 the pilot sells 62 kg of herbs, loses 6 per cent to disease and reduces energy per kg by 12 per cent after lights are moved closer.",
+   "Present the plan. Write the day-90 decision memo. Write the day-90 decision memo.",
    "Peers follow."
   ]
  ],
@@ -278,38 +302,38 @@
  "ladder": [
   [
    "What suits vertical growing",
-   "L1: learner can name crops. Focus module: What suits vertical growing (Understand, 3 h). Not every crop suits stacked indoor growing. Start with the crop, not the equipment. A crop that sells well and grows fast pays back sooner. Key points: Leafy greens, herbs and microgreens are fast, light and high-value. Heavy crops such as grains and tubers are rarely economic indoors. Weigh space, energy and market. Check local demand. Check demand: ask three local buyers (restaurants, shops, households) what they buy weekly and at what price. Compare crop cycles: microgreens 8 to 12 days, lettuce 30 to 40 days, herbs 4 to 6 weeks, strawberries 8 to 12 weeks. Rank crops by value per tray per week, not by price per kg alone.",
-   "Teach: open with the worked example. Microgreens are ready in about 8 days and sell at a high price per kg, suiting a small indoor unit. Three buyers say they would take 20 kg of basil per week at 300 INR per kg. A basil tray yields 1.2 kg every 5 weeks, so the unit needs about 80 trays in rotation to meet that demand. Then set the activity: Pick three crops and justify them. Add a demand table with three buyers, quantity and price. Mark against the standard: Reasons given with numbers. Check at this level: Which crops suit? Model answer: Leafy greens, herbs, microgreens."
+   "L1: learner can name crops. Focus module: What suits vertical growing (Understand, 3 h). Not every crop suits stacked indoor growing. Start with the crop, not the equipment. A crop that sells well and grows fast pays back sooner. Start with the crop, not the equipment. A crop that sells well and grows fast pays back sooner. Key points: Leafy greens, herbs and microgreens are fast, light and high-value. Heavy crops such as grains and tubers are rarely economic indoors. Weigh space, energy and market. Check local demand. Check demand: ask three local buyers (restaurants, shops, households) what they buy weekly and at what price. Compare crop cycles: microgreens 8 to 12 days, lettuce 30 to 40 days, herbs 4 to 6 weeks, strawberries 8 to 12 weeks. Rank crops by value per tray per week, not by price per kg alone. Check demand: ask three local buyers (restaurants, shops, households) what they buy weekly and at what price. Compare crop cycles: microgreens 8 to 12 days, lettuce 30 to 40 days, herbs 4 to 6 weeks, strawberries 8 to 12 weeks. Rank crops by value per tray per week, not by price per kg alone.",
+   "Teach: open with the worked example. Microgreens are ready in about 8 days and sell at a high price per kg, suiting a small indoor unit. Three buyers say they would take 20 kg of basil per week at 300 INR per kg. A basil tray yields 1.2 kg every 5 weeks, so the unit needs about 80 trays in rotation to meet that demand. Three buyers say they would take 20 kg of basil per week at 300 INR per kg. A basil tray yields 1.2 kg every 5 weeks, so the unit needs about 80 trays in rotation to meet that demand. Then set the activity: Pick three crops and justify them. Add a demand table with three buyers, quantity and price. Add a demand table with three buyers, quantity and price. Mark against the standard: Reasons given with numbers. Check at this level: Which crops suit? Model answer: Leafy greens, herbs, microgreens."
   ],
   [
    "Systems",
-   "L2: learner knows system types. Focus module: Systems (Understand, 4 h). Choose soil, hydroponic or aeroponic systems. Systems differ in cost, water use and risk. Key points: Hydroponics grows plants in nutrient water; aeroponics mists roots. Parts: trays, pumps, channels, reservoirs, timers. Failure risk if pumps stop. Cleaning between cycles. Deep-water culture floats plants on aerated nutrient solution; nutrient film technique runs a thin stream over roots; ebb and flow floods and drains trays. Aeroponics mists roots and saves the most water but fails fastest if a pump stops. Plan a fail-safe: backup power for pumps, alarms and a manual watering routine.",
-   "Teach: open with the worked example. A timer controls a flood and drain tray that waters lettuce every 30 minutes. A 4-level rack of ebb and flow trays uses a single 40 L reservoir and a timer. When the pump fails at night, a battery alarm wakes the grower within 10 minutes and plants survive. Then set the activity: Draw a layout. Write the fail-safe plan for your system. Mark against the standard: Parts labelled. Check at this level: Why LEDs? Model answer: Efficient, less heat."
+   "L2: learner knows system types. Focus module: Systems (Understand, 4 h). Choose soil, hydroponic or aeroponic systems. Systems differ in cost, water use and risk. Systems differ in cost, water use and risk. Key points: Hydroponics grows plants in nutrient water; aeroponics mists roots. Parts: trays, pumps, channels, reservoirs, timers. Failure risk if pumps stop. Cleaning between cycles. Deep-water culture floats plants on aerated nutrient solution; nutrient film technique runs a thin stream over roots; ebb and flow floods and drains trays. Aeroponics mists roots and saves the most water but fails fastest if a pump stops. Plan a fail-safe: backup power for pumps, alarms and a manual watering routine. Deep-water culture floats plants on aerated nutrient solution; nutrient film technique runs a thin stream over roots; ebb and flow floods and drains trays. Aeroponics mists roots and saves the most water but fails fastest if a pump stops. Plan a fail-safe: backup power for pumps, alarms and a manual watering routine.",
+   "Teach: open with the worked example. A timer controls a flood and drain tray that waters lettuce every 30 minutes. A 4-level rack of ebb and flow trays uses a single 40 L reservoir and a timer. When the pump fails at night, a battery alarm wakes the grower within 10 minutes and plants survive. A 4-level rack of ebb and flow trays uses a single 40 L reservoir and a timer. When the pump fails at night, a battery alarm wakes the grower within 10 minutes and plants survive. Then set the activity: Draw a layout. Write the fail-safe plan for your system. Write the fail-safe plan for your system. Mark against the standard: Parts labelled. Check at this level: Why LEDs? Model answer: Efficient, less heat."
   ],
   [
    "Light",
-   "L3: learner can set schedules. Focus module: Light (Apply, 4 h). Plants need the right light. Light is usually the largest running cost. Key points: Intensity, spectrum and hours. LEDs use less heat. Distance matters. Photoperiod varies by crop. Intensity is measured as photosynthetic photon flux density; many leafy crops grow well at 150 to 250 micromoles per square metre per second. Blue light supports compact growth; red light supports leaf and fruit; full-spectrum white LEDs work for most beginners. Hang lights 20 to 40 cm above the canopy and raise them as plants grow; use timers.",
-   "Teach: open with the worked example. Lettuce receives about 14 hours of light a day. A rack of 4 trays with 100 W of LEDs for 14 hours uses 1.4 kWh a day. At 8 INR per kWh, that is 11.2 INR a day for the rack. Then set the activity: Set a light schedule. Calculate the daily light energy cost for your rack. Mark against the standard: Settings logged. Check at this level: What pH range? Model answer: About 5.8 to 6.2 for many crops."
+   "L3: learner can set schedules. Focus module: Light (Apply, 4 h). Plants need the right light. Light is usually the largest running cost. Light is usually the largest running cost. Key points: Intensity, spectrum and hours. LEDs use less heat. Distance matters. Photoperiod varies by crop. Intensity is measured as photosynthetic photon flux density; many leafy crops grow well at 150 to 250 micromoles per square metre per second. Blue light supports compact growth; red light supports leaf and fruit; full-spectrum white LEDs work for most beginners. Hang lights 20 to 40 cm above the canopy and raise them as plants grow; use timers. Intensity is measured as photosynthetic photon flux density; many leafy crops grow well at 150 to 250 micromoles per square metre per second. Blue light supports compact growth; red light supports leaf and fruit; full-spectrum white LEDs work for most beginners. Hang lights 20 to 40 cm above the canopy and raise them as plants grow; use timers.",
+   "Teach: open with the worked example. Lettuce receives about 14 hours of light a day. A rack of 4 trays with 100 W of LEDs for 14 hours uses 1.4 kWh a day. At 8 INR per kWh, that is 11.2 INR a day for the rack. A rack of 4 trays with 100 W of LEDs for 14 hours uses 1.4 kWh a day. At 8 INR per kWh, that is 11.2 INR a day for the rack. Then set the activity: Set a light schedule. Calculate the daily light energy cost for your rack. Calculate the daily light energy cost for your rack. Mark against the standard: Settings logged. Check at this level: What pH range? Model answer: About 5.8 to 6.2 for many crops."
   ],
   [
    "Water and nutrients",
-   "L4: learner can run a tray. Focus module: Water and nutrients (Apply, 4 h). Balance matters. Plants take nutrients dissolved in water, so water quality matters. Key points: pH and nutrient strength checks. Keep water clean; change on schedule. Record readings. Adjust slowly. Measure pH and electrical conductivity every day; adjust slowly. Use clean water, change the solution on a schedule and keep it covered from light to stop algae. Never mix concentrated nutrients together; add each to water separately.",
-   "Teach: open with the worked example. pH is kept between 5.8 and 6.2 using small adjustments. Lettuce is grown at pH 5.8 to 6.2 and conductivity of 1.2 to 1.8 mS per cm. A reading of pH 7.2 is corrected with a few millilitres of acid solution and re-tested after 30 minutes. Then set the activity: Run daily checks. Keep a daily reading sheet for 14 days. Mark against the standard: Log complete. Check at this level: Why hygiene? Model answer: Prevent disease."
+   "L4: learner can run a tray. Focus module: Water and nutrients (Apply, 4 h). Balance matters. Plants take nutrients dissolved in water, so water quality matters. Plants take nutrients dissolved in water, so water quality matters. Key points: pH and nutrient strength checks. Keep water clean; change on schedule. Record readings. Adjust slowly. Measure pH and electrical conductivity every day; adjust slowly. Use clean water, change the solution on a schedule and keep it covered from light to stop algae. Never mix concentrated nutrients together; add each to water separately. Measure pH and electrical conductivity every day; adjust slowly. Use clean water, change the solution on a schedule and keep it covered from light to stop algae. Never mix concentrated nutrients together; add each to water separately.",
+   "Teach: open with the worked example. pH is kept between 5.8 and 6.2 using small adjustments. Lettuce is grown at pH 5.8 to 6.2 and conductivity of 1.2 to 1.8 mS per cm. A reading of pH 7.2 is corrected with a few millilitres of acid solution and re-tested after 30 minutes. Lettuce is grown at pH 5.8 to 6.2 and conductivity of 1.2 to 1.8 mS per cm. A reading of pH 7.2 is corrected with a few millilitres of acid solution and re-tested after 30 minutes. Then set the activity: Run daily checks. Keep a daily reading sheet for 14 days. Keep a daily reading sheet for 14 days. Mark against the standard: Log complete. Check at this level: Why hygiene? Model answer: Prevent disease."
   ],
   [
    "Climate and hygiene",
-   "L5: learner can measure yield. Focus module: Climate and hygiene (Evaluate, 4 h). Prevent disease. Disease spreads fast in warm, humid indoor air. Key points: Temperature, humidity and airflow. Clean tools, hands and trays; keep pests out. Separate harvest area. Dispose of waste. Keep humidity around 50 to 70 per cent and airflow gentle but constant. Wash hands, use clean tools, keep a footbath or shoe change and quarantine new plants. Remove diseased plants at once and sanitise trays between cycles.",
-   "Teach: open with the worked example. Mould appears at high humidity; fans and a dehumidifier fix it. Grey mould appears at 85 per cent humidity. A small fan and a dehumidifier bring it to 65 per cent within a day and the outbreak stops. Then set the activity: Write a hygiene plan. Add a weekly cleaning timetable. Mark against the standard: Measures specific. Check at this level: Yield measure? Model answer: Per m2 per cycle."
+   "L5: learner can measure yield. Focus module: Climate and hygiene (Evaluate, 4 h). Prevent disease. Disease spreads fast in warm, humid indoor air. Disease spreads fast in warm, humid indoor air. Key points: Temperature, humidity and airflow. Clean tools, hands and trays; keep pests out. Separate harvest area. Dispose of waste. Keep humidity around 50 to 70 per cent and airflow gentle but constant. Wash hands, use clean tools, keep a footbath or shoe change and quarantine new plants. Remove diseased plants at once and sanitise trays between cycles. Keep humidity around 50 to 70 per cent and airflow gentle but constant. Wash hands, use clean tools, keep a footbath or shoe change and quarantine new plants. Remove diseased plants at once and sanitise trays between cycles.",
+   "Teach: open with the worked example. Mould appears at high humidity; fans and a dehumidifier fix it. Grey mould appears at 85 per cent humidity. A small fan and a dehumidifier bring it to 65 per cent within a day and the outbreak stops. Grey mould appears at 85 per cent humidity. A small fan and a dehumidifier bring it to 65 per cent within a day and the outbreak stops. Then set the activity: Write a hygiene plan. Add a weekly cleaning timetable. Add a weekly cleaning timetable. Mark against the standard: Measures specific. Check at this level: Yield measure? Model answer: Per m2 per cycle."
   ],
   [
    "Business case",
-   "L6: learner can lead a farm shift. Focus module: Business case (Evaluate, 4 h). Does it pay? A viable unit needs steady sales. Key points: Setup cost, running cost, price per kg. Direct sales and contracts. Break-even volume. Risks. Cost lines: racks, lights, pumps, space rent, power, water, seeds, nutrients, labour, packing, transport. Sell direct to restaurants and shops, and consider weekly subscription boxes. Calculate break-even kilograms per week.",
-   "Teach: open with the worked example. Price 250 INR per kg; cost 190 INR. Weekly costs of 9,500 INR and a margin of 110 INR per kg mean break-even at about 86 kg a week; the unit must grow and sell at that rate. Then set the activity: Build a cost sheet. Build a weekly break-even sheet. Mark against the standard: Currency shown. Check at this level: Energy per kg unit? Model answer: kWh per kg."
+   "L6: learner can lead a farm shift. Focus module: Business case (Evaluate, 4 h). Does it pay? A viable unit needs steady sales. A viable unit needs steady sales. Key points: Setup cost, running cost, price per kg. Direct sales and contracts. Break-even volume. Risks. Cost lines: racks, lights, pumps, space rent, power, water, seeds, nutrients, labour, packing, transport. Sell direct to restaurants and shops, and consider weekly subscription boxes. Calculate break-even kilograms per week. Cost lines: racks, lights, pumps, space rent, power, water, seeds, nutrients, labour, packing, transport. Sell direct to restaurants and shops, and consider weekly subscription boxes. Calculate break-even kilograms per week.",
+   "Teach: open with the worked example. Price 250 INR per kg; cost 190 INR. Weekly costs of 9,500 INR and a margin of 110 INR per kg mean break-even at about 86 kg a week; the unit must grow and sell at that rate. Weekly costs of 9,500 INR and a margin of 110 INR per kg mean break-even at about 86 kg a week; the unit must grow and sell at that rate. Then set the activity: Build a cost sheet. Build a weekly break-even sheet. Build a weekly break-even sheet. Mark against the standard: Currency shown. Check at this level: Energy per kg unit? Model answer: kWh per kg."
   ],
   [
    "Pilot plan",
-   "L7: learner can audit a plan. Focus module: Pilot plan (Create, 3 h). Run 90 days. Run a pilot long enough to see a full crop cycle and several repeats. Key points: Targets and weekly reviews. Learn from losses. Decide to scale or stop. Share findings. Set weekly targets for yield, losses and energy. Keep a log of every problem and fix. At day 90 decide: scale, change crop or stop.",
-   "Teach: open with the worked example. The pilot produces 62 kg of herbs. By week 12 the pilot sells 62 kg of herbs, loses 6 per cent to disease and reduces energy per kg by 12 per cent after lights are moved closer. Then set the activity: Present the plan. Write the day-90 decision memo. Mark against the standard: Peers follow. Check at this level: Biggest risk? Model answer: Pump or power failure."
+   "L7: learner can audit a plan. Focus module: Pilot plan (Create, 3 h). Run 90 days. Run a pilot long enough to see a full crop cycle and several repeats. Run a pilot long enough to see a full crop cycle and several repeats. Key points: Targets and weekly reviews. Learn from losses. Decide to scale or stop. Share findings. Set weekly targets for yield, losses and energy. Keep a log of every problem and fix. At day 90 decide: scale, change crop or stop. Set weekly targets for yield, losses and energy. Keep a log of every problem and fix. At day 90 decide: scale, change crop or stop.",
+   "Teach: open with the worked example. The pilot produces 62 kg of herbs. By week 12 the pilot sells 62 kg of herbs, loses 6 per cent to disease and reduces energy per kg by 12 per cent after lights are moved closer. By week 12 the pilot sells 62 kg of herbs, loses 6 per cent to disease and reduces energy per kg by 12 per cent after lights are moved closer. Then set the activity: Present the plan. Write the day-90 decision memo. Write the day-90 decision memo. Mark against the standard: Peers follow. Check at this level: Biggest risk? Model answer: Pump or power failure."
   ]
  ]
 }

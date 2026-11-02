@@ -41,10 +41,12 @@
     "Rain, rivers, lakes, groundwater and storage.",
     "Droughts, floods and quality problems.",
     "Know your supply source, schedule and rules.",
-    "Cost and availability vary by season."
+    "Cost and availability vary by season.",
+    "Find your supplier, tariff and quality report.",
+    "Know water-saving rules or limits in your area."
    ],
-   "A town cuts supply in summer; households that store water cope better.",
-   "Describe your water supply and one risk.",
+   "A town cuts supply in summer; households that store water cope better. A household learns its supply is cut for three hours a day and sizes storage for 150 L per person.",
+   "Describe your water supply and one risk. Add supply schedule and storage size.",
    "Sources named and risk explained."
   ],
   [
@@ -56,10 +58,12 @@
     "Read the meter at the same time daily.",
     "List uses: taps, toilets, showers, cleaning, irrigation, laundry.",
     "Convert to litres per person per day.",
-    "Compare with benchmarks."
+    "Compare with benchmarks.",
+    "Compare winter and summer readings.",
+    "Separate indoor and outdoor use."
    ],
-   "A home uses 180 L per person per day; the benchmark target is 135 L.",
-   "Do an audit for one week.",
+   "A home uses 180 L per person per day; the benchmark target is 135 L. Garden use is 40 per cent of the summer total.",
+   "Do an audit for one week. Split your audit into indoor and outdoor.",
    "Table complete."
   ],
   [
@@ -71,10 +75,12 @@
     "Night meter test: stop all use, check the meter does not move.",
     "Dye test for toilets.",
     "A drip per second wastes thousands of litres per year.",
-    "Fix quickly."
+    "Fix quickly.",
+    "Check taps, hoses, tanks and float valves.",
+    "Measure how fast a bucket fills to find flow rate."
    ],
-   "A toilet leak is found with food dye and repaired with a new valve, saving 20 L per day.",
-   "Run a leak test and record results.",
+   "A toilet leak is found with food dye and repaired with a new valve, saving 20 L per day. A leaking tank float is found after the meter moves at night, wasting 60 L per day.",
+   "Run a leak test and record results. Add a flow-rate test.",
    "Result recorded with fix."
   ],
   [
@@ -86,10 +92,12 @@
     "Aerators, efficient flushes, full loads, shorter showers.",
     "Behaviour and signs.",
     "Track savings.",
-    "Maintenance matters."
+    "Maintenance matters.",
+    "Replace the worst offenders first: toilets, showers and garden hoses.",
+    "Give households a weekly target and feedback."
    ],
-   "Aerators cut tap flow by 25 per cent.",
-   "Choose five measures and estimate savings.",
+   "Aerators cut tap flow by 25 per cent. A low-flow shower head saves 6 L per minute.",
+   "Choose five measures and estimate savings. Rank measures by litres saved per rupee spent.",
    "Savings estimated with numbers."
   ],
   [
@@ -101,10 +109,12 @@
     "Roof area x rainfall x efficiency = litres per year.",
     "First-flush diverter, filter and covered tank.",
     "Use for non-drinking unless treated.",
-    "Maintain tanks."
+    "Maintain tanks.",
+    "Add a mesh at gutters, a first-flush device and an overflow route.",
+    "Clean the tank every year."
    ],
-   "A 100 m2 roof and 800 mm rain with 80 per cent efficiency gives about 64,000 L a year.",
-   "Design a system.",
+   "A 100 m2 roof and 800 mm rain with 80 per cent efficiency gives about 64,000 L a year. A 5,000 L tank with a 100 m2 roof fills after about 60 mm of rain.",
+   "Design a system. Add tank cleaning and overflow plan.",
    "Calculation correct."
   ],
   [
@@ -116,10 +126,12 @@
     "Grey water from basins can irrigate non-edible plants with care.",
     "Avoid contact with edible leaves where unsafe.",
     "Test and treat drinking water.",
-    "Know local rules."
+    "Know local rules.",
+    "Never use untreated grey water on salad crops.",
+    "Use a simple sand and gravel filter before reuse where permitted."
    ],
-   "Bath water irrigates ornamental plants but not salad crops.",
-   "List safe uses and unsafe uses.",
+   "Bath water irrigates ornamental plants but not salad crops. A school filters hand-wash water and uses it for flushing.",
+   "List safe uses and unsafe uses. Add a treatment step and test note.",
    "Rules clear."
   ],
   [
@@ -131,10 +143,12 @@
     "Drip lines, mulching, timing.",
     "Soil moisture checks.",
     "Crop choice for local rain.",
-    "Reduce evaporation."
+    "Reduce evaporation.",
+    "Check soil moisture with a finger or a simple sensor.",
+    "Water early morning or evening."
    ],
-   "Drip cuts water use by about 40 per cent compared with flood irrigation.",
-   "Plan a small plot.",
+   "Drip cuts water use by about 40 per cent compared with flood irrigation. Mulch and drip lines keep soil moist twice as long.",
+   "Plan a small plot. Add a watering timetable.",
    "Plan complete."
   ],
   [
@@ -146,10 +160,12 @@
     "Targets, owners, dates.",
     "Report monthly.",
     "Share with the community.",
-    "Celebrate wins."
+    "Celebrate wins.",
+    "Set a target such as 20 litres per person per day saved.",
+    "Display progress where everyone can see."
    ],
-   "A school sets a 20 per cent cut in one year.",
-   "Present the plan.",
+   "A school sets a 20 per cent cut in one year. A notice board shows monthly litres saved by class.",
+   "Present the plan. Add a progress display design.",
    "Target measurable."
   ]
  ],
@@ -254,38 +270,38 @@
  "ladder": [
   [
    "Water cycle and local risk",
-   "L1: learner can name water sources. Focus module: Water cycle and local risk (Understand, 3 h). Know where your water comes from and what could go wrong. Key points: Rain, rivers, lakes, groundwater and storage. Droughts, floods and quality problems. Know your supply source, schedule and rules. Cost and availability vary by season.",
-   "Teach: open with the worked example. A town cuts supply in summer; households that store water cope better. Then set the activity: Describe your water supply and one risk. Mark against the standard: Sources named and risk explained. Check at this level: Litres per person per day? Model answer: Total use / people / days."
+   "L1: learner can name water sources. Focus module: Water cycle and local risk (Understand, 3 h). Know where your water comes from and what could go wrong. Key points: Rain, rivers, lakes, groundwater and storage. Droughts, floods and quality problems. Know your supply source, schedule and rules. Cost and availability vary by season. Find your supplier, tariff and quality report. Know water-saving rules or limits in your area.",
+   "Teach: open with the worked example. A town cuts supply in summer; households that store water cope better. A household learns its supply is cut for three hours a day and sizes storage for 150 L per person. Then set the activity: Describe your water supply and one risk. Add supply schedule and storage size. Mark against the standard: Sources named and risk explained. Check at this level: Litres per person per day? Model answer: Total use / people / days."
   ],
   [
    "Water audit",
-   "L2: learner knows leak basics. Focus module: Water audit (Apply, 5 h). Measure first. Key points: Read the meter at the same time daily. List uses: taps, toilets, showers, cleaning, irrigation, laundry. Convert to litres per person per day. Compare with benchmarks.",
-   "Teach: open with the worked example. A home uses 180 L per person per day; the benchmark target is 135 L. Then set the activity: Do an audit for one week. Mark against the standard: Table complete. Check at this level: Night meter test? Model answer: No use but meter moves means a leak."
+   "L2: learner knows leak basics. Focus module: Water audit (Apply, 5 h). Measure first. Key points: Read the meter at the same time daily. List uses: taps, toilets, showers, cleaning, irrigation, laundry. Convert to litres per person per day. Compare with benchmarks. Compare winter and summer readings. Separate indoor and outdoor use.",
+   "Teach: open with the worked example. A home uses 180 L per person per day; the benchmark target is 135 L. Garden use is 40 per cent of the summer total. Then set the activity: Do an audit for one week. Split your audit into indoor and outdoor. Mark against the standard: Table complete. Check at this level: Night meter test? Model answer: No use but meter moves means a leak."
   ],
   [
    "Finding leaks",
-   "L3: learner can audit. Focus module: Finding leaks (Apply, 4 h). Small drips cost a lot. Key points: Night meter test: stop all use, check the meter does not move. Dye test for toilets. A drip per second wastes thousands of litres per year. Fix quickly.",
-   "Teach: open with the worked example. A toilet leak is found with food dye and repaired with a new valve, saving 20 L per day. Then set the activity: Run a leak test and record results. Mark against the standard: Result recorded with fix. Check at this level: Rainwater formula? Model answer: Area x rain x efficiency."
+   "L3: learner can audit. Focus module: Finding leaks (Apply, 4 h). Small drips cost a lot. Key points: Night meter test: stop all use, check the meter does not move. Dye test for toilets. A drip per second wastes thousands of litres per year. Fix quickly. Check taps, hoses, tanks and float valves. Measure how fast a bucket fills to find flow rate.",
+   "Teach: open with the worked example. A toilet leak is found with food dye and repaired with a new valve, saving 20 L per day. A leaking tank float is found after the meter moves at night, wasting 60 L per day. Then set the activity: Run a leak test and record results. Add a flow-rate test. Mark against the standard: Result recorded with fix. Check at this level: Rainwater formula? Model answer: Area x rain x efficiency."
   ],
   [
    "Saving at the tap",
-   "L4: learner can fix and save. Focus module: Saving at the tap (Analyse, 4 h). Cheap measures work. Key points: Aerators, efficient flushes, full loads, shorter showers. Behaviour and signs. Track savings. Maintenance matters.",
-   "Teach: open with the worked example. Aerators cut tap flow by 25 per cent. Then set the activity: Choose five measures and estimate savings. Mark against the standard: Savings estimated with numbers. Check at this level: Safe grey water use? Model answer: Irrigation of non-edible plants."
+   "L4: learner can fix and save. Focus module: Saving at the tap (Analyse, 4 h). Cheap measures work. Key points: Aerators, efficient flushes, full loads, shorter showers. Behaviour and signs. Track savings. Maintenance matters. Replace the worst offenders first: toilets, showers and garden hoses. Give households a weekly target and feedback.",
+   "Teach: open with the worked example. Aerators cut tap flow by 25 per cent. A low-flow shower head saves 6 L per minute. Then set the activity: Choose five measures and estimate savings. Rank measures by litres saved per rupee spent. Mark against the standard: Savings estimated with numbers. Check at this level: Safe grey water use? Model answer: Irrigation of non-edible plants."
   ],
   [
    "Rainwater harvesting",
-   "L5: learner can design rainwater. Focus module: Rainwater harvesting (Create, 5 h). Catch and store rain. Key points: Roof area x rainfall x efficiency = litres per year. First-flush diverter, filter and covered tank. Use for non-drinking unless treated. Maintain tanks.",
-   "Teach: open with the worked example. A 100 m2 roof and 800 mm rain with 80 per cent efficiency gives about 64,000 L a year. Then set the activity: Design a system. Mark against the standard: Calculation correct. Check at this level: Aerator benefit? Model answer: Reduces flow."
+   "L5: learner can design rainwater. Focus module: Rainwater harvesting (Create, 5 h). Catch and store rain. Key points: Roof area x rainfall x efficiency = litres per year. First-flush diverter, filter and covered tank. Use for non-drinking unless treated. Maintain tanks. Add a mesh at gutters, a first-flush device and an overflow route. Clean the tank every year.",
+   "Teach: open with the worked example. A 100 m2 roof and 800 mm rain with 80 per cent efficiency gives about 64,000 L a year. A 5,000 L tank with a 100 m2 roof fills after about 60 mm of rain. Then set the activity: Design a system. Add tank cleaning and overflow plan. Mark against the standard: Calculation correct. Check at this level: Aerator benefit? Model answer: Reduces flow."
   ],
   [
    "Irrigation and farming",
-   "L6: learner can lead a plan. Focus module: Irrigation and farming (Apply, 3 h). Use less, grow more. Key points: Drip lines, mulching, timing. Soil moisture checks. Crop choice for local rain. Reduce evaporation.",
-   "Teach: open with the worked example. Drip cuts water use by about 40 per cent compared with flood irrigation. Then set the activity: Plan a small plot. Mark against the standard: Plan complete. Check at this level: Why first flush? Model answer: Removes dirt."
+   "L6: learner can lead a plan. Focus module: Irrigation and farming (Apply, 3 h). Use less, grow more. Key points: Drip lines, mulching, timing. Soil moisture checks. Crop choice for local rain. Reduce evaporation. Check soil moisture with a finger or a simple sensor. Water early morning or evening.",
+   "Teach: open with the worked example. Drip cuts water use by about 40 per cent compared with flood irrigation. Mulch and drip lines keep soil moist twice as long. Then set the activity: Plan a small plot. Add a watering timetable. Mark against the standard: Plan complete. Check at this level: Why first flush? Model answer: Removes dirt."
   ],
   [
    "Plan and target",
-   "L7: learner can audit others. Focus module: Plan and target (Create, 4 h). Make it stick. Key points: Targets, owners, dates. Report monthly. Share with the community. Celebrate wins.",
-   "Teach: open with the worked example. A school sets a 20 per cent cut in one year. Then set the activity: Present the plan. Mark against the standard: Target measurable. Check at this level: Mulch use? Model answer: Keeps moisture."
+   "L7: learner can audit others. Focus module: Plan and target (Create, 4 h). Make it stick. Key points: Targets, owners, dates. Report monthly. Share with the community. Celebrate wins. Set a target such as 20 litres per person per day saved. Display progress where everyone can see.",
+   "Teach: open with the worked example. A school sets a 20 per cent cut in one year. A notice board shows monthly litres saved by class. Then set the activity: Present the plan. Add a progress display design. Mark against the standard: Target measurable. Check at this level: Mulch use? Model answer: Keeps moisture."
   ]
  ]
 }

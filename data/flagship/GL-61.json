@@ -41,10 +41,12 @@
     "Bikes, e-bikes, scooters and cargo bikes have different range, speed and cost.",
     "Short trips under 5 km are the main use.",
     "E-assist helps on hills and with longer trips.",
-    "Match to local roads, weather and rules."
+    "Match to local roads, weather and rules.",
+    "Look at local street width, slopes and weather before choosing vehicles.",
+    "E-bikes need secure charging; scooters have higher injury risk at speed."
    ],
-   "A hilly campus picks e-bikes because they allow fast trips up slopes without sweat.",
-   "Compare three vehicle types in a table.",
+   "A hilly campus picks e-bikes because they allow fast trips up slopes without sweat. A flat tourist promenade suits light bikes; a hilly university suits e-bikes with 60 km range.",
+   "Compare three vehicle types in a table. Add a site-fit note.",
    "Table includes range, cost and best use."
   ],
   [
@@ -56,10 +58,12 @@
     "Pick start points near demand.",
     "Marked parking, no-go zones and speed limits.",
     "Work with the owner or authority.",
-    "Review complaints."
+    "Review complaints.",
+    "Place parking where people already walk, such as gates, stations and shops.",
+    "Use geofencing in the app to slow vehicles in busy zones or end trips only in bays."
    ],
-   "Parking bays at gates reduce clutter; a no-go zone near a hospital entrance prevents blocked access.",
-   "Draw a zone map for a campus or district.",
+   "Parking bays at gates reduce clutter; a no-go zone near a hospital entrance prevents blocked access. A campus limits scooters to 10 km/h in the library courtyard through the app.",
+   "Draw a zone map for a campus or district. Mark slow zones on your map.",
    "Zones are marked and justified."
   ],
   [
@@ -71,10 +75,12 @@
     "Fleet = peak trips / trips per vehicle per day.",
     "Rebalancing moves vehicles from places where they pile up to where they are needed.",
     "Start small and measure.",
-    "Keep spares for repair."
+    "Keep spares for repair.",
+    "Use trip data to adjust fleet weekly; shift vehicles before peak hours.",
+    "Keep 15 to 20 per cent of the fleet under repair or charging."
    ],
-   "60 peak trips at 6 trips per vehicle need 10 vehicles plus 2 spares.",
-   "Size a fleet for your case.",
+   "60 peak trips at 6 trips per vehicle need 10 vehicles plus 2 spares. With 12 vehicles and 20 per cent unavailable, only about 10 are on the street at any time.",
+   "Size a fleet for your case. Add a repair buffer to your sizing.",
    "Maths correct."
   ],
   [
@@ -86,10 +92,12 @@
     "Helmets, lights, speed limits and age limits.",
     "Rider tips and clear rules in the app.",
     "Incident log and insurance.",
-    "Safe parking and pedestrian priority."
+    "Safe parking and pedestrian priority.",
+    "Offer a short in-app safety quiz before the first ride.",
+    "Record injuries and near misses and share lessons weekly."
    ],
-   "A slow-speed zone is set near pedestrians and the speed is limited remotely.",
-   "Write safety rules.",
+   "A slow-speed zone is set near pedestrians and the speed is limited remotely. After a quiz is added, near misses fall by a third in a month.",
+   "Write safety rules. Write a first-ride safety quiz of five questions.",
    "Rules measurable."
   ],
   [
@@ -101,10 +109,12 @@
     "Daily check: brakes, tyres, lights, bell and lock.",
     "Battery swaps and safe charging.",
     "Spare parts and tools.",
-    "Log every repair."
+    "Log every repair.",
+    "Replace worn tyres and brake pads on a schedule, not only on failure.",
+    "Train staff to handle batteries; never charge damaged packs."
    ],
-   "A tag shows last check date; vehicles failing a check are removed.",
-   "Create a check card.",
+   "A tag shows last check date; vehicles failing a check are removed. A weekly brake and tyre check finds three worn pads before any incident.",
+   "Create a check card. Create a weekly maintenance calendar.",
    "Card has ten items."
   ],
   [
@@ -116,10 +126,12 @@
     "Unlock fee plus per-minute price; passes.",
     "Costs: vehicles, staff, charging, repair, insurance and permits.",
     "Break-even trips per day.",
-    "Discounts for students and low-income riders."
+    "Discounts for students and low-income riders.",
+    "Offer a student day pass and a low-income discount to widen access.",
+    "Track revenue per vehicle per day against cost per vehicle."
    ],
-   "Break-even is 4.2 trips per vehicle per day at a 20 INR average fare.",
-   "Build a pricing sheet.",
+   "Break-even is 4.2 trips per vehicle per day at a 20 INR average fare. Revenue of 90 INR per vehicle-day against a cost of 70 INR gives 20 INR margin.",
+   "Build a pricing sheet. Test two price levels with a mock demand.",
    "Currency shown."
   ],
   [
@@ -131,10 +143,12 @@
     "Noise, sidewalk clutter and accessibility.",
     "Complaint line and response times.",
     "Recycling of batteries and parts.",
-    "Local jobs."
+    "Local jobs.",
+    "Publish a contact number and respond to complaints in 24 hours.",
+    "Offer vehicle adaptations for riders with disabilities where possible."
    ],
-   "A fine for blocking paths is explained in rules and enforced fairly.",
-   "List community actions.",
+   "A fine for blocking paths is explained in rules and enforced fairly. A trike option and a pickup service help riders who cannot use a scooter.",
+   "List community actions. Write a response plan.",
    "Each has an owner."
   ],
   [
@@ -146,10 +160,12 @@
     "Targets for trips, safety and complaints.",
     "Review weekly.",
     "Decide to stop, change or grow.",
-    "Share results."
+    "Share results.",
+    "Define stop rules: stop the pilot if serious injuries occur.",
+    "Report to the authority and community monthly."
    ],
-   "The pilot adds two bays after complaints and raises utilisation.",
-   "Present the plan.",
+   "The pilot adds two bays after complaints and raises utilisation. The pilot is paused after two incidents to review rules and then resumed with stricter zones.",
+   "Present the plan. Define your stop rules.",
    "Peers can follow."
   ]
  ],
@@ -254,38 +270,38 @@
  "ladder": [
   [
    "Types and fit",
-   "L1: learner can name types. Focus module: Types and fit (Understand, 3 h). Different vehicles suit different places. Key points: Bikes, e-bikes, scooters and cargo bikes have different range, speed and cost. Short trips under 5 km are the main use. E-assist helps on hills and with longer trips. Match to local roads, weather and rules.",
-   "Teach: open with the worked example. A hilly campus picks e-bikes because they allow fast trips up slopes without sweat. Then set the activity: Compare three vehicle types in a table. Mark against the standard: Table includes range, cost and best use. Check at this level: Typical trip length? Model answer: Under about 5 km."
+   "L1: learner can name types. Focus module: Types and fit (Understand, 3 h). Different vehicles suit different places. Key points: Bikes, e-bikes, scooters and cargo bikes have different range, speed and cost. Short trips under 5 km are the main use. E-assist helps on hills and with longer trips. Match to local roads, weather and rules. Look at local street width, slopes and weather before choosing vehicles. E-bikes need secure charging; scooters have higher injury risk at speed.",
+   "Teach: open with the worked example. A hilly campus picks e-bikes because they allow fast trips up slopes without sweat. A flat tourist promenade suits light bikes; a hilly university suits e-bikes with 60 km range. Then set the activity: Compare three vehicle types in a table. Add a site-fit note. Mark against the standard: Table includes range, cost and best use. Check at this level: Typical trip length? Model answer: Under about 5 km."
   ],
   [
    "Zones and parking",
-   "L2: learner knows safety rules. Focus module: Zones and parking (Apply, 4 h). Order on the street keeps the service welcome. Key points: Pick start points near demand. Marked parking, no-go zones and speed limits. Work with the owner or authority. Review complaints.",
-   "Teach: open with the worked example. Parking bays at gates reduce clutter; a no-go zone near a hospital entrance prevents blocked access. Then set the activity: Draw a zone map for a campus or district. Mark against the standard: Zones are marked and justified. Check at this level: Fleet formula? Model answer: Peak trips / trips per vehicle per day."
+   "L2: learner knows safety rules. Focus module: Zones and parking (Apply, 4 h). Order on the street keeps the service welcome. Key points: Pick start points near demand. Marked parking, no-go zones and speed limits. Work with the owner or authority. Review complaints. Place parking where people already walk, such as gates, stations and shops. Use geofencing in the app to slow vehicles in busy zones or end trips only in bays.",
+   "Teach: open with the worked example. Parking bays at gates reduce clutter; a no-go zone near a hospital entrance prevents blocked access. A campus limits scooters to 10 km/h in the library courtyard through the app. Then set the activity: Draw a zone map for a campus or district. Mark slow zones on your map. Mark against the standard: Zones are marked and justified. Check at this level: Fleet formula? Model answer: Peak trips / trips per vehicle per day."
   ],
   [
    "Fleet sizing and rebalancing",
-   "L3: learner can plan zones. Focus module: Fleet sizing and rebalancing (Analyse, 4 h). Not too many and not too few. Key points: Fleet = peak trips / trips per vehicle per day. Rebalancing moves vehicles from places where they pile up to where they are needed. Start small and measure. Keep spares for repair.",
-   "Teach: open with the worked example. 60 peak trips at 6 trips per vehicle need 10 vehicles plus 2 spares. Then set the activity: Size a fleet for your case. Mark against the standard: Maths correct. Check at this level: Name a safety rule. Model answer: Helmets or speed limits."
+   "L3: learner can plan zones. Focus module: Fleet sizing and rebalancing (Analyse, 4 h). Not too many and not too few. Key points: Fleet = peak trips / trips per vehicle per day. Rebalancing moves vehicles from places where they pile up to where they are needed. Start small and measure. Keep spares for repair. Use trip data to adjust fleet weekly; shift vehicles before peak hours. Keep 15 to 20 per cent of the fleet under repair or charging.",
+   "Teach: open with the worked example. 60 peak trips at 6 trips per vehicle need 10 vehicles plus 2 spares. With 12 vehicles and 20 per cent unavailable, only about 10 are on the street at any time. Then set the activity: Size a fleet for your case. Add a repair buffer to your sizing. Mark against the standard: Maths correct. Check at this level: Name a safety rule. Model answer: Helmets or speed limits."
   ],
   [
    "Rider safety",
-   "L4: learner can run daily checks. Focus module: Rider safety (Evaluate, 5 h). Prevent injuries. Key points: Helmets, lights, speed limits and age limits. Rider tips and clear rules in the app. Incident log and insurance. Safe parking and pedestrian priority.",
-   "Teach: open with the worked example. A slow-speed zone is set near pedestrians and the speed is limited remotely. Then set the activity: Write safety rules. Mark against the standard: Rules measurable. Check at this level: Daily check items? Model answer: Brakes, tyres, lights, bell, lock."
+   "L4: learner can run daily checks. Focus module: Rider safety (Evaluate, 5 h). Prevent injuries. Key points: Helmets, lights, speed limits and age limits. Rider tips and clear rules in the app. Incident log and insurance. Safe parking and pedestrian priority. Offer a short in-app safety quiz before the first ride. Record injuries and near misses and share lessons weekly.",
+   "Teach: open with the worked example. A slow-speed zone is set near pedestrians and the speed is limited remotely. After a quiz is added, near misses fall by a third in a month. Then set the activity: Write safety rules. Write a first-ride safety quiz of five questions. Mark against the standard: Rules measurable. Check at this level: Daily check items? Model answer: Brakes, tyres, lights, bell, lock."
   ],
   [
    "Maintenance and charging",
-   "L5: learner can price and size. Focus module: Maintenance and charging (Apply, 4 h). Safe vehicles every day. Key points: Daily check: brakes, tyres, lights, bell and lock. Battery swaps and safe charging. Spare parts and tools. Log every repair.",
-   "Teach: open with the worked example. A tag shows last check date; vehicles failing a check are removed. Then set the activity: Create a check card. Mark against the standard: Card has ten items. Check at this level: Break-even idea? Model answer: Trips per day needed to cover costs."
+   "L5: learner can price and size. Focus module: Maintenance and charging (Apply, 4 h). Safe vehicles every day. Key points: Daily check: brakes, tyres, lights, bell and lock. Battery swaps and safe charging. Spare parts and tools. Log every repair. Replace worn tyres and brake pads on a schedule, not only on failure. Train staff to handle batteries; never charge damaged packs.",
+   "Teach: open with the worked example. A tag shows last check date; vehicles failing a check are removed. A weekly brake and tyre check finds three worn pads before any incident. Then set the activity: Create a check card. Create a weekly maintenance calendar. Mark against the standard: Card has ten items. Check at this level: Break-even idea? Model answer: Trips per day needed to cover costs."
   ],
   [
    "Community and environment",
-   "L6: learner can lead operations. Focus module: Community and environment (Evaluate, 3 h). Be a good neighbour. Key points: Noise, sidewalk clutter and accessibility. Complaint line and response times. Recycling of batteries and parts. Local jobs.",
-   "Teach: open with the worked example. A fine for blocking paths is explained in rules and enforced fairly. Then set the activity: List community actions. Mark against the standard: Each has an owner. Check at this level: Why parking zones? Model answer: To avoid clutter."
+   "L6: learner can lead operations. Focus module: Community and environment (Evaluate, 3 h). Be a good neighbour. Key points: Noise, sidewalk clutter and accessibility. Complaint line and response times. Recycling of batteries and parts. Local jobs. Publish a contact number and respond to complaints in 24 hours. Offer vehicle adaptations for riders with disabilities where possible.",
+   "Teach: open with the worked example. A fine for blocking paths is explained in rules and enforced fairly. A trike option and a pickup service help riders who cannot use a scooter. Then set the activity: List community actions. Write a response plan. Mark against the standard: Each has an owner. Check at this level: Why parking zones? Model answer: To avoid clutter."
   ],
   [
    "Pilot plan",
-   "L7: learner can audit a pilot. Focus module: Pilot plan (Create, 4 h). Test before scaling. Key points: Targets for trips, safety and complaints. Review weekly. Decide to stop, change or grow. Share results.",
-   "Teach: open with the worked example. The pilot adds two bays after complaints and raises utilisation. Then set the activity: Present the plan. Mark against the standard: Peers can follow. Check at this level: Why insurance? Model answer: Covers incidents."
+   "L7: learner can audit a pilot. Focus module: Pilot plan (Create, 4 h). Test before scaling. Key points: Targets for trips, safety and complaints. Review weekly. Decide to stop, change or grow. Share results. Define stop rules: stop the pilot if serious injuries occur. Report to the authority and community monthly.",
+   "Teach: open with the worked example. The pilot adds two bays after complaints and raises utilisation. The pilot is paused after two incidents to review rules and then resumed with stricter zones. Then set the activity: Present the plan. Define your stop rules. Mark against the standard: Peers can follow. Check at this level: Why insurance? Model answer: Covers incidents."
   ]
  ]
 }
