@@ -33,18 +33,19 @@
  "evidence": "audit sheet, leak test record, plan, target",
  "modules": [
   [
-   "Water cycle and risk",
+   "Water cycle and local risk",
    "Understand",
    3,
-   "Where water comes from.",
+   "Know where your water comes from and what could go wrong.",
    [
-    "Rain, rivers, groundwater, storage.",
+    "Rain, rivers, lakes, groundwater and storage.",
     "Droughts, floods and quality problems.",
-    "Know your supply and rules."
+    "Know your supply source, schedule and rules.",
+    "Cost and availability vary by season."
    ],
-   "A town cuts supply in summer; households store water.",
-   "Describe your supply.",
-   "Sources named."
+   "A town cuts supply in summer; households that store water cope better.",
+   "Describe your water supply and one risk.",
+   "Sources named and risk explained."
   ],
   [
    "Water audit",
@@ -53,11 +54,12 @@
    "Measure first.",
    [
     "Read the meter at the same time daily.",
-    "List uses: taps, toilets, showers, cleaning, irrigation.",
-    "Convert to litres per day per person."
+    "List uses: taps, toilets, showers, cleaning, irrigation, laundry.",
+    "Convert to litres per person per day.",
+    "Compare with benchmarks."
    ],
-   "A home uses 180 L per person per day.",
-   "Do an audit.",
+   "A home uses 180 L per person per day; the benchmark target is 135 L.",
+   "Do an audit for one week.",
    "Table complete."
   ],
   [
@@ -66,54 +68,58 @@
    4,
    "Small drips cost a lot.",
    [
-    "Night meter test; dye test for toilets.",
-    "A drip per second wastes thousands of litres a year.",
+    "Night meter test: stop all use, check the meter does not move.",
+    "Dye test for toilets.",
+    "A drip per second wastes thousands of litres per year.",
     "Fix quickly."
    ],
-   "A toilet leak is found with food dye and repaired.",
-   "Run a leak test.",
-   "Result recorded."
+   "A toilet leak is found with food dye and repaired with a new valve, saving 20 L per day.",
+   "Run a leak test and record results.",
+   "Result recorded with fix."
   ],
   [
    "Saving at the tap",
    "Analyse",
    4,
-   "Cheap measures.",
+   "Cheap measures work.",
    [
     "Aerators, efficient flushes, full loads, shorter showers.",
     "Behaviour and signs.",
-    "Track savings."
+    "Track savings.",
+    "Maintenance matters."
    ],
-   "Aerators save 25% at taps.",
-   "Choose five measures.",
-   "Savings estimated."
+   "Aerators cut tap flow by 25 per cent.",
+   "Choose five measures and estimate savings.",
+   "Savings estimated with numbers."
   ],
   [
    "Rainwater harvesting",
    "Create",
    5,
-   "Catch and store.",
+   "Catch and store rain.",
    [
-    "Roof area x rainfall x efficiency = litres.",
+    "Roof area x rainfall x efficiency = litres per year.",
     "First-flush diverter, filter and covered tank.",
-    "Use for non-drinking unless treated."
+    "Use for non-drinking unless treated.",
+    "Maintain tanks."
    ],
-   "100 m2 roof and 800 mm rain gives about 64,000 L a year.",
+   "A 100 m2 roof and 800 mm rain with 80 per cent efficiency gives about 64,000 L a year.",
    "Design a system.",
    "Calculation correct."
   ],
   [
-   "Reuse and quality",
+   "Reuse and water quality",
    "Evaluate",
    4,
-   "Grey water and treatment.",
+   "Grey water and treatment need care.",
    [
-    "Grey water from basins can irrigate with care.",
+    "Grey water from basins can irrigate non-edible plants with care.",
     "Avoid contact with edible leaves where unsafe.",
-    "Test and treat drinking water."
+    "Test and treat drinking water.",
+    "Know local rules."
    ],
-   "Bath water irrigates ornamental plants.",
-   "List safe uses.",
+   "Bath water irrigates ornamental plants but not salad crops.",
+   "List safe uses and unsafe uses.",
    "Rules clear."
   ],
   [
@@ -124,10 +130,11 @@
    [
     "Drip lines, mulching, timing.",
     "Soil moisture checks.",
-    "Crop choice for local rain."
+    "Crop choice for local rain.",
+    "Reduce evaporation."
    ],
-   "Drip cuts water by 40%.",
-   "Plan a plot.",
+   "Drip cuts water use by about 40 per cent compared with flood irrigation.",
+   "Plan a small plot.",
    "Plan complete."
   ],
   [
@@ -138,9 +145,10 @@
    [
     "Targets, owners, dates.",
     "Report monthly.",
-    "Share with the community."
+    "Share with the community.",
+    "Celebrate wins."
    ],
-   "A school sets a 20% cut in one year.",
+   "A school sets a 20 per cent cut in one year.",
    "Present the plan.",
    "Target measurable."
   ]

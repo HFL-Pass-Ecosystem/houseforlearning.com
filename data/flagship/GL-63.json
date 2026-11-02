@@ -33,101 +33,108 @@
  "evidence": "test sheet, comparison table, switch plan",
  "modules": [
   [
-   "The waste problem",
+   "The plastic waste problem",
    "Understand",
    3,
-   "Why plastic matters.",
+   "Single-use plastic is used for minutes and can last for centuries. Understanding the scale helps you choose where to act first.",
    [
-    "Single-use items are used for minutes and last for centuries.",
-    "Microplastics enter food and water.",
-    "Reduce first, reuse second, recycle third."
+    "Single-use items such as bags, bottles, sachets and cutlery make up a large share of litter.",
+    "Microplastics from breakdown and from textiles enter water and food.",
+    "Order of action: reduce, reuse, recycle, and only then replace.",
+    "A switch that increases total impact is not an improvement."
    ],
-   "Refill stations cut bottle use more than any new material.",
-   "Audit the plastic you use in a week.",
-   "List with counts."
+   "A cafe counts 300 disposable cups a day. Switching to a returnable cup scheme with a deposit cuts that by 70 per cent, more than any new compostable cup could.",
+   "Audit the plastic you or your business use in one week and list items with counts.",
+   "List has at least 15 items with counts and the top three are highlighted."
   ],
   [
-   "Types of plastic and codes",
+   "Plastic types and codes",
    "Understand",
    3,
-   "Know what you hold.",
+   "Knowing the type tells you if it can be recycled.",
    [
-    "Resin codes 1 to 7.",
-    "Some types are widely recycled, some not.",
-    "Mixed and dirty plastic is hard to recycle."
+    "Resin codes 1 to 7 show the polymer type.",
+    "PET (1) and HDPE (2) are widely recycled; films and multilayer packs are rarely recycled.",
+    "Mixed, dirty and black plastics are hard to sort.",
+    "Check local collection rules."
    ],
-   "PET bottles are often recycled; film is not.",
-   "Sort 10 items.",
-   "At least 9 correct."
+   "PET bottles are often collected and recycled; a chips packet made of multilayer film usually goes to landfill.",
+   "Sort 10 items by code and recyclability in your area.",
+   "At least 9 sorted correctly."
   ],
   [
-   "Alternatives",
+   "Alternative materials",
    "Understand",
    4,
-   "Many options.",
+   "Many options exist, each with trade-offs.",
    [
-    "Paper, glass, metal, plant fibres, starch-based, compostable blends.",
-    "Each has a cost and an impact.",
-    "Reuse systems often win."
+    "Paper, card, glass, metal, plant fibres, starch-based plastics and compostable blends.",
+    "Reuse systems often beat single-use alternatives.",
+    "Consider strength, moisture, heat and cost.",
+    "Consider whether local facilities exist for the end-of-life route."
    ],
-   "A cafe moves to returnable cups.",
-   "Make an options table.",
-   "Pros and cons."
+   "A bakery tests paper bags, starch bags and reusable cloth bags. The paper bag works but costs more; a cloth bag discount scheme reduces bag use by half.",
+   "Make an options table for one product with pros and cons.",
+   "At least four options compared."
   ],
   [
-   "Testing",
+   "Testing alternatives",
    "Apply",
    4,
-   "Do real tests.",
+   "Do real tests before switching.",
    [
-    "Strength, leak, heat, shelf life, cost per use.",
-    "Repeat three times.",
-    "Record failures."
+    "Strength: load until failure; leak test; heat test; shelf life.",
+    "Repeat each test three times.",
+    "Record failures and costs.",
+    "Test with real users."
    ],
-   "A starch bag tears at 3 kg; paper holds 5 kg.",
-   "Test two options.",
-   "Table complete."
+   "A starch bag tears at 3 kg while a paper bag holds 5 kg; the shop selects paper for heavy items.",
+   "Test two alternatives against your current item and record results.",
+   "Table has repeated results and a conclusion."
   ],
   [
    "Life-cycle thinking",
    "Analyse",
    4,
-   "Look at the whole life.",
+   "Look at the whole life of a product, from raw material to disposal.",
    [
-    "Raw material, making, transport, use, end of life.",
-    "Reuse items win after enough uses.",
-    "Local conditions change results."
+    "Stages: raw material, making, transport, use, end of life.",
+    "A reusable item wins after enough uses.",
+    "Local conditions change results.",
+    "State your boundaries."
    ],
-   "A glass jar needs 12 uses to beat plastic.",
-   "Do a simple comparison.",
-   "Method stated."
+   "A glass jar needs about 12 uses to beat a plastic tub in emissions; a thicker cup needs 20 uses.",
+   "Do a simple comparison for two options.",
+   "Method and sources stated."
   ],
   [
    "Claims and labels",
    "Evaluate",
    3,
-   "Avoid greenwashing.",
+   "Avoid being misled by green claims.",
    [
     "Biodegradable and compostable are not the same.",
     "Compostable may need industrial facilities.",
-    "Look for recognised standards."
+    "Look for recognised standards and test reports.",
+    "Ask for evidence."
    ],
-   "A bag labelled \"eco\" has no standard; the buyer asks for a test report.",
-   "Review 3 labels.",
-   "Claims checked."
+   "A bag labelled \"eco\" has no standard. The buyer asks for a test report and finds it is not compostable in home conditions.",
+   "Review three labels and score their claims.",
+   "Each review lists evidence required."
   ],
   [
    "Customers and cost",
    "Evaluate",
    3,
-   "Make the switch fair.",
+   "A switch must work for customers and the business.",
    [
     "Cost per use, not per piece.",
     "Deposit or discount schemes.",
-    "Explain simply."
+    "Explain simply and train staff.",
+    "Track complaints."
    ],
-   "A refill discount repays within 20 uses.",
-   "Cost your switch.",
+   "A refill discount repays the cost of the container within 20 uses.",
+   "Cost your switch for one month.",
    "Currency shown."
   ],
   [
@@ -138,9 +145,10 @@
    [
     "Steps, dates, owners, measures.",
     "Pilot in one store.",
-    "Report results."
+    "Report results.",
+    "Scale or adjust."
    ],
-   "Plastic bags fall by 70% in a month.",
+   "Plastic bags fall by 70 per cent in one month with a returnable bag scheme.",
    "Present the plan.",
    "Measures are clear."
   ]

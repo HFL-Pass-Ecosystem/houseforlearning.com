@@ -33,44 +33,47 @@
  "evidence": "boundary note, data sheet, inventory, hotspot chart, plan",
  "modules": [
   [
-   "Why measure",
+   "Why measure emissions",
    "Understand",
    3,
-   "You cannot cut what you do not count.",
+   "You cannot reduce what you do not count.",
    [
-    "Greenhouse gases trap heat; CO2 is the main one.",
-    "CO2e converts other gases to CO2 equivalent.",
-    "Reporting supports cost savings and customers."
+    "Greenhouse gases trap heat; carbon dioxide is the main one.",
+    "CO2e converts other gases to CO2 equivalent using warming factors.",
+    "Reporting supports cost saving, customers and rules.",
+    "Use consistent, recognised methods."
    ],
-   "Methane has a larger warming effect than CO2 per tonne.",
-   "Explain CO2e.",
+   "Methane has a larger warming effect than CO2 per tonne, so a leaking gas line is expressed as tonnes CO2e.",
+   "Explain CO2e to a peer.",
    "Peer understands."
   ],
   [
    "Boundaries and scopes",
    "Understand",
    4,
-   "Decide what is in.",
+   "Decide what is in and what is out.",
    [
     "Organisational boundary: control or ownership.",
-    "Scope 1 direct; scope 2 purchased energy; scope 3 other chain.",
-    "Write what is excluded."
+    "Scope 1: direct emissions; scope 2: purchased electricity, heat or cooling; scope 3: other chain emissions.",
+    "Write what is excluded and why.",
+    "Keep the boundary consistent year to year."
    ],
-   "Company vehicles are scope 1; electricity is scope 2.",
-   "Set a boundary.",
-   "Written."
+   "Company vehicles are scope 1; electricity is scope 2; business flights are scope 3.",
+   "Set a boundary for a practice organisation.",
+   "Written and justified."
   ],
   [
-   "Activity data",
+   "Collecting activity data",
    "Apply",
    5,
-   "Collect clean data.",
+   "Good data comes first.",
    [
     "Bills, meters, fuel logs, travel records.",
     "Units must match: litres, kWh, km.",
-    "Record source and date."
+    "Record source and date.",
+    "Keep invoices."
    ],
-   "Fuel invoices give 1,200 litres.",
+   "Fuel invoices give 1,200 litres of diesel for the year.",
    "Collect data for a case.",
    "Sources noted."
   ],
@@ -78,27 +81,29 @@
    "Emission factors",
    "Apply",
    5,
-   "Convert data.",
+   "Convert activity to emissions.",
    [
     "Emissions = activity data x factor.",
     "Use recent, local factors.",
-    "Record version."
+    "Record version and source.",
+    "Check units."
    ],
-   "1,200 L x 2.68 kg CO2 per litre = 3,216 kg.",
+   "1,200 L x 2.68 kg CO2 per litre = 3,216 kg CO2.",
    "Calculate five lines.",
    "Maths correct."
   ],
   [
-   "Scope 3",
+   "Scope 3 estimation",
    "Analyse",
    5,
-   "The big chain.",
+   "The chain is often the largest part.",
    [
     "Purchased goods, travel, commuting, waste.",
-    "Start with the largest categories.",
-    "Use estimates and say so."
+    "Start with largest categories.",
+    "Use estimates and say so.",
+    "Ask suppliers for data."
    ],
-   "Travel is 22% of the total.",
+   "Travel is 22 per cent of the total; staff commuting 11 per cent.",
    "Estimate two categories.",
    "Method stated."
   ],
@@ -110,9 +115,10 @@
    [
     "Check outliers and double counting.",
     "Rate quality high, medium, low.",
-    "Keep an audit trail."
+    "Keep an audit trail.",
+    "Have someone else review."
    ],
-   "A duplicated invoice is removed.",
+   "A duplicated invoice is removed, reducing the total by 4 per cent.",
    "Review a data set.",
    "Issues logged."
   ],
@@ -120,13 +126,14 @@
    "Hotspots and targets",
    "Analyse",
    4,
-   "Where to act.",
+   "Decide where to act.",
    [
     "Rank sources.",
     "Set reduction targets and dates.",
-    "Cost the actions."
+    "Cost the actions.",
+    "Track progress."
    ],
-   "Efficient lighting cuts 8% for a payback of 2 years.",
+   "Efficient lighting cuts 8 per cent for a payback of 2 years.",
    "Draw a hotspot chart.",
    "Ranked."
   ],
@@ -138,9 +145,10 @@
    [
     "Summary, method, limits.",
     "Independent review.",
-    "Update yearly."
+    "Update yearly.",
+    "Publish what you can."
    ],
-   "The report states excluded sources.",
+   "The report states excluded sources and the data quality rating.",
    "Write the report.",
    "Reproducible."
   ]

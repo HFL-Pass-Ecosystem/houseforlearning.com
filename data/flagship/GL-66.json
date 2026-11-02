@@ -36,27 +36,29 @@
    "What suits vertical growing",
    "Understand",
    3,
-   "Leafy and herbs first.",
+   "Not every crop suits stacked indoor growing.",
    [
-    "High-value, fast, light crops: lettuce, herbs, microgreens.",
-    "Heavy crops are harder.",
-    "Weigh space, energy and market."
+    "Leafy greens, herbs and microgreens are fast, light and high-value.",
+    "Heavy crops such as grains and tubers are rarely economic indoors.",
+    "Weigh space, energy and market.",
+    "Check local demand."
    ],
-   "Microgreens ready in 8 days.",
-   "Pick three crops.",
-   "Reasons given."
+   "Microgreens are ready in about 8 days and sell at a high price per kg, suiting a small indoor unit.",
+   "Pick three crops and justify them.",
+   "Reasons given with numbers."
   ],
   [
    "Systems",
    "Understand",
    4,
-   "Soil, hydroponic, aeroponic.",
+   "Choose soil, hydroponic or aeroponic systems.",
    [
-    "Water flows with nutrients; no soil.",
-    "Pumps, trays, channels.",
-    "Failure risk if pumps stop."
+    "Hydroponics grows plants in nutrient water; aeroponics mists roots.",
+    "Parts: trays, pumps, channels, reservoirs, timers.",
+    "Failure risk if pumps stop.",
+    "Cleaning between cycles."
    ],
-   "A timer controls a flood and drain tray.",
+   "A timer controls a flood and drain tray that waters lettuce every 30 minutes.",
    "Draw a layout.",
    "Parts labelled."
   ],
@@ -68,9 +70,10 @@
    [
     "Intensity, spectrum and hours.",
     "LEDs use less heat.",
-    "Distance matters."
+    "Distance matters.",
+    "Photoperiod varies by crop."
    ],
-   "Lettuce gets 14 hours a day.",
+   "Lettuce receives about 14 hours of light a day.",
    "Set a light schedule.",
    "Settings logged."
   ],
@@ -82,9 +85,10 @@
    [
     "pH and nutrient strength checks.",
     "Keep water clean; change on schedule.",
-    "Record readings."
+    "Record readings.",
+    "Adjust slowly."
    ],
-   "pH kept between 5.8 and 6.2.",
+   "pH is kept between 5.8 and 6.2 using small adjustments.",
    "Run daily checks.",
    "Log complete."
   ],
@@ -96,9 +100,10 @@
    [
     "Temperature, humidity and airflow.",
     "Clean tools, hands and trays; keep pests out.",
-    "Separate harvest area."
+    "Separate harvest area.",
+    "Dispose of waste."
    ],
-   "Mould appears at high humidity; fans fix it.",
+   "Mould appears at high humidity; fans and a dehumidifier fix it.",
    "Write a hygiene plan.",
    "Measures specific."
   ],
@@ -110,9 +115,10 @@
    [
     "Yield per m2 per cycle.",
     "kWh per kg and litres per kg.",
-    "Compare to field growing."
+    "Compare with field growing.",
+    "Track costs."
    ],
-   "3.5 kg per tray; 9 kWh per kg.",
+   "A tray gives 3.5 kg per cycle using 9 kWh per kg.",
    "Calculate for your pilot.",
    "Maths correct."
   ],
@@ -124,9 +130,10 @@
    [
     "Setup cost, running cost, price per kg.",
     "Direct sales and contracts.",
-    "Break-even volume."
+    "Break-even volume.",
+    "Risks."
    ],
-   "Price 250 INR per kg; cost 190.",
+   "Price 250 INR per kg; cost 190 INR.",
    "Build a cost sheet.",
    "Currency shown."
   ],
@@ -138,11 +145,12 @@
    [
     "Targets and weekly reviews.",
     "Learn from losses.",
-    "Decide to scale or stop."
+    "Decide to scale or stop.",
+    "Share findings."
    ],
-   "Pilot gives 62 kg of herbs.",
+   "The pilot produces 62 kg of herbs.",
    "Present the plan.",
-   "Peers follow it."
+   "Peers follow."
   ]
  ],
  "quiz": [
