@@ -281,7 +281,6 @@ def build(n, i):
         + B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', jobs_html(n))
         + B.sec('', 'lc', 'ten locations and global', 'Your place', '<p>Local rules change licences, taxes, data duties and customer rights. This course is written for São Paulo. Check the current official text for your own place.</p>'
                 + ''.join(f'<details class="loc"{" open" if L["k"]=="br" else ""}><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Currency: {L["cur"]}. Registration: {e(L["reg"])}. Data rule for what you publish: {e(L["data"])}. Skills frame to cite: {e(L["frame"])}.</p></details>' for L in B.LOC)
-                + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>'
                 + f'<details class="loc"><summary>Global</summary><p>{e(B.GLOBAL["note"])}</p></details>')
         + B.sec('alt', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship. Own wording; teaching figures are examples, not forecasts. Not live.</p>'))
     B.page(slug(n), f'{n} (Brazil flagship course)', f'An eight-module course on {n.lower()} for São Paulo.', n, e(f'Eight modules take you from the first customer to a running, measured service in {n.lower()}.'), body,

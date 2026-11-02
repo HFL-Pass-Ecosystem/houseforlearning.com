@@ -105,8 +105,7 @@ def build(c):
             + B.sec('', 'as', 'assessment and certificate', 'How you are checked',
                     '<p>Each outcome is checked against its standard with a checklist or a short test. A digital CPD record shows the hours. Keep evidence in My page. Aligned with common CPD practice; not accredited. Learners check their own body\'s rules.</p>')
             + B.sec('alt', 'lc', 'ten locations and global', 'Your place', '<p>Use your own body\'s forms, units and currency. Local professional bodies set the rules for CPD hours; check them first.</p>'
-                    + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Personal data: {e(L["data"])}. Credit and levels: {e(L["frame"])}.</p></details>' for L in B.LOC)
-                    + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
+                    + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Personal data: {e(L["data"])}. Credit and levels: {e(L["frame"])}.</p></details>' for L in B.LOC))
             + B.sec('', 'nx', 'next', 'Draft', '<p class="ws-note">Draft CPD course. It opens only after final checks. No fee is shown.</p><p><a class="btn" href="cpd.html">All CPD courses</a></p>'))
     B.page(slug(c['title']), c['title'] + ' (CPD)', c['desc'][:150], c['title'], e(c['desc']), body, B.crumb(('Courses', 'courses-hub.html'), ('CPD', 'cpd.html'), (c['sector'], None)), kicker='CPD · ' + c['sector'])
 for c in CS: build(c)

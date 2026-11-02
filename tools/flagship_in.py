@@ -68,8 +68,7 @@ def build(c, n):
         + B.sec('alt', 'lv', 'seven levels', 'Your ladder, L1 to L7', f'<p>This course sits at {e(c["level"])}. Each level adds to the one below.</p>{lad}')
         + booklet(c) + B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', '<ul>' + ''.join(f'<li>{e(j)}</li>' for j in c['jobs']) + '</ul>')
         + B.sec('alt', 'lc', 'ten locations and global', 'Your place', '<p>Local rules change licences, data handling, pricing words and names of bodies. Check them for your place before you act.</p>'
-                + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Currency: {L["cur"]}. Data rule for what you publish: {e(L["data"])}. Skills frame to cite: {e(L["frame"])}.</p></details>' for L in B.LOC)
-                + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
+                + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Currency: {L["cur"]}. Data rule for what you publish: {e(L["data"])}. Skills frame to cite: {e(L["frame"])}.</p></details>' for L in B.LOC))
         + B.sec('', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship. Own wording. Not live.</p>' + PRICE_NOTE * bool(re.search(r'\bRs\.? ?\d', str(c) + booklet(c))) + RK.note('in', f'{n:02d}-{c["slug"]}', e)))
     fn = f'learn-flagship-in-{n:02d}-{c["slug"]}.html'
     B.page(fn, c['title'] + ' (flagship course, India)', c['summary'][:150], c['title'], e(c['summary']), body, B.crumb(('Courses', 'courses-hub.html'), ('India flagship', 'learn-flagship-in.html'), (c['title'], None)), kicker='flagship course')

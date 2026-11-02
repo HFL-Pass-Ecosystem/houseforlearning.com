@@ -69,8 +69,7 @@ def build(c, region):
             + B.sec('alt', 'ld', 'where next', 'Ladder L1 to L7, slide by slide with notes', ladder)
             + B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', '<ul>' + ''.join(f'<li>{e(j)}</li>' for j in c['jobs']) + '</ul>')
             + B.sec('alt', 'lc', 'ten locations and global', 'Your place', '<p>Local custom changes rules, language, currency and who you practise with. Check each rule with your local authority before you act.</p>'
-                    + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Currency: {L["cur"]}. Data rule for what you publish: {e(L["data"])}. Skills frame to cite: {e(L["frame"])}.</p></details>' for L in B.LOC)
-                    + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
+                    + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Currency: {L["cur"]}. Data rule for what you publish: {e(L["data"])}. Skills frame to cite: {e(L["frame"])}.</p></details>' for L in B.LOC))
             + B.sec('', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship-depth course. Own wording from the planning booklet; no third-party text. Not live.</p>'))
     fn = f'learn-flagship-{c["id"].lower()}.html'
     B.page(fn, c['title'] + ' (full course)', c['summary'][:150], c['title'], e(c['summary']), body, B.crumb(('Courses', 'courses-hub.html'), (region, None)), kicker=f'{c["id"]} · full course')

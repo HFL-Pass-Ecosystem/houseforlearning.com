@@ -73,7 +73,7 @@
   {
    "n": 3,
    "title": "Principle of mathematical induction",
-   "bloom": "Apply",
+   "bloom": "Evaluate",
    "weeks": [
     11,
     13
@@ -359,6 +359,7 @@
  ],
  "jobs": [],
  "blooms": [
-  "Apply"
+  "Apply",
+  "Evaluate"
  ]
 }

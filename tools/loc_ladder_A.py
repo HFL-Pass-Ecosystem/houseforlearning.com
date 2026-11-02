@@ -70,7 +70,7 @@ LAD_A = {
 ("Promises and fair claims", "List 5 claims you must never make, including income guarantees, and write a fair promise for your programme.", "Notes: Teacher offers 'you will earn double'; learner rewrites it. Check local rules with an expert."),
 ("Confidential notes", "Write a one-page confidentiality note and keep notes for 3 sample clients in one safe place.", "Notes: Teacher asks where notes are kept and who can see them."),
 ("Prove with client numbers", "Collect before and after numbers from 3 clients with written permission and show them on one page.", "Notes: Teacher checks permission is written and numbers have dates."),
-("Price a programme", "Price a 8-week programme in {cur} with one trial session, and show profit at 5, 10 and 15 clients.", "Notes: Learner shows the break-even client count."),
+("Price a programme", "Price an 8-week programme in {cur} with one trial session, and show profit at 5, 10 and 15 clients.", "Notes: Learner shows the break-even client count."),
 ("Lead pilots and referrals", "Lead 3 pilot clients, hold an 8-week review, and agree with one referral partner how leads are shared.", "Notes: Teacher reads the tracker and asks which client moved most and why."),
 ],
 "coworking": [

@@ -50,8 +50,7 @@ def build(c):
         + deep + B.sec('', 'as', 'assessment', 'How you are checked', f'<p>{e(c["evidence"])} A mentor and one peer mark it with this rubric. Pass: no criterion at \'Not yet\', and at least 8 of 10 check answers right.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{quiz}')
         + B.sec('alt', 'jb', 'jobs this leads to', 'Where this takes you', jobs + f'<p>Next courses: {e(c["next"])}</p>')
         + B.sec('', 'lc', 'ten locations and global', 'Your place', f'<p>{e(c["local"])} {SAFE}</p>'
-                + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Currency: write {L["cur"]} next to every number. Language: {e(L["lang"])}. Personal data law to check: {e(L["data"])}. Level frame: {e(L["frame"])}. Partner to practise with: {e(L["partner"])}.</p></details>' for L in B.LOC)
-                + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
+                + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Currency: write {L["cur"]} next to every number. Language: {e(L["lang"])}. Personal data law to check: {e(L["data"])}. Level frame: {e(L["frame"])}. Partner to practise with: {e(L["partner"])}.</p></details>' for L in B.LOC))
         + B.sec('alt', 'ld', 'ladder L1 to L7', 'Slide by slide, with notes', '<p>Seven slides, one for each level. Step in at your level and move up; credits stack.</p>' + slides)
         + B.sec('', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship. Own wording; no outside brand, school or person names. Not live.</p><p><a class="btn" href="courses-hub.html">All courses</a> <a class="btn btn-ghost" href="join.html">Join</a></p>'))
     B.page(f'learn-flagship-{c["id"].lower()}.html', c['title'] + ' (flagship course)', c['summary'][:150], c['title'], e(c['summary']), body,

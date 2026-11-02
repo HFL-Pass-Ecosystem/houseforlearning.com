@@ -15,7 +15,7 @@
   {
    "n": 1,
    "title": "Reading comprehension",
-   "bloom": "Apply",
+   "bloom": "Understand",
    "weeks": [
     1,
     9
@@ -214,6 +214,7 @@
  ],
  "jobs": [],
  "blooms": [
+  "Understand",
   "Apply"
  ]
 }

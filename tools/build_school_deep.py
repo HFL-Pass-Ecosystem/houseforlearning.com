@@ -19,8 +19,13 @@ SUBJ = {'ENG': ('English', 'lang'), 'ESL': ('English as a second language', 'lan
 BLOOM = {'Remember': 'read recite name list say spell recall identify copy match label count repeat', 'Understand': 'describe explain classify tell retell summarise summarize interpret discuss outline give state',
          'Apply': 'use solve find calculate record apply measure draw write add subtract multiply divide convert perform follow carry show demonstrate prepare', 'Analyse': 'analyse analyze compare distinguish examine contrast investigate',
          'Evaluate': 'evaluate judge justify assess argue critique', 'Create': 'create design compose build make produce construct plan'}
+# verbs that school outcomes use beyond the core lists (added 2 Nov so they no longer fall back to Apply by default)
+BLOOM_EXTRA = {'Remember': 'recognise recognize hear locate sing greet', 'Understand': 'talk ask answer respond share introduce speak predict enjoy',
+               'Apply': 'take sort group link click type enter act operate rotate trace set join format store edit conjugate expand factorise compute determine implement plot map continue work deliver present sequence clean connect do style check control manage lead organise balance differentiate integrate open keep hold',
+               'Analyse': 'infer test break decompose', 'Evaluate': 'prove decide weigh value choose', 'Create': 'form'}
 V2B = {v: k for k, vs in BLOOM.items() for v in vs.split()}
-def bloom(outcome): return V2B.get(outcome.split()[0].lower(), 'Apply')
+V2B.update({v: k for k, vs in BLOOM_EXTRA.items() for v in vs.split()})
+def bloom(outcome): return V2B.get(re.sub(r'[^a-z]', '', outcome.split()[0].lower()), 'Apply')
 
 def band_of(p):
     if p.startswith('esl'): return 'esl'
@@ -469,7 +474,7 @@ def _checks_ten(subj, kind, mods, bd, plan_lbl):
             turn.append((m['n'], f"Unit {m['n']} ({m['title']}): {task[:1].upper() + task[1:]}.", ans.rstrip() + tag))
         else:
             turn.append((m['n'], f"Unit {m['n']} ({m['title']}): show that you can {m['outcome']}. Name the first step you used and the last.",
-                         f"The first step is to see or say the idea, and the last is to check or reflect; your evidence must meet the standard: {bd['std']}.{tag}"))
+                         f"First step: {m['points'][0]} Last step: {m['points'][-1]} Your evidence must meet the standard: {bd['std']}.{tag}"))
         qa = []
         for k in range(1, 5):
             r = _step_qa(st[k]) if len(st) > k + 1 else None
@@ -497,7 +502,7 @@ def _checks_ten(subj, kind, mods, bd, plan_lbl):
     return qs[:10]
 
 def checks(subj, kind, mods, bd, plan_lbl):
-    if subj != 'ISL':
+    if True:
         return _checks_ten(subj, kind, mods, bd, plan_lbl)
     qs = _checks(subj, kind, mods, bd, plan_lbl)
     if subj == 'ISL':
@@ -606,8 +611,8 @@ def render(d):
             + B.sec('', 'lc', 'ten locations and global', 'Localised for your place', '<p>Teach in the local language first, with English support. Use local currency, units and examples in every worksheet. Local curriculum and ministry rules are checked before use in a school; Arabic, Islamic, Social and Moral content needs licensed educators and ministry review. Child-safety rules apply for every learner under 18.</p>'
                     + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Use {L["cur"]} in money problems; deliver in {e(L["lang"])}; personal data rule: {e(L["data"])}; guardian contact for every learner under 18.</p></details>' for L in B.LOC))
             + ('' if d['subject'] == 'ISL' else B.sec('alt', 'jb', 'where this leads', 'Next steps, study and work', leads_html(d)))
-            + B.sec('alt', 'nx', 'next', 'Draft', '<p class="ws-note">Draft course in our own words. Needs review by a qualified teacher before classroom use. Not live.</p>'
-                    f'<p><a class="btn" href="{B.BANDS[d["band"]][2]}">More {e(b[0])} courses</a> <a class="btn btn-ghost" href="join.html">Join</a></p>'))
+            + B.sec('alt', 'nx', 'next', 'Draft', '<p class="ws-note">Draft course in our own words. Needs review by a qualified teacher before classroom use. Not live.</p>' + ('<p class="ws-note">Islamic studies: this page only restates each unit\'s title and outcome. A qualified Islamic studies teacher must write and review the teaching content, and the local ministry rules must be checked, before any use.</p>' if d['subject'] == 'ISL' else '')
+                    + f'<p><a class="btn" href="{B.BANDS[d["band"]][2]}">More {e(b[0])} courses</a> <a class="btn btn-ghost" href="join.html">Join</a></p>'))
     B.page(d['slug'], f'{d["label"]} {d["subject_name"]}', f'{d["label"]} {d["subject_name"]}: {len(d["modules"])} units with worked examples, rubric, ten checks and levels L1 to L7', f'{d["label"]}: {d["subject_name"]}',
            e(f'{len(d["modules"])} units across the school year. Each has a worked example, an activity and a standard to meet.'), body,
            B.crumb(('Learners', 'learners.html'), (b[0], b[2]), (f'{d["label"]} {d["subject_name"]}', None)), kicker='school course')

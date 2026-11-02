@@ -103,7 +103,7 @@ for n, t, wts in mods:
 cred = [('United States', "Master's", '1.25 semester credit hours (45 hours per credit)'), ('United Kingdom', 'Level 7', '5 CATS credits'), ('India', 'Level 8 (national credit framework)', '2.5 credits'),
  ('United Arab Emirates', 'Level 9', '1.25 graduate semester credits'), ('Singapore', "Master's track", '2.5 modular credits'), ('Malaysia', 'Level 7', '2 credits (40 hours per credit)'),
  ('Philippines', 'Level 8', '1.5 graduate units'), ('Australia', 'Level 8', '6 credit points'), ('New Zealand', 'Level 8', '5 credits'), ('Germany', 'Level 7', '2.5 ECTS'),
- ('Switzerland', 'Level 7', '2.5 ECTS'), ('Italy', 'Level 7', '2.5 CFU'), ('Spain', 'Level 7 (European framework)', '2.5 ECTS'), ('Russia', 'Level 7', '2 credit units'), ('Ukraine', 'Level 7', '2.5 ECTS'), ('Georgia', 'Level 7', '2.5 ECTS')]
+ ('Switzerland', 'Level 7', '2.5 ECTS'), ('Italy', 'Level 7', '2.5 CFU'), ('Spain', 'Level 7 (European framework)', '2.5 ECTS'), ('Ukraine', 'Level 7', '2.5 ECTS'), ('Georgia', 'Level 7', '2.5 ECTS')]
 body = sec('', 'c1', 'for one 75-hour module', 'How one module counts in 16 countries', table('Credit equivalence, orientation only', ['Country', 'Level', 'Credit'], cred)
     + '<p class="ws-note">These are our working translations, being checked. They are not a promise that any institution will accept them. We say "aligned with", never "accredited".</p>')
 page('executive-credits.html', 'Credit table, 16 countries', 'How one 75-hour module is expressed in 16 countries.', 'Credit table', 'One 2.5 ECTS module, in 16 countries.', body, '<li><a href="executive-programme.html">Executive programme</a></li><li aria-current="page">Credit table</li>')

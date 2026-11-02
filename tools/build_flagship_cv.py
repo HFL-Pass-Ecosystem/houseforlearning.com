@@ -129,8 +129,7 @@ def build():
             + ladder_sec(LADDER['cv'], 'alt')
             + B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', jobs + '<p>Next courses: communication and presentation, digital marketing, a sector course for your target role.</p>')
             + B.sec('alt', 'lc', 'ten locations and global', 'Your place', '<p>Local custom changes what a CV contains (photo, age, ID details, length). Check it for your place first.</p>'
-                    + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Write salary or numbers in {L["cur"]}. Personal data rule for what you publish: {e(L["data"])}. Skills frame to name on your CV: {e(L["frame"])}.</p></details>' for L in B.LOC)
-                    + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
+                    + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Write salary or numbers in {L["cur"]}. Personal data rule for what you publish: {e(L["data"])}. Skills frame to name on your CV: {e(L["frame"])}.</p></details>' for L in B.LOC))
             + B.sec('', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship. Written in our own words from the owner\'s module outline; no third-party text is used. Not live.</p><p><a class="btn" href="b2c.html">More courses</a> <a class="btn btn-ghost" href="join.html">Join</a></p>'))
     B.page('learn-flagship-cv.html', 'Resume and Professional Profile (flagship course)', 'Write a CV that proves achievements, build a safe public profile and prepare interview stories.', 'Resume and Professional Profile',
            e('Build a CV and public profile that prove what you achieved, and five stories you can tell in any interview.'), body,

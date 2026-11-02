@@ -34,7 +34,6 @@ def build(c):
         + B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', jobs + f'<p>Next courses: {e(c["next"])}</p>')
         + B.sec('alt', 'lc', 'ten locations and global', 'Your place', f'<p>{e(c["local"])}</p>'
                 + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Write numbers in {L["cur"]}. Personal data rule: {e(L["data"])}. Skills frame to name in your evidence: {e(L["frame"])}. Consumer rule: {e(L["cons"])}.</p></details>' for L in B.LOC)
-                + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>'
                 + f'<details class="loc"><summary>Global</summary><p>{e(B.GLOBAL["note"])} Currency: {e(B.GLOBAL["cur"])}.</p></details>')
         + B.sec('', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship. Written in our own words. Not live. Check local rules with an adviser before you act for real.</p><p><a class="btn" href="b2c.html">More courses</a> <a class="btn btn-ghost" href="join.html">Join</a></p>'))
     fn = f'learn-flagship-{c["id"].lower()}.html'

@@ -1,0 +1,35 @@
+{
+ "G05-COM-04": {
+  "steps": [
+   "Step 1, The task: Hind researches 'How tall is the tallest tree?' She finds two pages. One is from a university science department, with an author name and a date. The other is a pop-up filled page with no author and loud claims.",
+   "Step 2, Check the source: She asks four questions. Who wrote it, when, why, and can I find the same fact elsewhere? Page one answers all four. Page two shows no author, no date and tries to sell something, so she trusts it less.",
+   "Step 3, Check the address: She looks at the address bar. Page one ends in a school or university style address and begins with https and a padlock sign. The padlock shows a secure connection, but it does not prove the facts are right.",
+   "Step 4, Cross-check: She finds the same height in two more trusted pages: a science museum article and a forestry encyclopedia. Three trustworthy sources agree, so she is confident. One source alone is not enough.",
+   "Step 5, Give credit: She writes the fact in her own words, 'The tallest living trees are well over 100 metres tall, so check the current figure,' and adds a source line: author, page title, website name, and date visited. Copying words without credit is not honest.",
+   "Step 6, Safe use: While searching she closes a pop-up that asks for her name and email, and she tells her teacher. Only the school's trusted site needed her login. She keeps personal details private.",
+   "Your turn: A blog with no author claims a new fruit cures all illness. How do you check it? Model answer: no author or date and an unlikely claim means checking trusted health sources, and if none agree, do not trust it."
+  ]
+ },
+ "G07-COM-03": {
+  "steps": [
+   "Step 1, Build the table: Faisal sets up a table with fields Name, Class and Score and five records: Ali 7A 82, Bana 7B 91, Cyrus 7A 76, Dina 7B 88, Eman 7A 91. Each row is one record and each column is one field.",
+   "Step 2, Sort ascending: He sorts by Score from lowest to highest. The order becomes Cyrus 76, Ali 82, Dina 88, Bana 91, Eman 91. Bana and Eman tie at 91, so they may stay in their original order or swap, depending on the tool.",
+   "Step 3, Sort descending: He changes the sort to highest first. Now Bana 91, Eman 91, Dina 88, Ali 82, Cyrus 76. The top of the table shows the best scores, which is useful for a quick ranking.",
+   "Step 4, Filter by class: He filters Class equals 7A. Only 3 records show: Ali, Cyrus and Eman. The other 2 records, Bana and Dina, are hidden but not deleted. Clearing the filter shows all 5 again.",
+   "Step 5, Filter by number: He filters Score greater than or equal to 85. This shows Bana 91, Dina 88 and Eman 91, which is 3 records. Ali at 82 and Cyrus at 76 do not meet the rule.",
+   "Step 6, Combine filters: He applies Class equals 7A and Score at least 85 together. Only Eman remains, because Eman is the one record that passes both conditions. Two conditions together are stricter than either alone.",
+   "Your turn: Table of books: Sand Tales Story 120, Stars Science 200, Boats Science 90, Moon Story 150 pages. Sort by pages up and filter Science. Model answer: Boats 90, Sand Tales 120, Moon 150, Stars 200; Science filter shows Stars and Boats, 2 records."
+  ]
+ },
+ "G06-COM-04": {
+  "steps": [
+   "Step 1, The situation: Alia receives a message from a classmate in a group chat: 'Send me your login code and then I'll do your homework.' Another child posts an unkind photo of a friend, with the caption 'Look at this'.",
+   "Step 2, Privacy rule: Alia knows a login code or password is private. She never shares it, even with a friend, because anyone with it can act as her. The rule covers passwords, codes, home address and phone number.",
+   "Step 3, Reply respectfully and firmly: She writes, 'No thanks, my codes are private. I will help you with the homework if you want.' She says no politely and offers a safe alternative, so the friendship is not harmed.",
+   "Step 4, The unkind photo: Alia does not share or like it. She messages the poster, 'Please delete that, it could hurt her.' She does not save or forward the photo, tells her teacher, and checks on the friend. Sharing would spread the harm.",
+   "Step 5, Strengthen settings: At home she checks that her account is set to private, uses a long password mixing words, numbers and symbols, and turns on a second step for sign-in.",
+   "Step 6, Review: Her actions followed three ideas. Keep private data private, treat others with respect, and report harm to a trusted adult. If she were unsure, she would pause and ask before posting.",
+   "Your turn: A stranger online asks for your school name and photo. Respond using the rules. Model answer: do not send, block and report, tell an adult, because both are private information that could identify you."
+  ]
+ }
+}
