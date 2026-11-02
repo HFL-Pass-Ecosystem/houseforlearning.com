@@ -298,7 +298,7 @@
      "Blank is not allowed: write not applicable with a reason."
     ],
     "ex": "Line 1: circuit C1 | lighting | insulation resistance | 120 MOhm | sample limit at least 1.0 MOhm | pass | tester T1 | 2026-03-14 | instrument T-1042, calibrated 2026-01-10.",
-    "std": "Fill in the test sheet, given sample readings, completing every field with unit, instrument serial and calibration date, and writing not applicable with a reason where a field does not apply."
+    "std": "Complete the test sheet, given sample readings, entering every field with unit, instrument serial and calibration date, and writing not applicable with a reason where a field does not apply."
    },
    {
     "t": "Pass or fail against limits",
@@ -320,7 +320,7 @@
      "File the sheet as the project and rules require."
     ],
     "ex": "Count before signing: 6 lines, 5 complete, 1 missing the instrument serial. Do not sign. Complete the serial, recount 6 of 6, then sign and file one copy with the project record.",
-    "std": "Sign off the sheet only when every line is complete, with the tester and checker named, and file the record as the project and rules require."
+    "std": "Evaluate whether the sheet can be signed off: sign only when every line is complete, with the tester and checker named, and file the record as the project and rules require."
    },
    {
     "t": "Practice",
@@ -468,7 +468,7 @@
      "Imminent danger: stop work and tell the lead now."
     ],
     "ex": "Log line: 2026-03-10 | first floor east | open edge, no guard | photo 4 | site manager | High | stop work in the area. One walk-through, ten photos, every finding logged.",
-    "std": "Walk through a described site, record each finding in the inspection log with photo evidence, and stop work and tell the lead at once for any imminent danger."
+    "std": "Apply the inspection method to a described site: record each finding in the inspection log with photo evidence, and stop work and tell the lead at once for any imminent danger."
    },
    {
     "t": "Assessment",
@@ -869,7 +869,7 @@
      "Test from a guest device."
     ],
     "ex": "Check list of 8 items. Guest laptop: web page loads (pass); connection to 192.168.10.5 times out (pass); printer unreachable (pass). Result 8 of 8 recorded.",
-    "std": "Pass the check list for the lab build, recording every result, and show that guests can reach the internet but not internal devices."
+    "std": "Apply the check list to the lab build, recording every result, and show that guests can reach the internet but not internal devices."
    },
    {
     "t": "Writing the repeat-it guide",
@@ -995,7 +995,7 @@
      "Tell the incident lead at the escalate step."
     ],
     "ex": "Playbook run for A1: 1 identify the note, 2 isolate the server, 3 preserve evidence, 4 tell the incident lead, 5 recover from backup, 6 write the report.",
-    "std": "Follow the playbook steps in order, given a written playbook, identify, contain, preserve evidence, escalate, recover and report, telling the incident lead at the right step."
+    "std": "Apply the playbook steps in order, given a written playbook, identify, contain, preserve evidence, escalate, recover and report, telling the incident lead at the right step."
    },
    {
     "t": "Containment practice",
@@ -1006,7 +1006,7 @@
      "Write down the time of each action."
     ],
     "ex": "Lab server S1: network port disabled at 02:22, power left on, screenshot of the note saved, no files deleted. Isolation took 7 minutes after the 02:15 alert.",
-    "std": "Contain an incident in a lab scenario, such as a laptop sending data at night, by isolating the device before recovery and without deleting evidence."
+    "std": "Apply containment to an incident in a lab scenario, such as a laptop sending data at night, by isolating the device before recovery and without deleting evidence."
    },
    {
     "t": "One-page report",
