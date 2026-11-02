@@ -234,7 +234,7 @@ def modules(rows, kind, bd):
         o = r['outcome'].split(' (grade')[0].strip(); t = r['unit']; b = bloom(o)
         out.append(dict(n=i + 1, title=t, bloom=b, weeks=[int(r['first_week']), int(r['last_week'])], hours=int(r['weeks']) * 3, outcome=o,
                         intro=f"In this unit you work on '{t}', taught in a way that is {bd['w']}. The target is clear: {o}. You move from seeing it, to saying it, to doing it alone.",
-                        points=[s.format(t=t, o=o) for s in f['steps']], example=(((lambda sv: ('Solved: ' + sv + ' Method: ') if sv else '')(solved2(t, sj) or (solved(t) if kind in ('maths', 'sci', 'lang') else None))) + f['ex'].format(t=t, o=o)),
+                        points=[s.format(t=t, o=o) for s in f['steps']], example=(((lambda sv: ('Solved: ' + sv + ' Method: ') if sv else '')((solved(t) if kind in ('maths', 'sci', 'lang') else None) or solved2(t, sj))) + f['ex'].format(t=t, o=o)),
                         activity=f"About {bd['t']} of class work, then one short practice task for home. Keep evidence: {bd['ev']}.",
                         standard=f"{o[:1].upper() + o[1:]}: {bd['std']}."))
     return out
