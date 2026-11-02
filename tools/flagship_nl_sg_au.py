@@ -53,11 +53,20 @@ def build(c, region):
         f'<p class="kit-intro">{e(c["summary"])}</p><ul class="blm">' + ''.join(f'<li><span class="bz">{b}</span> {e(t)}</li>' for b, t in c['outcomes']) + '</ul>'
         f'<h3 class="ws-h3">Task, condition and standard</h3><div class="tcs"><div><h4>Task</h4><p>{e(c["task"])}</p></div><div><h4>Condition</h4><p>{e(c["cond"])}</p></div><div><h4>Standard</h4><p>{e(c["std"])}</p></div></div>'
         f'<p class="ws-note">{e(c["safety"])}</p><p><strong>Requirements:</strong> none. <strong>Who it is for:</strong> learners 16 and over, workers changing field, small-business starters, teams. Currency is shown on every number.</p>')
-    ladder = ('<ol class="ws-chips">' + ''.join(f'<li><strong>{n}</strong>: {e(t)}</li>' for k, n, t in LADDER) + '</ol>'
-              f'<p>Notes: credits stack and you can step in and out. This course is L4. After it, L5 takes one narrow area of {e(c["title"])} to depth; L6 leads a team; L7 sets and audits the standard. Aligned with, not accredited by, national credit frameworks.</p>')
+    top = max(mods, key=lambda m: m['h'])
+    sl = [
+      ("L1 Basic", "First words, tools and safety", f"Learner can say what {c['title']} is about and name the safety rule. Use module 1, {mods[0]['t']}, as the first short unit (about 2 to 6 hours). Say this rule aloud: {c['safety']} No record is needed at this level."),
+      ("L2 Awareness", "What the field is and who it serves", f"Learner explains the idea in plain words: {c['outcomes'][0][1]} Shared with schools and community groups. Note for the guide: ask one learner to explain it to a neighbour and check the words are right."),
+      ("L3 Foundation", "Guided tasks with a checklist", f"Learner does guided tasks from the first three modules ({mods[0]['t']}; {mods[1]['t']}; {mods[2]['t']}) with a checklist. Evidence is a small set of dated records. Note for the guide: sit beside the learner for the first record, then step back."),
+      ("L4 Practitioner", "Run the full task alone (this course)", f"Task: {c['task']} Standard: {c['std']} Note for the guide: a mentor reviews the records; two peers mark with the rubric above."),
+      ("L5 Specialist", "One narrow area to depth", f"Learner picks one area, for example {top['t']} (the longest module at {top['h']} h), and goes deeper than this course asks. Learner then teaches a peer circle of three or four. Note for the guide: check the teaching, not only the work."),
+      ("L6 Advanced", "Lead a team and review evidence", f"Learner leads a small team or designs a service in this field and marks other people's evidence against the rubric. Roles this points to: {'; '.join(c['jobs'][:3])}. Note for the guide: sample three records from the team and compare marks."),
+      ("L7 Super expert", "Set and audit the standard", f"Learner writes the method for {c['title']} as a short guide, audits other learners' evidence, and publishes worked examples back to learners. Note for the guide: worked examples keep currency and units on every number and are checked by a second expert.")]
+    ladder = ('<ol class="slides">' + ''.join(f'<li><strong>Slide {j}: {e(lv)}, {e(t)}.</strong> <em>Speaker note:</em> {e(n)}</li>' for j, (lv, t, n) in enumerate(sl, 1)) + '</ol>'
+              f'<p>Notes: credits stack and you can step in and out. This course is L4. Aligned with, not accredited by, national credit frameworks.</p>')
     body = (about + B.sec('alt', 'md', 'lesson by lesson', f'8 modules with worked examples ({total} h guided)', mh)
             + B.sec('', 'as', 'assessment', 'How you are checked', f'<p>Evidence: your records, numbers and reflections. Two peers and one mentor mark it with this rubric. Pass: no criterion at "Not yet" and at least 70% on the check.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{qh}')
-            + B.sec('alt', 'ld', 'where next', 'Ladder L1 to L7, with notes', ladder)
+            + B.sec('alt', 'ld', 'where next', 'Ladder L1 to L7, slide by slide with notes', ladder)
             + B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', '<ul>' + ''.join(f'<li>{e(j)}</li>' for j in c['jobs']) + '</ul>')
             + B.sec('alt', 'lc', 'ten locations and global', 'Your place', '<p>Local custom changes rules, language, currency and who you practise with. Check each rule with your local authority before you act.</p>'
                     + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Currency: {L["cur"]}. Data rule for what you publish: {e(L["data"])}. Skills frame to cite: {e(L["frame"])}.</p></details>' for L in B.LOC)
