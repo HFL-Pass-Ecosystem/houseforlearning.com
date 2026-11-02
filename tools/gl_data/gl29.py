@@ -22,3 +22,25 @@ C = dict(id='GL-29', title='Business Process Outsourcing Services', group='Busin
  local='Data export, labour and tax rules differ by place; check contracts and cross-border data rules.',
  evidence='Your evidence: process map, agreement, procedure, quality sample, capacity sheet, security checklist and four weekly reports.',
  ladder=[('Basics of tasks', 'Do a task accurately. Notes: timed exercise.'), ('Awareness', 'Know outsourcing. Notes: case studies.'), ('Foundation', 'Follow a procedure. Notes: checklists.'), ('Practitioner', 'This course. Notes: 4-week pilot.'), ('Specialist', 'Complex processes. Notes: finance support.'), ('Advanced', 'Lead delivery. Notes: SLAs.'), ('Super expert', 'Set method and teach teachers. Notes: audits.')])
+
+C['deep'] = dict(mods=[
+ ('Outsourcing a process you cannot describe.', 'Write the steps first; then price.', 'Which process did you choose and why?'),
+ ('Skipping exceptions.', 'Missing purchase order goes back to the client within a day.', 'What are your exceptions?'),
+ ('Service levels that cannot be measured.', '"Fast" becomes "within 24 hours".', 'Which targets are numbers?'),
+ ('Training with real data.', 'Use sample data with names removed.', 'What data did you train with?'),
+ ('Checking only at the end.', 'Daily sample of 10% finds errors earlier.', 'What is your sample size?'),
+ ('Ignoring peaks.', 'Month-end volume doubles; plan extra hours.', 'When is your peak?'),
+ ('Everyone has admin rights.', 'Grant only what each role needs.', 'Who has what access?'),
+ ('Reports full of numbers, no advice.', 'Each report ends with one suggestion.', 'What did you suggest?')],
+ gloss=[('SLA', 'Service-level agreement.'), ('Exception', 'A case outside the normal steps.'), ('Throughput', 'Work completed per period.'), ('Accuracy', 'Correct items divided by checked items.'), ('Escalation', 'Passing to a manager.'), ('Audit trail', 'A record of who did what.')],
+ cases=[('Quality drop', 'Accuracy falls to 95%.', 'Response?', 'Sample errors, find the cause, retrain or change the form, recheck.'),
+        ('Sudden volume', 'Volume triples for a week.', 'What do you do?', 'Tell the client, add temporary hours, protect quality and report.')])
+C['deep']['extra'] = [
+ ['Check data rules for the client\'s country.', 'Compare in-house cost.'],
+ ['Add screenshots of each step.', 'Name a process owner.'],
+ ['Agree how to change the contract.', 'Include a review date.'],
+ ['Run a dry run with sample items.', 'Update the procedure after the pilot.'],
+ ['Record error types by cause.', 'Share results with the team.'],
+ ['Keep a buffer of ten percent.', 'Track overtime.'],
+ ['Use unique logins.', 'Remove access on leaving.'],
+ ['Hold a monthly review.', 'Keep a list of improvements.']]

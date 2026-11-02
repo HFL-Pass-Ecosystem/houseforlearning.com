@@ -22,3 +22,25 @@ C = dict(id='GL-25', title='Inclusive and Minority-Owned Business Growth', group
  local='Programmes, definitions and legal protections differ by place: use local schemes and respect local law on equality.',
  evidence='Your evidence: owner goals, health check, route research, finance comparison, 90-day plan and progress report.',
  ladder=[('Basics of enterprise', 'Explain what a small business needs. Notes: visit one.'), ('Awareness', 'Know barriers and respect. Notes: case discussion.'), ('Foundation', 'Support one owner with help. Notes: health check.'), ('Practitioner', 'This course. Notes: plan and report.'), ('Specialist', 'Programme design. Notes: scheme rules.'), ('Advanced', 'Lead an enterprise programme. Notes: funders and partners.'), ('Super expert', 'Set method and teach teachers. Notes: review fairness yearly.')])
+
+C['deep'] = dict(mods=[
+ ('Arriving with a plan before listening.', 'An owner wants steady orders; a growth plan for a big shop would have wasted months.', 'What did the owner say success looks like?'),
+ ('Only listing weaknesses.', 'Strengths list: skilled maker, loyal neighbours, low costs; weaknesses: no records.', 'What are three strengths?'),
+ ('Naming barriers as if they were the owner\'s fault.', 'Rephrase "poor credit history" as "limited access to fair credit".', 'Which barrier is about access, not ability?'),
+ ('Sending mass messages.', 'Two personal messages to specific buyers bring one order.', 'Whom will you contact first?'),
+ ('Taking the first loan offered.', 'Offer A costs 360 interest; a grant needs no repayment; compare before choosing.', 'What is the total cost of each option?'),
+ ('Training that is too long.', 'A one-hour lesson on pricing is used the same week.', 'Which skill will be used this week?'),
+ ('Plans with ten goals.', 'Three goals, nine actions, each with a date.', 'Which three goals did the owner choose?'),
+ ('Taking credit for the result.', 'The report quotes the owner\'s own words on what changed.', 'What did the owner say?')],
+ gloss=[('Barrier', 'Something that makes it harder to reach a fair outcome.'), ('Concentration risk', 'Relying on few customers.'), ('Margin', 'Money left after costs.'), ('Procurement', 'How organisations buy goods and services.'), ('Mentor', 'A person who shares experience.'), ('Health check', 'A simple review of a business.')],
+ cases=[('The big contract', 'A large buyer offers a contract that needs three times current capacity.', 'What do you advise?', 'List what is needed, test a smaller first order, discuss financing and refer to a finance adviser.'),
+        ('The scheme with fees', 'A "support programme" asks for an upfront fee.', 'What do you check?', 'Verify the organisation, ask for written terms and warn the owner about pressure.')])
+C['deep']['extra'] = [
+ ['Agree meeting times that suit the owner\'s working day.', 'Offer to meet at the workplace or online.'],
+ ['Collect three months of sales if the owner agrees.', 'Add a note about what the owner is proud of.'],
+ ['Keep a list of trusted networks.', 'Note language needs for forms.'],
+ ['Draft messages in the owner\'s voice.', 'Ask for one testimonial.'],
+ ['Explain interest in plain words.', 'Never push an owner to borrow.'],
+ ['Pair the owner with a peer mentor.', 'Keep a learning log.'],
+ ['Review the plan weekly for ten minutes.', 'Celebrate small wins.'],
+ ['Ask the owner what support they still need.', 'Agree who to call if stuck.']]

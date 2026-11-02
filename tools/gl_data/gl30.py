@@ -22,3 +22,25 @@ C = dict(id='GL-30', title='Coworking Space Operations', group='Business and Com
  local='Building use, fire, accessibility and lease rules differ by place; check them early.',
  evidence='Your evidence: member interviews, layout, rules and safety checklist, pricing sheet, plans, event plan, logs and pilot report.',
  ladder=[('Basics of shared space', 'Use a shared space well. Notes: visit one.'), ('Awareness', 'Know models. Notes: compare three.'), ('Foundation', 'Plan a layout. Notes: sketch.'), ('Practitioner', 'This course. Notes: pilot.'), ('Specialist', 'Multi-site. Notes: brand standards.'), ('Advanced', 'Lead a network. Notes: finance.'), ('Super expert', 'Set method and teach teachers. Notes: audits.')])
+
+C['deep'] = dict(mods=[
+ ('Building for yourself instead of members.', 'Interviews show members want quiet and fast internet more than a coffee machine.', 'What do your members rank first?'),
+ ('Forgetting exits and capacity.', 'Capacity sign by the door states 24 people.', 'What is your capacity?'),
+ ('No rules on noise.', 'Call booths and a quiet zone fix complaints.', 'Which zone solves noise?'),
+ ('Pricing from guesswork.', 'Break-even is 25 members; a mix with meeting rooms lowers it.', 'What is your break-even?'),
+ ('Hard-to-leave contracts.', 'Monthly plans with 30 days\' notice.', 'How easy is leaving?'),
+ ('Events nobody wants.', 'Ask members what they would attend.', 'Which event will you run?'),
+ ('Cleaning logs missing.', 'Daily tick sheet by the door.', 'Where is the log?'),
+ ('Survey but no action.', 'Install a fan in response to heat complaints.', 'What did you change?')],
+ gloss=[('Hot desk', 'A shared desk used on a first-come basis.'), ('Fixed desk', 'A desk reserved for one member.'), ('Occupancy', 'Share of seats in use.'), ('Break-even', 'Where income equals costs.'), ('Walkway', 'Clear path through the space.'), ('House rules', 'Agreed behaviour in the space.')],
+ cases=[('The noisy caller', 'A member takes calls in the quiet zone.', 'What do you do?', 'Remind kindly, point to booths, apply the rule, and review the sign.'),
+        ('The empty desks', 'Occupancy is 40%.', 'Options?', 'Offer day passes, run a trial week, partner with a local group and review price.')])
+C['deep']['extra'] = [
+ ['Visit two coworking spaces and note what works.', 'Think about local working hours.'],
+ ['Check lighting and power points.', 'Plan for storage.'],
+ ['Display emergency numbers.', 'Review insurance yearly.'],
+ ['Add taxes to prices.', 'Keep a reserve fund.'],
+ ['Offer a trial day.', 'Use a simple sign-in log.'],
+ ['Create a welcome pack.', 'Introduce new members.'],
+ ['Test the Wi-Fi at busy times.', 'Plan for outages.'],
+ ['Share results with members.', 'Update the plan every quarter.']]

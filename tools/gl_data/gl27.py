@@ -22,3 +22,25 @@ C = dict(id='GL-27', title='Ghost Kitchens', group='Business and Commerce', leve
  local='Food licences, allergen law and platform rules differ by place: check with your food authority.',
  evidence='Your evidence: model comparison, menu and transit test, layout, food-safety plan and logs, costings, order stats and report.',
  ladder=[('Basics of kitchen hygiene', 'Wash, clean, store. Notes: practise hand-washing steps.'), ('Awareness', 'Know ghost kitchens. Notes: visit one if possible.'), ('Foundation', 'Cook and cost a dish. Notes: one recipe.'), ('Practitioner', 'This course. Notes: two-week trial.'), ('Specialist', 'Multi-brand kitchen. Notes: schedules.'), ('Advanced', 'Lead a kitchen group. Notes: audits.'), ('Super expert', 'Set method and teach teachers. Notes: food-safety review.')])
+
+C['deep'] = dict(mods=[
+ ('Thinking delivery-only means lighter rules.', 'The kitchen is inspected like any other; the delivery bag is not a reason to skip checks.', 'Which licence do you hold?'),
+ ('A huge menu.', 'Ten dishes sharing eight ingredients cut waste.', 'Which ingredients do dishes share?'),
+ ('Raw and ready foods near each other.', 'Colour-coded boards and separate shelves.', 'How do you separate raw from ready?'),
+ ('Logs filled in at the end of the day.', 'Temperature log signed at each check time.', 'When do you record?'),
+ ('Ignoring commission in the price.', '9.00 dish after 25% commission leaves 6.75 to cover everything.', 'What is the commission?'),
+ ('Not testing a bag.', 'A test run shows the sauce spills; use a leakproof pot.', 'What packaging did you change?'),
+ ('Replying to reviews with excuses.', 'Apologise, fix, offer a small remedy.', 'How did you answer your worst review?'),
+ ('Adding brands before one works.', 'Hold a second brand until waste is under 8%.', 'What is your waste?')],
+ gloss=[('Cross-contact', 'Allergen moving between foods.'), ('Hazard control', 'A step that prevents harm.'), ('Commission', 'Fee taken by the platform.'), ('Prep sheet', 'List of what to prepare.'), ('Food cost percent', 'Ingredient cost divided by price.'), ('Dispatch', 'Handing over to the rider.')],
+ cases=[('The allergy order', 'A customer says they have a nut allergy.', 'What do you do?', 'Follow the allergen plan: check recipes, separate utensils, label the bag, or decline if you cannot be sure.'),
+        ('The fridge fault', 'The fridge reads above the limit.', 'Next?', 'Check food, discard if above limits for too long, record, repair and note the cause.')])
+C['deep']['extra'] = [
+ ['Check what delivery apps are used locally.', 'Watch for stock-out risk on busy days.'],
+ ['Photograph each dish consistently.', 'Write allergen lists on a wall chart.'],
+ ['Plan the kitchen for flow, not just space.', 'Keep a cleaning rota.'],
+ ['Calibrate thermometers.', 'Train all cooks on the plan.'],
+ ['Review packaging cost monthly.', 'Include waste in cost.'],
+ ['Pre-pack sides.', 'Check the bag before dispatch.'],
+ ['Create a short brand story.', 'Respond to praise too.'],
+ ['Track top sellers.', 'Write a lessons list.']]
