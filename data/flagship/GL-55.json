@@ -33,116 +33,124 @@
  "evidence": "wind data table, energy and payback sheet, safety checklist, feasibility note",
  "modules": [
   [
-   "How a turbine works",
+   "How a wind turbine works",
    "Understand",
    3,
-   "Blades turn a shaft that drives a generator.",
+   "A wind turbine turns the push of moving air into electricity. Knowing the parts and the physics helps you judge any project.",
    [
-    "Parts: rotor, hub, gearbox or direct drive, generator, tower, controller.",
-    "Cut-in, rated and cut-out wind speeds.",
-    "Power grows with the cube of wind speed."
+    "Blades capture wind and turn a shaft; a generator converts rotation to electricity; a tower lifts the rotor into stronger wind; a controller manages speed and safety.",
+    "Key speeds: cut-in (starts), rated (full power) and cut-out (stops for safety).",
+    "Power grows with the cube of wind speed, so a small increase in speed gives a large increase in power.",
+    "Larger blades sweep more area, which also raises power."
    ],
-   "Doubling wind speed gives about eight times more power.",
-   "Label a turbine diagram.",
-   "All main parts named."
+   "Doubling the wind speed from 5 to 10 m/s gives about eight times more power. A turbine producing 1 kW at 5 m/s could produce about 8 kW at 10 m/s, until it reaches its rated power.",
+   "Label a turbine diagram and write one sentence on what each part does.",
+   "All main parts are named and the cube rule is stated correctly."
   ],
   [
-   "Wind and sites",
+   "Wind resource and sites",
    "Analyse",
    4,
-   "Good wind makes or breaks a project.",
+   "Good wind makes or breaks a project, and wind data decides whether to continue.",
    [
-    "Wind speed rises with height; obstacles cause turbulence.",
-    "Use at least a year of data; hourly averages.",
-    "Choose open land away from buildings and trees."
+    "Wind speed rises with height; trees, buildings and hills cause turbulence.",
+    "Use at least a year of hourly or ten-minute averages from a mast or a trusted dataset.",
+    "Choose open land away from obstacles, with road access and a grid or load nearby.",
+    "Check land rights, distance from homes and any aviation or radar limits."
    ],
-   "A hilltop averages 6.5 m/s at 30 m; a valley 4.2 m/s.",
-   "Tabulate monthly wind for a site.",
-   "Table has twelve months with source."
+   "A hilltop averages 6.5 m/s at 30 m height; a sheltered valley averages 4.2 m/s. The hilltop produces roughly three times the energy from the same turbine.",
+   "Tabulate monthly average wind speed for a real or practice site with the data source.",
+   "Table has twelve months, units and source."
   ],
   [
-   "Energy estimate",
+   "Estimating energy",
    "Apply",
    5,
-   "Estimate in simple steps.",
+   "A simple estimate tells you if a project is worth a closer look.",
    [
-    "Swept area = pi x r squared. Power = 0.5 x air density x area x speed cubed x efficiency.",
-    "Annual energy = average power x hours x capacity factor.",
-    "Capacity factor of small turbines is often 15 to 30 percent."
+    "Swept area = pi x radius squared.",
+    "Power in the wind = 0.5 x air density x area x speed cubed; real turbines capture only a fraction.",
+    "Annual energy = rated power x 8,760 hours x capacity factor.",
+    "Small turbines often reach 15 to 30 per cent capacity factor on good sites."
    ],
-   "A 5 kW turbine at 22% factor makes about 9,600 kWh a year.",
-   "Calculate annual energy for your case.",
-   "Units and steps shown."
+   "A 5 kW turbine at 22 per cent capacity factor produces 5 x 8,760 x 0.22 = about 9,636 kWh per year.",
+   "Calculate annual energy for your case and show every step with units.",
+   "Units and steps are correct, and the result is checked against the capacity factor range."
   ],
   [
-   "Types and sizes",
+   "Turbine types and sizes",
    "Analyse",
    3,
-   "Small, community and large.",
+   "Choose the right size and type for the site and the need.",
    [
-    "Horizontal vs vertical axis.",
-    "Small turbines suit remote sites; large ones suit farms and grids.",
-    "Grid-tied vs off-grid with batteries."
+    "Horizontal-axis turbines are most efficient; vertical-axis turbines are sometimes used where wind is turbulent, but usually produce less.",
+    "Small turbines suit remote sites; medium and large turbines suit farms and grids.",
+    "Grid-tied systems send extra power to the network; off-grid systems need batteries.",
+    "Compare cost per kW, noise, service needs and warranty."
    ],
-   "A village chooses a grid-tied turbine to cut diesel use.",
-   "Compare 3 turbines.",
-   "Table includes cost per kW."
+   "A village chooses a grid-tied 10 kW turbine to reduce diesel use, rather than a 3 kW unit with batteries that would not meet its evening load.",
+   "Compare three turbines in a table with rated power, rotor diameter, cost per kW and notes.",
+   "Table is complete with sources and dates."
   ],
   [
    "Cost and payback",
    "Evaluate",
    4,
-   "Count the full cost.",
+   "Count the full cost and the full benefit.",
    [
-    "Turbine, tower, foundation, wiring, permits, installation, maintenance.",
-    "Value electricity by units saved or sold.",
-    "Payback = cost / yearly benefit."
+    "Costs: turbine, tower, foundation, wiring, permits, installation, maintenance, insurance.",
+    "Benefit: electricity bills avoided or sold; value of backup.",
+    "Simple payback = total cost / yearly benefit.",
+    "Test with higher costs and lower wind to see how safe the case is."
    ],
-   "Cost 650,000 INR; yearly benefit 85,000 INR; payback 7.6 years.",
-   "Build a payback sheet.",
-   "Maths correct; currency shown."
+   "Cost 6,50,000 INR; yearly benefit 85,000 INR; payback 7.6 years. If wind is 10 per cent lower, energy falls about 27 per cent and payback stretches past 10 years.",
+   "Build a payback sheet with a base case and a low-wind case.",
+   "Maths correct and the currency is shown."
   ],
   [
    "Safety and maintenance",
    "Apply",
    4,
-   "Heights, rotating parts and electricity are hazards.",
+   "Heights, rotating parts and electricity are serious hazards.",
    [
-    "Only trained, certified people work at height or on electrics.",
-    "Lock-out and tag-out before maintenance.",
-    "Regular checks of bolts, blades and brakes."
+    "Only trained and certified people work at height or on electrical systems.",
+    "Lock out and tag out before maintenance; never climb in strong wind.",
+    "Regular checks: bolts, blades, brakes, wiring and tower.",
+    "Keep the public away with fencing and signs."
    ],
-   "A rule is that nobody climbs when wind exceeds a set speed.",
-   "Write a safety checklist.",
-   "Mentor confirms accuracy."
+   "A crew has a rule that nobody climbs if wind exceeds a set speed. The rule is posted at the base and checked on a log sheet.",
+   "Write a safety checklist and a monthly maintenance schedule.",
+   "Mentor engineer confirms the lists."
   ],
   [
    "Environment and community",
    "Evaluate",
    3,
-   "Share benefits and manage impacts.",
+   "Projects work best when neighbours and nature are considered from the start.",
    [
-    "Noise, shadow flicker, birds and bats, land use.",
-    "Consult neighbours early; follow permit rules.",
-    "Plan decommissioning and recycling."
+    "Noise, shadow flicker, birds and bats, land use and views.",
+    "Consult neighbours early and follow permit rules.",
+    "Plan decommissioning and recycling at end of life.",
+    "Share benefits such as cheaper power or local jobs."
    ],
-   "Radar checks and seasonal shutdowns protect migrating birds.",
-   "List impacts and controls.",
-   "Each has a control."
+   "Seasonal shutdowns during peak bird migration, radar checks and a community benefit fund reduce objections.",
+   "List impacts and controls for a practice site.",
+   "Each impact has a control and an owner."
   ],
   [
-   "Feasibility note",
+   "Write the feasibility note",
    "Create",
    4,
-   "Pull it together.",
+   "Bring it together into a clear decision note.",
    [
-    "One-page summary, assumptions, risks and next steps.",
-    "State what you do not know.",
-    "Review by a mentor."
+    "One-page summary with site, wind data, energy, cost and payback.",
+    "List assumptions and risks.",
+    "State what you do not know yet.",
+    "Have a mentor review."
    ],
-   "The note advises a wind monitoring mast for one year before buying.",
-   "Write and present it.",
-   "Peer can follow the numbers."
+   "The note recommends a one-year wind monitoring mast before buying a turbine, saving the risk of a poor site.",
+   "Write and present the note.",
+   "A peer can follow every number."
   ]
  ],
  "quiz": [

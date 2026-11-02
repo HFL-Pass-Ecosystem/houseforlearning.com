@@ -33,116 +33,124 @@
  "evidence": "load list, sizing sheet, layout drawing, safety plan, cost sheet, handover sheet",
  "modules": [
   [
-   "System parts",
+   "How a solar system works",
    "Understand",
    3,
-   "Panels make direct current; the inverter converts it.",
+   "Panels turn sunlight into direct current electricity; an inverter changes it to the alternating current your appliances use.",
    [
-    "Types: grid-tied, off-grid, hybrid.",
-    "Parts: panels, mounting, inverter, wiring, breakers, meter, optional battery.",
-    "Energy: kWh = kW x hours."
+    "Types: grid-tied, off-grid with batteries, and hybrid.",
+    "Parts: panels, mounting, inverter, cables, breakers, meter, optional battery.",
+    "Energy units: kWh = kW x hours.",
+    "Output depends on sun, temperature, shade, tilt and dirt."
    ],
-   "A grid-tied system sends extra power to the network.",
-   "Draw a block diagram.",
-   "All parts named."
+   "A grid-tied system sends extra daytime power to the network and draws from it at night. A hybrid system also charges a battery for backup.",
+   "Draw a block diagram of a hybrid system and label each part.",
+   "All parts named and the energy flow is correct."
   ],
   [
    "Load list",
    "Apply",
    4,
-   "Know what you use.",
+   "Know what you use before sizing anything.",
    [
-    "List each appliance: watts, hours a day.",
-    "Add daily watt-hours; check bills.",
-    "Cut waste first, with efficient lamps and fans."
+    "List each appliance with watts and hours used per day.",
+    "Add up daily watt-hours; check against bills.",
+    "Cut waste first with efficient lamps, fans and cooling.",
+    "Note peak load and any large motor starts."
    ],
-   "A shop uses 12 kWh a day; efficient lights save 1.5 kWh.",
-   "Make a load list.",
-   "Totals correct."
+   "A shop uses 12 kWh a day. Efficient lights save 1.5 kWh, so the system is sized for 10.5 kWh.",
+   "Make a load list for a practice building with at least ten loads.",
+   "Totals are correct and checked against a bill."
   ],
   [
    "Site survey",
    "Analyse",
    4,
-   "Roof and shade decide output.",
+   "The roof and its surroundings decide the output.",
    [
-    "Orientation, tilt, shade, roof strength, space.",
-    "Sun hours per day in your place.",
-    "Safe roof access and fall protection."
+    "Check orientation, tilt, shading, roof strength and space.",
+    "Find sun hours per day in your place from public data.",
+    "Look for safe access and fall protection.",
+    "Photograph the roof and the electrical panel."
    ],
-   "A shade from a tank costs 8% in the afternoon; panels are moved.",
-   "Do a mock survey from a photo.",
+   "A water tank shades part of the roof in the afternoon and would cost 8 per cent of annual output. The panels are moved to another section.",
+   "Do a mock survey from photos and write a findings sheet.",
    "Findings listed with fixes."
   ],
   [
-   "Sizing",
+   "Sizing the system",
    "Apply",
    5,
-   "Match supply to load.",
+   "Match supply to load with a transparent calculation.",
    [
     "Panel kW = daily kWh / (sun hours x system efficiency).",
-    "Choose inverter slightly below panel kW.",
-    "Battery size from backup hours and depth of discharge."
+    "Choose an inverter slightly below panel kW.",
+    "Battery size = backup hours x load / (depth of discharge).",
+    "Check voltage and current limits."
    ],
-   "12 kWh a day, 5 sun hours, 0.75 efficiency: about 3.2 kW of panels.",
-   "Size your system.",
-   "Steps shown."
+   "12 kWh a day, 5 sun hours and 0.75 efficiency gives 12 / (5 x 0.75) = 3.2 kW of panels, about eight 400 W panels.",
+   "Size a system for your load list and show all steps.",
+   "Calculations are correct with units."
   ],
   [
    "Electrical protection and earthing",
    "Apply",
    5,
-   "Safety is not optional.",
+   "Safety devices are not optional.",
    [
-    "Fuses, breakers, surge protection, isolators and earthing.",
-    "Correct cable size and colours.",
-    "Label everything."
+    "Fuses or breakers on each string and on the AC side, surge protection, isolators and earthing.",
+    "Correct cable size, colour and routing.",
+    "Label every device and the main switch.",
+    "Only a licensed electrician connects to the grid or home wiring."
    ],
-   "A DC isolator is added near the inverter.",
-   "List protective devices.",
-   "Licensed mentor approves."
+   "A DC isolator is added near the inverter and a label at the main board reads \"Solar supply – isolate both sources\".",
+   "List all protective devices for your design.",
+   "Licensed mentor approves the list."
   ],
   [
    "Safety on site",
    "Evaluate",
    4,
-   "Heights and live parts.",
+   "Heights and live parts demand a safe method.",
    [
-    "Fall protection, safe ladders, PPE.",
-    "Panels make power in daylight: treat as live.",
-    "Lock-out tag-out for work."
+    "Fall protection, safe ladders and PPE.",
+    "Panels make power in daylight: treat all wiring as live.",
+    "Lock-out and tag-out; weather checks.",
+    "Never work alone."
    ],
-   "A crew stops on a windy afternoon.",
+   "A crew stops roof work on a windy afternoon and reschedules for the next morning.",
    "Write a site safety plan.",
-   "Plan names hazards and controls."
+   "Plan names hazards, controls and who is responsible."
   ],
   [
    "Cost and payback",
    "Evaluate",
    4,
-   "Know the real numbers.",
+   "Know the real numbers before you decide.",
    [
-    "Panels, inverter, mounting, cable, labour, permits.",
-    "Savings per year from bills; maintenance.",
-    "Payback and lifetime cost per kWh."
+    "Costs: panels, inverter, mounting, cable, labour, permits, insurance.",
+    "Savings: bills avoided or income from export; maintenance costs.",
+    "Payback and cost per kWh over system life.",
+    "Test with price rises and shading losses."
    ],
-   "Cost 210,000 INR; saving 32,000 INR a year; payback 6.6 years.",
-   "Build a cost sheet.",
-   "Maths correct; currency shown."
+   "Cost 2,10,000 INR; saving 32,000 INR per year; payback 6.6 years.",
+   "Build a cost sheet with currency shown.",
+   "Maths correct and assumptions listed."
   ],
   [
    "Design pack and handover",
    "Create",
    4,
-   "Hand over a clear pack.",
+   "Hand over a pack that someone else can understand and maintain.",
    [
-    "Single-line diagram, layout, specs, warranty.",
-    "Teach the owner cleaning and safety.",
-    "Plan checks every six months."
+    "Single-line diagram, layout drawing, specifications and warranty.",
+    "Train the owner on cleaning, monitoring and shut-down.",
+    "Schedule checks every six months.",
+    "Keep records."
    ],
-   "The owner receives a one-page guide with shut-down steps.",
+   "The owner receives a one-page guide with shut-down steps, an emergency contact and a cleaning schedule.",
    "Produce a design pack and handover sheet.",
-   "Pack signed by a licensed person."
+   "Pack is signed by a licensed person."
   ]
  ],
  "quiz": [

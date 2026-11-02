@@ -33,74 +33,79 @@
  "evidence": "comparison sheet, charging time sheet, safety notes, advice sheet",
  "modules": [
   [
-   "How an EV works",
+   "How an electric vehicle works",
    "Understand",
    3,
-   "Battery to motor to wheels.",
+   "An electric vehicle stores energy in a battery and uses an electric motor to turn the wheels.",
    [
-    "Parts: battery pack, inverter, motor, charger, controller.",
-    "Regenerative braking returns some energy.",
-    "Energy use in kWh per 100 km."
+    "Parts: battery pack, inverter, motor, onboard charger, controller, thermal system.",
+    "Regenerative braking returns some energy to the battery.",
+    "Energy use is measured in kWh per 100 km.",
+    "No exhaust emissions at the vehicle; total emissions depend on how electricity is made."
    ],
-   "A car using 15 kWh per 100 km travels 400 km on 60 kWh.",
-   "Draw a block diagram.",
-   "Parts labelled."
+   "A car that uses 15 kWh per 100 km and has a 60 kWh battery can travel about 400 km in ideal conditions.",
+   "Draw a block diagram of an EV and label each part.",
+   "All main parts named correctly."
   ],
   [
    "Batteries",
    "Understand",
    3,
-   "Range and life depend on the pack.",
+   "The battery is the most costly and sensitive part.",
    [
-    "Capacity in kWh; usable capacity is less.",
-    "Heat, fast charging and deep discharge age batteries.",
-    "Warranty usually covers years and distance."
+    "Capacity in kWh; usable capacity is less than total.",
+    "Heat, frequent fast charging and long periods at full or empty age batteries.",
+    "Warranty usually covers years and distance, with a minimum capacity.",
+    "Cold weather reduces range."
    ],
-   "Keeping charge between 20% and 80% daily can slow ageing.",
-   "Summarise battery care.",
-   "Five tips."
+   "Keeping daily charge between 20 and 80 per cent when possible can slow ageing. Preheating the cabin while plugged in saves range.",
+   "Summarise battery care in five tips.",
+   "Tips are accurate and practical."
   ],
   [
-   "Charging levels",
+   "Charging levels and time",
    "Apply",
    4,
-   "Speed depends on power.",
+   "Charging speed depends on power.",
    [
-    "Slow home charging, faster wallbox, fast public chargers.",
-    "Time = energy / power, plus losses.",
-    "Plug types and compatibility."
+    "Slow home charging (around 3 to 7 kW), faster wallbox and public DC fast chargers.",
+    "Time = energy needed / charging power plus losses.",
+    "Plug types and compatibility vary by region.",
+    "Charging to 80 per cent is fastest; the last 20 per cent is slow."
    ],
-   "To add 30 kWh at 7 kW takes about 4.5 hours.",
-   "Calculate three charge times.",
+   "To add 30 kWh at 7 kW takes about 4.3 hours plus 10 per cent losses, so roughly 4.7 hours.",
+   "Calculate three charge times for different chargers.",
    "Maths correct."
   ],
   [
-   "Running cost",
+   "Running cost comparison",
    "Analyse",
    4,
-   "Compare fairly.",
+   "Compare fairly with a petrol or diesel car.",
    [
-    "EV: kWh per 100 km times price per kWh.",
-    "Petrol: litres per 100 km times price per litre.",
-    "Add service, insurance, tax, depreciation."
+    "EV cost per 100 km = kWh per 100 km x price per kWh.",
+    "Petrol cost per 100 km = litres per 100 km x price per litre.",
+    "Add service, insurance, tax and depreciation.",
+    "Include home charger cost and public charging mix."
    ],
-   "EV: 15 kWh x 8 INR = 120 INR per 100 km; petrol: 7 L x 100 INR = 700 INR.",
-   "Compare for your place.",
-   "Currency shown."
+   "EV: 15 kWh x 8 INR = 120 INR per 100 km. Petrol: 7 L x 100 INR = 700 INR per 100 km.",
+   "Compare for your place and daily distance.",
+   "Currency shown and sources listed."
   ],
   [
-   "Range reality",
+   "Real-world range",
    "Evaluate",
    3,
-   "Real range is not the label range.",
+   "Label range is not what you get every day.",
    [
-    "Speed, temperature, load and hills change range.",
-    "Plan trips with charger stops.",
-    "Keep a reserve."
+    "Speed, temperature, load, hills and tyres change range.",
+    "Plan trips with charger stops and keep a reserve.",
+    "Use route planners that include chargers.",
+    "Understand winter effects."
    ],
-   "Cold and highway driving cut range by 25%.",
-   "Plan a 300 km trip.",
-   "Charging stops listed."
+   "Cold weather and highway driving cut range by about 25 per cent. A 400 km range car plans for 300 km on a winter highway trip.",
+   "Plan a 300 km trip with stops.",
+   "Charging stops and reserve listed."
   ],
   [
    "Safety",
@@ -109,38 +114,41 @@
    "High voltage demands respect.",
    [
     "Orange cables are high voltage; only trained technicians work on them.",
-    "First responders need a rescue sheet.",
-    "Never charge with damaged cables."
+    "Rescue sheets help emergency services.",
+    "Never charge with damaged cables or connectors.",
+    "Keep a fire plan for charging areas."
    ],
-   "A pack damage warning means stop and call the maker.",
-   "Write a safety card.",
-   "Mentor approves."
+   "A warning light for battery damage means stop and call the maker or a trained technician.",
+   "Write a one-page safety card.",
+   "Mentor approves the card."
   ],
   [
    "Battery end of life",
    "Evaluate",
    3,
-   "Reuse and recycle.",
+   "Plan for reuse and recycling.",
    [
-    "Second-life storage use.",
+    "Second-life use in storage for buildings.",
     "Recycling recovers metals.",
-    "Check collection programmes."
+    "Check collection programmes.",
+    "Avoid illegal dumping."
    ],
-   "An old pack powers a shop's backup.",
+   "An old pack with 70 per cent capacity powers a shop's backup system for several more years.",
    "Describe three end-of-life options.",
-   "Options listed."
+   "Options are realistic."
   ],
   [
-   "Advice sheet",
+   "Write the advice sheet",
    "Create",
    3,
-   "Honest advice.",
+   "Give honest advice to a buyer or fleet.",
    [
     "State fit: daily distance, home charging, budget.",
     "List cons as well as pros.",
-    "Show assumptions."
+    "Show assumptions and sources.",
+    "Review after six months."
    ],
-   "Advice says an EV suits a commuter with home charging but not a user with no parking.",
+   "The advice says an EV suits a commuter with home charging but not a user with no parking.",
    "Write the sheet.",
    "Reader can decide."
   ]
