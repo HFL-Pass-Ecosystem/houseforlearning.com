@@ -35,3 +35,12 @@ C['deep'] = dict(mods=[
  gloss=[('Host', 'The person who controls the meeting.'), ('Co-host', 'A helper with host controls.'), ('Breakout room', 'A small group space.'), ('Latency', 'Delay between speaking and hearing.'), ('Bandwidth', 'Data speed.'), ('Run sheet', 'A timed plan.')],
  cases=[('The echo', 'Everyone hears themselves.', 'Cause and fix?', 'Two open microphones in a room; mute one, use headphones.'),
         ('The late guest speaker', 'The speaker has not joined at start time.', 'What do you do?', 'Start with the welcome, call the number you hold, move the slot if possible, and keep the time.')])
+C['deep']['extra'] = [
+ ['Test with the same device attendees will use if you can.', 'Sit about an arm\'s length from the camera for steady framing.'],
+ ['Learn the keyboard shortcuts for mute and chat.', 'Turn off notifications before sharing a screen.'],
+ ['Record a test and listen back with headphones.', 'Note background noise sources and remove them.'],
+ ['Close heavy programs and cloud sync during calls.', 'Use a wired link for important events.'],
+ ['Describe images aloud and name speakers before they talk.', 'Share a short joining guide in plain words.'],
+ ['Share the run sheet with co-hosts only.', 'Assign someone to watch the chat for questions.'],
+ ['Keep a phone dial-in as a backup.', 'Practise rejoining as the host from another device.'],
+ ['Compare numbers between sessions to see what improved.', 'Share recordings only with those who agreed.']]

@@ -35,3 +35,12 @@ C['deep'] = dict(mods=[
  gloss=[('Funnel', 'Steps from visit to purchase.'), ('Conversion rate', 'Share who take the next step.'), ('Margin', 'Money left after costs.'), ('A/B test', 'Comparing two versions.'), ('Opt-in', 'Permission given by the person.'), ('Return on spend', 'Revenue divided by spend.')],
  cases=[('The expensive click', 'Cost per sale 9.50, margin 8.00.', 'What do you do?', 'Stop or fix the ad and page; do not scale.'),
         ('The cart leak', '60 carts, 20 orders.', 'What do you check?', 'Shipping cost shock, payment options, forced sign-up; test one change.')])
+C['deep']['extra'] = [
+ ['Record benchmarks from the start so progress is visible.', 'Use only one analytics tool at first.'],
+ ['Read competitor reviews to learn what buyers complain about.', 'Write the buyer\'s top worry in your page headline.'],
+ ['Show delivery and returns above the fold.', 'Use real photos rather than stock.'],
+ ['Use tracking tags on every link.', 'Set a weekly check-in date.'],
+ ['Run tests for at least a full week.', 'Record the decision and why.'],
+ ['Segment new and repeat buyers.', 'Send only what the recipient asked to receive.'],
+ ['Add delivery cost and refunds into margin.', 'Separate new and repeat customer cost.'],
+ ['Write a one-page summary for the owner.', 'Plan the next test before closing the review.']]

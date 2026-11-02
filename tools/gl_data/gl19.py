@@ -35,3 +35,12 @@ C['deep'] = dict(mods=[
  gloss=[('Authorisation', 'The wallet approving a payment.'), ('Settlement', 'Money paid to the merchant.'), ('Chargeback', 'A buyer disputes through their bank.'), ('Test mode', 'A safe mode with no real money.'), ('Reconciliation', 'Matching records.'), ('Tokenisation', 'Replacing card data with a safe code.')],
  cases=[('Double charge', 'A customer sees two charges after a timeout.', 'What do you do?', 'Check the partner record, release or refund the duplicate, tell the customer when.'),
         ('Large new order', 'A new account orders 40 phones.', 'Next step?', 'Hold, verify buyer and address, and use partner fraud tools.')])
+C['deep']['extra'] = [
+ ['Learn the difference between card, wallet and bank transfer flows.', 'Note which methods your customers use most.'],
+ ['Read the partner\'s terms on holds and reserves.', 'Check support hours and escalation.'],
+ ['Rotate test keys after sharing a screen.', 'Document each test in a log.'],
+ ['Show taxes separately on the receipt.', 'Store receipts for the legal period.'],
+ ['Tell the customer how long a refund takes.', 'Block repeated refunds to the same account for review.'],
+ ['Set daily limits for new accounts.', 'Review declined payments for patterns.'],
+ ['Reconcile weekly as well as daily.', 'Track fee percent over time.'],
+ ['Add the support contact on the screen.', 'Update the guide whenever the screen changes.']]

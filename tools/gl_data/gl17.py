@@ -35,3 +35,12 @@ C['deep'] = dict(mods=[
  gloss=[('Ledger', 'A shared list of records.'), ('Hash', 'A fixed-length code made from data.'), ('Block', 'A group of entries.'), ('Consent', 'Permission to share.'), ('Pseudonym', 'A stand-in ID.'), ('Off-chain', 'Stored outside the shared ledger.')],
  cases=[('The deletion request', 'A patient asks for deletion of a record whose hash is on a ledger.', 'What happens?', 'Delete the record from the clinic system; the hash alone reveals nothing; document it.'),
         ('The insurer', 'An insurer wants access to all records.', 'Your response?', 'Only with specific, limited, time-bound consent, and the patient may refuse.')])
+C['deep']['extra'] = [
+ ['Learn the difference between a record, a copy and a proof.', 'Ask a health worker which delays hurt patients most.'],
+ ['Compare a spreadsheet log with a shared ledger for the same task.', 'Learn what "consensus" means: the parties agree on the next entry.'],
+ ['Try hashing the same text twice and compare codes.', 'Note that the hash of a secret still needs a secret to be safe.'],
+ ['List who may revoke consent and how fast it takes effect.', 'Design emergency access with logging.'],
+ ['Estimate the cost of one entry in time and money.', 'Check how long entries stay readable.'],
+ ['Add at least one idea where a ledger is clearly wrong.', 'Ask what happens if the ledger operator disappears.'],
+ ['Check local rules on storing health proofs.', 'Plan for people who cannot use phones.'],
+ ['Show the toy ledger to a clinician and write their comments.', 'List questions for a legal adviser.']]

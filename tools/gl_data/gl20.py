@@ -35,3 +35,12 @@ C['deep'] = dict(mods=[
  gloss=[('Moderation', 'Keeping a space safe and on topic.'), ('Active rate', 'Active members divided by all.'), ('Pinned post', 'A post kept at the top.'), ('Onboarding', 'Welcoming and guiding new members.'), ('Engagement', 'Replies and reactions.'), ('Churn', 'Members who leave.')],
  cases=[('The argument', 'Two members insult each other.', 'First steps?', 'Message both privately, pause the thread, apply the rule and log it.'),
         ('The quiet group', 'Only three members post.', 'What do you try?', 'Ask easier questions, feature member stories, invite quiet members to share short tips.')])
+C['deep']['extra'] = [
+ ['Study three communities and note what keeps people.', 'Pick a name that is easy to say and search.'],
+ ['Add a rule on respect for children and on reporting.', 'Tell members what moderators can and cannot see.'],
+ ['Create a pinned "start here" post.', 'Test on phone and desktop.'],
+ ['Plan a monthly event to give a reason to return.', 'Credit members whose posts you reuse.'],
+ ['Ask each member to invite one person.', 'Avoid unsolicited messages.'],
+ ['Rotate helpers to avoid burnout.', 'Keep a template for warning messages.'],
+ ['Ask members what they would miss if the group closed.', 'Chart weekly growth and posts.'],
+ ['Decide when to close or merge a quiet group.', 'Write a thank-you note to helpers.']]

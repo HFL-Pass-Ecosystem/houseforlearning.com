@@ -35,3 +35,12 @@ C['deep'] = dict(mods=[
  gloss=[('Lead time', 'Order-to-arrival days.'), ('Safety stock', 'Extra for surprises.'), ('Reorder point', 'Level that triggers an order.'), ('Turnover', 'How fast stock sells.'), ('FIFO', 'First in, first out.'), ('Shrink', 'Stock lost to damage or theft.')],
  cases=[('The stock-out', 'A best seller runs out for 5 days.', 'Cause and fix?', 'Reorder point too low; recompute with real lead time and raise safety stock.'),
         ('The pile of boxes', 'Boxes unsold for 6 months.', 'Options?', 'Bundle, discount, return to supplier or write off; stop reordering.')])
+C['deep']['extra'] = [
+ ['List which items sell fast and which slowly.', 'Note seasonal peaks.'],
+ ['Add a photo to each item record.', 'Mark items that expire.'],
+ ['Count high-value items more often.', 'Make counting a routine at a fixed time.'],
+ ['Account for promotions in the forecast.', 'Check forecast against actual each week.'],
+ ['Keep two suppliers for key items.', 'Review the reorder point after any lead-time change.'],
+ ['Keep aisles clear.', 'Store returned items apart until checked.'],
+ ['Review dead stock quarterly.', 'Track damage and cause.'],
+ ['Share the report with the team.', 'Plan next quarter\'s stock policy.']]

@@ -35,3 +35,12 @@ C['deep'] = dict(mods=[
  gloss=[('Ticket', 'A record of one request.'), ('Triage', 'Sorting by urgency.'), ('First-time fix', 'Solved at the first attempt.'), ('Escalation', 'Passing a case to a higher level.'), ('Root cause', 'The real reason for a fault.'), ('Service promise', 'The reply and fix times you commit to.')],
  cases=[('The whole floor is offline', 'Twenty people lose the network at 10:00.', 'Priority and first steps?', 'High priority; check shared equipment first, tell users, escalate to the provider with notes.'),
         ('The angry caller', 'A user shouts about a lost file.', 'How do you respond?', 'Stay calm, listen, repeat back, say what you will do and when, and check the recycle bin and backups.')])
+C['deep']['extra'] = [
+ ['Greet the user by name and confirm the best way to reach them.', 'Never blame the user; say "let us check".'],
+ ['Use the "five whys" to move from symptom to cause.', 'Ask the user to show you the screen when words fail.'],
+ ['Add a category so you can count ticket types later.', 'Record the user\'s device and location, not their passwords.'],
+ ['Check cables and power before software.', 'Keep a bootable repair tool and a spare charger in the kit.'],
+ ['Test with a second device to decide if the fault is the device or the network.', 'Teach users to restart the router safely.'],
+ ['Use short sentences and the same words as the screen.', 'Add a "still stuck?" line with the help desk contact.'],
+ ['Chart tickets per week to see peaks.', 'Compare first reply time by hour of day.'],
+ ['Thank users and close with a one-line summary of what was done.', 'Hold a monthly review of repeat tickets.']]

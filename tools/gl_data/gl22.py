@@ -35,3 +35,12 @@ C['deep'] = dict(mods=[
  gloss=[('Listing', 'The product page.'), ('Fulfilment', 'Picking, packing and shipping.'), ('SKU', 'A unique stock code.'), ('Seller rating', 'Buyers\' score of you.'), ('Handling time', 'Time to ship.'), ('Referral fee', 'Marketplace commission.')],
  cases=[('Late parcel', 'A buyer says the parcel is late.', 'First steps?', 'Check tracking, apologise, update, offer remedy if lost, and log the cause.'),
         ('Fee change', 'The marketplace raises fees by 2 points.', 'What do you do?', 'Recalculate profit, adjust price or stop low-margin items.')])
+C['deep']['extra'] = [
+ ['Compare two marketplaces on fees, reach and rules.', 'Keep a copy of your seller terms.'],
+ ['Check import and safety rules for each product.', 'Test sample products yourself.'],
+ ['Use the same size and angle in photos.', 'List the in-box contents.'],
+ ['Include packing materials in cost.', 'Review prices monthly.'],
+ ['Pack a test parcel and drop it.', 'Keep a list of pick errors and causes.'],
+ ['Use tracked services for valuable items.', 'Tell the buyer when the parcel ships.'],
+ ['Reply to reviews within a day.', 'Offer a clear exchange route.'],
+ ['Keep a weekly dashboard.', 'Grow listings only when service targets hold.']]

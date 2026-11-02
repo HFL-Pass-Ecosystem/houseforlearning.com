@@ -35,3 +35,12 @@ C['deep'] = dict(mods=[
  gloss=[('Mid-market rate', 'Middle of buy and sell prices.'), ('Spread', 'Gap between mid and offered rate.'), ('True cost', 'All costs as a percent of the amount.'), ('Rate lock', 'A fixed rate for a short time.'), ('Regulator', 'The authority that licenses providers.'), ('Remittance', 'Money sent abroad.')],
  cases=[('The cheap-looking transfer', 'A provider shows "0 fee".', 'How check?', 'Compare received amount with mid-market and compute true cost.'),
         ('The pressure call', 'A caller says the rate expires in ten minutes and asks for a personal transfer.', 'What do you do?', 'Stop, verify the provider on the regulator\'s list, and report.')])
+C['deep']['extra'] = [
+ ['Note that rates are quoted both ways (EUR/INR or INR/EUR); always say which.', 'Use a calculator and write the currency next to every number.'],
+ ['Compare cost on small and large amounts; fixed fees hit small ones hardest.', 'Include the receiving bank\'s charges.'],
+ ['Take screenshots of quotes with the time.', 'Check how long money takes to arrive.'],
+ ['Use only the regulator\'s register to check a provider.', 'Never share one-time codes.'],
+ ['Learn thresholds for reporting large amounts in your place.', 'Keep records for the required period.'],
+ ['Use the customer\'s currency for the headline number.', 'Add a short plain note on how to complain.'],
+ ['Plan for system downtime and wrong rates.', 'Keep enough of each currency to meet daily demand.'],
+ ['Describe the next step as getting a licence or partnering with one.', 'Keep the concept free of any promise of profit.']]
