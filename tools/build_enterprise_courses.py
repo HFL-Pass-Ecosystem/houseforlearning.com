@@ -4,6 +4,7 @@ import sys, pathlib, html
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import build_full_courses as B
 import ent_data as D
+import ent_data2  # adds role tracks and LMS/EMS courses
 e = html.escape
 
 def build(c):
@@ -46,6 +47,6 @@ def build(c):
 if __name__ == '__main__':
     fns = [build(c) for c in D.COURSES]
     idx = ''.join(f'<li><a href="{fn}">{e(c["title"])}</a>: {e(c["short"])}</li>' for fn, c in zip(fns, D.COURSES))
-    body = B.sec('', 'ix', 'enterprise software', 'Seven full courses', f'<ul>{idx}</ul><p class="ws-note">Draft. Not live.</p>')
-    B.page('enterprise-software.html', 'Enterprise Software Courses', 'Seven full courses on business software, from L1 to L7.', 'Enterprise Software Courses', 'Seven full courses on business software, from L1 to L7.', body, B.crumb(('Courses', 'courses-hub.html'), ('Enterprise software', None)))
+    body = B.sec('', 'ix', 'enterprise software', 'Full courses', f'<ul>{idx}</ul><p class="ws-note">Draft. Not live.</p>')
+    B.page('enterprise-software.html', 'Enterprise Software Courses', 'Full courses on business software, from L1 to L7.', 'Enterprise Software Courses', 'Full courses on business software, from L1 to L7.', body, B.crumb(('Courses', 'courses-hub.html'), ('Enterprise software', None)))
     print(len(fns), 'built')
