@@ -78,11 +78,15 @@
     act.appendChild(a);
     var n = document.createElement('p'); n.className = 'acc-note'; n.textContent = 'Test only. No real money is taken.'; act.appendChild(n);
   }
+  var calm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
+  var say = document.createElement('p'); say.className = 'acc-sr'; say.setAttribute('role', 'status'); if (bar.parentNode) bar.parentNode.insertBefore(say, bar.nextSibling);
   document.addEventListener('click', function (e) {
     var s = e.target.closest && e.target.closest('details.acc-locked > summary');
     if (!s) return;
     e.preventDefault();
-    bar.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    say.textContent = ''; setTimeout(function () { say.textContent = 'This part is locked. Join this course to open it.'; }, 30);
+    var jl = bar.querySelector('a.btn'); if (jl) jl.focus({ preventScroll: true });
+    bar.scrollIntoView({ behavior: calm, block: 'center' });
     bar.classList.add('acc-flash'); setTimeout(function () { bar.classList.remove('acc-flash'); }, 900);
   });
 
@@ -94,7 +98,7 @@
       bar.innerHTML = '<div class="wrap acc-in"><div><p class="acc-k">' + (c ? 'Your course' : 'You are in') + '</p><p class="acc-t">' + c + ' of ' + t + ' done.' + (c === t ? ' Course complete.' : '') + '</p><div class="acc-prog" role="progressbar" aria-valuemin="0" aria-valuemax="' + t + '" aria-valuenow="' + c + '"><span style="width:' + Math.round(100 * c / t) + '%"></span></div></div><div class="acc-act"></div></div>';
       var act = bar.querySelector('.acc-act'), b = document.createElement('button');
       b.type = 'button'; b.className = 'btn'; b.textContent = c === 0 ? 'Start' : (c === t ? 'Review' : 'Continue');
-      b.addEventListener('click', function () { var d = numbered[nextIdx < 0 ? 0 : nextIdx]; d.open = true; d.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+      b.addEventListener('click', function () { var d = numbered[nextIdx < 0 ? 0 : nextIdx]; d.open = true; d.scrollIntoView({ behavior: calm, block: 'start' }); var sm0 = d.querySelector('summary'); if (sm0) sm0.focus({ preventScroll: true }); });
       act.appendChild(b);
       var l = document.createElement('a'); l.href = 'members-courses.html'; l.className = 'acc-link'; l.textContent = 'My courses'; act.appendChild(l);
       state = load(); state[file] = { paid: true, title: title, total: t, done: done, paidAt: rec.paidAt || Date.now(), updated: Date.now() }; save(state);
@@ -102,7 +106,7 @@
     numbered.forEach(function (d, i) {
       var s = d.querySelector('summary'); if (!s || s.querySelector('.acc-done')) return;
       var lab = document.createElement('label'); lab.className = 'acc-done';
-      var cb = document.createElement('input'); cb.type = 'checkbox'; cb.checked = done.indexOf(i) >= 0;
+      var cb = document.createElement('input'); cb.type = 'checkbox'; cb.checked = done.indexOf(i) >= 0; cb.setAttribute('aria-label', 'Mark as done: ' + (function () { var c = s.cloneNode(true); Array.prototype.forEach.call(c.querySelectorAll('.pill,.acc-done,.acc-lock'), function (x) { x.remove(); }); return c.textContent.replace(/\s+/g, ' ').trim().slice(0, 90); })());
       cb.addEventListener('click', function (e) { e.stopPropagation(); });
       cb.addEventListener('change', function () { var p = done.indexOf(i); if (cb.checked && p < 0) done.push(i); if (!cb.checked && p >= 0) done.splice(p, 1); refresh(); });
       lab.addEventListener('click', function (e) { e.stopPropagation(); });

@@ -1,9 +1,9 @@
-.cl{--paper:#F6F1E7;--page:#FFFDF8;--ink:#1B1A17;--muted:#6A645A;--line:#DED6C6;--gold:#9A7424;--gold-soft:#F1E6C8;--deep:#14231F;--deep-ink:#EFE8D6;--good:#2E6B4F;
+.cl{--paper:#F6F1E7;--page:#FFFDF8;--ink:#1B1A17;--muted:#6A645A;--line:#DED6C6;--gold:#9A7424;--gold-text:#765A1B;--gold-on-dark:#D9B65C;--gold-soft:#F1E6C8;--deep:#14231F;--deep-ink:#EFE8D6;--good:#2E6B4F;
  ;--serif:"Literata",Georgia,serif;--sans:system-ui,"Segoe UI",Roboto,sans-serif;background:var(--paper);color:var(--ink);font:17px/1.7 var(--serif);padding:8px 0 40px}.cl *{box-sizing:border-box}
 .cl a{color:var(--gold)}
 .cl .wrap{max-width:920px;margin:0 auto}
 .cl .hero{background:var(--deep);color:var(--deep-ink);border-radius:14px;padding:clamp(28px,6vw,64px);margin:8px 0 28px}
-.cl .eyebrow{font:600 .72rem/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.cl .eyebrow{font:600 .72rem/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--gold-text)}.cl .hero .eyebrow{color:var(--gold-on-dark)}
 .cl h1{font:400 clamp(2.1rem,6vw,3.8rem)/1.08 var(--serif);margin:12px 0 10px;text-wrap:balance;letter-spacing:-.01em}
 .cl h2{font:400 clamp(1.4rem,3.5vw,1.9rem)/1.2 var(--serif);margin:36px 0 10px}
 .cl .lede{max-width:56ch;opacity:.9;margin:0}
@@ -12,8 +12,8 @@
 .cl .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
 .cl a.lesson{display:grid;gap:6px;text-decoration:none;color:inherit;background:var(--page);border:1px solid var(--line);border-top:3px solid var(--gold);border-radius:8px;padding:20px 22px}
 .cl a.lesson:hover,.cl a.lesson:focus-visible{border-color:var(--gold);outline:none}
-.cl a.lesson .n{font:600 .72rem var(--sans);letter-spacing:.14em;color:var(--gold)}
-.cl a.lesson h3{font:400 1.3rem/1.25 var(--serif);margin:0}
+.cl a.lesson .n{font:600 .72rem var(--sans);letter-spacing:.14em;color:var(--gold-text)}
+.cl a.lesson h3,.cl a.lesson h2{font:400 1.3rem/1.25 var(--serif);margin:0}
 .cl a.lesson p{margin:0;color:var(--muted);font:400 .85rem/1.5 var(--sans)}
 .cl .card{background:var(--page);border:1px solid var(--line);border-radius:10px;padding:clamp(18px,4vw,32px)}
 .cl ul.ideas{padding-left:1.2em;display:grid;gap:10px}
@@ -23,7 +23,7 @@
 .cl .flip.open .in{transform:rotateY(180deg)}
 .cl .face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:10px;padding:20px;display:flex;flex-direction:column;justify-content:center;border:1px solid var(--line)}
 .cl .face.f{background:var(--deep);color:var(--deep-ink);font:400 1.35rem/1.25 var(--serif)}
-.cl .face.f small{font:500 .68rem var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-top:10px}
+.cl .face.f small{font:500 .68rem var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--gold-on-dark);margin-top:10px}
 .cl .face.b{background:var(--gold-soft);transform:rotateY(180deg);font:400 1rem/1.5 var(--serif)}
 .cl .flip:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:10px}
 .cl .do{border-left:4px solid var(--gold);padding:6px 0 6px 18px;margin:8px 0}

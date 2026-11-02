@@ -182,7 +182,7 @@
  "G11C-MAT-03": {
   "steps": [
    "Step 1, Add and multiply complex numbers: (3 + 2i) + (1 - 4i) = 4 - 2i. And (2 + 3i)(1 - i) = 2 - 2i + 3i - 3i^2 = 2 + i + 3 = 5 + i, using i^2 = -1.",
-   "Step 2, Conjugate and modulus: the conjugate of 3 - 4i is 3 + 4i. The modulus of 3 - 4i is the root of 9 + 16 = 5. Also (3 - 4i)(3 + 4i) = 9 + 16 = 25, which equals the modulus squared.",
+   "Step 2, Conjugate and modulus: the conjugate of 3 - 4i is 3 + 4i. The modulus of 3 - 4i is the root of (9 + 16) = root of 25 = 5. Also (3 - 4i)(3 + 4i) = 9 + 16 = 25, which equals the modulus squared.",
    "Step 3, Quadratic with complex roots: x^2 + 2x + 5 = 0 has discriminant 4 - 20 = -16. So x = (-2 plus or minus 4i)/2 = -1 plus or minus 2i.",
    "Step 4, Check: substitute x = -1 + 2i. x^2 = 1 - 4i + 4i^2 = -3 - 4i. Then x^2 + 2x + 5 = (-3 - 4i) + (-2 + 4i) + 5 = 0. The root works.",
    "Step 5, Real roots: x^2 - 5x + 6 = 0 factorises as (x - 2)(x - 3), giving x = 2 or 3 with discriminant 25 - 24 = 1 > 0. A positive discriminant gives real roots, a negative one gives complex roots.",
@@ -272,7 +272,7 @@
  "G11S-MAT-07": {
   "steps": [
    "Step 1, Line through (2, -1) and (5, 5): slope = 6/3 = 2. Equation y + 1 = 2(x - 2), so y = 2x - 5. Check (5, 5): 10 - 5 = 5.",
-   "Step 2, Distance from a point to a line: the distance from (1, 2) to 3x + 4y - 5 = 0 is |3 + 8 - 5| / root of 9 + 16 = 6/5 = 1.2.",
+   "Step 2, Distance from a point to a line: the distance from (1, 2) to 3x + 4y - 5 = 0 is |3 + 8 - 5| / root of (9 + 16) = 6/5 = 1.2.",
    "Step 3, Circle: centre (3, -2) and radius 5 gives (x - 3)^2 + (y + 2)^2 = 25. Test (6, 2): 9 + 16 = 25, so it lies on the circle.",
    "Step 4, Find centre from a general equation: x^2 + y^2 - 6x + 4y - 12 = 0. Complete squares: (x - 3)^2 + (y + 2)^2 = 12 + 9 + 4 = 25. Centre (3, -2), radius 5.",
    "Step 5, Parabola y^2 = 8x: 4a = 8 so a = 2, focus (2, 0), directrix x = -2. Ellipse x^2/25 + y^2/9 = 1: a = 5, b = 3, c = root of 25 - 9 = 4, foci (plus or minus 4, 0), e = 4/5.",

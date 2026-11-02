@@ -33,3 +33,10 @@ Every local `href`/`src` must point to an existing file, every `#anchor` must ex
 python3 tools/check_secrecy.py
 ```
 Scans everything the browser receives (`site/`: pages, scripts, styles, data; comments included) for the words and patterns in `data/secrecy-words.json`: private names, other brand names, internal owner remarks, group wording, Russia "HELD" lines, the shared mailbox, fee amounts on CPD pages, Career Launch percentages, and USD 39/79 outside the six membership pages. To change what is banned, edit the JSON, not the script. Fix a hit in the builder, then rebuild.
+
+## Pay-flow check (browser)
+```
+npm i --no-save playwright && npx playwright install chromium
+node tools/check_payflow.js
+```
+Opens a sample of pages from each course family (school, CPD, GL flagship, four-place editions, executive, Electrical academy and Career Launch lessons) at 1280 px and 390 px. It checks signed out, signed in, the test payment and Members > My courses, and exits with 1 if any page fails. Options: `--per-family N`, `--widths 1280,390`, `--family school,cpd`, `--pages a.html,b.html`. The GitHub check "Check pay flow" runs it by hand (Run workflow) and on pull requests that change `access.js` or `courses.css`. It is not part of "Check pages", which stays Python-only. Test only: no real money, no secrets.

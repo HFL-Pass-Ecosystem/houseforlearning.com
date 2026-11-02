@@ -24,6 +24,7 @@ STEPS = [
     'build_access_pages', 'add_series_gate', 'patch_audience_pages',
     'build_services', 'build_support', 'build_wix_content', 'build_org_pages', 'build_home', 'build_timetool',
     'build_nav',               # site-wide navigation layer
+    'build_seo',               # titles at most 70 characters, unique, and real meta descriptions: always last
     'sync_share_tags',         # share tags follow each page's own title, description and address: always last
 ]
 def main(argv):
