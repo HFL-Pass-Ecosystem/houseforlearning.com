@@ -73,7 +73,7 @@
   {
    "n": 3,
    "title": "Separation of substances",
-   "bloom": "Apply",
+   "bloom": "Evaluate",
    "weeks": [
     9,
     12
@@ -325,7 +325,7 @@
   ],
   [
    "Unit 5 (Living organisms and habitats): A frog is found near a pond and has webbed feet and long back legs. State its habitat and one adaptation with its use.",
-   "an aquatic and land habitat near water; webbed feet help it swim, and long back legs help it jump. (Covered in unit 5: Living organisms and habitats.)"
+   "both water and land, near a pond; webbed feet help it swim, and long back legs help it jump. (Covered in unit 5: Living organisms and habitats.)"
   ],
   [
    "Unit 6 (Motion and measurement): A cyclist rides 60 m in 12 s, and a pendulum makes 10 swings in 15 s. Find the speed and the time period.",
@@ -360,6 +360,7 @@
  "jobs": [],
  "blooms": [
   "Understand",
-  "Apply"
+  "Apply",
+  "Evaluate"
  ]
 }

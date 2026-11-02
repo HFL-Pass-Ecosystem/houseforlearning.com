@@ -15,7 +15,7 @@
   {
    "n": 1,
    "title": "Reading and comprehension",
-   "bloom": "Apply",
+   "bloom": "Understand",
    "weeks": [
     1,
     9
@@ -73,7 +73,7 @@
   {
    "n": 3,
    "title": "Sports and health",
-   "bloom": "Apply",
+   "bloom": "Understand",
    "weeks": [
     19,
     27
@@ -163,8 +163,8 @@
  ],
  "checks": [
   [
-   "Unit 1 (Reading and comprehension): Give a title and answer: what did Sara do in the evening?.",
-   "عُنْوَانٌ: زِيَارَةُ الْمَكْتَبَةِ [Title: A visit to the library]. أَخْبَرَتْ سَارَةُ أُمَّهَا بِمَا تَعَلَّمَتْ. [Sara told her mother what she learned.] (Covered in unit 1: Reading and comprehension.)"
+   "Unit 1 (Reading and comprehension): Give a title and answer: what did the student do in the evening?.",
+   "عُنْوَانٌ: زِيَارَةُ الْمَكْتَبَةِ [Title: A visit to the library]. أَخْبَرَتِ الطَّالِبَةُ أُمَّهَا بِمَا تَعَلَّمَتْ. [The student told her mother what she learned.] (Covered in unit 1: Reading and comprehension.)"
   ],
   [
    "Unit 2 (Nominal and verbal sentences): Label each sentence, then write one of your own. 1) الْبَابُ مَفْتُوحٌ [The door is open] 2) فَتَحَ الْوَلَدُ الْبَابَ [The boy opened the door].",
@@ -180,7 +180,7 @@
   ],
   [
    "Unit 1 (Reading and comprehension): Read the rest. Show how you do it and say what the result is.",
-   "جَلَسَتَا مَعًا وَقَرَأَتَا بِهُدُوءٍ. فِي الْمَسَاءِ أَخْبَرَتْ سَارَةُ أُمَّهَا بِمَا تَعَلَّمَتْ. [The two sat together and read quietly. In the evening Sara told her mother what she had learned.] Underline the day, the place and the people. (Covered in unit 1: Reading and comprehension.)"
+   "جَلَسَتَا مَعًا وَقَرَأَتَا بِهُدُوءٍ. فِي الْمَسَاءِ أَخْبَرَتِ الطَّالِبَةُ أُمَّهَا بِمَا تَعَلَّمَتْ. [The two sat together and read quietly. In the evening the student told her mother what she had learned.] Underline the day, the place and the people. (Covered in unit 1: Reading and comprehension.)"
   ],
   [
    "Unit 2 (Nominal and verbal sentences): Sort by first word. Show how you do it and say what the result is.",
@@ -196,7 +196,7 @@
   ],
   [
    "Unit 1 (Reading and comprehension): Answer direct questions. Show how you do it and say what the result is.",
-   "مَتَى ذَهَبَتْ سَارَةُ إِلَى الْمَكْتَبَةِ؟ [When did Sara go to the library?] ذَهَبَتْ يَوْمَ الْخَمِيسِ. [She went on Thursday.] مَاذَا اسْتَعَارَتْ؟ [What did she borrow?] اسْتَعَارَتْ كِتَابًا عَنِ الْحَيَوَانَاتِ. [She borrowed a book about animals.] (Covered in unit 1: Reading and comprehension.)"
+   "مَتَى ذَهَبَتِ الطَّالِبَةُ إِلَى الْمَكْتَبَةِ؟ [When did the student go to the library?] ذَهَبَتْ يَوْمَ الْخَمِيسِ. [She went on Thursday.] مَاذَا اسْتَعَارَتْ؟ [What did she borrow?] اسْتَعَارَتْ كِتَابًا عَنِ الْحَيَوَانَاتِ. [She borrowed a book about animals.] (Covered in unit 1: Reading and comprehension.)"
   ],
   [
    "Unit 2 (Nominal and verbal sentences): Name the parts of a verbal sentence. Show how you do it and say what the result is.",
@@ -215,6 +215,7 @@
  "jobs": [],
  "blooms": [
   "Remember",
+  "Understand",
   "Apply"
  ]
 }

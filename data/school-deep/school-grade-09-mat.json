@@ -160,7 +160,7 @@
   {
    "n": 6,
    "title": "Lines and angles",
-   "bloom": "Apply",
+   "bloom": "Evaluate",
    "weeks": [
     18,
     21
@@ -189,7 +189,7 @@
   {
    "n": 7,
    "title": "Triangles",
-   "bloom": "Apply",
+   "bloom": "Evaluate",
    "weeks": [
     22,
     25
@@ -218,7 +218,7 @@
   {
    "n": 8,
    "title": "Quadrilaterals and circles",
-   "bloom": "Apply",
+   "bloom": "Evaluate",
    "weeks": [
     26,
     29
@@ -418,6 +418,7 @@
  "jobs": [],
  "blooms": [
   "Understand",
-  "Apply"
+  "Apply",
+  "Evaluate"
  ]
 }

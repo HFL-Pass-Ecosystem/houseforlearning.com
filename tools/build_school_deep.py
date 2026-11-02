@@ -19,8 +19,13 @@ SUBJ = {'ENG': ('English', 'lang'), 'ESL': ('English as a second language', 'lan
 BLOOM = {'Remember': 'read recite name list say spell recall identify copy match label count repeat', 'Understand': 'describe explain classify tell retell summarise summarize interpret discuss outline give state',
          'Apply': 'use solve find calculate record apply measure draw write add subtract multiply divide convert perform follow carry show demonstrate prepare', 'Analyse': 'analyse analyze compare distinguish examine contrast investigate',
          'Evaluate': 'evaluate judge justify assess argue critique', 'Create': 'create design compose build make produce construct plan'}
+# verbs that school outcomes use beyond the core lists (added 2 Nov so they no longer fall back to Apply by default)
+BLOOM_EXTRA = {'Remember': 'recognise recognize hear locate sing greet', 'Understand': 'talk ask answer respond share introduce speak predict enjoy',
+               'Apply': 'take sort group link click type enter act operate rotate trace set join format store edit conjugate expand factorise compute determine implement plot map continue work deliver present sequence clean connect do style check control manage lead organise balance differentiate integrate open keep hold',
+               'Analyse': 'infer test break decompose', 'Evaluate': 'prove decide weigh value choose', 'Create': 'form'}
 V2B = {v: k for k, vs in BLOOM.items() for v in vs.split()}
-def bloom(outcome): return V2B.get(outcome.split()[0].lower(), 'Apply')
+V2B.update({v: k for k, vs in BLOOM_EXTRA.items() for v in vs.split()})
+def bloom(outcome): return V2B.get(re.sub(r'[^a-z]', '', outcome.split()[0].lower()), 'Apply')
 
 def band_of(p):
     if p.startswith('esl'): return 'esl'

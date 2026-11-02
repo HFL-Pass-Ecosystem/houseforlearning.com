@@ -102,7 +102,7 @@
   {
    "n": 4,
    "title": "Songs and rhymes",
-   "bloom": "Apply",
+   "bloom": "Remember",
    "weeks": [
     28,
     36
@@ -164,7 +164,7 @@
  "checks": [
   [
    "Unit 1 (Family and friends): Introduce your mother and your brother with their names.",
-   "Voici ma mère. Elle s'appelle Amina. Voici mon frère. Il s'appelle Yanis. [Here is my mother. Her name is Amina. Here is my brother. His name is Yanis.] (Covered in unit 1: Family and friends.)"
+   "Voici ma mère. Elle s'appelle [prénom]. Voici mon frère. Il s'appelle [prénom]. [Here is my mother. Her name is (name). Here is my brother. His name is (name).] (Covered in unit 1: Family and friends.)"
   ],
   [
    "Unit 2 (My school): Say what a ruler is and where your pen is.",
@@ -180,7 +180,7 @@
   ],
   [
    "Unit 1 (Family and friends): Introduce your family. Show how you do it and say what the result is.",
-   "Voici ma famille. [Here is my family.] Voici mon frère. Il s'appelle Paul. [Here is my brother. His name is Paul.] Voici ma sœur. Elle s'appelle Nina. [Here is my sister. Her name is Nina.] Use il for a boy and elle for a girl. (Covered in unit 1: Family and friends.)"
+   "Voici ma famille. [Here is my family.] Voici mon frère. Il s'appelle [prénom]. [Here is my brother. His name is (name).] Voici ma sœur. Elle s'appelle [prénom]. [Here is my sister. Her name is (name).] Use il for a boy and elle for a girl. (Covered in unit 1: Family and friends.)"
   ],
   [
    "Unit 2 (My school): Ask and answer. Show how you do it and say what the result is.",
@@ -196,7 +196,7 @@
   ],
   [
    "Unit 1 (Family and friends): Talk about friends. Show how you do it and say what the result is.",
-   "Voici mon ami Hugo et mon amie Sara. [Here are my friend Hugo and my friend Sara.] Nous jouons ensemble. [We play together.] Note mon amie: before a vowel sound even a feminine noun takes mon. (Covered in unit 1: Family and friends.)"
+   "Voici mon ami et mon amie. [Here are my friend (a boy) and my friend (a girl).] Nous jouons ensemble. [We play together.] Note mon amie: before a vowel sound even a feminine noun takes mon. (Covered in unit 1: Family and friends.)"
   ],
   [
    "Unit 2 (My school): Say where things are. Show how you do it and say what the result is.",
@@ -214,7 +214,6 @@
  ],
  "jobs": [],
  "blooms": [
-  "Remember",
-  "Apply"
+  "Remember"
  ]
 }

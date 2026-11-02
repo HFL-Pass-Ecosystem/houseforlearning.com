@@ -45,7 +45,7 @@
   {
    "n": 2,
    "title": "Programming with functions and lists",
-   "bloom": "Apply",
+   "bloom": "Analyse",
    "weeks": [
     12,
     22
@@ -183,7 +183,7 @@
   ],
   [
    "Unit 1 (Databases and queries): Insert data. Show how you do it and say what the result is.",
-   "He types INSERT INTO students VALUES (1,'Ali',8,72),(2,'Bana',8,91),(3,'Cyrus',8,65),(4,'Dina',8,88); The tool reports 4 rows added. Text values are in quotes, numbers are not. (Covered in unit 1: Databases and queries.)"
+   "He types INSERT INTO students VALUES (1,'Learner 1',8,72),(2,'Learner 2',8,91),(3,'Learner 3',8,65),(4,'Learner 4',8,88); The tool reports 4 rows added. Text values are in quotes, numbers are not. (Covered in unit 1: Databases and queries.)"
   ],
   [
    "Unit 2 (Programming with functions and lists): Store the data in a list. Show how you do it and say what the result is.",
@@ -199,7 +199,7 @@
   ],
   [
    "Unit 1 (Databases and queries): Select all. Show how you do it and say what the result is.",
-   "SELECT * FROM students; shows all 4 rows and 4 columns. The star means every column. Hadi checks the output matches what he typed, which verifies the insert. (Covered in unit 1: Databases and queries.)"
+   "SELECT * FROM students; shows all 4 rows and 4 columns. The star means every column. The learner checks the output matches what he typed, which verifies the insert. (Covered in unit 1: Databases and queries.)"
   ],
   [
    "Unit 2 (Programming with functions and lists): Write a function with a parameter and a return value. Show how you do it and say what the result is.",
@@ -218,6 +218,7 @@
  "jobs": [],
  "blooms": [
   "Apply",
+  "Analyse",
   "Create"
  ]
 }

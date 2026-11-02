@@ -15,7 +15,7 @@
   {
    "n": 1,
    "title": "Letter sounds and phonics set 1",
-   "bloom": "Apply",
+   "bloom": "Remember",
    "weeks": [
     1,
     6
@@ -75,7 +75,7 @@
   {
    "n": 3,
    "title": "Writing letters and my name",
-   "bloom": "Apply",
+   "bloom": "Create",
    "weeks": [
     13,
     17
@@ -295,7 +295,7 @@
   ],
   [
    "Unit 3 (Writing letters and my name): Write your name and a label for a drawing of a sun.",
-   "\"Nora\" at the top, and under the sun picture write \"sun\". (Covered in unit 3: Writing letters and my name.)"
+   "your name at the top, and under the sun picture write \"sun\". (Covered in unit 3: Writing letters and my name.)"
   ],
   [
    "Unit 4 (Simple sentences): Fix this sentence, my mum can cook, and write it correctly.",
@@ -339,6 +339,7 @@
  "blooms": [
   "Remember",
   "Understand",
-  "Apply"
+  "Apply",
+  "Create"
  ]
 }

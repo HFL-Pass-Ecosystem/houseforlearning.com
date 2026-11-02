@@ -15,7 +15,7 @@
   {
    "n": 1,
    "title": "Greetings and introductions",
-   "bloom": "Apply",
+   "bloom": "Understand",
    "weeks": [
     1,
     9
@@ -164,7 +164,7 @@
  "checks": [
   [
    "Unit 1 (Greetings and introductions): Introduce yourself with name, age and a goodbye.",
-   "Bonjour ! Je m'appelle Karim. J'ai sept ans. Ça va bien, merci. Au revoir ! [Hello! My name is Karim. I am seven. I am fine, thank you. Goodbye!] (Covered in unit 1: Greetings and introductions.)"
+   "Bonjour ! Je m'appelle [mon prénom]. J'ai sept ans. Ça va bien, merci. Au revoir ! [Hello! My name is (my name). I am seven. I am fine, thank you. Goodbye!] (Covered in unit 1: Greetings and introductions.)"
   ],
   [
    "Unit 2 (Numbers and colours): Say you have four yellow pencils and one blue ball.",
@@ -196,7 +196,7 @@
   ],
   [
    "Unit 1 (Greetings and introductions): Act out a first meeting. Show how you do it and say what the result is.",
-   "Léa : Bonjour ! Comment tu t'appelles ? [Hello! What is your name?] Hugo : Je m'appelle Hugo. Et toi ? [My name is Hugo. And you?] Léa : Enchantée, Hugo ! [Nice to meet you, Hugo!] Hugo : Enchanté, Léa ! [Nice to meet you, Léa!] (Covered in unit 1: Greetings and introductions.)"
+   "Élève A : Bonjour ! Comment tu t'appelles ? [Hello! What is your name?] Élève B : Je m'appelle [mon prénom]. Et toi ? [My name is (my name). And you?] Élève A : Enchantée ! [Nice to meet you!] Élève B : Enchanté ! [Nice to meet you!] (Covered in unit 1: Greetings and introductions.)"
   ],
   [
    "Unit 2 (Numbers and colours): Put numbers and things together. Show how you do it and say what the result is.",
@@ -215,6 +215,6 @@
  "jobs": [],
  "blooms": [
   "Remember",
-  "Apply"
+  "Understand"
  ]
 }

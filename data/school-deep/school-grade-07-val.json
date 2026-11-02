@@ -15,7 +15,7 @@
   {
    "n": 1,
    "title": "Build wisely",
-   "bloom": "Apply",
+   "bloom": "Evaluate",
    "weeks": [
     1,
     9
@@ -75,7 +75,7 @@
   {
    "n": 3,
    "title": "Kindness online and offline",
-   "bloom": "Apply",
+   "bloom": "Understand",
    "weeks": [
     19,
     27
@@ -175,8 +175,8 @@
    "say 'Let her join our team', invite her in, and if the group refuses, play with her and tell a teacher. (Covered in unit 2: Courage and conviction.)"
   ],
   [
-   "Unit 3 (Kindness online and offline): Someone writes 'You are so slow' in the class chat about Omar's run. Respond kindly.",
-   "reply 'He tried his best, well done Omar', message Omar privately to check he is fine, and report it if it continues. (Covered in unit 3: Kindness online and offline.)"
+   "Unit 3 (Kindness online and offline): Someone writes 'You are so slow' in the class chat about a classmate's run. Respond kindly.",
+   "reply 'He tried his best, well done', message the classmate privately to check he is fine, and report it if it continues. (Covered in unit 3: Kindness online and offline.)"
   ],
   [
    "Unit 4 (Citizenship): 20 students choose between 3 games with votes 8, 7, 5. Is there a majority? What next?.",
@@ -184,19 +184,19 @@
   ],
   [
    "Unit 1 (Build wisely): Small choice one. Show how you do it and say what the result is.",
-   "Salman says he will bring the team ball on Thursday. On Wednesday night he is tired and the ball is in the garden. He puts it in his bag anyway. He keeps a small promise even when no one would check. (Covered in unit 1: Build wisely.)"
+   "The learner says he will bring the team ball on Thursday. On Wednesday night he is tired and the ball is in the garden. He puts it in his bag anyway. He keeps a small promise even when no one would check. (Covered in unit 1: Build wisely.)"
   ],
   [
    "Unit 2 (Courage and conviction): Name the value. Show how you do it and say what the result is.",
-   "Maha thinks about fairness and respect. Courage does not mean having no fear; it means acting rightly while afraid. She decides the unkind teasing is wrong and she must not be silent. (Covered in unit 2: Courage and conviction.)"
+   "The second learner thinks about fairness and respect. Courage does not mean having no fear; it means acting rightly while afraid. She decides the unkind teasing is wrong and she must not be silent. (Covered in unit 2: Courage and conviction.)"
   ],
   [
-   "Unit 3 (Kindness online and offline): Pause: Noura sees it and does not rush. Show how you do it and say what the result is.",
-   "She thinks, 'How would Nada feel, and what can I do that helps?' Before replying, she waits a minute. Pausing stops her from adding fuel to the fire. (Covered in unit 3: Kindness online and offline.)"
+   "Unit 3 (Kindness online and offline): Pause: The second learner sees it and does not rush. Show how you do it and say what the result is.",
+   "She thinks, 'How would the first learner feel, and what can I do that helps?' Before replying, she waits a minute. Pausing stops her from adding fuel to the fire. (Covered in unit 3: Kindness online and offline.)"
   ],
   [
    "Unit 4 (Citizenship): Discuss fairly. Show how you do it and say what the result is.",
-   "Each student gets one minute to speak, with no interruptions. Lina speaks for the museum, Hamad for the park, Rashid for the science centre. Listening before voting is part of fair participation. (Covered in unit 4: Citizenship.)"
+   "Each student gets one minute to speak, with no interruptions. The first learner speaks for the museum, the second for the park, the third for the science centre. Listening before voting is part of fair participation. (Covered in unit 4: Citizenship.)"
   ],
   [
    "Unit 1 (Build wisely): Small choice two. Show how you do it and say what the result is.",
@@ -219,6 +219,7 @@
  "jobs": [],
  "blooms": [
   "Understand",
-  "Apply"
+  "Apply",
+  "Evaluate"
  ]
 }
