@@ -1,0 +1,283 @@
+{
+ "id": "GL-60",
+ "title": "Portable and Wireless Charging Solutions",
+ "level": 3,
+ "desc": "Understand power banks, wireless pads and shared charging kiosks: safety, standards, battery care and a simple service business.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain how batteries, chargers and wireless pads work."
+  ],
+  [
+   "Apply",
+   "Calculate capacity and charge time."
+  ],
+  [
+   "Analyse",
+   "Compare devices on real capacity."
+  ],
+  [
+   "Evaluate",
+   "Judge safety and quality."
+  ],
+  [
+   "Create",
+   "Plan a small charging service."
+  ]
+ ],
+ "task": "Test and compare three portable chargers, write a safety and quality note, and plan a small shared charging point with price and care rules.",
+ "condition": "Three chargers (practice or real), a meter or phone app, a spreadsheet, two peers and a mentor. No opening of battery packs.",
+ "standard": "Capacity test is repeated and averaged; safety rules are followed; unsafe items are rejected; business plan shows costs; peers rate Meets or better.",
+ "who": "Shop owners, repair techs, event hosts, students.",
+ "req": "none",
+ "evidence": "test table, safety note, price sheet, plan",
+ "modules": [
+  [
+   "Batteries and units",
+   "Understand",
+   3,
+   "mAh, V, Wh.",
+   [
+    "Wh = V x Ah. A 10,000 mAh at 3.7 V is 37 Wh.",
+    "Losses of 20 to 40% in conversion.",
+    "Charge and discharge cycles age cells."
+   ],
+   "A 37 Wh bank charges a 12 Wh phone about 2.5 times.",
+   "Calculate three examples.",
+   "Maths correct."
+  ],
+  [
+   "Wired charging standards",
+   "Understand",
+   3,
+   "Cables and speeds.",
+   [
+    "Connector types and power delivery levels.",
+    "Use quality cables; thin cables overheat.",
+    "Match charger and device."
+   ],
+   "A 65 W charger with the wrong cable charges slowly.",
+   "Make a compatibility table.",
+   "Entries correct."
+  ],
+  [
+   "Wireless charging",
+   "Understand",
+   3,
+   "Coils and fields.",
+   [
+    "Pad and device must align.",
+    "Efficiency is lower; more heat.",
+    "Metal objects between can heat up."
+   ],
+   "A wireless pad is 70% efficient, wasting 30%.",
+   "Explain how it works.",
+   "Peer understands."
+  ],
+  [
+   "Testing capacity",
+   "Apply",
+   4,
+   "Measure, do not trust labels.",
+   [
+    "Discharge fully into a known load and measure Wh.",
+    "Repeat three times and average.",
+    "Compare to the label."
+   ],
+   "A 20,000 mAh bank delivers 55 Wh instead of 74 Wh claimed.",
+   "Test three banks.",
+   "Results recorded."
+  ],
+  [
+   "Safety and quality",
+   "Evaluate",
+   4,
+   "Cheap packs can fail.",
+   [
+    "Look for certification marks and protection circuits.",
+    "Avoid swollen, hot or damaged units.",
+    "Do not carry on aircraft against airline rules; check limits."
+   ],
+   "A swollen bank is isolated in a safe container and disposed of properly.",
+   "Write a safety note.",
+   "Includes disposal."
+  ],
+  [
+   "Shared charging service",
+   "Create",
+   4,
+   "Kiosk or lending service.",
+   [
+    "Locations: cafes, events, transport hubs.",
+    "Pricing by time or deposit.",
+    "Return, cleaning and loss control."
+   ],
+   "A cafe rents banks for 50 INR and refunds on return.",
+   "Plan a service.",
+   "Costs and prices shown."
+  ],
+  [
+   "Care and recycling",
+   "Apply",
+   3,
+   "Extend life.",
+   [
+    "Avoid heat; store at half charge.",
+    "Recycle batteries at collection points.",
+    "Repair only with trained people."
+   ],
+   "A cafe has a labelled battery recycling box.",
+   "Write care rules.",
+   "Rules specific."
+  ],
+  [
+   "Plan and review",
+   "Create",
+   3,
+   "Pilot the idea.",
+   [
+    "Run a one-week trial.",
+    "Record use and complaints.",
+    "Improve."
+   ],
+   "Week one: 40 rentals, 2 losses; add deposit.",
+   "Present your review.",
+   "Numbers real."
+  ]
+ ],
+ "quiz": [
+  [
+   "Formula for Wh?",
+   "Volts x amp-hours."
+  ],
+  [
+   "Why losses?",
+   "Conversion and heat."
+  ],
+  [
+   "What marks safe goods?",
+   "Certification marks and protection circuits."
+  ],
+  [
+   "What do you do with a swollen bank?",
+   "Isolate and dispose safely."
+  ],
+  [
+   "Wireless pad efficiency issue?",
+   "Lower efficiency, more heat."
+  ],
+  [
+   "Why store at half charge?",
+   "Slows ageing."
+  ],
+  [
+   "How measure capacity?",
+   "Discharge into a known load and measure Wh."
+  ],
+  [
+   "Why repeat tests?",
+   "To average errors."
+  ],
+  [
+   "Name a loss control.",
+   "Deposit."
+  ],
+  [
+   "Where recycle batteries?",
+   "Collection points."
+  ]
+ ],
+ "rubric": [
+  [
+   "Testing",
+   "Single test",
+   "Repeated",
+   "Repeated with analysis"
+  ],
+  [
+   "Safety",
+   "Gaps",
+   "Complete",
+   "Complete and applied"
+  ],
+  [
+   "Plan",
+   "No numbers",
+   "Numbers",
+   "Numbers with pilot data"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Charging kiosk operator",
+   "Runs shared charging"
+  ],
+  [
+   "Device repair assistant",
+   "Tests chargers"
+  ],
+  [
+   "Retail adviser",
+   "Advises buyers"
+  ],
+  [
+   "Quality inspector trainee",
+   "Rejects unsafe items"
+  ],
+  [
+   "Event services assistant",
+   "Provides charging at events"
+  ]
+ ],
+ "next": "car charging stations, solar basics, small electronics repair.",
+ "local": "Battery transport and recycling rules differ by place.",
+ "ladder": [
+  [
+   "Know the basics",
+   "L1: learner can name charger parts.",
+   "Show examples."
+  ],
+  [
+   "Know the rules and risks",
+   "L2: learner knows safety rules.",
+   "Safety."
+  ],
+  [
+   "Prepare and set up",
+   "L3: learner can calculate Wh.",
+   "Sums."
+  ],
+  [
+   "Run it",
+   "L4: learner can test a bank.",
+   "Test."
+  ],
+  [
+   "Specialise and measure",
+   "L5: learner can compare devices.",
+   "Compare."
+  ],
+  [
+   "Lead a small team",
+   "L6: learner can run a kiosk team.",
+   "Team."
+  ],
+  [
+   "Advise and audit others",
+   "L7: learner can audit safety.",
+   "Peer audit."
+  ]
+ ]
+}
