@@ -22,7 +22,7 @@
    ],
    "hours": 36,
    "outcome": "format a report with headings, images and a table",
-   "intro": "In this unit you work on 'Advanced word and slide skills', taught in a way that is short, playful, with objects, pictures and talk. The target is clear: format a report with headings, images and a table. You move from seeing it, to saying it, to doing it alone.",
+   "intro": "In this unit, 'Advanced word and slide skills', you learn to format a report with headings, images and a table. Lessons are short and playful, with objects, pictures and talk. You see it, say it, then do it alone.",
    "points": [
     "See it: watch or try the skill in 'Advanced word and slide skills' on a teacher screen or a safe device.",
     "Name the parts: write the key words and what each part does.",
@@ -52,7 +52,7 @@
    ],
    "hours": 36,
    "outcome": "build a game with variables and conditions",
-   "intro": "In this unit you work on 'Programming with blocks and sprites', taught in a way that is short, playful, with objects, pictures and talk. The target is clear: build a game with variables and conditions. You move from seeing it, to saying it, to doing it alone.",
+   "intro": "In this unit, 'Programming with blocks and sprites', you learn to build a game with variables and conditions. Lessons are short and playful, with objects, pictures and talk. You see it, say it, then do it alone.",
    "points": [
     "See it: watch or try the skill in 'Programming with blocks and sprites' on a teacher screen or a safe device.",
     "Name the parts: write the key words and what each part does.",
@@ -81,7 +81,7 @@
    ],
    "hours": 24,
    "outcome": "use simple formulas and choose a chart",
-   "intro": "In this unit you work on 'Spreadsheets and charts', taught in a way that is short, playful, with objects, pictures and talk. The target is clear: use simple formulas and choose a chart. You move from seeing it, to saying it, to doing it alone.",
+   "intro": "In this unit, 'Spreadsheets and charts', you learn to use simple formulas and choose a chart. Lessons are short and playful, with objects, pictures and talk. You see it, say it, then do it alone.",
    "points": [
     "See it: watch or try the skill in 'Spreadsheets and charts' on a teacher screen or a safe device.",
     "Name the parts: write the key words and what each part does.",
@@ -111,7 +111,7 @@
    ],
    "hours": 12,
    "outcome": "check if a website is trustworthy and give credit",
-   "intro": "In this unit you work on 'Safe and responsible internet use', taught in a way that is short, playful, with objects, pictures and talk. The target is clear: check if a website is trustworthy and give credit. You move from seeing it, to saying it, to doing it alone.",
+   "intro": "In this unit, 'Safe and responsible internet use', you learn to check if a website is trustworthy and give credit. Lessons are short and playful, with objects, pictures and talk. You see it, say it, then do it alone.",
    "points": [
     "See it: watch or try the skill in 'Safe and responsible internet use' on a teacher screen or a safe device.",
     "Name the parts: write the key words and what each part does.",
@@ -166,11 +166,11 @@
  ],
  "checks": [
   [
-   "Unit 1 (Advanced word and slide skills): Add a table of 3 rows for daily steps (Mon 4000, Tue 5000, Wed 6000). Total?.",
+   "Unit 1 (Advanced word and slide skills): Add a table of 3 rows for daily steps (Mon 4000, Tue 5000, Wed 6000). Total?",
    "Insert Table, 2 columns by 4 rows with a header row; total is 4000 plus 5000 plus 6000, which is 15000 steps. (Covered in unit 1: Advanced word and slide skills.)"
   ],
   [
-   "Unit 2 (Programming with blocks and sprites): Add a bonus star worth 5 points. What are the score and lives after the events star, bonus, rock?.",
+   "Unit 2 (Programming with blocks and sprites): Add a bonus star worth 5 points. What are the score and lives after the events star, bonus, rock?",
    "score 1 + 5 = 6 and lives 3 - 1 = 2, using if touching bonus then change score by 5. (Covered in unit 2: Programming with blocks and sprites.)"
   ],
   [
@@ -178,7 +178,7 @@
    "sum is 50, average is 12.5, and a line chart suits a change over time, showing a steady fall. (Covered in unit 3: Spreadsheets and charts.)"
   ],
   [
-   "Unit 4 (Safe and responsible internet use): A blog with no author claims a new fruit cures all illness. How do you check it?.",
+   "Unit 4 (Safe and responsible internet use): A blog with no author claims a new fruit cures all illness. How do you check it?",
    "no author or date and an unlikely claim means checking trusted health sources, and if none agree, do not trust it. (Covered in unit 4: Safe and responsible internet use.)"
   ],
   [

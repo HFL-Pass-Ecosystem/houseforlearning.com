@@ -22,7 +22,7 @@
    ],
    "hours": 30,
    "outcome": "write programs with variables, decisions and loops",
-   "intro": "In this unit you work on 'Python programming basics', taught in a way that is with notes, a worked line and a self-mark. The target is clear: write programs with variables, decisions and loops. You move from seeing it, to saying it, to doing it alone.",
+   "intro": "In this unit, 'Python programming basics', you learn to write programs with variables, decisions and loops. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
    "points": [
     "See it: watch or try the skill in 'Python programming basics' on a teacher screen or a safe device.",
     "Name the parts: write the key words and what each part does.",
@@ -52,7 +52,7 @@
    ],
    "hours": 30,
    "outcome": "decompose problems and design algorithms",
-   "intro": "In this unit you work on 'Computational thinking and algorithms', taught in a way that is with notes, a worked line and a self-mark. The target is clear: decompose problems and design algorithms. You move from seeing it, to saying it, to doing it alone.",
+   "intro": "In this unit, 'Computational thinking and algorithms', you learn to decompose problems and design algorithms. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
    "points": [
     "See it: watch or try the skill in 'Computational thinking and algorithms' on a teacher screen or a safe device.",
     "Name the parts: write the key words and what each part does.",
@@ -82,7 +82,7 @@
    ],
    "hours": 30,
    "outcome": "clean, sort and summarise data",
-   "intro": "In this unit you work on 'Data, spreadsheets and databases', taught in a way that is with notes, a worked line and a self-mark. The target is clear: clean, sort and summarise data. You move from seeing it, to saying it, to doing it alone.",
+   "intro": "In this unit, 'Data, spreadsheets and databases', you learn to clean, sort and summarise data. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
    "points": [
     "See it: watch or try the skill in 'Data, spreadsheets and databases' on a teacher screen or a safe device.",
     "Name the parts: write the key words and what each part does.",
@@ -112,7 +112,7 @@
    ],
    "hours": 18,
    "outcome": "describe how machines learn from data and where bias comes from",
-   "intro": "In this unit you work on 'Introduction to artificial intelligence', taught in a way that is with notes, a worked line and a self-mark. The target is clear: describe how machines learn from data and where bias comes from. You move from seeing it, to saying it, to doing it alone.",
+   "intro": "In this unit, 'Introduction to artificial intelligence', you learn to describe how machines learn from data and where bias comes from. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
    "points": [
     "See it: watch or try the skill in 'Introduction to artificial intelligence' on a teacher screen or a safe device.",
     "Name the parts: write the key words and what each part does.",
@@ -179,7 +179,7 @@
    "remove the duplicate 80, ignore blank, flag 120, leaving 60 and 80; the average is 70. (Covered in unit 3: Data, spreadsheets and databases.)"
   ],
   [
-   "Unit 4 (Introduction to artificial intelligence): A model is trained on 80 photos from city A and 20 from city B and gets 90 percent and 50 percent. Overall? What fix?.",
+   "Unit 4 (Introduction to artificial intelligence): A model is trained on 80 photos from city A and 20 from city B and gets 90 percent and 50 percent. Overall? What fix?",
    "(72 plus 10) divided by 100 is 82 percent; add more balanced training data from city B and test each group separately. (Covered in unit 4: Introduction to artificial intelligence.)"
   ],
   [
