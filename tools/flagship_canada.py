@@ -266,8 +266,9 @@ def course(p):
             same = [k for k, z in enumerate(QZ) if z[2] == FOC[i] and k not in used]
             k = (chk[i] - 1) if QZ[chk[i] - 1][2] == FOC[i] and (chk[i] - 1) not in used else (same[0] if same else chk[i] - 1)
             used.add(k); q, a = QZ[k][0], QZ[k][1]
+            xm = '' if QZ[k][2] == FOC[i] else (f' (this question is covered in module {QZ[k][2]}: {M[QZ[k][2]-1][0]})' if QZ[k][2] else ' (background fact, not taught in a single module)')
             body = (f'L{i+1}: {f["roles"][i]}. You can {LADDER_VERB[i].lower()}: {LADDER_DO[i].format(t=tl)}. Focus module: {mt} ({bl}, {h} h). {intro} Key points: ' + ' '.join(pts))
-            notes = (f'Teach: open with the worked example. {ex} Then set the activity: {act} Mark against the standard: {std} Check at this level: {q} Model answer: {a} Level note: {LADDER_NOTE[i]}')
+            notes = (f'Teach: open with the worked example. {ex} Then set the activity: {act} Mark against the standard: {std} Check at this level{xm}: {q} Model answer: {a} Level note: {LADDER_NOTE[i]}')
             lad += (f'<details class="mod"><summary><span class="mn">Slide {i+1}</span> L{i+1} {e(f["roles"][i])}: {e(mt)}</summary><p>{e(body)}</p>'
                     f'<p class="ws-note"><strong>Speaker notes.</strong> {e(notes)}</p></details>')
         lad = '<p>Seven slides, one per level. Open each for the slide text and the speaker notes.</p>' + lad
