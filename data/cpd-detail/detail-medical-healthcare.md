@@ -8,9 +8,9 @@ Teaches communication and recording only. No clinical advice. All cases are inve
 **Handover order used in this course (a common pattern; use your workplace's order if it differs):** Situation, Background, Assessment, Recommendation/request. We call it SBAR.
 
 **Worked example (spoken, about 40 seconds):**
-"Situation: Mr A, bed 4, is due his 6 pm dressing change and says the pain is worse than this morning. Background: he had knee surgery three days ago; the notes say he is allergic to one named medicine, shown on his wristband. Assessment: he looks tired and the dressing is dry. Request: please check his pain score at 6 and tell the doctor if it is higher than this morning's. Can you repeat the plan back to me?"
+"Situation: Patient A, bed 4, is due his 6 pm dressing change and says the pain is worse than this morning. Background: he had knee surgery three days ago; the notes say he is allergic to one named medicine, shown on his wristband. Assessment: he looks tired and the dressing is dry. Request: please check his pain score at 6 and tell the doctor if it is higher than this morning's. Can you repeat the plan back to me?"
 
-**Case card for practice:** Bed 7, Mrs B, new this shift, speaks quietly, asks for the same question twice, family visiting at 5 pm, night nurse needs to know about a fluids chart that is open.
+**Case card for practice:** Bed 7, Patient B, new this shift, speaks quietly, asks for the same question twice, family visiting at 5 pm, night nurse needs to know about a fluids chart that is open.
 
 **Role-play checklist (scored):** states the patient and bed; gives the one main concern; gives only needed background; names the open task; uses no slang; asks for a repeat-back; confirms who holds each open task.
 
@@ -24,7 +24,7 @@ Teaches communication and recording only. No clinical advice. All cases are inve
 ---
 ## CPD-MED-002 Recording care notes to the standard
 
-**Worked example (a good note):** "14 Mar, 10:20. Mr A reported pain in the right knee, 7 out of 10. Dressing dry and intact. Offered a rest and a drink; he accepted both. Told nurse in charge at 10:25. Signed: initials, role."
+**Worked example (a good note):** "14 Mar, 10:20. Patient A reported pain in the right knee, 7 out of 10. Dressing dry and intact. Offered a rest and a drink; he accepted both. Told nurse in charge at 10:25. Signed: initials, role."
 
 **A poor note (do not copy):** "Patient grumpy, pain bad, gave him something." *Opinion word, no number, no time, unclear action, unsigned.*
 
@@ -46,11 +46,11 @@ Teaches communication and recording only. No clinical advice. All cases are inve
 
 **Four-step pattern used in this course:** Listen, Acknowledge, Explain, Check.
 
-**Worked example (a worried relative):** "I can see this is worrying for you. (acknowledge) Let me explain what is happening now: the doctor is coming to look at your mother within the hour. (explain) Would you like me to write that down? (check) What questions do you have?"
+**Worked example (a worried relative):** "I can see this is worrying for you. (acknowledge) Let me explain what is happening now: the doctor has been asked to look at your mother, and I will tell you when they arrive. (explain) Would you like me to write that down? (check) What questions do you have?"
 
-**Introduction script:** "Good morning, Mrs C. My name is ___ and I am your nurse today. I will check your blood pressure now. Is that all right?"
+**Introduction script:** "Good morning, [name]. My name is ___ and I am your nurse today. I will check your blood pressure now. Is that all right?"
 
-**Escalation message (who, what, when):** "To: nurse in charge. Mr D, bed 2, started feeling dizzy at 3:10 pm. He is sitting. Please come now."
+**Escalation message (who, what, when):** "To: nurse in charge. Patient D, bed 2, started feeling dizzy at 3:10 pm. He is sitting. Please come now."
 
 **Case card for practice:** a daughter asks why her father is not eating; learners practise the four steps in two minutes.
 
