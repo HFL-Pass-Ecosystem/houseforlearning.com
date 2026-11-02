@@ -36,27 +36,29 @@
    "Product and route",
    "Understand",
    3,
-   "Design the experience.",
+   "Design a tour that guests will value and operators can run safely.",
    [
-    "Scenic, sunset, wildlife, transfer.",
+    "Types: scenic, sunset, wildlife, transfer.",
     "Duration, capacity, ports and landing sites.",
-    "Accessibility."
+    "Accessibility and comfort.",
+    "Seasonality."
    ],
-   "A 45-minute coastal route.",
-   "Design a route.",
+   "A 45-minute coastal route with a sunset slot and a 20-minute boarding window.",
+   "Design a route with times.",
    "Map and timings."
   ],
   [
    "Licences and insurance",
    "Apply",
    5,
-   "Only licensed operators.",
+   "Only licensed operators and crews run commercial trips.",
    [
-    "Vessel or aircraft certificates, crew licences, operator permits.",
+    "Vessel or aircraft certificates, crew licences and operator permits.",
     "Insurance for passengers.",
-    "Check expiry dates."
+    "Check expiry dates.",
+    "Keep copies."
    ],
-   "A certificate expires next month; booking stops.",
+   "A certificate expires next month; bookings after that date are stopped until renewal.",
    "Make a checklist.",
    "Sources and dates."
   ],
@@ -66,11 +68,12 @@
    5,
    "Safety over schedule.",
    [
-    "Wind, visibility, waves, ceiling.",
-    "Clear numbers and a decision maker.",
-    "Refund policy for cancellations."
+    "Wind, visibility, waves and ceiling.",
+    "Clear numbers and a named decision maker.",
+    "Refund policy for cancellations.",
+    "Record decisions."
    ],
-   "Wind above a set limit cancels flights.",
+   "Wind above a set limit cancels flights and guests are offered a new date or refund.",
    "Write rules.",
    "Numbers specified."
   ],
@@ -80,11 +83,12 @@
    4,
    "Guests must know what to do.",
    [
-    "Life jackets, seat belts, exits, behaviour.",
-    "Language options; check understanding.",
-    "Equipment inspection log."
+    "Life jackets, seat belts, exits and behaviour.",
+    "Language options and check understanding.",
+    "Equipment inspection log.",
+    "Accessibility."
    ],
-   "Guests repeat how to fasten a life jacket.",
+   "Guests repeat how to fasten a life jacket before boarding.",
    "Write a briefing script.",
    "Under five minutes."
   ],
@@ -94,11 +98,12 @@
    4,
    "Plan and drill.",
    [
-    "Man overboard, fire, engine failure, medical.",
+    "Man overboard, fire, engine failure and medical.",
     "Contacts and roles.",
-    "Practice drills."
+    "Practice drills.",
+    "Review after drills."
    ],
-   "A drill finds the radio channel was wrong.",
+   "A drill finds the radio channel was wrong and the sheet is corrected.",
    "Write a plan.",
    "Steps ordered."
   ],
@@ -110,9 +115,10 @@
    [
     "Hourly cost of vessel or aircraft is high.",
     "Cost per guest = hourly cost x hours / guests.",
-    "Break-even load factor."
+    "Break-even load factor.",
+    "Seasonal pricing."
    ],
-   "Hourly 40,000 INR for 8 guests: 5,000 INR each.",
+   "Hourly cost 40,000 INR for 8 guests is 5,000 INR each.",
    "Build a sheet.",
    "Currency shown."
   ],
@@ -122,11 +128,12 @@
    3,
    "Be a good neighbour.",
    [
-    "Noise, wildlife, emissions.",
+    "Noise, wildlife and emissions.",
     "Flight paths and speed rules.",
-    "Local jobs."
+    "Local jobs.",
+    "Respect for residents."
    ],
-   "Routes avoid nesting sites.",
+   "Routes avoid nesting sites in season.",
    "List controls.",
    "Controls clear."
   ],
@@ -136,11 +143,12 @@
    3,
    "Write and present.",
    [
-    "Roles, schedule, records.",
+    "Roles, schedule and records.",
     "Review each season.",
-    "Guest feedback."
+    "Guest feedback.",
+    "Training."
    ],
-   "The plan reaches 4.7 average score.",
+   "The plan reaches 4.7 average guest score.",
    "Present.",
    "Complete."
   ]

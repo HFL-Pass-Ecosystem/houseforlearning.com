@@ -33,72 +33,77 @@
  "evidence": "quantity sheet, cost comparison, risk list, note",
  "modules": [
   [
-   "How it works",
+   "How a construction printer works",
    "Understand",
    3,
-   "Layers of material.",
+   "A construction 3D printer builds walls by laying a cement-like mix in layers, following a digital path.",
    [
-    "A gantry or arm prints a cement-like mix in layers.",
-    "Walls are printed; roofs and services are added by hand.",
-    "A design file controls the path."
+    "A gantry or robotic arm moves a nozzle over the site.",
+    "Walls are printed in layers of 15 to 40 mm; doors, windows, roof and services are added by trades.",
+    "A design file controls the path; changing the file changes the building.",
+    "Printing is fast for walls but the whole building still needs foundations, roof and finishes."
    ],
-   "A printer lays a 40 mm bead in a double-wall pattern.",
-   "Draw the process.",
-   "Steps labelled."
+   "A printer lays a 40 mm bead in a double-wall pattern with hollow cavities, which are later filled with reinforcement and insulation.",
+   "Draw the process from design file to finished wall with labels.",
+   "All steps are shown in order."
   ],
   [
-   "Materials",
+   "Printable materials",
    "Understand",
    3,
    "The mix decides success.",
    [
-    "Cement mixes with additives; earth mixes; recycled aggregates.",
-    "Must flow, hold shape and cure.",
-    "Weather affects curing."
+    "Cement-based mixes with additives, earth mixes and recycled aggregates.",
+    "The mix must flow through the nozzle, hold shape and gain strength.",
+    "Weather affects curing; heat and wind dry layers quickly.",
+    "Test every batch."
    ],
-   "A hot day needs a retarder.",
-   "Compare two mixes.",
-   "Properties listed."
+   "On a hot day a retarder is added so layers bond before drying.",
+   "Compare two mixes in a table.",
+   "Properties and limits listed."
   ],
   [
-   "Design and codes",
+   "Design and building codes",
    "Apply",
    4,
-   "Printing is not exempt.",
+   "Printed buildings follow the same safety codes as others.",
    [
-    "Structural design by an engineer; reinforcement and openings.",
-    "Fire, energy and accessibility codes.",
-    "Foundations and utilities as usual."
+    "Structural design by a qualified engineer, including reinforcement and openings.",
+    "Fire, energy, accessibility and ventilation codes.",
+    "Foundations and services as usual.",
+    "Permits and inspections."
    ],
-   "Steel bars are placed in wall cavities.",
-   "List code checks.",
-   "Sources noted."
+   "Steel bars are placed in wall cavities before they are filled, and an engineer signs the design.",
+   "List code checks for a small building in your place.",
+   "Sources are listed."
   ],
   [
-   "Quantities and time",
+   "Quantities and print time",
    "Analyse",
    4,
    "Count the bead.",
    [
     "Wall length x height / layer height = layers.",
-    "Volume x density = material.",
-    "Print speed gives hours."
+    "Volume x density = material mass.",
+    "Print speed gives hours.",
+    "Add waste and set-up time."
    ],
-   "60 m of wall at 3 m high needs 150 layers of 20 mm.",
+   "60 m of wall at 3 m high with 20 mm layers needs 150 layers.",
    "Calculate for a small room.",
    "Maths correct."
   ],
   [
-   "Site and safety",
+   "Site safety",
    "Evaluate",
    4,
-   "People and machine.",
+   "People and machines share the site.",
    [
-    "Exclusion zones, emergency stop, lifting.",
+    "Exclusion zones, emergency stop and lifting plans.",
     "Dust and silica protection.",
-    "Weather plan."
+    "Weather plan.",
+    "Training."
    ],
-   "A fence marks the print zone.",
+   "A fence marks the print zone and a trained operator stays on watch.",
    "Write a site safety plan.",
    "Plan approved by mentor."
   ],
@@ -106,14 +111,15 @@
    "Cost and comparison",
    "Evaluate",
    3,
-   "Where it pays.",
+   "See where it pays.",
    [
     "Labour saving vs machine and material cost.",
     "Speed and waste reduction.",
-    "Compare per m2."
+    "Compare per m2.",
+    "Include transport and set-up."
    ],
-   "Walls cost 12% less but doors cost the same.",
-   "Build a table.",
+   "Walls cost 12 per cent less but doors and roofing cost the same.",
+   "Build a comparison table.",
    "Currency shown."
   ],
   [
@@ -124,9 +130,10 @@
    [
     "Sample cubes for strength.",
     "Check layer bonding and tolerances.",
-    "Keep records."
+    "Keep records.",
+    "Fix defects."
    ],
-   "A cube fails; the batch is rejected.",
+   "A cube fails the strength test and the batch is rejected.",
    "Write a QC plan.",
    "Tests named."
   ],
@@ -138,10 +145,11 @@
    [
     "Fit: housing, shelters, small buildings.",
     "Risks and permits.",
-    "Next steps."
+    "Next steps.",
+    "Review."
    ],
-   "The note recommends a small pilot hut.",
-   "Write and present.",
+   "The note recommends a small pilot hut before a house.",
+   "Write and present the note.",
    "Reader can decide."
   ]
  ],

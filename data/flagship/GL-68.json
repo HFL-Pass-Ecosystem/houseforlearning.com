@@ -36,28 +36,30 @@
    "What counts as space",
    "Understand",
    2,
-   "The edge of space.",
+   "The edge of space is a convention, not a wall.",
    [
-    "A common line is 100 km up.",
-    "Suborbital goes up and falls back.",
-    "Orbital circles Earth."
+    "A common line is 100 km above sea level.",
+    "Suborbital flights go up and come back without orbiting.",
+    "Orbital flights circle Earth and need much more energy.",
+    "Duration and experience differ widely."
    ],
-   "A short flight gives a few minutes of weightlessness.",
-   "Explain the difference.",
+   "A suborbital flight gives a few minutes of weightlessness; an orbital stay can last days.",
+   "Explain the difference to a peer.",
    "Peer understands."
   ],
   [
    "Flight types",
    "Understand",
    2,
-   "Rocket, balloon, plane.",
+   "Rocket planes, capsules and high-altitude balloons offer different experiences.",
    [
-    "Rocket planes, capsules, high balloons.",
-    "Time, altitude and experience vary.",
-    "Training is needed."
+    "Rocket planes and capsules reach the edge of space.",
+    "High-altitude balloons reach about 30 km.",
+    "Training and fitness checks are needed.",
+    "Costs and risks vary."
    ],
-   "Balloon flights reach about 30 km.",
-   "Compare types.",
+   "Balloon flights offer a slow, quiet ride to about 30 km with a view of the curved Earth.",
+   "Compare types in a table.",
    "Table complete."
   ],
   [
@@ -66,12 +68,13 @@
    2,
    "Risk is real.",
    [
-    "Acceleration, vibration, radiation, emergencies.",
+    "Acceleration, vibration, radiation and emergencies.",
     "Medical checks and training.",
-    "Incident history is public."
+    "Incident history is public.",
+    "Informed consent is required."
    ],
-   "Passengers train for high G.",
-   "List risks.",
+   "Passengers train in a centrifuge to experience high acceleration before flight.",
+   "List risks and controls.",
    "Each risk has a control."
   ],
   [
@@ -81,10 +84,11 @@
    "Very expensive today.",
    [
     "Costs are in the hundreds of thousands and above.",
-    "Price may fall.",
-    "Access is unequal."
+    "Prices may fall over time.",
+    "Access is unequal.",
+    "Alternatives such as museum or educational experiences exist."
    ],
-   "A seat costs more than a lifetime of savings for most.",
+   "A seat costs more than a lifetime of savings for most people.",
    "Discuss fairness.",
    "Fair views."
   ],
@@ -96,9 +100,10 @@
    [
     "Soot and gases in high air.",
     "Launch frequency matters.",
-    "Fuel type changes impacts."
+    "Fuel type changes impacts.",
+    "Per-passenger emissions are high."
    ],
-   "Per passenger emissions are high.",
+   "Per passenger emissions can be many times those of a long flight.",
    "Check a claim.",
    "Source dated."
   ],
@@ -108,11 +113,12 @@
    2,
    "Regulated by authorities.",
    [
-    "Launch licences, informed consent.",
+    "Launch licences and informed consent.",
     "Passenger responsibility.",
-    "Insurance."
+    "Insurance.",
+    "National laws."
    ],
-   "Operators must tell passengers risks.",
+   "Operators must tell passengers risks in writing.",
    "List rules.",
    "Sources named."
   ],
@@ -122,9 +128,10 @@
    2,
    "Not just pilots.",
    [
-    "Engineers, medics, trainers, guides, safety.",
+    "Engineers, medics, trainers, guides and safety staff.",
     "Hospitality and data roles.",
-    "Local spaceports."
+    "Local spaceports.",
+    "Education."
    ],
    "A spaceport employs hundreds in ground roles.",
    "List ten roles.",
@@ -138,9 +145,10 @@
    [
     "Plain language.",
     "State limits.",
-    "Test with a reader."
+    "Test with a reader.",
+    "Date it."
    ],
-   "Reader repeats three facts.",
+   "A reader repeats three facts and one risk.",
    "Finish.",
    "Reader can repeat."
   ]
