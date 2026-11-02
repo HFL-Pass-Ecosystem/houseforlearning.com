@@ -32,14 +32,7 @@
    "example": "Solved: name = 'Sara'; total = 0; for n in [3, 5, 7]: total = total + n; print(name, total) prints Sara 15. Trace each line to check. Method: Model run for 'Python programming: control flow and strings'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Write programs with decisions and loops: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": [
-    "Step 1, state the goal of the task for 'Python programming: control flow and strings' in one sentence.",
-    "Step 2, plan the steps on paper before touching the device.",
-    "Step 3, follow the example and save after each step with a clear file name.",
-    "Step 4, test with normal input, then with one unusual input.",
-    "Step 5, fix one fault and note what you changed and why.",
-    "Step 6, show a partner and explain each part aloud. Standard: write programs with decisions and loops. Online safety rules apply."
-   ]
+   "steps": []
   },
   {
    "n": 2,
@@ -61,14 +54,7 @@
    "example": "Solved: marks = [70, 85, 90]; marks.append(60). d = {'Sara': 85}; d['Sara'] gives 85. A tuple such as (1, 2) cannot change. Method: Model run for 'Lists, tuples and dictionaries'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Store and process data with Python structures: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": [
-    "Step 1, state the goal of the task for 'Lists, tuples and dictionaries' in one sentence.",
-    "Step 2, plan the steps on paper before touching the device.",
-    "Step 3, follow the example and save after each step with a clear file name.",
-    "Step 4, test with normal input, then with one unusual input.",
-    "Step 5, fix one fault and note what you changed and why.",
-    "Step 6, show a partner and explain each part aloud. Standard: store and process data with Python structures. Online safety rules apply."
-   ]
+   "steps": []
   },
   {
    "n": 3,
@@ -90,14 +76,7 @@
    "example": "Solved: Binary 1011 = 8 + 0 + 2 + 1 = 11. Decimal 13 = 8 + 4 + 1 = 1101. Method: Model run for 'Computer systems and number systems'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Convert numbers and describe hardware: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": [
-    "Step 1, state the goal of the task for 'Computer systems and number systems' in one sentence.",
-    "Step 2, plan the steps on paper before touching the device.",
-    "Step 3, follow the example and save after each step with a clear file name.",
-    "Step 4, test with normal input, then with one unusual input.",
-    "Step 5, fix one fault and note what you changed and why.",
-    "Step 6, show a partner and explain each part aloud. Standard: convert numbers and describe hardware. Online safety rules apply."
-   ]
+   "steps": []
   },
   {
    "n": 4,
@@ -119,14 +98,7 @@
    "example": "Solved: SELECT name, marks FROM students WHERE marks > 80 ORDER BY marks DESC; returns the students above 80, highest first. Method: Model run for 'Introduction to databases and SQL'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
    "standard": "Create and query a table: at least 70 percent on an exam-style task, with the method shown.",
-   "steps": [
-    "Step 1, state the goal of the task for 'Introduction to databases and SQL' in one sentence.",
-    "Step 2, plan the steps on paper before touching the device.",
-    "Step 3, follow the example and save after each step with a clear file name.",
-    "Step 4, test with normal input, then with one unusual input.",
-    "Step 5, fix one fault and note what you changed and why.",
-    "Step 6, show a partner and explain each part aloud. Standard: create and query a table. Online safety rules apply."
-   ]
+   "steps": []
   }
  ],
  "rubric": [

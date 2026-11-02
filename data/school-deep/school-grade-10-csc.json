@@ -32,14 +32,7 @@
    "example": "Solved: name = 'Sara'; total = 0; for n in [3, 5, 7]: total = total + n; print(name, total) prints Sara 15. Trace each line to check. Method: Model run for 'Python: functions, files and data structures'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Write programs using lists, dictionaries and files: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": [
-    "Step 1, state the goal of the task for 'Python: functions, files and data structures' in one sentence.",
-    "Step 2, plan the steps on paper before touching the device.",
-    "Step 3, follow the example and save after each step with a clear file name.",
-    "Step 4, test with normal input, then with one unusual input.",
-    "Step 5, fix one fault and note what you changed and why.",
-    "Step 6, show a partner and explain each part aloud. Standard: write programs using lists, dictionaries and files. Online safety rules apply."
-   ]
+   "steps": []
   },
   {
    "n": 2,
@@ -61,14 +54,7 @@
    "example": "Solved: SELECT name, marks FROM students WHERE marks > 80 ORDER BY marks DESC; returns the students above 80, highest first. Method: Model run for 'Databases and SQL'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Design and query a small database: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": [
-    "Step 1, state the goal of the task for 'Databases and SQL' in one sentence.",
-    "Step 2, plan the steps on paper before touching the device.",
-    "Step 3, follow the example and save after each step with a clear file name.",
-    "Step 4, test with normal input, then with one unusual input.",
-    "Step 5, fix one fault and note what you changed and why.",
-    "Step 6, show a partner and explain each part aloud. Standard: design and query a small database. Online safety rules apply."
-   ]
+   "steps": []
   },
   {
    "n": 3,
@@ -90,14 +76,7 @@
    "example": "Solved: AI project cycle: problem scoping, data, exploration, modelling, evaluation, deployment. Example: predict marks from study hours. Method: Model run for 'Artificial intelligence project cycle'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Plan a small data project from problem to evaluation: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": [
-    "Step 1, state the goal of the task for 'Artificial intelligence project cycle' in one sentence.",
-    "Step 2, plan the steps on paper before touching the device.",
-    "Step 3, follow the example and save after each step with a clear file name.",
-    "Step 4, test with normal input, then with one unusual input.",
-    "Step 5, fix one fault and note what you changed and why.",
-    "Step 6, show a partner and explain each part aloud. Standard: plan a small data project from problem to evaluation. Online safety rules apply."
-   ]
+   "steps": []
   },
   {
    "n": 4,
@@ -119,14 +98,7 @@
    "example": "Solved: Copying work without credit is plagiarism; breaking into a system without permission is illegal. Always cite sources. Method: Model run for 'Cyber law and ethics'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Describe privacy, copyright and responsible AI use: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": [
-    "Step 1, state the goal of the task for 'Cyber law and ethics' in one sentence.",
-    "Step 2, plan the steps on paper before touching the device.",
-    "Step 3, follow the example and save after each step with a clear file name.",
-    "Step 4, test with normal input, then with one unusual input.",
-    "Step 5, fix one fault and note what you changed and why.",
-    "Step 6, show a partner and explain each part aloud. Standard: describe privacy, copyright and responsible AI use. Online safety rules apply."
-   ]
+   "steps": []
   }
  ],
  "rubric": [

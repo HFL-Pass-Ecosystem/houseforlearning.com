@@ -32,14 +32,7 @@
    "example": "Solved: <h1>My page</h1><p>Hello</p><a href='about.html'>About</a>. CSS: p { color: blue; } makes paragraphs blue. Method: Model run for 'HTML basics'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Build a simple web page with text, images and links: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": [
-    "Step 1, state the goal of the task for 'HTML basics' in one sentence.",
-    "Step 2, plan the steps on paper before touching the device.",
-    "Step 3, follow the example and save after each step with a clear file name.",
-    "Step 4, test with normal input, then with one unusual input.",
-    "Step 5, fix one fault and note what you changed and why.",
-    "Step 6, show a partner and explain each part aloud. Standard: build a simple web page with text, images and links. Online safety rules apply."
-   ]
+   "steps": []
   },
   {
    "n": 2,
@@ -83,14 +76,7 @@
    "example": "Solved: Table Students: ID, Name, Class. Query: SELECT Name FROM Students WHERE Class = '7B'; lists the names in 7B. Method: Model run for 'Databases and tables'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Enter, sort and filter data in a table: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": [
-    "Step 1, state the goal of the task for 'Databases and tables' in one sentence.",
-    "Step 2, plan the steps on paper before touching the device.",
-    "Step 3, follow the example and save after each step with a clear file name.",
-    "Step 4, test with normal input, then with one unusual input.",
-    "Step 5, fix one fault and note what you changed and why.",
-    "Step 6, show a partner and explain each part aloud. Standard: enter, sort and filter data in a table. Online safety rules apply."
-   ]
+   "steps": []
   },
   {
    "n": 4,
@@ -112,14 +98,7 @@
    "example": "Solved: Before posting ask: would I say this face to face, and would I be happy if a teacher saw it? Everything you post can be copied. Method: Model run for 'Digital footprint'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
    "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
    "standard": "Describe a digital footprint and manage it: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
-   "steps": [
-    "Step 1, state the goal of the task for 'Digital footprint' in one sentence.",
-    "Step 2, plan the steps on paper before touching the device.",
-    "Step 3, follow the example and save after each step with a clear file name.",
-    "Step 4, test with normal input, then with one unusual input.",
-    "Step 5, fix one fault and note what you changed and why.",
-    "Step 6, show a partner and explain each part aloud. Standard: describe a digital footprint and manage it. Online safety rules apply."
-   ]
+   "steps": []
   }
  ],
  "rubric": [
