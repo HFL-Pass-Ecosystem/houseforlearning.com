@@ -27,7 +27,7 @@ D2 = {
  ("Detect, respond and measure an incident","Analyse",9,"When something goes wrong, speed matters. Teams measure how long it takes to notice and to fix, then try to shorten both.",
   ["Collect logs from sign-ins, firewalls and servers in one place, with clocks set to the same time.","Follow the response steps in order: detect, contain, remove the cause, recover, then review what happened.","Record times: time to detect and time to fix, both in minutes, for every incident.","Hold a short review after each incident and write down one change that would have stopped or shortened it."],
   "Incident A: started 09:00, noticed 09:45, fixed 12:15. Time to detect = 45 minutes; time to fix = 150 minutes after detection. Incident B: detected in 20 minutes and fixed in 90 minutes. Averages: detect (45 + 20) / 2 = 32.5 minutes; fix (150 + 90) / 2 = 120 minutes.",
-  "Using a sample incident log of 5 events, compute average time to detect and fix and suggest one change for each.","Times calculated in minutes; steps shown in the right order; each review has one concrete change."),
+  "Calculate average time to detect and fix from a sample incident log of 5 events and suggest one change for each.","Times calculated in minutes; steps shown in the right order; each review has one concrete change."),
 ],
 "pw-08-venture-private-equity": [
  ("Read a deal: valuation and ownership maths","Apply",10,"Every investment deal comes down to a few numbers: what the firm is worth before money arrives, how much is put in, and what share that buys.",
@@ -69,6 +69,6 @@ D2 = {
  ("Monitor delivery and review the partnership","Analyse",9,"After signing, governance is mostly checking. Regular monitoring catches small failures before they become large ones.",
   ["Set measurable service standards, such as availability, response time and cleanliness scores, with a clear way to measure each.","Track milestones against the plan and record causes of delay.","Apply payment deductions exactly as the contract says, and keep a written record of every decision.","Report to the public body and the public in plain words, and hold a formal review at fixed points, for example every 5 years."],
   "A building must be available 98.0% of 8,760 hours in a year = 8,584.8 hours. Actual availability is 8,410 hours, which is 96.0%. Shortfall = 174.8 hours below the standard, so the deduction clause applies for that period.",
-  "Using a sample monthly report, calculate performance against 4 standards and draft a short notice of any deduction.","Each standard measured with units; deduction follows the contract clause; notice is dated and factual."),
+  "Calculate performance against 4 standards from a sample monthly report and draft a short notice of any deduction.","Each standard measured with units; deduction follows the contract clause; notice is dated and factual."),
 ],
 }

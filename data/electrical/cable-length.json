@@ -19,7 +19,7 @@
 "intro": "Four things set how long a run can be. Changing one of them is how you fix a run that fails.",
 "points": ["Conductor cross-section: thicker allows longer.","Protective device type and rating: a lower trip level allows longer.","Supply voltage and temperature: warm cable has higher resistance.","Core count and how the cable is laid also affect the result."],
 "example": "The failing 6 mm² run at 120 m gave 256 A against 320 A needed. Option one: move up to 10 mm². Loop is 2 × 0.0225 × 120 ÷ 10 = 0.54 ohms and fault current is 230 ÷ 0.54 = about 426 A. That passes. Option two: keep 6 mm² and ask for a device with a lower trip level, for example one needing 5 times its rating, so 160 A, and 256 passes. Option three: shorten the route to 80 m, giving 0.6 ohms and 383 A, which also passes. Three fixes, each with a cost.",
-"activity": "For the failing run, list the three fixes. Choose one and say what extra it costs (money, space, or a different device).",
+"activity": "List the three fixes for the failing run. Choose one and say what extra it costs (money, space, or a different device).",
 "standard": "Learner names the four factors and proposes at least two valid fixes with numbers."},
 {"title": "Voltage drop as a second check","bloom": "Evaluate: Check","minutes": 15,
 "intro": "A run can pass the fault check and still be poor, because a long cable also drops voltage under load. Both checks must pass.",

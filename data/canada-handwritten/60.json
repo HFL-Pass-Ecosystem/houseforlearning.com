@@ -78,7 +78,7 @@
    ],
    "ex": "A client places a limit order to buy 500 shares at 20 or less. The price stays at 20.40, so the order waits and does not fill at a higher price. If the price later falls to 20.00 and the order fills, the cost is 500 x 20 = 10,000 dollars.",
    "act": "Walk through five made-up orders and record the details and outcomes.",
-   "std": "Task: handle practice orders. Condition: made-up market data. Standard: each record has time, type, price, outcome and reason."
+   "std": "Task: process practice orders. Condition: made-up market data. Standard: each record has time, type, price, outcome and reason."
   },
   "6": {
    "title": "Manage risk and keep records",
@@ -110,7 +110,7 @@
    ],
    "ex": "A firm advises a company on a sale and its trading team wants to trade that company's shares. An information barrier blocks the sharing and the trading team is told to stay out. A research note that says 'this stock will double' is changed to 'growth is expected, and the price could also fall', with sources added.",
    "act": "Write a half-page note on a made-up conflict with the steps you would take.",
-   "std": "Task: handle a conflict. Condition: one made-up case. Standard: the conflict is named, disclosed and handled by steps that protect the client."
+   "std": "Task: process a conflict. Condition: one made-up case. Standard: the conflict is named, disclosed and handled by steps that protect the client."
   },
   "8": {
    "title": "Run a supervised practice deal for real",

@@ -66,9 +66,9 @@ def _load_bloom():
 BLOOM=_load_bloom()
 def bad_std_verbs(t):
     out=[]
-    for m in re.finditer(r'Standard to meet\.\s+([A-Za-z-]+)',t):
+    for m in re.finditer(r'(?:Standard to meet|Activity)\.\s+(?:Task:\s*)?([A-Za-z-]+)',t):
         w=m.group(1).lower().rstrip(',')
-        if w not in BLOOM: out.append(m.group(1))
+        if w not in BLOOM and w!='about': out.append(m.group(1))
     return out
 
 # CPD pages: every check answer must say "Covered in module N" (never "not taught"); no fees on CPD pages.
@@ -83,6 +83,15 @@ for f in sorted(glob.glob('cpd-*.html')):
     if bv: miss.append('cpd:standard not starting with a Bloom verb (%s)'%', '.join(sorted(set(bv))))
     if miss: cpd_bad.append((f,miss))
 bad+=cpd_bad
+# Every other course page: each Activity and each "Standard to meet" opens with a listed Bloom verb (the "Task:" label is skipped).
+all_bad=[]
+for f in sorted(glob.glob('*.html')):
+    if f.startswith('cpd-'): continue
+    raw=open(f,encoding='utf-8').read()
+    if 'Standard to meet' not in raw and 'Activity' not in raw: continue
+    bv=bad_std_verbs(txt(clean(raw)))
+    if bv: all_bad.append((f,['bloom:opens with a non-listed word (%s)'%', '.join(sorted(set(bv))[:6])]))
+bad+=all_bad
 rows.update({f:{} for f in glob.glob('cpd-*.html')})
 
 # School pages: exactly 10 checks per page, every answer tagged "Covered in unit N", no generic answers.

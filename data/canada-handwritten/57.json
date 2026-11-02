@@ -46,7 +46,7 @@
    ],
    "ex": "Before mowing, a worker walks the lawn and removes toys and stones. She sets the mower height, mows in straight lines and writes the time on the job sheet. If the grass is 9 cm tall, cutting a third means removing at most 3 cm and leaving 6 cm.",
    "act": "Complete a full routine visit on a practice yard with a written step list.",
-   "std": "Task: do a routine visit. Condition: a checklist and protective gear. Standard: every step done in order, the area left tidy and the job sheet filled in."
+   "std": "Task: complete a routine visit. Condition: a checklist and protective gear. Standard: every step done in order, the area left tidy and the job sheet filled in."
   },
   "4": {
    "title": "Know the rules and look after the environment",

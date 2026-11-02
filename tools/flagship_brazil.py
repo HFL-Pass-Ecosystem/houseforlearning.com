@@ -160,7 +160,7 @@ def mods(n):
        "Set service rules for answering customers: reply times, tone, how to apologise and fix.",
        "Hold a ten-minute team check each day: yesterday's problem, today's plan, one risk.",
        "Build a growth path: what a new person can do in week 1, month 3 and month 12."],
-      "Training record: 'Task: handle a complaint. Shown 2 May; done with support 4 May; done alone 8 May, checked: apology, fix, follow-up call. Signed by lead.'",
+      "Training record: 'Task: process a complaint. Shown 2 May; done with support 4 May; done alone 8 May, checked: apology, fix, follow-up call. Signed by lead.'",
       "Write two role cards and a training plan for one new hire. Role-play a hard customer conversation twice and review.",
       "Role cards have measurable standards; training shows sign-off steps; service rules are written in plain words."))
     m.append(("Money: cost, price and break-even", "Analyse", 5,

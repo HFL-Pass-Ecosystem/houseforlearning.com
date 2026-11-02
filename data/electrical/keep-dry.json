@@ -19,7 +19,7 @@
 "intro": "A board that carries steady current warms itself. A board that sits idle needs help. The skill is spotting which one you have.",
 "points": ["Steady losses of around 100 W (an example value) from continuous current can hold a cubicle just above the room air.","Where losses are small or current often stops for long periods, fit anti-condensation heaters.","Size the heaters from the maker tables, using room temperature, humidity and how much the enclosure sheds heat."],
 "example": "Board A carries current all day and its losses total 120 W. That is above the 100 W guide, so it can usually warm itself. Board B carries current only for 3 hours a day and its losses average 20 W over the full 24 hours, which is 20 divided by 100, a fifth of the guide. Board B will cool and sweat, so it needs heaters from the maker's table. Board A needs no heater unless the load stops for long breaks. The check is a comparison of real losses against the guide, then a decision.",
-"activity": "For two boards you can read about (a pump board that runs part of the day, a lighting board that runs all night), estimate which one heats itself and which needs heaters. Explain in one line each.",
+"activity": "Estimate which of two boards heats itself and which needs heaters: a pump board that runs part of the day and a lighting board that runs all night, both of which you can read about. Explain in one line each.",
 "standard": "Learner correctly sorts boards into self-heating or needs-heaters and cites the loss figure used."},
 {"title": "Where heaters go","bloom": "Apply: Place","minutes": 15,
 "intro": "A heater in the wrong place wastes power and can harm nearby parts. Placement is a simple set of habits.",
