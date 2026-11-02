@@ -36,163 +36,163 @@
    "How an electric vehicle works",
    "Understand",
    3,
-   "An electric vehicle stores energy in a battery and uses an electric motor to turn the wheels.",
+   "An electric car swaps the engine, fuel tank and gearbox for a battery, a motor and a controller. Knowing the chain lets you explain every cost and limit later.",
    [
-    "Parts: battery pack, inverter, motor, onboard charger, controller, thermal system.",
-    "Regenerative braking returns some energy to the battery.",
-    "Energy use is measured in kWh per 100 km.",
-    "No exhaust emissions at the vehicle; total emissions depend on how electricity is made."
+    "Energy flows battery to controller to motor to wheels; braking sends some energy back to the battery.",
+    "A motor gives full pull from a standstill, so the car feels quick and quiet with one gear.",
+    "A small battery runs lights, screens and cooling; the traction battery drives the wheels.",
+    "Fewer moving parts means fewer routine services, but tyres, brakes and suspension still wear."
    ],
-   "A car that uses 15 kWh per 100 km and has a 60 kWh battery can travel about 400 km in ideal conditions.",
-   "Draw a block diagram of an EV and label each part.",
-   "All main parts named correctly."
+   "A 60 kWh car uses about 15 kWh per 100 km. The motor turns about 90 per cent of battery energy into motion; a petrol engine turns about 30 per cent of fuel energy into motion.",
+   "Draw the energy chain for one named EV type and mark the loss at each step.",
+   "Chain is complete and ordered, losses are shown as percentages, and regenerative braking is explained in one sentence."
   ],
   [
    "Batteries",
    "Understand",
    3,
-   "The battery is the most costly and sensitive part.",
+   "The battery is the costliest and most sensitive part. A buyer must read its size, health and warranty.",
    [
-    "Capacity in kWh; usable capacity is less than total.",
-    "Heat, frequent fast charging and long periods at full or empty age batteries.",
-    "Warranty usually covers years and distance, with a minimum capacity.",
-    "Cold weather reduces range."
+    "Capacity is in kWh; usable capacity is lower than the headline number.",
+    "Heat, deep discharge and constant fast charging age the battery faster.",
+    "Warranty usually states years or kilometres and a minimum health level.",
+    "Cold weather cuts range temporarily; hot weather speeds ageing."
    ],
-   "Keeping daily charge between 20 and 80 per cent when possible can slow ageing. Preheating the cabin while plugged in saves range.",
-   "Summarise battery care in five tips.",
-   "Tips are accurate and practical."
+   "A battery with 60 kWh capacity and 90 per cent health holds 54 kWh. A warranty to 70 per cent health after 8 years is a better promise than a warranty with no health level.",
+   "Read a sample warranty and list capacity, health level, years and kilometre limit.",
+   "All four facts are extracted correctly and one question for the seller is written."
   ],
   [
    "Charging levels and time",
    "Apply",
    4,
-   "Charging speed depends on power.",
+   "Time to charge depends on power. Home, work and route charging suit different users.",
    [
-    "Slow home charging (around 3 to 7 kW), faster wallbox and public DC fast chargers.",
-    "Time = energy needed / charging power plus losses.",
-    "Plug types and compatibility vary by region.",
-    "Charging to 80 per cent is fastest; the last 20 per cent is slow."
+    "Time in hours = energy needed / charging power, with about 10 per cent loss.",
+    "Slow home points give 2 to 7 kW; fast route chargers give 50 kW and more.",
+    "Cars limit their own intake as the battery fills, so the last 20 per cent is slow.",
+    "Match the charging place to where the car sits longest."
    ],
-   "To add 30 kWh at 7 kW takes about 4.3 hours plus 10 per cent losses, so roughly 4.7 hours.",
-   "Calculate three charge times for different chargers.",
-   "Maths correct."
+   "Adding 30 kWh at 7 kW takes 30 / 7 x 1.1 = 4.7 hours, so overnight home charging fits. At 50 kW the same energy takes about 40 minutes.",
+   "Calculate charging time for one user at home and at a route charger.",
+   "Both times are shown with the formula and the 10 per cent loss; the right place is chosen with a reason."
   ],
   [
    "Running cost comparison",
    "Analyse",
    4,
-   "Compare fairly with a petrol or diesel car.",
+   "Compare fairly: energy, servicing, insurance, tax and the price difference.",
    [
-    "EV cost per 100 km = kWh per 100 km x price per kWh.",
-    "Petrol cost per 100 km = litres per 100 km x price per litre.",
-    "Add service, insurance, tax and depreciation.",
-    "Include home charger cost and public charging mix."
+    "Cost per km = price per unit of energy x energy per km.",
+    "Add servicing, insurance, tax and parking for both cars.",
+    "Include purchase price difference and how many years the user will keep the car.",
+    "State clearly what is a measured number and what is an assumption."
    ],
-   "EV: 15 kWh x 8 INR = 120 INR per 100 km. Petrol: 7 L x 100 INR = 700 INR per 100 km.",
-   "Compare for your place and daily distance.",
-   "Currency shown and sources listed."
+   "A user drives 12,000 km a year. Electric: 15 kWh per 100 km at 8 per kWh costs 1.2 per km, 14,400 a year. Petrol: 6 litres per 100 km at 100 per litre costs 6 per km, 72,000 a year. The saving is 57,600 a year.",
+   "Build a five-year cost table for one EV and one petrol car.",
+   "Totals add up, assumptions are listed, and break-even year is stated."
   ],
   [
    "Real-world range",
    "Evaluate",
    3,
-   "Label range is not what you get every day.",
+   "Label range is measured in set conditions. Real range moves with speed, load, weather and use of air conditioning.",
    [
-    "Speed, temperature, load, hills and tyres change range.",
-    "Plan trips with charger stops and keep a reserve.",
-    "Use route planners that include chargers.",
-    "Understand winter effects."
+    "Highway speed and cold weather cut range most.",
+    "Heavy loads and hills use more energy; downhill braking gives some back.",
+    "Plan with a margin: use about 80 per cent of label range.",
+    "Check route chargers before long trips."
    ],
-   "Cold weather and highway driving cut range by about 25 per cent. A 400 km range car plans for 300 km on a winter highway trip.",
-   "Plan a 300 km trip with stops.",
-   "Charging stops and reserve listed."
+   "A car with 400 km label range gives about 320 km usable. In winter on a highway it may give 250 km. A 280 km trip needs a charging stop.",
+   "Plan one trip and decide if a stop is needed.",
+   "Margin is applied, weather is considered, and the stop plan names where and how long."
   ],
   [
    "Safety",
    "Apply",
    4,
-   "High voltage demands respect.",
+   "High voltage needs respect, from driver to emergency crew.",
    [
-    "Orange cables are high voltage; only trained technicians work on them.",
-    "Rescue sheets help emergency services.",
-    "Never charge with damaged cables or connectors.",
-    "Keep a fire plan for charging areas."
+    "Orange cables mark high voltage; only trained people work on them.",
+    "Cars have isolation systems that disconnect the battery in a crash.",
+    "Never charge with damaged cables or in standing water.",
+    "Fire services need clear information on the car type and battery position."
    ],
-   "A warning light for battery damage means stop and call the maker or a trained technician.",
-   "Write a one-page safety card.",
-   "Mentor approves the card."
+   "A flooded car is not touched or charged. It is reported, isolated outdoors and checked by a trained technician before use.",
+   "Write a ten-line safety card for a new owner.",
+   "Card covers charging, damage, flooding and what to tell responders, in plain words."
   ],
   [
    "Battery end of life",
    "Evaluate",
    3,
-   "Plan for reuse and recycling.",
+   "A battery is still valuable when it can no longer power a car.",
    [
-    "Second-life use in storage for buildings.",
-    "Recycling recovers metals.",
-    "Check collection programmes.",
-    "Avoid illegal dumping."
+    "Below about 70 to 80 per cent health a car battery may serve as home or shop storage.",
+    "Recycling recovers metals; collect through approved centres only.",
+    "Ask the maker or seller about take-back.",
+    "Never dismantle at home."
    ],
-   "An old pack with 70 per cent capacity powers a shop's backup system for several more years.",
-   "Describe three end-of-life options.",
-   "Options are realistic."
+   "A battery at 72 per cent health still stores 43 kWh from a 60 kWh pack. It can back up a small shop for years before recycling.",
+   "Write a three-step plan for a battery at the end of its car life.",
+   "Plan names reuse, recycling route and who is responsible."
   ],
   [
    "Write the advice sheet",
    "Create",
    3,
-   "Give honest advice to a buyer or fleet.",
+   "Bring the work together as one honest sheet for a named user.",
    [
-    "State fit: daily distance, home charging, budget.",
-    "List cons as well as pros.",
-    "Show assumptions and sources.",
-    "Review after six months."
+    "Start with the user: distance, budget, parking, charging access.",
+    "Show the cost table, range plan and charging plan.",
+    "State one risk and one limit in plain words.",
+    "End with a clear recommendation and what would change it."
    ],
-   "The advice says an EV suits a commuter with home charging but not a user with no parking.",
-   "Write the sheet.",
-   "Reader can decide."
+   "For a user with home parking, 30 km daily trips and one 300 km trip a month, the sheet recommends the EV and a hire car or a charging stop for the long trip.",
+   "Produce the full one-page advice sheet.",
+   "All parts are present, numbers are consistent, and a reader can act on it without help."
   ]
  ],
  "quiz": [
   [
    "What does regen braking do?",
-   "Returns some energy to the battery. (Covered in module 1: How an electric vehicle works. To pass that module: All main parts named correctly.)"
+   "Returns some energy to the battery. (Covered in module 1: How an electric vehicle works. To pass that module: Chain is complete and ordered, losses are shown as percentages, and regenerative braking is explained in one sentence.)"
   ],
   [
    "Charging time formula?",
-   "Energy / power plus losses. (Covered in module 2: Batteries. To pass that module: Tips are accurate and practical.)"
+   "Energy / power plus losses. (Covered in module 2: Batteries. To pass that module: All four facts are extracted correctly and one question for the seller is written.)"
   ],
   [
    "Name a battery ageing factor.",
-   "Heat or frequent fast charging. (Covered in module 3: Charging levels and time. To pass that module: Maths correct.)"
+   "Heat or frequent fast charging. (Covered in module 3: Charging levels and time. To pass that module: Both times are shown with the formula and the 10 per cent loss; the right place is chosen with a reason.)"
   ],
   [
    "Who works on orange cables?",
-   "Trained technicians. (Covered in module 4: Running cost comparison. To pass that module: Currency shown and sources listed.)"
+   "Trained technicians. (Covered in module 4: Running cost comparison. To pass that module: Totals add up, assumptions are listed, and break-even year is stated.)"
   ],
   [
    "What affects range?",
-   "Speed, temperature, load, hills. (Covered in module 5: Real-world range. To pass that module: Charging stops and reserve listed.)"
+   "Speed, temperature, load, hills. (Covered in module 5: Real-world range. To pass that module: Margin is applied, weather is considered, and the stop plan names where and how long.)"
   ],
   [
    "EV running cost steps?",
-   "kWh per 100 km x price per kWh. (Covered in module 6: Safety. To pass that module: Mentor approves the card.)"
+   "kWh per 100 km x price per kWh. (Covered in module 6: Safety. To pass that module: Card covers charging, damage, flooding and what to tell responders, in plain words.)"
   ],
   [
    "Name an end-of-life option.",
-   "Second life or recycling. (Covered in module 7: Battery end of life. To pass that module: Options are realistic.)"
+   "Second life or recycling. (Covered in module 7: Battery end of life. To pass that module: Plan names reuse, recycling route and who is responsible.)"
   ],
   [
    "Why keep a reserve?",
-   "Range varies. (Covered in module 8: Write the advice sheet. To pass that module: Reader can decide.)"
+   "Range varies. (Covered in module 8: Write the advice sheet. To pass that module: All parts are present, numbers are consistent, and a reader can act on it without help.)"
   ],
   [
    "What costs besides fuel?",
-   "Service, insurance, tax, depreciation. (Covered in module 8: Write the advice sheet. To pass that module: Reader can decide.)"
+   "Service, insurance, tax, depreciation. (Covered in module 8: Write the advice sheet. To pass that module: All parts are present, numbers are consistent, and a reader can act on it without help.)"
   ],
   [
    "What is usable capacity?",
-   "Less than the label capacity. (Covered in module 8: Write the advice sheet. To pass that module: Reader can decide.)"
+   "Less than the label capacity. (Covered in module 8: Write the advice sheet. To pass that module: All parts are present, numbers are consistent, and a reader can act on it without help.)"
   ]
  ],
  "rubric": [
@@ -254,38 +254,38 @@
  "ladder": [
   [
    "How an electric vehicle works",
-   "L1: learner can name EV parts. Focus module: How an electric vehicle works (Understand, 3 h). An electric vehicle stores energy in a battery and uses an electric motor to turn the wheels. Key points: Parts: battery pack, inverter, motor, onboard charger, controller, thermal system. Regenerative braking returns some energy to the battery. Energy use is measured in kWh per 100 km. No exhaust emissions at the vehicle; total emissions depend on how electricity is made.",
-   "Teach: open with the worked example. A car that uses 15 kWh per 100 km and has a 60 kWh battery can travel about 400 km in ideal conditions. Then set the activity: Draw a block diagram of an EV and label each part. Mark against the standard: All main parts named correctly. Check at this level: What does regen braking do? Model answer: Returns some energy to the battery."
+   "L1: learner can name EV parts. Focus module: How an electric vehicle works (Understand, 3 h). An electric car swaps the engine, fuel tank and gearbox for a battery, a motor and a controller. Knowing the chain lets you explain every cost and limit later. Key points: Energy flows battery to controller to motor to wheels; braking sends some energy back to the battery. A motor gives full pull from a standstill, so the car feels quick and quiet with one gear. A small battery runs lights, screens and cooling; the traction battery drives the wheels. Fewer moving parts means fewer routine services, but tyres, brakes and suspension still wear.",
+   "Teach: open with the worked example. A 60 kWh car uses about 15 kWh per 100 km. The motor turns about 90 per cent of battery energy into motion; a petrol engine turns about 30 per cent of fuel energy into motion. Then set the activity: Draw the energy chain for one named EV type and mark the loss at each step. Mark against the standard: Chain is complete and ordered, losses are shown as percentages, and regenerative braking is explained in one sentence. Check at this level: What does regen braking do? Model answer: Returns some energy to the battery."
   ],
   [
    "Batteries",
-   "L2: learner knows safety basics. Focus module: Batteries (Understand, 3 h). The battery is the most costly and sensitive part. Key points: Capacity in kWh; usable capacity is less than total. Heat, frequent fast charging and long periods at full or empty age batteries. Warranty usually covers years and distance, with a minimum capacity. Cold weather reduces range.",
-   "Teach: open with the worked example. Keeping daily charge between 20 and 80 per cent when possible can slow ageing. Preheating the cabin while plugged in saves range. Then set the activity: Summarise battery care in five tips. Mark against the standard: Tips are accurate and practical. Check at this level: Charging time formula? Model answer: Energy / power plus losses."
+   "L2: learner knows safety basics. Focus module: Batteries (Understand, 3 h). The battery is the costliest and most sensitive part. A buyer must read its size, health and warranty. Key points: Capacity is in kWh; usable capacity is lower than the headline number. Heat, deep discharge and constant fast charging age the battery faster. Warranty usually states years or kilometres and a minimum health level. Cold weather cuts range temporarily; hot weather speeds ageing.",
+   "Teach: open with the worked example. A battery with 60 kWh capacity and 90 per cent health holds 54 kWh. A warranty to 70 per cent health after 8 years is a better promise than a warranty with no health level. Then set the activity: Read a sample warranty and list capacity, health level, years and kilometre limit. Mark against the standard: All four facts are extracted correctly and one question for the seller is written. Check at this level: Charging time formula? Model answer: Energy / power plus losses."
   ],
   [
    "Charging levels and time",
-   "L3: learner can calculate charge times. Focus module: Charging levels and time (Apply, 4 h). Charging speed depends on power. Key points: Slow home charging (around 3 to 7 kW), faster wallbox and public DC fast chargers. Time = energy needed / charging power plus losses. Plug types and compatibility vary by region. Charging to 80 per cent is fastest; the last 20 per cent is slow.",
-   "Teach: open with the worked example. To add 30 kWh at 7 kW takes about 4.3 hours plus 10 per cent losses, so roughly 4.7 hours. Then set the activity: Calculate three charge times for different chargers. Mark against the standard: Maths correct. Check at this level: Name a battery ageing factor. Model answer: Heat or frequent fast charging."
+   "L3: learner can calculate charge times. Focus module: Charging levels and time (Apply, 4 h). Time to charge depends on power. Home, work and route charging suit different users. Key points: Time in hours = energy needed / charging power, with about 10 per cent loss. Slow home points give 2 to 7 kW; fast route chargers give 50 kW and more. Cars limit their own intake as the battery fills, so the last 20 per cent is slow. Match the charging place to where the car sits longest.",
+   "Teach: open with the worked example. Adding 30 kWh at 7 kW takes 30 / 7 x 1.1 = 4.7 hours, so overnight home charging fits. At 50 kW the same energy takes about 40 minutes. Then set the activity: Calculate charging time for one user at home and at a route charger. Mark against the standard: Both times are shown with the formula and the 10 per cent loss; the right place is chosen with a reason. Check at this level: Name a battery ageing factor. Model answer: Heat or frequent fast charging."
   ],
   [
    "Running cost comparison",
-   "L4: learner can compare costs. Focus module: Running cost comparison (Analyse, 4 h). Compare fairly with a petrol or diesel car. Key points: EV cost per 100 km = kWh per 100 km x price per kWh. Petrol cost per 100 km = litres per 100 km x price per litre. Add service, insurance, tax and depreciation. Include home charger cost and public charging mix.",
-   "Teach: open with the worked example. EV: 15 kWh x 8 INR = 120 INR per 100 km. Petrol: 7 L x 100 INR = 700 INR per 100 km. Then set the activity: Compare for your place and daily distance. Mark against the standard: Currency shown and sources listed. Check at this level: Who works on orange cables? Model answer: Trained technicians."
+   "L4: learner can compare costs. Focus module: Running cost comparison (Analyse, 4 h). Compare fairly: energy, servicing, insurance, tax and the price difference. Key points: Cost per km = price per unit of energy x energy per km. Add servicing, insurance, tax and parking for both cars. Include purchase price difference and how many years the user will keep the car. State clearly what is a measured number and what is an assumption.",
+   "Teach: open with the worked example. A user drives 12,000 km a year. Electric: 15 kWh per 100 km at 8 per kWh costs 1.2 per km, 14,400 a year. Petrol: 6 litres per 100 km at 100 per litre costs 6 per km, 72,000 a year. The saving is 57,600 a year. Then set the activity: Build a five-year cost table for one EV and one petrol car. Mark against the standard: Totals add up, assumptions are listed, and break-even year is stated. Check at this level: Who works on orange cables? Model answer: Trained technicians."
   ],
   [
    "Real-world range",
-   "L5: learner can plan trips. Focus module: Real-world range (Evaluate, 3 h). Label range is not what you get every day. Key points: Speed, temperature, load, hills and tyres change range. Plan trips with charger stops and keep a reserve. Use route planners that include chargers. Understand winter effects.",
-   "Teach: open with the worked example. Cold weather and highway driving cut range by about 25 per cent. A 400 km range car plans for 300 km on a winter highway trip. Then set the activity: Plan a 300 km trip with stops. Mark against the standard: Charging stops and reserve listed. Check at this level: What affects range? Model answer: Speed, temperature, load, hills."
+   "L5: learner can plan trips. Focus module: Real-world range (Evaluate, 3 h). Label range is measured in set conditions. Real range moves with speed, load, weather and use of air conditioning. Key points: Highway speed and cold weather cut range most. Heavy loads and hills use more energy; downhill braking gives some back. Plan with a margin: use about 80 per cent of label range. Check route chargers before long trips.",
+   "Teach: open with the worked example. A car with 400 km label range gives about 320 km usable. In winter on a highway it may give 250 km. A 280 km trip needs a charging stop. Then set the activity: Plan one trip and decide if a stop is needed. Mark against the standard: Margin is applied, weather is considered, and the stop plan names where and how long. Check at this level: What affects range? Model answer: Speed, temperature, load, hills."
   ],
   [
    "Battery end of life",
-   "L6: learner can coordinate a fleet. Focus module: Battery end of life (Evaluate, 3 h). Plan for reuse and recycling. Key points: Second-life use in storage for buildings. Recycling recovers metals. Check collection programmes. Avoid illegal dumping.",
-   "Teach: open with the worked example. An old pack with 70 per cent capacity powers a shop's backup system for several more years. Then set the activity: Describe three end-of-life options. Mark against the standard: Options are realistic. Check at this level: EV running cost steps? Model answer: kWh per 100 km x price per kWh."
+   "L6: learner can coordinate a fleet. Focus module: Battery end of life (Evaluate, 3 h). A battery is still valuable when it can no longer power a car. Key points: Below about 70 to 80 per cent health a car battery may serve as home or shop storage. Recycling recovers metals; collect through approved centres only. Ask the maker or seller about take-back. Never dismantle at home.",
+   "Teach: open with the worked example. A battery at 72 per cent health still stores 43 kWh from a 60 kWh pack. It can back up a small shop for years before recycling. Then set the activity: Write a three-step plan for a battery at the end of its car life. Mark against the standard: Plan names reuse, recycling route and who is responsible. Check at this level: EV running cost steps? Model answer: kWh per 100 km x price per kWh."
   ],
   [
    "Write the advice sheet",
-   "L7: learner can audit advice. Focus module: Write the advice sheet (Create, 3 h). Give honest advice to a buyer or fleet. Key points: State fit: daily distance, home charging, budget. List cons as well as pros. Show assumptions and sources. Review after six months.",
-   "Teach: open with the worked example. The advice says an EV suits a commuter with home charging but not a user with no parking. Then set the activity: Write the sheet. Mark against the standard: Reader can decide. Check at this level: Name an end-of-life option. Model answer: Second life or recycling."
+   "L7: learner can audit advice. Focus module: Write the advice sheet (Create, 3 h). Bring the work together as one honest sheet for a named user. Key points: Start with the user: distance, budget, parking, charging access. Show the cost table, range plan and charging plan. State one risk and one limit in plain words. End with a clear recommendation and what would change it.",
+   "Teach: open with the worked example. For a user with home parking, 30 km daily trips and one 300 km trip a month, the sheet recommends the EV and a hire car or a charging stop for the long trip. Then set the activity: Produce the full one-page advice sheet. Mark against the standard: All parts are present, numbers are consistent, and a reader can act on it without help. Check at this level: Name an end-of-life option. Model answer: Second life or recycling."
   ]
  ]
 }
