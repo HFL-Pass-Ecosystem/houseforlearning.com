@@ -1,0 +1,163 @@
+{
+ "price": [
+  4200,
+  1500,
+  9,
+  "site"
+ ],
+ "mods": {
+  "1": {
+   "title": "Understand connectivity gaps",
+   "intro": "Many communities lack affordable, reliable internet. Your work is to find where, why and what would fix it.",
+   "pts": [
+    "Measure before you build: speed test at different times at 10 spots, noting device, place and time.",
+    "Causes of gaps: distance from fibre, cost per household, cost of devices, language and skills, power cuts.",
+    "Choose a first community and list who already serves it.",
+    "Write a need statement with numbers: households, current speed, target speed, monthly price they can pay."
+   ],
+   "ex": "A village of 300 households has 2 Mbps shared at peak. Target 25 Mbps at under 40 a month per home.",
+   "act": "Run speed tests at 10 spots and write a need statement.",
+   "std": "Tests have times and devices recorded."
+  },
+  "2": {
+   "title": "Know telecom and licensing rules",
+   "intro": "Telecom is regulated.",
+   "pts": [
+    "The federal telecom regulator licenses radio spectrum and sets rules for carriers; unlicensed bands have power limits.",
+    "Tower and mast siting needs municipal and sometimes federal approval.",
+    "Customer privacy and emergency-call duties apply to service providers.",
+    "Rural and Indigenous community connectivity programmes have funding conditions; read them early."
+   ],
+   "ex": "Row: 'Use a radio link | federal spectrum rules | stay within licence-exempt limits | before install | equipment certificate'.",
+   "act": "Build a rules table for a small community network.",
+   "std": "Rows sourced and dated."
+  },
+  "3": {
+   "title": "Design a network a community can run",
+   "intro": "Keep it simple and repairable.",
+   "pts": [
+    "Choose last-mile type: fibre, fixed wireless, satellite backhaul with local Wi-Fi.",
+    "Plan backhaul capacity: households x peak use per household.",
+    "Plan power with batteries or solar for outages.",
+    "Document so local people can fix common faults."
+   ],
+   "ex": "100 households x 1.5 Mbps peak each = 150 Mbps backhaul; with 3:1 sharing → 50 Mbps.",
+   "act": "Draw a network plan and compute backhaul.",
+   "std": "Calculation shown."
+  },
+  "4": {
+   "title": "Cost it and set affordable prices",
+   "intro": "Costs per household drive the model.",
+   "pts": [
+    "Capital per household passed vs connected.",
+    "Monthly cost: backhaul, power, support, replacement fund.",
+    "Price tiers and community subsidy.",
+    "Payback and funding sources."
+   ],
+   "ex": "Build cost 4,200 per site; monthly cost per household 25; price 35; margin 10 × 150 homes = 1,500/month. Teaching figures in CAD.",
+   "act": "Build the model with 60% take-up.",
+   "std": "Cases shown."
+  },
+  "5": {
+   "title": "Operate and support",
+   "intro": "Reliability makes trust.",
+   "pts": [
+    "Monitor uptime and speed.",
+    "Local support person with a spare kit.",
+    "Response times published.",
+    "Track complaints."
+   ],
+   "ex": "Uptime 98%; fixed within 1 day in 90% of cases.",
+   "act": "Keep a 4-week ops log.",
+   "std": "Faults and fixes logged."
+  },
+  "6": {
+   "title": "Train users and grow adoption",
+   "intro": "Access is not use.",
+   "pts": [
+    "Offer short classes in local languages.",
+    "Teach safe use, banking and learning platforms.",
+    "Partner with schools and libraries.",
+    "Measure use."
+   ],
+   "ex": "After 8 classes, weekly users rose from 90 to 210.",
+   "act": "Run one class and survey.",
+   "std": "Survey results recorded."
+  },
+  "7": {
+   "title": "Manage safety, privacy and equity",
+   "intro": "Do no harm.",
+   "pts": [
+    "Protect user data; do not read traffic.",
+    "Child-safety tools.",
+    "Fair access and pricing.",
+    "Climate and tower safety."
+   ],
+   "ex": "Policy: 'We log connection times for 30 days only.'",
+   "act": "Write privacy and fair-use notes.",
+   "std": "Plain words."
+  },
+  "8": {
+   "title": "Pilot and sustain",
+   "intro": "Prove one site.",
+   "pts": [
+    "90 days.",
+    "Measure take-up, uptime, satisfaction.",
+    "Stop rule: under 30% take-up in 90 days → redesign.",
+    "Plan sustainability."
+   ],
+   "ex": "Take-up 46%.",
+   "act": "Run pilot review.",
+   "std": "Review has decision."
+  }
+ },
+ "quiz": [
+  [
+   "Why test speed at different times?",
+   "Peak-hour congestion differs from off-peak."
+  ],
+  [
+   "How find backhaul need?",
+   "Households times peak use, adjusted for sharing."
+  ],
+  [
+   "Why use batteries?",
+   "Outages stop service."
+  ],
+  [
+   "Who licenses spectrum?",
+   "The federal telecom regulator."
+  ],
+  [
+   "Why train users?",
+   "Access without skill does not create use."
+  ],
+  [
+   "What is take-up?",
+   "Share of homes that subscribe."
+  ],
+  [
+   "Why keep logs short-term?",
+   "To protect privacy."
+  ],
+  [
+   "What triggers redesign?",
+   "Under 30% take-up in 90 days."
+  ],
+  [
+   "Why a local support person?",
+   "Fast repair and trust."
+  ],
+  [
+   "Name one funding source type.",
+   "Public connectivity programmes or community funds."
+  ]
+ ],
+ "jobs": [
+  "Network technician",
+  "Community digital navigator",
+  "Wireless installer",
+  "Network manager",
+  "Community ISP founder"
+ ]
+}

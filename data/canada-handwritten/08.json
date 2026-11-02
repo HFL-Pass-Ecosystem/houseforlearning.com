@@ -1,0 +1,163 @@
+{
+ "price": [
+  780,
+  520,
+  600,
+  "phone"
+ ],
+ "mods": {
+  "1": {
+   "title": "Define what 'ethical' means for a phone",
+   "intro": "Ethical phones aim for fair labour, responsible minerals, repairability and honest claims.",
+   "pts": [
+    "List the claims you could make: conflict-free minerals, fair wages, repairable design, recycled materials, long updates.",
+    "Rank each by buyer interest and by how easily you can prove it.",
+    "Survey ten buyers: what would you pay extra for, and what would you not believe?",
+    "Write the product promise in one line, with only claims you can prove."
+   ],
+   "ex": "Buyers rank repairability and 7-year updates above 'ethical' branding; promise: 'a phone you can repair and update for seven years'.",
+   "act": "Survey ten buyers and write a provable promise.",
+   "std": "Each claim has a proof plan."
+  },
+  "2": {
+   "title": "Know product, trade and labour rules",
+   "intro": "Electronics have many rules.",
+   "pts": [
+    "Radio and electrical safety approvals are required before sale in Canada; test with an accredited lab.",
+    "Hazardous substances and battery transport have rules.",
+    "Import and customs rules and duties apply to parts and finished goods.",
+    "Supply-chain due diligence laws on forced labour require records of supplier checks; keep them."
+   ],
+   "ex": "Row: 'Sell a phone with a radio | federal radio approval | lab test and certificate | before launch | certificate filed'.",
+   "act": "Build a rules table for importing parts and selling in one province.",
+   "std": "Rows have enforcer, action, date."
+  },
+  "3": {
+   "title": "Design for repair and long life",
+   "intro": "Design decisions fix cost, weight and repair.",
+   "pts": [
+    "Use screws and connectors, not glue, for battery and screen.",
+    "Choose standard ports and modular parts.",
+    "Plan software updates for the promised years and who pays.",
+    "Write the repair guide before the first sale."
+   ],
+   "ex": "A swap of the battery takes 6 minutes with one screwdriver; spare part price listed on the website.",
+   "act": "Write a design brief with a repair-time target and test it on a teardown of any phone.",
+   "std": "Repair time measured."
+  },
+  "4": {
+   "title": "Source ethically and check suppliers",
+   "intro": "Know your suppliers.",
+   "pts": [
+    "Map tiers: assembler, component makers, mineral sources.",
+    "Ask for audit reports and visit where possible.",
+    "Use third-party mineral tracing schemes where they exist.",
+    "Write corrective actions with dates when you find problems."
+   ],
+   "ex": "Audit finds overtime above limits at a supplier; corrective plan gives 60 days and a re-check.",
+   "act": "Build a supplier scorecard for three suppliers.",
+   "std": "Scorecard has evidence and dates."
+  },
+  "5": {
+   "title": "Cost the phone and set the price",
+   "intro": "Costs are bill of materials, assembly, certification, software and support.",
+   "pts": [
+    "Bill of materials per phone, plus assembly and freight.",
+    "Fixed costs: tooling, certification, software team.",
+    "Warranty provision.",
+    "Margin and break-even."
+   ],
+   "ex": "Price 780; cost 520; margin 260 (33%). Fixed cost 1.5M per year → break-even about 5,800 phones. Teaching figures in CAD.",
+   "act": "Build the cost sheet and a +15% parts-cost case.",
+   "std": "Units and currency shown."
+  },
+  "6": {
+   "title": "Sell, support and take back",
+   "intro": "The relationship continues after sale.",
+   "pts": [
+    "Sell direct and through carriers or retailers.",
+    "Support by chat and repair partners.",
+    "Offer trade-in and take-back.",
+    "Publish a yearly supply-chain report."
+   ],
+   "ex": "Take-back rate target 25% in year 2.",
+   "act": "Plan a launch to 100 early customers.",
+   "std": "Plan has support and take-back steps."
+  },
+  "7": {
+   "title": "Handle data, security and greenwashing risk",
+   "intro": "Trust can be lost fast.",
+   "pts": [
+    "Secure boot, updates and privacy by default.",
+    "Avoid vague green words; use measured claims.",
+    "Plan for component shortages.",
+    "Prepare a recall plan."
+   ],
+   "ex": "Risk: 'Chip shortage | 4 x 4 | second source and buffer stock | purchasing | monthly'.",
+   "act": "Write a risk register.",
+   "std": "Rows have owners."
+  },
+  "8": {
+   "title": "Pilot a small run",
+   "intro": "Build 200 units.",
+   "pts": [
+    "Pilot run with early buyers.",
+    "Track failure rate and support tickets.",
+    "Stop rule: return rate over 8% means fix before the next batch.",
+    "Plan the second batch."
+   ],
+   "ex": "Return rate 5.5%; proceed.",
+   "act": "Run the pilot review.",
+   "std": "Review has decision."
+  }
+ },
+ "quiz": [
+  [
+   "Name two ethical phone claims you could prove.",
+   "Repairable design and long software support (or documented supplier audits)."
+  ],
+  [
+   "What approval does a phone with a radio need?",
+   "Federal radio approval from an accredited lab test."
+  ],
+  [
+   "Why write a repair guide early?",
+   "Repairability is a design promise that must be tested."
+  ],
+  [
+   "What is a supplier scorecard?",
+   "A scored record of supplier checks with evidence and dates."
+  ],
+  [
+   "Why avoid vague green words?",
+   "Claims must be measurable and provable."
+  ],
+  [
+   "What is the break-even rule?",
+   "Fixed cost divided by margin per phone."
+  ],
+  [
+   "Why plan take-back?",
+   "To recover materials and keep the ethical promise."
+  ],
+  [
+   "What triggers a fix in the pilot?",
+   "Return rate over 8%."
+  ],
+  [
+   "Why keep audit records?",
+   "Supply-chain laws require proof of checks."
+  ],
+  [
+   "Why diversify chip supply?",
+   "A shortage can stop production."
+  ]
+ ],
+ "jobs": [
+  "Hardware technician",
+  "Supply chain auditor",
+  "Repair technician",
+  "Product manager",
+  "Device start-up founder"
+ ]
+}

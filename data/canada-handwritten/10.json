@@ -1,0 +1,163 @@
+{
+ "price": [
+  18000,
+  11000,
+  12,
+  "charger"
+ ],
+ "mods": {
+  "1": {
+   "title": "Find the right sites for chargers",
+   "intro": "Chargers earn where cars stop for a while and power is available.",
+   "pts": [
+    "Types: home, workplace, destination (1-4 hours), fast (20-40 minutes).",
+    "Site scores: dwell time, traffic, nearby amenities, grid power, safety, cost to connect.",
+    "Visit three sites; count cars parked per hour.",
+    "Write a one-page site pitch to an owner."
+   ],
+   "ex": "Shopping centre: average stay 90 minutes, 60 EV cars a day, grid connection 150 kW available; score 4.2/5.",
+   "act": "Score three sites and choose one.",
+   "std": "Counts recorded."
+  },
+  "2": {
+   "title": "Know electrical and utility rules",
+   "intro": "Charging involves electricity and public safety.",
+   "pts": [
+    "Electrical work follows the provincial code and licensed electricians; permits and inspections are required.",
+    "Utility connection agreements set capacity and timing.",
+    "Accessibility and signage rules apply.",
+    "Selling electricity by the kWh is regulated by province; check how to charge."
+   ],
+   "ex": "Row: 'Install a fast charger | provincial electrical authority | permit and inspection | before energising | inspection certificate'.",
+   "act": "Build a rules table for one site.",
+   "std": "Rows sourced and dated."
+  },
+  "3": {
+   "title": "Plan the installation",
+   "intro": "Capacity and layout come first.",
+   "pts": [
+    "Compute power: number of chargers x kW, with load management to share capacity.",
+    "Plan cables, trenching, lighting and drainage.",
+    "Choose connectors and payment methods that suit local cars.",
+    "Plan remote monitoring."
+   ],
+   "ex": "4 chargers of 50 kW on a 150 kW supply with load sharing: no more than 3 run at full power at once.",
+   "act": "Draw a site layout and load plan.",
+   "std": "Power sums checked."
+  },
+  "4": {
+   "title": "Price charging and prove the business",
+   "intro": "Revenue per kWh, minus power cost and fees.",
+   "pts": [
+    "Energy margin = selling price - energy price - network fees.",
+    "Add idle fees to free the bay.",
+    "Include maintenance, software and site lease.",
+    "Compute payback."
+   ],
+   "ex": "Installed cost 18,000. At 12 sessions a day x 28 kWh x 0.18 margin = about 60 a day, 1,800 a month; less 400 for site, software and upkeep = 1,400 net; payback = 18,000 / 1,400 = about 13 months. Low case, 5 sessions a day: 756 - 400 = 356 net; payback about 51 months. Teaching figures in CAD.",
+   "act": "Build a payback model with a low-use case.",
+   "std": "Three cases shown."
+  },
+  "5": {
+   "title": "Operate reliably",
+   "intro": "Uptime is the product.",
+   "pts": [
+    "Monitor remotely; alert on faults.",
+    "Respond within a set time.",
+    "Clean and inspect monthly.",
+    "Track uptime and sessions."
+   ],
+   "ex": "Uptime 97% target; fault repaired within 24 hours.",
+   "act": "Keep a 4-week uptime log.",
+   "std": "Faults and fixes recorded."
+  },
+  "6": {
+   "title": "Win site hosts and drivers",
+   "intro": "Partners host; drivers return.",
+   "pts": [
+    "Offer revenue share to site owners.",
+    "List on charging maps.",
+    "Offer fleet plans.",
+    "Collect feedback."
+   ],
+   "ex": "Funnel: 20 sites, 6 meetings, 2 agreements.",
+   "act": "Pitch three site owners.",
+   "std": "Pitch has numbers."
+  },
+  "7": {
+   "title": "Manage safety and grid risk",
+   "intro": "Plan for hazards and demand peaks.",
+   "pts": [
+    "Cable and trip hazards, vandalism, weather.",
+    "Peak demand charges.",
+    "Cyber security for chargers.",
+    "Insurance."
+   ],
+   "ex": "Risk: 'Peak demand charge | 3 x 4 | load management | ops | monthly'.",
+   "act": "Write risk register.",
+   "std": "Owners named."
+  },
+  "8": {
+   "title": "Pilot and expand",
+   "intro": "Prove one site.",
+   "pts": [
+    "90 days.",
+    "Measure sessions, kWh, uptime.",
+    "Stop rule: under 3 sessions a day after 60 days means move or adjust price.",
+    "Plan roll-out."
+   ],
+   "ex": "5.2 sessions per day; proceed.",
+   "act": "Run pilot review.",
+   "std": "Review has decision."
+  }
+ },
+ "quiz": [
+  [
+   "Why share load across chargers?",
+   "To stay within site capacity."
+  ],
+  [
+   "What is dwell time?",
+   "How long a car stays parked."
+  ],
+  [
+   "Who may do the electrical work?",
+   "Licensed electricians with permits and inspection."
+  ],
+  [
+   "What is energy margin?",
+   "Selling price minus energy price and fees."
+  ],
+  [
+   "Why charge idle fees?",
+   "To free the bay for others."
+  ],
+  [
+   "What should uptime target be?",
+   "About 97% or better, with repair inside 24 hours."
+  ],
+  [
+   "Why monitor remotely?",
+   "To catch faults early."
+  ],
+  [
+   "What is a demand charge?",
+   "A fee based on peak power drawn."
+  ],
+  [
+   "What triggers a move?",
+   "Under 3 sessions a day after 60 days."
+  ],
+  [
+   "Why insure?",
+   "Liability and equipment damage."
+  ]
+ ],
+ "jobs": [
+  "Charging technician",
+  "Electrical apprentice",
+  "Network operations coordinator",
+  "Site development manager",
+  "Charging business owner"
+ ]
+}

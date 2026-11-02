@@ -1,0 +1,163 @@
+{
+ "price": [
+  145,
+  70,
+  2000,
+  "sensor"
+ ],
+ "mods": {
+  "1": {
+   "title": "Identify what sensors must measure",
+   "intro": "Industrial sensors turn physical conditions into numbers used for control and safety.",
+   "pts": [
+    "Common signals: temperature, pressure, flow, level, vibration, gas.",
+    "Match accuracy, range and environment to the job: heat, wash-down, dust, explosive atmosphere.",
+    "Ask users what a wrong reading costs and what accuracy they need.",
+    "Pick one sensor type for your first product."
+   ],
+   "ex": "A cold-room temperature sensor needs plus or minus 0.5 degrees C from -30 to +10; wrong readings spoil stock worth 40,000.",
+   "act": "Interview three plant users and write a requirement sheet.",
+   "std": "Requirements have units and limits."
+  },
+  "2": {
+   "title": "Know product safety and approval rules",
+   "intro": "Industrial products must be safe and legal.",
+   "pts": [
+    "Electrical safety approvals by an accredited body are normally required.",
+    "Equipment for explosive atmospheres needs special certification.",
+    "Radio modules need radio approval.",
+    "Calibration claims need traceable standards."
+   ],
+   "ex": "Row: 'Sell a sensor into a gas plant | hazardous-location certification | certify | before sale | certificate'.",
+   "act": "Build a rules table for one sensor.",
+   "std": "Rows sourced and dated."
+  },
+  "3": {
+   "title": "Design, build and calibrate",
+   "intro": "Accuracy comes from design and calibration.",
+   "pts": [
+    "Choose a sensing element and a stable circuit.",
+    "Calibrate at several points against a reference.",
+    "Test for temperature drift and noise.",
+    "Write the data sheet from measured results."
+   ],
+   "ex": "Reference 20.00; sensor reads 20.4 at three points; offset corrected; error after calibration plus or minus 0.1.",
+   "act": "Calibrate a sensor at three points and record error.",
+   "std": "Error computed."
+  },
+  "4": {
+   "title": "Cost and price the product",
+   "intro": "Volume matters.",
+   "pts": [
+    "Parts, assembly, test and calibration time.",
+    "Certification amortised over units.",
+    "Warranty and returns.",
+    "Price and margin."
+   ],
+   "ex": "Price 145; cost 70; margin 75 (52%); fixed cost 150,000 → break-even 2,000 sensors. Teaching figures in CAD.",
+   "act": "Build cost sheet with low-volume case.",
+   "std": "Both cases shown."
+  },
+  "5": {
+   "title": "Control production quality",
+   "intro": "Every unit must be tested.",
+   "pts": [
+    "Incoming parts check.",
+    "End-of-line test with pass limits.",
+    "Traceability by serial number.",
+    "Track first-pass yield."
+   ],
+   "ex": "Yield 94%; main fail: solder joint; fix: reflow profile.",
+   "act": "Design a test sheet.",
+   "std": "Limits and sign-off."
+  },
+  "6": {
+   "title": "Sell and support",
+   "intro": "Industrial buyers want proof.",
+   "pts": [
+    "Offer evaluation units.",
+    "Provide integration notes for common controllers.",
+    "Quick response support.",
+    "Reference customers."
+   ],
+   "ex": "Funnel: 15 plants, 6 evaluations, 3 orders.",
+   "act": "Pitch three plants.",
+   "std": "Pitch has data."
+  },
+  "7": {
+   "title": "Manage cyber and safety risk",
+   "intro": "Connected sensors can be attacked.",
+   "pts": [
+    "Secure firmware updates.",
+    "Unique credentials per device.",
+    "Fail-safe behaviour on fault.",
+    "Document known limits."
+   ],
+   "ex": "Risk: 'Default password found | 3 x 5 | unique keys | firmware lead | each release'.",
+   "act": "Write a risk register.",
+   "std": "Owners named."
+  },
+  "8": {
+   "title": "Pilot with a customer",
+   "intro": "Prove it in real conditions.",
+   "pts": [
+    "Install 20 sensors for 90 days.",
+    "Compare with reference readings.",
+    "Stop rule: drift above spec means redesign.",
+    "Plan production."
+   ],
+   "ex": "Drift 0.15, within spec; proceed.",
+   "act": "Run pilot review.",
+   "std": "Review has decision."
+  }
+ },
+ "quiz": [
+  [
+   "Name three industrial signals.",
+   "Temperature, pressure, flow (also level, vibration, gas)."
+  ],
+  [
+   "Why calibrate at several points?",
+   "To find and correct errors across the range."
+  ],
+  [
+   "What does a data sheet state?",
+   "Measured accuracy, range and conditions."
+  ],
+  [
+   "Why unique device credentials?",
+   "Default passwords are an attack path."
+  ],
+  [
+   "What is first-pass yield?",
+   "Units passing test the first time."
+  ],
+  [
+   "When is special certification needed?",
+   "In explosive atmospheres."
+  ],
+  [
+   "Why offer evaluation units?",
+   "Buyers want proof in their plant."
+  ],
+  [
+   "What is drift?",
+   "Slow change in reading over time or temperature."
+  ],
+  [
+   "What triggers redesign?",
+   "Drift above specification."
+  ],
+  [
+   "What is break-even?",
+   "Fixed cost divided by margin per sensor."
+  ]
+ ],
+ "jobs": [
+  "Sensor technician",
+  "Test engineer",
+  "Calibration technician",
+  "Product engineer",
+  "Sensor company founder"
+ ]
+}

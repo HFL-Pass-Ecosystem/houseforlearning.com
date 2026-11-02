@@ -54,7 +54,7 @@
     "Model three cases: poor, expected, strong.",
     "Be clear about fees and carried interest."
    ],
-   "ex": "Invest 500,000 in 10 companies; 6 return 0, 3 return 1x, 1 returns 8x: total = 3 x 50,000 + 8 x 50,000... = 550,000 → 1.1x. Teaching figures.",
+   "ex": "Invest 500,000 across 10 companies at 50,000 each. Outcomes: 6 return nothing, 3 return 50,000 each, 1 returns 400,000 (8x). Total back = 150,000 + 400,000 = 550,000, which is 1.1x before fees. Teaching figures: one big winner decides the result.",
    "act": "Build a three-case return table.",
    "std": "Fees and assumptions shown."
   },
