@@ -3,7 +3,7 @@
 Data: tools/india_data_*.py each define COURSES = [dict(...)]. Run: python3 tools/flagship_in.py"""
 import sys, re, pathlib, html, glob, importlib.util
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
-import build_full_courses as B
+import build_full_courses as B, loc_risk as RK
 e = html.escape
 LN = ['L1 Basic','L2 Awareness','L3 Foundation','L4 Practitioner','L5 Specialist','L6 Advanced','L7 Super expert']
 INL = {}
@@ -70,7 +70,7 @@ def build(c, n):
         + B.sec('alt', 'lc', 'ten locations and global', 'Your place', '<p>Local rules change licences, data handling, pricing words and names of bodies. Check them for your place before you act.</p>'
                 + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Currency: {L["cur"]}. Data rule for what you publish: {e(L["data"])}. Skills frame to cite: {e(L["frame"])}.</p></details>' for L in B.LOC)
                 + f'<details class="loc"><summary>Russian Federation</summary><p>{e(B.RUSSIA)}</p></details>')
-        + B.sec('', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship. Own wording. Not live.</p>' + PRICE_NOTE * bool(re.search(r'\bRs\.? ?\d', str(c) + booklet(c)))))
+        + B.sec('', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship. Own wording. Not live.</p>' + PRICE_NOTE * bool(re.search(r'\bRs\.? ?\d', str(c) + booklet(c))) + RK.note('in', f'{n:02d}-{c["slug"]}', e)))
     fn = f'learn-flagship-in-{n:02d}-{c["slug"]}.html'
     B.page(fn, c['title'] + ' (flagship course, India)', c['summary'][:150], c['title'], e(c['summary']), body, B.crumb(('Courses', 'courses-hub.html'), ('India flagship', 'learn-flagship-in.html'), (c['title'], None)), kicker='flagship course')
     pg = B.S / fn; t = pg.read_text()  # same line break as tools/add_series_gate.py: a rebuild leaves unchanged pages unchanged

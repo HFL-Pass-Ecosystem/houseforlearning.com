@@ -1,0 +1,361 @@
+{
+ "status": "ESTIMATES from the local price sheets (ahfl-workspace price-review/local), not sourced, not proofread by a person. Only courses with a thin margin or no break-even after a 25% price fall.",
+ "rows": {
+  "mx": {
+   "3d-home-building": {
+    "unit": "square metre of shell built",
+    "cur": "MXN",
+    "price": 5800,
+    "cost": 4600,
+    "fixed": 60000,
+    "margin": 20.7,
+    "be": 50,
+    "be25": null,
+    "low": 4350.0
+   },
+   "alternative-protein-food-products": {
+    "unit": "250 g pack",
+    "cur": "MXN",
+    "price": 90,
+    "cost": 60,
+    "fixed": 55000,
+    "margin": 33.3,
+    "be": 1834,
+    "be25": 7334,
+    "low": 67.5
+   },
+   "biofuel-production": {
+    "unit": "litre of biofuel",
+    "cur": "MXN",
+    "price": 20,
+    "cost": 14,
+    "fixed": 30000,
+    "margin": 30.0,
+    "be": 5000,
+    "be25": 30000,
+    "low": 15.0
+   },
+   "biometric-sensor-security-company": {
+    "unit": "door set installed",
+    "cur": "MXN",
+    "price": 7500,
+    "cost": 5000,
+    "fixed": 30000,
+    "margin": 33.3,
+    "be": 12,
+    "be25": 48,
+    "low": 5625.0
+   },
+   "boat-helicopter-tourism": {
+    "unit": "passenger per boat trip",
+    "cur": "MXN",
+    "price": 900,
+    "cost": 650,
+    "fixed": 40000,
+    "margin": 27.8,
+    "be": 160,
+    "be25": 1600,
+    "low": 675.0
+   },
+   "box-subscription-services": {
+    "unit": "box shipped",
+    "cur": "MXN",
+    "price": 550,
+    "cost": 380,
+    "fixed": 18000,
+    "margin": 30.9,
+    "be": 106,
+    "be25": 554,
+    "low": 412.5
+   },
+   "bpo": {
+    "unit": "agent working day",
+    "cur": "MXN",
+    "price": 1100,
+    "cost": 850,
+    "fixed": 45000,
+    "margin": 22.7,
+    "be": 180,
+    "be25": null,
+    "low": 825.0
+   },
+   "car-charging-stations": {
+    "unit": "charging session",
+    "cur": "MXN",
+    "price": 120,
+    "cost": 85,
+    "fixed": 15000,
+    "margin": 29.2,
+    "be": 429,
+    "be25": 3000,
+    "low": 90.0
+   },
+   "car-sharing": {
+    "unit": "rental day",
+    "cur": "MXN",
+    "price": 1100,
+    "cost": 750,
+    "fixed": 80000,
+    "margin": 31.8,
+    "be": 229,
+    "be25": 1067,
+    "low": 825.0
+   },
+   "ecommerce": {
+    "unit": "order shipped",
+    "cur": "MXN",
+    "price": 450,
+    "cost": 320,
+    "fixed": 14000,
+    "margin": 28.9,
+    "be": 108,
+    "be25": 800,
+    "low": 337.5
+   },
+   "greenhouse-gas-auditor": {
+    "unit": "audit completed",
+    "cur": "MXN",
+    "price": 38000,
+    "cost": 26000,
+    "fixed": 28000,
+    "margin": 31.6,
+    "be": 3,
+    "be25": 12,
+    "low": 28500.0
+   },
+   "grow-meat-in-a-lab": {
+    "unit": "kg pilot output",
+    "cur": "MXN",
+    "price": 3000,
+    "cost": 2100,
+    "fixed": 60000,
+    "margin": 30.0,
+    "be": 67,
+    "be25": 400,
+    "low": 2250.0
+   },
+   "mobile-app-testing": {
+    "unit": "tester day",
+    "cur": "MXN",
+    "price": 3200,
+    "cost": 2300,
+    "fixed": 28000,
+    "margin": 28.1,
+    "be": 32,
+    "be25": 280,
+    "low": 2400.0
+   },
+   "nanosatellites": {
+    "unit": "image order delivered",
+    "cur": "MXN",
+    "price": 14000,
+    "cost": 9500,
+    "fixed": 120000,
+    "margin": 32.1,
+    "be": 27,
+    "be25": 120,
+    "low": 10500.0
+   },
+   "online-car-dealership": {
+    "unit": "car sold",
+    "cur": "MXN",
+    "price": 190000,
+    "cost": 178000,
+    "fixed": 55000,
+    "margin": 6.3,
+    "be": 5,
+    "be25": null,
+    "low": 142500.0
+   },
+   "online-medical-supply": {
+    "unit": "order delivered",
+    "cur": "MXN",
+    "price": 700,
+    "cost": 520,
+    "fixed": 28000,
+    "margin": 25.7,
+    "be": 156,
+    "be25": 5600,
+    "low": 525.0
+   },
+   "plastic-alternatives": {
+    "unit": "100 pieces made",
+    "cur": "MXN",
+    "price": 700,
+    "cost": 520,
+    "fixed": 48000,
+    "margin": 25.7,
+    "be": 267,
+    "be25": 9600,
+    "low": 525.0
+   },
+   "portable-charging-station": {
+    "unit": "unit sold",
+    "cur": "MXN",
+    "price": 620,
+    "cost": 430,
+    "fixed": 20000,
+    "margin": 30.6,
+    "be": 106,
+    "be25": 572,
+    "low": 465.0
+   },
+   "privacy-protection-firm": {
+    "unit": "project delivered",
+    "cur": "MXN",
+    "price": 17000,
+    "cost": 11500,
+    "fixed": 28000,
+    "margin": 32.4,
+    "be": 6,
+    "be25": 23,
+    "low": 12750.0
+   },
+   "selling-ppe": {
+    "unit": "pack of 50 masks",
+    "cur": "MXN",
+    "price": 210,
+    "cost": 155,
+    "fixed": 14000,
+    "margin": 26.2,
+    "be": 255,
+    "be25": 5600,
+    "low": 157.5
+   },
+   "solar": {
+    "unit": "kW installed",
+    "cur": "MXN",
+    "price": 26000,
+    "cost": 19000,
+    "fixed": 40000,
+    "margin": 26.9,
+    "be": 6,
+    "be25": 80,
+    "low": 19500.0
+   },
+   "space-tourism": {
+    "unit": "participant experience",
+    "cur": "MXN",
+    "price": 4800,
+    "cost": 3600,
+    "fixed": 48000,
+    "margin": 25.0,
+    "be": 40,
+    "be25": null,
+    "low": 3600.0
+   },
+   "vertical-farming": {
+    "unit": "kg of greens",
+    "cur": "MXN",
+    "price": 140,
+    "cost": 95,
+    "fixed": 36000,
+    "margin": 32.1,
+    "be": 800,
+    "be25": 3600,
+    "low": 105.0
+   }
+  },
+  "in": {
+   "02-electronics": {
+    "unit": "board assembled and tested",
+    "cur": "INR",
+    "price": 1500,
+    "cost": 1000,
+    "fixed": 45000,
+    "margin": 33.3,
+    "be": 90,
+    "be25": 360,
+    "low": 1125.0
+   },
+   "05-childcare": {
+    "unit": "product sold",
+    "cur": "INR",
+    "price": 900,
+    "cost": 600,
+    "fixed": 30000,
+    "margin": 33.3,
+    "be": 100,
+    "be25": 400,
+    "low": 675.0
+   },
+   "09-home-improvement": {
+    "unit": "repair job",
+    "cur": "INR",
+    "price": 3500,
+    "cost": 2300,
+    "fixed": 15000,
+    "margin": 34.3,
+    "be": 13,
+    "be25": 47,
+    "low": 2625.0
+   },
+   "25-food-processing": {
+    "unit": "jar sold",
+    "cur": "INR",
+    "price": 280,
+    "cost": 209,
+    "fixed": 18700,
+    "margin": 25.4,
+    "be": 264,
+    "be25": 18700,
+    "low": 210.0
+   },
+   "26-textiles": {
+    "unit": "metre of fabric sold",
+    "cur": "INR",
+    "price": 480,
+    "cost": 340,
+    "fixed": 120000,
+    "margin": 29.2,
+    "be": 858,
+    "be25": 6000,
+    "low": 360.0
+   },
+   "28-minerals-and-resource-management": {
+    "unit": "tonne sold",
+    "cur": "INR",
+    "price": 2800,
+    "cost": 2100,
+    "fixed": 250000,
+    "margin": 25.0,
+    "be": 358,
+    "be25": null,
+    "low": 2100.0
+   },
+   "29-waste-management": {
+    "unit": "tonne processed",
+    "cur": "INR",
+    "price": 3000,
+    "cost": 2000,
+    "fixed": 120000,
+    "margin": 33.3,
+    "be": 120,
+    "be25": 480,
+    "low": 2250.0
+   },
+   "31-tourism-and-hospitality": {
+    "unit": "guest served",
+    "cur": "INR",
+    "price": 1300,
+    "cost": 900,
+    "fixed": 40000,
+    "margin": 30.8,
+    "be": 100,
+    "be25": 534,
+    "low": 975.0
+   },
+   "35-advanced-waste-management": {
+    "unit": "tonne processed",
+    "cur": "INR",
+    "price": 4500,
+    "cost": 3200,
+    "fixed": 300000,
+    "margin": 28.9,
+    "be": 231,
+    "be25": 1715,
+    "low": 3375.0
+   }
+  }
+ }
+}
