@@ -1,0 +1,108 @@
+{
+ "module8": [
+  "Tenant health audit and admin handover",
+  "Evaluate",
+  4,
+  "Once the tenant is running, an audit shows what has drifted. A good handover lets a new admin take over without surprises.",
+  [
+   "Audit users and roles: find unused accounts, shared passwords and too many top-level admins.",
+   "Audit sharing, mail rules and device policies against your written baseline.",
+   "Score each area as pass, fix soon or fix now, and give every finding an owner and a date.",
+   "Prepare a handover pack: access list, policy list, recovery steps and a calendar of regular tasks."
+  ],
+  "An audit finds 14 accounts with no sign-in for 120 days, 6 global admins and one site shared with anyone who has the link. The team disables the old accounts, cuts admins to 2 and changes the link to named guests with expiry.",
+  "Audit a practice tenant using a checklist of 15 items. Produce a table of findings with a rating, an owner and a fix date, plus a one-page handover note.",
+  "All 15 items checked; every finding rated and owned; handover note lets a new admin find roles, policies and recovery steps."
+ ],
+ "quiz": [
+  [
+   "Why should a tenant have only two or three global admins?",
+   "A top-level account can change everything, so each extra one is a bigger target and a bigger risk of mistakes. Everyone else gets a smaller role that fits their task."
+  ],
+  [
+   "A user leaves on Friday at 5 pm. List the main steps in order.",
+   "Block sign-in, reset sessions, convert or keep the mailbox for the agreed time, move files to the manager and remove the licence. Do them from the leaver checklist."
+  ],
+  [
+   "What is the benefit of a shared mailbox over sharing one password?",
+   "Each agent signs in with their own account, so access is tracked and can be removed one person at a time. A shared password gives no record of who did what."
+  ],
+  [
+   "Explain in one line each what SPF, DKIM and DMARC do.",
+   "SPF lists the servers allowed to send for your domain. DKIM signs each message so it can be proven genuine. DMARC tells receivers what to do when a check fails."
+  ],
+  [
+   "A site is shared with anyone who has the link. Is that a problem and what would you change?",
+   "Yes, because the link can be forwarded to anyone. Change to named guests only and set the access to expire, for example after 30 days."
+  ],
+  [
+   "A sign-in comes from a new country at 3 am. Which control should react?",
+   "A conditional access policy should ask for a second proof or block the sign-in. Multi-factor sign-in stops most stolen-password attacks."
+  ],
+  [
+   "A script will create 200 users from a file. What checks make this safe?",
+   "Have someone review the file and the script, test on a few rows first and keep a list of the created accounts so they can be removed if something is wrong."
+  ],
+  [
+   "A file labelled Confidential is attached to an email going outside the company. What should a data-loss rule do?",
+   "Block the message or warn the sender and log the event, depending on the rule. The test file in the exercise should be blocked."
+  ],
+  [
+   "You must find out who deleted a shared folder last week. Where do you look?",
+   "Search the audit log by date, activity type and site. The result shows the user, the time and the action."
+  ],
+  [
+   "Compare a tenant audit with a monthly health report, and say what an audit adds.",
+   "The monthly report tracks a few numbers over time. An audit checks every area against the written baseline and gives each finding a rating, an owner and a fix date."
+  ]
+ ],
+ "ladder": [
+  [
+   "L1 Basic: find your way",
+   "Remember the main menus of the admin centre and what each one is for. Identify where users, groups, billing and service health are shown. Recognise why only a few people hold the top role.",
+   "Give a ten minute tour and ask learners to find a user and a licence. Check they can say what a group is. A common mistake is clicking into settings without knowing what they change."
+  ],
+  [
+   "L2 Awareness: understand the risks",
+   "Understand why a stolen password is the most common way in. Explain what multi-factor sign-in and sharing limits protect. Describe the joiner, mover and leaver idea.",
+   "Use a short story of a leaver who still had access. Ask what could go wrong. Watch for learners who think a strong password alone is enough."
+  ],
+  [
+   "L3 Foundation: do the standard tasks",
+   "Apply the checklist to create a user, assign a licence, add a group and set up a shared mailbox. Reset a password safely. Follow the steps in order every time.",
+   "Let learners complete each task on a practice tenant. Check licences and group membership afterwards. Common mistake: giving extra roles to make a problem go away."
+  ],
+  [
+   "L4 Practitioner: run daily operations",
+   "Apply mail rules, sharing limits and device checks across a small company. Analyse a sign-in report and spot odd behaviour. Fix access problems without raising the role.",
+   "Give a case with three user complaints. Ask learners to find the cause for each. Common mistake: changing many settings at once, so the real fix is unknown."
+  ],
+  [
+   "L5 Specialist: design the security baseline",
+   "Analyse risks and design sign-in, device and data protection policies. Create labels and rules and test them on a pilot group. Keep a safe emergency account.",
+   "Ask learners to explain each policy in one sentence for a non-technical manager. Check the pilot results. Common mistake: forgetting the emergency account and locking everyone out."
+  ],
+  [
+   "L6 Advanced: audit and improve",
+   "Evaluate the whole tenant against a written baseline. Compare findings by risk and effort, and give each an owner and date. Review audit logs to answer who did what and when.",
+   "Give a messy practice tenant and a checklist. Check that ratings match the evidence. Common mistake: listing problems without owners or deadlines."
+  ],
+  [
+   "L7 Super expert: govern the tenant",
+   "Create a governance pack with admin roles by task, reviewed scripts for bulk changes, a monthly report and a recovery plan. Evaluate trade-offs between safety and ease of use. Teach others to run the tenant safely.",
+   "Ask for a pack another admin could use on day one. Check the rollback list and recovery test. Common mistake: scripts run without a review or a way back."
+  ]
+ ],
+ "quiz_module": [
+  1,
+  2,
+  3,
+  3,
+  4,
+  5,
+  7,
+  6,
+  6,
+  8
+ ]
+}
