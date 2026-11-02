@@ -440,7 +440,7 @@ function lungRun(){
   mapAnim=requestAnimationFrame(step);
 }
 
-/* Pose library: course map A-F with the owner's booklet numbering; text and drawings are our own. */
+/* Pose library: course map A-F with its own booklet numbering; text and drawings are our own. */
 const K={
  shava:{h:[0,-4],t:180,n:180,ua:2,fa:0,tn:0,sn:0,tf:0,sf:0},
  suptatw:{h:[0,-4],t:180,n:180,ua:-95,fa:-95,tn:-35,sn:55,tf:-35,sf:55},
