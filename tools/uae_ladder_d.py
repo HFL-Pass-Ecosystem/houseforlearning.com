@@ -59,7 +59,7 @@ LAD = {
         ("Measure OEE for one shift",
          "Compute availability, performance, quality and OEE for a sample shift and name the biggest loss. Notes: check 408 of 480 minutes is 85%, 90 of 100 units a minute is 90% and 35,620 of 36,720 good is 97%, giving OEE of 74%."),
         ("Pick the loss that pays most",
-         "Compare line audits before and after a change and decide to scale, change or stop. Notes: OEE rising from 71% in week 2 to 84% in week 4 is the practice case; price check is AED 8,000 per line audit against AED 3,500 cost, a margin of 56.2%."),
+         "Compare line audits before and after a change and decide to scale, change or stop. Notes: OEE rising from 71% in week 2 to 84% in week 4 is the practice case; price check is AED 8,000 per line audit against AED 3,500 cost, a margin of 56.3%."),
         ("Coach a team on lockout and stops",
          "Set a lockout sequence with a proving step, a stop-reason code list and a weekly OEE review for a small team. Notes: sample five lockouts a week for every energy source listed and no guard bypassed; rank the top three losses each week."),
         ("Design the whole smart line system",

@@ -41,7 +41,7 @@ def m(n): return f'{n:,.0f}' if n==int(n) else f'{n:,.2f}'
 def course(t):
     (slug,title,mode,prod,buyers,haz,steps,kpi,unit,price,cost,vol,terms,jobs,local)=t
     s=[x.strip() for x in steps.split(',')]
-    marg=(price-cost)/price*100; unitgain=price-cost; month=unitgain*vol
+    marg=float(__import__('decimal').Decimal((price-cost)*100)/__import__('decimal').Decimal(price)); margtxt=str(((__import__('decimal').Decimal((price-cost)*100)/__import__('decimal').Decimal(price))).quantize(__import__('decimal').Decimal('0.1'),rounding='ROUND_HALF_UP')); unitgain=price-cost; month=unitgain*vol
     be=math.ceil(month*0.0+ (cost*vol*0.2)/unitgain) if unitgain>0 else 0   # fixed cost = 20% of variable cost base
     fixed=cost*vol*0.2
     t1,t2,t3=terms
@@ -92,7 +92,7 @@ def course(t):
       f"Know the cost of one {unit} before you set the price. Include materials, labour, energy, transport, licence share, waste and a safety margin.",
       [f"Cost per {unit} = total cost divided by {plu(unit)} sold (not made).","Margin = (price minus cost) divided by price.",
        "Break-even units = fixed costs divided by gain per unit.","Test the price with two users and write down the answer."],
-      f"At AED {m(price)} per {unit} and cost AED {m(cost)}, gain is AED {m(unitgain)} and margin {marg:.1f}%. At {m(vol)} {plu(unit,vol)} a month, gross gain is AED {m(month)}. If fixed costs are AED {m(fixed)}, break-even is {m(math.ceil(fixed/unitgain))} {plu(unit,math.ceil(fixed/unitgain))}.",
+      f"At AED {m(price)} per {unit} and cost AED {m(cost)}, gain is AED {m(unitgain)} and margin {margtxt}%. At {m(vol)} {plu(unit,vol)} a month, gross gain is AED {m(month)}. If fixed costs are AED {m(fixed)}, break-even is {m(math.ceil(fixed/unitgain))} {plu(unit,math.ceil(fixed/unitgain))}.",
       "Build the cost sheet with AED on every line and have your mentor check it.","No missing cost found; margin calculated twice by different routes."))
     M.append(("Serve and sell responsibly","Apply",12,
       f"Customers return when you keep promises. Promise only what your workflow can deliver.",
@@ -119,7 +119,7 @@ def course(t):
     Q=[(f"Name the main hazards in this work.", haz.capitalize()+".", RH),
        ("Why ask your local authority about licences?", "Rules differ by emirate and activity; written answers protect you.", RH),
        (f"Gain per {unit} if price is AED {m(price)} and cost is AED {m(cost)}?", f"AED {m(unitgain)}.", CS),
-       (f"Margin for the same figures?", f"{marg:.1f}%.", CS),
+       (f"Margin for the same figures?", f"{margtxt}%.", CS),
        ("Name the steps of the workflow.", '; '.join(s).capitalize()+".", WF),
        (f"What is {t1[0]}?", t1[1].capitalize()+".", MK),
        (f"What is {t2[0]}?", t2[1].capitalize()+".", MK),
