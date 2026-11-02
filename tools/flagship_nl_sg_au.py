@@ -23,7 +23,18 @@ LADDER = [(1, "L1 Basic", "First contact: words, tools and safety. Short units, 
 def M(t, bl, h, intro, pts, ex, act, std, q, a):
     return dict(t=t, bl=bl, h=h, intro=intro, pts=pts.split('|'), ex=ex, act=act, std=std, q=q, a=a)
 
+def deepen(m):
+    # Expand one-word activity/standard stubs into full sentences from the module's own points.
+    p0 = m['pts'][0].rstrip('.')
+    pl = [x.rstrip('.') for x in m['pts']]
+    if len(m['act']) < 45:
+        m['act'] = (m['act'].rstrip('.') + '. ' if len(m['act']) > 12 else '') + f'Apply this module to your own project. Work through each point in order ({"; ".join(pl)}), and keep one dated record per point (photo, table or short note). Share it with a peer and ask for one improvement.'
+    if len(m['std']) < 45:
+        m['std'] = (m['std'].rstrip('.') + '. ' if len(m['std']) > 12 else '') + f'Meets the standard when your record shows: {p0[0].lower() + p0[1:]}; every number has its currency or unit; a peer has read it and a mentor can follow your reasoning.'
+    return m
+
 def build(c, region):
+    c['mods'] = [deepen(m) for m in c['mods']]
     mods, quiz = c['mods'], []
     total = sum(m['h'] for m in mods)
     mh = ''
