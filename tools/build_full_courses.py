@@ -147,7 +147,7 @@ def course_page(c):
     summary = f'{c["title"]}: {c["practice_70"]}'
     top = (f'<div class="cb-facts"><span class="pill lv">{LNAME[lvl]}</span><span class="pill">{hhmm(total)} h total</span>'
            f'<span class="pill">{e(c["length"])}</span><span class="pill">Practice {do} h · Share {sh} h · Study {st} h</span>'
-           f'<span class="pill pr">USD 39 per learner per month, or USD 79 with mentor review</span></div>')
+           f'</div>')
     about = sec('', 'ab', 'about this course', 'What you will be able to do',
         top + f'<p class="kit-intro">{e(summary)}</p><ul class="blm">' + ''.join(f'<li><span class="bz">{b}</span> {e(t)}</li>' for b, t in outcomes) + '</ul>'
         + f'<h3 class="ws-h3">Task, condition and standard</h3><div class="tcs"><div><h4>Task</h4><p>{e(c["practice_70"])}</p></div>'
