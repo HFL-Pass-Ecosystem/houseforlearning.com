@@ -1,291 +1,291 @@
 {
-  "id": "GL-52",
-  "title": "Veterinary and Pet Care Business",
-  "level": 4,
-  "desc": "Start and run a small pet care business, from grooming, boarding and walking to records, hygiene and when to refer to a vet.",
-  "outcomes": [
-    [
-      "Understand",
-      "Explain animal welfare needs and the limits of a non-vet service."
-    ],
-    [
-      "Apply",
-      "Run safe handling, hygiene and booking steps."
-    ],
-    [
-      "Analyse",
-      "Cost services and capacity."
-    ],
-    [
-      "Evaluate",
-      "Judge risks, bites, disease and legal duties."
-    ],
-    [
-      "Create",
-      "Launch a 30-day pilot."
-    ]
+ "id": "GL-52",
+ "title": "Veterinary and Pet Care Business",
+ "level": 4,
+ "desc": "Start and run a small pet care business, from grooming, boarding and walking to records, hygiene and when to refer to a vet.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain animal welfare needs and the limits of a non-vet service."
   ],
-  "task": "Plan and pilot a small pet care service with welfare rules, hygiene plan, booking and price sheet, owner forms and emergency steps.",
-  "condition": "Practice animals from willing owners or a shelter partner, a spreadsheet, two peers and a mentor veterinarian. Medical treatments are for qualified vets only.",
-  "standard": "Every pet has an owner form and vaccine record; welfare needs are met; injuries and bites have a response plan; costs and price are shown; peers rate Meets or better.",
-  "who": "Pet lovers, vet clinic assistants, groomers, walkers and boarders.",
-  "req": "none",
-  "evidence": "service menu, owner form, hygiene plan, price sheet, pilot log",
-  "modules": [
-    [
-      "Welfare basics and the limits of your service",
-      "Understand",
-      4,
-      "Every animal has welfare needs, whatever the species. A pet business protects them and knows where its own skills stop.",
-      [
-        "Learn the five needs: a suitable place to live, a suitable diet with clean water, freedom to behave normally, suitable company or separation, and protection from pain, fear and disease.",
-        "Spot stress early: panting, hiding, shaking, pacing, growling, or refusing usual food.",
-        "Never leave an animal in a parked vehicle, in direct sun, or without fresh water.",
-        "Write which species you accept and which you refuse, since each needs different space and skills."
-      ],
-      "A walker finds a dog panting hard after 15 minutes in hot weather. She moves to shade, offers water, ends the walk at 20 minutes and shifts later walks to 7 am, then logs the change.",
-      "Write a one-page welfare card for two species with one action for each need, plus a list of animals you refuse.",
-      "All five needs are covered with no wrong facts, and a mentor vet confirms the card."
-    ],
-    [
-      "Owner forms, consent and records",
-      "Apply",
-      4,
-      "You must know the pet and the owner before you accept responsibility. A clear form protects the animal, the owner and your business.",
-      [
-        "Collect pet name, age, species, vaccine dates, medicines, allergies, behaviour notes, the owner's vet and two emergency contacts.",
-        "Get written consent for each service and a signed spending limit for urgent vet care.",
-        "Store records securely, share them only when needed, and update them at every visit.",
-        "Decline the booking when vaccine proof or contact details are missing, and explain kindly why."
-      ],
-      "A boarding form for a puppy shows one vaccine dose given 10 weeks ago. The owner is asked to check with the vet and the booking pauses until a vet-signed record arrives. The decision and date go in the file.",
-      "Design a one-page owner form, fill it for a practice pet, and write a three-line rule for empty fields.",
-      "The form has vaccine, vet, emergency, consent and spending-limit fields, and a peer finds nothing missing."
-    ],
-    [
-      "Safe handling of animals and people",
-      "Apply",
-      5,
-      "Most injuries happen when handlers rush, corner a frightened animal or use the wrong gear. Calm, planned handling keeps everyone safe.",
-      [
-        "Approach from the side, speak softly, let the animal sniff you, and stop if it stiffens, growls or hides.",
-        "Match gear to the animal: a fitted harness and lead, a secure carrier, and separate crates for each species.",
-        "Before the first job, ask the owner about triggers such as other dogs, loud noise or touch near the tail.",
-        "Tell the owner about any bite, scratch or fall the same day, log it, and send anyone hurt to a doctor."
-      ],
-      "A walker meets a nervous dog near a busy road. She uses a double lead, keeps 3 metres from other dogs, crosses early and rewards calm behaviour. The 30-minute walk ends with no pulling and no bolt.",
-      "Practise leading, crating and a calm approach on one practice animal under a mentor, with a five-step observation sheet.",
-      "The mentor signs off all five steps as safe, with no injuries and no lasting stress."
-    ],
-    [
-      "Hygiene and disease control",
-      "Apply",
-      4,
-      "Clean spaces and hands stop illness spreading between animals. A written routine turns this into habit.",
-      [
-        "Clean and disinfect kennels, bowls, brushes and tables between animals, using a product made for animal areas and following its label.",
-        "Separate at once any animal that coughs, vomits, has loose stools or looks very tired, then call the owner and vet.",
-        "Wash hands before and after each animal, bag waste, and keep food in sealed containers against pests.",
-        "Keep a signed cleaning log with date, area, method and person."
-      ],
-      "A boarding dog coughs at 9 am. It is moved to a separate room, the owner is called by 9:10 and the vet by 9:20. Shared bowls and floors are disinfected by noon and each step is logged.",
-      "Create a daily and weekly hygiene plan for a small boarding space with a one-week log template.",
-      "The plan names task, product type, frequency and person, and a peer can run a day from it."
-    ],
-    [
-      "Knowing when to refer to a vet",
-      "Evaluate",
-      4,
-      "A pet business is not a veterinary clinic. You notice problems early, keep the animal safe and bring in a licensed vet quickly.",
-      [
-        "Phone a vet at once for suspected poisoning, serious injury, trouble breathing, repeated vomiting, seizures, collapse or heavy bleeding.",
-        "Do not diagnose or give medicine unless the owner or vet has told you in writing what to do.",
-        "Keep your clinic and an out-of-hours emergency number on the wall and in your phone.",
-        "Record the time, symptoms and what the animal ate or touched."
-      ],
-      "A dog eats dark chocolate at 4:05 pm. The carer keeps the wrapper, calls the emergency clinic at 4:10 with the dog's weight, follows the vet's instructions, phones the owner at 4:20 and logs every step.",
-      "Write an emergency card with numbers, owner contacts and a six-step action list, then run a timed mock call.",
-      "The mock call takes under five minutes, and a mentor vet confirms the card refers serious cases and gives no treatment advice."
-    ],
-    [
-      "Services, capacity and pricing",
-      "Analyse",
-      5,
-      "A fair price covers every cost, fits the time and space you really have, and leaves a margin for slow weeks.",
-      [
-        "List each service and the time per pet, including cleaning, setup and travel.",
-        "Add monthly costs: wages, supplies, transport, insurance, space, laundry and advertising.",
-        "Divide costs by realistic bookings for break-even, add a margin and compare with nearby prices.",
-        "Cap daily numbers so each animal stays safe, for example four dogs per walker."
-      ],
-      "A groom takes 60 minutes of work plus 30 minutes of cleaning, so 1.5 hours of table time. At 400 INR per staff hour plus 120 INR supplies, cost is 720 INR. A margin of about 50 percent gives a price near 1,100 INR.",
-      "Cost three services in a sheet, show break-even bookings per month and set one price each, with currency beside every number.",
-      "Totals are correct, the capacity limit is stated, and the price covers cost with a visible margin."
-    ],
-    [
-      "Law, insurance and ethics",
-      "Evaluate",
-      4,
-      "Know the rules before your first client. Local law sets licences, insurance and standards, and a licensed professional can confirm them.",
-      [
-        "Look up the business licence, animal-welfare law, tax and boarding or grooming rules, noting the office or document for each.",
-        "Ask an insurance adviser what cover is needed for injury, damage and animals in your care, and file the policy.",
-        "Never neglect or harm an animal, and report suspected cruelty to the proper authority.",
-        "Advertise only what you deliver, write clear terms and keep owners' details private."
-      ],
-      "A provider lists four rules for her town, each with the office name and check date. She asks an adviser about public-liability cover, buys it before taking clients and files the policy number and renewal date.",
-      "List every rule, licence and insurance need for your place with source and date, and mark items to confirm with a professional.",
-      "Each rule has a named source and date, no guess is written as fact, and open questions go to a licensed adviser."
-    ],
-    [
-      "Pilot, review and improve",
-      "Create",
-      5,
-      "Run a 30-day pilot with a few clients to prove your service is safe, fairly priced and wanted before you grow.",
-      [
-        "Take only the clients your plan allows and log bookings, complaints, injuries, near misses and rebookings daily.",
-        "Send each owner a short report after every visit with one photo and one fact about the day.",
-        "Rank the top three problems by how often or badly they happened and fix each with a date.",
-        "Write a 90-day plan for price, capacity, training and one community action."
-      ],
-      "A pilot records 24 bookings, 2 complaints and 0 injuries. After photo reports begin, rebookings rise from 35% to 55%. The top issue, late pickups, is fixed with a set pickup time on the form.",
-      "Present your pilot log, price sheet and 90-day plan to peers and a mentor in a ten-minute talk.",
-      "Figures match the log, three fixes are dated, and peers rate the evidence Meets or better."
-    ]
+  [
+   "Apply",
+   "Run safe handling, hygiene and booking steps."
   ],
-  "quiz": [
-    [
-      "Name the five welfare needs.",
-      "A suitable place to live, a suitable diet and clean water, freedom to behave normally, suitable company or separation, and protection from pain, fear and disease."
-    ],
-    [
-      "Why do you ask for vaccine records before a booking?",
-      "They protect other animals in your care, show the pet has had basic protection and tell you when to ask the owner's vet before accepting the pet."
-    ],
-    [
-      "Name two signs of stress in an animal.",
-      "Panting, hiding, shaking, pacing, growling or refusing food; any of these means slow down, give space and tell the owner."
-    ],
-    [
-      "When must you call a vet straight away?",
-      "For suspected poisoning, serious injury, trouble breathing, repeated vomiting, seizures, collapse or heavy bleeding; record the time and symptoms."
-    ],
-    [
-      "Can you give a pet medicine on your own judgement?",
-      "No. Give medicine only as the owner or vet instructs in writing, because only qualified vets may diagnose and treat."
-    ],
-    [
-      "What belongs on an owner form?",
-      "Pet details, vaccine dates, medicines, allergies, behaviour notes, vet and emergency contacts, signed consent and a spending limit for urgent care."
-    ],
-    [
-      "Why separate a sick animal from the others?",
-      "It stops infection spreading to other animals; then clean the area, call the owner and vet, and note the actions in the log."
-    ],
-    [
-      "Why should a pet business carry insurance?",
-      "It helps cover injury or damage claims involving animals or people; ask a licensed adviser which cover local rules and your services need."
-    ],
-    [
-      "What is table time and why does it matter for pricing?",
-      "It is the full time an animal occupies a table or room, including setup and cleaning; it sets how many pets you can serve and what you must charge."
-    ],
-    [
-      "What do you track in a 30-day pilot?",
-      "Bookings, income and costs, complaints, injuries and near misses, and rebookings, so fixes and prices rest on real numbers."
-    ]
+  [
+   "Analyse",
+   "Cost services and capacity."
   ],
-  "rubric": [
-    [
-      "Animal welfare",
-      "Gaps",
-      "Needs met",
-      "Needs met and monitored"
-    ],
-    [
-      "Owner records",
-      "Missing",
-      "Complete",
-      "Complete and securely stored"
-    ],
-    [
-      "Referral readiness",
-      "No plan",
-      "Card",
-      "Card tested with vet"
-    ],
-    [
-      "Honesty and evidence",
-      "Claims without proof",
-      "Every claim has a record",
-      "Every claim linked to a dated record and checked by a peer"
-    ],
-    [
-      "Safety, ethics and local rules",
-      "Not considered",
-      "Checked and written down",
-      "Checked, dated and explained to others"
-    ]
+  [
+   "Evaluate",
+   "Judge risks, bites, disease and legal duties."
   ],
-  "jobs": [
-    [
-      "Pet groomer",
-      "Grooms and cares"
-    ],
-    [
-      "Dog walker or day-care assistant",
-      "Runs safe outings"
-    ],
-    [
-      "Vet clinic assistant (reception)",
-      "Books and records"
-    ],
-    [
-      "Boarding manager",
-      "Runs hygiene and rota"
-    ],
-    [
-      "Pet products seller",
-      "Advises owners"
-    ]
-  ],
-  "next": "customer service, bookkeeping for small business, animal first aid awareness.",
-  "local": "Licences and animal-welfare laws differ by place.",
-  "ladder": [
-    [
-      "Welfare basics and the limits of your service",
-      "L1: learner can name the five welfare needs, spot two signs of stress and say which species the business will accept. Focus: Every animal has welfare needs, whatever the species. A pet business protects them and knows where its own skills stop. Key idea: Learn the five needs: a suitable place to live, a suitable diet with clean water, freedom to behave normally, suitable company or separation, and protection from pain, fear and disease.",
-      "Show photos of calm and stressed animals and ask learners to name each need. Stress that welfare comes before profit. Activity: Write a one-page welfare card for two species with one action for each need, plus a list of animals you refuse. Standard: All five needs are covered with no wrong facts, and a mentor vet confirms the card."
-    ],
-    [
-      "Owner forms, consent and records",
-      "L2: learner can fill an owner form and explain why missing vaccine proof means a declined booking. Focus: You must know the pet and the owner before you accept responsibility. A clear form protects the animal, the owner and your business. Key idea: Collect pet name, age, species, vaccine dates, medicines, allergies, behaviour notes, the owner's vet and two emergency contacts.",
-      "Hand out a half-filled form with a missing vaccine date and ask what to do. Use it to show consent and spending limits. Activity: Design a one-page owner form, fill it for a practice pet, and write a three-line rule for empty fields. Standard: The form has vaccine, vet, emergency, consent and spending-limit fields, and a peer finds nothing missing."
-    ],
-    [
-      "Safe handling of animals and people",
-      "L3: learner can handle one practice animal calmly with the right equipment and log an incident. Focus: Most injuries happen when handlers rush, corner a frightened animal or use the wrong gear. Calm, planned handling keeps everyone safe. Key idea: Approach from the side, speak softly, let the animal sniff you, and stop if it stiffens, growls or hides.",
-      "Demonstrate an approach and lead fit, then let each learner try under a mentor. Stop any rushed handling. Activity: Practise leading, crating and a calm approach on one practice animal under a mentor, with a five-step observation sheet. Standard: The mentor signs off all five steps as safe, with no injuries and no lasting stress."
-    ],
-    [
-      "Hygiene and disease control",
-      "L4: learner can run a daily cleaning routine and isolate a sick animal. Focus: Clean spaces and hands stop illness spreading between animals. A written routine turns this into habit. Key idea: Clean and disinfect kennels, bowls, brushes and tables between animals, using a product made for animal areas and following its label.",
-      "Walk through a cleaning log and ask who signs each line. Role-play the first five minutes after a cough. Activity: Create a daily and weekly hygiene plan for a small boarding space with a one-week log template. Standard: The plan names task, product type, frequency and person, and a peer can run a day from it."
-    ],
-    [
-      "Knowing when to refer to a vet",
-      "L5: learner can run an emergency call and knows the business gives no treatment. Focus: A pet business is not a veterinary clinic. You notice problems early, keep the animal safe and bring in a licensed vet quickly. Key idea: Phone a vet at once for suspected poisoning, serious injury, trouble breathing, repeated vomiting, seizures, collapse or heavy bleeding.",
-      "Run a timed mock call. Remind learners that a licensed vet decides all treatment, not the business. Activity: Write an emergency card with numbers, owner contacts and a six-step action list, then run a timed mock call. Standard: The mock call takes under five minutes, and a mentor vet confirms the card refers serious cases and gives no treatment advice."
-    ],
-    [
-      "Services, capacity and pricing",
-      "L6: learner can cost a service, set a price and state a capacity limit. Focus: A fair price covers every cost, fits the time and space you really have, and leaves a margin for slow weeks. Key idea: List each service and the time per pet, including cleaning, setup and travel.",
-      "Use one groom as a worked case with figures on the board, then let pairs cost a walk. Check the currency is written. Activity: Cost three services in a sheet, show break-even bookings per month and set one price each, with currency beside every number. Standard: Totals are correct, the capacity limit is stated, and the price covers cost with a visible margin."
-    ],
-    [
-      "Law, insurance and ethics",
-      "L7: learner can list local rules with sources and name what to confirm with a licensed adviser. Focus: Know the rules before your first client. Local law sets licences, insurance and standards, and a licensed professional can confirm them. Key idea: Look up the business licence, animal-welfare law, tax and boarding or grooming rules, noting the office or document for each.",
-      "Send learners to find one real rule and its office. Stress that rules differ by place and must be dated. Activity: List every rule, licence and insurance need for your place with source and date, and mark items to confirm with a professional. Standard: Each rule has a named source and date, no guess is written as fact, and open questions go to a licensed adviser."
-    ]
+  [
+   "Create",
+   "Launch a 30-day pilot."
   ]
+ ],
+ "task": "Plan and pilot a small pet care service with welfare rules, hygiene plan, booking and price sheet, owner forms and emergency steps.",
+ "condition": "Practice animals from willing owners or a shelter partner, a spreadsheet, two peers and a mentor veterinarian. Medical treatments are for qualified vets only.",
+ "standard": "Every pet has an owner form and vaccine record; welfare needs are met; injuries and bites have a response plan; costs and price are shown; peers rate Meets or better.",
+ "who": "Pet lovers, vet clinic assistants, groomers, walkers and boarders.",
+ "req": "none",
+ "evidence": "service menu, owner form, hygiene plan, price sheet, pilot log",
+ "modules": [
+  [
+   "Welfare basics and the limits of your service",
+   "Understand",
+   4,
+   "Every animal has welfare needs, whatever the species. A pet business protects them and knows where its own skills stop.",
+   [
+    "Learn the five needs: a suitable place to live, a suitable diet with clean water, freedom to behave normally, suitable company or separation, and protection from pain, fear and disease.",
+    "Spot stress early: panting, hiding, shaking, pacing, growling, or refusing usual food.",
+    "Never leave an animal in a parked vehicle, in direct sun, or without fresh water.",
+    "Write which species you accept and which you refuse, since each needs different space and skills."
+   ],
+   "A walker finds a dog panting hard after 15 minutes in hot weather. She moves to shade, offers water, ends the walk at 20 minutes and shifts later walks to 7 am, then logs the change.",
+   "Write a one-page welfare card for two species with one action for each need, plus a list of animals you refuse.",
+   "All five needs are covered with no wrong facts, and a mentor vet confirms the card."
+  ],
+  [
+   "Owner forms, consent and records",
+   "Apply",
+   4,
+   "You must know the pet and the owner before you accept responsibility. A clear form protects the animal, the owner and your business.",
+   [
+    "Collect pet name, age, species, vaccine dates, medicines, allergies, behaviour notes, the owner's vet and two emergency contacts.",
+    "Get written consent for each service and a signed spending limit for urgent vet care.",
+    "Store records securely, share them only when needed, and update them at every visit.",
+    "Decline the booking when vaccine proof or contact details are missing, and explain kindly why."
+   ],
+   "A boarding form for a puppy shows one vaccine dose given 10 weeks ago. The owner is asked to check with the vet and the booking pauses until a vet-signed record arrives. The decision and date go in the file.",
+   "Design a one-page owner form, fill it for a practice pet, and write a three-line rule for empty fields.",
+   "The form has vaccine, vet, emergency, consent and spending-limit fields, and a peer finds nothing missing."
+  ],
+  [
+   "Safe handling of animals and people",
+   "Apply",
+   5,
+   "Most injuries happen when handlers rush, corner a frightened animal or use the wrong gear. Calm, planned handling keeps everyone safe.",
+   [
+    "Approach from the side, speak softly, let the animal sniff you, and stop if it stiffens, growls or hides.",
+    "Match gear to the animal: a fitted harness and lead, a secure carrier, and separate crates for each species.",
+    "Before the first job, ask the owner about triggers such as other dogs, loud noise or touch near the tail.",
+    "Tell the owner about any bite, scratch or fall the same day, log it, and send anyone hurt to a doctor."
+   ],
+   "A walker meets a nervous dog near a busy road. She uses a double lead, keeps 3 metres from other dogs, crosses early and rewards calm behaviour. The 30-minute walk ends with no pulling and no bolt.",
+   "Practise leading, crating and a calm approach on one practice animal under a mentor, with a five-step observation sheet.",
+   "The mentor signs off all five steps as safe, with no injuries and no lasting stress."
+  ],
+  [
+   "Hygiene and disease control",
+   "Apply",
+   4,
+   "Clean spaces and hands stop illness spreading between animals. A written routine turns this into habit.",
+   [
+    "Clean and disinfect kennels, bowls, brushes and tables between animals, using a product made for animal areas and following its label.",
+    "Separate at once any animal that coughs, vomits, has loose stools or looks very tired, then call the owner and vet.",
+    "Wash hands before and after each animal, bag waste, and keep food in sealed containers against pests.",
+    "Keep a signed cleaning log with date, area, method and person."
+   ],
+   "A boarding dog coughs at 9 am. It is moved to a separate room, the owner is called by 9:10 and the vet by 9:20. Shared bowls and floors are disinfected by noon and each step is logged.",
+   "Create a daily and weekly hygiene plan for a small boarding space with a one-week log template.",
+   "The plan names task, product type, frequency and person, and a peer can run a day from it."
+  ],
+  [
+   "Knowing when to refer to a vet",
+   "Evaluate",
+   4,
+   "A pet business is not a veterinary clinic. You notice problems early, keep the animal safe and bring in a licensed vet quickly.",
+   [
+    "Phone a vet at once for suspected poisoning, serious injury, trouble breathing, repeated vomiting, seizures, collapse or heavy bleeding.",
+    "Do not diagnose or give medicine unless the owner or vet has told you in writing what to do.",
+    "Keep your clinic and an out-of-hours emergency number on the wall and in your phone.",
+    "Record the time, symptoms and what the animal ate or touched."
+   ],
+   "A dog eats dark chocolate at 4:05 pm. The carer keeps the wrapper, calls the emergency clinic at 4:10 with the dog's weight, follows the vet's instructions, phones the owner at 4:20 and logs every step.",
+   "Write an emergency card with numbers, owner contacts and a six-step action list, then run a timed mock call.",
+   "The mock call takes under five minutes, and a mentor vet confirms the card refers serious cases and gives no treatment advice."
+  ],
+  [
+   "Services, capacity and pricing",
+   "Analyse",
+   5,
+   "A fair price covers every cost, fits the time and space you really have, and leaves a margin for slow weeks.",
+   [
+    "List each service and the time per pet, including cleaning, setup and travel.",
+    "Add monthly costs: wages, supplies, transport, insurance, space, laundry and advertising.",
+    "Divide costs by realistic bookings for break-even, add a margin and compare with nearby prices.",
+    "Cap daily numbers so each animal stays safe, for example four dogs per walker."
+   ],
+   "A groom takes 60 minutes of work plus 30 minutes of cleaning, so 1.5 hours of table time. At 400 INR per staff hour plus 120 INR supplies, cost is 720 INR. A margin of about 50 percent gives a price near 1,100 INR.",
+   "Cost three services in a sheet, show break-even bookings per month and set one price each, with currency beside every number.",
+   "Totals are correct, the capacity limit is stated, and the price covers cost with a visible margin."
+  ],
+  [
+   "Law, insurance and ethics",
+   "Evaluate",
+   4,
+   "Know the rules before your first client. Local law sets licences, insurance and standards, and a licensed professional can confirm them.",
+   [
+    "Look up the business licence, animal-welfare law, tax and boarding or grooming rules, noting the office or document for each.",
+    "Ask an insurance adviser what cover is needed for injury, damage and animals in your care, and file the policy.",
+    "Never neglect or harm an animal, and report suspected cruelty to the proper authority.",
+    "Advertise only what you deliver, write clear terms and keep owners' details private."
+   ],
+   "A provider lists four rules for her town, each with the office name and check date. She asks an adviser about public-liability cover, buys it before taking clients and files the policy number and renewal date.",
+   "List every rule, licence and insurance need for your place with source and date, and mark items to confirm with a professional.",
+   "Each rule has a named source and date, no guess is written as fact, and open questions go to a licensed adviser."
+  ],
+  [
+   "Pilot, review and improve",
+   "Create",
+   5,
+   "Run a 30-day pilot with a few clients to prove your service is safe, fairly priced and wanted before you grow.",
+   [
+    "Take only the clients your plan allows and log bookings, complaints, injuries, near misses and rebookings daily.",
+    "Send each owner a short report after every visit with one photo and one fact about the day.",
+    "Rank the top three problems by how often or badly they happened and fix each with a date.",
+    "Write a 90-day plan for price, capacity, training and one community action."
+   ],
+   "A pilot records 24 bookings, 2 complaints and 0 injuries. After photo reports begin, rebookings rise from 35% to 55%. The top issue, late pickups, is fixed with a set pickup time on the form.",
+   "Present your pilot log, price sheet and 90-day plan to peers and a mentor in a ten-minute talk.",
+   "Figures match the log, three fixes are dated, and peers rate the evidence Meets or better."
+  ]
+ ],
+ "quiz": [
+  [
+   "Name the five welfare needs.",
+   "A suitable place to live, a suitable diet and clean water, freedom to behave normally, suitable company or separation, and protection from pain, fear and disease. (Covered in module 1: Welfare basics and the limits of your service. To pass that module: All five needs are covered with no wrong facts, and a mentor vet confirms the card.)"
+  ],
+  [
+   "Why do you ask for vaccine records before a booking?",
+   "They protect other animals in your care, show the pet has had basic protection and tell you when to ask the owner's vet before accepting the pet. (Covered in module 2: Owner forms, consent and records. To pass that module: The form has vaccine, vet, emergency, consent and spending-limit fields, and a peer finds nothing missing.)"
+  ],
+  [
+   "Name two signs of stress in an animal.",
+   "Panting, hiding, shaking, pacing, growling or refusing food; any of these means slow down, give space and tell the owner. (Covered in module 3: Safe handling of animals and people. To pass that module: The mentor signs off all five steps as safe, with no injuries and no lasting stress.)"
+  ],
+  [
+   "When must you call a vet straight away?",
+   "For suspected poisoning, serious injury, trouble breathing, repeated vomiting, seizures, collapse or heavy bleeding; record the time and symptoms. (Covered in module 4: Hygiene and disease control. To pass that module: The plan names task, product type, frequency and person, and a peer can run a day from it.)"
+  ],
+  [
+   "Can you give a pet medicine on your own judgement?",
+   "No. Give medicine only as the owner or vet instructs in writing, because only qualified vets may diagnose and treat. (Covered in module 5: Knowing when to refer to a vet. To pass that module: The mock call takes under five minutes, and a mentor vet confirms the card refers serious cases and gives no treatment advice.)"
+  ],
+  [
+   "What belongs on an owner form?",
+   "Pet details, vaccine dates, medicines, allergies, behaviour notes, vet and emergency contacts, signed consent and a spending limit for urgent care. (Covered in module 6: Services, capacity and pricing. To pass that module: Totals are correct, the capacity limit is stated, and the price covers cost with a visible margin.)"
+  ],
+  [
+   "Why separate a sick animal from the others?",
+   "It stops infection spreading to other animals; then clean the area, call the owner and vet, and note the actions in the log. (Covered in module 7: Law, insurance and ethics. To pass that module: Each rule has a named source and date, no guess is written as fact, and open questions go to a licensed adviser.)"
+  ],
+  [
+   "Why should a pet business carry insurance?",
+   "It helps cover injury or damage claims involving animals or people; ask a licensed adviser which cover local rules and your services need. (Covered in module 8: Pilot, review and improve. To pass that module: Figures match the log, three fixes are dated, and peers rate the evidence Meets or better.)"
+  ],
+  [
+   "What is table time and why does it matter for pricing?",
+   "It is the full time an animal occupies a table or room, including setup and cleaning; it sets how many pets you can serve and what you must charge. (Covered in module 8: Pilot, review and improve. To pass that module: Figures match the log, three fixes are dated, and peers rate the evidence Meets or better.)"
+  ],
+  [
+   "What do you track in a 30-day pilot?",
+   "Bookings, income and costs, complaints, injuries and near misses, and rebookings, so fixes and prices rest on real numbers. (Covered in module 8: Pilot, review and improve. To pass that module: Figures match the log, three fixes are dated, and peers rate the evidence Meets or better.)"
+  ]
+ ],
+ "rubric": [
+  [
+   "Animal welfare",
+   "Gaps",
+   "Needs met",
+   "Needs met and monitored"
+  ],
+  [
+   "Owner records",
+   "Missing",
+   "Complete",
+   "Complete and securely stored"
+  ],
+  [
+   "Referral readiness",
+   "No plan",
+   "Card",
+   "Card tested with vet"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Pet groomer",
+   "Grooms and cares"
+  ],
+  [
+   "Dog walker or day-care assistant",
+   "Runs safe outings"
+  ],
+  [
+   "Vet clinic assistant (reception)",
+   "Books and records"
+  ],
+  [
+   "Boarding manager",
+   "Runs hygiene and rota"
+  ],
+  [
+   "Pet products seller",
+   "Advises owners"
+  ]
+ ],
+ "next": "customer service, bookkeeping for small business, animal first aid awareness.",
+ "local": "Licences and animal-welfare laws differ by place.",
+ "ladder": [
+  [
+   "Welfare basics and the limits of your service",
+   "L1: learner can name the five welfare needs, spot two signs of stress and say which species the business will accept. Focus: Every animal has welfare needs, whatever the species. A pet business protects them and knows where its own skills stop. Key idea: Learn the five needs: a suitable place to live, a suitable diet with clean water, freedom to behave normally, suitable company or separation, and protection from pain, fear and disease. Focus module: Welfare basics and the limits of your service (Understand, 4 h). Every animal has welfare needs, whatever the species. A pet business protects them and knows where its own skills stop. Key points: Learn the five needs: a suitable place to live, a suitable diet with clean water, freedom to behave normally, suitable company or separation, and protection from pain, fear and disease. Spot stress early: panting, hiding, shaking, pacing, growling, or refusing usual food. Never leave an animal in a parked vehicle, in direct sun, or without fresh water. Write which species you accept and which you refuse, since each needs different space and skills.",
+   "Teach: open with the worked example. A walker finds a dog panting hard after 15 minutes in hot weather. She moves to shade, offers water, ends the walk at 20 minutes and shifts later walks to 7 am, then logs the change. Then set the activity: Write a one-page welfare card for two species with one action for each need, plus a list of animals you refuse. Mark against the standard: All five needs are covered with no wrong facts, and a mentor vet confirms the card. Check at this level: Name the five welfare needs. Model answer: A suitable place to live, a suitable diet and clean water, freedom to behave normally, suitable company or separation, and protection from pain, fear and disease."
+  ],
+  [
+   "Owner forms, consent and records",
+   "L2: learner can fill an owner form and explain why missing vaccine proof means a declined booking. Focus: You must know the pet and the owner before you accept responsibility. A clear form protects the animal, the owner and your business. Key idea: Collect pet name, age, species, vaccine dates, medicines, allergies, behaviour notes, the owner's vet and two emergency contacts. Focus module: Owner forms, consent and records (Apply, 4 h). You must know the pet and the owner before you accept responsibility. A clear form protects the animal, the owner and your business. Key points: Collect pet name, age, species, vaccine dates, medicines, allergies, behaviour notes, the owner's vet and two emergency contacts. Get written consent for each service and a signed spending limit for urgent vet care. Store records securely, share them only when needed, and update them at every visit. Decline the booking when vaccine proof or contact details are missing, and explain kindly why.",
+   "Teach: open with the worked example. A boarding form for a puppy shows one vaccine dose given 10 weeks ago. The owner is asked to check with the vet and the booking pauses until a vet-signed record arrives. The decision and date go in the file. Then set the activity: Design a one-page owner form, fill it for a practice pet, and write a three-line rule for empty fields. Mark against the standard: The form has vaccine, vet, emergency, consent and spending-limit fields, and a peer finds nothing missing. Check at this level: Why do you ask for vaccine records before a booking? Model answer: They protect other animals in your care, show the pet has had basic protection and tell you when to ask the owner's vet before accepting the pet."
+  ],
+  [
+   "Safe handling of animals and people",
+   "L3: learner can handle one practice animal calmly with the right equipment and log an incident. Focus: Most injuries happen when handlers rush, corner a frightened animal or use the wrong gear. Calm, planned handling keeps everyone safe. Key idea: Approach from the side, speak softly, let the animal sniff you, and stop if it stiffens, growls or hides. Focus module: Safe handling of animals and people (Apply, 5 h). Most injuries happen when handlers rush, corner a frightened animal or use the wrong gear. Calm, planned handling keeps everyone safe. Key points: Approach from the side, speak softly, let the animal sniff you, and stop if it stiffens, growls or hides. Match gear to the animal: a fitted harness and lead, a secure carrier, and separate crates for each species. Before the first job, ask the owner about triggers such as other dogs, loud noise or touch near the tail. Tell the owner about any bite, scratch or fall the same day, log it, and send anyone hurt to a doctor.",
+   "Teach: open with the worked example. A walker meets a nervous dog near a busy road. She uses a double lead, keeps 3 metres from other dogs, crosses early and rewards calm behaviour. The 30-minute walk ends with no pulling and no bolt. Then set the activity: Practise leading, crating and a calm approach on one practice animal under a mentor, with a five-step observation sheet. Mark against the standard: The mentor signs off all five steps as safe, with no injuries and no lasting stress. Check at this level: Name two signs of stress in an animal. Model answer: Panting, hiding, shaking, pacing, growling or refusing food; any of these means slow down, give space and tell the owner."
+  ],
+  [
+   "Hygiene and disease control",
+   "L4: learner can run a daily cleaning routine and isolate a sick animal. Focus: Clean spaces and hands stop illness spreading between animals. A written routine turns this into habit. Key idea: Clean and disinfect kennels, bowls, brushes and tables between animals, using a product made for animal areas and following its label. Focus module: Hygiene and disease control (Apply, 4 h). Clean spaces and hands stop illness spreading between animals. A written routine turns this into habit. Key points: Clean and disinfect kennels, bowls, brushes and tables between animals, using a product made for animal areas and following its label. Separate at once any animal that coughs, vomits, has loose stools or looks very tired, then call the owner and vet. Wash hands before and after each animal, bag waste, and keep food in sealed containers against pests. Keep a signed cleaning log with date, area, method and person.",
+   "Teach: open with the worked example. A boarding dog coughs at 9 am. It is moved to a separate room, the owner is called by 9:10 and the vet by 9:20. Shared bowls and floors are disinfected by noon and each step is logged. Then set the activity: Create a daily and weekly hygiene plan for a small boarding space with a one-week log template. Mark against the standard: The plan names task, product type, frequency and person, and a peer can run a day from it. Check at this level: When must you call a vet straight away? Model answer: For suspected poisoning, serious injury, trouble breathing, repeated vomiting, seizures, collapse or heavy bleeding; record the time and symptoms."
+  ],
+  [
+   "Knowing when to refer to a vet",
+   "L5: learner can run an emergency call and knows the business gives no treatment. Focus: A pet business is not a veterinary clinic. You notice problems early, keep the animal safe and bring in a licensed vet quickly. Key idea: Phone a vet at once for suspected poisoning, serious injury, trouble breathing, repeated vomiting, seizures, collapse or heavy bleeding. Focus module: Knowing when to refer to a vet (Evaluate, 4 h). A pet business is not a veterinary clinic. You notice problems early, keep the animal safe and bring in a licensed vet quickly. Key points: Phone a vet at once for suspected poisoning, serious injury, trouble breathing, repeated vomiting, seizures, collapse or heavy bleeding. Do not diagnose or give medicine unless the owner or vet has told you in writing what to do. Keep your clinic and an out-of-hours emergency number on the wall and in your phone. Record the time, symptoms and what the animal ate or touched.",
+   "Teach: open with the worked example. A dog eats dark chocolate at 4:05 pm. The carer keeps the wrapper, calls the emergency clinic at 4:10 with the dog's weight, follows the vet's instructions, phones the owner at 4:20 and logs every step. Then set the activity: Write an emergency card with numbers, owner contacts and a six-step action list, then run a timed mock call. Mark against the standard: The mock call takes under five minutes, and a mentor vet confirms the card refers serious cases and gives no treatment advice. Check at this level: Can you give a pet medicine on your own judgement? Model answer: No. Give medicine only as the owner or vet instructs in writing, because only qualified vets may diagnose and treat."
+  ],
+  [
+   "Law, insurance and ethics",
+   "L6: learner can cost a service, set a price and state a capacity limit. Focus: A fair price covers every cost, fits the time and space you really have, and leaves a margin for slow weeks. Key idea: List each service and the time per pet, including cleaning, setup and travel. Focus module: Law, insurance and ethics (Evaluate, 4 h). Know the rules before your first client. Local law sets licences, insurance and standards, and a licensed professional can confirm them. Key points: Look up the business licence, animal-welfare law, tax and boarding or grooming rules, noting the office or document for each. Ask an insurance adviser what cover is needed for injury, damage and animals in your care, and file the policy. Never neglect or harm an animal, and report suspected cruelty to the proper authority. Advertise only what you deliver, write clear terms and keep owners' details private.",
+   "Teach: open with the worked example. A provider lists four rules for her town, each with the office name and check date. She asks an adviser about public-liability cover, buys it before taking clients and files the policy number and renewal date. Then set the activity: List every rule, licence and insurance need for your place with source and date, and mark items to confirm with a professional. Mark against the standard: Each rule has a named source and date, no guess is written as fact, and open questions go to a licensed adviser. Check at this level: What belongs on an owner form? Model answer: Pet details, vaccine dates, medicines, allergies, behaviour notes, vet and emergency contacts, signed consent and a spending limit for urgent care."
+  ],
+  [
+   "Pilot, review and improve",
+   "L7: learner can list local rules with sources and name what to confirm with a licensed adviser. Focus: Know the rules before your first client. Local law sets licences, insurance and standards, and a licensed professional can confirm them. Key idea: Look up the business licence, animal-welfare law, tax and boarding or grooming rules, noting the office or document for each. Focus module: Pilot, review and improve (Create, 5 h). Run a 30-day pilot with a few clients to prove your service is safe, fairly priced and wanted before you grow. Key points: Take only the clients your plan allows and log bookings, complaints, injuries, near misses and rebookings daily. Send each owner a short report after every visit with one photo and one fact about the day. Rank the top three problems by how often or badly they happened and fix each with a date. Write a 90-day plan for price, capacity, training and one community action.",
+   "Teach: open with the worked example. A pilot records 24 bookings, 2 complaints and 0 injuries. After photo reports begin, rebookings rise from 35% to 55%. The top issue, late pickups, is fixed with a set pickup time on the form. Then set the activity: Present your pilot log, price sheet and 90-day plan to peers and a mentor in a ten-minute talk. Mark against the standard: Figures match the log, three fixes are dated, and peers rate the evidence Meets or better. Check at this level: Why separate a sick animal from the others? Model answer: It stops infection spreading to other animals; then clean the area, call the owner and vet, and note the actions in the log."
+  ]
+ ]
 }

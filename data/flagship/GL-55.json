@@ -36,16 +36,16 @@
    "How a wind turbine works",
    "Understand",
    3,
-   "A wind turbine turns the push of moving air into electricity. Knowing the parts and the physics helps you judge any project.",
+   "A wind turbine turns the push of moving air into electricity. Knowing the parts and the physics lets you judge any site or machine.",
    [
-    "Blades capture wind and turn a shaft; a generator converts rotation to electricity; a tower lifts the rotor into stronger wind; a controller manages speed and safety.",
-    "Key speeds: cut-in (starts), rated (full power) and cut-out (stops for safety).",
-    "Power grows with the cube of wind speed, so a small increase in speed gives a large increase in power.",
-    "Larger blades sweep more area, which also raises power."
+    "Blades turn a rotor; a generator (with or without a gearbox) makes electricity.",
+    "Power in wind = 0.5 x air density x swept area x wind speed cubed, so doubling speed gives eight times the power.",
+    "No turbine captures more than about 59 per cent of wind power; real machines reach 35 to 45 per cent.",
+    "Turbines start at about 3 m/s, reach rated power near 12 m/s and stop in storms for safety."
    ],
-   "Doubling the wind speed from 5 to 10 m/s gives about eight times more power. A turbine producing 1 kW at 5 m/s could produce about 8 kW at 10 m/s, until it reaches its rated power.",
-   "Label a turbine diagram and write one sentence on what each part does.",
-   "All main parts are named and the cube rule is stated correctly."
+   "A rotor 4 m across sweeps 12.6 square metres. In a 6 m/s wind the air carries 0.5 x 1.2 x 12.6 x 216 = 1,633 W. At 40 per cent the turbine gives about 650 W. At 3 m/s it gives only about 80 W.",
+   "Label a turbine diagram and calculate power at 4, 6 and 8 m/s.",
+   "Parts are correct; three power values are right and the cube effect is explained in one sentence."
   ],
   [
    "Wind resource and sites",
@@ -53,14 +53,14 @@
    4,
    "Good wind makes or breaks a project, and wind data decides whether to continue.",
    [
-    "Wind speed rises with height; trees, buildings and hills cause turbulence.",
-    "Use at least a year of hourly or ten-minute averages from a mast or a trusted dataset.",
-    "Choose open land away from obstacles, with road access and a grid or load nearby.",
-    "Check land rights, distance from homes and any aviation or radar limits."
+    "Use at least one year of data at hub height; short records mislead.",
+    "Trees, buildings and hills cause turbulence; put the rotor well above them.",
+    "Record average speed, direction and the share of time in each speed band.",
+    "Check the distance to the load and to the grid connection."
    ],
-   "A hilltop averages 6.5 m/s at 30 m height; a sheltered valley averages 4.2 m/s. The hilltop produces roughly three times the energy from the same turbine.",
-   "Tabulate monthly average wind speed for a real or practice site with the data source.",
-   "Table has twelve months, units and source."
+   "A site shows 4.2 m/s average at 10 m and 5.0 m/s at 30 m. A rule of thumb is that speed rises about 15 per cent per doubling of height, so a 30 m tower gives the better energy.",
+   "Complete a wind data table for a site with five speed bands and hours in each.",
+   "Hours add to 8,760 and the average speed is calculated correctly."
   ],
   [
    "Estimating energy",
@@ -68,14 +68,14 @@
    5,
    "A simple estimate tells you if a project is worth a closer look.",
    [
-    "Swept area = pi x radius squared.",
-    "Power in the wind = 0.5 x air density x area x speed cubed; real turbines capture only a fraction.",
     "Annual energy = rated power x 8,760 hours x capacity factor.",
-    "Small turbines often reach 15 to 30 per cent capacity factor on good sites."
+    "Small wind capacity factors are often 10 to 25 per cent.",
+    "Take the lower value if the data is poor.",
+    "Compare with the yearly use of the building."
    ],
-   "A 5 kW turbine at 22 per cent capacity factor produces 5 x 8,760 x 0.22 = about 9,636 kWh per year.",
-   "Calculate annual energy for your case and show every step with units.",
-   "Units and steps are correct, and the result is checked against the capacity factor range."
+   "A 5 kW turbine at 18 per cent capacity factor gives 5 x 8,760 x 0.18 = 7,884 kWh a year. A home using 6,000 kWh a year would cover most of its need; at 10 per cent the output falls to 4,380 kWh.",
+   "Estimate yearly energy for low, medium and high capacity factors.",
+   "Three results are correct and compared with the user load."
   ],
   [
    "Turbine types and sizes",
@@ -83,14 +83,14 @@
    3,
    "Choose the right size and type for the site and the need.",
    [
-    "Horizontal-axis turbines are most efficient; vertical-axis turbines are sometimes used where wind is turbulent, but usually produce less.",
-    "Small turbines suit remote sites; medium and large turbines suit farms and grids.",
-    "Grid-tied systems send extra power to the network; off-grid systems need batteries.",
-    "Compare cost per kW, noise, service needs and warranty."
+    "Horizontal axis machines are common and efficient; vertical axis machines suit gusty, low-height sites but usually produce less.",
+    "Match rated power to the load and to the wind speed at the site.",
+    "Tower height matters more than a bigger rotor in rough terrain.",
+    "Grid-tied and battery-backed designs have different cost and control."
    ],
-   "A village chooses a grid-tied 10 kW turbine to reduce diesel use, rather than a 3 kW unit with batteries that would not meet its evening load.",
-   "Compare three turbines in a table with rated power, rotor diameter, cost per kW and notes.",
-   "Table is complete with sources and dates."
+   "For a farm needing 20 kWh a day, a 3 kW machine at 20 per cent factor gives 14 kWh a day, so a 5 kW machine is the better fit.",
+   "Choose a turbine for a given load and site and justify it.",
+   "Choice shows size, type, tower height and one reason for each."
   ],
   [
    "Cost and payback",
@@ -98,14 +98,14 @@
    4,
    "Count the full cost and the full benefit.",
    [
-    "Costs: turbine, tower, foundation, wiring, permits, installation, maintenance, insurance.",
-    "Benefit: electricity bills avoided or sold; value of backup.",
-    "Simple payback = total cost / yearly benefit.",
-    "Test with higher costs and lower wind to see how safe the case is."
+    "Include turbine, tower, foundation, electrical work, permits and labour.",
+    "Include maintenance (about 2 to 3 per cent of cost a year) and inverter replacement.",
+    "Annual saving = kWh produced x price per kWh.",
+    "Payback = cost / annual saving; test weak-wind cases."
    ],
-   "Cost 6,50,000 INR; yearly benefit 85,000 INR; payback 7.6 years. If wind is 10 per cent lower, energy falls about 27 per cent and payback stretches past 10 years.",
-   "Build a payback sheet with a base case and a low-wind case.",
-   "Maths correct and the currency is shown."
+   "A 5 kW system costs 600,000. It makes 7,884 kWh at 8 per kWh, saving 63,072 a year, less 15,000 maintenance. Net saving 48,072 gives a payback of 12.5 years. At 10 per cent factor payback passes 25 years and the project is not worth it.",
+   "Build the cost and payback table for two wind cases.",
+   "Costs add up, both cases are shown and a go or no-go is stated."
   ],
   [
    "Safety and maintenance",
@@ -113,14 +113,14 @@
    4,
    "Heights, rotating parts and electricity are serious hazards.",
    [
-    "Only trained and certified people work at height or on electrical systems.",
-    "Lock out and tag out before maintenance; never climb in strong wind.",
-    "Regular checks: bolts, blades, brakes, wiring and tower.",
-    "Keep the public away with fencing and signs."
+    "Work at height only with training, harness and a rescue plan.",
+    "Lock out the turbine and electrical supply before work.",
+    "Check bolts, blades, brakes and cables on a schedule.",
+    "Keep people clear of blade throw and ice fall zones."
    ],
-   "A crew has a rule that nobody climbs if wind exceeds a set speed. The rule is posted at the base and checked on a log sheet.",
-   "Write a safety checklist and a monthly maintenance schedule.",
-   "Mentor engineer confirms the lists."
+   "A yearly check finds a loose tower bolt and a cracked blade tip; the turbine is stopped and repaired before it runs again.",
+   "Write a one-page maintenance and safety plan.",
+   "Plan lists checks, frequency, who does them and stop rules."
   ],
   [
    "Environment and community",
@@ -128,14 +128,14 @@
    3,
    "Projects work best when neighbours and nature are considered from the start.",
    [
-    "Noise, shadow flicker, birds and bats, land use and views.",
-    "Consult neighbours early and follow permit rules.",
-    "Plan decommissioning and recycling at end of life.",
-    "Share benefits such as cheaper power or local jobs."
+    "Noise, shadow flicker and view concerns need honest discussion.",
+    "Check bird and bat routes and apply local rules.",
+    "Keep a safe distance of at least the tower height plus blade length from homes and roads.",
+    "Share benefits where possible."
    ],
-   "Seasonal shutdowns during peak bird migration, radar checks and a community benefit fund reduce objections.",
-   "List impacts and controls for a practice site.",
-   "Each impact has a control and an owner."
+   "Residents are shown a noise estimate and a map of the safe distance. The turbine is moved 80 m away after they ask.",
+   "List four community and nature checks with an action for each.",
+   "All four are practical and each has an owner."
   ],
   [
    "Write the feasibility note",
@@ -143,56 +143,56 @@
    4,
    "Bring it together into a clear decision note.",
    [
-    "One-page summary with site, wind data, energy, cost and payback.",
-    "List assumptions and risks.",
-    "State what you do not know yet.",
-    "Have a mentor review."
+    "State the need and the site.",
+    "Show the wind table, energy estimate and payback.",
+    "Cover safety, permits and community.",
+    "End with go, no-go or measure more, with the reason."
    ],
-   "The note recommends a one-year wind monitoring mast before buying a turbine, saving the risk of a poor site.",
-   "Write and present the note.",
-   "A peer can follow every number."
+   "The note recommends one more year of measurement because the first-year data covers only seven months.",
+   "Write the two-page feasibility note.",
+   "All parts are present, numbers agree and the decision is justified."
   ]
  ],
  "quiz": [
   [
    "What does the generator do?",
-   "Turns rotation into electricity. (Covered in module 1: How a wind turbine works. To pass that module: All main parts are named and the cube rule is stated correctly.)"
+   "Turns rotation into electricity. (Covered in module 1: How a wind turbine works. To pass that module: Parts are correct; three power values are right and the cube effect is explained in one sentence.)"
   ],
   [
    "What happens to power when wind doubles?",
-   "About eight times more. (Covered in module 2: Wind resource and sites. To pass that module: Table has twelve months, units and source.)"
+   "About eight times more. (Covered in module 2: Wind resource and sites. To pass that module: Hours add to 8,760 and the average speed is calculated correctly.)"
   ],
   [
    "Swept area formula?",
-   "Pi x radius squared. (Covered in module 3: Estimating energy. To pass that module: Units and steps are correct, and the result is checked against the capacity factor range.)"
+   "Pi x radius squared. (Covered in module 3: Estimating energy. To pass that module: Three results are correct and compared with the user load.)"
   ],
   [
    "Typical small capacity factor?",
-   "15 to 30 percent. (Covered in module 4: Turbine types and sizes. To pass that module: Table is complete with sources and dates.)"
+   "15 to 30 percent. (Covered in module 4: Turbine types and sizes. To pass that module: Choice shows size, type, tower height and one reason for each.)"
   ],
   [
    "Name a cost item.",
-   "Turbine, tower, foundation, wiring, permits, maintenance. (Covered in module 5: Cost and payback. To pass that module: Maths correct and the currency is shown.)"
+   "Turbine, tower, foundation, wiring, permits, maintenance. (Covered in module 5: Cost and payback. To pass that module: Costs add up, both cases are shown and a go or no-go is stated.)"
   ],
   [
    "Payback formula?",
-   "Cost divided by yearly benefit. (Covered in module 6: Safety and maintenance. To pass that module: Mentor engineer confirms the lists.)"
+   "Cost divided by yearly benefit. (Covered in module 6: Safety and maintenance. To pass that module: Plan lists checks, frequency, who does them and stop rules.)"
   ],
   [
    "Who may work at height?",
-   "Trained, certified people. (Covered in module 7: Environment and community. To pass that module: Each impact has a control and an owner.)"
+   "Trained, certified people. (Covered in module 7: Environment and community. To pass that module: All four are practical and each has an owner.)"
   ],
   [
    "Name two impacts.",
-   "Noise and birds (or shadow flicker). (Covered in module 8: Write the feasibility note. To pass that module: A peer can follow every number.)"
+   "Noise and birds (or shadow flicker). (Covered in module 8: Write the feasibility note. To pass that module: All parts are present, numbers agree and the decision is justified.)"
   ],
   [
    "Why a year of wind data?",
-   "To cover all seasons. (Covered in module 8: Write the feasibility note. To pass that module: A peer can follow every number.)"
+   "To cover all seasons. (Covered in module 8: Write the feasibility note. To pass that module: All parts are present, numbers agree and the decision is justified.)"
   ],
   [
    "Why decommissioning plan?",
-   "To remove and recycle safely. (Covered in module 8: Write the feasibility note. To pass that module: A peer can follow every number.)"
+   "To remove and recycle safely. (Covered in module 8: Write the feasibility note. To pass that module: All parts are present, numbers agree and the decision is justified.)"
   ]
  ],
  "rubric": [
@@ -254,38 +254,38 @@
  "ladder": [
   [
    "How a wind turbine works",
-   "L1: learner can name turbine parts. Focus module: How a wind turbine works (Understand, 3 h). A wind turbine turns the push of moving air into electricity. Knowing the parts and the physics helps you judge any project. Key points: Blades capture wind and turn a shaft; a generator converts rotation to electricity; a tower lifts the rotor into stronger wind; a controller manages speed and safety. Key speeds: cut-in (starts), rated (full power) and cut-out (stops for safety). Power grows with the cube of wind speed, so a small increase in speed gives a large increase in power. Larger blades sweep more area, which also raises power.",
-   "Teach: open with the worked example. Doubling the wind speed from 5 to 10 m/s gives about eight times more power. A turbine producing 1 kW at 5 m/s could produce about 8 kW at 10 m/s, until it reaches its rated power. Then set the activity: Label a turbine diagram and write one sentence on what each part does. Mark against the standard: All main parts are named and the cube rule is stated correctly. Check at this level: What does the generator do? Model answer: Turns rotation into electricity."
+   "L1: learner can name turbine parts. Focus module: How a wind turbine works (Understand, 3 h). A wind turbine turns the push of moving air into electricity. Knowing the parts and the physics lets you judge any site or machine. Key points: Blades turn a rotor; a generator (with or without a gearbox) makes electricity. Power in wind = 0.5 x air density x swept area x wind speed cubed, so doubling speed gives eight times the power. No turbine captures more than about 59 per cent of wind power; real machines reach 35 to 45 per cent. Turbines start at about 3 m/s, reach rated power near 12 m/s and stop in storms for safety.",
+   "Teach: open with the worked example. A rotor 4 m across sweeps 12.6 square metres. In a 6 m/s wind the air carries 0.5 x 1.2 x 12.6 x 216 = 1,633 W. At 40 per cent the turbine gives about 650 W. At 3 m/s it gives only about 80 W. Then set the activity: Label a turbine diagram and calculate power at 4, 6 and 8 m/s. Mark against the standard: Parts are correct; three power values are right and the cube effect is explained in one sentence. Check at this level: What does the generator do? Model answer: Turns rotation into electricity."
   ],
   [
    "Wind resource and sites",
-   "L2: learner knows wind and safety basics. Focus module: Wind resource and sites (Analyse, 4 h). Good wind makes or breaks a project, and wind data decides whether to continue. Key points: Wind speed rises with height; trees, buildings and hills cause turbulence. Use at least a year of hourly or ten-minute averages from a mast or a trusted dataset. Choose open land away from obstacles, with road access and a grid or load nearby. Check land rights, distance from homes and any aviation or radar limits.",
-   "Teach: open with the worked example. A hilltop averages 6.5 m/s at 30 m height; a sheltered valley averages 4.2 m/s. The hilltop produces roughly three times the energy from the same turbine. Then set the activity: Tabulate monthly average wind speed for a real or practice site with the data source. Mark against the standard: Table has twelve months, units and source. Check at this level: What happens to power when wind doubles? Model answer: About eight times more."
+   "L2: learner knows wind and safety basics. Focus module: Wind resource and sites (Analyse, 4 h). Good wind makes or breaks a project, and wind data decides whether to continue. Key points: Use at least one year of data at hub height; short records mislead. Trees, buildings and hills cause turbulence; put the rotor well above them. Record average speed, direction and the share of time in each speed band. Check the distance to the load and to the grid connection.",
+   "Teach: open with the worked example. A site shows 4.2 m/s average at 10 m and 5.0 m/s at 30 m. A rule of thumb is that speed rises about 15 per cent per doubling of height, so a 30 m tower gives the better energy. Then set the activity: Complete a wind data table for a site with five speed bands and hours in each. Mark against the standard: Hours add to 8,760 and the average speed is calculated correctly. Check at this level: What happens to power when wind doubles? Model answer: About eight times more."
   ],
   [
    "Estimating energy",
-   "L3: learner can estimate energy. Focus module: Estimating energy (Apply, 5 h). A simple estimate tells you if a project is worth a closer look. Key points: Swept area = pi x radius squared. Power in the wind = 0.5 x air density x area x speed cubed; real turbines capture only a fraction. Annual energy = rated power x 8,760 hours x capacity factor. Small turbines often reach 15 to 30 per cent capacity factor on good sites.",
-   "Teach: open with the worked example. A 5 kW turbine at 22 per cent capacity factor produces 5 x 8,760 x 0.22 = about 9,636 kWh per year. Then set the activity: Calculate annual energy for your case and show every step with units. Mark against the standard: Units and steps are correct, and the result is checked against the capacity factor range. Check at this level: Swept area formula? Model answer: Pi x radius squared."
+   "L3: learner can estimate energy. Focus module: Estimating energy (Apply, 5 h). A simple estimate tells you if a project is worth a closer look. Key points: Annual energy = rated power x 8,760 hours x capacity factor. Small wind capacity factors are often 10 to 25 per cent. Take the lower value if the data is poor. Compare with the yearly use of the building.",
+   "Teach: open with the worked example. A 5 kW turbine at 18 per cent capacity factor gives 5 x 8,760 x 0.18 = 7,884 kWh a year. A home using 6,000 kWh a year would cover most of its need; at 10 per cent the output falls to 4,380 kWh. Then set the activity: Estimate yearly energy for low, medium and high capacity factors. Mark against the standard: Three results are correct and compared with the user load. Check at this level: Swept area formula? Model answer: Pi x radius squared."
   ],
   [
    "Turbine types and sizes",
-   "L4: learner can run a site wind log. Focus module: Turbine types and sizes (Analyse, 3 h). Choose the right size and type for the site and the need. Key points: Horizontal-axis turbines are most efficient; vertical-axis turbines are sometimes used where wind is turbulent, but usually produce less. Small turbines suit remote sites; medium and large turbines suit farms and grids. Grid-tied systems send extra power to the network; off-grid systems need batteries. Compare cost per kW, noise, service needs and warranty.",
-   "Teach: open with the worked example. A village chooses a grid-tied 10 kW turbine to reduce diesel use, rather than a 3 kW unit with batteries that would not meet its evening load. Then set the activity: Compare three turbines in a table with rated power, rotor diameter, cost per kW and notes. Mark against the standard: Table is complete with sources and dates. Check at this level: Typical small capacity factor? Model answer: 15 to 30 percent."
+   "L4: learner can run a site wind log. Focus module: Turbine types and sizes (Analyse, 3 h). Choose the right size and type for the site and the need. Key points: Horizontal axis machines are common and efficient; vertical axis machines suit gusty, low-height sites but usually produce less. Match rated power to the load and to the wind speed at the site. Tower height matters more than a bigger rotor in rough terrain. Grid-tied and battery-backed designs have different cost and control.",
+   "Teach: open with the worked example. For a farm needing 20 kWh a day, a 3 kW machine at 20 per cent factor gives 14 kWh a day, so a 5 kW machine is the better fit. Then set the activity: Choose a turbine for a given load and site and justify it. Mark against the standard: Choice shows size, type, tower height and one reason for each. Check at this level: Typical small capacity factor? Model answer: 15 to 30 percent."
   ],
   [
    "Cost and payback",
-   "L5: learner can compare types and costs. Focus module: Cost and payback (Evaluate, 4 h). Count the full cost and the full benefit. Key points: Costs: turbine, tower, foundation, wiring, permits, installation, maintenance, insurance. Benefit: electricity bills avoided or sold; value of backup. Simple payback = total cost / yearly benefit. Test with higher costs and lower wind to see how safe the case is.",
-   "Teach: open with the worked example. Cost 6,50,000 INR; yearly benefit 85,000 INR; payback 7.6 years. If wind is 10 per cent lower, energy falls about 27 per cent and payback stretches past 10 years. Then set the activity: Build a payback sheet with a base case and a low-wind case. Mark against the standard: Maths correct and the currency is shown. Check at this level: Name a cost item. Model answer: Turbine, tower, foundation, wiring, permits, maintenance."
+   "L5: learner can compare types and costs. Focus module: Cost and payback (Evaluate, 4 h). Count the full cost and the full benefit. Key points: Include turbine, tower, foundation, electrical work, permits and labour. Include maintenance (about 2 to 3 per cent of cost a year) and inverter replacement. Annual saving = kWh produced x price per kWh. Payback = cost / annual saving; test weak-wind cases.",
+   "Teach: open with the worked example. A 5 kW system costs 600,000. It makes 7,884 kWh at 8 per kWh, saving 63,072 a year, less 15,000 maintenance. Net saving 48,072 gives a payback of 12.5 years. At 10 per cent factor payback passes 25 years and the project is not worth it. Then set the activity: Build the cost and payback table for two wind cases. Mark against the standard: Costs add up, both cases are shown and a go or no-go is stated. Check at this level: Name a cost item. Model answer: Turbine, tower, foundation, wiring, permits, maintenance."
   ],
   [
    "Environment and community",
-   "L6: learner can coordinate a small project. Focus module: Environment and community (Evaluate, 3 h). Projects work best when neighbours and nature are considered from the start. Key points: Noise, shadow flicker, birds and bats, land use and views. Consult neighbours early and follow permit rules. Plan decommissioning and recycling at end of life. Share benefits such as cheaper power or local jobs.",
-   "Teach: open with the worked example. Seasonal shutdowns during peak bird migration, radar checks and a community benefit fund reduce objections. Then set the activity: List impacts and controls for a practice site. Mark against the standard: Each impact has a control and an owner. Check at this level: Payback formula? Model answer: Cost divided by yearly benefit."
+   "L6: learner can coordinate a small project. Focus module: Environment and community (Evaluate, 3 h). Projects work best when neighbours and nature are considered from the start. Key points: Noise, shadow flicker and view concerns need honest discussion. Check bird and bat routes and apply local rules. Keep a safe distance of at least the tower height plus blade length from homes and roads. Share benefits where possible.",
+   "Teach: open with the worked example. Residents are shown a noise estimate and a map of the safe distance. The turbine is moved 80 m away after they ask. Then set the activity: List four community and nature checks with an action for each. Mark against the standard: All four are practical and each has an owner. Check at this level: Payback formula? Model answer: Cost divided by yearly benefit."
   ],
   [
    "Write the feasibility note",
-   "L7: learner can audit a feasibility note. Focus module: Write the feasibility note (Create, 4 h). Bring it together into a clear decision note. Key points: One-page summary with site, wind data, energy, cost and payback. List assumptions and risks. State what you do not know yet. Have a mentor review.",
-   "Teach: open with the worked example. The note recommends a one-year wind monitoring mast before buying a turbine, saving the risk of a poor site. Then set the activity: Write and present the note. Mark against the standard: A peer can follow every number. Check at this level: Who may work at height? Model answer: Trained, certified people."
+   "L7: learner can audit a feasibility note. Focus module: Write the feasibility note (Create, 4 h). Bring it together into a clear decision note. Key points: State the need and the site. Show the wind table, energy estimate and payback. Cover safety, permits and community. End with go, no-go or measure more, with the reason.",
+   "Teach: open with the worked example. The note recommends one more year of measurement because the first-year data covers only seven months. Then set the activity: Write the two-page feasibility note. Mark against the standard: All parts are present, numbers agree and the decision is justified. Check at this level: Who may work at height? Model answer: Trained, certified people."
   ]
  ]
 }
