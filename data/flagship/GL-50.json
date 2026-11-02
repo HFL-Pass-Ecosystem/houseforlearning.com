@@ -1,0 +1,283 @@
+{
+ "id": "GL-50",
+ "title": "Skincare Spa and Clinic Management",
+ "level": 4,
+ "desc": "Plan and run a small skincare spa or clinic: services, hygiene, consent, scheduling, products, pricing and client care.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain service menus, scope of practice and hygiene rules."
+  ],
+  [
+   "Apply",
+   "Run client intake, consent and patch-test steps."
+  ],
+  [
+   "Analyse",
+   "Build a schedule and cost per treatment."
+  ],
+  [
+   "Evaluate",
+   "Judge product claims and ingredient labels."
+  ],
+  [
+   "Create",
+   "Launch a 30-day pilot with a client-care review."
+  ]
+ ],
+ "task": "Plan and pilot a small skincare spa service menu with hygiene plan, consent forms, pricing, schedule and client feedback log.",
+ "condition": "A practice room or real licensed space, a spreadsheet, two peers and a licensed practitioner as mentor. Medical treatments are outside scope.",
+ "standard": "Hygiene checklist passes; every service has a scope note; costs and price are shown; consent and patch-test steps are recorded; peers rate Meets or better.",
+ "who": "Beauty therapists, spa owners, front-desk staff, small clinic managers.",
+ "req": "none",
+ "evidence": "service menu, hygiene plan, intake and consent forms, price sheet, pilot log",
+ "modules": [
+  [
+   "Service menu and scope",
+   "Understand",
+   4,
+   "Offer only what staff are trained and licensed to do.",
+   [
+    "Cleansing, facials, light exfoliation; leave medical treatments to doctors.",
+    "Write who can perform each service.",
+    "Refer skin concerns to a doctor."
+   ],
+   "The spa lists facials but refers a changing mole to a doctor.",
+   "Write a menu with scope notes.",
+   "Each service has a qualification need."
+  ],
+  [
+   "Hygiene and infection control",
+   "Apply",
+   5,
+   "Clean spaces protect clients.",
+   [
+    "Hand washing, clean towels, single-use items, tool sterilising.",
+    "Surface cleaning between clients; waste handling.",
+    "Daily and weekly log."
+   ],
+   "A tool tray is sterilised for the full cycle and logged.",
+   "Write a hygiene checklist and a log.",
+   "All steps have a time and initials."
+  ],
+  [
+   "Client intake, consent, patch tests",
+   "Apply",
+   5,
+   "Know the client before touching skin.",
+   [
+    "Ask about allergies, medicines, pregnancy, skin conditions.",
+    "Do patch tests 24 to 48 hours before new products where advised.",
+    "Written consent before treatment."
+   ],
+   "A client with a nut allergy avoids a nut-oil product.",
+   "Design an intake form.",
+   "Form covers allergy, medicine, consent."
+  ],
+  [
+   "Products and ingredients",
+   "Evaluate",
+   5,
+   "Do not trust claims blindly.",
+   [
+    "Read ingredient lists; know common allergens.",
+    "Reject miracle claims; use claims the maker can support.",
+    "Store products at the right temperature and note expiry."
+   ],
+   "A cream lists fragrance as the first ingredient; the practitioner avoids it for sensitive skin.",
+   "Review 3 product labels.",
+   "Each review has a safety note."
+  ],
+  [
+   "Scheduling and capacity",
+   "Analyse",
+   4,
+   "Time is the main resource.",
+   [
+    "Service time plus cleaning plus buffer.",
+    "Rooms and staff per slot.",
+    "Online booking and reminders."
+   ],
+   "A 60-minute facial uses 80 minutes of room time.",
+   "Build a day schedule for two staff.",
+   "No overlaps."
+  ],
+  [
+   "Pricing and profit",
+   "Evaluate",
+   5,
+   "Know costs per treatment.",
+   [
+    "Staff time, products, rent share, laundry, booking fees.",
+    "Price to cover cost and margin.",
+    "Packages and loyalty must still be profitable."
+   ],
+   "Cost 520 INR; price 1,100 INR; margin 580 INR.",
+   "Cost 5 services.",
+   "Totals correct; currency shown."
+  ],
+  [
+   "Client care and complaints",
+   "Apply",
+   4,
+   "Calm service wins trust.",
+   [
+    "Greet, explain, check comfort, aftercare tips.",
+    "Handle reactions: stop, rinse, record, advise a doctor if needed.",
+    "Review feedback weekly."
+   ],
+   "A client reports redness; staff stop, cool the skin, record and call the mentor.",
+   "Write a reaction protocol.",
+   "Steps in order with contact numbers."
+  ],
+  [
+   "Pilot and improve",
+   "Create",
+   5,
+   "Run 30 days of service.",
+   [
+    "Track bookings, rebookings, complaints, product waste.",
+    "Fix top 3 issues.",
+    "Plan responsible disposal and fair pay."
+   ],
+   "Rebooking rises from 32% to 45% after aftercare cards.",
+   "Present the pilot review.",
+   "Numbers are real; three fixes dated."
+  ]
+ ],
+ "quiz": [
+  [
+   "Why list scope?",
+   "To keep to training and licence."
+  ],
+  [
+   "Name two hygiene steps.",
+   "Hand washing and sterilising tools."
+  ],
+  [
+   "What is a patch test?",
+   "A small test on skin before a full treatment."
+  ],
+  [
+   "Name a common allergen.",
+   "Fragrance or nut oil."
+  ],
+  [
+   "What to do on a reaction?",
+   "Stop, rinse, record, get medical help if needed."
+  ],
+  [
+   "What is room time?",
+   "Service plus cleaning and buffer."
+  ],
+  [
+   "What costs go into a price?",
+   "Staff, products, rent share, laundry, fees."
+  ],
+  [
+   "Why miracle claims bad?",
+   "They mislead and break rules."
+  ],
+  [
+   "What do you track in a pilot?",
+   "Bookings, rebooks, complaints, waste."
+  ],
+  [
+   "When refer to a doctor?",
+   "Skin changes or medical concerns."
+  ]
+ ],
+ "rubric": [
+  [
+   "Hygiene",
+   "Gaps",
+   "Checklist complete",
+   "Checklist complete and logged daily"
+  ],
+  [
+   "Consent and intake",
+   "Missing",
+   "Forms used",
+   "Forms used with patch tests"
+  ],
+  [
+   "Pricing",
+   "No costs",
+   "Costs listed",
+   "Costs and margin checked"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Spa receptionist",
+   "Handles booking and intake"
+  ],
+  [
+   "Skincare therapist (qualified)",
+   "Delivers services"
+  ],
+  [
+   "Spa manager",
+   "Plans schedule and hygiene"
+  ],
+  [
+   "Product buyer",
+   "Reviews labels"
+  ],
+  [
+   "Small clinic coordinator",
+   "Runs client care"
+  ]
+ ],
+ "next": "customer service, small business bookkeeping, hygiene and safety.",
+ "local": "Beauty and clinic licensing differ by place; confirm what each person may do.",
+ "ladder": [
+  [
+   "Know the basics",
+   "L1: learner can name basic skin-care steps.",
+   "Show a tray."
+  ],
+  [
+   "Know the rules and risks",
+   "L2: learner knows hygiene and scope rules.",
+   "Explain scope."
+  ],
+  [
+   "Prepare and set up",
+   "L3: learner can run intake and consent.",
+   "Practise intake."
+  ],
+  [
+   "Run it",
+   "L4: learner can run a full client visit.",
+   "Role-play visit."
+  ],
+  [
+   "Specialise and measure",
+   "L5: learner can cost and price services.",
+   "Cost sheet."
+  ],
+  [
+   "Lead a small team",
+   "L6: learner can lead a small spa team.",
+   "Cover rota."
+  ],
+  [
+   "Advise and audit others",
+   "L7: learner can audit a spa for hygiene and fairness.",
+   "Peer audit."
+  ]
+ ]
+}

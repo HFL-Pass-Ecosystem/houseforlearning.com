@@ -1,0 +1,283 @@
+{
+ "id": "GL-48",
+ "title": "Nanotechnology in Medicine (Awareness Level)",
+ "level": 5,
+ "desc": "Understand how very small materials are used in medicine, from imaging to drug delivery, and how safety, testing and ethics apply. Awareness only.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain what nanoscale means and give three medical uses."
+  ],
+  [
+   "Apply",
+   "Use size comparisons and units correctly."
+  ],
+  [
+   "Analyse",
+   "Compare benefits and risks of nanomedicines."
+  ],
+  [
+   "Evaluate",
+   "Judge claims in news and adverts."
+  ],
+  [
+   "Create",
+   "Write a balanced one-page briefing."
+  ]
+ ],
+ "task": "Write a two-page briefing on three medical uses of nanotechnology, with benefits, risks, evidence stage and ethical questions.",
+ "condition": "A computer, public information, two peers and a mentor. No laboratory work is done in this course.",
+ "standard": "Units and sizes are correct; each use has an evidence stage; risks are stated; no overclaims; sources dated; peers rate Meets or better.",
+ "who": "Science students, biomedical trainees, health writers, regulators' assistants.",
+ "req": "none",
+ "evidence": "briefing, size chart, claim review",
+ "modules": [
+  [
+   "The nanoscale",
+   "Understand",
+   2,
+   "A nanometre is one billionth of a metre.",
+   [
+    "A hair is about 80,000 nm wide; a virus about 100 nm.",
+    "Materials behave differently at this size.",
+    "Units: 1 m = 1,000,000,000 nm."
+   ],
+   "Gold looks red when particles are tiny, not yellow.",
+   "Make a size chart from hair to atom.",
+   "Orders of magnitude correct."
+  ],
+  [
+   "Imaging and diagnostics",
+   "Understand",
+   2,
+   "Tiny particles can make signals clearer.",
+   [
+    "Contrast agents and rapid test strips use nanoparticles.",
+    "Sensors can detect small amounts of a marker.",
+    "False results still occur; follow-up tests are needed."
+   ],
+   "A rapid test shows a coloured line using gold particles.",
+   "Explain a test strip in your own words.",
+   "Peer understands."
+  ],
+  [
+   "Drug delivery",
+   "Understand",
+   3,
+   "Carriers can protect a drug and aim it.",
+   [
+    "Lipid particles carry some vaccines and drugs.",
+    "Targeting may reduce side effects.",
+    "The body can clear or react to carriers."
+   ],
+   "Fat-based particles shield fragile genetic material during delivery.",
+   "Draw a delivery diagram.",
+   "Diagram labels carrier, drug, target."
+  ],
+  [
+   "Materials in the body",
+   "Analyse",
+   3,
+   "Where particles go matters.",
+   [
+    "Size, shape and surface decide where they travel.",
+    "Liver and kidneys clear many particles.",
+    "Long-term effects need study."
+   ],
+   "Particles above a certain size stay in the liver longer.",
+   "Make a table of size and body route.",
+   "Table is consistent with sources."
+  ],
+  [
+   "Testing and regulation",
+   "Evaluate",
+   3,
+   "Nanomedicines go through extra checks.",
+   [
+    "Lab, animal-free methods where possible, human trials, approval.",
+    "Regulators ask for size distribution, stability and safety.",
+    "Post-approval monitoring continues."
+   ],
+   "A batch is rejected because particle size varied.",
+   "Map the path from lab to patient.",
+   "All stages shown."
+  ],
+  [
+   "Risks and unknowns",
+   "Evaluate",
+   3,
+   "Honest briefings include uncertainty.",
+   [
+    "Possible inflammation, accumulation, allergy.",
+    "Environmental release during manufacture and disposal.",
+    "Workers need protection from dust."
+   ],
+   "A plant uses closed systems and masks for powders.",
+   "List risks and controls.",
+   "Each risk has a control."
+  ],
+  [
+   "Hype and claims",
+   "Analyse",
+   2,
+   "Sort proven from promised.",
+   [
+    "Check evidence stage: idea, lab, trial, approved.",
+    "Be careful with \"miracle\" words.",
+    "Look for independent reviews."
+   ],
+   "A news story calls a lab result a cure; the learner marks it \"lab stage\".",
+   "Review three headlines.",
+   "Stage is named for each."
+  ],
+  [
+   "Write the briefing",
+   "Create",
+   3,
+   "Balance benefit, risk and fairness.",
+   [
+    "Cover access and cost.",
+    "State what is unknown.",
+    "Test with a non-expert."
+   ],
+   "The reader can explain why approval takes years.",
+   "Finish and test.",
+   "Reader repeats three limits."
+  ]
+ ],
+ "quiz": [
+  [
+   "How many nanometres in a metre?",
+   "1,000,000,000."
+  ],
+  [
+   "Name a medical use.",
+   "Imaging, test strips or drug delivery."
+  ],
+  [
+   "Why does size matter in the body?",
+   "It decides where particles go and how they clear."
+  ],
+  [
+   "What do regulators check?",
+   "Size distribution, stability and safety."
+  ],
+  [
+   "Name a risk.",
+   "Inflammation, accumulation or allergy."
+  ],
+  [
+   "Name a worker control.",
+   "Closed systems or masks."
+  ],
+  [
+   "How judge a headline?",
+   "Find the evidence stage."
+  ],
+  [
+   "Who gets access?",
+   "A fairness question to state."
+  ],
+  [
+   "Is lab result a cure?",
+   "No."
+  ],
+  [
+   "Why monitor after approval?",
+   "Long-term effects can appear."
+  ]
+ ],
+ "rubric": [
+  [
+   "Science accuracy",
+   "Errors",
+   "Correct",
+   "Correct with sources"
+  ],
+  [
+   "Risks and unknowns",
+   "Missing",
+   "Listed",
+   "Listed with controls"
+  ],
+  [
+   "Claim review",
+   "None",
+   "Done",
+   "Done with evidence stage"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Biomedical lab assistant",
+   "Supports sample prep"
+  ],
+  [
+   "Regulatory affairs assistant",
+   "Tracks documents"
+  ],
+  [
+   "Science writer",
+   "Explains advances"
+  ],
+  [
+   "Quality technician",
+   "Checks batches"
+  ],
+  [
+   "Ethics committee assistant",
+   "Supports reviews"
+  ]
+ ],
+ "next": "DNA analysis, stem cells, materials science basics.",
+ "local": "Medicine regulation differs by place.",
+ "ladder": [
+  [
+   "Know the basics",
+   "L1: learner can say what nano means.",
+   "Show size chart."
+  ],
+  [
+   "Know the rules and risks",
+   "L2: learner can name medical uses.",
+   "Use test strip."
+  ],
+  [
+   "Prepare and set up",
+   "L3: learner can read size charts.",
+   "Draw carrier."
+  ],
+  [
+   "Run it",
+   "L4: learner can explain delivery and clearance.",
+   "Discuss clearance."
+  ],
+  [
+   "Specialise and measure",
+   "L5: learner can review claims and regulation.",
+   "Map approval path."
+  ],
+  [
+   "Lead a small team",
+   "L6: learner can coordinate a lab file.",
+   "Cover records."
+  ],
+  [
+   "Advise and audit others",
+   "L7: learner can audit a briefing.",
+   "Peer audit."
+  ]
+ ]
+}

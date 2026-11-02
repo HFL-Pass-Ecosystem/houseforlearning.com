@@ -1,0 +1,283 @@
+{
+ "id": "GL-49",
+ "title": "Cryobank Operations (Awareness Level)",
+ "level": 2,
+ "desc": "Understand how biological sample banks are run: consent, labelling, cold storage, records, security and ethics. Awareness only.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain what a cryobank stores and why consent matters."
+  ],
+  [
+   "Apply",
+   "Fill a sample record and label correctly."
+  ],
+  [
+   "Analyse",
+   "Find risks in the cold chain."
+  ],
+  [
+   "Evaluate",
+   "Judge a bank's policies for security and fairness."
+  ],
+  [
+   "Create",
+   "Draft a daily operations checklist."
+  ]
+ ],
+ "task": "Create a daily operations checklist and a sample record template for a practice cryobank, and run a mock audit.",
+ "condition": "A computer, practice forms and a mentor. No real samples, personal data or hazardous materials are used.",
+ "standard": "Checklist covers temperature, alarms, labelling, access and records; mock audit finds at least 3 planted errors; peers rate Meets or better.",
+ "who": "Lab trainees, hospital store staff, health administrators.",
+ "req": "none",
+ "evidence": "checklist, record template, mock audit report",
+ "modules": [
+  [
+   "What a cryobank holds",
+   "Understand",
+   2,
+   "Banks store cells, tissue or cord blood at very low temperatures.",
+   [
+    "Used for later treatment or research under consent.",
+    "Cold storage pauses biological activity.",
+    "Each sample has an owner and conditions of use."
+   ],
+   "A family stores cord blood; a contract states how long and who can request it.",
+   "Write a one-paragraph summary.",
+   "Summary names consent, storage and use."
+  ],
+  [
+   "Consent and ownership",
+   "Understand",
+   2,
+   "People must know what they agree to.",
+   [
+    "Consent in plain language; the right to withdraw.",
+    "Rules for research use and disposal.",
+    "Children's samples need guardian consent and review at adulthood in many places."
+   ],
+   "A form has a tick box for research use that defaults to No.",
+   "Review a sample consent form.",
+   "Four gaps identified."
+  ],
+  [
+   "Labelling and records",
+   "Apply",
+   2,
+   "A sample without a correct label is lost.",
+   [
+    "Unique ID, date, type, volume, location.",
+    "Two-person check at entry and removal.",
+    "Barcode and a paper backup."
+   ],
+   "ID C-2031 is logged in tank 2, rack B, box 4, slot 7.",
+   "Fill 5 practice records.",
+   "No errors."
+  ],
+  [
+   "Cold chain and alarms",
+   "Analyse",
+   2,
+   "Temperature is the main risk.",
+   [
+    "Daily log of temperature and nitrogen or power levels.",
+    "Alarms with call-out lists; backup power.",
+    "Transport in validated containers."
+   ],
+   "A night alarm leads to a refill within 20 minutes.",
+   "Mark risks on a floor plan.",
+   "Five risks with controls."
+  ],
+  [
+   "Safety for staff",
+   "Apply",
+   2,
+   "Extreme cold and gases are hazards.",
+   [
+    "Gloves, face shield, ventilation.",
+    "Oxygen sensors in rooms with nitrogen.",
+    "Never work alone."
+   ],
+   "Staff leave the room immediately when the oxygen alarm sounds.",
+   "Write five safety rules.",
+   "Rules are specific."
+  ],
+  [
+   "Security and privacy",
+   "Evaluate",
+   2,
+   "Access is limited and logged.",
+   [
+    "Badge access, camera at doors, visitor log.",
+    "Only authorised staff see identity data.",
+    "Data is stored securely and deleted per rule."
+   ],
+   "Staff must show a badge and sign the log for each entry.",
+   "Review a policy.",
+   "Strengths and gaps listed."
+  ],
+  [
+   "Ethics, fairness and cost",
+   "Evaluate",
+   2,
+   "Commercial banks must be honest.",
+   [
+    "Clear fees; no pressure.",
+    "No misleading claims about future cures.",
+    "Exit plan if a bank closes."
+   ],
+   "A bank has a written plan to transfer samples if it closes.",
+   "List five ethics questions.",
+   "Questions are fair."
+  ],
+  [
+   "Checklist and mock audit",
+   "Create",
+   2,
+   "Practise audit.",
+   [
+    "Daily, weekly, monthly tasks.",
+    "Audit trail and corrective action.",
+    "Review each month."
+   ],
+   "The audit finds a missing second-person check and a late log.",
+   "Run a mock audit.",
+   "Findings logged."
+  ]
+ ],
+ "quiz": [
+  [
+   "What does a cryobank store?",
+   "Cells, tissue or cord blood at low temperatures."
+  ],
+  [
+   "Why two-person checks?",
+   "They catch labelling mistakes."
+  ],
+  [
+   "Name a cold-chain risk.",
+   "Power failure or low nitrogen."
+  ],
+  [
+   "Name a safety rule.",
+   "Never work alone; use ventilation."
+  ],
+  [
+   "Who may access data?",
+   "Authorised staff only."
+  ],
+  [
+   "What does consent include?",
+   "Use, duration, research, right to withdraw."
+  ],
+  [
+   "Why backup labels?",
+   "Barcodes can fail."
+  ],
+  [
+   "What is an exit plan?",
+   "Steps to move samples if the bank closes."
+  ],
+  [
+   "What is an audit trail?",
+   "Records showing who did what and when."
+  ],
+  [
+   "Why logs?",
+   "To show control and find faults."
+  ]
+ ],
+ "rubric": [
+  [
+   "Record accuracy",
+   "Errors",
+   "Accurate",
+   "Accurate with checks"
+  ],
+  [
+   "Risk control",
+   "Missing",
+   "Listed",
+   "Controls tested"
+  ],
+  [
+   "Audit",
+   "Not done",
+   "Done",
+   "Done with fixes"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Cryobank technician trainee",
+   "Handles records and logs"
+  ],
+  [
+   "Sample records clerk",
+   "Maintains data"
+  ],
+  [
+   "Quality assistant",
+   "Audits checklists"
+  ],
+  [
+   "Safety officer assistant",
+   "Checks controls"
+  ],
+  [
+   "Hospital store assistant",
+   "Manages cold stores"
+  ]
+ ],
+ "next": "stem cells awareness, DNA analysis, privacy protection practice.",
+ "local": "Laws for storing human tissue and data differ by place.",
+ "ladder": [
+  [
+   "Know the basics",
+   "L1: learner can say what a cryobank stores.",
+   "Explain with a picture."
+  ],
+  [
+   "Know the rules and risks",
+   "L2: learner knows consent basics.",
+   "Show consent form."
+  ],
+  [
+   "Prepare and set up",
+   "L3: learner can fill a record correctly.",
+   "Practise labels."
+  ],
+  [
+   "Run it",
+   "L4: learner can run daily checks.",
+   "Walk through alarm drill."
+  ],
+  [
+   "Specialise and measure",
+   "L5: learner can audit a bank.",
+   "Mock audit."
+  ],
+  [
+   "Lead a small team",
+   "L6: learner can lead a small shift.",
+   "Cover shifts."
+  ],
+  [
+   "Advise and audit others",
+   "L7: learner can advise on policy.",
+   "Peer audit."
+  ]
+ ]
+}

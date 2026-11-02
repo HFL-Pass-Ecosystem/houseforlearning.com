@@ -1,0 +1,283 @@
+{
+ "id": "GL-47",
+ "title": "Stem Cell Therapy (Awareness Level)",
+ "level": 2,
+ "desc": "Understand in plain words what stem cells are, what approved treatments exist, how to spot unproven clinics, and the ethics involved. Awareness only.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain what stem cells are and the main types."
+  ],
+  [
+   "Apply",
+   "Use a checklist to judge a clinic or advert."
+  ],
+  [
+   "Analyse",
+   "Separate approved uses from experimental claims."
+  ],
+  [
+   "Evaluate",
+   "Weigh hope against evidence and cost."
+  ],
+  [
+   "Create",
+   "Draft a short guide for patients and families."
+  ]
+ ],
+ "task": "Produce a one-page safe-choice guide on stem cell treatments with a clinic checklist and a glossary.",
+ "condition": "A computer, public information, two peers and a mentor. No medical advice is given and no patient records are used.",
+ "standard": "Facts are sourced and dated; approved and experimental uses are kept apart; no promise of cure appears; the guide tells readers to ask a qualified specialist; peers rate Meets or better.",
+ "who": "Patients, carers, teachers, health writers and trainee lab staff.",
+ "req": "none",
+ "evidence": "guide, clinic checklist, glossary",
+ "modules": [
+  [
+   "What stem cells are",
+   "Understand",
+   2,
+   "Stem cells can make copies of themselves and become other cell types.",
+   [
+    "Types: embryonic, adult (tissue) and induced stem cells.",
+    "Each type has different uses and limits.",
+    "Most bodies already use stem cells every day, for example in blood and skin."
+   ],
+   "Blood stem cells in bone marrow keep making new blood cells through life.",
+   "Draw a simple picture of one stem cell becoming two kinds.",
+   "Picture is accurate."
+  ],
+  [
+   "Approved uses",
+   "Understand",
+   2,
+   "Some treatments are established.",
+   [
+    "Blood stem cell transplants for certain blood cancers and disorders are long established.",
+    "Skin and eye surface grafts exist for some conditions.",
+    "Approval means tested trials and regulators agreed."
+   ],
+   "A hospital uses a donor transplant for a specific leukaemia after matching tests.",
+   "List three approved uses with their source.",
+   "Sources are public regulators or hospitals."
+  ],
+  [
+   "Trials and evidence",
+   "Analyse",
+   2,
+   "Research moves in stages.",
+   [
+    "Lab studies, then small human trials, then larger trials, then approval.",
+    "Case stories are not proof.",
+    "Look for peer review, trial registries and large samples."
+   ],
+   "A clinic cites patient stories only; the learner finds no registered trial.",
+   "Check one claim against a trial registry.",
+   "Finding is written with date."
+  ],
+  [
+   "Unproven clinics",
+   "Evaluate",
+   2,
+   "Some clinics sell hope without proof.",
+   [
+    "Red flags: cures many diseases, pay up front, no trial, no follow-up, pressure to decide fast.",
+    "Risks: infection, tumours, wasted money, delay of real care.",
+    "Ask: Is this approved or in a registered trial?"
+   ],
+   "A family declines an expensive injection after the clinic cannot name any trial.",
+   "Score two adverts with the red-flag list.",
+   "Each red flag is cited."
+  ],
+  [
+   "Ethics and sources",
+   "Evaluate",
+   2,
+   "Questions of consent and respect.",
+   [
+    "Donors must give informed, free consent.",
+    "Debates exist about embryo use; different cultures and faiths hold different views.",
+    "Cord blood banking is a personal choice, with limited common uses."
+   ],
+   "A parents' guide explains cord blood choices without pressure.",
+   "Write a balanced paragraph on one ethical question.",
+   "Both views are stated fairly."
+  ],
+  [
+   "Talking with specialists",
+   "Apply",
+   2,
+   "Come prepared.",
+   [
+    "Questions: purpose, approval status, risks, cost, alternatives, follow-up.",
+    "Take a family member and notes.",
+    "A second opinion is normal."
+   ],
+   "A patient brings a one-page question list to the haematologist.",
+   "Make a question list.",
+   "Eight clear questions."
+  ],
+  [
+   "Cost, travel and safety",
+   "Evaluate",
+   2,
+   "Medical travel adds risks.",
+   [
+    "Check licence and insurance; plan follow-up care at home.",
+    "Count the full cost, not only the fee.",
+    "Keep records of every treatment."
+   ],
+   "A traveller adds flights, hotel and follow-up to the price and decides against it.",
+   "Cost a hypothetical trip.",
+   "Total includes all items with currency."
+  ],
+  [
+   "Write the guide",
+   "Create",
+   2,
+   "Make it useful.",
+   [
+    "One page, plain words, large print.",
+    "Include the checklist and local regulator contacts.",
+    "Test with two readers."
+   ],
+   "Readers say they would ask \"is it in a registered trial?\" first.",
+   "Finish and test.",
+   "Readers can repeat three red flags."
+  ]
+ ],
+ "quiz": [
+  [
+   "Name two stem cell types.",
+   "Adult (tissue) and embryonic (or induced)."
+  ],
+  [
+   "Name one long-established use.",
+   "Blood stem cell transplant for some blood disorders."
+  ],
+  [
+   "Are patient stories proof?",
+   "No."
+  ],
+  [
+   "Name two red flags.",
+   "Cures many diseases; pay up front or fast pressure."
+  ],
+  [
+   "What question tests a clinic?",
+   "Is it approved or in a registered trial?"
+  ],
+  [
+   "Name one risk.",
+   "Infection, tumours, wasted money or delayed care."
+  ],
+  [
+   "Why consent?",
+   "Donors must freely agree with full information."
+  ],
+  [
+   "Is a second opinion normal?",
+   "Yes."
+  ],
+  [
+   "What cost parts does travel add?",
+   "Flights, stay and follow-up."
+  ],
+  [
+   "Who gives medical advice?",
+   "Qualified specialists, not this course."
+  ]
+ ],
+ "rubric": [
+  [
+   "Accuracy",
+   "Errors",
+   "Correct",
+   "Correct and sourced"
+  ],
+  [
+   "Red-flag use",
+   "None",
+   "Listed",
+   "Applied to real adverts"
+  ],
+  [
+   "Balanced ethics",
+   "One-sided",
+   "Both views",
+   "Both views with respect"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Patient information assistant",
+   "Prepares plain guides"
+  ],
+  [
+   "Lab technician trainee",
+   "Learns cell handling"
+  ],
+  [
+   "Health writer",
+   "Explains science carefully"
+  ],
+  [
+   "Clinic quality assistant",
+   "Checks claims"
+  ],
+  [
+   "Science teacher",
+   "Teaches cell biology"
+  ]
+ ],
+ "next": "DNA analysis awareness, nanotechnology in medicine, cryobank operations awareness.",
+ "local": "Stem cell treatment rules and licensing differ by place.",
+ "ladder": [
+  [
+   "Know the basics",
+   "L1: learner can say what a stem cell is.",
+   "Simple drawing."
+  ],
+  [
+   "Know the rules and risks",
+   "L2: learner can name approved uses.",
+   "Use hospital pages."
+  ],
+  [
+   "Prepare and set up",
+   "L3: learner can read evidence stages.",
+   "Explain trial stages."
+  ],
+  [
+   "Run it",
+   "L4: learner can use red flags on adverts.",
+   "Use real adverts."
+  ],
+  [
+   "Specialise and measure",
+   "L5: learner can discuss ethics fairly.",
+   "Facilitate with care."
+  ],
+  [
+   "Lead a small team",
+   "L6: learner can lead a patient-information desk.",
+   "Cover roles."
+  ],
+  [
+   "Advise and audit others",
+   "L7: learner can audit a guide.",
+   "Peer audit."
+  ]
+ ]
+}
