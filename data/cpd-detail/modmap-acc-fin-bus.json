@@ -1,0 +1,195 @@
+{
+ "ACC-001": {
+  "standards": [
+   "Explain why a bank reconciliation is done every month and describe what a finished, fully explained reconciliation looks like, naming how it helps catch errors and fraud early.",
+   "Read a bank list and a ledger list side by side and identify each line, so that every entry on both lists is correctly understood before matching begins.",
+   "Match the lines of a bank list to a ledger list and classify each difference as a timing item, such as an uncleared cheque or a deposit not yet recorded.",
+   "Complete the reconciliation statement in the set layout, adjusting both balances with timing and ledger items until the difference after reconciling is zero.",
+   "Spot unusual items such as unexplained small amounts, round sums or duplicates, then explain each one, record it against the set limit and escalate when required.",
+   "Reconcile a full practice file of twelve bank lines and twelve ledger lines, finding all three planted differences and finishing with a correct signed statement.",
+   "Complete a timed assessment reconciliation by matching items, writing the statement and explaining every difference, meeting the checklist with no unexplained balance left."
+  ],
+  "checks": [
+   1,
+   3,
+   5,
+   1,
+   3,
+   5,
+   4,
+   5,
+   5
+  ]
+ },
+ "ACC-002": {
+  "standards": [
+   "Explain what a board expects on a single page, choosing a few figures that each carry a one-line meaning rather than listing every number.",
+   "Calculate the six ratios, current, quick, gross margin, net margin, debtor days and creditor days, from a set of statements using the correct formulas.",
+   "Compare each ratio with last year's figure and state the direction and pace of change, because a single number means little without a reference.",
+   "Explain a change in a ratio in plain words, giving a likely cause and a suggested action, as in the liquidity worked example.",
+   "Build a one-page summary from two years of statements, showing six ratios, a plain-words note on each change and the source of the numbers.",
+   "Complete a timed assessment by computing the ratios from invented statements and writing a one-page summary that meets every checklist point."
+  ],
+  "checks": [
+   2,
+   4,
+   3,
+   null,
+   2,
+   3,
+   4,
+   1,
+   5
+  ]
+ },
+ "ACC-003": {
+  "standards": [
+   "Find the official source of a rule change, check its date and confirm what it says, and state plainly when you are unsure and must refer on.",
+   "Write a summary of a rule change in about one hundred words that states what changes, from when, and what the client should do.",
+   "Work out the effect of a rule change on a sample client using last year's figures, and show it as a short worked example in the client's terms.",
+   "Cite the official source and its date in every client note, and file the note with the source in the client file.",
+   "Practise writing a client note from a short invented rule change, then use the feedback to correct gaps in source, date and example.",
+   "Check your finished note against the list: source cited, date stated, worked example included, and any doubt referred to a senior."
+  ],
+  "checks": [
+   4,
+   3,
+   1,
+   1,
+   4,
+   1,
+   3,
+   1,
+   4
+  ]
+ },
+ "FIN-001": {
+  "standards": [
+   "Define a conflict of interest in plain words and recognise it in everyday examples where personal or firm gain could affect your duty to the client.",
+   "Judge eight short cases, marking each as a conflict or not a conflict and naming the action that fits, such as declaring, avoiding or asking.",
+   "Use the firm's approved disclosure wording to tell a client about a conflict before giving any advice, in writing.",
+   "Record each conflict, the action taken and the named approver in the register, so the decision can be traced later.",
+   "Practise deciding, disclosing and recording on a new case, such as a fund run by a relative, and correct any step you missed.",
+   "Show in a short check that you can define a conflict, take the first step of declaring it and record it with the approver."
+  ],
+  "checks": [
+   1,
+   3,
+   4,
+   1,
+   1,
+   3,
+   4,
+   2,
+   4
+  ]
+ },
+ "FIN-002": {
+  "standards": [
+   "Explain why an advice review exists and why a written record of the match between client and product must show the thought behind the advice.",
+   "Collect the essential facts from a client card, goals, time horizon, comfort with loss and financial position, and refuse to proceed while facts are missing.",
+   "Match a client's needs to a suitable product type, considering alternatives, using the facts gathered and the client's own words on risk comfort.",
+   "Write the reason for the match in plain words so that another person can see why the product fitted the client.",
+   "Complete the advice record to the checklist, including alternatives considered, client confirmation, and the signatures required of the adviser and client.",
+   "Complete a practice file for an invented client, recording facts, matching a product type and writing the reason, then correct gaps after feedback.",
+   "Complete a timed assessment record for a new client card that meets every checklist item and shows a clear written reason for the match."
+  ],
+  "checks": [
+   4,
+   2,
+   2,
+   5,
+   2,
+   2,
+   4,
+   null,
+   5
+  ]
+ },
+ "FIN-003": {
+  "standards": [
+   "Recognise warning signs of suspicious activity, such as cash just under a reporting limit, unexplained wealth or reluctance to give identity details.",
+   "Review six sample transactions, marking each as concern or no concern and giving a reason for each decision.",
+   "Use the local route card to name who receives a report and how quickly it must be made, and send a report by that route.",
+   "Explain why the customer must not be told about a report and avoid any words or actions that would warn them.",
+   "Practise writing a four-line report covering who, what, when and why it worries you, using facts only, with date and time.",
+   "Show in a short check that you know the reporting route, the ban on telling the customer and the content of a report."
+  ],
+  "checks": [
+   3,
+   4,
+   5,
+   1,
+   3,
+   4,
+   null,
+   5,
+   3
+  ]
+ },
+ "BUS-001": {
+  "standards": [
+   "Explain why change often fails, including people not knowing the reason, and show why the reason should be given first.",
+   "Map the groups affected by a change, such as staff, customers and suppliers, and say how each group is touched.",
+   "Plan three messages for a change, each with a set time and a named sender, so the most affected group hears first from their own manager.",
+   "Respond to worry and resistance by listening, finding the cause and adjusting the support offered, rather than repeating the message.",
+   "Choose three simple measures for a change, such as errors per 100 items or briefing attendance, and say how each will be read.",
+   "Apply the whole method to a case such as moving from paper forms to an online form, mapping groups, planning messages and picking measures.",
+   "Complete a timed assessment on a new change case by mapping groups, writing a first message and choosing measures that meet the checklist."
+  ],
+  "checks": [
+   1,
+   2,
+   5,
+   4,
+   3,
+   3,
+   5,
+   4,
+   null
+  ]
+ },
+ "BUS-002": {
+  "standards": [
+   "Set a target, a limit and a walk-away point before a negotiation, writing each number down and stating that the limit is the worst deal you will accept.",
+   "Choose three trades you can offer, such as a longer term for a lower price, and say what each trade is worth to you.",
+   "Ask open questions and listen closely to find what the other side really needs, so that trades can be matched to those needs.",
+   "Carry out a role-play negotiation against a supplier asking for a higher price, staying inside your limit and using at least one trade.",
+   "Carry out a second role-play that includes a twist, such as a new demand, and adjust your trades while keeping to your limit.",
+   "Write a one-page summary of the agreed price, term, delivery, payment, review date and signatory, ready for sign-off by the person with authority.",
+   "Complete a timed assessment by preparing numbers, negotiating a role-play and producing a summary that meets every checklist point."
+  ],
+  "checks": [
+   1,
+   2,
+   6,
+   6,
+   1,
+   2,
+   6,
+   1,
+   6
+  ]
+ },
+ "BUS-003": {
+  "standards": [
+   "Describe the one-page shape of a business case, listing the parts it must contain and keeping it to a single page.",
+   "State a problem in two lines and set out the options, including a do-nothing option as the baseline for comparison.",
+   "List costs and benefits for each option and cite where each number came from, marking any guess as an estimate.",
+   "Make a clear recommendation with the reason for it, and state the main risk with a plan to reduce it, plus a dated next step.",
+   "Write a practice page on a case such as a second delivery van, then use the feedback to correct any missing part.",
+   "Check a finished page against the list of parts, sources, risk and length, then correct any gap before it is passed on."
+  ],
+  "checks": [
+   2,
+   3,
+   1,
+   4,
+   3,
+   2,
+   4,
+   1,
+   3
+  ]
+ }
+}

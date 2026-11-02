@@ -4,6 +4,7 @@ import sys, pathlib, html, re, collections
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import build_full_courses as B
 import cpd_detail as CD
+MM = CD.load_modmap()
 DET = CD.load()
 e = html.escape; R = B.R
 rows = [l.rstrip('\n').split('|', 5) for l in (R / 'data' / 'cpd-courses.txt').read_text().splitlines() if l and not l.startswith('#')]
@@ -25,22 +26,33 @@ def build(c):
                f'<p><strong>Check:</strong> a short pass or not-yet check using the standard in the outcome.</p></details>')
     det = dict((k, v) for k, v in DET[c['code']]['detail']); fl = dict((k, v) for k, v in DET[c['code']]['flag'])
     mods = CD.modules(fl.get('Modules', []))
+    mm = MM.get(c['code']); stds = mm['standards'] if mm else None
+    if mm: assert len(stds) == len(mods), c['code']
     if mods:
         ag = ''
         for i, (mt, mn) in enumerate(mods, 1):
             ag += (f'<details class="mod" {"open" if i==1 else ""}><summary><span class="mn">Module {i}</span> {e(mt)} <span class="pill">{e(mn)} min</span></summary>'
                    f'<p><strong>Learn:</strong> a short explanation with a worked example from the sector, then the rule or checklist you will use.</p>'
-                   f'<p><strong>Practise:</strong> a case card or template exercise linked to outcome {min(i, len(c["outs"]))}.</p></details>')
+                   f'<p><strong>Practise:</strong> a case card or template exercise linked to outcome {min(i, len(c["outs"]))}.</p>'
+                   + (f'<p><strong>Standard to meet.</strong> {e(stds[i-1])}</p>' if stds else '') + '</details>')
     extra = ''
     for k, v in DET[c['code']]['detail']:
         if k.startswith('Check'): continue
         extra += f'<div class="wk"><h3>{e(k)}</h3>{CD.render_lines(v)}</div>'
     cc2 = fl.get('Case card 2')
     if cc2: extra += f'<div class="wk"><h3>Case card 2</h3>{CD.render_lines(cc2)}</div>'
-    ck1 = ''; n1 = 0
+    ck1 = ''; n1 = 0; ck2 = ''; n2 = 0
+    chk = mm['checks'] if mm else None
+    def tg(lst, off):
+        n = len(re.findall(r'(?:^|\s)\d+\.?\s+(.+?)\s+\*(.+?)\*(?=\s+\d+\.?\s|\s*$)', ' '.join(lst)))
+        return None if chk is None else [CD.covered_tag(x, mods, stds) for x in chk[off:off + n]], n
     for k, v in DET[c['code']]['detail']:
-        if k.startswith('Check'): ck1, n1 = CD.checks_html(v)
-    ck2, n2 = CD.checks_html(fl.get('More checks', []))
+        if k.startswith('Check'):
+            t1, nn = tg(v, 0); ck1, n1 = CD.checks_html(v, t1)
+    mr = fl.get('More checks', [])
+    t2, _ = tg(mr, n1) if mr else (None, 0)
+    ck2, n2 = CD.checks_html(mr, t2)
+    if chk is not None: assert len(chk) == n1 + n2, c['code']
     gl = fl.get('Glossary')
     practice = B.sec('', 'pr', 'practice', 'Worked example and case cards', extra) if extra else ''
     checks = B.sec('alt', 'ck', 'checks', f'{n1 + n2} check questions with model answers', ck1 + ck2) if (n1 + n2) else ''
