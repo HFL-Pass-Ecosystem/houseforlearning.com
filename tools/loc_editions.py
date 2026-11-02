@@ -47,6 +47,8 @@ def build(L, i, t):
            B.crumb(('Courses', 'courses-hub.html'), (f'{L["name"]} editions', f'learn-loc-{L["k"]}-hub.html'), (t, None)), kicker=f'location edition · {L["k"].upper()}')
     return fn
 def hub(L, items):
+    L = dict(L)
+    if L['k'] == 'ge': L['cur'] = 'GEL'
     lis = ''.join(f'<li><a href="{fn}">{e(t)}</a></li>' for fn, t in items)
     B.page(f'learn-loc-{L["k"]}-hub.html', f'{L["name"]} editions', f'All {len(items)} global courses as {L["name"]} editions.', f'{L["name"]} editions', e(f'Every global course with local rules, jobs and {L["cur"]} examples.'),
         B.sec('', 'ls', 'all courses', f'{len(items)} courses', f'<p><a href="learn-flagship-loc-{L["k"]}.html">Overview edition for {e(L["name"])}</a></p><ul>{lis}</ul>'), B.crumb(('Courses', 'courses-hub.html'), (f'{L["name"]} editions', None)), kicker='location editions')
