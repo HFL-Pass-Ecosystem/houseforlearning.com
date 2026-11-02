@@ -27,7 +27,7 @@
    "intro": "Electronics have safety and import rules.",
    "pts": [
     "Electrical and radio approvals are required.",
-    "Hazardous substance limits and recycling duties apply.",
+    "Hazardous substance limits and recycling duties may apply; check the federal and provincial rule.",
     "Import duties and origin rules affect costs.",
     "Warranty and consumer law apply.",
     "If a sign has wireless links, check the federal radio rule and keep the test report with the product file.",
@@ -111,8 +111,9 @@
     "Recycling plan.",
     "Cyber security for networked signs.",
     "Hold several weeks of panel stock or name a second supplier, and record each supplier's lead time in writing.",
-    "Measure power per sign in watts, set a target, and compare it with the paper sign or light box it replaces.",
-    "Write a take-back plan: who collects old units, where they are sorted, and which provincial electronics recycling rule applies; check the provincial rule. Change default passwords and set a firmware update schedule for networked signs."
+    "Write a take-back plan: who collects old units, where they are sorted, and which provincial electronics recycling rule applies; check the provincial rule.",
+    "Write a take-back plan: who collects old units, where they are sorted, and which provincial electronics recycling rule applies; check the provincial rule. Change default passwords and set a firmware update schedule for networked signs.",
+    "Change default passwords and set a firmware update schedule for networked signs."
    ],
    "ex": "Risk: 'Panel shortage | 4 x 4 | second source | purchasing | monthly'. The score is likelihood 4 times impact 4 = 16 out of 25, which is high. Action: qualify a second panel source within 90 days and review it monthly.",
    "act": "Write a risk register.",

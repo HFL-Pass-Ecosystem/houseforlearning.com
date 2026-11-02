@@ -1,12 +1,188 @@
-{"mods":{
-"1":{"title":"Know the places and words of food and lodging","intro":"This field covers places where people eat, drink and stay: restaurants, cafes, caterers, hotels and short stays. Learn the roles and words.","pts":["Terms: front of house, back of house, covers, occupancy, menu, shift, allergen.","Front of house serves guests. Back of house cooks and cleans.","Hotels measure how many rooms are used: occupancy percent.","Spend a shift observing and write down who does what."],"ex":"A 20-room inn with 15 rooms used has 75 percent occupancy.","act":"Observe a busy hour at a cafe or hotel desk and note each role, task and waiting time.","std":"Task: write an observation note. Condition: one visit with permission. Standard: at least six roles listed, with tasks and one place guests waited."},
-"2":{"title":"Explain the guest journey from first contact to goodbye","intro":"Every guest passes through steps. If one step is poor, the whole visit feels poor.","pts":["Steps for a restaurant: find, book, arrive, order, eat, pay, leave, return.","Steps for lodging: find, book, arrive, stay, depart, review.","Write down what the guest sees and what staff must do at each step.","Pick one step to improve first, the one with the most complaints."],"ex":"Guests complain about a 20-minute wait for the bill. You test a card machine at the table and measure the wait again.","act":"Draw the guest journey for one place and mark three trouble spots.","std":"Task: draw a guest journey chart. Condition: from real observation or ten guest comments. Standard: every step has guest view and staff task; three trouble spots have a proposed fix."},
-"3":{"title":"Keep food and guests safe","intro":"Safety is the first duty. Learn the basic food and guest safety routines.","pts":["Wash hands often. Keep raw and cooked foods apart. Cook, cool and store at safe temperatures.","Many provinces require trained food handlers and public health inspection. Check the current rule with your local health authority.","Know the main allergens and keep a clear allergen list for every dish.","Keep fire exits clear, floors dry and first aid supplies ready."],"ex":"A guest says they cannot eat peanuts. The server checks the written allergen list, tells the cook, and uses clean tools and surfaces.","act":"Write a one-page safety checklist for opening, service and closing, and use it for a week.","std":"Task: complete a daily safety checklist for a week. Condition: in a real or training kitchen or front desk. Standard: every item signed daily; any problem recorded with a fix."},
-"4":{"title":"Know permits, licences and staff rules","intro":"Rules differ across provinces and cities. Find what you need before you open or hire.","pts":["Typical needs: business registration, food premises approval, signage and zoning approval, fire inspection.","Selling alcohol needs a provincial licence and trained staff; rules differ by province. Check with the provincial liquor regulator.","Short stays may need a municipal licence and have limits on where they can run. Check the city rules.","Employment standards cover minimum wage, breaks, overtime, tips and holiday pay. Check the current provincial rules."],"ex":"Rules table row: 'Seating over a set number | municipal fire office | occupancy limit posted | before opening | inspection report kept'.","act":"Build a rules table for one venue type in your city with sources and dates.","std":"Task: build a rules table. Condition: from official pages or a call to each office. Standard: each row has enforcer, action, deadline and a dated source; unknowns are marked as to be confirmed."},
-"5":{"title":"Count food cost, labour and price a menu","intro":"Margins are thin. Count every cost before you set a price.","pts":["Food cost percent = ingredient cost per portion divided by selling price. Many venues aim between 25 and 35 percent.","Labour is often the largest cost. Plan staff to match busy and quiet times.","Lodging: average daily rate times occupancy gives income per room available.","Include fees for payment cards, delivery apps and tax in your price check."],"ex":"A dish costs 3.10 to make and sells for 12.00. Food cost is 3.10 divided by 12.00, about 26 percent. Teaching figures only.","act":"Cost five menu items or three room types and compute margins.","std":"Task: cost a menu or room list. Condition: current supplier prices. Standard: units and currency shown, formulas visible, three what-if cases such as a 10 percent food price rise."},
-"6":{"title":"Run a service shift well","intro":"A good shift runs from a plan, a clear team and quick problem fixing.","pts":["Hold a five-minute briefing: bookings, specials, allergens, who is in charge.","Set stations and a prep list. Count stock at close.","Handle complaints with four steps: listen, say sorry, fix, follow up.","Review sales, waste and guest comments after each week."],"ex":"Waste log: 4 kg of prepared rice thrown out on Friday. Fix: cook smaller batches twice during the evening.","act":"Run or support four shifts using a briefing, a prep list and a waste log.","std":"Task: run four shifts with logs. Condition: real or training service. Standard: briefing, prep and waste logs complete; one improvement shown by numbers."},
-"7":{"title":"Draw guests, partner and market the place","intro":"Guests need to find you and trust you.","pts":["Keep your online listing, hours, menu and photos true and current.","Partner with nearby shops, events and tour groups; share offers.","Answer reviews politely within two days.","Provide information in English and French where law or guests need it, and make the venue accessible for people with disabilities."],"ex":"A small cafe offers a lunch deal to the office next door and tracks how many use the card each week.","act":"Run a four-week offer, track the redemptions and respond to every review.","std":"Task: test one marketing offer. Condition: four weeks with a tracking method. Standard: results recorded, every review answered, a decision on whether to repeat."},
-"8":{"title":"Pilot a venue or service and plan to grow","intro":"Prove the idea small before you commit more money.","pts":["Define a pilot: pop-up, weekend menu, one room type or catering for one event.","Set measures and a stop rule: covers, average spend, waste, rating, profit.","Keep a risk register: staff shortage, supplier failure, health issue, bad weather, theft.","After the pilot write a review and a 12-month plan."],"ex":"Stop rule: 'If we serve fewer than 40 covers a day for 30 days, we change the menu or location.'","act":"Run the pilot, write the review and the plan, and present to a panel of three.","std":"Task: run a pilot and review. Condition: real guests and safe, legal operation. Standard: measures tracked, safety rules met, decision supported by numbers."}},
-"price":[12,3.1,900,"portion"],
-"quiz":[["What is front of house?","Staff who serve guests."],["What is occupancy percent?","Rooms used divided by rooms available."],["Why keep raw and cooked food apart?","To stop harmful germs spreading."],["Who do you ask about food handler and inspection rules?","The local public health authority."],["What does selling alcohol need?","A provincial licence and trained staff; check local rules."],["How is food cost percent worked out?","Ingredient cost per portion divided by selling price."],["What are four steps to handle a complaint?","Listen, say sorry, fix, follow up."],["Why track waste?","It shows lost money and where to improve."],["What goes in a pilot stop rule?","A measure and a level that triggers a change or stop."],["What do you do if you are unsure of a rule?","Ask the official office and keep the answer in writing."]],
-"jobs":["Server or host","Cook","Front desk agent","Kitchen supervisor","Venue manager","Caterer or small venue owner"]}
+{
+ "mods": {
+  "1": {
+   "title": "Know the places and words of food and lodging",
+   "intro": "This field covers places where people eat, drink and stay: restaurants, cafes, caterers, hotels and short stays. Learn the roles and words.",
+   "pts": [
+    "Terms: front of house, back of house, covers, occupancy, menu, shift, allergen.",
+    "Front of house serves guests. Back of house cooks and cleans.",
+    "Hotels measure how many rooms are used: occupancy percent.",
+    "Spend a shift observing and write down who does what.",
+    "Learn the shift pattern: opening, lunch, dinner and closing, and what each role does in each part.",
+    "Count covers (guests served) for one hour and write the busiest and quietest times.",
+    "Learn the basic room words for lodging: single, double, suite, check-in, check-out, housekeeping."
+   ],
+   "ex": "A 20-room inn with 15 rooms used has 15 / 20 = 75 percent occupancy. If 18 rooms are used the next night, occupancy is 18 / 20 = 90 percent. The change is 15 points, which shows how much one night can vary.",
+   "act": "Observe a busy hour at a cafe or hotel desk and note each role, task and waiting time.",
+   "std": "Task: write an observation note. Condition: one visit with permission. Standard: at least six roles listed, with tasks and one place guests waited."
+  },
+  "2": {
+   "title": "Explain the guest journey from first contact to goodbye",
+   "intro": "Every guest passes through steps. If one step is poor, the whole visit feels poor.",
+   "pts": [
+    "Steps for a restaurant: find, book, arrive, order, eat, pay, leave, return.",
+    "Steps for lodging: find, book, arrive, stay, depart, review.",
+    "Write down what the guest sees and what staff must do at each step.",
+    "Pick one step to improve first, the one with the most complaints.",
+    "Time each step of one guest visit with a clock and write the longest wait.",
+    "Ask three guests what they liked and what they would change, and record the answers.",
+    "Write the words staff say at greeting and goodbye so every guest hears the same welcome."
+   ],
+   "ex": "Guests wait 20 minutes for the bill. You test a card machine at the table and the wait falls to 8 minutes. That saves 20 - 8 = 12 minutes per table, so 10 tables in an evening gain 120 minutes of table time.",
+   "act": "Draw the guest journey for one place and mark three trouble spots.",
+   "std": "Task: draw a guest journey chart. Condition: from real observation or ten guest comments. Standard: every step has guest view and staff task; three trouble spots have a proposed fix."
+  },
+  "3": {
+   "title": "Keep food and guests safe",
+   "intro": "Safety is the first duty. Learn the basic food and guest safety routines.",
+   "pts": [
+    "Wash hands often. Keep raw and cooked foods apart. Cook, cool and store at safe temperatures.",
+    "Many provinces require trained food handlers and public health inspection. Check the current rule with your local health authority.",
+    "Know the main allergens and keep a clear allergen list for every dish.",
+    "Keep fire exits clear, floors dry and first aid supplies ready.",
+    "Check fridge and freezer temperatures with a thermometer at set times and record them; follow the local health rule for safe limits.",
+    "Label and date all prepared food and use the oldest first.",
+    "Train every new worker on the allergen list and the cleaning steps before their first service."
+   ],
+   "ex": "A guest says they cannot eat peanuts. The server checks the written allergen list, tells the cook, and the cook uses clean tools and surfaces. The server confirms the dish with the guest on delivery and writes the request on the order slip.",
+   "act": "Write a one-page safety checklist for opening, service and closing, and use it for a week.",
+   "std": "Task: complete a daily safety checklist for a week. Condition: in a real or training kitchen or front desk. Standard: every item signed daily; any problem recorded with a fix."
+  },
+  "4": {
+   "title": "Know permits, licences and staff rules",
+   "intro": "Rules differ across provinces and cities. Find what you need before you open or hire.",
+   "pts": [
+    "Typical needs: business registration, food premises approval, signage and zoning approval, fire inspection.",
+    "Selling alcohol needs a provincial licence and trained staff; rules differ by province. Check with the provincial liquor regulator.",
+    "Short stays may need a municipal licence and have limits on where they can run. Check the city rules.",
+    "Employment standards cover minimum wage, breaks, overtime, tips and holiday pay. Check the current provincial rules.",
+    "Ask the city office what is needed to open a dining room or a short stay, and write the steps in order.",
+    "Check the rule on posted hours, signage, accessibility and washrooms for your type of venue.",
+    "Write which permit takes the longest and start that one first."
+   ],
+   "ex": "Rules table row: 'Seating over a set number | municipal fire office | occupancy limit posted | before opening | inspection report kept'. If the inspection takes 4 weeks and a hiring plan takes 3 weeks, both can run together, so the earliest opening is week 4, not week 7.",
+   "act": "Build a rules table for one venue type in your city with sources and dates.",
+   "std": "Task: build a rules table. Condition: from official pages or a call to each office. Standard: each row has enforcer, action, deadline and a dated source; unknowns are marked as to be confirmed."
+  },
+  "5": {
+   "title": "Count food cost, labour and price a menu",
+   "intro": "Margins are thin. Count every cost before you set a price.",
+   "pts": [
+    "Food cost percent = ingredient cost per portion divided by selling price. Many venues aim between 25 and 35 percent.",
+    "Labour is often the largest cost. Plan staff to match busy and quiet times.",
+    "Lodging: average daily rate times occupancy gives income per room available.",
+    "Include fees for payment cards, delivery apps and tax in your price check.",
+    "Work out the cost of each ingredient per portion from the purchase price and weight.",
+    "Compute break-even in portions: fixed cost divided by margin per portion.",
+    "Set the staff plan from the busy hours so that you do not pay for idle shifts."
+   ],
+   "ex": "A dish costs 3.10 CAD to make and sells for 12.00. Food cost is 3.10 / 12.00, about 26 percent, and margin is 12.00 - 3.10 = 8.90 per portion. At 900 portions a month the margin is 900 x 8.90 = 8,010 CAD before labour and rent. Teaching figures only.",
+   "act": "Cost five menu items or three room types and compute margins.",
+   "std": "Task: cost a menu or room list. Condition: current supplier prices. Standard: units and currency shown, formulas visible, three what-if cases such as a 10 percent food price rise."
+  },
+  "6": {
+   "title": "Run a service shift well",
+   "intro": "A good shift runs from a plan, a clear team and quick problem fixing.",
+   "pts": [
+    "Hold a five-minute briefing: bookings, specials, allergens, who is in charge.",
+    "Set stations and a prep list. Count stock at close.",
+    "Handle complaints with four steps: listen, say sorry, fix, follow up.",
+    "Review sales, waste and guest comments after each week.",
+    "Write a prep list from the bookings: how many portions of each dish to make.",
+    "Close with a checklist: stock count, cleaning, cash count, locks, fridge temperature.",
+    "Thank the team and note one thing that went well and one to fix at the end of each shift."
+   ],
+   "ex": "Waste log: 4 kg of prepared rice thrown out on Friday. If rice costs 2.50 per kg, that is 4 x 2.50 = 10 CAD lost in one night. Cooking smaller batches twice in the evening saves about 40 CAD over four Fridays.",
+   "act": "Run or support four shifts using a briefing, a prep list and a waste log.",
+   "std": "Task: run four shifts with logs. Condition: real or training service. Standard: briefing, prep and waste logs complete; one improvement shown by numbers."
+  },
+  "7": {
+   "title": "Draw guests, partner and market the place",
+   "intro": "Guests need to find you and trust you.",
+   "pts": [
+    "Keep your online listing, hours, menu and photos true and current.",
+    "Partner with nearby shops, events and tour groups; share offers.",
+    "Answer reviews politely within two days.",
+    "Provide information in English and French where law or guests need it, and make the venue accessible for people with disabilities.",
+    "Write a short description of the venue in plain English and French if guests need both.",
+    "Take clear photos of the menu and the room, and update them when things change.",
+    "Track where new guests heard about you by asking at the table or at booking."
+   ],
+   "ex": "A small cafe offers a lunch deal to the office next door and tracks how many use the card each week. In week one 12 cards are used, in week two 18. At 9 CAD per lunch, week two brings in 18 x 9 = 162 CAD, which is 54 more than week one.",
+   "act": "Run a four-week offer, track the redemptions and respond to every review.",
+   "std": "Task: test one marketing offer. Condition: four weeks with a tracking method. Standard: results recorded, every review answered, a decision on whether to repeat."
+  },
+  "8": {
+   "title": "Pilot a venue or service and plan to grow",
+   "intro": "Prove the idea small before you commit more money.",
+   "pts": [
+    "Define a pilot: pop-up, weekend menu, one room type or catering for one event.",
+    "Set measures and a stop rule: covers, average spend, waste, rating, profit.",
+    "Keep a risk register: staff shortage, supplier failure, health issue, bad weather, theft.",
+    "After the pilot write a review and a 12-month plan.",
+    "Pick one location, one menu and one date range for the pilot, and write them on one page.",
+    "Count guests, average spend and waste every day during the pilot.",
+    "Ask for guest and staff feedback in writing at the end of the pilot."
+   ],
+   "ex": "Stop rule: 'If we serve fewer than 40 covers a day for 30 days, we change the menu or location.' At 40 covers and an average spend of 12 CAD, a day brings in 480 CAD, so 30 days brings in 14,400 CAD. Below 40 covers, income falls short of that plan.",
+   "act": "Run the pilot, write the review and the plan, and present to a panel of three.",
+   "std": "Task: run a pilot and review. Condition: real guests and safe, legal operation. Standard: measures tracked, safety rules met, decision supported by numbers."
+  }
+ },
+ "price": [
+  12,
+  3.1,
+  900,
+  "portion"
+ ],
+ "quiz": [
+  [
+   "What is front of house?",
+   "Staff who serve guests."
+  ],
+  [
+   "What is occupancy percent?",
+   "Rooms used divided by rooms available."
+  ],
+  [
+   "Why keep raw and cooked food apart?",
+   "To stop harmful germs spreading."
+  ],
+  [
+   "Who do you ask about food handler and inspection rules?",
+   "The local public health authority."
+  ],
+  [
+   "What does selling alcohol need?",
+   "A provincial licence and trained staff; check local rules."
+  ],
+  [
+   "How is food cost percent worked out?",
+   "Ingredient cost per portion divided by selling price."
+  ],
+  [
+   "What are four steps to handle a complaint?",
+   "Listen, say sorry, fix, follow up."
+  ],
+  [
+   "Why track waste?",
+   "It shows lost money and where to improve."
+  ],
+  [
+   "What goes in a pilot stop rule?",
+   "A measure and a level that triggers a change or stop."
+  ],
+  [
+   "What do you do if you are unsure of a rule?",
+   "Ask the official office and keep the answer in writing."
+  ]
+ ],
+ "jobs": [
+  "Server or host",
+  "Cook",
+  "Front desk agent",
+  "Kitchen supervisor",
+  "Venue manager",
+  "Caterer or small venue owner"
+ ]
+}

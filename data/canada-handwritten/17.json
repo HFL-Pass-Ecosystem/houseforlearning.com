@@ -34,7 +34,7 @@
     "Write a daily pre-trip inspection checklist and keep signed copies.",
     "Check insurance requirements for carriers and warehouse operators; check the provincial and federal rule."
    ],
-   "ex": "Row: 'Drive commercial truck | provincial and federal transport rules | licence, logs, inspection | each day | log book'. A second row: 'Store chilled food | food safety rule | temperature log at the set limit | every 4 hours | log sheet'. Date each source.",
+   "ex": "Row: 'Drive commercial truck | provincial and federal transport rules | licence, logs, inspection | each day | log book'. A second row: 'Store chilled food | food safety rule | temperature log against the limit in the rule | at the interval the rule sets; check it | log sheet'. Date each source.",
    "act": "Build a rules table.",
    "std": "Rows sourced and dated."
   },

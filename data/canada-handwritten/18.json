@@ -66,7 +66,7 @@
     "List revenue lines: collection fees, gate fees and material sales.",
     "Test a price fall, since recovered-material prices change."
    ],
-   "ex": "Price 180 per tonne; cost 120; margin 60; fixed cost 540,000 a year gives 540,000 / 60 = 9,000 t. If the price falls 10% to 162, margin is 42 and break-even rises to 540,000 / 42 = about 12,858 t. Teaching figures in CAD.",
+   "ex": "Price 180 per tonne; cost 120; margin 60; fixed cost 540,000 a year gives 540,000 / 60 = 9,000 t. If the price falls 10% to 162, margin is 42 and break-even rises to 540,000 / 42 = about 12,857 t. Teaching figures in CAD.",
    "act": "Build a cost sheet with price fall.",
    "std": "Cases shown."
   },
@@ -154,7 +154,7 @@
   ],
   [
    "Who approves waste operations?",
-   "The provincial environment ministry."
+   "The provincial environment authority, under the provincial rule."
   ],
   [
    "Why financial assurance?",

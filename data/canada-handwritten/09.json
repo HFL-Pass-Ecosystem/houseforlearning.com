@@ -18,7 +18,7 @@
     "Compare routes by cost per tonne, energy needed and product value; pick the simplest one that meets the buyer's need.",
     "Write what a buyer must believe to buy: the gas flow is steady, the product sells and the permit can be obtained."
    ],
-   "ex": "Landfill gas contains about half methane; capturing and converting 1,000 t of methane avoids about 25,000 t carbon-dioxide equivalent over 100 years (use the factor your reporting rule requires). If the unit converts 80% of 1,000 t, then 800 t x 25 = 20,000 t carbon-dioxide equivalent is avoided.",
+   "ex": "Landfill gas contains roughly half methane. Using a 100-year factor of 25 (use the factor your reporting rule requires), converting 1,000 t of methane avoids about 1,000 x 25 = 25,000 t carbon-dioxide equivalent. If the unit converts only 80% of the 1,000 t, then 800 t x 25 = 20,000 t carbon-dioxide equivalent is avoided.",
    "act": "Write a one-page problem statement with source, gas, volume and buyer.",
    "std": "Volumes have units and sources."
   },
@@ -157,20 +157,20 @@
    "Annual cost divided by tonnes avoided."
   ],
   [
-   "Name two sensors.",
-   "Flow and gas composition (or temperature, pressure)."
+   "What does the uptime figure measure?",
+   "Hours running divided by hours planned."
   ],
   [
    "Why consult neighbours?",
-   "Trust and permits depend on it."
+   "Trust is needed, and a permit may depend on community input; check the provincial rule."
   ],
   [
    "What triggers a fix?",
    "Uptime under 70%."
   ],
   [
-   "Who builds pressure systems?",
-   "Certified welders and inspectors."
+   "Who must build and inspect pressure systems?",
+   "Certified welders and inspectors, following the technical safety code."
   ],
   [
    "What is payback?",

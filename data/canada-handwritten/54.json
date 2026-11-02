@@ -1,12 +1,188 @@
-{"mods":{
-"1":{"title":"Know the handy trade","intro":"Handy workers fix and improve homes: small repairs, fitting, painting, assembly. Know the limits of your trade first.","pts":["Name common jobs: patching walls, painting, shelves, door and tap repairs, furniture assembly.","Describe which jobs need a licensed trade, such as electrical, gas and some plumbing.","Explain the basic tools: tape measure, level, drill, screwdrivers, stud finder.","List words: stud, anchor, caulk, primer, torque, shut-off valve."],"ex":"A customer asks for a new light fitting and a leaking shower. Light wiring may need a licensed electrician; a loose tap washer may be fine for a handy worker.","act":"List ten common jobs and mark each: handy worker, or licensed trade needed (check locally).","std":"Task: sort jobs by scope. Condition: ten example jobs. Standard: each job marked with a reason and checked with the local authority."},
-"2":{"title":"Work safely","intro":"Tools, ladders and dust can hurt. Safety comes before speed.","pts":["Apply tool safety: eye cover, gloves, hearing cover, dust mask where needed.","Use ladders correctly: firm base, three points of contact, do not overreach.","Check for hidden hazards before cutting or drilling: pipes, wires, old paint or insulation.","Explain why you stop and ask when you suspect something dangerous."],"ex":"Before drilling into a wall, the worker uses a detector, checks the other side, then drills small. Old paint in an old house is tested before sanding.","act":"Write a safety checklist for ladder, drill and paint jobs and use it on a practice job.","std":"Task: do a safe set-up. Condition: practice job. Standard: every checklist item done before work starts."},
-"3":{"title":"Follow the rules in Canada","intro":"Trades licensing, permits, insurance and tax rules differ by province. Check with the local authority.","pts":["Explain that electrical, gas and many plumbing jobs need a licensed person; check your province.","Describe building permits: some work needs one; ask the city before you start.","Check insurance and compensation rules for working alone or hiring helpers.","Apply tax and contract rules: written quote, receipts, and sales tax rules checked with the federal tax agency."],"ex":"Rules table row: Permit | city building office | ask before structural or electrical changes | before work | permit number in job file.","act":"Make a rules table for your city and province with official pages and dates.","std":"Task: map the rules. Condition: official pages only. Standard: each row has an enforcer, an action and a checked date."},
-"4":{"title":"Do core repairs to a standard","intro":"Learn a few repairs well rather than many badly.","pts":["Build a method for a wall patch: clean, fill, dry, sand, prime, paint.","Apply a method for hanging a shelf: find studs, level, right anchors, load check.","Fix a dripping tap or running toilet by following the manufacturer steps.","Record before and after photos."],"ex":"Shelf job: stud found, level marked, two screws into the stud, anchor in one spot, 10 kg load test, photo taken.","act":"Do each of three repairs twice on a practice board and compare the second run.","std":"Task: complete a repair. Condition: practice board. Standard: result level, firm and clean, and the second run is better."},
-"5":{"title":"Read the problem and quote","intro":"Many handy jobs fail because the real problem was missed. Look first, then quote.","pts":["Ask questions: what, where, since when, what was tried.","Check the cause, not just the sign. A stain on a ceiling may come from above.","Write a quote with scope, materials, time, price and what is not included.","Explain a change order and why it must be agreed before extra work."],"ex":"Ceiling stain: the leak is from the bathroom above. The quote covers finding the cause; painting is a second step after it is dry.","act":"Visit two practice jobs, write the problem, cause and a written quote.","std":"Task: quote a job. Condition: practice site. Standard: scope, materials, price and exclusions all written."},
-"6":{"title":"Price, materials and time","intro":"Time and materials add up fast. Count the trip to the store too.","pts":["Compute job cost: labour, materials with a small mark-up, travel, tools wear, insurance.","Compare hourly and fixed prices.","Plan the day with buffer time for surprises.","Check supplier prices at three stores before buying."],"ex":"Price 120 for a 2-hour job, materials 15, travel 10. Margin 95. If fixed costs are 600 a month, break-even is about 7 jobs. Teaching numbers only.","act":"Build a cost sheet and a price list for five common jobs.","std":"Task: price jobs. Condition: all costs counted. Standard: margin and break-even correct and shown with units."},
-"7":{"title":"Clients, trust and records","intro":"You work in people's homes. Respect, tidiness and honesty bring referrals.","pts":["Apply site care: cover floors, clean up, take away waste.","Write a short agreement: scope, price, timing, payment, warranty on your work.","Keep a job file: quote, photos, receipts, notes.","Handle a mistake: say it, fix it, record it."],"ex":"Paint drips on a floor. The worker tells the client, cleans it at once and writes a note. The client keeps using the service.","act":"Create a job file template and run one practice job through it from quote to final photo.","std":"Task: finish a job properly. Condition: practice job. Standard: site clean, file complete and client signs off."},
-"8":{"title":"Run the service for real","intro":"Now run your handy service with real clients, a plan and clear limits.","pts":["Run a 60-day pilot with a stop rule agreed in advance.","Review weekly: jobs, margin, repeat jobs, complaints, referrals.","Create a 12-month plan with training, insurance and tools.","Lead others: write job methods so a helper can do the same standard."],"ex":"Stop rule: if fewer than 15 jobs in 60 days, stop and write lessons. Result: 22 jobs and 6 referrals; add shelf-and-assembly packages.","act":"Run the pilot, write the review and present your plan to three people.","std":"Task: run a handy service pilot. Condition: 60 days, real clients. Standard: results compared with the stop rule and trade limits re-checked."}},
-"price":[120,25,30,"job"],
-"quiz":[["Name two jobs that may need a licensed trade.","Electrical and gas (also some plumbing); check locally."],["What do you do before drilling a wall?","Check for pipes and wires with a detector and plan the hole."],["What are three points of contact on a ladder?","Two hands and one foot, or two feet and one hand, always touching."],["Why ask the city about permits?","Some work needs a permit and doing it without one can cause trouble."],["What should a quote include?","Scope, materials, time, price and what is not included."],["What is a change order?","An agreed written change to scope or price before extra work."],["Why find the cause, not just the sign?","The stain or drip may come from another place."],["How do you find break-even jobs?","Fixed cost divided by margin per job."],["What goes in a job file?","Quote, photos, receipts and notes."],["What if a job seems beyond your skill?","Stop and refer it to a licensed trade."]],
-"jobs":["Handyperson","Maintenance technician","Painter helper","Furniture assembler","Property maintenance worker","Home repair business owner"]}
+{
+ "mods": {
+  "1": {
+   "title": "Know the handy trade",
+   "intro": "Handy workers fix and improve homes: small repairs, fitting, painting, assembly. Know the limits of your trade first.",
+   "pts": [
+    "Name common jobs: patching walls, painting, shelves, door and tap repairs, furniture assembly.",
+    "Describe which jobs need a licensed trade, such as electrical, gas and some plumbing.",
+    "Name the basic tools: tape measure, level, drill, screwdrivers, stud finder.",
+    "List words: stud, anchor, caulk, primer, torque, shut-off valve.",
+    "Classify a job as handy, licensed trade or refer on, and write the reason.",
+    "Compare a small repair with a renovation and say where your limit sits.",
+    "Identify signs of a larger problem, such as mould, a sagging floor or repeated leaks."
+   ],
+   "ex": "A customer asks for a new light fitting and a leaking shower. Light wiring may need a licensed electrician; a loose tap washer may be fine for a handy worker. The worker splits the request into two jobs and writes which one is referred on.",
+   "act": "List ten common jobs and mark each: handy worker, or licensed trade needed (check locally).",
+   "std": "Task: sort jobs by scope. Condition: ten example jobs. Standard: each job marked with a reason and checked with the local authority."
+  },
+  "2": {
+   "title": "Work safely",
+   "intro": "Tools, ladders and dust can hurt. Safety comes before speed.",
+   "pts": [
+    "Apply tool safety: eye cover, gloves, hearing cover, dust mask where needed.",
+    "Use ladders correctly: firm base, three points of contact, do not overreach.",
+    "Check for hidden hazards before cutting or drilling: pipes, wires, old paint or insulation.",
+    "Explain why you stop and ask when you suspect something dangerous.",
+    "Wear a dust mask that suits the dust and check that it seals on the face.",
+    "Secure the work area with tape and signs, and keep cords out of walking paths.",
+    "Lift with the legs, ask for help with heavy items and use a trolley."
+   ],
+   "ex": "Before drilling into a wall, the worker uses a detector, checks the other side, then drills a small pilot hole. Old paint in an old house is tested before sanding. To reach a point 4 m up, a ladder base sits about 1 m out from the wall (the one-in-four rule).",
+   "act": "Write a safety checklist for ladder, drill and paint jobs and use it on a practice job.",
+   "std": "Task: do a safe set-up. Condition: practice job. Standard: every checklist item done before work starts."
+  },
+  "3": {
+   "title": "Follow the rules in Canada",
+   "intro": "Trades licensing, permits, insurance and tax rules differ by province. Check with the local authority.",
+   "pts": [
+    "Explain that electrical, gas and many plumbing jobs need a licensed person; check your province.",
+    "Describe building permits: some work needs one; ask the city before you start.",
+    "Check insurance and compensation rules for working alone or hiring helpers.",
+    "Apply tax and contract rules: written quote, receipts, and sales tax rules checked with the federal tax agency.",
+    "Identify the city office to call for permit questions and write down the contact.",
+    "Describe when a landlord or condo board must approve work.",
+    "Keep a copy of the quote, permit and insurance for every job."
+   ],
+   "ex": "Rules table row: Permit | city building office | ask before structural or electrical changes | before work | permit number in job file. A second row: Landlord approval | building owner | ask in writing before changes to walls or fixtures | before work | reply kept. Add a checked date to each row.",
+   "act": "Make a rules table for your city and province with official pages and dates.",
+   "std": "Task: map the rules. Condition: official pages only. Standard: each row has an enforcer, an action and a checked date."
+  },
+  "4": {
+   "title": "Do core repairs to a standard",
+   "intro": "Learn a few repairs well rather than many badly.",
+   "pts": [
+    "Build a method for a wall patch: clean, fill, dry, sand, prime, paint.",
+    "Apply a method for hanging a shelf: find studs, level, right anchors, load check.",
+    "Fix a dripping tap or running toilet by following the manufacturer steps.",
+    "Record before and after photos.",
+    "Sequence a repair in steps and write the tools and materials list before starting.",
+    "Check a finished repair with a level, a tug test or a water test.",
+    "Clean and put away tools, then note what to improve."
+   ],
+   "ex": "Shelf job: stud found, level marked, two screws into the stud, anchor in one spot, load test, photo taken. If the shelf will hold three book sets of 2 kg and a 4 kg box, the planned load is 3 x 2 + 4 = 10 kg, and the load test uses that weight.",
+   "act": "Do each of three repairs twice on a practice board and compare the second run.",
+   "std": "Task: complete a repair. Condition: practice board. Standard: result level, firm and clean, and the second run is better."
+  },
+  "5": {
+   "title": "Read the problem and quote",
+   "intro": "Many handy jobs fail because the real problem was missed. Look first, then quote.",
+   "pts": [
+    "Ask questions: what, where, since when, what was tried.",
+    "Check the cause, not just the sign. A stain on a ceiling may come from above.",
+    "Write a quote with scope, materials, time, price and what is not included.",
+    "Explain a change order and why it must be agreed before extra work.",
+    "Take photos and measurements at the first visit.",
+    "Decide when to say 'I must look closer' instead of guessing a price.",
+    "Explain an allowance for hidden problems, such as extra time for an old house."
+   ],
+   "ex": "Ceiling stain: the leak is from the bathroom above. The quote covers finding the cause (1 hour); painting is a second step after it is dry (3 hours). The two steps total 4 hours, and the client approves each one.",
+   "act": "Visit two practice jobs, write the problem, cause and a written quote.",
+   "std": "Task: quote a job. Condition: practice site. Standard: scope, materials, price and exclusions all written."
+  },
+  "6": {
+   "title": "Price, materials and time",
+   "intro": "Time and materials add up fast. Count the trip to the store too.",
+   "pts": [
+    "Compute job cost: labour, materials with a small mark-up, travel, tools wear, insurance.",
+    "Compare hourly and fixed prices.",
+    "Plan the day with buffer time for surprises.",
+    "Check supplier prices at three stores before buying.",
+    "Calculate materials with waste: add about 10% for cuts, then round up to whole packs.",
+    "Compute the mark-up on materials and tell the client.",
+    "Track real time against quoted time to improve the next quote."
+   ],
+   "ex": "Price 120 for a 2-hour job, materials 15, travel 10. Margin = 120 - 15 - 10 = 95. If fixed costs are 600 a month, break-even is 600 / 95 = 6.3, so 7 jobs (teaching numbers only).",
+   "act": "Build a cost sheet and a price list for five common jobs.",
+   "std": "Task: price jobs. Condition: all costs counted. Standard: margin and break-even correct and shown with units."
+  },
+  "7": {
+   "title": "Clients, trust and records",
+   "intro": "You work in people's homes. Respect, tidiness and honesty bring referrals.",
+   "pts": [
+    "Apply site care: cover floors, clean up, take away waste.",
+    "Write a short agreement: scope, price, timing, payment, warranty on your work.",
+    "Keep a job file: quote, photos, receipts, notes.",
+    "Handle a mistake: say it, fix it, record it.",
+    "Take photos only with permission and never share the inside of a home.",
+    "Explain your warranty in plain words: its length and what is not covered.",
+    "Ask for payment on the date agreed and issue a receipt."
+   ],
+   "ex": "Paint drips on a floor. The worker tells the client, cleans it at once and writes a note. The client keeps using the service, and the note goes in the job file.",
+   "act": "Create a job file template and run one practice job through it from quote to final photo.",
+   "std": "Task: finish a job properly. Condition: practice job. Standard: site clean, file complete and client signs off."
+  },
+  "8": {
+   "title": "Run the service for real",
+   "intro": "Now run your handy service with real clients, a plan and clear limits.",
+   "pts": [
+    "Run a 60-day pilot with a stop rule agreed in advance.",
+    "Review weekly: jobs, margin, repeat jobs, complaints, referrals.",
+    "Create a 12-month plan with training, insurance and tools.",
+    "Lead others: write job methods so a helper can do the same standard.",
+    "Calculate the share of quotes that become jobs.",
+    "Set a rule to decline jobs outside your skills or insurance.",
+    "Plan the tools and training you need over the next year and cost them."
+   ],
+   "ex": "Stop rule: if fewer than 15 jobs in 60 days, stop and write lessons. Result: 22 jobs and 6 referrals, so 6 / 22 = about 27% of jobs came from referrals. 22 is above 15, so the pilot continues and shelf-and-assembly packages are added.",
+   "act": "Run the pilot, write the review and present your plan to three people.",
+   "std": "Task: run a handy service pilot. Condition: 60 days, real clients. Standard: results compared with the stop rule and trade limits re-checked."
+  }
+ },
+ "price": [
+  120,
+  25,
+  30,
+  "job"
+ ],
+ "quiz": [
+  [
+   "Name two jobs that may need a licensed trade.",
+   "Electrical and gas (also some plumbing); check locally."
+  ],
+  [
+   "What do you do before drilling a wall?",
+   "Check for pipes and wires with a detector and plan the hole."
+  ],
+  [
+   "What are three points of contact on a ladder?",
+   "Two hands and one foot, or two feet and one hand, always touching."
+  ],
+  [
+   "Why ask the city about permits?",
+   "Some work needs a permit and doing it without one can cause trouble."
+  ],
+  [
+   "What should a quote include?",
+   "Scope, materials, time, price and what is not included."
+  ],
+  [
+   "What is a change order?",
+   "An agreed written change to scope or price before extra work."
+  ],
+  [
+   "Why find the cause, not just the sign?",
+   "The stain or drip may come from another place."
+  ],
+  [
+   "How do you find break-even jobs?",
+   "Fixed cost divided by margin per job."
+  ],
+  [
+   "What goes in a job file?",
+   "Quote, photos, receipts and notes."
+  ],
+  [
+   "What if a job seems beyond your skill?",
+   "Stop and refer it to a licensed trade."
+  ]
+ ],
+ "jobs": [
+  "Handyperson",
+  "Maintenance technician",
+  "Painter helper",
+  "Furniture assembler",
+  "Property maintenance worker",
+  "Home repair business owner"
+ ]
+}

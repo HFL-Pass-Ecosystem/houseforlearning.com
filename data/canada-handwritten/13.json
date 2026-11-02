@@ -24,10 +24,10 @@
   },
   "2": {
    "title": "Know privacy, AI and contract rules",
-   "intro": "Know what you must follow.",
+   "intro": "Privacy, sector and contract rules all shape what an AI project may do with data.",
    "pts": [
     "Privacy law covers personal data used for training and decisions; get consent or another lawful basis.",
-    "Automated decisions about people need explanation and human review where the law or policy says so.",
+    "Automated decisions about people may need explanation and human review; check the federal and provincial rule and the client policy.",
     "Contracts: data ownership, model ownership, performance claims, liability.",
     "Sector rules such as health or finance add duties.",
     "Write a data map: what personal data you hold, where it came from, where it is stored, who sees it and when you delete it.",
@@ -146,7 +146,7 @@
   ],
   [
    "Name two good AI process types.",
-   "Triage and forecasting (or document checks, inspection)."
+   "Triage and forecasting (or document checks and quality inspection)."
   ],
   [
    "Why keep a human in the loop at first?",

@@ -29,7 +29,7 @@
     "Radio and electrical safety approvals are required before sale in Canada; test with an accredited lab.",
     "Hazardous substances and battery transport have rules.",
     "Import and customs rules and duties apply to parts and finished goods.",
-    "Supply-chain due diligence laws on forced labour require records of supplier checks; keep them.",
+    "Supply-chain laws on forced labour or child labour may require reporting or supplier checks; check whether a federal or provincial rule applies to your firm, and keep your supplier records either way.",
     "Ask the accredited lab for a written list of tests and how long they take; plan the launch after the certificate date, not before.",
     "Check the carrier's rules for shipping lithium batteries and write the packing method into your procedure.",
     "Ask a customs broker which tariff codes and duties apply to your parts and write the landed cost per part."
@@ -138,7 +138,7 @@
  "quiz": [
   [
    "Name two ethical phone claims you could prove.",
-   "Repairable design and long software support (or documented supplier audits)."
+   "Repairable design (shown by tested repair times) and long software support (shown by published update dates)."
   ],
   [
    "What approval does a phone with a radio need?",
@@ -170,7 +170,7 @@
   ],
   [
    "Why keep audit records?",
-   "Supply-chain laws require proof of checks."
+   "Buyers and any applicable supply-chain rule may ask for proof; check the rule."
   ],
   [
    "Why diversify chip supply?",
