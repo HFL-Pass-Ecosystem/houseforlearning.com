@@ -138,43 +138,53 @@
  "quiz": [
   [
    "Why compare crops by days to harvest?",
-   "Faster crops return cash sooner and fit stacked systems best."
+   "Faster crops return cash sooner and fit stacked systems best.",
+   1
   ],
   [
    "What is usually the largest cost after rent?",
-   "Electricity for lights."
+   "Electricity for lights.",
+   4
   ],
   [
    "How do you compute power cost per cycle?",
-   "Lamp kilowatts x hours per day x days x price per kWh."
+   "Lamp kilowatts x hours per day x days x price per kWh.",
+   4
   ],
   [
    "Why use batch codes?",
-   "They trace a delivered bag back to its tray and enable recalls."
+   "They trace a delivered bag back to its tray and enable recalls.",
+   5
   ],
   [
    "Name three growing systems.",
-   "Hydroponic, aeroponic and soil-based wall."
+   "Hydroponic, aeroponic and soil-based wall.",
+   3
   ],
   [
    "What should a risk register include for pumps?",
-   "A control such as an alarm and a spare, an owner and a test date."
+   "A control such as an alarm and a spare, an owner and a test date.",
+   7
   ],
   [
    "What is a stop rule in the pilot?",
-   "A pre-agreed trigger, such as yield under 60% of plan, to pause and fix."
+   "A pre-agreed trigger, such as yield under 60% of plan, to pause and fix.",
+   8
   ],
   [
    "Why stagger seeding?",
-   "Harvests stay steady week to week."
+   "Harvests stay steady week to week.",
+   5
   ],
   [
    "Who inspects wash and pack areas?",
-   "Depending on the province, the local public health unit or a provincial inspector may; check the provincial rule."
+   "Depending on the province, the local public health unit or a provincial inspector may; check the provincial rule.",
+   2
   ],
   [
    "Why test a 15% yield drop?",
-   "It shows whether the business still breaks even under stress."
+   "It shows whether the business still breaks even under stress.",
+   4
   ]
  ],
  "jobs": [

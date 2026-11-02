@@ -138,43 +138,53 @@
  "quiz": [
   [
    "What is a hypothesis?",
-   "A testable guess."
+   "A testable guess.",
+   1
   ],
   [
    "What is a control?",
-   "The part left unchanged for comparison."
+   "The part left unchanged for comparison.",
+   1
   ],
   [
    "Why write a method others can repeat?",
-   "So others can check and trust the result."
+   "So others can check and trust the result.",
+   2
   ],
   [
    "How do you correct an error in a notebook?",
-   "Add a note with date and initials; do not hide the original."
+   "Add a note with date and initials; do not hide the original.",
+   3
   ],
   [
    "When is ethics review needed?",
-   "For research with people, under the national research ethics policy."
+   "For research with people, under the national research ethics policy.",
+   4
   ],
   [
    "Who should you ask before research with Indigenous communities?",
-   "The community, following its agreements and data rights."
+   "The community, following its agreements and data rights.",
+   4
   ],
   [
    "What should a data summary show beyond one number?",
-   "Average and spread, with units."
+   "Average and spread, with units.",
+   5
   ],
   [
    "Why state limits of the data?",
-   "To avoid claiming more than the data can show."
+   "To avoid claiming more than the data can show.",
+   5
   ],
   [
    "What does a data plan cover?",
-   "Storage, backup, access, retention and privacy."
+   "Storage, backup, access, retention and privacy.",
+   7
   ],
   [
    "What if you cannot find a rule?",
-   "Ask the ethics or safety office and keep the answer in writing."
+   "Ask the ethics or safety office and keep the answer in writing.",
+   4
   ]
  ],
  "jobs": [

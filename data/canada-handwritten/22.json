@@ -138,43 +138,53 @@
  "quiz": [
   [
    "What is a listing?",
-   "A page that shows a product, price and details for buyers."
+   "A page that shows a product, price and details for buyers.",
+   1
   ],
   [
    "What does a marketplace give you?",
-   "Access to its buyers, for a fee."
+   "Access to its buyers, for a fee.",
+   5
   ],
   [
    "What are the steps of an order?",
-   "Order, pay, pick, pack, ship, track, deliver, support, return."
+   "Order, pay, pick, pack, ship, track, deliver, support, return.",
+   2
   ],
   [
    "What should a listing never include?",
-   "Claims you cannot prove."
+   "Claims you cannot prove.",
+   3
   ],
   [
    "How do you compute margin?",
-   "Price minus all costs, divided by price."
+   "Price minus all costs, divided by price.",
+   5
   ],
   [
    "When must you collect sales tax?",
-   "Once you pass the small-supplier limit or choose to register; check the current rule."
+   "Once you pass the small-supplier limit or choose to register; check the current rule.",
+   4
   ],
   [
    "Why not ask for card details by message?",
-   "It is unsafe; use the secure checkout."
+   "It is unsafe; use the secure checkout.",
+   7
   ],
   [
    "How do you earn good reviews?",
-   "Ship as promised, answer fast and ask honestly; never fake them."
+   "Ship as promised, answer fast and ask honestly; never fake them.",
+   6
   ],
   [
    "What do you do with used goods?",
-   "Check recalls and safety rules before selling."
+   "Check recalls and safety rules before selling.",
+   7
   ],
   [
    "What do you do when unsure about a rule?",
-   "Check the current rule with the local authority and keep the answer in writing."
+   "Check the current rule with the local authority and keep the answer in writing.",
+   4
   ]
  ],
  "jobs": [

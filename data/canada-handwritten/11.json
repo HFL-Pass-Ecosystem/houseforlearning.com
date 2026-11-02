@@ -138,43 +138,53 @@
  "quiz": [
   [
    "Why test speed at different times?",
-   "Peak-hour congestion differs from off-peak."
+   "Peak-hour congestion differs from off-peak.",
+   1
   ],
   [
    "How find backhaul need?",
-   "Households times peak use, adjusted for sharing."
+   "Households times peak use, adjusted for sharing.",
+   1
   ],
   [
    "Why use batteries?",
-   "Outages stop service."
+   "Outages stop service.",
+   3
   ],
   [
    "Who licenses spectrum?",
-   "The federal spectrum authority; the federal telecom regulator separately sets rules for carriers."
+   "The federal spectrum authority; the federal telecom regulator separately sets rules for carriers.",
+   2
   ],
   [
    "Why train users?",
-   "Access without skill does not create use."
+   "Access without skill does not create use.",
+   6
   ],
   [
    "What is take-up?",
-   "Share of homes that subscribe."
+   "Share of homes that subscribe.",
+   8
   ],
   [
    "Why keep logs short-term?",
-   "To protect privacy."
+   "To protect privacy.",
+   7
   ],
   [
    "What triggers redesign?",
-   "Under 30% take-up in 90 days."
+   "Under 30% take-up in 90 days.",
+   8
   ],
   [
    "Why a local support person?",
-   "Fast repair and trust."
+   "Fast repair and trust.",
+   5
   ],
   [
    "Name one funding source type.",
-   "Public connectivity programmes or a community fund; read each funder's conditions first."
+   "Public connectivity programmes or a community fund; read each funder's conditions first.",
+   2
   ]
  ],
  "jobs": [

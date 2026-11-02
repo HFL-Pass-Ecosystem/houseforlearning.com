@@ -138,43 +138,53 @@
  "quiz": [
   [
    "What is the role of a consultant?",
-   "To give advice; the client decides and acts."
+   "To give advice; the client decides and acts.",
+   1
   ],
   [
    "What does scope state?",
-   "What is in and out of the work."
+   "What is in and out of the work.",
+   2
   ],
   [
    "How do you reach a root cause?",
-   "Keep asking why until you reach the cause."
+   "Keep asking why until you reach the cause.",
+   3
   ],
   [
    "What should every finding have?",
-   "Evidence, a cause and an option with cost."
+   "Evidence, a cause and an option with cost.",
+   3
   ],
   [
    "Why avoid claiming a protected title?",
-   "Some fields are regulated and titles are protected."
+   "Some fields are regulated and titles are protected.",
+   4
   ],
   [
    "What does a proposal include?",
-   "Problem, work, deliverables, timeline, fee and what you need."
+   "Problem, work, deliverables, timeline, fee and what you need.",
+   5
   ],
   [
    "What is a conflict of interest?",
-   "A situation where your interest may affect your advice; tell the client."
+   "A situation where your interest may affect your advice; tell the client.",
+   7
   ],
   [
    "Who owns the report?",
-   "Set in the agreement, often the client when paid in full."
+   "Set in the agreement, often the client when paid in full.",
+   7
   ],
   [
    "Why keep client files secure?",
-   "They are private; privacy law applies."
+   "They are private; privacy law applies.",
+   7
   ],
   [
    "What do you do when you do not know a rule?",
-   "Check the current rule with the local authority."
+   "Check the current rule with the local authority.",
+   4
   ]
  ],
  "jobs": [
