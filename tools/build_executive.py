@@ -65,10 +65,32 @@ rows = ''.join(f'<li><a href="{mslug(n)}">Module {e(n)}: {e(t)}</a></li>' for n,
 body = (sec('', 'm1', '14 modules', 'Each is 75 hours and stacks', f'<ul class="ws-plist cl">{rows}</ul>')
  + sec('alt', 'm2', 'same five parts every time', 'What each module contains', '<ol class="ws-chips">' + ''.join(f'<li>{e(x)}</li>' for x in frame) + '</ol><p>Each module is 2.5 ECTS, which is 75 hours of study, and fits the recommended approach to small, stackable credentials. Modules bridge the executive programme to specialist master-level and doctoral routes.</p><p>Module 4 is reserved and not yet published.</p>' + note))
 page('executive-modules.html', 'Executive modules', 'Fourteen stackable executive modules of 75 hours each.', 'Executive modules', 'Fourteen stackable modules, each 2.5 ECTS or 75 hours.', body, '<li><a href="executive-programme.html">Executive programme</a></li><li aria-current="page">Modules</li>')
+
+import json
+XD = R / 'data' / 'executive'
+def rich(n):
+    f = XD / (n.lower() + '.json')
+    if not f.exists(): return ''
+    x = json.load(open(f)); ms = x['modules']
+    tcs = ('<div class="tcs"><div><h4>Task</h4><p>' + e(x['task']) + '</p></div><div><h4>Condition</h4><p>' + e(x['condition']) + '</p></div><div><h4>Standard</h4><p>' + e(x['standard']) + '</p></div></div><p><strong>Who it is for:</strong> ' + e(x['who']) + '</p>')
+    mod = ''
+    for i, m in enumerate(ms, 1):
+        mod += (f'<details class="mod" {"open" if i==1 else ""}><summary><span class="mn">Part {i}</span> {e(m["title"])} <span class="pill">{e(str(m["hours"]))} h</span><span class="pill bz">{e(m["bloom"])}</span></summary>'
+                f'<p>{e(m["intro"])}</p><ul>' + ''.join(f'<li>{e(q)}</li>' for q in m['points']) + '</ul>'
+                f'<p><strong>Worked example:</strong> {e(m["example"])}</p><p><strong>Activity:</strong> {e(m["activity"])}</p><p><strong>Standard:</strong> {e(m["standard"])}</p></details>')
+    qs = ''.join(f'<li><strong>{e(q["q"])}</strong><br>{e(q["a"])} <em>(Covered in part {q["module"]}: {e(ms[q["module"]-1]["title"])}. To pass that part: {e(ms[q["module"]-1]["standard"].rstrip().rstrip("."))}.)</em></li>' for q in x['quiz'])
+    lad = ''.join(f'<li><strong>Slide {j}: {e(l["title"])}.</strong> {e(l["slide"])} <em>Speaker note:</em> {e(l["notes"])}</li>' for j, l in enumerate(x['ladder'], 1))
+    rub = ('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric (Not yet, Meets, Exceeds)</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>'
+           + ''.join(f'<tr><th scope="row">{e(r["criterion"])}</th><td>{e(r["not_yet"])}</td><td>{e(r["meets"])}</td><td>{e(r["exceeds"])}</td></tr>' for r in x['rubric']) + '</tbody></table></div>')
+    jobs = '<ul>' + ''.join(f'<li><strong>{e(j["role"])}.</strong> {e(j["what"])}</li>' for j in x['jobs']) + '</ul>'
+    return (sec('', 'r1', 'task, condition, standard', 'What you will be able to do', tcs) + sec('alt', 'r2', 'eight parts', 'The parts, with worked examples', mod)
+            + sec('', 'r3', 'ten checks', 'Check yourself', '<ol>' + qs + '</ol>') + sec('alt', 'r4', 'slides L1 to L7', 'The seven-level ladder, slide by slide', '<ol class="lad">' + lad + '</ol>')
+            + sec('', 'r5', 'how it is judged', 'Marking rubric', rub) + sec('alt', 'r6', 'jobs this leads to', 'Where this takes you', jobs))
 for n, t, wts in mods:
     ws = wts or shared
     b = (sec('', 'a1', 'what you take', f'Module {n}', f'<ul class="cards"><li class="card"><h3>Size</h3><p>2.5 ECTS, 75 hours of study.</p></li><li class="card"><h3>Credit</h3><p>Counts in 16 countries. <a href="executive-credits.html">See the table</a>.</p></li></ul>')
          + sec('alt', 'a2', 'how it is marked', 'Assessment', '<ul class="ws-chips">' + ''.join(f'<li>{e(x)}</li>' for x in ws) + '</ul><p>Marking bands: A, B or fail. Presentations use at most 10 slides, with a short live defence.</p>' + ('' if wts else '<p>Weights shown follow the shared pattern for modules 3 to 14, and will be confirmed.</p>'))
+         + rich(n)
          + '<section class="sec alt" aria-labelledby="lg-h"><div class="wrap"><div class="sec-head"><p class="kicker">language</p><h2 id="lg-h">Choose your language</h2></div><div class="sec-body"><p>This module is in English first. Choose any language in the world and the page is translated for you by machine, with the English kept as the official text.</p><p><button class="btn" type="button" data-lang-toggle aria-haspopup="dialog" aria-controls="lang-panel" aria-expanded="false">Choose language</button></p></div></div></section>' 
          + sec('', 'a3', 'next', 'Keep going', '<p><a class="btn" href="executive-modules.html">All modules</a></p>' + note))
     page(mslug(n), f'Module {n}: {t}', f'{t}, a 75-hour executive module.', f'Module {n}: {t}', 'A 2.5 ECTS executive module, 75 hours.', b,

@@ -1,0 +1,253 @@
+{
+ "task": "Frame a decision, check a small data pipeline and use basic statistics and scenarios to recommend a choice.",
+ "condition": "Given a small data set, pipeline counts, option payoffs and a revenue and cost case.",
+ "standard": "Row counts reconcile, rates and statistics are correct, a line is fitted, scenarios and break-even are shown and the recommendation names a range.",
+ "who": "Managers and analysts who must back decisions with data.",
+ "modules": [
+  {
+   "title": "Framing a decision with numbers",
+   "bloom": "Apply: structure",
+   "hours": 9,
+   "intro": "A good decision starts with a clear question, the options, and a measure of success. Without these, data cannot help.",
+   "points": [
+    "State the choice and the deadline",
+    "List options and the measure for each",
+    "Name what you do not know"
+   ],
+   "example": "A firm can launch a product (option A) or wait (option B). A: a 60% chance of a 50,000 gain and a 40% chance of a 10,000 loss. B: a sure 20,000. Expected value of A = 0.6 x 50,000 + 0.4 x (-10,000) = 30,000 - 4,000 = 26,000. B is 20,000. A is higher by 6,000, but A can lose 10,000, so the board checks that it can bear that loss.",
+   "activity": "Frame a launch decision with two options. Give probabilities and money amounts and work out each expected value.",
+   "standard": "Expected values are correct for both options and the worst case is stated."
+  },
+  {
+   "title": "Stages of a data pipeline",
+   "bloom": "Understand: describe",
+   "hours": 10,
+   "intro": "A pipeline moves data from source to use in stages: collect, clean, store, check and report. Each stage should leave a count.",
+   "points": [
+    "Collect, clean, store, check, report",
+    "Count rows in and out of each stage",
+    "Keep a log of every rule applied"
+   ],
+   "example": "A pipeline starts with 10,000 rows. The clean stage removes 150 duplicates, leaving 9,850. It then removes 200 rows with a missing key, leaving 9,650. The store stage loads 9,650. Check: 10,000 - 150 - 200 = 9,650, so the counts reconcile. If the store had loaded 9,600, 50 rows would be unexplained and the run would stop.",
+   "activity": "Take a source of 8,000 rows and three clean rules that remove 90, 60 and 25. Compute the rows loaded and write the check.",
+   "standard": "The loaded count is 7,825 and the check line matches."
+  },
+  {
+   "title": "Data quality checks",
+   "bloom": "Apply: test",
+   "hours": 9,
+   "intro": "Quality checks catch bad data before it reaches a decision. The common checks are completeness, uniqueness, range and timing.",
+   "points": [
+    "Null rate against a limit",
+    "Duplicate rate",
+    "Range and date checks"
+   ],
+   "example": "A table has 400 rows. 12 rows have no region, so the null rate is 12 / 400 = 3%. The limit is 2%, so it fails. 6 rows are exact duplicates, a rate of 1.5%, and the limit is 1%, so it also fails. All 400 sale amounts fall between 0 and 5,000 except 2 rows that show 50,000, which is a likely extra zero. The run is stopped and the source owner is told.",
+   "activity": "A table has 250 rows, 7 with nulls and 4 duplicates. Compute both rates and compare with 2% and 1% limits.",
+   "standard": "Rates are 2.8% and 1.6% and both fail the limits."
+  },
+  {
+   "title": "Describing data",
+   "bloom": "Apply: calculate",
+   "hours": 10,
+   "intro": "Before any model, describe the data with a centre and a spread. The mean, median and standard deviation tell different parts of the story.",
+   "points": [
+    "Mean and median",
+    "Spread: standard deviation",
+    "Spot outliers"
+   ],
+   "example": "Seven daily orders are 4, 6, 6, 8, 10, 12 and 14. The total is 60 so the mean is 60 / 7 = 8.57. The median is the middle value, 8. Squared gaps from the mean add to 77.71. Dividing by 6 gives a variance of 12.95, so the standard deviation is 3.6. The mean is close to the median, so no strong skew is shown.",
+   "activity": "Use six values 3, 5, 5, 7, 9 and 11. Find the mean, median and standard deviation.",
+   "standard": "Mean is 6.67, median is 6 and the standard deviation is about 2.94, with the working shown."
+  },
+  {
+   "title": "Probability and expected value",
+   "bloom": "Apply: calculate",
+   "hours": 9,
+   "intro": "Probability measures how likely something is. Conditional probability shows how new evidence changes the odds.",
+   "points": [
+    "Probabilities add to 1",
+    "Update with evidence",
+    "Expected value is probability times amount"
+   ],
+   "example": "2% of parts are faulty. A test flags 90% of faulty parts and wrongly flags 5% of good parts. Per 1,000 parts: 20 are faulty, 18 of them flagged. Of the 980 good parts, 49 are flagged. Total flags are 67, and 18 / 67 = 26.9% are truly faulty. So even after a flag, the part is faulty only about 1 time in 4, and a second test is needed.",
+   "activity": "A fault rate is 5%, the test flags 80% of faults and 10% of good parts. Find the chance a flagged part is faulty.",
+   "standard": "Per 1,000: 50 faulty, 40 flagged, 95 good flagged, 40 / 135 = 29.6%."
+  },
+  {
+   "title": "Sampling and intervals",
+   "bloom": "Apply: estimate",
+   "hours": 10,
+   "intro": "A sample lets you judge a large group without counting all of it. An interval shows how sure the estimate is.",
+   "points": [
+    "Standard error is spread divided by the square root of n",
+    "A 95% interval is the mean plus or minus 1.96 errors",
+    "Larger samples give narrower intervals"
+   ],
+   "example": "A sample of 100 customers spends a mean of 52 with a standard deviation of 10. The standard error is 10 / 10 = 1. The 95% interval is 52 plus or minus 1.96, which is 50.04 to 53.96. If the sample was 400, the error would be 10 / 20 = 0.5, and the interval would be 51.02 to 52.98, half as wide.",
+   "activity": "A sample of 64 has a mean of 80 and a standard deviation of 16. Give the 95% interval.",
+   "standard": "Standard error is 2, the interval is 76.08 to 83.92."
+  },
+  {
+   "title": "Simple regression and forecasts",
+   "bloom": "Apply: model",
+   "hours": 9,
+   "intro": "A line through points shows how one measure moves with another. The slope is the change in y for each step in x.",
+   "points": [
+    "Slope equals the co-movement divided by the spread of x",
+    "The intercept sets the starting level",
+    "Do not forecast far outside the data"
+   ],
+   "example": "Ad spend x is 1, 2, 3, 4, 5 (in thousands) and sales y are 3, 5, 6, 9, 12. Mean x is 3 and mean y is 7. The co-movement sum is (-2)(-4) + (-1)(-2) + 0 + (1)(2) + (2)(5) = 8 + 2 + 0 + 2 + 10 = 22. The spread of x is 4 + 1 + 0 + 1 + 4 = 10. The slope is 2.2, the intercept is 7 - 2.2 x 3 = 0.4. Forecast for x = 6 is 0.4 + 13.2 = 13.6.",
+   "activity": "Fit a line to x = 1, 2, 3 and y = 2, 4, 5 and forecast for x = 4.",
+   "standard": "Slope is 1.5, intercept is 0.67 and the forecast is 6.67."
+  },
+  {
+   "title": "Sensitivity, scenarios and clear reporting",
+   "bloom": "Evaluate: judge",
+   "hours": 9,
+   "intro": "A forecast is only a guess unless you test what happens when inputs change. Scenarios show which input matters most.",
+   "points": [
+    "Change one input at a time",
+    "Find the break-even point",
+    "Report ranges, not one figure"
+   ],
+   "example": "A project has revenue of 200,000 and costs of 150,000, so profit is 50,000. If revenue falls 10% to 180,000, profit is 30,000, down 40%. If costs rise 10% to 165,000, profit is 35,000, down 30%. Break-even revenue is 150,000, so revenue can fall by 50,000 / 200,000 = 25% before a loss. Revenue is the weaker point, so the report leads with it.",
+   "activity": "Revenue 120,000, costs 90,000. Test a 10% revenue fall and a 10% cost rise and give the break-even fall.",
+   "standard": "Profits are 18,000 and 21,000 and the break-even fall is 25%."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Option A gives 70% chance of 10,000 and 30% chance of -5,000. What is its expected value?",
+   "a": "7,000 - 1,500 = 5,500.",
+   "module": 1
+  },
+  {
+   "q": "A pipeline starts with 5,000 rows, removes 120 and then 80. How many rows load?",
+   "a": "4,800.",
+   "module": 2
+  },
+  {
+   "q": "12 of 300 rows are null. What is the null rate?",
+   "a": "4%.",
+   "module": 3
+  },
+  {
+   "q": "The values 2, 4, 6 have what mean and what median?",
+   "a": "Mean 4 and median 4.",
+   "module": 4
+  },
+  {
+   "q": "1% of items are faulty. A test flags 95% of faults and 4% of good items. Of 1,000, how many flags are good items?",
+   "a": "990 x 0.04 = 39.6, about 40.",
+   "module": 5
+  },
+  {
+   "q": "Sample size 25, standard deviation 10. What is the standard error?",
+   "a": "10 / 5 = 2.",
+   "module": 6
+  },
+  {
+   "q": "Slope is 1.5 and intercept 2. What is the forecast for x = 4?",
+   "a": "8.",
+   "module": 7
+  },
+  {
+   "q": "Revenue is 100,000, costs 80,000. By what percent can revenue fall before a loss?",
+   "a": "20%.",
+   "module": 8
+  },
+  {
+   "q": "Why must the count of rows reconcile between stages?",
+   "a": "A missing row with no rule to explain it shows data was lost or added by mistake.",
+   "module": 2
+  },
+  {
+   "q": "Why is a larger sample better for an interval?",
+   "a": "The standard error shrinks with the square root of n, so the interval gets narrower.",
+   "module": 6
+  }
+ ],
+ "ladder": [
+  {
+   "title": "L1 Basic: Frame the choice",
+   "slide": "A slide shows a decision with two options and a number for each.",
+   "notes": "Say: no question, no analysis. Check: ask for the measure of success. Mistake: starting with the data instead of the decision."
+  },
+  {
+   "title": "L2 Basic: Pipeline stages",
+   "slide": "Five boxes from collect to report with row counts between them.",
+   "notes": "Say: count at every stage. Check: reconcile 10,000 to 9,650. Mistake: trusting a pipeline that gives no counts."
+  },
+  {
+   "title": "L3 Core: Quality checks",
+   "slide": "A table of null rate, duplicate rate and limits with a fail flag.",
+   "notes": "Say: stop on a failed check. Check: calculate a rate. Mistake: fixing bad data silently."
+  },
+  {
+   "title": "L4 Core: Centre and spread",
+   "slide": "A set of seven numbers with mean, median and standard deviation worked.",
+   "notes": "Say: describe before modelling. Check: find the median. Mistake: using the mean when outliers are present."
+  },
+  {
+   "title": "L5 Applied: Odds and evidence",
+   "slide": "A table of 1,000 parts splits into faulty, good, flagged and not flagged.",
+   "notes": "Say: use counts to see the odds. Check: ask the chance after a flag. Mistake: assuming a 90% test means 90% right."
+  },
+  {
+   "title": "L6 Applied: Intervals and lines",
+   "slide": "An interval on a mean and a fitted line with a forecast.",
+   "notes": "Say: show the range. Check: widen the interval for a smaller sample. Mistake: forecasting far past the data."
+  },
+  {
+   "title": "L7 Advanced: Sensitivity and the report",
+   "slide": "A scenario table with profit under each change and a break-even line.",
+   "notes": "Say: lead with the weakest input. Check: ask for break-even. Mistake: giving one figure with no range."
+  }
+ ],
+ "rubric": [
+  {
+   "criterion": "Pipeline checks",
+   "not_yet": "Counts do not reconcile.",
+   "meets": "Rows in and out reconcile and rates are compared with limits.",
+   "exceeds": "Also names the action for each failed check."
+  },
+  {
+   "criterion": "Statistics working",
+   "not_yet": "Mean, spread or interval is wrong.",
+   "meets": "Mean, median, spread and interval are correct.",
+   "exceeds": "Also explains what each figure means for the decision."
+  },
+  {
+   "criterion": "Modelling",
+   "not_yet": "Line or odds are wrong.",
+   "meets": "Slope, intercept, forecast and conditional odds are correct.",
+   "exceeds": "Also warns about the limits of the data."
+  },
+  {
+   "criterion": "Decision report",
+   "not_yet": "One figure with no range.",
+   "meets": "Expected values, scenarios and break-even are shown.",
+   "exceeds": "Also leads with the weakest input and a clear recommendation."
+  }
+ ],
+ "jobs": [
+  {
+   "role": "Data analyst",
+   "what": "Cleans data and reports with checks."
+  },
+  {
+   "role": "Decision analyst",
+   "what": "Builds expected value and scenario models."
+  },
+  {
+   "role": "Data engineer",
+   "what": "Builds and monitors the data pipeline."
+  },
+  {
+   "role": "Operations researcher",
+   "what": "Fits models and tests how sensitive they are."
+  }
+ ]
+}

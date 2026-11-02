@@ -1,0 +1,253 @@
+{
+ "task": "Build the expatriate balance sheet and cost case for one posting and plan the person's return.",
+ "condition": "Given a home salary, host price index, rent figures and tax estimates for one posting.",
+ "standard": "The four-part split adds up, each adjustment is correct, the total cost compares with a local hire, and a return role is named.",
+ "who": "Managers and HR staff who move people between countries.",
+ "modules": [
+  {
+   "title": "Career paths across borders",
+   "bloom": "Understand: explain",
+   "hours": 9,
+   "intro": "A cross-border career is a planned chain of roles, not a string of random moves. Each move should add a skill the next role needs.",
+   "points": [
+    "List the skills each target role needs",
+    "Match each foreign post to a skill gap",
+    "Plan the return role before the move"
+   ],
+   "example": "A regional sales manager wants to become head of a three-country business in ten years. The target role needs four skills: P&L ownership, local-law knowledge, team leadership in two languages, and supplier negotiation. Post X gives three of the four, so it covers 3 / 4 = 75%. Post Y gives only two, so it covers 50%. The manager picks post X, then adds a short course for the missing skill, which lifts cover to 100% by year four.",
+   "activity": "Choose a target role. List its skills, score two possible foreign posts, and pick one with a written reason.",
+   "standard": "The plan scores at least two posts against four or more skills and shows the percentage cover for each."
+  },
+  {
+   "title": "Assignment types and their costs",
+   "bloom": "Understand: compare",
+   "hours": 10,
+   "intro": "Firms send people abroad in different ways, and each way has a different price. Choosing the wrong type wastes money or burns the person out.",
+   "points": [
+    "Short trip, commuter, long-term and permanent transfer",
+    "Longer stays raise the cost per month",
+    "Match the type to the business need"
+   ],
+   "example": "A firm needs a technical lead in another country. The base pay is 80,000 a year. A 6-month short assignment costs about 1.3 times pay, so 80,000 x 0.5 x 1.3 = 52,000. A 3-year long-term post costs about 2.0 times pay each year, so 80,000 x 2.0 x 3 = 480,000. The need is only a 6-month project, so the short assignment saves 428,000.",
+   "activity": "Take a business need that lasts 9 months. Cost three assignment types with a cost multiplier for each and recommend one.",
+   "standard": "Three costs are worked out with the multiplier shown and the cheapest type that meets the need is named."
+  },
+  {
+   "title": "Structure of the balance sheet approach",
+   "bloom": "Apply: build",
+   "hours": 9,
+   "intro": "The balance sheet approach keeps the person's buying power the same as at home. It splits home pay into four parts and then rebuilds those parts in the host country.",
+   "points": [
+    "Four parts: tax, housing, goods and services, reserve",
+    "The company pays the extra cost, not the person",
+    "Reserve (savings) is not adjusted"
+   ],
+   "example": "An employee earns 60,000 at home. The home split is tax 12,000, housing 14,400, goods and services 16,800, reserve 16,800. Check: 12,000 + 14,400 + 16,800 + 16,800 = 60,000. The first three parts are the ones the company will compare with host costs. The reserve of 16,800 stays as it is, so the person still saves the same amount.",
+   "activity": "Take a home salary of 54,000. Split it into the four parts using shares of 20%, 25%, 30% and 25% and check that the total matches.",
+   "standard": "The four parts are 10,800, 13,500, 16,200 and 13,500, and they add up to 54,000."
+  },
+  {
+   "title": "Cost of living adjustment",
+   "bloom": "Apply: calculate",
+   "hours": 10,
+   "intro": "Prices differ between countries, so the same goods cost more or less abroad. The cost of living adjustment pays the gap on the goods and services part only.",
+   "points": [
+    "Use a price index with home set at 100",
+    "Apply the index only to goods and services",
+    "Review the index at least once a year"
+   ],
+   "example": "Home goods and services spend is 16,800. The host index is 125 against a home index of 100. The same basket abroad costs 16,800 x 125 / 100 = 21,000. The adjustment is 21,000 - 16,800 = 4,200 a year, or 350 a month. If the index falls to 115 next year, the new cost is 19,320 and the adjustment drops to 2,520.",
+   "activity": "Take a goods spend of 18,000 and a host index of 112. Work out the yearly and monthly adjustment.",
+   "standard": "The yearly adjustment is 2,160 and the monthly adjustment is 180, with the working shown."
+  },
+  {
+   "title": "Tax equalisation",
+   "bloom": "Apply: calculate",
+   "hours": 9,
+   "intro": "Tax equalisation means the person pays the same tax as if they stayed at home. The company pays the real tax abroad and takes the home-level tax from pay.",
+   "points": [
+    "Work out the hypothetical home tax",
+    "The company pays the actual host tax",
+    "The cost to the company is the difference"
+   ],
+   "example": "Hypothetical home tax on 60,000 pay is 12,000. The person is held to 12,000 through payroll deduction. The actual host tax bill turns out to be 19,000, and the company pays it. The cost to the company is 19,000 - 12,000 = 7,000. If the host tax had been 10,000, the company would have gained 2,000 instead.",
+   "activity": "Hypothetical tax is 9,500. Actual host tax is 14,200. State who pays what and the net cost to the company.",
+   "standard": "The company pays 14,200, the person bears 9,500, and the net company cost is 4,700."
+  },
+  {
+   "title": "Allowances and hardship pay",
+   "bloom": "Apply: calculate",
+   "hours": 10,
+   "intro": "Extra allowances cover costs that the four-part split does not. Housing gaps, hardship and schooling are the most common.",
+   "points": [
+    "Housing allowance equals host rent minus the home housing part",
+    "Hardship pay is a percentage of base pay",
+    "Schooling is paid on proof of cost"
+   ],
+   "example": "Host rent is 22,000 a year and the home housing part is 14,400. The housing allowance is 22,000 - 14,400 = 7,600. The post is rated as 15% hardship on a base of 60,000, so hardship pay is 9,000. Together the two allowances add 16,600 a year. Schooling of 12,000 is paid separately on receipts.",
+   "activity": "Host rent is 18,500, home housing part is 12,000, base pay is 50,000 and hardship is 10%. Find the two allowances and the total.",
+   "standard": "Housing allowance is 6,500, hardship pay is 5,000 and the total is 11,500."
+  },
+  {
+   "title": "Total cost and the business case",
+   "bloom": "Evaluate: justify",
+   "hours": 9,
+   "intro": "A manager must see the whole bill before approving a move. The case compares the full cost of sending a person with the cost of hiring locally.",
+   "points": [
+    "Add every cost line for one year",
+    "Multiply by years and add one-off costs",
+    "Compare with a local hire and name the gap"
+   ],
+   "example": "One year costs: base 60,000, cost of living 4,200, housing 7,600, hardship 9,000, tax difference 7,000, schooling 12,000. The sum is 99,800 a year. Over three years that is 299,400, plus 10,000 one-off relocation, giving 309,400. A local hire at 85,000 for three years costs 255,000. The gap is 54,400, so the firm must name a benefit worth at least that much, such as skill transfer.",
+   "activity": "Build a three-year cost for one post using at least five cost lines and compare it with a local hire.",
+   "standard": "The total, the local-hire cost and the gap are all correct and a benefit worth the gap is named or the move is rejected."
+  },
+  {
+   "title": "Return and the next role",
+   "bloom": "Create: design",
+   "hours": 9,
+   "intro": "Many people leave soon after they come home because the next role is weak. A return plan protects the money spent on the post.",
+   "points": [
+    "Agree the return role before departure",
+    "Hold a debrief within 60 days",
+    "Track how many returners stay"
+   ],
+   "example": "A firm brings back 20 people a year. Past data shows 25% leave within two years, which is 20 x 0.25 = 5 people. Replacing one person costs about half of a 60,000 salary, or 30,000. The yearly loss is 5 x 30,000 = 150,000. A return plan that cuts leavers to 10% saves 3 people, worth 90,000 a year.",
+   "activity": "Write a return plan for one person with a role, a date for the debrief and one measure of success.",
+   "standard": "The plan names a role, a debrief within 60 days and a stay-rate measure with a target number."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "A home salary of 48,000 splits into tax 9,600, housing 12,000 and goods 14,400. What is the reserve?",
+   "a": "48,000 - 9,600 - 12,000 - 14,400 = 12,000.",
+   "module": 3
+  },
+  {
+   "q": "Goods spend is 20,000 and the host index is 130. What is the yearly adjustment?",
+   "a": "20,000 x 1.30 = 26,000, so the adjustment is 6,000.",
+   "module": 4
+  },
+  {
+   "q": "Hypothetical tax is 11,000 and actual host tax is 15,500. What does the company bear?",
+   "a": "4,500.",
+   "module": 5
+  },
+  {
+   "q": "Host rent is 26,000 and the home housing part is 15,000. What is the housing allowance?",
+   "a": "11,000.",
+   "module": 6
+  },
+  {
+   "q": "Why is the reserve not adjusted for cost of living?",
+   "a": "It is savings, not spending, so the person keeps the same saving amount.",
+   "module": 3
+  },
+  {
+   "q": "Base pay is 70,000 and hardship is 20%. What is hardship pay?",
+   "a": "14,000.",
+   "module": 6
+  },
+  {
+   "q": "A 9-month project needs a person abroad. Which assignment type is usually best?",
+   "a": "A short-term assignment, because it costs less per project than a long-term transfer.",
+   "module": 2
+  },
+  {
+   "q": "Name the four parts of the home pay split.",
+   "a": "Tax, housing, goods and services, reserve.",
+   "module": 3
+  },
+  {
+   "q": "A post needs 5 skills and a role gives 4. What is the skill cover?",
+   "a": "80%.",
+   "module": 1
+  },
+  {
+   "q": "30 returners leave at a 20% rate and each replacement costs 25,000. What is the yearly loss?",
+   "a": "6 people x 25,000 = 150,000.",
+   "module": 8
+  }
+ ],
+ "ladder": [
+  {
+   "title": "L1 Basic: What a cross-border career is",
+   "slide": "One slide shows a career as a chain of roles with a skill gained at each step. A second line shows the same chain with a gap.",
+   "notes": "Say: each move must add a skill. Check: ask the group to name one skill from their last move. Mistake: treating a move as a reward instead of a plan."
+  },
+  {
+   "title": "L2 Basic: Assignment types",
+   "slide": "A table lists short, commuter, long-term and permanent posts with length and cost multiplier.",
+   "notes": "Say: longer means dearer. Check: ask which type fits a 4-month project. Mistake: using long-term posts for short needs."
+  },
+  {
+   "title": "L3 Core: The four-part split",
+   "slide": "A bar of home pay is cut into tax, housing, goods and reserve with numbers on each.",
+   "notes": "Say: the parts must add to the salary. Check: have everyone add them up. Mistake: forgetting the reserve."
+  },
+  {
+   "title": "L4 Core: Adjusting goods and housing",
+   "slide": "Two small sums are shown, one for the index and one for the rent gap.",
+   "notes": "Say: multiply by the index, then subtract the home figure. Check: run a new index of 110. Mistake: applying the index to the whole salary."
+  },
+  {
+   "title": "L5 Applied: Tax equalisation",
+   "slide": "A flow shows the person paying home-level tax and the company paying the real bill.",
+   "notes": "Say: the person is neutral, the company takes the swing. Check: ask who gains if host tax is lower. Mistake: charging the person the host tax."
+  },
+  {
+   "title": "L6 Applied: The total bill",
+   "slide": "A stacked list adds each cost line to a yearly total and a three-year total.",
+   "notes": "Say: add every line, then compare with local hire. Check: ask for the gap. Mistake: leaving out one-off costs."
+  },
+  {
+   "title": "L7 Advanced: Return planning and the case",
+   "slide": "A slide ties the cost gap to the loss from leavers and shows the case for a return plan.",
+   "notes": "Say: the post is only worth it if people stay and use the skill. Check: ask what stay rate would pay for the gap. Mistake: ignoring the return until the last month."
+  }
+ ],
+ "rubric": [
+  {
+   "criterion": "Balance sheet working",
+   "not_yet": "Parts do not add to pay or an index is applied to the wrong part.",
+   "meets": "All four parts add to pay and the adjustment is correct.",
+   "exceeds": "Also tests a changed index and shows the effect."
+  },
+  {
+   "criterion": "Cost case",
+   "not_yet": "Lists some costs but the total is wrong or one-off costs are missing.",
+   "meets": "Correct yearly and total cost with a local-hire comparison.",
+   "exceeds": "Also names a benefit worth the gap and tests two scenarios."
+  },
+  {
+   "criterion": "Assignment choice",
+   "not_yet": "Picks a type without a reason.",
+   "meets": "Picks the type that fits the need and shows the cost.",
+   "exceeds": "Compares three types and states a risk for each."
+  },
+  {
+   "criterion": "Return planning",
+   "not_yet": "No return role or measure.",
+   "meets": "Names a role, a debrief date and a stay-rate measure.",
+   "exceeds": "Prices the loss from leavers and shows the saving from the plan."
+  }
+ ],
+ "jobs": [
+  {
+   "role": "Global mobility manager",
+   "what": "Plans and prices assignments and runs the pay split."
+  },
+  {
+   "role": "Compensation analyst",
+   "what": "Builds the balance sheet and updates cost indexes."
+  },
+  {
+   "role": "Talent development lead",
+   "what": "Plans career moves and return roles."
+  },
+  {
+   "role": "Finance business partner",
+   "what": "Checks assignment cost cases for approval."
+  }
+ ]
+}
