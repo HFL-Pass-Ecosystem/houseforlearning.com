@@ -92,7 +92,7 @@
     "Calculate the margin percentage: margin divided by price.",
     "Explain why a fixed fee needs a limit on hours or a clear scope."
    ],
-   "ex": "A monthly plan for a five-person office is 250 CAD. You expect 3 hours a month at 40 CAD cost per hour = 120. Margin is 130 CAD, about 52%, before overhead. At 5 hours the cost is 200 and the margin falls to 50 CAD, or 20%, so the terms must say what happens above 3 hours.",
+   "ex": "A monthly plan for a five-person office is 250 CAD. You expect 3 hours a month at 40 CAD cost per hour = 120. Margin is 130 CAD, about 52%, before overhead. At 5 hours the cost is 200 and the margin falls to 50 CAD, or 20%, so the terms must say what happens above 3 hours (teaching numbers only).",
    "act": "Build a price sheet and a one-page terms document.",
    "std": "Task: price and write terms. Condition: a spreadsheet. Standard: formulas show cost and margin and the terms list scope, response time and exclusions."
   },

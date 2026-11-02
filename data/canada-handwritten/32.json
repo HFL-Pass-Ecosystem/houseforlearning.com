@@ -44,7 +44,7 @@
     "Align elements to a grid and check the margins are equal.",
     "Test the design at thumbnail size and at arm's length."
    ],
-   "ex": "Before: five fonts, crowded text. After: one headline font, one body font, 20 mm margins, strong contrast. On an A4 page 210 mm wide, 20 mm margins on both sides leave 210 - 40 = 170 mm for content.",
+   "ex": "Before: five fonts, crowded text. After: one headline font, one body font, 20 mm margins, strong contrast. On a letter-size page about 216 mm wide, 20 mm margins on both sides leave 216 - 40 = 176 mm for content.",
    "act": "Design a flyer and a social post from one brief, with three sketches first.",
    "std": "Task: design a flyer and a post. Condition: from a written brief in four hours. Standard: clear hierarchy, readable contrast, correct size and no spelling errors."
   },

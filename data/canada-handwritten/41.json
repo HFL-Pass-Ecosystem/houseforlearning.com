@@ -92,7 +92,7 @@
     "Add a charge for reporting, since writing the result takes time.",
     "Offer a small paid trial for a new client before a larger contract."
    ],
-   "ex": "Price 150 CAD per hour at 20 hours a month brings in 3,000 CAD. Cost is 35 per hour, so 20 x 35 = 700. Margin is 150 - 35 = 115 per hour, so 20 x 115 = 2,300 a month. Teaching figures only.",
+   "ex": "An example price of 150 CAD per hour at 20 hours a month brings in 3,000 CAD. Cost is 35 per hour, so 20 x 35 = 700. Margin is 150 - 35 = 115 per hour, so 20 x 115 = 2,300 a month. Teaching figures only.",
    "act": "Build a cost sheet for one testing or analysis service.",
    "std": "Task: cost and price a service. Condition: real supplier prices. Standard: units shown, formulas visible, three what-if cases, mentor check."
   },

@@ -18,7 +18,7 @@
     "Canadian buyers include research groups, banks, logistics firms and energy companies; write one concrete problem for each.",
     "End every screen with a one-line verdict: use now, watch and look again on a set date, or not suitable. Give the reason in plain words."
    ],
-   "ex": "Delivery routing for 10 stops, with the first stop fixed, has 9 x 8 x ... x 1 = 362,880 orders, which a laptop checks at once. For 40 stops the count is a 47-digit number, but good classical heuristics already get within a few percent of the best route. Verdict: quantum is not yet worth the cost; recommend a classical solver and a watch list with a review date.",
+   "ex": "Delivery routing for 10 stops, with the first stop fixed, has 9 x 8 x ... x 1 = 362,880 orders, which a laptop checks at once. For 40 stops the count is a 47-digit number, but good classical heuristics already find routes close to the best. Verdict: quantum is not yet worth the cost; recommend a classical solver and a watch list with a review date.",
    "act": "Write a one-page 'is it quantum?' screen for three real problems and give a verdict with the three answers for each.",
    "std": "Each verdict cites the classical baseline; at least one problem is rejected with reasons."
   },
@@ -74,7 +74,7 @@
    "title": "Operate the lab and keep records",
    "intro": "Good quantum work is repeatable work. Records make results believable.",
    "pts": [
-    "Record device, software version, calibration date, shots and random seed for every run.",
+    "Record device, software version, calibration date, shots, random seed and result for every run.",
     "Re-run any surprising result three times before you report it.",
     "Keep a record of expected versus observed counts for each circuit and flag any drift over time.",
     "Control access to cloud accounts and rotate keys; never paste keys into notes.",

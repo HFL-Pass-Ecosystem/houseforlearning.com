@@ -66,7 +66,7 @@
     "Offer a low-income tier or a shared-hotspot option and show who pays the difference, such as a community fund.",
     "Run three take-up cases (40%, 60% and 80%) and show monthly margin and payback for each."
    ],
-   "ex": "Teaching figures in CAD. Build cost 4,200 for a site of 150 homes; monthly cost per household 25; price 35; margin 10 per home. If all 150 homes pay, margin is 10 x 150 = 1,500 a month. At 60% take-up, 150 homes become 90 paying homes, so margin is 90 x 10 = 900 a month. Payback on 4,200 is 4,200 / 900 = about 4.7 months; at 40% take-up, 60 homes give 600 a month and payback is 4,200 / 600 = 7 months.",
+   "ex": "Teaching figures in CAD. Build cost about 42,000 (an estimate; get real quotes) for a site of 150 homes; monthly cost per household 25; price 35; margin 10 per home. If all 150 homes pay, margin is 10 x 150 = 1,500 a month. At 60% take-up, 150 homes become 90 paying homes, so margin is 90 x 10 = 900 a month. Payback on 42,000 is 42,000 / 900 = about 47 months; at 40% take-up, 60 homes give 600 a month and payback is 42,000 / 600 = 70 months.",
    "act": "Build the model with 60% take-up.",
    "std": "Cases shown."
   },

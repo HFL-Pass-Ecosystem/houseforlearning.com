@@ -124,7 +124,7 @@
     "Plan travel time between visits and add it to your working hours.",
     "Ask clients for feedback after the first month."
    ],
-   "ex": "A carer works 25 paid hours a week, about 100 hours a month. Costs are 500 CAD a month and target income is 3,000, a total of 3,500. Rate = 3,500 / 100 = 35 CAD per hour before tax.",
+   "ex": "A carer works 25 paid hours a week, about 100 hours a month. Costs are 500 CAD a month and target income is 3,000, a total of 3,500. Rate = 3,500 / 100 = 35 CAD per hour before tax (teaching numbers only).",
    "act": "Run a 60-day supervised pilot and present the review to a panel of three.",
    "std": "Task: run a pilot. Condition: 60 days with supervision. Standard: notes are complete, incidents are reported and the review reasons from evidence."
   }

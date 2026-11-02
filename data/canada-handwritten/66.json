@@ -40,7 +40,7 @@
     "Explain that an app needs a clear privacy notice that says what you collect and why.",
     "Explain that anti-spam law needs consent before you send commercial messages.",
     "Explain that apps for children need extra care and may need parental consent; check the current rules.",
-    "Explain that accessibility matters: aim for the WCAG 2.1 AA guidelines so people with disabilities can use the app.",
+    "Explain that accessibility matters: aim for the current WCAG guidelines at level AA so people with disabilities can use the app.",
     "Explain data retention: delete personal data you no longer need.",
     "Explain that if data is kept on servers in another country, check the rule and say so in the privacy notice."
    ],
@@ -108,7 +108,7 @@
     "Write a short support reply template and release notes in plain words.",
     "Compare your price with three similar apps and write why a user would pay."
    ],
-   "ex": "A subscription costs 6 CAD a month with store and payment fees of 1.50. Margin = 6 - 1.50 = 4.50. Fixed cost per month is 900, so break-even = 900 / 4.50 = 200 subscribers.",
+   "ex": "A subscription costs 6 CAD a month with store and payment fees of 1.50. Margin = 6 - 1.50 = 4.50. Fixed cost per month is 900, so break-even = 900 / 4.50 = 200 subscribers (teaching numbers only).",
    "act": "Write a store listing, a price sheet and a break-even calculation.",
    "std": "Task: prepare release and price. Condition: a spreadsheet. Standard: listing is honest, formulas are visible and three what-if cases are shown."
   },
