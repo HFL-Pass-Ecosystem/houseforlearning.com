@@ -29,17 +29,17 @@
     "Use it: greet people, give my name and age and spell my name, first with help, then alone.",
     "Check and fix: read your work aloud once more; fix one thing you hear is wrong."
    ],
-   "example": "Solved: A: Hello, I am Sara. What is your name? B: Hello Sara, I am Omar. A: How old are you? B: I am eight. Spell it: O-M-A-R. Method: Model run for 'Hello and me'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
+   "example": "Solved: A: Hello, my name is [name A]. What is your name? B: Hello, [name A]. My name is [name B]. A: How old are you? B: I am eight. Spell your name letter by letter, for example the word NAME: N-A-M-E. Method: Model run for 'Hello and me'. Teacher text (3 lines about a daily activity). Step 1, read it aloud together. Step 2, mark every word or sentence that uses the new pattern. Step 3, a learner writes or says two new lines of their own that use the same pattern. Step 4, the learner reads them aloud and corrects one slip. What a good answer looks like: the pattern is used correctly in both lines, the lines make sense, and the learner can say which part is the pattern.",
    "activity": "About 15 to 25 minutes of class work, then one short practice task for home. Keep evidence: a voice note or one page of work.",
    "standard": "Greet people, give my name and age and spell my name: at least 4 of 5 attempts understood by a listener who does not know you.",
    "steps": [
-    "Step 1, Choose the greeting by time of day. Say \"Good morning\" before noon, \"Good afternoon\" after noon, and \"Hello\" or \"Hi\" any time. Model: \"Good morning, Ms Rana.\" We use a short, friendly greeting first, before any other words.",
-    "Step 2, Give your name with \"My name is\" or the short form \"I'm\". Model: \"Hello. My name is Tariq.\" Reason: the full form sounds clear and polite for a first meeting; the short form \"I'm Tariq\" is fine with friends.",
-    "Step 3, Ask and answer the name question as a pair. A: \"What's your name?\" B: \"My name is Lina.\" Then turn it round: \"And you?\" Reason: \"And you?\" keeps the conversation going without a new question.",
+    "Step 1, Choose the greeting by time of day. Say \"Good morning\" before noon, \"Good afternoon\" after noon, and \"Hello\" or \"Hi\" any time. Model: \"Good morning, teacher.\" We use a short, friendly greeting first, before any other words.",
+    "Step 2, Give your name with \"My name is\" or the short form \"I'm\". Model: \"Hello. My name is [your name].\" Reason: the full form sounds clear and polite for a first meeting; the short form \"I'm [your name]\" is fine with friends.",
+    "Step 3, Ask and answer the name question as a pair. A: \"What's your name?\" B: \"My name is [your name].\" Then turn it round: \"And you?\" Reason: \"And you?\" keeps the conversation going without a new question.",
     "Step 4, Say your age with \"I am\" plus the number. Model: \"I am eight.\" Ask: \"How old are you?\" Common error: \"I have eight years.\" Correction: \"I am eight.\" English uses the verb be for age.",
-    "Step 5, Spell your name by saying each letter slowly. Model: \"My name is Lina. L, I, N, A.\" Say the vowels clearly: A is \"ay\", E is \"ee\", I is \"eye\". Pause after each letter so the listener can write it.",
-    "Step 6, Put it together as a mini-dialogue. A: \"Hello! I'm Sam. What's your name?\" B: \"Hi, Sam. My name is Aisha. A, I, S, H, A.\" A: \"How old are you?\" B: \"I am nine. And you?\" A: \"I am ten.\"",
-    "Step 7, Your turn. Write a four-line dialogue between you and a new classmate: greeting, name, age, spelling. Model answer: \"Good afternoon. I'm Omar.\" / \"Hi, Omar. My name is Jo. J, O.\" / \"How old are you?\" / \"I am seven. And you?\""
+    "Step 5, Spell your name by saying each letter slowly. Model: \"My name is [your name]. Spell it letter by letter, for example the word NAME: N, A, M, E.\" Say the vowels clearly: A is \"ay\", E is \"ee\", I is \"eye\". Pause after each letter so the listener can write it.",
+    "Step 6, Put it together as a mini-dialogue. A: \"Hello! I'm [name A]. What's your name?\" B: \"Hi, [name A]. My name is [name B]. Then spell it letter by letter.\" A: \"How old are you?\" B: \"I am nine. And you?\" A: \"I am ten.\"",
+    "Step 7, Your turn. Write a four-line dialogue between you and a new classmate: greeting, name, age, spelling. Model answer: \"Good afternoon. I'm [name A].\" / \"Hi, [name A]. My name is [name B]. Spell it letter by letter.\" / \"How old are you?\" / \"I am seven. And you?\""
    ]
   },
   {
@@ -273,13 +273,13 @@
    "activity": "About 15 to 25 minutes of class work, then one short practice task for home. Keep evidence: a voice note or one page of work.",
    "standard": "Follow a short talk and answer simple questions: at least 4 of 5 attempts understood by a listener who does not know you.",
    "steps": [
-    "Step 1, Listen for one thing at a time. Hear: \"My name is Ben. I am nine. I like football.\" Listening task: what is his name? Answer: \"Ben.\" Reason: choosing one detail makes a short talk easy to follow.",
-    "Step 2, Answer a simple question in a full sentence. Question: \"How old is Ben?\" Answer: \"He is nine.\" Reason: repeating the words from the question helps you build a correct sentence.",
-    "Step 3, Use question words. \"Who\" asks for a person, \"what\" asks for a thing, \"where\" asks for a place. Question: \"Where is Ben?\" Answer: \"He is at school.\" Match the question word to the kind of answer.",
+    "Step 1, Listen for one thing at a time. Hear: \"I am nine. I like football. I am at school.\" Listening task: how old is the speaker? Answer: \"Nine.\" Reason: choosing one detail makes a short talk easy to follow.",
+    "Step 2, Answer a simple question in a full sentence. Question: \"How old is the boy?\" Answer: \"He is nine.\" Reason: repeating the words from the question helps you build a correct sentence.",
+    "Step 3, Use question words. \"Who\" asks for a person, \"what\" asks for a thing, \"where\" asks for a place. Question: \"Where is the boy?\" Answer: \"He is at school.\" Match the question word to the kind of answer.",
     "Step 4, Ask for help when you do not understand. Say: \"Sorry, can you say that again, please?\" or \"Slowly, please.\" Reason: asking for repeats is a normal skill, and it is polite.",
-    "Step 5, Fix an error. Wrong answer to \"What do you like?\": \"Yes.\" Right: \"I like football.\" A \"what\" question needs a thing, not yes or no. Another error: \"Where is Ben?\" \"Nine.\" The answer should be a place.",
-    "Step 6, Practise a short listen and answer. Teacher says: \"I have a dog. Its name is Max. It is brown.\" Questions: \"What is the dog's name?\" \"Max.\" \"What colour is it?\" \"It is brown.\"",
-    "Step 7, Your turn. Listen to this and answer: \"This is my friend Sara. She is ten. She likes books.\" What does Sara like? Model answer: \"She likes books.\""
+    "Step 5, Fix an error. Wrong answer to \"What do you like?\": \"Yes.\" Right: \"I like football.\" A \"what\" question needs a thing, not yes or no. Another error: \"Where is the boy?\" \"Nine.\" The answer should be a place.",
+    "Step 6, Practise a short listen and answer. Teacher says: \"I have a dog. It is small. It is brown.\" Questions: \"What animal is it?\" \"A dog.\" \"What colour is it?\" \"It is brown.\"",
+    "Step 7, Your turn. Listen to this and answer: \"This is my friend. She is ten. She likes books.\" What does she like? Model answer: \"She likes books.\""
    ]
   },
   {
@@ -326,12 +326,12 @@
    "standard": "Present a short talk about myself: at least 4 of 5 attempts understood by a listener who does not know you.",
    "steps": [
     "Step 1, Plan the talk in four short parts: greeting, name and age, family, likes. Reason: four small parts are easy to remember and give the talk a clear order.",
-    "Step 2, Write the model talk. \"Hello. My name is Ali. I am eight. I have a mother, a father and one sister. I like football and rice.\" That is five short sentences. Each has a subject and a verb.",
-    "Step 3, Practise saying each sentence aloud slowly. Stress the key words: \"My name is ALI.\" \"I am EIGHT.\" Reason: clear stress and a steady pace matter more than speed.",
+    "Step 2, Write the model talk. \"Hello. My name is [your name]. I am eight. I have a mother, a father and one sister. I like football and rice.\" That is five short sentences. Each has a subject and a verb.",
+    "Step 3, Practise saying each sentence aloud slowly. Stress the key words: \"My name is [YOUR NAME].\" \"I am EIGHT.\" Reason: clear stress and a steady pace matter more than speed.",
     "Step 4, Add one extra detail with \"and\". Model: \"I have a cat and a dog.\" Reason: \"and\" joins two things in one sentence, so your talk sounds smoother.",
-    "Step 5, Fix an error. Wrong: \"I am have a sister.\" Right: \"I have a sister.\" We use \"am\" or \"have\", not both. Another error: \"My name Ali.\" Right: \"My name is Ali.\"",
+    "Step 5, Fix an error. Wrong: \"I am have a sister.\" Right: \"I have a sister.\" We use \"am\" or \"have\", not both. Another error: \"My name [your name].\" Right: \"My name is [your name].\"",
     "Step 6, Finish with a polite ending and a question. Model: \"Thank you. Do you have any questions?\" Answer a question like \"How old are you?\" with \"I am eight.\" Reason: a closing line tells the listener the talk is over.",
-    "Step 7, Your turn. Write your own six-sentence talk. Model answer: \"Hello. My name is Maya. I am nine. I have a brother and a cat. I like apples. Thank you.\""
+    "Step 7, Your turn. Write your own six-sentence talk. Model answer: \"Hello. My name is [your name]. I am nine. I have a brother and a cat. I like apples. Thank you.\""
    ]
   }
  ],
