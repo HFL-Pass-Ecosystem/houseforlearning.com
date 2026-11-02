@@ -6,7 +6,7 @@ def mk(rows):
     out = []
     for lv, (t, intro, pts, ex, act, std) in enumerate(rows, 1):
         out.append((lv, t, BL[lv], HR[lv], intro, pts, ex, act, std,
-                    [(f'{t}: the idea', 'Say the idea in one sentence, then show it on screen. ' + pts[0]), (f'{t}: your turn', 'Let the learner do the activity. Check against the standard before moving on.')]))
+                    [(f'{t}: the idea', 'Say the idea in one sentence, then show it on screen. ' + pts[0]), (f'{t}: your turn', 'Let the learner do this activity: ' + act + ' Check it against this standard before moving on: ' + std)]))
     return out
 def C(**k): D.COURSES.append(dict(k, mods=mk(k.pop('rows')))) 
 
