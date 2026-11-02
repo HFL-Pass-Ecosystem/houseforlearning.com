@@ -13,6 +13,7 @@ cat = json.load(open(Dt / 'catalogue.json'))
 tpl = (S / 'catalogue.html').read_text()
 if 'name="robots"' not in tpl:
     tpl = tpl.replace('<meta name="theme-color"', '<meta name="robots" content="noindex">\n<meta name="theme-color"', 1)
+tpl = tpl.replace('</body>', '<script src="assets/access.js" defer></script>\n</body>', 1)  # test pay-to-access (preview + unlock)
 tpl = tpl.replace('<li><a href="catalogue.html" aria-current="page">Catalogue</a></li>', '<li><a href="courses-hub.html">Courses</a></li><li><a href="catalogue.html">Catalogue</a></li>', 1)
 tpl = tpl.replace('<link rel="stylesheet" href="assets/site.css">', '<link rel="stylesheet" href="assets/site.css">\n<link rel="stylesheet" href="assets/courses.css">', 1)
 
