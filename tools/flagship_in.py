@@ -6,6 +6,11 @@ sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import build_full_courses as B
 e = html.escape
 LN = ['L1 Basic','L2 Awareness','L3 Foundation','L4 Practitioner','L5 Specialist','L6 Advanced','L7 Super expert']
+INL = {}
+for _n in 'AB':
+    try: INL.update(__import__(f'india_ladder_{_n}').__dict__[f'INL_{_n}'])
+    except Exception as _ex: print('skip india ladder', _n, _ex)
+
 def M(title, bloom, h, pts, ex, act, std, q, a): return (title, bloom, h, pts, ex, act, std, q, a)
 def booklet(c):
     try:
@@ -41,6 +46,11 @@ def build(c, n):
     quiz = ''.join(f'<details class="mod"><summary>Q{i+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a)}</p></details>' for i, (q, a) in enumerate(checks))
     rub = ('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>' + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(x)}</td><td>{e(d)}</td></tr>' for a, b, x, d in c['rubric']) + '</tbody></table></div>')
     lad = '<ol class="blm">' + ''.join(f'<li><strong>{LN[i]}.</strong> {e(t)}</li>' for i, t in enumerate(c['ladder'])) + '</ol>'
+    sld = INL.get(c['slug'])
+    if sld:
+        assert len(sld) == 7, c['slug']
+        lad += ('<h3 class="ws-h3">Slide by slide</h3><p>Seven slides, one per level. Open each for the slide text and the speaker notes.</p>'
+                + ''.join(f'<details class="mod"><summary><span class="mn">Slide {i}</span> {LN[i-1]}: {e(t)}</summary><p>{e(b)}</p><p class="ws-note"><strong>Speaker notes.</strong> {e(n.removeprefix("Notes:").strip())}</p></details>' for i, (t, b, n) in enumerate(sld, 1)))
     total = sum(m[2] for m in c['mods'])
     outs = ''.join(f'<li><span class="bz">{b}</span> {e(t)}</li>' for b, t in c['outs'])
     about = B.sec('', 'ab', 'about this course', 'What you will be able to do',
