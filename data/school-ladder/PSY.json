@@ -1,0 +1,46 @@
+{
+ "slides": [
+  {
+   "level": "L1 Basic",
+   "title": "What psychology studies",
+   "slide": "L1 Basic · What psychology studies",
+   "notes": "Name behaviour, thoughts and feelings as the things psychology studies. Notes: watch a short school-yard clip; learners write one thing they saw, one thing they think was thought and one feeling they infer, and say how sure they are."
+  },
+  {
+   "level": "L2 Awareness",
+   "title": "Memory and learning basics",
+   "slide": "L2 Awareness · Memory and learning basics",
+   "notes": "Explain short-term memory and why practice helps recall. Notes: read seven digits aloud, then ten, at one digit per second; learners write down what they recall and count correct digits; compare class results, then try grouping the ten digits in threes and see why chunking helps."
+  },
+  {
+   "level": "L3 Foundation",
+   "title": "Research methods and ethics",
+   "slide": "L3 Foundation · Research methods and ethics",
+   "notes": "Describe an experiment, name its variables and calculate mean, median and mode. Notes: scores 4, 6, 8, 8, 9 have a mean of 7, median 8 and mode 8; learners state consent and withdrawal rules for the study."
+  },
+  {
+   "level": "L4 Practitioner",
+   "title": "Approaches and explanations",
+   "slide": "L4 Practitioner · Approaches and explanations",
+   "notes": "Apply two approaches, such as learning and cognitive, to the same behaviour and compare them. Notes: in a case where 18 of 60 people conform, which is 30 per cent, learners give one explanation from each approach and one test that would separate them."
+  },
+  {
+   "level": "L5 Specialist",
+   "title": "Correlation and study design",
+   "slide": "L5 Specialist · Correlation and study design",
+   "notes": "Analyse a correlation coefficient and judge validity and sampling. Notes: r = 0.6 means r squared of 0.36, so 36 per cent of variance is shared, not caused; learners name one third variable and redesign the study to test cause."
+  },
+  {
+   "level": "L6 Advanced (degree level)",
+   "title": "Effect size and statistical power",
+   "slide": "L6 Advanced · Effect size and statistical power",
+   "notes": "Calculate a standardised effect size and plan a sample size. Notes: group means of 52 and 46 with SD 12 give d = 0.5; for 80 per cent power at the 5 per cent level, plan about 64 per group; learners explain why small samples mislead."
+  },
+  {
+   "level": "L7 Super expert (postgraduate/expert)",
+   "title": "Replication, Bayes and measurement",
+   "slide": "L7 Super expert · Replication, Bayes and measurement",
+   "notes": "Evaluate a psychology finding using replication evidence, Bayesian updating and measurement error. Notes: a prior of 10 per cent, a test with 90 per cent sensitivity and 10 per cent false positives gives a posterior of 50 per cent; learners report what a preregistered study adds."
+  }
+ ]
+}
