@@ -1,0 +1,283 @@
+{
+ "id": "GL-63",
+ "title": "Plastic Alternatives",
+ "level": 3,
+ "desc": "Understand materials that can replace single-use plastic, how to test them honestly, and how to plan a small product switch.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain plastic types and the problem of waste."
+  ],
+  [
+   "Apply",
+   "Test an alternative for use and cost."
+  ],
+  [
+   "Analyse",
+   "Compare life-cycle impacts."
+  ],
+  [
+   "Evaluate",
+   "Judge claims such as biodegradable and compostable."
+  ],
+  [
+   "Create",
+   "Plan a product switch for a small business."
+  ]
+ ],
+ "task": "Choose one single-use plastic item, test two alternatives, compare cost and impact, and write a switch plan with customer message.",
+ "condition": "Samples of items, a scale and basic tools, a spreadsheet, two peers and a mentor. Safe, non-food-contact tests unless approved.",
+ "standard": "Tests are repeatable; claims are checked against recognised definitions; cost per use is shown; end-of-life route exists locally; peers rate Meets or better.",
+ "who": "Shop owners, packaging buyers, students, municipal staff.",
+ "req": "none",
+ "evidence": "test sheet, comparison table, switch plan",
+ "modules": [
+  [
+   "The waste problem",
+   "Understand",
+   3,
+   "Why plastic matters.",
+   [
+    "Single-use items are used for minutes and last for centuries.",
+    "Microplastics enter food and water.",
+    "Reduce first, reuse second, recycle third."
+   ],
+   "Refill stations cut bottle use more than any new material.",
+   "Audit the plastic you use in a week.",
+   "List with counts."
+  ],
+  [
+   "Types of plastic and codes",
+   "Understand",
+   3,
+   "Know what you hold.",
+   [
+    "Resin codes 1 to 7.",
+    "Some types are widely recycled, some not.",
+    "Mixed and dirty plastic is hard to recycle."
+   ],
+   "PET bottles are often recycled; film is not.",
+   "Sort 10 items.",
+   "At least 9 correct."
+  ],
+  [
+   "Alternatives",
+   "Understand",
+   4,
+   "Many options.",
+   [
+    "Paper, glass, metal, plant fibres, starch-based, compostable blends.",
+    "Each has a cost and an impact.",
+    "Reuse systems often win."
+   ],
+   "A cafe moves to returnable cups.",
+   "Make an options table.",
+   "Pros and cons."
+  ],
+  [
+   "Testing",
+   "Apply",
+   4,
+   "Do real tests.",
+   [
+    "Strength, leak, heat, shelf life, cost per use.",
+    "Repeat three times.",
+    "Record failures."
+   ],
+   "A starch bag tears at 3 kg; paper holds 5 kg.",
+   "Test two options.",
+   "Table complete."
+  ],
+  [
+   "Life-cycle thinking",
+   "Analyse",
+   4,
+   "Look at the whole life.",
+   [
+    "Raw material, making, transport, use, end of life.",
+    "Reuse items win after enough uses.",
+    "Local conditions change results."
+   ],
+   "A glass jar needs 12 uses to beat plastic.",
+   "Do a simple comparison.",
+   "Method stated."
+  ],
+  [
+   "Claims and labels",
+   "Evaluate",
+   3,
+   "Avoid greenwashing.",
+   [
+    "Biodegradable and compostable are not the same.",
+    "Compostable may need industrial facilities.",
+    "Look for recognised standards."
+   ],
+   "A bag labelled \"eco\" has no standard; the buyer asks for a test report.",
+   "Review 3 labels.",
+   "Claims checked."
+  ],
+  [
+   "Customers and cost",
+   "Evaluate",
+   3,
+   "Make the switch fair.",
+   [
+    "Cost per use, not per piece.",
+    "Deposit or discount schemes.",
+    "Explain simply."
+   ],
+   "A refill discount repays within 20 uses.",
+   "Cost your switch.",
+   "Currency shown."
+  ],
+  [
+   "Switch plan",
+   "Create",
+   3,
+   "Plan and review.",
+   [
+    "Steps, dates, owners, measures.",
+    "Pilot in one store.",
+    "Report results."
+   ],
+   "Plastic bags fall by 70% in a month.",
+   "Present the plan.",
+   "Measures are clear."
+  ]
+ ],
+ "quiz": [
+  [
+   "Order of waste actions?",
+   "Reduce, reuse, recycle."
+  ],
+  [
+   "Why microplastics matter?",
+   "They enter food and water."
+  ],
+  [
+   "Compostable equals biodegradable?",
+   "No."
+  ],
+  [
+   "Name a test.",
+   "Strength, leak, heat or shelf life."
+  ],
+  [
+   "Life-cycle stages?",
+   "Material, making, transport, use, end of life."
+  ],
+  [
+   "Why cost per use?",
+   "Reuse items spread cost."
+  ],
+  [
+   "Name a label risk.",
+   "Greenwashing."
+  ],
+  [
+   "Best first step?",
+   "Reduce."
+  ],
+  [
+   "Why pilot?",
+   "Test small first."
+  ],
+  [
+   "Why local end-of-life?",
+   "Facilities differ."
+  ]
+ ],
+ "rubric": [
+  [
+   "Testing",
+   "One trial",
+   "Repeated",
+   "Repeated and analysed"
+  ],
+  [
+   "Claims review",
+   "None",
+   "Done",
+   "Done with standards"
+  ],
+  [
+   "Plan",
+   "Vague",
+   "Dated",
+   "Measured and piloted"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Sustainable packaging assistant",
+   "Tests materials"
+  ],
+  [
+   "Retail sustainability officer",
+   "Leads switches"
+  ],
+  [
+   "Waste programme assistant",
+   "Runs collection"
+  ],
+  [
+   "Procurement trainee",
+   "Buys alternatives"
+  ],
+  [
+   "Refill service operator",
+   "Runs refills"
+  ]
+ ],
+ "next": "water management, greenhouse gas auditing, biofuels.",
+ "local": "Packaging, food-contact and waste rules differ by place.",
+ "ladder": [
+  [
+   "Know the basics",
+   "L1: learner can name plastic problems.",
+   "Audit."
+  ],
+  [
+   "Know the rules and risks",
+   "L2: learner knows reduce-reuse-recycle.",
+   "Rule."
+  ],
+  [
+   "Prepare and set up",
+   "L3: learner can test options.",
+   "Test."
+  ],
+  [
+   "Run it",
+   "L4: learner can compare life cycles.",
+   "Compare."
+  ],
+  [
+   "Specialise and measure",
+   "L5: learner can review claims.",
+   "Claims."
+  ],
+  [
+   "Lead a small team",
+   "L6: learner can lead a switch.",
+   "Plan."
+  ],
+  [
+   "Advise and audit others",
+   "L7: learner can audit.",
+   "Peer audit."
+  ]
+ ]
+}

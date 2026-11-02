@@ -1,0 +1,283 @@
+{
+ "id": "GL-64",
+ "title": "Water Management and Conservation",
+ "level": 4,
+ "desc": "Measure, save and manage water at home, farm, school or business, with leak checks, rainwater, reuse and fair sharing.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain the water cycle and local water risks."
+  ],
+  [
+   "Apply",
+   "Do a water audit and leak test."
+  ],
+  [
+   "Analyse",
+   "Find the biggest savings."
+  ],
+  [
+   "Evaluate",
+   "Judge quality, safety and cost of reuse."
+  ],
+  [
+   "Create",
+   "Write a water-saving plan with targets."
+  ]
+ ],
+ "task": "Audit water use at one site, plan savings, design a rainwater or reuse option and set a measurable target.",
+ "condition": "A real site or a practice case, a bucket and timer or meter, a spreadsheet, two peers and a mentor.",
+ "standard": "Audit lists all uses in litres; leak test is documented; savings and payback are calculated; water safety rules are stated; peers rate Meets or better.",
+ "who": "Facility managers, farmers, school staff, residents, community groups.",
+ "req": "none",
+ "evidence": "audit sheet, leak test record, plan, target",
+ "modules": [
+  [
+   "Water cycle and risk",
+   "Understand",
+   3,
+   "Where water comes from.",
+   [
+    "Rain, rivers, groundwater, storage.",
+    "Droughts, floods and quality problems.",
+    "Know your supply and rules."
+   ],
+   "A town cuts supply in summer; households store water.",
+   "Describe your supply.",
+   "Sources named."
+  ],
+  [
+   "Water audit",
+   "Apply",
+   5,
+   "Measure first.",
+   [
+    "Read the meter at the same time daily.",
+    "List uses: taps, toilets, showers, cleaning, irrigation.",
+    "Convert to litres per day per person."
+   ],
+   "A home uses 180 L per person per day.",
+   "Do an audit.",
+   "Table complete."
+  ],
+  [
+   "Finding leaks",
+   "Apply",
+   4,
+   "Small drips cost a lot.",
+   [
+    "Night meter test; dye test for toilets.",
+    "A drip per second wastes thousands of litres a year.",
+    "Fix quickly."
+   ],
+   "A toilet leak is found with food dye and repaired.",
+   "Run a leak test.",
+   "Result recorded."
+  ],
+  [
+   "Saving at the tap",
+   "Analyse",
+   4,
+   "Cheap measures.",
+   [
+    "Aerators, efficient flushes, full loads, shorter showers.",
+    "Behaviour and signs.",
+    "Track savings."
+   ],
+   "Aerators save 25% at taps.",
+   "Choose five measures.",
+   "Savings estimated."
+  ],
+  [
+   "Rainwater harvesting",
+   "Create",
+   5,
+   "Catch and store.",
+   [
+    "Roof area x rainfall x efficiency = litres.",
+    "First-flush diverter, filter and covered tank.",
+    "Use for non-drinking unless treated."
+   ],
+   "100 m2 roof and 800 mm rain gives about 64,000 L a year.",
+   "Design a system.",
+   "Calculation correct."
+  ],
+  [
+   "Reuse and quality",
+   "Evaluate",
+   4,
+   "Grey water and treatment.",
+   [
+    "Grey water from basins can irrigate with care.",
+    "Avoid contact with edible leaves where unsafe.",
+    "Test and treat drinking water."
+   ],
+   "Bath water irrigates ornamental plants.",
+   "List safe uses.",
+   "Rules clear."
+  ],
+  [
+   "Irrigation and farming",
+   "Apply",
+   3,
+   "Use less, grow more.",
+   [
+    "Drip lines, mulching, timing.",
+    "Soil moisture checks.",
+    "Crop choice for local rain."
+   ],
+   "Drip cuts water by 40%.",
+   "Plan a plot.",
+   "Plan complete."
+  ],
+  [
+   "Plan and target",
+   "Create",
+   4,
+   "Make it stick.",
+   [
+    "Targets, owners, dates.",
+    "Report monthly.",
+    "Share with the community."
+   ],
+   "A school sets a 20% cut in one year.",
+   "Present the plan.",
+   "Target measurable."
+  ]
+ ],
+ "quiz": [
+  [
+   "Litres per person per day?",
+   "Total use / people / days."
+  ],
+  [
+   "Night meter test?",
+   "No use but meter moves means a leak."
+  ],
+  [
+   "Rainwater formula?",
+   "Area x rain x efficiency."
+  ],
+  [
+   "Safe grey water use?",
+   "Irrigation of non-edible plants."
+  ],
+  [
+   "Aerator benefit?",
+   "Reduces flow."
+  ],
+  [
+   "Why first flush?",
+   "Removes dirt."
+  ],
+  [
+   "Mulch use?",
+   "Keeps moisture."
+  ],
+  [
+   "Drinking water rule?",
+   "Treat and test."
+  ],
+  [
+   "Why meters?",
+   "To measure savings."
+  ],
+  [
+   "Why share plan?",
+   "Community buy-in."
+  ]
+ ],
+ "rubric": [
+  [
+   "Audit",
+   "Incomplete",
+   "Complete",
+   "Complete with benchmarks"
+  ],
+  [
+   "Savings plan",
+   "Vague",
+   "Numbers",
+   "Numbers with payback"
+  ],
+  [
+   "Safety",
+   "Missing",
+   "Stated",
+   "Tested"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Water auditor assistant",
+   "Measures use"
+  ],
+  [
+   "Plumbing helper trainee",
+   "Fixes leaks"
+  ],
+  [
+   "Rainwater installer assistant",
+   "Builds systems"
+  ],
+  [
+   "Facility sustainability officer",
+   "Leads targets"
+  ],
+  [
+   "Farm water technician",
+   "Sets irrigation"
+  ]
+ ],
+ "next": "plastic alternatives, greenhouse gas auditing, vertical farming.",
+ "local": "Water rights, rainwater and reuse rules differ by place.",
+ "ladder": [
+  [
+   "Know the basics",
+   "L1: learner can name water sources.",
+   "Cycle."
+  ],
+  [
+   "Know the rules and risks",
+   "L2: learner knows leak basics.",
+   "Leaks."
+  ],
+  [
+   "Prepare and set up",
+   "L3: learner can audit.",
+   "Audit."
+  ],
+  [
+   "Run it",
+   "L4: learner can fix and save.",
+   "Measures."
+  ],
+  [
+   "Specialise and measure",
+   "L5: learner can design rainwater.",
+   "Design."
+  ],
+  [
+   "Lead a small team",
+   "L6: learner can lead a plan.",
+   "Lead."
+  ],
+  [
+   "Advise and audit others",
+   "L7: learner can audit others.",
+   "Peer audit."
+  ]
+ ]
+}

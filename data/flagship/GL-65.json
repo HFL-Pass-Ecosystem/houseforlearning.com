@@ -1,0 +1,283 @@
+{
+ "id": "GL-65",
+ "title": "Greenhouse Gas Auditing",
+ "level": 5,
+ "desc": "Measure, report and reduce greenhouse gas emissions for an organisation using recognised accounting scopes and data checks.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain scopes 1, 2 and 3 and emission factors."
+  ],
+  [
+   "Apply",
+   "Collect activity data and calculate emissions."
+  ],
+  [
+   "Analyse",
+   "Find hotspots and data gaps."
+  ],
+  [
+   "Evaluate",
+   "Judge data quality and boundaries."
+  ],
+  [
+   "Create",
+   "Produce an inventory report and reduction plan."
+  ]
+ ],
+ "task": "Build a greenhouse gas inventory for one small organisation (practice case), with boundary, data, factors, hotspot analysis and reduction plan.",
+ "condition": "A computer, a spreadsheet, public emission factors, two peers and a mentor. A practice dataset may be used.",
+ "standard": "Boundary is stated; each number has unit and source; calculations reproduce; data quality is rated; plan has measurable targets; peers rate Meets or better.",
+ "who": "Sustainability officers, finance staff, engineers, consultants in training.",
+ "req": "none",
+ "evidence": "boundary note, data sheet, inventory, hotspot chart, plan",
+ "modules": [
+  [
+   "Why measure",
+   "Understand",
+   3,
+   "You cannot cut what you do not count.",
+   [
+    "Greenhouse gases trap heat; CO2 is the main one.",
+    "CO2e converts other gases to CO2 equivalent.",
+    "Reporting supports cost savings and customers."
+   ],
+   "Methane has a larger warming effect than CO2 per tonne.",
+   "Explain CO2e.",
+   "Peer understands."
+  ],
+  [
+   "Boundaries and scopes",
+   "Understand",
+   4,
+   "Decide what is in.",
+   [
+    "Organisational boundary: control or ownership.",
+    "Scope 1 direct; scope 2 purchased energy; scope 3 other chain.",
+    "Write what is excluded."
+   ],
+   "Company vehicles are scope 1; electricity is scope 2.",
+   "Set a boundary.",
+   "Written."
+  ],
+  [
+   "Activity data",
+   "Apply",
+   5,
+   "Collect clean data.",
+   [
+    "Bills, meters, fuel logs, travel records.",
+    "Units must match: litres, kWh, km.",
+    "Record source and date."
+   ],
+   "Fuel invoices give 1,200 litres.",
+   "Collect data for a case.",
+   "Sources noted."
+  ],
+  [
+   "Emission factors",
+   "Apply",
+   5,
+   "Convert data.",
+   [
+    "Emissions = activity data x factor.",
+    "Use recent, local factors.",
+    "Record version."
+   ],
+   "1,200 L x 2.68 kg CO2 per litre = 3,216 kg.",
+   "Calculate five lines.",
+   "Maths correct."
+  ],
+  [
+   "Scope 3",
+   "Analyse",
+   5,
+   "The big chain.",
+   [
+    "Purchased goods, travel, commuting, waste.",
+    "Start with the largest categories.",
+    "Use estimates and say so."
+   ],
+   "Travel is 22% of the total.",
+   "Estimate two categories.",
+   "Method stated."
+  ],
+  [
+   "Data quality and checks",
+   "Evaluate",
+   4,
+   "Trust the numbers.",
+   [
+    "Check outliers and double counting.",
+    "Rate quality high, medium, low.",
+    "Keep an audit trail."
+   ],
+   "A duplicated invoice is removed.",
+   "Review a data set.",
+   "Issues logged."
+  ],
+  [
+   "Hotspots and targets",
+   "Analyse",
+   4,
+   "Where to act.",
+   [
+    "Rank sources.",
+    "Set reduction targets and dates.",
+    "Cost the actions."
+   ],
+   "Efficient lighting cuts 8% for a payback of 2 years.",
+   "Draw a hotspot chart.",
+   "Ranked."
+  ],
+  [
+   "Report and verify",
+   "Create",
+   4,
+   "Share honestly.",
+   [
+    "Summary, method, limits.",
+    "Independent review.",
+    "Update yearly."
+   ],
+   "The report states excluded sources.",
+   "Write the report.",
+   "Reproducible."
+  ]
+ ],
+ "quiz": [
+  [
+   "What are scope 1, 2 and 3?",
+   "Direct, purchased energy, other chain emissions."
+  ],
+  [
+   "What is CO2e?",
+   "CO2 equivalent of other gases."
+  ],
+  [
+   "Emissions formula?",
+   "Activity data x emission factor."
+  ],
+  [
+   "Why record sources?",
+   "To audit."
+  ],
+  [
+   "Name a scope 3 category.",
+   "Purchased goods, travel, commuting or waste."
+  ],
+  [
+   "Double counting?",
+   "Counting the same emission twice."
+  ],
+  [
+   "Why local factors?",
+   "Grids and fuels differ."
+  ],
+  [
+   "Why state exclusions?",
+   "Honesty."
+  ],
+  [
+   "How rate data quality?",
+   "High, medium, low."
+  ],
+  [
+   "How often update?",
+   "Yearly."
+  ]
+ ],
+ "rubric": [
+  [
+   "Boundary and method",
+   "Unclear",
+   "Clear",
+   "Clear and verified"
+  ],
+  [
+   "Calculations",
+   "Errors",
+   "Correct",
+   "Reproducible"
+  ],
+  [
+   "Reduction plan",
+   "None",
+   "Targets",
+   "Costed targets"
+  ],
+  [
+   "Honesty and evidence",
+   "Claims without proof",
+   "Every claim has a record",
+   "Every claim linked to a dated record and checked by a peer"
+  ],
+  [
+   "Safety, ethics and local rules",
+   "Not considered",
+   "Checked and written down",
+   "Checked, dated and explained to others"
+  ]
+ ],
+ "jobs": [
+  [
+   "Carbon accounting assistant",
+   "Builds inventories"
+  ],
+  [
+   "Sustainability data analyst",
+   "Checks data"
+  ],
+  [
+   "Energy manager trainee",
+   "Finds savings"
+  ],
+  [
+   "ESG reporting assistant",
+   "Prepares reports"
+  ],
+  [
+   "Supplier data coordinator",
+   "Collects scope 3 data"
+  ]
+ ],
+ "next": "wind and solar basics, water management, biofuels.",
+ "local": "Reporting rules and emission factors differ by place and year.",
+ "ladder": [
+  [
+   "Know the basics",
+   "L1: learner can say what CO2e means.",
+   "Concept."
+  ],
+  [
+   "Know the rules and risks",
+   "L2: learner knows scopes.",
+   "Scopes."
+  ],
+  [
+   "Prepare and set up",
+   "L3: learner can collect data.",
+   "Data."
+  ],
+  [
+   "Run it",
+   "L4: learner can calculate.",
+   "Maths."
+  ],
+  [
+   "Specialise and measure",
+   "L5: learner can find hotspots.",
+   "Hotspots."
+  ],
+  [
+   "Lead a small team",
+   "L6: learner can lead an inventory.",
+   "Lead."
+  ],
+  [
+   "Advise and audit others",
+   "L7: learner can audit.",
+   "Peer audit."
+  ]
+ ]
+}
