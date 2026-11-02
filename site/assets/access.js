@@ -44,7 +44,7 @@
   }
   var mods = Array.prototype.slice.call(document.querySelectorAll('details.mod'));
   if (!mods.length) return;
-  var numbered = mods.filter(function (d) { var m = d.querySelector('summary .mn'); return m && /^(Module|Session|Unit)\s+\d+/.test(m.textContent.trim()); });
+  var numbered = mods.filter(function (d) { var m = d.querySelector('summary .mn'); return m && /^(Module|Session|Unit|Part)\s+\d+/.test(m.textContent.trim()); });
   if (!numbered.length) return;
   var title = (document.querySelector('h1') || {}).textContent || file;
   title = title.trim();
@@ -53,7 +53,7 @@
   var state = load(), rec = state[file];
   var paid = !!(rec && rec.paid);
   var first = numbered[0];
-  var firstOfModules = numbered.filter(function (d) { return /^(Module|Session|Unit)\s+1$/.test(d.querySelector('summary .mn').textContent.trim()); })[0] || first;
+  var firstOfModules = numbered.filter(function (d) { return /^(Module|Session|Unit|Part)\s+1$/.test(d.querySelector('summary .mn').textContent.trim()); })[0] || first;
   var rubric = Array.prototype.slice.call(document.querySelectorAll('.scroll-x, table.rubric, table.ws-table'));
 
   var bar = document.createElement('section');
