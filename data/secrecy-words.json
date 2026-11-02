@@ -29,7 +29,7 @@
   {
    "id": "internal-owner",
    "why": "internal 'owner' remarks (the word alone is fine in course text)",
-   "pattern": "\\bowner['’]?s?\\s+(yes|rule|rules|note)\\b|\\bowner (said|says) (yes|ok)\\b|\\bfor the owner to\\b|\\bowner to (confirm|decide|say|choose)\\b|\\bthe owner['’]s\\b|\\bowner[- ]only\\b"
+   "pattern": "\\bowner['’]s\\s+(yes|rule|rules|note)\\b|\\bowner rules?[,)]\\s?\\d|\\bfor the owner to\\b|\\bowner to (confirm|decide|say|choose)\\b|\\bowner[- ]only\\b"
   },
   {
    "id": "group-wording",
@@ -84,6 +84,11 @@
     "learners-phd.html",
     "learners-ug.html"
    ]
+  },
+  {
+   "id": "app-comment",
+   "why": "internal setup note left in a page comment",
+   "pattern": "APP: when the members app|render\\.yaml|until the members app is online"
   }
  ]
 }
