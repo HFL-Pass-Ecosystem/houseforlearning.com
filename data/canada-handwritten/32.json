@@ -138,43 +138,53 @@
  "quiz": [
   [
    "What is the difference between raster and vector?",
-   "Raster uses pixels; vector uses lines and scales without blur."
+   "Raster uses pixels; vector uses lines and scales without blur.",
+   1
   ],
   [
    "Which colour mode is for screens and which for print?",
-   "RGB for screens, CMYK for print."
+   "RGB for screens, CMYK for print.",
+   1
   ],
   [
    "What is visual hierarchy?",
-   "The order in which the eye reads the parts."
+   "The order in which the eye reads the parts.",
+   1
   ],
   [
    "Why check contrast?",
-   "So text is easy to read, including for low vision."
+   "So text is easy to read, including for low vision.",
+   3
   ],
   [
    "What does a brief state?",
-   "Purpose, audience, size, use, deadline and change rounds."
+   "Purpose, audience, size, use, deadline and change rounds.",
+   2
   ],
   [
    "Why check font licences?",
-   "They limit how a typeface may be used."
+   "They limit how a typeface may be used.",
+   4
   ],
   [
    "Why show the brief and result beside each portfolio piece?",
-   "It shows your thinking and your results."
+   "It shows your thinking and your results.",
+   6
   ],
   [
    "What file formats go to print and screen?",
-   "PDF for print; PNG or JPG for screens."
+   "PDF for print; PNG or JPG for screens.",
+   6
   ],
   [
    "What do you check before delivery?",
-   "Text, names, prices, dates, links and file formats."
+   "Text, names, prices, dates, links and file formats.",
+   7
   ],
   [
    "What do you do when you do not know a rule?",
-   "Check the current rule with the local authority."
+   "Check the current rule with the local authority.",
+   4
   ]
  ],
  "jobs": [

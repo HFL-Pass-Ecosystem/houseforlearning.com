@@ -138,43 +138,53 @@
  "quiz": [
   [
    "What decides battery size?",
-   "Energy per kilometre times range with a margin."
+   "Energy per kilometre times range with a margin.",
+   3
   ],
   [
    "Why add a margin to battery size?",
-   "Cold weather and ageing reduce capacity."
+   "Cold weather and ageing reduce capacity.",
+   3
   ],
   [
    "What is total cost of ownership?",
-   "Purchase plus running costs over time."
+   "Purchase plus running costs over time.",
+   1
   ],
   [
    "Who sets vehicle safety standards?",
-   "The federal government."
+   "The federal government.",
+   2
   ],
   [
    "Why trace by vehicle number?",
-   "To find and fix faults."
+   "To find and fix faults.",
+   5
   ],
   [
    "What is an end-of-line test?",
-   "A final check before delivery."
+   "A final check before delivery.",
+   5
   ],
   [
    "Why diversify suppliers?",
-   "To avoid a single point of failure."
+   "To avoid a single point of failure.",
+   7
   ],
   [
    "What is break-even?",
-   "Fixed cost divided by margin."
+   "Fixed cost divided by margin.",
+   4
   ],
   [
    "What triggers redesign in the pilot?",
-   "Range under 85% of spec."
+   "Range under 85% of spec.",
+   8
   ],
   [
    "Why train technicians?",
-   "Battery work is hazardous."
+   "Battery work is hazardous.",
+   6
   ]
  ],
  "jobs": [

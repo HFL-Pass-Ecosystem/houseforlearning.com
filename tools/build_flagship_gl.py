@@ -5,6 +5,7 @@ Run: python3 tools/build_flagship_gl.py [GL-41 ...]  (no args = every file found
 import sys, json, pathlib, html
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import build_full_courses as B
+import quiz_tag as QT
 e = html.escape
 D = pathlib.Path(__file__).resolve().parents[1] / 'data' / 'flagship'
 LN = {1:'L1 Basic',2:'L2 Awareness',3:'L3 Foundation',4:'L4 Practitioner',5:'L5 Specialist',6:'L6 Advanced',7:'L7 Super expert'}
@@ -17,7 +18,7 @@ def build(c):
                  f'<div class="evi"><strong>Worked example.</strong> {e(ex)}</div>'
                  f'<p><strong>Activity.</strong> {e(act)}</p><p><strong>Standard to meet.</strong> {e(std)}</p></details>')
     total = sum(m[2] for m in c['modules'])
-    quiz = ''.join(f'<details class="mod"><summary>Q{i+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a)}</p></details>' for i, (q, a) in enumerate(c['quiz']))
+    quiz = ''.join(f'<details class="mod"><summary>Q{i+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(QT.tag(c["id"], i, a, [m[0] for m in c["modules"]], [m[7] for m in c["modules"]]))}</p></details>' for i, (q, a) in enumerate(c['quiz']))
     rub = ('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric (Not yet, Meets, Exceeds)</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>'
            + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(x)}</td><td>{e(d)}</td></tr>' for a, b, x, d in c['rubric']) + '</tbody></table></div>')
     jobs = '<ul>' + ''.join(f'<li><strong>{e(a)}.</strong> {e(b)}.</li>' for a, b in c['jobs']) + '</ul>'

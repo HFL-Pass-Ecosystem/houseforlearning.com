@@ -139,43 +139,53 @@
  "quiz": [
   [
    "Name three display types.",
-   "LCD, LED and e-paper (also transparent, flexible)."
+   "LCD, LED and e-paper (also transparent, flexible).",
+   1
   ],
   [
    "What is a nit?",
-   "A unit of brightness."
+   "A unit of brightness.",
+   3
   ],
   [
    "Why burn-in test?",
-   "To find early failures."
+   "To find early failures.",
+   5
   ],
   [
    "What drives yield loss?",
-   "Defects such as dead pixels or bonding bubbles."
+   "Defects such as dead pixels or bonding bubbles.",
+   5
   ],
   [
    "Why a second panel source?",
-   "Panels are the largest, scarcest part."
+   "Panels are the largest, scarcest part.",
+   7
   ],
   [
    "What approval do powered signs need?",
-   "Electrical safety approval."
+   "Electrical safety approval.",
+   2
   ],
   [
    "What is break-even?",
-   "Fixed cost over margin per unit."
+   "Fixed cost over margin per unit.",
+   4
   ],
   [
    "Why train installers?",
-   "They influence what is recommended."
+   "They influence what is recommended.",
+   6
   ],
   [
    "What triggers a fix in the pilot?",
-   "Failure over 3%."
+   "Failure over 3%.",
+   8
   ],
   [
    "Why plan recycling?",
-   "End-of-life duties apply."
+   "End-of-life duties apply.",
+   7
   ]
  ],
  "jobs": [

@@ -138,43 +138,53 @@
  "quiz": [
   [
    "What is utilisation?",
-   "Share of vehicle or space used."
+   "Share of vehicle or space used.",
+   4
   ],
   [
    "Why group stops?",
-   "To cut distance."
+   "To cut distance.",
+   3
   ],
   [
    "What logs do drivers keep?",
-   "Hours-of-service logs."
+   "Hours-of-service logs.",
+   2
   ],
   [
    "Why photograph loads?",
-   "To handle damage claims."
+   "To handle damage claims.",
+   5
   ],
   [
    "What raises cost per pallet?",
-   "Empty return trips."
+   "Empty return trips.",
+   1
   ],
   [
    "What is on-time rate?",
-   "Deliveries on time divided by all."
+   "Deliveries on time divided by all.",
+   5
   ],
   [
    "Who trains for dangerous goods?",
-   "Approved trainers; training is required."
+   "Approved trainers; training is required.",
+   2
   ],
   [
    "Why buffer days?",
-   "Winter delays."
+   "Winter delays.",
+   7
   ],
   [
    "What triggers re-pricing?",
-   "Margin under 10%."
+   "Margin under 10%.",
+   8
   ],
   [
    "Why insure cargo?",
-   "Loss and damage claims."
+   "Loss and damage claims.",
+   7
   ]
  ],
  "jobs": [

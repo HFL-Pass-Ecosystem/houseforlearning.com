@@ -138,43 +138,53 @@
  "quiz": [
   [
    "When does a shared ledger beat a normal database?",
-   "When several parties must trust one record and none should control it."
+   "When several parties must trust one record and none should control it.",
+   1
   ],
   [
    "What is the minimum trace record?",
-   "Lot code, product, quantity, date, from, to."
+   "Lot code, product, quantity, date, from, to.",
+   3
   ],
   [
    "How are ledger errors corrected?",
-   "With a new entry, not an edit."
+   "With a new entry, not an edit.",
+   3
   ],
   [
    "Why keep personal data off the ledger?",
-   "It cannot easily be erased, and privacy law may apply; check the rule."
+   "It cannot easily be erased, and privacy law may apply; check the rule.",
+   2
   ],
   [
    "Does a ledger prove food is safe?",
-   "No. It proves an entry was made, not that it is true."
+   "No. It proves an entry was made, not that it is true.",
+   7
   ],
   [
    "Name one check on entry truth.",
-   "Sensor data or spot audits."
+   "Sensor data or spot audits.",
+   7
   ],
   [
    "What is break-even?",
-   "Fixed cost divided by margin per supplier."
+   "Fixed cost divided by margin per supplier.",
+   4
   ],
   [
    "Why offer a paper fallback?",
-   "Small suppliers with weak signal or no smartphone can still join and enter records later."
+   "Small suppliers with weak signal or no smartphone can still join and enter records later.",
+   5
   ],
   [
    "What does the pilot measure?",
-   "Trace time, scan rate and recall scope."
+   "Trace time, scan rate and recall scope.",
+   8
   ],
   [
    "Why get advice before issuing a token?",
-   "Securities and money rules may apply."
+   "Securities and money rules may apply.",
+   2
   ]
  ],
  "jobs": [

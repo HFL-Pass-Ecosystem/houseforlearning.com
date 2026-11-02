@@ -138,43 +138,53 @@
  "quiz": [
   [
    "Name three industrial signals.",
-   "Temperature, pressure, flow (also level, vibration, gas)."
+   "Temperature, pressure, flow (also level, vibration, gas).",
+   1
   ],
   [
    "Why calibrate at several points?",
-   "To find and correct errors across the range."
+   "To find and correct errors across the range.",
+   3
   ],
   [
    "What does a data sheet state?",
-   "Measured accuracy, range and conditions."
+   "Measured accuracy, range and conditions.",
+   7
   ],
   [
    "Why unique device credentials?",
-   "Default passwords are an attack path."
+   "Default passwords are an attack path.",
+   7
   ],
   [
    "What is first-pass yield?",
-   "Units passing test the first time."
+   "Units passing test the first time.",
+   5
   ],
   [
    "When is special certification needed?",
-   "In explosive atmospheres."
+   "In explosive atmospheres.",
+   2
   ],
   [
    "Why offer evaluation units?",
-   "Buyers want proof in their plant."
+   "Buyers want proof in their plant.",
+   6
   ],
   [
    "What is drift?",
-   "Slow change in reading over time or temperature."
+   "Slow change in reading over time or temperature.",
+   8
   ],
   [
    "What triggers redesign?",
-   "Drift above specification."
+   "Drift above specification.",
+   8
   ],
   [
    "What is break-even?",
-   "Fixed cost divided by margin per sensor."
+   "Fixed cost divided by margin per sensor.",
+   4
   ]
  ],
  "jobs": [

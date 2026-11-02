@@ -138,43 +138,53 @@
  "quiz": [
   [
    "What is the primary market?",
-   "The market where new securities are sold for the first time."
+   "The market where new securities are sold for the first time.",
+   1
   ],
   [
    "What is insider trading?",
-   "Trading on or sharing private facts that could move a price; it is illegal."
+   "Trading on or sharing private facts that could move a price; it is illegal.",
+   2
   ],
   [
    "Who must be registered to deal in securities?",
-   "Dealers and advisers need registration; check the current rule with the provincial regulator."
+   "Dealers and advisers need registration; check the current rule with the provincial regulator.",
+   2
   ],
   [
    "What is due diligence?",
-   "Checking the facts about a company before a deal."
+   "Checking the facts about a company before a deal.",
+   4
   ],
   [
    "How do you compute profit margin?",
-   "Profit divided by sales."
+   "Profit divided by sales.",
+   3
   ],
   [
    "What is best execution?",
-   "Trying to get the client a fair result on price, cost and speed."
+   "Trying to get the client a fair result on price, cost and speed.",
+   5
   ],
   [
    "What does an information barrier do?",
-   "It keeps private facts from reaching people who trade."
+   "It keeps private facts from reaching people who trade.",
+   7
   ],
   [
    "Why separate duties?",
-   "One person acts and another checks, so errors and fraud are caught."
+   "One person acts and another checks, so errors and fraud are caught.",
+   6
   ],
   [
    "Can you guarantee results to a client?",
-   "No; markets can fall, so never promise or guarantee results."
+   "No; markets can fall, so never promise or guarantee results.",
+   7
   ],
   [
    "Where should you go for decisions about your own money?",
-   "A licensed professional."
+   "A licensed professional.",
+   1
   ]
  ],
  "jobs": [

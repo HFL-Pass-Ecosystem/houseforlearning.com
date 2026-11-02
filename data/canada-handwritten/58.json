@@ -138,43 +138,53 @@
  "quiz": [
   [
    "What are the five facts for a good ticket?",
-   "Date, user, device, problem and steps tried."
+   "Date, user, device, problem and steps tried.",
+   2
   ],
   [
    "Why change only one thing at a time?",
-   "So you know which change fixed or broke it."
+   "So you know which change fixed or broke it.",
+   3
   ],
   [
    "Why test a restore?",
-   "A backup you have never restored may not work when needed."
+   "A backup you have never restored may not work when needed.",
+   5
   ],
   [
    "Name two signs of a phishing message.",
-   "An odd sender and an urgent request, a strange link or a request for a password."
+   "An odd sender and an urgent request, a strange link or a request for a password.",
+   4
   ],
   [
    "Should you ask users to tell you their password?",
-   "No; reset it with them instead."
+   "No; reset it with them instead.",
+   4
   ],
   [
    "What does the operating system do?",
-   "It runs the device and lets apps use its parts."
+   "It runs the device and lets apps use its parts.",
+   1
   ],
   [
    "What first checks come before deeper fixes?",
-   "Power, cables, Wi-Fi and storage space."
+   "Power, cables, Wi-Fi and storage space.",
+   3
   ],
   [
    "What should happen when a person leaves a business?",
-   "Their access is removed."
+   "Their access is removed.",
+   5
   ],
   [
    "When should you escalate a problem?",
-   "When it is beyond your skill or risk is high."
+   "When it is beyond your skill or risk is high.",
+   3
   ],
   [
    "What do you do if you are unsure of a privacy rule?",
-   "Check the current rule with the privacy regulator or a licensed adviser."
+   "Check the current rule with the privacy regulator or a licensed adviser.",
+   4
   ]
  ],
  "jobs": [

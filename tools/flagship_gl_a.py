@@ -4,6 +4,7 @@ Writes site/learn-flagship-gl-01.html ... gl-06.html. Run: python3 tools/flagshi
 import sys, pathlib, html
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import build_full_courses as B
+import quiz_tag as QT
 from flagship_data_gl_a1 import COURSES as C1
 from flagship_data_gl_a2 import COURSES as C2
 from flagship_data_gl_a_ladder import LADDER
@@ -21,7 +22,7 @@ def build(c):
                  + ''.join(f'<li>{e(p)}</li>' for p in pts) + '</ul>'
                  f'<div class="evi"><strong>Worked example.</strong> {e(ex)}</div>'
                  f'<p><strong>Activity.</strong> {e(act)}</p><p><strong>Standard to meet.</strong> {e(std)}</p></details>')
-    quiz = ''.join(f'<details class="mod"><summary>Q{i+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a)}</p></details>' for i, (q, a) in enumerate(c['quiz']))
+    quiz = ''.join(f'<details class="mod"><summary>Q{i+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(QT.tag(c["id"], i, a, [m[0] for m in c["modules"]], [m[7] for m in c["modules"]]))}</p></details>' for i, (q, a) in enumerate(c['quiz']))
     rub = ('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric (Not yet, Meets, Exceeds)</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>'
            + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(m)}</td><td>{e(d)}</td></tr>' for a, b, m, d in c['rubric']) + '</tbody></table></div>')
     ld = LADDER[c['id']]; assert len(ld) == 7

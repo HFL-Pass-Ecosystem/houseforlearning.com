@@ -7,6 +7,10 @@ import ent_data as D
 import ent_data2  # adds role tracks and LMS/EMS courses
 e = html.escape
 
+def covered(i, m):
+    """Tag derived from data: each self-check question is generated from module i of c['mods'] (its answer text is that module's intro and standard), so number, title (m[1]) and standard (m[8]) come from that same module tuple."""
+    return f'(Covered in module {i}: {m[1]}. To pass that module: {m[8].rstrip().rstrip(".")}.)'
+
 def build(c):
     mods = ''
     total = sum(m[3] for m in c['mods'])
@@ -17,7 +21,7 @@ def build(c):
                  f'<div class="evi"><strong>Worked example.</strong> {e(ex)}</div>'
                  f'<p><strong>Activity.</strong> {e(act)}</p><p><strong>Standard to meet.</strong> {e(std)}</p>'
                  f'<h4>Slides with notes</h4><ol class="slides">{sl}</ol></details>')
-    quiz = ''.join(f'<details class="mod"><summary>Q{i}. Explain, in your own words, the main idea of module {i}: {e(m[1])}.</summary><p><strong>Model answer:</strong> {e(m[4])} Key proof: {e(m[8])}</p></details>' for i, m in enumerate(c['mods'], 1))
+    quiz = ''.join(f'<details class="mod"><summary>Q{i}. Explain, in your own words, the main idea of module {i}: {e(m[1])}.</summary><p><strong>Model answer:</strong> {e(m[4])} Key proof: {e(m[8])} {e(covered(i, m))}</p></details>' for i, m in enumerate(c['mods'], 1))
     rub = ('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric (Not yet, Meets, Exceeds)</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>'
            '<tr><th scope="row">Accuracy</th><td>Steps wrong</td><td>Steps right on practice data</td><td>Right and explained to a peer</td></tr>'
            '<tr><th scope="row">Evidence</th><td>No records</td><td>Records for each module</td><td>Records and a lessons note</td></tr>'

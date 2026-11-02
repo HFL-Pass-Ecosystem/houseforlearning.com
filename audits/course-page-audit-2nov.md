@@ -1,0 +1,959 @@
+# Course page audit, 2 Nov (latest claude/hfl-courses)
+
+Checks per page: Bloom verbs, task/condition/standard, 8 modules, 8 worked examples, rubric, 10 checks with answers, ladder (slides = 7 slides with notes; table = L1-L7 as a table only; none), job links. Russia pages left out.
+
+- learn-brazil-3d-printing-business.html: jobs, ladder:table
+- learn-brazil-app-development.html: jobs, ladder:table
+- learn-brazil-apparels-and-accessories.html: jobs, ladder:table
+- learn-brazil-automated-farming-equipment.html: jobs, ladder:table
+- learn-brazil-beauty.html: jobs, ladder:table
+- learn-brazil-bed-and-breakfast-business.html: jobs, ladder:table
+- learn-brazil-brand-management.html: jobs, ladder:table
+- learn-brazil-care-for-disabled-and-elderly-people.html: jobs, ladder:table
+- learn-brazil-carpentry.html: jobs, ladder:table
+- learn-brazil-cleaning-services.html: jobs, ladder:table
+- learn-brazil-construction-and-technical-services.html: jobs, ladder:table
+- learn-brazil-construction-safety-management.html: jobs, ladder:table
+- learn-brazil-courses-for-foreigners.html: jobs, ladder:table
+- learn-brazil-dental.html: jobs, ladder:table
+- learn-brazil-distribution-companies.html: jobs, ladder:table
+- learn-brazil-drones.html: jobs, ladder:table
+- learn-brazil-electronics-sales-repair-services.html: jobs, ladder:table
+- learn-brazil-energy.html: jobs, ladder:table
+- learn-brazil-event-organization-and-management.html: jobs, ladder:table
+- learn-brazil-export-and-import-business.html: jobs, ladder:table
+- learn-brazil-financing-start-ups.html: jobs, ladder:table
+- learn-brazil-food-trucking.html: jobs, ladder:table
+- learn-brazil-food.html: jobs, ladder:table
+- learn-brazil-franchise-business.html: jobs, ladder:table
+- learn-brazil-health.html: jobs, ladder:table
+- learn-brazil-home-security-and-monitoring-services.html: jobs, ladder:table
+- learn-brazil-hostel-or-hotel-business.html: jobs, ladder:table
+- learn-brazil-hub.html: bloom, task_cond_std, 8_modules, worked_example_each, 10_checks, jobs, ladder:none
+- learn-brazil-international-trade.html: jobs, ladder:table
+- learn-brazil-internet-companies.html: jobs, ladder:table
+- learn-brazil-internet-infrastructure.html: jobs, ladder:table
+- learn-brazil-it.html: jobs, ladder:table
+- learn-brazil-language-schools.html: jobs, ladder:table
+- learn-brazil-manufacturing-business.html: jobs, ladder:table
+- learn-brazil-microgreens-farming.html: jobs, ladder:table
+- learn-brazil-oil-gas.html: jobs, ladder:table
+- learn-brazil-online-ai-investment-management.html: jobs, ladder:table
+- learn-brazil-outsourcing-services.html: jobs, ladder:table
+- learn-brazil-package-delivery-services.html: jobs, ladder:table
+- learn-brazil-private-medicare.html: jobs, ladder:table
+- learn-brazil-real-estate.html: jobs, ladder:table
+- learn-brazil-renewable-energy-for-homes-offices-malls-multiplexes.html: jobs, ladder:table
+- learn-brazil-road-bridge-development.html: jobs, ladder:table
+- learn-brazil-sensor-manufacture.html: jobs, ladder:table
+- learn-brazil-small-and-medium-entrepreneur-business.html: jobs, ladder:table
+- learn-brazil-smart-home-builder.html: jobs, ladder:table
+- learn-brazil-sports.html: jobs, ladder:table
+- learn-brazil-sustainability-management.html: jobs, ladder:table
+- learn-brazil-technical-vocational-schools.html: jobs, ladder:table
+- learn-brazil-telecom.html: jobs, ladder:table
+- learn-brazil-tourist-automation.html: jobs, ladder:table
+- learn-brazil-transportation-and-courier-services.html: jobs, ladder:table
+- learn-brazil-travel-agencies.html: jobs, ladder:table
+- learn-brazil-universities.html: jobs, ladder:table
+- learn-brazil-warehousing-and-storage-services.html: jobs, ladder:table
+- learn-brazil-winery.html: jobs, ladder:table
+- learn-ca-01-quantum-computing-application-builder.html: ladder:table
+- learn-ca-02-vertical-garden-developer-company.html: ladder:table
+- learn-ca-03-industrial-3d-printing-builder.html: ladder:table
+- learn-ca-04-artificial-intelligence-machine-learning-investm.html: ladder:table
+- learn-ca-05-smart-condo-developer.html: ladder:table
+- learn-ca-06-electric-car-manufacturer.html: ladder:table
+- learn-ca-07-food-and-restaurant-blockchain-company.html: ladder:table
+- learn-ca-08-ethical-phone-manufacturing-company.html: ladder:table
+- learn-ca-09-greenhouse-gas-conversion-machine-manufacturer.html: ladder:table
+- learn-ca-10-electric-car-charging-station-provider.html: ladder:table
+- learn-ca-11-emerging-market-internet-development-company.html: ladder:table
+- learn-ca-12-industrial-internet-of-things-sensor-manufacture.html: ladder:table
+- learn-ca-13-artificial-intelligence-implementation-company.html: ladder:table
+- learn-ca-14-fashion-blockchain-company.html: ladder:table
+- learn-ca-15-dynamic-screen-manufacturer.html: ladder:table
+- learn-ca-16-real-estate.html: ladder:table
+- learn-ca-17-transportation-and-storage.html: ladder:table
+- learn-ca-18-waste-management-and-remediation.html: ladder:table
+- learn-ca-19-professional-financial-services.html: ladder:table
+- learn-ca-20-fitness-and-recreational-sports-centers.html: ladder:table
+- learn-ca-21-start-a-blog.html: ladder:table
+- learn-ca-22-sell-products-online.html: ladder:table
+- learn-ca-23-renting-out-your-space.html: ladder:table
+- learn-ca-24-ride-and-delivery-driving.html: ladder:table
+- learn-ca-25-freelance-writing.html: ladder:table
+- learn-ca-26-thrift-store-and-garage-sale-resellers.html: ladder:table
+- learn-ca-27-online-marketplace-selling-partner.html: ladder:table
+- learn-ca-28-personal-wellness.html: ladder:table
+- learn-ca-29-courses-in-other-hobbies.html: ladder:table
+- learn-ca-30-bookkeeping-and-accounting.html: ladder:table
+- learn-ca-31-consulting.html: ladder:table
+- learn-ca-32-graphic-design.html: ladder:table
+- learn-ca-33-social-media-management.html: ladder:table
+- learn-ca-34-marketing-copywriter.html: ladder:table
+- learn-ca-35-virtual-assistant-services.html: ladder:table
+- learn-ca-36-agriculture.html: ladder:table
+- learn-ca-37-accommodation-and-food-services.html: ladder:table
+- learn-ca-38-wholesale-retail.html: ladder:table
+- learn-ca-39-construction.html: ladder:table
+- learn-ca-40-professional-services.html: ladder:table
+- learn-ca-41-scientific-services.html: ladder:table
+- learn-ca-42-technical-services.html: ladder:table
+- learn-ca-43-start-up-services.html: ladder:table
+- learn-ca-44-entrepreneur-streams.html: ladder:table
+- learn-ca-45-e-commerce.html: ladder:table
+- learn-ca-46-real-estate.html: ladder:table
+- learn-ca-47-petcare-services.html: ladder:table
+- learn-ca-48-financial-consulting.html: ladder:table
+- learn-ca-49-computer-services.html: ladder:table
+- learn-ca-50-mobile-services.html: ladder:table
+- learn-ca-51-courier-services.html: ladder:table
+- learn-ca-52-housekeeping-services.html: ladder:table
+- learn-ca-53-cleaning-services.html: ladder:table
+- learn-ca-54-handymen-or-handywomen-services.html: ladder:table
+- learn-ca-55-online-education.html: ladder:table
+- learn-ca-56-tutoring.html: ladder:table
+- learn-ca-57-gardening-and-landscaping-services.html: ladder:table
+- learn-ca-58-information-technology-support-services.html: ladder:table
+- learn-ca-59-portfolio-management-services.html: ladder:table
+- learn-ca-60-investment-banking-and-securities-dealing.html: ladder:table
+- learn-ca-61-electronic-computer-manufacturing.html: ladder:table
+- learn-ca-62-gluten-free-restaurants-and-bakeries.html: ladder:table
+- learn-ca-63-daycare-childcare-and-babysitting-services.html: ladder:table
+- learn-ca-64-patient-advocacy.html: ladder:table
+- learn-ca-65-home-healthcare.html: ladder:table
+- learn-ca-66-mobile-application-development.html: ladder:table
+- learn-deep-ge-3d-home-building.html: task_cond_std, ladder:table
+- learn-deep-ge-affiliate-marketing.html: task_cond_std, ladder:table
+- learn-deep-ge-ai.html: task_cond_std, ladder:table
+- learn-deep-ge-alternative-protein-food-products.html: task_cond_std, ladder:table
+- learn-deep-ge-biofuel-production.html: task_cond_std, ladder:table
+- learn-deep-ge-biometric-sensor-security-company.html: task_cond_std, ladder:table
+- learn-deep-ge-blockchain-health-record.html: task_cond_std, ladder:table
+- learn-deep-ge-boat-helicopter-tourism.html: task_cond_std, ladder:table
+- learn-deep-ge-box-subscription-services.html: task_cond_std, ladder:table
+- learn-deep-ge-bpo.html: task_cond_std, ladder:table
+- learn-deep-ge-business-coach.html: task_cond_std, ladder:table
+- learn-deep-ge-car-charging-stations.html: task_cond_std, ladder:table
+- learn-deep-ge-car-sharing.html: task_cond_std, ladder:table
+- learn-deep-ge-chatbots.html: task_cond_std, ladder:table
+- learn-deep-ge-cloud-migration-as-a-service.html: task_cond_std, ladder:table
+- learn-deep-ge-control-the-water.html: task_cond_std, ladder:table
+- learn-deep-ge-coworking.html: task_cond_std, ladder:table
+- learn-deep-ge-crowdfunding.html: task_cond_std, ladder:table
+- learn-deep-ge-cryobank.html: task_cond_std, ladder:table
+- learn-deep-ge-ddos-prevention-security.html: task_cond_std, ladder:table
+- learn-deep-ge-digital-marketing.html: task_cond_std, ladder:table
+- learn-deep-ge-dna-analysis.html: task_cond_std, ladder:table
+- learn-deep-ge-drones.html: task_cond_std, ladder:table
+- learn-deep-ge-e-commerce-inventory-management.html: task_cond_std, ladder:table
+- learn-deep-ge-ecommerce.html: task_cond_std, ladder:table
+- learn-deep-ge-electric-car.html: task_cond_std, ladder:table
+- learn-deep-ge-esports.html: task_cond_std, ladder:table
+- learn-deep-ge-fitness-tech.html: task_cond_std, ladder:table
+- learn-deep-ge-ghost-kitchen.html: task_cond_std, ladder:table
+- learn-deep-ge-greenhouse-gas-auditor.html: task_cond_std, ladder:table
+- learn-deep-ge-grow-meat-in-a-lab.html: task_cond_std, ladder:table
+- learn-deep-ge-holographic-theater.html: task_cond_std, ladder:table
+- learn-deep-ge-home-sharing.html: task_cond_std, ladder:table
+- learn-deep-ge-influencer-marketing.html: task_cond_std, ladder:table
+- learn-deep-ge-internet-infrastructure.html: task_cond_std, ladder:table
+- learn-deep-ge-iot.html: task_cond_std, ladder:table
+- learn-deep-ge-it-support.html: task_cond_std, ladder:table
+- learn-deep-ge-lead-generation-small-business.html: task_cond_std, ladder:table
+- learn-deep-ge-micro-mobility-services.html: task_cond_std, ladder:table
+- learn-deep-ge-minority-businesses.html: task_cond_std, ladder:table
+- learn-deep-ge-mobile-app-testing.html: task_cond_std, ladder:table
+- learn-deep-ge-nanosatellites.html: task_cond_std, ladder:table
+- learn-deep-ge-nanotechnology-in-medicine.html: task_cond_std, ladder:table
+- learn-deep-ge-online-car-dealership.html: task_cond_std, ladder:table
+- learn-deep-ge-online-currency-exchange.html: task_cond_std, ladder:table
+- learn-deep-ge-online-fulfilment.html: task_cond_std, ladder:table
+- learn-deep-ge-online-library.html: task_cond_std, ladder:table
+- learn-deep-ge-online-medical-supply.html: task_cond_std, ladder:table
+- learn-deep-ge-online-therapy.html: task_cond_std, ladder:table
+- learn-deep-ge-online-tutoring.html: task_cond_std, ladder:table
+- learn-deep-ge-p2p-lending-platform.html: task_cond_std, ladder:table
+- learn-deep-ge-plastic-alternatives.html: task_cond_std, ladder:table
+- learn-deep-ge-podcasting.html: task_cond_std, ladder:table
+- learn-deep-ge-portable-charging-station.html: task_cond_std, ladder:table
+- learn-deep-ge-privacy-protection-firm.html: task_cond_std, ladder:table
+- learn-deep-ge-robotics.html: task_cond_std, ladder:table
+- learn-deep-ge-selling-ppe.html: task_cond_std, ladder:table
+- learn-deep-ge-senior-at-home-care.html: task_cond_std, ladder:table
+- learn-deep-ge-skincare-spa-clinic.html: task_cond_std, ladder:table
+- learn-deep-ge-smart-apparel.html: task_cond_std, ladder:table
+- learn-deep-ge-social-media-network.html: task_cond_std, ladder:table
+- learn-deep-ge-solar.html: task_cond_std, ladder:table
+- learn-deep-ge-space-tourism.html: task_cond_std, ladder:table
+- learn-deep-ge-stem-cell-therapy.html: task_cond_std, ladder:table
+- learn-deep-ge-tele-video-conferencing.html: task_cond_std, ladder:table
+- learn-deep-ge-three-d-printing.html: task_cond_std, ladder:table
+- learn-deep-ge-three-sixty-degree-photography.html: task_cond_std, ladder:table
+- learn-deep-ge-vertical-farming.html: task_cond_std, ladder:table
+- learn-deep-ge-veterinarian-business.html: task_cond_std, ladder:table
+- learn-deep-ge-virtual-event-planning-platform.html: task_cond_std, ladder:table
+- learn-deep-ge-virtual-interior-design.html: task_cond_std, ladder:table
+- learn-deep-ge-virtual-medical-appointment-system.html: task_cond_std, ladder:table
+- learn-deep-ge-vr-live-events.html: task_cond_std, ladder:table
+- learn-deep-ge-wallet-payment-solution.html: task_cond_std, ladder:table
+- learn-deep-ge-wind-energy.html: task_cond_std, ladder:table
+- learn-deep-hk-3d-home-building.html: task_cond_std, ladder:table
+- learn-deep-hk-affiliate-marketing.html: task_cond_std, ladder:table
+- learn-deep-hk-ai.html: task_cond_std, ladder:table
+- learn-deep-hk-alternative-protein-food-products.html: task_cond_std, ladder:table
+- learn-deep-hk-biofuel-production.html: task_cond_std, ladder:table
+- learn-deep-hk-biometric-sensor-security-company.html: task_cond_std, ladder:table
+- learn-deep-hk-blockchain-health-record.html: task_cond_std, ladder:table
+- learn-deep-hk-boat-helicopter-tourism.html: task_cond_std, ladder:table
+- learn-deep-hk-box-subscription-services.html: task_cond_std, ladder:table
+- learn-deep-hk-bpo.html: task_cond_std, ladder:table
+- learn-deep-hk-business-coach.html: task_cond_std, ladder:table
+- learn-deep-hk-car-charging-stations.html: task_cond_std, ladder:table
+- learn-deep-hk-car-sharing.html: task_cond_std, ladder:table
+- learn-deep-hk-chatbots.html: task_cond_std, ladder:table
+- learn-deep-hk-cloud-migration-as-a-service.html: task_cond_std, ladder:table
+- learn-deep-hk-control-the-water.html: task_cond_std, ladder:table
+- learn-deep-hk-coworking.html: task_cond_std, ladder:table
+- learn-deep-hk-crowdfunding.html: task_cond_std, ladder:table
+- learn-deep-hk-cryobank.html: task_cond_std, ladder:table
+- learn-deep-hk-ddos-prevention-security.html: task_cond_std, ladder:table
+- learn-deep-hk-digital-marketing.html: task_cond_std, ladder:table
+- learn-deep-hk-dna-analysis.html: task_cond_std, ladder:table
+- learn-deep-hk-drones.html: task_cond_std, ladder:table
+- learn-deep-hk-e-commerce-inventory-management.html: task_cond_std, ladder:table
+- learn-deep-hk-ecommerce.html: task_cond_std, ladder:table
+- learn-deep-hk-electric-car.html: task_cond_std, ladder:table
+- learn-deep-hk-esports.html: task_cond_std, ladder:table
+- learn-deep-hk-fitness-tech.html: task_cond_std, ladder:table
+- learn-deep-hk-ghost-kitchen.html: task_cond_std, ladder:table
+- learn-deep-hk-greenhouse-gas-auditor.html: task_cond_std, ladder:table
+- learn-deep-hk-grow-meat-in-a-lab.html: task_cond_std, ladder:table
+- learn-deep-hk-holographic-theater.html: task_cond_std, ladder:table
+- learn-deep-hk-home-sharing.html: task_cond_std, ladder:table
+- learn-deep-hk-influencer-marketing.html: task_cond_std, ladder:table
+- learn-deep-hk-internet-infrastructure.html: task_cond_std, ladder:table
+- learn-deep-hk-iot.html: task_cond_std, ladder:table
+- learn-deep-hk-it-support.html: task_cond_std, ladder:table
+- learn-deep-hk-lead-generation-small-business.html: task_cond_std, ladder:table
+- learn-deep-hk-micro-mobility-services.html: task_cond_std, ladder:table
+- learn-deep-hk-minority-businesses.html: task_cond_std, ladder:table
+- learn-deep-hk-mobile-app-testing.html: task_cond_std, ladder:table
+- learn-deep-hk-nanosatellites.html: task_cond_std, ladder:table
+- learn-deep-hk-nanotechnology-in-medicine.html: task_cond_std, ladder:table
+- learn-deep-hk-online-car-dealership.html: task_cond_std, ladder:table
+- learn-deep-hk-online-currency-exchange.html: task_cond_std, ladder:table
+- learn-deep-hk-online-fulfilment.html: task_cond_std, ladder:table
+- learn-deep-hk-online-library.html: task_cond_std, ladder:table
+- learn-deep-hk-online-medical-supply.html: task_cond_std, ladder:table
+- learn-deep-hk-online-therapy.html: task_cond_std, ladder:table
+- learn-deep-hk-online-tutoring.html: task_cond_std, ladder:table
+- learn-deep-hk-p2p-lending-platform.html: task_cond_std, ladder:table
+- learn-deep-hk-plastic-alternatives.html: task_cond_std, ladder:table
+- learn-deep-hk-podcasting.html: task_cond_std, ladder:table
+- learn-deep-hk-portable-charging-station.html: task_cond_std, ladder:table
+- learn-deep-hk-privacy-protection-firm.html: task_cond_std, ladder:table
+- learn-deep-hk-robotics.html: task_cond_std, ladder:table
+- learn-deep-hk-selling-ppe.html: task_cond_std, ladder:table
+- learn-deep-hk-senior-at-home-care.html: task_cond_std, ladder:table
+- learn-deep-hk-skincare-spa-clinic.html: task_cond_std, ladder:table
+- learn-deep-hk-smart-apparel.html: task_cond_std, ladder:table
+- learn-deep-hk-social-media-network.html: task_cond_std, ladder:table
+- learn-deep-hk-solar.html: task_cond_std, ladder:table
+- learn-deep-hk-space-tourism.html: task_cond_std, ladder:table
+- learn-deep-hk-stem-cell-therapy.html: task_cond_std, ladder:table
+- learn-deep-hk-tele-video-conferencing.html: task_cond_std, ladder:table
+- learn-deep-hk-three-d-printing.html: task_cond_std, ladder:table
+- learn-deep-hk-three-sixty-degree-photography.html: task_cond_std, ladder:table
+- learn-deep-hk-vertical-farming.html: task_cond_std, ladder:table
+- learn-deep-hk-veterinarian-business.html: task_cond_std, ladder:table
+- learn-deep-hk-virtual-event-planning-platform.html: task_cond_std, ladder:table
+- learn-deep-hk-virtual-interior-design.html: task_cond_std, ladder:table
+- learn-deep-hk-virtual-medical-appointment-system.html: task_cond_std, ladder:table
+- learn-deep-hk-vr-live-events.html: task_cond_std, ladder:table
+- learn-deep-hk-wallet-payment-solution.html: task_cond_std, ladder:table
+- learn-deep-hk-wind-energy.html: task_cond_std, ladder:table
+- learn-deep-ky-3d-home-building.html: task_cond_std, ladder:table
+- learn-deep-ky-affiliate-marketing.html: task_cond_std, ladder:table
+- learn-deep-ky-ai.html: task_cond_std, ladder:table
+- learn-deep-ky-alternative-protein-food-products.html: task_cond_std, ladder:table
+- learn-deep-ky-biofuel-production.html: task_cond_std, ladder:table
+- learn-deep-ky-biometric-sensor-security-company.html: task_cond_std, ladder:table
+- learn-deep-ky-blockchain-health-record.html: task_cond_std, ladder:table
+- learn-deep-ky-boat-helicopter-tourism.html: task_cond_std, ladder:table
+- learn-deep-ky-box-subscription-services.html: task_cond_std, ladder:table
+- learn-deep-ky-bpo.html: task_cond_std, ladder:table
+- learn-deep-ky-business-coach.html: task_cond_std, ladder:table
+- learn-deep-ky-car-charging-stations.html: task_cond_std, ladder:table
+- learn-deep-ky-car-sharing.html: task_cond_std, ladder:table
+- learn-deep-ky-chatbots.html: task_cond_std, ladder:table
+- learn-deep-ky-cloud-migration-as-a-service.html: task_cond_std, ladder:table
+- learn-deep-ky-control-the-water.html: task_cond_std, ladder:table
+- learn-deep-ky-coworking.html: task_cond_std, ladder:table
+- learn-deep-ky-crowdfunding.html: task_cond_std, ladder:table
+- learn-deep-ky-cryobank.html: task_cond_std, ladder:table
+- learn-deep-ky-ddos-prevention-security.html: task_cond_std, ladder:table
+- learn-deep-ky-digital-marketing.html: task_cond_std, ladder:table
+- learn-deep-ky-dna-analysis.html: task_cond_std, ladder:table
+- learn-deep-ky-drones.html: task_cond_std, ladder:table
+- learn-deep-ky-e-commerce-inventory-management.html: task_cond_std, ladder:table
+- learn-deep-ky-ecommerce.html: task_cond_std, ladder:table
+- learn-deep-ky-electric-car.html: task_cond_std, ladder:table
+- learn-deep-ky-esports.html: task_cond_std, ladder:table
+- learn-deep-ky-fitness-tech.html: task_cond_std, ladder:table
+- learn-deep-ky-ghost-kitchen.html: task_cond_std, ladder:table
+- learn-deep-ky-greenhouse-gas-auditor.html: task_cond_std, ladder:table
+- learn-deep-ky-grow-meat-in-a-lab.html: task_cond_std, ladder:table
+- learn-deep-ky-holographic-theater.html: task_cond_std, ladder:table
+- learn-deep-ky-home-sharing.html: task_cond_std, ladder:table
+- learn-deep-ky-influencer-marketing.html: task_cond_std, ladder:table
+- learn-deep-ky-internet-infrastructure.html: task_cond_std, ladder:table
+- learn-deep-ky-iot.html: task_cond_std, ladder:table
+- learn-deep-ky-it-support.html: task_cond_std, ladder:table
+- learn-deep-ky-lead-generation-small-business.html: task_cond_std, ladder:table
+- learn-deep-ky-micro-mobility-services.html: task_cond_std, ladder:table
+- learn-deep-ky-minority-businesses.html: task_cond_std, ladder:table
+- learn-deep-ky-mobile-app-testing.html: task_cond_std, ladder:table
+- learn-deep-ky-nanosatellites.html: task_cond_std, ladder:table
+- learn-deep-ky-nanotechnology-in-medicine.html: task_cond_std, ladder:table
+- learn-deep-ky-online-car-dealership.html: task_cond_std, ladder:table
+- learn-deep-ky-online-currency-exchange.html: task_cond_std, ladder:table
+- learn-deep-ky-online-fulfilment.html: task_cond_std, ladder:table
+- learn-deep-ky-online-library.html: task_cond_std, ladder:table
+- learn-deep-ky-online-medical-supply.html: task_cond_std, ladder:table
+- learn-deep-ky-online-therapy.html: task_cond_std, ladder:table
+- learn-deep-ky-online-tutoring.html: task_cond_std, ladder:table
+- learn-deep-ky-p2p-lending-platform.html: task_cond_std, ladder:table
+- learn-deep-ky-plastic-alternatives.html: task_cond_std, ladder:table
+- learn-deep-ky-podcasting.html: task_cond_std, ladder:table
+- learn-deep-ky-portable-charging-station.html: task_cond_std, ladder:table
+- learn-deep-ky-privacy-protection-firm.html: task_cond_std, ladder:table
+- learn-deep-ky-robotics.html: task_cond_std, ladder:table
+- learn-deep-ky-selling-ppe.html: task_cond_std, ladder:table
+- learn-deep-ky-senior-at-home-care.html: task_cond_std, ladder:table
+- learn-deep-ky-skincare-spa-clinic.html: task_cond_std, ladder:table
+- learn-deep-ky-smart-apparel.html: task_cond_std, ladder:table
+- learn-deep-ky-social-media-network.html: task_cond_std, ladder:table
+- learn-deep-ky-solar.html: task_cond_std, ladder:table
+- learn-deep-ky-space-tourism.html: task_cond_std, ladder:table
+- learn-deep-ky-stem-cell-therapy.html: task_cond_std, ladder:table
+- learn-deep-ky-tele-video-conferencing.html: task_cond_std, ladder:table
+- learn-deep-ky-three-d-printing.html: task_cond_std, ladder:table
+- learn-deep-ky-three-sixty-degree-photography.html: task_cond_std, ladder:table
+- learn-deep-ky-vertical-farming.html: task_cond_std, ladder:table
+- learn-deep-ky-veterinarian-business.html: task_cond_std, ladder:table
+- learn-deep-ky-virtual-event-planning-platform.html: task_cond_std, ladder:table
+- learn-deep-ky-virtual-interior-design.html: task_cond_std, ladder:table
+- learn-deep-ky-virtual-medical-appointment-system.html: task_cond_std, ladder:table
+- learn-deep-ky-vr-live-events.html: task_cond_std, ladder:table
+- learn-deep-ky-wallet-payment-solution.html: task_cond_std, ladder:table
+- learn-deep-ky-wind-energy.html: task_cond_std, ladder:table
+- learn-deep-mx-3d-home-building.html: task_cond_std, ladder:table
+- learn-deep-mx-affiliate-marketing.html: task_cond_std, ladder:table
+- learn-deep-mx-ai.html: task_cond_std, ladder:table
+- learn-deep-mx-alternative-protein-food-products.html: task_cond_std, ladder:table
+- learn-deep-mx-biofuel-production.html: task_cond_std, ladder:table
+- learn-deep-mx-biometric-sensor-security-company.html: task_cond_std, ladder:table
+- learn-deep-mx-blockchain-health-record.html: task_cond_std, ladder:table
+- learn-deep-mx-boat-helicopter-tourism.html: task_cond_std, ladder:table
+- learn-deep-mx-box-subscription-services.html: task_cond_std, ladder:table
+- learn-deep-mx-bpo.html: task_cond_std, ladder:table
+- learn-deep-mx-business-coach.html: task_cond_std, ladder:table
+- learn-deep-mx-car-charging-stations.html: task_cond_std, ladder:table
+- learn-deep-mx-car-sharing.html: task_cond_std, ladder:table
+- learn-deep-mx-chatbots.html: task_cond_std, ladder:table
+- learn-deep-mx-cloud-migration-as-a-service.html: task_cond_std, ladder:table
+- learn-deep-mx-control-the-water.html: task_cond_std, ladder:table
+- learn-deep-mx-coworking.html: task_cond_std, ladder:table
+- learn-deep-mx-crowdfunding.html: task_cond_std, ladder:table
+- learn-deep-mx-cryobank.html: task_cond_std, ladder:table
+- learn-deep-mx-ddos-prevention-security.html: task_cond_std, ladder:table
+- learn-deep-mx-digital-marketing.html: task_cond_std, ladder:table
+- learn-deep-mx-dna-analysis.html: task_cond_std, ladder:table
+- learn-deep-mx-drones.html: task_cond_std, ladder:table
+- learn-deep-mx-e-commerce-inventory-management.html: task_cond_std, ladder:table
+- learn-deep-mx-ecommerce.html: task_cond_std, ladder:table
+- learn-deep-mx-electric-car.html: task_cond_std, ladder:table
+- learn-deep-mx-esports.html: task_cond_std, ladder:table
+- learn-deep-mx-fitness-tech.html: task_cond_std, ladder:table
+- learn-deep-mx-ghost-kitchen.html: task_cond_std, ladder:table
+- learn-deep-mx-greenhouse-gas-auditor.html: task_cond_std, ladder:table
+- learn-deep-mx-grow-meat-in-a-lab.html: task_cond_std, ladder:table
+- learn-deep-mx-holographic-theater.html: task_cond_std, ladder:table
+- learn-deep-mx-home-sharing.html: task_cond_std, ladder:table
+- learn-deep-mx-influencer-marketing.html: task_cond_std, ladder:table
+- learn-deep-mx-internet-infrastructure.html: task_cond_std, ladder:table
+- learn-deep-mx-iot.html: task_cond_std, ladder:table
+- learn-deep-mx-it-support.html: task_cond_std, ladder:table
+- learn-deep-mx-lead-generation-small-business.html: task_cond_std, ladder:table
+- learn-deep-mx-micro-mobility-services.html: task_cond_std, ladder:table
+- learn-deep-mx-minority-businesses.html: task_cond_std, ladder:table
+- learn-deep-mx-mobile-app-testing.html: task_cond_std, ladder:table
+- learn-deep-mx-nanosatellites.html: task_cond_std, ladder:table
+- learn-deep-mx-nanotechnology-in-medicine.html: task_cond_std, ladder:table
+- learn-deep-mx-online-car-dealership.html: task_cond_std, ladder:table
+- learn-deep-mx-online-currency-exchange.html: task_cond_std, ladder:table
+- learn-deep-mx-online-fulfilment.html: task_cond_std, ladder:table
+- learn-deep-mx-online-library.html: task_cond_std, ladder:table
+- learn-deep-mx-online-medical-supply.html: task_cond_std, ladder:table
+- learn-deep-mx-online-therapy.html: task_cond_std, ladder:table
+- learn-deep-mx-online-tutoring.html: task_cond_std, ladder:table
+- learn-deep-mx-p2p-lending-platform.html: task_cond_std, ladder:table
+- learn-deep-mx-plastic-alternatives.html: task_cond_std, ladder:table
+- learn-deep-mx-podcasting.html: task_cond_std, ladder:table
+- learn-deep-mx-portable-charging-station.html: task_cond_std, ladder:table
+- learn-deep-mx-privacy-protection-firm.html: task_cond_std, ladder:table
+- learn-deep-mx-robotics.html: task_cond_std, ladder:table
+- learn-deep-mx-selling-ppe.html: task_cond_std, ladder:table
+- learn-deep-mx-senior-at-home-care.html: task_cond_std, ladder:table
+- learn-deep-mx-skincare-spa-clinic.html: task_cond_std, ladder:table
+- learn-deep-mx-smart-apparel.html: task_cond_std, ladder:table
+- learn-deep-mx-social-media-network.html: task_cond_std, ladder:table
+- learn-deep-mx-solar.html: task_cond_std, ladder:table
+- learn-deep-mx-space-tourism.html: task_cond_std, ladder:table
+- learn-deep-mx-stem-cell-therapy.html: task_cond_std, ladder:table
+- learn-deep-mx-tele-video-conferencing.html: task_cond_std, ladder:table
+- learn-deep-mx-three-d-printing.html: task_cond_std, ladder:table
+- learn-deep-mx-three-sixty-degree-photography.html: task_cond_std, ladder:table
+- learn-deep-mx-vertical-farming.html: task_cond_std, ladder:table
+- learn-deep-mx-veterinarian-business.html: task_cond_std, ladder:table
+- learn-deep-mx-virtual-event-planning-platform.html: task_cond_std, ladder:table
+- learn-deep-mx-virtual-interior-design.html: task_cond_std, ladder:table
+- learn-deep-mx-virtual-medical-appointment-system.html: task_cond_std, ladder:table
+- learn-deep-mx-vr-live-events.html: task_cond_std, ladder:table
+- learn-deep-mx-wallet-payment-solution.html: task_cond_std, ladder:table
+- learn-deep-mx-wind-energy.html: task_cond_std, ladder:table
+- learn-ent-business-analyst-track.html: 8_modules, worked_example_each, 10_checks, ladder:table
+- learn-ent-business-applications-erp-crm.html: 8_modules, worked_example_each, 10_checks, ladder:table
+- learn-ent-cloud-admin-centre.html: 8_modules, worked_example_each, 10_checks, ladder:table
+- learn-ent-creative-document-suite.html: 8_modules, worked_example_each, 10_checks, ladder:table
+- learn-ent-crm-administration.html: 8_modules, worked_example_each, 10_checks, ladder:table
+- learn-ent-crm-developer-track.html: 8_modules, worked_example_each, 10_checks, ladder:table
+- learn-ent-database-finance-applications.html: 8_modules, worked_example_each, 10_checks, ladder:table
+- learn-ent-earning-workforce-administration.html: 8_modules, worked_example_each, 10_checks, ladder:table
+- learn-ent-learning-platform-administration.html: 8_modules, worked_example_each, 10_checks, ladder:table
+- learn-ent-open-source-erp.html: 8_modules, worked_example_each, 10_checks, ladder:table
+- learn-ent-small-business-cloud-suite.html: 8_modules, worked_example_each, 10_checks, ladder:table
+- learn-ent-solution-consultant-track.html: 8_modules, worked_example_each, 10_checks, ladder:table
+- learn-eu-01.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-eu-02.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-eu-03.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-eu-04.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-eu-05.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-eu-06.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-eu-07.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-eu-08.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-eu-09.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-eu-10.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-flagship-ae-aluminum.html: ladder:table
+- learn-flagship-ae-automobile.html: ladder:table
+- learn-flagship-ae-business-brokers.html: ladder:table
+- learn-flagship-ae-business-consultancy-services.html: ladder:table
+- learn-flagship-ae-cement.html: ladder:table
+- learn-flagship-ae-childcare.html: ladder:table
+- learn-flagship-ae-cleaning-services.html: ladder:table
+- learn-flagship-ae-construction-materials.html: ladder:table
+- learn-flagship-ae-e-commerce.html: ladder:table
+- learn-flagship-ae-fertilizer.html: ladder:table
+- learn-flagship-ae-fishing.html: ladder:table
+- learn-flagship-ae-flower-industry.html: ladder:table
+- learn-flagship-ae-freelance-web-design.html: ladder:table
+- learn-flagship-ae-freelance-writer.html: ladder:table
+- learn-flagship-ae-freight-and-cargo.html: ladder:table
+- learn-flagship-ae-gadgets.html: ladder:table
+- learn-flagship-ae-gift-industry.html: ladder:table
+- learn-flagship-ae-handicrafts.html: ladder:table
+- learn-flagship-ae-handyman-services.html: ladder:table
+- learn-flagship-ae-healthcare.html: ladder:table
+- learn-flagship-ae-insurance-brokers.html: ladder:table
+- learn-flagship-ae-luxury.html: ladder:table
+- learn-flagship-ae-mobile.html: ladder:table
+- learn-flagship-ae-online-trading.html: ladder:table
+- learn-flagship-ae-petrochemicals.html: ladder:table
+- learn-flagship-ae-petroleum.html: ladder:table
+- learn-flagship-ae-property-management.html: ladder:table
+- learn-flagship-ae-pw-01-hydrogen-production-clean-energy.html: ladder:table
+- learn-flagship-ae-pw-02-green-hydrogen-export-corridors.html: ladder:table
+- learn-flagship-ae-pw-03-renewable-energy-integration.html: ladder:table
+- learn-flagship-ae-pw-04-smart-manufacturing-automation.html: ladder:table
+- learn-flagship-ae-pw-05-digital-twin-simulation.html: ladder:table
+- learn-flagship-ae-pw-06-ai-data-science.html: ladder:table
+- learn-flagship-ae-pw-07-cloud-cybersecurity.html: ladder:table
+- learn-flagship-ae-pw-08-venture-private-equity.html: ladder:table
+- learn-flagship-ae-pw-09-esg-sustainability-governance.html: ladder:table
+- learn-flagship-ae-pw-10-ppp-governance.html: ladder:table
+- learn-flagship-ae-real-estate.html: ladder:table
+- learn-flagship-ae-recruitment.html: ladder:table
+- learn-flagship-ae-restaurant.html: ladder:table
+- learn-flagship-ae-ship-repair.html: ladder:table
+- learn-flagship-ae-shopping.html: ladder:table
+- learn-flagship-ae-textiles.html: ladder:table
+- learn-flagship-ae-tourism.html: ladder:table
+- learn-flagship-ae-transport.html: ladder:table
+- learn-flagship-ae-travel.html: ladder:table
+- learn-flagship-ae-web-development.html: ladder:table
+- learn-flagship-ae-webpreneur.html: ladder:table
+- learn-flagship-ae-wellbeing.html: ladder:table
+- learn-flagship-au-01.html: ladder:table
+- learn-flagship-au-02.html: ladder:table
+- learn-flagship-au-03.html: ladder:table
+- learn-flagship-au-04.html: ladder:table
+- learn-flagship-au-05.html: ladder:table
+- learn-flagship-au-06.html: ladder:table
+- learn-flagship-au-07.html: ladder:table
+- learn-flagship-career-launch.html: ladder:none
+- learn-flagship-cv.html: ladder:none
+- learn-flagship-earthing.html: 8_modules, worked_example_each, rubric, ladder:none
+- learn-flagship-eu-01.html: ladder:none
+- learn-flagship-eu-02.html: ladder:none
+- learn-flagship-eu-03.html: ladder:none
+- learn-flagship-eu-04.html: ladder:none
+- learn-flagship-eu-05.html: ladder:none
+- learn-flagship-eu-06.html: ladder:none
+- learn-flagship-eu-07.html: ladder:none
+- learn-flagship-eu-08.html: ladder:none
+- learn-flagship-eu-09.html: ladder:none
+- learn-flagship-eu-10.html: ladder:none
+- learn-flagship-in-01-automobile.html: ladder:table
+- learn-flagship-in-02-electronics.html: ladder:table
+- learn-flagship-in-03-information-technologies.html: ladder:table
+- learn-flagship-in-04-training-and-development.html: ladder:table
+- learn-flagship-in-05-childcare.html: ladder:table
+- learn-flagship-in-06-enrichment-for-children.html: ladder:table
+- learn-flagship-in-07-mobile-apps-and-entertainment.html: ladder:table
+- learn-flagship-in-08-attire-and-accessories.html: ladder:table
+- learn-flagship-in-09-home-improvement.html: ladder:table
+- learn-flagship-in-10-vacations-and-rentals.html: ladder:table
+- learn-flagship-in-11-academic-courses.html: ladder:table
+- learn-flagship-in-12-language-courses.html: ladder:table
+- learn-flagship-in-13-business-and-marketing.html: ladder:table
+- learn-flagship-in-14-personal-wellness.html: ladder:table
+- learn-flagship-in-15-hobby-courses.html: ladder:table
+- learn-flagship-in-16-bookkeeping-and-accounting.html: ladder:table
+- learn-flagship-in-17-consulting.html: ladder:table
+- learn-flagship-in-18-graphic-design.html: ladder:table
+- learn-flagship-in-19-social-media-management.html: ladder:table
+- learn-flagship-in-20-marketing-copywriting.html: ladder:table
+- learn-flagship-in-21-virtual-assistant-services.html: ladder:table
+- learn-flagship-in-22-sme-msme-development.html: ladder:table
+- learn-flagship-in-23-research-methods.html: ladder:table
+- learn-flagship-in-24-test-beds-for-product-development.html: ladder:table
+- learn-flagship-in-25-food-processing.html: ladder:table
+- learn-flagship-in-26-textiles.html: ladder:table
+- learn-flagship-in-27-biotechnology.html: ladder:table
+- learn-flagship-in-28-minerals-and-resource-management.html: ladder:table
+- learn-flagship-in-29-waste-management.html: ladder:table
+- learn-flagship-in-30-english-as-a-second-language.html: ladder:table
+- learn-flagship-in-31-tourism-and-hospitality.html: ladder:table
+- learn-flagship-in-32-entertainment-and-gaming.html: ladder:table
+- learn-flagship-in-33-biotechnology-and-life-sciences-innovation.html: ladder:table
+- learn-flagship-in-34-textiles-and-fashion-sustainability.html: ladder:table
+- learn-flagship-in-35-advanced-waste-management.html: ladder:table
+- learn-flagship-in.html: bloom, task_cond_std, 8_modules, worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-flagship-loc-ge.html: ladder:table
+- learn-flagship-loc-hk.html: ladder:table
+- learn-flagship-loc-ky.html: ladder:table
+- learn-flagship-loc-mx.html: ladder:table
+- learn-flagship-nl-01.html: ladder:table
+- learn-flagship-nl-02.html: ladder:table
+- learn-flagship-nl-03.html: ladder:table
+- learn-flagship-nl-04.html: ladder:table
+- learn-flagship-nl-05.html: ladder:table
+- learn-flagship-nl-06.html: ladder:table
+- learn-flagship-nl-07.html: ladder:table
+- learn-flagship-nl-08.html: ladder:table
+- learn-flagship-nl-09.html: ladder:table
+- learn-flagship-nl-10.html: ladder:table
+- learn-flagship-platform-admin.html: 8_modules, worked_example_each, rubric, ladder:none
+- learn-flagship-sg-01.html: ladder:table
+- learn-flagship-sg-02.html: ladder:table
+- learn-flagship-sg-03.html: ladder:table
+- learn-flagship-sg-04.html: ladder:table
+- learn-flagship-sg-05.html: ladder:table
+- learn-flagship-sg-06.html: ladder:table
+- learn-flagship-sg-07.html: ladder:table
+- learn-flagship-sg-08.html: ladder:table
+- learn-flagship-sg-09.html: ladder:table
+- learn-flagship-sg-10.html: ladder:table
+- learn-gl-01.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-02.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-03.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-04.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-05.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-06.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-07.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-08.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-09.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-10.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-11.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-12.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-13.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-14.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-15.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-16.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-17.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-18.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-19.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-20.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-21.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-22.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-23.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-24.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-25.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-26.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-27.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-28.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-29.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-30.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-31.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-32.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-33.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-34.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-35.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-36.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-37.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-38.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-39.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-40.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-41.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-42.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-43.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-44.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-45.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-46.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-47.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-48.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-49.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-50.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-51.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-52.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-53.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-54.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-55.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-56.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-57.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-58.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-59.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-60.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-61.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-62.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-63.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-64.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-65.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-66.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-67.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-68.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-69.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-70.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-71.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-72.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-73.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-74.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-gl-75.html: worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-loc-ge-01.html: ladder:table
+- learn-loc-ge-02.html: ladder:table
+- learn-loc-ge-03.html: ladder:table
+- learn-loc-ge-04.html: ladder:table
+- learn-loc-ge-05.html: ladder:table
+- learn-loc-ge-06.html: ladder:table
+- learn-loc-ge-07.html: ladder:table
+- learn-loc-ge-08.html: ladder:table
+- learn-loc-ge-09.html: ladder:table
+- learn-loc-ge-10.html: ladder:table
+- learn-loc-ge-11.html: ladder:table
+- learn-loc-ge-12.html: ladder:table
+- learn-loc-ge-13.html: ladder:table
+- learn-loc-ge-14.html: ladder:table
+- learn-loc-ge-15.html: ladder:table
+- learn-loc-ge-16.html: ladder:table
+- learn-loc-ge-17.html: ladder:table
+- learn-loc-ge-18.html: ladder:table
+- learn-loc-ge-19.html: ladder:table
+- learn-loc-ge-20.html: ladder:table
+- learn-loc-ge-21.html: ladder:table
+- learn-loc-ge-22.html: ladder:table
+- learn-loc-ge-23.html: ladder:table
+- learn-loc-ge-24.html: ladder:table
+- learn-loc-ge-25.html: ladder:table
+- learn-loc-ge-26.html: ladder:table
+- learn-loc-ge-27.html: ladder:table
+- learn-loc-ge-28.html: ladder:table
+- learn-loc-ge-29.html: ladder:table
+- learn-loc-ge-30.html: ladder:table
+- learn-loc-ge-31.html: ladder:table
+- learn-loc-ge-32.html: ladder:table
+- learn-loc-ge-33.html: ladder:table
+- learn-loc-ge-34.html: ladder:table
+- learn-loc-ge-35.html: ladder:table
+- learn-loc-ge-36.html: ladder:table
+- learn-loc-ge-37.html: ladder:table
+- learn-loc-ge-38.html: ladder:table
+- learn-loc-ge-39.html: ladder:table
+- learn-loc-ge-40.html: ladder:table
+- learn-loc-ge-41.html: ladder:table
+- learn-loc-ge-42.html: ladder:table
+- learn-loc-ge-43.html: ladder:table
+- learn-loc-ge-44.html: ladder:table
+- learn-loc-ge-45.html: ladder:table
+- learn-loc-ge-46.html: ladder:table
+- learn-loc-ge-47.html: ladder:table
+- learn-loc-ge-48.html: ladder:table
+- learn-loc-ge-49.html: ladder:table
+- learn-loc-ge-50.html: ladder:table
+- learn-loc-ge-51.html: ladder:table
+- learn-loc-ge-52.html: ladder:table
+- learn-loc-ge-53.html: ladder:table
+- learn-loc-ge-54.html: ladder:table
+- learn-loc-ge-55.html: ladder:table
+- learn-loc-ge-56.html: ladder:table
+- learn-loc-ge-57.html: ladder:table
+- learn-loc-ge-58.html: ladder:table
+- learn-loc-ge-59.html: ladder:table
+- learn-loc-ge-60.html: ladder:table
+- learn-loc-ge-61.html: ladder:table
+- learn-loc-ge-62.html: ladder:table
+- learn-loc-ge-63.html: ladder:table
+- learn-loc-ge-64.html: ladder:table
+- learn-loc-ge-65.html: ladder:table
+- learn-loc-ge-66.html: ladder:table
+- learn-loc-ge-67.html: ladder:table
+- learn-loc-ge-68.html: ladder:table
+- learn-loc-ge-69.html: ladder:table
+- learn-loc-ge-70.html: ladder:table
+- learn-loc-ge-71.html: ladder:table
+- learn-loc-ge-72.html: ladder:table
+- learn-loc-ge-73.html: ladder:table
+- learn-loc-ge-74.html: ladder:table
+- learn-loc-ge-75.html: ladder:table
+- learn-loc-ge-hub.html: bloom, task_cond_std, 8_modules, worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-loc-hk-01.html: ladder:table
+- learn-loc-hk-02.html: ladder:table
+- learn-loc-hk-03.html: ladder:table
+- learn-loc-hk-04.html: ladder:table
+- learn-loc-hk-05.html: ladder:table
+- learn-loc-hk-06.html: ladder:table
+- learn-loc-hk-07.html: ladder:table
+- learn-loc-hk-08.html: ladder:table
+- learn-loc-hk-09.html: ladder:table
+- learn-loc-hk-10.html: ladder:table
+- learn-loc-hk-11.html: ladder:table
+- learn-loc-hk-12.html: ladder:table
+- learn-loc-hk-13.html: ladder:table
+- learn-loc-hk-14.html: ladder:table
+- learn-loc-hk-15.html: ladder:table
+- learn-loc-hk-16.html: ladder:table
+- learn-loc-hk-17.html: ladder:table
+- learn-loc-hk-18.html: ladder:table
+- learn-loc-hk-19.html: ladder:table
+- learn-loc-hk-20.html: ladder:table
+- learn-loc-hk-21.html: ladder:table
+- learn-loc-hk-22.html: ladder:table
+- learn-loc-hk-23.html: ladder:table
+- learn-loc-hk-24.html: ladder:table
+- learn-loc-hk-25.html: ladder:table
+- learn-loc-hk-26.html: ladder:table
+- learn-loc-hk-27.html: ladder:table
+- learn-loc-hk-28.html: ladder:table
+- learn-loc-hk-29.html: ladder:table
+- learn-loc-hk-30.html: ladder:table
+- learn-loc-hk-31.html: ladder:table
+- learn-loc-hk-32.html: ladder:table
+- learn-loc-hk-33.html: ladder:table
+- learn-loc-hk-34.html: ladder:table
+- learn-loc-hk-35.html: ladder:table
+- learn-loc-hk-36.html: ladder:table
+- learn-loc-hk-37.html: ladder:table
+- learn-loc-hk-38.html: ladder:table
+- learn-loc-hk-39.html: ladder:table
+- learn-loc-hk-40.html: ladder:table
+- learn-loc-hk-41.html: ladder:table
+- learn-loc-hk-42.html: ladder:table
+- learn-loc-hk-43.html: ladder:table
+- learn-loc-hk-44.html: ladder:table
+- learn-loc-hk-45.html: ladder:table
+- learn-loc-hk-46.html: ladder:table
+- learn-loc-hk-47.html: ladder:table
+- learn-loc-hk-48.html: ladder:table
+- learn-loc-hk-49.html: ladder:table
+- learn-loc-hk-50.html: ladder:table
+- learn-loc-hk-51.html: ladder:table
+- learn-loc-hk-52.html: ladder:table
+- learn-loc-hk-53.html: ladder:table
+- learn-loc-hk-54.html: ladder:table
+- learn-loc-hk-55.html: ladder:table
+- learn-loc-hk-56.html: ladder:table
+- learn-loc-hk-57.html: ladder:table
+- learn-loc-hk-58.html: ladder:table
+- learn-loc-hk-59.html: ladder:table
+- learn-loc-hk-60.html: ladder:table
+- learn-loc-hk-61.html: ladder:table
+- learn-loc-hk-62.html: ladder:table
+- learn-loc-hk-63.html: ladder:table
+- learn-loc-hk-64.html: ladder:table
+- learn-loc-hk-65.html: ladder:table
+- learn-loc-hk-66.html: ladder:table
+- learn-loc-hk-67.html: ladder:table
+- learn-loc-hk-68.html: ladder:table
+- learn-loc-hk-69.html: ladder:table
+- learn-loc-hk-70.html: ladder:table
+- learn-loc-hk-71.html: ladder:table
+- learn-loc-hk-72.html: ladder:table
+- learn-loc-hk-73.html: ladder:table
+- learn-loc-hk-74.html: ladder:table
+- learn-loc-hk-75.html: ladder:table
+- learn-loc-hk-hub.html: bloom, task_cond_std, 8_modules, worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-loc-ky-01.html: ladder:table
+- learn-loc-ky-02.html: ladder:table
+- learn-loc-ky-03.html: ladder:table
+- learn-loc-ky-04.html: ladder:table
+- learn-loc-ky-05.html: ladder:table
+- learn-loc-ky-06.html: ladder:table
+- learn-loc-ky-07.html: ladder:table
+- learn-loc-ky-08.html: ladder:table
+- learn-loc-ky-09.html: ladder:table
+- learn-loc-ky-10.html: ladder:table
+- learn-loc-ky-11.html: ladder:table
+- learn-loc-ky-12.html: ladder:table
+- learn-loc-ky-13.html: ladder:table
+- learn-loc-ky-14.html: ladder:table
+- learn-loc-ky-15.html: ladder:table
+- learn-loc-ky-16.html: ladder:table
+- learn-loc-ky-17.html: ladder:table
+- learn-loc-ky-18.html: ladder:table
+- learn-loc-ky-19.html: ladder:table
+- learn-loc-ky-20.html: ladder:table
+- learn-loc-ky-21.html: ladder:table
+- learn-loc-ky-22.html: ladder:table
+- learn-loc-ky-23.html: ladder:table
+- learn-loc-ky-24.html: ladder:table
+- learn-loc-ky-25.html: ladder:table
+- learn-loc-ky-26.html: ladder:table
+- learn-loc-ky-27.html: ladder:table
+- learn-loc-ky-28.html: ladder:table
+- learn-loc-ky-29.html: ladder:table
+- learn-loc-ky-30.html: ladder:table
+- learn-loc-ky-31.html: ladder:table
+- learn-loc-ky-32.html: ladder:table
+- learn-loc-ky-33.html: ladder:table
+- learn-loc-ky-34.html: ladder:table
+- learn-loc-ky-35.html: ladder:table
+- learn-loc-ky-36.html: ladder:table
+- learn-loc-ky-37.html: ladder:table
+- learn-loc-ky-38.html: ladder:table
+- learn-loc-ky-39.html: ladder:table
+- learn-loc-ky-40.html: ladder:table
+- learn-loc-ky-41.html: ladder:table
+- learn-loc-ky-42.html: ladder:table
+- learn-loc-ky-43.html: ladder:table
+- learn-loc-ky-44.html: ladder:table
+- learn-loc-ky-45.html: ladder:table
+- learn-loc-ky-46.html: ladder:table
+- learn-loc-ky-47.html: ladder:table
+- learn-loc-ky-48.html: ladder:table
+- learn-loc-ky-49.html: ladder:table
+- learn-loc-ky-50.html: ladder:table
+- learn-loc-ky-51.html: ladder:table
+- learn-loc-ky-52.html: ladder:table
+- learn-loc-ky-53.html: ladder:table
+- learn-loc-ky-54.html: ladder:table
+- learn-loc-ky-55.html: ladder:table
+- learn-loc-ky-56.html: ladder:table
+- learn-loc-ky-57.html: ladder:table
+- learn-loc-ky-58.html: ladder:table
+- learn-loc-ky-59.html: ladder:table
+- learn-loc-ky-60.html: ladder:table
+- learn-loc-ky-61.html: ladder:table
+- learn-loc-ky-62.html: ladder:table
+- learn-loc-ky-63.html: ladder:table
+- learn-loc-ky-64.html: ladder:table
+- learn-loc-ky-65.html: ladder:table
+- learn-loc-ky-66.html: ladder:table
+- learn-loc-ky-67.html: ladder:table
+- learn-loc-ky-68.html: ladder:table
+- learn-loc-ky-69.html: ladder:table
+- learn-loc-ky-70.html: ladder:table
+- learn-loc-ky-71.html: ladder:table
+- learn-loc-ky-72.html: ladder:table
+- learn-loc-ky-73.html: ladder:table
+- learn-loc-ky-74.html: ladder:table
+- learn-loc-ky-75.html: ladder:table
+- learn-loc-ky-hub.html: bloom, task_cond_std, 8_modules, worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-loc-mx-01.html: ladder:table
+- learn-loc-mx-02.html: ladder:table
+- learn-loc-mx-03.html: ladder:table
+- learn-loc-mx-04.html: ladder:table
+- learn-loc-mx-05.html: ladder:table
+- learn-loc-mx-06.html: ladder:table
+- learn-loc-mx-07.html: ladder:table
+- learn-loc-mx-08.html: ladder:table
+- learn-loc-mx-09.html: ladder:table
+- learn-loc-mx-10.html: ladder:table
+- learn-loc-mx-11.html: ladder:table
+- learn-loc-mx-12.html: ladder:table
+- learn-loc-mx-13.html: ladder:table
+- learn-loc-mx-14.html: ladder:table
+- learn-loc-mx-15.html: ladder:table
+- learn-loc-mx-16.html: ladder:table
+- learn-loc-mx-17.html: ladder:table
+- learn-loc-mx-18.html: ladder:table
+- learn-loc-mx-19.html: ladder:table
+- learn-loc-mx-20.html: ladder:table
+- learn-loc-mx-21.html: ladder:table
+- learn-loc-mx-22.html: ladder:table
+- learn-loc-mx-23.html: ladder:table
+- learn-loc-mx-24.html: ladder:table
+- learn-loc-mx-25.html: ladder:table
+- learn-loc-mx-26.html: ladder:table
+- learn-loc-mx-27.html: ladder:table
+- learn-loc-mx-28.html: ladder:table
+- learn-loc-mx-29.html: ladder:table
+- learn-loc-mx-30.html: ladder:table
+- learn-loc-mx-31.html: ladder:table
+- learn-loc-mx-32.html: ladder:table
+- learn-loc-mx-33.html: ladder:table
+- learn-loc-mx-34.html: ladder:table
+- learn-loc-mx-35.html: ladder:table
+- learn-loc-mx-36.html: ladder:table
+- learn-loc-mx-37.html: ladder:table
+- learn-loc-mx-38.html: ladder:table
+- learn-loc-mx-39.html: ladder:table
+- learn-loc-mx-40.html: ladder:table
+- learn-loc-mx-41.html: ladder:table
+- learn-loc-mx-42.html: ladder:table
+- learn-loc-mx-43.html: ladder:table
+- learn-loc-mx-44.html: ladder:table
+- learn-loc-mx-45.html: ladder:table
+- learn-loc-mx-46.html: ladder:table
+- learn-loc-mx-47.html: ladder:table
+- learn-loc-mx-48.html: ladder:table
+- learn-loc-mx-49.html: ladder:table
+- learn-loc-mx-50.html: ladder:table
+- learn-loc-mx-51.html: ladder:table
+- learn-loc-mx-52.html: ladder:table
+- learn-loc-mx-53.html: ladder:table
+- learn-loc-mx-54.html: ladder:table
+- learn-loc-mx-55.html: ladder:table
+- learn-loc-mx-56.html: ladder:table
+- learn-loc-mx-57.html: ladder:table
+- learn-loc-mx-58.html: ladder:table
+- learn-loc-mx-59.html: ladder:table
+- learn-loc-mx-60.html: ladder:table
+- learn-loc-mx-61.html: ladder:table
+- learn-loc-mx-62.html: ladder:table
+- learn-loc-mx-63.html: ladder:table
+- learn-loc-mx-64.html: ladder:table
+- learn-loc-mx-65.html: ladder:table
+- learn-loc-mx-66.html: ladder:table
+- learn-loc-mx-67.html: ladder:table
+- learn-loc-mx-68.html: ladder:table
+- learn-loc-mx-69.html: ladder:table
+- learn-loc-mx-70.html: ladder:table
+- learn-loc-mx-71.html: ladder:table
+- learn-loc-mx-72.html: ladder:table
+- learn-loc-mx-73.html: ladder:table
+- learn-loc-mx-74.html: ladder:table
+- learn-loc-mx-75.html: ladder:table
+- learn-loc-mx-hub.html: bloom, task_cond_std, 8_modules, worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-shelves.html: bloom, task_cond_std, 8_modules, worked_example_each, rubric, 10_checks, jobs, ladder:none
+- learn-uae-hub.html: bloom, task_cond_std, 8_modules, worked_example_each, 10_checks, jobs, ladder:none

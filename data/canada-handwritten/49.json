@@ -138,43 +138,53 @@
  "quiz": [
   [
    "What is a service ticket?",
-   "A written record of the user, device, problem, steps and result."
+   "A written record of the user, device, problem, steps and result.",
+   1
   ],
   [
    "Why test one thing at a time?",
-   "So you know which change fixed or caused the problem."
+   "So you know which change fixed or caused the problem.",
+   2
   ],
   [
    "Why copy files before a repair?",
-   "To avoid losing the user's data."
+   "To avoid losing the user's data.",
+   4
   ],
   [
    "What do you do about unlicensed software?",
-   "Do not install it."
+   "Do not install it.",
+   3
   ],
   [
    "Which law area covers personal data?",
-   "Privacy laws, federal and provincial; check which applies."
+   "Privacy laws, federal and provincial; check which applies.",
+   3
   ],
   [
    "What are signs of phishing?",
-   "Odd sender, rush, and a link that does not match."
+   "Odd sender, rush, and a link that does not match.",
+   5
   ],
   [
    "Why do a restore test?",
-   "A backup is only proven when you can restore from it."
+   "A backup is only proven when you can restore from it.",
+   4
   ],
   [
    "What is least access?",
-   "Each user gets only the access they need."
+   "Each user gets only the access they need.",
+   5
   ],
   [
    "How do you find break-even hours?",
-   "Fixed cost divided by margin per hour."
+   "Fixed cost divided by margin per hour.",
+   6
   ],
   [
    "What goes in a job report?",
-   "Problem, work done, parts, cost and advice."
+   "Problem, work done, parts, cost and advice.",
+   7
   ]
  ],
  "jobs": [

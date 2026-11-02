@@ -138,43 +138,53 @@
  "quiz": [
   [
    "What is net worth?",
-   "Assets minus debts."
+   "Assets minus debts.",
+   1
   ],
   [
    "Why are cash and profit different?",
-   "Profit includes unpaid bills; cash is money actually in hand."
+   "Profit includes unpaid bills; cash is money actually in hand.",
+   2
   ],
   [
    "Who regulates investment advice in Canada?",
-   "Provincial securities regulators; check yours."
+   "Provincial securities regulators; check yours.",
+   3
   ],
   [
    "What goes in a client fact sheet?",
-   "Goals, income, costs, debts, savings and time frame."
+   "Goals, income, costs, debts, savings and time frame.",
+   4
   ],
   [
    "Why test the bad case?",
-   "To see if the plan still works when things go wrong."
+   "To see if the plan still works when things go wrong.",
+   5
   ],
   [
    "How can you spot a likely scam?",
-   "Promises of very high safe returns or urgent transfer requests."
+   "Promises of very high safe returns or urgent transfer requests.",
+   7
   ],
   [
    "What must an engagement letter include?",
-   "Scope, fee, privacy and what is not included."
+   "Scope, fee, privacy and what is not included.",
+   6
   ],
   [
    "What is a call-back rule?",
-   "Confirm any new bank details by phone using a known number."
+   "Confirm any new bank details by phone using a known number.",
+   7
   ],
   [
    "Why not mix client money with yours?",
-   "It risks loss, breaks trust and may break the law."
+   "It risks loss, breaks trust and may break the law.",
+   7
   ],
   [
    "What if you are unsure whether you need a licence?",
-   "Ask the regulator and keep the answer in writing."
+   "Ask the regulator and keep the answer in writing.",
+   3
   ]
  ],
  "jobs": [

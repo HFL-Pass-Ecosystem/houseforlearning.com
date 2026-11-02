@@ -138,43 +138,53 @@
  "quiz": [
   [
    "Name two jobs that may need a licensed trade.",
-   "Electrical and gas (also some plumbing); check locally."
+   "Electrical and gas (also some plumbing); check locally.",
+   1
   ],
   [
    "What do you do before drilling a wall?",
-   "Check for pipes and wires with a detector and plan the hole."
+   "Check for pipes and wires with a detector and plan the hole.",
+   2
   ],
   [
    "What are three points of contact on a ladder?",
-   "Two hands and one foot, or two feet and one hand, always touching."
+   "Two hands and one foot, or two feet and one hand, always touching.",
+   2
   ],
   [
    "Why ask the city about permits?",
-   "Some work needs a permit and doing it without one can cause trouble."
+   "Some work needs a permit and doing it without one can cause trouble.",
+   3
   ],
   [
    "What should a quote include?",
-   "Scope, materials, time, price and what is not included."
+   "Scope, materials, time, price and what is not included.",
+   5
   ],
   [
    "What is a change order?",
-   "An agreed written change to scope or price before extra work."
+   "An agreed written change to scope or price before extra work.",
+   5
   ],
   [
    "Why find the cause, not just the sign?",
-   "The stain or drip may come from another place."
+   "The stain or drip may come from another place.",
+   5
   ],
   [
    "How do you find break-even jobs?",
-   "Fixed cost divided by margin per job."
+   "Fixed cost divided by margin per job.",
+   6
   ],
   [
    "What goes in a job file?",
-   "Quote, photos, receipts and notes."
+   "Quote, photos, receipts and notes.",
+   7
   ],
   [
    "What if a job seems beyond your skill?",
-   "Stop, decline it or refer it to a qualified person or licensed trade."
+   "Stop, decline it or refer it to a qualified person or licensed trade.",
+   1
   ]
  ],
  "jobs": [

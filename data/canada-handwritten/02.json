@@ -66,7 +66,7 @@
     "Add fixed costs each month: rent, insurance, water, software and a share of your own pay.",
     "Break-even trays per month = fixed cost divided by margin per tray, rounded up."
    ],
-   "ex": "Power per tray: 0.2 kW x 16 h x 28 days = 89.6 kWh; at 0.16 per kWh that is about 14. Add seeds and nutrients 6, packaging 4, labour 14 for 38 variable; price 95 per tray-equivalent gives margin 57 (60%). Break-even is 21,700 / 57 = about 381 trays a month. Power test: a 10% rise in power price adds about 1.4, so variable cost is 39.4, margin 55.6 and break-even is 21,700 / 55.6 = about 391 trays. Yield test: a 15% yield drop cuts revenue to 80.75 and margin to 42.75, so break-even rises to about 508 trays. Teaching figures in CAD.",
+   "ex": "Power per tray: 0.2 kW x 16 h x 28 days = 89.6 kWh; at 0.16 per kWh that is about 14. Add seeds and nutrients 6, packaging 4, labour 14 for 38 variable; price 95 per tray-equivalent gives margin 57 (60%). Break-even is 21,700 / 57 = about 381 trays a month. Power test: a 10% rise in power price adds about 1.4, so variable cost is 39.4, margin 55.6 and break-even is 21,700 / 55.6 = about 390 trays. Yield test: a 15% yield drop cuts revenue to 80.75 and margin to 42.75, so break-even rises to about 508 trays. Teaching figures in CAD.",
    "act": "Build the cost sheet for your system and compute break-even.",
    "std": "Both stress tests shown."
   },
@@ -138,43 +138,53 @@
  "quiz": [
   [
    "Why compare crops by days to harvest?",
-   "Faster crops return cash sooner and fit stacked systems best."
+   "Faster crops return cash sooner and fit stacked systems best.",
+   1
   ],
   [
    "What is usually the largest cost after rent?",
-   "Electricity for lights."
+   "Electricity for lights.",
+   4
   ],
   [
    "How do you compute power cost per cycle?",
-   "Lamp kilowatts x hours per day x days x price per kWh."
+   "Lamp kilowatts x hours per day x days x price per kWh.",
+   4
   ],
   [
    "Why use batch codes?",
-   "They trace a delivered bag back to its tray and enable recalls."
+   "They trace a delivered bag back to its tray and enable recalls.",
+   5
   ],
   [
    "Name three growing systems.",
-   "Hydroponic, aeroponic and soil-based wall."
+   "Hydroponic, aeroponic and soil-based wall.",
+   3
   ],
   [
    "What should a risk register include for pumps?",
-   "A control such as an alarm and a spare, an owner and a test date."
+   "A control such as an alarm and a spare, an owner and a test date.",
+   7
   ],
   [
    "What is a stop rule in the pilot?",
-   "A pre-agreed trigger, such as yield under 60% of plan, to pause and fix."
+   "A pre-agreed trigger, such as yield under 60% of plan, to pause and fix.",
+   8
   ],
   [
    "Why stagger seeding?",
-   "Harvests stay steady week to week."
+   "Harvests stay steady week to week.",
+   5
   ],
   [
    "Who inspects wash and pack areas?",
-   "Depending on the province, the local public health unit or a provincial inspector may; check the provincial rule."
+   "Depending on the province, the local public health unit or a provincial inspector may; check the provincial rule.",
+   2
   ],
   [
    "Why test a 15% yield drop?",
-   "It shows whether the business still breaks even under stress."
+   "It shows whether the business still breaks even under stress.",
+   4
   ]
  ],
  "jobs": [

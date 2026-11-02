@@ -115,6 +115,8 @@ def prereq(c):
     return lower[0] if lower else None
 def hhmm(h): return f'{h}:00'
 SLUG = lambda c: 'learn-' + c['id'].lower() + '.html'
+# GL-01..75 have a full flagship course page; every link to the older learn-gl page goes there instead.
+LINK = lambda c: ('learn-flagship-' + c['id'].lower() + '.html') if c['id'].startswith('GL-') else SLUG(c)
 
 def loc_box(c, L):
     t = c['title']
@@ -153,7 +155,7 @@ def course_page(c):
         f'<div><h4>Standard</h4><p>Evidence reviewed by a mentor; at least 70% on the 10-question check; two written peer reviews given; every number carries its currency and unit.</p></div></div>'
         + '<h3 class="ws-h3">Who it is for, requirements and materials</h3><ul>'
         + f'<li><strong>Who it is for:</strong> learners aged 16 and over, small-business starters, workers moving to a new field, and teams (see <a href="b2b.html">B2B</a>, <a href="b2c.html">B2C</a>, <a href="d2c.html">D2C</a>).</li>'
-        + f'<li><strong>Requirements:</strong> ' + ('none; start here.' if not pre else f'finish <a href="{SLUG(pre)}">{e(pre["title"])}</a> first, or show equivalent work.') + '</li>'
+        + f'<li><strong>Requirements:</strong> ' + ('none; start here.' if not pre else f'finish <a href="{LINK(pre)}">{e(pre["title"])}</a> first, or show equivalent work.') + '</li>'
         + '<li><strong>Materials included:</strong> lesson text, worked examples, case exercise, 10-question check, templates in My page.</li>'
         + '<li><strong>Teaching team:</strong> a trainer from our network, a mentor who reviews your evidence, and a peer circle. Names are given at enrolment.</li></ul>')
     mods = ''
@@ -179,14 +181,19 @@ def course_page(c):
         + f'<p><a class="btn" href="b2c.html">Find similar courses</a> <a class="btn btn-ghost" href="join.html">Join</a></p>'
         + '<p class="ws-note">Draft course. Pricing, levels and wording are for the owner to confirm. Nothing is live.</p>')
     page(SLUG(c), c['title'] + ' (course)', summary[:150], c['title'], e(summary),
-         about + modules + practice + locs + ladder,
+         fullcourse(c) + about + modules + practice + locs + ladder,
          crumb(('Courses', 'courses-hub.html'), (c['grp'], None)), kicker=f'{c["id"]} · {c["grp"]}')
     return True
 
 # ---------- card lists ----------
+def fullcourse(c):
+    if not c['id'].startswith('GL-'): return ''
+    return sec('', 'fc', 'full course', 'Full course here', f'<p>This is the short version. The full course, with every module, worked examples, rubric, ten checks with answers and the L1-L7 ladder, is here:</p><p><a class="btn" href="{LINK(c)}">Open the full course</a></p>')
+
+# ---------- card lists ----------
 def card(c, aud=''):
     return (f'<li class="cc" data-g="{e(c["grp"])}" data-l="{c["level"]}" data-t="{e((c["title"]+" "+c["grp"]).lower())}">'
-            f'<a href="{SLUG(c)}"><span class="pill lv">{LNAME[c["level"]]}</span><h3>{e(c["title"])}</h3>'
+            f'<a href="{LINK(c)}"><span class="pill lv">{LNAME[c["level"]]}</span><h3>{e(c["title"])}</h3>'
             f'<p>{e(c["practice_70"][:140])}</p><p class="cm">{e(c["length"])} · USD 39 / 79 per learner per month</p></a></li>')
 FILTER_JS = ('<script>(function(){var q=document.getElementById("q"),g=document.getElementById("g"),l=document.getElementById("l"),n=document.getElementById("n");'
              'function f(){var c=0;document.querySelectorAll("li.cc").forEach(function(x){var ok=(!q.value||x.dataset.t.indexOf(q.value.toLowerCase())>-1)&&(!g.value||x.dataset.g==g.value)&&(!l.value||x.dataset.l==l.value);x.hidden=!ok;if(ok)c++});n.textContent=c+" courses shown"}'
