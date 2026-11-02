@@ -43,7 +43,12 @@ def build(c, n):
                  f'<div class="evi"><strong>Worked example.</strong> {e(ex)}</div><p><strong>Activity.</strong> {e(act)}</p><p><strong>Standard to meet.</strong> {e(std)}</p></details>')
     checks = [(m[7], m[8]) for m in c['mods']] + list(c['extra'])
     assert len(checks) == 10 and len(c['mods']) == 8 and len(c['ladder']) == 7, c['slug']
-    quiz = ''.join(f'<details class="mod"><summary>Q{i+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a)}</p></details>' for i, (q, a) in enumerate(checks))
+    def _tag(i, a):
+        if i < 8:
+            m = c['mods'][i]
+            return a.rstrip() + f' (Covered in module {i+1}: {m[0]}. To pass that module: {m[6].rstrip().rstrip(".")}.)'
+        return a.rstrip() + ' (Covered in: Task, condition and standard, near the top of this page.)'
+    quiz = ''.join(f'<details class="mod"><summary>Q{i+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(_tag(i, a))}</p></details>' for i, (q, a) in enumerate(checks))
     rub = ('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>' + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(x)}</td><td>{e(d)}</td></tr>' for a, b, x, d in c['rubric']) + '</tbody></table></div>')
     lad = '<ol class="blm">' + ''.join(f'<li><strong>{LN[i]}.</strong> {e(t)}</li>' for i, t in enumerate(c['ladder'])) + '</ol>'
     sld = INL.get(c['slug'])
