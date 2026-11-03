@@ -905,6 +905,9 @@ a.ws-box:hover{filter:brightness(1.05);text-decoration:none}
 .ws-fnrow h3{margin:0 0 6px;font-size:16px}
 .ws-fnboxes{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));gap:8px}
 @media (max-width:760px){.ws-home{grid-template-columns:minmax(0,1fr)}}
+.ws-pic{position:relative;margin:0;width:100%}.ws-pic img{display:block;width:100%;height:auto;border-radius:12px}
+.ws-hot{position:absolute;border-radius:6%;outline-offset:2px}.ws-hot:hover,.ws-hot:focus-visible{outline:3px solid #0F85DB}
+.ws-pic .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 
 /* Rules for the course pages brought over from the 18 Oct build */
 .lang-btn .btn-label,.a11y-btn .btn-label{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
