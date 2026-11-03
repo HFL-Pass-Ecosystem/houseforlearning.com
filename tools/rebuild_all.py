@@ -30,6 +30,7 @@ STEPS = [
     'build_sitemap',           # sitemap from the indexable pages: after all page builders
     'build_seo',               # titles at most 70 characters, unique, and real meta descriptions: always last
     'sync_share_tags',         # share tags follow each page's own title, description and address: always last
+    'externalise_inline_scripts',   # the site's security rule blocks inline scripts: move them to site/assets/inline
 ]
 def main(argv):
     only_check = '--status-only' in argv
