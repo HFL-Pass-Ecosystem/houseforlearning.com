@@ -170,9 +170,20 @@ def lesson_body(k):
          f'<h1 id="h1">{e(title)}</h1><p>{e(lede)}</p>{NOTE}</div></div></section>\n')
     b += sec('', 'ob', 'your aim', 'What you will be able to do', f'<p><strong>{e(obj.split()[0])}</strong> {e(" ".join(obj.split()[1:]))}</p>'
              f'<ul class="lux-list one"><li><strong>Task.</strong> {e(task)}</li><li><strong>Condition.</strong> {e(cond)}</li><li><strong>Standard.</strong> {e(std)}</li></ul>')
+    b += sec('alt', 'pre', 'before the live session', 'Pre-read: get ready in 10 to 15 minutes',
+             '<p>Read this one or two days before the live session.</p><ul class="lux-list one">'
+             f'<li><strong>Read.</strong> The aim above and the three steps below. Note one thing you do not understand.</li>'
+             f'<li><strong>Prepare.</strong> Open the tool you will use for "{e(title.lower())}" and check that it works.</li>'
+             '<li><strong>Bring.</strong> One question to ask in the live session.</li></ul>')
     for q, (h2, txt) in enumerate(secs):
         b += sec('alt' if q % 2 == 0 else '', f's{q}', f'step {q + 1}', h2, f'<p>{e(txt)}</p>')
     b += sec('alt', 'vk', 'learn your way', 'See it, hear it, do it, write it', vark(title))
+    b += sec('', 'post', 'after the live session', 'Post-read: your notes and recording',
+             '<p>After the live session the join button changes to "watch recording", and the notes are added here.</p><ul class="lux-list one">'
+             '<li><strong>Watch.</strong> The recording, if you missed any part.</li>'
+             f'<li><strong>Read.</strong> The notes for "{e(title.lower())}" and tick off each step.</li>'
+             '<li><strong>Share.</strong> Put your result on your showcase for feedback.</li></ul>'
+             '<p class="ws-note">Draft. Recordings and notes are not working yet in this test.</p>')
     qs = ''.join(f'<details class="lux-panel"><summary>{e(q)}</summary><p>{e(a)}</p></details>' for q, a in chk)
     b += sec('', 'chk', 'check yourself', 'Three quick questions', '<p>Think of your answer first, then open the question.</p>' + qs
              + f'<div class="ctas"><a class="btn" href="{HUB}">AI side-income path</a><a class="btn btn-ghost" href="start-a-course.html">Start a course</a></div>')
@@ -205,13 +216,18 @@ def main():
            '<p>Twelve weeks to build and sell AI solutions as a side income. Learn it, practise it, and earn from it, in the way you learn best.</p>' + NOTE +
            f'<div class="ctas"><a class="btn" href="ai-income-1.html">Try lesson 1 free</a><a class="btn btn-ghost" href="start-a-course.html">How to join</a></div></div></div></section>\n')
     hub += sec('', 'pl', 'the plan', 'Twelve weeks in three parts', plan)
-    hub += sec('alt', 'bd', 'phase one', 'Build', f'<ul class="cards">{cards("Build")}</ul>')
-    hub += sec('', 'sl', 'phase two', 'Sell', f'<ul class="cards">{cards("Sell")}</ul>')
-    hub += sec('alt', 'hk', 'phase three', 'Hackathon', f'<ul class="cards">{cards("Hackathon")}</ul>')
-    hub += sec('', 'vk', 'learn your way', 'For every kind of learner', vk)
-    hub += sec('alt', 'ms', 'certificate', 'Your way to a Microsoft certificate', ms)
-    hub += sec('', 'bn', 'also included', 'Ten extras that come with the path', bon)
-    hub += sec('alt', 'jn', 'how to join', 'Join, then take every lesson', '<p>Lesson 1 is free to read. Join the path at the join step to open all lessons. Fees are shown at the join step. Pay by bank transfer or UPI. You can take a refund within 14 days.</p><p class="ws-note">Draft. Not live. In this test no real money is taken.</p>')
+    road = ('<p>Each lesson follows the same flow: pre-read, live session, post-read. Steps open one by one as you join and as the dates arrive.</p>'
+            '<ol class="lux-list one">'
+            + ''.join(f'<li><strong>Lesson {k + 1}: {e(r[1])}.</strong> {"Free to read now." if k == 0 else "Opens when you join."} Pre-read, live session (join button, then watch recording), post-read notes.</li>' for k, r in enumerate(L))
+            + '</ol><p class="ws-note">Draft. Dates are shown once the batch is confirmed. In this test no step is locked by date.</p>')
+    hub += sec('alt', 'rm', 'your roadmap', 'Lesson by lesson', road)
+    hub += sec('', 'bd', 'phase one', 'Build', f'<ul class="cards">{cards("Build")}</ul>')
+    hub += sec('alt', 'sl', 'phase two', 'Sell', f'<ul class="cards">{cards("Sell")}</ul>')
+    hub += sec('', 'hk', 'phase three', 'Hackathon', f'<ul class="cards">{cards("Hackathon")}</ul>')
+    hub += sec('alt', 'vk', 'learn your way', 'For every kind of learner', vk)
+    hub += sec('', 'ms', 'certificate', 'Your way to a Microsoft certificate', ms)
+    hub += sec('alt', 'bn', 'also included', 'Ten extras that come with the path', bon)
+    hub += sec('', 'jn', 'how to join', 'Join, then take every lesson', '<p>Lesson 1 is free to read. Join the path at the join step to open all lessons. Fees are shown at the join step. Pay by bank transfer or UPI. You can take a refund within 14 days.</p><p class="ws-note">Draft. Not live. In this test no real money is taken.</p>')
     page('ai-side-income', 'AI side-income path', 'Twelve weeks to build and sell AI solutions: ten build lessons, four sell lessons and a capstone.', hub,
          ('catalogue.html', 'Course catalogue'), ('ai-income-1.html', L[0][1]))
     print(N, 'lessons and 1 hub written')
