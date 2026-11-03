@@ -5,7 +5,7 @@ import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import build_full_courses as B
 S = B.S
-js = ('<script>document.addEventListener("DOMContentLoaded",function(){var out=document.getElementById("ml"),A=window.HFLAccess;'
+js = ('<script>document.addEventListener("DOMContentLoaded",function(){window.HFLAccess.ready.then(function(){var out=document.getElementById("ml"),A=window.HFLAccess;'
  'function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}'
  'function link(h,t,c){var a=el("a",c||"btn",t);a.href=h;return a}'
  'if(!A||!A.signedIn()){out.appendChild(el("p","","Sign in to see your learning home."));out.appendChild(link("login.html","Sign in"));return}'
@@ -21,7 +21,7 @@ js = ('<script>document.addEventListener("DOMContentLoaded",function(){var out=d
  'var td=el("div","acc-card");td.style.display="block";td.appendChild(el("h3","","Your to-do"));var l2=el("ul");'
  '[["Confirm your email and your WhatsApp number (not built yet on this test site)",""],["Pick a course and join it","start-a-course.html"],["See all my courses","members-courses.html"]].forEach(function(x){var li=el("li");if(x[1]){li.appendChild(link(x[1],x[0],"btn btn-ghost"))}else{li.textContent=x[0]}l2.appendChild(li)});td.appendChild(l2);out.appendChild(td);'
  'var m=el("div","acc-card");m.style.display="block";m.appendChild(el("h3","","Everything in one place"));var u3=el("ul");'
- '[["Learn: all courses","courses-all.html","works"],["AI side-income path","ai-side-income.html","works"],["Live sessions","","page built, not working yet"],["Projects and showcase","","page built, not working yet"],["Certificates","","page built, not working yet"],["Help","support.html","works"]].forEach(function(x){var li=el("li");if(x[1]){li.appendChild(link(x[1],x[0],"btn btn-ghost"));li.appendChild(el("span","note"," "+x[2]))}else{li.textContent=x[0]+": "+x[2]}u3.appendChild(li)});m.appendChild(u3);out.appendChild(m)});</script>')
+ '[["Learn: all courses","courses-all.html","works"],["AI side-income path","ai-side-income.html","works"],["Live sessions","","page built, not working yet"],["Projects and showcase","","page built, not working yet"],["Certificates and grades","members-courses.html","works"],["Help","support.html","works"]].forEach(function(x){var li=el("li");if(x[1]){li.appendChild(link(x[1],x[0],"btn btn-ghost"));li.appendChild(el("span","note"," "+x[2]))}else{li.textContent=x[0]+": "+x[2]}u3.appendChild(li)});m.appendChild(u3);out.appendChild(m)})});</script>')
 body = B.sec('', 'ml-s', 'signed-in home', 'Your learning home', '<div id="ml"><noscript><p>This page needs JavaScript.</p></noscript></div>' + js
              + '<p class="ws-note">Test only. What you see is kept in this browser.</p>')
 B.page('my-learning.html', 'My learning home', 'Your next step, your courses and help in one place. Test only.', 'My learning home',
