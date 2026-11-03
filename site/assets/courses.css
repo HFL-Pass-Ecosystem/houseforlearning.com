@@ -35,3 +35,10 @@ details.acc-locked>summary{opacity:.75;cursor:not-allowed}.acc-sr{position:absol
 details.mod>summary{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .acc-card{border:1px solid rgba(15,133,219,.25);padding:14px 16px;margin:10px 0;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
 .acc-card h3{margin:0 0 4px;font-size:1rem}
+
+/* Course teaser: Preview button on each locked module, and the box it opens */
+.acc-peek{margin-left:8px;font:inherit;font-size:.78rem;font-weight:600;color:#0B3C5D;background:#fff;border:1px solid #0F85DB;border-radius:999px;padding:2px 12px;cursor:pointer}
+.acc-peek:hover,.acc-peek:focus-visible{background:#0F85DB;color:#fff;outline:2px solid #0B3C5D;outline-offset:2px}
+.acc-peekbox{margin:-4px 0 12px;padding:14px 18px;background:#fff;border:1px solid rgba(15,133,219,.35);border-left:4px solid #3CC261;border-radius:8px}
+.acc-peekbox[hidden]{display:none}
+.acc-peekbox .evi{margin:10px 0}
