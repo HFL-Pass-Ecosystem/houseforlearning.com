@@ -27,6 +27,7 @@ STEPS = [
     'build_ai_income',          # AI side-income path: hub + 15 lessons (own words, no outside names)
     'build_my_learning', 'build_welcome_map', 'build_learner_hub',        # signed-in learning home (test only)
     'build_start_here',        # start-a-course page: real courses a visitor can join and take
+    'build_session_kit',       # live session kit: guides, priming, assessments with consent rules, clickable agenda
     'externalise_inline_scripts',   # inline scripts never run under the site's CSP: move them to site/assets/pages/
     'build_nav',               # site-wide navigation layer
     'build_quizzes',           # final-check questions (assets/quiz) and answer keys (netlify/functions/quizkeys.json)
