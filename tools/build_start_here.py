@@ -37,7 +37,7 @@ steps = ('<ol><li>Sign in. On this preview only, use the button here: <button cl
          'function on(){return /(?:^|; )hfl_in=1/.test(document.cookie)}function show(){if(on()){b.hidden=true;s.textContent="You are signed in (test). Pick a course."}else{b.hidden=false;s.textContent=""}}'
          'b.addEventListener("click",function(){document.cookie="hfl_in=1; Path=/; Max-Age=86400";show()});show()})();</script>')
 body = (B.sec('', 'st', 'four clicks', 'How to take a course', steps)
-        + B.sec('alt', 'ls', 'start here', 'Pick a course', rows + '<p><a class="btn" href="my-learning.html">My learning home</a> <a class="btn" href="courses-all.html">See all courses</a> <a class="btn btn-ghost" href="catalogue.html">Catalogue</a></p>'))
+        + B.sec('alt', 'ls', 'start here', 'Pick a course', rows + '<p><a class="btn" href="my-learning.html">My learning home</a> <a class="btn btn-ghost" href="welcome-map.html">Your first steps</a> <a class="btn" href="courses-all.html">See all courses</a> <a class="btn btn-ghost" href="catalogue.html">Catalogue</a></p>'))
 fit = ('<ul class="cgrid">'
        '<li><strong>Learn (the course system)</strong><br>Works on this preview: join, modules, progress, My courses. <a href="members-courses.html">My courses</a></li>'
        '<li><strong>Earn (work and income)</strong><br>Page built, not working yet: no real jobs or payments. <a href="workspace.html">My workspace</a></li>'
