@@ -29,13 +29,16 @@ for name, files in GROUPS:
     items = ''.join(f'<li><a class="btn btn-ghost" href="{f}">{e(title(f))}</a></li>' for f in files if ok(f))
     if items:
         rows += f'<h3>{e(name)}</h3><ul class="cgrid">{items}</ul>'
+JS = ('(function(){var h=location.hostname;if(!(/\\.netlify\\.app$/.test(h)||h==="localhost"))return;var b=document.getElementById("ti"),s=document.getElementById("tis");if(!b||!s)return;'
+      'function on(){return /(?:^|; )hfl_in=1/.test(document.cookie)}function show(){if(on()){b.hidden=true;s.textContent="You are signed in (test). Pick a course."}else{b.hidden=false;s.textContent=""}}'
+      'b.addEventListener("click",function(){document.cookie="hfl_in=1; Path=/; Max-Age=86400";show()});show()})();\n')
+import pathlib as _pl
+_pl.Path(__file__).resolve().parents[1].joinpath('site/assets/start-here-test.js').write_text(JS)
 steps = ('<ol><li>Sign in. On this preview only, use the button here: <button class="btn" type="button" id="ti" hidden>Test sign-in (preview only)</button> <span id="tis" aria-live="polite"></span></li>'
          '<li>Click a course below.</li><li>On the course page, click <strong>Join this course</strong>.</li>'
          '<li>Click the test pay step (test only, no real money).</li><li>You come back to the same page with every module open. Click <strong>Continue</strong> to take it.</li></ol>'
          '<p>Module 1 of every course is free to read before you join. On the real site, you sign in with your email link.</p>'
-         '<script>(function(){var h=location.hostname;if(!(/\\.netlify\\.app$/.test(h)||h==="localhost"))return;var b=document.getElementById("ti"),s=document.getElementById("tis");'
-         'function on(){return /(?:^|; )hfl_in=1/.test(document.cookie)}function show(){if(on()){b.hidden=true;s.textContent="You are signed in (test). Pick a course."}else{b.hidden=false;s.textContent=""}}'
-         'b.addEventListener("click",function(){document.cookie="hfl_in=1; Path=/; Max-Age=86400";show()});show()})();</script>')
+         '<script src="assets/start-here-test.js" defer></script>')
 body = (B.sec('', 'st', 'four clicks', 'How to take a course', steps)
         + B.sec('alt', 'ls', 'start here', 'Pick a course', rows + '<p><a class="btn" href="my-learning.html">My learning home</a> <a class="btn btn-ghost" href="welcome-map.html">Your first steps</a> <a class="btn" href="courses-all.html">See all courses</a> <a class="btn btn-ghost" href="catalogue.html">Catalogue</a></p>'))
 fit = ('<ul class="cgrid">'
