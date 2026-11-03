@@ -23,6 +23,7 @@ STEPS = [
     'build_regional_hubs', 'build_courses_all',
     'build_access_pages', 'add_series_gate', 'patch_audience_pages',
     'build_services', 'build_support', 'build_wix_content', 'build_org_pages', 'build_home', 'build_timetool',
+    'build_ai_income',          # AI side-income path: hub + 15 lessons (own words, no outside names)
     'build_start_here',        # start-a-course page: real courses a visitor can join and take
     'build_nav',               # site-wide navigation layer
     'build_sitemap',           # sitemap from the indexable pages: after all page builders

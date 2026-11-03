@@ -14,6 +14,7 @@ GROUPS = [
  ('Undergraduate and postgraduate', ['executive-module-1.html', 'learn-flagship-gl-01.html']),
  ('Business, for teams (B2B)', ['learn-ent-business-analyst-track.html', 'learn-ent-business-applications-erp-crm.html']),
  ('For you, as a person (B2C and D2C)', ['learn-flagship-career-launch.html', 'cpd-analysing-ratios-for-a-board.html']),
+ ('AI side-income path (learn and earn)', ['ai-income-1.html']),
  ('By place, full course', ['learn-flagship-ae-petroleum.html']),
 ]
 def title(fn):
