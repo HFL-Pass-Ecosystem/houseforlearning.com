@@ -173,6 +173,34 @@
   function pill(txt) { var s = document.createElement('span'); s.className = 'acc-lock'; s.textContent = txt; return s; }
   function joinHref() { return 'pay.html?course=' + encodeURIComponent(file) + '&t=' + encodeURIComponent(title) + '&n=' + numbered.length; }
 
+  // Teaser: each locked module gets a "Preview" button. It shows the module goal (its first paragraph) and its one worked example (.evi).
+  // Nothing else is shown: no activity, no standard, no checks, no marking table. Added only, nothing removed. Built from text already on the page.
+  function addPeeks() {
+    mods.forEach(function (d, i) {
+      if (!d.classList.contains('acc-locked')) return;
+      var s = d.querySelector('summary'); if (!s || s.querySelector('.acc-peek')) return;
+      var goal = d.querySelector(':scope > p'), ex = d.querySelector(':scope > .evi');
+      if (!goal && !ex) return;
+      var id = 'acc-peek-' + i, panel = document.createElement('div');
+      panel.className = 'acc-peekbox'; panel.id = id; panel.hidden = true; panel.setAttribute('role', 'region');
+      panel.setAttribute('aria-label', 'Preview of ' + (s.querySelector('.mn') || {textContent: 'this module'}).textContent.trim());
+      var k = document.createElement('p'); k.className = 'acc-k'; k.textContent = 'Preview. Goal'; panel.appendChild(k);
+      if (goal) { var g = document.createElement('p'); g.textContent = goal.textContent; panel.appendChild(g); }
+      if (ex) { var e = document.createElement('div'); e.className = 'evi'; e.textContent = ex.textContent; panel.appendChild(e); }
+      var j = document.createElement('p'); j.className = 'acc-note'; j.textContent = 'This is a taste only. Join this course to open the full module, the activity, the checks and the marking table.';
+      panel.appendChild(j);
+      d.parentNode.insertBefore(panel, d.nextSibling);
+      var b = document.createElement('button'); b.type = 'button'; b.className = 'acc-peek'; b.textContent = 'Preview';
+      b.setAttribute('aria-expanded', 'false'); b.setAttribute('aria-controls', id);
+      b.addEventListener('click', function (ev) {
+        ev.preventDefault(); ev.stopPropagation();
+        var open = panel.hidden; panel.hidden = !open; b.setAttribute('aria-expanded', open ? 'true' : 'false'); b.textContent = open ? 'Hide preview' : 'Preview';
+      });
+      b.addEventListener('keydown', function (ev) { ev.stopPropagation(); });
+      s.appendChild(b);
+    });
+  }
+
   function lockAll() {
     mods.forEach(function (d) {
       if (d === firstOfModules) return;
@@ -180,6 +208,7 @@
       var s = d.querySelector('summary'); if (s && !s.querySelector('.acc-lock')) s.appendChild(pill('Locked'));
     });
     rubric.forEach(function (r) { r.classList.add('acc-hidden'); });
+    addPeeks();
     bar.innerHTML = '<div class="wrap acc-in"><div><p class="acc-k">Preview</p><p class="acc-t">You are reading the outline and Module 1. Join this course to open every module, the checks and the marking table.</p></div><div class="acc-act"></div></div>';
     var act = bar.querySelector('.acc-act'), a = document.createElement('a');
     a.className = 'btn';
