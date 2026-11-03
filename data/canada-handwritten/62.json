@@ -1,0 +1,198 @@
+{
+ "mods": {
+  "1": {
+   "title": "Know what gluten is and who needs gluten-free food",
+   "intro": "Gluten is a protein in some grains. Some people must avoid it for health reasons. This course is about food service work, not medical advice; people with health questions should consult a licensed health professional.",
+   "pts": [
+    "Explain that gluten is found in wheat, rye, barley and foods made from them.",
+    "Explain that celiac disease, wheat allergy and gluten sensitivity are different; do not tell a customer which one they have.",
+    "Explain that for many customers even a small amount can make them ill, so care is serious.",
+    "Name common hidden sources: sauces, stock, soy sauce, beer, fried foods and shared oil.",
+    "Explain that oats are often mixed with wheat during growing and processing.",
+    "Read a menu and mark each dish that needs a check for hidden gluten.",
+    "Explain that wheat-free is not the same as gluten-free, since rye and barley also contain gluten."
+   ],
+   "ex": "A customer asks for a gluten-free pasta dish. You check: the pasta is gluten-free, but the sauce uses wheat flour as a thickener, so the dish is not safe until the sauce changes. The cook switches to a gluten-free thickener, cleans the pot and tells the customer what changed.",
+   "act": "Write a list of twenty common foods and mark which usually contain gluten, which do not and which need checking.",
+   "std": "Task: sort foods by gluten risk. Condition: labels and reference lists. Standard: every food is sorted with a reason and unclear items are marked 'check'."
+  },
+  "2": {
+   "title": "Know the food rules in Canada",
+   "intro": "Food businesses follow public health, labelling and claims rules.",
+   "pts": [
+    "Explain that a food business needs a permit and inspection from the local public health unit; check the current rule locally.",
+    "Explain that Canada has federal rules for gluten-free claims; check the current claim rules with the federal food authority before you use the words.",
+    "Explain that allergen and gluten sources must be shown on packaged food labels under federal rules; check the current rules.",
+    "Explain that food handlers need safe-handling training.",
+    "Explain that menu words must be honest; do not promise what you cannot control.",
+    "Keep a records file that shows how each gluten-free claim was checked.",
+    "Explain that menu boards and online posts count as claims too; check the current rule."
+   ],
+   "ex": "A bakery wants to put 'gluten-free' on a loaf. Before doing so it checks the current federal claim rules and the ingredient and process records. Only then does it print the label, and it files the check with the date.",
+   "act": "Build a rules table with rule, who enforces it, what you must do and a dated official source.",
+   "std": "Task: build a rules table. Condition: official pages only. Standard: each row has an enforcer, an action and a dated source; no rule is guessed."
+  },
+  "3": {
+   "title": "Prevent cross-contact",
+   "intro": "Cross-contact means gluten moves from one food to another. It is the main risk in this business.",
+   "pts": [
+    "Use separate tools, boards, pans and fryer oil for gluten-free food.",
+    "Clean surfaces with a method that removes crumbs and wash hands before gluten-free work.",
+    "Store gluten-free items on upper shelves in sealed, labelled containers.",
+    "Control flour dust in a bakery: it can float and settle on other food.",
+    "Decide whether you are a fully gluten-free place or a shared kitchen, and tell customers honestly.",
+    "Use a separate toaster or toaster bags for gluten-free bread, never a shared toaster.",
+    "Serve gluten-free dishes with clean utensils and a marked plate or flag."
+   ],
+   "ex": "A shared kitchen uses purple-handled tools only for gluten-free food. Gluten-free orders are made first on a freshly cleaned bench, then covered and sent out. If 6 of 40 daily orders are gluten-free, that is 6 / 40 = 15% of orders that need the cleaned bench.",
+   "act": "Draw a kitchen floor plan showing gluten-free and regular zones, tools, storage and flow.",
+   "std": "Task: plan a cross-contact system. Condition: a made-up or real kitchen. Standard: every step from delivery to serving has a control and a record."
+  },
+  "4": {
+   "title": "Source ingredients and read labels",
+   "intro": "A safe menu starts with safe ingredients and clear supplier information.",
+   "pts": [
+    "Ask suppliers for written statements about gluten for every ingredient.",
+    "Read labels on every delivery because recipes can change.",
+    "Keep a file of labels and supplier letters, with dates.",
+    "Test or check flours, mixes and oats against your safety plan.",
+    "Have a rule for substitutions: no swap without checking.",
+    "Write a purchase specification for each ingredient: brand, size, claim and supplier contact.",
+    "Ask each supplier whether the ingredient is made on equipment shared with wheat."
+   ],
+   "ex": "A supplier changes a stock brand. The delivery check finds a new 'contains wheat' line on the label. The item is held, the supplier is asked for a replacement, and the dish is taken off the menu until safe stock arrives.",
+   "act": "Create an ingredient file for ten ingredients with supplier, statement and date.",
+   "std": "Task: build an ingredient file. Condition: ten real or practice ingredients. Standard: each entry has source, statement, date and who checked."
+  },
+  "5": {
+   "title": "Bake and cook gluten-free food well",
+   "intro": "Gluten-free food has different texture and handling. Practise and measure.",
+   "pts": [
+    "Weigh ingredients in grams and write recipes with yield.",
+    "Mix flours and binders in tested ratios; test small batches first.",
+    "Rest, bake and cool by the recipe and record times and temperatures.",
+    "Compare each batch by taste, texture and look with a small panel.",
+    "Change one thing at a time and write it down.",
+    "Calculate baker's percentages: each ingredient weight divided by the flour weight.",
+    "Cool loaves fully before slicing so the crumb sets."
+   ],
+   "ex": "A loaf with 500 g of flour is too crumbly. The baker raises the binder from 1% to 1.5% of flour weight, which is from 5 g to 7.5 g. Everything else stays the same, and the next loaf holds together and scores higher with the panel.",
+   "act": "Develop one recipe through three tests and record each change and score.",
+   "std": "Task: develop a recipe. Condition: three test batches. Standard: ingredients are weighed, changes are one at a time and scores are recorded."
+  },
+  "6": {
+   "title": "Price the menu and prove it pays",
+   "intro": "Gluten-free ingredients often cost more. Price must cover that and your fixed costs.",
+   "pts": [
+    "Cost each recipe by adding up the ingredient cost per portion.",
+    "Work out food cost percent as cost per portion divided by selling price.",
+    "Add labour, packaging and waste to find the real cost.",
+    "Break-even volume = fixed cost / margin per portion.",
+    "Test prices with real customers; ask a licensed accountant about sales tax.",
+    "Count waste as a cost: unsold portions and failed batches.",
+    "Set a target food cost percent and check each item against it."
+   ],
+   "ex": "A gluten-free dish costs 3.50 CAD in ingredients and sells for 12. Food cost = 3.50 / 12 = about 29%, and margin before labour = 12 - 3.50 = 8.50 per portion. If fixed cost is 4,250 per month, break-even = 4,250 / 8.50 = 500 portions (teaching numbers only).",
+   "act": "Build a menu cost sheet for ten items and a break-even number.",
+   "std": "Task: cost a menu. Condition: a spreadsheet. Standard: formulas are visible, waste is counted and a mentor checks the arithmetic."
+  },
+  "7": {
+   "title": "Train staff and talk to customers honestly",
+   "intro": "Staff must know the risk and speak plainly. Honest answers keep customers safe.",
+   "pts": [
+    "Train every person on gluten, cross-contact and the allergen rules before they serve.",
+    "Teach staff to say 'I will check' rather than guess.",
+    "Keep a written allergen guide for every dish and update it when recipes change.",
+    "Ask customers what they need and repeat it back.",
+    "Have a response plan for a reaction: stop service, call emergency help, record what happened.",
+    "Hold a two-minute pre-shift huddle to review the day's allergens.",
+    "Practise answering 'Is this safe?' with facts from the allergen guide, never with a guess."
+   ],
+   "ex": "A server is unsure about a sauce. She says 'I will check', asks the cook, reads the label and tells the customer the sauce is not safe, then offers a safe option. She writes the answer in the order notes so the cook sees it.",
+   "act": "Write a one-page staff guide and role-play three customer questions.",
+   "std": "Task: train and role-play. Condition: three scenarios. Standard: staff answers are honest, checked and recorded where needed."
+  },
+  "8": {
+   "title": "Run the gluten-free kitchen for real",
+   "intro": "Run daily routines, records and growth with strict safety.",
+   "pts": [
+    "Keep daily logs: cleaning, temperatures, deliveries, cross-contact checks.",
+    "Check storage dates and labels each day with first-in, first-out.",
+    "Record complaints and near misses and fix the cause.",
+    "Review sales, waste and cost each week.",
+    "Write a 12-month plan with milestones, a budget and a risk list.",
+    "Do a weekly self-check with a checklist and fix every gap in writing.",
+    "Keep a recall plan: how you would find and tell customers if an ingredient proved unsafe."
+   ],
+   "ex": "After 30 days a bakery sees waste at 12%, mostly from one loaf. If it bakes 200 loaves a month, 12% is 24 loaves. It cuts the batch size and waste falls to 6%, which is 12 loaves.",
+   "act": "Run a 60-day pilot with logs and write the review.",
+   "std": "Task: run a pilot. Condition: 60 days. Standard: logs are complete, near misses are fixed and the review reasons from evidence."
+  }
+ },
+ "price": [
+  12,
+  3.5,
+  900,
+  "portion"
+ ],
+ "quiz": [
+  [
+   "Where is gluten found?",
+   "In wheat, rye, barley and foods made from them.",
+   1
+  ],
+  [
+   "What is cross-contact?",
+   "When gluten moves from one food to another.",
+   3
+  ],
+  [
+   "Why keep supplier statements and labels?",
+   "They are proof of what is in each ingredient and recipes can change.",
+   4
+  ],
+  [
+   "Can you tell a customer which condition they have?",
+   "No; suggest they consult a licensed health professional.",
+   1
+  ],
+  [
+   "Why use separate tools and oil?",
+   "To stop gluten moving into gluten-free food.",
+   3
+  ],
+  [
+   "Who gives the food permit and inspection?",
+   "The local public health unit; check the current rule locally.",
+   2
+  ],
+  [
+   "What should staff say if they are unsure?",
+   "'I will check', then check and answer honestly.",
+   7
+  ],
+  [
+   "How do you find food cost percent?",
+   "Cost per portion divided by selling price.",
+   6
+  ],
+  [
+   "What should you do before using the words gluten-free?",
+   "Check the current federal claim rules and your records.",
+   2
+  ],
+  [
+   "What do you do if there is a reaction?",
+   "Stop service, call emergency help and record what happened.",
+   7
+  ]
+ ],
+ "jobs": [
+  "Gluten-free baker",
+  "Prep cook",
+  "Food safety lead",
+  "Café supervisor",
+  "Kitchen manager",
+  "Bakery owner"
+ ]
+}

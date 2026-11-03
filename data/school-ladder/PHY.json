@@ -1,0 +1,46 @@
+{
+ "slides": [
+  {
+   "level": "L1 Basic",
+   "title": "Pushes and pulls",
+   "slide": "L1 Basic · Pushes and pulls",
+   "notes": "Name forces as pushes or pulls and say how they change movement. Notes: roll a toy car down a ramp onto the floor and mark where it stops; learners push it again with a bigger start and compare. Keep the floor clear so nobody trips."
+  },
+  {
+   "level": "L2 Awareness",
+   "title": "Energy and simple circuits",
+   "slide": "L2 Awareness · Energy and simple circuits",
+   "notes": "Describe energy stores and build a simple circuit that lights a bulb. Notes: use one 1.5 V cell, one small bulb and two leads; learners draw the loop and say what happens when it is broken. Use only cells or batteries at low voltage, never mains sockets."
+  },
+  {
+   "level": "L3 Foundation",
+   "title": "Speed, distance and time",
+   "slide": "L3 Foundation · Speed, distance and time",
+   "notes": "Calculate speed from distance and time and read a distance-time graph. Notes: practice case is 100 m in 12.5 s, so speed is 8 m/s. Learners time a walked 20 m with a phone stopwatch, repeat three times, find the mean, and then work out the speed."
+  },
+  {
+   "level": "L4 Practitioner",
+   "title": "Force, mass and acceleration",
+   "slide": "L4 Practitioner · Force, mass and acceleration",
+   "notes": "Apply F = ma to find an unknown force, mass or acceleration. Notes: a 1200 kg car with a net force of 3000 N has acceleration 2.5 m/s2. Learners then find the net force when the engine gives 3500 N and drag is 500 N, and check that the answer matches."
+  },
+  {
+   "level": "L5 Specialist",
+   "title": "Series and parallel circuits",
+   "slide": "L5 Specialist · Series and parallel circuits",
+   "notes": "Analyse resistor networks using Ohm law and the rules for current and voltage. Notes: 24 ohm and 12 ohm in parallel give 8 ohm, since 1/24 plus 1/12 is 1/8. On 6 V, current is 0.75 A. Check power ratings and keep currents low before building; use a meter to verify."
+  },
+  {
+   "level": "L6 Advanced (degree level)",
+   "title": "Oscillations and waves",
+   "slide": "L6 Advanced · Oscillations and waves",
+   "notes": "Apply the simple harmonic motion model and solve for period, frequency and energy. Notes: a 0.50 kg mass on a spring of constant 200 N/m has period 2 pi times the square root of 0.0025, about 0.314 s. Learners measure ten swings with a stopwatch and compare, keeping the mass low so it cannot hurt a hand."
+  },
+  {
+   "level": "L7 Super expert (postgraduate/expert)",
+   "title": "Uncertainty and fitting",
+   "slide": "L7 Super expert · Uncertainty and fitting",
+   "notes": "Evaluate measurements and models with uncertainty propagation, fitting and goodness of fit. Notes: a pendulum with L of 1.000 m and T of 2.007 s gives g equal to 4 pi squared L over T squared, 9.80 m/s2. Learners propagate a 0.002 s timing error, plan repeats, and decide if a model is supported. Check clamps and stand stability."
+  }
+ ]
+}

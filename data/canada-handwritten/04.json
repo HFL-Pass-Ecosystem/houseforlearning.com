@@ -1,0 +1,197 @@
+{
+ "price": [
+  1500,
+  400,
+  25,
+  "client"
+ ],
+ "mods": {
+  "1": {
+   "title": "Understand how investment in AI works",
+   "intro": "An investment firm puts money into companies; an AI focus means judging data, models and teams.",
+   "pts": [
+    "The main stages are seed, early and growth, and each has a different level of risk and information.",
+    "Money comes from limited partners, and managers owe them honest, regular reports.",
+    "AI companies differ: tools, applications, data, services. Judge whether the data or the model is the real asset.",
+    "Write a one-page thesis: what we back, why now, what we avoid.",
+    "Read one real company's public filings or website and list five claims you can check and five you cannot.",
+    "Ask what a customer would do if the company vanished tomorrow. A product people could not easily replace is a stronger sign than a clever model.",
+    "Define the sectors you know in Canada, such as health, logistics, energy or agriculture, and say what you would need to learn before you judge a company in each."
+   ],
+   "ex": "Thesis: 'We back applied AI for Canadian clinics and logistics at seed stage; we avoid pure model-building without data access.' A test on 3 companies might find 2 that fit and 1 that fails the data rule, and the reason for the failure is written beside it.",
+   "act": "Write a thesis and test it against three real companies' public information.",
+   "std": "Give reasons and exclusions for the thesis."
+  },
+  "2": {
+   "title": "Know the securities rules",
+   "intro": "Raising and investing money is regulated.",
+   "pts": [
+    "Provincial securities regulators govern who may raise funds, give advice and sell investments; exemptions exist for some investors.",
+    "Managers may need registration; do not act before checking.",
+    "Anti-money-laundering rules can require identifying investors and sources of funds; check which rules apply to you.",
+    "Marketing must be balanced; never promise returns.",
+    "Check that you can lawfully see the information you use; do not trade on private information.",
+    "Keep every message to investors accurate and dated; if a figure is an estimate, label it as an estimate.",
+    "Rules differ by province and by type of investor. Check the provincial rule and ask a licensed adviser before any pitch."
+   ],
+   "ex": "Row: 'Raise a fund from friends | provincial securities regulator | check exemption and registration | before any pitch | lawyer's written opinion'. A fund table with 8 rows, each with an owner and a date, shows at a glance which of the 8 are still open before a first pitch.",
+   "act": "Build a rules table for a small fund and ask a licensed adviser to review.",
+   "std": "Check that no row is guessed and opinion is kept."
+  },
+  "3": {
+   "title": "Evaluate an AI company",
+   "intro": "Due diligence means checking claims.",
+   "pts": [
+    "Check the data: source, rights to use, quality and bias.",
+    "Check the model: accuracy on held-out data, cost to run, drift over time.",
+    "Check the team and customers: paid pilots count more than letters of intent.",
+    "Write findings in a short memo with a rating and open questions.",
+    "Ask what the company would do with money, by when, and how you would know it worked.",
+    "Compare accuracy on a fair test: examples the model has never seen, drawn the way real customers' data is drawn.",
+    "Ask for cost to serve one customer per month and the price they pay, and compute the gross margin."
+   ],
+   "ex": "Claim '95% accuracy' tested on the company's own test set; independent sample shows 84%, a gap of 11 points. Memo rating drops from strong to watch. If a customer pays 1,500 a month and serving them costs 400, gross margin is 1,100 (about 73%).",
+   "act": "Review one public AI company and write a two-page memo.",
+   "std": "Support each claim with evidence or mark it unverified."
+  },
+  "4": {
+   "title": "Model returns and fees",
+   "intro": "Understand how money flows.",
+   "pts": [
+    "A fund of 10,000,000 with a 2% yearly fee pays its managers 200,000 a year.",
+    "Returns come from a few big winners while most investments return little, so model that spread.",
+    "Model three cases for the fund: poor, expected and strong.",
+    "Be clear about fees and carried interest, and show investors how each is calculated.",
+    "Compare fund costs over ten years with a fee table, not a feeling.",
+    "Multiple of money = money back divided by money invested. A result of 1.0 means investors only got their money back.",
+    "Note that a multiple before fees is higher than what investors keep; show both before and after fees."
+   ],
+   "ex": "Invest 500,000 across 10 companies at 50,000 each. Outcomes: 6 return nothing, 3 return 50,000 each, 1 returns 400,000 (8x). Total back = 150,000 + 400,000 = 550,000, which is 1.1x before fees. If the 400,000 winner is missed, the total is 150,000, only 0.3x. Fees on a 10,000,000 fund at 2% for 10 years are 2,000,000. Teaching figures in CAD.",
+   "act": "Build a three-case return table.",
+   "std": "Show fees and assumptions."
+  },
+  "5": {
+   "title": "Manage the portfolio",
+   "intro": "After investing, help and monitor.",
+   "pts": [
+    "Hold a quarterly review of each company's revenue, cash, hires and risks.",
+    "Reserve money for follow-on rounds in the companies that are working.",
+    "Set clear triggers for extra support or for exit.",
+    "Report to investors in a fixed format every quarter.",
+    "Record why you made each decision on the day, so you can learn later.",
+    "Give each company a status: on plan, behind or needs help, with a reason and a date to look again.",
+    "Count months of cash left (cash divided by monthly spending) and flag any company under 9 months."
+   ],
+   "ex": "Quarter page: 10 companies, 2 behind plan (20%), 1 needing a bridge; action: reserve 200,000. A company with 240,000 in cash spending 30,000 a month has 8 months left, under the 9-month line, so it is on the watch list.",
+   "act": "Build a quarterly dashboard for a fictional portfolio.",
+   "std": "Give every company a status and next step."
+  },
+  "6": {
+   "title": "Source and win deals",
+   "intro": "Good deals come from trust.",
+   "pts": [
+    "Network with universities, accelerators and founders.",
+    "Give founders fast, clear answers.",
+    "Offer help beyond money: introductions and advice.",
+    "Track deal flow through five stages: seen, met, diligence, offer and closed.",
+    "Keep a list of founders you met and notes for follow-up, with their consent.",
+    "Say no kindly and quickly, with one honest reason. Founders remember how you treated them.",
+    "Ask each founder how they found you and track which source brings the best deals."
+   ],
+   "ex": "Funnel: 120 seen, 30 met, 8 diligence, 3 offers, 2 closed. Rates: met 30/120 = 25%, diligence 8/30 = 27%, offers 3/8 = 38%, closed 2/3 = 67%. Overall 2/120 = 1.7%, so about 60 deals seen per closing.",
+   "act": "Run a deal funnel for 4 weeks (public companies or case studies).",
+   "std": "Record the funnel."
+  },
+  "7": {
+   "title": "Handle AI ethics and conflicts",
+   "intro": "Invest responsibly.",
+   "pts": [
+    "Screen each company for harmful uses and biased data.",
+    "Declare every conflict of interest in writing.",
+    "Respect federal and provincial private-sector privacy rules in portfolio companies; check the rule that applies in the province.",
+    "Publish an investment policy that investors and founders can read.",
+    "Write the policy for what you do if a founder behaves badly.",
+    "Ask each company how it tests for unfair results across groups of people, and ask to see the test.",
+    "Keep a conflicts register: who owns or advises what, and who left the room when a decision was made."
+   ],
+   "ex": "Policy line: 'We do not back face-recognition used without consent.' A conflicts register with 5 entries, each with a date and an action, lets an investor see that every conflict was handled.",
+   "act": "Write a one-page responsible investing policy.",
+   "std": "Include screens and a review step in the policy."
+  },
+  "8": {
+   "title": "Pilot a mock fund",
+   "intro": "Practise with a paper portfolio.",
+   "pts": [
+    "Pick five public companies and write a thesis for the group.",
+    "Track them for 60 days with dated notes.",
+    "Compare the result with a simple benchmark.",
+    "Write a review of what the thesis got right and wrong.",
+    "Keep your paper fund simple: no more than five names.",
+    "Write the entry reason and the price for each name on day one, before the results arrive.",
+    "State clearly that a paper fund is practice; it is not advice and nothing is bought."
+   ],
+   "ex": "Paper portfolio +3% vs benchmark +1%, a gap of 2 points over 60 days; reason noted: luck vs thesis. If one of five names rose 12% and the other four were flat, 12 / 5 = 2.4 points came from a single name, which suggests luck.",
+   "act": "Run the paper fund and present the review.",
+   "std": "Review separates luck from skill."
+  }
+ },
+ "quiz": [
+  [
+   "What are the stages of company investing?",
+   "Seed, early and growth.",
+   1
+  ],
+  [
+   "Why test accuracy independently?",
+   "Company figures may come from its own favourable test set.",
+   3
+  ],
+  [
+   "Who regulates raising funds?",
+   "Provincial securities regulators.",
+   2
+  ],
+  [
+   "What is due diligence?",
+   "Checking a company's claims and risks before investing.",
+   3
+  ],
+  [
+   "Why reserve follow-on money?",
+   "Good companies need later rounds.",
+   5
+  ],
+  [
+   "Why do fees matter?",
+   "They reduce investor returns every year.",
+   4
+  ],
+  [
+   "Which kind of data does federal private-sector privacy law cover?",
+   "Personal information held by private organisations.",
+   7
+  ],
+  [
+   "What belongs in an investment policy?",
+   "Screens, conflicts and review steps.",
+   7
+  ],
+  [
+   "Why never promise returns?",
+   "Rules forbid it and results are uncertain.",
+   2
+  ],
+  [
+   "What separates luck from skill?",
+   "A written thesis tested against results.",
+   8
+  ]
+ ],
+ "jobs": [
+  "Investment analyst",
+  "Venture associate",
+  "Compliance officer",
+  "Portfolio monitor",
+  "Fund founder"
+ ]
+}

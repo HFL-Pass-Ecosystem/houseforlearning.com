@@ -1,0 +1,198 @@
+{
+ "mods": {
+  "1": {
+   "title": "Know the farm, the seasons and the words",
+   "intro": "Farming turns land, water, seed or animals, and work into food or fibre. Start with the basic words and the yearly cycle.",
+   "pts": [
+    "Learn the terms: crop, livestock, yield, input, soil test, rotation, harvest, grade.",
+    "Canada has short growing seasons in many regions, so timing matters.",
+    "Know the main farm types: field crops, vegetables and fruit, dairy, beef, poultry, greenhouse.",
+    "Visit a farm or market and ask what the hardest month is and why.",
+    "Read a farm map or field sketch: label each field, its size in hectares and what it grows.",
+    "List the year in four seasons and write two jobs that must happen in each one.",
+    "Explain why a late spring frost or a wet harvest can change the whole plan."
+   ],
+   "ex": "Yield: 3 tonnes per hectare on 20 hectares means 3 x 20 = 60 tonnes harvested. If a wet fall loses 10 percent, the farm sells 54 tonnes instead. Check the sum before you quote a buyer.",
+   "act": "Visit or interview one farmer. Write a one-page summary of the farm type, the main inputs and the yearly calendar.",
+   "std": "Task: write a farm summary. Condition: from one visit or interview. Standard: terms used correctly, a calendar of the year, and the main input costs named."
+  },
+  "2": {
+   "title": "Explain how a crop or animal product gets from plan to sale",
+   "intro": "The chain has steps. If you see them, you can find where money and time are lost.",
+   "pts": [
+    "Steps: plan, prepare, plant or start, care, harvest, store, sell.",
+    "Each step has inputs (seed, feed, fuel, labour) and a risk (weather, disease, price).",
+    "Keep a field or animal record: dates, amounts, treatments, weather notes.",
+    "Know your market before you plant: who buys, in what size, at what time.",
+    "Mark the step where the product is most likely to be lost, such as drying, storing or cooling.",
+    "Write the time between harvest and sale for your product and compare it with how long it stays fresh.",
+    "Ask one buyer what size, grade and delivery day they need, and write it beside the step."
+   ],
+   "ex": "A farm plants lettuce every two weeks for six plantings, so it can sell weekly to a restaurant buyer over 12 weeks (6 x 2). If all six were planted on one day, most heads would be ready together and could not be sold fresh.",
+   "act": "Draw the chain for one product from seed to buyer and mark where it could fail.",
+   "std": "Task: draw a production chain. Condition: for one product you could grow or raise. Standard: all steps shown with at least one input and one risk per step."
+  },
+  "3": {
+   "title": "Carry out a basic farm task to a standard",
+   "intro": "Do one real task with care: for example, a soil sample, seeding a bed, or a daily animal check.",
+   "pts": [
+    "Follow a written method and keep a record of what you did and when.",
+    "Measure results, such as germination rate, weight gain or yield per bed.",
+    "Use tools and machines safely; get trained before using any machine.",
+    "Compare the result with your goal and write one change for next time.",
+    "Write the steps of the task in order before you start, and tick each one as you do it.",
+    "Weigh or count the result the same way both times so the two runs can be compared.",
+    "Clean and put away tools, and write down any damage or safety problem you saw."
+   ],
+   "ex": "Germination rate = seeds that sprouted divided by seeds planted. 90 of 100 seeds sprouted: 90 percent. If you plant 400 seeds at that rate, expect about 360 plants (400 x 0.90), so plan beds for 360, not 400.",
+   "act": "Complete one growing or care task twice, record the results and improve the second run.",
+   "std": "Task: complete one core task twice. Condition: small scale, supervised by an experienced grower. Standard: written method, measured result, and second run is better."
+  },
+  "4": {
+   "title": "Follow food, land and workplace rules",
+   "intro": "Farm rules come from federal, provincial and local governments. Find which apply before you sell or hire.",
+   "pts": [
+    "Food safety: food that is sold across provinces or exported has federal rules; local sales follow provincial and public health rules. Check which apply to you.",
+    "Chemicals and fertilizer: rules on licences, storage and use differ by province. Check with the provincial agriculture office.",
+    "Workers: employment standards and workplace safety rules apply on farms; farm rules differ by province. Check the current rules.",
+    "Some products such as milk, eggs and poultry have quota or marketing board systems. Learn this before you plan to enter those sectors.",
+    "Ask what rule covers selling at a farm gate, a market and a shop, and write each answer with its date.",
+    "Check the provincial rule for hiring seasonal workers, including pay, hours and housing if it is offered.",
+    "Check the provincial rule on animal welfare, manure storage and water use, and note what must be reported."
+   ],
+   "ex": "Rules table row: 'Selling eggs at the farm gate | provincial agriculture office | check grading and registration rules | before the first sale | written reply kept'. If the office takes three weeks to reply and you plan to sell in week four, send the question on day one, not day twenty.",
+   "act": "Build a rules table for your product and province with the enforcer, the action and the date checked.",
+   "std": "Task: build a rules table. Condition: using official public pages or a call to the provincial office. Standard: no rule is guessed; each row has a dated source."
+  },
+  "5": {
+   "title": "Work out costs, price and profit",
+   "intro": "A farm that does not cover its costs closes. Count every cost, including your own time.",
+   "pts": [
+    "Variable costs: seed, feed, fuel, packing. Fixed costs: land payment or rent, insurance, equipment, loan interest.",
+    "Cost per unit = total cost divided by units produced.",
+    "Margin per unit = price minus cost per unit. Break-even = fixed cost divided by margin per unit.",
+    "Check programs that share risk, such as crop or income support. Check current terms with the agriculture office.",
+    "List the work hours a task needs and give your own time a fair hourly value in the cost.",
+    "Add the cost of waste: if 10 percent of the crop is lost, the other 90 percent must cover all costs.",
+    "Run a what-if: lower the price by 20 percent and lower the yield by 20 percent and see if the farm still covers costs."
+   ],
+   "ex": "A bed of carrots costs 300 CAD to grow and gives 600 kg. Cost is 300 / 600 = 0.50 CAD per kg. Sold at 2.00 per kg the margin is 1.50 per kg, so 600 kg earns 1,200 and leaves 900 after the 300 cost. If 20 percent is lost (480 kg sold), income is 960 and profit is 660. Teaching figures only.",
+   "act": "Build a cost sheet for one crop or animal group and compute break-even.",
+   "std": "Task: build a cost sheet. Condition: with real local input prices. Standard: units shown, formulas visible, three what-if cases such as a 20 percent lower yield."
+  },
+  "6": {
+   "title": "Run daily work and keep records",
+   "intro": "Farms succeed through steady habits and good records.",
+   "pts": [
+    "Make a weekly calendar of tasks and a daily checklist.",
+    "Keep records of inputs, treatments, harvest, sales and waste.",
+    "Plan storage and cold chain so food stays safe and fresh.",
+    "Review the numbers monthly: yield, cost, waste, cash.",
+    "Write a daily checklist for the first and last hour of work: gates, water, animals, tools, fuel.",
+    "Date every record and sign it, so another person can read what happened.",
+    "Check storage temperature and the age of stock each day and discard anything unsafe."
+   ],
+   "ex": "Weekly page: harvested 120 kg, sold 105 kg, waste 15 kg. Waste is 15 / 120 = 12.5 percent. If picking earlier and cooling faster cuts waste to 6 kg, the farm sells 114 kg, which is 9 kg more.",
+   "act": "Run a four-week log on a small plot or animal group and choose one improvement.",
+   "std": "Task: keep a four-week log. Condition: real small-scale production. Standard: weekly entries complete; the improvement is dated and its result noted."
+  },
+  "7": {
+   "title": "Sell your product and build buyers",
+   "intro": "Know who buys, how they find you and what they need.",
+   "pts": [
+    "Routes: farm gate, markets, box programs, restaurants and shops, and co-operatives.",
+    "Write a one-page offer: product, quality, quantity, price, delivery, how to order.",
+    "Label honestly; follow packaging and language rules for your product. Check the current rules.",
+    "Keep a list of buyers and a calendar for contacting them.",
+    "Set a price by adding up cost per unit and checking what nearby sellers charge for the same grade.",
+    "Take a sample or photo to every buyer meeting and ask for an order, not only an opinion.",
+    "Deliver on the day you promised; one late order can lose a regular buyer."
+   ],
+   "ex": "A farm offers a weekly box of eight vegetables at 30 CAD with pick-up on Saturday. With 25 boxes a week the income is 25 x 30 = 750 CAD a week. Over a 20-week season that is 750 x 20 = 15,000 CAD before costs.",
+   "act": "Contact fifteen possible buyers and get five replies. Record price, size and timing wanted.",
+   "std": "Task: run a buyer search. Condition: two weeks. Standard: contacts logged, replies recorded, one change made to the offer."
+  },
+  "8": {
+   "title": "Manage risk, run a season and plan growth",
+   "intro": "Weather, disease and price swings are certain. Plan for them and then run a whole season.",
+   "pts": [
+    "Risk register: weather, pests, disease, equipment failure, price drop, injury, theft, with controls and owners.",
+    "Keep insurance, backup water and power, and a cash buffer.",
+    "Respect land and water; protect soil and local wildlife; ask Indigenous neighbours and elders about local practices where invited.",
+    "Run a pilot season, write the review and a 12-month plan.",
+    "Rank each risk by how likely it is and how much it would cost, then plan for the top three first.",
+    "Write a plan for a bad week: who does the work if you are ill, and where the backup water and power are.",
+    "Check what crop, income or liability insurance is available and what it covers; check current terms."
+   ],
+   "ex": "Stop rule: 'If less than half the expected carrots can be sold by day 60, we change the buyer plan.' With 600 kg expected, half is 300 kg. If only 240 kg are sold by day 60, the rule is triggered and the plan changes.",
+   "act": "Write the risk register of eight rows, run the pilot, and present the review to a panel.",
+   "std": "Task: run a pilot season and review. Condition: real production with written measures. Standard: decisions follow the numbers; panel can repeat the plan."
+  }
+ },
+ "price": [
+  2.0,
+  0.5,
+  600,
+  "kg"
+ ],
+ "quiz": [
+  [
+   "What is yield?",
+   "The amount harvested per unit of land or per animal.",
+   5
+  ],
+  [
+   "How do you work out germination rate?",
+   "Seeds that sprouted divided by seeds planted.",
+   3
+  ],
+  [
+   "Why record dates, amounts and treatments?",
+   "To prove what you did, learn from it and meet rules.",
+   2
+  ],
+  [
+   "Who do you ask about chemical use rules?",
+   "The provincial agriculture office.",
+   4
+  ],
+  [
+   "What is cost per unit?",
+   "Total cost divided by the units produced.",
+   5
+  ],
+  [
+   "How is break-even found?",
+   "Fixed cost divided by margin per unit.",
+   5
+  ],
+  [
+   "Which farm products often use quota or marketing boards?",
+   "Milk, eggs and poultry; check local rules.",
+   4
+  ],
+  [
+   "Why keep a cold chain?",
+   "To keep food safe and fresh.",
+   6
+  ],
+  [
+   "Name three routes to sell farm products.",
+   "Farm gate, markets, box programs, restaurants, shops or co-operatives.",
+   7
+  ],
+  [
+   "What do you do when you do not know a rule?",
+   "Ask the official office and keep the answer in writing.",
+   4
+  ]
+ ],
+ "jobs": [
+  "Farm worker",
+  "Greenhouse grower",
+  "Farm technician",
+  "Market gardener",
+  "Farm manager",
+  "Farm owner"
+ ]
+}

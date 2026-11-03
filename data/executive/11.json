@@ -1,0 +1,253 @@
+{
+ "task": "Reason through a cross-border dilemma and design controls that make records and payments tamper-evident.",
+ "condition": "Given two conflicting laws, a report log, a payment batch and a small ledger. All money figures are in one currency of your choice.",
+ "standard": "Penalties and rates are correct, a toy check chain flags a change, duties are split and the escalation route matches the amount.",
+ "who": "Managers and board members who must keep one standard of control across borders.",
+ "modules": [
+  {
+   "title": "Levels of moral reasoning",
+   "bloom": "Understand: classify",
+   "hours": 9,
+   "intro": "People reason at different levels: what is safe for me, what the rules say, and what a fair principle requires. Good governance pushes decisions up to the third level.",
+   "points": [
+    "Level 1: avoid punishment or gain a reward",
+    "Level 2: follow the rule or the group",
+    "Level 3: apply a fair principle even when the rule is silent"
+   ],
+   "example": "A manager asks 20 staff why they would refuse a risky shortcut. 8 say 'I might be caught' (level 1), 9 say 'it is against policy' (level 2), 3 say 'it would harm others and is unfair' (level 3). The shares are 40%, 45% and 15%. The manager sees that 85% rely on being caught or on a rule. The training plan adds cases where no rule applies, so the 15% can grow to 30% in a year.",
+   "activity": "Collect or invent 12 answers to one dilemma, sort them into levels and give the shares.",
+   "standard": "Every answer is sorted, the shares add to 100% and one training change is named."
+  },
+  {
+   "title": "Conflicting laws across borders",
+   "bloom": "Analyse: resolve",
+   "hours": 10,
+   "intro": "A firm may face two laws that point in opposite directions. The manager must find the safest lawful path and record it.",
+   "points": [
+    "Map each law and its penalty",
+    "Look for a waiver or a lawful middle path",
+    "Escalate before acting, not after"
+   ],
+   "example": "Worked-example figures, in your currency. Suppose a home law demands a report of a data loss within 72 hours, with an example fine of 2% of revenue. Revenue is 50 million, so the fine is 1 million. A host law bars sending data abroad without a court order, which may take about 10 days, and carries an example fine of 100,000. The manager reports the fact of the loss, not the data itself, within 72 hours and applies for the court order in parallel. This meets both laws, and legal counsel signs off in writing.",
+   "activity": "Take two conflicting rules with fines and deadlines. Compute the cost of each breach and propose a lawful path.",
+   "standard": "Both fines are worked out, the path avoids breaching either law and a sign-off step is named."
+  },
+  {
+   "title": "Safe channels for raising concerns",
+   "bloom": "Apply: design",
+   "hours": 9,
+   "intro": "People will report wrongdoing only if they trust the channel. A good channel is private, quick and has no risk of revenge.",
+   "points": [
+    "More than one route, including outside the line manager",
+    "Promise and enforce no retaliation",
+    "Track speed and results"
+   ],
+   "example": "In a year the line receives 40 reports. 12 are found to be true, which is 30%. The firm aims to close each in 30 days and 6 of 40 took longer, which is 15%. 9 reports (22.5%) came in anonymously. When a staff survey shows only 55% believe they would be safe, the firm adds an outside hotline, with a goal of 75% in the next survey.",
+   "activity": "Using 50 reports, 15 found true and 5 late, calculate the true and late rates and set one target.",
+   "standard": "The rates are 30%, 10% and the target is a number tied to the weakest rate."
+  },
+  {
+   "title": "Records that cannot be changed quietly",
+   "bloom": "Apply: calculate",
+   "hours": 10,
+   "intro": "A tamper-proof record is one where any change shows up. A simple way is to link each entry to the one before it with a check value.",
+   "points": [
+    "Each entry carries a check value from the one before",
+    "A change breaks every later value",
+    "Store a copy in a separate place"
+   ],
+   "example": "Take a toy check value: previous check plus amount, then the remainder after dividing by 97. Entry 1 is 1,200: 1,200 mod 97 = 36. Entry 2 is 850: (36 + 850) = 886, and 886 mod 97 = 13. Entry 3 is 2,300: (13 + 2,300) = 2,313, and mod 97 = 82. Someone changes entry 2 to 950. Then 986 mod 97 = 16, and entry 3 becomes 2,316 mod 97 = 85, not 82, so the change is caught.",
+   "activity": "Make a chain of three entries with the same toy check value, alter the middle one and show which values change.",
+   "standard": "All values are calculated correctly and the first altered value and the later mismatch are named."
+  },
+  {
+   "title": "Separating duties",
+   "bloom": "Apply: assign",
+   "hours": 9,
+   "intro": "No one person should start, approve, pay and check the same thing. Splitting the steps makes fraud need two or more people to agree.",
+   "points": [
+    "Four steps: request, approve, pay, reconcile",
+    "One person must not hold two risky steps",
+    "Cover small teams by rotation or review"
+   ],
+   "example": "A team of 3 handles supplier payments. Call them P1, P2 and P3. P1 requests, P2 approves and pays, P3 reconciles. That fails, because P2 approves and pays. The fix is P1 requests, P2 approves, P3 pays and a manager outside the team reconciles. Now no one has both approve and pay.",
+   "activity": "Assign four payment steps to three people and one outside checker so no one holds approve and pay.",
+   "standard": "The grid is complete and no person holds approve and pay together."
+  },
+  {
+   "title": "Approval limits and dual control",
+   "bloom": "Apply: test",
+   "hours": 10,
+   "intro": "Dual control means a large payment needs two approvers. Limits stop one person from moving big sums alone.",
+   "points": [
+    "Set limits by amount",
+    "Watch for splitting to stay under the limit",
+    "Review exceptions each month"
+   ],
+   "example": "Worked-example figures, in your currency. The limit for one approver is 10,000. A batch holds seven payments: 8,500; 12,000; 9,900; 10,001; 25,000; 6,000; 5,500. Three need two approvers: 12,000; 10,001; 25,000. Two of the others, 6,000 and 5,500, are sent to one supplier on one day. The total is 11,500, above the limit, so the pair is flagged as a possible split and held for dual approval.",
+   "activity": "Apply a 5,000 limit to a batch of six payments, flag splits and list which need dual approval.",
+   "standard": "Each payment is placed correctly and any same-day same-supplier total above the limit is flagged."
+  },
+  {
+   "title": "Investigation and escalation",
+   "bloom": "Apply: carry out",
+   "hours": 9,
+   "intro": "When a concern is raised, the firm must secure evidence, keep the file fair and decide who is told.",
+   "points": [
+    "Secure records in 72 hours",
+    "Interview with a fixed list of questions",
+    "Escalate by amount and rank"
+   ],
+   "example": "Worked-example figures, in your currency. A clerk reports 4 invoices of 4,600 each from a supplier with no delivery record. The total is 4 x 4,600 = 18,400. The investigator copies the logs within 72 hours, checks delivery notes (none found) and matches the bank account to an employee's family record. As the amount is above the 15,000 threshold used in this example, it is escalated to the audit committee. The firm freezes payments to the supplier and starts recovery.",
+   "activity": "Using a loss of five invoices at 3,200, work out the total and decide the escalation level with a 10,000 threshold.",
+   "standard": "Total is 16,000, it is above the threshold and the escalation route and the evidence steps are stated."
+  },
+  {
+   "title": "Board oversight",
+   "bloom": "Evaluate: judge",
+   "hours": 9,
+   "intro": "The board must watch the system, not just the numbers. It needs independent members and a regular list of open risks.",
+   "points": [
+    "Majority independent audit group",
+    "Quarterly report of open items",
+    "Follow-up until closed"
+   ],
+   "example": "An audit group has 5 members and 3 are independent, which is 60%. The rule is a majority, so it passes. The group tracks 9 high-risk items and has closed 7, which is 78%. The 2 open items are 90 and 140 days old. The limit is 120 days, so one is overdue and the chair asks for a written plan within 14 days.",
+   "activity": "Check a board group of 7 with 3 independent members against a majority rule and a list of 10 items with 6 closed.",
+   "standard": "The group fails the majority rule at 43%, closure rate is 60% and one action is named."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "In a test, 6 of 15 answers say 'I might be caught'. What share is at level 1?",
+   "a": "40%.",
+   "module": 1
+  },
+  {
+   "q": "Home law fine is 3% of 20 million. What is the fine?",
+   "a": "600,000.",
+   "module": 2
+  },
+  {
+   "q": "A team receives 25 reports and 5 are true. What is the true share?",
+   "a": "20%.",
+   "module": 3
+  },
+  {
+   "q": "Check value is (previous + amount) mod 97. Previous is 50 and the amount is 80. What is the new value?",
+   "a": "130 mod 97 = 33.",
+   "module": 4
+  },
+  {
+   "q": "If an earlier entry in a chain is changed, what happens to later check values?",
+   "a": "They no longer match, so the change is caught.",
+   "module": 4
+  },
+  {
+   "q": "Who may not both approve and pay a supplier?",
+   "a": "The same person. Those two steps are held by different people.",
+   "module": 5
+  },
+  {
+   "q": "The limit is 8,000. Payments of 5,000 and 4,000 go to one supplier on one day. What is flagged?",
+   "a": "The pair, because 9,000 is above 8,000 and looks like a split.",
+   "module": 6
+  },
+  {
+   "q": "Three invoices of 5,200 are fake. What is the loss?",
+   "a": "15,600.",
+   "module": 7
+  },
+  {
+   "q": "A group of 5 has 2 independent members. Does it pass a majority-independent rule?",
+   "a": "No, it has 40%.",
+   "module": 8
+  },
+  {
+   "q": "Why apply for a court order and report the fact of a loss in parallel?",
+   "a": "It satisfies the home reporting deadline without breaching the host data rule.",
+   "module": 2
+  }
+ ],
+ "ladder": [
+  {
+   "title": "L1 Basic: Why governance must be tamper-proof",
+   "slide": "A slide shows a ledger and a change that nobody can trace.",
+   "notes": "Say: trust needs proof. Check: ask what harm a hidden change can do. Mistake: assuming honest staff make controls pointless."
+  },
+  {
+   "title": "L2 Basic: Levels of reasoning",
+   "slide": "Three steps show reward or fear, rule, and principle with example answers.",
+   "notes": "Say: aim for level 3 where rules are silent. Check: sort a sample answer. Mistake: judging the person, not the answer."
+  },
+  {
+   "title": "L3 Core: Two laws in conflict",
+   "slide": "Two laws with deadlines and fines sit side by side with a lawful middle path.",
+   "notes": "Say: map, then find a path. Check: work out both fines. Mistake: breaching the cheaper law on purpose."
+  },
+  {
+   "title": "L4 Core: Safe reporting",
+   "slide": "Rates of true, late and anonymous reports are shown in a small table.",
+   "notes": "Say: measure the channel. Check: calculate one rate. Mistake: counting reports but never following up."
+  },
+  {
+   "title": "L5 Applied: Check values",
+   "slide": "A three-entry chain is shown before and after a change.",
+   "notes": "Say: each entry depends on the last. Check: recompute entry 3. Mistake: keeping the only copy where staff can edit it."
+  },
+  {
+   "title": "L6 Applied: Duties and limits",
+   "slide": "A grid assigns four steps and a batch is tested against a limit.",
+   "notes": "Say: split steps and watch splits. Check: find the flagged pair. Mistake: giving two key steps to one person to save time."
+  },
+  {
+   "title": "L7 Advanced: Investigation and the board",
+   "slide": "An escalation flow ends at the board group, with closure rates and overdue items.",
+   "notes": "Say: evidence first, then escalate by size. Check: ask who must be told for 18,400. Mistake: letting the accused see the file."
+  }
+ ],
+ "rubric": [
+  {
+   "criterion": "Moral reasoning",
+   "not_yet": "Gives opinion with no levels.",
+   "meets": "Sorts answers into levels with correct shares.",
+   "exceeds": "Also plans training to move the shares."
+  },
+  {
+   "criterion": "Legal conflict",
+   "not_yet": "Picks one law and ignores the other.",
+   "meets": "Computes both penalties and finds a lawful path.",
+   "exceeds": "Also records sign-off and review dates."
+  },
+  {
+   "criterion": "Control working",
+   "not_yet": "Check values or limits are wrong.",
+   "meets": "Check values, limits and splits are all correct.",
+   "exceeds": "Also tests a second change and shows the earlier mismatch."
+  },
+  {
+   "criterion": "Governance design",
+   "not_yet": "Duties overlap or no board report.",
+   "meets": "Duties are split and a board report is set.",
+   "exceeds": "Also sets overdue limits and action dates."
+  }
+ ],
+ "jobs": [
+  {
+   "role": "Internal audit lead",
+   "what": "Tests controls and reports to the board."
+  },
+  {
+   "role": "Legal counsel for compliance",
+   "what": "Resolves conflicts between laws."
+  },
+  {
+   "role": "Risk and controls analyst",
+   "what": "Designs approval limits and duty splits."
+  },
+  {
+   "role": "Investigations officer",
+   "what": "Secures evidence and escalates findings."
+  }
+ ]
+}

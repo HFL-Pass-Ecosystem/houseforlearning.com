@@ -1,0 +1,46 @@
+{
+ "slides": [
+  {
+   "level": "L1 Basic",
+   "title": "Computer science as problem solving",
+   "slide": "L1 Basic · Computer science as problem solving",
+   "notes": "Name what makes a problem suitable for a computer, such as clear steps and repeated work. Notes: ask learners how they would find the tallest person in a room; they describe each step in words. No devices are needed, just a clear list."
+  },
+  {
+   "level": "L2 Awareness",
+   "title": "Algorithms and flowcharts",
+   "slide": "L2 Awareness · Algorithms and flowcharts",
+   "notes": "Describe an algorithm as a flowchart and trace it by hand. Notes: draw a flowchart that finds the larger of two numbers, then run it with 7 and 4 and with 5 and 5. Learners say what the chart does when numbers are equal. Work on paper first."
+  },
+  {
+   "level": "L3 Foundation",
+   "title": "Functions and control flow",
+   "slide": "L3 Foundation · Functions and control flow",
+   "notes": "Write a function with conditions and loops and test it with chosen inputs. Notes: write a factorial function; 5 factorial must give 120, and 0 factorial must give 1. Learners test one normal case, one edge case and one wrong input. Take screen breaks."
+  },
+  {
+   "level": "L4 Practitioner",
+   "title": "Data structures and binary search",
+   "slide": "L4 Practitioner · Data structures and binary search",
+   "notes": "Apply stacks, queues and sorted arrays to solve a task and predict the cost. Notes: a sorted list of 1,000 items needs at most 10 binary-search steps, since 2 to the 10 is 1,024. Learners trace a search for 37 in a list of 16 numbers and count the steps."
+  },
+  {
+   "level": "L5 Specialist",
+   "title": "Recursion and analysis",
+   "slide": "L5 Specialist · Recursion and analysis",
+   "notes": "Analyse a recursive function, count its calls and improve it with memoisation. Notes: a naive Fibonacci of 5 makes 15 calls. Learners draw the call tree, spot repeated work, add a cache and show the calls falling to 9. Test with small inputs before large ones."
+  },
+  {
+   "level": "L6 Advanced (degree level)",
+   "title": "Complexity and proofs",
+   "slide": "L6 Advanced · Complexity and proofs",
+   "notes": "Evaluate algorithms by growth rate and prove a simple correctness claim. Notes: for n of 1,000,000, n squared is 10 to the 12, but n log2 n is about 2 times 10 to the 7. Learners prove a loop invariant for insertion sort and state the best and worst cases."
+  },
+  {
+   "level": "L7 Super expert (postgraduate/expert)",
+   "title": "Lower bounds and research design",
+   "slide": "L7 Super expert · Lower bounds and research design",
+   "notes": "Evaluate limits of computation and design a rigorous experiment on algorithms. Notes: any comparison sort of 10 items needs at least the ceiling of log2 of 10 factorial, which is 22 comparisons. Learners plan benchmarks with controlled inputs, repeats, confidence intervals and a data-sharing statement."
+  }
+ ]
+}

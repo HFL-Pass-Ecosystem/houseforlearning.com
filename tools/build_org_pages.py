@@ -58,8 +58,12 @@ def cta(kicker, h2, p, btns):
 def btn(href, text, ghost=False):
     return f'<a class="btn{" btn-ghost" if ghost else ""}" href="{href}">{text}</a>'
 
+BANDS = json.load(open('data/photo-bands.json', encoding='utf-8'))  # photo band shown under the hero on a few pages
+
 def write(f, main, title=None, desc=None, crumb=None, noindex=False):
     s = read(f)
+    if f in BANDS:
+        main = main.replace('</section>', '</section>' + BANDS[f], 1)
     if noindex and 'name="robots"' not in s:
         s = s.replace('<meta name="viewport"', '<meta name="robots" content="noindex">\n<meta name="viewport"', 1)
     pager = re.search(r'<nav class="pager".*?</nav>', s, re.S)
@@ -77,6 +81,11 @@ def write(f, main, title=None, desc=None, crumb=None, noindex=False):
     if desc:
         s = re.sub(r'(<meta name="description" content=")[^"]*', lambda m: m.group(1) + E(desc), s)
         s = re.sub(r'(<meta property="og:description" content=")[^"]*', lambda m: m.group(1) + E(desc), s)
+    # keep the share tags in step with the page's own title, description and address
+    t_ = re.search(r'<title>(.*?)</title>', s, re.S); d_ = re.search(r'<meta name="description" content="([^"]*)"', s); c_ = re.search(r'<link rel="canonical" href="([^"]*)"', s)
+    if t_: s = re.sub(r'(<meta property="og:title" content=")[^"]*', lambda m: m.group(1) + t_.group(1), s)
+    if d_: s = re.sub(r'(<meta property="og:description" content=")[^"]*', lambda m: m.group(1) + d_.group(1), s)
+    if c_: s = re.sub(r'(<meta property="og:url" content=")[^"]*', lambda m: m.group(1) + c_.group(1), s)
     open(SITE + f, 'w', encoding='utf-8').write(s)
 
 CONTACT = 'contact.html#message-form'
@@ -105,7 +114,7 @@ def organisations():
         + '<p class="o-note">In return we ask employers to protect study time, to supervise practical work safely, and to respect each learner’s privacy choices.</p>',
         sid='employers')
     m += band('partner programme', 'Four tiers, checked every quarter',
-              '<p>Partners join at one of four levels, from partner and affiliate to value provider, in a hub-and-spoke network. Each level has a memorandum checklist, and every partner is reviewed once a quarter.</p>'
+              '<p>Partners join at one of four levels, such as partner, affiliate or value provider, in a network with a central team and partners around it. Each level has a memorandum checklist, and every partner is reviewed once a quarter.</p>'
               '<div class="o-links">' + btn('partner.html', 'Partner with us') + btn('how-we-help.html', 'How we help', True) + '</div>')
     m += split('tenders and proposals', 'Training tenders and requests for proposal',
                '<p>Organisations can invite us to bid for training, learning platforms or campus programmes. Send your tender pack through the contact form.</p>'
@@ -155,7 +164,7 @@ def workplace():
         'A partner, affiliate and value-provider network in four levels',
         'Artificial intelligence, machine learning, big data and analytics']), alt=True)
     m += cta('your next step', 'Pilot the workplace with us', 'Tell us about your team and the work you need done.', btn('contact.html', 'Contact us'))
-    write('workplace.html', m)
+    write('workplace.html', m, title='The Workplace (Planned) | House for Learning')
 
 # ---------------------------------------------------------------- academies
 def academies():
@@ -175,11 +184,11 @@ def academies():
                    ('Postgraduate', '12 or 24 months'), ('Doctorate', '36 to 60 months')]) + '</ul>'
                '<p class="o-note">Lifelong learning has no end and stacks into all of these. Small credentials add up to larger ones.</p>', alt=True)
     m += band('train the trainer', 'Diagnose, develop, certify, sustain',
-              '<p>A standard teaching method for measurable efficiency, safety and performance. A facilitator starts with a baseline of technical and teaching skill, builds pedagogy and scenario facilitation, is assessed against objective rubrics, and is re-checked through feedback and requalification.</p>'
-              + rows([('101 Instructional excellence', 'Adult learning, cognitive load, simulator and scenario instruction, and blameless debriefs.'),
-                      ('102 Technical evaluation', 'Rubric design, digital-twin assessments, safety-critical task analysis and performance data.'),
-                      ('103 Human factors', 'Ergonomics, human factors and safety.')])
-              + '<p>Lectures are capped at twenty percent of teaching time; at least eighty percent is hands-on practice and scenarios.</p>')
+              '<p>A standard teaching method for measurable efficiency, safety and performance. A facilitator starts with a baseline of technical and teaching skill, builds pedagogy and scenario facilitation, is assessed against objective marking guides, and is re-checked through feedback and requalification.</p>'
+              + rows([('101 Instructional excellence', 'Adult learning, how much people can take in at once, simulator and scenario instruction, and debriefs that look for causes, not blame.'),
+                      ('102 Technical evaluation', 'Marking-guide design, assessments using digital models, analysis of safety-critical tasks, and performance data.'),
+                      ('103 Human factors', 'How people, equipment and workplaces fit together, and how to keep work safe.')])
+              + '<p>Lectures are capped at twenty percent of teaching time; the rest is hands-on practice, scenarios and mentoring.</p>')
     m += split('honest status', 'Planned, not yet open',
                '<p>No dates, fees or qualifications are promised on this page. An academy opens only after its content, supervisors and assessments are approved.</p>')
     m += cta('your next step', 'Tell us what you need', 'Describe the roles and skills, and we will say honestly what we can offer and when.', btn(CONTACT, 'Contact form'))
@@ -190,14 +199,14 @@ SECTORS = [
  ('sector-education', 'Education and development', 'Schools, learning places and programmes for people of every ability.'),
  ('sector-sustainability', 'Sustainability', 'Safe, smart, secure and sustainable technology for small economies and villages.'),
  ('sector-space', 'Outer space projects', 'Holding and managing ventures that work in and around space.'),
- ('sector-commercial', 'Commercial enterprises and management', 'Trade, transport, contracting and finance businesses, held and managed together.'),
+ ('sector-commercial', 'Commercial enterprises and management', 'Trade, transport, contracting and finance businesses.'),
  ('sector-agriculture', 'Agricultural enterprises and management', 'Farming, fisheries, land and markets for crops.'),
  ('sector-sport', 'Sport enterprises and development', 'Sports grounds, facilities and projects.'),
  ('sector-health-tech', 'Technology for life sciences and healthcare', 'Health, environment, digital and artificial intelligence ventures.'),
  ('sector-msme', 'Micro, small and medium enterprises', 'Keeping small businesses agile, profitable and skilled.'),
  ('sector-energy-ict', 'Technology for energy, communications and connected devices', 'Information, communication, energy and connected-device ventures.'),
  ('sector-industry', 'Industrial enterprises and management', 'Industry, extraction and converting businesses.'),
- ('sector-energy-fuels', 'Oil and natural gas projects', 'Oil and gas projects, held and managed together.'),
+ ('sector-energy-fuels', 'Oil and natural gas projects', 'Oil and gas projects.'),
  ('sector-water', 'Water enterprises and development', 'Water infrastructure and projects.'),
 ]
 # course ids (from data/catalogue.json) that relate to each sector, matched by title keyword
@@ -216,7 +225,7 @@ KEYS = {
  'sector-water': ['water'],
 }
 SERVICE_LINKS = {
- 'sector-education': [('service-edtech.html', 'EdTech'), ('service-life-long-learning.html', 'Life Long Learning')],
+ 'sector-education': [('service-edtech.html', 'EdTech'), ('service-life-long-learning.html', 'Lifelong learning')],
  'sector-msme': [('service-msmetech.html', 'MSMETech'), ('service-smetech.html', 'SMETech')],
  'sector-energy-ict': [('service-emtech.html', 'EmTech')],
  'sector-health-tech': [('service-emtech.html', 'EmTech')],
@@ -260,7 +269,7 @@ def sectors():
              btn('join.html', 'Join') + btn('partner.html', 'Partner with us', True))
     m += split('the twelve', 'Pick a sector', flips(SECTORS)
                + '<ul class="o-mini" style="margin-top:26px">' + ''.join(f'<li><a href="{f}.html">{t}</a></li>' for f, t, p in SECTORS) + '</ul>',
-               lead='Twelve sectors, one learning platform.', full=True)
+               lead='Pick a sector to see what it covers and how learning fits in.', full=True)
     m += cta('not sure where you fit?', 'Tell us what you do', 'We will point you to the right pathway.',
              btn('join.html', 'Join') + btn('partner.html', 'Partner with us', True) + btn('contact.html', 'Contact', True))
     write('sectors.html', m)
@@ -283,14 +292,14 @@ def sectors():
         if rel:
             m += split('learn in this sector', 'Related courses',
                        '<ul class="o-mini">' + ''.join(f'<li><a href="{h}">{E(t)}</a></li>' for h, t in rel) + '</ul>'
-                       '<p class="o-note">Course outlines are drafts and are not yet open for enrolment.</p>', alt=True)
+                       '<p class="o-note">Course outlines are planned and are not yet open for enrolment.</p>', alt=True)
         fo = SECTOR_FOCUS.get(f, {})
         fb = ''
         if fo.get('focus'):
             fb += f'<p class="o-lead">{E(fo["focus"])}</p>'
         if fo.get('goals'):
-            fb += f'<p>This touches UN Sustainable Development Goals {fo["goals"]}.</p>'
-        fb += ('<p>Every sector has its own learning workstream. Each one joins chartered certification, continuing professional development, authoring, training, learning, accreditation, deployment, earning, blended learning and small-business development.</p>'
+            fb += f'<p>This touches sustainable development {"goals" if " " in fo["goals"] else "goal"} {fo["goals"]}.</p>'
+        fb += ('<p>Every sector has its own learning workstream. Each one joins professional certification, continuing professional development, authoring, training, learning, accreditation, deployment, earning, blended learning and small-business development.</p>'
                '<p>A learner’s journey runs from free awareness content to practitioner credentials, in line with national and global skills and sustainability aims.</p>')
         m += split('how learning works here', 'Learning in this sector', fb)
         svc = SERVICE_LINKS.get(f)
@@ -307,7 +316,7 @@ SERVICES = [
  ('service-edtech', 'EdTech', 'Empowering individuals and institutions to learn it to earn it, in school and after school, live or at your own pace.', ''),
  ('service-emtech', 'EmTech', 'Basic to advanced skills: AI, machine learning, connected devices and big-data analytics, with themes of healthcare, climate and sustainability.', ''),
  ('service-msmetech', 'MSMETech', 'Sustainable upskilling and reskilling in micro, small and medium businesses: core skills, trending-skill certification and employability programmes.', ''),
- ('service-life-long-learning', 'Life Long Learning', 'Enhance yourself through digitisation, with photography, film, music, performing and visual arts, multimedia, interior and fashion design.', ''),
+ ('service-life-long-learning', 'Lifelong learning', 'Enhance yourself through digitisation, with photography, film, music, performing and visual arts, multimedia, interior and fashion design.', ''),
 ]
 
 def services():
@@ -315,6 +324,11 @@ def services():
              btn(CONTACT, 'Ask a question'))
     m += split('our services', 'Pick a service', grid([(t, p, f + '.html') for f, t, p, _ in SERVICES]),
                lead='Learn and earn: bloom where you are planted.', full=True)
+    m += ('<section class="sec alt" id="what-we-offer" aria-labelledby="wwo-h"><div class="wrap o-split"><div class="o-head"><p class="kicker">what we offer</p>'
+          '<h2 id="wwo-h">Training, software and learning supplies</h2></div><div class="o-body"><p class="o-lead">Training for organisations and individuals, and the tools to learn with.</p>'
+          '<ul class="o-mini"><li>Business and administrative training</li><li>Software training</li><li>Other training, including live and face-to-face</li><li>E-learning software</li>'
+          '<li>Online courses and learning materials, sold online</li><li>Laboratory kits and equipment for schools and universities</li><li>Classroom computers</li></ul>'
+          '<p class="o-note">Some items are planned and are not yet open to order. Ask us through <a href="contact.html">Contact</a>.</p></div></div></section>')
     m += cta('your next step', 'Not sure which one?', 'Tell us your goal and we will suggest a service.', btn(CONTACT, 'Contact form') + btn('partner.html', 'Partner with us', True))
     write('services.html', m)
 
@@ -325,8 +339,9 @@ def partner():
     m += band('partner programme', 'Four levels, one network',
               '<p>Partners, affiliates and value providers work together in a hub-and-spoke network in four levels. Each level has a memorandum checklist and a quarterly review.</p>'
               '<div class="o-links">' + btn('organisations.html', 'For organisations') + btn('how-we-help.html', 'How we help', True) + '</div>')
+    m += open('data/partner-sections.html', encoding='utf-8').read().rstrip('\n')  # how-partners steps + partner enquiry form
     m += split('contact us', 'Feel free to contact us about any queries',
-               '<p>Use the contact form, or write to <a href="mailto:engage@hfl-pass.com">engage@hfl-pass.com</a>.</p><div class="o-links">' + btn('contact.html', 'Contact us') + '</div>', alt=True)
+               '<p>Use the contact form.</p><div class="o-links">' + btn('contact.html', 'Contact us') + '</div>', alt=True)
     write('partner.html', m)
 
 def how_we_help():
@@ -334,11 +349,11 @@ def how_we_help():
              btn('about.html', 'About us') + btn('contact.html', 'Contact us', True))
     m += split('our promise', 'Skills, learning and market reach',
                '<p>We help people and institutions across the world improve their skills, their learning and their reach into the market, using our digital enterprise platform, emerging technology and deep domain knowledge.</p>'
-               '<p>Our approach is open: it works with many systems, software and hardware, and many ways of doing business. It is aligned with data-protection law, the UN Sustainable Development Goals, OECD guidance, and each country and community’s own rules.</p>',
+               '<p>Our approach is open: it works with many systems, software and hardware, and many ways of doing business. It is aligned with data-protection law, sustainable development goals, international guidance, and each country and community’s own rules.</p>',
                lead='Learn and earn: bloom where you are planted. Course and career pathways: your growth is our goal.')
     m += split('think digital', 'How our digital helpers work', rows([
         ('Reading', 'Understands what a text means.'),
-        ('Understanding', 'Takes whole steps such as decisions and actions.'),
+        ('Understanding', 'Carries out whole steps, such as making decisions and acting on them.'),
         ('Writing', 'Turns the system data into plain human language to reply.'),
         ('Make and check', 'The system makes the output; you check and approve it, or send it round again to improve it.'),
         ('Ask me anything coach', 'Takes your questions and uses the libraries and public information you use most, so you get the best set of answers.')]),
@@ -352,8 +367,8 @@ def how_we_help():
         'Connected-device services and people',
         'Information and communication technology services and people',
         'A full business stack (planning, customers, reporting, office tools) with no-code tools, built on our own interfaces and apps',
-        'An open-standards ecosystem of course and career pathways, joined to a marketplace and a workplace',
-        'Consultancy, channel, business-operations, support and full-service ecosystem',
+        'An open-standards network of course and career pathways, joined to a marketplace and a workplace',
+        'Consultancy, channel, business-operations, support and full-service network',
         'A partner, affiliate and value-provider network in four levels, hub and spoke',
         'Artificial intelligence and machine learning; big data and analytics']), alt=True)
     m += split('career pathways', 'Authoring, training, marketplace and workplace',

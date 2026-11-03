@@ -1,0 +1,46 @@
+{
+ "slides": [
+  {
+   "level": "L1 Basic",
+   "title": "My place and my map",
+   "slide": "L1 Basic · My place and my map",
+   "notes": "Name your home, street and one nearby place and point to them on a simple picture map. Notes: draw the route from the classroom to the gate with four landmarks; learners walk it and say left or right at each turn."
+  },
+  {
+   "level": "L2 Awareness",
+   "title": "Map keys and weather",
+   "slide": "L2 Awareness · Map keys and weather",
+   "notes": "Read a simple map key and describe daily weather in four words. Notes: use a map with symbols for road, river and school; learners find all three, then record sun, cloud, rain or wind for five days and count how many days were dry."
+  },
+  {
+   "level": "L3 Foundation",
+   "title": "Continents, oceans and climate",
+   "slide": "L3 Foundation · Continents, oceans and climate",
+   "notes": "Locate the seven continents and five oceans and describe one climate zone. Notes: label a blank world outline from memory, then compare a hot wet place with a cold dry one by temperature, rainfall and plants, and say how people dress and build differently."
+  },
+  {
+   "level": "L4 Practitioner",
+   "title": "Rivers and population density",
+   "slide": "L4 Practitioner · Rivers and population density",
+   "notes": "Explain how rivers shape land and calculate population density. Notes: density = people divided by area; 12,000 people on 40 square km gives 300 per square km. Learners compare an area with 18,000 people on 90 square km (200 per square km) and say which feels more crowded."
+  },
+  {
+   "level": "L5 Specialist",
+   "title": "Fieldwork and grid references",
+   "slide": "L5 Specialist · Fieldwork and grid references",
+   "notes": "Plan a small field investigation, present results in a graph and give a six-figure grid reference. Notes: measure a stream width at five points: 2.1, 2.8, 3.4, 3.9 and 4.6 m, mean 3.36 m. Learners write a hypothesis and name one source of error."
+  },
+  {
+   "level": "L6 Advanced (degree level)",
+   "title": "GIS and spatial analysis",
+   "slide": "L6 Advanced · GIS and spatial analysis",
+   "notes": "Analyse spatial data with GIS and evaluate theories of urban and environmental change. Notes: a city grows from 1.20 to 1.47 million in ten years, a rise of 22.5 per cent or about 2.05 per cent a year compounded. Learners check the data source, date and boundary used."
+  },
+  {
+   "level": "L7 Super expert (postgraduate/expert)",
+   "title": "Design a geographic study",
+   "slide": "L7 Super expert · Design a geographic study",
+   "notes": "Design and defend a research project on a geographic question, with sampling, spatial statistics and uncertainty. Notes: a survey estimating a proportion within 5 points at 95 per cent confidence needs about 385 responses (1.96 squared x 0.25 / 0.05 squared). Learners test for spatial autocorrelation and report limits."
+  }
+ ]
+}

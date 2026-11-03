@@ -1,0 +1,197 @@
+{
+ "price": [
+  200,
+  75,
+  120,
+  "supplier"
+ ],
+ "mods": {
+  "1": {
+   "title": "Find the traceability problem worth solving",
+   "intro": "Food traceability means knowing where every ingredient came from and where it went. A shared record can speed recalls and prove claims such as organic or local.",
+   "pts": [
+    "List what goes wrong today: slow recalls, paper records, disputed origin claims, waste from over-recalling.",
+    "Map one product chain from farm to plate: grower, packer, distributor, restaurant. Mark who writes records and who reads them.",
+    "A shared ledger helps only when several parties must trust one record and no single party should control it. If one firm controls the chain, a normal database is simpler and cheaper.",
+    "Write the question for a buyer: which problem costs you most each year, and what would you pay to cut it?",
+    "Interview one person at each step of the chain and write down, in their words, what record they keep today and how long it takes to find one lot.",
+    "Count the cost of one past incident: lots recalled, product thrown out, sales lost and staff hours. Use the buyer's own figures, not guesses.",
+    "Rank three candidate problems by yearly cost and by how few parties must change habits; choose the one with high cost and low change."
+   ],
+   "ex": "A restaurant group recalled all romaine for 5 days because origin was unclear, losing about 18,000 in sales. If batch records had narrowed the recall to 2 of 10 lots, only 20% of stock would be pulled, so the loss would be about 18,000 x 0.20 = 3,600, a saving of 14,400. Teaching figures in CAD.",
+   "act": "Map one real chain and decide, with reasons, whether a shared ledger beats a normal database.",
+   "std": "Name who writes, who reads and who pays in the decision."
+  },
+  "2": {
+   "title": "Know food, data and finance rules",
+   "intro": "Food rules, privacy rules and software rules all apply to a shared traceability record.",
+   "pts": [
+    "Many food rules expect traceability one step back and one step forward; check the current federal and provincial rule for your products.",
+    "Labels and claims such as organic, local or fair-trade need certification and proof.",
+    "Privacy law applies to any personal data on staff or customers stored in records; do not place personal data on a ledger that cannot be erased.",
+    "If a token or coin is involved, securities and money-services rules may apply; get advice before you issue anything.",
+    "List every document a regulator or certifier may ask to see and how long you must keep each one; check the federal and provincial rule for the time.",
+    "Write a short data-sharing agreement for pilot suppliers that says who can see which fields and what happens to the data when a supplier leaves.",
+    "Ask the provincial food inspection office which records they accept in digital form, and file their written answer in your rules table."
+   ],
+   "ex": "Row: 'Claim organic on a menu | federal labelling rules and certifier | show certificate and lot link | before printing | certificate copy filed'. Row: 'Store supplier contact names on the record | privacy law | keep business contacts only | at sign-up | consent form on file'. A pilot with 6 restaurants and 4 shared suppliers has 6 + 4 = 10 parties, so the data agreement needs 10 signatures.",
+   "act": "Build a rules table for a six-restaurant pilot.",
+   "std": "Check that no row is guessed and date the sources."
+  },
+  "3": {
+   "title": "Design the record and the data capture",
+   "intro": "Good traceability starts with simple capture at each hand-over.",
+   "pts": [
+    "Define the minimum record: lot code, product, quantity, date, from, to, temperature if cold chain.",
+    "Use barcodes or QR codes on cases; test that a phone camera reads them on a wet, cold case.",
+    "Decide the ledger design: who runs the nodes, who can write, how errors are corrected (a new entry, not an edit).",
+    "Keep personal data off the shared record; store only business data.",
+    "Time a real hand-over: count the seconds to scan a case, enter a quantity and confirm. If it takes over 30 seconds, remove a field.",
+    "Build a test set of 20 entries that includes 5 deliberate mistakes (wrong quantity, missing lot, duplicate scan) and check that your process catches each one.",
+    "Write a trace query in plain words first ('where did lot R-0612-A go?'), then build it, and check that it also answers the forward question ('which kitchens received it?')."
+   ],
+   "ex": "Lot 'R-0612-A' moves farm to packer to distributor to kitchen: four entries, each with time and quantity. A trace query returns the full path in under 10 seconds. If one scan takes 12 seconds, the lot costs 4 x 12 = 48 seconds of staff time in all.",
+   "act": "Build a spreadsheet prototype for one chain with at least 20 entries and run two trace queries.",
+   "std": "Check that both queries return the full path and fix errors by adding new entries."
+  },
+  "4": {
+   "title": "Price the service and prove the saving",
+   "intro": "Customers pay when savings beat the fee.",
+   "pts": [
+    "Set the price per supplier per month (or per site), plus a one-time set-up charge.",
+    "Compute the customer benefit: recall cost avoided, labour saved on paperwork and any premium for proven origin.",
+    "Compute your own cost: cloud hosting, support, scanners and onboarding time.",
+    "Break-even = fixed cost divided by monthly margin per supplier.",
+    "Interview two buyers to learn what they pay now for paper filing, audits and recalls; use their numbers as the ceiling for your price.",
+    "Offer a starter price for small suppliers and a higher price for large ones, and compute the margin of each tier separately.",
+    "Run a worst case: if only half the planned suppliers sign, show how large the monthly loss is and how many months your cash lasts."
+   ],
+   "ex": "Price 2,400 a year (200 a month); variable cost 900 a year (75 a month); margin 125 a month per supplier. Fixed cost 9,000 a month needs 9,000 / 125 = 72 suppliers to break even; if only 36 sign, margin is 36 x 125 = 4,500 and the loss is 4,500 a month. A supplier that saves 4 hours of paperwork a week at 25 an hour saves 4 x 25 x 52 = 5,200 a year, well above the 2,400 fee. Teaching figures in CAD.",
+   "act": "Build the cost sheet and a customer saving case.",
+   "std": "Show units and use customer data in the saving case."
+  },
+  "5": {
+   "title": "Onboard suppliers and keep data clean",
+   "intro": "The network only works if small suppliers can join easily.",
+   "pts": [
+    "Offer phone-first capture with a paper fallback and later entry.",
+    "Train in under one hour; provide a one-page guide in English and French.",
+    "Audit sample entries monthly against physical stock.",
+    "Set a rule for late or missing entries and apply it kindly.",
+    "Visit one supplier on site and watch a hand-over; note where gloves, wet hands, poor signal or language make capture hard.",
+    "Make a help sheet of the five most common mistakes, with a photo of each and the fix.",
+    "Track the time from hand-over to entry; set a target (for example within 4 hours) and report it weekly."
+   ],
+   "ex": "Pilot week 1: 62% of cases scanned; week 4: 91% after a quick guide and a helpline. With 400 cases a week, week 1 scanned 400 x 0.62 = 248 and week 4 scanned 400 x 0.91 = 364, so 116 more cases a week could be traced.",
+   "act": "Run a 4-week capture test with three suppliers or a simulation.",
+   "std": "Track the scan rate weekly."
+  },
+  "6": {
+   "title": "Sell to buyers and partners",
+   "intro": "Start where the pain is highest.",
+   "pts": [
+    "Approach restaurant groups, grocers, distributors and certifiers.",
+    "Offer a 90-day pilot with a written success measure.",
+    "Show a live trace demo in under two minutes.",
+    "Track the funnel: demos, pilots and paid customers.",
+    "Prepare a one-page pilot offer: length, price, success measure, who does what, and how either side can stop.",
+    "Prepare answers to three common objections (cost, extra work, data ownership) with a figure or example for each.",
+    "Ask each buyer who else signs off; map the decision makers in operations, quality and finance, and speak to all three."
+   ],
+   "ex": "Funnel: 30 demos, 8 pilots, 4 paid. Demo-to-pilot is 8 / 30 = 27%; pilot-to-paid is 4 / 8 = 50%; demo-to-paid is 4 / 30 = 13%.",
+   "act": "Deliver a demo to five buyers.",
+   "std": "Record the funnel."
+  },
+  "7": {
+   "title": "Manage trust, security and misuse risk",
+   "intro": "A record is only as true as what goes in.",
+   "pts": [
+    "Garbage in, garbage out: a ledger proves an entry was made, not that it is true; add checks such as sensors and audits.",
+    "Secure keys and access, and review accounts monthly.",
+    "Plan for supplier exit, including how data is returned.",
+    "Avoid hype: do not claim the ledger makes food safe.",
+    "List the ways an entry can be false (typo, fraud, scanner on the wrong case) and pick one check for each.",
+    "Run a recovery drill: a supplier loses a phone with the app; show that access is removed in under one hour and past entries stay intact.",
+    "Write the public wording of what the system proves and does not prove, and ask a buyer to read it back to you."
+   ],
+   "ex": "Risk: 'False origin entry | 3 x 5 | spot audits and sensor data | quality lead | monthly'. Likelihood 3 x impact 5 = 15 of 25, so it ranks near the top. If a spot audit of 10 lots finds 1 mismatch, the error rate is 1 / 10 = 10%, above a 5% limit, so widen the audit to 20 lots and find the cause.",
+   "act": "Write an eight-row risk register.",
+   "std": "Give each row an owner and review date."
+  },
+  "8": {
+   "title": "Pilot, review and scale",
+   "intro": "Prove it on one chain.",
+   "pts": [
+    "Pilot for 90 days on one product with five suppliers.",
+    "Measure trace time, scan rate and recall scope.",
+    "Set a stop rule: if trace time is over 1 minute after 60 days, redesign.",
+    "Plan the next chain only after the review.",
+    "Agree the success numbers with the buyer before the pilot starts and write them down: trace time, scan rate and recall scope.",
+    "Hold a review every two weeks with all five suppliers; log each problem with an owner and a date.",
+    "On day 90, write a one-page decision (scale, change or stop) with the figures behind it."
+   ],
+   "ex": "Result: trace time 8 seconds; scan rate 91%; proceed. Recall scope fell from 10 of 10 lots to 2 of 10, so 100% - 20% = 80% less product is pulled. All three measures beat the example targets (under 60 seconds, over 85%, under 50%).",
+   "act": "Run the pilot and present review.",
+   "std": "Review has measures and decision."
+  }
+ },
+ "quiz": [
+  [
+   "When does a shared ledger beat a normal database?",
+   "When several parties must trust one record and none should control it.",
+   1
+  ],
+  [
+   "What is the minimum trace record?",
+   "Lot code, product, quantity, date, from, to.",
+   3
+  ],
+  [
+   "How are ledger errors corrected?",
+   "With a new entry, not an edit.",
+   3
+  ],
+  [
+   "Why keep personal data off the ledger?",
+   "It cannot easily be erased, and privacy law may apply; check the rule.",
+   2
+  ],
+  [
+   "Does a ledger prove food is safe?",
+   "No. It proves an entry was made, not that it is true.",
+   7
+  ],
+  [
+   "Name one check on entry truth.",
+   "Sensor data or spot audits.",
+   7
+  ],
+  [
+   "What is break-even?",
+   "Fixed cost divided by margin per supplier.",
+   4
+  ],
+  [
+   "Why offer a paper fallback?",
+   "Small suppliers with weak signal or no smartphone can still join and enter records later.",
+   5
+  ],
+  [
+   "What does the pilot measure?",
+   "Trace time, scan rate and recall scope.",
+   8
+  ],
+  [
+   "Why get advice before issuing a token?",
+   "Securities and money rules may apply.",
+   2
+  ]
+ ],
+ "jobs": [
+  "Traceability analyst",
+  "Food safety coordinator",
+  "Supply chain data clerk",
+  "Blockchain project coordinator",
+  "Food technology founder"
+ ]
+}

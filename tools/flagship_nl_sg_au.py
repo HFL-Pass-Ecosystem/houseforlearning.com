@@ -1,0 +1,85 @@
+#!/usr/bin/env python3
+"""Flagship-depth courses for Netherlands (10), Singapore (10), Australia (7).
+Own wording. No brand, institution, teacher or person names; no fees. Output: site/learn-flagship-<id>.html (new files only).
+Course content lives in flagship_data_nl.py, flagship_data_sg.py, flagship_data_au.py."""
+import sys, pathlib, html
+sys.path.insert(0, str(pathlib.Path(__file__).parent))
+import build_full_courses as B
+e = html.escape
+
+RUBRIC = [("Evidence quality", "Claims without records", "Records for most claims", "Every claim linked to a dated record"),
+          ("Numbers and units", "Missing units or currency", "Correct, units shown", "Correct, with a check calculation"),
+          ("Rules and safety", "Rules ignored", "Rules named and followed", "Rules checked with the local authority, note kept"),
+          ("User focus", "No real user", "One real user", "Several users, changes made from feedback"),
+          ("Reflection", "No lessons written", "Three lessons written", "Lessons turned into a changed plan with dates")]
+LADDER = [(1, "L1 Basic", "First contact: words, tools and safety. Short units, about 2 to 6 hours, no record needed."),
+          (2, "L2 Awareness", "Explain what the field is and who it serves. Shared with schools and community groups."),
+          (3, "L3 Foundation", "Do guided tasks with a checklist. Evidence is a small set of records."),
+          (4, "L4 Practitioner", "Run the full task alone with a mentor. This course sits here."),
+          (5, "L5 Specialist", "Take one narrow area to depth and teach a peer circle."),
+          (6, "L6 Advanced", "Lead a team, design a service or a study, and review other people's evidence."),
+          (7, "L7 Super expert", "Set the standard: write the method, audit others, publish worked examples back to learners.")]
+
+def M(t, bl, h, intro, pts, ex, act, std, q, a):
+    return dict(t=t, bl=bl, h=h, intro=intro, pts=pts.split('|'), ex=ex, act=act, std=std, q=q, a=a)
+
+def deepen(m):
+    # Expand one-word activity/standard stubs into full sentences from the module's own points.
+    p0 = m['pts'][0].rstrip('.')
+    pl = [x.rstrip('.') for x in m['pts']]
+    if len(m['act']) < 45:
+        m['act'] = (m['act'].rstrip('.') + '. ' if len(m['act']) > 12 else '') + f'Apply this module to your own project. Work through each point in order ({"; ".join(pl)}), and keep one dated record per point (photo, table or short note). Share it with a peer and ask for one improvement.'
+    if len(m['std']) < 45:
+        m['std'] = (m['std'].rstrip('.') + '. ' if len(m['std']) > 12 else '') + f'Meets the standard when your record shows: {p0[0].lower() + p0[1:]}; every number has its currency or unit; a peer has read it and a mentor can follow your reasoning.'
+    return m
+
+def build(c, region):
+    c['mods'] = [deepen(m) for m in c['mods']]
+    mods, quiz = c['mods'], []
+    total = sum(m['h'] for m in mods)
+    mh = ''
+    for i, m in enumerate(mods, 1):
+        mh += (f'<details class="mod" {"open" if i==1 else ""}><summary><span class="mn">Module {i}</span> {e(m["t"])} <span class="pill">{m["h"]} h</span><span class="pill bz">{m["bl"]}</span></summary><p>{e(m["intro"])}</p><ul>'
+               + ''.join(f'<li>{e(p)}</li>' for p in m['pts']) + '</ul>'
+               f'<div class="evi"><strong>Worked example.</strong> {e(m["ex"])}</div><p><strong>Activity.</strong> {e(m["act"])}</p><p><strong>Standard to meet.</strong> {e(m["std"])}</p></details>')
+        quiz.append((m['q'], m['a'].rstrip() + f' (Covered in module {i}: {m["t"]}. To pass that module: {m["std"].rstrip().rstrip(".")}.)'))
+    quiz += [("What is the task of this course, in one sentence?", c['task'] + ' (Covered in: Task, condition and standard, near the top of this page.)'),
+             ("What standard must your final evidence meet?", c['std'] + ' (Covered in: Task, condition and standard, near the top of this page.)')]
+    qh = ''.join(f'<details class="mod"><summary>Q{i+1}. {e(q)}</summary><p><strong>Model answer:</strong> {e(a)}</p></details>' for i, (q, a) in enumerate(quiz))
+    rub = ('<div class="scroll-x"><table class="ws-table"><caption>Marking rubric</caption><thead><tr><th>Criterion</th><th>Not yet</th><th>Meets</th><th>Exceeds</th></tr></thead><tbody>'
+           + ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(x)}</td><td>{e(d)}</td></tr>' for a, b, x, d in RUBRIC) + '</tbody></table></div>')
+    about = B.sec('', 'ab', 'about this course', 'What you will be able to do',
+        f'<div class="cb-facts"><span class="pill lv">L4 Practitioner</span><span class="pill">8 modules · {total} h guided</span><span class="pill">Practice 70% · Share 20% · Study 10%</span></div>'
+        f'<p class="kit-intro">{e(c["summary"])}</p><ul class="blm">' + ''.join(f'<li><span class="bz">{b}</span> {e(t)}</li>' for b, t in c['outcomes']) + '</ul>'
+        f'<h3 class="ws-h3">Task, condition and standard</h3><div class="tcs"><div><h4>Task</h4><p>{e(c["task"])}</p></div><div><h4>Condition</h4><p>{e(c["cond"])}</p></div><div><h4>Standard</h4><p>{e(c["std"])}</p></div></div>'
+        f'<p class="ws-note">{e(c["safety"])}</p><p><strong>Requirements:</strong> none. <strong>Who it is for:</strong> learners 16 and over, workers changing field, small-business starters, teams. Currency is shown on every number.</p>')
+    top = max(mods, key=lambda m: m['h'])
+    sl = [
+      ("L1 Basic", "First words, tools and safety", f"Learner can say what {c['title']} is about and name the safety rule. Use module 1, {mods[0]['t']}, as the first short unit (about 2 to 6 hours). Say this rule aloud: {c['safety']} No record is needed at this level."),
+      ("L2 Awareness", "What the field is and who it serves", f"Learner explains the idea in plain words: {c['outcomes'][0][1]} Shared with schools and community groups. Note for the guide: ask one learner to explain it to a neighbour and check the words are right."),
+      ("L3 Foundation", "Guided tasks with a checklist", f"Learner does guided tasks from the first three modules ({mods[0]['t']}; {mods[1]['t']}; {mods[2]['t']}) with a checklist. Evidence is a small set of dated records. Note for the guide: sit beside the learner for the first record, then step back."),
+      ("L4 Practitioner", "Run the full task alone (this course)", f"Task: {c['task']} Standard: {c['std']} Note for the guide: a mentor reviews the records; two peers mark with the rubric above."),
+      ("L5 Specialist", "One narrow area to depth", f"Learner picks one area, for example {top['t']} (the longest module at {top['h']} h), and goes deeper than this course asks. Learner then teaches a peer circle of three or four. Note for the guide: check the teaching, not only the work."),
+      ("L6 Advanced", "Lead a team and review evidence", f"Learner leads a small team or designs a service in this field and marks other people's evidence against the rubric. Roles this points to: {'; '.join(c['jobs'][:3])}. Note for the guide: sample three records from the team and compare marks."),
+      ("L7 Super expert", "Set and audit the standard", f"Learner writes the method for {c['title']} as a short guide, audits other learners' evidence, and publishes worked examples back to learners. Note for the guide: worked examples keep currency and units on every number and are checked by a second expert.")]
+    ladder = ('<ol class="slides">' + ''.join(f'<li><strong>Slide {j}: {e(lv)}, {e(t)}.</strong> <em>Speaker note:</em> {e(n)}</li>' for j, (lv, t, n) in enumerate(sl, 1)) + '</ol>'
+              f'<p>Notes: credits stack and you can step in and out. This course is L4. Aligned with, not accredited by, national credit frameworks.</p>')
+    body = (about + B.sec('alt', 'md', 'lesson by lesson', f'8 modules with worked examples ({total} h guided)', mh)
+            + B.sec('', 'as', 'assessment', 'How you are checked', f'<p>Evidence: your records, numbers and reflections. Two peers and one mentor mark it with this rubric. Pass: no criterion at "Not yet" and at least 70% on the check.</p>{rub}<h3 class="ws-h3">Ten-question check, with model answers</h3>{qh}')
+            + B.sec('alt', 'ld', 'where next', 'Ladder L1 to L7, slide by slide with notes', ladder)
+            + B.sec('', 'jb', 'jobs this leads to', 'Where this takes you', '<ul>' + ''.join(f'<li>{e(j)}</li>' for j in c['jobs']) + '</ul>')
+            + B.sec('alt', 'lc', 'ten locations and global', 'Your place', '<p>Local custom changes rules, language, currency and who you practise with. Check each rule with your local authority before you act.</p>'
+                    + ''.join(f'<details class="loc"><summary>{e(L["name"])}</summary><p>Language: {e(L["lang"])}. Currency: {L["cur"]}. Data rule for what you publish: {e(L["data"])}. Skills frame to cite: {e(L["frame"])}.</p></details>' for L in B.LOC))
+            + B.sec('', 'nx', 'next', 'Draft', '<p class="ws-note">Draft flagship-depth course. Own wording from the planning booklet; no third-party text. Not live.</p>'))
+    fn = f'learn-flagship-{c["id"].lower()}.html'
+    B.page(fn, c['title'] + ' (full course)', c['summary'][:150], c['title'], e(c['summary']), body, B.crumb(('Courses', 'courses-hub.html'), (region, None)), kicker=f'{c["id"]} · full course')
+    return fn
+
+if __name__ == '__main__':
+    import flagship_data_nl, flagship_data_sg, flagship_data_au
+    n = 0
+    for mod, region in ((flagship_data_nl, 'Netherlands'), (flagship_data_sg, 'Singapore'), (flagship_data_au, 'Australia')):
+        for c in mod.C:
+            assert len(c['mods']) == 8, c['id']
+            build(c, region); n += 1
+    print(n, 'courses built')

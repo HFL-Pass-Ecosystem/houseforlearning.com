@@ -41,7 +41,7 @@
     var t = closeMenu();
     if (t) t.focus();
   });
-  /* Contact forms (owner 20 Oct 2026): Send opens the visitor's own email app with the message filled in,
+  /* Contact forms: Send opens the visitor's own email app with the message filled in,
      addressed to the site's contact. Nothing is sent from the page itself. */
   function mailForm(f) {
     var to = f.getAttribute('data-mailto') || '';
@@ -170,7 +170,7 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
 })();
 
-/* Site enhancements shared by all four sites (owner 22 Oct 2026: "much better than premium site builders").
+/* Site enhancements.
    Page search, an "On this page" guide, a reading bar, a gentle reveal on scroll, back to top and section links.
    No outside calls and nothing stored: search reads this site's own pages (same folder), or the page templates
    in the preview. Runs again after each preview page change through SiteUI.init. */
@@ -321,7 +321,7 @@
     var out = [];
     [].forEach.call(sel.options, function (o) {
       var v = o.value, parts = v.slice(2).split('/');
-      if (parts.length > 1 && cur && parts[0] !== cur) return;  // the AMS preview holds two sites: search only the one in view
+      if (parts.length > 1 && cur && parts[0] !== cur) return;  // search only the section in view
       var t = D.getElementById('r-' + parts.join('-')); if (!t) return;
       var m = t.content.querySelector('main'); if (!m) return;
       out.push(entry(m, o.textContent.replace(/^[^·]*·\s*/, ''), v, true));
@@ -561,4 +561,32 @@
   document.addEventListener('click', function (e) { if (!e.target.closest('.nav-groups')) closeAll(); });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape') { var o = document.querySelector('.has-sub.open .sub-btn'); closeAll(); if (o) o.focus(); } });
   groups.forEach(function (g) { if (g.classList.contains('is-current') && window.matchMedia('(max-width:1180px)').matches) { /* keep collapsed until tapped */ } });
+})();
+
+/* Light course hint: when a finger or mouse touches a course link, a small note says "Check this course" (or "Take this course" if already joined).
+   It never blocks a click, takes no focus, and fades by itself. */
+(function () {
+  var COURSE = /^(?:learn-[a-z0-9-]+|school-[a-z0-9-]+|cpd-[a-z0-9-]+|executive-module-\d+|career-launch-lesson-\d+|electrical-[a-z0-9-]+)\.html$/;
+  var tip, timer;
+  function file(a) { var h = a.getAttribute('href') || ''; if (/^[a-z]+:/i.test(h)) return ''; return h.split('#')[0].split('?')[0].split('/').pop(); }
+  function joined(f) { try { var s = JSON.parse(localStorage.getItem('hfl_access') || '{}'); return !!(s[f] && s[f].paid); } catch (e) { return false; } }
+  function make() {
+    var st = document.createElement('style');
+    st.textContent = '.hfl-hint{position:fixed;z-index:60;pointer-events:none;max-width:16rem;padding:.4rem .7rem;border-radius:999px;background:#0b2a4a;color:#fff;font:600 .8rem/1.3 Montserrat,system-ui,sans-serif;box-shadow:0 4px 14px rgba(0,0,0,.18);opacity:0;transform:translateY(4px);transition:opacity .15s,transform .15s}.hfl-hint.on{opacity:.96;transform:none}@media (prefers-reduced-motion:reduce){.hfl-hint{transition:none}}';
+    document.head.appendChild(st);
+    tip = document.createElement('div'); tip.className = 'hfl-hint'; tip.setAttribute('aria-hidden', 'true'); document.body.appendChild(tip);
+  }
+  function show(a, x, y) {
+    var f = file(a); if (!COURSE.test(f)) return;
+    if (!tip) make();
+    tip.textContent = joined(f) ? 'Take this course' : 'Check this course';
+    var w = Math.min(window.innerWidth - 16, 260), left = Math.max(8, Math.min(x - 60, window.innerWidth - w - 8)), top = y - 44; if (top < 8) top = y + 22;
+    tip.style.left = left + 'px'; tip.style.top = top + 'px'; tip.classList.add('on');
+    clearTimeout(timer); timer = setTimeout(hide, 2200);
+  }
+  function hide() { if (tip) tip.classList.remove('on'); }
+  document.addEventListener('pointerover', function (e) { var a = e.target.closest && e.target.closest('a[href]'); if (a) show(a, e.clientX, e.clientY); }, true);
+  document.addEventListener('pointerout', function (e) { var a = e.target.closest && e.target.closest('a[href]'); if (a) hide(); }, true);
+  document.addEventListener('touchstart', function (e) { var a = e.target.closest && e.target.closest('a[href]'); var t = e.touches && e.touches[0]; if (a && t) show(a, t.clientX, t.clientY); }, { passive: true, capture: true });
+  document.addEventListener('scroll', hide, { passive: true });
 })();

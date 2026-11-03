@@ -1,0 +1,278 @@
+{
+ "slug": "school-grade-11-commerce-eco.html",
+ "plan": "grade-11-commerce",
+ "subject": "ECO",
+ "subject_name": "Economics",
+ "kind": "soc",
+ "label": "Grade 11 Commerce",
+ "band": "post",
+ "level": 5,
+ "weeks": 36,
+ "task": "Meet the outcome of every unit in Grade 11 Commerce Economics, and keep one piece of evidence for each.",
+ "condition": "A 36-week school year, 6 units, a teacher or guide, a learning book or device, and local examples in the local language first with English support.",
+ "standard": "Each unit: at least 70 percent on an exam-style task, with the method shown. Course pass: no unit at 'Not yet' after one retry, and a pass in SA1 and SA2.",
+ "modules": [
+  {
+   "n": 1,
+   "title": "Introduction to economics and collection of data",
+   "bloom": "Understand",
+   "weeks": [
+    1,
+    6
+   ],
+   "hours": 18,
+   "outcome": "describe economic problems and data collection methods",
+   "intro": "In this unit, 'Introduction to economics and collection of data', you learn to describe economic problems and data collection methods. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Place it: find where and when 'Introduction to economics and collection of data' happens, on a map, a timeline or in a local example.",
+    "Gather: read or listen to two short sources and note who is speaking and why.",
+    "Use it: describe economic problems and data collection methods. Give a reason and one piece of evidence for every point.",
+    "Weigh it: say what another person might think, and why, before you decide."
+   ],
+   "example": "Solved: Marks 10, 20, 20, 30, 40. Mean = 120 / 5 = 24. Median = 20. Mode = 20. Range = 40 - 10 = 30. Method: Model run for 'Introduction to economics and collection of data'. Question: what happened, or what is the situation, and why? Sources: two short extracts, a map or table. Notes: who, what, where, when, why. Answer: three sentences, each with a reason and a piece of evidence. Check: is there a point of view that you have not considered? What a good answer looks like: facts are correct, reasons are linked to evidence, and one other point of view is named fairly.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Describe economic problems and data collection methods: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Start with scarcity. Wants are unlimited, but resources are limited, so every economy must choose what to produce, how to produce and for whom. Choice means opportunity cost: the value of the next best option given up.",
+    "Step 2, Use a production possibilities table. Economy can make wheat and cloth: A (0 wheat, 50 cloth), B (10, 45), C (20, 35), D (30, 20), E (40, 0). Moving A to B loses 5 cloth for 10 wheat, then 10, then 15, then 20.",
+    "Step 3, Interpret it. The opportunity cost of 10 wheat rises from 5 cloth to 20 cloth, so the curve bends outwards, because resources are not equally good at both goods. Point (30, 40) lies outside the curve and is unattainable now.",
+    "Step 4, Learn data collection. Primary data is collected first-hand by questionnaire, interview or observation. Secondary data comes from existing sources such as the national census, published surveys and company reports. A census covers all units, while a sample covers a part.",
+    "Step 5, Choose a method with a reason. To study monthly pocket money of 500 students, a short questionnaire is suitable because it is cheap and covers many. Model answer: 'I would use a sample questionnaire, with clear closed questions to reduce bias.'",
+    "Step 6, Your turn: if 20 wheat is produced, what is the maximum cloth in the table, and what is the cost of 10 more wheat? Model answer: 'Maximum cloth is 35, and moving to 30 wheat costs 15 cloth.'"
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Sampling, organisation and presentation of data",
+   "bloom": "Apply",
+   "weeks": [
+    7,
+    12
+   ],
+   "hours": 18,
+   "outcome": "organise and present data in tables and diagrams",
+   "intro": "In this unit, 'Sampling, organisation and presentation of data', you learn to organise and present data in tables and diagrams. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Place it: find where and when 'Sampling, organisation and presentation of data' happens, on a map, a timeline or in a local example.",
+    "Gather: read or listen to two short sources and note who is speaking and why.",
+    "Use it: organise and present data in tables and diagrams. Give a reason and one piece of evidence for every point.",
+    "Weigh it: say what another person might think, and why, before you decide."
+   ],
+   "example": "Solved: Marks 10, 20, 20, 30, 40. Mean = 120 / 5 = 24. Median = 20. Mode = 20. Range = 40 - 10 = 30. Method: Model run for 'Sampling, organisation and presentation of data'. Question: what happened, or what is the situation, and why? Sources: two short extracts, a map or table. Notes: who, what, where, when, why. Answer: three sentences, each with a reason and a piece of evidence. Check: is there a point of view that you have not considered? What a good answer looks like: facts are correct, reasons are linked to evidence, and one other point of view is named fairly.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Organise and present data in tables and diagrams: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Choose a sample. A school has 600 students and you need 60. Systematic sampling uses interval 600 / 60 = 10. Pick a random start, say 7, then take roll numbers 7, 17, 27 and so on. Random sampling gives each student an equal chance and avoids bias.",
+    "Step 2, Organise raw marks of 20 students: 12, 25, 38, 45, 22, 31, 47, 18, 29, 36, 41, 8, 33, 27, 15, 49, 23, 39, 44, 30. Use classes 0-10, 10-20, 20-30, 30-40, 40-50, where the upper limit is excluded.",
+    "Step 3, Tally the frequencies. 0-10: 1; 10-20: 3 (12, 18, 15); 20-30: 5; 30-40: 6 (including 30); 40-50: 5. Total 1 + 3 + 5 + 6 + 5 = 20, matching the number of students. Cumulative frequencies are 1, 4, 9, 15, 20.",
+    "Step 4, Present as diagrams. A histogram has touching bars with heights 1, 3, 5, 6, 5. An ogive plots cumulative frequency against upper limits. For a pie chart the angle is frequency / 20 x 360: 18, 54, 90, 108 and 90 degrees, which sum to 360.",
+    "Step 5, Write a model reading: 'The class 30-40 has the highest frequency, 6 students, which is 30 percent of the group. Only 4 of 20 scored below 20, so most students scored 20 or more.'",
+    "Step 6, Your turn: how many students scored below 30? Model answer: 'The cumulative frequency up to 30 is 1 + 3 + 5 = 9, so 9 students, which is 45 percent of the 20.'"
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Measures of central tendency and dispersion",
+   "bloom": "Apply",
+   "weeks": [
+    13,
+    18
+   ],
+   "hours": 18,
+   "outcome": "calculate and interpret mean, median and mode",
+   "intro": "In this unit, 'Measures of central tendency and dispersion', you learn to calculate and interpret mean, median and mode. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Place it: find where and when 'Measures of central tendency and dispersion' happens, on a map, a timeline or in a local example.",
+    "Gather: read or listen to two short sources and note who is speaking and why.",
+    "Use it: calculate and interpret mean, median and mode. Give a reason and one piece of evidence for every point.",
+    "Weigh it: say what another person might think, and why, before you decide."
+   ],
+   "example": "Solved: Marks 10, 20, 20, 30, 40. Mean = 120 / 5 = 24. Median = 20. Mode = 20. Range = 40 - 10 = 30. Method: Model run for 'Measures of central tendency and dispersion'. Question: what happened, or what is the situation, and why? Sources: two short extracts, a map or table. Notes: who, what, where, when, why. Answer: three sentences, each with a reason and a piece of evidence. Check: is there a point of view that you have not considered? What a good answer looks like: facts are correct, reasons are linked to evidence, and one other point of view is named fairly.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Calculate and interpret mean, median and mode: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Compute the three averages for ungrouped data. Output of 5 workers: 12, 15, 15, 18, 20. Mean = 80 / 5 = 16. Median, the middle value, is 15. Mode, the most frequent value, is 15. Mean exceeds the others because of the high 20.",
+    "Step 2, Compute the mean of grouped marks. Classes 0-10 to 40-50 have frequencies 1, 3, 5, 6, 5 and midpoints 5, 15, 25, 35, 45. Sum of f x m = 5 + 45 + 125 + 210 + 225 = 610. Mean = 610 / 20 = 30.5.",
+    "Step 3, Find the median. N / 2 = 10. Cumulative frequencies are 1, 4, 9, 15, so the median class is 30-40. Median = 30 + (10 - 9) / 6 x 10 = 31.67 approximately. The mode formula gives 30 + (6 - 5) / (12 - 5 - 5) x 10 = 35.",
+    "Step 4, Measure dispersion for 12, 15, 15, 18, 20. Range = 20 - 12 = 8. Deviations from 16 are -4, -1, -1, 2, 4, with squares 16, 1, 1, 4, 16, totalling 38. Variance = 38 / 5 = 7.6, and standard deviation is about 2.76.",
+    "Step 5, Compare two series by coefficient of variation. CV = (SD / mean) x 100 = 2.76 / 16 x 100 = 17.3 percent (rounded). A series with 25 percent is more variable. Model answer: 'The series with the lower CV is more consistent.'",
+    "Step 6, Your turn: find the mean and median of 4, 6, 8, 10, 12. Model answer: 'Mean is 40 / 5 = 8 and median is the middle value, 8. They coincide because the data are symmetrical.'"
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Consumer behaviour and demand",
+   "bloom": "Understand",
+   "weeks": [
+    19,
+    24
+   ],
+   "hours": 18,
+   "outcome": "explain utility, demand and elasticity",
+   "intro": "In this unit, 'Consumer behaviour and demand', you learn to explain utility, demand and elasticity. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Place it: find where and when 'Consumer behaviour and demand' happens, on a map, a timeline or in a local example.",
+    "Gather: read or listen to two short sources and note who is speaking and why.",
+    "Use it: explain utility, demand and elasticity. Give a reason and one piece of evidence for every point.",
+    "Weigh it: say what another person might think, and why, before you decide."
+   ],
+   "example": "Solved: If price of tea falls from 20 to 15 and quantity demanded rises from 100 to 130 cups, demand has extended along the same curve: the law of demand. Method: Model run for 'Consumer behaviour and demand'. Question: what happened, or what is the situation, and why? Sources: two short extracts, a map or table. Notes: who, what, where, when, why. Answer: three sentences, each with a reason and a piece of evidence. Check: is there a point of view that you have not considered? What a good answer looks like: facts are correct, reasons are linked to evidence, and one other point of view is named fairly.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Explain utility, demand and elasticity: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Utility is the satisfaction from consuming. Eating slices of pizza gives total utility of 10, 18, 24, 28 and 30. Marginal utility is the extra from each slice: 10, 8, 6, 4 and 2. It falls as you eat more, which is the law of diminishing marginal utility.",
+    "Step 2, The law of demand: when price rises, quantity demanded falls, other things equal. A schedule: at price 10 buyers want 20, at 8 they want 30, at 6 they want 40 and at 4 they want 50. Plot it to get a downward-sloping curve. A price change moves along the curve.",
+    "Step 3, Demand shifts when something other than price changes: income, tastes, the price of related goods, population or expectations. A rise in income for a normal good shifts the curve right. A cheaper substitute shifts it left. Do not confuse a shift with a movement along the curve.",
+    "Step 4, Price elasticity of demand (PED) = percentage change in quantity / percentage change in price. Price falls from 10 to 8, which is -20 percent, and quantity rises from 20 to 30, which is +50 percent. PED = 50 / 20 = 2.5 in size, so demand is elastic. Revenue rises from 10 x 20 = 200 to 8 x 30 = 240.",
+    "Step 5, Other elasticities. Income elasticity: income rises 10 percent and demand for a bus ride falls 5 percent, giving -0.5, so it is an inferior good. Cross elasticity: tea price rises 10 percent and coffee demand rises 4 percent, giving +0.4, so they are substitutes.",
+    "Step 6, Your turn: price falls from 50 to 40 and quantity rises from 100 to 110. Find PED and say what happens to revenue. Answer: -20 percent and +10 percent give 0.5, which is inelastic; revenue falls from 5,000 to 4,400."
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Producer behaviour and supply",
+   "bloom": "Understand",
+   "weeks": [
+    25,
+    30
+   ],
+   "hours": 18,
+   "outcome": "explain cost, production and supply",
+   "intro": "In this unit, 'Producer behaviour and supply', you learn to explain cost, production and supply. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Place it: find where and when 'Producer behaviour and supply' happens, on a map, a timeline or in a local example.",
+    "Gather: read or listen to two short sources and note who is speaking and why.",
+    "Use it: explain cost, production and supply. Give a reason and one piece of evidence for every point.",
+    "Weigh it: say what another person might think, and why, before you decide."
+   ],
+   "example": "Solved: If price of tea falls from 20 to 15 and quantity demanded rises from 100 to 130 cups, demand has extended along the same curve: the law of demand. Method: Model run for 'Producer behaviour and supply'. Question: what happened, or what is the situation, and why? Sources: two short extracts, a map or table. Notes: who, what, where, when, why. Answer: three sentences, each with a reason and a piece of evidence. Check: is there a point of view that you have not considered? What a good answer looks like: facts are correct, reasons are linked to evidence, and one other point of view is named fairly.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Explain cost, production and supply: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Costs: fixed costs do not change with output, such as rent of 100. Variable costs change with output, such as flour. A small bakery has fixed cost 100 and variable costs of 30, 50, 60 and 80 for 1, 2, 3 and 4 trays. Total cost is fixed plus variable: 130, 150, 160 and 180.",
+    "Step 2, Marginal cost is the extra cost of one more tray: 30, 20, 10 and 20. Average cost is total cost divided by output: 130, 75, 53.33 and 45. Marginal cost falls then rises, and it cuts the average cost curve at its lowest point.",
+    "Step 3, Production: with one oven and more workers, total product is 10, 24, 36, 44 and 48 loaves for 1 to 5 workers. Marginal product is 10, 14, 12, 8 and 4. It first rises from specialisation, then falls: the law of diminishing returns.",
+    "Step 4, Revenue and profit: at a price of 50 per tray, revenue for 1 to 4 trays is 50, 100, 150 and 200. Profit = revenue - total cost = -80, -50, -10 and +20. A firm adds output while price is at least marginal cost; 50 beats 30, 20, 10 and 20, so it makes 4 trays and earns 20 profit.",
+    "Step 5, The law of supply: higher price, greater quantity supplied. Schedule: price 4 gives 20, price 6 gives 40, price 8 gives 60 and price 10 gives 80. The curve slopes up because rising marginal cost needs a higher price. Elasticity of supply from 6 to 8: +50 percent / +33.3 percent = 1.5.",
+    "Step 6, Your turn: total cost for 4 trays is 180 and for 5 trays is 230. Find the marginal cost of the fifth tray and the average cost of 5 trays. Answer: marginal cost 230 - 180 = 50; average cost 230 / 5 = 46, which is above 45, so average cost has started to rise."
+   ]
+  },
+  {
+   "n": 6,
+   "title": "Price determination and market forms",
+   "bloom": "Apply",
+   "weeks": [
+    31,
+    36
+   ],
+   "hours": 18,
+   "outcome": "show equilibrium and compare market forms",
+   "intro": "In this unit, 'Price determination and market forms', you learn to show equilibrium and compare market forms. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Place it: find where and when 'Price determination and market forms' happens, on a map, a timeline or in a local example.",
+    "Gather: read or listen to two short sources and note who is speaking and why.",
+    "Use it: show equilibrium and compare market forms. Give a reason and one piece of evidence for every point.",
+    "Weigh it: say what another person might think, and why, before you decide."
+   ],
+   "example": "Solved: If price of tea falls from 20 to 15 and quantity demanded rises from 100 to 130 cups, demand has extended along the same curve: the law of demand. Method: Model run for 'Price determination and market forms'. Question: what happened, or what is the situation, and why? Sources: two short extracts, a map or table. Notes: who, what, where, when, why. Answer: three sentences, each with a reason and a piece of evidence. Check: is there a point of view that you have not considered? What a good answer looks like: facts are correct, reasons are linked to evidence, and one other point of view is named fairly.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Show equilibrium and compare market forms: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Find equilibrium from a table. Price 2, 4, 6, 8, 10 gives quantity demanded 100, 80, 60, 40, 20 and quantity supplied 20, 40, 60, 80, 100. Only at price 6 are they equal, at 60 units, so the equilibrium price is 6 and the equilibrium quantity is 60.",
+    "Step 2, Find it by algebra. Demand: Qd = 120 - 10P. Supply: Qs = 10P. Set them equal: 120 - 10P = 10P, so 20P = 120 and P = 6. Then Q = 10 x 6 = 60. At price 4, Qd = 80 and Qs = 40, a shortage of 40, so price rises. At price 8 there is a surplus of 40, so price falls.",
+    "Step 3, Show a shift. Income rises and demand becomes Qd = 140 - 10P. Then 140 - 10P = 10P gives P = 7 and Q = 70. A rise in demand raises both price and quantity. Back in the original market, a price ceiling at 4 would cause a shortage of 40, and a price floor at 8 would cause a surplus of 40.",
+    "Step 4, Compare market forms. Perfect competition has many sellers, identical goods and free entry, so firms are price takers. Monopoly has one seller and barriers to entry. Monopolistic competition has many sellers of differentiated goods. Oligopoly has a few large firms that react to each other.",
+    "Step 5, Compare outcomes. Let price P = 20 - Q and marginal cost = 4. A monopoly sets marginal revenue 20 - 2Q equal to 4, so Q = 8 and P = 12. Perfect competition sets price equal to marginal cost: P = 4 and Q = 16. The monopoly sells less at a higher price.",
+    "Step 6, Your turn: Qd = 100 - 5P and Qs = 20 + 5P. Find the equilibrium. Then name the market form for many farmers selling identical maize. Answer: 100 - 5P = 20 + 5P gives P = 8 and Q = 60; it is perfect competition."
+   ]
+  }
+ ],
+ "rubric": [
+  [
+   "Knowledge",
+   "Gaps",
+   "Main facts right",
+   "Facts right and linked"
+  ],
+  [
+   "Use of evidence",
+   "No evidence",
+   "Some evidence",
+   "Evidence for every point"
+  ],
+  [
+   "Reasoning",
+   "Statements only",
+   "Reasons given",
+   "Reasons weighed against another view"
+  ],
+  [
+   "Maps, dates and terms",
+   "Often wrong",
+   "Mostly right",
+   "Accurate and used well"
+  ],
+  [
+   "Practice habit",
+   "Rarely practises",
+   "Practises weekly",
+   "Practises most days and reflects"
+  ]
+ ],
+ "checks": [
+  [
+   "Unit 1 (Introduction to economics and collection of data): If 20 wheat is produced, what is the maximum cloth in the table, and what is the cost of 10 more wheat?",
+   "'Maximum cloth is 35, and moving to 30 wheat costs 15 cloth.' (Covered in unit 1: Introduction to economics and collection of data.)"
+  ],
+  [
+   "Unit 2 (Sampling, organisation and presentation of data): How many students scored below 30?",
+   "'The cumulative frequency up to 30 is 1 + 3 + 5 = 9, so 9 students, which is 45 percent of the 20.' (Covered in unit 2: Sampling, organisation and presentation of data.)"
+  ],
+  [
+   "Unit 3 (Measures of central tendency and dispersion): Find the mean and median of 4, 6, 8, 10, 12.",
+   "'Mean is 40 / 5 = 8 and median is the middle value, 8. They coincide because the data are symmetrical.' (Covered in unit 3: Measures of central tendency and dispersion.)"
+  ],
+  [
+   "Unit 4 (Consumer behaviour and demand): Price falls from 50 to 40 and quantity rises from 100 to 110. Find PED and say what happens to revenue.",
+   "-20 percent and +10 percent give 0.5, which is inelastic; revenue falls from 5,000 to 4,400. (Covered in unit 4: Consumer behaviour and demand.)"
+  ],
+  [
+   "Unit 5 (Producer behaviour and supply): Total cost for 4 trays is 180 and for 5 trays is 230. Find the marginal cost of the fifth tray and the average cost of 5 trays.",
+   "marginal cost 230 - 180 = 50; average cost 230 / 5 = 46, which is above 45, so average cost has started to rise. (Covered in unit 5: Producer behaviour and supply.)"
+  ],
+  [
+   "Unit 6 (Price determination and market forms): Qd = 100 - 5P and Qs = 20 + 5P. Find the equilibrium. Then name the market form for many farmers selling identical maize.",
+   "100 - 5P = 20 + 5P gives P = 8 and Q = 60; it is perfect competition. (Covered in unit 6: Price determination and market forms.)"
+  ],
+  [
+   "Unit 1 (Introduction to economics and collection of data): Use a production possibilities table. Show how you do it and say what the result is.",
+   "Economy can make wheat and cloth: A (0 wheat, 50 cloth), B (10, 45), C (20, 35), D (30, 20), E (40, 0). Moving A to B loses 5 cloth for 10 wheat, then 10, then 15, then 20. (Covered in unit 1: Introduction to economics and collection of data.)"
+  ],
+  [
+   "Unit 2 (Sampling, organisation and presentation of data): Organise raw marks of 20 students. Show how you do it and say what the result is.",
+   "12, 25, 38, 45, 22, 31, 47, 18, 29, 36, 41, 8, 33, 27, 15, 49, 23, 39, 44, 30. Use classes 0-10, 10-20, 20-30, 30-40, 40-50, where the upper limit is excluded. (Covered in unit 2: Sampling, organisation and presentation of data.)"
+  ],
+  [
+   "Unit 3 (Measures of central tendency and dispersion): Compute the mean of grouped marks. Show how you do it and say what the result is.",
+   "Classes 0-10 to 40-50 have frequencies 1, 3, 5, 6, 5 and midpoints 5, 15, 25, 35, 45. Sum of f x m = 5 + 45 + 125 + 210 + 225 = 610. Mean = 610 / 20 = 30.5. (Covered in unit 3: Measures of central tendency and dispersion.)"
+  ],
+  [
+   "Unit 4 (Consumer behaviour and demand): The law of demand. Show how you do it and say what the result is.",
+   "when price rises, quantity demanded falls, other things equal. A schedule: at price 10 buyers want 20, at 8 they want 30, at 6 they want 40 and at 4 they want 50. Plot it to get a downward-sloping curve. A price change moves along the curve. (Covered in unit 4: Consumer behaviour and demand.)"
+  ]
+ ],
+ "ladder": [
+  "L1: talk about family, place and community.",
+  "L2: read maps and timelines; describe local government and history.",
+  "L3: compare societies; use sources.",
+  "L4: analyse causes and consequences; argue from evidence.",
+  "L5: specialise in history, geography, politics or economics; write extended answers.",
+  "L6 (degree): research methods and applied social science.",
+  "L7 (postgraduate): policy, research or teaching at depth."
+ ],
+ "jobs": [],
+ "blooms": [
+  "Understand",
+  "Apply"
+ ]
+}

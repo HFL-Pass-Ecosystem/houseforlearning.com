@@ -1,0 +1,278 @@
+{
+ "slug": "school-grade-12-science-che.html",
+ "plan": "grade-12-science",
+ "subject": "CHE",
+ "subject_name": "Chemistry",
+ "kind": "sci",
+ "label": "Grade 12 Science",
+ "band": "post",
+ "level": 5,
+ "weeks": 36,
+ "task": "Meet the outcome of every unit in Grade 12 Science Chemistry, and keep one piece of evidence for each.",
+ "condition": "A 36-week school year, 6 units, a teacher or guide, a learning book or device, and local examples in the local language first with English support.",
+ "standard": "Each unit: at least 70 percent on an exam-style task, with the method shown. Course pass: no unit at 'Not yet' after one retry, and a pass in SA1 and SA2.",
+ "modules": [
+  {
+   "n": 1,
+   "title": "Solutions and electrochemistry",
+   "bloom": "Apply",
+   "weeks": [
+    1,
+    6
+   ],
+   "hours": 18,
+   "outcome": "calculate colligative properties and cell potentials",
+   "intro": "In this unit, 'Solutions and electrochemistry', you learn to calculate colligative properties and cell potentials. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Solutions and electrochemistry' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: calculate colligative properties and cell potentials. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Solved: 10 g of salt in 90 g of water: solution mass 100 g, so concentration = 10 / 100 x 100 = 10 percent by mass. Method: Model run for 'Solutions and electrochemistry'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Calculate colligative properties and cell potentials: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Calculate molality. 18 g of glucose (180 g/mol) is 0.1 mol, dissolved in 500 g of water. m = 0.1 / 0.5 = 0.2 mol/kg. Mole fraction of glucose = 0.1 / (0.1 + 27.8) = 0.0036.",
+    "Step 2, Find the boiling point elevation. delta Tb = Kb m = 0.52 x 0.2 = 0.104 K, so the solution boils at 100.104 C. Freezing point depression with Kf = 1.86: delta Tf = 0.372 K, freezing at -0.372 C.",
+    "Step 3, Calculate molar mass from osmotic pressure. A solution of 2 g solute in 1 L gives pi = 0.0246 atm at 300 K. M = wRT / (pi V) = 2 x 0.0821 x 300 / 0.0246 = 2002 g/mol, a polymer-like value.",
+    "Step 4, Apply the van't Hoff factor. 0.1 m NaCl has i near 2, so delta Tf = 2 x 1.86 x 0.1 = 0.372 K, twice that of glucose at 0.1 m. Relative lowering of vapour pressure equals the solute mole fraction.",
+    "Step 5, Calculate a cell potential. Zn + Cu2+ gives Zn2+ + Cu. E cell = 0.34 - (-0.76) = 1.10 V. Nernst at 298 K: E = 1.10 - (0.0592/2) log([Zn2+]/[Cu2+]). With [Zn2+] = 0.01 and [Cu2+] = 1, E = 1.10 + 0.0592 = 1.159 V.",
+    "Step 6, Your turn: find delta Tf for 0.5 m glucose in water (Kf = 1.86). Answer: 1.86 x 0.5 = 0.93 K, so freezing at -0.93 C."
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Chemical kinetics and surface chemistry",
+   "bloom": "Apply",
+   "weeks": [
+    7,
+    12
+   ],
+   "hours": 18,
+   "outcome": "determine rate laws",
+   "intro": "In this unit, 'Chemical kinetics and surface chemistry', you learn to determine rate laws. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Chemical kinetics and surface chemistry' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: determine rate laws. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Solved: Rectangle 12 cm by 5 cm. Perimeter = 2 x (12 + 5) = 34 cm. Area = 12 x 5 = 60 square cm. A cuboid 12 x 5 x 3 has volume 180 cubic cm. Method: Model run for 'Chemical kinetics and surface chemistry'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Determine rate laws: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Determine the rate law from data. For A + B gives products: expt 1 [A] 0.1, [B] 0.1, rate 2e-3; expt 2 [A] 0.2, [B] 0.1, rate 4e-3; expt 3 [A] 0.1, [B] 0.2, rate 8e-3. Doubling A doubles the rate, so order 1; doubling B quadruples it, order 2.",
+    "Step 2, Write rate = k [A][B]^2, overall order 3. Find k: 2e-3 = k x 0.1 x 0.01, so k = 2e-3 / 1e-3 = 2 L^2 mol^-2 s^-1.",
+    "Step 3, Use a first-order reaction. Rate constant k = 0.0693 min^-1. Half-life t1/2 = 0.693 / k = 10 min. After 30 min, [A] = [A]0 / 2^3 = 12.5 per cent of the start.",
+    "Step 4, Use the Arrhenius equation. Suppose the rate doubles for a 10 K rise from 300 K to 310 K. Then ln 2 = (Ea/R)(1/300 - 1/310) = (Ea/R)(1.075e-4), giving Ea = 0.693 x 8.314 / 1.075e-4 = 53.6 kJ/mol.",
+    "Step 5, Explain surface chemistry. Adsorption is physisorption (weak van der Waals) or chemisorption (bonds). Freundlich: x/m = k P^(1/n). Catalysts like Fe in the Haber process lower activation energy, and enzymes are specific biological catalysts.",
+    "Step 6, Your turn: a first-order reaction has k = 0.0231 min^-1. Find its half-life. Answer: 0.693 / 0.0231 = 30 min."
+   ]
+  },
+  {
+   "n": 3,
+   "title": "d- and f-block elements and coordination compounds",
+   "bloom": "Understand",
+   "weeks": [
+    13,
+    18
+   ],
+   "hours": 18,
+   "outcome": "describe transition metals and complexes",
+   "intro": "In this unit, 'd- and f-block elements and coordination compounds', you learn to describe transition metals and complexes. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'd- and f-block elements and coordination compounds' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: describe transition metals and complexes. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Solved: Transition metals show variable oxidation states: iron forms Fe2+ and Fe3+. The complex ion of copper with ammonia is deep blue. Method: Model run for 'd- and f-block elements and coordination compounds'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Describe transition metals and complexes: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Write electron configurations. Fe is [Ar] 3d6 4s2 and Fe3+ is [Ar] 3d5. Cu is [Ar] 3d10 4s1, an exception for stability. Transition metals show variable oxidation states since 3d and 4s energies are close.",
+    "Step 2, Calculate magnetic moment. Using mu = sqrt(n(n+2)) BM. Fe3+ with 5 unpaired electrons: sqrt(35) = 5.92 BM. Ti3+ with 1 unpaired: sqrt(3) = 1.73 BM. Zn2+ with 0 unpaired is diamagnetic.",
+    "Step 3, Study KMnO4. In acid, MnO4- + 8H+ + 5e- gives Mn2+ + 4H2O. Oxidation of Fe2+ to Fe3+: 5Fe2+ + MnO4- + 8H+ gives 5Fe3+ + Mn2+ + 4H2O. 1 mol of MnO4- oxidises 5 mol of Fe2+.",
+    "Step 4, Name coordination compounds. [Co(NH3)6]Cl3 is hexaamminecobalt(III) chloride. Oxidation state of Co: x + 6(0) = +3 for the complex ion, so x = +3. The coordination number is 6 because six ligands donate electron pairs.",
+    "Step 5, Apply crystal field theory. In an octahedral complex d orbitals split into t2g and eg. [Fe(CN)6]4- is low spin (strong field) and diamagnetic; [FeF6]3- is high spin with 5 unpaired. Colour comes from d-d transitions.",
+    "Step 6, Your turn: find the oxidation state of Cr in K2Cr2O7. Answer: 2(+1) + 2x + 7(-2) = 0, so x = +6."
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Haloalkanes, haloarenes, alcohols, phenols and ethers",
+   "bloom": "Understand",
+   "weeks": [
+    19,
+    24
+   ],
+   "hours": 18,
+   "outcome": "describe preparation and reactions",
+   "intro": "In this unit, 'Haloalkanes, haloarenes, alcohols, phenols and ethers', you learn to describe preparation and reactions. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Haloalkanes, haloarenes, alcohols, phenols and ethers' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: describe preparation and reactions. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Solved: CH3CH2Br is bromoethane; CH3CH2OH is ethanol, which can be oxidised to ethanoic acid. Method: Model run for 'Haloalkanes, haloarenes, alcohols, phenols and ethers'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Describe preparation and reactions: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Prepare haloalkanes. CH3CH2OH + SOCl2 gives CH3CH2Cl + SO2 + HCl, a clean method since the by-products are gases. Alternatively ROH + HCl with ZnCl2 (Lucas reagent) is used.",
+    "Step 2, Compare SN1 and SN2. A primary halide such as 1-bromobutane reacts with OH- by SN2, one concerted step with inversion and rate = k[RX][OH-]. Tert-butyl bromide reacts by SN1 through a carbocation, rate = k[RX], giving a racemic mix if chiral.",
+    "Step 3, Reactions of alcohols. Ethanol with acidified K2Cr2O7 gives ethanal then ethanoic acid. Dehydration with conc. H2SO4 at 443 K gives ethene; at 413 K it gives diethyl ether. Lucas test: tertiary alcohols turn cloudy at once, secondary after about 5 minutes, primary not at room temperature.",
+    "Step 4, Reactions of phenol. Phenol is acidic (pKa about 10) and reacts with NaOH to give sodium phenoxide. With bromine water it gives 2,4,6-tribromophenol as a white precipitate. Reimer-Tiemann gives salicylaldehyde.",
+    "Step 5, Ether preparation by Williamson: C2H5ONa + CH3Cl gives C2H5OCH3 + NaCl. Use a primary alkyl halide, because a tertiary one gives elimination.",
+    "Step 6, Your turn: name the organic product when propan-2-ol is oxidised with acidified potassium dichromate, and say why it cannot oxidise further. Answer: propanone, a ketone, which has no hydrogen on its carbonyl carbon."
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Aldehydes, ketones, carboxylic acids and amines",
+   "bloom": "Understand",
+   "weeks": [
+    25,
+    30
+   ],
+   "hours": 18,
+   "outcome": "describe reactions and tests",
+   "intro": "In this unit, 'Aldehydes, ketones, carboxylic acids and amines', you learn to describe reactions and tests. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Aldehydes, ketones, carboxylic acids and amines' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: describe reactions and tests. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Solved: A solution that turns blue litmus red is an acid. Acid + base gives salt + water, for example hydrochloric acid + sodium hydroxide gives sodium chloride + water. Method: Model run for 'Aldehydes, ketones, carboxylic acids and amines'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Describe reactions and tests: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Recognise the groups. Aldehydes have C=O at the chain end: ethanal CH3CHO. Ketones have C=O inside the chain: propanone CH3COCH3. Carboxylic acids have -COOH: ethanoic acid CH3COOH. Amines have -NH2: methylamine CH3NH2. Name each from its longest chain, then ending -al, -one, -oic acid or -amine.",
+    "Step 2, Describe oxidation. Warm ethanol with acidified potassium dichromate and it is oxidised to ethanal, then to ethanoic acid; the orange mixture turns green. Propan-2-ol gives propanone, which resists further oxidation. Reduction goes the other way: ethanal with sodium borohydride gives ethanol. Safety: dichromate is toxic, so use a water bath, not a flame.",
+    "Step 3, Tell aldehydes from ketones. Warm with ammoniacal silver nitrate: an aldehyde gives a silver mirror, a ketone gives nothing. Warm with alkaline copper(II) solution: an aldehyde turns blue to brick-red solid, a ketone stays blue. 2,4-dinitrophenylhydrazine gives an orange precipitate with both. Use tiny amounts, wear goggles, rinse silver mixtures away at once.",
+    "Step 4, Carboxylic acids are weak acids. Ethanoic acid with sodium hydrogencarbonate fizzes: CH3COOH + NaHCO3 -> CH3COONa + H2O + CO2, and the gas turns limewater cloudy. With ethanol and a little concentrated sulfuric acid catalyst it forms ethyl ethanoate, a fruity-smelling ester. Masses for the ester reaction: 60 + 46 = 106 and 88 + 18 = 106, so the masses balance. Safety: wear goggles, because concentrated sulfuric acid burns skin.",
+    "Step 5, Amines are weak bases because nitrogen has a lone pair. CH3NH2 + H2O <=> CH3NH3+ + OH-, so it turns red litmus blue. With hydrochloric acid it makes the salt methylammonium chloride, CH3NH3Cl, which dissolves in water. Primary, secondary and tertiary amines have one, two or three carbon groups on N. Amines smell fishy and are irritants, so use a fume cupboard.",
+    "Step 6, Your turn: a liquid gives an orange precipitate with 2,4-dinitrophenylhydrazine, no silver mirror, and no colour change with warm acidified dichromate. Name its class and one example. Model answer: it is a ketone, because it has a carbonyl group but resists oxidation; propanone is an example."
+   ]
+  },
+  {
+   "n": 6,
+   "title": "Biomolecules and polymers",
+   "bloom": "Understand",
+   "weeks": [
+    31,
+    36
+   ],
+   "hours": 18,
+   "outcome": "describe carbohydrates, proteins and polymers",
+   "intro": "In this unit, 'Biomolecules and polymers', you learn to describe carbohydrates, proteins and polymers. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Biomolecules and polymers' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: describe carbohydrates, proteins and polymers. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Solved: Water is H2O: 2 hydrogen atoms and 1 oxygen atom. Mass = 2 x 1 + 16 = 18 units. Check atoms balance on both sides of an equation. Method: Model run for 'Biomolecules and polymers'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Describe carbohydrates, proteins and polymers: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Classify carbohydrates. Glucose is a reducing aldohexose giving C6H12O6; fructose is a ketohexose. Sucrose is a disaccharide of glucose and fructose joined by a glycosidic link and is non-reducing. Starch is a polymer of alpha glucose; cellulose of beta glucose.",
+    "Step 2, Test: Tollens' reagent gives a silver mirror with glucose; Fehling's gives a red precipitate of Cu2O. Sucrose gives neither until hydrolysed with dilute acid to give glucose and fructose, called inversion.",
+    "Step 3, Proteins. Amino acids join by peptide bonds: glycine + alanine gives glycylalanine + H2O. Levels of structure: primary (sequence), secondary (alpha helix and beta sheet via hydrogen bonds), tertiary and quaternary. Denaturation changes shape, as when an egg is boiled.",
+    "Step 4, Nucleic acids: DNA has deoxyribose and bases A, T, G, C; RNA has ribose and U instead of T. A pairs with T by 2 hydrogen bonds, G pairs with C by 3. DNA of 20 per cent A has 20 per cent T and 30 per cent G and C each.",
+    "Step 5, Polymers. Addition: n CH2=CH2 gives polythene. Condensation: hexamethylenediamine + adipic acid gives nylon-6,6 with loss of water. Natural rubber is polyisoprene; vulcanisation with sulphur adds cross-links. Teflon comes from tetrafluoroethene.",
+    "Step 6, Your turn: a DNA sample has 30 per cent adenine. Give percentages of T, G and C. Answer: T 30, G 20, C 20 per cent."
+   ]
+  }
+ ],
+ "rubric": [
+  [
+   "Scientific ideas",
+   "Ideas mixed up",
+   "Main ideas right",
+   "Ideas right and linked"
+  ],
+  [
+   "Evidence and data",
+   "No record",
+   "Record made",
+   "Clear record used in the conclusion"
+  ],
+  [
+   "Safe, fair method",
+   "Needs reminding",
+   "Safe and mostly fair",
+   "Safe, fair and improved"
+  ],
+  [
+   "Use of key words",
+   "Few",
+   "Some",
+   "Accurate and confident"
+  ],
+  [
+   "Practice habit",
+   "Rarely practises",
+   "Practises weekly",
+   "Practises most days and reflects"
+  ]
+ ],
+ "checks": [
+  [
+   "Unit 1 (Solutions and electrochemistry): Find delta Tf for 0.5 m glucose in water (Kf = 1.86).",
+   "1.86 x 0.5 = 0.93 K, so freezing at -0.93 C. (Covered in unit 1: Solutions and electrochemistry.)"
+  ],
+  [
+   "Unit 2 (Chemical kinetics and surface chemistry): A first-order reaction has k = 0.0231 min^-1. Find its half-life.",
+   "0.693 / 0.0231 = 30 min. (Covered in unit 2: Chemical kinetics and surface chemistry.)"
+  ],
+  [
+   "Unit 3 (d- and f-block elements and coordination compounds): Find the oxidation state of Cr in K2Cr2O7.",
+   "2(+1) + 2x + 7(-2) = 0, so x = +6. (Covered in unit 3: d- and f-block elements and coordination compounds.)"
+  ],
+  [
+   "Unit 4 (Haloalkanes, haloarenes, alcohols, phenols and ethers): Name the organic product when propan-2-ol is oxidised with acidified potassium dichromate, and say why it cannot oxidise further.",
+   "propanone, a ketone, which has no hydrogen on its carbonyl carbon. (Covered in unit 4: Haloalkanes, haloarenes, alcohols, phenols and ethers.)"
+  ],
+  [
+   "Unit 5 (Aldehydes, ketones, carboxylic acids and amines): A liquid gives an orange precipitate with 2,4-dinitrophenylhydrazine, no silver mirror, and no colour change with warm acidified dichromate. Name its class and one example.",
+   "it is a ketone, because it has a carbonyl group but resists oxidation; propanone is an example. (Covered in unit 5: Aldehydes, ketones, carboxylic acids and amines.)"
+  ],
+  [
+   "Unit 6 (Biomolecules and polymers): A DNA sample has 30 per cent adenine. Give percentages of T, G and C.",
+   "T 30, G 20, C 20 per cent. (Covered in unit 6: Biomolecules and polymers.)"
+  ],
+  [
+   "Unit 1 (Solutions and electrochemistry): Find the boiling point elevation. Show how you do it and say what the result is.",
+   "delta Tb = Kb m = 0.52 x 0.2 = 0.104 K, so the solution boils at 100.104 C. Freezing point depression with Kf = 1.86: delta Tf = 0.372 K, freezing at -0.372 C. (Covered in unit 1: Solutions and electrochemistry.)"
+  ],
+  [
+   "Unit 2 (Chemical kinetics and surface chemistry): Write rate = k [A][B]^2, overall order 3. Show how you do it and say what the result is.",
+   "Find k: 2e-3 = k x 0.1 x 0.01, so k = 2e-3 / 1e-3 = 2 L^2 mol^-2 s^-1. (Covered in unit 2: Chemical kinetics and surface chemistry.)"
+  ],
+  [
+   "Unit 3 (d- and f-block elements and coordination compounds): Calculate magnetic moment. Show how you do it and say what the result is.",
+   "Using mu = sqrt(n(n+2)) BM. Fe3+ with 5 unpaired electrons: sqrt(35) = 5.92 BM. Ti3+ with 1 unpaired: sqrt(3) = 1.73 BM. Zn2+ with 0 unpaired is diamagnetic. (Covered in unit 3: d- and f-block elements and coordination compounds.)"
+  ],
+  [
+   "Unit 4 (Haloalkanes, haloarenes, alcohols, phenols and ethers): Compare SN1 and SN2. Show how you do it and say what the result is.",
+   "A primary halide such as 1-bromobutane reacts with OH- by SN2, one concerted step with inversion and rate = k[RX][OH-]. Tert-butyl bromide reacts by SN1 through a carbocation, rate = k[RX], giving a racemic mix if chiral. (Covered in unit 4: Haloalkanes, haloarenes, alcohols, phenols and ethers.)"
+  ]
+ ],
+ "ladder": [
+  "L1: observe, sort and describe the living and non-living world.",
+  "L2: run simple tests and explain with key words.",
+  "L3: use models and equations; plan a fair test.",
+  "L4: link physics, chemistry and biology ideas with calculation.",
+  "L5: specialise; design, analyse and evaluate experiments.",
+  "L6 (degree): laboratory science, instrumentation and analysis.",
+  "L7 (postgraduate): research design and expert practice."
+ ],
+ "jobs": [],
+ "blooms": [
+  "Understand",
+  "Apply"
+ ]
+}

@@ -1,0 +1,198 @@
+{
+ "mods": {
+  "1": {
+   "title": "Know what a start-up is and the words used",
+   "intro": "A start-up is a new business that tests an idea and aims to grow. Learn the words you will hear.",
+   "pts": [
+    "Terms: customer, problem, solution, prototype, pilot, revenue, cost, runway, founder.",
+    "Runway is how many months you can run before money ends.",
+    "Start-up services help new firms with setup, product tests, bookkeeping, planning and finding customers.",
+    "Talk to one founder about the first six months and write what surprised them.",
+    "Learn what a founder does in a normal week: sell, build, count money, fix problems.",
+    "Write the problem you want to solve in one sentence and name who has it.",
+    "List what you can do yourself and what you need a partner or adviser for."
+   ],
+   "ex": "Cash 12,000 and monthly spending 3,000 gives runway of 12,000 / 3,000 = 4 months. If you cut spending to 2,000 a month, runway grows to 6 months. The same cash lasts longer with lower costs.",
+   "act": "Interview one founder and write the problem they solve, who pays and what they would do differently.",
+   "std": "Task: write a founder interview note. Condition: one 20-minute talk. Standard: problem, customer, money source and one lesson, in plain words."
+  },
+  "2": {
+   "title": "Explain how an idea becomes a tested offer",
+   "intro": "Test the idea with real people before you spend much.",
+   "pts": [
+    "Steps: find the problem, talk to ten people, sketch the offer, build the smallest test, measure, decide.",
+    "Ask what they do now, what it costs them and what they have tried.",
+    "A prototype is a rough version used to learn, not to impress.",
+    "Write down what would prove you wrong.",
+    "Ask open questions and write the answers word for word.",
+    "Count how many of the ten people say the problem is serious enough to pay for.",
+    "Change the offer after each round of talks and note what you changed."
+   ],
+   "ex": "Test: a one-page sign-up for a tutoring service. Goal: five paid sign-ups from fifty visitors, which is 5 / 50 = 10 percent. If fewer than two sign up (under 4 percent), change the offer.",
+   "act": "Interview ten possible customers and write the one-line value statement.",
+   "std": "Task: run ten customer interviews. Condition: two weeks. Standard: notes dated; the value statement names who, need, result and how it differs from what they do now."
+  },
+  "3": {
+   "title": "Build the smallest version and test it",
+   "intro": "Apply what you learned by making a simple test and measuring it.",
+   "pts": [
+    "Choose one feature or service that solves the main problem.",
+    "Set one measure of success before you start.",
+    "Run the test for a fixed time with real users.",
+    "Write down what you learned and what you will change.",
+    "Make the test by hand before you build any software or buy equipment.",
+    "Write the cost of the test, in money and in hours.",
+    "Ask each user why they did or did not pay, and record the answer."
+   ],
+   "ex": "Smallest test: a hand-made weekly meal list sent to ten homes. Measure: how many pay for week two. If 4 of 10 pay, the rate is 40 percent. At 12 CAD per list, 4 payers bring in 48 CAD for the week.",
+   "act": "Build and run a small test for two weeks and record the measure.",
+   "std": "Task: run a small test. Condition: real users, fixed time. Standard: measure set in advance, results recorded and one decision made."
+  },
+  "4": {
+   "title": "Choose a business form and meet Canadian rules",
+   "intro": "How you set up affects tax, risk and paperwork. Check the options.",
+   "pts": [
+    "Common forms: sole proprietor, partnership, corporation. They differ in liability, tax and cost to set up. Ask an accountant or lawyer for your case.",
+    "Register your business name and get any needed local licences. Check with the provincial and city offices.",
+    "Register for a business number and sales tax once required. If you hire, payroll deductions must be remitted. Check the current rules with the tax agency.",
+    "If there are several founders, put in writing who owns what and what happens if someone leaves.",
+    "Ask an accountant about the tax effects of each business form before you choose.",
+    "Check whether your name, domain and logo are free to use.",
+    "Write the date each registration or filing is due, and set a reminder."
+   ],
+   "ex": "Rules table row: 'Business name | provincial registry | register before using the name | before launch | registration kept on file'. If registration takes 2 weeks and launch is in week 6, apply by week 4 at the latest, and sooner for a safety margin.",
+   "act": "Build a rules table and a one-page founder agreement outline.",
+   "std": "Task: build a rules table and outline. Condition: official pages and one adviser conversation. Standard: each row has a dated source; the outline covers roles, ownership and exit."
+  },
+  "5": {
+   "title": "Plan money, price and runway",
+   "intro": "Count costs and cash. Many start-ups fail from running out of cash, not from a bad idea.",
+   "pts": [
+    "List start-up costs and monthly costs. Separate fixed and variable.",
+    "Margin per unit = price minus variable cost. Break-even = fixed cost divided by margin.",
+    "Plan three cases: low, expected and high sales.",
+    "Learn about public grants, loans and programs for new business, and read the terms. Check current programs with business support offices.",
+    "Add a cash buffer for the first three months of costs.",
+    "Compare your monthly cash in and cash out, and note the lowest balance.",
+    "Check what is due and when, such as tax, rent and supplier payments."
+   ],
+   "ex": "Price 150 per job, variable cost 35, margin 115. Fixed cost 1,380 a month: break-even is 1,380 / 115 = 12 jobs. At 15 jobs, margin is 15 x 115 = 1,725, so profit is 1,725 - 1,380 = 345 CAD. Teaching figures only.",
+   "act": "Build a 12-month cash plan with three cases and a runway number.",
+   "std": "Task: build a cash plan. Condition: spreadsheet with visible formulas. Standard: units shown, three cases, runway computed, mentor checks arithmetic."
+  },
+  "6": {
+   "title": "Run a lean week and keep records",
+   "intro": "A start-up runs on a few clear numbers and weekly habits.",
+   "pts": [
+    "Pick three weekly measures, such as new leads, paying customers and cash.",
+    "Hold a short weekly review and choose one action.",
+    "Keep invoices, receipts and bank records in order from day one.",
+    "Review with an adviser each quarter.",
+    "Write the one action you will take for each of the three measures.",
+    "Pay yourself on a schedule and record it as a cost.",
+    "Spend 30 minutes each week entering receipts and bank lines so the books never fall behind."
+   ],
+   "ex": "Week 5: 12 leads, 3 paying customers, cash 4,100. Conversion is 3 / 12 = 25 percent. Action: call back the leads that did not reply. If two of the nine become customers, next week's total is 5.",
+   "act": "Run a four-week log with the weekly one-page check.",
+   "std": "Task: run and log four weeks. Condition: real or practice venture. Standard: four weekly pages complete and each action is dated with a result."
+  },
+  "7": {
+   "title": "Sell and win early customers",
+   "intro": "Early customers teach you the most.",
+   "pts": [
+    "Start with direct contact and personal introductions.",
+    "Write a one-page offer: who, what, result, proof, price, how to start.",
+    "Use consent for emails and texts; follow the current anti-spam rules.",
+    "Track a funnel and fix the weakest step first.",
+    "Ask each early customer for a short written comment, with permission to share it.",
+    "Offer a small discount for the first few customers in return for feedback.",
+    "Keep a list of every person you contact, the date and the reply."
+   ],
+   "ex": "Funnel: 40 contacts, 12 conversations, 5 offers, 2 customers. Contact to conversation is 12 / 40 = 30 percent, conversation to offer is 5 / 12, about 42 percent, and offer to customer is 2 / 5 = 40 percent. Weakest step: contact to conversation.",
+   "act": "Send twenty consent-based messages and book five conversations.",
+   "std": "Task: run an outreach test. Condition: two weeks. Standard: messages logged, replies recorded, one test and its result written."
+  },
+  "8": {
+   "title": "Manage risk, pilot and decide",
+   "intro": "A pilot tells you whether to stop, change or grow.",
+   "pts": [
+    "Risk register: cash, key person, copy, data breach, supplier, rule changes.",
+    "Ask an adviser about intellectual property, such as trademarks, copyright and patents, before you share your idea widely.",
+    "Run a 60 to 90 day pilot with a stop rule.",
+    "Write the review and a 12-month plan with three milestones.",
+    "Decide which parts of your idea to keep secret, such as a recipe or a client list, and which to protect formally.",
+    "Choose the numbers that will show if the pilot works: customers, cash and repeat buyers.",
+    "List three people to ask for advice, and the question to ask each."
+   ],
+   "ex": "Stop rule: 'If we have fewer than five paying customers by day 60, we stop or change the offer.' With 12 jobs at 150 CAD, income would be 1,800 CAD. If only 4 customers have paid by day 60, the rule is triggered.",
+   "act": "Run the pilot and present the review and plan to a panel of three.",
+   "std": "Task: run a start-up pilot. Condition: legal and ethical practice. Standard: measures tracked, decision supported by numbers, plan clear."
+  }
+ },
+ "price": [
+  150,
+  35,
+  12,
+  "job"
+ ],
+ "quiz": [
+  [
+   "What is runway?",
+   "Months you can run before cash ends.",
+   1
+  ],
+  [
+   "Why talk to ten people first?",
+   "To learn the real problem before building.",
+   2
+  ],
+  [
+   "What is a prototype for?",
+   "To learn, not to impress.",
+   2
+  ],
+  [
+   "What does a test need before it starts?",
+   "One measure of success and a fixed time.",
+   3
+  ],
+  [
+   "Name two common business forms.",
+   "Sole proprietor and corporation (or partnership).",
+   4
+  ],
+  [
+   "Why write a founder agreement?",
+   "To fix ownership, roles and what happens if someone leaves.",
+   4
+  ],
+  [
+   "How is break-even found?",
+   "Fixed cost divided by margin per unit.",
+   5
+  ],
+  [
+   "Why plan low, expected and high cases?",
+   "Because real sales are uncertain.",
+   5
+  ],
+  [
+   "What three things might a weekly check track?",
+   "Leads, paying customers and cash.",
+   6
+  ],
+  [
+   "What if you cannot find a rule?",
+   "Ask the official office or an adviser and keep the answer in writing.",
+   8
+  ]
+ ],
+ "jobs": [
+  "Business support assistant",
+  "Startup operations coordinator",
+  "Bookkeeping helper",
+  "Marketing assistant",
+  "Product tester",
+  "Startup founder"
+ ]
+}

@@ -1,0 +1,291 @@
+{
+ "id": "GL-65",
+ "title": "Greenhouse Gas Auditing",
+ "level": 5,
+ "desc": "Measure, report and reduce greenhouse gas emissions for an organisation using recognised accounting scopes and data checks.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain scopes 1, 2 and 3 and emission factors."
+  ],
+  [
+   "Apply",
+   "Collect activity data and calculate emissions."
+  ],
+  [
+   "Analyse",
+   "Find hotspots and data gaps."
+  ],
+  [
+   "Evaluate",
+   "Judge data quality and boundaries."
+  ],
+  [
+   "Create",
+   "Produce an inventory report and reduction plan."
+  ]
+ ],
+ "task": "Build a greenhouse gas inventory for one small organisation (practice case), with boundary, data, factors, hotspot analysis and reduction plan.",
+ "condition": "A computer, a spreadsheet, public emission factors, two peers and a mentor. A practice dataset may be used.",
+ "standard": "Boundary is stated; each number has unit and source; calculations reproduce; data quality is rated; plan has measurable targets; peers rate Meets or better.",
+ "who": "Sustainability officers, finance staff, engineers, consultants in training.",
+ "req": "none",
+ "evidence": "boundary note, data sheet, inventory, hotspot chart, plan",
+ "modules": [
+  [
+   "Why measure emissions",
+   "Understand",
+   3,
+   "You cannot reduce what you do not count.",
+   [
+    "Greenhouse gases trap heat; carbon dioxide is the main one, followed by methane and nitrous oxide.",
+    "CO2e converts other gases to CO2 equivalent using warming factors.",
+    "Reporting supports saving money, customer requests and regulation.",
+    "Use recognised methods and keep records."
+   ],
+   "Methane has a larger warming effect than CO2 per tonne, so a leaking gas line is expressed as tonnes CO2e. Replacing old lights with LEDs saves 2 tonnes CO2e and 20,000 INR a year (an estimate; check your market).",
+   "Explain CO2e and a baseline year to a peer.",
+   "Check that a peer can explain both terms."
+  ],
+  [
+   "Boundaries and scopes",
+   "Understand",
+   4,
+   "Decide what is in and what is out, and write it down.",
+   [
+    "Organisational boundary by control or ownership.",
+    "Scope 1: direct emissions from fuel, vehicles and leaks. Scope 2: purchased electricity, heat and cooling. Scope 3: everything else in the chain.",
+    "Record exclusions and reasons.",
+    "Keep the boundary the same each year."
+   ],
+   "Company vehicles are scope 1; electricity is scope 2; business flights and purchased goods are scope 3. A rented warehouse is excluded and the reason is recorded.",
+   "Set a boundary for a practice organisation with two inclusions and two exclusions.",
+   "Write the boundary and justify it."
+  ],
+  [
+   "Collecting activity data",
+   "Apply",
+   5,
+   "Good data comes before good calculations.",
+   [
+    "Sources: bills, meters, fuel logs, travel records and purchase records.",
+    "Units must match: litres, kWh, km, kg.",
+    "Record source and date; keep invoices.",
+    "Fill gaps with clearly labelled estimates."
+   ],
+   "Fuel invoices give 1,200 litres of diesel. Missing March data is estimated from February and April and flagged as an estimate.",
+   "Collect and list data for a practice case with sources.",
+   "Record a unit, source and date on every line."
+  ],
+  [
+   "Emission factors and calculation",
+   "Apply",
+   5,
+   "Emissions equal activity data multiplied by an emission factor.",
+   [
+    "Use recent factors for your country and year and keep the version.",
+    "Show each calculation line by line.",
+    "Check units and decimal places.",
+    "Separate fuels, electricity and refrigerants."
+   ],
+   "Using example factors (always use current published ones): 1,200 L x 2.68 kg CO2 per litre = 3,216 kg CO2. 40,000 kWh x 0.82 kg CO2e per kWh = 32,800 kg CO2e.",
+   "Calculate five lines with a factor table.",
+   "Check that the maths and units are correct."
+  ],
+  [
+   "Scope 3 estimates",
+   "Analyse",
+   5,
+   "The chain is often the largest part, and the hardest to measure.",
+   [
+    "Start with the largest categories: purchased goods, travel, commuting, waste.",
+    "Use spend-based factors where activity data is unavailable and say so.",
+    "Ask the top suppliers for their data.",
+    "Improve estimates yearly."
+   ],
+   "Purchased goods account for 35 per cent of the total using spend factors; commuting 11 per cent and travel 22 per cent.",
+   "Estimate two scope 3 categories and rank all categories.",
+   "State the method and show the ranking."
+  ],
+  [
+   "Data quality and checks",
+   "Evaluate",
+   4,
+   "Numbers must be trusted.",
+   [
+    "Reconcile totals with bills and look for outliers.",
+    "Check for double counting.",
+    "Rate data quality high, medium or low.",
+    "Have a second person reproduce one number."
+   ],
+   "A sample check finds a unit error (MWh entered as kWh) that changes the total by 1,000 times. A duplicated invoice is also removed.",
+   "Review a data set and log issues.",
+   "Complete and log at least three checks."
+  ],
+  [
+   "Hotspots and reduction targets",
+   "Analyse",
+   4,
+   "Decide where action pays most.",
+   [
+    "Rank sources by tonnes.",
+    "Estimate tonnes saved per INR spent for each action.",
+    "Set targets with dates and owners.",
+    "Track progress quarterly."
+   ],
+   "Fixing refrigerant leaks saves 6 tonnes CO2e for 15,000 INR; efficient lighting saves 8 per cent for a two-year payback.",
+   "Draw a hotspot chart and rank five actions.",
+   "Rank using tonnes and cost."
+  ],
+  [
+   "Reporting and verification",
+   "Create",
+   4,
+   "Share results honestly.",
+   [
+    "Report summary, method, boundary, exclusions and limits.",
+    "Have an independent review where possible.",
+    "Update yearly and compare to the baseline.",
+    "Publish what you can and keep the evidence."
+   ],
+   "The report states excluded sources, data quality ratings and the baseline. A peer repeats the diesel calculation and gets the same result.",
+   "Write the report and ask a peer to reproduce one number.",
+   "Report is reproducible and peer confirmed one number."
+  ]
+ ],
+ "quiz": [
+  [
+   "What are scope 1, 2 and 3?",
+   "Direct, purchased energy, other chain emissions."
+  ],
+  [
+   "What is CO2e?",
+   "CO2 equivalent of other gases."
+  ],
+  [
+   "Emissions formula?",
+   "Activity data x emission factor."
+  ],
+  [
+   "Why record sources?",
+   "To audit."
+  ],
+  [
+   "Name a scope 3 category.",
+   "Purchased goods, travel, commuting or waste."
+  ],
+  [
+   "Double counting?",
+   "Counting the same emission twice."
+  ],
+  [
+   "Why local factors?",
+   "Grids and fuels differ."
+  ],
+  [
+   "Why state exclusions?",
+   "Honesty."
+  ],
+  [
+   "How rate data quality?",
+   "High, medium, low."
+  ],
+  [
+   "How often update?",
+   "Yearly."
+  ]
+ ],
+ "rubric": [
+  [
+   "Boundary and method",
+   "Unclear",
+   "Clear",
+   "Clear and verified"
+  ],
+  [
+   "Calculations",
+   "Errors",
+   "Correct",
+   "Reproducible"
+  ],
+  [
+   "Reduction plan",
+   "None",
+   "Targets",
+   "Costed targets"
+  ],
+  [
+   "Source of factors",
+   "Factors unsourced",
+   "Each emission factor names its source, year and unit",
+   "Factors from one consistent set, with any change of set explained"
+  ],
+  [
+   "Reporting rules",
+   "Reporting rules not checked",
+   "The reporting rule and any threshold for the place are written down",
+   "Rule checked on the regulator's page and the report format used"
+  ]
+ ],
+ "jobs": [
+  [
+   "Carbon accounting assistant",
+   "Builds inventories"
+  ],
+  [
+   "Sustainability data analyst",
+   "Checks data"
+  ],
+  [
+   "Energy manager trainee",
+   "Finds savings"
+  ],
+  [
+   "ESG reporting assistant",
+   "Prepares reports"
+  ],
+  [
+   "Supplier data coordinator",
+   "Collects scope 3 data"
+  ]
+ ],
+ "next": "wind and solar basics, water management, biofuels.",
+ "local": "Reporting rules and emission factors differ by place and year.",
+ "ladder": [
+  [
+   "Why measure emissions",
+   "L1: learner can say what CO2e means. Focus module: Why measure emissions (Understand, 3 h). You cannot reduce what you do not count. Key points: Greenhouse gases trap heat; carbon dioxide is the main one, followed by methane and nitrous oxide. CO2e converts other gases to CO2 equivalent using warming factors. Reporting supports saving money, customer requests and regulation. Use recognised methods and keep records.",
+   "Teach: open with the worked example. Methane has a larger warming effect than CO2 per tonne, so a leaking gas line is expressed as tonnes CO2e. Replacing old lights with LEDs saves 2 tonnes CO2e and 20,000 INR a year. Then set the activity: Explain CO2e and a baseline year to a peer. Mark against the standard: Peer can explain both terms. Check at this level: What is CO2e? Model answer: CO2 equivalent of other gases."
+  ],
+  [
+   "Boundaries and scopes",
+   "L2: learner knows scopes. Focus module: Boundaries and scopes (Understand, 4 h). Decide what is in and what is out, and write it down. Key points: Organisational boundary by control or ownership. Scope 1: direct emissions from fuel, vehicles and leaks. Scope 2: purchased electricity, heat and cooling. Scope 3: everything else in the chain. Record exclusions and reasons. Keep the boundary the same each year.",
+   "Teach: open with the worked example. Company vehicles are scope 1; electricity is scope 2; business flights and purchased goods are scope 3. A rented warehouse is excluded and the reason is recorded. Then set the activity: Set a boundary for a practice organisation with two inclusions and two exclusions. Mark against the standard: Boundary is written and justified. Check at this level: What are scope 1, 2 and 3? Model answer: Direct, purchased energy, other chain emissions."
+  ],
+  [
+   "Collecting activity data",
+   "L3: learner can collect data. Focus module: Collecting activity data (Apply, 5 h). Good data comes before good calculations. Key points: Sources: bills, meters, fuel logs, travel records and purchase records. Units must match: litres, kWh, km, kg. Record source and date; keep invoices. Fill gaps with clearly labelled estimates.",
+   "Teach: open with the worked example. Fuel invoices give 1,200 litres of diesel. Missing March data is estimated from February and April and flagged as an estimate. Then set the activity: Collect and list data for a practice case with sources. Mark against the standard: Every line has unit, source and date. Check at this level: Why record sources? Model answer: To audit."
+  ],
+  [
+   "Emission factors and calculation",
+   "L4: learner can calculate. Focus module: Emission factors and calculation (Apply, 5 h). Emissions equal activity data multiplied by an emission factor. Key points: Use recent factors for your country and year and keep the version. Show each calculation line by line. Check units and decimal places. Separate fuels, electricity and refrigerants.",
+   "Teach: open with the worked example. Using example factors (always use current published ones): 1,200 L x 2.68 kg CO2 per litre = 3,216 kg CO2. 40,000 kWh x 0.82 kg CO2e per kWh = 32,800 kg CO2e. Then set the activity: Calculate five lines with a factor table. Mark against the standard: Maths and units are correct. Check at this level: Emissions formula? Model answer: Activity data x emission factor."
+  ],
+  [
+   "Scope 3 estimates",
+   "L5: learner can find hotspots. Focus module: Scope 3 estimates (Analyse, 5 h). The chain is often the largest part, and the hardest to measure. Key points: Start with the largest categories: purchased goods, travel, commuting, waste. Use spend-based factors where activity data is unavailable and say so. Ask the top suppliers for their data. Improve estimates yearly.",
+   "Teach: open with the worked example. Purchased goods account for 35 per cent of the total using spend factors; commuting 11 per cent and travel 22 per cent. Then set the activity: Estimate two scope 3 categories and rank all categories. Mark against the standard: Method stated and ranking shown. Check at this level: Name a scope 3 category. Model answer: Purchased goods, travel, commuting or waste."
+  ],
+  [
+   "Hotspots and reduction targets",
+   "L6: learner can lead an inventory. Focus module: Hotspots and reduction targets (Analyse, 4 h). Decide where action pays most. Key points: Rank sources by tonnes. Estimate tonnes saved per rupee spent for each action. Set targets with dates and owners. Track progress quarterly.",
+   "Teach: open with the worked example. Fixing refrigerant leaks saves 6 tonnes CO2e for 15,000 INR; efficient lighting saves 8 per cent for a two-year payback. Then set the activity: Draw a hotspot chart and rank five actions. Mark against the standard: Ranking uses tonnes and cost. Check at this level: How do you rank actions to cut emissions? Model answer: By tonnes saved per rupee spent."
+  ],
+  [
+   "Reporting and verification",
+   "L7: learner can audit. Focus module: Reporting and verification (Create, 4 h). Share results honestly. Key points: Report summary, method, boundary, exclusions and limits. Have an independent review where possible. Update yearly and compare to the baseline. Publish what you can and keep the evidence.",
+   "Teach: open with the worked example. The report states excluded sources, data quality ratings and the baseline. A peer repeats the diesel calculation and gets the same result. Then set the activity: Write the report and ask a peer to reproduce one number. Mark against the standard: Report is reproducible and peer confirmed one number. Check at this level: Why state exclusions? Model answer: Honesty."
+  ]
+ ]
+}

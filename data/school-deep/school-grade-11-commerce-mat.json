@@ -1,0 +1,278 @@
+{
+ "slug": "school-grade-11-commerce-mat.html",
+ "plan": "grade-11-commerce",
+ "subject": "MAT",
+ "subject_name": "Mathematics",
+ "kind": "maths",
+ "label": "Grade 11 Commerce",
+ "band": "post",
+ "level": 5,
+ "weeks": 36,
+ "task": "Meet the outcome of every unit in Grade 11 Commerce Mathematics, and keep one piece of evidence for each.",
+ "condition": "A 36-week school year, 6 units, a teacher or guide, a learning book or device, and local examples in the local language first with English support.",
+ "standard": "Each unit: at least 70 percent on an exam-style task, with the method shown. Course pass: no unit at 'Not yet' after one retry, and a pass in SA1 and SA2.",
+ "modules": [
+  {
+   "n": 1,
+   "title": "Sets, relations and functions",
+   "bloom": "Apply",
+   "weeks": [
+    1,
+    6
+   ],
+   "hours": 18,
+   "outcome": "use set notation and functions",
+   "intro": "In this unit, 'Sets, relations and functions', you learn to use set notation and functions. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Sets, relations and functions' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: use set notation and functions. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: A = {1, 2, 3} and B = {2, 3, 4}. Union = {1, 2, 3, 4}. Intersection = {2, 3}. Method: Model run for 'Sets, relations and functions'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Use set notation and functions: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Set operations: A = {1, 2, 3, 4, 5} and B = {2, 4, 6}. Union A U B = {1, 2, 3, 4, 5, 6}, intersection = {2, 4}, difference A - B = {1, 3, 5}. List each element once.",
+    "Step 2, Count with the formula n(A U B) = n(A) + n(B) - n(A n B) = 5 + 3 - 2 = 6. This agrees with the six elements listed. The formula avoids counting the overlap twice.",
+    "Step 3, Survey problem: of 60 students, 35 like tea, 28 like coffee and 10 like both. Either drink: 35 + 28 - 10 = 53. So 60 - 53 = 7 like neither.",
+    "Step 4, Function values: f(x) = 2x + 3 on the domain {1, 2, 3} gives f(1) = 5, f(2) = 7, f(3) = 9, so the range is {5, 7, 9}. Each input has exactly one output, so f is a function.",
+    "Step 5, Domain: for f(x) = 1/(x - 2), the denominator must not be zero, so the domain is all real numbers except 2. And f(x) = x^2 - 1 gives f(-2) = 4 - 1 = 3.",
+    "Step 6, Your turn: if n(A) = 20, n(B) = 15 and n(A U B) = 28, find n(A n B), and find f(4) for f(x) = 3x - 1. Answer: 20 + 15 - 28 = 7; f(4) = 11."
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Trigonometry and sequences",
+   "bloom": "Apply",
+   "weeks": [
+    7,
+    12
+   ],
+   "hours": 18,
+   "outcome": "use sequences, series and basic trigonometry",
+   "intro": "In this unit, 'Trigonometry and sequences', you learn to use sequences, series and basic trigonometry. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Trigonometry and sequences' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: use sequences, series and basic trigonometry. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Right triangle, opposite side 3, hypotenuse 5, adjacent side 4. sin = 3/5 = 0.6, cos = 4/5 = 0.8, tan = 3/4 = 0.75. Method: Model run for 'Trigonometry and sequences'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Use sequences, series and basic trigonometry: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Arithmetic progression: a = 5 and d = 3. The 8th term is a + 7d = 5 + 21 = 26. The sum of 8 terms is 8/2 x (5 + 26) = 4 x 31 = 124.",
+    "Step 2, Geometric progression: 2, 6, 18, ... has a = 2 and r = 3. The 5th term = 2 x 3^4 = 162. Sum of 5 terms = 2(3^5 - 1)/(3 - 1) = 242. Check: 2 + 6 + 18 + 54 + 162 = 242.",
+    "Step 3, Business use: 10,000 invested at 10 percent compound interest grows as a GP with ratio 1.1. After 3 years the amount is 10,000 x 1.1^3 = 13,310.",
+    "Step 4, Trigonometry: if tan theta = 3/4 in the first quadrant, the hypotenuse is 5, so sin theta = 3/5 and cos theta = 4/5. Convert degrees to radians with 180 degrees = pi, so 60 degrees = pi/3.",
+    "Step 5, Check the GP sum formula with a short case: 3 terms of 2, 6, 18 sum to 2(27 - 1)/2 = 26, and 2 + 6 + 18 = 26. Matching small cases build trust in the formula.",
+    "Step 6, Your turn: find the sum of the first 6 terms of the GP 3, 6, 12, ... Answer: S_6 = 3(2^6 - 1)/(2 - 1) = 3 x 63 = 189."
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Complex numbers and quadratic equations",
+   "bloom": "Apply",
+   "weeks": [
+    13,
+    18
+   ],
+   "hours": 18,
+   "outcome": "solve quadratics and work with complex numbers",
+   "intro": "In this unit, 'Complex numbers and quadratic equations', you learn to solve quadratics and work with complex numbers. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Complex numbers and quadratic equations' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: solve quadratics and work with complex numbers. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: x squared - 5x + 6 = 0 factorises as (x - 2)(x - 3) = 0, so x = 2 or x = 3. Check x = 2: 4 - 10 + 6 = 0. Method: Model run for 'Complex numbers and quadratic equations'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Solve quadratics and work with complex numbers: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Add and multiply complex numbers: (3 + 2i) + (1 - 4i) = 4 - 2i. And (2 + 3i)(1 - i) = 2 - 2i + 3i - 3i^2 = 2 + i + 3 = 5 + i, using i^2 = -1.",
+    "Step 2, Conjugate and modulus: the conjugate of 3 - 4i is 3 + 4i. The modulus of 3 - 4i is the root of (9 + 16) = root of 25 = 5. Also (3 - 4i)(3 + 4i) = 9 + 16 = 25, which equals the modulus squared.",
+    "Step 3, Quadratic with complex roots: x^2 + 2x + 5 = 0 has discriminant 4 - 20 = -16. So x = (-2 plus or minus 4i)/2 = -1 plus or minus 2i.",
+    "Step 4, Check: substitute x = -1 + 2i. x^2 = 1 - 4i + 4i^2 = -3 - 4i. Then x^2 + 2x + 5 = (-3 - 4i) + (-2 + 4i) + 5 = 0. The root works.",
+    "Step 5, Real roots: x^2 - 5x + 6 = 0 factorises as (x - 2)(x - 3), giving x = 2 or 3 with discriminant 25 - 24 = 1 > 0. A positive discriminant gives real roots, a negative one gives complex roots.",
+    "Step 6, Your turn: find (4 + i)(4 - i) and solve x^2 - 2x + 10 = 0. Answer: 16 + 1 = 17; discriminant 4 - 40 = -36, so x = 1 plus or minus 3i."
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Permutations, combinations and the binomial theorem",
+   "bloom": "Remember",
+   "weeks": [
+    19,
+    24
+   ],
+   "hours": 18,
+   "outcome": "count arrangements",
+   "intro": "In this unit, 'Permutations, combinations and the binomial theorem', you learn to count arrangements. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Permutations, combinations and the binomial theorem' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: count arrangements. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Arrange 5 books in 3 places: 5 x 4 x 3 = 60 ways. Choose 3 of 5: 60 / 6 = 10 ways. Method: Model run for 'Permutations, combinations and the binomial theorem'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Count arrangements: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Factorial and arrangements: 5! = 5 x 4 x 3 x 2 x 1 = 120. The 5 distinct letters of MATHS can be arranged in 120 ways. For LEVEL, with E twice and L twice, it is 5!/(2! x 2!) = 120/4 = 30.",
+    "Step 2, Permutations: P(7, 2) = 7 x 6 = 42 ways to choose a president and a secretary from 7 people, where order matters. Combination: C(8, 3) = 8 x 7 x 6 / 6 = 56 where order does not matter.",
+    "Step 3, Committee problem: choose 3 from 5 men and 4 women with 2 men and 1 woman. C(5, 2) x C(4, 1) = 10 x 4 = 40 ways. Multiply the independent choices.",
+    "Step 4, Binomial theorem: (x + 2)^4 = x^4 + 4x^3 x 2 + 6x^2 x 4 + 4x x 8 + 16 = x^4 + 8x^3 + 24x^2 + 32x + 16. Check with x = 1: 3^4 = 81 and 1 + 8 + 24 + 32 + 16 = 81.",
+    "Step 5, Check C(8, 3) = C(8, 5) = 56. Choosing 3 to take is the same as choosing 5 to leave. This symmetry helps with larger numbers, e.g. C(10, 8) = C(10, 2) = 45.",
+    "Step 6, Your turn: find C(10, 2) and the number of 4-digit codes from digits 1 to 6 with no repeats. Answer: 45; and P(6, 4) = 6 x 5 x 4 x 3 = 360."
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Straight lines and introduction to limits",
+   "bloom": "Apply",
+   "weeks": [
+    25,
+    30
+   ],
+   "hours": 18,
+   "outcome": "use line equations and simple limits",
+   "intro": "In this unit, 'Straight lines and introduction to limits', you learn to use line equations and simple limits. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Straight lines and introduction to limits' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: use line equations and simple limits. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Points (1, 2) and (4, 6). Distance = square root of (3 squared + 4 squared) = square root of 25 = 5. Slope = (6 - 2) / (4 - 1) = 4/3. Method: Model run for 'Straight lines and introduction to limits'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Use line equations and simple limits: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Equation of a line: through (1, 2) and (3, 8) the slope is (8 - 2)/(3 - 1) = 3. Using point-slope, y - 2 = 3(x - 1), so y = 3x - 1. Check with (3, 8): 9 - 1 = 8.",
+    "Step 2, Parallel and perpendicular: the line 2x + 3y = 6 has slope -2/3. A parallel line has the same slope. A perpendicular line has slope 3/2 because (-2/3) x (3/2) = -1.",
+    "Step 3, Intercept form: the line x/4 + y/3 = 1 meets the axes at (4, 0) and (0, 3). Multiply by 12 to get 3x + 4y = 12. Check (4, 0): 12 = 12.",
+    "Step 4, Limit by factorising: lim as x approaches 2 of (x^2 - 4)/(x - 2). Direct substitution gives 0/0, so factorise: (x - 2)(x + 2)/(x - 2) = x + 2, which tends to 4.",
+    "Step 5, Simple limit: lim as x approaches 3 of (2x + 1) = 7 by substitution. Business use: cost C = 50 + 8x is a line with fixed cost 50 and slope 8 per unit, so 20 units cost 210.",
+    "Step 6, Your turn: write the line through (0, -1) with slope 2, and find the limit of (x^2 - 1)/(x - 1) as x approaches 1. Answer: y = 2x - 1; the limit is x + 1 = 2."
+   ]
+  },
+  {
+   "n": 6,
+   "title": "Statistics and probability",
+   "bloom": "Apply",
+   "weeks": [
+    31,
+    36
+   ],
+   "hours": 18,
+   "outcome": "find mean, variance and probability",
+   "intro": "In this unit, 'Statistics and probability', you learn to find mean, variance and probability. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Statistics and probability' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: find mean, variance and probability. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Data 4, 7, 7, 9, 13. Mean = 40 / 5 = 8. Median (middle value) = 7. Mode (most common) = 7. Method: Model run for 'Statistics and probability'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Find mean, variance and probability: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Mean and deviations: data 4, 8, 6, 10, 12 has mean 40/5 = 8. Deviations are -4, 0, -2, 2, 4. Their squares are 16, 0, 4, 4, 16, which add up to 40.",
+    "Step 2, Variance = 40/5 = 8 and standard deviation = root 8 = about 2.83. Check: the sizes of the deviations are 4, 0, 2, 2, 4, and a typical size near 2.83 is believable for this spread.",
+    "Step 3, Addition rule: P(A) = 0.5, P(B) = 0.4 and P(A and B) = 0.2. Then P(A or B) = 0.5 + 0.4 - 0.2 = 0.7. Subtracting the overlap avoids double counting.",
+    "Step 4, Two dice: a sum of 7 happens in 6 ways, (1,6), (2,5), (3,4), (4,3), (5,2), (6,1), out of 36. So P = 6/36 = 1/6.",
+    "Step 5, Independent events: if P(A) = 0.6 and P(B) = 0.3 are independent, then P(A and B) = 0.6 x 0.3 = 0.18, and P(A or B) = 0.6 + 0.3 - 0.18 = 0.72.",
+    "Step 6, Your turn: find the variance of 2, 4, 6, 8. Answer: mean 5, squared deviations 9, 1, 1, 9 sum to 20, so variance 20/4 = 5."
+   ]
+  }
+ ],
+ "rubric": [
+  [
+   "Accuracy",
+   "Frequent errors",
+   "Mostly correct",
+   "Correct, checked"
+  ],
+  [
+   "Method shown",
+   "Answer only",
+   "Steps shown",
+   "Steps shown with reasons"
+  ],
+  [
+   "Problem solving",
+   "Needs the method told",
+   "Chooses the method",
+   "Chooses and explains why"
+  ],
+  [
+   "Communication",
+   "Hard to follow",
+   "Clear working",
+   "Clear working with correct terms"
+  ],
+  [
+   "Practice habit",
+   "Rarely practises",
+   "Practises weekly",
+   "Practises most days with an error log"
+  ]
+ ],
+ "checks": [
+  [
+   "Unit 1 (Sets, relations and functions): If n(A) = 20, n(B) = 15 and n(A U B) = 28, find n(A n B), and find f(4) for f(x) = 3x - 1.",
+   "20 + 15 - 28 = 7; f(4) = 11. (Covered in unit 1: Sets, relations and functions.)"
+  ],
+  [
+   "Unit 2 (Trigonometry and sequences): Find the sum of the first 6 terms of the GP 3, 6, 12, .",
+   "S_6 = 3(2^6 - 1)/(2 - 1) = 3 x 63 = 189. (Covered in unit 2: Trigonometry and sequences.)"
+  ],
+  [
+   "Unit 3 (Complex numbers and quadratic equations): Find (4 + i)(4 - i) and solve x^2 - 2x + 10 = 0.",
+   "16 + 1 = 17; discriminant 4 - 40 = -36, so x = 1 plus or minus 3i. (Covered in unit 3: Complex numbers and quadratic equations.)"
+  ],
+  [
+   "Unit 4 (Permutations, combinations and the binomial theorem): Find C(10, 2) and the number of 4-digit codes from digits 1 to 6 with no repeats.",
+   "45; and P(6, 4) = 6 x 5 x 4 x 3 = 360. (Covered in unit 4: Permutations, combinations and the binomial theorem.)"
+  ],
+  [
+   "Unit 5 (Straight lines and introduction to limits): Write the line through (0, -1) with slope 2, and find the limit of (x^2 - 1)/(x - 1) as x approaches 1.",
+   "y = 2x - 1; the limit is x + 1 = 2. (Covered in unit 5: Straight lines and introduction to limits.)"
+  ],
+  [
+   "Unit 6 (Statistics and probability): Find the variance of 2, 4, 6, 8.",
+   "mean 5, squared deviations 9, 1, 1, 9 sum to 20, so variance 20/4 = 5. (Covered in unit 6: Statistics and probability.)"
+  ],
+  [
+   "Unit 1 (Sets, relations and functions): Count with the formula n(A U B) = n(A) + n(B) - n(A n B) = 5 + 3 - 2 = 6. Show how you do it and say what the result is.",
+   "This agrees with the six elements listed. The formula avoids counting the overlap twice. (Covered in unit 1: Sets, relations and functions.)"
+  ],
+  [
+   "Unit 2 (Trigonometry and sequences): Geometric progression. Show how you do it and say what the result is.",
+   "2, 6, 18, ... has a = 2 and r = 3. The 5th term = 2 x 3^4 = 162. Sum of 5 terms = 2(3^5 - 1)/(3 - 1) = 242. Check: 2 + 6 + 18 + 54 + 162 = 242. (Covered in unit 2: Trigonometry and sequences.)"
+  ],
+  [
+   "Unit 3 (Complex numbers and quadratic equations): Conjugate and modulus. Show how you do it and say what the result is.",
+   "the conjugate of 3 - 4i is 3 + 4i. The modulus of 3 - 4i is the root of (9 + 16) = root of 25 = 5. Also (3 - 4i)(3 + 4i) = 9 + 16 = 25, which equals the modulus squared. (Covered in unit 3: Complex numbers and quadratic equations.)"
+  ],
+  [
+   "Unit 4 (Permutations, combinations and the binomial theorem): Permutations. Show how you do it and say what the result is.",
+   "P(7, 2) = 7 x 6 = 42 ways to choose a president and a secretary from 7 people, where order matters. Combination: C(8, 3) = 8 x 7 x 6 / 6 = 56 where order does not matter. (Covered in unit 4: Permutations, combinations and the binomial theorem.)"
+  ]
+ ],
+ "ladder": [
+  "L1: count, add and subtract small numbers; name shapes.",
+  "L2: use the four operations, fractions and simple measures.",
+  "L3: work with ratio, algebra beginnings and geometry reasoning.",
+  "L4: algebra, geometry proof, trigonometry and statistics.",
+  "L5: functions, calculus, vectors and probability.",
+  "L6 (degree): proof, linear algebra and modelling.",
+  "L7 (postgraduate): research mathematics, data science or teaching at depth."
+ ],
+ "jobs": [],
+ "blooms": [
+  "Remember",
+  "Apply"
+ ]
+}

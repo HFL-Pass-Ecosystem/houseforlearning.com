@@ -1,0 +1,221 @@
+{
+ "slug": "school-grade-12-commerce-eco.html",
+ "plan": "grade-12-commerce",
+ "subject": "ECO",
+ "subject_name": "Economics",
+ "kind": "soc",
+ "label": "Grade 12 Commerce",
+ "band": "post",
+ "level": 5,
+ "weeks": 36,
+ "task": "Meet the outcome of every unit in Grade 12 Commerce Economics, and keep one piece of evidence for each.",
+ "condition": "A 36-week school year, 4 units, a teacher or guide, a learning book or device, and local examples in the local language first with English support.",
+ "standard": "Each unit: at least 70 percent on an exam-style task, with the method shown. Course pass: no unit at 'Not yet' after one retry, and a pass in SA1 and SA2.",
+ "modules": [
+  {
+   "n": 1,
+   "title": "National income and related aggregates",
+   "bloom": "Apply",
+   "weeks": [
+    1,
+    9
+   ],
+   "hours": 27,
+   "outcome": "measure national income",
+   "intro": "In this unit, 'National income and related aggregates', you learn to measure national income. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Place it: find where and when 'National income and related aggregates' happens, on a map, a timeline or in a local example.",
+    "Gather: read or listen to two short sources and note who is speaking and why.",
+    "Use it: measure national income. Give a reason and one piece of evidence for every point.",
+    "Weigh it: say what another person might think, and why, before you decide."
+   ],
+   "example": "Solved: GDP = C + I + G + (X - M) = 600 + 200 + 150 + (80 - 60) = 970. Method: Model run for 'National income and related aggregates'. Question: what happened, or what is the situation, and why? Sources: two short extracts, a map or table. Notes: who, what, where, when, why. Answer: three sentences, each with a reason and a piece of evidence. Check: is there a point of view that you have not considered? What a good answer looks like: facts are correct, reasons are linked to evidence, and one other point of view is named fairly.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Measure national income: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Use the expenditure method. Private consumption 600, investment 200, government spending 150, exports 100, imports 80. GDP at market price = 600 + 200 + 150 + (100 - 80) = 970. Net exports are exports minus imports.",
+    "Step 2, Move to national income. Depreciation 50, so NDP at market price = 970 - 50 = 920. Net factor income from abroad is -10, so NNP at market price = 910. Indirect taxes 70 minus subsidies 20 gives net indirect tax 50.",
+    "Step 3, Finish the chain. NNP at factor cost = 910 - 50 = 860, which is national income. Check with the income method: NDP at factor cost = 500 compensation + 280 operating surplus + 90 mixed income = 870. Subtracting 10 net factor income from abroad gives 860.",
+    "Step 4, Avoid double counting with value added. A farmer sells wheat for 40 to a miller; flour sells for 70 to a baker; bread sells for 120. Value added = 40 + 30 + 50 = 120, equal to the final product value, not 230.",
+    "Step 5, Real GDP. If nominal GDP is 970 and the price index is 110 with base 100, real GDP = 970 / 110 x 100 = 881.8 approximately. Model answer: 'Real GDP removes price changes, so it shows true output growth.'",
+    "Step 6, Your turn: GDP at market price 500, depreciation 30, net indirect tax 20, net factor income from abroad 5. Model answer: 'NDP at market price 470, NNP at market price 475, NNP at factor cost 455 (national income).'"
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Money, banking and income determination",
+   "bloom": "Understand",
+   "weeks": [
+    10,
+    18
+   ],
+   "hours": 27,
+   "outcome": "explain money creation and income determination",
+   "intro": "In this unit, 'Money, banking and income determination', you learn to explain money creation and income determination. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Place it: find where and when 'Money, banking and income determination' happens, on a map, a timeline or in a local example.",
+    "Gather: read or listen to two short sources and note who is speaking and why.",
+    "Use it: explain money creation and income determination. Give a reason and one piece of evidence for every point.",
+    "Weigh it: say what another person might think, and why, before you decide."
+   ],
+   "example": "Solved: Money multiplier = 1 / reserve ratio = 1 / 0.2 = 5. A deposit of 100 can support up to 500 in total deposits. Method: Model run for 'Money, banking and income determination'. Question: what happened, or what is the situation, and why? Sources: two short extracts, a map or table. Notes: who, what, where, when, why. Answer: three sentences, each with a reason and a piece of evidence. Check: is there a point of view that you have not considered? What a good answer looks like: facts are correct, reasons are linked to evidence, and one other point of view is named fairly.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Explain money creation and income determination: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Show how banks create money. A deposit of 1,000 is made and the required reserve ratio is 10 percent. The bank keeps 100 and lends 900, which returns as deposits. The money multiplier is 1 / 0.10 = 10, so total deposits can reach 10,000.",
+    "Step 2, Name central bank tools. To reduce credit, it raises the repo rate, cash reserve ratio or sells securities in open market operations. To raise credit, it does the opposite. A higher reserve ratio of 20 percent cuts the multiplier to 5.",
+    "Step 3, Find equilibrium income. Consumption is C = 100 + 0.75Y and investment is 50. Y = (100 + 50) / (1 - 0.75) = 150 / 0.25 = 600. Check: consumption 550 and saving 50 equals investment 50, so planned saving equals investment.",
+    "Step 4, Use the multiplier. Multiplier = 1 / (1 - MPC) = 1 / 0.25 = 4. If investment rises by 20, income rises by 20 x 4 = 80, to 680. New consumption 610 plus investment 70 equals 680.",
+    "Step 5, Analyse a gap. Full-employment income is 700. At 700, aggregate demand is 625 + 50 = 675, so there is a deficient demand gap of 25. Raising investment by 25 brings income up by 100 to 700.",
+    "Step 6, Your turn: MPC is 0.8; investment increases by 50. Model answer: 'The multiplier is 1 / 0.2 = 5, so income rises by 50 x 5 = 250.'"
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Government budget and the balance of payments",
+   "bloom": "Understand",
+   "weeks": [
+    19,
+    27
+   ],
+   "hours": 27,
+   "outcome": "describe the budget and exchange rates",
+   "intro": "In this unit, 'Government budget and the balance of payments', you learn to describe the budget and exchange rates. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Place it: find where and when 'Government budget and the balance of payments' happens, on a map, a timeline or in a local example.",
+    "Gather: read or listen to two short sources and note who is speaking and why.",
+    "Use it: describe the budget and exchange rates. Give a reason and one piece of evidence for every point.",
+    "Weigh it: say what another person might think, and why, before you decide."
+   ],
+   "example": "Solved: Revenue receipts 100, revenue expenditure 120: revenue deficit 20. Fiscal deficit = total expenditure minus total receipts excluding borrowing. Method: Model run for 'Government budget and the balance of payments'. Question: what happened, or what is the situation, and why? Sources: two short extracts, a map or table. Notes: who, what, where, when, why. Answer: three sentences, each with a reason and a piece of evidence. Check: is there a point of view that you have not considered? What a good answer looks like: facts are correct, reasons are linked to evidence, and one other point of view is named fairly.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Describe the budget and exchange rates: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, A government budget lists revenue and spending. Revenue is 800 and spending is 920, so the budget deficit is 920 - 800 = 120. If national income is 4,000, the deficit is 120 / 4,000 = 3 percent of national income. If revenue were bigger than spending it would be a surplus.",
+    "Step 2, Taxes raise revenue. Direct taxes, such as income tax, are paid on income. Indirect taxes, such as sales tax, are paid on goods. A progressive tax takes a larger share as income rises. If the first 10,000 is untaxed and the rest pays 20 percent, income of 30,000 pays 20 percent of 20,000, which is 4,000, an average rate of 13.3 percent.",
+    "Step 3, Fiscal policy uses spending and taxes to steer the economy. In a recession the government spends more or cuts taxes. If households spend 0.8 of extra income, the multiplier is 1 / (1 - 0.8) = 5, so extra spending of 50 raises national income by up to 250. In high inflation it does the reverse.",
+    "Step 4, The balance of payments records a country's dealings with the world. In the current account, goods exports 500 and imports 560 give a trade balance of -60. Add net services +30, net income -20 and transfers +15: -60 + 30 - 20 + 15 = -35, a current account deficit. Financial account inflows pay for it.",
+    "Step 5, Exchange rates. Say 1 foreign currency unit (FC) = 80 local units. A local good priced at 400 costs foreigners 400 / 80 = 5 FC. If the local currency depreciates to 100 per FC, the good costs 400 / 100 = 4 FC, so exports become cheaper, while an imported good priced at 5 FC now costs 500 local units.",
+    "Step 6, Your turn: revenue is 650 and spending is 600. Find the budget balance. If 1 FC = 50 local units, what is a 2,000 local-unit item worth in FC? Answer: a surplus of 650 - 600 = 50; and 2,000 / 50 = 40 FC."
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Indian economy and development",
+   "bloom": "Analyse",
+   "weeks": [
+    28,
+    36
+   ],
+   "hours": 27,
+   "outcome": "analyse development, poverty and reforms",
+   "intro": "In this unit, 'Indian economy and development', you learn to analyse development, poverty and reforms. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Place it: find where and when 'Indian economy and development' happens, on a map, a timeline or in a local example.",
+    "Gather: read or listen to two short sources and note who is speaking and why.",
+    "Use it: analyse development, poverty and reforms. Give a reason and one piece of evidence for every point.",
+    "Weigh it: say what another person might think, and why, before you decide."
+   ],
+   "example": "Solved: Compare two years of one indicator, such as literacy or per capita income, in a table; say the change in percent and one cause. Method: Model run for 'Indian economy and development'. Question: what happened, or what is the situation, and why? Sources: two short extracts, a map or table. Notes: who, what, where, when, why. Answer: three sentences, each with a reason and a piece of evidence. Check: is there a point of view that you have not considered? What a good answer looks like: facts are correct, reasons are linked to evidence, and one other point of view is named fairly.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Analyse development, poverty and reforms: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Date the policy phases. Planning began with the first Five Year Plan in 1951, which stressed agriculture, and from 1956 the plans gave priority to public sector heavy industry. By 1991 a balance of payments crisis, with very low foreign exchange reserves, led to reforms.",
+    "Step 2, Explain the 1991 reforms. They are summarised as liberalisation (fewer licences), privatisation (smaller state role in some sectors) and globalisation (lower import duties, foreign investment). Model answer should state both gains and costs in a balanced way.",
+    "Step 3, Compute growth. If GDP rises from 1,000 to 1,060 units, growth is (1,060 - 1,000) / 1,000 x 100 = 6 percent. If population grows 1.5 percent, per capita income grows roughly 4.5 percent, which affects living standards.",
+    "Step 4, Read sector shares. Agriculture has employed a large share of workers, often near 40 to 45 percent, but produces under 20 percent of output (check the current figure), so productivity per worker is low there. This gap explains why rural incomes lag and why shifting work to industry and services is a goal.",
+    "Step 5, Measure poverty. Head count ratio = poor / population x 100. If 220 million of 1,000 million live below the poverty line, the ratio is 22 percent. Compare using HDI as well, which includes health and education, not just income.",
+    "Step 6, Your turn: assess one effect of the 1991 reforms. Model answer: 'Services and exports grew faster because of openness, but inequality between regions and sectors persisted, so growth needs jobs and skills too.'"
+   ]
+  }
+ ],
+ "rubric": [
+  [
+   "Knowledge",
+   "Gaps",
+   "Main facts right",
+   "Facts right and linked"
+  ],
+  [
+   "Use of evidence",
+   "No evidence",
+   "Some evidence",
+   "Evidence for every point"
+  ],
+  [
+   "Reasoning",
+   "Statements only",
+   "Reasons given",
+   "Reasons weighed against another view"
+  ],
+  [
+   "Maps, dates and terms",
+   "Often wrong",
+   "Mostly right",
+   "Accurate and used well"
+  ],
+  [
+   "Practice habit",
+   "Rarely practises",
+   "Practises weekly",
+   "Practises most days and reflects"
+  ]
+ ],
+ "checks": [
+  [
+   "Unit 1 (National income and related aggregates): GDP at market price 500, depreciation 30, net indirect tax 20, net factor income from abroad 5.",
+   "'NDP at market price 470, NNP at market price 475, NNP at factor cost 455 (national income).' (Covered in unit 1: National income and related aggregates.)"
+  ],
+  [
+   "Unit 2 (Money, banking and income determination): MPC is 0.8; investment increases by 50.",
+   "'The multiplier is 1 / 0.2 = 5, so income rises by 50 x 5 = 250.' (Covered in unit 2: Money, banking and income determination.)"
+  ],
+  [
+   "Unit 3 (Government budget and the balance of payments): Revenue is 650 and spending is 600. Find the budget balance. If 1 FC = 50 local units, what is a 2,000 local-unit item worth in FC?",
+   "a surplus of 650 - 600 = 50; and 2,000 / 50 = 40 FC. (Covered in unit 3: Government budget and the balance of payments.)"
+  ],
+  [
+   "Unit 4 (Indian economy and development): Assess one effect of the 1991 reforms.",
+   "'Services and exports grew faster because of openness, but inequality between regions and sectors persisted, so growth needs jobs and skills too.' (Covered in unit 4: Indian economy and development.)"
+  ],
+  [
+   "Unit 1 (National income and related aggregates): Move to national income. Show how you do it and say what the result is.",
+   "Depreciation 50, so NDP at market price = 970 - 50 = 920. Net factor income from abroad is -10, so NNP at market price = 910. Indirect taxes 70 minus subsidies 20 gives net indirect tax 50. (Covered in unit 1: National income and related aggregates.)"
+  ],
+  [
+   "Unit 2 (Money, banking and income determination): Name central bank tools. Show how you do it and say what the result is.",
+   "To reduce credit, it raises the repo rate, cash reserve ratio or sells securities in open market operations. To raise credit, it does the opposite. A higher reserve ratio of 20 percent cuts the multiplier to 5. (Covered in unit 2: Money, banking and income determination.)"
+  ],
+  [
+   "Unit 3 (Government budget and the balance of payments): Taxes raise revenue. Show how you do it and say what the result is.",
+   "Direct taxes, such as income tax, are paid on income. Indirect taxes, such as sales tax, are paid on goods. A progressive tax takes a larger share as income rises. If the first 10,000 is untaxed and the rest pays 20 percent, income of 30,000 pays 20 percent of 20,000, which is 4,000, an average rate of 13.3 percent. (Covered in unit 3: Government budget and the balance of payments.)"
+  ],
+  [
+   "Unit 4 (Indian economy and development): Explain the 1991 reforms. Show how you do it and say what the result is.",
+   "They are summarised as liberalisation (fewer licences), privatisation (smaller state role in some sectors) and globalisation (lower import duties, foreign investment). Model answer should state both gains and costs in a balanced way. (Covered in unit 4: Indian economy and development.)"
+  ],
+  [
+   "Unit 1 (National income and related aggregates): Finish the chain. Show how you do it and say what the result is.",
+   "NNP at factor cost = 910 - 50 = 860, which is national income. Check with the income method: NDP at factor cost = 500 compensation + 280 operating surplus + 90 mixed income = 870. Subtracting 10 net factor income from abroad gives 860. (Covered in unit 1: National income and related aggregates.)"
+  ],
+  [
+   "Unit 2 (Money, banking and income determination): Find equilibrium income. Show how you do it and say what the result is.",
+   "Consumption is C = 100 + 0.75Y and investment is 50. Y = (100 + 50) / (1 - 0.75) = 150 / 0.25 = 600. Check: consumption 550 and saving 50 equals investment 50, so planned saving equals investment. (Covered in unit 2: Money, banking and income determination.)"
+  ]
+ ],
+ "ladder": [
+  "L1: talk about family, place and community.",
+  "L2: read maps and timelines; describe local government and history.",
+  "L3: compare societies; use sources.",
+  "L4: analyse causes and consequences; argue from evidence.",
+  "L5: specialise in history, geography, politics or economics; write extended answers.",
+  "L6 (degree): research methods and applied social science.",
+  "L7 (postgraduate): policy, research or teaching at depth."
+ ],
+ "jobs": [],
+ "blooms": [
+  "Understand",
+  "Apply",
+  "Analyse"
+ ]
+}

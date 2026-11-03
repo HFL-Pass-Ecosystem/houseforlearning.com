@@ -1,0 +1,108 @@
+{
+ "module8": [
+  "Capstone: audit and teach the whole system",
+  "Evaluate",
+  4,
+  "The best proof of skill is to check a live system against a plan and then help others use it well. In this capstone you audit a full sales-to-service set-up, fix what you find and train a small group.",
+  [
+   "Audit in four parts: access, data quality, process stages and service clocks; score each part red, amber or green.",
+   "Write a short findings list with the cause, the risk and the fix for each item.",
+   "Plan a 30-minute training for one team: one goal, one live demo, one practice task, one feedback question.",
+   "Measure the result: compare error counts and user questions before and after the training."
+  ],
+  "An audit finds 14 percent of open opportunities with no dated next step. The fix is a required field and a weekly report; four weeks later the figure falls to 3 percent.",
+  "Audit the practice org with a four-part check list, write the findings, and teach one peer how to fix one finding.",
+  "Audit covers all four parts; every finding has a cause and a fix; the peer completes the practice task alone."
+ ],
+ "quiz": [
+  [
+   "A new support agent needs to see all cases for their region but must not see contract values. Which settings do you use?",
+   "Use a profile or permission set for object access, sharing rules for the region, and field settings to hide the contract value field. Give the least access that does the job."
+  ],
+  [
+   "Name the five main objects and say what an opportunity is.",
+   "Lead, account, contact, opportunity and case. An opportunity is a possible sale that moves through stages."
+  ],
+  [
+   "A webinar gives 120 sign-ups and 40 match existing contacts. How many new leads should be created, and what should you do first?",
+   "Create 80 new leads. First run the duplicate check so the 40 matches are not created again."
+  ],
+  [
+   "Why must every lead have an owner?",
+   "Without an owner nobody follows up, so the lead goes cold and reports show false numbers. Every lead needs an owner, a source and a next step."
+  ],
+  [
+   "An opportunity is at stage Quote sent but has no next step. What should the report show and why?",
+   "It should flag the record red. A stage must tell the truth about the customer, and no dated next step suggests the sale is stuck."
+  ],
+  [
+   "An important partner is rated B. How many business reviews a year should the plan hold, and what happens to last year's plan?",
+   "At least four reviews a year. Last year's plan is closed with an end-period review and then copied forward with new targets."
+  ],
+  [
+   "In the capstone audit you score access, data quality, process stages and service clocks. How do you score each part and what must each finding include?",
+   "Score each part red, amber or green. Each finding needs the cause, the risk and the fix."
+  ],
+  [
+   "Gold customers get a 1-hour response. In March 92 of 100 cases met it. What is the result and what next?",
+   "The service level was met for 92 percent, so 8 cases were missed. List the missed cases with their causes and fix the common ones."
+  ],
+  [
+   "Why does a case clock pause when the status is waiting for customer?",
+   "The delay is not caused by your team, so counting it would be unfair. Pause rules must be written and fair."
+  ],
+  [
+   "You want to add a new required field. Describe a safe release and the final check.",
+   "Test in a sandbox with a few users, release with a one-page note and a rollback plan, then check for errors the next working day."
+  ]
+ ],
+ "ladder": [
+  [
+   "L1 Basic",
+   "Remember the main CRM words: lead, account, contact, opportunity and case. Find each one on screen without changing any data.",
+   "Ask learners to point to each object and say it in their own words. Common mistake: mixing up a lead and a contact."
+  ],
+  [
+   "L2 Awareness",
+   "Understand why access rules exist and how the three layers of profile, sharing and fields protect customers. Explain in simple words why least access is safer.",
+   "Use the support agent example. Check that learners can say what each layer controls. Common mistake: giving everyone full access to save time."
+  ],
+  [
+   "L3 Foundation",
+   "Apply the lead life cycle by creating a campaign, routing leads and converting the qualified ones. Close the rest with a reason.",
+   "Watch for duplicate accounts and leads without an owner. Let the learner drive the screen. Common mistake: skipping the duplicate check."
+  ],
+  [
+   "L4 Practitioner",
+   "Apply a stage path with exit proof, dated next steps, quotes and forecast categories. Keep each record honest to the customer's real position.",
+   "Review two opportunities together and ask what proof supports each stage. Common mistake: moving a stage on hope, not proof."
+  ],
+  [
+   "L5 Specialist",
+   "Analyse accounts and partners to segment them, write plans and set a review calendar. Compare a good visit report with a weak one.",
+   "Ask for numbers in every goal and a date on every action. Common mistake: plans that are written once and never reviewed."
+  ],
+  [
+   "L6 Advanced",
+   "Evaluate service performance using queues, clocks and four service numbers. Judge whether the targets are fair and what causes missed cases.",
+   "Have learners read a dashboard and name the biggest cause of misses. Common mistake: trusting one average and ignoring the late cases."
+  ],
+  [
+   "L7 Super expert",
+   "Create a governance pack and audit a whole system, then teach others to use it. Show that data, change, people and audit rules each have an owner.",
+   "Check that every rule has an owner, a test and a date. Common mistake: governance so heavy that people work around it."
+  ]
+ ],
+ "quiz_module": [
+  2,
+  1,
+  3,
+  3,
+  4,
+  5,
+  8,
+  6,
+  6,
+  7
+ ]
+}

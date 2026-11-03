@@ -18,6 +18,12 @@
   var last=crumbs[crumbs.length-1][0];
   var leaf=(inStudio&&/index\.html$/.test(rel))?null:page;
   if(!isHome&&leaf&&leaf!==last&&leaf!=='Studio'&&!(inMba&&leaf==='Online MBA'&&false)) crumbs.push([leaf,null]);
+  // Keep the page's own trail when it is at least as deep as the generated one (course, location and school pages).
+  var own=[];document.querySelectorAll('.site-head nav[aria-label="You are here"] ol li').forEach(function(li){
+    var a=li.querySelector('a'),t=li.textContent.trim();if(!t)return;
+    own.push([t,a?new URL(a.getAttribute('href'),location.href).href:null]);});
+  if(!isHome&&own.length>=2&&own.length>=crumbs.length&&own[0][0]==='Home'){
+    own[0][1]=root.href+'index.html';crumbs=own;}
   document.querySelectorAll('.site-head nav[aria-label="You are here"]').forEach(function(n){n.remove();});
   var bar=document.createElement('div');bar.className='wayfind';bar.setAttribute('role','navigation');bar.setAttribute('aria-label','Where you are');
   var h='';

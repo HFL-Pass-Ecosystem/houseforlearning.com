@@ -1,0 +1,279 @@
+{
+ "slug": "school-grade-11-commerce-acc.html",
+ "plan": "grade-11-commerce",
+ "subject": "ACC",
+ "subject_name": "Accountancy",
+ "kind": "biz",
+ "label": "Grade 11 Commerce",
+ "band": "post",
+ "level": 5,
+ "weeks": 36,
+ "task": "Meet the outcome of every unit in Grade 11 Commerce Accountancy, and keep one piece of evidence for each.",
+ "condition": "A 36-week school year, 6 units, a teacher or guide, a learning book or device, and local examples in the local language first with English support.",
+ "standard": "Each unit: at least 70 percent on an exam-style task, with the method shown. Course pass: no unit at 'Not yet' after one retry, and a pass in SA1 and SA2.",
+ "modules": [
+  {
+   "n": 1,
+   "title": "Accounting concepts and the accounting equation",
+   "bloom": "Apply",
+   "weeks": [
+    1,
+    6
+   ],
+   "hours": 18,
+   "outcome": "apply accounting principles and the accounting equation",
+   "intro": "In this unit, 'Accounting concepts and the accounting equation', you learn to apply accounting principles and the accounting equation. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Read the idea in 'Accounting concepts and the accounting equation' and tie it to a small real business, such as a school shop or a family stall.",
+    "Write the rule or format in your own words and keep one clean example.",
+    "Use it: apply accounting principles and the accounting equation. Work from source papers or a short story of transactions.",
+    "Check it: totals agree, each entry has a reason, and every figure can be traced."
+   ],
+   "example": "Solved: Assets = Liabilities + Capital. Cash 5,000 + Stock 3,000 = Loan 2,000 + Capital 6,000. If the owner pays 1,000 of the loan in cash: Assets 7,000 = Liabilities 1,000 + Capital 6,000. Method: Model run for 'Accounting concepts and the accounting equation'. Story: a small shop starts the month with cash and stock and has a short list of transactions. Step 1, list each transaction and what it changes. Step 2, record it in the format of the unit. Step 3, total and check that both sides agree. Step 4, write one sentence about what the figures tell the owner. What a good answer looks like: every transaction is recorded in the right place, totals agree, and the sentence states a useful message. Use local money units and local rules.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Apply accounting principles and the accounting equation: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Apply the basic principles: the business entity principle says the owner and the business are separate, so the owner's own scooter is not a business asset. Going concern assumes the shop will keep running. Money measurement records only items that can be stated in money. The cost concept records assets at the price paid.",
+    "Step 2, State the equation: Assets = Capital + Liabilities. Assets are what the business owns, capital is what the owner has put in, and liabilities are what it owes outsiders. Every transaction has two effects (dual aspect), so both sides stay equal. The owner starts with Rs 100,000 cash: Assets 100,000 = Capital 100,000 + Liabilities 0.",
+    "Step 3, Apply it to two more transactions. Buy furniture for Rs 20,000 cash: cash falls to 80,000 and furniture 20,000 appears, so assets stay 100,000. Buy goods on credit for Rs 30,000: stock rises by 30,000 and creditors rise by 30,000, so assets 130,000 = capital 100,000 + liabilities 30,000.",
+    "Step 4, Record a sale. Sell goods that cost Rs 10,000 for Rs 15,000 cash: cash rises by 15,000 and stock falls by 10,000, so assets rise by 5,000. That 5,000 is profit, which belongs to the owner, so capital becomes 105,000. Check: cash 95,000 + furniture 20,000 + stock 20,000 = 135,000 = 105,000 + 30,000.",
+    "Step 5, Record a payment to a creditor of Rs 12,000: cash falls from 95,000 to 83,000 and creditors fall from 30,000 to 18,000. Assets are now 83,000 + 20,000 + 20,000 = 123,000, and capital 105,000 + liabilities 18,000 = 123,000. Paying a debt shrinks both sides equally, so the equation still balances.",
+    "Step 6, Your turn: A trader starts with Rs 60,000 cash, buys a machine for Rs 25,000 cash and buys goods for Rs 10,000 on credit. Show the equation. Answer: cash 35,000 + machine 25,000 + stock 10,000 = assets 70,000; capital 60,000 + liabilities 10,000 = 70,000, so it balances."
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Journal, ledger and trial balance",
+   "bloom": "Apply",
+   "weeks": [
+    7,
+    12
+   ],
+   "hours": 18,
+   "outcome": "record transactions and prepare a trial balance",
+   "intro": "In this unit, 'Journal, ledger and trial balance', you learn to record transactions and prepare a trial balance. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Read the idea in 'Journal, ledger and trial balance' and tie it to a small real business, such as a school shop or a family stall.",
+    "Write the rule or format in your own words and keep one clean example.",
+    "Use it: record transactions and prepare a trial balance. Work from source papers or a short story of transactions.",
+    "Check it: totals agree, each entry has a reason, and every figure can be traced."
+   ],
+   "example": "Solved: Bought goods for 4,000 cash. Journal: Purchases A/c Dr 4,000, To Cash A/c 4,000. Post to the ledger: debit side of Purchases, credit side of Cash. Method: Model run for 'Journal, ledger and trial balance'. Story: a small shop starts the month with cash and stock and has a short list of transactions. Step 1, list each transaction and what it changes. Step 2, record it in the format of the unit. Step 3, total and check that both sides agree. Step 4, write one sentence about what the figures tell the owner. What a good answer looks like: every transaction is recorded in the right place, totals agree, and the sentence states a useful message. Use local money units and local rules.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Record transactions and prepare a trial balance: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Record in the journal, the book of first entry. For each transaction, name the account to debit and the account to credit, give the date and add a short narration. Rule used: debit what comes in or an expense, credit what goes out or a gain. A debit entry always has an equal credit entry.",
+    "Step 2, Journalise five January transactions. 1 Jan: started business with cash 50,000 (Dr Cash, Cr Capital). 2 Jan: bought goods for cash 20,000 (Dr Purchases, Cr Cash). 3 Jan: sold goods on credit to Customer K 18,000 (Dr Customer K, Cr Sales). 5 Jan: paid rent 3,000 (Dr Rent, Cr Cash). 8 Jan: received 10,000 from Customer K (Dr Cash, Cr Customer K).",
+    "Step 3, Post to the ledger, where each account has its own page. Cash account: debit side 50,000 + 10,000 = 60,000, credit side 20,000 + 3,000 = 23,000. Balance carried down 37,000 on the debit side. Customer K's account: debit 18,000, credit 10,000, so the balance is 8,000 debit, meaning Customer K still owes us that amount.",
+    "Step 4, Balance the other accounts. Purchases has one debit of 20,000. Rent has one debit of 3,000. Sales has one credit of 18,000. Capital has one credit of 50,000. A ledger balance sits on the side that is larger. Write each closing balance in the trial balance list next.",
+    "Step 5, Prepare the trial balance. Debit column: Cash 37,000, Purchases 20,000, Customer K 8,000, Rent 3,000, total 68,000. Credit column: Capital 50,000, Sales 18,000, total 68,000. The totals agree, so the double entries were posted correctly. If they differed, recheck postings and additions for the error.",
+    "Step 6, Your turn: a trader starts with cash 40,000, buys goods for cash 15,000 and pays wages 2,000. Prepare the trial balance. Answer: Debit side: Cash 23,000, Purchases 15,000, Wages 2,000, total 40,000. Credit side: Capital 40,000. Both totals are 40,000."
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Subsidiary books and bank reconciliation",
+   "bloom": "Apply",
+   "weeks": [
+    13,
+    18
+   ],
+   "hours": 18,
+   "outcome": "record in cash and purchase books and reconcile a bank statement",
+   "intro": "In this unit, 'Subsidiary books and bank reconciliation', you learn to record in cash and purchase books and reconcile a bank statement. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Read the idea in 'Subsidiary books and bank reconciliation' and tie it to a small real business, such as a school shop or a family stall.",
+    "Write the rule or format in your own words and keep one clean example.",
+    "Use it: record in cash and purchase books and reconcile a bank statement. Work from source papers or a short story of transactions.",
+    "Check it: totals agree, each entry has a reason, and every figure can be traced."
+   ],
+   "example": "Solved: Cash book 12,000. Bank charges 200 not yet entered: adjusted cash book 11,800. Passbook shows 12,600 because a cheque for 800 is not yet presented: 12,600 - 800 = 11,800. Both agree. Method: Model run for 'Subsidiary books and bank reconciliation'. Story: a small shop starts the month with cash and stock and has a short list of transactions. Step 1, list each transaction and what it changes. Step 2, record it in the format of the unit. Step 3, total and check that both sides agree. Step 4, write one sentence about what the figures tell the owner. What a good answer looks like: every transaction is recorded in the right place, totals agree, and the sentence states a useful message. Use local money units and local rules.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Record in cash and purchase books and reconcile a bank statement: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Record in subsidiary books so the journal does not get crowded. Each book holds one kind of transaction: cash book for cash and bank, purchases book for credit purchases of goods, sales book for credit sales, and returns books for goods sent back. Only the totals are posted to the ledger, which saves time.",
+    "Step 2, Write the purchases book. 5 March: goods from Supplier A on credit 12,000. 9 March: goods from Supplier B on credit 8,000. Total credit purchases 20,000. Post the total once as Dr Purchases 20,000, and credit each supplier's account with its own amount: Supplier A 12,000 and Supplier B 8,000. Cash purchases do not go here.",
+    "Step 3, Use a cash book with a bank column. Cash received and cheques deposited are entered on the debit side, and payments on the credit side. After the month's entries the bank column of the cash book shows a debit balance of Rs 24,500. The bank's passbook is its own copy of the same account and may show a different figure.",
+    "Step 4, Find why they differ. Four items: bank charges 300 and interest credited 800 are known to the bank but not yet in the cash book; a cheque issued for 2,500 has not been presented; a cheque deposited for 1,000 has not been cleared. The first two need cash book entries, the last two are only timing differences.",
+    "Step 5, Reconcile. Adjust the cash book: 24,500 - 300 + 800 = 25,000. The passbook shows 26,500. Start from it: 26,500 + 1,000 (deposited, not yet credited) - 2,500 (issued, not yet presented) = 25,000. Both agree at 25,000, so the books are reconciled and the true bank balance is Rs 25,000.",
+    "Step 6, Your turn: cash book bank balance is 18,000. Bank charges of 200 are not yet recorded. A cheque issued for 1,500 is not presented. Find the passbook balance and reconcile. Answer: adjusted cash book 18,000 - 200 = 17,800; passbook 19,300 - 1,500 = 17,800, so the passbook shows 19,300 and both agree."
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Depreciation, provisions and reserves",
+   "bloom": "Apply",
+   "weeks": [
+    19,
+    24
+   ],
+   "hours": 18,
+   "outcome": "calculate depreciation and record provisions",
+   "intro": "In this unit, 'Depreciation, provisions and reserves', you learn to calculate depreciation and record provisions. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Read the idea in 'Depreciation, provisions and reserves' and tie it to a small real business, such as a school shop or a family stall.",
+    "Write the rule or format in your own words and keep one clean example.",
+    "Use it: calculate depreciation and record provisions. Work from source papers or a short story of transactions.",
+    "Check it: totals agree, each entry has a reason, and every figure can be traced."
+   ],
+   "example": "Solved: Machine cost 50,000, scrap value 5,000, life 5 years. Straight line: (50,000 - 5,000) / 5 = 9,000 per year. Method: Model run for 'Depreciation, provisions and reserves'. Story: a small shop starts the month with cash and stock and has a short list of transactions. Step 1, list each transaction and what it changes. Step 2, record it in the format of the unit. Step 3, total and check that both sides agree. Step 4, write one sentence about what the figures tell the owner. What a good answer looks like: every transaction is recorded in the right place, totals agree, and the sentence states a useful message. Use local money units and local rules.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Calculate depreciation and record provisions: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Straight-line depreciation: A machine costs 120,000, has an estimated scrap value of 20,000 and a life of 5 years. Annual depreciation is (120,000 minus 20,000) divided by 5, which is 20,000 each year, so the machine falls to 100,000 after year one.",
+    "Step 2, Journal entry: Depreciation A/c Dr 20,000, To Machinery A/c 20,000, being depreciation charged for the year. At year end Depreciation A/c Dr is closed by transfer: Profit and Loss A/c Dr 20,000, To Depreciation A/c 20,000.",
+    "Step 3, Reducing balance at 20 percent: Year 1 charge is 20 percent of 120,000, which is 24,000, leaving 96,000. Year 2 is 20 percent of 96,000, which is 19,200, leaving 76,800. Year 3 is 20 percent of 76,800, which is 15,360.",
+    "Step 4, Bad debts and provision: Debtors are 50,000. Bad debts of 2,000 are written off: Bad Debts A/c Dr 2,000, To Debtors A/c 2,000. Debtors become 48,000. A 5 percent provision is 48,000 times 5 percent, which is 2,400.",
+    "Step 5, Record the provision: Profit and Loss A/c Dr 2,400, To Provision for Doubtful Debts A/c 2,400. Balance sheet shows debtors 48,000 less provision 2,400, net 45,600. Next year, with debtors 60,000 and bad debts 1,000, the provision is 5 percent of 59,000, which is 2,950, so the extra charge is 550.",
+    "Step 6, Reserve: From a profit of 40,000, the owner sets aside 10,000. Entry: Profit and Loss Appropriation A/c Dr 10,000, To General Reserve A/c 10,000. This keeps 10,000 in the business without changing cash. The remaining 30,000 stays available.",
+    "Your turn: Equipment 80,000, scrap 8,000, life 6 years; debtors 40,000 with 1,000 bad debts and a 5 percent provision. Model answer: depreciation (80,000 minus 8,000) divided by 6 is 12,000; provision is 5 percent of 39,000, which is 1,950; Bad Debts Dr 1,000 To Debtors 1,000."
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Financial statements of sole proprietors",
+   "bloom": "Apply",
+   "weeks": [
+    25,
+    30
+   ],
+   "hours": 18,
+   "outcome": "prepare an income statement and a balance sheet",
+   "intro": "In this unit, 'Financial statements of sole proprietors', you learn to prepare an income statement and a balance sheet. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Read the idea in 'Financial statements of sole proprietors' and tie it to a small real business, such as a school shop or a family stall.",
+    "Write the rule or format in your own words and keep one clean example.",
+    "Use it: prepare an income statement and a balance sheet. Work from source papers or a short story of transactions.",
+    "Check it: totals agree, each entry has a reason, and every figure can be traced."
+   ],
+   "example": "Solved: Sales 90,000 - cost of goods sold 60,000 = gross profit 30,000. Less expenses 12,000 = net profit 18,000. Capital + net profit - drawings gives closing capital. Method: Model run for 'Financial statements of sole proprietors'. Story: a small shop starts the month with cash and stock and has a short list of transactions. Step 1, list each transaction and what it changes. Step 2, record it in the format of the unit. Step 3, total and check that both sides agree. Step 4, write one sentence about what the figures tell the owner. What a good answer looks like: every transaction is recorded in the right place, totals agree, and the sentence states a useful message. Use local money units and local rules.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Prepare an income statement and a balance sheet: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Gather the closing figures from the trial balance of a sole proprietor. Debit side: Purchases 120,000, Opening stock 15,000, Wages 20,000, Rent 12,000, Drawings 10,000, Furniture 40,000, Debtors 22,000, Bank 59,000. Credit side: Sales 200,000, Capital 80,000, Creditors 18,000. Both sides total 298,000. Closing stock is valued at 25,000.",
+    "Step 2, Prepare the trading section of the income statement. Cost of goods sold = opening stock 15,000 + purchases 120,000 - closing stock 25,000 = 110,000. Gross profit = sales 200,000 - 110,000 = 90,000. Gross profit shows what trading the goods earned before running expenses.",
+    "Step 3, Complete the income statement. Deduct operating expenses: wages 20,000 + rent 12,000 = 32,000. Net profit = gross profit 90,000 - 32,000 = 58,000. Drawings are money the owner takes for personal use, so they are not an expense and do not appear here.",
+    "Step 4, Build the capital section of the balance sheet. Opening capital 80,000 + net profit 58,000 - drawings 10,000 = closing capital 128,000. Add the liability, creditors 18,000, to get the total of capital and liabilities: 146,000. Show current liabilities such as creditors separately.",
+    "Step 5, List the assets: furniture 40,000 (fixed asset); closing stock 25,000, debtors 22,000 and bank 59,000 (current assets). Total assets = 40,000 + 25,000 + 22,000 + 59,000 = 146,000. This equals capital plus liabilities of 146,000, so the balance sheet balances and the statements are consistent.",
+    "Step 6, Your turn: sales 80,000, purchases 50,000, opening stock 5,000, closing stock 8,000, expenses 12,000. Find gross profit and net profit. Answer: cost of goods sold = 5,000 + 50,000 - 8,000 = 47,000; gross profit = 80,000 - 47,000 = 33,000; net profit = 33,000 - 12,000 = 21,000."
+   ]
+  },
+  {
+   "n": 6,
+   "title": "Accounting with computers and spreadsheets",
+   "bloom": "Apply",
+   "weeks": [
+    31,
+    36
+   ],
+   "hours": 18,
+   "outcome": "record and report using accounting software",
+   "intro": "In this unit, 'Accounting with computers and spreadsheets', you learn to record and report using accounting software. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Read the idea in 'Accounting with computers and spreadsheets' and tie it to a small real business, such as a school shop or a family stall.",
+    "Write the rule or format in your own words and keep one clean example.",
+    "Use it: record and report using accounting software. Work from source papers or a short story of transactions.",
+    "Check it: totals agree, each entry has a reason, and every figure can be traced."
+   ],
+   "example": "Solved: Enter debits in column B and credits in column C. =SUM(B2:B10) and =SUM(C2:C10); the trial balance agrees if both totals match. Method: Model run for 'Accounting with computers and spreadsheets'. Story: a small shop starts the month with cash and stock and has a short list of transactions. Step 1, list each transaction and what it changes. Step 2, record it in the format of the unit. Step 3, total and check that both sides agree. Step 4, write one sentence about what the figures tell the owner. What a good answer looks like: every transaction is recorded in the right place, totals agree, and the sentence states a useful message. Use local money units and local rules.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Record and report using accounting software: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Set up accounts: In a spreadsheet a learner creates a sheet called Ledger with columns Account, Debit, Credit. She enters Cash 15,000 Dr, Debtors 8,000 Dr, Purchases 8,000 Dr, Rent 3,000 Dr, Capital 10,000 Cr, Sales 20,000 Cr, Creditors 4,000 Cr.",
+    "Step 2, Total with formulas: In B9 she types =SUM(B2:B5), which adds Cash, Debtors, Purchases and Rent to 34,000. In C9 she types =SUM(C6:C8) for Capital, Sales and Creditors, giving 34,000. The two totals agree, so the trial balance balances.",
+    "Step 3, Record a transaction: To enter the rent line through software, the journal is Rent Dr 3,000, Cash Cr 3,000. Click path: Transactions, New journal, choose date, select accounts, enter 3,000 on each side and Post. This is the entry behind the existing Rent line, not a second payment.",
+    "Step 4, Check the effect: After posting rent, debits and credits still match because every journal has equal debit and credit lines. If she typed 3,000 against Rent but 300 against Cash, the software would refuse to post or show a difference of 2,700.",
+    "Step 5, Profit report: In a Profit and Loss sheet she types =C7-B4-B5 using Sales, Purchases and Rent cells, which is 20,000 minus 8,000 minus 3,000 and equals 9,000. The software report Reports, Profit and Loss would show the same 9,000.",
+    "Step 6, Protect and back up: She locks the formula cells, saves a copy named ledger-term1, and keeps an audit note of who entered what. Computers speed up arithmetic, but checking the trial balance remains the accountant's job.",
+    "Your turn: Cash 6,000 Dr, Sales 9,000 Cr, Capital 5,000 Cr, Purchases 4,000 Dr, Rent 2,000 Dr, Debtors 2,000 Dr. Does it balance? Model answer: Dr is 6,000 plus 4,000 plus 2,000 plus 2,000, which is 14,000; Cr is 9,000 plus 5,000, which is 14,000; yes, and profit is 9,000 minus 4,000 minus 2,000, or 3,000."
+   ]
+  }
+ ],
+ "rubric": [
+  [
+   "Accuracy",
+   "Frequent errors",
+   "Mostly correct",
+   "Correct, totals agree"
+  ],
+  [
+   "Layout and terms",
+   "Unclear",
+   "Correct layout",
+   "Correct layout and terms"
+  ],
+  [
+   "Reasoning",
+   "Entries only",
+   "Reasons for most",
+   "Reasons for every entry"
+  ],
+  [
+   "Interpretation",
+   "None",
+   "States a figure",
+   "States what it means for the owner"
+  ],
+  [
+   "Practice habit",
+   "Rarely",
+   "Weekly",
+   "Most days with an error log"
+  ]
+ ],
+ "checks": [
+  [
+   "Unit 1 (Accounting concepts and the accounting equation): A trader starts with Rs 60,000 cash, buys a machine for Rs 25,000 cash and buys goods for Rs 10,000 on credit. Show the equation.",
+   "cash 35,000 + machine 25,000 + stock 10,000 = assets 70,000; capital 60,000 + liabilities 10,000 = 70,000, so it balances. (Covered in unit 1: Accounting concepts and the accounting equation.)"
+  ],
+  [
+   "Unit 2 (Journal, ledger and trial balance): A trader starts with cash 40,000, buys goods for cash 15,000 and pays wages 2,000. Prepare the trial balance.",
+   "Debit side: Cash 23,000, Purchases 15,000, Wages 2,000, total 40,000. Credit side: Capital 40,000. Both totals are 40,000. (Covered in unit 2: Journal, ledger and trial balance.)"
+  ],
+  [
+   "Unit 3 (Subsidiary books and bank reconciliation): Cash book bank balance is 18,000. Bank charges of 200 are not yet recorded. A cheque issued for 1,500 is not presented. Find the passbook balance and reconcile.",
+   "adjusted cash book 18,000 - 200 = 17,800; passbook 19,300 - 1,500 = 17,800, so the passbook shows 19,300 and both agree. (Covered in unit 3: Subsidiary books and bank reconciliation.)"
+  ],
+  [
+   "Unit 4 (Depreciation, provisions and reserves): Equipment 80,000, scrap 8,000, life 6 years; debtors 40,000 with 1,000 bad debts and a 5 percent provision.",
+   "depreciation (80,000 minus 8,000) divided by 6 is 12,000; provision is 5 percent of 39,000, which is 1,950; Bad Debts Dr 1,000 To Debtors 1,000. (Covered in unit 4: Depreciation, provisions and reserves.)"
+  ],
+  [
+   "Unit 5 (Financial statements of sole proprietors): Sales 80,000, purchases 50,000, opening stock 5,000, closing stock 8,000, expenses 12,000. Find gross profit and net profit.",
+   "cost of goods sold = 5,000 + 50,000 - 8,000 = 47,000; gross profit = 80,000 - 47,000 = 33,000; net profit = 33,000 - 12,000 = 21,000. (Covered in unit 5: Financial statements of sole proprietors.)"
+  ],
+  [
+   "Unit 6 (Accounting with computers and spreadsheets): Cash 6,000 Dr, Sales 9,000 Cr, Capital 5,000 Cr, Purchases 4,000 Dr, Rent 2,000 Dr, Debtors 2,000 Dr. Does it balance?",
+   "Dr is 6,000 plus 4,000 plus 2,000 plus 2,000, which is 14,000; Cr is 9,000 plus 5,000, which is 14,000; yes, and profit is 9,000 minus 4,000 minus 2,000, or 3,000. (Covered in unit 6: Accounting with computers and spreadsheets.)"
+  ],
+  [
+   "Unit 1 (Accounting concepts and the accounting equation): State the equation. Show how you do it and say what the result is.",
+   "Assets = Capital + Liabilities. Assets are what the business owns, capital is what the owner has put in, and liabilities are what it owes outsiders. Every transaction has two effects (dual aspect), so both sides stay equal. The owner starts with Rs 100,000 cash: Assets 100,000 = Capital 100,000 + Liabilities 0. (Covered in unit 1: Accounting concepts and the accounting equation.)"
+  ],
+  [
+   "Unit 2 (Journal, ledger and trial balance): Journalise five January transactions. Show how you do it and say what the result is.",
+   "1 Jan: started business with cash 50,000 (Dr Cash, Cr Capital). 2 Jan: bought goods for cash 20,000 (Dr Purchases, Cr Cash). 3 Jan: sold goods on credit to Customer K 18,000 (Dr Customer K, Cr Sales). 5 Jan: paid rent 3,000 (Dr Rent, Cr Cash). 8 Jan: received 10,000 from Customer K (Dr Cash, Cr Customer K). (Covered in unit 2: Journal, ledger and trial balance.)"
+  ],
+  [
+   "Unit 3 (Subsidiary books and bank reconciliation): Write the purchases book. Show how you do it and say what the result is.",
+   "5 March: goods from Supplier A on credit 12,000. 9 March: goods from Supplier B on credit 8,000. Total credit purchases 20,000. Post the total once as Dr Purchases 20,000, and credit each supplier's account with its own amount: Supplier A 12,000 and Supplier B 8,000. Cash purchases do not go here. (Covered in unit 3: Subsidiary books and bank reconciliation.)"
+  ],
+  [
+   "Unit 4 (Depreciation, provisions and reserves): Journal entry. Show how you do it and say what the result is.",
+   "Depreciation A/c Dr 20,000, To Machinery A/c 20,000, being depreciation charged for the year. At year end Depreciation A/c Dr is closed by transfer: Profit and Loss A/c Dr 20,000, To Depreciation A/c 20,000. (Covered in unit 4: Depreciation, provisions and reserves.)"
+  ]
+ ],
+ "ladder": [
+  "L1: count money and understand need and want.",
+  "L2: record simple income and spending.",
+  "L3: understand shops, trade and profit.",
+  "L4: record transactions and read simple accounts.",
+  "L5: prepare statements and analyse a business.",
+  "L6 (degree): management accounting, finance and enterprise.",
+  "L7 (postgraduate): strategy, audit or entrepreneurship at depth."
+ ],
+ "jobs": [],
+ "blooms": [
+  "Apply"
+ ]
+}

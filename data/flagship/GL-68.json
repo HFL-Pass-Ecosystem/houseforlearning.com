@@ -1,0 +1,291 @@
+{
+ "id": "GL-68",
+ "title": "Space Tourism Awareness",
+ "level": 2,
+ "desc": "Understand what suborbital and orbital tourism are, the risks, cost, rules and careers, and how to read claims.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain suborbital and orbital flights."
+  ],
+  [
+   "Apply",
+   "Read a flight profile."
+  ],
+  [
+   "Analyse",
+   "Compare cost, risk and environment."
+  ],
+  [
+   "Evaluate",
+   "Judge safety and fairness."
+  ],
+  [
+   "Create",
+   "Write a fact sheet."
+  ]
+ ],
+ "task": "Produce a two-page fact sheet on space tourism with flight types, risks, costs, environmental impact and careers.",
+ "condition": "A computer, public information, two peers and a mentor.",
+ "standard": "Facts sourced and dated; risks stated; claims checked; peers rate Meets or better.",
+ "who": "Students, travel staff, writers, enthusiasts.",
+ "req": "none",
+ "evidence": "fact sheet, comparison table",
+ "modules": [
+  [
+   "What counts as space and why it matters",
+   "Understand",
+   2,
+   "The edge of space is a convention, not a wall, and the type of flight sets the experience.",
+   [
+    "A common line is 100 km above sea level, though some authorities use a lower altitude.",
+    "Suborbital flights go up and come back without orbiting; orbital flights circle Earth and need far more energy.",
+    "Weightlessness on a suborbital flight lasts a few minutes; an orbital stay can last days.",
+    "Balloons reach about 30 km, which is high but not space."
+   ],
+   "A suborbital flight reaches about 100 km, gives three to four minutes of weightlessness and returns in under an hour. An orbital stay costs many times more.",
+   "Explain suborbital, orbital and balloon flights to a peer using one drawing.",
+   "Show that a peer can say which is which and where the line is."
+  ],
+  [
+   "Flight types and experience",
+   "Understand",
+   2,
+   "Each type has a different ride, training need and risk.",
+   [
+    "Rocket planes and capsules give a quick, strong acceleration; balloons give a slow, quiet ride.",
+    "Training: days or weeks of preparation, including emergency drills.",
+    "Medical screening checks heart, blood pressure and other conditions.",
+    "Comfort limits include seat size and height."
+   ],
+   "A passenger spends two days in training, including a centrifuge session that shows high acceleration. Another selects a balloon flight because they are not fit for high acceleration.",
+   "Compare three flight types in a table.",
+   "List altitude, time, training and key risks in the table."
+  ],
+  [
+   "Safety, health and informed consent",
+   "Evaluate",
+   2,
+   "Spaceflight carries real risk, and the passenger must understand it.",
+   [
+    "Hazards: acceleration, vibration, radiation, cabin pressure loss and emergency exits.",
+    "Operators publish safety records and incident reports.",
+    "Passengers sign an informed consent describing risks.",
+    "Medical screening can exclude some people."
+   ],
+   "A passenger reads the written risk statement, asks the operator about abort procedures and decides not to fly until further test flights are complete.",
+   "List six risks and a control for each.",
+   "Give each risk a control and a source."
+  ],
+  [
+   "Cost, value and who can afford it",
+   "Analyse",
+   2,
+   "Costs are far above what most people can pay.",
+   [
+    "Prices are often hundreds of thousands of dollars or more.",
+    "Costs might fall over time, but not soon.",
+    "Compare to other life events to give perspective.",
+    "Alternatives exist: museum, simulator and educational experiences."
+   ],
+   "A seat costing 4 crore INR (an estimate; check your market) equals many lifetimes of average household income. A simulator ride costs 5,000 INR.",
+   "Compare a seat price with local income and an alternative.",
+   "Compare the options clearly, using sources."
+  ],
+  [
+   "Environment and sustainability",
+   "Analyse",
+   2,
+   "Rocket launches emit gases and soot high in the air.",
+   [
+    "Black carbon and water vapour affect the upper atmosphere.",
+    "Per-passenger emissions can be many times those of a long flight.",
+    "Launch frequency matters more than one flight.",
+    "Fuel type changes impacts."
+   ],
+   "One study estimates per-passenger emissions far above a long-haul flight; another gives a lower range. A fact sheet quotes the range and explains the difference.",
+   "Check two claims and report the range with sources.",
+   "State the range with sources and date."
+  ],
+  [
+   "Rules, licensing and responsibility",
+   "Evaluate",
+   2,
+   "Space tourism is regulated by national authorities.",
+   [
+    "Launch and flight licences, safety reviews and insurance.",
+    "Informed-consent rules differ by country.",
+    "Passengers share responsibility for following instructions.",
+    "Rules will change as the industry grows."
+   ],
+   "In many countries operators need a licence for each launch type and must tell passengers about risks in writing; check the current rule with the national authority.",
+   "Summarise the rules in your country or the nearest one with a source.",
+   "Choose a source that is an authority and date it."
+  ],
+  [
+   "Careers and ground services",
+   "Understand",
+   2,
+   "Most jobs are on the ground.",
+   [
+    "Engineers, technicians, safety and medical staff, trainers, guides and hospitality.",
+    "Data analysts, communicators and finance staff.",
+    "Skills transfer from aviation, hospitality, healthcare and engineering.",
+    "Local spaceports and launch sites can create jobs."
+   ],
+   "A hotel catering trainee moves to a spaceport restaurant and a technician from aviation moves into ground support.",
+   "Link ten roles to the skills they need.",
+   "Check that roles and skills are realistic."
+  ],
+  [
+   "Write a balanced fact sheet",
+   "Create",
+   2,
+   "Combine what you have learned into a short guide.",
+   [
+    "Use plain language.",
+    "State limits and unknowns.",
+    "Test with two readers.",
+    "Date the sheet and cite each source."
+   ],
+   "A reader can repeat three facts, name one risk and one cost comparison after reading.",
+   "Finish and test the sheet.",
+   "Show that the reader can repeat three facts and one risk."
+  ]
+ ],
+ "quiz": [
+  [
+   "Space line?",
+   "About 100 km."
+  ],
+  [
+   "Suborbital?",
+   "Up and back without orbit."
+  ],
+  [
+   "Name a risk.",
+   "High G-force (strong acceleration) or radiation."
+  ],
+  [
+   "Cost?",
+   "Very high today."
+  ],
+  [
+   "Environmental issue?",
+   "Emissions in high air."
+  ],
+  [
+   "Rule?",
+   "Licence and informed consent."
+  ],
+  [
+   "Ground roles?",
+   "Engineers, medics, trainers."
+  ],
+  [
+   "Why check claims?",
+   "Hype."
+  ],
+  [
+   "Balloon altitude?",
+   "About 30 km."
+  ],
+  [
+   "Fairness issue?",
+   "Access."
+  ]
+ ],
+ "rubric": [
+  [
+   "Accuracy",
+   "Errors",
+   "Correct",
+   "Correct and sourced"
+  ],
+  [
+   "Balance",
+   "One-sided",
+   "Both",
+   "Both with limits"
+  ],
+  [
+   "Clarity",
+   "Hard",
+   "Clear",
+   "Tested"
+  ],
+  [
+   "Fact checks",
+   "Statements from advertising",
+   "Each fact cites a dated public source",
+   "Each cost and risk figure compared across two sources"
+  ],
+  [
+   "Law and ethics",
+   "Licensing not checked",
+   "Flight licence, consumer and safety rules are listed with dates",
+   "Rules checked on the regulator's page and the date recorded"
+  ]
+ ],
+ "jobs": [
+  [
+   "Spaceport guest services",
+   "Welcomes guests"
+  ],
+  [
+   "Aerospace ground assistant",
+   "Supports crews"
+  ],
+  [
+   "Travel adviser",
+   "Explains options"
+  ],
+  [
+   "Science communicator",
+   "Writes factual guides"
+  ],
+  [
+   "Safety administration assistant",
+   "Tracks training"
+  ]
+ ],
+ "next": "drones, nanosatellites, adventure tourism.",
+ "local": "Space regulation differs by country.",
+ "ladder": [
+  [
+   "What counts as space and why it matters",
+   "L1: learner can say what space is. Focus module: What counts as space and why it matters (Understand, 2 h). The edge of space is a convention, not a wall, and the type of flight sets the experience. Key points: A common line is 100 km above sea level, though some authorities use a lower altitude. Suborbital flights go up and come back without orbiting; orbital flights circle Earth and need far more energy. Weightlessness on a suborbital flight lasts a few minutes; an orbital stay can last days. Balloons reach about 30 km, which is high but not space.",
+   "Teach: open with the worked example. A suborbital flight reaches about 100 km, gives three to four minutes of weightlessness and returns in under an hour. An orbital stay costs many times more. Then set the activity: Explain suborbital, orbital and balloon flights to a peer using one drawing. Mark against the standard: Show that a peer can say which is which and where the line is. Check at this level: Space line? Model answer: About 100 km."
+  ],
+  [
+   "Flight types and experience",
+   "L2: learner knows flight types. Focus module: Flight types and experience (Understand, 2 h). Each type has a different ride, training need and risk. Key points: Rocket planes and capsules give a quick, strong acceleration; balloons give a slow, quiet ride. Training: days or weeks of preparation, including emergency drills. Medical screening checks heart, blood pressure and other conditions. Comfort limits include seat size and height.",
+   "Teach: open with the worked example. A passenger spends two days in training, including a centrifuge session that shows high acceleration. Another selects a balloon flight because they are not fit for high acceleration. Then set the activity: Compare three flight types in a table. Mark against the standard: List altitude, time, training and key risks in the table. Check at this level: Why train? Model answer: To prepare for high acceleration and emergencies."
+  ],
+  [
+   "Safety, health and informed consent",
+   "L3: learner can explain flight risks. Focus module: Safety, health and informed consent (Evaluate, 2 h). Spaceflight carries real risk, and the passenger must understand it. Key points: Hazards: acceleration, vibration, radiation, cabin pressure loss and emergency exits. Operators publish safety records and incident reports. Passengers sign an informed consent describing risks. Medical screening can exclude some people.",
+   "Teach: open with the worked example. A passenger reads the written risk statement, asks the operator about abort procedures and decides not to fly until further test flights are complete. Then set the activity: List six risks and a control for each. Mark against the standard: Each risk has a control and a source. Check at this level: Name a risk. Model answer: High G or radiation."
+  ],
+  [
+   "Cost, value and who can afford it",
+   "L4: learner can compare costs. Focus module: Cost, value and who can afford it (Analyse, 2 h). Costs are far above what most people can pay. Key points: Prices are often hundreds of thousands of dollars or more. Costs might fall over time, but not soon. Compare to other life events to give perspective. Alternatives exist: museum, simulator and educational experiences.",
+   "Teach: open with the worked example. A seat costing 4 crore INR equals many lifetimes of average household income. A simulator ride costs 5,000 INR. Then set the activity: Compare a seat price with local income and an alternative. Mark against the standard: Comparison is clear and uses sources. Check at this level: Cost? Model answer: Very high today."
+  ],
+  [
+   "Environment and sustainability",
+   "L5: learner can check emissions claims. Focus module: Environment and sustainability (Analyse, 2 h). Rocket launches emit gases and soot high in the air. Key points: Black carbon and water vapour affect the upper atmosphere. Per-passenger emissions can be many times those of a long flight. Launch frequency matters more than one flight. Fuel type changes impacts.",
+   "Teach: open with the worked example. One study estimates per-passenger emissions far above a long-haul flight; another gives a lower range. A fact sheet quotes the range and explains the difference. Then set the activity: Check two claims and report the range with sources. Mark against the standard: Range stated with sources and date. Check at this level: Environmental issue? Model answer: Emissions in high air."
+  ],
+  [
+   "Careers and ground services",
+   "L6: learner can coordinate guest services. Focus module: Careers and ground services (Understand, 2 h). Most jobs are on the ground. Key points: Engineers, technicians, safety and medical staff, trainers, guides and hospitality. Data analysts, communicators and finance staff. Skills transfer from aviation, hospitality, healthcare and engineering. Local spaceports and launch sites can create jobs.",
+   "Teach: open with the worked example. A hotel catering trainee moves to a spaceport restaurant and a technician from aviation moves into ground support. Then set the activity: Link ten roles to the skills they need. Mark against the standard: Roles and skills are realistic. Check at this level: Ground roles? Model answer: Engineers, medics, trainers."
+  ],
+  [
+   "Write a balanced fact sheet",
+   "L7: learner can audit a sheet. Focus module: Write a balanced fact sheet (Create, 2 h). Combine what you have learned into a short guide. Key points: Use plain language. State limits and unknowns. Test with two readers. Date the sheet and cite each source.",
+   "Teach: open with the worked example. A reader can repeat three facts, name one risk and one cost comparison after reading. Then set the activity: Finish and test the sheet. Mark against the standard: Show that the reader can repeat three facts and one risk. Check at this level: How to test the sheet? Model answer: Have two readers try it."
+  ]
+ ]
+}

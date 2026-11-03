@@ -1,0 +1,291 @@
+{
+ "id": "GL-47",
+ "title": "Stem Cell Therapy (Awareness Level)",
+ "level": 2,
+ "desc": "Understand in plain words what stem cells are, what approved treatments exist, how to spot unproven clinics, and the ethics involved. Awareness only.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain what stem cells are and the main types."
+  ],
+  [
+   "Apply",
+   "Use a checklist to judge a clinic or advert."
+  ],
+  [
+   "Analyse",
+   "Separate approved uses from experimental claims."
+  ],
+  [
+   "Evaluate",
+   "Weigh hope against evidence and cost."
+  ],
+  [
+   "Create",
+   "Draft a short guide for patients and families."
+  ]
+ ],
+ "task": "Produce a one-page safe-choice guide on stem cell treatments with a clinic checklist and a glossary.",
+ "condition": "A computer, public information, two peers and a mentor. No medical advice is given and no patient records are used.",
+ "standard": "Facts are sourced and dated; approved and experimental uses are kept apart; no promise of cure appears; the guide tells readers to ask a qualified specialist; peers rate Meets or better.",
+ "who": "Patients, carers, teachers, health writers and trainee lab staff.",
+ "req": "none",
+ "evidence": "guide, clinic checklist, glossary",
+ "modules": [
+  [
+   "What stem cells are",
+   "Understand",
+   2,
+   "Stem cells can copy themselves and can become other kinds of cell. That is why they matter in medicine.",
+   [
+    "Types: embryonic (from early embryos), adult or tissue (in bone marrow, skin, gut) and induced (adult cells reprogrammed in a lab).",
+    "Each type has different uses, limits and ethical questions.",
+    "Your body already uses stem cells every day, for example to renew blood and skin.",
+    "A stem cell in a lab is not a treatment until it has passed regulated testing."
+   ],
+   "Blood stem cells in bone marrow keep making new red cells, white cells and platelets throughout life. A donor transplant replaces a patient's marrow when it is damaged.",
+   "Draw a picture of one stem cell dividing into one copy and one specialised cell, and label three types.",
+   "Check that the picture is accurate and the labels are correct."
+  ],
+  [
+   "Established and approved uses",
+   "Understand",
+   2,
+   "Some stem cell treatments are established. Many claims are not.",
+   [
+    "Blood stem cell transplants are used for certain blood cancers and inherited blood disorders.",
+    "Skin grafts and corneal surface treatments using stem cells exist for some conditions.",
+    "Approval means regulators reviewed trial evidence for a named condition.",
+    "Most other uses are experimental and belong in registered trials."
+   ],
+   "A hospital matches a patient with a donor, checks tissue types, gives the transplant under specialist care and follows up for years. This is regulated, documented and repeatable.",
+   "List three approved uses and name a public source for each.",
+   "Use sources that are regulators or recognised hospitals, and date them."
+  ],
+  [
+   "Trials and evidence",
+   "Analyse",
+   2,
+   "Medicine moves from idea to approval in stages, and each stage reduces risk.",
+   [
+    "Stages: laboratory work, small safety trials, larger effectiveness trials, regulator review, approval, monitoring.",
+    "Patient stories are not proof; control groups and large numbers are.",
+    "Registered trials appear in public registries.",
+    "Ask: Is this approved, or is it in a registered trial?"
+   ],
+   "A clinic advertises success stories only. The learner searches a trial registry and finds no registered trial for the claimed condition, so rates the claim unproven.",
+   "Check one claim in a public trial registry and write the result.",
+   "State in the result the registry searched, the terms used and the date."
+  ],
+  [
+   "Spotting unproven clinics",
+   "Evaluate",
+   2,
+   "Some clinics sell hope at high prices without evidence. Families can lose money and delay real care.",
+   [
+    "Red flags: cures many unrelated diseases, pay in advance, no registered trial, no follow-up, pressure to decide fast.",
+    "Risks include infection, unwanted growths and lost time.",
+    "Ask for the approval or trial number and check it yourself.",
+    "Talk to your own specialist before travelling."
+   ],
+   "A family is offered an injection costing a year's income for a condition with no approved stem cell treatment. They ask for the trial number, receive none, and decline.",
+   "Score two real adverts with the red-flag list and justify each score.",
+   "Cite the advert wording for each score."
+  ],
+  [
+   "Ethics and sources",
+   "Evaluate",
+   2,
+   "People hold different views on where cells come from and how they should be used.",
+   [
+    "Donors must give informed and free consent, with the right to withdraw.",
+    "Embryo use is debated; religions and cultures differ.",
+    "Cord blood banking is a personal choice with limited current uses.",
+    "Fairness: who can afford treatment, and who does research benefit?"
+   ],
+   "A parents' guide explains cord blood choices, costs and the limits of use without pressure and tells parents to ask their doctor.",
+   "Write a balanced paragraph on one ethical question presenting two views fairly.",
+   "State both views in terms their holders would accept."
+  ],
+  [
+   "Talking with specialists",
+   "Apply",
+   2,
+   "A prepared patient gets better answers.",
+   [
+    "Questions: what is this for, is it approved, what are the risks, what does it cost, what are the alternatives, what follow-up is needed.",
+    "Bring a family member and take notes.",
+    "Second opinions are normal.",
+    "Ask for written information."
+   ],
+   "A patient brings a one-page question list to the haematologist, gets written answers and decides after a second opinion.",
+   "Prepare a question list of at least eight questions for a specialist visit.",
+   "Write clear questions that cover approval, risk, cost and follow-up."
+  ],
+  [
+   "Cost, travel and safety",
+   "Evaluate",
+   2,
+   "Medical travel adds risks beyond the procedure.",
+   [
+    "Check licence of clinic and doctor in the destination.",
+    "Count the full cost: fee, flights, stay, follow-up at home, complications.",
+    "Plan who provides follow-up care when you return.",
+    "Keep records of everything given."
+   ],
+   "A traveller totals fee 12,00,000 INR (figures are estimates; check current prices), flights and stay 1,50,000 INR, and complication cover 2,00,000 INR (total 15,50,000 INR), then decides against it after comparing with an approved local option.",
+   "Cost a hypothetical trip and list five safety questions.",
+   "Total all cost items and show the currency."
+  ],
+  [
+   "Write the safe-choice guide",
+   "Create",
+   2,
+   "Turn the course into one useful page for patients and families.",
+   [
+    "One page, plain words, large print.",
+    "Include the clinic checklist and local regulator contacts.",
+    "Add a glossary of five terms.",
+    "Test with two readers and fix confusing parts."
+   ],
+   "Readers say they would first ask \"is it in a registered trial?\" and know where to look it up.",
+   "Finish the guide and test it.",
+   "Test that readers can repeat three red flags without notes."
+  ]
+ ],
+ "quiz": [
+  [
+   "Name two stem cell types.",
+   "Adult (tissue) and embryonic (or induced). (Covered in module 1: What stem cells are. To pass that module: Check that the picture is accurate and the labels are correct.)"
+  ],
+  [
+   "Name one long-established use.",
+   "Blood stem cell transplant for some blood disorders. (Covered in module 2: Established and approved uses. To pass that module: Use sources that are regulators or recognised hospitals, and date them.)"
+  ],
+  [
+   "Are patient stories proof?",
+   "No. (Covered in module 3: Trials and evidence. To pass that module: State in the result the registry searched, the terms used and the date.)"
+  ],
+  [
+   "Name two red flags.",
+   "Cures many diseases; pay up front or fast pressure. (Covered in module 4: Spotting unproven clinics. To pass that module: Each score cites the advert wording.)"
+  ],
+  [
+   "What question tests a clinic?",
+   "Is it approved or in a registered trial? (Covered in module 4: Spotting unproven clinics. To pass that module: Each score cites the advert wording.)"
+  ],
+  [
+   "Name one risk.",
+   "Infection, tumours, wasted money or delayed care. (Covered in module 4: Spotting unproven clinics. To pass that module: Each score cites the advert wording.)"
+  ],
+  [
+   "Why consent?",
+   "Donors must freely agree with full information. (Covered in module 5: Ethics and sources. To pass that module: State both views in terms their holders would accept.)"
+  ],
+  [
+   "Is a second opinion normal?",
+   "Yes. (Covered in module 6: Talking with specialists. To pass that module: Write clear questions that cover approval, risk, cost and follow-up.)"
+  ],
+  [
+   "What cost parts does travel add?",
+   "Flights, stay and follow-up. (Covered in module 7: Cost, travel and safety. To pass that module: Total all cost items and show the currency.)"
+  ],
+  [
+   "Who gives medical advice?",
+   "Qualified specialists, not this course. (Covered in module 6: Talking with specialists. To pass that module: Write clear questions that cover approval, risk, cost and follow-up.)"
+  ]
+ ],
+ "rubric": [
+  [
+   "Accuracy",
+   "Errors",
+   "Correct",
+   "Correct and sourced"
+  ],
+  [
+   "Red-flag use",
+   "None",
+   "Listed",
+   "Applied to real adverts"
+  ],
+  [
+   "Balanced ethics",
+   "One-sided",
+   "Both views",
+   "Both views with respect"
+  ],
+  [
+   "Evidence stage",
+   "Treatments described without their stage",
+   "Each treatment is marked approved, trial-only or unproven, with source",
+   "Each stage is checked against a public register on a stated date"
+  ],
+  [
+   "Clinic red flags",
+   "No clinic checks",
+   "Checklist covers licence, approval, advertised cures and fees",
+   "Checklist tried on two real clinic websites, with findings recorded"
+  ]
+ ],
+ "jobs": [
+  [
+   "Patient information assistant",
+   "Prepares plain guides"
+  ],
+  [
+   "Lab technician trainee",
+   "Learns cell handling"
+  ],
+  [
+   "Health writer",
+   "Explains science carefully"
+  ],
+  [
+   "Clinic quality assistant",
+   "Checks claims"
+  ],
+  [
+   "Science teacher",
+   "Teaches cell biology"
+  ]
+ ],
+ "next": "DNA analysis awareness, nanotechnology in medicine, cryobank operations awareness.",
+ "local": "Stem cell treatment rules and licensing differ by place.",
+ "ladder": [
+  [
+   "What stem cells are",
+   "L1: learner can say what a stem cell is. Focus module: What stem cells are (Understand, 2 h). Stem cells can copy themselves and can become other kinds of cell. That is why they matter in medicine. Key points: Types: embryonic (from early embryos), adult or tissue (in bone marrow, skin, gut) and induced (adult cells reprogrammed in a lab). Each type has different uses, limits and ethical questions. Your body already uses stem cells every day, for example to renew blood and skin. A stem cell in a lab is not a treatment until it has passed regulated testing.",
+   "Teach: open with the worked example. Blood stem cells in bone marrow keep making new red cells, white cells and platelets throughout life. A donor transplant replaces a patient's marrow when it is damaged. Then set the activity: Draw a picture of one stem cell dividing into one copy and one specialised cell, and label three types. Mark against the standard: Check that the picture is accurate and the labels are correct. Check at this level: Name two stem cell types. Model answer: Adult (tissue) and embryonic (or induced)."
+  ],
+  [
+   "Established and approved uses",
+   "L2: learner can name approved uses. Focus module: Established and approved uses (Understand, 2 h). Some stem cell treatments are established. Many claims are not. Key points: Blood stem cell transplants are used for certain blood cancers and inherited blood disorders. Skin grafts and corneal surface treatments using stem cells exist for some conditions. Approval means regulators reviewed trial evidence for a named condition. Most other uses are experimental and belong in registered trials.",
+   "Teach: open with the worked example. A hospital matches a patient with a donor, checks tissue types, gives the transplant under specialist care and follows up for years. This is regulated, documented and repeatable. Then set the activity: List three approved uses and name a public source for each. Mark against the standard: Use sources that are regulators or recognised hospitals, and date them. Check at this level: Name one long-established use. Model answer: Blood stem cell transplant for some blood disorders."
+  ],
+  [
+   "Trials and evidence",
+   "L3: learner can read evidence stages. Focus module: Trials and evidence (Analyse, 2 h). Medicine moves from idea to approval in stages, and each stage reduces risk. Key points: Stages: laboratory work, small safety trials, larger effectiveness trials, regulator review, approval, monitoring. Patient stories are not proof; control groups and large numbers are. Registered trials appear in public registries. Ask: Is this approved, or is it in a registered trial?",
+   "Teach: open with the worked example. A clinic advertises success stories only. The learner searches a trial registry and finds no registered trial for the claimed condition, so rates the claim unproven. Then set the activity: Check one claim in a public trial registry and write the result. Mark against the standard: State in the result the registry searched, the terms used and the date. Check at this level: Are patient stories proof? Model answer: No."
+  ],
+  [
+   "Spotting unproven clinics",
+   "L4: learner can use red flags on adverts. Focus module: Spotting unproven clinics (Evaluate, 2 h). Some clinics sell hope at high prices without evidence. Families can lose money and delay real care. Key points: Red flags: cures many unrelated diseases, pay in advance, no registered trial, no follow-up, pressure to decide fast. Risks include infection, unwanted growths and lost time. Ask for the approval or trial number and check it yourself. Talk to your own specialist before travelling.",
+   "Teach: open with the worked example. A family is offered an injection costing a year's income for a condition with no approved stem cell treatment. They ask for the trial number, receive none, and decline. Then set the activity: Score two real adverts with the red-flag list and justify each score. Mark against the standard: Each score cites the advert wording. Check at this level: Name two red flags. Model answer: Cures many diseases; pay up front or fast pressure."
+  ],
+  [
+   "Ethics and sources",
+   "L5: learner can discuss ethics fairly. Focus module: Ethics and sources (Evaluate, 2 h). People hold different views on where cells come from and how they should be used. Key points: Donors must give informed and free consent, with the right to withdraw. Embryo use is debated; religions and cultures differ. Cord blood banking is a personal choice with limited current uses. Fairness: who can afford treatment, and who does research benefit?",
+   "Teach: open with the worked example. A parents' guide explains cord blood choices, costs and the limits of use without pressure and tells parents to ask their doctor. Then set the activity: Write a balanced paragraph on one ethical question presenting two views fairly. Mark against the standard: State both views in terms their holders would accept. Check at this level: Why consent? Model answer: Donors must freely agree with full information."
+  ],
+  [
+   "Cost, travel and safety",
+   "L6: learner can lead a patient-information desk. Focus module: Cost, travel and safety (Evaluate, 2 h). Medical travel adds risks beyond the procedure. Key points: Check licence of clinic and doctor in the destination. Count the full cost: fee, flights, stay, follow-up at home, complications. Plan who provides follow-up care when you return. Keep records of everything given.",
+   "Teach: open with the worked example. A traveller totals fee 12,00,000 INR, flights and stay 1,50,000 INR, and complication cover 2,00,000 INR (total 15,50,000 INR), then decides against it after comparing with an approved local option. Then set the activity: Cost a hypothetical trip and list five safety questions. Mark against the standard: Total all cost items and show the currency. Check at this level: What cost parts does travel add? Model answer: Flights, stay and follow-up."
+  ],
+  [
+   "Write the safe-choice guide",
+   "L7: learner can audit a guide. Focus module: Write the safe-choice guide (Create, 2 h). Turn the course into one useful page for patients and families. Key points: One page, plain words, large print. Include the clinic checklist and local regulator contacts. Add a glossary of five terms. Test with two readers and fix confusing parts.",
+   "Teach: open with the worked example. Readers say they would first ask \"is it in a registered trial?\" and know where to look it up. Then set the activity: Finish the guide and test it. Mark against the standard: Test that readers can repeat three red flags without notes. Check at this level: What should the one-page guide include? Model answer: A clinic checklist, local regulator contacts and a glossary of five terms."
+  ]
+ ]
+}

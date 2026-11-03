@@ -16,8 +16,8 @@ strong{font-weight:600}
 .wrap{width:100%;max-width:1180px;margin:0 auto;padding-left:16px;padding-right:16px}
 @media (min-width:700px){.wrap{padding-left:32px;padding-right:32px}}
 @media (min-width:1100px){.wrap{padding-left:48px;padding-right:48px}}
-.skip{position:absolute;left:12px;top:-60px;z-index:100;background:var(--ink);color:#fff;padding:10px 16px;font-weight:600;text-decoration:none}
-.skip:focus{top:12px}
+.skip{position:absolute;left:12px;top:-60px;z-index:100;background:#14222e!important;color:#fff!important;padding:10px 16px;font-weight:600;text-decoration:none}
+.skip:focus{top:12px;outline:3px solid #0B66AA;outline-offset:2px}
 .vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:11px 20px;border:1.5px solid var(--acc);border-radius:var(--rb);background:var(--acc);color:var(--on-acc);font:600 15px/1.2 var(--f-ui);text-decoration:none;cursor:pointer;text-align:center}
 .btn:hover{filter:brightness(1.1);text-decoration:none}
@@ -221,7 +221,7 @@ form.quiz fieldset.wrong{border-color:#b5592a;border-width:2px}
 .site-foot .foot-notice{margin:0;max-width:100ch;color:var(--foot-ink)}
 .site-foot .foot-notice a{border-bottom-color:var(--foot-acc)}
 .form-safe{margin:0;padding:10px 14px;border-left:3px solid var(--acc);background:var(--panel);color:var(--ink);font-size:14px;max-width:none}
-/* ---------- Accessibility and learning style panel (assets/lang.js, same on all group sites) ---------- */
+/* ---------- Accessibility and learning style panel (assets/lang.js) ---------- */
 .a11y-btn{display:inline-flex;align-items:center;gap:6px}
 .a11y-btn svg{width:16px;height:16px;flex:none;display:block}
 .a11y-panel{overflow:auto}
@@ -331,7 +331,7 @@ body.learn{background-color:#f3f0e6}
 .learn .member-line span{background:linear-gradient(transparent 62%,rgba(208,115,47,.35) 62%)}
 .learn .hand-note{font:italic 500 18px/1.4 var(--f-body);color:var(--kick)}
 
-/* ---------- Our products page (shared by the four sites; uses only each site's own tokens) ---------- */
+/* ---------- Our products page (uses only this site's own tokens) ---------- */
 .op{--op-r:var(--r-lg,6px)}
 .op-sec{padding:clamp(32px,6vw,64px) 0;scroll-margin-top:140px}
 .op-sec>h2{text-align:center;margin-bottom:.4em}
@@ -402,7 +402,7 @@ body.learn{background-color:#f3f0e6}
   .op-item{grid-template-columns:1fr}.op-car{grid-template-columns:1fr}.op-arrow{display:none}.op-pills{top:64px}}
 @media print{.op-marquee,.op-pills,.op-arrow,.op-dots,.op-filter{display:none!important}.op-slides{display:block}.op-group{break-inside:avoid}}
 
-/* Accessibility extras (20 Oct 2026), shared by all group sites; site.css and the generated CSS carry it
+/* Accessibility extras (20 Oct 2026); site.css and the generated CSS carry it
    between ACCESS markers. Fonts are open (SIL OFL 1.1) and hosted with the site in assets/fonts. */
 @font-face{font-family:"OpenDyslexic";src:url("fonts/opendyslexic-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
 @font-face{font-family:"OpenDyslexic";src:url("fonts/opendyslexic-700.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap}
@@ -727,7 +727,7 @@ html[data-look="studio"] .yoga-app .only-studio,html[data-look="family"] .yoga-a
 .yoga-app .dlg-actions{display:flex;justify-content:flex-end;margin-top:12px}
 html.a11y-contrast .yoga-app{--bg:#ffffff;--surface:#ffffff;--ink:#000000;--muted:#000000;--line:#000000;--soft:#cccccc}
 .op-host .yoga-app{margin:0 calc(-1 * clamp(0px,2vw,8px))}
-/* Site enhancements shared by all four sites (22 Oct 2026). Works with each site's own tokens:
+/* Site enhancements. Works with this site's own tokens:
    --bg --surface --panel --ink --muted --line --acc --acc-strong --on-acc --focus. Motion respects reduced-motion. */
 html{scroll-behavior:smooth}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

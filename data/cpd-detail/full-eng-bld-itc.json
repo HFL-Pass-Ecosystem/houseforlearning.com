@@ -1,0 +1,1236 @@
+{
+ "ENG-001": {
+  "task": "Calculate the design current for a three-phase load, select a cable size and type that meets current rating and voltage-drop limits, and record the calculation so another engineer can verify it",
+  "cond": "Given a load schedule, sample rating tables, an installation method and a calculation template, in a 4-hour practical session with three practice loads",
+  "std": "Calculate current with correct units and no errors, show a corrected rating above the design current, keep voltage drop within the stated limit, cite the clause and table, and complete a sheet ready for checking",
+  "modules": [
+   {
+    "t": "Load, current and the safety margin",
+    "min": 35,
+    "pts": [
+     "Three-phase current is I = P / (sqrt3 x V x pf).",
+     "Keep units clear: watts, volts, then amps.",
+     "A margin covers heat, grouping and ageing."
+    ],
+    "ex": "22 kW at 400 V, power factor 0.85: I = 22,000 / (1.732 x 400 x 0.85) = 22,000 / 588.9 = about 37.4 A. A sample 25 percent margin (your standard and a qualified person set the real one) would give 37.4 x 1.25 = 46.7 A. The later steps use 37.4 A as the design current and correct the table rating instead.",
+    "std": "Calculate the design current for a three-phase load such as 22 kW at 400 V, given a load schedule, using the correct formula and units, and state why a safety margin on current is applied."
+   },
+   {
+    "t": "Voltage drop and tolerance",
+    "min": 40,
+    "pts": [
+     "Drop in volts = mV per amp per metre x current x length / 1000.",
+     "Compare it with the limit on the sheet, in volts or percent.",
+     "Over the limit: choose a larger size or shorten the run."
+    ],
+    "ex": "Case card 2: 22 kW load, 60 m from the board, 16 mm2 at 2.5 mV/A/m (sample table). Drop = 2.5 x 37.4 x 60 / 1000 = 5.6 V, or 1.4 percent of 400 V, under a sample 4 percent limit (16 V). If the sample limit were 1 percent (4 V), 25 mm2 at 1.6 mV/A/m gives 3.6 V, or 0.9 percent.",
+    "std": "Check voltage drop for a cable run, given its length and the limit on the sheet, and decide whether a larger size or a shorter run is needed to stay within tolerance."
+   },
+   {
+    "t": "Reading the sample table",
+    "min": 35,
+    "pts": [
+     "Find the size row, then the installation-method column.",
+     "Multiply the tabulated rating by every correction factor.",
+     "The corrected rating must be above the design current."
+    ],
+    "ex": "Sample table: 10 mm2 = 52 A, 16 mm2 = 69 A. Temperature factor 0.87 x grouping factor 0.80 = 0.696. 10 mm2: 52 x 0.696 = 36.2 A, below 37.4 A, so it fails. 16 mm2: 69 x 0.696 = 48.0 A, above 37.4 A, so it passes (it is also above the 46.7 A sample margin figure). All table values here are worked-example figures.",
+    "std": "Interpret the sample rating table, given the installation method and temperature, and apply the correction so the corrected rating is shown to be above the design current."
+   },
+   {
+    "t": "Choosing size and type, citing the clause",
+    "min": 40,
+    "pts": [
+     "Pass current first, then voltage drop, then short-circuit withstand.",
+     "Pick the smallest size that passes every check.",
+     "Write the clause and table number beside the choice."
+    ],
+    "ex": "Choose 16 mm2: corrected rating 48.0 A is above 37.4 A, and the drop of 5.6 V (1.4 percent) is within the sample 4 percent limit. Record the sample table and clause reference (Table B, clause 7 on the sample sheet), and note that short-circuit withstand is still to be checked.",
+    "std": "Select a cable size and type, given tables and an installation method, meeting current rating and voltage-drop limits, and cite the clause and table number that support the choice."
+   },
+   {
+    "t": "Calculation sheet",
+    "min": 30,
+    "pts": [
+     "Every line has an input, a unit and a result.",
+     "Cite the clause so a checker can find the rule.",
+     "Another competent person must be able to verify without asking."
+    ],
+    "ex": "Sheet line: 22 kW | 400 V | pf 0.85 | I = 37.4 A | method C | factor 0.696 | 16 mm2 | corrected 48.0 A | drop 5.6 V (1.4 percent) | Table B, clause 7 | checker signed.",
+    "std": "Record the calculation on the template, with inputs, units, results and clause, so another competent person can verify it without asking questions."
+   },
+   {
+    "t": "Three practice loads",
+    "min": 40,
+    "pts": [
+     "Work each load from current to drop to clause.",
+     "Use that load's own length and method.",
+     "Check units before moving to the next load."
+    ],
+    "ex": "Three loads at 400 V: A 11 kW, pf 0.80, I = 11,000 / (1.732 x 400 x 0.80) = 19.8 A; B 15 kW, pf 0.90, I = 15,000 / (1.732 x 400 x 0.90) = 24.1 A; C 22 kW, pf 0.85, I = 37.4 A. All three are practice numbers; the checker confirms the real values.",
+    "std": "Calculate and select the cable for three practice loads, each with its own length and installation method, with correct units and no errors."
+   },
+   {
+    "t": "Assessment",
+    "min": 10,
+    "pts": [
+     "Work alone, with the tables and the template.",
+     "Do not copy an old sheet without re-checking inputs.",
+     "Hand in a sheet that is ready for a checker."
+    ],
+    "ex": "New load: 30 kW, 400 V, pf 0.85, 80 m. I = 30,000 / (1.732 x 400 x 0.85) = 50.9 A. Then correct the rating, check the drop, cite the clause and fill the sheet.",
+    "std": "Complete a full cable selection for a new load, from current to voltage drop to clause, with no calculation errors and a sheet ready for checking."
+   },
+   {
+    "t": "Teach-back and peer check",
+    "min": 10,
+    "pts": [
+     "Swap sheets with a partner and check the inputs first.",
+     "Recalculate the current before reading the cable choice.",
+     "Say what is wrong in one sentence, with the right value."
+    ],
+    "ex": "A partner's sheet gives 31.8 A for the 22 kW load. Recalculation: 22,000 / (1.732 x 400) = 31.8 A, so the 0.85 power factor was left out. The correct value is 37.4 A, which is 5.6 A higher.",
+    "std": "Evaluate a partner's calculation sheet by recalculating the current, find any wrong input or missing factor, and state the correct value with a one-sentence explanation."
+   }
+  ],
+  "extra_check": {
+   "q": "A partner's sheet shows 31.8 A for a 22 kW, 400 V, power factor 0.85 load. What went wrong?",
+   "a": "The power factor was left out; with it the current is about 37.4 A.",
+   "module": 8
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What a cable does",
+    "note": "A cable carries current from the board to a load. At this first step the learner can say what current, voltage and load mean, and why a cable that is too small gets hot and can fail."
+   },
+   {
+    "t": "L2 Awareness: Why size matters",
+    "note": "The learner can name the three checks behind a cable choice: current rating, voltage drop and protection. They know the national standard holds the rules and that a named engineer verifies the choice before use."
+   },
+   {
+    "t": "L3 Foundation: Current and the table",
+    "note": "The learner can calculate current for a simple load and read a rating table with help. They follow the 22 kW worked example, including the power factor and the correction for installation method."
+   },
+   {
+    "t": "L4 Practitioner: Select and record a cable",
+    "note": "This course sits here. The learner calculates design current, corrects the table rating, checks voltage drop, selects a size, cites the clause and table, and records every step so another engineer can verify it."
+   },
+   {
+    "t": "L5 Specialist: Long runs and groups",
+    "note": "The specialist handles long runs, grouped cables, high ambient temperature and several loads on one feeder. They test two or three sizes, compare the results, and justify the final choice in writing."
+   },
+   {
+    "t": "L6 Advanced: Review other sheets",
+    "note": "The advanced practitioner checks other engineers' sheets, finds missing factors and wrong inputs, and confirms that the chosen cable is protected by its device, including short-circuit withstand."
+   },
+   {
+    "t": "L7 Super expert: Own the method",
+    "note": "The super expert maintains the calculation templates and teaches the method. They compare editions of the standard, set review rules for sheets, and mentor engineers to verify design work instead of copying old sheets."
+   }
+  ],
+  "jobs": [
+   "Electrical technician",
+   "Electrical design assistant",
+   "Junior electrical engineer",
+   "Estimator",
+   "Site electrician"
+  ]
+ },
+ "ENG-002": {
+  "task": "Read a one-line diagram and coordination curves, check a protection setting against the fault level and load, and report any mismatch with a clear pass or fail",
+  "cond": "Given a sample one-line diagram, two time-current curves, a fault level and load, and a report template, in a 4-hour practical session",
+  "std": "Name every device from supply to motor, identify pick-up and trip time on two curves, show where a downstream device does or does not trip first, and report a mismatch with setting, expected value, difference and location",
+  "modules": [
+   {
+    "t": "One-line diagram basics",
+    "min": 30,
+    "pts": [
+     "A one-line diagram shows the path of power in single lines.",
+     "Each symbol is one device with one job.",
+     "Read from the supply to the motor."
+    ],
+    "ex": "Sample diagram: 400 V supply, main breaker 400 A, feeder breaker 100 A, motor starter, 37 kW motor. Four items named from the supply down to the motor starter, with the 37 kW motor as the load, each with its purpose: supply (source), main breaker (isolate and protect the board), feeder breaker (protect the feeder), motor starter (start and protect the motor).",
+    "std": "Read a one-line diagram and name each device from supply to motor, stating the purpose of every device shown on the diagram."
+   },
+   {
+    "t": "Device order from source to load",
+    "min": 30,
+    "pts": [
+     "List devices from source to load.",
+     "For a fault at the load, the device nearest the load should act first.",
+     "That order is called selectivity."
+    ],
+    "ex": "Order for a motor fault: main 400 A, then feeder 100 A, then motor starter. Expected first to act: the motor starter. The feeder is the backup and the main is the last resort.",
+    "std": "List the devices in order from source to load, given a one-line diagram, and state which device should act first for a fault at the load."
+   },
+   {
+    "t": "Coordination curves",
+    "min": 45,
+    "pts": [
+     "Pick-up is the current at which a device starts to act.",
+     "Trip time is read on the curve at the fault current.",
+     "Two curves must not cross where faults can occur."
+    ],
+    "ex": "On the sample curves, at a 1,000 A fault: feeder (pick-up 100 A) trips in 0.10 s; main (pick-up 400 A) trips in 0.40 s. The 0.30 s gap means the downstream feeder acts first, so the curves do not cross there.",
+    "std": "Interpret two coordination curves, given a sample, identifying pick-up and time for a fault and showing where the downstream device does or does not trip first."
+   },
+   {
+    "t": "Checking a setting",
+    "min": 35,
+    "pts": [
+     "A setting must not trip on normal load.",
+     "It must trip on the fault level given.",
+     "Compare the setting with both numbers."
+    ],
+    "ex": "Sample values: normal load 80 A, fault level 3,000 A. Setting: pick-up 100 A, fast trip at 1,000 A. 80 A is under 100 A, so no trip on load. 3,000 A is over 1,000 A, so it trips fast. Result: pass.",
+    "std": "Check a given setting against the coordination curve, given a fault level and load, and state whether it trips for faults but not for normal load."
+   },
+   {
+    "t": "Reporting a mismatch and next check",
+    "min": 25,
+    "pts": [
+     "Name the device, the setting and the location.",
+     "Give the expected value, the actual value and the difference.",
+     "Say the next check and who owns it."
+    ],
+    "ex": "Sample report: feeder F2 at panel P1, trip time 0.45 s at 1,500 A, expected 0.10 s, difference 0.35 s. Next check: ask the responsible engineer to review the setting. Do not change it yourself.",
+    "std": "Report a mismatch, given two curves that cross, naming the setting, expected value, difference and location, and state the next check for the responsible engineer."
+   },
+   {
+    "t": "Assessment",
+    "min": 15,
+    "pts": [
+     "Give a clear pass or fail with evidence.",
+     "Say plainly what you could not verify.",
+     "Do not guess a missing value."
+    ],
+    "ex": "Sample case: fault 1,500 A, feeder trips in 0.08 s, main in 0.35 s. Pass, with the curve readings as evidence. The motor starter curve was not supplied, so it is reported as not verified.",
+    "std": "Check a sample case, given curves and a one-line diagram, with a clear pass or fail and evidence, and say plainly when something cannot be verified."
+   },
+   {
+    "t": "Second worked case: crossed curves",
+    "min": 30,
+    "pts": [
+     "Mark both curves at the same fault current.",
+     "The downstream device must be faster, not slower.",
+     "State the mismatch and the next step."
+    ],
+    "ex": "Case card 2: at a 2,000 A fault the downstream feeder trips in 0.50 s and the upstream main in 0.30 s. The feeder is 0.20 s slower, so the main trips first. Report the mismatch and ask the responsible engineer.",
+    "std": "Identify two crossing curves at a given fault current, state the time difference, and report the mismatch with the next step for the responsible engineer."
+   },
+   {
+    "t": "Teach-back and peer check",
+    "min": 30,
+    "pts": [
+     "Explain your reading to a partner in plain words.",
+     "The partner checks three things: order, trip times and wording.",
+     "Swap roles and agree one improvement each."
+    ],
+    "ex": "Pairs of 2: reader 3 minutes, partner checks the device order, two trip times and the report wording. Target: 4 of 4 devices named in order and both trip times read within 0.05 s.",
+    "std": "Evaluate a partner's curve reading and mismatch report against a checklist, give one strength and one improvement, and confirm the device order and trip times are correct."
+   }
+  ],
+  "extra_check": {
+   "q": "At a 2,000 A fault the feeder trips in 0.50 s and the main in 0.30 s. What is the gap and what do you report?",
+   "a": "The downstream feeder is 0.20 s slower, the wrong way round; report the device, setting, difference and location, and ask the responsible engineer.",
+   "module": 7
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What protection does",
+    "note": "A protective device cuts off power when a fault occurs. At this first step the learner can say why a fault is dangerous and why a breaker must open fast enough to protect people and equipment."
+   },
+   {
+    "t": "L2 Awareness: Reading a one-line diagram",
+    "note": "The learner can follow a one-line diagram from the supply to a motor and name each device and its purpose. They know that only an authorised person may change a setting, with a change record."
+   },
+   {
+    "t": "L3 Foundation: Order and curves",
+    "note": "The learner knows the device order from source to load and can find pick-up and trip time on a simple curve with help. They follow the worked example where the feeder must act before the main."
+   },
+   {
+    "t": "L4 Practitioner: Check a setting and report",
+    "note": "This course sits here. The learner checks a setting against fault level and normal load, spots where two curves cross, and reports a mismatch with a clear pass or fail and the evidence."
+   },
+   {
+    "t": "L5 Specialist: Several devices in a chain",
+    "note": "The specialist checks chains of three or more devices, with motor starting current and different fault levels along the line. They find the weakest gap and propose what the responsible engineer should review."
+   },
+   {
+    "t": "L6 Advanced: Review and verify on site",
+    "note": "The advanced practitioner reviews other people's findings, asks for site tests that confirm a paper pass, and records what could not be verified rather than guessing. They keep change records complete."
+   },
+   {
+    "t": "L7 Super expert: Set the checking standard",
+    "note": "The super expert writes the checking method and report template for a team. They audit past findings for missed mismatches, train others in selectivity, and advise on when a study needs a specialist."
+   }
+  ],
+  "jobs": [
+   "Electrical technician",
+   "Protection technician",
+   "Commissioning assistant",
+   "Junior electrical engineer",
+   "Maintenance electrician"
+  ]
+ },
+ "ENG-003": {
+  "task": "List the tests required for a scope, record readings on a test sheet with unit, instrument and date, judge each against its limit, and sign off only a complete sheet",
+  "cond": "Given a scope of work, a blank test sheet, readings and limits for six circuits, and a sample instrument record, in a 3-hour practical session",
+  "std": "Write every field of the sheet, mark every pass or fail correctly including a reading just under the limit, and sign off only when all six lines are complete and the instrument details are recorded",
+  "modules": [
+   {
+    "t": "Which tests and why",
+    "min": 20,
+    "pts": [
+     "List tests in the order of work.",
+     "Give a reason for each test.",
+     "Scope tells you which tests apply."
+    ],
+    "ex": "Scope: six new final circuits. Sample order (your standard and procedure set the real list): 1 continuity, 2 insulation resistance, 3 polarity, 4 earth loop impedance, 5 trip test. Reason for 2: to show the cable insulation is not damaged. 6 circuits x 5 tests = 30 results.",
+    "std": "List the tests required for a given scope, in the order of work, and state the reason for each test."
+   },
+   {
+    "t": "Filling the test sheet",
+    "min": 30,
+    "pts": [
+     "One line per circuit and test.",
+     "Write the unit and the instrument serial every time.",
+     "Blank is not allowed: write not applicable with a reason."
+    ],
+    "ex": "Line 1: circuit C1 | lighting | insulation resistance | 120 MOhm | sample limit at least 1.0 MOhm | pass | tester T1 | 2026-03-14 | instrument T-1042, calibrated 2026-01-10.",
+    "std": "Complete the test sheet, given sample readings, entering every field with unit, instrument serial and calibration date, and writing not applicable with a reason where a field does not apply."
+   },
+   {
+    "t": "Pass or fail against limits",
+    "min": 20,
+    "pts": [
+     "Compare the reading with the limit as written.",
+     "At least 1.0 means 1.0 passes.",
+     "Record every fail; never hide it."
+    ],
+    "ex": "Sample limit on the sheet: at least 1.0 MOhm. Readings 120 MOhm pass; 1.0 MOhm pass; 0.96 MOhm fail by 0.04 MOhm. The failed line is marked fail, flagged to the responsible person and kept on the sheet.",
+    "std": "Compare each reading with the given limit and mark pass or fail correctly, including a reading just under the limit, and record any failure without hiding it."
+   },
+   {
+    "t": "Signing and storing",
+    "min": 15,
+    "pts": [
+     "Sign only when every line is complete.",
+     "The tester signs; the checker signs where required.",
+     "File the sheet as the project and rules require."
+    ],
+    "ex": "Count before signing: 6 lines, 5 complete, 1 missing the instrument serial. Do not sign. Complete the serial, recount 6 of 6, then sign and file one copy with the project record.",
+    "std": "Evaluate whether the sheet can be signed off: sign only when every line is complete, with the tester and checker named, and file the record as the project and rules require."
+   },
+   {
+    "t": "Practice",
+    "min": 10,
+    "pts": [
+     "Work through all six circuits in order.",
+     "Judge each line as you write it.",
+     "Check for blanks before you hand in."
+    ],
+    "ex": "Six circuits, sample limit at least 1.0 MOhm: C1 120, C2 85, C3 0.96, C4 50, C5 200, C6 1.2 MOhm. Expected result: 5 pass, 1 fail (C3).",
+    "std": "Complete a sheet for six circuits, given readings and limits, with every field filled and every pass or fail judged correctly."
+   },
+   {
+    "t": "Check",
+    "min": 5,
+    "pts": [
+     "Check the sheet like a reviewer.",
+     "Look for blanks, missing instrument details and wrong judgements.",
+     "Report each problem with its line number."
+    ],
+    "ex": "A finished sheet: line 2 reads 0.85 MOhm against a limit of at least 1.0 but is marked pass; line 5 has no instrument serial. Two problems found: a wrong judgement and a blank field.",
+    "std": "Show that a finished sheet is complete, correct and ready for sign-off, finding any blank field, missing instrument detail or wrong judgement."
+   },
+   {
+    "t": "Second worked case: a reading just under the limit",
+    "min": 40,
+    "pts": [
+     "Do not round a reading up to pass.",
+     "Record the fail, flag it and tell the responsible person.",
+     "Keep the first reading when you retest."
+    ],
+    "ex": "Case card 2: insulation reading 0.98 MOhm against a sample limit of at least 1.0 MOhm is a fail by 0.02 MOhm. After the fix the retest reads 2.3 MOhm, a pass. Both lines stay on the record with dates.",
+    "std": "Judge a reading just under its limit as a fail, record and flag it, and add a dated retest line without deleting the first reading."
+   },
+   {
+    "t": "Teach-back and peer check",
+    "min": 40,
+    "pts": [
+     "Swap finished sheets with a partner.",
+     "Check each line for unit, instrument and judgement.",
+     "Give one strength and one correction in plain words."
+    ],
+    "ex": "Pairs of 2: each partner checks a six-line sheet in 10 minutes. Target: all 6 lines checked, every planted error named by line number, and a clear sign or do-not-sign decision.",
+    "std": "Evaluate a partner's six-line test sheet line by line, name each blank or wrong judgement, and decide whether the sheet is ready for sign-off."
+   }
+  ],
+  "extra_check": {
+   "q": "A circuit failed at 0.98 MOhm and reads 2.3 MOhm after repair. What happens to the first reading?",
+   "a": "It stays on the record as a fail; add a dated retest line marked pass.",
+   "module": 7
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: Why we test",
+    "note": "Tests show that an installation is safe before it is used. At this first step the learner can say what a test reading is, what a limit is, and why a record must exist for each circuit."
+   },
+   {
+    "t": "L2 Awareness: Instruments and records",
+    "note": "The learner knows that readings only count when the instrument is calibrated and recorded. They can name the main fields on a test sheet: circuit, test, reading, limit, result, tester, date and instrument."
+   },
+   {
+    "t": "L3 Foundation: Read and compare",
+    "note": "The learner can read a value with its unit and compare it with a given limit, with help. They follow the worked example for one circuit and see why a blank field is never allowed."
+   },
+   {
+    "t": "L4 Practitioner: Complete and sign a sheet",
+    "note": "This course sits here. The learner lists the tests for a scope, fills a six-circuit sheet, judges each pass or fail, records failures openly and signs only when every line is complete."
+   },
+   {
+    "t": "L5 Specialist: Awkward results",
+    "note": "The specialist handles readings close to a limit, retests after repair, missing instrument records and results from different testers on one sheet. They keep the full history instead of overwriting earlier lines."
+   },
+   {
+    "t": "L6 Advanced: Review for acceptance",
+    "note": "The advanced practitioner reviews other testers' sheets for blanks, wrong judgements and missing calibration dates, and prepares the record so a third party can accept it without questions."
+   },
+   {
+    "t": "L7 Super expert: Design the record system",
+    "note": "The super expert designs test sheet templates, sets retention rules and audits records across projects. They train testers in traceability and decide when a pattern of fails needs a wider investigation."
+   }
+  ],
+  "jobs": [
+   "Electrical tester",
+   "Commissioning technician",
+   "Quality inspector",
+   "Site electrician",
+   "Test and inspection assistant"
+  ]
+ },
+ "BLD-001": {
+  "task": "Walk a site, identify at least eight hazards, rank the risks with a reason, write an owned and dated action list, and escalate any imminent danger at once",
+  "cond": "Given a set of ten invented site photos described in text, a risk matrix and an inspection log template, in a 4-hour practical session",
+  "std": "List at least eight hazards with a control for each, rank every risk correctly on the matrix, give every action an owner and due date, and stop work and tell the lead at once for imminent danger",
+  "modules": [
+   {
+    "t": "Hazard, risk, control",
+    "min": 30,
+    "pts": [
+     "A hazard is something that can cause harm.",
+     "Risk is how likely and how serious the harm is.",
+     "Controls go from most to least effective."
+    ],
+    "ex": "Hazard: noisy saw. Controls in order: 1 eliminate (use a cut-to-size supply), 2 substitute (quieter tool), 3 engineer (enclosure), 4 admin (time limits), 5 PPE (ear defenders).",
+    "std": "Define hazard, risk and control in plain words, and order controls from most to least effective, giving an example of each for a site hazard."
+   },
+   {
+    "t": "Spotting hazards in photos",
+    "min": 45,
+    "pts": [
+     "Look from the ground up, then edges, then overhead.",
+     "Name the hazard and one control for each.",
+     "Aim for at least eight from ten photos."
+    ],
+    "ex": "Photo 3: ladder not tied and nobody footing it. Hazard: fall. Control: tie the ladder or use a platform.",
+    "std": "Identify hazards in a set of site photos, given as text, listing at least eight and naming a control for each one."
+   },
+   {
+    "t": "Ranking by risk with a reason",
+    "min": 35,
+    "pts": [
+     "Score likelihood 1 to 5 and severity 1 to 5.",
+     "Multiply: on this sample matrix 15 or more is High, 8 to 14 Medium, under 8 Low.",
+     "Always give the reason for the rank."
+    ],
+    "ex": "Unprotected edge: likelihood 4 x severity 5 = 20, High. Stacked bricks near a path: 3 x 3 = 9, Medium. Trailing cable: 4 x 2 = 8, Medium. Reason for the edge: a fall from first floor can be fatal.",
+    "std": "Rank the identified hazards, given a risk matrix, by likelihood and severity, and give a clear reason for each rank such as an unprotected edge being High."
+   },
+   {
+    "t": "Action list: owner and date",
+    "min": 30,
+    "pts": [
+     "Every action has one owner and one date.",
+     "Higher risk means an earlier date.",
+     "Set a re-inspection date for each item."
+    ],
+    "ex": "Edge: edge protection today, site manager, re-inspect tomorrow. Bricks: restack away from the path, labourer lead, tomorrow. Cable: reroute, electrician, within 2 days.",
+    "std": "Write an action list, given the ranked hazards, with a named owner and a due date for every action, and state when each item is re-inspected."
+   },
+   {
+    "t": "Walk-through practice",
+    "min": 50,
+    "pts": [
+     "Walk a set route so nothing is missed.",
+     "Log date, place, finding, photo and owner.",
+     "Imminent danger: stop work and tell the lead now."
+    ],
+    "ex": "Log line: 2026-03-10 | first floor east | open edge, no guard | photo 4 | site manager | High | stop work in the area. One walk-through, ten photos, every finding logged.",
+    "std": "Apply the inspection method to a described site: record each finding in the inspection log with photo evidence, and stop work and tell the lead at once for any imminent danger."
+   },
+   {
+    "t": "Assessment",
+    "min": 20,
+    "pts": [
+     "Use the template from start to finish.",
+     "Check every hazard has a rank, owner and date.",
+     "Hand in a log another person can follow."
+    ],
+    "ex": "New scenario: 9 hazards found, 2 High, 4 Medium, 3 Low. Pass needs at least 8 hazards, 9 of 9 ranked, 9 of 9 actions with owner and date, and one stop-work call.",
+    "std": "Complete a short inspection of a new scenario, with hazards found, risks ranked, and actions owned and dated, using the template correctly."
+   },
+   {
+    "t": "Second worked case: open edge, cables and bricks",
+    "min": 15,
+    "pts": [
+     "Rank all three before writing any action.",
+     "Give the reason in one short sentence.",
+     "Match the due date to the rank."
+    ],
+    "ex": "Case card 2 ranked: open edge 20 High, same day; stacked bricks 9 Medium, next day; loose cables 8 Medium, within 2 days. Order of work: edge first, then bricks, then cables.",
+    "std": "Rank three hazards from a case card on the matrix, give a reason for each rank, and order the actions by risk with an owner and date."
+   },
+   {
+    "t": "Teach-back and peer check",
+    "min": 15,
+    "pts": [
+     "Swap logs with a partner.",
+     "Check every line for rank, owner and date.",
+     "Name one strength and one improvement."
+    ],
+    "ex": "Pairs of 2: partner lists 8 hazards from the 10 photos and checks them against the key. Target: no missed High risk, 8 of 8 actions with owner and date.",
+    "std": "Evaluate a partner's inspection log against the key, find any missed hazard or missing owner or date, and give one strength and one improvement."
+   }
+  ],
+  "extra_check": {
+   "q": "A hazard scores likelihood 4 and severity 5 on the sample matrix. What is its score, rank and timing?",
+   "a": "4 x 5 = 20, High; act the same day, for example with edge protection.",
+   "module": 3
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What a hazard is",
+    "note": "A hazard is anything on a site that can hurt someone. At this first step the learner can name common site hazards, such as open edges, loose cables and stacked materials, and say why a quick look matters."
+   },
+   {
+    "t": "L2 Awareness: Hazard, risk and control",
+    "note": "The learner can tell hazard from risk and name the five levels of control from most to least effective. They know that anyone may stop work for imminent danger under the site rule."
+   },
+   {
+    "t": "L3 Foundation: Spot and score",
+    "note": "The learner can spot hazards in a photo with prompts and score likelihood and severity on a simple matrix. They follow the worked example of an open edge ranked High and a trailing cable ranked Medium."
+   },
+   {
+    "t": "L4 Practitioner: Inspect, rank and act",
+    "note": "This course sits here. The learner walks a described site, lists at least eight hazards with controls, ranks them with reasons, writes owned and dated actions, and escalates imminent danger at once."
+   },
+   {
+    "t": "L5 Specialist: Busy, changing sites",
+    "note": "The specialist inspects sites where several trades work at once and conditions change daily. They re-inspect after changes, choose better controls than PPE where they can, and follow up late actions."
+   },
+   {
+    "t": "L6 Advanced: Audit and coach",
+    "note": "The advanced practitioner audits inspection logs, finds patterns in repeated hazards, coaches others to rank risks with clear reasons, and checks that actions were closed and not only written."
+   },
+   {
+    "t": "L7 Super expert: Lead the safety routine",
+    "note": "The super expert designs the inspection routine, matrix and templates for a company. They study near misses, set escalation times, and train site leads to run walk-throughs without blame."
+   }
+  ],
+  "jobs": [
+   "Site safety assistant",
+   "Site supervisor",
+   "Construction trainee",
+   "Health and safety coordinator",
+   "Facilities officer"
+  ]
+ },
+ "BLD-002": {
+  "task": "Read the scale and units on a room drawing, measure lengths and areas, add a waste allowance, calculate buyable quantities and enter them in a bill of quantities",
+  "cond": "Given a simple room drawing, a measurement rule, a bill of quantities template and a 4-hour practical session with a peer check",
+  "std": "Measure within the stated tolerance, deduct openings, show units on every line, round up to buyable units, and query any disagreement between drawing and note instead of assuming",
+  "modules": [
+   {
+    "t": "Reading scale and units",
+    "min": 30,
+    "pts": [
+     "Scale 1:50 means 1 mm on paper is 50 mm real.",
+     "Convert to metres before you calculate.",
+     "Write the unit every time."
+    ],
+    "ex": "Drawing at 1:50. Room length measures 120 mm on paper: 120 x 50 = 6,000 mm = 6.0 m. Width 90 mm: 90 x 50 = 4,500 mm = 4.5 m.",
+    "std": "Read the scale and units on a simple room drawing and state every measurement with its correct unit, such as metres or square metres."
+   },
+   {
+    "t": "Measuring areas and lengths",
+    "min": 45,
+    "pts": [
+     "Area of a rectangle is length x width.",
+     "Deduct doors and windows from wall areas.",
+     "Follow the measurement rule you are given."
+    ],
+    "ex": "Wall 12 m x 2.4 m = 28.8 m2. Minus a door 2.0 m2 and a window 1.5 m2 = 3.5 m2. Net wall area = 28.8 - 3.5 = 25.3 m2. Floor 6.0 m x 4.5 m = 27.0 m2.",
+    "std": "Measure lengths and areas from a drawing, within the stated tolerance, and deduct openings such as doors and windows according to the measurement rule used."
+   },
+   {
+    "t": "Waste allowance",
+    "min": 25,
+    "pts": [
+     "Waste covers cutting, breakage and mistakes.",
+     "Multiply by 1 plus the percentage.",
+     "Show the allowance on the bill."
+    ],
+    "ex": "Net wall 25.3 m2 plus 10 percent waste: 25.3 x 1.10 = 27.83, shown as 27.8 m2. The extra 2.5 m2 covers cuts and breakage.",
+    "std": "Add a waste allowance, given a percentage, to a measured quantity and explain that it covers cutting, breakage and mistakes."
+   },
+   {
+    "t": "Quantity calculations",
+    "min": 40,
+    "pts": [
+     "Divide area by the area of one unit.",
+     "Add waste, then round up to whole units.",
+     "Round up again to boxes or packs."
+    ],
+    "ex": "Case card 2: floor 27.0 m2, tile 0.3 m x 0.3 m = 0.09 m2. 27.0 / 0.09 = 300 tiles. Add 8 percent: 300 x 1.08 = 324 tiles. Boxes of 10: 32.4, rounded up to 33 boxes.",
+    "std": "Calculate quantities from the measurements, such as the number of tiles for a floor with eight percent waste, with units shown, and round up to full units that can be bought."
+   },
+   {
+    "t": "Bill of quantities layout",
+    "min": 35,
+    "pts": [
+     "Number every item.",
+     "Each line has a unit, a description and a quantity.",
+     "Keep the order of the template."
+    ],
+    "ex": "Bill line 1: Wall finish, m2, 27.8. Line 2: Floor tiles 300 x 300 mm, no., 324 (33 boxes of 10). Each line numbered, with unit, description and quantity.",
+    "std": "Write the results in a bill of quantities, given a template, with every item numbered and each line showing unit, description and quantity."
+   },
+   {
+    "t": "Assessment",
+    "min": 25,
+    "pts": [
+     "Work the whole room from drawing to bill.",
+     "Show units and waste on every line.",
+     "Query anything that does not agree."
+    ],
+    "ex": "New room 5 m x 4 m, walls 2.4 m high, door 2.0 m2, window 1.5 m2, tiles 0.3 m square, 8 percent waste on tiles and 10 percent on wall finish. Walls: 18 x 2.4 = 43.2 - 3.5 = 39.7 m2, plus 10 percent = 43.7 m2. Floor: 20 m2 x 1.08 / 0.09 = 240 tiles, 24 boxes.",
+    "std": "Complete a bill of quantities for a simple room, with correct areas, waste and units, and query any disagreement between drawing and note instead of assuming."
+   },
+   {
+    "t": "Second worked case: paint for the walls",
+    "min": 25,
+    "pts": [
+     "Perimeter times height gives the wall area.",
+     "Deduct openings, add waste, then multiply by coats.",
+     "Round up to whole tins."
+    ],
+    "ex": "Room 6.0 m x 4.5 m, height 2.4 m: perimeter 21 m x 2.4 = 50.4 m2; minus 3.5 = 46.9 m2; plus 10 percent = 51.6 m2. Two coats at 10 m2 per litre = 10.3 litres, so 3 tins of 5 litres.",
+    "std": "Calculate the paint needed for a set of walls, given openings, waste, coats and coverage, show units on every step, and round up to whole tins."
+   },
+   {
+    "t": "Teach-back and peer check",
+    "min": 15,
+    "pts": [
+     "Swap your bill with a partner.",
+     "Recalculate each line from the drawing.",
+     "Find at least one error or confirm there is none."
+    ],
+    "ex": "A partner wrote 28.8 - 2.0 - 1.5 = 26.3 m2 for the net wall. Correct value 25.3 m2, so the line is 1.0 m2 too high and the arithmetic needs correcting.",
+    "std": "Check a partner's bill of quantities by recalculating each line, find at least one error or confirm none, and explain any correction in plain words."
+   }
+  ],
+  "extra_check": {
+   "q": "A room is 5 m by 4 m with tiles 0.5 m by 0.5 m and 10 percent waste. How many tiles?",
+   "a": "Area 20 m2 / 0.25 m2 per tile = 80; plus 10 percent = 88 tiles.",
+   "module": 4
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What a quantity is",
+    "note": "A quantity says how much of a material a job needs, such as square metres of floor. At this first step the learner can read a length with its unit and say why units must always be written."
+   },
+   {
+    "t": "L2 Awareness: Drawings and scale",
+    "note": "The learner can read the scale on a room drawing and turn a paper measurement into a real one. They know that doors and windows are deducted and that waste is added before buying."
+   },
+   {
+    "t": "L3 Foundation: Areas and waste",
+    "note": "The learner can calculate floor and wall areas with help and add a percentage for waste. They follow the worked example of a 12 m wall with a door and window, ending at 27.8 m2."
+   },
+   {
+    "t": "L4 Practitioner: Measure and build the bill",
+    "note": "This course sits here. The learner measures from a drawing, deducts openings, adds waste, rounds up to buyable units, enters every line in a numbered bill of quantities and queries any disagreement."
+   },
+   {
+    "t": "L5 Specialist: Irregular rooms and trades",
+    "note": "The specialist measures L-shaped rooms, sloping ceilings and several finishes, working from the measurement standard. They split a room into simple shapes, keep running totals and compare drawing and note."
+   },
+   {
+    "t": "L6 Advanced: Check and compare",
+    "note": "The advanced practitioner checks other people's bills, finds arithmetic and rounding errors, compares quantities across drawing revisions and explains each change to the project team."
+   },
+   {
+    "t": "L7 Super expert: Standardise estimating",
+    "note": "The super expert builds bill templates and checklists for a firm. They set waste rules by material, audit past estimates against site use, and train estimators to query instead of assume."
+   }
+  ],
+  "jobs": [
+   "Estimator assistant",
+   "Quantity surveying trainee",
+   "Site engineer assistant",
+   "Procurement assistant",
+   "Construction technician"
+  ]
+ },
+ "BLD-003": {
+  "task": "List the handover items a client needs, check a pack against the contract list, build an index, and present the pack to the client for signed acceptance",
+  "cond": "Given a contract list, a sample pack with planted gaps, an index template and a client role-play, in a 3-hour practical session",
+  "std": "Find every missing item in a pack, list each outstanding item with a chase date, index every document by name, date and location, and obtain a signed acceptance with no item missing from the checklist",
+  "modules": [
+   {
+    "t": "What clients need to keep",
+    "min": 20,
+    "pts": [
+     "The client keeps records of what was built and how to run it.",
+     "Use the contract list as the master checklist.",
+     "Group items by type."
+    ],
+    "ex": "Contract list of 7 items: as-built drawings, test certificates, manuals, warranties, maintenance schedule, contact list, permits. The checklist has 7 lines, each to be ticked when found.",
+    "std": "List the handover items a client needs to keep, given a contract, such as as-built drawings, test certificates, manuals, warranties and permits, in a complete checklist."
+   },
+   {
+    "t": "Checking for gaps",
+    "min": 30,
+    "pts": [
+     "Compare the pack with the contract list line by line.",
+     "A missing or undated item is a gap.",
+     "List each gap with a chase date."
+    ],
+    "ex": "Sample pack: 7 items required, 4 found, 3 planted gaps. Outstanding: warranties, one test certificate, maintenance schedule. Each gets an owner and a chase date 5 working days away.",
+    "std": "Check a sample pack against the contract list, finding every missing item, and list each outstanding item with a chase date."
+   },
+   {
+    "t": "Building the index",
+    "min": 20,
+    "pts": [
+     "Every item has a name, a date and a place.",
+     "Number the index so items are easy to find.",
+     "Keep the index in the same order as the checklist."
+    ],
+    "ex": "Index line: 4.2 | Boiler warranty | dated 2026-02-10 | folder W3, page 1. Keep the index in the checklist order.",
+    "std": "Build an index of the pack, given the documents, with each item named, dated and filed, so the client can find any item quickly."
+   },
+   {
+    "t": "Walk-through with the client",
+    "min": 15,
+    "pts": [
+     "Walk the client through the index.",
+     "Show where each item is kept.",
+     "Get the signed acceptance and give the client a copy."
+    ],
+    "ex": "Role-play: client asks where the boiler warranty is. Answer: index 4.2, folder W3, page 1. Then signed acceptance, one client copy and one project archive copy: 2 copies, 1 signature page.",
+    "std": "Present the pack to a client in a role-play, explaining where to find each item, and obtain the signed acceptance and a client copy alongside the project archive copy."
+   },
+   {
+    "t": "Practice",
+    "min": 10,
+    "pts": [
+     "Name, date, file and index every document.",
+     "Check the checklist before you hand over.",
+     "No item missing."
+    ],
+    "ex": "Sample project pack: 7 of 7 items named, dated, filed and indexed, with the index matching the checklist. Result: complete, ready to present.",
+    "std": "Prepare a pack for a sample project, with every document named, dated, filed and indexed, and with no item missing from the checklist."
+   },
+   {
+    "t": "Check",
+    "min": 5,
+    "pts": [
+     "Check a finished pack against the list.",
+     "Find all three planted gaps.",
+     "Confirm that every item is present at the end."
+    ],
+    "ex": "Pack with 3 planted gaps: find 3 of 3, list each with a chase date, and after the chase confirm 7 of 7 items present before sign-off.",
+    "std": "Verify a finished pack with three planted gaps, finding every gap and confirming that every item on the contract list is present."
+   },
+   {
+    "t": "Second worked case: missing warranty and test record",
+    "min": 40,
+    "pts": [
+     "Find both gaps by comparing with the contract list.",
+     "List each as outstanding with an owner and a date.",
+     "Do not mark the pack complete."
+    ],
+    "ex": "Case card 2: the pack lacks the warranty papers and the test record for circuit 5. Outstanding list: warranty papers, supplier, chase 24 March; circuit 5 record, electrician, chase 24 March. Status: 5 of 7 items present.",
+    "std": "Find two missing items in a pack, list each as outstanding with an owner and a chase date, and state that the pack is not complete until both arrive."
+   },
+   {
+    "t": "Teach-back and peer check",
+    "min": 40,
+    "pts": [
+     "Swap packs with a partner.",
+     "Count items against the contract list.",
+     "Say what is missing in one clear sentence."
+    ],
+    "ex": "A partner says the pack is complete, but 6 of the 7 contract items are present. The maintenance schedule is missing, so the pack is not complete and the schedule goes on the outstanding list.",
+    "std": "Evaluate a partner's pack against the contract list, find every missing item, and state clearly whether the pack is ready for client acceptance."
+   }
+  ],
+  "extra_check": {
+   "q": "A contract lists 7 handover items and the pack holds 5. How many are outstanding and what do you do?",
+   "a": "Two are outstanding; list each with an owner and chase date, and do not mark the pack complete.",
+   "module": 2
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What handover means",
+    "note": "Handover is the point when a finished building passes to its owner. At this first step the learner can say what a handover pack is and why the owner needs warranties, drawings and test records."
+   },
+   {
+    "t": "L2 Awareness: What a client keeps",
+    "note": "The learner can name the usual pack items: as-built drawings, test certificates, manuals, warranties, a maintenance schedule, a contact list and permits. They know the contract lists exactly what must be in the pack."
+   },
+   {
+    "t": "L3 Foundation: Check and index",
+    "note": "The learner can tick a pack against a checklist and write an index line with name, date and location, with help. They follow the worked example where three planted gaps are found."
+   },
+   {
+    "t": "L4 Practitioner: Prepare and present a pack",
+    "note": "This course sits here. The learner checks a pack against the contract, lists outstanding items with chase dates, builds the index, presents it to the client in a role-play and obtains a signed acceptance."
+   },
+   {
+    "t": "L5 Specialist: Complex projects",
+    "note": "The specialist assembles packs for projects with many trades and phases. They track late documents, keep revisions straight, and agree acceptance of part-complete packs without hiding what is outstanding."
+   },
+   {
+    "t": "L6 Advanced: Audit and improve",
+    "note": "The advanced practitioner audits packs from several projects, finds repeated gaps, and sets earlier collection points so documents are gathered during the work and not left to the end."
+   },
+   {
+    "t": "L7 Super expert: Own the handover system",
+    "note": "The super expert designs the pack standard, index template and acceptance process for a company. They train teams, review client feedback and decide how records are kept after completion."
+   }
+  ],
+  "jobs": [
+   "Document controller",
+   "Site administrator",
+   "Project coordinator",
+   "Facilities coordinator",
+   "Construction assistant"
+  ]
+ },
+ "ITC-001": {
+  "task": "Divide a small network into staff, guest and device zones, configure standard secure settings in a lab, test the build and write a repeat-it guide",
+  "cond": "Given a lab diagram of a small office with public Wi-Fi, user groups, a check list and a guide template, in a 4-hour lab session on test equipment only",
+  "std": "Show that guests reach the internet but not internal devices, replace every default password, apply a strong passphrase and current encryption, record every check result, and write a guide another person can follow",
+  "modules": [
+   {
+    "t": "Zones: staff, guest, devices",
+    "min": 30,
+    "pts": [
+     "A zone is a group of devices with the same trust.",
+     "Staff, guest and devices need separate zones.",
+     "A guest must never reach staff systems."
+    ],
+    "ex": "Office with 8 staff laptops, public Wi-Fi, 1 printer and 2 cameras. Three zones, each a separate address range (a /24 range holds up to 254 devices): staff 192.168.10.0/24, guest 192.168.20.0/24, devices 192.168.30.0/24.",
+    "std": "Organise a small network into staff, guest and device zones, given user groups, so a guest device cannot reach staff systems."
+   },
+   {
+    "t": "Drawing a small network plan",
+    "min": 40,
+    "pts": [
+     "Draw each zone and the traffic allowed between them.",
+     "Write each firewall rule in plain words.",
+     "Default is deny; allow only what is needed."
+    ],
+    "ex": "Plan rules: staff to internet allow; guest to internet allow; guest to staff deny; guest to devices deny; staff to printer allow.",
+    "std": "Sketch a small network plan, given a lab diagram such as an office with public Wi-Fi, showing each zone, its traffic and the firewall rules between zones."
+   },
+   {
+    "t": "Standard settings in the lab",
+    "min": 50,
+    "pts": [
+     "Replace every default password at install.",
+     "Use a strong passphrase and current encryption.",
+     "Update firmware and keep the admin page away from guests.",
+     "A rule change is approved by the owner or the change approver."
+    ],
+    "ex": "Lab router: admin password changed, staff passphrase of several random words (long and unique), current encryption on, firmware updated to the latest version offered (sample 4.2.1 to 4.2.3), admin page open to staff zone only.",
+    "std": "Configure standard settings in the lab, replacing default passwords, applying a strong passphrase and current encryption, updating firmware, and keeping the admin page out of guest reach."
+   },
+   {
+    "t": "Passing the check list",
+    "min": 35,
+    "pts": [
+     "Run every line of the check list.",
+     "Record the result of each one.",
+     "Test from a guest device."
+    ],
+    "ex": "Check list of 8 items. Guest laptop: web page loads (pass); connection to 192.168.10.5 times out (pass); printer unreachable (pass). Result 8 of 8 recorded.",
+    "std": "Apply the check list to the lab build, recording every result, and show that guests can reach the internet but not internal devices."
+   },
+   {
+    "t": "Writing the repeat-it guide",
+    "min": 40,
+    "pts": [
+     "Write the guide so someone else can rebuild it.",
+     "Add the date and the author.",
+     "Put steps in the order you built them."
+    ],
+    "ex": "One-page guide: date 2026-03-14, author the lab technician; steps 1 create three zones, 2 set passphrases, 3 apply five rules, 4 update firmware, 5 run the 8-item check list.",
+    "std": "Write a one-page repeat-it guide, given the configuration, with date and author, so another person could rebuild or audit the network."
+   },
+   {
+    "t": "Assessment",
+    "min": 25,
+    "pts": [
+     "Design a new network from a short brief.",
+     "Log changes and failed sign-ins.",
+     "Name who approves a rule change."
+    ],
+    "ex": "New scenario: clinic with 5 staff and a waiting-room guest network. Pass needs 3 zones, 5 or more rules, 8 of 8 checks recorded, a change log, and a named approver.",
+    "std": "Design and document a small network for a new scenario, with zones, settings, a log of changes and failed sign-ins, and a clear approver for rule changes."
+   },
+   {
+    "t": "Second worked case: a cafe till kept apart",
+    "min": 10,
+    "pts": [
+     "Add a fourth zone for the till.",
+     "Deny guest traffic to the till zone.",
+     "Test from a guest device."
+    ],
+    "ex": "Case card 2: zones guest 192.168.20.0/24, staff 192.168.10.0/24, devices 192.168.30.0/24 and till 192.168.40.0/24. Rule: guest to till deny. Test: guest laptop to 192.168.40.10 times out.",
+    "std": "Design four zones for a cafe so guest Wi-Fi cannot reach the till, list the firewall rules, and test the result from a guest device."
+   },
+   {
+    "t": "Teach-back and peer check",
+    "min": 10,
+    "pts": [
+     "Give your guide to a partner.",
+     "The partner follows it without asking questions.",
+     "Note every step that was unclear."
+    ],
+    "ex": "Pairs of 2: the partner rebuilds the staff zone from the guide in 15 minutes. Target: all 5 steps followed with no question asked; each unclear step is rewritten.",
+    "std": "Evaluate a partner's repeat-it guide by following it, note every unclear step, and suggest a clearer wording for each one."
+   }
+  ],
+  "extra_check": {
+   "q": "A guest on the cafe Wi-Fi tries to open the till's address. Which result shows the build is correct?",
+   "a": "The connection times out or is blocked, while normal web pages still load.",
+   "module": 7
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What a network is",
+    "note": "A network links devices so they can share a connection and files. At this first step the learner can name a router, a Wi-Fi network and a device, and say why a default password is risky."
+   },
+   {
+    "t": "L2 Awareness: Zones and trust",
+    "note": "The learner can explain why staff, guest and device networks are kept apart and why a guest should reach only the internet. They know that settings must be written down so others can repeat or audit them."
+   },
+   {
+    "t": "L3 Foundation: Plan and settings",
+    "note": "The learner can sketch three zones for a small office and name the first settings to change on a new router. They follow the worked example with default passwords replaced and firmware updated."
+   },
+   {
+    "t": "L4 Practitioner: Build, test and document",
+    "note": "This course sits here. The learner divides a small network into zones, configures standard settings in a lab, runs the check list from a guest device and writes a one-page repeat-it guide."
+   },
+   {
+    "t": "L5 Specialist: More sites and rules",
+    "note": "The specialist builds networks with extra zones such as a till or a camera network, tighter rules and logging. They test every rule from both sides and keep a change log with named approvers."
+   },
+   {
+    "t": "L6 Advanced: Review and audit",
+    "note": "The advanced practitioner reviews other people's builds against the check list, reads logs for failed sign-ins, and finds rules that are too wide, such as guests able to reach a printer."
+   },
+   {
+    "t": "L7 Super expert: Standard builds",
+    "note": "The super expert writes the standard build and training for a team. They set rules for change approval, plan regular firmware updates, and mentor others to make every build repeatable."
+   }
+  ],
+  "jobs": [
+   "IT support technician",
+   "Network technician",
+   "Junior systems administrator",
+   "Helpdesk analyst",
+   "Office IT assistant"
+  ]
+ },
+ "ITC-002": {
+  "task": "Classify and triage alerts by severity, follow the playbook steps in order, contain an incident without destroying evidence, and write a one-page report",
+  "cond": "Given five sample alerts, a written playbook, a lab scenario and a log template, in a 4-hour lab session on test systems only",
+  "std": "Triage alerts correctly by data affected and spread, isolate the device before recovery, preserve evidence, tell the incident lead at the right step, and write a report with time, impact, actions and next step",
+  "modules": [
+   {
+    "t": "What an alert is",
+    "min": 20,
+    "pts": [
+     "An alert is a warning that something may be wrong.",
+     "An incident is an alert that has been confirmed.",
+     "Read what evidence the alert gives."
+    ],
+    "ex": "Five sample alerts; after checking, 1 is a confirmed incident (a ransomware note on a server, saying its files are locked) and 4 are not. An alert is a warning; an incident is confirmed harm or risk.",
+    "std": "Describe what an alert is and what evidence it gives, given sample alerts, and say how an alert differs from a confirmed incident."
+   },
+   {
+    "t": "Triage by severity",
+    "min": 45,
+    "pts": [
+     "Severity depends on the data affected and the spread.",
+     "High, Medium or Low, with a reason.",
+     "Handle High first."
+    ],
+    "ex": "A1 ransomware note on a server: High. A2 25 failed logins in 10 minutes from one address: Medium. A3 one blocked spam: Low. A4 one known virus removed by scanner: Low. A5 unknown device on guest network: Medium. Total 1 High, 2 Medium, 2 Low.",
+    "std": "Triage five sample alerts by severity, based on the data affected and its spread, such as High for a ransomware note, Medium for repeated failed logins and Low for a blocked spam."
+   },
+   {
+    "t": "The playbook steps in order",
+    "min": 45,
+    "pts": [
+     "Six steps in order: identify, contain, preserve evidence, escalate, recover, report.",
+     "Contain before recover.",
+     "Tell the incident lead at the escalate step."
+    ],
+    "ex": "Playbook run for A1: 1 identify the note, 2 isolate the server, 3 preserve evidence, 4 tell the incident lead, 5 recover from backup, 6 write the report.",
+    "std": "Apply the playbook steps in order, given a written playbook, identify, contain, preserve evidence, escalate, recover and report, telling the incident lead at the right step."
+   },
+   {
+    "t": "Containment practice",
+    "min": 40,
+    "pts": [
+     "Isolate the device from the network.",
+     "Leave it powered on and do not delete anything.",
+     "Write down the time of each action."
+    ],
+    "ex": "Lab server S1: network port disabled at 02:22, power left on, screenshot of the note saved, no files deleted. Isolation took 7 minutes after the 02:15 alert.",
+    "std": "Apply containment to an incident in a lab scenario, such as a laptop sending data at night, by isolating the device before recovery and without deleting evidence."
+   },
+   {
+    "t": "One-page report",
+    "min": 35,
+    "pts": [
+     "One page: time, what happened, impact, actions, next step.",
+     "Facts only, in plain words.",
+     "Close the incident after recovery and review."
+    ],
+    "ex": "Report: 02:15 note found on S1; 02:22 S1 isolated; 02:30 incident lead told; impact 1 server and 3 shared folders; next step restore from the 01:00 backup after review.",
+    "std": "Write a one-page report, given a log template, with time, what happened, impact, actions taken and next step, and close the incident after recovery and review."
+   },
+   {
+    "t": "Assessment",
+    "min": 35,
+    "pts": [
+     "Run the whole response on a new scenario.",
+     "Check each step against the playbook.",
+     "Finish with a clear report."
+    ],
+    "ex": "New scenario with 5 alerts: pass needs 5 of 5 triaged, 6 of 6 steps in order, the device isolated before recovery, evidence kept, and a report with all 5 fields.",
+    "std": "Complete a full response to a new scenario, with alerts triaged, steps followed in order, containment done and a clear report written."
+   },
+   {
+    "t": "Second worked case: a laptop sending data at 3 am",
+    "min": 10,
+    "pts": [
+     "Triage first: data leaving the building is High.",
+     "Isolate the laptop and keep it powered on.",
+     "Report the times and the amount of data."
+    ],
+    "ex": "Case card 2: alert at 03:02, laptop L-14 sends 1.8 GB to an unknown address in 40 minutes. Triage High. Isolated 03:10, 8 minutes later. Evidence kept; incident lead told at 03:15.",
+    "std": "Triage and contain a laptop that sends data to an unknown address, isolate it before recovery, keep the evidence, and report the times and impact."
+   },
+   {
+    "t": "Teach-back and peer check",
+    "min": 10,
+    "pts": [
+     "Put the six playbook steps in order from memory.",
+     "Explain why contain comes before recover.",
+     "Check a partner's order against the playbook."
+    ],
+    "ex": "Pairs of 2: partner shuffles six step cards and you order them in 2 minutes. Target: 6 of 6 steps in the correct order and one clear reason for contain before recover.",
+    "std": "Evaluate a partner's playbook order against the written steps, find any step out of place, and explain why containment comes before recovery."
+   }
+  ],
+  "extra_check": {
+   "q": "Two alerts arrive: 25 failed logins from one address and a ransomware note on a server. Which is handled first and why?",
+   "a": "The ransomware note: High severity because data is affected and can spread; log the failed logins as Medium and handle them next.",
+   "module": 2
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What a security alert is",
+    "note": "An alert is a warning from a system that something may be wrong. At this first step the learner can say what an alert looks like and why it must be told to the right person quickly."
+   },
+   {
+    "t": "L2 Awareness: Alert or incident",
+    "note": "The learner can tell a warning from a confirmed incident and name examples such as a ransomware note, repeated failed logins and blocked spam. They know there is a written playbook and an incident lead."
+   },
+   {
+    "t": "L3 Foundation: Sort and follow steps",
+    "note": "The learner can sort sample alerts into High, Medium and Low with prompts and name the six playbook steps. They follow the worked example where the infected device is isolated before recovery."
+   },
+   {
+    "t": "L4 Practitioner: Respond from alert to report",
+    "note": "This course sits here. The learner triages five alerts, follows the playbook in order, contains a lab incident without deleting evidence, tells the lead at the right step and writes a one-page report."
+   },
+   {
+    "t": "L5 Specialist: Several alerts at once",
+    "note": "The specialist handles overlapping alerts, partial information and out-of-hours events. They keep a timeline, change priorities as facts arrive, and say plainly what is confirmed and what is not."
+   },
+   {
+    "t": "L6 Advanced: Review and improve",
+    "note": "The advanced practitioner reviews past reports, finds slow steps and unclear wording, runs practice scenarios for colleagues and proposes changes to the playbook after each review."
+   },
+   {
+    "t": "L7 Super expert: Run the response process",
+    "note": "The super expert owns the playbook, severity rules and report standard. They test the process with exercises, brief managers on trends, and mentor others to respond calmly and keep evidence safe."
+   }
+  ],
+  "jobs": [
+   "Security operations trainee",
+   "IT support analyst",
+   "Helpdesk technician",
+   "Junior security analyst",
+   "Systems administrator"
+  ]
+ },
+ "ITC-003": {
+  "task": "Write a change record with reason, risk and rollback, test the change with a checklist, record the approval and result, and review a risky change to choose a safer time",
+  "cond": "Given change scenarios such as a mail server update and a firewall rule change, a record template and a test checklist, in a 2-hour practical session",
+  "std": "Complete a record with reason, risk, rollback, test plan, named approver and result, stop and record when a test fails, and choose a safer time for a risky change",
+  "modules": [
+   {
+    "t": "Why changes need records",
+    "min": 15,
+    "pts": [
+     "A record lets others approve, reverse and learn from a change.",
+     "Emergency changes are recorded afterwards with a reason.",
+     "No record means no proof of what changed."
+    ],
+    "ex": "Change C-014: a fault appears 2 weeks after a mail update. The record shows who changed what and when, so the cause is found in minutes and not days.",
+    "std": "Explain why a change needs a record, so that others can approve it, reverse it and learn from it, including emergency changes recorded afterwards with a reason."
+   },
+   {
+    "t": "Reason, risk, rollback",
+    "min": 25,
+    "pts": [
+     "Reason: why the change is needed.",
+     "Risk: what could go wrong and for how long.",
+     "Rollback: clear steps to undo the change."
+    ],
+    "ex": "Mail server update. Reason: security fix. Risk: 30-minute outage. Rollback: restore the snapshot, about 20 minutes. Start it if a test fails.",
+    "std": "Write the reason, risk and rollback for a change, given a scenario such as a mail server update, with the rollback as clear steps that undo the change."
+   },
+   {
+    "t": "Testing with a checklist",
+    "min": 25,
+    "pts": [
+     "Write the test list before the change.",
+     "Test that the service works and nothing else broke.",
+     "If a test fails, stop and record it."
+    ],
+    "ex": "Checklist: 1 send an internal message, 2 receive an external message, 3 open the shared calendar. Result 3 of 3 pass. If test 2 fails: stop, start rollback, record the result.",
+    "std": "Test a change with a checklist, confirming that the service works and nothing else broke, and stop and record the result if a test fails."
+   },
+   {
+    "t": "Approval and result",
+    "min": 20,
+    "pts": [
+     "Record the named approver, date, time and decision.",
+     "Record the outcome after the change.",
+     "Keep the record for later review."
+    ],
+    "ex": "Approval line: approver named, 2026-11-05 21:45, decision approved. Result line: 22:35 change done, 3 of 3 tests passed, no rollback.",
+    "std": "Record approval and the result, given a template, with the named approver, date, time and decision, and the outcome noted for later review."
+   },
+   {
+    "t": "Practice",
+    "min": 10,
+    "pts": [
+     "Fill every field of the template.",
+     "Keep the wording short and exact.",
+     "Check the rollback is possible."
+    ],
+    "ex": "Firewall rule change. Reason: allow staff to reach the supplier portal on port 443. Risk: low, one new rule. Rollback: delete the rule, 1 minute. Test: open the portal from 1 office PC. Approver named.",
+    "std": "Complete a change record for a firewall rule change, given a scenario, with reason, risk, rollback, test plan and approver all filled in."
+   },
+   {
+    "t": "Check",
+    "min": 5,
+    "pts": [
+     "Check the record for six fields.",
+     "Judge whether the timing is safe.",
+     "Choose a better time if the risk is high."
+    ],
+    "ex": "Record check: reason, risk, rollback, test plan, approver, result: 6 of 6 present. A record with the rollback blank scores 5 of 6 and goes back to its author.",
+    "std": "Review a risky change, such as a mail server upgrade on a Friday evening, and choose a safer time, with the record complete and consistent."
+   },
+   {
+    "t": "Second worked case: a Friday evening upgrade",
+    "min": 10,
+    "pts": [
+     "Add the time for the change, the tests, the rollback and a margin.",
+     "Choose a window when few people are affected.",
+     "Rewrite the record with the new time."
+    ],
+    "ex": "Case card 2: mail upgrade planned for Friday at 18:00, 30-minute change plus 15 minutes of tests plus 20-minute rollback = 65 minutes. A Sunday 06:00 to 08:00 window gives 120 minutes, about 1.8 times the need. Choose Sunday.",
+    "std": "Review a risky upgrade planned for a busy time, calculate the time needed including rollback, and choose a safer window with the record rewritten."
+   },
+   {
+    "t": "Teach-back and peer check",
+    "min": 10,
+    "pts": [
+     "Swap records with a partner.",
+     "Check the six fields one by one.",
+     "Name any field that is blank or unclear."
+    ],
+    "ex": "Pairs of 2: partner checks a record in 5 minutes against the six fields. Target: all 6 fields found, the one missing rollback named, and a clear approve or return decision.",
+    "std": "Evaluate a partner's change record against the six required fields, find any blank or unclear field, and decide whether to approve or return it."
+   }
+  ],
+  "extra_check": {
+   "q": "A change takes 30 minutes, testing 15 and rollback 20, in a 60-minute window. Does it fit?",
+   "a": "No: 30 + 15 + 20 = 65 minutes, which is over 60; ask for a longer window or choose another time.",
+   "module": 7
+  },
+  "slides": [
+   {
+    "t": "L1 Basic: What a change is",
+    "note": "A change is any alteration to a system, such as an update or a new firewall rule. At this first step the learner can say what a change is and why a written record helps."
+   },
+   {
+    "t": "L2 Awareness: Why record changes",
+    "note": "The learner can explain that a record lets others approve a change, undo it and learn from it. They know the main parts: reason, risk, rollback, test, approver and result."
+   },
+   {
+    "t": "L3 Foundation: Fill in the record",
+    "note": "The learner can fill in a simple record with help, using the mail server update as a model. They write a rollback as clear steps and name the test that shows the service still works."
+   },
+   {
+    "t": "L4 Practitioner: Plan, test and approve",
+    "note": "This course sits here. The learner completes a change record, tests with a checklist, stops and records a failed test, records approval and result, and chooses a safer time for a risky change."
+   },
+   {
+    "t": "L5 Specialist: Linked and emergency changes",
+    "note": "The specialist handles changes that depend on each other, tight windows and emergency changes recorded afterwards. They check timing for change, test and rollback, and keep records consistent across systems."
+   },
+   {
+    "t": "L6 Advanced: Review and learn",
+    "note": "The advanced practitioner reviews finished changes, compares plan with result, and finds patterns such as missing rollbacks or rushed windows. They give feedback that improves the next record."
+   },
+   {
+    "t": "L7 Super expert: Own the process",
+    "note": "The super expert designs the change process, templates and approval rules for an organisation. They set windows and risk levels, audit records, and train teams so changes are safe and reversible."
+   }
+  ],
+  "jobs": [
+   "IT support technician",
+   "Systems administrator",
+   "Change coordinator",
+   "Service desk analyst",
+   "Network technician"
+  ]
+ }
+}

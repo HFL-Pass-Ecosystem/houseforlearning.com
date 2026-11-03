@@ -1,0 +1,291 @@
+{
+ "id": "GL-74",
+ "title": "eSports Management",
+ "level": 4,
+ "desc": "Plan and run a small eSports team, club or tournament: roster, schedule, wellbeing, fair play, finance and sponsors.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain how eSports teams and events work."
+  ],
+  [
+   "Apply",
+   "Plan rosters and schedules."
+  ],
+  [
+   "Analyse",
+   "Read performance data."
+  ],
+  [
+   "Evaluate",
+   "Judge wellbeing, fair play and contracts."
+  ],
+  [
+   "Create",
+   "Run a small tournament."
+  ]
+ ],
+ "task": "Plan and run a one-day small tournament or a one-month team season, with roster, rules, wellbeing plan, budget and report.",
+ "condition": "A game with free play, a computer or consoles, a spreadsheet, two peers and a mentor.",
+ "standard": "Rules are published; fair-play and anti-cheat steps are used; wellbeing plan limits hours and includes breaks; budget totals correct; report with results; peers rate Meets or better.",
+ "who": "Club leaders, coaches, event organisers, students.",
+ "req": "none",
+ "evidence": "roster, rules, schedule, wellbeing plan, budget, report",
+ "modules": [
+  [
+   "The eSports ecosystem and who decides what",
+   "Understand",
+   3,
+   "eSports is organised competition in video games. To manage a team or event you must know who owns the game, who runs competitions and who protects players.",
+   [
+    "The game publisher owns the game and sets licence rules for events, prize pools and streaming.",
+    "Leagues and organisers run seasons and tournaments; teams sign and develop players; platforms stream.",
+    "Roles around a team: players, coach, analyst, manager, content creator, shoutcaster (match commentator) and referee.",
+    "Schools and clubs have their own safeguarding rules, especially for minors."
+   ],
+   "A school club wants to charge an entry fee. It reads the publisher's community event rules, finds that paid events may need approval, and applies before announcing.",
+   "Map the roles and rules for a small club in one chart, with the publisher rules you checked.",
+   "Chart lists at least six roles and two rule sources with dates."
+  ],
+  [
+   "Building the roster and the team culture",
+   "Apply",
+   4,
+   "A good roster fits skill, communication and schedule. A good culture keeps players improving and staying.",
+   [
+    "Run trials: scrims (practice matches), a team chat and a review. Watch communication as much as score.",
+    "Write expectations: practice days, attendance, language, equipment care and how conflict is handled.",
+    "Use written agreements; for under-18s involve parents or guardians.",
+    "Equal chance: no discrimination in trials; publish the criteria."
+   ],
+   "A trial reveals a skilled player who cannot practise after 9 pm. The team moves practice to 7 pm and wins the player's commitment.",
+   "Build a roster of five plus two substitutes with roles and write a one-page team agreement.",
+   "Cover all roles in the roster; cover schedule, conduct and conflict handling in the agreement."
+  ],
+  [
+   "Practice, review and improvement",
+   "Analyse",
+   4,
+   "Teams improve by reviewing real play, not by playing more hours.",
+   [
+    "Record matches and tag errors by type such as positioning, timing, communication and decision.",
+    "Choose one focus per week and drill it in short blocks.",
+    "Use stats such as objectives taken, deaths per round and win rate by map.",
+    "Give feedback in a fixed pattern: one positive, one fix, one drill."
+   ],
+   "Review shows the team loses objectives at the 10-minute mark. Two drills and a call sheet cut lost objectives from 6 to 3 per match in four weeks.",
+   "Review one recorded match and write three findings, three drills and one measure.",
+   "Base the findings on the data and give each drill a measure."
+  ],
+  [
+   "Wellbeing, study and safety",
+   "Evaluate",
+   4,
+   "Long hours at screens harm health and results.",
+   [
+    "Sleep seven to nine hours; eat regularly; drink water.",
+    "Stretch wrists, shoulders and neck; rest eyes every 20 minutes.",
+    "Cap practice hours and protect study or work time.",
+    "Know signs of burnout and where to get help."
+   ],
+   "A coach limits practice to three hours a day, adds a rest day and a wrist stretch routine. Reports of wrist pain fall to zero in six weeks.",
+   "Write a 7-day schedule that includes practice, study, sleep, exercise and rest.",
+   "Schedule shows sleep of at least seven hours and a weekly rest day."
+  ],
+  [
+   "Fair play, conduct and integrity",
+   "Evaluate",
+   3,
+   "Cheating and abuse destroy trust.",
+   [
+    "Ban cheat software, account sharing and match fixing.",
+    "Use a ladder of sanctions: warning, short ban, season ban, permanent ban.",
+    "Provide an appeals route and a reporting channel.",
+    "Protect minors: no private messages with adults; keep contact in group channels."
+   ],
+   "A player is banned for a season after cheat software is found by the platform. The team publishes the ruling and the appeal result.",
+   "Draft a code of conduct and a sanctions ladder.",
+   "Write a code with at least six rules and a four-step ladder."
+  ],
+  [
+   "Running a tournament",
+   "Create",
+   4,
+   "A good tournament is mostly planning.",
+   [
+    "Choose format: single or double elimination, round robin or groups.",
+    "Plan matches per station; add time for tech delays; assign referees.",
+    "Publish rules, schedule and prize details before registration.",
+    "Keep spare devices, cables and a technical helper."
+   ],
+   "A 16-team double-elimination bracket needs about 30 matches. With 40 minutes per match and two stations it takes about 10 hours, so a third station is added to finish in 7.",
+   "Build a bracket, schedule and referee plan for 8 teams.",
+   "Schedule has no clashes and a delay allowance of 15 per cent."
+  ],
+  [
+   "Budget, sponsors and honesty",
+   "Analyse",
+   3,
+   "Money must be clear to players, teams and sponsors.",
+   [
+    "List costs: venue, equipment, internet, staff, prizes, insurance, marketing.",
+    "List income: entry fees, sponsors, tickets and merchandise.",
+    "Disclose sponsors and prize rules to everyone.",
+    "Keep receipts and a simple ledger."
+   ],
+   "Twelve teams at an entry fee of 2,000 INR per team (an estimate; check your market) give 24,000 INR; costs are 22,000 INR, so break-even is 11 teams (22,000 / 2,000) and the surplus is 2,000 INR; a sponsor adds 15,000 INR for prizes.",
+   "Build a one-page budget with a break-even number of teams.",
+   "Calculate totals correctly and show break-even."
+  ],
+  [
+   "Report, review and next season",
+   "Create",
+   3,
+   "Learn from each event.",
+   [
+    "Compare plan and actual for time, cost and attendance.",
+    "Survey players and spectators with five questions.",
+    "List three improvements and owners.",
+    "Share a short report with thanks."
+   ],
+   "Feedback shows long waits between matches; the next event adds a third station and a clearer schedule board.",
+   "Write a one-page event report.",
+   "Report has numbers, feedback and three dated improvements."
+  ]
+ ],
+ "quiz": [
+  [
+   "Name a role.",
+   "Coach, analyst, manager or shoutcaster."
+  ],
+  [
+   "Why limit hours?",
+   "Protect health and study."
+  ],
+  [
+   "Anti-cheat?",
+   "Prevents unfair play."
+  ],
+  [
+   "Bracket?",
+   "Match structure."
+  ],
+  [
+   "Break rule?",
+   "Regular breaks."
+  ],
+  [
+   "Sponsor rule?",
+   "Disclose."
+  ],
+  [
+   "Break-even?",
+   "Teams needed to cover cost."
+  ],
+  [
+   "Review use?",
+   "Spot mistakes."
+  ],
+  [
+   "Sanction?",
+   "Penalty for rules breach."
+  ],
+  [
+   "Equal chance?",
+   "No discrimination."
+  ]
+ ],
+ "rubric": [
+  [
+   "Rules and fair play",
+   "Missing",
+   "Published",
+   "Published and enforced"
+  ],
+  [
+   "Wellbeing",
+   "None",
+   "Plan",
+   "Plan applied"
+  ],
+  [
+   "Event ops",
+   "Clashes",
+   "Smooth",
+   "Smooth with backups"
+  ],
+  [
+   "Result records",
+   "Scores unrecorded",
+   "Match results and any disputes logged",
+   "Disputes traced to rules and one rule changed"
+  ],
+  [
+   "Age, gambling and wellbeing rules",
+   "Rules not checked",
+   "Age limit, prize rules and break rules for the place are written down",
+   "Rules checked and a wellbeing check practised"
+  ]
+ ],
+ "jobs": [
+  [
+   "eSports coach assistant",
+   "Plans practice"
+  ],
+  [
+   "Tournament organiser",
+   "Runs events"
+  ],
+  [
+   "Team manager",
+   "Handles roster"
+  ],
+  [
+   "Match analyst",
+   "Reviews data"
+  ],
+  [
+   "Community moderator",
+   "Keeps fair play"
+  ]
+ ],
+ "next": "VR events, podcasting, event management.",
+ "local": "Age rules, gambling-related rules and contracts differ by place.",
+ "ladder": [
+  [
+   "The eSports ecosystem and who decides what",
+   "L1: learner can name roles. Focus module: The eSports ecosystem and who decides what (Understand, 3 h). eSports is organised competition in video games. To manage a team or event you must know who owns the game, who runs competitions and who protects players. Key points: The game publisher owns the game and sets licence rules for events, prize pools and streaming. Leagues and organisers run seasons and tournaments; teams sign and develop players; platforms stream. Roles around a team: players, coach, analyst, manager, content creator, shoutcaster and referee. Schools and clubs have their own safeguarding rules, especially for minors.",
+   "Teach: open with the worked example. A school club wants to charge an entry fee. It reads the publisher's community event rules, finds that paid events may need approval, and applies before announcing. Then set the activity: Map the roles and rules for a small club in one chart, with the publisher rules you checked. Mark against the standard: Chart lists at least six roles and two rule sources with dates. Check at this level: Name a role. Model answer: Coach, analyst, manager or shoutcaster."
+  ],
+  [
+   "Building the roster and the team culture",
+   "L2: learner knows fair play. Focus module: Building the roster and the team culture (Apply, 4 h). A good roster fits skill, communication and schedule. A good culture keeps players improving and staying. Key points: Run trials: scrims, a team chat and a review. Watch communication as much as score. Write expectations: practice days, attendance, language, equipment care and how conflict is handled. Use written agreements; for under-18s involve parents or guardians. Equal chance: no discrimination in trials; publish the criteria.",
+   "Teach: open with the worked example. A trial reveals a skilled player who cannot practise after 9 pm. The team moves practice to 7 pm and wins the player's commitment. Then set the activity: Build a roster of five plus two substitutes with roles and write a one-page team agreement. Mark against the standard: Cover all roles in the roster; cover schedule, conduct and conflict handling in the agreement. Check at this level: Equal chance? Model answer: No discrimination."
+  ],
+  [
+   "Practice, review and improvement",
+   "L3: learner can plan a roster. Focus module: Practice, review and improvement (Analyse, 4 h). Teams improve by reviewing real play, not by playing more hours. Key points: Record matches and tag errors by type such as positioning, timing, communication and decision. Choose one focus per week and drill it in short blocks. Use stats such as objectives taken, deaths per round and win rate by map. Give feedback in a fixed pattern: one positive, one fix, one drill.",
+   "Teach: open with the worked example. Review shows the team loses objectives at the 10-minute mark. Two drills and a call sheet cut lost objectives from 6 to 3 per match in four weeks. Then set the activity: Review one recorded match and write three findings, three drills and one measure. Mark against the standard: Base the findings on the data and give each drill a measure. Check at this level: Review use? Model answer: Spot mistakes."
+  ],
+  [
+   "Wellbeing, study and safety",
+   "L4: learner can run practice. Focus module: Wellbeing, study and safety (Evaluate, 4 h). Long hours at screens harm health and results. Key points: Sleep seven to nine hours; eat regularly; drink water. Stretch wrists, shoulders and neck; rest eyes every 20 minutes. Cap practice hours and protect study or work time. Know signs of burnout and where to get help.",
+   "Teach: open with the worked example. A coach limits practice to three hours a day, adds a rest day and a wrist stretch routine. Reports of wrist pain fall to zero in six weeks. Then set the activity: Write a 7-day schedule that includes practice, study, sleep, exercise and rest. Mark against the standard: Schedule shows sleep of at least seven hours and a weekly rest day. Check at this level: Why limit hours? Model answer: Protect health and study."
+  ],
+  [
+   "Fair play, conduct and integrity",
+   "L5: learner can analyse. Focus module: Fair play, conduct and integrity (Evaluate, 3 h). Cheating and abuse destroy trust. Key points: Ban cheat software, account sharing and match fixing. Use a ladder of sanctions: warning, short ban, season ban, permanent ban. Provide an appeals route and a reporting channel. Protect minors: no private messages with adults; keep contact in group channels.",
+   "Teach: open with the worked example. A player is banned for a season after cheat software is found by the platform. The team publishes the ruling and the appeal result. Then set the activity: Draft a code of conduct and a sanctions ladder. Mark against the standard: Write a code with at least six rules and a four-step ladder. Check at this level: Anti-cheat? Model answer: Prevents unfair play."
+  ],
+  [
+   "Budget, sponsors and honesty",
+   "L6: learner can lead a team. Focus module: Budget, sponsors and honesty (Analyse, 3 h). Money must be clear to players, teams and sponsors. Key points: List costs: venue, equipment, internet, staff, prizes, insurance, marketing. List income: entry fees, sponsors, tickets and merchandise. Disclose sponsors and prize rules to everyone. Keep receipts and a simple ledger.",
+   "Teach: open with the worked example. Twelve teams at 2,000 INR fees give 24,000 INR; costs are 22,000 INR, so break-even is 11 teams (22,000 / 2,000) and the surplus is 2,000 INR; a sponsor adds 15,000 INR for prizes. Then set the activity: Build a one-page budget with a break-even number of teams. Mark against the standard: Calculate totals correctly and show break-even. Check at this level: Sponsor rule? Model answer: Disclose."
+  ],
+  [
+   "Report, review and next season",
+   "L7: learner can audit. Focus module: Report, review and next season (Create, 3 h). Learn from each event. Key points: Compare plan and actual for time, cost and attendance. Survey players and spectators with five questions. List three improvements and owners. Share a short report with thanks.",
+   "Teach: open with the worked example. Feedback shows long waits between matches; the next event adds a third station and a clearer schedule board. Then set the activity: Write a one-page event report. Mark against the standard: Report has numbers, feedback and three dated improvements. Check at this level: Survey length? Model answer: Five questions."
+  ]
+ ]
+}

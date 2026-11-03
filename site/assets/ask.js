@@ -1,4 +1,4 @@
-/* Site assistant for this site (each site carries only its own assistant, owner 20 Oct 2026).
+/* Site assistant for this site (this site carries only its own assistant).
    Add once per page, before </body>:  <script src="/assets/ask.js" defer></script>
    Picks the assistant from the body class. Fixed answers only; no calls out, nothing stored. */
 (function(S){
@@ -13,7 +13,7 @@ var A=(C.app||'').replace(/\/$/,'');
 function url(p,fb){if(!p)return null;if(p.charAt(0)=='@')return A?A+p.slice(1):(fb||null);return p;}
 var host=document.createElement('div');host.id='hx-ask';document.body.appendChild(host);
 var R=host.attachShadow({mode:'open'});
-/* render.yaml's Content-Security-Policy has no 'unsafe-inline', so a <style> tag would be blocked: use a constructed stylesheet. */
+/* The site's Content-Security-Policy has no 'unsafe-inline', so a <style> tag would be blocked: use a constructed stylesheet. */
 try{var sh=new CSSStyleSheet();sh.replaceSync(C.css);R.adoptedStyleSheets=[sh];}catch(e){}
 R.innerHTML='<button class="btn" aria-expanded="false" aria-controls="p">'+C.icon+'<span>Ask '+C.name+'</span></button>'+
 '<section class="panel" id="p" role="dialog" aria-label="Ask '+C.name+'"><div class="head"><i class="ic"></i><div><b class="nm"></b><span class="sb"></span></div><button class="x" aria-label="Close">×</button></div>'+

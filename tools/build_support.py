@@ -5,10 +5,10 @@ Keeps each page's <head>, header and footer as they are and replaces only <main>
 Run from the repo root: python3 tools/build_support.py
 Text comes from the existing pages and the HFL content pack; nothing is invented here.
 """
-import re, pathlib
+import re, pathlib, json
 
 SITE = pathlib.Path(__file__).resolve().parent.parent / "site"
-MAIL = "engage@hfl-pass.com"
+MAIL = ""  # no mailbox is shown on public pages; people use the contact form
 NT = '<span translate="no">House for Learning</span>'
 
 
@@ -91,7 +91,7 @@ def support():
         ("Tell us", "Use the contact form and choose “Learner support or an adjustment”. You do not need to share medical details."),
         ("Agree it", "Together we agree what helps, such as extra time, another format, a quiet room or a support person."),
         ("Keep it private", "The adjustment is noted privately on your record so you do not have to ask again."),
-        ("Review it", "We check each term that it still works for you."),
+        ("Review it", "We check regularly that it still works for you."),
     ]), alt=True)
     main += row("stations", "where you study", "Study stations: campus or home", ruled([
         ("at home", "Home study station", "A quiet corner, a device, headphones and a steady connection. A 10-minute break is enough for many units."),
@@ -125,7 +125,7 @@ FAQ = [
         ("Where do I start?", 'Pick the subject family closest to your work in the <a href="catalogue.html">catalogue</a> and take its first unit. If you are unsure, our learner support desk will suggest one.'),
         ("How long is a unit?", "Between 5 and 90 minutes. Most first units take 10 to 15 minutes."),
         ("Do I need to be near a campus?", "No. Most units work at a home study station. Hands-on units need a supervised practice station on a campus."),
-        ("Where will " + NT + " be offered?", "Online, everywhere. The group plans offices across India and hubs abroad that will serve learners worldwide with partners. Each location is announced when it opens."),
+        ("Where will " + NT + " be offered?", "Online, everywhere. We plan offices across India and hubs abroad that will serve learners worldwide with partners. Each location is announced when it opens."),
         ("What do head, heart and hands mean?", "Every unit has an outcome for what you know, why it matters to you, and what you can do."),
     ]),
     ("credits", "pathways and credits", "Pathways and credits", [
@@ -145,15 +145,15 @@ FAQ = [
         ("Are Loka and Vidya real people?", "No. They are our AI guides and they will always say so. They are coming soon, and they will hand you to a person when you ask."),
     ]),
     ("member", "membership and payments", "Membership, payments and your data", [
-        ("How much does it cost?", "Membership from $5 a year for eligible people. Plans for organisations, and for people who can pay more, are shown after sign-in."),
+        ("How much does it cost?", "Prices and eligibility are set out on the membership pages. Plans for organisations are shown after sign-in."),
         ("How do I pay?", 'By UPI or direct bank payment. For a bank payment you choose Request payment details and we send them to you by email. We never publish bank numbers on this site. See <a href="payments.html">payments</a>.'),
-        ("Can I get my money back?", "Full refund within 14 days, then unused months less 10%. There is no exit fee, and membership does not renew by itself unless you switch renewal on."),
+        ("Can I get my money back?", "The refund and renewal terms are on the membership pages. There is no exit fee."),
         ("Do you sell my data?", "No. Every data choice starts switched off, and we never sell your data or show advertising."),
         ("Is sign-up open now?", "Online sign-up opens with the members area. Until then, the Members login button takes you to the contact form."),
     ]),
     ("org", "organisations", "For employers and institutions", [
         ("Can you build learning for my team?", 'Yes. We map your roles to units and an onboarding ladder. See <a href="organisations.html">For organisations</a>.'),
-        ("Will I see my staff’s private answers?", "No. Organisations see insights only at team level, for groups large enough that no one can be singled out, and only for learners who switched sharing on."),
+        ("Will I see my staff’s private answers?", "No. Organisations see insights only at team level, for teams large enough that no one can be singled out, and only for learners who switched sharing on."),
         ("Can trainers teach our units?", "Experienced practitioners can follow the trainer and coach pathway to teach and assess with our units."),
     ]),
 ]
@@ -180,7 +180,7 @@ def faq():
 # ---------------------------------------------------------------- safety
 POSTERS = [
     ("Evacuation", ["Stop work", "Leave by the marked route", "Help others", "Go to the assembly point"], 1),
-    ("Fire", ["Raise the alarm", "Check your exit", "Small fire only", "Close doors behind you"], 1),
+    ("Fire", ["Raise the alarm", "Check your exit", "Use an extinguisher on a small fire only", "Close doors behind you"], 1),
     ("First aid", ["Check for danger", "Call for help", "Use the kit and defibrillator", "Stay until help arrives"], 1),
     ("Electrical safety", ["Switch off the supply", "Keep clear", "Call for help", "Start first aid"], 2),
 ]
@@ -213,7 +213,7 @@ def safety():
     cols = ""
     for name, st, lvl in POSTERS:
         crs = L1 if lvl == 1 else L2
-        meta = "level 1, 12 h" if lvl == 1 else "level 2, 24 h"
+        meta = "level 1, 12 hours" if lvl == 1 else "level 2, 24 hours"
         cols += (f'<article class="sx-poster"><h3>{name}</h3><ol>' + "".join(f"<li>{s}</li>" for s in st) + "</ol>"
                  f'<p class="sx-learn"><span>Taught in</span>{crs[0]}; {crs[1]} <em>({meta})</em></p></article>')
     main += row("posters", "four poster routines", "What to do, in four steps", f'<div class="sx-posters">{cols}</div>')
@@ -239,14 +239,14 @@ def legal(kind):
             ("why", "Why we use it", "<p>To answer your message, to suggest courses, and to keep a record of our conversation. We do not sell your data, and we do not use it for advertising.</p>"),
             ("records", "Learning records (members area, opening soon)",
              "<p>When you join, you choose what we may learn about you, and every choice starts switched off. If you choose to help us learn, we record how you use our services so we can improve them for you. We do not use sensitive personal data, we never sell your data, and you can switch this off at any time in your settings.</p>"
-             "<p>Organisations see learning insights only at team level, for groups large enough that no one can be singled out, and only for learners who switched sharing on.</p>"
+             "<p>Organisations see learning insights only at team level, for teams large enough that no one can be singled out, and only for learners who switched sharing on.</p>"
              "<p>Learners under 16, or the age set by local law, need a parent or guardian’s consent before they sign up.</p>"),
             ("cookies", "Cookies and storage",
              '<p>This site sets no analytics, advertising or tracking cookies. It stores one item in your browser, and nothing else. <a href="cookies.html">See the full cookies page</a>.</p>'),
             ("who", "Who sees it", "<p>Only the staff who handle your message, and service providers that host our website and email under contract. We share data with authorities only when the law requires it.</p>"),
             ("keep", "How long we keep it", "<p>As long as needed to answer you and for any learning that follows, and then as the law requires. After that we delete it.</p>"),
             ("rights", "Your rights", "<p>You can ask to see, correct, download or delete your data, or withdraw your consent, at any time. We follow applicable data protection laws, including India’s Digital Personal Data Protection Act 2023, the EU and UK GDPR, the UAE data protection law and Canada’s PIPEDA, and give the same protection to visitors from other countries.</p>"),
-            ("contact", "Contact", f'<p><a href="mailto:{MAIL}">{MAIL}</a></p>'),
+            ("contact", "Contact", '<p><a href="contact.html">Use the contact form</a></p>'),
         ]
         h = hero("privacy", "Privacy notice", f"What {NT} collects through this website, and why. Short, plain and in your favour.",
                  meta='<p class="meta">Last updated: on publishing</p>')
@@ -259,7 +259,7 @@ def legal(kind):
             ("fonts", "Typefaces", "<p>Our typefaces are served from this site itself. Nothing is fetched from an outside font service, so no one else learns that you visited.</p>"),
             ("optional", "If optional cookies are ever added", "<p>They stay off unless you accept, and this page will list them first.</p>"),
             ("choose", "Change your choice", '<p>Use <strong>Manage preferences</strong> in the notice at the foot of the page, or clear this site’s data in your browser to be asked again.</p>'),
-            ("more", "More", '<p>Read the <a href="privacy.html">privacy notice</a> for what we collect and your rights, or write to <a href="mailto:' + MAIL + '">' + MAIL + "</a>.</p>"),
+            ("more", "More", '<p>Read the <a href="privacy.html">privacy notice</a> for what we collect and your rights, or use the <a href="contact.html">contact form</a>.</p>'),
         ]
         h = hero("cookies", "Cookies and storage", "No tracking, no advertising. One small note in your browser remembers your choice.")
         pg = pager(("privacy.html", "Privacy"), ("terms.html", "Terms"))
@@ -281,13 +281,13 @@ def legal(kind):
              '<li><strong>Tell us if something feels wrong.</strong> If anyone contacts you claiming to act for us outside the website, or asks you to pay somewhere else, please let us know through the <a href="contact.html">contact page</a>. We will check and reply.</li></ul>'
              "<p>Thank you for helping us keep every dealing open and fair.</p>"),
             ("renewing", "Paying and renewing",
-             '<ul class="sx-plain"><li><strong>No hidden renewals.</strong> Membership is paid for one year in advance and does not renew by itself unless you choose to switch renewal on.</li>'
+             '<ul class="sx-plain"><li><strong>No hidden renewals.</strong> The renewal terms for each plan are on the membership pages and are shown before you pay.</li>'
              "<li><strong>You see it before you pay.</strong> The price and the end date are shown on screen before any payment.</li>"
-             "<li><strong>A reminder first.</strong> If you switch renewal on, we remind you before it renews, so you can change your mind.</li>"
+             "<li><strong>A reminder first.</strong> If a plan ever renews, we remind you before it does, so you can change your mind.</li>"
              "<li><strong>Cancel in one click.</strong> You can stop renewal at any time from your account, with one click.</li>"
              "<li><strong>Deleting the app does not cancel.</strong> Removing an app or a bookmark does not stop a renewal. Please switch it off in your account.</li>"
-             '<li><strong>Refunds.</strong> Full refund within 14 days, then unused months less 10%. No exit fee, ever. See <a href="payments.html">payments</a>.</li></ul>'),
-            ("contact", "Contact", f'<p><a href="mailto:{MAIL}">{MAIL}</a></p>'),
+             '<li><strong>Refunds.</strong> The refund terms are on the membership pages. No exit fee, ever. See <a href="payments.html">payments</a>.</li></ul>'),
+            ("contact", "Contact", '<p><a href="contact.html">Use the contact form</a></p>'),
         ]
         h = hero("terms", "Terms of use", f"The plain rules for using this website and dealing with {NT}.",
                  meta='<p class="meta">Last updated: on publishing</p>')
@@ -305,10 +305,11 @@ def contact(old):
     main = hero("say hello", "Contact us",
                 "Tell us what you want to learn, or what your team needs. A person reads every message and writes back.",
                 BTN.format("#message-form", "Write to us") + GHOST.format("faq.html", "Read the questions"))
+    main += json.load(open(SITE.parent / "data" / "photo-bands.json", encoding="utf-8"))["contact.html"]  # photo under the hero
     main += ('<section class="sec sx-contact" id="message-form" aria-labelledby="message-form-h"><div class="wrap sx-contact-grid">'
              '<div class="sx-formcol"><p class="kicker">general message form</p><h2 id="message-form-h">Send us a message</h2>' + form + "</div>"
              '<aside class="sx-aside" aria-label="Other ways to reach us"><h3>Write to us</h3><dl class="details">'
-             f'<dt>Email</dt><dd><a href="mailto:{MAIL}">{MAIL}</a></dd>'
+             '<dt>Contact</dt><dd><a href="contact.html">Contact form</a></dd>'
              "<dt>Members</dt><dd>Members login opens with the members area. Until then, use this form.</dd>"
              "<dt>Loka and Vidya</dt><dd>Our AI guides are coming soon.</dd></dl>"
              '<h3>Before you write</h3><ul class="sx-plain">'

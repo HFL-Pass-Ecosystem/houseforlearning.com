@@ -1,0 +1,108 @@
+{
+ "module8": [
+  "Capstone: audit people and pay data and coach others",
+  "Evaluate",
+  5,
+  "Put all seven parts together. You check one team's records from person to payout, then teach another person how to keep them right.",
+  [
+   "Trace a worker from record to roster, pay input and review.",
+   "Check that approved hours, rates and payouts match the records.",
+   "Look for fairness, privacy and access problems.",
+   "Coach a colleague to repeat the checks every month."
+  ],
+  "An audit finds a payout total that is 40 hours higher than approved time because late hours were added by hand. You remove them and add a cut-off rule.",
+  "Audit a practice team of ten people. Write a one-page report with five findings and give a 15-minute coaching session to a colleague.",
+  "Match pay totals to approved records, report five findings with owners, and show that the colleague can repeat two checks alone."
+ ],
+ "quiz": [
+  [
+   "A worker changes job and manager. What should happen in one step in a good people system?",
+   "The people record updates the job, the manager and the access rights together. This avoids old access staying behind and keeps reports correct."
+  ],
+  [
+   "Why keep only the personal data that you need for the job?",
+   "Less data means less risk if there is a mistake or a leak, and it follows privacy rules. If you do not need a detail to do the work, do not collect it."
+  ],
+  [
+   "A level 3 technician needs five skills but has three. What does a skills ladder show you?",
+   "It shows a gap of two skills. You can then plan learning or practice for those two skills and record proof when they are done."
+  ],
+  [
+   "Two people want to swap shifts. Who needs to approve and why?",
+   "Both people agree, and the supervisor approves, so cover and rest rules are still met. A swap with no approval can leave a gap or break a rule."
+  ],
+  [
+   "A worker has 12 days of leave and asks for 15 days. What do you check?",
+   "Check the leave balance and policy, then refuse or ask for a different type of leave. Never let the balance go negative without a written rule."
+  ],
+  [
+   "Hours must be approved by Friday for the pay run. A worker's hours arrive on Monday. What happens?",
+   "The late hours are not in this run and roll into the next one. A clear cut-off keeps pay fair and the totals easy to check."
+  ],
+  [
+   "In your capstone audit, the payout file totals 1,200 hours but approved time is 1,160 hours. What is your next step?",
+   "Do not release the payout. Find the 40 extra hours, compare them to approved records, correct or remove them, and re-check the totals match."
+  ],
+  [
+   "A manager gives a low rating without any notes. How does a good review process respond?",
+   "It asks for evidence attached to every rating. A calibration step then checks that ratings are fair across teams and free from bias."
+  ],
+  [
+   "A plan shows 12 technicians will retire in two years. Name two actions.",
+   "Start training or hiring to fill the skills, and capture the knowledge of the experienced people. Set dates and owners for each action."
+  ],
+  [
+   "Your yearly access review finds 15 accounts of people who left. What do you do and record?",
+   "Remove the accounts, note the date and who approved, and look for why they were missed. Then fix the leaver step so it does not happen again."
+  ]
+ ],
+ "ladder": [
+  [
+   "L1 Basic: Know the records",
+   "Remember what a people record holds and which details are needed. You can find a person, job and manager in the system.",
+   "Show one practice record and ask learners to name each part. Common mistake: collecting details nobody needs."
+  ],
+  [
+   "L2 Awareness: See the whole cycle",
+   "Understand how a person moves from hiring to roster, time, pay and review. You can explain in simple words why each record matters.",
+   "Draw the cycle and ask where mistakes would spread. Check they know that pay depends on earlier steps."
+  ],
+  [
+   "L3 Foundation: Do routine tasks",
+   "Apply the steps to add a person, set a role, build a roster and approve leave. You follow rules for rest, balance and approval.",
+   "Give a small team and a week to plan. Common mistake: ignoring rest rules to fill a gap."
+  ],
+  [
+   "L4 Practitioner: Prepare pay inputs",
+   "Analyse approved hours, rates and deductions to build a pay input file. You check that totals match the approved records before release.",
+   "Plant a few errors in the file and see if learners find them. Check they never release without a reconciliation."
+  ],
+  [
+   "L5 Specialist: Run fair reviews and plans",
+   "Evaluate goals, feedback and ratings for evidence and fairness. You also read headcount and turnover to plan the next steps.",
+   "Ask learners to defend one rating using evidence only. Common mistake: letting one recent event shape the whole rating."
+  ],
+  [
+   "L6 Advanced: Protect and improve",
+   "Create a compliance pack with a retention table, access reviews and change control. You set dates and owners so checks really happen.",
+   "Review the pack for dates, owners and a real example. Look for rules that are written but never checked."
+  ],
+  [
+   "L7 Super expert: Audit and coach",
+   "Evaluate people and pay data across a team, rank the risks and create a fix plan. You can coach others to run the same checks each month.",
+   "Have the learner audit a sample team and coach back. Check for clear findings, fair tone and respect for privacy."
+  ]
+ ],
+ "quiz_module": [
+  1,
+  1,
+  2,
+  3,
+  3,
+  4,
+  8,
+  5,
+  6,
+  7
+ ]
+}

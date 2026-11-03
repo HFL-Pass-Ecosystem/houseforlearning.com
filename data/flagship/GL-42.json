@@ -1,0 +1,283 @@
+{
+ "id": "GL-42",
+ "title": "Fitness Technology",
+ "level": 4,
+ "desc": "Choose, set up and use wearables, apps and simple sensors to plan safe training and track progress honestly.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain what common fitness sensors measure and where they are weak."
+  ],
+  [
+   "Apply",
+   "Set up a tracker and app for one training goal."
+  ],
+  [
+   "Analyse",
+   "Read a week of data and spot patterns and errors."
+  ],
+  [
+   "Evaluate",
+   "Judge whether a device or app is accurate, private and worth its cost."
+  ],
+  [
+   "Create",
+   "Build a 4-week safe training plan with a data log."
+  ]
+ ],
+ "task": "Build and follow a 4-week training plan for one willing adult or yourself, using one tracker and one app, with a weekly data review.",
+ "condition": "A phone, one wearable or the phone sensors, a spreadsheet, two peers and a mentor. A qualified coach or doctor is asked first when health conditions exist.",
+ "standard": "Plan is safe and written with a start check; data is logged on at least 24 of 28 days; at least two device errors are found and explained; privacy settings are reviewed; peers rate Meets or better.",
+ "who": "Fitness instructors, gym staff, teachers, community sport leaders and anyone training with a device.",
+ "req": "none",
+ "evidence": "goal sheet, start check, device test notes, 28-day log, weekly reviews, privacy checklist",
+ "modules": [
+  [
+   "Goals and a safe start",
+   "Understand",
+   4,
+   "Technology helps only when the goal is clear and the start is safe.",
+   [
+    "Write one goal with a number and a date, such as walk 8,000 steps on five days a week for four weeks.",
+    "Do a start check: ask about illness, injury, medicines, pregnancy; if any apply, ask a doctor or qualified coach before you plan.",
+    "Never push through chest pain, dizziness or sharp pain; stop and seek help."
+   ],
+   "A learner wants to run 5 km. She notes a knee injury last year, asks a physiotherapist first, and chooses a walk-run plan for four weeks.",
+   "Write your goal and start check.",
+   "Set a goal with a number and date, and check any risk with a qualified person."
+  ],
+  [
+   "What sensors measure",
+   "Understand",
+   4,
+   "Each sensor measures something indirectly, and every one has error.",
+   [
+    "Steps come from motion; heart rate from light on the skin or a chest strap; sleep from movement and heart rate; calories are estimates.",
+    "Light sensors can read less well on dark skin or over tattoos, and errors also grow with cold hands, loose straps and unusual movement.",
+    "Compare to a simple truth: count 100 steps by hand, or a 60-second pulse by finger."
+   ],
+   "A wrist band says 112 steps for a hand-counted 100: error 12%. Chest strap and band show 148 and 141 beats per minute in the same minute.",
+   "Test your device against two hand checks and record the error.",
+   "Calculate the error percentage, and write it next to each check."
+  ],
+  [
+   "Set up app, device and data",
+   "Apply",
+   5,
+   "Good set-up avoids bad data.",
+   [
+    "Fit the device snugly; set height, weight and age correctly; choose the right activity type.",
+    "Sync daily; keep software updated; charge before sessions.",
+    "Decide what you will log: sessions, minutes, effort from 1 to 10, sleep hours, soreness."
+   ],
+   "A user finds steps double count while pushing a stroller; they turn that activity mode off and note it.",
+   "Set up and write a one-page set-up record.",
+   "Record the settings, pass the test sync, and give the log five fields."
+  ],
+  [
+   "Training plan basics",
+   "Create",
+   6,
+   "A plan has progress, rest and variety.",
+   [
+    "Increase load slowly, about 10% a week; include two rest or light days.",
+    "Mix cardio, strength and mobility; warm up and cool down.",
+    "Write the plan as a week table with minutes, effort and the data to log."
+   ],
+   "Week 1: 3 walks of 30 minutes, 2 strength sessions of 20 minutes. Week 2: walks of 33 minutes.",
+   "Write a 4-week plan table.",
+   "Keep weekly increases to 10% or less, and schedule two rest days each week."
+  ],
+  [
+   "Reading the data",
+   "Analyse",
+   6,
+   "Data is useful when you look at trends, not single days.",
+   [
+    "Use weekly averages; ignore one odd day.",
+    "Look for patterns: poor sleep before low effort days, high resting heart rate after illness.",
+    "Mark missing days and device errors; do not fill gaps with guesses."
+   ],
+   "The weekly average of resting heart rate rises from 62 to 68 after a cold; the plan eases for three days.",
+   "Review your first two weeks and write three findings.",
+   "Write findings that use averages, and name at least one data error."
+  ],
+  [
+   "Privacy, ethics and fairness",
+   "Evaluate",
+   5,
+   "Health data is sensitive.",
+   [
+    "Read what the app collects and shares; turn off location sharing and public maps near your home.",
+    "Never share another person's data without clear consent; a coach or employer must not force data sharing.",
+    "Avoid comparing bodies in ways that shame; celebrate effort."
+   ],
+   "A school club shares only team totals and not names after pupils object.",
+   "Complete a privacy checklist for your app.",
+   "Review at least five settings, and write them down."
+  ],
+  [
+   "Choosing and costing a device",
+   "Evaluate",
+   5,
+   "More expensive does not mean better.",
+   [
+    "List needs first: battery, water resistance, sensors, app support.",
+    "Compare 3 options on cost, battery days, accuracy tests, repair and resale; add the yearly cost of any subscription.",
+    "Prefer products with clear data export so you are not locked in."
+   ],
+   "Option B costs 6,000 INR (prices are estimates; check your market) with 10-day battery; option C costs 4,000 INR plus 1,200 INR a year. After two years of use, B is cheaper (6,000 INR against 6,400 INR for C).",
+   "Build a comparison table for 3 devices with the currency written.",
+   "Calculate the totals over two years correctly."
+  ],
+  [
+   "Review, share and sustain",
+   "Create",
+   5,
+   "Finish the 4 weeks and plan the next.",
+   [
+    "Compare results to the goal; write what worked and what to change.",
+    "Present to your peer circle; invite one improvement.",
+    "Plan device reuse or recycling at end of life."
+   ],
+   "Goal met on 4 of 5 weeks; sleep log shows late phone use; next plan adds a screen-off time at 10 pm.",
+   "Present your results.",
+   "Use real data in the results, and plan one change."
+  ]
+ ],
+ "quiz": [
+  [
+   "Name two sensor errors.",
+   "A loose strap; dark skin or a tattoo (for light sensors); steps counted twice."
+  ],
+  [
+   "Why ask a doctor first for some people?",
+   "Illness, injury or medicines can make some exercise unsafe."
+  ],
+  [
+   "How can you test a step counter?",
+   "Count 100 steps by hand and compare."
+  ],
+  [
+   "What weekly increase is a common safe guide?",
+   "About 10%."
+  ],
+  [
+   "Why use weekly averages?",
+   "They hide single-day noise and show trends."
+  ],
+  [
+   "Name two privacy settings.",
+   "Location sharing and public activity maps."
+  ],
+  [
+   "What is subscription lock-in?",
+   "You lose data or features when you stop paying."
+  ],
+  [
+   "How do you treat missing days?",
+   "Mark them; do not invent numbers."
+  ],
+  [
+   "Why include rest days?",
+   "The body adapts and recovers during rest."
+  ],
+  [
+   "What do you do on sharp pain?",
+   "Stop and seek qualified help."
+  ]
+ ],
+ "rubric": [
+  [
+   "Plan quality",
+   "Unsafe or vague",
+   "Safe weekly plan",
+   "Safe plan with progress and rest explained"
+  ],
+  [
+   "Device testing",
+   "None",
+   "Two checks",
+   "Errors explained and corrected"
+  ],
+  [
+   "Data log",
+   "Gaps over 8 days",
+   "24 of 28 days",
+   "Complete with data errors marked"
+  ],
+  [
+   "Data honesty",
+   "Plan results reported without the tracker data",
+   "Weekly tracker figures match the log, with gaps stated",
+   "Weekly figures match the log and each change to the plan cites the week it came from"
+  ],
+  [
+   "Health limits and consent",
+   "No health screen or consent",
+   "Readiness screen done, consent written, stop rules listed",
+   "Screen, consent and stop rules checked by a qualified person, with a doctor-referral line"
+  ]
+ ],
+ "jobs": [
+  [
+   "Fitness technology assistant",
+   "Sets up devices and apps for members"
+  ],
+  [
+   "Community sport coach (with qualification)",
+   "Uses data to guide safe training"
+  ],
+  [
+   "Wellness programme coordinator",
+   "Runs team challenges"
+  ],
+  [
+   "Retail adviser for fitness devices",
+   "Explains accuracy and cost"
+  ],
+  [
+   "Own-health trainer",
+   "Plans and tracks personal fitness"
+  ]
+ ],
+ "next": "wearable sensor basics, nutrition awareness, data literacy.",
+ "local": "Rules on health data differ by place. Use only consented data and keep it private.",
+ "ladder": [
+  [
+   "Goals and a safe start",
+   "L1: learner can name three body measures and two sensors. Focus module: Goals and a safe start (Understand, 4 h). Technology helps only when the goal is clear and the start is safe. Key points: Write one goal with a number and a date, such as walk 8,000 steps on five days a week for four weeks. Do a start check: ask about illness, injury, medicines, pregnancy; if any apply, ask a doctor or qualified coach before you plan. Never push through chest pain, dizziness or sharp pain; stop and seek help.",
+   "Teach: open with the worked example. A learner wants to run 5 km. She notes a knee injury last year, asks a physiotherapist first, and chooses a walk-run plan for four weeks. Then set the activity: Write your goal and start check. Mark against the standard: Set a goal with a number and date, and check any risk with a qualified person. Check at this level: Name two sensor errors. Model answer: Loose strap and dark skin or tattoo for light sensors; step double counts."
+  ],
+  [
+   "What sensors measure",
+   "L2: learner knows why health checks and privacy come first. Focus module: What sensors measure (Understand, 4 h). Each sensor measures something indirectly, and every one has error. Key points: Steps come from motion; heart rate from light on the skin or a chest strap; sleep from movement and heart rate; calories are estimates. Errors grow with dark skin tone or tattoos for light sensors, cold hands, loose straps and unusual movement. Compare to a simple truth: count 100 steps by hand, or a 60-second pulse by finger.",
+   "Teach: open with the worked example. A wrist band says 112 steps for a hand-counted 100: error 12%. Chest strap and band show 148 and 141 beats per minute in the same minute. Then set the activity: Test your device against two hand checks and record the error. Mark against the standard: Calculate the error percentage, and write it next to each check. Check at this level: Why ask a doctor first for some people? Model answer: Illness, injury or medicines can make some exercise unsafe."
+  ],
+  [
+   "Set up app, device and data",
+   "L3: learner can set up one device and app correctly. Focus module: Set up app, device and data (Apply, 5 h). Good set-up avoids bad data. Key points: Fit the device snugly; set height, weight and age correctly; choose the right activity type. Sync daily; keep software updated; charge before sessions. Decide what you will log: sessions, minutes, effort from 1 to 10, sleep hours, soreness.",
+   "Teach: open with the worked example. A user finds steps double count while pushing a stroller; they turn that activity mode off and note it. Then set the activity: Set up and write a one-page set-up record. Mark against the standard: Record the settings, pass the test sync, and give the log five fields. Check at this level: How can you test a step counter? Model answer: Count 100 steps by hand and compare."
+  ],
+  [
+   "Training plan basics",
+   "L4: learner can follow a 4-week plan and keep a log. Focus module: Training plan basics (Create, 6 h). A plan has progress, rest and variety. Key points: Increase load slowly, about 10% a week; include two rest or light days. Mix cardio, strength and mobility; warm up and cool down. Write the plan as a week table with minutes, effort and the data to log.",
+   "Teach: open with the worked example. Week 1: 3 walks of 30 minutes, 2 strength sessions of 20 minutes. Week 2: walks of 33 minutes. Then set the activity: Write a 4-week plan table. Mark against the standard: Keep weekly increases to 10% or less, and schedule two rest days each week. Check at this level: What weekly increase is a common safe guide? Model answer: About 10%."
+  ],
+  [
+   "Reading the data",
+   "L5: learner can test device accuracy and compare options. Focus module: Reading the data (Analyse, 6 h). Data is useful when you look at trends, not single days. Key points: Use weekly averages; ignore one odd day. Look for patterns: poor sleep before low effort days, high resting heart rate after illness. Mark missing days and device errors; do not fill gaps with guesses.",
+   "Teach: open with the worked example. The weekly average of resting heart rate rises from 62 to 68 after a cold; the plan eases for three days. Then set the activity: Review your first two weeks and write three findings. Mark against the standard: Write findings that use averages, and name at least one data error. Check at this level: Why use weekly averages? Model answer: They hide single-day noise and show trends."
+  ],
+  [
+   "Choosing and costing a device",
+   "L6: learner can lead a group challenge with privacy rules. Focus module: Choosing and costing a device (Evaluate, 5 h). More expensive does not mean better. Key points: List needs first: battery, water resistance, sensors, app support. Compare 3 options on cost, battery days, accuracy tests, repair and resale; add the yearly cost of any subscription. Prefer products with clear data export so you are not locked in.",
+   "Teach: open with the worked example. Option B costs 6,000 INR with 10-day battery; option C costs 4,000 INR plus 1,200 INR a year. After two years B is cheaper. Then set the activity: Build a comparison table for 3 devices with the currency written. Mark against the standard: Totals over two years are correct. Check at this level: Name two privacy settings. Model answer: Location sharing and public activity maps."
+  ],
+  [
+   "Review, share and sustain",
+   "L7: learner can audit a programme for safety and data protection. Focus module: Review, share and sustain (Create, 5 h). Finish the 4 weeks and plan the next. Key points: Compare results to the goal; write what worked and what to change. Present to your peer circle; invite one improvement. Plan device reuse or recycling at end of life.",
+   "Teach: open with the worked example. Goal met on 4 of 5 weeks; sleep log shows late phone use; next plan adds a screen-off time at 10 pm. Then set the activity: Present your results. Mark against the standard: Use real data in the results, and plan one change. Check at this level: What is subscription lock-in? Model answer: You lose data or features when you stop paying."
+  ]
+ ]
+}

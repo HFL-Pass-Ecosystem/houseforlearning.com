@@ -3,7 +3,7 @@
 .wf-btns{display:flex;flex-wrap:wrap;gap:6px}
 .wayfind .wf-b{text-transform:none;letter-spacing:normal;font:inherit;font-weight:600;color:#17303f;background:#fff;border:1px solid #b9b19a;border-radius:999px;padding:5px 14px;min-height:34px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center}
 .wayfind .wf-b:hover,.wayfind .wf-b:focus-visible{background:#17303f;color:#f2eee2;outline:none}
-.wayfind .wf-home{background:#0F85DB;border-color:#0F85DB;color:#fff}
+.wayfind .wf-home{background:#0B66AA;border-color:#0B66AA;color:#fff}
 .wf-trail{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:2px 0;min-width:0}
 .wf-trail li{display:flex;align-items:center;min-width:0}
 .wf-trail li+li::before{content:"\203A";margin:0 8px;color:#7a7461}

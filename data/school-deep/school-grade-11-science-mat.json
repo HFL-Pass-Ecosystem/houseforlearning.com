@@ -1,0 +1,365 @@
+{
+ "slug": "school-grade-11-science-mat.html",
+ "plan": "grade-11-science",
+ "subject": "MAT",
+ "subject_name": "Mathematics",
+ "kind": "maths",
+ "label": "Grade 11 Science",
+ "band": "post",
+ "level": 5,
+ "weeks": 36,
+ "task": "Meet the outcome of every unit in Grade 11 Science Mathematics, and keep one piece of evidence for each.",
+ "condition": "A 36-week school year, 9 units, a teacher or guide, a learning book or device, and local examples in the local language first with English support.",
+ "standard": "Each unit: at least 70 percent on an exam-style task, with the method shown. Course pass: no unit at 'Not yet' after one retry, and a pass in SA1 and SA2.",
+ "modules": [
+  {
+   "n": 1,
+   "title": "Sets and relations",
+   "bloom": "Apply",
+   "weeks": [
+    1,
+    5
+   ],
+   "hours": 15,
+   "outcome": "use set notation, relations and functions",
+   "intro": "In this unit, 'Sets and relations', you learn to use set notation, relations and functions. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Sets and relations' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: use set notation, relations and functions. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: A = {1, 2, 3} and B = {2, 3, 4}. Union = {1, 2, 3, 4}. Intersection = {2, 3}. Method: Model run for 'Sets and relations'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Use set notation, relations and functions: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Cartesian product: A = {1, 2, 3} and B = {a, b}. A x B has 3 x 2 = 6 ordered pairs: (1, a), (1, b), (2, a), (2, b), (3, a), (3, b). Order matters, so (1, a) differs from (a, 1).",
+    "Step 2, Relation: R = {(x, y): y = x + 2} from {1, 2, 3, 4} to {3, 4, 5, 6}. Pairs: (1, 3), (2, 4), (3, 5), (4, 6). Domain {1, 2, 3, 4}, range {3, 4, 5, 6}.",
+    "Step 3, Venn counting: n(A) = 30, n(B) = 25, n(A n B) = 10. So n(A U B) = 30 + 25 - 10 = 45. Only A is 30 - 10 = 20, and only B is 25 - 10 = 15.",
+    "Step 4, Domain and range: f(x) = root of (x - 3) needs x - 3 >= 0, so the domain is x >= 3 and the range is y >= 0. For f(x) = x^2 + 1 the range is y >= 1.",
+    "Step 5, Power set: for {a, b, c}, the subsets are 2^3 = 8 in number: empty, 3 singletons, 3 pairs and the whole set. A set with n elements has 2^n subsets.",
+    "Step 6, Your turn: if n(A) = 4 and n(B) = 5 find n(A x B), and give the domain of 1/(x - 5). Answer: 20; all real numbers except 5."
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Trigonometric functions",
+   "bloom": "Apply",
+   "weeks": [
+    6,
+    10
+   ],
+   "hours": 15,
+   "outcome": "use identities and graphs of trigonometric functions",
+   "intro": "In this unit, 'Trigonometric functions', you learn to use identities and graphs of trigonometric functions. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Trigonometric functions' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: use identities and graphs of trigonometric functions. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Right triangle, opposite side 3, hypotenuse 5, adjacent side 4. sin = 3/5 = 0.6, cos = 4/5 = 0.8, tan = 3/4 = 0.75. Method: Model run for 'Trigonometric functions'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Use identities and graphs of trigonometric functions: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Radians: 150 degrees = 150 x pi/180 = 5 pi/6. And pi/4 radians = 45 degrees. The conversion factor is pi radians = 180 degrees.",
+    "Step 2, Identity: if sin x = 3/5 with x in quadrant II, then cos^2 x = 1 - 9/25 = 16/25, so cos x = -4/5 since cosine is negative there. Then tan x = -3/4.",
+    "Step 3, Compound angle: sin 75 = sin(45 + 30) = sin 45 cos 30 + cos 45 sin 30 = (root 2/2)(root 3/2) + (root 2/2)(1/2) = (root 6 + root 2)/4, about 0.966.",
+    "Step 4, Solve sin x = 1/2 for x in [0, 2 pi]: the principal angle is pi/6, and the second solution is pi - pi/6 = 5 pi/6. Check: sin(5 pi/6) = 1/2.",
+    "Step 5, Graphs: y = 2 sin x has amplitude 2 and period 2 pi, with maximum 2 at x = pi/2. y = sin 2x has period pi, so it completes one wave between 0 and pi.",
+    "Step 6, Your turn: find cos 2x when cos x = 3/5. Answer: cos 2x = 2 cos^2 x - 1 = 2 x 9/25 - 1 = -7/25."
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Principle of mathematical induction",
+   "bloom": "Evaluate",
+   "weeks": [
+    11,
+    13
+   ],
+   "hours": 9,
+   "outcome": "prove statements by induction",
+   "intro": "In this unit, 'Principle of mathematical induction', you learn to prove statements by induction. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Principle of mathematical induction' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: prove statements by induction. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Show 1 + 2 + ... + n = n(n + 1)/2. n = 1: 1 = 1. Assume it holds for k. Add k + 1: k(k + 1)/2 + (k + 1) = (k + 1)(k + 2)/2, which is the rule for k + 1. So it holds for all n. Method: Model run for 'Principle of mathematical induction'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Prove statements by induction: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, State what to prove: P(n) is 1 + 2 + ... + n = n(n + 1)/2 for every natural number n. Induction works like dominoes. Show the first falls (base case), then show that if one falls the next falls (inductive step). Then all fall.",
+    "Step 2, Base case n = 1. The left side is just 1. The right side is 1 x (1 + 1) / 2 = 1. Both sides agree, so P(1) is true. Check n = 2 as well: 1 + 2 = 3 and 2 x 3 / 2 = 3.",
+    "Step 3, Inductive hypothesis: assume P(k) is true, so 1 + 2 + ... + k = k(k + 1)/2. Now add the next term k + 1 to both sides. The right side becomes k(k + 1)/2 + (k + 1).",
+    "Step 4, Simplify: k(k + 1)/2 + (k + 1) = (k + 1)(k/2 + 1) = (k + 1)(k + 2)/2. This is exactly P(k + 1), since replacing n by k + 1 gives (k + 1)(k + 2)/2. By the principle of induction, P(n) holds for all natural n. For n = 10 the sum is 55.",
+    "Step 5, Try a divisibility statement: 7^n - 1 is divisible by 6. Base: 7 - 1 = 6. Assume 7^k - 1 = 6m. Then 7^(k+1) - 1 = 7(7^k - 1) + 6 = 42m + 6 = 6(7m + 1), which is a multiple of 6.",
+    "Step 6, Your turn: prove 1^2 + 2^2 + ... + n^2 = n(n + 1)(2n + 1)/6. Model answer: base n = 1 gives 1 = 1 x 2 x 3/6. Assume true for k, add (k + 1)^2 to get (k + 1)(2k^2 + 7k + 6)/6 = (k + 1)(k + 2)(2k + 3)/6, which is P(k + 1)."
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Complex numbers and quadratic equations",
+   "bloom": "Apply",
+   "weeks": [
+    14,
+    18
+   ],
+   "hours": 15,
+   "outcome": "operate on complex numbers and solve quadratics",
+   "intro": "In this unit, 'Complex numbers and quadratic equations', you learn to operate on complex numbers and solve quadratics. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Complex numbers and quadratic equations' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: operate on complex numbers and solve quadratics. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: x squared - 5x + 6 = 0 factorises as (x - 2)(x - 3) = 0, so x = 2 or x = 3. Check x = 2: 4 - 10 + 6 = 0. Method: Model run for 'Complex numbers and quadratic equations'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Operate on complex numbers and solve quadratics: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Divide complex numbers: (3 + 4i)/(1 - 2i). Multiply top and bottom by the conjugate 1 + 2i: (3 + 4i)(1 + 2i) / 5 = (3 + 6i + 4i + 8i^2)/5 = (-5 + 10i)/5 = -1 + 2i.",
+    "Step 2, Check: (-1 + 2i)(1 - 2i) = -1 + 2i + 2i - 4i^2 = -1 + 4i + 4 = 3 + 4i. This returns the numerator, so the quotient -1 + 2i is correct.",
+    "Step 3, Polar form: z = 1 + i has modulus root 2 and argument pi/4, since tan = 1 in the first quadrant. So z = root 2 (cos pi/4 + i sin pi/4). Also |3 - 4i| = 5.",
+    "Step 4, Quadratic: x^2 - 2x + 5 = 0 has D = 4 - 20 = -16. So x = (2 plus or minus 4i)/2 = 1 plus or minus 2i. The roots are conjugates, as always with real coefficients.",
+    "Step 5, Cube roots of unity: x^2 + x + 1 = 0 gives D = 1 - 4 = -3, so x = (-1 plus or minus i root 3)/2. These are the complex cube roots of 1, and their sum with 1 is 0.",
+    "Step 6, Your turn: find (2 + i)^2 and the modulus of 5 + 12i. Answer: 4 + 4i + i^2 = 3 + 4i; modulus is the root of 25 + 144 = 13."
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Linear inequalities and permutations and combinations",
+   "bloom": "Apply",
+   "weeks": [
+    19,
+    21
+   ],
+   "hours": 9,
+   "outcome": "solve inequalities and count arrangements",
+   "intro": "In this unit, 'Linear inequalities and permutations and combinations', you learn to solve inequalities and count arrangements. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Linear inequalities and permutations and combinations' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: solve inequalities and count arrangements. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Arrange 5 books in 3 places: 5 x 4 x 3 = 60 ways. Choose 3 of 5: 60 / 6 = 10 ways. Method: Model run for 'Linear inequalities and permutations and combinations'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Solve inequalities and count arrangements: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Solve 3x - 5 < 7: add 5 to get 3x < 12, so x < 4. On a number line, draw an open circle at 4 and shade left. Test x = 3: 9 - 5 = 4 < 7, true.",
+    "Step 2, Double inequality: -3 <= 2x + 1 < 9. Subtract 1: -4 <= 2x < 8. Divide by 2: -2 <= x < 4. So x is in [-2, 4). Test x = 0: 1 lies between -3 and 9.",
+    "Step 3, Flip rule: 4 - 3x >= 10 gives -3x >= 6. Dividing by -3 reverses the sign, so x <= -2. Test x = -3: 4 + 9 = 13 >= 10, true.",
+    "Step 4, Arrangements: 5 people in a line can be placed in 5! = 120 ways. If 2 specific people must stand together, treat them as one block: 4! x 2! = 24 x 2 = 48 ways.",
+    "Step 5, Selection: choose 4 from 6 boys and 4 girls with exactly 2 girls. C(4, 2) x C(6, 2) = 6 x 15 = 90. BANANA has 6 letters with A three times and N twice, so 6!/(3! 2!) = 60.",
+    "Step 6, Your turn: solve 5x + 2 <= 17 and find C(9, 3). Answer: 5x <= 15 so x <= 3; C(9, 3) = 9 x 8 x 7 / 6 = 84."
+   ]
+  },
+  {
+   "n": 6,
+   "title": "Binomial theorem and sequences and series",
+   "bloom": "Apply",
+   "weeks": [
+    22,
+    26
+   ],
+   "hours": 15,
+   "outcome": "expand binomials and sum series",
+   "intro": "In this unit, 'Binomial theorem and sequences and series', you learn to expand binomials and sum series. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Binomial theorem and sequences and series' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: expand binomials and sum series. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: 2, 5, 8, ... has a = 2 and d = 3. The 10th term = 2 + 9 x 3 = 29. The sum of 10 terms = 10/2 x (2 + 29) = 155. Method: Model run for 'Binomial theorem and sequences and series'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Expand binomials and sum series: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Expand (1 + x)^4 using Pascal's row 1, 4, 6, 4, 1: 1 + 4x + 6x^2 + 4x^3 + x^4. Check x = 1: 16 and 1 + 4 + 6 + 4 + 1 = 16.",
+    "Step 2, General term: T(r+1) = C(n, r) a^(n-r) b^r. In (2 + x)^5 the coefficient of x^3 is C(5, 3) x 2^2 = 10 x 4 = 40. The third term overall has C(5, 2) = 10 as its binomial coefficient.",
+    "Step 3, AP sum: a = 2, d = 3, n = 15. S = 15/2 x (2 x 2 + 14 x 3) = 15/2 x 46 = 345. The 15th term is 2 + 42 = 44 and 15/2 x (2 + 44) = 345 agrees.",
+    "Step 4, GP sum: first term 3, ratio 2, 8 terms. S = 3(2^8 - 1)/(2 - 1) = 3 x 255 = 765. Check the 8th term: 3 x 128 = 384, and 765 is almost double 384, as expected for ratio 2.",
+    "Step 5, Infinite GP: 1 + 1/2 + 1/4 + ... has ratio 1/2, with |r| < 1, so the sum is a/(1 - r) = 1/(1/2) = 2. When |r| is 1 or more, no such sum exists.",
+    "Step 6, Your turn: find the x^2 coefficient in (1 + 2x)^3 and the sum of 6, 2, 2/3, ... to infinity. Answer: 3 x 4 = 12; and 6/(1 - 1/3) = 9."
+   ]
+  },
+  {
+   "n": 7,
+   "title": "Straight lines and conic sections",
+   "bloom": "Apply",
+   "weeks": [
+    27,
+    30
+   ],
+   "hours": 12,
+   "outcome": "use equations of lines, circles and conics",
+   "intro": "In this unit, 'Straight lines and conic sections', you learn to use equations of lines, circles and conics. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Straight lines and conic sections' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: use equations of lines, circles and conics. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Points (1, 2) and (4, 6). Distance = square root of (3 squared + 4 squared) = square root of 25 = 5. Slope = (6 - 2) / (4 - 1) = 4/3. Method: Model run for 'Straight lines and conic sections'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Use equations of lines, circles and conics: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Line through (2, -1) and (5, 5): slope = 6/3 = 2. Equation y + 1 = 2(x - 2), so y = 2x - 5. Check (5, 5): 10 - 5 = 5.",
+    "Step 2, Distance from a point to a line: the distance from (1, 2) to 3x + 4y - 5 = 0 is |3 + 8 - 5| / root of (9 + 16) = 6/5 = 1.2.",
+    "Step 3, Circle: centre (3, -2) and radius 5 gives (x - 3)^2 + (y + 2)^2 = 25. Test (6, 2): 9 + 16 = 25, so it lies on the circle.",
+    "Step 4, Find centre from a general equation: x^2 + y^2 - 6x + 4y - 12 = 0. Complete squares: (x - 3)^2 + (y + 2)^2 = 12 + 9 + 4 = 25. Centre (3, -2), radius 5.",
+    "Step 5, Parabola y^2 = 8x: 4a = 8 so a = 2, focus (2, 0), directrix x = -2. Ellipse x^2/25 + y^2/9 = 1: a = 5, b = 3, c = root of 25 - 9 = 4, foci (plus or minus 4, 0), e = 4/5.",
+    "Step 6, Your turn: find the focus of x^2 = 12y and the radius of x^2 + y^2 = 49. Answer: 4a = 12, a = 3, focus (0, 3); radius 7."
+   ]
+  },
+  {
+   "n": 8,
+   "title": "Limits and derivatives, introduction",
+   "bloom": "Apply",
+   "weeks": [
+    31,
+    33
+   ],
+   "hours": 9,
+   "outcome": "find simple limits and derivatives",
+   "intro": "In this unit, 'Limits and derivatives, introduction', you learn to find simple limits and derivatives. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Limits and derivatives, introduction' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: find simple limits and derivatives. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: d/dx of (3x squared + 5x) = 6x + 5; at x = 2 the gradient is 17. Limit as x goes to 2 of (x squared - 4)/(x - 2) = limit of (x + 2) = 4. Method: Model run for 'Limits and derivatives, introduction'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Find simple limits and derivatives: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Limit by factorising: lim as x approaches 2 of (x^2 - 4)/(x - 2) = lim (x + 2) = 4. Direct substitution gives 0/0, which signals the need to simplify first.",
+    "Step 2, Standard limit: lim as x approaches 0 of sin 3x / x = 3 x (sin 3x / 3x) = 3 x 1 = 3. Use the fact that sin t / t tends to 1 as t tends to 0.",
+    "Step 3, Power rule: d/dx of 5x^4 - 3x^2 + 7 = 20x^3 - 6x. The slope of y = x^3 at x = 2 is 3 x 4 = 12. The constant 7 differentiates to 0.",
+    "Step 4, First principles for f(x) = x^2: [(x + h)^2 - x^2]/h = (2xh + h^2)/h = 2x + h, which tends to 2x as h tends to 0. This confirms the power rule.",
+    "Step 5, Product rule: y = x^2 sin x. y' = 2x sin x + x^2 cos x. At x = pi/2 this is 2 x (pi/2) x 1 + 0 = pi. Compare with the quotient rule when dividing instead.",
+    "Step 6, Your turn: find the derivative of 3x^2 + 4x - 5 at x = 1, and lim of (x^2 - 1)/(x - 1) as x approaches 1. Answer: 6x + 4 = 10; the limit is x + 1 = 2."
+   ]
+  },
+  {
+   "n": 9,
+   "title": "Statistics and probability",
+   "bloom": "Apply",
+   "weeks": [
+    34,
+    36
+   ],
+   "hours": 9,
+   "outcome": "find variance and calculate probability",
+   "intro": "In this unit, 'Statistics and probability', you learn to find variance and calculate probability. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Statistics and probability' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: find variance and calculate probability. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Data 4, 7, 7, 9, 13. Mean = 40 / 5 = 8. Median (middle value) = 7. Mode (most common) = 7. Method: Model run for 'Statistics and probability'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Find variance and calculate probability: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Variance: data 2, 4, 4, 4, 5, 5, 7, 9 has mean 40/8 = 5. Deviations are -3, -1, -1, -1, 0, 0, 2, 4. Squares add: 9 + 1 + 1 + 1 + 0 + 0 + 4 + 16 = 32.",
+    "Step 2, Variance = 32/8 = 4 and standard deviation = 2. So most values lie within 2 of the mean 5, between 3 and 7. Six of the eight values do, which is consistent.",
+    "Step 3, Probability of at least one head in 3 tosses: P = 1 - P(no head) = 1 - (1/2)^3 = 1 - 1/8 = 7/8. The complement method is quicker than listing 7 outcomes.",
+    "Step 4, Two dice: the sum 8 occurs as (2,6), (3,5), (4,4), (5,3), (6,2), five ways out of 36, so P = 5/36. Sum at most 4 has 6 ways: P = 6/36 = 1/6.",
+    "Step 5, Exclusive and independent: for P(A) = 0.3 and P(B) = 0.5, if exclusive then P(A or B) = 0.8. If independent then P(A and B) = 0.15 and P(A or B) = 0.65.",
+    "Step 6, Your turn: find the variance of 1, 3, 5, 7, and P(sum 9) on two dice. Answer: mean 4, squares 9, 1, 1, 9 give 20/4 = 5; sum 9 has 4 ways, so 4/36 = 1/9."
+   ]
+  }
+ ],
+ "rubric": [
+  [
+   "Accuracy",
+   "Frequent errors",
+   "Mostly correct",
+   "Correct, checked"
+  ],
+  [
+   "Method shown",
+   "Answer only",
+   "Steps shown",
+   "Steps shown with reasons"
+  ],
+  [
+   "Problem solving",
+   "Needs the method told",
+   "Chooses the method",
+   "Chooses and explains why"
+  ],
+  [
+   "Communication",
+   "Hard to follow",
+   "Clear working",
+   "Clear working with correct terms"
+  ],
+  [
+   "Practice habit",
+   "Rarely practises",
+   "Practises weekly",
+   "Practises most days with an error log"
+  ]
+ ],
+ "checks": [
+  [
+   "Unit 1 (Sets and relations): If n(A) = 4 and n(B) = 5 find n(A x B), and give the domain of 1/(x - 5).",
+   "20; all real numbers except 5. (Covered in unit 1: Sets and relations.)"
+  ],
+  [
+   "Unit 2 (Trigonometric functions): Find cos 2x when cos x = 3/5.",
+   "cos 2x = 2 cos^2 x - 1 = 2 x 9/25 - 1 = -7/25. (Covered in unit 2: Trigonometric functions.)"
+  ],
+  [
+   "Unit 3 (Principle of mathematical induction): Prove 1^2 + 2^2 + ... + n^2 = n(n + 1)(2n + 1)/6.",
+   "base n = 1 gives 1 = 1 x 2 x 3/6. Assume true for k, add (k + 1)^2 to get (k + 1)(2k^2 + 7k + 6)/6 = (k + 1)(k + 2)(2k + 3)/6, which is P(k + 1). (Covered in unit 3: Principle of mathematical induction.)"
+  ],
+  [
+   "Unit 4 (Complex numbers and quadratic equations): Find (2 + i)^2 and the modulus of 5 + 12i.",
+   "4 + 4i + i^2 = 3 + 4i; modulus is the root of 25 + 144 = 13. (Covered in unit 4: Complex numbers and quadratic equations.)"
+  ],
+  [
+   "Unit 5 (Linear inequalities and permutations and combinations): Solve 5x + 2 <= 17 and find C(9, 3).",
+   "5x <= 15 so x <= 3; C(9, 3) = 9 x 8 x 7 / 6 = 84. (Covered in unit 5: Linear inequalities and permutations and combinations.)"
+  ],
+  [
+   "Unit 6 (Binomial theorem and sequences and series): Find the x^2 coefficient in (1 + 2x)^3 and the sum of 6, 2, 2/3, ... to infinity.",
+   "3 x 4 = 12; and 6/(1 - 1/3) = 9. (Covered in unit 6: Binomial theorem and sequences and series.)"
+  ],
+  [
+   "Unit 7 (Straight lines and conic sections): Find the focus of x^2 = 12y and the radius of x^2 + y^2 = 49.",
+   "4a = 12, a = 3, focus (0, 3); radius 7. (Covered in unit 7: Straight lines and conic sections.)"
+  ],
+  [
+   "Unit 8 (Limits and derivatives, introduction): Find the derivative of 3x^2 + 4x - 5 at x = 1, and lim of (x^2 - 1)/(x - 1) as x approaches 1.",
+   "6x + 4 = 10; the limit is x + 1 = 2. (Covered in unit 8: Limits and derivatives, introduction.)"
+  ],
+  [
+   "Unit 9 (Statistics and probability): Find the variance of 1, 3, 5, 7, and P(sum 9) on two dice.",
+   "mean 4, squares 9, 1, 1, 9 give 20/4 = 5; sum 9 has 4 ways, so 4/36 = 1/9. (Covered in unit 9: Statistics and probability.)"
+  ],
+  [
+   "Unit 1 (Sets and relations): Relation. Show how you do it and say what the result is.",
+   "R = {(x, y): y = x + 2} from {1, 2, 3, 4} to {3, 4, 5, 6}. Pairs: (1, 3), (2, 4), (3, 5), (4, 6). Domain {1, 2, 3, 4}, range {3, 4, 5, 6}. (Covered in unit 1: Sets and relations.)"
+  ]
+ ],
+ "ladder": [
+  "L1: count, add and subtract small numbers; name shapes.",
+  "L2: use the four operations, fractions and simple measures.",
+  "L3: work with ratio, algebra beginnings and geometry reasoning.",
+  "L4: algebra, geometry proof, trigonometry and statistics.",
+  "L5: functions, calculus, vectors and probability.",
+  "L6 (degree): proof, linear algebra and modelling.",
+  "L7 (postgraduate): research mathematics, data science or teaching at depth."
+ ],
+ "jobs": [],
+ "blooms": [
+  "Apply",
+  "Evaluate"
+ ]
+}

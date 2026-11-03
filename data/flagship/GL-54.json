@@ -1,0 +1,291 @@
+{
+ "id": "GL-54",
+ "title": "Lab-Grown Meat (Awareness Level)",
+ "level": 2,
+ "desc": "Understand how cultivated meat is made, what it means for safety, nutrition, ethics, jobs and the environment, and how to read claims.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain the steps of cell-cultivated meat in plain words."
+  ],
+  [
+   "Apply",
+   "Compare it with farmed and plant-based protein."
+  ],
+  [
+   "Analyse",
+   "Check claims about environment and cost."
+  ],
+  [
+   "Evaluate",
+   "Weigh safety, labelling and ethics."
+  ],
+  [
+   "Create",
+   "Draft a balanced one-page fact sheet."
+  ]
+ ],
+ "task": "Write a balanced one-page fact sheet on cultivated meat, with a comparison table and a claim checker.",
+ "condition": "A computer, public information, two peers and a mentor. No production or sales is planned.",
+ "standard": "Facts sourced and dated; benefits and unknowns both stated; approval status per place is named; no promotion; peers rate Meets or better.",
+ "who": "Students, food entrepreneurs, journalists, policy staff, curious consumers.",
+ "req": "none",
+ "evidence": "fact sheet, comparison table, claim checker",
+ "modules": [
+  [
+   "What cultivated meat is",
+   "Understand",
+   2,
+   "Cultivated meat is animal cells grown in a controlled vessel to make meat without raising and slaughtering a whole animal.",
+   [
+    "It is real animal cells, not a plant substitute.",
+    "It differs from plant-based products, which use plant protein.",
+    "Products may be mixed with plant ingredients.",
+    "Most products are not yet sold widely."
+   ],
+   "A burger may be 20 per cent cultivated cells and 80 per cent plant protein; the label should say so.",
+   "Write a one-sentence definition and list two things it is not.",
+   "Write an accurate definition and the two non-definitions correctly."
+  ],
+  [
+   "How it is made",
+   "Understand",
+   2,
+   "Cells are taken, fed and grown, then shaped into food.",
+   [
+    "A small cell sample comes from a living animal.",
+    "Cells multiply in a nutrient liquid inside a vessel.",
+    "They are given a structure to grow on and then harvested.",
+    "Cooking and shaping follow as with other meat."
+   ],
+   "A batch takes weeks to grow and the vessel is kept clean and at body temperature.",
+   "Draw a five-step flow of production.",
+   "Put the flow in order and add a short note to each step."
+  ],
+  [
+   "Safety and approval",
+   "Evaluate",
+   2,
+   "New foods go through safety review before sale in each country.",
+   [
+    "Regulators check ingredients, process and testing.",
+    "Approval differs by country and some have not decided.",
+    "Labels must be honest.",
+    "Ask who reviewed the evidence and how."
+   ],
+   "A country may approve a product only after review of the cells, growth liquid and cleaning records.",
+   "Build a checklist to judge a safety claim.",
+   "Ask in the checklist for source, test, regulator and date."
+  ],
+  [
+   "Nutrition and taste",
+   "Analyse",
+   2,
+   "Nutrition depends on the recipe, not only on the method.",
+   [
+    "Protein and fat can be controlled in the product.",
+    "Taste and texture depend on fat, structure and cooking.",
+    "Compare using the same serving size.",
+    "Do not claim health benefits without evidence."
+   ],
+   "Per 100 g, one product shows 18 g protein and 8 g fat; a conventional burger shows 17 g protein and 20 g fat.",
+   "Compare two labels per 100 g.",
+   "Copy the numbers correctly and write a fair statement."
+  ],
+  [
+   "Environment claims",
+   "Analyse",
+   2,
+   "Claims about land, water and emissions need the whole life cycle and the energy source.",
+   [
+    "Land use may fall, but energy use may rise.",
+    "Results change with clean or fossil electricity.",
+    "Studies make different assumptions.",
+    "Look for ranges, not one number."
+   ],
+   "One study shows a large emissions cut using clean power and almost none using coal power.",
+   "Test one environmental claim for source, scope and assumption.",
+   "Test names the missing information and rates the claim."
+  ],
+  [
+   "Ethics, culture and livelihoods",
+   "Evaluate",
+   2,
+   "People hold different views, and farmers and workers are affected.",
+   [
+    "Animal welfare is one reason some people support it.",
+    "Religious and cultural rules differ.",
+    "Farmers and meat workers may lose or gain income.",
+    "Respect different views."
+   ],
+   "A community asks if a product meets its food rules; the answer depends on the faith body and cannot be assumed.",
+   "List three views with respect and one question each.",
+   "Present views fairly and mock none."
+  ],
+  [
+   "Jobs and skills",
+   "Understand",
+   2,
+   "New industries need lab, food, engineering and safety skills.",
+   [
+    "Cell culture technicians and food scientists.",
+    "Process and quality engineers.",
+    "Regulatory and labelling specialists.",
+    "Educators and communicators."
+   ],
+   "A small pilot plant employs a quality lead, two technicians and a regulatory officer.",
+   "Match four roles to skills.",
+   "Choose sensible matches."
+  ],
+  [
+   "Write the balanced fact sheet",
+   "Create",
+   2,
+   "One page that informs without selling or attacking.",
+   [
+    "State what it is and how it is made.",
+    "Include a comparison table with sources.",
+    "Add a claim checker with three questions.",
+    "End with what is still unknown."
+   ],
+   "A fact sheet ends: safety is reviewed by regulators; costs and climate benefits are still uncertain.",
+   "Write the one-page fact sheet.",
+   "Include all parts, keep a balanced tone and name sources."
+  ]
+ ],
+ "quiz": [
+  [
+   "What are cultivated meat cells?",
+   "Real animal cells grown in a vessel. (Covered in module 1: What cultivated meat is. To pass that module: Write an accurate definition and the two non-definitions correctly.)"
+  ],
+  [
+   "Is it plant-based?",
+   "No. (Covered in module 1: What cultivated meat is. To pass that module: Write an accurate definition and the two non-definitions correctly.)"
+  ],
+  [
+   "Name a stage.",
+   "Cell line, growth medium, bioreactor, harvest. (Covered in module 2: How it is made. To pass that module: Put the flow in order and add a short note to each step.)"
+  ],
+  [
+   "Who approves?",
+   "Food regulators in each place. (Covered in module 3: Safety and approval. To pass that module: Ask in the checklist for source, test, regulator and date.)"
+  ],
+  [
+   "Why vary environment results?",
+   "Energy mix and process differ. (Covered in module 5: Environment claims. To pass that module: Test names the missing information and rates the claim.)"
+  ],
+  [
+   "Name an ethics view.",
+   "Animal welfare, religion or farmers' livelihood. (Covered in module 6: Ethics, culture and livelihoods. To pass that module: Views are fair and none is mocked.)"
+  ],
+  [
+   "What roles may exist?",
+   "Bioprocess technician, quality, regulatory. (Covered in module 7: Jobs and skills. To pass that module: Matches are sensible.)"
+  ],
+  [
+   "Why state unknowns?",
+   "Early data is limited. (Covered in module 8: Write the balanced fact sheet. To pass that module: Include all parts, keep a balanced tone and name sources.)"
+  ],
+  [
+   "Why serum-free medium?",
+   "To avoid animal serum. (Covered in module 2: How it is made. To pass that module: Put the flow in order and add a short note to each step.)"
+  ],
+  [
+   "What should a label do?",
+   "Be clear about what it is. (Covered in module 1: What cultivated meat is. To pass that module: Write an accurate definition and the two non-definitions correctly.)"
+  ]
+ ],
+ "rubric": [
+  [
+   "Accuracy",
+   "Errors",
+   "Correct",
+   "Correct and sourced"
+  ],
+  [
+   "Balance",
+   "One-sided",
+   "Both sides",
+   "Both sides with unknowns"
+  ],
+  [
+   "Plain language",
+   "Jargon",
+   "Clear",
+   "Tested with readers"
+  ],
+  [
+   "Claim checker",
+   "Claims taken from marketing",
+   "Each claim traced to a public source and dated",
+   "Each claim graded true, partly true or unproven, with the reason"
+  ],
+  [
+   "Rules and ethics",
+   "Novel-food rules not checked",
+   "Novel-food approval status for the place is written down",
+   "Status checked on the regulator's page and the date recorded"
+  ]
+ ],
+ "jobs": [
+  [
+   "Food-science trainee",
+   "Supports pilot lines"
+  ],
+  [
+   "Regulatory assistant",
+   "Tracks approvals"
+  ],
+  [
+   "Food communicator",
+   "Writes factual guides"
+  ],
+  [
+   "Quality technician",
+   "Checks hygiene"
+  ],
+  [
+   "Sustainability analyst",
+   "Compares footprints"
+  ]
+ ],
+ "next": "alternative protein food products, food industry, greenhouse gas auditing.",
+ "local": "Approval and labelling of cultivated meat differ by place.",
+ "ladder": [
+  [
+   "What cultivated meat is",
+   "L1: learner can say what it is. Focus module: What cultivated meat is (Understand, 2 h). Cultivated meat is animal cells grown in a controlled vessel to make meat without raising and slaughtering a whole animal. Key points: It is real animal cells, not a plant substitute. It differs from plant-based products, which use plant protein. Products may be mixed with plant ingredients. Most products are not yet sold widely.",
+   "Teach: open with the worked example. A burger may be 20 per cent cultivated cells and 80 per cent plant protein; the label should say so. Then set the activity: Write a one-sentence definition and list two things it is not. Mark against the standard: Write an accurate definition and the two non-definitions correctly. Check at this level: What are cultivated meat cells? Model answer: Real animal cells grown in a vessel."
+  ],
+  [
+   "How it is made",
+   "L2: learner knows process steps. Focus module: How it is made (Understand, 2 h). Cells are taken, fed and grown, then shaped into food. Key points: A small cell sample comes from a living animal. Cells multiply in a nutrient liquid inside a vessel. They are given a structure to grow on and then harvested. Cooking and shaping follow as with other meat.",
+   "Teach: open with the worked example. A batch takes weeks to grow and the vessel is kept clean and at body temperature. Then set the activity: Draw a five-step flow of production. Mark against the standard: Put the flow in order and add a short note to each step. Check at this level: Name a stage. Model answer: Cell line, growth medium, bioreactor, harvest."
+  ],
+  [
+   "Safety and approval",
+   "L3: learner can compare nutrition. Focus module: Safety and approval (Evaluate, 2 h). New foods go through safety review before sale in each country. Key points: Regulators check ingredients, process and testing. Approval differs by country and some have not decided. Labels must be honest. Ask who reviewed the evidence and how.",
+   "Teach: open with the worked example. A country may approve a product only after review of the cells, growth liquid and cleaning records. Then set the activity: Build a checklist to judge a safety claim. Mark against the standard: Ask in the checklist for source, test, regulator and date. Check at this level: Who approves? Model answer: Food regulators in each place."
+  ],
+  [
+   "Nutrition and taste",
+   "L4: learner can check approval status. Focus module: Nutrition and taste (Analyse, 2 h). Nutrition depends on the recipe, not only on the method. Key points: Protein and fat can be controlled in the product. Taste and texture depend on fat, structure and cooking. Compare using the same serving size. Do not claim health benefits without evidence.",
+   "Teach: open with the worked example. Per 100 g, one product shows 18 g protein and 8 g fat; a conventional burger shows 17 g protein and 20 g fat. Then set the activity: Compare two labels per 100 g. Mark against the standard: Copy the numbers correctly and write a fair statement. Check at this level: Why compare foods per 100 g? Model answer: Using the same amount makes the numbers fair; copy them from labels and state the difference plainly."
+  ],
+  [
+   "Environment claims",
+   "L5: learner can check claims. Focus module: Environment claims (Analyse, 2 h). Claims about land, water and emissions need the whole life cycle and the energy source. Key points: Land use may fall, but energy use may rise. Results change with clean or fossil electricity. Studies make different assumptions. Look for ranges, not one number.",
+   "Teach: open with the worked example. One study shows a large emissions cut using clean power and almost none using coal power. Then set the activity: Test one environmental claim for source, scope and assumption. Mark against the standard: Test names the missing information and rates the claim. Check at this level: Why vary environment results? Model answer: Energy mix and process differ."
+  ],
+  [
+   "Jobs and skills",
+   "L6: learner can lead a briefing. Focus module: Jobs and skills (Understand, 2 h). New industries need lab, food, engineering and safety skills. Key points: Cell culture technicians and food scientists. Process and quality engineers. Regulatory and labelling specialists. Educators and communicators.",
+   "Teach: open with the worked example. A small pilot plant employs a quality lead, two technicians and a regulatory officer. Then set the activity: Match four roles to skills. Mark against the standard: Matches are sensible. Check at this level: What roles may exist? Model answer: Bioprocess technician, quality, regulatory."
+  ],
+  [
+   "Write the balanced fact sheet",
+   "L7: learner can audit a fact sheet. Focus module: Write the balanced fact sheet (Create, 2 h). One page that informs without selling or attacking. Key points: State what it is and how it is made. Include a comparison table with sources. Add a claim checker with three questions. End with what is still unknown.",
+   "Teach: open with the worked example. A fact sheet ends: safety is reviewed by regulators; costs and climate benefits are still uncertain. Then set the activity: Write the one-page fact sheet. Mark against the standard: Include all parts, keep a balanced tone and name sources. Check at this level: Why state unknowns? Model answer: Early data is limited."
+  ]
+ ]
+}

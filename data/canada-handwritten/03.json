@@ -1,0 +1,197 @@
+{
+ "price": [
+  420,
+  167,
+  160,
+  "part"
+ ],
+ "mods": {
+  "1": {
+   "title": "Choose parts that suit printing",
+   "intro": "Industrial printing pays when parts are complex, low-volume or need fast change. It loses to moulding at high volume.",
+   "pts": [
+    "Good fits include custom brackets, jigs and fixtures, spare parts that are no longer made, lightweight lattices, and medical and dental models.",
+    "Poor fits are thousands of identical simple parts, where moulding or bulk machining costs less per part.",
+    "Compare three routes for one part: machining, moulding, printing; write cost per part at 10, 100 and 10,000 units.",
+    "Find customers among machine shops, repair depots, clinics, product designers and makers of low-volume equipment.",
+    "Check the build file with a slicer preview before printing, and keep the preview image with the job record.",
+    "Ask the customer for the part's size, load, working temperature, finish and number needed, and write the answers on the quote request.",
+    "Count total cost, not only the unit price: moulding adds a tool cost up front, so divide it by the number of parts."
+   ],
+   "ex": "A bracket costs 260 to machine, 12 to mould (tooling 18,000) and 150 to print. For 10 parts, printing costs 1,500, machining 2,600 and moulding 18,000 + 120 = 18,120. Moulding only beats printing past 18,000 / (150 - 12) = about 131 parts; at 5,000 parts moulding is far cheaper per part.",
+   "act": "Compare the three routes for two real parts and recommend one.",
+   "std": "Cost at three volumes shown for each part."
+  },
+  "2": {
+   "title": "Know print rules, safety and standards",
+   "intro": "Printing with metal powders, resins and heat has real hazards and quality rules.",
+   "pts": [
+    "Metal powders can burn or explode; follow storage, grounding and fire rules and keep safety data sheets.",
+    "Resins and fumes need ventilation, gloves and eye protection; dispose of waste as hazardous if rules say so.",
+    "Parts for aircraft, medical and pressure uses need certified material and process records; check the customer's standard before you quote.",
+    "Provincial workplace health and safety rules require trained machine operators; keep training records and check the provincial rule for your trade.",
+    "Name one test per load direction (pull, bend, impact) and run it on a printed coupon before you quote a safety-related part.",
+    "Put the safety data sheet for each material in a binder at the machine, and teach staff to find the first-aid and spill steps.",
+    "Check the provincial rule for noise, air quality and waste handling in your building, and ask the landlord and insurer what they require."
+   ],
+   "ex": "Row: 'Store titanium powder | fire code and provincial workplace safety rules | sealed containers, grounded, signage | before first delivery | inspection note'. For a 3-person shop with 4 materials, that is 4 safety data sheets and 3 training records, 7 documents to file before the first job.",
+   "act": "Build a rules table for a print shop of three people.",
+   "std": "Give every hazard row a control and a training record."
+  },
+  "3": {
+   "title": "Prepare, print and finish a part",
+   "intro": "Quality comes from good files, good settings and careful finishing.",
+   "pts": [
+    "Check the model: closed surface, wall thickness above the machine's minimum, overhangs supported.",
+    "Orient the part to put strength along the load and minimise supports.",
+    "Record layer height, material lot, temperature, speed and build time for each job.",
+    "Finish: remove supports, heat-treat or cure if needed, smooth, measure against the drawing.",
+    "Ask each customer what happens if the part fails; use the answer to set inspection depth.",
+    "Print a small test piece first to check fit when a tolerance is tight, and measure it before you print the full part.",
+    "Dry materials that absorb moisture and store them in sealed boxes; record the storage and drying time on the job sheet."
+   ],
+   "ex": "A bracket is printed flat and fails along layers at 600 N; printed upright it holds 1,100 N. That is 1,100 / 600 = 1.83 times stronger, so orientation almost doubled strength. Record both results and the angle in the job sheet.",
+   "act": "Print one part two ways, test and record results.",
+   "std": "Record settings, measure both parts and justify the best orientation."
+  },
+  "4": {
+   "title": "Price a job and prove margin",
+   "intro": "Machine hours, material, labour and failure rate set the price.",
+   "pts": [
+    "Machine rate = machine cost divided by expected hours of use, plus power and maintenance per hour.",
+    "Add the material used including supports and waste, post-processing labour and inspection.",
+    "Add a failure allowance: if 1 in 10 builds fails, add about 11% to cost.",
+    "Set the quote price as cost plus target margin, and show the customer a breakdown.",
+    "Margin = price minus cost. Break-even parts = monthly fixed cost divided by margin per part, rounded up.",
+    "Test your quote with a 20% rise in failures and with a 10% rise in material price. Write what happens to margin.",
+    "Keep a monthly list of the three parts you could not print well and why; it guides your next training topic."
+   ],
+   "ex": "Cost per part: machine time 70, material 45, post-processing 25, inspection 10 = 150; a 1 in 10 failure rate adds 150 x 0.111 = about 17, so 167. Price 420 gives margin 253 (60%). Fixed cost 25,000 a month breaks even at 25,000 / 253 = about 99 parts. If failures rise from 10% to 12%, the allowance becomes about 20 and margin falls to 250. Teaching figures in CAD.",
+   "act": "Build the quote sheet and test a 20% rise in failures.",
+   "std": "Show units and include a failure allowance."
+  },
+  "5": {
+   "title": "Run the shop with traceable quality",
+   "intro": "Customers trust parts they can trace.",
+   "pts": [
+    "Give every part a job number tied to material lot and build file.",
+    "Measure critical dimensions with calibrated tools and keep certificates.",
+    "Schedule maintenance: laser or nozzle checks, filter changes, calibration prints.",
+    "Track first-pass yield: good parts divided by started parts.",
+    "Time every job from file received to part shipped; the median is your honest lead time.",
+    "Calibrate scales and callipers at fixed dates and log them.",
+    "Keep rejected parts in a labelled bin until you have written the cause, then recycle or dispose as the rules require."
+   ],
+   "ex": "Weekly page: 38 jobs, first-pass yield 89% (about 34 good), top failure warping; action: add a heated enclosure. Next week compare: if yield rises to 94%, 36 of 38 jobs pass, and the change paid off.",
+   "act": "Keep a 4-week shop log with yield.",
+   "std": "Trace every job to a lot and choose action from data."
+  },
+  "6": {
+   "title": "Win customers and design partners",
+   "intro": "Show the part, the saving and the speed.",
+   "pts": [
+    "Offer a sample print of the customer's own part at low cost.",
+    "Quote with lead time in days; fast turnaround is your edge.",
+    "Partner with designers who can redesign parts for printing.",
+    "Join local manufacturing clusters and trade days.",
+    "Show a before-and-after case: the old part, the printed part, the time saved and the cost compared.",
+    "Write a one-page capability sheet: machines, materials, size limits, tolerances and lead times.",
+    "Follow up each sample within three days, ask one question about the fit and record the answer."
+   ],
+   "ex": "Funnel: 25 shops visited, 9 samples, 4 repeat jobs. Rates: samples 9/25 = 36%, repeats 4/9 = 44%. Overall 4 of 25 visits (16%) became repeat customers, so 50 visits might give about 8.",
+   "act": "Run a 4-week funnel and book 5 conversations.",
+   "std": "Record funnel numbers."
+  },
+  "7": {
+   "title": "Manage ethics, IP and risk",
+   "intro": "Printing makes copying easy; handle design rights with care.",
+   "pts": [
+    "Print only designs you own or have a licence for.",
+    "Refuse parts that can be misused to harm, such as weapons components.",
+    "Keep customer files secure and delete on agreement.",
+    "Keep a risk register that covers machine breakdown, a powder incident, a customer file leak and the loss of one big customer.",
+    "Offer one-page design tips so customers send better files.",
+    "Put ownership of designs in the quote: who owns the file, the part and any improvements. Ask a lawyer to review your terms.",
+    "Write down what you will say to a customer asking for a part you must refuse, and keep a log of refusals."
+   ],
+   "ex": "Risk: 'Single machine breaks for 2 weeks | 3 x 4 = 12 | service contract and partner shop agreement | owner | quarterly'. If that machine earns 10,000 a week, a two-week stop puts 20,000 of sales at risk, which is why the partner agreement matters.",
+   "act": "Write an eight-row risk register.",
+   "std": "Give each row an owner and review date."
+  },
+  "8": {
+   "title": "Pilot and scale the shop",
+   "intro": "Prove a small cell before you add machines.",
+   "pts": [
+    "Pilot 60 days with 3 customers and measures: yield, turnaround, margin.",
+    "Stop rule: margin below 30% after 40 jobs means re-quote or stop.",
+    "Add a second machine only when the first runs above 60% use.",
+    "Plan funding from manufacturing grants and an equipment lease.",
+    "Send a feedback message three days after delivery and file the answer.",
+    "Machine use = hours printing divided by hours available; track it weekly from the machine log.",
+    "Check the funding programmes' rules and dates yourself, and compare lease cost with buying."
+   ],
+   "ex": "Result: 41 jobs, margin 44%, use 58%. Margin is above the 30% stop line, but use is below 60%; decision: hold until use passes 60%. At 160 machine hours available a week, 58% means about 93 hours printing and 60% means 96 hours.",
+   "act": "Run the pilot and present review.",
+   "std": "Review has measures and decision."
+  }
+ },
+ "quiz": [
+  [
+   "When does printing beat moulding?",
+   "At low volume, with complex shapes or fast change.",
+   1
+  ],
+  [
+   "Why orient a part carefully?",
+   "Strength differs along and across layers.",
+   3
+  ],
+  [
+   "Why keep powder safety rules?",
+   "Metal powder can burn or explode.",
+   2
+  ],
+  [
+   "What is a failure allowance?",
+   "Extra cost added for builds that fail.",
+   4
+  ],
+  [
+   "What does first-pass yield mean?",
+   "Good parts divided by started parts.",
+   5
+  ],
+  [
+   "Why record material lot?",
+   "To trace a part back to its material.",
+   3
+  ],
+  [
+   "Name two parts that fit printing.",
+   "Custom jigs, spare parts or lattices.",
+   1
+  ],
+  [
+   "When add a second machine?",
+   "When the first runs above about 60% use.",
+   8
+  ],
+  [
+   "Why get a customer's standard first?",
+   "Certified uses need specific material and records.",
+   2
+  ],
+  [
+   "What can you refuse on ethics grounds?",
+   "Parts that could be used to harm people.",
+   7
+  ]
+ ],
+ "jobs": [
+  "3D print technician",
+  "Additive manufacturing engineer",
+  "Quality inspector",
+  "Print shop owner",
+  "Design for printing specialist"
+ ]
+}

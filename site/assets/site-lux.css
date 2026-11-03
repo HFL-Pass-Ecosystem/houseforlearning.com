@@ -1,5 +1,5 @@
 /* Whole-site luxury layer. Base surface is L156 (Almost Ivory, #F2EEE2); ink and gold come from the yoga page. */
-:root,html body,html body.learn{--bg:#F2EEE2;--surface:#FBF8EF;--panel:rgba(228,219,196,.45);--line:#d9d0b8;--ink:#14222e;--muted:#4c5a66;--acc:#14222e;--acc-strong:#0c1a24;--on-acc:#F2EEE2;--hl:#b8934a;--kick:#8a6a2c;--head-bg:rgba(242,238,226,.94);
+:root,html body,html body.learn{--bg:#F2EEE2;--surface:#FBF8EF;--panel:rgba(228,219,196,.45);--line:#d9d0b8;--ink:#14222e;--muted:#4c5a66;--acc:#14222e;--acc-strong:#0c1a24;--on-acc:#F2EEE2;--hl:#b8934a;--kick:#765a21;--head-bg:rgba(242,238,226,.94);
   --dark-bg:#0c1a24;--dark-ink:#f4ecdc;--dark-muted:#bdb29b;--dark-kicker:#d9b979;--foot-bg:#0c1a24;--foot-ink:#f4ecdc;--foot-muted:#a79d87;--foot-acc:#d9b979;
   --lx-display:"Cormorant Garamond","Literata",Georgia,serif;--r:2px;--r-lg:2px;--rb:0}
 body,body.learn{background:#F2EEE2!important;background-image:none!important;color:var(--ink)}
@@ -74,7 +74,7 @@ a{text-underline-offset:3px}
 .seg3 .lux-list{grid-template-columns:minmax(0,1fr)}.sec-body>h3{font-size:clamp(1.25rem,2vw,1.6rem);margin:1.4em 0 .5em}
 .lux-list.one{grid-template-columns:minmax(0,1fr)}
 
-/* Footer: short and sideways (owner rule, 31 Oct). Wide rows on desktop, compact wrapped row on phone. */
+/* Footer: short and sideways (house style). Wide rows on desktop, compact wrapped row on phone. */
 .site-foot{padding:22px 0 16px}
 .site-foot .foot-top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 28px}
 .site-foot .foot-brand{display:flex;flex-wrap:wrap;align-items:center;gap:4px 18px;min-width:0;flex:1 1 760px}
@@ -96,7 +96,7 @@ a{text-underline-offset:3px}
   .site-foot .foot-notice{font-size:12px}
 }
 
-/* Photo bands (owner photos, test preview) */
+/* Photo bands (photo bands) */
 .hero-lux .hero-photo img.hp-lobby{object-position:50% 48%}
 .photo-band{padding:clamp(24px,4vw,48px) 0;background:#f2eee2}
 .photo-band figure{margin:0 auto;max-width:min(720px,calc(100% - 32px));border-radius:10px;overflow:hidden;box-shadow:0 10px 30px rgba(12,26,36,.18)}

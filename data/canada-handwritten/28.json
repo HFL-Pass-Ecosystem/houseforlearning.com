@@ -1,0 +1,198 @@
+{
+ "mods": {
+  "1": {
+   "title": "Know the words of personal wellness",
+   "intro": "Wellness means habits that support how you feel day to day. It is not medicine and it does not replace a doctor.",
+   "pts": [
+    "Learn the terms: habit, sleep, movement, nutrition, stress, goal, routine, coach.",
+    "Wellness has parts: body, mind, social and daily life.",
+    "A coach helps a person set and keep goals. A coach does not diagnose or treat illness.",
+    "Know where your role stops and a licensed health professional starts.",
+    "Give one example habit for each part of wellness: a walk, a quiet break, a call with a friend, a set meal time.",
+    "Compare two requests, 'help me keep a bedtime' and 'why do I get chest pain', and state which one you take and which you refer.",
+    "Explain in one plain sentence to a new client what you do and what you do not do."
+   ],
+   "ex": "A client says she is tired. A coach asks about sleep, meals and routine, then says: 'If the tiredness lasts, please see your doctor.' If six of your ten words are coaching words and four are medical words, 6 + 4 = 10, so every word is sorted.",
+   "act": "List ten wellness words with a plain meaning each and mark which ones are coaching and which are medical.",
+   "std": "Task: define ten wellness terms and mark the coaching line. Condition: from memory, then check. Standard: all meanings plain and correct, and the line between coaching and medical care stated."
+  },
+  "2": {
+   "title": "Explain how a wellness session and plan work",
+   "intro": "A session has a shape. A plan has small steps the person can repeat.",
+   "pts": [
+    "A session runs: welcome, check-in, one goal, one or two small steps, how to track, next time.",
+    "Start where the person is, not where you think they should be.",
+    "Small steps beat big promises: a ten-minute walk after lunch, a set bedtime, a glass of water with each meal.",
+    "Write the plan in the person's own words.",
+    "Open with a check-in question such as 'What went well since last time?' and listen before you advise.",
+    "Limit each plan to two steps so the person can succeed within a week.",
+    "End each session by writing the next date and one thing the person will do before it."
+   ],
+   "ex": "Goal: 'feel less rushed in the morning.' Step one: prepare clothes three nights this week; step two: set out breakfast two nights. A 30-minute mock session can run 5 minutes welcome, 5 check-in, 10 goal, 5 steps and 5 tracking and next date: 5 + 5 + 10 + 5 + 5 = 30.",
+   "act": "Run a mock 30-minute session with a friend and write a one-page plan.",
+   "std": "Task: run a mock session. Condition: 30 minutes with a friend. Standard: one goal, two small steps, a tracking method and a next date are written down."
+  },
+  "3": {
+   "title": "Coach habits to a clear standard",
+   "intro": "Now you apply what you know. Help a person pick a goal, track it and adjust.",
+   "pts": [
+    "Make goals specific: what, how often, by when.",
+    "Ask open questions: What would make this easier? What got in the way?",
+    "Track simply: a tick on a calendar is enough.",
+    "Praise effort and progress, not weight or looks. Never promise a result.",
+    "Apply the smallest-next-step test: if the person says 'maybe', shrink the step until the answer is 'yes'.",
+    "Describe what you do when a week goes badly: ask what got in the way, then change the step, not the person.",
+    "Evaluate progress every two weeks by counting the ticks on the calendar."
+   ],
+   "ex": "Before: 'Get fit.' After: 'Walk 20 minutes on Monday, Wednesday and Friday for four weeks.' That is 3 walks of 20 minutes, 60 minutes a week, and 4 x 60 = 240 minutes in four weeks. If the calendar shows 9 ticks out of 12 planned walks, that is 9 / 12 = 75%, so you ask what got in the way of the other three.",
+   "act": "Coach one volunteer for two weeks with a weekly check-in and a simple tracker.",
+   "std": "Task: coach one volunteer for two weeks. Condition: with consent and a written plan. Standard: goal is specific, tracker is used, no medical advice is given, and the volunteer says what helped."
+  },
+  "4": {
+   "title": "Follow Canadian rules and know your limits",
+   "intro": "Health care is regulated in each province. Wellness coaching must stay on the right side of the line.",
+   "pts": [
+    "Titles such as doctor, nurse, dietitian, physiotherapist, psychotherapist and some others are protected in many provinces. Use only titles you hold; check the current rule with the local authority.",
+    "Do not diagnose, treat or promise to cure. Do not tell anyone to stop a medicine or treatment.",
+    "Advertising must be true. Do not claim miracle results.",
+    "Natural health products and supplements are regulated by the federal health agency; do not sell or advise on them unless you know the current rules and check them.",
+    "List five situations to refer on: chest pain, thoughts of self-harm, signs of an eating disorder, pregnancy questions and changes to medicine.",
+    "Describe your role with a plain title such as 'wellness coach' and check that no provincial rule protects any word you use.",
+    "Check the advertising rules before you post any claim about results; if you are unsure, do not post it."
+   ],
+   "ex": "A client asks if a herb can replace her medicine. You say that is a question for her doctor or pharmacist and offer to help her write her questions. In a table of ten client questions, if four need a referral, you can coach on the other 10 - 4 = 6.",
+   "act": "Build a table of what you may do, what you must refer, and who to refer to, for ten common client questions.",
+   "std": "Task: build a scope-of-practice table. Condition: using official public pages. Standard: each row shows a referral or a safe coaching reply and a source; no guesswork."
+  },
+  "5": {
+   "title": "Price your sessions and check it pays",
+   "intro": "You earn only what remains after costs and unbilled time.",
+   "pts": [
+    "Time includes prep, session, notes, travel and admin.",
+    "Hourly cost = yearly costs plus the pay you need, divided by hours you can really bill.",
+    "Compare single sessions, packages and group sessions.",
+    "Sales tax may apply to some services; check the small-supplier limit with the tax agency.",
+    "Calculate your real hours per session by adding prep, session, notes and travel.",
+    "Evaluate a package of four sessions against four single sessions and say who gains from each.",
+    "Check each month that income minus costs covers your pay target; if it does not, change the price or the hours."
+   ],
+   "ex": "A 60-minute session takes 90 minutes with prep and notes. At $60 per session, that is $60 / 1.5 = $40 per hour of real time. A package of 4 sessions at $216 is $54 each, so you give up 4 x $60 - $216 = $24 in total.",
+   "act": "Time three sessions end to end and set a price for each format.",
+   "std": "Task: price three formats. Condition: from your own time log. Standard: hours, price and result shown and a mentor can follow every number."
+  },
+  "6": {
+   "title": "Find clients and show proof",
+   "intro": "People choose a coach they trust. Show your method and your care.",
+   "pts": [
+    "Write a one-page description of who you help and how, in plain words and without health claims.",
+    "Offer a free 20-minute chat so people can meet you.",
+    "Ask permission before using any client story, and remove names.",
+    "Keep a simple list: contact, date, reply, next step. Only contact people who agree to hear from you.",
+    "Practise saying in three plain sentences who you help and what a session looks like.",
+    "Prepare five questions for a free chat that begin with 'What would you like to change?'",
+    "Compare two places to meet clients, such as a community board and a local group, by cost and by how many people they reach."
+   ],
+   "ex": "A post says: 'I help busy parents build a simple evening routine.' It makes no claim about health outcomes. If you hold 5 chats and 2 people book, your booking rate is 2 / 5 = 40%; to win 3 clients you would plan about 3 / 0.4 = 7.5, so 8 chats.",
+   "act": "Hold five intro chats and log the results.",
+   "std": "Task: run five intro chats. Condition: with consent and no pressure. Standard: notes kept, no claims made, and one lesson written."
+  },
+  "7": {
+   "title": "Protect privacy, safety and quality",
+   "intro": "Clients share personal things. Keep them safe.",
+   "pts": [
+    "Health and personal details are sensitive. Keep notes locked and share nothing without written consent.",
+    "Know when to refer: signs of serious illness, self-harm, abuse or an eating disorder. Have a list of local services ready.",
+    "Keep a short written agreement: services, fees, cancellation, privacy and your limits.",
+    "Consider insurance for your work; ask an adviser.",
+    "Store notes in a locked drawer or a password-protected file and list who may see them (only you).",
+    "Draft a referral list of five local services, such as a family doctor line, a crisis line, a community health centre, a pharmacist and a dietitian clinic; check the numbers are current.",
+    "Write a cancellation rule, such as 24 hours' notice, and put it in the agreement."
+   ],
+   "ex": "Your agreement says: 'I am a coach, not a health care provider. I do not diagnose or treat. I will refer you when a matter is outside my role.' It also says: 'Sessions cancelled with less than 24 hours' notice are charged.' Anyone reading it can see your limits before the first session.",
+   "act": "Write an agreement template and a referral list for your area.",
+   "std": "Task: produce an agreement and a referral list. Condition: reviewed by a mentor. Standard: scope, fees, privacy and limits are all in plain words."
+  },
+  "8": {
+   "title": "Run a coaching practice for 60 days",
+   "intro": "Now you run it for real, measure and decide.",
+   "pts": [
+    "Set a goal such as three clients and ten sessions.",
+    "Each week record hours, income, client progress and what you learned.",
+    "Ask each client for feedback and one improvement.",
+    "Choose at the end: stop, change or grow, and write a 12-month plan.",
+    "Calculate weekly hours and income and compare them with your goal.",
+    "List three changes drawn from client feedback and rank them by effort.",
+    "Evaluate whether your income per real hour reached your target."
+   ],
+   "ex": "After 60 days: 3 clients, 10 sessions, $600, two clients returned. That is $600 / 10 = $60 per session; if the 10 sessions took 15 real hours, you earned $600 / 15 = $40 per hour. You decide to offer a four-week package.",
+   "act": "Run the pilot and present a 12-month plan to a panel of three.",
+   "std": "Task: run a 60-day pilot. Condition: real clients and a signed agreement. Standard: log complete, no medical claims made, and the plan uses numbers."
+  }
+ },
+ "price": [
+  60,
+  5,
+  10,
+  "session"
+ ],
+ "quiz": [
+  [
+   "What is the difference between coaching and medical care?",
+   "A coach helps with habits and goals; a doctor diagnoses and treats.",
+   1
+  ],
+  [
+   "What is a good goal?",
+   "Specific: what, how often and by when.",
+   3
+  ],
+  [
+   "What should you never promise?",
+   "A cure or a guaranteed result.",
+   4
+  ],
+  [
+   "What do you do if a client asks about stopping medicine?",
+   "Refer them to their doctor or pharmacist.",
+   4
+  ],
+  [
+   "Why use only titles you hold?",
+   "Many health titles are protected by provincial law.",
+   4
+  ],
+  [
+   "How do you track a habit simply?",
+   "A tick on a calendar.",
+   3
+  ],
+  [
+   "What does an agreement list?",
+   "Services, fees, cancellation, privacy and limits.",
+   7
+  ],
+  [
+   "When must you refer a client?",
+   "When the matter is medical or serious and outside your role.",
+   7
+  ],
+  [
+   "Why get consent before using a story?",
+   "Client information is private.",
+   6
+  ],
+  [
+   "What do you do when you do not know a rule?",
+   "Check the current rule with the local authority.",
+   4
+  ]
+ ],
+ "jobs": [
+  "Wellness coach",
+  "Habit and routine coach",
+  "Community wellness assistant",
+  "Fitness or movement assistant",
+  "Corporate wellness assistant",
+  "Wellness program coordinator"
+ ]
+}

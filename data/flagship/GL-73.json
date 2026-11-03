@@ -1,0 +1,291 @@
+{
+ "id": "GL-73",
+ "title": "3D Printing",
+ "level": 3,
+ "desc": "Learn to design, slice, print, finish and cost 3D-printed parts safely and sell them honestly.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain printer types and materials."
+  ],
+  [
+   "Apply",
+   "Prepare a model and slice it."
+  ],
+  [
+   "Analyse",
+   "Fix common failures."
+  ],
+  [
+   "Evaluate",
+   "Judge strength, safety and cost."
+  ],
+  [
+   "Create",
+   "Print and finish a useful part."
+  ]
+ ],
+ "task": "Design or select a part, print it, finish it, test it against a requirement and cost it for sale.",
+ "condition": "Access to a printer (own, makerspace or partner), a computer, free software, two peers and a mentor.",
+ "standard": "Part meets the dimensions within 0.3 mm; print log shows settings; failure analysis written; safety rules followed; cost per part shown; peers rate Meets or better.",
+ "who": "Makers, students, product designers, small manufacturers.",
+ "req": "none",
+ "evidence": "model, slicer settings, print log, test record, cost sheet",
+ "modules": [
+  [
+   "Printers, materials and what suits what",
+   "Understand",
+   3,
+   "The printer and material decide strength, detail, cost and safety. Choose from the need of the part.",
+   [
+    "Filament printers melt plastic and lay it in layers; resin printers cure liquid with light and give fine detail.",
+    "PLA is easy and stiff but softens in heat; PETG is tougher and handles moisture; ABS resists heat but gives off fumes and needs ventilation; flexible filaments make gaskets and grips.",
+    "Resins need gloves, washing and curing; waste resin is hazardous.",
+    "Check the maker's data sheet. Do not assume a printed part is food safe or load safe."
+   ],
+   "A shelf bracket is printed in PETG for toughness. A jewellery prototype is printed in resin for detail. A phone stand is printed in PLA because strength is not critical.",
+   "Compare four materials in a table for strength, heat, ease, cost and safety.",
+   "Check that the table is accurate and cite data sheets."
+  ],
+  [
+   "Designing parts for printing",
+   "Apply",
+   4,
+   "A model designed for printing prints well; a model copied from a metal part may not.",
+   [
+    "Wall thickness of at least two nozzle widths; avoid thin spikes.",
+    "Avoid overhangs steeper than about 45 degrees or add supports.",
+    "Layers pull apart most easily, so orient the part so loads run along the layer lines, not across them.",
+    "Add 0.2 to 0.4 mm clearance for moving or fitted parts."
+   ],
+   "A bracket printed on its side is much stronger than one printed upright because layer lines run along the load.",
+   "Design or choose a part, list dimensions, orientation and clearances.",
+   "Justify dimensions and orientation in writing."
+  ],
+  [
+   "Slicing and settings",
+   "Apply",
+   4,
+   "The slicer turns the model into printer instructions.",
+   [
+    "Layer height (0.1 to 0.3 mm), infill (10 to 40 per cent), walls, speed, temperature and supports.",
+    "Preview the tool path layer by layer before printing.",
+    "Save profiles for each material.",
+    "Check the first layer closely; most failures start there."
+   ],
+   "A part is sliced at 0.2 mm layers, 20 per cent infill and 3 walls. Print time is 2.5 hours and mass 38 g.",
+   "Slice your part and record all settings.",
+   "Record settings and check that the preview shows no gaps."
+  ],
+  [
+   "Printing safely",
+   "Apply",
+   4,
+   "Printers are hot, moving and sometimes unattended.",
+   [
+    "Place on a stable surface with good ventilation; keep flammable items away.",
+    "Do not touch the nozzle or bed when hot; tie back hair and loose clothes.",
+    "Do not leave long prints unattended without safeguards such as a smoke alarm.",
+    "Resin: wear gloves and eye protection and dispose of waste properly."
+   ],
+   "A smoke alarm and a fire blanket are kept near the printer; the print room has a window for airflow.",
+   "Print your part and keep a log of start, end, issues and temperatures.",
+   "Log is complete and safety kit is in place."
+  ],
+  [
+   "Troubleshooting failures",
+   "Analyse",
+   3,
+   "Failures teach. Change one setting at a time and write down what happens.",
+   [
+    "Warping: use a heated bed, brim or enclosure.",
+    "Stringing: lower temperature or tune retraction.",
+    "Poor adhesion: clean the bed and level it.",
+    "Clogs: clean the nozzle and check filament moisture."
+   ],
+   "A large flat part warps at the corners. A heated bed at 60 degrees Celsius and a brim fix it on the next print.",
+   "Fix two issues and record the cause, change and result.",
+   "Note one change at a time."
+  ],
+  [
+   "Post-processing and finishing",
+   "Apply",
+   3,
+   "Finishing makes a part usable and professional.",
+   [
+    "Remove supports, sand in steps, prime and paint where needed.",
+    "Resin parts: wash and cure fully before handling.",
+    "Check fit and trim.",
+    "Use a mask when sanding and spraying."
+   ],
+   "Sanding progressively from 120 to 400 grit gives a smooth surface suitable for painting.",
+   "Finish your part and photograph before and after.",
+   "Check that the surface is smooth and fits."
+  ],
+  [
+   "Testing the part",
+   "Evaluate",
+   3,
+   "A part is good only if it meets a requirement.",
+   [
+    "Measure with calipers and compare to the design.",
+    "Load test within safe limits; start low.",
+    "Test three copies to see variation.",
+    "Document the results."
+   ],
+   "Three bracket copies hold 4.8, 5.1 and 5.0 kg for 10 minutes without deflection.",
+   "Test three copies and report average and spread.",
+   "Record results with units."
+  ],
+  [
+   "Costing and selling honestly",
+   "Create",
+   3,
+   "Price covers material, time and risk of failures.",
+   [
+    "Material cost, power, machine wear, labour and failed prints.",
+    "Add 10 to 20 per cent for waste.",
+    "Disclose limits and intended use; do not sell safety-critical parts without testing.",
+    "Respect designs and licences; do not copy protected products."
+   ],
+   "Cost 62 INR for material and power (an estimate; check your market) plus 40 INR labour is 102 INR; adding 10 per cent for waste gives about 112 INR. The part sells for 150 INR.",
+   "Cost one part and write a short product note with limits.",
+   "Cost sheet is correct and the note states intended use."
+  ]
+ ],
+ "quiz": [
+  [
+   "Easy filament?",
+   "PLA."
+  ],
+  [
+   "Overhang fix?",
+   "Supports."
+  ],
+  [
+   "Resin safety?",
+   "Gloves and eye protection."
+  ],
+  [
+   "Why ventilate?",
+   "Fumes."
+  ],
+  [
+   "Warping fix?",
+   "Heated bed."
+  ],
+  [
+   "Measuring tool?",
+   "Calipers."
+  ],
+  [
+   "Costs?",
+   "Material, power, time, labour, failures."
+  ],
+  [
+   "Orientation effect?",
+   "Strength."
+  ],
+  [
+   "Why log?",
+   "Repeat results."
+  ],
+  [
+   "Disclose?",
+   "Limits."
+  ]
+ ],
+ "rubric": [
+  [
+   "Print quality",
+   "Poor",
+   "Good",
+   "Excellent and repeatable"
+  ],
+  [
+   "Safety",
+   "Gaps",
+   "Followed",
+   "Followed and logged"
+  ],
+  [
+   "Cost",
+   "No costs",
+   "Costs",
+   "Costs with failure margin"
+  ],
+  [
+   "Test record",
+   "Parts judged by eye",
+   "Dimensions and load test results logged",
+   "Test repeated on a second print and spread recorded"
+  ],
+  [
+   "Product safety and IP",
+   "Safety and IP not checked",
+   "Safety limits, food-contact rule and design rights are written down",
+   "Rules checked and a risky use refused in writing"
+  ]
+ ],
+ "jobs": [
+  [
+   "3D print technician",
+   "Runs printers"
+  ],
+  [
+   "Product prototyper",
+   "Builds models"
+  ],
+  [
+   "Makerspace assistant",
+   "Supports users"
+  ],
+  [
+   "Small-batch manufacturer",
+   "Sells parts"
+  ],
+  [
+   "Design assistant",
+   "Prepares models"
+  ]
+ ],
+ "next": "3D home building, smart apparel, product design.",
+ "local": "Product-safety and IP rules differ by place; do not copy protected designs.",
+ "ladder": [
+  [
+   "Printers, materials and what suits what",
+   "L1: learner can name printer types. Focus module: Printers, materials and what suits what (Understand, 3 h). The printer and material decide strength, detail, cost and safety. Choose from the need of the part. Key points: Filament printers melt plastic and lay it in layers; resin printers cure liquid with light and give fine detail. PLA is easy and stiff but softens in heat; PETG is tougher and handles moisture; ABS resists heat but gives off fumes and needs ventilation; flexible filaments make gaskets and grips. Resins need gloves, washing and curing; waste resin is hazardous. Check the maker's data sheet. Do not assume a printed part is food safe or load safe.",
+   "Teach: open with the worked example. A shelf bracket is printed in PETG for toughness. A jewellery prototype is printed in resin for detail. A phone stand is printed in PLA because strength is not critical. Then set the activity: Compare four materials in a table for strength, heat, ease, cost and safety. Mark against the standard: Table is accurate and cites data sheets. Check at this level: Easy filament? Model answer: PLA."
+  ],
+  [
+   "Designing parts for printing",
+   "L2: learner knows safety. Focus module: Designing parts for printing (Apply, 4 h). A model designed for printing prints well; a model copied from a metal part may not. Key points: Wall thickness of at least two nozzle widths; avoid thin spikes. Avoid overhangs steeper than about 45 degrees or add supports. Layers are weakest in tension, so orient the part so loads run along layers. Add 0.2 to 0.4 mm clearance for moving or fitted parts.",
+   "Teach: open with the worked example. A bracket printed on its side is much stronger than one printed upright because layer lines run along the load. Then set the activity: Design or choose a part, list dimensions, orientation and clearances. Mark against the standard: Justify dimensions and orientation in writing. Check at this level: Overhang fix? Model answer: Supports."
+  ],
+  [
+   "Slicing and settings",
+   "L3: learner can slice. Focus module: Slicing and settings (Apply, 4 h). The slicer turns the model into printer instructions. Key points: Layer height (0.1 to 0.3 mm), infill (10 to 40 per cent), walls, speed, temperature and supports. Preview the tool path layer by layer before printing. Save profiles for each material. Check the first layer closely; most failures start there.",
+   "Teach: open with the worked example. A part is sliced at 0.2 mm layers, 20 per cent infill and 3 walls. Print time is 2.5 hours and mass 38 g. Then set the activity: Slice your part and record all settings. Mark against the standard: Record settings and check that the preview shows no gaps. Check at this level: Layer height range? Model answer: 0.1 to 0.3 mm."
+  ],
+  [
+   "Printing safely",
+   "L4: learner can print. Focus module: Printing safely (Apply, 4 h). Printers are hot, moving and sometimes unattended. Key points: Place on a stable surface with good ventilation; keep flammable items away. Do not touch the nozzle or bed when hot; tie back hair and loose clothes. Do not leave long prints unattended without safeguards such as a smoke alarm. Resin: wear gloves and eye protection and dispose of waste properly.",
+   "Teach: open with the worked example. A smoke alarm and a fire blanket are kept near the printer; the print room has a window for airflow. Then set the activity: Print your part and keep a log of start, end, issues and temperatures. Mark against the standard: Log is complete and safety kit is in place. Check at this level: Unattended print safeguard? Model answer: Smoke alarm."
+  ],
+  [
+   "Troubleshooting failures",
+   "L5: learner can fix and cost. Focus module: Troubleshooting failures (Analyse, 3 h). Failures teach. Change one setting at a time and write down what happens. Key points: Warping: use a heated bed, brim or enclosure. Stringing: lower temperature or tune retraction. Poor adhesion: clean the bed and level it. Clogs: clean the nozzle and check filament moisture.",
+   "Teach: open with the worked example. A large flat part warps at the corners. A heated bed at 60 degrees Celsius and a brim fix it on the next print. Then set the activity: Fix two issues and record the cause, change and result. Mark against the standard: Notes show one change at a time. Check at this level: Warping fix? Model answer: Heated bed."
+  ],
+  [
+   "Testing the part",
+   "L6: learner can lead a lab. Focus module: Testing the part (Evaluate, 3 h). A part is good only if it meets a requirement. Key points: Measure with calipers and compare to the design. Load test within safe limits; start low. Test three copies to see variation. Document the results.",
+   "Teach: open with the worked example. Three bracket copies hold 4.8, 5.1 and 5.0 kg for 10 minutes without deflection. Then set the activity: Test three copies and report average and spread. Mark against the standard: Results are recorded with units. Check at this level: Measuring tool? Model answer: Calipers."
+  ],
+  [
+   "Costing and selling honestly",
+   "L7: learner can audit. Focus module: Costing and selling honestly (Create, 3 h). Price covers material, time and risk of failures. Key points: Material cost, power, machine wear, labour and failed prints. Add 10 to 20 per cent for waste. Disclose limits and intended use; do not sell safety-critical parts without testing. Respect designs and licences; do not copy protected products.",
+   "Teach: open with the worked example. Cost 62 INR for material and power plus 40 INR labour is 102 INR; adding 10 per cent for waste gives about 112 INR. The part sells for 150 INR. Then set the activity: Cost one part and write a short product note with limits. Mark against the standard: Cost sheet is correct and the note states intended use. Check at this level: Costs? Model answer: Material, power, time, labour, failures."
+  ]
+ ]
+}

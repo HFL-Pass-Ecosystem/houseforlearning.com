@@ -1,0 +1,198 @@
+{
+ "mods": {
+  "1": {
+   "title": "Know the cleaning trade",
+   "intro": "Cleaning services work for homes, offices, shops and shared buildings. Learn the types and the main words.",
+   "pts": [
+    "Name types: home, office, post-construction, move-out, window, floor care.",
+    "Describe the difference between routine and deep cleaning.",
+    "Explain what germs, dirt and soil are and why each needs a different method.",
+    "List words: scope of work, quote, supplies, contact time, dwell time.",
+    "Classify a space by use and traffic, such as a quiet office or a busy shop, and say how this changes the visit.",
+    "Compare daily, weekly, monthly and quarterly tasks for one room.",
+    "Identify what the client values most: look, smell, health or cost."
+   ],
+   "ex": "A small office wants a weekly clean. Scope: empty bins, clean kitchen and bathroom, vacuum, wipe desks; a deep clean is added once a quarter. Over 52 weeks, 4 deep cleans leave 48 routine-only visits, so the quote shows both kinds.",
+   "act": "Walk through a small shop or office and list all areas that need cleaning and how often.",
+   "std": "Task: list cleaning scope. Condition: one real space. Standard: all areas and frequencies listed on one page."
+  },
+  "2": {
+   "title": "Chemicals, tools and safe method",
+   "intro": "Cleaning uses chemicals that can harm. Read the label every time.",
+   "pts": [
+    "Read the label and safety data sheet: hazard, dilution, contact time, first aid.",
+    "Apply the rule: never mix products and never move them into unlabelled bottles.",
+    "Choose gloves, eye cover and air flow for the task.",
+    "Compare cleaning, sanitising and disinfecting and use the right level.",
+    "Calculate a dilution from the label, such as 1 part product to 10 parts water.",
+    "Check that every spray bottle carries a label with the product name and hazard.",
+    "Carry products in a tray or bucket, and keep a spill kit ready."
+   ],
+   "ex": "A disinfectant must stay wet on a surface for the time on the label to work. If the label says 1 part product to 10 parts water and 5 minutes contact time, a 550 mL bottle holds 50 mL of product and 500 mL of water. The cleaner sets a timer and wipes a test patch first.",
+   "act": "Build a one-page product table: name, use, hazard, dilution, protection.",
+   "std": "Task: choose products safely. Condition: three real products. Standard: all label data copied correctly and protection chosen."
+  },
+  "3": {
+   "title": "Follow the rules in Canada",
+   "intro": "Workplace, product and building rules apply. Check with the local authority.",
+   "pts": [
+    "Explain that hazardous product labels and safety data sheets follow national standards.",
+    "Describe workplace health and safety training and reporting duties; check your province.",
+    "Check rules for waste and wastewater: do not pour chemicals into storm drains.",
+    "Apply business rules: city licence where needed, insurance, and tax records; check with local and federal bodies.",
+    "Identify the provincial workplace safety body and its rules on working alone.",
+    "Check whether your business needs workplace injury cover when you hire helpers; check the provincial rule.",
+    "Describe the duty to report an injury or chemical spill, and keep a written record."
+   ],
+   "ex": "Rules table row: Waste disposal | city | use approved drop-off for chemicals | every time | receipt or note in file. A second row: Injury report | provincial workplace safety body | report and record within the time the body sets | every case | copy kept. Check the time limit on the official page and write the date checked.",
+   "act": "Build a rules table for your city and province with official pages and dates.",
+   "std": "Task: map the rules. Condition: official pages only. Standard: each row has an enforcer, an action and a checked date."
+  },
+  "4": {
+   "title": "Clean to a measured standard",
+   "intro": "Clients judge by results. Set a standard you can check.",
+   "pts": [
+    "Build a checklist by area with pass or fail marks.",
+    "Check results by sight, touch and, where needed, a simple test.",
+    "Apply the same method each time and record time per area.",
+    "Fix a failed item on the spot and note why it failed.",
+    "Calculate the pass rate: items passed divided by items checked.",
+    "Photograph each area before and after on the first visit as a baseline.",
+    "Ask the client to sign off the checklist at the end of the first month."
+   ],
+   "ex": "Office kitchen checklist: counters clear, sink clean, fridge wiped, floor dry, bin empty. On the first visit 4 of 5 pass, an 80% pass rate; the floor edges fail. The method changes to edges first, and the next visit passes 5 of 5, or 100%.",
+   "act": "Clean one space twice, scoring with your checklist each time.",
+   "std": "Task: clean to standard. Condition: written checklist. Standard: all items pass on the second run."
+  },
+  "5": {
+   "title": "Floors, windows, bathrooms and kitchens",
+   "intro": "Each area has its own method and risk.",
+   "pts": [
+    "Apply floor care by type: vinyl, tile, wood, carpet; use the right product.",
+    "Use a safe window method; never lean out; use proper ladders or poles.",
+    "Clean bathrooms from clean to dirty areas, with separate cloths.",
+    "Place wet floor signs and dry the area.",
+    "Compare microfibre cloths, mops and squeegees for different floors and glass.",
+    "Check for slip risks such as wet tile, floor wax and wet entry mats.",
+    "Handle sharps and broken glass with tongs and a puncture-proof container, never bare hands."
+   ],
+   "ex": "Mopping a hall: sign out first, mop back toward the exit, sign stays until dry. A hall 20 m long and 2 m wide is 40 square metres; at 10 square metres a minute that is 4 minutes of mopping plus drying time. No one slips and the client sees care.",
+   "act": "Practise each area once and record the method, the product and the time.",
+   "std": "Task: clean four area types. Condition: practice spaces. Standard: method, product and time recorded and no safety step skipped."
+  },
+  "6": {
+   "title": "Quote, price and plan",
+   "intro": "A good quote is clear on scope, price and time. A weak quote leads to loss.",
+   "pts": [
+    "Measure the space and agree the scope in writing.",
+    "Compute cost per visit: time, supplies, travel, insurance, tax set-aside.",
+    "Compare per-hour and per-job quotes.",
+    "Plan routes and shifts with buffers for slow days.",
+    "Walk the space with the client and note extras such as inside windows or fridges.",
+    "Compute price per hour and per square metre and compare to test that the price is fair.",
+    "State exclusions in the quote, such as mould or biohazard removal."
+   ],
+   "ex": "Price 95 per visit, supplies and travel 15. Margin = 95 - 15 = 80. If fixed costs are 700 a month, break-even is 700 / 80 = 8.75, so 9 visits (teaching numbers only).",
+   "act": "Write two quotes for practice spaces and test the price with five people.",
+   "std": "Task: quote a job. Condition: practice space. Standard: scope, price, frequency and exclusions on one page and margin shown."
+  },
+  "7": {
+   "title": "Clients, contracts and quality",
+   "intro": "Repeat clients are the strength of cleaning businesses. Reliability and records win them.",
+   "pts": [
+    "Build a service agreement: scope, schedule, access, cancellation, damage.",
+    "Apply a quality check by visit, with photos and a score.",
+    "Handle complaints: listen, return to fix, record cause.",
+    "Track funnel: contacts, quotes, signed clients, repeats.",
+    "Create a short onboarding sheet for a new client: access, alarm, supplies and contact.",
+    "Calculate the signing rate: signed clients divided by quotes.",
+    "Ask for a referral after a good month."
+   ],
+   "ex": "Four weeks: 25 contacts, 8 quotes, 3 signed. Contact to quote is 8 / 25 = 32%, and quote to signed is 3 / 8 = 37.5%. The weakest step is contact to quote; a short site visit may improve it.",
+   "act": "Contact 20 local firms, book 5 quote visits and write an agreement.",
+   "std": "Task: win and keep clients. Condition: four weeks. Standard: funnel recorded and signed agreement with scope and access."
+  },
+  "8": {
+   "title": "Run the business for real",
+   "intro": "Now run the cleaning service with real clients, a team plan and a growth plan.",
+   "pts": [
+    "Run a 60-day pilot with a stop rule agreed in advance.",
+    "Review weekly: visits, margin, quality score, complaints, cash.",
+    "Create a 12-month plan with insurance, equipment and hiring steps.",
+    "Lead a team: train, check and coach using your standards.",
+    "Calculate cash left each week: money in minus costs.",
+    "Compare time per visit with the plan to find slow spots.",
+    "Write a safety and quality check for every new team member."
+   ],
+   "ex": "Stop rule: if margin per visit is under 60 after 60 days, change the price or scope. With a price of 95 and actual costs of 15, the margin is 80, above 60, so the pilot continues. Adding one client in the same building saves travel.",
+   "act": "Run the pilot, write the review and present your plan to three people.",
+   "std": "Task: run a cleaning pilot. Condition: 60 days, real clients. Standard: results compared with the stop rule and safety training confirmed."
+  }
+ },
+ "price": [
+  95,
+  15,
+  40,
+  "visit"
+ ],
+ "quiz": [
+  [
+   "What is contact time?",
+   "The time a disinfectant must stay wet to work.",
+   2
+  ],
+  [
+   "Where do you find chemical hazards?",
+   "The label and the safety data sheet.",
+   2
+  ],
+  [
+   "What must you never do with cleaning products?",
+   "Mix them or move them to unlabelled bottles.",
+   2
+  ],
+  [
+   "Why use a checklist with pass or fail?",
+   "To measure and repeat quality.",
+   4
+  ],
+  [
+   "Which way do you clean a bathroom?",
+   "From clean to dirty areas with separate cloths.",
+   5
+  ],
+  [
+   "Why use a wet floor sign?",
+   "To prevent slips until the floor is dry.",
+   5
+  ],
+  [
+   "What belongs in a quote?",
+   "Scope, price, frequency and exclusions.",
+   6
+  ],
+  [
+   "How do you find break-even visits?",
+   "Fixed cost divided by margin per visit.",
+   6
+  ],
+  [
+   "Where should chemical waste go?",
+   "An approved drop-off, not a storm drain.",
+   3
+  ],
+  [
+   "Who sets workplace safety rules?",
+   "Mostly the province; check your provincial body.",
+   3
+  ]
+ ],
+ "jobs": [
+  "Commercial cleaner",
+  "Janitor",
+  "Floor care technician",
+  "Window cleaner",
+  "Cleaning supervisor",
+  "Cleaning business owner"
+ ]
+}

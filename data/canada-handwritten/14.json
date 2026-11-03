@@ -1,0 +1,197 @@
+{
+ "price": [
+  1.8,
+  0.6,
+  6700,
+  "item"
+ ],
+ "mods": {
+  "1": {
+   "title": "Find the authenticity and resale problem",
+   "intro": "Fashion has problems with fakes, hidden labour and waste. A shared digital record can tie a garment to its origin, owner history and repair record.",
+   "pts": [
+    "List buyer worries: fake goods, unknown origin, resale value, repair history.",
+    "Choose one product: a bag, a jacket or a pair of shoes, and a first brand partner.",
+    "Decide the record: material source, maker, date, size, care and each change of owner.",
+    "Test the need with ten shoppers: would proof of origin change what you pay?",
+    "Interview one repair shop and one resale seller to learn what proof of origin they need most and what they check today.",
+    "Write the buyer's questions as a list (Is it real? Where was it made? Who owned it? Was it repaired?) and match each to a field in the record.",
+    "Choose the first line by picking an item with a high price, frequent copying or a resale market, and count how many units exist."
+   ],
+   "ex": "Assume (teaching figures, not market facts) that a resale buyer pays 15% more for a bag with a verified history and a repair record, and that fakes cost the brand 2% of sales. If the bag normally resells for 400, 15% more is 400 x 0.15 = 60, so 460. If the brand sells 500,000 a year, 2% lost to fakes is 10,000.",
+   "act": "Survey ten shoppers and one brand and write the problem in one page.",
+   "std": "Survey shows a real willingness to pay."
+  },
+  "2": {
+   "title": "Know consumer, textile and data rules",
+   "intro": "Fashion claims and labels are regulated, so check each rule before you launch.",
+   "pts": [
+    "Federal textile labelling rules require fibre content to be shown in English and French; care labels are voluntary but any care claim must be true. Check the current rule for your product.",
+    "Claims such as 'sustainable' or 'ethical' must be provable under competition law.",
+    "Customer personal data is protected by privacy law and should not sit on a record that cannot be erased.",
+    "Cross-border sales add customs, duty and product-safety rules.",
+    "Check which country-of-origin wording you may use on a label, and keep supplier records that back it up.",
+    "Ask a privacy adviser whether a tag linked to an owner needs consent and how a person can delete their data; collect only what is needed.",
+    "List which claims go on the tag, the website and ads, and who approves each claim before it is published."
+   ],
+   "ex": "Row: 'Claim recycled content | competition law and labelling rules | hold supplier certificate | before launch | certificate on file'. Second row: 'Label a jacket for sale in Canada | federal textile labelling rules | check the fibre content label in both languages and the care label if you add one | before launch | label proof approved'. Check the provincial rule for any extra requirements.",
+   "act": "Build a rules table for one product line.",
+   "std": "Cite a source and a date for every row."
+  },
+  "3": {
+   "title": "Design the digital product passport",
+   "intro": "Keep the record small and useful.",
+   "pts": [
+    "Attach a tag: QR code, NFC chip or hidden label that cannot be copied easily.",
+    "Record business facts only: lot, maker, date, material, certificate numbers.",
+    "Let owners add care and repair entries; a transfer is a new entry.",
+    "Test the tag after washing, rubbing and sunlight.",
+    "Test ten tags each for rubbing, folding, rain and sunlight, and tabulate scan success for each test.",
+    "Choose where the tag sits: hidden, protected and easy to scan, and photograph the spot for the guide.",
+    "Build a scan page that shows only business facts and a plain message if the tag is unknown or already used."
+   ],
+   "ex": "After 20 washes, 18 of 20 QR labels still scanned and 2 failed. Survival is 18 / 20 = 90%. That passes the 50% stop rule, but a 10% failure rate is too high for a lasting record, so test a woven label next.",
+   "act": "Prototype a passport for one garment and test the tag.",
+   "std": "Test results recorded."
+  },
+  "4": {
+   "title": "Price the service and prove the gain",
+   "intro": "Brands pay when the passport raises sales or cuts fakes.",
+   "pts": [
+    "Charge the brand a fee per item tagged; the worked example below uses 1.80 per item.",
+    "List the brand's gains: price premium, resale royalty, fewer fakes and better returns data.",
+    "List your own costs: tags, hosting, support and onboarding.",
+    "Work out break-even volume as fixed cost divided by margin per item.",
+    "Estimate the price premium the brand can charge, and the share of it the passport must earn to be worth the fee.",
+    "Compare tag types (QR label, woven label, NFC chip) and check that your choice fits within the 0.60 variable cost.",
+    "Quote a pilot package: setup fee, per-item fee and a review at day 90."
+   ],
+   "ex": "Fee 1.80 per item; variable cost 0.60; margin 1.20; fixed cost 8,000 a month needs about 6,700 items a month. Teaching figures in CAD. Check: 6,700 x 1.20 = 8,040, just above 8,000. At 50% volume, 3,350 items give 3,350 x 1.20 = 4,020, leaving a monthly gap of 8,000 - 4,020 = 3,980.",
+   "act": "Build the model with a 50% volume case.",
+   "std": "Show the cases."
+  },
+  "5": {
+   "title": "Run supplier onboarding and data quality",
+   "intro": "Trust depends on honest inputs.",
+   "pts": [
+    "Train suppliers to scan at each step.",
+    "Verify supplier entries with audits and photos.",
+    "Tell the supplier what went wrong as soon as an audit finds an error.",
+    "Track the share of items with a complete record each week.",
+    "Give each supplier a one-page checklist: what to scan, when, and whom to call if the tag does not work.",
+    "Audit a sample of 20 records a week against photos and paper documents, and record the error rate.",
+    "Never delete an entry; add a correction with date, reason and who made it."
+   ],
+   "ex": "Pilot: 85% of items had a complete record after 6 weeks. Of 2,000 items tagged, 85% complete means 1,700 full records and 300 incomplete. A target of 95% is 1,900, so 200 more records must be completed.",
+   "act": "Run a 4-week capture test.",
+   "std": "Track completion."
+  },
+  "6": {
+   "title": "Sell to brands and marketplaces",
+   "intro": "Start with a brand that has a fake or resale problem.",
+   "pts": [
+    "Offer a 90-day pilot on one line.",
+    "Show a live scan demo to every brand you meet.",
+    "Partner with repair shops and resale sites.",
+    "Track the funnel from brands contacted to demos to pilots.",
+    "Prepare a three-minute live demo: scan a tag, show the history, and add a repair entry.",
+    "Meet a repair shop and a resale seller, agree how they will add entries, and record their needs.",
+    "Write a one-page pilot offer: line, units, fee, dates, measures and exit terms."
+   ],
+   "ex": "Funnel: 20 brands, 6 demos, 2 pilots. Brand to demo is 6 / 20 = 30%, demo to pilot is 2 / 6 = 33%, and overall 2 / 20 = 10%. At 10%, winning 5 pilots needs about 50 brands.",
+   "act": "Pitch three brands.",
+   "std": "Pitch has numbers."
+  },
+  "7": {
+   "title": "Manage greenwashing, privacy and tech risks",
+   "intro": "A record can mislead if inputs are wrong.",
+   "pts": [
+    "Claim only what you can prove.",
+    "Keep personal data off the shared record.",
+    "Plan for tag failure and re-tagging.",
+    "Prepare for the brand leaving the service.",
+    "Keep a claims log: each public claim, its evidence, the date checked and the person who signed it off.",
+    "Design the tag to carry only an item number, with all other data held in a record you can correct and delete.",
+    "Write a brand-exit plan: how owners keep access to history if the brand stops using the service, and how data is exported."
+   ],
+   "ex": "Risk: 'Wrong origin entered | 3 x 5 | audit and photo proof | quality lead | monthly'. The score is 3 x 5 = 15 out of 25, so it is high priority. After audits with photo proof, likelihood falls to 2 and the score is 2 x 5 = 10.",
+   "act": "Write a risk register.",
+   "std": "Name an owner for each item."
+  },
+  "8": {
+   "title": "Pilot and scale",
+   "intro": "Prove one line.",
+   "pts": [
+    "Run the pilot for 90 days on one product line.",
+    "Measure scan rate, resale uplift, fakes found.",
+    "Stop rule: under 50% tag survival means change tag.",
+    "Decide at day 90 whether to proceed, change the tag or stop.",
+    "Record three numbers each week: scan rate, tags lost and fakes found, and plot each.",
+    "Collect resale prices for tagged and untagged items of the same type and compare the averages.",
+    "Plan a second line only after the review, and list what must be fixed first."
+   ],
+   "ex": "Tag survival 94%; resale uplift 12%. Of 500 tagged items, 94% is 470 tags still scanning at day 90, far above the 50% stop rule. A 12% resale uplift on a 400 bag is 400 x 0.12 = 48; decision: proceed.",
+   "act": "Run pilot review.",
+   "std": "Review has decision."
+  }
+ },
+ "quiz": [
+  [
+   "What does a product passport record?",
+   "Business facts such as lot, maker, date, material and certificates.",
+   3
+  ],
+  [
+   "How is an ownership change recorded?",
+   "As a new entry.",
+   3
+  ],
+  [
+   "Why keep personal data off the record?",
+   "It cannot easily be erased.",
+   7
+  ],
+  [
+   "Why test tags after washing?",
+   "Tags must survive real use.",
+   3
+  ],
+  [
+   "Which rules require \"sustainable\" claims to be provable?",
+   "Competition and labelling rules; check the current federal and provincial rule.",
+   2
+  ],
+  [
+   "What is break-even?",
+   "Fixed cost divided by margin per item.",
+   4
+  ],
+  [
+   "Why audit suppliers?",
+   "Inputs decide whether the record is true.",
+   5
+  ],
+  [
+   "Name two brand gains.",
+   "Price premium and fewer fakes (or resale royalty).",
+   4
+  ],
+  [
+   "What triggers a tag change?",
+   "Under 50% tag survival.",
+   8
+  ],
+  [
+   "Why use English and French labels?",
+   "Fibre content labelling under federal textile rules generally needs both languages; check the rule for your product.",
+   2
+  ]
+ ],
+ "jobs": [
+  "Product data coordinator",
+  "Supply chain auditor",
+  "Resale specialist",
+  "Fashion technology consultant",
+  "Fashion technology founder"
+ ]
+}

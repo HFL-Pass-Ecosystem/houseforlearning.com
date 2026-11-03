@@ -1,0 +1,46 @@
+{
+ "slides": [
+  {
+   "level": "L1 Basic",
+   "title": "Solids, liquids and gases",
+   "slide": "L1 Basic · Solids, liquids and gases",
+   "notes": "Name the three states of matter and say what happens when a substance is heated. Notes: warm ice in a beaker of warm tap water and record the temperature each minute. Use no flame, and handle warm water with care. Learners say which change is melting."
+  },
+  {
+   "level": "L2 Awareness",
+   "title": "Atoms, elements and compounds",
+   "slide": "L2 Awareness · Atoms, elements and compounds",
+   "notes": "Describe atoms, elements and compounds and read simple chemical formulae. Notes: for water, H2O, learners count 2 hydrogen and 1 oxygen, which is 3 atoms in one molecule. They sort symbols into elements and compounds on cards. Wear goggles whenever any chemical is out, even for show-and-tell."
+  },
+  {
+   "level": "L3 Foundation",
+   "title": "Balanced equations and the mole",
+   "slide": "L3 Foundation · Balanced equations and the mole",
+   "notes": "Calculate relative formula mass and balance simple equations. Notes: balance 2H2 + O2 gives 2H2O by counting atoms on both sides. Water has Mr 18, so 36 g is 2 mol. Learners repeat this for carbon dioxide, Mr 44, and check that 88 g is 2 mol."
+  },
+  {
+   "level": "L4 Practitioner",
+   "title": "Acid-base titration",
+   "slide": "L4 Practitioner · Acid-base titration",
+   "notes": "Apply stoichiometry to find an unknown concentration from a titration. Notes: 25.0 cm3 of sodium hydroxide needs a mean 20.0 cm3 of 0.100 mol/dm3 hydrochloric acid. Moles of acid are 0.00200, equal to moles of alkali, so the alkali is 0.0800 mol/dm3. Wear goggles; use dilute solutions and rinse spills at once."
+  },
+  {
+   "level": "L5 Specialist",
+   "title": "Energy changes and rates",
+   "slide": "L5 Specialist · Energy changes and rates",
+   "notes": "Analyse a calorimetry result and link energy change to bond breaking and making. Notes: 50 g of water warms by 6.5 K, so q equals 50 times 4.18 times 6.5, which is 1358.5 J. For 0.025 mol that gives about 54.3 kJ/mol released. Learners list heat loss as the main error and suggest a lid."
+  },
+  {
+   "level": "L6 Advanced (degree level)",
+   "title": "Thermodynamics and kinetics",
+   "slide": "L6 Advanced · Thermodynamics and kinetics",
+   "notes": "Apply Gibbs energy and rate laws to predict whether and how fast a reaction goes. Notes: with change in H of +40 kJ/mol and change in S of +110 J/K/mol at 298 K, G is +7.22 kJ/mol, not spontaneous. It becomes spontaneous above 40000/110, about 364 K. Learners explain why a positive G says nothing about speed."
+  },
+  {
+   "level": "L7 Super expert (postgraduate/expert)",
+   "title": "Method validation in analysis",
+   "slide": "L7 Super expert · Method validation in analysis",
+   "notes": "Evaluate an analytical method for accuracy, precision and detection limit, and design a validation plan. Notes: with blank noise of 0.002 absorbance and a calibration slope of 0.250 per mg/L, the limit of detection is 3.3 times 0.002 over 0.250, which is 0.0264 mg/L. Write a hazard assessment and waste plan before any lab work."
+  }
+ ]
+}

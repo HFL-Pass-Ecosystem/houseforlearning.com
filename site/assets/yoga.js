@@ -440,7 +440,7 @@ function lungRun(){
   mapAnim=requestAnimationFrame(step);
 }
 
-/* Pose library: course map A-F with the owner's booklet numbering; text and drawings are our own. */
+/* Pose library: course map A-F with its own booklet numbering; text and drawings are our own. */
 const K={
  shava:{h:[0,-4],t:180,n:180,ua:2,fa:0,tn:0,sn:0,tf:0,sf:0},
  suptatw:{h:[0,-4],t:180,n:180,ua:-95,fa:-95,tn:-35,sn:55,tf:-35,sf:55},
@@ -1015,7 +1015,7 @@ function stWave(){ const w=$("#stWave"); if(!w||reduce) return; const t0=perform
 function seaRun(){ stopMapAnim(); const a=audio(); if(a&&a.state==="suspended") a.resume(); const seq=["A","U","M"]; let i=0;
   const go=()=>{ if(i>=3||mapTopic!=="aumsea"){ document.querySelectorAll("#msvg .hot").forEach(g=>g.classList.remove("on")); return; } const k=seq[i]; document.querySelectorAll("#msvg .hot").forEach(g=>g.classList.toggle("on",g.dataset.k===k)); vowel(k,3); i++; setTimeout(go,3200); };
   go(); }
-/* Eight limbs beside Maslow and Bloom: parallels for learning, not claims of borrowing. */
+/* Eight limbs beside a needs model and a learning-levels model: parallels for learning, not claims of borrowing. */
 const PY={
  yoga:[["yama","Yama","Social ethics","Five restraints in how we treat others: non-harming, truthfulness, not stealing, moderation, not grasping. The foundation for everything above."],
   ["niyama","Niyama","Personal ethics","Five observances for ourselves: cleanliness, contentment, self-discipline, self-study and surrender to something greater."],
@@ -1034,18 +1034,18 @@ const PY={
   "2001":[["remember","Remember","Recall","Recall facts and basic ideas."],["understand","Understand","Explain","Explain ideas in your own words."],["apply","Apply","Use","Use what you learned in a new situation."],["analyze","Analyze","Break down","See the parts and how they connect."],["evaluate","Evaluate","Judge","Judge and justify a choice."],["create","Create","Make new","Put parts together into something new and original."]]
  }
 };
-PY.maslow.later=PY.maslow.classic.concat([["trans","Self-transcendence","Beyond the self","In his later writings Maslow described going beyond the self: serving others or a cause, and moments of oneness with all things."]]);
+PY.maslow.later=PY.maslow.classic.concat([["trans","Self-transcendence","Beyond the self","In its later form the needs model describes going beyond the self: serving others or a cause, and moments of oneness with all things."]]);
 const LINK={
- yama:{m:["safety","belong"],r:["k1","k2","k6"],b:["remember","understand"],n:"Both modern models keep safety and living well with others near the base. The Sutras put ethics at the very bottom, before the body; Maslow puts body needs first."},
+ yama:{m:["safety","belong"],r:["k1","k2","k6"],b:["remember","understand"],n:"Both modern models keep safety and living well with others near the base. The Sutras put ethics at the very bottom, before the body; the needs model puts body needs first."},
  niyama:{m:["esteem"],r:["k3"],b:["understand","apply"],n:"Self-discipline and contentment echo healthy self-respect: esteem that grows from within rather than from praise."},
  asana:{m:["phys"],r:["k0"],b:["apply"],n:"A steady, comfortable body meets the most basic layer of need. In learning terms, this is knowledge applied in the body."},
  pranayama:{m:["phys"],r:["k0"],b:["apply","analyze"],n:"Breath is the most immediate physical need. Watching the breath closely also trains careful noticing, the start of analysis."},
  pratyahara:{m:["esteem"],r:["k3"],b:["analyze"],n:"Letting go of outside pulls echoes the move from needing approval to inner steadiness, and sorting inner signals from outer noise."},
  dharana:{m:["actual"],r:[],b:["analyze","evaluate"],n:"Sustained focus is a tool for growth and deep learning. The 2010 renovated pyramid has no level for this."},
- dhyana:{m:["actual","trans"],r:[],b:["evaluate","create"],n:"Flowing awareness resonates with what Maslow called peak experiences, and with reflecting on one's own thinking."},
- samadhi:{m:["trans"],r:[],b:["create"],n:"Maslow's later idea of self-transcendence comes closest. Bloom's top level is about making new work rather than stillness; what they share is a summit that gathers every level below it."}
+ dhyana:{m:["actual","trans"],r:[],b:["evaluate","create"],n:"Flowing awareness resonates with what the needs model calls peak experiences, and with reflecting on one's own thinking."},
+ samadhi:{m:["trans"],r:[],b:["create"],n:"The needs model's later idea of self-transcendence comes closest. The top level of the learning-levels model is about making new work rather than stillness; what they share is a summit that gathers every level below it."}
 };
-const PYN={yoga:"Eight limbs",maslow:"Maslow",bloom:"Bloom"};
+const PYN={yoga:"Eight limbs",maslow:"Needs model",bloom:"Learning levels"};
 let pySel=null;
 function pyRows(set){ return set==="yoga"?PY.yoga:set==="maslow"?PY.maslow[$("#mVer").value]:PY.bloom[$("#bVer").value]; }
 function pyLinks(set,id){ const mk=$("#mVer").value==="renov"?"r":"m";
@@ -1067,7 +1067,7 @@ function renderPyr(){
   if(!pySel){ $("#pyrInfo").innerHTML=`<h2>Tap a level in any pyramid</h2><p class="hint">The level you tap turns orange. Levels that echo it in the other two pyramids glow.</p>`; return; }
   const row=pyRows(pySel.set).find(r=>r[0]===pySel.id);
   let h=`<div class="label">${PYN[pySel.set]} · ${row[2]}</div><h2>${row[1]}</h2><p>${row[3]}</p>`;
-  if(pySel.set==="yoga"){ const k=LINK[pySel.id]; h+=`<p><strong>Echoes in Maslow:</strong> ${pyNames("maslow",L.maslow)}.</p><p><strong>Echoes in Bloom:</strong> ${pyNames("bloom",L.bloom)}.</p><p>${k.n}</p>`; }
+  if(pySel.set==="yoga"){ const k=LINK[pySel.id]; h+=`<p><strong>Echoes in the needs model:</strong> ${pyNames("maslow",L.maslow)}.</p><p><strong>Echoes in the learning-levels model:</strong> ${pyNames("bloom",L.bloom)}.</p><p>${k.n}</p>`; }
   else { h+=`<p><strong>Echoes in the eight limbs:</strong> ${pyNames("yoga",L.yoga)}.</p>`+(L.yoga.length?`<ul>${L.yoga.map(y=>`<li><strong>${PY.yoga.find(r=>r[0]===y)[1]}:</strong> ${LINK[y].n}</li>`).join("")}</ul>`:""); }
   $("#pyrInfo").innerHTML=h+`<p class="hint">A parallel to think about, not a claim that one idea came from the other.</p>`;
 }

@@ -6,7 +6,7 @@ Draft: pages are noindex until the owner approves the wording."""
 import re, html, pathlib
 R = pathlib.Path(__file__).resolve().parents[1]; S = R / 'site'
 e = html.escape
-DRAFT = 'Draft wording, carried over from the old website. Prices are shown on the Membership page only.'
+DRAFT = 'For prices, see the membership pages.'
 tpl = (S / 'catalogue.html').read_text()
 if 'name="robots"' not in tpl or 'index,follow' in tpl:
     tpl = tpl.replace('<meta name="robots" content="index,follow">', '')
@@ -75,20 +75,20 @@ page('sectors.html', 'Sectors we serve', 'The twelve sectors House for Learning 
 SERV = []
 
 # How we help: platform wording and suite
-THINK = [('Reading', 'Understands what a text means.'), ('Understanding', 'Takes whole steps such as decisions and actions.'),
+THINK = [('Reading', 'Understands what a text means.'), ('Understanding', 'Carries out whole steps, such as making decisions and acting on them.'),
          ('Writing', 'Turns the system data into plain human language to reply.'),
          ('Make and check', 'The system makes the output; you check and approve it, or send it round again to improve it.'),
          ('Ask me anything coach', 'Takes your questions and uses the libraries and public information you use most, so you get the best set of answers.')]
 SUITE = ['Connected-device services and people', 'Information and communication technology services and people',
          'A full business stack (planning, customers, reporting, office tools) with no-code tools, built on our own interfaces and apps',
-         'An open-standards ecosystem of course and career pathways, joined to a marketplace and a workplace',
-         'Consultancy, channel, business-operations, support and full-service ecosystem',
+         'An open-standards network of course and career pathways, joined to a marketplace and a workplace',
+         'Consultancy, channel, business-operations, support and full-service network',
          'A partner, affiliate and value-provider network in four levels, hub and spoke',
          'Artificial intelligence and machine learning', 'Big data and analytics', 'Career pathways', 'Authoring, training, marketplace and workplace']
 body = (sec('', 'w-h', 'our promise', 'Skills, learning and market reach',
             paras(['We help people and institutions across the world improve their skills, their learning and their reach into the market, using our digital enterprise platform, emerging technology and deep domain knowledge.',
                    'Learn and earn: bloom where you are planted. Course and career pathways: your growth is our goal.',
-                   'Our approach is open: it works with many systems, software and hardware, and many ways of doing business. Our teaching method, our processes and our growth method connect sectors and communities, and record social needs in line with data-protection law, the UN Sustainable Development Goals and OECD guidance, and each country and community\'s own rules.']))
+                   'Our approach is open: it works with many systems, software and hardware, and many ways of doing business. Our teaching method, our processes and our growth method connect sectors and communities, and record social needs in line with data-protection law, sustainable development goals and international guidance, and each country and community\'s own rules.']))
         + sec('alt', 't-h', 'think digital', 'How our digital helpers work',
               '<p>Skills of people are joined with automated systems and resources to make solutions and run them to the task and standard. Five helpers do the work:</p>'
               + '<ul class="cards">' + ''.join(f'<li class="card"><h3>{e(a)}</h3><p>{e(b)}</p></li>' for a, b in THINK) + '</ul>')

@@ -1,0 +1,291 @@
+{
+ "id": "GL-45",
+ "title": "Virtual Medical Appointment Systems",
+ "level": 4,
+ "desc": "Set up and run an online appointment system for a clinic: booking, identity, consent, records, reminders and fall-back plans.",
+ "outcomes": [
+  [
+   "Understand",
+   "Describe the full patient journey from booking to follow-up."
+  ],
+  [
+   "Apply",
+   "Configure booking slots, reminders and consent steps."
+  ],
+  [
+   "Analyse",
+   "Find failure points such as no-shows and poor connections."
+  ],
+  [
+   "Evaluate",
+   "Judge privacy and security of a tool."
+  ],
+  [
+   "Create",
+   "Launch a pilot with a clear target and a review."
+  ]
+ ],
+ "task": "Design and pilot a virtual appointment flow for one small clinic, with booking, identity check, consent, reminders, records and a fall-back for failed calls.",
+ "condition": "A practice clinic or case, a free booking tool, a spreadsheet, two peers and a clinic mentor. Real patient data is not used.",
+ "standard": "Flow works end to end in 10 mock appointments; ID and consent are recorded; failed-call fall-back works within 10 minutes; privacy checklist passes; peers rate Meets or better.",
+ "who": "Clinic managers, receptionists, nurses, health-IT beginners.",
+ "req": "none",
+ "evidence": "flow diagram, tool settings, 10 mock appointment log, privacy checklist, pilot review",
+ "modules": [
+  [
+   "Map the patient journey",
+   "Understand",
+   3,
+   "A virtual appointment is more than a video call. It is a chain of steps, and any weak link loses the patient. Map every step before choosing a tool.",
+   [
+    "Steps: request, book, remind, join, check identity, consent, consult, record, follow up.",
+    "Mark who owns each step: patient, front desk, clinician, system.",
+    "Add a route for patients without a smartphone, such as a phone call at the same time.",
+    "Mark where things go wrong most often: booking confusion, late joining, poor sound, missing notes."
+   ],
+   "A clinic maps the journey and finds that older patients drop out at \"join\". It adds a phone-in option and a helper call the day before. Attendance of patients over 65 rises from 61% to 79% in a month.",
+   "Draw a journey map for a small clinic with all nine steps, owners and one risk per step.",
+   "Assign an owner to all nine steps and show at least one phone-only route."
+  ],
+  [
+   "Booking, slots and reminders",
+   "Apply",
+   4,
+   "Good booking design cuts no-shows and protects clinician time.",
+   [
+    "Create slot types by clinician, length and visit type (new, follow-up, urgent) with buffer time between visits.",
+    "Send reminders the day before and one hour before, with a join link and a cancel or reschedule link.",
+    "Collect only the data needed to book.",
+    "Review no-show and late-cancel rates weekly."
+   ],
+   "A clinic with about 155 appointment slots a week and 18% no-shows adds two reminders and a two-tap reschedule. No-shows fall to 9% in six weeks, giving back about 14 slots per week (9% of 155).",
+   "Configure slots, reminders and a reschedule flow in a free booking tool and test with five mock patients.",
+   "Complete all five mock bookings and check that reminders arrive at the right times."
+  ],
+  [
+   "Identity and consent",
+   "Apply",
+   4,
+   "The clinician must know who is on the call and that the patient agrees to a virtual visit.",
+   [
+    "Check name and date of birth against the record; for children, check the guardian.",
+    "Ask consent for the video visit, for notes, and for any recording (recording only if the rules allow it).",
+    "Confirm the patient's location in case emergency help is needed.",
+    "Write the consent and location in the visit record."
+   ],
+   "The clinician says: \"Please confirm your name, birth date and where you are right now. Are you happy to have this visit by video? I will take notes. I will not record.\" The patient agrees and the note is saved.",
+   "Write a one-minute consent script and practise it twice.",
+   "Script covers identity, location, consent to video, notes and recording rule."
+  ],
+  [
+   "Technology, connection and fall-backs",
+   "Analyse",
+   4,
+   "Connections fail. A plan turns a lost visit into a 2-minute delay.",
+   [
+    "Test link, camera, microphone and speed before the visit; offer a test call.",
+    "Fall-back order: reconnect, switch to audio, switch to phone, rebook within 48 hours.",
+    "Keep a help number for technical problems.",
+    "Log every failure with cause and time to fix."
+   ],
+   "A test call shows the patient's microphone was blocked by the browser. A staff member guides the setting in two minutes, saving a missed visit.",
+   "Write a three-step fall-back and run it twice with a peer by cutting the connection.",
+   "Contact is restored within 10 minutes in both runs and both are logged."
+  ],
+  [
+   "Privacy, security and records",
+   "Evaluate",
+   4,
+   "Health records are among the most sensitive data. Weak security harms patients and the clinic.",
+   [
+    "Use unique passwords, two-step sign-in, encrypted storage and access logs; never share logins.",
+    "Give staff only the access their role needs.",
+    "Do not use personal chat apps for clinical messages unless the rules allow it.",
+    "Know your health-data rules and who to report a breach to."
+   ],
+   "A receptionist shares a password to cover a shift. An access log shows two people using one account. The clinic ends sharing and issues a separate account.",
+   "Complete a privacy and security checklist for a tool and mark each item pass or fix.",
+   "Pass every item or give it a dated fix plan."
+  ],
+  [
+   "What virtual care cannot do",
+   "Evaluate",
+   3,
+   "Some problems need an in-person visit or emergency care.",
+   [
+    "Emergencies such as chest pain, stroke signs, severe bleeding or breathing difficulty go to emergency services, not video.",
+    "Physical examination, tests and procedures need a visit.",
+    "Write red-flag rules with a clinician: when to refer in person, when to call emergency.",
+    "Give patients a clear \"if it gets worse\" instruction."
+   ],
+   "A patient describes chest tightness during a follow-up call. The clinician tells them to call the emergency number now, stays on the line, and records the time and advice.",
+   "Write five red-flag rules agreed with a clinician and a patient information line.",
+   "Obtain the clinician mentor's signature on the rules."
+  ],
+  [
+   "Access and fairness",
+   "Analyse",
+   3,
+   "Virtual care can widen access or leave people behind.",
+   [
+    "Offer phone, large-text, language and interpreter options.",
+    "Support low-bandwidth modes and community access points.",
+    "Track who misses visits and ask why.",
+    "Do not make virtual-only the default for people who cannot use it."
+   ],
+   "A rural clinic uses a village centre with a tablet and a trained helper twice a week, bringing 30 new patients into care.",
+   "List three barriers in your area and a fix and owner for each.",
+   "Give each barrier a fix, an owner and a date."
+  ],
+  [
+   "Pilot, measure and improve",
+   "Create",
+   3,
+   "Test with real steps and real numbers before scaling.",
+   [
+    "Run 10 mock visits; measure wait, success and satisfaction.",
+    "Set targets, for example 90% of calls start within 5 minutes of schedule.",
+    "Fix the top three problems and run again.",
+    "Plan monthly reviews with a clinician and a patient voice."
+   ],
+   "First pilot: 7 of 10 start on time. After fixing the link emails and adding a pre-test, 9 of 10 start on time.",
+   "Present your pilot review with numbers and a dated improvement list.",
+   "Check that numbers are real and totals match, and record at least three dated fixes."
+  ]
+ ],
+ "quiz": [
+  [
+   "Name four steps in the journey.",
+   "Booking, reminder, ID check, consent, consult, record, follow-up. (Covered in module 1: Map the patient journey. To pass that module: Assign an owner to all nine steps and show at least one phone-only route.)"
+  ],
+  [
+   "Why two reminders?",
+   "They cut no-shows. (Covered in module 2: Booking, slots and reminders. To pass that module: Complete all five mock bookings and check that reminders arrive at the right times.)"
+  ],
+  [
+   "What do you check before video visits?",
+   "Identity and consent. (Covered in module 3: Identity and consent. To pass that module: Script covers identity, location, consent to video, notes and recording rule.)"
+  ],
+  [
+   "What is the fall-back order?",
+   "Reconnect, switch to audio, switch to phone, then rebook. (Covered in module 4: Technology, connection and fall-backs. To pass that module: Contact is restored within 10 minutes in both runs and both are logged.)"
+  ],
+  [
+   "Name two security measures.",
+   "Two-step sign-in and encrypted storage. (Covered in module 5: Privacy, security and records. To pass that module: Pass every item or give it a dated fix plan.)"
+  ],
+  [
+   "Name a case not for video.",
+   "Emergency such as chest pain. (Covered in module 6: What virtual care cannot do. To pass that module: Clinician mentor signs the rules.)"
+  ],
+  [
+   "Why keep access logs?",
+   "To show who saw a record. (Covered in module 5: Privacy, security and records. To pass that module: Pass every item or give it a dated fix plan.)"
+  ],
+  [
+   "Name one access fix.",
+   "Phone option or community point. (Covered in module 7: Access and fairness. To pass that module: Give each barrier a fix, an owner and a date.)"
+  ],
+  [
+   "What is a pilot target example?",
+   "90% of calls start on time. (Covered in module 8: Pilot, measure and improve. To pass that module: Check that numbers are real and totals match, and record at least three dated fixes.)"
+  ],
+  [
+   "Who approves red-flag rules?",
+   "A clinician. (Covered in module 6: What virtual care cannot do. To pass that module: Clinician mentor signs the rules.)"
+  ]
+ ],
+ "rubric": [
+  [
+   "Journey design",
+   "Missing steps",
+   "All steps owned",
+   "Steps owned with access options"
+  ],
+  [
+   "Consent and ID",
+   "None",
+   "Scripted",
+   "Scripted and logged in tests"
+  ],
+  [
+   "Fall-back",
+   "None",
+   "Written",
+   "Tested twice within 10 minutes"
+  ],
+  [
+   "Pilot evidence",
+   "Pilot claims with no counts",
+   "Bookings, no-shows and failed calls counted for the pilot week",
+   "Counts compared with the old phone flow and one fix made from them"
+  ],
+  [
+   "Records law",
+   "Records kept without a rule",
+   "Data-protection rule for health records named and followed",
+   "Retention period, access list and breach step written and tested with a dummy record"
+  ]
+ ],
+ "jobs": [
+  [
+   "Virtual clinic coordinator",
+   "Runs booking and calls"
+  ],
+  [
+   "Health receptionist",
+   "Handles ID and consent"
+  ],
+  [
+   "Telehealth technician",
+   "Fixes connection issues"
+  ],
+  [
+   "Clinic digital lead",
+   "Selects and reviews tools"
+  ],
+  [
+   "Privacy assistant",
+   "Checks access logs"
+  ]
+ ],
+ "next": "privacy protection practice, IT service and support, tele-video conferencing operations.",
+ "local": "Health-data and telehealth rules differ by place; check licensing and data rules with an adviser.",
+ "ladder": [
+  [
+   "Map the patient journey",
+   "L1: learner can name the steps of a patient visit. Focus module: Map the patient journey (Understand, 3 h). A virtual appointment is more than a video call. It is a chain of steps, and any weak link loses the patient. Map every step before choosing a tool. Key points: Steps: request, book, remind, join, check identity, consent, consult, record, follow up. Mark who owns each step: patient, front desk, clinician, system. Add a route for patients without a smartphone, such as a phone call at the same time. Mark where things go wrong most often: booking confusion, late joining, poor sound, missing notes.",
+   "Teach: open with the worked example. A clinic maps the journey and finds that older patients drop out at \"join\". It adds a phone-in option and a helper call the day before. Attendance of patients over 65 rises from 61% to 79% in a month. Then set the activity: Draw a journey map for a small clinic with all nine steps, owners and one risk per step. Mark against the standard: Assign an owner to all nine steps and show at least one phone-only route. Check at this level: Name four steps in the journey. Model answer: Booking, reminder, ID check, consent, consult, record, follow-up."
+  ],
+  [
+   "Booking, slots and reminders",
+   "L2: learner knows why consent and privacy come first. Focus module: Booking, slots and reminders (Apply, 4 h). Good booking design cuts no-shows and protects clinician time. Key points: Create slot types by clinician, length and visit type (new, follow-up, urgent) with buffer time between visits. Send reminders the day before and one hour before, with a join link and a cancel or reschedule link. Collect only the data needed to book. Review no-show and late-cancel rates weekly.",
+   "Teach: open with the worked example. A clinic with about 155 appointment slots a week and 18% no-shows adds two reminders and a two-tap reschedule. No-shows fall to 9% in six weeks, giving back about 14 slots per week (9% of 155). Then set the activity: Configure slots, reminders and a reschedule flow in a free booking tool and test with five mock patients. Mark against the standard: Complete all five mock bookings and check that reminders arrive at the right times. Check at this level: Why two reminders? Model answer: They cut no-shows."
+  ],
+  [
+   "Identity and consent",
+   "L3: learner can set up booking and reminders. Focus module: Identity and consent (Apply, 4 h). The clinician must know who is on the call and that the patient agrees to a virtual visit. Key points: Check name and date of birth against the record; for children, check the guardian. Ask consent for the video visit, for notes, and for any recording (recording only if the rules allow it). Confirm the patient's location in case emergency help is needed. Write the consent and location in the visit record.",
+   "Teach: open with the worked example. The clinician says: \"Please confirm your name, birth date and where you are right now. Are you happy to have this visit by video? I will take notes. I will not record.\" The patient agrees and the note is saved. Then set the activity: Write a one-minute consent script and practise it twice. Mark against the standard: Script covers identity, location, consent to video, notes and recording rule. Check at this level: What do you check before video visits? Model answer: Identity and consent."
+  ],
+  [
+   "Technology, connection and fall-backs",
+   "L4: learner can run a mock virtual visit. Focus module: Technology, connection and fall-backs (Analyse, 4 h). Connections fail. A plan turns a lost visit into a 2-minute delay. Key points: Test link, camera, microphone and speed before the visit; offer a test call. Fall-back order: reconnect, switch to audio, switch to phone, rebook within 48 hours. Keep a help number for technical problems. Log every failure with cause and time to fix.",
+   "Teach: open with the worked example. A test call shows the patient's microphone was blocked by the browser. A staff member guides the setting in two minutes, saving a missed visit. Then set the activity: Write a three-step fall-back and run it twice with a peer by cutting the connection. Mark against the standard: Contact is restored within 10 minutes in both runs and both are logged. Check at this level: What is the fall-back order? Model answer: Voice, phone, then rebook."
+  ],
+  [
+   "Privacy, security and records",
+   "L5: learner can review tools and measure a pilot. Focus module: Privacy, security and records (Evaluate, 4 h). Health records are among the most sensitive data. Weak security harms patients and the clinic. Key points: Use unique passwords, two-step sign-in, encrypted storage and access logs; never share logins. Give staff only the access their role needs. Do not use personal chat apps for clinical messages unless the rules allow it. Know your health-data rules and who to report a breach to.",
+   "Teach: open with the worked example. A receptionist shares a password to cover a shift. An access log shows two people using one account. The clinic ends sharing and issues a separate account. Then set the activity: Complete a privacy and security checklist for a tool and mark each item pass or fix. Mark against the standard: Pass every item or give it a dated fix plan. Check at this level: Name two security measures. Model answer: Two-step sign-in and encrypted storage."
+  ],
+  [
+   "Access and fairness",
+   "L6: learner can coordinate a small clinic desk. Focus module: Access and fairness (Analyse, 3 h). Virtual care can widen access or leave people behind. Key points: Offer phone, large-text, language and interpreter options. Support low-bandwidth modes and community access points. Track who misses visits and ask why. Do not make virtual-only the default for people who cannot use it.",
+   "Teach: open with the worked example. A rural clinic uses a village centre with a tablet and a trained helper twice a week, bringing 30 new patients into care. Then set the activity: List three barriers in your area and a fix and owner for each. Mark against the standard: Give each barrier a fix, an owner and a date. Check at this level: Name one access fix. Model answer: Phone option or community point."
+  ],
+  [
+   "Pilot, measure and improve",
+   "L7: learner can audit a clinic for privacy and access. Focus module: Pilot, measure and improve (Create, 3 h). Test with real steps and real numbers before scaling. Key points: Run 10 mock visits; measure wait, success and satisfaction. Set targets, for example 90% of calls start within 5 minutes of schedule. Fix the top three problems and run again. Plan monthly reviews with a clinician and a patient voice.",
+   "Teach: open with the worked example. First pilot: 7 of 10 start on time. After fixing the link emails and adding a pre-test, 9 of 10 start on time. Then set the activity: Present your pilot review with numbers and a dated improvement list. Mark against the standard: Check that numbers are real and totals match, and record at least three dated fixes. Check at this level: What is a pilot target example? Model answer: 90% of calls start on time."
+  ]
+ ]
+}

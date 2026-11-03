@@ -1,0 +1,309 @@
+{
+ "slug": "school-grade-11-science-che.html",
+ "plan": "grade-11-science",
+ "subject": "CHE",
+ "subject_name": "Chemistry",
+ "kind": "sci",
+ "label": "Grade 11 Science",
+ "band": "post",
+ "level": 5,
+ "weeks": 36,
+ "task": "Meet the outcome of every unit in Grade 11 Science Chemistry, and keep one piece of evidence for each.",
+ "condition": "A 36-week school year, 7 units, a teacher or guide, a learning book or device, and local examples in the local language first with English support.",
+ "standard": "Each unit: at least 70 percent on an exam-style task, with the method shown. Course pass: no unit at 'Not yet' after one retry, and a pass in SA1 and SA2.",
+ "modules": [
+  {
+   "n": 1,
+   "title": "Some basic concepts of chemistry and atomic structure",
+   "bloom": "Apply",
+   "weeks": [
+    1,
+    6
+   ],
+   "hours": 18,
+   "outcome": "use the mole and quantum numbers",
+   "intro": "In this unit, 'Some basic concepts of chemistry and atomic structure', you learn to use the mole and quantum numbers. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Some basic concepts of chemistry and atomic structure' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: use the mole and quantum numbers. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Solved: Moles = mass / molar mass. 36 g of water (18 g per mole) is 2 moles, which contains 2 x 6.02 x 10 to the 23 molecules. Method: Model run for 'Some basic concepts of chemistry and atomic structure'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Use the mole and quantum numbers: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Calculate moles. 5.85 g of NaCl has molar mass 58.5 g/mol. n = 5.85 / 58.5 = 0.1 mol. Particles = 0.1 x 6.022 x 10^23 = 6.022 x 10^22 formula units.",
+    "Step 2, Find a percentage composition. Water H2O is 18 g/mol, with H = 2/18 = 11.1 per cent and O = 16/18 = 88.9 per cent. Empirical formula from 40 per cent C, 6.7 per cent H, 53.3 per cent O: moles 3.33, 6.7, 3.33, ratio 1:2:1, so CH2O.",
+    "Step 3, Do stoichiometry. 2H2 + O2 gives 2H2O. 4 g of H2 is 2 mol and needs 1 mol of O2 (32 g), giving 2 mol of water (36 g). Limiting reagent: with 2 g H2 and 32 g O2, H2 limits and 18 g of water forms.",
+    "Step 4, Calculate molarity. 4 g of NaOH (40 g/mol) is 0.1 mol. In 250 mL, M = 0.1 / 0.250 = 0.4 mol/L.",
+    "Step 5, Assign quantum numbers for a 3p electron. n = 3, l = 1, m can be -1, 0, +1, and spin is +1/2 or -1/2. Maximum electrons in shell n is 2n^2, so n = 3 holds 18.",
+    "Step 6, Your turn: find moles in 11 g of CO2 (44 g/mol) and the number of molecules. Answer: 0.25 mol; 0.25 x 6.022e23 = 1.5 x 10^23 molecules."
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Periodic table and chemical bonding",
+   "bloom": "Understand",
+   "weeks": [
+    7,
+    12
+   ],
+   "hours": 18,
+   "outcome": "predict trends and bonding",
+   "intro": "In this unit, 'Periodic table and chemical bonding', you learn to predict trends and bonding. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Periodic table and chemical bonding' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: predict trends and bonding. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Solved: Water is H2O: 2 hydrogen atoms and 1 oxygen atom. Mass = 2 x 1 + 16 = 18 units. Check atoms balance on both sides of an equation. Method: Model run for 'Periodic table and chemical bonding'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Predict trends and bonding: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Predict trends across period 3: Na, Mg, Al, Si, P, S, Cl. Atomic radius decreases because nuclear charge grows with the same shell. Ionisation enthalpy generally rises, with dips at Al and S. Electronegativity rises to Cl.",
+    "Step 2, Compare down group 1: Li, Na, K. Atomic radius increases, ionisation enthalpy falls, so reactivity with water rises. K reacts more violently than Na.",
+    "Step 3, Draw Lewis structures. For NH3, N has 5 valence electrons, forming 3 bonds with H and keeping 1 lone pair. VSEPR gives a trigonal pyramidal shape with HNH angle about 107 degrees. CH4 is tetrahedral, 109.5 degrees.",
+    "Step 4, Calculate bond order from molecular orbital theory. O2 has 12 valence electrons: 8 bonding, 4 antibonding, bond order (8 - 4)/2 = 2, and it is paramagnetic with 2 unpaired electrons. N2 has bond order 3.",
+    "Step 5, Compare electronegativity. Using rounded textbook values, HCl has a difference of 3.0 - 2.1 = 0.9, so it is polar covalent. NaCl has 3.0 - 0.9 = 2.1, so it is ionic. Hybridisation of carbon in ethene is sp2 and in ethyne sp.",
+    "Step 6, Your turn: give the shape and bond angle of H2O and the bond order of N2. Answer: bent with about 104.5 degrees; bond order 3."
+   ]
+  },
+  {
+   "n": 3,
+   "title": "States of matter and thermodynamics",
+   "bloom": "Apply",
+   "weeks": [
+    13,
+    17
+   ],
+   "hours": 15,
+   "outcome": "apply gas laws and enthalpy",
+   "intro": "In this unit, 'States of matter and thermodynamics', you learn to apply gas laws and enthalpy. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'States of matter and thermodynamics' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: apply gas laws and enthalpy. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Solved: 10 g of salt in 90 g of water: solution mass 100 g, so concentration = 10 / 100 x 100 = 10 percent by mass. Method: Model run for 'States of matter and thermodynamics'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Apply gas laws and enthalpy: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Use the ideal gas law PV = nRT. For 2 mol of gas at 300 K in 10 L: P = nRT/V = 2 x 0.0821 x 300 / 10 = 4.93 atm. Use R = 0.0821 L atm per mol per K.",
+    "Step 2, Use Boyle's law. A gas at 1 atm and 6 L is compressed at constant temperature to 2 L. P2 = P1 V1 / V2 = 1 x 6 / 2 = 3 atm. Charles's law: 300 K and 2 L heated to 450 K gives V = 2 x 450 / 300 = 3 L.",
+    "Step 3, Apply the first law, delta U = q + w. A gas absorbs 500 J of heat and does 200 J of work on the surroundings, so w = -200 J and delta U = 500 - 200 = +300 J.",
+    "Step 4, Calculate enthalpy. For CH4 + 2O2 gives CO2 + 2H2O(l), use rounded textbook formation enthalpies: CH4 -74.8, CO2 -393.5, H2O(l) -285.8 kJ/mol. delta H = [-393.5 + 2(-285.8)] - [-74.8] = -890.3 kJ/mol. Exothermic.",
+    "Step 5, Predict spontaneity with delta G = delta H - T delta S. For delta H = +40 kJ and delta S = +100 J/K at 500 K: delta G = 40000 - 500 x 100 = -10000 J, so it is spontaneous at 500 K.",
+    "Step 6, Your turn: find the volume of 1 mol of ideal gas at 273 K and 1 atm. Answer: V = 0.0821 x 273 / 1 = 22.4 L."
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Equilibrium and redox reactions",
+   "bloom": "Apply",
+   "weeks": [
+    18,
+    22
+   ],
+   "hours": 15,
+   "outcome": "apply Le Chatelier's principle and balance redox equations",
+   "intro": "In this unit, 'Equilibrium and redox reactions', you learn to apply Le Chatelier's principle and balance redox equations. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Equilibrium and redox reactions' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: apply Le Chatelier's principle and balance redox equations. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Solved: N2 + 3H2 reversible 2NH3: more pressure favours ammonia (fewer gas moles). Redox: Zn + Cu2+ gives Zn2+ + Cu; zinc is oxidised, copper ions are reduced. Method: Model run for 'Equilibrium and redox reactions'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Apply Le Chatelier's principle and balance redox equations: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Meet a reversible reaction: N2 + 3H2 <=> 2NH3, with energy released (delta H = -92 kJ per mole of reaction). At equilibrium the forward and backward rates are equal, so concentrations stay steady while reactions continue. Kc = [NH3]^2 / ([N2][H2]^3). A large Kc means products are favoured.",
+    "Step 2, Apply Le Chatelier's principle: a system opposes a change. Raise the pressure: there are 4 moles of gas on the left and 2 on the right, so the equilibrium shifts right to make fewer moles. Raise the temperature: the forward reaction gives out heat, so it shifts left. Remove NH3 and it shifts right. A catalyst only speeds both directions.",
+    "Step 3, Calculate Kc for H2 + I2 <=> 2HI. Suppose that at equilibrium [H2] = 0.10, [I2] = 0.10 and [HI] = 0.40 mol per dm3, so Kc = 0.40^2 / (0.10 x 0.10) = 0.16 / 0.01 = 16. If a mixture has [HI] = 0.20, then Q = 0.04 / 0.01 = 4, which is less than 16, so it shifts right.",
+    "Step 4, Track oxidation numbers. In Zn + Cu2+ -> Zn2+ + Cu, zinc goes from 0 to +2 (loses electrons, oxidised) and copper goes from +2 to 0 (gains electrons, reduced). Remember OIL RIG: oxidation is loss, reduction is gain. Cu2+ is the oxidising agent, and Zn is the reducing agent.",
+    "Step 5, Balance in acid by half-equations. MnO4- + 8H+ + 5e- -> Mn2+ + 4H2O. Fe2+ -> Fe3+ + e-, times 5. Add: MnO4- + 8H+ + 5Fe2+ -> Mn2+ + 4H2O + 5Fe3+. Charge check: -1 + 8 + 10 = 17 on the left and 2 + 15 = 17 on the right. Safety: do this titration only with a teacher, wearing goggles and gloves.",
+    "Step 6, Your turn: balance Cr2O7 2- + Fe2+ -> Cr3+ + Fe3+ in acid, and say how removing NH3 changes the ammonia equilibrium. Answer: Cr2O7 2- + 14H+ + 6Fe2+ -> 2Cr3+ + 7H2O + 6Fe3+ (charge 24 both sides); removing NH3 shifts the equilibrium right."
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Hydrogen, s-block and p-block elements",
+   "bloom": "Analyse",
+   "weeks": [
+    23,
+    27
+   ],
+   "hours": 15,
+   "outcome": "compare properties and uses",
+   "intro": "In this unit, 'Hydrogen, s-block and p-block elements', you learn to compare properties and uses. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Hydrogen, s-block and p-block elements' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: compare properties and uses. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Solved: Group 1 metals react with water: 2Na + 2H2O gives 2NaOH + H2. Method: Model run for 'Hydrogen, s-block and p-block elements'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Compare properties and uses: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Compare hydrogen isotopes: protium, deuterium and tritium with 0, 1 and 2 neutrons. Preparation in the lab: Zn + 2HCl gives ZnCl2 + H2. Industrially, CH4 + H2O at high temperature with nickel catalyst gives CO + 3H2.",
+    "Step 2, Compare s-block metals. Sodium reacts: 2Na + 2H2O gives 2NaOH + H2. Flame tests: sodium golden yellow, potassium lilac, calcium brick red, barium apple green. Reactivity rises down the group.",
+    "Step 3, Compare uses: sodium carbonate in glass and washing, sodium hydroxide in soap, calcium oxide (quicklime) in cement, calcium hydroxide in whitewash, and magnesium in alloys.",
+    "Step 4, Describe p-block. Boron forms borax; aluminium oxide Al2O3 is amphoteric; carbon exists as diamond (sp3) and graphite (sp2). Silica SiO2 is a giant covalent solid. Group 17 halogens oxidising power falls Cl > Br > I.",
+    "Step 5, Predict a reaction: Cl2 + 2KBr gives 2KCl + Br2, because chlorine is a stronger oxidiser than bromine. Ammonia is made by the Haber process N2 + 3H2 gives 2NH3 at about 450 C with iron catalyst.",
+    "Step 6, Your turn: write the reaction of calcium with water and the flame colour of calcium. Answer: Ca + 2H2O gives Ca(OH)2 + H2; brick red."
+   ]
+  },
+  {
+   "n": 6,
+   "title": "Organic chemistry: basic principles and hydrocarbons",
+   "bloom": "Remember",
+   "weeks": [
+    28,
+    32
+   ],
+   "hours": 15,
+   "outcome": "name compounds and describe reactions",
+   "intro": "In this unit, 'Organic chemistry: basic principles and hydrocarbons', you learn to name compounds and describe reactions. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Organic chemistry: basic principles and hydrocarbons' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: name compounds and describe reactions. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Solved: CH3CH2CH3 is propane (3 carbons); CH2=CH2 is ethene and has a C=C double bond. Method: Model run for 'Organic chemistry: basic principles and hydrocarbons'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Name compounds and describe reactions: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Name by IUPAC. Choose the longest chain with the principal group. CH3CH(CH3)CH2CH3: the longest chain has 4 carbons, with a methyl on carbon 2, so 2-methylbutane. CH3CH=CHCH3 is but-2-ene.",
+    "Step 2, Draw isomers of C4H10: butane (straight chain) and 2-methylpropane (branched). They are structural isomers with the same molecular formula and different structures. C5H12 has three isomers.",
+    "Step 3, Write substitution on alkanes. CH4 + Cl2 under UV gives CH3Cl + HCl by free radical chain steps: initiation, propagation, termination. Chlorine radicals form from Cl2 by UV.",
+    "Step 4, Write addition on alkenes. CH2=CH2 + Br2 gives CH2Br-CH2Br, decolourising bromine water (a test for unsaturation). Markovnikov: propene + HBr gives mainly 2-bromopropane because the more stable secondary carbocation forms.",
+    "Step 5, Write combustion and calculate: C2H4 + 3O2 gives 2CO2 + 2H2O. Ethene of 28 g (1 mol) needs 3 mol O2 (96 g) and gives 88 g CO2. Benzene undergoes electrophilic substitution, not addition.",
+    "Step 6, Your turn: name the alkane CH3CH2CH(CH3)CH3 by the longest chain rule and write the main product of propene with HBr. Answer: 2-methylbutane; 2-bromopropane by Markovnikov addition."
+   ]
+  },
+  {
+   "n": 7,
+   "title": "Environmental chemistry",
+   "bloom": "Understand",
+   "weeks": [
+    33,
+    36
+   ],
+   "hours": 12,
+   "outcome": "explain pollution and green chemistry",
+   "intro": "In this unit, 'Environmental chemistry', you learn to explain pollution and green chemistry. You work with exam-style questions and written reasoning. You see it, say it, then do it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Environmental chemistry' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: explain pollution and green chemistry. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Solved: Acid rain forms when sulphur and nitrogen oxides dissolve in rain, giving pH below 5.6. Method: Model run for 'Environmental chemistry'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 40 to 50 minutes of class work, then one short practice task for home. Keep evidence: a timed paper and an error log.",
+   "standard": "Explain pollution and green chemistry: at least 70 percent on an exam-style task, with the method shown.",
+   "steps": [
+    "Step 1, Identify pollutants. Air: CO from incomplete combustion, SO2 and NOx (acid rain), particulates. Water: nutrients causing eutrophication, heavy metals. Soil: pesticides. Name each with a source.",
+    "Step 2, Explain acid rain. SO2 + 1/2 O2 gives SO3 and SO3 + H2O gives H2SO4. Rain is acidic when its pH is below 5.6. Normal rain is about 5.6 because dissolved CO2 forms carbonic acid.",
+    "Step 3, Explain the greenhouse effect. CO2, CH4 and N2O absorb infrared radiation re-emitted by Earth. A rise from roughly 280 ppm before industry to well above 400 ppm raises mean temperature; check the current figure.",
+    "Step 4, Explain ozone depletion. In the stratosphere, CF2Cl2 gives Cl atoms under UV. Cl + O3 gives ClO + O2 and ClO + O gives Cl + O2. A single Cl can destroy many O3 molecules in a catalytic cycle.",
+    "Step 5, Use water quality numbers. Clean water has a low BOD and heavily polluted water a much higher one (textbook tables often use about 5 ppm and 17 ppm as cut-offs, so check the figures in your syllabus), because microbes use dissolved oxygen to break down waste. Green chemistry principles: prevent waste, use safer solvents, high atom economy, and catalysis.",
+    "Step 6, Your turn: write the reaction that forms sulphuric acid from SO3 and say why rain at pH 4.5 is acidic. Answer: SO3 + H2O gives H2SO4; pH below 5.6 means extra strong acids dissolved."
+   ]
+  }
+ ],
+ "rubric": [
+  [
+   "Scientific ideas",
+   "Ideas mixed up",
+   "Main ideas right",
+   "Ideas right and linked"
+  ],
+  [
+   "Evidence and data",
+   "No record",
+   "Record made",
+   "Clear record used in the conclusion"
+  ],
+  [
+   "Safe, fair method",
+   "Needs reminding",
+   "Safe and mostly fair",
+   "Safe, fair and improved"
+  ],
+  [
+   "Use of key words",
+   "Few",
+   "Some",
+   "Accurate and confident"
+  ],
+  [
+   "Practice habit",
+   "Rarely practises",
+   "Practises weekly",
+   "Practises most days and reflects"
+  ]
+ ],
+ "checks": [
+  [
+   "Unit 1 (Some basic concepts of chemistry and atomic structure): Find moles in 11 g of CO2 (44 g/mol) and the number of molecules.",
+   "0.25 mol; 0.25 x 6.022e23 = 1.5 x 10^23 molecules. (Covered in unit 1: Some basic concepts of chemistry and atomic structure.)"
+  ],
+  [
+   "Unit 2 (Periodic table and chemical bonding): Give the shape and bond angle of H2O and the bond order of N2.",
+   "bent with about 104.5 degrees; bond order 3. (Covered in unit 2: Periodic table and chemical bonding.)"
+  ],
+  [
+   "Unit 3 (States of matter and thermodynamics): Find the volume of 1 mol of ideal gas at 273 K and 1 atm.",
+   "V = 0.0821 x 273 / 1 = 22.4 L. (Covered in unit 3: States of matter and thermodynamics.)"
+  ],
+  [
+   "Unit 4 (Equilibrium and redox reactions): Balance Cr2O7 2- + Fe2+ -> Cr3+ + Fe3+ in acid, and say how removing NH3 changes the ammonia equilibrium.",
+   "Cr2O7 2- + 14H+ + 6Fe2+ -> 2Cr3+ + 7H2O + 6Fe3+ (charge 24 both sides); removing NH3 shifts the equilibrium right. (Covered in unit 4: Equilibrium and redox reactions.)"
+  ],
+  [
+   "Unit 5 (Hydrogen, s-block and p-block elements): Write the reaction of calcium with water and the flame colour of calcium.",
+   "Ca + 2H2O gives Ca(OH)2 + H2; brick red. (Covered in unit 5: Hydrogen, s-block and p-block elements.)"
+  ],
+  [
+   "Unit 6 (Organic chemistry: basic principles and hydrocarbons): Name the alkane CH3CH2CH(CH3)CH3 by the longest chain rule and write the main product of propene with HBr.",
+   "2-methylbutane; 2-bromopropane by Markovnikov addition. (Covered in unit 6: Organic chemistry: basic principles and hydrocarbons.)"
+  ],
+  [
+   "Unit 7 (Environmental chemistry): Write the reaction that forms sulphuric acid from SO3 and say why rain at pH 4.5 is acidic.",
+   "SO3 + H2O gives H2SO4; pH below 5.6 means extra strong acids dissolved. (Covered in unit 7: Environmental chemistry.)"
+  ],
+  [
+   "Unit 1 (Some basic concepts of chemistry and atomic structure): Find a percentage composition. Show how you do it and say what the result is.",
+   "Water H2O is 18 g/mol, with H = 2/18 = 11.1 per cent and O = 16/18 = 88.9 per cent. Empirical formula from 40 per cent C, 6.7 per cent H, 53.3 per cent O: moles 3.33, 6.7, 3.33, ratio 1:2:1, so CH2O. (Covered in unit 1: Some basic concepts of chemistry and atomic structure.)"
+  ],
+  [
+   "Unit 2 (Periodic table and chemical bonding): Compare down group 1. Show how you do it and say what the result is.",
+   "Li, Na, K. Atomic radius increases, ionisation enthalpy falls, so reactivity with water rises. K reacts more violently than Na. (Covered in unit 2: Periodic table and chemical bonding.)"
+  ],
+  [
+   "Unit 3 (States of matter and thermodynamics): Use Boyle's law. Show how you do it and say what the result is.",
+   "A gas at 1 atm and 6 L is compressed at constant temperature to 2 L. P2 = P1 V1 / V2 = 1 x 6 / 2 = 3 atm. Charles's law: 300 K and 2 L heated to 450 K gives V = 2 x 450 / 300 = 3 L. (Covered in unit 3: States of matter and thermodynamics.)"
+  ]
+ ],
+ "ladder": [
+  "L1: observe, sort and describe the living and non-living world.",
+  "L2: run simple tests and explain with key words.",
+  "L3: use models and equations; plan a fair test.",
+  "L4: link physics, chemistry and biology ideas with calculation.",
+  "L5: specialise; design, analyse and evaluate experiments.",
+  "L6 (degree): laboratory science, instrumentation and analysis.",
+  "L7 (postgraduate): research design and expert practice."
+ ],
+ "jobs": [],
+ "blooms": [
+  "Remember",
+  "Understand",
+  "Apply",
+  "Analyse"
+ ]
+}

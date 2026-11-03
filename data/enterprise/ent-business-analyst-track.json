@@ -1,0 +1,108 @@
+{
+ "module8": [
+  "Capstone: run an end-to-end change and audit the result",
+  "Evaluate",
+  5,
+  "You now take one change from need to benefit and judge how well it went.",
+  [
+   "Frame one business need and agree what success looks like.",
+   "Run the steps: map, write stories, fit-gap, test, train.",
+   "Audit the result against the first need after 90 days.",
+   "Share lessons learned with the team."
+  ],
+  "A team asked for a new field, you found the real need was an approval step, and 90 days later approval time dropped from 4 days to 1. The audit also showed one report was still unused.",
+  "Take a small change through every step and write a short audit with lessons learned.",
+  "Audit compares results with the original need and lists at least three lessons."
+ ],
+ "quiz": [
+  [
+   "A manager asks you to add a field for 'reason'. How do you find the real need?",
+   "Ask who needs it, what decision it supports and how often, and use the five whys. The real need may be a missing approval or report, not a field."
+  ],
+  [
+   "Your process map shows an order waiting 3 days in a queue and 2 hours being worked. What do you report?",
+   "That the wait time is the main problem, not the work time. Most of the delay is waiting between hand-offs, so improve those first."
+  ],
+  [
+   "Write one user story with an acceptance rule for a sales rep who wants reminders.",
+   "As a sales rep, I want a reminder 2 days before a quote expires so I can follow up. Accepted when a reminder appears exactly 2 days before expiry."
+  ],
+  [
+   "What do Must, Should and Could mean in a priority list?",
+   "Must items are needed for go-live, Should items are important but have a workaround, and Could items are nice to have if time allows."
+  ],
+  [
+   "Out of 50 requirements, 40 fit the standard features and 10 are gaps. What do you do next?",
+   "Use standard for the 40, then list options for each of the 10 with cost and risk. Choose to change the process, use a simple setting or build custom work."
+  ],
+  [
+   "Users run 10 test scripts and 3 fail. Can you ask for sign-off?",
+   "No. Log the 3 defects, fix them, and rerun those scripts (and any related ones) until they pass. Sign-off is given only on evidence that the tests pass."
+  ],
+  [
+   "The old system has 12,400 customers and the new one shows 12,150 after loading. What do you do?",
+   "Do not sign off. Reconcile the 250 missing records, find the reason such as duplicates or bad formats, and fix and reload until the counts match or differences are explained."
+  ],
+  [
+   "Name two parts of a good training plan.",
+   "Training matched to each role and champions in each team who help colleagues. Go-live support and follow-up checks also help."
+  ],
+  [
+   "How would you measure benefits 90 days after go-live?",
+   "Compare numbers set before the project, such as approval time or support calls, with the numbers now. Also check how many people actually use the new feature."
+  ],
+  [
+   "In your audit, the approval time did not improve. What do you do?",
+   "Find out why, such as users working around the new step or poor training, and report it honestly. Then agree a fix and record the lesson for future projects."
+  ]
+ ],
+ "ladder": [
+  [
+   "L1 Basic: Know the words",
+   "Remember key terms: stakeholder, requirement, user story, process map and acceptance test. Say what each one means in plain words.",
+   "Use a simple shop example for each term. Check the learner can give one example back. Common mistake: using requirement and solution as the same word."
+  ],
+  [
+   "L2 Awareness: See the flow of work",
+   "Understand the path from need to benefit and where an analyst helps. Explain why asking questions comes before building.",
+   "Draw the path on one page. Ask what happens if a step is skipped. Common mistake: jumping to a solution on day one."
+  ],
+  [
+   "L3 Foundation: Ask and draw",
+   "Apply interview questions and swim lane maps to one real process. Write a need in one clear sentence.",
+   "Run a short mock interview. Check the map shows waits and hand-offs. Common mistake: drawing how it should work instead of how it works."
+  ],
+  [
+   "L4 Practitioner: Write and fit",
+   "Apply stories with acceptance rules and build a fit-gap table. Analyse each gap for cost and risk.",
+   "Give a messy request and ask for ten stories. Check each is testable. Common mistake: stories that are too large to test."
+  ],
+  [
+   "L5 Specialist: Prove and migrate",
+   "Analyse test results and data loads. Evaluate whether a solution is ready for users to sign off.",
+   "Ask for the reconciliation table. Check defects are logged and closed. Common mistake: signing off on feelings, not evidence."
+  ],
+  [
+   "L6 Advanced: Lead adoption",
+   "Evaluate training and change plans against measures. Create an adoption plan with owners and dates.",
+   "Review the plan for measures. Check each team has a champion. Common mistake: ending the project at go-live."
+  ],
+  [
+   "L7 Super expert: Audit and coach",
+   "Create an end-to-end approach and audit the results against the first need. Evaluate lessons and teach others to use them.",
+   "Ask for a 90-day audit and a lessons list. Check the learner can coach a new analyst. Common mistake: celebrating delivery without checking benefit."
+  ]
+ ],
+ "quiz_module": [
+  1,
+  2,
+  3,
+  3,
+  4,
+  5,
+  6,
+  7,
+  7,
+  8
+ ]
+}

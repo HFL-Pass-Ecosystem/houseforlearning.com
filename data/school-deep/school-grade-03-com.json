@@ -1,0 +1,222 @@
+{
+ "slug": "school-grade-03-com.html",
+ "plan": "grade-03",
+ "subject": "COM",
+ "subject_name": "Computing",
+ "kind": "comp",
+ "label": "Grade 03",
+ "band": "primary",
+ "level": 2,
+ "weeks": 36,
+ "task": "Meet the outcome of every unit in Grade 03 Computing, and keep one piece of evidence for each.",
+ "condition": "A 36-week school year, 4 units, a teacher or guide, a learning book or device, and local examples in the local language first with English support.",
+ "standard": "Each unit: at least 4 of 5 attempts correct, said or written, with one real example from home or school. Course pass: no unit at 'Not yet' after one retry, and a pass in SA1 and SA2.",
+ "modules": [
+  {
+   "n": 1,
+   "title": "Pictures and shapes in a drawing program",
+   "bloom": "Apply",
+   "weeks": [
+    1,
+    14
+   ],
+   "hours": 42,
+   "outcome": "rotate, resize, colour and save a picture",
+   "intro": "In this unit, 'Pictures and shapes in a drawing program', you learn to rotate, resize, colour and save a picture. Lessons are short and playful, with objects, pictures and talk. You see it, say it, then do it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Pictures and shapes in a drawing program' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: rotate, resize, colour and save a picture. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Solved: Draw a square, put a triangle on top, add a door and fill with colour: a house. Save as house.png. Method: Model run for 'Pictures and shapes in a drawing program'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
+   "standard": "Rotate, resize, colour and save a picture: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": [
+    "Step 1, Insert a shape: Farah opens the drawing program, selects the arrow shape from the shapes menu, and drags to draw an arrow pointing right on the page. The arrow has small square handles at its corners and edges.",
+    "Step 2, Resize: She drags the bottom right corner handle outward and the arrow grows bigger while keeping its proportions. Dragging a corner handle changes both width and height together, so the shape does not get squashed.",
+    "Step 3, Rotate: She grabs the round rotate handle above the shape and turns it a quarter turn clockwise. The arrow, which pointed right, now points down. She also uses the menu Rotate right 90 degrees and gets the same result.",
+    "Step 4, Colour: With the arrow still selected, Farah picks Fill, chooses green and sets the outline to dark blue. The arrow becomes green with a blue edge. Selecting before colouring is important, or nothing changes.",
+    "Step 5, Copy and check: She copies the arrow with Ctrl+C, pastes with Ctrl+V, and rotates the copy 180 degrees. Now one arrow points down and one points up, each green with a blue edge.",
+    "Step 6, Save: Farah chooses File, Save as, types 'arrows', picks the picture format PNG, and presses Save. The file arrows.png appears in the folder. She reopens it and sees both arrows unchanged.",
+    "Your turn: Draw a triangle, make it twice as large, rotate it 90 degrees to the left, colour it red, and save it as 'tri'. Model answer: drag a corner handle to double its size, rotate left 90, fill red, then Save as tri.png."
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Typing and word processing basics",
+   "bloom": "Apply",
+   "weeks": [
+    15,
+    23
+   ],
+   "hours": 27,
+   "outcome": "type a short text and format it",
+   "intro": "In this unit, 'Typing and word processing basics', you learn to type a short text and format it. Lessons are short and playful, with objects, pictures and talk. You see it, say it, then do it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Typing and word processing basics' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: type a short text and format it. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Solved: Home row: A S D F for the left hand, J K L ; for the right. Type 'sad lad' ten times without looking. Aim for no errors, then raise speed. Method: Model run for 'Typing and word processing basics'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
+   "standard": "Type a short text and format it: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": [
+    "Step 1, Posture and home row: Sultan sits straight with wrists level. His left fingers rest on A, S, D, F and his right fingers on J, K, L and the semicolon key. Thumbs rest on the Space bar. This is the home row.",
+    "Step 2, Type a short text: He opens the word processor and types 'The desert is hot in summer.' Then he presses Enter and types 'Camels can walk far without any water.' That is two sentences, 13 words in total.",
+    "Step 3, Check the count: Sultan counts: sentence one has 6 words, sentence two has 7 words. 6 plus 7 is 13. The word count shown at the bottom of the program also says 13, so his typing and counting match.",
+    "Step 4, Format the title: He adds a line at the top, 'Desert Facts', selects it by dragging, then clicks Bold, sets the size from 12 to 18, and clicks Centre. The title is now large, bold and in the middle.",
+    "Step 5, Format the body: He selects the two sentences and changes the font to a clear one, keeps the size at 12, and clicks Align left. Small, clear text for the body and large text for the title looks neat.",
+    "Step 6, Save: Sultan presses Ctrl+S, names the file 'desert-facts' and presses Enter. He closes and reopens it, and the bold centred title and two sentences are still there.",
+    "Your turn: Type a title 'My School' and two sentences about it, make the title bold and centred, size 16. Model answer: title is selected, Bold, Centre, size 16 from the size box; body stays at 12; save as my-school."
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Algorithms and loops without a computer",
+   "bloom": "Apply",
+   "weeks": [
+    24,
+    32
+   ],
+   "hours": 27,
+   "outcome": "write and test a sequence of steps with a repeat",
+   "intro": "In this unit, 'Algorithms and loops without a computer', you learn to write and test a sequence of steps with a repeat. Lessons are short and playful, with objects, pictures and talk. You see it, say it, then do it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Algorithms and loops without a computer' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: write and test a sequence of steps with a repeat. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Solved: Algorithm to make toast: 1 take two slices, 2 put in toaster, 3 press down, 4 wait, 5 take out. Loop: repeat 4 times: step forward, turn right = draw a square. Method: Model run for 'Algorithms and loops without a computer'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
+   "standard": "Write and test a sequence of steps with a repeat: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": [
+    "Step 1, An algorithm is a list of exact steps. Picture a robot on a grid, facing north. It knows two commands: F means move forward one square and R means turn right a quarter turn. We want it to walk around a square with sides of 3 squares and end where it began.",
+    "Step 2, Write it with no repeat: F F F R F F F R F F F R F F F R. That is 16 commands, and the same group F F F R appears 4 times. When steps repeat, we can group them and say how many times to do them. This saves writing and makes mistakes less likely.",
+    "Step 3, Use a loop: repeat 4 times [F F F R]. Now there are only 4 commands inside the repeat. A loop has two parts: the steps that repeat and the count. The robot makes 4 sides of 3 squares and 4 right turns, then faces north again at the start square.",
+    "Step 4, Test by tracing on squared paper. Start at (0, 0). After the first F F F R you are at (0, 3) facing east. After the second you are at (3, 3) facing south. After the third, (3, 0) facing west. After the fourth, you are back at (0, 0) facing north. The test passes.",
+    "Step 5, Find a bug. Suppose someone writes repeat 3 times [F F F R]. Trace it: the robot stops at (3, 0) facing west, not back at (0, 0), so the shape has only 3 sides. Fix the count to 4 and test again.",
+    "Step 6, Your turn: write a repeat to walk around a rectangle 4 squares long and 2 wide, starting facing north. Model answer: repeat 2 times [F F F F R F F R]. It makes 2 long sides and 2 short sides, and it ends at the start."
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Online safety",
+   "bloom": "Remember",
+   "weeks": [
+    33,
+    36
+   ],
+   "hours": 12,
+   "outcome": "say what to keep private and who to tell when something feels wrong",
+   "intro": "In this unit, 'Online safety', you learn to say what to keep private and who to tell when something feels wrong. Lessons are short and playful, with objects, pictures and talk. You see it, say it, then do it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Online safety' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: say what to keep private and who to tell when something feels wrong. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Solved: Never share your password, address or school name. If a stranger messages you: do not reply, close it, tell a trusted adult. Strong password: three random words plus a number. Method: Model run for 'Online safety'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
+   "standard": "Say what to keep private and who to tell when something feels wrong: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": [
+    "Step 1, Sort private from public. Private information could help a stranger find you: your full name, home address, phone number, school name, birthday and passwords. Public information is safe to share, such as your favourite colour or a drawing of a cat. Make two lists and put each item in one of them.",
+    "Step 2, Keep passwords secret. Only you and a parent or carer should know them. A good password uses three random words and numbers, such as bluefish tree 27 joined together, which is longer and harder to guess than your pet's name. Never type a password for someone who asks in a message or a game chat.",
+    "Step 3, Treat online strangers carefully. A person you have never met face to face is a stranger, even if they are friendly, say they are a child, or offer a free gift. Do not reply to them, do not share photos, and never agree to meet. Tell a trusted adult if they ask to be your friend.",
+    "Step 4, Know the warning signs. Something feels wrong when a message is unkind, asks for a secret, asks for photos, or shows scary pictures. Do this: stop, do not reply, keep the message so a grown-up can see it, and tell a trusted adult such as a parent, carer or teacher. It is never your fault.",
+    "Step 5, Practise with a story. In a game chat, a player says, I am nine too! What school do you go to? Say, I do not share that. Then leave the chat, keep the message and go to a grown-up right away. You gave no private information, so you stayed safe.",
+    "Step 6, Your turn: name three things to keep private and say who you tell if a stranger asks for them. Model answer: my home address, my school name and my password; I tell a trusted adult, such as my parent or teacher, straight away."
+   ]
+  }
+ ],
+ "rubric": [
+  [
+   "It works",
+   "Does not run",
+   "Runs with help",
+   "Runs and handles odd input"
+  ],
+  [
+   "Understanding of the parts",
+   "Cannot name",
+   "Names most",
+   "Names and explains"
+  ],
+  [
+   "Planning",
+   "None",
+   "A list",
+   "A clear ordered plan"
+  ],
+  [
+   "Safety and care",
+   "Needs reminding",
+   "Follows rules",
+   "Follows rules and helps others"
+  ],
+  [
+   "Practice habit",
+   "Rarely",
+   "Weekly",
+   "Most days"
+  ]
+ ],
+ "checks": [
+  [
+   "Unit 1 (Pictures and shapes in a drawing program): Draw a triangle, make it twice as large, rotate it 90 degrees to the left, colour it red, and save it as 'tri'.",
+   "drag a corner handle to double its size, rotate left 90, fill red, then Save as tri.png. (Covered in unit 1: Pictures and shapes in a drawing program.)"
+  ],
+  [
+   "Unit 2 (Typing and word processing basics): Type a title 'My School' and two sentences about it, make the title bold and centred, size 16.",
+   "title is selected, Bold, Centre, size 16 from the size box; body stays at 12; save as my-school. (Covered in unit 2: Typing and word processing basics.)"
+  ],
+  [
+   "Unit 3 (Algorithms and loops without a computer): Write a repeat to walk around a rectangle 4 squares long and 2 wide, starting facing north.",
+   "repeat 2 times [F F F F R F F R]. It makes 2 long sides and 2 short sides, and it ends at the start. (Covered in unit 3: Algorithms and loops without a computer.)"
+  ],
+  [
+   "Unit 4 (Online safety): Name three things to keep private and say who you tell if a stranger asks for them.",
+   "my home address, my school name and my password; I tell a trusted adult, such as my parent or teacher, straight away. (Covered in unit 4: Online safety.)"
+  ],
+  [
+   "Unit 1 (Pictures and shapes in a drawing program): Resize. Show how you do it and say what the result is.",
+   "She drags the bottom right corner handle outward and the arrow grows bigger while keeping its proportions. Dragging a corner handle changes both width and height together, so the shape does not get squashed. (Covered in unit 1: Pictures and shapes in a drawing program.)"
+  ],
+  [
+   "Unit 2 (Typing and word processing basics): Type a short text. Show how you do it and say what the result is.",
+   "He opens the word processor and types 'The desert is hot in summer.' Then he presses Enter and types 'Camels can walk far without any water.' That is two sentences, 13 words in total. (Covered in unit 2: Typing and word processing basics.)"
+  ],
+  [
+   "Unit 3 (Algorithms and loops without a computer): Write it with no repeat. Show how you do it and say what the result is.",
+   "F F F R F F F R F F F R F F F R. That is 16 commands, and the same group F F F R appears 4 times. When steps repeat, we can group them and say how many times to do them. This saves writing and makes mistakes less likely. (Covered in unit 3: Algorithms and loops without a computer.)"
+  ],
+  [
+   "Unit 4 (Online safety): Keep passwords secret. Show how you do it and say what the result is.",
+   "Only you and a parent or carer should know them. A good password uses three random words and numbers, such as bluefish tree 27 joined together, which is longer and harder to guess than your pet's name. Never type a password for someone who asks in a message or a game chat. (Covered in unit 4: Online safety.)"
+  ],
+  [
+   "Unit 1 (Pictures and shapes in a drawing program): Rotate. Show how you do it and say what the result is.",
+   "She grabs the round rotate handle above the shape and turns it a quarter turn clockwise. The arrow, which pointed right, now points down. She also uses the menu Rotate right 90 degrees and gets the same result. (Covered in unit 1: Pictures and shapes in a drawing program.)"
+  ],
+  [
+   "Unit 2 (Typing and word processing basics): Check the count. Show how you do it and say what the result is.",
+   "Sultan counts: sentence one has 6 words, sentence two has 7 words. 6 plus 7 is 13. The word count shown at the bottom of the program also says 13, so his typing and counting match. (Covered in unit 2: Typing and word processing basics.)"
+  ]
+ ],
+ "ladder": [
+  "L1: use a device safely; click, type and draw.",
+  "L2: create documents; follow simple instructions in blocks.",
+  "L3: spreadsheets, algorithms and simple programs.",
+  "L4: programming, data and networks.",
+  "L5: software design, databases and security.",
+  "L6 (degree): software engineering and systems.",
+  "L7 (postgraduate): research, architecture or AI practice."
+ ],
+ "jobs": [],
+ "blooms": [
+  "Remember",
+  "Apply"
+ ]
+}

@@ -1,0 +1,64 @@
+{
+"task": "Fit a circuit breaker so its arc vents stay clear and the maker's installation rules are met.",
+"condition": "Given the maker's installation sheet, the layout of devices in a board and the fixing style, with fitting and any change done only by qualified people following local rules.",
+"standard": "The learner explains what the vents do, checks a layout against clearance and cover rules, and says that any alternative layout needs proof by test.",
+"modules": [
+{"title": "What happens in a fault","bloom": "Understand: Explain","minutes": 15,
+"intro": "When a breaker opens a large fault, an arc forms inside it. The arc makes very hot gas, and that gas needs a path out, away from live parts.",
+"points": ["The arc heats the air and makes ionised (electrically charged) gas and metal vapour.","Vents let this gas escape away from live parts.","If the gas stays near live parts, the arc can restart outside the breaker."],
+"example": "Picture a fault that opens in 0.02 s. In that short time the arc inside the breaker heats a small volume of air, and the pressure rises sharply. With open vents, the hot gas leaves through the top in that same instant. With a blocked vent, the gas has nowhere to go, so it pushes toward the sides and the connections. If a bare bar sits 20 mm from the vent, hot conductive gas can bridge to it. So a clear vent with a gap protects the bar. Times and distances are illustrations only.",
+"activity": "Draw a breaker with its vents on top and a bare bar near them. Mark where the gas goes with the vents open and with the vents blocked.",
+"standard": "Learner explains in plain words why vents exist and what happens if they are blocked."},
+{"title": "Rules to follow","bloom": "Remember: Recall","minutes": 15,
+"intro": "The rules are short and easy to forget under time pressure. Learn them as a checklist.",
+"points": ["Do not block vents with barriers, panels or neighbouring devices.","Fit phase separators or terminal covers where the maker requires them.","Use insulated bars or cables to connect the breaker, and follow the sheet for each fixing style."],
+"example": "A board holds eight breakers in a row. The maker asks for at least 60 mm of free space above each vent. The cover plate sits 45 mm above the vents. The shortfall is 60 minus 45, so 15 mm. That layout fails the clearance rule. A qualified person would fix this by raising the cover by at least 15 mm or choosing a different cover, following the maker's sheet. Of the eight breakers, all eight are affected since the plate runs across the full row. Maker figures here are an example.",
+"activity": "Write a six-item checklist from this module. Use it to check a made-up board with a cover 50 mm above vents when 60 mm is required.",
+"standard": "Learner lists the three rules and applies a clearance check with numbers."},
+{"title": "Fixing styles and covers","bloom": "Apply: Check","minutes": 15,
+"intro": "Fixed, plug-in and withdrawable breakers are installed differently, and each has its own sheet. Do not mix instructions between styles.",
+"points": ["Read the sheet for the fixing style in front of you.","Phase separators keep phases apart and leave the vents free.","Insulated connections reduce the chance of a gas path between phases."],
+"example": "A board has 6 breakers: 3 fixed, 2 plug-in and 1 withdrawable. That is 3 different fixing styles, so 3 sheets must be read, not one. The sheet for the plug-in style asks for phase separators on both sides, and there are 2 such breakers, so 2 × 2 = 4 separators are needed in that part of the check. The fixed type uses terminal covers instead. Counting needs to be done per style so nothing is missed.",
+"activity": "Build a table of three styles with the cover or separator the maker asks for. Then count the separators for a board with 4 plug-in breakers needing 2 each.",
+"standard": "Learner matches fixing styles to their sheets and counts required parts correctly."},
+{"title": "Alternatives need proof","bloom": "Evaluate: Judge","minutes": 15,
+"intro": "Sometimes a customer wants a tighter layout than the sheet allows. The answer is not opinion. It must be shown by test.",
+"points": ["A layout other than the maker's must be proved by test, not by judgement on the day.","Without proof, keep to the sheet.","Record who approved the arrangement and on what evidence."],
+"example": "A request asks to cut the 60 mm clearance to 40 mm to fit one extra breaker. That saves 20 mm per row, which is one third of the clearance. A fitter says it \"looks fine\". That is not proof, so the answer is no unless a test report for that exact arrangement exists. With a report covering 40 mm for that breaker and fault level, the change can go to the designer for approval. Without it, add the breaker in a new row instead. The distances are examples.",
+"activity": "Write a short reply to a customer asking to shrink a clearance. Say no or yes, give the reason, and say what evidence would change the answer.",
+"standard": "Learner declines unproven layouts, names the evidence needed and records the decision."}
+],
+"quiz": [
+{"q": "Why do breakers have vents?","a": "To let hot arc gas escape away from live parts.","module": 1},
+{"q": "What can happen if gas stays close to live parts?","a": "The arc can restart outside the breaker.","module": 1},
+{"q": "What is a bare bar close to a vent a risk of?","a": "Hot conductive gas can reach it and cause a second fault.","module": 1},
+{"q": "Name two things you must not do around vents.","a": "Block them, or use bare conductors where insulated ones are required.","module": 2},
+{"q": "The maker needs 60 mm above vents and the cover is 45 mm above. What is the shortfall?","a": "15 mm.","module": 2},
+{"q": "What do phase separators do?","a": "They keep phases apart and leave the vents free.","module": 2},
+{"q": "A board has fixed, plug-in and withdrawable breakers. How many installation sheets apply?","a": "Three, one for each fixing style.","module": 3},
+{"q": "Four plug-in breakers each need 2 separators. How many in total?","a": "Eight.","module": 3},
+{"q": "A fitter says a 40 mm clearance looks fine when 60 mm is required. What is the answer?","a": "No, unless a test proves that exact arrangement.","module": 4},
+{"q": "What should you record when a non-standard layout is approved?","a": "Who approved it and the test evidence used.","module": 4}
+],
+"ladder": [
+{"title": "L1 Basic: Where does the gas go","slide": "Cross-section of a breaker with an arrow out of the top vent.","notes": "Ask where the hot gas goes when a fault opens. Introduce vents as the answer."},
+{"title": "L2 Explain: Why keep them clear","slide": "Two pictures: open vent with the plume directed away from live parts, blocked vent with gas pushed sideways.","notes": "Explain arc restart. Keep language plain and avoid any step that involves live equipment."},
+{"title": "L3 Apply: The checklist","slide": "Six-line checklist: vents clear, clearance met, separators fitted, insulated links, right sheet, record kept.","notes": "Learners apply it to a drawing. Use the 60 mm against 45 mm case and find the 15 mm shortfall."},
+{"title": "L4 Analyse: Three styles","slide": "Table of fixed, plug-in and withdrawable with columns for cover and separator rules.","notes": "Stress reading the sheet for each style. Count separators for the plug-in group together."},
+{"title": "L5 Design: Row layout","slide": "A row of eight breakers with a cover plate and a ruler marked in millimetres.","notes": "Learners adjust the cover height to meet the clearance. Remind them that fitting and changes belong to qualified people following local rules."},
+{"title": "L6 Evaluate: The tight-fit request","slide": "A customer note asking to cut clearance from 60 mm to 40 mm.","notes": "Debate the reply. The key point is that proof comes from test evidence, not opinion."},
+{"title": "L7 Create: Fitting record","slide": "Blank record: breaker, style, sheet used, clearance, separators, approver, date.","notes": "Each learner completes a record for an invented board. Check that the approver and the evidence are named. Close with the safety message."}
+],
+"rubric": [
+{"criterion": "Explaining the vents","not_yet": "Thinks vents are for cooling or decoration.","meets": "Explains that vents release arc gas away from live parts.","exceeds": "Explains arc restart and links it to clearance and insulated links."},
+{"criterion": "Applying the rules","not_yet": "Misses blocked vents or bare conductors.","meets": "Uses a checklist and finds clearance shortfalls with numbers.","exceeds": "Also counts parts by fixing style and spots mixed-sheet errors."},
+{"criterion": "Handling alternatives","not_yet": "Accepts a tighter layout because it looks fine.","meets": "Declines unproven layouts and asks for test evidence.","exceeds": "Offers a compliant alternative and records the decision."},
+{"criterion": "Safe working attitude","not_yet": "Suggests changes on live equipment.","meets": "States qualified people follow the sheet and local rules.","exceeds": "Also says when to stop and ask the maker or designer."}
+],
+"jobs": [
+{"role": "Switchgear assembler","what": "Fits breakers and covers to the maker's sheet and checks clearances."},
+{"role": "Design engineer","what": "Plans board layouts and decides when a non-standard layout needs test evidence."},
+{"role": "Quality checker","what": "Verifies clearances, separators and records against the build checklist."},
+{"role": "Service technician","what": "Inspects fitted breakers during planned maintenance, following site rules and the maker's guidance."}
+]
+}

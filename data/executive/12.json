@@ -1,0 +1,253 @@
+{
+ "task": "Map stakeholders, test a public-private deal and design a multi-sector body that is fair and measured.",
+ "condition": "Given a firm case with stakeholder data, project costs, tax figures and a programme budget. All money figures are in one currency of your choice.",
+ "standard": "Scores, shares and ratios are correct, the deal has a profit cap and no two sectors can pass a motion alone.",
+ "who": "Leaders who work with governments, communities and partners.",
+ "modules": [
+  {
+   "title": "The social contract idea",
+   "bloom": "Understand: explain",
+   "hours": 9,
+   "intro": "A social contract is the unwritten deal between a firm and the society that lets it operate. The firm gets a licence to trade and in return meets duties to the public.",
+   "points": [
+    "Rights come with duties",
+    "Legal permission is the floor, not the goal",
+    "Consent of those affected matters"
+   ],
+   "example": "A mine employs 800 people in a town of 20,000, so it supports 4% of the town directly. Each job also supports about 2 other jobs, so the wider effect is 800 x 2 = 1,600 jobs. The mine also uses 30% of the town's water. The contract is fair only if jobs and local tax are matched by a plan to protect water. The firm agrees to cut its water use by 10%, which brings it to 27% of supply.",
+   "activity": "Take a firm in a small town. State what the town gives and gets, with two numbers.",
+   "standard": "Two gives and two gets are stated, with at least two numbers, and a fair-deal test is applied."
+  },
+  {
+   "title": "Mapping stakeholders",
+   "bloom": "Apply: score",
+   "hours": 10,
+   "intro": "A stakeholder is anyone who can affect the firm or is affected by it. A map ranks them by power and by interest so effort goes where it matters.",
+   "points": [
+    "Score power and interest from 1 to 5",
+    "Multiply to rank",
+    "Plan a different action for each rank"
+   ],
+   "example": "Five groups are scored. Regulator: power 5, interest 4, score 20. Local residents: power 2, interest 5, score 10. Staff union: power 4, interest 5, score 20. Shareholders: power 5, interest 3, score 15. Suppliers: power 3, interest 2, score 6. The regulator and the union tie at 20 and get monthly meetings. Residents are scored low on power, so a rule is added that any group with interest 5 is heard at least twice a year.",
+   "activity": "Score six stakeholders for a new factory and rank them by power times interest.",
+   "standard": "Scores are multiplied correctly, the ranking is shown and one rule protects low-power groups."
+  },
+  {
+   "title": "Roles of business, state and civil society",
+   "bloom": "Analyse: compare",
+   "hours": 9,
+   "intro": "Business makes and sells, the state sets rules and collects tax, and civil society speaks for groups who lack power. Each can fail and each checks the others.",
+   "points": [
+    "Business: goods, jobs, profit",
+    "State: law and public goods",
+    "Civil society: voice and watching"
+   ],
+   "example": "Worked-example figures, in your currency. A firm earns 10 million profit. At an example tax rate of 25% the state receives 2.5 million. The firm funds a training scheme of 400,000, which is 4% of profit. A local group runs the scheme and reports on results. The firm's cost, the state's income and the group's duty to report are all clear. If the group is not independent, no one checks the firm, so the firm asks for an outside review each year.",
+   "activity": "Make a three-column table of what each sector does in one real or case project and name one check between them.",
+   "standard": "Each sector has two duties, one check is named and one money figure is shown."
+  },
+  {
+   "title": "Public and private partnerships",
+   "bloom": "Evaluate: assess",
+   "hours": 10,
+   "intro": "In a partnership, the state and a firm share the cost and risk of a public project. The terms must protect the public from paying too much.",
+   "points": [
+    "Who pays and who carries risk",
+    "Length of the deal",
+    "Open accounts and exit terms"
+   ],
+   "example": "Worked-example figures, in your currency. A road costs 60 million. The firm pays 40 million (two thirds) and the state pays 20 million. The firm earns tolls of 5 million a year over 20 years, which is 100 million. The firm's gain is 100 - 40 = 60 million over 20 years, ignoring running costs, a 150% return on its money. That looks high, so the contract sets a cap of 8% a year on the firm's profit, which is 3.2 million on 40 million, and any extra goes to the state.",
+   "activity": "A bridge costs 30 million, the firm pays half, tolls are 2 million a year for 25 years. Work out the firm's gain and a fair cap.",
+   "standard": "The gain is 35 million, the return is stated as a percentage and a cap is proposed with a number."
+  },
+  {
+   "title": "Rights and duties",
+   "bloom": "Apply: sort",
+   "hours": 9,
+   "intro": "Rights are claims people have. Duties are what others must do so those claims are met. A firm must know which duties it owes to whom.",
+   "points": [
+    "Staff: safe work, fair pay",
+    "Customers: honest goods",
+    "Community: no serious harm"
+   ],
+   "example": "A firm lists 12 duties. 5 are to staff, 4 are to customers and 3 are to the community, which is 42%, 33% and 25%. A review checks which duties have a named owner and a measure. 9 of the 12 do, which is 75%. The 3 without owners are all community duties, so the firm sets a rule that every duty has an owner and a measure within 90 days.",
+   "activity": "List 10 duties for a firm, assign each to a group, and count how many have an owner and a measure.",
+   "standard": "Each duty has a group, the percentages are correct and gaps are named."
+  },
+  {
+   "title": "Tax and the licence to operate",
+   "bloom": "Apply: calculate",
+   "hours": 10,
+   "intro": "Paying fair tax is part of the social contract. Moving profit to avoid tax may be legal but can harm the licence to operate.",
+   "points": [
+    "Pay tax where the value is made",
+    "Publish a tax summary",
+    "Explain choices to the public"
+   ],
+   "example": "Worked-example figures, in your currency. A firm earns 40 million, with 70% of sales in country A, 20% in B and 10% in C. Tax should follow the sales, which gives 28 million, 8 million and 4 million of profit. The firm instead books all 40 million in a low-tax place. At an example rate of 10% the tax is 4 million. At an example rate of 25% on the sales basis the tax would be 10 million. The gap is 6 million, and the firm decides to publish the figures and align the booking with sales.",
+   "activity": "Split 24 million profit by sales shares of 50%, 30% and 20%, then compute tax at 20% on each part.",
+   "standard": "Profits are 12, 7.2 and 4.8 million, tax is 4.8 million in total and the sum is checked."
+  },
+  {
+   "title": "Multi-party governance bodies",
+   "bloom": "Create: design",
+   "hours": 9,
+   "intro": "Some bodies bring business, state and civil society to one table. Their rules on seats, votes and reports decide whether they are fair.",
+   "points": [
+    "Seats for each sector",
+    "Voting rule that stops one sector dominating",
+    "Public minutes"
+   ],
+   "example": "A body has 9 seats: 3 business, 3 state, 3 civil society. A decision needs 6 of 9 votes. Business alone has 3, so cannot pass anything. A block of business and state has 6 and could pass a motion without civil society. To prevent that, the rule adds that the 6 votes must include at least 1 vote from each of the 3 sectors. Now no two sectors can pass a motion alone.",
+   "activity": "Design a 12-seat body with three sectors and a voting rule that stops any two sectors passing a motion alone.",
+   "standard": "Seats add to 12 and the voting rule is checked against all three two-sector blocks."
+  },
+  {
+   "title": "Measuring social value",
+   "bloom": "Evaluate: measure",
+   "hours": 9,
+   "intro": "Social value is the benefit to people compared with the cost. A simple ratio helps compare programmes.",
+   "points": [
+    "Count benefits in money where fair",
+    "Divide benefit by cost",
+    "Report what could not be counted"
+   ],
+   "example": "Worked-example figures, in your currency. A job programme costs 500,000 and places 120 people. Each placement saves 6,000 a year in benefits paid and earns tax of 2,000. Yearly benefit is 120 x (6,000 + 2,000) = 960,000. The ratio is 960,000 / 500,000 = 1.92, so each unit of cost returns 1.92. A second programme costs 300,000 and places 50 people worth 8,000 each a year, giving 400,000 / 300,000 = 1.33. The first is better value, but the report also notes who was not reached.",
+   "activity": "A scheme costs 250,000 and places 40 people with a yearly value of 7,000 each. Work out the ratio.",
+   "standard": "Benefit is 280,000, ratio is 1.12 and one uncounted effect is named."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "A plant employs 500 people and each job supports 1.5 other jobs. How many other jobs?",
+   "a": "750.",
+   "module": 1
+  },
+  {
+   "q": "Power 4 and interest 3. What is the score?",
+   "a": "12.",
+   "module": 2
+  },
+  {
+   "q": "A firm pays 25% tax on 8 million profit. What does the state receive?",
+   "a": "2 million.",
+   "module": 3
+  },
+  {
+   "q": "A firm pays 15 million for a road costing 45 million. What share is that?",
+   "a": "One third, or 33%.",
+   "module": 4
+  },
+  {
+   "q": "A firm has 8 duties and 6 have an owner. What percent have an owner?",
+   "a": "75%.",
+   "module": 5
+  },
+  {
+   "q": "Profit of 30 million is split 60% to A and 40% to B. What is B's share?",
+   "a": "12 million.",
+   "module": 6
+  },
+  {
+   "q": "A body has 10 seats, 4 business, 3 state, 3 civil society. Which sector block has a majority alone?",
+   "a": "None, since business has 4 of 10.",
+   "module": 7
+  },
+  {
+   "q": "A programme costs 400,000 and gives a yearly value of 520,000. What is the ratio?",
+   "a": "1.3.",
+   "module": 8
+  },
+  {
+   "q": "What is the difference between a right and a duty?",
+   "a": "A right is a claim a person has. A duty is what others must do for that claim to be met.",
+   "module": 5
+  },
+  {
+   "q": "Why add a rule that every interested group is heard twice a year?",
+   "a": "Low-power groups can score low on a power-times-interest map and would otherwise be ignored.",
+   "module": 2
+  }
+ ],
+ "ladder": [
+  {
+   "title": "L1 Basic: The social contract",
+   "slide": "A slide shows a firm, a community and an arrow each way of gives and gets.",
+   "notes": "Say: the firm needs consent. Check: ask what a mine gives and takes. Mistake: saying law alone is enough."
+  },
+  {
+   "title": "L2 Basic: Stakeholders",
+   "slide": "A list of groups on a grid with power and interest.",
+   "notes": "Say: anyone affected counts. Check: name one low-power group. Mistake: only listing groups that can sue."
+  },
+  {
+   "title": "L3 Core: Three sectors",
+   "slide": "A table of business, state and civil society with duties and failures.",
+   "notes": "Say: each checks the others. Check: name one failure of each. Mistake: treating the state as the only guard."
+  },
+  {
+   "title": "L4 Core: Partnerships",
+   "slide": "A cost split and a profit cap on a road project.",
+   "notes": "Say: look at who pays and who earns. Check: work out the return. Mistake: signing without a cap."
+  },
+  {
+   "title": "L5 Applied: Rights and duties",
+   "slide": "A list of 12 duties sorted by group with owners.",
+   "notes": "Say: a duty with no owner is not done. Check: count owners. Mistake: listing values with no measure."
+  },
+  {
+   "title": "L6 Applied: Tax and licence",
+   "slide": "A profit split by sales shares and the tax on each part.",
+   "notes": "Say: tax follows value. Check: compute one share. Mistake: arguing only that it is legal."
+  },
+  {
+   "title": "L7 Advanced: Governance bodies and value",
+   "slide": "A seat plan with a voting rule and a social value ratio.",
+   "notes": "Say: design the votes before the fight. Check: test each two-sector block. Mistake: giving one sector a hidden majority."
+  }
+ ],
+ "rubric": [
+  {
+   "criterion": "Stakeholder analysis",
+   "not_yet": "Groups listed without scores.",
+   "meets": "Scores multiplied and ranked correctly.",
+   "exceeds": "Also adds a rule that protects low-power groups."
+  },
+  {
+   "criterion": "Sector roles",
+   "not_yet": "Roles are blurred.",
+   "meets": "Each sector has duties and one check is named.",
+   "exceeds": "Also tests what happens when one sector fails."
+  },
+  {
+   "criterion": "Money working",
+   "not_yet": "Figures are wrong or missing.",
+   "meets": "Shares, tax or ratio are correct.",
+   "exceeds": "Also compares two options and states the better one."
+  },
+  {
+   "criterion": "Governance design",
+   "not_yet": "Seats or votes let one sector dominate.",
+   "meets": "Seats add up and no block of two sectors can pass alone.",
+   "exceeds": "Also adds public minutes and review dates."
+  }
+ ],
+ "jobs": [
+  {
+   "role": "Public affairs manager",
+   "what": "Maps stakeholders and plans engagement."
+  },
+  {
+   "role": "Partnership manager",
+   "what": "Negotiates terms for projects shared with the state."
+  },
+  {
+   "role": "Sustainability analyst",
+   "what": "Measures social value and reports it."
+  },
+  {
+   "role": "Corporate governance secretary",
+   "what": "Sets seats, votes and minutes for oversight bodies."
+  }
+ ]
+}

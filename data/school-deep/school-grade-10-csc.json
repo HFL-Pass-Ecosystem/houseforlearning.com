@@ -1,0 +1,225 @@
+{
+ "slug": "school-grade-10-csc.html",
+ "plan": "grade-10",
+ "subject": "CSC",
+ "subject_name": "Computer science",
+ "kind": "comp",
+ "label": "Grade 10",
+ "band": "secondary",
+ "level": 4,
+ "weeks": 36,
+ "task": "Meet the outcome of every unit in Grade 10 Computer science, and keep one piece of evidence for each.",
+ "condition": "A 36-week school year, 4 units, a teacher or guide, a learning book or device, and local examples in the local language first with English support.",
+ "standard": "Each unit: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. Course pass: no unit at 'Not yet' after one retry, and a pass in SA1 and SA2.",
+ "modules": [
+  {
+   "n": 1,
+   "title": "Python: functions, files and data structures",
+   "bloom": "Apply",
+   "weeks": [
+    1,
+    11
+   ],
+   "hours": 33,
+   "outcome": "write programs using lists, dictionaries and files",
+   "intro": "In this unit, 'Python: functions, files and data structures', you learn to write programs using lists, dictionaries and files. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Python: functions, files and data structures' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: write programs using lists, dictionaries and files. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Solved: name = 'Learner'; total = 0; for n in [3, 5, 7]: total = total + n; print(name, total) prints Learner 15. Trace each line to check. Method: Model run for 'Python: functions, files and data structures'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Write programs using lists, dictionaries and files: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Write a function: A learner writes def average(nums): return sum(nums) / len(nums). Calling average([72, 91, 65, 88]) adds 316 and divides by 4, returning 79.0. A function packages one job so it can be reused without rewriting.",
+    "Step 2, Use a dictionary: He stores marks = {'Learner 1': 72, 'Learner 2': 91, 'Learner 3': 65, 'Learner 4': 88}. marks['Learner 2'] gives 91. A dictionary looks up a value by its key, which is faster to read than searching a list by position.",
+    "Step 3, Write to a file: with open('scores.txt', 'w') as f: for n, m in marks.items(): f.write(n + ',' + str(m) + '\\n'). The file has 4 lines such as Learner 1,72. The with block closes the file safely at the end.",
+    "Step 4, Read it back: with open('scores.txt') as f: lines = f.read().splitlines() gives a list of 4 strings. For each line, n, m = line.split(',') separates the name and text number, and data[n] = int(m) rebuilds a dictionary.",
+    "Step 5, Use a list and dictionary together: best = max(data, key=data.get) returns 'Learner 2', because Learner 2 has the highest value, 91. print(best, data[best]) displays Learner 2 91. print(average(list(data.values()))) shows 79.0, the same as before.",
+    "Step 6, Test an edge case: If scores.txt is missing, open raises FileNotFoundError. He wraps the reading in try and except FileNotFoundError and prints 'No file yet'. Handling errors stops the program from crashing.",
+    "Your turn: stock = {'apple': 5, 'pear': 3, 'plum': 4}. Write code for the total and the most stocked item. Model answer: total = sum(stock.values()) gives 12; best = max(stock, key=stock.get) gives 'apple'."
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Databases and SQL",
+   "bloom": "Create",
+   "weeks": [
+    12,
+    22
+   ],
+   "hours": 33,
+   "outcome": "design and query a small database",
+   "intro": "In this unit, 'Databases and SQL', you learn to design and query a small database. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Databases and SQL' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: design and query a small database. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Solved: SELECT name, marks FROM students WHERE marks > 80 ORDER BY marks DESC; returns the students above 80, highest first. Method: Model run for 'Databases and SQL'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Design and query a small database: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Design two tables: A learner separates people from marks. students(student_id, name) and marks(student_id, subject, mark). student_id is the primary key in students and a foreign key in marks, so each mark points to one student.",
+    "Step 2, Create and fill: CREATE TABLE students (student_id INTEGER PRIMARY KEY, name TEXT); and CREATE TABLE marks (student_id INTEGER, subject TEXT, mark INTEGER); then INSERT students (1,'Learner 1'),(2,'Learner 2') and marks (1,'Maths',72),(1,'Science',80),(2,'Maths',91),(2,'Science',85). That is 2 students and 4 marks.",
+    "Step 3, Why two tables: Names are stored once, not repeated in every mark row. If Learner 2 changed their name, only 1 row in students changes, not 2 rows in marks. This avoids repeated data and mistakes.",
+    "Step 4, Join: SELECT s.name, m.subject, m.mark FROM students s JOIN marks m ON s.student_id = m.student_id WHERE m.mark >= 80 ORDER BY m.mark DESC; returns Learner 2 Maths 91, Learner 2 Science 85, Learner 1 Science 80. Learner 1's 72 fails the WHERE test.",
+    "Step 5, Group: SELECT s.name, AVG(m.mark) FROM students s JOIN marks m ON s.student_id = m.student_id GROUP BY s.name; returns Learner 1 76.0 and Learner 2 88.0. Check: Learner 1 is (72 plus 80) divided by 2 is 76; Learner 2 is (91 plus 85) divided by 2 is 88.",
+    "Step 6, Check for mistakes: A mark with student_id 3 would match no student, so the join would not show it. The learner runs SELECT COUNT(*) FROM marks; and gets 4, then checks the join returns the 4 matching rows.",
+    "Your turn: Tables books(book_id, title) and loans(book_id, days) with books (1,'Sea'),(2,'Sky') and loans (1,7),(1,5),(2,10). Average days per title? Model answer: join on book_id, GROUP BY title; Sea is (7 plus 5) divided by 2, which is 6.0; Sky is 10.0."
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Artificial intelligence project cycle",
+   "bloom": "Create",
+   "weeks": [
+    23,
+    33
+   ],
+   "hours": 33,
+   "outcome": "plan a small data project from problem to evaluation",
+   "intro": "In this unit, 'Artificial intelligence project cycle', you learn to plan a small data project from problem to evaluation. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Artificial intelligence project cycle' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: plan a small data project from problem to evaluation. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Solved: AI project cycle: problem scoping, data, exploration, modelling, evaluation, deployment. Example: predict marks from study hours. Method: Model run for 'Artificial intelligence project cycle'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Plan a small data project from problem to evaluation: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Scope the problem: A learner's team asks, 'Which students are likely to return library books late?' The goal is a yes or no prediction so a librarian can send a reminder. They write the problem, who it helps and what a good result means.",
+    "Step 2, Acquire data: They use 250 anonymous loan records with 3 columns: number of books out, days since last visit, and returned late yes or no. Names are removed to protect privacy, and the data is used only for this project.",
+    "Step 3, Explore and prepare: They find 12 rows with empty values and remove them, leaving 238. They check balance: 175 returned on time and 63 late. If the model always guessed on time it would be right 175 of 238, about 73.5 percent.",
+    "Step 4, Split: They keep 188 rows for training and 50 for testing, since 188 plus 50 is 238. The model must be tested on rows it has never seen, otherwise it may only memorise the data.",
+    "Step 5, Evaluate: On the 50 test cases the model gets TP 18, TN 22, FP 4, FN 6. These total 18 plus 22 plus 4 plus 6, which is 50. Accuracy is (18 plus 22) divided by 50, or 80 percent.",
+    "Step 6, Precision and recall: Precision is 18 divided by (18 plus 4), which is 81.8 percent: of the students predicted late, most were. Recall is 18 divided by (18 plus 6), which is 75 percent: it caught three quarters of the late returns.",
+    "Your turn: A test has TP 10, TN 30, FP 5, FN 5. Find accuracy and recall. Model answer: total 50; accuracy is 40 divided by 50, or 80 percent; recall is 10 divided by 15, which is 66.7 percent."
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Cyber law and ethics",
+   "bloom": "Understand",
+   "weeks": [
+    34,
+    36
+   ],
+   "hours": 9,
+   "outcome": "describe privacy, copyright and responsible AI use",
+   "intro": "In this unit, 'Cyber law and ethics', you learn to describe privacy, copyright and responsible AI use. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Cyber law and ethics' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: describe privacy, copyright and responsible AI use. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Solved: Copying work without credit is plagiarism; breaking into a system without permission is illegal. Always cite sources. Method: Model run for 'Cyber law and ethics'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Describe privacy, copyright and responsible AI use: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Privacy case: A learner's app asks for the user's location, contacts and photos just to show a school timetable. The learner asks, 'What data is really needed?' Only the timetable is needed, so asking for 3 data types is too much.",
+    "Step 2, Apply data minimisation: She keeps only what the function needs and removes location, contacts and photos. Collecting less data lowers the risk if the data leaks, and users must be told clearly what is collected and why.",
+    "Step 3, Copyright case: For a poster she finds a photograph online. The page says 'All rights reserved'. That means she may not copy it without permission. She can ask the owner, use a picture marked free to reuse with credit, or draw her own.",
+    "Step 4, Give credit properly: She picks an image whose licence allows reuse with credit, and writes under it: creator name, title, source website, and licence name. Credit does not replace permission when the work is not licensed.",
+    "Step 5, Responsible AI case: For a history essay she uses an AI tool to draft a paragraph. She checks each fact, rewrites in her own words, and tells her teacher she used AI for a first draft. She does not hand in the draft as her own work.",
+    "Step 6, Cyber law idea: Breaking into someone's account, spreading harmful content or sharing a classmate's private data can be offences under cybercrime and data protection rules. The learner checks the country's current rules or asks the teacher.",
+    "Your turn: Your team wants to use a song on a school video. What do you check? Model answer: check the licence or get permission, use free-to-reuse music with credit, or compose your own; do not just copy it."
+   ]
+  }
+ ],
+ "rubric": [
+  [
+   "It works",
+   "Does not run",
+   "Runs with help",
+   "Runs and handles odd input"
+  ],
+  [
+   "Understanding of the parts",
+   "Cannot name",
+   "Names most",
+   "Names and explains"
+  ],
+  [
+   "Planning",
+   "None",
+   "A list",
+   "A clear ordered plan"
+  ],
+  [
+   "Safety and care",
+   "Needs reminding",
+   "Follows rules",
+   "Follows rules and helps others"
+  ],
+  [
+   "Practice habit",
+   "Rarely",
+   "Weekly",
+   "Most days"
+  ]
+ ],
+ "checks": [
+  [
+   "Unit 1 (Python: functions, files and data structures): Stock = {'apple': 5, 'pear': 3, 'plum': 4}. Write code for the total and the most stocked item.",
+   "total = sum(stock.values()) gives 12; best = max(stock, key=stock.get) gives 'apple'. (Covered in unit 1: Python: functions, files and data structures.)"
+  ],
+  [
+   "Unit 2 (Databases and SQL): Tables books(book_id, title) and loans(book_id, days) with books (1,'Sea'),(2,'Sky') and loans (1,7),(1,5),(2,10). Average days per title?",
+   "join on book_id, GROUP BY title; Sea is (7 plus 5) divided by 2, which is 6.0; Sky is 10.0. (Covered in unit 2: Databases and SQL.)"
+  ],
+  [
+   "Unit 3 (Artificial intelligence project cycle): A test has TP 10, TN 30, FP 5, FN 5. Find accuracy and recall.",
+   "total 50; accuracy is 40 divided by 50, or 80 percent; recall is 10 divided by 15, which is 66.7 percent. (Covered in unit 3: Artificial intelligence project cycle.)"
+  ],
+  [
+   "Unit 4 (Cyber law and ethics): Your team wants to use a song on a school video. What do you check?",
+   "check the licence or get permission, use free-to-reuse music with credit, or compose your own; do not just copy it. (Covered in unit 4: Cyber law and ethics.)"
+  ],
+  [
+   "Unit 1 (Python: functions, files and data structures): Use a dictionary. Show how you do it and say what the result is.",
+   "He stores marks = {'Learner 1': 72, 'Learner 2': 91, 'Learner 3': 65, 'Learner 4': 88}. marks['Learner 2'] gives 91. A dictionary looks up a value by its key, which is faster to read than searching a list by position. (Covered in unit 1: Python: functions, files and data structures.)"
+  ],
+  [
+   "Unit 2 (Databases and SQL): Create and fill. Show how you do it and say what the result is.",
+   "CREATE TABLE students (student_id INTEGER PRIMARY KEY, name TEXT); and CREATE TABLE marks (student_id INTEGER, subject TEXT, mark INTEGER); then INSERT students (1,'Learner 1'),(2,'Learner 2') and marks (1,'Maths',72),(1,'Science',80),(2,'Maths',91),(2,'Science',85). That is 2 students and 4 marks. (Covered in unit 2: Databases and SQL.)"
+  ],
+  [
+   "Unit 3 (Artificial intelligence project cycle): Acquire data. Show how you do it and say what the result is.",
+   "They use 250 anonymous loan records with 3 columns: number of books out, days since last visit, and returned late yes or no. Names are removed to protect privacy, and the data is used only for this project. (Covered in unit 3: Artificial intelligence project cycle.)"
+  ],
+  [
+   "Unit 4 (Cyber law and ethics): Apply data minimisation. Show how you do it and say what the result is.",
+   "She keeps only what the function needs and removes location, contacts and photos. Collecting less data lowers the risk if the data leaks, and users must be told clearly what is collected and why. (Covered in unit 4: Cyber law and ethics.)"
+  ],
+  [
+   "Unit 1 (Python: functions, files and data structures): Write to a file. Show how you do it and say what the result is.",
+   "with open('scores.txt', 'w') as f: for n, m in marks.items(): f.write(n + ',' + str(m) + '\\n'). The file has 4 lines such as Learner 1,72. The with block closes the file safely at the end. (Covered in unit 1: Python: functions, files and data structures.)"
+  ],
+  [
+   "Unit 2 (Databases and SQL): Why two tables. Show how you do it and say what the result is.",
+   "Names are stored once, not repeated in every mark row. If Learner 2 changed their name, only 1 row in students changes, not 2 rows in marks. This avoids repeated data and mistakes. (Covered in unit 2: Databases and SQL.)"
+  ]
+ ],
+ "ladder": [
+  "L1: use a device safely; click, type and draw.",
+  "L2: create documents; follow simple instructions in blocks.",
+  "L3: spreadsheets, algorithms and simple programs.",
+  "L4: programming, data and networks.",
+  "L5: software design, databases and security.",
+  "L6 (degree): software engineering and systems.",
+  "L7 (postgraduate): research, architecture or AI practice."
+ ],
+ "jobs": [],
+ "blooms": [
+  "Understand",
+  "Apply",
+  "Create"
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "module8": [
+  "Capstone: lead a mock engagement and coach a peer",
+  "Create",
+  5,
+  "You now lead a whole mock project from first call to review, then coach someone else.",
+  [
+   "Run discovery, demo, design and estimate for a case study.",
+   "Present the plan to a mock steering group.",
+   "Write a short lessons-learned note and update a template.",
+   "Coach a peer through one step and give useful feedback."
+  ],
+  "A learner runs a discovery call, shows a 15-minute demo, presents a two-page design and an estimate with a 10% buffer, then coaches a peer who forgot to list exclusions.",
+  "Lead a mock engagement for a case study and coach a peer through one step.",
+  "Check that plan, estimate and design agree with each other, and that the peer can name one improvement made."
+ ],
+ "quiz": [
+  [
+   "A customer says 'we need a better dashboard'. Give two open questions you would ask.",
+   "What decision will the dashboard help you make, and who looks at it and how often? Open questions find the real problem behind the request."
+  ],
+  [
+   "Why keep a reusable discovery pack and a lessons-learned note after each project?",
+   "They make good work repeatable, so a new project starts faster and avoids old mistakes. A practice improves when each project adds to shared templates."
+  ],
+  [
+   "How is a story demo different from a feature tour?",
+   "A story demo follows one real case, such as an order from lead to cash, using the customer's own words. A feature tour just lists menus and buttons."
+  ],
+  [
+   "A customer asks in a demo about something the product cannot do. What is the best reply?",
+   "Say honestly that it is not available as standard, explain the nearest option, and note it as a follow-up. Do not promise what you cannot deliver."
+  ],
+  [
+   "What four views should a solution design cover?",
+   "Context, process, data and integration. Add risks and assumptions, and keep to standard features first."
+  ],
+  [
+   "An estimate is 100 days of work. You add a 10% buffer. What is the new total and why add it?",
+   "110 days. The buffer covers surprises such as unclean data or slow customer answers."
+  ],
+  [
+   "What belongs in the exclusions of an estimate?",
+   "Work that is not included, such as extra data clean-up, custom reports not listed, or training for more than the agreed groups. Clear exclusions prevent disputes later."
+  ],
+  [
+   "Mid-project, the customer asks for a new report. How do you handle it?",
+   "Write a change request with the effort and effect on date, get approval, then do the work. Never start before it is approved."
+  ],
+  [
+   "A health check finds 40 of 100 licences unused three months before renewal. What do you do?",
+   "Share the finding with the customer, find the reason such as training or poor fit, and agree an action plan. This builds trust and a fair renewal."
+  ],
+  [
+   "In your capstone, how do you coach a peer well?",
+   "Ask what they were trying to do, point to one strength and one specific improvement, and agree a next step. Keep feedback about the work, not the person."
+  ]
+ ],
+ "ladder": [
+  [
+   "L1 Basic: Know the words",
+   "Remember key terms: discovery, scope, estimate, change request and success measure. Say what each is for.",
+   "Use a simple building project as the example. Check the learner can match term to meaning. Common mistake: mixing up scope and estimate."
+  ],
+  [
+   "L2 Awareness: See the project journey",
+   "Understand the journey from first call to renewal. Explain what a consultant does at each stage.",
+   "Draw the journey on one page. Ask which step the learner thinks matters most and why. Common mistake: thinking the work ends at go-live."
+  ],
+  [
+   "L3 Foundation: Listen and show",
+   "Apply open questions in a mock discovery call and give a short story demo. Write a one-page summary.",
+   "Watch a five-minute call. Check questions are open, not yes or no. Common mistake: talking more than listening."
+  ],
+  [
+   "L4 Practitioner: Design and estimate",
+   "Apply a design on two pages and a work breakdown with a buffer. Analyse risks and assumptions.",
+   "Give a case study and a deadline. Check exclusions are written. Common mistake: hiding assumptions to look confident."
+  ],
+  [
+   "L5 Specialist: Deliver in the open",
+   "Evaluate status, risks and changes in a steering meeting. Analyse whether quality gates are met.",
+   "Run a mock status meeting. Check status is honest and short. Common mistake: reporting everything as green."
+  ],
+  [
+   "L6 Advanced: Grow customer value",
+   "Evaluate health checks and success measures. Create a success plan that links use to value and renewal.",
+   "Review a plan for measures and dates. Check it names an owner. Common mistake: counting logins as value."
+  ],
+  [
+   "L7 Super expert: Build the practice",
+   "Create templates, a skills ladder and review habits that make good work repeatable. Evaluate other consultants' work and coach them.",
+   "Ask for a playbook and a coaching session. Check a peer team can use the playbook. Common mistake: relying on heroes instead of methods."
+  ]
+ ],
+ "quiz_module": [
+  1,
+  7,
+  2,
+  2,
+  3,
+  4,
+  4,
+  5,
+  6,
+  8
+ ]
+}

@@ -1,0 +1,223 @@
+{
+ "slug": "school-grade-05-com.html",
+ "plan": "grade-05",
+ "subject": "COM",
+ "subject_name": "Computing",
+ "kind": "comp",
+ "label": "Grade 05",
+ "band": "primary",
+ "level": 2,
+ "weeks": 36,
+ "task": "Meet the outcome of every unit in Grade 05 Computing, and keep one piece of evidence for each.",
+ "condition": "A 36-week school year, 4 units, a teacher or guide, a learning book or device, and local examples in the local language first with English support.",
+ "standard": "Each unit: at least 4 of 5 attempts correct, said or written, with one real example from home or school. Course pass: no unit at 'Not yet' after one retry, and a pass in SA1 and SA2.",
+ "modules": [
+  {
+   "n": 1,
+   "title": "Advanced word and slide skills",
+   "bloom": "Apply",
+   "weeks": [
+    1,
+    12
+   ],
+   "hours": 36,
+   "outcome": "format a report with headings, images and a table",
+   "intro": "In this unit, 'Advanced word and slide skills', you learn to format a report with headings, images and a table. Lessons are short and playful, with objects, pictures and talk. You see it, say it, then do it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Advanced word and slide skills' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: format a report with headings, images and a table. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Solved: Slide 1 title; slide 2 three bullets of six words or fewer; slide 3 one picture. Check contrast and font size. Method: Model run for 'Advanced word and slide skills'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
+   "standard": "Format a report with headings, images and a table: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": [
+    "Step 1, Plan the report: Rashid writes a one-page report on 'Water at School'. Structure: a title, two headings called 'How We Use Water' and 'How We Can Save It', one picture of a tap, and a small table of daily use.",
+    "Step 2, Apply styles: He types the title and sets it to Title style, then selects each heading line and applies Heading 1. Using styles rather than changing size by hand lets the program keep headings consistent and build a contents list later.",
+    "Step 3, Insert a table: Under the first heading he clicks Insert, Table, and chooses 3 columns by 4 rows. Row 1 holds Place, Litres, Times; rows 2 to 4 hold Sink 10 2, Toilet 6 3, Garden 20 1. The table has 4 rows including the header.",
+    "Step 4, Check the total: Rashid works out the daily litres: sink 10 times 2 is 20, toilet 6 times 3 is 18, garden 20 times 1 is 20. The total is 20 plus 18 plus 20, so 58 litres, which he types under the table.",
+    "Step 5, Insert the picture and caption: He inserts tap.png beside the second heading, sets text wrapping to Square, shrinks it to a quarter page width, and adds the caption 'Turn off the tap'. Alt text says 'A running tap'.",
+    "Step 6, Slide version: He makes one summary slide titled 'Save 58 Litres?' with three bullets: Fix leaks, Turn off taps, Water plants early. Then he saves the report as 'water-report' and the slides as 'water-slides'.",
+    "Your turn: Add a table of 3 rows for daily steps (Mon 4000, Tue 5000, Wed 6000). Total? Model answer: Insert Table, 2 columns by 4 rows with a header row; total is 4000 plus 5000 plus 6000, which is 15000 steps."
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Programming with blocks and sprites",
+   "bloom": "Create",
+   "weeks": [
+    13,
+    24
+   ],
+   "hours": 36,
+   "outcome": "build a game with variables and conditions",
+   "intro": "In this unit, 'Programming with blocks and sprites', you learn to build a game with variables and conditions. Lessons are short and playful, with objects, pictures and talk. You see it, say it, then do it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Programming with blocks and sprites' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: build a game with variables and conditions. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Solved: Python: for i in range(3): print('Hi') prints Hi three times. Blocks: when flag clicked, repeat 10: move 10 steps. For functions: def square(n): return n * n; square(4) gives 16. Method: Model run for 'Programming with blocks and sprites'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
+   "standard": "Build a game with variables and conditions: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": [
+    "Step 1, Plan the game: a cat sprite catches falling stars and avoids rocks. Make two variables. Click the start flag, then use the blocks set score to 0 and set lives to 3. Variables are named boxes that store numbers, and the game reads them as it runs.",
+    "Step 2, Add movement and conditions. Under forever, add: if touching star then change score by 1. Add: if touching rock then change lives by -1. A condition is an if question; the blocks inside run only when the answer is yes. A hidden star or rock does not change anything.",
+    "Step 3, Add an ending. Inside forever add: if lives = 0 then say Game over and stop all. Test with a pretend list of events: star, star, rock, star, rock, rock. Score goes 1, 2, 2, 3, 3, 3 and lives go 3, 3, 2, 2, 1, 0, so the game stops with a score of 3.",
+    "Step 4, Make it harder with a condition on the score. Add set speed to 5 at the start, then: if score = 5 then change speed by 1. The stars now fall faster once you reach 5 points. Use = for exact tests, or greater than blocks for at least that many.",
+    "Step 5, Test and debug. Play three times and watch the variable boxes on the stage. If lives drops by more than 1 for one rock, the rock is touching for many frames; add wait 1 second after the change. Fix one bug at a time and test again after each fix.",
+    "Step 6, Your turn: add a bonus star worth 5 points. What are the score and lives after the events star, bonus, rock? Answer: score 1 + 5 = 6 and lives 3 - 1 = 2, using if touching bonus then change score by 5."
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Spreadsheets and charts",
+   "bloom": "Apply",
+   "weeks": [
+    25,
+    32
+   ],
+   "hours": 24,
+   "outcome": "use simple formulas and choose a chart",
+   "intro": "In this unit, 'Spreadsheets and charts', you learn to use simple formulas and choose a chart. Lessons are short and playful, with objects, pictures and talk. You see it, say it, then do it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Spreadsheets and charts' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: use simple formulas and choose a chart. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Solved: Cells A1 = 12, A2 = 18, A3 = 20. In A4 type =SUM(A1:A3) to get 50. =AVERAGE(A1:A3) gives 16.67. Change A1 and the totals update. Method: Model run for 'Spreadsheets and charts'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
+   "standard": "Use simple formulas and choose a chart: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": [
+    "Step 1, Enter data: Lubna records pocket money saved each day: Monday 5, Tuesday 8, Wednesday 6, Thursday 7, Friday 9. She puts days in A2:A6 and amounts in B2:B6, with headers in row 1.",
+    "Step 2, SUM: In B7 she types =SUM(B2:B6). The result is 35, because 5 plus 8 is 13, 13 plus 6 is 19, 19 plus 7 is 26, and 26 plus 9 is 35. A formula starts with an equals sign.",
+    "Step 3, AVERAGE: In B8 she types =AVERAGE(B2:B6) and gets 7, since 35 divided by 5 days is 7. She also types =MAX(B2:B6) in B9 and gets 9, and =MIN(B2:B6) in B10 and gets 5.",
+    "Step 4, Choose chart: She wants to compare amounts across 5 separate days, so she picks a column chart of A1:B6. A pie chart would be wrong because the days are not parts of one whole choice.",
+    "Step 5, Edit and read: She titles the chart 'Savings per Day', labels the vertical axis 'Amount saved', and notes Friday is the tallest bar at 9 while Monday is the shortest at 5. Friday minus Monday is 4.",
+    "Step 6, Change a number: She changes Wednesday from 6 to 10. The sum becomes 39 and the average becomes 7.8 because 39 divided by 5 is 7.8. The chart bar for Wednesday grows by itself, which shows formulas update automatically.",
+    "Your turn: Rainfall in mm for Jan to Apr is 20, 15, 10, 5. Find the sum, average and chart type. Model answer: sum is 50, average is 12.5, and a line chart suits a change over time, showing a steady fall."
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Safe and responsible internet use",
+   "bloom": "Apply",
+   "weeks": [
+    33,
+    36
+   ],
+   "hours": 12,
+   "outcome": "check if a website is trustworthy and give credit",
+   "intro": "In this unit, 'Safe and responsible internet use', you learn to check if a website is trustworthy and give credit. Lessons are short and playful, with objects, pictures and talk. You see it, say it, then do it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Safe and responsible internet use' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: check if a website is trustworthy and give credit. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Solved: Before posting ask: would I say this face to face, and would I be happy if a teacher saw it? Everything you post can be copied. Method: Model run for 'Safe and responsible internet use'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
+   "standard": "Check if a website is trustworthy and give credit: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": [
+    "Step 1, The task: Hind researches 'How tall is the tallest tree?' She finds two pages. One is from a university science department, with an author name and a date. The other is a pop-up filled page with no author and loud claims.",
+    "Step 2, Check the source: She asks four questions. Who wrote it, when, why, and can I find the same fact elsewhere? Page one answers all four. Page two shows no author, no date and tries to sell something, so she trusts it less.",
+    "Step 3, Check the address: She looks at the address bar. Page one ends in a school or university style address and begins with https and a padlock sign. The padlock shows a secure connection, but it does not prove the facts are right.",
+    "Step 4, Cross-check: She finds the same height in two more trusted pages: a science museum article and a forestry encyclopedia. Three trustworthy sources agree, so she is confident. One source alone is not enough.",
+    "Step 5, Give credit: She writes the fact in her own words, 'The tallest living trees are well over 100 metres tall, so check the current figure,' and adds a source line: author, page title, website name, and date visited. Copying words without credit is not honest.",
+    "Step 6, Safe use: While searching she closes a pop-up that asks for her name and email, and she tells her teacher. Only the school's trusted site needed her login. She keeps personal details private.",
+    "Your turn: A blog with no author claims a new fruit cures all illness. How do you check it? Model answer: no author or date and an unlikely claim means checking trusted health sources, and if none agree, do not trust it."
+   ]
+  }
+ ],
+ "rubric": [
+  [
+   "It works",
+   "Does not run",
+   "Runs with help",
+   "Runs and handles odd input"
+  ],
+  [
+   "Understanding of the parts",
+   "Cannot name",
+   "Names most",
+   "Names and explains"
+  ],
+  [
+   "Planning",
+   "None",
+   "A list",
+   "A clear ordered plan"
+  ],
+  [
+   "Safety and care",
+   "Needs reminding",
+   "Follows rules",
+   "Follows rules and helps others"
+  ],
+  [
+   "Practice habit",
+   "Rarely",
+   "Weekly",
+   "Most days"
+  ]
+ ],
+ "checks": [
+  [
+   "Unit 1 (Advanced word and slide skills): Add a table of 3 rows for daily steps (Mon 4000, Tue 5000, Wed 6000). Total?",
+   "Insert Table, 2 columns by 4 rows with a header row; total is 4000 plus 5000 plus 6000, which is 15000 steps. (Covered in unit 1: Advanced word and slide skills.)"
+  ],
+  [
+   "Unit 2 (Programming with blocks and sprites): Add a bonus star worth 5 points. What are the score and lives after the events star, bonus, rock?",
+   "score 1 + 5 = 6 and lives 3 - 1 = 2, using if touching bonus then change score by 5. (Covered in unit 2: Programming with blocks and sprites.)"
+  ],
+  [
+   "Unit 3 (Spreadsheets and charts): Rainfall in mm for Jan to Apr is 20, 15, 10, 5. Find the sum, average and chart type.",
+   "sum is 50, average is 12.5, and a line chart suits a change over time, showing a steady fall. (Covered in unit 3: Spreadsheets and charts.)"
+  ],
+  [
+   "Unit 4 (Safe and responsible internet use): A blog with no author claims a new fruit cures all illness. How do you check it?",
+   "no author or date and an unlikely claim means checking trusted health sources, and if none agree, do not trust it. (Covered in unit 4: Safe and responsible internet use.)"
+  ],
+  [
+   "Unit 1 (Advanced word and slide skills): Apply styles. Show how you do it and say what the result is.",
+   "He types the title and sets it to Title style, then selects each heading line and applies Heading 1. Using styles rather than changing size by hand lets the program keep headings consistent and build a contents list later. (Covered in unit 1: Advanced word and slide skills.)"
+  ],
+  [
+   "Unit 2 (Programming with blocks and sprites): Add movement and conditions. Show how you do it and say what the result is.",
+   "Under forever, add: if touching star then change score by 1. Add: if touching rock then change lives by -1. A condition is an if question; the blocks inside run only when the answer is yes. A hidden star or rock does not change anything. (Covered in unit 2: Programming with blocks and sprites.)"
+  ],
+  [
+   "Unit 3 (Spreadsheets and charts): SUM: In B7 she types =SUM(B2:B6). Show how you do it and say what the result is.",
+   "The result is 35, because 5 plus 8 is 13, 13 plus 6 is 19, 19 plus 7 is 26, and 26 plus 9 is 35. A formula starts with an equals sign. (Covered in unit 3: Spreadsheets and charts.)"
+  ],
+  [
+   "Unit 4 (Safe and responsible internet use): Check the source. Show how you do it and say what the result is.",
+   "She asks four questions. Who wrote it, when, why, and can I find the same fact elsewhere? Page one answers all four. Page two shows no author, no date and tries to sell something, so she trusts it less. (Covered in unit 4: Safe and responsible internet use.)"
+  ],
+  [
+   "Unit 1 (Advanced word and slide skills): Insert a table. Show how you do it and say what the result is.",
+   "Under the first heading he clicks Insert, Table, and chooses 3 columns by 4 rows. Row 1 holds Place, Litres, Times; rows 2 to 4 hold Sink 10 2, Toilet 6 3, Garden 20 1. The table has 4 rows including the header. (Covered in unit 1: Advanced word and slide skills.)"
+  ],
+  [
+   "Unit 2 (Programming with blocks and sprites): Add an ending. Show how you do it and say what the result is.",
+   "Inside forever add: if lives = 0 then say Game over and stop all. Test with a pretend list of events: star, star, rock, star, rock, rock. Score goes 1, 2, 2, 3, 3, 3 and lives go 3, 3, 2, 2, 1, 0, so the game stops with a score of 3. (Covered in unit 2: Programming with blocks and sprites.)"
+  ]
+ ],
+ "ladder": [
+  "L1: use a device safely; click, type and draw.",
+  "L2: create documents; follow simple instructions in blocks.",
+  "L3: spreadsheets, algorithms and simple programs.",
+  "L4: programming, data and networks.",
+  "L5: software design, databases and security.",
+  "L6 (degree): software engineering and systems.",
+  "L7 (postgraduate): research, architecture or AI practice."
+ ],
+ "jobs": [],
+ "blooms": [
+  "Apply",
+  "Create"
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "module8": [
+  "Capstone: audit a learning platform and train the team",
+  "Evaluate",
+  5,
+  "Join all the parts into one review. You check a learning platform from sign-in to certificate, then show others how to run it well.",
+  [
+   "Walk the full learner path: enrol, learn, pass, get a certificate.",
+   "Check users, content versions, reports and integrations for gaps.",
+   "Write a short improvement list ranked by risk and effort.",
+   "Train a new administrator using a simple guide."
+  ],
+  "An audit finds that 12 leavers still have active accounts and one retired unit is still open. You fix both and add a monthly check to the plan.",
+  "Audit a practice platform with 20 users and three courses. Write a one-page report with five findings and run a 15-minute training for a colleague.",
+  "Report has five findings with owners and dates; the colleague can enrol a user and read one report alone."
+ ],
+ "quiz": [
+  [
+   "A learner opens a unit, passes the quiz, but the record shows nothing. Which three parts of the platform do you check?",
+   "Check the learner record (progress and scores), the content package to see if it sends results back, and the course settings for completion rules. The fault is most often in the package tracking."
+  ],
+  [
+   "Fifty new staff start on Monday and all need safety induction. What is the best way to enrol them?",
+   "Import them as users into a group, then use an enrolment rule that adds everyone in that group to the induction course. This is faster and has fewer mistakes than adding each person by hand."
+  ],
+  [
+   "A user list import creates two accounts for the same person. What went wrong and how do you stop it?",
+   "The import did not match on a unique field such as email or staff number. Choose one unique field as the match key and check for duplicates before you import."
+  ],
+  [
+   "A quiz question has a wrong answer key. How do you handle the change so the records stay clear?",
+   "Fix the question, release it as a new version with a note, and decide whether to re-mark past attempts. Keeping version notes makes the records fair and easy to explain."
+  ],
+  [
+   "A certificate is valid for 12 months. How do you make sure learners renew in time?",
+   "Set an expiry date on the certificate and a reminder 30 days before it ends. Add a way for others to verify the certificate is real."
+  ],
+  [
+   "A dashboard shows 40 percent of learners stop at unit 3. What do you do next?",
+   "Look at unit 3 for problems such as length, unclear steps or broken media. Ask a few learners, fix the unit, and check the drop-off again next month."
+  ],
+  [
+   "Why should a team leader see only their own team's report and not everyone's?",
+   "Privacy rules say people should see only the data they need for their role. Setting report access by role protects learners and keeps you within the rules."
+  ],
+  [
+   "HR sends a list of leavers every night. How can it help the platform?",
+   "Link the two systems so the leaver list disables accounts overnight. This stops old accounts being used and keeps licences and records clean."
+  ],
+  [
+   "Your platform was down for a day. What parts of a good service pack would have helped?",
+   "A backup and recovery plan with a tested restore, a named owner, and a contact list. They tell you who acts first and how fast data comes back."
+  ],
+  [
+   "In the capstone audit you find 30 percent of courses have had no learners in a year. What do you recommend?",
+   "Retire or archive the unused courses after checking with their owners, and note it in the yearly improvement list. This reduces clutter and the effort of keeping them up to date."
+  ]
+ ],
+ "ladder": [
+  [
+   "L1 Basic: Know the parts",
+   "Remember the three parts of a learning platform: people, content and records. You can find the main screens and name what each one does.",
+   "Ask learners to point to the three parts on a diagram. Common mistake: mixing up the course with the learner record."
+  ],
+  [
+   "L2 Awareness: Follow a learner",
+   "Understand the path from enrolment to certificate. You can explain in simple words what happens at each step.",
+   "Walk one learner through on screen and pause at each step to ask what is stored. Check they know where the score is kept."
+  ],
+  [
+   "L3 Foundation: Manage users and courses",
+   "Apply the steps to add users, make groups, enrol people and load a unit. You check your work with a short test learner.",
+   "Give a short import file and watch the steps. Common mistake: creating duplicates because there is no unique match field."
+  ],
+  [
+   "L4 Practitioner: Track and report",
+   "Analyse completion, scores and drop-off to find where learners struggle. You build a small dashboard and check it against raw data.",
+   "Ask learners to explain one number in their dashboard. Check that they hide data a role should not see."
+  ],
+  [
+   "L5 Specialist: Connect and improve",
+   "Evaluate how sign-in, HR sync and meetings should connect to the platform. You write a plan for each flow with an owner and a failure plan.",
+   "Challenge each flow with the question what happens when it breaks. Common mistake: forgetting to plan for leavers."
+  ],
+  [
+   "L6 Advanced: Run it as a service",
+   "Create a service pack with roles, audit steps, backups and a yearly review. You set targets and dates that others can follow.",
+   "Review the pack for owners, dates and a tested restore. Look for plans that are only written and never tried."
+  ],
+  [
+   "L7 Super expert: Audit and teach",
+   "Evaluate a whole platform, rank the risks and create an improvement plan. You can train new administrators and lead a yearly review.",
+   "Have the learner audit a sample platform and teach back. Check for clear findings, fair priorities and plain language."
+  ]
+ ],
+ "quiz_module": [
+  1,
+  2,
+  2,
+  3,
+  4,
+  5,
+  5,
+  6,
+  7,
+  8
+ ]
+}

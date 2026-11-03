@@ -1,0 +1,197 @@
+{
+ "price": [
+  2400,
+  1800,
+  40,
+  "load"
+ ],
+ "mods": {
+  "1": {
+   "title": "Understand freight and storage markets",
+   "intro": "Goods move by road, rail, air and sea; storage buffers timing.",
+   "pts": [
+    "Map one route: origin, mode, handover, destination, with times.",
+    "Know cost drivers: distance, weight, speed, handling, empty returns.",
+    "Study cold chain and dangerous goods as special cases.",
+    "Choose a niche: local last-mile, cold storage, small-parcel consolidation.",
+    "Learn each mode's strength: road for flexibility, rail for heavy bulk over distance, air for speed, sea for volume; write one example for each.",
+    "Note seasonal swings such as harvest, holiday peaks and spring road limits; check the provincial weight rule.",
+    "Interview three shippers about volume, timing and damage history."
+   ],
+   "ex": "A shipper sends 12 pallets weekly to three towns. If a loaded trip costs 100 per pallet and empty returns add 30%, the cost is 130 per pallet. Over 12 pallets that is 1,560 instead of 1,200, a difference of 360 a week.",
+   "act": "Map one route with costs.",
+   "std": "Show costs per mode."
+  },
+  "2": {
+   "title": "Know transport and safety rules",
+   "intro": "Transport is regulated.",
+   "pts": [
+    "Commercial driver licensing, hours-of-service and vehicle inspections apply.",
+    "Dangerous goods need training and documents.",
+    "Food and medicine storage need temperature records.",
+    "Cross-border rules need customs paperwork.",
+    "Learn that axle weights and spring road limits are set by the province; check the provincial rule before you plan a load.",
+    "Write a daily pre-trip inspection checklist and keep signed copies.",
+    "Check insurance requirements for carriers and warehouse operators; check the provincial and federal rule."
+   ],
+   "ex": "Row: 'Drive commercial truck | provincial and federal transport rules | licence, logs, inspection | each day | log book'. A second row: 'Store chilled food | food safety rule | temperature log against the limit in the rule | at the interval the rule sets; check it | log sheet'. Date each source.",
+   "act": "Build a rules table.",
+   "std": "Cite a source and a date for every row."
+  },
+  "3": {
+   "title": "Plan routes and warehouse flow",
+   "intro": "Good plans save kilometres and handling.",
+   "pts": [
+    "Group stops by area and time window.",
+    "Load in reverse stop order.",
+    "Warehouse flow: receive, check, put-away, pick, pack, ship.",
+    "Use simple routing software or a spreadsheet to compare route options.",
+    "Order stops by time window first, then by distance.",
+    "Design the dock with separate receiving and shipping areas where possible and keep aisles clear.",
+    "Count touches: every extra handling adds cost and damage risk, so cut one."
+   ],
+   "ex": "Route A: 22 stops in 188 km versus 241 km unplanned. The saving is 53 km, which is 53 / 241 = 22%. At 1.20 per km for fuel and wear that is 63.60 saved per route.",
+   "act": "Plan a 15-stop route two ways.",
+   "std": "Compare distances."
+  },
+  "4": {
+   "title": "Cost per load and per pallet position",
+   "intro": "Know your cost.",
+   "pts": [
+    "List the cost items: vehicle, driver, fuel, insurance and warehouse rent.",
+    "Warehouse cost per pallet per month.",
+    "Utilisation: loaded share of capacity.",
+    "Work out the margin per load and the number of loads needed to cover fixed costs.",
+    "Work out vehicle cost per km: fuel, tires, repairs, depreciation and insurance divided by km driven.",
+    "For the warehouse, divide rent, utilities and labour by pallet positions to get cost per position per month.",
+    "Test a utilisation case: if loads run 70% full, revenue per trip falls."
+   ],
+   "ex": "Load price 2,400; cost 1,800; margin 600 (25%); fixed cost 24,000 a month gives 24,000 / 600 = 40 loads. At 70% utilisation revenue is 2,400 x 0.7 = 1,680 against the same 1,800 cost, a loss of 120 per load. Teaching figures in CAD.",
+   "act": "Build a cost sheet with 70% utilisation case.",
+   "std": "Show the cases."
+  },
+  "5": {
+   "title": "Run on time and damage-free",
+   "intro": "Reliability sells.",
+   "pts": [
+    "Track on-time and damage rates.",
+    "Inspect each load at pickup for damage and secure it before departure.",
+    "Do preventive maintenance on a schedule.",
+    "Handle damage claims fast and keep the customer informed.",
+    "Record arrival time at each stop against the promised window.",
+    "Photograph the load at pickup and at delivery and get a signed receipt.",
+    "Schedule maintenance by kilometres and log it; a missed service goes in the risk register."
+   ],
+   "ex": "On-time 94%: 47 of 50 deliveries arrived in the window. Damage 0.8%: 4 pallets of 500 were damaged. Track both every week and set a target for next month.",
+   "act": "Keep a 4-week delivery log.",
+   "std": "Compute rates."
+  },
+  "6": {
+   "title": "Win shippers and partners",
+   "intro": "Prove reliability.",
+   "pts": [
+    "Prove reliability with trial loads before asking for a long contract.",
+    "Quote in writing with terms.",
+    "Partner with brokers and warehouses.",
+    "Track the funnel from shippers contacted to quotes to customers.",
+    "Write a one-page rate card with minimum charge, waiting time and cancellation terms.",
+    "Offer a trial of five loads at the normal price, judged against an agreed on-time target.",
+    "Ask partner brokers for one thing to improve and record the answer."
+   ],
+   "ex": "Funnel: 25 shippers, 8 quotes, 3 customers. Quote rate is 8 / 25 = 32%, win rate is 3 / 8 = 37.5%, and overall 3 / 25 = 12%. To win six customers you would contact about 50 shippers.",
+   "act": "Pitch three shippers.",
+   "std": "Pitch has numbers."
+  },
+  "7": {
+   "title": "Manage safety, weather and cargo risk",
+   "intro": "Plan for hazards.",
+   "pts": [
+    "Set fatigue and speed controls and follow the hours-of-service rules.",
+    "Plan for winter driving with route alternatives and buffer days.",
+    "Carry cargo insurance that matches the value you move.",
+    "Prevent theft with locked yards, sealed loads and checked drivers.",
+    "Set a rule for when a driver must stop for rest or bad weather, and state that no one is penalised for stopping.",
+    "Prepare a winter kit and check the provincial rule on tires and chains.",
+    "Compare cargo insurance limits with the value of a pallet."
+   ],
+   "ex": "Risk: 'Winter delay | 4 x 3 | buffer days and alerts | dispatcher | each season'. The score is 4 x 3 = 12. If a lost pallet is worth 6,000 and cover is 5,000, 1,000 is uninsured.",
+   "act": "Write a risk register.",
+   "std": "Name an owner for each item."
+  },
+  "8": {
+   "title": "Pilot a lane",
+   "intro": "Prove one route.",
+   "pts": [
+    "Run the pilot for 60 days.",
+    "Measure on-time rate and cost per pallet.",
+    "Stop rule: margin under 10% means re-price.",
+    "Plan growth to more lanes only if the margin holds.",
+    "Choose a lane with a willing shipper and repeat loads, such as two a week.",
+    "Record cost per pallet and on-time rate every week.",
+    "Decide in writing on day 60 whether to continue, re-price or stop."
+   ],
+   "ex": "Margin 22%: at a price of 2,400 the cost is 2,400 x 0.78 = 1,872 and the margin is 528. That is above the 10% stop line (240), so proceed and plan growth.",
+   "act": "Run pilot review.",
+   "std": "Review has decision."
+  }
+ },
+ "quiz": [
+  [
+   "What is utilisation?",
+   "Share of vehicle or space used.",
+   4
+  ],
+  [
+   "Why group stops?",
+   "To cut distance.",
+   3
+  ],
+  [
+   "What logs do drivers keep?",
+   "Hours-of-service logs.",
+   2
+  ],
+  [
+   "Why photograph loads?",
+   "To handle damage claims.",
+   5
+  ],
+  [
+   "What raises cost per pallet?",
+   "Empty return trips.",
+   1
+  ],
+  [
+   "What is on-time rate?",
+   "Deliveries on time divided by all.",
+   5
+  ],
+  [
+   "Who trains for dangerous goods?",
+   "Dangerous goods work needs training and documents.",
+   2
+  ],
+  [
+   "Why buffer days?",
+   "Winter delays.",
+   7
+  ],
+  [
+   "What triggers re-pricing?",
+   "Margin under 10%.",
+   8
+  ],
+  [
+   "Why insure cargo?",
+   "Loss and damage claims.",
+   7
+  ]
+ ],
+ "jobs": [
+  "Dispatcher",
+  "Warehouse associate",
+  "Driver",
+  "Logistics coordinator",
+  "Logistics business owner"
+ ]
+}
