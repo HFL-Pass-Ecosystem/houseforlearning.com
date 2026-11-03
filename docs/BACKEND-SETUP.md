@@ -29,6 +29,18 @@ So GitHub sends the site to the existing Netlify project **houseforlearning** in
    - **anon** (public) key, used for member Log In
    - **service_role** key (secret: never put it in a page or send it by chat or email)
 
+## Step 2b: switch on the learning system (LMS), one time
+Without this, joining and progress are kept in the visitor's own browser ("test mode"). With it, they are kept in the member's account.
+1. In Supabase, open **SQL Editor**, **New query**. Open `supabase/lms.sql` from this repository, copy everything, paste, **Run** ("Success"). Safe to run again.
+2. Nothing new to add in Netlify: the learning system uses the same three Supabase settings as above (`SUPABASE_URL`, `SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_KEY`).
+3. To let someone see the **Facilitator report** page (`/reports.html`), run in SQL Editor: `update public.members set role = 'facilitator' where email = 'their@email';` (use `admin` for yourself).
+4. Sample learners in the report appear only when the Netlify variable `AHFL_DEMO_DATA` is `1` (testing). Leave it unset on the live site.
+
+What a learner can do once this is on: sign up and sign in, join a course (test payment by bank or UPI, nothing is charged), open the same page with every unit, tick units and resume on any device, take the final check (pass mark 70%), get a certificate with a code anyone can check at `/certificate.html`, see everything and their messages at `/members-courses.html`.
+
+Test it on your own computer without Supabase: `node tools/lms/dev-server.mjs` (a local copy of the site with a stand-in database), then `node tools/lms/click_test.js` (clicks through every step in a headless browser).
+Rebuild after changing course pages: `python3 tools/rebuild_all.py` (it also rebuilds the final-check questions).
+
 ## Step 3: connect Netlify to the database (one time)
 1. In Netlify, open the **houseforlearning** project, then **Project configuration**, then **Environment variables**.
 2. Add `SUPABASE_URL` = the Project URL.
