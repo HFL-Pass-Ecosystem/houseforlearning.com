@@ -33,3 +33,6 @@ for f in ('pay.html', 'members-courses.html'):
     if 'access.js' not in t: p.write_text(t.replace('</body>', SCR + '\n</body>', 1))
     t = p.read_text(); t = t.replace('<meta name="robots" content="index,follow">', '<meta name="robots" content="noindex">'); p.write_text(t)
 print('access pages built')
+
+import subprocess
+subprocess.run([sys.executable, str(pathlib.Path(__file__).parent / "externalise_inline_scripts.py"), "pay.html", "members-courses.html"], check=True)
