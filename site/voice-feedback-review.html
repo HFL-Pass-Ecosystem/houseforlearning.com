@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voice feedback list | House for Learning</title>
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#0F85DB">
+<link rel="icon" href="assets/brand/favicon.ico" sizes="any">
+<link rel="stylesheet" href="assets/fonts/fonts.css"><link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/voice-feedback.css">
+<script src="assets/voice-review.js" defer></script>
+</head>
+<body>
+<main class="vfr" id="main">
+<h1>Voice feedback list</h1>
+<div class="box"><p>For the HFL team only. Enter the review code, then press Load. Listen, mark each note, and add a short decision note. Marking a note <strong>approved</strong> does not change any page: changes are made only after the team says yes.</p>
+<p class="row"><label for="vfCode">Review code</label> <input id="vfCode" type="password" autocomplete="off"> <label for="vfFilter">Show</label> <select id="vfFilter"><option value="">All</option><option value="new">New</option><option value="reviewed">Reviewed</option><option value="approved">Approved</option><option value="declined">Declined</option></select> <button class="hfl-vf-b main" id="vfLoad" type="button">Load</button></p>
+<p id="vfMsg" role="status" aria-live="polite"></p></div>
+<div id="vfList"></div>
+</main>
+</body>
+</html>
