@@ -81,8 +81,8 @@ THINK = [('Reading', 'Understands what a text means.'), ('Understanding', 'Takes
          ('Ask me anything coach', 'Takes your questions and uses the libraries and public information you use most, so you get the best set of answers.')]
 SUITE = ['Connected-device services and people', 'Information and communication technology services and people',
          'A full business stack (planning, customers, reporting, office tools) with no-code tools, built on our own interfaces and apps',
-         'An open-standards ecosystem of course and career pathways, joined to a marketplace and a workplace',
-         'Consultancy, channel, business-operations, support and full-service ecosystem',
+         'An open-standards network of course and career pathways, joined to a marketplace and a workplace',
+         'Consultancy, channel, business-operations, support and full-service network',
          'A partner, affiliate and value-provider network in four levels, hub and spoke',
          'Artificial intelligence and machine learning', 'Big data and analytics', 'Career pathways', 'Authoring, training, marketplace and workplace']
 body = (sec('', 'w-h', 'our promise', 'Skills, learning and market reach',
