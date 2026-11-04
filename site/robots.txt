@@ -1,4 +1,5 @@
 User-agent: *
+Disallow: /members/
 Allow: /
 
 Sitemap: https://houseforlearning.com/sitemap.xml
