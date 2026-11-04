@@ -1,0 +1,2 @@
+(function(){document.querySelectorAll(".cl .flip").forEach(function(b){var t=null;function toggle(){b.classList.toggle("open");b.setAttribute("aria-pressed",b.classList.contains("open"))}
+b.addEventListener("click",toggle);b.addEventListener("pointerenter",function(e){if(e.pointerType!=="mouse")return;t=setTimeout(function(){if(!b.classList.contains("open"))toggle()},650)});b.addEventListener("pointerleave",function(){clearTimeout(t)})})})();
