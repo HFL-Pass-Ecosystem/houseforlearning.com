@@ -31,6 +31,7 @@ function scan(){
     var src=img.getAttribute('src')||'';
     if(src.indexOf('yoga/')<0&&img.id!=='stagePhoto'&&img.id!=='mphoto')return;
     var host=img.closest('figure,.stage,.mapstage,.ylux-media')||img.parentElement;
+    if(host&&host.classList.contains('ylux-media')&&host.parentElement)host=host.parentElement; /* hero picture sits under overlays: badge goes on the section */
     if(!host||host.getAttribute('data-vf'))return;
     host.setAttribute('data-vf','1');
     if(getComputedStyle(host).position==='static')host.classList.add('hfl-vf-host');
