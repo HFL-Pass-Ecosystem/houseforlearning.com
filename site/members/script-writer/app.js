@@ -1,145 +1,114 @@
 (function(){
 "use strict";
 var SW=window.SW,$=function(i){return document.getElementById(i)};
-var step=1,last=[],member="guest",answers={};
+var fmt="headlines",src="shared",pat="",answers={},last=[],member="Guest",order=0;
 
-/* storage, safe if blocked */
 var mem={};
 function sget(k,d){try{var v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return mem[k]!==undefined?mem[k]:d}}
 function sset(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){mem[k]=v}}
 function slug(s){return (s||"guest").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")||"guest"}
-function key(n){return "sw."+slug(member)+"."+n}
-function getPT(){return sget(key("templates"),[])}
+function key(n){return "dd."+slug(member)+"."+n}
+function getMine(){return sget(key("patterns"),[])}
 function getDR(){return sget(key("drafts"),[])}
-
-function opt(sel,val,txt){var o=document.createElement("option");o.value=val;o.textContent=txt;sel.appendChild(o)}
 function clear(n){while(n.firstChild)n.removeChild(n.firstChild)}
-function tokens(lines){var s={},out=[];lines.forEach(function(l){(l.match(/\{\{(\w+)\}\}/g)||[]).forEach(function(t){var k=t.slice(2,-2);if(!s[k]){s[k]=1;out.push(k)}})});return out}
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e}
+function opt(sel,v,t){var o=el("option",null,t);o.value=v;sel.appendChild(o)}
+function tokens(lines){var s={},o=[];lines.forEach(function(l){(l.match(/\{\{(\w+)\}\}/g)||[]).forEach(function(t){var k=t.slice(2,-2);if(!s[k]){s[k]=1;o.push(k)}})});return o}
+function msg(id,t){$(id).textContent=t;setTimeout(function(){$(id).textContent=""},3000)}
 
-/* ---------- init lists ---------- */
 Object.keys(SW.sectors).forEach(function(k){opt($("sector"),k,SW.sectors[k])});
 Object.keys(SW.types).forEach(function(k){opt($("tbType"),k,SW.types[k].name)});
 
-function currentModel(){
-  var src=$("source").value,t=$("stype").value,m=$("smodel").value;
-  if(src==="common"){var mm=(SW.types[t]||{models:{}}).models[m];return mm?{name:mm.name,note:mm.note,lines:mm.lines,fields:mm.fields,type:t}:null}
-  var p=getPT().filter(function(x){return x.id===m})[0];
-  return p?{name:p.name,note:"Your own template.",lines:p.lines,fields:tokens(p.lines),type:p.type}:null;
+/* patterns available for the chosen format and source */
+function patterns(){
+  if(src==="shared"){var m=(SW.types[fmt]||{models:{}}).models;return Object.keys(m).map(function(k){return {id:k,name:m[k].name,note:m[k].note,lines:m[k].lines,fields:m[k].fields}})}
+  return getMine().filter(function(p){return p.type===fmt}).map(function(p){return {id:p.id,name:p.name,note:"Your own pattern.",lines:p.lines,fields:tokens(p.lines)}});
 }
-function fillTypes(){
-  var st=$("stype");clear(st);var src=$("source").value;
-  if(src==="common"){Object.keys(SW.types).forEach(function(k){opt(st,k,SW.types[k].name)})}
-  else{var seen={};getPT().forEach(function(p){if(!seen[p.type]){seen[p.type]=1;opt(st,p.type,SW.types[p.type].name)}})}
-  fillModels();
-}
-function fillModels(){
-  var sm=$("smodel");clear(sm);var src=$("source").value,t=$("stype").value;
-  if(src==="common"&&SW.types[t]){Object.keys(SW.types[t].models).forEach(function(k){opt(sm,k,SW.types[t].models[k].name)})}
-  else{getPT().filter(function(p){return p.type===t}).forEach(function(p){opt(sm,p.id,p.name)})}
-  renderPreview();
-}
-function renderPreview(){
-  var m=currentModel(),ul=$("preview");clear(ul);
-  if(!m){$("modelNote").textContent=$("source").value==="personal"?"You have no personal templates yet. Open Template Builder to make one.":"";return}
-  $("modelNote").textContent=m.note;
-  m.lines.forEach(function(l){
-    var li=document.createElement("li");
-    l.split(/(\{\{\w+\}\})/).forEach(function(part){
-      if(/^\{\{\w+\}\}$/.test(part)){var s=document.createElement("span");s.className="tok";s.textContent=part.slice(2,-2);li.appendChild(s)}
-      else li.appendChild(document.createTextNode(part));
-    });
-    ul.appendChild(li);
+function current(){var l=patterns().filter(function(p){return p.id===pat});return l[0]||null}
+
+function renderFormats(){
+  var g=$("formats");clear(g);
+  Object.keys(SW.types).forEach(function(k){
+    var b=el("button","fmt"+(k===fmt?" on":""),SW.types[k].name);
+    b.addEventListener("click",function(){fmt=k;pat="";renderAll()});
+    g.appendChild(b);
   });
 }
-
-/* ---------- questions ---------- */
-function exampleFor(k){
-  var f=SW.fields[k];if(!f)return "Your words";
-  return f.ex[$("sector").value]||f.ex.all||"Your words";
+function renderPatterns(){
+  var box=$("patterns");clear(box);var list=patterns();
+  if(!list.some(function(p){return p.id===pat}))pat=list.length?list[0].id:"";
+  $("patNote").textContent=list.length?"":(src==="mine"?"You have no patterns for this format yet. Open Pattern maker to write one.":"");
+  list.forEach(function(p){
+    var d=el("div","pat"+(p.id===pat?" on":""));
+    d.appendChild(el("b",null,p.name));d.appendChild(el("small",null,p.note));
+    if(p.id===pat){
+      var ul=el("ul");
+      p.lines.forEach(function(l){var li=el("li");l.split(/(\{\{\w+\}\})/).forEach(function(x){if(/^\{\{\w+\}\}$/.test(x))li.appendChild(el("span","tok",x.slice(2,-2)));else li.appendChild(document.createTextNode(x))});ul.appendChild(li)});
+      d.appendChild(ul);
+    }
+    d.addEventListener("click",function(){if(pat!==p.id){pat=p.id;renderPatterns();renderQuestions();renderDraft()}});
+    box.appendChild(d);
+  });
+  $("srcShared").classList.toggle("on",src==="shared");$("srcMine").classList.toggle("on",src==="mine");
 }
+function example(k){var f=SW.fields[k];if(!f)return "your words";return f.ex[$("sector").value]||f.ex.all||"your words"}
 function renderQuestions(){
-  var m=currentModel(),box=$("questions");clear(box);if(!m)return;
-  m.fields.forEach(function(k){
-    var f=SW.fields[k]||{q:"Fill in: "+k},d=document.createElement("div");d.className="q";
-    var lab=document.createElement("label");lab.setAttribute("for","a_"+k);lab.textContent=f.q;
-    var ta=document.createElement("textarea");ta.id="a_"+k;ta.value=answers[k]||"";
-    ta.addEventListener("input",function(){answers[k]=ta.value});
-    var sm=document.createElement("small");sm.textContent="Example: "+exampleFor(k);
-    d.appendChild(lab);d.appendChild(ta);d.appendChild(sm);box.appendChild(d);
+  var box=$("questions");clear(box);var p=current();if(!p)return;
+  p.fields.forEach(function(k){
+    var f=SW.fields[k]||{q:"Fill in: "+k},d=el("div","q");
+    var lab=el("label",null,f.q);lab.setAttribute("for","a_"+k);
+    var ta=el("textarea");ta.id="a_"+k;ta.value=answers[k]||"";
+    ta.addEventListener("input",function(){answers[k]=ta.value;renderDraft()});
+    d.appendChild(lab);d.appendChild(ta);d.appendChild(el("small",null,"For instance: "+example(k)));box.appendChild(d);
   });
 }
-
-/* ---------- generate ---------- */
-function shuffle(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t}return a}
-function generate(reshuffle){
-  var m=currentModel();if(!m)return [];
-  var out=[];
-  m.lines.forEach(function(l){
+function generate(){
+  var p=current();if(!p)return [];var out=[];
+  p.lines.forEach(function(l){
     var ok=true;
     var s=l.replace(/\{\{(\w+)\}\}/g,function(_,k){var v=(answers[k]||"").trim();if(!v)ok=false;return v});
-    if(ok){s=s.replace(/ +\n/g,"\n").replace(/\s+$/,"").replace(/\.\./g,".");out.push(s)}
+    if(ok)out.push(s.replace(/ +\n/g,"\n").replace(/\s+$/,"").replace(/\.\./g,"."));
   });
-  if(reshuffle&&(m.type==="headlines"||m.type==="cta"))out=shuffle(out);
+  if(order&&(fmt==="headlines"||fmt==="cta")){out=out.slice();for(var i=out.length-1;i>0;i--){var j=(i*7+order)%(i+1);var t=out[i];out[i]=out[j];out[j]=t}}
   return out;
 }
-function showResults(reshuffle){
-  var ol=$("results");clear(ol);last=generate(reshuffle);
-  if(!last.length){var li=document.createElement("li");li.textContent="Nothing yet. Go Back and answer at least two questions.";ol.appendChild(li);return}
-  last.forEach(function(t){var li=document.createElement("li");li.textContent=t;ol.appendChild(li)});
-  $("againBtn").hidden=!(currentModel().type==="headlines"||currentModel().type==="cta");
+function renderDraft(){
+  var ol=$("results");clear(ol);last=generate();var p=current();
+  $("blueprint").textContent=p?SW.types[fmt].name+" - "+p.name:"";
+  if(!last.length){ol.appendChild(el("li",null,"Your draft appears here. Answer at least two questions."));return}
+  last.forEach(function(t){ol.appendChild(el("li",null,t))});
 }
+function renderAll(){renderFormats();renderPatterns();renderQuestions();renderDraft()}
 
-/* ---------- steps ---------- */
-function setStep(n){
-  step=n;
-  document.querySelectorAll(".step").forEach(function(s){s.hidden=Number(s.getAttribute("data-step"))!==step});
-  var st=$("steps");clear(st);
-  for(var i=1;i<=4;i++){var sp=document.createElement("span");sp.textContent="STEP "+i;if(i===step)sp.className="on";st.appendChild(sp)}
-  $("backBtn").hidden=step===1;$("nextBtn").hidden=step===4;
-  if(step===3)renderQuestions();
-  if(step===4)showResults(false);
-  window.scrollTo(0,0);
-}
-$("nextBtn").addEventListener("click",function(){
-  if(step===1&&!$("scriptName").value.trim()){$("scriptName").focus();return}
-  if(step===2&&!currentModel())return;
-  setStep(step+1);
-});
-$("backBtn").addEventListener("click",function(){setStep(step-1)});
-$("source").addEventListener("change",fillTypes);
-$("stype").addEventListener("change",fillModels);
-$("smodel").addEventListener("change",function(){answers={};renderPreview()});
-$("makeBtn").addEventListener("click",function(){showResults(false)});
-$("againBtn").addEventListener("click",function(){showResults(true)});
+$("srcShared").addEventListener("click",function(){src="shared";pat="";renderAll()});
+$("srcMine").addEventListener("click",function(){src="mine";pat="";renderAll()});
+$("sector").addEventListener("change",renderQuestions);
+$("shuffleBtn").addEventListener("click",function(){order++;renderDraft()});
 $("copyBtn").addEventListener("click",function(){
-  var txt=last.join("\n\n");
-  if(navigator.clipboard)navigator.clipboard.writeText(txt).then(function(){msg("saveMsg","Copied")},function(){msg("saveMsg","Select and copy by hand")});
+  var t=last.join("\n\n");
+  if(navigator.clipboard)navigator.clipboard.writeText(t).then(function(){msg("saveMsg","Copied")},function(){msg("saveMsg","Select and copy by hand")});
 });
-function msg(id,t){$(id).textContent=t;setTimeout(function(){$(id).textContent=""},3000)}
-
 $("saveBtn").addEventListener("click",function(){
   if(!last.length){msg("saveMsg","Nothing to save yet");return}
-  var m=currentModel(),d=getDR();
-  d.unshift({id:"d"+Date.now(),name:$("scriptName").value.trim(),sector:$("sector").value,type:m.type,model:m.name,text:last.join("\n\n"),status:"Draft",created:new Date().toISOString().slice(0,16).replace("T"," ")});
-  sset(key("drafts"),d);renderDrafts();msg("saveMsg","Saved as draft");
+  var p=current(),d=getDR();
+  d.unshift({id:"d"+Date.now(),name:$("title").value.trim()||"Untitled",sector:$("sector").value,type:fmt,model:p.name,text:last.join("\n\n"),status:"Draft",created:new Date().toISOString().slice(0,16).replace("T"," ")});
+  sset(key("drafts"),d);renderSaved();msg("saveMsg","Saved as draft");
 });
 
-/* ---------- drafts ---------- */
-function renderDrafts(){
+function renderSaved(){
   var d=getDR(),box=$("draftList");clear(box);$("draftCount").textContent=d.length;
-  if(!d.length){var p=document.createElement("p");p.className="note";p.textContent="No drafts yet.";box.appendChild(p)}
+  if(!d.length)box.appendChild(el("p","note","No drafts yet."));
   d.forEach(function(x){
-    var c=document.createElement("div");c.className="card";
-    var h=document.createElement("h4");h.textContent=x.name+" ("+SW.types[x.type].name+")";
-    var st=document.createElement("div");st.className="st";st.textContent=x.status+" - "+x.created+" - "+SW.sectors[x.sector];
-    var pre=document.createElement("div");pre.textContent=x.text;
-    var row=document.createElement("div");row.className="row";
-    var a=document.createElement("button");a.className="btn green";a.textContent="Send to owner approval";
-    a.addEventListener("click",function(){x.status="Waiting for owner approval (nothing sent out)";sset(key("drafts"),d);renderDrafts()});
-    var del=document.createElement("button");del.className="btn ghost";del.textContent="Archive";
-    del.addEventListener("click",function(){var all=getDR().filter(function(y){return y.id!==x.id});sset(key("drafts"),all);renderDrafts()});
-    row.appendChild(a);row.appendChild(del);
-    [h,st,pre,row].forEach(function(n){c.appendChild(n)});box.appendChild(c);
+    var c=el("div","card");
+    c.appendChild(el("h4",null,x.name+" ("+SW.types[x.type].name+")"));
+    c.appendChild(el("div","st",x.status+" - "+x.created+" - "+SW.sectors[x.sector]));
+    c.appendChild(el("div",null,x.text));
+    var row=el("div","row");
+    var a=el("button","btn green","Ask owner to review");
+    a.addEventListener("click",function(){x.status="Waiting for owner review (nothing sent out)";sset(key("drafts"),d);renderSaved()});
+    var del=el("button","btn ghost","Archive");
+    del.addEventListener("click",function(){sset(key("drafts"),getDR().filter(function(y){return y.id!==x.id}));renderSaved()});
+    row.appendChild(a);row.appendChild(del);c.appendChild(row);box.appendChild(c);
   });
 }
 function download(name,obj){
@@ -148,51 +117,39 @@ function download(name,obj){
 }
 $("exportDrafts").addEventListener("click",function(){download("drafts-"+slug(member)+".json",{ecosystem:"AjanSNS",member:member,drafts:getDR()})});
 
-/* ---------- template builder ---------- */
-function renderBlanks(){
-  var c=$("tbBlanks");clear(c);
-  tokens($("tbLines").value.split("\n")).forEach(function(k){var s=document.createElement("span");s.textContent=k;c.appendChild(s)});
-}
+/* pattern maker */
+function renderBlanks(){var c=$("tbBlanks");clear(c);tokens($("tbLines").value.split("\n")).forEach(function(k){c.appendChild(el("span",null,k))})}
 $("tbLines").addEventListener("input",renderBlanks);
-function renderPT(){
-  var box=$("tbList");clear(box);var list=getPT();
-  if(!list.length){var p=document.createElement("p");p.className="note";p.textContent="None yet.";box.appendChild(p)}
-  list.forEach(function(t){
-    var c=document.createElement("div");c.className="card";
-    var h=document.createElement("h4");h.textContent=t.name+" ("+SW.types[t.type].name+")";
-    var pre=document.createElement("div");pre.textContent=t.lines.join("\n");
-    var row=document.createElement("div");row.className="row";
-    var del=document.createElement("button");del.className="btn ghost";del.textContent="Archive";
-    del.addEventListener("click",function(){sset(key("templates"),getPT().filter(function(y){return y.id!==t.id}));renderPT();fillTypes()});
-    row.appendChild(del);[h,pre,row].forEach(function(n){c.appendChild(n)});box.appendChild(c);
+function renderMine(){
+  var box=$("tbList");clear(box);var l=getMine();
+  if(!l.length)box.appendChild(el("p","note","None yet."));
+  l.forEach(function(t){
+    var c=el("div","card");c.appendChild(el("h4",null,t.name+" ("+SW.types[t.type].name+")"));c.appendChild(el("div",null,t.lines.join("\n")));
+    var row=el("div","row");var del=el("button","btn ghost","Archive");
+    del.addEventListener("click",function(){sset(key("patterns"),getMine().filter(function(y){return y.id!==t.id}));renderMine();renderAll()});
+    row.appendChild(del);c.appendChild(row);box.appendChild(c);
   });
 }
 $("tbSave").addEventListener("click",function(){
   var name=$("tbName").value.trim(),lines=$("tbLines").value.split("\n").map(function(s){return s.trim()}).filter(Boolean);
   if(!name||!lines.length){msg("tbMsg","Add a name and at least one line");return}
-  var l=getPT();l.push({id:"t"+Date.now(),name:name,type:$("tbType").value,lines:lines});
-  sset(key("templates"),l);$("tbName").value="";$("tbLines").value="";renderBlanks();renderPT();fillTypes();msg("tbMsg","Template saved");
+  var l=getMine();l.push({id:"t"+Date.now(),name:name,type:$("tbType").value,lines:lines});sset(key("patterns"),l);
+  $("tbName").value="";$("tbLines").value="";renderBlanks();renderMine();renderAll();msg("tbMsg","Pattern kept");
 });
-$("tbExport").addEventListener("click",function(){download("templates-"+slug(member)+".json",{ecosystem:"AjanSNS",member:member,templates:getPT()})});
+$("tbExport").addEventListener("click",function(){download("patterns-"+slug(member)+".json",{ecosystem:"AjanSNS",member:member,templates:getMine()})});
 $("tbImport").addEventListener("change",function(e){
   var f=e.target.files[0];if(!f)return;var r=new FileReader();
-  r.onload=function(){try{
-    var j=JSON.parse(r.result),l=getPT();
-    (j.templates||[]).forEach(function(t){if(t&&t.name&&Array.isArray(t.lines)&&SW.types[t.type]){l.push({id:"t"+Date.now()+Math.floor(Math.random()*1e4),name:String(t.name),type:t.type,lines:t.lines.map(String)})}});
-    sset(key("templates"),l);renderPT();fillTypes();msg("tbMsg","Loaded");
-  }catch(x){msg("tbMsg","That file could not be read")}};
+  r.onload=function(){try{var j=JSON.parse(r.result),l=getMine();
+    (j.templates||[]).forEach(function(t){if(t&&t.name&&Array.isArray(t.lines)&&SW.types[t.type])l.push({id:"t"+Date.now()+Math.floor(Math.random()*1e4),name:String(t.name),type:t.type,lines:t.lines.map(String)})});
+    sset(key("patterns"),l);renderMine();renderAll();msg("tbMsg","Loaded")}catch(x){msg("tbMsg","That file could not be read")}};
   r.readAsText(f);
 });
 
-/* ---------- member + nav ---------- */
-function setMember(m){member=m||"Guest";$("who").textContent="Member: "+member;renderDrafts();renderPT();fillTypes()}
-$("memberSave").addEventListener("click",function(){var v=$("memberId").value.trim();sset("sw.member",v);setMember(v);msg("memberMsg","Saved")});
-document.querySelectorAll(".nav").forEach(function(b){b.addEventListener("click",function(){
-  document.querySelectorAll(".nav").forEach(function(x){x.classList.toggle("on",x===b)});
-  ["create","drafts","builder","account"].forEach(function(v){$("view-"+v).hidden=v!==b.getAttribute("data-view")});
-  $("nextBtn").parentNode.hidden=b.getAttribute("data-view")!=="create";
-  if(b.getAttribute("data-view")==="create"&&step===4){answers={};$("scriptName").value="";setStep(1)}
+function setMember(m){member=m||"Guest";$("who").textContent=member;renderSaved();renderMine();renderAll()}
+$("memberSave").addEventListener("click",function(){var v=$("memberId").value.trim();sset("dd.member",v);setMember(v);msg("memberMsg","Saved")});
+document.querySelectorAll(".tab").forEach(function(b){b.addEventListener("click",function(){
+  document.querySelectorAll(".tab").forEach(function(x){x.classList.toggle("on",x===b)});
+  ["desk","saved","maker","profile"].forEach(function(v){$("view-"+v).hidden=v!==b.getAttribute("data-view")});
 })});
-
-var saved=sget("sw.member","");$("memberId").value=saved;setMember(saved);setStep(1);
+var saved=sget("dd.member","");$("memberId").value=saved;setMember(saved);
 })();

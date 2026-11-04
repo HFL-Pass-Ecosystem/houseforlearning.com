@@ -3,106 +3,94 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Script Writer</title>
+<title>Draft Desk</title>
 <meta name="robots" content="noindex,nofollow">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<aside class="side">
-  <div class="brand">Script<span>Writer</span></div>
-  <div class="badge">AjanSNS Ecosystem enabled</div>
-  <nav>
-    <button class="nav on" data-view="create">Create Script</button>
-    <button class="nav" data-view="drafts">My Drafts <b id="draftCount">0</b></button>
-    <button class="nav" data-view="builder">Template Builder</button>
-    <button class="nav" data-view="account">Member Settings</button>
+<header class="bar">
+  <div class="brand">Draft<span>Desk</span></div>
+  <span class="badge">AjanSNS Ecosystem enabled</span>
+  <nav class="tabs">
+    <button class="tab on" data-view="desk">Desk</button>
+    <button class="tab" data-view="saved">Saved drafts <b id="draftCount">0</b></button>
+    <button class="tab" data-view="maker">Pattern maker</button>
+    <button class="tab" data-view="profile">Profile</button>
   </nav>
-  <p class="safe">Drafts only. Nothing is posted anywhere without owner approval.</p>
-</aside>
-<main>
-<header class="top"><span id="who">Member: Guest</span></header>
+  <span id="who" class="who">Guest</span>
+</header>
+<p class="strip">Drafts only. Nothing is posted anywhere without owner approval.</p>
 
-<section id="view-create" class="view">
-  <div class="steps" id="steps"></div>
-  <h1>Create Script</h1>
+<section id="view-desk" class="view">
+  <div class="desk">
+    <div class="brief">
+      <h2>1. Brief</h2>
+      <label for="title">Working title</label>
+      <input id="title" type="text" placeholder="Example: October learner session">
+      <label for="sector">Sector</label>
+      <select id="sector"></select>
 
-  <div class="step" data-step="1">
-    <label for="scriptName">Give your script a name</label>
-    <input id="scriptName" type="text" placeholder="Example: October learner webinar">
-    <label for="sector">Sector</label>
-    <select id="sector"></select>
-  </div>
+      <h2>2. Format and pattern</h2>
+      <fieldset><legend>Format</legend><div id="formats" class="grid"></div></fieldset>
+      <fieldset><legend>Pattern</legend>
+        <div class="seg"><button id="srcShared" class="segbtn on">Shared patterns</button><button id="srcMine" class="segbtn">My patterns</button></div>
+        <div id="patterns" class="plist"></div>
+        <p id="patNote" class="note"></p>
+      </fieldset>
 
-  <div class="step" data-step="2" hidden>
-    <div class="two">
-      <div>
-        <label for="source">Select template source</label>
-        <select id="source"><option value="common">Common template</option><option value="personal">Personal template</option></select>
-        <label for="stype">Select the type of script you would like to create</label>
-        <select id="stype"></select>
-        <label for="smodel">Select base script model</label>
-        <select id="smodel"></select>
-        <p id="modelNote" class="note"></p>
-      </div>
-      <div>
-        <h3>Template preview</h3>
-        <ul id="preview" class="preview"></ul>
-      </div>
+      <h2>3. Facts</h2>
+      <p class="note">Fill what you know. Empty answers are skipped. The draft updates as you type.</p>
+      <div id="questions"></div>
     </div>
-  </div>
 
-  <div class="step" data-step="3" hidden>
-    <p class="note">Fill what you know. Empty answers are skipped.</p>
-    <div id="questions"></div>
-  </div>
-
-  <div class="step" data-step="4" hidden>
-    <div class="row"><button id="makeBtn" class="btn">Create Script</button><button id="againBtn" class="btn ghost">Create again</button></div>
-    <ol id="results" class="results"></ol>
-    <div class="row"><button id="saveBtn" class="btn green">Save as draft</button><button id="copyBtn" class="btn ghost">Copy all</button><span id="saveMsg" class="msg"></span></div>
-  </div>
-
-  <div class="nav2">
-    <button id="backBtn" class="btn dark">Back</button>
-    <button id="nextBtn" class="btn">Next</button>
+    <aside class="draft">
+      <h2>Live draft</h2>
+      <p id="blueprint" class="note"></p>
+      <ol id="results" class="results"></ol>
+      <div class="row">
+        <button id="saveBtn" class="btn green">Save draft</button>
+        <button id="copyBtn" class="btn ghost">Copy</button>
+        <button id="shuffleBtn" class="btn ghost">Shuffle order</button>
+      </div>
+      <span id="saveMsg" class="msg"></span>
+    </aside>
   </div>
 </section>
 
-<section id="view-drafts" class="view" hidden>
-  <h1>My Drafts</h1>
-  <p class="note">Saved on this device only. Send to approval marks it ready for the owner to look at. Nothing is sent out.</p>
+<section id="view-saved" class="view" hidden>
+  <h1>Saved drafts</h1>
+  <p class="note">Kept on this device only. "Ask owner to review" only changes a label. Nothing is sent out.</p>
   <div class="row"><button id="exportDrafts" class="btn ghost">Download drafts file</button></div>
   <div id="draftList"></div>
 </section>
 
-<section id="view-builder" class="view" hidden>
-  <h1>Template Builder</h1>
-  <p class="note">Make your own template. Write lines and put the blanks inside double curly brackets, like {{topic}}. Each blank becomes a question.</p>
-  <label for="tbName">Template name</label>
+<section id="view-maker" class="view" hidden>
+  <h1>Pattern maker</h1>
+  <p class="note">Write your own pattern. Put each blank inside double curly brackets, like {{topic}}. Every blank turns into a question on the Desk.</p>
+  <label for="tbName">Pattern name</label>
   <input id="tbName" type="text" placeholder="Example: My short course teaser">
-  <label for="tbType">Script type</label>
+  <label for="tbType">Format</label>
   <select id="tbType"></select>
-  <label for="tbLines">Template lines (one per line)</label>
+  <label for="tbLines">Pattern lines (one per line)</label>
   <textarea id="tbLines" rows="8" placeholder="How {{audience}} can {{benefit}} in {{timeframe}}&#10;The {{number}} mistakes {{audience}} make with {{topic}}"></textarea>
   <div id="tbBlanks" class="chips"></div>
-  <div class="row"><button id="tbSave" class="btn green">Save personal template</button><span id="tbMsg" class="msg"></span></div>
-  <h3>My personal templates</h3>
+  <div class="row"><button id="tbSave" class="btn green">Keep pattern</button><span id="tbMsg" class="msg"></span></div>
+  <h3>My patterns</h3>
   <div id="tbList"></div>
-  <div class="row"><button id="tbExport" class="btn ghost">Download my templates</button><label class="btn ghost filebtn">Load templates file<input id="tbImport" type="file" accept="application/json" hidden></label></div>
+  <div class="row"><button id="tbExport" class="btn ghost">Download my patterns</button><label class="btn ghost filebtn">Load patterns file<input id="tbImport" type="file" accept="application/json" hidden></label></div>
 </section>
 
-<section id="view-account" class="view" hidden>
-  <h1>Member Settings</h1>
-  <p class="note">Each member keeps their own personal templates and drafts. Use your member ID.</p>
+<section id="view-profile" class="view" hidden>
+  <h1>Profile</h1>
+  <p class="note">Each member keeps their own patterns and drafts. Use your member ID.</p>
   <label for="memberId">Member name or ID</label>
   <input id="memberId" type="text" placeholder="Example: Member 0001">
   <div class="row"><button id="memberSave" class="btn">Save</button><span id="memberMsg" class="msg"></span></div>
-  <h3>Model for writing</h3>
+  <h3>Writer</h3>
   <p class="note">Now: built-in writer, runs on this page, no cost. A smart AI writer can be added later, only with owner approval.</p>
 </section>
-</main>
 <script src="templates.js"></script>
 <script src="app.js"></script>
 </body>

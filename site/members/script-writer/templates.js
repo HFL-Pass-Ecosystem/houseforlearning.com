@@ -20,21 +20,21 @@ name:{q:"Your name or team name (optional)",ex:{all:"Team name"}}
 };
 
 var T={
-headlines:{name:"Headlines",models:{
- fav:{name:"Headline Favorites",note:"Clear headlines that promise a benefit. Good for pages, titles and posts.",fields:["topic","audience","benefit","pain","number","timeframe"],lines:[
+headlines:{name:"Headline set",models:{
+ fav:{name:"Benefit-first headlines",note:"Clear headlines that promise a benefit. Good for pages, titles and posts.",fields:["topic","audience","benefit","pain","number","timeframe"],lines:[
   "How {{audience}} can {{benefit}}",
   "{{number}} ways {{audience}} can {{benefit}}",
   "Tired of {{pain}}? Try {{topic}}",
   "{{benefit}} in {{timeframe}}: a simple plan for {{audience}}",
   "The plain guide to {{topic}}",
   "What {{audience}} should know before choosing {{topic}}"]},
- question:{name:"Question Headlines",note:"Headlines that ask the reader a question they care about.",fields:["topic","audience","pain","benefit"],lines:[
+ question:{name:"Question-led headlines",note:"Headlines that ask the reader a question they care about.",fields:["topic","audience","pain","benefit"],lines:[
   "Is {{pain}} slowing down {{audience}}?",
   "What if {{audience}} could {{benefit}}?",
   "Why do so many {{audience}} struggle with {{pain}}?",
   "Ready to try {{topic}}?"]}}},
-sales:{name:"Sales Letters",models:{
- plain:{name:"Plain Problem-to-Solution Letter",note:"Names the problem, shows the way out, gives proof, then asks for action.",fields:["audience","pain","topic","benefit","proof","result","offer","deadline","action","name"],lines:[
+sales:{name:"Letter",models:{
+ plain:{name:"Worry-to-answer letter",note:"Names the problem, shows the way out, gives proof, then asks for action.",fields:["audience","pain","topic","benefit","proof","result","offer","deadline","action","name"],lines:[
   "Dear {{audience}},",
   "If you are dealing with {{pain}}, you are not alone.",
   "That is why we built {{topic}}. With it you can {{benefit}}.",
@@ -43,18 +43,18 @@ sales:{name:"Sales Letters",models:{
   "Our offer: {{offer}}. {{deadline}}",
   "{{action}}.",
   "Warm regards,\n{{name}}"]}}},
-ads:{name:"Search Ads",models:{
- short:{name:"Short Search Ad",note:"Headline plus two description lines.",fields:["topic","benefit","offer","action"],lines:[
+ads:{name:"Search advert",models:{
+ short:{name:"Three-line advert",note:"Headline plus two description lines.",fields:["topic","benefit","offer","action"],lines:[
   "Headline: {{topic}} | {{benefit}}",
   "Line 1: {{offer}}",
   "Line 2: {{action}}"]}}},
-social:{name:"Social Posts (draft)",models:{
- hook:{name:"Hook, Point, Ask",note:"Three short lines for a post. Review before you publish yourself.",fields:["pain","topic","benefit","action","audience"],lines:[
+social:{name:"Social note",models:{
+ hook:{name:"Opening, point, invitation",note:"Three short lines for a post. Review before you publish yourself.",fields:["pain","topic","benefit","action","audience"],lines:[
   "{{audience}}: {{pain}}?",
   "{{topic}} helps you {{benefit}}.",
   "{{action}}."]}}},
-email:{name:"Emails - Singles",models:{
- single:{name:"One Clear Email",note:"Subject, opening, body, call to action.",fields:["audience","pain","topic","benefit","offer","action","name"],lines:[
+email:{name:"Single email",models:{
+ single:{name:"One-message email",note:"Subject, opening, body, call to action.",fields:["audience","pain","topic","benefit","offer","action","name"],lines:[
   "Subject: {{benefit}}",
   "Hello {{audience}},",
   "Many people tell us about {{pain}}. {{topic}} is our answer.",
@@ -62,46 +62,46 @@ email:{name:"Emails - Singles",models:{
   "{{offer}}",
   "{{action}}.",
   "{{name}}"]}}},
-sequence:{name:"Emails - Sequences",models:{
- five:{name:"Five-Day Welcome Sequence",note:"Five short emails, one per day.",fields:["audience","pain","topic","benefit","proof","offer","action"],lines:[
+sequence:{name:"Email series",models:{
+ five:{name:"Five-day welcome series",note:"Five short emails, one per day.",fields:["audience","pain","topic","benefit","proof","offer","action"],lines:[
   "Day 1 - Welcome: Thank you {{audience}}. Today we explain {{topic}} in one minute.",
   "Day 2 - The problem: {{pain}}. Why it happens and how to see it early.",
   "Day 3 - The way forward: {{benefit}}. Three small steps.",
   "Day 4 - Proof: {{proof}}.",
   "Day 5 - Invitation: {{offer}}. {{action}}."]}}},
-video:{name:"Video Scripts",models:{
- minute:{name:"One-Minute Explainer",note:"A script you can read aloud in about one minute.",fields:["audience","pain","topic","benefit","result","action"],lines:[
+video:{name:"Video script",models:{
+ minute:{name:"Sixty-second walkthrough",note:"A script you can read aloud in about one minute.",fields:["audience","pain","topic","benefit","result","action"],lines:[
   "[0:00] Hello {{audience}}. Have you faced {{pain}}?",
   "[0:10] Today I show you {{topic}}.",
   "[0:25] With it you can {{benefit}}.",
   "[0:40] For example: {{result}}.",
   "[0:52] {{action}}. Thank you for watching."]}}},
-webinar:{name:"Webinar Outline",models:{
- plan:{name:"45-Minute Webinar Plan",note:"A simple outline with timings.",fields:["topic","audience","pain","benefit","mistake","result","offer","action"],lines:[
+webinar:{name:"Live session outline",models:{
+ plan:{name:"45-minute session plan",note:"A simple outline with timings.",fields:["topic","audience","pain","benefit","mistake","result","offer","action"],lines:[
   "0-5 min: Welcome. Who is here, and why {{topic}} matters to {{audience}}.",
   "5-15 min: The problem: {{pain}}.",
   "15-25 min: Common mistake: {{mistake}}.",
   "25-35 min: The method, step by step. Goal: {{benefit}}.",
   "35-40 min: Proof: {{result}}.",
   "40-45 min: Offer: {{offer}}. {{action}}."]}}},
-upsell:{name:"Upsells",models:{
- next:{name:"Next-Step Upsell",note:"Offer a helpful next step right after a purchase.",fields:["topic","benefit","offer","action"],lines:[
+upsell:{name:"Add-on offer",models:{
+ next:{name:"Helpful add-on",note:"Offer a helpful next step right after a purchase.",fields:["topic","benefit","offer","action"],lines:[
   "Before you go: add {{topic}} to go further.",
   "It helps you {{benefit}}.",
   "{{offer}}. {{action}}."]}}},
-cta:{name:"Calls to Action",models:{
- short:{name:"Short Buttons and Lines",note:"Short lines for buttons and ends of pages.",fields:["action","benefit","topic","deadline"],lines:[
+cta:{name:"Action lines",models:{
+ short:{name:"Button and closing lines",note:"Short lines for buttons and ends of pages.",fields:["action","benefit","topic","deadline"],lines:[
   "{{action}}",
   "{{action}} and {{benefit}}",
   "See {{topic}} now",
   "{{action}} {{deadline}}"]}}},
-testimonial:{name:"Testimonial Requests",models:{
- ask:{name:"Polite Feedback Request",note:"Asks for a short, honest story. Never invent a testimonial.",fields:["topic","benefit","name"],lines:[
+testimonial:{name:"Feedback request",models:{
+ ask:{name:"Honest feedback ask",note:"Asks for a short, honest story. Never invent a testimonial.",fields:["topic","benefit","name"],lines:[
   "Hello! Thank you for using {{topic}}.",
   "Could you share two or three lines about how it helped you {{benefit}}?",
   "Please say only what is true for you. Thank you, {{name}}."]}}},
-course:{name:"Course Promotion",models:{
- launch:{name:"Course Launch Message",note:"For learning sectors: what you will be able to do after the course.",fields:["topic","audience","benefit","number","timeframe","offer","action"],lines:[
+course:{name:"Course notice",models:{
+ launch:{name:"Course opening notice",note:"For learning sectors: what you will be able to do after the course.",fields:["topic","audience","benefit","number","timeframe","offer","action"],lines:[
   "New course: {{topic}}.",
   "Made for {{audience}}.",
   "By the end you will be able to {{benefit}}.",
