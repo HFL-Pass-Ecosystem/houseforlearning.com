@@ -1,0 +1,44 @@
+/* HFL voice-feedback badge and recorder. Brand: Montserrat, #0F85DB, #3CC261, #F2EEE2. No inline styles (CSP). */
+.hfl-vf-host{position:relative}
+.hfl-vf{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;padding:0;margin:0 0 0 6px;border:2px solid #F2EEE2;border-radius:50%;background:#0F85DB;color:#F2EEE2;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.35);vertical-align:middle;line-height:0;flex:none;transition:transform .15s,box-shadow .15s}
+.hfl-vf svg{width:100%;height:100%;display:block;pointer-events:none}
+.hfl-vf:hover,.hfl-vf:focus-visible{transform:scale(1.1);box-shadow:0 3px 12px rgba(15,133,219,.6)}
+.hfl-vf:focus-visible{outline:3px solid #3CC261;outline-offset:2px}
+.hfl-vf.on-pic{position:absolute;right:10px;bottom:10px;margin:0;z-index:5}
+.hfl-vf-dlg{width:min(94vw,440px);border:0;border-radius:16px;padding:0;background:#F2EEE2;color:#10202c;font-family:Montserrat,system-ui,sans-serif;box-shadow:0 18px 60px rgba(0,0,0,.5)}
+.hfl-vf-dlg::backdrop{background:rgba(8,20,32,.6)}
+.hfl-vf-in{padding:22px 22px 18px}
+.hfl-vf-head{display:flex;align-items:center;gap:12px;margin:0 0 10px}
+.hfl-vf-head .hfl-vf-logo{width:46px;height:46px;flex:none}
+.hfl-vf-head svg{width:100%;height:100%;display:block}
+.hfl-vf-dlg h2{margin:0;font-size:1.1rem;line-height:1.25;color:#0F85DB}
+.hfl-vf-about{margin:0 0 10px;font-size:.9rem;font-weight:600}
+.hfl-vf-note{margin:0 0 12px;font-size:.8rem;line-height:1.5;color:#41525f}
+.hfl-vf-status{min-height:1.4em;margin:0 0 10px;font-size:.9rem;font-weight:600}
+.hfl-vf-status.err{color:#a3281f}
+.hfl-vf-status.good{color:#1e7a3a}
+.hfl-vf-time{font-variant-numeric:tabular-nums;font-weight:700;color:#0F85DB}
+.hfl-vf-row{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 8px}
+.hfl-vf-b{font:inherit;font-weight:700;font-size:.9rem;border:2px solid #0F85DB;border-radius:999px;padding:10px 18px;min-height:44px;cursor:pointer;background:#fff;color:#0F85DB}
+.hfl-vf-b.go{background:#3CC261;border-color:#3CC261;color:#08210f}
+.hfl-vf-b.stop{background:#a3281f;border-color:#a3281f;color:#fff}
+.hfl-vf-b.main{background:#0F85DB;color:#fff}
+.hfl-vf-b:disabled{opacity:.45;cursor:not-allowed}
+.hfl-vf-b:focus-visible{outline:3px solid #3CC261;outline-offset:2px}
+.hfl-vf-play{width:100%;margin:0 0 10px}
+.hfl-vf-play[hidden],.hfl-vf-b[hidden]{display:none}
+.hfl-vf-rec .hfl-vf-time:before{content:"";display:inline-block;width:10px;height:10px;margin-right:6px;border-radius:50%;background:#a3281f}
+@media (prefers-reduced-motion:no-preference){.hfl-vf-rec .hfl-vf-time:before{animation:hflvfp 1s infinite}}
+@keyframes hflvfp{50%{opacity:.25}}
+/* review page */
+.vfr{max-width:980px;margin:0 auto;padding:24px 16px 60px;font-family:Montserrat,system-ui,sans-serif}
+.vfr h1{color:#0F85DB}
+.vfr .box{background:#F2EEE2;border-radius:12px;padding:14px 16px;margin:0 0 12px;color:#10202c}
+.vfr label{font-weight:600;font-size:.85rem}
+.vfr input,.vfr select,.vfr textarea{font:inherit;padding:8px 10px;border:1px solid #9aa8b3;border-radius:8px;max-width:100%}
+.vfr textarea{width:100%;min-height:60px;box-sizing:border-box}
+.vfr .meta{font-size:.78rem;color:#41525f;margin:0 0 6px}
+.vfr .item{font-weight:700;margin:0 0 4px}
+.vfr .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:6px 0}
+.vfr .tag{display:inline-block;font-size:.72rem;font-weight:700;padding:2px 10px;border-radius:999px;background:#0F85DB;color:#fff}
+.vfr .tag.approved{background:#1e7a3a}.vfr .tag.declined{background:#6b7780}.vfr .tag.reviewed{background:#7a5c00}
