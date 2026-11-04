@@ -137,7 +137,7 @@ SKILLS = [('Weak-ad check', 'Finds what is wasting money in an ad account', 'Mar
  ('Answer structurer', 'Helps structure exam answers', 'Students'), ('Content brief builder', 'Builds a brief for a writer', 'Content'),
  ('Contract terms review', 'Highlights terms to ask about. Not legal advice', 'Business owners'), ('Demand and reorder forecast', 'Forecasts what to reorder', 'Operations')]
 write('ai-toolkit.html', 'AI toolkit', 'Tool offers, agent templates, assistants and a skills directory for learners.', 'members', 'AI toolkit',
- 'Everything to put AI to work, with a short guide for each. Public wording: AI assistant, no maker names.',
+ 'Everything to put AI to work, with a short guide for each.',
  sec('at1', 'six cards', 'What is inside', cards([
   ('Premium AI tools', 'Offers with a short guide and a claim button.', '#at2', 'See offers'), ('Custom assistants', 'Helpers built for different jobs.', '#at4', 'See assistants'),
   ('Agent bank', 'Ready-made agent templates with a how-to video.', '#at3', 'See agents'), ('Workshop resources', 'Files, notes and bonus material from your workshop.', 'learning-hub.html', 'Open hub'),
