@@ -26,6 +26,7 @@ STEPS = [
     'build_ai_income',          # AI side-income path: hub + 15 lessons (own words, no outside names)
     'build_my_learning', 'build_welcome_map',        # signed-in learning home (test only)
     'build_start_here',        # start-a-course page: real courses a visitor can join and take
+    'build_mi_procurement',    # procurement analytics: internal market-intelligence entry + learning topic guide
     'build_nav',               # site-wide navigation layer
     'build_sitemap',           # sitemap from the indexable pages: after all page builders
     'build_seo',               # titles at most 70 characters, unique, and real meta descriptions: always last
