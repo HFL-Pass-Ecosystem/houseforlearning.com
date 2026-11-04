@@ -55,6 +55,7 @@ write('learning-hub.html', 'Learning hub', 'Your path in one place: courses, liv
   ('Live sessions and recordings', 'Weekend coaching, weekday questions, and every recording.', 'live-sessions.html', 'Open sessions'),
   ('Project library', 'Short real-world projects you can finish at your own pace.', 'projects.html', 'Open projects'),
   ('Career portal', 'Open roles, your applications and your profile.', 'career-portal.html', 'Open career portal')], 'ok')) +
+ sec('lh0', 'start', 'Start here', '<p><a class="btn lhgo" href="start.html">Start learning, training, authoring, earning and more</a></p>') +
  sec('lh2', 'more', 'And also', cards([
   ('Certificate hub', 'Finish a session, pass its quiz, receive your certificate.', 'certificate-hub.html', 'Open certificates'),
   ('AI toolkit', 'Tool offers, assistants, agent templates and a skills directory.', 'ai-toolkit.html', 'Open toolkit'),
@@ -98,10 +99,11 @@ write('live-sessions.html', 'Live sessions', 'Weekend live coaching, weekday ope
 PR = [('Spreadsheet summaries in minutes', '1 h 10 min', 6), ('Build a one-page website with an AI helper', '2 h 00 min', 9), ('A simple online shop page', '2 h 30 min', 10),
  ('Clean and chart a small data set', '1 h 40 min', 8), ('Write a client proposal that wins', '1 h 15 min', 6), ('A resume and profile makeover', '1 h 00 min', 5),
  ('Automate a weekly report', '1 h 50 min', 8), ('A question-answering helper over your own notes', '2 h 20 min', 9), ('Turn business numbers into a clear one-page summary', '1 h 30 min', 7)]
+VERB = [('Start learning', 'start-a-course.html'), ('Start training', 'training.html'), ('Start earning', 'earning.html'), ('Start authoring', 'author-a-module.html'), ('Start LAB', 'lab.html'), ('Start LEAP', 'leap.html')]
 write('projects.html', 'Project library', 'Short self-paced projects with hours, lessons and a start button, plus a showcase.', 'members', 'Project library',
  'Real-world mini projects. Pick one, finish it, put it in your showcase.',
  sec('pj1', 'all projects', 'Choose a project', '<div class="lh-grid lh">' + ''.join(
-  f'<div class="c"><h3>{e(t)}</h3><p>{e(h)} · {n} lessons</p><span class="st">Sample project</span><br><a class="btn btn-ghost" href="start-a-course.html">Start learning</a></div>' for t, h, n in PR) + '</div>') +
+  f'<div class="c"><h3>{e(t)}</h3><p>{e(h)} · {n} lessons</p><span class="st">Sample project</span><br><a class="btn btn-ghost" href="{VERB[i % len(VERB)][1]}">{VERB[i % len(VERB)][0]}</a></div>' for i, (t, h, n) in enumerate(PR)) + '</div>') +
  sec('pj2', 'showcase', 'Project showcase', '<p>Share your finished project and get feedback from your peers. Show only what you are happy to share.</p>' + ph('showcase screenshot grid') +
   '<p><a class="btn btn-ghost" href="community.html">Open the project gallery</a></p>'))
 
@@ -193,3 +195,49 @@ write('starter-kit.html', 'Starter kit', 'A welcome kit to read once before you 
   '<li>Allow notifications in the members app when it is live.</li><li>See the live sessions page for your first date.</li><li>Do the pre-read before each session; do the post-read after.</li></ol>'
   '<p>Three promises we ask of every learner: attend your sessions, finish your assignments by the deadline, and put into practice what you learn.</p>' +
   cards([('Your first steps', 'The six-box map for day one.', 'welcome-map.html', 'Open'), ('Live sessions', 'Dates, batches and recordings.', 'live-sessions.html', 'Open'), ('Help', 'Ask in one tap.', 'help.html', 'Open')], 'ok')))
+
+
+# ---------- Start here: many ways in ----------
+START = [
+ ('Start learning', 'Pick a course and open lesson one.', 'start-a-course.html', 'Start learning'),
+ ('Start training', 'Short practical training with a facilitator and a task to finish.', 'training.html', 'Start training'),
+ ('Start authoring', 'Turn what you know into a short module others can finish.', 'author-a-module.html', 'Start authoring'),
+ ('Start earning', 'Offer your skills, find work and get paid.', 'earning.html', 'Start earning'),
+ ('Visit the PHYGITAL marketplace', 'Learning, services and products where online meets in person.', 'marketplace.html', 'Visit the marketplace'),
+ ('Visit the PHYGITAL workplace', 'Teams, tasks and tools in one place.', 'workplace.html', 'Visit the workplace'),
+ ('Start LEAP', 'Build a capsule: one clear lesson, made step by step.', 'leap.html', 'Start LEAP'),
+ ('Start LAB', 'Train the trainers: check, approve and publish capsules.', 'lab.html', 'Start LAB'),
+ ('Start PAVER', 'Five pathways: professional, academic, vocational, entrepreneurial, recreational.', 'paver.html', 'Start PAVER'),
+ ('Start COLLATE', 'Gather notes, boards and storyboards into one shelf.', 'collate.html', 'Start COLLATE')]
+write('start.html', 'Start here', 'Many ways in: learning, training, authoring, earning, the marketplace and workplace, LEAP, LAB, PAVER and COLLATE.', 'start', 'Start here',
+ 'Choose how you want to begin. You can do more than one.', sec('st1', 'ten ways in', 'Where would you like to start?', cards(START, 'ok')))
+
+def stepage(fn, title, kick, lead, what, steps, nxt, ph_label):
+    body = sec('a1', kick, 'What it is', '<p>' + e(what) + '</p>' + ph(ph_label)) + \
+      sec('a2', 'how it goes', 'Four steps', '<ol>' + ''.join(f'<li>{e(s)}</li>' for s in steps) + '</ol>') + \
+      sec('a3', 'next', 'Go on', cards(nxt, 'ok') + '<p><a class="btn btn-ghost" href="start.html">Back to Start here</a></p>')
+    write(fn, title, lead, 'start', title, lead, body)
+stepage('training.html', 'Start training', 'training', 'Short practical training with a task to finish and a check at the end.',
+ 'Training here is doing, with help. A facilitator shows it, you do it, and a short check proves it.',
+ ['Pick a training unit.', 'Read the pre-read.', 'Join the live session and do the task.', 'Pass the short check and earn your certificate.'],
+ [('Live sessions', 'Dates and recordings.', 'live-sessions.html', 'Open'), ('Certificate hub', 'Your certificates.', 'certificate-hub.html', 'Open')], 'training session photo')
+stepage('earning.html', 'Start earning', 'earning', 'Offer your skills, find work and get paid.',
+ 'Earning is the fourth step after authoring, training and learning: put what you can do in front of people who need it.',
+ ['Finish a project and put it in your showcase.', 'Build your career profile.', 'Apply for an open role or offer a service.', 'Agree the scope in writing and get paid through the site.'],
+ [('Career portal', 'Open roles and applications.', 'career-portal.html', 'Open'), ('Project library', 'Finish a project first.', 'projects.html', 'Open'), ('PHYGITAL marketplace', 'Offer a service.', 'marketplace.html', 'Visit')], 'earning story card')
+stepage('leap.html', 'Start LEAP', 'leap', 'Build a capsule: one clear lesson, made step by step.',
+ 'LEAP is where you author. A capsule is one short lesson with a goal, a task, practice and a check.',
+ ['Name the need in one sentence.', 'Write the goal, the task and the standard.', 'Add practice and a short check.', 'Send the capsule to LAB for approval.'],
+ [('Write a module', 'The authoring guide.', 'author-a-module.html', 'Open'), ('Start LAB', 'Get it checked.', 'lab.html', 'Start LAB')], 'capsule builder screen')
+stepage('lab.html', 'Start LAB', 'lab', 'Train the trainers: check, approve and publish capsules.',
+ 'LAB is where capsules are checked, improved by a trainer, approved and published. A separate approver signs off, never the author.',
+ ['Receive a capsule from LEAP.', 'Run the seven-line check.', 'Give feedback; the author fixes it.', 'Approve and publish.'],
+ [('Start LEAP', 'Build a capsule.', 'leap.html', 'Start LEAP'), ('Learning hub', 'Back to the hub.', 'learning-hub.html', 'Open')], 'review checklist screen')
+stepage('paver.html', 'Start PAVER', 'paver', 'Five pathways: professional, academic, vocational, entrepreneurial, recreational.',
+ 'PAVER groups learning and careers into five pathways so you can see where a course leads.',
+ ['Choose a pathway: professional, academic, vocational, entrepreneurial or recreational.', 'See the courses and credits on it.', 'Join the first course.', 'Move along the ladder as you earn certificates.'],
+ [('Career pathways', 'See all pathways.', 'career-pathways.html', 'Open'), ('Pathways', 'Learning and careers together.', 'pathways.html', 'Open'), ('Courses', 'All courses.', 'courses-all.html', 'Open')], 'five pathways map')
+stepage('collate.html', 'Start COLLATE', 'collate', 'Gather notes, boards and storyboards into one shelf.',
+ 'COLLATE keeps everything on one topic together: your notes, a creative board and a storyboard, so you stop searching and start learning.',
+ ['Pick a topic.', 'Collect notes, links and examples.', 'Arrange them on a board and a storyboard.', 'Share the shelf with your group.'],
+ [('Segment shelves', 'Shelves by segment.', 'collate-shelves.html', 'Open'), ('Start LEAP', 'Turn a shelf into a capsule.', 'leap.html', 'Start LEAP')], 'creative board')
