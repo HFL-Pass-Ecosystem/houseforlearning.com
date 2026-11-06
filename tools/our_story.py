@@ -38,7 +38,7 @@ SANJAY = [
  "My principle is simple: <strong>Touch, Move, Inspire.</strong> I want to help each person find a smart, safe, secure and sustainable career, and discover their own potential. I try to be the difference I wish to see in the world.",
  "This knowledge and experience should not wither away with me in time. So I have turned what I learned into a systematic process, to benefit the 100 to 150 million white-collar and blue-collar professionals in the energy sector.",
  "I want young people to pick this up from where professionals of my generation have left it, and to build it further. I am still here to help you along the way, for you and for the projects you help build in this world. It is my daily communion with my maker that the platform and the ecosystem I am setting up continue to serve millions of workers around the world long after I am gone. I am also training my children to facilitate the ecosystem, so that my work continues beyond me.",
- "If you love your work and enjoy doing things differently, come and take your place in the “Learn it to Earn it” experience.",
+ "If you love your work and enjoy doing things differently, come and take your place in the Author it, Train it, Learn it, Earn it (<a class=\"atle-in\" href=\"atle.html\" aria-label=\"ATLE(it)\">ATLE<sup>it</sup></a>).",
 ]
 
 def letter(site):
