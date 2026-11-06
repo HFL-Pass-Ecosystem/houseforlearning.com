@@ -38,7 +38,7 @@ SANJAY = [
  "My principle is simple: <strong>Touch, Move, Inspire.</strong> I want to help each person find a smart, safe, secure and sustainable career, and discover their own potential. I try to be the difference I wish to see in the world.",
  "This knowledge and experience should not wither away with me in time. So I have turned what I learned into a systematic process, to benefit the 100 to 150 million white-collar and blue-collar professionals in the energy sector.",
  "I want young people to pick this up from where professionals of my generation have left it, and to build it further. I am still here to help you along the way, for you and for the projects you help build in this world. It is my daily communion with my maker that the platform and the ecosystem I am setting up continue to serve millions of workers around the world long after I am gone. I am also training my children to facilitate the ecosystem, so that my work continues beyond me.",
- "If you love your work and enjoy doing things differently, come and take your place in the Author it, Train it, Learn it, Earn it (<a class=\"atle-in\" href=\"/atle/\" aria-label=\"ATLE(it)\">ATLE<sup>it</sup></a>).",
+ "If you love your work and enjoy doing things differently, come and take your place in the Author it, Train it, Learn it, Earn it (<a class=\"atle-in\" href=\"@@A@@\" aria-label=\"ATLE(it)\">ATLE<sup>it</sup></a>).",
 ]
 
 def letter(site):
@@ -69,7 +69,7 @@ def letter(site):
 
 PHOTO = {"yantra": "/assets/img/family-photo.jpg", "hflpass": "img/family-photo.jpg", "ahfl": "assets/family-photo.jpg", "hfl": "assets/family-photo.jpg"}
 PHOTO_ALT = "A family portrait from long ago, restored and colourised: elders seated in the middle, young couples on either side, and four children sitting on a rug in front, in a garden."
-PHOTO_CAP = "Our family, gathered for a portrait. This treasured photograph was restored and colourised in 2025 and gifted to everyone in the family."
+PHOTO_CAP = "Our family, gathered for a portrait. Seated: Mr. V. S. Ramacharya (B.E., Civil); Smt. Rukmini Bai, his wife; Smt. Saraswati Bai, with little Draupadi (later the wife of Capt. Bhargav, who became a general manager); Mr. V. S. Vedavyasacharya (M.A., I.C.S.) with Master Madhwaraja; the grandfather, Mahamahopadhyaya; Shri Shyamacharya with Krishna Bai; Smt. Kamala Bai; Mr. V. S. Jayacharya (B.A., B.L.); and Smt. Kamulu. On the rug: Master Ananthachar and Master Sreepadarajacharya. A few faces are still being traced. This photograph was restored and colourised by a Bangalore studio, and gifted to everyone in the family in September 2025."
 JOURNEY = {"yantra": "/energy-journey/"}
 
 def our_story(site="ahfl", tag="h2"):
@@ -90,7 +90,8 @@ def our_story(site="ahfl", tag="h2"):
     pic = (f'<figure class="os-pic"><img src="{PHOTO.get(site, "assets/family-photo.jpg")}" width="1600" height="956" loading="lazy" decoding="async" alt="{E(PHOTO_ALT)}">'
            f'<figcaption>{E(PHOTO_CAP)}</figcaption></figure>')
     J = "The House for Learning journey" if site == "hfl" else "This journey"
-    sj = "".join(f"<p>{x.replace('@@J@@', J)}</p>" for x in SANJAY)
+    A = "/atle/" if site == "yantra" else "atle.html"
+    sj = "".join(f"<p>{x.replace('@@J@@', J).replace('@@A@@', A)}</p>" for x in SANJAY)
     return (f'<aside class="os" id="our-story" aria-labelledby="os-h"><div class="w"><details class="os-box">'
             f'<summary><span class="os-k">Our story</span><{tag} id="os-h">Words from our family</{tag}>'
             f'<span class="os-t">Where this work comes from: a father’s message, and a son’s thanks.</span>'
