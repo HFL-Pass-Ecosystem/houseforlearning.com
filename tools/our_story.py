@@ -33,6 +33,7 @@ SANJAY = [
  "I was a curious child, and I took it all in. Long before I learned the words “leadership” and “ownership” at school, I had already seen them lived. Those lessons never faded. They became my life truths.",
  "Work later brought me to the UAE, where I have lived for over 24 years among more than 50 nationalities. Cultures differ, yet the pattern is the same: people grow when someone listens, teaches and trusts them.",
  "For 30 years I have worked in electrical engineering, electromechanical systems, telecom, and media and broadcasting. I began as an order handling engineer and grew into sales, projects, technical management and training. I handled capital projects worth billions of dollars for leading builders and utilities in the UAE. The crown jewel of that experience came when I was trusted, as a new product expert, to work with the R&amp;D team in Italy to build an intelligent compact low-voltage switchgear system, tested at an independent laboratory in Italy, for two landmark projects in Dubai. It is the capstone of a career for any energy professional. I worked alongside greats who to this day call me a friend. I also led teams and headed a regional academy at a global electrification leader. Training became a daily habit, and the habit became a mantra: <strong>Learn it to Earn it.</strong> Friends like these are worth more than money can earn. That is what it really means. Today it has grown into <strong>Learn it, Author it, Train it, so that all can Earn it.</strong>",
+ "@@J@@ began in July 2011, when my school headmaster inspired many of us in my batch to stop being job seekers and become job creators. A growing family meant I could make it happen only in this decade. Along the way, teachers, doctors, statesmen and sportsmen, many of them known to me through my father, inspired me to reach this milestone. They also encouraged me to complete a postgraduate degree at an international business school, where I earned lifelong relationships with some great people who are now part of this journey. It is my earnest wish that you get to engage with them, and experience them as fondly as I do whenever I have the chance.",
  "I hold an Executive MBA and a Bachelor’s degree in Electrical Engineering, and I am a Chartered Engineer.",
  "My principle is simple: <strong>Touch, Move, Inspire.</strong> I want to help each person find a smart, safe, secure and sustainable career, and discover their own potential. I try to be the difference I wish to see in the world.",
  "I want young people to pick this up from where professionals of my generation have left it, and to build it further. I am still here to help you along the way, for you and for the projects you help build in this world.",
@@ -79,7 +80,8 @@ def our_story(site="ahfl", tag="h2"):
         elif k == "who": out.append(f'<p class="os-who"><strong>{v}</strong></p>')
     father = "".join(out)
     trib = "".join(f"<p>{E(x)}</p>" for x in TRIBUTE)
-    sj = "".join(f"<p>{x}</p>" for x in SANJAY)
+    J = "The House for Learning journey" if site == "hfl" else "This journey"
+    sj = "".join(f"<p>{x.replace('@@J@@', J)}</p>" for x in SANJAY)
     return (f'<aside class="os" id="our-story" aria-labelledby="os-h"><div class="w"><details class="os-box">'
             f'<summary><span class="os-k">Our story</span><{tag} id="os-h">Words from our family</{tag}>'
             f'<span class="os-t">Where this work comes from: a father’s message, and a son’s thanks.</span>'
