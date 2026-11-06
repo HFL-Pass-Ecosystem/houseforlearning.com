@@ -10,7 +10,7 @@ function hours(){
   var t=0; hk.forEach(function(k){var i=$("h-"+k);hs[k]=parseFloat(i.value);i.parentNode.querySelector("output").textContent=hs[k];t+=hs[k];});
   hk.forEach(function(k){document.querySelector('#bar24 i[data-s="'+k+'"]').style.width=(hs[k]/Math.max(24,t)*100)+"%";});
   var d=24-t,r=$("h-read");
-  r.textContent=d===0?"Exactly 24 hours. Well planned.":d>0?d+" hours still free. Give them a home.":(-d)+" hours too many. Take some back.";
+  r.textContent=d===0?"Exactly 24 hours. Well planned.":d>0?d+(d===1?" hour":" hours")+" still free. Give them a home.":(-d)+(d===-1?" hour":" hours")+" too many. Take some back.";
   return d;
 }
 hk.forEach(function(k){$("h-"+k).addEventListener("input",hours);}); hours();
