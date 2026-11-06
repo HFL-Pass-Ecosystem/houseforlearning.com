@@ -37,7 +37,7 @@ SANJAY = [
  "I hold an Executive MBA and a Bachelor’s degree in Electrical Engineering, and I am a Chartered Engineer.",
  "My principle is simple: <strong>Touch, Move, Inspire.</strong> I want to help each person find a smart, safe, secure and sustainable career, and discover their own potential. I try to be the difference I wish to see in the world.",
  "This knowledge and experience should not wither away with me in time. So I have turned what I learned into a systematic process, to benefit the 100 to 150 million white-collar and blue-collar professionals in the energy sector.",
- "I want young people to pick this up from where professionals of my generation have left it, and to build it further. I am still here to help you along the way, for you and for the projects you help build in this world.",
+ "I want young people to pick this up from where professionals of my generation have left it, and to build it further. I am still here to help you along the way, for you and for the projects you help build in this world. It is my daily communion with my maker that the platform and the ecosystem I am setting up continue to serve millions of workers around the world long after I am gone. I am also training my children to facilitate the ecosystem, so that my work continues beyond me.",
  "If you love your work and enjoy doing things differently, come and take your place in the “Learn it to Earn it” experience.",
 ]
 
@@ -67,7 +67,10 @@ def letter(site):
     P.append(("who", "Mr. VR Raghavendra &amp; Mrs. Meera R" + ("<br>Chairpersons Emeritus, AHFL" if full else "<br>Chairpersons Emeritus")))
     return P
 
+JOURNEY = {"yantra": "/energy-journey/"}
+
 def our_story(site="ahfl", tag="h2"):
+    JH = JOURNEY.get(site, "energy-journey/")
     out = []
     for k, v in letter(site):
         if k == "greet": out.append(f'<p class="os-greet">{E(v)}</p>')
@@ -89,7 +92,7 @@ def our_story(site="ahfl", tag="h2"):
             f'<span class="os-b">Read the full story</span></summary>'
             f'<div class="os-body"><div class="os-trib">{trib}</div>'
             f'<h3>From the Desk of the Chairpersons Emeritus</h3><div class="os-letter">{father}</div>'
-            f'<h3 class="os-sj">How I learned to Touch, Move and Inspire</h3><div class="os-sjt">{sj}<p class="os-who"><strong>Sanjay R Acharya</strong></p></div>'
+            f'<h3 class="os-sj">How I learned to Touch, Move and Inspire</h3><div class="os-sjt">{sj}<p class="os-who"><strong>Sanjay R Acharya</strong></p><p class="os-go"><a href="{JH}">See the energy journey: 150 years behind us, 150 ahead.</a></p></div>'
             f'</div></details></div></aside>')
 
 CSS = """
@@ -106,5 +109,6 @@ CSS = """
 .os-body p{margin:0 0 12px}.os-trib{border-left:3px solid #3CC261;padding-left:16px;font-style:italic}
 .os-sj{border-top:1px solid var(--line,#d9d4c5);padding-top:24px}.os-greet{font-weight:600}.os-verse{margin:16px 0;padding-left:16px;border-left:3px solid #0F85DB}.os-who{margin-top:16px}
 .os-in{margin:8px 0 16px;border:1px solid var(--line,#d9d4c5);border-radius:10px;background:var(--card,#fff);padding:4px 16px}.os-in>summary{cursor:pointer;font-weight:600;padding:10px 0}.os-in>summary:focus-visible{outline:3px solid #0F85DB;outline-offset:2px}
+.os-go{margin:22px 0 0}.os-go a{display:inline-block;background:#3CC261;color:#0b2a14;font-weight:700;text-decoration:none;padding:11px 18px;border-radius:999px}.os-go a:hover{background:#2fae52}.os-go a:focus-visible{outline:3px solid #0F85DB;outline-offset:2px}
 @media(max-width:560px){.os-box>summary{padding:18px 16px}.os-body{padding:0 16px 22px}}
 """
