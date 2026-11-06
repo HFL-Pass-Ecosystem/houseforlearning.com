@@ -38,7 +38,7 @@ SANJAY = [
  "My principle is simple: <strong>Touch, Move, Inspire.</strong> I want to help each person find a smart, safe, secure and sustainable career, and discover their own potential. I try to be the difference I wish to see in the world.",
  "This knowledge and experience should not wither away with me in time. So I have turned what I learned into a systematic process, to benefit the 100 to 150 million white-collar and blue-collar professionals in the energy sector.",
  "I want young people to pick this up from where professionals of my generation have left it, and to build it further. I am still here to help you along the way, for you and for the projects you help build in this world. It is my daily communion with my maker that the platform and the ecosystem I am setting up continue to serve millions of workers around the world long after I am gone. I am also training my children to facilitate the ecosystem, so that my work continues beyond me.",
- "If you love your work and enjoy doing things differently, come and take your place in the Author it, Train it, Learn it, Earn it (<a class=\"atle-in\" href=\"atle.html\" aria-label=\"ATLE(it)\">ATLE<sup>it</sup></a>).",
+ "If you love your work and enjoy doing things differently, come and take your place in the Author it, Train it, Learn it, Earn it (<a class=\"atle-in\" href=\"/atle/\" aria-label=\"ATLE(it)\">ATLE<sup>it</sup></a>).",
 ]
 
 def letter(site):
@@ -67,6 +67,9 @@ def letter(site):
     P.append(("who", "Mr. VR Raghavendra &amp; Mrs. Meera R" + ("<br>Chairpersons Emeritus, AHFL" if full else "<br>Chairpersons Emeritus")))
     return P
 
+PHOTO = {"yantra": "/assets/img/family-photo.jpg", "hflpass": "img/family-photo.jpg", "ahfl": "assets/family-photo.jpg", "hfl": "assets/family-photo.jpg"}
+PHOTO_ALT = "A family portrait from long ago, restored and colourised: elders seated in the middle, young couples on either side, and four children sitting on a rug in front, in a garden."
+PHOTO_CAP = "Our family, gathered for a portrait. This treasured photograph was restored and colourised in 2025 and gifted to everyone in the family."
 JOURNEY = {"yantra": "/energy-journey/"}
 
 def our_story(site="ahfl", tag="h2"):
@@ -84,13 +87,15 @@ def our_story(site="ahfl", tag="h2"):
         elif k == "who": out.append(f'<p class="os-who"><strong>{v}</strong></p>')
     father = "".join(out)
     trib = "".join(f"<p>{E(x)}</p>" for x in TRIBUTE)
+    pic = (f'<figure class="os-pic"><img src="{PHOTO.get(site, "assets/family-photo.jpg")}" width="1600" height="956" loading="lazy" decoding="async" alt="{E(PHOTO_ALT)}">'
+           f'<figcaption>{E(PHOTO_CAP)}</figcaption></figure>')
     J = "The House for Learning journey" if site == "hfl" else "This journey"
     sj = "".join(f"<p>{x.replace('@@J@@', J)}</p>" for x in SANJAY)
     return (f'<aside class="os" id="our-story" aria-labelledby="os-h"><div class="w"><details class="os-box">'
             f'<summary><span class="os-k">Our story</span><{tag} id="os-h">Words from our family</{tag}>'
             f'<span class="os-t">Where this work comes from: a father’s message, and a son’s thanks.</span>'
             f'<span class="os-b">Read the full story</span></summary>'
-            f'<div class="os-body"><div class="os-trib">{trib}</div>'
+            f'<div class="os-body"><div class="os-trib">{trib}</div>{pic}'
             f'<h3>From the Desk of the Chairpersons Emeritus</h3><div class="os-letter">{father}</div>'
             f'<h3 class="os-sj">How I learned to Touch, Move and Inspire</h3><div class="os-sjt">{sj}<p class="os-who"><strong>Sanjay R Acharya</strong></p><p class="os-go"><a href="{JH}">See the energy journey: 150 years behind us, 150 ahead.</a></p></div>'
             f'</div></details></div></aside>')
@@ -109,6 +114,7 @@ CSS = """
 .os-body p{margin:0 0 12px}.os-trib{border-left:3px solid #3CC261;padding-left:16px;font-style:italic}
 .os-sj{border-top:1px solid var(--line,#d9d4c5);padding-top:24px}.os-greet{font-weight:600}.os-verse{margin:16px 0;padding-left:16px;border-left:3px solid #0F85DB}.os-who{margin-top:16px}
 .os-in{margin:8px 0 16px;border:1px solid var(--line,#d9d4c5);border-radius:10px;background:var(--card,#fff);padding:4px 16px}.os-in>summary{cursor:pointer;font-weight:600;padding:10px 0}.os-in>summary:focus-visible{outline:3px solid #0F85DB;outline-offset:2px}
+.os-pic{margin:18px 0 8px}.os-pic img{display:block;width:100%;max-width:720px;height:auto;border-radius:10px;border:1px solid var(--line,#d9d4c5)}.os-pic figcaption{font-size:.85rem;color:var(--mute,#4a5a68);margin-top:8px;font-style:normal}
 .os-go{margin:22px 0 0}.os-go a{display:inline-block;background:#3CC261;color:#0b2a14;font-weight:700;text-decoration:none;padding:11px 18px;border-radius:999px}.os-go a:hover{background:#2fae52}.os-go a:focus-visible{outline:3px solid #0F85DB;outline-offset:2px}
 @media(max-width:560px){.os-box>summary{padding:18px 16px}.os-body{padding:0 16px 22px}}
 """
