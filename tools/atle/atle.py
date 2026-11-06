@@ -28,12 +28,13 @@ CSS = '''/* ATLE(it): shared by every page. Light surfaces with their own colour
 .atle-pg{font-family:Montserrat,system-ui,sans-serif;color:#14202b;background:#fff}.atle-pg .w{max-width:1100px;margin:0 auto;padding:0 16px}
 .atle-hero{background:#F2EEE2;padding:40px 0}.atle-hero img{width:min(420px,80%);height:auto;display:block;margin:0 0 14px}
 .atle-hero h1{font-size:clamp(1.5rem,3.2vw,2.2rem);line-height:1.2;margin:0 0 10px}.atle-hero p{max-width:640px;line-height:1.7;margin:0}
-.atle-steps{display:flex;flex-wrap:wrap;gap:10px;list-style:none;margin:18px 0 0;padding:0}
-.atle-steps li{background:#fff;border:1px solid #d9d4c5;border-radius:999px;padding:8px 16px;font-weight:600}
+.atle-steps{display:flex;flex-wrap:wrap;gap:12px;margin:20px 0 0;padding:0}
+.atle-acts{display:flex;flex-wrap:wrap;gap:12px}
+.atle-steps .atle-btn{padding:12px 22px}
 .atle-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;padding:28px 0}
 .atle-card{border:1px solid #d9d4c5;border-top:5px solid #0F85DB;border-radius:14px;padding:22px;background:#fff}
 .atle-card.g{border-top-color:#3CC261}.atle-card h2{font-size:1.15rem;margin:0 0 8px}.atle-card p{line-height:1.65;margin:0 0 14px}
-.atle-btn{display:inline-block;background:#0B66A8;color:#fff;font-weight:700;text-decoration:none;padding:12px 18px;border-radius:999px;min-height:44px;box-sizing:border-box}
+.atle-btn{display:inline-flex;align-items:center;justify-content:center;background:#0B66A8;color:#fff;font-weight:700;text-decoration:none;padding:12px 18px;border-radius:999px;min-height:44px;box-sizing:border-box}
 .atle-btn:hover{background:#094f82}.atle-btn.alt{background:#fff;color:#0B66A8;border:2px solid #0B66A8}
 .atle-suite{border:1px solid #d9d4c5;border-radius:14px;padding:22px;margin:0 0 28px;background:#F2EEE2}
 .atle-suite ul{margin:0;padding-left:1.2em;line-height:1.9}.atle-lock{font-weight:600}
@@ -49,18 +50,18 @@ if(s&&l&&document.documentElement.getAttribute("data-atle-role")){s.hidden=false
 
 SITES = {
  # root: how pages link to each other. "rel" = flat relative links, "abs" = root-absolute links.
- 'ahfl': dict(mode='rel', page='atle.html', template='help.html', name='AHFL Global', signin='signin.html',
+ 'ahfl': dict(author='diy-atle-workflow-author.html', train='diy-atle-workflow-trainer.html', learn='diy-atle-workflow-learner.html', earn='diy-atle-workflow-earner.html', mode='rel', page='atle.html', template='help.html', name='AHFL Global', signin='signin.html',
    market='grow-marketplace.html', work='grow-workplace.html', how='diy-atle-workflow.html', join='join.html',
    suite=[('Author Studio', 'diy-atle-workflow-author.html'), ('Trainer certification', 'diy-atle-workflow-trainer.html'), ('Earner marketplace', 'diy-atle-workflow-earner.html')],
    prices=False),
- 'hfl-pass': dict(mode='rel', page='atle.html', template='help.html', name='HFL-Pass', signin='signin.html',
+ 'hfl-pass': dict(author='studio/index.html', train='studio/guide.html', learn='who.html', earn='plans.html', mode='rel', page='atle.html', template='help.html', name='HFL-Pass', signin='signin.html',
    market='who.html', work='stack.html', how='onboard.html', join='onboard.html',
    suite=[('Studio: scripts, images, video, documents', 'studio/index.html'), ('Studio guide', 'studio/guide.html')],
    prices=True),
- 'hfl': dict(mode='rel', page='atle.html', template='contact.html', name='House for Learning', signin='login.html',
+ 'hfl': dict(author='author-a-module.html', train='webinars.html', learn='courses-all.html', earn='workplace.html', mode='rel', page='atle.html', template='contact.html', name='House for Learning', signin='login.html',
    market='marketplace.html', work='workplace.html', how='how-learning-works.html', join='membership.html',
    suite=[('Author a module', 'author-a-module.html'), ('Start a course', 'start-a-course.html')], prices='member'),
- 'yantra': dict(mode='abs', page='/atle/', template='start/learn/index.html', name='Yantra Global', signin='/signin/',
+ 'yantra': dict(author='/start/academy/', train='/start/academy/', learn='/start/learn/', earn='/start/careers/', mode='abs', page='/atle/', template='start/learn/index.html', name='Yantra Global', signin='/signin/',
    market='/start/buy/', work='/platform/', how='/start/learn/', join='/start/',
    suite=[('Academy: build and teach a course', '/start/academy/'), ('Learn', '/start/learn/')],
    prices=True),
@@ -92,10 +93,10 @@ def funnel_main(cfg, P):
 <img src="{h('assets/atle/atle-logo.svg') if cfg['mode']=='rel' else '/assets/atle/atle-logo.svg'}" alt="ATLE(it)" width="420" height="152">
 <h1>Author it. Train it. Learn it. Earn it.</h1>
 <p>One path from an idea to income. Write a course, teach it, learn a skill, and earn from it, all in one place, and pay only as you go.</p>
-<ol class="atle-steps"><li>Author it</li><li>Train it</li><li>Learn it</li><li>Earn it</li></ol></div></section>
+<nav class="atle-steps" aria-label="The four steps"><a class="atle-btn" href="{h(cfg['author'])}">Author it</a><a class="atle-btn" href="{h(cfg['train'])}">Train it</a><a class="atle-btn" href="{h(cfg['learn'])}">Learn it</a><a class="atle-btn" href="{h(cfg['earn'])}">Earn it</a></nav></div></section>
 <div class="w"><div class="atle-grid">
 <section class="atle-card"><h2>I am an Author or Trainer</h2><p>Sign in to open your creator tools. Subscribed Authors and Trainers go straight in.</p><a class="atle-btn" href="{h(cfg['signin'])}">Sign in</a></section>
-<section class="atle-card g"><h2>I want to learn or earn</h2><p>Browse the marketplace to find work and learning, then open your workplace to do it.</p><a class="atle-btn" href="{h(cfg['market'])}">Open the marketplace</a> <a class="atle-btn alt" href="{h(cfg['work'])}">Open the workplace</a></section>
+<section class="atle-card g"><h2>I want to learn or earn</h2><p>Browse the marketplace to find work and learning, then open your workplace to do it.</p><div class="atle-acts"><a class="atle-btn" href="{h(cfg['market'])}">Open the marketplace</a><a class="atle-btn alt" href="{h(cfg['work'])}">Open the workplace</a></div></section>
 <section class="atle-card"><h2>New here</h2><p>Join as a member, then add Author or Trainer when you are ready. You pay only for what you use.</p><a class="atle-btn" href="{h(cfg['join'])}">How to join</a></section></div>
 <section class="atle-suite" id="suite" aria-labelledby="suite-h"><h2 id="suite-h">The creator suite</h2>
 <p id="atle-suite-locked" class="atle-lock">Opens after you sign in as a subscribed Author or Trainer.</p>
