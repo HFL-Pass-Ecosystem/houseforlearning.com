@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Play and Learn: Four Quick Games</title>
+<meta name="description" content="Four short, playful games that teach something real: plan your 24 hours, balance a power supply, train your memory and climb the skill ladder.">
+<meta name="theme-color" content="#06182b">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="play.css">
+<script src="play.js" defer></script>
+<link rel="stylesheet" href="../assets/atle/atle.css"><script src="../assets/atle/atle.js" defer></script></head>
+<body><div class="atle-rib" data-atle="ribbon"><a href="../atle.html" aria-label="ATLE(it): Author it, Train it, Learn it, Earn it"><img src="../assets/atle/atle-logo.svg" alt="" width="60" height="22"><span>Author it, Train it, Learn it, Earn it</span></a></div>
+<header class="bar"><div class="w">
+<a href="../index.html">&larr; House for Learning</a><span class="sp"></span>
+<nav aria-label="On this page"><a href="#hours">Life</a><a href="#load">Work</a><a href="#spark">Play</a><a href="#quest">Gaming</a></nav>
+<span class="xp" id="xp" aria-live="polite">Points: 0</span>
+</div></header>
+<main id="main">
+<section class="hero"><div class="w">
+<p class="kick">Play and learn</p>
+<h1>Touch it. <em>Learn it.</em></h1>
+<p class="lead">Four quick games, one for each part of life. Each takes under two minutes and teaches one real idea. Every win adds points to your counter at the top.</p>
+</div></section>
+
+<section class="s" id="hours"><div class="w">
+<p class="kick">Personal and life</p>
+<h2>Plan your 24 hours</h2>
+<p class="sub">You get 24 hours a day, like everyone. Slide each bar to build your ideal day. The total must reach exactly 24.</p>
+<div class="game" id="g-hours">
+<div class="sl" data-k="sleep"><label for="h-sleep">Sleep</label><input id="h-sleep" type="range" min="0" max="12" step="0.5" value="7"><output>7</output></div>
+<div class="sl" data-k="work"><label for="h-work">Work</label><input id="h-work" type="range" min="0" max="16" step="0.5" value="9"><output>9</output></div>
+<div class="sl" data-k="learn"><label for="h-learn">Learning</label><input id="h-learn" type="range" min="0" max="8" step="0.5" value="2"><output>2</output></div>
+<div class="sl" data-k="move"><label for="h-move">Movement and health</label><input id="h-move" type="range" min="0" max="6" step="0.5" value="1"><output>1</output></div>
+<div class="sl" data-k="people"><label for="h-people">Family and friends</label><input id="h-people" type="range" min="0" max="10" step="0.5" value="3"><output>3</output></div>
+<div class="sl" data-k="play"><label for="h-play">Play and rest</label><input id="h-play" type="range" min="0" max="10" step="0.5" value="2"><output>2</output></div>
+<div class="bar24" id="bar24" aria-hidden="true"><i data-s="sleep"></i><i data-s="work"></i><i data-s="learn"></i><i data-s="move"></i><i data-s="people"></i><i data-s="play"></i></div>
+<p class="read" id="h-read" aria-live="polite"></p>
+<button class="go" id="h-go" type="button">Lock in my day</button>
+<p class="teach">The idea: a good day is a trade. More of one thing always means less of another. Most people who plan their hours find time they did not know they had.</p>
+</div></div></section>
+
+<section class="s alt" id="load"><div class="w">
+<p class="kick">Work</p>
+<h2>Balance the load</h2>
+<p class="sub">A small workshop has a 10 kW supply. Switch machines on to finish the orders, but if the total goes past 10 kW the breaker trips. Aim for 8 to 10 kW, the efficient zone.</p>
+<div class="game" id="g-load">
+<div class="mach" id="machs"></div>
+<div class="meter" aria-hidden="true"><div class="fill" id="ld-fill"></div><div class="zone"></div></div>
+<p class="read" id="ld-read" aria-live="polite">0 kW of 10 kW</p>
+<button class="go" id="ld-reset" type="button">Reset the breaker</button>
+<p class="teach">The idea: power is shared. Engineers call this load management. Running everything at once is not clever; planning the order is. Real factories use the same thinking to cut their bills.</p>
+</div></div></section>
+
+<section class="s" id="spark"><div class="w">
+<p class="kick">Play</p>
+<h2>Memory spark</h2>
+<p class="sub">Watch the pads light up, then repeat the pattern. Each round adds one more. How far can you go?</p>
+<div class="game" id="g-spark">
+<div class="pads" id="pads"><button type="button" data-p="0" aria-label="Pad 1 blue"></button><button type="button" data-p="1" aria-label="Pad 2 green"></button><button type="button" data-p="2" aria-label="Pad 3 gold"></button><button type="button" data-p="3" aria-label="Pad 4 white"></button></div>
+<p class="read" id="sp-read" aria-live="polite">Press Start.</p>
+<button class="go" id="sp-go" type="button">Start</button>
+<p class="teach">The idea: short-term memory holds about four to seven items. Practising a little each day stretches it, and so does grouping things into chunks.</p>
+</div></div></section>
+
+<section class="s alt" id="quest"><div class="w">
+<p class="kick">Gaming and social</p>
+<h2>Skill ladder quest</h2>
+<p class="sub">Answer three quick questions to climb from Level 1 to Level 3. Then challenge a friend with your score.</p>
+<div class="game" id="g-quest">
+<div class="ladder" id="ladder" aria-hidden="true"><span>L1</span><span>L2</span><span>L3</span></div>
+<p class="q" id="q-text" aria-live="polite"></p>
+<div class="ans" id="q-ans"></div>
+<p class="read" id="q-read" aria-live="polite"></p>
+<button class="go" id="q-share" type="button" hidden>Copy my score to share</button>
+<p class="teach">The idea: learning is a ladder. Each level asks a little more of you than the one before, and each step you finish is worth showing.</p>
+</div></div></section>
+</main>
+<footer><div class="w"><p><a href="../index.html">&larr; Back to House for Learning</a></p><p>Learn it. Author it. Train it. So that all can earn it.</p></div></footer>
+</body>
+</html>
