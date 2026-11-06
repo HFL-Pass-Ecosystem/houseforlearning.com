@@ -70,4 +70,45 @@
     btn.innerHTML = on ? "&#9835; Music: on" : "&#9835; Music: off";
     if (on) start(); else stop();
   });
+
+  // Trend chart and history from metrics.json (append-only record)
+  var chart = document.getElementById("chart");
+  if (chart && window.fetch) {
+    fetch("metrics.json").then(function(r){ return r.json(); }).then(function(d){
+      var cols = {workforce_published_m:"#0F85DB", workforce_low_m:"#7bc9a0", workforce_mid_m:"#3CC261", workforce_high_m:"#1F7A3A"};
+      var lab = {}; d.series.forEach(function(s){ lab[s.id] = s.label; });
+      var pts = {}; var all = [];
+      d.snapshots.forEach(function(sn){ Object.keys(sn.values).forEach(function(k){
+        var t = Date.parse(sn.date); (pts[k] = pts[k] || []).push([t, sn.values[k].value]); all.push([t, sn.values[k].value]); }); });
+      var t0 = Math.min.apply(null, all.map(function(a){return a[0];})), t1 = Math.max.apply(null, all.map(function(a){return a[0];}));
+      if (t1 === t0) t1 = t0 + 86400000 * 365;
+      var W = 760, H = 300, L = 46, B = 36, T = 16, R = 24, vmax = 160;
+      function X(t){ return L + (t - t0) / (t1 - t0) * (W - L - R); }
+      function Y(v){ return H - B - v / vmax * (H - B - T); }
+      var g = "";
+      [0, 40, 80, 120, 160].forEach(function(v){ g += '<line x1="'+L+'" x2="'+(W-R)+'" y1="'+Y(v)+'" y2="'+Y(v)+'" stroke="#0b254022"/><text x="'+(L-6)+'" y="'+(Y(v)+4)+'" text-anchor="end" font-size="11" fill="#4a5b6c">'+v+'</text>'; });
+      var yrs = {}; all.forEach(function(a){ yrs[new Date(a[0]).getUTCFullYear()] = a[0]; });
+      Object.keys(yrs).forEach(function(y){ g += '<text x="'+X(yrs[y])+'" y="'+(H-12)+'" text-anchor="middle" font-size="11" fill="#4a5b6c">'+y+'</text>'; });
+      Object.keys(pts).forEach(function(k){
+        var p = pts[k], c = cols[k] || "#0B2540";
+        if (p.length > 1) g += '<polyline fill="none" stroke="'+c+'" stroke-width="3" points="'+p.map(function(a){return X(a[0])+","+Y(a[1]);}).join(" ")+'"/>';
+        p.forEach(function(a){ g += '<circle cx="'+X(a[0])+'" cy="'+Y(a[1])+'" r="5" fill="'+c+'"><title>'+lab[k]+": "+a[1]+' million</title></circle><text x="'+(X(a[0])+(X(a[0])<L+30?10:-8))+'" y="'+(Y(a[1])-9)+'" text-anchor="'+(X(a[0])<L+30?"start":"end")+'" font-size="11" font-weight="700" fill="'+c+'">'+a[1]+'</text>'; });
+      });
+      chart.innerHTML = '<svg viewBox="0 0 '+W+' '+H+'" role="presentation">'+g+'</svg>';
+      document.getElementById("legend").innerHTML = Object.keys(pts).map(function(k){ return '<span style="color:'+(cols[k]||"#0B2540")+'">&#9632;</span> '+lab[k]; }).join(" &nbsp; ") + " &nbsp; (millions of people)";
+      // schedule
+      var due = {monthly:1, quarterly:3, "half-yearly":6, yearly:12}, cad = document.getElementById("cad");
+      if (cad) cad.innerHTML = Object.keys(due).map(function(c){
+        var last = null; d.snapshots.forEach(function(sn){ if (sn.cadence.indexOf(c) > -1) last = sn.date; });
+        var nx = "";
+        if (last) { var x = new Date(last); x.setUTCMonth(x.getUTCMonth() + due[c]); nx = x.toISOString().slice(0,10); }
+        return '<div class="card"><b>'+c.charAt(0).toUpperCase()+c.slice(1)+' refresh</b><br><span class="note">Last: '+(last||"none yet")+'<br>Next due: '+(nx||"to be set")+'</span></div>';
+      }).join("");
+      // table (newest first)
+      var rows = [];
+      d.snapshots.slice().reverse().forEach(function(sn){ Object.keys(sn.values).forEach(function(k){
+        var v = sn.values[k]; rows.push('<tr><td>'+sn.date+'</td><td>'+sn.cadence.join(", ")+'</td><td>'+lab[k]+'</td><td>'+v.value+'</td><td>'+v.basis+'</td><td>'+v.source+'</td></tr>'); }); });
+      document.getElementById("hist").innerHTML = rows.join("");
+    }).catch(function(){ chart.innerHTML = '<p class="note">The history could not be loaded just now.</p>'; });
+  }
 })();
