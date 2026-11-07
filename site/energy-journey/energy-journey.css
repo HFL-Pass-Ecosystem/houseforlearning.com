@@ -87,3 +87,4 @@ footer a{color:#fff}
 @keyframes dash{to{stroke-dashoffset:-24}}
 @media(prefers-reduced-motion:reduce){.ev{opacity:1;transform:none;transition:none}.flow path.l{animation:none}.br i{transition:none}html{scroll-behavior:auto}}
 section[id]{scroll-margin-top:60px}
+.card.rc{background:#1a2c42;border:1px solid #ffffff30;color:#fff}.card.rc h3,.card.rc p{color:#fff}.card.rc .tag{color:#4a5b6c}
