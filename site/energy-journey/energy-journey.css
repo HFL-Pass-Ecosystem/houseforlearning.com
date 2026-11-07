@@ -87,3 +87,20 @@ footer a{color:#fff}
 @keyframes dash{to{stroke-dashoffset:-24}}
 @media(prefers-reduced-motion:reduce){.ev{opacity:1;transform:none;transition:none}.flow path.l{animation:none}.br i{transition:none}html{scroll-behavior:auto}}
 section[id]{scroll-margin-top:60px}
+
+/* Inline styles moved here: the site's security policy (style-src 'self') blocks style="" attributes, which left the Older roots cards white with white text. */
+.card-dk{background:#ffffff12;border-color:#ffffff30;color:#fff}
+.u2{color:#3CC261}
+.u3{font-size:30px;color:#0F85DB}
+.u4{font-size:30px;color:#3CC261}
+.u5{margin-bottom:0}
+.u6{margin-top:0}
+.u7{margin-top:14px}
+.u8{margin-top:16px}
+.u9{margin-top:18px}
+.u10{margin-top:20px;font-size:19px}
+.u11{margin-top:22px}
+.u12{margin-top:34px}
+.u13{margin:0;font-size:19px}
+.u14{margin:26px 0 10px}
+.u15{margin:34px 0 10px}
