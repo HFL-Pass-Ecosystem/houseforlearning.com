@@ -95,10 +95,7 @@
         p.forEach(function(a){ g += '<circle cx="'+X(a[0])+'" cy="'+Y(a[1])+'" r="5" fill="'+c+'"><title>'+lab[k]+": "+a[1]+' million</title></circle><text x="'+(X(a[0])+(X(a[0])<L+30?10:-8))+'" y="'+(Y(a[1])-9)+'" text-anchor="'+(X(a[0])<L+30?"start":"end")+'" font-size="11" font-weight="700" fill="'+c+'">'+a[1]+'</text>'; });
       });
       chart.innerHTML = '<svg viewBox="0 0 '+W+' '+H+'" role="presentation">'+g+'</svg>';
-      // Built with the DOM (not style="" in HTML) because the site's security policy blocks inline style attributes.
-      var lg = document.getElementById("legend"); lg.textContent = "";
-      Object.keys(pts).forEach(function(k){ var sw = document.createElement("span"); sw.textContent = "\u25A0"; sw.style.color = cols[k] || "#0B2540"; lg.appendChild(sw); lg.appendChild(document.createTextNode(" " + lab[k] + "\u00A0\u00A0 ")); });
-      lg.appendChild(document.createTextNode("(millions of people)"));
+      document.getElementById("legend").innerHTML = Object.keys(pts).map(function(k){ return '<span style="color:'+(cols[k]||"#0B2540")+'">&#9632;</span> '+lab[k]; }).join(" &nbsp; ") + " &nbsp; (millions of people)";
       // schedule
       var due = {monthly:1, quarterly:3, "half-yearly":6, yearly:12}, cad = document.getElementById("cad");
       if (cad) cad.innerHTML = Object.keys(due).map(function(c){
