@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Learning Coach: Short Doses That Fit You</title>
+<meta name="description" content="A gentle learning coach. It finds how you learn best, spots your weak areas, and gives you one short dose at a time. You choose when. Nothing leaves your device.">
+<meta name="theme-color" content="#06182b">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="boost.css">
+<script src="data.js" defer></script>
+<script src="boost.js" defer></script>
+<link rel="stylesheet" href="../assets/atle/atle.css"><script src="../assets/atle/atle.js" defer></script></head>
+<body><div class="atle-rib" data-atle="ribbon"><a href="../atle.html" aria-label="ATLE(it): Author it, Train it, Learn it, Earn it"><img src="../assets/atle/atle-logo.svg" alt="" width="60" height="22"><span>Author it, Train it, Learn it, Earn it</span></a></div>
+<header class="bar"><div class="w">
+<a href="../index.html">&larr; House for Learning</a><span class="sp"></span>
+<span class="xp" id="xp" aria-live="polite">Points: 0</span>
+</div></header>
+<main id="main">
+<section class="hero"><div class="w">
+<p class="kick">My learning coach</p>
+<h1>Short doses. <em>Made for you.</em></h1>
+<p class="lead">One minute at a time. The coach learns how you learn, finds the spots that need strength, and keeps new learning for when you feel fresh. You are always the one who decides.</p>
+</div></section>
+
+<section class="s" id="step-vark"><div class="w">
+<div id="v-intro">
+<p class="kick">Step 1 &middot; 2 minutes</p>
+<h2>How do you learn best?</h2>
+<p class="sub">Eight quick questions. Pick the answer closest to you. There are no right or wrong answers. Your result stays on this device.</p>
+<button class="go" id="v-start" type="button">Start</button>
+</div>
+<form id="v-form" class="game" hidden>
+<p class="kick" id="v-count">Question 1 of 8</p>
+<h3 id="v-q"></h3>
+<div id="v-opts" class="opts"></div>
+</form>
+</div></section>
+
+<section class="s alt" id="step-coach" hidden><div class="w">
+<p class="kick">Your coach</p>
+<h2 id="c-greet">Hello</h2>
+<p class="sub" id="c-sub"></p>
+
+<div class="modes" role="group" aria-label="How is your energy now?">
+<button type="button" class="mode" id="m-boost" aria-pressed="false"><b>Boost</b><span>I feel fresh. Teach me something new.</span></button>
+<button type="button" class="mode" id="m-float" aria-pressed="false"><b>Float</b><span>I am tired. Keep it light and gentle.</span></button>
+</div>
+<p class="hint" id="m-hint" aria-live="polite"></p>
+
+<div class="dose" id="dose" aria-live="polite">
+<p class="tag" id="d-tag"></p>
+<h3 class="hookline" id="d-hook"></h3>
+<div id="d-body"></div>
+<div id="d-quiz" hidden>
+<p class="qtext" id="d-q"></p>
+<div class="opts" id="d-opts"></div>
+<p class="fb" id="d-fb" aria-live="polite"></p>
+</div>
+<div class="row">
+<button class="go" id="d-next" type="button" hidden>Another dose</button>
+<button class="ghost" id="d-stop" type="button" hidden>I am done for now</button>
+</div>
+</div>
+<p class="hint" id="cap-note"></p>
+</div></section>
+
+<section class="s" id="step-map" hidden><div class="w">
+<p class="kick">Your map</p>
+<h2>Strong and weak areas</h2>
+<p class="sub">Weak areas get more attention in boost mode. Strong areas get only gentle reminders.</p>
+<div id="map" class="map"></div>
+<h3>How you learn</h3>
+<div id="vark" class="map"></div>
+<h3>Badges</h3>
+<ul id="badges" class="badges"></ul>
+<h3>Settings</h3>
+<div class="set">
+<label for="cap">Doses I want per day</label>
+<select id="cap"><option value="3">3 (about 3 minutes)</option><option value="6">6 (about 6 minutes)</option><option value="10">10 (about 10 minutes)</option></select>
+</div>
+<div class="set">
+<button class="ghost" id="retake" type="button">Retake the learning style check</button>
+<button class="ghost" id="wipe" type="button">Clear my data from this device</button>
+</div>
+<p class="teach">Your answers and points stay on this device only. This coach gives learning tips, not medical, legal or financial advice. For electrical work on fixed wiring, always use a licensed electrician.</p>
+</div></section>
+</main>
+<div class="atle-foot" data-atle="foot"><a href="../atle.html" aria-label="ATLE(it): Author it, Train it, Learn it, Earn it"><img src="../assets/atle/atle-logo.svg" alt="ATLE(it)" width="82" height="30"></a><span>Author it, Train it, Learn it, Earn it. <a href="../atle.html">Start here</a>.</span></div></body>
+</html>
