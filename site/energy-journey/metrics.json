@@ -21,6 +21,21 @@
    "id": "workforce_high_m",
    "label": "Planning estimate, high",
    "unit": "million people"
+  },
+  {
+   "id": "india_nonfossil_share_pct",
+   "label": "India: non-fossil share of installed power capacity",
+   "unit": "percent"
+  },
+  {
+   "id": "india_nonfossil_gw",
+   "label": "India: non-fossil installed capacity",
+   "unit": "GW"
+  },
+  {
+   "id": "india_solar_gw",
+   "label": "India: installed solar capacity",
+   "unit": "GW"
   }
  ],
  "snapshots": [
@@ -90,6 +105,34 @@
    "supersedes": "",
    "prev": "39321cebbe6ac12bcb16ab2b313dd41683b85c77d442306df5c766030f5bba3b",
    "hash": "a6194f62ca92dde91405ba483eebf5b9f75293a7579e2bb133fa1d46226a0695"
+  },
+  {
+   "id": "2025-11-30-yearly",
+   "date": "2025-11-30",
+   "cadence": [
+    "yearly"
+   ],
+   "values": {
+    "india_nonfossil_share_pct": {
+     "value": 51.5,
+     "basis": "published",
+     "source": "India Ministry of New and Renewable Energy / Press Information Bureau release, 29 Dec 2025 (figures for November 2025)"
+    },
+    "india_nonfossil_gw": {
+     "value": 262.74,
+     "basis": "published",
+     "source": "India Ministry of New and Renewable Energy / Press Information Bureau release, 29 Dec 2025 (figures for November 2025)"
+    },
+    "india_solar_gw": {
+     "value": 132.85,
+     "basis": "published",
+     "source": "India Ministry of New and Renewable Energy / Press Information Bureau release, 29 Dec 2025 (figures for November 2025)"
+    }
+   },
+   "note": "Added 2026-11-07 from the December 2025 government release; figures are as of November 2025",
+   "supersedes": "",
+   "prev": "a6194f62ca92dde91405ba483eebf5b9f75293a7579e2bb133fa1d46226a0695",
+   "hash": "32fd5da7ab72a685423d3bf307a787cf03c4538c9f85ba1244101e378934d44e"
   }
  ]
 }

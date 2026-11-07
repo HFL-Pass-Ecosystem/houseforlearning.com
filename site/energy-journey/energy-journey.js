@@ -76,9 +76,10 @@
   if (chart && window.fetch) {
     fetch("metrics.json").then(function(r){ return r.json(); }).then(function(d){
       var cols = {workforce_published_m:"#0F85DB", workforce_low_m:"#7bc9a0", workforce_mid_m:"#3CC261", workforce_high_m:"#1F7A3A"};
-      var lab = {}; d.series.forEach(function(s){ lab[s.id] = s.label; });
+      var lab = {}, unit = {}; d.series.forEach(function(s){ lab[s.id] = s.label; unit[s.id] = s.unit; });
       var pts = {}; var all = [];
       d.snapshots.forEach(function(sn){ Object.keys(sn.values).forEach(function(k){
+        if (unit[k] !== "million people") return;
         var t = Date.parse(sn.date); (pts[k] = pts[k] || []).push([t, sn.values[k].value]); all.push([t, sn.values[k].value]); }); });
       var t0 = Math.min.apply(null, all.map(function(a){return a[0];})), t1 = Math.max.apply(null, all.map(function(a){return a[0];}));
       if (t1 === t0) t1 = t0 + 86400000 * 365;
@@ -99,7 +100,7 @@
       // schedule
       var due = {monthly:1, quarterly:3, "half-yearly":6, yearly:12}, cad = document.getElementById("cad");
       if (cad) cad.innerHTML = Object.keys(due).map(function(c){
-        var last = null; d.snapshots.forEach(function(sn){ if (sn.cadence.indexOf(c) > -1) last = sn.date; });
+        var last = null; d.snapshots.forEach(function(sn){ if (sn.cadence.indexOf(c) > -1 && (!last || sn.date > last)) last = sn.date; });
         var nx = "";
         if (last) { var x = new Date(last); x.setUTCMonth(x.getUTCMonth() + due[c]); nx = x.toISOString().slice(0,10); }
         return '<div class="card"><b>'+c.charAt(0).toUpperCase()+c.slice(1)+' refresh</b><br><span class="note">Last: '+(last||"none yet")+'<br>Next due: '+(nx||"to be set")+'</span></div>';
@@ -107,7 +108,7 @@
       // table (newest first)
       var rows = [];
       d.snapshots.slice().reverse().forEach(function(sn){ Object.keys(sn.values).forEach(function(k){
-        var v = sn.values[k]; rows.push('<tr><td>'+sn.date+'</td><td>'+sn.cadence.join(", ")+'</td><td>'+lab[k]+'</td><td>'+v.value+'</td><td>'+v.basis+'</td><td>'+v.source+'</td></tr>'); }); });
+        var v = sn.values[k]; rows.push('<tr><td>'+sn.date+'</td><td>'+sn.cadence.join(", ")+'</td><td>'+lab[k]+'</td><td>'+v.value+' '+unit[k]+'</td><td>'+v.basis+'</td><td>'+v.source+'</td></tr>'); }); });
       document.getElementById("hist").innerHTML = rows.join("");
     }).catch(function(){ chart.innerHTML = '<p class="note">The history could not be loaded just now.</p>'; });
   }
