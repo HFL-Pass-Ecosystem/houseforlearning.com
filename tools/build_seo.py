@@ -11,7 +11,8 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]; SITE = ROOT / 'site'
 SUF = ' | House for Learning'; SHORT = ' | HFL'
 SET = {'pathways.html': 'Pathways: your growth, our goal', 'courses.html': 'Planned course chapters',
        'courses-hub.html': 'Courses hub: full courses for organisations, learners and families'}
-SETDESC = {'learn-flagship-in.html': 'Full courses for India: 35 flagship courses with eight modules, worked examples, a marking rubric, a ten-question check and a seven-level ladder.',
+SETDESC = {'members.html': 'Your member page at House for Learning: your plan, your learning record, and Face ID or fingerprint sign-in for this device.',
+           'learn-flagship-in.html': 'Full courses for India: 35 flagship courses with eight modules, worked examples, a marking rubric, a ten-question check and a seven-level ladder.',
            'learn-loc-mx-hub.html': 'All 75 global courses as Mexico editions: every course with local rules, jobs and MXN examples, from lead generation to robotics and space tourism.',
            'enterprise-software.html': 'Full courses on business software, from L1 to L7: CRM administration, creative suites, finance applications, ERP, and cloud office administration.'}
 REPL = [(' (flagship course, India)', ' (India)'), (' (Canada flagship course)', ' (Canada)')]
