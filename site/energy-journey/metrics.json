@@ -1,0 +1,138 @@
+{
+ "schema": 1,
+ "note": "Append only. Never edit or delete a snapshot. Corrections are new snapshots.",
+ "series": [
+  {
+   "id": "workforce_published_m",
+   "label": "Published energy workforce",
+   "unit": "million people"
+  },
+  {
+   "id": "workforce_low_m",
+   "label": "Planning estimate, low",
+   "unit": "million people"
+  },
+  {
+   "id": "workforce_mid_m",
+   "label": "Planning estimate, middle",
+   "unit": "million people"
+  },
+  {
+   "id": "workforce_high_m",
+   "label": "Planning estimate, high",
+   "unit": "million people"
+  },
+  {
+   "id": "india_nonfossil_share_pct",
+   "label": "India: non-fossil share of installed power capacity",
+   "unit": "percent"
+  },
+  {
+   "id": "india_nonfossil_gw",
+   "label": "India: non-fossil installed capacity",
+   "unit": "GW"
+  },
+  {
+   "id": "india_solar_gw",
+   "label": "India: installed solar capacity",
+   "unit": "GW"
+  }
+ ],
+ "snapshots": [
+  {
+   "id": "2019-12-31-yearly",
+   "date": "2019-12-31",
+   "cadence": [
+    "yearly"
+   ],
+   "values": {
+    "workforce_published_m": {
+     "value": 70.6,
+     "basis": "derived",
+     "source": "International energy agency, World Energy Employment 2025: 76 million in 2024 less 5.4 million added since 2019"
+    }
+   },
+   "note": "Back-filled from the published change since 2019",
+   "supersedes": "",
+   "prev": "",
+   "hash": "76e7ec4f4a1dd2f29e0b49f3d710f73d8b5b564e5491121b48b9c661cf530327"
+  },
+  {
+   "id": "2024-12-31-yearly",
+   "date": "2024-12-31",
+   "cadence": [
+    "yearly"
+   ],
+   "values": {
+    "workforce_published_m": {
+     "value": 76,
+     "basis": "published",
+     "source": "International energy agency, World Energy Employment 2025 (2024)"
+    }
+   },
+   "note": "First published anchor",
+   "supersedes": "",
+   "prev": "76e7ec4f4a1dd2f29e0b49f3d710f73d8b5b564e5491121b48b9c661cf530327",
+   "hash": "39321cebbe6ac12bcb16ab2b313dd41683b85c77d442306df5c766030f5bba3b"
+  },
+  {
+   "id": "2026-11-06-monthly-quarterly-half-yearly-yearly",
+   "date": "2026-11-06",
+   "cadence": [
+    "monthly",
+    "quarterly",
+    "half-yearly",
+    "yearly"
+   ],
+   "values": {
+    "workforce_low_m": {
+     "value": 100,
+     "basis": "estimate",
+     "source": "Our planning estimate, owner range 6 Nov 2026"
+    },
+    "workforce_mid_m": {
+     "value": 125,
+     "basis": "estimate",
+     "source": "Our planning estimate, middle of the range"
+    },
+    "workforce_high_m": {
+     "value": 150,
+     "basis": "estimate",
+     "source": "Our planning estimate, owner range 6 Nov 2026"
+    }
+   },
+   "note": "Start of our own series; earlier internal working figures were 90 to 120 million",
+   "supersedes": "",
+   "prev": "39321cebbe6ac12bcb16ab2b313dd41683b85c77d442306df5c766030f5bba3b",
+   "hash": "a6194f62ca92dde91405ba483eebf5b9f75293a7579e2bb133fa1d46226a0695"
+  },
+  {
+   "id": "2025-11-30-yearly",
+   "date": "2025-11-30",
+   "cadence": [
+    "yearly"
+   ],
+   "values": {
+    "india_nonfossil_share_pct": {
+     "value": 51.5,
+     "basis": "published",
+     "source": "India Ministry of New and Renewable Energy / Press Information Bureau release, 29 Dec 2025 (figures for November 2025)"
+    },
+    "india_nonfossil_gw": {
+     "value": 262.74,
+     "basis": "published",
+     "source": "India Ministry of New and Renewable Energy / Press Information Bureau release, 29 Dec 2025 (figures for November 2025)"
+    },
+    "india_solar_gw": {
+     "value": 132.85,
+     "basis": "published",
+     "source": "India Ministry of New and Renewable Energy / Press Information Bureau release, 29 Dec 2025 (figures for November 2025)"
+    }
+   },
+   "note": "Added 2026-11-07 from the December 2025 government release; figures are as of November 2025",
+   "supersedes": "",
+   "prev": "a6194f62ca92dde91405ba483eebf5b9f75293a7579e2bb133fa1d46226a0695",
+   "hash": "32fd5da7ab72a685423d3bf307a787cf03c4538c9f85ba1244101e378934d44e"
+  }
+ ]
+}

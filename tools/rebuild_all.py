@@ -29,6 +29,7 @@ STEPS = [
     'build_start_here',        # start-a-course page: real courses a visitor can join and take
     'externalise_inline_scripts',   # inline scripts never run under the site's CSP: move them to site/assets/pages/
     'build_nav',               # site-wide navigation layer
+    'add_atle',                # ATLE(it) logo strip, footer strip and funnel page (before the SEO pass)
     'build_quizzes',           # final-check questions (assets/quiz) and answer keys (netlify/functions/quizkeys.json)
     'build_sitemap',           # sitemap from the indexable pages: after all page builders
     'build_seo',               # titles at most 70 characters, unique, and real meta descriptions: always last
