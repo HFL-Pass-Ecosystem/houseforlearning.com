@@ -37,7 +37,7 @@ CSS = '''/* ATLE(it): shared by every page. Light surfaces with their own colour
 .atle-btn{display:inline-flex;align-items:center;justify-content:center;background:#0B66A8;color:#fff;font-weight:700;text-decoration:none;padding:12px 18px;border-radius:999px;min-height:44px;box-sizing:border-box}
 .atle-btn:hover{background:#094f82}.atle-btn.alt{background:#fff;color:#0B66A8;border:2px solid #0B66A8}
 .atle-suite{border:1px solid #d9d4c5;border-radius:14px;padding:22px;margin:0 0 28px;background:#F2EEE2}
-.atle-suite ul{margin:0;padding-left:1.2em;line-height:1.9}.atle-lock{font-weight:600}
+.atle-suite ul{margin:0;padding-left:1.2em;line-height:1.9}.atle-own{border:1px solid #d9d4c5;border-left:5px solid #3CC261;border-radius:14px;padding:22px;margin:0 0 28px;background:#fff}.atle-own h2{font-size:1.15rem;margin:0 0 8px}.atle-own p{line-height:1.65;max-width:720px}.atle-own-steps{line-height:1.8;padding-left:1.2em}.atle-note2{font-size:.88rem;color:#4a5a68}.atle-lock{font-weight:600}
 .atle-tiers{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 14px;padding:0;list-style:none}.atle-tiers li{background:#F2EEE2;border-radius:10px;padding:10px 14px;font-weight:600}
 .atle-note{font-size:.88rem;color:#4a5a68;padding-bottom:36px}
 '''
@@ -50,18 +50,18 @@ if(s&&l&&document.documentElement.getAttribute("data-atle-role")){s.hidden=false
 
 SITES = {
  # root: how pages link to each other. "rel" = flat relative links, "abs" = root-absolute links.
- 'ahfl': dict(author='diy-atle-workflow-author.html', train='diy-atle-workflow-trainer.html', learn='diy-atle-workflow-learner.html', earn='diy-atle-workflow-earner.html', mode='rel', page='atle.html', template='help.html', name='AHFL Global', signin='signin.html',
+ 'ahfl': dict(contact='contact.html', author='diy-atle-workflow-author.html', train='diy-atle-workflow-trainer.html', learn='diy-atle-workflow-learner.html', earn='diy-atle-workflow-earner.html', mode='rel', page='atle.html', template='help.html', name='AHFL Global', signin='signin.html',
    market='grow-marketplace.html', work='grow-workplace.html', how='diy-atle-workflow.html', join='join.html',
    suite=[('Author Studio', 'diy-atle-workflow-author.html'), ('Trainer certification', 'diy-atle-workflow-trainer.html'), ('Earner marketplace', 'diy-atle-workflow-earner.html')],
    prices=False),
- 'hfl-pass': dict(author='studio/index.html', train='studio/guide.html', learn='who.html', earn='plans.html', mode='rel', page='atle.html', template='help.html', name='HFL-Pass', signin='signin.html',
+ 'hfl-pass': dict(contact='help.html', author='studio/index.html', train='studio/guide.html', learn='who.html', earn='plans.html', mode='rel', page='atle.html', template='help.html', name='HFL-Pass', signin='signin.html',
    market='who.html', work='stack.html', how='onboard.html', join='onboard.html',
    suite=[('Studio: scripts, images, video, documents', 'studio/index.html'), ('Studio guide', 'studio/guide.html')],
    prices=True),
- 'hfl': dict(author='author-a-module.html', train='webinars.html', learn='courses-all.html', earn='workplace.html', mode='rel', page='atle.html', template='contact.html', name='House for Learning', signin='login.html',
+ 'hfl': dict(contact='contact.html', author='author-a-module.html', train='webinars.html', learn='courses-all.html', earn='workplace.html', mode='rel', page='atle.html', template='contact.html', name='House for Learning', signin='login.html',
    market='marketplace.html', work='workplace.html', how='how-learning-works.html', join='membership.html',
    suite=[('Author a module', 'author-a-module.html'), ('Start a course', 'start-a-course.html')], prices='member'),
- 'yantra': dict(author='/start/academy/', train='/start/academy/', learn='/start/learn/', earn='/start/careers/', mode='abs', page='/atle/', template='start/learn/index.html', name='Yantra Global', signin='/signin/',
+ 'yantra': dict(contact='/contact/', author='/start/academy/', train='/start/academy/', learn='/start/learn/', earn='/start/careers/', mode='abs', page='/atle/', template='start/learn/index.html', name='Yantra Global', signin='/signin/',
    market='/start/buy/', work='/platform/', how='/start/learn/', join='/start/',
    suite=[('Academy: build and teach a course', '/start/academy/'), ('Learn', '/start/learn/')],
    prices=True),
@@ -98,6 +98,12 @@ def funnel_main(cfg, P):
 <section class="atle-card"><h2>I am an Author or Trainer</h2><p>Sign in to open your creator tools. Subscribed Authors and Trainers go straight in.</p><a class="atle-btn" href="{h(cfg['signin'])}">Sign in</a></section>
 <section class="atle-card g"><h2>I want to learn or earn</h2><p>Browse the marketplace to find work and learning, then open your workplace to do it.</p><div class="atle-acts"><a class="atle-btn" href="{h(cfg['market'])}">Open the marketplace</a><a class="atle-btn alt" href="{h(cfg['work'])}">Open the workplace</a></div></section>
 <section class="atle-card"><h2>New here</h2><p>Join as a member, then add Author or Trainer when you are ready. You pay only for what you use.</p><a class="atle-btn" href="{h(cfg['join'])}">How to join</a></section></div>
+<section class="atle-own" id="own-process" aria-labelledby="own-h"><h2 id="own-h">Prefer your own way of working?</h2>
+<p>If clicking through our steps is hard for you, keep your standard process. Upload it, we read it and understand it, then we match our clicks and selections to your steps. We adapt to your process, you do not have to change it.</p>
+<ol class="atle-own-steps"><li>Upload your standard process.</li><li>We read it and map each of your steps to where you click and select.</li><li>You work in your own order and your own words.</li></ol>
+<p>For our own formality we will pass through a few steps, so that we meet your requirements on time, at the right cost and quality, with health, safety and care for the environment.</p>
+<p class="atle-note2">Uploads open after sign-in. Test preview: nothing is sent yet.</p>
+<a class="atle-btn" href="{h(cfg['contact'])}">Tell us your process</a></section>
 <section class="atle-suite" id="suite" aria-labelledby="suite-h"><h2 id="suite-h">The creator suite</h2>
 <p id="atle-suite-locked" class="atle-lock">Opens after you sign in as a subscribed Author or Trainer.</p>
 <div id="atle-suite-open" hidden><ul>{suite}</ul></div></section>
