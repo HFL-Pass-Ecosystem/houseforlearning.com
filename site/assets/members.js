@@ -41,6 +41,12 @@
       }).catch(function () {});
     }, 2500);
   }
+  /* The code box signs in by itself as soon as 6 digits are in (typed, pasted or filled in by the phone or computer). */
+  document.addEventListener('input', function (e) {
+    var el = e.target; if (!el || el.id !== 'v-code') return;
+    var f = el.form; if (!f || f.getAttribute('data-sent') === el.value) return;
+    if (/^\s*\d{3}\s?\d{3}\s*$/.test(el.value)) { f.setAttribute('data-sent', el.value); if (f.requestSubmit) f.requestSubmit(); else f.dispatchEvent(new Event('submit', { cancelable: true, bubbles: true })); }
+  });
   document.addEventListener('submit', function (e) {
     var f = e.target, kind = f && f.getAttribute && f.getAttribute('data-member');
     if (!kind) return;

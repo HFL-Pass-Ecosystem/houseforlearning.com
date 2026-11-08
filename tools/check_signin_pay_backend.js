@@ -59,6 +59,7 @@ function supa(req, res, body) {
       const id = refresh[body.refresh_token]; const x = users.find(v => v.id === id);
       if (!x) return send(400, { error: 'bad refresh' }); delete refresh[body.refresh_token]; return send(200, newSession(x));
     }
+    if (act === 'user' && req.method === 'PUT') { const x = users.find(v => v.id === tokens[bearer(req)]); if (!x) return send(401, { error: 'bad jwt' }); if (String(body.password || '').length < 6) return send(422, { error: 'weak' }); x.password = body.password; return send(200, { id: x.id, email: x.email }); }
     if (act === 'user') { const x = users.find(v => v.id === tokens[bearer(req)]); return x ? send(200, { id: x.id, email: x.email, created_at: x.created_at }) : send(401, { error: 'bad jwt' }); }
     if (act === 'verify') { const x = users.find(v => v.email === body.email); if (!x || String(body.token) !== x.code) return send(403, { error: 'otp expired' }); x.confirmed = true; return send(200, newSession(x)); }
     if (act === 'logout') { delete tokens[bearer(req)]; return send(204); }
@@ -171,6 +172,8 @@ function client(base) {
   const lg = await api('/api/auth', { action: 'login', email: 'learner@example.com', password: 'a-long-test-pass' });
   check('login: right password signs in', lg.status === 200 && lg.jar.hfl_session);
   // an expired access token is refreshed quietly
+  const rawLogin = await fetch(base + '/api/auth', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ action: 'login', email: 'learner@example.com', password: 'a-long-test-pass' }) });
+  check('login: the member stays signed in for 30 days (cookie lifetime)', /hfl_session=[^;]+;[^,]*Max-Age=2592000/.test(rawLogin.headers.getSetCookie().join(',')));
   const s = JSON.parse(Buffer.from(lg.jar.hfl_session, 'base64url').toString()); delete tokens[s.a];
   const me2 = await api('/api/auth', { action: 'me' });
   check('session: an expired token is refreshed without asking the member to log in again', me2.status === 200 && me2.email === 'learner@example.com');
@@ -240,6 +243,14 @@ function client(base) {
   const pubMsg = await fetch(process.env.SUPABASE_URL + '/rest/v1/messages', { headers: { apikey: ANON, Authorization: 'Bearer ' + ANON } });
   check('database: the public key cannot read messages', pubMsg.status === 401);
 
+  // choose a password once, then log in with it: no email needed
+  const P = client(base);
+  check('setpassword: refused when not signed in', (await P('/api/auth', { action: 'setpassword', password: 'brand-new-long-pass' })).status === 401);
+  await P('/api/auth', { action: 'login', email: 'other@example.com', password: 'another-long-pass' });
+  check('setpassword: a short password is refused', (await P('/api/auth', { action: 'setpassword', password: 'short' })).status === 400);
+  check('setpassword: a signed-in member can choose a new password', (await P('/api/auth', { action: 'setpassword', password: 'brand-new-long-pass' })).status === 200);
+  check('setpassword: the new password now logs in, the old one no longer does', (await client(base)('/api/auth', { action: 'login', email: 'other@example.com', password: 'brand-new-long-pass' })).status === 200 && (await client(base)('/api/auth', { action: 'login', email: 'other@example.com', password: 'another-long-pass' })).status === 401);
+
   /* ===== BACK END, part 3: contact, opinion and member forms ===== */
   check('messages: a good message is saved with a reference', (await api('/api/messages', { name: 'A', email: 'a@example.com', topic: 'Courses', message: 'Hello there' })).status === 200 && db.messages.length === 1);
   check('messages: empty message refused', (await api('/api/messages', { name: 'A', email: 'a@example.com', message: '' })).status === 400);
@@ -247,7 +258,7 @@ function client(base) {
   check('opinions: empty vote refused', (await api('/api/opinions', {})).status === 400);
   const F = client(base);
   check('forms: signed-out member form refused', (await F('/api/forms', { kind: 'feedback', course: 'x' })).status === 401);
-  await F('/api/auth', { action: 'login', email: 'other@example.com', password: 'another-long-pass' });
+  await F('/api/auth', { action: 'login', email: 'other@example.com', password: 'brand-new-long-pass' });
   check('forms: signed-in member form saved', (await F('/api/forms', { kind: 'feedback', course: 'Test', comment: 'Good' })).status === 200 && db.messages.some(m => /Form: Course feedback/.test(m.topic)));
   check('forms: missing required field refused', (await F('/api/forms', { kind: 'feedback' })).status === 400);
   // not switched on: friendly 503 rather than a crash
@@ -266,6 +277,8 @@ function client(base) {
     await pg.goto(base + '/login.html'); await pg.waitForLoadState('networkidle');
     check('login page opens with Log in and Sign up forms' + tag, await pg.locator('form[data-member=login]').isVisible() && await pg.locator('form[data-member=signup]').isVisible());
     check('login page has no sideways scroll' + tag, !(await overflow()));
+    check('login page: email + password is the first form, the email code is only a backup below it' + tag, (await pg.evaluate(() => document.querySelector('form[data-member]').getAttribute('data-member'))) === 'login' && /stay signed in/i.test(await pg.locator('main').textContent()));
+
     await pg.fill('#l-email', email); await pg.fill('#l-pass', 'not-the-password'); await pg.click('form[data-member=login] button[type=submit]');
     await pg.waitForFunction(() => /not right/i.test(document.querySelector('form[data-member=login] .form-status')?.textContent || ''), null, { timeout: 5000 }).catch(() => {});
     check('wrong password shows a clear message and stays on the page' + tag, /not right/i.test(await pg.locator('form[data-member=login] .form-status').textContent()) && /login\.html/.test(pg.url()));
@@ -281,7 +294,7 @@ function client(base) {
     await pg.fill('#m-email', email); await pg.click('form[data-member=magic] button[type=submit]');
     await pg.waitForFunction(() => !document.querySelector('form[data-member=verify]').hidden, null, { timeout: 5000 }).catch(() => {});
     check('"email me a link" opens the code box' + tag, await codeForm.isVisible());
-    await pg.fill('#v-code', '123456'); await pg.click('form[data-member=verify] button[type=submit]');
+    await pg.fill('#v-code', '123456');
     await pg.waitForURL('**/members.html', { timeout: 6000 }).catch(() => {});
     await pg.waitForFunction(() => document.querySelector('[data-name]') && document.querySelector('[data-name]').textContent.length > 0, null, { timeout: 5000 }).catch(() => {});
     check('the code signs in and My page shows the member' + tag, /members\.html/.test(pg.url()) && (await pg.locator('[data-email]').textContent()) === email);
@@ -293,6 +306,15 @@ function client(base) {
     await pg.waitForURL('**/members.html', { timeout: 6000 }).catch(() => {});
     check('log in with email and password works' + tag, /members\.html/.test(pg.url()));
 
+    // choose a password on My page, then come back with email + password only (no code)
+    await pg.goto(base + '/members.html'); await pg.waitForSelector('#p-new', { state: 'visible', timeout: 6000 }).catch(() => {});
+    await pg.fill('#p-new', 'my-own-new-pass-' + W); await pg.click('form[data-member=setpassword] button[type=submit]');
+    await pg.waitForFunction(() => /Saved/.test(document.querySelector('form[data-member=setpassword] .form-status')?.textContent || ''), null, { timeout: 5000 }).catch(() => {});
+    check('My page: choosing a password once shows "Saved"' + tag, /Saved/.test(await pg.locator('form[data-member=setpassword] .form-status').textContent()));
+    await pg.click('#logout'); await pg.waitForURL('**/index.html', { timeout: 6000 }).catch(() => {});
+    await pg.goto(base + '/login.html'); await pg.fill('#l-email', email); await pg.fill('#l-pass', 'my-own-new-pass-' + W); await pg.click('form[data-member=login] button[type=submit]');
+    await pg.waitForURL('**/members.html', { timeout: 6000 }).catch(() => {});
+    check('after that, email + password alone logs in (no email code)' + tag, /members\.html/.test(pg.url()));
     area = 'PAY PAGE';
     const c = encodeURIComponent(COURSE), t = encodeURIComponent('Test course');
     await pg.goto(base + '/pay.html?course=' + c + '&t=' + t + '&n=3'); await pg.waitForSelector('#lms-box h3', { timeout: 6000 }).catch(() => {});
@@ -319,7 +341,7 @@ function client(base) {
       await sj.click(); await q.waitForURL('**/login.html**', { timeout: 6000 }).catch(() => {});
       await q.fill('#m-email', em); await q.click('form[data-member=magic] button[type=submit]');
       await q.waitForFunction(() => !document.querySelector('form[data-member=verify]').hidden, null, { timeout: 5000 }).catch(() => {});
-      await q.fill('#v-code', '123456'); await q.click('form[data-member=verify] button[type=submit]');
+      await q.fill('#v-code', '123456');
       await q.waitForURL('**/' + COURSE, { timeout: 8000 }).catch(() => {});
       check('after sign-in the member is taken back to the course, not left in My page' + tag, new RegExp(COURSE).test(q.url()));
       const jn = q.locator('.acc-bar a:has-text("Join this course")'); await jn.waitFor({ timeout: 6000 }).catch(() => {});
@@ -354,7 +376,7 @@ function client(base) {
     }
     area = 'SIGN-IN';
     await pg.fill('#l-email', email).catch(() => {});
-    await pg.goto(base + '/login.html'); await pg.fill('#l-email', email); await pg.fill('#l-pass', pw); await pg.click('form[data-member=login] button[type=submit]');
+    await pg.goto(base + '/login.html'); await pg.fill('#l-email', email); await pg.fill('#l-pass', 'my-own-new-pass-' + W); await pg.click('form[data-member=login] button[type=submit]');
     await pg.waitForURL('**/members.html', { timeout: 6000 }).catch(() => {});
     await pg.waitForSelector('#logout', { state: 'visible', timeout: 5000 }).catch(() => {});
     await pg.click('#logout'); await pg.waitForURL('**/index.html', { timeout: 6000 }).catch(() => {});
