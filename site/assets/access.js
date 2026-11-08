@@ -226,4 +226,15 @@
   }
   if (paid) unlock(); else lockAll();
   }
+  /* A small always-visible line at the bottom of the screen, so progress ("Progress: 1 of 9 steps done") is seen while ticking Done far down the page. */
+  var pill = null;
+  function paintPill() {
+    var bar = document.querySelector('.acc-bar'), t = bar && bar.querySelector('.acc-t');
+    if (!t || !bar.querySelector('.acc-prog')) { if (pill) pill.hidden = true; return; }
+    var m = /\d+ of \d+[a-z ]*done/i.exec(t.textContent || '');
+    if (!m) { if (pill) pill.hidden = true; return; }
+    if (!pill) { pill = document.createElement('div'); pill.className = 'acc-pill'; pill.setAttribute('role', 'status'); pill.setAttribute('aria-live', 'polite'); document.body.appendChild(pill); }
+    var txt = 'Progress: ' + m[0]; if (pill.textContent !== txt) pill.textContent = txt; pill.hidden = false;
+  }
+  setInterval(paintPill, 500); paintPill();
 })();

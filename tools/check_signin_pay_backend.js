@@ -344,6 +344,8 @@ function client(base) {
       await box.scrollIntoViewIfNeeded(); await box.check(); await q.waitForTimeout(900);
       const bar1 = await q.locator('.acc-bar .acc-t').first().textContent();
       check('ticking Done at step 1 moves the bar to "1 of N"' + tag, /^1 of \d+ steps done/.test(bar1), bar1);
+      const pillTxt = await q.locator('.acc-pill').textContent().catch(() => '');
+      check('a "Progress: 1 of N steps done" line stays on screen while the member is down at step 1' + tag, /^Progress: 1 of \d+ steps done/.test(pillTxt) && await q.locator('.acc-pill').isVisible() && await q.evaluate(() => { const r = document.querySelector('.acc-pill').getBoundingClientRect(); return r.top >= 0 && r.bottom <= innerHeight; }), pillTxt);
       const rowE = db.lms_enrolments.find(e => users.find(u => u.id === e.user_id && u.email === em));
       check('the tick is saved in the member account (database row has step 1 done)' + tag, rowE && JSON.stringify(rowE.done) === '[0]', JSON.stringify(rowE && rowE.done));
       await q.reload(); await q.waitForLoadState('networkidle'); await q.waitForTimeout(800);
