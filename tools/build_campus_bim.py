@@ -32,27 +32,6 @@ def page(slug, title, desc, body, crumb_root, prev, nxt):
              f'<a class="pager-link pager-next" href="{nxt[0]}"><span class="pager-k">Next &rarr;</span><span class="pager-n">{e(nxt[1])}</span></a></div></nav>\n')
     open(os.path.join(SITE, slug + '.html'), 'w', encoding='utf-8').write(h + '<main id="main" tabindex="-1">\n' + body + pager + TAIL)
 
-# ---------------- inline diagrams (own drawings) ----------------
-def svg_stack():
-    r = ''
-    for k, (x, y, w, hh, fill) in enumerate([(60, 150, 150, 80, 'var(--c1,#0F85DB)'), (210, 150, 150, 80, 'var(--c1,#0F85DB)'), (60, 70, 150, 80, 'var(--c2,#3CC261)'), (210, 70, 150, 80, '#d9d4c3')]):
-        r += f'<rect x="{x}" y="{y}" width="{w}" height="{hh}" fill="{fill}" fill-opacity="{0.9 if k < 3 else 0.55}" stroke="#16324f" stroke-width="2"/>'
-    r += '<path d="M210 70h150M210 62h150" stroke="#16324f" stroke-width="2"/><path d="M215 62v8M255 62v8M295 62v8M335 62v8M358 62v8" stroke="#16324f" stroke-width="2"/>'
-    r += '<path d="M360 230l30-30v-60l-30 30z" fill="none" stroke="#16324f" stroke-width="2"/><path d="M365 225l20-20M365 205l20-20M365 185l20-20" stroke="#16324f" stroke-width="2"/>'
-    r += '<path d="M40 232h360" stroke="#16324f" stroke-width="3"/>'
-    r += '<text x="135" y="195" text-anchor="middle" font-size="13" fill="#fff">Studio</text><text x="285" y="195" text-anchor="middle" font-size="13" fill="#fff">Studio</text>'
-    r += '<text x="135" y="115" text-anchor="middle" font-size="13" fill="#16324f">Rooms</text><text x="285" y="115" text-anchor="middle" font-size="13" fill="#16324f">Terrace</text>'
-    return ('<figure><svg class="art" viewBox="0 0 440 280" role="img" aria-labelledby="art-stk" xmlns="http://www.w3.org/2000/svg"><title id="art-stk">Four modules: two studios below, a room module and an open terrace above, with a stair on the right.</title>'
-            + r + '</svg><figcaption>Two floors from four modules and a stair.</figcaption></figure>')
-def svg_lod():
-    bars = ''
-    for k in range(6):
-        h = 25 + k * 24
-        bars += f'<rect x="{30 + k * 62}" y="{190 - h}" width="48" height="{h}" fill="var(--c1,#0F85DB)" fill-opacity="{0.35 + k * 0.13}" stroke="#16324f" stroke-width="2"/>'
-        bars += f'<text x="{54 + k * 62}" y="210" text-anchor="middle" font-size="11" fill="#16324f">{[100, 200, 300, 350, 400, 500][k]}</text>'
-    return ('<figure><svg class="art" viewBox="0 0 420 230" role="img" aria-labelledby="art-lod" xmlns="http://www.w3.org/2000/svg"><title id="art-lod">Six rising bars labelled 100, 200, 300, 350, 400 and 500, the levels of development.</title>'
-            + bars + '</svg><figcaption>More detail, step by step.</figcaption></figure>')
-
 # ---------------- campus standards ----------------
 STD = [
  ('campus-std-tiers', 'Campus tiers and sites', 'Three campus sizes and the rules for choosing a site.'),
@@ -82,7 +61,7 @@ def std_body(slug):
     if slug == 'campus-std-shell':
         facts = '<ul class="lux-list">' + ''.join(f'<li><strong>{e(k)}:</strong> {e(v)}</li>' for k, v in D.SHELL_FACTS) + '</ul>'
         return (hero('campus standards · 3', 'Modular shell', 'A campus is built from one kind of steel module. It arrives flat, is bolted together in hours and can be moved.') +
-                sec('', 'h1a', 'picture', 'Four modules make two floors', '<div class="split2">' + svg_stack() + '<div>' + facts + '</div></div>') +
+                sec('', 'h1a', 'picture', 'Four modules make two floors', facts) +
                 sec('alt', 'h1b', 'parts', 'What the shell is made of', table('Shell parts', ['Part', 'Standard'], D.SHELL) + NOTE))
     if slug == 'campus-std-interiors':
         return (hero('campus standards · 4', 'Interiors and finishes', 'Finishes make a room feel like ours. They also decide sound, cleaning and fire safety.') +
@@ -104,7 +83,7 @@ def std_body(slug):
     if slug == 'campus-std-bim':
         lod = table('Levels of development', ['Level', 'Name', 'What the element carries', 'Campus use'], D.LOD)
         return (hero('campus standards · 9', 'BIM and LOD rules', 'What we ask of any designer or builder who works on an HFL campus, and how to learn it.') +
-                sec('', 'b1', 'levels', 'Levels of development', '<div class="split2">' + svg_lod() + '<div><p>A level of development says how much a model element can be trusted for a decision. Use the least detail that supports the decision.</p></div></div>' + lod) +
+                sec('', 'b1', 'levels', 'Levels of development', '<p>A level of development says how much a model element can be trusted for a decision. Use the least detail that supports the decision.</p>' + lod) +
                 sec('alt', 'b2', 'information', 'Information every element carries', ul(D.LOI)) +
                 sec('', 'b3', 'rules', 'Seven model rules', ul(D.BIM_RULES)) +
                 sec('alt', 'b4', 'learn it', 'Learn to work to this standard', '<p>The BIM academy teaches these rules from level 1 to level 7.</p>' + ctas(('bim-academy.html', 'Open the BIM academy'), ('bim-career-pathways.html', 'Career pathways'))))
@@ -152,7 +131,7 @@ def build_academy():
                  ctas(('bim-l1.html', 'Start at level 1'), ('bim-career-pathways.html', 'See career pathways'), ('campus-standards.html', 'Campus standards'))) +
             sec('', 'a1', 'seven levels', f'L1 to L7, about {total} hours in all', cards) +
             sec('alt', 'a2', 'how it works', 'Learn by building our own campus', ul(['Every level uses the same campus module, so the skills build on each other.', 'Each module has a worked example, an activity and a clear standard to meet.', 'Every level ends with five checks and model answers.', 'We teach the method, not a software brand: open formats and open standards.', 'Supplier and maker names never appear in a course model. You learn to describe what a part must do.'])) +
-            sec('', 'a3', 'levels of development', 'LOD in one picture', '<div class="split2">' + svg_lod() + '<div><p>LOD says how much detail a model element carries. You learn all six levels, and when to stop adding detail.</p><p><a class="more" href="campus-std-bim.html">Read the LOD table</a></p></div></div>') + SAFE)
+            sec('', 'a3', 'levels of development', 'LOD in one picture', '<p>LOD says how much detail a model element carries. You learn all six levels, and when to stop adding detail.</p><p><a class="more" href="campus-std-bim.html">Read the LOD table</a></p>') + SAFE)
     page('bim-academy', 'BIM academy', 'Seven levels of BIM and LOD learning, from basics to leading a network of campuses, built on our own campus standards.', body, ('bim-academy.html', 'BIM academy'), ('catalogue.html', 'Course catalogue'), ('bim-l1.html', LV[0]['name']))
 
 def build_careers():
