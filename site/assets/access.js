@@ -106,7 +106,7 @@
       var sdone = srec.done || [];
       var sdraw = function () {
         var c = sdone.length;
-        sbar.innerHTML = '<div class="wrap acc-in"><div><p class="acc-k">' + (c ? 'Your course' : 'You are in') + '</p><p class="acc-t">Lesson ' + sn + ' of ' + st + '. ' + c + ' of ' + st + ' done.' + (c === st ? ' Course complete.' : '') + '</p><div class="acc-prog" role="progressbar" aria-valuemin="0" aria-valuemax="' + st + '" aria-valuenow="' + c + '"><span data-w="' + Math.round(100 * c / st) + '"></span></div></div><div class="acc-act"></div></div>';
+        sbar.innerHTML = '<div class="wrap acc-in"><div><p class="acc-k">' + (c ? 'Your course' : 'You are in') + '</p><p class="acc-t">Lesson ' + sn + ' of ' + st + '. ' + c + ' of ' + st + ' done.' + (c === st ? ' Course complete.' : ' Tick Done under each lesson when you finish it.') + '</p><div class="acc-prog" role="progressbar" aria-valuemin="0" aria-valuemax="' + st + '" aria-valuenow="' + c + '"><span data-w="' + Math.round(100 * c / st) + '"></span></div></div><div class="acc-act"></div></div>';
         var act = sbar.querySelector('.acc-act'), lab = document.createElement('label'); lab.className = 'acc-done';
         var cb = document.createElement('input'); cb.type = 'checkbox'; cb.checked = sdone.indexOf(sn) >= 0;
         cb.addEventListener('change', function () { var p = sdone.indexOf(sn); if (cb.checked && p < 0) sdone.push(sn); if (!cb.checked && p >= 0) sdone.splice(p, 1); sdraw(); });
@@ -140,7 +140,7 @@
         var nn = document.createElement('p'); nn.className = 'acc-note'; nn.textContent = 'Test only. No real money is taken.'; tbar.querySelector('.acc-act').appendChild(nn);
         return;
       }
-      tbar.innerHTML = '<div class="wrap acc-in"><div><p class="acc-k">' + (c ? 'Your course' : 'You are in') + '</p><p class="acc-t">' + c + ' of ' + T + ' steps done.' + (c === T ? ' Course complete.' : '') + '</p><div class="acc-prog" role="progressbar" aria-valuemin="0" aria-valuemax="' + T + '" aria-valuenow="' + c + '"><span data-w="' + Math.round(100 * c / T) + '"></span></div></div><div class="acc-act"></div></div>';
+      tbar.innerHTML = '<div class="wrap acc-in"><div><p class="acc-k">' + (c ? 'Your course' : 'You are in') + '</p><p class="acc-t">' + c + ' of ' + T + ' steps done.' + (c === T ? ' Course complete.' : ' Tick Done at the end of each step below.') + '</p><div class="acc-prog" role="progressbar" aria-valuemin="0" aria-valuemax="' + T + '" aria-valuenow="' + c + '"><span data-w="' + Math.round(100 * c / T) + '"></span></div></div><div class="acc-act"></div></div>';
       var act = tbar.querySelector('.acc-act'), l = document.createElement('a'); l.href = 'members-courses.html'; l.className = 'acc-link'; l.textContent = 'My courses'; act.appendChild(l); extras(act, file, c, T);
       rows.forEach(function (r, i) {
         r.classList.remove('acc-locked'); r.innerHTML = orig[i];
@@ -205,7 +205,7 @@
     function refresh() {
       var c = done.length, t = numbered.length;
       var nextIdx = -1; for (var i = 0; i < numbered.length; i++) if (done.indexOf(i) < 0) { nextIdx = i; break; }
-      bar.innerHTML = '<div class="wrap acc-in"><div><p class="acc-k">' + (c ? 'Your course' : 'You are in') + '</p><p class="acc-t">' + c + ' of ' + t + ' done.' + (c === t ? ' Course complete.' : '') + '</p><div class="acc-prog" role="progressbar" aria-valuemin="0" aria-valuemax="' + t + '" aria-valuenow="' + c + '"><span data-w="' + Math.round(100 * c / t) + '"></span></div></div><div class="acc-act"></div></div>';
+      bar.innerHTML = '<div class="wrap acc-in"><div><p class="acc-k">' + (c ? 'Your course' : 'You are in') + '</p><p class="acc-t">' + c + ' of ' + t + ' done.' + (c === t ? ' Course complete.' : ' Tick Done at the end of each one below.') + '</p><div class="acc-prog" role="progressbar" aria-valuemin="0" aria-valuemax="' + t + '" aria-valuenow="' + c + '"><span data-w="' + Math.round(100 * c / t) + '"></span></div></div><div class="acc-act"></div></div>';
       var act = bar.querySelector('.acc-act'), b = document.createElement('button');
       b.type = 'button'; b.className = 'btn'; b.textContent = c === 0 ? 'Start' : (c === t ? 'Review' : 'Continue');
       b.addEventListener('click', function () { var d = numbered[nextIdx < 0 ? 0 : nextIdx]; d.open = true; d.scrollIntoView({ behavior: calm, block: 'start' }); var sm0 = d.querySelector('summary'); if (sm0) sm0.focus({ preventScroll: true }); });
