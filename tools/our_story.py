@@ -68,6 +68,8 @@ def letter(site):
     return P
 
 PHOTO = {"yantra": "/assets/img/family-photo.jpg", "hflpass": "img/family-photo.jpg", "ahfl": "assets/family-photo.jpg", "hfl": "assets/family-photo.jpg"}
+MORE = [("family-raja.jpg", 960, 1280, "An old portrait of a seated elderly man in a turban, dark coat and white dhoti, in a studio with a curtain and a tiled floor.", "Raja Thatha, Amma’s father."),
+        ("family-mamatha.jpg", 956, 952, "A family photograph: a father holding a toddler, a mother in a teal and red saree, and a young boy in front, with a person in clown costume behind them.", "Mamatha and family (Seene Uncle’s second daughter).")]
 PHOTO_ALT = "A family portrait from long ago, restored and colourised: elders seated in the middle, young couples on either side, and four children sitting on a rug in front, in a garden."
 PHOTO_CAP = "Our family, gathered for a portrait. Seated: Mr. V. S. Ramacharya (B.E., Civil); Smt. Rukmini Bai, his wife; Smt. Saraswati Bai, with little Draupadi (later the wife of Capt. Bhargav, who became General Manager of Hindustan Motors, the company that built the Ambassador car); Mr. V. S. Vedavyasacharya (M.A., I.C.S.) with Master Madhwaraja; the grandfather, Mahamahopadhyaya; Shri Shyamacharya with Krishna Bai; Smt. Kamala Bai; Mr. V. S. Jayacharya (B.A., B.L.); and Smt. Kamulu. On the rug: Master Anantachar and Master Sri Padarajacharya, with their friends from the neighbours. This photograph was restored and colourised by a Bangalore studio, and gifted to everyone in the family in September 2025."
 JOURNEY = {"yantra": "/energy-journey/"}
@@ -89,6 +91,9 @@ def our_story(site="ahfl", tag="h2"):
     trib = "".join(f"<p>{E(x)}</p>" for x in TRIBUTE)
     pic = (f'<figure class="os-pic"><img src="{PHOTO.get(site, "assets/family-photo.jpg")}" width="1600" height="956" loading="lazy" decoding="async" alt="{E(PHOTO_ALT)}">'
            f'<figcaption>{E(PHOTO_CAP)}</figcaption></figure>')
+    base = PHOTO.get(site, "assets/family-photo.jpg").rsplit("/", 1)[0]
+    more = "".join(f'<figure class="os-pic os-pic2"><img src="{base}/{f}" width="{w}" height="{h}" loading="lazy" decoding="async" alt="{E(a)}"><figcaption>{E(c)}</figcaption></figure>' for f, w, h, a, c in MORE)
+    pic += f'<div class="os-more">{more}</div>'
     J = "The House for Learning journey" if site == "hfl" else "This journey"
     A = "/atle/" if site == "yantra" else "atle.html"
     sj = "".join(f"<p>{x.replace('@@J@@', J).replace('@@A@@', A)}</p>" for x in SANJAY)
@@ -115,7 +120,7 @@ CSS = """
 .os-body p{margin:0 0 12px}.os-trib{border-left:3px solid #3CC261;padding-left:16px;font-style:italic}
 .os-sj{border-top:1px solid var(--line,#d9d4c5);padding-top:24px}.os-greet{font-weight:600}.os-verse{margin:16px 0;padding-left:16px;border-left:3px solid #0F85DB}.os-who{margin-top:16px}
 .os-in{margin:8px 0 16px;border:1px solid var(--line,#d9d4c5);border-radius:10px;background:var(--card,#fff);padding:4px 16px}.os-in>summary{cursor:pointer;font-weight:600;padding:10px 0}.os-in>summary:focus-visible{outline:3px solid #0F85DB;outline-offset:2px}
-.os-pic{margin:18px 0 8px}.os-pic img{display:block;width:100%;max-width:720px;height:auto;border-radius:10px;border:1px solid var(--line,#d9d4c5)}.os-pic figcaption{font-size:.85rem;color:var(--mute,#4a5a68);margin-top:8px;font-style:normal}
+.os-pic{margin:18px 0 8px}.os-pic img{display:block;width:100%;max-width:720px;height:auto;border-radius:10px;border:1px solid var(--line,#d9d4c5)}.os-more{display:flex;flex-wrap:wrap;gap:16px;margin:0 0 8px}.os-more .os-pic{flex:1 1 260px;max-width:340px;margin:10px 0 0}.os-pic figcaption{font-size:.85rem;color:var(--mute,#4a5a68);margin-top:8px;font-style:normal}
 .os-go{margin:22px 0 0}.os-go a{display:inline-block;background:#3CC261;color:#0b2a14;font-weight:700;text-decoration:none;padding:11px 18px;border-radius:999px}.os-go a:hover{background:#2fae52}.os-go a:focus-visible{outline:3px solid #0F85DB;outline-offset:2px}
 @media(max-width:560px){.os-box>summary{padding:18px 16px}.os-body{padding:0 16px 22px}}
 """
