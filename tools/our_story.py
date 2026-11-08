@@ -68,8 +68,7 @@ def letter(site):
     return P
 
 PHOTO = {"yantra": "/assets/img/family-photo.jpg", "hflpass": "img/family-photo.jpg", "ahfl": "assets/family-photo.jpg", "hfl": "assets/family-photo.jpg"}
-MORE = [("family-raja.jpg", 960, 1280, "An old portrait of a seated elderly man in a turban, dark coat and white dhoti, in a studio with a curtain and a tiled floor.", "Raja Thatha, Amma’s father."),
-        ("family-mamatha.jpg", 956, 952, "A family photograph: a father holding a toddler, a mother in a teal and red saree, and a young boy in front, with a person in clown costume behind them.", "Mamatha and family (Seene Uncle’s second daughter).")]
+MORE = [("family-raja.jpg", 960, 1280, "An old portrait of a seated elderly man in a turban, dark coat and white dhoti, in a studio with a curtain and a tiled floor.", "Shri Raja Rao, the founder’s maternal grandfather.")]
 PHOTO_ALT = "A family portrait from long ago, restored and colourised: elders seated in the middle, young couples on either side, and four children sitting on a rug in front, in a garden."
 PHOTO_CAP = "Our family, gathered for a portrait. Seated: Mr. V. S. Ramacharya (B.E., Civil); Smt. Rukmini Bai, his wife; Smt. Saraswati Bai, with little Draupadi (later the wife of Capt. Bhargav, who became General Manager of Hindustan Motors, the company that built the Ambassador car); Mr. V. S. Vedavyasacharya (M.A., I.C.S.) with Master Madhwaraja; the grandfather, Mahamahopadhyaya; Shri Shyamacharya with Krishna Bai; Smt. Kamala Bai; Mr. V. S. Jayacharya (B.A., B.L.); and Smt. Kamulu. On the rug: Master Anantachar and Master Sri Padarajacharya, with their friends from the neighbours. This photograph was restored and colourised by a Bangalore studio, and gifted to everyone in the family in September 2025."
 JOURNEY = {"yantra": "/energy-journey/"}
