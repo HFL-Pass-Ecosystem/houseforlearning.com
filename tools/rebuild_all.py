@@ -25,7 +25,7 @@ STEPS = [
     'build_lms_pages',         # LMS screens: join, final check, certificate, My courses, report (no inline scripts)
     'build_services', 'build_support', 'build_wix_content', 'build_org_pages', 'build_home', 'build_timetool',
     'build_ai_income',          # AI side-income path: hub + 15 lessons (own words, no outside names)
-    'build_my_learning', 'build_welcome_map',        # signed-in learning home (test only)
+    'build_my_learning', 'build_welcome_map', 'build_learner_hub',        # signed-in learning home (test only)
     'build_start_here',        # start-a-course page: real courses a visitor can join and take
     'externalise_inline_scripts',   # inline scripts never run under the site's CSP: move them to site/assets/pages/
     'build_nav',               # site-wide navigation layer
