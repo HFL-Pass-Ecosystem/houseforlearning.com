@@ -309,6 +309,47 @@ function client(base) {
     await pg.context().clearCookies(); await pg.goto(base + '/pay.html?course=' + c + '&t=' + t + '&n=3'); await pg.waitForSelector('#lms-box a', { timeout: 6000 }).catch(() => {});
     check('signed-out visitor on the pay page is asked to sign in, no pay button' + tag, (await pg.locator('#lms-box a[href="login.html"]').count()) === 1 && (await pg.locator('#lms-box button.btn').count()) === 0);
     await pg.goto(base + '/pay.html'); await pg.waitForTimeout(500);
+    area = 'PAY PAGE';
+    { /* the whole journey: course page, sign in, come back to the course, join, pay, tick Done at step 1 */
+      const c2 = await b.newContext({ viewport: { width: W, height: W < 500 ? 844 : 900 } }), q = await c2.newPage(), em = 'ret' + W + '@example.com', pw2 = 'return-long-pass-' + W;
+      await api('/api/auth', { action: 'signup', name: 'Return Learner', email: em, password: pw2 });
+      await q.goto(base + '/' + COURSE); await q.waitForLoadState('networkidle');
+      const sj = q.locator('.acc-bar a:has-text("Sign in to join")');
+      check('course page, signed out: the bar offers "Sign in to join"' + tag, (await sj.count()) === 1);
+      await sj.click(); await q.waitForURL('**/login.html**', { timeout: 6000 }).catch(() => {});
+      await q.fill('#m-email', em); await q.click('form[data-member=magic] button[type=submit]');
+      await q.waitForFunction(() => !document.querySelector('form[data-member=verify]').hidden, null, { timeout: 5000 }).catch(() => {});
+      await q.fill('#v-code', '123456'); await q.click('form[data-member=verify] button[type=submit]');
+      await q.waitForURL('**/' + COURSE, { timeout: 8000 }).catch(() => {});
+      check('after sign-in the member is taken back to the course, not left in My page' + tag, new RegExp(COURSE).test(q.url()));
+      const jn = q.locator('.acc-bar a:has-text("Join this course")'); await jn.waitFor({ timeout: 6000 }).catch(() => {});
+      check('the course page now shows a visible "Join this course" button' + tag, (await jn.count()) === 1 && await jn.isVisible());
+      // the ways in for a member with no course yet must not loop back to a list
+      await q.goto(base + '/members.html'); await q.waitForSelector('[data-email]', { state: 'visible', timeout: 6000 }).catch(() => {});
+      check('My page has a direct "Open the test course" button' + tag, (await q.locator('#my-page a[href="course-eu-01.html"]').count()) === 1);
+      await q.goto(base + '/members-courses.html'); await q.waitForSelector('#lms-box a', { timeout: 6000 }).catch(() => {});
+      check('My courses with no course yet offers "Open the test course", not only a browse list' + tag, (await q.locator('#lms-box a[href="course-eu-01.html"]').count()) === 1);
+      await q.goto(base + '/pay.html'); await q.waitForSelector('#lms-box a', { timeout: 6000 }).catch(() => {});
+      check('the pay page opened with no course says so and offers "Open the test course"' + tag, (await q.locator('#lms-box a[href="course-eu-01.html"]').count()) === 1);
+      await q.locator('#lms-box a[href="course-eu-01.html"]').first().click(); await q.waitForURL('**/' + COURSE, { timeout: 6000 }).catch(() => {});
+      await q.locator('.acc-bar a:has-text("Join this course")').waitFor({ timeout: 6000 }).catch(() => {});
+      const jn2 = q.locator('.acc-bar a:has-text("Join this course")');
+      await jn2.click(); await q.waitForSelector('#lms-box button.btn', { timeout: 6000 }).catch(() => {});
+      await q.click('#lms-box button.btn'); await q.waitForURL('**/' + COURSE, { timeout: 8000 }).catch(() => {});
+      await q.waitForFunction(() => /You are in|Your course/.test((document.querySelector('.acc-bar') || {}).textContent || ''), null, { timeout: 6000 }).catch(() => {});
+      const bar0 = await q.locator('.acc-bar .acc-t').first().textContent();
+      check('after paying the bar says how many steps are done and where to tick Done' + tag, /0 of \d+ steps done\. Tick Done/.test(bar0), bar0);
+      const box = q.locator('input[type=checkbox][aria-label^="Mark step 1 as done"]');
+      check('the Done tick for step 1 exists on the page' + tag, (await box.count()) === 1);
+      await box.scrollIntoViewIfNeeded(); await box.check(); await q.waitForTimeout(900);
+      const bar1 = await q.locator('.acc-bar .acc-t').first().textContent();
+      check('ticking Done at step 1 moves the bar to "1 of N"' + tag, /^1 of \d+ steps done/.test(bar1), bar1);
+      const rowE = db.lms_enrolments.find(e => users.find(u => u.id === e.user_id && u.email === em));
+      check('the tick is saved in the member account (database row has step 1 done)' + tag, rowE && JSON.stringify(rowE.done) === '[0]', JSON.stringify(rowE && rowE.done));
+      await q.reload(); await q.waitForLoadState('networkidle'); await q.waitForTimeout(800);
+      check('reloading the course keeps the tick (progress remembered)' + tag, /^1 of \d+ steps done/.test(await q.locator('.acc-bar .acc-t').first().textContent()));
+      await c2.close();
+    }
     area = 'SIGN-IN';
     await pg.fill('#l-email', email).catch(() => {});
     await pg.goto(base + '/login.html'); await pg.fill('#l-email', email); await pg.fill('#l-pass', pw); await pg.click('form[data-member=login] button[type=submit]');

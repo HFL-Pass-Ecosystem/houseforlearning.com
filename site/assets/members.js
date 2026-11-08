@@ -1,6 +1,16 @@
 /* Members: Log In, Sign up, reset and the My page view. Talks only to /api/auth (no keys or tokens in the browser). */
 (function () {
   var api = '/api/auth';
+  /* After sign-in, go back to the page the member came from (for example a course) instead of always My page. */
+  var NEXT_RE = /^[a-z0-9][a-z0-9._-]{0,120}\.html$/i;
+  (function () {
+    var m = /[?&]next=([^&]*)/.exec(location.search); if (!m) return;
+    try { var v = decodeURIComponent(m[1]); if (NEXT_RE.test(v)) localStorage.setItem('hfl_next', JSON.stringify({ u: v, t: Date.now() })); } catch (e) { /* no storage */ }
+  })();
+  function takeNext() {
+    try { var d = JSON.parse(localStorage.getItem('hfl_next') || 'null'); localStorage.removeItem('hfl_next'); if (d && NEXT_RE.test(d.u) && Date.now() - d.t < 3600000) return d.u; } catch (e) { /* none */ }
+    return 'members.html';
+  }
   function call(body) {
     return fetch(api, { method: 'POST', headers: { 'Content-Type': 'application/json' }, credentials: 'same-origin', body: JSON.stringify(body) })
       .then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) { d.status = r.status; return d; }); });
@@ -26,7 +36,7 @@
     polling = setInterval(function () {
       if (++n > 240) { clearInterval(polling); return; }
       call({ action: 'poll', wait: wait }).then(function (d) {
-        if (d.ok) { clearInterval(polling); location.href = 'members.html'; }
+        if (d.ok) { clearInterval(polling); location.href = takeNext(); }
         else if (d.status === 503 || d.status === 400) clearInterval(polling);
       }).catch(function () {});
     }, 2500);
@@ -42,7 +52,7 @@
     show(f, 'One moment...', false);
     call(body).then(function (d) {
       if (btn) btn.disabled = false;
-      if ((kind === 'login' || kind === 'verify') && d.ok) { location.href = 'members.html'; return; }
+      if ((kind === 'login' || kind === 'verify') && d.ok) { location.href = takeNext(); return; }
       if (d.message) { show(f, d.message, false); if (kind === 'magic') { startWaiting(f, wait);
           var cf = document.querySelector('[data-code-form]');
           if (cf) { cf.elements.email.value = body.email; cf.hidden = false; }
@@ -85,7 +95,7 @@
     else call({ action: 'session', access_token: tok, refresh_token: h.get('refresh_token') || '' }).then(function (d) {
       if (!d.ok) { cb.textContent = d.error || 'Please try again.'; return; }
       var w = wq;
-      var go = function () { location.replace('members.html'); };
+      var go = function () { location.replace(takeNext()); };
       if (w) call({ action: 'handoff', wait: w, access_token: tok, refresh_token: h.get('refresh_token') || '' }).then(go, go); else go();
     });
   }

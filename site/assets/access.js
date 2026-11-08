@@ -99,7 +99,7 @@
     if (!spaid) {
       sbar.innerHTML = '<div class="wrap acc-in"><div><p class="acc-k">Preview</p><p class="acc-t">' + (sn > 1 ? 'This lesson is part of ' + stitle + '. Join to open all ' + st + ' lessons.' : 'Lesson 1 of ' + st + ' is a free preview. Join ' + stitle + ' to open all ' + st + ' lessons.') + '</p></div><div class="acc-act"></div></div>';
       var sa = document.createElement('a'); sa.className = 'btn';
-      if (signedIn()) { sa.href = 'pay.html?course=' + encodeURIComponent(skey) + '&t=' + encodeURIComponent(stitle) + '&n=' + st; sa.textContent = 'Join this course'; } else { sa.href = 'login.html'; sa.textContent = 'Sign in to join'; }
+      if (signedIn()) { sa.href = 'pay.html?course=' + encodeURIComponent(skey) + '&t=' + encodeURIComponent(stitle) + '&n=' + st; sa.textContent = 'Join this course'; } else { sa.href = 'login.html?next=' + encodeURIComponent(file); sa.textContent = 'Sign in to join'; }
       sbar.querySelector('.acc-act').appendChild(sa);
       var sno = document.createElement('p'); sno.className = 'acc-note'; sno.textContent = 'Test only. No real money is taken.'; sbar.querySelector('.acc-act').appendChild(sno);
     } else {
@@ -135,7 +135,7 @@
         rows.forEach(function (r, i) { if (i < 2) return; r.classList.add('acc-locked'); r.innerHTML = '<th scope="row">' + (i + 1) + '</th><td colspan="4"><span class="acc-lock">Locked</span> Join this course to open this step.</td>'; });
         tbar.innerHTML = '<div class="wrap acc-in"><div><p class="acc-k">Preview</p><p class="acc-t">You can read steps 1 and 2. Join this course to open all ' + T + ' steps and tick them off.</p></div><div class="acc-act"></div></div>';
         var a = document.createElement('a'); a.className = 'btn';
-        if (signedIn()) { a.href = 'pay.html?course=' + encodeURIComponent(file) + '&t=' + encodeURIComponent(ttl) + '&n=' + T; a.textContent = 'Join this course'; } else { a.href = 'login.html'; a.textContent = 'Sign in to join'; }
+        if (signedIn()) { a.href = 'pay.html?course=' + encodeURIComponent(file) + '&t=' + encodeURIComponent(ttl) + '&n=' + T; a.textContent = 'Join this course'; } else { a.href = 'login.html?next=' + encodeURIComponent(file); a.textContent = 'Sign in to join'; }
         tbar.querySelector('.acc-act').appendChild(a);
         var nn = document.createElement('p'); nn.className = 'acc-note'; nn.textContent = 'Test only. No real money is taken.'; tbar.querySelector('.acc-act').appendChild(nn);
         return;
@@ -184,7 +184,7 @@
     var act = bar.querySelector('.acc-act'), a = document.createElement('a');
     a.className = 'btn';
     if (signedIn()) { a.href = joinHref(); a.textContent = 'Join this course'; }
-    else { a.href = 'login.html'; a.textContent = 'Sign in to join'; }
+    else { a.href = 'login.html?next=' + encodeURIComponent(file); a.textContent = 'Sign in to join'; }
     act.appendChild(a);
     var n = document.createElement('p'); n.className = 'acc-note'; n.textContent = 'Test only. No real money is taken.'; act.appendChild(n);
   }
