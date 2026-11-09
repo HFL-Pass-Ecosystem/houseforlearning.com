@@ -11,8 +11,8 @@ Ready to ask: YES.
 ## Step 2. Make the database tables (Supabase)
 1. Open Supabase, then your HFL project, then SQL editor.
 2. Open the file supabase/schema.sql from our repo. Copy all. Paste. Click Run.
-3. New query. Do the same with supabase/handoff.sql. Click Run.
-Ready to ask: YES (both files are in the repo).
+3. If an earlier version of these steps had you run supabase/handoff.sql, its table (signin_handoff) is no longer used. It can stay; nothing reads it.
+Ready to ask: YES (the file is in the repo).
 
 ## Step 3. Give the site its values (Netlify)
 Netlify, Site configuration, Environment variables, Add a variable. One at a time:

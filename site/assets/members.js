@@ -13,32 +13,14 @@
   function offline(f, d) {
     show(f, d.status === 503 || !d.status ? 'The members area is not switched on yet. Please write to us on the Contact page.' : (d.error || 'Something went wrong. Please try again.'), true);
   }
-  /* Sign in on one device, finish on the other: this screen waits and signs in as soon as the email link is opened anywhere. */
-  function newWait() {
-    var a = new Uint8Array(16); crypto.getRandomValues(a);
-    return Array.prototype.map.call(a, function (b) { return ('0' + b.toString(16)).slice(-2); }).join('');
-  }
-  var polling = null;
-  function startWaiting(f, wait) {
-    if (!wait) return;
-    clearInterval(polling);
-    var n = 0;
-    polling = setInterval(function () {
-      if (++n > 240) { clearInterval(polling); return; }
-      call({ action: 'poll', wait: wait }).then(function (d) {
-        if (d.ok) { clearInterval(polling); location.href = 'members.html'; }
-        else if (d.status === 503 || d.status === 400) clearInterval(polling);
-      }).catch(function () {});
-    }, 2500);
-  }
+  /* The code is typed or pasted on the screen that asked for it. There is no hand-over from another device: anyone can
+     ask for a code for someone else's email, so a sign-in finished elsewhere must never land on this screen. */
   document.addEventListener('submit', function (e) {
     var f = e.target, kind = f && f.getAttribute && f.getAttribute('data-member');
     if (!kind) return;
     e.preventDefault();
     var btn = f.querySelector('button[type=submit]'); if (btn) btn.disabled = true;
-    var wait = '';
-    if (kind === 'magic') { wait = newWait(); }
-    var body = { wait: wait, action: kind, code: val(f, 'code'), email: val(f, 'email'), password: val(f, 'password'), name: val(f, 'name'), website: val(f, 'website') };
+    var body = { action: kind, code: val(f, 'code'), email: val(f, 'email'), password: val(f, 'password'), name: val(f, 'name'), website: val(f, 'website') };
     show(f, 'One moment...', false);
     call(body).then(function (d) {
       if (btn) btn.disabled = false;
@@ -46,7 +28,7 @@
       if (d.message) {
         var cf = kind === 'magic' && f.parentNode.querySelector('[data-code-form]');
         if (cf) { var st = f.querySelector('.form-status'); if (st) st.hidden = true; openCode(f, cf, body); return; }
-        show(f, d.message, false); if (kind === 'magic') startWaiting(f, wait);
+        show(f, d.message, false);
         if (kind === 'signup' || kind === 'magic') f.reset(); return; }
       offline(f, d);
     }).catch(function () { if (btn) btn.disabled = false; offline(f, {}); });
@@ -63,7 +45,6 @@
     st.className = 'form-status'; st.hidden = false;
     var box = cf.elements.code; box.value = ''; box.dispatchEvent(new Event('input')); box.focus();
     wait60(cf);
-    startWaiting(f, body.wait);
   }
   function wait60(cf) {
     var b = cf.querySelector('[data-resend]'); if (!b) return;
@@ -79,10 +60,10 @@
     var r = e.target.closest && e.target.closest('[data-resend]'), c = e.target.closest && e.target.closest('[data-change]');
     var cf = (r || c) && (r || c).form; if (!cf || !cf._ask) return;
     if (c) { clearInterval(cf._t); cf.hidden = true; cf._ask.form.hidden = false; cf._ask.form.elements.email.focus(); return; }
-    var body = cf._ask.body; body.wait = newWait();
+    var body = cf._ask.body;
     call(body).then(function (d) {
       if (!d.message) { offline(cf, d); return; }
-      show(cf, 'A new code is on its way. Use the newest email.', false); wait60(cf); startWaiting(cf._ask.form, body.wait);
+      show(cf, 'A new code is on its way. Use the newest email.', false); wait60(cf);
     }).catch(function () { offline(cf, {}); });
   });
   document.addEventListener('input', function (e) {
@@ -135,19 +116,16 @@
       });
     });
   }
-  /* Landing page after Google, Microsoft or an email link. */
+  /* Landing page after Google, Microsoft or an email link: signs in this device only. */
   var cb = document.getElementById('auth-callback');
   if (cb) {
     var h = new URLSearchParams(location.hash.replace(/^#/, ''));
     var tok = h.get('access_token');
-    var wq = new URLSearchParams(location.search).get('w');
     history.replaceState(null, '', location.pathname);
     if (!tok) { cb.textContent = 'This link did not work. Please go back and try again.'; }
     else call({ action: 'session', access_token: tok, refresh_token: h.get('refresh_token') || '' }).then(function (d) {
       if (!d.ok) { cb.textContent = d.error || 'Please try again.'; return; }
-      var w = wq;
-      var go = function () { location.replace('members.html'); };
-      if (w) call({ action: 'handoff', wait: w, access_token: tok, refresh_token: h.get('refresh_token') || '' }).then(go, go); else go();
+      location.replace('members.html');
     });
   }
   var box = document.getElementById('my-page');
