@@ -96,6 +96,10 @@ async function login(page, em) {
   const rep = await sp.locator('#lms-box').innerText();
   log(/Asha Learner/.test(rep) && /Designing a repeatable test/.test(rep) && /Demo Learner/.test(rep), 'staff report lists the learner, the course and demo rows');
   await sp.fill('input[type=search]', 'asha'); log(!/Demo Learner/.test(await sp.locator('#lms-box').innerText()), 'report filter works');
+  const csvR = await sp.evaluate(() => fetch('/api/lms', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ action: 'report', format: 'csv' }) }).then(r => r.json()));
+  log(/^email,name,course,title,done,total,best,fee,currency/.test((csvR.csv || (csvR.data && csvR.data.csv) || '')) , 'staff can export the report as CSV for the platform');
+  const csvL = await p2.evaluate(() => fetch('/api/lms', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ action: 'report', format: 'csv' }) }).then(r => r.status));
+  log(csvL === 403, 'a learner cannot export the CSV (403)');
   // 9 signed-in but no real session (test cookie only): pages still work, honestly in test mode
   const tctx = await browser.newContext(); await tctx.addCookies([{ name: 'hfl_in', value: '1', url: BASE }]); const tp = await tctx.newPage();
   await tp.goto(`${BASE}/${COURSE}`); await tp.waitForSelector('.acc-bar a.btn');
