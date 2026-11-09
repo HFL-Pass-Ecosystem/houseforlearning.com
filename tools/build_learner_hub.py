@@ -55,6 +55,7 @@ write('learning-hub.html', 'Learning hub', 'Your path in one place: courses, liv
   ('Live sessions and recordings', 'Weekend coaching, weekday questions, and every recording.', 'live-sessions.html', 'Open sessions'),
   ('Project library', 'Short real-world projects you can finish at your own pace.', 'projects.html', 'Open projects'),
   ('Career portal', 'Open roles, your applications and your profile.', 'career-portal.html', 'Open career portal')], 'ok')) +
+ sec('lhx', 'free library', 'Free online book archive', open('data/archive-block.html', encoding='utf-8').read()) +
  sec('lh0', 'start', 'Start here', '<p><a class="btn lhgo" href="start.html">Start learning, training, authoring, earning and more</a></p>') +
  sec('lh2', 'more', 'And also', cards([
   ('Certificate hub', 'Finish a session, pass its quiz, receive your certificate.', 'certificate-hub.html', 'Open certificates'),
