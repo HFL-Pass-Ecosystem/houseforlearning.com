@@ -43,13 +43,74 @@
     call(body).then(function (d) {
       if (btn) btn.disabled = false;
       if ((kind === 'login' || kind === 'verify') && d.ok) { location.href = 'members.html'; return; }
-      if (d.message) { show(f, d.message, false); if (kind === 'magic') { startWaiting(f, wait);
-          var cf = document.querySelector('[data-code-form]');
-          if (cf) { cf.elements.email.value = body.email; cf.hidden = false; }
-        }
+      if (d.message) {
+        var cf = kind === 'magic' && f.parentNode.querySelector('[data-code-form]');
+        if (cf) { var st = f.querySelector('.form-status'); if (st) st.hidden = true; openCode(f, cf, body); return; }
+        show(f, d.message, false); if (kind === 'magic') startWaiting(f, wait);
         if (kind === 'signup' || kind === 'magic') f.reset(); return; }
       offline(f, d);
     }).catch(function () { if (btn) btn.disabled = false; offline(f, {}); });
+  });
+  /* The code box opens where the email box was (owner, 9 Nov 2026: everything in the same pane).
+     Send a new code after a minute (the email service allows one a minute), Change email, and sign in
+     as soon as six digits are typed or pasted. */
+  function openCode(f, cf, body) {
+    cf.elements.email.value = body.email;
+    cf._ask = { form: f, body: body };
+    f.hidden = true; cf.hidden = false;
+    var st = cf.querySelector('.form-status');
+    st.textContent = 'If ' + body.email + ' can be used, a 6-digit code is on its way to it.';
+    st.className = 'form-status'; st.hidden = false;
+    var box = cf.elements.code; box.value = ''; box.dispatchEvent(new Event('input')); box.focus();
+    wait60(cf);
+    startWaiting(f, body.wait);
+  }
+  function wait60(cf) {
+    var b = cf.querySelector('[data-resend]'); if (!b) return;
+    clearInterval(cf._t);
+    var left = 60;
+    function tick() {
+      if (left <= 0) { clearInterval(cf._t); b.disabled = false; b.textContent = 'Send a new code'; return; }
+      b.disabled = true; b.textContent = 'Send a new code in 0:' + (left < 10 ? '0' : '') + left; left--;
+    }
+    tick(); cf._t = setInterval(tick, 1000);
+  }
+  document.addEventListener('click', function (e) {
+    var r = e.target.closest && e.target.closest('[data-resend]'), c = e.target.closest && e.target.closest('[data-change]');
+    var cf = (r || c) && (r || c).form; if (!cf || !cf._ask) return;
+    if (c) { clearInterval(cf._t); cf.hidden = true; cf._ask.form.hidden = false; cf._ask.form.elements.email.focus(); return; }
+    var body = cf._ask.body; body.wait = newWait();
+    call(body).then(function (d) {
+      if (!d.message) { offline(cf, d); return; }
+      show(cf, 'A new code is on its way. Use the newest email.', false); wait60(cf); startWaiting(cf._ask.form, body.wait);
+    }).catch(function () { offline(cf, {}); });
+  });
+  document.addEventListener('input', function (e) {
+    var box = e.target, cf = box && box.form;
+    if (!cf || !cf.hasAttribute('data-code-form') || box.name !== 'code') return;
+    if (box.value.replace(/\D/g, '').length === 6 && cf.checkValidity()) cf.requestSubmit ? cf.requestSubmit() : cf.dispatchEvent(new Event('submit', { cancelable: true, bubbles: true }));
+  });
+  /* Each code box looks like six boxes but stays one field, so paste, the phone's code fill and screen readers work. */
+  function digits(v) { return (v || '').replace(/\D/g, '').slice(0, 6); }
+  [].forEach.call(document.querySelectorAll('input.code'), function (box) {
+    var wrap = document.createElement('div'), cells = [];
+    wrap.className = 'code6';
+    box.parentNode.insertBefore(wrap, box);
+    for (var i = 0; i < 6; i++) { var c = document.createElement('span'); c.className = 'cell'; c.setAttribute('aria-hidden', 'true'); wrap.appendChild(c); cells.push(c); }
+    wrap.appendChild(box);
+    box.removeAttribute('maxlength');
+    function paint() { var v = box.value; cells.forEach(function (c, n) { c.textContent = v.charAt(n); c.classList.toggle('now', n === v.length); }); }
+    function end() { var n = box.value.length; try { box.setSelectionRange(n, n); } catch (x) {} }
+    box.addEventListener('input', function () { var d = digits(box.value); if (box.value !== d) box.value = d; paint(); end(); });
+    box.addEventListener('paste', function (e) {
+      var t = e.clipboardData ? e.clipboardData.getData('text') : '', m = t.match(/(\d{3})[\s-]?(\d{3})/), d = m ? m[1] + m[2] : digits(t);
+      if (!d) return;
+      e.preventDefault(); box.value = d; box.dispatchEvent(new Event('input', { bubbles: true }));
+    });
+    box.addEventListener('focus', function () { paint(); setTimeout(end, 0); });
+    box.addEventListener('click', end);
+    box.addEventListener('blur', paint);
+    paint();
   });
   document.addEventListener('click', function (e) {
     var b = e.target.closest && e.target.closest('[data-reset]'); if (!b) return;

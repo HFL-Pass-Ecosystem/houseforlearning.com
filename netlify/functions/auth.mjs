@@ -109,7 +109,7 @@ export default async (req) => {
         body: JSON.stringify({ email, create_user: true, data: { full_name: text(body.name, 120) } }),
       }).catch(() => {});
     }
-    return ok({ message: 'If this address can be used, we have sent you a link. Open it on this device to come in.' });
+    return ok({ message: 'If this address can be used, we have sent a 6-digit code to it. Type the code on this page.' });
   }
 
   // The 6-digit code from the same email: lets a member finish on any device.
