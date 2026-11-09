@@ -119,14 +119,35 @@
   /* Landing page after Google, Microsoft or an email link: signs in this device only. */
   var cb = document.getElementById('auth-callback');
   if (cb) {
+    var th = new URLSearchParams(location.search).get('th');
     var h = new URLSearchParams(location.hash.replace(/^#/, ''));
     var tok = h.get('access_token');
     history.replaceState(null, '', location.pathname);
-    if (!tok) { cb.textContent = 'This link did not work. Please go back and try again.'; }
+    if (th) oneTap(cb, th, true);
+    else if (!tok) { cb.textContent = 'This link did not work. Please go back and try again.'; }
     else call({ action: 'session', access_token: tok, refresh_token: h.get('refresh_token') || '' }).then(function (d) {
       if (!d.ok) { cb.textContent = d.error || 'Please try again.'; return; }
       location.replace('members.html');
     });
+  }
+  /* The one-tap link under the code in the email (?th=...). In the browser that asked for the code it signs in by itself.
+     Anywhere else the server answers "ask" and nothing is used up until the person presses Sign in here, so a mail scanner
+     that opens links cannot spend the code. Either way only this browser is signed in. */
+  function oneTap(cb, th, auto) {
+    call({ action: 'confirm', token_hash: th, auto: auto }).then(function (d) {
+      if (d.ok) { location.replace('members.html'); return; }
+      if (d.ask) { askHere(cb, th); return; }
+      cb.textContent = d.status === 503 || !d.status ? 'The members area is not switched on yet. Please write to us on the Contact page.'
+        : (d.error || 'This link did not work. Please ask for a new code.');
+    }).catch(function () { cb.textContent = 'This link did not work. Please try again.'; });
+  }
+  function askHere(cb, th) {
+    var hd = document.getElementById('cb-h'); if (hd) hd.textContent = 'Sign in on this device?';
+    cb.textContent = 'This signs you in here, on this device. If you asked for the code on another computer or phone, type the code there instead.';
+    var p = document.createElement('p'), b = document.createElement('button');
+    b.type = 'button'; b.className = 'btn'; b.textContent = 'Sign in here';
+    b.addEventListener('click', function () { p.hidden = true; cb.textContent = 'One moment...'; oneTap(cb, th, false); });
+    p.appendChild(b); cb.parentNode.appendChild(p);
   }
   var box = document.getElementById('my-page');
   if (box) {

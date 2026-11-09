@@ -1,4 +1,4 @@
-// POST /api/auth: member Log In, Sign up, Log out, "who am I" and password reset, using Supabase Auth.
+// POST /api/auth: member Log In, Sign up, the emailed code and its one-tap link, Log out, "who am I" and password reset, using Supabase Auth.
 // The browser never sees the keys or the tokens: the session lives in a secure cookie that scripts cannot read.
 // Settings (Netlify environment variables): SUPABASE_URL, SUPABASE_ANON_KEY (the public "anon" key), SITE_ORIGIN (optional).
 import { ok, fail, text, isEmail, readBody } from './_lib.mjs';
@@ -40,6 +40,16 @@ const withCookie = (res, value, age) => {
   return res;
 };
 
+// hfl_asked marks the browser that asked for a code, for 15 minutes. Only there does the one-tap link in the email sign in by
+// itself; anywhere else the page asks for one press first, so a mail scanner that opens links cannot use the code up.
+const ASKED = 'hfl_asked';
+const ASKED_AGE = 15 * 60;
+const askedHere = (req) => new RegExp(`(?:^|; )${ASKED}=1(?:;|$)`).test(req.headers.get('cookie') || '');
+const markAsked = (res, age) => {
+  res.headers.append('Set-Cookie', `${ASKED}=${age > 0 ? '1' : ''}; Path=/; Max-Age=${age}; HttpOnly; Secure; SameSite=Lax`);
+  return res;
+};
+
 async function profile(c, token) {
   const u = await gotrue(c, 'user', null, token);
   if (u.status !== 200) return null;
@@ -68,7 +78,7 @@ export default async (req) => {
     const r = await gotrue(c, 'signup', { email, password, data: { full_name: name } });
     if (r.status >= 500) return fail(502, 'Please try again in a moment');
     // Same answer whether or not the address already exists, so nobody can probe for members.
-    return ok({ message: 'Thank you. If this address can be used, we have sent a message to confirm it. Open it, then log in.' });
+    return markAsked(ok({ message: 'Thank you. If this address can be used, we have sent a message to confirm it. Open it, then log in.' }), ASKED_AGE);
   }
 
   // Which one-tap options are switched on (Netlify variable AUTH_PROVIDERS, for example "google,azure,email").
@@ -97,7 +107,7 @@ export default async (req) => {
         body: JSON.stringify({ email, create_user: true, data: { full_name: text(body.name, 120) } }),
       }).catch(() => {});
     }
-    return ok({ message: 'If this address can be used, we have sent a 6-digit code to it. Type the code on this page.' });
+    return markAsked(ok({ message: 'If this address can be used, we have sent a 6-digit code to it. Type the code on this page.' }), ASKED_AGE);
   }
 
   // The 6-digit code from the email, typed or pasted on the screen that asked for it.
@@ -107,7 +117,21 @@ export default async (req) => {
     let r = await gotrue(c, 'verify', { type: 'email', email, token: code });
     if (r.status !== 200 || !r.data.access_token) r = await gotrue(c, 'verify', { type: 'signup', email, token: code });
     if (r.status !== 200 || !r.data.access_token) return fail(401, 'That code did not work or has expired. Please ask for a new one.');
-    return withCookie(ok({ ok: true }), pack(r.data), MAX_AGE);
+    return markAsked(withCookie(ok({ ok: true }), pack(r.data), MAX_AGE), 0);
+  }
+
+  // The one-tap link under the code in the email (owner's rule of 8 Nov: no code typed by hand). It signs in only the browser
+  // that opens it. With auto set, it goes ahead only in the browser that asked for the code; anywhere else the answer is
+  // { ask: true }, the page asks for one press, and the code is not used up.
+  if (action === 'confirm') {
+    const th = text(body.token_hash, 200);
+    if (!/^[A-Za-z0-9_-]{10,200}$/.test(th)) return fail(400, 'This link did not work. Please ask for a new code.');
+    if (body.auto === true && !askedHere(req)) return ok({ ask: true });
+    let r = await gotrue(c, 'verify', { type: 'email', token_hash: th });
+    if (r.status !== 200 || !r.data.access_token) r = await gotrue(c, 'verify', { type: 'magiclink', token_hash: th });
+    if (r.status !== 200 || !r.data.access_token) r = await gotrue(c, 'verify', { type: 'signup', token_hash: th });
+    if (r.status !== 200 || !r.data.access_token) return fail(401, 'This link has been used or has expired. Please ask for a new code.');
+    return markAsked(withCookie(ok({ ok: true }), pack(r.data), MAX_AGE), 0);
   }
 
   // The page hands over the tokens that came back from Google, Microsoft or an email link.
