@@ -11,19 +11,21 @@ e = html.escape
 NODES = [
  ('1 Your learning link', 'One web address for everything: your courses, sessions, notes and recordings. Save it on your phone home screen.', 'my-learning.html', 'Open My learning', 'Test page works now'),
  ('2 Your sign-in', 'Use your registered phone number or email. A one-time code comes to you; no password to remember.', 'members.html', 'Go to Members', 'Test sign-in works now'),
- ('3 Notifications', 'Reminders by WhatsApp and in your learning home: next session, pre-read ready, recording ready.', 'my-learning.html', 'See the reminders strip', 'Page built, not working yet'),
- ('4 Weekly live sessions and Q and A', 'Live coaching at the weekend and an open Q and A on weekdays. Join from one button; it turns into "watch recording" after the session.', 'ai-side-income.html', 'See the lesson roadmap', 'Plan shown; live dates come with the batch'),
- ('5 Ask your question here', 'One tap opens a ready-made message; you only add your question. A holding reply comes quickly, the full answer within the stated time, and a person if you need one.', 'contact.html', 'Ask a question', 'Contact page works; helper not live yet'),
- ('6 Announcements from us', 'Batch dates, new lessons and offers arrive in one place, and by WhatsApp when you allow it.', 'my-learning.html', 'See your updates', 'Page built, not working yet'),
+ ('3 Notifications', 'Reminders by WhatsApp and in your learning home: next session, pre-read ready, recording ready.', 'help.html', 'See reminders and help', 'Page built; real reminders need the owner\'s go-ahead'),
+ ('4 Weekly live sessions and Q and A', 'Live coaching at the weekend and an open Q and A on weekdays. Join from one button; it turns into "watch recording" after the session.', 'live-sessions.html', 'See live sessions', 'Page works; dates are samples'),
+ ('5 Ask your question here', 'One tap opens a ready-made message; you only add your question. A holding reply comes quickly, the full answer within the stated time, and a person if you need one.', 'help.html', 'Ask a question', 'Works as a test; nothing is sent'),
+ ('6 Announcements from us', 'Batch dates, new lessons and offers arrive in one place, and by WhatsApp when you allow it.', 'learning-hub.html', 'See your updates', 'Page works; real sending is not on'),
 ]
 FAQ = [('I signed in but everything looks locked. Why?', 'Usually only the booking amount is paid. Finish registration and the rest unlocks, with all bonuses. If you finished today, allow 24 hours.'),
        ('How do I get my certificate?', 'Phase by phase, after you finish the phase lessons and its quiz.'),
        ('Who do I ask about payment?', 'Our admissions team, through the contact page. Payment questions are never answered in a public chat.')]
-CSS = ('<style>.fsm{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));align-items:stretch}'
+CSS_TXT = ('.fsm{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));align-items:stretch}'
        '.fsm .hub{grid-column:1/-1;background:#0F85DB;color:#fff;border-radius:16px;padding:18px;text-align:center;font-weight:700;font-size:1.15rem}'
        '.fsm .nd{background:#fff;border:1px solid #d9d3c2;border-left:6px solid #3CC261;border-radius:14px;padding:14px;min-width:0}'
        '.fsm .nd h3{margin:0 0 6px;font-size:1.05rem}.fsm .st{display:inline-block;background:#F2EEE2;border-radius:999px;padding:3px 10px;font-size:.8rem;margin:6px 0}'
-       '.fsm .btn{margin-top:6px}@media (prefers-color-scheme:dark){.fsm .nd{background:#18232d;border-color:#2a3948;color:#eef2f5}.fsm .st{background:#223241}}</style>')
+       '.fsm .btn{margin-top:6px}@media (prefers-color-scheme:dark){.fsm .nd{background:#18232d;border-color:#2a3948;color:#eef2f5}.fsm .st{background:#223241}}')
+open(os.path.join(SITE,'assets','welcome-map.css'),'w').write(CSS_TXT+'\n')
+CSS = '<link rel="stylesheet" href="assets/welcome-map.css">'
 def build():
     h = HEAD.replace('Course and Career Pathways | House for Learning', 'Your first steps | House for Learning')
     h = re.sub(r'<meta name="description" content="[^"]*">', '<meta name="description" content="Your first steps as a new learner: your link, your sign-in, reminders, live sessions, questions and announcements.">', h)

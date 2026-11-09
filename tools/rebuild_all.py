@@ -21,12 +21,15 @@ STEPS = [
     'build_electrical_academy', 'build_executive',
     'loc_deep', 'loc_deep_all', 'loc_editions', 'flagship_loc_four',   # four-place location pages
     'build_regional_hubs', 'build_courses_all',
-    'build_access_pages', 'add_series_gate', 'patch_audience_pages',
+    'build_access_pages', 'add_series_gate', 'add_outline_gate', 'patch_audience_pages',
+    'build_lms_pages',         # LMS screens: join, final check, certificate, My courses, report (no inline scripts)
     'build_services', 'build_support', 'build_wix_content', 'build_org_pages', 'build_home', 'build_timetool',
     'build_ai_income',          # AI side-income path: hub + 15 lessons (own words, no outside names)
-    'build_my_learning', 'build_welcome_map',        # signed-in learning home (test only)
+    'build_my_learning', 'build_welcome_map', 'build_learner_hub',        # signed-in learning home (test only)
     'build_start_here',        # start-a-course page: real courses a visitor can join and take
+    'externalise_inline_scripts',   # inline scripts never run under the site's CSP: move them to site/assets/pages/
     'build_nav',               # site-wide navigation layer
+    'build_quizzes',           # final-check questions (assets/quiz) and answer keys (netlify/functions/quizkeys.json)
     'build_sitemap',           # sitemap from the indexable pages: after all page builders
     'build_seo',               # titles at most 70 characters, unique, and real meta descriptions: always last
     'sync_share_tags',         # share tags follow each page's own title, description and address: always last
