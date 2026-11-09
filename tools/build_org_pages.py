@@ -329,6 +329,7 @@ def services():
           '<ul class="o-mini"><li>Business and administrative training</li><li>Software training</li><li>Other training, including live and face-to-face</li><li>E-learning software</li>'
           '<li>Online courses and learning materials, sold online</li><li>Laboratory kits and equipment for schools and universities</li><li>Classroom computers</li></ul>'
           '<p class="o-note">Some items are planned and are not yet open to order. Ask us through <a href="contact.html">Contact</a>.</p></div></div></section>')
+    m += split('library services', 'Free online book archive', open('data/archive-block.html', encoding='utf-8').read(), sid='free-books', alt=True)
     m += cta('your next step', 'Not sure which one?', 'Tell us your goal and we will suggest a service.', btn(CONTACT, 'Contact form') + btn('partner.html', 'Partner with us', True))
     write('services.html', m)
 

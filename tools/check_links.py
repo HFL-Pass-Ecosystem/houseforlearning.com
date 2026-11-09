@@ -10,7 +10,7 @@ import re, sys, pathlib, collections
 from urllib.parse import urlsplit, unquote
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SITE = ROOT / 'site'
-ALLOWED_HOSTS = {'houseforlearning.com', 'www.houseforlearning.com', 'hfl-pass.com', 'www.hfl-pass.com',
+ALLOWED_HOSTS = {'archive.org', 'houseforlearning.com', 'www.houseforlearning.com', 'hfl-pass.com', 'www.hfl-pass.com',
                  'w3.org', 'www.w3.org', 'schema.org', 'fonts.googleapis.com', 'fonts.gstatic.com',
                  'canada.ca', 'www.canada.ca'}  # canada.ca: official government sources cited on the Canada pages
 RUSSIA = re.compile(r'russia|[-/]ru[-.]', re.I)
