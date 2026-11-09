@@ -34,6 +34,7 @@
   /* ---------- join and test pay ---------- */
   function pay() {
     var c = q('course'), t = q('t') || c, n = parseInt(q('n'), 10) || 0;
+    if (c && c.indexOf('.') < 0) c += '.html';
     if (!/^[a-z0-9._-]+\.html$/i.test(c)) { tryFirst('No course was chosen yet.'); return; }
     box.appendChild(el('h3', '', 'Join: ' + t));
     box.appendChild(el('p', '', 'Pay by bank transfer or UPI. In this test no payment is taken: press the button to pretend you have paid. Test only. No real money is taken.'));

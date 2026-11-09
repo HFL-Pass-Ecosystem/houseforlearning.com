@@ -113,7 +113,8 @@ async function site(q, r) {
     const sc = resp.headers.getSetCookie(); if (sc.length) heads['set-cookie'] = sc;
     r.writeHead(resp.status, heads); return r.end(Buffer.from(await resp.arrayBuffer()));
   }
-  const p = path.join(SITE, decodeURIComponent(url.pathname).replace(/\/$/, '/index.html'));
+  let p = path.join(SITE, decodeURIComponent(url.pathname).replace(/\/$/, '/index.html'));
+  if (!path.extname(p) && fs.existsSync(p + '.html')) p += '.html'; /* like Netlify pretty URLs */
   if (!p.startsWith(SITE) || !fs.existsSync(p) || fs.statSync(p).isDirectory()) { r.writeHead(404); return r.end(); }
   r.writeHead(200, { 'content-type': TYPES[path.extname(p)] || 'application/octet-stream' }); fs.createReadStream(p).pipe(r);
 }
@@ -346,6 +347,11 @@ function client(base) {
       check('after sign-in the member is taken back to the course, not left in My page' + tag, new RegExp(COURSE).test(q.url()));
       const jn = q.locator('.acc-bar a:has-text("Join this course")'); await jn.waitFor({ timeout: 6000 }).catch(() => {});
       check('the course page now shows a visible "Join this course" button' + tag, (await jn.count()) === 1 && await jn.isVisible());
+      // Netlify shows /course-eu-01 without .html: the Join button must still name the full course file
+      await q.goto(base + '/' + COURSE.replace('.html', '')); const jnP = q.locator('.acc-bar a:has-text("Join this course")'); await jnP.waitFor({ timeout: 6000 }).catch(() => {});
+      check('on the address without .html the Join button still names the course file' + tag, /course=course-eu-01\.html/.test((await jnP.getAttribute('href').catch(() => '')) || ''));
+      await q.goto(base + '/pay.html?course=' + COURSE.replace('.html', '') + '&t=Test&n=3'); await q.waitForSelector('#lms-box h3', { timeout: 6000 }).catch(() => {});
+      check('the pay page opened with a course name lacking .html still finds the course' + tag, /Join: Test/.test(await q.locator('#lms-box').textContent()));
       // the ways in for a member with no course yet must not loop back to a list
       await q.goto(base + '/members.html'); await q.waitForSelector('[data-email]', { state: 'visible', timeout: 6000 }).catch(() => {});
       check('My page has a direct "Open the test course" button' + tag, (await q.locator('#my-page a[href="course-eu-01.html"]').count()) === 1);

@@ -7,7 +7,7 @@
   function lload() { try { return JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { return {}; } }
   function lsave(d) { try { localStorage.setItem(KEY, JSON.stringify(d)); } catch (e) {} }
   function signedIn() { return /(?:^|; )hfl_in=1/.test(document.cookie); }
-  var file = (location.pathname.split('/').pop() || 'index.html');
+  var file = (location.pathname.split('/').pop() || 'index.html'); if (file.indexOf('.') < 0) file += '.html'; /* Netlify may show /course-eu-01 without .html */
   /* the bar, progress and lock styles live in courses.css: make sure every page that uses this script has them */
   (function () {
     var me = document.querySelector('script[src$="access.js"]'); if (!me) return;
