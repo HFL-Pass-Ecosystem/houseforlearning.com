@@ -10,6 +10,13 @@
   function bar(c, t) { var w = el('div', 'acc-prog'); w.setAttribute('role', 'progressbar'); w.setAttribute('aria-valuemin', '0'); w.setAttribute('aria-valuemax', String(t)); w.setAttribute('aria-valuenow', String(c)); var s = el('span'); s.setAttribute('data-w', String(t ? Math.round(100 * c / t) : 0)); w.appendChild(s); return w; }
   function dt(v) { try { return new Date(v).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' }); } catch (e) { return ''; } }
   function signin() { box.appendChild(el('p', '', 'Sign in first.')); box.appendChild(link('login.html', 'Sign in')); }
+  /* One clear way in when a member has no course yet: a ready test course, then the full list. */
+  var TRY = 'course-eu-01.html';
+  function tryFirst(msg) {
+    if (msg) box.appendChild(el('p', '', msg));
+    box.appendChild(el('p', '', 'Quickest way to try it: open the test course below, press Join this course at the top, choose bank or UPI and press the test payment button, then tick Done at step 1.'));
+    var row = el('p'); row.appendChild(link(TRY, 'Open the test course')); var b = link('courses-all.html', 'Browse all courses', 'btn btn-ghost'); b.style.marginLeft = '14px'; row.appendChild(b); box.appendChild(row);
+  }
   function needServer(what) {
     box.appendChild(say('To ' + what + ', please sign in with your member account. This browser is in test mode, so it can only keep your place, not grades or certificates.', true));
     box.appendChild(link('login.html', 'Member sign in'));
@@ -27,7 +34,8 @@
   /* ---------- join and test pay ---------- */
   function pay() {
     var c = q('course'), t = q('t') || c, n = parseInt(q('n'), 10) || 0;
-    if (!/^[a-z0-9._-]+\.html$/i.test(c)) { box.appendChild(say('Choose a course first.')); box.appendChild(link('courses-all.html', 'Browse courses')); return; }
+    if (c && c.indexOf('.') < 0) c += '.html';
+    if (!/^[a-z0-9._-]+\.html$/i.test(c)) { tryFirst('No course was chosen yet.'); return; }
     box.appendChild(el('h3', '', 'Join: ' + t));
     box.appendChild(el('p', '', 'Pay by bank transfer or UPI. In this test no payment is taken: press the button to pretend you have paid. Test only. No real money is taken.'));
     var f = el('fieldset', 'acc-fs'); f.appendChild(el('legend', '', 'How you would pay'));
@@ -121,7 +129,7 @@
     box.appendChild(el('p', '', (u.name ? u.name + ', ' : '') + 'here are your courses.'));
     if (u.staff) { var st = el('p'); st.appendChild(link('reports.html', 'Facilitator report', 'btn btn-ghost')); box.appendChild(st); }
     var en = S.enrolments || [];
-    if (!en.length) { box.appendChild(el('p', '', 'You have no courses yet. Open a course, read the preview, and press Join this course.')); box.appendChild(link('courses-all.html', 'Browse courses')); }
+    if (!en.length) tryFirst('You have no courses yet.');
     en.forEach(function (e) {
       var card = el('div', 'acc-card'), l = el('div');
       l.appendChild(el('h3', '', e.title)); var c = (e.done || []).length;
@@ -147,7 +155,7 @@
   function localCourses() {
     var d = A.load(), ks = Object.keys(d).filter(function (k) { return d[k] && d[k].paid; });
     box.appendChild(say('Test mode: your courses are kept in this browser only. Sign in with your member account to keep them in your account.'));
-    if (!ks.length) { box.appendChild(el('p', '', 'You have no courses yet. Open a course, read the preview, and press Join this course.')); box.appendChild(link('courses-all.html', 'Browse courses')); return; }
+    if (!ks.length) { tryFirst('You have no courses yet.'); return; }
     ks.sort(function (a, b) { return (d[b].updated || 0) - (d[a].updated || 0); });
     ks.forEach(function (k) {
       var r = d[k], t = r.total || 0, c = (r.done || []).length, card = el('div', 'acc-card'), l = el('div');
