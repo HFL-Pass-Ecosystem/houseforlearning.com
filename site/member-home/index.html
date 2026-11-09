@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HFL Member Home (demo)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="home.css">
+</head>
+<body>
+<div class="app">
+  <header class="top"><button id="menuBtn" aria-label="Open menu">☰</button><b class="tl">HFL <span>Member</span></b><button id="bell" aria-label="Notifications">🔔<i>4</i></button></header>
+  <aside class="side" id="side" aria-label="Main menu"></aside>
+  <main class="main" id="main" tabindex="-1">
+    <div id="gate" hidden></div>
+    <div id="skeleton" aria-hidden="true">
+      <div class="sk sk-h"></div><div class="sk sk-l"></div>
+      <div class="sk sk-banner"></div>
+      <div class="grid2"><div class="sk sk-card"></div><div class="sk sk-card"></div></div>
+      <div class="grid2"><div class="sk sk-row"></div><div class="sk sk-row"></div></div>
+    </div>
+    <div id="content" hidden></div>
+    <footer class="foot">
+      <div>© HFL · Demo data only. Names and numbers here are samples.</div>
+    </footer>
+  </main>
+</div>
+<nav class="tabs" id="tabs" aria-label="Main tabs"></nav>
+<button class="help" id="help">Need help? Ask us</button>
+<div class="helpbox" id="helpbox" hidden>
+  <b>We are here to help</b>
+  <p>Choose one:</p>
+  <button data-h="ai">Ask the HFL helper</button>
+  <button data-h="human">Talk to a person</button>
+  <button data-h="close">Close</button>
+  <p id="helpmsg" class="small"></p>
+</div>
+<script src="config.js"></script>
+<script src="/member-home/supabase.js"></script>
+<script src="auth.js"></script>
+<script src="home.js"></script>
+</body>
+</html>
