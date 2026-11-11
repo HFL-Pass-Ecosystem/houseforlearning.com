@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Session Map</title>
+<link rel="stylesheet" href="index.inline.css">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../_hub/bar.css">
+<script src="../_hub/style-shim.js"></script>
+<link rel="stylesheet" href="../_hub/gate.css">
+<script src="/member-home/config.js"></script>
+<script src="/member-home/supabase.js"></script>
+<script src="/member-home/auth.js"></script>
+<script src="../_hub/gate-hfl.js"></script>
+</head>
+<body>
+<div id="banner"><span id="bantxt">Read-only map shared by your trainer. Tap a round button to open or close a branch, or press Present.</span> <button id="copyMine">Make my own copy</button></div>
+<header>
+  <h1>Session Map</h1>
+  <button class="edit" id="bAdd" title="Tab">Add branch</button>
+  <button class="edit" id="bSib" title="Enter">Add next</button>
+  <button class="edit" id="bDel" title="Delete">Delete</button>
+  <button class="edit" id="bUndo" title="Ctrl+Z">Undo</button>
+  <button id="bFold" title="Space">Open / close</button>
+  <button id="bFit">Fit</button>
+  <span class="sp"></span>
+  <button class="grn" id="bPresent">Present</button>
+  <button class="pri edit" id="bShare">Copy share link</button>
+  <select id="bExport" aria-label="Export">
+    <option value="">Export...</option>
+    <option value="png">Picture (PNG)</option>
+    <option value="svg">Picture (SVG)</option>
+    <option value="md">Outline (text)</option>
+    <option value="json">Map file (JSON)</option>
+  </select>
+  <button class="edit" id="bOpen">Open file</button>
+  <button class="edit" id="bNew">New map</button>
+  <input type="file" id="file" accept=".json,application/json" hidden>
+</header>
+<main>
+  <div id="stage">
+    <svg id="svg" role="img" aria-label="Mind map"><g id="cam"><g id="edges"></g><g id="nodes"></g></g></svg>
+    <div id="bar">
+      <button id="pPrev">Back</button><button class="pri" id="pNext">Next</button>
+      <button id="pAll">Show all</button><button id="pFull">Full screen</button><button id="pExit">Exit</button>
+      <span class="hint" id="pCount"></span>
+    </div>
+    <div id="cap"><b id="capT"></b><span id="capN"></span></div>
+  </div>
+  <aside id="side" class="edit">
+    <h2>Selected box</h2>
+    <input type="text" id="fText" aria-label="Box text" maxlength="120">
+    <h2>Note (shown when presenting)</h2>
+    <textarea id="fNote" aria-label="Note" maxlength="600"></textarea>
+    <h2>Colour</h2>
+    <div class="row" id="colors"></div>
+    <h2>Icon</h2>
+    <div class="row" id="icons"></div>
+    <h2>Keys</h2>
+    <p class="hint">Tab: add branch. Enter: add next. Delete: remove. F2 or double tap: rename. Space: open or close. Arrows: move. Present: arrows or Space to reveal step by step, Esc to leave.</p>
+    <p class="hint">The share link holds the whole map inside the link. Nothing is stored on a server.</p>
+  </aside>
+</main>
+<script src="index.inline.1.js"></script>
+<script src="../_hub/bar.js" data-home="../"></script>
+</body>
+</html>

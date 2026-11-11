@@ -1,0 +1,27 @@
+:root{--bg:#F2EEE2;--card:#fff;--ink:#12202e;--muted:#5a6573;--blue:#0F85DB;--green:#3CC261;--line:#d9d3bf}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0e1620;--card:#16212d;--ink:#eee9db;--muted:#a3adb9;--line:#2a3948}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Montserrat,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.5}
+.top{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;border-bottom:1px solid var(--line)}
+.brand{font-weight:700;color:var(--blue);text-decoration:none}.tag{color:var(--muted);font-size:14px}
+main{max-width:980px;margin:0 auto;padding:16px}
+.hero h1{font-size:clamp(24px,5vw,38px);line-height:1.15;margin:12px 0}
+.hero p{color:var(--muted);max-width:60ch}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:14px;margin:20px 0}
+.zone{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:8px;border-top:6px solid var(--c,var(--blue))}
+.zone h3{margin:0;font-size:20px}.zone p{margin:0;color:var(--muted);font-size:15px}
+.meta{font-size:13px;color:var(--muted)}
+button{font:inherit;cursor:pointer;border-radius:8px;padding:10px 16px;border:1px solid var(--blue);background:var(--blue);color:#fff;font-weight:600}
+button.ghost{background:transparent;color:var(--blue)}
+button:disabled{opacity:.45;cursor:default}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--green);outline-offset:2px}
+.player{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin:20px 0}
+.p-head{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center}.p-head h2{margin:0}
+.phase{display:flex;justify-content:space-between;align-items:baseline;margin-top:14px}
+.phase-name{font-size:clamp(24px,6vw,40px);font-weight:700}.phase-time{font-size:clamp(24px,6vw,40px);font-variant-numeric:tabular-nums}
+.bar{height:10px;background:var(--line);border-radius:6px;overflow:hidden;margin:8px 0 16px}.bar div{height:100%;width:0;background:var(--green)}
+.ctl{display:flex;gap:12px;flex-wrap:wrap;align-items:center}.ctl label{font-size:14px;color:var(--muted);display:flex;gap:6px;align-items:center}
+.go{background:var(--green);border-color:var(--green);color:#06210f}
+.plan{margin:16px 0 0;padding-left:22px;color:var(--muted)}.plan li.on{color:var(--ink);font-weight:700}
+.note{color:var(--muted);font-size:13px}
+[hidden]{display:none!important}
