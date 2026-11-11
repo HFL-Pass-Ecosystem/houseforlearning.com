@@ -11,3 +11,4 @@
 .fb-b{margin-top:20px;display:grid;grid-template-columns:minmax(0,1fr);gap:0;border:1px solid var(--line,#d9d4c5);border-radius:14px;overflow:hidden;background:var(--sand,#F2EEE2)}.fb-b>div{padding:34px 36px;display:flex;flex-direction:column;justify-content:center;gap:12px}.fb-b blockquote{margin:0;font-size:1.15rem;line-height:1.7}.fb-b strong{font-size:1.05rem;color:var(--blue,#0F85DB)}.fb-b small{color:var(--mute,#4a5a68)}
 .fb-m{margin:18px 0 0}.fb-m a{font-weight:600}
 @media(max-width:860px){.fb-grid{grid-template-columns:1fr}.fb-c{order:-1}}
+figure.fb-c{margin:0}
