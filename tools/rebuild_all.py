@@ -19,6 +19,7 @@ STEPS = [
     'flagship_nl_sg_au', 'flagship_uae', 'flagship_brazil', 'flagship_canada', 'flagship_in',
     'flagship_career_launch', 'flagship_earthing', 'build_flagship_cv', 'build_flagship_lms',
     'build_electrical_academy', 'build_executive',
+    'build_emba',              # Executive MBA subject library: hub + 19 subject pages (free entry, voice + type, learning styles)
     'loc_deep', 'loc_deep_all', 'loc_editions', 'flagship_loc_four',   # four-place location pages
     'build_regional_hubs', 'build_courses_all',
     'build_access_pages', 'add_series_gate', 'patch_audience_pages',
