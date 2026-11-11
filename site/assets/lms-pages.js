@@ -2,7 +2,7 @@
    Talks to /api/lms through HFLAccess (assets/access.js). Text is always set with textContent. */
 (function () {
   var main = document.querySelector('main[data-lms]'); if (!main) return;
-  var kind = main.getAttribute('data-lms'); if (kind === 'author' || kind === 'play' || kind === 'board' || kind === 'home') return; /* these two have their own scripts */
+  var kind = main.getAttribute('data-lms'); if (kind === 'author' || kind === 'play' || kind === 'board' || kind === 'home' || kind === 'plan') return; /* these two have their own scripts */
   var box = document.getElementById('lms-box'), A = window.HFLAccess;
   function el(t, c, x) { var e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; }
   function link(h, t, c) { var a = el('a', c || 'btn', t); a.href = h; return a; }

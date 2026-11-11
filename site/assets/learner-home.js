@@ -49,7 +49,7 @@
     // hub
     box.appendChild(el('h4', '', 'Your learning hub'));
     var hub = el('div', 'lh-hub');
-    [['My courses', 'Progress, grades and certificates.', 'members-courses.html'], ['Courses by members', 'Join and learn from courses made by our members.', 'learn.html'], ['My board', 'Sticky notes for what matters today.', 'board.html'], ['Author Studio', 'Build and publish a course of your own.', 'author.html'], ['Check a certificate', 'Verify any certificate by its code.', 'certificate.html'], ['PAVER', 'Start PAVER.', 'paver.html'], ['COLLATE', 'Start COLLATE.', 'collate.html'], ['LAB', 'Start LAB.', 'lab.html'], ['LEAP', 'Start LEAP.', 'leap.html']].forEach(function (c) {
+    [['My courses', 'Progress, grades and certificates.', 'members-courses.html'], ['Courses by members', 'Join and learn from courses made by our members.', 'learn.html'], ['My board', 'Sticky notes for what matters today.', 'board.html'], ['Plan my growth', 'A week of small steps sized to your minutes.', 'plan.html'], ['Author Studio', 'Build and publish a course of your own.', 'author.html'], ['Check a certificate', 'Verify any certificate by its code.', 'certificate.html'], ['PAVER', 'Start PAVER.', 'paver.html'], ['COLLATE', 'Start COLLATE.', 'collate.html'], ['LAB', 'Start LAB.', 'lab.html'], ['LEAP', 'Start LEAP.', 'leap.html']].forEach(function (c) {
       var d = el('div', 'lh-card'); d.appendChild(el('strong', '', c[0])); d.appendChild(el('p', '', c[1])); d.appendChild(link(c[2], 'Open', 'btn btn-ghost')); hub.appendChild(d);
     });
     box.appendChild(hub);
