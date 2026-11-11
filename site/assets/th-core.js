@@ -35,7 +35,13 @@ window.TH = (function () {
     get: function (k, def) { try { var v = localStorage.getItem('th-' + k); return v == null ? def : JSON.parse(v); } catch (e) { return def; } },
     set: function (k, v) { try { localStorage.setItem('th-' + k, JSON.stringify(v)); } catch (e) {} }
   };
-  function field(label, input, hint) { return el('div', { class: 'field' }, [el('label', null, label), input, hint ? el('span', { class: 'th-hint' }, hint) : null]); }
+  var fieldN = 0;
+  /* the label is tied to its input, so screen readers and a tap on the label both reach it */
+  function field(label, input, hint) {
+    var l = el('label', null, label);
+    if (input && input.nodeType === 1 && /^(INPUT|SELECT|TEXTAREA)$/.test(input.tagName)) { if (!input.id) input.id = 'th-f' + (++fieldN); l.setAttribute('for', input.id); }
+    return el('div', { class: 'field' }, [l, input, hint ? el('span', { class: 'th-hint' }, hint) : null]);
+  }
   function btn(text, fn, cls) { return el('button', { type: 'button', class: 'btn btn-sm ' + (cls || ''), onclick: fn }, text); }
   function sel(options, value, onchange) {
     var s = el('select');
