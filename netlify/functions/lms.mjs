@@ -4,6 +4,7 @@
 import { ok, fail, text, readBody } from './_lib.mjs';
 import { whoIs, withSession } from './_session.mjs';
 import keys from './quizkeys.json' with { type: 'json' };
+import { SHARE } from './author.mjs';
 
 const PASS = 70;
 const COURSE = /^[a-z0-9][a-z0-9._-]{0,120}\.html$/i;
@@ -24,6 +25,10 @@ async function rest(s, method, table, query, body, prefer) {
   return data;
 }
 const eq = (v) => encodeURIComponent(v);
+const AUTHORED = /^author-[0-9a-f]{20}\.html$/;
+// A course made in Author Studio: its final check lives in the database (answers server-side only).
+const authored = async (s, course) => (AUTHORED.test(course) ? (await rest(s, 'GET', 'lms_courses', `ckey=eq.${eq(course)}&status=eq.published`).catch(() => []))[0] : null);
+const keyOf = async (s, course) => { const a = await authored(s, course); return a ? (a.quiz || []).map((q) => q.a).join('') : keys[course]; };
 const ints = (a, max) => Array.from(new Set((Array.isArray(a) ? a : []).map(Number).filter((n) => Number.isInteger(n) && n >= 0 && n < max))).sort((x, y) => x - y);
 const code = () => 'HFL-' + [0, 1, 2].map(() => Math.random().toString(36).slice(2, 6).toUpperCase()).join('-');
 
@@ -72,7 +77,7 @@ export default async (req) => {
       return res(ok({
         user: { name: me.full_name || '', email: who.email, role, staff },
         pass: PASS,
-        enrolments: en.map((e) => ({ ...pub(e), quiz: best[e.course_key] || null, attempts: tries[e.course_key] || 0, hasQuiz: !!keys[e.course_key] })),
+        enrolments: en.map((e) => ({ ...pub(e), quiz: best[e.course_key] || null, attempts: tries[e.course_key] || 0, hasQuiz: !!keys[e.course_key] || AUTHORED.test(e.course_key) })),
         certificates: ce.map((c) => ({ code: c.code, course: c.course_key, title: c.title, issuedAt: c.issued_at })),
         notifications: nt.map((n) => ({ id: n.id, kind: n.kind, body: n.body, read: n.read, at: n.created_at })),
       }));
@@ -84,9 +89,15 @@ export default async (req) => {
       const title = text(body.title, 160) || course;
       const total = Math.min(Math.max(parseInt(body.total, 10) || 1, 1), 200);
       let e = await mine(course);
+      const au = AUTHORED.test(course) ? await authored(s, course) : null;
+      if (AUTHORED.test(course) && !au) return fail(404, 'This course is not open yet');
       if (!e) {
         // Test payment only: the row says test_paid. When real payments go live this is where a confirmed payment is checked.
         e = (await rest(s, 'POST', 'lms_enrolments', '', { user_id: who.id, course_key: course, title, total, pay_method: method, pay_ref: text(body.ref, 60) || null }, 'return=representation'))[0];
+        if (au && Number(au.price_usd) > 0) { // test sale: the author keeps 90%, the platform keeps 10%
+          const price = Number(au.price_usd), mine90 = Math.round(price * SHARE * 100) / 100;
+          await rest(s, 'POST', 'lms_sales', '', { course_id: au.id, course_key: course, author_id: au.author_id, buyer_id: who.id, price_usd: price, author_share: mine90, platform_share: Math.round((price - mine90) * 100) / 100, test: true }, 'return=minimal').catch(() => {});
+        }
         await note(s, who.id, 'enrolled', `You joined ${title}. Start with the first unit.`);
       }
       return res(ok({ enrolment: pub(e) }));
@@ -108,7 +119,7 @@ export default async (req) => {
     if (action === 'quiz') {
       const course = needCourse(); if (!course) return fail(400, 'Choose a course first');
       const e = await mine(course); if (!e) return fail(403, 'Join this course first');
-      const key = keys[course]; if (!key) return fail(404, 'This course has no final check yet');
+      const key = await keyOf(s, course); if (!key) return fail(404, 'This course has no final check yet');
       const given = Array.isArray(body.answers) ? body.answers.slice(0, key.length) : [];
       const right = key.split('').map((k, i) => Number(given[i]) === Number(k));
       const score = right.filter(Boolean).length, max = key.length, pct = Math.round(100 * score / max), passed = pct >= PASS;
@@ -123,7 +134,7 @@ export default async (req) => {
       let c = (await rest(s, 'GET', 'lms_certificates', `user_id=eq.${uid}&course_key=eq.${eq(course)}`))[0];
       if (!c) {
         if ((e.done || []).length < e.total) return fail(409, 'Finish every unit first');
-        const need = !!keys[course];
+        const need = !!(await keyOf(s, course));
         const att = need ? await rest(s, 'GET', 'lms_attempts', `user_id=eq.${uid}&course_key=eq.${eq(course)}&passed=eq.true&order=pct.desc&limit=1`) : [{ pct: 100 }];
         if (!att[0]) return fail(409, `Pass the final check (${PASS}%) first`);
         const holder = me.full_name || (who.email || '').split('@')[0] || 'Learner';

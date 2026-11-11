@@ -19,7 +19,7 @@ const CSP = (toml.match(/Content-Security-Policy = "([^"]+)"/) || [])[1] || '';
 const MIME = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '.mjs': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.png': 'image/png', '.jpg': 'image/jpeg', '.svg': 'image/svg+xml', '.woff2': 'font/woff2', '.ico': 'image/x-icon', '.webp': 'image/webp', '.txt': 'text/plain' };
 
 // ---- stand-in for Supabase (auth + the REST subset the functions use) ----
-const T = { members: [], lms_enrolments: [], lms_attempts: [], lms_certificates: [], lms_notifications: [] };
+const T = { members: [], lms_enrolments: [], lms_attempts: [], lms_certificates: [], lms_notifications: [], lms_courses: [], lms_sales: [] };
 const users = new Map(), tokens = new Map();
 const uuid = () => crypto.randomUUID();
 function filt(rows, q) {
@@ -59,6 +59,8 @@ async function mock(req, res, u, body) {
       if (m[1] !== 'lms_certificates' && !row.id) row.id = uuid();
       if (m[1] === 'lms_enrolments') { if (rows.some((r) => r.user_id === row.user_id && r.course_key === row.course_key)) return send(409, {}); Object.assign(row, { done: [], status: 'active', pay_status: 'test_paid', enrolled_at: new Date().toISOString(), updated_at: new Date().toISOString(), completed_at: null, last_unit: null }); }
       if (m[1] === 'lms_certificates') { if (rows.some((r) => r.user_id === row.user_id && r.course_key === row.course_key)) return send(409, {}); row.issued_at = new Date().toISOString(); }
+      if (m[1] === 'lms_courses') { if (rows.some((r) => r.ckey === row.ckey)) return send(409, {}); Object.assign(row, { status: 'draft', review_note: '', reviewer_id: null, created_at: new Date().toISOString(), updated_at: new Date().toISOString(), published_at: null }); }
+      if (m[1] === 'lms_sales') row.created_at = new Date().toISOString();
       if (m[1] === 'lms_attempts' || m[1] === 'lms_notifications') { row.created_at = new Date().toISOString(); row.read = false; }
       rows.push(row); return (req.headers.prefer || '').includes('representation') ? send(201, [row]) : send(201);
     }

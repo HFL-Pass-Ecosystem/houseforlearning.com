@@ -2,7 +2,8 @@
    Talks to /api/lms through HFLAccess (assets/access.js). Text is always set with textContent. */
 (function () {
   var main = document.querySelector('main[data-lms]'); if (!main) return;
-  var kind = main.getAttribute('data-lms'), box = document.getElementById('lms-box'), A = window.HFLAccess;
+  var kind = main.getAttribute('data-lms'); if (kind === 'author' || kind === 'play') return; /* these two have their own scripts */
+  var box = document.getElementById('lms-box'), A = window.HFLAccess;
   function el(t, c, x) { var e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; }
   function link(h, t, c) { var a = el('a', c || 'btn', t); a.href = h; return a; }
   function q(n) { var m = new RegExp('[?&]' + n + '=([^&]*)').exec(location.search); return m ? decodeURIComponent(m[1].replace(/\+/g, ' ')) : ''; }
@@ -55,7 +56,11 @@
     if (A.mode !== 'server') return needServer('take the final check');
     var en = ((A.server || {}).enrolments || []).filter(function (e) { return e.course === c; })[0];
     if (!en) { box.appendChild(say('Join this course first.', true)); box.appendChild(link(c, 'Open the course')); return; }
-    fetch('assets/quiz/' + encodeURIComponent(c) + '.json').then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (z) {
+    var authored = /^author-[0-9a-f]{20}\.html$/.test(c);
+    (authored
+      ? fetch('/api/author', { method: 'POST', headers: { 'Content-Type': 'application/json' }, credentials: 'same-origin', body: JSON.stringify({ action: 'play', key: c }) }).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (x) { return { title: x.course.title, pass: 70, questions: x.course.quiz }; })
+      : fetch('assets/quiz/' + encodeURIComponent(c) + '.json').then(function (r) { if (!r.ok) throw 0; return r.json(); })
+    ).then(function (z) {
       box.appendChild(el('h3', '', 'Final check: ' + (z.title || en.title)));
       var done = (en.done || []).length;
       box.appendChild(el('p', '', 'Answer every question. You need ' + z.pass + '% to pass. You may try again as often as you like. Units done: ' + done + ' of ' + en.total + '.'));
@@ -87,7 +92,7 @@
           res.scrollIntoView({ block: 'nearest' });
         });
       });
-      box.appendChild(form); box.appendChild(res); box.appendChild(link(c, 'Back to the course', 'btn btn-ghost'));
+      box.appendChild(form); box.appendChild(res); box.appendChild(link(authored ? 'learn.html?c=' + encodeURIComponent(c) : c, 'Back to the course', 'btn btn-ghost'));
     }).catch(function () { box.appendChild(say('This course has no final check yet.', true)); box.appendChild(link(c, 'Back to the course')); });
   }
 
@@ -120,6 +125,7 @@
     var u = S.user || {};
     box.appendChild(el('p', '', (u.name ? u.name + ', ' : '') + 'here are your courses.'));
     if (u.staff) { var st = el('p'); st.appendChild(link('reports.html', 'Facilitator report', 'btn btn-ghost')); box.appendChild(st); }
+    var tools = el('p'); tools.appendChild(link('learn.html', 'Courses by members', 'btn btn-ghost')); tools.appendChild(document.createTextNode(' ')); tools.appendChild(link('author.html', 'Author Studio', 'btn btn-ghost')); box.appendChild(tools);
     var en = S.enrolments || [];
     if (!en.length) { box.appendChild(el('p', '', 'You have no courses yet. Open a course, read the preview, and press Join this course.')); box.appendChild(link('courses-all.html', 'Browse courses')); }
     en.forEach(function (e) {

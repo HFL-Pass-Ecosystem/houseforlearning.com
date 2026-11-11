@@ -51,3 +51,16 @@ details.mod>summary{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .cert-course{font-size:1.3rem;font-weight:600}
 .cert-code{font-family:monospace;margin-top:1.2em}
 @media print{.site-head,.site-foot,.trail,.cookie,.hero,.acc-msg,button,.btn{display:none!important}.cert{border-width:4px}}
+
+/* Author Studio and the member-course player */
+.au-row{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end;margin:10px 0}
+.au-f{display:block;margin:8px 0;flex:1 1 220px}.au-l{display:block;font-size:.85rem;font-weight:600;margin-bottom:4px}
+.au-f input[type=text],.au-f input[type=number],.au-f textarea{width:100%;box-sizing:border-box;padding:10px;border:1px solid #c9c4b4;border-radius:8px;font:inherit}
+.au-cols{display:grid;grid-template-columns:minmax(0,1fr);gap:18px}@media(min-width:800px){.au-cols{grid-template-columns:260px minmax(0,1fr)}}
+.au-mod,.au-block,.au-q,.au-card,.au-b{border:1px solid #e1dccb;border-radius:10px;padding:12px;margin:10px 0;background:#fff}
+.au-lesson{display:block;width:100%;text-align:left;background:#f2eee2;border:1px solid #e1dccb;border-radius:8px;padding:8px 10px;margin:4px 0;cursor:pointer;font:inherit}
+.au-lesson.on{border-color:#0f85db;background:#e8f3fc}.au-lesson.done::after{content:" \2713";color:#2a8a45}
+.au-tag{display:inline-block;margin-left:8px;padding:2px 8px;border-radius:99px;background:#f2eee2;font-size:.8rem}.au-published{background:#d9f3e0}.au-changes{background:#fde9d6}
+.au-img{max-width:100%;height:auto;border-radius:8px}.au-k{font-size:.85rem;opacity:.75;margin:12px 0 0}
+.au-card-flip{display:block;width:100%;text-align:left;margin:6px 0;padding:14px;border:1px solid #0f85db;border-radius:10px;background:#f6fbff;cursor:pointer;font:inherit}
+.au-add{margin:10px 0}.au-nav{margin:10px 0}.au-hint{font-size:.85rem;opacity:.75}
