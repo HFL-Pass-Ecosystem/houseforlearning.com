@@ -64,3 +64,11 @@ details.mod>summary{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .au-img{max-width:100%;height:auto;border-radius:8px}.au-k{font-size:.85rem;opacity:.75;margin:12px 0 0}
 .au-card-flip{display:block;width:100%;text-align:left;margin:6px 0;padding:14px;border:1px solid #0f85db;border-radius:10px;background:#f6fbff;cursor:pointer;font:inherit}
 .au-add{margin:10px 0}.au-nav{margin:10px 0}.au-hint{font-size:.85rem;opacity:.75}
+
+/* My board */
+.bd-new{display:grid;gap:8px;margin:0 0 18px}.bd-new textarea,.bd-new input,.bd-new select,.bd-staff textarea,.bd-staff input,.bd-staff select{width:100%;box-sizing:border-box;padding:10px;border:1px solid #c9c4b4;border-radius:8px;font:inherit}
+.bd-wall{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;margin:12px 0}
+.bd-note{border-radius:4px;padding:14px;box-shadow:0 2px 6px rgba(0,0,0,.15);background:#f2eee2;border-top:6px solid #0f85db}
+.bd-blue{background:#e6f2fd;border-top-color:#0f85db}.bd-green{background:#e4f6e8;border-top-color:#3cc261}.bd-done{opacity:.55}
+.bd-kind{font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em}.bd-body{margin:8px 0;white-space:pre-wrap}.bd-due{font-size:.85rem}
+.bd-act{display:flex;flex-wrap:wrap;gap:6px}.bd-staff{margin-top:26px;padding-top:12px;border-top:1px solid #e1dccb;display:grid;gap:8px}

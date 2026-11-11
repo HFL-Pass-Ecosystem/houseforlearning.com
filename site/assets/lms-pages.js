@@ -2,7 +2,7 @@
    Talks to /api/lms through HFLAccess (assets/access.js). Text is always set with textContent. */
 (function () {
   var main = document.querySelector('main[data-lms]'); if (!main) return;
-  var kind = main.getAttribute('data-lms'); if (kind === 'author' || kind === 'play') return; /* these two have their own scripts */
+  var kind = main.getAttribute('data-lms'); if (kind === 'author' || kind === 'play' || kind === 'board') return; /* these two have their own scripts */
   var box = document.getElementById('lms-box'), A = window.HFLAccess;
   function el(t, c, x) { var e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; }
   function link(h, t, c) { var a = el('a', c || 'btn', t); a.href = h; return a; }
@@ -125,7 +125,7 @@
     var u = S.user || {};
     box.appendChild(el('p', '', (u.name ? u.name + ', ' : '') + 'here are your courses.'));
     if (u.staff) { var st = el('p'); st.appendChild(link('reports.html', 'Facilitator report', 'btn btn-ghost')); box.appendChild(st); }
-    var tools = el('p'); tools.appendChild(link('learn.html', 'Courses by members', 'btn btn-ghost')); tools.appendChild(document.createTextNode(' ')); tools.appendChild(link('author.html', 'Author Studio', 'btn btn-ghost')); box.appendChild(tools);
+    var tools = el('p'); tools.appendChild(link('board.html', 'My board', 'btn btn-ghost')); tools.appendChild(document.createTextNode(' ')); tools.appendChild(link('learn.html', 'Courses by members', 'btn btn-ghost')); tools.appendChild(document.createTextNode(' ')); tools.appendChild(link('author.html', 'Author Studio', 'btn btn-ghost')); box.appendChild(tools);
     var en = S.enrolments || [];
     if (!en.length) { box.appendChild(el('p', '', 'You have no courses yet. Open a course, read the preview, and press Join this course.')); box.appendChild(link('courses-all.html', 'Browse courses')); }
     en.forEach(function (e) {
