@@ -1,0 +1,4 @@
+/* The small "Tools" link shown on every tool page. Bottom left, clear of each tool's own buttons. */
+.hubbar{position:fixed;left:12px;bottom:12px;z-index:2147483000;background:#0F85DB;color:#fff;font:600 13px/1 Montserrat,"Segoe UI",system-ui,sans-serif;padding:10px 14px;border-radius:999px;text-decoration:none;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+.hubbar:hover,.hubbar:focus{background:#0B66A8;color:#fff;outline:2px solid #fff;outline-offset:1px}
+@media print{.hubbar{display:none}}

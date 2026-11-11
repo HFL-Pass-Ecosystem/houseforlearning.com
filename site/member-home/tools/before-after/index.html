@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Before and after slider</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="view.css">
+<link rel="stylesheet" href="page.css">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../_hub/bar.css">
+<script src="../_hub/style-shim.js"></script>
+<link rel="stylesheet" href="../_hub/gate.css">
+<script src="/member-home/config.js"></script>
+<script src="/member-home/supabase.js"></script>
+<script src="/member-home/auth.js"></script>
+<script src="../_hub/gate-hfl.js"></script>
+</head>
+<body>
+<noscript><p class="bp-card">This tool needs JavaScript switched on.</p></noscript>
+<main>
+<h1>Before and after slider</h1>
+<p class="bp-sub">Drag the line to show a makeover. Numbered dots explain each change. It starts with a sample room, and you can put in your own two pictures below.</p>
+
+<div id="view"></div>
+
+<div class="bp-row">
+<button type="button" class="bp-btn" id="bFull">Show full screen</button>
+<button type="button" class="bp-btn bp-pri" id="bDown">Download as one page</button>
+</div>
+<p class="bp-msg" id="downMsg" role="status"></p>
+
+<section class="bp-card" aria-labelledby="hOwn">
+<h2 id="hOwn">Use your own two pictures</h2>
+<ol class="bp-steps">
+<li><button type="button" class="bp-btn" id="bBefore">1. Choose the BEFORE picture</button> <span class="bp-state" id="sBefore">Not chosen yet</span></li>
+<li><button type="button" class="bp-btn" id="bAfter">2. Choose the AFTER picture</button> <span class="bp-state" id="sAfter">Not chosen yet</span></li>
+</ol>
+<input type="file" id="fBefore" accept="image/*" hidden>
+<input type="file" id="fAfter" accept="image/*" hidden>
+<p class="bp-msg" id="matchMsg" role="status"></p>
+<p><button type="button" class="bp-btn bp-quiet" id="bSample">Go back to the sample room</button></p>
+</section>
+
+<section class="bp-card" aria-labelledby="hNotes">
+<h2 id="hNotes">Notes on the picture</h2>
+<p><button type="button" class="bp-btn" id="bAdd">+ Add a note</button> <span class="bp-msg" id="addMsg" role="status"></span></p>
+<ol class="bp-notes" id="noteList"></ol>
+</section>
+
+<section class="bp-card" aria-labelledby="hTitle">
+<h2 id="hTitle">Title for the download</h2>
+<label class="bp-lab" for="iTitle">This title shows at the top of the page you download.</label>
+<input type="text" id="iTitle" class="bp-in" maxlength="80">
+</section>
+
+<details class="bp-card">
+<summary>How to make two pictures that match</summary>
+<ol class="bp-how">
+<li>Take one photo of the room. Keep it. This is the BEFORE picture.</li>
+<li>Give that same photo to an image tool. Ask it to redesign the room without moving the walls, the windows or the camera.</li>
+<li>Save the new picture. This is the AFTER picture. Do not crop it.</li>
+<li>Come back here and choose the two pictures with the buttons above.</li>
+<li>If the tool says the shapes are different, make the AFTER picture again from the same photo.</li>
+</ol>
+</details>
+
+<p class="bp-foot">Your pictures and notes stay in this browser on this device. Nothing is uploaded.</p>
+</main>
+<script src="view.js"></script>
+<script src="page.js"></script>
+<script src="../_hub/bar.js" data-home="../"></script>
+</body>
+</html>

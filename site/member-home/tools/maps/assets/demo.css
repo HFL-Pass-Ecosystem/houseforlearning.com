@@ -1,0 +1,10 @@
+body { margin: 0; padding: 0 16px 32px; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: #fff; color: #1d2430; }
+.skip { position: absolute; left: -999px; } .skip:focus { left: 16px; top: 8px; background: #fff; padding: .5rem; }
+.demo-head { max-width: 1100px; margin: 0 auto; padding: 16px 0 8px; }
+.demo-head h1 { margin: 0 0 .25rem; font-size: 1.5rem; }
+.demo-head p { margin: 0 0 .5rem; color: #5a6472; }
+.demo-tabs { display: flex; flex-wrap: wrap; gap: .4rem; list-style: none; margin: 0; padding: 0; }
+.demo-tabs a { display: inline-block; padding: .55rem .8rem; border: 1px solid #c5ccd6; color: #14315a; text-decoration: none; min-height: 44px; }
+.demo-tabs a[aria-current="page"] { background: #14315a; color: #fff; border-color: #14315a; }
+main { max-width: 1100px; margin: 0 auto; }
+.mp { padding: 12px; }

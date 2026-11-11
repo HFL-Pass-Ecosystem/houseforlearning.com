@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Workplace desk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="kit.css">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../_hub/bar.css">
+<script src="../_hub/style-shim.js"></script>
+<link rel="stylesheet" href="../_hub/gate.css">
+<script src="/member-home/config.js"></script>
+<script src="/member-home/supabase.js"></script>
+<script src="/member-home/auth.js"></script>
+<script src="../_hub/gate-hfl.js"></script>
+</head>
+<body>
+<noscript><p class="k-card">This screen needs JavaScript switched on.</p></noscript>
+<main>
+<h1>Workplace desk</h1>
+<p class="k-sub">Three daily work screens for staff and partners: hand over a shift on site, plan where you work this week, and log your work with a timer.</p>
+<p class="k-msg" id="say" role="status" aria-live="polite"></p>
+<div class="k-tabs" role="tablist" aria-label="Workplace desk parts">
+<button type="button" class="k-btn" role="tab" id="tHand" aria-controls="vHand" aria-selected="true">Shift handover</button>
+<button type="button" class="k-btn" role="tab" id="tPlan" aria-controls="vPlan" aria-selected="false">Week plan</button>
+<button type="button" class="k-btn" role="tab" id="tLog" aria-controls="vLog" aria-selected="false">Work log</button>
+</div>
+<section class="k-card" id="vHand" role="tabpanel" aria-labelledby="tHand">
+<h2>Shift handover (on site)</h2>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="hArea">Area or line</label><input class="k-in" id="hArea" maxlength="60"></div>
+<div><label class="k-lab" for="hShift">Shift</label><select class="k-in" id="hShift"><option>Morning</option><option>Afternoon</option><option>Night</option></select></div></div>
+<label class="k-lab" for="hDone">Done this shift</label><textarea class="k-in" id="hDone" maxlength="800"></textarea>
+<label class="k-lab" for="hOpen">Still open for the next shift</label><textarea class="k-in" id="hOpen" maxlength="800"></textarea>
+<label class="k-lab" for="hSafe">Safety notes (write "None" if there are none)</label><input class="k-in" id="hSafe" maxlength="300">
+<div class="k-row"><button type="button" class="k-btn k-pri" id="hSave">Save handover</button><button type="button" class="k-btn" id="hDown">Download handovers</button></div>
+<ul class="k-list" id="hList"></ul>
+</section>
+<section class="k-card" id="vPlan" role="tabpanel" aria-labelledby="tPlan" hidden>
+<h2>Week plan (on site, remote or mixed)</h2>
+<div class="k-scroll"><table id="wTable"><thead><tr><th scope="col">Day</th><th scope="col">Where</th><th scope="col">Main task</th></tr></thead><tbody></tbody></table></div>
+<p class="k-note" id="wSum"></p>
+<div class="k-row"><button type="button" class="k-btn" id="wDown">Download week plan</button></div>
+</section>
+<section class="k-card" id="vLog" role="tabpanel" aria-labelledby="tLog" hidden>
+<h2>Work log</h2>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="gTask">What I am working on</label><input class="k-in" id="gTask" maxlength="120"></div>
+<button type="button" class="k-btn k-pri" id="gStart">Start</button><button type="button" class="k-btn" id="gStop" disabled>Stop and log</button></div>
+<p class="k-clock" id="gClock">00:00</p>
+<p class="k-note" id="gTotal"></p>
+<div class="k-scroll"><table id="gTable"><thead><tr><th scope="col">Date</th><th scope="col">Task</th><th scope="col">Time</th><th scope="col"><span class="k-noprint">Remove</span></th></tr></thead><tbody></tbody></table></div>
+<div class="k-row"><button type="button" class="k-btn" id="gDown">Download work log (spreadsheet file)</button></div>
+</section>
+<p class="k-note">Kept in this browser on this device only. Nothing is sent anywhere. Use Download to keep or share a copy.</p>
+</main>
+<script src="kit.js"></script>
+<script src="page.js"></script>
+<script src="../_hub/bar.js" data-home="../"></script>
+</body>
+</html>

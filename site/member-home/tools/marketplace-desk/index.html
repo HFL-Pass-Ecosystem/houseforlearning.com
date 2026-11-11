@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Marketplace desk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="kit.css">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../_hub/bar.css">
+<script src="../_hub/style-shim.js"></script>
+<link rel="stylesheet" href="../_hub/gate.css">
+<script src="/member-home/config.js"></script>
+<script src="/member-home/supabase.js"></script>
+<script src="/member-home/auth.js"></script>
+<script src="../_hub/gate-hfl.js"></script>
+</head>
+<body>
+<noscript><p class="k-card">This screen needs JavaScript switched on.</p></noscript>
+<main>
+<h1>Marketplace desk</h1>
+<p class="k-sub">Browse offers and needs of three kinds: physical (goods and places), hybrid (part on site, part online) and digital (online only). Make your own listing, collect what interests you, and prepare one clear enquiry. No amounts are shown here: every listing is "price on request".</p>
+<p class="k-msg" id="say" role="status" aria-live="polite"></p>
+<div class="k-tabs" role="tablist" aria-label="Marketplace desk parts">
+<button type="button" class="k-btn" role="tab" id="tBrowse" aria-controls="vBrowse" aria-selected="true">Browse</button>
+<button type="button" class="k-btn" role="tab" id="tMine" aria-controls="vMine" aria-selected="false">My listings</button>
+<button type="button" class="k-btn" role="tab" id="tBasket" aria-controls="vBasket" aria-selected="false">Enquiry basket <span id="bCount">(0)</span></button>
+</div>
+<section class="k-card" id="vBrowse" role="tabpanel" aria-labelledby="tBrowse">
+<h2>Browse</h2>
+<div class="k-row">
+<div><label class="k-lab" for="fKind">Kind</label><select class="k-in" id="fKind"><option value="">All kinds</option><option>Physical</option><option>Hybrid</option><option>Digital</option></select></div>
+<div><label class="k-lab" for="fType">Offer or need</label><select class="k-in" id="fType"><option value="">Both</option><option>Offer</option><option>Need</option></select></div>
+<div class="k-grow"><label class="k-lab" for="fFind">Find a word</label><input class="k-in" id="fFind" type="search"></div>
+</div>
+<p class="k-note" id="fShown"></p>
+<ul class="k-list" id="lList"></ul>
+</section>
+<section class="k-card" id="vMine" role="tabpanel" aria-labelledby="tMine" hidden>
+<h2>Make a listing</h2>
+<label class="k-lab" for="mTitle">Title</label><input class="k-in" id="mTitle" maxlength="90">
+<div class="k-row">
+<div><label class="k-lab" for="mType">This is</label><select class="k-in" id="mType"><option>Offer</option><option>Need</option></select></div>
+<div><label class="k-lab" for="mKind">Kind</label><select class="k-in" id="mKind"><option>Physical</option><option>Hybrid</option><option>Digital</option></select></div>
+<div><label class="k-lab" for="mHow">How it reaches the other side</label><select class="k-in" id="mHow"><option>Collected</option><option>Delivered</option><option>On site</option><option>Online</option><option>On site and online</option></select></div>
+</div>
+<label class="k-lab" for="mText">Details (condition, size, time needed, what is included). Do not write amounts, names of people or phone numbers.</label><textarea class="k-in" id="mText" maxlength="600"></textarea>
+<div class="k-row"><button type="button" class="k-btn k-pri" id="mAdd">Add my listing</button></div>
+<h2>My listings</h2>
+<ul class="k-list" id="mList"></ul>
+<div class="k-row"><button type="button" class="k-btn" id="mDown">Download my listings (share file)</button><button type="button" class="k-btn" id="mUp">Load a share file</button></div>
+<input type="file" id="mFile" accept=".json,application/json" hidden>
+<p class="k-note">A share file lets you pass your listings to another person or another device. They open this screen and press "Load a share file".</p>
+</section>
+<section class="k-card" id="vBasket" role="tabpanel" aria-labelledby="tBasket" hidden>
+<h2>Enquiry basket</h2>
+<ul class="k-list" id="bList"></ul>
+<label class="k-lab" for="bMsg">Your message (what you need, by when, where)</label><textarea class="k-in" id="bMsg" maxlength="800"></textarea>
+<h3>Your enquiry, ready to send</h3>
+<pre class="k-item" id="bText"></pre>
+<div class="k-row"><button type="button" class="k-btn k-pri" id="bCopy">Copy the enquiry</button><button type="button" class="k-btn" id="bDown">Download the enquiry</button><button type="button" class="k-btn k-quiet" id="bClear">Empty the basket</button></div>
+<p class="k-note">Send the enquiry through the contact or order page of this website. Nothing is sent from this screen.</p>
+</section>
+<p class="k-note">Kept in this browser on this device only. Sample listings are for practice. Nothing here takes money.</p>
+</main>
+<script src="kit.js"></script>
+<script src="page.js"></script>
+<script src="../_hub/bar.js" data-home="../"></script>
+</body>
+</html>
