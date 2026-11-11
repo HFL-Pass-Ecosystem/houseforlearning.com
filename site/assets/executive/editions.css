@@ -1,5 +1,5 @@
 /* Built by tools/import_executive_editions.py from the Executive Programme page. Do not edit by hand. */
-/* House For Learning, Executive Programme. Built in the Ajan SNS member-home look: a sand canvas, white cards,
+/* House for Learning, Executive Programme. Built in the Ajan SNS member-home look: a sand canvas, white cards,
    one blue accent, gold for codes; see-and-click capsules, no drop-down menus, the main actions within thumb reach on phones. */
 :root{
   --bg:#F5F3EE; --side:#EDE9DD; --card:#FFFFFF; --ink:#14202B; --muted:#58636D; --line:#DAD4C6; --line-soft:#EAE5D9;
@@ -209,6 +209,15 @@ h2{font-size:clamp(26px,3.4vw,34px);font-weight:800;letter-spacing:-.015em}
 .way .ic{color:var(--accent);margin-top:2px}
 .way b{display:block;font-size:15.5px}
 .way span{display:block;color:var(--muted);font-size:14.5px;margin-top:2px}
+.collab{margin-top:30px;scroll-margin-top:80px}
+.collab h3{font-size:18px;font-weight:800;margin-bottom:4px}
+.collab p{color:var(--muted);font-size:14.5px;margin-bottom:12px;max-width:72ch}
+.spaces{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.spaces li{display:flex;gap:12px;align-items:flex-start;padding:16px;border-radius:16px;background:var(--card);border:1px solid var(--line-soft)}
+.spaces li .ic{color:var(--accent);margin-top:2px}
+.spaces b{display:block;font-size:15.5px}
+.spaces span{display:block;color:var(--muted);font-size:14.5px;margin-top:2px}
+@media (max-width:759px){ .collab{scroll-margin-top:118px} }
 .cover{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin-top:30px}
 .cover h3{font-size:18px;font-weight:800;margin-bottom:4px}
 .cover p{color:var(--muted);font-size:14.5px;margin-bottom:12px}
@@ -319,7 +328,7 @@ textarea.box{width:100%;min-height:96px;border:1px solid var(--line);border-radi
 .answer .q{font-weight:800;font-size:17px}
 .answer .a{font-size:16px}
 .answer .row{margin-top:2px}
-@media (max-width:900px){ .ask{grid-template-columns:1fr} }
+@media (max-width:900px){ .ask{grid-template-columns:minmax(0,1fr)} }
 
 /* ---------- register interest ---------- */
 .reg{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:26px;align-items:start}

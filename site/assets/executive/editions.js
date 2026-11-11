@@ -66,6 +66,8 @@ const ICONS = {
   record:'<path d="M6 3h11.5a1.5 1.5 0 0 1 1.5 1.5v15a1.5 1.5 0 0 1-1.5 1.5H6zM9.5 3v18M12.5 8H16M12.5 11.5H16"/>',
   help:'<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.6"/><path d="m5.6 5.6 3.9 3.9M14.5 14.5l3.9 3.9M18.4 5.6l-3.9 3.9M9.5 14.5l-3.9 3.9"/>',
   pkg:'<path d="m12 3 8.5 4.5v9L12 21l-8.5-4.5v-9z"/><path d="m3.5 7.5 8.5 4.5 8.5-4.5M12 12v9"/>',
+  flask:'<path d="M9 3h6M10 3v6.2L4.8 18.6A1.6 1.6 0 0 0 6.2 21h11.6a1.6 1.6 0 0 0 1.4-2.4L14 9.2V3"/><path d="M7.5 15h9"/>',
+  case:'<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a1.5 1.5 0 0 1 1.5-1.5h3A1.5 1.5 0 0 1 15 5v2M3 12.5h18"/>',
   pause:'<rect x="6.5" y="5" width="3.5" height="14" rx="1"/><rect x="14" y="5" width="3.5" height="14" rx="1"/>',
   bank:'<path d="M3 9.5 12 4l9 5.5M4.5 9.5V18M9 9.5V18M15 9.5V18M19.5 9.5V18M3 20.5h18"/>',
   close:'<path d="M6 6l12 12M18 6 6 18"/>'
@@ -102,19 +104,19 @@ const EDITIONS = [
    plan:'Four more stages take your plan into the field: interviews with at least eight customers, partners or experts, a market size and a three-year financial model, a cross-border and ethics check, and a defence before a board panel that includes an outside practitioner. The plan grows to 20 to 25 pages with a 10-slide deck.',
    finish:'A certificate of completion, 200 practice points, and the second Earner stage or the Service provider stage.'},
   {n:3, short:'Specialist', title:'Specialist Executive Programme', years:'3 years', span:'Months 1 to 36', pp:300,
-   stage:'Author or Partner', units:'75 units: Foundation to Advanced',
+   stage:'Author, Trainer or Partner', units:'75 units: Foundation to Advanced',
    who:'For experienced professionals who want depth in one sector and wish to write and teach from their own practice.',
    entry:'Edition 2, or substantial experience in your sector.',
-   study:'The first two years, then a specialist year in one of 50 sectors, from healthcare and construction to data and AI. The 25 Advanced units follow, and you author a sector example or a unit for our library.',
+   study:'The first two years, then a specialist year in one of 50 sectors, from healthcare and construction to data and AI. The 25 Advanced units follow, and you author a sector example or a unit for our library, or take the trainer induction and co-lead sessions beside a certified trainer.',
    plan:'Three more stages: a specialist chapter that only someone in your field could write, an investor-ready pack with a valuation and a roll-out roadmap, and a presentation to a real outside audience, with written feedback. The plan grows to 30 to 40 pages, and you coach one first-year learner.',
-   finish:'A certificate of completion, 300 practice points, and the Author or Partner stage.'},
+   finish:'A certificate of completion, 300 practice points, and the Author, Trainer or Partner stage.'},
   {n:4, short:'Research', title:'Executive Research Programme', years:'4 years', span:'Months 1 to 48', pp:400,
-   stage:'Trainer, Leader or Expert', units:'All 100 units',
+   stage:'Leader or Expert', units:'All 100 units',
    who:'For senior practitioners who want to study a real question in their field, lead others and train the next group of learners.',
    entry:'Edition 3, or senior experience and a research question you care about.',
-   study:'The first three years, then a research year: the 25 Mastery units, a supervised applied research project on a question from your own sector, and the trainer induction.',
-   plan:'Your research project ends in a written report and a public talk on what you found. You also lead one learning group as a trainer and mentor two learners.',
-   finish:'A certificate of completion, 400 practice points, and the Trainer, Leader or Expert stage.', draft:true}
+   study:'The first three years, then a research year: the 25 Mastery units, a supervised applied research project on a question from your own sector, and the trainer induction for those who choose to train.',
+   plan:'Your research project ends in a written report and a public talk on what you found. You also lead one learning group as a trainer, or write a module of connected units for our library, and you mentor two learners.',
+   finish:'A certificate of completion, 400 practice points, and the Leader or Expert stage.', draft:true}
 ];
 const BLOCKS = [
   {n:1, m:'Months 1 to 4', name:'Self-management and ethics', mods:[['MC-101','Managing yourself: strengths, feedback and working styles'],['MC-102','Working styles and team behaviour'],['MC-103','Research and integrity standards']]},
@@ -125,14 +127,14 @@ const BLOCKS = [
   {n:6, m:'Months 21 to 24', name:'Executive capstone', mods:[['MC-601','Growth proposal'],['MC-602','Executive defence and stakeholders'],['MC-603','Capstone and board presentation']]}
 ];
 const LATER = [
-  {n:3, m:'Months 25 to 36', name:'Specialist year', mods:[['Sector','One of 50 sectors, chosen by you'],['Units','25 Advanced units'],['Library','A sector example or unit you author']]},
-  {n:4, m:'Months 37 to 48', name:'Research year', mods:[['Project','A supervised applied research project'],['Units','25 Mastery units'],['Trainer','Trainer induction and a learning group you lead']]}
+  {n:3, m:'Months 25 to 36', name:'Specialist year', mods:[['Sector','One of 50 sectors, chosen by you'],['Units','25 Advanced units'],['Author or train','A sector example or unit you author, or sessions you co-lead after the trainer induction']]},
+  {n:4, m:'Months 37 to 48', name:'Research year', mods:[['Project','A supervised applied research project'],['Units','25 Mastery units'],['Lead','A learning group you lead as a trainer, or a module of units you author']]}
 ];
 const YEARS = [
   {n:1, m:'Months 1 to 12', title:'Foundations', items:[['learn','Block 1: Self-management and ethics'],['learn','Block 2: Strategic diagnostics'],['learn','Block 3: Persuasive storytelling with data'],['spark','25 Foundation units'],['doc','Business plan, stages 1 to 5, ending in a pitch']]},
   {n:2, m:'Months 13 to 24', title:'Leadership', items:[['learn','Block 4: Restructuring and team dynamics'],['learn','Block 5: Emerging technology and scale'],['learn','Block 6: Executive capstone'],['spark','25 Practitioner units'],['doc','Business plan, stages 6 to 9, ending in a board defence']]},
-  {n:3, m:'Months 25 to 36', title:'Specialist year', items:[['target','A specialist year in one of 50 sectors'],['spark','25 Advanced units'],['doc','Business plan, stages 10 to 12, ending before an outside audience'],['author','A sector example or unit you author']]},
-  {n:4, m:'Months 37 to 48', title:'Research year', items:[['search','A supervised applied research project'],['spark','25 Mastery units'],['train','Trainer induction and a learning group you lead'],['users','Mentoring two learners']]}
+  {n:3, m:'Months 25 to 36', title:'Specialist year', items:[['target','A specialist year in one of 50 sectors'],['spark','25 Advanced units'],['doc','Business plan, stages 10 to 12, ending before an outside audience'],['author','A sector example or unit you author, or sessions you co-lead as a trainer']]},
+  {n:4, m:'Months 37 to 48', title:'Research year', items:[['search','A supervised applied research project'],['spark','25 Mastery units'],['train','A learning group you lead as a trainer, or a module of units you author'],['users','Mentoring two learners']]}
 ];
 const MODES = [
   ['image','See','A picture or diagram of each idea, with a caption, and a short video where one exists.'],
@@ -144,6 +146,16 @@ const WAYS = [
   ['mic','Speak or type','Every step works by speaking or by typing, in plain words. A phone is enough; no computer skills are needed.'],
   ['hybrid','Online, hybrid or at a centre','Join live classes online, in a hybrid group, or at a centre where one is open. Classes are recorded.'],
   ['clock','Five minutes at a time','Each unit has seven short parts: a hook, the idea, an example from your sector, a task for today, a quiet caution, a reflection and one check.']
+];
+/* Collaborate, the fifth stage of the loop, and its seven spaces (learning pack 1.6, 11 November 2026). */
+const SPACES = [
+  ['flask','LAB™','Our content studio: authors and trainers find what learners need, make the units and course material, test them and improve them.'],
+  ['learn','LEAP™','The platform where courses, activities, checks with feedback, and course and career pathways are built and published.'],
+  ['users','HCF™','Our human capital framework and network: it develops and certifies trainers and coaches, and joins learners with coaches, mentors and partners.'],
+  ['pkg','Marketplace','Where earners and partners offer products, projects, solutions and services, from enquiry and quote to order, under published trust rules.'],
+  ['case','Workplace','Where teams deliver real work: listening meetings, improvement sessions, recognition and two-way mentoring, with the outcomes recorded.'],
+  ['doc','COLLATE™','One place to collect and share study notes, work notes, recordings and sketches, so that a group keeps one shared record.'],
+  ['route','PAVER™','Your career record across five paths: professional, academic, vocational, education and entrepreneurship, and resilience and recreation.']
 ];
 const STRANDS = ["Self-mastery and daily habits", "Purpose, values and integrity", "Leading people and teams", "Communication and presence", "Negotiation, selling and customer value", "Cost and decision accounting", "Finance, budgets and control", "Personal money habits", "Strategy, markets and growth", "Processes, systems and quality (ERP, CRM, MIS)", "Learning culture and leader development", "Conscience: what not to do with a genius mindset"];
 const SECTORS = [["other", "Independent, gig and new ventures"], ["software", "Software and IT services"], ["healthcare", "Healthcare services"], ["manufacturing", "Manufacturing and factories"], ["consulting", "Consulting and business services"], ["banking", "Banking and financial services"], ["insurance", "Insurance"], ["transport", "Transport and mobility"], ["aerospace", "Aerospace and defence"], ["energy", "Energy: oil, gas and power"], ["hospitality", "Hotels, travel and leisure"], ["retail", "Retail and shops"], ["meddevices", "Medical devices and supplies"], ["pharma", "Pharma and medicines"], ["realestate", "Real estate and property"], ["telecom", "Telecom and networks"], ["chemicals", "Chemicals and materials"], ["hardware", "Computer hardware and electronics"], ["biotech", "Biotech and life sciences"], ["foodprod", "Food and beverage production"], ["restaurants", "Restaurants, cafes and catering"], ["utilities", "Utilities: power, water and gas supply"], ["wholesale", "Wholesale and distribution"], ["automotive", "Automotive and electric vehicles"], ["media", "Media, news and content"], ["consumer", "Consumer products and brands"], ["construction", "Construction and building"], ["education", "Education and training"], ["agriculture", "Agriculture, farming and forestry"], ["transequip", "Ships, rail, aircraft and handling equipment"], ["government", "Government and public services"], ["smartcities", "Smart cities and urban development"], ["water", "Water and sanitation"], ["waste", "Waste, recycling and circular economy"], ["climate", "Climate and sustainability"], ["cleanenergy", "Clean energy and renewables"], ["nature", "Nature, wildlife and animals"], ["space", "Space and satellites"], ["cyber", "Cybersecurity and data protection"], ["dataai", "Data, AI and analytics"], ["datacentre", "Data centres and cloud"], ["engineering", "Engineering and project services"], ["logistics", "Logistics and supply chain"], ["investment", "Investment and capital"], ["accounting", "Accounting, audit and tax"], ["legal", "Legal, compliance and governance"], ["gaming", "Gaming, animation and immersive media"], ["arts", "Arts, culture and heritage"], ["sport", "Sport, fitness and wellbeing"], ["social", "Social impact and community"]];
@@ -159,7 +171,7 @@ const OFFERS = [
   ['help','Help when you need it','By speaking, by typing, or by asking for a person.']
 ];
 const GETS = [
-  ['badge','A certificate of completion','From House For Learning, for each edition you complete.'],
+  ['badge','A certificate of completion','From House for Learning, for each edition you complete.'],
   ['record','Your learning record','Every unit, check and task you completed, with your practice points, to download and share.'],
   ['doc','Your business plan and project work','The plan, the deck and the evidence behind them are yours to keep and use.'],
   ['users','People you have worked with','Your cohort, your mentors, and the customers and experts you met in the field.']
@@ -168,8 +180,8 @@ const PATH = [
   ['Learner','You start with the free units, and your record opens.','0'],
   ['Earner, first level','Edition 1 complete, with one task tried and accepted.','100'],
   ['Earner, second level, or Service provider','Edition 2 complete, with three accepted tasks and one peer review.','200'],
-  ['Author or Partner','Edition 3 complete, with a sector example or unit accepted into our library.','300'],
-  ['Trainer, Leader or Expert','Edition 4 complete, one learning group led and two learners mentored.','400']
+  ['Author, Trainer or Partner','Edition 3 complete, with a sector example or unit accepted into our library, or sessions co-led beside a certified trainer.','300'],
+  ['Leader or Expert','Edition 4 complete, with a learning group led on your own or a module of units accepted, and two learners mentored.','400']
 ];
 const FEE_RULES = [
   ['The Foundation units, the reading lists, your learning record and one open live class a month are free, and stay free.'],
@@ -178,12 +190,12 @@ const FEE_RULES = [
   ['Payment is by bank transfer or UPI. Employers and partners can sponsor seats.'],
   ['A clear refund policy and a named contact for complaints come with every enrolment.']
 ];
-const PAGE_SUMMARY = 'House For Learning offers an executive programme in four editions. Edition 1, in International Business, takes one year. Edition 2, in Business Leadership, takes two years. Edition 3, the Specialist Executive Programme, takes three years and adds a specialist year in your own sector. Edition 4, the Executive Research Programme, takes four years and adds an applied research year. Each edition includes the one before it, so you can start with one year and continue. Study takes about 10 to 12 hours a week, online, in a hybrid group or at a centre, and every step works by speaking or by typing. The 25 Foundation units are free. The fee for each edition is shown in full before you enrol, and is paid by bank transfer or UPI. These are professional programmes with a certificate of completion; they are not university degrees.';
+const PAGE_SUMMARY = 'House for Learning offers an executive programme in four editions. Edition 1, in International Business, takes one year. Edition 2, in Business Leadership, takes two years. Edition 3, the Specialist Executive Programme, takes three years and adds a specialist year in your own sector. Edition 4, the Executive Research Programme, takes four years and adds an applied research year. Each edition includes the one before it, so you can start with one year and continue. Study takes about 10 to 12 hours a week, online, in a hybrid group or at a centre, and every step works by speaking or by typing. The 25 Foundation units are free. The fee for each edition is shown in full before you enrol, and is paid by bank transfer or UPI. These are professional programmes with a certificate of completion; they are not university degrees.';
 
 /* Questions answered on this page (matched on this device; nothing is sent) */
 const FAQ = [
   {q:'Is this a degree?', k:['degree','mba','phd','doctor','master','university','accredit','recogni','ugc','academic','equivalen','valid'],
-   a:'No. These are professional executive programmes, not university degrees, and they do not carry academic credit. Each edition you complete earns a certificate of completion from House For Learning and a record of the work you did.', go:'leave'},
+   a:'No. These are professional executive programmes, not university degrees, and they do not carry academic credit. Each edition you complete earns a certificate of completion from House for Learning and a record of the work you did.', go:'leave'},
   {q:'How long does it take?', k:['how long','duration','years','months','finish','length'],
    a:'Edition 1 takes one year, Edition 2 two years, Edition 3 three years and Edition 4 four years. Each edition includes the one before it, so the years add up as you climb.', go:'years'},
   {q:'What does it cost?', k:['fee','cost','price','pay','money','expensive','afford','instal','upi','bank','charge'],
@@ -207,7 +219,7 @@ const FAQ = [
   {q:'Which sectors are covered?', k:['sector','industry','specialis','field','domain'],
    a:'Examples in every unit come from your own sector, with 50 to choose from, from healthcare and construction to data and AI. Edition 3 adds a full specialist year in one sector.', go:'learn'},
   {q:'Who teaches?', k:['teach','faculty','trainer','mentor','who leads','professor','coach','tutor'],
-   a:'Small cohorts are led by practitioners who have done the work they teach and have completed our trainer induction. Editions 2 to 4 add mentoring for your project.', go:'editions'},
+   a:'Small cohorts are led by practitioners who have done the work they teach and have completed our trainer induction. From Edition 3 you can take the induction yourself and co-lead sessions beside a certified trainer. Editions 2 to 4 add mentoring for your project.', go:'editions'},
   {q:'Can my employer pay?', k:['employer','company','sponsor','corporate','team','reimburse','organisation','organization'],
    a:'Yes. Employers and partners can sponsor seats, and teams can follow a workplace pathway together. Mention it in the form below.', go:'register'},
   {q:'How is my data used?', k:['data','privacy','personal','information','delete','share','safe','secure'],
@@ -217,7 +229,9 @@ const FAQ = [
   {q:'What language is it taught in?', k:['language','hindi','english','arabic','tamil','marathi','gujarati','bengali','translate'],
    a:'Classes are taught in English. You can ask questions by speaking or typing in your own language, and further languages are added over time.', go:'learn'},
   {q:'How is AI used?', k:[' ai','ai ','artificial','assistant','machine','chatbot'],
-   a:'You learn to use AI assistants well and safely: you draft with several of them, compare their answers, check every claim against public sources and keep personal details out of them. The judgement and the final work are always yours.', go:'editions'}
+   a:'You learn to use AI assistants well and safely: you draft with several of them, compare their answers, check every claim against public sources and keep personal details out of them. The judgement and the final work are always yours.', go:'editions'},
+  {q:'Do I work with other people?', k:['collaborat','together','other people','with others','network','marketplace','workplace','shared','peer'],
+   a:'Yes. Alongside your cohort and mentors, you work with others in seven shared spaces: a studio where units are made and improved, a platform where courses are built, a network of trainers, coaches and mentors, a marketplace, a workplace, one shared place for notes, and your career record.', go:'collab'}
 ];
 const FAQ_FIRST = 6;
 
@@ -314,6 +328,7 @@ function renderFixed(){
       <span class="ends">${ic('check','sm')}Edition ${y.n} completes here</span></article>`).join('');
   $('#modes').innerHTML = MODES.map(m => `<div class="mode"><span class="badge">${ic(m[0],'lg')}</span><h3>${esc(m[1])}</h3><p>${esc(m[2])}</p></div>`).join('');
   $('#ways').innerHTML = WAYS.map(w => `<div class="way">${ic(w[0])}<div><b>${esc(w[1])}</b><span>${esc(w[2])}</span></div></div>`).join('');
+  $('#spaces').innerHTML = SPACES.map(w => `<li>${ic(w[0])}<div><b>${esc(w[1])}</b><span>${esc(w[2])}</span></div></li>`).join('');
   renderOffers(false);
   $('#gets').innerHTML = GETS.map(g => `<li>${ic(g[0])}<div><b>${esc(g[1])}</b><span>${esc(g[2])}</span></div></li>`).join('');
   $('#feeRules').innerHTML = FEE_RULES.map(f => `<li>${ic('check','sm')}<span>${esc(f[0])}</span></li>`).join('');
