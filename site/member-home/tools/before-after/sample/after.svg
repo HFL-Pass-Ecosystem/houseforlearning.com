@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="Sample room after the makeover">
+<defs>
+<linearGradient id="bw" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f3e8"/><stop offset="1" stop-color="#eee9db"/></linearGradient>
+<linearGradient id="fl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9b98c"/><stop offset="1" stop-color="#c79f6b"/></linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8ecbf3"/><stop offset="1" stop-color="#e3f3fb"/></linearGradient>
+<radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff6cf" stop-opacity=".9"/><stop offset="1" stop-color="#fff6cf" stop-opacity="0"/></radialGradient>
+</defs>
+<!-- shell: same walls and same camera in both pictures -->
+<polygon points="0,0 1600,0 1300,150 300,150" fill="#fbf9f3"/>
+<polygon points="0,0 300,150 300,680 0,1000" fill="#e9e3d3"/>
+<polygon points="1600,0 1300,150 1300,680 1600,1000" fill="#e2dccb"/>
+<rect x="300" y="150" width="1000" height="530" fill="url(#bw)"/>
+<polygon points="0,1000 300,680 1300,680 1600,1000" fill="url(#fl)"/>
+<!-- wood planks -->
+<g stroke="#b58c58" stroke-width="3" opacity=".7">
+<line x1="300" y1="680" x2="0" y2="1000"/><line x1="425" y1="680" x2="200" y2="1000"/><line x1="550" y1="680" x2="400" y2="1000"/><line x1="675" y1="680" x2="600" y2="1000"/><line x1="800" y1="680" x2="800" y2="1000"/><line x1="925" y1="680" x2="1000" y2="1000"/><line x1="1050" y1="680" x2="1200" y2="1000"/><line x1="1175" y1="680" x2="1400" y2="1000"/><line x1="1300" y1="680" x2="1600" y2="1000"/>
+</g>
+<!-- skirting -->
+<rect x="300" y="664" width="1000" height="16" fill="#ffffff"/>
+<polygon points="0,1000 300,680 300,664 0,975" fill="#f6f3ea"/>
+<polygon points="1600,1000 1300,680 1300,664 1600,975" fill="#f1eee4"/>
+<!-- window (same place in both pictures) -->
+<rect x="420" y="230" width="340" height="290" fill="#ffffff"/>
+<rect x="434" y="244" width="312" height="262" fill="url(#sky)"/>
+<rect x="586" y="244" width="8" height="262" fill="#ffffff"/>
+<rect x="434" y="371" width="312" height="8" fill="#ffffff"/>
+<circle cx="690" cy="300" r="26" fill="#ffe9a3"/>
+<!-- light sheer curtains, pulled open -->
+<rect x="396" y="212" width="388" height="10" rx="5" fill="#b9b3a3"/>
+<path d="M400 222 h44 c-4 150 6 300 -6 440 h-38 z" fill="#ffffff" opacity=".92"/>
+<path d="M780 222 h-44 c4 150 -6 300 6 440 h38 z" fill="#ffffff" opacity=".92"/>
+<path d="M420 222 v440 M760 222 v440" stroke="#e3ded0" stroke-width="3" fill="none"/>
+<!-- sunlight on the floor -->
+<polygon points="470,700 760,700 700,860 330,860" fill="#fff3c9" opacity=".45"/>
+<!-- door on the right wall, repainted -->
+<polygon points="1400,306 1500,303 1500,893 1400,787" fill="#ffffff"/>
+<polygon points="1412,322 1488,320 1488,872 1412,776" fill="none" stroke="#dcd6c6" stroke-width="5"/>
+<circle cx="1420" cy="560" r="7" fill="#0F85DB"/>
+<!-- pendant lamp -->
+<line x1="800" y1="60" x2="800" y2="150" stroke="#55606a" stroke-width="4"/>
+<circle cx="800" cy="215" r="110" fill="url(#glow)"/>
+<path d="M740 215 q60 -90 120 0 z" fill="#0F85DB"/>
+<ellipse cx="800" cy="215" rx="60" ry="9" fill="#ffe9a3"/>
+<!-- rug -->
+<polygon points="520,760 1140,760 1260,930 420,930" fill="#F2EEE2"/>
+<polygon points="548,776 1118,776 1218,914 462,914" fill="none" stroke="#3CC261" stroke-width="6"/>
+<!-- new sofa -->
+<rect x="820" y="470" width="400" height="120" rx="18" fill="#0F85DB"/>
+<rect x="800" y="520" width="60" height="150" rx="18" fill="#0b6fb8"/>
+<rect x="1180" y="520" width="60" height="150" rx="18" fill="#0b6fb8"/>
+<rect x="850" y="565" width="340" height="80" rx="12" fill="#2a97e6"/>
+<line x1="1020" y1="565" x2="1020" y2="645" stroke="#0b6fb8" stroke-width="4"/>
+<rect x="850" y="640" width="340" height="40" fill="#0b6fb8"/>
+<rect x="840" y="680" width="14" height="24" fill="#b58c58"/><rect x="1186" y="680" width="14" height="24" fill="#b58c58"/>
+<rect x="872" y="510" width="84" height="74" rx="14" fill="#3CC261"/>
+<rect x="1088" y="510" width="84" height="74" rx="14" fill="#F2EEE2"/>
+<!-- plant where the boxes were -->
+<polygon points="352,640 448,640 434,712 366,712" fill="#ffffff"/>
+<rect x="346" y="630" width="108" height="14" rx="6" fill="#ece7d9"/>
+<g fill="#3CC261"><ellipse cx="400" cy="560" rx="18" ry="74"/><ellipse cx="362" cy="580" rx="16" ry="62" transform="rotate(-28 362 580)"/><ellipse cx="438" cy="580" rx="16" ry="62" transform="rotate(28 438 580)"/><ellipse cx="338" cy="612" rx="13" ry="44" transform="rotate(-52 338 612)"/><ellipse cx="462" cy="612" rx="13" ry="44" transform="rotate(52 462 612)"/></g>
+<!-- framed art, hung straight -->
+<rect x="900" y="250" width="240" height="160" fill="#ffffff" stroke="#b58c58" stroke-width="8"/>
+<polygon points="916,394 990,300 1040,360 1080,320 1124,394" fill="#3CC261"/>
+<circle cx="1090" cy="290" r="16" fill="#ffc94d"/>
+</svg>
