@@ -217,6 +217,7 @@ h2{font-size:clamp(26px,3.4vw,34px);font-weight:800;letter-spacing:-.015em}
 .spaces li .ic{color:var(--accent);margin-top:2px}
 .spaces b{display:block;font-size:15.5px}
 .spaces span{display:block;color:var(--muted);font-size:14.5px;margin-top:2px}
+.keeps{grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr))}
 @media (max-width:759px){ .collab{scroll-margin-top:118px} }
 .cover{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin-top:30px}
 .cover h3{font-size:18px;font-weight:800;margin-bottom:4px}
