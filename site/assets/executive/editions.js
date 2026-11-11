@@ -76,7 +76,7 @@ const ic = (n, cls = '') => `<svg class="ic ${cls}" viewBox="0 0 24 24" aria-hid
 const HAND_D = 'M9 4.5a2.5 2.5 0 0 1 5 0V12.5a2.25 2.25 0 0 1 4.5 0V13.5a2.25 2.25 0 0 1 4.5 0V15a1.75 1.75 0 0 1 3.5 0V22c0 4-3 7-7 7h-4c-2.3 0-3.9-1-5.2-2.6L4.2 19.3a1.9 1.9 0 0 1 2.8-2.5L9 18.6Z';
 const HAND_K = 'M14 12.5V16M18.5 13.5V16.5M23 15V17.5';
 const handSvg = (fill, line, size) => `<svg xmlns="http://www.w3.org/2000/svg"${size ? ` width="${size}" height="${size}"` : ''} viewBox="0 0 32 32"><path d="${HAND_D}" fill="${fill}" stroke="${line}" stroke-width="1.6" stroke-linejoin="round"/><path d="${HAND_K}" fill="none" stroke="${line}" stroke-width="1.3" stroke-linecap="round"/></svg>`;
-const handIcon = cls => `<svg class="ic ${cls || ''}" viewBox="0 0 32 32" aria-hidden="true" style="stroke-width:2"><path d="${HAND_D}"/><path d="${HAND_K}"/></svg>`;
+const handIcon = cls => `<svg class="ic hand-ic ${cls || ''}" viewBox="0 0 32 32" aria-hidden="true"><path d="${HAND_D}"/><path d="${HAND_K}"/></svg>`;
 
 /* ---------- choices kept on this device only ---------- */
 const KEY = 'hfl-exec-programme';
@@ -304,10 +304,10 @@ function renderFixed(){
   $('#facts').innerHTML = [['cal','1 to 4 years'],['clock','About 10 to 12 hours a week'],['hybrid','Online, hybrid or at a centre'],['mic','Speak or type']]
     .map(f => `<li>${ic(f[0],'sm')}${esc(f[1])}</li>`).join('');
   $('#ladderCap').innerHTML = `${ic('info','sm')}<span>Each edition includes the one below it. Choose one to open it.</span>`;
-  $('#ladder').innerHTML = EDITIONS.map(e => `<button class="rung" type="button" data-rung="${e.n}" aria-pressed="false" style="--h:${40 + (e.n - 1) * 20}%;--wv:${64 + (e.n - 1) * 12}%;--k:${10 + e.n * 9}%">
+  $('#ladder').innerHTML = EDITIONS.map(e => `<button class="rung" type="button" data-rung="${e.n}" aria-pressed="false">
       <span class="r-ed">Edition ${e.n}</span><span class="r-yr">${esc(e.years)}</span><span class="r-t">${esc(e.short)}</span><span class="r-pp">${e.pp} points</span></button>`).join('');
   $('#edCaps').innerHTML = EDITIONS.map(e => `<button class="cap" type="button" data-ed="${e.n}" aria-pressed="false">Edition ${e.n} · ${esc(e.years)}</button>`).join('');
-  $('#spans').innerHTML = EDITIONS.map(e => `<button class="span" type="button" data-ed="${e.n}" aria-pressed="false" style="--w:${e.n * 25}%"><span>Edition ${e.n}</span><small>${esc(e.span.replace('Months ', 'months '))}</small></button>`).join('');
+  $('#spans').innerHTML = EDITIONS.map(e => `<button class="span" type="button" data-ed="${e.n}" aria-pressed="false"><span>Edition ${e.n}</span><small>${esc(e.span.replace('Months ', 'months '))}</small></button>`).join('');
   $('#yearCards').innerHTML = YEARS.map(y => `<article class="year" data-year="${y.n}">
       <span class="m">Year ${y.n} · ${esc(y.m)}</span><h3>${esc(y.title)}</h3>
       <ul>${y.items.map(i => `<li>${ic(i[0],'sm')}<span>${esc(i[1])}</span></li>`).join('')}</ul>
@@ -366,10 +366,10 @@ function renderEdition(){
     <div class="ed-body">
       <div><h4>${ic('learn','sm')}What you study</h4><p>${esc(e.study)}</p></div>
       <div><h4>${ic('doc','sm')}Your business plan</h4><p>${esc(e.plan)}</p></div>
-      <div><h4>${ic('badge','sm')}You finish with</h4><p>${esc(e.finish)}</p><p class="muted" style="margin-top:10px;font-size:14px"><b>Who can join.</b> ${esc(e.entry)}</p></div>
+      <div><h4>${ic('badge','sm')}You finish with</h4><p>${esc(e.finish)}</p><p class="muted entry-note"><b>Who can join.</b> ${esc(e.entry)}</p></div>
     </div>
     <div class="mods">
-      ${showMods ? blockHtml(blocks) + (later.length ? blockHtml(later) : '') + `<p class="muted" style="font-size:14px">The business plan practicum, <span class="code">MC-604</span>, runs through every year.</p>` : ''}
+      ${showMods ? blockHtml(blocks) + (later.length ? blockHtml(later) : '') + `<p class="muted fine">The business plan practicum, <span class="code">MC-604</span>, runs through every year.</p>` : ''}
       <div class="ed-act">
         <button class="cap more" type="button" data-mods="${showMods ? 0 : 1}" aria-expanded="${showMods}">${showMods ? 'Hide the modules' : `See the ${count} modules${later.length ? ' and the later years' : ''}`}</button>
       </div>
@@ -410,7 +410,7 @@ function renderUnit(){
   let body = '';
   if (i === 0) body = `<p class="u-text">${esc(UNIT.hook)}</p><p class="u-small">${ic('clock','sm')} About five minutes. Use Next, or choose any part above.</p>`;
   else if (i === 1) body = `<p class="u-text sm">${esc(UNIT.idea)}</p>${LOOP_SVG}`;
-  else if (i === 2) body = `<div class="sector-pick"><p class="u-small" style="margin-bottom:8px">Your sector</p><div class="caps" id="unitSectors"></div></div>
+  else if (i === 2) body = `<div class="sector-pick"><p class="u-small">Your sector</p><div class="caps" id="unitSectors"></div></div>
       <p class="u-text">${esc(ex[0])}</p>${ex[1] ? `<div class="note">${ic('shield','sm')}<span>${esc(ex[1])}</span></div>` : ''}`;
   else if (i === 3) body = `<p class="u-text">${esc(UNIT.try_it_today)}</p><p class="u-small">This is the Do part: on the live site you keep your evidence as a photo, a voice note or a line of text.</p>`;
   else if (i === 4) body = `<p class="u-text">${esc(UNIT.quiet_caution)}</p><p class="u-small">Every unit carries one quiet caution: what not to do, even when you could.</p>`;
@@ -431,7 +431,7 @@ function renderUnit(){
     <div class="steps" role="group" aria-label="Parts of the unit">${STEPS.map((s, j) => `<button class="step${U.seen.has(j) && j !== i ? ' done' : ''}" type="button" data-step="${j}"${j === i ? ' aria-current="step"' : ''}><b>${j + 1}</b>${esc(s)}</button>`).join('')}</div>
     <div class="u-body">${body}</div>
     <div class="u-nav">
-      <button class="btn quiet small" type="button" data-unav="-1"${i === 0 ? ' disabled style="visibility:hidden"' : ''}>${ic('chevl','sm')}Back</button>
+      <button class="btn quiet small${i === 0 ? ' is-hidden' : ''}" type="button" data-unav="-1"${i === 0 ? ' disabled' : ''}>${ic('chevl','sm')}Back</button>
       ${i < STEPS.length - 1 ? `<button class="btn primary small" type="button" data-unav="1">Next: ${esc(STEPS[i + 1])}${ic('chev','sm')}</button>` : `<a class="btn primary small" href="#register">${ic('send','sm')}Register interest</a>`}
     </div>`;
   if (i === 2) $('#unitSectors').innerHTML = SECTORS.filter(s => ['other','retail','healthcare','construction','software','agriculture'].includes(s[0]) || s[0] === S.sector)

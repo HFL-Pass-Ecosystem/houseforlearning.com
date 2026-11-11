@@ -278,6 +278,22 @@ textarea.box{width:100%;min-height:96px;border:1px solid var(--line);border-radi
 .path span{display:block;color:var(--muted);font-size:13.5px}
 .path small{font:600 11.5px var(--f-mono);color:var(--muted);white-space:nowrap}
 .path li.reach .dot{background:var(--accent);color:var(--accent-ink)}
+.path-h{font-size:18px;font-weight:800;margin-bottom:10px}
+.more-row{margin-top:10px}
+.note.gap-top{margin-top:12px}
+.ic.hand-ic{stroke-width:2}
+.ed-body .entry-note{margin-top:10px;font-size:14px}
+.fine{font-size:14px}
+.sector-pick .u-small{margin-bottom:8px}
+.u-nav .is-hidden{visibility:hidden}
+.rung[data-rung="1"]{--h:40%;--wv:64%;--k:19%}
+.rung[data-rung="2"]{--h:60%;--wv:76%;--k:28%}
+.rung[data-rung="3"]{--h:80%;--wv:88%;--k:37%}
+.rung[data-rung="4"]{--h:100%;--wv:100%;--k:46%}
+.span[data-ed="1"]{--w:25%}
+.span[data-ed="2"]{--w:50%}
+.span[data-ed="3"]{--w:75%}
+.span[data-ed="4"]{--w:100%}
 @media (max-width:900px){ .leave{grid-template-columns:1fr} }
 
 /* ---------- fees ---------- */
