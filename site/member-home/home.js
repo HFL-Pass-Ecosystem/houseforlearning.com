@@ -217,7 +217,7 @@ function listView(v){
  if(DELIVERY[v]){var f=state.filter||'all';
   tabs='<div class="modes">'+['all'].concat(MODEKEYS).map(function(k){return '<button class="mode'+(f===k?' on':'')+'" data-filter="'+k+'">'+(k==='all'?'All':MODES[k].t)+'</button>'}).join('')+'</div>';
   rows=rows.map(function(r,i){return r.concat([MODEKEYS[i%3]])}).filter(function(r){return f==='all'||r[2]===f});}
- return '<div class="panel"><h1>'+esc(d.t)+'</h1><p class="sub">Demo data. Real items arrive when this is connected.</p>'+(v==='tools'?'<p><a class="btn" id="openTools" href="tools/index.html">Open the Tools page (8 working tools)</a></p>':'')+tabs+'<div class="list">'
+ return '<div class="panel"><h1>'+esc(d.t)+'</h1><p class="sub">Demo data. Real items arrive when this is connected.</p>'+(v==='tools'?'<p><a class="btn" id="openTools" href="tools/index.html">Open the Tools page (9 working tools)</a></p>':'')+tabs+'<div class="list">'
   +rows.map(function(r){return '<div><span>'+esc(r[0])+(r[2]?' <span class="tag">'+MODES[r[2]].t+'</span>':'')+'</span><span class="tag">'+esc(r[1])+'</span></div>'}).join('')+(rows.length?'':'<div>Nothing here yet in this mode.</div>')+'</div><p><button class="btn o" data-v="home">← Back to home</button></p></div>';
 }
 function devicesView(){
