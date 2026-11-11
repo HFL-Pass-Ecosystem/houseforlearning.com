@@ -1,0 +1,2662 @@
+{
+ "version": "0.1",
+ "status": "DRAFT: names to be confirmed by the owner",
+ "counts": {
+  "sectors": 50,
+  "current": 30,
+  "growing": 20,
+  "roles": 1200
+ },
+ "groups": [
+  {
+   "code": "tech",
+   "name": "Large technology sectors",
+   "sectors": [
+    {
+     "code": "edtech",
+     "name": "Education technology",
+     "covers": "Tools, platforms and content that help people learn, from short units to full pathways.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "learning-platforms",
+       "name": "Learning platforms",
+       "specs": [
+        {
+         "code": "course-authoring",
+         "name": "Course authoring"
+        },
+        {
+         "code": "learning-analytics",
+         "name": "Learning analytics"
+        }
+       ]
+      },
+      {
+       "code": "digital-content",
+       "name": "Digital content",
+       "specs": [
+        {
+         "code": "video-and-animation",
+         "name": "Video and animation"
+        },
+        {
+         "code": "assessment-design",
+         "name": "Assessment design"
+        }
+       ]
+      },
+      {
+       "code": "learner-support",
+       "name": "Learner support",
+       "specs": [
+        {
+         "code": "study-coaching",
+         "name": "Study coaching"
+        },
+        {
+         "code": "platform-support",
+         "name": "Platform support"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "entech",
+     "name": "Energy technology",
+     "covers": "Clean power, storage, efficiency and the skills to install and look after them safely.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "solar-and-storage",
+       "name": "Solar and storage",
+       "specs": [
+        {
+         "code": "solar-pv-design",
+         "name": "Solar PV design"
+        },
+        {
+         "code": "battery-storage",
+         "name": "Battery storage"
+        }
+       ]
+      },
+      {
+       "code": "grid-and-power",
+       "name": "Grid and power",
+       "specs": [
+        {
+         "code": "substation-and-cables",
+         "name": "Substation and cables"
+        },
+        {
+         "code": "power-quality",
+         "name": "Power quality"
+        }
+       ]
+      },
+      {
+       "code": "efficiency-and-safety",
+       "name": "Efficiency and safety",
+       "specs": [
+        {
+         "code": "energy-audit",
+         "name": "Energy audit"
+        },
+        {
+         "code": "electrical-safety",
+         "name": "Electrical safety"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "fintech",
+     "name": "Financial technology",
+     "covers": "Simple, fair digital money tools for members, small firms and projects.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "payments",
+       "name": "Payments",
+       "specs": [
+        {
+         "code": "bank-and-upi-rails",
+         "name": "Bank and UPI rails"
+        },
+        {
+         "code": "payment-risk",
+         "name": "Payment risk"
+        }
+       ]
+      },
+      {
+       "code": "lending-and-savings",
+       "name": "Lending and savings",
+       "specs": [
+        {
+         "code": "small-loan-design",
+         "name": "Small-loan design"
+        },
+        {
+         "code": "savings-products",
+         "name": "Savings products"
+        }
+       ]
+      },
+      {
+       "code": "money-data",
+       "name": "Money data",
+       "specs": [
+        {
+         "code": "fraud-analytics",
+         "name": "Fraud analytics"
+        },
+        {
+         "code": "regulatory-reporting",
+         "name": "Regulatory reporting"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "healthtech",
+     "name": "Health technology",
+     "covers": "Digital help for care, wellbeing and health learning, with privacy built in.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "digital-care",
+       "name": "Digital care",
+       "specs": [
+        {
+         "code": "tele-care",
+         "name": "Tele-care"
+        },
+        {
+         "code": "health-records",
+         "name": "Health records"
+        }
+       ]
+      },
+      {
+       "code": "devices",
+       "name": "Devices",
+       "specs": [
+        {
+         "code": "device-testing",
+         "name": "Device testing"
+        },
+        {
+         "code": "remote-monitoring",
+         "name": "Remote monitoring"
+        }
+       ]
+      },
+      {
+       "code": "health-data",
+       "name": "Health data",
+       "specs": [
+        {
+         "code": "clinical-analytics",
+         "name": "Clinical analytics"
+        },
+        {
+         "code": "privacy-and-consent",
+         "name": "Privacy and consent"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "emtech",
+     "name": "Emerging technology",
+     "covers": "New tools such as AI, data and automation, tested carefully before wide use.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "ai",
+       "name": "AI",
+       "specs": [
+        {
+         "code": "ai-product-work",
+         "name": "AI product work"
+        },
+        {
+         "code": "ai-safety-and-testing",
+         "name": "AI safety and testing"
+        }
+       ]
+      },
+      {
+       "code": "automation",
+       "name": "Automation",
+       "specs": [
+        {
+         "code": "process-automation",
+         "name": "Process automation"
+        },
+        {
+         "code": "robotics-cells",
+         "name": "Robotics cells"
+        }
+       ]
+      },
+      {
+       "code": "data-science",
+       "name": "Data science",
+       "specs": [
+        {
+         "code": "machine-learning",
+         "name": "Machine learning"
+        },
+        {
+         "code": "data-engineering",
+         "name": "Data engineering"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "agritech",
+     "name": "Agriculture technology",
+     "covers": "Better farming through data, water care, training and fair links to markets.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "smart-farming",
+       "name": "Smart farming",
+       "specs": [
+        {
+         "code": "sensors-and-drones",
+         "name": "Sensors and drones"
+        },
+        {
+         "code": "irrigation-control",
+         "name": "Irrigation control"
+        }
+       ]
+      },
+      {
+       "code": "farm-markets",
+       "name": "Farm markets",
+       "specs": [
+        {
+         "code": "produce-trading",
+         "name": "Produce trading"
+        },
+        {
+         "code": "cold-chain",
+         "name": "Cold chain"
+        }
+       ]
+      },
+      {
+       "code": "farm-learning",
+       "name": "Farm learning",
+       "specs": [
+        {
+         "code": "extension-training",
+         "name": "Extension training"
+        },
+        {
+         "code": "soil-and-crop-health",
+         "name": "Soil and crop health"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "semiconductors-hdi",
+     "name": "Semiconductors and HDI electronics",
+     "covers": "Chip packaging, HDI boards and the skills behind them.",
+     "stage": "growing",
+     "subs": [
+      {
+       "code": "packaging",
+       "name": "Packaging",
+       "specs": [
+        {
+         "code": "chip-packaging",
+         "name": "Chip packaging"
+        },
+        {
+         "code": "test-and-yield",
+         "name": "Test and yield"
+        }
+       ]
+      },
+      {
+       "code": "hdi-boards",
+       "name": "HDI boards",
+       "specs": [
+        {
+         "code": "board-design",
+         "name": "Board design"
+        },
+        {
+         "code": "board-fabrication",
+         "name": "Board fabrication"
+        }
+       ]
+      },
+      {
+       "code": "fab-support",
+       "name": "Fab support",
+       "specs": [
+        {
+         "code": "cleanroom-operations",
+         "name": "Cleanroom operations"
+        },
+        {
+         "code": "materials-supply",
+         "name": "Materials supply"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "nanotech",
+     "name": "Nanotechnology",
+     "covers": "Materials and devices at very small scale, studied safely in labs.",
+     "stage": "growing",
+     "subs": [
+      {
+       "code": "materials",
+       "name": "Materials",
+       "specs": [
+        {
+         "code": "nano-coatings",
+         "name": "Nano-coatings"
+        },
+        {
+         "code": "nano-composites",
+         "name": "Nano-composites"
+        }
+       ]
+      },
+      {
+       "code": "devices",
+       "name": "Devices",
+       "specs": [
+        {
+         "code": "sensors",
+         "name": "Sensors"
+        },
+        {
+         "code": "energy-materials",
+         "name": "Energy materials"
+        }
+       ]
+      },
+      {
+       "code": "lab-safety",
+       "name": "Lab safety",
+       "specs": [
+        {
+         "code": "lab-operations",
+         "name": "Lab operations"
+        },
+        {
+         "code": "standards-and-testing",
+         "name": "Standards and testing"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "digital-twins",
+     "name": "Digital twins",
+     "covers": "Live computer models of buildings, plants and towns used to plan and save energy.",
+     "stage": "growing",
+     "subs": [
+      {
+       "code": "modelling",
+       "name": "Modelling",
+       "specs": [
+        {
+         "code": "building-models",
+         "name": "Building models"
+        },
+        {
+         "code": "plant-models",
+         "name": "Plant models"
+        }
+       ]
+      },
+      {
+       "code": "live-data",
+       "name": "Live data",
+       "specs": [
+        {
+         "code": "sensor-integration",
+         "name": "Sensor integration"
+        },
+        {
+         "code": "simulation",
+         "name": "Simulation"
+        }
+       ]
+      },
+      {
+       "code": "use-in-cities",
+       "name": "Use in cities",
+       "specs": [
+        {
+         "code": "town-planning-twins",
+         "name": "Town planning twins"
+        },
+        {
+         "code": "asset-care",
+         "name": "Asset care"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "connectivity",
+     "name": "Connectivity and telecom",
+     "covers": "Networks that link campuses, homes and satellites, including rural reach.",
+     "stage": "growing",
+     "subs": [
+      {
+       "code": "networks",
+       "name": "Networks",
+       "specs": [
+        {
+         "code": "fibre-and-wireless",
+         "name": "Fibre and wireless"
+        },
+        {
+         "code": "network-operations",
+         "name": "Network operations"
+        }
+       ]
+      },
+      {
+       "code": "campus-links",
+       "name": "Campus links",
+       "specs": [
+        {
+         "code": "campus-networks",
+         "name": "Campus networks"
+        },
+        {
+         "code": "satellite-links",
+         "name": "Satellite links"
+        }
+       ]
+      },
+      {
+       "code": "services",
+       "name": "Services",
+       "specs": [
+        {
+         "code": "field-installation",
+         "name": "Field installation"
+        },
+        {
+         "code": "network-security",
+         "name": "Network security"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "enterprise",
+   "name": "Enterprise and growth",
+   "sectors": [
+    {
+     "code": "industry",
+     "name": "Industry",
+     "covers": "Engineering services and industrial projects, delivered with qualified partners.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "engineering-services",
+       "name": "Engineering services",
+       "specs": [
+        {
+         "code": "design-engineering",
+         "name": "Design engineering"
+        },
+        {
+         "code": "project-management",
+         "name": "Project management"
+        }
+       ]
+      },
+      {
+       "code": "plant-operations",
+       "name": "Plant operations",
+       "specs": [
+        {
+         "code": "maintenance",
+         "name": "Maintenance"
+        },
+        {
+         "code": "quality-control",
+         "name": "Quality control"
+        }
+       ]
+      },
+      {
+       "code": "industrial-safety",
+       "name": "Industrial safety",
+       "specs": [
+        {
+         "code": "process-safety",
+         "name": "Process safety"
+        },
+        {
+         "code": "compliance-audit",
+         "name": "Compliance audit"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "sme",
+     "name": "Small and growing businesses",
+     "covers": "Help for small firms to organise their work, learn, find partners and trade.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "starting-up",
+       "name": "Starting up",
+       "specs": [
+        {
+         "code": "business-planning",
+         "name": "Business planning"
+        },
+        {
+         "code": "funding-readiness",
+         "name": "Funding readiness"
+        }
+       ]
+      },
+      {
+       "code": "running-the-firm",
+       "name": "Running the firm",
+       "specs": [
+        {
+         "code": "bookkeeping",
+         "name": "Bookkeeping"
+        },
+        {
+         "code": "team-management",
+         "name": "Team management"
+        }
+       ]
+      },
+      {
+       "code": "growing",
+       "name": "Growing",
+       "specs": [
+        {
+         "code": "partnerships",
+         "name": "Partnerships"
+        },
+        {
+         "code": "export-readiness",
+         "name": "Export readiness"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "smart-cities",
+     "name": "Smart cities and townships",
+     "covers": "Planned places where learning, work, energy and services are joined up.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "planning",
+       "name": "Planning",
+       "specs": [
+        {
+         "code": "urban-planning",
+         "name": "Urban planning"
+        },
+        {
+         "code": "infrastructure-design",
+         "name": "Infrastructure design"
+        }
+       ]
+      },
+      {
+       "code": "city-services",
+       "name": "City services",
+       "specs": [
+        {
+         "code": "smart-utilities",
+         "name": "Smart utilities"
+        },
+        {
+         "code": "mobility-control",
+         "name": "Mobility control"
+        }
+       ]
+      },
+      {
+       "code": "citizen-services",
+       "name": "Citizen services",
+       "specs": [
+        {
+         "code": "citizen-platforms",
+         "name": "Citizen platforms"
+        },
+        {
+         "code": "community-programmes",
+         "name": "Community programmes"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "retail",
+     "name": "Retail trade",
+     "covers": "Shops, sellers and marketplaces, online and on the ground.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "shop-floor",
+       "name": "Shop floor",
+       "specs": [
+        {
+         "code": "store-operations",
+         "name": "Store operations"
+        },
+        {
+         "code": "visual-merchandising",
+         "name": "Visual merchandising"
+        }
+       ]
+      },
+      {
+       "code": "online-selling",
+       "name": "Online selling",
+       "specs": [
+        {
+         "code": "marketplace-selling",
+         "name": "Marketplace selling"
+        },
+        {
+         "code": "order-fulfilment",
+         "name": "Order fulfilment"
+        }
+       ]
+      },
+      {
+       "code": "buying",
+       "name": "Buying",
+       "specs": [
+        {
+         "code": "category-buying",
+         "name": "Category buying"
+        },
+        {
+         "code": "supplier-relations",
+         "name": "Supplier relations"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "commercial",
+     "name": "Commercial enterprise",
+     "covers": "Business services, offices, events and shared workspaces.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "offices-and-events",
+       "name": "Offices and events",
+       "specs": [
+        {
+         "code": "office-management",
+         "name": "Office management"
+        },
+        {
+         "code": "event-delivery",
+         "name": "Event delivery"
+        }
+       ]
+      },
+      {
+       "code": "business-services",
+       "name": "Business services",
+       "specs": [
+        {
+         "code": "customer-service",
+         "name": "Customer service"
+        },
+        {
+         "code": "contracts-and-admin",
+         "name": "Contracts and admin"
+        }
+       ]
+      },
+      {
+       "code": "shared-workspaces",
+       "name": "Shared workspaces",
+       "specs": [
+        {
+         "code": "workspace-operations",
+         "name": "Workspace operations"
+        },
+        {
+         "code": "member-success",
+         "name": "Member success"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "data",
+     "name": "Digital customer experience and data",
+     "covers": "Customer experience, records and analytics that help decisions, with consent.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "customer-experience",
+       "name": "Customer experience",
+       "specs": [
+        {
+         "code": "journey-design",
+         "name": "Journey design"
+        },
+        {
+         "code": "service-analytics",
+         "name": "Service analytics"
+        }
+       ]
+      },
+      {
+       "code": "records-and-data",
+       "name": "Records and data",
+       "specs": [
+        {
+         "code": "data-stewardship",
+         "name": "Data stewardship"
+        },
+        {
+         "code": "master-data",
+         "name": "Master data"
+        }
+       ]
+      },
+      {
+       "code": "insight",
+       "name": "Insight",
+       "specs": [
+        {
+         "code": "dashboards",
+         "name": "Dashboards"
+        },
+        {
+         "code": "decision-support",
+         "name": "Decision support"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "smart-manufacturing",
+     "name": "Smart manufacturing",
+     "covers": "Clean, automated factories run with partners, with people trained on site.",
+     "stage": "growing",
+     "subs": [
+      {
+       "code": "factory-automation",
+       "name": "Factory automation",
+       "specs": [
+        {
+         "code": "line-automation",
+         "name": "Line automation"
+        },
+        {
+         "code": "industrial-controls",
+         "name": "Industrial controls"
+        }
+       ]
+      },
+      {
+       "code": "quality",
+       "name": "Quality",
+       "specs": [
+        {
+         "code": "inspection-and-testing",
+         "name": "Inspection and testing"
+        },
+        {
+         "code": "process-improvement",
+         "name": "Process improvement"
+        }
+       ]
+      },
+      {
+       "code": "production-planning",
+       "name": "Production planning",
+       "specs": [
+        {
+         "code": "scheduling",
+         "name": "Scheduling"
+        },
+        {
+         "code": "materials-planning",
+         "name": "Materials planning"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "townships-parks",
+     "name": "Townships and business parks",
+     "covers": "Planning, building and running zero-carbon townships and business parks.",
+     "stage": "growing",
+     "subs": [
+      {
+       "code": "planning-and-build",
+       "name": "Planning and build",
+       "specs": [
+        {
+         "code": "site-planning",
+         "name": "Site planning"
+        },
+        {
+         "code": "construction-management",
+         "name": "Construction management"
+        }
+       ]
+      },
+      {
+       "code": "park-operations",
+       "name": "Park operations",
+       "specs": [
+        {
+         "code": "facility-management",
+         "name": "Facility management"
+        },
+        {
+         "code": "tenant-services",
+         "name": "Tenant services"
+        }
+       ]
+      },
+      {
+       "code": "zero-carbon-systems",
+       "name": "Zero-carbon systems",
+       "specs": [
+        {
+         "code": "on-site-power",
+         "name": "On-site power"
+        },
+        {
+         "code": "water-and-waste",
+         "name": "Water and waste"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "logistics",
+     "name": "Logistics and supply chains",
+     "covers": "Moving goods fairly and with low emissions, from supplier to member.",
+     "stage": "growing",
+     "subs": [
+      {
+       "code": "warehousing",
+       "name": "Warehousing",
+       "specs": [
+        {
+         "code": "warehouse-operations",
+         "name": "Warehouse operations"
+        },
+        {
+         "code": "inventory-control",
+         "name": "Inventory control"
+        }
+       ]
+      },
+      {
+       "code": "transport",
+       "name": "Transport",
+       "specs": [
+        {
+         "code": "fleet-operations",
+         "name": "Fleet operations"
+        },
+        {
+         "code": "route-planning",
+         "name": "Route planning"
+        }
+       ]
+      },
+      {
+       "code": "supply-planning",
+       "name": "Supply planning",
+       "specs": [
+        {
+         "code": "demand-planning",
+         "name": "Demand planning"
+        },
+        {
+         "code": "trade-and-customs",
+         "name": "Trade and customs"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "aerospace",
+     "name": "Aerospace",
+     "covers": "Aviation and space engineering skills and supply, with qualified partners.",
+     "stage": "growing",
+     "subs": [
+      {
+       "code": "aircraft-systems",
+       "name": "Aircraft systems",
+       "specs": [
+        {
+         "code": "avionics",
+         "name": "Avionics"
+        },
+        {
+         "code": "structures",
+         "name": "Structures"
+        }
+       ]
+      },
+      {
+       "code": "maintenance",
+       "name": "Maintenance",
+       "specs": [
+        {
+         "code": "line-maintenance",
+         "name": "Line maintenance"
+        },
+        {
+         "code": "quality-assurance",
+         "name": "Quality assurance"
+        }
+       ]
+      },
+      {
+       "code": "space-and-supply",
+       "name": "Space and supply",
+       "specs": [
+        {
+         "code": "space-systems",
+         "name": "Space systems"
+        },
+        {
+         "code": "parts-supply",
+         "name": "Parts supply"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "cpd",
+   "name": "Professional growth",
+   "sectors": [
+    {
+     "code": "cpd-engineering",
+     "name": "Engineers",
+     "covers": "Continuing development for engineers, with practice and evidence.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "practice-areas",
+       "name": "Practice areas",
+       "specs": [
+        {
+         "code": "electrical-and-power",
+         "name": "Electrical and power"
+        },
+        {
+         "code": "mechanical-and-process",
+         "name": "Mechanical and process"
+        }
+       ]
+      },
+      {
+       "code": "professional-growth",
+       "name": "Professional growth",
+       "specs": [
+        {
+         "code": "chartership-and-evidence",
+         "name": "Chartership and evidence"
+        },
+        {
+         "code": "mentoring",
+         "name": "Mentoring"
+        }
+       ]
+      },
+      {
+       "code": "safety-and-standards",
+       "name": "Safety and standards",
+       "specs": [
+        {
+         "code": "standards-use",
+         "name": "Standards use"
+        },
+        {
+         "code": "site-safety",
+         "name": "Site safety"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "cme-medicine",
+     "name": "Doctors",
+     "covers": "Continuing medical education, run with recognised providers.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "clinical-updates",
+       "name": "Clinical updates",
+       "specs": [
+        {
+         "code": "case-based-learning",
+         "name": "Case-based learning"
+        },
+        {
+         "code": "procedure-skills",
+         "name": "Procedure skills"
+        }
+       ]
+      },
+      {
+       "code": "specialities",
+       "name": "Specialities",
+       "specs": [
+        {
+         "code": "primary-care",
+         "name": "Primary care"
+        },
+        {
+         "code": "specialist-care",
+         "name": "Specialist care"
+        }
+       ]
+      },
+      {
+       "code": "practice-quality",
+       "name": "Practice quality",
+       "specs": [
+        {
+         "code": "audit-and-safety",
+         "name": "Audit and safety"
+        },
+        {
+         "code": "patient-communication",
+         "name": "Patient communication"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "cpd-nursing",
+     "name": "Nurses and medical staff",
+     "covers": "Ongoing learning for nurses and the wider care team.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "bedside-care",
+       "name": "Bedside care",
+       "specs": [
+        {
+         "code": "acute-care",
+         "name": "Acute care"
+        },
+        {
+         "code": "community-care",
+         "name": "Community care"
+        }
+       ]
+      },
+      {
+       "code": "skills-lab",
+       "name": "Skills lab",
+       "specs": [
+        {
+         "code": "clinical-skills",
+         "name": "Clinical skills"
+        },
+        {
+         "code": "infection-control",
+         "name": "Infection control"
+        }
+       ]
+      },
+      {
+       "code": "leadership",
+       "name": "Leadership",
+       "specs": [
+        {
+         "code": "ward-leadership",
+         "name": "Ward leadership"
+        },
+        {
+         "code": "teaching-and-mentoring",
+         "name": "Teaching and mentoring"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "cpd-teachers",
+     "name": "Teachers",
+     "covers": "Growth for teachers and trainers: planning, coaching and assessment.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "classroom-craft",
+       "name": "Classroom craft",
+       "specs": [
+        {
+         "code": "lesson-planning",
+         "name": "Lesson planning"
+        },
+        {
+         "code": "classroom-coaching",
+         "name": "Classroom coaching"
+        }
+       ]
+      },
+      {
+       "code": "assessment",
+       "name": "Assessment",
+       "specs": [
+        {
+         "code": "assessment-design",
+         "name": "Assessment design"
+        },
+        {
+         "code": "feedback-methods",
+         "name": "Feedback methods"
+        }
+       ]
+      },
+      {
+       "code": "learning-tools",
+       "name": "Learning tools",
+       "specs": [
+        {
+         "code": "digital-teaching",
+         "name": "Digital teaching"
+        },
+        {
+         "code": "inclusive-learning",
+         "name": "Inclusive learning"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "cpe-accounts",
+     "name": "Accountants",
+     "covers": "Continuing education for accounts and finance professionals.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "accounting",
+       "name": "Accounting",
+       "specs": [
+        {
+         "code": "financial-reporting",
+         "name": "Financial reporting"
+        },
+        {
+         "code": "management-accounts",
+         "name": "Management accounts"
+        }
+       ]
+      },
+      {
+       "code": "tax-and-audit",
+       "name": "Tax and audit",
+       "specs": [
+        {
+         "code": "tax-practice",
+         "name": "Tax practice"
+        },
+        {
+         "code": "audit-and-assurance",
+         "name": "Audit and assurance"
+        }
+       ]
+      },
+      {
+       "code": "finance-leadership",
+       "name": "Finance leadership",
+       "specs": [
+        {
+         "code": "budgeting-and-planning",
+         "name": "Budgeting and planning"
+        },
+        {
+         "code": "finance-systems",
+         "name": "Finance systems"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "cpd-sport",
+     "name": "Sport and fitness",
+     "covers": "Coaching, fitness and sport science learning for every level.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "coaching",
+       "name": "Coaching",
+       "specs": [
+        {
+         "code": "team-coaching",
+         "name": "Team coaching"
+        },
+        {
+         "code": "youth-development",
+         "name": "Youth development"
+        }
+       ]
+      },
+      {
+       "code": "fitness-science",
+       "name": "Fitness science",
+       "specs": [
+        {
+         "code": "strength-and-conditioning",
+         "name": "Strength and conditioning"
+        },
+        {
+         "code": "rehabilitation",
+         "name": "Rehabilitation"
+        }
+       ]
+      },
+      {
+       "code": "sport-business",
+       "name": "Sport business",
+       "specs": [
+        {
+         "code": "club-operations",
+         "name": "Club operations"
+        },
+        {
+         "code": "events-and-media",
+         "name": "Events and media"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "cpd-legal",
+     "name": "Legal professionals",
+     "covers": "Continuing learning for lawyers and paralegals, including contract and compliance work.",
+     "stage": "growing",
+     "subs": [
+      {
+       "code": "practice-areas",
+       "name": "Practice areas",
+       "specs": [
+        {
+         "code": "contracts",
+         "name": "Contracts"
+        },
+        {
+         "code": "employment-law",
+         "name": "Employment law"
+        }
+       ]
+      },
+      {
+       "code": "compliance",
+       "name": "Compliance",
+       "specs": [
+        {
+         "code": "data-protection",
+         "name": "Data protection"
+        },
+        {
+         "code": "corporate-compliance",
+         "name": "Corporate compliance"
+        }
+       ]
+      },
+      {
+       "code": "dispute-work",
+       "name": "Dispute work",
+       "specs": [
+        {
+         "code": "mediation",
+         "name": "Mediation"
+        },
+        {
+         "code": "case-preparation",
+         "name": "Case preparation"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "cpd-insurance",
+     "name": "Insurance and risk",
+     "covers": "Risk, insurance and assurance skills for people and projects.",
+     "stage": "growing",
+     "subs": [
+      {
+       "code": "underwriting",
+       "name": "Underwriting",
+       "specs": [
+        {
+         "code": "risk-assessment",
+         "name": "Risk assessment"
+        },
+        {
+         "code": "pricing",
+         "name": "Pricing"
+        }
+       ]
+      },
+      {
+       "code": "claims",
+       "name": "Claims",
+       "specs": [
+        {
+         "code": "claims-handling",
+         "name": "Claims handling"
+        },
+        {
+         "code": "loss-adjusting",
+         "name": "Loss adjusting"
+        }
+       ]
+      },
+      {
+       "code": "risk-advice",
+       "name": "Risk advice",
+       "specs": [
+        {
+         "code": "risk-consulting",
+         "name": "Risk consulting"
+        },
+        {
+         "code": "assurance",
+         "name": "Assurance"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "cpd-public-service",
+     "name": "Public service",
+     "covers": "Learning for people who serve in government and public bodies.",
+     "stage": "growing",
+     "subs": [
+      {
+       "code": "policy",
+       "name": "Policy",
+       "specs": [
+        {
+         "code": "policy-analysis",
+         "name": "Policy analysis"
+        },
+        {
+         "code": "programme-design",
+         "name": "Programme design"
+        }
+       ]
+      },
+      {
+       "code": "service-delivery",
+       "name": "Service delivery",
+       "specs": [
+        {
+         "code": "citizen-services",
+         "name": "Citizen services"
+        },
+        {
+         "code": "public-procurement",
+         "name": "Public procurement"
+        }
+       ]
+      },
+      {
+       "code": "governance",
+       "name": "Governance",
+       "specs": [
+        {
+         "code": "audit-and-integrity",
+         "name": "Audit and integrity"
+        },
+        {
+         "code": "e-government",
+         "name": "E-government"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "cpd-hospitality",
+     "name": "Tourism and hospitality",
+     "covers": "Service, safety and green-stay skills for hotels, travel and events.",
+     "stage": "growing",
+     "subs": [
+      {
+       "code": "hotels",
+       "name": "Hotels",
+       "specs": [
+        {
+         "code": "front-office",
+         "name": "Front office"
+        },
+        {
+         "code": "housekeeping-and-rooms",
+         "name": "Housekeeping and rooms"
+        }
+       ]
+      },
+      {
+       "code": "food-and-beverage",
+       "name": "Food and beverage",
+       "specs": [
+        {
+         "code": "kitchen-craft",
+         "name": "Kitchen craft"
+        },
+        {
+         "code": "restaurant-service",
+         "name": "Restaurant service"
+        }
+       ]
+      },
+      {
+       "code": "travel",
+       "name": "Travel",
+       "specs": [
+        {
+         "code": "tour-operations",
+         "name": "Tour operations"
+        },
+        {
+         "code": "green-stay-management",
+         "name": "Green-stay management"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "sustainability",
+   "name": "Sustainability",
+   "sectors": [
+    {
+     "code": "climate",
+     "name": "Climate action",
+     "covers": "Practical steps to cut emissions and adapt, measured and reported honestly.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "cutting-emissions",
+       "name": "Cutting emissions",
+       "specs": [
+        {
+         "code": "carbon-accounting",
+         "name": "Carbon accounting"
+        },
+        {
+         "code": "energy-transition-planning",
+         "name": "Energy transition planning"
+        }
+       ]
+      },
+      {
+       "code": "adapting",
+       "name": "Adapting",
+       "specs": [
+        {
+         "code": "climate-risk",
+         "name": "Climate risk"
+        },
+        {
+         "code": "resilience-projects",
+         "name": "Resilience projects"
+        }
+       ]
+      },
+      {
+       "code": "reporting",
+       "name": "Reporting",
+       "specs": [
+        {
+         "code": "sustainability-reporting",
+         "name": "Sustainability reporting"
+        },
+        {
+         "code": "community-programmes",
+         "name": "Community programmes"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "water",
+     "name": "Water",
+     "covers": "Clean water, saving water and caring for rivers and wells.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "supply",
+       "name": "Supply",
+       "specs": [
+        {
+         "code": "water-treatment",
+         "name": "Water treatment"
+        },
+        {
+         "code": "network-operations",
+         "name": "Network operations"
+        }
+       ]
+      },
+      {
+       "code": "saving-water",
+       "name": "Saving water",
+       "specs": [
+        {
+         "code": "leak-control",
+         "name": "Leak control"
+        },
+        {
+         "code": "rainwater-and-reuse",
+         "name": "Rainwater and reuse"
+        }
+       ]
+      },
+      {
+       "code": "river-and-well-care",
+       "name": "River and well care",
+       "specs": [
+        {
+         "code": "catchment-care",
+         "name": "Catchment care"
+        },
+        {
+         "code": "water-testing",
+         "name": "Water testing"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "nature",
+     "name": "Nature",
+     "covers": "Restoring land, trees and soil, and learning outdoors.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "land-and-soil",
+       "name": "Land and soil",
+       "specs": [
+        {
+         "code": "soil-restoration",
+         "name": "Soil restoration"
+        },
+        {
+         "code": "agroforestry",
+         "name": "Agroforestry"
+        }
+       ]
+      },
+      {
+       "code": "trees-and-green-space",
+       "name": "Trees and green space",
+       "specs": [
+        {
+         "code": "tree-planting",
+         "name": "Tree planting"
+        },
+        {
+         "code": "urban-greening",
+         "name": "Urban greening"
+        }
+       ]
+      },
+      {
+       "code": "outdoor-learning",
+       "name": "Outdoor learning",
+       "specs": [
+        {
+         "code": "nature-education",
+         "name": "Nature education"
+        },
+        {
+         "code": "field-guiding",
+         "name": "Field guiding"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "wildlife",
+     "name": "Wildlife",
+     "covers": "Protecting wild animals and the places they live.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "protection",
+       "name": "Protection",
+       "specs": [
+        {
+         "code": "habitat-protection",
+         "name": "Habitat protection"
+        },
+        {
+         "code": "anti-poaching-support",
+         "name": "Anti-poaching support"
+        }
+       ]
+      },
+      {
+       "code": "research",
+       "name": "Research",
+       "specs": [
+        {
+         "code": "species-monitoring",
+         "name": "Species monitoring"
+        },
+        {
+         "code": "ecology-data",
+         "name": "Ecology data"
+        }
+       ]
+      },
+      {
+       "code": "community",
+       "name": "Community",
+       "specs": [
+        {
+         "code": "eco-tourism",
+         "name": "Eco-tourism"
+        },
+        {
+         "code": "human-wildlife-peace",
+         "name": "Human-wildlife peace"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "animal-welfare",
+     "name": "Animal welfare",
+     "covers": "Kind, safe care for working, farm and companion animals.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "care",
+       "name": "Care",
+       "specs": [
+        {
+         "code": "animal-nursing",
+         "name": "Animal nursing"
+        },
+        {
+         "code": "shelter-management",
+         "name": "Shelter management"
+        }
+       ]
+      },
+      {
+       "code": "working-and-farm-animals",
+       "name": "Working and farm animals",
+       "specs": [
+        {
+         "code": "farm-animal-welfare",
+         "name": "Farm animal welfare"
+        },
+        {
+         "code": "working-animal-care",
+         "name": "Working animal care"
+        }
+       ]
+      },
+      {
+       "code": "education",
+       "name": "Education",
+       "specs": [
+        {
+         "code": "welfare-education",
+         "name": "Welfare education"
+        },
+        {
+         "code": "rescue-and-adoption",
+         "name": "Rescue and adoption"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "oil-gas",
+     "name": "Oil and natural gas",
+     "covers": "Safer, cleaner operations and the move to lower-carbon energy.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "operations",
+       "name": "Operations",
+       "specs": [
+        {
+         "code": "upstream-operations",
+         "name": "Upstream operations"
+        },
+        {
+         "code": "pipeline-operations",
+         "name": "Pipeline operations"
+        }
+       ]
+      },
+      {
+       "code": "safety-and-environment",
+       "name": "Safety and environment",
+       "specs": [
+        {
+         "code": "process-safety",
+         "name": "Process safety"
+        },
+        {
+         "code": "emissions-control",
+         "name": "Emissions control"
+        }
+       ]
+      },
+      {
+       "code": "transition",
+       "name": "Transition",
+       "specs": [
+        {
+         "code": "gas-and-low-carbon",
+         "name": "Gas and low-carbon"
+        },
+        {
+         "code": "asset-integrity",
+         "name": "Asset integrity"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "hydrogen",
+     "name": "Hydrogen and green fuels",
+     "covers": "Green hydrogen and clean fuels, with strict safety training.",
+     "stage": "growing",
+     "subs": [
+      {
+       "code": "production",
+       "name": "Production",
+       "specs": [
+        {
+         "code": "electrolyser-operations",
+         "name": "Electrolyser operations"
+        },
+        {
+         "code": "hydrogen-plant-design",
+         "name": "Hydrogen plant design"
+        }
+       ]
+      },
+      {
+       "code": "storage-and-transport",
+       "name": "Storage and transport",
+       "specs": [
+        {
+         "code": "storage-systems",
+         "name": "Storage systems"
+        },
+        {
+         "code": "fuelling",
+         "name": "Fuelling"
+        }
+       ]
+      },
+      {
+       "code": "safety",
+       "name": "Safety",
+       "specs": [
+        {
+         "code": "hydrogen-safety",
+         "name": "Hydrogen safety"
+        },
+        {
+         "code": "codes-and-permits",
+         "name": "Codes and permits"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "circular",
+     "name": "Waste and circular economy",
+     "covers": "Reduce, reuse, repair and recycle, so waste becomes a resource.",
+     "stage": "growing",
+     "subs": [
+      {
+       "code": "reduce-and-reuse",
+       "name": "Reduce and reuse",
+       "specs": [
+        {
+         "code": "product-repair",
+         "name": "Product repair"
+        },
+        {
+         "code": "reuse-programmes",
+         "name": "Reuse programmes"
+        }
+       ]
+      },
+      {
+       "code": "recycling",
+       "name": "Recycling",
+       "specs": [
+        {
+         "code": "material-recovery",
+         "name": "Material recovery"
+        },
+        {
+         "code": "e-waste",
+         "name": "E-waste"
+        }
+       ]
+      },
+      {
+       "code": "resource-planning",
+       "name": "Resource planning",
+       "specs": [
+        {
+         "code": "waste-audit",
+         "name": "Waste audit"
+        },
+        {
+         "code": "circular-design",
+         "name": "Circular design"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "green-construction",
+     "name": "Green construction",
+     "covers": "Low-carbon materials and methods for every building we put up.",
+     "stage": "growing",
+     "subs": [
+      {
+       "code": "design",
+       "name": "Design",
+       "specs": [
+        {
+         "code": "low-carbon-design",
+         "name": "Low-carbon design"
+        },
+        {
+         "code": "materials-selection",
+         "name": "Materials selection"
+        }
+       ]
+      },
+      {
+       "code": "building",
+       "name": "Building",
+       "specs": [
+        {
+         "code": "site-practice",
+         "name": "Site practice"
+        },
+        {
+         "code": "modular-building",
+         "name": "Modular building"
+        }
+       ]
+      },
+      {
+       "code": "operation",
+       "name": "Operation",
+       "specs": [
+        {
+         "code": "building-performance",
+         "name": "Building performance"
+        },
+        {
+         "code": "retrofit",
+         "name": "Retrofit"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "clean-mobility",
+     "name": "Clean mobility",
+     "covers": "Electric and shared transport inside and between campuses.",
+     "stage": "growing",
+     "subs": [
+      {
+       "code": "electric-vehicles",
+       "name": "Electric vehicles",
+       "specs": [
+        {
+         "code": "ev-servicing",
+         "name": "EV servicing"
+        },
+        {
+         "code": "charging-networks",
+         "name": "Charging networks"
+        }
+       ]
+      },
+      {
+       "code": "shared-transport",
+       "name": "Shared transport",
+       "specs": [
+        {
+         "code": "fleet-planning",
+         "name": "Fleet planning"
+        },
+        {
+         "code": "shared-mobility-service",
+         "name": "Shared mobility service"
+        }
+       ]
+      },
+      {
+       "code": "mobility-planning",
+       "name": "Mobility planning",
+       "specs": [
+        {
+         "code": "transport-planning",
+         "name": "Transport planning"
+        },
+        {
+         "code": "battery-care",
+         "name": "Battery care"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "society",
+   "name": "People and society",
+   "sectors": [
+    {
+     "code": "life-sciences",
+     "name": "Life sciences",
+     "covers": "Biology, health science and the lab skills behind them.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "lab-work",
+       "name": "Lab work",
+       "specs": [
+        {
+         "code": "lab-technique",
+         "name": "Lab technique"
+        },
+        {
+         "code": "quality-control",
+         "name": "Quality control"
+        }
+       ]
+      },
+      {
+       "code": "biology-and-health-science",
+       "name": "Biology and health science",
+       "specs": [
+        {
+         "code": "molecular-biology",
+         "name": "Molecular biology"
+        },
+        {
+         "code": "public-health-science",
+         "name": "Public health science"
+        }
+       ]
+      },
+      {
+       "code": "research-support",
+       "name": "Research support",
+       "specs": [
+        {
+         "code": "study-design",
+         "name": "Study design"
+        },
+        {
+         "code": "lab-data",
+         "name": "Lab data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "social-sciences",
+     "name": "Social sciences",
+     "covers": "Understanding people, communities and how societies work.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "research",
+       "name": "Research",
+       "specs": [
+        {
+         "code": "survey-research",
+         "name": "Survey research"
+        },
+        {
+         "code": "community-research",
+         "name": "Community research"
+        }
+       ]
+      },
+      {
+       "code": "community-work",
+       "name": "Community work",
+       "specs": [
+        {
+         "code": "community-development",
+         "name": "Community development"
+        },
+        {
+         "code": "social-programmes",
+         "name": "Social programmes"
+        }
+       ]
+      },
+      {
+       "code": "policy-and-data",
+       "name": "Policy and data",
+       "specs": [
+        {
+         "code": "social-data",
+         "name": "Social data"
+        },
+        {
+         "code": "programme-evaluation",
+         "name": "Programme evaluation"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "arts",
+     "name": "Arts",
+     "covers": "Creative work, design, music and performance.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "visual-arts",
+       "name": "Visual arts",
+       "specs": [
+        {
+         "code": "illustration",
+         "name": "Illustration"
+        },
+        {
+         "code": "craft-and-design",
+         "name": "Craft and design"
+        }
+       ]
+      },
+      {
+       "code": "performing-arts",
+       "name": "Performing arts",
+       "specs": [
+        {
+         "code": "music",
+         "name": "Music"
+        },
+        {
+         "code": "dance-and-theatre",
+         "name": "Dance and theatre"
+        }
+       ]
+      },
+      {
+       "code": "creative-business",
+       "name": "Creative business",
+       "specs": [
+        {
+         "code": "arts-management",
+         "name": "Arts management"
+        },
+        {
+         "code": "creative-marketing",
+         "name": "Creative marketing"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "humanities",
+     "name": "Humanities",
+     "covers": "Languages, history, thinking and writing.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "languages",
+       "name": "Languages",
+       "specs": [
+        {
+         "code": "language-teaching",
+         "name": "Language teaching"
+        },
+        {
+         "code": "translation",
+         "name": "Translation"
+        }
+       ]
+      },
+      {
+       "code": "history-and-thought",
+       "name": "History and thought",
+       "specs": [
+        {
+         "code": "history-research",
+         "name": "History research"
+        },
+        {
+         "code": "philosophy-and-ethics",
+         "name": "Philosophy and ethics"
+        }
+       ]
+      },
+      {
+       "code": "writing",
+       "name": "Writing",
+       "specs": [
+        {
+         "code": "editing",
+         "name": "Editing"
+        },
+        {
+         "code": "writing-for-learning",
+         "name": "Writing for learning"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "women-leadership",
+     "name": "Women in leadership",
+     "covers": "Paths that help women lead, in every sector.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "leading-teams",
+       "name": "Leading teams",
+       "specs": [
+        {
+         "code": "team-leadership",
+         "name": "Team leadership"
+        },
+        {
+         "code": "executive-presence",
+         "name": "Executive presence"
+        }
+       ]
+      },
+      {
+       "code": "starting-and-funding",
+       "name": "Starting and funding",
+       "specs": [
+        {
+         "code": "women-led-ventures",
+         "name": "Women-led ventures"
+        },
+        {
+         "code": "mentoring-circles",
+         "name": "Mentoring circles"
+        }
+       ]
+      },
+      {
+       "code": "careers-back",
+       "name": "Careers back",
+       "specs": [
+        {
+         "code": "career-return",
+         "name": "Career return"
+        },
+        {
+         "code": "board-readiness",
+         "name": "Board readiness"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "experts",
+     "name": "Subject experts",
+     "covers": "Experienced people who share what they know, as authors, mentors and reviewers.",
+     "stage": "current",
+     "subs": [
+      {
+       "code": "sharing-knowledge",
+       "name": "Sharing knowledge",
+       "specs": [
+        {
+         "code": "authoring",
+         "name": "Authoring"
+        },
+        {
+         "code": "course-delivery",
+         "name": "Course delivery"
+        }
+       ]
+      },
+      {
+       "code": "guiding-others",
+       "name": "Guiding others",
+       "specs": [
+        {
+         "code": "mentoring",
+         "name": "Mentoring"
+        },
+        {
+         "code": "coaching",
+         "name": "Coaching"
+        }
+       ]
+      },
+      {
+       "code": "advising",
+       "name": "Advising",
+       "specs": [
+        {
+         "code": "consulting",
+         "name": "Consulting"
+        },
+        {
+         "code": "expert-review",
+         "name": "Expert review"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "food-nutrition",
+     "name": "Food and nutrition",
+     "covers": "Healthy local food, kitchen gardens and safe food handling.",
+     "stage": "growing",
+     "subs": [
+      {
+       "code": "food-safety",
+       "name": "Food safety",
+       "specs": [
+        {
+         "code": "food-handling",
+         "name": "Food handling"
+        },
+        {
+         "code": "quality-assurance",
+         "name": "Quality assurance"
+        }
+       ]
+      },
+      {
+       "code": "nutrition",
+       "name": "Nutrition",
+       "specs": [
+        {
+         "code": "community-nutrition",
+         "name": "Community nutrition"
+        },
+        {
+         "code": "diet-planning",
+         "name": "Diet planning"
+        }
+       ]
+      },
+      {
+       "code": "local-food",
+       "name": "Local food",
+       "specs": [
+        {
+         "code": "kitchen-gardens",
+         "name": "Kitchen gardens"
+        },
+        {
+         "code": "food-enterprise",
+         "name": "Food enterprise"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "media-infotainment",
+     "name": "Media and infotainment",
+     "covers": "Members make and share learning and entertainment works and earn fairly.",
+     "stage": "growing",
+     "subs": [
+      {
+       "code": "making",
+       "name": "Making",
+       "specs": [
+        {
+         "code": "video-production",
+         "name": "Video production"
+        },
+        {
+         "code": "audio-and-podcast",
+         "name": "Audio and podcast"
+        }
+       ]
+      },
+      {
+       "code": "telling",
+       "name": "Telling",
+       "specs": [
+        {
+         "code": "scriptwriting",
+         "name": "Scriptwriting"
+        },
+        {
+         "code": "journalism",
+         "name": "Journalism"
+        }
+       ]
+      },
+      {
+       "code": "sharing",
+       "name": "Sharing",
+       "specs": [
+        {
+         "code": "channel-management",
+         "name": "Channel management"
+        },
+        {
+         "code": "audience-growth",
+         "name": "Audience growth"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "yoga-wellbeing",
+     "name": "Yoga and wellbeing",
+     "covers": "Daily yoga, rest and balance for members and families.",
+     "stage": "growing",
+     "subs": [
+      {
+       "code": "practice",
+       "name": "Practice",
+       "specs": [
+        {
+         "code": "yoga-teaching",
+         "name": "Yoga teaching"
+        },
+        {
+         "code": "mind-and-rest",
+         "name": "Mind and rest"
+        }
+       ]
+      },
+      {
+       "code": "wellbeing-at-work",
+       "name": "Wellbeing at work",
+       "specs": [
+        {
+         "code": "workplace-wellbeing",
+         "name": "Workplace wellbeing"
+        },
+        {
+         "code": "stress-care",
+         "name": "Stress care"
+        }
+       ]
+      },
+      {
+       "code": "community",
+       "name": "Community",
+       "specs": [
+        {
+         "code": "family-programmes",
+         "name": "Family programmes"
+        },
+        {
+         "code": "retreat-management",
+         "name": "Retreat management"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "children-in-tech",
+     "name": "Children and youth in tech",
+     "covers": "Bringing children from poor homes into technology, then into jobs with us.",
+     "stage": "growing",
+     "subs": [
+      {
+       "code": "first-steps",
+       "name": "First steps",
+       "specs": [
+        {
+         "code": "digital-basics",
+         "name": "Digital basics"
+        },
+        {
+         "code": "coding-for-children",
+         "name": "Coding for children"
+        }
+       ]
+      },
+      {
+       "code": "making-things",
+       "name": "Making things",
+       "specs": [
+        {
+         "code": "electronics-projects",
+         "name": "Electronics projects"
+        },
+        {
+         "code": "robotics-club",
+         "name": "Robotics club"
+        }
+       ]
+      },
+      {
+       "code": "next-steps",
+       "name": "Next steps",
+       "specs": [
+        {
+         "code": "junior-apprenticeship",
+         "name": "Junior apprenticeship"
+        },
+        {
+         "code": "career-guidance",
+         "name": "Career guidance"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "ladder": [
+  {
+   "tier": "T7",
+   "step": 1,
+   "label": "Associate",
+   "title": "Assistant, {s}",
+   "courses": "Courses L1 to L2",
+   "does": [
+    "Carry out daily {s} tasks by the written steps",
+    "Record the work and results honestly",
+    "Ask for help early and learn on the job"
+   ]
+  },
+  {
+   "tier": "T6",
+   "step": 2,
+   "label": "Professional",
+   "title": "{S} specialist",
+   "courses": "Courses L3 to L4",
+   "does": [
+    "Plan and do {s} work on your own",
+    "Check the quality and safety of the work",
+    "Coach the associates beside you"
+   ]
+  },
+  {
+   "tier": "T5",
+   "step": 3,
+   "label": "Head or Expert",
+   "title": "Head of {s}",
+   "courses": "Courses L5 to L6",
+   "does": [
+    "Own the results and the budget for {s}",
+    "Set standards and review other people's work",
+    "Report on the measure loop: Sustain, Measure, Monitor, Repeat"
+   ]
+  },
+  {
+   "tier": "T4",
+   "step": 4,
+   "label": "Executive",
+   "title": "Director, {s}",
+   "courses": "Course L7",
+   "does": [
+    "Set the direction for {s} and sign off the gates",
+    "Decide on people and money within limits",
+    "Speak for the area to owners and partners"
+   ]
+  }
+ ],
+ "rasi": [
+  [
+   "Do the daily work",
+   "RRSI"
+  ],
+  [
+   "Plan the work",
+   "SRAI"
+  ],
+  [
+   "Check quality and safety",
+   "SRAI"
+  ],
+  [
+   "Measure and report",
+   "IRAI"
+  ],
+  [
+   "Teach and coach others",
+   "ISRA"
+  ],
+  [
+   "Set the budget",
+   "ISRA"
+  ],
+  [
+   "Sign off a gate",
+   "IISA"
+  ]
+ ],
+ "dasi": [
+  [
+   "Choose the method",
+   "SDAI"
+  ],
+  [
+   "Spend within the limit",
+   "ISDA"
+  ],
+  [
+   "Hire and place people",
+   "ISDA"
+  ],
+  [
+   "Stop work for safety",
+   "DDAI"
+  ],
+  [
+   "Change the plan",
+   "ISDA"
+  ],
+  [
+   "Set the direction",
+   "IISD"
+  ]
+ ],
+ "keys": {
+  "RASI": {
+   "R": "Responsible: does the work",
+   "A": "Accountable: owns the result",
+   "S": "Supports",
+   "I": "Informed"
+  },
+  "DASI": {
+   "D": "Decides",
+   "A": "Approves",
+   "S": "Supports",
+   "I": "Informed"
+  }
+ }
+}

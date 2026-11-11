@@ -139,6 +139,8 @@ export default async (req) => {
     if (!WAIT.test(w) || !a) return fail(400, 'Bad request');
     const u = await gotrue(c, 'user', null, a);
     if (u.status !== 200) return fail(401, 'That link has expired. Please try again.');
+    // Tidy first: anything older than 10 minutes was never picked up, so remove it (its tokens should not sit in the table).
+    await handoffTable('DELETE', `?created_at=lt.${encodeURIComponent(new Date(Date.now() - 10 * 60 * 1000).toISOString())}`);
     const r = await handoffTable('POST', '', { wait_id: w, access_token: a, refresh_token: rt });
     return r.status < 300 ? ok({ ok: true }) : fail(503, 'Not available');
   }
