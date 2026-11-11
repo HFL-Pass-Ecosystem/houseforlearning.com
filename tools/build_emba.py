@@ -77,7 +77,7 @@ def subject(s):
     free = s['no'] in FREE
     lab = 'Chapter' if free else 'Part'
     h = hours(s)
-    tcs = (f'<div class="tcs"><div><h4>Task</h4><p>{e(s["task"])}</p></div><div><h4>Condition</h4><p>{e(s["cond"])}</p></div>'
+    tcs = (f'<h3 class="ws-h3">Task, condition and standard</h3><div class="tcs"><div><h4>Task</h4><p>{e(s["task"])}</p></div><div><h4>Condition</h4><p>{e(s["cond"])}</p></div>'
            f'<div><h4>Standard</h4><p>{e(s["std"])}</p></div></div><p><strong>Who it is for:</strong> {e(s["who"])}</p>')
     b = sec('', 'r1', 'task, condition, standard', 'What you will be able to do', tcs)
     access = ('<p><strong>Free for everyone.</strong> This pre-programme subject is open to all, with no payment and no sign-in needed. It is a good first step if you are new to study or to computers.</p>'
@@ -95,7 +95,7 @@ def subject(s):
                   f'<p>{e(lede)}</p><ul>' + ''.join(f'<li>{e(p)}</li>' for p in pts) + '</ul>'
                   f'<p><strong>Worked example:</strong> Worked-example figures, in your currency. {e(ex)}</p>'
                   f'<p><strong>Activity:</strong> {e(act)}</p><p><strong>Standard:</strong> {e(std)}</p>'
-                  f'<h4>Learn your way</h4>{vark(ct)}'
+                  f'<h3 class="ws-h3">Learn your way</h3>{vark(ct)}'
                   + ('<div id="vark-check" class="emba-vk" aria-live="polite"><p><strong>Learning-style check.</strong> Eight quick questions. It works without a computer too: read them aloud and count your answers on paper.</p></div>' if s['no'] == '02' and k == 1 else '')
                   + say(f'emba-{s["no"]}-{k}', act) + '</div></details>')
     b += sec('', 'r2', f'{len(s["ch"])} {lab.lower()}s', f'The {lab.lower()}s, with worked examples', parts)
