@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Calculators</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../_hub/bar.css">
+<script src="../_hub/style-shim.js"></script>
+<link rel="stylesheet" href="../_hub/gate.css">
+<script src="/member-home/config.js"></script>
+<script src="/member-home/supabase.js"></script>
+<script src="/member-home/auth.js"></script>
+<script src="../_hub/gate-hfl.js"></script>
+</head>
+<body>
+<link rel="stylesheet" href="index.inline.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@400;600&display=swap">
+<div class="wrap">
+
+  <span class="tag">Test version</span>
+  <h1>Calculators with the working shown</h1>
+  <p class="lead">Tell us in plain English what you want, give us your numbers, and get a checked answer with every formula shown. <span id="count"></span> engines are ready and the library grows every week.</p>
+  <p class="muted">We use sufficient guardrails: what you type is calculated and not stored, and your intellectual property is safe with us. Teaching numbers only; the live version runs on the platform.</p>
+
+<section class="card"><h2>1. Say what you want in plain English</h2>
+  <label for="ask">For example: "how long will my cash last", "my monthly loan repayment", "is this investment worth it"</label>
+  <textarea id="ask" rows="2" maxlength="300"></textarea>
+  <div class="row"><button class="btn" id="askBtn" type="button">Find my engine</button></div><div id="suggest"></div></section>
+<section class="card"><h2>Or pick from the drop-downs</h2><div class="grid">
+  <label>Sector<select id="sector"></select></label><label>Job to be done<select id="job"></select></label><label>Engine<select id="engine"></select></label></div></section>
+<section id="ws" hidden class="wrap">
+  <div class="card"><h2 id="eName"></h2><p id="eAbout" class="lead"></p><h3>2. Enter your numbers</h3>
+    <p class="muted">Boxes start with teaching numbers. Replace them with yours. For a list, separate numbers with commas, spaces or new lines. Percent boxes use plain numbers: 9 means 9 percent.</p>
+    <form id="inputs" class="grid"></form>
+    <div class="row"><button class="btn" id="run" type="button">Calculate</button><button class="btn light" id="reset" type="button">Back to the teaching numbers</button></div></div>
+  <div class="card"><h2>3. Your answer</h2><div id="err" class="error" hidden></div>
+    <div id="res"><div class="stats" id="head"></div><p><span id="badge" class="badge ok"></span></p>
+    <h3>The working, line by line</h3><div class="tw"><table id="work"></table></div>
+    <h3>Self-checks</h3><ul class="checks" id="checks"></ul>
+    <div class="row"><button class="btn" id="save" type="button">Save this as a version</button><button class="btn light" id="copy" type="button">Copy the working</button><span class="muted" id="copied"></span></div></div></div>
+  <div class="card"><h2>Legend: how this engine works</h2><h3>Process</h3><ol id="proc"></ol><div id="nb"><h3>Limits and assumptions</h3><ul id="notes"></ul></div>
+    <p class="muted">Each line shows the formula, then the same formula with your numbers. <code>^</code> means "to the power of". <code>NPV</code>, <code>IRR</code>, <code>PMT</code>, <code>PV</code>, <code>FV</code> and <code>IF</code> work like the spreadsheet functions of the same names.</p></div>
+  <div class="card"><h2>Versions of your work</h2><p class="muted">Version 0 is your first saved run. Each save shows the change from the one before. Kept on this device only.</p><div id="vers"></div></div>
+</section>
+<section class="card"><h2>Coverage map: job by sector</h2><p class="muted">Green means at least one engine serves that sector for that job. Empty places are where wave 2 is built.</p><div class="tw"><table class="cov" id="cov"></table></div></section>
+</div>
+<script src="index.inline.1.js"></script>
+<script src="../_hub/bar.js" data-home="../"></script>
+</body>
+</html>
