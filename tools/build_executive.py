@@ -16,6 +16,10 @@ def page(fn, title, desc, h1, lead, body, crumbs):
     t = re.sub(r'<title>.*?</title>', lambda m: f'<title>{e(title)} | House for Learning</title>', t, count=1)
     t = re.sub(r'<meta name="description" content=".*?">', lambda m: f'<meta name="description" content="{e(desc)}">', t, count=1)
     t = re.sub(r'(<link rel="canonical" href="https://houseforlearning.com/)[^"]*', lambda m: m.group(1) + fn, t, count=1)
+    # share tags: the template's are the catalogue page's own
+    t = re.sub(r'<meta property="og:title" content=".*?">', lambda m: f'<meta property="og:title" content="{e(title)} | House for Learning">', t, count=1)
+    t = re.sub(r'<meta property="og:description" content=".*?">', lambda m: f'<meta property="og:description" content="{e(desc)}">', t, count=1)
+    t = re.sub(r'(<meta property="og:url" content="https://houseforlearning.com/)[^"]*', lambda m: m.group(1) + fn, t, count=1)
     t = re.sub(r'<ol class="crumbs">.*?</ol>', lambda m: '<ol class="crumbs"><li><a href="index.html">Home</a></li>' + crumbs + '</ol>', t, count=1, flags=re.S)
     main = (f'<main id="main" tabindex="-1"><section class="hero" aria-labelledby="h1"><div class="wrap hero-grid solo"><div><p class="kicker">executive programme</p>'
             f'<h1 id="h1">{e(h1)}</h1><p>{e(lead)}</p></div></div></section>{body}</main>')
