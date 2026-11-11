@@ -61,7 +61,8 @@ def build_body(t):
                 table(f'Element list, {t["name"]}', ['Code', 'Element', 'Quantity', 'Unit'], qrows) + DRAFT) +
             sec('alt', 'g4', 'build order', 'How it is put together', '<ol class="lux-list one">' + ''.join(f'<li>{e(s)}</li>' for s in t['sequence']) + '</ol>') +
             sec('', 'g5', 'model files', 'File names for this build', names) +
-            sec('alt', 'g6', 'learn with this build', 'Your project on this campus type', learn + ctas(('bim-projects.html', 'All project briefs'), ('campus-annex-hot-dry.html', 'Climate annexes'))))
+            sec('alt', 'g6', 'learn with this build', 'Your project on this campus type', learn + ctas(('bim-projects.html', 'All project briefs'), ('campus-annex-hot-dry.html', 'Climate annexes'))) +
+            downloads_sec(t))
 
 def annex_body(a):
     return (hero(a['kick'], f'{a["name"]} climate annex', a['lede'], ctas(('campus-builds.html', 'Campus builds'), ('campus-builder.html', 'Campus builder tool'))) +
@@ -125,6 +126,93 @@ def hub_body():
                 '<li class="card"><span class="tag">tool</span><h3>Campus builder</h3><p>Type a learner number and get the campus type and its element list.</p><a class="more" href="campus-builder.html">Open the tool</a></li>'
                 '<li class="card"><span class="tag">projects</span><h3>BIM project briefs</h3><p>One project for each level, L1 to L7, on these campus types.</p><a class="more" href="bim-projects.html">Open the briefs</a></li></ul>' + SAFE))
 
+# ---------------- practice models (open IFC4 text, no outside library) and element lists (CSV) ----------------
+DL = os.path.join(SITE, 'downloads', 'campus')
+MX, MY, MZ = 2.4, 5.8, 2.9          # module width, length, height in metres
+PER_ROW = 12
+def _guid(key):
+    import hashlib
+    n = int(hashlib.sha1(key.encode()).hexdigest()[:32], 16)
+    abc = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_$'
+    out = ''
+    for _ in range(22):
+        out = abc[n % 64] + out; n //= 64
+    return abc[int(out[0] in abc) and (abc.index(out[0]) % 4)] + out[1:]
+def _f(v): return ('%.3f' % v).rstrip('0').rstrip('.') + ('.' if '.' not in ('%.3f' % v).rstrip('0').rstrip('.') else '')
+def module_plan(t):
+    """One row per module: (floor, x, y, space name). Spaces fill floor 1 first, then floor 2."""
+    f = FIG[t['code']]
+    labels = []
+    for s in t['spaces']:
+        labels += [s['name']] * (s['count'] * s['mods'])
+    labels += ['Corridors, stairs and lobbies'] * f['circ']
+    per = math.ceil(len(labels) / f['floors'])
+    plan = []
+    for i, lab in enumerate(labels):
+        fl, k = divmod(i, per)
+        row, col = divmod(k, PER_ROW)
+        plan.append((fl + 1, col * MX, row * (MY + MX), lab))
+    return plan
+def ifc_text(t):
+    L = []; n = [0]
+    def add(txt):
+        n[0] += 1; L.append(f'#{n[0]}={txt};'); return f'#{n[0]}'
+    code = t['code']; g = lambda k: "'" + _guid(code + ':' + k) + "'"
+    q = lambda s: "'" + s.replace("'", "''") + "'"
+    o = add('IFCCARTESIANPOINT((0.,0.,0.))'); dz = add('IFCDIRECTION((0.,0.,1.))'); dx = add('IFCDIRECTION((1.,0.,0.))')
+    ax = add(f'IFCAXIS2PLACEMENT3D({o},{dz},{dx})')
+    ctx = add(f"IFCGEOMETRICREPRESENTATIONCONTEXT($,'Model',3,1.E-05,{ax},$)")
+    body = add(f"IFCGEOMETRICREPRESENTATIONSUBCONTEXT('Body','Model',*,*,*,*,{ctx},$,.MODEL_VIEW.,$)")
+    u1 = add('IFCSIUNIT(*,.LENGTHUNIT.,$,.METRE.)'); u2 = add('IFCSIUNIT(*,.AREAUNIT.,$,.SQUARE_METRE.)'); u3 = add('IFCSIUNIT(*,.VOLUMEUNIT.,$,.CUBIC_METRE.)')
+    units = add(f'IFCUNITASSIGNMENT(({u1},{u2},{u3}))')
+    proj = add(f"IFCPROJECT({g('project')},$,{q('HFL campus practice model ' + code)},{q(t['name'] + ', LOD 200, for learning only')},$,$,$,({ctx}),{units})")
+    p0 = add(f'IFCLOCALPLACEMENT($,{ax})')
+    site = add(f"IFCSITE({g('site')},$,'C01',$,$,{p0},$,$,.ELEMENT.,$,$,$,$,$)")
+    p1 = add(f'IFCLOCALPLACEMENT({p0},{ax})')
+    bld = add(f"IFCBUILDING({g('building')},$,'C01-B1',$,$,{p1},$,$,.ELEMENT.,$,$,$)")
+    add(f"IFCRELAGGREGATES({g('rel-site')},$,$,$,{proj},({site}))"); add(f"IFCRELAGGREGATES({g('rel-bld')},$,$,$,{site},({bld}))")
+    # one shared box shape for every module
+    c2 = add(f'IFCCARTESIANPOINT(({_f(MX / 2)},{_f(MY / 2)}))'); d2 = add('IFCDIRECTION((1.,0.))'); a2 = add(f'IFCAXIS2PLACEMENT2D({c2},{d2})')
+    prof = add(f"IFCRECTANGLEPROFILEDEF(.AREA.,'CS-SH-01',{a2},{_f(MX)},{_f(MY)})")
+    solid = add(f'IFCEXTRUDEDAREASOLID({prof},{ax},{dz},{_f(MZ)})')
+    rep = add(f"IFCSHAPEREPRESENTATION({body},'Body','SweptSolid',({solid}))")
+    plan = module_plan(t); storeys = []
+    for fl in range(1, t['floors'] + 1):
+        zp = add(f'IFCCARTESIANPOINT((0.,0.,{_f((fl - 1) * MZ)}))'); za = add(f'IFCAXIS2PLACEMENT3D({zp},{dz},{dx})'); pl = add(f'IFCLOCALPLACEMENT({p1},{za})')
+        st = add(f"IFCBUILDINGSTOREY({g('storey%d' % fl)},$,'L{fl}',$,$,{pl},$,$,.ELEMENT.,{_f((fl - 1) * MZ)})")
+        storeys.append(st); els = []
+        for i, (f2, x, y, lab) in enumerate([m for m in plan if m[0] == fl], 1):
+            pt = add(f'IFCCARTESIANPOINT(({_f(x)},{_f(y)},0.))'); pa = add(f'IFCAXIS2PLACEMENT3D({pt},{dz},{dx})'); pp = add(f'IFCLOCALPLACEMENT({pl},{pa})')
+            pds = add(f'IFCPRODUCTDEFINITIONSHAPE($,$,({rep}))')
+            key = f'L{fl}-M{i:03d}'
+            el = add(f"IFCBUILDINGELEMENTPROXY({g(key)},$,{q('C01-B1-L%d-ARC-CS-SH-01-%03d' % (fl, i))},{q('Module shell, 2.4 x 5.8 x 2.9 m')},{q(lab)},{pp},{pds},{q(key)},.NOTDEFINED.)")
+            v = [add(f"IFCPROPERTYSINGLEVALUE('ElementCode',$,IFCLABEL('CS-SH-01'),$)"), add("IFCPROPERTYSINGLEVALUE('LevelOfDevelopment',$,IFCLABEL('LOD 200'),$)"),
+                 add(f"IFCPROPERTYSINGLEVALUE('Space',$,IFCLABEL({q(lab)}),$)"), add(f"IFCPROPERTYSINGLEVALUE('CampusType',$,IFCLABEL({q(code + ' ' + t['name'])}),$)")]
+            ps = add(f"IFCPROPERTYSET({g(key + ':pset')},$,'HFL_CampusStandard',$,({','.join(v)}))")
+            add(f"IFCRELDEFINESBYPROPERTIES({g(key + ':rel')},$,$,$,({el}),{ps})")
+            els.append(el)
+        add(f"IFCRELCONTAINEDINSPATIALSTRUCTURE({g('contain%d' % fl)},$,$,$,({','.join(els)}),{st})")
+    add(f"IFCRELAGGREGATES({g('rel-storeys')},$,$,$,{bld},({','.join(storeys)}))")
+    head = ("ISO-10303-21;\nHEADER;\nFILE_DESCRIPTION(('ViewDefinition [ReferenceView_V1.2]'),'2;1');\n"
+            f"FILE_NAME('hfl-campus-{code.lower()}-lod200.ifc','2026-11-11T00:00:00',(''),('House for Learning'),'tools/build_campus_builds.py','HFL campus standards','');\n"
+            "FILE_SCHEMA(('IFC4'));\nENDSEC;\nDATA;\n")
+    return head + '\n'.join(L) + '\nENDSEC;\nEND-ISO-10303-21;\n'
+def build_downloads():
+    os.makedirs(DL, exist_ok=True)
+    for t in C.TYPES:
+        low = t['code'].lower()
+        open(os.path.join(DL, f'hfl-campus-{low}-lod200.ifc'), 'w', encoding='utf-8', newline='\n').write(ifc_text(t))
+        rows = ['Code,Element,Quantity,Unit'] + [f'{c},"{ELEMENT[c][0]}",{v},{ELEMENT[c][2]}' for c, v in FIG[t['code']]['q']]
+        open(os.path.join(DL, f'hfl-campus-{low}-elements.csv'), 'w', encoding='utf-8', newline='\n').write('\n'.join(rows) + '\n')
+def downloads_sec(t):
+    low = t['code'].lower(); f = FIG[t['code']]
+    return sec('', 'g7', 'practice files', 'Download and open the model',
+               f'<p>A practice model of this campus type in an open format (IFC), at LOD 200. It holds {num(f["mods"])} module shells on {t["floors"]} floor{"s" if t["floors"] > 1 else ""}. Each shell carries its element code, its level of development and the space it belongs to. Doors, walls and furniture are left for you to add.</p>'
+               + ul([f'<a href="downloads/campus/hfl-campus-{low}-lod200.ifc" download>Practice model, {e(t["name"])} (IFC file)</a>',
+                     f'<a href="downloads/campus/hfl-campus-{low}-elements.csv" download>Element list, {e(t["name"])} (CSV file, opens in any spreadsheet)</a>',
+                     'Open the model in any free viewer that reads open IFC files. Click one module and read its properties: you will see the code CS-SH-01 and LOD 200.'])
+               + '<p class="lux-note">For learning only. Not a drawing for building.</p>')
+
 # ---------------- write pages ----------------
 PAGES = ([('campus-builds', 'Campus builds', 'Six campus types built to our own campus standards, with spaces, seats, modules and coded element lists.', hub_body, HUB)] +
          [(t['slug'], f'{t["name"]} ({t["code"]}) campus build', t['lede'], (lambda t=t: build_body(t)), HUB) for t in C.TYPES] +
@@ -175,5 +263,5 @@ def patch_pathway_pages():
         open(p, 'w', encoding='utf-8').write(s)
 
 if __name__ == '__main__':
-    build_pages(); build_data_js(); patch_pathway_pages()
+    build_pages(); build_data_js(); build_downloads(); patch_pathway_pages()
     print(len(PAGES), 'pages;', ', '.join(f'{c} {f["mods"]} modules {f["learners"]} learners' for c, f in FIG.items()))

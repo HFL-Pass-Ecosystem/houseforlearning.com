@@ -13,6 +13,7 @@ What must work (each item click-tested at 1280 px and 390 px):
 7. `career-pathways.html` and `pathways.html` show the section "Design campuses with BIM and LOD" with four links.
 8. Element library now has 29 codes (six added: ramp, platform lift, shade canopy, fire-exit door, learner seat, emergency light group).
 9. No supplier, maker, landlord, consultant or person names; no prices; no addresses; no logos. `tools/check_secrecy.py` passes.
-10. `python3 tools/ci_check.py` passes.
+10. Each campus type page offers two downloads from `site/downloads/campus/`: a practice model in open IFC4 format at LOD 200 (module shells with element code, level and space as properties) and the element list as CSV. The six models open with no errors in an IFC checker.
+11. `python3 tools/ci_check.py` passes.
 
-Next list (not in this build): the owner's list of named campuses with their numbers; own drawings and pictures per campus type; country annexes for local rules; downloadable open-format practice models; paid access gate for L3 and up.
+Next list (not in this build): the owner's list of named campuses with their numbers; own drawings and pictures per campus type; country annexes for local rules; practice models beyond module shells (doors, walls, furniture, services); paid access gate for L3 and up.
