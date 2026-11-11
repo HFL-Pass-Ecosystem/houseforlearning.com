@@ -100,3 +100,20 @@ create table if not exists public.lms_sales (
 create index if not exists lms_sales_author on public.lms_sales (author_id);
 alter table public.lms_courses enable row level security;
 alter table public.lms_sales enable row level security;
+
+-- ===== My board: sticky notes for every member (own, assigned by staff, automatic daily note) =====
+create table if not exists public.lms_board (
+  id uuid primary key default gen_random_uuid(),
+  user_id uuid not null references auth.users(id) on delete cascade,
+  kind text not null default 'own',          -- own | assigned | auto
+  body text not null,
+  color text not null default 'ivory',       -- ivory | blue | green
+  link text not null default '',             -- a page on this site, e.g. learn.html
+  due date,
+  done boolean not null default false,
+  day text not null default '',              -- auto notes: the day they were made for (one per day)
+  created_by uuid,
+  created_at timestamptz not null default now()
+);
+create index if not exists lms_board_user on public.lms_board (user_id, done);
+alter table public.lms_board enable row level security;
