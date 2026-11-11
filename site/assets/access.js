@@ -7,7 +7,7 @@
   function lload() { try { return JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { return {}; } }
   function lsave(d) { try { localStorage.setItem(KEY, JSON.stringify(d)); } catch (e) {} }
   function signedIn() { return /(?:^|; )hfl_in=1/.test(document.cookie); }
-  var file = (location.pathname.split('/').pop() || 'index.html');
+  var file = (location.pathname.split('/').pop() || 'index.html'); if (file.indexOf('.') < 0) file += '.html'; /* Netlify may show /course-eu-01 without .html */
   /* the bar, progress and lock styles live in courses.css: make sure every page that uses this script has them */
   (function () {
     var me = document.querySelector('script[src$="access.js"]'); if (!me) return;
@@ -99,14 +99,14 @@
     if (!spaid) {
       sbar.innerHTML = '<div class="wrap acc-in"><div><p class="acc-k">Preview</p><p class="acc-t">' + (sn > 1 ? 'This lesson is part of ' + stitle + '. Join to open all ' + st + ' lessons.' : 'Lesson 1 of ' + st + ' is a free preview. Join ' + stitle + ' to open all ' + st + ' lessons.') + '</p></div><div class="acc-act"></div></div>';
       var sa = document.createElement('a'); sa.className = 'btn';
-      if (signedIn()) { sa.href = 'pay.html?course=' + encodeURIComponent(skey) + '&t=' + encodeURIComponent(stitle) + '&n=' + st; sa.textContent = 'Join this course'; } else { sa.href = 'login.html'; sa.textContent = 'Sign in to join'; }
+      if (signedIn()) { sa.href = 'pay.html?course=' + encodeURIComponent(skey) + '&t=' + encodeURIComponent(stitle) + '&n=' + st; sa.textContent = 'Join this course'; } else { sa.href = 'login.html?next=' + encodeURIComponent(file); sa.textContent = 'Sign in to join'; }
       sbar.querySelector('.acc-act').appendChild(sa);
       var sno = document.createElement('p'); sno.className = 'acc-note'; sno.textContent = 'Test only. No real money is taken.'; sbar.querySelector('.acc-act').appendChild(sno);
     } else {
       var sdone = srec.done || [];
       var sdraw = function () {
         var c = sdone.length;
-        sbar.innerHTML = '<div class="wrap acc-in"><div><p class="acc-k">' + (c ? 'Your course' : 'You are in') + '</p><p class="acc-t">Lesson ' + sn + ' of ' + st + '. ' + c + ' of ' + st + ' done.' + (c === st ? ' Course complete.' : '') + '</p><div class="acc-prog" role="progressbar" aria-valuemin="0" aria-valuemax="' + st + '" aria-valuenow="' + c + '"><span data-w="' + Math.round(100 * c / st) + '"></span></div></div><div class="acc-act"></div></div>';
+        sbar.innerHTML = '<div class="wrap acc-in"><div><p class="acc-k">' + (c ? 'Your course' : 'You are in') + '</p><p class="acc-t">Lesson ' + sn + ' of ' + st + '. ' + c + ' of ' + st + ' done.' + (c === st ? ' Course complete.' : ' Tick Done under each lesson when you finish it.') + '</p><div class="acc-prog" role="progressbar" aria-valuemin="0" aria-valuemax="' + st + '" aria-valuenow="' + c + '"><span data-w="' + Math.round(100 * c / st) + '"></span></div></div><div class="acc-act"></div></div>';
         var act = sbar.querySelector('.acc-act'), lab = document.createElement('label'); lab.className = 'acc-done';
         var cb = document.createElement('input'); cb.type = 'checkbox'; cb.checked = sdone.indexOf(sn) >= 0;
         cb.addEventListener('change', function () { var p = sdone.indexOf(sn); if (cb.checked && p < 0) sdone.push(sn); if (!cb.checked && p >= 0) sdone.splice(p, 1); sdraw(); });
@@ -135,12 +135,12 @@
         rows.forEach(function (r, i) { if (i < 2) return; r.classList.add('acc-locked'); r.innerHTML = '<th scope="row">' + (i + 1) + '</th><td colspan="4"><span class="acc-lock">Locked</span> Join this course to open this step.</td>'; });
         tbar.innerHTML = '<div class="wrap acc-in"><div><p class="acc-k">Preview</p><p class="acc-t">You can read steps 1 and 2. Join this course to open all ' + T + ' steps and tick them off.</p></div><div class="acc-act"></div></div>';
         var a = document.createElement('a'); a.className = 'btn';
-        if (signedIn()) { a.href = 'pay.html?course=' + encodeURIComponent(file) + '&t=' + encodeURIComponent(ttl) + '&n=' + T; a.textContent = 'Join this course'; } else { a.href = 'login.html'; a.textContent = 'Sign in to join'; }
+        if (signedIn()) { a.href = 'pay.html?course=' + encodeURIComponent(file) + '&t=' + encodeURIComponent(ttl) + '&n=' + T; a.textContent = 'Join this course'; } else { a.href = 'login.html?next=' + encodeURIComponent(file); a.textContent = 'Sign in to join'; }
         tbar.querySelector('.acc-act').appendChild(a);
         var nn = document.createElement('p'); nn.className = 'acc-note'; nn.textContent = 'Test only. No real money is taken.'; tbar.querySelector('.acc-act').appendChild(nn);
         return;
       }
-      tbar.innerHTML = '<div class="wrap acc-in"><div><p class="acc-k">' + (c ? 'Your course' : 'You are in') + '</p><p class="acc-t">' + c + ' of ' + T + ' steps done.' + (c === T ? ' Course complete.' : '') + '</p><div class="acc-prog" role="progressbar" aria-valuemin="0" aria-valuemax="' + T + '" aria-valuenow="' + c + '"><span data-w="' + Math.round(100 * c / T) + '"></span></div></div><div class="acc-act"></div></div>';
+      tbar.innerHTML = '<div class="wrap acc-in"><div><p class="acc-k">' + (c ? 'Your course' : 'You are in') + '</p><p class="acc-t">' + c + ' of ' + T + ' steps done.' + (c === T ? ' Course complete.' : ' Tick Done at the end of each step below.') + '</p><div class="acc-prog" role="progressbar" aria-valuemin="0" aria-valuemax="' + T + '" aria-valuenow="' + c + '"><span data-w="' + Math.round(100 * c / T) + '"></span></div></div><div class="acc-act"></div></div>';
       var act = tbar.querySelector('.acc-act'), l = document.createElement('a'); l.href = 'members-courses.html'; l.className = 'acc-link'; l.textContent = 'My courses'; act.appendChild(l); extras(act, file, c, T);
       rows.forEach(function (r, i) {
         r.classList.remove('acc-locked'); r.innerHTML = orig[i];
@@ -184,7 +184,7 @@
     var act = bar.querySelector('.acc-act'), a = document.createElement('a');
     a.className = 'btn';
     if (signedIn()) { a.href = joinHref(); a.textContent = 'Join this course'; }
-    else { a.href = 'login.html'; a.textContent = 'Sign in to join'; }
+    else { a.href = 'login.html?next=' + encodeURIComponent(file); a.textContent = 'Sign in to join'; }
     act.appendChild(a);
     var n = document.createElement('p'); n.className = 'acc-note'; n.textContent = 'Test only. No real money is taken.'; act.appendChild(n);
   }
@@ -205,7 +205,7 @@
     function refresh() {
       var c = done.length, t = numbered.length;
       var nextIdx = -1; for (var i = 0; i < numbered.length; i++) if (done.indexOf(i) < 0) { nextIdx = i; break; }
-      bar.innerHTML = '<div class="wrap acc-in"><div><p class="acc-k">' + (c ? 'Your course' : 'You are in') + '</p><p class="acc-t">' + c + ' of ' + t + ' done.' + (c === t ? ' Course complete.' : '') + '</p><div class="acc-prog" role="progressbar" aria-valuemin="0" aria-valuemax="' + t + '" aria-valuenow="' + c + '"><span data-w="' + Math.round(100 * c / t) + '"></span></div></div><div class="acc-act"></div></div>';
+      bar.innerHTML = '<div class="wrap acc-in"><div><p class="acc-k">' + (c ? 'Your course' : 'You are in') + '</p><p class="acc-t">' + c + ' of ' + t + ' done.' + (c === t ? ' Course complete.' : ' Tick Done at the end of each one below.') + '</p><div class="acc-prog" role="progressbar" aria-valuemin="0" aria-valuemax="' + t + '" aria-valuenow="' + c + '"><span data-w="' + Math.round(100 * c / t) + '"></span></div></div><div class="acc-act"></div></div>';
       var act = bar.querySelector('.acc-act'), b = document.createElement('button');
       b.type = 'button'; b.className = 'btn'; b.textContent = c === 0 ? 'Start' : (c === t ? 'Review' : 'Continue');
       b.addEventListener('click', function () { var d = numbered[nextIdx < 0 ? 0 : nextIdx]; d.open = true; d.scrollIntoView({ behavior: calm, block: 'start' }); var sm0 = d.querySelector('summary'); if (sm0) sm0.focus({ preventScroll: true }); });
@@ -226,4 +226,15 @@
   }
   if (paid) unlock(); else lockAll();
   }
+  /* A small always-visible line at the bottom of the screen, so progress ("Progress: 1 of 9 steps done") is seen while ticking Done far down the page. */
+  var pill = null;
+  function paintPill() {
+    var bar = document.querySelector('.acc-bar'), t = bar && bar.querySelector('.acc-t');
+    if (!t || !bar.querySelector('.acc-prog')) { if (pill) pill.hidden = true; return; }
+    var m = /\d+ of \d+[a-z ]*done/i.exec(t.textContent || '');
+    if (!m) { if (pill) pill.hidden = true; return; }
+    if (!pill) { pill = document.createElement('div'); pill.className = 'acc-pill'; pill.setAttribute('role', 'status'); pill.setAttribute('aria-live', 'polite'); document.body.appendChild(pill); }
+    var txt = 'Progress: ' + m[0]; if (pill.textContent !== txt) pill.textContent = txt; pill.hidden = false;
+  }
+  setInterval(paintPill, 500); paintPill();
 })();

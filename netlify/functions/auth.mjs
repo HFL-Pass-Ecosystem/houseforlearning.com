@@ -22,9 +22,9 @@ const readCookie = (req) => {
 
 const pack = (s) => Buffer.from(JSON.stringify({ a: s.access_token, r: s.refresh_token })).toString('base64url');
 
-async function gotrue(c, path, body, token) {
+async function gotrue(c, path, body, token, method) {
   const r = await fetch(`${c.url}/auth/v1/${path}`, {
-    method: body ? 'POST' : 'GET',
+    method: method || (body ? 'POST' : 'GET'),
     headers: { apikey: c.key, Authorization: `Bearer ${token || c.key}`, 'Content-Type': 'application/json' },
     body: body ? JSON.stringify(body) : undefined,
   });
@@ -109,7 +109,7 @@ export default async (req) => {
         body: JSON.stringify({ email, create_user: true, data: { full_name: text(body.name, 120) } }),
       }).catch(() => {});
     }
-    return ok({ message: 'If this address can be used, we have sent you a link. Open it on this device to come in.' });
+    return ok({ message: 'If this address can be used, we have sent you an email. Tap the "Sign me in" button in it and this page signs you in by itself. If the button does not open, the 6-digit code from the email is filled in below.' });
   }
 
   // The 6-digit code from the same email: lets a member finish on any device.
@@ -160,6 +160,22 @@ export default async (req) => {
     const r = await gotrue(c, 'token?grant_type=password', { email, password });
     if (r.status !== 200) return fail(401, 'Email or password not right, or the email is not confirmed yet');
     return withCookie(ok({ ok: true }), pack(r.data), MAX_AGE);
+  }
+
+  // A signed-in member chooses a password once, so later visits need no email at all.
+  if (action === 'setpassword') {
+    const s = readCookie(req);
+    if (!s) return fail(401, 'Please sign in first');
+    if (password.length < 10) return fail(400, 'Please choose a password of at least 10 characters');
+    let tok = s.a, fresh = null;
+    let r = await gotrue(c, 'user', { password }, tok, 'PUT');
+    if (r.status === 401 && s.r) {
+      const t = await gotrue(c, 'token?grant_type=refresh_token', { refresh_token: s.r });
+      if (t.status === 200) { fresh = t.data; r = await gotrue(c, 'user', { password }, t.data.access_token, 'PUT'); }
+    }
+    if (r.status !== 200) return fail(r.status === 401 ? 401 : 400, r.status === 401 ? 'Please sign in first' : 'That password was not accepted. Please try a longer one.');
+    const res = ok({ message: 'Saved. Next time just log in with your email and this password.' });
+    return fresh ? withCookie(res, pack(fresh), MAX_AGE) : res;
   }
 
   if (action === 'logout') {

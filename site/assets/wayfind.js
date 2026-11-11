@@ -36,6 +36,10 @@
   var head=document.querySelector('.site-head')||document.querySelector('header');
   if(hasHead&&head.parentNode){head.parentNode.insertBefore(bar,head.nextSibling);}
   else{var sk=document.querySelector('.skip');(sk&&sk.parentNode?sk.parentNode:document.body).insertBefore(bar,sk?sk.nextSibling:document.body.firstChild);}
+  // Keep the bar fixed under the header while scrolling (desktop and phone).
+  function pin(){var hh=(hasHead&&head)?head.getBoundingClientRect().height:0;bar.style.top=Math.max(0,Math.round(hh))+'px';}
+  pin();window.addEventListener('resize',pin);window.addEventListener('load',pin);
+  if(window.ResizeObserver&&hasHead&&head){new ResizeObserver(pin).observe(head);}
   var bk=bar.querySelector('[data-wf=back]');if(bk&&history.length<=1)bk.hidden=true;
   var fw=bar.querySelector('[data-wf=fwd]');
   function syncFw(){if(fw&&window.navigation&&typeof navigation.canGoForward==='boolean'){fw.disabled=!navigation.canGoForward;}}
