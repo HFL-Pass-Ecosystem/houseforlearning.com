@@ -40,4 +40,4 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
     X-Frame-Options = "SAMEORIGIN"
-    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; style-src-attr 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://himuywvqgzbzlurifyet.supabase.co https://api.open-meteo.com https://geocoding-api.open-meteo.com https://archive-api.open-meteo.com https://date.nager.at https://api.wikimedia.org; form-action 'self'; frame-ancestors 'self'; base-uri 'self'; object-src 'none'"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; media-src 'self' blob:; style-src 'self' https://fonts.googleapis.com; style-src-attr 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://himuywvqgzbzlurifyet.supabase.co https://api.open-meteo.com https://geocoding-api.open-meteo.com https://archive-api.open-meteo.com https://date.nager.at https://api.wikimedia.org; form-action 'self'; frame-ancestors 'self'; base-uri 'self'; object-src 'none'"
