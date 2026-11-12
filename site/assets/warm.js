@@ -56,8 +56,6 @@
 
   function site() {
     var b = D.body ? D.body.classList : { contains: function () { return false; } };
-    if (b.contains('yst') || /yantra/i.test(location.hostname)) return SITES.yst;
-    if (b.contains('ams') || /avyra|avaira/i.test(location.hostname)) return SITES.ams;
     if (b.contains('learn') || /houseforlearning/i.test(location.hostname)) return SITES.learn;
     if (/investments/i.test(location.hostname)) return SITES.hflgi;
     if (/hfl-?pass/i.test(location.hostname)) return SITES.pass;

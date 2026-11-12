@@ -1,5 +1,5 @@
 /* Karma points, in the spirit of Karma Yoga from the Bhagavad Gita: members earn points for right action and effort
-   (learning, serving others, steady practice), never for results alone. Shared by all six sites.
+   (learning, serving others, steady practice), never for results alone. House for Learning copy.
    Add once per page (site.js loads it next to warm.js):  <script src="/assets/karma.js" defer></script>
    - Signed-in members see a small "✨ 120 karma · Helper" pill, and a +points burst when they earn some.
    - The server decides the points (GET/POST /api/karma); this file only asks. Guests see nothing.
