@@ -1,6 +1,5 @@
 /* Warm replies: the site answers people the moment they reach out.
-   One shared file for all six sites (House for Learning, HFL Global Investments, Avyra Microsystems,
-   Yantra Avyra Microsystems, Yantra-Global.com, HFL-Pass). Add once per page:
+   House for Learning copy (HFL side only). Add once per page:
      <script src="/assets/warm.js" defer></script>
    What it does, with no set-up:
    - Any form send (contact, order, sign-up, support, comment): a 🙏 reaction pops on the button, a card says
@@ -21,14 +20,6 @@
       'Every big journey starts with one honest question. You just asked yours.',
       'You are already learning: reaching out is the first lesson.',
       'Small steps every day add up to a new life. We will walk with you.'] },
-    ams: { name: 'Avyra Microsystems', lines: [
-      'Great boards start with a clear question. An engineer is on yours.',
-      'Your idea deserves to be built well. We are here to help you build it.',
-      'Precision starts with listening. We are listening.'] },
-    yst: { name: 'Yantra', lines: [
-      'From first sketch to full volume, we build it with you.',
-      'Your boards matter to us as much as they matter to you.',
-      'Good work starts with a good conversation. Thank you for starting it.'] },
     hflgi: { name: 'HFL Global Investments', lines: [
       'Every lasting fortune began as one careful conversation.',
       'Your plans deserve patience and care. You will get both here.',
