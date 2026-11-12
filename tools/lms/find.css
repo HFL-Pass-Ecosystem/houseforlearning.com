@@ -1,0 +1,18 @@
+/* Find a course (find.html, assets/course-finder.js) */
+.cf-box{display:block}
+.cf-wrap{flex:1 1 100%;min-width:0}
+.cf-form{display:grid;grid-template-columns:2fr 1fr;gap:12px;margin:0 0 6px}
+.cf-field{display:flex;flex-direction:column;gap:4px;min-width:0}
+.cf-lab{font:600 13px Montserrat,sans-serif}
+.cf-form input,.cf-form select{width:100%;box-sizing:border-box;padding:10px;border:1px solid #c9c4b4;border-radius:8px;font:inherit;background:#fff}
+.cf-list{list-style:none;padding:0;margin:8px 0}
+.cf-item{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;border:1px solid #DCD6C6;border-radius:6px;padding:10px 14px;margin:8px 0;background:#FBF9F3}
+.cf-main{flex:1 1 260px;min-width:0}
+.cf-title{margin:0 0 4px;font-size:1rem;overflow-wrap:anywhere}
+.cf-meta{margin:0;font-size:.88rem;color:#4b5560}
+.cf-areatag{font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:#0F85DB}
+.cf-act{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.cf-joined{font:700 12px Montserrat,sans-serif;color:#1d6b33;background:#e3f4e7;border-radius:999px;padding:3px 10px}
+.cf-more[hidden]{display:none}
+@media (max-width:600px){.cf-form{grid-template-columns:1fr}}
+@media print{.cf-form,.cf-more{display:none!important}}

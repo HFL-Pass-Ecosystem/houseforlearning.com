@@ -43,6 +43,21 @@
       'Choose your sector, your community, who the plan is for, the life space and your minutes a day.',
       'Press Make my week. You get one small step for each day: aim, learn, practise, check, share, rest.',
       'Put the steps on My board with one button, so you see them every day.']],
+    ['learner', 'Find a course', 'find.html', 'Search every course that has a final check.', [
+      'Open Find a course.',
+      'Type a word from the course title in the search box. Every word you type must match.',
+      'Choose an area to narrow the list.',
+      'Press Open the course. Courses you already joined are marked Joined.']],
+    ['learner', 'My learning record', 'record.html', 'All your courses, scores and certificates on one page.', [
+      'Sign in and open My learning record.',
+      'The table lists every course you joined, your progress, your best final-check score and your certificate.',
+      'Press Print or save to keep a paper or file copy.',
+      'Press Download as a spreadsheet to get the same table as a file.']],
+    ['learner', 'My learning time', 'timelog.html', 'Log your minutes and keep a weekly goal.', [
+      'Sign in and open My learning time.',
+      'Pick the date, type the minutes and what you learned, then press Add.',
+      'Set your weekly goal in minutes and press Save goal.',
+      'The week view shows each day, your total against the goal and your streak of days in a row.']],
     ['author', 'Build a course in Author Studio', 'author.html', 'Make a course on screen, no tools to install.', [
       'Open Author Studio and press Start a new course. Give it a course title.',
       'Press Add module, then Add lesson. Give each a title.',

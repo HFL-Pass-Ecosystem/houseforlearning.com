@@ -571,9 +571,7 @@
   function file(a) { var h = a.getAttribute('href') || ''; if (/^[a-z]+:/i.test(h)) return ''; return h.split('#')[0].split('?')[0].split('/').pop(); }
   function joined(f) { try { var s = JSON.parse(localStorage.getItem('hfl_access') || '{}'); return !!(s[f] && s[f].paid); } catch (e) { return false; } }
   function make() {
-    var st = document.createElement('style');
-    st.textContent = '.hfl-hint{position:fixed;z-index:60;pointer-events:none;max-width:16rem;padding:.4rem .7rem;border-radius:999px;background:#0b2a4a;color:#fff;font:600 .8rem/1.3 Montserrat,system-ui,sans-serif;box-shadow:0 4px 14px rgba(0,0,0,.18);opacity:0;transform:translateY(4px);transition:opacity .15s,transform .15s}.hfl-hint.on{opacity:.96;transform:none}@media (prefers-reduced-motion:reduce){.hfl-hint{transition:none}}';
-    document.head.appendChild(st);
+    /* styles for .hfl-hint live in assets/site.css (the security rules block <style> added by script) */
     tip = document.createElement('div'); tip.className = 'hfl-hint'; tip.setAttribute('aria-hidden', 'true'); document.body.appendChild(tip);
   }
   function show(a, x, y) {

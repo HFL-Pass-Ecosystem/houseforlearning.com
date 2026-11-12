@@ -11,7 +11,7 @@ let fails = 0; const log = (ok, m) => { console.log((ok ? 'PASS ' : 'FAIL ') + m
   page.on('pageerror', e => errors.push('pageerror ' + e.message)); page.on('console', m => { if (m.type() === 'error') errors.push('console ' + m.text().slice(0, 120)); });
   await page.goto(`${BASE}/manuals.html`); await page.waitForSelector('.mn-item');
   const all = await page.locator('.mn-item').count();
-  log(all >= 12, `signed out: library opens with ${all} manuals`);
+  log(all >= 17, `signed out: library opens with ${all} manuals`);
   log(/Showing \d+ manuals/.test(await page.locator('#lms-box .note').first().innerText()), 'count line shows how many');
   await page.click('.mn-filter button:has-text("Authors")'); const au = await page.locator('.mn-item').count();
   log(au > 0 && au < all && await page.locator('.mn-who', { hasText: 'Learners' }).count() === 0, `Authors filter: ${au} manuals, no learner manuals`);
