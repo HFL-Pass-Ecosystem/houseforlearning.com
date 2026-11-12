@@ -9,6 +9,8 @@ BASE = 'https://houseforlearning.com/'
 NAME = 'House for Learning'
 LOGO = BASE + 'assets/brand/hfl-sbs-1200w.png'
 MARK = '<!-- seo-pass -->'
+BLOCK = re.compile(r'<!-- seo-pass -->\n(?:<meta (?:property="og:image"|name="twitter:[a-z]+") content="[^"\n]*">\n)*'
+                   r'<script type="application/ld\+json">\{"@context": "https://schema.org", "@graph": [^\n]*</script>\n')
 TITLES = {  # the home title said the name twice
     'index.html': 'House for Learning: Courses &amp; Career Pathways',
 }
@@ -18,7 +20,11 @@ def meta(h, prop, attr='property'):
     return m.group(1) if m else ''
 
 def fix(rel, h):
-    if 'noindex' in h or MARK in h or '</head>' not in h:
+    if MARK in h:
+        # builders copy a finished page as their template, so an old block may belong to another page:
+        # take out exactly the lines this script wrote (nothing else), then write them again from this page's own tags
+        h = BLOCK.sub('', h)
+    if 'noindex' in h or '</head>' not in h:
         return h
     if rel in TITLES:
         t = TITLES[rel]
@@ -41,7 +47,8 @@ def fix(rel, h):
     add.append('<script type="application/ld+json">' + json.dumps({'@context': 'https://schema.org', '@graph': graph}, ensure_ascii=False) + '</script>')
     h = h.replace('</head>', '\n'.join(add) + '\n</head>', 1)
     # footer logo is below the fold
-    h = h.replace('<img class="foot-logo" ', '<img class="foot-logo" loading="lazy" decoding="async" ')
+    if '<img class="foot-logo" loading=' not in h:
+        h = h.replace('<img class="foot-logo" ', '<img class="foot-logo" loading="lazy" decoding="async" ')
     return h
 
 A11Y_CSS = ''
