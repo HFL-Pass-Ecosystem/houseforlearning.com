@@ -185,6 +185,13 @@ export default async (req) => {
           learner: n, email: n.toLowerCase().replace(/ /g, '.') + '@demo.invalid', course: 'demo-course.html', title: 'Demo course', done: d, total: tot,
           pct: Math.round(100 * d / tot), status: d === tot ? 'completed' : 'active', best: b, certificate: '', enrolledAt: t, updatedAt: t, paid: 'demo', demo: true })));
       }
+      if (body.format === 'csv') {
+        // For the platform's academic ERP screen: email,name,course,title,done,total,best,fee,currency. No commas or line breaks inside a value.
+        const clean = (v) => String(v ?? '').replace(/[,\r\n]+/g, ' ').trim();
+        const fee = clean(process.env.LMS_FEE || ''), cur = clean(process.env.LMS_FEE_CURRENCY || 'USD');
+        const lines = rows.filter((r) => r.email && !r.demo).map((r) => [r.email, r.learner, r.course, r.title, r.done, r.total, r.best ?? '', fee, cur].map(clean).join(','));
+        return res(ok({ csv: ['email,name,course,title,done,total,best,fee,currency', ...lines].join('\n') }));
+      }
       const byCourse = {};
       for (const r of rows) { const c = (byCourse[r.course] ||= { course: r.course, title: r.title, learners: 0, completed: 0, sum: 0 }); c.learners++; c.sum += r.pct; if (r.status === 'completed') c.completed++; }
       const courses = Object.values(byCourse).map((c) => ({ course: c.course, title: c.title, learners: c.learners, completed: c.completed, avg: Math.round(c.sum / c.learners) }));

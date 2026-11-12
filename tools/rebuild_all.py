@@ -27,8 +27,11 @@ STEPS = [
     'build_ai_income',          # AI side-income path: hub + 15 lessons (own words, no outside names)
     'build_my_learning', 'build_welcome_map', 'build_learner_hub',        # signed-in learning home (test only)
     'build_start_here',        # start-a-course page: real courses a visitor can join and take
+    'build_topic_procurement', # procurement analytics learning topic guide
+    'build_session_kit',       # live session kit: guides, priming, assessments with consent rules, clickable agenda
     'externalise_inline_scripts',   # inline scripts never run under the site's CSP: move them to site/assets/pages/
     'build_nav',               # site-wide navigation layer
+    'atle_hfl',                # ATLE(it) ribbon and footer strip on every page, linking to the proofed atle.html
     'build_quizzes',           # final-check questions (assets/quiz) and answer keys (netlify/functions/quizkeys.json)
     'build_sitemap',           # sitemap from the indexable pages: after all page builders
     'build_seo',               # titles at most 70 characters, unique, and real meta descriptions: always last
