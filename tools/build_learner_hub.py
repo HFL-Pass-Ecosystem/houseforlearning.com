@@ -46,7 +46,7 @@ def write(fn, title, desc, kicker, h1, lead, body):
     if 'learner-hub.js' not in t: t = t.replace('</body>', '<script src="assets/learner-hub.js" defer></script>\n</body>', 1)
     if 'id="sp-app"' in t and 'spaces.js' not in t:
         t = t.replace('</head>', '<link rel="stylesheet" href="assets/spaces.css">\n</head>', 1)
-        t = t.replace('</body>', '<script src="assets/spaces.js" defer></script>\n<script src="assets/spaces-voice.js" defer></script>\n</body>', 1)
+        t = t.replace('</body>', '<script src="assets/spaces.js" defer></script>\n<script src="assets/spaces-voice.js" defer></script>\n<script src="assets/spaces-cert.js" defer></script>\n<script src="assets/spaces-import.js" defer></script>\n<script src="assets/spaces-labstats.js" defer></script>\n<script src="assets/spaces-tour.js" defer></script>\n</body>', 1)
     if fn == 'learning-hub.html' and 'spaces-summary.js' not in t:
         t = t.replace('</body>', '<script src="assets/spaces-summary.js" defer></script>\n</body>', 1)
     open(os.path.join(SITE, fn), 'w').write(t)
