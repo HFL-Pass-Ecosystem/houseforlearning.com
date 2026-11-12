@@ -14,7 +14,7 @@
 <body>
 <div class="idk-gate" id="idk-gate" role="status" aria-live="polite"><p class="idk-gate-t"><strong>Insight Desk</strong></p><p id="idk-msg">Checking your staff sign-in.</p><p class="idk-login" hidden><a href="login.html?next=insight-desk.html">Staff sign in</a> &middot; <a href="index.html">Home</a></p></div>
 <div id="idk-app" hidden>
-<div hidden><span id="overview"></span><span id="profit"></span><span id="pipeline"></span><span id="market"></span><span id="outcomes"></span><span id="formulas"></span><span id="gaps"></span></div>
+<div hidden><span id="alerts"></span><span id="formulas"></span><span id="gaps"></span><span id="market"></span><span id="outcomes"></span><span id="overview"></span><span id="pipeline"></span><span id="profit"></span></div>
 <header class="top">
   <div class="wrap">
     <h1 id="ttl">House for Learning Insight Desk<small id="sideLbl"></small></h1>
@@ -24,6 +24,7 @@
       <label class="f" for="fPc">Profit centre<select id="fPc"></select></label>
       <label class="f" for="fCountry">Country<select id="fCountry"></select></label>
       <label class="f" for="fPer">Period<select id="fPer"><option value="3">Last 3 months</option><option value="6" selected>Last 6 months</option><option value="12">Last 12 months</option></select></label>
+      <button id="exportView" type="button" title="Copy every table on this tab as CSV">Copy view</button>
       <button id="theme" type="button" title="Switch light / dark">Dark</button>
     </div>
   </div>
@@ -34,6 +35,7 @@
       <a href="#pipeline" data-v="pipeline">Pipeline and forecast</a>
       <a href="#market" data-v="market">Market intelligence</a>
       <a href="#outcomes" data-v="outcomes">Management outcomes</a>
+      <a href="#alerts" data-v="alerts">Alerts<span class="badge" id="alertN"></span></a>
       <a href="#formulas" data-v="formulas">Formulas</a>
       <a href="#gaps" data-v="gaps">Gaps and next</a>
     </nav>

@@ -85,3 +85,9 @@ details.mod>summary{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 @media print{.acc-pill{display:none}}
 .gp-list{list-style:none;padding:0;margin:12px 0;display:grid;gap:10px}
 .gp-step{border:1px solid var(--line,#d9d3c3);border-radius:10px;padding:12px;background:#fff}
+.mn-filter{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.mn-item{border:1px solid #DCD6C6;border-radius:6px;padding:10px 14px;margin:8px 0;background:#FBF9F3}
+.mn-item summary{cursor:pointer;font-weight:600}
+.mn-who{font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:#0F85DB;margin-right:6px}
+.mn-steps li{margin:.3em 0}
+@media print{.mn-filter{display:none!important}.mn-item{break-inside:avoid}}

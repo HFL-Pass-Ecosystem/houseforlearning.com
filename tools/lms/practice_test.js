@@ -50,6 +50,11 @@ const COURSE = 'cpd-designing-a-repeatable-test.html';
   // 4 reload keeps the result in this browser
   await page.reload(); await page.waitForSelector('#lms-box form');
   log(/best so far: 100% \(passed\)/.test(await box.innerText()) && await page.locator('.practice-cert').count() === 1, 'after reload: best score and certificate still there');
+  // 4b My courses shows the practice result and the next step
+  await page.goto(`${BASE}/members-courses.html`); await page.waitForSelector('#lms-box .acc-card');
+  const mc = await page.locator('#lms-box').innerText();
+  log(/best 100% \(passed\)/.test(mc) && /Practice certificate earned/.test(mc), 'My courses: practice score and "certificate earned"');
+  log(await page.locator('#lms-box a', { hasText: 'Certificate' }).count() === 1, 'My courses: Certificate button opens the check page');
   // 5 phone width
   const m = await browser.newContext({ viewport: { width: 390, height: 800 } }); await m.addCookies([{ name: 'hfl_in', value: '1', url: BASE }]);
   const mp = await m.newPage(); await mp.goto(`${BASE}/index.html`);

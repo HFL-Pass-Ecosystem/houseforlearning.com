@@ -20,9 +20,10 @@ PAGES = [
     ('board', 'My board', 'Members', 'Sticky notes for what matters today. Your own notes, notes from your trainer, and a note made for you each day.', 'my board', 'Your notes'),
     ('home', 'My learning home', 'Members', 'Your next step, your journey, your hub and your help, all in one place.', 'learning home', 'Your journey'),
     ('plan', 'Plan my growth', 'Members', 'Choose your sector, community and life space. Get a week of small steps sized to your minutes.', 'growth plan', 'Your week'),
+    ('manuals', 'Manuals library', 'Help', 'Short how-to manuals for learners, authors, trainers and staff. Each ends with a button to the real screen.', 'manuals', 'Pick a manual'),
     ('reports', 'Facilitator report', 'Facilitators', 'Who joined, how far they have got, and how they did.', 'report', 'Learners and courses'),
 ]
-KIND = {'pay': 'pay', 'quiz': 'quiz', 'certificate': 'verify', 'members-courses': 'courses', 'reports': 'reports', 'author': 'author', 'learn': 'play', 'board': 'board', 'home': 'home', 'plan': 'plan'}
+KIND = {'pay': 'pay', 'quiz': 'quiz', 'certificate': 'verify', 'members-courses': 'courses', 'reports': 'reports', 'author': 'author', 'learn': 'play', 'board': 'board', 'home': 'home', 'plan': 'plan', 'manuals': 'manuals'}
 for slug, h1, kick, lede, k2, h2 in PAGES:
     t = re.sub(r'(<title>)[^<]*(</title>)', rf'\g<1>{h1} | House for Learning\g<2>', pre)
     t = re.sub(r'(<meta property="og:title" content=")[^"]*(">)', rf'\g<1>{h1} | House for Learning\g<2>', t)
@@ -34,7 +35,7 @@ for slug, h1, kick, lede, k2, h2 in PAGES:
             f'<section class="sec" aria-labelledby="h2"><div class="wrap"><div class="sec-head"><p class="kicker">{k2}</p><h2 id="h2">{h2}</h2></div><div class="sec-body"><div class="wrap"><div id="lms-box" class="acc-card"><p>Loading.</p></div><noscript><p>This page needs JavaScript.</p></noscript></div></div></div></section></main>')
     if slug in ('pay', 'quiz', 'reports', 'members-courses', 'author', 'learn', 'board', 'home', 'plan'):
         t = t.replace('<meta name="robots" content="index,follow">', '<meta name="robots" content="noindex">')
-    extra = {'author': 'author-studio.js', 'learn': 'author-player.js', 'board': 'board.js', 'home': 'learner-home.js', 'plan': 'growth-plan.js'}.get(slug)
+    extra = {'author': 'author-studio.js', 'learn': 'author-player.js', 'board': 'board.js', 'home': 'learner-home.js', 'plan': 'growth-plan.js', 'manuals': 'manuals.js'}.get(slug)
     pp = post.replace('<script src="assets/lms-pages.js" defer></script>', '<script src="assets/lms-pages.js" defer></script>\n<script src="assets/%s" defer></script>' % extra) if extra else post
     open(os.path.join(SITE, slug + '.html'), 'w', encoding='utf-8').write(t + main + pp)
 print('LMS pages written')

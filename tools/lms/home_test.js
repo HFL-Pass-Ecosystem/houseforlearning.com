@@ -16,7 +16,7 @@ const rnd = Math.random().toString(36).slice(2, 7);
   log(/Hema Learner/.test(await page.locator('#lms-box h3').first().innerText()), 'greets the member by name');
   log(await page.locator('.lh-next a:has-text("Browse member courses")').count() === 1, 'new member is told the next step: browse courses');
   log(await page.locator('.lh-strip li.on').count() === 0 && await page.locator('.lh-strip li').count() === 5, 'journey strip shows five steps, none done');
-  log(await page.locator('.lh-hub .lh-card').count() === 10, 'hub has ten cards (six learning tools and the four start pages)');
+  log(await page.locator('.lh-hub .lh-card').count() === 11, 'hub has eleven cards (seven learning tools and the four start pages)');
   await page.click('.lh-q >> nth=1'); log(await page.locator('.lh-q[open]').count() === 1, 'questions open and close');
   // join a course -> strip ticks, next step changes
   await page.evaluate(() => fetch('/api/lms', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ action: 'enrol', course: 'cpd-designing-a-repeatable-test.html', title: 'Designing a repeatable test', total: 3, method: 'bank' }) }));

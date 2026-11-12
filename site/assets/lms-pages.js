@@ -2,7 +2,7 @@
    Talks to /api/lms through HFLAccess (assets/access.js). Text is always set with textContent. */
 (function () {
   var main = document.querySelector('main[data-lms]'); if (!main) return;
-  var kind = main.getAttribute('data-lms'); if (kind === 'author' || kind === 'play' || kind === 'board' || kind === 'home' || kind === 'plan') return; /* these two have their own scripts */
+  var kind = main.getAttribute('data-lms'); if (kind === 'author' || kind === 'play' || kind === 'board' || kind === 'home' || kind === 'plan' || kind === 'manuals') return; /* these two have their own scripts */
   var box = document.getElementById('lms-box'), A = window.HFLAccess;
   function el(t, c, x) { var e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; }
   function link(h, t, c) { var a = el('a', c || 'btn', t); a.href = h; return a; }
@@ -224,7 +224,12 @@
     ks.forEach(function (k) {
       var r = d[k], t = r.total || 0, c = (r.done || []).length, card = el('div', 'acc-card'), l = el('div');
       l.appendChild(el('h3', '', r.title || k)); l.appendChild(el('p', '', t ? c + ' of ' + t + ' units done' : 'Not started')); if (t) l.appendChild(bar(c, t));
-      card.appendChild(l); card.appendChild(link(k, c ? 'Continue' : 'Start')); box.appendChild(card);
+      var pr = r.practice, next = !t || c < t ? 'Next: finish the units, then take the final check.' : (pr && pr.passed ? 'Course complete. Practice certificate earned.' : 'Next: take the final check.');
+      if (pr) l.appendChild(el('p', '', 'Final check (practice): best ' + pr.pct + '%' + (pr.passed ? ' (passed)' : ' (not passed yet)')));
+      l.appendChild(el('p', 'note', next));
+      var act = el('div', 'acc-act'); act.appendChild(link(k, c ? (t && c >= t ? 'Review' : 'Continue') : 'Start'));
+      if (t && c >= t) act.appendChild(link('quiz.html?course=' + encodeURIComponent(k), pr && pr.passed ? 'Certificate' : 'Final check', 'btn btn-ghost'));
+      card.appendChild(l); card.appendChild(act); box.appendChild(card);
     });
   }
 
