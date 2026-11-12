@@ -7,7 +7,8 @@
      "We have your message and we are reading it", with a typing cue, then the reference number when the
      site's own form code shows it, a line that encourages them, and a "how do you feel?" emoji row.
    - The "Ask" assistant: the visitor's bubble gets a reaction and a short typing cue before each answer.
-   - Other code can call it: Warm.ack({kind, name, ref}), Warm.react(element, '🎉'), Warm.typing(true|false).
+   - Other code can call it: Warm.ack({kind, name, ref}), Warm.react(element, '🎉'), Warm.typing(true|false), Warm.note('text').
+   - Events for other scripts (karma.js listens): 'warm:sent' {kind, ref} once a reference is shown, 'warm:feeling' {feeling, ref}.
    It never sends anything anywhere and stores nothing. It only says "received" when the site's form code says so.
    Turn it off for one form with data-warm="off". Change any wording with window.WARM_TEXT before this file loads.
    The sites' Content-Security-Policy has no 'unsafe-inline', so styles go in a constructed stylesheet inside a shadow root. */
@@ -80,7 +81,7 @@
     '.card{position:fixed;left:20px;bottom:20px;z-index:2147482999;width:min(380px,calc(100vw - 32px));background:#fffdf8;color:#1d2a3a;' +
     'border-radius:18px;box-shadow:0 18px 50px rgba(0,0,0,.25);padding:16px 16px 14px 16px;font:15px/1.45 system-ui,-apple-system,"Segoe UI",Arial,sans-serif;border:1px solid rgba(0,0,0,.06)}' +
     '.top{display:flex;gap:12px;align-items:flex-start}.big{font-size:34px;line-height:1;flex:none}' +
-    '.msg{flex:1}.msg b{display:block;font-size:15.5px;margin-bottom:2px}.line{margin:8px 0 0;font-style:italic;color:#5a4a2a}' +
+    '.msg{flex:1}.msg b{display:block;font-size:15.5px;margin-bottom:2px}.line{margin:8px 0 0;font-style:italic;color:#5a4a2a}.note{margin-top:6px;font-weight:700;color:#b7791f}' +
     '.x{background:none;border:0;font-size:22px;line-height:1;cursor:pointer;color:inherit;width:32px;height:32px;margin:-6px -6px 0 0;flex:none}' +
     '.dots{display:inline-flex;gap:4px;margin-left:6px;vertical-align:middle}.dots i{width:7px;height:7px;border-radius:50%;background:#c98b2b;display:block}' +
     '.feel{margin-top:10px;border-top:1px dashed rgba(0,0,0,.15);padding-top:8px;font-size:13px}.feel div{display:flex;gap:6px;margin-top:6px}' +
@@ -197,7 +198,11 @@
       settled = true; mo.disconnect();
       if (stepped) react(btn || f, kindEmoji(kind));
       if (out.getAttribute('role') === 'alert' || BAD.test(t)) ack({ state: 'fail', kind: kind });
-      else { var m = t.match(REF); ack({ state: 'done', kind: kind, name: name, ref: m ? m[1].replace(/[.,]$/, '') : '' }); }
+      else {
+        var m = t.match(REF), rf = m ? m[1].replace(/[.,]$/, '') : '';
+        ack({ state: 'done', kind: kind, name: name, ref: rf });
+        try { D.dispatchEvent(new CustomEvent('warm:sent', { detail: { kind: kind, ref: rf, page: location.pathname } })); } catch (er) {}
+      }
     }
     var mo = new MutationObserver(check); f._warm = mo; mo.observe(out, { childList: true, characterData: true, subtree: true, attributes: true });
     setTimeout(function () { if (!settled) { settled = true; mo.disconnect(); } }, 30000);
@@ -239,6 +244,9 @@
     D.addEventListener('click', function () { setTimeout(hookChat, 0); }, true);
   }
 
-  window.Warm = { ack: ack, react: react, typing: typing, close: closeCard };
+  /* Add one short line to the open card (karma.js uses it for "+5 karma"). */
+  function note(text) { if (!card) return; var n = el('div', 'note', text); var m = card.querySelector('.msg'); (m || card).appendChild(n); later(9000); }
+
+  window.Warm = { ack: ack, react: react, typing: typing, close: closeCard, note: note };
   if (D.readyState === 'loading') D.addEventListener('DOMContentLoaded', watchChat); else watchChat();
 })();
