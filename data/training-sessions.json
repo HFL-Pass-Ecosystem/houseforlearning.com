@@ -1,0 +1,376 @@
+{
+ "title": "HFL Courses live session kit",
+ "version": "draft-1 (3 Nov 2026)",
+ "status": "DRAFT. Nothing live. Test data only.",
+ "vark_ls": {
+  "V": "Visual",
+  "A": "Aural",
+  "R": "Read/Write",
+  "K": "Kinaesthetic",
+  "Au": "Authoring",
+  "T": "Training",
+  "L": "Learning",
+  "E": "Earning"
+ },
+ "session_plan": [
+  {
+   "min": 10,
+   "name": "Welcome",
+   "vark": [
+    "A",
+    "V"
+   ],
+   "bloom": [
+    "Recall",
+    "Identify"
+   ],
+   "facilitator": "Say the day, date and time in the learner's own time zone. Check sound and screen with one chat word. Say the length, that the recording comes, that notes come after, and when questions are answered.",
+   "learner": "Reply in chat that you can hear and see. Read the one-line aim."
+  },
+  {
+   "min": 40,
+   "name": "Show",
+   "vark": [
+    "V",
+    "A"
+   ],
+   "bloom": [
+    "Explain",
+    "Demonstrate"
+   ],
+   "facilitator": "Share your screen. Walk one example from start to end in small steps. Name each step out loud. Pause every 10 minutes for a quick check.",
+   "learner": "Watch and listen. Write only the steps you will want again."
+  },
+  {
+   "min": 40,
+   "name": "Do together",
+   "vark": [
+    "K",
+    "Au"
+   ],
+   "bloom": [
+    "Apply",
+    "Create"
+   ],
+   "facilitator": "Learners do the same task on their own screen. Helpers answer in chat. Show one finished example, then ask learners to share a small result.",
+   "learner": "Do the task with the facilitator. Ask in chat if stuck."
+  },
+  {
+   "min": 10,
+   "name": "Next steps",
+   "vark": [
+    "R"
+   ],
+   "bloom": [
+    "Summarise",
+    "Plan"
+   ],
+   "facilitator": "Show the post-read, the follow-up task, key dates and the support route on one slide. Pin the same text in chat.",
+   "learner": "Pick one thing to do before the next session and write it down."
+  },
+  {
+   "min": 20,
+   "name": "Questions",
+   "vark": [
+    "A",
+    "R"
+   ],
+   "bloom": [
+    "Question",
+    "Evaluate"
+   ],
+   "facilitator": "Answer questions in order of votes. Park long ones for the Q and A hour. End on time.",
+   "learner": "Ask by voice or chat. Vote for questions you also have."
+  }
+ ],
+ "priming": {
+  "pre": [
+   {
+    "when": "3 days before",
+    "what": "Pre-read arrives (about 10 minutes): aim, key words, one picture, one small task.",
+    "vark": [
+     "R",
+     "V"
+    ]
+   },
+   {
+    "when": "1 day before",
+    "what": "Reminder with the start time in your own time zone and the join button.",
+    "vark": [
+     "R"
+    ]
+   },
+   {
+    "when": "2 hours before",
+    "what": "Get-ready list: check audio and internet, keep a notebook, open the join page 5 minutes early.",
+    "vark": [
+     "R",
+     "K"
+    ]
+   },
+   {
+    "when": "Optional, any time before",
+    "what": "One-tap poll: what do you want to leave with? (optional, no name needed)",
+    "vark": [
+     "R"
+    ]
+   }
+  ],
+  "during": [
+   {
+    "at": "0 min",
+    "what": "Say 'I can hear and see' in chat.",
+    "bloom": "Recall"
+   },
+   {
+    "at": "10 min",
+    "what": "Poll: which example would you like to build first?",
+    "bloom": "Select"
+   },
+   {
+    "at": "25 min",
+    "what": "Quick check: in one line, explain the step we just did.",
+    "bloom": "Explain"
+   },
+   {
+    "at": "50 min",
+    "what": "Do-together task: make your own small version.",
+    "bloom": "Create"
+   },
+   {
+    "at": "80 min",
+    "what": "Share one result in chat (optional).",
+    "bloom": "Present"
+   },
+   {
+    "at": "100 min",
+    "what": "Confidence dial 1 to 5 (anonymous).",
+    "bloom": "Evaluate"
+   }
+  ],
+  "post": [
+   {
+    "when": "Within 24 hours",
+    "what": "Recording plus post-read (notes, steps, links).",
+    "vark": [
+     "A",
+     "R"
+    ]
+   },
+   {
+    "when": "Day 3",
+    "what": "Follow-up task: apply the skill to your own idea. Share if you wish.",
+    "vark": [
+     "K",
+     "Au"
+    ]
+   },
+   {
+    "when": "Day 7",
+    "what": "Reflection: what changed, what is still hard, what do you need? (private to you unless you choose to share)",
+    "vark": [
+     "R"
+    ]
+   },
+   {
+    "when": "After the quiz",
+    "what": "Pass the session quiz, then collect the certificate from the hub.",
+    "vark": [
+     "R"
+    ]
+   }
+  ]
+ },
+ "assessments": [
+  {
+   "id": "poll-pre",
+   "name": "Pre-session interest poll",
+   "when": "before",
+   "purpose": "Choose examples that fit the group.",
+   "collects": "One choice. No name.",
+   "keep_days": 30,
+   "consent": "Opt in each time",
+   "anonymous": true
+  },
+  {
+   "id": "poll-live",
+   "name": "Live poll",
+   "when": "during",
+   "purpose": "Decide what to show next.",
+   "collects": "One choice. No name.",
+   "keep_days": 7,
+   "consent": "Joining the poll is the choice",
+   "anonymous": true
+  },
+  {
+   "id": "check-quick",
+   "name": "Quick check",
+   "when": "during",
+   "purpose": "Spot what needs repeating.",
+   "collects": "Right or wrong, not who.",
+   "keep_days": 7,
+   "consent": "Joining is the choice",
+   "anonymous": true
+  },
+  {
+   "id": "confidence",
+   "name": "Confidence dial",
+   "when": "end",
+   "purpose": "Know if the pace was fair.",
+   "collects": "A number 1 to 5.",
+   "keep_days": 30,
+   "consent": "Opt in",
+   "anonymous": true
+  },
+  {
+   "id": "quiz",
+   "name": "Session quiz",
+   "when": "after",
+   "purpose": "Show you understood, and unlock the certificate.",
+   "collects": "Your answers and score, tied to your account.",
+   "keep_days": 365,
+   "consent": "Needed for a certificate. You may skip the quiz and still watch everything.",
+   "anonymous": false
+  },
+  {
+   "id": "reflect",
+   "name": "Reflection",
+   "when": "after",
+   "purpose": "Help you see your own growth.",
+   "collects": "Your words. Private to you unless you choose to share.",
+   "keep_days": 365,
+   "consent": "Private by default. Share only if you tick.",
+   "anonymous": false
+  },
+  {
+   "id": "feedback",
+   "name": "Session feedback",
+   "when": "after",
+   "purpose": "Improve the next session.",
+   "collects": "Ratings and one comment. Name is optional.",
+   "keep_days": 180,
+   "consent": "Opt in",
+   "anonymous": true
+  }
+ ],
+ "quiz_sample": [
+  {
+   "q": "What is the first thing a facilitator says at the start of a live session?",
+   "options": [
+    "The price of the course",
+    "The day, date and time and how long the session lasts",
+    "A list of all bonuses",
+    "Who is absent"
+   ],
+   "answer": 1,
+   "why": "It tells learners the plan and shows the session is live."
+  },
+  {
+   "q": "When does the pre-read arrive?",
+   "options": [
+    "After the session",
+    "Three days before",
+    "During the break",
+    "Never"
+   ],
+   "answer": 1,
+   "why": "Early reading lets you arrive ready."
+  },
+  {
+   "q": "Which is a good use of a poll?",
+   "options": [
+    "To collect phone numbers",
+    "To decide which example to show next",
+    "To rank learners",
+    "To sell a product"
+   ],
+   "answer": 1,
+   "why": "A poll must have a clear, useful purpose."
+  },
+  {
+   "q": "Who can see your private reflection?",
+   "options": [
+    "Everyone",
+    "Only you, unless you choose to share",
+    "All admins",
+    "Partner companies"
+   ],
+   "answer": 1,
+   "why": "Reflection is private by default."
+  },
+  {
+   "q": "If you miss a session, what do you do?",
+   "options": [
+    "Nothing",
+    "Watch the recording and read the post-read",
+    "Leave the course",
+    "Ask for a refund at once"
+   ],
+   "answer": 1,
+   "why": "Recordings and notes let you catch up."
+  },
+  {
+   "q": "Which data is NOT needed for an anonymous poll?",
+   "options": [
+    "Your choice",
+    "Your name",
+    "Nothing else",
+    "The time"
+   ],
+   "answer": 1,
+   "why": "Anonymous polls ask for no name."
+  }
+ ],
+ "reflection_prompts": [
+  "Name one thing you can now do that you could not do before this session.",
+  "What was hard? What would help?",
+  "Whom could you teach this to this week?",
+  "What will you do next, and by which day?"
+ ],
+ "consent_principles": [
+  "Say why we ask, before we ask.",
+  "Ask for the least we need. No name for polls.",
+  "Make it optional. Say what happens if you skip.",
+  "Show who can see the answer.",
+  "Keep it only as long as the table says, then delete.",
+  "Never share a list of learners with another company unless the learner said yes for that purpose.",
+  "Never use answers to rank or shame a learner.",
+  "Children and young people: a parent or guardian agrees first, where the law asks for it.",
+  "Anyone may ask to see, correct or delete their answers. Support replies within 24 hours.",
+  "Test data only until the owner says live."
+ ],
+ "agenda_stamps": [
+  {
+   "t": 0,
+   "label": "Welcome: sound check, day, date, time, plan"
+  },
+  {
+   "t": 600,
+   "label": "Show: first example, step by step"
+  },
+  {
+   "t": 1800,
+   "label": "Quick check in chat"
+  },
+  {
+   "t": 3000,
+   "label": "Do together: your own small version"
+  },
+  {
+   "t": 5100,
+   "label": "Share a result (optional)"
+  },
+  {
+   "t": 5400,
+   "label": "Next steps and key dates"
+  },
+  {
+   "t": 6000,
+   "label": "Questions"
+  },
+  {
+   "t": 7200,
+   "label": "Close on time"
+  }
+ ]
+}
