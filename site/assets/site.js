@@ -63,7 +63,7 @@
     var out = f.querySelector('.form-status') || f.appendChild(document.createElement('p'));
     out.hidden = false; out.textContent = 'Sending...';
     fetch(api, { method: 'POST', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name: v('name'), email: v('email'), topic: t && t.value ? t.value : '', message: lines.join('\n'), page: location.pathname, site: location.hostname, website: v('website') }) })
+      body: JSON.stringify({ name: v('name'), email: v('email'), topic: t && t.value ? t.value : '', message: lines.join('\n'), page: location.pathname, site: location.hostname, website: v('website'), consent: !!(f.elements.consent && f.elements.consent.checked) }) })
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(function (d) { f.reset(); out.textContent = 'Thank you. Your message has been sent' + (d && d.ref ? ' (reference ' + d.ref + ')' : '') + '. We reply by email.'; })
       .catch(function () { out.textContent = ''; byMail(); });
