@@ -1,0 +1,27 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HFL Lesson Player (demo)</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="player.css"></head><body>
+<header><a href="../index.html">← Member home</a><h1 id="ttl"></h1>
+<span class="mode" id="mode"><button data-m="learn" class="on">Learner</button><button data-m="author">Author</button><button data-m="train">Trainer</button></span></header>
+<div class="wrap"><main>
+ <div class="stage" id="stage"><div class="cap" id="cap">Press play</div></div>
+ <div class="bar" id="bar" aria-label="Progress"><div class="fill" id="fill"></div></div>
+ <div class="ctl"><button id="play">▶ Play</button><button id="back" class="o">⏪ 10s</button><button id="fwd" class="o">10s ⏩</button>
+  <select id="spd" aria-label="Speed"><option>0.75</option><option selected>1</option><option>1.25</option><option>1.5</option><option>2</option></select>
+  <button id="note" class="o">📝 Note here</button><button id="mark" class="o">🔖 Bookmark</button><button id="listen" class="o">🔊 Listen</button>
+  <span id="time" class="small">0:00</span></div>
+ <p class="small" id="chap"></p>
+ <div class="card"><b>Micro-learning</b> <span class="pill">1 minute</span><div id="micro"></div></div>
+ <div class="card" style="margin-top:12px"><b>70-20-10 for this lesson</b><div class="mm" id="mm"></div></div>
+</main><aside class="card">
+ <div class="tabs" id="tabs"><button data-p="chat" class="on">💬 Ask</button><button data-p="notes">📝 Notes</button><button data-p="tx">📜 Words</button><button data-p="circle">👥 Circle</button><button data-p="work">🛠 At work</button><button data-p="role">⚙ Tools</button></div>
+ <div class="pane on" id="p-chat"><div id="log"></div><p class="small" id="ai">Helper answers from this lesson only. Paid AI is off. Demo data.</p>
+  <input id="q" placeholder="Ask about this lesson…" aria-label="Ask"><p><button class="btn" id="ask">Ask</button> <button class="btn o" id="human">Talk to a person</button></p></div>
+ <div class="pane" id="p-notes"><div id="nl"></div><p><button class="btn o" id="exp">Copy my notes</button></p></div>
+ <div class="pane" id="p-tx"></div>
+ <div class="pane" id="p-circle"><div id="cl"></div><textarea id="ct" rows="2" placeholder="Share with your study circle"></textarea><p><button class="btn" id="cp">Post</button></p></div>
+ <div class="pane" id="p-work"><p id="wt"></p><textarea id="wr" rows="4" placeholder="Your reflection"></textarea><p><button class="btn" id="ws">Save reflection</button> <span id="wm" class="small"></span></p></div>
+ <div class="pane" id="p-role"></div>
+</aside></div>
+<script src="lesson.js"></script><script src="player.js"></script></body></html>
