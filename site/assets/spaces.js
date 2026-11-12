@@ -32,11 +32,29 @@
     'The check question tests the goal.',
     'Plain words, our own words, no outside brand names.'
   ];
+  // [pathway, level, title, need, goal, task, standard, practice, author, check question, answer]
+  var MORE = [
+    ['P', 1, 'A clear two-line update', 'New staff write long updates that managers do not read.', 'Write a two-line work update that says what is done and what is next.', 'Send your team lead today\'s update.', 'Two lines, no more than 40 words, one clear next step.', 'Cut a long demo update down to two lines.', 'Demo Author D', 'What two things must the update say?', 'What is done and what is next.'],
+    ['P', 2, 'Plan your week in ten minutes', 'People start the week without knowing their three most important tasks.', 'Pick and schedule your three most important tasks for the week.', 'Plan next week on a one-page planner.', 'Three tasks, each with a day and a time.', 'Sort ten demo tasks into must, should and later.', 'Demo Author A', 'How many top tasks do you pick?', 'Three.'],
+    ['A', 1, 'Take notes you can use', 'New learners copy everything and cannot find the main idea later.', 'Make one page of notes with the main idea, three points and one question.', 'Take notes on a ten-minute demo talk.', 'One page: main idea, three points, one question.', 'Turn a long demo paragraph into three points.', 'Demo Author E', 'What goes at the top of the page?', 'The main idea.'],
+    ['A', 2, 'Read a simple chart', 'Learners misread charts because they skip the labels.', 'Read the title, the axes and one trend from a simple chart.', 'Explain a demo sales chart to a friend in three sentences.', 'Title, both axes and one trend, all correct.', 'Label the parts of three demo charts.', 'Demo Author E', 'What do you read first on a chart?', 'The title.'],
+    ['V', 1, 'Measure twice, cut once', 'New trainees waste material by cutting before checking the size.', 'Measure and mark a cut that is within 1 mm.', 'Cut a demo board to a size from a drawing.', 'Within 1 mm, measured twice, marked clearly.', 'Measure five demo pieces and write the sizes.', 'Demo Author A', 'How many times do you measure before you cut?', 'Twice.'],
+    ['E', 1, 'Is your idea worth testing?', 'New founders spend months on ideas nobody asked for.', 'Score an idea on need, reach and cost in fifteen minutes.', 'Score your own business idea with the three-line sheet.', 'All three lines scored with one reason each.', 'Score two demo ideas and pick one.', 'Demo Author C', 'What are the three lines?', 'Need, reach and cost.'],
+    ['R', 2, 'A ten-minute walk plan', 'People want to move more but never start.', 'Plan five ten-minute walks in your week.', 'Put five walks in your calendar for next week.', 'Five walks, each with a day, a time and a place.', 'Find three ten-minute gaps in a demo day.', 'Demo Author F', 'How long is each walk?', 'Ten minutes.']
+  ];
+  // Where each pathway leads: [role, level needed]
+  var ROLES = {
+    P: [['Demo role: Team assistant', 2], ['Demo role: Team lead', 4], ['Demo role: Department manager', 7]],
+    A: [['Demo role: Research assistant', 3], ['Demo role: Analyst', 5], ['Demo role: Research supervisor', 7]],
+    V: [['Demo role: Trainee technician', 2], ['Demo role: Technician', 4], ['Demo role: Site supervisor', 6]],
+    E: [['Demo role: Freelancer', 3], ['Demo role: Small business owner', 5], ['Demo role: Growing company founder', 7]],
+    R: [['Demo role: Wellbeing helper', 2], ['Demo role: Group coach', 5], ['Demo role: Club leader', 6]]
+  };
   function now() { return new Date().toISOString(); }
   function uid(p) { return p + '-' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6); }
   function seed() {
     var s = {
-      v: 1,
+      v: 2,
       me: { name: 'Demo Learner' },
       reviewer: 'Demo Trainer B',
       paver: { path: 'P', joined: {}, done: {} },
@@ -69,7 +87,14 @@
       ],
       log: []
     };
-    s.log.push(chainEntry(null, { what: 'published', id: 'cap-demo1', title: s.capsules[0].title, by: 'Demo Trainer B', at: '2026-11-10T09:00:00Z' }));
+    MORE.forEach(function (m, i) {
+      s.capsules.push({ id: 'cap-more' + (i + 1), title: 'Demo capsule: ' + m[2], path: m[0], level: m[1], author: m[8], need: m[3], goal: m[4], task: m[5], standard: m[6],
+        practice: m[7], q: m[9], a: m[10], status: 'published', feedback: '', reviewer: 'Demo Trainer B', updated: '2026-11-09T08:0' + i + ':00Z' });
+    });
+    var prev = null;
+    s.capsules.filter(function (c) { return c.status === 'published'; }).sort(function (a, b) { return a.updated < b.updated ? -1 : 1; }).forEach(function (c) {
+      prev = chainEntry(prev, { what: 'published', id: c.id, title: c.title, by: c.reviewer, at: c.updated }); s.log.push(prev);
+    });
     return s;
   }
 
@@ -100,7 +125,7 @@
   var S;
   function load() {
     try { S = JSON.parse(localStorage.getItem(KEY) || 'null'); } catch (e) { S = null; }
-    if (!S || S.v !== 1) { S = seed(); save(); }
+    if (!S || S.v !== 2) { S = seed(); save(); }
   }
   function save() { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) { /* private window: works for this visit only */ } }
   function addLog(what, cap, by) { S.log.push(chainEntry(S.log[S.log.length - 1] || null, { what: what, id: cap.id, title: cap.title, by: by, at: now() })); }
@@ -200,6 +225,19 @@
       h('p', { class: 'sp-next', text: nextI >= 0 ? 'Your next step: L' + (nextI + 1) + ' · Demo: ' + cur.courses[nextI] : 'You finished all seven levels of this pathway. Well done.' })));
     box.appendChild(h('div', { class: 'sp-card' }, h('h3', { text: 'Step 2. Climb the ladder: seven levels' }), ladder));
     box.appendChild(h('div', { class: 'sp-card' }, h('h3', { text: 'Step 3. Short capsules on this pathway (from LAB)' }), capList));
+
+    var lvl = 0; for (var j = 0; j < 7; j++) if (P.done[cur.id + j]) lvl = j + 1; else break;
+    var roles = h('ul', { class: 'sp-roles', id: 'sp-roles' }, ROLES[cur.id].map(function (r) {
+      var ready = lvl >= r[1];
+      return h('li', { class: ready ? 'ok' : 'no' }, h('strong', { text: r[0] }), ' ',
+        h('span', { class: 'sp-badge ' + (ready ? 'sp-published' : 'sp-draft'), text: ready ? 'You are ready to apply' : 'Needs L' + r[1] + ' (you have L' + lvl + ')' }));
+    }));
+    box.appendChild(h('div', { class: 'sp-card' }, h('h3', { text: 'Step 4. Where it leads: jobs and certificates' }),
+      h('p', { class: 'sp-hint', text: 'Finish levels in order. Each finished level is a certificate; roles open as you climb.' }), roles,
+      h('div', { class: 'sp-row' },
+        h('a', { class: 'btn', href: 'career-portal.html', 'data-act': 'to-careers' }, 'Open the career portal'),
+        h('a', { class: 'btn btn-ghost', href: 'certificate-hub.html', 'data-act': 'to-certs' }, 'See my certificates'),
+        h('a', { class: 'btn btn-ghost', href: 'career-pathways.html' }, 'All career pathways'))));
   }
 
   // ================= COLLATE =================

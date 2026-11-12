@@ -124,7 +124,9 @@ write('career-portal.html', 'Career portal', 'Open roles, your applications and 
   ['Training coordinator', 'Full time', 'Dubai', '<a class="btn btn-ghost" href="#cp2">Apply</a>']]) + '<p class="note">Sample roles for testing.</p>') +
  sec('cp2', 'my applications', 'My applications', '<p id="lhapps">You have not applied for anything yet. Applications you start will be listed here with their status.</p>') +
  sec('cp3', 'my profile', 'My career profile', '<p>Your skills, your certificates and your showcase projects in one profile you control. You choose what employers can see.</p>'
-  '<p><a class="btn btn-ghost" href="members.html">Open my page</a></p>'))
+  '<p><a class="btn btn-ghost" href="members.html">Open my page</a></p>') +
+ sec('cp4', 'get ready', 'Not ready yet?', '<p>Climb a pathway in PAVER: each level you finish is a certificate, and roles open as you climb.</p>'
+  '<p><a class="btn" href="paver.html">Open PAVER</a> <a class="btn btn-ghost" href="leap.html">Teach what you know in LEAP</a></p>'))
 
 # ---------- Certificate hub ----------
 write('certificate-hub.html', 'Certificate hub', 'Finish a session, pass its quiz, receive your certificate.', 'members', 'Certificate hub',
@@ -133,7 +135,7 @@ write('certificate-hub.html', 'Certificate hub', 'Finish a session, pass its qui
   ['1 Session', 'Join the live session or watch the recording', '&#9744;'], ['2 Quiz', 'Take the short quiz. Pass mark 70 percent', '&#9744;'],
   ['3 Certificate', 'Your certificate is issued with a code anyone can check', '&#9744;']]) +
   '<p>Certificates come phase by phase, after the lessons and the quiz of that phase.</p>') +
- sec('ch2', 'my certificates', 'My certificates', '<p>None yet. Pass your first quiz and it appears here.</p><p><a class="btn btn-ghost" href="certificate.html">Check a certificate code</a> <a class="btn btn-ghost" href="members-courses.html">My courses</a></p>'))
+ sec('ch2', 'my certificates', 'My certificates', '<p>None yet. Pass your first quiz and it appears here.</p><p><a class="btn btn-ghost" href="certificate.html">Check a certificate code</a> <a class="btn btn-ghost" href="members-courses.html">My courses</a> <a class="btn btn-ghost" href="paver.html">Earn level certificates in PAVER</a></p>'))
 
 # ---------- AI toolkit ----------
 OFFERS = [('Meeting notes helper', 'A sample offer: 6 months free'), ('Slide maker', 'A sample offer: 3 months free'), ('Data helper', 'A sample offer: 6 months free'),
