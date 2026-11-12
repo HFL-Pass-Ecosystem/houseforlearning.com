@@ -588,3 +588,12 @@
   document.addEventListener('touchstart', function (e) { var a = e.target.closest && e.target.closest('a[href]'); var t = e.touches && e.touches[0]; if (a && t) show(a, t.clientX, t.clientY); }, { passive: true, capture: true });
   document.addEventListener('scroll', hide, { passive: true });
 })();
+/* WARM:START  Warm replies (assets/warm.js) and karma points (assets/karma.js) on every page. */
+(function () {
+  var me = document.currentScript, base = me && me.src ? me.src.replace(/site\.js(\?.*)?$/, '') : '/assets/';
+  ['warm.js', 'karma.js'].forEach(function (f) {
+    if (document.querySelector('script[src$="' + f + '"]')) return;
+    var s = document.createElement('script'); s.src = base + f; s.defer = true; document.head.appendChild(s);
+  });
+})();
+/* WARM:END */

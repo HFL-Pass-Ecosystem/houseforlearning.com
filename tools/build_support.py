@@ -253,7 +253,7 @@ def legal(kind):
         pg = pager(("you-said.html", "You said, we did"), ("cookies.html", "Cookies"))
     elif kind == "cookies":
         tbl = ('<div class="table-wrap"><table class="data"><caption>Stored in your browser</caption><thead><tr><th scope="col">Name</th><th scope="col">Purpose</th><th scope="col">How long</th></tr></thead><tbody>'
-               '<tr><th scope="row" data-label="Name">learn-cookie-choice</th><td data-label="Purpose">Remembers whether you pressed Accept or Reject on the notice</td><td data-label="How long">Until you clear your browser storage</td></tr></tbody></table></div>')
+               '<tr><th scope="row" data-label="Name">learn-cookie-choice</th><td data-label="Purpose">Remembers whether you pressed Accept or Reject on the notice</td><td data-label="How long">Until you clear your browser storage</td></tr><tr><th scope="row" data-label="Name">hfl-exec-programme</th><td data-label="Purpose">On the Executive Programme page, remembers the edition and sector you last chose and whether the pointing hand is shown. It holds no personal details.</td><td data-label="How long">Until you clear your browser storage</td></tr></tbody></table></div>')
         sec = [
             ("none", "What we set", "<p>This site sets no analytics, advertising or tracking cookies, and shares nothing with outside partners. Your browser keeps only your own choices.</p>" + tbl),
             ("fonts", "Typefaces", "<p>Our typefaces are served from this site itself. Nothing is fetched from an outside font service, so no one else learns that you visited.</p>"),
