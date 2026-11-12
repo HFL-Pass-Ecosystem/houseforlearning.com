@@ -1,0 +1,13 @@
+/* Skills matrix: colour for each level. Light by default, dark when the device asks for it. */
+:root{--l0:#E4DFD1;--l1:#F3D9A4;--l2:#CFE3F5;--l3:#BFE3C9;--l4:#17703A;--l4fg:#FBF9F3;--lx:#F2C4BC}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--l0:#2B3946;--l1:#5A4316;--l2:#1D4566;--l3:#1F5233;--l4:#5FD07F;--l4fg:#101820;--lx:#6B2A22}}
+.lv{display:inline-block;min-width:2.2em;text-align:center;font-weight:700;border-radius:6px;padding:2px 6px;color:var(--fg)}
+.lv0{background:var(--l0)}.lv1{background:var(--l1)}.lv2{background:var(--l2)}.lv3{background:var(--l3)}.lv4{background:var(--l4);color:var(--l4fg)}
+.lvx{background:var(--lx)}
+.sk-cell{min-width:96px}
+.sk-cell select{width:100%;margin:4px 0 0;padding:4px;font-size:13px}
+.sk-exp{display:block;font-size:12px;color:var(--muted);margin:4px 0 0}
+.sk-key{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 0;padding:0;list-style:none;font-size:13px}
+.sk-risk{background:var(--lx)}
+#mGrid{min-width:920px}
+#mGrid th[scope=row]{min-width:120px;overflow-wrap:normal}

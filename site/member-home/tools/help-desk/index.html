@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Workplace help desk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="kit.css">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../_hub/bar.css">
+<script src="../_hub/style-shim.js"></script>
+<link rel="stylesheet" href="../_hub/gate.css">
+<script src="/member-home/config.js"></script>
+<script src="/member-home/supabase.js"></script>
+<script src="/member-home/auth.js"></script>
+<script src="../_hub/gate-hfl.js"></script>
+</head>
+<body>
+<noscript><p class="k-card">This screen needs JavaScript switched on.</p></noscript>
+<main>
+<h1>Workplace help desk</h1>
+<p class="k-sub">Ask for help with IT, the building, supplies or people matters. Each request gets a ticket number and a target time. Helpers move tickets along, and the person who asked confirms the fix.</p>
+<p class="k-msg" id="say" role="status" aria-live="polite"></p>
+<div class="k-tabs" role="tablist" aria-label="Help desk parts">
+<button type="button" class="k-btn" role="tab" id="tAsk" aria-controls="vAsk" aria-selected="true">Ask for help</button>
+<button type="button" class="k-btn" role="tab" id="tQueue" aria-controls="vQueue" aria-selected="false">Queue</button>
+<button type="button" class="k-btn" role="tab" id="tFaq" aria-controls="vFaq" aria-selected="false">Simple answers</button>
+</div>
+<section class="k-card" id="vAsk" role="tabpanel" aria-labelledby="tAsk">
+<h2>Ask for help</h2>
+<p class="k-note">Target times: Stop-work 1 hour, High 4 hours, Normal 1 day, Low 3 days. Please do not type phone numbers, email addresses or money amounts.</p>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="aWho">Who is asking</label><select class="k-in" id="aWho"></select></div>
+<div><label class="k-lab" for="aArea">Area</label><select class="k-in" id="aArea"></select></div>
+<div><label class="k-lab" for="aUrg">How urgent</label><select class="k-in" id="aUrg"></select></div></div>
+<label class="k-lab" for="aWhat">What is wrong</label><textarea class="k-in" id="aWhat" maxlength="300"></textarea>
+<div class="k-row"><button type="button" class="k-btn k-pri" id="aSend">Send request</button></div>
+<p class="k-note" id="aInfo"></p>
+</section>
+<section class="k-card" id="vQueue" role="tabpanel" aria-labelledby="tQueue" hidden>
+<h2>Queue</h2>
+<p class="k-note">Steps: New, Taken, Waiting, Fixed, Closed. Taking a ticket needs a helper. Only the person who asked can close it, and a helper cannot close their own fix.</p>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="qMe">Acting as</label><select class="k-in" id="qMe"></select></div>
+<div><label class="k-lab" for="qArea">Show area</label><select class="k-in" id="qArea"></select></div>
+<div><label class="k-lab" for="qSt">Show status</label><select class="k-in" id="qSt"></select></div></div>
+<p class="k-note" id="qSum"></p>
+<ul class="k-list" id="qList"></ul>
+<div class="k-row"><button type="button" class="k-btn" id="qDown">Download tickets (spreadsheet file)</button></div>
+</section>
+<section class="k-card" id="vFaq" role="tabpanel" aria-labelledby="tFaq" hidden>
+<h2>Simple answers</h2>
+<p class="k-note">Try these first. If one solves your problem, press "This solved it" so we know which answers help.</p>
+<ul class="k-list" id="fList"></ul>
+</section>
+<p class="k-note">Kept in this browser on this device only. Nothing is sent anywhere. Use Download to keep or share a copy.</p>
+</main>
+<script src="site-data.js"></script>
+<script src="kit.js"></script>
+<script src="page.js"></script>
+<script src="../_hub/bar.js" data-home="../"></script>
+</body>
+</html>

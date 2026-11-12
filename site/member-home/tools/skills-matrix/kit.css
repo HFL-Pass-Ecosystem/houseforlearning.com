@@ -1,0 +1,52 @@
+/* Shared look for the PAVER, COLLATE, LEAP and LAB screens. Light by default, dark when the device asks for it. */
+:root{--bg:#F2EEE2;--panel:#FBF9F3;--fg:#17222B;--muted:#5B6770;--line:#D9D3C2;--blue:#0F85DB;--btn:#0B66A8;--green:#17703A;--amber:#8A5A00}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#101820;--panel:#18232E;--fg:#EEF1F4;--muted:#9AA7B2;--line:#2B3946;--blue:#4DAAF0;--btn:#4DAAF0;--green:#5FD07F;--amber:#E8A93C}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 Montserrat,"Segoe UI",system-ui,sans-serif;padding:24px 16px 80px}
+main{max-width:980px;margin:0 auto}
+h1{font-size:28px;line-height:1.2;margin:0 0 6px}
+h2{font-size:19px;line-height:1.25;margin:0 0 10px}
+h3{font-size:16px;margin:0 0 6px}
+.k-sub{color:var(--muted);margin:0 0 14px;max-width:70ch}
+.k-flow{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 6px;padding:0;list-style:none;font-size:14px}
+.k-flow a,.k-flow span{display:inline-block;padding:6px 12px;border-radius:999px;border:1px solid var(--line);color:var(--fg);text-decoration:none;font-weight:600}
+.k-flow [aria-current]{background:var(--btn);border-color:var(--btn);color:var(--panel)}
+.k-card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px;margin:16px 0 0}
+.k-row{display:flex;flex-wrap:wrap;gap:10px;align-items:end;margin:10px 0 0}
+.k-grow{flex:1 1 220px;min-width:0}
+.k-lab{display:block;font-size:13px;font-weight:600;color:var(--muted);margin:8px 0 2px}
+.k-in{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg);font:15px/1.4 Montserrat,"Segoe UI",system-ui,sans-serif}
+textarea.k-in{min-height:72px;resize:vertical}
+.k-in:focus-visible,.k-btn:focus-visible,summary:focus-visible,input[type=checkbox]:focus-visible,input[type=radio]:focus-visible{outline:3px solid #FFC94D;outline-offset:2px}
+.k-btn{min-height:44px;padding:10px 16px;border-radius:8px;border:2px solid var(--btn);background:var(--panel);color:var(--btn);font:700 15px/1.2 Montserrat,"Segoe UI",system-ui,sans-serif;cursor:pointer}
+.k-btn:hover{background:var(--btn);color:var(--panel)}
+.k-btn.k-pri{background:var(--btn);color:var(--panel)}
+.k-btn.k-quiet{border-color:var(--line);color:var(--fg)}
+.k-btn.k-quiet:hover{background:var(--line);color:var(--fg)}
+.k-btn.k-small{min-height:36px;padding:4px 10px;font-size:13px}
+.k-btn[disabled]{opacity:.45;cursor:not-allowed}
+.k-msg{font-size:14px;font-weight:600;margin:10px 0 0;min-height:1.2em;color:var(--green)}
+.k-note{font-size:14px;color:var(--muted);margin:8px 0 0}
+.k-list{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:10px}
+.k-item{border:1px solid var(--line);border-radius:8px;padding:12px;background:var(--bg)}
+.k-item p{margin:0 0 6px;white-space:pre-wrap;overflow-wrap:anywhere}
+.k-tag{display:inline-block;font-size:12px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--line);color:var(--fg);margin:0 6px 0 0}
+.k-tag.k-ok{background:var(--green);color:var(--panel)}
+.k-tag.k-warn{background:var(--amber);color:var(--panel)}
+.k-mini{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 0}
+.k-check{display:flex;gap:10px;align-items:flex-start;padding:6px 0}
+.k-check input{width:22px;height:22px;flex:0 0 22px;margin:2px 0 0}
+.k-tabs{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 0}
+.k-tabs [aria-selected=true]{background:var(--btn);color:var(--panel)}
+.k-cols{display:grid;gap:12px;grid-template-columns:repeat(3,minmax(0,1fr));margin:10px 0 0}
+.k-col{border:1px dashed var(--line);border-radius:8px;padding:10px;min-height:120px}
+.k-clock{font:700 44px/1 Montserrat,"Segoe UI",system-ui,sans-serif;font-variant-numeric:tabular-nums;margin:6px 0}
+progress{width:100%;height:14px;accent-color:var(--blue)}
+table{border-collapse:collapse;width:100%;margin:10px 0 0;font-size:14px}
+th,td{border:1px solid var(--line);padding:8px;text-align:left;vertical-align:top;overflow-wrap:anywhere}
+.k-scroll{overflow-x:auto}
+[hidden]{display:none!important}
+.k-cols4{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media (max-width:900px){.k-cols4{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:700px){.k-cols,.k-cols4{grid-template-columns:1fr}h1{font-size:23px}}
+@media print{.k-btn,.k-flow,.k-noprint{display:none!important}body{background:#fff;color:#000}}

@@ -1,0 +1,33 @@
+/* Layout: one reading column; ask box, three drop-downs, then inputs, answer, working, legend, versions. */
+:root{--bg:#F2EEE2;--panel:#FBF9F3;--ink:#1d2733;--muted:#5d6874;--line:#d9d1bb;--navy:#0a2a63;--navy-ink:#ffffff;--ok:#1c5d36;--okbg:#e1efe5;--bad:#8f2b1b;--badbg:#f6e0da;--head:#ebe5d2;--key:#f1ecd9;--font:"IBM Plex Sans",Segoe UI,Arial,sans-serif;--mono:"IBM Plex Mono",Consolas,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#161b22;--panel:#1d242d;--ink:#e8e4d8;--muted:#9aa5b1;--line:#34404d;--navy:#7fa6ee;--navy-ink:#0d1520;--ok:#8fd4a6;--okbg:#1c3326;--bad:#f0a595;--badbg:#3a1f1a;--head:#26303b;--key:#222b35;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#161b22;--panel:#1d242d;--ink:#e8e4d8;--muted:#9aa5b1;--line:#34404d;--navy:#7fa6ee;--navy-ink:#0d1520;--ok:#8fd4a6;--okbg:#1c3326;--bad:#f0a595;--badbg:#3a1f1a;--head:#26303b;--key:#222b35;color-scheme:dark}
+*{box-sizing:border-box}.wrap>*{min-width:0}.wrap>.wrap{margin:0;width:100%}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--font);padding-block:20px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1040px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+h1{font-size:clamp(26px,5vw,36px);line-height:1.15;margin:0;text-wrap:balance}
+h2{font-size:19px;margin:0 0 8px}h3{font-size:15px;margin:14px 0 6px}
+.lead{font-size:17px;max-width:68ch;margin:6px 0}.muted{color:var(--muted);font-size:13.5px}
+.tag{display:inline-block;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:16px;min-width:0}
+.grid{display:grid;gap:12px 16px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+label{display:block;font-size:13.5px;font-weight:600;min-width:0}label .muted{font-weight:400;display:block}
+input,select,textarea{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:6px;font:inherit;background:var(--bg);color:var(--ink);margin-top:4px}
+:focus-visible{outline:2px solid var(--navy);outline-offset:2px}
+.btn{background:var(--navy);color:var(--navy-ink);border:0;border-radius:6px;padding:9px 16px;font:inherit;cursor:pointer}
+.btn.light{background:var(--head);color:var(--ink)}.btn.small{padding:4px 10px;font-size:13px}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:12px}
+.pick{display:block;width:100%;text-align:left;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:9px 12px;margin:6px 0;font:inherit;cursor:pointer}
+.pick:hover{border-color:var(--navy)}.pick strong{display:block}
+.stats{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
+.stat{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:12px;min-width:0}
+.stat b{display:block;font-size:23px;color:var(--navy);overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
+.tw{overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:13.5px}
+th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line);vertical-align:top}th{background:var(--head)}
+td.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}tr.key td{background:var(--key);font-weight:600}tr.in td{color:var(--muted)}
+.code{font-family:var(--mono);font-size:12.5px;overflow-wrap:anywhere}
+.badge{display:inline-block;border-radius:14px;padding:3px 12px;font-size:13.5px;font-weight:600}.badge.ok{background:var(--okbg);color:var(--ok)}.badge.bad{background:var(--badbg);color:var(--bad)}
+ul.checks{list-style:none;padding:0;margin:8px 0}ul.checks li{padding:6px 10px;border-radius:6px;margin:4px 0}li.pass{background:var(--okbg)}li.fail{background:var(--badbg)}
+.callout{border-left:4px solid var(--navy);background:var(--bg);padding:8px 12px;border-radius:0 6px 6px 0;margin:0 0 10px}
+.error{background:var(--badbg);color:var(--bad);padding:10px 14px;border-radius:6px}
+.cov td.y{background:var(--okbg);text-align:center}.cov td.n{text-align:center;color:var(--muted)}.cov th{font-size:11.5px}

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tools and equipment register</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="kit.css">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../_hub/bar.css">
+<script src="../_hub/style-shim.js"></script>
+<link rel="stylesheet" href="../_hub/gate.css">
+<script src="/member-home/config.js"></script>
+<script src="/member-home/supabase.js"></script>
+<script src="/member-home/auth.js"></script>
+<script src="../_hub/gate-hfl.js"></script>
+</head>
+<body>
+<noscript><p class="k-card">This screen needs JavaScript switched on.</p></noscript>
+<main>
+<h1>Tools and equipment register</h1>
+<p class="k-sub">Keep a list of shared tools and equipment for on-site and hybrid teams. See where each item is and what state it is in, lend it out and take it back, and keep safety checks up to date.</p>
+<p class="k-msg" id="say" role="status" aria-live="polite"></p>
+<div class="k-tabs" role="tablist" aria-label="Register parts">
+<button type="button" class="k-btn" role="tab" id="tReg" aria-controls="vReg" aria-selected="true">Register</button>
+<button type="button" class="k-btn" role="tab" id="tLend" aria-controls="vLend" aria-selected="false">Lend and return</button>
+<button type="button" class="k-btn" role="tab" id="tDue" aria-controls="vDue" aria-selected="false">Due checks</button>
+</div>
+<section class="k-card" id="vReg" role="tabpanel" aria-labelledby="tReg">
+<h2>All items</h2>
+<p class="k-note" id="rSum"></p>
+<div class="k-scroll"><table id="rGrid"><thead><tr><th scope="col">Tag</th><th scope="col">Item</th><th scope="col">Location</th><th scope="col">Condition</th><th scope="col">Check due</th><th scope="col">Where now</th></tr></thead><tbody></tbody></table></div>
+<h2>Add an item</h2>
+<p class="k-note">A new tag number is given by the screen. The check due date is when the item next needs its calibration or safety check.</p>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="aName">Item name</label><input class="k-in" id="aName" maxlength="60"></div>
+<div class="k-grow"><label class="k-lab" for="aLoc">Location</label><input class="k-in" id="aLoc" maxlength="50"></div></div>
+<div class="k-row"><div><label class="k-lab" for="aCond">Condition</label><select class="k-in" id="aCond"><option>Good</option><option>Needs repair</option><option>Out of use</option></select></div>
+<div><label class="k-lab" for="aDue">Check due date</label><input class="k-in" type="date" id="aDue"></div></div>
+<div class="k-row"><button type="button" class="k-btn k-pri" id="aAdd">Add item</button></div>
+<div class="k-row"><button type="button" class="k-btn" id="rDown">Download register (spreadsheet file)</button>
+<button type="button" class="k-btn" id="lDown">Download history log (spreadsheet file)</button></div>
+</section>
+<section class="k-card" id="vLend" role="tabpanel" aria-labelledby="tLend" hidden>
+<h2>Lend an item</h2>
+<p class="k-note">An item cannot be lent if it is already out, out of use, waiting for repair, or its check date has passed.</p>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="oItem">Item</label><select class="k-in" id="oItem"></select></div></div>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="oWho">Lend to</label><select class="k-in" id="oWho"></select></div>
+<div><label class="k-lab" for="oBack">Return by</label><input class="k-in" type="date" id="oBack"></div></div>
+<div class="k-row"><button type="button" class="k-btn k-pri" id="oLend">Lend</button></div>
+<h2>Items out now</h2>
+<p class="k-note">When an item comes back, pick its condition. "Needs repair" stops lending until a different person marks it repaired.</p>
+<ul class="k-list" id="oList"></ul>
+<h2>Waiting for repair</h2>
+<ul class="k-list" id="pList"></ul>
+</section>
+<section class="k-card" id="vDue" role="tabpanel" aria-labelledby="tDue" hidden>
+<h2>Checks overdue or due in the next 30 days</h2>
+<p class="k-note">The person who checks an item must not be the last person who borrowed it. A check sets the next due date one year (365 days) from today.</p>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="cWho">Checked by</label><select class="k-in" id="cWho"></select></div></div>
+<ul class="k-list" id="cList"></ul>
+</section>
+<p class="k-note">Kept in this browser on this device only. Nothing is sent anywhere. Use Download to keep or share a copy.</p>
+</main>
+<script src="site-data.js"></script>
+<script src="kit.js"></script>
+<script src="page.js"></script>
+<script src="../_hub/bar.js" data-home="../"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Skills matrix</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="kit.css">
+<link rel="stylesheet" href="page.css">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../_hub/bar.css">
+<script src="../_hub/style-shim.js"></script>
+<link rel="stylesheet" href="../_hub/gate.css">
+<script src="/member-home/config.js"></script>
+<script src="/member-home/supabase.js"></script>
+<script src="/member-home/auth.js"></script>
+<script src="../_hub/gate-hfl.js"></script>
+</head>
+<body>
+<noscript><p class="k-card">This screen needs JavaScript switched on.</p></noscript>
+<main>
+<h1>Skills matrix</h1>
+<p class="k-sub">See who in the team can do what. Each person has a level for each skill. Levels 3 and 4 need a sign-off by someone who can teach the skill. Safety skills have an expiry date. Find gaps and plan training.</p>
+<p class="k-msg" id="say" role="status" aria-live="polite"></p>
+<div class="k-tabs" role="tablist" aria-label="Skills matrix parts">
+<button type="button" class="k-btn" role="tab" id="tMatrix" aria-controls="vMatrix" aria-selected="true">Matrix</button>
+<button type="button" class="k-btn" role="tab" id="tSign" aria-controls="vSign" aria-selected="false">Sign off</button>
+<button type="button" class="k-btn" role="tab" id="tPlan" aria-controls="vPlan" aria-selected="false">Plan</button>
+</div>
+<section class="k-card" id="vMatrix" role="tabpanel" aria-labelledby="tMatrix">
+<h2>Team and skills</h2>
+<p class="k-note">Levels: 0 not trained, 1 learning, 2 can do with help, 3 can do alone, 4 can teach. Here you can set levels 0, 1 and 2, or lower a level. To raise someone to 3 or 4, use the Sign off tab.</p>
+<ul class="sk-key" id="mKey"></ul>
+<div class="k-scroll"><table id="mGrid"><thead></thead><tbody></tbody><tfoot></tfoot></table></div>
+<p class="k-note" id="mSum"></p>
+<div class="k-row"><button type="button" class="k-btn" id="mDown">Download the matrix (spreadsheet file)</button></div>
+</section>
+<section class="k-card" id="vSign" role="tabpanel" aria-labelledby="tSign" hidden>
+<h2>Sign off a level 3 or 4</h2>
+<p class="k-note">The person who signs must be at level 4 in that skill (and not expired). They cannot sign for themselves. For a safety skill, give the date the skill runs out.</p>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="sWho">Learner</label><select class="k-in" id="sWho"></select></div>
+<div class="k-grow"><label class="k-lab" for="sSkill">Skill</label><select class="k-in" id="sSkill"></select></div></div>
+<div class="k-row"><div><label class="k-lab" for="sLv">New level</label><select class="k-in" id="sLv"><option value="3">3 can do alone</option><option value="4">4 can teach</option></select></div>
+<div class="k-grow"><label class="k-lab" for="sBy">Signed off by</label><select class="k-in" id="sBy"></select></div>
+<div><label class="k-lab" for="sExp">Expiry date (safety skills)</label><input class="k-in" type="date" id="sExp"></div></div>
+<label class="k-lab" for="sNote">What was checked (short)</label><input class="k-in" id="sNote" maxlength="120">
+<div class="k-row"><button type="button" class="k-btn k-pri" id="sGo">Sign off</button></div>
+<p class="k-note" id="sInfo"></p>
+<h3>Sign-off log</h3>
+<ul class="k-list" id="sLog"></ul>
+</section>
+<section class="k-card" id="vPlan" role="tabpanel" aria-labelledby="tPlan" hidden>
+<h2>Gaps and training plan</h2>
+<p class="k-note">A gap is a safety skill that has run out, or a skill with fewer than 2 people at level 3 or more.</p>
+<ul class="k-list" id="pGaps"></ul>
+<h3>Add a plan line</h3>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="pWho">Who</label><select class="k-in" id="pWho"></select></div>
+<div class="k-grow"><label class="k-lab" for="pSkill">Skill</label><select class="k-in" id="pSkill"></select></div>
+<div><label class="k-lab" for="pBy">By date</label><input class="k-in" type="date" id="pBy"></div></div>
+<label class="k-lab" for="pNote">How (short)</label><input class="k-in" id="pNote" maxlength="120">
+<div class="k-row"><button type="button" class="k-btn k-pri" id="pAdd">Add to plan</button></div>
+<ul class="k-list" id="pList"></ul>
+<div class="k-row"><button type="button" class="k-btn" id="pDown">Download the plan (spreadsheet file)</button></div>
+</section>
+<p class="k-note">Kept in this browser on this device only. Nothing is sent anywhere. Use Download to keep or share a copy.</p>
+</main>
+<script src="site-data.js"></script>
+<script src="kit.js"></script>
+<script src="page.js"></script>
+<script src="../_hub/bar.js" data-home="../"></script>
+</body>
+</html>

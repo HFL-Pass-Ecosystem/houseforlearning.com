@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Draft Desk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../_hub/bar.css">
+<script src="../_hub/style-shim.js"></script>
+<link rel="stylesheet" href="../_hub/gate.css">
+<script src="/member-home/config.js"></script>
+<script src="/member-home/supabase.js"></script>
+<script src="/member-home/auth.js"></script>
+<script src="../_hub/gate-hfl.js"></script>
+</head>
+<body>
+<header class="bar">
+  <div class="brand">Draft<span>Desk</span></div>
+  <span class="badge">AjanSNS Ecosystem enabled</span>
+  <nav class="tabs">
+    <button class="tab on" data-view="desk">Desk</button>
+    <button class="tab" data-view="saved">Saved drafts <b id="draftCount">0</b></button>
+    <button class="tab" data-view="maker">Pattern maker</button>
+    <button class="tab" data-view="profile">Profile</button>
+  </nav>
+  <span id="who" class="who">Guest</span>
+</header>
+<p class="strip">Drafts only. Nothing is posted anywhere without admin approval.</p>
+
+<section id="view-desk" class="view">
+  <div class="desk">
+    <div class="brief">
+      <h2>1. Brief</h2>
+      <label for="title">Working title</label>
+      <input id="title" type="text" placeholder="Example: October learner session">
+      <label for="sector">Sector</label>
+      <select id="sector"></select>
+
+      <h2>2. Format and pattern</h2>
+      <fieldset><legend>Format</legend><div id="formats" class="grid"></div></fieldset>
+      <fieldset><legend>Pattern</legend>
+        <div class="seg"><button id="srcShared" class="segbtn on">Shared patterns</button><button id="srcMine" class="segbtn">My patterns</button></div>
+        <div id="patterns" class="plist"></div>
+        <p id="patNote" class="note"></p>
+      </fieldset>
+
+      <h2>3. Facts</h2>
+      <p class="note">Fill what you know. Empty answers are skipped. The draft updates as you type.</p>
+      <div id="questions"></div>
+    </div>
+
+    <aside class="draft">
+      <h2>Live draft</h2>
+      <p id="blueprint" class="note"></p>
+      <ol id="results" class="results"></ol>
+      <div class="row">
+        <button id="saveBtn" class="btn green">Save draft</button>
+        <button id="copyBtn" class="btn ghost">Copy</button>
+        <button id="shuffleBtn" class="btn ghost">Shuffle order</button>
+      </div>
+      <span id="saveMsg" class="msg"></span>
+    </aside>
+  </div>
+</section>
+
+<section id="view-saved" class="view" hidden>
+  <h1>Saved drafts</h1>
+  <p class="note">Kept on this device only. "Ask for review" only changes a label. Nothing is sent out.</p>
+  <div class="row"><button id="exportDrafts" class="btn ghost">Download drafts file</button></div>
+  <div id="draftList"></div>
+</section>
+
+<section id="view-maker" class="view" hidden>
+  <h2 class="vh1">Pattern maker</h2>
+  <p class="note">Write your own pattern. Put each blank inside double curly brackets, like {{topic}}. Every blank turns into a question on the Desk.</p>
+  <label for="tbName">Pattern name</label>
+  <input id="tbName" type="text" placeholder="Example: My short course teaser">
+  <label for="tbType">Format</label>
+  <select id="tbType"></select>
+  <label for="tbLines">Pattern lines (one per line)</label>
+  <textarea id="tbLines" rows="8" placeholder="How {{audience}} can {{benefit}} in {{timeframe}}&#10;The {{number}} mistakes {{audience}} make with {{topic}}"></textarea>
+  <div id="tbBlanks" class="chips"></div>
+  <div class="row"><button id="tbSave" class="btn green">Keep pattern</button><span id="tbMsg" class="msg"></span></div>
+  <h3>My patterns</h3>
+  <div id="tbList"></div>
+  <div class="row"><button id="tbExport" class="btn ghost">Download my patterns</button><label class="btn ghost filebtn">Load patterns file<input id="tbImport" type="file" accept="application/json" hidden></label></div>
+</section>
+
+<section id="view-profile" class="view" hidden>
+  <h2 class="vh1">Profile</h2>
+  <p class="note">Each member keeps their own patterns and drafts. Use your member ID.</p>
+  <label for="memberId">Member name or ID</label>
+  <input id="memberId" type="text" placeholder="Example: Member 0001">
+  <div class="row"><button id="memberSave" class="btn">Save</button><span id="memberMsg" class="msg"></span></div>
+  <h3>Writer</h3>
+  <p class="note">Now: built-in writer, runs on this page, no cost. A smart AI writer can be added later, only with admin approval.</p>
+</section>
+<script src="templates.js"></script>
+<script src="app.js"></script>
+<script src="../_hub/bar.js" data-home="../"></script>
+</body>
+</html>

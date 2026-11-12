@@ -1,0 +1,15 @@
+/* Karma points: extra look on top of kit.css */
+.k-verse{font-style:italic;color:var(--fg);border-left:4px solid var(--amber);padding:6px 12px;margin:0 0 6px;max-width:75ch}
+.kr-head{display:flex;flex-wrap:wrap;gap:20px;align-items:center;margin:12px 0 0}
+.kr-big{font:700 48px/1 Montserrat,"Segoe UI",system-ui,sans-serif;font-variant-numeric:tabular-nums;margin:0;color:var(--blue)}
+.kr-level{font-size:20px;font-weight:700;margin:0}
+.kr-gap{margin-top:18px}
+.kr-badges{list-style:none;padding:0;margin:8px 0 0;display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(210px,1fr))}
+.kr-badge{border:1px solid var(--line);border-radius:10px;padding:10px;background:var(--bg)}
+.kr-badge p{margin:4px 0 0;font-size:13px;color:var(--muted)}
+.kr-badge strong{display:block}
+.kr-badge.kr-on{border:2px solid var(--green)}
+.kr-badge.kr-off{opacity:.6}
+.kr-resolve{border:1px solid var(--line);border-left:4px solid var(--amber);border-radius:8px;padding:12px;margin:16px 0 0;background:var(--bg)}
+.kr-resolve h3{margin:0}
+.kr-now{font-weight:700;margin:8px 0 0}
