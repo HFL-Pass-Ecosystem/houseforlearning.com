@@ -290,6 +290,8 @@ textarea.box{width:100%;min-height:96px;border:1px solid var(--line);border-radi
 .path li.reach .dot{background:var(--accent);color:var(--accent-ink)}
 .path-h{font-size:18px;font-weight:800;margin-bottom:10px}
 .more-row{margin-top:10px}
+.room-go{margin-top:16px;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:var(--card);display:grid;gap:10px;justify-items:start}
+.room-go p{font-size:15px;line-height:1.5}
 .note.gap-top{margin-top:12px}
 .ic.hand-ic{stroke-width:2}
 .ed-body .entry-note{margin-top:10px;font-size:14px}

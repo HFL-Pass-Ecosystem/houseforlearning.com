@@ -17,7 +17,11 @@ JavaScript inline and its typefaces loaded from an outside font service. This si
   6. applies the few style attributes the page writes into its markup through the style object, which
      the security policy allows (it refuses style attributes in markup);
   7. wraps it all in a full page: lang="en", a viewport, the site's head (canonical address, favicons,
-     message service), and links to the site's home, contact, privacy, cookies and terms pages.
+     message service), and links to the site's home, contact, privacy, cookies and terms pages;
+  8. points the "Open the Learning Room" link (id roomLink, added in version 5) at the site's own Learning Room,
+     learning-room/, in the same tab, when site/learning-room/index.html is in this branch; otherwise it leaves
+     the whole block (id roomGo) out, so the page never links to a room the site does not have, nor to the
+     room's private review page. Run the import again once the room is in the branch.
 
 The page stays out of search results (noindex) until the owner says it may be published.
 
@@ -95,6 +99,19 @@ def fix_body(body):
     body, n3 = re.subn(r'(<footer>.*?)</div>(\s*<div class="caps">)', lambda m: m.group(1) + links + '\n    </div>' + m.group(2), body, count=1, flags=re.S)
     if n3 != 1:
         fail('could not find the footer column for the site links')
+    # 8. the Learning Room: the site's own room when this branch has it, else no link at all
+    block = re.compile(r'\s*<div class="room-go" id="roomGo">.*?</a></div>', re.S)
+    if len(block.findall(body)) != 1:
+        fail('expected the Learning Room block (id roomGo) once. Look at the rebuilt page.')
+    if (SITE / 'learning-room' / 'index.html').is_file():
+        body, k = re.subn(r'<a class="([^"]*)" id="roomLink" data-room-link="1" href="[^"]*" target="_blank" rel="noopener">',
+                          r'<a class="\1" id="roomLink" data-room-link="1" href="learning-room/">', body)
+        if k != 1:
+            fail('could not point the Learning Room link at learning-room/')
+    else:
+        body = block.sub('', body)
+    if 'claude.ai' in body:
+        fail('the page still links to a private review page')
     return body, n, n2
 
 
