@@ -44,6 +44,9 @@ def write(fn, title, desc, kicker, h1, lead, body):
     else: t = t.replace('</head>', '<meta name="robots" content="noindex">\n</head>', 1)
     if 'learner-hub.css' not in t: t = t.replace('</head>', '<link rel="stylesheet" href="assets/learner-hub.css">\n</head>', 1)
     if 'learner-hub.js' not in t: t = t.replace('</body>', '<script src="assets/learner-hub.js" defer></script>\n</body>', 1)
+    if 'id="sp-app"' in t and 'spaces.js' not in t:
+        t = t.replace('</head>', '<link rel="stylesheet" href="assets/spaces.css">\n</head>', 1)
+        t = t.replace('</body>', '<script src="assets/spaces.js" defer></script>\n</body>', 1)
     open(os.path.join(SITE, fn), 'w').write(t)
     print(fn, 'written')
 
@@ -63,6 +66,11 @@ write('learning-hub.html', 'Learning hub', 'Your path in one place: courses, liv
   ('Learning feed', 'Short tips and facts instead of endless scrolling.', 'learning-feed.html', 'Open feed'),
   ('Help', 'Ask a question in one tap. A person is always one step away.', 'help.html', 'Get help'),
   ('Starter kit', 'Read once before you begin.', 'starter-kit.html', 'Open starter kit')])) +
+ sec('lhsp', 'four spaces', 'Your four working spaces', cards([
+  ('PAVER', 'Pick one of five pathways and climb seven levels.', 'paver.html', 'Open PAVER'),
+  ('COLLATE', 'Gather notes, links and examples on one shelf.', 'collate.html', 'Open COLLATE'),
+  ('LEAP', 'Build a short capsule, step by step.', 'leap.html', 'Open LEAP'),
+  ('LAB', 'Check, approve and publish capsules.', 'lab.html', 'Open LAB')], 'ok')) +
  sec('lh3', 'your roadmap', 'Your learning roadmap', '<p>Progress on the sample path: <strong id="lhp-t">0 of 21 lessons</strong></p><div class="lhbar" role="img" aria-label="progress bar"><i id="lhp-b"></i></div>'
   '<p class="note">The bar is a sample. Your real progress shows once you join a course.</p>' +
   table(['Phase', 'What you do', 'Status'], [
@@ -212,8 +220,20 @@ START = [
 write('start.html', 'Start here', 'Many ways in: learning, training, authoring, earning, the marketplace and workplace, LEAP, LAB, PAVER and COLLATE.', 'start', 'Start here',
  'Choose how you want to begin. You can do more than one.', sec('st1', 'ten ways in', 'Where would you like to start?', cards(START, 'ok')))
 
+SPACE_INTRO = {
+ 'paver': 'Pick a pathway, join a level, mark it finished and watch your credits grow. Capsules approved in LAB show up here.',
+ 'collate': 'Make a shelf, add notes, links and examples, arrange the board, see the storyboard, then turn it into a LEAP capsule.',
+ 'leap': 'Fill the seven lines. The readiness list turns green as you go. Save a draft or send it to LAB.',
+ 'lab': 'Pick a capsule from the queue, tick the seven-line check, then approve and publish or return it with feedback.'}
+def space(kind):
+    # Working space (test only): built by assets/spaces.js from demo data kept in this browser.
+    return ('<section class="sec" aria-labelledby="sp-h"><div class="wrap"><div class="sec-head"><p class="kicker">working space</p>'
+      f'<h2 id="sp-h">Use it now</h2></div><div class="sec-body"><p>{e(SPACE_INTRO[kind])}</p>'
+      f'<div id="sp-app" data-space="{kind}"><p class="sp-hint">Loading the space. If nothing appears, please switch on JavaScript.</p></div>'
+      '</div></div></section>\n')
 def stepage(fn, title, kick, lead, what, steps, nxt, ph_label):
-    body = sec('a1', kick, 'What it is', '<p>' + e(what) + '</p>' + ph(ph_label)) + \
+    body = (space(kick) if kick in SPACE_INTRO else '') + \
+      sec('a1', kick, 'What it is', '<p>' + e(what) + '</p>' + ph(ph_label)) + \
       sec('a2', 'how it goes', 'Four steps', '<ol>' + ''.join(f'<li>{e(s)}</li>' for s in steps) + '</ol>') + \
       sec('a3', 'next', 'Go on', cards(nxt, 'ok') + '<p><a class="btn btn-ghost" href="start.html">Back to Start here</a></p>')
     write(fn, title, lead, 'start', title, lead, body)
