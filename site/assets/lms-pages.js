@@ -28,6 +28,7 @@
     box.textContent = '';
     if (kind === 'verify') return certificate();
     if (!A.signedIn()) return signin();
+    if (kind === 'quiz' && A.mode !== 'server') { practice(); A.paint && A.paint(); return; }
     ({ pay: pay, quiz: quiz, courses: courses, reports: reports })[kind] && ({ pay: pay, quiz: quiz, courses: courses, reports: reports })[kind]();
     A.paint && A.paint();
   }
@@ -102,6 +103,63 @@
       });
       box.appendChild(form); box.appendChild(res); box.appendChild(link(authored ? 'learn.html?c=' + encodeURIComponent(c) : c, 'Back to the course', 'btn btn-ghost'));
     }).catch(function () { box.appendChild(say('This course has no final check yet.', true)); box.appendChild(link(c, 'Back to the course')); });
+  }
+
+  /* ---------- practice final check (test mode: the course was joined in this browser, the member database is not switched on yet).
+     The server marks the answers (answers never reach the browser) but saves nothing; the best score is kept in this browser. ---------- */
+  function practice() {
+    var c = q('course'); if (!/^[a-z0-9._-]+\.html$/i.test(c)) { box.appendChild(say('Choose a course first.')); return; }
+    var all = A.load(), rec = all[c];
+    if (!rec || !rec.paid) { box.appendChild(say('Join this course first.', true)); box.appendChild(link(c, 'Open the course')); return; }
+    fetch('assets/quiz/' + encodeURIComponent(c) + '.json').then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (z) {
+      var title = z.title || rec.title || c, done = (rec.done || []).length, total = rec.total || 0;
+      box.appendChild(say('Practice mode: your answers are marked, and your result is kept in this browser only. Certificates with a check code start when the member database is switched on.'));
+      box.appendChild(el('h3', '', 'Final check: ' + title));
+      box.appendChild(el('p', '', 'Answer every question. You need ' + z.pass + '% to pass. You may try again as often as you like. Units done: ' + done + ' of ' + total + '.'));
+      if (rec.practice) box.appendChild(el('p', 'note', 'Your best so far: ' + rec.practice.pct + '%' + (rec.practice.passed ? ' (passed)' : '') + '.'));
+      var form = el('form'); form.noValidate = true;
+      z.questions.forEach(function (qq, i) {
+        var fs = el('fieldset', 'acc-fs'); fs.setAttribute('data-q', String(i)); fs.appendChild(el('legend', '', (i + 1) + '. ' + qq.q));
+        qq.o.forEach(function (o, k) { var l = el('label', 'acc-opt'), r = el('input'); r.type = 'radio'; r.name = 'q' + i; r.value = String(k); l.appendChild(r); l.appendChild(document.createTextNode(' ' + o)); fs.appendChild(l); });
+        form.appendChild(fs);
+      });
+      var go = el('button', 'btn', 'Submit my answers'); go.type = 'submit'; form.appendChild(go);
+      var res = el('div'); res.setAttribute('aria-live', 'polite');
+      form.addEventListener('submit', function (e) {
+        e.preventDefault(); res.textContent = '';
+        var ans = [], miss = 0;
+        z.questions.forEach(function (_, i) { var r = form.querySelector('input[name=q' + i + ']:checked'); if (!r) miss++; ans.push(r ? +r.value : -1); });
+        if (miss) { res.appendChild(say('Please answer all ' + z.questions.length + ' questions. ' + miss + ' left.', true)); return; }
+        go.disabled = true;
+        A.call({ action: 'practice', course: c, answers: ans }).then(function (x) {
+          go.disabled = false;
+          if (x.status !== 200 || !x.right) { res.appendChild(say(x.error || 'The marking service is not reachable just now. Please try again in a moment.', true)); return; }
+          Array.prototype.forEach.call(form.querySelectorAll('fieldset'), function (fs, i) { fs.classList.toggle('acc-right', !!x.right[i]); fs.classList.toggle('acc-wrong', !x.right[i]); });
+          res.appendChild(say('You scored ' + x.score + ' of ' + x.max + ' (' + x.pct + '%). ' + (x.passed ? 'Passed.' : 'Not passed yet: you need ' + x.pass + '%. Check the marked questions and try again.'), !x.passed));
+          var d = A.load(), r0 = d[c] || rec, best = r0.practice || { pct: 0, passed: false };
+          r0.practice = { pct: Math.max(best.pct, x.pct), passed: !!(best.passed || x.passed), at: best.passed && !x.passed ? best.at : Date.now() }; d[c] = r0; A.save(d);
+          if (x.passed) {
+            if (done >= total && total > 0) res.appendChild(practiceCert(title, x.pct));
+            else res.appendChild(say('Finish every unit (' + done + ' of ' + total + ' done) to see your practice certificate.'));
+          }
+          res.scrollIntoView({ block: 'nearest' });
+        });
+      });
+      box.appendChild(form); box.appendChild(res);
+      if (rec.practice && rec.practice.passed && done >= total && total > 0) box.appendChild(practiceCert(title, rec.practice.pct));
+      box.appendChild(link(c, 'Back to the course', 'btn btn-ghost'));
+    }).catch(function () { box.appendChild(say('This course has no final check yet.', true)); box.appendChild(link(c, 'Back to the course')); });
+  }
+  function practiceCert(title, pct) {
+    var card = el('div', 'cert practice-cert');
+    card.appendChild(el('p', 'cert-k', 'House for Learning'));
+    card.appendChild(el('h3', '', 'Practice certificate'));
+    card.appendChild(el('p', '', 'This shows that the final check of'));
+    card.appendChild(el('p', 'cert-course', title));
+    card.appendChild(el('p', '', 'was passed with ' + pct + '% on ' + dt(Date.now()) + '.'));
+    card.appendChild(el('p', 'note', 'Practice only: kept in this browser, with no check code. Your real certificate, with a code anyone can check, is issued when the member database is switched on.'));
+    var pb = el('button', 'btn btn-ghost', 'Print or save'); pb.type = 'button'; pb.addEventListener('click', function () { window.print(); }); card.appendChild(pb);
+    return card;
   }
 
   /* ---------- certificate (public: anyone with the code can check it) ---------- */

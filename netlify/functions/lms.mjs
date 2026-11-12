@@ -41,9 +41,22 @@ export default async (req) => {
   const { body, error, spam } = await readBody(req);
   if (error) return fail(...error);
   if (spam) return ok({});
+  const action = text(body.action, 24);
+
+  // Practice marking: grades a final check without saving anything, so the whole course journey can be tried
+  // before the member database is switched on (or by a browser in test mode). Answers stay on the server; no certificate code is issued.
+  if (action === 'practice') {
+    const course = text(body.course, 130);
+    const key = COURSE.test(course) ? keys[course] : null;
+    if (!key) return fail(404, 'This course has no final check yet');
+    const given = Array.isArray(body.answers) ? body.answers.slice(0, key.length) : [];
+    const right = key.split('').map((k, i) => Number(given[i]) === Number(k));
+    const score = right.filter(Boolean).length, max = key.length, pct = Math.round(100 * score / max);
+    return ok({ score, max, pct, passed: pct >= PASS, pass: PASS, right, practice: true });
+  }
+
   const s = svc();
   if (!s) return fail(503, 'Learning area is not switched on yet');
-  const action = text(body.action, 24);
 
   // Anyone may check a certificate code.
   if (action === 'verify') {

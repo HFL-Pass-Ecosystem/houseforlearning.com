@@ -51,6 +51,7 @@ details.mod>summary{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .cert-course{font-size:1.3rem;font-weight:600}
 .cert-code{font-family:monospace;margin-top:1.2em}
 @media print{.site-head,.site-foot,.trail,.cookie,.hero,.acc-msg,button,.btn{display:none!important}.cert{border-width:4px}}
+@media print{#lms-box form{display:none!important}}
 
 /* Author Studio and the member-course player */
 .au-row{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end;margin:10px 0}
