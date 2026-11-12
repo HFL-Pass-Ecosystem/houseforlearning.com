@@ -21,3 +21,10 @@ s=s[:a]+new+s[a:]
 b=s.index('<section class="sec alt" aria-labelledby="s2-h">')
 s=s[:b]+mid+s[b:]
 open(p,'w').write(s)
+
+# Quick Landing pane (owner's PR 217): head links + mount after the hero heading (idempotent)
+s=re.sub(r'<!-- quickland-head:start -->.*?<!-- quickland-head:end -->\n?','',s,flags=re.S)
+s=re.sub(r'\n?<!-- quickland:start -->.*?<!-- quickland:end -->','',s,flags=re.S)
+s=s.replace('</head>','<!-- quickland-head:start -->\n<link rel="stylesheet" href="assets/quickland.css">\n<script src="assets/quickland-hfl-1.js"></script>\n<script src="assets/quickland.js" defer></script>\n<!-- quickland-head:end -->\n</head>',1)
+s=re.sub(r'(<h1 id="h1">Bloom where you are planted\.</h1>)',r'\1\n<!-- quickland:start -->\n<div id="ql-mount" class="ql-mount"></div>\n<!-- quickland:end -->',s,count=1)
+open(p,'w').write(s)
