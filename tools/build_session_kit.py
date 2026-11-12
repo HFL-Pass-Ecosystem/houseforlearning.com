@@ -15,11 +15,14 @@ PAGES = [('session-kit.html', 'Session kit'), ('session-kit-facilitator.html', '
 VL = D['vark_ls']
 def tags(v): return ' '.join(f'<span class="st" title="{e(VL[x])}">{x}</span>' for x in v)
 def fmt(t): return f'{t//3600}:{t%3600//60:02d}:{t%60:02d}' if t >= 3600 else f'{t//60}:{t%60:02d}'
-CSS = ('<style>.sk table{border-collapse:collapse;width:100%;font-size:.95rem}.sk td,.sk th{border:1px solid #d9d3c2;padding:6px 8px;text-align:left;vertical-align:top}'
+CSS_TEXT = ('.sk table{border-collapse:collapse;width:100%;font-size:.95rem}.sk td,.sk th{border:1px solid #d9d3c2;padding:6px 8px;text-align:left;vertical-align:top}'
        '.sk .st{display:inline-block;background:#F2EEE2;border-radius:999px;padding:1px 9px;font-size:.78rem}.sk .ts{background:#0F85DB;color:#fff;border:0;border-radius:8px;padding:4px 10px;cursor:pointer;font:inherit}'
-       '.sk video{width:100%;max-width:640px}@media (prefers-color-scheme:dark){.sk td,.sk th{border-color:#2a3948}.sk .st{background:#223241}}</style>')
+       '.sk video{width:100%;max-width:640px}.sk .sk-opt{display:block}@media (prefers-color-scheme:dark){.sk td,.sk th{border-color:#2a3948}.sk .st{background:#223241}}\n')
+# The site's page security allows no inline style blocks, so the look lives in its own file.
+open(os.path.join(SITE, 'assets', 'session-kit.css'), 'w').write(CSS_TEXT)
+CSS = ''
 def page(fn, title, intro, body, script=''):
-    h = HEAD.replace('Course and Career Pathways | House for Learning', title + ' | House for Learning')
+    h = HEAD.replace('Course and Career Pathways | House for Learning', title + ' | House for Learning').replace('</head>', '<link rel="stylesheet" href="assets/session-kit.css"></head>', 1)
     h = re.sub(r'<meta name="description" content="[^"]*">', '<meta name="description" content="%s">' % e(intro[:150]), h)
     h = h.replace('career-pathways.html">', fn + '">')
     h = h.replace('<li aria-current="page">Career pathways</li>', '<li aria-current="page">%s</li>' % e(title))
@@ -72,7 +75,7 @@ page('session-kit-assessments.html', 'Assessments, mindfully collected', 'Polls,
      '<h2>Reflection prompts</h2><ol>' + ''.join(f'<li>{e(r)}</li>' for r in D['reflection_prompts']) + '</ol>'
      '<h2>Try the sample quiz</h2><p>Nothing is sent or saved. Your score stays on this page.</p><div id="quiz"></div><p><button class="ts" id="go">Check my answers</button></p><p id="res" aria-live="polite"></p>',
      "var Q=%s,box=document.getElementById('quiz');Q.forEach(function(q,i){var d=document.createElement('div');var b=document.createElement('b');b.textContent=(i+1)+'. '+q.q;d.appendChild(b);"
-     "q.options.forEach(function(o,j){var l=document.createElement('label');l.style.display='block';var r=document.createElement('input');r.type='radio';r.name='q'+i;r.value=j;l.appendChild(r);l.appendChild(document.createTextNode(' '+o));d.appendChild(l)});box.appendChild(d)});"
+     "q.options.forEach(function(o,j){var l=document.createElement('label');l.className='sk-opt';var r=document.createElement('input');r.type='radio';r.name='q'+i;r.value=j;l.appendChild(r);l.appendChild(document.createTextNode(' '+o));d.appendChild(l)});box.appendChild(d)});"
     "document.getElementById('go').onclick=function(){var s=0,o=[];Q.forEach(function(q,i){var c=document.querySelector('input[name=q'+i+']:checked');var ok=c&&+c.value===q.answer;if(ok)s++;o.push((ok?'Right. ':'Not yet. ')+q.why)});document.getElementById('res').textContent='Score '+s+' of '+Q.length+'. '+o.join(' ')};" % QS)
 # recordings agenda page for the two classes (private notes stay private; these show our own pattern only)
 print('session kit written')
