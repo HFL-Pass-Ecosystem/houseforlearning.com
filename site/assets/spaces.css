@@ -1,0 +1,67 @@
+/* PAVER, COLLATE, LEAP and LAB working spaces. Brand: #0F85DB blue, #3CC261 green, #F2EEE2 ivory. */
+#sp-app{display:grid;gap:16px}
+.sp-top{display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end;justify-content:space-between;background:#F2EEE2;border-radius:14px;padding:14px}
+.sp-switch{display:flex;flex-wrap:wrap;gap:8px}
+.sp-tab{display:inline-block;padding:10px 16px;border-radius:999px;border:2px solid #0F85DB;color:#0b4f84;font-weight:700;text-decoration:none;background:#fff}
+.sp-tab.on{background:#0F85DB;color:#fff}
+.sp-tab:focus-visible,.sp-card button:focus-visible,.sp-card a:focus-visible{outline:3px solid #3CC261;outline-offset:2px}
+.sp-me input{max-width:260px}
+.sp-body{display:grid;gap:16px}
+.sp-card{background:#fff;border:1px solid #d9d3c2;border-left:6px solid #0F85DB;border-radius:14px;padding:16px;min-width:0}
+.sp-card h3{margin:0 0 10px;font-size:1.15rem}
+.sp-card h4{margin:14px 0 6px}
+.sp-lead{font-size:1.05rem}
+.sp-hint{color:#4a5560;font-size:.92rem;margin:4px 0}
+.sp-live{position:absolute;left:-9999px}
+.sp-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:8px}
+.sp-paths,.sp-shelves{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 10px}
+.sp-f{display:block;margin:8px 0}
+.sp-f span{display:block;font-weight:700;margin-bottom:4px}
+.sp-f input,.sp-f select,.sp-f textarea{width:100%;max-width:620px;padding:9px;border:1px solid #b9b2a0;border-radius:8px;font:inherit}
+.sp-form{margin:6px 0}
+.sp-badge{display:inline-block;border-radius:999px;padding:3px 10px;font-size:.82rem;background:#F2EEE2;color:#14202b}
+.sp-published{background:#dff5e6;color:#145c2c}
+.sp-review{background:#e1effb;color:#0b4f84}
+.sp-returned{background:#fdecd6;color:#7a4300}
+.sp-draft{background:#eee;color:#333}
+.sp-ladder{list-style:none;padding:0;margin:0;display:grid;gap:8px}
+.sp-rung{border:1px solid #d9d3c2;border-radius:10px;padding:10px 12px}
+.sp-rung.done{border-color:#3CC261;background:#f2fbf4}
+.sp-rung.locked{opacity:.7}
+.sp-rung-h{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.sp-cr{font-size:.85rem;color:#4a5560}
+.sp-next{font-weight:700;color:#0b4f84}
+.sp-board{list-style:none;padding:0;margin:0;display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}
+.sp-note{background:#fffbe8;border:1px solid #e6dcae;border-radius:10px;padding:10px;min-width:0}
+.sp-note p{margin:6px 0;overflow-wrap:anywhere}
+.sp-k-link{background:#eef6fd;border-color:#bcd9f2}.sp-k-example{background:#f2fbf4;border-color:#c3e8cf}.sp-k-practice{background:#fdf1f6;border-color:#efc6d8}
+.sp-kind{display:inline-block;font-size:.75rem;text-transform:uppercase;letter-spacing:.05em;color:#4a5560;margin-right:6px}
+.sp-story{counter-reset:f;list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:10px}
+.sp-story li{counter-increment:f;border:2px solid #0F85DB;border-radius:10px;padding:10px;min-width:150px;max-width:220px}
+.sp-story li::before{content:"Frame " counter(f);display:block;font-size:.8rem;color:#0b4f84;font-weight:700}
+.sp-checks,.sp-checklist{list-style:none;padding:0;margin:0;display:grid;gap:4px}
+.sp-checks li.ok{color:#145c2c}.sp-checks li.ok::before{content:"\2713  "}
+.sp-checks li.no{color:#7a4300}.sp-checks li.no::before{content:"\25CB  "}
+.sp-checklist label{display:flex;gap:8px;align-items:flex-start;padding:4px 0;cursor:pointer}
+.sp-checklist input{width:22px;height:22px;flex:none}
+.sp-fb{background:#fdecd6;color:#5a3200;border-radius:8px;padding:8px 10px}
+.sp-okline{background:#dff5e6;color:#145c2c;border-radius:8px;padding:8px 10px}
+.sp-dl{display:grid;grid-template-columns:max-content 1fr;gap:4px 12px;margin:0}
+.sp-dl dt{font-weight:700}.sp-dl dd{margin:0;overflow-wrap:anywhere}
+.sp-table{display:block;overflow-x:auto}
+.sp-table table{width:100%;border-collapse:collapse}
+.sp-table th,.sp-table td{text-align:left;padding:8px;border-bottom:1px solid #d9d3c2;vertical-align:top}
+.sp-roles{list-style:none;padding:0;margin:8px 0;display:grid;gap:8px}.sp-roles li{border:1px solid #d9d3c2;border-radius:10px;padding:10px 12px}.sp-roles li.ok{border-color:#3CC261}
+.sp-quiz{border-top:1px dashed #b9b2a0;margin-top:8px;padding-top:8px}.sp-quiz-in{max-width:320px;padding:8px;border:1px solid #b9b2a0;border-radius:8px;font:inherit}
+.sp-preview{margin-top:12px;border:2px dashed #3CC261;border-radius:12px;padding:12px}
+.sp-foot{justify-content:space-between}
+button[disabled]{opacity:.55;cursor:not-allowed}
+@media (max-width:560px){.sp-dl{grid-template-columns:1fr}.sp-tab{padding:8px 12px}}
+@media (prefers-color-scheme:dark){
+.sp-top{background:#223241}.sp-tab{background:#18232d;color:#cfe6fb}.sp-tab.on{background:#0F85DB;color:#fff}
+.sp-card,.sp-rung{background:#18232d;border-color:#2a3948;color:#eef2f5}.sp-rung.done{background:#173225}
+.sp-hint,.sp-cr,.sp-kind{color:#b9c4cd}.sp-next{color:#9fd0fa}
+.sp-note{background:#2a2a1c;border-color:#4a4630;color:#eef2f5}.sp-k-link{background:#1c2c3c}.sp-k-example{background:#1b3324}.sp-k-practice{background:#3a2230}
+.sp-f input,.sp-f select,.sp-f textarea{background:#101820;color:#eef2f5;border-color:#3a4a5a}
+.sp-table th,.sp-table td{border-color:#2a3948}
+}
