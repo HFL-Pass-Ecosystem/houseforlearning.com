@@ -1,0 +1,253 @@
+{
+ "task": "Apply a four-lens moral test, handle gift and payment cases, audit a supplier sample and design a code with conduct-linked pay.",
+ "condition": "Given dilemma cases, a gift limit, an audit sample and a bonus plan. All money figures are in one currency of your choice.",
+ "standard": "Each case is decided with stated reasons, audit figures are correct and the code separates fixed from local rules.",
+ "who": "Managers who work in countries with different norms and must keep one standard.",
+ "modules": [
+  {
+   "title": "Four lenses for a moral choice",
+   "bloom": "Understand: explain",
+   "hours": 9,
+   "intro": "A hard choice can be viewed through results, duties, fairness and care. Using all four stops a person from relying on a single habit.",
+   "points": [
+    "Results: who gains and who is harmed",
+    "Duty: which rule or promise applies",
+    "Fairness and care: who is left out"
+   ],
+   "example": "Worked-example figures, in your currency. A plant manager must decide whether to keep a line running with a known fault. Results: running earns 40,000 a week, but 3 workers face a risk of injury. Duty: the safety rules say stop. Fairness: the workers did not choose the risk. Care: the 3 workers have families. Three of four lenses say stop, so the line is stopped, and the loss of 40,000 a week is treated as a cost of doing the job properly.",
+   "activity": "Take a real or case dilemma and write one sentence under each of the four lenses, then state the decision.",
+   "standard": "All four lenses are used and the final choice follows the majority of lenses with a reason for any lens that is overruled."
+  },
+  {
+   "title": "Moral norms that differ between countries",
+   "bloom": "Analyse: compare",
+   "hours": 10,
+   "intro": "Some practices are normal in one place and a crime in another. A manager must know which differences are real customs and which are just excuses.",
+   "points": [
+    "Separate custom from corruption",
+    "Ask what the local law says",
+    "Ask what the home law says"
+   ],
+   "example": "Worked-example figures, in your currency. In a host country, a small present of about 20 is given at a festival. The home-country rule sets a gift limit of 50 and needs a log entry. The present is 30 under the limit, so it is only logged. Later a supplier offers a 'thank you' of 2,000 during a contract talk. That is 40 times the limit and is linked to a decision, so it is refused and reported.",
+   "activity": "List three gifts with value and timing. For each, say allowed, allowed with a log, or refused, using a 50 limit.",
+   "standard": "Each gift is placed in the correct class using the limit and the timing of the decision."
+  },
+  {
+   "title": "Gifts, facilitation payments and bribery",
+   "bloom": "Apply: decide",
+   "hours": 9,
+   "intro": "A bribe is a payment to get an unfair gain. A small payment to speed up a normal service is still risky and is banned in many places.",
+   "points": [
+    "Test: is it a gain the payer has no right to?",
+    "Never pay to skip a rule",
+    "Record and report every request"
+   ],
+   "example": "Worked-example figures, in your currency. A shipment is held at a border and an officer hints that 150 will release it today. Waiting costs 400 a day in storage for 3 days, which is 1,200. The payment is cheaper at 150, but it is still a bribe. The manager refuses, asks for the official fee list and files a request, and logs the incident. The cost to the firm is 1,200 and the firm keeps its licence.",
+   "activity": "Work through a case where a payment saves money. List the cost of refusal and the risk of paying.",
+   "standard": "The cost of refusal is calculated, the payment is named as a bribe and a lawful route is chosen."
+  },
+  {
+   "title": "Labour standards in supply chains",
+   "bloom": "Apply: audit",
+   "hours": 10,
+   "intro": "A firm is responsible for how its suppliers treat workers. A simple audit checks pay, hours, age and safety.",
+   "points": [
+    "Set a minimum standard in every contract",
+    "Audit a sample of sites",
+    "Fix first, end the contract last"
+   ],
+   "example": "A firm has 40 suppliers and audits 25% each year, which is 10 sites. At the 10 audited sites, 3 show hours above the firm's limit of 60 a week. That is 30%. If the same rate applies to all 40, about 12 suppliers may break the rule. The firm gives each of the 3 a 90-day fix plan and re-audits. Any site that fails again is dropped.",
+   "activity": "Take 30 suppliers and a 20% audit sample. Work out the sample size, the failure rate and the likely total number failing.",
+   "standard": "Sample size is 6, the failure rate is calculated from the findings and the projection to 30 is shown."
+  },
+  {
+   "title": "A repeatable test for a hard decision",
+   "bloom": "Apply: use a method",
+   "hours": 9,
+   "intro": "A written test helps people decide the same way each time. It can be used in any country.",
+   "points": [
+    "Check law, then policy, then conscience",
+    "Ask if you would be happy to see it in the news",
+    "Ask a colleague before acting"
+   ],
+   "example": "Worked-example figures, in your currency. A sales lead may offer a customer a 12% discount, but the limit is 10%. Law: no breach. Policy: breached by 2 points. News test: a 12% discount for one buyer and 10% for others looks unfair. The lead asks the director. The deal is 500,000, so 2 points is 10,000. The director refuses the extra 2%, and the lead offers 10% plus free delivery worth 3,000.",
+   "activity": "Write a three-step test and apply it to a case with a number limit that is breached.",
+   "standard": "The test has three steps in order, the money effect is calculated and the choice stays inside the policy."
+  },
+  {
+   "title": "Codes of conduct that work in many places",
+   "bloom": "Create: design",
+   "hours": 10,
+   "intro": "A code sets one global floor and lets local teams add detail. It must be short enough to read and clear enough to apply.",
+   "points": [
+    "Global floor that cannot be changed",
+    "Local detail that cannot lower the floor or lift a ceiling",
+    "Plain words in each language"
+   ],
+   "example": "Worked-example figures, in your currency. A firm writes a code with 8 rules. 5 are fixed globally (bribes, safety, child labour, fair pay, records). 3 can be set locally (gift limit up to the global ceiling of 50, working hours within the local legal limit, holiday gifts). A site sets a gift limit of 30, which is below the global ceiling of 50, so it is accepted. Another site sets 80, which is above the ceiling, so it is rejected.",
+   "activity": "Write a code with five fixed rules and three local rules and test it with two local proposals.",
+   "standard": "The code separates fixed and local rules and the two proposals are checked against the ceiling."
+  },
+  {
+   "title": "Training and incentives",
+   "bloom": "Evaluate: judge",
+   "hours": 9,
+   "intro": "People follow what is rewarded. If bonuses reward only sales, staff may bend the rules, so bonuses must include conduct.",
+   "points": [
+    "Pay for how as well as how much",
+    "Train with real cases",
+    "Test understanding after training"
+   ],
+   "example": "Worked-example figures, in your currency. A sales bonus is 10,000 for hitting target. The firm changes it to 8,000 for results and 2,000 for passing a conduct review, which is 20% of the bonus. Of 50 staff, 46 pass a short case test, which is 92%. The 4 who fail redo the training in 30 days. The firm checks that conduct complaints fall from 9 to 5 in a year.",
+   "activity": "Redesign a 12,000 bonus so that 25% depends on conduct and set a pass mark for the case test.",
+   "standard": "The split is 9,000 and 3,000, a pass mark is stated and one result is tracked."
+  },
+  {
+   "title": "Monitoring and reporting concerns",
+   "bloom": "Evaluate: assess",
+   "hours": 9,
+   "intro": "A rule with no checks is only words. Monitoring means sampling, reporting lines and a record of action.",
+   "points": [
+    "Check a sample of cases each quarter",
+    "Offer a private reporting line",
+    "Log what was done and by when"
+   ],
+   "example": "Each quarter the ethics team checks 5% of 1,200 expense claims, which is 60 claims. 3 claims break the gift rule, a rate of 5%. That projects to 60 claims out of 1,200, if all were checked. The team follows up the 3 within 14 days and logs each outcome. The following quarter the rate drops to 2 of 60, or 3.3%.",
+   "activity": "Take 800 claims and a 7.5% sample. Work out the sample, the failure rate for 4 breaches and the projection.",
+   "standard": "Sample is 60, failure rate is 6.7% and the projection is about 53 claims."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "List the four lenses used to view a moral choice.",
+   "a": "Results, duty, fairness and care.",
+   "module": 1
+  },
+  {
+   "q": "A gift limit is 50. A supplier gives a gift worth 35 at a festival. What do you do?",
+   "a": "It is under the limit, so it is allowed, and it is logged if the policy needs a log.",
+   "module": 2
+  },
+  {
+   "q": "A border officer asks for 200 to release goods. Storage is 300 a day for 2 days. Is paying right?",
+   "a": "No. It is a bribe even though paying (200) costs less than waiting (600).",
+   "module": 3
+  },
+  {
+   "q": "A firm audits 20% of 50 suppliers and finds 4 failures in the sample. What is the failure rate?",
+   "a": "10 sites are audited, so 4 / 10 = 40%.",
+   "module": 4
+  },
+  {
+   "q": "In the three-step test, which step comes first?",
+   "a": "Check the law.",
+   "module": 5
+  },
+  {
+   "q": "A local team proposes a gift limit of 90 when the global ceiling is 50. What happens?",
+   "a": "It is rejected, because local rules cannot lift the global ceiling.",
+   "module": 6
+  },
+  {
+   "q": "A 10,000 bonus has 20% tied to conduct. How much is that?",
+   "a": "2,000.",
+   "module": 7
+  },
+  {
+   "q": "Why must bonuses include conduct?",
+   "a": "Because people repeat what is rewarded, so pay for results alone can push staff to break rules.",
+   "module": 7
+  },
+  {
+   "q": "A 5% sample of 2,000 claims finds 6 breaches. What is the sample and the failure rate?",
+   "a": "Sample is 100 and the rate is 6%.",
+   "module": 8
+  },
+  {
+   "q": "A site works a 65-hour week and the standard is 60. What does the firm do first?",
+   "a": "Give a fix plan with a time limit and re-audit, and end the contract only if it fails again.",
+   "module": 4
+  }
+ ],
+ "ladder": [
+  {
+   "title": "L1 Basic: Why ethics at work",
+   "slide": "A slide shows one case where a cheap choice led to a high later cost.",
+   "notes": "Say: ethics is part of the job, not an extra. Check: ask for one example from the group. Mistake: treating it as a matter of opinion only."
+  },
+  {
+   "title": "L2 Basic: The four lenses",
+   "slide": "Four boxes for results, duty, fairness and care sit around one dilemma.",
+   "notes": "Say: use all four. Check: fill the boxes for a case. Mistake: using only the result lens."
+  },
+  {
+   "title": "L3 Core: Custom or bribe",
+   "slide": "A table lists gifts by value and timing with allowed, log or refuse.",
+   "notes": "Say: size and timing matter. Check: sort three gifts. Mistake: calling a bribe a custom."
+  },
+  {
+   "title": "L4 Core: Pressure payments",
+   "slide": "A cost sum compares the bribe, the delay and the legal route.",
+   "notes": "Say: cheaper is not the test. Check: work out the cost of waiting. Mistake: paying to save a small delay."
+  },
+  {
+   "title": "L5 Applied: Supplier audits",
+   "slide": "A sample sum shows sites audited, failures found and a projection.",
+   "notes": "Say: sample, then project, then fix. Check: ask for the projected number. Mistake: ending contracts before offering a fix."
+  },
+  {
+   "title": "L6 Applied: Codes and incentives",
+   "slide": "A code with fixed and local rules sits beside a bonus split.",
+   "notes": "Say: pay what you want to see. Check: split a bonus. Mistake: a code that nobody can read."
+  },
+  {
+   "title": "L7 Advanced: Monitoring",
+   "slide": "A trend of sample failure rates over four quarters is shown with follow-up times.",
+   "notes": "Say: check, record, follow up. Check: ask what trend means success. Mistake: running a check once and stopping."
+  }
+ ],
+ "rubric": [
+  {
+   "criterion": "Moral reasoning",
+   "not_yet": "Uses one lens or none.",
+   "meets": "Uses four lenses and states a decision.",
+   "exceeds": "Also explains why one lens was overruled."
+  },
+  {
+   "criterion": "Rule application",
+   "not_yet": "Mixes up custom, gift and bribe.",
+   "meets": "Sorts cases correctly using a limit and timing.",
+   "exceeds": "Also prices the cost of refusing."
+  },
+  {
+   "criterion": "Audit working",
+   "not_yet": "Sample or rate is wrong.",
+   "meets": "Sample, rate and projection are correct.",
+   "exceeds": "Also sets a follow-up plan with dates."
+  },
+  {
+   "criterion": "Code and incentives",
+   "not_yet": "Code is vague or bonus ignores conduct.",
+   "meets": "Code has fixed and local rules and a conduct share in pay.",
+   "exceeds": "Also tracks a result after one year."
+  }
+ ],
+ "jobs": [
+  {
+   "role": "Ethics and compliance officer",
+   "what": "Writes the code and runs checks."
+  },
+  {
+   "role": "Supply chain auditor",
+   "what": "Samples suppliers and reports failures."
+  },
+  {
+   "role": "Country manager",
+   "what": "Applies the code and handles pressure from local partners."
+  },
+  {
+   "role": "Training lead",
+   "what": "Builds case training and tests understanding."
+  }
+ ]
+}

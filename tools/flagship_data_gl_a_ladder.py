@@ -1,0 +1,51 @@
+"""L1-L7 ladder slides (title, notes) for GL-01..GL-06. Own wording. One list of 7 per course, in level order."""
+LADDER = {
+'GL-01': [
+ ('What a lead is', 'Say in one sentence what a lead is and name one place a small shop can find them. Notes: no tools needed; use a local shop the learner knows and ask who has asked about prices this week.'),
+ ('Consent and honest promises', 'Know that people must agree before you contact them and that offers must be true. Notes: show one consent tick box and one false offer; learners mark which is fair and say why.'),
+ ('A simple offer and form', 'Write one offer and a form with three fields or fewer. Notes: check the offer names who it is for and what they get; count the fields and the words on the button.'),
+ ('Run a 14-day lead test', 'Run the test for one real business and report conversion rate and cost per customer. Notes: use 200 visitors giving 14 leads as the practice case (7 per cent); learners redo the sums on their own numbers.'),
+ ('Compare sources and decide', 'Compare at least three sources by cost per lead and choose what to scale, change or stop using a rule written before the test. Notes: scale if cost per customer is under half the profit per customer; learners defend one decision.'),
+ ('Coach a team on follow-up', 'Set reply targets, templates and a weekly review for a small team. Notes: target a reply within about one hour in working hours; sample five replies and mark them against a checklist.'),
+ ('Design the whole lead system', 'Design a lead system for several businesses with data rules, audit and a yearly plan. Notes: review consent records and source tracking for gaps; present one risk, one saving and a 12-month plan.')],
+'GL-02': [
+ ('Parts of a robot', 'Name the sense, think and act parts of a simple robot. Notes: use a toy or a picture; learners label sensor, controller and motor with no powered kit.'),
+ ('Safe handling', 'Follow low-voltage and battery safety rules and say why wheels are lifted for the first test. Notes: run a walk-through of the switch, the charger match and the lifted-wheel test before any power is applied.'),
+ ('Wire and drive a motor', 'Wire a motor driver and make a motor turn both ways at two speeds. Notes: check the 50 per cent duty setting gives about half the speed; learners record voltage and current.'),
+ ('Line follower or obstacle stopper', 'Build and test a small robot and write its threshold from real readings. Notes: practice case is 900 on white and 300 on black, threshold 600; learners repeat with their own sensor.'),
+ ('Debug and improve', 'Find faults using a test log and improve reliability and battery life. Notes: use 2400 mAh at 800 mA, which gives 3 hours ideal and about 2.1 hours real; learners compare their robot to the estimate.'),
+ ('Mentor a build group', 'Supervise a group build, check safety and mark each log. Notes: use a safety sign-off sheet; learners must not allow industrial machines in the course.'),
+ ('Specify a robot project', 'Write a project specification with safety case, test plan and budget for a larger low-voltage robot. Notes: review risks, parts and a test plan; the work stays under the 12 V and no-mains limits of this course.')],
+'GL-03': [
+ ('What AI tools do', 'Explain in plain words what an AI tool does and one thing it cannot be trusted to do. Notes: show one hallucination example; learners say what a person should check.'),
+ ('Safe first tasks', 'Choose a low-risk task and know what data must never go into a public tool. Notes: sort ten tasks by risk and ease of checking; only public or made-up data is used.'),
+ ('Write a clear instruction', 'Write an instruction with role, context, task, format and examples. Notes: compare a vague and a clear instruction on the same task and score both.'),
+ ('A checked AI workflow', 'Build a workflow with a human check and measure its error rate. Notes: practice case is 5 errors in 20 tests, 25 per cent, falling to 10 per cent after a rule is added; learners rerun it.'),
+ ('Value, bias and limits', 'Measure time saved and test for bias and invented facts. Notes: 4 minutes saved on 150 tasks is 10 hours a month; learners present their own saving with the checking time included.'),
+ ('Lead team rules', 'Write team rules for logging use, disclosure and who signs off. Notes: review three logged uses; decisions on hiring, health, legal matters, safety and large money stay with a person.'),
+ ('Govern AI use across a group', 'Design a governance plan with risk levels, audit and training. Notes: check privacy and copyright steps; present a 12-month plan with named owners.')],
+'GL-04': [
+ ('How a page travels', 'List the four steps a page takes from address to screen. Notes: draw it as DNS, connect, request, response; no tools needed.'),
+ ('Names and addresses', 'Say what DNS records do, including MX for email and TTL. Notes: look up the records of a practice domain and describe three of them in plain words.'),
+ ('Check a home or office network', 'Map a small network and find its main devices and addresses. Notes: a /24 network holds 254 devices; learners count the devices and check the space.'),
+ ('Availability and backups', 'Explain availability numbers and the 3-2-1 backup rule. Notes: 99.9 per cent allows about 8.76 hours a year; learners test one restore and record the result.'),
+ ('Trace a fault', 'Trace a fault using ping, name lookup and a test plan. Notes: if ping to a number works but the name fails, the fault is in DNS; learners write the steps they took.'),
+ ('Run changes safely', 'Plan a change by lowering TTL first and keeping a rollback plan. Notes: review a change plan for timing, backups and who is told.'),
+ ('Design a reliable set-up', 'Design the network, DNS, backup and security plan for a small organisation. Notes: review for single points of failure and cost; present a one-page file with a yearly test plan.')],
+'GL-05': [
+ ('What IoT means', 'Name the four layers of an IoT system. Notes: device, connectivity, platform and application; learners match each to a smart-home example.'),
+ ('Sensors and safety', 'Tell a sensor from an actuator and keep to 5 V or below with no mains. Notes: check the voltage rule before any wiring and record it.'),
+ ('Send a reading', 'Send a sensor reading as a message with a time and device ID. Notes: use a topic name that makes sense; learners check that readings can be ordered and traced.'),
+ ('Build the temperature logger', 'Build a logger, filter impossible values and test its accuracy. Notes: compare with a reference thermometer at two points and record the error.'),
+ ('Power and security', 'Estimate battery life with a safety factor and set strong device passwords. Notes: average current is the sum of active and sleep current-times divided by total time; apply a safety factor for cold and ageing.'),
+ ('Lead a deployment', 'Plan the install of several devices with a naming plan, test and maintenance round. Notes: sample three devices for data quality and security.'),
+ ('Design an IoT system', 'Design a system with connectivity choice, power budget, security and data plan. Notes: justify LoRaWAN or another link by range, message size and power; present risks and a review schedule.')],
+'GL-06': [
+ ('What a chatbot is', 'Explain what a chatbot does and that it must say it is a bot. Notes: try two chatbots and list what each does well and badly.'),
+ ('Top ten questions', 'List the ten most common customer questions and a clear answer for each. Notes: use real enquiries from the business; check that no answer asks for passwords or card details.'),
+ ('Build a simple bot', 'Build a rule-based bot with a hand-over to a person. Notes: hand over when the bot fails twice, or for complaints or sensitive matters.'),
+ ('Test with 30 questions', 'Test the bot with 30 questions and report the pass rate. Notes: the course standard is at least 24 of 30; learners log each failure and fix.'),
+ ('Measure value', 'Measure the share of chats resolved without a person and the money saved. Notes: 620 of 1,000 chats is 62 per cent, and 620 chats at USD 3.50 each saves USD 2,170; learners redo it with their own figures.'),
+ ('Run a weekly review', 'Run a weekly review of failed chats and update the knowledge base. Notes: sample ten failed chats, add or fix answers and record the change.'),
+ ('Plan a support service', 'Design a bot and human support service with privacy rules, targets and audit. Notes: review disclosure, data handling and hand-over; present a 12-month plan with targets.')],
+}

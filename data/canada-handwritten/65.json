@@ -1,0 +1,198 @@
+{
+ "mods": {
+  "1": {
+   "title": "Know what home healthcare is",
+   "intro": "Home healthcare means care given to a person in their own home. This course is education, not medical advice. Consult a licensed professional for health questions.",
+   "pts": [
+    "Explain the difference between personal support (bathing, dressing, meals), nursing care and therapy.",
+    "Explain who needs home care: older adults, people recovering from illness and people with disabilities.",
+    "Name the team: the person, family, support worker, nurse, doctor and therapists.",
+    "Explain that the person's dignity, choice and comfort come first.",
+    "Explain what a support worker may not do: tasks reserved for licensed nurses or doctors.",
+    "Describe a week of care for one made-up client and mark who does each task.",
+    "Explain the difference between a care plan and a service agreement."
+   ],
+   "ex": "A man comes home after surgery. A nurse changes the dressing. A support worker helps him wash and prepare lunch. If the support worker visits 1 hour a day for 5 days, that is 5 hours of personal support in the week. Each does only the tasks they are trained and allowed to do.",
+   "act": "Write a one-page glossary of ten terms and a chart of who does which task.",
+   "std": "Task: define roles. Condition: one page, own words. Standard: each task is matched to the right role and the limits are clear."
+  },
+  "2": {
+   "title": "Know the rules, training and scope in Canada",
+   "intro": "Home care is regulated by provinces. Know who may do what.",
+   "pts": [
+    "Explain that nurses and many therapists are licensed by provincial colleges and have protected titles; practise only inside your scope.",
+    "Explain that personal support worker training and registries differ by province; check the current requirements locally.",
+    "Explain that public home care programmes differ by province; check eligibility with the local health authority.",
+    "Explain that background checks and, in some roles, vaccination or health checks are often asked for; check what applies.",
+    "Explain that agencies and self-employed carers have different duties for insurance and reporting; ask a licensed adviser.",
+    "Keep proof of your training, first aid and checks in a folder.",
+    "Write the contact for the nurse or supervisor you report to."
+   ],
+   "ex": "A carer is asked to give an injection. It is outside her scope. She says no politely, calls the nurse in charge and writes the request in her note.",
+   "act": "Build a rules table: rule, who enforces it, what you must do and a dated official source.",
+   "std": "Task: build a rules table. Condition: official pages only. Standard: each row has an enforcer, an action and a dated source; no rule is guessed."
+  },
+  "3": {
+   "title": "Keep the person and yourself safe",
+   "intro": "Home care has risks for the person and for the carer. Prevent them with simple habits.",
+   "pts": [
+    "Check the home for falls risks: loose mats, clutter, poor light, wet floors, stairs.",
+    "Use safe lifting and moving methods taught by a qualified trainer; ask for help instead of lifting alone.",
+    "Wash hands and use gloves as the infection control training says.",
+    "Learn the signs that need urgent help and the emergency number; call it without delay.",
+    "Keep a list of emergency contacts and medicines near the phone.",
+    "Practise a safe transfer with a trainer using the right aids.",
+    "Check that smoke alarms work and that exits are clear, and report any fault to the family or supervisor."
+   ],
+   "ex": "A carer finds a rug slipping at the bathroom door. She removes it, tells the family and writes it in the daily note. A check of 10 items finds 3 problems, so 3 go on the fix list.",
+   "act": "Complete a home safety check on a practice home and write a fix list.",
+   "std": "Task: assess a home. Condition: a practice home. Standard: hazards are listed, each has a fix and the highest risk is first."
+  },
+  "4": {
+   "title": "Provide personal care with dignity",
+   "intro": "Personal care is private. Ask, explain and respect.",
+   "pts": [
+    "Explain each step before you start and ask if the person is ready.",
+    "Keep the person covered and the door closed during bathing or dressing.",
+    "Let the person do what they can; help only where needed.",
+    "Support meals, drinking and toilet needs at the person's pace.",
+    "Report skin marks, pain, confusion or changes to the right person.",
+    "Offer choices about clothing and timing.",
+    "Use the person's name and ask how they like things done."
+   ],
+   "ex": "Before helping with a wash, a carer says 'I will help you with your back now. Is that all right?' She waits for a yes, keeps a towel over the person and lets her wash her own face.",
+   "act": "Practise a personal care routine with a trainer and write the steps in order.",
+   "std": "Task: complete a care routine. Condition: a trainer and a practice setting. Standard: steps are in order, consent is asked and privacy is kept."
+  },
+  "5": {
+   "title": "Support medicines and health tasks within scope",
+   "intro": "Medicines are risky. Know exactly what you may do and follow the care plan.",
+   "pts": [
+    "Follow the written care plan; do not change it yourself.",
+    "Where allowed, remind or assist with medicines as the plan says; check the current rule for your role and province.",
+    "Record each reminder with date and time, and report refusals or mistakes at once.",
+    "Never give advice on medicines; refer to the pharmacist, nurse or doctor.",
+    "Store medicines safely as the plan says.",
+    "Check the name on the medicine label against the plan before any reminder.",
+    "Know the signs that a medicine mistake needs urgent help and call at once."
+   ],
+   "ex": "A person says she took her pill but the box is full. The carer does not guess. She records the facts and calls the nurse for advice. The nurse decides what to do next.",
+   "act": "Practise reading a care plan and filling a medicine record for a made-up client.",
+   "std": "Task: complete a medicine record. Condition: a made-up plan. Standard: entries are accurate, errors are reported and no advice is given."
+  },
+  "6": {
+   "title": "Observe, record and communicate",
+   "intro": "Good notes protect the person and the carer.",
+   "pts": [
+    "Write notes the same day: what you did, what you saw, what the person said.",
+    "Use facts, not opinions: 'ate half the lunch' not 'is not eating'.",
+    "Report changes quickly to the nurse or supervisor.",
+    "Share information only with those who need it and have consent.",
+    "Speak simply and use the person's language where you can; use an interpreter when needed.",
+    "Add the time and your signature to each entry.",
+    "Write 'reported to' with a name and time for every change you report."
+   ],
+   "ex": "Note: 'Tuesday 10:15. The client walked to kitchen with cane. Said left knee hurts, 6 out of 10. Reported to nurse at 10:30.' The note is dated, timed and factual, and it names who was told 15 minutes later.",
+   "act": "Write five practice notes from short scenarios.",
+   "std": "Task: write notes. Condition: five scenarios. Standard: each note is dated, factual and states who was told."
+  },
+  "7": {
+   "title": "Work with families, culture and other services",
+   "intro": "Home care works best when family, care team and community work together.",
+   "pts": [
+    "Ask the person and family about their routines, food, faith and culture.",
+    "Respect the person's choices even when you would choose differently.",
+    "Know local services: meal programmes, adult day programmes, respite and equipment loans.",
+    "Check the current rules and eligibility with the local health authority for any publicly funded service.",
+    "Support caregivers: tell them about rest and help; carers can burn out.",
+    "Learn how to ask for an interpreter or a cultural liaison.",
+    "Share only what the person agrees to share with the family."
+   ],
+   "ex": "A daughter cares for her father all day. The carer tells her about a respite programme and helps her ask the local authority about eligibility. If respite gives her 4 hours a week, that is 4 x 4 = 16 hours in four weeks.",
+   "act": "Build a one-page local services list with contact and eligibility notes and the date checked.",
+   "std": "Task: list services. Condition: official sources. Standard: each entry has contact, eligibility and a check date."
+  },
+  "8": {
+   "title": "Run a home care service for real",
+   "intro": "Run it under supervision with a qualified lead or agency. Think about quality, records and money.",
+   "pts": [
+    "Work under a qualified supervisor or registered nurse for any care task.",
+    "Plan visits by area and time windows; keep a buffer for delays.",
+    "Price visits: hourly rate = (target income + costs) / hours you can really work; ask a licensed accountant about tax and insurance.",
+    "Keep logs of visits, incidents and feedback; review them monthly.",
+    "Write a 12-month plan with milestones, a budget and a risk list.",
+    "Plan travel time between visits and add it to your working hours.",
+    "Ask clients for feedback after the first month."
+   ],
+   "ex": "A carer works 25 paid hours a week, about 100 hours a month. Costs are 500 CAD a month and target income is 3,000, a total of 3,500. Rate = 3,500 / 100 = 35 CAD per hour before tax (teaching numbers only).",
+   "act": "Run a 60-day supervised pilot and present the review to a panel of three.",
+   "std": "Task: run a pilot. Condition: 60 days with supervision. Standard: notes are complete, incidents are reported and the review reasons from evidence."
+  }
+ },
+ "price": [
+  35,
+  5,
+  100,
+  "hour"
+ ],
+ "quiz": [
+  [
+   "What is the difference between personal support and nursing care?",
+   "Personal support helps with daily living; nursing care is clinical care by a licensed nurse.",
+   1
+  ],
+  [
+   "What should you do if asked to do a task outside your scope?",
+   "Decline politely and call the nurse or supervisor.",
+   2
+  ],
+  [
+   "Why remove loose mats?",
+   "They cause falls.",
+   3
+  ],
+  [
+   "Why explain each step before personal care?",
+   "To get consent and respect dignity.",
+   4
+  ],
+  [
+   "Can a carer change a medicine plan?",
+   "No; follow the written plan and refer questions to the nurse or pharmacist.",
+   5
+  ],
+  [
+   "What makes a good note?",
+   "Dated, factual and states who was told.",
+   6
+  ],
+  [
+   "Who runs public home care programmes?",
+   "Provinces; check eligibility with the local health authority.",
+   2
+  ],
+  [
+   "What do you do in an emergency?",
+   "Call the emergency number without delay.",
+   3
+  ],
+  [
+   "Why ask about culture and routine?",
+   "Care that fits a person's life is safer and kinder.",
+   7
+  ],
+  [
+   "What do you do if you are unsure of a rule?",
+   "Ask the official body or a licensed professional and keep the answer in writing.",
+   2
+  ]
+ ],
+ "jobs": [
+  "Personal support worker",
+  "Home care aide",
+  "Companion carer",
+  "Care coordinator",
+  "Home care supervisor",
+  "Home care agency owner"
+ ]
+}

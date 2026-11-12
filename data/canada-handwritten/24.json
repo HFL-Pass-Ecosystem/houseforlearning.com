@@ -1,0 +1,198 @@
+{
+ "mods": {
+  "1": {
+   "title": "Know the words and the kinds of driving work",
+   "intro": "Ride and delivery driving means moving people or goods for pay through an app or a company. Start with the basics.",
+   "pts": [
+    "Learn the terms: trip, fare, tip, surge, fee, shift, route, active time, self-employed.",
+    "Kinds of work: rides, food delivery, parcel delivery, courier.",
+    "Most app drivers are paid per trip and pay their own costs.",
+    "Name the hours and zones with the most demand near you.",
+    "Read how the app calculates fares and what share you keep.",
+    "List what you need to start: licence, vehicle, phone, insurance and account approval.",
+    "Compare delivery by car, bike and on foot where allowed, and say which suits you."
+   ],
+   "ex": "Lunch hours in a business area have many short delivery trips; late nights near venues have more rides. If a lunch hour gives 4 trips at 5 dollars each, 4 x 5 = 20 dollars before costs.",
+   "act": "Write a table of work type, pay style, vehicle and hours for three kinds of driving.",
+   "std": "Task: compare three kinds of work. Condition: from public information. Standard: table complete and accurate."
+  },
+  "2": {
+   "title": "Explain a driving shift from start to end",
+   "intro": "A shift has steps. If you can name them, you plan time, fuel and safety.",
+   "pts": [
+    "The steps: vehicle check, go online, accept trips, pickup, drop-off, break, go offline, log.",
+    "Check tyres, lights, brakes, fluids and cleanliness before you start.",
+    "Plan breaks and rest; tired driving is dangerous.",
+    "Record start and end time, kilometres and earnings every shift.",
+    "Set a stop time before you start and keep to it.",
+    "Keep water, a phone charger and a first aid kit in the vehicle.",
+    "Write down each trip's start and end place so you can review the day."
+   ],
+   "ex": "Before a shift you check tyres and lights, charge your phone, and plan a rest at the fourth hour. An 8-hour shift with a 30-minute break gives 8 - 0.5 = 7.5 hours of driving time.",
+   "act": "Build a pre-shift checklist and a shift log.",
+   "std": "Task: build two forms. Condition: one page each. Standard: all checks present and usable on a real shift."
+  },
+  "3": {
+   "title": "Drive safely and serve people well",
+   "intro": "Now you apply the basics. Drive safely and treat customers with care.",
+   "pts": [
+    "Follow all traffic laws; never use a hand-held phone while driving.",
+    "Keep a calm voice, confirm the pickup and say the destination.",
+    "Keep the car clean and handle food or parcels with care.",
+    "Report any problem with a trip through the app support.",
+    "Park legally and never block traffic, hydrants or bike lanes.",
+    "Offer help with bags only when it is safe and agreed.",
+    "Decide in advance what you do if a trip feels unsafe: refuse or end it, and report."
+   ],
+   "ex": "A rider is not at the pickup. You wait the allowed time, call, and then follow the app's no-show steps. If the allowed wait is 5 minutes and you arrived at 6:10, you may leave at 6:15.",
+   "act": "Role-play ten pickups with a friend and write what you would change.",
+   "std": "Task: practise ten trips. Condition: parked, with a friend as customer. Standard: greeting, confirmation and handover done every time."
+  },
+  "4": {
+   "title": "Follow Canadian rules for drivers",
+   "intro": "Rules for driving for pay differ by province and city. Learn which ones touch you.",
+   "pts": [
+    "You need the right licence class for your vehicle; some places need extra checks or permits for ride work. Check the current rule with the provincial transport office.",
+    "Ordinary personal insurance may not cover paid driving; ask your insurer what cover you need.",
+    "Cities can set rules for taxis and ride services; check the current rule with the local authority.",
+    "App drivers are usually self-employed; income is taxable and sales tax rules may apply. Check with the tax agency.",
+    "Ask whether your vehicle must pass an inspection for this work; check the provincial rule.",
+    "Ask the provincial transport office whether your vehicle needs any special plates or permits for paid driving.",
+    "Keep your licence, registration and insurance papers current and in the vehicle."
+   ],
+   "ex": "You ask your insurer in writing: 'Am I covered when I drive for a ride app?' and keep the reply. If the reply says you need extra cover, you buy it before your next shift. You file the reply with your insurance papers.",
+   "act": "Build a table of rule, who sets it, what you must do and where you checked, for ten items.",
+   "std": "Task: build a rules table. Condition: from official public pages. Standard: each row has a dated source; unknowns say 'check the current rule with the local authority'."
+  },
+  "5": {
+   "title": "Work out real earnings",
+   "intro": "Your pay is what is left after vehicle costs. Work the numbers.",
+   "pts": [
+    "Costs: fuel or charging, insurance, repairs, tyres, depreciation, phone, parking and fees.",
+    "Cost per kilometre = yearly vehicle costs / yearly kilometres.",
+    "Real hourly pay = (earnings - costs) / total hours, including waiting.",
+    "Plan for slow weeks by keeping a small cash buffer.",
+    "Count unpaid time: waiting, driving to a pickup and charging.",
+    "Spread large costs, such as tyres, over the kilometres they last.",
+    "Set aside an amount for tax from every payout."
+   ],
+   "ex": "Earnings 154, fuel and wear 42, hours 7: net = 154 - 42 = 112, and real pay = 112 / 7 = 16 per hour. If yearly vehicle costs are 6,000 and you drive 20,000 km, cost = 6,000 / 20,000 = 0.30 per km. Teaching figures only.",
+   "act": "Log five shifts and compute real pay per hour for each.",
+   "std": "Task: compute real pay. Condition: from your own log. Standard: all costs shown and a mentor can follow."
+  },
+  "6": {
+   "title": "Find the best times and keep a good record",
+   "intro": "Better planning raises pay and lowers risk. Use your log to decide.",
+   "pts": [
+    "Compare pay per hour by day and time of day.",
+    "Avoid long unpaid waits and trips that end far from demand.",
+    "Keep ratings steady by being on time and polite.",
+    "Keep receipts and a mileage log for tax.",
+    "Mark the zones where you wait longest and test a different zone.",
+    "Compare whole weeks, not single days, before you change your hours.",
+    "Note weather and events that change demand."
+   ],
+   "ex": "Your log shows Friday lunch pays 20 per hour and Tuesday afternoon 11. Working 4 hours of Friday lunch instead of Tuesday afternoon earns 4 x 20 - 4 x 11 = 36 more. You work more Friday lunch.",
+   "act": "Compare ten shifts and write a plan for next month.",
+   "std": "Task: analyse ten shifts. Condition: with simple spreadsheet. Standard: the plan uses numbers."
+  },
+  "7": {
+   "title": "Protect yourself, your passengers and your data",
+   "intro": "Safe habits protect you, others and your account.",
+   "pts": [
+    "Wear a seat belt, rest when tired and never drive after alcohol or drugs.",
+    "Know the emergency steps: pull over safely, call emergency services, report in the app.",
+    "Keep customer addresses private.",
+    "Know how to stay safe at night and in unknown places.",
+    "Share your trip with a trusted person when working at night, if the app allows.",
+    "Check the provincial rule before you record passengers with a camera.",
+    "Plan for a breakdown: safe stopping place, tow number and warning lights."
+   ],
+   "ex": "A customer is rude. You stay calm, end the trip at a safe place and report it to the app. You write the time and place in your log so you can show what happened.",
+   "act": "Write an emergency card, a pre-trip check and a privacy note.",
+   "std": "Task: write three documents. Condition: reviewed by a mentor. Standard: each is clear and ready to use."
+  },
+  "8": {
+   "title": "Run a real pilot and decide",
+   "intro": "Now you run it for real. Drive, measure and decide whether it is worth it.",
+   "pts": [
+    "Set a 60-day goal, such as 60 hours and a real hourly pay target.",
+    "Every week record hours, kilometres, income, costs and safety events.",
+    "Ask: do I earn enough after costs and tax?",
+    "At the end choose: stop, change or grow, and write a 12-month plan.",
+    "Compare real pay with your pay target after costs and tax.",
+    "List the hours you will stop working.",
+    "Check your vehicle's condition and costs after 60 days."
+   ],
+   "ex": "After 60 days: 62 hours, real pay 16 per hour, no incidents. Total real pay = 62 x 16 = 992. You decide to drive only the best 20 hours a week.",
+   "act": "Run the pilot, keep the weekly log and present a plan to a panel of three.",
+   "std": "Task: run a 60-day pilot. Condition: legal, insured driving. Standard: log complete, decision uses numbers, a panel can repeat the plan."
+  }
+ },
+ "price": [
+  22,
+  6,
+  62,
+  "hour"
+ ],
+ "quiz": [
+  [
+   "What does self-employed mean for an app driver?",
+   "You pay your own costs and taxes.",
+   1
+  ],
+  [
+   "What do you check before a shift?",
+   "Tyres, lights, brakes, fluids and cleanliness.",
+   2
+  ],
+  [
+   "Is a hand-held phone allowed while driving?",
+   "No.",
+   3
+  ],
+  [
+   "What should you ask your insurer?",
+   "Whether personal insurance covers paid driving.",
+   4
+  ],
+  [
+   "How do you find real hourly pay?",
+   "Earnings minus costs, divided by all hours including waiting.",
+   5
+  ],
+  [
+   "Name three vehicle costs.",
+   "Fuel, insurance, repairs, tyres or depreciation.",
+   5
+  ],
+  [
+   "Why keep a mileage log?",
+   "For tax and to measure cost per kilometre.",
+   5
+  ],
+  [
+   "What do you do if you are tired?",
+   "Stop and rest.",
+   2
+  ],
+  [
+   "Who sets taxi and ride rules?",
+   "Provinces and cities; check the current rule with the local authority.",
+   4
+  ],
+  [
+   "What do you do when unsure about a rule?",
+   "Check the current rule with the local authority and keep the answer in writing.",
+   4
+  ]
+ ],
+ "jobs": [
+  "Ride driver",
+  "Delivery driver",
+  "Courier",
+  "Dispatcher",
+  "Fleet coordinator",
+  "Logistics assistant"
+ ]
+}

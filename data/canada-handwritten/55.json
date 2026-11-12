@@ -1,0 +1,198 @@
+{
+ "mods": {
+  "1": {
+   "title": "Know online learning",
+   "intro": "Online education means teaching and learning through the internet. Learn the main forms and the words.",
+   "pts": [
+    "Name the forms: live class, recorded lessons, self-paced course, coaching, community group.",
+    "Describe the parts of a course: goal, lessons, practice, feedback, check.",
+    "Explain the difference between live and self-paced learning.",
+    "List words: outcome, module, assessment, rubric, learner.",
+    "Compare the cost, time and support of live, recorded and self-paced learning for one learner.",
+    "Identify what a learner needs at home: a device, a quiet space and internet.",
+    "Analyze one real course page and mark its goal, lessons and check."
+   ],
+   "ex": "A short course on basic budgeting has 4 recorded lessons of 8 minutes, 4 practice tasks of 15 minutes and a live question hour each week. The learner's work is 4 x 8 + 4 x 15 = 92 minutes, about 1.5 hours, plus the weekly live hour.",
+   "act": "Take one free short online lesson. Write what helped you learn and what did not.",
+   "std": "Task: name parts of an online course. Condition: from one real lesson. Standard: five parts named with one example each."
+  },
+  "2": {
+   "title": "Know your learner",
+   "intro": "Good teaching starts with knowing who will learn, what they know and what they need.",
+   "pts": [
+    "Describe your learner: age, work, language, devices, time, internet access.",
+    "Ask three learners what they want to do after the course.",
+    "Check for barriers: cost, time zone, disability, low bandwidth, language.",
+    "Explain why plain words and clear steps help every learner.",
+    "Write a short survey of five questions to learn goals and limits before you build.",
+    "Identify what the learner can already do, using a short pre-check.",
+    "Plan for different reading levels and languages with plain words and a glossary."
+   ],
+   "ex": "Learners are shift workers with phones and weak internet. The course uses short lessons, text and low-size audio, with a printable page. If a video lesson is 50 MB and an audio lesson is 5 MB, audio uses one tenth of the data.",
+   "act": "Interview three possible learners and write a one-page learner profile.",
+   "std": "Task: write a learner profile. Condition: three interviews. Standard: needs, barriers and goals written with real quotes."
+  },
+  "3": {
+   "title": "Follow the rules in Canada",
+   "intro": "Education, consumer, privacy and copyright rules apply. Check with the local authority.",
+   "pts": [
+    "Explain that education is a provincial matter; some private training must be registered or approved; check your province.",
+    "Describe consumer protection for prices, refunds and honest claims.",
+    "Apply privacy rules for learner data and, for minors, extra care and parent consent.",
+    "Check copyright: use your own work or material you have permission or a licence to use.",
+    "Record the reply from the provincial body and the date you received it.",
+    "Describe where to store learner data safely and how long to keep it; check the privacy rule.",
+    "Check accessibility duties for online services in your province."
+   ],
+   "ex": "Rules table row: Private training approval | provincial education body | check if your course type needs registration | before selling | written reply kept. A second row: Learner data | privacy regulator | collect only what you need and tell learners why | at sign-up | notice kept. Both rows get a checked date.",
+   "act": "Build a rules table covering approval, consumer rules, privacy and copyright for your province.",
+   "std": "Task: map the rules. Condition: official pages only. Standard: each row has an enforcer, an action and a checked date."
+  },
+  "4": {
+   "title": "Design a course with clear outcomes",
+   "intro": "Start with what learners will be able to do, then build lessons and checks to match.",
+   "pts": [
+    "Write 4 to 6 outcomes with action verbs such as explain, apply, build, check.",
+    "Build a course map: outcome, lesson, practice, check.",
+    "Apply the rule: one main idea per lesson and one task per idea.",
+    "Compare your plan with a real task a learner will do after the course.",
+    "Sequence lessons from easy to hard.",
+    "Match one practice task to each outcome.",
+    "Estimate total learner time and compare it with the time learners have."
+   ],
+   "ex": "Outcome: apply a monthly budget. Lesson: income and costs. Practice: fill a sheet from a sample case. Check: a short quiz and a review of the sheet. With 5 outcomes and 15 minutes of lesson plus practice for each, the course is 5 x 15 = 75 minutes.",
+   "act": "Build a course map for a topic you know and ask two people to find gaps.",
+   "std": "Task: design a course map. Condition: one topic. Standard: every outcome has a lesson, a practice and a check."
+  },
+  "5": {
+   "title": "Make clear lessons and tools",
+   "intro": "Short, clear lessons beat long ones. Use simple tools you can manage.",
+   "pts": [
+    "Build a lesson: aim, short explanation, example, task, feedback.",
+    "Apply plain words, short sentences and one picture per idea.",
+    "Check accessibility: captions or text, readable colours, keyboard use, low data.",
+    "Choose simple tools for video, documents and quizzes; test on a phone.",
+    "Write a model answer for each task.",
+    "Record clear audio in a quiet room and check the sound on a phone speaker.",
+    "Make a printable one-page summary for each lesson."
+   ],
+   "ex": "A five-minute lesson: one aim, a two-minute explanation, one worked example, a task and a model answer shown after the learner tries. If the explanation takes 2 minutes and the example 1, the task and model answer share the last 2 minutes.",
+   "act": "Build one lesson with a task and test it with three learners on their own devices.",
+   "std": "Task: build a lesson. Condition: for a phone. Standard: three learners complete the task and say what the aim was."
+  },
+  "6": {
+   "title": "Teach, give feedback and check learning",
+   "intro": "People learn by doing and by feedback. Checking must match the outcome.",
+   "pts": [
+    "Apply feedback: say what worked, what to change, and the next step.",
+    "Build a simple rubric with three levels for each task.",
+    "Evaluate checks: do they test the outcome or only memory?",
+    "Explain academic honesty and how to handle copied work.",
+    "Set a response time for questions, such as one working day.",
+    "Collect feedback from learners with two questions: what helped, and what to change.",
+    "Use results to revise the weakest lesson."
+   ],
+   "ex": "Rubric row: Budget sheet | Not yet: totals wrong | Meets: totals right | Strong: totals right and a plan to cut one cost. A sheet with income 2,000 and costs 1,850 has a surplus of 150. If the totals are right it meets the standard, and a plan to cut one cost makes it strong.",
+   "act": "Mark three practice submissions with your rubric and write feedback for each.",
+   "std": "Task: give feedback. Condition: three submissions. Standard: each feedback names a strength, a change and a next step."
+  },
+  "7": {
+   "title": "Price, sell and support",
+   "intro": "Learners pay for results and trust. Price fairly and be clear about what is included.",
+   "pts": [
+    "Compute cost per learner: time, tools, support, payment charges, tax.",
+    "Compare pricing: one fee, monthly fee, free with paid support.",
+    "Write honest claims about results; never promise jobs or income.",
+    "Track the funnel: visitors, sign-ups, starters, finishers.",
+    "Write a clear refund and cancellation rule in plain words; check the consumer rule in your province.",
+    "Calculate the completion rate: finishers divided by starters.",
+    "List what is and is not included, such as live help hours."
+   ],
+   "ex": "Price 65 per hour of live help, direct cost 0. If fixed costs are 500 a month, break-even is 500 / 65 = 7.7, so 8 hours (teaching numbers only). If 20 learners start and 12 finish, the completion rate is 12 / 20 = 60%, below an aim of 75%, so the first two lessons need work.",
+   "act": "Build a cost sheet and a one-page offer, and invite 20 people to a free first lesson.",
+   "std": "Task: price a course. Condition: all costs counted. Standard: break-even correct and the offer makes no unsupported promises."
+  },
+  "8": {
+   "title": "Run the course for real",
+   "intro": "Now run your course with real learners, measure results and improve it.",
+   "pts": [
+    "Run a 60-day pilot with a stop rule agreed in advance.",
+    "Review weekly: sign-ups, completion, feedback, task results.",
+    "Create a 12-month plan: updates, new courses and support.",
+    "Lead others: train a helper to answer questions and mark tasks with your rubric.",
+    "Calculate the completion rate for the pilot and compare it with the stop rule.",
+    "Collect two comments from learners, with consent, on what changed for them.",
+    "Update the weakest lesson first and re-test it."
+   ],
+   "ex": "Stop rule: if fewer than 10 learners finish in 60 days, rebuild the first two lessons. Result: 14 finished out of 20 who started, a completion rate of 14 / 20 = 70%; learners ask for a second course.",
+   "act": "Run the pilot, write the review and present your plan to three people.",
+   "std": "Task: run an online course pilot. Condition: 60 days, real learners. Standard: results compared with the stop rule and rules re-checked with the provincial body."
+  }
+ },
+ "price": [
+  65,
+  0,
+  8,
+  "hour"
+ ],
+ "quiz": [
+  [
+   "Name the parts of a course.",
+   "Goal, lessons, practice, feedback and check.",
+   1
+  ],
+  [
+   "Why write a learner profile?",
+   "To design for real needs, barriers and goals.",
+   2
+  ],
+  [
+   "Who sets education rules in Canada?",
+   "The provinces; check yours.",
+   3
+  ],
+  [
+   "Why start with outcomes?",
+   "They decide what lessons, practice and checks you need.",
+   4
+  ],
+  [
+   "Which verbs fit an outcome?",
+   "Action verbs such as explain, apply, build, check.",
+   4
+  ],
+  [
+   "What makes a lesson accessible?",
+   "Captions or text, readable colours, keyboard use and low data size.",
+   5
+  ],
+  [
+   "What is a rubric?",
+   "A table of levels that shows how work is judged.",
+   6
+  ],
+  [
+   "What should good feedback include?",
+   "A strength, a change and a next step.",
+   6
+  ],
+  [
+   "Why avoid promises of jobs or income?",
+   "Claims must be honest and you cannot control the outcome.",
+   7
+  ],
+  [
+   "What do you do about copyright?",
+   "Use your own work or material you have permission or licence for.",
+   3
+  ]
+ ],
+ "jobs": [
+  "Online tutor",
+  "Instructional designer",
+  "Course creator",
+  "Learning support coordinator",
+  "Education assistant",
+  "Training business owner"
+ ]
+}

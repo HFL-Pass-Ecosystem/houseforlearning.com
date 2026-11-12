@@ -1,0 +1,197 @@
+{
+ "price": [
+  35,
+  25,
+  150,
+  "home"
+ ],
+ "mods": {
+  "1": {
+   "title": "Understand connectivity gaps",
+   "intro": "Many communities lack affordable, reliable internet. Your work is to find where, why and what would fix it.",
+   "pts": [
+    "Measure before you build: run speed tests at 10 spots at different times, noting device, place and time.",
+    "Causes of gaps include distance from fibre, cost per household, cost of devices, language and skills, and power cuts; note which apply.",
+    "Choose a first community and list who already serves it.",
+    "Write a need statement with numbers: households, current speed, target speed, monthly price they can pay.",
+    "Ask household heads what they pay now for mobile data and what they would pay for a home line; record the answers in a table.",
+    "Map the village on paper: mark homes, school, clinic and hall, find the nearest fibre or tower, and measure each distance in km.",
+    "Identify households with no device or no one who can set it up, and estimate how many need a loan device or training."
+   ],
+   "ex": "A village of 300 households has 2 Mbps shared at peak. Target 25 Mbps at under 40 a month per home. Ten tests give 1.8, 2.1, 2.0, 1.9, 2.2, 2.0, 1.7, 2.3, 2.0 and 2.0 Mbps; the sum is 20.0, so the average is 2.0 Mbps. If all 300 homes shared that equally at peak, each would get under 0.01 Mbps.",
+   "act": "Run speed tests at 10 spots and write a need statement.",
+   "std": "Record times and devices for the tests."
+  },
+  "2": {
+   "title": "Know telecom and licensing rules",
+   "intro": "Telecom is regulated.",
+   "pts": [
+    "The federal spectrum authority licenses radio spectrum and the federal telecom regulator sets rules for carriers; licence-exempt bands have power limits.",
+    "Tower and mast siting needs municipal approval and may involve federal rules or consultation; check both.",
+    "Customer privacy and emergency-call duties may apply to service providers; check the federal and provincial rules.",
+    "Rural and Indigenous community connectivity programmes have funding conditions; read them early.",
+    "Decide whether your service counts as a carrier or reseller under federal rules, and ask the regulator or a telecom adviser before you charge customers.",
+    "Keep a list of each funder's conditions: who can apply, matching funds, reporting dates, and what happens if you miss a target.",
+    "Check the provincial rule on pole access and rights of way before you hang cable on utility poles or dig along roads."
+   ],
+   "ex": "Row: 'Use a radio link | federal spectrum rules | stay within licence-exempt limits | before install | equipment certificate'. Second row: 'Mount an antenna on a mast | municipal approval, possibly federal rules | check the provincial and municipal rule | before building | written approval on file'. Write the date you read each source.",
+   "act": "Build a rules table for a small community network.",
+   "std": "Cite a source and a date for every row."
+  },
+  "3": {
+   "title": "Design a network a community can run",
+   "intro": "Keep it simple and repairable.",
+   "pts": [
+    "Choose the last-mile type: fibre, fixed wireless, or satellite backhaul with local Wi-Fi.",
+    "Plan backhaul capacity as households times peak use per household.",
+    "Plan battery or solar power for outages.",
+    "Document the network so that local people can fix common faults.",
+    "Draw a map of the link route with each hop's length in km and a line-of-sight check for wireless hops, noting trees and hills.",
+    "Select equipment rated for local winter cold and summer heat, and keep one spare of each key part.",
+    "Size a battery: add up the watts the equipment draws, multiply by the hours of outage you want to cover, and add 20% margin."
+   ],
+   "ex": "100 households x 1.5 Mbps peak each = 150 Mbps if every home used its peak at once; with 3:1 sharing the backhaul needed is 150 / 3 = 50 Mbps. A site drawing 120 W that must run 6 hours needs 120 x 6 = 720 Wh; with 20% margin that is 720 x 1.2 = 864 Wh.",
+   "act": "Draw a network plan and compute backhaul.",
+   "std": "Show the calculation."
+  },
+  "4": {
+   "title": "Cost it and set affordable prices",
+   "intro": "Costs per household drive the model.",
+   "pts": [
+    "Work out capital cost per household passed and per household connected.",
+    "List monthly costs: backhaul, power, support and a replacement fund.",
+    "Set price tiers and decide how a community subsidy would work.",
+    "Calculate payback and list the funding sources.",
+    "Separate the cost to pass a home (cable or signal reaches it) from the cost to connect it (drop line, router, labour), and budget both.",
+    "Offer a low-income tier or a shared-hotspot option and show who pays the difference, such as a community fund.",
+    "Run three take-up cases (40%, 60% and 80%) and show monthly margin and payback for each."
+   ],
+   "ex": "Teaching figures in CAD. Build cost about 42,000 (an estimate; get real quotes) for a site of 150 homes; monthly cost per household 25; price 35; margin 10 per home. If all 150 homes pay, margin is 10 x 150 = 1,500 a month. At 60% take-up, 150 homes become 90 paying homes, so margin is 90 x 10 = 900 a month. Payback on 42,000 is 42,000 / 900 = about 47 months; at 40% take-up, 60 homes give 600 a month and payback is 42,000 / 600 = 70 months.",
+   "act": "Build the model with 60% take-up.",
+   "std": "Show the cases."
+  },
+  "5": {
+   "title": "Operate and support",
+   "intro": "Reliability makes trust.",
+   "pts": [
+    "Monitor uptime and speed continuously.",
+    "Have a local support person with a spare kit.",
+    "Publish your response times.",
+    "Track every complaint and its cause.",
+    "Set up a monitor that checks each radio every 5 minutes and texts the support person when two checks in a row fail.",
+    "Keep a labelled spares box with a count, and reorder when any item falls to one.",
+    "Write a one-page fault guide: symptom, first check, fix, and when to call for help."
+   ],
+   "ex": "Uptime 98%; fixed within 1 day in 90% of cases. A 30-day month has 720 hours, so 98% uptime allows 720 x 0.02 = 14.4 hours down. If there were 20 faults, 90% fixed within a day means 18 fixed in a day and 2 slower.",
+   "act": "Keep a 4-week ops log.",
+   "std": "Log faults and fixes."
+  },
+  "6": {
+   "title": "Train users and grow adoption",
+   "intro": "Access is not use.",
+   "pts": [
+    "Offer short classes in the local languages.",
+    "Teach safe use, banking and learning platforms.",
+    "Partner with schools and libraries.",
+    "Measure use before and after each class.",
+    "Build a short lesson plan for each skill, such as sending a message, joining a video call with a clinic or applying online, with a hands-on task and a 5-question check.",
+    "Train two local helpers and give them a printed guide, so help stays in the community.",
+    "Run classes at times suited to shift workers, elders and parents, and record attendance by group to see who is missing."
+   ],
+   "ex": "After 8 classes, weekly users rose from 90 to 210. Weekly users rose by 210 - 90 = 120, or 120 / 90 = about 133%. Eight classes of 15 learners reached 8 x 15 = 120 people, which matches the gain.",
+   "act": "Run one class and survey.",
+   "std": "Survey results recorded."
+  },
+  "7": {
+   "title": "Manage safety, privacy and equity",
+   "intro": "Do no harm.",
+   "pts": [
+    "Protect user data and do not read customers' traffic.",
+    "Offer child-safety tools.",
+    "Keep access and pricing fair.",
+    "Follow climate and tower safety practices.",
+    "Write a privacy notice in plain words and local languages and give it to each new subscriber.",
+    "Offer a content filter for homes with children and explain that parents choose whether to use it.",
+    "Check the federal and provincial rules on what you must hand over if police ask, and keep a record of any request."
+   ],
+   "ex": "Policy: 'We log connection times for 30 days only.' With 150 homes making 20 connections a day, the log holds at most 150 x 20 x 30 = 90,000 entries before the oldest are deleted.",
+   "act": "Write privacy and fair-use notes.",
+   "std": "Use plain words."
+  },
+  "8": {
+   "title": "Pilot and sustain",
+   "intro": "Prove one site.",
+   "pts": [
+    "Run the pilot for 90 days.",
+    "Measure take-up, uptime and satisfaction.",
+    "Set a stop rule: if take-up is under 30% after 90 days, redesign.",
+    "Plan how the network will sustain itself.",
+    "Hold a review at day 30, 60 and 90 using the same four numbers: take-up, uptime, complaints, and money in versus money out.",
+    "Ask 10 subscribers and 10 non-subscribers why, and record the reasons in a table.",
+    "Write a handover plan: who owns the equipment, who collects fees, who keeps spares, and how the community votes on price changes."
+   ],
+   "ex": "Take-up 46%. Of 150 homes, 46% take-up is 150 x 0.46 = 69 homes. The stop rule of 30% is 45 homes, so the pilot passes with 24 homes to spare.",
+   "act": "Run pilot review.",
+   "std": "Review has decision."
+  }
+ },
+ "quiz": [
+  [
+   "Why test speed at different times?",
+   "Peak-hour congestion differs from off-peak.",
+   1
+  ],
+  [
+   "How find backhaul need?",
+   "Households times peak use, adjusted for sharing.",
+   1
+  ],
+  [
+   "Why use batteries?",
+   "Outages stop service.",
+   3
+  ],
+  [
+   "Who licenses spectrum?",
+   "The federal spectrum authority; the federal telecom regulator separately sets rules for carriers.",
+   2
+  ],
+  [
+   "Why train users?",
+   "Access without skill does not create use.",
+   6
+  ],
+  [
+   "What is take-up?",
+   "Share of homes that subscribe.",
+   8
+  ],
+  [
+   "Why keep logs short-term?",
+   "To protect privacy.",
+   7
+  ],
+  [
+   "What triggers redesign?",
+   "Under 30% take-up in 90 days.",
+   8
+  ],
+  [
+   "Why a local support person?",
+   "Fast repair and trust.",
+   5
+  ],
+  [
+   "Name one funding source type.",
+   "Public connectivity programmes or a community fund; read each funder's conditions first.",
+   2
+  ]
+ ],
+ "jobs": [
+  "Network technician",
+  "Community digital navigator",
+  "Wireless installer",
+  "Network manager",
+  "Community ISP founder"
+ ]
+}

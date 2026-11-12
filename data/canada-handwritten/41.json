@@ -1,0 +1,198 @@
+{
+ "mods": {
+  "1": {
+   "title": "Know the words and parts of scientific work",
+   "intro": "Science finds out how things work by asking a question and testing it. Learn the basic words first.",
+   "pts": [
+    "Terms: question, hypothesis, variable, control, sample, data, result, error.",
+    "A hypothesis is a testable guess. A control is the part left unchanged for comparison.",
+    "Science services include lab testing, field surveys, data analysis and research support.",
+    "Read one short public research summary and mark its question, method and result.",
+    "Learn the difference between a measure of the middle (average) and a measure of spread (range).",
+    "Name the parts of a report: question, method, results, limits, conclusion.",
+    "Write one question from daily life and decide what you would measure to answer it."
+   ],
+   "ex": "Question: does a new fertilizer raise plant height? Variable: fertilizer. Control: plants with none. With 10 plants in each group, the study has 10 + 10 = 20 plants, and each group is watered and lit the same way.",
+   "act": "Pick a short research summary and fill a table: question, method, sample, result, limit.",
+   "std": "Task: summarise a study in a table. Condition: one short public summary. Standard: all five parts filled correctly in plain words."
+  },
+  "2": {
+   "title": "Explain how a study runs from question to report",
+   "intro": "A good study follows clear steps so that others can repeat it.",
+   "pts": [
+    "Steps: question, plan, approval where needed, collect data, clean, analyse, report, share.",
+    "The plan states methods, sample size, measures and how errors are handled.",
+    "Write the method so another person could repeat it.",
+    "Keep a lab or field notebook with dates and initials.",
+    "Choose the sample size before you start and write why it is big enough for your purpose.",
+    "Write what you will do if an instrument fails or a sample is lost.",
+    "Share the plan with a peer and fix any step they cannot follow."
+   ],
+   "ex": "Notebook line: '2026-03-04, sample 12, temperature 21 C, reading 4.8, checked by AB.' If 24 samples are planned at 6 per day, the study takes 24 / 6 = 4 days of collection, plus time to clean and analyse.",
+   "act": "Write a one-page study plan for a simple question and have a peer try to follow it.",
+   "std": "Task: write a repeatable plan. Condition: simple low-risk question. Standard: a peer can follow the steps without asking questions."
+  },
+  "3": {
+   "title": "Measure and record data to a standard",
+   "intro": "Good data comes from careful measurement and honest records.",
+   "pts": [
+    "Use the right units and write them down every time.",
+    "Check and calibrate instruments as the maker or lab rule says.",
+    "Repeat measurements and compare; large differences point to errors.",
+    "Never change records to fit a hope; correct errors with a note, date and initials.",
+    "Round numbers only at the end, not during the working.",
+    "Label every container and sheet with sample number, date and your initials.",
+    "Zero the instrument, or check it against a known standard, before each session."
+   ],
+   "ex": "Three readings: 4.8, 4.9, 4.8. Average = (4.8 + 4.9 + 4.8) / 3 = 14.5 / 3, about 4.83. A fourth reading of 7.1 is checked, a spill is found, and the note explains why it is excluded.",
+   "act": "Measure the same item ten times, record results and calculate average and spread.",
+   "std": "Task: collect and summarize data. Condition: with a calibrated tool. Standard: units shown, errors noted, average and range computed correctly."
+  },
+  "4": {
+   "title": "Know research ethics, safety and Canadian rules",
+   "intro": "Science must be safe and fair. Several kinds of rules apply.",
+   "pts": [
+    "Research with people needs ethics review under the national research ethics policy. Check with the research ethics office of your institution or partner.",
+    "Work with animals needs approval from an animal care body. Check the current rules.",
+    "Lab safety training, safe storage and waste rules apply. Check the provincial workplace safety rules.",
+    "Research with First Nations, Inuit and Metis communities should follow community agreements and data-governance rules. Ask the community first.",
+    "Check what consent a person must give and what they must be told before they join a study.",
+    "Check the rule on the storage and disposal of chemicals and samples.",
+    "Ask the community how results will be shared with it before you collect data."
+   ],
+   "ex": "Before surveying residents, you submit a short plan to the ethics office and wait for approval. If review takes 6 weeks and the survey takes 3 weeks, the earliest finish is week 9, so do not promise results before then.",
+   "act": "Build a rules table for a study you might run with enforcer, action and date checked.",
+   "std": "Task: build a rules table. Condition: using official pages. Standard: each row has a dated source; community rights and safety steps are included."
+  },
+  "5": {
+   "title": "Analyse results and judge how sure you are",
+   "intro": "Numbers need careful reading. Learn to say what the data does and does not show.",
+   "pts": [
+    "Show the data in a clear table or chart with labels and units.",
+    "Compare groups with averages and spread, not only one number.",
+    "Say what the data cannot show, such as small samples or missing groups.",
+    "Do not claim that one thing causes another unless the design supports it.",
+    "Plot the data before you calculate anything and look for odd points.",
+    "Report how many samples were used in each group.",
+    "Show the same data in a table and in a chart so the reader can check both."
+   ],
+   "ex": "Group A mean 12.1, group B mean 13.0, both with large spread. The difference is 13.0 - 12.1 = 0.9. Statement: 'B was slightly higher, but the groups overlap, so we cannot be sure.'",
+   "act": "Analyse a small dataset and write a half-page result with a chart and limits.",
+   "std": "Task: analyse and report. Condition: provided dataset of 20 to 50 rows. Standard: correct averages, a clear chart, limits stated and no overclaiming."
+  },
+  "6": {
+   "title": "Price and plan a science service",
+   "intro": "Services such as testing or data analysis must pay their way.",
+   "pts": [
+    "Costs: tools, supplies, lab time, travel, waste disposal, your time, insurance.",
+    "Price per sample, per hour or per project, and use the method that matches how the client buys.",
+    "Margin = price minus cost. Break-even = fixed cost divided by margin.",
+    "Federal and provincial research incentives exist for some work; check current eligibility with the program offices.",
+    "Count the cost of each sample: supplies, time, waste disposal.",
+    "Add a charge for reporting, since writing the result takes time.",
+    "Offer a small paid trial for a new client before a larger contract."
+   ],
+   "ex": "An example price of 150 CAD per hour at 20 hours a month brings in 3,000 CAD. Cost is 35 per hour, so 20 x 35 = 700. Margin is 150 - 35 = 115 per hour, so 20 x 115 = 2,300 a month. Teaching figures only.",
+   "act": "Build a cost sheet for one testing or analysis service.",
+   "std": "Task: cost and price a service. Condition: real supplier prices. Standard: units shown, formulas visible, three what-if cases, mentor check."
+  },
+  "7": {
+   "title": "Share findings honestly and manage data",
+   "intro": "Trust in science depends on honest sharing and careful data care.",
+   "pts": [
+    "Report all results, including those that did not work.",
+    "Give credit for ideas and data you used.",
+    "Store data safely with backups, access limits and clear file names.",
+    "Protect personal data; remove names unless needed and permitted.",
+    "Write the report so a person without your training can follow it.",
+    "Keep a copy of the raw data with the final report.",
+    "Ask permission before sharing data that came from a person, a firm or a community."
+   ],
+   "ex": "A file name rule: project_date_version, such as soil_2026-04-10_v2. If a file has versions v1 to v4 and you need the version before the last, you open v3. Files that follow the rule can be found in seconds.",
+   "act": "Write a data plan of one page: what you keep, where, who sees it, how long.",
+   "std": "Task: write a data plan. Condition: reviewed by a mentor. Standard: backup, access, retention and privacy covered in plain words."
+  },
+  "8": {
+   "title": "Run a small project and review it",
+   "intro": "Now run a small real project and learn from it.",
+   "pts": [
+    "Define scope, time, measures and a stop rule.",
+    "Keep the notebook, weekly review and risk list.",
+    "Present results to a panel in plain words and answer questions.",
+    "Write a 12-month plan: next question, skills, partners and budget.",
+    "Pick a question small enough to finish in the time you have.",
+    "Check the budget weekly and compare it with the plan.",
+    "Record what you would change if you did the project again."
+   ],
+   "ex": "Stop rule: 'If more than 20 percent of samples fail the quality check, pause and fix the method.' With 50 samples, 20 percent is 10. If 11 samples fail, the rule is triggered and work stops until the cause is found.",
+   "act": "Run a 30 to 60 day small study or service, then present to a panel of three.",
+   "std": "Task: run a small project. Condition: safe, approved and low-risk. Standard: notebook complete, limits stated, panel can repeat the work."
+  }
+ },
+ "price": [
+  150,
+  35,
+  20,
+  "hour"
+ ],
+ "quiz": [
+  [
+   "What is a hypothesis?",
+   "A testable guess.",
+   1
+  ],
+  [
+   "What is a control?",
+   "The part left unchanged for comparison.",
+   1
+  ],
+  [
+   "Why write a method others can repeat?",
+   "So others can check and trust the result.",
+   2
+  ],
+  [
+   "How do you correct an error in a notebook?",
+   "Add a note with date and initials; do not hide the original.",
+   3
+  ],
+  [
+   "When is ethics review needed?",
+   "For research with people, under the national research ethics policy.",
+   4
+  ],
+  [
+   "Who should you ask before research with Indigenous communities?",
+   "The community, following its agreements and data rights.",
+   4
+  ],
+  [
+   "What should a data summary show beyond one number?",
+   "Average and spread, with units.",
+   5
+  ],
+  [
+   "Why state limits of the data?",
+   "To avoid claiming more than the data can show.",
+   5
+  ],
+  [
+   "What does a data plan cover?",
+   "Storage, backup, access, retention and privacy.",
+   7
+  ],
+  [
+   "What if you cannot find a rule?",
+   "Ask the ethics or safety office and keep the answer in writing.",
+   4
+  ]
+ ],
+ "jobs": [
+  "Lab assistant",
+  "Research technician",
+  "Data analyst",
+  "Field technician",
+  "Quality control analyst",
+  "Research coordinator"
+ ]
+}

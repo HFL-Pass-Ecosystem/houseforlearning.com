@@ -1,0 +1,46 @@
+{
+ "slides": [
+  {
+   "level": "L1 Basic",
+   "title": "Using my five senses",
+   "slide": "L1 Basic · Using my five senses",
+   "notes": "Name the five senses and use them to describe a safe object. Notes: place a leaf, a smooth stone and a soft cloth in a bag; learners touch and describe each. Never taste or smell unknown things; teach children to ask first. Grades 1 and 2."
+  },
+  {
+   "level": "L2 Awareness",
+   "title": "Fair tests",
+   "slide": "L2 Awareness · Fair tests",
+   "notes": "Describe a fair test by naming what is changed, what is measured and what stays the same. Notes: plant two seed pots, one in light and one in the dark, with equal water and soil. Learners say the one changed factor, and draw both pots after a week. Grades 3 and 4."
+  },
+  {
+   "level": "L3 Foundation",
+   "title": "Measuring and recording",
+   "slide": "L3 Foundation · Measuring and recording",
+   "notes": "Measure length, mass, time and temperature and record them in a table. Notes: a plant grows 2 cm in 4 days, which is 0.5 cm a day. Learners take three readings of 12, 14 and 13 mm, find the mean of 13, and say why repeats help. Grades 5 and 6."
+  },
+  {
+   "level": "L4 Practitioner",
+   "title": "Variables, graphs and density",
+   "slide": "L4 Practitioner · Variables, graphs and density",
+   "notes": "Apply a formula and draw a graph from a fair test. Notes: density equals mass over volume; a metal block of 54 g and 20 cm3 has density 2.7 g/cm3. Learners plot mass against volume for three blocks and read the gradient. Dry the benchtop before using water. Grades 7 and 8."
+  },
+  {
+   "level": "L5 Specialist",
+   "title": "Evidence, anomalies and models",
+   "slide": "L5 Specialist · Evidence, anomalies and models",
+   "notes": "Analyse data, spot an anomaly and judge how well a model fits the evidence. Notes: readings of 5.1, 5.3, 5.2 and 7.9 hold one anomaly at 7.9, so the mean of the rest is 5.2. Learners suggest a cause, repeat the trial and write a conclusion that cites the numbers. Grades 9 and 10."
+  },
+  {
+   "level": "L6 Advanced (degree level)",
+   "title": "Modelling and curve fitting",
+   "slide": "L6 Advanced · Modelling and curve fitting",
+   "notes": "Apply least-squares fitting and error reasoning to link data to a model. Notes: the points (1,2.1), (2,3.9), (3,6.2), (4,7.8), (5,10.1) give slope 1.99 and intercept 0.05, with R squared 0.997. Learners explain what the intercept means and whether a straight line is right."
+  },
+  {
+   "level": "L7 Super expert (postgraduate/expert)",
+   "title": "Study design and sample size",
+   "slide": "L7 Super expert · Study design and sample size",
+   "notes": "Evaluate and create a study with a clear hypothesis, controls, sample size and ethics approval. Notes: to detect a 5-unit difference with spread 10 at 5 per cent significance and 80 per cent power needs about 63 per group. Learners write a pre-registered plan and list the risks and consent steps."
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+#!/usr/bin/env python3
+"""All full-depth courses, grouped. Scans site/ and writes courses-all.html. Links to Russia pages are never added."""
+import sys, pathlib, re, html
+sys.path.insert(0, str(pathlib.Path(__file__).parent))
+import build_full_courses as B
+e = html.escape; S = B.R / 'site'
+def title(f):
+    m = re.search(r'<title>(.*?)(?: \| House for Learning)?</title>', f.read_text(), re.S)
+    return html.unescape(m.group(1)).strip() if m else f.stem
+G = [
+ ('Core flagship courses', ['learn-flagship-cv', 'learn-flagship-platform-admin', 'learn-flagship-earthing', 'learn-flagship-career-launch']),
+ ('Enterprise software, levels L1 to L7', ['learn-ent-']),
+ ('Europe: ten chapters', ['learn-flagship-eu-']),
+ ('Global: 75 courses for every market', ['learn-flagship-gl-']),
+ ('India', ['learn-flagship-in-']),
+ ('UAE (Dubai and Abu Dhabi)', ['learn-uae-hub', 'learn-flagship-ae-']),
+ ('Brazil', ['learn-brazil-']),
+ ('Canada and North America', ['learn-ca-']),
+ ('Netherlands', ['learn-flagship-nl-']),
+ ('Singapore', ['learn-flagship-sg-']),
+ ('Australia', ['learn-flagship-au-']),
+ ('Hong Kong', ['learn-flagship-loc-hk', 'learn-loc-hk-']),
+ ('Georgia and Israel', ['learn-flagship-loc-ge', 'learn-loc-ge-']),
+ ('Cayman Islands', ['learn-flagship-loc-ky', 'learn-loc-ky-']),
+ ('Mexico', ['learn-flagship-loc-mx', 'learn-loc-mx-']),
+]
+body = ''; n = 0
+for i, (name, pre) in enumerate(G):
+    fs = sorted(f for f in S.glob('learn-*.html') if any(f.stem.startswith(p) for p in pre) and 'russia' not in f.stem)
+    if not fs: continue
+    cs = [f for f in fs if not f.stem.endswith('-hub')]  # hub pages are linked but not counted as courses
+    n += len(cs)
+    cards = ''.join(f'<li class="cc"><a href="{f.name}"><h3>{e(title(f))}</h3></a></li>' for f in fs)
+    body += B.sec('alt' if i % 2 else '', f'g{i}', 'courses', f'{name} ({len(cs)})', f'<ul class="cgrid">{cards}</ul>')
+B.page('courses-all.html', 'All full-depth courses', f'{n} full-depth courses by area', 'All full-depth courses', e(f'{n} courses with modules, worked examples, rubrics and checks. Draft; nothing is live.'),
+       body, B.crumb(('Courses', 'courses-hub.html'), ('All full-depth courses', None)), kicker='Courses')
+print('indexed', n)

@@ -1,0 +1,64 @@
+{
+"task": "Estimate whether a cable run is short enough for its protective device to trip quickly in a fault, and check voltage drop separately.",
+"condition": "Given cable size, length, supply voltage and device rating, using rounded teaching figures, with real designs checked by qualified people against the maker's tables and local rules.",
+"standard": "The learner calculates loop resistance and fault current for a run, compares it to the device trip level, and proposes a fix when the run is too long.",
+"modules": [
+{"title": "The fault loop","bloom": "Understand: Explain","minutes": 15,
+"intro": "In a fault, current runs out along one conductor and back along another. That round trip is the fault loop, and its resistance decides how big the fault current gets.",
+"points": ["Loop length is twice the cable length, because current goes out and comes back.","Resistance rises with length and falls as the conductor gets thicker.","Less fault current means a protective device may trip slowly or not at all."],
+"example": "Take a copper cable of 2.5 mm² and 40 m. Use 0.0225 ohm square millimetres per metre for copper (a rounded teaching figure, as are all the numbers in this lesson). The loop resistance is 2 × 0.0225 × 40 ÷ 2.5 = 1.8 ÷ 2.5 = 0.72 ohms. Doubling the length to 80 m would double this to 1.44 ohms. Halving the conductor to 1.25 mm² would also double it. Length and size pull in opposite directions.",
+"activity": "Calculate loop resistance for three lengths of 2.5 mm² cable: 20 m, 40 m and 60 m. Plot or list the results and describe the pattern.",
+"standard": "Learner uses the loop formula correctly and describes the effect of length and size."},
+{"title": "Fault current and trip level","bloom": "Apply: Calculate","minutes": 15,
+"intro": "Once you have the loop resistance, the basic rule current = voltage ÷ resistance gives the fault current. Compare it with what the device needs to trip fast.",
+"points": ["Fault current is supply voltage divided by loop resistance in this simple model.","A device trips fast only above a trip level, often several times its rating.","Real designs also include source resistance and warm cable resistance, so a margin is needed. All figures here are example values; a qualified electrician must verify any real design against the maker's tables and local rules."],
+"example": "Continue with the 0.72 ohm loop and a 230 V supply. Fault current is 230 ÷ 0.72 = about 319 A. Suppose the 16 A device needs about 10 times its rating, so 160 A, to trip instantly. Since 319 is above 160, it passes with a margin of about 2 times. Now try 6 mm² over 120 m: loop is 2 × 0.0225 × 120 ÷ 6 = 0.9 ohms, giving 230 ÷ 0.9 = 256 A. A 32 A device needing 320 A fails, since 256 is below 320.",
+"activity": "Run the same check for 4 mm² over 60 m with a 20 A device needing 10 times its rating. State pass or fail and the margin.",
+"standard": "Learner calculates fault current, compares with the trip level and states pass or fail."},
+{"title": "What sets the longest workable length","bloom": "Analyse: Compare","minutes": 15,
+"intro": "Four things set how long a run can be. Changing one of them is how you fix a run that fails.",
+"points": ["Conductor cross-section: thicker allows longer.","Protective device type and rating: a lower trip level allows longer.","Supply voltage and temperature: warm cable has higher resistance.","Core count and how the cable is laid also affect the result."],
+"example": "The failing 6 mm² run at 120 m gave 256 A against 320 A needed. Option one: move up to 10 mm². Loop is 2 × 0.0225 × 120 ÷ 10 = 0.54 ohms and fault current is 230 ÷ 0.54 = about 426 A. That passes. Option two: keep 6 mm² and ask for a device with a lower trip level, for example one needing 5 times its rating, so 160 A, and 256 passes. Option three: shorten the route to 80 m, giving 0.6 ohms and 383 A, which also passes. Three fixes, each with a cost.",
+"activity": "List the three fixes for the failing run. Choose one and say what extra it costs (money, space, or a different device).",
+"standard": "Learner names the four factors and proposes at least two valid fixes with numbers."},
+{"title": "Voltage drop as a second check","bloom": "Evaluate: Check","minutes": 15,
+"intro": "A run can pass the fault check and still be poor, because a long cable also drops voltage under load. Both checks must pass.",
+"points": ["Voltage drop is load current times loop resistance in this simple model.","Motors and electronics need voltage near their rating.","If either check fails, the run needs to be corrected by a qualified person before use."],
+"example": "Take the 2.5 mm² 40 m run with 0.72 ohms loop resistance and a 20 A load. Drop is 20 × 0.72 = 14.4 V. As a share of 230 V that is 14.4 ÷ 230 = about 6.3 per cent. Many designs aim for a smaller share, so this run may be a concern for sensitive loads even though it passed the fault check. Moving to 4 mm² gives loop 0.45 ohms, drop 9 V, about 3.9 per cent. Check the allowed limit in the national wiring rules that apply where you work; a qualified electrician must confirm it.",
+"activity": "Calculate voltage drop as a number and a percentage for a 10 A load on 60 m of 2.5 mm² cable. Say whether you would accept it without checking the local limit.",
+"standard": "Learner computes drop in volts and per cent and keeps it as a separate check from fault current."}
+],
+"quiz": [
+{"q": "Why is the loop length twice the cable length?","a": "Current goes out along one conductor and returns along another.","module": 1},
+{"q": "What is the loop resistance of 2.5 mm² copper over 40 m using 0.0225 ohm mm² per metre?","a": "About 0.72 ohms.","module": 1},
+{"q": "What happens to loop resistance if the conductor size is halved?","a": "It doubles.","module": 1},
+{"q": "With a 0.72 ohm loop on 230 V, what is the fault current?","a": "About 319 A.","module": 2},
+{"q": "A 16 A device needs 160 A to trip instantly. Does a 319 A fault pass?","a": "Yes, 319 is above 160.","module": 2},
+{"q": "A 32 A device needs 320 A and the run gives 256 A. Pass or fail?","a": "Fail.","module": 2},
+{"q": "Name three ways to fix a run that fails the fault check.","a": "Use a thicker cable, shorten the route, or use a device with a lower trip level.","module": 3},
+{"q": "What fault current does 10 mm² over 120 m give at 230 V?","a": "About 426 A.","module": 3},
+{"q": "A 20 A load on a 0.72 ohm loop. What is the voltage drop?","a": "14.4 V, about 6.3 per cent of 230 V.","module": 4},
+{"q": "Why check voltage drop separately from fault current?","a": "A run can trip properly in a fault and still deliver too low a voltage under load.","module": 4}
+],
+"ladder": [
+{"title": "L1 Basic: Long cable, weak fault","slide": "Two cables of different lengths with arrows showing strong and weak current.","notes": "Open with the idea that distance weakens the fault current. Keep it visual. No formulas yet."},
+{"title": "L2 Explain: The loop","slide": "Diagram of current going out along one conductor and back along another.","notes": "Explain why loop length is double. Work 2 × 0.0225 × 40 ÷ 2.5 = 0.72 ohms on the board."},
+{"title": "L3 Apply: Fault current","slide": "Worked sum 230 ÷ 0.72 = 319 A next to a trip level of 160 A.","notes": "Walk through pass. Then show the 6 mm² 120 m case at 256 A failing against 320 A. Remind learners these are rounded teaching figures."},
+{"title": "L4 Analyse: Three fixes","slide": "Table comparing 10 mm², lower trip device and a shorter route with resulting amps.","notes": "Learners compare 426, 256 against 160, and 383 A. Discuss cost and practicality of each fix."},
+{"title": "L5 Design: Pick a cable","slide": "Brief: 90 m run, 230 V, 20 A device needing 200 A. Choose a size.","notes": "Learners try sizes and show the working. Real designs use maker tables, and qualified people take the decisions."},
+{"title": "L6 Evaluate: Voltage drop","slide": "Same run with a 20 A load showing a 14.4 V drop and 6.3 per cent.","notes": "Show that passing one check does not pass both. Ask what limit applies locally and who would know."},
+{"title": "L7 Create: Check sheet","slide": "Blank sheet with boxes for size, length, loop, fault current, trip level, drop, verdict.","notes": "Learners build their own check sheet and test it on an invented run. Close by repeating that final design sits with qualified people and the local rules."}
+],
+"rubric": [
+{"criterion": "Loop resistance","not_yet": "Uses the cable length once, not doubled, or mixes units.","meets": "Calculates loop resistance correctly with the working shown.","exceeds": "Explains how length, size and temperature each move the result."},
+{"criterion": "Fault current check","not_yet": "Cannot compare fault current to the trip level.","meets": "Calculates fault current and states pass or fail with a margin.","exceeds": "Notes the limits of the simple model and asks for maker tables."},
+{"criterion": "Proposing fixes","not_yet": "Offers no fix or an untested one.","meets": "Offers at least two fixes with checked numbers.","exceeds": "Compares fixes by cost and practicality and picks one with a reason."},
+{"criterion": "Voltage drop and safe attitude","not_yet": "Ignores voltage drop or implies anyone may change the circuit.","meets": "Checks voltage drop separately and says qualified people finalise the design.","exceeds": "Links the drop result to the needs of the load and the local limit."}
+],
+"jobs": [
+{"role": "Electrical designer","what": "Sizes cables and chooses protection so faults clear quickly and voltage stays healthy."},
+{"role": "Estimator","what": "Prices cable runs and spots long routes that will need larger sizes."},
+{"role": "Inspection and test technician","what": "Measures loop values on site and compares them with the design, following local rules."},
+{"role": "Project engineer","what": "Reviews layouts and makes sure cable routes and ratings match the design checks."}
+]
+}

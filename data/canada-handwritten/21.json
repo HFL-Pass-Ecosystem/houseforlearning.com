@@ -1,0 +1,198 @@
+{
+ "mods": {
+  "1": {
+   "title": "Know blog words and readers",
+   "intro": "A blog is a website with posts. Start with the basic words and the people you write for.",
+   "pts": [
+    "Learn the terms: post, page, topic, domain, hosting, draft, publish, link, audience.",
+    "A niche is a topic you can write about for a long time.",
+    "Name one reader in one line: who they are, what they need, what worries them.",
+    "Read five blogs and list the topic, reader and how often they post.",
+    "Compare a blog, a newsletter and a social page, and say which fits your reader.",
+    "Write the promise of your blog in one sentence: what the reader gets.",
+    "List three questions your reader asks that you can answer from real experience."
+   ],
+   "ex": "Niche: 'cheap healthy lunches for students'. Reader: a student with a small budget and 20 minutes. If bought lunch costs 12 and yours costs 4, the saving is 12 - 4 = 8 dollars per lunch.",
+   "act": "Read five blogs and fill a table of topic, reader and post count. Write your niche in one line.",
+   "std": "Task: study five blogs. Condition: public pages only. Standard: table complete and niche fits one line."
+  },
+  "2": {
+   "title": "Explain how a post goes from idea to published",
+   "intro": "A post follows steps. If you can name them, you can write on a schedule.",
+   "pts": [
+    "The steps: idea, outline, draft, edit, check facts, add image, publish, share.",
+    "An outline lists the title, three to five headings and the one point of each.",
+    "Keep a list of ten ideas and choose one per week.",
+    "Set a fixed day each week to publish.",
+    "Batch your work: write two drafts in one sitting and schedule them.",
+    "Keep a checklist for each post: title, headings, links, image text and spelling.",
+    "Save every draft with a date so you can return to an earlier version."
+   ],
+   "ex": "Idea: 'five lunches under five dollars'. Outline: intro, five lunches, shopping list, summary. If four steps (outline, draft, edit, publish) take 30 minutes each, 4 x 30 = 120 minutes, so one post a week fits two evenings.",
+   "act": "Write an outline for three posts and a four-week calendar.",
+   "std": "Task: plan four weeks. Condition: with one post a week. Standard: each post has a title, outline and date."
+  },
+  "3": {
+   "title": "Write and publish a clear post",
+   "intro": "Now you apply the basics. Write a post that is clear, true and easy to scan.",
+   "pts": [
+    "Put the main point in the first two sentences.",
+    "Use short words, short paragraphs and clear headings.",
+    "Use your own photos or free-to-use images and say where they came from.",
+    "Read aloud and cut every word that does nothing.",
+    "Write a title that tells the reader what they get and test it on one friend.",
+    "Add short descriptive text for each image so a screen reader can read it.",
+    "Link to at least two reliable sources and check that each link opens."
+   ],
+   "ex": "Before: 'Many people consider lunch an important meal.' (7 words, no fact). After: 'A good lunch costs less than five dollars. Here are five.' (10 words, one fact and one promise). The after version tells the reader what they get.",
+   "act": "Write and publish your first 500-word post. Edit it twice.",
+   "std": "Task: publish one post. Condition: using a free blog tool. Standard: one clear point, own words, image source noted, no spelling errors."
+  },
+  "4": {
+   "title": "Follow Canadian rules for blogs",
+   "intro": "Canada has rules for copyright, honest ads, privacy and email. Learn which touch your blog.",
+   "pts": [
+    "Copyright: do not copy other people's text or images without permission; quote briefly and say the source.",
+    "If you are paid or get a free product to write, tell readers clearly. Advertising must be truthful.",
+    "Collecting emails or using visitor data falls under privacy law; add a plain privacy page and ask consent.",
+    "Sending commercial email needs consent and an unsubscribe link; check the current anti-spam rules.",
+    "State who owns your photos and text and keep proof of when you made them.",
+    "Name any image licence you use and follow its terms.",
+    "Check the federal and provincial rules for contests and giveaways before you run one."
+   ],
+   "ex": "A brand sends you a free pan. Your post says at the top: 'I received this pan for free.' The label comes before any link, so a reader sees it first. You keep the message from the brand in your records.",
+   "act": "Build a table of rule, what you must do and where you checked for ten situations.",
+   "std": "Task: build a rules table. Condition: from official public pages. Standard: each row has a dated source; unclear cases say 'check the current rule with the local authority'."
+  },
+  "5": {
+   "title": "Understand costs and ways to earn",
+   "intro": "A blog can earn money slowly. Learn the costs and the income types.",
+   "pts": [
+    "Costs: domain name, hosting, email tool, image tool, your time.",
+    "Ways to earn: ads, affiliate links, your own products, paid services, sponsorship.",
+    "Earnings depend on visitors and trust, not only on posts.",
+    "Blog income is usually taxable in Canada; keep records and check the tax rules with the tax agency.",
+    "List which costs are one-time and which repeat each month or year.",
+    "Work out how many sales you need to cover monthly costs.",
+    "Ask whether you would write the blog if it earned nothing, and note the answer."
+   ],
+   "ex": "1,000 visitors a month, 2 percent buy a 15 dollar guide: 1,000 x 0.02 = 20 sales, and 20 x 15 = 300 dollars. If monthly costs are 10 dollars, 300 - 10 = 290 left. Break-even is 10 / 15 = 0.67, so one sale covers the costs. Teaching figures only.",
+   "act": "Build a one-page budget and an income forecast for six months.",
+   "std": "Task: build a forecast. Condition: with simple spreadsheet. Standard: costs, income types and visitor assumptions all stated."
+  },
+  "6": {
+   "title": "Find readers and grow",
+   "intro": "Readers find you through search, sharing and email. Build a steady way to be found.",
+   "pts": [
+    "Write titles that match what people type into a search box.",
+    "Link between your own posts and to reliable sources.",
+    "Share on one or two social places where your readers are.",
+    "Offer a simple email sign-up with consent and track the numbers.",
+    "Check which search words appear in your title, first paragraph and headings.",
+    "Reply to every comment within two days and thank people who share.",
+    "Rewrite your oldest post with new facts and link it to newer posts."
+   ],
+   "ex": "Title 'How to meal-prep lunches for a week' matches a real search. A post titled 'Lunch ideas' is too vague. If 5 percent of 500 visitors sign up, 500 x 0.05 = 25 sign-ups.",
+   "act": "Publish four posts in a month and track visits, sign-ups and shares.",
+   "std": "Task: grow readers. Condition: with real posts and a free analytics tool. Standard: numbers logged weekly and one lesson written."
+  },
+  "7": {
+   "title": "Protect your readers, your work and your accounts",
+   "intro": "A professional blogger protects privacy, ownership and sign-ins.",
+   "pts": [
+    "Use strong unique passwords and two-step sign-in.",
+    "Back up posts and images every month.",
+    "Do not share personal details about other people without consent.",
+    "Check facts, names and links before publishing, and fix errors openly.",
+    "Keep a list of every account you use and who can sign in.",
+    "Remove personal details such as house numbers from photos before posting.",
+    "Write down how you would restore the site from a backup and test it once."
+   ],
+   "ex": "A reader points out a wrong price. You fix it and add: 'Updated: price corrected.' If you back up on the first of each month, the most you can lose is one month of posts, which is 4 posts at one a week.",
+   "act": "Write a privacy page, a one-page content policy and a monthly backup checklist.",
+   "std": "Task: write three documents. Condition: reviewed by a mentor. Standard: each is in plain words and dated."
+  },
+  "8": {
+   "title": "Run a real pilot and decide",
+   "intro": "Now you run it for real. Publish, measure and decide how to grow.",
+   "pts": [
+    "Set a 60-day goal, such as eight posts and 500 visitors.",
+    "Every week record posts, visitors, sign-ups and time spent.",
+    "Ask five readers what they liked and what to change.",
+    "At the end choose: stop, change or grow, and write a 12-month plan.",
+    "Set a weekly time budget in hours and record the real hours.",
+    "Identify the post that drew the most visitors and say why.",
+    "Write the one thing you will stop doing."
+   ],
+   "ex": "After 60 days: 8 posts, 620 visitors, 25 sign-ups. 25 / 620 is about 4 percent of visitors signing up. You decide to focus on the two posts that drew most readers.",
+   "act": "Run the pilot, keep the weekly log and present a 12-month plan to a panel of three.",
+   "std": "Task: run a 60-day pilot. Condition: real posts and real readers. Standard: log complete, decision uses numbers, a panel can repeat the plan."
+  }
+ },
+ "price": [
+  15,
+  0,
+  300,
+  "guide"
+ ],
+ "quiz": [
+  [
+   "What is a niche?",
+   "A topic you can write about for a long time for a clear reader.",
+   1
+  ],
+  [
+   "What are the steps of a post?",
+   "Idea, outline, draft, edit, check, image, publish, share.",
+   2
+  ],
+  [
+   "Why put the main point first?",
+   "Readers scan and may leave early.",
+   3
+  ],
+  [
+   "What must you say if you get a free product?",
+   "Tell readers clearly that you received it.",
+   4
+  ],
+  [
+   "What do commercial emails need?",
+   "Consent, a clear sender and an unsubscribe link.",
+   4
+  ],
+  [
+   "Name three ways a blog can earn.",
+   "Ads, affiliate links, own products, services or sponsorship.",
+   5
+  ],
+  [
+   "Why back up your blog?",
+   "To recover your work if the site or account fails.",
+   7
+  ],
+  [
+   "What do you do with a wrong fact?",
+   "Fix it openly and note the update.",
+   7
+  ],
+  [
+   "Why use free-to-use images?",
+   "Copying images without permission breaks copyright.",
+   4
+  ],
+  [
+   "What do you do when unsure about a rule?",
+   "Check the current rule with the local authority and keep the answer in writing.",
+   4
+  ]
+ ],
+ "jobs": [
+  "Blogger",
+  "Content writer",
+  "Content marketing assistant",
+  "Social media coordinator",
+  "Editor",
+  "Website content manager"
+ ]
+}

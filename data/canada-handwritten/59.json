@@ -1,0 +1,198 @@
+{
+ "mods": {
+  "1": {
+   "title": "Know what a portfolio is and what the words mean",
+   "intro": "This course is about how portfolio management work is done. It is education, not personal advice. Consult a licensed professional for your own money.",
+   "pts": [
+    "Explain that a portfolio is a set of investments held together for a goal.",
+    "Name the main asset types: cash, bonds, shares and funds.",
+    "Explain risk as the chance that results differ from what you hoped.",
+    "Explain return, fees and time frame in plain words.",
+    "Say clearly that managing money for others is a regulated activity.",
+    "Describe the difference between saving, investing and borrowing.",
+    "Identify the roles in the work: client, adviser, portfolio assistant and compliance."
+   ],
+   "ex": "A portfolio holds cash for next year's needs, bonds for steadier income and shares for long-term growth. Each part has a different job. For example, 10,000 split 10%, 40% and 50% is 1,000 in cash, 4,000 in bonds and 5,000 in shares.",
+   "act": "Write a one-page glossary of ten terms and explain it aloud to a friend.",
+   "std": "Task: define ten portfolio terms. Condition: own words, one page. Standard: each term is correct and a friend can repeat it back."
+  },
+  "2": {
+   "title": "Know the rules and who may do this work",
+   "intro": "Managing money for other people is regulated in Canada. Know the line before you cross it.",
+   "pts": [
+    "Explain that advising on or managing investments for others usually requires registration with the provincial securities regulator.",
+    "Check the current rule with your provincial regulator before you offer any service.",
+    "Explain that a firm must know its client and check that each investment suits the client.",
+    "Explain the duty to put the client's interest first and to tell about conflicts.",
+    "Explain anti-money-laundering rules: know your client, keep records, report suspicious activity.",
+    "Locate the provincial securities regulator's page on registration and write down the link.",
+    "Describe a complaint process and tell the client how to use it."
+   ],
+   "ex": "A person wants to start 'managing friends' money' for a fee. The right step is to ask the regulator what registration is needed first, not to begin. The person writes down the questions and keeps the answer in writing.",
+   "act": "Build a rules table with rule, who enforces it, what it requires and the source with date.",
+   "std": "Task: build a rules table. Condition: official regulator pages only. Standard: each row has an enforcer, an action and a dated source; no rule is guessed."
+  },
+  "3": {
+   "title": "Know the client: goals, time frame and comfort with risk",
+   "intro": "A portfolio starts with the person, not the product. This is how professionals gather facts.",
+   "pts": [
+    "Ask about goals, time frame, income, debts, savings and needs for cash.",
+    "Ask how the person feels about losses and write it down in their words.",
+    "Separate must-have goals from nice-to-have goals.",
+    "Explain why a short time frame limits how much risk makes sense.",
+    "Record everything and have the client confirm it.",
+    "Describe how a client's age, job stability and emergency savings affect the risk that fits.",
+    "Write a summary in plain words and read it back to the client."
+   ],
+   "ex": "A client needs a house down payment in 2 years. Because the time is short, the plan favours safer holdings and the note explains why. If the client needs 40,000 and has 30,000, the gap is 10,000, or 5,000 a year to save.",
+   "act": "Write a fact-finding form with ten questions and practise it with a partner.",
+   "std": "Task: complete a fact-finding. Condition: a partner playing the client. Standard: goals, time frame, cash needs and risk comfort are recorded and confirmed by the partner."
+  },
+  "4": {
+   "title": "Build a simple example portfolio",
+   "intro": "Build a practice portfolio on paper to learn how parts fit. This is for study only.",
+   "pts": [
+    "Explain diversification: spreading across different holdings so one problem hurts less.",
+    "Match a mix of cash, bonds and shares to a goal and time frame in a worked example.",
+    "Explain how fees reduce returns over many years.",
+    "Explain rebalancing: moving back to the planned mix when prices change it.",
+    "Write the reason for every holding in one sentence.",
+    "Compare a low-fee fund with a high-fee fund over time.",
+    "Explain what a cash reserve is for."
+   ],
+   "ex": "Plan: 10% cash, 40% bonds, 50% shares. After a rise, shares are 58%, bonds 33% and cash 9%. Rebalancing sells 8 points of shares and adds 7 to bonds and 1 to cash to return to the plan.",
+   "act": "Build a practice portfolio on paper for a made-up client and write the reason for each part.",
+   "std": "Task: build a practice portfolio. Condition: made-up client and numbers. Standard: mix fits the goal and time frame, each holding has a reason and fees are shown."
+  },
+  "5": {
+   "title": "Measure results the honest way",
+   "intro": "Results must be measured fairly and shown with the risk.",
+   "pts": [
+    "Compute simple return = (end value - start value) / start value.",
+    "Explain that past results do not promise future results.",
+    "Compare a portfolio to a fair benchmark with a similar mix.",
+    "Show worst falls as well as gains.",
+    "Show results after fees.",
+    "Compute a yearly return from two year-end values and compare years.",
+    "Explain the difference between a return in money and a return in percent."
+   ],
+   "ex": "Start 10,000, end 10,600 after fees: return = 600 / 10,000 = 6%. In the same year the portfolio fell 9% at its worst point, and the report shows both. If the benchmark returned 5%, the portfolio is 1 percentage point ahead.",
+   "act": "Compute and report returns, fees and worst fall for a made-up portfolio over three years.",
+   "std": "Task: write a results report. Condition: a made-up data set. Standard: numbers are correct, a benchmark is stated and risk is shown beside return."
+  },
+  "6": {
+   "title": "Report, communicate and keep records",
+   "intro": "Clients need clear reports, honest words and safe records.",
+   "pts": [
+    "Write reports in plain language: what you hold, what it did, what it cost, what changes.",
+    "Never promise returns; show ranges and risks.",
+    "Keep notes of every instruction and every decision with its date.",
+    "Protect client data under privacy law; keep records for the time the regulator requires and check it.",
+    "Explain fee types and tell the client in writing.",
+    "Put a summary of five lines at the top of each report.",
+    "Store records securely and limit who can open them."
+   ],
+   "ex": "A client calls worried after a fall. The adviser opens the plan, shows the goal and time frame, and notes the call with date and outcome. The note also records that no change was made. As a pricing example, a firm bills a one-hour client review at 150 CAD; the assistant's cost for that hour is 35 CAD, so the margin is 115 CAD, about 77% of the price, before overhead, and the fee is shown to the client in writing.",
+   "act": "Write a one-page client report for the practice portfolio, with fees and risk in plain words.",
+   "std": "Task: write a client report. Condition: one page. Standard: no promises, fees and risk shown and a plain-word summary at the top that a teenager can follow."
+  },
+  "7": {
+   "title": "Manage conflicts, ethics and risk",
+   "intro": "Trust is the product. Handle conflicts, errors and misuse of data openly.",
+   "pts": [
+    "List common conflicts: commissions, own holdings, rewarding sales over fit.",
+    "Tell the client about any conflict in writing.",
+    "Have a process for errors: tell the client, fix, record the cause.",
+    "Spot fraud signs: pressure, guaranteed returns, missing documents.",
+    "Check suitability again whenever the client's life changes.",
+    "Describe who the client can complain to if they are not satisfied.",
+    "Explain why gifts and favours from product sellers must be disclosed or declined; check the firm's rule."
+   ],
+   "ex": "An adviser would earn more from one fund. She tells the client and shows a comparable lower-cost option, and records the client's choice. If the funds cost 1.0% and 1.8% a year, the difference on 10,000 is 0.8% of 10,000 = 80 a year.",
+   "act": "Write a one-page conflict and error policy and test it on two made-up cases.",
+   "std": "Task: write a policy. Condition: one page, two cases. Standard: each case follows the policy and the record is complete."
+  },
+  "8": {
+   "title": "Run a portfolio process under supervision",
+   "intro": "Run the whole process as a learner in a safe setting: made-up or supervised cases only, under a registered professional.",
+   "pts": [
+    "Work with a registered supervisor for any real client matter.",
+    "Run the cycle: fact-find, plan, build, report, review.",
+    "Review each practice portfolio every quarter on paper.",
+    "Record what went wrong and what you changed.",
+    "Write a plan for your next training step, for example the exams or registration route; check the current requirements with the regulator.",
+    "Prepare a case file for each practice client: facts, plan, reports and reviews.",
+    "Present your results to a supervisor and write down their feedback."
+   ],
+   "ex": "A student runs three made-up clients for two quarters. The log shows one plan drifted from its mix, so she rebalanced it and noted the reason. With 3 clients and 2 quarters, that is 6 reviews in all.",
+   "act": "Run three practice cases for two quarters and present your review to a panel.",
+   "std": "Task: run practice cases. Condition: made-up data or a registered supervisor. Standard: the cycle is complete, records are dated and the review reasons from evidence."
+  }
+ },
+ "price": [
+  150,
+  35,
+  20,
+  "hour"
+ ],
+ "quiz": [
+  [
+   "What is a portfolio?",
+   "A set of investments held together for a goal.",
+   1
+  ],
+  [
+   "Why check the regulator before offering a service?",
+   "Managing or advising on money for others is regulated and may need registration.",
+   2
+  ],
+  [
+   "What three facts set how much risk fits?",
+   "Goals, time frame and comfort with loss.",
+   3
+  ],
+  [
+   "What is diversification?",
+   "Spreading money across different holdings so one problem hurts less.",
+   4
+  ],
+  [
+   "What is rebalancing?",
+   "Moving back to the planned mix after prices change it.",
+   4
+  ],
+  [
+   "How do you compute simple return?",
+   "End value minus start value, divided by start value.",
+   5
+  ],
+  [
+   "Why show fees and worst falls in a report?",
+   "So the client sees the true cost and risk.",
+   5
+  ],
+  [
+   "What is a conflict of interest?",
+   "A situation where your gain may pull against the client's best interest.",
+   2
+  ],
+  [
+   "Can you promise returns?",
+   "No; show ranges and risks.",
+   6
+  ],
+  [
+   "Who must supervise any real client matter?",
+   "A registered supervisor.",
+   8
+  ]
+ ],
+ "jobs": [
+  "Investment operations assistant",
+  "Client service associate",
+  "Portfolio assistant",
+  "Compliance assistant",
+  "Junior analyst",
+  "Registered adviser trainee"
+ ]
+}

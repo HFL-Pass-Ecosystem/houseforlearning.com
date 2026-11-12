@@ -1,0 +1,198 @@
+{
+ "mods": {
+  "1": {
+   "title": "Know what a mobile app is and how it runs",
+   "intro": "A mobile app is a program on a phone or tablet. Learn the basic parts and words.",
+   "pts": [
+    "Explain the difference between a native app, a web app and a hybrid app.",
+    "Name the parts: screens, buttons, data, a server and storage.",
+    "Explain what an app store does and why apps are reviewed.",
+    "Explain what permissions are: access to camera, location or contacts.",
+    "Explain that an app has a life: idea, build, test, release, update.",
+    "Give one example each of a native, a web and a hybrid app and one trade-off of each.",
+    "Draw the path of data from a button tap to the server and back."
+   ],
+   "ex": "A to-do app has three screens: list, add and settings. It stores tasks on the phone first, so it works without signal, and if the user signs in it also stores them on a server so tasks follow them to a new phone.",
+   "act": "Sketch an app idea as three screens on paper and label every button.",
+   "std": "Task: sketch screens. Condition: paper and pen. Standard: each button leads to a screen and the data on each screen is named."
+  },
+  "2": {
+   "title": "Find a real user and a real need",
+   "intro": "Apps succeed when they solve one problem for a clear person.",
+   "pts": [
+    "Interview five possible users: what they do now, what is hard, what they pay.",
+    "Write the need in one sentence: 'For [who] who need [what], this app gives [result].'",
+    "Look at three similar apps and note what is missing.",
+    "Choose the smallest first version that solves one job.",
+    "Write the first user story and a test for it.",
+    "Ask each person what would make them stop using the app.",
+    "Write what success means as a number you can measure after 30 days."
+   ],
+   "ex": "A clinic receptionist wants fewer missed visits. The first version only sends a reminder list for tomorrow. Test: of 20 sample patients, 8 are booked tomorrow, and the list must show exactly those 8.",
+   "act": "Interview five users and write a need sentence and one user story.",
+   "std": "Task: define the need. Condition: five real conversations. Standard: interviews are dated, the need fits one sentence and the story has a test."
+  },
+  "3": {
+   "title": "Know the rules: privacy, children, money and accessibility",
+   "intro": "Apps handle personal data and money. Canadian rules apply.",
+   "pts": [
+    "Explain that federal and provincial privacy laws set how you collect, use and keep personal data, that Quebec has its own law, and that you should check the current rules.",
+    "Explain that an app needs a clear privacy notice that says what you collect and why.",
+    "Explain that anti-spam law needs consent before you send commercial messages.",
+    "Explain that apps for children need extra care and may need parental consent; check the current rules.",
+    "Explain that accessibility matters: aim for the current WCAG guidelines at level AA so people with disabilities can use the app.",
+    "Explain data retention: delete personal data you no longer need.",
+    "Explain that if data is kept on servers in another country, check the rule and say so in the privacy notice."
+   ],
+   "ex": "A weather app asks for contacts. That is not needed for weather, so the permission is removed. The privacy notice lists only location and why it is used.",
+   "act": "Build a rules table and a one-page privacy notice for your app idea.",
+   "std": "Task: draft rules and notice. Condition: official pages. Standard: each rule has an enforcer, action and dated source and the notice names every data item and reason."
+  },
+  "4": {
+   "title": "Design screens people can use",
+   "intro": "Good design is simple and clear. Test it before you build.",
+   "pts": [
+    "Draw each screen with one main action.",
+    "Use large touch targets, clear text, and enough contrast.",
+    "Support text size changes and screen readers.",
+    "Plan for poor connections: the app should handle no internet.",
+    "Test paper screens with three real users and note where they hesitate.",
+    "Use the same pattern for the same action on every screen.",
+    "Test the screen in bright light and on a small phone to see whether text and buttons can still be read."
+   ],
+   "ex": "A tester cannot find 'Save'. The designer makes the button larger, puts it at the bottom and uses the word 'Save' not an icon. The next three testers find it at once.",
+   "act": "Build a clickable mock-up of your app and test it with three users.",
+   "std": "Task: test a design. Condition: three users. Standard: hesitation points are recorded and at least one change is made from them."
+  },
+  "5": {
+   "title": "Build the first working version",
+   "intro": "Build small, test often and keep the code tidy.",
+   "pts": [
+    "Choose a tool path (native or cross-platform) and write why.",
+    "Build the smallest working version: one user story from start to finish.",
+    "Use version control and commit often with clear notes.",
+    "Write simple automated tests for the main logic.",
+    "Keep secrets and keys out of the code.",
+    "Write the test for the first user story before you write the code.",
+    "Reread your own code after a day and tidy the names."
+   ],
+   "ex": "Version 1: the user adds a task and sees it in a list. It works offline. A test checks that adding then reading returns the same task, and it passes before the version is shown to a user.",
+   "act": "Build version 1 of your app and show it to one user.",
+   "std": "Task: build version 1. Condition: one user story. Standard: it runs, the main logic has a test and the user completes the story alone."
+  },
+  "6": {
+   "title": "Test on real devices and fix faults",
+   "intro": "An app that works on your phone may fail on others. Test widely.",
+   "pts": [
+    "Test on at least two screen sizes and two versions of the operating system.",
+    "Test with no signal, low battery and low storage.",
+    "Log every fault with steps to repeat, expected result and actual result.",
+    "Fix the worst faults first and run the tests again.",
+    "Add crash reporting that does not collect personal data without consent.",
+    "Test the update path: install the old version, then the new one, and check that data survives.",
+    "Repeat the full test list before each release."
+   ],
+   "ex": "The app crashes when a user rotates the screen on a small phone. The fault log has the steps, the fix is made and the same steps now pass. The steps are added to the test list so the fault is caught next time.",
+   "act": "Test your app on two devices and write a fault log of at least five entries.",
+   "std": "Task: test and fix. Condition: two devices. Standard: each fault has steps, a fix and a re-test result."
+  },
+  "7": {
+   "title": "Release, price and look after users",
+   "intro": "Releasing is the start of the work. Price and support must be planned.",
+   "pts": [
+    "Prepare store listings: honest name, description, screenshots, privacy notice and support contact.",
+    "Follow the store's rules and note that each store reviews apps; read the current rules.",
+    "Choose a model: paid, subscription, free with ads or free with paid extras; be clear about price.",
+    "Break-even volume = fixed cost / margin per sale; ask a licensed accountant about sales tax and income.",
+    "Plan updates and answer support messages within one working day.",
+    "Write a short support reply template and release notes in plain words.",
+    "Compare your price with three similar apps and write why a user would pay."
+   ],
+   "ex": "A subscription costs 6 CAD a month with store and payment fees of 1.50. Margin = 6 - 1.50 = 4.50. Fixed cost per month is 900, so break-even = 900 / 4.50 = 200 subscribers (teaching numbers only).",
+   "act": "Write a store listing, a price sheet and a break-even calculation.",
+   "std": "Task: prepare release and price. Condition: a spreadsheet. Standard: listing is honest, formulas are visible and three what-if cases are shown."
+  },
+  "8": {
+   "title": "Run the app as a real product",
+   "intro": "Run a pilot with real users, measure and decide.",
+   "pts": [
+    "Release to a small group first and set a stop rule.",
+    "Measure: users who return, faults per release, support messages and cost to serve.",
+    "Back up data and test a restore; write a runbook for the three likely faults.",
+    "Plan a breach response: who is told, how and when; check the current rules.",
+    "Write a 12-month plan with milestones, a budget and a risk list.",
+    "Track the week-two return rate = returning users / users.",
+    "Hold a review after 60 days that compares the numbers with the stop rule."
+   ],
+   "ex": "A pilot with 40 users: 22 return in week two (22 / 40 = 55%). Top complaint: slow sign-in. The next release fixes it, and with a new group of 50 users, 32 return, which is 64%.",
+   "act": "Run a 60-day pilot and present the review to a panel of three.",
+   "std": "Task: run a pilot. Condition: 60 days with real users. Standard: measures are recorded, the privacy notice is kept true and the review reasons from evidence."
+  }
+ },
+ "price": [
+  6,
+  1.5,
+  200,
+  "user"
+ ],
+ "quiz": [
+  [
+   "What is the difference between a native and a web app?",
+   "A native app is built for one platform's system; a web app runs in a browser.",
+   1
+  ],
+  [
+   "What goes in a one-line need statement?",
+   "Who it is for, the need, the result.",
+   2
+  ],
+  [
+   "Why keep permissions minimal?",
+   "Ask only for data you need; it protects users and trust.",
+   3
+  ],
+  [
+   "What is a user story?",
+   "A short statement of who wants what and why, with a test.",
+   2
+  ],
+  [
+   "Why test with no internet?",
+   "Phones often lose signal and the app should still handle it.",
+   4
+  ],
+  [
+   "What does a fault log entry contain?",
+   "Steps to repeat, expected result and actual result.",
+   6
+  ],
+  [
+   "What does the privacy notice say?",
+   "What data you collect, why, and how it is kept and deleted.",
+   3
+  ],
+  [
+   "How do you find break-even?",
+   "Fixed cost divided by margin per sale.",
+   7
+  ],
+  [
+   "Why aim for accessibility guidelines?",
+   "So people with disabilities can use the app.",
+   3
+  ],
+  [
+   "What do you do if unsure about a privacy or store rule?",
+   "Check the current rule with the official body or a licensed adviser and keep the answer in writing.",
+   3
+  ]
+ ],
+ "jobs": [
+  "Junior mobile developer",
+  "App tester",
+  "UX designer",
+  "Product assistant",
+  "Mobile developer",
+  "App founder"
+ ]
+}

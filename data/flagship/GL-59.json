@@ -1,0 +1,291 @@
+{
+ "id": "GL-59",
+ "title": "Car Charging Stations",
+ "level": 4,
+ "desc": "Plan, site and run a small public or shared EV charging point: demand, power, safety, pricing, uptime and users.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain charger types, connectors and grid limits."
+  ],
+  [
+   "Apply",
+   "Choose a site and size the supply."
+  ],
+  [
+   "Analyse",
+   "Estimate demand, usage and revenue."
+  ],
+  [
+   "Evaluate",
+   "Judge safety, cost, uptime and fairness."
+  ],
+  [
+   "Create",
+   "Write a site plan and operations sheet."
+  ]
+ ],
+ "task": "Plan one charging point or small hub with site survey, power sizing, safety plan, tariff, maintenance plan and 12-month cash view.",
+ "condition": "A computer, a map, a spreadsheet, two peers and a licensed electrician mentor. No live installation work is done by learners.",
+ "standard": "Power and demand maths is correct; protective devices and earthing are listed and approved by a licensed person; accessibility is planned; uptime target and tariff shown; peers rate Meets or better.",
+ "who": "Site hosts, shop and hotel owners, utilities assistants, installers.",
+ "req": "none",
+ "evidence": "site survey, sizing sheet, safety plan, tariff, maintenance plan, cash view",
+ "modules": [
+  [
+   "Charger types, speeds and connectors",
+   "Understand",
+   3,
+   "Chargers differ in power, speed and cost. Choose by how long drivers will stay.",
+   [
+    "AC points (3 to 22 kW) suit long stays such as homes, workplaces and hotels; the car converts AC to DC.",
+    "DC fast chargers (50 kW and above) suit quick stops on routes.",
+    "Connector types and standards depend on region; check which cars you must support.",
+    "Smart chargers can share power and report faults."
+   ],
+   "A shopping mall installs 7 kW points because shoppers stay about two hours and add 14 kWh each. A highway site installs 60 kW units because drivers want 30 kWh in about 30 minutes.",
+   "Compare three charger types in a table with power, time to add 30 kWh, cost range and best site.",
+   "Check that table values are correct and sourced."
+  ],
+  [
+   "Choosing a site",
+   "Apply",
+   4,
+   "The right place and the right grid connection decide success.",
+   [
+    "Visible, safe, well lit, accessible, near amenities such as food and toilets.",
+    "Distance to the electricity supply and spare transformer capacity.",
+    "Permission from the land owner, the utility and the local authority.",
+    "Space for growth, queuing and turning."
+   ],
+   "A site 20 m from the main panel saves cable cost; another 300 m away needs trenching and a new transformer, doubling cost.",
+   "Complete a mock site survey for two sites and score five criteria.",
+   "Justify scores in writing."
+  ],
+  [
+   "Power sizing and load management",
+   "Apply",
+   5,
+   "Do not overload the supply.",
+   [
+    "Total kW = number of chargers x kW each x diversity factor (the share likely to be in use at the same time).",
+    "Compare with supply capacity; use load management when limited.",
+    "Plan growth with spare conduit.",
+    "Include power for lights, screens and equipment."
+   ],
+   "Four 7 kW points on a 20 kW supply use load sharing so total draw never exceeds 20 kW; with all four in use each car gets about 5 kW.",
+   "Size a site and show the calculation.",
+   "Check that the maths is correct and respect the supply limit."
+  ],
+  [
+   "Demand and revenue",
+   "Analyse",
+   5,
+   "Estimate real use before you invest.",
+   [
+    "Count nearby EVs and traffic; talk to likely users.",
+    "Utilisation = hours in use / hours open.",
+    "Revenue = kWh sold x price minus electricity cost and fees.",
+    "Test low, medium and high demand cases."
+   ],
+   "At 15 per cent utilisation a 7 kW point sells about 25 kWh a day; at 5 per cent it sells about 8 kWh a day and may not break even.",
+   "Build a 12-month model with three demand cases.",
+   "Show the currency and list assumptions."
+  ],
+  [
+   "Safety and standards",
+   "Evaluate",
+   5,
+   "Protect users and property.",
+   [
+    "Residual current device (RCD), earthing, surge protection, emergency stop and a fire plan.",
+    "Weather protection, cable management and trip-free layout.",
+    "Regular inspection and testing by qualified staff.",
+    "Clear signs and instructions."
+   ],
+   "A charger fails an earth test and is locked out until a licensed electrician repairs it; the fault is logged and reported.",
+   "List the safety measures for your site.",
+   "Obtain approval of the list from a licensed person."
+  ],
+  [
+   "Pricing and payment",
+   "Evaluate",
+   4,
+   "Make prices clear and fair.",
+   [
+    "Per kWh, per minute, session fee and idle fee.",
+    "Display the price before charging begins.",
+    "Use payment methods approved in your place.",
+    "Offer a way for users without a smartphone."
+   ],
+   "An idle fee after 30 minutes frees the bay for other drivers, and users are told by a sign and a message. A price of 12 INR per kWh covers a 7 INR per kWh electricity cost and fees (prices are estimates; check your market).",
+   "Design a tariff and test it with three examples.",
+   "Solve the examples correctly."
+  ],
+  [
+   "Operations and uptime",
+   "Apply",
+   4,
+   "Chargers must work when drivers arrive.",
+   [
+    "Remote monitoring and a fault response target.",
+    "Maintenance schedule and spare parts.",
+    "A helpline number printed on the unit.",
+    "Record faults and fixes."
+   ],
+   "A target to fix faults within 24 hours is met 95 per cent of the time by keeping spare connectors on site.",
+   "Write an operations sheet with targets.",
+   "Set measurable targets."
+  ],
+  [
+   "Inclusion and the site plan",
+   "Create",
+   4,
+   "Everyone should be able to charge.",
+   [
+    "Step-free access, bay width, lighting and a call button.",
+    "Multi-language instructions and simple screens.",
+    "Share the plan with the community.",
+    "Review after six months."
+   ],
+   "Wider bays and a call button let wheelchair users charge independently. A review at six months adds two more bays after queues exceed 15 minutes.",
+   "Finish the plan and a review date.",
+   "Write the plan so that peers can follow it and see accessibility steps."
+  ]
+ ],
+ "quiz": [
+  [
+   "What is load sharing?",
+   "Dividing supply among chargers."
+  ],
+  [
+   "Which suits long stays?",
+   "AC chargers."
+  ],
+  [
+   "Utilisation formula?",
+   "Hours in use / hours open."
+  ],
+  [
+   "Name a safety measure.",
+   "RCD, earthing or emergency stop."
+  ],
+  [
+   "Why display price?",
+   "Fairness and trust."
+  ],
+  [
+   "What is idle fee?",
+   "Charge for occupying a bay after charging."
+  ],
+  [
+   "Who approves electrics?",
+   "Licensed electrician."
+  ],
+  [
+   "Why monitor remotely?",
+   "Quick faults response."
+  ],
+  [
+   "Name an access feature.",
+   "Step-free route or wide bays."
+  ],
+  [
+   "Revenue formula?",
+   "kWh x price minus cost."
+  ]
+ ],
+ "rubric": [
+  [
+   "Power sizing",
+   "Errors",
+   "Correct",
+   "Correct with growth plan"
+  ],
+  [
+   "Safety",
+   "Missing",
+   "Listed",
+   "Listed and approved"
+  ],
+  [
+   "Business view",
+   "No numbers",
+   "12-month model",
+   "Model with sensitivity"
+  ],
+  [
+   "Site data",
+   "Power assumed",
+   "Supply capacity from the utility letter or meter and load recorded",
+   "Load profile logged across a week and the hub sized to it"
+  ],
+  [
+   "Grid, electrical and planning rules",
+   "Permits not checked",
+   "Grid connection, electrical code and planning consent for the place are written down",
+   "Steps checked with the utility and the answers filed"
+  ]
+ ],
+ "jobs": [
+  [
+   "Charging site coordinator",
+   "Runs a site"
+  ],
+  [
+   "Charger maintenance trainee",
+   "Assists technicians"
+  ],
+  [
+   "Roaming/customer support agent",
+   "Helps drivers"
+  ],
+  [
+   "Energy data analyst assistant",
+   "Tracks usage"
+  ],
+  [
+   "Site development assistant",
+   "Surveys sites"
+  ]
+ ],
+ "next": "electric car basics, portable charging, solar basics.",
+ "local": "Utility and safety rules differ by place.",
+ "ladder": [
+  [
+   "Charger types, speeds and connectors",
+   "L1: learner can name charger types. Focus module: Charger types, speeds and connectors (Understand, 3 h). Chargers differ in power, speed and cost. Choose by how long drivers will stay. Key points: AC points (3 to 22 kW) suit long stays such as homes, workplaces and hotels; the car converts AC to DC. DC fast chargers (50 kW and above) suit quick stops on routes. Connector types and standards depend on region; check which cars you must support. Smart chargers can share power and report faults.",
+   "Teach: open with the worked example. A shopping mall installs 7 kW points because shoppers stay about two hours and add 14 kWh each. A highway site installs 60 kW units because drivers want 30 kWh in about 30 minutes. Then set the activity: Compare three charger types in a table with power, time to add 30 kWh, cost range and best site. Mark against the standard: Table values are correct and sourced. Check at this level: Which suits long stays? Model answer: AC chargers."
+  ],
+  [
+   "Choosing a site",
+   "L2: learner knows safety basics. Focus module: Choosing a site (Apply, 4 h). The right place and the right grid connection decide success. Key points: Visible, safe, well lit, accessible, near amenities such as food and toilets. Distance to the electricity supply and spare transformer capacity. Permission from the land owner, the utility and the local authority. Space for growth, queuing and turning.",
+   "Teach: open with the worked example. A site 20 m from the main panel saves cable cost; another 300 m away needs trenching and a new transformer, doubling cost. Then set the activity: Complete a mock site survey for two sites and score five criteria. Mark against the standard: Scores are justified in writing. Check at this level: Name one thing to check when choosing a site. Model answer: Distance to the electricity supply and spare transformer capacity."
+  ],
+  [
+   "Power sizing and load management",
+   "L3: learner can survey a site. Focus module: Power sizing and load management (Apply, 5 h). Do not overload the supply. Key points: Total kW = number of chargers x kW x diversity factor. Compare with supply capacity; use load management when limited. Plan growth with spare conduit. Include power for lights, screens and equipment.",
+   "Teach: open with the worked example. Four 7 kW points on a 20 kW supply use load sharing so total draw never exceeds 20 kW; with all four in use each car gets about 5 kW. Then set the activity: Size a site and show the calculation. Mark against the standard: Check that the maths is correct and respect the supply limit. Check at this level: What is load sharing? Model answer: Dividing supply among chargers."
+  ],
+  [
+   "Demand and revenue",
+   "L4: learner can run a site. Focus module: Demand and revenue (Analyse, 5 h). Estimate real use before you invest. Key points: Count nearby EVs and traffic; talk to likely users. Utilisation = hours in use / hours open. Revenue = kWh sold x price minus electricity cost and fees. Test low, medium and high demand cases.",
+   "Teach: open with the worked example. At 15 per cent utilisation a 7 kW point sells about 25 kWh a day; at 5 per cent it sells about 8 kWh a day and may not break even. Then set the activity: Build a 12-month model with three demand cases. Mark against the standard: Show the currency and list assumptions. Check at this level: Utilisation formula? Model answer: Hours in use / hours open."
+  ],
+  [
+   "Safety and standards",
+   "L5: learner can model demand. Focus module: Safety and standards (Evaluate, 5 h). Protect users and property. Key points: Residual current protection, earthing, surge protection, emergency stop and fire plan. Weather protection, cable management and trip-free layout. Regular inspection and testing by qualified staff. Clear signs and instructions.",
+   "Teach: open with the worked example. A charger fails an earth test and is locked out until a licensed electrician repairs it; the fault is logged and reported. Then set the activity: List the safety measures for your site. Mark against the standard: A licensed person approves the list. Check at this level: Name a safety measure. Model answer: RCD, earthing or emergency stop."
+  ],
+  [
+   "Operations and uptime",
+   "L6: learner can lead a small team. Focus module: Operations and uptime (Apply, 4 h). Chargers must work when drivers arrive. Key points: Remote monitoring and a fault response target. Maintenance schedule and spare parts. A helpline number printed on the unit. Record faults and fixes.",
+   "Teach: open with the worked example. A target to fix faults within 24 hours is met 95 per cent of the time by keeping spare connectors on site. Then set the activity: Write an operations sheet with targets. Mark against the standard: Targets are measurable. Check at this level: Why monitor remotely? Model answer: Quick faults response."
+  ],
+  [
+   "Inclusion and the site plan",
+   "L7: learner can audit a site plan. Focus module: Inclusion and the site plan (Create, 4 h). Everyone should be able to charge. Key points: Step-free access, bay width, lighting and a call button. Multi-language instructions and simple screens. Share the plan with the community. Review after six months.",
+   "Teach: open with the worked example. Wider bays and a call button let wheelchair users charge independently. A review at six months adds two more bays after queues exceed 15 minutes. Then set the activity: Finish the plan and a review date. Mark against the standard: Write the plan so that peers can follow it and see accessibility steps. Check at this level: Name an access feature. Model answer: Step-free route or wide bays."
+  ]
+ ]
+}

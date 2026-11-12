@@ -1,0 +1,108 @@
+{
+ "module8": [
+  "Post-go-live review and coaching the team",
+  "Evaluate",
+  4,
+  "A system is not finished on go-live day. In the first months you check whether it really helps, fix what hurts and teach others to use it well.",
+  [
+   "Compare results with the goals set in the plan: orders per day, stock errors, days to close the month.",
+   "Review the first 90 days: open issues, user complaints, data quality and slow screens.",
+   "Rank improvements by benefit and effort, then pick the top three.",
+   "Coach users with short guides, a practice session and a named super-user in each team."
+  ],
+  "Three months after go-live, stock errors fell from 8 per week to 2, but 30 percent of quotes are still typed in a side spreadsheet. The review finds the quote form is too long, so the team trims it and runs a 30 minute coaching session.",
+  "Write a one-page review of a practice system with three measured results, three problems ranked by benefit and effort, and a 20 minute lesson plan for new users.",
+  "Review uses real numbers; top three actions are justified; lesson plan has a goal, steps and a check that learners can do the task."
+ ],
+ "quiz": [
+  [
+   "A sales order is confirmed and the goods are shipped. Which records change in a joined-up business system?",
+   "Stock goes down, an invoice is created and the ledger and customer balance are updated. This is the benefit of one connected set of records."
+  ],
+  [
+   "Name two examples of master data and two of transactions.",
+   "Master data: customer and item (also supplier). Transactions: a sales order and a purchase receipt. Master data changes rarely; transactions happen every day."
+  ],
+  [
+   "A guided sales flow stops a user from moving a deal to Won. What is the likely reason and who should fix it?",
+   "A required step is missing, such as a named decision maker. The user completes the step; the flow should not be bypassed."
+  ],
+  [
+   "An item has a reorder point of 20 units and 18 are on hand. What should happen?",
+   "The system should suggest a purchase for that item, because stock is below the reorder point. The buyer checks the quantity and confirms."
+  ],
+  [
+   "A stock count shows 96 units but the system says 100. Explain what to do.",
+   "Find the reason first, such as a missed receipt or a damaged item, then post an adjustment of minus 4 with a note. Never change the number without a reason."
+  ],
+  [
+   "Why do posting profiles matter in finance setup?",
+   "They decide which ledger accounts a transaction uses. A wrong profile sends money to the wrong account and makes reports untrue."
+  ],
+  [
+   "A flow must ask a manager to approve any discount above 10 percent. Name its trigger, condition and action.",
+   "Trigger: a quote is saved. Condition: discount is greater than 10 percent. Action: send an approval request to the manager."
+  ],
+  [
+   "Why should cutover to a new system be rehearsed twice before the real weekend?",
+   "Each rehearsal shows steps that fail or take too long, so you can fix them and time the work. By the real weekend the team knows the order, the time needed and the rollback point."
+  ],
+  [
+   "A regional manager must see only their own region in a shared report. How is this done?",
+   "Use row-level access, so the same report shows only the rows that match the viewer's region. Test it with a real manager account."
+  ],
+  [
+   "Compare a fit-gap review with a post-go-live review.",
+   "A fit-gap review is done before the project to see what the system already does and what is missing. A post-go-live review is done after, to measure results and plan improvements."
+  ]
+ ],
+ "ladder": [
+  [
+   "L1 Basic: know the words",
+   "Remember the main parts of a business application: sales, stock, buying, finance and projects. Recognise the difference between master data and transactions. Identify where to click to find a customer or an item.",
+   "Show one order moving from quote to invoice on a diagram. Check that learners can name each record. A common mistake is mixing up an item (master data) with an order line (transaction)."
+  ],
+  [
+   "L2 Awareness: see how it connects",
+   "Understand how one action in sales changes stock and finance. Explain why a clean customer list helps every team. Describe what a guided process does.",
+   "Use a simple story: one sale, three departments. Ask learners to say which team sees the change. Watch for learners who think each module has its own separate data."
+  ],
+  [
+   "L3 Foundation: do daily tasks",
+   "Apply the standard steps to create a lead, a quote, a purchase order and a stock count. Follow checklists for every task. Fix simple data entry errors.",
+   "Let learners complete the tasks on a practice company. Check that each record is saved and linked. A common mistake is skipping a required step and then editing the result by hand."
+  ],
+  [
+   "L4 Practitioner: run a whole cycle",
+   "Apply the full order-to-cash and purchase-to-pay cycles without help. Analyse a stock variance and explain it. Set reorder points and dimensions correctly.",
+   "Give a case with a few planted errors. Ask learners to find and explain each one. Common mistake: adjusting stock numbers to match, without finding the cause."
+  ],
+  [
+   "L5 Specialist: build small tools",
+   "Create a flow, a form and a small app that solve a real team problem. Analyse who should see which data and set access to match. Test in a separate environment before release.",
+   "Review each build with the trigger, condition, action rule. Ask what happens if the flow fails. Common mistake: building straight in the live system."
+  ],
+  [
+   "L6 Advanced: judge and improve",
+   "Evaluate dashboards, data models and flows for accuracy and safety. Compare options by benefit and effort. Review a live system after go-live and recommend the top improvements.",
+   "Ask learners to defend five dashboard numbers and drop the rest. Check that every recommendation is backed by a measured result. Common mistake: adding more reports instead of fixing bad data."
+  ],
+  [
+   "L7 Super expert: design the programme",
+   "Create an implementation plan with fit-gap review, migration, rehearsal, rollback, training and benefits tracking. Evaluate trade-offs across the whole business. Coach others to run the system on their own.",
+   "Ask for a plan that two peers can challenge. Check owners, dates and a rollback path. Common mistake: planning the technology but forgetting training and support."
+  ]
+ ],
+ "quiz_module": [
+  1,
+  1,
+  2,
+  3,
+  3,
+  4,
+  5,
+  7,
+  6,
+  8
+ ]
+}

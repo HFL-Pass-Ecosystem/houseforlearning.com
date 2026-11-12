@@ -1,0 +1,291 @@
+{
+ "id": "GL-57",
+ "title": "Biofuel Production Overview",
+ "level": 2,
+ "desc": "Understand how biofuels are made from crops, waste and algae, with sustainability, safety, cost and policy.",
+ "outcomes": [
+  [
+   "Understand",
+   "Explain biofuel types and basic production steps."
+  ],
+  [
+   "Apply",
+   "Do simple mass and energy balances."
+  ],
+  [
+   "Analyse",
+   "Compare feedstocks and emissions."
+  ],
+  [
+   "Evaluate",
+   "Judge sustainability and food-versus-fuel questions."
+  ],
+  [
+   "Create",
+   "Write a balanced overview for a community or investor."
+  ]
+ ],
+ "task": "Produce a three-page overview of one biofuel pathway with process chart, balance, emissions estimate, risks and recommendation.",
+ "condition": "A computer, public data, a spreadsheet, two peers and a mentor. No production work is done.",
+ "standard": "Process steps and balances are correct; emissions use stated assumptions; risks and safety are listed; sources dated; peers rate Meets or better.",
+ "who": "Students, farm cooperatives, energy staff, policy assistants.",
+ "req": "none",
+ "evidence": "process chart, balance sheet, emissions estimate, overview",
+ "modules": [
+  [
+   "Types of biofuel",
+   "Understand",
+   2,
+   "Biofuels are fuels made from recently grown plant or waste material. Different types suit different engines.",
+   [
+    "Ethanol is made by fermenting sugars and blended into petrol.",
+    "Biodiesel is made from oils and fats and blended into diesel.",
+    "Biogas is made by digesting wet waste without air and burns like natural gas.",
+    "Advanced fuels use woody waste or algae and are still costly."
+   ],
+   "A bus fleet running a low biodiesel blend such as 20 per cent often needs no engine change if the engine maker allows it, while 100 per cent biodiesel may need new seals and heated tanks in cold places.",
+   "Build a table of the four types with raw material, product and use.",
+   "Complete the table correctly with one limit for each type."
+  ],
+  [
+   "Feedstocks",
+   "Analyse",
+   2,
+   "The feedstock decides cost, emissions and whether food or land is harmed.",
+   [
+    "Waste and residues such as used oil and crop stalks compete least with food.",
+    "Dedicated crops need land, water and fertiliser.",
+    "Collection and transport cost rise with distance.",
+    "Supply must be steady all year."
+   ],
+   "Used cooking oil from 200 restaurants gives about 60 litres each a month, 12,000 litres, enough for a small plant, with no new land used.",
+   "Rank three feedstocks for your place on cost, supply and land use.",
+   "Justify the ranking with one number per feedstock."
+  ],
+  [
+   "Production steps",
+   "Understand",
+   3,
+   "Each pathway has stages: prepare, convert, separate and clean.",
+   [
+    "Prepare: clean, dry and size the material.",
+    "Convert: ferment, react with alcohol, or digest.",
+    "Separate: distil, wash or settle to isolate the fuel.",
+    "Test quality before sale."
+   ],
+   "In biodiesel, oil reacts with methanol and a catalyst to give fuel and glycerol. Glycerol is settled out and sold or used.",
+   "Draw a process chart for one pathway.",
+   "Chart shows inputs, steps, products and by-products in order."
+  ],
+  [
+   "Mass and energy balance",
+   "Apply",
+   3,
+   "Track what goes in and what comes out to check yields.",
+   [
+    "Mass in must equal mass out including waste.",
+    "Yield = fuel output / feedstock input.",
+    "Energy ratio = energy in fuel / energy used to make it.",
+    "A ratio below 1 means the process uses more energy than it gives."
+   ],
+   "100 kg of oil plus 11 kg of alcohol gives about 96 kg of fuel and 15 kg of glycerol and loss. Yield is 96 per cent of oil input.",
+   "Complete a mass balance for 1,000 litres of fuel.",
+   "Balance inputs and outputs within 2 per cent and show the yield."
+  ],
+  [
+   "Emissions and sustainability",
+   "Evaluate",
+   3,
+   "Compare emissions over the whole life, not only at the tailpipe.",
+   [
+    "Count growing, collecting, making, moving and burning.",
+    "Compare with the fossil fuel it replaces.",
+    "Watch for land clearing, which can cancel the benefit.",
+    "Use a recognised method and state it."
+   ],
+   "A fuel from waste oil may cut life-cycle emissions by a large share, while one from cleared forest land may give no saving at all.",
+   "Estimate the saving per litre for one pathway.",
+   "State the method, list the stages and give the result as a range."
+  ],
+  [
+   "Safety and quality",
+   "Apply",
+   3,
+   "Alcohols, gases and heat create fire and health risks; quality failures damage engines.",
+   [
+    "Alcohol vapour is flammable; ventilate and avoid sparks.",
+    "Biogas can collect and explode; install detection and venting.",
+    "Test water content, acidity and purity before sale.",
+    "Keep records of every batch."
+   ],
+   "A batch with high water content is held back, because water causes rust and microbe growth in tanks.",
+   "Write a safety and quality checklist.",
+   "Write a checklist of at least eight checks with limits and who signs."
+  ],
+  [
+   "Economics and policy",
+   "Evaluate",
+   3,
+   "Plants live or die on cost, price and rules.",
+   [
+    "Capital cost, running cost and feedstock cost drive price.",
+    "By-products can improve income.",
+    "Blending rules and incentives vary by country.",
+    "Test the plan against a fall in the fossil fuel price."
+   ],
+   "A small plant selling fuel and glycerol earns enough only when feedstock stays under a set price per litre; the plan shows that price.",
+   "Build a simple cost per litre estimate.",
+   "Add up the costs and show the break-even price."
+  ],
+  [
+   "Write the overview",
+   "Create",
+   3,
+   "Bring the work together as a three-page document for a decision maker.",
+   [
+    "Page one: pathway, feedstock and process chart.",
+    "Page two: balance, emissions and risks.",
+    "Page three: economics and recommendation.",
+    "State what you do not know yet."
+   ],
+   "The overview recommends a waste-oil biodiesel pilot of 1,000 litres a month with a six-month review.",
+   "Write the three-page overview.",
+   "Include all sections, make numbers agree across pages, and end the document with a clear recommendation."
+  ]
+ ],
+ "quiz": [
+  [
+   "Name three biofuels.",
+   "Ethanol, biodiesel, biogas. (Covered in module 1: Types of biofuel. To pass that module: Complete the table correctly with one limit for each type.)"
+  ],
+  [
+   "Best feedstock type?",
+   "Waste and residues. (Covered in module 2: Feedstocks. To pass that module: Justify the ranking with one number per feedstock.)"
+  ],
+  [
+   "What is a co-product?",
+   "Another useful output such as glycerol. (Covered in module 3: Production steps. To pass that module: Chart shows inputs, steps, products and by-products in order.)"
+  ],
+  [
+   "What is a balance?",
+   "Inputs equal outputs plus losses. (Covered in module 4: Mass and energy balance. To pass that module: Balance inputs and outputs within 2 per cent and show the yield.)"
+  ],
+  [
+   "Name an emissions source in the chain.",
+   "Land change, fertiliser, processing, transport. (Covered in module 5: Emissions and sustainability. To pass that module: State the method, list the stages and give the result as a range.)"
+  ],
+  [
+   "Name a safety hazard.",
+   "Flammable liquids or methanol. (Covered in module 6: Safety and quality. To pass that module: Write a checklist of at least eight checks with limits and who signs.)"
+  ],
+  [
+   "Name a quality test.",
+   "Water content, acidity, flash point. (Covered in module 6: Safety and quality. To pass that module: Write a checklist of at least eight checks with limits and who signs.)"
+  ],
+  [
+   "Biggest cost?",
+   "Feedstock. (Covered in module 7: Economics and policy. To pass that module: Add up the costs and show the break-even price.)"
+  ],
+  [
+   "Food versus fuel question?",
+   "Avoid competing with food supply. (Covered in module 2: Feedstocks. To pass that module: Justify the ranking with one number per feedstock.)"
+  ],
+  [
+   "Why check sources?",
+   "Emissions claims vary. (Covered in module 5: Emissions and sustainability. To pass that module: State the method, list the stages and give the result as a range.)"
+  ]
+ ],
+ "rubric": [
+  [
+   "Science accuracy",
+   "Errors",
+   "Correct",
+   "Correct and sourced"
+  ],
+  [
+   "Balance and emissions",
+   "Missing",
+   "Done",
+   "Done with assumptions"
+  ],
+  [
+   "Risk review",
+   "Missing",
+   "Listed",
+   "Listed with controls"
+  ],
+  [
+   "Pathway numbers",
+   "Yields and emissions stated bare",
+   "Yield and emission figures cite a source and unit",
+   "Figures compared across two sources, with the gap explained"
+  ],
+  [
+   "Land, food and fuel rules",
+   "Policy not checked",
+   "Fuel standard, land use and subsidy rule for the place are written down",
+   "Rules checked on the regulator's page and the date recorded"
+  ]
+ ],
+ "jobs": [
+  [
+   "Biofuel plant trainee",
+   "Supports operations"
+  ],
+  [
+   "Waste collection coordinator",
+   "Gathers feedstock"
+  ],
+  [
+   "Lab assistant",
+   "Runs quality tests"
+  ],
+  [
+   "Sustainability analyst",
+   "Estimates emissions"
+  ],
+  [
+   "Farm cooperative officer",
+   "Plans supply"
+  ]
+ ],
+ "next": "greenhouse gas auditing, plastic alternatives, wind and solar basics.",
+ "local": "Fuel standards, licences and incentives differ by place.",
+ "ladder": [
+  [
+   "Types of biofuel",
+   "L1: learner can name biofuel types. Focus module: Types of biofuel (Understand, 2 h). Biofuels are fuels made from recently grown plant or waste material. Different types suit different engines. Key points: Ethanol is made by fermenting sugars and blended into petrol. Biodiesel is made from oils and fats and blended into diesel. Biogas is made by digesting wet waste without air and burns like natural gas. Advanced fuels use woody waste or algae and are still costly.",
+   "Teach: open with the worked example. A bus fleet running a low biodiesel blend such as 20 per cent often needs no engine change if the engine maker allows it, while 100 per cent biodiesel may need new seals and heated tanks in cold places. Then set the activity: Build a table of the four types with raw material, product and use. Mark against the standard: Complete the table correctly with one limit for each type. Check at this level: Name three biofuels. Model answer: Ethanol, biodiesel, biogas."
+  ],
+  [
+   "Feedstocks",
+   "L2: learner knows feedstock and hazard basics. Focus module: Feedstocks (Analyse, 2 h). The feedstock decides cost, emissions and whether food or land is harmed. Key points: Waste and residues such as used oil and crop stalks compete least with food. Dedicated crops need land, water and fertiliser. Collection and transport cost rise with distance. Supply must be steady all year.",
+   "Teach: open with the worked example. Used cooking oil from 200 restaurants gives about 60 litres each a month, 12,000 litres, enough for a small plant, with no new land used. Then set the activity: Rank three feedstocks for your place on cost, supply and land use. Mark against the standard: Justify the ranking with one number per feedstock. Check at this level: Best feedstock type? Model answer: Waste and residues."
+  ],
+  [
+   "Production steps",
+   "L3: learner can follow a process chart. Focus module: Production steps (Understand, 3 h). Each pathway has stages: prepare, convert, separate and clean. Key points: Prepare: clean, dry and size the material. Convert: ferment, react with alcohol, or digest. Separate: distil, wash or settle to isolate the fuel. Test quality before sale.",
+   "Teach: open with the worked example. In biodiesel, oil reacts with methanol and a catalyst to give fuel and glycerol. Glycerol is settled out and sold or used. Then set the activity: Draw a process chart for one pathway. Mark against the standard: Chart shows inputs, steps, products and by-products in order. Check at this level: What is a co-product? Model answer: Another useful output such as glycerol."
+  ],
+  [
+   "Mass and energy balance",
+   "L4: learner can do a simple balance. Focus module: Mass and energy balance (Apply, 3 h). Track what goes in and what comes out to check yields. Key points: Mass in must equal mass out including waste. Yield = fuel output / feedstock input. Energy ratio = energy in fuel / energy used to make it. A ratio below 1 means the process uses more energy than it gives.",
+   "Teach: open with the worked example. 100 kg of oil plus 11 kg of alcohol gives about 96 kg of fuel and 15 kg of glycerol and loss. Yield is 96 per cent of oil input. Then set the activity: Complete a mass balance for 1,000 litres of fuel. Mark against the standard: Balance inputs and outputs within 2 per cent and show the yield. Check at this level: What is a balance? Model answer: Inputs equal outputs plus losses."
+  ],
+  [
+   "Emissions and sustainability",
+   "L5: learner can estimate emissions. Focus module: Emissions and sustainability (Evaluate, 3 h). Compare emissions over the whole life, not only at the tailpipe. Key points: Count growing, collecting, making, moving and burning. Compare with the fossil fuel it replaces. Watch for land clearing, which can cancel the benefit. Use a recognised method and state it.",
+   "Teach: open with the worked example. A fuel from waste oil may cut life-cycle emissions by a large share, while one from cleared forest land may give no saving at all. Then set the activity: Estimate the saving per litre for one pathway. Mark against the standard: State the method, list the stages and give the result as a range. Check at this level: Name an emissions source in the chain. Model answer: Land change, fertiliser, processing, transport."
+  ],
+  [
+   "Economics and policy",
+   "L6: learner can coordinate supply. Focus module: Economics and policy (Evaluate, 3 h). Plants live or die on cost, price and rules. Key points: Capital cost, running cost and feedstock cost drive price. By-products can improve income. Blending rules and incentives vary by country. Test the plan against a fall in the fossil fuel price.",
+   "Teach: open with the worked example. A small plant selling fuel and glycerol earns enough only when feedstock stays under a set price per litre; the plan shows that price. Then set the activity: Build a simple cost per litre estimate. Mark against the standard: Add up the costs and show the break-even price. Check at this level: Biggest cost? Model answer: Feedstock."
+  ],
+  [
+   "Write the overview",
+   "L7: learner can audit an overview. Focus module: Write the overview (Create, 3 h). Bring the work together as a three-page document for a decision maker. Key points: Page one: pathway, feedstock and process chart. Page two: balance, emissions and risks. Page three: economics and recommendation. State what you do not know yet.",
+   "Teach: open with the worked example. The overview recommends a waste-oil biodiesel pilot of 1,000 litres a month with a six-month review. Then set the activity: Write the three-page overview. Mark against the standard: Include all sections, make numbers agree across pages, and end the document with a clear recommendation. Check at this level: What must the overview end with? Model answer: A clear recommendation, with numbers that agree across pages and a note of what is not yet known."
+  ]
+ ]
+}

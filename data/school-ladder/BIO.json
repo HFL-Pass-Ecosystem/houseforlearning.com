@@ -1,0 +1,46 @@
+{
+ "slides": [
+  {
+   "level": "L1 Basic",
+   "title": "Living or not living",
+   "slide": "L1 Basic · Living or not living",
+   "notes": "Name the signs of life, such as movement, feeding, growth and reproduction, and sort everyday things into living and non-living. Notes: collect ten objects or pictures, such as a pebble, a leaf and a toy; learners sort them and give one reason for each choice. Wash hands after touching soil or plants."
+  },
+  {
+   "level": "L2 Awareness",
+   "title": "Cells and the microscope",
+   "slide": "L2 Awareness · Cells and the microscope",
+   "notes": "Describe the main parts of plant and animal cells and say what a microscope does. Notes: practise magnification with eyepiece 10 times and objective 40 times, which gives 400 times. Carry the microscope with two hands and never point it at the sun."
+  },
+  {
+   "level": "L3 Foundation",
+   "title": "Photosynthesis and respiration",
+   "slide": "L3 Foundation · Photosynthesis and respiration",
+   "notes": "Explain photosynthesis and respiration and write the word and symbol equations. Notes: learners check 6CO2 + 6H2O gives C6H12O6 + 6O2 balances by counting atoms. For a leaf starch test, soften the leaf in hot water, never in a flame near ethanol, and wear goggles."
+  },
+  {
+   "level": "L4 Practitioner",
+   "title": "Enzyme rate investigation",
+   "slide": "L4 Practitioner · Enzyme rate investigation",
+   "notes": "Apply the idea of rate to plan and run a fair enzyme test. Notes: practice case is starch gone in 40 s at 20 C and 20 s at 30 C. Rate is 1/time, so 0.025 and 0.05 per second, a doubling. Learners name three controlled variables and one hazard."
+  },
+  {
+   "level": "L5 Specialist",
+   "title": "Genetics and chi-squared",
+   "slide": "L5 Specialist · Genetics and chi-squared",
+   "notes": "Analyse monohybrid crosses and test results against the expected ratio. Notes: Tt crossed with Tt expects 3 to 1, so 120 tall and 40 short from 160 offspring. Observed 112 and 48 gives chi-squared 2.13, below 3.84 at 5 per cent with one degree of freedom, so no significant difference."
+  },
+  {
+   "level": "L6 Advanced (degree level)",
+   "title": "Population genetics and molecular tools",
+   "slide": "L6 Advanced · Population genetics and molecular tools",
+   "notes": "Apply Hardy-Weinberg and molecular reasoning to predict allele and genotype frequencies. Notes: if 4 per cent of people show a recessive trait, q squared is 0.04, so q is 0.2 and p is 0.8; carriers are 2pq, which is 32 per cent. Learners list the five assumptions and test which one fails."
+  },
+  {
+   "level": "L7 Super expert (postgraduate/expert)",
+   "title": "Design and critique a genomic study",
+   "slide": "L7 Super expert · Design and critique a genomic study",
+   "notes": "Evaluate and create an experiment with sound sampling, controls, ethics and multiple-testing correction. Notes: testing 20,000 genes at the 5 per cent level gives about 1,000 false positives by chance, so use false discovery rate control. Learners write a pre-registered plan and list biosafety and consent approvals."
+  }
+ ]
+}

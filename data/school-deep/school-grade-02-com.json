@@ -1,0 +1,192 @@
+{
+ "slug": "school-grade-02-com.html",
+ "plan": "grade-02",
+ "subject": "COM",
+ "subject_name": "Computing",
+ "kind": "comp",
+ "label": "Grade 02",
+ "band": "primary",
+ "level": 1,
+ "weeks": 36,
+ "task": "Meet the outcome of every unit in Grade 02 Computing, and keep one piece of evidence for each.",
+ "condition": "A 36-week school year, 3 units, a teacher or guide, a learning book or device, and local examples in the local language first with English support.",
+ "standard": "Each unit: at least 4 of 5 attempts correct, said or written, with one real example from home or school. Course pass: no unit at 'Not yet' after one retry, and a pass in SA1 and SA2.",
+ "modules": [
+  {
+   "n": 1,
+   "title": "Using a text editor",
+   "bloom": "Apply",
+   "weeks": [
+    1,
+    12
+   ],
+   "hours": 36,
+   "outcome": "open, type, save and name a simple document",
+   "intro": "In this unit, 'Using a text editor', you learn to open, type, save and name a simple document. Lessons are short and playful, with objects, pictures and talk. You see it, say it, then do it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Using a text editor' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: open, type, save and name a simple document. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Solved: Type a title, select it, make it bold, add two lines, and save as notes.txt. Reopen to check. Method: Model run for 'Using a text editor'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
+   "standard": "Open, type, save and name a simple document: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": [
+    "Step 1, Open the editor: The learner clicks the Start button, finds the text editor in the list, and clicks it once. A white empty page opens with a blinking line at the top left. That blinking line is the cursor.",
+    "Step 2, Type a sentence: She clicks inside the page and types 'My cat is very soft.' She presses the Space bar between words and the full stop key at the end. Five words and a full stop appear on one line.",
+    "Step 3, New line: The learner presses Enter. The cursor jumps to the next line. She types 'The cat likes milk.' Now the page has two lines, each starting with a capital letter and ending with a full stop.",
+    "Step 4, Fix a typing mistake: She sees 'mlik' instead of 'milk'. She clicks just after the k, presses Backspace four times to delete all of 'mlik', and types milk again. The word now reads correctly.",
+    "Step 5, Save and name: The learner presses Ctrl and S together. A box asks for a name. She types 'my-cat' and presses Enter. The title at the top of the window changes to my-cat, which means the file is saved.",
+    "Step 6, Close and reopen: She closes the editor, then opens the Documents folder and double-clicks my-cat. Both lines come back unchanged, which proves the file was saved. Choosing a clear name made it easy to find.",
+    "Your turn: Type 'I like apples.' on line one and 'They are red.' on line two, then save it as 'apples'. Model answer: Ctrl+S, type apples, Enter. Reopening apples shows two lines, each with a capital letter and a full stop."
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Drawing and colouring tools",
+   "bloom": "Apply",
+   "weeks": [
+    13,
+    24
+   ],
+   "hours": 36,
+   "outcome": "use shapes, fill and undo in a drawing tool",
+   "intro": "In this unit, 'Drawing and colouring tools', you learn to use shapes, fill and undo in a drawing tool. Lessons are short and playful, with objects, pictures and talk. You see it, say it, then do it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Drawing and colouring tools' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: use shapes, fill and undo in a drawing tool. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Solved: Draw a square, put a triangle on top, add a door and fill with colour: a house. Save as house.png. Method: Model run for 'Drawing and colouring tools'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
+   "standard": "Use shapes, fill and undo in a drawing tool: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": [
+    "Step 1, Choose a shape: The learner opens the drawing tool and clicks the rectangle shape in the tool list. He drags from the left of the page to the middle, down and across, and lets go. A square outline appears for a house wall.",
+    "Step 2, Fill with colour: He clicks the fill tool, which looks like a paint bucket, picks orange, and clicks inside the rectangle. The whole wall turns orange. The bucket fills only inside closed lines, so the outline must have no gaps.",
+    "Step 3, Add a triangle roof: The learner selects the triangle shape, drags a triangle on top of the wall, then fills it brown with the bucket. The page now shows an orange wall and a brown roof, which is two shapes.",
+    "Step 4, Add a circle window: He selects the circle shape and holds Shift while dragging so the circle is round. He puts it on the wall and fills it light blue. Now the house has one round window.",
+    "Step 5, Undo: The learner accidentally fills the sky area black with the bucket. He presses Ctrl and Z once. The black disappears and the page returns to the step before. Undo cancels only the last action each time.",
+    "Step 6, Count and save: The finished picture has 3 shapes, a rectangle, a triangle and a circle, filled in 3 colours. The learner presses Ctrl and S, names it 'my house', and presses Enter to keep it.",
+    "Your turn: Make a boat from a rectangle hull and a triangle sail, fill both, undo one mistake. Model answer: draw the rectangle, fill brown; draw a triangle above it, fill white; if a wrong fill happens press Ctrl+Z once. Two shapes, two colours."
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Giving clear instructions",
+   "bloom": "Apply",
+   "weeks": [
+    25,
+    36
+   ],
+   "hours": 36,
+   "outcome": "write step-by-step instructions for a daily task",
+   "intro": "In this unit, 'Giving clear instructions', you learn to write step-by-step instructions for a daily task. Lessons are short and playful, with objects, pictures and talk. You see it, say it, then do it alone.",
+   "points": [
+    "See it: watch or try the skill in 'Giving clear instructions' on a teacher screen or a safe device.",
+    "Name the parts: write the key words and what each part does.",
+    "Use it: write step-by-step instructions for a daily task. Save your work in a named file or folder.",
+    "Test and fix: run it, find one fault, correct it, and note what you changed."
+   ],
+   "example": "Solved: Algorithm to make toast: 1 take two slices, 2 put in toaster, 3 press down, 4 wait, 5 take out. Loop: repeat 4 times: step forward, turn right = draw a square. Method: Model run for 'Giving clear instructions'. Goal in one sentence. Plan: list the steps in order before touching the device. Do: follow the plan, saving after each step. Test: try normal input and one unusual input. Fix: change one thing and test again. Share: show a partner and explain it. What a good answer looks like: it works for normal input, steps match the plan, and the learner can explain each part. Online safety rules apply at all times.",
+   "activity": "About 20 to 30 minutes of class work, then one short practice task for home. Keep evidence: one page in your learning book.",
+   "standard": "Write step-by-step instructions for a daily task: at least 4 of 5 attempts correct, said or written, with one real example from home or school.",
+   "steps": [
+    "Step 1, An instruction is a short order that tells someone exactly what to do. Choose a daily task: brushing teeth. Say the first step: Put a pea-sized dot of toothpaste on the wet brush. Good instructions start with an action word, such as put, brush, rinse or spit, and tell what to use.",
+    "Step 2, Write all the steps in order. 1 Pick up your brush. 2 Wet the brush. 3 Put on a small dot of toothpaste. 4 Brush the top teeth for 1 minute. 5 Brush the bottom teeth for 1 minute. 6 Spit and rinse your mouth. There are 6 steps, and each one has a single job.",
+    "Step 3, Order matters. If you swap step 3 and step 6, you spit before you brush, which makes no sense. Check each step by asking, does this have to come before the next one? Put numbers next to the steps, or the words first, next, then and last, so nobody gets lost.",
+    "Step 4, Test the instructions with a helper. Read them aloud while the helper acts them out exactly, doing only what you say, like a robot. If the helper stops and says, how do I open the toothpaste?, a step is missing. Add a step: Take the cap off the toothpaste.",
+    "Step 5, Fix and improve. After adding the missing step, there are now 7 steps. Make the words clearer: replace do the teeth with brush the top teeth. Read the list again from step 1 and check that the helper can finish the task, with a clean smile at the end, without asking questions.",
+    "Step 6, Your turn: write step-by-step instructions for putting butter on a slice of bread. Model answer: 1 Take a slice of bread. 2 Put it on a plate. 3 Open the butter. 4 Scoop some butter with a knife. 5 Spread it across the bread. 6 Close the butter."
+   ]
+  }
+ ],
+ "rubric": [
+  [
+   "It works",
+   "Does not run",
+   "Runs with help",
+   "Runs and handles odd input"
+  ],
+  [
+   "Understanding of the parts",
+   "Cannot name",
+   "Names most",
+   "Names and explains"
+  ],
+  [
+   "Planning",
+   "None",
+   "A list",
+   "A clear ordered plan"
+  ],
+  [
+   "Safety and care",
+   "Needs reminding",
+   "Follows rules",
+   "Follows rules and helps others"
+  ],
+  [
+   "Practice habit",
+   "Rarely",
+   "Weekly",
+   "Most days"
+  ]
+ ],
+ "checks": [
+  [
+   "Unit 1 (Using a text editor): Type 'I like apples.' on line one and 'They are red.' on line two, then save it as 'apples'.",
+   "Ctrl+S, type apples, Enter. Reopening apples shows two lines, each with a capital letter and a full stop. (Covered in unit 1: Using a text editor.)"
+  ],
+  [
+   "Unit 2 (Drawing and colouring tools): Make a boat from a rectangle hull and a triangle sail, fill both, undo one mistake.",
+   "draw the rectangle, fill brown; draw a triangle above it, fill white; if a wrong fill happens press Ctrl+Z once. Two shapes, two colours. (Covered in unit 2: Drawing and colouring tools.)"
+  ],
+  [
+   "Unit 3 (Giving clear instructions): Write step-by-step instructions for putting butter on a slice of bread.",
+   "1 Take a slice of bread. 2 Put it on a plate. 3 Open the butter. 4 Scoop some butter with a knife. 5 Spread it across the bread. 6 Close the butter. (Covered in unit 3: Giving clear instructions.)"
+  ],
+  [
+   "Unit 1 (Using a text editor): Type a sentence. Show how you do it and say what the result is.",
+   "She clicks inside the page and types 'My cat is very soft.' She presses the Space bar between words and the full stop key at the end. Five words and a full stop appear on one line. (Covered in unit 1: Using a text editor.)"
+  ],
+  [
+   "Unit 2 (Drawing and colouring tools): Fill with colour. Show how you do it and say what the result is.",
+   "He clicks the fill tool, which looks like a paint bucket, picks orange, and clicks inside the rectangle. The whole wall turns orange. The bucket fills only inside closed lines, so the outline must have no gaps. (Covered in unit 2: Drawing and colouring tools.)"
+  ],
+  [
+   "Unit 3 (Giving clear instructions): Write all the steps in order. Show how you do it and say what the result is.",
+   "1 Pick up your brush. 2 Wet the brush. 3 Put on a small dot of toothpaste. 4 Brush the top teeth for 1 minute. 5 Brush the bottom teeth for 1 minute. 6 Spit and rinse your mouth. There are 6 steps, and each one has a single job. (Covered in unit 3: Giving clear instructions.)"
+  ],
+  [
+   "Unit 1 (Using a text editor): New line. Show how you do it and say what the result is.",
+   "The learner presses Enter. The cursor jumps to the next line. She types 'The cat likes milk.' Now the page has two lines, each starting with a capital letter and ending with a full stop. (Covered in unit 1: Using a text editor.)"
+  ],
+  [
+   "Unit 2 (Drawing and colouring tools): Add a triangle roof. Show how you do it and say what the result is.",
+   "The learner selects the triangle shape, drags a triangle on top of the wall, then fills it brown with the bucket. The page now shows an orange wall and a brown roof, which is two shapes. (Covered in unit 2: Drawing and colouring tools.)"
+  ],
+  [
+   "Unit 3 (Giving clear instructions): Order matters. Show how you do it and say what the result is.",
+   "If you swap step 3 and step 6, you spit before you brush, which makes no sense. Check each step by asking, does this have to come before the next one? Put numbers next to the steps, or the words first, next, then and last, so nobody gets lost. (Covered in unit 3: Giving clear instructions.)"
+  ],
+  [
+   "Unit 1 (Using a text editor): Fix a typing mistake. Show how you do it and say what the result is.",
+   "She sees 'mlik' instead of 'milk'. She clicks just after the k, presses Backspace four times to delete all of 'mlik', and types milk again. The word now reads correctly. (Covered in unit 1: Using a text editor.)"
+  ]
+ ],
+ "ladder": [
+  "L1: use a device safely; click, type and draw.",
+  "L2: create documents; follow simple instructions in blocks.",
+  "L3: spreadsheets, algorithms and simple programs.",
+  "L4: programming, data and networks.",
+  "L5: software design, databases and security.",
+  "L6 (degree): software engineering and systems.",
+  "L7 (postgraduate): research, architecture or AI practice."
+ ],
+ "jobs": [],
+ "blooms": [
+  "Apply"
+ ]
+}

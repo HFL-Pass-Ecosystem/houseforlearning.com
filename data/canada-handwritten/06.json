@@ -1,0 +1,197 @@
+{
+ "price": [
+  48000,
+  36000,
+  260,
+  "vehicle"
+ ],
+ "mods": {
+  "1": {
+   "title": "Understand electric vehicle markets",
+   "intro": "Electric vehicles are sold as cars, vans, buses and special vehicles.",
+   "pts": [
+    "Segments include personal vehicles, delivery vans, buses, trucks and small special vehicles.",
+    "Customers include fleets, cities and households; fleets care most about total cost of ownership.",
+    "Incentives and rules change, so check the current federal and provincial programmes before you quote any figure.",
+    "Pick one niche, such as delivery vans in cold climates, and write why it suits you.",
+    "Ride in or drive one electric vehicle for a week and note range loss in cold weather.",
+    "Interview five fleet managers: daily distance, depot parking, power at the depot and what they pay now per kilometre.",
+    "Total cost of ownership = purchase price + running costs over the years - resale value. Write it for one vehicle you would replace."
+   ],
+   "ex": "A delivery fleet compares 10-year cost: if an electric van costs 15,000 more to buy but saves 3,000 a year in fuel and servicing, the saving over 10 years is 30,000, so the van is ahead by 15,000 and pays back in 15,000 / 3,000 = 5 years. Teaching figures in CAD; use the fleet's real numbers.",
+   "act": "Write a niche statement and customer profile.",
+   "std": "Define a narrow, testable niche."
+  },
+  "2": {
+   "title": "Know vehicle rules",
+   "intro": "Vehicles must meet safety and environmental standards.",
+   "pts": [
+    "Federal motor-vehicle safety standards apply before a vehicle can be sold.",
+    "Battery transport and storage follow dangerous-goods rules, so check the federal and provincial requirements before you ship or store packs.",
+    "Provinces register and insure vehicles, so check what each province requires before a vehicle goes on the road.",
+    "Warranty and recall rules protect buyers; check which federal and provincial rules apply to you.",
+    "Check charging time on a home plug, a public charger and a fast charger, and compare with spec.",
+    "A vehicle built in small numbers may have different import or approval steps; check the federal and provincial rule for your case.",
+    "Keep a certificate file with the standard, the test result, the date and the person who signed."
+   ],
+   "ex": "Row: 'Sell a new vehicle | federal safety standards | certify and label | before first sale | certificate on file'. For a 60 kWh battery on a 7 kW home charger, a full charge takes about 60 / 7 = 8.6 hours, which you compare with the stated spec.",
+   "act": "Build a rules table for a small manufacturer.",
+   "std": "Give each row a source and date."
+  },
+  "3": {
+   "title": "Design the vehicle systems",
+   "intro": "Work from needs.",
+   "pts": [
+    "Define the use first: range, payload, charging time and cold-weather performance.",
+    "Size the battery from the energy the vehicle uses per kilometre and the range you need.",
+    "Plan safety: crash structure, thermal management and battery protection.",
+    "Document the specifications in one table that everyone can read.",
+    "List the five parts that fail most often in fleet use and plan spares.",
+    "Add a margin for ageing and cold weather to the pack size, and state the margin you used.",
+    "Check payload: weight of the battery, body, driver and cargo against the vehicle's rated limit."
+   ],
+   "ex": "Need 250 km at 0.35 kWh per km: 250 x 0.35 = 87.5 kWh usable. Add 20% for cold and ageing: 87.5 x 1.2 = 105 kWh pack. If the cells give 0.15 kWh per kg, the cells alone weigh 105 / 0.15 = 700 kg, which must fit the payload plan.",
+   "act": "Calculate pack size for a chosen use.",
+   "std": "Show the calculation with margin."
+  },
+  "4": {
+   "title": "Cost the product",
+   "intro": "Cost per vehicle drives the business.",
+   "pts": [
+    "Build a bill of materials that lists the battery, motor, body and electronics with a price for each.",
+    "Add assembly labour and facility cost per vehicle.",
+    "Add a warranty provision per vehicle.",
+    "Work out margin and break-even from price, cost and fixed cost.",
+    "Study one crash test report and note what the structure does.",
+    "Ask three suppliers for a quote at 100, 500 and 1,000 units and note how the price falls with volume.",
+    "Test a 10% rise in battery cost and show the new margin."
+   ],
+   "ex": "Price 48,000; cost 36,000; margin 12,000 (25%); fixed cost 3.1M per year gives 3,100,000 / 12,000 = 258.3, so break-even is 259 vehicles, shown as about 260. If battery cost is 14,000 of the 36,000, a 10% rise adds 1,400, so cost is 37,400, margin 10,600 and break-even rises to about 293. Teaching figures in CAD.",
+   "act": "Build a bill of materials and break-even.",
+   "std": "Show units and currency."
+  },
+  "5": {
+   "title": "Build to quality",
+   "intro": "Quality means testing.",
+   "pts": [
+    "Inspect incoming parts before they enter the build.",
+    "Run end-of-line tests on brakes, battery, software and leaks.",
+    "Trace every vehicle by its number.",
+    "Take corrective action and record it whenever a test fails.",
+    "Interview a fleet mechanic about what is hard to repair.",
+    "Set a pass limit for each test and a sign-off line, so no vehicle leaves without a signed sheet.",
+    "Count first-pass rate (vehicles that pass the first time divided by vehicles tested) and chart it weekly."
+   ],
+   "ex": "End-of-line fail rate 4% mostly connectors; fix with a torque check. At 260 vehicles a year, 4% is about 10 vehicles needing rework; if the torque check halves the fails to 2%, rework drops to about 5.",
+   "act": "Design an end-of-line test sheet.",
+   "std": "Add limits and sign-off to the sheet."
+  },
+  "6": {
+   "title": "Sell and service",
+   "intro": "Service builds trust.",
+   "pts": [
+    "Sell through fleets and dealers, and write which one you will start with.",
+    "Build a service network and a parts supply for your customers.",
+    "Train technicians before the first vehicles are delivered.",
+    "Use remote monitoring to spot faults before the customer calls.",
+    "Write down the software update promise and who delivers it.",
+    "Plan service in cold regions: where a customer can get help in winter and how long the repair takes.",
+    "Agree a response time for a stopped vehicle and measure it."
+   ],
+   "ex": "Fleet pilot: 3 vans for 90 days; uptime 97%. The 3 vans have 3 x 90 = 270 van-days, and 3% down is about 8 van-days lost, which you compare with the offer's target.",
+   "act": "Plan a fleet pilot offer.",
+   "std": "Add measures to the offer."
+  },
+  "7": {
+   "title": "Manage safety and supply risk",
+   "intro": "Batteries and supply chains carry risk.",
+   "pts": [
+    "Prepare a battery fire plan and train staff in it.",
+    "Use more than one supplier for key parts so that one failure does not stop production.",
+    "Plan material sourcing and the recycling of batteries.",
+    "Protect connected vehicles from cyber attack with updates and access controls.",
+    "Compare the weight of your design with two similar vehicles.",
+    "Ask each supplier where its materials come from and how they are recycled; note anything you cannot verify.",
+    "Write who you call, and what staff do, in the first ten minutes of a battery incident, and practise it."
+   ],
+   "ex": "Risk: 'Cell supplier delay | 4 x 4 = 16 | second source | purchasing | monthly'. A score of 16 out of 25 is high, so the second supplier should be qualified before volume production.",
+   "act": "Write a risk register.",
+   "std": "Assign owners to rows."
+  },
+  "8": {
+   "title": "Pilot and plan scale",
+   "intro": "Prove with a small series.",
+   "pts": [
+    "Build five pilot vehicles.",
+    "Measure range, faults and customer feedback.",
+    "Set a stop rule: if range is under 85% of spec, redesign.",
+    "Plan funding and the plant for the next stage.",
+    "Record every test in one table: date, condition, result, action.",
+    "Measure range in cold weather, in warm weather and loaded, not only on a good day.",
+    "Check programme rules and dates for funding yourself, and compare leasing a plant with building one."
+   ],
+   "ex": "Range 92% of spec: if the spec is 250 km, 0.92 x 250 = 230 km, above the stop line of 0.85 x 250 = 212.5 km, so proceed. A cold-weather test that gave 200 km would be 80% and trigger a redesign.",
+   "act": "Run the pilot review.",
+   "std": "Review has decision."
+  }
+ },
+ "quiz": [
+  [
+   "What decides battery size?",
+   "Energy per kilometre times range with a margin.",
+   3
+  ],
+  [
+   "Why add a margin to battery size?",
+   "Cold weather and ageing reduce capacity.",
+   3
+  ],
+  [
+   "What is total cost of ownership?",
+   "Purchase plus running costs over time.",
+   1
+  ],
+  [
+   "Who sets vehicle safety standards?",
+   "The federal government.",
+   2
+  ],
+  [
+   "Why trace by vehicle number?",
+   "To find and fix faults.",
+   5
+  ],
+  [
+   "What is an end-of-line test?",
+   "A final check before delivery.",
+   5
+  ],
+  [
+   "Why diversify suppliers?",
+   "To avoid a single point of failure.",
+   7
+  ],
+  [
+   "What is break-even?",
+   "Fixed cost divided by margin.",
+   4
+  ],
+  [
+   "What triggers redesign in the pilot?",
+   "Range under 85% of spec.",
+   8
+  ],
+  [
+   "Why train technicians?",
+   "So customers get safe, correct service from the first delivery.",
+   6
+  ]
+ ],
+ "jobs": [
+  "Vehicle technician",
+  "Battery systems technician",
+  "Quality engineer",
+  "Fleet sales specialist",
+  "Vehicle start-up founder"
+ ]
+}

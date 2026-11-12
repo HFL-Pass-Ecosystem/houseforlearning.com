@@ -1,0 +1,198 @@
+{
+ "mods": {
+  "1": {
+   "title": "Know words, buyers and how an online marketplace works",
+   "intro": "An online marketplace is a website where many sellers list goods and buyers pick from them. Start with the basic words.",
+   "pts": [
+    "Learn the terms: listing, SKU, stock, fee, shipping, return, review, seller account.",
+    "A listing has a title, photos, a description, a price and a delivery cost.",
+    "The marketplace is the shop floor; you still own the product, the promise and the customer care.",
+    "Browse ten listings and note what makes one easy to trust.",
+    "Read the seller rules and write the three that matter most for your goods.",
+    "Compare two marketplaces on fees, buyers and rules.",
+    "List what a buyer sees first: photo, price, rating and delivery cost."
+   ],
+   "ex": "A listing for a used bike helmet shows size, condition, four clear photos, a price and the delivery cost in the first screen. Of ten listings you browse, 7 show the delivery cost up front, so 7 / 10 = 70 percent, and you decide to do the same.",
+   "act": "Pick ten listings in one product group and mark title, photo quality, price, delivery and reviews on each.",
+   "std": "Task: label the parts of ten listings. Condition: from saved pages and no help. Standard: every part labelled and one trust sign named per listing."
+  },
+  "2": {
+   "title": "Explain the order flow from listing to delivery",
+   "intro": "Every sale follows the same steps. If you can name them, you can plan your day.",
+   "pts": [
+    "The steps are list, order received, pick, pack, ship, deliver, handle questions, handle returns, get paid.",
+    "Payment from the marketplace often arrives after a delay and after fees are taken out; read the payout rules.",
+    "Write down who does each step and how long it takes.",
+    "Keep one order sheet: date, item, price, fees, shipping, status.",
+    "Set the latest time of day for an order to ship that day.",
+    "Learn the payout date and the fee taken before payout.",
+    "Write what you do if an item sells but is out of stock."
+   ],
+   "ex": "An order arrives on Monday. You pack it Tuesday, ship Wednesday, record the tracking number and message the buyer the same day. That is 2 days from order to shipping, so a promise of 'ships within 3 days' is safe.",
+   "act": "Draw the flow on one page and time a mock order from start to finish.",
+   "std": "Task: explain and time the order flow. Condition: with a pretend order and a timer. Standard: all nine steps named in order and the time for each written down."
+  },
+  "3": {
+   "title": "Create listings and pack orders to a standard",
+   "intro": "Now you do the work. A good listing is clear, honest and complete.",
+   "pts": [
+    "Write a plain title: what it is, size or model, colour, condition.",
+    "Take photos in daylight on a plain background: front, back, label, flaws.",
+    "Say what is true. Show every flaw. Never claim a result you cannot prove.",
+    "Pack so the item survives a drop; weigh and measure the parcel before you price shipping.",
+    "Use the same photo background for all listings.",
+    "Add measurements in centimetres and weight in grams.",
+    "Compare two carrier prices for the packed weight."
+   ],
+   "ex": "Before: 'Great item, must see.' After: 'Steel water bottle, 750 ml, blue, small dent on base (see photo 4). Ships in 2 days.' The bottle is 350 g and the box 150 g, so you price shipping for 350 + 150 = 500 g.",
+   "act": "Create five listings and pack one mock parcel. Ask a friend to find faults.",
+   "std": "Task: write five listings and pack one parcel. Condition: within three hours. Standard: every listing states condition and delivery cost, flaws are shown, and the parcel passes a gentle drop test."
+  },
+  "4": {
+   "title": "Follow Canadian rules for selling online",
+   "intro": "Selling to the public has rules. Learn which ones touch your listings and sales.",
+   "pts": [
+    "Advertising and prices must be true and clear. Do not hide fees or make false claims.",
+    "Consumer protection rules about returns, refunds and warranties are set by each province; check the current rule with the local authority.",
+    "Sales tax: you may need to register for GST/HST once your sales pass the small-supplier limit. Check the current limit with the tax agency.",
+    "Some goods have extra rules, such as child products, electrical items, food and goods with labels. Check before you list them. Do not sell fakes or recalled goods.",
+    "Write a return policy that follows your province's rule and the marketplace's rule.",
+    "Check whether your goods need bilingual or content labels; check the current rule.",
+    "Keep sales and tax records for the period the tax agency requires."
+   ],
+   "ex": "A buyer asks for a refund on a damaged item. You check the marketplace policy and the provincial rule, then reply in writing with the choice you will offer. You keep the reply with the order record.",
+   "act": "Build a table of rule, who sets it, what you must do and where you checked, for ten things you will sell.",
+   "std": "Task: build a rules table for your product group. Condition: using official public pages. Standard: each row has a source and date; unclear cases say 'check the current rule with the local authority'."
+  },
+  "5": {
+   "title": "Price, fees and profit",
+   "intro": "You earn only what is left after every cost. Work it out before you list.",
+   "pts": [
+    "Costs: item cost, marketplace fee, payment fee, packing, shipping, returns, your time.",
+    "Profit per sale = price minus all costs. Margin = profit divided by price.",
+    "Compare your price with ten similar listings, but do not copy a price that loses money.",
+    "Track tax collected separately; it is not your income.",
+    "Recompute profit when fees or shipping prices change.",
+    "Include a share of returns in your cost.",
+    "Set a floor price below which you do not sell."
+   ],
+   "ex": "Sale price 40. Item cost 18, fees 6, packing 2, shipping paid by you 7, so total cost = 18 + 6 + 2 + 7 = 33. Profit = 40 - 33 = 7, and margin = 7 / 40 = about 17.5 percent. Teaching figures only.",
+   "act": "Cost out ten items on a sheet and mark any item that earns under 10 dollars.",
+   "std": "Task: compute profit on ten items. Condition: with a simple spreadsheet. Standard: every cost shown, results checked by a mentor, and losing items identified."
+  },
+  "6": {
+   "title": "Find stock, serve buyers and build reviews",
+   "intro": "Good sellers find reliable supply and answer people well.",
+   "pts": [
+    "Ask three suppliers for price, minimum order, lead time and a sample.",
+    "Keep stock counts and set a reorder point so you do not oversell.",
+    "Reply to buyer messages within one working day, politely and in short sentences.",
+    "Ask happy buyers for an honest review; never pay for or write fake reviews.",
+    "Compare suppliers on total delivered cost, not item price alone.",
+    "Reply to questions with a photo when it helps.",
+    "Count orders and quality complaints per supplier."
+   ],
+   "ex": "A buyer asks if the jacket is lined. You answer with a photo of the inside and the fabric label. With 30 in stock and 6 sold a week, stock lasts 30 / 6 = 5 weeks, so you reorder before then.",
+   "act": "Contact three suppliers, compare them in a table and log ten mock buyer questions with replies.",
+   "std": "Task: choose a supplier and answer ten questions. Condition: using a comparison table. Standard: choice is backed by numbers and every reply is polite, true and under 60 words."
+  },
+  "7": {
+   "title": "Protect buyers, data and money",
+   "intro": "A trusted seller keeps promises and keeps information safe.",
+   "pts": [
+    "Keep buyer names, addresses and messages private and use them only to fulfil the order. Privacy law applies.",
+    "Use strong passwords and two-step sign-in on your seller account and email.",
+    "Watch for scams: fake payment emails, overpayment requests, requests to move the chat off the marketplace.",
+    "Keep records of sales, fees and tax for the period the tax agency requires; check the current rule with the tax agency.",
+    "Keep the chat and the payment on the marketplace.",
+    "Record tax collected for each month.",
+    "Delete buyer details you no longer need."
+   ],
+   "ex": "A buyer sends a cheque for 140 for a 40 dollar item and asks you to refund the difference. The extra is 140 - 40 = 100. You refuse and report it to the marketplace.",
+   "act": "Write a one-page safety checklist for account, scams, records and returns.",
+   "std": "Task: produce a safety and records checklist. Condition: reviewed by a mentor. Standard: covers passwords, scams, privacy, records and returns in plain words."
+  },
+  "8": {
+   "title": "Run a real shop for 60 days and decide",
+   "intro": "Now you run it: list, sell, measure and choose what to do next.",
+   "pts": [
+    "Set a pilot goal, such as 20 listings and 10 sales with a profit on each.",
+    "Each week record orders, profit, returns, late shipments and buyer feedback.",
+    "Fix the biggest cause of lost money first.",
+    "At the end choose: stop, change or grow, and write a 12-month plan.",
+    "Mark which listings give a profit and which lose money.",
+    "Compare planned and actual numbers of listings and sales.",
+    "Choose one change to test next month."
+   ],
+   "ex": "After 60 days: 18 orders, profit 126 dollars, 2 returns. 126 / 18 = 7 profit per order. You drop two losing items and raise two prices.",
+   "act": "Run the pilot, keep the weekly log and present a 12-month plan to a panel of three.",
+   "std": "Task: run a 60-day shop pilot. Condition: real or agreed sales with rules followed. Standard: log complete, decision uses numbers, a panel can repeat your plan."
+  }
+ },
+ "price": [
+  40,
+  33,
+  18,
+  "order"
+ ],
+ "quiz": [
+  [
+   "What are the main parts of a listing?",
+   "Title, photos, description, price and delivery cost.",
+   1
+  ],
+  [
+   "Why show every flaw?",
+   "It is honest, builds trust and cuts returns.",
+   3
+  ],
+  [
+   "Name the steps of the order flow.",
+   "List, order, pick, pack, ship, deliver, questions, returns, payout.",
+   2
+  ],
+  [
+   "How do you find profit per sale?",
+   "Price minus item cost, fees, packing, shipping and returns.",
+   5
+  ],
+  [
+   "Who sets return and refund rules for sales to consumers?",
+   "Each province; check the current rule with the local authority.",
+   4
+  ],
+  [
+   "When may you need to register for GST/HST?",
+   "When sales pass the small-supplier limit; check the current limit.",
+   4
+  ],
+  [
+   "What is a reorder point for?",
+   "To order stock before you run out.",
+   6
+  ],
+  [
+   "Why is it wrong to buy fake reviews?",
+   "They mislead buyers and break advertising rules.",
+   6
+  ],
+  [
+   "What is one common scam sign?",
+   "An overpayment with a request to refund the difference.",
+   7
+  ],
+  [
+   "What do you do when you do not know a rule?",
+   "Check the current rule with the local authority and keep it in writing.",
+   4
+  ]
+ ],
+ "jobs": [
+  "Online seller",
+  "Marketplace account assistant",
+  "Order fulfilment clerk",
+  "Customer service agent",
+  "Inventory clerk",
+  "Product listing specialist"
+ ]
+}

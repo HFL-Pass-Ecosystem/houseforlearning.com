@@ -1,0 +1,72 @@
+{
+ "G11S-BIO-05": {
+  "steps": [
+   "Step 1, Describe photosynthesis with the balanced equation: 6CO2 + 6H2O gives C6H12O6 + 6O2, using light and chlorophyll. Count atoms to check: both sides have 6 carbon, 12 hydrogen and 18 oxygen. Carbon dioxide enters through stomata, water arrives through roots, glucose feeds the plant and oxygen is released.",
+   "Step 2, Describe the two stages. The light reaction happens in the grana of the chloroplast: light splits water, releasing oxygen and making ATP and NADPH. The dark reaction (Calvin cycle) happens in the stroma: carbon dioxide is fixed into sugar using that ATP and NADPH. Light is needed directly only for the first stage.",
+   "Step 3, Describe respiration: glucose + 6O2 gives 6CO2 + 6H2O + energy. Glycolysis takes place in the cytoplasm and splits one glucose into 2 pyruvate with a net gain of 2 ATP. The Krebs cycle runs in the mitochondrial matrix, and the electron transport chain on the inner membrane makes most of the ATP. Textbooks quote totals of roughly 30 to 38 ATP per glucose, so check the figure your course uses.",
+   "Step 4, Describe plant growth and its regulators. Auxins promote cell elongation and make stems bend toward light. Gibberellins make stems elongate and break seed dormancy. Cytokinins promote cell division. Abscisic acid closes stomata in drought. Ethylene ripens fruit. Growth is measured by increase in height, mass or number of cells.",
+   "Step 5, Describe the starch test for photosynthesis. Take a leaf kept in light, boil it in water for a minute, then warm it in ethanol in a hot water bath to remove chlorophyll, and add iodine. Blue-black means starch is present. Safety: ethanol is flammable, so never heat it over a flame; use hot water, wear goggles, and keep iodine off the skin.",
+   "Step 6, Your turn: if a plant makes 3 molecules of glucose, how many molecules of carbon dioxide are used and oxygen released? Answer: 6 CO2 gives 1 glucose, so 3 glucose need 18 CO2 and release 18 O2 (6 x 3 for each). In respiration the same 18 O2 would be needed to break the sugar down."
+  ]
+ },
+ "G11S-CHE-02": {
+  "steps": [
+   "Step 1, Predict trends across period 3: Na, Mg, Al, Si, P, S, Cl. Atomic radius decreases because nuclear charge grows with the same shell. Ionisation enthalpy generally rises, with dips at Al and S. Electronegativity rises to Cl.",
+   "Step 2, Compare down group 1: Li, Na, K. Atomic radius increases, ionisation enthalpy falls, so reactivity with water rises. K reacts more violently than Na.",
+   "Step 3, Draw Lewis structures. For NH3, N has 5 valence electrons, forming 3 bonds with H and keeping 1 lone pair. VSEPR gives a trigonal pyramidal shape with HNH angle about 107 degrees. CH4 is tetrahedral, 109.5 degrees.",
+   "Step 4, Calculate bond order from molecular orbital theory. O2 has 12 valence electrons: 8 bonding, 4 antibonding, bond order (8 - 4)/2 = 2, and it is paramagnetic with 2 unpaired electrons. N2 has bond order 3.",
+   "Step 5, Compare electronegativity. Using rounded textbook values, HCl has a difference of 3.0 - 2.1 = 0.9, so it is polar covalent. NaCl has 3.0 - 0.9 = 2.1, so it is ionic. Hybridisation of carbon in ethene is sp2 and in ethyne sp.",
+   "Step 6, Your turn: give the shape and bond angle of H2O and the bond order of N2. Answer: bent with about 104.5 degrees; bond order 3."
+  ]
+ },
+ "G11S-CHE-03": {
+  "steps": [
+   "Step 1, Use the ideal gas law PV = nRT. For 2 mol of gas at 300 K in 10 L: P = nRT/V = 2 x 0.0821 x 300 / 10 = 4.93 atm. Use R = 0.0821 L atm per mol per K.",
+   "Step 2, Use Boyle's law. A gas at 1 atm and 6 L is compressed at constant temperature to 2 L. P2 = P1 V1 / V2 = 1 x 6 / 2 = 3 atm. Charles's law: 300 K and 2 L heated to 450 K gives V = 2 x 450 / 300 = 3 L.",
+   "Step 3, Apply the first law, delta U = q + w. A gas absorbs 500 J of heat and does 200 J of work on the surroundings, so w = -200 J and delta U = 500 - 200 = +300 J.",
+   "Step 4, Calculate enthalpy. For CH4 + 2O2 gives CO2 + 2H2O(l), use rounded textbook formation enthalpies: CH4 -74.8, CO2 -393.5, H2O(l) -285.8 kJ/mol. delta H = [-393.5 + 2(-285.8)] - [-74.8] = -890.3 kJ/mol. Exothermic.",
+   "Step 5, Predict spontaneity with delta G = delta H - T delta S. For delta H = +40 kJ and delta S = +100 J/K at 500 K: delta G = 40000 - 500 x 100 = -10000 J, so it is spontaneous at 500 K.",
+   "Step 6, Your turn: find the volume of 1 mol of ideal gas at 273 K and 1 atm. Answer: V = 0.0821 x 273 / 1 = 22.4 L."
+  ]
+ },
+ "G11S-CHE-04": {
+  "steps": [
+   "Step 1, Meet a reversible reaction: N2 + 3H2 <=> 2NH3, with energy released (delta H = -92 kJ per mole of reaction). At equilibrium the forward and backward rates are equal, so concentrations stay steady while reactions continue. Kc = [NH3]^2 / ([N2][H2]^3). A large Kc means products are favoured.",
+   "Step 2, Apply Le Chatelier's principle: a system opposes a change. Raise the pressure: there are 4 moles of gas on the left and 2 on the right, so the equilibrium shifts right to make fewer moles. Raise the temperature: the forward reaction gives out heat, so it shifts left. Remove NH3 and it shifts right. A catalyst only speeds both directions.",
+   "Step 3, Calculate Kc for H2 + I2 <=> 2HI. Suppose that at equilibrium [H2] = 0.10, [I2] = 0.10 and [HI] = 0.40 mol per dm3, so Kc = 0.40^2 / (0.10 x 0.10) = 0.16 / 0.01 = 16. If a mixture has [HI] = 0.20, then Q = 0.04 / 0.01 = 4, which is less than 16, so it shifts right.",
+   "Step 4, Track oxidation numbers. In Zn + Cu2+ -> Zn2+ + Cu, zinc goes from 0 to +2 (loses electrons, oxidised) and copper goes from +2 to 0 (gains electrons, reduced). Remember OIL RIG: oxidation is loss, reduction is gain. Cu2+ is the oxidising agent, and Zn is the reducing agent.",
+   "Step 5, Balance in acid by half-equations. MnO4- + 8H+ + 5e- -> Mn2+ + 4H2O. Fe2+ -> Fe3+ + e-, times 5. Add: MnO4- + 8H+ + 5Fe2+ -> Mn2+ + 4H2O + 5Fe3+. Charge check: -1 + 8 + 10 = 17 on the left and 2 + 15 = 17 on the right. Safety: do this titration only with a teacher, wearing goggles and gloves.",
+   "Step 6, Your turn: balance Cr2O7 2- + Fe2+ -> Cr3+ + Fe3+ in acid, and say how removing NH3 changes the ammonia equilibrium. Answer: Cr2O7 2- + 14H+ + 6Fe2+ -> 2Cr3+ + 7H2O + 6Fe3+ (charge 24 both sides); removing NH3 shifts the equilibrium right."
+  ]
+ },
+ "G11S-CHE-07": {
+  "steps": [
+   "Step 1, Identify pollutants. Air: CO from incomplete combustion, SO2 and NOx (acid rain), particulates. Water: nutrients causing eutrophication, heavy metals. Soil: pesticides. Name each with a source.",
+   "Step 2, Explain acid rain. SO2 + 1/2 O2 gives SO3 and SO3 + H2O gives H2SO4. Rain is acidic when its pH is below 5.6. Normal rain is about 5.6 because dissolved CO2 forms carbonic acid.",
+   "Step 3, Explain the greenhouse effect. CO2, CH4 and N2O absorb infrared radiation re-emitted by Earth. A rise from roughly 280 ppm before industry to well above 400 ppm raises mean temperature; check the current figure.",
+   "Step 4, Explain ozone depletion. In the stratosphere, CF2Cl2 gives Cl atoms under UV. Cl + O3 gives ClO + O2 and ClO + O gives Cl + O2. A single Cl can destroy many O3 molecules in a catalytic cycle.",
+   "Step 5, Use water quality numbers. Clean water has a low BOD and heavily polluted water a much higher one (textbook tables often use about 5 ppm and 17 ppm as cut-offs, so check the figures in your syllabus), because microbes use dissolved oxygen to break down waste. Green chemistry principles: prevent waste, use safer solvents, high atom economy, and catalysis.",
+   "Step 6, Your turn: write the reaction that forms sulphuric acid from SO3 and say why rain at pH 4.5 is acidic. Answer: SO3 + H2O gives H2SO4; pH below 5.6 means extra strong acids dissolved."
+  ]
+ },
+ "G11S-PHY-05": {
+  "steps": [
+   "Step 1, Calculate stress and strain. A steel wire of length 2 m and cross-section 1 mm2 (1e-6 m2) carries a load of 100 N. Stress = 100 / 1e-6 = 1 x 10^8 Pa. Taking Young's modulus of steel as about 2 x 10^11 Pa, strain = 5 x 10^-4. Extension = 5e-4 x 2 = 1 mm.",
+   "Step 2, Compute pressure in a fluid. In water at depth 5 m, gauge pressure = rho g h = 1000 x 10 x 5 = 5 x 10^4 Pa. With atmosphere 1.0 x 10^5 Pa, absolute pressure is 1.5 x 10^5 Pa.",
+   "Step 3, Use the continuity equation A1 v1 = A2 v2. Water in a pipe of 4 cm2 at 2 m/s narrows to 1 cm2. v2 = 4 x 2 / 1 = 8 m/s.",
+   "Step 4, Use Bernoulli's principle P + 0.5 rho v^2 + rho g h = constant. Horizontal pipe: v1 = 2 m/s, v2 = 8 m/s. Pressure drop = 0.5 x 1000 x (64 - 4) = 30000 Pa. Higher speed means lower pressure, as in an aerofoil.",
+   "Step 5, Surface tension and viscosity: capillary rise h = 2 T cos(theta) / (rho g r). With T = 0.072 N/m, r = 0.5 mm: h = 2 x 0.072 / (1000 x 10 x 0.0005) = 0.0288 m, about 2.9 cm.",
+   "Step 6, Your turn: find the speed in a 2 cm2 section if a 6 cm2 section has 1 m/s flow. Answer: v = 6 x 1 / 2 = 3 m/s."
+  ]
+ },
+ "G12S-PHY-03": {
+  "steps": [
+   "Step 1, State Faraday's law: the induced emf equals the rate of change of flux linkage, emf = N x change in flux / time. A coil of 100 turns sees flux fall from 0.05 Wb to 0.01 Wb in 0.2 s. The size is 100 x 0.04/0.2 = 20 V, and Lenz's law says it opposes the change.",
+   "Step 2, Find a motional emf: emf = B l v. A 0.5 m rod moves at 4 m/s at right angles to a 0.2 T field, so emf = 0.2 x 0.5 x 4 = 0.4 V. With a 2 ohm loop the current is 0.4/2 = 0.2 A. Safety: in a demonstration with a magnet and coil, use a small magnet and a sensitive low-voltage meter, never mains.",
+   "Step 3, Describe AC with V = V0 sin(omega t). The rms value is V0/root 2. Suppose mains of 230 V rms (the value differs by country) has a peak of 230 x 1.414 = 325 V. At f = 50 Hz, omega = 2 pi f = 314 rad/s. Meters read rms values, not peaks.",
+   "Step 4, Find reactances. For an inductor X_L = omega L, so L = 0.1 H at 50 Hz gives 31.4 ohm. For a capacitor X_C = 1/(omega C), so C = 100 microfarad gives 1/(314 x 0.0001) = 31.8 ohm. Higher frequency raises X_L and lowers X_C.",
+   "Step 5, Solve a series LCR circuit. With R = 30 ohm, X_L = 60 ohm and X_C = 20 ohm, Z = root(30^2 + 40^2) = 50 ohm. On 100 V rms the current is 2 A. Resonance occurs when X_L = X_C, at f = 1/(2 pi root(LC)), which is about 50.3 Hz for 0.1 H and 100 microfarad.",
+   "Step 6, Your turn: an ideal transformer has 200 primary turns and 20 secondary turns on 230 V. Find the secondary voltage and say whether it is step-up or step-down. Answer: V_s = 230 x 20/200 = 23 V, a step-down transformer."
+  ]
+ }
+}

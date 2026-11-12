@@ -1,0 +1,198 @@
+{
+ "mods": {
+  "1": {
+   "title": "Know what professional services are",
+   "intro": "Professional services sell expert advice and work to clients, such as accounting, consulting, legal support, design and planning.",
+   "pts": [
+    "Terms: client, scope, engagement, deliverable, fee, retainer, conflict of interest, confidentiality.",
+    "Some professions are regulated by a provincial body; others are open to anyone. Check which applies to you.",
+    "Clients buy trust, so reputation matters.",
+    "Interview one professional about a normal week.",
+    "Compare three service types, such as accounting, planning and design, by what the client receives.",
+    "Learn how professionals are paid: hourly, fixed fee, retainer.",
+    "Write what you can offer today with your skills and what you would need to learn first."
+   ],
+   "ex": "A deliverable is the thing the client receives, such as a report, a filing or a plan. If an engagement has 3 deliverables and 2 are handed over, 1 remains. The final fee is due only when the last one is accepted.",
+   "act": "Interview one professional and write the services they sell, who buys, and how they are paid.",
+   "std": "Task: write an interview summary. Condition: one 20-minute interview. Standard: services, clients and fee method clearly stated with correct terms."
+  },
+  "2": {
+   "title": "Explain how an engagement runs",
+   "intro": "Good work follows steps, from first call to a closed file.",
+   "pts": [
+    "Steps: first call, check fit and conflicts, proposal, agreement, work, review, delivery, follow-up, close.",
+    "A proposal states the problem, scope, steps, fees, timing and what you need from the client.",
+    "Use an agreement before work starts.",
+    "Keep a file of notes, versions and decisions.",
+    "Ask at the first call what the client wants done, by when, and what they have already tried.",
+    "Check for conflicts before you send a proposal: do you serve a rival or know private facts?",
+    "Agree in writing how many rounds of changes are included."
+   ],
+   "ex": "First call notes: client wants a staffing plan. Fit check: no conflict. Proposal: three steps, two weeks, fixed fee of 2,400 CAD. If the work takes 16 hours, the fee works out to 2,400 / 16 = 150 CAD per hour.",
+   "act": "Write a one-page proposal template and test it on a pretend client.",
+   "std": "Task: write a proposal. Condition: from a short pretend brief. Standard: problem, scope, steps, fee, timing and client duties all stated."
+  },
+  "3": {
+   "title": "Do a core analysis or task to a standard",
+   "intro": "Apply a method and show your working so another person can check it.",
+   "pts": [
+    "State the question first, in one sentence.",
+    "Gather facts from the client and public sources; note where each fact came from.",
+    "Show steps, assumptions and limits in your work.",
+    "Have a second person check your work before it goes out.",
+    "List the assumptions behind any number and mark the ones that are guesses.",
+    "Offer the client more than one option and show the cost and risk of each.",
+    "Write the conclusion in the first paragraph, then support it."
+   ],
+   "ex": "Question: 'Can the shop afford one more worker?' Facts: monthly sales 18,000, costs 14,500, new worker 3,200. Profit now is 18,000 - 14,500 = 3,500; after the hire it is 3,500 - 3,200 = 300. Answer: yes, but only if sales stay the same, so show a case where sales fall 10 percent.",
+   "act": "Complete one small analysis or plan for a real or pretend client with a checker.",
+   "std": "Task: produce a short report. Condition: within eight hours. Standard: question, facts with sources, steps, assumptions, recommendation, and a checker's initials."
+  },
+  "4": {
+   "title": "Know regulation, insurance and tax basics",
+   "intro": "Rules depend on your profession and province. Find them before you take clients.",
+   "pts": [
+    "Regulated titles and work may require membership of a provincial body, exams and ongoing training. Do not use a protected title unless you hold it.",
+    "Professional liability insurance covers claims about advice; ask an insurance adviser what suits you.",
+    "Register for sales tax once taxable sales pass the small-supplier limit. Check the current rules.",
+    "Keep records of income and expenses and set aside money for tax.",
+    "Ask the provincial body which titles are protected and what work is reserved for members.",
+    "Keep a list of your required courses and renewal dates if you hold a licence.",
+    "Open a separate bank account for business income and expenses."
+   ],
+   "ex": "Rules table row: 'Use of a protected title | provincial professional body | use only after registration | before marketing | registration number shown'. If registration takes 3 months and you want to start advertising in month 2, advertise only the services open to non-members until month 3.",
+   "act": "Build a rules table for your field and province, with sources and dates.",
+   "std": "Task: build a rules table. Condition: from official pages and body websites. Standard: each row has enforcer, action and date checked; unclear cases say to check with the body."
+  },
+  "5": {
+   "title": "Price, bill and manage cash",
+   "intro": "Pricing is not only time. It reflects value, risk and your costs.",
+   "pts": [
+    "Methods: hourly, fixed fee, retainer, value-based. Pick one that fits the work and the client.",
+    "Estimate hours with a buffer for review and client delays.",
+    "Invoice on time, state payment terms and follow up on late payments.",
+    "Billable hours are less than total hours; plan for it.",
+    "Work out your cost per hour from yearly costs divided by billable hours.",
+    "Ask for a deposit on larger jobs and write the payment dates in the agreement.",
+    "Compare your price with similar services in your area and explain the difference."
+   ],
+   "ex": "At an example rate of 150 CAD an hour and 20 hours: 20 x 150 = 3,000 CAD. Costs: 20 x 35 = 700. Margin: 3,000 - 700 = 2,300 per job, about 77 percent. If you can bill only 25 hours of a 40-hour week, billable use is 25 / 40 = 62.5 percent. Teaching figures only.",
+   "act": "Build a fee sheet for three services with hours, rate and costs, and compute break-even.",
+   "std": "Task: build a fee and cost sheet. Condition: spreadsheet with visible formulas. Standard: units shown, three what-if cases, mentor checks the arithmetic."
+  },
+  "6": {
+   "title": "Manage client work, files and quality",
+   "intro": "Order in your files and process gives better results and fewer errors.",
+   "pts": [
+    "Use one folder per client with fixed sub-folders: agreement, notes, drafts, final.",
+    "Track time per task so you learn how long work really takes.",
+    "Use a checklist before delivery: facts, numbers, names, format.",
+    "Ask for client feedback at the end of each job.",
+    "Date every file and add a version number, such as v1, v2, final.",
+    "Record the time spent on each client every day, not at the end of the month.",
+    "Back up client files to a second safe place each week."
+   ],
+   "ex": "Time log: estimate 20 hours, actual 26. Overrun is 6 hours, or 30 percent (6 / 20). Cause: three extra rounds of client changes. At an example rate of 150 CAD an hour, 6 hours is 900 CAD of lost fee. Fix: write the change limit in the agreement.",
+   "act": "Keep a four-week time log and file system for two pretend or real clients.",
+   "std": "Task: manage files and time for four weeks. Condition: real or practice clients. Standard: log complete, files named by rule, one improvement made."
+  },
+  "7": {
+   "title": "Protect confidentiality, ethics and fairness",
+   "intro": "Clients trust you with sensitive facts. Handle them with care.",
+   "pts": [
+    "Keep client information private. Share only with permission or as the law requires.",
+    "Tell the client about any conflict of interest and decline when you cannot serve fairly.",
+    "Do not promise results you cannot control.",
+    "Follow privacy law, which may be federal or provincial, so check which applies. Collect only what you need and delete when no longer needed.",
+    "Lock paper files and use passwords on files that hold client data.",
+    "Tell the client what you do with their data when the job ends.",
+    "Check any gift or favour policy so it never affects your advice."
+   ],
+   "ex": "You are asked to advise two competing shops. You decline one and tell both why in general terms, without sharing facts. If you took both, you would hold private facts that each could use against the other.",
+   "act": "Write a confidentiality and conflict policy of one page and a risk register of eight rows.",
+   "std": "Task: write a policy and risk register. Condition: reviewed by a mentor. Standard: each risk has a control, owner and review date; the policy is in plain words."
+  },
+  "8": {
+   "title": "Find clients, run a pilot and grow",
+   "intro": "Build trust, run a pilot and decide how to grow.",
+   "pts": [
+    "Pick one client type and one clear offer; ask for referrals.",
+    "Offer a limited pilot, such as a one-month plan or a fixed-scope review.",
+    "Track leads, proposals, wins, hours and income each week.",
+    "Review at 60 days and write a 12-month plan.",
+    "Write a one-sentence offer: who you help, with what, and the result.",
+    "Ask each finished client for one written comment and one name of someone who may need help.",
+    "Set a monthly income goal and work back to how many clients and hours it needs."
+   ],
+   "ex": "Funnel for 8 weeks: 30 contacts, 10 calls, 4 proposals, 2 wins. Calls are 10 / 30, about 33 percent of contacts; proposals are 4 / 10 = 40 percent of calls; wins are 2 / 4 = 50 percent of proposals. Weak step is contact to call; add a clearer offer.",
+   "act": "Run the pilot with at least one client and present the review and plan to a panel of three.",
+   "std": "Task: run a client pilot. Condition: legal and ethical practice under your rules table. Standard: measures tracked, client feedback gathered, decision supported by numbers."
+  }
+ },
+ "price": [
+  150,
+  35,
+  20,
+  "hour"
+ ],
+ "quiz": [
+  [
+   "What is a deliverable?",
+   "The thing the client receives, such as a report or plan.",
+   1
+  ],
+  [
+   "What does a proposal state?",
+   "Problem, scope, steps, fees, timing and client duties.",
+   2
+  ],
+  [
+   "Why write the question first?",
+   "It keeps the work focused and checkable.",
+   3
+  ],
+  [
+   "What is a conflict of interest?",
+   "A situation where you cannot serve a client fairly.",
+   7
+  ],
+  [
+   "Who regulates some professional titles?",
+   "A provincial professional body.",
+   4
+  ],
+  [
+   "What does professional liability insurance cover?",
+   "Claims about advice or work; ask an insurance adviser.",
+   4
+  ],
+  [
+   "Why track time per task?",
+   "To learn real hours and price better.",
+   6
+  ],
+  [
+   "How do you limit endless changes?",
+   "State a number of change rounds in the agreement.",
+   6
+  ],
+  [
+   "What should you do with client information?",
+   "Keep it private and share only with permission or as the law requires.",
+   7
+  ],
+  [
+   "What if you do not know a rule?",
+   "Ask the regulating body or authority and keep the answer in writing.",
+   4
+  ]
+ ],
+ "jobs": [
+  "Junior consultant",
+  "Research assistant",
+  "Bookkeeper",
+  "Policy analyst",
+  "Practice coordinator",
+  "Independent adviser"
+ ]
+}

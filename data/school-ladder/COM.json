@@ -1,0 +1,46 @@
+{
+ "slides": [
+  {
+   "level": "L1 Basic",
+   "title": "What a computer does",
+   "slide": "L1 Basic · What a computer does",
+   "notes": "Name the four jobs of a computer: input, process, output and storage. Notes: use a washing machine or a phone and label each job with a sticky note; no screens are needed. Learners say which part is the input and which is the output."
+  },
+  {
+   "level": "L2 Awareness",
+   "title": "Steps and algorithms",
+   "slide": "L2 Awareness · Steps and algorithms",
+   "notes": "Describe an algorithm as ordered steps and put a set of steps in the right order. Notes: cut up the steps for making a sandwich and mix them; learners order them and find what breaks if two swap. Work unplugged. Safe knife use is for an adult only."
+  },
+  {
+   "level": "L3 Foundation",
+   "title": "Code loops and variables",
+   "slide": "L3 Foundation · Code loops and variables",
+   "notes": "Write a short program that uses a variable and a loop to give a predicted output. Notes: for i in range(1,6), print the square of i. The output is 1, 4, 9, 16, 25 and their total is 55. Learners predict the output first, then run and compare. Take breaks to rest eyes."
+  },
+  {
+   "level": "L4 Practitioner",
+   "title": "Binary and image size",
+   "slide": "L4 Practitioner · Binary and image size",
+   "notes": "Apply binary and storage sums to convert numbers and estimate file size. Notes: 45 in binary is 101101, since 32 plus 8 plus 4 plus 1 is 45. A raw picture of 800 by 600 pixels at 24 bits needs 1,440,000 bytes. Learners check by working back from binary to decimal."
+  },
+  {
+   "level": "L5 Specialist",
+   "title": "Network transfer and security",
+   "slide": "L5 Specialist · Network transfer and security",
+   "notes": "Analyse how data moves over a network and compare protections against common threats. Notes: a 50 MB file is 400 megabits; at 20 megabits per second the transfer takes 20 s. Learners work out the time on a slower link and list two safe habits for passwords and updates."
+  },
+  {
+   "level": "L6 Advanced (degree level)",
+   "title": "Complexity and search",
+   "slide": "L6 Advanced · Complexity and search",
+   "notes": "Apply Big O reasoning to compare linear and binary search. Notes: a sorted list of 1,000,000 items needs at most 20 comparisons by binary search, since 2 to the 20 is 1,048,576, instead of up to a million for linear search. Learners trace a search on 16 numbers by hand."
+  },
+  {
+   "level": "L7 Super expert (postgraduate/expert)",
+   "title": "Secure system design",
+   "slide": "L7 Super expert · Secure system design",
+   "notes": "Evaluate a small system for security risk and design controls. Notes: a 12-character password from 62 symbols holds about 71.5 bits of entropy, since 12 times log2 of 62 is 71.45. Learners rank threats, choose controls, and test only on systems they own or have written permission to test."
+  }
+ ]
+}

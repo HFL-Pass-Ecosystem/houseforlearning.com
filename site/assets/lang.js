@@ -2,7 +2,7 @@
    Under the site's Content-Security-Policy no outside script runs here: choosing a language is a normal link to the
    public web-page translation service (translate.google.com/translate?sl=en&tl=CODE&u=PAGE). It works once the site
    is at a public address; on local preview files it cannot fetch the page. The chosen code is kept in localStorage
-   only to preselect it next time. Same file on all three group sites. */
+   only to preselect it next time. */
 (function () {
   var KEY = 'site-lang';
   var SVC = 'https://translate.google.com/translate?sl=en&tl=';
@@ -101,7 +101,7 @@
     back.type = 'button';
     acts.appendChild(go); acts.appendChild(back);
     confirmBox.appendChild(note); confirmBox.appendChild(acts);
-    /* Owner 20 Oct 2026: no one is left out. The list above is what automatic translation covers; every other
+    /* No one is left out. The list above is what automatic translation covers; every other
        language, dialect and sign language is added by people. A visitor can ask for theirs: the request opens the
        visitor's own email app addressed to this site's contact address (nothing is sent or stored by this page). */
     more = el('div', 'lang-more');
@@ -130,11 +130,13 @@
     req.addEventListener('submit', function (e) {
       e.preventDefault();
       if (!rn.value.trim()) { rn.focus(); return; }
-      var c = document.querySelector('[data-email]'), to = c ? c.getAttribute('data-email') : '';
-      if (!to) { rst.textContent = 'Please use the Contact page to tell us.'; return; }
+      var mm = document.querySelector('meta[name="messages-api"]'), api = mm && mm.getAttribute('content');
+      if (!api || !window.fetch) { rst.textContent = 'Please use the Contact page to tell us.'; return; }
       var body = 'Language or dialect: ' + rn.value.trim() + '\nWhere it is spoken: ' + (rw.value.trim() || '-') + '\nHow I want it: ' + rk.value + '\nPage: ' + location.href;
-      window.location.href = 'mailto:' + to + '?subject=' + encodeURIComponent('Language request: ' + rn.value.trim()) + '&body=' + encodeURIComponent(body);
-      rst.textContent = 'Your email app has opened with your request to ' + to + '. Please press Send there. Thank you.';
+      rst.textContent = 'Sending...';
+      fetch(api, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ name: '', email: '', topic: 'Language request', message: body, page: location.pathname, site: location.hostname, website: '' }) })
+        .then(function (r) { if (!r.ok) throw new Error(r.status); rst.textContent = 'Thank you. Your request has been sent.'; })
+        .catch(function () { rst.textContent = 'We could not send it just now. Please use the Contact page.'; });
     });
     more.appendChild(el('p', 'lang-sub', 'Other ways to read'));
     more.appendChild(el('p', 'lang-more-p', 'Read aloud, easy read with simple words, larger text, and sign language (Indian, American, British and International Sign) where a signed version exists.'));
@@ -191,6 +193,9 @@
     }
     pick = code;
     go.href = target(code);
+    // The translated copy lives on another web address: sign-in and unlocked modules stay on the English page.
+    var nt = document.getElementById('lang-note');
+    if (nt) nt.textContent = NOTE + (document.querySelector('.acc-bar') ? ' Your sign-in and unlocked modules stay on the English page, so come back to it to keep learning.' : '');
     list.hidden = true; q.hidden = true; none.hidden = true;
     panel.querySelector('.lang-lab').hidden = true;
     panel.querySelector('.lang-hint').hidden = true;
@@ -268,7 +273,7 @@
 })();
 
 /* ---------------------------------------------------------------------------------------------
-   Accessibility and learning style (owner rules, 19 and 20 Oct 2026). Same code on all group sites.
+   Accessibility and learning style.
    Adds an "Accessibility" button next to the Language button and a panel with:
    - learning style (VARK: visual, aural, read/write, hands-on, or mixed),
    - seeing: text size, reading font (dyslexia-friendly or extra-clear, both open fonts we host),
@@ -1272,14 +1277,15 @@
     var b = document.querySelector('.cookie');
     var site = (b && b.getAttribute('data-site')) || document.title.split('|').pop().trim();
     /* Signed in, the member zone sets window.SITE_MEMBER (or HFL_MEMBER) = {id, ...}: the mark shows the member ID. */
-    function who() { var m = window.SITE_MEMBER || window.HFL_MEMBER; return m && m.id ? 'member ' + m.id : 'public copy'; }
-    var text = site + ' \u00b7 ' + who() + ' \u00b7 viewed ' + stamp();
+    function who() { var m = window.SITE_MEMBER || window.HFL_MEMBER; return m && m.id ? 'member ' + m.id : ''; }
+    function wmText() { var x = who(); return site + (x ? ' \u00b7 ' + x : '') + ' \u00b7 viewed ' + stamp(); }
+    var text = wmText();
     var w = document.createElement('div'); w.className = 'wm'; w.setAttribute('aria-hidden', 'true'); w.textContent = text;
     var p = document.createElement('div'); p.className = 'wm-print'; p.setAttribute('aria-hidden', 'true');
     var big = document.createElement('span'); big.className = 'wm-big'; big.textContent = site; p.appendChild(big);
     var line = document.createElement('span'); line.className = 'wm-line'; line.textContent = 'Printed from ' + location.href.split('#')[0] + ' on ' + stamp() + '. The English page online is the official version.'; p.appendChild(line);
     document.body.appendChild(w); document.body.appendChild(p);
-    ['site-member', 'hfl-member'].forEach(function (ev) { document.addEventListener(ev, function () { w.textContent = site + ' \u00b7 ' + who() + ' \u00b7 viewed ' + stamp(); }); });
+    ['site-member', 'hfl-member'].forEach(function (ev) { document.addEventListener(ev, function () { w.textContent = wmText(); }); });
     window.addEventListener('beforeprint', function () { line.textContent = 'Printed from ' + location.href.split('#')[0] + ' on ' + stamp() + '. The English page online is the official version.'; });
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
@@ -1413,9 +1419,11 @@
       status.className = 'mb-status mb-ok';
       status.textContent = 'Thank you. Your message has been sent' + (d && d.ref ? ' (reference ' + d.ref + ')' : '') + '. We reply by email.';
     }).catch(function () {
+      /* The online service is not reachable (or not set up yet): hand the message to the visitor's own email app. */
       sendBtn.disabled = false;
       status.className = 'mb-status mb-wait';
-      status.textContent = 'The message could not be sent just now. Please try again in a few minutes.';
+      status.textContent = 'Online sending is not available just now, so your email app will open with your message. Please press Send there.';
+      if (to) location.href = 'mailto:' + to + '?subject=' + encodeURIComponent(body.subject || 'Website message') + '&body=' + encodeURIComponent((body.name ? 'From: ' + body.name + ' <' + body.email + '>\n\n' : '') + body.message);
     });
   }
   /* Other scripts (an enquiry list) open the box with a ready message. */
@@ -1435,4 +1443,18 @@
     if (!a || e.ctrlKey || e.metaKey || e.shiftKey) return;
     e.preventDefault(); open(a);
   });
+})();
+
+/* Remembered language: once a visitor has chosen a language (the menu said it opens an automatic translation),
+   the next pages open in it without another click. English stays the default: nothing is applied until a choice is made,
+   and choosing English clears it. Skipped on translated copies, on local and preview addresses (the translation
+   service cannot reach them), and once per page visit so there is never a loop. */
+(function () {
+  var KEY = 'site-lang', FLAG = 'site-lang-tried';
+  var code; try { code = localStorage.getItem(KEY); } catch (e) { return; }
+  if (!code || code === 'en') return;
+  var h = location.hostname;
+  if (/\.translate\.goog$/.test(h) || h === 'localhost' || h === '127.0.0.1' || /\.netlify\.app$/.test(h) || /^\d+\.\d+\.\d+\.\d+$/.test(h)) return;
+  try { if (sessionStorage.getItem(FLAG + ':' + location.pathname)) return; sessionStorage.setItem(FLAG + ':' + location.pathname, '1'); } catch (e) { return; }
+  location.replace('https://translate.google.com/translate?sl=en&tl=' + encodeURIComponent(code) + '&u=' + encodeURIComponent(location.href));
 })();

@@ -1,0 +1,197 @@
+{
+ "price": [
+  780,
+  520,
+  600,
+  "phone"
+ ],
+ "mods": {
+  "1": {
+   "title": "Define what 'ethical' means for a phone",
+   "intro": "Ethical phones aim for fair labour, responsible minerals, repairability and honest claims.",
+   "pts": [
+    "List the claims you could make: conflict-free minerals, fair wages, repairable design, recycled materials, long updates.",
+    "Rank each by buyer interest and by how easily you can prove it.",
+    "Survey ten buyers: what would you pay extra for, and what would you not believe?",
+    "Write the product promise in one line, with only claims you can prove.",
+    "Ask each buyer for one example of a claim they stopped trusting and why; write the reason beside the claim.",
+    "Decide how each claim could be proved: an audit report, a lab test, a repair-time test or a published parts list.",
+    "List the claims you will not make yet, with reasons, so that sales staff do not repeat them."
+   ],
+   "ex": "In a teaching survey of ten buyers, 6 chose repairability, 3 chose seven-year updates and 1 chose 'ethical' branding as the top reason to pay extra, so 9 of 10 (90%) favoured features that can be tested. Promise: 'a phone you can repair and update for seven years'.",
+   "act": "Survey ten buyers and write a provable promise.",
+   "std": "Give each claim a proof plan."
+  },
+  "2": {
+   "title": "Know product, trade and labour rules",
+   "intro": "Electronics have many rules.",
+   "pts": [
+    "Radio and electrical safety approvals are required before sale in Canada; test with an accredited lab.",
+    "Hazardous substances and battery transport are regulated, so check the federal and provincial rules for each.",
+    "Import and customs rules and duties apply to parts and finished goods.",
+    "Supply-chain laws on forced labour or child labour may require reporting or supplier checks; check whether a federal or provincial rule applies to your firm, and keep your supplier records either way.",
+    "Ask the accredited lab for a written list of tests and how long they take; plan the launch after the certificate date, not before.",
+    "Check the carrier's rules for shipping lithium batteries and write the packing method into your procedure.",
+    "Ask a customs broker which tariff codes and duties apply to your parts and write the landed cost per part."
+   ],
+   "ex": "Row: 'Sell a phone with a radio | federal radio approval | lab test and certificate | before launch | certificate filed'. Row: 'Ship spare batteries by air | transport safety rules and carrier | follow packing and label rules | each shipment | carrier acceptance note'. If a part costs 400 and duty plus freight add 12% (an assumed teaching rate; check the real rate), landed cost = 400 x 1.12 = 448.",
+   "act": "Build a rules table for importing parts and selling in one province.",
+   "std": "Give each row an enforcer, action and date."
+  },
+  "3": {
+   "title": "Design for repair and long life",
+   "intro": "Design decisions fix cost, weight and repair.",
+   "pts": [
+    "Use screws and connectors, not glue, for the battery and screen.",
+    "Choose standard ports and modular parts.",
+    "Plan software updates for the promised years and decide who pays.",
+    "Write the repair guide before the first sale.",
+    "Do a teardown of a phone you own: count screws, glued parts and cable connectors, and time a battery replacement.",
+    "Set a repair target in minutes and tools for each common fault: screen, battery and charging port.",
+    "Publish a spare-parts price list and check that a repair costs only a fraction of the phone price."
+   ],
+   "ex": "A battery swap takes 6 minutes with one screwdriver; the spare battery is listed at 45 and a screen at 120. A battery plus a screen = 45 + 120 = 165, which is 165 / 780 = about 21% of the phone price.",
+   "act": "Write a design brief with a repair-time target and test it on a teardown of any phone.",
+   "std": "Measure repair time."
+  },
+  "4": {
+   "title": "Source ethically and check suppliers",
+   "intro": "Know your suppliers.",
+   "pts": [
+    "Map the tiers: assembler, component makers and mineral sources.",
+    "Ask for audit reports and visit suppliers where possible.",
+    "Use third-party mineral tracing schemes where they exist.",
+    "Write corrective actions with dates when you find problems.",
+    "Ask your assembler for a list of every supplier and sub-supplier, and mark the ones nobody has checked.",
+    "Write a short supplier code of conduct (hours, pay, safety, no forced labour) and get it signed before you order.",
+    "Score each supplier from 1 to 5 on five items and set a pass mark; a score below the mark means a corrective plan."
+   ],
+   "ex": "An audit finds overtime above limits at a supplier; the corrective plan gives 60 days and a re-check. Scores on five items of 4, 3, 5, 2 and 4 total 18 out of 25 = 72%; with a pass mark of 80% (20 points), the supplier needs the plan.",
+   "act": "Build a supplier scorecard for three suppliers.",
+   "std": "Add evidence and dates to the scorecard."
+  },
+  "5": {
+   "title": "Cost the phone and set the price",
+   "intro": "Costs are bill of materials, assembly, certification, software and support.",
+   "pts": [
+    "Build a bill of materials per phone, plus assembly and freight.",
+    "List fixed costs: tooling, certification and the software team.",
+    "Add a warranty provision to the cost.",
+    "Work out margin and break-even from price, cost and fixed cost.",
+    "List the bill of materials with part, supplier, unit price and quantity; total it and check the sum twice.",
+    "Add the warranty provision as a percentage of sales and test its effect on margin.",
+    "Compute break-even at three prices to see how sensitive it is."
+   ],
+   "ex": "Price 780; cost 520; margin 260 (33%). Fixed cost 1,500,000 per year gives break-even of 1,500,000 / 260 = about 5,800 phones. If parts are 400 of the 520 and rise 15%, cost rises by 60 to 580, margin falls to 200 and break-even becomes 1,500,000 / 200 = 7,500 phones. Teaching figures in CAD.",
+   "act": "Build the cost sheet and a +15% parts-cost case.",
+   "std": "Show units and currency."
+  },
+  "6": {
+   "title": "Sell, support and take back",
+   "intro": "The relationship continues after sale.",
+   "pts": [
+    "Sell direct and through carriers or retailers.",
+    "Provide support by chat and through repair partners.",
+    "Offer trade-in and take-back.",
+    "Publish a yearly supply-chain report.",
+    "Write a support promise: reply within one working day, with repair partners in named cities.",
+    "Make a trade-in offer with a fixed value and check the total cost against the margin.",
+    "Plan the first 100 sales by channel, with a number for each."
+   ],
+   "ex": "Launch to 100 early customers: 60 direct and 40 through retailers. Take-back target 25% in year 2: of 400 phones sold in year 1, 25% = 100 come back, and if each yields parts worth 60, recovery = 100 x 60 = 6,000.",
+   "act": "Plan a launch to 100 early customers.",
+   "std": "Plan has support and take-back steps."
+  },
+  "7": {
+   "title": "Handle data, security and greenwashing risk",
+   "intro": "Trust can be lost fast.",
+   "pts": [
+    "Build in secure boot, signed updates and privacy by default.",
+    "Avoid vague green words and use measured claims.",
+    "Plan for component shortages with a second source and buffer stock.",
+    "Prepare a recall plan before the first sale.",
+    "Test the phone for security basics: encrypted storage, signed updates and no hidden tracking.",
+    "Check each green claim against a measurement (grams of recycled plastic, share of minerals traced) before it goes in an advert.",
+    "Prepare a recall notice template with steps, contact point and timeline."
+   ],
+   "ex": "Risk: 'Chip shortage | 4 x 4 | second source and buffer stock | purchasing | monthly'. Score 4 x 4 = 16 of 25. If you build 200 phones a month and want 3 months of cover, buffer stock = 200 x 3 = 600 chips.",
+   "act": "Write a risk register.",
+   "std": "Assign owners to rows."
+  },
+  "8": {
+   "title": "Pilot a small run",
+   "intro": "Build 200 units.",
+   "pts": [
+    "Run the pilot with early buyers.",
+    "Track the failure rate and support tickets.",
+    "Set a stop rule: if the return rate is over 8%, fix the cause before the next batch.",
+    "Plan the second batch after the review.",
+    "Choose 200 early buyers who agree to give feedback and record each serial number.",
+    "Log every return and support ticket with its cause and group the causes weekly.",
+    "Hold a go/no-go meeting with the stop rule and the figures printed on the table."
+   ],
+   "ex": "Return rate 5.5%; proceed. Of 200 phones, 5.5% = 11 returned, under the limit of 8% = 16 phones. If 6 of the 11 were battery connectors, fix that part before batch two.",
+   "act": "Run the pilot review.",
+   "std": "Review has decision."
+  }
+ },
+ "quiz": [
+  [
+   "Name two ethical phone claims you could prove.",
+   "Repairable design (shown by tested repair times) and long software support (shown by published update dates).",
+   1
+  ],
+  [
+   "What approval does a phone with a radio need?",
+   "Federal radio approval from an accredited lab test.",
+   2
+  ],
+  [
+   "Why write a repair guide early?",
+   "Repairability is a design promise that must be tested.",
+   3
+  ],
+  [
+   "What is a supplier scorecard?",
+   "A scored record of supplier checks with evidence and dates.",
+   4
+  ],
+  [
+   "Why avoid vague green words?",
+   "Claims must be measurable and provable.",
+   7
+  ],
+  [
+   "What is the break-even rule?",
+   "Fixed cost divided by margin per phone.",
+   5
+  ],
+  [
+   "Why plan take-back?",
+   "To recover materials and keep the ethical promise.",
+   6
+  ],
+  [
+   "What triggers a fix in the pilot?",
+   "Return rate over 8%.",
+   8
+  ],
+  [
+   "Why keep audit records?",
+   "Buyers and any applicable supply-chain rule may ask for proof; check the rule.",
+   2
+  ],
+  [
+   "Why diversify chip supply?",
+   "A shortage can stop production.",
+   7
+  ]
+ ],
+ "jobs": [
+  "Hardware technician",
+  "Supply chain auditor",
+  "Repair technician",
+  "Product manager",
+  "Device start-up founder"
+ ]
+}

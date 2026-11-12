@@ -1,0 +1,367 @@
+{
+ "slug": "school-grade-07-sci.html",
+ "plan": "grade-07",
+ "subject": "SCI",
+ "subject_name": "Science",
+ "kind": "sci",
+ "label": "Grade 07",
+ "band": "secondary",
+ "level": 3,
+ "weeks": 36,
+ "task": "Meet the outcome of every unit in Grade 07 Science, and keep one piece of evidence for each.",
+ "condition": "A 36-week school year, 9 units, a teacher or guide, a learning book or device, and local examples in the local language first with English support.",
+ "standard": "Each unit: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. Course pass: no unit at 'Not yet' after one retry, and a pass in SA1 and SA2.",
+ "modules": [
+  {
+   "n": 1,
+   "title": "Nutrition in plants and animals",
+   "bloom": "Understand",
+   "weeks": [
+    1,
+    4
+   ],
+   "hours": 12,
+   "outcome": "describe photosynthesis and digestion",
+   "intro": "In this unit, 'Nutrition in plants and animals', you learn to describe photosynthesis and digestion. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Nutrition in plants and animals' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: describe photosynthesis and digestion. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Solved: Carbon dioxide + water, in light and with chlorophyll, gives glucose + oxygen. Test: a leaf kept in the dark makes no starch. Method: Model run for 'Nutrition in plants and animals'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Describe photosynthesis and digestion: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Test a leaf for starch with adult help. Take a leaf from a plant kept in sun for 6 hours. Boil it in water, then soften it in alcohol heated only in a hot water bath, never a flame. Rinse, add iodine: blue-black shows starch.",
+    "Step 2, Write the equation in words: carbon dioxide + water, in the presence of sunlight and chlorophyll, gives glucose + oxygen. Say where each enters: CO2 through stomata, water from roots, light absorbed by chlorophyll in chloroplasts.",
+    "Step 3, Control the test. A leaf covered with black paper for the same time stays brown with iodine, showing no starch. This proves light is needed. A variegated leaf stains only in its green part, proving chlorophyll is needed.",
+    "Step 4, Follow digestion of a cheese sandwich. Mouth: teeth chew and amylase in saliva starts breaking starch into sugar. Stomach: acid and pepsin digest protein. Small intestine: bile and enzymes finish digestion, and absorption goes into blood through villi.",
+    "Step 5, Trace the path: mouth, food pipe, stomach, small intestine, large intestine, rectum. The small intestine is several metres long in an adult, giving a large surface for absorption. The large intestine absorbs water.",
+    "Step 6, Your turn: name the gas given off in photosynthesis and the organ where most absorption occurs. Answer: oxygen; the small intestine. Photosynthesis happens in leaves, while absorption happens in the gut."
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Fibre to fabric and heat",
+   "bloom": "Analyse",
+   "weeks": [
+    5,
+    8
+   ],
+   "hours": 12,
+   "outcome": "compare conductors and insulators and temperature scales",
+   "intro": "In this unit, 'Fibre to fabric and heat', you learn to compare conductors and insulators and temperature scales. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Fibre to fabric and heat' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: compare conductors and insulators and temperature scales. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Solved: Heat moves from hot to cold by conduction, convection and radiation. Wool traps air, a poor conductor, so it keeps us warm. Method: Model run for 'Fibre to fabric and heat'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Compare conductors and insulators and temperature scales: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Test conduction. Hold a metal spoon, a wooden spoon and a plastic spoon in a cup of hot water at 80 C for 2 minutes. The metal spoon handle gets warm quickly; the wood and plastic stay cool. Metals are good conductors of heat.",
+    "Step 2, Explain with insulators: air, wool, wood and plastic are poor conductors. Cooking pans have metal bases and plastic handles for this reason. Woollen clothes trap air and keep us warm.",
+    "Step 3, Convert temperature. The Celsius scale sets ice at 0 C and boiling water at 100 C. To convert to kelvin add 273: 37 C body temperature is 310 K. Fahrenheit is F = 1.8C + 32, so 37 C = 98.6 F.",
+    "Step 4, Use a laboratory thermometer. Place the bulb in hot water, wait until the mercury or alcohol stops rising, and read at eye level. Suppose it reads 60 C. Convert: 60 x 1.8 + 32 = 140 F.",
+    "Step 5, Link fibre to fabric. Wool comes from sheep, silk from cocoons, cotton from the cotton plant. The steps are fibre, spinning into yarn, then weaving or knitting into fabric. Wool is a good insulator.",
+    "Step 6, Your turn: convert 25 C to Fahrenheit and kelvin. Answer: 25 x 1.8 + 32 = 77 F; 25 + 273 = 298 K."
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Acids, bases and salts",
+   "bloom": "Analyse",
+   "weeks": [
+    9,
+    12
+   ],
+   "hours": 12,
+   "outcome": "test with indicators and describe neutralisation",
+   "intro": "In this unit, 'Acids, bases and salts', you learn to test with indicators and describe neutralisation. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Acids, bases and salts' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: test with indicators and describe neutralisation. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Solved: A solution that turns blue litmus red is an acid. Acid + base gives salt + water, for example hydrochloric acid + sodium hydroxide gives sodium chloride + water. Method: Model run for 'Acids, bases and salts'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Test with indicators and describe neutralisation: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Learn about indicators. Acids taste sour (lemon, vinegar) and bases feel slippery (soap). Indicators change colour to tell them apart. Litmus turns blue paper red in acid and red paper blue in a base. Safety: never taste chemicals, wear goggles and use only dilute household samples.",
+    "Step 2, Make a red cabbage indicator. Boil chopped red cabbage in water with an adult, and let the purple juice cool. Add a few drops to lemon juice: it goes pink-red. Add to baking soda solution: it goes blue-green. Water stays purple, so it is neutral.",
+    "Step 3, Read the pH scale. pH runs from 0 to 14. Below 7 is acidic (lemon juice about 2, vinegar about 3). pH 7 is neutral (pure water). Above 7 is basic (baking soda solution about 9, soapy water about 10). Place five liquids on a number line.",
+    "Step 4, Describe neutralisation. When an acid and a base react, they cancel each other's effects, making a salt and water. Hydrochloric acid + sodium hydroxide gives sodium chloride + water. Check atoms: HCl + NaOH gives NaCl + H2O, with 1 Na, 1 Cl, 2 H and 1 O on both sides.",
+    "Step 5, Use neutralisation in life. An antacid tablet, which is a weak base, neutralises extra stomach acid in indigestion. Farmers add lime to soil that is too acidic. Toothpaste is slightly basic, so it helps to neutralise the acid made by mouth bacteria.",
+    "Step 6, Your turn: a liquid turns red litmus blue and has pH 10. State if it is an acid or base, and what to add to neutralise it. Answer: it is a base; add a little dilute acid, such as vinegar, to neutralise it."
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Physical and chemical changes",
+   "bloom": "Understand",
+   "weeks": [
+    13,
+    16
+   ],
+   "hours": 12,
+   "outcome": "explain rusting and crystallisation",
+   "intro": "In this unit, 'Physical and chemical changes', you learn to explain rusting and crystallisation. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Physical and chemical changes' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: explain rusting and crystallisation. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Solved: Water is H2O: 2 hydrogen atoms and 1 oxygen atom. Mass = 2 x 1 + 16 = 18 units. Check atoms balance on both sides of an equation. Method: Model run for 'Physical and chemical changes'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Explain rusting and crystallisation: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Test rusting. Set up three test tubes each with a clean iron nail: A with water and air, B with boiled water covered by oil, C with dry calcium chloride and a stopper. After one week only A shows rust.",
+    "Step 2, Conclude: rusting needs both oxygen and water. Rust is hydrated iron oxide, Fe2O3 x H2O, a new substance, so it is a chemical change. Rust is flaky and weakens iron.",
+    "Step 3, Prevent rust by painting, oiling, galvanising (coating with zinc), or using stainless steel. Each method blocks air and water from the iron. Write which method suits a bicycle chain and which suits a gate.",
+    "Step 4, Crystallise copper sulphate. Dissolve copper sulphate in 100 mL of hot water until no more dissolves, filter, and let it cool slowly. Blue crystals with a regular shape appear in a day or two. Crystallisation is a physical separation from a saturated solution.",
+    "Step 5, Explain: a hot solution holds more dissolved solid than a cold one. On cooling, the extra cannot stay dissolved and forms crystals. Slow cooling gives bigger crystals.",
+    "Step 6, Your turn: a nail in dry air stays rust-free and a nail in salty water rusts faster. Explain. Answer: dry air has no water, so no rusting; salt speeds up rusting by helping the water carry charge."
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Weather, climate and adaptation",
+   "bloom": "Remember",
+   "weeks": [
+    17,
+    20
+   ],
+   "hours": 12,
+   "outcome": "read weather data and relate climate to living things",
+   "intro": "In this unit, 'Weather, climate and adaptation', you learn to read weather data and relate climate to living things. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Weather, climate and adaptation' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: read weather data and relate climate to living things. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Solved: Record 5 days: Mon sunny 32 C, Tue cloudy 29 C, Wed rain 27 C, Thu sunny 33 C, Fri sunny 34 C. Most common: sunny (3 days). Hottest: Friday. Method: Model run for 'Weather, climate and adaptation'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Read weather data and relate climate to living things: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Separate weather from climate. Weather is the condition of the air at a place and time, such as hot, windy or rainy today. Climate is the average weather over many years, usually 30. Say: 'It rained today' is weather; 'the desert is dry' is climate.",
+    "Step 2, Use the instruments. A thermometer measures temperature in degrees Celsius, a rain gauge measures rainfall in millimetres, an anemometer measures wind speed and a barometer measures air pressure. Safety: never use a thermometer to stir, and tell an adult if a thermometer breaks.",
+    "Step 3, Read a week of data. Maximum temperatures in a city were 31, 33, 35, 36, 34, 32 and 33 degrees Celsius. The highest is 36, the lowest is 31, so the range is 5. The mean is (31 + 33 + 35 + 36 + 34 + 32 + 33) / 7 = 234 / 7, about 33.4.",
+    "Step 4, Draw a bar chart of monthly rainfall. Suppose January 12 mm, February 18 mm, March 15 mm and the rest under 3 mm. The wettest months are the first three, and the total for the three is 45 mm. This tells you the climate is dry with a short wet season.",
+    "Step 5, Relate climate to living things. In dry climates, plants such as cacti store water and animals are active at night. In a rainforest, which gets over 2000 mm of rain a year, plants grow tall with large leaves. In polar climates, animals have thick fur or fat.",
+    "Step 6, Your turn: daily maximums are 28, 30, 29, 31 and 27. Find the range and mean, then name one adaptation for a very dry climate. Answer: range 31 - 27 = 4; mean 145 / 5 = 29; a cactus stores water in its stem."
+   ]
+  },
+  {
+   "n": 6,
+   "title": "Winds, storms and cyclones",
+   "bloom": "Understand",
+   "weeks": [
+    21,
+    24
+   ],
+   "hours": 12,
+   "outcome": "explain how pressure causes wind and how to stay safe",
+   "intro": "In this unit, 'Winds, storms and cyclones', you learn to explain how pressure causes wind and how to stay safe. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Winds, storms and cyclones' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: explain how pressure causes wind and how to stay safe. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Solved: Hot air rises and cooler air rushes in: that is wind. Cyclones form over warm seas with a calm eye in the middle. Method: Model run for 'Winds, storms and cyclones'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Explain how pressure causes wind and how to stay safe: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Show that air expands when heated. Put a balloon over the mouth of a bottle and place the bottle in a warm water bath at 60 C. The balloon inflates as the air expands and becomes less dense, which is why warm air rises.",
+    "Step 2, Explain wind. Land near a coast heats faster in daytime. Warm air over land rises, creating low pressure. Cooler air from the sea, at higher pressure, flows in as a sea breeze. At night it reverses.",
+    "Step 3, Show air pressure. A glass full of water covered with card and inverted holds the card because air pressure pushing up on the card is larger than the weight of the water. Air presses on everything.",
+    "Step 4, Describe a cyclone. Warm ocean water, above about 26.5 C, evaporates and the rising moist air makes a low-pressure centre. Winds spiral inward at over 120 km per hour. The calm centre is the eye, with heavy clouds in the eyewall.",
+    "Step 5, Cyclone safety: listen to weather warnings, keep a torch, radio, dry food and drinking water, stay indoors away from windows, and move to a shelter if told to. Do not go near the sea.",
+    "Step 6, Your turn: air at one place is at 1000 hPa and at another is 1010 hPa. Which way does the wind blow? Answer: from the 1010 hPa place toward the 1000 hPa low-pressure place."
+   ]
+  },
+  {
+   "n": 7,
+   "title": "Soil and water",
+   "bloom": "Understand",
+   "weeks": [
+    25,
+    28
+   ],
+   "hours": 12,
+   "outcome": "describe soil profile and the water cycle and conserve water",
+   "intro": "In this unit, 'Soil and water', you learn to describe soil profile and the water cycle and conserve water. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Soil and water' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: describe soil profile and the water cycle and conserve water. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Solved: Soil layers: topsoil, subsoil, bedrock. Sand drains fast, clay holds water. Pour 100 ml on each and time the drain. Method: Model run for 'Soil and water'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Describe soil profile and the water cycle and conserve water: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Dig a small pit to see the soil profile. Layer A, topsoil, is dark with humus and roots. Layer B, subsoil, is lighter and has less humus. Layer C is weathered rock pieces. Below is bedrock.",
+    "Step 2, Test soil water holding. Pour 100 mL of water through 100 g of sandy soil and clay soil. Suppose sand returns 80 mL and clay returns 25 mL. Retained water: sand 20 mL, clay 75 mL. Clay holds more water.",
+    "Step 3, Trace the water cycle: the Sun heats oceans, evaporation forms vapour, vapour rises and cools, condensation forms clouds, precipitation falls as rain, and runoff and infiltration return water to rivers and ground.",
+    "Step 4, Estimate saving. A 10 m by 8 m roof catches 80 m2 of rain. A 50 mm shower gives 80 x 0.05 = 4 m3 = 4000 L of rain. Rainwater harvesting can store part of that.",
+    "Step 5, Conserve water: use drip irrigation, fix leaks, reuse washing water for plants, and keep soil covered with mulch to cut evaporation. Planting trees reduces soil erosion and helps groundwater recharge.",
+    "Step 6, Your turn: a roof of 50 m2 gets 20 mm of rain. How much water falls on it? Answer: 50 x 0.020 = 1 m3, which is 1000 L."
+   ]
+  },
+  {
+   "n": 8,
+   "title": "Motion, time and electric current",
+   "bloom": "Apply",
+   "weeks": [
+    29,
+    32
+   ],
+   "hours": 12,
+   "outcome": "draw and read distance-time graphs and electric circuits",
+   "intro": "In this unit, 'Motion, time and electric current', you learn to draw and read distance-time graphs and electric circuits. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Motion, time and electric current' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: draw and read distance-time graphs and electric circuits. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Solved: Speed = distance / time. A bus covers 120 km in 2 hours: 120 / 2 = 60 km/h. Starting at 0 and reaching 20 m/s in 5 s means acceleration = 20 / 5 = 4 m/s squared. Method: Model run for 'Motion, time and electric current'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Draw and read distance-time graphs and electric circuits: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Define speed. Speed = distance / time. A walker who covers 6 m in 3 s has speed 6 / 3 = 2 m/s. On a distance-time graph, time goes on the horizontal axis and distance on the vertical axis, so a steeper line means a faster object.",
+    "Step 2, Read a graph. A runner is at 0 m at 0 s, 20 m at 4 s, still at 20 m at 6 s, and 60 m at 10 s. From 0 to 4 s the speed is 20 / 4 = 5 m/s. From 4 to 6 s the line is flat, so the runner is at rest. From 6 to 10 s the speed is 40 / 4 = 10 m/s.",
+    "Step 3, Find average speed over the whole run: total distance 60 m over total time 10 s is 6 m/s. Note that the average is not the same as the speed in any one part. Plot the points on graph paper, join them with a ruler and label the axes with units.",
+    "Step 4, Build a simple circuit. Use a cell, a bulb, a switch and wires. Close the switch and the bulb lights, because the circuit is a complete loop. Open the switch and the loop is broken, so the bulb goes out. Safety: use only small cells, never mains sockets, and do not short the cell with a wire.",
+    "Step 5, Draw circuit symbols: cell, bulb, switch, wire and ammeter. Current is measured in amperes (A). In a series circuit with two bulbs, the same current flows through both, say 0.3 A, and the bulbs are dimmer. In a parallel circuit each bulb has its own path.",
+    "Step 6, Your turn: a cyclist goes 30 m in 10 s, rests for 5 s, then goes 30 m more in 5 s. Find the speed in each moving part and the average over 20 s. Answer: 3 m/s and 6 m/s; average 60 / 20 = 3 m/s."
+   ]
+  },
+  {
+   "n": 9,
+   "title": "Respiration, transportation and reproduction in plants",
+   "bloom": "Understand",
+   "weeks": [
+    33,
+    36
+   ],
+   "hours": 12,
+   "outcome": "describe breathing and transport in living things",
+   "intro": "In this unit, 'Respiration, transportation and reproduction in plants', you learn to describe breathing and transport in living things. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
+   "points": [
+    "Observe: see, touch, measure or watch a safe demonstration linked to 'Respiration, transportation and reproduction in plants' and write what you notice.",
+    "Explain: use the key words of the unit to say what is happening and why, in a few lines.",
+    "Use it: describe breathing and transport in living things. Use a diagram, table or short calculation where it fits.",
+    "Test and conclude: say what evidence supports your answer and what you would change."
+   ],
+   "example": "Solved: Glucose + oxygen gives carbon dioxide + water + energy. Test: breathe out through a straw into limewater and it turns milky, showing carbon dioxide. Method: Model run for 'Respiration, transportation and reproduction in plants'. Question: what do we want to find out? Prediction: one sentence. Method: three safe steps with the equipment named. Record: a small table with units. Conclusion: one sentence that uses the evidence and the key words of the unit. What a good answer looks like: a fair test, measured values with units, and a conclusion that matches the table.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Describe breathing and transport in living things: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Describe respiration. Living things release energy from food in a process called respiration, and it occurs in every cell. In word form: glucose + oxygen gives carbon dioxide + water + energy. In symbols: C6H12O6 + 6O2 gives 6CO2 + 6H2O. Count carbon, hydrogen and oxygen to check.",
+    "Step 2, Describe breathing in animals. Humans take in air through the nose and trachea to the lungs. Fish pass water over gills, insects breathe through tiny holes called spiracles, and earthworms take in oxygen through their moist skin. All of them move oxygen in and carbon dioxide out.",
+    "Step 3, Describe breathing in plants. Leaves have tiny pores called stomata, mostly underneath. They let oxygen and carbon dioxide move in and out, and water vapour leave. Roots take in oxygen from air spaces in the soil, which is why waterlogged soil can harm plants.",
+    "Step 4, Describe transport in plants. Xylem tubes carry water and minerals up from the roots to the leaves. Phloem tubes carry food made in the leaves to all other parts. Place a celery stalk in water with red food dye, and after several hours slice it to see coloured dots, which show the xylem. Safety: use a knife only with adult help.",
+    "Step 5, Describe transport in humans and reproduction in plants. The heart pumps blood through arteries, veins and capillaries; red blood cells carry oxygen from the lungs to the cells, and plasma carries food and waste. In a flowering plant, pollen moves from the anther to the stigma (pollination), fertilisation forms a seed, and the ovary grows into a fruit. Seeds spread by wind, water or animals.",
+    "Step 6, Your turn: name the plant tube that carries water up, and say what gas fish take in through gills. Then check that 6CO2 has 6 carbon atoms. Answer: xylem; oxygen dissolved in water; 6 x 1 = 6 carbon atoms, matching C6H12O6."
+   ]
+  }
+ ],
+ "rubric": [
+  [
+   "Scientific ideas",
+   "Ideas mixed up",
+   "Main ideas right",
+   "Ideas right and linked"
+  ],
+  [
+   "Evidence and data",
+   "No record",
+   "Record made",
+   "Clear record used in the conclusion"
+  ],
+  [
+   "Safe, fair method",
+   "Needs reminding",
+   "Safe and mostly fair",
+   "Safe, fair and improved"
+  ],
+  [
+   "Use of key words",
+   "Few",
+   "Some",
+   "Accurate and confident"
+  ],
+  [
+   "Practice habit",
+   "Rarely practises",
+   "Practises weekly",
+   "Practises most days and reflects"
+  ]
+ ],
+ "checks": [
+  [
+   "Unit 1 (Nutrition in plants and animals): Name the gas given off in photosynthesis and the organ where most absorption occurs.",
+   "oxygen; the small intestine. Photosynthesis happens in leaves, while absorption happens in the gut. (Covered in unit 1: Nutrition in plants and animals.)"
+  ],
+  [
+   "Unit 2 (Fibre to fabric and heat): Convert 25 C to Fahrenheit and kelvin.",
+   "25 x 1.8 + 32 = 77 F; 25 + 273 = 298 K. (Covered in unit 2: Fibre to fabric and heat.)"
+  ],
+  [
+   "Unit 3 (Acids, bases and salts): A liquid turns red litmus blue and has pH 10. State if it is an acid or base, and what to add to neutralise it.",
+   "it is a base; add a little dilute acid, such as vinegar, to neutralise it. (Covered in unit 3: Acids, bases and salts.)"
+  ],
+  [
+   "Unit 4 (Physical and chemical changes): A nail in dry air stays rust-free and a nail in salty water rusts faster. Explain.",
+   "dry air has no water, so no rusting; salt speeds up rusting by helping the water carry charge. (Covered in unit 4: Physical and chemical changes.)"
+  ],
+  [
+   "Unit 5 (Weather, climate and adaptation): Daily maximums are 28, 30, 29, 31 and 27. Find the range and mean, then name one adaptation for a very dry climate.",
+   "range 31 - 27 = 4; mean 145 / 5 = 29; a cactus stores water in its stem. (Covered in unit 5: Weather, climate and adaptation.)"
+  ],
+  [
+   "Unit 6 (Winds, storms and cyclones): Air at one place is at 1000 hPa and at another is 1010 hPa. Which way does the wind blow?",
+   "from the 1010 hPa place toward the 1000 hPa low-pressure place. (Covered in unit 6: Winds, storms and cyclones.)"
+  ],
+  [
+   "Unit 7 (Soil and water): A roof of 50 m2 gets 20 mm of rain. How much water falls on it?",
+   "50 x 0.020 = 1 m3, which is 1000 L. (Covered in unit 7: Soil and water.)"
+  ],
+  [
+   "Unit 8 (Motion, time and electric current): A cyclist goes 30 m in 10 s, rests for 5 s, then goes 30 m more in 5 s. Find the speed in each moving part and the average over 20 s.",
+   "3 m/s and 6 m/s; average 60 / 20 = 3 m/s. (Covered in unit 8: Motion, time and electric current.)"
+  ],
+  [
+   "Unit 9 (Respiration, transportation and reproduction in plants): Name the plant tube that carries water up, and say what gas fish take in through gills. Then check that 6CO2 has 6 carbon atoms.",
+   "xylem; oxygen dissolved in water; 6 x 1 = 6 carbon atoms, matching C6H12O6. (Covered in unit 9: Respiration, transportation and reproduction in plants.)"
+  ],
+  [
+   "Unit 1 (Nutrition in plants and animals): Write the equation in words. Show how you do it and say what the result is.",
+   "carbon dioxide + water, in the presence of sunlight and chlorophyll, gives glucose + oxygen. Say where each enters: CO2 through stomata, water from roots, light absorbed by chlorophyll in chloroplasts. (Covered in unit 1: Nutrition in plants and animals.)"
+  ]
+ ],
+ "ladder": [
+  "L1: observe, sort and describe the living and non-living world.",
+  "L2: run simple tests and explain with key words.",
+  "L3: use models and equations; plan a fair test.",
+  "L4: link physics, chemistry and biology ideas with calculation.",
+  "L5: specialise; design, analyse and evaluate experiments.",
+  "L6 (degree): laboratory science, instrumentation and analysis.",
+  "L7 (postgraduate): research design and expert practice."
+ ],
+ "jobs": [],
+ "blooms": [
+  "Remember",
+  "Understand",
+  "Apply",
+  "Analyse"
+ ]
+}

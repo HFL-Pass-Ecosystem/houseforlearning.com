@@ -1,0 +1,46 @@
+{
+ "slides": [
+  {
+   "level": "L1 Basic",
+   "title": "Scarcity and choice",
+   "slide": "L1 Basic · Scarcity and choice",
+   "notes": "Name what scarcity means and give one opportunity cost from daily life. Notes: a farmer can grow 40 tonnes of wheat or 20 of maize on one field; learners say what giving up one tonne of wheat costs in maize."
+  },
+  {
+   "level": "L2 Awareness",
+   "title": "Demand and supply",
+   "slide": "L2 Awareness · Demand and supply",
+   "notes": "Explain why price changes move buyers and sellers in opposite directions. Notes: draw a demand line and a supply line for a market stall, then shift one at a time and say what happens to price and quantity."
+  },
+  {
+   "level": "L3 Foundation",
+   "title": "Equilibrium and elasticity",
+   "slide": "L3 Foundation · Equilibrium and elasticity",
+   "notes": "Calculate equilibrium and price elasticity of demand from simple equations. Notes: demand Q = 100 minus 2P and supply Q = 20 plus 2P give price 20 and quantity 60; raising price to 22 cuts quantity by about 6.7 per cent, elasticity about minus 0.67."
+  },
+  {
+   "level": "L4 Practitioner",
+   "title": "Growth, inflation and the multiplier",
+   "slide": "L4 Practitioner · Growth, inflation and the multiplier",
+   "notes": "Apply the multiplier and measure inflation from index numbers. Notes: an index rising from 200 to 210 is 5 per cent inflation; a marginal propensity to consume of 0.8 gives a multiplier of 5, so an injection of 10 raises income by 50."
+  },
+  {
+   "level": "L5 Specialist",
+   "title": "Market failure and policy",
+   "slide": "L5 Specialist · Market failure and policy",
+   "notes": "Analyse an externality and compare a tax, a subsidy and regulation. Notes: with a marginal external cost of 4 per unit and 1,000 units sold, a tax of 4 raises 4,000; learners list who gains, who loses and one unintended effect."
+  },
+  {
+   "level": "L6 Advanced (degree level)",
+   "title": "Market power and welfare",
+   "slide": "L6 Advanced · Market power and welfare",
+   "notes": "Derive monopoly output and deadweight loss and compare with competition. Notes: demand P = 100 minus Q with marginal cost 20 gives monopoly output 40 at price 60 and profit 1,600; competition gives 80, so the welfare loss is 800."
+  },
+  {
+   "level": "L7 Super expert (postgraduate/expert)",
+   "title": "Growth models and causal evidence",
+   "slide": "L7 Super expert · Growth models and causal evidence",
+   "notes": "Evaluate a growth model and the identification strategy behind a policy claim. Notes: with saving rate 0.2, depreciation plus population growth 0.05 and capital share 0.5, steady-state capital per worker is 16; discuss what instrument would justify a causal reading."
+  }
+ ]
+}

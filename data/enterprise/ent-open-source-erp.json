@@ -1,0 +1,108 @@
+{
+ "module8": [
+  "Capstone: run a small company for a month",
+  "Create",
+  5,
+  "Bring every module together. You set up a practice company, run a month of real-style work, close the books and show your results to others.",
+  [
+   "Plan the company: products, customers, suppliers, tax and the apps you need.",
+   "Run a month of work: at least 15 sales, 8 purchases, 2 stock counts and one bank statement.",
+   "Close the month: reconcile the bank, check stock against the books and print the tax report.",
+   "Present your results and explain one mistake you made and how you fixed it."
+  ],
+  "A learner sells 18 orders, makes 8 purchases and reconciles 25 bank lines. The stock report shows 3 units short, which turns out to be a missed receipt. After posting the receipt, stock and books agree.",
+  "Complete the one-month practice company and write a two-page report with a screenshot of each main report, the issues found and your fixes.",
+  "Close the month with zero unreconciled bank lines, stock matching the count, and a clear written explanation of each issue."
+ ],
+ "quiz": [
+  [
+   "A small shop wants to sell, track stock and keep accounts. Which apps would you install first and why?",
+   "Sales, inventory and accounting, because they cover the daily work. Add other apps later only when there is a real need."
+  ],
+  [
+   "A shirt comes in three sizes and two colours. How should you set it up?",
+   "Create one product with variants for size and colour, giving six combinations. This keeps one set of reports instead of six separate products."
+  ],
+  [
+   "You import 20 products and find 3 duplicates. What check should have been done before import?",
+   "Compare names or codes with the existing list and clean the sheet first. Also check units and tax columns before loading."
+  ],
+  [
+   "A quote is confirmed. What usually follows in the sales flow?",
+   "A delivery is made, an invoice is created from the order and then payment is registered. Each step is linked to the one before."
+  ],
+  [
+   "An invoice has payment terms of Net 30. What does that mean?",
+   "The customer should pay within 30 days of the invoice date. The due date on the invoice is set automatically from this."
+  ],
+  [
+   "A product has a minimum of 10 and a maximum of 40 in its reorder rule. Stock falls to 8. What happens?",
+   "A purchase request is created to bring stock up to the maximum, so about 32 units are suggested. The buyer reviews it before ordering."
+  ],
+  [
+   "Twenty bank lines were imported and 18 matched. What do you do with the other two?",
+   "Open each one and find the invoice or bill it belongs to, or create the missing entry. The target is zero unreconciled lines."
+  ],
+  [
+   "Why should a web shop and a physical shop use the same stock?",
+   "Both sales reduce the same quantity, so you do not sell items you no longer have. Reports also show true totals."
+  ],
+  [
+   "Before upgrading the live system, what should you do?",
+   "Take a backup and run the upgrade on a copy first. If the copy fails you still have the working live system and a way back."
+  ],
+  [
+   "Compare the work in a capstone month with a go-live plan.",
+   "A capstone month tests that you can run all daily work and close the books. A go-live plan prepares moving a real company, with backup, test, rollback and support."
+  ]
+ ],
+ "ladder": [
+  [
+   "L1 Basic: know the apps",
+   "Remember the main apps and what each is for. Identify the company, the current user and the access rights. Recognise a customer, a product and an order on screen.",
+   "Show the app list and ask learners which they need for a shop. Check they can find their own company name. A common mistake is installing every app at once."
+  ],
+  [
+   "L2 Awareness: see the flow",
+   "Understand how a sale links to stock and to the invoice. Explain why clean product and customer data matters. Describe the idea of a chart of accounts and bank matching.",
+   "Draw the flow with arrows from quote to payment. Ask where stock changes. Watch for learners who think each app keeps separate numbers."
+  ],
+  [
+   "L3 Foundation: enter daily work",
+   "Apply the steps to create contacts, products, quotes, orders and invoices. Register a payment. Use filters and search to find a record.",
+   "Let learners enter five orders. Check each is invoiced and paid. Common mistake: typing a new customer when one already exists."
+  ],
+  [
+   "L4 Practitioner: run stock and buying",
+   "Apply reorder rules, purchase orders and stock counts. Analyse a stock difference and post an adjustment with a reason. Check the stock value against the books.",
+   "Plant one missed receipt in the practice data. Ask learners to find it. Common mistake: forcing the count to agree without finding the cause."
+  ],
+  [
+   "L5 Specialist: close the books",
+   "Analyse bank lines and match them to invoices and bills. Evaluate whether the tax report is correct. Fix wrong entries in a safe way.",
+   "Give a bank file with two odd lines. Check learners explain each one. Common mistake: matching to the nearest amount instead of the true document."
+  ],
+  [
+   "L6 Advanced: build and automate",
+   "Create a test shop page and simple automated actions that save time. Evaluate changes made with the studio tool against changes made with code. Keep every change in a test copy first.",
+   "Ask learners to show a change on the copy and then on live. Check they can name the risk. Common mistake: editing the live system directly."
+  ],
+  [
+   "L7 Super expert: lead the rollout",
+   "Create a go-live plan with migration, backups, rehearsal, rollback and support. Evaluate trade-offs for a real small company. Teach a team to run the system.",
+   "Ask learners to present a plan to a peer who plays the owner. Check the backup and rollback steps. Common mistake: moving all data in one step with no rehearsal."
+  ]
+ ],
+ "quiz_module": [
+  1,
+  2,
+  2,
+  3,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ]
+}

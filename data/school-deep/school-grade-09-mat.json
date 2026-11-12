@@ -1,0 +1,424 @@
+{
+ "slug": "school-grade-09-mat.html",
+ "plan": "grade-09",
+ "subject": "MAT",
+ "subject_name": "Mathematics",
+ "kind": "maths",
+ "label": "Grade 09",
+ "band": "secondary",
+ "level": 4,
+ "weeks": 36,
+ "task": "Meet the outcome of every unit in Grade 09 Mathematics, and keep one piece of evidence for each.",
+ "condition": "A 36-week school year, 11 units, a teacher or guide, a learning book or device, and local examples in the local language first with English support.",
+ "standard": "Each unit: at least 8 of 10 marks on a short task, with one line of reasoning for each answer. Course pass: no unit at 'Not yet' after one retry, and a pass in SA1 and SA2.",
+ "modules": [
+  {
+   "n": 1,
+   "title": "Number systems",
+   "bloom": "Apply",
+   "weeks": [
+    1,
+    4
+   ],
+   "hours": 12,
+   "outcome": "work with rational and irrational numbers and laws of exponents",
+   "intro": "In this unit, 'Number systems', you learn to work with rational and irrational numbers and laws of exponents. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Number systems' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: work with rational and irrational numbers and laws of exponents. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Square root of 196: 14 x 14 = 196, so the root is 14. 2 cubed x 2 to the 4 = 2 to the 7 = 128. 0.75 = 3/4 is rational; the square root of 2 is not. Method: Model run for 'Number systems'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Solve problems on rational and irrational numbers and laws of exponents: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Write a repeating decimal as a fraction. Let x = 0.333... Then 10x = 3.333... Subtracting gives 9x = 3, so x = 3/9 = 1/3. Terminating decimals such as 0.75 = 3/4 are rational too. Every rational number is terminating or repeating.",
+    "Step 2, Try a block of two digits: x = 0.3636... Multiply by 100 to match the block length. Then 100x = 36.3636..., and subtracting gives 99x = 36. So x = 36/99, which simplifies by 9 to 4/11.",
+    "Step 3, Meet irrational numbers. The square root of 2 cannot be written as p/q. If it could, p^2 = 2q^2 would force both p and q to be even, which contradicts lowest terms. It is about 1.4142 and never repeats. It is the diagonal of a unit square.",
+    "Step 4, Operate on surds. (3 + root 2)(3 - root 2) = 9 - 2 = 7, a rational result. To rationalise 1 / (root 3 - 1), multiply top and bottom by (root 3 + 1): the bottom becomes 3 - 1 = 2, so the value is (root 3 + 1) / 2, about 1.366.",
+    "Step 5, Use laws of exponents with rational powers. 16^(3/4) = (16^(1/4))^3 = 2^3 = 8. And 27^(-2/3) = 1 / 27^(2/3) = 1 / 3^2 = 1/9. Take the root first, then the power, to keep the numbers small.",
+    "Step 6, Your turn: rationalise 1 / (root 5 + 2) and evaluate 8^(2/3). Answer: multiply by (root 5 - 2) to get (root 5 - 2) / (5 - 4) = root 5 - 2, and 8^(2/3) = 2^2 = 4."
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Polynomials",
+   "bloom": "Apply",
+   "weeks": [
+    5,
+    7
+   ],
+   "hours": 9,
+   "outcome": "add, multiply and factorise polynomials and use the remainder theorem",
+   "intro": "In this unit, 'Polynomials', you learn to add, multiply and factorise polynomials and use the remainder theorem. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Polynomials' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: add, multiply and factorise polynomials and use the remainder theorem. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: x squared - 9 = (x - 3)(x + 3). Check by expanding: x squared + 3x - 3x - 9 = x squared - 9. Method: Model run for 'Polynomials'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Add, multiply and factorise polynomials and use the remainder theorem: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Add polynomials: (3x^2 + 2x - 5) + (x^2 - 4x + 7). Group like terms: (3 + 1)x^2 + (2 - 4)x + (-5 + 7) = 4x^2 - 2x + 2. Degree stays 2.",
+    "Step 2, Multiply: (x + 3)(x^2 - 2x + 1) = x^3 - 2x^2 + x + 3x^2 - 6x + 3 = x^3 + x^2 - 5x + 3. Check at x = 2: left 5 x 1 = 5, right 8 + 4 - 10 + 3 = 5.",
+    "Step 3, Remainder theorem: divide p(x) = x^3 + 2x^2 - x + 5 by (x - 2). The remainder is p(2) = 8 + 8 - 2 + 5 = 19. No long division needed, just substitute the root of the divisor.",
+    "Step 4, Factor theorem: for p(x) = x^3 - 6x^2 + 11x - 6, p(1) = 1 - 6 + 11 - 6 = 0, so (x - 1) is a factor. Dividing gives x^2 - 5x + 6, which factorises as (x - 2)(x - 3).",
+    "Step 5, Full factorisation: x^3 - 6x^2 + 11x - 6 = (x - 1)(x - 2)(x - 3). Check p(2) = 8 - 24 + 22 - 6 = 0 and p(3) = 27 - 54 + 33 - 6 = 0. All three roots work.",
+    "Step 6, Your turn: find the remainder of x^3 - 3x^2 + 4 divided by (x - 1), and test whether (x - 2) is a factor. Answer: p(1) = 1 - 3 + 4 = 2; p(2) = 8 - 12 + 4 = 0, so yes."
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Coordinate geometry",
+   "bloom": "Apply",
+   "weeks": [
+    8,
+    10
+   ],
+   "hours": 9,
+   "outcome": "plot points and read coordinates in four quadrants",
+   "intro": "In this unit, 'Coordinate geometry', you learn to plot points and read coordinates in four quadrants. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Coordinate geometry' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: plot points and read coordinates in four quadrants. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Points (1, 2) and (4, 6). Distance = square root of (3 squared + 4 squared) = square root of 25 = 5. Slope = (6 - 2) / (4 - 1) = 4/3. Method: Model run for 'Coordinate geometry'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Plot points and read coordinates in four quadrants: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Plot points: A(3, 2) is 3 right and 2 up, in quadrant I. B(-4, 3) is in quadrant II, C(-2, -5) in quadrant III and D(5, -1) in quadrant IV. The x-coordinate is always read first.",
+    "Step 2, Distances from axes: for B(-4, 3) the distance from the y-axis is 4 (the abscissa without the sign) and the distance from the x-axis is 3 (the ordinate). A point on the x-axis looks like (a, 0).",
+    "Step 3, Rectangle: plot (1, 1), (5, 1), (5, 4), (1, 4). The length is 5 - 1 = 4 and the width is 4 - 1 = 3. Area = 4 x 3 = 12 square units. Perimeter = 14 units.",
+    "Step 4, Reflection: reflecting (3, 2) in the x-axis flips the sign of y, giving (3, -2). Reflecting in the y-axis gives (-3, 2). The point and its image are the same distance from the axis.",
+    "Step 5, Find a missing coordinate: the points (2, k) and (2, 7) lie on a vertical line x = 2. If the point is 3 units below the x-axis, then k = -3. Check: its distance from the x-axis is |-3| = 3.",
+    "Step 6, Your turn: name the quadrant of (-6, -2) and say where (0, -4) lies. Answer: quadrant III, with abscissa -6 and ordinate -2; (0, -4) lies on the y-axis, 4 units below the origin."
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Linear equations in two variables",
+   "bloom": "Apply",
+   "weeks": [
+    11,
+    13
+   ],
+   "hours": 9,
+   "outcome": "write, graph and solve equations in two variables",
+   "intro": "In this unit, 'Linear equations in two variables', you learn to write, graph and solve equations in two variables. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Linear equations in two variables' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: write, graph and solve equations in two variables. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: 2x + y = 7 and x - y = 2. Add: 3x = 9, x = 3, y = 1. Check: 6 + 1 = 7 and 3 - 1 = 2. Method: Model run for 'Linear equations in two variables'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Write, graph and solve equations in two variables: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Find solutions of x + y = 7: choose x and compute y. x = 0 gives y = 7; x = 2 gives y = 5; x = 7 gives y = 0. So (0, 7), (2, 5) and (7, 0) are solutions. There are infinitely many.",
+    "Step 2, Graph it: plot (0, 7), (2, 5), (7, 0) and draw the line through them. Check that (3, 4) lies on the line, since 3 + 4 = 7. Every point on the line is a solution.",
+    "Step 3, Write an equation: three pens cost x each and two notebooks cost y each, total 40. So 3x + 2y = 40. If x = 6 then 2y = 22, so y = 11. Check: 18 + 22 = 40.",
+    "Step 4, Translate a sentence: y is 3 more than twice x gives y = 2x + 3. Table: x = 0, y = 3; x = 1, y = 5; x = 2, y = 7. The points lie on a straight line.",
+    "Step 5, Special lines: the x-axis is y = 0 and the y-axis is x = 0. The line x = 3 is vertical through (3, 0). Write y - 4 = 0 as y = 4, a horizontal line through (0, 4).",
+    "Step 6, Your turn: find three solutions of 2x + 3y = 12. Answer: x = 0 gives y = 4; y = 0 gives x = 6; x = 3 gives y = 2. Check: 6 + 6 = 12."
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Introduction to Euclid's geometry",
+   "bloom": "Understand",
+   "weeks": [
+    14,
+    17
+   ],
+   "hours": 12,
+   "outcome": "state axioms, postulates and simple theorems",
+   "intro": "In this unit, 'Introduction to Euclid's geometry', you learn to state axioms, postulates and simple theorems. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Introduction to Euclid's geometry' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: state axioms, postulates and simple theorems. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Axiom: things equal to the same thing are equal to each other. So if AB = CD and CD = EF then AB = EF. Method: Model run for 'Introduction to Euclid's geometry'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "State axioms, postulates and simple theorems: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Use an axiom: things equal to the same thing are equal to each other. If AB = PQ and PQ = XY then AB = XY. So three stick lengths 12 cm, 12 cm, 12 cm are all equal.",
+    "Step 2, Equals added to equals: if x - 3 = 5 then x - 3 + 3 = 5 + 3, so x = 8. Each step of solving an equation uses an axiom like this one, which is why we say it is a logical argument.",
+    "Step 3, The whole and the part: a rope of length 10 m is cut so that a piece is 4 m. The whole (10) is greater than the part (4). That is Euclid's idea that the whole is greater than the part.",
+    "Step 4, Postulate: a straight line can be drawn between any two points. Through A and B there is exactly one such line. A theorem follows: two different lines cannot meet in more than one point.",
+    "Step 5, Midpoint: if C is the midpoint of AB and AB = 10 cm, then AC = CB = 5 cm. And if AB = CD for points A, B, C, D in order on a line, then AC = BD, since AC = AB + BC and BD = BC + CD.",
+    "Step 6, Your turn: name the axiom used to say that if a = b and b = c then a = c, and find AC when AB = 12 and C is the midpoint. Answer: things equal to the same thing are equal; AC = 6."
+   ]
+  },
+  {
+   "n": 6,
+   "title": "Lines and angles",
+   "bloom": "Evaluate",
+   "weeks": [
+    18,
+    21
+   ],
+   "hours": 12,
+   "outcome": "prove angle properties of parallel lines and triangles",
+   "intro": "In this unit, 'Lines and angles', you learn to prove angle properties of parallel lines and triangles. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Lines and angles' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: prove angle properties of parallel lines and triangles. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Two angles on a straight line add to 180 degrees. If one is 65 degrees the other is 180 - 65 = 115 degrees. Method: Model run for 'Lines and angles'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Prove angle properties of parallel lines and triangles: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Prove vertically opposite angles: lines AB and CD meet at O. Angle AOC + angle COB = 180 (linear pair) and angle COB + angle BOD = 180. So angle AOC = angle BOD.",
+    "Step 2, Use it: if angle AOC = 50 then angle BOD = 50 and angle COB = 130. Check: 50 + 130 = 180. The other vertically opposite pair is also 130 and 130.",
+    "Step 3, Parallel lines: lines AB and CD are parallel and a transversal makes an angle of 75. The alternate interior angle is 75 and the co-interior angle is 180 - 75 = 105.",
+    "Step 4, Solve for x: AB is parallel to CD and the alternate angles are (2x + 20) and (3x - 10). Setting them equal, 2x + 20 = 3x - 10, so x = 30. Each angle is 80. Check: 2 x 30 + 20 = 80.",
+    "Step 5, Triangle angle sum and exterior angle: in triangle ABC, angle A = 55 and angle B = 65, so angle C = 60. The exterior angle at C is 180 - 60 = 120, which equals 55 + 65.",
+    "Step 6, Your turn: the angles of a triangle are in the ratio 2 : 3 : 4. Find them. Answer: 2 + 3 + 4 = 9 parts, 180 / 9 = 20, so the angles are 40, 60 and 80."
+   ]
+  },
+  {
+   "n": 7,
+   "title": "Triangles",
+   "bloom": "Evaluate",
+   "weeks": [
+    22,
+    25
+   ],
+   "hours": 12,
+   "outcome": "prove congruence and inequalities in triangles",
+   "intro": "In this unit, 'Triangles', you learn to prove congruence and inequalities in triangles. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Triangles' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: prove congruence and inequalities in triangles. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Angles of a triangle add to 180 degrees. If two angles are 50 and 60, the third is 180 - 110 = 70 degrees. Method: Model run for 'Triangles'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Prove congruence and inequalities in triangles: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Isosceles proof: in triangle ABC, AB = AC and AD bisects angle A, meeting BC at D. In triangles ABD and ACD, AB = AC, angle BAD = angle CAD, and AD is common. So they are congruent by SAS.",
+    "Step 2, Conclusion: by congruence, BD = DC and angle B = angle C. So angles opposite equal sides are equal. If angle B is 70, then angle C is 70 and angle A is 180 - 140 = 40.",
+    "Step 3, Larger angle opposite longer side: in triangle with angles B = 70, C = 50, A = 60, the largest angle is B, so side AC is the longest. The smallest angle C = 50 faces the shortest side AB.",
+    "Step 4, Triangle inequality: sides 3, 4 and 8 cannot form a triangle since 3 + 4 = 7 is less than 8. Sides 6, 8 and 10 can, since 6 + 8 = 14 is greater than 10.",
+    "Step 5, Range for the third side: two sides are 7 and 4. The third side x must satisfy 7 - 4 < x < 7 + 4, which means 3 < x < 11. So x = 8 works but x = 12 does not.",
+    "Step 6, Your turn: find the range of the third side if two sides are 5 and 9. Answer: 9 - 5 < x < 9 + 5, so 4 < x < 14."
+   ]
+  },
+  {
+   "n": 8,
+   "title": "Quadrilaterals and circles",
+   "bloom": "Evaluate",
+   "weeks": [
+    26,
+    29
+   ],
+   "hours": 12,
+   "outcome": "prove properties of quadrilaterals and chords",
+   "intro": "In this unit, 'Quadrilaterals and circles', you learn to prove properties of quadrilaterals and chords. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Quadrilaterals and circles' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: prove properties of quadrilaterals and chords. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Angles of a quadrilateral add to 360 degrees. If three are 90, 80 and 100, the fourth is 360 - 270 = 90 degrees. Method: Model run for 'Quadrilaterals and circles'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Prove properties of quadrilaterals and chords: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Mid-point theorem: in triangle ABC, D and E are midpoints of AB and AC. Then DE is parallel to BC and DE = BC / 2. If BC = 14 cm, then DE = 7 cm.",
+    "Step 2, Parallelogram: AB = 8 cm and AD = 5 cm. Opposite sides are equal, so CD = 8 and BC = 5. Perimeter = 2 x (8 + 5) = 26 cm. A diagonal splits it into two congruent triangles.",
+    "Step 3, Chord and centre: a perpendicular from the centre bisects the chord. A chord of 16 cm in a circle of radius 10 cm has half-chord 8, so the distance from the centre is the root of 100 - 64 = 36, which is 6 cm.",
+    "Step 4, Cyclic quadrilateral: opposite angles add to 180. If angle A = 100 then angle C = 80, and if angle B = 75 then angle D = 105. Check: 100 + 75 + 80 + 105 = 360.",
+    "Step 5, Equal chords: chords of equal length are equal distance from the centre. If two chords of a circle both measure 12 cm and one is 8 cm from the centre, the other is also 8 cm away.",
+    "Step 6, Your turn: a chord of 24 cm lies in a circle of radius 13 cm; find its distance from the centre. Answer: half-chord 12, so the distance is the root of 169 - 144 = 25, which is 5 cm."
+   ]
+  },
+  {
+   "n": 9,
+   "title": "Areas, surface areas and volumes",
+   "bloom": "Apply",
+   "weeks": [
+    30,
+    32
+   ],
+   "hours": 9,
+   "outcome": "find areas of triangles and surface area and volume of solids",
+   "intro": "In this unit, 'Areas, surface areas and volumes', you learn to find areas of triangles and surface area and volume of solids. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Areas, surface areas and volumes' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: find areas of triangles and surface area and volume of solids. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Rectangle 12 cm by 5 cm. Perimeter = 2 x (12 + 5) = 34 cm. Area = 12 x 5 = 60 square cm. A cuboid 12 x 5 x 3 has volume 180 cubic cm. Method: Model run for 'Areas, surface areas and volumes'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Find areas of triangles and surface area and volume of solids: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Heron's formula: a triangle has sides 13, 14 and 15. The semi-perimeter s = (13 + 14 + 15) / 2 = 21. Area = root of s(s - a)(s - b)(s - c) = root of 21 x 8 x 7 x 6 = root of 7,056 = 84.",
+    "Step 2, Check: take 14 as the base. Then the height is 2 x 84 / 14 = 12. The height 12 is shorter than the sides 13 and 15, as it must be. The area 1/2 x 14 x 12 = 84.",
+    "Step 3, Cone: radius 7 cm and slant height 25 cm. Height h = root of 625 - 49 = root of 576 = 24. Curved surface = pi r l = 22/7 x 7 x 25 = 550 cm2. Volume = 1/3 x 22/7 x 49 x 24 = 1,232 cm3.",
+    "Step 4, Sphere with radius 21 cm: surface = 4 pi r^2 = 4 x 22/7 x 441 = 5,544 cm2. Volume = 4/3 x 22/7 x 9,261 = 38,808 cm3. Compute 9,261 / 21 first to keep numbers small.",
+    "Step 5, Word problem: a cone-shaped tent has radius 7 m and slant height 25 m. The canvas needed is its curved surface, 550 m2. The cone's volume 1,232 m3 would be the air space.",
+    "Step 6, Your turn: find the area of a triangle with sides 5, 12, 13 and the surface area of a sphere with radius 3.5 cm. Answer: s = 15, area = root of 15 x 10 x 3 x 2 = 30; surface = 4 x 22/7 x 12.25 = 154 cm2."
+   ]
+  },
+  {
+   "n": 10,
+   "title": "Statistics",
+   "bloom": "Apply",
+   "weeks": [
+    33,
+    35
+   ],
+   "hours": 9,
+   "outcome": "find mean, median, mode and read frequency tables",
+   "intro": "In this unit, 'Statistics', you learn to find mean, median, mode and read frequency tables. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Statistics' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: find mean, median, mode and read frequency tables. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: Data 4, 7, 7, 9, 13. Mean = 40 / 5 = 8. Median (middle value) = 7. Mode (most common) = 7. Method: Model run for 'Statistics'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Find mean, median, mode and read frequency tables: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Frequency table: marks x = 2, 3, 4, 5 with frequencies f = 3, 5, 7, 5. Total N = 3 + 5 + 7 + 5 = 20. Make a column for f times x: 6, 15, 28, 25.",
+    "Step 2, Mean = sum of fx divided by N = (6 + 15 + 28 + 25) / 20 = 74 / 20 = 3.7. A mean can be a value that nobody scored. Check: 3.7 lies between 2 and 5.",
+    "Step 3, Mode is the value with the highest frequency: 4, since f = 7. Median: N = 20 is even, so use the 10th and 11th values. Cumulative frequencies are 3, 8, 15, 20.",
+    "Step 4, Both the 10th and 11th values fall in the cumulative group reaching 15, which is the mark 4. So median = (4 + 4) / 2 = 4. Mean 3.7, median 4, mode 4 are close, so data is balanced.",
+    "Step 5, Read a table: how many scored 4 or more? 7 + 5 = 12 out of 20, which is 60 percent. And how many scored less than 3? Only 3, which is 15 percent.",
+    "Step 6, Your turn: marks 1, 2, 3 with frequencies 4, 3, 3. Find mean, median and mode. Answer: N = 10, sum fx = 4 + 6 + 9 = 19, mean 1.9; median is the 5th and 6th values, both 2; mode 1."
+   ]
+  },
+  {
+   "n": 11,
+   "title": "Probability introduction",
+   "bloom": "Apply",
+   "weeks": [
+    36,
+    36
+   ],
+   "hours": 3,
+   "outcome": "find simple probability from experiments",
+   "intro": "In this unit, 'Probability introduction', you learn to find simple probability from experiments. You work with notes, a worked line and a self-mark. You see it, say it, then do it alone.",
+   "points": [
+    "Show it with objects or a picture: build or draw the idea in 'Probability introduction' before using symbols.",
+    "Say the rule in your own words, then write one worked line, naming each step.",
+    "Use it: find simple probability from experiments. Start with one easy question, then one with a real-life story.",
+    "Check it: use a second method, estimate, or work backwards to test your answer."
+   ],
+   "example": "Solved: A fair die has 6 faces and 3 are even, so P(even) = 3/6 = 1/2. Method: Model run for 'Probability introduction'. Read the question and underline what is asked. Draw or write what is known. Choose the method named in the unit. Work it line by line, one idea per line, with units where they apply. Estimate first so the answer can be tested for sense. Check by working backwards. What a good answer looks like: correct method, every step visible, units stated, and a one-line check.",
+   "activity": "About 30 to 40 minutes of class work, then one short practice task for home. Keep evidence: a worked task and a corrected copy.",
+   "standard": "Find simple probability from experiments: at least 8 of 10 marks on a short task, with one line of reasoning for each answer.",
+   "steps": [
+    "Step 1, Experimental probability: a coin is tossed 50 times and shows heads 28 times. P(head) = 28 / 50 = 0.56. P(tail) = 22 / 50 = 0.44. Both add to 1.",
+    "Step 2, Die experiment: rolled 60 times, a 6 appears 12 times. P(6) = 12 / 60 = 1/5. In theory it should be 1/6, near 0.167, and 1/5 = 0.2. More trials bring the two closer.",
+    "Step 3, Quality check: 100 bulbs tested, 4 are defective. P(defective) = 4 / 100 = 0.04 and P(good) = 96 / 100 = 0.96. The probability of an event always lies from 0 to 1.",
+    "Step 4, Sure and impossible events: drawing a red ball from a bag that holds only red balls has probability 1. Drawing a blue ball from that bag has probability 0.",
+    "Step 5, Predict: if P(defective) = 0.04, then in 2,500 bulbs we expect about 0.04 x 2,500 = 100 defective bulbs. This is an estimate, not an exact count.",
+    "Step 6, Your turn: an event happens 20 times in 80 trials; find its probability and the probability that it does not happen. Answer: 20/80 = 1/4; and 60/80 = 3/4."
+   ]
+  }
+ ],
+ "rubric": [
+  [
+   "Accuracy",
+   "Frequent errors",
+   "Mostly correct",
+   "Correct, checked"
+  ],
+  [
+   "Method shown",
+   "Answer only",
+   "Steps shown",
+   "Steps shown with reasons"
+  ],
+  [
+   "Problem solving",
+   "Needs the method told",
+   "Chooses the method",
+   "Chooses and explains why"
+  ],
+  [
+   "Communication",
+   "Hard to follow",
+   "Clear working",
+   "Clear working with correct terms"
+  ],
+  [
+   "Practice habit",
+   "Rarely practises",
+   "Practises weekly",
+   "Practises most days with an error log"
+  ]
+ ],
+ "checks": [
+  [
+   "Unit 1 (Number systems): Rationalise 1 / (root 5 + 2) and evaluate 8^(2/3).",
+   "multiply by (root 5 - 2) to get (root 5 - 2) / (5 - 4) = root 5 - 2, and 8^(2/3) = 2^2 = 4. (Covered in unit 1: Number systems.)"
+  ],
+  [
+   "Unit 2 (Polynomials): Find the remainder of x^3 - 3x^2 + 4 divided by (x - 1), and test whether (x - 2) is a factor.",
+   "p(1) = 1 - 3 + 4 = 2; p(2) = 8 - 12 + 4 = 0, so yes. (Covered in unit 2: Polynomials.)"
+  ],
+  [
+   "Unit 3 (Coordinate geometry): Name the quadrant of (-6, -2) and say where (0, -4) lies.",
+   "quadrant III, with abscissa -6 and ordinate -2; (0, -4) lies on the y-axis, 4 units below the origin. (Covered in unit 3: Coordinate geometry.)"
+  ],
+  [
+   "Unit 4 (Linear equations in two variables): Find three solutions of 2x + 3y = 12.",
+   "x = 0 gives y = 4; y = 0 gives x = 6; x = 3 gives y = 2. Check: 6 + 6 = 12. (Covered in unit 4: Linear equations in two variables.)"
+  ],
+  [
+   "Unit 5 (Introduction to Euclid's geometry): Name the axiom used to say that if a = b and b = c then a = c, and find AC when AB = 12 and C is the midpoint.",
+   "things equal to the same thing are equal; AC = 6. (Covered in unit 5: Introduction to Euclid's geometry.)"
+  ],
+  [
+   "Unit 7 (Triangles): Find the range of the third side if two sides are 5 and 9.",
+   "9 - 5 < x < 9 + 5, so 4 < x < 14. (Covered in unit 7: Triangles.)"
+  ],
+  [
+   "Unit 8 (Quadrilaterals and circles): A chord of 24 cm lies in a circle of radius 13 cm; find its distance from the centre.",
+   "half-chord 12, so the distance is the root of 169 - 144 = 25, which is 5 cm. (Covered in unit 8: Quadrilaterals and circles.)"
+  ],
+  [
+   "Unit 9 (Areas, surface areas and volumes): Find the area of a triangle with sides 5, 12, 13 and the surface area of a sphere with radius 3.5 cm.",
+   "s = 15, area = root of 15 x 10 x 3 x 2 = 30; surface = 4 x 22/7 x 12.25 = 154 cm2. (Covered in unit 9: Areas, surface areas and volumes.)"
+  ],
+  [
+   "Unit 10 (Statistics): Marks 1, 2, 3 with frequencies 4, 3, 3. Find mean, median and mode.",
+   "N = 10, sum fx = 4 + 6 + 9 = 19, mean 1.9; median is the 5th and 6th values, both 2; mode 1. (Covered in unit 10: Statistics.)"
+  ],
+  [
+   "Unit 11 (Probability introduction): An event happens 20 times in 80 trials; find its probability and the probability that it does not happen.",
+   "20/80 = 1/4; and 60/80 = 3/4. (Covered in unit 11: Probability introduction.)"
+  ]
+ ],
+ "ladder": [
+  "L1: count, add and subtract small numbers; name shapes.",
+  "L2: use the four operations, fractions and simple measures.",
+  "L3: work with ratio, algebra beginnings and geometry reasoning.",
+  "L4: algebra, geometry proof, trigonometry and statistics.",
+  "L5: functions, calculus, vectors and probability.",
+  "L6 (degree): proof, linear algebra and modelling.",
+  "L7 (postgraduate): research mathematics, data science or teaching at depth."
+ ],
+ "jobs": [],
+ "blooms": [
+  "Understand",
+  "Apply",
+  "Evaluate"
+ ]
+}

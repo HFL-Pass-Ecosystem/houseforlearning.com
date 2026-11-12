@@ -1,0 +1,108 @@
+{
+ "module8": [
+  "Capstone: build, review and teach a small solution",
+  "Create",
+  5,
+  "Now you put everything together and help others learn it.",
+  [
+   "Plan a small solution: data model, rules, a flow, one class and one screen.",
+   "Run a peer code review using a short checklist.",
+   "Write a one-page guide so a new developer can maintain your work.",
+   "Teach one part of it in a ten-minute session."
+  ],
+  "A learner builds a case-tracking app, a peer finds a query inside a loop, the learner fixes it, and a new colleague then extends the app using the guide alone.",
+  "Build a small solution for a service business, review a peer's work, and teach one part of it.",
+  "Show that the solution works, passes tests and has a guide, and that a peer can extend it without help."
+ ],
+ "quiz": [
+  [
+   "A custom object called Job must belong to an Account. Which relationship would you use and why?",
+   "A lookup or master-detail relationship from Job to Account. Master-detail fits if a job should never exist without its account and should be deleted with it; a lookup is looser."
+  ],
+  [
+   "Write the idea of a validation rule that stops a close date in the past. When does it fire?",
+   "It checks that close date is not earlier than today and shows an error message. It fires when a user tries to save the record, so bad data never gets stored."
+  ],
+  [
+   "Why are formulas and validation rules tried before code?",
+   "They are easier to build, easier to read for admins, and need no tests or deployment effort. Code is used only when they cannot do the job."
+  ],
+  [
+   "A record-triggered flow sends an email but the email address is blank. What should you have built?",
+   "A fault path that catches the error and sends a clear message to an admin or logs it. Without it the flow fails silently or shows users a confusing error."
+  ],
+  [
+   "A trigger runs a query inside a loop over 200 records. What is the problem and the fix?",
+   "It makes 200 queries and will hit the platform limit on queries. Collect the IDs first, run one query outside the loop, and use a map to look up results."
+  ],
+  [
+   "Why keep logic in a class and only a thin trigger on each object?",
+   "The class can be tested and reused, and one trigger per object avoids unclear run order. The trigger just passes records to the class."
+  ],
+  [
+   "Name two things that make a screen component accessible.",
+   "Clear labels and good colour contrast, and use by keyboard alone. Also useful: text alternatives for images and a sensible reading order."
+  ],
+  [
+   "An outside order system calls your CRM and sometimes times out. How do you design for it?",
+   "Use a retry with waiting time between tries, log every failure, and make the call safe to repeat so an order is not created twice. Keep credentials in a secure store, not in code."
+  ],
+  [
+   "A release has 70% test coverage and the platform needs 75%. What do you do and what else goes in the release note?",
+   "Write more meaningful tests until coverage passes, rather than skipping the rule. The note should also list the changes and a rollback step."
+  ],
+  [
+   "In your capstone, a peer review finds a hard-coded secret in a class. What is the action and why?",
+   "Move it to a secure credential store and change the secret, because anyone who can read the code can see it. Then add the check to the review list."
+  ]
+ ],
+ "ladder": [
+  [
+   "L1 Basic: Know the words",
+   "Remember the basic terms: object, field, record, relationship and flow. Name what each one is for in simple words.",
+   "Say each term once and show it on screen. Check the learner can point to a field and a record. Common mistake: mixing up an object with a record."
+  ],
+  [
+   "L2 Awareness: See the big picture",
+   "Understand how data, rules, automation and screens fit together in a CRM. Explain why low-code is tried before code.",
+   "Draw one picture of the layers. Ask the learner to explain it back in their own words. Common mistake: thinking code is always better."
+  ],
+  [
+   "L3 Foundation: Build simple things",
+   "Apply what you know to build objects, fields, formulas and a simple validation rule. Test them with good and bad data.",
+   "Give a small case and watch them build it. Check names follow the standard. Common mistake: testing only with good data."
+  ],
+  [
+   "L4 Practitioner: Automate and code safely",
+   "Apply flows with fault paths and write a bulk-safe trigger with a class. Analyse a failing flow and find the cause.",
+   "Provide a broken flow and a trigger with a query in a loop. Check they fix both. Common mistake: ignoring limits until the live system fails."
+  ],
+  [
+   "L5 Specialist: Connect and test",
+   "Analyse an integration and evaluate its failure plan. Write tests that prove the work and prepare a release with rollback.",
+   "Ask for the retry and logging plan before the code. Check coverage and rollback note. Common mistake: secrets saved in code."
+  ],
+  [
+   "L6 Advanced: Design and review",
+   "Evaluate other people's designs and code against a checklist. Create a design that balances low-code, code and cost.",
+   "Run a peer review with the checklist. Check feedback is specific and kind. Common mistake: reviewing style only and missing risk."
+  ],
+  [
+   "L7 Super expert: Lead and teach",
+   "Create a whole solution, set the standards for a team and teach others to follow them. Evaluate trade-offs across the full platform.",
+   "Ask the learner to teach one topic and review a team's design. Check the guide lets a newcomer continue alone. Common mistake: keeping knowledge in one head."
+  ]
+ ],
+ "quiz_module": [
+  1,
+  2,
+  2,
+  3,
+  4,
+  4,
+  5,
+  6,
+  7,
+  8
+ ]
+}

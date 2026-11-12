@@ -1,0 +1,64 @@
+{
+"task": "Judge whether a switchboard is at risk of condensation and choose a sensible plan to keep it warm and dry.",
+"condition": "Given the site climate, the daily load pattern of the board and the maker's heater guidance, with any work on the equipment done only by qualified people following local rules.",
+"standard": "The learner names the cause of condensation, decides if heating is needed, and places heaters so the heat spreads evenly and stays clear of cables.",
+"modules": [
+{"title": "Why panels get wet inside","bloom": "Understand: Explain","minutes": 15,
+"intro": "Water does not leak into most damp panels. It forms there, out of the air, when metal gets cold. Knowing this changes how you plan for it.",
+"points": ["Cool air holds less water vapour, so cooling can push air past the point where it must drop water.","A board with no current flowing has no self-heating, so it cools with the room and is the most exposed.","Big day and night swings and outdoor sites make condensation a matter of when, not if."],
+"example": "A shed has air at 28 °C and 80 per cent humidity during the day. At that state the air starts dropping water at roughly 24 °C. At night the idle board cools to 22 °C. Because 22 is below 24, a film of water forms on the metal. If the board had stayed at 26 °C, which is above 24, it would have stayed dry. The gap of about 2 °C below the threshold is enough to cause trouble. The temperature at which air starts to drop water is called the dew point; the figures here are rounded for teaching.",
+"activity": "Pick three places you know (a plant room, a roadside cabinet, an office riser). For each, write when the metal is likely to be colder than the air around it and why.",
+"standard": "Learner explains condensation in two or three sentences and picks out the high-risk moments in a day."},
+{"title": "What the rules expect","bloom": "Remember: Recall","minutes": 15,
+"intro": "Standards give a reference climate for indoor boards. If the real site is wetter than that, the board needs extra help.",
+"points": ["The general standard for low-voltage assemblies assumes, as an example value, indoor air at or below about 50 per cent relative humidity at up to 40 °C. Check the current national wiring rules and the maker's data.","Cooler air may be allowed to be more humid under that standard; check the current text.","As a teaching rule of thumb (an example value, not a limit), a daily average near 80 per cent or higher means plan anti-condensation heating."],
+"example": "Three sites report daily average humidity of 62, 81 and 88 per cent. Applying the 80 per cent rule: site one at 62 sits below it, so no heating is planned unless it also idles for long spells. Site two at 81 is just over it, so plan heating. Site three at 88 is clearly over, so plan heating and think about a better enclosure seal as well. Two of the three sites, that is 2 out of 3, need heaters. Always confirm with the board maker's data and a qualified electrician.",
+"activity": "Take the humidity forecast for your town for one week. Work out the daily average and mark each day above or below 80 per cent.",
+"standard": "Learner can state the example reference humidity and apply the 80 per cent rule to a set of figures."},
+{"title": "Self-heating or added heaters","bloom": "Apply: Choose","minutes": 15,
+"intro": "A board that carries steady current warms itself. A board that sits idle needs help. The skill is spotting which one you have.",
+"points": ["Steady losses of around 100 W (an example value) from continuous current can hold a cubicle just above the room air.","Where losses are small or current often stops for long periods, fit anti-condensation heaters.","Size the heaters from the maker tables, using room temperature, humidity and how much the enclosure sheds heat."],
+"example": "Board A carries current all day and its losses total 120 W. That is above the 100 W guide, so it can usually warm itself. Board B carries current only for 3 hours a day and its losses average 20 W over the full 24 hours, which is 20 divided by 100, a fifth of the guide. Board B will cool and sweat, so it needs heaters from the maker's table. Board A needs no heater unless the load stops for long breaks. The check is a comparison of real losses against the guide, then a decision.",
+"activity": "Estimate which of two boards heats itself and which needs heaters: a pump board that runs part of the day and a lighting board that runs all night, both of which you can read about. Explain in one line each.",
+"standard": "Learner correctly sorts boards into self-heating or needs-heaters and cites the loss figure used."},
+{"title": "Where heaters go","bloom": "Apply: Place","minutes": 15,
+"intro": "A heater in the wrong place wastes power and can harm nearby parts. Placement is a simple set of habits.",
+"points": ["Put heaters below the parts to protect, since warm air rises past them.","Use several small heaters in preference to one large one, so heat spreads and no hot spot forms.","Control them with a thermostat and keep them clear of cables, with extra care in sliding or withdrawable boards."],
+"example": "A three-compartment cubicle needs about 60 W of heating in total. Option one is a single 60 W heater low in the middle compartment. Option two is three 20 W heaters, one low in each compartment. In option one, the middle gets all 60 W while the outer compartments get little. In option two, each compartment gets 20 W, one third of the total, so warmth is even. Both options cost the same 60 W of power, but option two protects the whole board. Layout numbers are for teaching only; a qualified electrician must size, fit and check any real heaters, following the maker's data and local rules.",
+"activity": "Sketch a simple board with three compartments. Mark where you would put heaters, the thermostat, and the cable routes, and say why.",
+"standard": "Learner places heaters low, spread, thermostat-controlled and away from cables, and gives a reason for each."}
+],
+"quiz": [
+{"q": "Where does the water in a damp panel mostly come from?","a": "It condenses out of the air inside when the metal is colder than the air's saturation point.","module": 1},
+{"q": "Why is an idle board more at risk than a loaded one?","a": "With no current there is no self-heating, so it cools to the room temperature or below.","module": 1},
+{"q": "A shed at 28 °C and 80 per cent humidity drops water at about 24 °C. The board is at 22 °C. What happens?","a": "Condensation forms, since 22 is below 24.","module": 1},
+{"q": "In this lesson's example, what humidity is assumed for indoor air at up to 40 °C?","a": "About 50 per cent relative humidity or lower.","module": 2},
+{"q": "A site has a daily average humidity of 85 per cent. What does the working rule say?","a": "Plan anti-condensation heating.","module": 2},
+{"q": "A site averages 62 per cent humidity and the board runs all day. Is heating a priority?","a": "Probably not, but check with the maker data and any long idle periods.","module": 2},
+{"q": "A board has continuous losses of 120 W. Does it likely need added heaters?","a": "Probably not, since 120 W is above the roughly 100 W guide.","module": 3},
+{"q": "A board runs 3 hours a day with average losses of 20 W. What should you do?","a": "Plan added heaters, sized from the maker tables.","module": 3},
+{"q": "Why use three 20 W heaters instead of one 60 W heater in a three-compartment cubicle?","a": "Heat spreads evenly and no single spot gets too hot.","module": 4},
+{"q": "Name two placement rules for heaters.","a": "Fit them low, below the parts to protect, and keep them on a thermostat and away from cables.","module": 4}
+],
+"ladder": [
+{"title": "L1 Basic: Spot the sign","slide": "Photo-style sketch of a board door with droplets on the inside. Caption: Where did this water come from?","notes": "Start with a picture. Ask the group where the water came from. Many will say a leak. Explain it formed from the air. Keep it light and short."},
+{"title": "L2 Explain: Why metal sweats","slide": "A simple diagram of warm humid air meeting a cool metal plate with droplets forming.","notes": "Walk through cooling air holding less vapour. Use the 28 °C and 24 °C example. Stress that the number is rounded for teaching."},
+{"title": "L3 Apply: The 80 per cent rule","slide": "Table of three sites with humidity 62, 81 and 88 per cent and a column for heating yes or no.","notes": "Have learners fill the yes or no column. Remind them the rule is a working guide and the maker data is the final word."},
+{"title": "L4 Analyse: Self-heat or heater","slide": "Two boards side by side: one with 120 W continuous losses, one with 20 W for a few hours.","notes": "Ask which board needs help and why. Link back to idle cooling. Show the 100 W guide as the comparison line."},
+{"title": "L5 Design: Place the heaters","slide": "Cutaway of a three-compartment cubicle with empty spots to mark heater positions.","notes": "Let learners draw positions. Compare one big heater against three small ones. Talk about warm air rising and keeping clear of cables."},
+{"title": "L6 Evaluate: Check a plan","slide": "A written plan with one heater high in a corner, no thermostat, and routed beside a cable bundle.","notes": "Learners find the faults in the plan and rank them. Praise any who notice the missing control. Make clear that installing or changing equipment is for qualified people under local rules."},
+{"title": "L7 Create: Brief for a new site","slide": "Blank one-page brief template: climate, load pattern, plan, placement, review date.","notes": "Each learner fills a brief for an outdoor roadside cabinet they invent. Collect and share two good ones. Close by repeating the safety note about qualified people."}
+],
+"rubric": [
+{"criterion": "Explaining condensation","not_yet": "Says water leaks in or gives no cause.","meets": "Explains that air cools below its saturation point and drops water on cold metal.","exceeds": "Uses a worked temperature example and names the riskiest times of day."},
+{"criterion": "Deciding if heating is needed","not_yet": "Guesses without using any figure.","meets": "Uses the humidity rule and the loss guide to decide.","exceeds": "Combines humidity, load pattern and idle periods and cites the maker data."},
+{"criterion": "Placing heaters","not_yet": "Puts a single heater anywhere, or near cables.","meets": "Places several small heaters low, on a thermostat, clear of cables.","exceeds": "Adapts the layout to sliding units and explains each choice."},
+{"criterion": "Safe working attitude","not_yet": "Suggests working on equipment without mention of who may do it.","meets": "States that qualified people following local rules do the work.","exceeds": "Also notes when to ask the maker or a supervisor before changing a plan."}
+],
+"jobs": [
+{"role": "Panel builder","what": "Builds and fits out boards and chooses heating so they stay dry in service."},
+{"role": "Maintenance technician","what": "Inspects boards for damp, checks heaters and reports problems to the right people."},
+{"role": "Electrical designer","what": "Plans enclosures and heating for different climates and load patterns."},
+{"role": "Site supervisor","what": "Makes sure boards on outdoor and idle sites get the right protection and checks."}
+]
+}

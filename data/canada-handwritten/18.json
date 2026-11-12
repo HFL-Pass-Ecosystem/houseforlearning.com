@@ -1,0 +1,197 @@
+{
+ "price": [
+  180,
+  120,
+  9000,
+  "tonne"
+ ],
+ "mods": {
+  "1": {
+   "title": "Understand waste streams and remediation",
+   "intro": "Waste comes as household, business, construction and hazardous streams. Remediation cleans contaminated land or water.",
+   "pts": [
+    "Know the hierarchy: reduce, reuse, recycle, recover, dispose.",
+    "Measure a stream: tonnes, composition, sources.",
+    "Choose materials that have a market where you are; a material nobody buys is a cost, not a product.",
+    "Pick a niche: construction waste, organics, e-waste, site clean-up.",
+    "Sort a sample into wood, metal, drywall, plastics and organics, and weigh each.",
+    "Find who buys each recovered material and what contamination limit they set.",
+    "Estimate haul distance, because long distances can erase the value of a material."
+   ],
+   "ex": "A building site produces 60 t of waste; sorting could divert 70%, which is 42 t, leaving 18 t for landfill. If disposal costs 100 per tonne, diverting 42 t avoids 4,200, before the cost of sorting.",
+   "act": "Sample and weigh a waste stream.",
+   "std": "Build the composition table."
+  },
+  "2": {
+   "title": "Know environmental and handling rules",
+   "intro": "Waste is heavily regulated.",
+   "pts": [
+    "Provincial approvals are required for waste handling, transport and processing.",
+    "Hazardous waste needs manifests and licensed carriers.",
+    "Contaminated sites follow assessment and clean-up standards with qualified professionals.",
+    "Worker safety training and protective gear are mandatory.",
+    "Learn that the definition of hazardous waste varies by province; check the provincial rule.",
+    "Keep a training record for each worker, with date and topic.",
+    "For contaminated sites, require an assessment report from a qualified professional before work starts."
+   ],
+   "ex": "Row: 'Haul hazardous waste | provincial environment ministry | licence and manifest | each load | manifest copies'. A second row: 'Operate a transfer site | provincial environment ministry | approval | before opening | approval letter'. Date each source.",
+   "act": "Build a rules table.",
+   "std": "Cite a source and a date for every row."
+  },
+  "3": {
+   "title": "Plan collection, sorting and treatment",
+   "intro": "Flow design decides cost.",
+   "pts": [
+    "Route collection; sort at source if possible.",
+    "Design the sorting line and storage.",
+    "Test contamination levels by customer to see who needs help sorting.",
+    "Record every load with date, source, weight and condition.",
+    "Place labelled bins where waste is made, using pictures as well as words.",
+    "Size storage for a week of peak flow and keep fire separation between piles.",
+    "Weigh the contaminants in ten sample loads."
+   ],
+   "ex": "Contamination is 18% in mixed loads and 6% with source sorting. In a 50 t load that is 9 t versus 3 t, so source sorting removes 6 t of contamination.",
+   "act": "Design a sorting flow.",
+   "std": "Draw a flow diagram with limits."
+  },
+  "4": {
+   "title": "Cost per tonne and revenue",
+   "intro": "Gate fees plus material sales.",
+   "pts": [
+    "List costs: collection, labour, equipment and disposal.",
+    "Add revenue per tonne from collection fees, gate fees and material sales.",
+    "Work out margin per tonne as price minus cost.",
+    "Work out break-even tonnes as fixed cost divided by margin per tonne.",
+    "Work out cost per tonne from trucks, fuel, labour and tipping fees divided by tonnes handled.",
+    "Check how much revenue depends on recovered-material prices, since those can fall.",
+    "Test a price fall, since recovered-material prices change."
+   ],
+   "ex": "Price 180 per tonne; cost 120; margin 60; fixed cost 540,000 a year gives 540,000 / 60 = 9,000 t. If the price falls 10% to 162, margin is 42 and break-even rises to 540,000 / 42 = about 12,857 t. Teaching figures in CAD.",
+   "act": "Build a cost sheet with price fall.",
+   "std": "Show the cases."
+  },
+  "5": {
+   "title": "Operate safely and measure",
+   "intro": "Keep records.",
+   "pts": [
+    "Weigh loads in and recovered material out so the tonnes balance.",
+    "Keep protective gear checked and in good condition for every worker.",
+    "Keep spill kits stocked and run spill and fire drills.",
+    "Report the diversion rate to management each month.",
+    "Weigh every load and keep a scale ticket with date, vehicle and weight.",
+    "Hold a daily briefing on hazards, protective gear, who is on site and exits.",
+    "Compute diversion rate as diverted tonnes divided by total tonnes."
+   ],
+   "ex": "This month 400 t came in and 272 t were diverted, so the rate is 272 / 400 = 68%. Last month's rate was 61%. The change is 7 percentage points; write the cause.",
+   "act": "Keep a 4-week operations log.",
+   "std": "Compute rates."
+  },
+  "6": {
+   "title": "Win contracts and partners",
+   "intro": "Win with compliance and price.",
+   "pts": [
+    "Look for municipal and commercial tenders that match your permits.",
+    "Collect references from past clients.",
+    "Offer certified reporting of tonnes diverted.",
+    "Track bids, shortlists and wins.",
+    "Read each tender for scoring weights, mandatory forms and reporting duties.",
+    "Prepare references that show outcomes such as tonnes diverted.",
+    "Price with a margin and a fuel-escalation clause."
+   ],
+   "ex": "Funnel: 15 bids, 4 shortlists, 2 wins. Shortlist rate is 4 / 15 = 27%, win rate from shortlist is 2 / 4 = 50%, and overall 2 / 15 = 13%.",
+   "act": "Prepare a tender response.",
+   "std": "Complete the response."
+  },
+  "7": {
+   "title": "Manage contamination, community and liability risk",
+   "intro": "Harm lasts.",
+   "pts": [
+    "Expect odour, noise and traffic complaints and plan controls for each.",
+    "Plan for fire at storage areas.",
+    "Understand financial assurance: security a regulator may require to cover clean-up if you fail.",
+    "Keep insurance current for pollution, property and liability.",
+    "Keep a complaint log with date, type, response and closing date.",
+    "Reduce fire risk with separate piles, temperature checks, extinguishers and fire-truck access.",
+    "Check that insurance covers pollution and check the provincial financial-assurance rule."
+   ],
+   "ex": "Risk: 'Storage fire | 2 x 5 | spacing, detection | site lead | monthly'. The score is 2 x 5 = 10; low likelihood but severe impact, so controls are checked monthly.",
+   "act": "Write a risk register.",
+   "std": "Name an owner for each item."
+  },
+  "8": {
+   "title": "Pilot a stream",
+   "intro": "Prove one stream.",
+   "pts": [
+    "Run the pilot for 60 days.",
+    "Measure diversion rate and cost per tonne.",
+    "Stop rule: contamination over 15% means fix.",
+    "Plan to scale only if the stream passes the stop rule.",
+    "Choose one stream, such as clean wood from three sites.",
+    "Weigh in, sort and weigh out, and keep the tickets.",
+    "Report results to the buyer and ask what they want improved."
+   ],
+   "ex": "Contamination 8%: in 25 t that is 2 t. The stop line of 15% would be 3.75 t (25 x 0.15), so the pilot passes and you proceed to plan scale.",
+   "act": "Run pilot review.",
+   "std": "Review has decision."
+  }
+ },
+ "quiz": [
+  [
+   "List the waste hierarchy.",
+   "Reduce, reuse, recycle, recover, dispose.",
+   1
+  ],
+  [
+   "What is a manifest?",
+   "A document tracking hazardous waste.",
+   2
+  ],
+  [
+   "What is diversion rate?",
+   "Share kept from landfill.",
+   5
+  ],
+  [
+   "Why sort at source?",
+   "Lower contamination.",
+   3
+  ],
+  [
+   "Who approves waste operations?",
+   "The provincial environment authority, under the provincial rule.",
+   2
+  ],
+  [
+   "Why financial assurance?",
+   "Clean-up cost if the operator fails.",
+   7
+  ],
+  [
+   "What is a gate fee?",
+   "Fee for accepting waste.",
+   4
+  ],
+  [
+   "What triggers a fix?",
+   "Contamination over 15%.",
+   8
+  ],
+  [
+   "Why drills?",
+   "Spills and fires need quick response.",
+   5
+  ],
+  [
+   "Who assesses contaminated sites?",
+   "Qualified professionals following standards.",
+   2
+  ]
+ ],
+ "jobs": [
+  "Waste technician",
+  "Recycling operator",
+  "Environmental technician",
+  "Remediation coordinator",
+  "Waste company owner"
+ ]
+}

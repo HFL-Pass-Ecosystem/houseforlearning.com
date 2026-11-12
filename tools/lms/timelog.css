@@ -1,0 +1,26 @@
+/* My learning time (timelog.html, assets/time-log.js) */
+.tl-form,.tl-goal{margin:0 0 16px}
+.tl-row{display:flex;flex-wrap:wrap;gap:0 16px;align-items:flex-end}
+.tl-row .btn{margin:8px 0}
+.tl-form .au-f input[type=date],.tl-form .au-f select,.tl-goal .au-f input{width:100%;box-sizing:border-box;padding:10px;border:1px solid #c9c4b4;border-radius:8px;font:inherit;background:#fff;color:inherit}
+.tl-msg:empty,.tl-undo:empty{display:none}
+.tl-week{list-style:none;margin:12px 0;padding:0}
+.tl-dayrow{display:grid;grid-template-columns:7.5em minmax(0,1fr) 4.5em auto;align-items:center;gap:4px 10px;padding:6px 0;border-bottom:1px solid #e1dccb}
+.tl-dayrow.tl-today .tl-name{font-weight:700}
+.tl-name{font-size:.9rem}
+.tl-track{display:block;height:14px;background:rgba(15,133,219,.12);border-radius:7px;overflow:hidden;min-width:0}
+.tl-fill{display:block;height:100%;width:0;background:#0f85db;border-radius:7px;transition:width .3s}
+.tl-num{font-variant-numeric:tabular-nums;font-size:.9rem;text-align:right}
+.tl-what{grid-column:1/-1;font-size:.85rem;opacity:.8;overflow-wrap:anywhere}
+.tl-rm{justify-self:end}
+.tl-dayrow:not(:has(.tl-rm)) .tl-num{grid-column:3/5}
+.tl-sum{margin:12px 0}
+.tl-total{font-weight:700;margin:0}
+.tl-prog{max-width:none;height:10px}
+.tl-streak{margin:8px 0 0}
+.tl-met{color:#2a8a45}
+.tl-undo .acc-msg{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.tl-table table{width:100%;border-collapse:collapse}
+.tl-table th,.tl-table td{text-align:left;padding:6px 8px;border-bottom:1px solid #e1dccb}
+@media(max-width:520px){.tl-dayrow{grid-template-columns:3.5em minmax(0,1fr) 4em}.tl-rm{grid-column:1/-1;justify-self:start}.tl-dayrow:not(:has(.tl-rm)) .tl-num{grid-column:auto}}
+@media(prefers-reduced-motion:reduce){.tl-fill{transition:none}}

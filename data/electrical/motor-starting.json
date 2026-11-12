@@ -1,0 +1,64 @@
+{
+"task": "Tell a normal motor start from a heavy one and explain what a heavy start changes in the circuit design.",
+"condition": "Given running current, start time and start current figures for a motor, with design and any work done only by qualified people following local rules and the motor maker's data.",
+"standard": "The learner classifies a start as normal or heavy from its time and current, and names the circuit parts that must be chosen for the longer, hotter start.",
+"modules": [
+{"title": "The surge at start","bloom": "Understand: Describe","minutes": 15,
+"intro": "A stopped motor draws a very large current, because it has not yet built up speed. That is why the current jumps at the start and falls once it is up to speed.",
+"points": ["With direct-on-line starting (switching the motor straight onto the supply), current can reach about six times the running value.","The surge lasts only as long as it takes the motor to speed up, usually a few seconds.","Normal protection is chosen so this brief surge does not trip it."],
+"example": "Take an example motor that draws 18 A when running. At a direct-on-line start it can draw about 6 times that, so 6 × 18 = 108 A. If it reaches full speed in 4 seconds, the circuit sees 108 A for only 4 seconds and then 18 A. A supply that copes with 18 A all day must also cope with 108 A for 4 seconds. Check the real figure with the motor maker, since 6 is a typical guide only.",
+"activity": "Take three running currents from motor labels you can read about (for example 7 A, 18 A, 42 A). Multiply each by 6 and write the likely start current.",
+"standard": "Learner multiplies running current by the guide factor and states the surge duration idea correctly."},
+{"title": "What makes a start heavy","bloom": "Apply: Classify","minutes": 15,
+"intro": "Three things describe a start: how long, how high and how often. A start is heavy when its time or its current goes past the normal range.",
+"points": ["As a teaching guide (example values), a start is heavy if it lasts roughly 5 to 30 seconds, or the current is above six times running current, or both.","Heavy loads often have a lot of spinning mass, such as large fans and centrifuges.","Ask the machine owner and the motor maker for starting data instead of guessing."],
+"example": "Start A: 4 s at 6 times running current. It is under 5 s and not over 6 times, so it counts as a normal start. Start B: 22 s at 5 times running current. The time is inside the 5 to 30 s range, so it is heavy. Start C: 8 s at 7 times running current. The current is over 6 times, so it is heavy. So out of three starts, two are heavy. Note that Start B is heavy even though its current is below 6 times.",
+"activity": "Build a table of four invented starts with time and current multiple. Mark each normal or heavy and write the reason.",
+"standard": "Learner classifies each start by the time and current rules and gives the reason."},
+{"title": "Why it matters for the circuit","bloom": "Analyse: Compare","minutes": 15,
+"intro": "Heat in a conductor grows with the square of the current and with time. A long start is far hotter than a short one at the same current.",
+"points": ["Heating is roughly proportional to current squared times time.","The overload protection must be chosen so it copes with the normal start without nuisance tripping while still protecting the motor, and the contacts, wiring and protection must be chosen to match. A qualified person does this from the maker's data.","A longer start therefore asks more of every part in the main circuit."],
+"example": "Use the 108 A start current. For 4 s the heating figure is 108 × 108 × 4 = 46,656. For 20 s it is 108 × 108 × 20 = 233,280. Divide: 233,280 ÷ 46,656 = 5. So the 20 s start puts five times the heat into the same cable and contacts. The figures are relative numbers for comparison, not real temperatures. This is why a heavy start needs its own design choices.",
+"activity": "Compare two starts of your choice with different times at the same current. Calculate the ratio of their heating figures and write one sentence on what it means.",
+"standard": "Learner computes the ratio correctly and links it to stronger parts for a heavy start."},
+{"title": "Repeated starts","bloom": "Evaluate: Judge","minutes": 15,
+"intro": "Each start adds heat, and parts need time to cool. A machine that starts often is a special case.",
+"points": ["The allowed number of starts per hour is limited and assumes a standard room temperature.","Between starts, cables and switching devices must cool down.","Frequent starts or a hot room call for a separate design check with the maker."],
+"example": "A fan starts 3 times an hour, each start 20 s at 108 A, heating figure 233,280 each. Total for the hour is 3 × 233,280 = 699,840. A second fan on a different duty starts 12 times an hour with 4 s starts, heating 46,656 each. Total is 12 × 46,656 = 559,872. So the first fan, with fewer starts, puts more heat into the circuit per hour than the second. Count the total, do not just count starts. All figures are worked-example values.",
+"activity": "Invent a machine that starts 6 times an hour. Compute its hourly heating figure for a 10 s start at 80 A and say whether it needs a special check.",
+"standard": "Learner totals heat per hour for repeated starts and decides if a special design check is needed."}
+],
+"quiz": [
+{"q": "Roughly how many times running current can a motor draw at a direct-on-line start?","a": "About six times.","module": 1},
+{"q": "A motor runs at 18 A. What start current does the six-times guide give?","a": "108 A.","module": 1},
+{"q": "What happens to the current once the motor reaches full speed?","a": "It falls to the normal running value.","module": 1},
+{"q": "A start lasts 22 s at 5 times running current. Normal or heavy?","a": "Heavy, because the time is within roughly 5 to 30 seconds.","module": 2},
+{"q": "A start lasts 8 s at 7 times running current. Normal or heavy?","a": "Heavy, because the current is above six times.","module": 2},
+{"q": "Name two kinds of machine that often have heavy starts.","a": "Large fans and centrifuges, because of their spinning mass.","module": 2},
+{"q": "Why is a 20 s start hotter than a 4 s start at the same current?","a": "Heating grows with time, so 20 s gives five times the heat.","module": 3},
+{"q": "Why does a heavy start need its protection chosen for it, rather than reusing a normal-start choice?","a": "A normal-start choice could trip during the start, so a qualified person must choose protection and main circuit parts for the longer start.","module": 3},
+{"q": "Why does the number of starts per hour matter?","a": "Each start adds heat and the parts need time to cool.","module": 4},
+{"q": "When should a frequent-start machine get a separate design check?","a": "When starts are often or the room is hot, so the standard limit may not apply.","module": 4}
+],
+"ladder": [
+{"title": "L1 Basic: Why the lights dip","slide": "Simple picture of a large fan starting and a lamp flickering briefly.","notes": "Open with the everyday sign of a big start. Ask what might cause the brief dip. Keep it concrete."},
+{"title": "L2 Explain: Six times running","slide": "Graph showing a tall spike falling to a flat line over a few seconds.","notes": "Explain the surge. Work 6 × 18 = 108 A on the board. Say that six is a guide and the maker data is the source."},
+{"title": "L3 Apply: Normal or heavy","slide": "Table of three starts: 4 s at 6 times, 22 s at 5 times, 8 s at 7 times.","notes": "Have learners classify each. Point out that the 22 s start is heavy even with lower current."},
+{"title": "L4 Analyse: Heat grows with time","slide": "Bar chart of 46,656 and 233,280 heating figures with a ratio of five.","notes": "Show the working. Stress these are relative figures only. Ask what parts get hotter."},
+{"title": "L5 Design: What must change","slide": "A circuit sketch with overload setting, contacts and wiring labelled and question marks.","notes": "Learners list which parts must be chosen for the long start. Remind them that the design and any work belongs to qualified people following local rules."},
+{"title": "L6 Evaluate: Repeated starts","slide": "Two fans: 3 long starts an hour and 12 short starts an hour.","notes": "Compare totals 699,840 and 559,872. Ask which is the harder duty and why. Discuss the limit on starts per hour."},
+{"title": "L7 Create: Duty sheet","slide": "Blank sheet: machine, running A, start time, start multiple, starts per hour, verdict.","notes": "Each learner fills a sheet for an invented machine and swaps with a partner to check. End by naming who to ask: machine owner and motor maker."}
+],
+"rubric": [
+{"criterion": "Describing the start surge","not_yet": "Thinks current is the same at start and running.","meets": "States the surge is about six times running and brief.","exceeds": "Calculates the surge for a given motor and notes the figure is a guide."},
+{"criterion": "Classifying starts","not_yet": "Classifies by guess.","meets": "Uses time and current rules correctly.","exceeds": "Handles mixed cases and explains why time alone can make a start heavy."},
+{"criterion": "Linking start to circuit design","not_yet": "Does not connect the start to cable or protection choices.","meets": "Explains that a long start heats parts and they must be chosen for it.","exceeds": "Uses the heating ratio to justify the point with numbers."},
+{"criterion": "Safe working attitude","not_yet": "Suggests changing settings without checks.","meets": "Says design and settings are for qualified people with maker data.","exceeds": "Also lists who to ask before accepting a heavy duty."}
+],
+"jobs": [
+{"role": "Controls engineer","what": "Chooses starting methods and protection for motors on plant and machines."},
+{"role": "Maintenance electrician","what": "Keeps motor circuits healthy and spots signs of overheating from heavy duty."},
+{"role": "Mechanical engineer","what": "Specifies fans, pumps and machines and supplies the data that sets the start type."},
+{"role": "Commissioning technician","what": "Proves that a motor circuit starts and runs as designed, following the site rules."}
+]
+}

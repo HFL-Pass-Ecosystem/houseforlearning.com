@@ -1,0 +1,309 @@
+{
+"overrides": [
+{
+"k": "mx",
+"slug": "senior-at-home-care",
+"price": 240,
+"cost": 160,
+"fixed": 12000
+},
+{
+"k": "ge",
+"slug": "bpo",
+"price": 5,
+"cost": 3,
+"fixed": 400,
+"unit": "tasks"
+},
+{
+"k": "ge",
+"slug": "car-charging-stations",
+"price": 90,
+"cost": 40,
+"fixed": 2500
+},
+{
+"k": "ge",
+"slug": "digital-marketing",
+"price": 68,
+"cost": 45,
+"fixed": 1000,
+"unit": "billable hours"
+},
+{
+"k": "ge",
+"slug": "lead-generation-small-business",
+"price": 24,
+"cost": 10,
+"fixed": 600
+},
+{
+"k": "ge",
+"slug": "online-medical-supply",
+"price": 360,
+"cost": 246,
+"fixed": 3500
+},
+{
+"k": "ge",
+"slug": "online-tutoring",
+"price": 120,
+"cost": 45,
+"fixed": 2400
+},
+{
+"k": "ge",
+"slug": "p2p-lending-platform",
+"price": 30,
+"cost": 10,
+"fixed": 2400
+},
+{
+"k": "ge",
+"slug": "senior-at-home-care",
+"price": 24,
+"cost": 17,
+"fixed": 600
+},
+{
+"k": "ge",
+"slug": "solar",
+"price": 180,
+"cost": 75,
+"fixed": 3200
+},
+{
+"k": "ge",
+"slug": "veterinarian-business",
+"price": 90,
+"cost": 60,
+"fixed": 1500
+},
+{
+"k": "ge",
+"slug": "wind-energy",
+"price": 450,
+"cost": 300,
+"fixed": 4800
+}
+],
+"fixes": [
+{
+"k": "mx",
+"slug": "senior-at-home-care",
+"found": "Hourly MXN 360 monthly package",
+"fix": "Hourly MXN 240 monthly package",
+"issue": "price"
+},
+{
+"k": "mx",
+"slug": "senior-at-home-care",
+"found": "Wage MXN 200 travel MXN 40 insurance MXN 20 training MXN 20: cost MXN 280; price MXN 360 leaves MXN 80 per hour.",
+"fix": "Wage MXN 100 travel MXN 30 insurance MXN 15 training MXN 15: cost MXN 160; price MXN 240 leaves MXN 80 per hour.",
+"issue": "price"
+},
+{
+"k": "mx",
+"slug": "bpo",
+"found": "team of 3 at MXN 120,000 per month",
+"fix": "team of 3 at MXN 60,000 per month",
+"issue": "price"
+},
+{
+"k": "mx",
+"slug": "bpo",
+"found": "Staff MXN 80,000 per month for 2000 tasks, tools MXN 8,000 checks MXN 8,000: cost MXN 96,000; price MXN 60 per task gives MXN 120,000 and leaves MXN 24,000.",
+"fix": "Staff MXN 40,000 per month for 2000 tasks, tools MXN 8,000 checks MXN 8,000: cost MXN 56,000; price MXN 40 per task gives MXN 80,000 and leaves MXN 24,000.",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "bpo",
+"found": "team of 3 at GEL 18,000 per month;",
+"fix": "team of 3 at GEL 7,500 per month;",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "bpo",
+"found": "Per task GEL 6;",
+"fix": "Per task GEL 3;",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "bpo",
+"found": "Staff GEL 12,000 per month for 2000 tasks, tools GEL 1,200 checks GEL 1,200: cost GEL 14,400;",
+"fix": "Staff GEL 5,000 per month for 2000 tasks, tools GEL 500 checks GEL 500: cost GEL 6,000;",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "bpo",
+"found": "price GEL 9 per task gives GEL 18,000 and leaves GEL 3,600.",
+"fix": "price GEL 5 per task gives GEL 10,000 and leaves GEL 4,000.",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "car-charging-stations",
+"found": "Sell at GEL 120 per 100 kWh, pay GEL 75: margin GEL 45 per 100 kWh.",
+"fix": "Sell at GEL 90 per 100 kWh, pay GEL 40: margin GEL 50 per 100 kWh.",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "car-charging-stations",
+"found": "400 kWh per day is 4 lots x GEL 45 = GEL 180 per day;",
+"fix": "400 kWh per day is 4 lots x GEL 50 = GEL 200 per day;",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "car-charging-stations",
+"found": "GEL 72,000 / GEL 180 = 400 days.",
+"fix": "GEL 72,000 / GEL 200 = 360 days.",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "digital-marketing",
+"found": "Scope of 40 hours a month at GEL 75 costs GEL 3,000;",
+"fix": "Scope of 40 hours a month at GEL 45 costs GEL 1,800;",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "digital-marketing",
+"found": "a monthly fee of GEL 4,500 leaves GEL 1,500.",
+"fix": "a monthly fee of GEL 2,700 leaves GEL 900.",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "online-medical-supply",
+"found": "Item GEL 180 import GEL 18 storage GEL 12 delivery GEL 30 returns GEL 15 fee GEL 9: landed GEL 264;",
+"fix": "Item GEL 180 import GEL 18 storage GEL 12 delivery GEL 12 returns GEL 15 fee GEL 9: landed GEL 246;",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "online-medical-supply",
+"found": "price GEL 360 leaves GEL 96.",
+"fix": "price GEL 360 leaves GEL 114.",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "online-tutoring",
+"found": "Group of 6 at GEL 60 earns GEL 360 per hour;",
+"fix": "Group of 6 at GEL 20 earns GEL 120 per hour;",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "online-tutoring",
+"found": "one-to-one at GEL 120 earns GEL 120.",
+"fix": "one-to-one at GEL 50 earns GEL 50.",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "online-tutoring",
+"found": "group of 6 at GEL 60 earns GEL 360: margin GEL 315 per hour before costs.",
+"fix": "group of 6 at GEL 20 earns GEL 120: margin GEL 75 per hour before costs.",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "p2p-lending-platform",
+"found": "Lend GEL 3,000 at 12% = GEL 360;",
+"fix": "Lend GEL 3,000 at 24% = GEL 720;",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "p2p-lending-platform",
+"found": "expect 5% loss = GEL 150 and fee GEL 30: net GEL 180 a 6% return.",
+"fix": "expect 5% loss = GEL 150 and fee GEL 30: net GEL 540 an 18% return.",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "senior-at-home-care",
+"found": "Hourly GEL 54 monthly package GEL 1,500 referral GEL 120 per client: compare income per carer.",
+"fix": "Hourly GEL 24 monthly package GEL 1,500 referral GEL 120 per client: compare income per carer.",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "senior-at-home-care",
+"found": "Wage GEL 30 travel GEL 6 insurance GEL 3 training GEL 3: cost GEL 42;",
+"fix": "Wage GEL 12 travel GEL 3 insurance GEL 1 training GEL 1: cost GEL 17;",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "senior-at-home-care",
+"found": "price GEL 54 leaves GEL 12 per hour.",
+"fix": "price GEL 24 leaves GEL 7 per hour.",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "solar",
+"found": "Cost GEL 30,000 yearly saving GEL 5,400: payback 5.6 years;",
+"fix": "Cost GEL 30,000 yearly saving GEL 4,200: payback 7.1 years;",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "solar",
+"found": "after GEL 390;",
+"fix": "after GEL 310;",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "solar",
+"found": "saving GEL 270 per month, GEL 3,240 per year.",
+"fix": "saving GEL 350 per month, GEL 4,200 per year.",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "veterinarian-business",
+"found": "Clinic GEL 105 per visit after rent, mobile GEL 84 partner service GEL 36: compare by visits per day.",
+"fix": "Clinic GEL 60 per visit after rent, mobile GEL 50 partner service GEL 20: compare by visits per day.",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "veterinarian-business",
+"found": "Vet GEL 54 nurse GEL 18 supplies GEL 15 rent share GEL 18: cost GEL 105;",
+"fix": "Vet GEL 24 nurse GEL 9 supplies GEL 15 rent share GEL 12: cost GEL 60;",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "veterinarian-business",
+"found": "a fee of GEL 165 leaves GEL 60.",
+"fix": "a fee of GEL 90 leaves GEL 30.",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "wind-energy",
+"found": "at GEL 450 per 1000 kWh income is GEL 98,550;",
+"fix": "at GEL 250 per 1000 kWh income is GEL 54,750;",
+"issue": "price"
+},
+{
+"k": "ge",
+"slug": "wind-energy",
+"found": "payback GEL 750,000 / GEL 98,550 = 7.6 years.",
+"fix": "payback GEL 750,000 / GEL 54,750 = 13.7 years, which fails the go rule of under 10 years, so the answer is no-go. To pass: cut the turbine cost to GEL 500,000 (500,000 / 54,750 = 9.1 years) or raise the yield to GEL 80,000 a year (750,000 / 80,000 = 9.4 years).",
+"issue": "price"
+}
+]
+}

@@ -1,0 +1,197 @@
+{
+ "price": [
+  150,
+  25,
+  300,
+  "hour"
+ ],
+ "mods": {
+  "1": {
+   "title": "Understand what clients need from financial services",
+   "intro": "Clients seek planning, tax, insurance, credit and investing advice.",
+   "pts": [
+    "Know the service lines and who can offer each.",
+    "Interview five clients on their goals and worries.",
+    "Choose a niche such as newcomers, students or small businesses.",
+    "Write a service sheet.",
+    "Separate education from advice: explaining a savings account differs from recommending a product; check the provincial rule on what needs registration.",
+    "Ask what worries each client most and record it in their own words.",
+    "List what you will not do and where you refer those clients."
+   ],
+   "ex": "Newcomers need credit history, tax filing and savings plans in their first year. A newcomer who earns 3,000 a month and saves 300 has a savings rate of 300 / 3,000 = 10%, a starting point for a plan.",
+   "act": "Interview five people and write a service sheet.",
+   "std": "Record needs."
+  },
+  "2": {
+   "title": "Know registration and conduct rules",
+   "intro": "Financial advice is regulated.",
+   "pts": [
+    "Provincial securities, insurance and mortgage regulators license advisers.",
+    "Know-your-client and suitability duties usually require documented advice; check the rule that applies to your registration.",
+    "Anti-money-laundering rules require identifying clients and reporting suspicious activity; check which apply to your registration.",
+    "Privacy law covers client records.",
+    "Write a one-page conduct code covering honesty, disclosure and putting the client first.",
+    "Know when to refer: complex tax, legal questions, or products outside your registration.",
+    "Store client records securely and keep them for the period the regulator requires; check the provincial rule."
+   ],
+   "ex": "Row: 'Recommend a fund | provincial securities regulator | registration and suitability record | each advice | file note'. A second row: 'Share client data | privacy law | written consent | before sharing | consent form'. Date each source.",
+   "act": "Build a rules table.",
+   "std": "Cite a source and a date for every row."
+  },
+  "3": {
+   "title": "Build a plan and explain it",
+   "intro": "Plain-language plans win trust.",
+   "pts": [
+    "Collect the client's goals, income, costs, debts and assets.",
+    "Compute net worth and savings rate.",
+    "Set action steps with dates.",
+    "Explain the risks and fees in the plan in plain words.",
+    "Compute net worth as assets minus debts for the fictional client.",
+    "Build a monthly budget with income, fixed costs, flexible costs and savings.",
+    "Set an emergency fund target of three months of costs."
+   ],
+   "ex": "Income 4,000, costs 3,200; savings are 800 and the savings rate is 800 / 4,000 = 20%. Three months of costs is 3 x 3,200 = 9,600, which takes 9,600 / 800 = 12 months to save.",
+   "act": "Build a plan for a fictional client.",
+   "std": "Check the numbers."
+  },
+  "4": {
+   "title": "Price the service",
+   "intro": "Fees must be clear.",
+   "pts": [
+    "Choose a fee model: hourly, fixed or percentage; check the provincial rule on what your registration allows.",
+    "Disclose all costs and fees to the client in writing before work starts.",
+    "Track your time on each client file.",
+    "Work out break-even hours as fixed cost divided by margin per hour.",
+    "Compare fee models: 20 hours at 150 is 3,000, against a fixed fee of 2,800.",
+    "Write a fee schedule that lists what is included.",
+    "Track time in 15-minute blocks and review the price each quarter."
+   ],
+   "ex": "Fee 150 per hour; cost 25; margin 125; fixed cost 3,000 a month gives 3,000 / 125 = 24 hours. At 20 billable hours the margin is 20 x 125 = 2,500, which is 500 short. Teaching figures in CAD.",
+   "act": "Build a fee sheet.",
+   "std": "Write the disclosure."
+  },
+  "5": {
+   "title": "Run records and reviews",
+   "intro": "Keep files complete.",
+   "pts": [
+    "Keep a checklist for every client file.",
+    "Review each client's plan every year.",
+    "Have a written complaints process.",
+    "Arrange supervision or peer review of your files.",
+    "Make a client-file checklist and tick each item.",
+    "Put the annual review date in the file and the calendar.",
+    "Write complaint steps: acknowledge, investigate, answer in writing."
+   ],
+   "ex": "Audit of five mock files: 4 had suitability notes, 1 did not, so 80% were complete. After the checklist was introduced, 5 of 5 (100%) had notes.",
+   "act": "Audit five mock files.",
+   "std": "List gaps."
+  },
+  "6": {
+   "title": "Win clients ethically",
+   "intro": "Trust grows from help.",
+   "pts": [
+    "Win clients through referrals and community talks.",
+    "Publish free guides in plain language.",
+    "End every contact with a clear next step.",
+    "Track talks, meetings and clients.",
+    "Give a talk to a community group on one topic, such as a first tax filing, without selling a product.",
+    "Offer a free first meeting of 30 minutes with a written agenda.",
+    "Send a written summary within two days."
+   ],
+   "ex": "Funnel: 30 talks, 8 meetings, 3 clients. Meeting rate is 8 / 30 = 27%, client rate is 3 / 8 = 37.5%, and overall 3 / 30 = 10%.",
+   "act": "Give a short talk.",
+   "std": "Record feedback."
+  },
+  "7": {
+   "title": "Manage conflict, fraud and market risk",
+   "intro": "Protect clients.",
+   "pts": [
+    "Disclose conflicts of interest before giving advice.",
+    "Learn the signs of fraud and what to do when you see them.",
+    "Never promise investment returns.",
+    "Have a business continuity plan.",
+    "Teach clients common scams: urgent payment demands, gift-card requests and promised returns; tell them to verify by calling a known number.",
+    "Write a conflict disclosure statement in plain words.",
+    "Plan continuity: back up files and name a person to call if you are away."
+   ],
+   "ex": "Risk: 'Client scam loss | 3 x 5 | warnings and verification | adviser | quarterly'. The score is 3 x 5 = 15, so it is high priority and reviewed every quarter.",
+   "act": "Write a risk register.",
+   "std": "Name an owner for each item."
+  },
+  "8": {
+   "title": "Pilot with mock clients",
+   "intro": "Practise on fictional clients before you advise real ones.",
+   "pts": [
+    "Run the pilot with mock clients only, with no real client money or advice.",
+    "Have a peer review each plan.",
+    "Stop rule: a plan with missing disclosure fails and must be fixed.",
+    "Reflect on what the reviews showed and write one lesson.",
+    "Prepare three fictional clients with different incomes, such as 2,500, 4,000 and 6,000 a month.",
+    "Ask a peer to play the client and raise a hard question about fees.",
+    "Score each plan against a ten-item checklist."
+   ],
+   "ex": "All three plans passed the disclosure check, which is 3 of 3 (100%). Had one failed, the stop rule says to fix it before any real client.",
+   "act": "Run mock pilot.",
+   "std": "Review has decision."
+  }
+ },
+ "quiz": [
+  [
+   "What is suitability?",
+   "Advice fitting the client's goals, risk and situation.",
+   2
+  ],
+  [
+   "Who regulates advisers?",
+   "Provincial regulators, and in some cases federal bodies; check which applies.",
+   2
+  ],
+  [
+   "What is savings rate?",
+   "Savings divided by income.",
+   3
+  ],
+  [
+   "Why disclose fees?",
+   "Clients must know costs.",
+   4
+  ],
+  [
+   "What is KYC?",
+   "Know your client.",
+   2
+  ],
+  [
+   "Why keep notes?",
+   "Proof of advice.",
+   5
+  ],
+  [
+   "What must you never promise?",
+   "Returns.",
+   7
+  ],
+  [
+   "What is a conflict of interest?",
+   "A situation where your gain may clash with the client's.",
+   7
+  ],
+  [
+   "Why annual reviews?",
+   "Plans must be updated.",
+   5
+  ],
+  [
+   "What triggers fail in the mock?",
+   "Missing disclosure.",
+   8
+  ]
+ ],
+ "jobs": [
+  "Financial services assistant",
+  "Client service officer",
+  "Planner trainee",
+  "Compliance assistant",
+  "Adviser"
+ ]
+}
