@@ -213,7 +213,8 @@
   function pSpecialistOne(n) {
     var s = M.specialist[n - 1]; if (!s) return notFound();
     layout("", '<div class="crumb"><a href="#/specialist">Specialist modules</a></div><h1>' + esc(s.title) + "</h1><p>" + esc(s.blurb) + "</p><p><span class='pill'>" + s.hours + " hours</span><span class='pill'>" + s.ects + " credits (aligned-with)</span></p>" +
-      "<h2>Every module has five parts</h2><ol>" + s.parts.map(function (p) { return "<li>" + esc(p) + "</li>"; }).join("") + "</ol><h2>Assessment</h2><div class='tw'><table><tr><th>Item</th><th>Weight</th></tr>" + s.assess.map(function (a) { return "<tr><td>" + a[0] + "</td><td>" + a[1] + "%</td></tr>"; }).join("") + "</table></div>");
+      "<h2>Every module has five parts</h2><ol>" + s.parts.map(function (p) { return "<li>" + esc(p) + "</li>"; }).join("") + "</ol><h2>Assessment</h2><div class='tw'><table><tr><th>Item</th><th>Weight</th></tr>" + s.assess.map(function (a) { return "<tr><td>" + a[0] + "</td><td>" + a[1] + "%</td></tr>"; }).join("") + "</table></div>" +
+      "<h2>Study the full module</h2><p>The full module, with eight parts, worked examples, ten checks, the seven-level ladder and the marking rubric, is on its own page.</p><p><a class='btn' href='../executive-module-" + (n === 4 ? "3b" : n) + ".html'>Open the full module</a></p>");
   }
   function notFound() { layout("", "<h1>Page not found</h1><p><a href=\"#/\">Back to the dashboard</a></p>"); }
 
