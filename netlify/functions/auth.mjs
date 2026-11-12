@@ -1,4 +1,4 @@
-// POST /api/auth: member Log In, Sign up, Log out, "who am I" and password reset, using Supabase Auth.
+// POST /api/auth: member Log In, Sign up, the emailed code and its one-tap link, Log out, "who am I" and password reset, using Supabase Auth.
 // The browser never sees the keys or the tokens: the session lives in a secure cookie that scripts cannot read.
 // Settings (Netlify environment variables): SUPABASE_URL, SUPABASE_ANON_KEY (the public "anon" key), SITE_ORIGIN (optional).
 import { ok, fail, text, isEmail, readBody } from './_lib.mjs';
@@ -40,20 +40,15 @@ const withCookie = (res, value, age) => {
   return res;
 };
 
-const WAIT = /^[a-f0-9]{32}$/;
-// Pending sign-ins wait in the signin_handoff table (supabase/handoff.sql). Without the table these calls just say "not available".
-async function handoffTable(method, query, body) {
-  const url = process.env.SUPABASE_URL, key = process.env.SUPABASE_SERVICE_KEY;
-  if (!url || !key) return { status: 503, data: null };
-  const r = await fetch(`${url.replace(/\/$/, '')}/rest/v1/signin_handoff${query}`, {
-    method,
-    headers: { apikey: key, Authorization: `Bearer ${key}`, 'Content-Type': 'application/json', Prefer: method === 'POST' ? 'resolution=merge-duplicates,return=minimal' : 'return=representation' },
-    body: body ? JSON.stringify(body) : undefined,
-  });
-  let data = null;
-  try { data = await r.json(); } catch { /* empty body */ }
-  return { status: r.status, data };
-}
+// hfl_asked marks the browser that asked for a code, for 15 minutes. Only there does the one-tap link in the email sign in by
+// itself; anywhere else the page asks for one press first, so a mail scanner that opens links cannot use the code up.
+const ASKED = 'hfl_asked';
+const ASKED_AGE = 15 * 60;
+const askedHere = (req) => new RegExp(`(?:^|; )${ASKED}=1(?:;|$)`).test(req.headers.get('cookie') || '');
+const markAsked = (res, age) => {
+  res.headers.append('Set-Cookie', `${ASKED}=${age > 0 ? '1' : ''}; Path=/; Max-Age=${age}; HttpOnly; Secure; SameSite=Lax`);
+  return res;
+};
 
 async function profile(c, token) {
   const u = await gotrue(c, 'user', null, token);
@@ -83,14 +78,17 @@ export default async (req) => {
     const r = await gotrue(c, 'signup', { email, password, data: { full_name: name } });
     if (r.status >= 500) return fail(502, 'Please try again in a moment');
     // Same answer whether or not the address already exists, so nobody can probe for members.
-    return ok({ message: 'Thank you. If this address can be used, we have sent a message to confirm it. Open it, then log in.' });
+    return markAsked(ok({ message: 'Thank you. If this address can be used, we have sent a message to confirm it. Open it, then log in.' }), ASKED_AGE);
   }
 
   // Which one-tap options are switched on (Netlify variable AUTH_PROVIDERS, for example "google,azure,email").
   const enabled = (process.env.AUTH_PROVIDERS || 'email').split(',').map((v) => v.trim()).filter(Boolean);
   const origin = req.headers.get('origin') || process.env.SITE_ORIGIN || '';
-  const wait = typeof body.wait === 'string' && WAIT.test(body.wait) ? body.wait : '';
-  const back = `${origin}/auth-callback.html${wait ? `?w=${wait}` : ''}`;
+  // Google, Microsoft and any email link come back to this page on the same device only. There is deliberately no
+  // hand-over to a screen waiting on another device: anyone can start a sign-in with someone else's email, so a hand-over
+  // would let them receive that person's sign-in when the person taps the link (owner's rule of 9 Nov: the code is typed
+  // on the screen that asked for it).
+  const back = `${origin}/auth-callback.html`;
 
   if (action === 'config') return ok({ providers: enabled });
 
@@ -109,17 +107,31 @@ export default async (req) => {
         body: JSON.stringify({ email, create_user: true, data: { full_name: text(body.name, 120) } }),
       }).catch(() => {});
     }
-    return ok({ message: 'If this address can be used, we have sent you a link. Open it on this device to come in.' });
+    return markAsked(ok({ message: 'If this address can be used, we have sent a 6-digit code to it. Type the code on this page.' }), ASKED_AGE);
   }
 
-  // The 6-digit code from the same email: lets a member finish on any device.
+  // The 6-digit code from the email, typed or pasted on the screen that asked for it.
   if (action === 'verify') {
     const code = text(body.code, 12).replace(/\s/g, '');
     if (!isEmail(email) || !/^\d{6,10}$/.test(code)) return fail(400, 'Please check the email and the code');
     let r = await gotrue(c, 'verify', { type: 'email', email, token: code });
     if (r.status !== 200 || !r.data.access_token) r = await gotrue(c, 'verify', { type: 'signup', email, token: code });
     if (r.status !== 200 || !r.data.access_token) return fail(401, 'That code did not work or has expired. Please ask for a new one.');
-    return withCookie(ok({ ok: true }), pack(r.data), MAX_AGE);
+    return markAsked(withCookie(ok({ ok: true }), pack(r.data), MAX_AGE), 0);
+  }
+
+  // The one-tap link under the code in the email (owner's rule of 8 Nov: no code typed by hand). It signs in only the browser
+  // that opens it. With auto set, it goes ahead only in the browser that asked for the code; anywhere else the answer is
+  // { ask: true }, the page asks for one press, and the code is not used up.
+  if (action === 'confirm') {
+    const th = text(body.token_hash, 200);
+    if (!/^[A-Za-z0-9_-]{10,200}$/.test(th)) return fail(400, 'This link did not work. Please ask for a new code.');
+    if (body.auto === true && !askedHere(req)) return ok({ ask: true });
+    let r = await gotrue(c, 'verify', { type: 'email', token_hash: th });
+    if (r.status !== 200 || !r.data.access_token) r = await gotrue(c, 'verify', { type: 'magiclink', token_hash: th });
+    if (r.status !== 200 || !r.data.access_token) r = await gotrue(c, 'verify', { type: 'signup', token_hash: th });
+    if (r.status !== 200 || !r.data.access_token) return fail(401, 'This link has been used or has expired. Please ask for a new code.');
+    return markAsked(withCookie(ok({ ok: true }), pack(r.data), MAX_AGE), 0);
   }
 
   // The page hands over the tokens that came back from Google, Microsoft or an email link.
@@ -129,30 +141,6 @@ export default async (req) => {
     const u = a ? await gotrue(c, 'user', null, a) : { status: 0 };
     if (u.status !== 200) return fail(401, 'That link has expired. Please try again.');
     return withCookie(ok({ ok: true }), pack({ access_token: a, refresh_token: r }), MAX_AGE);
-  }
-
-  // The device that opened the email link leaves the sign-in here for the screen that is waiting.
-  if (action === 'handoff') {
-    const w = typeof body.wait === 'string' ? body.wait : '';
-    const a = typeof body.access_token === 'string' ? body.access_token.slice(0, 4000) : '';
-    const rt = typeof body.refresh_token === 'string' ? body.refresh_token.slice(0, 500) : '';
-    if (!WAIT.test(w) || !a) return fail(400, 'Bad request');
-    const u = await gotrue(c, 'user', null, a);
-    if (u.status !== 200) return fail(401, 'That link has expired. Please try again.');
-    const r = await handoffTable('POST', '', { wait_id: w, access_token: a, refresh_token: rt });
-    return r.status < 300 ? ok({ ok: true }) : fail(503, 'Not available');
-  }
-
-  // The waiting screen asks again every few seconds. A pending sign-in is handed over once, then deleted.
-  if (action === 'poll') {
-    const w = typeof body.wait === 'string' ? body.wait : '';
-    if (!WAIT.test(w)) return fail(400, 'Bad request');
-    const since = new Date(Date.now() - 10 * 60 * 1000).toISOString();
-    const r = await handoffTable('DELETE', `?wait_id=eq.${w}&created_at=gte.${encodeURIComponent(since)}`);
-    if (r.status >= 300) return fail(503, 'Not available');
-    const row = Array.isArray(r.data) ? r.data[0] : null;
-    if (!row) return ok({ pending: true });
-    return withCookie(ok({ ok: true }), pack({ access_token: row.access_token, refresh_token: row.refresh_token }), MAX_AGE);
   }
 
   if (action === 'login') {

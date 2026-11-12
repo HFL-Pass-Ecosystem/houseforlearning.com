@@ -249,7 +249,7 @@ def flips(items):
         h = ''
         lines = -(-len(back) // 38)
         mh = max(190, 60 + lines * 24)
-        out.append(f'<div class="flip" style="min-height:{mh}px"><button type="button" class="flip-in" aria-expanded="false"><span class="flip-f"><h3>{E(t)}</h3><p>{E(p)}</p>{h}</span>'
+        out.append(f'<div class="flip" data-mh="{mh}"><button type="button" class="flip-in" aria-expanded="false"><span class="flip-f"><h3>{E(t)}</h3><p>{E(p)}</p>{h}</span>'
                    f'<span class="flip-b" aria-label="{E(t)}"><p>{E(back)}</p></span></button></div>')
     out.append('</div>')
     return ''.join(out)
@@ -259,7 +259,7 @@ def sectors():
              'Skills, careers and enterprise support for each.',
              btn('join.html', 'Join') + btn('partner.html', 'Partner with us', True))
     m += split('the twelve', 'Pick a sector', flips(SECTORS)
-               + '<ul class="o-mini" style="margin-top:26px">' + ''.join(f'<li><a href="{f}.html">{t}</a></li>' for f, t, p in SECTORS) + '</ul>',
+               + '<ul class="o-mini o-mini-gap">' + ''.join(f'<li><a href="{f}.html">{t}</a></li>' for f, t, p in SECTORS) + '</ul>',
                lead='Twelve sectors, one learning platform.', full=True)
     m += cta('not sure where you fit?', 'Tell us what you do', 'We will point you to the right pathway.',
              btn('join.html', 'Join') + btn('partner.html', 'Partner with us', True) + btn('contact.html', 'Contact', True))
@@ -352,8 +352,8 @@ def how_we_help():
         'Connected-device services and people',
         'Information and communication technology services and people',
         'A full business stack (planning, customers, reporting, office tools) with no-code tools, built on our own interfaces and apps',
-        'An open-standards ecosystem of course and career pathways, joined to a marketplace and a workplace',
-        'Consultancy, channel, business-operations, support and full-service ecosystem',
+        'An open-standards network of course and career pathways, joined to a marketplace and a workplace',
+        'Consultancy, channel, business-operations, support and full-service network',
         'A partner, affiliate and value-provider network in four levels, hub and spoke',
         'Artificial intelligence and machine learning; big data and analytics']), alt=True)
     m += split('career pathways', 'Authoring, training, marketplace and workplace',

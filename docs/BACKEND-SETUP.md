@@ -39,14 +39,36 @@ So GitHub sends the site to the existing Netlify project **houseforlearning** in
 7. In GitHub, open **Actions**, click **Deploy to Netlify**, then **Run workflow** to send the site again with the new settings.
 
 ## Step 3b: member sign-up emails (Supabase)
-1. In Supabase open **Authentication**, then **URL Configuration**. Set **Site URL** to the Netlify preview link (later `https://houseforlearning.com`).
-2. Open **Authentication**, then **Providers**, then **Email**. Keep **Confirm email** on.
+1. In Supabase open **Authentication**, then **URL Configuration**. Set **Site URL** to the Netlify preview link (later
+   `https://houseforlearning.com`), with no slash at the end: the one-tap link in the emails starts with it.
+2. Open **Authentication**, then **Providers**, then **Email**. Keep **Confirm email** on. Set **Email OTP Expiration** to `600` (10 minutes).
+3. Members sign in and sign up with a 6-digit code typed on the same page (owner's rule, 9 Nov 2026: "keep it very simple and
+   within the same pane"). The code must be in the emails, so open **Authentication**, then **Emails** (templates), and set both
+   **Magic link** and **Confirm sign up** as below. The code leads the subject line, so the phone's notification shows it and
+   mail apps offer to copy or fill it. Below the code, a one-tap link signs the member in with no typing (owner's rule of
+   8 Nov 2026). The link opens our own sign-in page, which signs in by itself only in the browser that asked for the code in
+   the last 15 minutes; anywhere else it asks for one press first, so a mail scanner that opens links cannot use the code up.
+   Either way, only the browser where the link is opened is signed in.
+   - Subject: `{{ .Token }} is your sign-in code for House for Learning`
+   - Body:
+     ```html
+     <p>Your sign-in code for House for Learning is:</p>
+     <p><strong style="font-size:30px;letter-spacing:6px">{{ .Token }}</strong></p>
+     <p>Paste or type it on the sign-in page. It works for 10 minutes.</p>
+     <p>Or sign in with one tap, no typing needed: <a href="{{ .SiteURL }}/auth-callback.html?th={{ .TokenHash }}">Sign in to House for Learning</a></p>
+     <p>If you did not ask for this code, you can ignore this email. Nobody from our team will ever ask you for this code.</p>
+     ```
+4. Optional: under **Authentication**, then **Emails**, then **SMTP Settings**, send from an address on houseforlearning.com (for
+   example `House for Learning <no-reply@houseforlearning.com>`), so members see our own name. Never use an address of the
+   Avyra sites here.
 
 ## Step 4: test
 1. Open the Contact page on the preview link, fill in the form, press Send.
 2. You should see "Thank you. Your message has been sent (reference MSG-...)".
 3. In Supabase, open **Table Editor**, then **messages**. Your message is there.
-4. Open **Members login**, sign up, open the email Supabase sends, click the link, then log in. You land on **My page**.
+4. Open **Members login**, sign up with your name and email, type the 6-digit code from the email on the same page. You land on **My page**.
+5. Log out, ask for a new code, and this time press **Sign in to House for Learning** in the email on the same computer. You land on
+   **My page** without typing. Opened on another device, the link first asks "Sign in on this device?".
 
 ## Step 5: point the domain (only when you are happy)
 1. In Netlify: **Domain management**, then **Add a domain**, type `houseforlearning.com`.
@@ -56,5 +78,5 @@ So GitHub sends the site to the existing Netlify project **houseforlearning** in
 ## What each address does
 - `POST /api/messages`: contact form and "write to us" box. Saved in the `messages` table.
 - `POST /api/opinions`: "Was this page useful?" ratings. Saved in the `opinions` table.
-- `POST /api/auth`: member sign up, log in, log out, password reset and My page, using Supabase Auth. Needs `SUPABASE_ANON_KEY`. The session is kept in a secure cookie the page scripts cannot read.
+- `POST /api/auth`: member sign up, log in (with the emailed code, its one-tap link or a password), log out, password reset and My page, using Supabase Auth. Needs `SUPABASE_ANON_KEY`. The session is kept in a secure cookie the page scripts cannot read.
 - `members` table: one row per member, created automatically at sign-up.

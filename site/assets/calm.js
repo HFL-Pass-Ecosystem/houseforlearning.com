@@ -3,6 +3,7 @@
 (function(){
   var REST=600;
   document.querySelectorAll('.flip').forEach(function(c){
+    if(c.dataset.mh)c.style.minHeight=c.dataset.mh+'px';
     var b=c.querySelector('.flip-in'),f=c.querySelector('.flip-f'),k=c.querySelector('.flip-b'),t=null,out=null;
     if(!b||!f||!k)return;
     function set(o){c.classList.toggle('open',o);b.setAttribute('aria-expanded',String(o));k.setAttribute('aria-hidden',String(!o));f.setAttribute('aria-hidden',String(o))}
