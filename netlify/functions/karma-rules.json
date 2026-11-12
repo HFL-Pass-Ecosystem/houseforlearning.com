@@ -1,0 +1,18 @@
+{
+  "_about": "Karma rules shared by all six sites, in the spirit of Karma Yoga from the Bhagavad Gita: points honour right action and effort (doing one's duty well), not results alone. The server reads these; pages never decide points. perDay limits keep it honest; each (member, action, ref) earns once.",
+  "rules": {
+    "visit":    { "points": 1,  "perDay": 1,  "label": "Abhyasa: steady practice, you came back today" },
+    "message":  { "points": 5,  "perDay": 3,  "label": "Reached out to us" },
+    "feedback": { "points": 10, "perDay": 5,  "label": "Shared honest feedback or an idea" },
+    "feeling":  { "points": 1,  "perDay": 3,  "label": "Told us how you feel" },
+    "order":    { "points": 20, "perDay": 5,  "label": "Took a step for your work: an order or a quote" },
+    "join":     { "points": 25, "perDay": 1,  "once": true, "label": "Joined the community" },
+    "lesson":   { "points": 10, "perDay": 20, "label": "Finished a lesson" },
+    "quiz":     { "points": 15, "perDay": 10, "label": "Gave a quiz your full effort (pass or not)" },
+    "course":   { "points": 50, "perDay": 3,  "label": "Completed a course" },
+    "help":     { "points": 15, "perDay": 10, "label": "Seva: helped another member" },
+    "share":    { "points": 5,  "perDay": 5,  "label": "Shared your knowledge or work" }
+  },
+  "levels": [[0, "Shishya", "the learner"], [50, "Sadhaka", "the practitioner"], [150, "Sevak", "the one who serves"],
+             [400, "Karma Yogi", "acts with full effort, unattached to reward"], [1000, "Margdarshak", "the guide"], [2500, "Acharya", "teaches by example"]]
+}
