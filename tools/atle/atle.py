@@ -109,7 +109,12 @@ def head_extra(P, cfg):
     return css, js
 
 def patch_page(txt, path, root, cfg):
-    if MARK + '="ribbon"' in txt or '<body' not in txt: return txt, False
+    if '<body' not in txt: return txt, False
+    # Normalise first: take out any earlier ribbon, strip and head links (a page builder may have copied them from a
+    # skeleton page), then add them once in fixed places. That keeps repeat rebuilds byte-identical.
+    txt = re.sub(r'<link rel="stylesheet" href="[^"]*assets/atle/atle\.css"><script src="[^"]*assets/atle/atle\.js" defer></script>', '', txt)
+    txt = re.sub(r'<div class="atle-rib" ' + MARK + r'="ribbon">.*?</div>', '', txt, flags=re.S)
+    txt = re.sub(r'<div class="atle-foot" ' + MARK + r'="foot">.*?</span></div>', '', txt, flags=re.S)
     P = rel_prefix(path, root) if cfg['mode'] == 'rel' else ''
     css, js = head_extra(P, cfg)
     logo = css.rsplit('/', 1)[0] + '/atle-logo.svg'
