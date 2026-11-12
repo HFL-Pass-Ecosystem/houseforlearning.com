@@ -46,7 +46,9 @@ def write(fn, title, desc, kicker, h1, lead, body):
     if 'learner-hub.js' not in t: t = t.replace('</body>', '<script src="assets/learner-hub.js" defer></script>\n</body>', 1)
     if 'id="sp-app"' in t and 'spaces.js' not in t:
         t = t.replace('</head>', '<link rel="stylesheet" href="assets/spaces.css">\n</head>', 1)
-        t = t.replace('</body>', '<script src="assets/spaces.js" defer></script>\n</body>', 1)
+        t = t.replace('</body>', '<script src="assets/spaces.js" defer></script>\n<script src="assets/spaces-voice.js" defer></script>\n</body>', 1)
+    if fn == 'learning-hub.html' and 'spaces-summary.js' not in t:
+        t = t.replace('</body>', '<script src="assets/spaces-summary.js" defer></script>\n</body>', 1)
     open(os.path.join(SITE, fn), 'w').write(t)
     print(fn, 'written')
 
@@ -70,7 +72,7 @@ write('learning-hub.html', 'Learning hub', 'Your path in one place: courses, liv
   ('PAVER', 'Pick one of five pathways and climb seven levels.', 'paver.html', 'Open PAVER'),
   ('COLLATE', 'Gather notes, links and examples on one shelf.', 'collate.html', 'Open COLLATE'),
   ('LEAP', 'Build a short capsule, step by step.', 'leap.html', 'Open LEAP'),
-  ('LAB', 'Check, approve and publish capsules.', 'lab.html', 'Open LAB')], 'ok')) +
+  ('LAB', 'Check, approve and publish capsules.', 'lab.html', 'Open LAB')], 'ok') + '<div id="sp-summary" class="sp-summary" aria-live="polite"></div>') +
  sec('lh3', 'your roadmap', 'Your learning roadmap', '<p>Progress on the sample path: <strong id="lhp-t">0 of 21 lessons</strong></p><div class="lhbar" role="img" aria-label="progress bar"><i id="lhp-b"></i></div>'
   '<p class="note">The bar is a sample. Your real progress shows once you join a course.</p>' +
   table(['Phase', 'What you do', 'Status'], [
