@@ -62,6 +62,8 @@ def cta(h, p, a, b):
 
 
 BTN = '<a class="btn" href="{}">{}</a>'
+# Known problems shown on the support page: a short title and one sentence. Replace both when a fault is known.
+KNOWN = ("None listed at present", "If a page does not work for you, tell us which page and what you saw.")
 GHOST = '<a class="btn btn-ghost" href="{}">{}</a>'
 
 # ---------------------------------------------------------------- support
@@ -69,8 +71,17 @@ def support():
     main = hero("Support and access", "Help is close, and easy to ask for",
                 "Learning works best when help is easy to find. Here is who supports you, how we make learning accessible, and how to ask for what you need.",
                 BTN.format("contact.html#message-form", "Ask for help") + GHOST.format("faq.html", "Read the questions"))
-    main += index([("who", "Who helps"), ("access", "Accessibility"), ("adjustments", "Adjustments"),
+    main += index([("getting-help", "Getting help"), ("who", "Who helps"), ("access", "Accessibility"), ("adjustments", "Adjustments"),
                    ("stations", "Where you study"), ("wellbeing", "Well-being"), ("parents", "Parents")])
+    # The least a public site needs under the member support standard (13 Nov 2026, proposals): a route that reaches a
+    # person and says how the reply comes, a stated reply time, a written route when no reply comes, and a line of known
+    # problems. The times and the second-request route are proposed until the owner confirms them; edit KNOWN to list a fault.
+    main += row("getting-help", "getting help", "How to reach us, and when", ruled([
+        ("write to the team", "Use the contact form", "Choose the topic closest to your question and say which page, unit or course it is about. Please leave out passwords, codes and bank details. We reply by email to the address you give."),
+        ("reply time", "A first reply within one working day", "This reply time is proposed and not yet confirmed."),
+        ("no reply yet", "Write again after two working days", "Begin your message with the words “Second request”. A second request goes to the person who leads that team, who answers in writing. This route is proposed and not yet confirmed."),
+        ("known problems", KNOWN[0], KNOWN[1]),
+    ]) + '<div class="ctas">' + BTN.format("contact.html#message-form", "Write to the team") + "</div>")
     main += row("who", "who helps you", "People and guides on your side", ruled([
         ("support desk", "Learner support", "Help with sign-up, your learning record, access needs and well-being."),
         ("faculty", "Faculty", "Teach live classes, answer questions about a unit and give feedback."),
