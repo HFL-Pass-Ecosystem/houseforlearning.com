@@ -23,7 +23,7 @@ STEPS = [
     'build_regional_hubs', 'build_courses_all',
     'build_access_pages', 'add_series_gate', 'add_outline_gate', 'patch_audience_pages',
     'build_lms_pages',         # LMS screens: join, final check, certificate, My courses, report (no inline scripts)
-    'build_services', 'build_support', 'build_wix_content', 'build_org_pages', 'build_home', 'build_timetool',
+    'build_services', 'build_support', 'build_wix_content', 'build_org_pages', 'our_story_patch', 'build_home', 'build_timetool',
     'build_ai_income',          # AI side-income path: hub + 15 lessons (own words, no outside names)
     'build_my_learning', 'build_welcome_map', 'build_learner_hub',        # signed-in learning home (test only)
     'build_start_here',        # start-a-course page: real courses a visitor can join and take
