@@ -33,6 +33,7 @@ STEPS = [
     'build_sitemap',           # sitemap from the indexable pages: after all page builders
     'build_seo',               # titles at most 70 characters, unique, and real meta descriptions: always last
     'sync_share_tags',         # share tags follow each page's own title, description and address: always last
+    'seo_pass',                # social image, Twitter card and page data from each page's own final tags: after the share tags
 ]
 def main(argv):
     only_check = '--status-only' in argv
