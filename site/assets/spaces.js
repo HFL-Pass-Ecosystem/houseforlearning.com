@@ -165,6 +165,22 @@
     return h('span', { class: 'sp-badge sp-' + st }, map[st] || st);
   }
 
+  // ---------- learner check: answer the capsule's check question ----------
+  function norm(x) { return (x || '').toLowerCase().replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim(); }
+  function quizBox(c, onPass) {
+    var ans = h('input', { type: 'text', class: 'sp-quiz-in', 'aria-label': 'Your answer' });
+    var out = h('p', { class: 'sp-quiz-out', 'aria-live': 'polite' });
+    var go = btn('Check my answer', function () {
+      var a = norm(ans.value), right = norm(c.a);
+      if (!a) { out.textContent = 'Type your answer first.'; out.className = 'sp-quiz-out sp-fb'; return; }
+      var ok = right && (a === right || a.indexOf(right) >= 0 || right.indexOf(a) >= 0 && a.length >= Math.min(4, right.length));
+      out.textContent = ok ? 'Right. Well done.' : 'Not quite. Try again, or read the practice once more.';
+      out.className = 'sp-quiz-out ' + (ok ? 'sp-okline' : 'sp-fb');
+      if (ok && onPass) onPass();
+    }, 'btn-ghost btn-sm', { 'data-act': 'quiz-check' });
+    return h('div', { class: 'sp-quiz' }, h('p', null, h('strong', null, 'Check: '), c.q || '(no question yet)'), h('div', { class: 'sp-row' }, ans, go), out);
+  }
+
   // ---------- the shared bar on top of every space ----------
   function topbar() {
     var name = h('input', { type: 'text', id: 'sp-me', value: S.me.name, autocomplete: 'name', 'aria-describedby': 'sp-me-hint' });
@@ -209,7 +225,8 @@
       return h('div', { class: 'c ok' }, h('h3', { text: c.title }), h('p', { text: 'Goal: ' + c.goal }),
         h('details', null, h('summary', null, 'Open capsule'),
           h('p', null, h('strong', null, 'Task: '), c.task), h('p', null, h('strong', null, 'Standard: '), c.standard),
-          h('p', null, h('strong', null, 'Practice: '), c.practice), h('p', null, h('strong', null, 'Check: '), c.q),
+          h('p', null, h('strong', null, 'Practice: '), c.practice),
+          quizBox(c, function () { if (!P.done[k]) { P.done[k] = 1; save(); setTimeout(function () { render(); say('Capsule done. 1 credit added.'); }, 900); } }),
           h('p', { class: 'sp-hint', text: 'Author ' + c.author + ' · approved in LAB by ' + c.reviewer })),
         P.done[k] ? h('span', { class: 'sp-badge sp-published', text: 'Done · 1 credit' }) :
           btn('Mark done (+1 credit)', function () { P.done[k] = 1; save(); render(); say('Capsule done.'); }, 'btn-ghost'));
@@ -339,6 +356,7 @@
       inp('c-q', '6. Check question', c.q),
       inp('c-a', '6b. Right answer', c.a));
     var meterBox = h('ul', { class: 'sp-checks', id: 'sp-meter', 'aria-live': 'polite' });
+    var prev = h('div', { class: 'sp-preview', id: 'sp-preview', hidden: true });
     function read() {
       function v(id) { return (document.getElementById(id) || {}).value || ''; }
       return { title: v('c-title').trim(), path: v('c-path'), level: +v('c-level') || 1, need: v('c-need').trim(), goal: v('c-goal').trim(), task: v('c-task').trim(),
@@ -373,9 +391,16 @@
       form,
       h('h4', null, 'Seven-line readiness ', h('span', { id: 'sp-score', class: 'sp-badge' })), meterBox,
       h('div', { class: 'sp-row' },
+        btn('Try it as a learner', function () {
+          var d = read(); prev.textContent = '';
+          prev.appendChild(h('h4', { text: d.title || '(no title yet)' }));
+          [['Goal', d.goal], ['Task', d.task], ['Standard', d.standard], ['Practice', d.practice]].forEach(function (r) { prev.appendChild(h('p', null, h('strong', null, r[0] + ': '), r[1] || '(empty)')); });
+          prev.appendChild(quizBox(d)); prev.hidden = false; say('Learner preview shown below.');
+        }, 'btn-ghost', { 'data-act': 'preview' }),
         btn('Save draft', function () { store('draft'); }, 'btn-ghost', { 'data-act': 'save-draft' }),
         btn('Send to LAB', function () { store('review'); }, '', { id: 'sp-send', 'data-act': 'send-lab' }),
-        editId ? btn('Start a new capsule', function () { S.edit = null; save(); render(); }, 'btn-ghost') : null)));
+        editId ? btn('Start a new capsule', function () { S.edit = null; save(); render(); }, 'btn-ghost') : null),
+      prev));
     meter();
 
     var mine = S.capsules.filter(function (x) { return x.author === S.me.name; });

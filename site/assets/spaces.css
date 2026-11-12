@@ -52,6 +52,8 @@
 .sp-table table{width:100%;border-collapse:collapse}
 .sp-table th,.sp-table td{text-align:left;padding:8px;border-bottom:1px solid #d9d3c2;vertical-align:top}
 .sp-roles{list-style:none;padding:0;margin:8px 0;display:grid;gap:8px}.sp-roles li{border:1px solid #d9d3c2;border-radius:10px;padding:10px 12px}.sp-roles li.ok{border-color:#3CC261}
+.sp-quiz{border-top:1px dashed #b9b2a0;margin-top:8px;padding-top:8px}.sp-quiz-in{max-width:320px;padding:8px;border:1px solid #b9b2a0;border-radius:8px;font:inherit}
+.sp-preview{margin-top:12px;border:2px dashed #3CC261;border-radius:12px;padding:12px}
 .sp-foot{justify-content:space-between}
 button[disabled]{opacity:.55;cursor:not-allowed}
 @media (max-width:560px){.sp-dl{grid-template-columns:1fr}.sp-tab{padding:8px 12px}}
