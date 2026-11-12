@@ -1,0 +1,8 @@
+/* GROWTH(TM) marks and the day's anchors (tools/apply_growth.py). The page script brings its own rules (v1/embed/gbd.css);
+   these few place the home page's row of anchors in this site's look. */
+.gbd-home{padding:28px 0 4px}
+.gbd-anchors{--gbd-bg:var(--surface);--gbd-ink:var(--ink)}
+/* On a phone the row of anchors stays at the foot of the screen (html.gbd-sticky, --gbd-sticky-h): the back-to-top button
+   and the cookie notice sit above it, never under it. */
+html.gbd-sticky .enh-top{bottom:calc(var(--gbd-sticky-h,0px) + 12px)}
+html.gbd-sticky .cookie{bottom:calc(var(--gbd-sticky-h,0px) + 10px)}
