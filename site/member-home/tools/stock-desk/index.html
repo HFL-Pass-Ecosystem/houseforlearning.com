@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stock desk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="kit.css">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../_hub/bar.css">
+<script src="../_hub/style-shim.js"></script>
+<link rel="stylesheet" href="../_hub/gate.css">
+<script src="/member-home/config.js"></script>
+<script src="/member-home/supabase.js"></script>
+<script src="/member-home/auth.js"></script>
+<script src="../_hub/gate-hfl.js"></script>
+</head>
+<body>
+<noscript><p class="k-card">This screen needs JavaScript switched on.</p></noscript>
+<main>
+<h1>Stock desk</h1>
+<p class="k-sub">Keep count of the goods in a small store or marketplace shop. Book goods in and out, move them between places, count the shelves, and make a reorder list. Quantities only, no prices.</p>
+<p class="k-msg" id="say" role="status" aria-live="polite"></p>
+<div class="k-tabs" role="tablist" aria-label="Stock desk parts">
+<button type="button" class="k-btn" role="tab" id="tStock" aria-controls="vStock" aria-selected="true">Stock</button>
+<button type="button" class="k-btn" role="tab" id="tMove" aria-controls="vMove" aria-selected="false">Move stock</button>
+<button type="button" class="k-btn" role="tab" id="tCount" aria-controls="vCount" aria-selected="false">Count</button>
+<button type="button" class="k-btn" role="tab" id="tRe" aria-controls="vRe" aria-selected="false">Reorder list</button>
+</div>
+<section class="k-card" id="vStock" role="tabpanel" aria-labelledby="tStock">
+<h2>Stock on hand</h2>
+<p class="k-note">An item marked "Reorder" has a quantity at or below its reorder level. Quantities change only through Move stock or an approved count.</p>
+<p class="k-note" id="sSum"></p>
+<div class="k-scroll"><table id="sTable"><thead><tr><th scope="col">Code</th><th scope="col">Name</th><th scope="col">Unit</th><th scope="col">On hand</th><th scope="col">Reorder level</th><th scope="col">Place in store</th><th scope="col">State</th></tr></thead><tbody></tbody></table></div>
+<div class="k-row"><button type="button" class="k-btn" id="sDown">Download stock (spreadsheet file)</button>
+<button type="button" class="k-btn" id="sMovesDown">Download all moves (spreadsheet file)</button></div>
+</section>
+<section class="k-card" id="vMove" role="tabpanel" aria-labelledby="tMove" hidden>
+<h2>Move stock</h2>
+<p class="k-note">Goods in adds to a place. Goods out takes from a place for an order or a job. Transfer moves goods from one place to another. You cannot take out more than is on hand in that place.</p>
+<div class="k-row"><div><label class="k-lab" for="mType">Kind of move</label><select class="k-in" id="mType"><option value="in">Goods in</option><option value="out">Goods out</option><option value="move">Transfer between places</option></select></div>
+<div class="k-grow"><label class="k-lab" for="mItem">Item</label><select class="k-in" id="mItem"></select></div></div>
+<div class="k-row"><div><label class="k-lab" for="mQty">Quantity</label><input class="k-in" type="number" id="mQty" min="1" step="1" inputmode="numeric"></div>
+<div><label class="k-lab" for="mFrom" id="mFromLab">From place</label><select class="k-in" id="mFrom"></select></div>
+<div><label class="k-lab" for="mTo" id="mToLab">To place</label><select class="k-in" id="mTo"></select></div></div>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="mRef" id="mRefLab">Supplier reference</label><input class="k-in" id="mRef" maxlength="60"></div>
+<div><label class="k-lab" for="mWho">Who is doing this</label><select class="k-in" id="mWho"></select></div></div>
+<div class="k-row"><button type="button" class="k-btn k-pri" id="mGo">Save this move</button></div>
+<p class="k-note" id="mInfo"></p>
+<h2>Move log</h2>
+<p class="k-note">Every move is kept here with who did it and when. Newest first.</p>
+<div class="k-scroll"><table id="mLog"><thead><tr><th scope="col">When</th><th scope="col">Who</th><th scope="col">Kind</th><th scope="col">Item</th><th scope="col">Quantity</th><th scope="col">From</th><th scope="col">To</th><th scope="col">Reference</th></tr></thead><tbody></tbody></table></div>
+</section>
+<section class="k-card" id="vCount" role="tabpanel" aria-labelledby="tCount" hidden>
+<h2>Stock count</h2>
+<p class="k-note">Count what is really on each shelf and type it in. Leave a box empty if you did not count it. Differences are sent for approval. A different person must approve before any quantity changes.</p>
+<div class="k-row"><div><label class="k-lab" for="cWho">Who is counting</label><select class="k-in" id="cWho"></select></div>
+<div class="k-grow"><label class="k-lab" for="cNote">Note (optional)</label><input class="k-in" id="cNote" maxlength="80"></div></div>
+<div class="k-scroll"><table id="cTable"><thead><tr><th scope="col">Item</th><th scope="col">Place</th><th scope="col">On record</th><th scope="col">Counted</th><th scope="col">Difference</th></tr></thead><tbody></tbody></table></div>
+<div class="k-row"><button type="button" class="k-btn" id="cDiff">Show differences</button>
+<button type="button" class="k-btn k-pri" id="cSend">Send differences for approval</button></div>
+<p class="k-note" id="cInfo"></p>
+<h2>Counts waiting for approval</h2>
+<div class="k-row"><div><label class="k-lab" for="cBy">Approver</label><select class="k-in" id="cBy"></select></div></div>
+<ul class="k-list" id="cList"></ul>
+</section>
+<section class="k-card" id="vRe" role="tabpanel" aria-labelledby="tRe" hidden>
+<h2>Reorder list</h2>
+<p class="k-note">Items below their reorder level. Suggested quantity = reorder level x 2, minus what is on hand.</p>
+<p class="k-note" id="rSum"></p>
+<div class="k-scroll"><table id="rTable"><thead><tr><th scope="col">Code</th><th scope="col">Name</th><th scope="col">On hand</th><th scope="col">Reorder level</th><th scope="col">Suggested quantity</th><th scope="col">Unit</th></tr></thead><tbody></tbody></table></div>
+<div class="k-row"><button type="button" class="k-btn k-pri" id="rDown">Download request (text file, price on request)</button></div>
+</section>
+<p class="k-note">Kept in this browser on this device only. Nothing is sent anywhere. Use Download to keep or share a copy.</p>
+</main>
+<script src="site-data.js"></script>
+<script src="kit.js"></script>
+<script src="page.js"></script>
+<script src="../_hub/bar.js" data-home="../"></script>
+</body>
+</html>

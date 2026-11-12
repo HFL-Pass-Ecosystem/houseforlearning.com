@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Job board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="kit.css">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../_hub/bar.css">
+<script src="../_hub/style-shim.js"></script>
+<link rel="stylesheet" href="../_hub/gate.css">
+<script src="/member-home/config.js"></script>
+<script src="/member-home/supabase.js"></script>
+<script src="/member-home/auth.js"></script>
+<script src="../_hub/gate-hfl.js"></script>
+</head>
+<body>
+<noscript><p class="k-card">This screen needs JavaScript switched on.</p></noscript>
+<main>
+<h1>Job board</h1>
+<p class="k-sub">Jobs are posted by a buyer or by staff. Vendors and freelancers claim them. Jobs come in three kinds: physical (work done in a shop or on site), hybrid (part on site, part online) and digital (online only). No amounts are shown here: every job is "price on request".</p>
+<p class="k-msg" id="say" role="status" aria-live="polite"></p>
+<div class="k-tabs" role="tablist" aria-label="Job board parts">
+<button type="button" class="k-btn" role="tab" id="tOpen" aria-controls="vOpen" aria-selected="true">Open jobs</button>
+<button type="button" class="k-btn" role="tab" id="tPost" aria-controls="vPost" aria-selected="false">Post a job</button>
+<button type="button" class="k-btn" role="tab" id="tAward" aria-controls="vAward" aria-selected="false">Award <span id="aCount">(0)</span></button>
+</div>
+<section class="k-card" id="vOpen" role="tabpanel" aria-labelledby="tOpen">
+<h2>Open jobs</h2>
+<div class="k-row">
+<div><label class="k-lab" for="fKind">Kind</label><select class="k-in" id="fKind"><option value="">All kinds</option><option>Physical</option><option>Hybrid</option><option>Digital</option></select></div>
+</div>
+<p class="k-note" id="fShown"></p>
+<ul class="k-list" id="jList"></ul>
+</section>
+<section class="k-card" id="vPost" role="tabpanel" aria-labelledby="tPost" hidden>
+<h2>Post a job</h2>
+<label class="k-lab" for="pTitle">Title</label><input class="k-in" id="pTitle" maxlength="90">
+<div class="k-row">
+<div><label class="k-lab" for="pKind">Kind</label><select class="k-in" id="pKind"><option>Physical</option><option>Hybrid</option><option>Digital</option></select></div>
+<div><label class="k-lab" for="pBy">Posted by</label><select class="k-in" id="pBy"><option>Buyer</option><option>Staff</option></select></div>
+<div><label class="k-lab" for="pDays">Days to finish</label><input class="k-in" id="pDays" type="number" min="1" max="365" value="7"></div>
+</div>
+<label class="k-lab" for="pScope">Scope (what is to be done, what is handed in, any standard to meet). Do not write amounts, phone numbers or emails.</label><textarea class="k-in" id="pScope" maxlength="600"></textarea>
+<div class="k-row"><button type="button" class="k-btn k-pri" id="pAdd">Post this job</button></div>
+<h2>Jobs I posted</h2>
+<ul class="k-list" id="pList"></ul>
+</section>
+<section class="k-card" id="vAward" role="tabpanel" aria-labelledby="tAward" hidden>
+<h2>Award</h2>
+<p class="k-note">Each job with claims is listed here. The person who awards must be a different person from the vendor who claimed. After the award: Work handed in, then Checked (by someone other than the vendor), then Closed with a rating. Every step is written into the job log with the time and the name.</p>
+<ul class="k-list" id="aList"></ul>
+<div class="k-row"><button type="button" class="k-btn" id="aDown">Download all jobs and logs (text file)</button></div>
+</section>
+</main>
+<script src="site-data.js"></script>
+<script src="kit.js"></script>
+<script src="page.js"></script>
+<script src="../_hub/bar.js" data-home="../"></script>
+</body>
+</html>

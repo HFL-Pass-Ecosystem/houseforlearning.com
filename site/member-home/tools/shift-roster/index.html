@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Shift roster</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="kit.css">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../_hub/bar.css">
+<script src="../_hub/style-shim.js"></script>
+<link rel="stylesheet" href="../_hub/gate.css">
+<script src="/member-home/config.js"></script>
+<script src="/member-home/supabase.js"></script>
+<script src="/member-home/auth.js"></script>
+<script src="../_hub/gate-hfl.js"></script>
+</head>
+<body>
+<noscript><p class="k-card">This screen needs JavaScript switched on.</p></noscript>
+<main>
+<h1>Shift roster</h1>
+<p class="k-sub">Plan the week for a team that works on site, remote or mixed: who works which shift each day, whether every shift has enough people, simple rest rules, and shift swaps that a supervisor approves.</p>
+<p class="k-msg" id="say" role="status" aria-live="polite"></p>
+<div class="k-tabs" role="tablist" aria-label="Shift roster parts">
+<button type="button" class="k-btn" role="tab" id="tWeek" aria-controls="vWeek" aria-selected="true">Week roster</button>
+<button type="button" class="k-btn" role="tab" id="tSwap" aria-controls="vSwap" aria-selected="false">Swaps</button>
+</div>
+<section class="k-card" id="vWeek" role="tabpanel" aria-labelledby="tWeek">
+<h2>Week roster</h2>
+<p class="k-note">Pick a shift for each person and day. Remote and Leave do not count towards on-site cover.</p>
+<h3>People needed per shift</h3>
+<div class="k-row"><div><label class="k-lab" for="rMinM">Morning</label><input class="k-in" type="number" min="0" max="20" id="rMinM"></div>
+<div><label class="k-lab" for="rMinA">Afternoon</label><input class="k-in" type="number" min="0" max="20" id="rMinA"></div>
+<div><label class="k-lab" for="rMinN">Night</label><input class="k-in" type="number" min="0" max="20" id="rMinN"></div></div>
+<div class="k-scroll"><table id="rTable"><thead><tr><th scope="col">Team member</th><th scope="col">Mon</th><th scope="col">Tue</th><th scope="col">Wed</th><th scope="col">Thu</th><th scope="col">Fri</th><th scope="col">Sat</th><th scope="col">Sun</th></tr></thead><tbody></tbody><tfoot></tfoot></table></div>
+<p class="k-note" id="rSum"></p>
+<h3>Rule checks</h3>
+<ul class="k-list" id="rRules"></ul>
+<div class="k-row"><button type="button" class="k-btn k-pri" id="rFill">Fill a fair first draft</button><button type="button" class="k-btn" id="rDown">Download the roster (spreadsheet file)</button><button type="button" class="k-btn" id="rClear">Clear the week</button></div>
+</section>
+<section class="k-card" id="vSwap" role="tabpanel" aria-labelledby="tSwap" hidden>
+<h2>Swaps</h2>
+<p class="k-note">Ask to swap one day's shift with another person. The other person accepts or declines, then a supervisor who is neither of you approves. The roster changes only after approval.</p>
+<div class="k-row"><div><label class="k-lab" for="sFrom">Swap from</label><select class="k-in" id="sFrom"></select></div>
+<div><label class="k-lab" for="sDay">Day</label><select class="k-in" id="sDay"></select></div>
+<div><label class="k-lab" for="sTo">Swap with</label><select class="k-in" id="sTo"></select></div>
+<div><label class="k-lab" for="sSup">Supervisor</label><select class="k-in" id="sSup"></select></div>
+<button type="button" class="k-btn k-pri" id="sAsk">Ask for swap</button></div>
+<ul class="k-list" id="sList"></ul>
+</section>
+<p class="k-note">Kept in this browser on this device only. Nothing is sent anywhere. Use Download to keep or share a copy.</p>
+</main>
+<script src="site-data.js"></script>
+<script src="kit.js"></script>
+<script src="page.js"></script>
+<script src="../_hub/bar.js" data-home="../"></script>
+</body>
+</html>

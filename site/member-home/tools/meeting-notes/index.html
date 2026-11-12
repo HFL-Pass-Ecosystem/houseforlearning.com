@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Meeting notes and actions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="kit.css">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../_hub/bar.css">
+<script src="../_hub/style-shim.js"></script>
+<link rel="stylesheet" href="../_hub/gate.css">
+<script src="/member-home/config.js"></script>
+<script src="/member-home/supabase.js"></script>
+<script src="/member-home/auth.js"></script>
+<script src="../_hub/gate-hfl.js"></script>
+</head>
+<body>
+<noscript><p class="k-card">This screen needs JavaScript switched on.</p></noscript>
+<main>
+<h1>Meeting notes and actions</h1>
+<p class="k-sub">Plan a meeting on site, online or mixed. Write notes, decisions and actions for each agenda point. Follow up open actions, and let the chair approve the minutes.</p>
+<p class="k-msg" id="say" role="status" aria-live="polite"></p>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="me">I am acting as</label><select class="k-in" id="me"></select></div></div>
+<p class="k-note">Pick your own name. The screen uses it to check who may approve minutes and confirm actions.</p>
+<div class="k-tabs" role="tablist" aria-label="Meeting notes parts">
+<button type="button" class="k-btn" role="tab" id="tNew" aria-controls="vNew" aria-selected="true">New meeting</button>
+<button type="button" class="k-btn" role="tab" id="tAct" aria-controls="vAct" aria-selected="false">Actions</button>
+<button type="button" class="k-btn" role="tab" id="tList" aria-controls="vList" aria-selected="false">Meetings</button>
+</div>
+<div id="vNew" role="tabpanel" aria-labelledby="tNew">
+<section class="k-card" aria-labelledby="hSet">
+<h2 id="hSet">Set up a meeting</h2>
+<p class="k-note">The chair and the note-taker must be two different people. The chair later approves the minutes the note-taker writes.</p>
+<label class="k-lab" for="nTitle">Title</label><input class="k-in" id="nTitle" maxlength="80">
+<div class="k-row"><div><label class="k-lab" for="nDate">Date</label><input class="k-in" type="date" id="nDate"></div>
+<div class="k-grow"><label class="k-lab" for="nWhere">Where</label><select class="k-in" id="nWhere"><option>On site</option><option>Online</option><option>Mixed</option></select></div></div>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="nChair">Chair</label><select class="k-in" id="nChair"></select></div>
+<div class="k-grow"><label class="k-lab" for="nTaker">Note-taker</label><select class="k-in" id="nTaker"></select></div></div>
+<p class="k-lab" id="nPeopleLab">Attendees (the chair and the note-taker are always counted)</p>
+<div id="nPeople" role="group" aria-labelledby="nPeopleLab"></div>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="nPoint">Agenda point</label><input class="k-in" id="nPoint" maxlength="100"></div>
+<button type="button" class="k-btn" id="nAdd">Add point</button></div>
+<ul class="k-list" id="nPoints"></ul>
+<div class="k-row"><button type="button" class="k-btn k-pri" id="nStart">Save and start meeting</button></div>
+</section>
+<section class="k-card" id="run" aria-labelledby="rHead" hidden>
+<h2 id="rHead">During the meeting</h2>
+<p class="k-note" id="rInfo"></p>
+<div id="rPoints"></div>
+<div class="k-row"><button type="button" class="k-btn k-pri" id="rSave">Save notes</button><button type="button" class="k-btn k-quiet" id="rClose">Close this meeting</button></div>
+</section>
+</div>
+<section class="k-card" id="vAct" role="tabpanel" aria-labelledby="tAct" hidden>
+<h2>Actions</h2>
+<p class="k-note">The action owner reports an action as done. Then the chair of that meeting confirms it. The chair cannot confirm an action the chair owns: then the note-taker confirms it.</p>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="aShow">Show</label><select class="k-in" id="aShow"><option value="open">Open actions only</option><option value="all">All actions, done ones too</option></select></div></div>
+<p class="k-note" id="aSum"></p>
+<ul class="k-list" id="aList"></ul>
+</section>
+<section class="k-card" id="vList" role="tabpanel" aria-labelledby="tList" hidden>
+<h2>Meetings</h2>
+<p class="k-note">Only the chair can approve minutes. Approved minutes are locked: notes, decisions and actions can no longer be changed. Actions can still be marked done.</p>
+<p class="k-note" id="lSum"></p>
+<ul class="k-list" id="lList"></ul>
+</section>
+<p class="k-note">Kept in this browser on this device only. Nothing is sent anywhere. Use Download to keep or share a copy.</p>
+</main>
+<script src="site-data.js"></script>
+<script src="kit.js"></script>
+<script src="page.js"></script>
+<script src="../_hub/bar.js" data-home="../"></script>
+</body>
+</html>

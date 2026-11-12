@@ -46,7 +46,7 @@ var MENU=[
  {g:'LEARN (LMS)',items:[['lms','📚','My courses'],['live','📅','Live classes'],['cal','🗓️','Calendar'],['coach','🤝','Coaching'],['cert','🎓','Certificates'],['saved','🎞️','Saved videos']]},
  {g:'EARN (EMS)',items:[['ems','💰','Earning hub'],['market','🛒','Marketplace'],['work','💼','Workplace'],['free','🎁','Free offers'],['paths','🛤️','Earning paths'],['payg','🧾','Pay as you go'],['offers','🏷️','Offers'],['jobs','📋','Job portal']]},
  {g:'AUTHOR AND TRAIN',items:[['ams','✍️','Author studio (AMS)'],['tms','🧑‍🏫','Trainer studio (TMS)']]},
- {g:'TOOLS AND CAREERS',items:[['tools','🧰','Tools'],['careers','🧭','Career portal'],['phygital','🔷','Phygital']]},
+ {g:'TOOLS AND CAREERS',items:[['tools','🧰','Tools'],['karma','⭐','Karma'],['careers','🧭','Career portal'],['phygital','🔷','Phygital']]},
  {g:'NETWORKS AND FRAMEWORKS',items:[['nets','🕸️','Networks'],['frames','🧩','Frameworks']]},
  {g:'COMMUNITY',items:[['community','👥','Overview'],['gallery','🖼️','Project gallery'],['impact','🙏','Impact and gratitude'],['ach','🏆','Achievers'],['posts','📝','My posts']]},
  {g:'AI AND EARNING',items:[['feed','✨','AI feed'],['refer','🎁','Referrals and rewards'],['assistant','🤖','Go to assistant'],['agents','🧑‍💻','Agent bank'],['skills','🛠️','Skills library']]},
@@ -151,6 +151,7 @@ function renderTabs(){
  t.innerHTML='';tabs.forEach(function(x){var b=el('button','tab'+(state.view===x[0]?' on':''),'<span>'+x[1]+'</span><small>'+esc(x[2])+'</small>');b.type='button';b.onclick=function(){go(x[0])};t.appendChild(b)});
 }
 function go(v){
+ if(v==='karma'){location.href='tools/karma/';return}
  if(v==='out'){if(window.HFLAuth.live){window.HFLAuth.signOut()}else{alert('Demo mode: you would be logged out here.')}return}
  if(v==='careers'){state.view='careers';renderSide();renderMain();return}
  state.filter='all';state.bank='All';state.view=v;$('#side').classList.remove('open');renderSide();renderMain();renderTabs();$('#main').focus();window.scrollTo(0,0);

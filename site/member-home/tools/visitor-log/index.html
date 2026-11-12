@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Visitor log</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="kit.css">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../_hub/bar.css">
+<script src="../_hub/style-shim.js"></script>
+<link rel="stylesheet" href="../_hub/gate.css">
+<script src="/member-home/config.js"></script>
+<script src="/member-home/supabase.js"></script>
+<script src="/member-home/auth.js"></script>
+<script src="../_hub/gate-hfl.js"></script>
+</head>
+<body>
+<noscript><p class="k-card">This screen needs JavaScript switched on.</p></noscript>
+<main>
+<h1>Visitor log</h1>
+<p class="k-sub">Sign visitors in and out of the site. Give each one a badge, check the safety briefing, and see who is on site right now. In an emergency, download the evacuation list in one click.</p>
+<p class="k-msg" id="say" role="status" aria-live="polite"></p>
+<div class="k-tabs" role="tablist" aria-label="Visitor log parts">
+<button type="button" class="k-btn" role="tab" id="tIn" aria-controls="vIn" aria-selected="true">Sign in a visitor</button>
+<button type="button" class="k-btn" role="tab" id="tNow" aria-controls="vNow" aria-selected="false">On site now</button>
+<button type="button" class="k-btn" role="tab" id="tHist" aria-controls="vHist" aria-selected="false">History</button>
+</div>
+<section class="k-card" id="vIn" role="tabpanel" aria-labelledby="tIn">
+<h2>Sign in a visitor</h2>
+<p class="k-note">Every visitor needs a host from the team. For the Workshop and the Test bay, all four safety briefing points must be ticked first. The person at reception and the host must be two different people.</p>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="iName">Visitor name</label><input class="k-in" id="iName" maxlength="60" placeholder="Demo Visitor"></div>
+<div class="k-grow"><label class="k-lab" for="iOrg">Organisation</label><input class="k-in" id="iOrg" maxlength="60" placeholder="Demo Company"></div></div>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="iHost">Host (who they are here to see)</label><select class="k-in" id="iHost"></select></div>
+<div class="k-grow"><label class="k-lab" for="iArea">Area they will visit</label><select class="k-in" id="iArea"></select></div></div>
+<label class="k-lab" for="iWhy">Purpose of visit</label><input class="k-in" id="iWhy" maxlength="120" placeholder="Meeting, delivery, inspection">
+<fieldset class="k-item" id="iBrief">
+<legend class="k-lab">Safety briefing given (all four needed for Workshop and Test bay)</legend>
+</fieldset>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="iDesk">Signed in by (reception name)</label><input class="k-in" id="iDesk" maxlength="60" placeholder="Demo Reception"></div>
+<div><label class="k-lab" for="iBadge">Badge number</label><input class="k-in" id="iBadge" readonly></div></div>
+<div class="k-row"><button type="button" class="k-btn k-pri" id="iGo">Sign in</button></div>
+</section>
+<section class="k-card" id="vNow" role="tabpanel" aria-labelledby="tNow" hidden>
+<h2>On site now</h2>
+<p class="k-note" id="nSum"></p>
+<div class="k-scroll"><table id="nCount"><thead><tr><th scope="col">Area</th><th scope="col">People on site</th></tr></thead><tbody></tbody></table></div>
+<div class="k-row"><button type="button" class="k-btn k-pri" id="nEvac">Evacuation list (download everyone on site now)</button></div>
+<p class="k-note">Hosts: please confirm you have met your visitor. The host must pick their own name, and cannot be the person who signed the visitor in.</p>
+<ul class="k-list" id="nList"></ul>
+</section>
+<section class="k-card" id="vHist" role="tabpanel" aria-labelledby="tHist" hidden>
+<h2>History</h2>
+<div class="k-row"><div><label class="k-lab" for="hDate">Show one date</label><input class="k-in" type="date" id="hDate"></div>
+<button type="button" class="k-btn" id="hAll">Show all dates</button></div>
+<p class="k-note" id="hSum"></p>
+<div class="k-scroll"><table id="hTab"><thead><tr><th scope="col">Date</th><th scope="col">Badge</th><th scope="col">Visitor</th><th scope="col">Organisation</th><th scope="col">Host</th><th scope="col">Area</th><th scope="col">Time in</th><th scope="col">Time out</th><th scope="col">Duration</th><th scope="col">Signed in by</th><th scope="col">Host confirmed</th></tr></thead><tbody></tbody></table></div>
+<div class="k-row"><button type="button" class="k-btn" id="hDown">Download shown visits (spreadsheet file)</button></div>
+<h3>Activity log</h3>
+<ul class="k-list" id="hLog"></ul>
+</section>
+<p class="k-note">Kept in this browser on this device only. Nothing is sent anywhere. Use Download to keep or share a copy.</p>
+</main>
+<script src="site-data.js"></script>
+<script src="kit.js"></script>
+<script src="page.js"></script>
+<script src="../_hub/bar.js" data-home="../"></script>
+</body>
+</html>

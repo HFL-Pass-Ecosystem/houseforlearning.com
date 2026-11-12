@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Booking desk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="kit.css">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../_hub/bar.css">
+<script src="../_hub/style-shim.js"></script>
+<link rel="stylesheet" href="../_hub/gate.css">
+<script src="/member-home/config.js"></script>
+<script src="/member-home/supabase.js"></script>
+<script src="/member-home/auth.js"></script>
+<script src="../_hub/gate-hfl.js"></script>
+</head>
+<body>
+<noscript><p class="k-card">This screen needs JavaScript switched on.</p></noscript>
+<main>
+<h1>Booking desk</h1>
+<p class="k-sub">Book meeting rooms, hot desks and shared equipment for on-site and hybrid work. See what is taken on any day, check in when you arrive, and keep a list of your bookings.</p>
+<p class="k-msg" id="say" role="status" aria-live="polite"></p>
+<div class="k-tabs" role="tablist" aria-label="Booking desk parts">
+<button type="button" class="k-btn" role="tab" id="tBook" aria-controls="vBook" aria-selected="true">Book</button>
+<button type="button" class="k-btn" role="tab" id="tDay" aria-controls="vDay" aria-selected="false">Today</button>
+<button type="button" class="k-btn" role="tab" id="tMine" aria-controls="vMine" aria-selected="false">My bookings</button>
+</div>
+<section class="k-card" id="vBook" role="tabpanel" aria-labelledby="tBook">
+<h2>Book a space or an item</h2>
+<p class="k-note">A space can only have one booking at a time. If your time overlaps another booking of the same space on the same day, the screen tells you which one.</p>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="bSpace">Space or item</label><select class="k-in" id="bSpace"></select></div>
+<div><label class="k-lab" for="bDate">Date</label><input class="k-in" type="date" id="bDate"></div></div>
+<div class="k-row"><div><label class="k-lab" for="bFrom">Start</label><select class="k-in" id="bFrom"></select></div>
+<div><label class="k-lab" for="bTo">End</label><select class="k-in" id="bTo"></select></div>
+<div class="k-grow"><label class="k-lab" for="bWho">Who (a role or a first name)</label><input class="k-in" id="bWho" maxlength="40"></div></div>
+<label class="k-lab" for="bWhat">Purpose</label><input class="k-in" id="bWhat" maxlength="120">
+<label class="k-check"><input type="checkbox" id="bOnline"><span>Also online (hybrid): some people join from elsewhere. An online link is to be added by the organiser.</span></label>
+<div class="k-row"><button type="button" class="k-btn k-pri" id="bBook">Book</button></div>
+<p class="k-note" id="bInfo"></p>
+</section>
+<section class="k-card" id="vDay" role="tabpanel" aria-labelledby="tDay" hidden>
+<h2>Day view</h2>
+<div class="k-row"><div><label class="k-lab" for="dDate">Date</label><input class="k-in" type="date" id="dDate"></div>
+<button type="button" class="k-btn" id="dToday">Back to today</button></div>
+<p class="k-note" id="dSum"></p>
+<div class="k-scroll"><table id="dGrid"><thead></thead><tbody></tbody></table></div>
+</section>
+<section class="k-card" id="vMine" role="tabpanel" aria-labelledby="tMine" hidden>
+<h2>My bookings</h2>
+<p class="k-note">Check in is open on the day of the booking. A booking nobody checked in to can be marked as a no-show once its end time has passed, so the space is counted fairly.</p>
+<p class="k-note" id="mSum"></p>
+<ul class="k-list" id="mList"></ul>
+<div class="k-row"><button type="button" class="k-btn" id="mDown">Download all bookings (spreadsheet file)</button></div>
+</section>
+<p class="k-note">Kept in this browser on this device only. Nothing is sent anywhere. Use Download to keep or share a copy.</p>
+</main>
+<script src="site-data.js"></script>
+<script src="kit.js"></script>
+<script src="page.js"></script>
+<script src="../_hub/bar.js" data-home="../"></script>
+</body>
+</html>

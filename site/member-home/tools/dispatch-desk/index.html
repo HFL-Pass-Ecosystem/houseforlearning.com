@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dispatch desk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="kit.css">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../_hub/bar.css">
+<script src="../_hub/style-shim.js"></script>
+<link rel="stylesheet" href="../_hub/gate.css">
+<script src="/member-home/config.js"></script>
+<script src="/member-home/supabase.js"></script>
+<script src="/member-home/auth.js"></script>
+<script src="../_hub/gate-hfl.js"></script>
+</head>
+<body>
+<noscript><p class="k-card">This screen needs JavaScript switched on.</p></noscript>
+<main>
+<h1>Dispatch desk</h1>
+<p class="k-sub">Send marketplace orders out: goods by courier, own vehicle or customer pick-up, and digital goods by online hand-over. Each shipment moves Packed, Checked, Dispatched, Delivered, Closed.</p>
+<p class="k-msg" id="say" role="status" aria-live="polite"></p>
+<div class="k-tabs" role="tablist" aria-label="Dispatch desk parts">
+<button type="button" class="k-btn" role="tab" id="tNew" aria-controls="vNew" aria-selected="true">New shipment</button>
+<button type="button" class="k-btn" role="tab" id="tBoard" aria-controls="vBoard" aria-selected="false">Board</button>
+<button type="button" class="k-btn" role="tab" id="tPapers" aria-controls="vPapers" aria-selected="false">Papers</button>
+</div>
+<section class="k-card" id="vNew" role="tabpanel" aria-labelledby="tNew">
+<h2>New shipment</h2>
+<p class="k-note">Write the town and the country only. Do not write a street address, a phone number or a price.</p>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="nRef">Order reference</label><input class="k-in" id="nRef" maxlength="30"></div>
+<div class="k-grow"><label class="k-lab" for="nKind">Delivery kind</label><select class="k-in" id="nKind"></select></div></div>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="nTown">Destination town</label><input class="k-in" id="nTown" maxlength="40"></div>
+<div class="k-grow"><label class="k-lab" for="nCountry">Country</label><input class="k-in" id="nCountry" maxlength="40"></div></div>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="nDue">Promised delivery date</label><input class="k-in" type="date" id="nDue"></div>
+<div class="k-grow"><label class="k-lab" for="nPacker">Packed by</label><select class="k-in" id="nPacker"></select></div></div>
+<h3 class="k-lab">Packing list</h3>
+<ul class="k-list" id="nLines"></ul>
+<div class="k-row"><button type="button" class="k-btn" id="nAdd">Add a row</button>
+<button type="button" class="k-btn k-pri" id="nSave">Save as packed</button></div>
+<p class="k-note">After saving, a different person checks the packing list on the Board.</p>
+</section>
+<section class="k-card" id="vBoard" role="tabpanel" aria-labelledby="tBoard" hidden>
+<h2>Board</h2>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="bWho">Who is doing this step</label><select class="k-in" id="bWho"></select></div></div>
+<p class="k-note">The person who packed cannot check the same shipment. A shipment is marked late when it is not delivered by the promised date.</p>
+<p class="k-note" id="bSum"></p>
+<div id="bSteps"></div>
+</section>
+<section class="k-card" id="vPapers" role="tabpanel" aria-labelledby="tPapers" hidden>
+<h2>Papers</h2>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="pShip">Shipment</label><select class="k-in" id="pShip"></select></div></div>
+<div class="k-row"><button type="button" class="k-btn" id="pPack">Download packing list (text file)</button>
+<button type="button" class="k-btn" id="pNote">Download delivery note (text file)</button></div>
+<div class="k-item"><p id="pView"></p></div>
+</section>
+<p class="k-note">Kept in this browser on this device only. Nothing is sent anywhere. Use Download to keep or share a copy.</p>
+</main>
+<script src="site-data.js"></script>
+<script src="kit.js"></script>
+<script src="page.js"></script>
+<script src="../_hub/bar.js" data-home="../"></script>
+</body>
+</html>

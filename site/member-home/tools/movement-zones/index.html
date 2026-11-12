@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Movement Zones | House For Learning</title>
+<meta name="description" content="Six movement zones with music that follows your session: yoga, bodyweight, group class, strength, dance cardio and calm.">
+<link rel="stylesheet" href="zones.css">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../_hub/bar.css">
+<script src="../_hub/style-shim.js"></script>
+<link rel="stylesheet" href="../_hub/gate.css">
+<script src="/member-home/config.js"></script>
+<script src="/member-home/supabase.js"></script>
+<script src="/member-home/auth.js"></script>
+<script src="../_hub/gate-hfl.js"></script>
+</head>
+<body>
+<header class="top"><a class="brand" href="/">House For Learning</a><span class="tag">Movement Zones</span></header>
+<main>
+<section class="hero">
+<h1>Pick a zone. Press start. The music moves with you.</h1>
+<p>Each zone has its own session plan and its own music. The music gets stronger in the hard parts and softer in the rests.</p>
+</section>
+<section id="zones" class="grid" aria-label="Zones"></section>
+<section id="player" class="player" hidden aria-live="polite">
+<div class="p-head"><h2 id="p-name"></h2><button id="p-close" class="ghost" type="button">Back to zones</button></div>
+<p id="p-blurb"></p>
+<div class="phase"><div id="p-phase" class="phase-name">Ready</div><div id="p-time" class="phase-time">00:00</div></div>
+<div class="bar"><div id="p-bar"></div></div>
+<div class="ctl">
+<button id="p-start" class="go" type="button">Start session</button>
+<button id="p-stop" class="ghost" type="button" disabled>Stop</button>
+<label>Music volume <input id="p-vol" type="range" min="0" max="100" value="70"></label>
+<label>Music <select id="p-src"></select></label>
+</div>
+<ol id="p-plan" class="plan"></ol>
+<audio id="p-audio" preload="none"></audio>
+</section>
+<p class="note">Health note: move within your comfort. Stop if you feel pain or dizziness. Ask your doctor before starting anything new.</p>
+<p class="note">Music note: the zone music here is made by our own sound engine. Tracks from other artists are not played until their licence is cleared.</p>
+</main>
+<script src="zones.js"></script>
+<script src="../_hub/bar.js" data-home="../"></script>
+</body>
+</html>

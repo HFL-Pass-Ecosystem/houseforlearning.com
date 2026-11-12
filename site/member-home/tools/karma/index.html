@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Karma points</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="kit.css">
+<link rel="stylesheet" href="karma.css">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../_hub/bar.css">
+<script src="../_hub/style-shim.js"></script>
+<link rel="stylesheet" href="../_hub/gate.css">
+<script src="/member-home/config.js"></script>
+<script src="/member-home/supabase.js"></script>
+<script src="/member-home/auth.js"></script>
+<script src="../_hub/gate-hfl.js"></script>
+</head>
+<body>
+<noscript><p class="k-card">This screen needs JavaScript switched on.</p></noscript>
+<main>
+<h1>Karma points</h1>
+<p class="k-sub">Karma points are a mirror of good work, in the spirit of the Bhagavad Gita: do your own duty well, serve others, stay steady, and let go of the reward. Points are thanks, not money. They cannot be bought, sold, swapped or cashed out.</p>
+<p class="k-verse">"Your part is the work itself, never the fruit of it. Do not work for the reward, and do not give up the work." Bhagavad Gita 2.47, in our own words.</p>
+<p class="k-msg" id="say" role="status" aria-live="polite"></p>
+<div class="k-tabs" role="tablist" aria-label="Karma parts">
+<button type="button" class="k-btn" role="tab" id="tMine" aria-controls="vMine" aria-selected="true">My karma</button>
+<button type="button" class="k-btn" role="tab" id="tLog" aria-controls="vLog" aria-selected="false">Log a good deed</button>
+<button type="button" class="k-btn" role="tab" id="tCheck" aria-controls="vCheck" aria-selected="false">Check (staff)</button>
+<button type="button" class="k-btn" role="tab" id="tWall" aria-controls="vWall" aria-selected="false">Thank-you wall</button>
+<button type="button" class="k-btn" role="tab" id="tWay" aria-controls="vWay" aria-selected="false">The way we work</button>
+</div>
+
+<section class="k-card" id="vMine" role="tabpanel" aria-labelledby="tMine">
+<h2>My karma</h2>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="mWho">Show karma for</label><select class="k-in" id="mWho"></select></div></div>
+<div class="kr-head">
+<div><p class="kr-big" id="mPts">0</p><p class="k-note">checked points</p></div>
+<div class="k-grow"><p class="kr-level" id="mLevel"></p><p class="k-note" id="mLine"></p><progress id="mBar" max="100" value="0"></progress><p class="k-note" id="mNext"></p></div>
+</div>
+<p class="k-note" id="mWait"></p>
+<div class="kr-resolve">
+<h3>My resolve (Sankalpa)</h3>
+<p class="k-note">Before the great battle at Kurukshetra, Arjuna, on Krishna's advice, prayed to Maa Durga for strength and made his resolve to do what is right (Mahabharata, Bhishma Parva). In the same spirit, start with a promise of your own: strength for honest effort, not for gain.</p>
+<p class="kr-now" id="rNow"></p>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="rPick">Choose my resolve</label><select class="k-in" id="rPick"></select></div>
+<button type="button" class="k-btn" id="rSave">Make this my resolve</button></div>
+</div>
+<h3 class="kr-gap">Badges</h3>
+<ul class="kr-badges" id="mBadges"></ul>
+<h3 class="kr-gap">My good deeds</h3>
+<ul class="k-list" id="mList"></ul>
+</section>
+
+<section class="k-card" id="vLog" role="tabpanel" aria-labelledby="tLog" hidden>
+<h2>Log a good deed</h2>
+<p class="k-note">Thank someone for a good deed, or write down your own. A different person checks it before the points count. The same kind of deed counts at most 3 times a day for one person. Please do not type phone numbers, email addresses or money amounts.</p>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="lFor">Who did the good deed</label><select class="k-in" id="lFor"></select></div>
+<div class="k-grow"><label class="k-lab" for="lBy">Who is writing this</label><select class="k-in" id="lBy"></select></div></div>
+<label class="k-lab" for="lAct">What kind of deed</label><select class="k-in" id="lAct"></select>
+<p class="k-note" id="lActInfo"></p>
+<label class="k-lab" for="lNote">What happened (one or two lines)</label><textarea class="k-in" id="lNote" maxlength="240"></textarea>
+<div class="k-row"><button type="button" class="k-btn k-pri" id="lSend">Send for checking</button></div>
+</section>
+
+<section class="k-card" id="vCheck" role="tabpanel" aria-labelledby="tCheck" hidden>
+<h2>Check good deeds (maker-checker)</h2>
+<p class="k-note">A checker confirms that the deed really happened. The checker must be a different person from the one who did it and the one who wrote it. Check with an even mind: the same care for everyone (Gita 2.48).</p>
+<div class="k-row"><div class="k-grow"><label class="k-lab" for="cMe">Acting as (checker)</label><select class="k-in" id="cMe"></select></div></div>
+<p class="k-note" id="cSum"></p>
+<ul class="k-list" id="cList"></ul>
+<h3 class="kr-gap">Team view</h3>
+<p class="k-note">In name order, not a ranking. Karma is not a race.</p>
+<div class="k-scroll"><table id="cTeam"><thead><tr><th>Name</th><th>Level</th><th>Checked points</th><th>Waiting</th><th>Badges</th></tr></thead><tbody></tbody></table></div>
+<div class="k-row">
+<button type="button" class="k-btn" id="cImport">Bring in fixes from the help desk</button>
+<button type="button" class="k-btn" id="cDown">Download karma log (spreadsheet file)</button>
+</div>
+</section>
+
+<section class="k-card" id="vWall" role="tabpanel" aria-labelledby="tWall" hidden>
+<h2>Thank-you wall</h2>
+<p class="k-note">The newest checked good deeds. Newest first, never ranked.</p>
+<ul class="k-list" id="wList"></ul>
+</section>
+
+<section class="k-card" id="vWay" role="tabpanel" aria-labelledby="tWay" hidden>
+<h2>The way we work</h2>
+<p class="k-note">Nine ideas from the Bhagavad Gita and the Mahabharata, put in simple words, and what each one means for karma points. Everyone is welcome here, whatever their faith.</p>
+<ul class="k-list" id="yList"></ul>
+<h3 class="kr-gap">Levels</h3>
+<div class="k-scroll"><table id="yLevels"><thead><tr><th>Level</th><th>From</th><th>Meaning</th></tr></thead><tbody></tbody></table></div>
+<h3 class="kr-gap">Good deeds and points</h3>
+<div class="k-scroll"><table id="yActs"><thead><tr><th>Good deed</th><th>Points</th><th>Idea behind it</th></tr></thead><tbody></tbody></table></div>
+</section>
+<p class="k-note">Test version with practice names. Kept in this browser on this device only. Nothing is sent anywhere. Use Download to keep or share a copy.</p>
+</main>
+<script src="site-data.js"></script>
+<script src="kit.js"></script>
+<script src="page.js"></script>
+<script src="../_hub/bar.js" data-home="../"></script>
+</body>
+</html>
