@@ -37,6 +37,8 @@ OUT = SITE / 'assets' / 'executive'
 PAGE = 'executive-programme.html'
 URL = 'https://houseforlearning.com/' + PAGE
 TITLE = 'Executive Programme: four editions | House for Learning'
+# Links the page's script fills in get a plain-text name first, so they are never empty (a11y check).
+LINK_TEXT = [('id="heroFree"></a>', 'id="heroFree">Start free</a>'), ('id="dockAsk"></a>', 'id="dockAsk">Ask</a>'), ('id="dockFree"></a>', 'id="dockFree">Start free</a>'), ('id="dockReg"></a>', 'id="dockReg">Register</a>')]
 NOTE = '/* Built by tools/import_executive_editions.py from the Executive Programme page. Do not edit by hand. */\n'
 
 
@@ -236,6 +238,7 @@ def main():
 </body>
 </html>
 '''
+    for a, b in LINK_TEXT: page = page.replace(a, b)
     (SITE / PAGE).write_text(page, encoding='utf-8')
     print(f'wrote site/{PAGE}, assets/executive/editions.css and editions.js '
           f'(preview strip removed: {strips}, preview footer lines removed: {notes})')
