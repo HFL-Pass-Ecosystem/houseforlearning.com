@@ -14,7 +14,11 @@ if __name__ == '__main__':
     missing = [p for p in SUB.values() if not os.path.exists(os.path.join(SITE, p.strip('/') if p.endswith('.html') else p.strip('/') + '/index.html'))]
     for k in [k for k, v in SUB.items() if v in missing]:
         print('skip, page not found:', k, SUB.pop(k))
+    # The site's Content-Security-Policy allows only scripts from 'self', so the router lives in its own file.
+    js = subaddr.script('houseforlearning.com', SUB)
+    js = js.split('<script>', 1)[1].rsplit('</script>', 1)[0]
+    open(os.path.join(SITE, 'subaddr.js'), 'w', encoding='utf-8').write(js + '\n')
     ix = os.path.join(SITE, 'index.html')
-    h = subaddr.inject(open(ix, encoding='utf-8').read(), 'houseforlearning.com', SUB)
+    h = subaddr.inject_src(open(ix, encoding='utf-8').read(), '/subaddr.js')
     open(ix, 'w', encoding='utf-8').write(h)
     print('sub-addresses:', len(SUB))

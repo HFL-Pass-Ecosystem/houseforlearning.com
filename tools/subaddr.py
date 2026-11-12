@@ -18,3 +18,10 @@ def inject(html, base, mapping):
     """Put the router straight after <meta charset>, replacing any earlier copy."""
     html = re.sub(re.escape(MARK) + '.*?' + re.escape(MARK), '', html, flags=re.S)
     return re.sub(r'(<meta charset="?utf-8"?\s*/?>)', lambda x: x.group(1) + script(base, mapping), html, count=1, flags=re.I)
+
+
+def inject_src(html, src):
+    """Same as inject, but loads the router from a file (for sites whose Content-Security-Policy forbids inline scripts)."""
+    html = re.sub(re.escape(MARK) + '.*?' + re.escape(MARK), '', html, flags=re.S)
+    tag = MARK + '<script src="' + src + '"></script>' + MARK
+    return re.sub(r'(<meta charset="?utf-8"?\s*/?>)', lambda x: x.group(1) + tag, html, count=1, flags=re.I)
