@@ -7,7 +7,7 @@ from html import escape as E
 
 TRIBUTE = [
  "Every great journey begins with one person who touches, moves and inspires lives to improve. For me there are two men and a few women.",
- "My grandfather, Mr. V.S. Ramacharya, who, as our family remembers, was the chief engineering architect of the Indian Institute of Science, and who also built highways through some of the hardest sections of India. My great-grandfather, who served the Wadayar dynasty as teacher and adviser. My father, a fine sportsman and an even finer human being. My mother, my sister, my wife and my grandmothers. They have all left a mark on me.",
+ "My great-grandfather, Pujya Shri. V. Shyamacharya, who served the Wadiyar dynasty as teacher and adviser. My grandfather, Mr. V.S. Ramacharya, who was the chief engineering architect of the Indian Institute of Science, and who also built highways through some of the hardest sections of India. My father, a fine sportsman and an even finer human being. My mother, my sister, my wife and my grandmothers. They have all left a mark on me.",
  "I am the creator of this work, but my backbone is my father. The words that follow are his.",
 ]
 
@@ -85,8 +85,8 @@ IISC_RECORD = [
 IISC_FAMILY = [
  "Our great-grandfather, Pujya Shri. V. Shyamacharya (Asthana Maha Vidwan, Panditha Rathna, Shasana Vidya Vibhushana, Maha Mahapodhyaya), who served the Wadiyar dynasty as teacher and adviser, had a part in founding the Institute.",
  "Our grandfather’s elder brother, Mr. V.S. Vedavyasacharya (M.A., I.C.S.), served in the Indian Civil Service in Mysore State and helped the project through the State’s administration.",
- "Our grandfather, Pujya Shri. Ramacharya (BE in Civil Engineering), Gold Medalist Civil Engineer and Gold Medalist Scholar in Samskritha and Music, was handpicked and hired by J.R.D. Tata for the design and development of buildings on the Indian Institute of Science campus, and led engineering and building work for the Institute. His name is on the building stones of the Central Library and the High Voltage Engineering department at the Institute. In the family he is remembered as its chief engineering architect.",
- "J.R.D. Tata, of a later Tata generation, took great interest in the Institute, and enjoyed long walks across the campus to the observatory with Sri V.S. Ramacharya, and sometimes with Sri Vedavyasacharya.",
+ "Our grandfather, Pujya Shri. Ramacharya (BE in Civil Engineering): Gold Medalist Civil Engineer, and Gold Medalist Scholar in Samskritha and Music. He was born around the same time as J.R.D. Tata. He finished his engineering at the age of 21. His earliest job was with the CPWD (Central Public Works Department). Then he joined IISc. He was handpicked and hired by J.R.D. Tata for the design and development of the Indian Institute of Science. His name is on the building stones of the Central Library and the High Voltage Engineering department at the Institute. He received recognition as the chief engineering architect of the Institute.",
+ "J.R.D. Tata, born in 1904 and of a later Tata generation, took great interest in the Institute, and enjoyed long walks across the campus to the observatory with Sri V.S. Ramacharya, and sometimes with Sri Vedavyasacharya.",
  "Sir C.V. Raman, Sir M. Visvesvaraya and other great visitors to the Institute were well known to the family. Many of their gifts are still with family members.",
  "The Dewans Sir K. Seshadri Iyer and, later, Sir Mirza Ismail were close to the family in their time. Their part in the Institute was as Dewans of Mysore, not as family.",
 ]
