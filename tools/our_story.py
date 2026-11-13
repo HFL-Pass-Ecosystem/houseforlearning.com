@@ -111,8 +111,13 @@ PLAQUES = [
   "Photo: KG Haridasan. Source: IISc Department of Civil Engineering, 75 Years Legacy (2025), page 9."),
  ("Indian Institute of Science: Central Library and High Voltage Engineering department", "", "", [],
   "Our grandfather’s name is on the building stones of the Central Library and the High Voltage Engineering department. Their text will be added from the family’s own photographs."),
+ ("Hydraulics Laboratory, Indian Institute of Science: the tilting flume", "iisc-hrl-flume.jpg",
+  "Poster: Tilting flume at Hydraulics Laboratory of Indian Institute of Science, with a photograph of the flume, its plan and side drawings, its specifications (28 m long, 1.8 m wide, 1 m deep, 50 tons) and a table of tilting flumes in the world.",
+  [], "The laboratory our grandfather built as Engineer-in-Charge went on to house this tilting flume, described on the poster as the first of its kind in the Asia Pacific region. Poster of the IISc Hydraulics Laboratory, shared by the family. Funding agency named on it: Ministry of Water Resources, Government of India."),
  ("Vidhana Soudha, Bengaluru: foundation stone, 13 July 1951", "", "", [],
-  "The foundation stone was laid by Prime Minister Jawaharlal Nehru on 13 July 1951, and the building was completed in 1956. B.R. Manickam is credited as its chief architect. The plaque text will be added from a photograph of the stone."),
+  "The foundation stone was laid by Prime Minister Jawaharlal Nehru on 13 July 1951, and the building was completed in 1956. B.R. Manickam is credited as its chief architect. Manickam and our grandfather are named together on the IISc Hydraulic Research Laboratory stones of 1951 and 1953: Manickam as Architect, V.S. Ramacharya as Engineer-in-Charge. A photograph of the Vidhana Soudha stone will be added."),
+ ("State Bank of Mysore head office, Kempegowda Road, Bengaluru", "", "", [],
+  "The State Bank of Mysore headquarters building on Kempegowda Road was designed by our grandfather, Pujya Shri. Ramacharya. He was on the board of Canara Bank and SBM, and led the head office and branch buildings across Karnataka. A photograph of the building will be added."),
 ]
 HRL_FEATURES_H = "The Hydraulic Research Laboratory: key features of the project"
 HRL_FEATURES = [
@@ -126,7 +131,7 @@ HRL_FEATURES = [
  "The people on the stones: Sir Vithal N. Chandavarkar (Chairman, Governing Council), A.C. Pai (Registrar), Prof. M.S. Thacker (Director), N.S. Govinda Rao (Professor), B.R. Manickam (Architect) and our grandfather, V.S. Ramacharya (Engineer-in-Charge) (page 9).",
 ]
 def plaques_html():
-    out = ['<h4>The building stones</h4>']
+    out = ['<h4>Buildings and building stones</h4>']
     for title, img, alt, lines, note in PLAQUES:
         pic = (f'<img class="os-pimg" src="{PLAQUE_IMG_BASE}{img}" alt="{E(alt)}" width="572" height="381" loading="lazy">') if img else ''
         body = ('<p class="os-pt">' + "<br>".join(E(x) for x in lines) + '</p>') if lines else ''

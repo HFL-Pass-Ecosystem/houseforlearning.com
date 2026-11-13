@@ -22,3 +22,5 @@ jobs:
         run: python3 tools/check_a11y.py
       - name: Frozen sections unchanged
         run: python3 tools/check_frozen.py
+      - name: Founders' story complete (nothing dropped)
+        run: python3 tools/check_story.py
