@@ -18,7 +18,7 @@ MUST_HAVE = [
     # IISc story, building stones and gallery (13 Nov)
     'The Indian Institute of Science and our family', 'Vedavyasacharya', 'Mountbatten',
     'assets/iisc-hrl-1951.jpg', 'assets/iisc-hrl-1953.jpg', 'assets/iisc-hrl-flume.jpg',
-    'V. S. RAMACHARYA, ENGINEER-IN-CHARGE', 'key features of the project',
+    'V. S. RAMACHARYA, ENGINEER-IN-CHARGE', 'The Hydraulic Research Laboratory</h4>',
     'Vidhana Soudha', 'State Bank of Mysore head office',
 ]
 s = open(PAGE, encoding='utf-8').read()

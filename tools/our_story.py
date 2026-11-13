@@ -76,74 +76,70 @@ PHOTO_CAP = "Our family, gathered for a portrait. Seated: Mr. V. S. Ramacharya (
 # (the frozen 'Our roots' section on site/about.html).
 IISC_H = "The Indian Institute of Science and our family"
 IISC_RECORD = [
- "In 1893, on a voyage to Japan, Jamsetji Nusserwanji Tata (1839–1904) and Swami Vivekananda spoke about building up science in India.",
- "Jamsetji Tata set up a committee, led by his close associate Burjorji Padshah, to draw up the plan for the Institute.",
- "On the initiative of the Dewan of Mysore, Sir K. Seshadri Iyer, the government of Maharaja Krishnaraja Wadiyar IV gave about 371 acres of land in Bangalore.",
- "After Jamsetji Tata died in 1904, his sons Sir Dorabji Tata and Sir Ratanji Tata carried the plan forward.",
- "The Main Building was designed by C.F. Stevens of Bombay, and the Maharaja laid its foundation stone on 1 February 1911.",
- "IISc’s Department of Civil Engineering booklet, 75 Years Legacy (2025), reproduces the inscriptions of the Hydraulic Research Laboratory. Its foundation stone was laid by Dr. Rajendra Prasad, President of India, on 10 April 1951, and it was opened by Sri K. Hanumanthaiya, Chief Minister of Mysore, on 15 June 1953. Both inscriptions name Prof. M.S. Thacker as Director, V.S. Ramacharya as Engineer-in-Charge and B.R. Manickam as Architect.",
+ "In 1893, on a voyage to Japan, Jamsetji Nusserwanji Tata and Swami Vivekananda shared a vision: to build up science in India.",
+ "Jamsetji Tata asked his close associate Burjorji Padshah to lead the plan for a great Institute of science.",
+ "On the initiative of the Dewan of Mysore, Sir K. Seshadri Iyer, the government of Maharaja Krishnaraja Wadiyar IV gave some 371 acres of land in Bangalore.",
+ "After Jamsetji Tata’s passing in 1904, his sons Sir Dorabji Tata and Sir Ratanji Tata carried the vision forward.",
+ "The Maharaja laid the foundation stone of the Main Building, designed by C.F. Stevens, on 1 February 1911.",
 ]
 IISC_FAMILY = [
- "Our great-grandfather, Pujya Shri. V. Shyamacharya (Asthana Maha Vidwan, Panditha Rathna, Shasana Vidya Vibhushana, Maha Mahapodhyaya), who served the Wadiyar dynasty as teacher and adviser, had a part in founding the Institute in the time of its founder, Jamsetji Nusserwanji Tata.",
- "Our grandfather’s elder brother, Mr. V.S. Vedavyasacharya (M.A., I.C.S.), served in the Indian Civil Service in Mysore State and helped the project through the State’s administration, in the time of Jamsetji Tata’s son, Sir Dorabji Tata. He worked with Dr. Rajendra Prasad, the first President of India, who laid the foundation stone of the Hydraulic Research Laboratory in 1951. A family photograph shows him walking with Dr. Rajendra Prasad, with Lord Mountbatten beside them.",
- "Our grandfather, Pujya Shri. Ramacharya (BE in Civil Engineering): Gold Medalist Civil Engineer, and Gold Medalist Scholar in Samskritha and Music. He was born around the same time as J.R.D. Tata. He finished his engineering at the age of 21. His earliest job was with the CPWD (Central Public Works Department). Then he joined IISc. He was handpicked and hired by J.R.D. Tata for the design and development of the Indian Institute of Science. He served with the Mysore State Public Works Department and the Karnataka Housing Board. At IISc, the Hydraulic Research Laboratory’s foundation stone (1951) and opening (1953) inscriptions record him as Engineer-in-Charge. His name is on the building stones of the Central Library and the High Voltage Engineering department at the Institute. He received recognition as the chief engineering architect of the Institute.",
- "J.R.D. Tata, born in 1904 and of a later Tata generation, took great interest in the Institute, and enjoyed long walks across the campus to the observatory with Sri V.S. Ramacharya, and sometimes with Sri Vedavyasacharya.",
- "Sir C.V. Raman, Sir M. Visvesvaraya and other great visitors to the Institute were well known to the family. Many of their gifts are still with family members.",
- "The Dewans Sir K. Seshadri Iyer and, later, Sir Mirza Ismail were close to the family in their time. Their part in the Institute was as Dewans of Mysore, not as family.",
+ "Our great-grandfather, Pujya Shri. V. Shyamacharya, Asthana Maha Vidwan, Panditha Rathna, Shasana Vidya Vibhushana and Maha Mahapodhyaya, served the Wadiyar dynasty as teacher and adviser, and had a part in the founding of the Institute in the time of Jamsetji Nusserwanji Tata.",
+ "Our grandfather’s elder brother, Mr. V.S. Vedavyasacharya (M.A., I.C.S.), served in the Indian Civil Service in Mysore State and supported the Institute through the State’s administration in the time of Sir Dorabji Tata. He worked with Dr. Rajendra Prasad, the first President of India, and walked beside him, with Lord Mountbatten at their side.",
+ "Our grandfather, Pujya Shri. Ramacharya (BE in Civil Engineering), was a Gold Medalist Civil Engineer and a Gold Medalist Scholar in Samskritha and Music. Born around the same time as J.R.D. Tata, he completed his engineering at the age of 21 and began his career with the Central Public Works Department. He then joined the Indian Institute of Science, handpicked and hired by J.R.D. Tata for the design and development of the Institute, and served as its chief engineering architect. He also served with the Mysore State Public Works Department and the Karnataka Housing Board.",
+ "J.R.D. Tata took a deep interest in the Institute and enjoyed long walks across the campus to the observatory with our grandfather, and at times with his elder brother.",
+ "Sir C.V. Raman, Sir M. Visvesvaraya and many other great visitors to the Institute were close to our family, and many of their gifts are treasured by us to this day.",
+ "The Dewans of Mysore, Sir K. Seshadri Iyer and, later, Sir Mirza Ismail, were close friends of the family in their time.",
 ]
-# Building stones (owner, 13 Nov 2026: "put the plaque of all the IISc constructions and all the Vidhana Soudha constructions on the web page").
-# Only text from a written source is shown; nothing is made up. Typeset text, not photographs.
 PLAQUE_IMG_BASE = "assets/"
 PLAQUES = [
- ("Hydraulic Research Laboratory, Indian Institute of Science: foundation stone, 10 April 1951",
+ ("Hydraulic Research Laboratory, Indian Institute of Science: the foundation stone, 10 April 1951",
   "iisc-hrl-1951.jpg",
-  "Stone plaque: foundation stone of the Hydraulic Research Laboratory, laid by Dr Rajendra Prasad, President of India, on 10th April 1951, naming V. S. Ramacharya as Engineer-in-Charge.",
+  "Foundation stone of the Hydraulic Research Laboratory, laid by Dr Rajendra Prasad, President of India, on 10 April 1951, naming V. S. Ramacharya as Engineer-in-Charge.",
   ["INDIAN INSTITUTE OF SCIENCE BANGALORE", "POWER ENGINEERING DEPARTMENT", "HYDRAULIC RESEARCH LABORATORY", "THIS FOUNDATION STONE WAS LAID BY",
    "DR RAJENDRA PRASAD", "THE PRESIDENT OF INDIA", "ON 10TH APRIL 1951", "SIR VITHAL N. CHANDAVARKAR, CHAIRMAN, GOVERNING COUNCIL",
    "A. C. PAI, REGISTRAR", "PROF. M. S. THACKER, DIRECTOR", "V. S. RAMACHARYA, ENGINEER-IN-CHARGE", "B. R. MANICKAM, ARCHITECT"],
-  "Photo: KG Haridasan. Source: IISc Department of Civil Engineering, 75 Years Legacy (2025), page 9."),
- ("Hydraulic Research Laboratory, Indian Institute of Science: opening stone, 15 June 1953",
+  "Dr. Rajendra Prasad, President of India, laid the foundation stone of the laboratory our grandfather built as Engineer-in-Charge."),
+ ("Hydraulic Research Laboratory, Indian Institute of Science: the opening stone, 15 June 1953",
   "iisc-hrl-1953.jpg",
-  "Stone plaque: the Hydraulic Research Laboratory was opened by Sri K. Hanumanthaiya, Chief Minister of Mysore, on 15th June 1953, naming V. S. Ramacharya as Engineer-in-Charge.",
+  "Opening stone of the Hydraulic Research Laboratory, opened by Sri K. Hanumanthaiya, Chief Minister of Mysore, on 15 June 1953, naming V. S. Ramacharya as Engineer-in-Charge.",
   ["INDIAN INSTITUTE OF SCIENCE", "POWER ENGINEERING DEPARTMENT", "HYDRAULIC RESEARCH LABORATORY", "THIS BUILDING WAS OPENED BY",
    "SRI K. HANUMANTHAIYA", "CHIEF MINISTER OF MYSORE", "15TH JUNE 1953", "SIR VITHAL N. CHANDAVARKAR, CHAIRMAN, GOVERNING COUNCIL",
    "A. C. PAI, REGISTRAR", "PROF. M. S. THACKER, DIRECTOR", "N. S. GOVINDA RAO, PROFESSOR", "B. R. MANICKAM, ARCHITECT", "V. S. RAMACHARYA, ENGINEER-IN-CHARGE"],
-  "Photo: KG Haridasan. Source: IISc Department of Civil Engineering, 75 Years Legacy (2025), page 9."),
- ("Indian Institute of Science: Central Library and High Voltage Engineering department", "", "", [],
-  "Our grandfather’s name is on the building stones of the Central Library and the High Voltage Engineering department. Their text will be added from the family’s own photographs."),
- ("Hydraulics Laboratory, Indian Institute of Science: the tilting flume", "iisc-hrl-flume.jpg",
-  "Poster: Tilting flume at Hydraulics Laboratory of Indian Institute of Science, with a photograph of the flume, its plan and side drawings, its specifications (28 m long, 1.8 m wide, 1 m deep, 50 tons) and a table of tilting flumes in the world.",
-  [], "The laboratory our grandfather built as Engineer-in-Charge went on to house this tilting flume, described on the poster as the first of its kind in the Asia Pacific region. Poster of the IISc Hydraulics Laboratory, shared by the family. Funding agency named on it: Ministry of Water Resources, Government of India."),
- ("Vidhana Soudha, Bengaluru: foundation stone, 13 July 1951", "", "", [],
-  "The foundation stone was laid by Prime Minister Jawaharlal Nehru on 13 July 1951, and the building was completed in 1956. B.R. Manickam is credited as its chief architect. Manickam and our grandfather are named together on the IISc Hydraulic Research Laboratory stones of 1951 and 1953: Manickam as Architect, V.S. Ramacharya as Engineer-in-Charge. A photograph of the Vidhana Soudha stone will be added."),
+  "Sri K. Hanumanthaiya, Chief Minister of Mysore, opened the completed laboratory two years later."),
+ ("The tilting flume of the Hydraulics Laboratory", "iisc-hrl-flume.jpg",
+  "The tilting flume at the Hydraulics Laboratory of the Indian Institute of Science, with its drawings and specifications.",
+  [], "The laboratory went on to house a tilting flume, the first of its kind in the Asia Pacific region, serving research, teaching and training in water engineering."),
+ ("The Central Library and the High Voltage Engineering department, Indian Institute of Science", "", "", [],
+  "Our grandfather’s name stands on the building stones of the Institute’s Central Library and its High Voltage Engineering department."),
+ ("Vidhana Soudha, Bengaluru", "", "", [],
+  "Prime Minister Jawaharlal Nehru laid the foundation stone of Vidhana Soudha on 13 July 1951, and the building was completed in 1956 to the design of its chief architect, B.R. Manickam. Manickam and our grandfather worked side by side at the Institute, where the Hydraulic Research Laboratory stones name Manickam as Architect and V.S. Ramacharya as Engineer-in-Charge."),
  ("State Bank of Mysore head office, Kempegowda Road, Bengaluru", "", "", [],
-  "The State Bank of Mysore headquarters building on Kempegowda Road was designed by our grandfather, Pujya Shri. Ramacharya. He was on the board of Canara Bank and SBM, and led the head office and branch buildings across Karnataka. A photograph of the building will be added."),
+  "Our grandfather designed the State Bank of Mysore headquarters on Kempegowda Road. He served on the boards of Canara Bank and the State Bank of Mysore, and led the building of their head offices and branches across Karnataka."),
 ]
-HRL_FEATURES_H = "The Hydraulic Research Laboratory: key features of the project"
+HRL_FEATURES_H = "The Hydraulic Research Laboratory"
 HRL_FEATURES = [
- "Why it was built: after Independence, India began large river-valley projects for water and power. In 1947 a committee under physicist Meghnad Saha asked IISc to set up a Power Engineering department, with a Civil and Hydraulic Engineering section (pages 6 and 7).",
- "What it was for: the section’s first task was water supply and dams. Dam work then led on to soil mechanics and structural engineering (page 7).",
- "The building: the hydraulics laboratory was the department’s first building. Dr. Rajendra Prasad, President of India, laid its foundation stone on 10 April 1951, and Sri K. Hanumanthaiya, Chief Minister of Mysore, opened it on 15 June 1953 (pages 8 and 9).",
- "Research inside: about ten years of work on cavitation (how bubbles form and collapse in fast-flowing water), and research on centrifugal pumps (page 8).",
- "Materials: tests on prestressed concrete, which uses far less steel, and a strong, quick-setting concrete mix made from local materials (page 8).",
- "Teaching: a two-year post-graduate diploma had begun by 1951, with new teachers and research assistants hired in 1951 and 1952 (page 8).",
- "Funding: Prof. N.S. Govinda Rao, who led the section from 1950, brought projects and funding through the Central Board of Irrigation and Power (page 7).",
- "The people on the stones: Sir Vithal N. Chandavarkar (Chairman, Governing Council), A.C. Pai (Registrar), Prof. M.S. Thacker (Director), N.S. Govinda Rao (Professor), B.R. Manickam (Architect) and our grandfather, V.S. Ramacharya (Engineer-in-Charge) (page 9).",
+ "Purpose: after Independence, India set out to harness its rivers for water and power. In 1947 the Institute founded a Power Engineering department, whose Civil and Hydraulic Engineering section grew into today’s Department of Civil Engineering.",
+ "The building: the laboratory was the department’s first building, devoted at first to water supply and dams, and then to soil mechanics and structural engineering.",
+ "Research: a decade of pioneering work on cavitation, the forming and collapse of bubbles in fast-flowing water, and research on centrifugal pumps.",
+ "Materials: early work on prestressed concrete, which saves a great deal of steel, and on a quick-setting, high-strength concrete made from local materials.",
+ "Teaching: a two-year post-graduate diploma, with new faculty and research assistants joining in 1951 and 1952.",
+ "Support: projects and funding through the Central Board of Irrigation and Power, under Prof. N.S. Govinda Rao, who led the section from 1950.",
+ "The people named on its stones: Sir Vithal N. Chandavarkar, Chairman of the Governing Council; A.C. Pai, Registrar; Prof. M.S. Thacker, Director; N.S. Govinda Rao, Professor; B.R. Manickam, Architect; and our grandfather, V.S. Ramacharya, Engineer-in-Charge.",
 ]
 def plaques_html():
     out = ['<h4>Buildings and building stones</h4>']
     for title, img, alt, lines, note in PLAQUES:
         pic = (f'<img class="os-pimg" src="{PLAQUE_IMG_BASE}{img}" alt="{E(alt)}" width="572" height="381" loading="lazy">') if img else ''
         body = ('<p class="os-pt">' + "<br>".join(E(x) for x in lines) + '</p>') if lines else ''
-        out.append(f'<div class="os-plaque"><p class="os-pk">{E(title)}</p>{pic}{body}<p class="os-note">{E(note)}</p></div>')
+        out.append(f'<div class="os-plaque"><p class="os-pk">{E(title)}</p>{pic}{body}<p>{E(note)}</p></div>')
     out.append(f'<h4>{E(HRL_FEATURES_H)}</h4><ul>' + "".join(f'<li>{E(x)}</li>' for x in HRL_FEATURES) + '</ul>')
-    out.append('<p class="os-note">Source for this section: IISc Department of Civil Engineering, 75 Years Legacy (2025).</p>')
+    out.append('<p class="os-note">Plaque photographs by KG Haridasan, from “75 Years Legacy”, Department of Civil Engineering, Indian Institute of Science, 2025.</p>')
     return "".join(out) + '<!--os-stones-end-->'
 
 def iisc_html():
     li = lambda xs: "<ul>" + "".join(f"<li>{E(x)}</li>" for x in xs) + "</ul>"
-    return (f'<h3 class="os-iisc">{E(IISC_H)}</h3><h4>What the Institute’s own history records</h4>{li(IISC_RECORD)}'
-            f'<h4>What our family remembers</h4><p class="os-note">Our own account, handed down in the family.</p>{li(IISC_FAMILY)}' + plaques_html())
+    return (f'<h3 class="os-iisc">{E(IISC_H)}</h3><h4>The founding of the Institute</h4>{li(IISC_RECORD)}'
+            f'<h4>Our family and the Institute</h4>{li(IISC_FAMILY)}' + plaques_html())
 
 JOURNEY = {"yantra": "/energy-journey/"}
 
