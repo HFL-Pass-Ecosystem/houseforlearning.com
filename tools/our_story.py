@@ -84,17 +84,40 @@ IISC_RECORD = [
  "IISc’s Department of Civil Engineering booklet, 75 Years Legacy (2025), reproduces the inscriptions of the Hydraulic Research Laboratory. Its foundation stone was laid by Dr. Rajendra Prasad, President of India, on 10 April 1951, and it was opened on 16 June 1953. Both inscriptions name Prof. M.S. Thacker as Director, V.S. Ramacharya as Engineer-in-Charge and B.R. Manickam as Architect.",
 ]
 IISC_FAMILY = [
- "Our great-grandfather, Pujya Shri. V. Shyamacharya (Asthana Maha Vidwan, Panditha Rathna, Shasana Vidya Vibhushana, Maha Mahapodhyaya), who served the Wadiyar dynasty as teacher and adviser, had a part in founding the Institute.",
- "Our grandfather’s elder brother, Mr. V.S. Vedavyasacharya (M.A., I.C.S.), served in the Indian Civil Service in Mysore State and helped the project through the State’s administration.",
+ "Our great-grandfather, Pujya Shri. V. Shyamacharya (Asthana Maha Vidwan, Panditha Rathna, Shasana Vidya Vibhushana, Maha Mahapodhyaya), who served the Wadiyar dynasty as teacher and adviser, had a part in founding the Institute in the time of its founder, Jamsetji Nusserwanji Tata.",
+ "Our grandfather’s elder brother, Mr. V.S. Vedavyasacharya (M.A., I.C.S.), served in the Indian Civil Service in Mysore State and helped the project through the State’s administration, in the time of Jamsetji Tata’s son, Sir Dorabji Tata.",
  "Our grandfather, Pujya Shri. Ramacharya (BE in Civil Engineering): Gold Medalist Civil Engineer, and Gold Medalist Scholar in Samskritha and Music. He was born around the same time as J.R.D. Tata. He finished his engineering at the age of 21. His earliest job was with the CPWD (Central Public Works Department). Then he joined IISc. He was handpicked and hired by J.R.D. Tata for the design and development of the Indian Institute of Science. He served with the Mysore State Public Works Department and the Karnataka Housing Board. At IISc, the Hydraulic Research Laboratory’s foundation stone (1951) and opening (1953) inscriptions record him as Engineer-in-Charge. His name is on the building stones of the Central Library and the High Voltage Engineering department at the Institute. He received recognition as the chief engineering architect of the Institute.",
  "J.R.D. Tata, born in 1904 and of a later Tata generation, took great interest in the Institute, and enjoyed long walks across the campus to the observatory with Sri V.S. Ramacharya, and sometimes with Sri Vedavyasacharya.",
  "Sir C.V. Raman, Sir M. Visvesvaraya and other great visitors to the Institute were well known to the family. Many of their gifts are still with family members.",
  "The Dewans Sir K. Seshadri Iyer and, later, Sir Mirza Ismail were close to the family in their time. Their part in the Institute was as Dewans of Mysore, not as family.",
 ]
+# Building stones (owner, 13 Nov 2026: "put the plaque of all the IISc constructions and all the Vidhana Soudha constructions on the web page").
+# Only text from a written source is shown; nothing is made up. Typeset text, not photographs.
+PLAQUES = [
+ ("Indian Institute of Science, Hydraulic Research Laboratory: foundation stone, 10 April 1951",
+  ["INDIAN INSTITUTE OF SCIENCE, BANGALORE", "POWER ENGINEERING DEPARTMENT", "HYDRAULIC RESEARCH LABORATORY", "FOUNDATION STONE LAID BY",
+   "DR. RAJENDRA PRASAD, PRESIDENT OF INDIA", "10 APRIL 1951", "PROF. M. S. THACKER — DIRECTOR", "V. S. RAMACHARYA — ENGINEER-IN-CHARGE", "B. R. MANICKAM — ARCHITECT"],
+  "Text as transcribed in IISc’s Department of Civil Engineering booklet, 75 Years Legacy (2025)."),
+ ("Indian Institute of Science, Hydraulic Research Laboratory: opening stone, 16 June 1953",
+  ["V. S. RAMACHARYA — ENGINEER-IN-CHARGE", "B. R. MANICKAM — ARCHITECT"],
+  "The same booklet records that the opening inscription names them again in these roles. Its full text will be added from a photograph of the stone."),
+ ("Indian Institute of Science: Central Library and High Voltage Engineering department",
+  [],
+  "Our grandfather’s name is on the building stones of these two buildings. Their text will be added from the family’s own photographs."),
+ ("Vidhana Soudha, Bengaluru: foundation stone, 13 July 1951",
+  [],
+  "The foundation stone was laid by Prime Minister Jawaharlal Nehru on 13 July 1951, and the building was completed in 1956. B.R. Manickam is credited as its chief architect. The plaque text will be added from a photograph of the stone."),
+]
+def plaques_html():
+    out = ['<h4>The building stones</h4>']
+    for title, lines, note in PLAQUES:
+        body = ('<p class="os-pt">' + "<br>".join(E(x) for x in lines) + '</p>') if lines else ''
+        out.append(f'<div class="os-plaque"><p class="os-pk">{E(title)}</p>{body}<p class="os-note">{E(note)}</p></div>')
+    return "".join(out)
 def iisc_html():
     li = lambda xs: "<ul>" + "".join(f"<li>{E(x)}</li>" for x in xs) + "</ul>"
     return (f'<h3 class="os-iisc">{E(IISC_H)}</h3><h4>What the Institute’s own history records</h4>{li(IISC_RECORD)}'
-            f'<h4>What our family remembers</h4><p class="os-note">Our own account, handed down in the family.</p>{li(IISC_FAMILY)}')
+            f'<h4>What our family remembers</h4><p class="os-note">Our own account, handed down in the family.</p>{li(IISC_FAMILY)}' + plaques_html())
 
 JOURNEY = {"yantra": "/energy-journey/"}
 
@@ -146,6 +169,7 @@ CSS = """
 .os-in{margin:8px 0 16px;border:1px solid var(--line,#d9d4c5);border-radius:10px;background:var(--card,#fff);padding:4px 16px}.os-in>summary{cursor:pointer;font-weight:600;padding:10px 0}.os-in>summary:focus-visible{outline:3px solid #0F85DB;outline-offset:2px}
 .os-pic{margin:18px 0 8px}.os-pic img{display:block;width:100%;max-width:720px;height:auto;border-radius:10px;border:1px solid var(--line,#d9d4c5)}.os-more{display:flex;flex-wrap:wrap;gap:16px;margin:0 0 8px}.os-more .os-pic{flex:1 1 260px;max-width:340px;margin:10px 0 0}.os-pic figcaption{font-size:.85rem;color:var(--mute,#4a5a68);margin-top:8px;font-style:normal}
 .os-iisc{border-top:1px solid var(--line,#d9d4c5);padding-top:24px}.os-body ul{margin:0 0 12px;padding-left:1.2em}.os-body li{margin:0 0 6px}.os-note{font-size:.9rem;color:var(--mute,#4a5a68)}
+.os-plaque{border:1px solid var(--line,#d9d4c5);border-radius:8px;padding:14px 16px;margin:0 0 12px;background:var(--card,#fff)}.os-pk{font-weight:700;margin:0 0 8px}.os-pt{font-family:Georgia,serif;letter-spacing:.04em;text-align:center;line-height:1.7;margin:0 0 8px;padding:10px;border:1px dashed var(--line,#d9d4c5)}
 .os-go{margin:22px 0 0}.os-go a{display:inline-block;background:#3CC261;color:#0b2a14;font-weight:700;text-decoration:none;padding:11px 18px;border-radius:999px}.os-go a:hover{background:#2fae52}.os-go a:focus-visible{outline:3px solid #0F85DB;outline-offset:2px}
 @media(max-width:560px){.os-box>summary{padding:18px 16px}.os-body{padding:0 16px 22px}}
 
