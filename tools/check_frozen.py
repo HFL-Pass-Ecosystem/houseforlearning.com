@@ -5,8 +5,8 @@ import hashlib, re, sys, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 FROZEN = {
-    # name: (page, sha256 of the block from its opening FROZEN comment to its closing one), approved 13 Nov 2026, revised by the founder 13 Nov 2026 (again 20:09Z: 'Gold Medalist Civil Engineer'; 20:13Z: his exact words 'Handpicked and hired by J.R.D. Tata for the design and development of the Indian Institute of Science.')
-    'family-roots': ('site/about.html', '93752ffbf3d7a4143fac38caa2be7731d72f1badcf005c6bbc2d1a7b8532a6d1'),
+    # name: (page, sha256 of the block from its opening FROZEN comment to its closing one), approved 13 Nov 2026, revised by the founder 13 Nov 2026 (21:12Z: 'Design and development of the Indian Institute of Science.' on his word; again 20:09Z: 'Gold Medalist Civil Engineer'; 20:13Z: his exact words 'Handpicked and hired by J.R.D. Tata for the design and development of the Indian Institute of Science.')
+    'family-roots': ('site/about.html', '529f89fb4198316e9cc10286d67de999a85ad352ccd864aabbef6c0d81545ef6'),
 }
 bad = 0
 for name, (page, want) in FROZEN.items():
