@@ -7,7 +7,7 @@ from html import escape as E
 
 TRIBUTE = [
  "Every great journey begins with one person who touches, moves and inspires lives to improve. For me there are two men and a few women.",
- "My grandfather, Mr. V.S. Ramacharya, chief architect of the Indian Institute of Science, who also built highways through some of the hardest sections of India. My great-grandfather, who served the Wadayar dynasty as teacher and adviser. My father, a fine sportsman and an even finer human being. My mother, my sister, my wife and my grandmothers. They have all left a mark on me.",
+ "My grandfather, Mr. V.S. Ramacharya, who, as our family remembers, was the chief engineering architect of the Indian Institute of Science, and who also built highways through some of the hardest sections of India. My great-grandfather, who served the Wadayar dynasty as teacher and adviser. My father, a fine sportsman and an even finer human being. My mother, my sister, my wife and my grandmothers. They have all left a mark on me.",
  "I am the creator of this work, but my backbone is my father. The words that follow are his.",
 ]
 
@@ -71,6 +71,30 @@ PHOTO = {"yantra": "/assets/img/family-photo.jpg", "hflpass": "img/family-photo.
 MORE = [("family-raja.jpg", 960, 1280, "An old portrait of a seated elderly man in a turban, dark coat and white dhoti, in a studio with a curtain and a tiled floor.", "Shri Raja Rao, the founder’s maternal grandfather.")]
 PHOTO_ALT = "A family portrait from long ago, restored and colourised: elders seated in the middle, young couples on either side, and four children sitting on a rug in front, in a garden."
 PHOTO_CAP = "Our family, gathered for a portrait. Seated: Mr. V. S. Ramacharya (B.E., Civil); Smt. Rukmini Bai, his wife; Smt. Saraswati Bai, with little Draupadi (later the wife of Capt. Bhargav, who became General Manager of Hindustan Motors, the company that built the Ambassador car); Mr. V. S. Vedavyasacharya (M.A., I.C.S.) with Master Madhwaraja; the grandfather, Mahamahopadhyaya; Shri Shyamacharya with Krishna Bai; Smt. Kamala Bai; Mr. V. S. Jayacharya (B.A., B.L.); and Smt. Kamulu. On the rug: Master Anantachar and Master Sri Padarajacharya, with their friends from the neighbours. This photograph was restored and colourised by a Bangalore studio, and gifted to everyone in the family in September 2025."
+# The Indian Institute of Science: the public record and the family's own account, kept apart (owner's IISc note, 13 Nov 2026).
+# Public lines follow IISc's own history papers. Family names and titles are taken from the founder-approved family records
+# (the frozen 'Our roots' section on site/about.html).
+IISC_H = "The Indian Institute of Science and our family"
+IISC_RECORD = [
+ "In 1893, on a voyage to Japan, Jamsetji Nusserwanji Tata (1839–1904) and Swami Vivekananda spoke about building up science in India.",
+ "Jamsetji Tata set up a committee, led by his close associate Burjorji Padshah, to draw up the plan for the Institute.",
+ "On the initiative of the Dewan of Mysore, Sir K. Seshadri Iyer, the government of Maharaja Krishnaraja Wadiyar IV gave about 371 acres of land in Bangalore.",
+ "After Jamsetji Tata died in 1904, his sons Sir Dorabji Tata and Sir Ratanji Tata carried the plan forward.",
+ "The Main Building was designed by C.F. Stevens of Bombay, and the Maharaja laid its foundation stone on 1 February 1911.",
+]
+IISC_FAMILY = [
+ "Our great-grandfather, Pujya Shri. V. Shyamacharya (Asthana Maha Vidwan, Panditha Rathna, Shasana Vidya Vibhushana, Maha Mahapodhyaya), who served the Wadiyar dynasty as teacher and adviser, had a part in founding the Institute.",
+ "Our grandfather’s elder brother, Mr. V.S. Vedavyasacharya (M.A., I.C.S.), served in the Indian Civil Service in Mysore State and helped the project through the State’s administration.",
+ "Our grandfather, Pujya Shri. Ramacharya (BE in Civil Engineering), Gold Medalist Civil Engineer and Gold Medalist Scholar in Samskritha and Music, was handpicked and hired by J.R.D. Tata for the design and development of buildings on the Indian Institute of Science campus, and led engineering and building work for the Institute. His name is on the building stones of the Central Library and the High Voltage Engineering department at the Institute. In the family he is remembered as its chief engineering architect.",
+ "J.R.D. Tata, of a later Tata generation, took great interest in the Institute, and enjoyed long walks across the campus to the observatory with Sri V.S. Ramacharya, and sometimes with Sri Vedavyasacharya.",
+ "Sir C.V. Raman, Sir M. Visvesvaraya and other great visitors to the Institute were well known to the family. Many of their gifts are still with family members.",
+ "The Dewans Sir K. Seshadri Iyer and, later, Sir Mirza Ismail were close to the family in their time. Their part in the Institute was as Dewans of Mysore, not as family.",
+]
+def iisc_html():
+    li = lambda xs: "<ul>" + "".join(f"<li>{E(x)}</li>" for x in xs) + "</ul>"
+    return (f'<h3 class="os-iisc">{E(IISC_H)}</h3><h4>What the Institute’s own history records</h4>{li(IISC_RECORD)}'
+            f'<h4>What our family remembers</h4><p class="os-note">Our own account, handed down in the family.</p>{li(IISC_FAMILY)}')
+
 JOURNEY = {"yantra": "/energy-journey/"}
 
 def our_story(site="ahfl", tag="h2"):
@@ -100,7 +124,7 @@ def our_story(site="ahfl", tag="h2"):
             f'<summary><span class="os-k">Our story</span><{tag} id="os-h">Words from our family</{tag}>'
             f'<span class="os-t">Where this work comes from: a father’s message, and a son’s thanks.</span>'
             f'<span class="os-b">Read the full story</span></summary>'
-            f'<div class="os-body"><div class="os-trib">{trib}</div>{pic}'
+            f'<div class="os-body"><div class="os-trib">{trib}</div>{pic}{iisc_html()}'
             f'<h3>From the Desk of the Chairpersons Emeritus</h3><div class="os-letter">{father}</div>'
             f'<h3 class="os-sj">How I learned to Touch, Move and Inspire</h3><div class="os-sjt">{sj}<p class="os-who"><strong>Sanjay R Acharya</strong></p><p class="os-go"><a href="{JH}">See the energy journey: 150 years behind us, 150 ahead.</a></p></div>'
             f'</div></details></div></aside>')
@@ -120,6 +144,11 @@ CSS = """
 .os-sj{border-top:1px solid var(--line,#d9d4c5);padding-top:24px}.os-greet{font-weight:600}.os-verse{margin:16px 0;padding-left:16px;border-left:3px solid #0F85DB}.os-who{margin-top:16px}
 .os-in{margin:8px 0 16px;border:1px solid var(--line,#d9d4c5);border-radius:10px;background:var(--card,#fff);padding:4px 16px}.os-in>summary{cursor:pointer;font-weight:600;padding:10px 0}.os-in>summary:focus-visible{outline:3px solid #0F85DB;outline-offset:2px}
 .os-pic{margin:18px 0 8px}.os-pic img{display:block;width:100%;max-width:720px;height:auto;border-radius:10px;border:1px solid var(--line,#d9d4c5)}.os-more{display:flex;flex-wrap:wrap;gap:16px;margin:0 0 8px}.os-more .os-pic{flex:1 1 260px;max-width:340px;margin:10px 0 0}.os-pic figcaption{font-size:.85rem;color:var(--mute,#4a5a68);margin-top:8px;font-style:normal}
+.os-iisc{border-top:1px solid var(--line,#d9d4c5);padding-top:24px}.os-body ul{margin:0 0 12px;padding-left:1.2em}.os-body li{margin:0 0 6px}.os-note{font-size:.9rem;color:var(--mute,#4a5a68)}
 .os-go{margin:22px 0 0}.os-go a{display:inline-block;background:#3CC261;color:#0b2a14;font-weight:700;text-decoration:none;padding:11px 18px;border-radius:999px}.os-go a:hover{background:#2fae52}.os-go a:focus-visible{outline:3px solid #0F85DB;outline-offset:2px}
 @media(max-width:560px){.os-box>summary{padding:18px 16px}.os-body{padding:0 16px 22px}}
+
+/* family-roots (frozen section) */
+.os-roots{margin:30px 0 0;padding:22px 0 0;border-top:2px solid #3CC261}.os-roots>h3{font-family:var(--lx-display,Georgia,serif);font-weight:500;font-size:clamp(1.2rem,2.4vw,1.45rem);margin:0 0 10px}.os-lead{font-style:italic;color:var(--ink,#1b2330)}.os-list{margin:0 0 14px;padding-left:1.2em}.os-list li{margin:2px 0}.os-tbl{border-collapse:collapse;width:100%;margin:6px 0 14px;font-size:.95rem}.os-tbl th,.os-tbl td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line,#d9d4c5);vertical-align:top}.os-tbl th{font-weight:700}.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.os-fig{margin:14px 0 18px}.os-fig img{display:block;max-width:100%;height:auto;border:1px solid var(--line,#d9d4c5);border-radius:8px;background:#fff}.os-fig figcaption{font-size:.9rem;color:var(--mute,#4a5160);margin-top:6px}
 """
