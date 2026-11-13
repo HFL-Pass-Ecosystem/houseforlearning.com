@@ -5,8 +5,8 @@ import hashlib, re, sys, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 FROZEN = {
-    # name: (page, sha256 of the block from its opening FROZEN comment to its closing one), approved 13 Nov 2026, revised by the founder 13 Nov 2026
-    'family-roots': ('site/about.html', 'b3b3ed6dd4e9854038a0b9f7d7bfb84c239d4384ab9625328043ba47762ee57b'),
+    # name: (page, sha256 of the block from its opening FROZEN comment to its closing one), approved 13 Nov 2026, revised by the founder 13 Nov 2026 (again 20:09Z: 'Gold Medalist Civil Engineer')
+    'family-roots': ('site/about.html', 'b95980d5943186999fc7400cd20fccd238cd1b134a9c60080e4d584102bf3d5f'),
 }
 bad = 0
 for name, (page, want) in FROZEN.items():
