@@ -169,7 +169,7 @@ def our_story(site="ahfl", tag="h2"):
     return (f'<aside class="os" id="our-story" aria-labelledby="os-h"><div class="w"><details class="os-box">'
             f'<summary><span class="os-k">Our story</span><{tag} id="os-h">Words from our family</{tag}>'
             f'<span class="os-t">Where this work comes from: a father’s message, and a son’s thanks.</span>'
-            f'<span class="os-b">Read the full story</span></summary>'
+            f'<a class="os-b" href="https://claude.ai/artifact/6ZGKqkEESyFUcqaeRACZcy" target="_blank" rel="noopener">Read the full story</a></summary>'
             f'<div class="os-body"><div class="os-trib">{trib}</div>{pic}{iisc_html()}'
             f'<h3>From the Desk of the Chairpersons Emeritus</h3><div class="os-letter">{father}</div>'
             f'<h3 class="os-sj">How I learned to Touch, Move and Inspire</h3><div class="os-sjt">{sj}<p class="os-who"><strong>Sanjay R Acharya</strong></p><p class="os-go"><a href="{JH}">See the energy journey: 150 years behind us, 150 ahead.</a></p></div>'
