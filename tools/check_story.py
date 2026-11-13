@@ -16,7 +16,7 @@ MUST_HAVE = [
     'assets/family/shamacharya.jpg', 'assets/family/ramacharya-rukmini-bai.jpg',
     'assets/family/press-dekra-2015.jpg', 'assets/family/press-mep-2015-cover.jpg', 'assets/family/press-mep-2015-column.jpg',
     # IISc story, building stones and gallery (13 Nov)
-    'The Indian Institute of Science and our family', 'Vedavyasacharya', 'Mountbatten',
+    'The Indian Institute of Science and our family', 'Vedavyasacharya', 'He worked with Dr. Rajendra Prasad, the first President of India.<',
     'assets/iisc-hrl-1951.jpg', 'assets/iisc-hrl-1953.jpg', 'assets/iisc-hrl-flume.jpg',
     'V. S. RAMACHARYA, ENGINEER-IN-CHARGE', 'The Hydraulic Research Laboratory</h4>',
     'Vidhana Soudha', 'State Bank of Mysore head office',
