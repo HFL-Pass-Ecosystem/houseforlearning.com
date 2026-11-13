@@ -30,7 +30,7 @@ def cards(items, cls=''):
 def table(head, rows):
     return '<div class="lh"><table><thead><tr>' + ''.join(f'<th>{e(h)}</th>' for h in head) + '</tr></thead><tbody>' + \
       ''.join('<tr>' + ''.join(f'<td>{c}</td>' for c in r) + '</tr>' for r in rows) + '</tbody></table></div>'
-def ph(label): return f'<div class="lhph">Picture placeholder: {e(label)}</div>'
+def ph(label): return ''  # no placeholder boxes in public (owner's rule); only the owner's own images may go in
 def sec(i, kick, h2, inner):
     return f'<section class="sec" aria-labelledby="{i}"><div class="wrap"><div class="sec-head"><p class="kicker">{e(kick)}</p><h2 id="{i}">{e(h2)}</h2></div><div class="sec-body"><div class="lh">{inner}</div></div></div></section>\n'
 def write(fn, title, desc, kicker, h1, lead, body):
