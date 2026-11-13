@@ -12,8 +12,8 @@ MUST_HAVE = [
     'id="our-story"', 'From the Desk of the Chairpersons Emeritus', 'How I learned to Touch, Move and Inspire',
     # Our roots (13 Nov), family records and press
     'Our roots: a family of exemplars', 'Pujya Shri. V. Shyamacharya', 'Pujya Sri. Ramacharya and Smt. Rukumini Bai',
-    'Sri. V.R. Raghavendra Acharya and the family today', 'In the press',
-    'assets/family/shamacharya.jpg', 'assets/family/ramacharya-rukmini-bai.jpg', 'assets/family/family-today.jpg',
+    'In the press',
+    'assets/family/shamacharya.jpg', 'assets/family/ramacharya-rukmini-bai.jpg',
     'assets/family/press-dekra-2015.jpg', 'assets/family/press-mep-2015-cover.jpg', 'assets/family/press-mep-2015-column.jpg',
     # IISc story, building stones and gallery (13 Nov)
     'The Indian Institute of Science and our family', 'Vedavyasacharya', 'Mountbatten',
