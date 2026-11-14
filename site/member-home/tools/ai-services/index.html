@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI services | Ajan SNS (Manav AI)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="kit.css">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../_hub/bar.css">
+<script src="../_hub/style-shim.js"></script>
+<link rel="stylesheet" href="../_hub/gate.css">
+<script src="/member-home/config.js"></script>
+<script src="/member-home/supabase.js"></script>
+<script src="/member-home/auth.js"></script>
+<script src="../_hub/gate-hfl.js"></script>
+</head>
+<body>
+<noscript><p class="k-card">This screen needs JavaScript switched on.</p></noscript>
+<main>
+<h1>AI services</h1>
+<p class="k-sub">Ajan SNS (Manav AI). Staff administrators only. Pick the AI services we use, paid or free. Keys are locked away on the server and are never shown again.</p>
+<p class="k-msg" id="say" role="status" aria-live="polite"></p>
+<section class="k-card">
+<h2>Add a service</h2>
+<div class="k-row">
+<div><label class="k-lab" for="fKind">Show</label><select class="k-in" id="fKind"><option value="all">All</option><option value="paid">Paid</option><option value="free">Free</option></select></div>
+<div class="k-grow"><label class="k-lab" for="fPick">1. Pick from the list</label><select class="k-in" id="fPick"></select></div>
+</div>
+<p class="k-note" id="fInfo"></p>
+<label class="k-lab" for="fFree">Or type a name, app link or website</label><input class="k-in" id="fFree" maxlength="200" autocomplete="off">
+<div class="k-row">
+<div class="k-grow"><label class="k-lab" for="fTok">Token / key name (optional)</label><input class="k-in" id="fTok" maxlength="60" autocomplete="off"></div>
+<div class="k-grow"><label class="k-lab" for="fKey">Key value (hidden)</label><input class="k-in" id="fKey" type="password" maxlength="400" autocomplete="new-password"></div>
+<div class="k-grow"><label class="k-lab" for="fCoup">Coupon / promo code (optional)</label><input class="k-in" id="fCoup" maxlength="80" autocomplete="off"></div>
+</div>
+<div class="k-row"><button type="button" class="k-btn k-pri" id="fSave">Save this service</button></div>
+</section>
+<section class="k-card">
+<h2>Saved services</h2>
+<div id="saved" class="k-list"></div>
+</section>
+<section class="k-card">
+<h2>Send one brief to every saved service that has a key</h2>
+<label class="k-lab" for="bText">Brief</label><textarea class="k-in" id="bText" maxlength="12000"></textarea>
+<div class="k-row"><button type="button" class="k-btn k-pri" id="bSend">Send brief</button></div>
+<div id="replies"></div>
+</section>
+</main>
+<script src="services.js"></script>
+<script src="page.js"></script>
+</body>
+</html>
