@@ -28,7 +28,7 @@ for m in MUST_HAVE:
         missing.append('file ' + m)
 # FROZEN by the founder, 13 Nov 2026 22:54Z ("freeze this change"): the family story page, every file. Opening paragraphs revised on his word 14 Nov 2026.
 import hashlib
-FS_HASH = 'b14cf0aeb9292332d0105b5b76dc9cf0249f0c691581bd73cebc8d6e8ac1a112'
+FS_HASH = 'eeb36895981bcec00d0ab17b0a4dc276c3daa9b522a1cde714f226f7c571dcb9'
 d = 'site/family-story'
 lines = ''.join('%s  ./%s\n' % (hashlib.sha256(open(os.path.join(d, f), 'rb').read()).hexdigest(), f)
                 for f in sorted((os.path.relpath(os.path.join(r, n), d) for r, _, ns in os.walk(d) for n in ns), key=lambda x: x.encode()))
