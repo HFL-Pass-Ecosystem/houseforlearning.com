@@ -6,6 +6,7 @@ import hashlib, re, sys, pathlib
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 FROZEN = {
     # name: (page, sha256 of the block from its opening FROZEN comment to its closing one), approved 13 Nov 2026, revised by the founder 13 Nov 2026 (21:19Z: the section 'Sri. V.R. Raghavendra Acharya and the family today' removed on his word; 21:12Z: 'Design and development of the Indian Institute of Science.' on his word; again 20:09Z: 'Gold Medalist Civil Engineer'; 20:13Z: his exact words 'Handpicked and hired by J.R.D. Tata for the design and development of the Indian Institute of Science.')
+    'family-story-opening': ('site/family-story/index.html', '3615e17cd1c764d2a2765ef43ed7ddb251f9188164bf2b0de7dbb42296ecf504'),
     'family-roots': ('site/about.html', '46ee494a53c7e230d6790bce319ee48f65c063cffaf3613f529077fc216613af'),
 }
 bad = 0
