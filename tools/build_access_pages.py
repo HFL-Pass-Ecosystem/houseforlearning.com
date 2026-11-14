@@ -4,7 +4,7 @@ import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import build_full_courses as B
 S = B.S
-SCR = '<script src="assets/access.js" defer></script>'
+SCR = '<script src="assets/pricing.js" defer></script><script src="assets/access.js" defer></script>'
 pay = ('<div class="wrap"><div id="pay-box" class="acc-card" style="display:block"><p id="pay-out">Loading.</p></div>'
        '<noscript><p>This test step needs JavaScript.</p></noscript></div>'
        '<script>document.addEventListener("DOMContentLoaded",function(){function g(n){var m=new RegExp("[?&]"+n+"=([^&]*)").exec(location.search);return m?decodeURIComponent(m[1].replace(/\\+/g," ")):""}'
@@ -12,9 +12,11 @@ pay = ('<div class="wrap"><div id="pay-box" class="acc-card" style="display:bloc
        'if(!/^[a-z0-9._-]+\\.html$/i.test(c)){o.textContent="Choose a course first.";box.innerHTML+=\'<p><a class="btn" href="courses-all.html">Browse courses</a></p>\';return}'
        'if(!/(?:^|; )hfl_in=1/.test(document.cookie)){o.textContent="Sign in first, then come back to join this course.";box.innerHTML+=\'<p><a class="btn" href="login.html">Sign in</a></p>\';return}'
        'box.innerHTML="";var h=document.createElement("h3");h.textContent="Join: "+t;box.appendChild(h);'
-       'var p=document.createElement("p");p.textContent="Pay by bank transfer or UPI. In this test no payment is taken: press the button below to pretend you have paid. Test only. No real money is taken.";box.appendChild(p);'
-       'var ul=document.createElement("ul");["Bank transfer: details are shown here when payments go live.","UPI: the UPI details are shown here when payments go live."].forEach(function(x){var li=document.createElement("li");li.textContent=x;ul.appendChild(li)});box.appendChild(ul);'
-       'var b=document.createElement("button");b.type="button";b.className="btn";b.textContent="I have paid (test)";'
+       'var P=window.HFLPrice,tr=P&&P.tier(c),cu=P?P.currency():"USD",pr=tr&&tr[cu],ln=tr&&tr.links&&tr.links[cu];'
+       'if(pr){var q=document.createElement("p");q.className="pay-price";q.textContent=tr.label+": "+P.fmt(cu,pr.base)+" + "+P.fmt(cu,pr.admin)+" admin charge (20%, covers taxes and upkeep) = "+P.fmt(cu,pr.total)+". One payment, no subscription. Module 1 stays free.";box.appendChild(q)}'
+       'if(ln){var pa=document.createElement("a");pa.className="btn";pa.href=ln;pa.rel="noopener";pa.textContent="Pay "+P.fmt(cu,pr.total)+" now";box.appendChild(pa);var pn=document.createElement("p");pn.textContent="After paying, come back to this page and press I have paid.";box.appendChild(pn)}'
+       'else{var p=document.createElement("p");p.textContent="Payments are not switched on yet. In this test no payment is taken: press the button below to pretend you have paid. Test only. No real money is taken.";box.appendChild(p)}'
+       'var b=document.createElement("button");b.type="button";b.className=ln?"btn btn-ghost":"btn";b.textContent=ln?"I have paid":"I have paid (test)";'
        'b.addEventListener("click",function(){var d=window.HFLAccess.load();var r=d[c]||{};d[c]={paid:true,title:t,total:r.total||0,done:r.done||[],paidAt:Date.now(),updated:Date.now()};window.HFLAccess.save(d);location.href=c});box.appendChild(b);'
        'var a=document.createElement("a");a.href=c;a.textContent="Back to the course";a.style.marginLeft="14px";box.appendChild(a);});</script>')
 mine = ('<div class="wrap"><div id="mycourses"></div></div>'
@@ -30,6 +32,6 @@ B.page('pay.html', 'Join a course (test)', 'Test payment step. No real money is 
 B.page('members-courses.html', 'My courses', 'Courses you have joined in this test', 'My courses', 'Courses you have joined. Test only. Progress is kept in this browser.', B.sec('', 'mc', 'my courses', 'Your courses', mine), B.crumb(('Members', 'members.html'), ('My courses', None)), kicker='Members')
 for f in ('pay.html', 'members-courses.html'):
     p = S / f; t = p.read_text()
-    if 'access.js' not in t: p.write_text(t.replace('</body>', SCR + '\n</body>', 1))
+    if 'pricing.js' not in t: p.write_text(t.replace('</body>', SCR + '\n</body>', 1))
     t = p.read_text(); t = t.replace('<meta name="robots" content="index,follow">', '<meta name="robots" content="noindex">'); p.write_text(t)
 print('access pages built')

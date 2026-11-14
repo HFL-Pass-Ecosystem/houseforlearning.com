@@ -22,7 +22,7 @@ STEPS = [
     'build_emba',              # Executive MBA subject library: hub + 19 subject pages (free entry, voice + type, learning styles)
     'loc_deep', 'loc_deep_all', 'loc_editions', 'flagship_loc_four',   # four-place location pages
     'build_regional_hubs', 'build_courses_all',
-    'build_access_pages', 'add_series_gate', 'patch_audience_pages',
+    'build_pricing', 'build_access_pages', 'add_series_gate', 'patch_audience_pages',
     'build_services', 'build_support', 'build_wix_content', 'build_org_pages', 'build_home', 'build_timetool',
     'build_ai_income',          # AI side-income path: hub + 15 lessons (own words, no outside names)
     'build_my_learning', 'build_welcome_map',        # signed-in learning home (test only)
