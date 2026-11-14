@@ -26,9 +26,9 @@ missing = [m for m in MUST_HAVE if m not in s]
 for m in MUST_HAVE:
     if m.startswith('assets/') and not os.path.exists('site/' + m):
         missing.append('file ' + m)
-# FROZEN by the founder, 13 Nov 2026 22:54Z ("freeze this change"): the family story page, every file.
+# FROZEN by the founder, 13 Nov 2026 22:54Z ("freeze this change"): the family story page, every file. Opening paragraphs revised on his word 14 Nov 2026.
 import hashlib
-FS_HASH = '388ece7ac4b6589aacef9482125d23da937a14327463efa446b24165644a6357'
+FS_HASH = 'b14cf0aeb9292332d0105b5b76dc9cf0249f0c691581bd73cebc8d6e8ac1a112'
 d = 'site/family-story'
 lines = ''.join('%s  ./%s\n' % (hashlib.sha256(open(os.path.join(d, f), 'rb').read()).hexdigest(), f)
                 for f in sorted((os.path.relpath(os.path.join(r, n), d) for r, _, ns in os.walk(d) for n in ns), key=lambda x: x.encode()))
