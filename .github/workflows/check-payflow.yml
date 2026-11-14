@@ -5,7 +5,7 @@ name: Check pay flow
 
 on:
   pull_request:
-    branches: [claude/hfl-courses]
+    branches: [ahfl/hfl-courses]
     paths:
       - 'site/assets/access.js'
       - 'site/assets/courses.css'

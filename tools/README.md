@@ -20,7 +20,7 @@ Checks every course page for the flagship standard (Bloom verbs, task/condition/
 ```
 python3 tools/ci_check.py
 ```
-Same as the GitHub check "Check pages" on pull requests into `claude/hfl-courses`. It fails if the rebuild changes any file, if the audit shows a gap not already listed in `audits/course-page-audit.md`, if `tools/check_links.py` finds a broken link, if `tools/check_secrecy.py` finds a banned word, or if `tools/audit_school_spec.py` fails (skipped while that file does not exist). It prints a short list of what to fix. It does not deploy and needs no secrets.
+Same as the GitHub check "Check pages" on pull requests into `ahfl/hfl-courses`. It fails if the rebuild changes any file, if the audit shows a gap not already listed in `audits/course-page-audit.md`, if `tools/check_links.py` finds a broken link, if `tools/check_secrecy.py` finds a banned word, or if `tools/audit_school_spec.py` fails (skipped while that file does not exist). It prints a short list of what to fix. It does not deploy and needs no secrets.
 
 ## Link check
 ```
@@ -43,13 +43,13 @@ Opens a sample of pages from each course family (school, CPD, GL flagship, four-
 
 ## How to read the CI results (for the owner)
 
-Every pull request into `claude/hfl-courses` gets a check called **Check pages**. It is a robot that rebuilds the whole site and looks for mistakes. You do not need to run anything.
+Every pull request into `ahfl/hfl-courses` gets a check called **Check pages**. It is a robot that rebuilds the whole site and looks for mistakes. You do not need to run anything.
 
 **Where to look**
 1. Open the pull request on GitHub and scroll to the box at the bottom, headed "Checks".
 2. A **green tick** next to "Check pages" means: safe on these points. A **red cross** means: do not fold yet. A yellow dot means it is still running (about a minute).
 3. To see why it is red, click **Details**, then open the step **Run python3 tools/ci_check.py**. The text starts with `CHECK FAILED` and then lists each problem in short lines.
-4. To check the newest folded work without a pull request: GitHub > Actions > Check pages > **Run workflow**, pick the branch `claude/hfl-courses`, and open the run when it finishes.
+4. To check the newest folded work without a pull request: GitHub > Actions > Check pages > **Run workflow**, pick the branch `ahfl/hfl-courses`, and open the run when it finishes.
 
 **What each message means**
 | Message starts with | Meaning | Who fixes it |

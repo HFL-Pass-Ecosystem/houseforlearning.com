@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HFL Saathi</title>
+<meta name="description" content="HFL Saathi: one companion app from first subscription to daily life, free and in your own language.">
+<link rel="canonical" href="https://houseforlearning.com/saathi/">
+<link rel="stylesheet" href="saathi.css">
+<link rel="stylesheet" href="../assets/atle/atle.css"><script src="../assets/atle/atle.js" defer></script><!-- seo-pass -->
+<meta property="og:image" content="https://houseforlearning.com/assets/brand/hfl-sbs-1200w.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="HFL Saathi">
+<meta name="twitter:description" content="HFL Saathi: one companion app from first subscription to daily life, free and in your own language.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://houseforlearning.com/saathi/#page", "url": "https://houseforlearning.com/saathi/", "name": "HFL Saathi", "description": "HFL Saathi: one companion app from first subscription to daily life, free and in your own language.", "isPartOf": {"@type": "WebSite", "@id": "https://houseforlearning.com/#site", "name": "House for Learning", "url": "https://houseforlearning.com/"}, "inLanguage": "en"}]}</script>
+</head><body>
+<div class="atle-rib" data-atle="ribbon"><a href="../atle.html" aria-label="ATLE(it): Author it, Train it, Learn it, Earn it"><img src="../assets/atle/atle-logo.svg" alt="" width="60" height="22"><span>Author it, Train it, Learn it, Earn it</span></a></div><p class="hfl-back"><a href="../">House for Learning home</a></p>
+<header class="top">
+  <div>
+    <div class="eyebrow">House for Learning · own messaging app · v1 design</div>
+    <h1>HFL <span>Saathi</span>: one app from first subscription to daily life</h1>
+  </div>
+  <p>Working name "Saathi" (companion). Free for people, in the language they choose, for India and the Global South. It opens with exam prep and job alerts, then grows into chat, learning, careers, enterprise, news and entertainment. Tap through the phone on the left; the build plan is on the right.</p>
+</header>
+
+<div class="wrap">
+  <!-- ================= PHONE PROTOTYPE ================= -->
+  <div class="phone-col">
+    <div class="phone" id="phone">
+      <div class="sbar"><span id="clock">07:45</span><span id="net">2G · Lite on</span></div>
+      <div class="appbar" id="appbar">
+        <div class="logo" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round"><path d="M5 19V9l7-5 7 5v10"/><path d="M9 19v-5h6v5"/></svg></div>
+        <h2>Saathi</h2>
+        <button class="chip on" id="liteBtn" aria-pressed="true" title="Data saver">Lite</button>
+        <button class="chip" id="langBtn" title="Switch language">EN ▾</button>
+      </div>
+      <div class="backbar" id="backbar" hidden>
+        <button id="backBtn" aria-label="Back to chats">&#8592;</button>
+        <div class="av" id="chatAv" style="width:34px;height:34px;border-radius:11px;font-size:.85rem"></div>
+        <div><div class="t" id="chatTitle"></div><div class="s" id="chatSub"></div></div>
+      </div>
+      <div class="screen" id="screen"></div>
+      <form class="compose" id="compose" hidden>
+        <input id="msgIn" autocomplete="off" placeholder="Type a doubt or message">
+        <button type="submit" aria-label="Send"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12l16-8-6 16-2-7z"/></svg></button>
+      </form>
+      <nav class="tabs" id="tabs" role="tablist"></nav>
+      <div class="toast" id="toast" hidden></div>
+    </div>
+    <div class="hint">Sample data. Try: open the AI Doubt Tutor chat, answer today's practice question, toggle Lite, tap the language chip to cycle languages.</div>
+  </div>
+
+  <!-- ================= BLUEPRINT ================= -->
+  <section class="bp">
+    <div class="bp-tabs" role="tablist" id="bpTabs">
+      <button role="tab" aria-selected="true" data-p="mods">Modules</button>
+      <button role="tab" aria-selected="false" data-p="roll">Rollout</button>
+      <button role="tab" aria-selected="false" data-p="stack">Tech stack</button>
+      <button role="tab" aria-selected="false" data-p="free">Free and global</button>
+      <button role="tab" aria-selected="false" data-p="low">Low bandwidth</button>
+      <button role="tab" aria-selected="false" data-p="trust">Trust and law</button>
+    </div>
+
+    <!-- MODULES -->
+    <div data-panel="mods">
+      <h3>Eight modules, one login, one phone number</h3>
+      <p class="lead">Sign-in is a mobile number with OTP, so nobody needs an email. Every module shares one identity, one wallet and one notification inbox. The launch build ships modules 1 to 4; the rest switch on by phase.</p>
+      <div class="mods">
+        <div class="mod"><h4>1 · Chats <span class="tag">Launch</span></h4><ul><li>1:1 and group chat, end-to-end encrypted</li><li>Study circles of 5 to 50 people</li><li>Voice notes in 16 kbps audio</li><li>Read receipts that can be turned off</li></ul><div class="why">The daily habit. Replaces outside messengers for HFL learners first.</div></div>
+        <div class="mod"><h4>2 · Channels <span class="tag">Launch</span></h4><ul><li>One-way broadcast: job alerts by state, exam and qualification</li><li>Daily solved-question drop</li><li>Comments in a linked discussion group</li><li>Free channels plus paid premium ones</li></ul><div class="why">The first thing people subscribe to. It brings them in.</div></div>
+        <div class="mod"><h4>3 · Learn (70-20-10) <span class="tag">Launch</span></h4><ul><li><b>70</b> Practice: daily sets, mock tests, offline packs</li><li><b>20</b> Lessons: recorded 2 to 6 minute videos</li><li><b>10</b> Facilitator: live doubt rooms, expert review</li><li>AI Doubt Tutor inside chat</li></ul><div class="why">Uses the same course objects as the HFL learning platform, so progress counts toward credentials.</div></div>
+        <div class="mod"><h4>4 · Watch <span class="tag">Launch</span></h4><ul><li>Short vertical solved-question videos</li><li>Audio plus slides mode for weak signal</li><li>Download on Wi-Fi or at a truck hub</li><li>Plays on phone, tablet, PC and TV cast</li></ul><div class="why">Covers the "medium of their choice" ask across devices.</div></div>
+        <div class="mod"><h4>5 · Careers <span class="tag m">Phase 1</span></h4><ul><li>Eligibility check against the learner's profile</li><li>Deadline and admit-card reminders</li><li>Application tracker</li><li>Employer and apprenticeship listings later</li></ul><div class="why">Turns alerts into a record of outcomes HFL can show.</div></div>
+        <div class="mod"><h4>6 · Explore <span class="tag m">Phase 2</span></h4><ul><li>All HFL programmes: govt exams, IT and Digital, EMBA, academies</li><li>Creation Studio and Open Library</li><li>Communities by city, college and employer</li><li>Partner mini-apps</li></ul><div class="why">The doorway from one subscription into the full ecosystem.</div></div>
+        <div class="mod"><h4>7 · Daily <span class="tag m">Phase 2–3</span></h4><ul><li>Engagement-team feed: quizzes, contests, streak games</li><li>Licensed news and current affairs</li><li>Infotainment and entertainment shows</li><li>Audio and video calls</li></ul><div class="why">What makes it a daily app beyond study time.</div></div>
+        <div class="mod"><h4>8 · Wallet <span class="tag">Launch</span></h4><ul><li>Core app is free; pay only for optional certified programmes</li><li>UPI in India; Pix, M-Pesa and local wallets elsewhere</li><li>Receipts, scholarships, referral credits</li><li>Certificates and badges in one place</li><li>Family member can pay for a learner</li></ul><div class="why">All sales and payment stay digital, inside HFL.</div></div>
+      </div>
+
+      <div class="split">
+        <div><b style="color:var(--peacock)">70</b><span>Practice. Daily sets, mocks, projects and on-the-job tasks, auto-marked where possible.</span></div>
+        <div><b style="color:var(--marigold)">20</b><span>Digital lessons. Recorded short videos and readings, cached for offline use.</span></div>
+        <div><b>10</b><span>Facilitator. Live doubt rooms and expert answers that feed back to the AI.</span></div>
+      </div>
+
+      <h3 style="font-size:1.15rem">How a doubt becomes content for everyone</h3>
+      <p class="lead">This is the loop the person described: AI answers at scale, and experts in the cognitive, affective and psychomotor domains fill gaps that then go back to every learner.</p>
+      <div class="loop">
+        <svg viewBox="0 0 760 210" role="img" aria-label="Doubt answer loop">
+          <defs><marker id="ah" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><polygon points="0,0 8,4 0,8"/></marker></defs>
+          <rect class="n" x="10" y="20" width="130" height="58" rx="10"/><text x="22" y="44">Learner asks</text><text class="sm" x="22" y="62">text, voice or photo</text>
+          <rect class="pk" x="180" y="20" width="150" height="58" rx="10"/><text x="192" y="44">AI Doubt Tutor</text><text class="sm" x="192" y="62">answers from HFL bank</text>
+          <rect class="n" x="370" y="20" width="160" height="58" rx="10"/><text x="382" y="44">Confident + cited?</text><text class="sm" x="382" y="62">yes: send. no: flag</text>
+          <rect class="hl" x="570" y="20" width="180" height="58" rx="10"/><text x="582" y="44">Expert review queue</text><text class="sm" x="582" y="62">cognitive · affective · psychomotor</text>
+          <rect class="pk" x="570" y="130" width="180" height="58" rx="10"/><text x="582" y="154">Approved answer</text><text class="sm" x="582" y="172">+ short video if needed</text>
+          <rect class="n" x="330" y="130" width="200" height="58" rx="10"/><text x="342" y="154">HFL knowledge bank</text><text class="sm" x="342" y="172">versioned, tagged by syllabus</text>
+          <rect class="n" x="10" y="130" width="280" height="58" rx="10"/><text x="22" y="154">Delivered to everyone with that doubt</text><text class="sm" x="22" y="172">channel drop, Watch feed, practice set</text>
+          <path d="M140 49 H176" marker-end="url(#ah)"/><path d="M330 49 H366" marker-end="url(#ah)"/><path d="M530 49 H566" marker-end="url(#ah)"/>
+          <path d="M660 78 V126" marker-end="url(#ah)"/><path d="M570 159 H534" marker-end="url(#ah)"/><path d="M330 159 H294" marker-end="url(#ah)"/>
+          <path d="M255 78 V100 H400 V126" marker-end="url(#ah)"/><text class="sm" x="268" y="96">confident answers also saved</text>
+        </svg>
+      </div>
+    </div>
+
+    <!-- ROLLOUT -->
+    <div data-panel="roll" hidden>
+      <h3>From an exam-prep app to a daily super-app in four phases</h3>
+      <p class="lead">Each phase opens only when the one before meets its gate. Durations are planning estimates and assume a core team of about 25 engineers growing to 80.</p>
+      <div class="phases">
+        <div class="phase"><div><div class="when">Months 0–4</div><div class="pn">0 · Launch: Exam companion</div><div class="gate">Gate: 50,000 active learners, 40% open the app 5 days a week</div></div>
+          <div class="cols"><div><h5>Ships</h5><ul><li>OTP sign-in, profile, language</li><li>Channels: job alerts, daily solved questions</li><li>Learn: practice and lessons, AI Doubt Tutor</li><li>Watch with Lite mode</li><li>UPI subscriptions</li></ul></div><div><h5>Where</h5><ul><li>Android app and web app (PWA)</li><li>One pilot state, 3 exam families</li><li>Hindi and English, plus one regional language</li></ul></div></div></div>
+        <div class="phase"><div><div class="when">Months 4–10</div><div class="pn">1 · Community</div><div class="gate">Gate: 10 lakh users, under 1% message failure on 2G</div></div>
+          <div class="cols"><div><h5>Ships</h5><ul><li>Encrypted 1:1 and group chat, study circles</li><li>Voice notes, live doubt rooms</li><li>Careers: eligibility, reminders, tracker</li><li>Offline packs and truck-hub sync</li></ul></div><div><h5>Where</h5><ul><li>iOS, Windows and Mac desktop</li><li>8 languages, 5 states</li><li>SMS fallback for alerts</li></ul></div></div></div>
+        <div class="phase"><div><div class="when">Months 10–18</div><div class="pn">2 · Ecosystem</div><div class="gate">Gate: 25% of users hold 2+ HFL products</div></div>
+          <div class="cols"><div><h5>Ships</h5><ul><li>Explore: EMBA, IT and Digital, academies</li><li>Creation Studio and Open Library inside the app</li><li>Certificates and badges in Wallet</li><li>Audio and video calls, communities</li><li>Engagement-team Daily feed</li></ul></div><div><h5>Where</h5><ul><li>All states, 12 languages</li><li>Gulf corridor (UAE, Saudi Arabia) and first African markets</li><li>Smart TV and tablet layouts</li><li>Feature-phone access by IVR and SMS</li></ul></div></div></div>
+        <div class="phase"><div><div class="when">Months 18–30</div><div class="pn">3 · Super-app</div><div class="gate">Gate: average 30+ minutes a day outside study</div></div>
+          <div class="cols"><div><h5>Ships</h5><ul><li>Licensed news and current affairs</li><li>Infotainment and entertainment shows</li><li>Partner mini-apps framework</li><li>Employer marketplace and apprenticeships</li></ul></div><div><h5>Where</h5><ul><li>22 Indian languages plus Global South languages</li><li>Africa, South and Southeast Asia, Latin America</li><li>Open to non-learners</li></ul></div></div></div>
+      </div>
+      <div class="note"><b>Why start narrow</b>People move messaging apps only when the people and content they need are already there. Starting with paid exam-prep channels gives every early user a reason to open Saathi daily before their friends arrive.</div>
+    </div>
+
+    <!-- STACK -->
+    <div data-panel="stack" hidden>
+      <h3>Open-source stack, owned by HFL, hosted in India</h3>
+      <p class="lead">One recommendation per layer, chosen for licence clarity, low-end Android performance and scale. Check every licence with counsel before launch.</p>
+      <div class="tbl"><table>
+        <thead><tr><th>Layer</th><th>Recommended</th><th>Why</th><th>Alternative</th></tr></thead>
+        <tbody>
+          <tr><td class="k">Apps</td><td>Flutter for Android, iOS, Windows, Mac; same code builds the web app</td><td>One codebase, runs on entry-level Android Go phones</td><td>React Native plus a separate web app</td></tr>
+          <tr><td class="k">Feature phones</td><td>SMS and IVR gateway, plus a light web app for KaiOS</td><td>Reaches learners without smartphones</td><td>USSD menus</td></tr>
+          <tr><td class="k">Messaging protocol</td><td>Matrix open standard, on a Rust homeserver (Apache-2.0)</td><td>Encryption, groups, channels and federation already specified; no lock-in</td><td>XMPP on ejabberd</td></tr>
+          <tr><td class="k">Encryption</td><td>MLS (RFC 9420) through OpenMLS</td><td>Scales to large groups; an IETF standard</td><td>Olm and Megolm (Matrix default)</td></tr>
+          <tr><td class="k">Live rooms and calls</td><td>LiveKit (Apache-2.0), shared with the HFL video platform</td><td>Same engine as live classes; works with audio only</td><td>Jitsi</td></tr>
+          <tr><td class="k">Video on demand</td><td>FFmpeg transcode to HLS, 144p to 720p plus audio-only</td><td>Picks quality to match the signal</td><td>DASH</td></tr>
+          <tr><td class="k">Data</td><td>PostgreSQL, ScyllaDB for message history, Valkey cache</td><td>Proven at billions of rows</td><td>Cassandra</td></tr>
+          <tr><td class="k">Events</td><td>Redpanda (Kafka API)</td><td>Feeds alerts, analytics and the learning record</td><td>Apache Kafka</td></tr>
+          <tr><td class="k">Search</td><td>OpenSearch</td><td>Search for alerts, questions and lessons in Indic languages</td><td>Meilisearch</td></tr>
+          <tr><td class="k">AI tutor</td><td>HFL AI engine, answering only from the HFL knowledge bank</td><td>Cited answers; uncertain ones go to experts</td><td>Open-weight model on own GPUs</td></tr>
+          <tr><td class="k">Indic language</td><td>IndicTrans2 for translation, open speech models for voice doubts</td><td>Covers the 22 scheduled languages</td><td>Cloud translation API</td></tr>
+          <tr><td class="k">Push</td><td>Firebase and Apple push, plus own MQTT for phones without Google services</td><td>Alerts arrive on every phone</td><td>Own MQTT only</td></tr>
+          <tr><td class="k">Payments</td><td>UPI through an RBI-authorised aggregator; Pix, M-Pesa and cards abroad through licensed local providers</td><td>Only for optional paid programmes; the core app is free</td><td>One global aggregator</td></tr>
+          <tr><td class="k">Languages</td><td>Unicode text with right-to-left layouts for Arabic and Urdu; Noto fonts for every script</td><td>One build serves every language</td><td>Separate regional builds</td></tr>
+          <tr><td class="k">Hosting</td><td>Kubernetes in two Indian cloud regions, edge cache in each state office and truck unit</td><td>Data stays in India; fast near learners</td><td>Own data centre after phase 2</td></tr>
+        </tbody>
+      </table></div>
+      <div class="note"><b>Link to the learning platform</b>Saathi signs learners in with the same HFL identity as the portal and sends progress as xAPI statements, so practice done in chat counts toward micro-credentials. The portal's team chat stays where it is; Saathi is the public, mass-scale app.</div>
+    </div>
+
+    <!-- FREE AND GLOBAL -->
+    <div data-panel="free" hidden>
+      <h3>Free for people, in their own language, across the Global South</h3>
+      <p class="lead">India and the Global South together are about 4 to 5 billion people. Saathi reaches them through its own app and its own public web pages, with no paid ads and no outside social platforms.</p>
+      <div class="mods">
+        <div class="mod"><h4>Free forever</h4><ul><li>Chat, channels, job alerts</li><li>Practice, lessons and Watch</li><li>AI Doubt Tutor with a daily allowance</li><li>Rights and safety lessons</li></ul><div class="why">Nobody pays to join or to talk.</div></div>
+        <div class="mod"><h4>Optional, paid</h4><ul><li>Certified programmes and credentials</li><li>Live facilitator cohorts</li><li>Enterprise and academy licences</li><li>Government and partner contracts</li></ul><div class="why">Pays for the free tier. No ads, no selling of data.</div></div>
+        <div class="mod"><h4>Own reach</h4><ul><li>Every solved question, alert and lesson summary gets a fast public web page in each language that search engines index</li><li>Share links open without the app</li><li>Referral credits</li><li>Village champions from train-the-trainer</li></ul><div class="why">Organic growth that HFL owns.</div></div>
+        <div class="mod"><h4>Community spaces</h4><ul><li>Communities by village, town, college and employer</li><li>Local notice boards and events</li><li>Small-business and enterprise circles</li><li>Local news and entertainment in Phase 3</li></ul><div class="why">Engagement inside people's own communities.</div></div>
+      </div>
+      <h3 style="font-size:1.15rem;margin-top:22px">Languages by wave</h3>
+      <div class="tbl"><table>
+        <thead><tr><th>Wave</th><th>Languages</th><th>Markets</th></tr></thead>
+        <tbody>
+          <tr><td class="k">Launch</td><td>Hindi, English, Bengali, Marathi, Tamil, Telugu</td><td>India pilot states</td></tr>
+          <tr><td class="k">Phase 1</td><td>All 22 Indian scheduled languages, step by step; Urdu right-to-left</td><td>All of India</td></tr>
+          <tr><td class="k">Phase 2</td><td>Arabic, Malayalam and Tamil for the Gulf; Swahili, Hausa, Yoruba, French</td><td>UAE, Saudi Arabia, Kenya, Nigeria</td></tr>
+          <tr><td class="k">Phase 3</td><td>Amharic, Zulu, Portuguese, Spanish, Bahasa Indonesia, Vietnamese, Filipino, Nepali, Sinhala</td><td>Africa, South and Southeast Asia, Latin America</td></tr>
+        </tbody>
+      </table></div>
+      <div class="note"><b>How each language is made</b>Machine translation drafts every screen and lesson; a paid native-speaker reviewer signs off learning content before it goes live. The person picks a language at sign-up and can change it any time; voice doubts work in that language too.</div>
+      <div class="note" style="background:var(--peacock-soft);border-color:var(--peacock)"><b>Shipping now, not later</b>Next 4 weeks: the web app goes live with free job-alert channels, daily solved questions and public pages in Hindi and English, plus links to the HFL privacy page. Each later wave adds languages without a new app release.</div>
+    </div>
+
+    <!-- LOW BANDWIDTH -->
+    <div data-panel="low" hidden>
+      <h3>Built for 2G, shared phones and patchy power</h3>
+      <p class="lead">Targets for a learner in a tier 3 town or village, on a low-cost Android phone with 2 GB RAM and an unreliable connection.</p>
+      <div class="budget">
+        <div><b>&lt; 15 MB</b><span>install size on Android</span></div>
+        <div><b>&lt; 1 KB</b><span>a typical text message</span></div>
+        <div><b>16 kbps</b><span>voice note audio</span></div>
+        <div><b>~1.2 MB</b><span>a 60-second solved question in Lite</span></div>
+        <div><b>&lt; 3 s</b><span>app open on a 2 GB phone</span></div>
+        <div><b>30 days</b><span>offline use from a downloaded pack</span></div>
+      </div>
+      <div class="mods">
+        <div class="mod"><h4>Lite mode</h4><ul><li>Images load on tap; small previews first</li><li>Video falls back to audio plus slides</li><li>Background sync waits for Wi-Fi</li><li>Shows data used this month</li></ul></div>
+        <div class="mod"><h4>Offline first</h4><ul><li>Messages queue and send when signal returns</li><li>Practice works offline and syncs answers later</li><li>Weekly packs of lessons and questions</li></ul></div>
+        <div class="mod"><h4>Truck and campus hubs</h4><ul><li>Each truck unit carries a local cache server</li><li>Phones pull packs over local Wi-Fi</li><li>Hub syncs with the cloud when it has a link</li></ul></div>
+        <div class="mod"><h4>No smartphone</h4><ul><li>Job alerts and results by SMS</li><li>IVR line for daily questions in local language</li><li>Shared family phone with separate profiles</li></ul></div>
+      </div>
+    </div>
+
+    <!-- TRUST -->
+    <div data-panel="trust" hidden>
+      <h3>Rules HFL must meet before scale</h3>
+      <p class="lead">These are known Indian requirements for a messaging and payments app. This is a checklist for counsel, not legal advice. Each country's data-protection law, and HFL's public statement on it, lives on the shared HFL privacy and data rights page. Saathi links to it from sign-up, Settings and Explore › Your rights, in the user's language.</p>
+      <div class="tbl"><table>
+        <thead><tr><th>Area</th><th>What applies</th><th>What the design does</th></tr></thead>
+        <tbody>
+          <tr><td class="k">Personal data</td><td>Digital Personal Data Protection Act 2023 and its 2025 Rules</td><td>Consent per purpose, data export and delete in settings, a named grievance contact</td></tr>
+          <tr><td class="k">Children</td><td>Verifiable parent consent for users under 18 under the same Act</td><td>Guardian link at sign-up; no targeted ads or tracking for minors; chats with adults limited to HFL staff and study circles</td></tr>
+          <tr><td class="k">Intermediary duties</td><td>IT Rules 2021. Above 50 lakh users in India, extra duties for a significant social media intermediary</td><td>Plan the compliance officer, nodal contact and resident grievance officer before Phase 1 ends</td></tr>
+          <tr><td class="k">Message traceability</td><td>The same Rules ask large messaging apps to identify a first sender on a court order. This rule is under court challenge.</td><td>Needs a legal decision before Phase 1, because it affects how encryption is built</td></tr>
+          <tr><td class="k">Payments</td><td>RBI rules on payment aggregators and recurring payment mandates</td><td>HFL does not hold money; a licensed aggregator does</td></tr>
+          <tr><td class="k">News</td><td>Digital news publisher code under the IT Rules 2021</td><td>Licence news from registered publishers in Phase 3 rather than write it in-house at first</td></tr>
+          <tr><td class="k">Safety</td><td>Duty to remove unlawful content quickly once notified</td><td>Report button on every message, moderation team, AI screening of public channels only</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+  </section>
+</div>
+<script src="saathi.js" defer></script>
+<div class="atle-foot" data-atle="foot"><a href="../atle.html" aria-label="ATLE(it): Author it, Train it, Learn it, Earn it"><img src="../assets/atle/atle-logo.svg" alt="ATLE(it)" width="82" height="30"></a><span>Author it, Train it, Learn it, Earn it. <a href="../atle.html">Start here</a>.</span></div></body></html>

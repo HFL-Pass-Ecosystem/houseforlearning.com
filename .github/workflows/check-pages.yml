@@ -1,10 +1,10 @@
-# Checks every pull request into claude/hfl-courses: the pages must match the builders, and the course audit must show no new gaps.
+# Checks every pull request into ahfl/hfl-courses: the pages must match the builders, and the course audit must show no new gaps.
 # Read-only. No deploy, no secrets.
 name: Check pages
 
 on:
   pull_request:
-    branches: [claude/hfl-courses]
+    branches: [ahfl/hfl-courses]
   workflow_dispatch:
 
 permissions:
