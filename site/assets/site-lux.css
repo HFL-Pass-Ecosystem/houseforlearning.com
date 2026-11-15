@@ -110,3 +110,4 @@ a{text-underline-offset:3px}
 .th-more{max-width:100%;white-space:normal}
 .sec.op-host{overflow-x:clip}
 .tbl-wrap{overflow-x:auto;max-width:100%}.tbl-wrap table{border-collapse:collapse;width:100%;min-width:520px}.tbl-wrap caption{text-align:left;font-weight:600;padding:0 0 8px}.tbl-wrap th,.tbl-wrap td{border:1px solid #d9d3c0;padding:8px 10px;text-align:left;vertical-align:top}.tbl-wrap thead th{background:#f2eee2}
+.hero .ajan-tag{margin:-4px 0 14px;font:italic 500 clamp(19px,2vw,24px)/1.35 "Cormorant Garamond","Literata",Georgia,serif;letter-spacing:.01em;color:#E9C46A}
