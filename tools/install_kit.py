@@ -15,7 +15,8 @@ Use (from the repository root):
 """
 import argparse, html, json, os, re, sys
 
-MARK_A, MARK_B = "<!-- install-kit:start -->", "<!-- install-kit:end -->"
+MARK_A, MARK_B = "", ""
+OLD = re.compile(r"<!-- install-kit:start -->.*?<!-- install-kit:end -->|<link rel=\"manifest\"[^>]*>|<link rel=\"stylesheet\" href=\"assets/install.css\">|<script src=\"assets/install.js\" defer></script>", re.S)
 
 
 def write(path, text):
@@ -262,14 +263,14 @@ def clone_page(root, template, new_title, desc, canonical, scope_dir, body):
     s = re.sub(r'<li aria-current="page">[^<]*</li>', "@@CRUMB@@", s)
     s = s.replace(' aria-current="page"', "").replace("@@CRUMB@@", '<li aria-current="page">Get the app</li>')
     s = re.sub(r"(<main[^>]*>).*?(</main>)", lambda m: m.group(1) + body + m.group(2), s, count=1, flags=re.S)
-    s = re.sub(MARK_A + ".*?" + MARK_B, "", s, flags=re.S)
+    s = OLD.sub("", s)
     s = s.replace("</head>", MARK_A + '<link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="assets/install.css"><script src="assets/install.js" defer></script>' + MARK_B + "</head>", 1)
     return s
 
 
 def patch_home(path):
     s = open(path, encoding="utf-8").read()
-    s = re.sub(MARK_A + ".*?" + MARK_B, "", s, flags=re.S)
+    s = OLD.sub("", s)  # an older manifest on the home page would clash with this one
     add = MARK_A + '<link rel="manifest" href="manifest.webmanifest"><script src="assets/install.js" defer></script>' + MARK_B
     if "</head>" not in s:
         raise SystemExit("no </head> in " + path)
