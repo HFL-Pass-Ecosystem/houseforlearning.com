@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Welcome to Ajan SNS</title>
+<meta name="description" content="Welcome to Ajan SNS: the switchboard for AI workers. A short first-visit set-up.">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="welcome.css">
+<!-- INTERNAL: consent wording and the five linked legal pages are first drafts. They need lawyer review and the founder's certification before this goes public. -->
+<link rel="stylesheet" href="../../assets/atle/atle.css"><script src="../../assets/atle/atle.js" defer></script></head><body>
+<div class="atle-rib" data-atle="ribbon"><a href="../../atle.html" aria-label="ATLE(it): Author it, Train it, Learn it, Earn it"><img src="../../assets/atle/atle-logo.svg" alt="" width="60" height="22"><span>Author it, Train it, Learn it, Earn it</span></a></div><main class="shell">
+<section class="left">
+
+<!-- STEP 1: welcome and consent -->
+<div class="step" id="s1">
+  <svg class="mark" viewBox="0 0 44 44" aria-hidden="true"><defs><linearGradient id="mg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e08a1e"/><stop offset="1" stop-color="#0d6670"/></linearGradient></defs><rect x="2" y="4" width="40" height="15" rx="7.5" fill="url(#mg)"/><rect x="2" y="25" width="40" height="15" rx="7.5" fill="url(#mg)" opacity=".7"/></svg>
+  <h1>Welcome to Ajan SNS</h1>
+  <p class="tag">One switchboard for your AI workers.</p>
+  <p class="notice">What you type and the answers you get are stored so we can run and improve the service, so please keep sensitive or personal details out of your requests. AI can be wrong, so check anything important before you rely on it. Read how we handle <a href="../legal/data-use.html">data use</a> and <a href="../legal/safety-factuality.html">safety and factuality</a>.</p>
+  <label class="chk"><input type="checkbox" id="c1"><span><span class="req" aria-hidden="true">*</span> I confirm that I am at least 18 years old and that I am using Ajan SNS for professional or business purposes.</span></label>
+  <label class="chk"><input type="checkbox" id="c2"><span>I would like emails about new features, offers, helpful tips, invitations to research conversations and news from AJAN HFL.</span></label>
+  <p class="agree">By pressing Continue you agree to the <a href="../legal/api-terms.html">Ajan SNS Ecosystem API Additional Terms of Service</a>, the <a href="../legal/starter-tier.html">Starter Tier Additional Terms</a> and the <a href="../legal/privacy.html">AJAN HFL Privacy Policy</a>.</p>
+  <button class="btn wide" id="go1" disabled>Continue <span aria-hidden="true">→</span></button>
+  <p class="err" id="e1" role="alert"></p>
+</div>
+
+<!-- STEP 2: what brings you -->
+<div class="step" id="s2" hidden>
+  <svg class="mark" viewBox="0 0 44 44" aria-hidden="true"><rect x="2" y="4" width="40" height="15" rx="7.5" fill="url(#mg)"/><rect x="2" y="25" width="40" height="15" rx="7.5" fill="url(#mg)" opacity=".7"/></svg>
+  <h1>What brings you to Ajan SNS?</h1>
+  <div class="bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i></i></div>
+  <p class="tag" style="margin-bottom:12px">Pick as many as you like.</p>
+  <div class="opts" id="opts"></div>
+  <div class="row"><button class="linkbtn" id="skip2">Skip</button><span class="sp"></span><button class="btn" id="go2" disabled>Continue <span aria-hidden="true">→</span></button></div>
+</div>
+
+<!-- STEP 3: first call -->
+<div class="step" id="s3" hidden>
+  <svg class="mark" viewBox="0 0 44 44" aria-hidden="true"><rect x="2" y="4" width="40" height="15" rx="7.5" fill="url(#mg)"/><rect x="2" y="25" width="40" height="15" rx="7.5" fill="url(#mg)" opacity=".7"/></svg>
+  <h1>Make your first call</h1>
+  <div class="bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i></div>
+  <p class="tag">Copy your key and the small example beside it to ask your first question to an Ajan SNS worker.</p>
+  <div class="row"><button class="linkbtn" id="skip3">Skip</button><span class="sp"></span><button class="btn ghost" id="back3"><span aria-hidden="true">←</span> Back</button><button class="btn" id="go3">Continue to Ajan SNS <span aria-hidden="true">→</span></button></div>
+</div>
+
+<!-- DONE -->
+<div class="step" id="s4" hidden>
+  <h1>You are all set</h1>
+  <p class="tag">Thank you. Your choices are saved. You can change them any time by writing to us from the contact page.</p>
+  <a class="btn" href="/member-home/tools/">Go to the tools <span aria-hidden="true">→</span></a>
+</div>
+</section>
+
+<aside class="right" aria-hidden="false">
+  <!-- art for step 1 -->
+  <div class="glow" id="a1"><svg class="art" viewBox="0 0 560 300" role="img" aria-label="Ajan SNS artwork"><defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f8fd4"/><stop offset="1" stop-color="#8f5fd1"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9a441"/><stop offset="1" stop-color="#e0662a"/></linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3d36a"/><stop offset="1" stop-color="#59c3a4"/></linearGradient></defs>
+    <path d="M110 40 C135 -2 170 -2 190 38 L250 205 C258 238 235 262 195 255 C165 250 135 248 95 258 C58 262 40 236 52 205 Z" fill="#fff" stroke="url(#g1)" stroke-width="5"/>
+    <rect x="272" y="40" width="64" height="215" rx="32" fill="#fff" stroke="url(#g2)" stroke-width="5"/>
+    <rect x="358" y="40" width="170" height="82" rx="41" fill="#fff" stroke="url(#g3)" stroke-width="5"/>
+    <rect x="358" y="140" width="170" height="82" rx="41" fill="#fff" stroke="url(#g3)" stroke-width="5" opacity=".9"/>
+    <circle cx="143" cy="150" r="8" fill="#0d6670"/><circle cx="143" cy="150" r="20" fill="none" stroke="#0d667055" stroke-width="2"/></svg></div>
+  <!-- carousel for step 2 -->
+  <div id="a2" hidden style="width:100%;display:flex;flex-direction:column;align-items:center">
+    <div class="glow" style="aspect-ratio:auto;width:100%"><div class="slidebox" id="slides"></div></div>
+    <div class="dots" id="dots"></div>
+  </div>
+  <!-- stacked cards for step 2 selections -->
+  <div id="a2s" hidden style="width:100%;display:flex;flex-direction:column;align-items:center">
+    <div class="glow" style="aspect-ratio:auto;width:100%"><div class="stack" id="stack"></div></div>
+    <div class="stackcap" id="stackcap"></div>
+  </div>
+  <!-- step 3 key panel -->
+  <div id="a3" hidden style="width:100%;display:flex;justify-content:center"><div class="glow" style="aspect-ratio:auto;width:100%"><div class="key">
+    <div class="top"><span>Your Ajan SNS key</span><button id="copykey" type="button">⧉ Copy key</button></div>
+    <div class="kv"><span id="kval"></span><button class="eye" id="eye" type="button" aria-label="Show or hide key">👁</button></div>
+    <p class="note3" id="keynote"></p>
+    <div class="code"><div class="tabs" role="tablist"><button class="tab" role="tab" aria-selected="true" data-l="py">Python</button><button class="tab" role="tab" aria-selected="false" data-l="js">JavaScript</button><button class="tab" role="tab" aria-selected="false" data-l="sh">cURL</button><span class="sp"></span><button class="copy" id="copycode" type="button" aria-label="Copy example">⧉</button></div><pre id="snip" tabindex="0"></pre></div>
+  </div></div></div>
+</aside>
+</main>
+<div class="toast" id="toast" role="status"></div>
+<script src="welcome.js"></script>
+<div class="atle-foot" data-atle="foot"><a href="../../atle.html" aria-label="ATLE(it): Author it, Train it, Learn it, Earn it"><img src="../../assets/atle/atle-logo.svg" alt="ATLE(it)" width="82" height="30"></a><span>Author it, Train it, Learn it, Earn it. <a href="../../atle.html">Start here</a>.</span></div></body></html>
