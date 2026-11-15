@@ -1,0 +1,37 @@
+/* install kit: the Get the app page and the offline page. Self-contained colours so it reads well on any site theme. */
+.pwa-install{--pi-ink:#1b2330;--pi-mut:#4a5565;--pi-line:#cfd6df;--pi-acc:#2b5d8a;max-width:960px;margin:0 auto;padding:24px 16px 40px;color:var(--pi-ink)}
+.pwa-install *{box-sizing:border-box}
+.pwa-install h1{margin:0 0 8px;font-size:clamp(26px,5vw,38px);line-height:1.15}
+.pwa-install .pi-lead{font-size:18px;line-height:1.5;margin:0 0 16px;max-width:60ch}
+.pwa-install .pi-hero{display:flex;gap:16px;align-items:center;flex-wrap:wrap;background:#fff;border:1px solid var(--pi-line);border-left:6px solid var(--pi-acc);border-radius:8px;padding:16px 18px;margin:16px 0 8px;color:var(--pi-ink)}
+.pwa-install .pi-hero img{width:64px;height:64px;border-radius:14px;flex:none}
+.pwa-install .pi-hero .pi-txt{flex:1 1 220px;min-width:0}
+.pwa-install .pi-hero strong{display:block;font-size:18px}
+.pwa-install .pi-hero span{color:var(--pi-mut)}
+.pwa-install .pi-btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:11px 22px;border:0;border-radius:6px;background:var(--pi-acc);color:#fff;font-family:inherit;font-weight:700;font-size:16px;line-height:1.2;cursor:pointer;text-decoration:none}
+.pwa-install .pi-btn[hidden]{display:none}
+.pwa-install .pi-btn:focus-visible,.pwa-install summary:focus-visible{outline:3px solid #0b6a82;outline-offset:2px}
+.pwa-install .pi-btn.alt{background:#fff;color:var(--pi-ink);border:1.5px solid var(--pi-ink)}
+.pwa-install .pi-note{color:var(--pi-mut);margin:6px 0 0}
+.pwa-install .pi-ok{display:none;background:#e7f6ec;border:1px solid #2f8f4e;color:#14532d;border-radius:8px;padding:12px 16px;margin:12px 0;font-weight:600}
+.pwa-install.is-installed .pi-ok{display:block}
+.pwa-install .pi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:14px;margin:18px 0}
+.pwa-install .pi-card{background:#fff;border:1px solid var(--pi-line);border-radius:8px;padding:0;overflow:hidden;color:var(--pi-ink)}
+.pwa-install .pi-card.is-mine{border:2px solid var(--pi-acc);box-shadow:0 2px 10px rgba(0,0,0,.08)}
+.pwa-install .pi-card summary{list-style:none;cursor:pointer;padding:14px 16px;font-weight:700;font-size:17px;display:flex;justify-content:space-between;gap:8px;align-items:center}
+.pwa-install .pi-card summary::-webkit-details-marker{display:none}
+.pwa-install .pi-card summary::after{content:"+";font-size:22px;line-height:1;color:var(--pi-acc)}
+.pwa-install .pi-card[open] summary::after{content:"\2212"}
+.pwa-install .pi-card .pi-tag{display:none;font-size:12px;font-weight:700;background:var(--pi-acc);color:#fff;border-radius:99px;padding:2px 10px;margin-left:8px}
+.pwa-install .pi-card.is-mine .pi-tag{display:inline-block}
+.pwa-install .pi-body{padding:0 16px 16px}
+.pwa-install .pi-body ol{margin:0 0 8px;padding-left:22px}
+.pwa-install .pi-body li{margin:0 0 8px;line-height:1.5}
+.pwa-install .pi-body p{margin:8px 0;color:var(--pi-mut)}
+.pwa-install .pi-small{font-size:14px;color:var(--pi-mut);margin-top:18px}
+.pwa-install kbd{font-family:inherit;font-weight:600;font-size:14px;line-height:1;background:#eef1f5;border:1px solid var(--pi-line);border-radius:4px;padding:2px 6px}
+.pwa-offline{max-width:560px;margin:12vh auto;padding:24px 16px;text-align:center;font:18px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:#1b2330}
+.pwa-offline img{width:84px;height:84px;border-radius:18px}
+.pwa-offline h1{font-size:28px;margin:16px 0 8px}
+.pwa-offline .pi-btn{display:inline-flex;min-height:46px;align-items:center;padding:11px 24px;border:0;border-radius:6px;background:#2b5d8a;color:#fff;font-family:inherit;font-weight:700;font-size:16px;line-height:1.2;cursor:pointer;margin-top:12px}
+body.pwa-offline-page{margin:0;background:#f4f6f9}
