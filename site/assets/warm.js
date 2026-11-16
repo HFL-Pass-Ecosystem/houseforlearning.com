@@ -42,7 +42,11 @@
     fail: 'That did not go through yet. Your words are still in the form, so please tap send again.',
     feel: 'How are you feeling right now?',
     felt: 'Thank you for telling us. We will keep that in mind when we reply.',
-    close: 'Close'
+    close: 'Close',
+    sent: '\u2713 Sent',
+    read: '\u2713\u2713 Read by our team',
+    slogan: (window.HEARYOU && window.HEARYOU.slogan) || '',
+    sloganEn: (window.HEARYOU && window.HEARYOU.sloganTranslation) || ''
   }, window.WARM_TEXT || {});
 
   var KINDS = [
@@ -77,9 +81,11 @@
     '.feel button{font-size:22px;background:#f4efe3;border:0;border-radius:999px;width:42px;height:42px;cursor:pointer}' +
     '.feel button:hover,.feel button:focus-visible{background:#ecdcb8}' +
     'button:focus-visible{outline:3px solid #c98b2b;outline-offset:2px}' +
+    '.tick{font-size:12.5px;color:#6b7280;letter-spacing:.01em}.tick.read{color:#2f7d4f;font-weight:600;margin:0 0 2px}' +
+    '.slogan{margin:8px 0 0;padding-top:8px;border-top:1px solid rgba(0,0,0,.08);font-size:13.5px}.slogan b{display:block;color:#2b5d8a;font-weight:600}.slogan span{color:#6b7280;font-size:12.5px}' +
     '.bad .big{filter:saturate(.6)}.pop{position:fixed;z-index:2147483002;font-size:30px;pointer-events:none}' +
     '@media (max-width:480px){.card{left:8px;right:8px;width:auto;bottom:76px}}' +
-    '@media (prefers-color-scheme:dark){.card{background:#1d2633;color:#eef2f7;border-color:rgba(255,255,255,.08)}.line{color:#e8cf9a}.feel button{background:#2a3546}.feel button:hover{background:#3a4a60}}' +
+    '@media (prefers-color-scheme:dark){.card{background:#1d2633;color:#eef2f7;border-color:rgba(255,255,255,.08)}.line{color:#e8cf9a}.slogan b{color:#9cc3ea}.tick.read{color:#6fd39b}.tick,.slogan span{color:#aab4c3}.feel button{background:#2a3546}.feel button:hover{background:#3a4a60}}' +
     '@media (prefers-reduced-motion:no-preference){.card{animation:in .28s cubic-bezier(.2,.9,.3,1.3)}' +
     '@keyframes in{from{opacity:0;transform:translateY(14px) scale(.96)}}' +
     '.big{animation:beat 1.2s ease-in-out 2}@keyframes beat{50%{transform:scale(1.18)}}' +
@@ -132,14 +138,17 @@
     msg.appendChild(el('b', null, o.text || (o.state === 'fail' ? T.fail : fill(T.received, { name: nm }))));
     var sub = el('div');
     if (o.state === 'working') {
+      sub.appendChild(el('span', 'tick', T.sent + ' \u00b7 '));
       sub.appendChild(D.createTextNode(T.working));
       var dots = el('span', 'dots'); dots.setAttribute('aria-hidden', 'true');
       dots.appendChild(el('i')); dots.appendChild(el('i')); dots.appendChild(el('i')); sub.appendChild(dots);
     } else if (o.state !== 'fail') {
       sub.textContent = o.ref ? fill(T.done, { ref: o.ref }) : T.doneNoRef;
     }
+    if (o.state === 'done') msg.appendChild(el('div', 'tick read', T.read));
     msg.appendChild(sub);
     if (o.state !== 'fail') msg.appendChild(el('p', 'line', o.line || pick(S.lines)));
+    if (o.state === 'done' && T.slogan) { var sg = el('p', 'slogan'); sg.appendChild(el('b', null, T.slogan)); if (T.sloganEn) sg.appendChild(el('span', null, T.sloganEn)); msg.appendChild(sg); }
     top.appendChild(big); top.appendChild(msg); top.appendChild(x); card.appendChild(top);
     if (o.state === 'done') {
       var f = el('div', 'feel'); f.appendChild(D.createTextNode(T.feel)); var row = el('div');

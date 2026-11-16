@@ -1,0 +1,3 @@
+/* House for Learning colours for the We Hear You kit (the site is light only). */
+html:root:root{--hy-accent:#2b5d8a;--hy-accent-fg:#fff;--hy-soft:#eef2f6;--hy-panel:#fffdf7;--hy-fg:#1d3550;--hy-muted:#5d6b7c;--hy-line:#e2dccb;--hy-read:#2f7d4f;--hy-glow:rgba(43,93,138,.18);--hy-font:'Literata',Georgia,serif}
+.hy-title{font-family:'Kalam','Literata',Georgia,cursive}
