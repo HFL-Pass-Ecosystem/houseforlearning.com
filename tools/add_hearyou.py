@@ -11,7 +11,7 @@ HEAD = ('<link rel="stylesheet" href="{p}assets/hearyou/hearyou.css">'
 changed = 0
 for f in glob.glob(os.path.join(ROOT, '**', '*.html'), recursive=True):
     rel = os.path.relpath(f, ROOT).replace(os.sep, '/')
-    if rel.startswith('drafts/') or rel.startswith('assets/'):
+    if rel.startswith(('drafts/', 'assets/', 'family-story/')):  # family-story is frozen by the founder
         continue
     s = open(f, encoding='utf-8').read()
     if TAG in s or '</head>' not in s:
