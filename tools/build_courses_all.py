@@ -24,7 +24,7 @@ G = [
  ('Cayman Islands', ['learn-flagship-loc-ky', 'learn-loc-ky-']),
  ('Mexico', ['learn-flagship-loc-mx', 'learn-loc-mx-']),
 ]
-body = ''; n = 0
+body = B.sec('', 'vp', 'HFL Vidyapeetha', 'Learn, teach and earn on HFL Vidyapeetha', '<p>Programmes with credits, lifelong short courses and skill badges, taught by tutors checked by the police and by us. <a href="vidyapeetha.html">Open HFL Vidyapeetha</a> · <a href="tutors.html">Verified tutors</a> · <a href="transcript.html">My transcript and badges</a>.</p>'); n = 0
 for i, (name, pre) in enumerate(G):
     fs = sorted(f for f in S.glob('learn-*.html') if any(f.stem.startswith(p) for p in pre) and 'russia' not in f.stem)
     if not fs: continue

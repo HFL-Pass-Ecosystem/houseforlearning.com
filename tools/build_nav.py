@@ -2,7 +2,7 @@
 Run from the repo root: python3 tools/build_nav.py"""
 import glob, re, html
 GROUPS = [
- ("Learn", [("catalogue.html","Course catalogue"),("courses.html","All courses"),("learning-tracks.html","Learning tracks"),("pathways.html","Pathways"),("career-pathways.html","Career pathways"),("canada-pathways.html","Study and work in Canada"),("electrical-academy.html","Electrical academy"),("campus-standards.html","Campus standards"),("bim-academy.html","BIM academy"),("training-by-segment.html","Training by segment"),("executive-programme.html","Executive programme"),("emba.html","Executive MBA subjects"),("mba/index.html","Online MBA"),("how-learning-works.html","How learning works"),("webinars.html","Webinars"),("onboarding.html","Onboarding"),("yoga.html","Yoga for life")]),
+ ("Learn", [("vidyapeetha.html","HFL Vidyapeetha"),("catalogue.html","Course catalogue"),("courses.html","All courses"),("learning-tracks.html","Learning tracks"),("pathways.html","Pathways"),("career-pathways.html","Career pathways"),("canada-pathways.html","Study and work in Canada"),("electrical-academy.html","Electrical academy"),("campus-standards.html","Campus standards"),("bim-academy.html","BIM academy"),("training-by-segment.html","Training by segment"),("executive-programme.html","Executive programme"),("emba.html","Executive MBA subjects"),("mba/index.html","Online MBA"),("how-learning-works.html","How learning works"),("webinars.html","Webinars"),("onboarding.html","Onboarding"),("yoga.html","Yoga for life")]),
  ("Products", [("products.html","All products"),("studio/index.html","Studio"),("platform.html","Platform"),("marketplace.html","Marketplace"),("business-systems.html","Business systems"),("insights.html","Insights")]),
  ("Organisations", [("organisations.html","All organisations"),("workplace.html","Workplace"),("academies.html","Technical academies"),("sectors.html","Sectors we serve"),("services.html","Services"),("how-we-help.html","How we help"),("partner.html","Partner with us")]),
  ("Membership", [("membership.html","About membership"),("join.html","Join"),("credits.html","How credits stack"),("credentials.html","Credentials and assessment"),("payments.html","Payments")]),
@@ -26,5 +26,8 @@ for f in glob.glob('site/*.html'):
     if not m: continue
     a = re.search(r'<div class="head-actions">.*?</div>', m.group(0), re.S)
     s = s[:m.start()] + build(f.split('/')[-1], a.group(0) if a else '') + s[m.end():]
+    # Footer "Site" column: keep a link to HFL Vidyapeetha on every page.
+    if 'href="vidyapeetha.html">HFL Vidyapeetha</a></li><li><a href="privacy.html">' not in s:
+        s = s.replace('<h2>Site</h2><ul><li><a href="privacy.html">', '<h2>Site</h2><ul><li><a href="vidyapeetha.html">HFL Vidyapeetha</a></li><li><a href="privacy.html">', 1)
     open(f, 'w').write(s); n += 1
 print(n, 'pages updated')
