@@ -1,0 +1,29 @@
+/* HFL Vidyapeetha screens: tutor sign-up, verified tutors, complaints, transcript, moderation desk. */
+.vp-box{max-width:860px}
+.vp-box h3{margin:22px 0 8px;font-size:1.1rem}
+.vp-form{display:grid;gap:12px;max-width:620px}
+.vp-form label{display:grid;gap:4px;font-weight:600}
+.vp-form input,.vp-form select,.vp-form textarea{font:inherit;padding:9px 10px;border:1px solid #9aa7b4;border-radius:6px;background:#fff;color:#14202b}
+.vp-form textarea{min-height:110px}
+.vp-form .hint{font-weight:400;font-size:.9rem;color:#4a5866}
+.vp-check{display:flex!important;gap:8px;align-items:flex-start;font-weight:400!important}
+.vp-steps{list-style:none;padding:0;margin:0 0 16px;display:grid;gap:6px}
+.vp-steps li{padding:8px 12px;border-left:4px solid #c5ced6;background:#f6f8fa;color:#14202b}
+.vp-steps li.ok{border-color:#2e8b4a}
+.vp-steps li.todo{border-color:#c98a00}
+.vp-pill{display:inline-block;padding:2px 10px;border-radius:999px;font-size:.85rem;font-weight:700;background:#e7edf3;color:#14202b}
+.vp-pill.green{background:#dff3e5;color:#14532d}.vp-pill.amber{background:#fff1d6;color:#6b4500}.vp-pill.red{background:#fde2df;color:#7f1d1d}
+.vp-table{width:100%;border-collapse:collapse;margin:8px 0 18px;font-size:.95rem}
+.vp-table th,.vp-table td{border-bottom:1px solid #d8dee4;padding:8px 6px;text-align:left;vertical-align:top}
+.vp-table th{background:#f2f5f8;color:#14202b}
+.vp-card{border:1px solid #d0d8e0;border-radius:8px;padding:14px 16px;margin:10px 0;background:#fff;color:#14202b}
+.vp-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.vp-exam{position:relative}
+.vp-exam .vp-timer{position:sticky;top:0;background:#14202b;color:#fff;padding:8px 12px;border-radius:6px;font-weight:700;z-index:2}
+.vp-exam fieldset{border:1px solid #d0d8e0;border-radius:8px;margin:12px 0;padding:10px 14px}
+.vp-exam legend{font-weight:700;padding:0 6px}
+.vp-exam label{display:flex;gap:8px;margin:6px 0;font-weight:400}
+.vp-grid3{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));margin:14px 0}
+.vp-grid3 .vp-card h3{margin-top:0}
+.vp-hash{font-family:ui-monospace,Consolas,monospace;font-size:.8rem;word-break:break-all;color:#4a5866}
+@media print{.site-head,.site-foot,.vp-noprint{display:none!important}}

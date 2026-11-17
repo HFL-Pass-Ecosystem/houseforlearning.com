@@ -100,7 +100,7 @@
       var st = el('p', 'au-status', 'Status: ' + ({ draft: 'Draft', review: 'With a trainer', changes: 'Changes asked', approved: 'Approved', published: 'Published' })[model.status] + (model.note ? '. Trainer note: ' + model.note : '') + '.'); box.appendChild(st);
       box.appendChild(field('Course title', model.title, function (v) { model.title = v; }, { max: 140 }));
       box.appendChild(field('One-line summary', model.summary, function (v) { model.summary = v; }, { max: 600 }));
-      box.appendChild(field('Price in USD (0 = free). You keep 90%. Test sales only for now.', model.price, function (v) { model.price = Number(v) || 0; }, { type: 'number', min: 0, step: '0.5' }));
+      box.appendChild(field('Price in USD (0 = free). You keep 70%. Test sales only for now.', model.price, function (v) { model.price = Number(v) || 0; }, { type: 'number', min: 0, step: '0.5' }));
       box.appendChild(el('h3', '', 'Outline'));
       var cols = el('div', 'au-cols'), side = el('div', 'au-side'), pane = el('div', 'au-pane'); cols.appendChild(side); cols.appendChild(pane); box.appendChild(cols);
       model.modules.forEach(function (m, mi) {
