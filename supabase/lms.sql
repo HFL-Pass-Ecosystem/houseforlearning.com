@@ -92,8 +92,8 @@ create table if not exists public.lms_sales (
   author_id uuid not null,
   buyer_id uuid not null,
   price_usd numeric not null default 0,
-  author_share numeric not null default 0,  -- 90%
-  platform_share numeric not null default 0,-- 10%
+  author_share numeric not null default 0,  -- 70%
+  platform_share numeric not null default 0,-- 30%
   test boolean not null default true,       -- true until real payments go live
   created_at timestamptz not null default now()
 );

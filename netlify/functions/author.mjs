@@ -3,6 +3,7 @@
 // Course answers never leave the server. Payments are test-only. Needs SUPABASE_URL, SUPABASE_ANON_KEY, SUPABASE_SERVICE_KEY and supabase/lms.sql.
 import { ok, fail, text, readBody } from './_lib.mjs';
 import { whoIs, withSession } from './_session.mjs';
+import { live } from './vidyapeetha.mjs';
 
 const svc = () => {
   const url = process.env.SUPABASE_URL, key = process.env.SUPABASE_SERVICE_KEY;
@@ -20,7 +21,7 @@ async function rest(s, method, table, query, body, prefer) {
   return data;
 }
 const eq = (v) => encodeURIComponent(v);
-export const SHARE = 0.9; // authors keep 90%, the platform keeps 10%
+export const SHARE = 0.7; // HFL Vidyapeetha rule (approved 17 Nov 2026): tutors and authors keep 70%, the platform keeps 30%
 export const courseKey = (id) => 'author-' + String(id).replace(/-/g, '').slice(0, 20) + '.html';
 const httpsUrl = (v) => { const u = text(v, 400); return /^https:\/\/[^\s"'<>]+$/i.test(u) ? u : ''; };
 
@@ -101,6 +102,8 @@ export default async (req) => {
       const r = await row(); if (!r || r.author_id !== who.id) return fail(403, 'Not your course');
       if (!lessons(r.modules || [])) return fail(409, 'Add at least one lesson first');
       if (!(r.quiz || []).length) return fail(409, 'Add at least one final-check question first');
+      // No police clearance, no teaching: only verified tutors with an in-date clearance may send a course for review.
+      if (!staff) { const t = (await rest(s, 'GET', 'vp_tutors', `user_id=eq.${eq(who.id)}`).catch(() => []))[0]; if (!live(t)) return fail(403, 'Become a verified tutor first (ID, police clearance, safety exam): tutor-join.html'); }
       const u = (await rest(s, 'PATCH', 'lms_courses', `id=eq.${eq(id)}`, { status: 'review', review_note: '', updated_at: new Date().toISOString() }, 'return=representation'))[0];
       return res(ok({ course: mine(u) }));
     }
@@ -137,7 +140,7 @@ export default async (req) => {
     if (action === 'earnings') {
       const sales = await rest(s, 'GET', 'lms_sales', `author_id=eq.${eq(who.id)}&order=created_at.desc&limit=500`);
       const sum = (k) => Math.round(sales.reduce((n, x) => n + Number(x[k]), 0) * 100) / 100;
-      return res(ok({ sales: sales.length, gross: sum('price_usd'), yours: sum('author_share'), platform: sum('platform_share'), test: true, rule: 'You keep 90%. The platform keeps 10%. Test sales only until real payments go live.', recent: sales.slice(0, 20).map((x) => ({ key: x.course_key, price: Number(x.price_usd), yours: Number(x.author_share), at: x.created_at })) }));
+      return res(ok({ sales: sales.length, gross: sum('price_usd'), yours: sum('author_share'), platform: sum('platform_share'), test: true, rule: 'You keep 70%. The platform keeps 30%. Test sales only until real payments go live.', recent: sales.slice(0, 20).map((x) => ({ key: x.course_key, price: Number(x.price_usd), yours: Number(x.author_share), at: x.created_at })) }));
     }
     return res(fail(400, 'Bad request'));
   } catch {

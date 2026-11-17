@@ -71,7 +71,7 @@
       'Set a price in USD or leave it free.']],
     ['author', 'Your earnings', 'author.html', 'How course sales are shared.', [
       'Open Earnings in Author Studio.',
-      'For each sale the author keeps 90% and the platform keeps 10%.',
+      'For each sale the author keeps 70% and the platform keeps 30%. Only verified tutors (ID, police clearance, safety exam) can send a course for review.',
       'Today every sale is a test sale: no real money moves until payments go live.',
       'Authoring tools are part of the yearly membership. There is no extra fee to build courses.']],
     ['trainer', 'Review a course', 'author.html', 'Approve a course or ask for changes.', [

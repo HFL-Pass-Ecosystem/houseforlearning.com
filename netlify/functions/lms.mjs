@@ -107,7 +107,7 @@ export default async (req) => {
       if (!e) {
         // Test payment only: the row says test_paid. When real payments go live this is where a confirmed payment is checked.
         e = (await rest(s, 'POST', 'lms_enrolments', '', { user_id: who.id, course_key: course, title, total, pay_method: method, pay_ref: text(body.ref, 60) || null }, 'return=representation'))[0];
-        if (au && Number(au.price_usd) > 0) { // test sale: the author keeps 90%, the platform keeps 10%
+        if (au && Number(au.price_usd) > 0) { // test sale: the author keeps 70%, the platform keeps 30% (HFL Vidyapeetha rule)
           const price = Number(au.price_usd), mine90 = Math.round(price * SHARE * 100) / 100;
           await rest(s, 'POST', 'lms_sales', '', { course_id: au.id, course_key: course, author_id: au.author_id, buyer_id: who.id, price_usd: price, author_share: mine90, platform_share: Math.round((price - mine90) * 100) / 100, test: true }, 'return=minimal').catch(() => {});
         }
