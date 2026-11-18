@@ -46,6 +46,12 @@ create table if not exists public.lms_certificates (
   issued_at timestamptz not null default now(),
   unique (user_id, course_key)
 );
+
+-- Persist issuer identity with every credential so later branding changes do not rewrite history.
+-- Existing HFL certificates are attributed to House for Learning; the statements are safe to rerun.
+alter table public.lms_certificates add column if not exists issuer_key text not null default 'house-for-learning';
+alter table public.lms_certificates add column if not exists issuer_name text not null default 'House for Learning';
+alter table public.lms_certificates add column if not exists issuer_domain text not null default 'houseforlearning.com';
 create table if not exists public.lms_notifications (
   id uuid primary key default gen_random_uuid(),
   user_id uuid not null references auth.users(id) on delete cascade,
