@@ -2,8 +2,8 @@
 <title id="title">House for Learning assessment and achievement badge</title>
 <desc id="desc">A navy, teal, gold and white institutional seal issued by House for Learning.</desc>
 <defs>
-  <path id="topArc" d="M 64,256 A 192,192 0 0 0 448,256"/>
-  <path id="bottomArc" d="M 64,256 A 192,192 0 0 1 448,256"/>
+  <path id="topArc" d="M 64,256 A 192,192 0 0 1 448,256"/>
+  <path id="bottomArc" d="M 64,256 A 192,192 0 0 0 448,256"/>
 </defs>
 <path d="M256.0,16.0 L285.8,30.0 L318.1,24.2 L343.3,45.4 L376.0,48.2 L394.8,75.1 L425.7,86.3 L436.9,117.2 L463.8,136.0 L466.6,168.7 L487.8,193.9 L482.0,226.2 L496.0,256.0 L482.0,285.8 L487.8,318.1 L466.6,343.3 L463.8,376.0 L436.9,394.8 L425.7,425.7 L394.8,436.9 L376.0,463.8 L343.3,466.6 L318.1,487.8 L285.8,482.0 L256.0,496.0 L226.2,482.0 L193.9,487.8 L168.7,466.6 L136.0,463.8 L117.2,436.9 L86.3,425.7 L75.1,394.8 L48.2,376.0 L45.4,343.3 L24.2,318.1 L30.0,285.8 L16.0,256.0 L30.0,226.2 L24.2,193.9 L45.4,168.7 L48.2,136.0 L75.1,117.2 L86.3,86.3 L117.2,75.1 L136.0,48.2 L168.7,45.4 L193.9,24.2 L226.2,30.0 Z" fill="#062643" stroke="#f5a800" stroke-width="12" stroke-linejoin="round"/>
 <circle cx="256" cy="256" r="207" fill="none" stroke="#f8fafc" stroke-width="4"/>
