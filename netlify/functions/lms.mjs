@@ -7,7 +7,7 @@ import keys from './quizkeys.json' with { type: 'json' };
 import { SHARE } from './author.mjs';
 import { randomInt } from 'node:crypto';
 
-const ISSUER = Object.freeze({ name: 'House for Learning', domain: 'houseforlearning.com' });
+const ISSUER = Object.freeze({ key: 'house-for-learning', name: 'House for Learning', domain: 'houseforlearning.com' });
 
 const PASS = 70;
 const COURSE = /^[a-z0-9][a-z0-9._-]{0,120}\.html$/i;
@@ -65,9 +65,9 @@ export default async (req) => {
   if (action === 'verify') {
     const c = text(body.code, 30).toUpperCase();
     if (!/^HFL-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{4}$/.test(c)) return fail(400, 'Please check the code');
-    const rows = await rest(s, 'GET', 'lms_certificates', `code=eq.${eq(c)}&select=code,title,holder,pct,issued_at`).catch(() => null);
+    const rows = await rest(s, 'GET', 'lms_certificates', `code=eq.${eq(c)}&select=code,title,holder,pct,issued_at,issuer_key,issuer_name,issuer_domain`).catch(() => null);
     if (!rows) return fail(502, 'Please try again in a moment');
-    return rows[0] ? ok({ valid: true, certificate: { ...rows[0], issuerName: ISSUER.name, issuerDomain: ISSUER.domain } }) : ok({ valid: false });
+    return rows[0] ? ok({ valid: true, certificate: { ...rows[0], issuerKey: rows[0].issuer_key, issuerName: rows[0].issuer_name || ISSUER.name, issuerDomain: rows[0].issuer_domain || ISSUER.domain } }) : ok({ valid: false });
   }
 
   const who = await whoIs(req);
@@ -84,7 +84,7 @@ export default async (req) => {
     if (action === 'state') {
       const [en, ce, at, nt] = await Promise.all([
         rest(s, 'GET', 'lms_enrolments', `user_id=eq.${uid}&order=updated_at.desc&limit=200`),
-        rest(s, 'GET', 'lms_certificates', `user_id=eq.${uid}&select=code,course_key,title,issued_at`),
+        rest(s, 'GET', 'lms_certificates', `user_id=eq.${uid}&select=code,course_key,title,issued_at,issuer_key,issuer_name,issuer_domain`),
         rest(s, 'GET', 'lms_attempts', `user_id=eq.${uid}&select=course_key,pct,passed,created_at&order=created_at.desc&limit=500`),
         rest(s, 'GET', 'lms_notifications', `user_id=eq.${uid}&order=created_at.desc&limit=20`),
       ]);
@@ -94,7 +94,7 @@ export default async (req) => {
         user: { name: me.full_name || '', email: who.email, role, staff },
         pass: PASS,
         enrolments: en.map((e) => ({ ...pub(e), quiz: best[e.course_key] || null, attempts: tries[e.course_key] || 0, hasQuiz: !!keys[e.course_key] || AUTHORED.test(e.course_key) })),
-        certificates: ce.map((c) => ({ code: c.code, course: c.course_key, title: c.title, issuedAt: c.issued_at, issuerName: ISSUER.name, issuerDomain: ISSUER.domain })),
+        certificates: ce.map((c) => ({ code: c.code, course: c.course_key, title: c.title, issuedAt: c.issued_at, issuerKey: c.issuer_key, issuerName: c.issuer_name || ISSUER.name, issuerDomain: c.issuer_domain || ISSUER.domain })),
         notifications: nt.map((n) => ({ id: n.id, kind: n.kind, body: n.body, read: n.read, at: n.created_at })),
       }));
     }
@@ -154,10 +154,10 @@ export default async (req) => {
         const att = need ? await rest(s, 'GET', 'lms_attempts', `user_id=eq.${uid}&course_key=eq.${eq(course)}&passed=eq.true&order=pct.desc&limit=1`) : [{ pct: 100 }];
         if (!att[0]) return fail(409, `Pass the final check (${PASS}%) first`);
         const holder = me.full_name || (who.email || '').split('@')[0] || 'Learner';
-        c = (await rest(s, 'POST', 'lms_certificates', '', { code: code(), user_id: who.id, course_key: course, title: e.title, holder, pct: att[0].pct }, 'return=representation'))[0];
+        c = (await rest(s, 'POST', 'lms_certificates', '', { code: code(), user_id: who.id, course_key: course, title: e.title, holder, pct: att[0].pct, issuer_key: ISSUER.key, issuer_name: ISSUER.name, issuer_domain: ISSUER.domain }, 'return=representation'))[0];
         await note(s, who.id, 'certificate', `Your certificate for ${e.title} is ready. Code ${c.code}.`);
       }
-      return res(ok({ certificate: { code: c.code, title: c.title, holder: c.holder, pct: c.pct, issuedAt: c.issued_at, issuerName: ISSUER.name, issuerDomain: ISSUER.domain } }));
+      return res(ok({ certificate: { code: c.code, title: c.title, holder: c.holder, pct: c.pct, issuedAt: c.issued_at, issuerKey: c.issuer_key, issuerName: c.issuer_name || ISSUER.name, issuerDomain: c.issuer_domain || ISSUER.domain } }));
     }
 
     if (action === 'notes_read') {
