@@ -170,7 +170,13 @@
       if (x.status !== 200) { box.appendChild(say(x.error || 'Could not check this code right now.', true)); return; }
       if (!x.valid) { box.appendChild(say('We have no certificate with this code. Please check the code and try again.', true)); return; }
       var c = x.certificate, card = el('div', 'cert');
-      card.appendChild(el('p', 'cert-k', 'House for Learning'));
+      var issuerName = c.issuerName || 'House for Learning';
+      var badge = el('img', 'cert-badge');
+      badge.src = '/assets/brand/hfl-assessment-badge.svg';
+      badge.alt = issuerName + ' assessment and achievement badge';
+      badge.width = 144; badge.height = 144;
+      card.appendChild(badge);
+      card.appendChild(el('p', 'cert-k', 'Issued by ' + issuerName));
       card.appendChild(el('h2', 'cert-h', 'Certificate of completion'));
       card.appendChild(el('p', '', 'This certifies that'));
       card.appendChild(el('p', 'cert-name', c.holder));
