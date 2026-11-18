@@ -14,9 +14,9 @@
   <textPath xlink:href="#bottomArc" startOffset="50%" text-anchor="middle">ASSESSMENT &amp; ACHIEVEMENT</textPath>
 </text>
 <circle cx="256" cy="256" r="160" fill="none" stroke="#08a99a" stroke-width="13"/>
-<path d="M256 142 L279 157 L307 148 L325 171 L354 169 L369 196 L396 207 L400 238 L418 260 L409 290 L418 319 L395 341 L385 371 L355 380 L336 405 L305 400 L278 416 L256 396 L228 416 L202 400 L171 405 L153 380 L123 371 L113 341 L91 319 L102 290 L94 260 L112 238 L116 207 L143 196 L158 171 L187 169 L205 148 L233 157 Z" fill="#087c78" stroke="#f5a800" stroke-width="10" stroke-linejoin="round"/>
-<path d="M189 270 L234 315 L324 222" fill="none" stroke="#ffffff" stroke-width="23" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M208 365 L208 440 L256 416 L304 440 L304 365" fill="#f5a800" stroke="#ffffff" stroke-width="7" stroke-linejoin="round"/>
+<path d="M211 330 L211 418 L256 390 L301 418 L301 330" fill="#f5a800" stroke="#ffffff" stroke-width="7" stroke-linejoin="round"/>
+<path d="M256 150 C286 174 322 181 354 185 V278 C354 328 320 360 256 389 C192 360 158 328 158 278 V185 C190 181 226 174 256 150 Z" fill="#087c78" stroke="#f5a800" stroke-width="11" stroke-linejoin="round"/>
+<path d="M199 270 L238 309 L317 228" fill="none" stroke="#ffffff" stroke-width="23" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="256" cy="102" r="22" fill="#f5a800" stroke="#ffffff" stroke-width="6"/>
 <circle cx="117" cy="335" r="22" fill="#f5a800" stroke="#ffffff" stroke-width="6"/>
 <circle cx="395" cy="335" r="22" fill="#f5a800" stroke="#ffffff" stroke-width="6"/>
