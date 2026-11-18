@@ -57,6 +57,11 @@
     dlg.className = 'sp-cert-dialog';
     dlg.setAttribute('aria-labelledby', 'sp-cert-title');
     var card = el('div', 'margin:16px;padding:28px 24px;border:3px solid #0F85DB;border-radius:10px;background:#fff;text-align:center;font-family:Georgia,serif;');
+    var seal = el('img', 'display:block;width:116px;height:116px;margin:0 auto 10px;object-fit:contain;', null);
+    seal.src = '/assets/brand/hfl-assessment-badge.svg';
+    seal.alt = 'House for Learning assessment and achievement badge';
+    seal.width = 116; seal.height = 116;
+    card.appendChild(seal);
     card.appendChild(el('p', 'margin:0 0 4px;color:#0F85DB;font-weight:700;letter-spacing:.04em;', 'House for Learning · Demo certificate'));
     var t = el('h2', 'margin:12px 0 6px;font-size:1.9rem;', me); t.id = 'sp-cert-title'; card.appendChild(t);
     card.appendChild(el('p', 'margin:0 0 12px;font-size:1.1rem;', 'has finished Level ' + (idx + 1) + ' · Demo: ' + course + ' on the ' + p[0] + ' pathway'));
