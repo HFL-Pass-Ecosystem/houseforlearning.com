@@ -5,6 +5,9 @@ import { ok, fail, text, readBody } from './_lib.mjs';
 import { whoIs, withSession } from './_session.mjs';
 import keys from './quizkeys.json' with { type: 'json' };
 import { SHARE } from './author.mjs';
+import { randomInt } from 'node:crypto';
+
+const ISSUER = Object.freeze({ name: 'House for Learning', domain: 'houseforlearning.com' });
 
 const PASS = 70;
 const COURSE = /^[a-z0-9][a-z0-9._-]{0,120}\.html$/i;
@@ -30,7 +33,7 @@ const AUTHORED = /^author-[0-9a-f]{20}\.html$/;
 const authored = async (s, course) => (AUTHORED.test(course) ? (await rest(s, 'GET', 'lms_courses', `ckey=eq.${eq(course)}&status=eq.published`).catch(() => []))[0] : null);
 const keyOf = async (s, course) => { const a = await authored(s, course); return a ? (a.quiz || []).map((q) => q.a).join('') : keys[course]; };
 const ints = (a, max) => Array.from(new Set((Array.isArray(a) ? a : []).map(Number).filter((n) => Number.isInteger(n) && n >= 0 && n < max))).sort((x, y) => x - y);
-const code = () => 'HFL-' + [0, 1, 2].map(() => Math.random().toString(36).slice(2, 6).toUpperCase()).join('-');
+const code = () => 'HFL-' + [0, 1, 2].map(() => randomInt(36 ** 4).toString(36).toUpperCase().padStart(4, '0')).join('-');
 
 async function note(s, user_id, kind, body) {
   try { await rest(s, 'POST', 'lms_notifications', '', { user_id, kind, body }, 'return=minimal'); } catch { /* a missed note never blocks learning */ }
@@ -64,7 +67,7 @@ export default async (req) => {
     if (!/^HFL-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{4}$/.test(c)) return fail(400, 'Please check the code');
     const rows = await rest(s, 'GET', 'lms_certificates', `code=eq.${eq(c)}&select=code,title,holder,pct,issued_at`).catch(() => null);
     if (!rows) return fail(502, 'Please try again in a moment');
-    return rows[0] ? ok({ valid: true, certificate: rows[0] }) : ok({ valid: false });
+    return rows[0] ? ok({ valid: true, certificate: { ...rows[0], issuerName: ISSUER.name, issuerDomain: ISSUER.domain } }) : ok({ valid: false });
   }
 
   const who = await whoIs(req);
@@ -91,7 +94,7 @@ export default async (req) => {
         user: { name: me.full_name || '', email: who.email, role, staff },
         pass: PASS,
         enrolments: en.map((e) => ({ ...pub(e), quiz: best[e.course_key] || null, attempts: tries[e.course_key] || 0, hasQuiz: !!keys[e.course_key] || AUTHORED.test(e.course_key) })),
-        certificates: ce.map((c) => ({ code: c.code, course: c.course_key, title: c.title, issuedAt: c.issued_at })),
+        certificates: ce.map((c) => ({ code: c.code, course: c.course_key, title: c.title, issuedAt: c.issued_at, issuerName: ISSUER.name, issuerDomain: ISSUER.domain })),
         notifications: nt.map((n) => ({ id: n.id, kind: n.kind, body: n.body, read: n.read, at: n.created_at })),
       }));
     }
@@ -154,7 +157,7 @@ export default async (req) => {
         c = (await rest(s, 'POST', 'lms_certificates', '', { code: code(), user_id: who.id, course_key: course, title: e.title, holder, pct: att[0].pct }, 'return=representation'))[0];
         await note(s, who.id, 'certificate', `Your certificate for ${e.title} is ready. Code ${c.code}.`);
       }
-      return res(ok({ certificate: { code: c.code, title: c.title, holder: c.holder, pct: c.pct, issuedAt: c.issued_at } }));
+      return res(ok({ certificate: { code: c.code, title: c.title, holder: c.holder, pct: c.pct, issuedAt: c.issued_at, issuerName: ISSUER.name, issuerDomain: ISSUER.domain } }));
     }
 
     if (action === 'notes_read') {
