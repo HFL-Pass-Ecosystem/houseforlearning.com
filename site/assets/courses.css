@@ -45,6 +45,7 @@ details.mod>summary{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .acc-msg{font-weight:600}.acc-msg.bad{color:#a5281b}
 .acc-notes{padding-left:18px}.acc-notes li.new{font-weight:600}
 .cert{max-width:720px;margin:0 auto 18px;padding:36px 28px;text-align:center;border:3px double #0F85DB;border-radius:6px;background:#F2EEE2}
+.cert-badge{display:block;width:144px;height:auto;max-width:42vw;margin:0 auto 14px;object-fit:contain}
 .cert-k{letter-spacing:.14em;text-transform:uppercase;font-size:.85rem}
 .cert-h{margin:.2em 0 .6em}
 .cert-name{font-size:1.9rem;font-weight:700;margin:.2em 0}
