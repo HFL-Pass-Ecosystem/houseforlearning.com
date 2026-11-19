@@ -4,7 +4,7 @@
 import { ok, fail, text, readBody } from './_lib.mjs';
 import { whoIs, withSession } from './_session.mjs';
 import { SHARE } from './author.mjs';
-import { randomInt } from 'node:crypto';
+import { createHash, randomInt } from 'node:crypto';
 
 const ISSUER = Object.freeze({ key: 'house-for-learning', name: 'House for Learning', domain: 'houseforlearning.com' });
 
@@ -34,9 +34,15 @@ const validUnitCount = (count) => Number.isInteger(count) && count >= 1 && count
 const authored = async (s, course) => (AUTHORED.test(course) ? (await rest(s, 'GET', 'lms_courses', `ckey=eq.${eq(course)}&status=eq.published`).catch(() => []))[0] : null);
 const keyOf = async (s, course) => {
   const a = await authored(s, course);
-  if (a) return (a.quiz || []).map((q) => q.a).join('');
-  const rows = await rest(s, 'GET', 'lms_quiz_bank', `course_key=eq.${eq(course)}&active=eq.true&select=answer_key&limit=1`);
-  return rows[0] ? rows[0].answer_key : '';
+  if (a) {
+    const quiz = Array.isArray(a.quiz) ? a.quiz : [];
+    const answerKey = quiz.map((q) => Number(q.a)).join('');
+    if (!answerKey) return null;
+    const version = 'author-' + createHash('sha256').update(JSON.stringify(quiz)).digest('hex').slice(0, 20);
+    return { answerKey, version };
+  }
+  const rows = await rest(s, 'GET', 'lms_quiz_bank', `course_key=eq.${eq(course)}&active=eq.true&select=answer_key,version&limit=1`);
+  return rows[0] && rows[0].answer_key ? { answerKey: rows[0].answer_key, version: rows[0].version } : null;
 };
 const ints = (a, max) => Array.from(new Set((Array.isArray(a) ? a : []).map(Number).filter((n) => Number.isInteger(n) && n >= 0 && n < max))).sort((x, y) => x - y);
 const code = () => 'HFL-' + [0, 1, 2].map(() => randomInt(36 ** 4).toString(36).toUpperCase().padStart(4, '0')).join('-');
@@ -57,7 +63,8 @@ export default async (req) => {
   if (action === 'practice') {
     if (!s) return fail(503, 'Practice checks are not switched on yet');
     const course = text(body.course, 130);
-    const key = COURSE.test(course) ? await keyOf(s, course) : '';
+    const bank = COURSE.test(course) ? await keyOf(s, course) : null;
+    const key = bank && bank.answerKey;
     if (!key) return fail(404, 'This course has no configured final check yet');
     const given = Array.isArray(body.answers) ? body.answers.slice(0, key.length) : [];
     const right = key.split('').map((k, i) => Number(given[i]) === Number(k));
@@ -157,11 +164,12 @@ export default async (req) => {
     if (action === 'quiz') {
       const course = needCourse(); if (!course) return fail(400, 'Choose a course first');
       const e = await mine(course); if (!e) return fail(403, 'Join this course first');
-      const key = await keyOf(s, course); if (!key) return fail(404, 'This course has no final check yet');
+      const bank = await keyOf(s, course); if (!bank || !bank.answerKey) return fail(404, 'This course has no configured final check yet');
+      const key = bank.answerKey;
       const given = Array.isArray(body.answers) ? body.answers.slice(0, key.length) : [];
       const right = key.split('').map((k, i) => Number(given[i]) === Number(k));
       const score = right.filter(Boolean).length, max = key.length, pct = Math.round(100 * score / max), passed = pct >= PASS;
-      await rest(s, 'POST', 'lms_attempts', '', { user_id: who.id, course_key: course, score, max, pct, passed, answers: given.map((n) => Number(n) || 0) }, 'return=minimal');
+      await rest(s, 'POST', 'lms_attempts', '', { user_id: who.id, course_key: course, assessment_version: bank.version, score, max, pct, passed, answers: given.map((n) => Number(n) || 0) }, 'return=minimal');
       await note(s, who.id, 'grade', `${e.title}: you scored ${pct}% on the final check. ${passed ? 'Passed.' : `You need ${PASS}% to pass. You can try again.`}`);
       return res(ok({ score, max, pct, passed, pass: PASS, right }));
     }
@@ -178,9 +186,9 @@ export default async (req) => {
         if (authoredCourse && !validUnitCount(requiredUnits)) return fail(409, 'This course needs between 1 and 200 lessons before certificate issuance.');
         const completedUnits = ints(e.done, requiredUnits);
         if (completedUnits.length < requiredUnits) return fail(409, 'Finish every unit first');
-        const need = await keyOf(s, course);
-        if (!need) return fail(409, 'Certificate issuance is paused until this course final check is configured.');
-        const att = await rest(s, 'GET', 'lms_attempts', `user_id=eq.${uid}&course_key=eq.${eq(course)}&passed=eq.true&order=pct.desc&limit=1`);
+        const bank = await keyOf(s, course);
+        if (!bank) return fail(409, 'Certificate issuance is paused until this course final check is configured.');
+        const att = await rest(s, 'GET', 'lms_attempts', `user_id=eq.${uid}&course_key=eq.${eq(course)}&assessment_version=eq.${eq(bank.version)}&passed=eq.true&order=pct.desc&limit=1`);
         if (!att[0]) return fail(409, `Pass the final check (${PASS}%) first`);
         if (authoredCourse) {
           const required = await rest(s, 'GET', 'lms_assignments', `course_id=eq.${eq(authoredCourse.id)}&certificate_required=eq.true&order=created_at.asc&limit=100`);
