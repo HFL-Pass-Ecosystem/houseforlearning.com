@@ -8,13 +8,13 @@
 4. An enrolled learner submits written work and may add one optional HTTPS evidence link. A resubmission is recorded as a new attempt.
 5. The course author or a facilitator scores every criterion and leaves feedback. The learner sees the score, rubric breakdown and feedback on returning to the assignment page.
 
-The automatic final check remains separate from the practical assignment. This preserves a clear distinction between machine-scored recall and human-reviewed applied work.
+The automatic final check remains separate from the practical assignment. This preserves a clear distinction between machine-scored recall and human-reviewed applied work. A course certificate is issued only when all course units and the final check are complete and every assignment marked as certificate-required is published and passed on the learner's latest graded attempt. New assignments default to a 70% rubric pass mark; authors can make a task optional or set another threshold from 1% to 100%.
 
 ## Stored model
 
 - `lms_assignments`: course, author, title, directions, outcomes, rubric, review state and review note.
 - `lms_assignment_submissions`: learner, attempt number, written response, optional evidence URL, criterion scores, feedback, total score and grader.
-- Rubric criteria have stable IDs, a label, evidence guidance and a maximum point value. Scores are validated against those maxima on the server.
+- Rubric criteria have stable IDs, a label, evidence guidance and a maximum point value. Scores are validated against those maxima on the server. Each assignment also records whether it gates the certificate and the minimum required percentage.
 - The learner page receives only published tasks and that learner's latest attempt. Authors and facilitators can view submissions; the browser never receives the Supabase service key.
 
 ## Privacy and operational controls
