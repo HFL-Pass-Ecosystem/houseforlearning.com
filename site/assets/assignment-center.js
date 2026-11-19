@@ -85,7 +85,7 @@
     (a.rubric || []).forEach(function (r) { table.appendChild(el('p', '', r.label + ' · ' + r.max_points + ' points' + (r.guidance ? ' — ' + r.guidance : ''))); });
     table.appendChild(el('p', '', 'Maximum: ' + (a.rubric || []).reduce(function (n, r) { return n + Number(r.max_points || 0); }, 0) + ' points.'));
     d.appendChild(table);
-    if ((context.owner || context.staff) && a.status === 'review' && context.staff) d.appendChild(reviewForm(a));
+    if ((context.owner || context.staff) && a.status === 'review' && a.can_review) d.appendChild(reviewForm(a));
     if ((context.owner || context.staff) && ['draft', 'changes'].indexOf(a.status) > -1) {
       if (a.editable) d.appendChild(btn('Edit draft', function () { editingId = a.id; load(); }, 'btn btn-ghost'));
       if (a.can_submit_review) d.appendChild(btn('Send to facilitator', function () {
