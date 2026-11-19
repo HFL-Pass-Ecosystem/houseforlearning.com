@@ -88,6 +88,8 @@ export default async (req) => {
       const assignments = [];
       for (const a of visible) {
         const item = brief(a);
+        item.editable = a.created_by === who.id;
+        item.can_submit_review = (owner && a.created_by === who.id) || staff;
         if (!owner && !staff) {
           const mine = (await rest(s, 'GET', 'lms_assignment_submissions', 'assignment_id=eq.' + eq(a.id) + '&user_id=eq.' + eq(who.id) + '&order=attempt.desc&limit=1'))[0];
           item.my_submission = mine ? { attempt: mine.attempt, response: mine.response, evidence_url: mine.evidence_url, rubric_scores: mine.rubric_scores || [], feedback: mine.feedback || '', score: mine.score, max_points: mine.max_points, status: mine.status, submitted_at: mine.submitted_at, graded_at: mine.graded_at } : null;
