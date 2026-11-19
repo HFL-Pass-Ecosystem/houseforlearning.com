@@ -161,3 +161,8 @@ create index if not exists lms_assignment_submissions_queue on public.lms_assign
 alter table public.lms_assignments enable row level security;
 alter table public.lms_assignment_submissions enable row level security;
 -- Deliberately no anon/authenticated policies. Read and write stay inside netlify/functions/assignments.mjs.
+
+-- Persist issuer identity with each credential so the verified record matches the visible badge.
+alter table public.lms_certificates add column if not exists issuer_key text not null default 'house-for-learning';
+alter table public.lms_certificates add column if not exists issuer_name text not null default 'House for Learning';
+alter table public.lms_certificates add column if not exists issuer_domain text not null default 'houseforlearning.com';
