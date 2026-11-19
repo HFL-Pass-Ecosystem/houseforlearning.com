@@ -27,7 +27,9 @@ The automatic final check remains separate from the practical assignment. This p
 
 ## Interoperability boundary
 
-The HFL assignment and rubric fields are kept in a normalized JSON model so they can be mapped to other LMS course and rubric models. This implementation does not claim an existing Canvas, Absorb, Expertus, Articulate, SCORM, xAPI or LTI connector. Those require separate format mapping, identity/security review and conformance work.
+Author Studio can export trainer-approved courses as a basic SCORM 1.2 ZIP package with one SCO and one course-level result. This is a content export, not a direct Canvas, Absorb, Expertus or Articulate integration. External image and video references are not packaged, and SCORM 1.2 exposes only one lesson status. The downloadable answer key and external-media limitation make the export unsuitable for high-stakes HFL awards. The HFL server remains authoritative for rubric assignments, learner identity, credit and HFL certificates.
+
+The current package has not been validated against the SCORM XML schemas or imported into a target LMS. Read docs/scorm-export.md for its reporting model, limits and validation work required before learner release.
 
 ## Issuer identity
 
