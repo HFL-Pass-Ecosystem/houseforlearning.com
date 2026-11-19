@@ -127,11 +127,15 @@ create table if not exists public.lms_assignments (
   directions text not null,
   outcomes jsonb not null default '[]'::jsonb,
   rubric jsonb not null default '[]'::jsonb,
+  certificate_required boolean not null default false,
+  pass_percent integer not null default 70 check (pass_percent between 1 and 100),
   status text not null default 'draft' check (status in ('draft', 'review', 'changes', 'published')),
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now()
 );
 alter table public.lms_assignments add column if not exists review_note text not null default '';
+alter table public.lms_assignments add column if not exists certificate_required boolean not null default false;
+alter table public.lms_assignments add column if not exists pass_percent integer not null default 70 check (pass_percent between 1 and 100);
 create index if not exists lms_assignments_course on public.lms_assignments (course_id, status, created_at);
 
 create table if not exists public.lms_assignment_submissions (
