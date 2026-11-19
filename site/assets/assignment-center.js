@@ -54,6 +54,7 @@
       box.textContent = '';
       if (x.status !== 200) { box.appendChild(say(x.error || 'Could not load assignments.', true)); return; }
       state = x;
+      if (note) box.appendChild(note);
       box.appendChild(el('h3', '', x.course.title));
       box.appendChild(el('p', '', 'Practical assignments · transparent marking criteria · facilitator feedback'));
       if (x.owner || x.staff) {
@@ -127,7 +128,7 @@
         if (draft.rubric.length > 2) g.appendChild(btn('Remove criterion', function () { draft.rubric.splice(i, 1); drawRubric(); }, 'btn btn-ghost'));
         rubricBox.appendChild(g);
       });
-      if (draft.rubric.length < 8) rubricBox.appendChild(btn('Add criterion', function () { var n = draft.rubric.length + 1; draft.rubric.push({ id: 'criterion-' + n, label: '', guidance: '', max_points: 1 }); drawRubric(); }, 'btn btn-ghost'));
+      if (draft.rubric.length < 8) rubricBox.appendChild(btn('Add criterion', function () { var n = 1; while (draft.rubric.some(function (r) { return r.id === 'criterion-' + n; })) n++; draft.rubric.push({ id: 'criterion-' + n, label: '', guidance: '', max_points: 1 }); drawRubric(); }, 'btn btn-ghost'));
     }
     drawRubric(); form.appendChild(rubricBox);
     form.appendChild(el('p', 'au-hint', 'Keep directions specific. Avoid requesting confidential records or sensitive personal details.'));
