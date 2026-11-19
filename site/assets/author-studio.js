@@ -8,6 +8,11 @@
     return fetch('/api/author', { method: 'POST', headers: { 'Content-Type': 'application/json' }, credentials: 'same-origin', body: JSON.stringify(b) })
       .then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) { d.status = r.status; return d; }); });
   }
+  function assignmentApi(b) {
+    return fetch('/api/assignments', { method: 'POST', headers: { 'Content-Type': 'application/json' }, credentials: 'same-origin', body: JSON.stringify(b) })
+      .then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) { d.status = r.status; return d; }); })
+      .catch(function () { return { status: 0, error: 'Could not reach the assignment service.' }; });
+  }
   function say(m, bad) { var p = el('p', 'acc-msg' + (bad ? ' bad' : ''), m); p.setAttribute('role', 'status'); return p; }
   function btn(t, f, c) { var b = el('button', c || 'btn', t); b.type = 'button'; b.addEventListener('click', f); return b; }
   function field(label, val, on, opts) {
@@ -37,7 +42,7 @@
       list.appendChild(el('h3', '', 'My courses'));
       if (!x.courses.length) list.appendChild(el('p', '', 'You have no courses yet. Start a new course to build your first one.'));
       x.courses.forEach(function (c) { list.appendChild(card(c, function () { open(c.id); })); });
-      if (staff) queue();
+      if (staff) { queue(); assignmentQueue(); }
     });
   }
   function card(c, onOpen, extra) {
@@ -53,6 +58,17 @@
       if (x.status !== 200) return;
       if (!x.courses.length) q.appendChild(el('p', '', 'No courses are waiting for review.'));
       x.courses.forEach(function (c) { q.appendChild(card(c, function () { review(c.id); }, 'Review')); });
+    });
+  }
+  function assignmentQueue() {
+    var q = el('div', 'au-list'); box.appendChild(q); q.appendChild(el('h3', '', 'Assignment review queue'));
+    assignmentApi({ action: 'queue' }).then(function (x) {
+      if (x.status !== 200) { q.appendChild(say(x.error || 'Could not load assignment reviews.', true)); return; }
+      if (!x.assignments.length) q.appendChild(el('p', '', 'No assignments are waiting for review.'));
+      x.assignments.forEach(function (a) {
+        var d = el('div', 'au-card'); d.appendChild(el('strong', '', a.title)); d.appendChild(el('p', '', a.directions));
+        var open = el('a', 'btn btn-ghost', 'Review assignment and rubric'); open.href = 'assignments.html?course=' + encodeURIComponent(a.course_id); d.appendChild(open); q.appendChild(d);
+      });
     });
   }
 
