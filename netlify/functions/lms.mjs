@@ -150,6 +150,16 @@ export default async (req) => {
         const need = !!(await keyOf(s, course));
         const att = need ? await rest(s, 'GET', 'lms_attempts', `user_id=eq.${uid}&course_key=eq.${eq(course)}&passed=eq.true&order=pct.desc&limit=1`) : [{ pct: 100 }];
         if (!att[0]) return fail(409, `Pass the final check (${PASS}%) first`);
+        const authoredCourse = await authored(s, course);
+        if (authoredCourse) {
+          const required = await rest(s, 'GET', 'lms_assignments', `course_id=eq.${eq(authoredCourse.id)}&certificate_required=eq.true&order=created_at.asc&limit=100`);
+          for (const a of required) {
+            if (a.status !== 'published') return fail(409, 'A required assignment is awaiting facilitator approval. Return after it is published.');
+            const latest = (await rest(s, 'GET', 'lms_assignment_submissions', `assignment_id=eq.${eq(a.id)}&user_id=eq.${uid}&order=attempt.desc&limit=1`))[0];
+            const pct = latest && Number(latest.max_points) > 0 ? Math.round(100 * Number(latest.score) / Number(latest.max_points)) : 0;
+            if (!latest || latest.status !== 'graded' || pct < Number(a.pass_percent || 70)) return fail(409, `Pass the required assignment "${text(a.title, 140)}" (${Number(a.pass_percent || 70)}% required) before claiming your certificate.`);
+          }
+        }
         const holder = me.full_name || (who.email || '').split('@')[0] || 'Learner';
         c = (await rest(s, 'POST', 'lms_certificates', '', { code: code(), user_id: who.id, course_key: course, title: e.title, holder, pct: att[0].pct }, 'return=representation'))[0];
         await note(s, who.id, 'certificate', `Your certificate for ${e.title} is ready. Code ${c.code}.`);
