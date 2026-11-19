@@ -66,10 +66,11 @@
     var en = ((A.server || {}).enrolments || []).filter(function (e) { return e.course === c; })[0];
     if (!en) { box.appendChild(say('Join this course first.', true)); box.appendChild(link(c, 'Open the course')); return; }
     var authored = /^author-[0-9a-f]{20}\.html$/.test(c), authoredCourseId = '';
-    (authored
-      ? fetch('/api/author', { method: 'POST', headers: { 'Content-Type': 'application/json' }, credentials: 'same-origin', body: JSON.stringify({ action: 'play', key: c }) }).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (x) { authoredCourseId = x.course.id; return { title: x.course.title, pass: 70, questions: x.course.quiz }; })
-      : fetch('assets/quiz/' + encodeURIComponent(c) + '.json').then(function (r) { if (!r.ok) throw 0; return r.json(); })
-    ).then(function (z) {
+    A.call({ action: 'assessment', course: c }).then(function (x) {
+      if (x.status !== 200 || !x.assessment) throw 0;
+      authoredCourseId = x.courseId || '';
+      return { title: x.assessment.title, pass: x.assessment.pass, questions: x.assessment.questions, version: x.version };
+    }).then(function (z) {
       box.appendChild(el('h3', '', 'Final check: ' + (z.title || en.title)));
       var done = (en.done || []).length;
       box.appendChild(el('p', '', 'Answer every question. You need ' + z.pass + '% to pass. You may try again as often as you like. Units done: ' + done + ' of ' + en.total + '.'));
@@ -88,7 +89,7 @@
         z.questions.forEach(function (_, i) { var r = form.querySelector('input[name=q' + i + ']:checked'); if (!r) miss++; ans.push(r ? +r.value : -1); });
         if (miss) { res.appendChild(say('Please answer all ' + z.questions.length + ' questions. ' + miss + ' left.', true)); return; }
         go.disabled = true;
-        A.call({ action: 'quiz', course: c, answers: ans }).then(function (x) {
+        A.call({ action: 'quiz', course: c, assessment_version: z.version, answers: ans }).then(function (x) {
           go.disabled = false;
           if (x.status !== 200) { res.appendChild(say(x.error || 'Something went wrong. Please try again.', true)); return; }
           Array.prototype.forEach.call(form.querySelectorAll('fieldset'), function (fs, i) { fs.classList.toggle('acc-right', !!x.right[i]); fs.classList.toggle('acc-wrong', !x.right[i]); });
