@@ -3,7 +3,6 @@
 // Test payments only: nothing here takes money. Needs SUPABASE_URL, SUPABASE_ANON_KEY, SUPABASE_SERVICE_KEY.
 import { ok, fail, text, readBody } from './_lib.mjs';
 import { whoIs, withSession } from './_session.mjs';
-import keys from './quizkeys.json' with { type: 'json' };
 import { SHARE } from './author.mjs';
 import { randomInt } from 'node:crypto';
 
@@ -33,7 +32,12 @@ const unitCount = (course) => Array.isArray(course && course.modules) ? course.m
 const validUnitCount = (count) => Number.isInteger(count) && count >= 1 && count <= 200;
 // A course made in Author Studio: its final check lives in the database (answers server-side only).
 const authored = async (s, course) => (AUTHORED.test(course) ? (await rest(s, 'GET', 'lms_courses', `ckey=eq.${eq(course)}&status=eq.published`).catch(() => []))[0] : null);
-const keyOf = async (s, course) => { const a = await authored(s, course); return a ? (a.quiz || []).map((q) => q.a).join('') : keys[course]; };
+const keyOf = async (s, course) => {
+  const a = await authored(s, course);
+  if (a) return (a.quiz || []).map((q) => q.a).join('');
+  const rows = await rest(s, 'GET', 'lms_quiz_bank', `course_key=eq.${eq(course)}&active=eq.true&select=answer_key&limit=1`);
+  return rows[0] ? rows[0].answer_key : '';
+};
 const ints = (a, max) => Array.from(new Set((Array.isArray(a) ? a : []).map(Number).filter((n) => Number.isInteger(n) && n >= 0 && n < max))).sort((x, y) => x - y);
 const code = () => 'HFL-' + [0, 1, 2].map(() => randomInt(36 ** 4).toString(36).toUpperCase().padStart(4, '0')).join('-');
 
@@ -47,20 +51,20 @@ export default async (req) => {
   if (error) return fail(...error);
   if (spam) return ok({});
   const action = text(body.action, 24);
+  const s = svc();
 
-  // Practice marking: grades a final check without saving anything, so the whole course journey can be tried
-  // before the member database is switched on (or by a browser in test mode). Answers stay on the server; no certificate code is issued.
+  // Practice marking is unrecorded and cannot issue an HFL certificate. The private answer key is still graded server-side.
   if (action === 'practice') {
+    if (!s) return fail(503, 'Practice checks are not switched on yet');
     const course = text(body.course, 130);
-    const key = COURSE.test(course) ? keys[course] : null;
-    if (!key) return fail(404, 'This course has no final check yet');
+    const key = COURSE.test(course) ? await keyOf(s, course) : '';
+    if (!key) return fail(404, 'This course has no configured final check yet');
     const given = Array.isArray(body.answers) ? body.answers.slice(0, key.length) : [];
     const right = key.split('').map((k, i) => Number(given[i]) === Number(k));
     const score = right.filter(Boolean).length, max = key.length, pct = Math.round(100 * score / max);
     return ok({ score, max, pct, passed: pct >= PASS, pass: PASS, right, practice: true });
   }
 
-  const s = svc();
   if (!s) return fail(503, 'Learning area is not switched on yet');
 
   // Anyone may check a certificate code.
@@ -84,18 +88,20 @@ export default async (req) => {
     const needCourse = () => { const c = text(body.course, 130); return COURSE.test(c) ? c : null; };
 
     if (action === 'state') {
-      const [en, ce, at, nt] = await Promise.all([
+      const [en, ce, at, nt, bank] = await Promise.all([
         rest(s, 'GET', 'lms_enrolments', `user_id=eq.${uid}&order=updated_at.desc&limit=200`),
         rest(s, 'GET', 'lms_certificates', `user_id=eq.${uid}&select=code,course_key,title,issued_at,issuer_key,issuer_name,issuer_domain`),
         rest(s, 'GET', 'lms_attempts', `user_id=eq.${uid}&select=course_key,pct,passed,created_at&order=created_at.desc&limit=500`),
         rest(s, 'GET', 'lms_notifications', `user_id=eq.${uid}&order=created_at.desc&limit=20`),
+        rest(s, 'GET', 'lms_quiz_bank', 'active=eq.true&select=course_key&limit=5000'),
       ]);
+      const quizKeys = new Set(bank.map((q) => q.course_key));
       const best = {}, tries = {};
       for (const a of at) { tries[a.course_key] = (tries[a.course_key] || 0) + 1; if (!best[a.course_key] || a.pct > best[a.course_key].pct) best[a.course_key] = { pct: a.pct, passed: a.passed }; }
       return res(ok({
         user: { name: me.full_name || '', email: who.email, role, staff },
         pass: PASS,
-        enrolments: en.map((e) => ({ ...pub(e), quiz: best[e.course_key] || null, attempts: tries[e.course_key] || 0, hasQuiz: !!keys[e.course_key] || AUTHORED.test(e.course_key) })),
+        enrolments: en.map((e) => ({ ...pub(e), quiz: best[e.course_key] || null, attempts: tries[e.course_key] || 0, hasQuiz: quizKeys.has(e.course_key) || AUTHORED.test(e.course_key) })),
         certificates: ce.map((c) => ({ code: c.code, course: c.course_key, title: c.title, issuedAt: c.issued_at, issuerKey: c.issuer_key, issuerName: c.issuer_name || ISSUER.name, issuerDomain: c.issuer_domain || ISSUER.domain })),
         notifications: nt.map((n) => ({ id: n.id, kind: n.kind, body: n.body, read: n.read, at: n.created_at })),
       }));
@@ -172,8 +178,9 @@ export default async (req) => {
         if (authoredCourse && !validUnitCount(requiredUnits)) return fail(409, 'This course needs between 1 and 200 lessons before certificate issuance.');
         const completedUnits = ints(e.done, requiredUnits);
         if (completedUnits.length < requiredUnits) return fail(409, 'Finish every unit first');
-        const need = !!(await keyOf(s, course));
-        const att = need ? await rest(s, 'GET', 'lms_attempts', `user_id=eq.${uid}&course_key=eq.${eq(course)}&passed=eq.true&order=pct.desc&limit=1`) : [{ pct: 100 }];
+        const need = await keyOf(s, course);
+        if (!need) return fail(409, 'Certificate issuance is paused until this course final check is configured.');
+        const att = await rest(s, 'GET', 'lms_attempts', `user_id=eq.${uid}&course_key=eq.${eq(course)}&passed=eq.true&order=pct.desc&limit=1`);
         if (!att[0]) return fail(409, `Pass the final check (${PASS}%) first`);
         if (authoredCourse) {
           const required = await rest(s, 'GET', 'lms_assignments', `course_id=eq.${eq(authoredCourse.id)}&certificate_required=eq.true&order=created_at.asc&limit=100`);
