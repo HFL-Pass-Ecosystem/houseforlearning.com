@@ -51,7 +51,7 @@ const keyOf = async (s, course) => {
     const assessment = cleanAssessment({ questions: quiz }, a.title);
     if (!answerKey || !assessment || answerKey.length !== assessment.questions.length) return null;
     const version = 'author-' + createHash('sha256').update(JSON.stringify(quiz)).digest('hex').slice(0, 20);
-    return { answerKey, version, assessment };
+    return { answerKey, version, assessment, courseId: a.id };
   }
   const rows = await rest(s, 'GET', 'lms_quiz_bank', `course_key=eq.${eq(course)}&active=eq.true&select=answer_key,assessment,version&limit=1`);
   const row = rows[0];
@@ -181,7 +181,7 @@ export default async (req) => {
       const e = await mine(course); if (!e) return fail(403, 'Join this course first');
       const bank = await keyOf(s, course);
       if (!bank) return fail(404, 'This course has no configured final check yet');
-      return res(ok({ version: bank.version, assessment: bank.assessment }));
+      return res(ok({ version: bank.version, assessment: bank.assessment, courseId: bank.courseId || null }));
     }
 
     if (action === 'quiz') {
