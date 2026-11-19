@@ -121,6 +121,12 @@
         pane.appendChild(add);
         pane.appendChild(btn('Remove this lesson', function () { if (mod.lessons.length > 1) { mod.lessons.splice(sel.l, 1); sel.l = 0; draw(); } }, 'btn btn-ghost'));
       }
+      box.appendChild(el('h3', '', 'Practical assignments'));
+      box.appendChild(el('p', '', 'Set a written task and marking rubric separately from the auto-scored final check.'));
+      box.appendChild(btn('Open assignment and rubric workspace', function () {
+        var target = function () { location.href = 'assignments.html?course=' + encodeURIComponent(model.id); };
+        if (model.id) target(); else save(target);
+      }, 'btn btn-ghost'));
       box.appendChild(el('h3', '', 'Final check'));
       box.appendChild(el('p', '', 'Learners need 70% to pass. Mark the right answer for each question.'));
       model.quiz.forEach(function (q, qi) {
