@@ -27,7 +27,7 @@ The automatic final check remains separate from the practical assignment. This p
 
 ## Interoperability boundary
 
-Author Studio can export trainer-approved courses as a basic SCORM 1.2 ZIP package with one SCO and one course-level result. This is a content export, not a direct Canvas, Absorb, Expertus or Articulate integration. External image and video references are not packaged, and SCORM 1.2 exposes only one lesson status. The downloadable answer key and external-media limitation make the export unsuitable for high-stakes HFL awards. The HFL server remains authoritative for rubric assignments, learner identity, credit and HFL certificates.
+Author Studio can export trainer-approved courses as a basic SCORM 1.2 ZIP package with one SCO and one course-level result. This is a content export, not a direct Canvas, Absorb, Expertus or Articulate integration. External image and video references are not packaged, and SCORM 1.2 exposes only one lesson status. The SCORM package contains a browser-side answer key, and its external-media limitation makes the export unsuitable for high-stakes HFL awards. The HFL server remains authoritative for rubric assignments, learner identity, credit and HFL certificates.
 
 The current package has not been validated against the SCORM XML schemas or imported into a target LMS. Read docs/scorm-export.md for its reporting model, limits and validation work required before learner release.
 
@@ -35,3 +35,9 @@ The current package has not been validated against the SCORM XML schemas or impo
 
 - Verified HFL certificates persist the issuer key, display name and domain with each award, so later branding changes do not rewrite the public record.
 - The public certificate page displays the issuer-named seal and issuer name. PAVER and browser-only practice credentials remain visibly labelled as demos and do not represent academic credit or an accredited qualification.
+
+## Assessment key protection
+
+Authenticated final checks now receive sanitized questions and an opaque version from the LMS server. The answer sequence stays private, submissions are graded server-side, and each attempt is tied to the version that was shown. Built-in assessments without a reviewed active private bank row fail closed, including certificate issuance. Browser-only practice files are demos and do not confer HFL credit.
+
+The public repository previously contained legacy answer mappings. Do not reuse them; this draft removes the file from its branch tree but cannot remove it from public Git history. See [assessment-key-incident.md](assessment-key-incident.md) for containment, replacement and reactivation requirements.
