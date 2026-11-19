@@ -146,11 +146,13 @@ export default async (req) => {
       const e = await mine(course); if (!e) return fail(403, 'Join this course first');
       let c = (await rest(s, 'GET', 'lms_certificates', `user_id=eq.${uid}&course_key=eq.${eq(course)}`))[0];
       if (!c) {
+        const isAuthored = AUTHORED.test(course);
+        const authoredCourse = isAuthored ? (await rest(s, 'GET', 'lms_courses', `ckey=eq.${eq(course)}`))[0] : null;
+        if (isAuthored && (!authoredCourse || authoredCourse.status !== 'published')) return fail(409, 'Course certificate issuance is paused while this authored course is not published.');
         if ((e.done || []).length < e.total) return fail(409, 'Finish every unit first');
         const need = !!(await keyOf(s, course));
         const att = need ? await rest(s, 'GET', 'lms_attempts', `user_id=eq.${uid}&course_key=eq.${eq(course)}&passed=eq.true&order=pct.desc&limit=1`) : [{ pct: 100 }];
         if (!att[0]) return fail(409, `Pass the final check (${PASS}%) first`);
-        const authoredCourse = await authored(s, course);
         if (authoredCourse) {
           const required = await rest(s, 'GET', 'lms_assignments', `course_id=eq.${eq(authoredCourse.id)}&certificate_required=eq.true&order=created_at.asc&limit=100`);
           for (const a of required) {
