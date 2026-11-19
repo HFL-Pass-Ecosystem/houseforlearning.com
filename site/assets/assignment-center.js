@@ -67,6 +67,17 @@
       if (!x.assignments.length) list.appendChild(el('p', '', x.owner || x.staff ? 'No assignments yet. Create a practical task and rubric below.' : 'No reviewed assignments are available for this course yet.'));
       x.assignments.forEach(function (a) { list.appendChild(card(a, x)); });
       if (x.owner || x.staff) { box.appendChild(el('h3', '', editingId ? 'Edit assignment draft' : 'Create an assignment')); box.appendChild(authorForm()); }
+      else {
+        var certificateActions = row([]);
+        certificateActions.appendChild(btn('Check certificate eligibility', function () {
+          A.call({ action: 'certificate', course: x.course.key }).then(function (y) {
+            if (y.certificate) location.href = 'certificate.html?code=' + encodeURIComponent(y.certificate.code);
+            else box.appendChild(say(y.error || 'Course requirements are not complete yet.', true));
+          });
+        }));
+        var finalLink = el('a', 'btn btn-ghost', 'Open final check'); finalLink.href = 'quiz.html?course=' + encodeURIComponent(x.course.key); certificateActions.appendChild(finalLink);
+        box.appendChild(certificateActions);
+      }
     });
   }
 
@@ -76,6 +87,7 @@
     d.appendChild(el('p', 'au-status', stateLine(a.status)));
     if (a.review_note) d.appendChild(say('Facilitator note: ' + a.review_note));
     d.appendChild(el('p', '', a.directions));
+    d.appendChild(el('p', 'au-status', a.certificate_required ? 'Certificate requirement · pass this rubric at ' + a.pass_percent + '% or higher.' : 'Optional practice · does not affect certificate eligibility.'));
     if (a.outcomes && a.outcomes.length) {
       d.appendChild(el('h4', '', 'What you will demonstrate'));
       var ol = el('ol'); a.outcomes.forEach(function (o) { ol.appendChild(el('li', '', o)); }); d.appendChild(ol);
@@ -106,16 +118,21 @@
         { id: 'criterion-2', label: 'Reasoning and method', guidance: 'Shows a clear, repeatable method and explains key decisions.', max_points: 4 },
         { id: 'criterion-3', label: 'Evidence and communication', guidance: 'Provides relevant evidence and a clear handover or conclusion.', max_points: 2 },
       ],
+      certificate_required: true,
+      pass_percent: 70,
     };
   }
 
   function authorForm() {
     var draft = blankDraft(), editing = state.assignments.filter(function (a) { return a.id === editingId; })[0];
-    if (editing) draft = { title: editing.title, directions: editing.directions, outcomes: (editing.outcomes || []).join('\n'), rubric: (editing.rubric || []).map(function (r) { return { id: r.id, label: r.label, guidance: r.guidance, max_points: r.max_points }; }) };
+    if (editing) draft = { title: editing.title, directions: editing.directions, outcomes: (editing.outcomes || []).join('\n'), rubric: (editing.rubric || []).map(function (r) { return { id: r.id, label: r.label, guidance: r.guidance, max_points: r.max_points }; }), certificate_required: !!editing.certificate_required, pass_percent: Number(editing.pass_percent) || 70 };
     var form = el('div', 'au-q'), out = el('div');
     form.appendChild(field('Assignment title', draft.title, function (v) { draft.title = v; }, { max: 140 }));
     form.appendChild(field('Task directions: explain the workplace situation, deliverable and constraints', draft.directions, function (v) { draft.directions = v; }, { area: true, rows: 6, max: 6000 }));
     form.appendChild(field('Observable learning outcomes (one per line)', draft.outcomes, function (v) { draft.outcomes = v; }, { area: true, rows: 4, max: 1200 }));
+    var requirement = el('label', 'au-check'), requiredBox = el('input'); requiredBox.type = 'checkbox'; requiredBox.checked = !!draft.certificate_required; requiredBox.addEventListener('change', function () { draft.certificate_required = requiredBox.checked; }); requirement.appendChild(requiredBox); requirement.appendChild(document.createTextNode(' Require this assignment to earn the course certificate.'));
+    form.appendChild(requirement);
+    form.appendChild(field('Minimum rubric score for certificate (%)', draft.pass_percent, function (v) { draft.pass_percent = Number(v); }, { type: 'number', min: 1, maxValue: 100, step: '1' }));
     var rubricBox = el('div', 'au-list'); rubricBox.appendChild(el('h4', '', 'Marking criteria'));
     function drawRubric() {
       rubricBox.textContent = '';
@@ -134,7 +151,7 @@
     form.appendChild(el('p', 'au-hint', 'Keep directions specific. Avoid requesting confidential records or sensitive personal details.'));
     var save = btn(editing ? 'Save draft changes' : 'Save assignment draft', function () {
       out.textContent = '';
-      var payload = { action: editing ? 'update' : 'create', course_id: courseId, assignment_id: editingId || undefined, title: draft.title, directions: draft.directions, outcomes: draft.outcomes.split('\n'), rubric: draft.rubric };
+      var payload = { action: editing ? 'update' : 'create', course_id: courseId, assignment_id: editingId || undefined, title: draft.title, directions: draft.directions, outcomes: draft.outcomes.split('\n'), rubric: draft.rubric, certificate_required: draft.certificate_required, pass_percent: draft.pass_percent };
       api(payload).then(function (x) {
         if (x.assignment) { editingId = ''; load(say('Draft saved. Submit it for facilitator review when it is ready.')); }
         else out.appendChild(say(x.error || 'Could not save the assignment.', true));
@@ -166,6 +183,7 @@
       d.appendChild(el('p', 'au-status', 'Attempt ' + old.attempt + ' · ' + (old.status === 'graded' ? 'Feedback available' : 'Submitted for review')));
       if (old.status === 'graded') {
         d.appendChild(el('p', '', 'Score: ' + old.score + ' / ' + old.max_points + ' points.'));
+        if (a.certificate_required) { var learnerPass = Number(old.max_points) > 0 && Math.round(100 * Number(old.score) / Number(old.max_points)) >= Number(a.pass_percent || 70); d.appendChild(el('p', 'au-status', learnerPass ? 'Meets this assignment’s ' + a.pass_percent + '% certificate threshold.' : 'Does not yet meet the ' + a.pass_percent + '% certificate threshold.')); }
         if (old.feedback) d.appendChild(say('Facilitator feedback: ' + old.feedback));
         (old.rubric_scores || []).forEach(function (r) { d.appendChild(el('p', '', r.label + ': ' + r.points + ' / ' + r.max_points)); });
       }
