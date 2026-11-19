@@ -90,6 +90,7 @@ export default async (req) => {
         const item = brief(a);
         item.editable = a.created_by === who.id;
         item.can_submit_review = (owner && a.created_by === who.id) || staff;
+        item.can_review = staff && (a.created_by !== who.id || member.role === 'admin');
         if (!owner && !staff) {
           delete item.review_note;
           const mine = (await rest(s, 'GET', 'lms_assignment_submissions', 'assignment_id=eq.' + eq(a.id) + '&user_id=eq.' + eq(who.id) + '&order=attempt.desc&limit=1'))[0];
@@ -138,6 +139,7 @@ export default async (req) => {
       if (!staff) return fail(403, 'For facilitators and admins only');
       const old = await getAssignment(assignmentId);
       if (!old || old.status !== 'review') return fail(404, 'Assignment not waiting for review');
+      if (old.created_by === who.id && member.role !== 'admin') return fail(403, 'A different facilitator must review this assignment');
       const approve = body.decision === 'approve';
       if (!approve && body.decision !== 'changes') return fail(400, 'Choose approve or changes');
       const note = text(body.note, 1000) || (approve ? '' : 'Please review the assignment and rubric, then send it again.');
