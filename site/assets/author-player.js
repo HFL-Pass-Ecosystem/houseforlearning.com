@@ -96,6 +96,11 @@
         } else if (c.status === 'published') {
           box.appendChild(btn('Join this course', function () { box.textContent = ''; player(); }, 'btn'));
         }
+        if (joined || c.preview) {
+          var assignmentLink = el('a', 'btn btn-ghost', 'Practical assignments');
+          assignmentLink.href = 'assignments.html?course=' + encodeURIComponent(c.id);
+          box.appendChild(assignmentLink);
+        }
         A.paint && A.paint();
       });
     }
