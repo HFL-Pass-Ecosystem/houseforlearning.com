@@ -167,6 +167,15 @@
       if (model.status === 'approved') acts.appendChild(btn('Publish', function () { api({ action: 'publish', id: model.id }).then(function (x) { if (x.course) home(say('Published. Learners can find it on the Courses by members page.')); else { draw(); box.appendChild(say(x.error || 'Could not publish.', true)); } }); }));
       if (model.status === 'approved' || model.status === 'published') box.appendChild(say('If you change and save an approved or published course, it goes back to a trainer first.'));
       if (model.id) { var pv = el('a', 'btn btn-ghost', 'Preview as a learner'); pv.href = 'learn.html?c=' + encodeURIComponent(model.key); acts.appendChild(pv); }
+      if (model.id && (model.status === 'approved' || model.status === 'published')) {
+        box.appendChild(say('SCORM 1.2 is a portable course copy. The destination LMS records its own lesson progress and final-check score. Rubric assignments and House for Learning certificates remain in the HFL learner record; external images load from their HTTPS hosts.'));
+        acts.appendChild(btn('Download SCORM 1.2 package', function () {
+          try {
+            window.HFLScormExport.download(model);
+            out.appendChild(say('SCORM package downloaded. Import it into an LMS with SCORM 1.2 enabled, then confirm progress and score reporting before learner release.'));
+          } catch (e) { out.appendChild(say(e && e.message ? e.message : 'Could not export this course.', true)); }
+        }, 'btn btn-ghost'));
+      }
       box.appendChild(acts); box.appendChild(out);
     }
     draw();
