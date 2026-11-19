@@ -65,9 +65,9 @@
     if (A.mode !== 'server') return needServer('take the final check');
     var en = ((A.server || {}).enrolments || []).filter(function (e) { return e.course === c; })[0];
     if (!en) { box.appendChild(say('Join this course first.', true)); box.appendChild(link(c, 'Open the course')); return; }
-    var authored = /^author-[0-9a-f]{20}\.html$/.test(c);
+    var authored = /^author-[0-9a-f]{20}\.html$/.test(c), authoredCourseId = '';
     (authored
-      ? fetch('/api/author', { method: 'POST', headers: { 'Content-Type': 'application/json' }, credentials: 'same-origin', body: JSON.stringify({ action: 'play', key: c }) }).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (x) { return { title: x.course.title, pass: 70, questions: x.course.quiz }; })
+      ? fetch('/api/author', { method: 'POST', headers: { 'Content-Type': 'application/json' }, credentials: 'same-origin', body: JSON.stringify({ action: 'play', key: c }) }).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (x) { authoredCourseId = x.course.id; return { title: x.course.title, pass: 70, questions: x.course.quiz }; })
       : fetch('assets/quiz/' + encodeURIComponent(c) + '.json').then(function (r) { if (!r.ok) throw 0; return r.json(); })
     ).then(function (z) {
       box.appendChild(el('h3', '', 'Final check: ' + (z.title || en.title)));
@@ -95,7 +95,7 @@
           res.appendChild(say('You scored ' + x.score + ' of ' + x.max + ' (' + x.pct + '%). ' + (x.passed ? 'Passed.' : 'Not passed yet: you need ' + x.pass + '%. Check the marked questions and try again.'), !x.passed));
           en.quiz = { pct: Math.max(x.pct, en.quiz ? en.quiz.pct : 0), passed: x.passed || (en.quiz && en.quiz.passed) };
           if (x.passed) {
-            if (done >= en.total) { var cb = el('button', 'btn', 'Get my certificate'); cb.type = 'button'; cb.addEventListener('click', function () { A.call({ action: 'certificate', course: c }).then(function (y) { if (y.certificate) location.href = 'certificate.html?code=' + encodeURIComponent(y.certificate.code); else res.appendChild(say(y.error || 'Please try again.', true)); }); }); res.appendChild(cb); }
+            if (done >= en.total) { var cb = el('button', 'btn', 'Get my certificate'); cb.type = 'button'; cb.addEventListener('click', function () { A.call({ action: 'certificate', course: c }).then(function (y) { if (y.certificate) location.href = 'certificate.html?code=' + encodeURIComponent(y.certificate.code); else { res.appendChild(say(y.error || 'Please try again.', true)); if (authored && authoredCourseId && /required assignment/i.test(y.error || '')) res.appendChild(link('assignments.html?course=' + encodeURIComponent(authoredCourseId), 'Open practical assignments', 'btn btn-ghost')); } }); }); res.appendChild(cb); }
             else res.appendChild(say('Finish every unit (' + done + ' of ' + en.total + ' done) to receive your certificate.'));
           }
           res.scrollIntoView({ block: 'nearest' });
