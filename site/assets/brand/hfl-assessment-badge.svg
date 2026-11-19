@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1120" role="img" aria-labelledby="title desc">
+<title id="title">House for Learning CAP™ Chartered Deployment badge</title>
+<desc id="desc">House for Learning issuer seal. CAP™ Chartered Deployment. Author and train with HCF™; learn with PMP, the Phygital Marketplace; earn with PWP, the Phygital Workplace.</desc>
+<defs>
+  <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b3151"/><stop offset="1" stop-color="#041b32"/></linearGradient>
+  <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#14b8a6"/><stop offset="1" stop-color="#087c78"/></linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#031526" flood-opacity=".25"/></filter>
+</defs>
+<!-- Main seal -->
+<path d="M450.0,30.0 L480.0,47.3 L512.5,35.5 L539.0,57.7 L573.1,51.7 L595.4,78.2 L630.0,78.2 L647.3,108.2 L681.4,114.2 L693.2,146.8 L725.8,158.6 L731.8,192.7 L761.8,210.0 L761.8,244.6 L788.3,266.9 L782.3,301.0 L804.5,327.5 L792.7,360.0 L810.0,390.0 L792.7,420.0 L804.5,452.5 L782.3,479.0 L788.3,513.1 L761.8,535.4 L761.8,570.0 L731.8,587.3 L725.8,621.4 L693.2,633.2 L681.4,665.8 L647.3,671.8 L630.0,701.8 L595.4,701.8 L573.1,728.3 L539.0,722.3 L512.5,744.5 L480.0,732.7 L450.0,750.0 L420.0,732.7 L387.5,744.5 L361.0,722.3 L326.9,728.3 L304.6,701.8 L270.0,701.8 L252.7,671.8 L218.6,665.8 L206.8,633.2 L174.2,621.4 L168.2,587.3 L138.2,570.0 L138.2,535.4 L111.7,513.1 L117.7,479.0 L95.5,452.5 L107.3,420.0 L90.0,390.0 L107.3,360.0 L95.5,327.5 L117.7,301.0 L111.7,266.9 L138.2,244.6 L138.2,210.0 L168.2,192.7 L174.2,158.6 L206.8,146.8 L218.6,114.2 L252.7,108.2 L270.0,78.2 L304.6,78.2 L326.9,51.7 L361.0,57.7 L387.5,35.5 L420.0,47.3 Z" fill="url(#navy)" stroke="#f5a800" stroke-width="13" stroke-linejoin="round"/>
+<circle cx="450" cy="390" r="310" fill="none" stroke="#f8fafc" stroke-width="5"/>
+<circle cx="450" cy="390" r="263" fill="none" stroke="#08a99a" stroke-width="13"/>
+<!-- Issuer name sits clear of both ring strokes -->
+<rect x="190" y="164" width="520" height="58" rx="29" fill="#0b3151" stroke="#f5a800" stroke-width="3"/>
+<text x="450" y="203" text-anchor="middle" fill="#f8fafc" font-family="Georgia,'Times New Roman',serif" font-size="29" font-weight="700" letter-spacing="1.4">HOUSE FOR LEARNING</text>
+<!-- Decorative credential dots -->
+<circle cx="450" cy="98" r="20" fill="#f5a800" stroke="#fff" stroke-width="5"/>
+<circle cx="157" cy="498" r="20" fill="#f5a800" stroke="#fff" stroke-width="5"/>
+<circle cx="743" cy="498" r="20" fill="#f5a800" stroke="#fff" stroke-width="5"/>
+<!-- Shield and ascending check -->
+<g filter="url(#shadow)">
+  <path d="M450 267 C493 300 546 312 591 319 V416 C591 487 542 538 450 576 C358 538 309 487 309 416 V319 C354 312 407 300 450 267 Z" fill="url(#teal)" stroke="#f5a800" stroke-width="13" stroke-linejoin="round"/>
+  <path d="M375 420 L430 473 L532 361" fill="none" stroke="#fff" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<!-- CAP identity plate -->
+<rect x="230" y="585" width="440" height="78" rx="18" fill="#f5a800" stroke="#fff" stroke-width="5"/>
+<text x="450" y="618" text-anchor="middle" fill="#062643" font-family="Arial,sans-serif" font-size="25" font-weight="800" letter-spacing="1">CAP™</text>
+<text x="450" y="647" text-anchor="middle" fill="#062643" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="1.2">CHARTERED DEPLOYMENT</text>
+<!-- Process ribbon: distinct lower field, no text crosses a ring or the tick -->
+<path d="M127 704 H773 V926 L690 958 L450 1084 L210 958 L127 926 Z" fill="url(#navy)" stroke="#f5a800" stroke-width="10" stroke-linejoin="round"/>
+<path d="M153 728 H747 V912 L450 1068 L153 912 Z" fill="none" stroke="#08a99a" stroke-width="3" stroke-linejoin="round"/>
+<text x="450" y="776" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="25" font-weight="700" letter-spacing=".5">AUTHOR · TRAIN WITH HCF™</text>
+<text x="450" y="824" text-anchor="middle" fill="#f5a800" font-family="Arial,sans-serif" font-size="23" font-weight="700" letter-spacing=".3">LEARN WITH PMP · EARN WITH PWP</text>
+<text x="450" y="868" text-anchor="middle" fill="#e6f1f7" font-family="Arial,sans-serif" font-size="18" font-weight="600" letter-spacing=".5">PMP · PHYGITAL MARKETPLACE</text>
+<text x="450" y="898" text-anchor="middle" fill="#e6f1f7" font-family="Arial,sans-serif" font-size="18" font-weight="600" letter-spacing=".5">PWP · PHYGITAL WORKPLACE</text>
+</svg>
