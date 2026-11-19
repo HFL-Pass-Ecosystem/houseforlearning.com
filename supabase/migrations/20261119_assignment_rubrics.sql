@@ -1,5 +1,8 @@
 -- Assessment-first assignment and rubric layer for HFL LMS.
--- Run after supabase/lms.sql. No direct browser grants: the server function uses the service key.
+-- Run after the core supabase/lms.sql schema. No direct browser grants: the server function uses the service key.
+alter table public.lms_certificates add column if not exists issuer_key text not null default 'house-for-learning';
+alter table public.lms_certificates add column if not exists issuer_name text not null default 'House for Learning';
+alter table public.lms_certificates add column if not exists issuer_domain text not null default 'houseforlearning.com';
 create table if not exists public.lms_assignments (
   id uuid primary key default gen_random_uuid(),
   course_id uuid not null references public.lms_courses(id) on delete cascade,
