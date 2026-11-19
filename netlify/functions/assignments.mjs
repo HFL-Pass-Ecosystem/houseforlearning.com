@@ -91,6 +91,7 @@ export default async (req) => {
         item.editable = a.created_by === who.id;
         item.can_submit_review = (owner && a.created_by === who.id) || staff;
         if (!owner && !staff) {
+          delete item.review_note;
           const mine = (await rest(s, 'GET', 'lms_assignment_submissions', 'assignment_id=eq.' + eq(a.id) + '&user_id=eq.' + eq(who.id) + '&order=attempt.desc&limit=1'))[0];
           item.my_submission = mine ? { attempt: mine.attempt, response: mine.response, evidence_url: mine.evidence_url, rubric_scores: mine.rubric_scores || [], feedback: mine.feedback || '', score: mine.score, max_points: mine.max_points, status: mine.status, submitted_at: mine.submitted_at, graded_at: mine.graded_at } : null;
         }
@@ -189,6 +190,7 @@ export default async (req) => {
       const changed = (await rest(s, 'PATCH', 'lms_assignment_submissions', 'id=eq.' + eq(submission.id), {
         rubric_scores: values, feedback: text(body.feedback, 4000), score, max_points: max, status: 'graded', grader_id: who.id, graded_at: new Date().toISOString(),
       }, 'return=representation'))[0];
+      await rest(s, 'POST', 'lms_notifications', '', { user_id: submission.user_id, kind: 'assignment-grade', body: old.title + ' was marked: ' + score + ' / ' + max + ' points.' }, 'return=minimal').catch(() => {});
       return res(ok({ graded: { id: changed.id, score: changed.score, max_points: changed.max_points, status: changed.status, graded_at: changed.graded_at } }));
     }
 
