@@ -1,4 +1,4 @@
-/* Export an approved HFL Author Studio course as a self-contained SCORM 1.2 package.
+/* Export a trainer-approved HFL Author Studio course as a SCORM 1.2 package.
    The package contains one SCO. The external LMS records learner progress and final-check status.
    HFL assignment reviews and HFL certificates remain on the HFL server. */
 (function () {
@@ -165,15 +165,15 @@
             return Number.isInteger(n) && n >= 0 && n < total && all.indexOf(n) === i;
           });
           if (saved.status === 'passed' || saved.status === 'failed' || saved.status === 'incomplete') state.status = saved.status;
-          if (Number.isFinite(Number(saved.score))) state.score = Number(saved.score);
+          if (saved.score != null && Number.isFinite(Number(saved.score))) state.score = Number(saved.score);
           return;
         }
       } catch (_) {}
       state.index = finiteIndex(runtime.get('cmi.core.lesson_location'));
       var status = runtime.get('cmi.core.lesson_status');
       if (status === 'passed' || status === 'failed' || status === 'incomplete') state.status = status;
-      var score = Number(runtime.get('cmi.core.score.raw'));
-      if (Number.isFinite(score)) state.score = score;
+      var scoreText = runtime.get('cmi.core.score.raw');
+      if (scoreText !== '' && Number.isFinite(Number(scoreText))) state.score = Number(scoreText);
     }
     function persist() { runtime.commit(state, state.status, state.score); }
     function node(tag, className, text) {
@@ -212,10 +212,16 @@
       } else if (block.type === 'image') {
         section = node('figure', 'media');
         var img = node('img');
-        img.src = block.url;
         img.alt = block.alt || '';
         img.loading = 'lazy';
         img.referrerPolicy = 'no-referrer';
+        img.hidden = true;
+        var reveal = button('Load image from its external host', function () {
+          img.src = block.url;
+          img.hidden = false;
+          reveal.disabled = true;
+        }, 'button quiet');
+        section.appendChild(reveal);
         section.appendChild(img);
         if (block.alt) section.appendChild(node('figcaption', '', block.alt));
         parent.appendChild(section);
@@ -260,6 +266,10 @@
       header.appendChild(node('p', 'eyebrow', 'House for Learning • SCORM 1.2'));
       header.appendChild(node('h1', '', data.title));
       if (data.summary) header.appendChild(node('p', 'summary', data.summary));
+      var linkedMedia = data.lessons.some(function (lesson) {
+        return lesson.blocks.some(function (block) { return block.type === 'image' || block.type === 'video'; });
+      });
+      if (linkedMedia) header.appendChild(message('Some course media is linked from outside this ZIP. Images load only when you choose them; video links open separately. Loading linked media connects to its host.', 'notice'));
       var progress = node('p', 'progress');
       progress.setAttribute('aria-live', 'polite');
       progress.textContent = 'Lessons complete: ' + countDone() + ' of ' + total;
