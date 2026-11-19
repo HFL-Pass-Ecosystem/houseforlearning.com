@@ -42,10 +42,11 @@ function clean(input) {
     directions: text(input.directions, 6000),
     outcomes,
     rubric,
+    certificate_required: input.certificate_required === true,
   };
 }
 function brief(r) {
-  return { id: r.id, course_id: r.course_id, title: r.title, directions: r.directions, outcomes: r.outcomes || [], rubric: r.rubric || [], status: r.status, review_note: r.review_note || '', created_at: r.created_at };
+  return { id: r.id, course_id: r.course_id, title: r.title, directions: r.directions, outcomes: r.outcomes || [], rubric: r.rubric || [], certificate_required: !!r.certificate_required, pass_percent: Number(r.pass_percent) || 70, status: r.status, review_note: r.review_note || '', created_at: r.created_at };
 }
 function latestByLearner(rows) {
   const seen = new Set(), out = [];
@@ -104,7 +105,10 @@ export default async (req) => {
     if (action === 'create' || action === 'update') {
       const course = await getCourse(courseId);
       if (!course || (!isOwner(course) && !staff)) return fail(403, 'Only the course author or a facilitator can manage assignments');
+      const passPercent = body.pass_percent == null || body.pass_percent === '' ? 70 : Number(body.pass_percent);
+      if (!Number.isInteger(passPercent) || passPercent < 1 || passPercent > 100) return fail(400, 'Set a certificate pass mark from 1 to 100');
       const a = clean(body);
+      a.pass_percent = passPercent;
       if (!a.title || !a.directions) return fail(400, 'Add a title and clear task directions');
       if (!a.outcomes.length) return fail(400, 'Add at least one observable learning outcome');
       if (a.rubric.length < 2) return fail(400, 'Add at least two marking criteria');
@@ -189,11 +193,13 @@ export default async (req) => {
       }
       const score = Math.round(values.reduce((n, x) => n + x.points, 0) * 100) / 100;
       const max = Math.round(values.reduce((n, x) => n + x.max_points, 0) * 100) / 100;
+      const passed = max > 0 && Math.round(100 * score / max) >= Number(old.pass_percent || 70);
       const changed = (await rest(s, 'PATCH', 'lms_assignment_submissions', 'id=eq.' + eq(submission.id), {
         rubric_scores: values, feedback: text(body.feedback, 4000), score, max_points: max, status: 'graded', grader_id: who.id, graded_at: new Date().toISOString(),
       }, 'return=representation'))[0];
-      await rest(s, 'POST', 'lms_notifications', '', { user_id: submission.user_id, kind: 'assignment-grade', body: old.title + ' was marked: ' + score + ' / ' + max + ' points.' }, 'return=minimal').catch(() => {});
-      return res(ok({ graded: { id: changed.id, score: changed.score, max_points: changed.max_points, status: changed.status, graded_at: changed.graded_at } }));
+      const thresholdNote = old.certificate_required ? (passed ? ' This meets the assignment threshold for the course certificate.' : ' The course certificate requires ' + Number(old.pass_percent || 70) + '% on this assignment.') : '';
+      await rest(s, 'POST', 'lms_notifications', '', { user_id: submission.user_id, kind: 'assignment-grade', body: old.title + ' was marked: ' + score + ' / ' + max + ' points.' + thresholdNote }, 'return=minimal').catch(() => {});
+      return res(ok({ graded: { id: changed.id, score: changed.score, max_points: changed.max_points, pass_percent: Number(old.pass_percent || 70), passed, certificate_required: !!old.certificate_required, status: changed.status, graded_at: changed.graded_at } }));
     }
 
     return res(fail(400, 'Bad request'));
