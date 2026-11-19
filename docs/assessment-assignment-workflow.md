@@ -28,3 +28,8 @@ The automatic final check remains separate from the practical assignment. This p
 ## Interoperability boundary
 
 The HFL assignment and rubric fields are kept in a normalized JSON model so they can be mapped to other LMS course and rubric models. This implementation does not claim an existing Canvas, Absorb, Expertus, Articulate, SCORM, xAPI or LTI connector. Those require separate format mapping, identity/security review and conformance work.
+
+## Issuer identity
+
+- Verified HFL certificates persist the issuer key, display name and domain with each award, so later branding changes do not rewrite the public record.
+- The public certificate page displays the issuer-named seal and issuer name. PAVER and browser-only practice credentials remain visibly labelled as demos and do not represent academic credit or an accredited qualification.
