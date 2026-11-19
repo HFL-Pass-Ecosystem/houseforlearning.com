@@ -226,7 +226,7 @@
       out.textContent = '';
       var rubricScores = (a.rubric || []).map(function (r) { return { id: r.id, points: scores[r.id] }; });
       api({ action: 'grade', submission_id: s.id, rubric_scores: rubricScores, feedback: feedback }).then(function (x) {
-        if (x.graded) { s.status = 'graded'; s.score = x.graded.score; s.max_points = x.graded.max_points; d.insertBefore(say('Marking saved.'), out); }
+        if (x.graded) { s.status = 'graded'; s.score = x.graded.score; s.max_points = x.graded.max_points; d.insertBefore(say(a.certificate_required ? (x.graded.passed ? 'Marking saved. The learner meets this assignment’s certificate threshold.' : 'Marking saved. The learner needs ' + a.pass_percent + '% to meet the certificate threshold.') : 'Marking saved.'), out); }
         else out.appendChild(say(x.error || 'Could not save marking.', true));
       });
     }));
