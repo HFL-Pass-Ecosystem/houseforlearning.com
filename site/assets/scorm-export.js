@@ -121,7 +121,7 @@
       set('cmi.suspend_data', saved);
       if (state && Number.isInteger(state.index)) set('cmi.core.lesson_location', String(state.index).slice(0, 255));
       if (status) set('cmi.core.lesson_status', status);
-      if (Number.isFinite(Number(score))) set('cmi.core.score.raw', String(Math.max(0, Math.min(100, Math.round(Number(score))))));
+      if (score != null && Number.isFinite(Number(score))) set('cmi.core.score.raw', String(Math.max(0, Math.min(100, Math.round(Number(score))))));
       invoke('LMSCommit', ['']);
       return true;
     }
