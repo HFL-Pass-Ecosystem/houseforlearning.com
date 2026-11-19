@@ -21,7 +21,11 @@
     var l = el('label', 'au-f'); l.appendChild(el('span', 'au-l', label));
     var i = el(opts.area ? 'textarea' : 'input');
     if (opts.area) i.rows = opts.rows || 4; else i.type = opts.type || 'text';
-    if (opts.max) i.maxLength = opts.max;
+    if (opts.maxLength != null) i.maxLength = opts.maxLength;
+    else if (opts.max != null && !(i.tagName === 'INPUT' && i.type === 'number')) i.maxLength = opts.max;
+    if (opts.min != null) i.min = opts.min;
+    if (opts.maxValue != null) i.max = opts.maxValue;
+    if (opts.step) i.step = opts.step;
     i.value = val == null ? '' : val;
     i.addEventListener('input', function () { on(i.value); });
     l.appendChild(i); return l;
@@ -81,9 +85,9 @@
     table.appendChild(el('p', '', 'Maximum: ' + (a.rubric || []).reduce(function (n, r) { return n + Number(r.max_points || 0); }, 0) + ' points.'));
     d.appendChild(table);
     if ((context.owner || context.staff) && a.status === 'review' && context.staff) d.appendChild(reviewForm(a));
-    if ((context.owner || context.staff) && ['draft', 'changes'].indexOf(a.status) > -1 && a.created_by !== 'other') {
-      d.appendChild(btn('Edit draft', function () { editingId = a.id; load(); }, 'btn btn-ghost'));
-      d.appendChild(btn('Send to facilitator', function () {
+    if ((context.owner || context.staff) && ['draft', 'changes'].indexOf(a.status) > -1) {
+      if (a.editable) d.appendChild(btn('Edit draft', function () { editingId = a.id; load(); }, 'btn btn-ghost'));
+      if (a.can_submit_review) d.appendChild(btn('Send to facilitator', function () {
         api({ action: 'submit_review', assignment_id: a.id }).then(function (x) { if (x.assignment) load(say('Sent to the facilitator for review.')); else d.appendChild(say(x.error || 'Could not submit.', true)); });
       }));
     }
@@ -119,7 +123,7 @@
         var g = el('div', 'au-q');
         g.appendChild(field('Criterion ' + (i + 1), r.label, function (v) { r.label = v; }, { max: 120 }));
         g.appendChild(field('What good evidence looks like', r.guidance, function (v) { r.guidance = v; }, { area: true, rows: 2, max: 500 }));
-        g.appendChild(field('Maximum points', r.max_points, function (v) { r.max_points = Number(v) || 0; }, { type: 'number', max: 3 }));
+        g.appendChild(field('Maximum points', r.max_points, function (v) { r.max_points = Number(v) || 0; }, { type: 'number', min: 1, maxValue: 100, step: '0.01' }));
         if (draft.rubric.length > 2) g.appendChild(btn('Remove criterion', function () { draft.rubric.splice(i, 1); drawRubric(); }, 'btn btn-ghost'));
         rubricBox.appendChild(g);
       });
@@ -196,7 +200,7 @@
     (a.rubric || []).forEach(function (r) {
       var previous = (s.rubric_scores || []).filter(function (x) { return x.id === r.id; })[0];
       scores[r.id] = previous ? previous.points : 0;
-      d.appendChild(field(r.label + ' · max ' + r.max_points + ' points', scores[r.id], function (v) { scores[r.id] = Number(v); }, { type: 'number', max: 4 }));
+      d.appendChild(field(r.label + ' · max ' + r.max_points + ' points', scores[r.id], function (v) { scores[r.id] = Number(v); }, { type: 'number', min: 0, maxValue: Number(r.max_points), step: '0.01' }));
     });
     d.appendChild(field('Feedback for the learner', feedback, function (v) { feedback = v; }, { area: true, rows: 3, max: 4000 }));
     d.appendChild(btn(s.status === 'graded' ? 'Update marking' : 'Save marking', function () {
