@@ -5,6 +5,9 @@ import { ok, fail, text, readBody } from './_lib.mjs';
 import { whoIs, withSession } from './_session.mjs';
 import keys from './quizkeys.json' with { type: 'json' };
 import { SHARE } from './author.mjs';
+import { randomInt } from 'node:crypto';
+
+const ISSUER = Object.freeze({ key: 'house-for-learning', name: 'House for Learning', domain: 'houseforlearning.com' });
 
 const PASS = 70;
 const COURSE = /^[a-z0-9][a-z0-9._-]{0,120}\.html$/i;
@@ -26,11 +29,13 @@ async function rest(s, method, table, query, body, prefer) {
 }
 const eq = (v) => encodeURIComponent(v);
 const AUTHORED = /^author-[0-9a-f]{20}\.html$/;
+const unitCount = (course) => Array.isArray(course && course.modules) ? course.modules.reduce((n, module) => n + (Array.isArray(module && module.lessons) ? module.lessons.length : 0), 0) : 0;
+const validUnitCount = (count) => Number.isInteger(count) && count >= 1 && count <= 200;
 // A course made in Author Studio: its final check lives in the database (answers server-side only).
 const authored = async (s, course) => (AUTHORED.test(course) ? (await rest(s, 'GET', 'lms_courses', `ckey=eq.${eq(course)}&status=eq.published`).catch(() => []))[0] : null);
 const keyOf = async (s, course) => { const a = await authored(s, course); return a ? (a.quiz || []).map((q) => q.a).join('') : keys[course]; };
 const ints = (a, max) => Array.from(new Set((Array.isArray(a) ? a : []).map(Number).filter((n) => Number.isInteger(n) && n >= 0 && n < max))).sort((x, y) => x - y);
-const code = () => 'HFL-' + [0, 1, 2].map(() => Math.random().toString(36).slice(2, 6).toUpperCase()).join('-');
+const code = () => 'HFL-' + [0, 1, 2].map(() => randomInt(36 ** 4).toString(36).toUpperCase().padStart(4, '0')).join('-');
 
 async function note(s, user_id, kind, body) {
   try { await rest(s, 'POST', 'lms_notifications', '', { user_id, kind, body }, 'return=minimal'); } catch { /* a missed note never blocks learning */ }
@@ -62,9 +67,9 @@ export default async (req) => {
   if (action === 'verify') {
     const c = text(body.code, 30).toUpperCase();
     if (!/^HFL-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{4}$/.test(c)) return fail(400, 'Please check the code');
-    const rows = await rest(s, 'GET', 'lms_certificates', `code=eq.${eq(c)}&select=code,title,holder,pct,issued_at`).catch(() => null);
+    const rows = await rest(s, 'GET', 'lms_certificates', `code=eq.${eq(c)}&select=code,title,holder,pct,issued_at,issuer_key,issuer_name,issuer_domain`).catch(() => null);
     if (!rows) return fail(502, 'Please try again in a moment');
-    return rows[0] ? ok({ valid: true, certificate: rows[0] }) : ok({ valid: false });
+    return rows[0] ? ok({ valid: true, certificate: { ...rows[0], issuerKey: rows[0].issuer_key, issuerName: rows[0].issuer_name || ISSUER.name, issuerDomain: rows[0].issuer_domain || ISSUER.domain } }) : ok({ valid: false });
   }
 
   const who = await whoIs(req);
@@ -81,7 +86,7 @@ export default async (req) => {
     if (action === 'state') {
       const [en, ce, at, nt] = await Promise.all([
         rest(s, 'GET', 'lms_enrolments', `user_id=eq.${uid}&order=updated_at.desc&limit=200`),
-        rest(s, 'GET', 'lms_certificates', `user_id=eq.${uid}&select=code,course_key,title,issued_at`),
+        rest(s, 'GET', 'lms_certificates', `user_id=eq.${uid}&select=code,course_key,title,issued_at,issuer_key,issuer_name,issuer_domain`),
         rest(s, 'GET', 'lms_attempts', `user_id=eq.${uid}&select=course_key,pct,passed,created_at&order=created_at.desc&limit=500`),
         rest(s, 'GET', 'lms_notifications', `user_id=eq.${uid}&order=created_at.desc&limit=20`),
       ]);
@@ -91,7 +96,7 @@ export default async (req) => {
         user: { name: me.full_name || '', email: who.email, role, staff },
         pass: PASS,
         enrolments: en.map((e) => ({ ...pub(e), quiz: best[e.course_key] || null, attempts: tries[e.course_key] || 0, hasQuiz: !!keys[e.course_key] || AUTHORED.test(e.course_key) })),
-        certificates: ce.map((c) => ({ code: c.code, course: c.course_key, title: c.title, issuedAt: c.issued_at })),
+        certificates: ce.map((c) => ({ code: c.code, course: c.course_key, title: c.title, issuedAt: c.issued_at, issuerKey: c.issuer_key, issuerName: c.issuer_name || ISSUER.name, issuerDomain: c.issuer_domain || ISSUER.domain })),
         notifications: nt.map((n) => ({ id: n.id, kind: n.kind, body: n.body, read: n.read, at: n.created_at })),
       }));
     }
@@ -100,10 +105,19 @@ export default async (req) => {
       const course = needCourse(); if (!course) return fail(400, 'Choose a course first');
       const method = ['bank', 'upi'].includes(body.method) ? body.method : 'bank';
       const title = text(body.title, 160) || course;
-      const total = Math.min(Math.max(parseInt(body.total, 10) || 1, 1), 200);
+      let total = Math.min(Math.max(parseInt(body.total, 10) || 1, 1), 200);
       let e = await mine(course);
       const au = AUTHORED.test(course) ? await authored(s, course) : null;
       if (AUTHORED.test(course) && !au) return fail(404, 'This course is not open yet');
+      if (au) {
+        total = unitCount(au);
+        if (!validUnitCount(total)) return fail(409, 'This course needs between 1 and 200 lessons before enrollment.');
+        if (e && Number(e.total) !== total) {
+          const done = ints(e.done, total), complete = done.length === total;
+          const last = Number.isInteger(e.last_unit) ? Math.min(Math.max(e.last_unit, 0), total - 1) : 0;
+          e = (await rest(s, 'PATCH', 'lms_enrolments', 'id=eq.' + eq(e.id), { total, done, last_unit: last, status: complete ? 'completed' : 'active', completed_at: complete ? (e.completed_at || new Date().toISOString()) : null, updated_at: new Date().toISOString() }, 'return=representation'))[0];
+        }
+      }
       if (!e) {
         // Test payment only: the row says test_paid. When real payments go live this is where a confirmed payment is checked.
         e = (await rest(s, 'POST', 'lms_enrolments', '', { user_id: who.id, course_key: course, title, total, pay_method: method, pay_ref: text(body.ref, 60) || null }, 'return=representation'))[0];
@@ -119,7 +133,12 @@ export default async (req) => {
     if (action === 'progress') {
       const course = needCourse(); if (!course) return fail(400, 'Choose a course first');
       const e = await mine(course); if (!e) return fail(403, 'Join this course first');
-      const total = Math.min(Math.max(parseInt(body.total, 10) || e.total, 1), 200);
+      const isAuthored = AUTHORED.test(course);
+      const authoredCourse = isAuthored ? await authored(s, course) : null;
+      if (isAuthored && !authoredCourse) return fail(404, 'This course is not open yet');
+      const canonicalTotal = authoredCourse ? unitCount(authoredCourse) : 0;
+      if (authoredCourse && !validUnitCount(canonicalTotal)) return fail(409, 'This course needs between 1 and 200 lessons before progress can be recorded.');
+      const total = authoredCourse ? canonicalTotal : Math.min(Math.max(parseInt(body.total, 10) || e.total, 1), 200);
       const done = ints(body.done, total);
       const last = Number.isInteger(body.last) && body.last >= 0 && body.last < total ? body.last : e.last_unit;
       const complete = done.length >= total;
@@ -149,7 +168,10 @@ export default async (req) => {
         const isAuthored = AUTHORED.test(course);
         const authoredCourse = isAuthored ? (await rest(s, 'GET', 'lms_courses', `ckey=eq.${eq(course)}`))[0] : null;
         if (isAuthored && (!authoredCourse || authoredCourse.status !== 'published')) return fail(409, 'Course certificate issuance is paused while this authored course is not published.');
-        if ((e.done || []).length < e.total) return fail(409, 'Finish every unit first');
+        const requiredUnits = authoredCourse ? unitCount(authoredCourse) : Number(e.total);
+        if (authoredCourse && !validUnitCount(requiredUnits)) return fail(409, 'This course needs between 1 and 200 lessons before certificate issuance.');
+        const completedUnits = ints(e.done, requiredUnits);
+        if (completedUnits.length < requiredUnits) return fail(409, 'Finish every unit first');
         const need = !!(await keyOf(s, course));
         const att = need ? await rest(s, 'GET', 'lms_attempts', `user_id=eq.${uid}&course_key=eq.${eq(course)}&passed=eq.true&order=pct.desc&limit=1`) : [{ pct: 100 }];
         if (!att[0]) return fail(409, `Pass the final check (${PASS}%) first`);
@@ -163,10 +185,10 @@ export default async (req) => {
           }
         }
         const holder = me.full_name || (who.email || '').split('@')[0] || 'Learner';
-        c = (await rest(s, 'POST', 'lms_certificates', '', { code: code(), user_id: who.id, course_key: course, title: e.title, holder, pct: att[0].pct }, 'return=representation'))[0];
+        c = (await rest(s, 'POST', 'lms_certificates', '', { code: code(), user_id: who.id, course_key: course, title: e.title, holder, pct: att[0].pct, issuer_key: ISSUER.key, issuer_name: ISSUER.name, issuer_domain: ISSUER.domain }, 'return=representation'))[0];
         await note(s, who.id, 'certificate', `Your certificate for ${e.title} is ready. Code ${c.code}.`);
       }
-      return res(ok({ certificate: { code: c.code, title: c.title, holder: c.holder, pct: c.pct, issuedAt: c.issued_at } }));
+      return res(ok({ certificate: { code: c.code, title: c.title, holder: c.holder, pct: c.pct, issuedAt: c.issued_at, issuerKey: c.issuer_key, issuerName: c.issuer_name || ISSUER.name, issuerDomain: c.issuer_domain || ISSUER.domain } }));
     }
 
     if (action === 'notes_read') {
