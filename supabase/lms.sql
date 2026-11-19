@@ -131,6 +131,7 @@ create table if not exists public.lms_assignments (
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now()
 );
+alter table public.lms_assignments add column if not exists review_note text not null default '';
 create index if not exists lms_assignments_course on public.lms_assignments (course_id, status, created_at);
 
 create table if not exists public.lms_assignment_submissions (
