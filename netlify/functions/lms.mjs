@@ -32,17 +32,32 @@ const unitCount = (course) => Array.isArray(course && course.modules) ? course.m
 const validUnitCount = (count) => Number.isInteger(count) && count >= 1 && count <= 200;
 // A course made in Author Studio: its final check lives in the database (answers server-side only).
 const authored = async (s, course) => (AUTHORED.test(course) ? (await rest(s, 'GET', 'lms_courses', `ckey=eq.${eq(course)}&status=eq.published`).catch(() => []))[0] : null);
+const cleanAssessment = (assessment, fallbackTitle) => {
+  const raw = assessment && Array.isArray(assessment.questions) ? assessment.questions : [];
+  if (!raw.length || raw.length > 60) return null;
+  const questions = raw.map((item) => {
+    const question = text(item && item.q, 500);
+    const options = Array.isArray(item && item.o) ? item.o.map((option) => text(option, 300)) : [];
+    return question && options.length >= 2 && options.length <= 6 && options.every(Boolean) ? { q: question, o: options } : null;
+  });
+  if (questions.some((item) => !item)) return null;
+  return { title: text(assessment.title || fallbackTitle, 140) || 'Final check', pass: PASS, questions };
+};
 const keyOf = async (s, course) => {
   const a = await authored(s, course);
   if (a) {
     const quiz = Array.isArray(a.quiz) ? a.quiz : [];
     const answerKey = quiz.map((q) => Number(q.a)).join('');
-    if (!answerKey) return null;
+    const assessment = cleanAssessment({ questions: quiz }, a.title);
+    if (!answerKey || !assessment || answerKey.length !== assessment.questions.length) return null;
     const version = 'author-' + createHash('sha256').update(JSON.stringify(quiz)).digest('hex').slice(0, 20);
-    return { answerKey, version };
+    return { answerKey, version, assessment };
   }
-  const rows = await rest(s, 'GET', 'lms_quiz_bank', `course_key=eq.${eq(course)}&active=eq.true&select=answer_key,version&limit=1`);
-  return rows[0] && rows[0].answer_key ? { answerKey: rows[0].answer_key, version: rows[0].version } : null;
+  const rows = await rest(s, 'GET', 'lms_quiz_bank', `course_key=eq.${eq(course)}&active=eq.true&select=answer_key,assessment,version&limit=1`);
+  const row = rows[0];
+  const assessment = row && cleanAssessment(row.assessment, course);
+  if (!row || !/^[0-5]{1,60}$/.test(row.answer_key || '') || !assessment || assessment.questions.length !== row.answer_key.length) return null;
+  return { answerKey: row.answer_key, version: row.version, assessment };
 };
 const ints = (a, max) => Array.from(new Set((Array.isArray(a) ? a : []).map(Number).filter((n) => Number.isInteger(n) && n >= 0 && n < max))).sort((x, y) => x - y);
 const code = () => 'HFL-' + [0, 1, 2].map(() => randomInt(36 ** 4).toString(36).toUpperCase().padStart(4, '0')).join('-');
@@ -100,9 +115,9 @@ export default async (req) => {
         rest(s, 'GET', 'lms_certificates', `user_id=eq.${uid}&select=code,course_key,title,issued_at,issuer_key,issuer_name,issuer_domain`),
         rest(s, 'GET', 'lms_attempts', `user_id=eq.${uid}&select=course_key,pct,passed,created_at&order=created_at.desc&limit=500`),
         rest(s, 'GET', 'lms_notifications', `user_id=eq.${uid}&order=created_at.desc&limit=20`),
-        rest(s, 'GET', 'lms_quiz_bank', 'active=eq.true&select=course_key&limit=5000'),
+        rest(s, 'GET', 'lms_quiz_bank', 'active=eq.true&select=course_key,assessment,answer_key&limit=5000'),
       ]);
-      const quizKeys = new Set(bank.map((q) => q.course_key));
+      const quizKeys = new Set(bank.filter((q) => { const a = cleanAssessment(q.assessment, q.course_key); return a && /^[0-5]{1,60}$/.test(q.answer_key || '') && a.questions.length === q.answer_key.length; }).map((q) => q.course_key));
       const best = {}, tries = {};
       for (const a of at) { tries[a.course_key] = (tries[a.course_key] || 0) + 1; if (!best[a.course_key] || a.pct > best[a.course_key].pct) best[a.course_key] = { pct: a.pct, passed: a.passed }; }
       return res(ok({
@@ -161,10 +176,19 @@ export default async (req) => {
       return res(ok({ enrolment: pub(u) }));
     }
 
+    if (action === 'assessment') {
+      const course = needCourse(); if (!course) return fail(400, 'Choose a course first');
+      const e = await mine(course); if (!e) return fail(403, 'Join this course first');
+      const bank = await keyOf(s, course);
+      if (!bank) return fail(404, 'This course has no configured final check yet');
+      return res(ok({ version: bank.version, assessment: bank.assessment }));
+    }
+
     if (action === 'quiz') {
       const course = needCourse(); if (!course) return fail(400, 'Choose a course first');
       const e = await mine(course); if (!e) return fail(403, 'Join this course first');
       const bank = await keyOf(s, course); if (!bank || !bank.answerKey) return fail(404, 'This course has no configured final check yet');
+      if (String(body.assessment_version || '') !== bank.version) return fail(409, 'This final check changed. Reload the page before submitting.');
       const key = bank.answerKey;
       const given = Array.isArray(body.answers) ? body.answers.slice(0, key.length) : [];
       const right = key.split('').map((k, i) => Number(given[i]) === Number(k));
