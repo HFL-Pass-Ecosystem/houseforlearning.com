@@ -170,7 +170,20 @@ alter table public.lms_certificates add column if not exists issuer_domain text 
 -- Never commit answer keys to public files or return them to the learner browser.
 create table if not exists public.lms_quiz_bank (
   course_key text primary key,
-  answer_key text not null check (answer_key ~ '^[0-5]{1,60}$'),
+  assessment jsonb not null default '{"questions":[]}'::jsonb,
+  answer_key text not null check (answer_key ~ '^[0-5]{1,60}
+  version text not null default 'v1' check (length(version) between 1 and 80),
+  active boolean not null default true,
+  reviewed_at timestamptz,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now()
+);
+alter table public.lms_quiz_bank add column if not exists assessment jsonb not null default '{"questions":[]}'::jsonb;
+alter table public.lms_quiz_bank enable row level security;
+
+-- Keep each recorded attempt tied to the exact assessment version that was graded.
+alter table public.lms_attempts add column if not exists assessment_version text not null default 'legacy';
+),
   version text not null default 'v1' check (length(version) between 1 and 80),
   active boolean not null default true,
   reviewed_at timestamptz,
