@@ -56,7 +56,7 @@ def build_body(t):
     learn = ''.join(f'<p><strong>{e(b["level"])}.</strong> {e(b["task"])} <a class="more" href="{b["lslug"]}.html">Open {e(b["level"])}</a></p>' for b in brief) or '<p>This type is used in the campus builder tool.</p>'
     return (hero(f'campus build · {t["code"]} · {t["tier"].lower()} tier', t['name'], t['lede'], ctas(('campus-builder.html', 'Try the campus builder'), ('campus-lod-plan.html', 'LOD stage plan'))) +
             sec('', 'g1', 'at a glance', 'Size and capacity', facts + f'<p><strong>Used for.</strong> {e(t["use"])}</p>') +
-            sec('alt', 'g2', 'space schedule', 'Spaces, modules and seats', table(f'Space schedule, {t["name"]}', ['Space', 'Group', 'Count', 'Modules', 'Seats'], rows) + ul([e(n) for n in t['notes']])) +
+            sec('alt', 'g2', 'space schedule', 'Spaces, modules and seats', plan_fig(t) + table(f'Space schedule, {t["name"]}', ['Space', 'Group', 'Count', 'Modules', 'Seats'], rows) + ul([e(n) for n in t['notes']])) +
             sec('', 'g3', 'element list', 'Coded elements and quantities', '<p>Every line uses a code from the <a href="campus-std-elements.html">element library</a>. No maker is named. Quantities are worked out from the space schedule by the rules of the standard.</p>' +
                 table(f'Element list, {t["name"]}', ['Code', 'Element', 'Quantity', 'Unit'], qrows) + DRAFT) +
             sec('alt', 'g4', 'build order', 'How it is put together', '<ol class="lux-list one">' + ''.join(f'<li>{e(s)}</li>' for s in t['sequence']) + '</ol>') +
@@ -121,7 +121,9 @@ def hub_body():
             sec('', 'u1', 'six types', 'From one module to a flagship', tcards + comp + DRAFT) +
             sec('alt', 'u2', 'how a real campus is made', 'Type, climate annex, campus number', ul(['Pick the <strong>campus type</strong> that fits the number of learners.', 'Add the <strong>climate annex</strong> for the site.', 'Give the campus its <strong>number</strong> (C01, C02 and so on), which starts every file name.', 'Follow the <strong>LOD stage plan</strong> from brief to hand-over.', 'A local annex covers local rules. Where a local rule is stricter than ours, the local rule wins.'])) +
             sec('', 'u3', 'four climates', 'Climate annexes', acards) +
-            sec('alt', 'u4', 'model it', 'Plan, tool and projects', '<ul class="cards">'
+            sec('alt', 'u4', 'model it', 'Spaces, plan, tool and projects', '<ul class="cards cards-art">'
+                '<li class="card"><img class="card-art" src="assets/campus/lounge.svg" alt="Drawing of a campus lounge." width="640" height="320" loading="lazy" decoding="async"><span class="tag">spaces</span><h3>Campus spaces</h3><p>Twenty kinds of space in three families, each with our own drawing.</p><a class="more" href="campus-spaces.html">Open campus spaces</a></li>'
+                '<li class="card"><img class="card-art" src="assets/campus/project-area.svg" alt="Drawing of a project area." width="640" height="320" loading="lazy" decoding="async"><span class="tag">room</span><h3>Training zone</h3><p>The standard training room: layout, fit-out, technology and build order.</p><a class="more" href="campus-training-zone.html">Open the training zone</a></li>'
                 '<li class="card"><span class="tag">plan</span><h3>LOD stage plan</h3><p>Seven stages, the level each needs, and a ten-point check sheet.</p><a class="more" href="campus-lod-plan.html">Open the plan</a></li>'
                 '<li class="card"><span class="tag">tool</span><h3>Campus builder</h3><p>Type a learner number and get the campus type and its element list.</p><a class="more" href="campus-builder.html">Open the tool</a></li>'
                 '<li class="card"><span class="tag">projects</span><h3>BIM project briefs</h3><p>One project for each level, L1 to L7, on these campus types.</p><a class="more" href="bim-projects.html">Open the briefs</a></li></ul>' + SAFE))
@@ -214,6 +216,42 @@ def downloads_sec(t):
                + '<p class="lux-note">For learning only. Not a drawing for building.</p>')
 
 # ---------------- write pages ----------------
+# ---------------- module plan drawing (our own, one coloured box per module) ----------------
+GROUP_COL = {'Learn': '#0F85DB', 'Work': '#7FB8E6', 'Focus': '#0B6CB3', 'Collaborate': '#3CC261', 'Welcome': '#8FD9A4', 'Care': '#F2C14E', 'Support': '#D9B98A', 'Move': '#D5DCE3'}
+def plan_svg(t):
+    f = FIG[t['code']]
+    grp = {s['name']: s['group'] for s in t['spaces']}
+    plan = module_plan(t)
+    per = math.ceil(len(plan) / f['floors'])
+    cols = min(PER_ROW, per); rows = math.ceil(per / PER_ROW)
+    cw = 44 if per <= PER_ROW else 22
+    ch = round(cw * MY / MX)
+    fw = cols * (cw + 2) + 2
+    W_ = max(320, f['floors'] * fw + (f['floors'] - 1) * 30 + 40); H_ = rows * (ch + 2 + round(cw * .45)) + 70
+    x0 = (W_ - (f['floors'] * fw + (f['floors'] - 1) * 30)) // 2
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W_} {H_}" width="{W_}" height="{H_}"><rect width="{W_}" height="{H_}" fill="#FBFCFD"/>']
+    for fl in range(f['floors']):
+        fx = x0 + fl * (fw + 30)
+        out.append(f'<text x="{fx + fw / 2:.0f}" y="24" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="13" font-weight="700" fill="#0C1A24">Floor {fl + 1}</text>')
+        out.append(f'<rect x="{fx - 4}" y="34" width="{fw + 6}" height="{H_ - 48}" rx="6" fill="#FFFFFF" stroke="#D5DCE3"/>')
+    for i, (fl, x, y, lab) in enumerate(plan):
+        k = i - (fl - 1) * per
+        row, col = divmod(k, PER_ROW)
+        fx = x0 + (fl - 1) * (fw + 30)
+        g = grp.get(lab, 'Move')
+        out.append(f'<rect x="{fx + col * (cw + 2)}" y="{42 + row * (ch + 2 + round(cw * .45))}" width="{cw}" height="{ch}" rx="3" fill="{GROUP_COL[g]}"/>')
+    out.append('</svg>\n')
+    return ''.join(out), sorted({grp.get(lab, 'Move') for _, _, _, lab in plan}, key=list(GROUP_COL).index), (W_, H_)
+def plan_fig(t):
+    svg, groups, (w, h) = plan_svg(t)
+    d = os.path.join(SITE, 'assets', 'campus'); os.makedirs(d, exist_ok=True)
+    open(os.path.join(d, f'plan-{t["code"].lower()}.svg'), 'w', encoding='utf-8').write(svg)
+    words = {'Move': 'corridors, stairs and lobbies'}
+    key = '<ul class="plan-key">' + ''.join(f'<li><span class="pk-{g.lower()}"></span>{e(words.get(g, g.lower()))}</li>' for g in groups) + '</ul>'
+    f = FIG[t['code']]
+    return (f'<figure class="campus-fig"><img class="fig-art" src="assets/campus/plan-{t["code"].lower()}.svg" alt="Module plan of the {e(t["name"].lower(), quote=True)}: {f["mods"]} modules on {f["floors"]} floor{"s" if f["floors"] > 1 else ""}, one box per module, coloured by the kind of space." width="{w}" height="{h}" loading="lazy" decoding="async">'
+            f'<figcaption>One box is one module of 2.4 m by 5.8 m.</figcaption></figure>' + key)
+
 PAGES = ([('campus-builds', 'Campus builds', 'Six campus types built to our own campus standards, with spaces, seats, modules and coded element lists.', hub_body, HUB)] +
          [(t['slug'], f'{t["name"]} ({t["code"]}) campus build', t['lede'], (lambda t=t: build_body(t)), HUB) for t in C.TYPES] +
          [(a['slug'], f'{a["name"]} climate annex', a['lede'], (lambda a=a: annex_body(a)), HUB) for a in C.ANNEX] +
