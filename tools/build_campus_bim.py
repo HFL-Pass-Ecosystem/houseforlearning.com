@@ -98,7 +98,8 @@ def build_standards():
                  ctas(('campus-std-spaces.html', 'See the space programme'), ('bim-academy.html', 'Learn to build to it'))) +
             sec('', 'c1', 'what is inside', 'Nine standards', cards) +
             sec('alt', 'c2', 'why one standard', 'Why every campus looks and works alike', ul(['Learners and teachers move between campuses and find the same things in the same places.', 'Parts are made in one factory run and fit every site.', 'A model made once is reused many times.', 'Safety and access are checked once and trusted everywhere.'])) +
-            sec('', 'c3', 'next', 'From standard to skill', '<p>The standards are also a course. Young people learn to model, coordinate and audit campuses to this standard, and can then do the same for builders anywhere.</p>' + ctas(('bim-academy.html', 'BIM academy'), ('bim-career-pathways.html', 'BIM career pathways'))) + NOTE)
+            sec('', 'c3', 'next', 'From standard to skill', '<p>The standards are also a course. Young people learn to model, coordinate and audit campuses to this standard, and can then do the same for builders anywhere.</p>' + ctas(('bim-academy.html', 'BIM academy'), ('bim-career-pathways.html', 'BIM career pathways'))) +
+            sec('alt', 'c4', 'built to the standard', 'See every campus type built', '<p>Six campus types, from one mobile unit to a full flagship, are worked out from these standards: spaces, seats, modules and a coded element list for each.</p>' + ctas(('campus-builds.html', 'Campus builds'), ('campus-builder.html', 'Campus builder tool'), ('campus-lod-plan.html', 'LOD stage plan'))) + NOTE)
     page('campus-standards', 'Campus standards', 'Our own standards for every HFL campus: tiers, spaces, shell, interiors, furniture, services, safety, element codes and BIM rules.', body, HUB, ('catalogue.html', 'Course catalogue'), (STD[0][0] + '.html', STD[0][1]))
 
 # ---------------- BIM academy ----------------
@@ -131,7 +132,8 @@ def build_academy():
                  ctas(('bim-l1.html', 'Start at level 1'), ('bim-career-pathways.html', 'See career pathways'), ('campus-standards.html', 'Campus standards'))) +
             sec('', 'a1', 'seven levels', f'L1 to L7, about {total} hours in all', cards) +
             sec('alt', 'a2', 'how it works', 'Learn by building our own campus', ul(['Every level uses the same campus module, so the skills build on each other.', 'Each module has a worked example, an activity and a clear standard to meet.', 'Every level ends with five checks and model answers.', 'We teach the method, not a software brand: open formats and open standards.', 'Supplier and maker names never appear in a course model. You learn to describe what a part must do.'])) +
-            sec('', 'a3', 'levels of development', 'LOD in one picture', '<p>LOD says how much detail a model element carries. You learn all six levels, and when to stop adding detail.</p><p><a class="more" href="campus-std-bim.html">Read the LOD table</a></p>') + SAFE)
+            sec('', 'a3', 'levels of development', 'LOD in one picture', '<p>LOD says how much detail a model element carries. You learn all six levels, and when to stop adding detail.</p><p><a class="more" href="campus-std-bim.html">Read the LOD table</a></p>') +
+            sec('alt', 'a4', 'real projects', 'One project brief for every level', '<p>Each level has a project on a real campus type, from labelling a mobile unit to planning a flagship. Your finished project goes into your portfolio.</p>' + ctas(('bim-projects.html', 'BIM project briefs'), ('campus-builds.html', 'Campus builds'), ('campus-builder.html', 'Campus builder tool'))) + SAFE)
     page('bim-academy', 'BIM academy', 'Seven levels of BIM and LOD learning, from basics to leading a network of campuses, built on our own campus standards.', body, ('bim-academy.html', 'BIM academy'), ('catalogue.html', 'Course catalogue'), ('bim-l1.html', LV[0]['name']))
 
 def build_careers():
@@ -141,7 +143,7 @@ def build_careers():
             sec('', 'k1', 'five steps', 'Learn, show, apply, perform, create value', steps) +
             sec('alt', 'k2', 'six career steps', 'Roles by level', table('Roles by level', ['Career step', 'Levels', 'What you do'], rows)) +
             sec('', 'k3', 'portfolio', 'What goes in your portfolio', ul(['Your best model from each level, with its checklist.', 'An issue list that shows how you found and fixed problems.', 'A short note on what you would do differently.', 'Your credits and the mentor who reviewed your work.'])) +
-            sec('alt', 'k4', 'around the world', 'The same standard, anywhere', '<p>The campus standard is the same everywhere and local annexes cover local rules. A modeller trained in one country can take work in another by reading the local annex.</p>' + SAFE))
+            sec('alt', 'k4', 'around the world', 'The same standard, anywhere', '<p>The campus standard is the same everywhere and local annexes cover local rules. A modeller trained in one country can take work in another by reading the local annex.</p>' + ctas(('bim-projects.html', 'BIM project briefs'), ('campus-builds.html', 'Campus builds and climate annexes')) + SAFE))
     page('bim-career-pathways', 'BIM career pathways', 'How BIM academy levels become jobs, a portfolio and a global career.', body, ('bim-academy.html', 'BIM academy'), (LV[-1]['slug'] + '.html', LV[-1]['name']), ('campus-standards.html', 'Campus standards'))
 
 if __name__ == '__main__':

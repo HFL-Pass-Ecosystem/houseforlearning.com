@@ -110,3 +110,13 @@ a{text-underline-offset:3px}
 .th-more{max-width:100%;white-space:normal}
 .sec.op-host{overflow-x:clip}
 .tbl-wrap{overflow-x:auto;max-width:100%}.tbl-wrap table{border-collapse:collapse;width:100%;min-width:520px}.tbl-wrap caption{text-align:left;font-weight:600;padding:0 0 8px}.tbl-wrap th,.tbl-wrap td{border:1px solid #d9d3c0;padding:8px 10px;text-align:left;vertical-align:top}.tbl-wrap thead th{background:#f2eee2}
+/* Campus drawings: our own line art, shown as pictures on the campus pages. */
+.card-art{display:block;width:100%;height:auto;border-radius:8px;border:1px solid var(--line);background:#fff;margin-bottom:4px}
+.cards-art{grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.campus-fig{margin:0 auto 20px;max-width:880px}
+.campus-fig .fig-art{display:block;width:100%;height:auto;border-radius:12px;border:1px solid var(--line);background:#fff;box-shadow:0 10px 30px rgba(12,26,36,.12)}
+.campus-fig figcaption{margin-top:8px;font-size:14px;color:var(--muted);text-align:center}
+.plan-key{display:flex;flex-wrap:wrap;gap:6px 16px;margin:8px 0 0;padding:0;list-style:none;font-size:14px;color:var(--muted)}
+.plan-key span{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.pk-learn{background:#0F85DB}.pk-work{background:#7FB8E6}.pk-focus{background:#0B6CB3}.pk-collaborate{background:#3CC261}.pk-welcome{background:#8FD9A4}.pk-care{background:#F2C14E}.pk-support{background:#D9B98A}.pk-move{background:#D5DCE3}
+.ws-table th code{white-space:nowrap}
