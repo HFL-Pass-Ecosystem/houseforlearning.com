@@ -8,6 +8,7 @@ no names of people or firms and no addresses. Runs after build_campus_spaces."""
 import html
 import build_campus_bim as B
 import campus_bim_data as D
+import build_campus_spaces as SP
 e = html.escape
 sec, ul, table, hero, ctas, SAFE = B.sec, B.ul, B.table, B.hero, B.ctas, B.SAFE
 HUB = ('build-partners.html', 'Build Partners Club')
@@ -172,6 +173,7 @@ def club_body():
     return (hero('closed space · by invitation', 'Build Partners Club', 'One club for everyone who designs, builds, fits and looks after our campuses. One space, one specification, one source of truth.',
                  ctas(('build-partners-csi.html', 'Open the specification'), ('build-partners-packs.html', 'Find your pack'))) +
             gate(f'<section class="sec" aria-label="A campus entrance"><div class="wrap"><figure class="campus-fig"><img class="fig-art" src="assets/campus/look.svg" alt="Drawing of a campus entrance with our values on the wall, a wall of honour and a room name on glass." width="640" height="320" decoding="async"></figure></div></section>\n' +
+                 sec('', 'c0', 'concept renders', 'The campus we are building', '<p>All fifteen concept renders of the campus interior. Use them with the specification: the render shows the intent, the section number sets the requirement.</p>' + SP.render_grid(False)) +
                  sec('alt', 'c1', 'six kinds of partner', 'Who the club is for', cards) +
                  sec('', 'c2', 'single source of truth', 'Seven rules everyone works by', ul(TRUTH)) +
                  sec('alt', 'c3', 'what is here', 'Everything in one place', '<ul class="cards">'

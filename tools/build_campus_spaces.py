@@ -207,12 +207,35 @@ TZ_TECH = [('Main screen', 'A large 4K display on a stand with wheels, or a proj
 TZ_SEQ = [('Design and as-built drawings', '5'), ('Approvals', '3'), ('Site set-up and strip-out', '4'), ('Ceiling grid, partitions and first-fix power and cooling', '7'), ('Boarding, filling and second fix', '7'),
           ('Glass measured, made and fitted', '10, alongside other work'), ('Joinery: media wall and cabinets', '7'), ('Paint, writable finish, carpet and skirting', '7'), ('Lights, final fix, testing', '3'), ('Snagging and hand-over', '3')]
 
+RENDERS = [  # (number, width, height, caption, shown on public pages)
+    (1, 1273, 987, 'Reception: timber-slat ceiling, the welcome wall and a waiting lounge.', True),
+    (2, 1920, 1080, 'The hub: cafe tables beside the tiered steps, with the studio on the mezzanine.', True),
+    (3, 1920, 1080, 'The hub seen from the booths, under long lines of light.', True),
+    (4, 1920, 1080, 'Stair to the mezzanine, with lockers and comfort rooms below.', True),
+    (5, 1920, 1080, 'Coffee point beside the tiered steps.', True),
+    (6, 1920, 1080, 'Phone booths, the stair and the coffee point.', True),
+    (7, 1920, 1080, 'Tiered steps open to the studio floor.', True),
+    (8, 1920, 1080, 'Informal meeting tables in front of the tiered steps.', True),
+    (9, 1920, 1080, 'Open studio under the mezzanine, with quiet rooms behind glass.', False),
+    (10, 1920, 1080, 'Touch-down bar, informal meeting tables and the open studio.', False),
+    (11, 1920, 1080, 'Touch-down bar with hanging plants along the wall.', False),
+    (12, 1920, 1080, 'Touch-down bar under the timber ceiling.', False),
+    (13, 1920, 1080, 'Library: reading chairs between open shelves.', True),
+    (14, 1920, 1080, 'Library seen from the entrance wall.', True),
+    (15, 1920, 1080, 'Assembly room set out for a full audience.', True)]
+
+def render_grid(public_only=True):
+    return '<ul class="render-grid">' + ''.join(
+        f'<li><figure><img src="assets/campus/renders/render-{n:02d}.jpg" alt="Concept render. {e(c, quote=True)}" width="{w}" height="{h}" loading="lazy" decoding="async"><figcaption>{e(c)}</figcaption></figure></li>'
+        for n, w, h, c, pub in RENDERS if pub or not public_only) + '</ul>'
+
 def card_img(slug, alt): return f'<img class="card-art" src="assets/campus/{slug}.svg" alt="{e(alt, quote=True)}" width="{W}" height="{VH}" loading="lazy" decoding="async">'
 
 def spaces_body():
     out = hero('every campus, one look', 'Campus spaces', 'Twenty kinds of space make a campus of ours, in three families. Each has one clear purpose, the same calm look and the same level of care, in every country.',
                ctas(('campus-training-zone.html', 'See the training zone'), ('campus-builds.html', 'Campus builds'), ('campus-standards.html', 'Campus standards')))
-    out += f'<section class="sec" aria-label="A view of a campus lounge"><div class="wrap"><figure class="campus-fig">{card_img("lounge", "Drawing of a campus lounge: soft blue seating lit from below, plants on a timber shelf and a wide window.").replace("card-art", "fig-art").replace(" loading=\"lazy\"", "")}</figure></div></section>\n'
+    out += '<section class="sec" aria-label="A view of the campus hub"><div class="wrap"><figure class="campus-fig"><img class="fig-art" src="assets/campus/renders/render-07.jpg" alt="Concept render of the campus hub: timber tiered steps, informal meeting tables and the open studio beyond." width="1920" height="1080" decoding="async"><figcaption>Concept render: the hub, where the tiered steps meet the studio floor.</figcaption></figure></div></section>\n'
+    out += sec('', 's0', 'concept renders', 'How a campus of ours looks', '<p>These are concept renders of a campus interior, drawn to our standards. Each one shows spaces described further down this page.</p>' + render_grid())
     out += sec('alt', 's1', 'four ideas', 'What guides every space', '<ul class="cards">' + ''.join(f'<li class="card"><span class="tag">{e(a.lower())}</span><h3>{e(b)}</h3><p>{e(c)}</p></li>' for a, b, c in PRINCIPLES) + '</ul>')
     for k, (fam, lede) in enumerate(FAMILIES):
         cards = '<ul class="cards cards-art">' + ''.join(
