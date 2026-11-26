@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="messages-api" content="/api/messages">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pathways by sector | House for Learning</title>
+<meta name="description" content="Explore course and career pathways by sector: the career ladder each pathway leads to, and the short courses that build each step.">
+<link rel="canonical" href="https://houseforlearning.com/pathways-atlas.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="House for Learning">
+<meta property="og:title" content="Pathways by sector | House for Learning">
+<meta property="og:description" content="Explore course and career pathways by sector, from short courses to career steps.">
+<meta property="og:url" content="https://houseforlearning.com/pathways-atlas.html">
+<meta property="og:locale" content="en_GB">
+<meta name="app-url" content="">
+<meta name="contact-url" content="contact.html">
+<meta name="theme-color" content="#2b5d8a">
+<link rel="icon" href="assets/brand/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/brand/favicon-192.png"><link rel="apple-touch-icon" href="assets/brand/favicon-180.png">
+<link rel="stylesheet" href="assets/fonts/fonts.css"><link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/site-lux.css">
+<script src="assets/site.js" defer></script>
+<script src="assets/lang.js" defer></script>
+<link rel="stylesheet" href="assets/wayfind.css"><script src="assets/wayfind.js" defer></script><link rel="stylesheet" href="assets/howto-player.css"><script src="assets/howto-player.js" defer></script><link rel="stylesheet" href="assets/atle/atle.css"><script src="assets/atle/atle.js" defer></script><!-- seo-pass -->
+<meta property="og:image" content="https://houseforlearning.com/assets/brand/hfl-sbs-1200w.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Pathways by sector | House for Learning">
+<meta name="twitter:description" content="Explore course and career pathways by sector, from short courses to career steps.">
+
+<link rel="stylesheet" href="assets/hearyou/hearyou.css"><link rel="stylesheet" href="assets/hearyou/theme.css"><script src="assets/hearyou/settings.js" defer></script><script src="assets/hearyou/hearyou.js" defer></script>
+<style>
+.pa-wrap{max-width:1120px;margin:0 auto;padding:0 16px}
+.pa-hero{padding:48px 0 28px;background:var(--pa-bg,#f5f8fb)}
+.pa-kicker{font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:#2b5d8a;margin:0 0 8px;font-weight:600}
+.pa-hero h1{font-size:clamp(1.8rem,4.5vw,2.8rem);line-height:1.15;margin:0 0 12px;color:#17324d}
+.pa-hero p.lead{max-width:62ch;color:#334;margin:0 0 20px;font-size:1.05rem}
+.pa-stats{display:flex;flex-wrap:wrap;gap:12px}
+.pa-stat{background:#fff;border:1px solid #d7e2ec;border-radius:12px;padding:12px 18px;min-width:120px;color:#334}
+.pa-stat b{display:block;font-size:1.6rem;color:#17324d}
+.pa-sec{padding:36px 0}
+.pa-sec h2{font-size:1.5rem;margin:0 0 6px;color:#17324d}
+.pa-sec .sub{color:#4a5a68;margin:0 0 18px;max-width:70ch}
+.pa-grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.pa-tile{background:#fff;border:1px solid #d7e2ec;border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:8px}
+.pa-tile h3{margin:0;font-size:1.1rem;color:#17324d}
+.pa-tile p{margin:0;color:#4a5a68;font-size:.95rem}
+.pa-badge{display:inline-block;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;background:#e6f1e9;color:#1d5b33;border-radius:999px;padding:3px 10px;align-self:flex-start}
+.pa-btn{font:inherit;cursor:pointer;background:#2b5d8a;color:#fff;border:0;border-radius:10px;padding:10px 14px;min-height:44px;align-self:flex-start}
+.pa-btn:focus-visible,.pa-ctrl:focus-visible,.pa-card summary:focus-visible{outline:3px solid #f0b429;outline-offset:2px}
+.pa-levels{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));padding:0;margin:0;list-style:none}
+.pa-levels li{background:#fff;border-left:5px solid #2b5d8a;border-radius:10px;padding:12px 14px;border-top:1px solid #d7e2ec;border-right:1px solid #d7e2ec;border-bottom:1px solid #d7e2ec}
+.pa-levels b{display:block;color:#17324d}
+.pa-levels span{font-size:.9rem;color:#4a5a68}
+.pa-controls{display:grid;gap:10px;grid-template-columns:1fr;margin-bottom:16px}
+@media (min-width:700px){.pa-controls{grid-template-columns:2fr 1fr}}
+.pa-ctrl{font:inherit;padding:12px 14px;min-height:44px;border:1px solid #9fb3c4;border-radius:10px;background:#fff;color:#17324d;width:100%;box-sizing:border-box}
+.pa-count{color:#4a5a68;margin:0 0 12px;font-size:.95rem}
+.pa-list{display:grid;gap:14px}
+.pa-card{background:#fff;border:1px solid #d7e2ec;border-radius:14px;padding:18px}
+.pa-card h3{margin:2px 0 4px;font-size:1.2rem;color:#17324d}
+.pa-card .sector{font-size:.85rem;color:#4a5a68;margin:0}
+.pa-trade{color:#334;margin:8px 0 10px;font-size:.95rem}
+.pa-ladder{display:flex;flex-wrap:wrap;gap:6px;list-style:none;padding:0;margin:0 0 10px}
+.pa-ladder li{background:#eef4f9;color:#17324d;border-radius:8px;padding:6px 10px;font-size:.88rem}
+.pa-ladder li+li::before{content:"\2192";margin-right:6px;color:#2b5d8a}
+.pa-meta{font-size:.88rem;color:#4a5a68;margin:0 0 6px}
+.pa-card details summary{cursor:pointer;color:#2b5d8a;font-weight:600;padding:8px 0;min-height:44px;display:flex;align-items:center}
+.pa-lvl{margin:14px 0 6px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:#4a5a68;font-weight:700}
+.pa-course{border-top:1px solid #e3ebf2;padding:10px 0}
+.pa-course b{color:#17324d}
+.pa-course ul{margin:6px 0 0 18px;padding:0;color:#334;font-size:.92rem}
+.pa-course small{display:block;color:#5a6a78;margin-top:4px;font-size:.82rem}
+.pa-empty{background:#fff;border:1px dashed #9fb3c4;border-radius:12px;padding:18px;color:#4a5a68}
+.pa-steps{counter-reset:s;display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));padding:0;list-style:none;margin:0}
+.pa-steps li{counter-increment:s;background:#fff;border:1px solid #d7e2ec;border-radius:12px;padding:16px 16px 16px 56px;position:relative;color:#334}
+.pa-steps li::before{content:counter(s);position:absolute;left:14px;top:14px;width:30px;height:30px;border-radius:50%;background:#2b5d8a;color:#fff;display:grid;place-items:center;font-weight:700}
+.pa-note{font-size:.92rem;color:#4a5a68;max-width:75ch}
+@media (max-width:480px){.pa-hero{padding-top:32px}.pa-stat{flex:1 1 40%}}
+
+</style>
+<body class="learn">
+<a class="skip" href="#main">Skip to content</a><div class="atle-rib" data-atle="ribbon"><a href="atle.html" aria-label="ATLE(it): Author it, Train it, Learn it, Earn it"><img src="assets/atle/atle-logo.svg" alt="" width="60" height="22"><span>Author it, Train it, Learn it, Earn it</span></a></div>
+<header class="site-head"><div class="wrap head-row"><a class="brand" href="index.html" aria-label="House for Learning, home"><img class="brand-logo" src="assets/brand/hfl-sbs-600w.png" srcset="assets/brand/hfl-sbs-300w.png 300w,assets/brand/hfl-sbs-600w.png 600w,assets/brand/hfl-sbs-1200w.png 1200w" sizes="60px" alt="" width="56" height="44"></a><button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle><span class="bars" aria-hidden="true"></span>Menu</button><nav class="site-nav" id="site-nav" aria-label="Main"><ul class="nav-groups"><li class="has-sub is-current"><button class="sub-btn" type="button" aria-expanded="false" aria-controls="sub-0">Learn</button><ul class="sub" id="sub-0"><li><a href="catalogue.html">Course catalogue</a></li><li><a href="courses.html">All courses</a></li><li><a href="learning-tracks.html">Learning tracks</a></li><li><a href="pathways.html">Pathways</a></li><li><a href="career-pathways.html" aria-current="page">Career pathways</a></li><li><a href="canada-pathways.html">Study and work in Canada</a></li><li><a href="electrical-academy.html">Electrical academy</a></li><li><a href="campus-standards.html">Campus standards</a></li><li><a href="bim-academy.html">BIM academy</a></li><li><a href="training-by-segment.html">Training by segment</a></li><li><a href="executive-programme.html">Executive programme</a></li><li><a href="emba.html">Executive MBA subjects</a></li><li><a href="mba/index.html">Online MBA</a></li><li><a href="how-learning-works.html">How learning works</a></li><li><a href="webinars.html">Webinars</a></li><li><a href="onboarding.html">Onboarding</a></li><li><a href="yoga.html">Yoga for life</a></li></ul></li><li class="has-sub"><button class="sub-btn" type="button" aria-expanded="false" aria-controls="sub-1">Products</button><ul class="sub" id="sub-1"><li><a href="products.html">All products</a></li><li><a href="studio/index.html">Studio</a></li><li><a href="platform.html">Platform</a></li><li><a href="marketplace.html">Marketplace</a></li><li><a href="business-systems.html">Business systems</a></li><li><a href="insights.html">Insights</a></li></ul></li><li class="has-sub"><button class="sub-btn" type="button" aria-expanded="false" aria-controls="sub-2">Organisations</button><ul class="sub" id="sub-2"><li><a href="organisations.html">All organisations</a></li><li><a href="workplace.html">Workplace</a></li><li><a href="academies.html">Technical academies</a></li><li><a href="sectors.html">Sectors we serve</a></li><li><a href="services.html">Services</a></li><li><a href="how-we-help.html">How we help</a></li><li><a href="partner.html">Partner with us</a></li></ul></li><li class="has-sub"><button class="sub-btn" type="button" aria-expanded="false" aria-controls="sub-3">Membership</button><ul class="sub" id="sub-3"><li><a href="membership.html">About membership</a></li><li><a href="join.html">Join</a></li><li><a href="credits.html">How credits stack</a></li><li><a href="credentials.html">Credentials and assessment</a></li><li><a href="payments.html">Payments</a></li></ul></li><li class="has-sub"><button class="sub-btn" type="button" aria-expanded="false" aria-controls="sub-4">Help</button><ul class="sub" id="sub-4"><li><a href="about.html">About</a></li><li><a href="team.html">Team roles</a></li><li><a href="support.html">Support and access</a></li><li><a href="faq.html">Questions (FAQ)</a></li><li><a href="safety.html">Safety</a></li><li><a href="cookies.html">Cookies</a></li><li><a href="contact.html">Contact</a></li></ul></li></ul><div class="head-actions"><button class="btn btn-sm btn-ghost lang-btn" type="button" aria-expanded="false" aria-controls="lang-panel" aria-haspopup="dialog" title="Language" data-lang-toggle><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M2.5 12h19M12 2.5c3.2 3.4 3.2 15.6 0 19M12 2.5c-3.2 3.4-3.2 15.6 0 19" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><span class="btn-label">Language</span></button><a class="btn btn-sm" href="login.html">Members login</a></div></nav></div><div class="trail"><div class="wrap trail-row"><a class="trail-btn" href="index.html" data-hist="back"><span aria-hidden="true">&larr;</span> Back</a><button class="trail-btn" type="button" data-hist="forward">Forward <span aria-hidden="true">&rarr;</span></button><nav aria-label="You are here"><ol class="crumbs"><li><a href="index.html">Home</a></li><li aria-current="page">Career pathways</li></ol></nav></div></div></header>
+<main id="main" tabindex="-1">
+<section class="pa-hero" aria-labelledby="pa-h1"><div class="pa-wrap">
+<p class="pa-kicker">course and career pathways · by sector</p>
+<h1 id="pa-h1">From short courses to career steps</h1>
+<p class="lead">Pick a sector to see the career ladder each pathway leads to, and the courses that build each step. Energy and semiconductors and electronics are our priority sectors.</p>
+<div class="pa-stats" aria-live="polite">
+<div class="pa-stat"><b id="pa-st-p">–</b>pathways</div>
+<div class="pa-stat"><b id="pa-st-c">–</b>courses</div>
+<div class="pa-stat"><b id="pa-st-s">–</b>sectors</div>
+</div>
+</div></section>
+
+<section class="pa-sec" aria-labelledby="pa-prio"><div class="pa-wrap">
+<h2 id="pa-prio">Priority sectors</h2>
+<p class="sub">Start here. Each card opens the pathways in that sector.</p>
+<div class="pa-grid" id="pa-prio-grid"></div>
+</div></section>
+
+<section class="pa-sec" aria-labelledby="pa-how"><div class="pa-wrap">
+<h2 id="pa-how">How a pathway works</h2>
+<p class="sub">Every pathway has a ladder of roles. Each course is one step that qualifies you for the next rung.</p>
+<ol class="pa-steps">
+<li><b>Choose a sector and pathway.</b> Each pathway names the career it prepares you for.</li>
+<li><b>Follow the ladder.</b> Each pathway shows its roles from entry level to leadership.</li>
+<li><b>Take the courses in order.</b> Courses rise from Foundation to Professional, with hands-on practice.</li>
+</ol>
+</div></section>
+
+<section class="pa-sec" aria-labelledby="pa-lv"><div class="pa-wrap">
+<h2 id="pa-lv">The 1 to 7 level scale</h2>
+<p class="sub">HFL describes competence on seven levels, from Beginner to Guru. Use it to see how far a pathway takes you.</p>
+<ul class="pa-levels">
+<li><b>1 · Beginner</b><span>Basic awareness of the field.</span></li>
+<li><b>2 · Foundation</b><span>Carries out routine tasks with guidance.</span></li>
+<li><b>3 · Practitioner</b><span>Does the standard work of the role independently.</span></li>
+<li><b>4 · Specialist</b><span>Handles non-routine problems and supervises a small team.</span></li>
+<li><b>5 · Expert</b><span>Designs solutions and leads projects and teams.</span></li>
+<li><b>6 · Master</b><span>Sets direction for a department or business line.</span></li>
+<li><b>7 · Guru</b><span>Shapes the field and sets the standards others follow.</span></li>
+</ul>
+</div></section>
+
+<section class="pa-sec" aria-labelledby="pa-ex"><div class="pa-wrap">
+<h2 id="pa-ex">Explore all pathways</h2>
+<p class="sub">Search by career, trade or course, or filter by sector.</p>
+<div class="pa-controls">
+<label class="pa-sr" for="pa-q" style="position:absolute;left:-9999px">Search pathways</label>
+<input class="pa-ctrl" id="pa-q" type="search" placeholder="Search pathways, roles or courses" autocomplete="off">
+<label class="pa-sr" for="pa-sector" style="position:absolute;left:-9999px">Sector</label>
+<select class="pa-ctrl" id="pa-sector"><option value="">All sectors</option></select>
+</div>
+<p class="pa-count" id="pa-count" aria-live="polite"></p>
+<div class="pa-list" id="pa-list"></div>
+</div></section>
+
+<section class="pa-sec" aria-labelledby="pa-rights"><div class="pa-wrap">
+<h2 id="pa-rights">About the sources</h2>
+<p class="pa-note">Courses are built from public-domain and openly licensed books, plus HFL's own material. Each course names its source. Books still under copyright are not shown.</p>
+</div></section>
+</main>
+<script>
+(function(){
+  var DATA_URL = 'assets/pathways/pathways-v2.json';
+  var state = { data: null };
+  var el = function(tag, attrs, text){
+    var n = document.createElement(tag);
+    if (attrs) Object.keys(attrs).forEach(function(k){ n.setAttribute(k, attrs[k]); });
+    if (text !== undefined && text !== null) n.textContent = text;
+    return n;
+  };
+  var LEVEL_ORDER = ['Foundation','Diploma','Advanced','Professional'];
+  function courseList(p){
+    var wrap = el('div');
+    LEVEL_ORDER.forEach(function(lv){
+      var items = p.courses.filter(function(c){ return c.level === lv; });
+      if (!items.length) return;
+      wrap.appendChild(el('div', {'class':'pa-lvl'}, lv + ' · ' + items.length + (items.length === 1 ? ' course' : ' courses')));
+      items.forEach(function(c){
+        var box = el('div', {'class':'pa-course'});
+        box.appendChild(el('b', null, c.title));
+        box.appendChild(el('div', {'class':'pa-meta'}, c.hours + ' hours · ' + c.mode));
+        if (c.outcomes && c.outcomes.length){
+          var ul = el('ul');
+          c.outcomes.forEach(function(o){ ul.appendChild(el('li', null, o)); });
+          box.appendChild(ul);
+        }
+        box.appendChild(el('small', null, 'Source: ' + c.source.title + (c.source.year ? ' (' + c.source.year + ')' : '') + ' · ' + c.source.rights));
+        wrap.appendChild(box);
+      });
+    });
+    return wrap;
+  }
+  function card(p){
+    var art = el('article', {'class':'pa-card'});
+    art.appendChild(el('p', {'class':'sector'}, p.code + ' · ' + p.sector));
+    art.appendChild(el('h3', null, p.name));
+    art.appendChild(el('p', {'class':'pa-trade'}, 'Trade for today: ' + p.trade));
+    var lad = el('ol', {'class':'pa-ladder', 'aria-label':'Career ladder'});
+    p.ladder.forEach(function(step){ lad.appendChild(el('li', null, step)); });
+    art.appendChild(lad);
+    art.appendChild(el('p', {'class':'pa-meta'}, p.course_count + ' courses · ' + p.hours + ' learning hours'));
+    var det = el('details');
+    det.appendChild(el('summary', null, 'Show the courses'));
+    var loaded = false;
+    det.addEventListener('toggle', function(){
+      if (det.open && !loaded){ det.appendChild(courseList(p)); loaded = true; }
+    });
+    art.appendChild(det);
+    return art;
+  }
+  function render(){
+    var q = document.getElementById('pa-q').value.trim().toLowerCase();
+    var sec = document.getElementById('pa-sector').value;
+    var list = document.getElementById('pa-list');
+    list.textContent = '';
+    var hits = state.data.pathways.filter(function(p){
+      if (sec && p.sector_code !== sec) return false;
+      if (!q) return true;
+      var hay = (p.name + ' ' + p.sector + ' ' + p.trade + ' ' + p.ladder.join(' ') + ' ' + p.code).toLowerCase();
+      return hay.indexOf(q) !== -1;
+    });
+    document.getElementById('pa-count').textContent = hits.length + (hits.length === 1 ? ' pathway' : ' pathways') + ' shown';
+    if (!hits.length){ list.appendChild(el('div', {'class':'pa-empty'}, 'No pathway matches. Try another word or choose All sectors.')); return; }
+    hits.slice(0, 60).forEach(function(p){ list.appendChild(card(p)); });
+    if (hits.length > 60) list.appendChild(el('p', {'class':'pa-note'}, 'Showing the first 60. Narrow your search to see more.'));
+  }
+  function prio(){
+    var grid = document.getElementById('pa-prio-grid');
+    state.data.sectors.filter(function(s){ return s.code === 'S12' || s.code === 'S13'; }).forEach(function(s){
+      var count = state.data.pathways.filter(function(p){ return p.sector_code === s.code; }).length;
+      var t = el('div', {'class':'pa-tile'});
+      t.appendChild(el('span', {'class':'pa-badge'}, 'Priority'));
+      t.appendChild(el('h3', null, s.name));
+      t.appendChild(el('p', null, count + ' pathways ready to explore.'));
+      var b = el('button', {'class':'pa-btn', 'type':'button'}, 'Show these pathways');
+      b.addEventListener('click', function(){
+        document.getElementById('pa-sector').value = s.code;
+        document.getElementById('pa-q').value = '';
+        render();
+        document.getElementById('pa-ex').scrollIntoView({behavior:'smooth', block:'start'});
+      });
+      t.appendChild(b);
+      grid.appendChild(t);
+    });
+  }
+  function init(d){
+    state.data = d;
+    document.getElementById('pa-st-p').textContent = d.totals.pathways;
+    document.getElementById('pa-st-c').textContent = d.totals.courses.toLocaleString('en-GB');
+    document.getElementById('pa-st-s').textContent = d.sectors.length;
+    var sel = document.getElementById('pa-sector');
+    d.sectors.forEach(function(s){ sel.appendChild(el('option', {value: s.code}, s.name)); });
+    prio();
+    document.getElementById('pa-q').addEventListener('input', render);
+    sel.addEventListener('change', render);
+    render();
+  }
+  fetch(DATA_URL).then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+    .then(init)
+    .catch(function(){ document.getElementById('pa-count').textContent = 'The pathway list could not load. Please refresh the page.'; });
+})();
+
+</script>
+</main>
+<footer class="site-foot"><div class="wrap"><div class="foot-top"><div class="foot-brand"><img class="foot-logo" loading="lazy" decoding="async" src="assets/brand/hfl-vertical-dark-400w.png" srcset="assets/brand/hfl-vertical-dark-400w.png 400w,assets/brand/hfl-vertical-dark-800w.png 800w" sizes="80px" alt="House for Learning" width="62" height="110"><p>Short units, pathways and live classes that train the head, the heart and the hands.</p><p lang="sa" hidden><em>Hiranyagarbha Phalaprada Lokahitaya</em></p><p><a href="contact.html">Contact us</a></p></div><nav class="foot-col" aria-label="Legal"><h2>Site</h2><ul><li><a href="privacy.html">Privacy</a></li><li><a href="cookies.html">Cookies</a></li><li><a href="terms.html">Terms</a></li><li><a href="contact.html">Contact</a></li></ul></nav></div><div class="rule"></div><p class="foot-notice">Please arrange everything with us through this website and the contact details shown on it: we only recognise what is agreed here. Anything arranged with our staff, channels or suppliers outside the website is at your own risk, and we cannot be responsible for it. If someone contacts you claiming to act for us elsewhere, please tell us. <a href="terms.html#platform">Dealing with us safely</a></p><div class="rule"></div><div class="row legal"><span>&copy; 2026 House for Learning. All rights reserved. Marks shown with &trade; are our trademarks.</span><a href="rights-and-licensing.html">Rights and licensing</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="cookies.html">Cookies</a><a href="contact.html">Contact</a></div></div><div class="atle-foot" data-atle="foot"><a href="atle.html" aria-label="ATLE(it): Author it, Train it, Learn it, Earn it"><img src="assets/atle/atle-logo.svg" alt="ATLE(it)" width="82" height="30"></a><span>Author it, Train it, Learn it, Earn it. <a href="atle.html">Start here</a>.</span></div></footer>
+<!-- Privacy notice: no analytics or trackers are installed. The choice is kept in this browser only (localStorage); Manage preferences opens the Privacy choices panel from assets/lang.js. --><div class="cookie" role="region" aria-label="Privacy notice" hidden data-key="learn-cookie-choice" data-api="/api/opinions" data-privacy="privacy.html" data-site="House for Learning" data-said="you-said.html"><p>We set no advertising or tracking cookies and share nothing with outside partners. Your browser keeps only your own choices. <a href="privacy.html">Privacy statement</a></p><div class="cookie-actions"><button class="btn btn-sm btn-ghost" type="button" data-consent-manage>Manage preferences</button><button class="btn btn-sm" type="button" data-cookie="declined">Reject all</button><button class="btn btn-sm" type="button" data-cookie="accepted">Accept all</button></div></div>
+<!-- ASK BUTTON (off, "Coming soon"): "Ask Loka" from assets/ask.js. Switch it on only after the members app is online and the feature has been checked, by filling meta app-url and removing the comment marks around the next line.
+<script src="assets/ask.js" defer></script>
+-->
+</body>
+</html>
